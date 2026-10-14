@@ -30,10 +30,21 @@ app/  (PWA no GitHub Pages)  ──token pessoal (só no aparelho)──▶  API
 | `src/tipos.ts` | Formato do `projeto.json` (o que o editor altera, a prévia mostra e o render usa). |
 | `projetos/<id>/` | Projetos salvos pelo app + arquivos gerados pelas Actions (áudio, imagens, prévia). |
 | `public/` | Fontes, efeitos sonoros, ícones do app e os exemplos. |
-| `scripts/` | Render (`renderizar.mjs`), conversão do Astra (`astra.mjs`), efeitos sonoros. |
+| `scripts/` | Render (`renderizar.mjs`), Modo 2 (`processar_bruto.py`), junção segura do resultado das Actions (`aplicar_resultado.py`, `salvar_no_repo.sh`), conversão do Astra (`astra.mjs`). |
 
-Arquivos grandes (vídeo bruto enviado do celular e MP4 exportados) ficam em **releases** do repositório
-(`brutos` e `exportes`), não no histórico do git.
+Arquivos grandes ficam em **releases** do repositório, não no histórico do git: o vídeo normalizado
+para o render (`brutos`) e os MP4 exportados (`exportes`). O vídeo da galeria sobe do celular em partes
+de 12 MB para um ramo temporário `envio/<id>` (só pela api.github.com, que aceita chamadas do
+navegador); a Action junta as partes e apaga o ramo.
+
+### Modo 2 — o que a Action `processar-bruto.yml` faz
+
+1. Remonta o vídeo enviado e normaliza (H.264, 30 fps, lado maior ≤ 1920) → release `brutos`.
+2. Gera `projetos/<id>/previa.mp4` (leve, keyframes frequentes) para a prévia no celular.
+3. Transcreve com **faster-whisper** (`medium` ou `small`, pt, tempo por palavra, VAD).
+4. Aplica o estilo: no **Legenda impacto**, destaca números e palavras fortes, faz *punch-in*
+   de zoom nelas e corta as pausas maiores que o limite escolhido.
+5. Junta o resultado ao `projeto.json` mais recente (sem apagar o que você editou) e faz o commit.
 
 ## Configurar (uma vez)
 
@@ -60,7 +71,7 @@ node scripts/renderizar.mjs <id>   # MP4 de projetos/<id>/ em out/<id>.mp4
 ## Etapas
 
 1. ✅ Estrutura do app + editor com prévia ao vivo + exportar
-2. ⏳ Modo 2 com o estilo “Legenda impacto” (envio do vídeo, transcrição faster-whisper)
+2. ✅ Modo 2 com o estilo “Legenda impacto” (envio do vídeo, transcrição faster-whisper)
 3. ⏳ Modo 1 (roteiro com o Claude, voz, imagens)
 4. ⏳ Demais estilos e sugestões da IA
 

@@ -38,6 +38,14 @@ export const local = {
   arquivo: (id: string, caminho: string) => op<Blob | undefined>("arquivos", "readonly", (s) => s.get(`${id}/${caminho}`)),
   salvarArquivo: (id: string, caminho: string, b: Blob) => op("arquivos", "readwrite", (s) => s.put(b, `${id}/${caminho}`)),
   apagarArquivo: (id: string, caminho: string) => op("arquivos", "readwrite", (s) => s.delete(`${id}/${caminho}`)),
+  // apaga cópias baixadas do GitHub (que podem ter mudado), mantendo as da lista
+  limparCache: async (id: string, manter: string[]) => {
+    const chaves = await op<IDBValidKey[]>("arquivos", "readonly", (s) => s.getAllKeys(IDBKeyRange.bound(`${id}/`, `${id}/\uffff`)));
+    for (const k of chaves) {
+      const caminho = String(k).slice(id.length + 1);
+      if (!manter.includes(caminho)) await op("arquivos", "readwrite", (s) => s.delete(k));
+    }
+  },
 };
 
 // Pede ao navegador para não apagar os dados do app quando faltar espaço

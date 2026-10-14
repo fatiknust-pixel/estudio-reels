@@ -237,3 +237,62 @@ export const testarAcesso = async () => {
   const repo = await json("");
   return { nome: repo.full_name as string, privado: repo.private as boolean, permissoes: repo.permissions as Record<string, boolean> | undefined };
 };
+
+// ---------- envio de arquivo grande em partes (ramo temporário envio/<id>) ----------
+// Usa só api.github.com (que aceita chamadas do navegador). A Action junta as partes e apaga o ramo.
+const PARTE = 12 * 1024 * 1024;
+
+const postarComProgresso = (caminho: string, corpo: string, progresso?: (f: number) => void) =>
+  new Promise<any>((ok, erro) => {
+    const c = lerConfig();
+    const x = new XMLHttpRequest();
+    x.open("POST", `https://api.github.com/repos/${c.dono}/${c.repo}${caminho}`);
+    x.setRequestHeader("Authorization", `Bearer ${c.token}`);
+    x.setRequestHeader("Accept", "application/vnd.github+json");
+    x.setRequestHeader("X-GitHub-Api-Version", "2022-11-28");
+    x.setRequestHeader("Content-Type", "application/json");
+    x.upload.onprogress = (e) => e.lengthComputable && progresso?.(e.loaded / e.total);
+    x.onload = () => {
+      if (x.status >= 200 && x.status < 300) ok(JSON.parse(x.responseText));
+      else {
+        let msg = x.statusText;
+        try {
+          msg = JSON.parse(x.responseText).message ?? msg;
+        } catch {}
+        erro(new ErroGitHub(x.status, explicar(x.status, msg)));
+      }
+    };
+    x.onerror = () => erro(new ErroGitHub(0, "Falha de rede no envio. Confira a conexão e tente de novo."));
+    x.send(corpo);
+  });
+
+export const enviarEmPartes = async (ramo: string, arquivo: Blob, info: Record<string, any>, progresso: (f: number) => void) => {
+  const total = Math.max(1, Math.ceil(arquivo.size / PARTE));
+  const arvore: { path: string; mode: string; type: string; sha: string }[] = [];
+  for (let k = 0; k < total; k++) {
+    const pedaco = arquivo.slice(k * PARTE, (k + 1) * PARTE);
+    const conteudo = await b64deBlob(pedaco);
+    let blob: any;
+    for (let tentativa = 0; ; tentativa++) {
+      try {
+        blob = await postarComProgresso("/git/blobs", JSON.stringify({ content: conteudo, encoding: "base64" }), (f) => progresso((k + f) / total));
+        break;
+      } catch (e) {
+        if (tentativa >= 2 || (e instanceof ErroGitHub && e.status >= 400 && e.status < 500)) throw e;
+        await new Promise((r) => setTimeout(r, 2000 * (tentativa + 1)));
+      }
+    }
+    arvore.push({ path: `parte-${String(k).padStart(3, "0")}`, mode: "100644", type: "blob", sha: blob.sha });
+  }
+  const infoBlob = await json("/git/blobs", { method: "POST", body: JSON.stringify({ content: JSON.stringify({ ...info, partes: total, tamanho: arquivo.size }), encoding: "utf-8" }) });
+  arvore.push({ path: "info.json", mode: "100644", type: "blob", sha: infoBlob.sha });
+  const tree = await json("/git/trees", { method: "POST", body: JSON.stringify({ tree: arvore }) });
+  const commit = await json("/git/commits", { method: "POST", body: JSON.stringify({ message: `Envio ${ramo}`, tree: tree.sha }) });
+  try {
+    await json("/git/refs", { method: "POST", body: JSON.stringify({ ref: `refs/heads/${ramo}`, sha: commit.sha }) });
+  } catch (e) {
+    if (!(e instanceof ErroGitHub && e.status === 422)) throw e;
+    await json(`/git/refs/heads/${ramo}`, { method: "PATCH", body: JSON.stringify({ sha: commit.sha, force: true }) });
+  }
+  progresso(1);
+};

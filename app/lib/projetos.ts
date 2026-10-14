@@ -1,5 +1,6 @@
 // Projetos: rascunho no aparelho + cópia oficial no GitHub (projetos/<id>/projeto.json).
-import { Projeto } from "../../src/tipos";
+import { EFEITOS_PADRAO, LEGENDA_PADRAO, Projeto } from "../../src/tipos";
+import { EstiloPronto } from "../estilos";
 import demoBruto from "../demos/demo-bruto.json";
 import demoIA from "../demos/demo-ia.json";
 import * as gh from "./github";
@@ -120,6 +121,59 @@ export const salvarNoGitHub = async (p: Projeto, aviso?: (msg: string) => void) 
 export const apagarDoAparelho = async (id: string) => {
   await local.apagarProjeto(id);
   limparSujo(id);
+};
+
+// ---------- criar ----------
+export const novoIdProjeto = (prefixo: string) => {
+  const d = new Date();
+  const data = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}`;
+  return `${prefixo}-${data}-${Math.random().toString(36).slice(2, 6)}`;
+};
+
+export type MetaVideo = { duracao: number; largura: number; altura: number };
+
+export const projetoBruto = (id: string, titulo: string, estilo: EstiloPronto, meta: MetaVideo, opcoes: Projeto["processamento"]): Projeto => {
+  const agora = new Date().toISOString();
+  return {
+    versao: 1, id, titulo, modo: "bruto", estilo: estilo.id, tema: estilo.tema, criadoEm: agora, atualizadoEm: agora, status: "processando",
+    legenda: { ...LEGENDA_PADRAO, ...estilo.legenda },
+    efeitos: { ...structuredClone(EFEITOS_PADRAO), ...structuredClone(estilo.efeitos ?? {}) },
+    video: { arquivo: "video.mp4", duracao: meta.duracao, largura: meta.largura, altura: meta.altura, enquadramento: "preencher", focoX: 50, volume: 1, ...(estilo.video ?? {}) },
+    palavras: [],
+    cortes: [],
+    processamento: { ...opcoes, workflow: "processar-bruto.yml" },
+  };
+};
+
+// Envia o vídeo, salva o projeto e pede a transcrição. "tocavel": o navegador consegue tocar o original.
+export const criarBruto = async (p: Projeto, arquivo: File, tocavel: boolean, fase: (texto: string, fracao?: number) => void) => {
+  p.processamento = { ...p.processamento, pedidoEm: new Date().toISOString() };
+  await local.salvarProjeto(p);
+  if (tocavel) await local.salvarArquivo(p.id, p.video!.arquivo, arquivo);
+  fase("Enviando o vídeo", 0);
+  await gh.enviarEmPartes(`envio/${p.id}`, arquivo, { nome: arquivo.name, tipo: arquivo.type }, (f) => fase("Enviando o vídeo", f));
+  fase("Salvando o projeto");
+  await salvarNoGitHub(p);
+  fase("Pedindo a transcrição");
+  await gh.dispararWorkflow("processar-bruto.yml", { projeto: p.id, modelo: p.processamento?.modelo ?? "medium" });
+};
+
+// Depois que uma Action termina: traz o que ela gerou sem perder o que você mudou no aparelho
+const GERADOS = ["video", "palavras", "cenas", "narracao", "imagens", "fontesPesquisa", "voz", "sugestoes", "status", "processamento"] as const;
+export const trazerResultado = async (atual: Projeto): Promise<Projeto> => {
+  const remoto = await gh.lerJSON<Projeto>(`${pasta(atual.id)}/projeto.json`);
+  const novo: Projeto = structuredClone(atual);
+  for (const k of GERADOS) (novo as any)[k] = (remoto as any)[k];
+  if (!atual.cortes?.length) novo.cortes = remoto.cortes;
+  if (atual.modo === "ia" && remoto.titulo) novo.titulo = remoto.titulo;
+  novo.atualizadoEm = remoto.atualizadoEm;
+  // arquivos baixados antes podem ter mudado (voz nova, imagem nova): limpa o cache deste projeto
+  const pendentes = lerSujos()[atual.id] ?? [];
+  await local.limparCache(atual.id, [atual.video?.arquivo ?? "", ...pendentes].filter(Boolean));
+  for (const chave of [...urls.keys()]) if (chave.startsWith(`${atual.id}/`) && !chave.endsWith(`/${atual.video?.arquivo}`)) esquecerUrl(atual.id, chave.slice(atual.id.length + 1));
+  await local.salvarProjeto(novo);
+  if (!estaSujo(atual.id) || JSON.stringify(atual) === JSON.stringify(novo)) limparSujo(atual.id);
+  return novo;
 };
 
 // ---------- arquivos (áudio, imagens, vídeo) para a prévia ----------

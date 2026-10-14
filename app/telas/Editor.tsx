@@ -11,6 +11,7 @@ import { PainelEstilo } from "../editor/PainelEstilo";
 import { PainelExportar } from "../editor/PainelExportar";
 import { PainelImagens } from "../editor/PainelImagens";
 import { PainelLegendas } from "../editor/PainelLegendas";
+import { Processamento } from "../editor/Processamento";
 import { arquivoProjeto } from "../../src/arquivos";
 import { local } from "../lib/local";
 import { carregarArquivos, carregarProjeto, ehDemo, esquecerUrl, marcarSujo, recarregarDoGitHub, salvarNoGitHub, salvarRascunho } from "../lib/projetos";
@@ -174,6 +175,17 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
           <button className="btn icone chato" aria-label="Refazer" disabled={!h.podeRefazer} onClick={h.refazer}>↷</button>
           {!demo && <button className="btn icone chato" aria-label="Recarregar do GitHub" title="Descartar rascunho e recarregar do GitHub" onClick={() => confirm("Descartar as alterações não salvas e recarregar do GitHub?") && abrir(true)}>⟳</button>}
         </div>
+        {!demo && (p.status === "processando" || p.status === "erro") && (
+          <Processamento
+            projeto={p}
+            aoConcluir={(novo) => {
+              primeiro.current = true; // não conta como alteração sua
+              h.iniciar(novo);
+              setArquivos({});
+              carregarArquivos(novo, (m) => setArquivos((a) => ({ ...a, ...m }))).catch(avisarErro);
+            }}
+          />
+        )}
         <div className="ed-corpo">
           <div className="ed-previa">
             <div className="player">

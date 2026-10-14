@@ -1,0 +1,91 @@
+name: Processar vídeo bruto
+run-name: Processar ${{ inputs.projeto }}
+
+# Disparado pelo app depois de enviar um vídeo da galeria (Modo 2).
+# O app manda o vídeo em partes para o ramo temporário envio/<id>; aqui ele é
+# remontado, normalizado, transcrito (faster-whisper, pt, tempo por palavra) e o
+# projeto fica pronto para editar. O ramo temporário é apagado no fim.
+on:
+  workflow_dispatch:
+    inputs:
+      projeto:
+        description: "id do projeto (pasta em projetos/)"
+        required: true
+        type: string
+      modelo:
+        description: "Modelo do Whisper (small = rápido, medium = mais preciso)"
+        type: choice
+        options: [medium, small, large-v3]
+        default: medium
+
+permissions:
+  contents: write
+
+concurrency:
+  group: processar-${{ inputs.projeto }}
+  cancel-in-progress: true
+
+jobs:
+  processar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ID: ${{ inputs.projeto }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar id
+        run: |
+          if ! [[ "$ID" =~ ^[a-z0-9][a-z0-9-]{0,63}$ ]] || [ ! -f "projetos/$ID/projeto.json" ]; then
+            echo "::error::Projeto '$ID' não encontrado em projetos/"; exit 1
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/requisitos-bruto.txt
+
+      - name: Modelos do Whisper (cache)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-${{ inputs.modelo }}-v1
+
+      - name: Instalar
+        run: |
+          pip install -r .github/requisitos-bruto.txt
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Remontar o vídeo enviado
+        run: |
+          git fetch -q --depth=1 origin "envio/$ID"
+          mkdir -p out/envio
+          git archive FETCH_HEAD | tar -x -C out/envio
+          cat out/envio/info.json
+          cat $(ls out/envio/parte-* | sort) > out/original
+          ls -la out/original
+
+      - name: Normalizar e transcrever
+        run: |
+          python3 scripts/processar_bruto.py --original out/original --projeto "projetos/$ID/projeto.json" \
+            --fonte out/fonte.mp4 --previa "projetos/$ID/previa.mp4" --saida out/resultado.json --modelo "${{ inputs.modelo }}"
+
+      - name: Guardar vídeo para o render (release "brutos")
+        run: |
+          gh release view brutos > /dev/null 2>&1 || gh release create brutos --prerelease --title "Vídeos brutos" --notes "Vídeos enviados pelo Estúdio Reels (normalizados para o render)."
+          cp out/fonte.mp4 "out/$ID--fonte.mp4"
+          gh release upload brutos "out/$ID--fonte.mp4" --clobber
+
+      - name: Salvar projeto pronto
+        run: scripts/salvar_no_repo.sh "Processa vídeo bruto $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" --resultado out/resultado.json
+
+      - name: Apagar ramo temporário
+        run: git push -q origin --delete "envio/$ID" || true
+
+      - name: Marcar erro no projeto
+        if: failure()
+        run: |
+          scripts/salvar_no_repo.sh "Erro ao processar $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --erro "Falhou ao processar o vídeo. Veja o log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

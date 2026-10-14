@@ -72,6 +72,8 @@ export type Projeto = {
   criadoEm: string;
   atualizadoEm: string;
   status?: "rascunho" | "processando" | "pronto" | "erro";
+  // opções e situação do processamento feito pelas Actions
+  processamento?: { cortarPausas?: boolean; limitePausa?: number; idioma?: string; modelo?: string; erro?: string; workflow?: string; pedidoEm?: string };
   legenda: EstiloLegenda;
   efeitos: Efeitos;
   // bruto

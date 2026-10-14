@@ -171,3 +171,5 @@ input[type="color"] { width: 44px; height: 44px; border: none; background: none;
 .passos { display: grid; gap: 6px; margin: 12px 0; font-size: 14px; }
 .passos div { display: flex; gap: 8px; align-items: center; }
 .vazio-lista { padding: 18px; text-align: center; color: var(--suave); border: 1px dashed var(--linha); border-radius: 14px; font-size: 14px; }
+.girando { display: inline-block; animation: girar 2s linear infinite; }
+@keyframes girar { to { transform: rotate(360deg); } }
