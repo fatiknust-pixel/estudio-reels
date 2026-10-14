@@ -1,0 +1,29 @@
+import React from "react";
+import { AbsoluteFill, CalculateMetadataFunction } from "remotion";
+import { ProvedorVideo } from "./contexto";
+import { CamadaEfeitos } from "./componentes/Efeitos";
+import { Legenda } from "./componentes/Legenda";
+import { carregarFontes } from "./fontes";
+import { montarLinha } from "./linhaTempo";
+import { ModoBruto } from "./ModoBruto";
+import { ModoIA } from "./ModoIA";
+import { temaDe } from "./temas";
+import { Projeto } from "./tipos";
+
+carregarFontes();
+
+export type PropsVideo = { projeto: Projeto; arquivos?: Record<string, string> };
+
+export const Composicao: React.FC<PropsVideo> = ({ projeto, arquivos }) => (
+  <ProvedorVideo projeto={projeto} arquivos={arquivos}>
+    <AbsoluteFill style={{ background: temaDe(projeto.tema).fundo, overflow: "hidden" }}>
+      {projeto.modo === "bruto" ? <ModoBruto /> : <ModoIA />}
+      <Legenda />
+      <CamadaEfeitos />
+    </AbsoluteFill>
+  </ProvedorVideo>
+);
+
+export const calcularMetadados: CalculateMetadataFunction<PropsVideo> = ({ props }) => ({
+  durationInFrames: montarLinha(props.projeto).duracao,
+});

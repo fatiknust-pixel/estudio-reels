@@ -1,0 +1,872 @@
+{
+ "versao": 1,
+ "id": "demo-ia",
+ "titulo": "Exemplo (Astra): Lula inocentado ou condenado?",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "padrao",
+ "criadoEm": "2026-10-14T22:57:25.756Z",
+ "atualizadoEm": "2026-10-14T22:57:25.756Z",
+ "status": "pronto",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "O Lula foi inocentado? Não. Foi condenado? Também não. Parece confuso, mas em um minuto você vai entender tudo.",
+   "fundo": "lula",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "INOCENTADO?",
+     "em": "inocentado",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO",
+     "cor": "vermelho",
+     "em": "Não",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "CONDENADO?",
+     "em": "condenado",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "TAMBÉM NÃO",
+     "cor": "vermelho",
+     "em": "Também",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "ENTENDA EM 1 MINUTO",
+     "em": "minuto",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "lava-jato",
+   "texto": "Tudo começa na Lava Jato, a operação que investigou corrupção na Petrobras. Os processos do Lula ficaram na 13ª Vara Federal de Curitiba, do juiz Sergio Moro.",
+   "fundo": "petrobras",
+   "fontes": [
+    "MPF — Caso Lava Jato",
+    "Agência Brasil"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "OPERAÇÃO LAVA JATO",
+     "sub": "2014 · Petrobras",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "13ª Vara Federal de Curitiba",
+     "icone": "martelo",
+     "em": "federal",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "moro",
+     "nome": "Sergio Moro",
+     "cargo": "Juiz federal na época",
+     "em": "Curitiba",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "triplex",
+   "texto": "Primeiro caso: o tríplex do Guarujá. A acusação dizia que a construtora OAS reservou e reformou um apartamento para o Lula em troca de vantagens em contratos da Petrobras. Em 2017, Moro o condenou por corrupção passiva e lavagem de dinheiro. Na segunda instância, a pena subiu para 12 anos.",
+   "fundo": "triplex",
+   "fontes": [
+    "Sentença 13ª Vara (jul/2017)",
+    "TRF-4 — Apelação (jan/2018)",
+    "G1"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CASO 1: TRÍPLEX",
+     "sub": "Guarujá (SP)",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "predio",
+       "Apartamento"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "contrato",
+       "Contratos Petrobras"
+      ]
+     ],
+     "em": "apartamento",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Corrupção passiva",
+     "icone": "dinheiro",
+     "cor": "vermelho",
+     "em": "corrupção",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Lavagem de dinheiro",
+     "icone": "lavagem",
+     "cor": "vermelho",
+     "em": "lavagem",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "contador",
+     "de": 9,
+     "ate": 12,
+     "unidade": "anos de pena",
+     "rotulo": "1ª instância → TRF-4",
+     "em": "pena",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "E você, o que acha disso tudo? Comenta aqui embaixo. E me fala: qual assunto você quer que eu explique no próximo vídeo? Segue pra não perder!",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "E você, o que acha?",
+     "opcoes": [
+      "Concordo com o STF",
+      "Discordo do STF"
+     ],
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Qual tema no próximo vídeo?",
+     "em": "assunto",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SEGUE PRA NÃO PERDER",
+     "em": "Segue",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "3ede09bde74c",
+   "audio": "audio/gancho.mp3",
+   "duracao": 10.776,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.193
+    },
+    {
+     "p": "Lula",
+     "i": 0.205,
+     "f": 0.562
+    },
+    {
+     "p": "foi",
+     "i": 0.574,
+     "f": 0.752
+    },
+    {
+     "p": "inocentado",
+     "i": 0.764,
+     "f": 1.479
+    },
+    {
+     "p": "Não",
+     "i": 2.298,
+     "f": 2.667
+    },
+    {
+     "p": "Foi",
+     "i": 3.488,
+     "f": 3.726
+    },
+    {
+     "p": "condenado",
+     "i": 3.738,
+     "f": 4.369
+    },
+    {
+     "p": "Também",
+     "i": 5.19,
+     "f": 5.595
+    },
+    {
+     "p": "não",
+     "i": 5.607,
+     "f": 5.905
+    },
+    {
+     "p": "Parece",
+     "i": 6.726,
+     "f": 7.119
+    },
+    {
+     "p": "confuso",
+     "i": 7.131,
+     "f": 7.667
+    },
+    {
+     "p": "mas",
+     "i": 7.94,
+     "f": 8.048
+    },
+    {
+     "p": "em",
+     "i": 8.06,
+     "f": 8.226
+    },
+    {
+     "p": "um",
+     "i": 8.238,
+     "f": 8.345
+    },
+    {
+     "p": "minuto",
+     "i": 8.357,
+     "f": 8.726
+    },
+    {
+     "p": "você",
+     "i": 8.738,
+     "f": 9.012
+    },
+    {
+     "p": "vai",
+     "i": 9.024,
+     "f": 9.143
+    },
+    {
+     "p": "entender",
+     "i": 9.155,
+     "f": 9.571
+    },
+    {
+     "p": "tudo",
+     "i": 9.583,
+     "f": 9.94
+    }
+   ]
+  },
+  "lava-jato": {
+   "hash": "30d8ee435476",
+   "audio": "audio/lava-jato.mp3",
+   "duracao": 11.544,
+   "palavras": [
+    {
+     "p": "Tudo",
+     "i": 0.098,
+     "f": 0.312
+    },
+    {
+     "p": "começa",
+     "i": 0.324,
+     "f": 0.764
+    },
+    {
+     "p": "na",
+     "i": 0.776,
+     "f": 0.848
+    },
+    {
+     "p": "Lava",
+     "i": 0.86,
+     "f": 1.121
+    },
+    {
+     "p": "Jato",
+     "i": 1.133,
+     "f": 1.562
+    },
+    {
+     "p": "a",
+     "i": 1.776,
+     "f": 1.86
+    },
+    {
+     "p": "operação",
+     "i": 1.871,
+     "f": 2.407
+    },
+    {
+     "p": "que",
+     "i": 2.419,
+     "f": 2.502
+    },
+    {
+     "p": "investigou",
+     "i": 2.514,
+     "f": 3.002
+    },
+    {
+     "p": "corrupção",
+     "i": 3.014,
+     "f": 3.586
+    },
+    {
+     "p": "na",
+     "i": 3.598,
+     "f": 3.729
+    },
+    {
+     "p": "Petrobras",
+     "i": 3.74,
+     "f": 4.455
+    },
+    {
+     "p": "Os",
+     "i": 5.274,
+     "f": 5.429
+    },
+    {
+     "p": "processos",
+     "i": 5.44,
+     "f": 6.036
+    },
+    {
+     "p": "do",
+     "i": 6.048,
+     "f": 6.143
+    },
+    {
+     "p": "Lula",
+     "i": 6.155,
+     "f": 6.476
+    },
+    {
+     "p": "ficaram",
+     "i": 6.488,
+     "f": 6.869
+    },
+    {
+     "p": "na",
+     "i": 6.881,
+     "f": 7
+    },
+    {
+     "p": "13ª Vara",
+     "i": 7.012,
+     "f": 8.036
+    },
+    {
+     "p": "Federal",
+     "i": 8.048,
+     "f": 8.452
+    },
+    {
+     "p": "de",
+     "i": 8.464,
+     "f": 8.56
+    },
+    {
+     "p": "Curitiba",
+     "i": 8.571,
+     "f": 9.167
+    },
+    {
+     "p": "do",
+     "i": 9.44,
+     "f": 9.619
+    },
+    {
+     "p": "juiz",
+     "i": 9.631,
+     "f": 10
+    },
+    {
+     "p": "Sergio",
+     "i": 10.012,
+     "f": 10.417
+    },
+    {
+     "p": "Moro",
+     "i": 10.429,
+     "f": 10.714
+    }
+   ]
+  },
+  "triplex": {
+   "hash": "a28d223d558e",
+   "audio": "audio/triplex.mp3",
+   "duracao": 20.52,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "caso",
+     "i": 0.479,
+     "f": 0.871
+    },
+    {
+     "p": "o",
+     "i": 1.205,
+     "f": 1.3
+    },
+    {
+     "p": "tríplex",
+     "i": 1.312,
+     "f": 1.812
+    },
+    {
+     "p": "do",
+     "i": 1.824,
+     "f": 1.919
+    },
+    {
+     "p": "Guarujá",
+     "i": 1.931,
+     "f": 2.467
+    },
+    {
+     "p": "A",
+     "i": 3.286,
+     "f": 3.417
+    },
+    {
+     "p": "acusação",
+     "i": 3.429,
+     "f": 3.988
+    },
+    {
+     "p": "dizia",
+     "i": 4,
+     "f": 4.417
+    },
+    {
+     "p": "que",
+     "i": 4.429,
+     "f": 4.5
+    },
+    {
+     "p": "a",
+     "i": 4.512,
+     "f": 4.548
+    },
+    {
+     "p": "construtora",
+     "i": 4.56,
+     "f": 5.179
+    },
+    {
+     "p": "OAS",
+     "i": 5.19,
+     "f": 5.726
+    },
+    {
+     "p": "reservou",
+     "i": 5.738,
+     "f": 6.226
+    },
+    {
+     "p": "e",
+     "i": 6.238,
+     "f": 6.25
+    },
+    {
+     "p": "reformou",
+     "i": 6.262,
+     "f": 6.714
+    },
+    {
+     "p": "um",
+     "i": 6.726,
+     "f": 6.833
+    },
+    {
+     "p": "apartamento",
+     "i": 6.845,
+     "f": 7.5
+    },
+    {
+     "p": "para",
+     "i": 7.512,
+     "f": 7.679
+    },
+    {
+     "p": "o",
+     "i": 7.69,
+     "f": 7.714
+    },
+    {
+     "p": "Lula",
+     "i": 7.726,
+     "f": 7.964
+    },
+    {
+     "p": "em",
+     "i": 7.976,
+     "f": 8.06
+    },
+    {
+     "p": "troca",
+     "i": 8.071,
+     "f": 8.381
+    },
+    {
+     "p": "de",
+     "i": 8.393,
+     "f": 8.476
+    },
+    {
+     "p": "vantagens",
+     "i": 8.488,
+     "f": 9.036
+    },
+    {
+     "p": "em",
+     "i": 9.048,
+     "f": 9.167
+    },
+    {
+     "p": "contratos",
+     "i": 9.179,
+     "f": 9.762
+    },
+    {
+     "p": "da",
+     "i": 9.774,
+     "f": 9.893
+    },
+    {
+     "p": "Petrobras",
+     "i": 9.905,
+     "f": 10.631
+    },
+    {
+     "p": "Em 2017",
+     "i": 11.452,
+     "f": 12.595
+    },
+    {
+     "p": "Moro",
+     "i": 12.869,
+     "f": 13.071
+    },
+    {
+     "p": "o",
+     "i": 13.083,
+     "f": 13.107
+    },
+    {
+     "p": "condenou",
+     "i": 13.119,
+     "f": 13.536
+    },
+    {
+     "p": "por",
+     "i": 13.548,
+     "f": 13.679
+    },
+    {
+     "p": "corrupção",
+     "i": 13.69,
+     "f": 14.298
+    },
+    {
+     "p": "passiva",
+     "i": 14.31,
+     "f": 14.857
+    },
+    {
+     "p": "e",
+     "i": 14.869,
+     "f": 14.893
+    },
+    {
+     "p": "lavagem",
+     "i": 14.905,
+     "f": 15.381
+    },
+    {
+     "p": "de",
+     "i": 15.393,
+     "f": 15.5
+    },
+    {
+     "p": "dinheiro",
+     "i": 15.512,
+     "f": 15.952
+    },
+    {
+     "p": "Na",
+     "i": 16.774,
+     "f": 16.917
+    },
+    {
+     "p": "segunda",
+     "i": 16.929,
+     "f": 17.274
+    },
+    {
+     "p": "instância",
+     "i": 17.286,
+     "f": 17.809
+    },
+    {
+     "p": "a",
+     "i": 18,
+     "f": 18.083
+    },
+    {
+     "p": "pena",
+     "i": 18.095,
+     "f": 18.321
+    },
+    {
+     "p": "subiu",
+     "i": 18.333,
+     "f": 18.667
+    },
+    {
+     "p": "para",
+     "i": 18.679,
+     "f": 18.869
+    },
+    {
+     "p": "12 anos",
+     "i": 18.881,
+     "f": 19.679
+    }
+   ]
+  },
+  "final": {
+   "hash": "e9ce6702510e",
+   "audio": "audio/final.mp3",
+   "duracao": 11.376,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.098,
+     "f": 0.205
+    },
+    {
+     "p": "você",
+     "i": 0.217,
+     "f": 0.598
+    },
+    {
+     "p": "o",
+     "i": 0.907,
+     "f": 0.99
+    },
+    {
+     "p": "que",
+     "i": 1.002,
+     "f": 1.169
+    },
+    {
+     "p": "acha",
+     "i": 1.181,
+     "f": 1.455
+    },
+    {
+     "p": "disso",
+     "i": 1.467,
+     "f": 1.752
+    },
+    {
+     "p": "tudo",
+     "i": 1.764,
+     "f": 2.086
+    },
+    {
+     "p": "Comenta",
+     "i": 2.905,
+     "f": 3.381
+    },
+    {
+     "p": "aqui",
+     "i": 3.393,
+     "f": 3.56
+    },
+    {
+     "p": "embaixo",
+     "i": 3.571,
+     "f": 4.107
+    },
+    {
+     "p": "E",
+     "i": 4.929,
+     "f": 5.024
+    },
+    {
+     "p": "me",
+     "i": 5.036,
+     "f": 5.155
+    },
+    {
+     "p": "fala",
+     "i": 5.167,
+     "f": 5.536
+    },
+    {
+     "p": "qual",
+     "i": 5.762,
+     "f": 5.964
+    },
+    {
+     "p": "assunto",
+     "i": 5.976,
+     "f": 6.381
+    },
+    {
+     "p": "você",
+     "i": 6.393,
+     "f": 6.643
+    },
+    {
+     "p": "quer",
+     "i": 6.655,
+     "f": 6.905
+    },
+    {
+     "p": "que",
+     "i": 6.917,
+     "f": 6.976
+    },
+    {
+     "p": "eu",
+     "i": 6.988,
+     "f": 7.059
+    },
+    {
+     "p": "explique",
+     "i": 7.071,
+     "f": 7.464
+    },
+    {
+     "p": "no",
+     "i": 7.476,
+     "f": 7.583
+    },
+    {
+     "p": "próximo",
+     "i": 7.595,
+     "f": 8.048
+    },
+    {
+     "p": "vídeo",
+     "i": 8.06,
+     "f": 8.405
+    },
+    {
+     "p": "Segue",
+     "i": 9.226,
+     "f": 9.679
+    },
+    {
+     "p": "pra",
+     "i": 9.69,
+     "f": 9.857
+    },
+    {
+     "p": "não",
+     "i": 9.869,
+     "f": 10.095
+    },
+    {
+     "p": "perder",
+     "i": 10.107,
+     "f": 10.548
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "lula": {
+   "arquivo": "imagens/lula.jpg",
+   "rotulo": "Luiz Inácio Lula da Silva",
+   "autor": "Ricardo Stuckert/PR",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(ombros)_denoise.jpg"
+  },
+  "moro": {
+   "arquivo": "imagens/moro.jpg",
+   "rotulo": "Sergio Moro",
+   "autor": "Senado Federal",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Senador_da_Rep%C3%BAblica_S%C3%A9rgio_Moro.jpg"
+  },
+  "petrobras": {
+   "arquivo": "imagens/petrobras.jpg",
+   "rotulo": "Sede da Petrobras",
+   "autor": "Wilfredor",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sede_Petrobras_en_R%C3%ADo_de_Janeiro.jpg"
+  },
+  "triplex": {
+   "arquivo": "imagens/triplex.jpg",
+   "rotulo": "Guarujá (SP), cidade do tríplex",
+   "autor": "Werner Haberkorn/Fotolabor/Museu Paulista da USP",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Werner_Haberkorn_-_Vista_da_Praia_das_Pitangueiras_-_Guaruj%C3%A1_-_Estado_de_S%C3%A3o_Paulo.jpg"
+  }
+ },
+ "fontesPesquisa": [],
+ "pedido": {
+  "tema": "Lula: inocentado ou condenado?",
+  "tom": "explicativo, neutro",
+  "duracao": 60
+ }
+}
