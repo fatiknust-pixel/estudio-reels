@@ -1,0 +1,64 @@
+name: Atualizar voz e imagens
+run-name: Atualizar ${{ inputs.projeto }}
+
+# Modo 1: depois de editar o texto das cenas ou pedir outra imagem no app.
+# Gera a voz só das cenas que mudaram e baixa só as imagens novas/pedidas.
+on:
+  workflow_dispatch:
+    inputs:
+      projeto:
+        description: "id do projeto (pasta em projetos/)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ia-${{ inputs.projeto }}
+  cancel-in-progress: true
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ID: ${{ inputs.projeto }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar id
+        run: |
+          if ! [[ "$ID" =~ ^[a-z0-9][a-z0-9-]{0,63}$ ]] || [ ! -f "projetos/$ID/projeto.json" ]; then
+            echo "::error::Projeto '$ID' não encontrado em projetos/"; exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar voz e ffmpeg
+        run: |
+          pip install edge-tts==7.3.1
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Voz e imagens
+        run: |
+          mkdir -p out && cp "projetos/$ID/projeto.json" out/projeto.json
+          python3 scripts/voz.py out/projeto.json --midia "projetos/$ID"
+          node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID"
+
+      - name: Salvar
+        run: |
+          scripts/salvar_no_repo.sh "Atualiza voz e imagens de $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --resultado out/projeto.json --campos narracao,imagens --limpar-midia
+
+      - name: Marcar erro no projeto
+        if: failure()
+        run: |
+          scripts/salvar_no_repo.sh "Erro ao atualizar $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --erro "Falhou ao atualizar voz/imagens. Veja o log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

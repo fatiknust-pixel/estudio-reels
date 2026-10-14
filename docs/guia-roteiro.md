@@ -1,0 +1,114 @@
+# Guia do roteiro (Modo 1 — vídeo gerado por IA)
+
+Este guia é lido pelo Claude na Action `gerar-ia.yml`. O formato é o mesmo do
+`conteudo/<id>/roteiro.json` do projeto Astra. O pedido (tema, tom, duração) está em
+`projetos/<id>/projeto.json`, no campo `pedido`.
+
+## O que entregar
+
+Dois arquivos na pasta `projetos/<id>/`:
+
+1. `roteiro.json` — o vídeo, cena por cena.
+2. `imagens.json` — que fotos baixar do Wikipédia / Wikimedia Commons.
+
+Depois rode `node scripts/validar-roteiro.mjs projetos/<id>` e corrija até não haver erros.
+
+## Pesquisa e fontes
+
+- Pesquise antes de escrever (WebSearch/WebFetch). Use **fontes confiáveis e verificáveis**:
+  órgãos oficiais (STF, TSE, IBGE, ministérios, Diário Oficial, Banco Central…), leis, artigos
+  científicos, e veículos de imprensa reconhecidos (Agência Brasil, G1, Folha, Estadão, BBC, Reuters,
+  Poder360, Nexo…). Confira datas, números e nomes em mais de uma fonte quando possível.
+- **Nada inventado.** Se não confirmou um dado, não use. Em tema polêmico, seja neutro e factual,
+  diferencie fato de opinião e atribua as afirmações ("segundo o STF…").
+- Cada cena com fatos mostra suas fontes em `fontes` (curtas, ex.: `"STF — HC 193.726"`, `"IBGE 2024"`,
+  `"G1"`), no máximo 3.
+- Liste as fontes completas em `fontesPesquisa`: `[{ "titulo": "...", "url": "https://..." }]`.
+
+## Estrutura do vídeo
+
+- **Gancho (cena 1, até ~5 s):** pergunta forte, contradição ou número surpreendente que prenda
+  nos primeiros segundos. Nada de "Olá, pessoal".
+- **Desenvolvimento:** 4 a 8 cenas, uma ideia por cena, frases curtas e diretas (linguagem falada,
+  pt-BR). Use os elementos animados para reforçar o que está sendo dito.
+- **Final:** resumo em uma frase + **pergunta para o público** (elemento `enquete` com 2 opções)
+  + **CTA** (elemento `seguir`, ex.: "SIGA PARA MAIS").
+- **Duração:** a voz fala ~2,4 palavras por segundo (contando as pausas). Para `pedido.duracao` segundos, o total de
+  palavras de todos os `texto` deve ficar perto de `duracao × 2,4` (± 10%).
+- Escreva números como a voz deve falar quando ajudar a pronúncia ("12 anos", "R$ 5 mil", "2017").
+
+## Formato do `roteiro.json`
+
+```json
+{
+  "titulo": "Título curto do vídeo",
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [{ "titulo": "STF — notícia do julgamento", "url": "https://portal.stf.jus.br/..." }],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "O que a voz fala nesta cena (vira a narração e a legenda).",
+      "fundo": "chave-da-imagem",
+      "fontes": ["Fonte curta"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "INOCENTADO?", "em": "inocentado", "posicao": "alto" }
+      ]
+    }
+  ]
+}
+```
+
+- `id`: curto, minúsculas e hífens, único (`gancho`, `contexto`, `numeros`, `final`…).
+- `fundo`: chave de uma imagem do `imagens.json` (ou omita para fundo animado).
+- `em`: a palavra **exata do `texto` da cena** em que o elemento aparece (ou `0` = início da cena).
+- `posicao`: `topo`, `alto`, `alto2`, `meio`, `meio2` (de cima para baixo). Um elemento sai quando
+  outro (que não seja `carimbo`) entra na mesma posição. A legenda fica embaixo — não use `meio2`
+  para coisas grandes.
+- Cores (campo `cor`): `amarelo`, `vermelho`, `verde`, `azul`, `roxo`, `cinza`.
+- 2 a 5 elementos por cena; sempre um `titulo` em `topo` no começo das cenas principais.
+
+## Elementos animados
+
+| tipo | campos | uso |
+|---|---|---|
+| `titulo` | `texto`, `sub?`, `cor?` | faixa de título (CAIXA ALTA, até ~22 letras) |
+| `pergunta` | `texto` | pergunta grande balançando |
+| `carimbo` | `texto`, `cor?` | carimbo (VERDADE, FALSO, NÃO, ANULADO…) — pode sobrepor |
+| `tag` | `texto`, `icone?`, `cor?` | etiqueta com ícone |
+| `pessoa` | `imagem`, `nome`, `cargo` | foto redonda de uma pessoa (chave do `imagens.json`) |
+| `icones` | `itens: [[icone, rótulo], ...]` | 2–3 ícones lado a lado (use `["seta", ""]` entre eles) |
+| `contador` | `de`, `ate`, `unidade`, `rotulo?` | número que conta até o valor |
+| `linha` | `itens: [[data, rótulo], ...]` | linha do tempo (2–4 marcos) |
+| `definicao` | `palavra`, `significado` | termo + explicação curta |
+| `mapa` | `de`, `para`, `legenda?` | algo que vai de um lugar a outro |
+| `placar` | `sim`, `nao`, `rotulo`, `rotuloSim?`, `rotuloNao?`, `decimais?`, `cores?` | votação/comparação em barras |
+| `relogio` | `rotulo`, `antes?`, `depois?` | prazo que cai pela metade (barras) |
+| `check` | `ok` (true/false), `texto`, `nota` | verdadeiro/falso com explicação |
+| `comentario` | `texto` | balão "comenta aí" digitando |
+| `enquete` | `pergunta`, `opcoes` (2) | pergunta final para o público comentar 1 ou 2 |
+| `seguir` | `texto` | botão de seguir pulsando (CTA) |
+
+Ícones: `predio casa seta contrato documento dinheiro lavagem martelo balanca obra relogio check x pin
+mais urna alvo alerta celular tornozeleira cruz balao`.
+
+## Formato do `imagens.json`
+
+```json
+{
+  "lula": { "wiki": "Luiz Inácio Lula da Silva", "rotulo": "Luiz Inácio Lula da Silva" },
+  "stf": { "commons": "Supremo Tribunal Federal sede Brasília", "rotulo": "Sede do STF" },
+  "planalto": { "arquivo": "Palácio do Planalto.jpg", "rotulo": "Palácio do Planalto" }
+}
+```
+
+- `wiki`: título exato do artigo na Wikipédia em português (usa a foto principal do artigo) — o melhor
+  para pessoas, lugares e instituições.
+- `commons`: busca no Wikimedia Commons (para locais, objetos, eventos).
+- `arquivo`: nome exato de um arquivo do Commons (tem prioridade, use se você confirmou que existe).
+- `rotulo`: legenda curta mostrada no crédito.
+- 4 a 9 imagens; só imagens livres do Commons (o autor e a licença aparecem no vídeo).
+  Pode combinar `wiki` + `commons` como plano B.
+
+## Exemplo completo
+
+Veja `app/demos/demo-ia.json` (campo `cenas`) — é o vídeo do Astra sobre o Lula convertido para este app.

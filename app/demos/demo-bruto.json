@@ -1,0 +1,239 @@
+{
+ "versao": 1,
+ "id": "demo-bruto",
+ "titulo": "Exemplo: vídeo bruto com Legenda impacto + IA",
+ "modo": "bruto",
+ "estilo": "impacto",
+ "tema": "padrao",
+ "criadoEm": "2026-10-14T00:00:00Z",
+ "atualizadoEm": "2026-10-14T00:00:00Z",
+ "status": "pronto",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 100,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 68,
+  "palavrasPorTela": 2,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": false,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [
+   {
+    "id": "ia-t1",
+    "texto": "ENTENDA EM 1 MINUTO",
+    "i": 7.9,
+    "f": 10.7,
+    "posicao": 14
+   }
+  ],
+  "emojis": [
+   {
+    "id": "ia-e1",
+    "emoji": "🤔",
+    "i": 0.7,
+    "dur": 1.4,
+    "x": 78,
+    "y": 40
+   },
+   {
+    "id": "ia-e2",
+    "emoji": "❌",
+    "i": 2.3,
+    "dur": 1.0,
+    "x": 22,
+    "y": 42
+   }
+  ],
+  "sons": [
+   {
+    "id": "s1",
+    "som": "pop",
+    "i": 0.75
+   },
+   {
+    "id": "s2",
+    "som": "carimbo",
+    "i": 2.3
+   }
+  ],
+  "zooms": [
+   {
+    "id": "ia-z1",
+    "i": 2.25,
+    "f": 2.8,
+    "escala": 1.25
+   },
+   {
+    "id": "ia-z2",
+    "i": 5.15,
+    "f": 6.0,
+    "escala": 1.2
+   }
+  ],
+  "enquete": {
+   "pergunta": "Ficou mais claro?",
+   "opcoes": [
+    "Sim",
+    "Ainda não"
+   ],
+   "dur": 3,
+   "ia": true
+  }
+ },
+ "video": {
+  "arquivo": "video.mp4",
+  "duracao": 10.776,
+  "largura": 720,
+  "altura": 1280,
+  "enquadramento": "preencher",
+  "focoX": 50,
+  "volume": 1
+ },
+ "palavras": [
+  {
+   "p": "O",
+   "i": 0.098,
+   "f": 0.193
+  },
+  {
+   "p": "Lula",
+   "i": 0.205,
+   "f": 0.562
+  },
+  {
+   "p": "foi",
+   "i": 0.574,
+   "f": 0.752
+  },
+  {
+   "p": "inocentado",
+   "i": 0.764,
+   "f": 1.479,
+   "destaque": true
+  },
+  {
+   "p": "Não",
+   "i": 2.298,
+   "f": 2.667,
+   "destaque": true
+  },
+  {
+   "p": "Foi",
+   "i": 3.488,
+   "f": 3.726
+  },
+  {
+   "p": "condenado",
+   "i": 3.738,
+   "f": 4.369,
+   "destaque": true
+  },
+  {
+   "p": "Também",
+   "i": 5.19,
+   "f": 5.595
+  },
+  {
+   "p": "não",
+   "i": 5.607,
+   "f": 5.905,
+   "destaque": true
+  },
+  {
+   "p": "Parece",
+   "i": 6.726,
+   "f": 7.119
+  },
+  {
+   "p": "confuso",
+   "i": 7.131,
+   "f": 7.667
+  },
+  {
+   "p": "mas",
+   "i": 7.94,
+   "f": 8.048
+  },
+  {
+   "p": "em",
+   "i": 8.06,
+   "f": 8.226
+  },
+  {
+   "p": "um",
+   "i": 8.238,
+   "f": 8.345
+  },
+  {
+   "p": "minuto",
+   "i": 8.357,
+   "f": 8.726,
+   "destaque": true
+  },
+  {
+   "p": "você",
+   "i": 8.738,
+   "f": 9.012
+  },
+  {
+   "p": "vai",
+   "i": 9.024,
+   "f": 9.143
+  },
+  {
+   "p": "entender",
+   "i": 9.155,
+   "f": 9.571
+  },
+  {
+   "p": "tudo",
+   "i": 9.583,
+   "f": 9.94
+  }
+ ],
+ "cortes": [
+  {
+   "id": "c1",
+   "i": 1.55,
+   "f": 2.2,
+   "motivo": "pausa"
+  },
+  {
+   "id": "c2",
+   "i": 2.75,
+   "f": 3.4,
+   "motivo": "pausa"
+  },
+  {
+   "id": "c3",
+   "i": 4.45,
+   "f": 5.1,
+   "motivo": "pausa"
+  },
+  {
+   "id": "c4",
+   "i": 5.98,
+   "f": 6.62,
+   "motivo": "pausa"
+  }
+ ],
+ "gancho": {
+  "i": 6.62,
+  "f": 8.8,
+  "texto": "PARECE CONFUSO?",
+  "ia": true
+ },
+ "sugestoes": {
+  "titulo": "Lula: inocentado ou condenado?",
+  "aplicadas": true
+ }
+}

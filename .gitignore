@@ -1,0 +1,10 @@
+node_modules/
+out/
+dist/
+.remotion/
+*.log
+__pycache__/
+public/projetos/*
+!public/projetos/demo-*/
+modelos/
+out-*/
