@@ -28,6 +28,7 @@ def main():
     ap.add_argument("--resultado")
     ap.add_argument("--erro")
     ap.add_argument("--campos", help="só estes campos do resultado (ex.: narracao,imagens)")
+    ap.add_argument("--substituir", action="store_true", help="sobrescreve cortes e efeitos (em vez de só preencher vazios)")
     ap.add_argument("--limpar-midia", action="store_true", help="apaga áudios/imagens que o projeto não usa mais")
     a = ap.parse_args()
     p = json.load(open(a.projeto, encoding="utf-8"))
@@ -44,12 +45,14 @@ def main():
             p["video"] = {**(p.get("video") or {}), **r["video"]}
         if "palavras" in r:
             p["palavras"] = r["palavras"]
-        if r.get("cortes") and not p.get("cortes"):
+        if "cortes" in r and (a.substituir or not p.get("cortes")):
             p["cortes"] = r["cortes"]
-        for k in ("cenas", "narracao", "imagens", "titulo", "fontesPesquisa", "voz", "sugestoes"):
+        for k in ("cenas", "narracao", "imagens", "titulo", "fontesPesquisa", "voz", "sugestoes", "gancho"):
             if k in r:
                 p[k] = r[k]
-        if "efeitos" in r:
+        if "efeitos" in r and a.substituir:
+            p["efeitos"] = {**p.get("efeitos", {}), **r["efeitos"]}
+        elif "efeitos" in r:
             ef = p.setdefault("efeitos", {})
             for k, v in r["efeitos"].items():
                 if isinstance(v, list) and ef.get(k):

@@ -102,7 +102,8 @@ export const PainelEfeitos: React.FC = () => {
               </div>
               <Deslizar rotulo="Aproximação" valor={Math.round(z.escala * 100)} min={105} max={200} mudar={(v) => set((x) => { x.zooms[k].escala = v / 100; }, `z${z.id}`)} fmt={(v) => `${v}%`} />
               <div className="linha">
-                <Alternar rotulo="Suave (lento)" valor={!!z.suave} mudar={(v) => set((x) => { x.zooms[k].suave = v; })} />
+                <Alternar rotulo="Lento" valor={!!z.suave} mudar={(v) => set((x) => { x.zooms[k].suave = v; if (v) x.zooms[k].seco = false; })} />
+                <Alternar rotulo="Seco" valor={!!z.seco} mudar={(v) => set((x) => { x.zooms[k].seco = v; if (v) x.zooms[k].suave = false; })} />
                 <span className="cresce" />
                 <button className="btn mini" onClick={() => irPara(Math.max(0, z.i - 0.3), true)}>▶</button>
                 <button className="btn mini perigo" onClick={() => set((x) => { x.zooms.splice(k, 1); })}>🗑</button>

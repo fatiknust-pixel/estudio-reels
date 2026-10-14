@@ -34,6 +34,7 @@ export const NovoBruto: React.FC = () => {
   const [cortarPausas, setCortarPausas] = useState(true);
   const [limite, setLimite] = useState(0.5);
   const [modelo, setModelo] = useState<"medium" | "small">("medium");
+  const [ia, setIa] = useState(true);
   const [fase, setFase] = useState<{ texto: string; fracao?: number } | null>(null);
   const token = temToken();
 
@@ -52,7 +53,7 @@ export const NovoBruto: React.FC = () => {
   const criar = async () => {
     if (!arquivo || !meta) return;
     const id = novoIdProjeto("v");
-    const p = projetoBruto(id, titulo.trim() || "Meu vídeo", estilo, meta, { cortarPausas, limitePausa: limite, idioma: "pt", modelo });
+    const p = projetoBruto(id, titulo.trim() || "Meu vídeo", estilo, meta, { cortarPausas, limitePausa: limite, idioma: "pt", modelo, ia });
     try {
       await criarBruto(p, arquivo, meta.tocavel, (texto, fracao) => setFase({ texto, fracao }));
       ir(`/editor/${id}`);
@@ -96,7 +97,7 @@ export const NovoBruto: React.FC = () => {
       <h2>Estilo</h2>
       <div className="estilos">
         {ESTILOS.map((e) => (
-          <button key={e.id} className={"estilo-op" + (estilo.id === e.id ? " on" : "")} disabled={!e.pronto || !!fase} onClick={() => setEstilo(e)}>
+          <button key={e.id} className={"estilo-op" + (estilo.id === e.id ? " on" : "")} disabled={!e.pronto || !!fase} onClick={() => { setEstilo(e); setLimite(e.limitePausa); }}>
             <span className="e">{e.emoji}</span>
             <b>{e.nome}</b>
             <small>{e.pronto ? e.descricao : "em breve"}</small>
@@ -107,6 +108,7 @@ export const NovoBruto: React.FC = () => {
       <label className="campo"><span>Título do projeto</span><input type="text" value={titulo} onChange={(e) => setTitulo(e.target.value)} placeholder="Ex.: 3 erros ao investir" /></label>
 
       <div className="cartao">
+        <Alternar rotulo={<>🤖 Sugestões da IA <span className="pequeno suave">(gancho, cortes de enrolação, zooms, destaques)</span></>} valor={ia} mudar={setIa} />
         <Alternar rotulo="Cortar pausas automaticamente" valor={cortarPausas} mudar={setCortarPausas} />
         {cortarPausas && <Deslizar rotulo="Pausas maiores que" valor={limite} min={0.25} max={1.5} passo={0.05} mudar={setLimite} fmt={(v) => `${v.toFixed(2)}s`} />}
         <label className="campo"><span>Transcrição</span>

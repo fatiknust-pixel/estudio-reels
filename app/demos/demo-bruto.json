@@ -1,7 +1,7 @@
 {
  "versao": 1,
  "id": "demo-bruto",
- "titulo": "Exemplo: vídeo bruto com Legenda impacto",
+ "titulo": "Exemplo: vídeo bruto com Legenda impacto + IA",
  "modo": "bruto",
  "estilo": "impacto",
  "tema": "padrao",
@@ -28,7 +28,7 @@
   "somTransicao": true,
   "titulos": [
    {
-    "id": "t1",
+    "id": "ia-t1",
     "texto": "ENTENDA EM 1 MINUTO",
     "i": 7.9,
     "f": 10.7,
@@ -37,7 +37,7 @@
   ],
   "emojis": [
    {
-    "id": "e1",
+    "id": "ia-e1",
     "emoji": "🤔",
     "i": 0.7,
     "dur": 1.4,
@@ -45,7 +45,7 @@
     "y": 40
    },
    {
-    "id": "e2",
+    "id": "ia-e2",
     "emoji": "❌",
     "i": 2.3,
     "dur": 1.0,
@@ -67,13 +67,13 @@
   ],
   "zooms": [
    {
-    "id": "z1",
+    "id": "ia-z1",
     "i": 2.25,
     "f": 2.8,
     "escala": 1.25
    },
    {
-    "id": "z2",
+    "id": "ia-z2",
     "i": 5.15,
     "f": 6.0,
     "escala": 1.2
@@ -85,7 +85,8 @@
     "Sim",
     "Ainda não"
    ],
-   "dur": 3
+   "dur": 3,
+   "ia": true
   }
  },
  "video": {
@@ -205,6 +206,34 @@
    "i": 1.55,
    "f": 2.2,
    "motivo": "pausa"
+  },
+  {
+   "id": "c2",
+   "i": 2.75,
+   "f": 3.4,
+   "motivo": "pausa"
+  },
+  {
+   "id": "c3",
+   "i": 4.45,
+   "f": 5.1,
+   "motivo": "pausa"
+  },
+  {
+   "id": "c4",
+   "i": 5.98,
+   "f": 6.62,
+   "motivo": "pausa"
   }
- ]
+ ],
+ "gancho": {
+  "i": 6.62,
+  "f": 8.8,
+  "texto": "PARECE CONFUSO?",
+  "ia": true
+ },
+ "sugestoes": {
+  "titulo": "Lula: inocentado ou condenado?",
+  "aplicadas": true
+ }
 }

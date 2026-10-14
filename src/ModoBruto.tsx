@@ -1,6 +1,7 @@
 // Modo 2 — vídeo bruto: junta os trechos que sobraram depois dos cortes, enquadra em 9:16 e aplica zooms.
 import React from "react";
-import { AbsoluteFill, Easing, getRemotionEnvironment, interpolate, OffthreadVideo, Sequence, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Audio, Easing, getRemotionEnvironment, interpolate, OffthreadVideo, Sequence, spring, useCurrentFrame } from "remotion";
+import { arquivoGlobal } from "./arquivos";
 import { useVideo } from "./contexto";
 import { Fundo } from "./componentes/Fundo";
 import { FPS } from "./linhaTempo";
@@ -10,8 +11,12 @@ const useEscala = () => {
   const f = useCurrentFrame();
   const { projeto, linha } = useVideo();
   const t = linha.paraConteudo(f);
+  // no gancho (abertura) não há zoom: ele pertence ao corpo do vídeo
+  const tr = linha.trechos.find((x) => f / FPS >= x.saida && f / FPS < x.saida + x.fim - x.ini);
+  if (tr?.gancho) return 1.06;
   const z = projeto.efeitos.zooms.find((z) => t >= z.i && t < z.f);
   if (!z) return 1;
+  if (z.seco) return z.escala; // estilo "cortes rápidos": muda o enquadramento de uma vez
   const entrou = (t - z.i) * FPS;
   const falta = (z.f - t) * FPS;
   if (z.suave) {
@@ -38,6 +43,21 @@ const MarcaCorte: React.FC = () => {
     <AbsoluteFill style={{ border: "18px solid #FF3B30", background: "rgba(255,59,48,.28)", alignItems: "center", justifyContent: "center" }}>
       <div style={{ background: "#FF3B30", color: "#fff", fontFamily: "Montserrat, Arial", fontWeight: 900, fontSize: 64, padding: "16px 36px", borderRadius: 20 }}>
         ✂ CORTADO{c.motivo ? ` · ${c.motivo}` : ""}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// Texto do gancho, grande e no alto, durante a abertura
+const TextoGancho: React.FC<{ texto: string; dur: number }> = ({ texto, dur }) => {
+  const f = useCurrentFrame();
+  const { tema } = useVideo();
+  const m = spring({ frame: f, fps: FPS, config: { damping: 10, stiffness: 170, mass: 0.7 } });
+  const saida = interpolate(f, [dur - 6, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ top: 250, bottom: "auto", alignItems: "center", opacity: saida }}>
+      <div style={{ maxWidth: 940, transform: `scale(${m}) rotate(-2deg)`, background: tema.destaque, color: "#111", fontFamily: "Montserrat, Arial", fontWeight: 900, fontSize: 78, lineHeight: 1.05, textAlign: "center", textTransform: "uppercase", padding: "18px 34px", borderRadius: 18, boxShadow: "0 20px 60px rgba(0,0,0,.5)" }}>
+        {texto}
       </div>
     </AbsoluteFill>
   );
@@ -81,6 +101,18 @@ export const ModoBruto: React.FC = () => {
           </Sequence>
         );
       })}
+      {linha.trechos[0]?.gancho && (
+        <>
+          {projeto.gancho?.texto && (
+            <Sequence durationInFrames={Math.round((linha.trechos[0].fim - linha.trechos[0].ini) * FPS)} layout="none">
+              <TextoGancho texto={projeto.gancho.texto} dur={Math.round((linha.trechos[0].fim - linha.trechos[0].ini) * FPS)} />
+            </Sequence>
+          )}
+          <Sequence from={Math.round((linha.trechos[0].fim - linha.trechos[0].ini) * FPS)} durationInFrames={20} layout="none">
+            <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.5} />
+          </Sequence>
+        </>
+      )}
       {projeto.previaCortes && <MarcaCorte />}
     </AbsoluteFill>
   );

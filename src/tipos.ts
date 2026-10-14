@@ -22,9 +22,11 @@ export type EstiloLegenda = {
 export type Titulo = { id: string; texto: string; sub?: string; i: number; f: number; posicao?: number; cor?: string };
 export type Emoji = { id: string; emoji: string; i: number; dur: number; x: number; y: number; tamanho?: number };
 export type Som = { id: string; som: string; i: number; volume?: number };
-export type Zoom = { id: string; i: number; f: number; escala: number; suave?: boolean };
+export type Zoom = { id: string; i: number; f: number; escala: number; suave?: boolean; seco?: boolean }; // seco = corte sem animação
+// Gancho: trecho do vídeo que abre o Reels (antes do começo normal), com um texto chamativo
+export type Gancho = { i: number; f: number; texto?: string; ia?: boolean };
 export type Corte = { id: string; i: number; f: number; motivo?: string };
-export type Enquete = { pergunta: string; opcoes: string[]; dur: number };
+export type Enquete = { pergunta: string; opcoes: string[]; dur: number; ia?: boolean };
 
 export type Efeitos = {
   barraProgresso: boolean;
@@ -77,13 +79,14 @@ export type Projeto = {
   atualizadoEm: string;
   status?: "rascunho" | "processando" | "pronto" | "erro";
   // opções e situação do processamento feito pelas Actions
-  processamento?: { cortarPausas?: boolean; limitePausa?: number; idioma?: string; modelo?: string; erro?: string; workflow?: string; pedidoEm?: string };
+  processamento?: { cortarPausas?: boolean; limitePausa?: number; idioma?: string; modelo?: string; ia?: boolean; erro?: string; workflow?: string; pedidoEm?: string };
   legenda: EstiloLegenda;
   efeitos: Efeitos;
   // bruto
   video?: VideoFonte;
   palavras?: Palavra[];
   cortes?: Corte[];
+  gancho?: Gancho | null;
   // ia
   pedido?: { tema: string; tom: string; duracao: number };
   voz?: { edge: string; velocidade: string };

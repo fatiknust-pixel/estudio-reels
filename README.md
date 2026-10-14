@@ -44,7 +44,21 @@ navegador); a Action junta as partes e apaga o ramo.
 3. Transcreve com **faster-whisper** (`medium` ou `small`, pt, tempo por palavra, VAD).
 4. Aplica o estilo: no **Legenda impacto**, destaca números e palavras fortes, faz *punch-in*
    de zoom nelas e corta as pausas maiores que o limite escolhido.
-5. Junta o resultado ao `projeto.json` mais recente (sem apagar o que você editou) e faz o commit.
+5. **Sugestões do Claude** (se o segredo existir e a opção estiver ligada): lê a transcrição numerada e
+   sugere gancho de abertura (trecho forte que toca antes do começo + texto), cortes de enrolação,
+   palavras em destaque, zooms, emojis, títulos (passos do tutorial, assunto do podcast, chamada da
+   notícia), enquete e título — seguindo [`docs/guia-sugestoes.md`](docs/guia-sugestoes.md). Tudo entra
+   aplicado e marcado como IA; na aba 🤖 IA do editor dá para tirar por partes ou pedir de novo.
+6. Junta o resultado ao `projeto.json` mais recente e faz o commit.
+
+| Estilo | O que faz |
+|---|---|
+| 💥 Legenda impacto | 2 palavras por vez, pop, destaque amarelo e zoom nas palavras-chave |
+| ⚡ Cortes rápidos | pausas > 0,3 s cortadas, enquadramento alterna a cada corte, 1 palavra por vez (Anton) |
+| 🎙️ Corte de podcast | vídeo deitado inteiro com fundo desfocado, legenda em caixa, assunto no topo |
+| 🎞️ Documentário | zoom lento contínuo, trilha suave, legenda discreta em minúsculas |
+| 📰 Notícia | tema vermelho, palavra ativa em faixa, chamada “ÚLTIMAS NOTÍCIAS” |
+| 🧑‍🏫 Tutorial | legenda em caixa, títulos “PASSO 1, 2, 3…” (pela IA), tema oceano |
 
 ### Modo 1 — o que as Actions fazem
 
@@ -86,6 +100,6 @@ node scripts/renderizar.mjs <id>   # MP4 de projetos/<id>/ em out/<id>.mp4
 1. ✅ Estrutura do app + editor com prévia ao vivo + exportar
 2. ✅ Modo 2 com o estilo “Legenda impacto” (envio do vídeo, transcrição faster-whisper)
 3. ✅ Modo 1 (roteiro com o Claude, voz, imagens)
-4. ⏳ Demais estilos e sugestões da IA
+4. ✅ Demais estilos e sugestões da IA
 
 Remotion é gratuito para uso individual; veja a [licença](https://www.remotion.dev/license).

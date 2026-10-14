@@ -17,9 +17,19 @@ on:
         type: choice
         options: [medium, small, large-v3]
         default: medium
+      ia:
+        description: "Pedir sugestões ao Claude (gancho, cortes de enrolação, zooms, destaques)"
+        type: boolean
+        default: true
+      etapa:
+        description: "tudo = vídeo novo; sugestoes = só refazer as sugestões da IA"
+        type: choice
+        options: [tudo, sugestoes]
+        default: tudo
 
 permissions:
   contents: write
+  id-token: write
 
 concurrency:
   group: processar-${{ inputs.projeto }}
@@ -32,6 +42,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       ID: ${{ inputs.projeto }}
+      TEM_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -48,6 +59,7 @@ jobs:
           cache-dependency-path: .github/requisitos-bruto.txt
 
       - name: Modelos do Whisper (cache)
+        if: inputs.etapa == 'tudo'
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
@@ -55,10 +67,11 @@ jobs:
 
       - name: Instalar
         run: |
-          pip install -r .github/requisitos-bruto.txt
+          if [ "${{ inputs.etapa }}" = "tudo" ]; then pip install -r .github/requisitos-bruto.txt; fi
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
 
       - name: Remontar o vídeo enviado
+        if: inputs.etapa == 'tudo'
         run: |
           git fetch -q --depth=1 origin "envio/$ID"
           mkdir -p out/envio
@@ -68,20 +81,56 @@ jobs:
           ls -la out/original
 
       - name: Normalizar e transcrever
+        if: inputs.etapa == 'tudo'
         run: |
           python3 scripts/processar_bruto.py --original out/original --projeto "projetos/$ID/projeto.json" \
             --fonte out/fonte.mp4 --previa "projetos/$ID/previa.mp4" --saida out/resultado.json --modelo "${{ inputs.modelo }}"
 
       - name: Guardar vídeo para o render (release "brutos")
+        if: inputs.etapa == 'tudo'
         run: |
           gh release view brutos > /dev/null 2>&1 || gh release create brutos --prerelease --title "Vídeos brutos" --notes "Vídeos enviados pelo Estúdio Reels (normalizados para o render)."
           cp out/fonte.mp4 "out/$ID--fonte.mp4"
           gh release upload brutos "out/$ID--fonte.mp4" --clobber
 
+      - name: Projeto de trabalho e transcrição numerada
+        run: |
+          mkdir -p out && cp "projetos/$ID/projeto.json" out/projeto.json
+          if [ -f out/resultado.json ]; then python3 scripts/aplicar_resultado.py out/projeto.json --resultado out/resultado.json --substituir; fi
+          python3 scripts/aplicar_sugestoes.py --transcricao out/projeto.json > out/transcricao.txt
+          head -c 1500 out/transcricao.txt
+
+      - name: Sugestões do Claude
+        if: inputs.ia && env.TEM_TOKEN == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Você é editor de vídeos curtos virais (Reels/TikTok) em português do Brasil.
+            1. Leia `docs/guia-sugestoes.md` e siga-o.
+            2. Leia `out/transcricao.txt` (transcrição numerada do vídeo; o estilo está no topo).
+            3. Escreva `out/sugestoes.json` com gancho, cortes de enrolação, destaques, zooms, emojis, títulos, enquete e título.
+            4. Rode `python3 scripts/aplicar_sugestoes.py --validar out/sugestoes.json out/projeto.json` e corrija até aparecer "✅".
+            Não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --max-turns 30
+            --allowedTools "Read,Write,Edit,Bash(python3 scripts/aplicar_sugestoes.py --validar:*)"
+
+      - name: Aplicar sugestões
+        if: hashFiles('out/sugestoes.json') != ''
+        run: |
+          python3 scripts/aplicar_sugestoes.py --aplicar out/sugestoes.json out/projeto.json ${{ inputs.etapa == 'tudo' && '--novo' || '' }} \
+            || echo "::warning::Sugestões da IA inválidas — o vídeo segue sem elas"
+
       - name: Salvar projeto pronto
-        run: scripts/salvar_no_repo.sh "Processa vídeo bruto $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" --resultado out/resultado.json
+        run: |
+          scripts/salvar_no_repo.sh "Processa vídeo bruto $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --resultado out/projeto.json --campos video,palavras,cortes,efeitos,gancho,sugestoes,titulo --substituir
 
       - name: Apagar ramo temporário
+        if: inputs.etapa == 'tudo'
         run: git push -q origin --delete "envio/$ID" || true
 
       - name: Marcar erro no projeto

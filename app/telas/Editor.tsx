@@ -10,6 +10,7 @@ import { PainelEfeitos } from "../editor/PainelEfeitos";
 import { PainelEstilo } from "../editor/PainelEstilo";
 import { PainelExportar } from "../editor/PainelExportar";
 import { PainelImagens } from "../editor/PainelImagens";
+import { PainelIA } from "../editor/PainelIA";
 import { PainelLegendas } from "../editor/PainelLegendas";
 import { Processamento } from "../editor/Processamento";
 import { arquivoProjeto } from "../../src/arquivos";
@@ -17,8 +18,9 @@ import { local } from "../lib/local";
 import { carregarArquivos, carregarProjeto, ehDemo, esquecerUrl, marcarSujo, pedirAtualizacaoIA, recarregarDoGitHub, salvarNoGitHub, salvarRascunho } from "../lib/projetos";
 import { avisar, avisarErro, fmtTempo, ir } from "../ui";
 
-type Aba = "cenas" | "legendas" | "estilo" | "efeitos" | "cortes" | "imagens" | "exportar";
+type Aba = "cenas" | "legendas" | "estilo" | "efeitos" | "cortes" | "imagens" | "ia" | "exportar";
 const NOMES: Record<Aba, string> = {
+  ia: "🤖 IA",
   cenas: "🎞️ Cenas", legendas: "💬 Legendas", estilo: "🎨 Estilo", efeitos: "✨ Efeitos", cortes: "✂️ Cortes", imagens: "🖼️ Imagens", exportar: "⬇️ Exportar",
 };
 
@@ -98,7 +100,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
   // na aba Cortes a prévia mostra o vídeo original inteiro, com os trechos cortados marcados
   const previa = useMemo(() => {
     if (!p) return null;
-    if (aba === "cortes" && p.modo === "bruto") return { ...p, cortes: [], previaCortes: p.cortes ?? [] } as Projeto;
+    if (aba === "cortes" && p.modo === "bruto") return { ...p, cortes: [], gancho: null, previaCortes: p.cortes ?? [] } as Projeto;
     return p;
   }, [p, aba]);
   const linha = useMemo(() => (previa ? montarLinha(previa) : null), [previa]);
@@ -153,7 +155,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
     irParaFrame: (fr) => ref.current?.seekTo(Math.max(0, Math.min(linha.duracao - 1, fr))),
   };
 
-  const abas: Aba[] = p.modo === "ia" ? ["cenas", "legendas", "estilo", "efeitos", "imagens", "exportar"] : ["legendas", "estilo", "efeitos", "cortes", "exportar"];
+  const abas: Aba[] = p.modo === "ia" ? ["cenas", "legendas", "estilo", "efeitos", "imagens", "exportar"] : ["legendas", "estilo", "efeitos", "cortes", "ia", "exportar"];
 
   const salvar = async () => {
     setSalvando(true);
@@ -233,6 +235,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
               {aba === "efeitos" && <PainelEfeitos />}
               {aba === "cortes" && <PainelCortes />}
               {aba === "imagens" && <PainelImagens />}
+              {aba === "ia" && <PainelIA aoPedir={(salvo) => { primeiro.current = true; h.iniciar(salvo); }} />}
               {aba === "exportar" && <PainelExportar salvar={salvar} />}
             </div>
           </div>

@@ -22,7 +22,7 @@ export type CenaTempo = {
   elementos: ElementoTempo[];
 };
 // Trecho do vídeo bruto que fica no resultado
-export type Trecho = { ini: number; fim: number; saida: number }; // ini/fim no original (s), saida no resultado (s)
+export type Trecho = { ini: number; fim: number; saida: number; gancho?: boolean }; // ini/fim no original (s), saida no resultado (s)
 
 export type LinhaTempo = {
   duracao: number; // frames
@@ -77,21 +77,28 @@ export const calcularTrechos = (duracao: number, cortes: Corte[] = []): Trecho[]
 
 const linhaBruto = (p: Projeto): LinhaTempo => {
   const dur = p.video?.duracao ?? 0;
-  const trechos = calcularTrechos(dur, p.cortes);
-  const paraSaidaSeg = (t: number) => {
-    for (const tr of trechos) if (t >= tr.ini && t < tr.fim) return tr.saida + (t - tr.ini);
+  const g = p.gancho && p.gancho.f - p.gancho.i > 0.3 ? { i: Math.max(0, p.gancho.i), f: Math.min(dur, p.gancho.f) } : null;
+  const desloc = g ? g.f - g.i : 0;
+  const corpo = calcularTrechos(dur, p.cortes).map((t) => ({ ...t, saida: t.saida + desloc }));
+  const trechos: Trecho[] = g ? [{ ini: g.i, fim: g.f, saida: 0, gancho: true }, ...corpo] : corpo;
+  // tempo do original → resultado; o corpo do vídeo tem prioridade sobre o gancho
+  const noCorpo = (t: number) => {
+    for (const tr of corpo) if (t >= tr.ini && t < tr.fim) return tr.saida + (t - tr.ini);
     return null;
   };
+  const noGancho = (t: number) => (g && t >= g.i && t < g.f ? t - g.i : null);
+  const paraSaidaSeg = (t: number) => noCorpo(t) ?? noGancho(t);
   const totalSeg = trechos.reduce((s, t) => s + (t.fim - t.ini), 0);
   const palavras: PalavraTempo[] = [];
-  (p.palavras ?? []).forEach((w: Palavra, idx) => {
+  const empurrar = (w: Palavra, idx: number, mapa: (t: number) => number | null, cena?: number) => {
     if (!w.p.trim()) return; // palavra escondida
-    const meio = (w.i + w.f) / 2;
-    const ini = paraSaidaSeg(w.i) ?? paraSaidaSeg(meio);
+    const ini = mapa(w.i) ?? mapa((w.i + w.f) / 2);
     if (ini === null) return; // palavra cortada
-    const fim = paraSaidaSeg(Math.max(w.i, w.f - 0.001)) ?? ini + (w.f - w.i);
-    palavras.push({ p: w.p, ini: Math.round(ini * FPS), fim: Math.max(Math.round(ini * FPS) + 1, Math.round(fim * FPS)), destaque: w.destaque, idx });
-  });
+    const fim = mapa(Math.max(w.i, w.f - 0.001)) ?? ini + (w.f - w.i);
+    palavras.push({ p: w.p, ini: Math.round(ini * FPS), fim: Math.max(Math.round(ini * FPS) + 1, Math.round(fim * FPS)), destaque: w.destaque, idx, cena });
+  };
+  if (g) (p.palavras ?? []).forEach((w, idx) => empurrar(w, idx, noGancho, -1));
+  (p.palavras ?? []).forEach((w, idx) => empurrar(w, idx, noCorpo));
   return {
     duracao: Math.max(1, Math.round(totalSeg * FPS)),
     palavras,

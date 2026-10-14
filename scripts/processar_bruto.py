@@ -122,9 +122,57 @@ def zooms_nos_destaques(palavras, escala=1.18, intervalo=2.5):
     zooms, ultimo = [], -99.0
     for w in palavras:
         if w.get("destaque") and w["i"] - ultimo >= intervalo:
-            zooms.append({"id": "z" + uuid.uuid4().hex[:8], "i": round(max(0, w["i"] - 0.05), 3), "f": round(w["f"] + 0.45, 3), "escala": escala})
+            zooms.append({"id": zid(), "i": round(max(0, w["i"] - 0.05), 3), "f": round(w["f"] + 0.45, 3), "escala": escala})
             ultimo = w["i"]
     return zooms
+
+
+def trechos_mantidos(duracao, cortes):
+    cs = sorted((min(c["i"], c["f"]), max(c["i"], c["f"])) for c in cortes)
+    juntos = []
+    for i, f in cs:
+        if juntos and i <= juntos[-1][1]:
+            juntos[-1][1] = max(juntos[-1][1], f)
+        else:
+            juntos.append([i, f])
+    trechos, pos = [], 0.0
+    for i, f in juntos:
+        if i - pos > 0.04:
+            trechos.append((pos, i))
+        pos = max(pos, f)
+    if duracao - pos > 0.04:
+        trechos.append((pos, duracao))
+    return trechos
+
+
+def zid():
+    return "auto-z" + uuid.uuid4().hex[:6]  # "auto-": feito pelo estilo (a IA pode substituir)
+
+
+def efeitos_do_estilo(estilo, palavras, duracao, cortes):
+    """O que cada estilo pronto faz sozinho (sem IA). Devolve {'zooms': [...], 'titulos': [...]}."""
+    ef = {}
+    if estilo == "impacto":
+        ef["zooms"] = zooms_nos_destaques(palavras)
+    elif estilo == "cortes-rapidos":
+        # jump cut: o enquadramento alterna (normal / mais perto) a cada trecho que sobrou
+        ef["zooms"] = [{"id": zid(), "i": round(i, 3), "f": round(f, 3), "escala": 1.14, "seco": True}
+                       for k, (i, f) in enumerate(trechos_mantidos(duracao, cortes)) if k % 2 == 1]
+    elif estilo == "documentario":
+        # aproximação lenta e contínua, em janelas de ~7 s
+        zs, t = [], 0.0
+        while t < duracao - 1:
+            zs.append({"id": zid(), "i": round(t, 3), "f": round(min(duracao, t + 7), 3), "escala": 1.1, "suave": True})
+            t += 7
+        ef["zooms"] = zs
+    elif estilo == "noticia" and palavras:
+        ini = palavras[0]["i"]
+        ef["titulos"] = [{"id": "auto-t" + uuid.uuid4().hex[:6], "texto": "ÚLTIMAS NOTÍCIAS", "i": round(ini, 3), "f": round(ini + 3, 3), "posicao": 12, "cor": "vermelho"}]
+    return ef
+
+
+# a cada quantas palavras, no máximo, uma fica destacada (None = sem destaque automático)
+DESTAQUE_A_CADA = {"impacto": 3, "cortes-rapidos": 4, "noticia": 5, "tutorial": 5, "podcast": 6, "documentario": None}
 
 
 def main():
@@ -157,8 +205,8 @@ def main():
     palavras = limpar(palavras)
 
     estilo = projeto.get("estilo", "impacto")
-    if estilo in ("impacto", "cortes-rapidos", "noticia", "tutorial", "podcast"):
-        destacar(palavras, 3 if estilo == "impacto" else 5)
+    if DESTAQUE_A_CADA.get(estilo):
+        destacar(palavras, DESTAQUE_A_CADA[estilo])
     cortes = []
     if proc.get("cortarPausas", True):
         cortes = cortes_de_pausas(palavras, duracao, float(proc.get("limitePausa", 0.5)))
@@ -168,8 +216,9 @@ def main():
         "palavras": palavras,
         "cortes": cortes,
     }
-    if estilo == "impacto":
-        resultado["efeitos"] = {"zooms": zooms_nos_destaques(palavras)}
+    ef = efeitos_do_estilo(estilo, palavras, duracao, cortes)
+    if ef:
+        resultado["efeitos"] = ef
     json.dump(resultado, open(a.saida, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     final = duracao - sum(c["f"] - c["i"] for c in cortes)
     print(f"== Pronto: {len(palavras)} palavras, {len(cortes)} cortes ({duracao:.1f}s → {final:.1f}s)")

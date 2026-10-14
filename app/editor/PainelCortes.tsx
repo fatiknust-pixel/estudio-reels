@@ -80,6 +80,31 @@ export const PainelCortes: React.FC = () => {
         </div>
       </div>
 
+      <div className="cartao">
+        <b>🪝 Gancho (abertura)</b>
+        <p className="pequeno suave">Um trecho forte que toca <b>antes</b> do começo, com um texto chamativo — prende a atenção nos 2 primeiros segundos.</p>
+        {!p.gancho ? (
+          <button className="btn largo" disabled={marca === null} onClick={() => {
+            const t = tempoAgora();
+            alterar((x) => { x.gancho = { i: Math.min(marca!, t), f: Math.max(marca!, t), texto: "" }; });
+            setMarca(null);
+          }}>{marca === null ? "Marque o início acima (⟦) e pare no fim do trecho" : "🪝 Usar o trecho marcado como gancho"}</button>
+        ) : (
+          <>
+            <input type="text" placeholder="Texto do gancho (ex.: ISSO ME CUSTOU 10 MIL)" value={p.gancho.texto ?? ""} onChange={(e) => alterar((x) => { x.gancho!.texto = e.target.value; }, "gancho-txt")} />
+            <div className="linha" style={{ marginTop: 6, flexWrap: "wrap" }}>
+              <CampoTempo rotulo="de" valor={p.gancho.i} passo={0.05} agora={tempoAgora} mudar={(v) => alterar((x) => { x.gancho!.i = v; })} />
+              <CampoTempo rotulo="até" valor={p.gancho.f} passo={0.05} agora={tempoAgora} mudar={(v) => alterar((x) => { x.gancho!.f = v; })} />
+            </div>
+            <div className="linha" style={{ marginTop: 6 }}>
+              <button className="btn mini" onClick={() => irPara(p.gancho!.i, true)}>▶ ouvir trecho</button>
+              <span className="cresce pequeno suave">{(p.gancho.f - p.gancho.i).toFixed(1)}s</span>
+              <button className="btn mini perigo" onClick={() => alterar((x) => { x.gancho = null; })}>Tirar gancho</button>
+            </div>
+          </>
+        )}
+      </div>
+
       <h3>Cortes ({cortes.length})</h3>
       {!cortes.length && <div className="vazio-lista">Nenhum corte. Use os botões acima ou, na aba 💬 Legendas, toque numa palavra → “Cortar esta palavra”.</div>}
       {cortes.map((c) => (

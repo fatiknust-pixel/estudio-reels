@@ -155,7 +155,7 @@ export const criarBruto = async (p: Projeto, arquivo: File, tocavel: boolean, fa
   fase("Salvando o projeto");
   await salvarNoGitHub(p);
   fase("Pedindo a transcrição");
-  await gh.dispararWorkflow("processar-bruto.yml", { projeto: p.id, modelo: p.processamento?.modelo ?? "medium" });
+  await gh.dispararWorkflow("processar-bruto.yml", { projeto: p.id, modelo: p.processamento?.modelo ?? "medium", ia: String(p.processamento?.ia ?? true), etapa: "tudo" });
 };
 
 export type PedidoIA = { tema: string; tom: string; duracao: number };
@@ -191,12 +191,17 @@ export const pedirAtualizacaoIA = async (p: Projeto, aviso?: (m: string) => void
 };
 
 // Depois que uma Action termina: traz o que ela gerou sem perder o que você mudou no aparelho
-const GERADOS = ["video", "palavras", "cenas", "narracao", "imagens", "fontesPesquisa", "voz", "sugestoes", "status", "processamento"] as const;
+const GERADOS = ["video", "palavras", "gancho", "cenas", "narracao", "imagens", "fontesPesquisa", "voz", "sugestoes", "status", "processamento"] as const;
 export const trazerResultado = async (atual: Projeto): Promise<Projeto> => {
   const remoto = await gh.lerJSON<Projeto>(`${pasta(atual.id)}/projeto.json`);
   const novo: Projeto = structuredClone(atual);
   for (const k of GERADOS) (novo as any)[k] = (remoto as any)[k];
-  if (!atual.cortes?.length) novo.cortes = remoto.cortes;
+  // o processamento do vídeo bruto (e as sugestões da IA) refaz cortes e efeitos
+  if (!atual.cortes?.length || atual.modo === "bruto") novo.cortes = remoto.cortes;
+  if (atual.modo === "bruto") {
+    novo.efeitos = remoto.efeitos;
+    novo.titulo = remoto.titulo;
+  }
   if (atual.modo === "ia" && remoto.titulo) novo.titulo = remoto.titulo;
   novo.atualizadoEm = remoto.atualizadoEm;
   // arquivos baixados antes podem ter mudado (voz nova, imagem nova): limpa o cache deste projeto
