@@ -48,7 +48,11 @@ export type Cena = {
   elementos: ElementoCena[];
 };
 export type NarracaoCena = { hash?: string; texto?: string; audio: string; duracao: number; palavras: Palavra[] };
-export type ImagemInfo = { arquivo: string; rotulo?: string; autor?: string; licenca?: string; pagina?: string; busca?: string };
+// arquivo vazio = ainda não baixada. wiki/commons/arquivoCommons/busca dizem onde procurar no Wikimedia.
+export type ImagemInfo = {
+  arquivo: string; rotulo?: string; autor?: string; licenca?: string; pagina?: string; titulo?: string;
+  wiki?: string; commons?: string; arquivoCommons?: string; busca?: string; propria?: boolean;
+};
 
 // ----- Modo 2 (bruto) -----
 export type VideoFonte = {

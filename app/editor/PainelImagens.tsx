@@ -20,7 +20,8 @@ export const reduzirImagem = (arquivo: Blob, max = 1080): Promise<Blob> =>
   });
 
 export const PainelImagens: React.FC = () => {
-  const { projeto: p, alterar, urlArquivo, definirArquivo } = useEditor();
+  const { projeto: p, alterar, urlArquivo, definirArquivo, atualizarIA } = useEditor();
+  const pendentes = Object.values(p.imagens ?? {}).filter((i) => i.busca || !i.arquivo).length;
   const entrada = useRef<HTMLInputElement>(null);
   const [alvo, setAlvo] = useState<string | null>(null);
   const imagens = Object.entries(p.imagens ?? {});
@@ -38,7 +39,7 @@ export const PainelImagens: React.FC = () => {
       await definirArquivo(caminho, b);
       alterar((x) => {
         const atual = x.imagens![alvo] ?? { arquivo: caminho };
-        x.imagens![alvo] = { arquivo: caminho, rotulo: atual.rotulo ?? alvo };
+        x.imagens![alvo] = { arquivo: caminho, rotulo: atual.rotulo ?? alvo, propria: true };
       });
       avisar("Foto trocada (sobe para o GitHub ao salvar)");
     } catch (e) {
@@ -51,6 +52,12 @@ export const PainelImagens: React.FC = () => {
       <p className="pequeno suave" style={{ marginTop: 0 }}>
         Imagens do Wikimedia Commons, com autor e licença mostrados no vídeo. Troque por uma foto sua, ou peça outra busca (feita pela Action em “Atualizar voz e imagens”).
       </p>
+      {pendentes > 0 && p.status !== "processando" && (
+        <div className="aviso pequeno">
+          🔎 {pendentes} imagem(ns) para buscar no Wikimedia.
+          <button className="btn mini prim" style={{ marginTop: 8, display: "flex" }} onClick={() => atualizarIA()}>Buscar agora</button>
+        </div>
+      )}
       <input ref={entrada} type="file" accept="image/*" hidden onChange={(e) => { aoEscolher(e.target.files?.[0]); e.target.value = ""; }} />
       <div className="imgs">
         {imagens.map(([k, i]) => {
@@ -76,7 +83,7 @@ export const PainelImagens: React.FC = () => {
         const chave = prompt("Nome curto da imagem (ex.: congresso):")?.trim().toLowerCase().replace(/[^a-z0-9-]+/g, "-");
         if (!chave) return;
         const busca = prompt("O que buscar no Wikimedia Commons? (ou deixe vazio para usar uma foto sua)") ?? "";
-        alterar((x) => { (x.imagens ??= {})[chave] = { arquivo: `imagens/${chave}.jpg`, rotulo: chave, busca: busca || undefined }; });
+        alterar((x) => { (x.imagens ??= {})[chave] = { arquivo: "", rotulo: chave, busca: busca || undefined }; });
       }}>+ Nova imagem</button>
     </div>
   );

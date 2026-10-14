@@ -1,0 +1,102 @@
+name: Gerar vídeo com IA
+run-name: Gerar ${{ inputs.projeto }}
+
+# Modo 1. Disparado pelo app depois de você escrever tema, tom, cores e duração.
+# 1) O Claude (sua assinatura, segredo CLAUDE_CODE_OAUTH_TOKEN) pesquisa fontes confiáveis e escreve
+#    projetos/<id>/roteiro.json + imagens.json no formato do Astra (docs/guia-roteiro.md).
+# 2) Narração com edge-tts (pt-BR-AntonioNeural +5%) e tempo por palavra.
+# 3) Imagens do Wikipédia/Wikimedia Commons com autor e licença.
+on:
+  workflow_dispatch:
+    inputs:
+      projeto:
+        description: "id do projeto (pasta em projetos/)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: ia-${{ inputs.projeto }}
+  cancel-in-progress: true
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ID: ${{ inputs.projeto }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar id
+        env:
+          TEM_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+        run: |
+          if ! [[ "$ID" =~ ^[a-z0-9][a-z0-9-]{0,63}$ ]] || [ ! -f "projetos/$ID/projeto.json" ]; then
+            echo "::error::Projeto '$ID' não encontrado em projetos/"; exit 1
+          fi
+          if [ "$TEM_TOKEN" != "true" ]; then
+            echo "::error::Falta o segredo CLAUDE_CODE_OAUTH_TOKEN (rode 'claude setup-token' e salve em Settings → Secrets → Actions)"; exit 1
+          fi
+          rm -f "projetos/$ID/roteiro.json" "projetos/$ID/imagens.json"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar voz e ffmpeg
+        run: |
+          pip install edge-tts==7.3.1
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Claude pesquisa e escreve o roteiro
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Você é roteirista e pesquisador de vídeos curtos 9:16 (Reels/TikTok) em português do Brasil.
+
+            1. Leia `docs/guia-roteiro.md` e siga-o à risca. Use `app/demos/demo-ia.json` (campo `cenas`) como exemplo de qualidade.
+            2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao` em segundos).
+            3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
+            4. Escreva `projetos/${{ inputs.projeto }}/roteiro.json` e `projetos/${{ inputs.projeto }}/imagens.json`:
+               gancho forte no início, cenas curtas com elementos animados e fontes na tela, e no final
+               uma pergunta para o público (enquete) e um CTA (seguir). Respeite o tom e a duração pedidos.
+            5. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija até aparecer "✅ Roteiro válido"
+               (trate também os avisos de duração e de fontes).
+
+            Não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --max-turns 80
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(node scripts/validar-roteiro.mjs:*)"
+
+      - name: Conferir roteiro
+        run: node scripts/validar-roteiro.mjs "projetos/$ID"
+
+      - name: Montar projeto
+        run: node scripts/importar-roteiro.mjs "projetos/$ID" out/projeto.json
+
+      - name: Narração (edge-tts)
+        run: python3 scripts/voz.py out/projeto.json --midia "projetos/$ID"
+
+      - name: Imagens (Wikimedia Commons)
+        run: node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID"
+
+      - name: Salvar projeto pronto
+        run: |
+          scripts/salvar_no_repo.sh "Roteiro, voz e imagens de $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --resultado out/projeto.json --campos titulo,cenas,narracao,imagens,fontesPesquisa,voz,legenda --limpar-midia
+
+      - name: Marcar erro no projeto
+        if: failure()
+        run: |
+          scripts/salvar_no_repo.sh "Erro ao gerar $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --erro "Falhou ao gerar o vídeo. Veja o log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

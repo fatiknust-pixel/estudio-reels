@@ -230,7 +230,7 @@ const Mapa: React.FC<{ e: ElementoTempo }> = ({ e }) => {
         <Icone nome="pin" tamanho={110} cor={COR.verde} />
       </div>
       <div style={{ position: "absolute", left: 700, top: 180, transform: `translateX(-50%) scale(${ok})`, fontFamily: FONTE, fontWeight: 900, fontSize: 44, color: "#fff" }}>{e.para}</div>
-      <div style={{ position: "absolute", left: 0, right: 0, bottom: 26, textAlign: "center", fontFamily: FONTE, fontWeight: 700, fontSize: 32, color: COR.suave }}>Processos enviados para a Justiça Federal do DF</div>
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 26, textAlign: "center", fontFamily: FONTE, fontWeight: 700, fontSize: 32, color: COR.suave }}>{e.legenda ?? ""}</div>
     </Caixa>
   );
 };

@@ -30,6 +30,14 @@ if (projeto.modo === "bruto" && projeto.video) {
   }
 }
 
+// Modo 1: garante voz das cenas editadas e imagens pedidas (na cópia do render, sem commit)
+if (projeto.modo === "ia") {
+  const copia = path.join(destino, "projeto.json");
+  execFileSync("python3", ["scripts/voz.py", copia], { stdio: "inherit", cwd: RAIZ });
+  execFileSync("node", ["scripts/imagens.mjs", copia], { stdio: "inherit", cwd: RAIZ });
+  Object.assign(projeto, JSON.parse(fs.readFileSync(copia, "utf8")));
+}
+
 delete projeto.previaCortes;
 const saida = saidaArg ?? path.join(RAIZ, "out", `${id}.mp4`);
 fs.mkdirSync(path.dirname(saida), { recursive: true });

@@ -16,6 +16,7 @@ export type EditorCtx = {
   urlArquivo: (caminho?: string) => string | null;
   definirArquivo: (caminho: string, b: Blob) => Promise<void>; // arquivo novo (ex.: foto sua), sobe ao salvar
   ehDemo: boolean;
+  atualizarIA: () => Promise<void>; // Modo 1: gera voz das cenas editadas e baixa imagens pedidas
 };
 
 const Ctx = createContext<EditorCtx | null>(null);

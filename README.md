@@ -46,6 +46,19 @@ navegador); a Action junta as partes e apaga o ramo.
    de zoom nelas e corta as pausas maiores que o limite escolhido.
 5. Junta o resultado ao `projeto.json` mais recente (sem apagar o que você editou) e faz o commit.
 
+### Modo 1 — o que as Actions fazem
+
+- `gerar-ia.yml`: o **Claude** (`anthropics/claude-code-action`, com a sua assinatura) lê o pedido em
+  `projeto.json`, pesquisa na web e escreve `roteiro.json` + `imagens.json` no formato do Astra seguindo
+  [`docs/guia-roteiro.md`](docs/guia-roteiro.md) (gancho, cenas com elementos animados e fontes na tela,
+  enquete e CTA no final), conferindo com `scripts/validar-roteiro.mjs`. Depois vêm a narração
+  (`scripts/voz.py`, edge-tts `pt-BR-AntonioNeural` +5%, tempo por palavra) e as imagens
+  (`scripts/imagens.mjs`, Wikipédia/Commons com autor e licença).
+- `atualizar-ia.yml`: depois de editar o texto de cenas ou pedir outra imagem no app, refaz só a voz
+  das cenas que mudaram e baixa só as imagens pedidas. Ao exportar isso também acontece sozinho.
+- Áudios e imagens ganham nomes com hash (`audio/<cena>-<hash>.mp3`), então o app nunca mostra arquivo
+  velho do cache; os que deixam de ser usados são apagados.
+
 ## Configurar (uma vez)
 
 1. **GitHub Pages:** *Settings → Pages → Source: GitHub Actions*. O app fica em
@@ -72,7 +85,7 @@ node scripts/renderizar.mjs <id>   # MP4 de projetos/<id>/ em out/<id>.mp4
 
 1. ✅ Estrutura do app + editor com prévia ao vivo + exportar
 2. ✅ Modo 2 com o estilo “Legenda impacto” (envio do vídeo, transcrição faster-whisper)
-3. ⏳ Modo 1 (roteiro com o Claude, voz, imagens)
+3. ✅ Modo 1 (roteiro com o Claude, voz, imagens)
 4. ⏳ Demais estilos e sugestões da IA
 
 Remotion é gratuito para uso individual; veja a [licença](https://www.remotion.dev/license).

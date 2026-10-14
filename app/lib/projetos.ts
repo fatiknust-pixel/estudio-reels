@@ -158,6 +158,38 @@ export const criarBruto = async (p: Projeto, arquivo: File, tocavel: boolean, fa
   await gh.dispararWorkflow("processar-bruto.yml", { projeto: p.id, modelo: p.processamento?.modelo ?? "medium" });
 };
 
+export type PedidoIA = { tema: string; tom: string; duracao: number };
+
+export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: string, voz: string): Projeto => {
+  const agora = new Date().toISOString();
+  return {
+    versao: 1, id, titulo, modo: "ia", estilo: "documentario", tema, criadoEm: agora, atualizadoEm: agora, status: "processando",
+    legenda: { ...LEGENDA_PADRAO },
+    efeitos: { ...structuredClone(EFEITOS_PADRAO), trilha: true },
+    pedido,
+    voz: { edge: voz, velocidade: "+5%" },
+    cenas: [],
+    narracao: {},
+    imagens: {},
+    processamento: { workflow: "gerar-ia.yml", pedidoEm: agora },
+  };
+};
+
+export const criarIA = async (p: Projeto) => {
+  await local.salvarProjeto(p);
+  await salvarNoGitHub(p);
+  await gh.dispararWorkflow("gerar-ia.yml", { projeto: p.id });
+};
+
+// Modo 1: voz das cenas editadas + imagens pedidas (Action atualizar-ia.yml)
+export const pedirAtualizacaoIA = async (p: Projeto, aviso?: (m: string) => void): Promise<Projeto> => {
+  const novo: Projeto = { ...p, status: "processando", processamento: { ...p.processamento, workflow: "atualizar-ia.yml", pedidoEm: new Date().toISOString(), erro: undefined } };
+  const salvo = await salvarNoGitHub(novo, aviso);
+  aviso?.("Pedindo voz e imagens ao GitHub…");
+  await gh.dispararWorkflow("atualizar-ia.yml", { projeto: p.id });
+  return salvo;
+};
+
 // Depois que uma Action termina: traz o que ela gerou sem perder o que você mudou no aparelho
 const GERADOS = ["video", "palavras", "cenas", "narracao", "imagens", "fontesPesquisa", "voz", "sugestoes", "status", "processamento"] as const;
 export const trazerResultado = async (atual: Projeto): Promise<Projeto> => {

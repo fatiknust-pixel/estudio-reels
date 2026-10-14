@@ -17,7 +17,12 @@ const MODELOS: Record<string, ElementoCena> = {
   tag: { tipo: "tag", texto: "Destaque", icone: "alerta", posicao: "meio" },
   pessoa: { tipo: "pessoa", imagem: "", nome: "Nome", cargo: "Cargo", posicao: "alto" },
   contador: { tipo: "contador", de: 0, ate: 100, unidade: "unidades", rotulo: "", posicao: "alto" },
-  definicao: { tipo: "definicao", termo: "Termo", significado: "O que significa", posicao: "meio" },
+  definicao: { tipo: "definicao", palavra: "TERMO", significado: "O que significa", posicao: "meio" },
+  icones: { tipo: "icones", itens: [["documento", "Antes"], ["seta", ""], ["check", "Depois"]], posicao: "alto" },
+  linha: { tipo: "linha", itens: [["2020", "Começo"], ["2024", "Hoje"]], posicao: "meio" },
+  placar: { tipo: "placar", sim: 7, nao: 4, rotulo: "Votação", rotuloSim: "Sim", rotuloNao: "Não", posicao: "meio" },
+  mapa: { tipo: "mapa", de: "Origem", para: "Destino", legenda: "", posicao: "alto" },
+  relogio: { tipo: "relogio", rotulo: "Prazo", antes: "Antes", depois: "Depois", posicao: "alto" },
   check: { tipo: "check", ok: true, texto: "Verdade", nota: "explicação", posicao: "alto" },
   comentario: { tipo: "comentario", texto: "Comenta aqui 👇", posicao: "meio" },
   enquete: { tipo: "enquete", pergunta: "E aí?", opcoes: ["Sim", "Não"], posicao: "alto" },
@@ -103,7 +108,8 @@ const EditorElemento: React.FC<{ e: ElementoCena; mudar: (f: (e: ElementoCena) =
 };
 
 export const PainelCenas: React.FC = () => {
-  const { projeto: p, alterar, linha, irParaFrame } = useEditor();
+  const { projeto: p, alterar, linha, irParaFrame, atualizarIA } = useEditor();
+  const [pedindo, setPedindo] = useState(false);
   const f = useFrame();
   const [novoTipo, setNovoTipo] = useState("titulo");
   const cenas = p.cenas ?? [];
@@ -116,7 +122,12 @@ export const PainelCenas: React.FC = () => {
     <div>
       {desatualizadas > 0 && (
         <div className="aviso pequeno">
-          🎙️ {desatualizadas} cena(s) com texto diferente da narração. A voz nova é gerada no GitHub quando você usar <b>Atualizar voz e imagens</b> na aba Exportar (ou ao exportar).
+          🎙️ {desatualizadas} cena(s) com texto diferente da narração (a prévia usa uma estimativa). A voz nova é gerada no GitHub — também acontece sozinha ao exportar.
+          {p.status !== "processando" && (
+            <button className="btn mini prim" style={{ marginTop: 8, display: "flex" }} disabled={pedindo} onClick={async () => { setPedindo(true); await atualizarIA(); setPedindo(false); }}>
+              🎙️ Gerar voz agora
+            </button>
+          )}
         </div>
       )}
       {cenas.map((c, k) => {

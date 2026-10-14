@@ -9,7 +9,7 @@ const quando = (iso: string) => new Date(iso).toLocaleString("pt-BR", { day: "2-
 const NOME_STATUS: Record<string, string> = { queued: "na fila", in_progress: "renderizando…", completed: "terminou", waiting: "esperando", requested: "pedido", pending: "pendente" };
 
 export const PainelExportar: React.FC<{ salvar: () => Promise<void> }> = ({ salvar }) => {
-  const { projeto: p, ehDemo } = useEditor();
+  const { projeto: p, ehDemo, atualizarIA } = useEditor();
   const [execs, setExecs] = useState<gh.Execucao[]>([]);
   const [arquivos, setArquivos] = useState<gh.Asset[] | null>(null);
   const [ocupado, setOcupado] = useState<string | null>(null);
@@ -105,6 +105,11 @@ export const PainelExportar: React.FC<{ salvar: () => Promise<void> }> = ({ salv
           }
         }}>⬇️ Exportar agora</button>
         <button className="btn largo" style={{ marginTop: 8 }} disabled={!!ocupado} onClick={() => salvar()}>💾 Só salvar no GitHub</button>
+        {p.modo === "ia" && (
+          <button className="btn largo" style={{ marginTop: 8 }} disabled={!!ocupado || p.status === "processando"} onClick={async () => { setOcupado("Pedindo…"); await atualizarIA(); setOcupado(null); }}>
+            🎙️ Atualizar voz e imagens
+          </button>
+        )}
         {ocupado && <p className="pequeno">{ocupado}</p>}
       </div>
 
