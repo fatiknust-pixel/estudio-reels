@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Projeto } from "../../src/tipos";
 import * as gh from "../lib/github";
-import { trazerResultado } from "../lib/projetos";
+import { salvarNoGitHub, trazerResultado } from "../lib/projetos";
 import { avisar, avisarErro } from "../ui";
 
 const ETAPAS: Record<string, string> = {
@@ -15,6 +15,7 @@ export const Processamento: React.FC<{ projeto: Projeto; aoConcluir: (p: Projeto
   const wf = projeto.processamento?.workflow ?? "processar-bruto.yml";
   const [exec, setExec] = useState<gh.Execucao | null>(null);
   const [segundos, setSegundos] = useState(0);
+  const [tentando, setTentando] = useState(false);
   const atual = useRef(projeto);
   atual.current = projeto;
 
@@ -53,9 +54,29 @@ export const Processamento: React.FC<{ projeto: Projeto; aoConcluir: (p: Projeto
   }, [projeto.status, projeto.id, wf]);
 
   if (projeto.status === "erro") {
+    // Refaz o mesmo processamento (o vídeo enviado continua guardado no GitHub)
+    const tentarDeNovo = async () => {
+      setTentando(true);
+      try {
+        const novo: Projeto = { ...projeto, status: "processando", processamento: { ...projeto.processamento, workflow: wf, pedidoEm: new Date().toISOString(), erro: undefined } };
+        const salvo = await salvarNoGitHub(novo);
+        const inputs: Record<string, string> = { projeto: projeto.id };
+        if (wf === "processar-bruto.yml") Object.assign(inputs, { etapa: "tudo", ia: String(projeto.processamento?.ia ?? true), modelo: projeto.processamento?.modelo ?? "medium" });
+        await gh.dispararWorkflow(wf, inputs);
+        aoConcluir(salvo);
+        avisar("Pedido de novo ✓");
+      } catch (e) {
+        avisarErro(e);
+      } finally {
+        setTentando(false);
+      }
+    };
     return (
       <div className="aviso erro" style={{ margin: 10 }}>
         ⚠️ {projeto.processamento?.erro ?? "O processamento falhou."}
+        <button className="btn mini prim" style={{ marginTop: 8, display: "flex" }} disabled={tentando} onClick={tentarDeNovo}>
+          {tentando ? "Pedindo…" : "🔁 Tentar de novo"}
+        </button>
       </div>
     );
   }

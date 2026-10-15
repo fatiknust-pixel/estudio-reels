@@ -43,10 +43,17 @@ def normalizar_video(original, fonte, previa):
            "-movflags", "+faststart", previa)
 
 
+def audio_16k(arquivo):
+    """Áudio mono 16 kHz em float32 lido pelo ffmpeg (não depende da versão do PyAV)."""
+    import numpy as np
+    bruto = subprocess.check_output(["ffmpeg", "-v", "error", "-i", arquivo, "-vn", "-ac", "1", "-ar", "16000", "-f", "s16le", "-"])
+    return np.frombuffer(bruto, dtype=np.int16).astype(np.float32) / 32768.0
+
+
 def transcrever(arquivo, modelo, idioma="pt"):
     from faster_whisper import WhisperModel
     m = WhisperModel(modelo, device="cpu", compute_type="int8")
-    segmentos, info = m.transcribe(arquivo, language=idioma, word_timestamps=True, vad_filter=True,
+    segmentos, info = m.transcribe(audio_16k(arquivo), language=idioma, word_timestamps=True, vad_filter=True,
                                    vad_parameters={"min_silence_duration_ms": 300}, beam_size=5,
                                    condition_on_previous_text=False)
     palavras = []
