@@ -1,0 +1,55 @@
+{
+ "versao": 1,
+ "id": "v-20261014-8xmt",
+ "titulo": "Relato entrevista",
+ "modo": "bruto",
+ "estilo": "cortes-rapidos",
+ "tema": "neon",
+ "criadoEm": "2026-10-15T02:15:11.151Z",
+ "atualizadoEm": "2026-10-15T02:19:05.641Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "anton",
+  "tamanho": 128,
+  "cor": "#FFFFFF",
+  "corDestaque": "#00F5A0",
+  "posicao": 58,
+  "palavrasPorTela": 1,
+  "maiusculas": true,
+  "contorno": 12,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": false,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "video": {
+  "arquivo": "video.mp4",
+  "duracao": 35.43333333333333,
+  "largura": 2160,
+  "altura": 3840,
+  "enquadramento": "preencher",
+  "focoX": 50,
+  "volume": 1
+ },
+ "palavras": [],
+ "cortes": [],
+ "processamento": {
+  "cortarPausas": true,
+  "limitePausa": 0.3,
+  "idioma": "pt",
+  "modelo": "medium",
+  "ia": true,
+  "workflow": "processar-bruto.yml",
+  "pedidoEm": "2026-10-15T02:15:11.152Z"
+ }
+}
