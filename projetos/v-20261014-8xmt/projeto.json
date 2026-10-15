@@ -6,8 +6,8 @@
  "estilo": "cortes-rapidos",
  "tema": "neon",
  "criadoEm": "2026-10-15T02:15:11.151Z",
- "atualizadoEm": "2026-10-15T02:19:05.641Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-15T02:20:52Z",
+ "status": "erro",
  "legenda": {
   "fonte": "anton",
   "tamanho": 128,
@@ -50,6 +50,7 @@
   "modelo": "medium",
   "ia": true,
   "workflow": "processar-bruto.yml",
-  "pedidoEm": "2026-10-15T02:15:11.152Z"
+  "pedidoEm": "2026-10-15T02:15:11.152Z",
+  "erro": "Falhou ao processar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/38670345540"
  }
 }
