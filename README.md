@@ -51,6 +51,17 @@ navegador); a Action junta as partes e apaga o ramo.
    aplicado e marcado como IA; na aba 🤖 IA do editor dá para tirar por partes ou pedir de novo.
 6. Junta o resultado ao `projeto.json` mais recente e faz o commit.
 
+**Acabamento profissional automático (Modo 2):**
+- **Voz tratada:** filtro de graves, redução de ruído, compressor e volume padrão de redes (-14 LUFS, pico -1,5 dBTP).
+- **Imagem:** leve ajuste de contraste, cor e nitidez.
+- **Auto-enquadramento:** detecta o rosto (OpenCV) e a "câmera" acompanha com calma (zona morta + transição suave);
+  os punch-ins aproximam do rosto. Dá para desligar em Estilo → "Seguir o rosto automaticamente".
+- **Ritmo:** cortes de enquadramento alternados a cada jump cut e uma quebra de padrão sempre que passa tempo
+  demais sem mudança visual (≈3 s no impacto, 2,5 s nos cortes rápidos, 4,5 s em notícia/tutorial, 6 s no podcast).
+- **Áudio dos cortes:** micro fade de 2 frames em cada corte (sem "clique").
+- **Design de som:** whoosh nos punch-ins e títulos, pop nos emojis (Efeitos → "Sons automáticos").
+- **Trilha com ducking:** abaixa enquanto alguém fala e volta nas pausas.
+
 | Estilo | O que faz |
 |---|---|
 | 💥 Legenda impacto | 2 palavras por vez, pop, destaque amarelo e zoom nas palavras-chave |

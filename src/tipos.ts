@@ -38,6 +38,8 @@ export type Efeitos = {
   sons: Som[];
   zooms: Zoom[];
   enquete?: Enquete | null;
+  sfxAuto?: boolean; // sons automáticos em zooms, emojis e títulos (padrão: ligado)
+  abaixarTrilha?: boolean; // trilha abaixa enquanto alguém fala (padrão: ligado)
 };
 
 // ----- Modo 1 (IA): cenas no formato do roteiro.json do Astra -----
@@ -66,6 +68,9 @@ export type VideoFonte = {
   enquadramento: "preencher" | "ajustar"; // preencher = corta as laterais; ajustar = fundo desfocado
   focoX: number; // 0–100, qual parte do vídeo horizontal fica no centro
   volume: number;
+  // auto-enquadramento: posição do rosto (% do quadro original) ao longo do tempo do original
+  foco?: { t: number; x: number; y: number }[];
+  seguirRosto?: boolean; // false = usa só focoX
 };
 
 export type Projeto = {

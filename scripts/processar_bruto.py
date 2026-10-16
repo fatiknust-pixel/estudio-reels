@@ -31,16 +31,73 @@ def ffmpeg(*args):
     subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-stats", *args])
 
 
-def normalizar_video(original, fonte, previa):
+# Tratamento de voz usado em vídeos profissionais de redes sociais:
+# corta graves de vento/ruído (highpass), reduz chiado (afftdn), equilibra o volume da fala
+# (compressor) e deixa no volume que TikTok/Reels esperam (~-14 LUFS, pico -1,5 dBTP).
+CADEIA_VOZ = ("highpass=f=80,afftdn=nf=-25,"
+              "acompressor=threshold=-20dB:ratio=3:attack=5:release=120:makeup=2,"
+              "loudnorm=I=-14:TP=-1.5:LRA=11")
+# Leve correção de imagem: um pouco mais de contraste/cor e nitidez (vídeo de celular costuma vir "lavado")
+CADEIA_IMAGEM = "eq=contrast=1.06:saturation=1.12:gamma=1.02,unsharp=5:5:0.45:5:5:0"
+
+
+def normalizar_video(original, fonte, previa, tratar_audio=True, melhorar_imagem=True, tem_audio=True):
     # o ffmpeg já aplica a rotação do celular (autorotate), então largura/altura saem certas
-    ffmpeg("-i", original,
-           "-vf", "scale=w='min(iw,1920)':h='min(ih,1920)':force_original_aspect_ratio=decrease:force_divisible_by=2,fps=30,format=yuv420p",
+    vf = "scale=w='min(iw,1920)':h='min(ih,1920)':force_original_aspect_ratio=decrease:force_divisible_by=2,fps=30"
+    if melhorar_imagem:
+        vf += "," + CADEIA_IMAGEM
+    vf += ",format=yuv420p"
+    af = ["-af", CADEIA_VOZ] if (tratar_audio and tem_audio) else []
+    ffmpeg("-i", original, "-vf", vf, *af,
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
            "-movflags", "+faststart", fonte)
     ffmpeg("-i", fonte,
            "-vf", "scale=w='min(iw,960)':h='min(ih,960)':force_original_aspect_ratio=decrease:force_divisible_by=2",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "30", "-g", "15", "-c:a", "aac", "-b:a", "96k",
            "-movflags", "+faststart", previa)
+
+
+def rastrear_rosto(arquivo, duracao, passo=0.5):
+    """Auto-enquadramento: acha o rosto principal a cada `passo` s e devolve [{t, x, y}] em % do quadro.
+
+    Suaviza e só move a "câmera" quando o rosto sai de uma zona morta, como fazem editores
+    profissionais (o enquadramento segura firme e acompanha o movimento com calma).
+    """
+    try:
+        import cv2, numpy as np
+    except ImportError:
+        print("   (opencv não instalado: sem auto-enquadramento)")
+        return []
+    largura = 480
+    w, h = largura, None
+    out = subprocess.check_output(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", arquivo]).decode().strip()
+    vw, vh = [int(x) for x in out.split(",")[:2]]
+    h = int(round(vh * largura / vw / 2) * 2)
+    bruto = subprocess.check_output(["ffmpeg", "-v", "error", "-i", arquivo, "-vf", f"fps={1/passo},scale={w}:{h}", "-f", "rawvideo", "-pix_fmt", "gray", "-"])
+    n = len(bruto) // (w * h)
+    detector = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    pontos = []
+    for k in range(n):
+        img = np.frombuffer(bruto[k * w * h:(k + 1) * w * h], dtype=np.uint8).reshape(h, w)
+        rostos = detector.detectMultiScale(img, scaleFactor=1.15, minNeighbors=6, minSize=(int(w * 0.07), int(w * 0.07)))
+        if len(rostos):
+            x, y, rw, rh = max(rostos, key=lambda r: r[2] * r[3])
+            pontos.append((k * passo, (x + rw / 2) / w * 100, (y + rh * 0.45) / h * 100))
+    if len(pontos) < max(2, n * 0.15):
+        print(f"   rosto encontrado em {len(pontos)}/{n} amostras: sem auto-enquadramento")
+        return []
+    # mediana móvel (tira detecções falsas) + zona morta de 6% (segura o quadro parado)
+    xs = [p[1] for p in pontos]; ys = [p[2] for p in pontos]
+    med = lambda v, i: sorted(v[max(0, i - 2):i + 3])[len(v[max(0, i - 2):i + 3]) // 2]
+    foco, ax, ay = [], None, None
+    for i, (t, _, _) in enumerate(pontos):
+        mx, my = med(xs, i), med(ys, i)
+        if ax is None or abs(mx - ax) > 6 or abs(my - ay) > 6:
+            ax = mx if ax is None else ax + (mx - ax) * 0.7
+            ay = my if ay is None else ay + (my - ay) * 0.7
+            foco.append({"t": round(t, 2), "x": round(ax, 1), "y": round(ay, 1)})
+    print(f"   rosto encontrado em {len(pontos)}/{n} amostras, {len(foco)} ajustes de enquadramento")
+    return foco
 
 
 def audio_16k(arquivo):
@@ -152,6 +209,29 @@ def trechos_mantidos(duracao, cortes):
     return trechos
 
 
+# Ritmo: intervalo máximo (s) sem nenhuma mudança visual, por estilo. Guias de retenção de vídeos
+# curtos recomendam uma "quebra de padrão" (zoom, corte, texto, som) a cada ~3–5 s.
+RITMO = {"impacto": 3.0, "cortes-rapidos": 2.5, "noticia": 4.5, "tutorial": 4.5, "podcast": 6.0, "documentario": None}
+
+
+def completar_ritmo(estilo, palavras, duracao, cortes, zooms):
+    """Onde ficar tempo demais sem mudança visual, entra um leve corte de enquadramento (zoom seco)."""
+    lim = RITMO.get(estilo)
+    if not lim or not palavras:
+        return zooms
+    eventos = sorted([z["i"] for z in zooms] + [z["f"] for z in zooms] + [c["f"] for c in cortes])
+    novos, ultimo = [], palavras[0]["i"]
+    for w in palavras:
+        perto = [e for e in eventos if ultimo < e <= w["i"]]
+        if perto:
+            ultimo = perto[-1]
+        if w["i"] - ultimo >= lim:
+            fim = min(duracao, w["i"] + lim * 0.8)
+            novos.append({"id": zid(), "i": round(w["i"], 3), "f": round(fim, 3), "escala": 1.08, "seco": True})
+            ultimo = fim
+    return zooms + novos
+
+
 def zid():
     return "auto-z" + uuid.uuid4().hex[:6]  # "auto-": feito pelo estilo (a IA pode substituir)
 
@@ -159,12 +239,15 @@ def zid():
 def efeitos_do_estilo(estilo, palavras, duracao, cortes):
     """O que cada estilo pronto faz sozinho (sem IA). Devolve {'zooms': [...], 'titulos': [...]}."""
     ef = {}
+    trechos = trechos_mantidos(duracao, cortes)
+    alternar = lambda esc: [{"id": zid(), "i": round(i, 3), "f": round(f, 3), "escala": esc, "seco": True}
+                            for k, (i, f) in enumerate(trechos) if k % 2 == 1]
     if estilo == "impacto":
-        ef["zooms"] = zooms_nos_destaques(palavras)
+        # punch-in nas palavras fortes + enquadramento alternado a cada corte (jump cut "escondido")
+        ef["zooms"] = zooms_nos_destaques(palavras) + alternar(1.1)
     elif estilo == "cortes-rapidos":
         # jump cut: o enquadramento alterna (normal / mais perto) a cada trecho que sobrou
-        ef["zooms"] = [{"id": zid(), "i": round(i, 3), "f": round(f, 3), "escala": 1.14, "seco": True}
-                       for k, (i, f) in enumerate(trechos_mantidos(duracao, cortes)) if k % 2 == 1]
+        ef["zooms"] = alternar(1.14)
     elif estilo == "documentario":
         # aproximação lenta e contínua, em janelas de ~7 s
         zs, t = [], 0.0
@@ -172,9 +255,14 @@ def efeitos_do_estilo(estilo, palavras, duracao, cortes):
             zs.append({"id": zid(), "i": round(t, 3), "f": round(min(duracao, t + 7), 3), "escala": 1.1, "suave": True})
             t += 7
         ef["zooms"] = zs
-    elif estilo == "noticia" and palavras:
+    elif estilo in ("tutorial", "podcast"):
+        ef["zooms"] = alternar(1.08 if estilo == "tutorial" else 1.06)
+    if estilo == "noticia":
+        ef["zooms"] = alternar(1.08)
+    if estilo == "noticia" and palavras:
         ini = palavras[0]["i"]
         ef["titulos"] = [{"id": "auto-t" + uuid.uuid4().hex[:6], "texto": "ÚLTIMAS NOTÍCIAS", "i": round(ini, 3), "f": round(ini + 3, 3), "posicao": 12, "cor": "vermelho"}]
+    ef["zooms"] = completar_ritmo(estilo, palavras, duracao, cortes, ef.get("zooms", []))
     return ef
 
 
@@ -198,10 +286,14 @@ def main():
     os.makedirs(os.path.dirname(a.fonte) or ".", exist_ok=True)
     os.makedirs(os.path.dirname(a.previa) or ".", exist_ok=True)
 
-    print("== Normalizando vídeo", flush=True)
-    normalizar_video(a.original, a.fonte, a.previa)
+    print("== Normalizando vídeo (tratamento de voz e imagem)", flush=True)
+    _, _, _, tem_audio_orig = ffprobe(a.original)
+    normalizar_video(a.original, a.fonte, a.previa, tratar_audio=proc.get("tratarAudio", True),
+                     melhorar_imagem=proc.get("melhorarImagem", True), tem_audio=tem_audio_orig)
     duracao, largura, altura, tem_audio = ffprobe(a.fonte)
     print(f"   {largura}x{altura}, {duracao:.1f}s, áudio: {tem_audio}")
+    print("== Auto-enquadramento (rosto)", flush=True)
+    foco = rastrear_rosto(a.fonte, duracao) if proc.get("seguirRosto", True) else []
 
     palavras = []
     if a.simular:
@@ -219,7 +311,7 @@ def main():
         cortes = cortes_de_pausas(palavras, duracao, float(proc.get("limitePausa", 0.5)))
 
     resultado = {
-        "video": {"duracao": round(duracao, 3), "largura": largura, "altura": altura, "previa": os.path.basename(a.previa)},
+        "video": {"duracao": round(duracao, 3), "largura": largura, "altura": altura, "previa": os.path.basename(a.previa), "foco": foco},
         "palavras": palavras,
         "cortes": cortes,
     }

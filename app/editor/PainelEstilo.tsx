@@ -91,7 +91,10 @@ export const PainelEstilo: React.FC = () => {
           <label className="campo"><span>Enquadramento (para vídeo deitado)</span>
             <Escolha opcoes={[["preencher", "Preencher 9:16"], ["ajustar", "Inteiro + fundo desfocado"]]} valor={p.video.enquadramento} mudar={(v) => alterar((x) => { x.video!.enquadramento = v; })} />
           </label>
-          {p.video.enquadramento === "preencher" && p.video.largura > p.video.altura * 0.75 && (
+          {p.video.enquadramento === "preencher" && !!p.video.foco?.length && (
+            <Alternar rotulo="Seguir o rosto automaticamente" valor={p.video.seguirRosto !== false} mudar={(v) => alterar((x) => { x.video!.seguirRosto = v; })} />
+          )}
+          {p.video.enquadramento === "preencher" && p.video.largura > p.video.altura * 0.75 && (p.video.seguirRosto === false || !p.video.foco?.length) && (
             <Deslizar rotulo="Foco horizontal" valor={p.video.focoX} min={0} max={100} mudar={(v) => alterar((x) => { x.video!.focoX = v; }, "foco")} fmt={(v) => `${v}%`} />
           )}
           <Deslizar rotulo="Volume do vídeo" valor={Math.round(p.video.volume * 100)} min={0} max={150} mudar={(v) => alterar((x) => { x.video!.volume = v / 100; }, "vol")} fmt={(v) => `${v}%`} />

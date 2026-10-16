@@ -97,21 +97,40 @@ export const EnqueteFinal: React.FC<{ pergunta: string; opcoes: string[] }> = ({
   );
 };
 
+// Trilha que abaixa enquanto alguém fala (ducking) e volta nas pausas, como numa mesa de som
+const useVolumeTrilha = () => {
+  const { projeto, linha } = useVideo();
+  const base = projeto.efeitos.volumeTrilha;
+  const fala = React.useMemo(() => {
+    const m = new Uint8Array(linha.duracao + 1);
+    for (const w of linha.palavras) for (let q = Math.max(0, w.ini - 4); q <= Math.min(linha.duracao, w.fim + 8); q++) m[q] = 1;
+    return m;
+  }, [linha]);
+  return (q: number) => {
+    if (projeto.efeitos.abaixarTrilha === false) return base;
+    let soma = 0; // média de 9 frames: sobe e desce sem degrau
+    for (let d = -4; d <= 4; d++) soma += fala[Math.max(0, Math.min(fala.length - 1, q + d))];
+    return base * (1 - 0.55 * (soma / 9));
+  };
+};
+
 export const CamadaEfeitos: React.FC = () => {
   const { projeto, linha } = useVideo();
   const ef = projeto.efeitos;
   const janela = useJanela();
+  const volumeTrilha = useVolumeTrilha();
+  const sfx = ef.sfxAuto !== false;
   const fimConteudo = linha.duracao - (ef.enquete ? Math.round(ef.enquete.dur * FPS) : 0);
   return (
     <>
-      {ef.trilha && <Audio src={arquivoGlobal("sfx/trilha.mp3")} volume={ef.volumeTrilha} loop />}
+      {ef.trilha && <Audio src={arquivoGlobal("sfx/trilha.mp3")} volume={projeto.modo === "bruto" ? volumeTrilha : ef.volumeTrilha} loop />}
       {ef.titulos.map((t) => {
         const j = janela(t.i, t.f - t.i);
-        return j && <Sequence key={t.id} from={j.de} durationInFrames={j.dur} layout="none"><TituloTela texto={t.texto} sub={t.sub} posicao={t.posicao ?? 14} cor={t.cor} dur={j.dur} /></Sequence>;
+        return j && <Sequence key={t.id} from={j.de} durationInFrames={j.dur} layout="none">{sfx && <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.25} />}<TituloTela texto={t.texto} sub={t.sub} posicao={t.posicao ?? 14} cor={t.cor} dur={j.dur} /></Sequence>;
       })}
       {ef.emojis.map((e) => {
         const j = janela(e.i, e.dur);
-        return j && <Sequence key={e.id} from={j.de} durationInFrames={j.dur} layout="none"><EmojiTela emoji={e.emoji} x={e.x} y={e.y} tamanho={e.tamanho ?? 200} dur={j.dur} /></Sequence>;
+        return j && <Sequence key={e.id} from={j.de} durationInFrames={j.dur} layout="none">{sfx && <Audio src={arquivoGlobal("sfx/pop.mp3")} volume={0.3} />}<EmojiTela emoji={e.emoji} x={e.x} y={e.y} tamanho={e.tamanho ?? 200} dur={j.dur} /></Sequence>;
       })}
       {ef.sons.map((s) => {
         const j = janela(s.i, 2);

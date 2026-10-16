@@ -28,6 +28,30 @@ const useEscala = () => {
   return 1 + (z.escala - 1) * Easing.out(Easing.cubic)(Math.max(0, k));
 };
 
+// Auto-enquadramento: posição do rosto no tempo t (s do original), com transição suave de 0,6 s
+const focoEm = (foco: { t: number; x: number; y: number }[], t: number) => {
+  let k = -1;
+  for (let i = 0; i < foco.length; i++) if (foco[i].t <= t) k = i;
+  if (k < 0) return foco[0];
+  const atual = foco[k];
+  const ant = foco[k - 1];
+  if (!ant) return atual;
+  const p = Easing.inOut(Easing.cubic)(Math.min(1, (t - atual.t) / 0.6));
+  return { t, x: ant.x + (atual.x - ant.x) * p, y: ant.y + (atual.y - ant.y) * p };
+};
+
+// Converte a posição do rosto (% do original) em object-position (para o rosto ficar ~centralizado)
+// e na origem do zoom (para o punch-in aproximar do rosto, não do centro da tela).
+const enquadrar = (v: { largura: number; altura: number }, fx: number, fy: number) => {
+  const esc = Math.max(1080 / v.largura, 1920 / v.altura);
+  const ws = v.largura * esc, hs = v.altura * esc;
+  const clamp = (n: number) => Math.max(0, Math.min(100, n));
+  const px = ws > 1081 ? clamp(((fx / 100) * ws - 540) / (ws - 1080) * 100) : 50;
+  const py = hs > 1921 ? clamp(((fy / 100) * hs - 0.4 * 1920) / (hs - 1920) * 100) : 50;
+  const esq = ((ws - 1080) * px) / 100, topo = ((hs - 1920) * py) / 100;
+  return { pos: `${px}% ${py}%`, origem: `${clamp((((fx / 100) * ws - esq) / 1080) * 100)}% ${clamp((((fy / 100) * hs - topo) / 1920) * 100)}%` };
+};
+
 // Na prévia, um vídeo que o navegador não consegue tocar não derruba o editor
 const semErro = (e: Error) => console.warn("vídeo:", e.message);
 const naPrevia = getRemotionEnvironment().isPlayer;
@@ -63,8 +87,26 @@ const TextoGancho: React.FC<{ texto: string; dur: number }> = ({ texto, dur }) =
   );
 };
 
+// Som de "whoosh" baixinho nos punch-ins (design de som automático)
+const SonsZoom: React.FC = () => {
+  const { projeto, linha } = useVideo();
+  if (projeto.efeitos.sfxAuto === false) return null;
+  let ultimo = -99;
+  return (
+    <>
+      {projeto.efeitos.zooms.filter((z) => !z.seco && !z.suave).map((z) => {
+        const de = linha.paraSaida(z.i);
+        if (de === null || de - ultimo < 45) return null;
+        ultimo = de;
+        return <Sequence key={z.id} from={Math.max(0, de - 3)} durationInFrames={20} layout="none"><Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.18} /></Sequence>;
+      })}
+    </>
+  );
+};
+
 export const ModoBruto: React.FC = () => {
   const { projeto, linha, arquivo } = useVideo();
+  const f = useCurrentFrame();
   const v = projeto.video;
   const escala = useEscala();
   const src = v ? arquivo(v.arquivo) : null;
@@ -73,7 +115,11 @@ export const ModoBruto: React.FC = () => {
   }
   const horizontal = v.largura > v.altura * 0.75;
   const ajustar = v.enquadramento === "ajustar" && horizontal;
-  const pos = `${v.focoX ?? 50}% 50%`;
+  const seguir = v.seguirRosto !== false && (v.foco?.length ?? 0) > 0 && !ajustar;
+  const rosto = seguir ? focoEm(v.foco!, linha.paraConteudo(f)) : null;
+  const quadro = rosto ? enquadrar(v, rosto.x, rosto.y) : null;
+  const pos = quadro ? quadro.pos : `${v.focoX ?? 50}% 50%`;
+  const origem = quadro ? quadro.origem : "50% 42%";
   return (
     <AbsoluteFill>
       {/* aparece só onde não há vídeo (ex.: enquete no fim) */}
@@ -89,11 +135,12 @@ export const ModoBruto: React.FC = () => {
                 <OffthreadVideo src={src} startFrom={Math.round(tr.ini * FPS)} muted onError={naPrevia ? semErro : undefined} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </AbsoluteFill>
             )}
-            <AbsoluteFill style={{ transform: `scale(${escala})`, transformOrigin: "50% 42%" }}>
+            <AbsoluteFill style={{ transform: `scale(${escala})`, transformOrigin: origem }}>
               <OffthreadVideo
                 src={src}
                 startFrom={Math.round(tr.ini * FPS)}
-                volume={v.volume ?? 1}
+                // micro fade de 2 frames em cada corte: evita o "clique" no áudio dos jump cuts
+                volume={(q) => (v.volume ?? 1) * Math.max(0, Math.min(1, (q + 1) / 3, (dur - q) / 3))}
                 onError={naPrevia ? semErro : undefined}
                 style={{ width: "100%", height: "100%", objectFit: ajustar ? "contain" : "cover", objectPosition: pos }}
               />
@@ -113,6 +160,7 @@ export const ModoBruto: React.FC = () => {
           </Sequence>
         </>
       )}
+      <SonsZoom />
       {projeto.previaCortes && <MarcaCorte />}
     </AbsoluteFill>
   );

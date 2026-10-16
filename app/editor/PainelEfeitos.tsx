@@ -29,6 +29,8 @@ export const PainelEfeitos: React.FC = () => {
         <Alternar rotulo="Barra de progresso no topo" valor={ef.barraProgresso} mudar={(v) => set((e) => { e.barraProgresso = v; })} />
         <Alternar rotulo="Trilha de fundo" valor={ef.trilha} mudar={(v) => set((e) => { e.trilha = v; })} />
         {ef.trilha && <Deslizar rotulo="Volume da trilha" valor={Math.round(ef.volumeTrilha * 100)} min={0} max={40} mudar={(v) => set((e) => { e.volumeTrilha = v / 100; }, "trilha")} fmt={(v) => `${v}%`} />}
+        {bruto && ef.trilha && <Alternar rotulo="Trilha abaixa quando alguém fala" valor={ef.abaixarTrilha !== false} mudar={(v) => set((e) => { e.abaixarTrilha = v; })} />}
+        <Alternar rotulo="Sons automáticos (zooms, emojis, títulos)" valor={ef.sfxAuto !== false} mudar={(v) => set((e) => { e.sfxAuto = v; })} />
         {!bruto && <Alternar rotulo="Som de transição entre cenas" valor={ef.somTransicao} mudar={(v) => set((e) => { e.somTransicao = v; })} />}
       </div>
 
