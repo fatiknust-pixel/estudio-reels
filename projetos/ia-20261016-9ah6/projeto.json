@@ -1,13 +1,13 @@
 {
  "versao": 1,
  "id": "ia-20261016-9ah6",
- "titulo": "Por que o real perdeu valor desde 1994? 10 momentos histórico na histó",
+ "titulo": "Por que o real perdeu valor desde 1994?",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "brasil",
  "criadoEm": "2026-10-16T21:08:49.155Z",
- "atualizadoEm": "2026-10-16T21:08:49.158Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-16T21:10:49Z",
+ "status": "pronto",
  "legenda": {
   "fonte": "montserrat",
   "tamanho": 92,
@@ -41,11 +41,1422 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Um real de 1994 hoje compra menos de um quinto do que comprava. O real fracassou? Calma: a resposta é mais polêmica do que parece.",
+   "fundo": "real",
+   "fontes": [
+    "JB (IPCA/IBGE)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O REAL FRACASSOU?",
+     "sub": "1994 → 2026",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 1,
+     "ate": 8.9,
+     "unidade": "x",
+     "rotulo": "preços desde 1994 (IPCA)",
+     "em": "real",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "FRACASSO?",
+     "em": "fracassou",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "caos",
+   "texto": "Antes dele, o Brasil vivia a hiperinflação. Os preços subiam todo dia e o salário perdia valor antes do fim do mês. A inflação passava de 2 mil por cento ao ano.",
+   "fundo": "cruzeiro",
+   "fontes": [
+    "BP Money",
+    "Congresso em Foco"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ANTES DO REAL",
+     "sub": "Hiperinflação",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 2000,
+     "unidade": "% ao ano",
+     "rotulo": "inflação, mais de",
+     "em": "inflação",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Salário derretendo",
+     "icone": "alerta",
+     "cor": "vermelho",
+     "em": "salário",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "plano",
+   "texto": "Em primeiro de julho de 1994, o Plano Real criou a nova moeda, com a equipe do então ministro da Fazenda, Fernando Henrique Cardoso. No começo, um real valia um dólar.",
+   "fundo": "plano",
+   "fontes": [
+    "Congresso em Foco",
+    "FIPE"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PLANO REAL",
+     "sub": "1º de julho de 1994",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "fhc",
+     "nome": "Fernando Henrique Cardoso",
+     "cargo": "Ministro da Fazenda na época",
+     "em": "Fernando",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "R$ 1"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "dinheiro",
+       "US$ 1"
+      ]
+     ],
+     "em": "dólar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "vitoria",
+   "texto": "E funcionou. A inflação despencou: segundo dados do período, caiu para 18 por cento nos seis meses seguintes. Foi a maior vitória contra a hiperinflação.",
+   "fundo": "bc",
+   "fontes": [
+    "Congresso em Foco"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A INFLAÇÃO CAIU",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "placar",
+     "sim": 757,
+     "nao": 18.6,
+     "rotulo": "Inflação (IPCA) em 6 meses",
+     "rotuloSim": "1º sem. 1994",
+     "rotuloNao": "6 meses depois",
+     "decimais": 1,
+     "em": "despencou",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "FUNCIONOU",
+     "cor": "verde",
+     "em": "funcionou",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pegadinha",
+   "texto": "Só que inflação baixa não é inflação zero. Os preços continuaram subindo, ano após ano, e esse acúmulo vai corroendo o dinheiro. Corrigido pelo IPCA do IBGE, um real de 1994 equivale a cerca de 8 reais e 90 hoje.",
+   "fundo": "real",
+   "fontes": [
+    "JB (IPCA/IBGE)",
+    "BP Money"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "BAIXA NÃO É ZERO",
+     "sub": "O efeito acumulado",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Inflação",
+     "significado": "Alta geral dos preços que reduz o poder de compra",
+     "em": "inflação",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1994",
+       "R$ 1"
+      ],
+      [
+       "2026",
+       "R$ 8,90"
+      ]
+     ],
+     "em": "IPCA",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "polemica",
+   "texto": "Então, o real perdeu valor? Perdeu poder de compra, sim. Mas com inflação controlada, a perda é lenta e previsível, bem diferente do caos de antes. Os economistas debatem se ela ainda é alta demais.",
+   "fundo": "brasilia",
+   "fontes": [
+    "JB (IPCA/IBGE)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PERDEU VALOR?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Perdeu poder de compra",
+     "nota": "Cerca de 89% desde 1994",
+     "em": "Perdeu",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Voltou ao caos de antes?",
+     "nota": "Inflação segue controlada",
+     "em": "caos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: o real venceu a hiperinflação, mas a inflação do dia a dia corrói o dinheiro. E aí, o real foi sucesso ou fracasso?",
+   "fundo": "plano",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "O REAL FOI...",
+     "opcoes": [
+      "1 · SUCESSO",
+      "2 · FRACASSO"
+     ],
+     "em": "sucesso",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "em": "fracasso",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "5e1524a2be",
+   "texto": "Um real de 1994 hoje compra menos de um quinto do que comprava. O real fracassou? Calma: a resposta é mais polêmica do que parece.",
+   "audio": "audio/gancho-5e1524a2be.mp3",
+   "duracao": 10.896,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.276
+    },
+    {
+     "p": "real",
+     "i": 0.288,
+     "f": 0.657
+    },
+    {
+     "p": "de",
+     "i": 0.669,
+     "f": 0.764
+    },
+    {
+     "p": "1994 hoje",
+     "i": 0.776,
+     "f": 2.467
+    },
+    {
+     "p": "compra",
+     "i": 2.479,
+     "f": 2.788
+    },
+    {
+     "p": "menos",
+     "i": 2.8,
+     "f": 3.157
+    },
+    {
+     "p": "de",
+     "i": 3.169,
+     "f": 3.24
+    },
+    {
+     "p": "um",
+     "i": 3.252,
+     "f": 3.371
+    },
+    {
+     "p": "quinto",
+     "i": 3.383,
+     "f": 3.74
+    },
+    {
+     "p": "do",
+     "i": 3.752,
+     "f": 3.848
+    },
+    {
+     "p": "que",
+     "i": 3.86,
+     "f": 3.967
+    },
+    {
+     "p": "comprava",
+     "i": 3.979,
+     "f": 4.502
+    },
+    {
+     "p": "O",
+     "i": 5.321,
+     "f": 5.429
+    },
+    {
+     "p": "real",
+     "i": 5.44,
+     "f": 5.738
+    },
+    {
+     "p": "fracassou",
+     "i": 5.75,
+     "f": 6.357
+    },
+    {
+     "p": "Calma",
+     "i": 7.179,
+     "f": 7.536
+    },
+    {
+     "p": "a",
+     "i": 7.798,
+     "f": 7.857
+    },
+    {
+     "p": "resposta",
+     "i": 7.869,
+     "f": 8.405
+    },
+    {
+     "p": "é",
+     "i": 8.417,
+     "f": 8.452
+    },
+    {
+     "p": "mais",
+     "i": 8.464,
+     "f": 8.726
+    },
+    {
+     "p": "polêmica",
+     "i": 8.738,
+     "f": 9.274
+    },
+    {
+     "p": "do",
+     "i": 9.286,
+     "f": 9.393
+    },
+    {
+     "p": "que",
+     "i": 9.405,
+     "f": 9.512
+    },
+    {
+     "p": "parece",
+     "i": 9.524,
+     "f": 10.059
+    }
+   ]
+  },
+  "caos": {
+   "hash": "3b440c5631",
+   "texto": "Antes dele, o Brasil vivia a hiperinflação. Os preços subiam todo dia e o salário perdia valor antes do fim do mês. A inflação passava de 2 mil por cento ao ano.",
+   "audio": "audio/caos-3b440c5631.mp3",
+   "duracao": 11.64,
+   "palavras": [
+    {
+     "p": "Antes",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "dele",
+     "i": 0.467,
+     "f": 0.8
+    },
+    {
+     "p": "o",
+     "i": 0.895,
+     "f": 0.931
+    },
+    {
+     "p": "Brasil",
+     "i": 0.943,
+     "f": 1.395
+    },
+    {
+     "p": "vivia",
+     "i": 1.407,
+     "f": 1.74
+    },
+    {
+     "p": "a",
+     "i": 1.752,
+     "f": 1.824
+    },
+    {
+     "p": "hiperinflação",
+     "i": 1.836,
+     "f": 2.609
+    },
+    {
+     "p": "Os",
+     "i": 3.429,
+     "f": 3.643
+    },
+    {
+     "p": "preços",
+     "i": 3.655,
+     "f": 4.071
+    },
+    {
+     "p": "subiam",
+     "i": 4.083,
+     "f": 4.452
+    },
+    {
+     "p": "todo",
+     "i": 4.464,
+     "f": 4.786
+    },
+    {
+     "p": "dia",
+     "i": 4.798,
+     "f": 5.036
+    },
+    {
+     "p": "e",
+     "i": 5.048,
+     "f": 5.095
+    },
+    {
+     "p": "o",
+     "i": 5.107,
+     "f": 5.143
+    },
+    {
+     "p": "salário",
+     "i": 5.155,
+     "f": 5.536
+    },
+    {
+     "p": "perdia",
+     "i": 5.548,
+     "f": 5.929
+    },
+    {
+     "p": "valor",
+     "i": 5.94,
+     "f": 6.262
+    },
+    {
+     "p": "antes",
+     "i": 6.274,
+     "f": 6.571
+    },
+    {
+     "p": "do",
+     "i": 6.583,
+     "f": 6.679
+    },
+    {
+     "p": "fim",
+     "i": 6.69,
+     "f": 6.929
+    },
+    {
+     "p": "do",
+     "i": 6.94,
+     "f": 7.048
+    },
+    {
+     "p": "mês",
+     "i": 7.06,
+     "f": 7.44
+    },
+    {
+     "p": "A",
+     "i": 8.262,
+     "f": 8.345
+    },
+    {
+     "p": "inflação",
+     "i": 8.357,
+     "f": 8.893
+    },
+    {
+     "p": "passava",
+     "i": 8.905,
+     "f": 9.321
+    },
+    {
+     "p": "de",
+     "i": 9.333,
+     "f": 9.429
+    },
+    {
+     "p": "2 mil",
+     "i": 9.44,
+     "f": 9.833
+    },
+    {
+     "p": "por",
+     "i": 9.845,
+     "f": 9.988
+    },
+    {
+     "p": "cento",
+     "i": 10,
+     "f": 10.333
+    },
+    {
+     "p": "ao",
+     "i": 10.345,
+     "f": 10.488
+    },
+    {
+     "p": "ano",
+     "i": 10.5,
+     "f": 10.798
+    }
+   ]
+  },
+  "plano": {
+   "hash": "f5a8d46ce7",
+   "texto": "Em primeiro de julho de 1994, o Plano Real criou a nova moeda, com a equipe do então ministro da Fazenda, Fernando Henrique Cardoso. No começo, um real valia um dólar.",
+   "audio": "audio/plano-f5a8d46ce7.mp3",
+   "duracao": 12.48,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "primeiro",
+     "i": 0.252,
+     "f": 0.61
+    },
+    {
+     "p": "de",
+     "i": 0.621,
+     "f": 0.705
+    },
+    {
+     "p": "julho",
+     "i": 0.717,
+     "f": 1.038
+    },
+    {
+     "p": "de",
+     "i": 1.05,
+     "f": 1.157
+    },
+    {
+     "p": "1994",
+     "i": 1.169,
+     "f": 2.681
+    },
+    {
+     "p": "o",
+     "i": 2.919,
+     "f": 3.026
+    },
+    {
+     "p": "Plano",
+     "i": 3.038,
+     "f": 3.348
+    },
+    {
+     "p": "Real",
+     "i": 3.36,
+     "f": 3.657
+    },
+    {
+     "p": "criou",
+     "i": 3.669,
+     "f": 3.99
+    },
+    {
+     "p": "a",
+     "i": 4.002,
+     "f": 4.05
+    },
+    {
+     "p": "nova",
+     "i": 4.062,
+     "f": 4.3
+    },
+    {
+     "p": "moeda",
+     "i": 4.312,
+     "f": 4.752
+    },
+    {
+     "p": "com",
+     "i": 4.99,
+     "f": 5.133
+    },
+    {
+     "p": "a",
+     "i": 5.145,
+     "f": 5.193
+    },
+    {
+     "p": "equipe",
+     "i": 5.205,
+     "f": 5.538
+    },
+    {
+     "p": "do",
+     "i": 5.55,
+     "f": 5.633
+    },
+    {
+     "p": "então",
+     "i": 5.645,
+     "f": 5.907
+    },
+    {
+     "p": "ministro",
+     "i": 5.919,
+     "f": 6.371
+    },
+    {
+     "p": "da",
+     "i": 6.383,
+     "f": 6.49
+    },
+    {
+     "p": "Fazenda",
+     "i": 6.502,
+     "f": 6.979
+    },
+    {
+     "p": "Fernando",
+     "i": 7.24,
+     "f": 7.729
+    },
+    {
+     "p": "Henrique",
+     "i": 7.74,
+     "f": 8.133
+    },
+    {
+     "p": "Cardoso",
+     "i": 8.145,
+     "f": 8.705
+    },
+    {
+     "p": "No",
+     "i": 9.524,
+     "f": 9.702
+    },
+    {
+     "p": "começo",
+     "i": 9.714,
+     "f": 10.214
+    },
+    {
+     "p": "um",
+     "i": 10.393,
+     "f": 10.512
+    },
+    {
+     "p": "real",
+     "i": 10.524,
+     "f": 10.869
+    },
+    {
+     "p": "valia",
+     "i": 10.881,
+     "f": 11.167
+    },
+    {
+     "p": "um",
+     "i": 11.179,
+     "f": 11.298
+    },
+    {
+     "p": "dólar",
+     "i": 11.31,
+     "f": 11.655
+    }
+   ]
+  },
+  "vitoria": {
+   "hash": "ae2d1a6b82",
+   "texto": "E funcionou. A inflação despencou: segundo dados do período, caiu para 18 por cento nos seis meses seguintes. Foi a maior vitória contra a hiperinflação.",
+   "audio": "audio/vitoria-ae2d1a6b82.mp3",
+   "duracao": 11.568,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "funcionou",
+     "i": 0.229,
+     "f": 0.907
+    },
+    {
+     "p": "A",
+     "i": 1.726,
+     "f": 1.81
+    },
+    {
+     "p": "inflação",
+     "i": 1.821,
+     "f": 2.405
+    },
+    {
+     "p": "despencou",
+     "i": 2.417,
+     "f": 2.952
+    },
+    {
+     "p": "segundo",
+     "i": 3.31,
+     "f": 3.738
+    },
+    {
+     "p": "dados",
+     "i": 3.75,
+     "f": 4.083
+    },
+    {
+     "p": "do",
+     "i": 4.095,
+     "f": 4.179
+    },
+    {
+     "p": "período",
+     "i": 4.19,
+     "f": 4.631
+    },
+    {
+     "p": "caiu",
+     "i": 4.857,
+     "f": 5.155
+    },
+    {
+     "p": "para",
+     "i": 5.167,
+     "f": 5.345
+    },
+    {
+     "p": "18 por",
+     "i": 5.357,
+     "f": 5.94
+    },
+    {
+     "p": "cento",
+     "i": 5.952,
+     "f": 6.286
+    },
+    {
+     "p": "nos",
+     "i": 6.298,
+     "f": 6.441
+    },
+    {
+     "p": "seis",
+     "i": 6.452,
+     "f": 6.69
+    },
+    {
+     "p": "meses",
+     "i": 6.702,
+     "f": 7.071
+    },
+    {
+     "p": "seguintes",
+     "i": 7.083,
+     "f": 7.69
+    },
+    {
+     "p": "Foi",
+     "i": 8.512,
+     "f": 8.69
+    },
+    {
+     "p": "a",
+     "i": 8.702,
+     "f": 8.75
+    },
+    {
+     "p": "maior",
+     "i": 8.762,
+     "f": 9.083
+    },
+    {
+     "p": "vitória",
+     "i": 9.095,
+     "f": 9.5
+    },
+    {
+     "p": "contra",
+     "i": 9.512,
+     "f": 9.857
+    },
+    {
+     "p": "a",
+     "i": 9.869,
+     "f": 9.917
+    },
+    {
+     "p": "hiperinflação",
+     "i": 9.929,
+     "f": 10.738
+    }
+   ]
+  },
+  "pegadinha": {
+   "hash": "b457ad05b9",
+   "texto": "Só que inflação baixa não é inflação zero. Os preços continuaram subindo, ano após ano, e esse acúmulo vai corroendo o dinheiro. Corrigido pelo IPCA do IBGE, um real de 1994 equivale a cerca de 8 reais e 90 hoje.",
+   "audio": "audio/pegadinha-b457ad05b9.mp3",
+   "duracao": 16.704,
+   "palavras": [
+    {
+     "p": "Só",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "que",
+     "i": 0.407,
+     "f": 0.479
+    },
+    {
+     "p": "inflação",
+     "i": 0.49,
+     "f": 1.002
+    },
+    {
+     "p": "baixa",
+     "i": 1.014,
+     "f": 1.395
+    },
+    {
+     "p": "não",
+     "i": 1.407,
+     "f": 1.598
+    },
+    {
+     "p": "é",
+     "i": 1.61,
+     "f": 1.669
+    },
+    {
+     "p": "inflação",
+     "i": 1.681,
+     "f": 2.24
+    },
+    {
+     "p": "zero",
+     "i": 2.252,
+     "f": 2.609
+    },
+    {
+     "p": "Os",
+     "i": 3.429,
+     "f": 3.619
+    },
+    {
+     "p": "preços",
+     "i": 3.631,
+     "f": 4.036
+    },
+    {
+     "p": "continuaram",
+     "i": 4.048,
+     "f": 4.583
+    },
+    {
+     "p": "subindo",
+     "i": 4.595,
+     "f": 5.119
+    },
+    {
+     "p": "ano",
+     "i": 5.31,
+     "f": 5.488
+    },
+    {
+     "p": "após",
+     "i": 5.5,
+     "f": 5.726
+    },
+    {
+     "p": "ano",
+     "i": 5.738,
+     "f": 6.071
+    },
+    {
+     "p": "e",
+     "i": 6.321,
+     "f": 6.429
+    },
+    {
+     "p": "esse",
+     "i": 6.44,
+     "f": 6.607
+    },
+    {
+     "p": "acúmulo",
+     "i": 6.619,
+     "f": 6.988
+    },
+    {
+     "p": "vai",
+     "i": 7,
+     "f": 7.167
+    },
+    {
+     "p": "corroendo",
+     "i": 7.179,
+     "f": 7.69
+    },
+    {
+     "p": "o",
+     "i": 7.702,
+     "f": 7.726
+    },
+    {
+     "p": "dinheiro",
+     "i": 7.738,
+     "f": 8.143
+    },
+    {
+     "p": "Corrigido",
+     "i": 8.964,
+     "f": 9.56
+    },
+    {
+     "p": "pelo",
+     "i": 9.571,
+     "f": 9.75
+    },
+    {
+     "p": "IPCA",
+     "i": 9.762,
+     "f": 10.226
+    },
+    {
+     "p": "do",
+     "i": 10.238,
+     "f": 10.357
+    },
+    {
+     "p": "IBGE",
+     "i": 10.369,
+     "f": 10.821
+    },
+    {
+     "p": "um",
+     "i": 11.274,
+     "f": 11.393
+    },
+    {
+     "p": "real",
+     "i": 11.405,
+     "f": 11.738
+    },
+    {
+     "p": "de",
+     "i": 11.75,
+     "f": 11.845
+    },
+    {
+     "p": "1994 equivale",
+     "i": 11.857,
+     "f": 13.702
+    },
+    {
+     "p": "a",
+     "i": 13.714,
+     "f": 13.762
+    },
+    {
+     "p": "cerca",
+     "i": 13.774,
+     "f": 14.131
+    },
+    {
+     "p": "de",
+     "i": 14.143,
+     "f": 14.286
+    },
+    {
+     "p": "8 reais",
+     "i": 14.298,
+     "f": 14.929
+    },
+    {
+     "p": "e",
+     "i": 14.94,
+     "f": 15.024
+    },
+    {
+     "p": "90 hoje",
+     "i": 15.036,
+     "f": 15.869
+    }
+   ]
+  },
+  "polemica": {
+   "hash": "7485a8f761",
+   "texto": "Então, o real perdeu valor? Perdeu poder de compra, sim. Mas com inflação controlada, a perda é lenta e previsível, bem diferente do caos de antes. Os economistas debatem se ela ainda é alta demais.",
+   "audio": "audio/polemica-7485a8f761.mp3",
+   "duracao": 14.904,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.098,
+     "f": 0.562
+    },
+    {
+     "p": "o",
+     "i": 0.883,
+     "f": 0.943
+    },
+    {
+     "p": "real",
+     "i": 0.955,
+     "f": 1.24
+    },
+    {
+     "p": "perdeu",
+     "i": 1.252,
+     "f": 1.61
+    },
+    {
+     "p": "valor",
+     "i": 1.621,
+     "f": 1.979
+    },
+    {
+     "p": "Perdeu",
+     "i": 2.798,
+     "f": 3.238
+    },
+    {
+     "p": "poder",
+     "i": 3.25,
+     "f": 3.548
+    },
+    {
+     "p": "de",
+     "i": 3.56,
+     "f": 3.667
+    },
+    {
+     "p": "compra",
+     "i": 3.679,
+     "f": 4.06
+    },
+    {
+     "p": "sim",
+     "i": 4.286,
+     "f": 4.619
+    },
+    {
+     "p": "Mas",
+     "i": 5.44,
+     "f": 5.726
+    },
+    {
+     "p": "com",
+     "i": 5.738,
+     "f": 5.905
+    },
+    {
+     "p": "inflação",
+     "i": 5.917,
+     "f": 6.393
+    },
+    {
+     "p": "controlada",
+     "i": 6.405,
+     "f": 7
+    },
+    {
+     "p": "a",
+     "i": 7.155,
+     "f": 7.238
+    },
+    {
+     "p": "perda",
+     "i": 7.25,
+     "f": 7.56
+    },
+    {
+     "p": "é",
+     "i": 7.571,
+     "f": 7.595
+    },
+    {
+     "p": "lenta",
+     "i": 7.607,
+     "f": 7.881
+    },
+    {
+     "p": "e",
+     "i": 7.893,
+     "f": 7.905
+    },
+    {
+     "p": "previsível",
+     "i": 7.917,
+     "f": 8.5
+    },
+    {
+     "p": "bem",
+     "i": 8.714,
+     "f": 8.905
+    },
+    {
+     "p": "diferente",
+     "i": 8.917,
+     "f": 9.381
+    },
+    {
+     "p": "do",
+     "i": 9.393,
+     "f": 9.5
+    },
+    {
+     "p": "caos",
+     "i": 9.512,
+     "f": 9.75
+    },
+    {
+     "p": "de",
+     "i": 9.762,
+     "f": 9.881
+    },
+    {
+     "p": "antes",
+     "i": 9.893,
+     "f": 10.369
+    },
+    {
+     "p": "Os",
+     "i": 11.19,
+     "f": 11.286
+    },
+    {
+     "p": "economistas",
+     "i": 11.298,
+     "f": 12.012
+    },
+    {
+     "p": "debatem",
+     "i": 12.024,
+     "f": 12.512
+    },
+    {
+     "p": "se",
+     "i": 12.524,
+     "f": 12.655
+    },
+    {
+     "p": "ela",
+     "i": 12.667,
+     "f": 12.798
+    },
+    {
+     "p": "ainda",
+     "i": 12.81,
+     "f": 13.131
+    },
+    {
+     "p": "é",
+     "i": 13.143,
+     "f": 13.226
+    },
+    {
+     "p": "alta",
+     "i": 13.238,
+     "f": 13.536
+    },
+    {
+     "p": "demais",
+     "i": 13.548,
+     "f": 14.071
+    }
+   ]
+  },
+  "final": {
+   "hash": "3ffb903f5d",
+   "texto": "Resumindo: o real venceu a hiperinflação, mas a inflação do dia a dia corrói o dinheiro. E aí, o real foi sucesso ou fracasso?",
+   "audio": "audio/final-3ffb903f5d.mp3",
+   "duracao": 9.456,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.74
+    },
+    {
+     "p": "o",
+     "i": 1.038,
+     "f": 1.109
+    },
+    {
+     "p": "real",
+     "i": 1.121,
+     "f": 1.443
+    },
+    {
+     "p": "venceu",
+     "i": 1.455,
+     "f": 1.836
+    },
+    {
+     "p": "a",
+     "i": 1.848,
+     "f": 1.883
+    },
+    {
+     "p": "hiperinflação",
+     "i": 1.895,
+     "f": 2.645
+    },
+    {
+     "p": "mas",
+     "i": 2.931,
+     "f": 3.062
+    },
+    {
+     "p": "a",
+     "i": 3.074,
+     "f": 3.169
+    },
+    {
+     "p": "inflação",
+     "i": 3.181,
+     "f": 3.681
+    },
+    {
+     "p": "do",
+     "i": 3.693,
+     "f": 3.824
+    },
+    {
+     "p": "dia",
+     "i": 3.836,
+     "f": 4.074
+    },
+    {
+     "p": "a",
+     "i": 4.086,
+     "f": 4.121
+    },
+    {
+     "p": "dia",
+     "i": 4.133,
+     "f": 4.36
+    },
+    {
+     "p": "corrói",
+     "i": 4.371,
+     "f": 4.752
+    },
+    {
+     "p": "o",
+     "i": 4.764,
+     "f": 4.812
+    },
+    {
+     "p": "dinheiro",
+     "i": 4.824,
+     "f": 5.264
+    },
+    {
+     "p": "E",
+     "i": 6.083,
+     "f": 6.214
+    },
+    {
+     "p": "aí",
+     "i": 6.226,
+     "f": 6.512
+    },
+    {
+     "p": "o",
+     "i": 6.845,
+     "f": 6.905
+    },
+    {
+     "p": "real",
+     "i": 6.917,
+     "f": 7.214
+    },
+    {
+     "p": "foi",
+     "i": 7.226,
+     "f": 7.393
+    },
+    {
+     "p": "sucesso",
+     "i": 7.405,
+     "f": 7.952
+    },
+    {
+     "p": "ou",
+     "i": 7.964,
+     "f": 8.024
+    },
+    {
+     "p": "fracasso",
+     "i": 8.036,
+     "f": 8.619
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "fhc": {
+   "arquivo": "imagens/fhc-032943a1.jpg",
+   "rotulo": "Fernando Henrique Cardoso",
+   "wiki": "Fernando Henrique Cardoso",
+   "autor": "Agência Brasil",
+   "licenca": "CC BY 3.0 br",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fernando_Henrique_Cardoso_(1999).jpg",
+   "titulo": "File:Fernando Henrique Cardoso (1999).jpg"
+  },
+  "plano": {
+   "arquivo": "imagens/plano-78e57ab4.jpg",
+   "rotulo": "Plano Real",
+   "wiki": "Plano Real",
+   "commons": "Plano Real nota 1 real",
+   "autor": "Photograph: User:Avelludo. Design: Central Bank of Brazil.",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:1-real-2019-25-anos.png",
+   "titulo": "File:1-real-2019-25-anos.png"
+  },
+  "real": {
+   "arquivo": "imagens/real-3513a479.jpg",
+   "rotulo": "Notas de real",
+   "wiki": "Real (moeda)",
+   "commons": "Notas de real brasileiro",
+   "autor": "PRO NELITO MARQUES",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Maestro_Manuel_Marques.png",
+   "titulo": "File:Maestro Manuel Marques.png"
+  },
+  "bc": {
+   "arquivo": "imagens/bc-81ae58a0.jpg",
+   "rotulo": "Sede do Banco Central",
+   "wiki": "Banco Central do Brasil",
+   "commons": "Banco Central do Brasil sede Brasília",
+   "autor": "Banco Central do Brasil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Edif%C3%ADcio_%22Sede%22_do_Banco_Central_do_Brasil_em_Bras%C3%ADlia.jpg",
+   "titulo": "File:Edifício \"Sede\" do Banco Central do Brasil em Brasília.jpg"
+  },
+  "cruzeiro": {
+   "arquivo": "imagens/cruzeiro-9fedb187.jpg",
+   "rotulo": "Cruzeiro real",
+   "wiki": "Cruzeiro real",
+   "commons": "Cédula cruzeiro real",
+   "autor": "Central Bank of Brazil",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:5000-cruzeiros-reais.png",
+   "titulo": "File:5000-cruzeiros-reais.png"
+  },
+  "brasilia": {
+   "arquivo": "imagens/brasilia-567939ae.jpg",
+   "rotulo": "Esplanada dos Ministérios",
+   "commons": "Esplanada dos Ministérios Brasília",
+   "autor": "Fwsbsb",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Museu_da_Rep%C3%BAblica_1_edit.jpg",
+   "titulo": "File:Museu da República 1 edit.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-16T21:08:49.155Z"
- }
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "BP Money — Plano Real completa 30 anos: R$ 1 em 1994 equivale a mais de R$ 8 hoje",
+   "url": "https://bpmoney.com.br/economia/plano-real-completa-30-anos-r-1-em-1994-equivale-a-mais-de-r-8-hoje"
+  },
+  {
+   "titulo": "JB — 100 reais de 1994: valor hoje corrigido pelo IPCA (out/2026)",
+   "url": "https://www.jb.com.br/editorias/2026/10/08/100-reais-1994-valor-hoje-inflacao.html"
+  },
+  {
+   "titulo": "Congresso em Foco — Plano Real, que acabou com a hiperinflação, completa duas décadas",
+   "url": "https://congressoemfoco.com.br/noticia/53938/plano-real-que-acabou-com-hiperinflacao-completa-duas-decadas"
+  },
+  {
+   "titulo": "FIPE — Boletim de Informações (Plano Real, MP 542)",
+   "url": "https://downloads.fipe.org.br/publicacoes/bif/bif520-61-63.pdf"
+  },
+  {
+   "titulo": "Bresser-Pereira — Revista de Economia Política, v. 14, n. 4, 1994",
+   "url": "https://www.bresserpereira.org.br/documents/REP/rep-lc-2025/56-10-v14-n4-1994.pdf"
+  }
+ ]
 }

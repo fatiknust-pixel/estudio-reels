@@ -1,0 +1,89 @@
+{
+  "titulo": "Por que o real perdeu valor desde 1994?",
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "BP Money — Plano Real completa 30 anos: R$ 1 em 1994 equivale a mais de R$ 8 hoje", "url": "https://bpmoney.com.br/economia/plano-real-completa-30-anos-r-1-em-1994-equivale-a-mais-de-r-8-hoje" },
+    { "titulo": "JB — 100 reais de 1994: valor hoje corrigido pelo IPCA (out/2026)", "url": "https://www.jb.com.br/editorias/2026/10/08/100-reais-1994-valor-hoje-inflacao.html" },
+    { "titulo": "Congresso em Foco — Plano Real, que acabou com a hiperinflação, completa duas décadas", "url": "https://congressoemfoco.com.br/noticia/53938/plano-real-que-acabou-com-hiperinflacao-completa-duas-decadas" },
+    { "titulo": "FIPE — Boletim de Informações (Plano Real, MP 542)", "url": "https://downloads.fipe.org.br/publicacoes/bif/bif520-61-63.pdf" },
+    { "titulo": "Bresser-Pereira — Revista de Economia Política, v. 14, n. 4, 1994", "url": "https://www.bresserpereira.org.br/documents/REP/rep-lc-2025/56-10-v14-n4-1994.pdf" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Um real de 1994 hoje compra menos de um quinto do que comprava. O real fracassou? Calma: a resposta é mais polêmica do que parece.",
+      "fundo": "real",
+      "fontes": ["JB (IPCA/IBGE)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O REAL FRACASSOU?", "sub": "1994 → 2026", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 1, "ate": 8.9, "unidade": "x", "rotulo": "preços desde 1994 (IPCA)", "em": "real", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "FRACASSO?", "em": "fracassou", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "caos",
+      "texto": "Antes dele, o Brasil vivia a hiperinflação. Os preços subiam todo dia e o salário perdia valor antes do fim do mês. A inflação passava de 2 mil por cento ao ano.",
+      "fundo": "cruzeiro",
+      "fontes": ["BP Money", "Congresso em Foco"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ANTES DO REAL", "sub": "Hiperinflação", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 2000, "unidade": "% ao ano", "rotulo": "inflação, mais de", "em": "inflação", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Salário derretendo", "icone": "alerta", "cor": "vermelho", "em": "salário", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "plano",
+      "texto": "Em primeiro de julho de 1994, o Plano Real criou a nova moeda, com a equipe do então ministro da Fazenda, Fernando Henrique Cardoso. No começo, um real valia um dólar.",
+      "fundo": "plano",
+      "fontes": ["Congresso em Foco", "FIPE"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PLANO REAL", "sub": "1º de julho de 1994", "em": 0, "posicao": "topo" },
+        { "tipo": "pessoa", "imagem": "fhc", "nome": "Fernando Henrique Cardoso", "cargo": "Ministro da Fazenda na época", "em": "Fernando", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["dinheiro", "R$ 1"], ["seta", ""], ["dinheiro", "US$ 1"]], "em": "dólar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "vitoria",
+      "texto": "E funcionou. A inflação despencou: segundo dados do período, caiu para 18 por cento nos seis meses seguintes. Foi a maior vitória contra a hiperinflação.",
+      "fundo": "bc",
+      "fontes": ["Congresso em Foco"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A INFLAÇÃO CAIU", "em": 0, "posicao": "topo" },
+        { "tipo": "placar", "sim": 757, "nao": 18.6, "rotulo": "Inflação (IPCA) em 6 meses", "rotuloSim": "1º sem. 1994", "rotuloNao": "6 meses depois", "decimais": 1, "em": "despencou", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "FUNCIONOU", "cor": "verde", "em": "funcionou", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pegadinha",
+      "texto": "Só que inflação baixa não é inflação zero. Os preços continuaram subindo, ano após ano, e esse acúmulo vai corroendo o dinheiro. Corrigido pelo IPCA do IBGE, um real de 1994 equivale a cerca de 8 reais e 90 hoje.",
+      "fundo": "real",
+      "fontes": ["JB (IPCA/IBGE)", "BP Money"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "BAIXA NÃO É ZERO", "sub": "O efeito acumulado", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Inflação", "significado": "Alta geral dos preços que reduz o poder de compra", "em": "inflação", "posicao": "alto" },
+        { "tipo": "linha", "itens": [["1994", "R$ 1"], ["2026", "R$ 8,90"]], "em": "IPCA", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "polemica",
+      "texto": "Então, o real perdeu valor? Perdeu poder de compra, sim. Mas com inflação controlada, a perda é lenta e previsível, bem diferente do caos de antes. Os economistas debatem se ela ainda é alta demais.",
+      "fundo": "brasilia",
+      "fontes": ["JB (IPCA/IBGE)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PERDEU VALOR?", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": true, "texto": "Perdeu poder de compra", "nota": "Cerca de 89% desde 1994", "em": "Perdeu", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "Voltou ao caos de antes?", "nota": "Inflação segue controlada", "em": "caos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumindo: o real venceu a hiperinflação, mas a inflação do dia a dia corrói o dinheiro. E aí, o real foi sucesso ou fracasso?",
+      "fundo": "plano",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "O REAL FOI...", "opcoes": ["1 · SUCESSO", "2 · FRACASSO"], "em": "sucesso", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "fracasso", "posicao": "meio" }
+      ]
+    }
+  ]
+}
