@@ -1,0 +1,8 @@
+{
+ "real": { "wiki": "Real (moeda)", "rotulo": "Cédulas de real" },
+ "fhc": { "wiki": "Fernando Henrique Cardoso", "rotulo": "Fernando Henrique Cardoso" },
+ "itamar": { "wiki": "Itamar Franco", "rotulo": "Itamar Franco" },
+ "bc": { "wiki": "Banco Central do Brasil", "rotulo": "Banco Central do Brasil" },
+ "dolar": { "wiki": "Dólar dos Estados Unidos", "rotulo": "Dólar americano" },
+ "mercado": { "commons": "supermercado Brasil prateleira preços", "rotulo": "Supermercado" }
+}

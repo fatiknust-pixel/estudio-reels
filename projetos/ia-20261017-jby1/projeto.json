@@ -4,20 +4,20 @@
  "titulo": "Por que o real perdeu valor desde 1994?",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "padrao",
+ "tema": "noticia",
  "criadoEm": "2026-10-17T13:20:29.589Z",
- "atualizadoEm": "2026-10-17T13:20:29.595Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-17T13:23:06Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "oswald",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "tensao"
  },
  "pedido": {
   "tema": "Por que o real perdeu valor desde 1994?",
@@ -51,11 +52,1130 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em 1994, um real valia um dólar. Hoje, precisa de mais de cinco. O que aconteceu?",
+   "fundo": "dolar",
+   "fontes": [
+    "Poder360"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "REAL × DÓLAR",
+     "sub": "DE 1994 A HOJE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "O QUE ACONTECEU?",
+     "em": "aconteceu?",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "placar",
+     "sim": 1,
+     "nao": 5.5,
+     "rotulo": "R$ por US$ 1",
+     "rotuloSim": "1994",
+     "rotuloNao": "2024",
+     "decimais": 1,
+     "em": "Hoje,",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "contexto",
+   "texto": "Antes do real, o Brasil vivia hiperinflação. Em junho de 1994, a inflação em doze meses chegava a quase cinco mil por cento.",
+   "fundo": "mercado",
+   "fontes": [
+    "Congresso em Foco"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "HIPERINFLAÇÃO",
+     "sub": "JUNHO DE 1994",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PREÇOS SUBIAM TODO DIA",
+     "icone": "alerta",
+     "cor": "vermelho",
+     "em": "hiperinflação.",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 5000,
+     "unidade": "%",
+     "rotulo": "inflação em 12 meses (aprox.)",
+     "em": "cinco",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "plano",
+   "texto": "Em primeiro de julho de 1994, o Plano Real criou a nova moeda, após uma fase de transição, a URV. No começo, o real ficou perto de um dólar.",
+   "fundo": "fhc",
+   "fontes": [
+    "Politize",
+    "Congresso em Foco"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NASCE O REAL",
+     "sub": "1º DE JULHO DE 1994",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "FEV 1994",
+       "URV"
+      ],
+      [
+       "JUL 1994",
+       "REAL"
+      ]
+     ],
+     "em": "Plano",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "R$ 1"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "dinheiro",
+       "US$ 1"
+      ]
+     ],
+     "em": "perto",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "inflacao",
+   "texto": "Mas a inflação não zerou. Segundo o IBGE, o IPCA acumulou cerca de 708% de julho de 1994 a maio de 2024.",
+   "fundo": "bc",
+   "fontes": [
+    "IBGE (IPCA)",
+    "A Gazeta"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PREÇOS SUBIRAM",
+     "sub": "IPCA ACUMULADO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO ZEROU",
+     "cor": "vermelho",
+     "em": "zerou.",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 708,
+     "unidade": "%",
+     "rotulo": "IPCA, jul/1994 a mai/2024",
+     "em": "708%",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "equivalencia",
+   "texto": "Ou seja, um real de 1994 equivale a mais de oito reais hoje. O mesmo dinheiro compra bem menos.",
+   "fundo": "real",
+   "fontes": [
+    "A Gazeta",
+    "IBGE"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PODER DE COMPRA",
+     "sub": "CAIU NO TEMPO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "R$ 1 em 1994"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "dinheiro",
+       "R$ 8+ hoje"
+      ]
+     ],
+     "em": "equivale",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "COMPRA MENOS",
+     "icone": "alerta",
+     "cor": "amarelo",
+     "em": "menos.",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "cambio",
+   "texto": "Em 1999, após crises externas, o câmbio passou a flutuar. O dólar subiu e, em 2024, passou de cinco reais.",
+   "fundo": "dolar",
+   "fontes": [
+    "Poder360",
+    "Banco Central"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CÂMBIO FLUTUANTE",
+     "sub": "JANEIRO DE 1999",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "CÂMBIO FLUTUANTE",
+     "significado": "o mercado define o preço do dólar",
+     "em": "flutuar.",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "contador",
+     "de": 1,
+     "ate": 5.5,
+     "unidade": "R$",
+     "rotulo": "preço de US$ 1 em 2024",
+     "em": "cinco",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: o real venceu a hiperinflação, mas perdeu valor. E você, acha que o real foi um sucesso? Comenta e segue!",
+   "fundo": "real",
+   "fontes": [
+    "IBGE",
+    "Poder360"
+   ],
+   "elementos": [
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "VENCEU A HIPERINFLAÇÃO",
+     "nota": "mas perdeu poder de compra",
+     "em": "Resumindo:",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "enquete",
+     "pergunta": "O real foi um sucesso?",
+     "opcoes": [
+      "1 — SIM",
+      "2 — NÃO"
+     ],
+     "em": "acha",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "em": "segue!",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "cfb1216fdf",
+   "texto": "Em 1994, um real valia um dólar. Hoje, precisa de mais de cinco. O que aconteceu?",
+   "audio": "audio/gancho-cfb1216fdf.mp3",
+   "duracao": 8.76,
+   "palavras": [
+    {
+     "p": "Em 1994",
+     "i": 0.098,
+     "f": 1.8
+    },
+    {
+     "p": "um",
+     "i": 2.074,
+     "f": 2.193
+    },
+    {
+     "p": "real",
+     "i": 2.205,
+     "f": 2.55
+    },
+    {
+     "p": "valia",
+     "i": 2.562,
+     "f": 2.86
+    },
+    {
+     "p": "um",
+     "i": 2.871,
+     "f": 3.05
+    },
+    {
+     "p": "dólar",
+     "i": 3.062,
+     "f": 3.407
+    },
+    {
+     "p": "Hoje",
+     "i": 4.226,
+     "f": 4.619
+    },
+    {
+     "p": "precisa",
+     "i": 4.845,
+     "f": 5.262
+    },
+    {
+     "p": "de",
+     "i": 5.274,
+     "f": 5.369
+    },
+    {
+     "p": "mais",
+     "i": 5.381,
+     "f": 5.631
+    },
+    {
+     "p": "de",
+     "i": 5.643,
+     "f": 5.75
+    },
+    {
+     "p": "cinco",
+     "i": 5.762,
+     "f": 6.179
+    },
+    {
+     "p": "O",
+     "i": 7,
+     "f": 7.107
+    },
+    {
+     "p": "que",
+     "i": 7.119,
+     "f": 7.238
+    },
+    {
+     "p": "aconteceu",
+     "i": 7.25,
+     "f": 7.917
+    }
+   ]
+  },
+  "contexto": {
+   "hash": "5abf7f750c",
+   "texto": "Antes do real, o Brasil vivia hiperinflação. Em junho de 1994, a inflação em doze meses chegava a quase cinco mil por cento.",
+   "audio": "audio/contexto-5abf7f750c.mp3",
+   "duracao": 10.296,
+   "palavras": [
+    {
+     "p": "Antes",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "do",
+     "i": 0.467,
+     "f": 0.55
+    },
+    {
+     "p": "real",
+     "i": 0.562,
+     "f": 0.919
+    },
+    {
+     "p": "o",
+     "i": 1.24,
+     "f": 1.288
+    },
+    {
+     "p": "Brasil",
+     "i": 1.3,
+     "f": 1.74
+    },
+    {
+     "p": "vivia",
+     "i": 1.752,
+     "f": 2.074
+    },
+    {
+     "p": "hiperinflação",
+     "i": 2.086,
+     "f": 2.859
+    },
+    {
+     "p": "Em",
+     "i": 3.679,
+     "f": 3.833
+    },
+    {
+     "p": "junho",
+     "i": 3.845,
+     "f": 4.191
+    },
+    {
+     "p": "de",
+     "i": 4.202,
+     "f": 4.321
+    },
+    {
+     "p": "1994",
+     "i": 4.333,
+     "f": 5.857
+    },
+    {
+     "p": "a",
+     "i": 6.095,
+     "f": 6.167
+    },
+    {
+     "p": "inflação",
+     "i": 6.179,
+     "f": 6.714
+    },
+    {
+     "p": "em",
+     "i": 6.726,
+     "f": 6.821
+    },
+    {
+     "p": "doze",
+     "i": 6.833,
+     "f": 7.167
+    },
+    {
+     "p": "meses",
+     "i": 7.179,
+     "f": 7.536
+    },
+    {
+     "p": "chegava",
+     "i": 7.548,
+     "f": 7.917
+    },
+    {
+     "p": "a",
+     "i": 7.929,
+     "f": 7.976
+    },
+    {
+     "p": "quase",
+     "i": 7.988,
+     "f": 8.321
+    },
+    {
+     "p": "cinco",
+     "i": 8.333,
+     "f": 8.738
+    },
+    {
+     "p": "mil",
+     "i": 8.75,
+     "f": 8.917
+    },
+    {
+     "p": "por",
+     "i": 8.929,
+     "f": 9.071
+    },
+    {
+     "p": "cento",
+     "i": 9.083,
+     "f": 9.476
+    }
+   ]
+  },
+  "plano": {
+   "hash": "c05239aaf5",
+   "texto": "Em primeiro de julho de 1994, o Plano Real criou a nova moeda, após uma fase de transição, a URV. No começo, o real ficou perto de um dólar.",
+   "audio": "audio/plano-c05239aaf5.mp3",
+   "duracao": 11.592,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "primeiro",
+     "i": 0.252,
+     "f": 0.598
+    },
+    {
+     "p": "de",
+     "i": 0.61,
+     "f": 0.693
+    },
+    {
+     "p": "julho",
+     "i": 0.705,
+     "f": 1.026
+    },
+    {
+     "p": "de",
+     "i": 1.038,
+     "f": 1.133
+    },
+    {
+     "p": "1994",
+     "i": 1.145,
+     "f": 2.681
+    },
+    {
+     "p": "o",
+     "i": 2.943,
+     "f": 3.038
+    },
+    {
+     "p": "Plano",
+     "i": 3.05,
+     "f": 3.36
+    },
+    {
+     "p": "Real",
+     "i": 3.371,
+     "f": 3.669
+    },
+    {
+     "p": "criou",
+     "i": 3.681,
+     "f": 3.979
+    },
+    {
+     "p": "a",
+     "i": 3.99,
+     "f": 4.026
+    },
+    {
+     "p": "nova",
+     "i": 4.038,
+     "f": 4.288
+    },
+    {
+     "p": "moeda",
+     "i": 4.3,
+     "f": 4.693
+    },
+    {
+     "p": "após",
+     "i": 4.943,
+     "f": 5.217
+    },
+    {
+     "p": "uma",
+     "i": 5.229,
+     "f": 5.443
+    },
+    {
+     "p": "fase",
+     "i": 5.455,
+     "f": 5.8
+    },
+    {
+     "p": "de",
+     "i": 5.812,
+     "f": 5.907
+    },
+    {
+     "p": "transição",
+     "i": 5.919,
+     "f": 6.443
+    },
+    {
+     "p": "a",
+     "i": 6.681,
+     "f": 6.788
+    },
+    {
+     "p": "URV",
+     "i": 6.8,
+     "f": 7.407
+    },
+    {
+     "p": "No",
+     "i": 8.226,
+     "f": 8.405
+    },
+    {
+     "p": "começo",
+     "i": 8.417,
+     "f": 8.964
+    },
+    {
+     "p": "o",
+     "i": 9.143,
+     "f": 9.214
+    },
+    {
+     "p": "real",
+     "i": 9.226,
+     "f": 9.5
+    },
+    {
+     "p": "ficou",
+     "i": 9.512,
+     "f": 9.821
+    },
+    {
+     "p": "perto",
+     "i": 9.833,
+     "f": 10.19
+    },
+    {
+     "p": "de",
+     "i": 10.202,
+     "f": 10.298
+    },
+    {
+     "p": "um",
+     "i": 10.31,
+     "f": 10.417
+    },
+    {
+     "p": "dólar",
+     "i": 10.429,
+     "f": 10.762
+    }
+   ]
+  },
+  "inflacao": {
+   "hash": "f9bac28dc4",
+   "texto": "Mas a inflação não zerou. Segundo o IBGE, o IPCA acumulou cerca de 708% de julho de 1994 a maio de 2024.",
+   "audio": "audio/inflacao-f9bac28dc4.mp3",
+   "duracao": 11.184,
+   "palavras": [
+    {
+     "p": "Mas",
+     "i": 0.098,
+     "f": 0.312
+    },
+    {
+     "p": "a",
+     "i": 0.324,
+     "f": 0.431
+    },
+    {
+     "p": "inflação",
+     "i": 0.443,
+     "f": 1.026
+    },
+    {
+     "p": "não",
+     "i": 1.038,
+     "f": 1.264
+    },
+    {
+     "p": "zerou",
+     "i": 1.276,
+     "f": 1.633
+    },
+    {
+     "p": "Segundo",
+     "i": 2.452,
+     "f": 2.964
+    },
+    {
+     "p": "o",
+     "i": 2.976,
+     "f": 3.024
+    },
+    {
+     "p": "IBGE",
+     "i": 3.036,
+     "f": 3.476
+    },
+    {
+     "p": "o",
+     "i": 3.786,
+     "f": 3.869
+    },
+    {
+     "p": "IPCA",
+     "i": 3.881,
+     "f": 4.381
+    },
+    {
+     "p": "acumulou",
+     "i": 4.393,
+     "f": 4.833
+    },
+    {
+     "p": "cerca",
+     "i": 4.845,
+     "f": 5.202
+    },
+    {
+     "p": "de",
+     "i": 5.214,
+     "f": 5.31
+    },
+    {
+     "p": "708%",
+     "i": 5.321,
+     "f": 6.786
+    },
+    {
+     "p": "de",
+     "i": 6.798,
+     "f": 6.881
+    },
+    {
+     "p": "julho",
+     "i": 6.893,
+     "f": 7.202
+    },
+    {
+     "p": "de",
+     "i": 7.214,
+     "f": 7.31
+    },
+    {
+     "p": "1994 a",
+     "i": 7.321,
+     "f": 8.809
+    },
+    {
+     "p": "maio",
+     "i": 8.821,
+     "f": 9.131
+    },
+    {
+     "p": "de",
+     "i": 9.143,
+     "f": 9.226
+    },
+    {
+     "p": "2024",
+     "i": 9.238,
+     "f": 10.357
+    }
+   ]
+  },
+  "equivalencia": {
+   "hash": "69b3d54b37",
+   "texto": "Ou seja, um real de 1994 equivale a mais de oito reais hoje. O mesmo dinheiro compra bem menos.",
+   "audio": "audio/equivalencia-69b3d54b37.mp3",
+   "duracao": 8.4,
+   "palavras": [
+    {
+     "p": "Ou",
+     "i": 0.098,
+     "f": 0.264
+    },
+    {
+     "p": "seja",
+     "i": 0.276,
+     "f": 0.693
+    },
+    {
+     "p": "um",
+     "i": 0.931,
+     "f": 1.05
+    },
+    {
+     "p": "real",
+     "i": 1.062,
+     "f": 1.395
+    },
+    {
+     "p": "de",
+     "i": 1.407,
+     "f": 1.502
+    },
+    {
+     "p": "1994 equivale",
+     "i": 1.514,
+     "f": 3.312
+    },
+    {
+     "p": "a",
+     "i": 3.324,
+     "f": 3.383
+    },
+    {
+     "p": "mais",
+     "i": 3.395,
+     "f": 3.645
+    },
+    {
+     "p": "de",
+     "i": 3.657,
+     "f": 3.764
+    },
+    {
+     "p": "oito",
+     "i": 3.776,
+     "f": 4.038
+    },
+    {
+     "p": "reais",
+     "i": 4.05,
+     "f": 4.348
+    },
+    {
+     "p": "hoje",
+     "i": 4.36,
+     "f": 4.776
+    },
+    {
+     "p": "O",
+     "i": 5.595,
+     "f": 5.691
+    },
+    {
+     "p": "mesmo",
+     "i": 5.702,
+     "f": 6.095
+    },
+    {
+     "p": "dinheiro",
+     "i": 6.107,
+     "f": 6.5
+    },
+    {
+     "p": "compra",
+     "i": 6.512,
+     "f": 6.821
+    },
+    {
+     "p": "bem",
+     "i": 6.833,
+     "f": 7.095
+    },
+    {
+     "p": "menos",
+     "i": 7.107,
+     "f": 7.559
+    }
+   ]
+  },
+  "cambio": {
+   "hash": "f4dcbf5967",
+   "texto": "Em 1999, após crises externas, o câmbio passou a flutuar. O dólar subiu e, em 2024, passou de cinco reais.",
+   "audio": "audio/cambio-f4dcbf5967.mp3",
+   "duracao": 10.344,
+   "palavras": [
+    {
+     "p": "Em 1999",
+     "i": 0.098,
+     "f": 1.705
+    },
+    {
+     "p": "após",
+     "i": 1.931,
+     "f": 2.288
+    },
+    {
+     "p": "crises",
+     "i": 2.3,
+     "f": 2.61
+    },
+    {
+     "p": "externas",
+     "i": 2.621,
+     "f": 3.252
+    },
+    {
+     "p": "o",
+     "i": 3.479,
+     "f": 3.574
+    },
+    {
+     "p": "câmbio",
+     "i": 3.586,
+     "f": 3.931
+    },
+    {
+     "p": "passou",
+     "i": 3.943,
+     "f": 4.324
+    },
+    {
+     "p": "a",
+     "i": 4.336,
+     "f": 4.407
+    },
+    {
+     "p": "flutuar",
+     "i": 4.419,
+     "f": 4.883
+    },
+    {
+     "p": "O",
+     "i": 5.702,
+     "f": 5.821
+    },
+    {
+     "p": "dólar",
+     "i": 5.833,
+     "f": 6.131
+    },
+    {
+     "p": "subiu",
+     "i": 6.143,
+     "f": 6.548
+    },
+    {
+     "p": "e",
+     "i": 6.56,
+     "f": 6.595
+    },
+    {
+     "p": "em 2024",
+     "i": 6.762,
+     "f": 7.869
+    },
+    {
+     "p": "passou",
+     "i": 8.083,
+     "f": 8.464
+    },
+    {
+     "p": "de",
+     "i": 8.476,
+     "f": 8.583
+    },
+    {
+     "p": "cinco",
+     "i": 8.595,
+     "f": 8.988
+    },
+    {
+     "p": "reais",
+     "i": 9,
+     "f": 9.512
+    }
+   ]
+  },
+  "final": {
+   "hash": "24cf76ba11",
+   "texto": "Resumindo: o real venceu a hiperinflação, mas perdeu valor. E você, acha que o real foi um sucesso? Comenta e segue!",
+   "audio": "audio/final-24cf76ba11.mp3",
+   "duracao": 9.84,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.764
+    },
+    {
+     "p": "o",
+     "i": 1.062,
+     "f": 1.133
+    },
+    {
+     "p": "real",
+     "i": 1.145,
+     "f": 1.491
+    },
+    {
+     "p": "venceu",
+     "i": 1.502,
+     "f": 1.907
+    },
+    {
+     "p": "a",
+     "i": 1.919,
+     "f": 1.955
+    },
+    {
+     "p": "hiperinflação",
+     "i": 1.967,
+     "f": 2.717
+    },
+    {
+     "p": "mas",
+     "i": 2.979,
+     "f": 3.181
+    },
+    {
+     "p": "perdeu",
+     "i": 3.193,
+     "f": 3.574
+    },
+    {
+     "p": "valor",
+     "i": 3.586,
+     "f": 3.955
+    },
+    {
+     "p": "E",
+     "i": 4.774,
+     "f": 4.881
+    },
+    {
+     "p": "você",
+     "i": 4.893,
+     "f": 5.321
+    },
+    {
+     "p": "acha",
+     "i": 5.607,
+     "f": 5.929
+    },
+    {
+     "p": "que",
+     "i": 5.94,
+     "f": 6.012
+    },
+    {
+     "p": "o",
+     "i": 6.024,
+     "f": 6.059
+    },
+    {
+     "p": "real",
+     "i": 6.071,
+     "f": 6.369
+    },
+    {
+     "p": "foi",
+     "i": 6.381,
+     "f": 6.536
+    },
+    {
+     "p": "um",
+     "i": 6.548,
+     "f": 6.619
+    },
+    {
+     "p": "sucesso",
+     "i": 6.631,
+     "f": 7.19
+    },
+    {
+     "p": "Comenta",
+     "i": 8.012,
+     "f": 8.476
+    },
+    {
+     "p": "e",
+     "i": 8.488,
+     "f": 8.524
+    },
+    {
+     "p": "segue",
+     "i": 8.536,
+     "f": 9
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "real": {
+   "arquivo": "",
+   "rotulo": "Cédulas de real",
+   "wiki": "Real (moeda)"
+  },
+  "fhc": {
+   "arquivo": "imagens/fhc-032943a1.jpg",
+   "rotulo": "Fernando Henrique Cardoso",
+   "wiki": "Fernando Henrique Cardoso",
+   "autor": "Agência Brasil",
+   "licenca": "CC BY 3.0 br",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fernando_Henrique_Cardoso_(1999).jpg",
+   "titulo": "File:Fernando Henrique Cardoso (1999).jpg"
+  },
+  "itamar": {
+   "arquivo": "imagens/itamar-365b16ce.jpg",
+   "rotulo": "Itamar Franco",
+   "wiki": "Itamar Franco",
+   "autor": "Getúlio Gurgel",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Itamar_Franco_Faixa_Presidencial_(cropped).jpg",
+   "titulo": "File:Itamar Franco Faixa Presidencial (cropped).jpg"
+  },
+  "bc": {
+   "arquivo": "",
+   "rotulo": "Banco Central do Brasil",
+   "wiki": "Banco Central do Brasil"
+  },
+  "dolar": {
+   "arquivo": "imagens/dolar-f459a0bb.jpg",
+   "rotulo": "Dólar americano",
+   "wiki": "Dólar dos Estados Unidos",
+   "autor": "US Federal Reserve",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:USDnotesNew.png",
+   "titulo": "File:USDnotesNew.png"
+  },
+  "mercado": {
+   "arquivo": "",
+   "rotulo": "Supermercado",
+   "commons": "supermercado Brasil prateleira preços"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-17T13:20:29.589Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Poder360 — Em 30 anos, real perdeu 83% do valor frente ao dólar",
+   "url": "https://www.poder360.com.br/economia/em-30-anos-real-perdeu-83-do-valor-frente-ao-dolar/"
+  },
+  {
+   "titulo": "A Gazeta — Plano Real: preços há 30 anos (IPCA/IBGE)",
+   "url": "https://www.agazeta.com.br/es/economia/plano-real-os-precos-de-camisa-da-selecao-transcol-e-bombom-ha-30-anos-no-es-0724"
+  },
+  {
+   "titulo": "Politize — O que foi o Plano Real?",
+   "url": "https://www.politize.com.br/plano-real/"
+  },
+  {
+   "titulo": "Congresso em Foco — Plano Real completa duas décadas",
+   "url": "https://congressoemfoco.com.br/noticia/53938/plano-real-que-acabou-com-hiperinflacao-completa-duas-decadas"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "jornal",
+  "legenda": "caixa",
+  "transicao": "flash",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }

@@ -1,0 +1,91 @@
+{
+ "titulo": "Por que o real perdeu valor desde 1994?",
+ "estilo": { "dinamica": "jornal", "legenda": "caixa", "transicao": "flash", "fundo": "grade",
+             "musica": "tensao", "formato": "explicativo", "fonte": "oswald", "paleta": "noticia" },
+ "legenda": { "palavrasPorTela": 3 },
+ "fontesPesquisa": [
+  { "titulo": "Poder360 — Em 30 anos, real perdeu 83% do valor frente ao dólar", "url": "https://www.poder360.com.br/economia/em-30-anos-real-perdeu-83-do-valor-frente-ao-dolar/" },
+  { "titulo": "A Gazeta — Plano Real: preços há 30 anos (IPCA/IBGE)", "url": "https://www.agazeta.com.br/es/economia/plano-real-os-precos-de-camisa-da-selecao-transcol-e-bombom-ha-30-anos-no-es-0724" },
+  { "titulo": "Politize — O que foi o Plano Real?", "url": "https://www.politize.com.br/plano-real/" },
+  { "titulo": "Congresso em Foco — Plano Real completa duas décadas", "url": "https://congressoemfoco.com.br/noticia/53938/plano-real-que-acabou-com-hiperinflacao-completa-duas-decadas" }
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em 1994, um real valia um dólar. Hoje, precisa de mais de cinco. O que aconteceu?",
+   "fundo": "dolar",
+   "fontes": ["Poder360"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "REAL × DÓLAR", "sub": "DE 1994 A HOJE", "em": 0, "posicao": "topo" },
+    { "tipo": "pergunta", "texto": "O QUE ACONTECEU?", "em": "aconteceu?", "posicao": "alto" },
+    { "tipo": "placar", "sim": 1, "nao": 5.5, "rotulo": "R$ por US$ 1", "rotuloSim": "1994", "rotuloNao": "2024", "decimais": 1, "em": "Hoje,", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "contexto",
+   "texto": "Antes do real, o Brasil vivia hiperinflação. Em junho de 1994, a inflação em doze meses chegava a quase cinco mil por cento.",
+   "fundo": "mercado",
+   "fontes": ["Congresso em Foco"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "HIPERINFLAÇÃO", "sub": "JUNHO DE 1994", "em": 0, "posicao": "topo" },
+    { "tipo": "tag", "texto": "PREÇOS SUBIAM TODO DIA", "icone": "alerta", "cor": "vermelho", "em": "hiperinflação.", "posicao": "alto" },
+    { "tipo": "contador", "de": 0, "ate": 5000, "unidade": "%", "rotulo": "inflação em 12 meses (aprox.)", "em": "cinco", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "plano",
+   "texto": "Em primeiro de julho de 1994, o Plano Real criou a nova moeda, após uma fase de transição, a URV. No começo, o real ficou perto de um dólar.",
+   "fundo": "fhc",
+   "fontes": ["Politize", "Congresso em Foco"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "NASCE O REAL", "sub": "1º DE JULHO DE 1994", "em": 0, "posicao": "topo" },
+    { "tipo": "linha", "itens": [["FEV 1994", "URV"], ["JUL 1994", "REAL"]], "em": "Plano", "posicao": "alto2" },
+    { "tipo": "icones", "itens": [["dinheiro", "R$ 1"], ["seta", ""], ["dinheiro", "US$ 1"]], "em": "perto", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "inflacao",
+   "texto": "Mas a inflação não zerou. Segundo o IBGE, o IPCA acumulou cerca de 708% de julho de 1994 a maio de 2024.",
+   "fundo": "bc",
+   "fontes": ["IBGE (IPCA)", "A Gazeta"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "PREÇOS SUBIRAM", "sub": "IPCA ACUMULADO", "em": 0, "posicao": "topo" },
+    { "tipo": "carimbo", "texto": "NÃO ZEROU", "cor": "vermelho", "em": "zerou.", "posicao": "alto" },
+    { "tipo": "contador", "de": 0, "ate": 708, "unidade": "%", "rotulo": "IPCA, jul/1994 a mai/2024", "em": "708%", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "equivalencia",
+   "texto": "Ou seja, um real de 1994 equivale a mais de oito reais hoje. O mesmo dinheiro compra bem menos.",
+   "fundo": "real",
+   "fontes": ["A Gazeta", "IBGE"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "PODER DE COMPRA", "sub": "CAIU NO TEMPO", "em": 0, "posicao": "topo" },
+    { "tipo": "icones", "itens": [["dinheiro", "R$ 1 em 1994"], ["seta", ""], ["dinheiro", "R$ 8+ hoje"]], "em": "equivale", "posicao": "meio" },
+    { "tipo": "tag", "texto": "COMPRA MENOS", "icone": "alerta", "cor": "amarelo", "em": "menos.", "posicao": "alto" }
+   ]
+  },
+  {
+   "id": "cambio",
+   "texto": "Em 1999, após crises externas, o câmbio passou a flutuar. O dólar subiu e, em 2024, passou de cinco reais.",
+   "fundo": "dolar",
+   "fontes": ["Poder360", "Banco Central"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "CÂMBIO FLUTUANTE", "sub": "JANEIRO DE 1999", "em": 0, "posicao": "topo" },
+    { "tipo": "definicao", "palavra": "CÂMBIO FLUTUANTE", "significado": "o mercado define o preço do dólar", "em": "flutuar.", "posicao": "alto2" },
+    { "tipo": "contador", "de": 1, "ate": 5.5, "unidade": "R$", "rotulo": "preço de US$ 1 em 2024", "em": "cinco", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: o real venceu a hiperinflação, mas perdeu valor. E você, acha que o real foi um sucesso? Comenta e segue!",
+   "fundo": "real",
+   "fontes": ["IBGE", "Poder360"],
+   "elementos": [
+    { "tipo": "check", "ok": true, "texto": "VENCEU A HIPERINFLAÇÃO", "nota": "mas perdeu poder de compra", "em": "Resumindo:", "posicao": "alto" },
+    { "tipo": "enquete", "pergunta": "O real foi um sucesso?", "opcoes": ["1 — SIM", "2 — NÃO"], "em": "acha", "posicao": "meio" },
+    { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "segue!", "posicao": "meio2" }
+   ]
+  }
+ ]
+}
