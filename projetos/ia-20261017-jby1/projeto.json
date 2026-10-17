@@ -1,0 +1,61 @@
+{
+ "versao": 1,
+ "id": "ia-20261017-jby1",
+ "titulo": "Por que o real perdeu valor desde 1994?",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "padrao",
+ "criadoEm": "2026-10-17T13:20:29.589Z",
+ "atualizadoEm": "2026-10-17T13:20:29.595Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Por que o real perdeu valor desde 1994?",
+  "tom": "Explicativo e neutro",
+  "duracao": 60,
+  "estilo": {
+   "dinamica": "jornal",
+   "legenda": "auto",
+   "transicao": "auto",
+   "fundo": "auto",
+   "musica": "auto",
+   "formato": "auto",
+   "fonte": "auto",
+   "paleta": "auto"
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-17T13:20:29.589Z"
+ }
+}
