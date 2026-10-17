@@ -158,7 +158,7 @@ export const criarBruto = async (p: Projeto, arquivo: File, tocavel: boolean, fa
   await gh.dispararWorkflow("processar-bruto.yml", { projeto: p.id, modelo: p.processamento?.modelo ?? "medium", ia: String(p.processamento?.ia ?? true), etapa: "tudo" });
 };
 
-export type PedidoIA = { tema: string; tom: string; duracao: number };
+export type PedidoIA = NonNullable<Projeto["pedido"]>;
 
 export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: string, voz: string): Projeto => {
   const agora = new Date().toISOString();

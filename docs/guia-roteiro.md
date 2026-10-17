@@ -37,11 +37,61 @@ Depois rode `node scripts/validar-roteiro.mjs projetos/<id>` e corrija até não
   palavras de todos os `texto` deve ficar perto de `duracao × 2,4` (± 10%).
 - Escreva números como a voz deve falar quando ajudar a pronúncia ("12 anos", "R$ 5 mil", "2017").
 
+## Estilo de edição (variar sempre!)
+
+Todo `roteiro.json` tem um objeto `estilo`. Ele muda o **ritmo e o movimento** da edição, não só as cores:
+
+```json
+"estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "circulo", "fundo": "limpo",
+            "musica": "epica", "formato": "linha-do-tempo", "fonte": "playfair", "paleta": "pordosol" }
+```
+
+| campo | opções |
+|---|---|
+| `dinamica` | `energetica`, `cinema`, `jornal`, `glitch`, `colagem`, `minimal`, `padrao` (veja abaixo) |
+| `legenda` | `karaoke` (3 palavras, a falada colorida), `palavra` (uma palavra gigante por vez), `caixa` (palavra falada dentro de uma caixa colorida), `discreta` (frase pequena, estilo documentário) |
+| `transicao` | `faixas`, `zoom` (zoom com desfoque), `deslize` (cena entra pela lateral), `flash` (clarão), `circulo` (abre em círculo) |
+| `fundo` | `grade`, `ondas`, `pontos`, `raios`, `limpo`, `bandeira` (só para temas do Brasil) |
+| `musica` | `tensao`, `leve`, `epica`, `nenhuma` |
+| `formato` | `explicativo`, `lista`, `linha-do-tempo`, `mito-verdade`, `comparacao`, `curiosidade` |
+| `fonte` | `montserrat`, `poppins`, `oswald` (condensada, notícia), `raleway`, `playfair` (serifada, documentário), `robotoslab`, `anton`, `bebas`, `inter`, `bangers` (gibi) |
+| `paleta` | `padrao`, `brasil`, `neon`, `noticia`, `documentario`, `oceano`, `fogo`, `pordosol`, `grafite`, `claro` |
+
+### Dinâmica de edição
+| dinâmica | como fica | combina com | o roteiro |
+|---|---|---|---|
+| `energetica` | "câmera" dá socos de zoom a cada elemento novo, treme nos carimbos, flash na troca de cena | `palavra`/`caixa`, `zoom`/`flash`, `leve`, `anton`/`poppins` | frases curtas, cenas curtas, **muitos** elementos (3–5 por cena), carimbos |
+| `cinema` | faixas pretas, grão de filme, vinheta, zoom lento contínuo | `playfair`, `discreta`, `circulo`/`zoom`, `epica` | ritmo calmo, texto narrativo, poucos elementos (1–2), mais `definicao`/`linha` |
+| `jornal` | tarja AO VIVO piscando e letreiro correndo com o título e as fontes | `noticia`, `oswald`, `caixa`, `flash`/`deslize`, `tensao` | tom de reportagem, fontes em todas as cenas, `tag` e `titulo` |
+| `glitch` | distorção RGB e linhas de TV nas trocas de cena e nos elementos | `neon`, `poppins`, `palavra`, `deslize`, `tensao` | tecnologia, mistério, viradas ("mas tem um detalhe…") |
+| `colagem` | textura de papel, elementos levemente tortos, movimento "stop motion" | `pordosol`/`padrao`, `robotoslab`/`bangers`, `karaoke`, `deslize`, `leve` | curiosidades, história leve, `icones` e `comentario` |
+| `minimal` | sem partículas nem texturas, limpo e calmo | `grafite`/`claro`, `raleway`/`inter`, `discreta`, `circulo`, `leve`/`nenhuma` | didático, frases completas, poucos elementos |
+| `padrao` | o visual original dos vídeos de presidentes do Astra | qualquer | explicativo |
+
+**Formatos:** `explicativo` (gancho → contexto → fatos → resumo → final), `lista` ("5 coisas que…", uma cena
+por item com o número em destaque), `linha-do-tempo` (cenas por data, `linha` e o ano em `titulo`),
+`mito-verdade` (cada cena começa com a afirmação e um `carimbo` MITO/VERDADE), `comparacao` (A × B com
+`placar` e `check`), `curiosidade` (5–6 cenas curtas, ritmo acelerado).
+
+### Regra de variedade
+- O que vier em `pedido.estilo` com valor diferente de `"auto"` é **obrigatório** (o app sorteou para variar
+  um lote, ou você escolheu).
+- Onde for `"auto"` (ou o campo não existir), escolha o que combina com o tema **sem repetir a `dinamica`, a
+  `legenda`, a `transicao` e o `fundo` do vídeo anterior** — veja com `node scripts/estilo-ia.mjs recentes <id>`.
+  Evite também repetir o `formato`, a paleta e a fonte. Monte uma identidade coerente (ex.: notícia →
+  `jornal` + `oswald` + `caixa` + `flash`; história → `cinema` + `playfair` + `discreta` + `zoom` + `epica`;
+  curiosidade leve → `colagem` + `bangers` + `karaoke` + `deslize` + `leve`).
+- Se `pedido.lote` existir, este vídeo faz parte de um lote: os temas dos outros estão em `lote.outros` — não
+  repita o mesmo ângulo nem o mesmo gancho deles.
+- O validador confere tudo isso.
+
 ## Formato do `roteiro.json`
 
 ```json
 {
   "titulo": "Título curto do vídeo",
+  "estilo": { "dinamica": "energetica", "legenda": "palavra", "transicao": "zoom", "fundo": "raios",
+              "musica": "leve", "formato": "lista", "fonte": "anton", "paleta": "neon" },
   "legenda": { "palavrasPorTela": 3 },
   "fontesPesquisa": [{ "titulo": "STF — notícia do julgamento", "url": "https://portal.stf.jus.br/..." }],
   "cenas": [

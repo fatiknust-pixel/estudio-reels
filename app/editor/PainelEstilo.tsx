@@ -1,9 +1,14 @@
 import React from "react";
 import { FONTES } from "../../src/fontes";
 import { TEMAS } from "../../src/temas";
+import CATALOGO from "../../src/estilos-ia.json";
+import { EstiloIA } from "../../src/tipos";
 import { ESTILOS } from "../estilos";
+import { DINAMICAS } from "../estilosIA";
 import { Alternar, Deslizar, Escolha } from "../ui";
 import { useEditor } from "./contexto";
+
+const ESTILO_IA_PADRAO: EstiloIA = { dinamica: "padrao", transicao: "faixas", fundo: "grade" };
 
 const CORES = ["#FFFFFF", "#FFD60A", "#30D158", "#00F5A0", "#0A84FF", "#FF3B30", "#FF2E88", "#BF5AF2", "#FF9F0A", "#111111"];
 
@@ -48,6 +53,39 @@ export const PainelEstilo: React.FC = () => {
               </button>
             ))}
           </div>
+        </>
+      )}
+
+      {p.modo === "ia" && (
+        <>
+          <h3 style={{ marginTop: 0 }}>Dinâmica de edição</h3>
+          <div className="estilos">
+            {DINAMICAS.map((d) => (
+              <button key={d.id} className={"estilo-op" + ((p.estiloIA?.dinamica ?? "padrao") === d.id ? " on" : "")} onClick={() => alterar((x) => { x.estiloIA = { ...ESTILO_IA_PADRAO, ...x.estiloIA, dinamica: d.id as any }; })}>
+                <span className="e">{d.emoji}</span>
+                <b>{d.nome}</b>
+                <small>{d.descricao}</small>
+              </button>
+            ))}
+          </div>
+          <label className="campo"><span>Estilo da legenda</span>
+            <Escolha opcoes={Object.entries(CATALOGO.legenda).map(([k, v]) => [k, v.nome] as [string, string])} valor={p.estiloIA?.legenda ?? ""} mudar={(v) => alterar((x) => {
+              x.estiloIA = { ...ESTILO_IA_PADRAO, ...x.estiloIA, legenda: v as any };
+              x.legenda = { ...x.legenda, ...(CATALOGO.legenda as any)[v].preset };
+            })} />
+          </label>
+          <label className="campo"><span>Transição entre cenas</span>
+            <Escolha opcoes={Object.entries(CATALOGO.transicao).map(([k, v]) => [k, v.nome] as [string, string])} valor={p.estiloIA?.transicao ?? "faixas"} mudar={(v) => alterar((x) => { x.estiloIA = { ...ESTILO_IA_PADRAO, ...x.estiloIA, transicao: v as any }; })} />
+          </label>
+          <label className="campo"><span>Fundo animado</span>
+            <Escolha opcoes={Object.entries(CATALOGO.fundo).map(([k, v]) => [k, v.nome] as [string, string])} valor={p.estiloIA?.fundo ?? "grade"} mudar={(v) => alterar((x) => { x.estiloIA = { ...ESTILO_IA_PADRAO, ...x.estiloIA, fundo: v as any }; })} />
+          </label>
+          <label className="campo"><span>Música</span>
+            <Escolha opcoes={Object.entries(CATALOGO.musica).map(([k, v]) => [k, v.nome] as [string, string])} valor={p.efeitos.trilha ? p.efeitos.musica ?? "tensao" : "nenhuma"} mudar={(v) => alterar((x) => {
+              if (v === "nenhuma") x.efeitos.trilha = false;
+              else Object.assign(x.efeitos, { trilha: true, musica: v });
+            })} />
+          </label>
         </>
       )}
 

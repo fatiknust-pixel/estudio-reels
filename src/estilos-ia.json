@@ -1,0 +1,49 @@
+{
+  "_comentario": "Catálogo do estilo de edição do Modo 1 (IA). Lido pelo app, pela composição e pelos scripts (importar-roteiro, validar-roteiro).",
+  "dinamica": {
+    "energetica": { "nome": "Energética", "emoji": "⚡", "descricao": "Socos de zoom a cada elemento, tremida nos carimbos, flash na troca de cena." },
+    "cinema": { "nome": "Cinema", "emoji": "🎬", "descricao": "Faixas pretas, grão de filme, vinheta e zoom lento contínuo." },
+    "jornal": { "nome": "Jornal", "emoji": "📺", "descricao": "Tarja AO VIVO piscando e letreiro correndo com título e fontes." },
+    "glitch": { "nome": "Glitch", "emoji": "📼", "descricao": "Distorção RGB e linhas de TV nas trocas de cena e nos elementos." },
+    "colagem": { "nome": "Colagem", "emoji": "✂️", "descricao": "Textura de papel, elementos tortos e movimento stop motion." },
+    "minimal": { "nome": "Minimal", "emoji": "◻️", "descricao": "Sem partículas nem texturas: limpo e calmo." },
+    "padrao": { "nome": "Clássica", "emoji": "🎞️", "descricao": "O visual original dos vídeos do Astra." }
+  },
+  "legenda": {
+    "karaoke": { "nome": "Karaokê", "preset": { "palavrasPorTela": 3, "tamanho": 92, "fundo": "nenhum", "animacao": "pop", "maiusculas": true, "contorno": 10 } },
+    "palavra": { "nome": "Palavra gigante", "preset": { "palavrasPorTela": 1, "tamanho": 132, "fundo": "nenhum", "animacao": "pop", "maiusculas": true, "contorno": 12 } },
+    "caixa": { "nome": "Caixa colorida", "preset": { "palavrasPorTela": 3, "tamanho": 84, "fundo": "palavra", "animacao": "pop", "maiusculas": true, "contorno": 8 } },
+    "discreta": { "nome": "Discreta", "preset": { "palavrasPorTela": 6, "tamanho": 62, "fundo": "nenhum", "animacao": "subir", "maiusculas": false, "contorno": 4 } }
+  },
+  "transicao": {
+    "faixas": { "nome": "Faixas" },
+    "zoom": { "nome": "Zoom com desfoque" },
+    "deslize": { "nome": "Deslize" },
+    "flash": { "nome": "Clarão" },
+    "circulo": { "nome": "Círculo" }
+  },
+  "fundo": {
+    "grade": { "nome": "Grade" },
+    "ondas": { "nome": "Ondas" },
+    "pontos": { "nome": "Pontos" },
+    "raios": { "nome": "Raios" },
+    "limpo": { "nome": "Limpo" },
+    "bandeira": { "nome": "Bandeira" }
+  },
+  "musica": {
+    "tensao": { "nome": "Tensão", "arquivo": "sfx/trilha.mp3" },
+    "leve": { "nome": "Leve", "arquivo": "sfx/trilha-leve.mp3" },
+    "epica": { "nome": "Épica", "arquivo": "sfx/trilha-epica.mp3" },
+    "nenhuma": { "nome": "Sem música" }
+  },
+  "formato": {
+    "explicativo": { "nome": "Explicativo", "descricao": "gancho → contexto → fatos em ordem → resumo → final" },
+    "lista": { "nome": "Lista / Top N", "descricao": "\"5 coisas que…\", uma cena por item, número em destaque" },
+    "linha-do-tempo": { "nome": "Linha do tempo", "descricao": "cenas por data, elemento linha e o ano em destaque" },
+    "mito-verdade": { "nome": "Mito ou verdade", "descricao": "cada cena começa com a afirmação e um carimbo MITO/VERDADE" },
+    "comparacao": { "nome": "Comparação", "descricao": "A × B, placar e check lado a lado" },
+    "curiosidade": { "nome": "Curiosidade rápida", "descricao": "5–6 cenas curtas, ritmo acelerado" }
+  },
+  "fonte": ["montserrat", "poppins", "oswald", "raleway", "playfair", "robotoslab", "anton", "bebas", "inter", "bangers"],
+  "paleta": ["padrao", "brasil", "neon", "noticia", "documentario", "oceano", "fogo", "pordosol", "grafite", "claro"]
+}

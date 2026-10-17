@@ -3,6 +3,7 @@
 // Sai com erro (código 1) se houver problemas que quebram o vídeo; avisos não bloqueiam.
 import fs from "node:fs";
 import path from "node:path";
+import { CAMPOS as CAMPOS_ESTILO, opcoes, recentes } from "./estilo-ia.mjs";
 
 const pasta = process.argv[2];
 if (!pasta) {
@@ -89,6 +90,29 @@ if (roteiro) {
   if (alvo && Math.abs(estimado - alvo) > alvo * 0.2) avisos.push(`duração estimada ${Math.round(estimado)} s longe do pedido (${alvo} s): ajuste para ~${Math.round(alvo * 2.4)} palavras`);
   if (!Array.isArray(roteiro.fontesPesquisa) || !roteiro.fontesPesquisa.length) avisos.push("fontesPesquisa vazio — liste as fontes com título e url");
 }
+// Estilo de edição: valores válidos, pedido respeitado e variedade em relação ao vídeo anterior
+if (roteiro) {
+  const est = roteiro.estilo;
+  const pedido = projeto?.pedido?.estilo ?? {};
+  if (!est || typeof est !== "object") erros.push('falta o objeto "estilo" (dinamica, legenda, transicao, fundo, musica, formato, fonte, paleta)');
+  else {
+    for (const campo of CAMPOS_ESTILO) {
+      const v = est[campo];
+      if (v === undefined) { erros.push(`estilo.${campo}: faltando (opções: ${opcoes(campo).join(", ")})`); continue; }
+      if (!opcoes(campo).includes(v) && !(campo === "paleta" && v === "jornal")) erros.push(`estilo.${campo}: "${v}" não existe (opções: ${opcoes(campo).join(", ")})`);
+      const fixo = pedido[campo];
+      if (fixo && fixo !== "auto" && fixo !== v) erros.push(`estilo.${campo}: o pedido manda "${fixo}", mas o roteiro tem "${v}"`);
+    }
+    const anterior = recentes(projeto?.id, 1)[0];
+    if (anterior) {
+      for (const campo of ["dinamica", "legenda", "transicao", "fundo"]) {
+        const livre = !pedido[campo] || pedido[campo] === "auto";
+        if (livre && anterior[campo] && anterior[campo] === est[campo]) erros.push(`estilo.${campo}: "${est[campo]}" repete o vídeo anterior (${anterior.id}) — escolha outro`);
+      }
+    }
+  }
+}
+
 for (const [k, v] of Object.entries(imagens)) {
   if (k.startsWith("_")) continue;
   if (!/^[a-z0-9][a-z0-9-]*$/.test(k)) erros.push(`imagens.json: chave "${k}" deve ter só minúsculas, números e hífens`);

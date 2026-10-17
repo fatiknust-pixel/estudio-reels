@@ -39,8 +39,21 @@ export type Efeitos = {
   zooms: Zoom[];
   enquete?: Enquete | null;
   sfxAuto?: boolean; // sons automáticos em zooms, emojis e títulos (padrão: ligado)
+  musica?: "tensao" | "leve" | "epica"; // qual trilha (padrão: tensão)
   abaixarTrilha?: boolean; // trilha abaixa enquanto alguém fala (padrão: ligado)
 };
+
+// ----- Modo 1 (IA): estilo de edição (ritmo e movimento, não só cores) — catálogo em src/estilos-ia.json -----
+export type Dinamica = "padrao" | "energetica" | "cinema" | "jornal" | "glitch" | "colagem" | "minimal";
+export type EstiloIA = {
+  dinamica: Dinamica;
+  legenda?: "karaoke" | "palavra" | "caixa" | "discreta";
+  transicao: "faixas" | "zoom" | "deslize" | "flash" | "circulo";
+  fundo: "grade" | "ondas" | "pontos" | "raios" | "limpo" | "bandeira";
+  formato?: string;
+};
+// No pedido: "auto" deixa o Claude escolher (sem repetir o vídeo anterior)
+export type PedidoEstilo = Partial<Record<"dinamica" | "legenda" | "transicao" | "fundo" | "musica" | "formato" | "fonte" | "paleta", string>>;
 
 // ----- Modo 1 (IA): cenas no formato do roteiro.json do Astra -----
 export type ElementoCena = { tipo: string; em?: string | number; posicao?: string; [k: string]: any };
@@ -93,7 +106,8 @@ export type Projeto = {
   cortes?: Corte[];
   gancho?: Gancho | null;
   // ia
-  pedido?: { tema: string; tom: string; duracao: number };
+  pedido?: { tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; lote?: { indice: number; total: number; outros: string[] } };
+  estiloIA?: EstiloIA;
   voz?: { edge: string; velocidade: string };
   cenas?: Cena[];
   narracao?: Record<string, NarracaoCena>;

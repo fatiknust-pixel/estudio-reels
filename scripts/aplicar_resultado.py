@@ -47,7 +47,7 @@ def main():
             p["palavras"] = r["palavras"]
         if "cortes" in r and (a.substituir or not p.get("cortes")):
             p["cortes"] = r["cortes"]
-        for k in ("cenas", "narracao", "imagens", "titulo", "fontesPesquisa", "voz", "sugestoes", "gancho"):
+        for k in ("cenas", "narracao", "imagens", "titulo", "fontesPesquisa", "voz", "sugestoes", "gancho", "estiloIA", "tema"):
             if k in r:
                 p[k] = r[k]
         if "efeitos" in r and a.substituir:

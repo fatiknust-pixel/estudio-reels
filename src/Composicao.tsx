@@ -3,7 +3,7 @@ import { AbsoluteFill, CalculateMetadataFunction } from "remotion";
 import { ProvedorVideo } from "./contexto";
 import { CamadaEfeitos } from "./componentes/Efeitos";
 import { Legenda } from "./componentes/Legenda";
-import { carregarFontes } from "./fontes";
+import { carregarFontes, FONTES } from "./fontes";
 import { montarLinha } from "./linhaTempo";
 import { ModoBruto } from "./ModoBruto";
 import { ModoIA } from "./ModoIA";
@@ -16,7 +16,7 @@ export type PropsVideo = { projeto: Projeto; arquivos?: Record<string, string> }
 
 export const Composicao: React.FC<PropsVideo> = ({ projeto, arquivos }) => (
   <ProvedorVideo projeto={projeto} arquivos={arquivos}>
-    <AbsoluteFill style={{ background: temaDe(projeto.tema).fundo, overflow: "hidden" }}>
+    <AbsoluteFill style={{ background: temaDe(projeto.tema).fundo, overflow: "hidden", ["--fonte" as any]: `'${FONTES[projeto.legenda.fonte]?.familia ?? "Montserrat"}'` }}>
       {projeto.modo === "bruto" ? <ModoBruto /> : <ModoIA />}
       <Legenda />
       <CamadaEfeitos />
