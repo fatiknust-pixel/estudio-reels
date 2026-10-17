@@ -4,21 +4,21 @@
  "titulo": "O que muda com a reforma tributária",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "padrao",
+ "tema": "documentario",
  "criadoEm": "2026-10-17T13:48:09.779Z",
- "atualizadoEm": "2026-10-17T13:48:09.783Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-17T13:51:01Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "playfair",
+  "tamanho": 62,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
-  "palavrasPorTela": 3,
-  "maiusculas": true,
-  "contorno": 10,
+  "palavrasPorTela": 6,
+  "maiusculas": false,
+  "contorno": 4,
   "fundo": "nenhum",
-  "animacao": "pop",
+  "animacao": "subir",
   "mostrar": true
  },
  "efeitos": {
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "epica"
  },
  "pedido": {
   "tema": "O que muda com a reforma tributária",
@@ -51,11 +52,1054 @@
   "edge": "pt-BR-ThalitaMultilingualNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Cinco impostos sobre o consumo vão virar três. Parece simples, mas gera muita briga. Veja o que é fato.",
+   "fundo": "congresso",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "5 VIRAM 3?",
+     "em": "Cinco",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "REFORMA TRIBUTÁRIA",
+     "sub": "O que é fato",
+     "em": "fato",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "o-que-muda",
+   "texto": "PIS, Cofins, IPI, ICMS e ISS saem. Entram a CBS, federal, o IBS, de estados e municípios, e o Imposto Seletivo, sobre o que faz mal à saúde e ao meio ambiente.",
+   "fundo": "planalto",
+   "fontes": [
+    "Conjur",
+    "LC 214/2025"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5 SAEM, 3 ENTRAM",
+     "sub": "LC 214/2025",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "PIS, Cofins, IPI, ICMS, ISS"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balanca",
+       "CBS, IBS, IS"
+      ]
+     ],
+     "em": "Entram",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "calendario",
+   "texto": "Quando? Em 2026, só testes: CBS de 0,9% e IBS de 0,1%. Em 2027, a CBS assume o lugar de PIS e Cofins. De 2029 a 2032, ICMS e ISS caem aos poucos. Em 2033, acabam.",
+   "fundo": "calculadora",
+   "fontes": [
+    "LC 214/2025",
+    "Ministério da Fazenda"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TRANSIÇÃO ATÉ 2033",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2026",
+       "Testes"
+      ],
+      [
+       "2027",
+       "CBS"
+      ],
+      [
+       "2029",
+       "ICMS e ISS caem"
+      ],
+      [
+       "2033",
+       "Fim"
+      ]
+     ],
+     "em": "2026",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "cesta",
+   "texto": "O que o povo ganha: a cesta básica nacional terá alíquota zero. E famílias do CadÚnico recebem cashback em itens como gás e energia.",
+   "fundo": "mercado",
+   "fontes": [
+    "Conjur",
+    "Brasil de Fato"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ALÍQUOTA ZERO",
+     "cor": "verde",
+     "em": "zero",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Cashback no CadÚnico",
+     "icone": "dinheiro",
+     "em": "cashback",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "polemica",
+   "texto": "E a polêmica? A alíquota padrão estimada é de 26,5%, número alto para os críticos. O governo diz que é o preço de simplificar.",
+   "fundo": "fazenda",
+   "fontes": [
+    "Ministério da Fazenda",
+    "SBT News"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 26.5,
+     "unidade": "%",
+     "rotulo": "Alíquota padrão estimada",
+     "em": "26,5%",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "AINDA É ESTIMATIVA",
+     "nota": "O valor final depende de regulamentação",
+     "em": "governo",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumo: menos tributos, transição longa e muito debate. Na sua conta, a reforma vai ajudar ou pesar?",
+   "fundo": "esplanada",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Vai ajudar ou pesar?",
+     "opcoes": [
+      "Ajudar",
+      "Pesar"
+     ],
+     "em": "ajudar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "em": "pesar",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "4afae605f2",
+   "texto": "Cinco impostos sobre o consumo vão virar três. Parece simples, mas gera muita briga. Veja o que é fato.",
+   "audio": "audio/gancho-4afae605f2.mp3",
+   "duracao": 7.272,
+   "palavras": [
+    {
+     "p": "Cinco",
+     "i": 0.048,
+     "f": 0.429
+    },
+    {
+     "p": "impostos",
+     "i": 0.429,
+     "f": 0.976
+    },
+    {
+     "p": "sobre",
+     "i": 0.976,
+     "f": 1.155
+    },
+    {
+     "p": "o",
+     "i": 1.155,
+     "f": 1.19
+    },
+    {
+     "p": "consumo",
+     "i": 1.19,
+     "f": 1.75
+    },
+    {
+     "p": "vão",
+     "i": 1.75,
+     "f": 1.952
+    },
+    {
+     "p": "virar",
+     "i": 1.952,
+     "f": 2.298
+    },
+    {
+     "p": "três",
+     "i": 2.298,
+     "f": 2.726
+    },
+    {
+     "p": "Parece",
+     "i": 3.048,
+     "f": 3.464
+    },
+    {
+     "p": "simples",
+     "i": 3.464,
+     "f": 4.036
+    },
+    {
+     "p": "mas",
+     "i": 4.226,
+     "f": 4.405
+    },
+    {
+     "p": "gera",
+     "i": 4.405,
+     "f": 4.667
+    },
+    {
+     "p": "muita",
+     "i": 4.667,
+     "f": 5.095
+    },
+    {
+     "p": "briga",
+     "i": 5.095,
+     "f": 5.476
+    },
+    {
+     "p": "Veja",
+     "i": 5.81,
+     "f": 6.286
+    },
+    {
+     "p": "o",
+     "i": 6.286,
+     "f": 6.334
+    },
+    {
+     "p": "que",
+     "i": 6.334,
+     "f": 6.405
+    },
+    {
+     "p": "é",
+     "i": 6.405,
+     "f": 6.465
+    },
+    {
+     "p": "fato",
+     "i": 6.465,
+     "f": 6.941
+    }
+   ]
+  },
+  "o-que-muda": {
+   "hash": "aae563c0a0",
+   "texto": "PIS, Cofins, IPI, ICMS e ISS saem. Entram a CBS, federal, o IBS, de estados e municípios, e o Imposto Seletivo, sobre o que faz mal à saúde e ao meio ambiente.",
+   "audio": "audio/o-que-muda-aae563c0a0.mp3",
+   "duracao": 13.32,
+   "palavras": [
+    {
+     "p": "PIS",
+     "i": 0.05,
+     "f": 0.669
+    },
+    {
+     "p": "Cofins",
+     "i": 0.836,
+     "f": 1.431
+    },
+    {
+     "p": "IPI",
+     "i": 1.633,
+     "f": 2.24
+    },
+    {
+     "p": "ICMS",
+     "i": 2.49,
+     "f": 3.395
+    },
+    {
+     "p": "e",
+     "i": 3.395,
+     "f": 3.419
+    },
+    {
+     "p": "ISS",
+     "i": 3.419,
+     "f": 4.181
+    },
+    {
+     "p": "saem",
+     "i": 4.181,
+     "f": 4.633
+    },
+    {
+     "p": "Entram",
+     "i": 4.965,
+     "f": 5.31
+    },
+    {
+     "p": "a",
+     "i": 5.31,
+     "f": 5.346
+    },
+    {
+     "p": "CBS",
+     "i": 5.346,
+     "f": 5.989
+    },
+    {
+     "p": "federal",
+     "i": 6.179,
+     "f": 6.703
+    },
+    {
+     "p": "o",
+     "i": 6.882,
+     "f": 7.001
+    },
+    {
+     "p": "IBS",
+     "i": 7.001,
+     "f": 7.608
+    },
+    {
+     "p": "de",
+     "i": 7.751,
+     "f": 7.822
+    },
+    {
+     "p": "estados",
+     "i": 7.822,
+     "f": 8.262
+    },
+    {
+     "p": "e",
+     "i": 8.262,
+     "f": 8.358
+    },
+    {
+     "p": "municípios",
+     "i": 8.358,
+     "f": 9.036
+    },
+    {
+     "p": "e",
+     "i": 9.191,
+     "f": 9.262
+    },
+    {
+     "p": "o",
+     "i": 9.262,
+     "f": 9.298
+    },
+    {
+     "p": "Imposto",
+     "i": 9.298,
+     "f": 9.739
+    },
+    {
+     "p": "Seletivo",
+     "i": 9.739,
+     "f": 10.346
+    },
+    {
+     "p": "sobre",
+     "i": 10.501,
+     "f": 10.703
+    },
+    {
+     "p": "o",
+     "i": 10.703,
+     "f": 10.727
+    },
+    {
+     "p": "que",
+     "i": 10.727,
+     "f": 10.81
+    },
+    {
+     "p": "faz",
+     "i": 10.81,
+     "f": 11.072
+    },
+    {
+     "p": "mal",
+     "i": 11.072,
+     "f": 11.334
+    },
+    {
+     "p": "à",
+     "i": 11.334,
+     "f": 11.37
+    },
+    {
+     "p": "saúde",
+     "i": 11.37,
+     "f": 12.001
+    },
+    {
+     "p": "e",
+     "i": 12.001,
+     "f": 12.096
+    },
+    {
+     "p": "ao",
+     "i": 12.096,
+     "f": 12.203
+    },
+    {
+     "p": "meio",
+     "i": 12.203,
+     "f": 12.417
+    },
+    {
+     "p": "ambiente",
+     "i": 12.417,
+     "f": 12.977
+    }
+   ]
+  },
+  "calendario": {
+   "hash": "e72371bd82",
+   "texto": "Quando? Em 2026, só testes: CBS de 0,9% e IBS de 0,1%. Em 2027, a CBS assume o lugar de PIS e Cofins. De 2029 a 2032, ICMS e ISS caem aos poucos. Em 2033, acabam.",
+   "audio": "audio/calendario-e72371bd82.mp3",
+   "duracao": 20.112,
+   "palavras": [
+    {
+     "p": "Quando",
+     "i": 0.05,
+     "f": 0.61
+    },
+    {
+     "p": "Em 2026",
+     "i": 0.941,
+     "f": 2.001
+    },
+    {
+     "p": "só",
+     "i": 2.132,
+     "f": 2.31
+    },
+    {
+     "p": "testes",
+     "i": 2.31,
+     "f": 2.917
+    },
+    {
+     "p": "CBS",
+     "i": 3.12,
+     "f": 3.751
+    },
+    {
+     "p": "de",
+     "i": 3.751,
+     "f": 3.87
+    },
+    {
+     "p": "0,9%",
+     "i": 3.87,
+     "f": 5.322
+    },
+    {
+     "p": "e",
+     "i": 5.322,
+     "f": 5.405
+    },
+    {
+     "p": "IBS",
+     "i": 5.405,
+     "f": 5.941
+    },
+    {
+     "p": "de",
+     "i": 5.941,
+     "f": 6.084
+    },
+    {
+     "p": "0,1%",
+     "i": 6.084,
+     "f": 7.512
+    },
+    {
+     "p": "Em 2027",
+     "i": 7.833,
+     "f": 9
+    },
+    {
+     "p": "a",
+     "i": 9.202,
+     "f": 9.25
+    },
+    {
+     "p": "CBS",
+     "i": 9.25,
+     "f": 9.833
+    },
+    {
+     "p": "assume",
+     "i": 9.833,
+     "f": 10.179
+    },
+    {
+     "p": "o",
+     "i": 10.19,
+     "f": 10.226
+    },
+    {
+     "p": "lugar",
+     "i": 10.226,
+     "f": 10.536
+    },
+    {
+     "p": "de",
+     "i": 10.536,
+     "f": 10.667
+    },
+    {
+     "p": "PIS",
+     "i": 10.667,
+     "f": 10.952
+    },
+    {
+     "p": "e",
+     "i": 10.952,
+     "f": 11.071
+    },
+    {
+     "p": "Cofins",
+     "i": 11.071,
+     "f": 11.702
+    },
+    {
+     "p": "De",
+     "i": 12.037,
+     "f": 12.156
+    },
+    {
+     "p": "2029 a",
+     "i": 12.156,
+     "f": 13.108
+    },
+    {
+     "p": "2032",
+     "i": 13.108,
+     "f": 14.168
+    },
+    {
+     "p": "ICMS",
+     "i": 14.394,
+     "f": 15.251
+    },
+    {
+     "p": "e",
+     "i": 15.251,
+     "f": 15.394
+    },
+    {
+     "p": "ISS",
+     "i": 15.394,
+     "f": 16.168
+    },
+    {
+     "p": "caem",
+     "i": 16.168,
+     "f": 16.549
+    },
+    {
+     "p": "aos",
+     "i": 16.549,
+     "f": 16.727
+    },
+    {
+     "p": "poucos",
+     "i": 16.727,
+     "f": 17.263
+    },
+    {
+     "p": "Em 2033",
+     "i": 17.583,
+     "f": 19.048
+    },
+    {
+     "p": "acabam",
+     "i": 19.226,
+     "f": 19.786
+    }
+   ]
+  },
+  "cesta": {
+   "hash": "1e5470fa44",
+   "texto": "O que o povo ganha: a cesta básica nacional terá alíquota zero. E famílias do CadÚnico recebem cashback em itens como gás e energia.",
+   "audio": "audio/cesta-1e5470fa44.mp3",
+   "duracao": 8.28,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.048,
+     "f": 0.131
+    },
+    {
+     "p": "que",
+     "i": 0.131,
+     "f": 0.226
+    },
+    {
+     "p": "o",
+     "i": 0.226,
+     "f": 0.286
+    },
+    {
+     "p": "povo",
+     "i": 0.286,
+     "f": 0.631
+    },
+    {
+     "p": "ganha",
+     "i": 0.631,
+     "f": 0.988
+    },
+    {
+     "p": "a",
+     "i": 1.262,
+     "f": 1.321
+    },
+    {
+     "p": "cesta",
+     "i": 1.321,
+     "f": 1.655
+    },
+    {
+     "p": "básica",
+     "i": 1.655,
+     "f": 2
+    },
+    {
+     "p": "nacional",
+     "i": 2,
+     "f": 2.512
+    },
+    {
+     "p": "terá",
+     "i": 2.512,
+     "f": 2.762
+    },
+    {
+     "p": "alíquota",
+     "i": 2.762,
+     "f": 3.31
+    },
+    {
+     "p": "zero",
+     "i": 3.31,
+     "f": 3.69
+    },
+    {
+     "p": "E",
+     "i": 4.013,
+     "f": 4.084
+    },
+    {
+     "p": "famílias",
+     "i": 4.084,
+     "f": 4.524
+    },
+    {
+     "p": "do",
+     "i": 4.524,
+     "f": 4.62
+    },
+    {
+     "p": "CadÚnico",
+     "i": 4.62,
+     "f": 5.251
+    },
+    {
+     "p": "recebem",
+     "i": 5.251,
+     "f": 5.691
+    },
+    {
+     "p": "cashback",
+     "i": 5.691,
+     "f": 6.298
+    },
+    {
+     "p": "em",
+     "i": 6.298,
+     "f": 6.501
+    },
+    {
+     "p": "itens",
+     "i": 6.501,
+     "f": 6.798
+    },
+    {
+     "p": "como",
+     "i": 6.798,
+     "f": 7.036
+    },
+    {
+     "p": "gás",
+     "i": 7.036,
+     "f": 7.322
+    },
+    {
+     "p": "e",
+     "i": 7.322,
+     "f": 7.417
+    },
+    {
+     "p": "energia",
+     "i": 7.417,
+     "f": 7.941
+    }
+   ]
+  },
+  "polemica": {
+   "hash": "32c2022d0e",
+   "texto": "E a polêmica? A alíquota padrão estimada é de 26,5%, número alto para os críticos. O governo diz que é o preço de simplificar.",
+   "audio": "audio/polemica-32c2022d0e.mp3",
+   "duracao": 9.768,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.048,
+     "f": 0.143
+    },
+    {
+     "p": "a",
+     "i": 0.143,
+     "f": 0.227
+    },
+    {
+     "p": "polêmica",
+     "i": 0.227,
+     "f": 0.893
+    },
+    {
+     "p": "A",
+     "i": 1.214,
+     "f": 1.333
+    },
+    {
+     "p": "alíquota",
+     "i": 1.333,
+     "f": 1.821
+    },
+    {
+     "p": "padrão",
+     "i": 1.821,
+     "f": 2.155
+    },
+    {
+     "p": "estimada",
+     "i": 2.155,
+     "f": 2.798
+    },
+    {
+     "p": "é",
+     "i": 2.798,
+     "f": 2.881
+    },
+    {
+     "p": "de",
+     "i": 2.881,
+     "f": 3.012
+    },
+    {
+     "p": "26,5%",
+     "i": 3.012,
+     "f": 4.929
+    },
+    {
+     "p": "número",
+     "i": 5.155,
+     "f": 5.559
+    },
+    {
+     "p": "alto",
+     "i": 5.56,
+     "f": 5.857
+    },
+    {
+     "p": "para",
+     "i": 5.857,
+     "f": 6
+    },
+    {
+     "p": "os",
+     "i": 6,
+     "f": 6.083
+    },
+    {
+     "p": "críticos",
+     "i": 6.083,
+     "f": 6.69
+    },
+    {
+     "p": "O",
+     "i": 7.024,
+     "f": 7.108
+    },
+    {
+     "p": "governo",
+     "i": 7.108,
+     "f": 7.655
+    },
+    {
+     "p": "diz",
+     "i": 7.655,
+     "f": 7.965
+    },
+    {
+     "p": "que",
+     "i": 7.965,
+     "f": 8.06
+    },
+    {
+     "p": "é",
+     "i": 8.06,
+     "f": 8.12
+    },
+    {
+     "p": "o",
+     "i": 8.12,
+     "f": 8.191
+    },
+    {
+     "p": "preço",
+     "i": 8.191,
+     "f": 8.524
+    },
+    {
+     "p": "de",
+     "i": 8.524,
+     "f": 8.632
+    },
+    {
+     "p": "simplificar",
+     "i": 8.632,
+     "f": 9.441
+    }
+   ]
+  },
+  "final": {
+   "hash": "da870d9bd2",
+   "texto": "Resumo: menos tributos, transição longa e muito debate. Na sua conta, a reforma vai ajudar ou pesar?",
+   "audio": "audio/final-da870d9bd2.mp3",
+   "duracao": 7.44,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.049,
+     "f": 0.608
+    },
+    {
+     "p": "menos",
+     "i": 0.87,
+     "f": 1.168
+    },
+    {
+     "p": "tributos",
+     "i": 1.168,
+     "f": 1.763
+    },
+    {
+     "p": "transição",
+     "i": 1.918,
+     "f": 2.525
+    },
+    {
+     "p": "longa",
+     "i": 2.525,
+     "f": 3.001
+    },
+    {
+     "p": "e",
+     "i": 3.001,
+     "f": 3.096
+    },
+    {
+     "p": "muito",
+     "i": 3.096,
+     "f": 3.465
+    },
+    {
+     "p": "debate",
+     "i": 3.465,
+     "f": 4.013
+    },
+    {
+     "p": "Na",
+     "i": 4.346,
+     "f": 4.524
+    },
+    {
+     "p": "sua",
+     "i": 4.524,
+     "f": 4.786
+    },
+    {
+     "p": "conta",
+     "i": 4.798,
+     "f": 5.227
+    },
+    {
+     "p": "a",
+     "i": 5.417,
+     "f": 5.453
+    },
+    {
+     "p": "reforma",
+     "i": 5.453,
+     "f": 5.965
+    },
+    {
+     "p": "vai",
+     "i": 5.965,
+     "f": 6.12
+    },
+    {
+     "p": "ajudar",
+     "i": 6.12,
+     "f": 6.608
+    },
+    {
+     "p": "ou",
+     "i": 6.608,
+     "f": 6.703
+    },
+    {
+     "p": "pesar",
+     "i": 6.703,
+     "f": 7.108
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "congresso": {
+   "arquivo": "imagens/congresso-9ad40064.jpg",
+   "rotulo": "Congresso Nacional",
+   "wiki": "Congresso Nacional do Brasil",
+   "commons": "Congresso Nacional Brasília",
+   "autor": "Eurico Zimbres",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brazilian_National_Congress.jpg",
+   "titulo": "File:Brazilian National Congress.jpg"
+  },
+  "planalto": {
+   "arquivo": "imagens/planalto-0c565716.jpg",
+   "rotulo": "Palácio do Planalto",
+   "wiki": "Palácio do Planalto",
+   "autor": "Gastão guedes",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_do_Planalto_GGFD8938.jpg",
+   "titulo": "File:Palácio do Planalto GGFD8938.jpg"
+  },
+  "fazenda": {
+   "arquivo": "imagens/fazenda-00370985.jpg",
+   "rotulo": "Ministério da Fazenda",
+   "wiki": "Ministério da Fazenda (Brasil)",
+   "commons": "Ministério da Fazenda Brasília",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Antiga_Academia_Imperial_de_Belas_Artes_01.jpg",
+   "titulo": "File:Antiga Academia Imperial de Belas Artes 01.jpg"
+  },
+  "mercado": {
+   "arquivo": "imagens/mercado-dac8924b.jpg",
+   "rotulo": "Compras no mercado",
+   "commons": "supermercado frutas e verduras",
+   "autor": "Senado Federal",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Senado_Federal_do_Brasil_Fotos_produzidas_pelo_Senado_(15899846762).jpg",
+   "titulo": "File:Senado Federal do Brasil Fotos produzidas pelo Senado (15899846762).jpg"
+  },
+  "calculadora": {
+   "arquivo": "",
+   "rotulo": "Calculadora",
+   "commons": "calculadora impostos"
+  },
+  "esplanada": {
+   "arquivo": "imagens/esplanada-1c5168b0.jpg",
+   "rotulo": "Esplanada dos Ministérios",
+   "commons": "Esplanada dos Ministérios",
+   "autor": "Mario Roberto Durán Ortiz (modificado por Heitor Carvalho Jorge)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Esplanada_dos_Minist%C3%A9rios,_Bras%C3%ADlia_DF_04_2006_(modificada).jpg",
+   "titulo": "File:Esplanada dos Ministérios, Brasília DF 04 2006 (modificada).jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-17T13:48:09.779Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Conjur — Presidente sanciona a regulamentação da reforma tributária",
+   "url": "https://www.conjur.com.br/2025-jan-16/presidente-sanciona-texto-da-regulamentacao-da-reforma-tributaria/"
+  },
+  {
+   "titulo": "Brasil de Fato — Lula sanciona regulamentação da reforma tributária sobre consumo",
+   "url": "https://www.brasildefato.com.br/2025/01/16/lula-sanciona-regulamentacao-da-reforma-tributaria-sobre-consumo"
+  },
+  {
+   "titulo": "SBT News — Governo define alíquota padrão em 26,5%",
+   "url": "https://sbtnews.sbt.com.br/noticia/economia/entenda-a-reforma-tributaria-governo-define-aliquota-padrao-em-26-5"
+  },
+  {
+   "titulo": "Câmara dos Deputados — apresentação do Ministério da Fazenda",
+   "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/grupos-de-trabalho/57a-legislatura/grupo-de-trabalho-sobre-a-regulamentacao-da-reforma-tributaria-plp-68-de-2024/apresentacoes-em-eventos/bernard-appy-secretario-extraordinario-da-reforma-tributaria-do-ministerio-da-fazenda"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "cinema",
+  "legenda": "discreta",
+  "transicao": "circulo",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
  }
 }

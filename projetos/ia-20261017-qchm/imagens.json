@@ -1,0 +1,8 @@
+{
+ "congresso": { "wiki": "Congresso Nacional do Brasil", "commons": "Congresso Nacional Brasília", "rotulo": "Congresso Nacional" },
+ "planalto": { "wiki": "Palácio do Planalto", "rotulo": "Palácio do Planalto" },
+ "fazenda": { "wiki": "Ministério da Fazenda (Brasil)", "commons": "Ministério da Fazenda Brasília", "rotulo": "Ministério da Fazenda" },
+ "mercado": { "commons": "supermercado frutas e verduras", "rotulo": "Compras no mercado" },
+ "calculadora": { "commons": "calculadora impostos", "rotulo": "Calculadora" },
+ "esplanada": { "commons": "Esplanada dos Ministérios", "rotulo": "Esplanada dos Ministérios" }
+}

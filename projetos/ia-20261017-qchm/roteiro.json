@@ -1,0 +1,74 @@
+{
+ "titulo": "O que muda com a reforma tributária",
+ "estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "circulo", "fundo": "limpo",
+             "musica": "epica", "formato": "linha-do-tempo", "fonte": "playfair", "paleta": "documentario" },
+ "legenda": { "palavrasPorTela": 3 },
+ "fontesPesquisa": [
+  { "titulo": "Conjur — Presidente sanciona a regulamentação da reforma tributária", "url": "https://www.conjur.com.br/2025-jan-16/presidente-sanciona-texto-da-regulamentacao-da-reforma-tributaria/" },
+  { "titulo": "Brasil de Fato — Lula sanciona regulamentação da reforma tributária sobre consumo", "url": "https://www.brasildefato.com.br/2025/01/16/lula-sanciona-regulamentacao-da-reforma-tributaria-sobre-consumo" },
+  { "titulo": "SBT News — Governo define alíquota padrão em 26,5%", "url": "https://sbtnews.sbt.com.br/noticia/economia/entenda-a-reforma-tributaria-governo-define-aliquota-padrao-em-26-5" },
+  { "titulo": "Câmara dos Deputados — apresentação do Ministério da Fazenda", "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/grupos-de-trabalho/57a-legislatura/grupo-de-trabalho-sobre-a-regulamentacao-da-reforma-tributaria-plp-68-de-2024/apresentacoes-em-eventos/bernard-appy-secretario-extraordinario-da-reforma-tributaria-do-ministerio-da-fazenda" }
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Cinco impostos sobre o consumo vão virar três. Parece simples, mas gera muita briga. Veja o que é fato.",
+   "fundo": "congresso",
+   "fontes": [],
+   "elementos": [
+    { "tipo": "pergunta", "texto": "5 VIRAM 3?", "em": "Cinco", "posicao": "alto" },
+    { "tipo": "titulo", "texto": "REFORMA TRIBUTÁRIA", "sub": "O que é fato", "em": "fato", "posicao": "topo" }
+   ]
+  },
+  {
+   "id": "o-que-muda",
+   "texto": "PIS, Cofins, IPI, ICMS e ISS saem. Entram a CBS, federal, o IBS, de estados e municípios, e o Imposto Seletivo, sobre o que faz mal à saúde e ao meio ambiente.",
+   "fundo": "planalto",
+   "fontes": ["Conjur", "LC 214/2025"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "5 SAEM, 3 ENTRAM", "sub": "LC 214/2025", "em": 0, "posicao": "topo" },
+    { "tipo": "icones", "itens": [["documento", "PIS, Cofins, IPI, ICMS, ISS"], ["seta", ""], ["balanca", "CBS, IBS, IS"]], "em": "Entram", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "calendario",
+   "texto": "Quando? Em 2026, só testes: CBS de 0,9% e IBS de 0,1%. Em 2027, a CBS assume o lugar de PIS e Cofins. De 2029 a 2032, ICMS e ISS caem aos poucos. Em 2033, acabam.",
+   "fundo": "calculadora",
+   "fontes": ["LC 214/2025", "Ministério da Fazenda"],
+   "elementos": [
+    { "tipo": "titulo", "texto": "TRANSIÇÃO ATÉ 2033", "em": 0, "posicao": "topo" },
+    { "tipo": "linha", "itens": [["2026", "Testes"], ["2027", "CBS"], ["2029", "ICMS e ISS caem"], ["2033", "Fim"]], "em": "2026", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "cesta",
+   "texto": "O que o povo ganha: a cesta básica nacional terá alíquota zero. E famílias do CadÚnico recebem cashback em itens como gás e energia.",
+   "fundo": "mercado",
+   "fontes": ["Conjur", "Brasil de Fato"],
+   "elementos": [
+    { "tipo": "carimbo", "texto": "ALÍQUOTA ZERO", "cor": "verde", "em": "zero", "posicao": "alto" },
+    { "tipo": "tag", "texto": "Cashback no CadÚnico", "icone": "dinheiro", "em": "cashback", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "polemica",
+   "texto": "E a polêmica? A alíquota padrão estimada é de 26,5%, número alto para os críticos. O governo diz que é o preço de simplificar.",
+   "fundo": "fazenda",
+   "fontes": ["Ministério da Fazenda", "SBT News"],
+   "elementos": [
+    { "tipo": "contador", "de": 0, "ate": 26.5, "unidade": "%", "rotulo": "Alíquota padrão estimada", "em": "26,5%", "posicao": "alto" },
+    { "tipo": "check", "ok": false, "texto": "AINDA É ESTIMATIVA", "nota": "O valor final depende de regulamentação", "em": "governo", "posicao": "meio" }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumo: menos tributos, transição longa e muito debate. Na sua conta, a reforma vai ajudar ou pesar?",
+   "fundo": "esplanada",
+   "fontes": [],
+   "elementos": [
+    { "tipo": "enquete", "pergunta": "Vai ajudar ou pesar?", "opcoes": ["Ajudar", "Pesar"], "em": "ajudar", "posicao": "alto" },
+    { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "pesar", "posicao": "meio" }
+   ]
+  }
+ ]
+}
