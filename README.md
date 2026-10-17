@@ -79,6 +79,13 @@ navegador); a Action junta as partes e apaga o ramo.
   enquete e CTA no final), conferindo com `scripts/validar-roteiro.mjs`. Depois vêm a narração
   (`scripts/voz.py`, edge-tts `pt-BR-AntonioNeural` +5%, tempo por palavra) e as imagens
   (`scripts/imagens.mjs`, Wikipédia/Commons com autor e licença).
+- **Lote:** na tela do Modo 1, um tema por linha cria até 5 vídeos de uma vez (gerados ao mesmo tempo). Com
+  "Variar estilo entre os vídeos", cada um recebe dinâmica, legenda, transição e formato sorteados sem repetir.
+- **Estilo de edição** (`estiloIA` no projeto, catálogo em `src/estilos-ia.json`): **dinâmica** (energética,
+  cinema, jornal, glitch, colagem, minimal), legenda (karaokê, palavra gigante, caixa colorida, discreta),
+  transição (faixas, zoom com desfoque, deslize, clarão, círculo), fundo (grade, ondas, pontos, raios, limpo),
+  fonte, paleta e música. Em "Automático" o Claude escolhe pelo tema sem repetir o vídeo anterior
+  (`node scripts/estilo-ia.mjs recentes`), e o validador confere. Dá para trocar tudo depois na aba 🎨 Estilo.
 - `atualizar-ia.yml`: depois de editar o texto de cenas ou pedir outra imagem no app, refaz só a voz
   das cenas que mudaram e baixa só as imagens pedidas. Ao exportar isso também acontece sozinho.
 - Áudios e imagens ganham nomes com hash (`audio/<cena>-<hash>.mp3`), então o app nunca mostra arquivo

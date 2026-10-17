@@ -3,6 +3,7 @@
 // Uso: node scripts/importar-roteiro.mjs projetos/<id> out/projeto.json
 import fs from "node:fs";
 import path from "node:path";
+import { aplicarEstilo } from "./estilo-ia.mjs";
 
 const [pasta, saida] = process.argv.slice(2);
 const ler = (a) => JSON.parse(fs.readFileSync(path.join(pasta, a), "utf8"));
@@ -14,6 +15,7 @@ projeto.titulo = roteiro.titulo || projeto.titulo;
 projeto.cenas = roteiro.cenas.map((c) => ({ id: c.id, texto: c.texto.trim(), fundo: c.fundo || undefined, fontes: c.fontes ?? [], elementos: c.elementos ?? [] }));
 projeto.fontesPesquisa = roteiro.fontesPesquisa ?? [];
 if (roteiro.legenda?.palavrasPorTela) projeto.legenda = { ...projeto.legenda, palavrasPorTela: roteiro.legenda.palavrasPorTela };
+aplicarEstilo(projeto, roteiro.estilo);
 projeto.voz = projeto.voz ?? { edge: "pt-BR-AntonioNeural", velocidade: "+5%" };
 const antigas = projeto.imagens ?? {};
 projeto.imagens = {};

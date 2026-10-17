@@ -56,6 +56,16 @@ export const TEMAS: Record<string, Tema> = {
     vermelho: "#FB5607", verde: "#8AC926", azul: "#3A86FF",
     destaque: "#FFB703", transicao: ["#FB5607", "#FFB703", "#FFFFFF"],
   },
+  pordosol: {
+    ...base, nome: "Pôr do sol", fundo: "#1A0B1E", brilhoA: "#5A1F3D", brilhoB: "#6B3A12", suave: "rgba(255,255,255,0.78)",
+    amarelo: "#FFB547", vermelho: "#FF5E5B", verde: "#4ADE80", azul: "#A78BFA", cinza: "#B8A6B0", roxo: "#E879F9",
+    destaque: "#FFB547", transicao: ["#FF5E5B", "#FFB547", "#E879F9"],
+  },
+  grafite: {
+    ...base, nome: "Grafite", fundo: "#111111", brilhoA: "#2A2A2A", brilhoB: "#1F2A2E", suave: "rgba(255,255,255,0.72)",
+    amarelo: "#FF7A1A", vermelho: "#FF4040", verde: "#3DDC97", azul: "#4AA3FF", cinza: "#9CA3AF", roxo: "#4AA3FF",
+    destaque: "#FF7A1A", transicao: ["#FF7A1A", "#FFFFFF", "#2A2A2A"],
+  },
   claro: {
     ...base, nome: "Claro", fundo: "#F4F1EA", brilhoA: "#FFE8A3", brilhoB: "#CDE7F0", texto: "#111111",
     suave: "rgba(17,17,17,0.7)", amarelo: "#FFB800", destaque: "#FF4D00", transicao: ["#FF4D00", "#111111", "#FFB800"],

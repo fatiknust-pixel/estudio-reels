@@ -6,6 +6,12 @@ import { arquivoGlobal } from "../arquivos";
 import { corDe, useVideo } from "../contexto";
 import { FONTE } from "../fontes";
 import { FPS } from "../linhaTempo";
+import CATALOGO from "../estilos-ia.json";
+
+// Trilhas de fundo (efeitos.musica)
+export const ARQUIVO_MUSICA: Record<string, string> = Object.fromEntries(
+  Object.entries(CATALOGO.musica).filter(([, v]) => "arquivo" in v).map(([k, v]) => [k, (v as any).arquivo])
+);
 
 export const SONS: Record<string, string> = {
   whoosh: "Whoosh", pop: "Pop", ding: "Ding", carimbo: "Impacto", tique: "Tique",
@@ -123,7 +129,7 @@ export const CamadaEfeitos: React.FC = () => {
   const fimConteudo = linha.duracao - (ef.enquete ? Math.round(ef.enquete.dur * FPS) : 0);
   return (
     <>
-      {ef.trilha && <Audio src={arquivoGlobal("sfx/trilha.mp3")} volume={projeto.modo === "bruto" ? volumeTrilha : ef.volumeTrilha} loop />}
+      {ef.trilha && <Audio src={arquivoGlobal(ARQUIVO_MUSICA[ef.musica ?? "tensao"] ?? "sfx/trilha.mp3")} volume={projeto.modo === "bruto" ? volumeTrilha : ef.volumeTrilha} loop />}
       {ef.titulos.map((t) => {
         const j = janela(t.i, t.f - t.i);
         return j && <Sequence key={t.id} from={j.de} durationInFrames={j.dur} layout="none">{sfx && <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.25} />}<TituloTela texto={t.texto} sub={t.sub} posicao={t.posicao ?? 14} cor={t.cor} dur={j.dur} /></Sequence>;
