@@ -1,0 +1,87 @@
+{
+  "titulo": "Como funciona a delação premiada",
+  "estilo": { "dinamica": "glitch", "legenda": "palavra", "transicao": "deslize", "fundo": "pontos",
+              "musica": "tensao", "formato": "mito-verdade", "fonte": "poppins", "paleta": "neon" },
+  "legenda": { "palavrasPorTela": 1 },
+  "fontesPesquisa": [
+    { "titulo": "Planalto — Lei 12.850/2013 (organizações criminosas e colaboração premiada)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm" },
+    { "titulo": "Planalto — Lei 13.964/2019 (Pacote Anticrime)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13964.htm" },
+    { "titulo": "Migalhas — Colaboração premiada e sua aptidão probatória", "url": "https://www.migalhas.com.br/depeso/341894/colaboracao-premiada-e-sua-aptidao-probatoria" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Confessar o crime, entregar os comparsas e ainda ganhar desconto na pena. Parece injusto, mas é lei. Entenda a delação premiada.",
+      "fundo": "algemas",
+      "fontes": ["Lei 12.850/2013"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DELAÇÃO PREMIADA", "sub": "Como funciona", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "INJUSTO?", "em": "injusto", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "É LEI", "cor": "verde", "em": "lei", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "base",
+      "texto": "Ela está na Lei 12.850, de 2013. O nome técnico é colaboração premiada: o investigado admite sua parte e ajuda a descobrir o resto.",
+      "fundo": "congresso",
+      "fontes": ["Lei 12.850/2013"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "Colaboração premiada", "significado": "Investigado ajuda a Justiça em troca de benefícios", "em": "técnico", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Lei 12.850 · 2013", "icone": "documento", "em": "Lei", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "premio",
+      "texto": "Mito: delatou, está livre. Na verdade, o prêmio varia: perdão judicial, pena reduzida em até dois terços ou troca por pena alternativa.",
+      "fundo": "justica",
+      "fontes": ["Lei 12.850/2013, art. 4º"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "MITO", "cor": "vermelho", "em": "Mito", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Perdão judicial", "icone": "martelo", "em": "perdão", "posicao": "alto2" },
+        { "tipo": "contador", "de": 0, "ate": 66, "unidade": "%", "rotulo": "redução máxima da pena (2/3)", "em": "dois", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "prova",
+      "texto": "Mito: a palavra do delator basta para condenar. Falso. A lei proíbe condenar só com a delação. Precisa de provas que confirmem.",
+      "fundo": "stf",
+      "fontes": ["Lei 12.850/2013, art. 4º, §16"],
+      "elementos": [
+        { "tipo": "check", "ok": false, "texto": "SÓ A PALAVRA DO DELATOR", "nota": "Não basta para condenar", "em": "Mito", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "FALSO", "cor": "vermelho", "em": "Falso", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["balao", "Delação"], ["mais", ""], ["documento", "Provas"]], "em": "Precisa", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "quem-decide",
+      "texto": "Quem negocia é a polícia ou o Ministério Público, sempre com advogado. O juiz só homologa, se for legal e voluntário.",
+      "fundo": "mpf",
+      "fontes": ["Lei 12.850/2013, art. 4º, §§6º e 7º"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUEM DECIDE?", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["alvo", "Polícia / MP"], ["seta", ""], ["martelo", "Juiz homologa"]], "em": "polícia", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Com advogado", "icone": "balanca", "em": "advogado", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "polemica",
+      "texto": "A polêmica: críticos temem que o delator minta para se livrar. Defensores dizem que grandes esquemas dificilmente apareceriam sem ele.",
+      "fundo": "pf",
+      "fontes": ["Migalhas"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "VALE A PENA?", "em": "polêmica", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Crítica: pode mentir", "icone": "alerta", "cor": "vermelho", "em": "críticos", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Defesa: revela esquemas", "icone": "check", "cor": "verde", "em": "Defensores", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumo: delação é ferramenta de investigação, não sentença pronta. Vale premiar quem entrega o esquema? Comenta e segue.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Vale premiar quem delata?", "opcoes": ["1 · Vale", "2 · Não vale"], "em": "Vale", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "segue", "posicao": "meio" }
+      ]
+    }
+  ]
+}

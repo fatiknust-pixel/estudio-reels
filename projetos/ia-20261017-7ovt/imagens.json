@@ -1,0 +1,8 @@
+{
+  "stf": { "wiki": "Supremo Tribunal Federal", "rotulo": "Sede do STF" },
+  "justica": { "commons": "Estátua da Justiça Praça dos Três Poderes Brasília", "rotulo": "A Justiça, Brasília" },
+  "pf": { "wiki": "Polícia Federal (Brasil)", "rotulo": "Polícia Federal" },
+  "mpf": { "wiki": "Ministério Público Federal", "rotulo": "Ministério Público Federal" },
+  "congresso": { "wiki": "Congresso Nacional do Brasil", "rotulo": "Congresso Nacional" },
+  "algemas": { "commons": "handcuffs", "rotulo": "Algemas" }
+}

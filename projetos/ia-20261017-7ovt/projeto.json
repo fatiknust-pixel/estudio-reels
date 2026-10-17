@@ -4,19 +4,19 @@
  "titulo": "Como funciona a delação premiada",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "padrao",
+ "tema": "neon",
  "criadoEm": "2026-10-17T13:26:49.300Z",
- "atualizadoEm": "2026-10-17T13:26:49.304Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-17T13:29:27Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 132,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
-  "palavrasPorTela": 3,
+  "palavrasPorTela": 1,
   "maiusculas": true,
-  "contorno": 10,
+  "contorno": 12,
   "fundo": "nenhum",
   "animacao": "pop",
   "mostrar": true
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "tensao"
  },
  "pedido": {
   "tema": "Como funciona a delação premiada",
@@ -51,11 +52,1105 @@
   "edge": "pt-BR-FranciscaNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Confessar o crime, entregar os comparsas e ainda ganhar desconto na pena. Parece injusto, mas é lei. Entenda a delação premiada.",
+   "fundo": "algemas",
+   "fontes": [
+    "Lei 12.850/2013"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DELAÇÃO PREMIADA",
+     "sub": "Como funciona",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "INJUSTO?",
+     "em": "injusto",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "É LEI",
+     "cor": "verde",
+     "em": "lei",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "base",
+   "texto": "Ela está na Lei 12.850, de 2013. O nome técnico é colaboração premiada: o investigado admite sua parte e ajuda a descobrir o resto.",
+   "fundo": "congresso",
+   "fontes": [
+    "Lei 12.850/2013"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "Colaboração premiada",
+     "significado": "Investigado ajuda a Justiça em troca de benefícios",
+     "em": "técnico",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Lei 12.850 · 2013",
+     "icone": "documento",
+     "em": "Lei",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "premio",
+   "texto": "Mito: delatou, está livre. Na verdade, o prêmio varia: perdão judicial, pena reduzida em até dois terços ou troca por pena alternativa.",
+   "fundo": "justica",
+   "fontes": [
+    "Lei 12.850/2013, art. 4º"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "MITO",
+     "cor": "vermelho",
+     "em": "Mito",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Perdão judicial",
+     "icone": "martelo",
+     "em": "perdão",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 66,
+     "unidade": "%",
+     "rotulo": "redução máxima da pena (2/3)",
+     "em": "dois",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "prova",
+   "texto": "Mito: a palavra do delator basta para condenar. Falso. A lei proíbe condenar só com a delação. Precisa de provas que confirmem.",
+   "fundo": "stf",
+   "fontes": [
+    "Lei 12.850/2013, art. 4º, §16"
+   ],
+   "elementos": [
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "SÓ A PALAVRA DO DELATOR",
+     "nota": "Não basta para condenar",
+     "em": "Mito",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "FALSO",
+     "cor": "vermelho",
+     "em": "Falso",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Delação"
+      ],
+      [
+       "mais",
+       ""
+      ],
+      [
+       "documento",
+       "Provas"
+      ]
+     ],
+     "em": "Precisa",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "quem-decide",
+   "texto": "Quem negocia é a polícia ou o Ministério Público, sempre com advogado. O juiz só homologa, se for legal e voluntário.",
+   "fundo": "mpf",
+   "fontes": [
+    "Lei 12.850/2013, art. 4º, §§6º e 7º"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUEM DECIDE?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "Polícia / MP"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "martelo",
+       "Juiz homologa"
+      ]
+     ],
+     "em": "polícia",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Com advogado",
+     "icone": "balanca",
+     "em": "advogado",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "polemica",
+   "texto": "A polêmica: críticos temem que o delator minta para se livrar. Defensores dizem que grandes esquemas dificilmente apareceriam sem ele.",
+   "fundo": "pf",
+   "fontes": [
+    "Migalhas"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "VALE A PENA?",
+     "em": "polêmica",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Crítica: pode mentir",
+     "icone": "alerta",
+     "cor": "vermelho",
+     "em": "críticos",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Defesa: revela esquemas",
+     "icone": "check",
+     "cor": "verde",
+     "em": "Defensores",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumo: delação é ferramenta de investigação, não sentença pronta. Vale premiar quem entrega o esquema? Comenta e segue.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Vale premiar quem delata?",
+     "opcoes": [
+      "1 · Vale",
+      "2 · Não vale"
+     ],
+     "em": "Vale",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "em": "segue",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "76daef5fa7",
+   "texto": "Confessar o crime, entregar os comparsas e ainda ganhar desconto na pena. Parece injusto, mas é lei. Entenda a delação premiada.",
+   "audio": "audio/gancho-76daef5fa7.mp3",
+   "duracao": 8.568,
+   "palavras": [
+    {
+     "p": "Confessar",
+     "i": 0.098,
+     "f": 0.574
+    },
+    {
+     "p": "o",
+     "i": 0.586,
+     "f": 0.645
+    },
+    {
+     "p": "crime",
+     "i": 0.657,
+     "f": 1.05
+    },
+    {
+     "p": "entregar",
+     "i": 1.205,
+     "f": 1.633
+    },
+    {
+     "p": "os",
+     "i": 1.645,
+     "f": 1.741
+    },
+    {
+     "p": "comparsas",
+     "i": 1.752,
+     "f": 2.348
+    },
+    {
+     "p": "e",
+     "i": 2.36,
+     "f": 2.49
+    },
+    {
+     "p": "ainda",
+     "i": 2.502,
+     "f": 2.812
+    },
+    {
+     "p": "ganhar",
+     "i": 2.824,
+     "f": 3.133
+    },
+    {
+     "p": "desconto",
+     "i": 3.145,
+     "f": 3.633
+    },
+    {
+     "p": "na",
+     "i": 3.645,
+     "f": 3.776
+    },
+    {
+     "p": "pena",
+     "i": 3.788,
+     "f": 4.169
+    },
+    {
+     "p": "Parece",
+     "i": 4.417,
+     "f": 4.81
+    },
+    {
+     "p": "injusto",
+     "i": 4.821,
+     "f": 5.298
+    },
+    {
+     "p": "mas",
+     "i": 5.333,
+     "f": 5.464
+    },
+    {
+     "p": "é",
+     "i": 5.476,
+     "f": 5.619
+    },
+    {
+     "p": "lei",
+     "i": 5.631,
+     "f": 5.952
+    },
+    {
+     "p": "Entenda",
+     "i": 6.202,
+     "f": 6.631
+    },
+    {
+     "p": "a",
+     "i": 6.643,
+     "f": 6.679
+    },
+    {
+     "p": "delação",
+     "i": 6.69,
+     "f": 7.131
+    },
+    {
+     "p": "premiada",
+     "i": 7.143,
+     "f": 7.75
+    }
+   ]
+  },
+  "base": {
+   "hash": "42b79d85e7",
+   "texto": "Ela está na Lei 12.850, de 2013. O nome técnico é colaboração premiada: o investigado admite sua parte e ajuda a descobrir o resto.",
+   "audio": "audio/base-42b79d85e7.mp3",
+   "duracao": 10.584,
+   "palavras": [
+    {
+     "p": "Ela",
+     "i": 0.098,
+     "f": 0.288
+    },
+    {
+     "p": "está",
+     "i": 0.3,
+     "f": 0.538
+    },
+    {
+     "p": "na",
+     "i": 0.55,
+     "f": 0.645
+    },
+    {
+     "p": "Lei",
+     "i": 0.657,
+     "f": 0.883
+    },
+    {
+     "p": "12.850",
+     "i": 0.895,
+     "f": 2.55
+    },
+    {
+     "p": "de",
+     "i": 2.633,
+     "f": 2.74
+    },
+    {
+     "p": "2013",
+     "i": 2.752,
+     "f": 3.621
+    },
+    {
+     "p": "O",
+     "i": 3.869,
+     "f": 3.952
+    },
+    {
+     "p": "nome",
+     "i": 3.964,
+     "f": 4.25
+    },
+    {
+     "p": "técnico",
+     "i": 4.262,
+     "f": 4.774
+    },
+    {
+     "p": "é",
+     "i": 4.786,
+     "f": 4.845
+    },
+    {
+     "p": "colaboração",
+     "i": 4.857,
+     "f": 5.524
+    },
+    {
+     "p": "premiada",
+     "i": 5.536,
+     "f": 6.119
+    },
+    {
+     "p": "o",
+     "i": 6.333,
+     "f": 6.381
+    },
+    {
+     "p": "investigado",
+     "i": 6.393,
+     "f": 7
+    },
+    {
+     "p": "admite",
+     "i": 7.012,
+     "f": 7.44
+    },
+    {
+     "p": "sua",
+     "i": 7.452,
+     "f": 7.655
+    },
+    {
+     "p": "parte",
+     "i": 7.667,
+     "f": 8.107
+    },
+    {
+     "p": "e",
+     "i": 8.143,
+     "f": 8.214
+    },
+    {
+     "p": "ajuda",
+     "i": 8.226,
+     "f": 8.643
+    },
+    {
+     "p": "a",
+     "i": 8.655,
+     "f": 8.702
+    },
+    {
+     "p": "descobrir",
+     "i": 8.714,
+     "f": 9.238
+    },
+    {
+     "p": "o",
+     "i": 9.25,
+     "f": 9.31
+    },
+    {
+     "p": "resto",
+     "i": 9.321,
+     "f": 9.762
+    }
+   ]
+  },
+  "premio": {
+   "hash": "a941ac440c",
+   "texto": "Mito: delatou, está livre. Na verdade, o prêmio varia: perdão judicial, pena reduzida em até dois terços ou troca por pena alternativa.",
+   "audio": "audio/premio-a941ac440c.mp3",
+   "duracao": 9.552,
+   "palavras": [
+    {
+     "p": "Mito",
+     "i": 0.098,
+     "f": 0.514
+    },
+    {
+     "p": "delatou",
+     "i": 0.74,
+     "f": 1.3
+    },
+    {
+     "p": "está",
+     "i": 1.336,
+     "f": 1.55
+    },
+    {
+     "p": "livre",
+     "i": 1.562,
+     "f": 1.99
+    },
+    {
+     "p": "Na",
+     "i": 2.238,
+     "f": 2.393
+    },
+    {
+     "p": "verdade",
+     "i": 2.405,
+     "f": 3
+    },
+    {
+     "p": "o",
+     "i": 3.071,
+     "f": 3.143
+    },
+    {
+     "p": "prêmio",
+     "i": 3.155,
+     "f": 3.452
+    },
+    {
+     "p": "varia",
+     "i": 3.464,
+     "f": 3.857
+    },
+    {
+     "p": "perdão",
+     "i": 4.048,
+     "f": 4.417
+    },
+    {
+     "p": "judicial",
+     "i": 4.429,
+     "f": 5.024
+    },
+    {
+     "p": "pena",
+     "i": 5.226,
+     "f": 5.452
+    },
+    {
+     "p": "reduzida",
+     "i": 5.464,
+     "f": 6.024
+    },
+    {
+     "p": "em",
+     "i": 6.036,
+     "f": 6.131
+    },
+    {
+     "p": "até",
+     "i": 6.143,
+     "f": 6.345
+    },
+    {
+     "p": "dois",
+     "i": 6.357,
+     "f": 6.667
+    },
+    {
+     "p": "terços",
+     "i": 6.679,
+     "f": 7.024
+    },
+    {
+     "p": "ou",
+     "i": 7.036,
+     "f": 7.202
+    },
+    {
+     "p": "troca",
+     "i": 7.214,
+     "f": 7.56
+    },
+    {
+     "p": "por",
+     "i": 7.571,
+     "f": 7.714
+    },
+    {
+     "p": "pena",
+     "i": 7.762,
+     "f": 7.952
+    },
+    {
+     "p": "alternativa",
+     "i": 7.964,
+     "f": 8.738
+    }
+   ]
+  },
+  "prova": {
+   "hash": "2858e1f6d5",
+   "texto": "Mito: a palavra do delator basta para condenar. Falso. A lei proíbe condenar só com a delação. Precisa de provas que confirmem.",
+   "audio": "audio/prova-2858e1f6d5.mp3",
+   "duracao": 9,
+   "palavras": [
+    {
+     "p": "Mito",
+     "i": 0.098,
+     "f": 0.526
+    },
+    {
+     "p": "a",
+     "i": 0.776,
+     "f": 0.848
+    },
+    {
+     "p": "palavra",
+     "i": 0.86,
+     "f": 1.288
+    },
+    {
+     "p": "do",
+     "i": 1.3,
+     "f": 1.395
+    },
+    {
+     "p": "delator",
+     "i": 1.407,
+     "f": 1.836
+    },
+    {
+     "p": "basta",
+     "i": 1.848,
+     "f": 2.252
+    },
+    {
+     "p": "para",
+     "i": 2.264,
+     "f": 2.467
+    },
+    {
+     "p": "condenar",
+     "i": 2.479,
+     "f": 3.038
+    },
+    {
+     "p": "Falso",
+     "i": 3.286,
+     "f": 3.845
+    },
+    {
+     "p": "A",
+     "i": 4.095,
+     "f": 4.179
+    },
+    {
+     "p": "lei",
+     "i": 4.19,
+     "f": 4.381
+    },
+    {
+     "p": "proíbe",
+     "i": 4.393,
+     "f": 4.762
+    },
+    {
+     "p": "condenar",
+     "i": 4.774,
+     "f": 5.274
+    },
+    {
+     "p": "só",
+     "i": 5.286,
+     "f": 5.5
+    },
+    {
+     "p": "com",
+     "i": 5.512,
+     "f": 5.631
+    },
+    {
+     "p": "a",
+     "i": 5.643,
+     "f": 5.691
+    },
+    {
+     "p": "delação",
+     "i": 5.702,
+     "f": 6.25
+    },
+    {
+     "p": "Precisa",
+     "i": 6.5,
+     "f": 6.917
+    },
+    {
+     "p": "de",
+     "i": 6.929,
+     "f": 7.024
+    },
+    {
+     "p": "provas",
+     "i": 7.036,
+     "f": 7.44
+    },
+    {
+     "p": "que",
+     "i": 7.452,
+     "f": 7.559
+    },
+    {
+     "p": "confirmem",
+     "i": 7.571,
+     "f": 8.167
+    }
+   ]
+  },
+  "quem-decide": {
+   "hash": "e347d5b7a6",
+   "texto": "Quem negocia é a polícia ou o Ministério Público, sempre com advogado. O juiz só homologa, se for legal e voluntário.",
+   "audio": "audio/quem-decide-e347d5b7a6.mp3",
+   "duracao": 7.608,
+   "palavras": [
+    {
+     "p": "Quem",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "negocia",
+     "i": 0.252,
+     "f": 0.776
+    },
+    {
+     "p": "é",
+     "i": 0.788,
+     "f": 0.836
+    },
+    {
+     "p": "a",
+     "i": 0.848,
+     "f": 0.895
+    },
+    {
+     "p": "polícia",
+     "i": 0.907,
+     "f": 1.443
+    },
+    {
+     "p": "ou",
+     "i": 1.514,
+     "f": 1.598
+    },
+    {
+     "p": "o",
+     "i": 1.61,
+     "f": 1.633
+    },
+    {
+     "p": "Ministério",
+     "i": 1.645,
+     "f": 2.121
+    },
+    {
+     "p": "Público",
+     "i": 2.133,
+     "f": 2.598
+    },
+    {
+     "p": "sempre",
+     "i": 2.657,
+     "f": 3.05
+    },
+    {
+     "p": "com",
+     "i": 3.062,
+     "f": 3.193
+    },
+    {
+     "p": "advogado",
+     "i": 3.205,
+     "f": 3.919
+    },
+    {
+     "p": "O",
+     "i": 4.167,
+     "f": 4.262
+    },
+    {
+     "p": "juiz",
+     "i": 4.274,
+     "f": 4.595
+    },
+    {
+     "p": "só",
+     "i": 4.607,
+     "f": 4.75
+    },
+    {
+     "p": "homologa",
+     "i": 4.762,
+     "f": 5.31
+    },
+    {
+     "p": "se",
+     "i": 5.345,
+     "f": 5.488
+    },
+    {
+     "p": "for",
+     "i": 5.5,
+     "f": 5.655
+    },
+    {
+     "p": "legal",
+     "i": 5.667,
+     "f": 6.083
+    },
+    {
+     "p": "e",
+     "i": 6.095,
+     "f": 6.143
+    },
+    {
+     "p": "voluntário",
+     "i": 6.155,
+     "f": 6.786
+    }
+   ]
+  },
+  "polemica": {
+   "hash": "16c2324a8f",
+   "texto": "A polêmica: críticos temem que o delator minta para se livrar. Defensores dizem que grandes esquemas dificilmente apareceriam sem ele.",
+   "audio": "audio/polemica-16c2324a8f.mp3",
+   "duracao": 8.544,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.098,
+     "f": 0.193
+    },
+    {
+     "p": "polêmica",
+     "i": 0.205,
+     "f": 0.812
+    },
+    {
+     "p": "críticos",
+     "i": 1.038,
+     "f": 1.49
+    },
+    {
+     "p": "temem",
+     "i": 1.502,
+     "f": 1.836
+    },
+    {
+     "p": "que",
+     "i": 1.848,
+     "f": 1.931
+    },
+    {
+     "p": "o",
+     "i": 1.943,
+     "f": 1.979
+    },
+    {
+     "p": "delator",
+     "i": 1.99,
+     "f": 2.455
+    },
+    {
+     "p": "minta",
+     "i": 2.467,
+     "f": 2.788
+    },
+    {
+     "p": "para",
+     "i": 2.8,
+     "f": 2.979
+    },
+    {
+     "p": "se",
+     "i": 2.99,
+     "f": 3.109
+    },
+    {
+     "p": "livrar",
+     "i": 3.121,
+     "f": 3.538
+    },
+    {
+     "p": "Defensores",
+     "i": 3.786,
+     "f": 4.524
+    },
+    {
+     "p": "dizem",
+     "i": 4.536,
+     "f": 4.869
+    },
+    {
+     "p": "que",
+     "i": 4.881,
+     "f": 4.976
+    },
+    {
+     "p": "grandes",
+     "i": 4.988,
+     "f": 5.333
+    },
+    {
+     "p": "esquemas",
+     "i": 5.345,
+     "f": 5.857
+    },
+    {
+     "p": "dificilmente",
+     "i": 5.869,
+     "f": 6.559
+    },
+    {
+     "p": "apareceriam",
+     "i": 6.571,
+     "f": 7.179
+    },
+    {
+     "p": "sem",
+     "i": 7.19,
+     "f": 7.429
+    },
+    {
+     "p": "ele",
+     "i": 7.44,
+     "f": 7.702
+    }
+   ]
+  },
+  "final": {
+   "hash": "45f8de54be",
+   "texto": "Resumo: delação é ferramenta de investigação, não sentença pronta. Vale premiar quem entrega o esquema? Comenta e segue.",
+   "audio": "audio/final-45f8de54be.mp3",
+   "duracao": 8.328,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.621
+    },
+    {
+     "p": "delação",
+     "i": 0.883,
+     "f": 1.336
+    },
+    {
+     "p": "é",
+     "i": 1.348,
+     "f": 1.371
+    },
+    {
+     "p": "ferramenta",
+     "i": 1.383,
+     "f": 1.931
+    },
+    {
+     "p": "de",
+     "i": 1.943,
+     "f": 2.026
+    },
+    {
+     "p": "investigação",
+     "i": 2.038,
+     "f": 2.8
+    },
+    {
+     "p": "não",
+     "i": 2.99,
+     "f": 3.157
+    },
+    {
+     "p": "sentença",
+     "i": 3.169,
+     "f": 3.645
+    },
+    {
+     "p": "pronta",
+     "i": 3.657,
+     "f": 4.11
+    },
+    {
+     "p": "Vale",
+     "i": 4.357,
+     "f": 4.643
+    },
+    {
+     "p": "premiar",
+     "i": 4.655,
+     "f": 5.095
+    },
+    {
+     "p": "quem",
+     "i": 5.131,
+     "f": 5.333
+    },
+    {
+     "p": "entrega",
+     "i": 5.345,
+     "f": 5.762
+    },
+    {
+     "p": "o",
+     "i": 5.774,
+     "f": 5.809
+    },
+    {
+     "p": "esquema",
+     "i": 5.821,
+     "f": 6.333
+    },
+    {
+     "p": "Comenta",
+     "i": 6.583,
+     "f": 6.976
+    },
+    {
+     "p": "e",
+     "i": 6.988,
+     "f": 7.036
+    },
+    {
+     "p": "segue",
+     "i": 7.048,
+     "f": 7.5
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "stf": {
+   "arquivo": "imagens/stf-574400d6.jpg",
+   "rotulo": "Sede do STF",
+   "wiki": "Supremo Tribunal Federal",
+   "autor": "Leandro Ciuffo",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Supremo_Brasil.jpg",
+   "titulo": "File:Supremo Brasil.jpg"
+  },
+  "justica": {
+   "arquivo": "imagens/justica-442c9d04.jpg",
+   "rotulo": "A Justiça, Brasília",
+   "commons": "Estátua da Justiça Praça dos Três Poderes Brasília",
+   "autor": "Agência Senado from Brasilia, Brazil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_dos_Tr%C3%AAs_Poderes_(54139678677).jpg",
+   "titulo": "File:Praça dos Três Poderes (54139678677).jpg"
+  },
+  "pf": {
+   "arquivo": "",
+   "rotulo": "Polícia Federal",
+   "wiki": "Polícia Federal (Brasil)"
+  },
+  "mpf": {
+   "arquivo": "imagens/mpf-7f772440.jpg",
+   "rotulo": "Ministério Público Federal",
+   "wiki": "Ministério Público Federal",
+   "autor": "Ministério Público Federal",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Logo_MPF.png",
+   "titulo": "File:Logo MPF.png"
+  },
+  "congresso": {
+   "arquivo": "",
+   "rotulo": "Congresso Nacional",
+   "wiki": "Congresso Nacional do Brasil"
+  },
+  "algemas": {
+   "arquivo": "imagens/algemas-e27c616f.jpg",
+   "rotulo": "Algemas",
+   "commons": "handcuffs",
+   "autor": "Olek Remesz (wiki-pl: Orem, commons: Orem)",
+   "licenca": "GFDL 1.2",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Police_handcuffs_alt.jpg",
+   "titulo": "File:Police handcuffs alt.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-17T13:26:49.300Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Planalto — Lei 12.850/2013 (organizações criminosas e colaboração premiada)",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+  },
+  {
+   "titulo": "Planalto — Lei 13.964/2019 (Pacote Anticrime)",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13964.htm"
+  },
+  {
+   "titulo": "Migalhas — Colaboração premiada e sua aptidão probatória",
+   "url": "https://www.migalhas.com.br/depeso/341894/colaboracao-premiada-e-sua-aptidao-probatoria"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "glitch",
+  "legenda": "palavra",
+  "transicao": "deslize",
+  "fundo": "pontos",
+  "formato": "mito-verdade"
  }
 }
