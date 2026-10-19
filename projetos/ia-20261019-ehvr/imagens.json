@@ -1,0 +1,5 @@
+{
+  "anthropic": { "wiki": "Anthropic", "rotulo": "Anthropic" },
+  "openai": { "wiki": "OpenAI", "rotulo": "OpenAI" },
+  "google": { "wiki": "Google DeepMind", "rotulo": "Google DeepMind" }
+}

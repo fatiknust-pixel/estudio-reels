@@ -1,0 +1,138 @@
+{
+  "titulo": "Aula 2.2: 5 técnicas clássicas de prompt",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "lista", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Anthropic — Prompting best practices", "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices" },
+    { "titulo": "OpenAI — Prompt engineering", "url": "https://developers.openai.com/api/docs/guides/prompt-engineering" },
+    { "titulo": "Google — Gemini API: prompt design strategies", "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Sua IA responde torto, mesmo com o pedido certo? Talvez falte técnica. Hoje: cinco truques dos guias oficiais da Anthropic, da OpenAI e do Google.",
+      "fontes": ["Anthropic", "OpenAI", "Google"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "RESPOSTA TORTA?", "em": "torto", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "FALTA TÉCNICA", "cor": "vermelho", "em": "técnica", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 5, "unidade": "TRUQUES", "em": "cinco", "posicao": "alto2" },
+        { "tipo": "pessoa", "imagem": "anthropic", "nome": "Anthropic", "cargo": "Guia oficial", "em": "Anthropic", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Aula 2.2. Você vai conhecer cinco técnicas clássicas de prompt, ver cada uma em um exemplo curto e descobrir o erro mais comum.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5 TÉCNICAS DE PROMPT", "sub": "AULA 2.2", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "5 técnicas"], ["alvo", "Exemplos"], ["alerta", "Erro comum"]], "em": "cinco", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Exemplo curto de cada", "icone": "check", "cor": "verde", "em": "exemplo", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Prompt é o texto que você manda para a IA. Técnica de prompt é um jeito de organizar esse texto, como o método de uma receita.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE É PROMPT?", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Prompt", "significado": "O texto que você envia para a IA", "em": "Prompt", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["documento", "Prompt"], ["seta", ""], ["check", "Resposta"]], "em": "organizar", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Técnica = método", "icone": "alvo", "em": "receita", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "exemplos",
+      "texto": "Um: dê exemplos. Em inglês, few-shot, ou poucos exemplos. Mostre pares de entrada e saída, e a IA copia o padrão. A Anthropic recomenda de três a cinco.",
+      "fontes": ["Anthropic — Prompting best practices", "Google — Gemini API"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1. DÊ EXEMPLOS", "sub": "Few-shot", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "\"Amei!\" → Positivo | \"Demorou\" → Negativo | \"Chegou hoje\" → ?", "em": "pares", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "3 A 5", "cor": "verde", "em": "três", "posicao": "meio" },
+        { "tipo": "tag", "texto": "A IA copia o padrão", "icone": "alvo", "em": "copia", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "tags-xml",
+      "texto": "Dois: separe os dados com tags XML, marcadores entre sinais de menor e maior. Eles mostram onde termina a instrução e começa o texto.",
+      "fontes": ["Anthropic — Prompting best practices", "OpenAI — Prompt engineering"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2. SEPARE COM TAGS", "sub": "XML", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Tag XML", "significado": "Marcador que abre e fecha um trecho", "em": "tags", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Resuma: <texto> ...seu texto... </texto>", "em": "marcadores", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "INSTRUÇÃO ≠ DADOS", "cor": "azul", "em": "instrução", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "papel",
+      "texto": "Três: defina um papel. Uma frase no começo já muda o tom e o foco. Por exemplo: você é um editor de revista, direto e atento a erros.",
+      "fontes": ["Anthropic — Prompting best practices", "OpenAI — Prompt engineering"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3. DEFINA UM PAPEL", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Você é um editor de revista, direto e atento a erros.", "em": "exemplo", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Muda tom e foco", "icone": "balao", "em": "tom", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pensar",
+      "texto": "Quatro: peça para pensar antes de responder. Em contas e lógica, peça o passo a passo e a resposta final separada. Modelos novos de raciocínio já fazem isso sozinhos.",
+      "fontes": ["Anthropic — Prompting best practices", "OpenAI — Prompt engineering"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "4. PENSE ANTES", "sub": "Passo a passo", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Pense passo a passo e dê a resposta final em <resposta>.", "em": "passo", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Contas e lógica", "icone": "alvo", "em": "lógica", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "JÁ VEM EMBUTIDO", "cor": "amarelo", "em": "raciocínio", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "encadear",
+      "texto": "Cinco: encadeie prompts. Quebre a tarefa em etapas, e a resposta de uma vira a entrada da próxima. Primeiro o roteiro, depois os títulos.",
+      "fontes": ["Google — Gemini API", "Anthropic — Prompting best practices"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5. ENCADEIE", "sub": "Etapa por etapa", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "Roteiro"], ["seta", ""], ["balao", "Títulos"]], "em": "roteiro", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Saída 1 = entrada 2", "icone": "seta", "em": "entrada", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: dar exemplos demais ou todos iguais. A IA passa a decorar o padrão. O Google avisa sobre esse excesso.",
+      "fontes": ["Google — Gemini API"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Exemplos demais ou iguais", "nota": "A IA decora o padrão", "em": "demais", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Poucos e variados", "nota": "Ela aprende a ideia", "em": "decorar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause e tente: peça uma legenda de Instagram, com um papel e dois exemplos seus.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "PAPEL + 2 EXEMPLOS", "em": "papel", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["balao", "Papel"], ["mais", ""], ["documento", "2 exemplos"]], "em": "dois", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: exemplos mostram o padrão, tags separam os dados e etapas dividem o trabalho.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["alvo", "Exemplos"], ["documento", "Tags"], ["seta", "Etapas"]], "em": "exemplos", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Papel + pensar antes", "icone": "check", "cor": "verde", "em": "dividem", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: qual técnica evita a IA confundir instrução com texto? Um, tags XML. Dois, encadear. A certa é tags XML, porque separam instrução e dados. Siga e veja a aula 2.3.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Qual separa instrução e dados?", "opcoes": ["1 · Tags XML", "2 · Encadear"], "em": 0, "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "TAGS XML", "cor": "verde", "em": "certa", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 2.3", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

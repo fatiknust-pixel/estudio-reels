@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-ehvr",
- "titulo": "Aula 2.2: As 5 técnicas clássicas de prompt — ensine com exemplo curto",
+ "titulo": "Aula 2.2: 5 técnicas clássicas de prompt",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.940Z",
- "atualizadoEm": "2026-10-19T22:26:17.940Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:36:38Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 2.2: As 5 técnicas clássicas de prompt — ensine com exemplo curto cada uma: dar exemplos (few-shot), separar dados com tags XML, definir um papel, pedir para pensar antes de responder e encadear prompts em etapas, segundo os guias oficiais da Anthropic, OpenAI e Google",
@@ -62,11 +63,2038 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Sua IA responde torto, mesmo com o pedido certo? Talvez falte técnica. Hoje: cinco truques dos guias oficiais da Anthropic, da OpenAI e do Google.",
+   "fontes": [
+    "Anthropic",
+    "OpenAI",
+    "Google"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "RESPOSTA TORTA?",
+     "em": "torto",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "FALTA TÉCNICA",
+     "cor": "vermelho",
+     "em": "técnica",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 5,
+     "unidade": "TRUQUES",
+     "em": "cinco",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "anthropic",
+     "nome": "Anthropic",
+     "cargo": "Guia oficial",
+     "em": "Anthropic",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 2.2. Você vai conhecer cinco técnicas clássicas de prompt, ver cada uma em um exemplo curto e descobrir o erro mais comum.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5 TÉCNICAS DE PROMPT",
+     "sub": "AULA 2.2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "5 técnicas"
+      ],
+      [
+       "alvo",
+       "Exemplos"
+      ],
+      [
+       "alerta",
+       "Erro comum"
+      ]
+     ],
+     "em": "cinco",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Exemplo curto de cada",
+     "icone": "check",
+     "cor": "verde",
+     "em": "exemplo",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Prompt é o texto que você manda para a IA. Técnica de prompt é um jeito de organizar esse texto, como o método de uma receita.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE É PROMPT?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Prompt",
+     "significado": "O texto que você envia para a IA",
+     "em": "Prompt",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Prompt"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "Resposta"
+      ]
+     ],
+     "em": "organizar",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Técnica = método",
+     "icone": "alvo",
+     "em": "receita",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "exemplos",
+   "texto": "Um: dê exemplos. Em inglês, few-shot, ou poucos exemplos. Mostre pares de entrada e saída, e a IA copia o padrão. A Anthropic recomenda de três a cinco.",
+   "fontes": [
+    "Anthropic — Prompting best practices",
+    "Google — Gemini API"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1. DÊ EXEMPLOS",
+     "sub": "Few-shot",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "\"Amei!\" → Positivo | \"Demorou\" → Negativo | \"Chegou hoje\" → ?",
+     "em": "pares",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "3 A 5",
+     "cor": "verde",
+     "em": "três",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "A IA copia o padrão",
+     "icone": "alvo",
+     "em": "copia",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "tags-xml",
+   "texto": "Dois: separe os dados com tags XML, marcadores entre sinais de menor e maior. Eles mostram onde termina a instrução e começa o texto.",
+   "fontes": [
+    "Anthropic — Prompting best practices",
+    "OpenAI — Prompt engineering"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2. SEPARE COM TAGS",
+     "sub": "XML",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Tag XML",
+     "significado": "Marcador que abre e fecha um trecho",
+     "em": "tags",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Resuma: <texto> ...seu texto... </texto>",
+     "em": "marcadores",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "INSTRUÇÃO ≠ DADOS",
+     "cor": "azul",
+     "em": "instrução",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "papel",
+   "texto": "Três: defina um papel. Uma frase no começo já muda o tom e o foco. Por exemplo: você é um editor de revista, direto e atento a erros.",
+   "fontes": [
+    "Anthropic — Prompting best practices",
+    "OpenAI — Prompt engineering"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3. DEFINA UM PAPEL",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Você é um editor de revista, direto e atento a erros.",
+     "em": "exemplo",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Muda tom e foco",
+     "icone": "balao",
+     "em": "tom",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pensar",
+   "texto": "Quatro: peça para pensar antes de responder. Em contas e lógica, peça o passo a passo e a resposta final separada. Modelos novos de raciocínio já fazem isso sozinhos.",
+   "fontes": [
+    "Anthropic — Prompting best practices",
+    "OpenAI — Prompt engineering"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "4. PENSE ANTES",
+     "sub": "Passo a passo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Pense passo a passo e dê a resposta final em <resposta>.",
+     "em": "passo",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Contas e lógica",
+     "icone": "alvo",
+     "em": "lógica",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "JÁ VEM EMBUTIDO",
+     "cor": "amarelo",
+     "em": "raciocínio",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "encadear",
+   "texto": "Cinco: encadeie prompts. Quebre a tarefa em etapas, e a resposta de uma vira a entrada da próxima. Primeiro o roteiro, depois os títulos.",
+   "fontes": [
+    "Google — Gemini API",
+    "Anthropic — Prompting best practices"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5. ENCADEIE",
+     "sub": "Etapa por etapa",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Roteiro"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balao",
+       "Títulos"
+      ]
+     ],
+     "em": "roteiro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Saída 1 = entrada 2",
+     "icone": "seta",
+     "em": "entrada",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: dar exemplos demais ou todos iguais. A IA passa a decorar o padrão. O Google avisa sobre esse excesso.",
+   "fontes": [
+    "Google — Gemini API"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Exemplos demais ou iguais",
+     "nota": "A IA decora o padrão",
+     "em": "demais",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Poucos e variados",
+     "nota": "Ela aprende a ideia",
+     "em": "decorar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause e tente: peça uma legenda de Instagram, com um papel e dois exemplos seus.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "PAPEL + 2 EXEMPLOS",
+     "em": "papel",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Papel"
+      ],
+      [
+       "mais",
+       ""
+      ],
+      [
+       "documento",
+       "2 exemplos"
+      ]
+     ],
+     "em": "dois",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: exemplos mostram o padrão, tags separam os dados e etapas dividem o trabalho.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "Exemplos"
+      ],
+      [
+       "documento",
+       "Tags"
+      ],
+      [
+       "seta",
+       "Etapas"
+      ]
+     ],
+     "em": "exemplos",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Papel + pensar antes",
+     "icone": "check",
+     "cor": "verde",
+     "em": "dividem",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: qual técnica evita a IA confundir instrução com texto? Um, tags XML. Dois, encadear. A certa é tags XML, porque separam instrução e dados. Siga e veja a aula 2.3.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Qual separa instrução e dados?",
+     "opcoes": [
+      "1 · Tags XML",
+      "2 · Encadear"
+     ],
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "TAGS XML",
+     "cor": "verde",
+     "em": "certa",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 2.3",
+     "em": "Siga",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "b546fb6c73",
+   "texto": "Sua IA responde torto, mesmo com o pedido certo? Talvez falte técnica. Hoje: cinco truques dos guias oficiais da Anthropic, da OpenAI e do Google.",
+   "audio": "audio/gancho-b546fb6c73.mp3",
+   "duracao": 12.36,
+   "palavras": [
+    {
+     "p": "Sua",
+     "i": 0.098,
+     "f": 0.3
+    },
+    {
+     "p": "IA",
+     "i": 0.312,
+     "f": 1.467
+    },
+    {
+     "p": "responde",
+     "i": 1.479,
+     "f": 1.99
+    },
+    {
+     "p": "torto",
+     "i": 2.002,
+     "f": 2.359
+    },
+    {
+     "p": "mesmo",
+     "i": 2.61,
+     "f": 2.979
+    },
+    {
+     "p": "com",
+     "i": 2.99,
+     "f": 3.133
+    },
+    {
+     "p": "o",
+     "i": 3.145,
+     "f": 3.193
+    },
+    {
+     "p": "pedido",
+     "i": 3.205,
+     "f": 3.562
+    },
+    {
+     "p": "certo",
+     "i": 3.574,
+     "f": 3.979
+    },
+    {
+     "p": "Talvez",
+     "i": 4.798,
+     "f": 5.25
+    },
+    {
+     "p": "falte",
+     "i": 5.262,
+     "f": 5.607
+    },
+    {
+     "p": "técnica",
+     "i": 5.619,
+     "f": 6.107
+    },
+    {
+     "p": "Hoje",
+     "i": 6.929,
+     "f": 7.286
+    },
+    {
+     "p": "cinco",
+     "i": 7.548,
+     "f": 7.929
+    },
+    {
+     "p": "truques",
+     "i": 7.94,
+     "f": 8.202
+    },
+    {
+     "p": "dos",
+     "i": 8.214,
+     "f": 8.393
+    },
+    {
+     "p": "guias",
+     "i": 8.405,
+     "f": 8.643
+    },
+    {
+     "p": "oficiais",
+     "i": 8.655,
+     "f": 9.226
+    },
+    {
+     "p": "da",
+     "i": 9.238,
+     "f": 9.321
+    },
+    {
+     "p": "Anthropic",
+     "i": 9.333,
+     "f": 9.869
+    },
+    {
+     "p": "da",
+     "i": 10.095,
+     "f": 10.274
+    },
+    {
+     "p": "OpenAI",
+     "i": 10.286,
+     "f": 10.905
+    },
+    {
+     "p": "e",
+     "i": 10.917,
+     "f": 10.976
+    },
+    {
+     "p": "do",
+     "i": 10.988,
+     "f": 11.095
+    },
+    {
+     "p": "Google",
+     "i": 11.107,
+     "f": 11.524
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "9250fdc991",
+   "texto": "Aula 2.2. Você vai conhecer cinco técnicas clássicas de prompt, ver cada uma em um exemplo curto e descobrir o erro mais comum.",
+   "audio": "audio/promessa-9250fdc991.mp3",
+   "duracao": 9.528,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "2.2",
+     "i": 0.443,
+     "f": 1.538
+    },
+    {
+     "p": "Você",
+     "i": 2.357,
+     "f": 2.69
+    },
+    {
+     "p": "vai",
+     "i": 2.702,
+     "f": 2.833
+    },
+    {
+     "p": "conhecer",
+     "i": 2.845,
+     "f": 3.286
+    },
+    {
+     "p": "cinco",
+     "i": 3.298,
+     "f": 3.667
+    },
+    {
+     "p": "técnicas",
+     "i": 3.679,
+     "f": 4.179
+    },
+    {
+     "p": "clássicas",
+     "i": 4.19,
+     "f": 4.667
+    },
+    {
+     "p": "de",
+     "i": 4.679,
+     "f": 4.774
+    },
+    {
+     "p": "prompt",
+     "i": 4.786,
+     "f": 5.214
+    },
+    {
+     "p": "ver",
+     "i": 5.512,
+     "f": 5.702
+    },
+    {
+     "p": "cada",
+     "i": 5.714,
+     "f": 5.964
+    },
+    {
+     "p": "uma",
+     "i": 5.976,
+     "f": 6.143
+    },
+    {
+     "p": "em",
+     "i": 6.155,
+     "f": 6.202
+    },
+    {
+     "p": "um",
+     "i": 6.214,
+     "f": 6.333
+    },
+    {
+     "p": "exemplo",
+     "i": 6.345,
+     "f": 6.762
+    },
+    {
+     "p": "curto",
+     "i": 6.774,
+     "f": 7.095
+    },
+    {
+     "p": "e",
+     "i": 7.107,
+     "f": 7.143
+    },
+    {
+     "p": "descobrir",
+     "i": 7.155,
+     "f": 7.667
+    },
+    {
+     "p": "o",
+     "i": 7.679,
+     "f": 7.786
+    },
+    {
+     "p": "erro",
+     "i": 7.798,
+     "f": 8
+    },
+    {
+     "p": "mais",
+     "i": 8.012,
+     "f": 8.298
+    },
+    {
+     "p": "comum",
+     "i": 8.31,
+     "f": 8.69
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "34d1699197",
+   "texto": "Prompt é o texto que você manda para a IA. Técnica de prompt é um jeito de organizar esse texto, como o método de uma receita.",
+   "audio": "audio/conceito-34d1699197.mp3",
+   "duracao": 9.168,
+   "palavras": [
+    {
+     "p": "Prompt",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "é",
+     "i": 0.502,
+     "f": 0.538
+    },
+    {
+     "p": "o",
+     "i": 0.55,
+     "f": 0.61
+    },
+    {
+     "p": "texto",
+     "i": 0.621,
+     "f": 0.99
+    },
+    {
+     "p": "que",
+     "i": 1.002,
+     "f": 1.086
+    },
+    {
+     "p": "você",
+     "i": 1.098,
+     "f": 1.348
+    },
+    {
+     "p": "manda",
+     "i": 1.36,
+     "f": 1.705
+    },
+    {
+     "p": "para",
+     "i": 1.717,
+     "f": 1.871
+    },
+    {
+     "p": "a",
+     "i": 1.883,
+     "f": 1.895
+    },
+    {
+     "p": "IA",
+     "i": 1.907,
+     "f": 3.181
+    },
+    {
+     "p": "Técnica",
+     "i": 4,
+     "f": 4.417
+    },
+    {
+     "p": "de",
+     "i": 4.429,
+     "f": 4.536
+    },
+    {
+     "p": "prompt",
+     "i": 4.548,
+     "f": 4.929
+    },
+    {
+     "p": "é",
+     "i": 4.94,
+     "f": 4.952
+    },
+    {
+     "p": "um",
+     "i": 4.964,
+     "f": 5.048
+    },
+    {
+     "p": "jeito",
+     "i": 5.06,
+     "f": 5.357
+    },
+    {
+     "p": "de",
+     "i": 5.369,
+     "f": 5.452
+    },
+    {
+     "p": "organizar",
+     "i": 5.464,
+     "f": 5.952
+    },
+    {
+     "p": "esse",
+     "i": 5.964,
+     "f": 6.155
+    },
+    {
+     "p": "texto",
+     "i": 6.167,
+     "f": 6.56
+    },
+    {
+     "p": "como",
+     "i": 6.857,
+     "f": 7.059
+    },
+    {
+     "p": "o",
+     "i": 7.071,
+     "f": 7.107
+    },
+    {
+     "p": "método",
+     "i": 7.119,
+     "f": 7.548
+    },
+    {
+     "p": "de",
+     "i": 7.56,
+     "f": 7.655
+    },
+    {
+     "p": "uma",
+     "i": 7.667,
+     "f": 7.81
+    },
+    {
+     "p": "receita",
+     "i": 7.821,
+     "f": 8.333
+    }
+   ]
+  },
+  "exemplos": {
+   "hash": "fd848f050b",
+   "texto": "Um: dê exemplos. Em inglês, few-shot, ou poucos exemplos. Mostre pares de entrada e saída, e a IA copia o padrão. A Anthropic recomenda de três a cinco.",
+   "audio": "audio/exemplos-fd848f050b.mp3",
+   "duracao": 14.16,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.36
+    },
+    {
+     "p": "dê",
+     "i": 0.621,
+     "f": 0.836
+    },
+    {
+     "p": "exemplos",
+     "i": 0.848,
+     "f": 1.514
+    },
+    {
+     "p": "Em",
+     "i": 2.333,
+     "f": 2.5
+    },
+    {
+     "p": "inglês",
+     "i": 2.512,
+     "f": 3
+    },
+    {
+     "p": "few-shot",
+     "i": 3.25,
+     "f": 3.964
+    },
+    {
+     "p": "ou",
+     "i": 4.19,
+     "f": 4.345
+    },
+    {
+     "p": "poucos",
+     "i": 4.357,
+     "f": 4.69
+    },
+    {
+     "p": "exemplos",
+     "i": 4.702,
+     "f": 5.345
+    },
+    {
+     "p": "Mostre",
+     "i": 6.167,
+     "f": 6.607
+    },
+    {
+     "p": "pares",
+     "i": 6.619,
+     "f": 6.929
+    },
+    {
+     "p": "de",
+     "i": 6.94,
+     "f": 7
+    },
+    {
+     "p": "entrada",
+     "i": 7.012,
+     "f": 7.381
+    },
+    {
+     "p": "e",
+     "i": 7.393,
+     "f": 7.441
+    },
+    {
+     "p": "saída",
+     "i": 7.452,
+     "f": 7.94
+    },
+    {
+     "p": "e",
+     "i": 8.143,
+     "f": 8.214
+    },
+    {
+     "p": "a",
+     "i": 8.226,
+     "f": 8.274
+    },
+    {
+     "p": "IA",
+     "i": 8.286,
+     "f": 9.512
+    },
+    {
+     "p": "copia",
+     "i": 9.524,
+     "f": 9.857
+    },
+    {
+     "p": "o",
+     "i": 9.869,
+     "f": 9.905
+    },
+    {
+     "p": "padrão",
+     "i": 9.917,
+     "f": 10.345
+    },
+    {
+     "p": "A",
+     "i": 11.167,
+     "f": 11.25
+    },
+    {
+     "p": "Anthropic",
+     "i": 11.262,
+     "f": 11.786
+    },
+    {
+     "p": "recomenda",
+     "i": 11.798,
+     "f": 12.369
+    },
+    {
+     "p": "de",
+     "i": 12.381,
+     "f": 12.512
+    },
+    {
+     "p": "três",
+     "i": 12.524,
+     "f": 12.774
+    },
+    {
+     "p": "a",
+     "i": 12.786,
+     "f": 12.893
+    },
+    {
+     "p": "cinco",
+     "i": 12.905,
+     "f": 13.321
+    }
+   ]
+  },
+  "tags-xml": {
+   "hash": "922de4b7b9",
+   "texto": "Dois: separe os dados com tags XML, marcadores entre sinais de menor e maior. Eles mostram onde termina a instrução e começa o texto.",
+   "audio": "audio/tags-xml-922de4b7b9.mp3",
+   "duracao": 9.696,
+   "palavras": [
+    {
+     "p": "Dois",
+     "i": 0.098,
+     "f": 0.55
+    },
+    {
+     "p": "separe",
+     "i": 0.824,
+     "f": 1.193
+    },
+    {
+     "p": "os",
+     "i": 1.205,
+     "f": 1.276
+    },
+    {
+     "p": "dados",
+     "i": 1.288,
+     "f": 1.645
+    },
+    {
+     "p": "com",
+     "i": 1.657,
+     "f": 1.824
+    },
+    {
+     "p": "tags",
+     "i": 1.836,
+     "f": 2.121
+    },
+    {
+     "p": "XML",
+     "i": 2.133,
+     "f": 2.812
+    },
+    {
+     "p": "marcadores",
+     "i": 3.074,
+     "f": 3.657
+    },
+    {
+     "p": "entre",
+     "i": 3.669,
+     "f": 3.919
+    },
+    {
+     "p": "sinais",
+     "i": 3.931,
+     "f": 4.336
+    },
+    {
+     "p": "de",
+     "i": 4.348,
+     "f": 4.431
+    },
+    {
+     "p": "menor",
+     "i": 4.443,
+     "f": 4.764
+    },
+    {
+     "p": "e",
+     "i": 4.776,
+     "f": 4.824
+    },
+    {
+     "p": "maior",
+     "i": 4.836,
+     "f": 5.205
+    },
+    {
+     "p": "Eles",
+     "i": 6.024,
+     "f": 6.274
+    },
+    {
+     "p": "mostram",
+     "i": 6.286,
+     "f": 6.714
+    },
+    {
+     "p": "onde",
+     "i": 6.726,
+     "f": 6.917
+    },
+    {
+     "p": "termina",
+     "i": 6.929,
+     "f": 7.31
+    },
+    {
+     "p": "a",
+     "i": 7.321,
+     "f": 7.345
+    },
+    {
+     "p": "instrução",
+     "i": 7.357,
+     "f": 7.917
+    },
+    {
+     "p": "e",
+     "i": 7.929,
+     "f": 8
+    },
+    {
+     "p": "começa",
+     "i": 8.012,
+     "f": 8.417
+    },
+    {
+     "p": "o",
+     "i": 8.429,
+     "f": 8.464
+    },
+    {
+     "p": "texto",
+     "i": 8.476,
+     "f": 8.869
+    }
+   ]
+  },
+  "papel": {
+   "hash": "42c9ccf251",
+   "texto": "Três: defina um papel. Uma frase no começo já muda o tom e o foco. Por exemplo: você é um editor de revista, direto e atento a erros.",
+   "audio": "audio/papel-42c9ccf251.mp3",
+   "duracao": 11.016,
+   "palavras": [
+    {
+     "p": "Três",
+     "i": 0.098,
+     "f": 0.514
+    },
+    {
+     "p": "defina",
+     "i": 0.705,
+     "f": 1.121
+    },
+    {
+     "p": "um",
+     "i": 1.133,
+     "f": 1.217
+    },
+    {
+     "p": "papel.",
+     "i": 1.229,
+     "f": 1.633
+    },
+    {
+     "p": "Uma",
+     "i": 2.452,
+     "f": 2.702
+    },
+    {
+     "p": "frase",
+     "i": 2.714,
+     "f": 3.107
+    },
+    {
+     "p": "no",
+     "i": 3.119,
+     "f": 3.202
+    },
+    {
+     "p": "começo",
+     "i": 3.214,
+     "f": 3.667
+    },
+    {
+     "p": "já",
+     "i": 3.679,
+     "f": 3.821
+    },
+    {
+     "p": "muda",
+     "i": 3.833,
+     "f": 4.131
+    },
+    {
+     "p": "o",
+     "i": 4.143,
+     "f": 4.214
+    },
+    {
+     "p": "tom",
+     "i": 4.226,
+     "f": 4.488
+    },
+    {
+     "p": "e",
+     "i": 4.5,
+     "f": 4.56
+    },
+    {
+     "p": "o",
+     "i": 4.571,
+     "f": 4.619
+    },
+    {
+     "p": "foco",
+     "i": 4.631,
+     "f": 5.048
+    },
+    {
+     "p": "Por",
+     "i": 5.869,
+     "f": 6
+    },
+    {
+     "p": "exemplo",
+     "i": 6.012,
+     "f": 6.429
+    },
+    {
+     "p": "você",
+     "i": 6.798,
+     "f": 7.131
+    },
+    {
+     "p": "é",
+     "i": 7.143,
+     "f": 7.226
+    },
+    {
+     "p": "um",
+     "i": 7.238,
+     "f": 7.381
+    },
+    {
+     "p": "editor",
+     "i": 7.393,
+     "f": 7.81
+    },
+    {
+     "p": "de",
+     "i": 7.821,
+     "f": 7.905
+    },
+    {
+     "p": "revista",
+     "i": 7.917,
+     "f": 8.44
+    },
+    {
+     "p": "direto",
+     "i": 8.702,
+     "f": 9.179
+    },
+    {
+     "p": "e",
+     "i": 9.19,
+     "f": 9.262
+    },
+    {
+     "p": "atento",
+     "i": 9.274,
+     "f": 9.655
+    },
+    {
+     "p": "a",
+     "i": 9.667,
+     "f": 9.774
+    },
+    {
+     "p": "erros",
+     "i": 9.786,
+     "f": 10.19
+    }
+   ]
+  },
+  "pensar": {
+   "hash": "cb3efab3b9",
+   "texto": "Quatro: peça para pensar antes de responder. Em contas e lógica, peça o passo a passo e a resposta final separada. Modelos novos de raciocínio já fazem isso sozinhos.",
+   "audio": "audio/pensar-cb3efab3b9.mp3",
+   "duracao": 12.216,
+   "palavras": [
+    {
+     "p": "Quatro",
+     "i": 0.098,
+     "f": 0.514
+    },
+    {
+     "p": "peça",
+     "i": 0.776,
+     "f": 1.121
+    },
+    {
+     "p": "para",
+     "i": 1.133,
+     "f": 1.312
+    },
+    {
+     "p": "pensar",
+     "i": 1.324,
+     "f": 1.74
+    },
+    {
+     "p": "antes",
+     "i": 1.752,
+     "f": 2.086
+    },
+    {
+     "p": "de",
+     "i": 2.098,
+     "f": 2.181
+    },
+    {
+     "p": "responder",
+     "i": 2.193,
+     "f": 2.729
+    },
+    {
+     "p": "Em",
+     "i": 3.548,
+     "f": 3.702
+    },
+    {
+     "p": "contas",
+     "i": 3.714,
+     "f": 4.06
+    },
+    {
+     "p": "e",
+     "i": 4.071,
+     "f": 4.167
+    },
+    {
+     "p": "lógica",
+     "i": 4.179,
+     "f": 4.619
+    },
+    {
+     "p": "peça",
+     "i": 4.893,
+     "f": 5.119
+    },
+    {
+     "p": "o",
+     "i": 5.131,
+     "f": 5.155
+    },
+    {
+     "p": "passo",
+     "i": 5.167,
+     "f": 5.429
+    },
+    {
+     "p": "a",
+     "i": 5.44,
+     "f": 5.5
+    },
+    {
+     "p": "passo",
+     "i": 5.512,
+     "f": 5.893
+    },
+    {
+     "p": "e",
+     "i": 5.905,
+     "f": 5.94
+    },
+    {
+     "p": "a",
+     "i": 5.952,
+     "f": 5.988
+    },
+    {
+     "p": "resposta",
+     "i": 6,
+     "f": 6.536
+    },
+    {
+     "p": "final",
+     "i": 6.548,
+     "f": 6.845
+    },
+    {
+     "p": "separada",
+     "i": 6.857,
+     "f": 7.452
+    },
+    {
+     "p": "Modelos",
+     "i": 8.274,
+     "f": 8.798
+    },
+    {
+     "p": "novos",
+     "i": 8.81,
+     "f": 9.179
+    },
+    {
+     "p": "de",
+     "i": 9.19,
+     "f": 9.286
+    },
+    {
+     "p": "raciocínio",
+     "i": 9.298,
+     "f": 9.905
+    },
+    {
+     "p": "já",
+     "i": 9.917,
+     "f": 10.036
+    },
+    {
+     "p": "fazem",
+     "i": 10.048,
+     "f": 10.488
+    },
+    {
+     "p": "isso",
+     "i": 10.5,
+     "f": 10.714
+    },
+    {
+     "p": "sozinhos",
+     "i": 10.726,
+     "f": 11.393
+    }
+   ]
+  },
+  "encadear": {
+   "hash": "3a630999dc",
+   "texto": "Cinco: encadeie prompts. Quebre a tarefa em etapas, e a resposta de uma vira a entrada da próxima. Primeiro o roteiro, depois os títulos.",
+   "audio": "audio/encadear-3a630999dc.mp3",
+   "duracao": 10.584,
+   "palavras": [
+    {
+     "p": "Cinco",
+     "i": 0.098,
+     "f": 0.645
+    },
+    {
+     "p": "encadeie",
+     "i": 0.871,
+     "f": 1.431
+    },
+    {
+     "p": "prompts",
+     "i": 1.443,
+     "f": 2.014
+    },
+    {
+     "p": "Quebre",
+     "i": 2.833,
+     "f": 3.095
+    },
+    {
+     "p": "a",
+     "i": 3.107,
+     "f": 3.155
+    },
+    {
+     "p": "tarefa",
+     "i": 3.167,
+     "f": 3.512
+    },
+    {
+     "p": "em",
+     "i": 3.524,
+     "f": 3.619
+    },
+    {
+     "p": "etapas",
+     "i": 3.631,
+     "f": 4.167
+    },
+    {
+     "p": "e",
+     "i": 4.417,
+     "f": 4.476
+    },
+    {
+     "p": "a",
+     "i": 4.488,
+     "f": 4.536
+    },
+    {
+     "p": "resposta",
+     "i": 4.548,
+     "f": 5.131
+    },
+    {
+     "p": "de",
+     "i": 5.143,
+     "f": 5.214
+    },
+    {
+     "p": "uma",
+     "i": 5.226,
+     "f": 5.381
+    },
+    {
+     "p": "vira",
+     "i": 5.393,
+     "f": 5.631
+    },
+    {
+     "p": "a",
+     "i": 5.643,
+     "f": 5.655
+    },
+    {
+     "p": "entrada",
+     "i": 5.667,
+     "f": 6.024
+    },
+    {
+     "p": "da",
+     "i": 6.036,
+     "f": 6.143
+    },
+    {
+     "p": "próxima",
+     "i": 6.155,
+     "f": 6.631
+    },
+    {
+     "p": "Primeiro",
+     "i": 7.452,
+     "f": 7.869
+    },
+    {
+     "p": "o",
+     "i": 7.881,
+     "f": 7.905
+    },
+    {
+     "p": "roteiro",
+     "i": 7.917,
+     "f": 8.357
+    },
+    {
+     "p": "depois",
+     "i": 8.595,
+     "f": 8.988
+    },
+    {
+     "p": "os",
+     "i": 9,
+     "f": 9.179
+    },
+    {
+     "p": "títulos",
+     "i": 9.19,
+     "f": 9.762
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "2bd909450f",
+   "texto": "Erro comum: dar exemplos demais ou todos iguais. A IA passa a decorar o padrão. O Google avisa sobre esse excesso.",
+   "audio": "audio/erro-comum-2bd909450f.mp3",
+   "duracao": 10.08,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.36
+    },
+    {
+     "p": "comum",
+     "i": 0.371,
+     "f": 0.752
+    },
+    {
+     "p": "dar",
+     "i": 0.979,
+     "f": 1.157
+    },
+    {
+     "p": "exemplos",
+     "i": 1.169,
+     "f": 1.621
+    },
+    {
+     "p": "demais",
+     "i": 1.633,
+     "f": 2.002
+    },
+    {
+     "p": "ou",
+     "i": 2.014,
+     "f": 2.193
+    },
+    {
+     "p": "todos",
+     "i": 2.205,
+     "f": 2.514
+    },
+    {
+     "p": "iguais",
+     "i": 2.526,
+     "f": 3.133
+    },
+    {
+     "p": "A",
+     "i": 3.952,
+     "f": 4.048
+    },
+    {
+     "p": "IA",
+     "i": 4.06,
+     "f": 5.31
+    },
+    {
+     "p": "passa",
+     "i": 5.321,
+     "f": 5.595
+    },
+    {
+     "p": "a",
+     "i": 5.607,
+     "f": 5.631
+    },
+    {
+     "p": "decorar",
+     "i": 5.643,
+     "f": 6.048
+    },
+    {
+     "p": "o",
+     "i": 6.06,
+     "f": 6.107
+    },
+    {
+     "p": "padrão",
+     "i": 6.119,
+     "f": 6.536
+    },
+    {
+     "p": "O",
+     "i": 7.357,
+     "f": 7.476
+    },
+    {
+     "p": "Google",
+     "i": 7.488,
+     "f": 7.869
+    },
+    {
+     "p": "avisa",
+     "i": 7.881,
+     "f": 8.262
+    },
+    {
+     "p": "sobre",
+     "i": 8.274,
+     "f": 8.559
+    },
+    {
+     "p": "esse",
+     "i": 8.571,
+     "f": 8.75
+    },
+    {
+     "p": "excesso",
+     "i": 8.762,
+     "f": 9.25
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "e0d0858976",
+   "texto": "Pause e tente: peça uma legenda de Instagram, com um papel e dois exemplos seus.",
+   "audio": "audio/pratica-e0d0858976.mp3",
+   "duracao": 5.328,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "e",
+     "i": 0.407,
+     "f": 0.479
+    },
+    {
+     "p": "tente",
+     "i": 0.49,
+     "f": 0.859
+    },
+    {
+     "p": "peça",
+     "i": 1.121,
+     "f": 1.407
+    },
+    {
+     "p": "uma",
+     "i": 1.419,
+     "f": 1.526
+    },
+    {
+     "p": "legenda",
+     "i": 1.538,
+     "f": 1.967
+    },
+    {
+     "p": "de",
+     "i": 1.979,
+     "f": 2.062
+    },
+    {
+     "p": "Instagram",
+     "i": 2.074,
+     "f": 2.514
+    },
+    {
+     "p": "com",
+     "i": 2.752,
+     "f": 2.859
+    },
+    {
+     "p": "um",
+     "i": 2.871,
+     "f": 2.955
+    },
+    {
+     "p": "papel",
+     "i": 2.967,
+     "f": 3.36
+    },
+    {
+     "p": "e",
+     "i": 3.371,
+     "f": 3.407
+    },
+    {
+     "p": "dois",
+     "i": 3.419,
+     "f": 3.621
+    },
+    {
+     "p": "exemplos",
+     "i": 3.633,
+     "f": 4.121
+    },
+    {
+     "p": "seus",
+     "i": 4.133,
+     "f": 4.49
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "979eaf614c",
+   "texto": "Resumindo: exemplos mostram o padrão, tags separam os dados e etapas dividem o trabalho.",
+   "audio": "audio/resumo-979eaf614c.mp3",
+   "duracao": 6.096,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.788
+    },
+    {
+     "p": "exemplos",
+     "i": 0.979,
+     "f": 1.514
+    },
+    {
+     "p": "mostram",
+     "i": 1.526,
+     "f": 1.955
+    },
+    {
+     "p": "o",
+     "i": 1.967,
+     "f": 2.002
+    },
+    {
+     "p": "padrão",
+     "i": 2.014,
+     "f": 2.419
+    },
+    {
+     "p": "tags",
+     "i": 2.681,
+     "f": 2.943
+    },
+    {
+     "p": "separam",
+     "i": 2.955,
+     "f": 3.264
+    },
+    {
+     "p": "os",
+     "i": 3.276,
+     "f": 3.36
+    },
+    {
+     "p": "dados",
+     "i": 3.371,
+     "f": 3.669
+    },
+    {
+     "p": "e",
+     "i": 3.681,
+     "f": 3.788
+    },
+    {
+     "p": "etapas",
+     "i": 3.8,
+     "f": 4.276
+    },
+    {
+     "p": "dividem",
+     "i": 4.288,
+     "f": 4.705
+    },
+    {
+     "p": "o",
+     "i": 4.717,
+     "f": 4.764
+    },
+    {
+     "p": "trabalho",
+     "i": 4.776,
+     "f": 5.264
+    }
+   ]
+  },
+  "final": {
+   "hash": "8be07f6e8e",
+   "texto": "Quiz: qual técnica evita a IA confundir instrução com texto? Um, tags XML. Dois, encadear. A certa é tags XML, porque separam instrução e dados. Siga e veja a aula 2.3.",
+   "audio": "audio/final-8be07f6e8e.mp3",
+   "duracao": 17.256,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "qual",
+     "i": 0.693,
+     "f": 0.931
+    },
+    {
+     "p": "técnica",
+     "i": 0.943,
+     "f": 1.383
+    },
+    {
+     "p": "evita",
+     "i": 1.395,
+     "f": 1.729
+    },
+    {
+     "p": "a",
+     "i": 1.74,
+     "f": 1.752
+    },
+    {
+     "p": "IA",
+     "i": 1.764,
+     "f": 2.919
+    },
+    {
+     "p": "confundir",
+     "i": 2.931,
+     "f": 3.383
+    },
+    {
+     "p": "instrução",
+     "i": 3.395,
+     "f": 3.883
+    },
+    {
+     "p": "com",
+     "i": 3.895,
+     "f": 4.074
+    },
+    {
+     "p": "texto",
+     "i": 4.086,
+     "f": 4.479
+    },
+    {
+     "p": "Um",
+     "i": 5.298,
+     "f": 5.571
+    },
+    {
+     "p": "tags",
+     "i": 5.869,
+     "f": 6.179
+    },
+    {
+     "p": "XML",
+     "i": 6.19,
+     "f": 6.988
+    },
+    {
+     "p": "Dois",
+     "i": 7.81,
+     "f": 8.25
+    },
+    {
+     "p": "encadear",
+     "i": 8.5,
+     "f": 9.083
+    },
+    {
+     "p": "A",
+     "i": 9.905,
+     "f": 10.012
+    },
+    {
+     "p": "certa",
+     "i": 10.024,
+     "f": 10.405
+    },
+    {
+     "p": "é",
+     "i": 10.417,
+     "f": 10.44
+    },
+    {
+     "p": "tags",
+     "i": 10.452,
+     "f": 10.75
+    },
+    {
+     "p": "XML",
+     "i": 10.762,
+     "f": 11.44
+    },
+    {
+     "p": "porque",
+     "i": 11.679,
+     "f": 11.964
+    },
+    {
+     "p": "separam",
+     "i": 11.976,
+     "f": 12.357
+    },
+    {
+     "p": "instrução",
+     "i": 12.369,
+     "f": 12.881
+    },
+    {
+     "p": "e",
+     "i": 12.893,
+     "f": 12.941
+    },
+    {
+     "p": "dados",
+     "i": 12.952,
+     "f": 13.429
+    },
+    {
+     "p": "Siga",
+     "i": 14.25,
+     "f": 14.607
+    },
+    {
+     "p": "e",
+     "i": 14.619,
+     "f": 14.679
+    },
+    {
+     "p": "veja",
+     "i": 14.69,
+     "f": 14.988
+    },
+    {
+     "p": "a",
+     "i": 15,
+     "f": 15.024
+    },
+    {
+     "p": "aula",
+     "i": 15.036,
+     "f": 15.333
+    },
+    {
+     "p": "2.3",
+     "i": 15.345,
+     "f": 16.429
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "openai": {
+   "arquivo": "",
+   "rotulo": "OpenAI",
+   "wiki": "OpenAI"
+  },
+  "google": {
+   "arquivo": "",
+   "rotulo": "Google DeepMind",
+   "wiki": "Google DeepMind"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.940Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Prompting best practices",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+  },
+  {
+   "titulo": "OpenAI — Prompt engineering",
+   "url": "https://developers.openai.com/api/docs/guides/prompt-engineering"
+  },
+  {
+   "titulo": "Google — Gemini API: prompt design strategies",
+   "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "lista"
  }
 }
