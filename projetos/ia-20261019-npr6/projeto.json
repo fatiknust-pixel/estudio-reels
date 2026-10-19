@@ -1,0 +1,71 @@
+{
+ "versao": 1,
+ "id": "ia-20261019-npr6",
+ "titulo": "Aula 4.1: Busca na web e Research no Claude — explique a diferença ent",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "oceano",
+ "criadoEm": "2026-10-19T22:26:17.942Z",
+ "atualizadoEm": "2026-10-19T22:26:17.942Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Aula 4.1: Busca na web e Research no Claude — explique a diferença entre a busca simples com fontes citadas e o modo Research dos planos pagos, que faz várias buscas encadeadas e entrega um relatório, como ativar pelo botão mais e por que sempre abrir as fontes para conferir",
+  "tom": "Videoaula da série IA do Zero ao Especialista. Professor próximo e confiante, sério e sem exagero. Siga 9 momentos: gancho com pergunta ou número real; promessa dos 3 aprendizados com o código da aula; conceito com definição simples; analogia do dia a dia; exemplo prático com o prompt ou comando digitando na tela; erro comum; pause e tente com um mini desafio; resumo em 3 pontos; quiz de 2 opções com a resposta explicada e convite para a próxima aula. Algo novo na tela a cada 3 a 5 segundos. Frases curtas, termos em inglês traduzidos na primeira vez, fontes na tela para preços e datas.",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "caixa",
+   "transicao": "deslize",
+   "fundo": "grade",
+   "musica": "leve",
+   "formato": "auto",
+   "fonte": "poppins",
+   "paleta": "oceano"
+  },
+  "lote": {
+   "indice": 1,
+   "total": 5,
+   "outros": [
+    "Aula 4.2: Conectores do Claude — mostre como ligar Gmail, Google Agenda, Google Drive, Notion, Canva e GitHub, como o Claude lê seus dados e pede aprovação antes de ações sensíveis, onde fica o diretório de conectores e 3 usos práticos: resumo do dia, prioridades da semana e capas no Canva",
+    "Aula 4.3: O que é MCP, o USB-C da inteligência artificial — explique o Model Context Protocol criado pela Anthropic em novembro de 2024 e adotado pela OpenAI em 2025, a relação entre cliente e servidor MCP, e as três coisas que um servidor oferece: ferramentas, recursos e prompts",
+    "Aula 4.4: Como adicionar servidores MCP no Claude — mostre como incluir um conector personalizado por URL no app e pelo comando claude mcp add no Claude Code, exemplos de servidores prontos (Notion, Figma, Slack, bancos de dados) e por que desligar com /mcp os que você não usa para economizar contexto",
+    "Aula 4.5: Prompt injection e segurança com IA — explique como instruções escondidas em e-mails, sites e documentos podem enganar uma IA com conectores, por que é o risco número 1 da lista OWASP para LLMs, e 3 defesas: privilégio mínimo, aprovar ações sensíveis e desconfiar de mudanças de comportamento"
+   ]
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-19T22:26:17.942Z"
+ }
+}

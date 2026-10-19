@@ -1,0 +1,71 @@
+{
+ "versao": 1,
+ "id": "ia-20261019-crng",
+ "titulo": "Aula 6.5: IA trabalhando sozinha com rotinas e GitHub Actions — expliq",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "oceano",
+ "criadoEm": "2026-10-19T22:26:17.944Z",
+ "atualizadoEm": "2026-10-19T22:26:17.944Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Aula 6.5: IA trabalhando sozinha com rotinas e GitHub Actions — explique as Routines do Claude Code que rodam na nuvem por agenda ou eventos mesmo com o computador desligado, o claude-code-action no GitHub e o modo claude -p, usando como exemplo um app que gera vídeos de Reels sozinho a partir de um tema",
+  "tom": "Videoaula da série IA do Zero ao Especialista. Professor próximo e confiante, sério e sem exagero. Siga 9 momentos: gancho com pergunta ou número real; promessa dos 3 aprendizados com o código da aula; conceito com definição simples; analogia do dia a dia; exemplo prático com o prompt ou comando digitando na tela; erro comum; pause e tente com um mini desafio; resumo em 3 pontos; quiz de 2 opções com a resposta explicada e convite para a próxima aula. Algo novo na tela a cada 3 a 5 segundos. Frases curtas, termos em inglês traduzidos na primeira vez, fontes na tela para preços e datas.",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "caixa",
+   "transicao": "deslize",
+   "fundo": "grade",
+   "musica": "leve",
+   "formato": "auto",
+   "fonte": "poppins",
+   "paleta": "oceano"
+  },
+  "lote": {
+   "indice": 5,
+   "total": 5,
+   "outros": [
+    "Aula 6.1: O que é um agente de IA — explique que um agente é um modelo em loop com ferramentas que planeja, age, observa e decide o próximo passo, a diferença entre chat, fluxo de etapas fixas e agente, e a regra de começar pelo mais simples, com exemplo de notas fiscais x investigar queda de vendas",
+    "Aula 6.2: Subagentes no Claude Code — explique que subagentes são especialistas que o Claude principal chama, cada um com contexto, ferramentas e modelo próprios, mostre um arquivo de subagente pesquisador com modelo Haiku na pasta .claude/agents e como montar uma equipe de pesquisador barato e revisor forte",
+    "Aula 6.3: Hooks no Claude Code — explique a diferença entre uma instrução no prompt, que a IA pode esquecer, e um hook, que sempre executa em momentos definidos (antes de uma ferramenta, depois de editar, ao terminar), com 3 exemplos: formatar arquivos, bloquear comandos perigosos e avisar quando terminar",
+    "Aula 6.4: IA que usa seu navegador e seu computador — explique o Claude in Chrome, que age nas abas em que você está logado com permissão por site e confirmação antes de compras, o controle do computador pelo app desktop, um exemplo de comparar passagens e por que evitar sites de banco e saúde"
+   ]
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-19T22:26:17.944Z"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "versao": 1,
+ "id": "ia-20261019-ynww",
+ "titulo": "Aula 2.3: Iterar com a IA como um especialista — mostre 3 frases que m",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "oceano",
+ "criadoEm": "2026-10-19T22:26:17.940Z",
+ "atualizadoEm": "2026-10-19T22:26:17.940Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Aula 2.3: Iterar com a IA como um especialista — mostre 3 frases que melhoram qualquer resposta: peça para a IA te entrevistar antes, peça autocrítica como especialista exigente e peça 3 versões diferentes, com um exemplo de plano de negócios melhorando a cada rodada",
+  "tom": "Videoaula da série IA do Zero ao Especialista. Professor próximo e confiante, sério e sem exagero. Siga 9 momentos: gancho com pergunta ou número real; promessa dos 3 aprendizados com o código da aula; conceito com definição simples; analogia do dia a dia; exemplo prático com o prompt ou comando digitando na tela; erro comum; pause e tente com um mini desafio; resumo em 3 pontos; quiz de 2 opções com a resposta explicada e convite para a próxima aula. Algo novo na tela a cada 3 a 5 segundos. Frases curtas, termos em inglês traduzidos na primeira vez, fontes na tela para preços e datas.",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "caixa",
+   "transicao": "deslize",
+   "fundo": "grade",
+   "musica": "leve",
+   "formato": "auto",
+   "fonte": "poppins",
+   "paleta": "oceano"
+  },
+  "lote": {
+   "indice": 3,
+   "total": 5,
+   "outros": [
+    "Aula 2.1: Anatomia de um prompt que funciona — ensine as 5 partes de um bom prompt (quem, o quê, por quê, como e limites), mostre um prompt fraco virando um prompt forte para um post de Instagram, e a regra de ouro: trate a IA como um colega brilhante que acabou de chegar",
+    "Aula 2.2: As 5 técnicas clássicas de prompt — ensine com exemplo curto cada uma: dar exemplos (few-shot), separar dados com tags XML, definir um papel, pedir para pensar antes de responder e encadear prompts em etapas, segundo os guias oficiais da Anthropic, OpenAI e Google",
+    "Aula 2.4: Projetos, instruções e memória no Claude — explique como um Projeto guarda arquivos e instruções para todas as conversas, como funcionam instruções personalizadas, estilos e memória entre conversas, com o exemplo de um projeto para um canal de Reels",
+    "Aula 2.5: Artefatos, arquivos e imagens no Claude — mostre o que são artefatos (documentos, páginas, apps interativos, gráficos, apresentações), como publicar e compartilhar, e como o Claude lê PDFs, planilhas e fotos, com o exemplo de transformar uma planilha de gastos num painel interativo"
+   ]
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-19T22:26:17.940Z"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "versao": 1,
+ "id": "ia-20261019-aaip",
+ "titulo": "Aula 3.1: Qual modelo do Claude usar em cada tarefa — compare Haiku 5.",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "oceano",
+ "criadoEm": "2026-10-19T22:26:17.941Z",
+ "atualizadoEm": "2026-10-19T22:26:17.941Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Aula 3.1: Qual modelo do Claude usar em cada tarefa — compare Haiku 5.5, Sonnet 5.5, Opus 5.5 e Fable 5.1 com os preços oficiais por milhão de tokens (de US$ 0,10 a US$ 10 na entrada), explique que o Haiku custa 40 vezes menos que o Opus e dê exemplos de tarefa certa para cada um",
+  "tom": "Videoaula da série IA do Zero ao Especialista. Professor próximo e confiante, sério e sem exagero. Siga 9 momentos: gancho com pergunta ou número real; promessa dos 3 aprendizados com o código da aula; conceito com definição simples; analogia do dia a dia; exemplo prático com o prompt ou comando digitando na tela; erro comum; pause e tente com um mini desafio; resumo em 3 pontos; quiz de 2 opções com a resposta explicada e convite para a próxima aula. Algo novo na tela a cada 3 a 5 segundos. Frases curtas, termos em inglês traduzidos na primeira vez, fontes na tela para preços e datas.",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "caixa",
+   "transicao": "deslize",
+   "fundo": "grade",
+   "musica": "leve",
+   "formato": "auto",
+   "fonte": "poppins",
+   "paleta": "oceano"
+  },
+  "lote": {
+   "indice": 1,
+   "total": 5,
+   "outros": [
+    "Aula 3.2: Planos do Claude explicados — compare Free, Pro (US$ 20 por mês), Max (a partir de US$ 100), Team e Enterprise, o que cada um libera (Projetos, Claude Code, Research, Claude in Chrome) e como saber se vale a pena subir de plano observando seus limites de uso",
+    "Aula 3.3: Esforço e pensamento estendido na IA — explique que os modelos atuais pensam antes de responder, como o nível de esforço (baixo, médio, alto, extra-alto e máximo) troca velocidade e custo por qualidade, e quando usar cada nível, com exemplo de revisão de e-mail x planilha financeira",
+    "Aula 3.4: A estratégia modelo barato coleta, modelo forte pensa — explique como delegar buscas e leituras a subagentes com Claude Haiku, deixar o Opus só para planejar e escrever, por que isso economiza tokens e protege a janela de contexto, com o exemplo de três pesquisas em paralelo",
+    "Aula 3.5: Como gastar menos com IA — explique prompt caching (reler do cache custa cerca de 10% do preço), Batch API com 50% de desconto, manter o contexto enxuto com /clear e /compact, desligar conectores sem uso e planejar antes para evitar retrabalho, com exemplo de chatbot com manual de 50 páginas"
+   ]
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-19T22:26:17.941Z"
+ }
+}

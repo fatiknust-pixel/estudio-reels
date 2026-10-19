@@ -1,0 +1,71 @@
+{
+ "versao": 1,
+ "id": "ia-20261019-0uj0",
+ "titulo": "Aula 1.5: O mapa dos modelos de IA em 2026 — apresente Anthropic (Clau",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "oceano",
+ "criadoEm": "2026-10-19T22:26:17.940Z",
+ "atualizadoEm": "2026-10-19T22:26:17.940Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Aula 1.5: O mapa dos modelos de IA em 2026 — apresente Anthropic (Claude), OpenAI (ChatGPT), Google (Gemini), Meta (Llama) e modelos de pesos abertos, explique modelo fechado x aberto e multimodal, e mostre a família Claude: Haiku 5.5, Sonnet 5.5, Opus 5.5 e Fable 5.1, para que serve cada um",
+  "tom": "Videoaula da série IA do Zero ao Especialista. Professor próximo e confiante, sério e sem exagero. Siga 9 momentos: gancho com pergunta ou número real; promessa dos 3 aprendizados com o código da aula; conceito com definição simples; analogia do dia a dia; exemplo prático com o prompt ou comando digitando na tela; erro comum; pause e tente com um mini desafio; resumo em 3 pontos; quiz de 2 opções com a resposta explicada e convite para a próxima aula. Algo novo na tela a cada 3 a 5 segundos. Frases curtas, termos em inglês traduzidos na primeira vez, fontes na tela para preços e datas.",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "caixa",
+   "transicao": "deslize",
+   "fundo": "grade",
+   "musica": "leve",
+   "formato": "auto",
+   "fonte": "poppins",
+   "paleta": "oceano"
+  },
+  "lote": {
+   "indice": 5,
+   "total": 5,
+   "outros": [
+    "Aula 1.1: O que é IA e IA generativa — explique para iniciantes a diferença entre inteligência artificial, machine learning, deep learning e IA generativa usando círculos dentro de círculos, com exemplos do dia a dia (filtro de spam, Netflix, Claude escrevendo um texto)",
+    "Aula 1.2: Como um LLM funciona por dentro — explique que modelos como o Claude preveem o próximo token, o que é o Transformer e a atenção (2017), pré-treino com muito texto e o ajuste fino com feedback humano e IA Constitucional, com analogia do autocompletar do celular",
+    "Aula 1.3: Tokens e janela de contexto — explique o que é um token, por que tudo na IA é medido e cobrado em tokens de entrada e saída, o que é a janela de contexto (até 1 milhão de tokens no Claude) e por que abrir conversa nova para assunto novo economiza e melhora as respostas",
+    "Aula 1.4: Alucinação e limites da IA — explique por que modelos de linguagem às vezes inventam fatos com confiança, o que é data de corte do treinamento, como a busca na web e as fontes citadas reduzem erros, e 3 hábitos para checar respostas antes de confiar"
+   ]
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-19T22:26:17.940Z"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "versao": 1,
+ "id": "ia-20261019-02sl",
+ "titulo": "Aula 7.3: Tool use, quando a IA aciona o seu sistema — explique como d",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "oceano",
+ "criadoEm": "2026-10-19T22:26:17.944Z",
+ "atualizadoEm": "2026-10-19T22:26:17.944Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Aula 7.3: Tool use, quando a IA aciona o seu sistema — explique como descrever funções com nome, descrição e parâmetros, o ciclo em que o Claude pede a ferramenta, seu código executa e devolve o resultado, as ferramentas prontas de busca na web e execução de código, com exemplo de agenda de salão de beleza",
+  "tom": "Videoaula da série IA do Zero ao Especialista. Professor próximo e confiante, sério e sem exagero. Siga 9 momentos: gancho com pergunta ou número real; promessa dos 3 aprendizados com o código da aula; conceito com definição simples; analogia do dia a dia; exemplo prático com o prompt ou comando digitando na tela; erro comum; pause e tente com um mini desafio; resumo em 3 pontos; quiz de 2 opções com a resposta explicada e convite para a próxima aula. Algo novo na tela a cada 3 a 5 segundos. Frases curtas, termos em inglês traduzidos na primeira vez, fontes na tela para preços e datas.",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "caixa",
+   "transicao": "deslize",
+   "fundo": "grade",
+   "musica": "leve",
+   "formato": "auto",
+   "fonte": "poppins",
+   "paleta": "oceano"
+  },
+  "lote": {
+   "indice": 3,
+   "total": 5,
+   "outros": [
+    "Aula 7.1: App ou API do Claude, quando usar cada um — explique a diferença entre pagar assinatura no app e pagar por token na API, como criar a chave e definir limite de gasto no Console, automação sem código com n8n, Make e Zapier, e o cuidado de nunca expor sua chave de API",
+    "Aula 7.2: Sua primeira chamada à API do Claude em Python — mostre passo a passo instalar o pacote anthropic, guardar a chave na variável ANTHROPIC_API_KEY, chamar a Messages API com modelo, max_tokens, system e messages usando o Haiku 5.5 para gastar centavos, e ler o uso de tokens da resposta",
+    "Aula 7.4: RAG e embeddings explicados — explique o que são embeddings (textos virando vetores de significado), como o RAG busca trechos da sua base antes de responder, e quando não precisa de RAG porque a base cabe inteira na janela de 1 milhão de tokens com prompt caching, com exemplo de escritório x loja",
+    "Aula 7.5: Como colocar agentes de IA em produção — compare o Claude Agent SDK, que é o Claude Code como biblioteca que você hospeda, e o Managed Agents, em que a Anthropic hospeda o agente e o ambiente, com o exemplo de um agente que confere pedidos e estoque toda noite e manda um relatório"
+   ]
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-19T22:26:17.944Z"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "versao": 1,
+ "id": "ia-20261019-4bh2",
+ "titulo": "Aula 5.2: Como criar sua primeira skill no Claude — mostre a estrutura",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "oceano",
+ "criadoEm": "2026-10-19T22:26:17.943Z",
+ "atualizadoEm": "2026-10-19T22:26:17.943Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Aula 5.2: Como criar sua primeira skill no Claude — mostre a estrutura do SKILL.md com nome, descrição e instruções, por que a descrição decide quando a skill é usada, o truque de rodar skills simples no modelo Haiku para economizar e a skill oficial skill-creator que testa e melhora outras skills",
+  "tom": "Videoaula da série IA do Zero ao Especialista. Professor próximo e confiante, sério e sem exagero. Siga 9 momentos: gancho com pergunta ou número real; promessa dos 3 aprendizados com o código da aula; conceito com definição simples; analogia do dia a dia; exemplo prático com o prompt ou comando digitando na tela; erro comum; pause e tente com um mini desafio; resumo em 3 pontos; quiz de 2 opções com a resposta explicada e convite para a próxima aula. Algo novo na tela a cada 3 a 5 segundos. Frases curtas, termos em inglês traduzidos na primeira vez, fontes na tela para preços e datas.",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "caixa",
+   "transicao": "deslize",
+   "fundo": "grade",
+   "musica": "leve",
+   "formato": "auto",
+   "fonte": "poppins",
+   "paleta": "oceano"
+  },
+  "lote": {
+   "indice": 2,
+   "total": 5,
+   "outros": [
+    "Aula 5.1: O que são Skills no Claude — explique que uma skill é uma pasta com um arquivo SKILL.md com nome, descrição e instruções, que o Claude lê só a descrição e carrega a skill quando o pedido combina, como chamar com barra e o nome, e exemplos de skills prontas de Word, Excel e PDF",
+    "Aula 5.3: Claude Code não é só para programadores — explique que o Claude Code trabalha direto nos seus arquivos (lê pastas, edita, roda comandos), onde ele roda (terminal, VS Code, desktop e web), o papel do arquivo CLAUDE.md como memória do projeto, e exemplos fora da programação como organizar documentos",
+    "Aula 5.4: Comandos essenciais do Claude Code — ensine /model, /effort, /clear, /compact, /usage, /mcp e /init, o que faz cada um, e o modo plan (Shift+Tab) em que o Claude propõe um plano antes de mexer em qualquer arquivo, com o exemplo de reorganizar 300 arquivos com segurança",
+    "Aula 5.5: Plugins e marketplaces do Claude — explique que um plugin empacota skills, subagentes, hooks e servidores MCP para instalar de uma vez, como usar o comando /plugin e o marketplace oficial, e o exemplo de uma agência que distribui seu padrão de trabalho para toda a equipe num plugin"
+   ]
+  }
+ },
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-19T22:26:17.943Z"
+ }
+}
