@@ -14,7 +14,13 @@
 #include <BLEServer.h>
 #include <BLEUtils.h>
 #include <BLE2902.h>
+// O núcleo 3.x usa Bluedroid ou NimBLE conforme o chip (no ESP32-C3 do núcleo 3.3, NimBLE).
+// Só a leitura do sinal (RSSI) muda entre os dois.
+#if defined(CONFIG_BLUEDROID_ENABLED)
 #include <esp_gap_ble_api.h>
+#else
+#include <host/ble_gap.h>
+#endif
 
 // ---------- Ajuste por máquina ----------
 const char* NOME_MAQUINA = "MAQ-001";   // aparece no app; troque em cada etiqueta
@@ -36,7 +42,11 @@ const uint32_t INTERVALO_RSSI_MS = 250;
 
 BLECharacteristic* caracEstado = nullptr;
 volatile bool conectado = false;
+#if defined(CONFIG_BLUEDROID_ENABLED)
 esp_bd_addr_t enderecoCelular;
+#else
+volatile uint16_t conexaoCelular = 0;
+#endif
 volatile int8_t ultimoRssi = 0;
 volatile bool rssiNovo = false;
 volatile bool pedidoTocar = false;
@@ -49,19 +59,37 @@ void saida(int pino, bool ativoEmAlto, bool ligado) {
   digitalWrite(pino, (ligado == ativoEmAlto) ? HIGH : LOW);
 }
 
-// Resposta do pedido de RSSI (esp_ble_gap_read_rssi) chega por aqui.
+#if defined(CONFIG_BLUEDROID_ENABLED)
+// Bluedroid: a resposta do pedido de RSSI (esp_ble_gap_read_rssi) chega por aqui.
 void tratarGap(esp_gap_ble_cb_event_t evento, esp_ble_gap_cb_param_t* p) {
   if (evento == ESP_GAP_BLE_READ_RSSI_COMPLETE_EVT && p->read_rssi_cmpl.status == ESP_BT_STATUS_SUCCESS) {
     ultimoRssi = p->read_rssi_cmpl.rssi;
     rssiNovo = true;
   }
 }
+#endif
+
+void pedirRssi() {
+#if defined(CONFIG_BLUEDROID_ENABLED)
+  esp_ble_gap_read_rssi(enderecoCelular);
+#else
+  int8_t rssi;
+  if (ble_gap_conn_rssi(conexaoCelular, &rssi) == 0) { ultimoRssi = rssi; rssiNovo = true; }
+#endif
+}
 
 class Conexao : public BLEServerCallbacks {
+#if defined(CONFIG_BLUEDROID_ENABLED)
   void onConnect(BLEServer* s, esp_ble_gatts_cb_param_t* param) override {
     memcpy(enderecoCelular, param->connect.remote_bda, sizeof(esp_bd_addr_t));
     conectado = true;
   }
+#else
+  void onConnect(BLEServer* s, ble_gap_conn_desc* desc) override {
+    conexaoCelular = desc->conn_handle;
+    conectado = true;
+  }
+#endif
   void onDisconnect(BLEServer* s) override {
     conectado = false;
     BLEDevice::startAdvertising();  // volta a aparecer para o próximo celular
@@ -99,7 +127,9 @@ void setup() {
   saida(PINO_LED, LED_ATIVO_EM_ALTO, false);
 
   BLEDevice::init(NOME_MAQUINA);
+#if defined(CONFIG_BLUEDROID_ENABLED)
   BLEDevice::setCustomGapHandler(tratarGap);
+#endif
 
   BLEServer* servidor = BLEDevice::createServer();
   servidor->setCallbacks(new Conexao());
@@ -110,7 +140,9 @@ void setup() {
   caracComando->setCallbacks(new Comando());
   caracEstado = servico->createCharacteristic(
       UUID_ESTADO, BLECharacteristic::PROPERTY_READ | BLECharacteristic::PROPERTY_NOTIFY);
-  caracEstado->addDescriptor(new BLE2902());
+#if defined(CONFIG_BLUEDROID_ENABLED)
+  caracEstado->addDescriptor(new BLE2902());  // no NimBLE esse descritor é criado sozinho
+#endif
   servico->start();
 
   BLEAdvertising* anuncio = BLEDevice::getAdvertising();
@@ -152,7 +184,7 @@ void loop() {
   static uint32_t ultimaLeitura = 0;
   if (conectado && agora - ultimaLeitura >= INTERVALO_RSSI_MS) {
     ultimaLeitura = agora;
-    esp_ble_gap_read_rssi(enderecoCelular);
+    pedirRssi();
   }
   if (rssiNovo) {
     rssiNovo = false;
