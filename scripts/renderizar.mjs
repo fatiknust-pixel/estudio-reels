@@ -41,6 +41,7 @@ if (projeto.modo === "ia") {
 delete projeto.previaCortes;
 const saida = saidaArg ?? path.join(RAIZ, "out", `${id}.mp4`);
 fs.mkdirSync(path.dirname(saida), { recursive: true });
+fs.mkdirSync(path.join(RAIZ, "out"), { recursive: true });
 const props = path.join(RAIZ, "out", `props-${id}.json`);
 fs.writeFileSync(props, JSON.stringify({ projeto }));
 
