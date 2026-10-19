@@ -2,8 +2,14 @@
   "autor": "Fabio Sarri",
   "voz": {
     "voicestudio": {
-      "instrucao": "male, young adult, low pitch",
-      "velocidade": 1.1
+      "instrucao": "male, young adult, moderate pitch",
+      "candidatas": [
+        "male, young adult, moderate pitch",
+        "male, middle-aged, moderate pitch"
+      ],
+      "sementes": 2,
+      "velocidade": 1.08,
+      "passos": 64
     },
     "edge": "pt-BR-AntonioNeural",
     "velocidade": "+12%",

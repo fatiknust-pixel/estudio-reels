@@ -23,8 +23,10 @@ O texto falado e o nome do autor ficam em `conteudo/roteiro.json`.
 ## Voz
 
 A narração é gerada com o [VoiceStudio](https://github.com/debpalash/VoiceStudio) (motor OmniVoice, em CPU no
-GitHub Actions). Na primeira execução, a voz é criada pelo *voice design* (`voz.voicestudio.instrucao` no roteiro)
-e salva em `voz/referencia.wav`; todas as cenas clonam essa amostra, então a voz é a mesma no vídeo inteiro.
+GitHub Actions, 64 passos de geração). Na primeira execução, são criadas vozes candidatas pelo *voice design*
+(`voz.voicestudio.candidatas` no roteiro); fica a mais clara pelo espectro entre as que o Whisper entende bem
+(notas em `voz/candidatas.json`), salva em `voz/referencia.wav`. Todas as cenas clonam essa amostra, então a voz
+é a mesma no vídeo inteiro, e cada cena passa por uma masterização de voz (EQ, de-esser, compressor e limitador).
 O Whisper confere a fala e marca o tempo de cada palavra para a legenda. Para criar outra voz, apague a pasta
 `voz/` (ou mude a instrução) e rode o workflow com "Regerar toda a narração". A voz da Microsoft continua
 disponível escolhendo `edge` em "Voz da narração".

@@ -1,7 +1,7 @@
 """Narração com o VoiceStudio (github.com/debpalash/VoiceStudio, motor OmniVoice, Apache-2.0).
 
-1. Na primeira vez, cria uma voz pelo "voice design" (descrição em `voz.voicestudio.instrucao`)
-   e salva uma amostra em voz/referencia.wav + voz/referencia.txt. Essa amostra entra no repositório,
+1. Na primeira vez, cria vozes candidatas pelo "voice design" (`voz.voicestudio.candidatas`), escolhe
+   a mais clara pelo espectro (e que o Whisper entende) e salva em voz/referencia.wav + voz/referencia.txt. Essa amostra entra no repositório,
    então a voz fica igual em todas as cenas e em todas as execuções.
 2. Cada cena é gerada clonando essa amostra.
 3. O Whisper (faster-whisper) transcreve o resultado: dá o tempo de cada palavra para a legenda e
@@ -17,6 +17,20 @@ TEXTO_REFERENCIA = (
     "Olá! Hoje eu vou te mostrar uma ferramenta que transforma uma ideia em vídeo em poucos minutos. "
     "É simples, é rápido, e o resultado impressiona."
 )
+
+# Masterização de voz (ffmpeg): tira o grave que embola, realça a faixa de clareza (3–5 kHz),
+# dá brilho, controla os "s" e iguala o volume. Corrige a voz "abafada".
+MASTER = ",".join([
+    "highpass=f=85",
+    "equalizer=f=220:t=q:w=1.0:g=-4",
+    "equalizer=f=450:t=q:w=1.2:g=-2",
+    "equalizer=f=3200:t=q:w=1.0:g=4",
+    "equalizer=f=5000:t=q:w=1.4:g=2.5",
+    "highshelf=f=9000:g=2",
+    "deesser=i=0.35",
+    "acompressor=threshold=-20dB:ratio=3:attack=6:release=90:makeup=3",
+    "alimiter=limit=0.89",
+])
 
 _modelo = None
 _whisper = None
@@ -85,16 +99,45 @@ def _alinhar(texto, ouvidas, duracao):
     return palavras, acerto
 
 
-def _referencia(instrucao):
+def _clareza(wav):
+    """Nota de clareza pelo espectro: muita energia em 1,5–5 kHz é bom; grave demais (< 250 Hz) é ruim."""
+    import numpy as np, soundfile as sf
+    x, sr = sf.read(wav, dtype="float32", always_2d=True)
+    x = x.mean(axis=1)
+    S = np.abs(np.fft.rfft(x * np.hanning(len(x)))) ** 2
+    fr = np.fft.rfftfreq(len(x), 1 / sr)
+    tot = S.sum() or 1.0
+    banda = lambda a, b: S[(fr >= a) & (fr < b)].sum() / tot
+    return 100 * (banda(1500, 5000) - 0.5 * banda(0, 250))
+
+
+def _referencia(config):
     os.makedirs(PASTA_VOZ, exist_ok=True)
     wav = os.path.join(PASTA_VOZ, "referencia.wav")
     txt = os.path.join(PASTA_VOZ, "referencia.txt")
     if not (os.path.exists(wav) and os.path.exists(txt)):
-        import torch
-        torch.manual_seed(int(os.environ.get("VOZ_SEMENTE", "7")))
-        print(f"  criando a voz pelo voice design: {instrucao}", flush=True)
-        audio = _modelo.generate(text=TEXTO_REFERENCIA, language="pt", instruct=instrucao)[0]
-        _salvar(audio, wav)
+        import json, shutil, torch
+        instrucoes = config.get("candidatas") or [config.get("instrucao", "male, young adult, moderate pitch")]
+        sementes = int(config.get("sementes", 2))
+        notas = []
+        for instr in instrucoes:
+            for semente in range(1, sementes + 1):
+                torch.manual_seed(semente)
+                audio = _modelo.generate(text=TEXTO_REFERENCIA, language="pt", instruct=instr)[0]
+                cand = os.path.join(PASTA_VOZ, f"candidata-{len(notas) + 1}.wav")
+                _salvar(audio, cand)
+                _, acerto = _alinhar(TEXTO_REFERENCIA, _transcrever(cand), audio.shape[-1] / _modelo.sampling_rate)
+                nota = _clareza(cand)
+                notas.append({"arquivo": os.path.basename(cand), "instrucao": instr, "semente": semente, "clareza": round(nota, 2), "acerto": round(acerto, 3)})
+                print(f"  candidata {len(notas)}: {instr} (semente {semente}) clareza {nota:.1f}, acerto {acerto:.0%}", flush=True)
+        boas = [n for n in notas if n["acerto"] >= 0.9] or notas
+        escolhida = max(boas, key=lambda n: n["clareza"])
+        print(f"  escolhida: {escolhida}", flush=True)
+        shutil.copy(os.path.join(PASTA_VOZ, escolhida["arquivo"]), wav)
+        for n in notas:
+            os.unlink(os.path.join(PASTA_VOZ, n["arquivo"]))
+        with open(os.path.join(PASTA_VOZ, "candidatas.json"), "w", encoding="utf-8") as f:
+            json.dump({"escolhida": escolhida, "candidatas": notas}, f, ensure_ascii=False, indent=1)
         with open(txt, "w", encoding="utf-8") as f:
             f.write(TEXTO_REFERENCIA + "\n")
     return wav, open(txt, encoding="utf-8").read().strip()
@@ -104,12 +147,13 @@ def gerar(texto, destino_mp3, config):
     """Gera a narração de uma cena. Devolve a lista de palavras com tempo."""
     import torch
     _carregar()
-    ref_wav, ref_txt = _referencia(config.get("instrucao", "male, young adult, low pitch"))
+    ref_wav, ref_txt = _referencia(config)
     melhor = None
     for tentativa in range(2):
         torch.manual_seed(1000 + tentativa)
         audio = _modelo.generate(
-            text=texto, language="pt", ref_audio=ref_wav, ref_text=ref_txt, speed=float(config.get("velocidade", 1.0))
+            text=texto, language="pt", ref_audio=ref_wav, ref_text=ref_txt, speed=float(config.get("velocidade", 1.0)),
+            num_step=int(config.get("passos", 64)),
         )[0]
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
             _salvar(audio, tmp.name)
@@ -125,6 +169,6 @@ def gerar(texto, destino_mp3, config):
         if acerto >= 0.85:
             break
     acerto, wav, palavras = melhor
-    subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-b:a", "160k", destino_mp3])
+    subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", MASTER, "-ar", "48000", "-b:a", "192k", destino_mp3])
     os.unlink(wav)
     return palavras
