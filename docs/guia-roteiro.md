@@ -127,8 +127,8 @@ acompanhe sem se entediar**, sem perder a seriedade: ritmo de Reels, conteúdo d
 
 ## Gêneros (canal dark) — quando existir `pedido.genero`
 
-O app tem modelos de "canal dark" (vídeo narrado, sem rosto: documentário, história, biografia, resumo de
-filme, mistérios, curiosidades, ranking, ciência, lugares, mitologia, terror, economia, geopolítica,
+O app tem modelos de "canal dark" (vídeo narrado, sem rosto: documentário, história, biografia,
+mistérios, curiosidades, ranking, ciência, lugares, mitologia, terror, economia, geopolítica,
 tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
 - **Siga `pedido.genero.instrucoes`** — elas valem mais que as regras gerais de estrutura deste guia
   (ex.: num documentário longo não precisa de enquete; feche com o convite para se inscrever).
@@ -140,7 +140,7 @@ tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
   pessoa, mapa, época, objeto), sem repetir chaves entre cenas. O `imagens.json` terá então 15 a 40
   imagens (a regra geral de 4 a 9 não vale). `fundo` pode ficar vazio quando houver `galeria`.
 - Prefira acervos livres e confiáveis do Wikimedia Commons (fotos oficiais, NASA/ESA, museus, arquivos
-  históricos em domínio público). Nunca use cenas de filmes, capas ou imagens com direitos autorais.
+  históricos em domínio público). Nunca use imagens com direitos autorais.
 
 ## Formato do `roteiro.json`
 

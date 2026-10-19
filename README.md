@@ -79,7 +79,7 @@ navegador); a Action junta as partes e apaga o ramo.
   enquete e CTA no final), conferindo com `scripts/validar-roteiro.mjs`. Depois vêm a narração
   (`scripts/voz.py`, edge-tts `pt-BR-AntonioNeural` +5%, tempo por palavra) e as imagens
   (`scripts/imagens.mjs`, Wikipédia/Commons com autor e licença).
-- **Gêneros (canal dark):** documentário, história, biografias, resumo de filme e série, mistérios,
+- **Gêneros (canal dark):** documentário, história, biografias, mistérios,
   curiosidades, top 10, ciência e espaço, lugares, mitologia, lendas de terror, economia, geopolítica,
   tecnologia, natureza e reflexões (`src/generos.json`). Cada gênero já vem com formato, duração, tom,
   estilo de edição, instruções de roteiro para o Claude e temas prontos; ou escolha **Livre** e escreva o tema.
