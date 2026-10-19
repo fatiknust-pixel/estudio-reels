@@ -7,6 +7,7 @@ import { Alternar, avisar, avisarErro, Escolha, ir } from "../ui";
 
 const TONS = ["Explicativo e neutro", "Polêmico, mas factual", "Bem-humorado", "Inspirador", "Urgente (notícia)", "Didático (passo a passo)", "Curiosidades"];
 const DURACOES: [number, string][] = [[30, "30 s"], [45, "45 s"], [60, "1 min"], [90, "1:30"], [120, "2 min"]];
+const FORMATOS: [string, string][] = [["9:16", "📱 Vertical 9:16 (Reels, TikTok)"], ["16:9", "🖥️ Horizontal 16:9 (YouTube, aulas)"]];
 const VOZES: [string, string][] = [["pt-BR-AntonioNeural", "Antonio (masc.)"], ["pt-BR-FranciscaNeural", "Francisca (fem.)"], ["pt-BR-ThalitaMultilingualNeural", "Thalita (fem.)"]];
 const IDEIAS = ["Por que o real perdeu valor desde 1994?", "Como funciona a delação premiada", "5 mitos sobre o sono que a ciência derrubou", "O que muda com a reforma tributária"];
 const MAX_LOTE = 5;
@@ -21,6 +22,7 @@ export const NovoIA: React.FC = () => {
   const [variar, setVariar] = useState(true);
   const [duracao, setDuracao] = useState(60);
   const [voz, setVoz] = useState(VOZES[0][0]);
+  const [formato, setFormato] = useState("9:16");
   const [enviando, setEnviando] = useState<string | null>(null);
   const token = temToken();
 
@@ -50,7 +52,8 @@ export const NovoIA: React.FC = () => {
             ...(n > 1 ? { lote: { indice: i + 1, total: n, outros: temas.filter((_, j) => j !== i) } } : {}),
           },
           e.paleta !== "auto" ? e.paleta : "padrao",
-          voz
+          voz,
+          formato as "9:16" | "16:9"
         );
         await criarIA(p);
       }
@@ -91,6 +94,9 @@ export const NovoIA: React.FC = () => {
 
       <h3>Duração</h3>
       <Escolha opcoes={DURACOES} valor={duracao} mudar={setDuracao} />
+
+      <h3>Formato</h3>
+      <Escolha opcoes={FORMATOS} valor={formato} mudar={setFormato} />
 
       <h3>Voz</h3>
       <Escolha opcoes={VOZES} valor={voz} mudar={setVoz} />

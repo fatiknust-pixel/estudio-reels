@@ -1,6 +1,6 @@
 # Estúdio Reels
 
-App pessoal (PWA, instalável no celular) para criar vídeos **9:16** profissionais, com prévia ao vivo
+App pessoal (PWA, instalável no celular) para criar vídeos **9:16** profissionais (no Modo 1, também **16:9**), com prévia ao vivo
 (sem renderizar) e render final no **GitHub Actions**. Reaproveita a base do
 [Astra](https://github.com/fatiknust-pixel/Astra): Remotion, legenda palavra por palavra, temas de cores,
 elementos animados, voz edge-tts e imagens do Wikimedia com créditos.

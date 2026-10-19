@@ -108,6 +108,7 @@ export type Projeto = {
   // ia
   pedido?: { tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; lote?: { indice: number; total: number; outros: string[] } };
   estiloIA?: EstiloIA;
+  formato?: "9:16" | "16:9"; // quadro do vídeo: vertical (padrão) ou horizontal (só no modo IA)
   voz?: { edge: string; velocidade: string };
   cenas?: Cena[];
   narracao?: Record<string, NarracaoCena>;

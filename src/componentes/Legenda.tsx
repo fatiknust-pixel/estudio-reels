@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, useCurrentFrame } from "remotion";
-import { useVideo } from "../contexto";
+import { useQuadro, useVideo } from "../contexto";
 import { familiaDe } from "../fontes";
 import { PalavraTempo } from "../linhaTempo";
 
@@ -32,6 +32,7 @@ export const agrupar = (palavras: PalavraTempo[], n: number) => {
 export const Legenda: React.FC = () => {
   const f = useCurrentFrame();
   const { linha, projeto } = useVideo();
+  const q = useQuadro();
   const L = projeto.legenda;
   const telas = useMemo(() => agrupar(linha.palavras, Math.max(1, L.palavrasPorTela)), [linha, L.palavrasPorTela]);
   if (!L.mostrar) return null;
@@ -41,15 +42,16 @@ export const Legenda: React.FC = () => {
 
   const { familia, peso } = familiaDe(L.fonte);
   const maior = Math.max(...tela.map((w) => w.p.length));
-  // palavra muito longa: diminui a fonte para caber na largura segura
-  const tamanho = Math.min(L.tamanho, 960 / Math.max(1, maior * 0.62));
-  const centro = (L.posicao / 100) * 1920;
+  // palavra muito longa: diminui a fonte para caber na largura segura (no 16:9, a coluna da esquerda)
+  const largura = Math.min(960, q.texto - 100);
+  const tamanho = Math.min(L.tamanho, largura / Math.max(1, maior * 0.62));
+  const centro = (L.posicao / 100) * q.altura;
 
   return (
-    <AbsoluteFill style={{ top: centro - 200, bottom: "auto", height: 400, alignItems: "center", justifyContent: "center", pointerEvents: "none" }}>
+    <AbsoluteFill style={{ top: centro - 200, bottom: "auto", height: 400, ...(q.horizontal ? { right: "auto", width: q.texto } : {}), alignItems: "center", justifyContent: "center", pointerEvents: "none" }}>
       <div
         style={{
-          display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: `0 ${Math.round(tamanho * 0.32)}px`, maxWidth: 960,
+          display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: `0 ${Math.round(tamanho * 0.32)}px`, maxWidth: largura,
           ...(L.fundo === "caixa" ? { background: "rgba(0,0,0,.72)", padding: "18px 34px", borderRadius: 28 } : {}),
         }}
       >

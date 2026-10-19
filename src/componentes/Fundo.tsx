@@ -1,11 +1,12 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, useCurrentFrame } from "remotion";
-import { useVideo } from "../contexto";
+import { useQuadro, useVideo } from "../contexto";
 
 // Fundo da cena: foto com efeito Ken Burns + escurecimento, ou gradiente animado se não houver foto.
 export const Fundo: React.FC<{ chave?: string; indice: number; duracao: number }> = ({ chave, indice, duracao }) => {
   const f = useCurrentFrame();
   const { imagem, tema, projeto } = useVideo();
+  const { largura, altura } = useQuadro();
   const est = projeto.estiloIA;
   // sem estilo de edição (vídeos antigos e modo bruto): grade, e a bandeira no tema Brasil
   const tipo = est?.dinamica === "minimal" ? "limpo" : est?.fundo ?? (tema.bandeira ? "bandeira" : "grade");
@@ -51,8 +52,8 @@ export const Fundo: React.FC<{ chave?: string; indice: number; duracao: number }
       />}
       {/* partículas (no tema Brasil, viram "estrelas" verdes, amarelas e brancas) */}
       {tipo !== "limpo" && Array.from({ length: tipo === "grade" || tipo === "bandeira" ? 14 : 6 }).map((_, i) => {
-        const x = (i * 137) % 1080;
-        const y = 1920 - ((f * (1 + (i % 4) * 0.6) + i * 210) % 2100);
+        const x = (i * 137) % largura;
+        const y = altura - ((f * (1 + (i % 4) * 0.6) + i * 210) % (altura + 180));
         const c = tema.bandeira ? [tema.amarelo, tema.verde, "#fff"][i % 3] : i % 3 ? tema.amarelo : "#fff";
         return <div key={i} style={{ position: "absolute", left: x, top: y, width: 6 + (i % 3) * 4, height: 6 + (i % 3) * 4, borderRadius: 99, background: c, opacity: 0.3 }} />;
       })}
@@ -81,7 +82,7 @@ const Ondas: React.FC<{ f: number }> = ({ f }) => {
   const linhas = [0, 1, 2, 3, 4];
   return (
     <AbsoluteFill style={{ opacity: 0.35 }}>
-      <svg width={1080} height={1920} viewBox="0 0 1080 1920">
+      <svg width="100%" height="100%" viewBox="0 0 1080 1920" preserveAspectRatio="none">
         {linhas.map((i) => {
           const y0 = 500 + i * 220;
           const pts = Array.from({ length: 28 }, (_, k) => {

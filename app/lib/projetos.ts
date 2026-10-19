@@ -160,13 +160,14 @@ export const criarBruto = async (p: Projeto, arquivo: File, tocavel: boolean, fa
 
 export type PedidoIA = NonNullable<Projeto["pedido"]>;
 
-export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: string, voz: string): Projeto => {
+export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: string, voz: string, formato: NonNullable<Projeto["formato"]> = "9:16"): Projeto => {
   const agora = new Date().toISOString();
   return {
     versao: 1, id, titulo, modo: "ia", estilo: "documentario", tema, criadoEm: agora, atualizadoEm: agora, status: "processando",
     legenda: { ...LEGENDA_PADRAO },
     efeitos: { ...structuredClone(EFEITOS_PADRAO), trilha: true },
     pedido,
+    formato,
     voz: { edge: voz, velocidade: "+5%" },
     cenas: [],
     narracao: {},

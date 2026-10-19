@@ -1,4 +1,4 @@
-// Renderiza o MP4 1080x1920 de um projeto (usado pela Action "Exportar" e localmente).
+// Renderiza o MP4 (1080x1920, ou 1920x1080 no formato 16:9) de um projeto (usado pela Action "Exportar" e localmente).
 // Uso: node scripts/renderizar.mjs <id> [saida.mp4]
 // - Copia projetos/<id>/ para public/projetos/<id>/ (de onde o Remotion lê áudio/imagens/vídeo).
 // - Modo bruto: se o vídeo não estiver na pasta, baixa da release "brutos" (<id>--fonte.mp4) com o gh.

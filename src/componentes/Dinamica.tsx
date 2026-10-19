@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, interpolate, random, useCurrentFrame } from "remotion";
-import { useVideo } from "../contexto";
+import { useQuadro, useVideo } from "../contexto";
 import { FONTE } from "../fontes";
 
 // "Dinâmica de edição" do Modo 1: como o vídeo se movimenta, além de cores e fontes.
@@ -61,14 +61,17 @@ export const Camera: React.FC<{ children: React.ReactNode }> = ({ children }) =>
   return <AbsoluteFill style={{ transform, filter }}>{children}</AbsoluteFill>;
 };
 
-const Grao: React.FC<{ f: number }> = ({ f }) => (
-  <AbsoluteFill style={{ opacity: 0.18, mixBlendMode: "overlay" }}>
-    <svg width="1080" height="1920">
-      <filter id="grao"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed={f % 12} /><feColorMatrix type="saturate" values="0" /></filter>
-      <rect width="1080" height="1920" filter="url(#grao)" />
-    </svg>
-  </AbsoluteFill>
-);
+const Grao: React.FC<{ f: number }> = ({ f }) => {
+  const { largura, altura } = useQuadro();
+  return (
+    <AbsoluteFill style={{ opacity: 0.18, mixBlendMode: "overlay" }}>
+      <svg width={largura} height={altura}>
+        <filter id="grao"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed={f % 12} /><feColorMatrix type="saturate" values="0" /></filter>
+        <rect width={largura} height={altura} filter="url(#grao)" />
+      </svg>
+    </AbsoluteFill>
+  );
+};
 
 // Camadas por cima das cenas (abaixo da legenda)
 export const Sobreposicao: React.FC = () => {
@@ -76,6 +79,7 @@ export const Sobreposicao: React.FC = () => {
   const { projeto, tema, linha } = useVideo();
   const d = useDinamica();
   const batidas = useBatidas();
+  const q = useQuadro();
 
   if (d === "cinema") {
     return (
@@ -95,7 +99,7 @@ export const Sobreposicao: React.FC = () => {
     const x = -((f * 6) % largura);
     return (
       <AbsoluteFill style={{ pointerEvents: "none" }}>
-        <div style={{ position: "absolute", left: 0, right: 0, top: 1580, height: 74, display: "flex", background: "#fff", overflow: "hidden" }}>
+        <div style={{ position: "absolute", left: 0, right: 0, top: q.horizontal ? q.altura - 114 : 1580, height: 74, display: "flex", background: "#fff", overflow: "hidden" }}>
           <div style={{ flexShrink: 0, background: tema.vermelho, color: "#fff", fontFamily: FONTE, fontWeight: 900, fontSize: 32, padding: "0 22px", display: "flex", alignItems: "center", gap: 10, zIndex: 1 }}>
             <span style={{ width: 14, height: 14, borderRadius: 99, background: "#fff", opacity: f % 30 < 15 ? 1 : 0.3 }} /> AO VIVO
           </div>
@@ -121,7 +125,7 @@ export const Sobreposicao: React.FC = () => {
             <AbsoluteFill style={{ background: tema.vermelho, mixBlendMode: "screen", opacity: 0.25 * forca, transform: `translateX(${12 * forca}px)` }} />
             <AbsoluteFill style={{ background: tema.azul, mixBlendMode: "screen", opacity: 0.25 * forca, transform: `translateX(${-12 * forca}px)` }} />
             {[0, 1, 2].map((i) => (
-              <div key={i} style={{ position: "absolute", left: 0, right: 0, top: random(`b${f}-${i}`) * 1920, height: 20 + random(`h${f}-${i}`) * 60, background: "rgba(255,255,255,.12)", transform: `translateX(${(random(`x${f}-${i}`) - 0.5) * 120}px)` }} />
+              <div key={i} style={{ position: "absolute", left: 0, right: 0, top: random(`b${f}-${i}`) * q.altura, height: 20 + random(`h${f}-${i}`) * 60, background: "rgba(255,255,255,.12)", transform: `translateX(${(random(`x${f}-${i}`) - 0.5) * 120}px)` }} />
             ))}
           </>
         )}
@@ -132,9 +136,9 @@ export const Sobreposicao: React.FC = () => {
   if (d === "colagem") {
     return (
       <AbsoluteFill style={{ pointerEvents: "none", mixBlendMode: "overlay", opacity: 0.35 }}>
-        <svg width="1080" height="1920">
+        <svg width={q.largura} height={q.altura}>
           <filter id="papel"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed={Math.floor(f / 3)} /><feColorMatrix type="saturate" values="0" /></filter>
-          <rect width="1080" height="1920" filter="url(#papel)" />
+          <rect width={q.largura} height={q.altura} filter="url(#papel)" />
         </svg>
       </AbsoluteFill>
     );

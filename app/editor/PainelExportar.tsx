@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import * as gh from "../lib/github";
+import { quadroDe } from "../../src/linhaTempo";
 import { estaSujo, exportar, listarExportes } from "../lib/projetos";
 import { avisar, avisarErro, ir } from "../ui";
 import { useEditor } from "./contexto";
@@ -89,7 +90,7 @@ export const PainelExportar: React.FC<{ salvar: () => Promise<void> }> = ({ salv
   return (
     <div>
       <div className="cartao">
-        <b>🎬 Exportar MP4 1080×1920</b>
+        <b>🎬 Exportar MP4 {quadroDe(p).largura}×{quadroDe(p).altura}</b>
         <p className="pequeno suave">Salva o projeto no GitHub e pede o render ao GitHub Actions. Leva alguns minutos; você pode fechar o app e voltar depois.</p>
         {estaSujo(p.id) && <p className="pequeno">Há alterações ainda não salvas no GitHub — elas vão junto.</p>}
         <button className="btn prim largo" disabled={!!ocupado} onClick={async () => {

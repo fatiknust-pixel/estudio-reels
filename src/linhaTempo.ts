@@ -4,6 +4,17 @@ import { Corte, ElementoCena, Palavra, Projeto } from "./tipos";
 export const FPS = 30;
 export const LARGURA = 1080;
 export const ALTURA = 1920;
+
+// Quadro do vídeo. No 16:9 (modo IA) os elementos, desenhados para a coluna de 1080 px do vertical,
+// ficam num painel à direita (a faixa y 190–1450 do vertical vira y 130–1000, livre das faixas do "cinema")
+// e a legenda na coluna da esquerda.
+export type Quadro = { largura: number; altura: number; horizontal: boolean; palco: { x: number; y: number; escala: number } | null; texto: number };
+export const quadroDe = (p: Projeto): Quadro => {
+  if (p.modo !== "ia" || p.formato !== "16:9") return { largura: LARGURA, altura: ALTURA, horizontal: false, palco: null, texto: LARGURA };
+  const escala = 870 / 1260;
+  const x = ALTURA - LARGURA * escala - 40;
+  return { largura: ALTURA, altura: LARGURA, horizontal: true, palco: { x, y: 130 - 190 * escala, escala }, texto: x };
+};
 const FOLGA_INICIO = 2; // frames antes da voz começar (entra a transição)
 const FOLGA_FIM = 0.18; // respiro depois da última palavra
 

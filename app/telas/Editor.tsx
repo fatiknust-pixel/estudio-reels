@@ -1,7 +1,7 @@
 import { Player, PlayerRef } from "@remotion/player";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Composicao } from "../../src/Composicao";
-import { ALTURA, FPS, LARGURA, montarLinha } from "../../src/linhaTempo";
+import { FPS, montarLinha, quadroDe } from "../../src/linhaTempo";
 import { Projeto } from "../../src/tipos";
 import { EditorCtx, ProvedorEditor, useEditor, useFrame, useTocando } from "../editor/contexto";
 import { PainelCenas } from "../editor/PainelCenas";
@@ -105,6 +105,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
   }, [p, aba]);
   const linha = useMemo(() => (previa ? montarLinha(previa) : null), [previa]);
   const props = useMemo(() => (previa ? { projeto: previa, arquivos } : null), [previa, arquivos]);
+  const quadro = useMemo(() => (previa ? quadroDe(previa) : null), [previa]);
 
   if (erro) {
     return (
@@ -114,7 +115,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
       </div>
     );
   }
-  if (!p || !linha || !props || !aba) return <div className="carregando">Abrindo projeto…</div>;
+  if (!p || !linha || !props || !quadro || !aba) return <div className="carregando">Abrindo projeto…</div>;
 
   const ctx: EditorCtx = {
     projeto: p,
@@ -201,15 +202,15 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
         )}
         <div className="ed-corpo">
           <div className="ed-previa">
-            <div className="player">
+            <div className={quadro.horizontal ? "player horizontal" : "player"}>
               <Player
                 ref={ref}
                 component={Composicao}
                 inputProps={props}
                 durationInFrames={linha.duracao}
                 fps={FPS}
-                compositionWidth={LARGURA}
-                compositionHeight={ALTURA}
+                compositionWidth={quadro.largura}
+                compositionHeight={quadro.altura}
                 style={{ width: "100%", height: "100%" }}
                 clickToPlay
                 doubleClickToFullscreen

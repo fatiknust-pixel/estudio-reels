@@ -4,7 +4,7 @@ import { ProvedorVideo } from "./contexto";
 import { CamadaEfeitos } from "./componentes/Efeitos";
 import { Legenda } from "./componentes/Legenda";
 import { carregarFontes, FONTES } from "./fontes";
-import { montarLinha } from "./linhaTempo";
+import { montarLinha, quadroDe } from "./linhaTempo";
 import { ModoBruto } from "./ModoBruto";
 import { ModoIA } from "./ModoIA";
 import { temaDe } from "./temas";
@@ -24,6 +24,7 @@ export const Composicao: React.FC<PropsVideo> = ({ projeto, arquivos }) => (
   </ProvedorVideo>
 );
 
-export const calcularMetadados: CalculateMetadataFunction<PropsVideo> = ({ props }) => ({
-  durationInFrames: montarLinha(props.projeto).duracao,
-});
+export const calcularMetadados: CalculateMetadataFunction<PropsVideo> = ({ props }) => {
+  const q = quadroDe(props.projeto);
+  return { durationInFrames: montarLinha(props.projeto).duracao, width: q.largura, height: q.altura };
+};

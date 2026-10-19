@@ -3,7 +3,7 @@
 import React from "react";
 import { AbsoluteFill, Audio, interpolate, Sequence, spring, useCurrentFrame } from "remotion";
 import { arquivoGlobal } from "../arquivos";
-import { corDe, useVideo } from "../contexto";
+import { corDe, useQuadro, useVideo } from "../contexto";
 import { FONTE } from "../fontes";
 import { FPS } from "../linhaTempo";
 import CATALOGO from "../estilos-ia.json";
@@ -35,8 +35,9 @@ const TituloTela: React.FC<{ texto: string; sub?: string; posicao: number; cor?:
   const m2 = spring({ frame: f - 6, fps: FPS, config: { damping: 13 } });
   const saida = interpolate(f, [dur - 7, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const escuro = /^#(F|E|D)/i.test(c);
+  const { altura } = useQuadro();
   return (
-    <AbsoluteFill style={{ top: (posicao / 100) * 1920 - 80, bottom: "auto", alignItems: "center", opacity: saida }}>
+    <AbsoluteFill style={{ top: (posicao / 100) * altura - 80, bottom: "auto", alignItems: "center", opacity: saida }}>
       <div style={{ transform: `skewX(-8deg) scaleX(${m})`, background: c, padding: "14px 40px", borderRadius: 14, boxShadow: `0 0 60px ${c}66`, maxWidth: 980 }}>
         <div style={{ transform: "skewX(8deg)", fontFamily: FONTE, fontWeight: 900, fontSize: 72, color: escuro ? "#111" : "#fff", letterSpacing: -1, textAlign: "center", lineHeight: 1.05, opacity: m }}>
           {texto}
@@ -56,8 +57,9 @@ const EmojiTela: React.FC<{ emoji: string; x: number; y: number; tamanho: number
   const m = spring({ frame: f, fps: FPS, config: { damping: 8, stiffness: 160, mass: 0.6 } });
   const saida = interpolate(f, [dur - 6, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const balanco = Math.sin(f / 5) * 6;
+  const { largura, altura } = useQuadro();
   return (
-    <div style={{ position: "absolute", left: (x / 100) * 1080 - tamanho / 2, top: (y / 100) * 1920 - tamanho / 2, width: tamanho, height: tamanho, fontSize: tamanho * 0.85, lineHeight: 1, textAlign: "center", transform: `scale(${m * saida}) rotate(${balanco}deg)`, filter: "drop-shadow(0 10px 18px rgba(0,0,0,.5))" }}>
+    <div style={{ position: "absolute", left: (x / 100) * largura - tamanho / 2, top: (y / 100) * altura - tamanho / 2, width: tamanho, height: tamanho, fontSize: tamanho * 0.85, lineHeight: 1, textAlign: "center", transform: `scale(${m * saida}) rotate(${balanco}deg)`, filter: "drop-shadow(0 10px 18px rgba(0,0,0,.5))" }}>
       {emoji}
     </div>
   );

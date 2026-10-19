@@ -57,6 +57,7 @@
    ]
   }
  },
+ "formato": "16:9",
  "voz": {
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"

@@ -1,12 +1,13 @@
 import React, { createContext, useContext, useMemo } from "react";
 import { arquivoProjeto } from "./arquivos";
-import { LinhaTempo, montarLinha } from "./linhaTempo";
+import { LinhaTempo, montarLinha, Quadro, quadroDe } from "./linhaTempo";
 import { Tema, temaDe } from "./temas";
 import { Projeto } from "./tipos";
 
 export type VideoCtx = {
   projeto: Projeto;
   linha: LinhaTempo;
+  quadro: Quadro;
   tema: Tema;
   arquivo: (p?: string) => string | null;
   imagem: (chave?: string) => string | null;
@@ -23,6 +24,7 @@ export const ProvedorVideo: React.FC<{ projeto: Projeto; arquivos?: Record<strin
     return {
       projeto,
       linha: montarLinha(projeto),
+      quadro: quadroDe(projeto),
       tema: temaDe(projeto.tema),
       arquivo,
       imagem: (chave) => (chave && imgs[chave] ? arquivo(imgs[chave].arquivo) : null),
@@ -44,6 +46,7 @@ export const useVideo = () => {
 };
 
 export const useCor = (): Tema => useVideo().tema;
+export const useQuadro = (): Quadro => useVideo().quadro;
 
 // "amarelo", "vermelho"... → cor do tema atual (ou uma cor CSS direta)
 export const corDe = (t: Tema, nome?: string) => (nome && ((t as any)[nome] || (nome.startsWith("#") ? nome : null))) || t.amarelo;

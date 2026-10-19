@@ -87,6 +87,7 @@ input[type="color"] { width: 44px; height: 44px; border: none; background: none;
 .ed-corpo { flex: 1; min-height: 0; display: flex; flex-direction: column; }
 .ed-previa { display: flex; flex-direction: column; align-items: center; padding: 8px 0 4px; background: #05060a; }
 .ed-previa .player { height: min(46dvh, 560px); aspect-ratio: 9 / 16; border-radius: 12px; overflow: hidden; background: #000; }
+.ed-previa .player.horizontal { height: auto; width: min(100%, 820px); aspect-ratio: 16 / 9; }
 .ed-controles { display: flex; align-items: center; gap: 8px; padding: 6px 10px; width: 100%; max-width: 560px; }
 .ed-controles .tempo { font-variant-numeric: tabular-nums; font-size: 14px; color: var(--suave); min-width: 92px; text-align: center; }
 .ed-controles input[type="range"] { flex: 1; }
