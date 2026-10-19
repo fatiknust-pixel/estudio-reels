@@ -174,3 +174,9 @@ input[type="color"] { width: 44px; height: 44px; border: none; background: none;
 .vazio-lista { padding: 18px; text-align: center; color: var(--suave); border: 1px dashed var(--linha); border-radius: 14px; font-size: 14px; }
 .girando { display: inline-block; animation: girar 2s linear infinite; }
 @keyframes girar { to { transform: rotate(360deg); } }
+.generos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+@media (min-width: 560px) { .generos { grid-template-columns: repeat(4, 1fr); } }
+.genero-op { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px; border-radius: 12px; border: 2px solid var(--linha); background: var(--card); cursor: pointer; text-align: center; min-height: 70px; }
+.genero-op .e { font-size: 24px; }
+.genero-op b { font-size: 12px; line-height: 1.2; }
+.genero-op.on { border-color: var(--acc); }

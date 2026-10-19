@@ -151,6 +151,26 @@ export const PainelCenas: React.FC = () => {
                   {imagens.map((i) => <option key={i} value={i}>{p.imagens![i].rotulo ?? i}</option>)}
                 </select>
               </label>
+              {imagens.length > 1 && (
+                <div className="campo">
+                  <span className="pequeno suave">Galeria — fotos que se sucedem durante a cena (estilo documentário), na ordem em que você tocar</span>
+                  <div className="chips" style={{ marginTop: 6 }}>
+                    {imagens.map((i) => {
+                      const pos = (c.galeria ?? []).indexOf(i);
+                      return (
+                        <button key={i} className={"chip" + (pos >= 0 ? " on" : "")} style={{ fontWeight: 500 }}
+                          onClick={() => mudarCena(k, (x) => {
+                            const g = x.galeria ?? [];
+                            x.galeria = pos >= 0 ? g.filter((y) => y !== i) : [...g, i];
+                            if (!x.galeria.length) x.galeria = undefined;
+                          })}>
+                          {pos >= 0 ? `${pos + 1}. ` : "+ "}{p.imagens![i].rotulo ?? i}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
               <div className="campo">
                 <span className="pequeno suave">Fontes mostradas na tela</span>
                 {(c.fontes ?? []).map((t, i) => (

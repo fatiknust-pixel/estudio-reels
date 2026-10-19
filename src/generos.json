@@ -1,0 +1,133 @@
+{
+  "_comentario": "Gêneros do Modo 1 (estilo 'canal dark': narração + imagens/animações, sem rosto). O app usa formato, duração, tom e estilo como ponto de partida; as instruções vão no pedido para o Claude. galeria = cenas com várias fotos se sucedendo (estilo documentário).",
+  "generos": [
+    {
+      "id": "documentario", "nome": "Documentário", "emoji": "🌍",
+      "descricao": "Países, cidades, governos e civilizações: narração contínua com fotos reais em tela cheia.",
+      "formato": "16:9", "duracao": 600, "tom": "Documentário sério e envolvente, narrador em terceira pessoa", "galeria": true,
+      "estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "zoom", "fundo": "limpo", "musica": "epica", "paleta": "documentario", "fonte": "playfair", "formato": "explicativo" },
+      "instrucoes": "Documentário narrado (estilo canal dark): a imagem é a protagonista. Cada cena tem 'galeria' com 2 a 4 fotos reais do assunto (lugares, pessoas, mapas, prédios, época), que vão se sucedendo enquanto o narrador fala; 15 a 30 imagens no total, sem repetir. Use poucos elementos animados (0 a 2 por cena: titulo para capítulos, linha para datas, contador para números grandes). Abra com uma pergunta ou um fato surpreendente, divida em capítulos (titulo com o nome do capítulo) e feche com uma reflexão e um convite para se inscrever (seguir com 'INSCREVA-SE').",
+      "temas": ["Brasília: a capital construída em 41 meses", "Como o Japão se reergueu depois da Segunda Guerra", "Singapura: de pântano a potência mundial", "Dubai: como o deserto virou metrópole", "Islândia: o país que prendeu os banqueiros", "Chernobyl: o que aconteceu de verdade", "A queda do Império Romano", "Coreia do Norte: como funciona o país mais fechado do mundo"]
+    },
+    {
+      "id": "historia", "nome": "História", "emoji": "🏛️",
+      "descricao": "Guerras, impérios e revoluções contados como uma boa história, em ordem.",
+      "formato": "16:9", "duracao": 600, "tom": "Narrativo e dramático, sem exagerar os fatos", "galeria": true,
+      "estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "zoom", "fundo": "ondas", "musica": "epica", "paleta": "pordosol", "fonte": "playfair", "formato": "linha-do-tempo" },
+      "instrucoes": "História contada em ordem cronológica, como uma narrativa (personagens, conflito, virada, consequências). Cada cena tem 'galeria' com 2 a 4 imagens de época (pinturas, gravuras, fotos antigas, mapas, documentos) — Wikimedia tem muito material em domínio público. Use 'linha' e 'titulo' com o ano para marcar a passagem do tempo. Separe fato de lenda e desmonte mitos comuns. Feche com o impacto do evento até hoje e o convite para se inscrever.",
+      "temas": ["A Independência do Brasil sem os mitos", "Como funcionava o Império Mongol", "A Guerra do Paraguai explicada", "A Revolta da Vacina de 1904", "O que foi a Guerra Fria", "Vikings: como viviam de verdade", "Como construíram as pirâmides do Egito", "A Revolução Francesa em 10 minutos"]
+    },
+    {
+      "id": "biografia", "nome": "Biografias", "emoji": "👤",
+      "descricao": "A vida de quem mudou o mundo: origem, virada, glória e legado.",
+      "formato": "16:9", "duracao": 480, "tom": "Inspirador e humano, sem endeusar", "galeria": true,
+      "estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "circulo", "fundo": "limpo", "musica": "epica", "paleta": "documentario", "fonte": "raleway", "formato": "linha-do-tempo" },
+      "instrucoes": "Biografia em ordem: infância e origem, o momento de virada, as conquistas, os erros/polêmicas (com equilíbrio) e o legado. Cada cena tem 'galeria' com 2 a 3 imagens (fotos da pessoa em várias fases, lugares onde viveu, obras/invenções). Use 'pessoa' na primeira aparição e 'linha' com as datas principais. Cite frases reais só com fonte.",
+      "temas": ["Santos Dumont: o homem que fez o avião voar", "Marie Curie: a cientista que ganhou dois Nobel", "Nikola Tesla: o gênio esquecido", "Ayrton Senna: a vida de uma lenda", "Machado de Assis: de menino pobre a maior escritor do Brasil", "Steve Jobs: da garagem à Apple", "Pelé: como nasceu o Rei do Futebol", "Albert Einstein além da teoria da relatividade"]
+    },
+    {
+      "id": "resumo-filme", "nome": "Resumo de filme e série", "emoji": "🎬",
+      "descricao": "A história de um filme ou série do começo ao fim, com contexto e bastidores.",
+      "formato": "16:9", "duracao": 480, "tom": "Contador de histórias empolgado, com aviso de spoiler", "galeria": false,
+      "estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "deslize", "fundo": "pontos", "musica": "tensao", "paleta": "grafite", "fonte": "oswald", "formato": "explicativo" },
+      "instrucoes": "Resumo narrado de um filme ou série: comece avisando que tem spoiler, apresente a premissa, conte a trama em ordem e explique o final; acrescente bastidores e curiosidades reais (com fonte). Cenas e imagens de filmes têm direitos autorais e NÃO estão no Wikimedia: use só imagens livres — fotos dos atores e do diretor, locações reais, objetos e época da história — e complete com elementos animados (titulo com o nome dos personagens, linha do tempo da trama, definicao para conceitos do filme, check para 'o que é real e o que é ficção').",
+      "temas": ["Interestelar: o final explicado", "A Origem: o que acontece no final", "Cidade de Deus: a história real por trás do filme", "O Poderoso Chefão resumido", "Breaking Bad: a transformação de Walter White", "Matrix: o que significa a pílula vermelha", "Titanic: o que é real e o que é ficção", "Tropa de Elite: contexto e bastidores"]
+    },
+    {
+      "id": "misterios", "nome": "Mistérios e casos reais", "emoji": "🕵️",
+      "descricao": "Desaparecimentos, enigmas e casos sem explicação, com o que se sabe de verdade.",
+      "formato": "16:9", "duracao": 480, "tom": "Investigativo e misterioso, mas factual", "galeria": true,
+      "estilo": { "dinamica": "minimal", "legenda": "discreta", "transicao": "circulo", "fundo": "pontos", "musica": "tensao", "paleta": "grafite", "fonte": "robotoslab", "formato": "linha-do-tempo" },
+      "instrucoes": "Narrativa investigativa: apresente o caso com suspense, reconstrua os fatos em ordem, mostre as principais hipóteses deixando claro o que é FATO comprovado e o que é TEORIA (carimbo 'TEORIA' / 'FATO'), e termine com o que se sabe hoje. Respeito às vítimas e às famílias: nada de detalhes gráficos nem sensacionalismo. 'galeria' com 2 a 3 imagens por cena (locais, mapas, objetos, documentos).",
+      "temas": ["Voo MH370: o que se sabe até hoje", "Triângulo das Bermudas: mito ou verdade", "O desaparecimento da colônia de Roanoke", "O sinal Wow!: a mensagem vinda do espaço", "O Incidente do Passo Dyatlov", "O Manuscrito Voynich: o livro que ninguém consegue ler", "O caso do ET de Varginha", "As Linhas de Nazca"]
+    },
+    {
+      "id": "curiosidades", "nome": "Curiosidades rápidas", "emoji": "🤯",
+      "descricao": "Fatos surpreendentes em ritmo acelerado — o clássico dos Shorts e Reels.",
+      "formato": "9:16", "duracao": 60, "tom": "Curioso e animado", "galeria": false,
+      "estilo": { "dinamica": "energetica", "legenda": "palavra", "transicao": "zoom", "fundo": "raios", "musica": "leve", "paleta": "neon", "fonte": "anton", "formato": "lista" },
+      "instrucoes": "Curiosidade rápida: gancho nos 2 primeiros segundos ('Você sabia que…?'), 4 a 6 fatos curtos e verificados, um por cena, com muitos elementos animados (contador, icones, carimbo), e um final que puxa comentário.",
+      "temas": ["O que acontece com seu corpo quando você dorme", "Por que o céu é azul?", "Animais que parecem de outro planeta", "Coisas que você não sabia sobre o Brasil", "Por que o mar é salgado?", "O que aconteceria se a Lua sumisse?", "Por que bocejar é contagioso?", "Quanto tempo uma pessoa fica sem dormir?"]
+    },
+    {
+      "id": "ranking", "nome": "Top 10 e rankings", "emoji": "🏆",
+      "descricao": "Listas numeradas do 10 ao 1, com um item por cena e o melhor no final.",
+      "formato": "16:9", "duracao": 480, "tom": "Empolgante, com suspense até o número 1", "galeria": true,
+      "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "flash", "fundo": "raios", "musica": "leve", "paleta": "fogo", "fonte": "oswald", "formato": "lista" },
+      "instrucoes": "Ranking do 10 ao 1 (contagem regressiva): cada item é uma cena com 'titulo' 'Nº X — NOME', 'galeria' com 2 imagens do item e um dado que justifique a posição (contador, placar). Diga o critério do ranking no começo e mantenha o suspense até o número 1. Dados com fonte.",
+      "temas": ["As 10 maiores cidades do mundo", "Os 10 lugares mais perigosos do planeta", "10 invenções que mudaram o mundo", "Os 10 países mais ricos e por quê", "Os 10 animais mais venenosos", "As 10 maiores construções da história", "10 maiores descobertas da ciência", "Os 10 rios mais longos do mundo"]
+    },
+    {
+      "id": "ciencia-espaco", "nome": "Ciência e espaço", "emoji": "🚀",
+      "descricao": "Universo, planetas e grandes descobertas, com imagens reais da NASA e da ESA.",
+      "formato": "16:9", "duracao": 480, "tom": "Fascinante e didático", "galeria": true,
+      "estilo": { "dinamica": "minimal", "legenda": "karaoke", "transicao": "zoom", "fundo": "pontos", "musica": "epica", "paleta": "oceano", "fonte": "inter", "formato": "explicativo" },
+      "instrucoes": "Divulgação científica: explique do simples ao complexo, com comparações do dia a dia (escala, tempo, distância — use contador). Imagens da NASA/ESA/telescópios estão em domínio público no Wikimedia: 'galeria' com 2 a 4 delas por cena. Use definicao para termos técnicos. Nada de afirmar como certo o que ainda é hipótese.",
+      "temas": ["Como uma estrela morre", "Buracos negros explicados", "Apollo 11: a chegada à Lua minuto a minuto", "Existe vida em Marte?", "O que o telescópio James Webb descobriu", "Quanto tempo levaria para chegar a outra estrela", "O que tem dentro de Júpiter", "Como surgiu o universo"]
+    },
+    {
+      "id": "lugares", "nome": "Lugares incríveis e abandonados", "emoji": "🏚️",
+      "descricao": "Cidades fantasmas, ilhas proibidas e lugares extremos do planeta.",
+      "formato": "16:9", "duracao": 480, "tom": "Contemplativo e misterioso", "galeria": true,
+      "estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "zoom", "fundo": "limpo", "musica": "epica", "paleta": "documentario", "fonte": "raleway", "formato": "lista" },
+      "instrucoes": "Viagem narrada por lugares reais: para cada lugar, onde fica (mapa ou tag com o país), a história de como surgiu ou foi abandonado e como está hoje. 'galeria' com 3 a 4 fotos por lugar. Nada de inventar lendas como se fossem fatos.",
+      "temas": ["Cidades fantasmas do Brasil", "Pripyat, a cidade abandonada de Chernobyl", "Os lugares mais remotos da Terra", "Fordlândia: a cidade de Henry Ford na Amazônia", "Ilha da Queimada Grande, a ilha das cobras", "Hashima, a ilha abandonada do Japão", "Os lugares mais frios habitados do mundo", "Petra: a cidade esculpida na rocha"]
+    },
+    {
+      "id": "mitologia", "nome": "Mitologia e lendas", "emoji": "🐉",
+      "descricao": "Deuses, heróis e folclore contados como histórias épicas.",
+      "formato": "16:9", "duracao": 480, "tom": "Épico, como um contador de lendas", "galeria": true,
+      "estilo": { "dinamica": "colagem", "legenda": "karaoke", "transicao": "deslize", "fundo": "ondas", "musica": "epica", "paleta": "pordosol", "fonte": "robotoslab", "formato": "explicativo" },
+      "instrucoes": "Conte o mito como uma história (personagens, conflito, desfecho) e explique a origem e o significado cultural. Deixe claro que é mitologia/folclore. 'galeria' com pinturas, esculturas e ilustrações clássicas do Wikimedia (2 a 3 por cena); use 'pessoa' para apresentar deuses e heróis com a imagem de uma obra de arte.",
+      "temas": ["Os 12 trabalhos de Hércules", "Ragnarök: o fim do mundo na mitologia nórdica", "O Saci e o folclore brasileiro", "Medusa: a história completa", "Os principais deuses do Egito", "A lenda do Curupira", "O Rei Arthur existiu?", "A lenda de Iara, a mãe d'água"]
+    },
+    {
+      "id": "terror", "nome": "Lendas de terror", "emoji": "👻",
+      "descricao": "Lendas urbanas e histórias assustadoras — sempre como lenda, nunca como fato.",
+      "formato": "9:16", "duracao": 90, "tom": "Sombrio e tenso, sem violência gráfica", "galeria": false,
+      "estilo": { "dinamica": "glitch", "legenda": "palavra", "transicao": "flash", "fundo": "pontos", "musica": "tensao", "paleta": "grafite", "fonte": "bebas", "formato": "explicativo" },
+      "instrucoes": "Conte a lenda com clima de suspense (pausas, frases curtas, viradas) e depois mostre a origem real dela (de onde surgiu, por que se espalhou). Deixe claro que é lenda ou ficção. Sem violência gráfica e sem assustar com informação falsa sobre pessoas reais. Use carimbo 'LENDA' e elementos 'pergunta' para criar tensão.",
+      "temas": ["A Loira do Banheiro: de onde veio a lenda", "O Homem do Saco", "A lenda do Corpo Seco", "Slender Man: como nasceu um mito da internet", "A Mulher de Branco", "Bloody Mary: a lenda do espelho", "A lenda da Cuca", "O Chupa-Cabra no Brasil"]
+    },
+    {
+      "id": "economia", "nome": "Economia e dinheiro", "emoji": "💰",
+      "descricao": "Crises, inflação, empresas e dinheiro explicados de um jeito simples.",
+      "formato": "16:9", "duracao": 480, "tom": "Didático e direto, sem dar recomendação de investimento", "galeria": false,
+      "estilo": { "dinamica": "jornal", "legenda": "caixa", "transicao": "deslize", "fundo": "grade", "musica": "tensao", "paleta": "noticia", "fonte": "oswald", "formato": "explicativo" },
+      "instrucoes": "Explique economia para leigos: comece pelo efeito no bolso das pessoas, depois as causas e os números (contador, placar, linha com datas), sempre com fonte (IBGE, Banco Central, FMI). Nada de recomendação de investimento nem promessa de ganho. Use definicao para cada termo técnico.",
+      "temas": ["Por que o real perdeu valor desde 1994", "Como funciona a inflação", "A crise de 2008 explicada", "Por que a Argentina vive em crise", "Como os bancos criam dinheiro", "O que é a taxa Selic e por que ela importa", "Hiperinflação no Brasil: como foi viver nos anos 80", "Como a China ficou rica"]
+    },
+    {
+      "id": "geopolitica", "nome": "Geopolítica", "emoji": "🗺️",
+      "descricao": "Guerras, fronteiras e disputas entre países, com contexto e neutralidade.",
+      "formato": "16:9", "duracao": 600, "tom": "Analítico e neutro", "galeria": true,
+      "estilo": { "dinamica": "jornal", "legenda": "caixa", "transicao": "flash", "fundo": "grade", "musica": "tensao", "paleta": "noticia", "fonte": "oswald", "formato": "comparacao" },
+      "instrucoes": "Análise geopolítica neutra: contexto histórico, interesses de cada lado (placar/comparação lado a lado), o que está em jogo e cenários possíveis. Atribua as afirmações ('segundo a ONU…'), use várias fontes e não tome partido. 'galeria' com mapas, líderes e lugares (2 a 3 por cena); 'mapa' para movimentos entre países.",
+      "temas": ["Por que a Rússia invadiu a Ucrânia", "China e Taiwan explicado", "O conflito Israel-Palestina em contexto", "Por que a Coreia está dividida", "O que é a OTAN e por que ela existe", "A disputa pelo Ártico", "Por que a Venezuela entrou em crise", "Como funciona a ONU"]
+    },
+    {
+      "id": "tecnologia", "nome": "Tecnologia e empresas", "emoji": "💻",
+      "descricao": "Ascensão e queda de marcas, invenções e como a tecnologia funciona por dentro.",
+      "formato": "16:9", "duracao": 480, "tom": "Curioso e analítico", "galeria": true,
+      "estilo": { "dinamica": "glitch", "legenda": "palavra", "transicao": "deslize", "fundo": "pontos", "musica": "leve", "paleta": "neon", "fonte": "poppins", "formato": "linha-do-tempo" },
+      "instrucoes": "Conte a história de uma empresa ou tecnologia como uma jornada (começo humilde, auge, erro decisivo ou virada, hoje), com números (contador) e datas (linha) com fonte. 'galeria' com fotos de produtos, fundadores e sedes (2 a 3 por cena).",
+      "temas": ["Nokia: do topo do mundo à queda", "Como o Google ficou gigante", "A ascensão e queda do Orkut", "Como funciona a inteligência artificial", "A história do Bitcoin", "Por que a Kodak faliu", "Como a Apple quase faliu antes do iPhone", "A história da internet no Brasil"]
+    },
+    {
+      "id": "natureza", "nome": "Animais e natureza", "emoji": "🦁",
+      "descricao": "O mundo animal e os fenômenos da natureza, com fotos impressionantes.",
+      "formato": "16:9", "duracao": 480, "tom": "Encantado e informativo", "galeria": true,
+      "estilo": { "dinamica": "minimal", "legenda": "karaoke", "transicao": "zoom", "fundo": "ondas", "musica": "leve", "paleta": "oceano", "fonte": "inter", "formato": "lista" },
+      "instrucoes": "Natureza narrada estilo documentário de TV: 'galeria' com 3 a 4 fotos por cena (o Wikimedia tem ótimas fotos de animais e paisagens), fatos verificados com números (contador) e comparações com o corpo humano. Nada de antropomorfizar como fato.",
+      "temas": ["Os animais mais inteligentes do planeta", "Como os polvos pensam", "A migração dos gnus na África", "O Pantanal: o maior alagado do mundo", "Por que os tubarões são essenciais", "Animais que vivem mais de 100 anos", "Como nascem os vulcões", "A vida no fundo do oceano"]
+    },
+    {
+      "id": "reflexao", "nome": "Reflexões e estoicismo", "emoji": "🧘",
+      "descricao": "Filosofia aplicada ao dia a dia, com citações reais e ritmo calmo.",
+      "formato": "16:9", "duracao": 360, "tom": "Calmo, reflexivo e sem promessas milagrosas", "galeria": true,
+      "estilo": { "dinamica": "minimal", "legenda": "discreta", "transicao": "circulo", "fundo": "limpo", "musica": "leve", "paleta": "grafite", "fonte": "playfair", "formato": "explicativo" },
+      "instrucoes": "Reflexão filosófica aplicada à vida: apresente a ideia, o filósofo (pessoa), a citação REAL com a obra de origem (ex.: 'Meditações, livro IV') e exemplos práticos de hoje. Ritmo calmo, frases completas. 'galeria' com estátuas, pinturas e paisagens (2 por cena). Nada de promessas de sucesso ou riqueza.",
+      "temas": ["O que Marco Aurélio faria no seu lugar", "Sêneca e a brevidade da vida", "Epicteto: o que está sob o seu controle", "Memento mori: lembre-se de que vai morrer", "Amor fati: amar o próprio destino", "Diógenes, o filósofo que vivia num barril", "O mito da caverna de Platão hoje", "Por que sofremos mais na imaginação do que na realidade"]
+    }
+  ]
+}

@@ -25,7 +25,7 @@ concurrency:
 jobs:
   gerar:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     env:
       ID: ${{ inputs.projeto }}
     steps:
@@ -65,7 +65,8 @@ jobs:
             Você é roteirista e pesquisador de vídeos curtos 9:16 (Reels/TikTok) em português do Brasil.
 
             1. Leia `docs/guia-roteiro.md` e siga-o à risca (inclusive "Estilo de edição" e "Regra de variedade"). Use `app/demos/demo-ia.json` (campo `cenas`) como exemplo de qualidade.
-            2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao` em segundos).
+            2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao` em segundos;
+               `genero` quando houver — siga as instruções do gênero; e o campo `formato` do projeto: 9:16 ou 16:9).
             3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
             3b. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
                e escolha o `estilo` deste vídeo: o que vier fixo em `pedido.estilo` é obrigatório; onde estiver "auto",
@@ -79,7 +80,7 @@ jobs:
 
             Não altere nenhum outro arquivo e não faça commit.
           claude_args: |
-            --max-turns 80
+            --max-turns 140
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(node scripts/validar-roteiro.mjs:*),Bash(node scripts/estilo-ia.mjs:*)"
 
       - name: Conferir roteiro

@@ -25,7 +25,7 @@ export const PainelImagens: React.FC = () => {
   const entrada = useRef<HTMLInputElement>(null);
   const [alvo, setAlvo] = useState<string | null>(null);
   const imagens = Object.entries(p.imagens ?? {});
-  const usos = (k: string) => (p.cenas ?? []).filter((c) => c.fundo === k || c.elementos.some((e) => e.imagem === k)).length;
+  const usos = (k: string) => (p.cenas ?? []).filter((c) => c.fundo === k || (c.galeria ?? []).includes(k) || c.elementos.some((e) => e.imagem === k)).length;
 
   const escolherFoto = (chave: string) => {
     setAlvo(chave);

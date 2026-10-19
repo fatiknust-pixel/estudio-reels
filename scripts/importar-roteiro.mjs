@@ -12,7 +12,7 @@ const roteiro = ler("roteiro.json");
 const imagensCfg = fs.existsSync(path.join(pasta, "imagens.json")) ? ler("imagens.json") : {};
 
 projeto.titulo = roteiro.titulo || projeto.titulo;
-projeto.cenas = roteiro.cenas.map((c) => ({ id: c.id, texto: c.texto.trim(), fundo: c.fundo || undefined, fontes: c.fontes ?? [], elementos: c.elementos ?? [] }));
+projeto.cenas = roteiro.cenas.map((c) => ({ id: c.id, texto: c.texto.trim(), fundo: c.fundo || undefined, galeria: Array.isArray(c.galeria) && c.galeria.length ? c.galeria : undefined, fontes: c.fontes ?? [], elementos: c.elementos ?? [] }));
 projeto.fontesPesquisa = roteiro.fontesPesquisa ?? [];
 if (roteiro.legenda?.palavrasPorTela) projeto.legenda = { ...projeto.legenda, palavrasPorTela: roteiro.legenda.palavrasPorTela };
 aplicarEstilo(projeto, roteiro.estilo);

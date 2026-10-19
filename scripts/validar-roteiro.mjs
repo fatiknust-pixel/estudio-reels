@@ -61,6 +61,10 @@ if (roteiro) {
     palavras += ws.length;
     const normas = ws.map(norm);
     if (c.fundo && !imagens[c.fundo]) erros.push(`${onde}: fundo "${c.fundo}" não está no imagens.json`);
+    if (c.galeria !== undefined) {
+      if (!Array.isArray(c.galeria)) erros.push(`${onde}: galeria deve ser uma lista de chaves`);
+      else for (const k of c.galeria) if (!imagens[k]) erros.push(`${onde}: galeria tem "${k}", que não está no imagens.json`);
+    }
     if (c.fontes && !Array.isArray(c.fontes)) erros.push(`${onde}: fontes deve ser uma lista`);
     for (const [i, e] of (c.elementos ?? []).entries()) {
       const el = `${onde}, elemento ${i + 1} (${e.tipo})`;
@@ -82,7 +86,13 @@ if (roteiro) {
       if (e.tipo === "titulo" && String(e.texto).length > 26) avisos.push(`${el}: título longo (${String(e.texto).length} letras) pode não caber`);
     }
   }
-  if (!temEnquete) avisos.push("nenhum elemento 'enquete' (pergunta final para o público)");
+  const genero = projeto?.pedido?.genero;
+  if (genero?.galeria) {
+    const com = (roteiro.cenas ?? []).filter((c) => Array.isArray(c.galeria) && c.galeria.length >= 2).length;
+    const total = (roteiro.cenas ?? []).length;
+    if (com < Math.ceil(total * 0.7)) erros.push(`gênero "${genero.nome}" é guiado por imagens: pelo menos ${Math.ceil(total * 0.7)} das ${total} cenas precisam de "galeria" com 2 a 4 fotos (hoje: ${com})`);
+  }
+  if (!temEnquete && !genero) avisos.push("nenhum elemento 'enquete' (pergunta final para o público)");
   if (!temSeguir) avisos.push("nenhum elemento 'seguir' (CTA)");
   const alvo = Number(projeto?.pedido?.duracao) || 0;
   const estimado = palavras / 2.4;

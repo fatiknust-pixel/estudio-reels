@@ -2,17 +2,27 @@ import React from "react";
 import { AbsoluteFill, Img, interpolate, useCurrentFrame } from "remotion";
 import { useQuadro, useVideo } from "../contexto";
 
+// Galeria (estilo documentário): várias fotos na mesma cena, cada uma num pedaço igual do tempo,
+// entrando com uma fusão de 12 frames. Devolve qual foto está na tela no frame f.
+export const FUSAO = 12;
+export const fotoAtual = (galeria: string[], f: number, duracao: number) => {
+  if (galeria.length < 2) return 0;
+  return Math.min(galeria.length - 1, Math.max(0, Math.floor(f / (duracao / galeria.length))));
+};
+
 // Fundo da cena: foto com efeito Ken Burns + escurecimento, ou gradiente animado se não houver foto.
-export const Fundo: React.FC<{ chave?: string; indice: number; duracao: number }> = ({ chave, indice, duracao }) => {
+// Com "galeria", as fotos se sucedem com fusão, cada uma com seu próprio movimento de câmera.
+export const Fundo: React.FC<{ chave?: string; galeria?: string[]; indice: number; duracao: number }> = ({ chave, galeria, indice, duracao }) => {
   const f = useCurrentFrame();
   const { imagem, tema, projeto } = useVideo();
   const { largura, altura } = useQuadro();
   const est = projeto.estiloIA;
   // sem estilo de edição (vídeos antigos e modo bruto): grade, e a bandeira no tema Brasil
   const tipo = est?.dinamica === "minimal" ? "limpo" : est?.fundo ?? (tema.bandeira ? "bandeira" : "grade");
-  const src = imagem(chave);
-  const t = f / Math.max(1, duracao);
-  const dir = indice % 2 === 0 ? 1 : -1;
+  const fotos = (galeria?.length ? galeria : chave ? [chave] : []).map((k) => imagem(k)).filter((u): u is string => !!u);
+  const src = fotos[0] ?? null;
+  const documentario = fotos.length > 1;
+  const fatia = Math.max(1, duracao / Math.max(1, fotos.length));
   return (
     <AbsoluteFill style={{ background: tema.fundo, overflow: "hidden" }}>
       <AbsoluteFill
@@ -22,18 +32,29 @@ export const Fundo: React.FC<{ chave?: string; indice: number; duracao: number }
       />
       {tipo === "bandeira" && <Bandeira f={f} />}
       {tipo === "raios" && <Raios f={f} />}
-      {src && (
-        <Img
-          src={src}
-          style={{
-            position: "absolute", width: "100%", height: "100%", objectFit: "cover",
-            transform: `scale(${1.12 + t * 0.14}) translateX(${dir * interpolate(t, [0, 1], [-30, 30])}px)`,
-            filter: "saturate(1.1) contrast(1.05)",
-          }}
-        />
-      )}
+      {fotos.map((u, k) => {
+        const ini = k * fatia;
+        if (f < ini - FUSAO || f > ini + fatia + FUSAO) return null; // só a foto da vez (e a da fusão)
+        const t = Math.max(0, Math.min(1, (f - ini + FUSAO) / (fatia + FUSAO)));
+        const dir = (indice + k) % 2 === 0 ? 1 : -1;
+        const opacidade = k === 0 ? 1 : interpolate(f, [ini - FUSAO, ini], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+        // documentário alterna aproximar/afastar; cena com uma foto só mantém o zoom lento de sempre
+        const escala = documentario ? (k % 2 ? 1.16 - t * 0.1 : 1.06 + t * 0.1) : 1.12 + t * 0.14;
+        return (
+          <Img
+            key={k}
+            src={u}
+            style={{
+              // pelo terço de cima: em retratos, o rosto não fica cortado quando a foto é mais alta que o quadro
+              position: "absolute", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 28%", opacity: opacidade,
+              transform: `scale(${escala}) translateX(${dir * interpolate(t, [0, 1], [-30, 30])}px)`,
+              filter: "saturate(1.1) contrast(1.05)",
+            }}
+          />
+        );
+      })}
       {/* escurece para o texto aparecer */}
-      <AbsoluteFill style={{ background: src ? `linear-gradient(180deg, ${tema.fundo}8C 0%, ${tema.fundo}59 35%, ${tema.fundo}BF 62%, ${tema.fundo}F2 100%)` : "transparent" }} />
+      <AbsoluteFill style={{ background: !src ? "transparent" : documentario ? `linear-gradient(180deg, ${tema.fundo}66 0%, transparent 25%, transparent 55%, ${tema.fundo}D9 100%)` : `linear-gradient(180deg, ${tema.fundo}8C 0%, ${tema.fundo}59 35%, ${tema.fundo}BF 62%, ${tema.fundo}F2 100%)` }} />
       {tema.bandeira && src && <AbsoluteFill style={{ background: `linear-gradient(160deg, ${tema.verde}33 0%, transparent 45%, ${tema.azul}33 100%)` }} />}
       {/* textura em movimento (motion graphics), conforme o estilo */}
       {tipo === "ondas" && <Ondas f={f} />}

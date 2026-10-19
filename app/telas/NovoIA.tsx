@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import GENEROS from "../../src/generos.json";
 import { TEMAS } from "../../src/temas";
 import { CampoEstilo, DINAMICAS, estilosDoLote, OPCOES_ESTILO, PALETAS } from "../estilosIA";
 import { temToken } from "../lib/github";
@@ -6,7 +7,8 @@ import { criarIA, novoIdProjeto, projetoIA } from "../lib/projetos";
 import { Alternar, avisar, avisarErro, Escolha, ir } from "../ui";
 
 const TONS = ["Explicativo e neutro", "Polêmico, mas factual", "Bem-humorado", "Inspirador", "Urgente (notícia)", "Didático (passo a passo)", "Curiosidades"];
-const DURACOES: [number, string][] = [[30, "30 s"], [45, "45 s"], [60, "1 min"], [90, "1:30"], [120, "2 min"]];
+const DURACOES: [number, string][] = [[30, "30 s"], [45, "45 s"], [60, "1 min"], [90, "1:30"], [120, "2 min"], [180, "3 min"], [300, "5 min"], [480, "8 min"], [600, "10 min"], [720, "12 min"]];
+type Genero = (typeof GENEROS.generos)[number];
 const FORMATOS: [string, string][] = [["9:16", "📱 Vertical 9:16 (Reels, TikTok)"], ["16:9", "🖥️ Horizontal 16:9 (YouTube, aulas)"]];
 const VOZES: [string, string][] = [["pt-BR-AntonioNeural", "Antonio (masc.)"], ["pt-BR-FranciscaNeural", "Francisca (fem.)"], ["pt-BR-ThalitaMultilingualNeural", "Thalita (fem.)"]];
 const IDEIAS = ["Por que o real perdeu valor desde 1994?", "Como funciona a delação premiada", "5 mitos sobre o sono que a ciência derrubou", "O que muda com a reforma tributária"];
@@ -23,6 +25,7 @@ export const NovoIA: React.FC = () => {
   const [duracao, setDuracao] = useState(60);
   const [voz, setVoz] = useState(VOZES[0][0]);
   const [formato, setFormato] = useState("9:16");
+  const [genero, setGenero] = useState<Genero | null>(null);
   const [enviando, setEnviando] = useState<string | null>(null);
   const token = temToken();
 
@@ -31,6 +34,30 @@ export const NovoIA: React.FC = () => {
   const n = temas.length;
   const demais = n > MAX_LOTE;
   const mudarEstilo = (c: CampoEstilo, v: string) => setEstilo((e) => ({ ...e, [c]: v }));
+
+  // Gênero = ponto de partida: formato, duração, tom e estilo do gênero (tudo continua editável)
+  const escolherGenero = (g: Genero | null) => {
+    setGenero(g);
+    if (!g) {
+      setEstilo(ESTILO_INICIAL);
+      setTomLivre("");
+      return;
+    }
+    setFormato(g.formato);
+    setDuracao(g.duracao);
+    setTomLivre(g.tom);
+    setEstilo({ ...ESTILO_INICIAL, ...g.estilo } as Record<CampoEstilo, string>);
+  };
+  const linhas = texto.split("\n").map((t) => t.trim()).filter(Boolean);
+  const adicionarTema = (t: string) => {
+    if (linhas.includes(t) || linhas.length >= MAX_LOTE) return;
+    setTexto([...linhas, t].join("\n"));
+  };
+  const sortearTemas = () => {
+    if (!genero) return;
+    const livres = genero.temas.filter((t) => !linhas.includes(t)).sort(() => Math.random() - 0.5);
+    setTexto([...linhas, ...livres].slice(0, Math.max(3, linhas.length)).slice(0, MAX_LOTE).join("\n"));
+  };
 
   const gerar = async () => {
     const estilos = estilosDoLote(estilo, n, variar);
@@ -49,6 +76,7 @@ export const NovoIA: React.FC = () => {
             tom: tomLivre.trim() || tom,
             duracao,
             estilo: e,
+            ...(genero ? { genero: { id: genero.id, nome: genero.nome, instrucoes: genero.instrucoes, galeria: genero.galeria } } : {}),
             ...(n > 1 ? { lote: { indice: i + 1, total: n, outros: temas.filter((_, j) => j !== i) } } : {}),
           },
           e.paleta !== "auto" ? e.paleta : "padrao",
@@ -76,14 +104,60 @@ export const NovoIA: React.FC = () => {
       </div>
       {!token && <div className="aviso">Conecte o GitHub em <a href="#/config">Configurações</a> — o Claude roda no GitHub Actions com a sua assinatura.</div>}
 
+      <h2 style={{ marginTop: 6 }}>🎭 Gênero do vídeo</h2>
+      <p className="pequeno suave" style={{ marginTop: -4 }}>Modelos prontos de canal dark: narração com imagens e animações, sem aparecer. Escolha um gênero ou crie livre.</p>
+      <div className="generos">
+        <button className={"genero-op" + (!genero ? " on" : "")} onClick={() => escolherGenero(null)}>
+          <span className="e">✨</span>
+          <b>Livre</b>
+        </button>
+        {GENEROS.generos.map((g) => (
+          <button key={g.id} className={"genero-op" + (genero?.id === g.id ? " on" : "")} onClick={() => escolherGenero(g)}>
+            <span className="e">{g.emoji}</span>
+            <b>{g.nome}</b>
+          </button>
+        ))}
+      </div>
+      <div className="cartao pequeno" style={{ marginTop: 8 }}>
+        {genero ? (
+          <>
+            <b>{genero.emoji} {genero.nome}</b> — {genero.descricao}
+            <div className="suave" style={{ marginTop: 4 }}>
+              {genero.formato === "16:9" ? "🖥️ Horizontal 16:9" : "📱 Vertical 9:16"} · {DURACOES.find(([d]) => d === genero.duracao)?.[1] ?? `${genero.duracao}s`}
+              {genero.galeria ? " · 🖼️ várias fotos por cena" : ""} · tudo abaixo vem ajustado e você pode mudar
+            </div>
+          </>
+        ) : (
+          <><b>✨ Livre</b> — você escreve o tema e escolhe tudo (ou deixa em Automático).</>
+        )}
+      </div>
+
       <label className="campo">
         <span>Tema do vídeo <span className="pequeno">— um por linha para criar até {MAX_LOTE} vídeos de uma vez</span></span>
         <textarea value={texto} onChange={(e) => setTexto(e.target.value)} placeholder={"Ex.: O Lula foi inocentado ou condenado?\nComo funciona a delação premiada"} maxLength={2000} rows={4} />
       </label>
-      {!texto && (
-        <div className="chips" style={{ marginTop: -4 }}>
-          {IDEIAS.map((i) => <button key={i} className="chip" style={{ fontWeight: 500 }} onClick={() => setTexto(i)}>{i}</button>)}
+      {genero ? (
+        <div className="cartao">
+          <div className="linha" style={{ marginBottom: 8 }}>
+            <b className="cresce">{genero.emoji} Temas prontos de {genero.nome}</b>
+            <button className="btn mini" onClick={sortearTemas}>🎲 Sortear</button>
+          </div>
+          <div className="chips">
+            {genero.temas.map((t) => (
+              <button key={t} className={"chip" + (linhas.includes(t) ? " on" : "")} style={{ fontWeight: 500 }} disabled={!linhas.includes(t) && linhas.length >= MAX_LOTE}
+                onClick={() => (linhas.includes(t) ? setTexto(linhas.filter((l) => l !== t).join("\n")) : adicionarTema(t))}>
+                {linhas.includes(t) ? "✓ " : "+ "}{t}
+              </button>
+            ))}
+          </div>
+          <p className="pequeno suave" style={{ marginBottom: 0 }}>Toque para adicionar (cada um vira um vídeo) ou escreva o seu próprio tema no campo acima.</p>
         </div>
+      ) : (
+        !texto && (
+          <div className="chips" style={{ marginTop: -4 }}>
+            {IDEIAS.map((i) => <button key={i} className="chip" style={{ fontWeight: 500 }} onClick={() => setTexto(i)}>{i}</button>)}
+          </div>
+        )
       )}
       {n > 1 && !demais && <div className="aviso pequeno">📦 {n} vídeos serão criados, um para cada linha.</div>}
       {demais && <div className="aviso erro pequeno">São {n} temas — o máximo é {MAX_LOTE} vídeos por vez. Apague {n - MAX_LOTE} linha(s).</div>}

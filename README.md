@@ -79,6 +79,12 @@ navegador); a Action junta as partes e apaga o ramo.
   enquete e CTA no final), conferindo com `scripts/validar-roteiro.mjs`. Depois vêm a narração
   (`scripts/voz.py`, edge-tts `pt-BR-AntonioNeural` +5%, tempo por palavra) e as imagens
   (`scripts/imagens.mjs`, Wikipédia/Commons com autor e licença).
+- **Gêneros (canal dark):** documentário, história, biografias, resumo de filme e série, mistérios,
+  curiosidades, top 10, ciência e espaço, lugares, mitologia, lendas de terror, economia, geopolítica,
+  tecnologia, natureza e reflexões (`src/generos.json`). Cada gênero já vem com formato, duração, tom,
+  estilo de edição, instruções de roteiro para o Claude e temas prontos; ou escolha **Livre** e escreva o tema.
+  Nos gêneros guiados por imagens, cada cena tem uma **galeria** de 2 a 4 fotos do Wikimedia que se
+  sucedem com fusão enquanto o narrador fala.
 - **Lote:** na tela do Modo 1, um tema por linha cria até 5 vídeos de uma vez (gerados ao mesmo tempo). Com
   "Variar estilo entre os vídeos", cada um recebe dinâmica, legenda, transição e formato sorteados sem repetir.
 - **Estilo de edição** (`estiloIA` no projeto, catálogo em `src/estilos-ia.json`): **dinâmica** (energética,

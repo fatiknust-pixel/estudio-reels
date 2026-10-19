@@ -132,11 +132,15 @@ export const novoIdProjeto = (prefixo: string) => {
 
 export type MetaVideo = { duracao: number; largura: number; altura: number };
 
-export const projetoBruto = (id: string, titulo: string, estilo: EstiloPronto, meta: MetaVideo, opcoes: Projeto["processamento"]): Projeto => {
+// No 16:9 a legenda fica mais baixa e um pouco menor (a tela é mais larga e mais baixa)
+export const LEGENDA_HORIZONTAL = { posicao: 82, tamanho: 78 };
+
+export const projetoBruto = (id: string, titulo: string, estilo: EstiloPronto, meta: MetaVideo, opcoes: Projeto["processamento"], formato: NonNullable<Projeto["formato"]> = "9:16"): Projeto => {
   const agora = new Date().toISOString();
   return {
     versao: 1, id, titulo, modo: "bruto", estilo: estilo.id, tema: estilo.tema, criadoEm: agora, atualizadoEm: agora, status: "processando",
-    legenda: { ...LEGENDA_PADRAO, ...estilo.legenda },
+    formato,
+    legenda: { ...LEGENDA_PADRAO, ...estilo.legenda, ...(formato === "16:9" ? LEGENDA_HORIZONTAL : {}) },
     efeitos: { ...structuredClone(EFEITOS_PADRAO), ...structuredClone(estilo.efeitos ?? {}) },
     video: { arquivo: "video.mp4", duracao: meta.duracao, largura: meta.largura, altura: meta.altura, enquadramento: "preencher", focoX: 50, volume: 1, ...(estilo.video ?? {}) },
     palavras: [],

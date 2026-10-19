@@ -61,6 +61,7 @@ export type Cena = {
   id: string;
   texto: string;
   fundo?: string;
+  galeria?: string[]; // várias fotos que se sucedem na cena (estilo documentário); chaves de imagens
   fontes?: string[];
   elementos: ElementoCena[];
 };
@@ -106,9 +107,10 @@ export type Projeto = {
   cortes?: Corte[];
   gancho?: Gancho | null;
   // ia
-  pedido?: { tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; lote?: { indice: number; total: number; outros: string[] } };
+  pedido?: { tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; genero?: { id: string; nome: string; instrucoes: string; galeria?: boolean }; lote?: { indice: number; total: number; outros: string[] } };
   estiloIA?: EstiloIA;
-  formato?: "9:16" | "16:9"; // quadro do vídeo: vertical (padrão) ou horizontal (só no modo IA)
+  formato?: "9:16" | "16:9"; // quadro do vídeo: vertical (padrão) ou horizontal
+  genero?: string; // gênero do vídeo (catálogo src/generos.json), escolhido no pedido do Modo 1
   voz?: { edge: string; velocidade: string };
   cenas?: Cena[];
   narracao?: Record<string, NarracaoCena>;

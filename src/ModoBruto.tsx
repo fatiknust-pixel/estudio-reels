@@ -42,14 +42,15 @@ const focoEm = (foco: { t: number; x: number; y: number }[], t: number) => {
 
 // Converte a posição do rosto (% do original) em object-position (para o rosto ficar ~centralizado)
 // e na origem do zoom (para o punch-in aproximar do rosto, não do centro da tela).
-const enquadrar = (v: { largura: number; altura: number }, fx: number, fy: number) => {
-  const esc = Math.max(1080 / v.largura, 1920 / v.altura);
+// L × A = tamanho do quadro (1080×1920 no vertical, 1920×1080 no horizontal)
+const enquadrar = (v: { largura: number; altura: number }, fx: number, fy: number, L: number, A: number) => {
+  const esc = Math.max(L / v.largura, A / v.altura);
   const ws = v.largura * esc, hs = v.altura * esc;
   const clamp = (n: number) => Math.max(0, Math.min(100, n));
-  const px = ws > 1081 ? clamp(((fx / 100) * ws - 540) / (ws - 1080) * 100) : 50;
-  const py = hs > 1921 ? clamp(((fy / 100) * hs - 0.4 * 1920) / (hs - 1920) * 100) : 50;
-  const esq = ((ws - 1080) * px) / 100, topo = ((hs - 1920) * py) / 100;
-  return { pos: `${px}% ${py}%`, origem: `${clamp((((fx / 100) * ws - esq) / 1080) * 100)}% ${clamp((((fy / 100) * hs - topo) / 1920) * 100)}%` };
+  const px = ws > L + 1 ? clamp(((fx / 100) * ws - L / 2) / (ws - L) * 100) : 50;
+  const py = hs > A + 1 ? clamp(((fy / 100) * hs - 0.4 * A) / (hs - A) * 100) : 50;
+  const esq = ((ws - L) * px) / 100, topo = ((hs - A) * py) / 100;
+  return { pos: `${px}% ${py}%`, origem: `${clamp((((fx / 100) * ws - esq) / L) * 100)}% ${clamp((((fy / 100) * hs - topo) / A) * 100)}%` };
 };
 
 // Na prévia, um vídeo que o navegador não consegue tocar não derruba o editor
@@ -105,7 +106,7 @@ const SonsZoom: React.FC = () => {
 };
 
 export const ModoBruto: React.FC = () => {
-  const { projeto, linha, arquivo } = useVideo();
+  const { projeto, linha, arquivo, quadro: q } = useVideo();
   const f = useCurrentFrame();
   const v = projeto.video;
   const escala = useEscala();
@@ -113,11 +114,12 @@ export const ModoBruto: React.FC = () => {
   if (!v || !src) {
     return <Fundo indice={0} duracao={linha.duracao} />;
   }
-  const horizontal = v.largura > v.altura * 0.75;
-  const ajustar = v.enquadramento === "ajustar" && horizontal;
+  // "ajustar" (vídeo inteiro + fundo desfocado) só faz sentido quando o vídeo e o quadro têm orientações diferentes
+  const deitado = v.largura > v.altura * 0.75;
+  const ajustar = v.enquadramento === "ajustar" && deitado !== q.horizontal;
   const seguir = v.seguirRosto !== false && (v.foco?.length ?? 0) > 0 && !ajustar;
   const rosto = seguir ? focoEm(v.foco!, linha.paraConteudo(f)) : null;
-  const quadro = rosto ? enquadrar(v, rosto.x, rosto.y) : null;
+  const quadro = rosto ? enquadrar(v, rosto.x, rosto.y, q.largura, q.altura) : null;
   const pos = quadro ? quadro.pos : `${v.focoX ?? 50}% 50%`;
   const origem = quadro ? quadro.origem : "50% 42%";
   return (
