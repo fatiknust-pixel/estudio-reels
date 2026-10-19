@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-aaip",
- "titulo": "Aula 3.1: Qual modelo do Claude usar em cada tarefa — compare Haiku 5.",
+ "titulo": "Aula 3.1: Qual modelo do Claude usar",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.941Z",
- "atualizadoEm": "2026-10-19T22:26:17.941Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:44:12Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 3.1: Qual modelo do Claude usar em cada tarefa — compare Haiku 5.5, Sonnet 5.5, Opus 5.5 e Fable 5.1 com os preços oficiais por milhão de tokens (de US$ 0,10 a US$ 10 na entrada), explique que o Haiku custa 40 vezes menos que o Opus e dê exemplos de tarefa certa para cada um",
@@ -62,11 +63,1827 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Um modelo de IA pode custar 40 vezes menos que outro. Você está pagando pelo mais caro sem precisar?",
+   "fontes": [
+    "Anthropic — Preços (out/2026)"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 1,
+     "ate": 40,
+     "unidade": "x",
+     "rotulo": "MAIS BARATO",
+     "em": "40",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "40X",
+     "cor": "amarelo",
+     "em": "menos",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "PRECISA DO CARO?",
+     "em": "pagando",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula, você vai aprender três coisas: os quatro modelos do Claude, quanto cada um custa e qual usar em cada tarefa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUAL MODELO USAR",
+     "sub": "AULA 3.1",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "4 modelos"
+      ],
+      [
+       "dinheiro",
+       "Preços"
+      ],
+      [
+       "alvo",
+       "Tarefa certa"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Série IA do Zero ao Especialista",
+     "icone": "mais",
+     "em": "modelos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Primeiro, o conceito. Cada modelo é um cérebro de IA diferente. Uns são mais rápidos e baratos, outros pensam melhor. O preço é cobrado por token, um pedacinho de texto, a cada milhão.",
+   "fontes": [
+    "Anthropic — Preços (out/2026)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "MODELOS DO CLAUDE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "TOKEN",
+     "significado": "Pedacinho de texto que a IA lê e escreve. É a unidade de cobrança.",
+     "em": "token",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Preço por milhão de tokens",
+     "icone": "dinheiro",
+     "em": "milhão",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "precos",
+   "texto": "Na entrada, o Haiku 5.5 custa 10 centavos de dólar. O Sonnet 5.5, 2 dólares. O Opus 5.5, 4 dólares. E o Fable 5.1, 10 dólares.",
+   "fontes": [
+    "Anthropic — Preços (out/2026)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ENTRADA POR MILHÃO",
+     "sub": "Preços oficiais",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 0.1,
+     "unidade": "US$",
+     "rotulo": "HAIKU 5.5",
+     "em": "Haiku",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 2,
+     "unidade": "US$",
+     "rotulo": "SONNET 5.5",
+     "em": "Sonnet",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 4,
+     "unidade": "US$",
+     "rotulo": "OPUS 5.5",
+     "em": "Opus",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 10,
+     "unidade": "US$",
+     "rotulo": "FABLE 5.1",
+     "em": "Fable",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense em transporte. Haiku é a bicicleta: rápida para o dia a dia. Sonnet é o carro. Opus, o caminhão. Fable, o avião. Você não pega avião para ir à padaria.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PENSE EM TRANSPORTE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "casa",
+       "Haiku"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "predio",
+       "Fable"
+      ]
+     ],
+     "em": "Haiku",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Ferramenta certa, custo certo",
+     "icone": "alvo",
+     "em": "avião",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Exemplo: classificar mil e-mails como urgente ou não. Tarefa simples e repetida: Haiku. Resumir relatórios e escrever textos: Sonnet. Planejar um projeto grande: Opus. Problema muito difícil: Fable.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TAREFA CERTA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Classifique estes e-mails em urgente ou não urgente.",
+     "em": "classificar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Haiku: tarefas simples",
+     "icone": "check",
+     "cor": "verde",
+     "em": "Haiku",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Sonnet: resumir e escrever",
+     "icone": "documento",
+     "em": "Sonnet",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Opus: planejar",
+     "icone": "obra",
+     "cor": "roxo",
+     "em": "Opus",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "economia",
+   "texto": "E a conta fecha: o Haiku custa 40 vezes menos que o Opus. Mil reais gastos no Opus rendem quarenta mil no Haiku, na entrada.",
+   "fontes": [
+    "Anthropic — Preços (out/2026)"
+   ],
+   "elementos": [
+    {
+     "tipo": "placar",
+     "sim": 40,
+     "nao": 1,
+     "rotulo": "Haiku rende mais por dólar",
+     "rotuloSim": "Haiku",
+     "rotuloNao": "Opus",
+     "em": "conta",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "40X MENOS",
+     "cor": "verde",
+     "em": "40",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum: usar sempre o modelo mais forte, por garantia. Isso gasta dinheiro à toa. Comece pelo mais barato e suba só se a resposta não servir.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Sempre o mais forte",
+     "nota": "Paga caro por tarefa simples",
+     "em": "sempre",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Comece pelo barato",
+     "nota": "Suba só se precisar",
+     "em": "Comece",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: liste três tarefas suas e escolha o modelo ideal para cada uma.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "3 TAREFAS, 3 MODELOS",
+     "em": "três",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: são quatro modelos. O preço vai de 10 centavos a 10 dólares. E a tarefa decide o modelo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "4 modelos"
+      ],
+      [
+       "dinheiro",
+       "US$ 0,10 a 10"
+      ],
+      [
+       "alvo",
+       "Tarefa manda"
+      ]
+     ],
+     "em": "quatro",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: para classificar mil e-mails, qual escolher? Haiku ou Opus? A resposta é Haiku: tarefa simples, 40 vezes mais barato. Na próxima aula: os planos do Claude.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Classificar mil e-mails: qual modelo?",
+     "opcoes": [
+      "1 · Haiku",
+      "2 · Opus"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "HAIKU",
+     "cor": "verde",
+     "em": "resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 3.2",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "72cb2b5c00",
+   "texto": "Um modelo de IA pode custar 40 vezes menos que outro. Você está pagando pelo mais caro sem precisar?",
+   "audio": "audio/gancho-72cb2b5c00.mp3",
+   "duracao": 8.232,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.205
+    },
+    {
+     "p": "modelo",
+     "i": 0.217,
+     "f": 0.621
+    },
+    {
+     "p": "de",
+     "i": 0.633,
+     "f": 0.729
+    },
+    {
+     "p": "IA",
+     "i": 0.74,
+     "f": 1.848
+    },
+    {
+     "p": "pode",
+     "i": 1.86,
+     "f": 2.086
+    },
+    {
+     "p": "custar",
+     "i": 2.098,
+     "f": 2.479
+    },
+    {
+     "p": "40 vezes",
+     "i": 2.49,
+     "f": 3.324
+    },
+    {
+     "p": "menos",
+     "i": 3.336,
+     "f": 3.705
+    },
+    {
+     "p": "que",
+     "i": 3.717,
+     "f": 3.848
+    },
+    {
+     "p": "outro",
+     "i": 3.86,
+     "f": 4.157
+    },
+    {
+     "p": "Você",
+     "i": 4.976,
+     "f": 5.262
+    },
+    {
+     "p": "está",
+     "i": 5.274,
+     "f": 5.464
+    },
+    {
+     "p": "pagando",
+     "i": 5.476,
+     "f": 5.881
+    },
+    {
+     "p": "pelo",
+     "i": 5.893,
+     "f": 6.083
+    },
+    {
+     "p": "mais",
+     "i": 6.095,
+     "f": 6.333
+    },
+    {
+     "p": "caro",
+     "i": 6.345,
+     "f": 6.667
+    },
+    {
+     "p": "sem",
+     "i": 6.679,
+     "f": 6.893
+    },
+    {
+     "p": "precisar",
+     "i": 6.905,
+     "f": 7.405
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "cf272b032a",
+   "texto": "Nesta aula, você vai aprender três coisas: os quatro modelos do Claude, quanto cada um custa e qual usar em cada tarefa.",
+   "audio": "audio/promessa-cf272b032a.mp3",
+   "duracao": 8.016,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "aula",
+     "i": 0.455,
+     "f": 0.74
+    },
+    {
+     "p": "você",
+     "i": 1.026,
+     "f": 1.312
+    },
+    {
+     "p": "vai",
+     "i": 1.324,
+     "f": 1.431
+    },
+    {
+     "p": "aprender",
+     "i": 1.443,
+     "f": 1.848
+    },
+    {
+     "p": "três",
+     "i": 1.86,
+     "f": 2.157
+    },
+    {
+     "p": "coisas",
+     "i": 2.169,
+     "f": 2.633
+    },
+    {
+     "p": "os",
+     "i": 2.979,
+     "f": 3.121
+    },
+    {
+     "p": "quatro",
+     "i": 3.133,
+     "f": 3.514
+    },
+    {
+     "p": "modelos",
+     "i": 3.526,
+     "f": 3.931
+    },
+    {
+     "p": "do",
+     "i": 3.943,
+     "f": 4.05
+    },
+    {
+     "p": "Claude",
+     "i": 4.062,
+     "f": 4.443
+    },
+    {
+     "p": "quanto",
+     "i": 4.633,
+     "f": 4.943
+    },
+    {
+     "p": "cada",
+     "i": 4.955,
+     "f": 5.193
+    },
+    {
+     "p": "um",
+     "i": 5.205,
+     "f": 5.383
+    },
+    {
+     "p": "custa",
+     "i": 5.395,
+     "f": 5.693
+    },
+    {
+     "p": "e",
+     "i": 5.705,
+     "f": 5.74
+    },
+    {
+     "p": "qual",
+     "i": 5.752,
+     "f": 6.002
+    },
+    {
+     "p": "usar",
+     "i": 6.014,
+     "f": 6.288
+    },
+    {
+     "p": "em",
+     "i": 6.3,
+     "f": 6.395
+    },
+    {
+     "p": "cada",
+     "i": 6.407,
+     "f": 6.669
+    },
+    {
+     "p": "tarefa",
+     "i": 6.681,
+     "f": 7.181
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "9f84c10af5",
+   "texto": "Primeiro, o conceito. Cada modelo é um cérebro de IA diferente. Uns são mais rápidos e baratos, outros pensam melhor. O preço é cobrado por token, um pedacinho de texto, a cada milhão.",
+   "audio": "audio/conceito-9f84c10af5.mp3",
+   "duracao": 14.928,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.098,
+     "f": 0.61
+    },
+    {
+     "p": "o",
+     "i": 0.86,
+     "f": 0.919
+    },
+    {
+     "p": "conceito",
+     "i": 0.931,
+     "f": 1.538
+    },
+    {
+     "p": "Cada",
+     "i": 2.357,
+     "f": 2.583
+    },
+    {
+     "p": "modelo",
+     "i": 2.595,
+     "f": 3
+    },
+    {
+     "p": "é",
+     "i": 3.012,
+     "f": 3.048
+    },
+    {
+     "p": "um",
+     "i": 3.06,
+     "f": 3.179
+    },
+    {
+     "p": "cérebro",
+     "i": 3.19,
+     "f": 3.679
+    },
+    {
+     "p": "de",
+     "i": 3.69,
+     "f": 3.786
+    },
+    {
+     "p": "IA",
+     "i": 3.798,
+     "f": 4.941
+    },
+    {
+     "p": "diferente",
+     "i": 4.952,
+     "f": 5.548
+    },
+    {
+     "p": "Uns",
+     "i": 6.369,
+     "f": 6.571
+    },
+    {
+     "p": "são",
+     "i": 6.583,
+     "f": 6.702
+    },
+    {
+     "p": "mais",
+     "i": 6.714,
+     "f": 6.917
+    },
+    {
+     "p": "rápidos",
+     "i": 6.929,
+     "f": 7.298
+    },
+    {
+     "p": "e",
+     "i": 7.31,
+     "f": 7.405
+    },
+    {
+     "p": "baratos",
+     "i": 7.417,
+     "f": 7.952
+    },
+    {
+     "p": "outros",
+     "i": 8.202,
+     "f": 8.571
+    },
+    {
+     "p": "pensam",
+     "i": 8.583,
+     "f": 8.952
+    },
+    {
+     "p": "melhor",
+     "i": 8.964,
+     "f": 9.321
+    },
+    {
+     "p": "O",
+     "i": 10.143,
+     "f": 10.286
+    },
+    {
+     "p": "preço",
+     "i": 10.298,
+     "f": 10.643
+    },
+    {
+     "p": "é",
+     "i": 10.655,
+     "f": 10.69
+    },
+    {
+     "p": "cobrado",
+     "i": 10.702,
+     "f": 11.131
+    },
+    {
+     "p": "por",
+     "i": 11.143,
+     "f": 11.31
+    },
+    {
+     "p": "token",
+     "i": 11.321,
+     "f": 11.714
+    },
+    {
+     "p": "um",
+     "i": 11.988,
+     "f": 12.107
+    },
+    {
+     "p": "pedacinho",
+     "i": 12.119,
+     "f": 12.655
+    },
+    {
+     "p": "de",
+     "i": 12.667,
+     "f": 12.798
+    },
+    {
+     "p": "texto",
+     "i": 12.81,
+     "f": 13.214
+    },
+    {
+     "p": "a",
+     "i": 13.357,
+     "f": 13.44
+    },
+    {
+     "p": "cada",
+     "i": 13.452,
+     "f": 13.714
+    },
+    {
+     "p": "milhão",
+     "i": 13.726,
+     "f": 14.095
+    }
+   ]
+  },
+  "precos": {
+   "hash": "9b68a3299a",
+   "texto": "Na entrada, o Haiku 5.5 custa 10 centavos de dólar. O Sonnet 5.5, 2 dólares. O Opus 5.5, 4 dólares. E o Fable 5.1, 10 dólares.",
+   "audio": "audio/precos-9b68a3299a.mp3",
+   "duracao": 15.264,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.098,
+     "f": 0.252
+    },
+    {
+     "p": "entrada",
+     "i": 0.264,
+     "f": 0.74
+    },
+    {
+     "p": "o",
+     "i": 1.038,
+     "f": 1.121
+    },
+    {
+     "p": "Haiku",
+     "i": 1.133,
+     "f": 1.383
+    },
+    {
+     "p": "5.5 custa",
+     "i": 1.395,
+     "f": 2.752
+    },
+    {
+     "p": "10 centavos",
+     "i": 2.764,
+     "f": 3.502
+    },
+    {
+     "p": "de",
+     "i": 3.514,
+     "f": 3.621
+    },
+    {
+     "p": "dólar",
+     "i": 3.633,
+     "f": 3.955
+    },
+    {
+     "p": "O",
+     "i": 4.774,
+     "f": 4.881
+    },
+    {
+     "p": "Sonnet",
+     "i": 4.893,
+     "f": 5.321
+    },
+    {
+     "p": "5.5",
+     "i": 5.333,
+     "f": 6.369
+    },
+    {
+     "p": "2 dólares",
+     "i": 6.607,
+     "f": 7.441
+    },
+    {
+     "p": "O",
+     "i": 8.262,
+     "f": 8.381
+    },
+    {
+     "p": "Opus",
+     "i": 8.393,
+     "f": 8.798
+    },
+    {
+     "p": "5.5",
+     "i": 8.81,
+     "f": 9.857
+    },
+    {
+     "p": "4 dólares",
+     "i": 10.083,
+     "f": 11.012
+    },
+    {
+     "p": "E",
+     "i": 11.833,
+     "f": 11.952
+    },
+    {
+     "p": "o",
+     "i": 11.964,
+     "f": 12
+    },
+    {
+     "p": "Fable",
+     "i": 12.012,
+     "f": 12.393
+    },
+    {
+     "p": "5.1",
+     "i": 12.405,
+     "f": 13.298
+    },
+    {
+     "p": "10 dólares",
+     "i": 13.571,
+     "f": 14.441
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "8740af8e62",
+   "texto": "Pense em transporte. Haiku é a bicicleta: rápida para o dia a dia. Sonnet é o carro. Opus, o caminhão. Fable, o avião. Você não pega avião para ir à padaria.",
+   "audio": "audio/analogia-8740af8e62.mp3",
+   "duracao": 14.4,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "em",
+     "i": 0.455,
+     "f": 0.526
+    },
+    {
+     "p": "transporte",
+     "i": 0.538,
+     "f": 1.229
+    },
+    {
+     "p": "Haiku",
+     "i": 2.048,
+     "f": 2.429
+    },
+    {
+     "p": "é",
+     "i": 2.44,
+     "f": 2.524
+    },
+    {
+     "p": "a",
+     "i": 2.536,
+     "f": 2.559
+    },
+    {
+     "p": "bicicleta",
+     "i": 2.571,
+     "f": 3.262
+    },
+    {
+     "p": "rápida",
+     "i": 3.5,
+     "f": 3.905
+    },
+    {
+     "p": "para",
+     "i": 3.917,
+     "f": 4.083
+    },
+    {
+     "p": "o",
+     "i": 4.095,
+     "f": 4.119
+    },
+    {
+     "p": "dia",
+     "i": 4.131,
+     "f": 4.321
+    },
+    {
+     "p": "a",
+     "i": 4.333,
+     "f": 4.357
+    },
+    {
+     "p": "dia",
+     "i": 4.369,
+     "f": 4.726
+    },
+    {
+     "p": "Sonnet",
+     "i": 5.548,
+     "f": 6.024
+    },
+    {
+     "p": "é",
+     "i": 6.036,
+     "f": 6.095
+    },
+    {
+     "p": "o",
+     "i": 6.107,
+     "f": 6.167
+    },
+    {
+     "p": "carro",
+     "i": 6.179,
+     "f": 6.571
+    },
+    {
+     "p": "Opus",
+     "i": 7.393,
+     "f": 7.893
+    },
+    {
+     "p": "o",
+     "i": 8.119,
+     "f": 8.19
+    },
+    {
+     "p": "caminhão",
+     "i": 8.202,
+     "f": 8.762
+    },
+    {
+     "p": "Fable",
+     "i": 9.583,
+     "f": 10.107
+    },
+    {
+     "p": "o",
+     "i": 10.262,
+     "f": 10.345
+    },
+    {
+     "p": "avião",
+     "i": 10.357,
+     "f": 10.821
+    },
+    {
+     "p": "Você",
+     "i": 11.643,
+     "f": 11.917
+    },
+    {
+     "p": "não",
+     "i": 11.929,
+     "f": 12.095
+    },
+    {
+     "p": "pega",
+     "i": 12.107,
+     "f": 12.333
+    },
+    {
+     "p": "avião",
+     "i": 12.345,
+     "f": 12.655
+    },
+    {
+     "p": "para",
+     "i": 12.667,
+     "f": 12.881
+    },
+    {
+     "p": "ir",
+     "i": 12.893,
+     "f": 12.976
+    },
+    {
+     "p": "à",
+     "i": 12.988,
+     "f": 13.036
+    },
+    {
+     "p": "padaria",
+     "i": 13.048,
+     "f": 13.571
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "79f7bb0d78",
+   "texto": "Exemplo: classificar mil e-mails como urgente ou não. Tarefa simples e repetida: Haiku. Resumir relatórios e escrever textos: Sonnet. Planejar um projeto grande: Opus. Problema muito difícil: Fable.",
+   "audio": "audio/exemplo-79f7bb0d78.mp3",
+   "duracao": 16.656,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.098,
+     "f": 0.669
+    },
+    {
+     "p": "classificar",
+     "i": 0.86,
+     "f": 1.502
+    },
+    {
+     "p": "mil",
+     "i": 1.514,
+     "f": 1.693
+    },
+    {
+     "p": "e-mails",
+     "i": 1.705,
+     "f": 2.098
+    },
+    {
+     "p": "como",
+     "i": 2.11,
+     "f": 2.348
+    },
+    {
+     "p": "urgente",
+     "i": 2.36,
+     "f": 2.776
+    },
+    {
+     "p": "ou",
+     "i": 2.788,
+     "f": 2.871
+    },
+    {
+     "p": "não",
+     "i": 2.883,
+     "f": 3.145
+    },
+    {
+     "p": "Tarefa",
+     "i": 3.964,
+     "f": 4.417
+    },
+    {
+     "p": "simples",
+     "i": 4.429,
+     "f": 4.857
+    },
+    {
+     "p": "e",
+     "i": 4.869,
+     "f": 4.964
+    },
+    {
+     "p": "repetida",
+     "i": 4.976,
+     "f": 5.607
+    },
+    {
+     "p": "Haiku",
+     "i": 5.786,
+     "f": 6.19
+    },
+    {
+     "p": "Resumir",
+     "i": 7.012,
+     "f": 7.5
+    },
+    {
+     "p": "relatórios",
+     "i": 7.512,
+     "f": 8.036
+    },
+    {
+     "p": "e",
+     "i": 8.048,
+     "f": 8.131
+    },
+    {
+     "p": "escrever",
+     "i": 8.143,
+     "f": 8.619
+    },
+    {
+     "p": "textos",
+     "i": 8.631,
+     "f": 9.143
+    },
+    {
+     "p": "Sonnet",
+     "i": 9.333,
+     "f": 9.821
+    },
+    {
+     "p": "Planejar",
+     "i": 10.643,
+     "f": 11.107
+    },
+    {
+     "p": "um",
+     "i": 11.119,
+     "f": 11.19
+    },
+    {
+     "p": "projeto",
+     "i": 11.202,
+     "f": 11.655
+    },
+    {
+     "p": "grande",
+     "i": 11.667,
+     "f": 12.107
+    },
+    {
+     "p": "Opus",
+     "i": 12.321,
+     "f": 12.821
+    },
+    {
+     "p": "Problema",
+     "i": 13.643,
+     "f": 14.083
+    },
+    {
+     "p": "muito",
+     "i": 14.095,
+     "f": 14.5
+    },
+    {
+     "p": "difícil",
+     "i": 14.512,
+     "f": 15.036
+    },
+    {
+     "p": "Fable",
+     "i": 15.369,
+     "f": 15.821
+    }
+   ]
+  },
+  "economia": {
+   "hash": "2eabc2e8da",
+   "texto": "E a conta fecha: o Haiku custa 40 vezes menos que o Opus. Mil reais gastos no Opus rendem quarenta mil no Haiku, na entrada.",
+   "audio": "audio/economia-2eabc2e8da.mp3",
+   "duracao": 9.384,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.098,
+     "f": 0.193
+    },
+    {
+     "p": "a",
+     "i": 0.205,
+     "f": 0.288
+    },
+    {
+     "p": "conta",
+     "i": 0.3,
+     "f": 0.633
+    },
+    {
+     "p": "fecha",
+     "i": 0.645,
+     "f": 1.098
+    },
+    {
+     "p": "o",
+     "i": 1.371,
+     "f": 1.467
+    },
+    {
+     "p": "Haiku",
+     "i": 1.479,
+     "f": 1.764
+    },
+    {
+     "p": "custa",
+     "i": 1.776,
+     "f": 2.086
+    },
+    {
+     "p": "40 vezes",
+     "i": 2.098,
+     "f": 2.955
+    },
+    {
+     "p": "menos",
+     "i": 2.967,
+     "f": 3.312
+    },
+    {
+     "p": "que",
+     "i": 3.324,
+     "f": 3.407
+    },
+    {
+     "p": "o",
+     "i": 3.419,
+     "f": 3.538
+    },
+    {
+     "p": "Opus",
+     "i": 3.55,
+     "f": 4.038
+    },
+    {
+     "p": "Mil",
+     "i": 4.857,
+     "f": 5.107
+    },
+    {
+     "p": "reais",
+     "i": 5.119,
+     "f": 5.464
+    },
+    {
+     "p": "gastos",
+     "i": 5.476,
+     "f": 5.917
+    },
+    {
+     "p": "no",
+     "i": 5.929,
+     "f": 6
+    },
+    {
+     "p": "Opus",
+     "i": 6.012,
+     "f": 6.286
+    },
+    {
+     "p": "rendem",
+     "i": 6.298,
+     "f": 6.631
+    },
+    {
+     "p": "quarenta",
+     "i": 6.643,
+     "f": 7.119
+    },
+    {
+     "p": "mil",
+     "i": 7.131,
+     "f": 7.31
+    },
+    {
+     "p": "no",
+     "i": 7.321,
+     "f": 7.417
+    },
+    {
+     "p": "Haiku",
+     "i": 7.429,
+     "f": 7.774
+    },
+    {
+     "p": "na",
+     "i": 8.012,
+     "f": 8.095
+    },
+    {
+     "p": "entrada",
+     "i": 8.107,
+     "f": 8.548
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "218fc7cd0e",
+   "texto": "O erro comum: usar sempre o modelo mais forte, por garantia. Isso gasta dinheiro à toa. Comece pelo mais barato e suba só se a resposta não servir.",
+   "audio": "audio/erro-comum-218fc7cd0e.mp3",
+   "duracao": 11.088,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "erro",
+     "i": 0.252,
+     "f": 0.455
+    },
+    {
+     "p": "comum",
+     "i": 0.467,
+     "f": 0.8
+    },
+    {
+     "p": "usar",
+     "i": 1.098,
+     "f": 1.383
+    },
+    {
+     "p": "sempre",
+     "i": 1.395,
+     "f": 1.776
+    },
+    {
+     "p": "o",
+     "i": 1.788,
+     "f": 1.8
+    },
+    {
+     "p": "modelo",
+     "i": 1.812,
+     "f": 2.169
+    },
+    {
+     "p": "mais",
+     "i": 2.181,
+     "f": 2.383
+    },
+    {
+     "p": "forte",
+     "i": 2.395,
+     "f": 2.8
+    },
+    {
+     "p": "por",
+     "i": 3.026,
+     "f": 3.169
+    },
+    {
+     "p": "garantia",
+     "i": 3.181,
+     "f": 3.776
+    },
+    {
+     "p": "Isso",
+     "i": 4.595,
+     "f": 4.893
+    },
+    {
+     "p": "gasta",
+     "i": 4.905,
+     "f": 5.274
+    },
+    {
+     "p": "dinheiro",
+     "i": 5.286,
+     "f": 5.69
+    },
+    {
+     "p": "à",
+     "i": 5.702,
+     "f": 5.75
+    },
+    {
+     "p": "toa",
+     "i": 5.762,
+     "f": 6.143
+    },
+    {
+     "p": "Comece",
+     "i": 6.964,
+     "f": 7.44
+    },
+    {
+     "p": "pelo",
+     "i": 7.452,
+     "f": 7.643
+    },
+    {
+     "p": "mais",
+     "i": 7.655,
+     "f": 7.833
+    },
+    {
+     "p": "barato",
+     "i": 7.845,
+     "f": 8.321
+    },
+    {
+     "p": "e",
+     "i": 8.333,
+     "f": 8.381
+    },
+    {
+     "p": "suba",
+     "i": 8.393,
+     "f": 8.714
+    },
+    {
+     "p": "só",
+     "i": 8.726,
+     "f": 8.952
+    },
+    {
+     "p": "se",
+     "i": 8.964,
+     "f": 9.071
+    },
+    {
+     "p": "a",
+     "i": 9.083,
+     "f": 9.107
+    },
+    {
+     "p": "resposta",
+     "i": 9.119,
+     "f": 9.655
+    },
+    {
+     "p": "não",
+     "i": 9.667,
+     "f": 9.833
+    },
+    {
+     "p": "servir",
+     "i": 9.845,
+     "f": 10.25
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "7cdea9722a",
+   "texto": "Pause o vídeo e tente: liste três tarefas suas e escolha o modelo ideal para cada uma.",
+   "audio": "audio/pratica-7cdea9722a.mp3",
+   "duracao": 5.52,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "o",
+     "i": 0.407,
+     "f": 0.467
+    },
+    {
+     "p": "vídeo",
+     "i": 0.479,
+     "f": 0.776
+    },
+    {
+     "p": "e",
+     "i": 0.788,
+     "f": 0.848
+    },
+    {
+     "p": "tente",
+     "i": 0.86,
+     "f": 1.193
+    },
+    {
+     "p": "liste",
+     "i": 1.502,
+     "f": 1.871
+    },
+    {
+     "p": "três",
+     "i": 1.883,
+     "f": 2.11
+    },
+    {
+     "p": "tarefas",
+     "i": 2.121,
+     "f": 2.562
+    },
+    {
+     "p": "suas",
+     "i": 2.574,
+     "f": 2.74
+    },
+    {
+     "p": "e",
+     "i": 2.752,
+     "f": 2.836
+    },
+    {
+     "p": "escolha",
+     "i": 2.848,
+     "f": 3.205
+    },
+    {
+     "p": "o",
+     "i": 3.217,
+     "f": 3.229
+    },
+    {
+     "p": "modelo",
+     "i": 3.24,
+     "f": 3.598
+    },
+    {
+     "p": "ideal",
+     "i": 3.61,
+     "f": 3.967
+    },
+    {
+     "p": "para",
+     "i": 3.979,
+     "f": 4.169
+    },
+    {
+     "p": "cada",
+     "i": 4.181,
+     "f": 4.431
+    },
+    {
+     "p": "uma",
+     "i": 4.443,
+     "f": 4.693
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "9ee05ebfb5",
+   "texto": "Resumindo: são quatro modelos. O preço vai de 10 centavos a 10 dólares. E a tarefa decide o modelo.",
+   "audio": "audio/resumo-9ee05ebfb5.mp3",
+   "duracao": 8.832,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.693
+    },
+    {
+     "p": "são",
+     "i": 0.99,
+     "f": 1.229
+    },
+    {
+     "p": "quatro",
+     "i": 1.24,
+     "f": 1.621
+    },
+    {
+     "p": "modelos",
+     "i": 1.633,
+     "f": 2.229
+    },
+    {
+     "p": "O",
+     "i": 3.048,
+     "f": 3.179
+    },
+    {
+     "p": "preço",
+     "i": 3.19,
+     "f": 3.571
+    },
+    {
+     "p": "vai",
+     "i": 3.583,
+     "f": 3.714
+    },
+    {
+     "p": "de",
+     "i": 3.726,
+     "f": 3.821
+    },
+    {
+     "p": "10 centavos",
+     "i": 3.833,
+     "f": 4.583
+    },
+    {
+     "p": "a",
+     "i": 4.595,
+     "f": 4.738
+    },
+    {
+     "p": "10 dólares",
+     "i": 4.75,
+     "f": 5.607
+    },
+    {
+     "p": "E",
+     "i": 6.429,
+     "f": 6.524
+    },
+    {
+     "p": "a",
+     "i": 6.536,
+     "f": 6.607
+    },
+    {
+     "p": "tarefa",
+     "i": 6.619,
+     "f": 7.071
+    },
+    {
+     "p": "decide",
+     "i": 7.083,
+     "f": 7.5
+    },
+    {
+     "p": "o",
+     "i": 7.512,
+     "f": 7.536
+    },
+    {
+     "p": "modelo",
+     "i": 7.548,
+     "f": 7.988
+    }
+   ]
+  },
+  "final": {
+   "hash": "6226c957de",
+   "texto": "Quiz: para classificar mil e-mails, qual escolher? Haiku ou Opus? A resposta é Haiku: tarefa simples, 40 vezes mais barato. Na próxima aula: os planos do Claude.",
+   "audio": "audio/final-6226c957de.mp3",
+   "duracao": 13.872,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "para",
+     "i": 0.717,
+     "f": 0.907
+    },
+    {
+     "p": "classificar",
+     "i": 0.919,
+     "f": 1.502
+    },
+    {
+     "p": "mil",
+     "i": 1.514,
+     "f": 1.717
+    },
+    {
+     "p": "e-mails",
+     "i": 1.729,
+     "f": 2.169
+    },
+    {
+     "p": "qual",
+     "i": 2.383,
+     "f": 2.574
+    },
+    {
+     "p": "escolher",
+     "i": 2.586,
+     "f": 3.038
+    },
+    {
+     "p": "Haiku",
+     "i": 3.857,
+     "f": 4.202
+    },
+    {
+     "p": "ou",
+     "i": 4.214,
+     "f": 4.357
+    },
+    {
+     "p": "Opus",
+     "i": 4.369,
+     "f": 4.845
+    },
+    {
+     "p": "A",
+     "i": 5.667,
+     "f": 5.774
+    },
+    {
+     "p": "resposta",
+     "i": 5.786,
+     "f": 6.321
+    },
+    {
+     "p": "é",
+     "i": 6.333,
+     "f": 6.345
+    },
+    {
+     "p": "Haiku",
+     "i": 6.357,
+     "f": 6.762
+    },
+    {
+     "p": "tarefa",
+     "i": 7.036,
+     "f": 7.476
+    },
+    {
+     "p": "simples",
+     "i": 7.488,
+     "f": 8.048
+    },
+    {
+     "p": "40 vezes",
+     "i": 8.25,
+     "f": 9.083
+    },
+    {
+     "p": "mais",
+     "i": 9.095,
+     "f": 9.333
+    },
+    {
+     "p": "barato",
+     "i": 9.345,
+     "f": 9.833
+    },
+    {
+     "p": "Na",
+     "i": 10.655,
+     "f": 10.857
+    },
+    {
+     "p": "próxima",
+     "i": 10.869,
+     "f": 11.309
+    },
+    {
+     "p": "aula",
+     "i": 11.321,
+     "f": 11.655
+    },
+    {
+     "p": "os",
+     "i": 11.929,
+     "f": 12.083
+    },
+    {
+     "p": "planos",
+     "i": 12.095,
+     "f": 12.476
+    },
+    {
+     "p": "do",
+     "i": 12.488,
+     "f": 12.607
+    },
+    {
+     "p": "Claude",
+     "i": 12.619,
+     "f": 13.036
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "claude": {
+   "arquivo": "imagens/claude-42a01da1.jpg",
+   "rotulo": "Claude",
+   "wiki": "Claude (modelo de linguagem)",
+   "commons": "Claude AI logo",
+   "autor": "Department for Science, Innovation and Technology",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54098999333).jpg",
+   "titulo": "File:Secretary of State Peter Kyle visits Anthropic in San Francisco. (54098999333).jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.941Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Preços da API Claude (US$ por milhão de tokens)",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }
