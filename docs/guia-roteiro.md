@@ -85,6 +85,46 @@ por item com o número em destaque), `linha-do-tempo` (cenas por data, `linha` e
   repita o mesmo ângulo nem o mesmo gancho deles.
 - O validador confere tudo isso.
 
+## Videoaulas (quando `pedido.tom` começa com "Videoaula")
+
+Série didática "IA do Zero ao Especialista". O tema começa com o código da aula (`Aula 3.4: …`) e traz um
+briefing do que ensinar: siga o briefing, ele é o conteúdo da aula. O objetivo é que **qualquer pessoa
+acompanhe sem se entediar**, sem perder a seriedade: ritmo de Reels, conteúdo de aula.
+
+**Voz e linguagem**
+- Professor próximo e confiante, falando com "você". Sério, sem exagero: nada de "revolucionário",
+  "vai roubar seu emprego", "segredo que ninguém conta", promessas de dinheiro ou de resultado.
+- Frases de até ~15 palavras, uma ideia por frase. Todo termo técnico ganha uma explicação simples na
+  primeira vez (elemento `definicao`). Termo em inglês: diga a tradução na primeira vez.
+- Comandos e nomes técnicos aparecem na tela; na fala, escreva como se lê ("barra clear", "skill").
+- Preços, datas e números sempre com fonte na cena (`fontes`) e com a data ("em outubro de 2026").
+- Continuidade de série: quando fizer sentido, ligue com a aula anterior ("na aula passada você viu…").
+
+**Estrutura (2 min ≈ 290 palavras; em 1:30 junte conceito e analogia e corte o erro comum)**
+
+| # | `id` | tempo | o que a voz faz | elementos na tela |
+|---|---|---|---|---|
+| 1 | `gancho` | 0–5 s | pergunta direta ao espectador ou número real surpreendente | `pergunta` ou `contador`, às vezes `carimbo` |
+| 2 | `promessa` | 5–12 s | "Nesta aula você vai aprender…" (3 itens) | `titulo` com o código da aula em `sub` + `icones` com os 3 itens |
+| 3 | `conceito` | 12–30 s | o conceito em linguagem simples | `titulo` + `definicao` (+ `tag`) |
+| 4 | `analogia` | 30–45 s | comparação com algo do dia a dia | `icones` ou `mapa` |
+| 5 | `exemplo` | 45–72 s | um caso concreto, passo a passo | `comentario` digitando o prompt/comando; `check` (antes ruim × depois bom), `placar` ou `contador` para números |
+| 6 | `erro-comum` | 72–85 s | o erro que quase todo mundo comete, e como evitar | `carimbo` ("ERRO COMUM", "MITO", vermelho) + `check` com `ok: false` |
+| 7 | `pratica` | 85–97 s | "Pause o vídeo e tente: …" (o exercício da aula, em 1 frase) | `tag` "PAUSE E TENTE" com ícone `alvo` + `pergunta` |
+| 8 | `resumo` | 97–108 s | as 3 ideias da aula em 3 frases curtas | `titulo` "RESUMO" + `icones` com 3 itens |
+| 9 | `final` | 108–120 s | quiz com 2 opções, uma pausa curta, a resposta certa com o porquê, convite para a próxima aula | `enquete` (o quiz) + `seguir` ("PRÓXIMA: AULA 3.5") |
+
+**Ritmo e interação**
+- Algo novo na tela a cada 3–5 s (a cada 8–12 palavras faladas): 3 a 5 elementos por cena, cada um com
+  `em` na palavra exata em que aquilo é dito. Nunca uma cena inteira só com legenda.
+- Pelo menos 3 momentos que falam com o espectador: a pergunta do gancho, o "pause e tente" e o quiz.
+  Um `comentario` ("comenta aí qual você usa") pode entrar no exemplo ou no resumo.
+- Fundos: o tema quase nunca tem foto livre útil, então deixe a maioria das cenas com fundo animado
+  (sem `fundo`). Use `imagens.json` só para pessoas, empresas ou lugares reais — nas videoaulas, 2 a 4
+  imagens bastam (exceção à regra geral de 4 a 9).
+- `formato`: `explicativo` por padrão; `comparacao` quando a aula compara (ex.: modelos, planos);
+  `lista` quando o briefing enumera itens; `mito-verdade` quando a aula é sobre erros e limites.
+
 ## Formato do `roteiro.json`
 
 ```json
