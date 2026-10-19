@@ -20,6 +20,15 @@ com narração, legenda, trilha e efeitos sonoros. Cada cena reorganiza o layout
 
 O texto falado e o nome do autor ficam em `conteudo/roteiro.json`.
 
+## Voz
+
+A narração é gerada com o [VoiceStudio](https://github.com/debpalash/VoiceStudio) (motor OmniVoice, em CPU no
+GitHub Actions). Na primeira execução, a voz é criada pelo *voice design* (`voz.voicestudio.instrucao` no roteiro)
+e salva em `voz/referencia.wav`; todas as cenas clonam essa amostra, então a voz é a mesma no vídeo inteiro.
+O Whisper confere a fala e marca o tempo de cada palavra para a legenda. Para criar outra voz, apague a pasta
+`voz/` (ou mude a instrução) e rode o workflow com "Regerar toda a narração". A voz da Microsoft continua
+disponível escolhendo `edge` em "Voz da narração".
+
 ## De onde vêm as imagens
 
 - **Telas:** capturadas do app real (`scripts/capturar_telas.mjs`, com `npm run dev` rodando na raiz). O GitHub é

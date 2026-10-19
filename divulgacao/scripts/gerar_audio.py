@@ -14,6 +14,7 @@ então os cortes caem sempre na batida da música.
 Uso:
   python3 scripts/gerar_audio.py                          # motor edge
   python3 scripts/gerar_audio.py --motor kokoro --modelo PASTA_COM_MODELO
+  python3 scripts/gerar_audio.py --motor voicestudio     # VoiceStudio (OmniVoice), precisa do repositório no PYTHONPATH
   python3 scripts/gerar_audio.py --forcar revelacao       # refaz só a cena 'revelacao'
 """
 import argparse, asyncio, hashlib, json, math, os, re, subprocess, tempfile
@@ -100,7 +101,7 @@ def linha_do_tempo(roteiro, cenas):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--motor", default=os.environ.get("MOTOR_TTS", "edge"), choices=["edge", "kokoro"])
+    ap.add_argument("--motor", default=os.environ.get("MOTOR_TTS", "edge"), choices=["edge", "kokoro", "voicestudio"])
     ap.add_argument("--modelo", default=os.environ.get("KOKORO_MODELO", "modelos/kokoro"))
     ap.add_argument("--forcar", nargs="*", help="ids de cenas para refazer (vazio = todas)")
     a = ap.parse_args()
@@ -112,6 +113,9 @@ def main():
 
     if a.motor == "edge":
         voz_id, vel = voz["edge"], voz.get("velocidade", "+0%")
+    elif a.motor == "voicestudio":
+        vs = voz["voicestudio"]
+        voz_id, vel = "voicestudio:" + vs.get("instrucao", ""), vs.get("velocidade", 1.0)
     else:
         voz_id, vel = voz["kokoro"], voz.get("kokoroVelocidade", 1.0)
 
@@ -130,6 +134,9 @@ def main():
         print(f"♪ {cid} …", flush=True)
         if a.motor == "edge":
             palavras = asyncio.run(via_edge(texto, voz_id, vel, dest))
+        elif a.motor == "voicestudio":
+            import voz_voicestudio
+            palavras = voz_voicestudio.gerar(texto, dest, voz["voicestudio"])
         else:
             palavras = via_kokoro(texto, voz_id, float(vel), dest, a.modelo)
         cenas[cid] = {"hash": h, "audio": arq, "duracao": round(duracao(dest), 3), "palavras": palavras}

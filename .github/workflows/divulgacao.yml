@@ -1,7 +1,8 @@
 name: Vídeo de divulgação (narração, trilha e render)
 
-# Gera a narração com a voz neural da Microsoft (edge-tts), refaz a trilha no ritmo da nova
-# narração, salva os áudios no repositório e renderiza o MP4 (fica em "Artifacts" da execução).
+# Gera a narração com o VoiceStudio (github.com/debpalash/VoiceStudio, motor OmniVoice) ou com a voz
+# da Microsoft (edge-tts), refaz a trilha no ritmo da nova narração, salva os áudios no repositório e
+# renderiza os MP4 (ficam em "Artifacts" da execução).
 on:
   push:
     paths:
@@ -19,6 +20,11 @@ on:
         description: "Regerar toda a narração"
         type: boolean
         default: false
+      motor:
+        description: "Voz da narração"
+        type: choice
+        options: [voicestudio, edge]
+        default: voicestudio
 
 permissions:
   contents: write
@@ -30,7 +36,7 @@ concurrency:
 jobs:
   video:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     defaults:
       run:
         working-directory: divulgacao
@@ -55,18 +61,27 @@ jobs:
           pip install edge-tts==7.3.1 numpy scipy
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
 
-      - name: Narração (voz neural; se falhar, voz offline Kokoro)
+      # VoiceStudio: só o pacote do motor (omnivoice/), nas versões fixadas no uv.lock dele, em CPU
+      - name: VoiceStudio (OmniVoice)
+        if: ${{ (inputs.motor || 'voicestudio') == 'voicestudio' }}
+        run: |
+          git clone --filter=blob:none https://github.com/debpalash/VoiceStudio "$RUNNER_TEMP/VoiceStudio"
+          git -C "$RUNNER_TEMP/VoiceStudio" checkout -q d819ff54d93017bf4a5b34b605833162163c9e3c
+          pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers==5.15.1 accelerate==1.14.0 huggingface-hub==1.28.0 pydub==0.25.1 soundfile==0.14.0 faster-whisper==1.2.1
+          echo "PYTHONPATH=$RUNNER_TEMP/VoiceStudio:$PWD/scripts" >> "$GITHUB_ENV"
+
+      - uses: actions/cache@v4
+        if: ${{ (inputs.motor || 'voicestudio') == 'voicestudio' }}
+        with:
+          path: ~/.cache/huggingface
+          key: hf-omnivoice-whisper-small-v1
+
+      - name: Narração
         run: |
           FORCAR=""
           if [ "${{ inputs.refazer_audio }}" = "true" ]; then FORCAR="--forcar"; fi
-          if ! python3 scripts/gerar_audio.py --motor edge $FORCAR; then
-            echo "::warning::edge-tts falhou; usando a voz offline Kokoro"
-            pip install kokoro-onnx==0.6.1 soundfile
-            mkdir -p modelos/kokoro
-            curl -sSL -o modelos/kokoro/kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
-            curl -sSL -o modelos/kokoro/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
-            python3 scripts/gerar_audio.py --motor kokoro --modelo modelos/kokoro
-          fi
+          python3 scripts/gerar_audio.py --motor "${{ inputs.motor || 'voicestudio' }}" $FORCAR
 
       - name: Trilha e efeitos sonoros
         run: python3 scripts/gerar_sons.py
@@ -75,7 +90,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/audio public/sfx src/gerado
+          git add public/audio public/sfx src/gerado voz 2>/dev/null || git add public/audio public/sfx src/gerado
           if ! git diff --cached --quiet; then
             git commit -m "Divulgação: atualiza narração e trilha"
             git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
