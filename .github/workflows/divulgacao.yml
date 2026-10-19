@@ -1,0 +1,97 @@
+name: Vídeo de divulgação (narração, trilha e render)
+
+# Gera a narração com a voz neural da Microsoft (edge-tts), refaz a trilha no ritmo da nova
+# narração, salva os áudios no repositório e renderiza o MP4 (fica em "Artifacts" da execução).
+on:
+  push:
+    paths:
+      - "divulgacao/conteudo/**"
+      - "divulgacao/src/**"
+      - "divulgacao/scripts/**"
+      - ".github/workflows/divulgacao.yml"
+  workflow_dispatch:
+    inputs:
+      renderizar:
+        description: "Renderizar o MP4 final"
+        type: boolean
+        default: true
+      refazer_audio:
+        description: "Regerar toda a narração"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: divulgacao-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: divulgacao
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: divulgacao/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+        run: |
+          npm ci
+          pip install edge-tts==7.3.1 numpy scipy
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Narração (voz neural; se falhar, voz offline Kokoro)
+        run: |
+          FORCAR=""
+          if [ "${{ inputs.refazer_audio }}" = "true" ]; then FORCAR="--forcar"; fi
+          if ! python3 scripts/gerar_audio.py --motor edge $FORCAR; then
+            echo "::warning::edge-tts falhou; usando a voz offline Kokoro"
+            pip install kokoro-onnx==0.6.1 soundfile
+            mkdir -p modelos/kokoro
+            curl -sSL -o modelos/kokoro/kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+            curl -sSL -o modelos/kokoro/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+            python3 scripts/gerar_audio.py --motor kokoro --modelo modelos/kokoro
+          fi
+
+      - name: Trilha e efeitos sonoros
+        run: python3 scripts/gerar_sons.py
+
+      - name: Salvar narração e trilha no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/audio public/sfx src/gerado
+          if ! git diff --cached --quiet; then
+            git commit -m "Divulgação: atualiza narração e trilha"
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Checar tipos
+        run: npx tsc --noEmit
+
+      - name: Renderizar MP4
+        if: ${{ github.event_name == 'push' || inputs.renderizar }}
+        run: |
+          npx remotion browser ensure
+          bash scripts/renderizar.sh
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ github.event_name == 'push' || inputs.renderizar }}
+        with:
+          name: estudio-reels-divulgacao
+          path: divulgacao/out/estudio-reels-*.mp4

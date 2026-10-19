@@ -1,0 +1,36 @@
+{
+  "name": "estudio-reels-divulgacao",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "bash scripts/renderizar.sh",
+    "audio": "python3 scripts/gerar_audio.py",
+    "sons": "python3 scripts/gerar_sons.py",
+    "telas": "node scripts/capturar_telas.mjs",
+    "typecheck": "tsc --noEmit",
+    "render:16x9": "bash scripts/renderizar.sh 16x9",
+    "render:9x16": "bash scripts/renderizar.sh 9x16"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/fonts": "4.0.535",
+    "@remotion/light-leaks": "4.0.535",
+    "@remotion/motion-blur": "4.0.535",
+    "@remotion/noise": "4.0.535",
+    "@remotion/paths": "4.0.535",
+    "@remotion/shapes": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.535",
+    "@remotion/media-utils": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "playwright": "1.56.1",
+    "typescript": "5.6.3"
+  }
+}

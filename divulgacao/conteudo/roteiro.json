@@ -1,0 +1,21 @@
+{
+  "autor": "Fabio Sarri",
+  "voz": {
+    "edge": "pt-BR-AntonioNeural",
+    "velocidade": "+12%",
+    "kokoro": "pm_alex",
+    "kokoroVelocidade": 1.12
+  },
+  "bpm": 120,
+  "cenas": [
+    { "id": "abertura", "texto": "Fazer um vídeo para as redes leva horas.", "extra": 0.4 },
+    { "id": "tarefas", "texto": "Roteiro, narração, legendas, cortes, efeitos.", "extra": 0.3 },
+    { "id": "revelacao", "texto": "Conheça o Estúdio Reels.", "extra": 1.2 },
+    { "id": "ia", "texto": "Digite um tema. A inteligência artificial pesquisa, escreve o roteiro e gera a voz, as imagens e as animações.", "extra": 0.6 },
+    { "id": "bruto", "texto": "Ou envie um vídeo seu: legenda palavra por palavra, cortes nas pausas e zoom no que importa.", "extra": 0.5 },
+    { "id": "editor", "texto": "No editor, você ajusta tudo com prévia ao vivo e exporta em alta qualidade.", "extra": 0.6 },
+    { "id": "tecnologia", "texto": "Por trás: React, Remotion, GitHub Actions, Whisper e o Claude.", "extra": 0.8 },
+    { "id": "autor", "texto": "Um projeto de Fabio Sarri, com a inteligência artificial como parceira de desenvolvimento.", "extra": 0.6 },
+    { "id": "final", "texto": "Estúdio Reels. Da ideia ao vídeo, em minutos.", "extra": 2.4 }
+  ]
+}
