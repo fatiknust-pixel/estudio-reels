@@ -1,6 +1,8 @@
 # Guia do roteiro (Modo 1 — vídeo gerado por IA)
 
-Este guia é lido pelo Claude na Action `gerar-ia.yml`. O formato é o mesmo do
+Este guia é lido pelo Claude na Action `gerar-ia.yml`, em três etapas: a **pesquisa** (Sonnet) escreve
+`out/pesquisa.md` e o `imagens.json`, o **roteiro** (Opus) escreve o `roteiro.json` só com os fatos da pesquisa,
+e a **revisão** (Haiku) corrige o formato até o validador aprovar. O formato é o mesmo do
 `conteudo/<id>/roteiro.json` do projeto Astra. O pedido (tema, tom, duração) está em
 `projetos/<id>/projeto.json`, no campo `pedido`.
 

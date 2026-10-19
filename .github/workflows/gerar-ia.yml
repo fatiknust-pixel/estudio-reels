@@ -2,8 +2,9 @@ name: Gerar vídeo com IA
 run-name: Gerar ${{ inputs.projeto }}
 
 # Modo 1. Disparado pelo app depois de você escrever tema, tom, cores e duração.
-# 1) O Claude (sua assinatura, segredo CLAUDE_CODE_OAUTH_TOKEN) pesquisa fontes confiáveis e escreve
-#    projetos/<id>/roteiro.json + imagens.json no formato do Astra (docs/guia-roteiro.md).
+# 1) O Claude (sua assinatura, segredo CLAUDE_CODE_OAUTH_TOKEN), em três etapas com o modelo certo para cada:
+#    Sonnet pesquisa fontes confiáveis (out/pesquisa.md + imagens.json), Opus escreve projetos/<id>/roteiro.json
+#    no formato do Astra (docs/guia-roteiro.md) e Haiku corrige o formato até o validador aprovar.
 # 2) Narração com edge-tts (pt-BR-AntonioNeural +5%) e tempo por palavra.
 # 3) Imagens do Wikipédia/Wikimedia Commons com autor e licença.
 on:
@@ -42,6 +43,7 @@ jobs:
             echo "::error::Falta o segredo CLAUDE_CODE_OAUTH_TOKEN (rode 'claude setup-token' e salve em Settings → Secrets → Actions)"; exit 1
           fi
           rm -f "projetos/$ID/roteiro.json" "projetos/$ID/imagens.json"
+          mkdir -p out
 
       - uses: actions/setup-node@v4
         with:
@@ -56,31 +58,89 @@ jobs:
           pip install edge-tts==7.3.1
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
 
-      - name: Claude pesquisa e escreve o roteiro
+      # Cada etapa usa o modelo que dá conta dela sem gastar à toa:
+      # Sonnet pesquisa (web, checagem de fatos), Opus escreve (gancho, ritmo, estilo) e Haiku faz
+      # os ajustes mecânicos que o validador pedir.
+      - name: Pesquisa (Sonnet)
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ github.token }}
           prompt: |
-            Você é roteirista e pesquisador de vídeos curtos 9:16 (Reels/TikTok) em português do Brasil.
+            Você é pesquisador de vídeos curtos 9:16 (Reels/TikTok) em português do Brasil.
+
+            1. Leia em `docs/guia-roteiro.md` as seções "Pesquisa e fontes" e "Formato do `imagens.json`".
+            2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao`;
+               se existir `pedido.lote`, os temas dos outros vídeos estão em `lote.outros` — busque um ângulo diferente).
+            3. Pesquise o tema na web em fontes confiáveis e confira datas, números e nomes em mais de uma fonte.
+            4. Escreva `out/pesquisa.md` com:
+               - 3 a 5 ideias de gancho (número surpreendente, contradição ou pergunta forte), cada uma com o fato que a sustenta;
+               - 8 a 15 fatos confirmados, um por linha, cada um com a fonte curta (ex.: "STF — HC 193.726") e a URL;
+               - o que é polêmico ou não foi confirmado (para o roteirista NÃO usar como fato);
+               - a lista final de fontes no formato `- [título](url)`.
+            5. Escreva `projetos/${{ inputs.projeto }}/imagens.json` com 6 a 9 imagens do tema (pessoas, lugares,
+               instituições, objetos), conferindo que o título do artigo da Wikipédia em português existe.
+
+            Não escreva o roteiro, não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --model sonnet
+            --max-turns 50
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep"
+
+      - name: Conferir pesquisa
+        run: test -s out/pesquisa.md && test -s "projetos/$ID/imagens.json" || { echo "::error::A pesquisa não gerou out/pesquisa.md e imagens.json"; exit 1; }
+
+      - name: Roteiro (Opus)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Você é roteirista de vídeos curtos 9:16 (Reels/TikTok) em português do Brasil.
 
             1. Leia `docs/guia-roteiro.md` e siga-o à risca (inclusive "Estilo de edição" e "Regra de variedade"). Use `app/demos/demo-ia.json` (campo `cenas`) como exemplo de qualidade.
             2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao` em segundos).
-            3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
-            3b. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
+            3. A pesquisa já foi feita: use só os fatos de `out/pesquisa.md` (não invente nada além deles) e as imagens de
+               `projetos/${{ inputs.projeto }}/imagens.json` (pode tirar ou trocar chaves se o roteiro pedir).
+            4. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
                e escolha o `estilo` deste vídeo: o que vier fixo em `pedido.estilo` é obrigatório; onde estiver "auto",
                escolha combinando com o tema SEM repetir a dinâmica, a legenda, a transição e o fundo do vídeo anterior.
                Adapte o roteiro (ritmo, tamanho das frases, quantidade de elementos) à dinâmica e ao formato.
-            4. Escreva `projetos/${{ inputs.projeto }}/roteiro.json` e `projetos/${{ inputs.projeto }}/imagens.json`:
-               gancho forte no início, cenas curtas com elementos animados e fontes na tela, e no final
-               uma pergunta para o público (enquete) e um CTA (seguir). Respeite o tom e a duração pedidos.
-            5. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija até aparecer "✅ Roteiro válido"
-               (trate também os avisos de duração e de fontes).
+            5. Escreva `projetos/${{ inputs.projeto }}/roteiro.json`: gancho forte no início, cenas curtas com elementos
+               animados e fontes na tela, e no final uma pergunta para o público (enquete) e um CTA (seguir).
+               Respeite o tom e a duração pedidos (`fontesPesquisa` vem da lista de fontes da pesquisa).
+            6. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija o que for de conteúdo:
+               duração (número de palavras) e estilo. Erros só de formato (campo faltando, `em` que não bate, ícone,
+               título longo) podem ficar — a próxima etapa ajusta.
 
             Não altere nenhum outro arquivo e não faça commit.
           claude_args: |
-            --max-turns 80
-            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(node scripts/validar-roteiro.mjs:*),Bash(node scripts/estilo-ia.mjs:*)"
+            --model opus
+            --max-turns 40
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(node scripts/validar-roteiro.mjs:*),Bash(node scripts/estilo-ia.mjs:*)"
+
+      - name: Ajustes do validador (Haiku)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Você revisa o formato de um roteiro já escrito. Não reescreva o conteúdo.
+
+            1. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}`. Se aparecer "✅ Roteiro válido" sem
+               avisos de formato, pare.
+            2. Senão, consulte `docs/guia-roteiro.md` (seções "Formato do `roteiro.json`", "Elementos animados" e
+               "Formato do `imagens.json`") e corrija em `projetos/${{ inputs.projeto }}/roteiro.json` e `imagens.json`
+               só o que o validador apontar: campos faltando, `id` ou chave inválida, `em` que não aparece no texto da cena
+               (troque pela palavra exata do texto), posição, ícone, título longo (encurte), imagem que falta no imagens.json.
+               Não mude o `texto` das cenas nem o `estilo`.
+            3. Rode o validador de novo até aparecer "✅ Roteiro válido".
+
+            Não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --model haiku
+            --max-turns 25
+            --allowedTools "Read,Edit,Bash(node scripts/validar-roteiro.mjs:*)"
 
       - name: Conferir roteiro
         run: node scripts/validar-roteiro.mjs "projetos/$ID"

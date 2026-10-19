@@ -44,7 +44,7 @@ navegador); a Action junta as partes e apaga o ramo.
 3. Transcreve com **faster-whisper** (`medium` ou `small`, pt, tempo por palavra, VAD).
 4. Aplica o estilo: no **Legenda impacto**, destaca números e palavras fortes, faz *punch-in*
    de zoom nelas e corta as pausas maiores que o limite escolhido.
-5. **Sugestões do Claude** (se o segredo existir e a opção estiver ligada): lê a transcrição numerada e
+5. **Sugestões do Claude** (modelo Sonnet; se o segredo existir e a opção estiver ligada): lê a transcrição numerada e
    sugere gancho de abertura (trecho forte que toca antes do começo + texto), cortes de enrolação,
    palavras em destaque, zooms, emojis, títulos (passos do tutorial, assunto do podcast, chamada da
    notícia), enquete e título — seguindo [`docs/guia-sugestoes.md`](docs/guia-sugestoes.md). Tudo entra
@@ -74,9 +74,11 @@ navegador); a Action junta as partes e apaga o ramo.
 ### Modo 1 — o que as Actions fazem
 
 - `gerar-ia.yml`: o **Claude** (`anthropics/claude-code-action`, com a sua assinatura) lê o pedido em
-  `projeto.json`, pesquisa na web e escreve `roteiro.json` + `imagens.json` no formato do Astra seguindo
+  `projeto.json` e escreve `roteiro.json` + `imagens.json` no formato do Astra seguindo
   [`docs/guia-roteiro.md`](docs/guia-roteiro.md) (gancho, cenas com elementos animados e fontes na tela,
-  enquete e CTA no final), conferindo com `scripts/validar-roteiro.mjs`. Depois vêm a narração
+  enquete e CTA no final), conferindo com `scripts/validar-roteiro.mjs`. O trabalho é dividido pelo modelo
+  que dá conta de cada parte: **Sonnet** pesquisa na web e confere os fatos (`out/pesquisa.md` + `imagens.json`),
+  **Opus** escreve o roteiro e escolhe o estilo, e **Haiku** corrige o formato até o validador aprovar. Depois vêm a narração
   (`scripts/voz.py`, edge-tts `pt-BR-AntonioNeural` +5%, tempo por palavra) e as imagens
   (`scripts/imagens.mjs`, Wikipédia/Commons com autor e licença).
 - **Lote:** na tela do Modo 1, um tema por linha cria até 5 vídeos de uma vez (gerados ao mesmo tempo). Com
