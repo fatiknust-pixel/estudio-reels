@@ -1,0 +1,101 @@
+{
+  "titulo": "Aula 2.4: Projetos, instruções e memória no Claude",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Help Center — O que são Projetos", "url": "https://support.claude.com/en/articles/9517075-what-are-projects" },
+    { "titulo": "Claude Help Center — Busca em chats e memória", "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você já explicou a mesma coisa para a IA dez vezes? Todo dia, do zero? Existe um jeito de ela lembrar.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "AULA 2.4", "sub": "PROJETOS NO CLAUDE", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "10 VEZES?", "em": "dez", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "DO ZERO", "cor": "vermelho", "em": "zero", "posicao": "meio" },
+        { "tipo": "tag", "texto": "EXISTE UM JEITO", "icone": "check", "cor": "verde", "em": "jeito", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nesta aula você vai aprender três coisas: o que é um Projeto, como dar instruções fixas e como funciona a memória.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "VOCÊ VAI APRENDER", "sub": "AULA 2.4", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "PROJETO"], ["seta", ""], ["contrato", "INSTRUÇÕES"], ["seta", ""], ["cruz", "MEMÓRIA"]], "em": "três", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Um Projeto é uma pasta de trabalho dentro do Claude. Ele guarda seus arquivos e suas instruções, e toda conversa nele já começa com esse material. As instruções são regras fixas, como o tom de voz. Já os estilos ajustam o formato das respostas.",
+      "fundo": "claude",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE É UM PROJETO", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "PROJETO", "significado": "Pasta com arquivos e instruções para todas as conversas", "em": "pasta", "posicao": "alto" },
+        { "tipo": "tag", "texto": "ARQUIVOS", "icone": "documento", "cor": "azul", "em": "arquivos", "posicao": "meio" },
+        { "tipo": "tag", "texto": "INSTRUÇÕES", "icone": "contrato", "cor": "amarelo", "em": "instruções", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num funcionário novo. Sem Projeto, todo dia você explica tudo outra vez, e ele esquece. Com Projeto, o manual já está na mesa dele, e ele só precisa trabalhar. É isso que economiza o seu tempo.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMO UM FUNCIONÁRIO", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "SEM PROJETO", "nota": "Explicar tudo de novo", "em": "Sem", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "COM PROJETO", "nota": "O manual já está na mesa", "em": "Com", "posicao": "meio" },
+        { "tipo": "tag", "texto": "MANUAL PRONTO", "icone": "documento", "cor": "verde", "em": "manual", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Exemplo: um Projeto para o seu canal de Reels. Nos arquivos, ponha roteiros que deram certo e a lista dos seus temas. Nas instruções, escreva: tom leve, frases curtas, termine com pergunta. Pronto. Agora, em qualquer conversa, você só pede: me dê cinco ideias de Reels.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PROJETO: CANAL DE REELS", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "ARQUIVOS: ROTEIROS", "icone": "documento", "cor": "azul", "em": "arquivos", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Tom leve, frases curtas, termine com uma pergunta.", "em": "instruções", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "VALE PARA TODO CHAT", "cor": "verde", "em": "pergunta", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: achar que a memória é uma só. Cada Projeto tem a sua, e o Claude não mistura com a de outros Projetos. Para separar de vez, desligue a memória da conta na página do Projeto. Você também pode ver e apagar tudo nas configurações.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "UMA MEMÓRIA SÓ", "nota": "Cada Projeto tem a sua", "em": "memória", "posicao": "alto" },
+        { "tipo": "tag", "texto": "MEMÓRIA POR PROJETO", "icone": "pin", "cor": "azul", "em": "Cada", "posicao": "meio" },
+        { "tipo": "tag", "texto": "DESLIGAR MEMÓRIA DA CONTA", "icone": "x", "cor": "amarelo", "em": "desligue", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: crie um Projeto, escreva três regras de estilo e peça uma ideia de Reels.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "CRIE"], ["seta", ""], ["contrato", "3 REGRAS"], ["seta", ""], ["balao", "PEÇA"]], "em": "crie", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "FUNCIONOU?", "em": "Reels", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo, em três pontos. Um: o Projeto guarda arquivos. Dois: as instruções valem para toda conversa dele. Três: a memória lembra de você, Projeto por Projeto. Comenta aí qual você vai criar primeiro.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "ARQUIVOS"]], "em": "arquivos", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["contrato", "INSTRUÇÕES"]], "em": "instruções", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["cruz", "MEMÓRIA"]], "em": "memória", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: onde ficam as regras fixas do seu canal? Nas instruções do Projeto, ou no primeiro chat? Pausa. A resposta é a primeira: instruções valem para toda conversa. Próxima aula: artefatos.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "ONDE FICAM AS REGRAS FIXAS?", "opcoes": ["1 · INSTRUÇÕES DO PROJETO", "2 · PRIMEIRO CHAT"], "em": 0, "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 1", "cor": "verde", "em": "primeira", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 2.5", "em": "Próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

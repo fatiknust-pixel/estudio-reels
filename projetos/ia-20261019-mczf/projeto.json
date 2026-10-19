@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-mczf",
- "titulo": "Aula 2.4: Projetos, instruções e memória no Claude — explique como um ",
+ "titulo": "Aula 2.4: Projetos, instruções e memória no Claude",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.940Z",
- "atualizadoEm": "2026-10-19T22:26:17.940Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:36:23Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 2.4: Projetos, instruções e memória no Claude — explique como um Projeto guarda arquivos e instruções para todas as conversas, como funcionam instruções personalizadas, estilos e memória entre conversas, com o exemplo de um projeto para um canal de Reels",
@@ -62,11 +63,1963 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você já explicou a mesma coisa para a IA dez vezes? Todo dia, do zero? Existe um jeito de ela lembrar.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AULA 2.4",
+     "sub": "PROJETOS NO CLAUDE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "10 VEZES?",
+     "em": "dez",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "DO ZERO",
+     "cor": "vermelho",
+     "em": "zero",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "EXISTE UM JEITO",
+     "icone": "check",
+     "cor": "verde",
+     "em": "jeito",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula você vai aprender três coisas: o que é um Projeto, como dar instruções fixas e como funciona a memória.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "VOCÊ VAI APRENDER",
+     "sub": "AULA 2.4",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "PROJETO"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "contrato",
+       "INSTRUÇÕES"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "cruz",
+       "MEMÓRIA"
+      ]
+     ],
+     "em": "três",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Um Projeto é uma pasta de trabalho dentro do Claude. Ele guarda seus arquivos e suas instruções, e toda conversa nele já começa com esse material. As instruções são regras fixas, como o tom de voz. Já os estilos ajustam o formato das respostas.",
+   "fundo": "claude",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE É UM PROJETO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "PROJETO",
+     "significado": "Pasta com arquivos e instruções para todas as conversas",
+     "em": "pasta",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ARQUIVOS",
+     "icone": "documento",
+     "cor": "azul",
+     "em": "arquivos",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "INSTRUÇÕES",
+     "icone": "contrato",
+     "cor": "amarelo",
+     "em": "instruções",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num funcionário novo. Sem Projeto, todo dia você explica tudo outra vez, e ele esquece. Com Projeto, o manual já está na mesa dele, e ele só precisa trabalhar. É isso que economiza o seu tempo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO UM FUNCIONÁRIO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "SEM PROJETO",
+     "nota": "Explicar tudo de novo",
+     "em": "Sem",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "COM PROJETO",
+     "nota": "O manual já está na mesa",
+     "em": "Com",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "MANUAL PRONTO",
+     "icone": "documento",
+     "cor": "verde",
+     "em": "manual",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Exemplo: um Projeto para o seu canal de Reels. Nos arquivos, ponha roteiros que deram certo e a lista dos seus temas. Nas instruções, escreva: tom leve, frases curtas, termine com pergunta. Pronto. Agora, em qualquer conversa, você só pede: me dê cinco ideias de Reels.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PROJETO: CANAL DE REELS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ARQUIVOS: ROTEIROS",
+     "icone": "documento",
+     "cor": "azul",
+     "em": "arquivos",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Tom leve, frases curtas, termine com uma pergunta.",
+     "em": "instruções",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "VALE PARA TODO CHAT",
+     "cor": "verde",
+     "em": "pergunta",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: achar que a memória é uma só. Cada Projeto tem a sua, e o Claude não mistura com a de outros Projetos. Para separar de vez, desligue a memória da conta na página do Projeto. Você também pode ver e apagar tudo nas configurações.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "UMA MEMÓRIA SÓ",
+     "nota": "Cada Projeto tem a sua",
+     "em": "memória",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "MEMÓRIA POR PROJETO",
+     "icone": "pin",
+     "cor": "azul",
+     "em": "Cada",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "DESLIGAR MEMÓRIA DA CONTA",
+     "icone": "x",
+     "cor": "amarelo",
+     "em": "desligue",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: crie um Projeto, escreva três regras de estilo e peça uma ideia de Reels.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "CRIE"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "contrato",
+       "3 REGRAS"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balao",
+       "PEÇA"
+      ]
+     ],
+     "em": "crie",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "FUNCIONOU?",
+     "em": "Reels",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo, em três pontos. Um: o Projeto guarda arquivos. Dois: as instruções valem para toda conversa dele. Três: a memória lembra de você, Projeto por Projeto. Comenta aí qual você vai criar primeiro.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "ARQUIVOS"
+      ]
+     ],
+     "em": "arquivos",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "contrato",
+       "INSTRUÇÕES"
+      ]
+     ],
+     "em": "instruções",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "cruz",
+       "MEMÓRIA"
+      ]
+     ],
+     "em": "memória",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: onde ficam as regras fixas do seu canal? Nas instruções do Projeto, ou no primeiro chat? Pausa. A resposta é a primeira: instruções valem para toda conversa. Próxima aula: artefatos.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "ONDE FICAM AS REGRAS FIXAS?",
+     "opcoes": [
+      "1 · INSTRUÇÕES DO PROJETO",
+      "2 · PRIMEIRO CHAT"
+     ],
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 1",
+     "cor": "verde",
+     "em": "primeira",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 2.5",
+     "em": "Próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "845db63abc",
+   "texto": "Você já explicou a mesma coisa para a IA dez vezes? Todo dia, do zero? Existe um jeito de ela lembrar.",
+   "audio": "audio/gancho-845db63abc.mp3",
+   "duracao": 9.264,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.098,
+     "f": 0.371
+    },
+    {
+     "p": "já",
+     "i": 0.383,
+     "f": 0.49
+    },
+    {
+     "p": "explicou",
+     "i": 0.502,
+     "f": 0.931
+    },
+    {
+     "p": "a",
+     "i": 0.943,
+     "f": 0.991
+    },
+    {
+     "p": "mesma",
+     "i": 1.002,
+     "f": 1.348
+    },
+    {
+     "p": "coisa",
+     "i": 1.36,
+     "f": 1.693
+    },
+    {
+     "p": "para",
+     "i": 1.705,
+     "f": 1.848
+    },
+    {
+     "p": "a",
+     "i": 1.86,
+     "f": 1.871
+    },
+    {
+     "p": "IA",
+     "i": 1.883,
+     "f": 3.062
+    },
+    {
+     "p": "dez",
+     "i": 3.074,
+     "f": 3.348
+    },
+    {
+     "p": "vezes",
+     "i": 3.36,
+     "f": 3.836
+    },
+    {
+     "p": "Todo",
+     "i": 4.655,
+     "f": 4.952
+    },
+    {
+     "p": "dia",
+     "i": 4.964,
+     "f": 5.262
+    },
+    {
+     "p": "do",
+     "i": 5.5,
+     "f": 5.69
+    },
+    {
+     "p": "zero",
+     "i": 5.702,
+     "f": 6.083
+    },
+    {
+     "p": "Existe",
+     "i": 6.905,
+     "f": 7.357
+    },
+    {
+     "p": "um",
+     "i": 7.369,
+     "f": 7.44
+    },
+    {
+     "p": "jeito",
+     "i": 7.452,
+     "f": 7.774
+    },
+    {
+     "p": "de",
+     "i": 7.786,
+     "f": 7.869
+    },
+    {
+     "p": "ela",
+     "i": 7.881,
+     "f": 8.012
+    },
+    {
+     "p": "lembrar",
+     "i": 8.024,
+     "f": 8.44
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "074c4ed936",
+   "texto": "Nesta aula você vai aprender três coisas: o que é um Projeto, como dar instruções fixas e como funciona a memória.",
+   "audio": "audio/promessa-074c4ed936.mp3",
+   "duracao": 7.488,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "aula",
+     "i": 0.443,
+     "f": 0.729
+    },
+    {
+     "p": "você",
+     "i": 0.74,
+     "f": 1.002
+    },
+    {
+     "p": "vai",
+     "i": 1.014,
+     "f": 1.121
+    },
+    {
+     "p": "aprender",
+     "i": 1.133,
+     "f": 1.55
+    },
+    {
+     "p": "três",
+     "i": 1.562,
+     "f": 1.871
+    },
+    {
+     "p": "coisas",
+     "i": 1.883,
+     "f": 2.348
+    },
+    {
+     "p": "o",
+     "i": 2.705,
+     "f": 2.776
+    },
+    {
+     "p": "que",
+     "i": 2.788,
+     "f": 2.895
+    },
+    {
+     "p": "é",
+     "i": 2.907,
+     "f": 2.955
+    },
+    {
+     "p": "um",
+     "i": 2.967,
+     "f": 3.05
+    },
+    {
+     "p": "Projeto",
+     "i": 3.062,
+     "f": 3.621
+    },
+    {
+     "p": "como",
+     "i": 3.895,
+     "f": 4.133
+    },
+    {
+     "p": "dar",
+     "i": 4.145,
+     "f": 4.288
+    },
+    {
+     "p": "instruções",
+     "i": 4.3,
+     "f": 4.871
+    },
+    {
+     "p": "fixas",
+     "i": 4.883,
+     "f": 5.252
+    },
+    {
+     "p": "e",
+     "i": 5.264,
+     "f": 5.383
+    },
+    {
+     "p": "como",
+     "i": 5.395,
+     "f": 5.633
+    },
+    {
+     "p": "funciona",
+     "i": 5.645,
+     "f": 6.169
+    },
+    {
+     "p": "a",
+     "i": 6.181,
+     "f": 6.205
+    },
+    {
+     "p": "memória",
+     "i": 6.217,
+     "f": 6.645
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "3c127dea77",
+   "texto": "Um Projeto é uma pasta de trabalho dentro do Claude. Ele guarda seus arquivos e suas instruções, e toda conversa nele já começa com esse material. As instruções são regras fixas, como o tom de voz. Já os estilos ajustam o formato das respostas.",
+   "audio": "audio/conceito-3c127dea77.mp3",
+   "duracao": 17.472,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "Projeto",
+     "i": 0.252,
+     "f": 0.752
+    },
+    {
+     "p": "é",
+     "i": 0.764,
+     "f": 0.812
+    },
+    {
+     "p": "uma",
+     "i": 0.824,
+     "f": 1.014
+    },
+    {
+     "p": "pasta",
+     "i": 1.026,
+     "f": 1.395
+    },
+    {
+     "p": "de",
+     "i": 1.407,
+     "f": 1.49
+    },
+    {
+     "p": "trabalho",
+     "i": 1.502,
+     "f": 1.955
+    },
+    {
+     "p": "dentro",
+     "i": 1.967,
+     "f": 2.3
+    },
+    {
+     "p": "do",
+     "i": 2.312,
+     "f": 2.419
+    },
+    {
+     "p": "Claude",
+     "i": 2.431,
+     "f": 2.86
+    },
+    {
+     "p": "Ele",
+     "i": 3.679,
+     "f": 3.869
+    },
+    {
+     "p": "guarda",
+     "i": 3.881,
+     "f": 4.238
+    },
+    {
+     "p": "seus",
+     "i": 4.25,
+     "f": 4.393
+    },
+    {
+     "p": "arquivos",
+     "i": 4.405,
+     "f": 4.893
+    },
+    {
+     "p": "e",
+     "i": 4.905,
+     "f": 5.012
+    },
+    {
+     "p": "suas",
+     "i": 5.024,
+     "f": 5.226
+    },
+    {
+     "p": "instruções",
+     "i": 5.238,
+     "f": 5.917
+    },
+    {
+     "p": "e",
+     "i": 6.214,
+     "f": 6.31
+    },
+    {
+     "p": "toda",
+     "i": 6.321,
+     "f": 6.583
+    },
+    {
+     "p": "conversa",
+     "i": 6.595,
+     "f": 7.071
+    },
+    {
+     "p": "nele",
+     "i": 7.083,
+     "f": 7.345
+    },
+    {
+     "p": "já",
+     "i": 7.357,
+     "f": 7.524
+    },
+    {
+     "p": "começa",
+     "i": 7.536,
+     "f": 7.988
+    },
+    {
+     "p": "com",
+     "i": 8,
+     "f": 8.179
+    },
+    {
+     "p": "esse",
+     "i": 8.19,
+     "f": 8.417
+    },
+    {
+     "p": "material.",
+     "i": 8.429,
+     "f": 8.976
+    },
+    {
+     "p": "As",
+     "i": 9.798,
+     "f": 9.917
+    },
+    {
+     "p": "instruções",
+     "i": 9.929,
+     "f": 10.595
+    },
+    {
+     "p": "são",
+     "i": 10.607,
+     "f": 10.75
+    },
+    {
+     "p": "regras",
+     "i": 10.762,
+     "f": 11.155
+    },
+    {
+     "p": "fixas",
+     "i": 11.167,
+     "f": 11.667
+    },
+    {
+     "p": "como",
+     "i": 11.905,
+     "f": 12.155
+    },
+    {
+     "p": "o",
+     "i": 12.167,
+     "f": 12.214
+    },
+    {
+     "p": "tom",
+     "i": 12.226,
+     "f": 12.464
+    },
+    {
+     "p": "de",
+     "i": 12.476,
+     "f": 12.583
+    },
+    {
+     "p": "voz",
+     "i": 12.595,
+     "f": 13.024
+    },
+    {
+     "p": "Já",
+     "i": 13.845,
+     "f": 14.107
+    },
+    {
+     "p": "os",
+     "i": 14.119,
+     "f": 14.167
+    },
+    {
+     "p": "estilos",
+     "i": 14.179,
+     "f": 14.631
+    },
+    {
+     "p": "ajustam",
+     "i": 14.643,
+     "f": 15.214
+    },
+    {
+     "p": "o",
+     "i": 15.226,
+     "f": 15.25
+    },
+    {
+     "p": "formato",
+     "i": 15.262,
+     "f": 15.762
+    },
+    {
+     "p": "das",
+     "i": 15.774,
+     "f": 15.905
+    },
+    {
+     "p": "respostas",
+     "i": 15.917,
+     "f": 16.631
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "aa516f3d1a",
+   "texto": "Pense num funcionário novo. Sem Projeto, todo dia você explica tudo outra vez, e ele esquece. Com Projeto, o manual já está na mesa dele, e ele só precisa trabalhar. É isso que economiza o seu tempo.",
+   "audio": "audio/analogia-aa516f3d1a.mp3",
+   "duracao": 14.928,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "num",
+     "i": 0.443,
+     "f": 0.562
+    },
+    {
+     "p": "funcionário",
+     "i": 0.574,
+     "f": 1.145
+    },
+    {
+     "p": "novo",
+     "i": 1.157,
+     "f": 1.526
+    },
+    {
+     "p": "Sem",
+     "i": 2.345,
+     "f": 2.607
+    },
+    {
+     "p": "Projeto",
+     "i": 2.619,
+     "f": 3.19
+    },
+    {
+     "p": "todo",
+     "i": 3.393,
+     "f": 3.655
+    },
+    {
+     "p": "dia",
+     "i": 3.667,
+     "f": 3.893
+    },
+    {
+     "p": "você",
+     "i": 3.905,
+     "f": 4.155
+    },
+    {
+     "p": "explica",
+     "i": 4.167,
+     "f": 4.595
+    },
+    {
+     "p": "tudo",
+     "i": 4.607,
+     "f": 4.917
+    },
+    {
+     "p": "outra",
+     "i": 4.929,
+     "f": 5.202
+    },
+    {
+     "p": "vez",
+     "i": 5.214,
+     "f": 5.56
+    },
+    {
+     "p": "e",
+     "i": 5.786,
+     "f": 5.869
+    },
+    {
+     "p": "ele",
+     "i": 5.881,
+     "f": 5.988
+    },
+    {
+     "p": "esquece",
+     "i": 6,
+     "f": 6.512
+    },
+    {
+     "p": "Com",
+     "i": 7.333,
+     "f": 7.512
+    },
+    {
+     "p": "Projeto",
+     "i": 7.524,
+     "f": 8.048
+    },
+    {
+     "p": "o",
+     "i": 8.31,
+     "f": 8.369
+    },
+    {
+     "p": "manual",
+     "i": 8.381,
+     "f": 8.833
+    },
+    {
+     "p": "já",
+     "i": 8.845,
+     "f": 8.964
+    },
+    {
+     "p": "está",
+     "i": 8.976,
+     "f": 9.179
+    },
+    {
+     "p": "na",
+     "i": 9.19,
+     "f": 9.274
+    },
+    {
+     "p": "mesa",
+     "i": 9.286,
+     "f": 9.583
+    },
+    {
+     "p": "dele",
+     "i": 9.595,
+     "f": 9.893
+    },
+    {
+     "p": "e",
+     "i": 10.167,
+     "f": 10.262
+    },
+    {
+     "p": "ele",
+     "i": 10.274,
+     "f": 10.405
+    },
+    {
+     "p": "só",
+     "i": 10.417,
+     "f": 10.571
+    },
+    {
+     "p": "precisa",
+     "i": 10.583,
+     "f": 10.988
+    },
+    {
+     "p": "trabalhar",
+     "i": 11,
+     "f": 11.476
+    },
+    {
+     "p": "É",
+     "i": 12.298,
+     "f": 12.441
+    },
+    {
+     "p": "isso",
+     "i": 12.452,
+     "f": 12.809
+    },
+    {
+     "p": "que",
+     "i": 12.821,
+     "f": 12.869
+    },
+    {
+     "p": "economiza",
+     "i": 12.881,
+     "f": 13.452
+    },
+    {
+     "p": "o",
+     "i": 13.464,
+     "f": 13.5
+    },
+    {
+     "p": "seu",
+     "i": 13.512,
+     "f": 13.726
+    },
+    {
+     "p": "tempo",
+     "i": 13.738,
+     "f": 14.107
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "6e99ee107f",
+   "texto": "Exemplo: um Projeto para o seu canal de Reels. Nos arquivos, ponha roteiros que deram certo e a lista dos seus temas. Nas instruções, escreva: tom leve, frases curtas, termine com pergunta. Pronto. Agora, em qualquer conversa, você só pede: me dê cinco ideias de Reels.",
+   "audio": "audio/exemplo-6e99ee107f.mp3",
+   "duracao": 20.904,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.098,
+     "f": 0.645
+    },
+    {
+     "p": "um",
+     "i": 0.907,
+     "f": 1.014
+    },
+    {
+     "p": "Projeto",
+     "i": 1.026,
+     "f": 1.55
+    },
+    {
+     "p": "para",
+     "i": 1.562,
+     "f": 1.717
+    },
+    {
+     "p": "o",
+     "i": 1.729,
+     "f": 1.752
+    },
+    {
+     "p": "seu",
+     "i": 1.764,
+     "f": 1.955
+    },
+    {
+     "p": "canal",
+     "i": 1.967,
+     "f": 2.288
+    },
+    {
+     "p": "de",
+     "i": 2.3,
+     "f": 2.371
+    },
+    {
+     "p": "Reels",
+     "i": 2.383,
+     "f": 2.883
+    },
+    {
+     "p": "Nos",
+     "i": 3.702,
+     "f": 3.869
+    },
+    {
+     "p": "arquivos",
+     "i": 3.881,
+     "f": 4.512
+    },
+    {
+     "p": "ponha",
+     "i": 4.774,
+     "f": 5.024
+    },
+    {
+     "p": "roteiros",
+     "i": 5.036,
+     "f": 5.5
+    },
+    {
+     "p": "que",
+     "i": 5.512,
+     "f": 5.595
+    },
+    {
+     "p": "deram",
+     "i": 5.607,
+     "f": 5.821
+    },
+    {
+     "p": "certo",
+     "i": 5.833,
+     "f": 6.226
+    },
+    {
+     "p": "e",
+     "i": 6.238,
+     "f": 6.274
+    },
+    {
+     "p": "a",
+     "i": 6.286,
+     "f": 6.345
+    },
+    {
+     "p": "lista",
+     "i": 6.357,
+     "f": 6.702
+    },
+    {
+     "p": "dos",
+     "i": 6.714,
+     "f": 6.893
+    },
+    {
+     "p": "seus",
+     "i": 6.905,
+     "f": 7.107
+    },
+    {
+     "p": "temas",
+     "i": 7.119,
+     "f": 7.583
+    },
+    {
+     "p": "Nas",
+     "i": 8.405,
+     "f": 8.583
+    },
+    {
+     "p": "instruções",
+     "i": 8.595,
+     "f": 9.298
+    },
+    {
+     "p": "escreva",
+     "i": 9.512,
+     "f": 10.012
+    },
+    {
+     "p": "tom",
+     "i": 10.286,
+     "f": 10.476
+    },
+    {
+     "p": "leve",
+     "i": 10.488,
+     "f": 10.809
+    },
+    {
+     "p": "frases",
+     "i": 11.036,
+     "f": 11.488
+    },
+    {
+     "p": "curtas",
+     "i": 11.5,
+     "f": 12.012
+    },
+    {
+     "p": "termine",
+     "i": 12.202,
+     "f": 12.619
+    },
+    {
+     "p": "com",
+     "i": 12.631,
+     "f": 12.774
+    },
+    {
+     "p": "pergunta",
+     "i": 12.786,
+     "f": 13.298
+    },
+    {
+     "p": "Pronto",
+     "i": 14.119,
+     "f": 14.583
+    },
+    {
+     "p": "Agora",
+     "i": 15.405,
+     "f": 15.893
+    },
+    {
+     "p": "em",
+     "i": 16.095,
+     "f": 16.202
+    },
+    {
+     "p": "qualquer",
+     "i": 16.214,
+     "f": 16.583
+    },
+    {
+     "p": "conversa",
+     "i": 16.595,
+     "f": 17.202
+    },
+    {
+     "p": "você",
+     "i": 17.452,
+     "f": 17.69
+    },
+    {
+     "p": "só",
+     "i": 17.702,
+     "f": 17.845
+    },
+    {
+     "p": "pede",
+     "i": 17.857,
+     "f": 18.226
+    },
+    {
+     "p": "me",
+     "i": 18.476,
+     "f": 18.571
+    },
+    {
+     "p": "dê",
+     "i": 18.583,
+     "f": 18.726
+    },
+    {
+     "p": "cinco",
+     "i": 18.738,
+     "f": 19.107
+    },
+    {
+     "p": "ideias",
+     "i": 19.119,
+     "f": 19.476
+    },
+    {
+     "p": "de",
+     "i": 19.488,
+     "f": 19.583
+    },
+    {
+     "p": "Reels",
+     "i": 19.595,
+     "f": 20.083
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "1d6dc46bd0",
+   "texto": "Erro comum: achar que a memória é uma só. Cada Projeto tem a sua, e o Claude não mistura com a de outros Projetos. Para separar de vez, desligue a memória da conta na página do Projeto. Você também pode ver e apagar tudo nas configurações.",
+   "audio": "audio/erro-comum-1d6dc46bd0.mp3",
+   "duracao": 16.968,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.348
+    },
+    {
+     "p": "comum",
+     "i": 0.36,
+     "f": 0.717
+    },
+    {
+     "p": "achar",
+     "i": 0.955,
+     "f": 1.312
+    },
+    {
+     "p": "que",
+     "i": 1.324,
+     "f": 1.395
+    },
+    {
+     "p": "a",
+     "i": 1.407,
+     "f": 1.443
+    },
+    {
+     "p": "memória",
+     "i": 1.455,
+     "f": 1.871
+    },
+    {
+     "p": "é",
+     "i": 1.883,
+     "f": 1.919
+    },
+    {
+     "p": "uma",
+     "i": 1.931,
+     "f": 2.11
+    },
+    {
+     "p": "só",
+     "i": 2.121,
+     "f": 2.443
+    },
+    {
+     "p": "Cada",
+     "i": 3.262,
+     "f": 3.512
+    },
+    {
+     "p": "Projeto",
+     "i": 3.524,
+     "f": 4.024
+    },
+    {
+     "p": "tem",
+     "i": 4.036,
+     "f": 4.179
+    },
+    {
+     "p": "a",
+     "i": 4.19,
+     "f": 4.25
+    },
+    {
+     "p": "sua",
+     "i": 4.262,
+     "f": 4.607
+    },
+    {
+     "p": "e",
+     "i": 4.917,
+     "f": 5.012
+    },
+    {
+     "p": "o",
+     "i": 5.024,
+     "f": 5.095
+    },
+    {
+     "p": "Claude",
+     "i": 5.107,
+     "f": 5.44
+    },
+    {
+     "p": "não",
+     "i": 5.452,
+     "f": 5.559
+    },
+    {
+     "p": "mistura",
+     "i": 5.571,
+     "f": 6.012
+    },
+    {
+     "p": "com",
+     "i": 6.024,
+     "f": 6.202
+    },
+    {
+     "p": "a",
+     "i": 6.214,
+     "f": 6.274
+    },
+    {
+     "p": "de",
+     "i": 6.286,
+     "f": 6.452
+    },
+    {
+     "p": "outros",
+     "i": 6.464,
+     "f": 6.762
+    },
+    {
+     "p": "Projetos",
+     "i": 6.774,
+     "f": 7.488
+    },
+    {
+     "p": "Para",
+     "i": 8.31,
+     "f": 8.524
+    },
+    {
+     "p": "separar",
+     "i": 8.536,
+     "f": 9
+    },
+    {
+     "p": "de",
+     "i": 9.012,
+     "f": 9.119
+    },
+    {
+     "p": "vez",
+     "i": 9.131,
+     "f": 9.488
+    },
+    {
+     "p": "desligue",
+     "i": 9.69,
+     "f": 10.131
+    },
+    {
+     "p": "a",
+     "i": 10.143,
+     "f": 10.179
+    },
+    {
+     "p": "memória",
+     "i": 10.19,
+     "f": 10.571
+    },
+    {
+     "p": "da",
+     "i": 10.583,
+     "f": 10.69
+    },
+    {
+     "p": "conta",
+     "i": 10.702,
+     "f": 11.024
+    },
+    {
+     "p": "na",
+     "i": 11.036,
+     "f": 11.155
+    },
+    {
+     "p": "página",
+     "i": 11.167,
+     "f": 11.548
+    },
+    {
+     "p": "do",
+     "i": 11.56,
+     "f": 11.655
+    },
+    {
+     "p": "Projeto",
+     "i": 11.667,
+     "f": 12.226
+    },
+    {
+     "p": "Você",
+     "i": 13.048,
+     "f": 13.357
+    },
+    {
+     "p": "também",
+     "i": 13.369,
+     "f": 13.702
+    },
+    {
+     "p": "pode",
+     "i": 13.714,
+     "f": 13.94
+    },
+    {
+     "p": "ver",
+     "i": 13.952,
+     "f": 14.167
+    },
+    {
+     "p": "e",
+     "i": 14.179,
+     "f": 14.202
+    },
+    {
+     "p": "apagar",
+     "i": 14.214,
+     "f": 14.655
+    },
+    {
+     "p": "tudo",
+     "i": 14.667,
+     "f": 14.952
+    },
+    {
+     "p": "nas",
+     "i": 14.964,
+     "f": 15.143
+    },
+    {
+     "p": "configurações",
+     "i": 15.155,
+     "f": 16.131
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "a5e1031b25",
+   "texto": "Pause o vídeo e tente: crie um Projeto, escreva três regras de estilo e peça uma ideia de Reels.",
+   "audio": "audio/pratica-a5e1031b25.mp3",
+   "duracao": 6.336,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "o",
+     "i": 0.419,
+     "f": 0.479
+    },
+    {
+     "p": "vídeo",
+     "i": 0.49,
+     "f": 0.788
+    },
+    {
+     "p": "e",
+     "i": 0.8,
+     "f": 0.871
+    },
+    {
+     "p": "tente",
+     "i": 0.883,
+     "f": 1.24
+    },
+    {
+     "p": "crie",
+     "i": 1.443,
+     "f": 1.657
+    },
+    {
+     "p": "um",
+     "i": 1.669,
+     "f": 1.74
+    },
+    {
+     "p": "Projeto",
+     "i": 1.752,
+     "f": 2.288
+    },
+    {
+     "p": "escreva",
+     "i": 2.526,
+     "f": 2.919
+    },
+    {
+     "p": "três",
+     "i": 2.931,
+     "f": 3.205
+    },
+    {
+     "p": "regras",
+     "i": 3.217,
+     "f": 3.574
+    },
+    {
+     "p": "de",
+     "i": 3.586,
+     "f": 3.657
+    },
+    {
+     "p": "estilo",
+     "i": 3.669,
+     "f": 4.074
+    },
+    {
+     "p": "e",
+     "i": 4.086,
+     "f": 4.133
+    },
+    {
+     "p": "peça",
+     "i": 4.145,
+     "f": 4.443
+    },
+    {
+     "p": "uma",
+     "i": 4.455,
+     "f": 4.538
+    },
+    {
+     "p": "ideia",
+     "i": 4.55,
+     "f": 4.883
+    },
+    {
+     "p": "de",
+     "i": 4.895,
+     "f": 5.002
+    },
+    {
+     "p": "Reels",
+     "i": 5.014,
+     "f": 5.514
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "504969ee80",
+   "texto": "Resumindo, em três pontos. Um: o Projeto guarda arquivos. Dois: as instruções valem para toda conversa dele. Três: a memória lembra de você, Projeto por Projeto. Comenta aí qual você vai criar primeiro.",
+   "audio": "audio/resumo-504969ee80.mp3",
+   "duracao": 16.968,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.824
+    },
+    {
+     "p": "em",
+     "i": 1.062,
+     "f": 1.24
+    },
+    {
+     "p": "três",
+     "i": 1.252,
+     "f": 1.55
+    },
+    {
+     "p": "pontos",
+     "i": 1.562,
+     "f": 2.086
+    },
+    {
+     "p": "Um",
+     "i": 2.905,
+     "f": 3.143
+    },
+    {
+     "p": "o",
+     "i": 3.488,
+     "f": 3.583
+    },
+    {
+     "p": "Projeto",
+     "i": 3.595,
+     "f": 4.083
+    },
+    {
+     "p": "guarda",
+     "i": 4.095,
+     "f": 4.417
+    },
+    {
+     "p": "arquivos",
+     "i": 4.429,
+     "f": 5.024
+    },
+    {
+     "p": "Dois",
+     "i": 5.845,
+     "f": 6.333
+    },
+    {
+     "p": "as",
+     "i": 6.607,
+     "f": 6.667
+    },
+    {
+     "p": "instruções",
+     "i": 6.679,
+     "f": 7.333
+    },
+    {
+     "p": "valem",
+     "i": 7.345,
+     "f": 7.667
+    },
+    {
+     "p": "para",
+     "i": 7.679,
+     "f": 7.869
+    },
+    {
+     "p": "toda",
+     "i": 7.881,
+     "f": 8.131
+    },
+    {
+     "p": "conversa",
+     "i": 8.143,
+     "f": 8.655
+    },
+    {
+     "p": "dele",
+     "i": 8.667,
+     "f": 9.012
+    },
+    {
+     "p": "Três",
+     "i": 9.833,
+     "f": 10.286
+    },
+    {
+     "p": "a",
+     "i": 10.512,
+     "f": 10.571
+    },
+    {
+     "p": "memória",
+     "i": 10.583,
+     "f": 10.964
+    },
+    {
+     "p": "lembra",
+     "i": 10.976,
+     "f": 11.25
+    },
+    {
+     "p": "de",
+     "i": 11.262,
+     "f": 11.357
+    },
+    {
+     "p": "você",
+     "i": 11.369,
+     "f": 11.774
+    },
+    {
+     "p": "Projeto",
+     "i": 12.012,
+     "f": 12.5
+    },
+    {
+     "p": "por",
+     "i": 12.512,
+     "f": 12.643
+    },
+    {
+     "p": "Projeto",
+     "i": 12.655,
+     "f": 13.214
+    },
+    {
+     "p": "Comenta",
+     "i": 14.036,
+     "f": 14.524
+    },
+    {
+     "p": "aí",
+     "i": 14.536,
+     "f": 14.714
+    },
+    {
+     "p": "qual",
+     "i": 14.726,
+     "f": 14.94
+    },
+    {
+     "p": "você",
+     "i": 14.952,
+     "f": 15.214
+    },
+    {
+     "p": "vai",
+     "i": 15.226,
+     "f": 15.345
+    },
+    {
+     "p": "criar",
+     "i": 15.357,
+     "f": 15.69
+    },
+    {
+     "p": "primeiro",
+     "i": 15.702,
+     "f": 16.143
+    }
+   ]
+  },
+  "final": {
+   "hash": "a5f716aff8",
+   "texto": "Quiz: onde ficam as regras fixas do seu canal? Nas instruções do Projeto, ou no primeiro chat? Pausa. A resposta é a primeira: instruções valem para toda conversa. Próxima aula: artefatos.",
+   "audio": "audio/final-a5f716aff8.mp3",
+   "duracao": 15.672,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "onde",
+     "i": 0.8,
+     "f": 1.062
+    },
+    {
+     "p": "ficam",
+     "i": 1.074,
+     "f": 1.419
+    },
+    {
+     "p": "as",
+     "i": 1.431,
+     "f": 1.538
+    },
+    {
+     "p": "regras",
+     "i": 1.55,
+     "f": 1.931
+    },
+    {
+     "p": "fixas",
+     "i": 1.943,
+     "f": 2.336
+    },
+    {
+     "p": "do",
+     "i": 2.348,
+     "f": 2.455
+    },
+    {
+     "p": "seu",
+     "i": 2.467,
+     "f": 2.621
+    },
+    {
+     "p": "canal",
+     "i": 2.633,
+     "f": 3.026
+    },
+    {
+     "p": "Nas",
+     "i": 3.845,
+     "f": 4.036
+    },
+    {
+     "p": "instruções",
+     "i": 4.048,
+     "f": 4.714
+    },
+    {
+     "p": "do",
+     "i": 4.726,
+     "f": 4.821
+    },
+    {
+     "p": "Projeto",
+     "i": 4.833,
+     "f": 5.417
+    },
+    {
+     "p": "ou",
+     "i": 5.655,
+     "f": 5.786
+    },
+    {
+     "p": "no",
+     "i": 5.798,
+     "f": 5.905
+    },
+    {
+     "p": "primeiro",
+     "i": 5.917,
+     "f": 6.226
+    },
+    {
+     "p": "chat",
+     "i": 6.238,
+     "f": 6.702
+    },
+    {
+     "p": "Pausa",
+     "i": 7.524,
+     "f": 7.952
+    },
+    {
+     "p": "A",
+     "i": 8.774,
+     "f": 8.881
+    },
+    {
+     "p": "resposta",
+     "i": 8.893,
+     "f": 9.417
+    },
+    {
+     "p": "é",
+     "i": 9.429,
+     "f": 9.5
+    },
+    {
+     "p": "a",
+     "i": 9.512,
+     "f": 9.56
+    },
+    {
+     "p": "primeira",
+     "i": 9.571,
+     "f": 9.964
+    },
+    {
+     "p": "instruções",
+     "i": 10.179,
+     "f": 10.762
+    },
+    {
+     "p": "valem",
+     "i": 10.774,
+     "f": 11.083
+    },
+    {
+     "p": "para",
+     "i": 11.095,
+     "f": 11.298
+    },
+    {
+     "p": "toda",
+     "i": 11.31,
+     "f": 11.583
+    },
+    {
+     "p": "conversa",
+     "i": 11.595,
+     "f": 12.179
+    },
+    {
+     "p": "Próxima",
+     "i": 13,
+     "f": 13.464
+    },
+    {
+     "p": "aula",
+     "i": 13.476,
+     "f": 13.869
+    },
+    {
+     "p": "artefatos",
+     "i": 14.012,
+     "f": 14.845
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "imagens/anthropic-b01e1187.jpg",
+   "rotulo": "Anthropic, criadora do Claude",
+   "wiki": "Anthropic",
+   "commons": "Anthropic logo",
+   "autor": "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Anthropic_Logo_2.webp",
+   "titulo": "File:Anthropic Logo 2.webp"
+  },
+  "claude": {
+   "arquivo": "imagens/claude-42a01da1.jpg",
+   "rotulo": "Claude",
+   "wiki": "Claude (modelo de linguagem)",
+   "commons": "Claude AI logo",
+   "autor": "Department for Science, Innovation and Technology",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54098999333).jpg",
+   "titulo": "File:Secretary of State Peter Kyle visits Anthropic in San Francisco. (54098999333).jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.940Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Help Center — O que são Projetos",
+   "url": "https://support.claude.com/en/articles/9517075-what-are-projects"
+  },
+  {
+   "titulo": "Claude Help Center — Busca em chats e memória",
+   "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }
