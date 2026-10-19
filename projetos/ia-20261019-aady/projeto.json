@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-aady",
- "titulo": "Aula 3.4: A estratégia modelo barato coleta, modelo forte pensa — expl",
+ "titulo": "Aula 3.4: Modelo barato coleta, modelo forte pensa",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.942Z",
- "atualizadoEm": "2026-10-19T22:26:17.942Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:44:18Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 3.4: A estratégia modelo barato coleta, modelo forte pensa — explique como delegar buscas e leituras a subagentes com Claude Haiku, deixar o Opus só para planejar e escrever, por que isso economiza tokens e protege a janela de contexto, com o exemplo de três pesquisas em paralelo",
@@ -62,11 +63,1893 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Por que pagar o modelo mais caro para ler cem páginas de busca? Existe um jeito bem mais barato.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "TUDO NO OPUS?",
+     "em": "pagar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "CARO",
+     "cor": "vermelho",
+     "em": "caro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "100 páginas de busca",
+     "icone": "documento",
+     "em": "cem",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Tem jeito mais barato",
+     "icone": "dinheiro",
+     "cor": "verde",
+     "em": "barato",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Na aula 3.4 você aprende três coisas: o que são subagentes, por que eles economizam tokens, e como rodar três pesquisas ao mesmo tempo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NESTA AULA",
+     "sub": "Aula 3.4",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "1. O que são subagentes",
+     "icone": "check",
+     "em": "subagentes",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2. Menos tokens",
+     "icone": "check",
+     "em": "economizam",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3. Três buscas juntas",
+     "icone": "check",
+     "cor": "verde",
+     "em": "pesquisas",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Subagente é um assistente que trabalha numa janela de contexto só dele e devolve apenas o resumo. Janela de contexto é a memória de trabalho da conversa. Token é o pedaço de texto que você paga.",
+   "fontes": [
+    "Documentação do Claude Code"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SUBAGENTE",
+     "sub": "assistente com contexto próprio",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Subagente",
+     "significado": "Faz a tarefa à parte e devolve só o resumo",
+     "em": "Subagente",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Janela de contexto",
+     "significado": "A memória de trabalho da conversa",
+     "em": "Janela",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Token",
+     "significado": "Pedaço de texto cobrado pelo uso",
+     "em": "Token",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num chef de cozinha. Ele não descasca batata. O ajudante faz o trabalho pesado, e o chef só decide e finaliza o prato.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Analogia do dia a dia",
+     "icone": "casa",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "obra",
+       "Ajudante: Haiku"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "martelo",
+       "Chef: Opus"
+      ]
+     ],
+     "em": "ajudante",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Trabalho pesado: ajudante",
+     "icone": "obra",
+     "cor": "azul",
+     "em": "pesado",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Decisão final: chef",
+     "icone": "check",
+     "cor": "verde",
+     "em": "decide",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Exemplo: comparar três concorrentes. Você escreve: use três subagentes Haiku, um por empresa, em paralelo. Cada um busca, lê as páginas e devolve cinco linhas. Os três trabalham ao mesmo tempo, então você espera menos. O Opus recebe só três resumos, planeja e escreve o relatório. Sua janela fica limpa para o que importa.",
+   "fontes": [
+    "Documentação do Claude Code"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3 PESQUISAS EM PARALELO",
+     "sub": "Haiku coleta · Opus pensa",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Use 3 subagentes Haiku, um por empresa, em paralelo. Cada um devolve 5 linhas.",
+     "em": "escreve",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pin",
+       "Empresa A"
+      ],
+      [
+       "pin",
+       "Empresa B"
+      ],
+      [
+       "pin",
+       "Empresa C"
+      ]
+     ],
+     "em": "Cada",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 3,
+     "unidade": " resumos",
+     "rotulo": "chegam ao Opus",
+     "em": "recebe",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "OPUS ESCREVE",
+     "cor": "verde",
+     "em": "relatório",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: deixar o Opus fazer tudo, até ler páginas. Isso enche a janela e gasta tokens caros. O outro erro é pedir a decisão final ao modelo barato. Lembre: delegar também custa tokens, então use em tarefas grandes, não em perguntas simples.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "Erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Opus lê tudo",
+     "nota": "Janela cheia e tokens caros",
+     "em": "Opus",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Haiku decide",
+     "nota": "Quem pensa é o modelo forte",
+     "em": "decisão",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: peça a três subagentes que pesquisem três assuntos, e compare os resumos com o que você esperava. Depois, conte nos comentários o que mudou.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "3 SUBAGENTES, 3 ASSUNTOS",
+     "em": "peça",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Compare os resumos",
+     "icone": "check",
+     "em": "compare",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: subagente trabalha à parte e devolve só o resumo. Isso protege a janela e poupa tokens. Haiku coleta, Opus pensa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "sub": "Aula 3.4",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Contexto próprio"
+      ],
+      [
+       "dinheiro",
+       "Menos tokens"
+      ],
+      [
+       "balanca",
+       "Haiku + Opus"
+      ]
+     ],
+     "em": "subagente",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Haiku coleta, Opus pensa",
+     "icone": "check",
+     "cor": "verde",
+     "em": "Haiku",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: quem deve ler as páginas, o Haiku ou o Opus? Pense um segundo. Resposta: o Haiku, porque lê barato e devolve só o resumo. Na próxima aula, a 3.5, você aprende a gastar menos ainda. Siga para não perder.",
+   "fundo": "anthropic",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Quem lê as páginas?",
+     "opcoes": [
+      "1. Haiku",
+      "2. Opus"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "HAIKU!",
+     "cor": "verde",
+     "em": "Resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 3.5",
+     "em": "Siga",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "fa466b6a2b",
+   "texto": "Por que pagar o modelo mais caro para ler cem páginas de busca? Existe um jeito bem mais barato.",
+   "audio": "audio/gancho-fa466b6a2b.mp3",
+   "duracao": 6.912,
+   "palavras": [
+    {
+     "p": "Por",
+     "i": 0.098,
+     "f": 0.276
+    },
+    {
+     "p": "que",
+     "i": 0.288,
+     "f": 0.49
+    },
+    {
+     "p": "pagar",
+     "i": 0.502,
+     "f": 0.812
+    },
+    {
+     "p": "o",
+     "i": 0.824,
+     "f": 0.859
+    },
+    {
+     "p": "modelo",
+     "i": 0.871,
+     "f": 1.252
+    },
+    {
+     "p": "mais",
+     "i": 1.264,
+     "f": 1.538
+    },
+    {
+     "p": "caro",
+     "i": 1.55,
+     "f": 1.824
+    },
+    {
+     "p": "para",
+     "i": 1.836,
+     "f": 2.014
+    },
+    {
+     "p": "ler",
+     "i": 2.026,
+     "f": 2.193
+    },
+    {
+     "p": "cem",
+     "i": 2.205,
+     "f": 2.479
+    },
+    {
+     "p": "páginas",
+     "i": 2.49,
+     "f": 2.931
+    },
+    {
+     "p": "de",
+     "i": 2.943,
+     "f": 3.026
+    },
+    {
+     "p": "busca",
+     "i": 3.038,
+     "f": 3.467
+    },
+    {
+     "p": "Existe",
+     "i": 4.286,
+     "f": 4.738
+    },
+    {
+     "p": "um",
+     "i": 4.75,
+     "f": 4.833
+    },
+    {
+     "p": "jeito",
+     "i": 4.845,
+     "f": 5.143
+    },
+    {
+     "p": "bem",
+     "i": 5.155,
+     "f": 5.369
+    },
+    {
+     "p": "mais",
+     "i": 5.381,
+     "f": 5.583
+    },
+    {
+     "p": "barato",
+     "i": 5.595,
+     "f": 6.083
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "85204ba3e2",
+   "texto": "Na aula 3.4 você aprende três coisas: o que são subagentes, por que eles economizam tokens, e como rodar três pesquisas ao mesmo tempo.",
+   "audio": "audio/promessa-85204ba3e2.mp3",
+   "duracao": 9.624,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "aula",
+     "i": 0.252,
+     "f": 0.586
+    },
+    {
+     "p": "3.4 você",
+     "i": 0.598,
+     "f": 1.669
+    },
+    {
+     "p": "aprende",
+     "i": 1.681,
+     "f": 2.038
+    },
+    {
+     "p": "três",
+     "i": 2.05,
+     "f": 2.288
+    },
+    {
+     "p": "coisas",
+     "i": 2.3,
+     "f": 2.764
+    },
+    {
+     "p": "o",
+     "i": 3.11,
+     "f": 3.181
+    },
+    {
+     "p": "que",
+     "i": 3.193,
+     "f": 3.312
+    },
+    {
+     "p": "são",
+     "i": 3.324,
+     "f": 3.514
+    },
+    {
+     "p": "subagentes",
+     "i": 3.526,
+     "f": 4.3
+    },
+    {
+     "p": "por",
+     "i": 4.502,
+     "f": 4.657
+    },
+    {
+     "p": "que",
+     "i": 4.669,
+     "f": 4.812
+    },
+    {
+     "p": "eles",
+     "i": 4.824,
+     "f": 4.955
+    },
+    {
+     "p": "economizam",
+     "i": 4.967,
+     "f": 5.574
+    },
+    {
+     "p": "tokens",
+     "i": 5.586,
+     "f": 6.062
+    },
+    {
+     "p": "e",
+     "i": 6.395,
+     "f": 6.455
+    },
+    {
+     "p": "como",
+     "i": 6.467,
+     "f": 6.693
+    },
+    {
+     "p": "rodar",
+     "i": 6.705,
+     "f": 7.074
+    },
+    {
+     "p": "três",
+     "i": 7.086,
+     "f": 7.348
+    },
+    {
+     "p": "pesquisas",
+     "i": 7.36,
+     "f": 7.848
+    },
+    {
+     "p": "ao",
+     "i": 7.86,
+     "f": 8.026
+    },
+    {
+     "p": "mesmo",
+     "i": 8.038,
+     "f": 8.419
+    },
+    {
+     "p": "tempo",
+     "i": 8.431,
+     "f": 8.788
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "63a6598c12",
+   "texto": "Subagente é um assistente que trabalha numa janela de contexto só dele e devolve apenas o resumo. Janela de contexto é a memória de trabalho da conversa. Token é o pedaço de texto que você paga.",
+   "audio": "audio/conceito-63a6598c12.mp3",
+   "duracao": 12.768,
+   "palavras": [
+    {
+     "p": "Subagente",
+     "i": 0.098,
+     "f": 0.812
+    },
+    {
+     "p": "é",
+     "i": 0.824,
+     "f": 0.836
+    },
+    {
+     "p": "um",
+     "i": 0.848,
+     "f": 0.943
+    },
+    {
+     "p": "assistente",
+     "i": 0.955,
+     "f": 1.479
+    },
+    {
+     "p": "que",
+     "i": 1.49,
+     "f": 1.562
+    },
+    {
+     "p": "trabalha",
+     "i": 1.574,
+     "f": 1.99
+    },
+    {
+     "p": "numa",
+     "i": 2.002,
+     "f": 2.145
+    },
+    {
+     "p": "janela",
+     "i": 2.157,
+     "f": 2.586
+    },
+    {
+     "p": "de",
+     "i": 2.598,
+     "f": 2.669
+    },
+    {
+     "p": "contexto",
+     "i": 2.681,
+     "f": 3.217
+    },
+    {
+     "p": "só",
+     "i": 3.229,
+     "f": 3.395
+    },
+    {
+     "p": "dele",
+     "i": 3.407,
+     "f": 3.705
+    },
+    {
+     "p": "e",
+     "i": 3.717,
+     "f": 3.74
+    },
+    {
+     "p": "devolve",
+     "i": 3.752,
+     "f": 4.133
+    },
+    {
+     "p": "apenas",
+     "i": 4.145,
+     "f": 4.514
+    },
+    {
+     "p": "o",
+     "i": 4.526,
+     "f": 4.633
+    },
+    {
+     "p": "resumo",
+     "i": 4.645,
+     "f": 5.133
+    },
+    {
+     "p": "Janela",
+     "i": 5.952,
+     "f": 6.44
+    },
+    {
+     "p": "de",
+     "i": 6.452,
+     "f": 6.524
+    },
+    {
+     "p": "contexto",
+     "i": 6.536,
+     "f": 7.059
+    },
+    {
+     "p": "é",
+     "i": 7.071,
+     "f": 7.119
+    },
+    {
+     "p": "a",
+     "i": 7.131,
+     "f": 7.167
+    },
+    {
+     "p": "memória",
+     "i": 7.179,
+     "f": 7.571
+    },
+    {
+     "p": "de",
+     "i": 7.583,
+     "f": 7.69
+    },
+    {
+     "p": "trabalho",
+     "i": 7.702,
+     "f": 8.143
+    },
+    {
+     "p": "da",
+     "i": 8.155,
+     "f": 8.25
+    },
+    {
+     "p": "conversa",
+     "i": 8.262,
+     "f": 8.845
+    },
+    {
+     "p": "Token",
+     "i": 9.667,
+     "f": 10.06
+    },
+    {
+     "p": "é",
+     "i": 10.071,
+     "f": 10.131
+    },
+    {
+     "p": "o",
+     "i": 10.143,
+     "f": 10.191
+    },
+    {
+     "p": "pedaço",
+     "i": 10.202,
+     "f": 10.679
+    },
+    {
+     "p": "de",
+     "i": 10.69,
+     "f": 10.833
+    },
+    {
+     "p": "texto",
+     "i": 10.845,
+     "f": 11.202
+    },
+    {
+     "p": "que",
+     "i": 11.214,
+     "f": 11.298
+    },
+    {
+     "p": "você",
+     "i": 11.31,
+     "f": 11.548
+    },
+    {
+     "p": "paga",
+     "i": 11.56,
+     "f": 11.94
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "d33815e742",
+   "texto": "Pense num chef de cozinha. Ele não descasca batata. O ajudante faz o trabalho pesado, e o chef só decide e finaliza o prato.",
+   "audio": "audio/analogia-d33815e742.mp3",
+   "duracao": 9.888,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "num",
+     "i": 0.479,
+     "f": 0.633
+    },
+    {
+     "p": "chef",
+     "i": 0.645,
+     "f": 1.002
+    },
+    {
+     "p": "de",
+     "i": 1.014,
+     "f": 1.098
+    },
+    {
+     "p": "cozinha",
+     "i": 1.11,
+     "f": 1.633
+    },
+    {
+     "p": "Ele",
+     "i": 2.452,
+     "f": 2.667
+    },
+    {
+     "p": "não",
+     "i": 2.679,
+     "f": 2.833
+    },
+    {
+     "p": "descasca",
+     "i": 2.845,
+     "f": 3.405
+    },
+    {
+     "p": "batata",
+     "i": 3.417,
+     "f": 3.929
+    },
+    {
+     "p": "O",
+     "i": 4.75,
+     "f": 4.845
+    },
+    {
+     "p": "ajudante",
+     "i": 4.857,
+     "f": 5.44
+    },
+    {
+     "p": "faz",
+     "i": 5.452,
+     "f": 5.619
+    },
+    {
+     "p": "o",
+     "i": 5.631,
+     "f": 5.738
+    },
+    {
+     "p": "trabalho",
+     "i": 5.75,
+     "f": 6.119
+    },
+    {
+     "p": "pesado",
+     "i": 6.131,
+     "f": 6.643
+    },
+    {
+     "p": "e",
+     "i": 6.929,
+     "f": 7.024
+    },
+    {
+     "p": "o",
+     "i": 7.036,
+     "f": 7.083
+    },
+    {
+     "p": "chef",
+     "i": 7.095,
+     "f": 7.464
+    },
+    {
+     "p": "só",
+     "i": 7.476,
+     "f": 7.631
+    },
+    {
+     "p": "decide",
+     "i": 7.643,
+     "f": 8.083
+    },
+    {
+     "p": "e",
+     "i": 8.095,
+     "f": 8.119
+    },
+    {
+     "p": "finaliza",
+     "i": 8.131,
+     "f": 8.607
+    },
+    {
+     "p": "o",
+     "i": 8.619,
+     "f": 8.643
+    },
+    {
+     "p": "prato",
+     "i": 8.655,
+     "f": 9.048
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "2561c2887c",
+   "texto": "Exemplo: comparar três concorrentes. Você escreve: use três subagentes Haiku, um por empresa, em paralelo. Cada um busca, lê as páginas e devolve cinco linhas. Os três trabalham ao mesmo tempo, então você espera menos. O Opus recebe só três resumos, planeja e escreve o relatório. Sua janela fica limpa para o que importa.",
+   "audio": "audio/exemplo-2561c2887c.mp3",
+   "duracao": 24.696,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.098,
+     "f": 0.633
+    },
+    {
+     "p": "comparar",
+     "i": 0.931,
+     "f": 1.479
+    },
+    {
+     "p": "três",
+     "i": 1.49,
+     "f": 1.764
+    },
+    {
+     "p": "concorrentes",
+     "i": 1.776,
+     "f": 2.538
+    },
+    {
+     "p": "Você",
+     "i": 3.357,
+     "f": 3.679
+    },
+    {
+     "p": "escreve",
+     "i": 3.69,
+     "f": 4.19
+    },
+    {
+     "p": "use",
+     "i": 4.464,
+     "f": 4.786
+    },
+    {
+     "p": "três",
+     "i": 4.798,
+     "f": 5.036
+    },
+    {
+     "p": "subagentes",
+     "i": 5.048,
+     "f": 5.571
+    },
+    {
+     "p": "Haiku",
+     "i": 5.583,
+     "f": 6
+    },
+    {
+     "p": "um",
+     "i": 6.298,
+     "f": 6.441
+    },
+    {
+     "p": "por",
+     "i": 6.452,
+     "f": 6.559
+    },
+    {
+     "p": "empresa",
+     "i": 6.571,
+     "f": 7.083
+    },
+    {
+     "p": "em",
+     "i": 7.274,
+     "f": 7.417
+    },
+    {
+     "p": "paralelo",
+     "i": 7.429,
+     "f": 7.988
+    },
+    {
+     "p": "Cada",
+     "i": 8.81,
+     "f": 9.048
+    },
+    {
+     "p": "um",
+     "i": 9.06,
+     "f": 9.19
+    },
+    {
+     "p": "busca",
+     "i": 9.202,
+     "f": 9.583
+    },
+    {
+     "p": "lê",
+     "i": 9.821,
+     "f": 9.952
+    },
+    {
+     "p": "as",
+     "i": 9.964,
+     "f": 10.143
+    },
+    {
+     "p": "páginas",
+     "i": 10.155,
+     "f": 10.559
+    },
+    {
+     "p": "e",
+     "i": 10.571,
+     "f": 10.679
+    },
+    {
+     "p": "devolve",
+     "i": 10.69,
+     "f": 11.119
+    },
+    {
+     "p": "cinco",
+     "i": 11.131,
+     "f": 11.548
+    },
+    {
+     "p": "linhas",
+     "i": 11.56,
+     "f": 12
+    },
+    {
+     "p": "Os",
+     "i": 12.821,
+     "f": 13.012
+    },
+    {
+     "p": "três",
+     "i": 13.024,
+     "f": 13.309
+    },
+    {
+     "p": "trabalham",
+     "i": 13.321,
+     "f": 13.762
+    },
+    {
+     "p": "ao",
+     "i": 13.774,
+     "f": 13.869
+    },
+    {
+     "p": "mesmo",
+     "i": 13.881,
+     "f": 14.214
+    },
+    {
+     "p": "tempo",
+     "i": 14.226,
+     "f": 14.571
+    },
+    {
+     "p": "então",
+     "i": 14.857,
+     "f": 15.179
+    },
+    {
+     "p": "você",
+     "i": 15.19,
+     "f": 15.44
+    },
+    {
+     "p": "espera",
+     "i": 15.452,
+     "f": 15.774
+    },
+    {
+     "p": "menos",
+     "i": 15.786,
+     "f": 16.226
+    },
+    {
+     "p": "O",
+     "i": 17.048,
+     "f": 17.143
+    },
+    {
+     "p": "Opus",
+     "i": 17.155,
+     "f": 17.524
+    },
+    {
+     "p": "recebe",
+     "i": 17.536,
+     "f": 17.917
+    },
+    {
+     "p": "só",
+     "i": 17.929,
+     "f": 18.095
+    },
+    {
+     "p": "três",
+     "i": 18.107,
+     "f": 18.405
+    },
+    {
+     "p": "resumos",
+     "i": 18.417,
+     "f": 18.964
+    },
+    {
+     "p": "planeja",
+     "i": 19.19,
+     "f": 19.75
+    },
+    {
+     "p": "e",
+     "i": 19.762,
+     "f": 19.821
+    },
+    {
+     "p": "escreve",
+     "i": 19.833,
+     "f": 20.226
+    },
+    {
+     "p": "o",
+     "i": 20.238,
+     "f": 20.274
+    },
+    {
+     "p": "relatório",
+     "i": 20.286,
+     "f": 20.857
+    },
+    {
+     "p": "Sua",
+     "i": 21.679,
+     "f": 21.929
+    },
+    {
+     "p": "janela",
+     "i": 21.94,
+     "f": 22.417
+    },
+    {
+     "p": "fica",
+     "i": 22.429,
+     "f": 22.679
+    },
+    {
+     "p": "limpa",
+     "i": 22.69,
+     "f": 23.059
+    },
+    {
+     "p": "para",
+     "i": 23.071,
+     "f": 23.226
+    },
+    {
+     "p": "o",
+     "i": 23.238,
+     "f": 23.262
+    },
+    {
+     "p": "que",
+     "i": 23.274,
+     "f": 23.357
+    },
+    {
+     "p": "importa",
+     "i": 23.369,
+     "f": 23.869
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "af1ce22de8",
+   "texto": "Erro comum: deixar o Opus fazer tudo, até ler páginas. Isso enche a janela e gasta tokens caros. O outro erro é pedir a decisão final ao modelo barato. Lembre: delegar também custa tokens, então use em tarefas grandes, não em perguntas simples.",
+   "audio": "audio/erro-comum-af1ce22de8.mp3",
+   "duracao": 18.048,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.371
+    },
+    {
+     "p": "comum",
+     "i": 0.383,
+     "f": 0.729
+    },
+    {
+     "p": "deixar",
+     "i": 1.026,
+     "f": 1.407
+    },
+    {
+     "p": "o",
+     "i": 1.419,
+     "f": 1.467
+    },
+    {
+     "p": "Opus",
+     "i": 1.479,
+     "f": 1.717
+    },
+    {
+     "p": "fazer",
+     "i": 1.729,
+     "f": 2.062
+    },
+    {
+     "p": "tudo",
+     "i": 2.074,
+     "f": 2.443
+    },
+    {
+     "p": "até",
+     "i": 2.645,
+     "f": 2.895
+    },
+    {
+     "p": "ler",
+     "i": 2.907,
+     "f": 3.133
+    },
+    {
+     "p": "páginas",
+     "i": 3.145,
+     "f": 3.752
+    },
+    {
+     "p": "Isso",
+     "i": 4.571,
+     "f": 4.929
+    },
+    {
+     "p": "enche",
+     "i": 4.94,
+     "f": 5.179
+    },
+    {
+     "p": "a",
+     "i": 5.19,
+     "f": 5.226
+    },
+    {
+     "p": "janela",
+     "i": 5.238,
+     "f": 5.667
+    },
+    {
+     "p": "e",
+     "i": 5.679,
+     "f": 5.714
+    },
+    {
+     "p": "gasta",
+     "i": 5.726,
+     "f": 6.083
+    },
+    {
+     "p": "tokens",
+     "i": 6.095,
+     "f": 6.5
+    },
+    {
+     "p": "caros",
+     "i": 6.512,
+     "f": 6.964
+    },
+    {
+     "p": "O",
+     "i": 7.786,
+     "f": 7.893
+    },
+    {
+     "p": "outro",
+     "i": 7.905,
+     "f": 8.25
+    },
+    {
+     "p": "erro",
+     "i": 8.262,
+     "f": 8.5
+    },
+    {
+     "p": "é",
+     "i": 8.512,
+     "f": 8.548
+    },
+    {
+     "p": "pedir",
+     "i": 8.56,
+     "f": 8.857
+    },
+    {
+     "p": "a",
+     "i": 8.869,
+     "f": 8.905
+    },
+    {
+     "p": "decisão",
+     "i": 8.917,
+     "f": 9.321
+    },
+    {
+     "p": "final",
+     "i": 9.333,
+     "f": 9.679
+    },
+    {
+     "p": "ao",
+     "i": 9.69,
+     "f": 9.762
+    },
+    {
+     "p": "modelo",
+     "i": 9.774,
+     "f": 10.167
+    },
+    {
+     "p": "barato",
+     "i": 10.179,
+     "f": 10.631
+    },
+    {
+     "p": "Lembre",
+     "i": 11.452,
+     "f": 11.869
+    },
+    {
+     "p": "delegar",
+     "i": 12.131,
+     "f": 12.524
+    },
+    {
+     "p": "também",
+     "i": 12.536,
+     "f": 12.869
+    },
+    {
+     "p": "custa",
+     "i": 12.881,
+     "f": 13.19
+    },
+    {
+     "p": "tokens",
+     "i": 13.202,
+     "f": 13.702
+    },
+    {
+     "p": "então",
+     "i": 13.952,
+     "f": 14.333
+    },
+    {
+     "p": "use",
+     "i": 14.345,
+     "f": 14.548
+    },
+    {
+     "p": "em",
+     "i": 14.56,
+     "f": 14.607
+    },
+    {
+     "p": "tarefas",
+     "i": 14.619,
+     "f": 15
+    },
+    {
+     "p": "grandes",
+     "i": 15.012,
+     "f": 15.548
+    },
+    {
+     "p": "não",
+     "i": 15.774,
+     "f": 16
+    },
+    {
+     "p": "em",
+     "i": 16.012,
+     "f": 16.095
+    },
+    {
+     "p": "perguntas",
+     "i": 16.107,
+     "f": 16.643
+    },
+    {
+     "p": "simples",
+     "i": 16.655,
+     "f": 17.214
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "c136d0c59b",
+   "texto": "Pause o vídeo e tente: peça a três subagentes que pesquisem três assuntos, e compare os resumos com o que você esperava. Depois, conte nos comentários o que mudou.",
+   "audio": "audio/pratica-c136d0c59b.mp3",
+   "duracao": 10.752,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "o",
+     "i": 0.419,
+     "f": 0.479
+    },
+    {
+     "p": "vídeo",
+     "i": 0.49,
+     "f": 0.788
+    },
+    {
+     "p": "e",
+     "i": 0.8,
+     "f": 0.871
+    },
+    {
+     "p": "tente",
+     "i": 0.883,
+     "f": 1.252
+    },
+    {
+     "p": "peça",
+     "i": 1.55,
+     "f": 1.824
+    },
+    {
+     "p": "a",
+     "i": 1.836,
+     "f": 1.871
+    },
+    {
+     "p": "três",
+     "i": 1.883,
+     "f": 2.11
+    },
+    {
+     "p": "subagentes",
+     "i": 2.121,
+     "f": 2.764
+    },
+    {
+     "p": "que",
+     "i": 2.776,
+     "f": 2.86
+    },
+    {
+     "p": "pesquisem",
+     "i": 2.871,
+     "f": 3.359
+    },
+    {
+     "p": "três",
+     "i": 3.371,
+     "f": 3.574
+    },
+    {
+     "p": "assuntos",
+     "i": 3.586,
+     "f": 4.133
+    },
+    {
+     "p": "e",
+     "i": 4.407,
+     "f": 4.467
+    },
+    {
+     "p": "compare",
+     "i": 4.479,
+     "f": 4.836
+    },
+    {
+     "p": "os",
+     "i": 4.848,
+     "f": 4.907
+    },
+    {
+     "p": "resumos",
+     "i": 4.919,
+     "f": 5.383
+    },
+    {
+     "p": "com",
+     "i": 5.395,
+     "f": 5.562
+    },
+    {
+     "p": "o",
+     "i": 5.574,
+     "f": 5.609
+    },
+    {
+     "p": "que",
+     "i": 5.621,
+     "f": 5.717
+    },
+    {
+     "p": "você",
+     "i": 5.729,
+     "f": 5.967
+    },
+    {
+     "p": "esperava",
+     "i": 5.979,
+     "f": 6.502
+    },
+    {
+     "p": "Depois",
+     "i": 7.321,
+     "f": 7.893
+    },
+    {
+     "p": "conte",
+     "i": 8.155,
+     "f": 8.488
+    },
+    {
+     "p": "nos",
+     "i": 8.5,
+     "f": 8.643
+    },
+    {
+     "p": "comentários",
+     "i": 8.655,
+     "f": 9.298
+    },
+    {
+     "p": "o",
+     "i": 9.31,
+     "f": 9.417
+    },
+    {
+     "p": "que",
+     "i": 9.429,
+     "f": 9.512
+    },
+    {
+     "p": "mudou",
+     "i": 9.524,
+     "f": 9.917
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "a6b1977304",
+   "texto": "Resumindo: subagente trabalha à parte e devolve só o resumo. Isso protege a janela e poupa tokens. Haiku coleta, Opus pensa.",
+   "audio": "audio/resumo-a6b1977304.mp3",
+   "duracao": 10.344,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.717
+    },
+    {
+     "p": "subagente",
+     "i": 1.05,
+     "f": 1.61
+    },
+    {
+     "p": "trabalha",
+     "i": 1.621,
+     "f": 2.014
+    },
+    {
+     "p": "à",
+     "i": 2.026,
+     "f": 2.05
+    },
+    {
+     "p": "parte",
+     "i": 2.062,
+     "f": 2.502
+    },
+    {
+     "p": "e",
+     "i": 2.514,
+     "f": 2.538
+    },
+    {
+     "p": "devolve",
+     "i": 2.55,
+     "f": 3.026
+    },
+    {
+     "p": "só",
+     "i": 3.038,
+     "f": 3.217
+    },
+    {
+     "p": "o",
+     "i": 3.229,
+     "f": 3.252
+    },
+    {
+     "p": "resumo",
+     "i": 3.264,
+     "f": 3.74
+    },
+    {
+     "p": "Isso",
+     "i": 4.56,
+     "f": 4.845
+    },
+    {
+     "p": "protege",
+     "i": 4.857,
+     "f": 5.357
+    },
+    {
+     "p": "a",
+     "i": 5.369,
+     "f": 5.393
+    },
+    {
+     "p": "janela",
+     "i": 5.405,
+     "f": 5.833
+    },
+    {
+     "p": "e",
+     "i": 5.845,
+     "f": 5.905
+    },
+    {
+     "p": "poupa",
+     "i": 5.917,
+     "f": 6.238
+    },
+    {
+     "p": "tokens",
+     "i": 6.25,
+     "f": 6.81
+    },
+    {
+     "p": "Haiku",
+     "i": 7.631,
+     "f": 7.94
+    },
+    {
+     "p": "coleta",
+     "i": 7.952,
+     "f": 8.464
+    },
+    {
+     "p": "Opus",
+     "i": 8.714,
+     "f": 9.095
+    },
+    {
+     "p": "pensa",
+     "i": 9.107,
+     "f": 9.524
+    }
+   ]
+  },
+  "final": {
+   "hash": "effee5a196",
+   "texto": "Quiz: quem deve ler as páginas, o Haiku ou o Opus? Pense um segundo. Resposta: o Haiku, porque lê barato e devolve só o resumo. Na próxima aula, a 3.5, você aprende a gastar menos ainda. Siga para não perder.",
+   "audio": "audio/final-effee5a196.mp3",
+   "duracao": 17.928,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "quem",
+     "i": 0.74,
+     "f": 0.931
+    },
+    {
+     "p": "deve",
+     "i": 0.943,
+     "f": 1.181
+    },
+    {
+     "p": "ler",
+     "i": 1.193,
+     "f": 1.348
+    },
+    {
+     "p": "as",
+     "i": 1.36,
+     "f": 1.49
+    },
+    {
+     "p": "páginas",
+     "i": 1.502,
+     "f": 2.062
+    },
+    {
+     "p": "o",
+     "i": 2.312,
+     "f": 2.395
+    },
+    {
+     "p": "Haiku",
+     "i": 2.407,
+     "f": 2.681
+    },
+    {
+     "p": "ou",
+     "i": 2.693,
+     "f": 2.836
+    },
+    {
+     "p": "o",
+     "i": 2.848,
+     "f": 2.871
+    },
+    {
+     "p": "Opus",
+     "i": 2.883,
+     "f": 3.407
+    },
+    {
+     "p": "Pense",
+     "i": 4.226,
+     "f": 4.583
+    },
+    {
+     "p": "um",
+     "i": 4.595,
+     "f": 4.679
+    },
+    {
+     "p": "segundo",
+     "i": 4.69,
+     "f": 5.202
+    },
+    {
+     "p": "Resposta",
+     "i": 6.024,
+     "f": 6.702
+    },
+    {
+     "p": "o",
+     "i": 6.964,
+     "f": 7.06
+    },
+    {
+     "p": "Haiku",
+     "i": 7.071,
+     "f": 7.476
+    },
+    {
+     "p": "porque",
+     "i": 7.786,
+     "f": 8.107
+    },
+    {
+     "p": "lê",
+     "i": 8.119,
+     "f": 8.25
+    },
+    {
+     "p": "barato",
+     "i": 8.262,
+     "f": 8.702
+    },
+    {
+     "p": "e",
+     "i": 8.714,
+     "f": 8.75
+    },
+    {
+     "p": "devolve",
+     "i": 8.762,
+     "f": 9.262
+    },
+    {
+     "p": "só",
+     "i": 9.274,
+     "f": 9.464
+    },
+    {
+     "p": "o",
+     "i": 9.476,
+     "f": 9.512
+    },
+    {
+     "p": "resumo",
+     "i": 9.524,
+     "f": 10
+    },
+    {
+     "p": "Na",
+     "i": 10.821,
+     "f": 11
+    },
+    {
+     "p": "próxima",
+     "i": 11.012,
+     "f": 11.405
+    },
+    {
+     "p": "aula",
+     "i": 11.417,
+     "f": 11.714
+    },
+    {
+     "p": "a",
+     "i": 11.94,
+     "f": 12.036
+    },
+    {
+     "p": "3.5",
+     "i": 12.048,
+     "f": 13.048
+    },
+    {
+     "p": "você",
+     "i": 13.369,
+     "f": 13.595
+    },
+    {
+     "p": "aprende",
+     "i": 13.607,
+     "f": 13.988
+    },
+    {
+     "p": "a",
+     "i": 14,
+     "f": 14.024
+    },
+    {
+     "p": "gastar",
+     "i": 14.036,
+     "f": 14.381
+    },
+    {
+     "p": "menos",
+     "i": 14.393,
+     "f": 14.679
+    },
+    {
+     "p": "ainda",
+     "i": 14.69,
+     "f": 15.131
+    },
+    {
+     "p": "Siga",
+     "i": 15.952,
+     "f": 16.357
+    },
+    {
+     "p": "para",
+     "i": 16.369,
+     "f": 16.524
+    },
+    {
+     "p": "não",
+     "i": 16.536,
+     "f": 16.702
+    },
+    {
+     "p": "perder",
+     "i": 16.714,
+     "f": 17.107
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.942Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Code — Create custom subagents (documentação oficial)",
+   "url": "https://code.claude.com/docs/en/sub-agents"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }

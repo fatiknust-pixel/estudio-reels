@@ -1,0 +1,108 @@
+{
+  "titulo": "Aula 3.4: Modelo barato coleta, modelo forte pensa",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Code — Create custom subagents (documentação oficial)", "url": "https://code.claude.com/docs/en/sub-agents" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Por que pagar o modelo mais caro para ler cem páginas de busca? Existe um jeito bem mais barato.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "TUDO NO OPUS?", "em": "pagar", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "CARO", "cor": "vermelho", "em": "caro", "posicao": "alto" },
+        { "tipo": "tag", "texto": "100 páginas de busca", "icone": "documento", "em": "cem", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Tem jeito mais barato", "icone": "dinheiro", "cor": "verde", "em": "barato", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Na aula 3.4 você aprende três coisas: o que são subagentes, por que eles economizam tokens, e como rodar três pesquisas ao mesmo tempo.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "NESTA AULA", "sub": "Aula 3.4", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "1. O que são subagentes", "icone": "check", "em": "subagentes", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2. Menos tokens", "icone": "check", "em": "economizam", "posicao": "meio" },
+        { "tipo": "tag", "texto": "3. Três buscas juntas", "icone": "check", "cor": "verde", "em": "pesquisas", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Subagente é um assistente que trabalha numa janela de contexto só dele e devolve apenas o resumo. Janela de contexto é a memória de trabalho da conversa. Token é o pedaço de texto que você paga.",
+      "fontes": ["Documentação do Claude Code"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SUBAGENTE", "sub": "assistente com contexto próprio", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Subagente", "significado": "Faz a tarefa à parte e devolve só o resumo", "em": "Subagente", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Janela de contexto", "significado": "A memória de trabalho da conversa", "em": "Janela", "posicao": "meio" },
+        { "tipo": "definicao", "palavra": "Token", "significado": "Pedaço de texto cobrado pelo uso", "em": "Token", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num chef de cozinha. Ele não descasca batata. O ajudante faz o trabalho pesado, e o chef só decide e finaliza o prato.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "Analogia do dia a dia", "icone": "casa", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["obra", "Ajudante: Haiku"], ["seta", ""], ["martelo", "Chef: Opus"]], "em": "ajudante", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Trabalho pesado: ajudante", "icone": "obra", "cor": "azul", "em": "pesado", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Decisão final: chef", "icone": "check", "cor": "verde", "em": "decide", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Exemplo: comparar três concorrentes. Você escreve: use três subagentes Haiku, um por empresa, em paralelo. Cada um busca, lê as páginas e devolve cinco linhas. Os três trabalham ao mesmo tempo, então você espera menos. O Opus recebe só três resumos, planeja e escreve o relatório. Sua janela fica limpa para o que importa.",
+      "fontes": ["Documentação do Claude Code"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3 PESQUISAS EM PARALELO", "sub": "Haiku coleta · Opus pensa", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Use 3 subagentes Haiku, um por empresa, em paralelo. Cada um devolve 5 linhas.", "em": "escreve", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["pin", "Empresa A"], ["pin", "Empresa B"], ["pin", "Empresa C"]], "em": "Cada", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 3, "unidade": " resumos", "rotulo": "chegam ao Opus", "em": "recebe", "posicao": "meio2" },
+        { "tipo": "carimbo", "texto": "OPUS ESCREVE", "cor": "verde", "em": "relatório", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: deixar o Opus fazer tudo, até ler páginas. Isso enche a janela e gasta tokens caros. O outro erro é pedir a decisão final ao modelo barato. Lembre: delegar também custa tokens, então use em tarefas grandes, não em perguntas simples.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "Erro", "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Opus lê tudo", "nota": "Janela cheia e tokens caros", "em": "Opus", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "Haiku decide", "nota": "Quem pensa é o modelo forte", "em": "decisão", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: peça a três subagentes que pesquisem três assuntos, e compare os resumos com o que você esperava. Depois, conte nos comentários o que mudou.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "3 SUBAGENTES, 3 ASSUNTOS", "em": "peça", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Compare os resumos", "icone": "check", "em": "compare", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: subagente trabalha à parte e devolve só o resumo. Isso protege a janela e poupa tokens. Haiku coleta, Opus pensa.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "sub": "Aula 3.4", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "Contexto próprio"], ["dinheiro", "Menos tokens"], ["balanca", "Haiku + Opus"]], "em": "subagente", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Haiku coleta, Opus pensa", "icone": "check", "cor": "verde", "em": "Haiku", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "fundo": "anthropic",
+      "texto": "Quiz: quem deve ler as páginas, o Haiku ou o Opus? Pense um segundo. Resposta: o Haiku, porque lê barato e devolve só o resumo. Na próxima aula, a 3.5, você aprende a gastar menos ainda. Siga para não perder.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Quem lê as páginas?", "opcoes": ["1. Haiku", "2. Opus"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "HAIKU!", "cor": "verde", "em": "Resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 3.5", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
