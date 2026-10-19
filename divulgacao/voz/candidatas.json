@@ -1,0 +1,39 @@
+{
+ "escolhida": {
+  "arquivo": "candidata-1.wav",
+  "instrucao": "male, young adult, moderate pitch",
+  "semente": 1,
+  "clareza": -8.09,
+  "acerto": 1.0
+ },
+ "candidatas": [
+  {
+   "arquivo": "candidata-1.wav",
+   "instrucao": "male, young adult, moderate pitch",
+   "semente": 1,
+   "clareza": -8.09,
+   "acerto": 1.0
+  },
+  {
+   "arquivo": "candidata-2.wav",
+   "instrucao": "male, young adult, moderate pitch",
+   "semente": 2,
+   "clareza": -15.04,
+   "acerto": 1.0
+  },
+  {
+   "arquivo": "candidata-3.wav",
+   "instrucao": "male, middle-aged, moderate pitch",
+   "semente": 1,
+   "clareza": -18.53,
+   "acerto": 1.0
+  },
+  {
+   "arquivo": "candidata-4.wav",
+   "instrucao": "male, middle-aged, moderate pitch",
+   "semente": 2,
+   "clareza": -15.17,
+   "acerto": 1.0
+  }
+ ]
+}
