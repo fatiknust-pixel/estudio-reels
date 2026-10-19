@@ -62,7 +62,7 @@ abrir direto por este endereço:
 
 - **Android:** abra no **Chrome**. Ative o Bluetooth e a **Localização** (o Android pede localização para
   procurar aparelhos Bluetooth).
-- **iPhone (inclusive SE):** o Safari não tem Bluetooth web. Instale o app gratuito **Bluefy** e abra o
+- **iPhone (ex.: 16e):** o Safari não tem Bluetooth web. Instale o app gratuito **Bluefy** e abra o
   endereço nele. A bússola da seta pede permissão de "Movimento e orientação".
 
 Dica: no Chrome, use *⋮ → Adicionar à tela inicial* para abrir como um app.
