@@ -1,0 +1,115 @@
+{
+  "titulo": "Como um LLM funciona por dentro",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Vaswani et al. — Attention Is All You Need (arXiv, junho de 2017)", "url": "https://arxiv.org/abs/1706.03762" },
+    { "titulo": "Anthropic — Constitutional AI: Harmlessness from AI Feedback (dezembro de 2022)", "url": "https://www.anthropic.com/news/constitutional-ai-harmlessness-from-ai-feedback" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Como o Claude escreve um texto inteiro? Ele só adivinha a próxima palavra, de novo e de novo.",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "COMO ELE ESCREVE?", "em": "Como", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "SÓ ADIVINHA", "cor": "amarelo", "em": "adivinha" },
+        { "tipo": "tag", "texto": "PRÓXIMA PALAVRA", "icone": "alvo", "cor": "azul", "em": "próxima", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nesta aula você vai aprender três coisas: como o modelo prevê o texto, o que é o Transformer, e como ele é treinado.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMO UM LLM FUNCIONA", "sub": "AULA 1.2", "em": "Nesta", "posicao": "topo" },
+        { "tipo": "tag", "texto": "3 APRENDIZADOS", "icone": "check", "cor": "verde", "em": "aprender", "posicao": "alto2" },
+        { "tipo": "icones", "itens": [["alvo", "PREVER"], ["balao", "TRANSFORMER"], ["documento", "TREINO"]], "em": "três", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Um LLM, ou modelo de linguagem grande, faz uma tarefa só: prever o próximo token. Token é um pedaço de texto, como uma palavra ou parte dela. Ele calcula as chances do próximo pedaço, escolhe um, e repete.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PREVER O PRÓXIMO TOKEN", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "LLM", "significado": "Large Language Model: modelo de linguagem grande", "em": "LLM,", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "TOKEN", "significado": "pedaço de texto: palavra ou parte dela", "em": "Token", "posicao": "alto" },
+        { "tipo": "mapa", "de": "TEXTO ATÉ AGORA", "para": "PRÓXIMO TOKEN", "legenda": "escolhe e repete", "em": "calcula", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "REPETE", "cor": "azul", "em": "repete." }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense no autocompletar do celular. Você digita bom, e ele sugere dia. O LLM faz igual, só que leu milhões de textos e olha a conversa inteira.",
+      "elementos": [
+        { "tipo": "tag", "texto": "ANALOGIA", "icone": "celular", "cor": "amarelo", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["celular", "BOM"], ["seta", ""], ["balao", "DIA"]], "em": "autocompletar", "posicao": "meio" },
+        { "tipo": "placar", "sim": 100, "nao": 5, "rotulo": "CONTEXTO LIDO", "rotuloSim": "LLM: CONVERSA INTEIRA", "rotuloNao": "CELULAR: ÚLTIMA PALAVRA", "em": "milhões", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "MUITO MAIS CONTEXTO", "cor": "verde", "em": "inteira," }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Em junho de 2017, pesquisadores do Google publicaram o artigo Attention Is All You Need, que criou o Transformer. A ideia central é a atenção: o modelo pesa quais palavras importam mais. Veja a frase: a chave caiu no rio. A atenção liga chave a rio, e entende que não é de porta.",
+      "fundo": "google",
+      "fontes": ["Vaswani et al., arXiv 1706.03762 — jun/2017"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O TRANSFORMER", "sub": "GOOGLE · 2017", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["2017", "TRANSFORMER"], ["HOJE", "BASE DOS LLMs"]], "em": "junho", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "ATENÇÃO", "significado": "o modelo pesa quais palavras importam mais", "em": "atenção:", "posicao": "alto2" },
+        { "tipo": "comentario", "texto": "a chave caiu no rio", "em": "Veja", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "CHAVE ↔ RIO", "cor": "amarelo", "em": "liga" }
+      ]
+    },
+    {
+      "id": "treino",
+      "texto": "Primeiro vem o pré-treino: o modelo lê muito texto e aprende a prever o que vem depois. Depois vem o ajuste fino, com feedback de pessoas e de outra IA. Em dezembro de 2022, a Anthropic apresentou a IA Constitucional: o modelo segue princípios escritos.",
+      "fundo": "anthropic",
+      "fontes": ["Anthropic — Constitutional AI, dez/2022"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMO ELE É TREINADO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "PRÉ-TREINO"], ["seta", ""], ["check", "AJUSTE FINO"]], "em": "Primeiro", "posicao": "alto" },
+        { "tipo": "tag", "texto": "MUITO TEXTO", "icone": "documento", "cor": "azul", "em": "muito", "posicao": "meio" },
+        { "tipo": "tag", "texto": "FEEDBACK HUMANO + IA", "icone": "balao", "cor": "verde", "em": "feedback", "posicao": "meio" },
+        { "tipo": "definicao", "palavra": "IA CONSTITUCIONAL", "significado": "o modelo segue princípios escritos", "em": "Constitucional:", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum é achar que o modelo consulta um banco de respostas prontas. Não consulta. Ele gera cada token com base em padrões, por isso pode errar com confiança.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0 },
+        { "tipo": "check", "ok": false, "texto": "Busca respostas prontas", "nota": "Ele gera token por token", "em": "consulta", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "Gera com base em padrões", "nota": "por isso pode errar", "em": "gera", "posicao": "meio2" },
+        { "tipo": "tag", "texto": "ERRA COM CONFIANÇA", "icone": "alerta", "cor": "vermelho", "em": "errar", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: digite uma frase incompleta no seu celular e veja o que o autocompletar sugere.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "topo" },
+        { "tipo": "comentario", "texto": "hoje eu vou...", "em": "frase", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "O QUE ELE SUGERE?", "em": "autocompletar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumo. Um LLM prevê o próximo token. O Transformer usa atenção para entender o contexto. E o treino tem duas etapas: pré-treino e ajuste fino.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "PRÓXIMO TOKEN", "icone": "alvo", "cor": "azul", "em": "token.", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2 ETAPAS", "icone": "mais", "cor": "verde", "em": "duas", "posicao": "alto2" },
+        { "tipo": "icones", "itens": [["alvo", "PREVÊ"], ["balao", "ATENÇÃO"], ["documento", "TREINO"]], "em": "prevê", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: o que um LLM faz a cada passo? Um, busca uma resposta pronta. Dois, prevê o próximo token. Pensou? É o dois. Na próxima aula: tokens e janela de contexto.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "O QUE UM LLM FAZ A CADA PASSO?", "opcoes": ["1 · BUSCA RESPOSTA PRONTA", "2 · PREVÊ O PRÓXIMO TOKEN"], "em": 0, "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "É O 2!", "cor": "verde", "em": "dois." },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 1.3", "em": "Na", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

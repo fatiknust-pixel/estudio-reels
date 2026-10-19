@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-dapy",
- "titulo": "Aula 1.2: Como um LLM funciona por dentro — explique que modelos como ",
+ "titulo": "Como um LLM funciona por dentro",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.939Z",
- "atualizadoEm": "2026-10-19T22:26:17.939Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:29:31Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 1.2: Como um LLM funciona por dentro — explique que modelos como o Claude preveem o próximo token, o que é o Transformer e a atenção (2017), pré-treino com muito texto e o ajuste fino com feedback humano e IA Constitucional, com analogia do autocompletar do celular",
@@ -61,11 +62,2085 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Como o Claude escreve um texto inteiro? Ele só adivinha a próxima palavra, de novo e de novo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "COMO ELE ESCREVE?",
+     "em": "Como",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "SÓ ADIVINHA",
+     "cor": "amarelo",
+     "em": "adivinha"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PRÓXIMA PALAVRA",
+     "icone": "alvo",
+     "cor": "azul",
+     "em": "próxima",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula você vai aprender três coisas: como o modelo prevê o texto, o que é o Transformer, e como ele é treinado.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO UM LLM FUNCIONA",
+     "sub": "AULA 1.2",
+     "em": "Nesta",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 APRENDIZADOS",
+     "icone": "check",
+     "cor": "verde",
+     "em": "aprender",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "PREVER"
+      ],
+      [
+       "balao",
+       "TRANSFORMER"
+      ],
+      [
+       "documento",
+       "TREINO"
+      ]
+     ],
+     "em": "três",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Um LLM, ou modelo de linguagem grande, faz uma tarefa só: prever o próximo token. Token é um pedaço de texto, como uma palavra ou parte dela. Ele calcula as chances do próximo pedaço, escolhe um, e repete.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PREVER O PRÓXIMO TOKEN",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "LLM",
+     "significado": "Large Language Model: modelo de linguagem grande",
+     "em": "LLM,",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "TOKEN",
+     "significado": "pedaço de texto: palavra ou parte dela",
+     "em": "Token",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "mapa",
+     "de": "TEXTO ATÉ AGORA",
+     "para": "PRÓXIMO TOKEN",
+     "legenda": "escolhe e repete",
+     "em": "calcula",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "REPETE",
+     "cor": "azul",
+     "em": "repete."
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense no autocompletar do celular. Você digita bom, e ele sugere dia. O LLM faz igual, só que leu milhões de textos e olha a conversa inteira.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "ANALOGIA",
+     "icone": "celular",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "BOM"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balao",
+       "DIA"
+      ]
+     ],
+     "em": "autocompletar",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "placar",
+     "sim": 100,
+     "nao": 5,
+     "rotulo": "CONTEXTO LIDO",
+     "rotuloSim": "LLM: CONVERSA INTEIRA",
+     "rotuloNao": "CELULAR: ÚLTIMA PALAVRA",
+     "em": "milhões",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MUITO MAIS CONTEXTO",
+     "cor": "verde",
+     "em": "inteira,"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Em junho de 2017, pesquisadores do Google publicaram o artigo Attention Is All You Need, que criou o Transformer. A ideia central é a atenção: o modelo pesa quais palavras importam mais. Veja a frase: a chave caiu no rio. A atenção liga chave a rio, e entende que não é de porta.",
+   "fundo": "google",
+   "fontes": [
+    "Vaswani et al., arXiv 1706.03762 — jun/2017"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O TRANSFORMER",
+     "sub": "GOOGLE · 2017",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2017",
+       "TRANSFORMER"
+      ],
+      [
+       "HOJE",
+       "BASE DOS LLMs"
+      ]
+     ],
+     "em": "junho",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "ATENÇÃO",
+     "significado": "o modelo pesa quais palavras importam mais",
+     "em": "atenção:",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "a chave caiu no rio",
+     "em": "Veja",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "CHAVE ↔ RIO",
+     "cor": "amarelo",
+     "em": "liga"
+    }
+   ]
+  },
+  {
+   "id": "treino",
+   "texto": "Primeiro vem o pré-treino: o modelo lê muito texto e aprende a prever o que vem depois. Depois vem o ajuste fino, com feedback de pessoas e de outra IA. Em dezembro de 2022, a Anthropic apresentou a IA Constitucional: o modelo segue princípios escritos.",
+   "fundo": "anthropic",
+   "fontes": [
+    "Anthropic — Constitutional AI, dez/2022"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO ELE É TREINADO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "PRÉ-TREINO"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "AJUSTE FINO"
+      ]
+     ],
+     "em": "Primeiro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "MUITO TEXTO",
+     "icone": "documento",
+     "cor": "azul",
+     "em": "muito",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FEEDBACK HUMANO + IA",
+     "icone": "balao",
+     "cor": "verde",
+     "em": "feedback",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "IA CONSTITUCIONAL",
+     "significado": "o modelo segue princípios escritos",
+     "em": "Constitucional:",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum é achar que o modelo consulta um banco de respostas prontas. Não consulta. Ele gera cada token com base em padrões, por isso pode errar com confiança.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Busca respostas prontas",
+     "nota": "Ele gera token por token",
+     "em": "consulta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Gera com base em padrões",
+     "nota": "por isso pode errar",
+     "em": "gera",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ERRA COM CONFIANÇA",
+     "icone": "alerta",
+     "cor": "vermelho",
+     "em": "errar",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: digite uma frase incompleta no seu celular e veja o que o autocompletar sugere.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "hoje eu vou...",
+     "em": "frase",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "O QUE ELE SUGERE?",
+     "em": "autocompletar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo. Um LLM prevê o próximo token. O Transformer usa atenção para entender o contexto. E o treino tem duas etapas: pré-treino e ajuste fino.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PRÓXIMO TOKEN",
+     "icone": "alvo",
+     "cor": "azul",
+     "em": "token.",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2 ETAPAS",
+     "icone": "mais",
+     "cor": "verde",
+     "em": "duas",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "PREVÊ"
+      ],
+      [
+       "balao",
+       "ATENÇÃO"
+      ],
+      [
+       "documento",
+       "TREINO"
+      ]
+     ],
+     "em": "prevê",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: o que um LLM faz a cada passo? Um, busca uma resposta pronta. Dois, prevê o próximo token. Pensou? É o dois. Na próxima aula: tokens e janela de contexto.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "O QUE UM LLM FAZ A CADA PASSO?",
+     "opcoes": [
+      "1 · BUSCA RESPOSTA PRONTA",
+      "2 · PREVÊ O PRÓXIMO TOKEN"
+     ],
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "É O 2!",
+     "cor": "verde",
+     "em": "dois."
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 1.3",
+     "em": "Na",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "6ed509737d",
+   "texto": "Como o Claude escreve um texto inteiro? Ele só adivinha a próxima palavra, de novo e de novo.",
+   "audio": "audio/gancho-6ed509737d.mp3",
+   "duracao": 6.648,
+   "palavras": [
+    {
+     "p": "Como",
+     "i": 0.098,
+     "f": 0.383
+    },
+    {
+     "p": "o",
+     "i": 0.395,
+     "f": 0.443
+    },
+    {
+     "p": "Claude",
+     "i": 0.455,
+     "f": 0.752
+    },
+    {
+     "p": "escreve",
+     "i": 0.764,
+     "f": 1.11
+    },
+    {
+     "p": "um",
+     "i": 1.121,
+     "f": 1.24
+    },
+    {
+     "p": "texto",
+     "i": 1.252,
+     "f": 1.586
+    },
+    {
+     "p": "inteiro",
+     "i": 1.598,
+     "f": 2.026
+    },
+    {
+     "p": "Ele",
+     "i": 2.845,
+     "f": 3.048
+    },
+    {
+     "p": "só",
+     "i": 3.06,
+     "f": 3.25
+    },
+    {
+     "p": "adivinha",
+     "i": 3.262,
+     "f": 3.643
+    },
+    {
+     "p": "a",
+     "i": 3.655,
+     "f": 3.69
+    },
+    {
+     "p": "próxima",
+     "i": 3.702,
+     "f": 4.095
+    },
+    {
+     "p": "palavra",
+     "i": 4.107,
+     "f": 4.595
+    },
+    {
+     "p": "de",
+     "i": 4.845,
+     "f": 4.964
+    },
+    {
+     "p": "novo",
+     "i": 4.976,
+     "f": 5.31
+    },
+    {
+     "p": "e",
+     "i": 5.321,
+     "f": 5.357
+    },
+    {
+     "p": "de",
+     "i": 5.369,
+     "f": 5.464
+    },
+    {
+     "p": "novo",
+     "i": 5.476,
+     "f": 5.821
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "17c91b73a8",
+   "texto": "Nesta aula você vai aprender três coisas: como o modelo prevê o texto, o que é o Transformer, e como ele é treinado.",
+   "audio": "audio/promessa-17c91b73a8.mp3",
+   "duracao": 7.512,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "aula",
+     "i": 0.431,
+     "f": 0.729
+    },
+    {
+     "p": "você",
+     "i": 0.74,
+     "f": 1.002
+    },
+    {
+     "p": "vai",
+     "i": 1.014,
+     "f": 1.121
+    },
+    {
+     "p": "aprender",
+     "i": 1.133,
+     "f": 1.55
+    },
+    {
+     "p": "três",
+     "i": 1.562,
+     "f": 1.848
+    },
+    {
+     "p": "coisas",
+     "i": 1.86,
+     "f": 2.336
+    },
+    {
+     "p": "como",
+     "i": 2.61,
+     "f": 2.836
+    },
+    {
+     "p": "o",
+     "i": 2.848,
+     "f": 2.86
+    },
+    {
+     "p": "modelo",
+     "i": 2.871,
+     "f": 3.264
+    },
+    {
+     "p": "prevê",
+     "i": 3.276,
+     "f": 3.538
+    },
+    {
+     "p": "o",
+     "i": 3.55,
+     "f": 3.633
+    },
+    {
+     "p": "texto",
+     "i": 3.645,
+     "f": 4.062
+    },
+    {
+     "p": "o",
+     "i": 4.324,
+     "f": 4.419
+    },
+    {
+     "p": "que",
+     "i": 4.431,
+     "f": 4.586
+    },
+    {
+     "p": "é",
+     "i": 4.598,
+     "f": 4.681
+    },
+    {
+     "p": "o",
+     "i": 4.693,
+     "f": 4.74
+    },
+    {
+     "p": "Transformer",
+     "i": 4.752,
+     "f": 5.348
+    },
+    {
+     "p": "e",
+     "i": 5.669,
+     "f": 5.729
+    },
+    {
+     "p": "como",
+     "i": 5.74,
+     "f": 5.99
+    },
+    {
+     "p": "ele",
+     "i": 6.002,
+     "f": 6.109
+    },
+    {
+     "p": "é",
+     "i": 6.121,
+     "f": 6.169
+    },
+    {
+     "p": "treinado",
+     "i": 6.181,
+     "f": 6.693
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "2fe3e660e7",
+   "texto": "Um LLM, ou modelo de linguagem grande, faz uma tarefa só: prever o próximo token. Token é um pedaço de texto, como uma palavra ou parte dela. Ele calcula as chances do próximo pedaço, escolhe um, e repete.",
+   "audio": "audio/conceito-2fe3e660e7.mp3",
+   "duracao": 15.624,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.276
+    },
+    {
+     "p": "LLM",
+     "i": 0.288,
+     "f": 1.181
+    },
+    {
+     "p": "ou",
+     "i": 1.395,
+     "f": 1.491
+    },
+    {
+     "p": "modelo",
+     "i": 1.502,
+     "f": 1.907
+    },
+    {
+     "p": "de",
+     "i": 1.919,
+     "f": 2.002
+    },
+    {
+     "p": "linguagem",
+     "i": 2.014,
+     "f": 2.514
+    },
+    {
+     "p": "grande",
+     "i": 2.526,
+     "f": 2.895
+    },
+    {
+     "p": "faz",
+     "i": 3.145,
+     "f": 3.3
+    },
+    {
+     "p": "uma",
+     "i": 3.312,
+     "f": 3.502
+    },
+    {
+     "p": "tarefa",
+     "i": 3.514,
+     "f": 3.871
+    },
+    {
+     "p": "só",
+     "i": 3.883,
+     "f": 4.217
+    },
+    {
+     "p": "prever",
+     "i": 4.407,
+     "f": 4.74
+    },
+    {
+     "p": "o",
+     "i": 4.752,
+     "f": 4.8
+    },
+    {
+     "p": "próximo",
+     "i": 4.812,
+     "f": 5.3
+    },
+    {
+     "p": "token",
+     "i": 5.312,
+     "f": 5.729
+    },
+    {
+     "p": "Token",
+     "i": 6.548,
+     "f": 6.905
+    },
+    {
+     "p": "é",
+     "i": 6.917,
+     "f": 6.952
+    },
+    {
+     "p": "um",
+     "i": 6.964,
+     "f": 7.071
+    },
+    {
+     "p": "pedaço",
+     "i": 7.083,
+     "f": 7.512
+    },
+    {
+     "p": "de",
+     "i": 7.524,
+     "f": 7.655
+    },
+    {
+     "p": "texto",
+     "i": 7.667,
+     "f": 8.06
+    },
+    {
+     "p": "como",
+     "i": 8.333,
+     "f": 8.536
+    },
+    {
+     "p": "uma",
+     "i": 8.548,
+     "f": 8.738
+    },
+    {
+     "p": "palavra",
+     "i": 8.75,
+     "f": 9.202
+    },
+    {
+     "p": "ou",
+     "i": 9.214,
+     "f": 9.31
+    },
+    {
+     "p": "parte",
+     "i": 9.321,
+     "f": 9.643
+    },
+    {
+     "p": "dela",
+     "i": 9.655,
+     "f": 9.964
+    },
+    {
+     "p": "Ele",
+     "i": 10.786,
+     "f": 10.988
+    },
+    {
+     "p": "calcula",
+     "i": 11,
+     "f": 11.44
+    },
+    {
+     "p": "as",
+     "i": 11.452,
+     "f": 11.548
+    },
+    {
+     "p": "chances",
+     "i": 11.56,
+     "f": 11.893
+    },
+    {
+     "p": "do",
+     "i": 11.905,
+     "f": 12.012
+    },
+    {
+     "p": "próximo",
+     "i": 12.024,
+     "f": 12.429
+    },
+    {
+     "p": "pedaço",
+     "i": 12.44,
+     "f": 12.964
+    },
+    {
+     "p": "escolhe",
+     "i": 13.274,
+     "f": 13.714
+    },
+    {
+     "p": "um",
+     "i": 13.726,
+     "f": 13.893
+    },
+    {
+     "p": "e",
+     "i": 14.179,
+     "f": 14.238
+    },
+    {
+     "p": "repete",
+     "i": 14.25,
+     "f": 14.786
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "c03824f772",
+   "texto": "Pense no autocompletar do celular. Você digita bom, e ele sugere dia. O LLM faz igual, só que leu milhões de textos e olha a conversa inteira.",
+   "audio": "audio/analogia-c03824f772.mp3",
+   "duracao": 11.4,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "no",
+     "i": 0.479,
+     "f": 0.55
+    },
+    {
+     "p": "autocompletar",
+     "i": 0.562,
+     "f": 1.336
+    },
+    {
+     "p": "do",
+     "i": 1.348,
+     "f": 1.455
+    },
+    {
+     "p": "celular",
+     "i": 1.467,
+     "f": 1.955
+    },
+    {
+     "p": "Você",
+     "i": 2.774,
+     "f": 3.155
+    },
+    {
+     "p": "digita",
+     "i": 3.167,
+     "f": 3.56
+    },
+    {
+     "p": "bom",
+     "i": 3.571,
+     "f": 3.833
+    },
+    {
+     "p": "e",
+     "i": 4.143,
+     "f": 4.274
+    },
+    {
+     "p": "ele",
+     "i": 4.286,
+     "f": 4.429
+    },
+    {
+     "p": "sugere",
+     "i": 4.44,
+     "f": 4.893
+    },
+    {
+     "p": "dia",
+     "i": 4.905,
+     "f": 5.214
+    },
+    {
+     "p": "O",
+     "i": 6.036,
+     "f": 6.179
+    },
+    {
+     "p": "LLM",
+     "i": 6.19,
+     "f": 6.964
+    },
+    {
+     "p": "faz",
+     "i": 6.976,
+     "f": 7.167
+    },
+    {
+     "p": "igual",
+     "i": 7.179,
+     "f": 7.583
+    },
+    {
+     "p": "só",
+     "i": 7.857,
+     "f": 8.036
+    },
+    {
+     "p": "que",
+     "i": 8.048,
+     "f": 8.167
+    },
+    {
+     "p": "leu",
+     "i": 8.179,
+     "f": 8.31
+    },
+    {
+     "p": "milhões",
+     "i": 8.321,
+     "f": 8.702
+    },
+    {
+     "p": "de",
+     "i": 8.714,
+     "f": 8.821
+    },
+    {
+     "p": "textos",
+     "i": 8.833,
+     "f": 9.179
+    },
+    {
+     "p": "e",
+     "i": 9.19,
+     "f": 9.321
+    },
+    {
+     "p": "olha",
+     "i": 9.333,
+     "f": 9.56
+    },
+    {
+     "p": "a",
+     "i": 9.571,
+     "f": 9.595
+    },
+    {
+     "p": "conversa",
+     "i": 9.607,
+     "f": 10.107
+    },
+    {
+     "p": "inteira",
+     "i": 10.119,
+     "f": 10.571
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "47c47654af",
+   "texto": "Em junho de 2017, pesquisadores do Google publicaram o artigo Attention Is All You Need, que criou o Transformer. A ideia central é a atenção: o modelo pesa quais palavras importam mais. Veja a frase: a chave caiu no rio. A atenção liga chave a rio, e entende que não é de porta.",
+   "audio": "audio/exemplo-47c47654af.mp3",
+   "duracao": 20.016,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.098,
+     "f": 0.264
+    },
+    {
+     "p": "junho",
+     "i": 0.276,
+     "f": 0.645
+    },
+    {
+     "p": "de",
+     "i": 0.657,
+     "f": 0.74
+    },
+    {
+     "p": "2017",
+     "i": 0.752,
+     "f": 1.717
+    },
+    {
+     "p": "pesquisadores",
+     "i": 1.931,
+     "f": 2.657
+    },
+    {
+     "p": "do",
+     "i": 2.669,
+     "f": 2.776
+    },
+    {
+     "p": "Google",
+     "i": 2.788,
+     "f": 3.098
+    },
+    {
+     "p": "publicaram",
+     "i": 3.11,
+     "f": 3.633
+    },
+    {
+     "p": "o",
+     "i": 3.645,
+     "f": 3.693
+    },
+    {
+     "p": "artigo",
+     "i": 3.705,
+     "f": 4.062
+    },
+    {
+     "p": "Attention",
+     "i": 4.074,
+     "f": 4.586
+    },
+    {
+     "p": "Is",
+     "i": 4.598,
+     "f": 4.681
+    },
+    {
+     "p": "All",
+     "i": 4.693,
+     "f": 4.931
+    },
+    {
+     "p": "You",
+     "i": 4.943,
+     "f": 5.145
+    },
+    {
+     "p": "Need",
+     "i": 5.157,
+     "f": 5.514
+    },
+    {
+     "p": "que",
+     "i": 5.705,
+     "f": 5.836
+    },
+    {
+     "p": "criou",
+     "i": 5.848,
+     "f": 6.181
+    },
+    {
+     "p": "o",
+     "i": 6.193,
+     "f": 6.24
+    },
+    {
+     "p": "Transformer",
+     "i": 6.252,
+     "f": 6.824
+    },
+    {
+     "p": "A",
+     "i": 7.643,
+     "f": 7.786
+    },
+    {
+     "p": "ideia",
+     "i": 7.798,
+     "f": 8.071
+    },
+    {
+     "p": "central",
+     "i": 8.083,
+     "f": 8.524
+    },
+    {
+     "p": "é",
+     "i": 8.536,
+     "f": 8.619
+    },
+    {
+     "p": "a",
+     "i": 8.631,
+     "f": 8.655
+    },
+    {
+     "p": "atenção",
+     "i": 8.667,
+     "f": 9.167
+    },
+    {
+     "p": "o",
+     "i": 9.464,
+     "f": 9.5
+    },
+    {
+     "p": "modelo",
+     "i": 9.512,
+     "f": 9.94
+    },
+    {
+     "p": "pesa",
+     "i": 9.952,
+     "f": 10.309
+    },
+    {
+     "p": "quais",
+     "i": 10.321,
+     "f": 10.571
+    },
+    {
+     "p": "palavras",
+     "i": 10.583,
+     "f": 11
+    },
+    {
+     "p": "importam",
+     "i": 11.012,
+     "f": 11.536
+    },
+    {
+     "p": "mais",
+     "i": 11.548,
+     "f": 11.964
+    },
+    {
+     "p": "Veja",
+     "i": 12.786,
+     "f": 13.119
+    },
+    {
+     "p": "a",
+     "i": 13.131,
+     "f": 13.167
+    },
+    {
+     "p": "frase",
+     "i": 13.179,
+     "f": 13.619
+    },
+    {
+     "p": "a",
+     "i": 13.857,
+     "f": 13.929
+    },
+    {
+     "p": "chave",
+     "i": 13.94,
+     "f": 14.321
+    },
+    {
+     "p": "caiu",
+     "i": 14.333,
+     "f": 14.619
+    },
+    {
+     "p": "no",
+     "i": 14.631,
+     "f": 14.726
+    },
+    {
+     "p": "rio",
+     "i": 14.738,
+     "f": 15
+    },
+    {
+     "p": "A",
+     "i": 15.821,
+     "f": 15.952
+    },
+    {
+     "p": "atenção",
+     "i": 15.964,
+     "f": 16.476
+    },
+    {
+     "p": "liga",
+     "i": 16.488,
+     "f": 16.714
+    },
+    {
+     "p": "chave",
+     "i": 16.726,
+     "f": 17.071
+    },
+    {
+     "p": "a",
+     "i": 17.083,
+     "f": 17.143
+    },
+    {
+     "p": "rio",
+     "i": 17.155,
+     "f": 17.417
+    },
+    {
+     "p": "e",
+     "i": 17.631,
+     "f": 17.702
+    },
+    {
+     "p": "entende",
+     "i": 17.714,
+     "f": 18.19
+    },
+    {
+     "p": "que",
+     "i": 18.202,
+     "f": 18.333
+    },
+    {
+     "p": "não",
+     "i": 18.345,
+     "f": 18.548
+    },
+    {
+     "p": "é",
+     "i": 18.56,
+     "f": 18.631
+    },
+    {
+     "p": "de",
+     "i": 18.643,
+     "f": 18.75
+    },
+    {
+     "p": "porta",
+     "i": 18.762,
+     "f": 19.179
+    }
+   ]
+  },
+  "treino": {
+   "hash": "14344247dc",
+   "texto": "Primeiro vem o pré-treino: o modelo lê muito texto e aprende a prever o que vem depois. Depois vem o ajuste fino, com feedback de pessoas e de outra IA. Em dezembro de 2022, a Anthropic apresentou a IA Constitucional: o modelo segue princípios escritos.",
+   "audio": "audio/treino-14344247dc.mp3",
+   "duracao": 19.512,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.098,
+     "f": 0.526
+    },
+    {
+     "p": "vem",
+     "i": 0.538,
+     "f": 0.705
+    },
+    {
+     "p": "o",
+     "i": 0.717,
+     "f": 0.776
+    },
+    {
+     "p": "pré-treino",
+     "i": 0.788,
+     "f": 1.336
+    },
+    {
+     "p": "o",
+     "i": 1.598,
+     "f": 1.645
+    },
+    {
+     "p": "modelo",
+     "i": 1.657,
+     "f": 2.062
+    },
+    {
+     "p": "lê",
+     "i": 2.074,
+     "f": 2.193
+    },
+    {
+     "p": "muito",
+     "i": 2.205,
+     "f": 2.61
+    },
+    {
+     "p": "texto",
+     "i": 2.621,
+     "f": 2.99
+    },
+    {
+     "p": "e",
+     "i": 3.002,
+     "f": 3.038
+    },
+    {
+     "p": "aprende",
+     "i": 3.05,
+     "f": 3.419
+    },
+    {
+     "p": "a",
+     "i": 3.431,
+     "f": 3.467
+    },
+    {
+     "p": "prever",
+     "i": 3.479,
+     "f": 3.824
+    },
+    {
+     "p": "o",
+     "i": 3.836,
+     "f": 3.883
+    },
+    {
+     "p": "que",
+     "i": 3.895,
+     "f": 4.002
+    },
+    {
+     "p": "vem",
+     "i": 4.014,
+     "f": 4.169
+    },
+    {
+     "p": "depois",
+     "i": 4.181,
+     "f": 4.729
+    },
+    {
+     "p": "Depois",
+     "i": 5.548,
+     "f": 6.036
+    },
+    {
+     "p": "vem",
+     "i": 6.048,
+     "f": 6.25
+    },
+    {
+     "p": "o",
+     "i": 6.262,
+     "f": 6.333
+    },
+    {
+     "p": "ajuste",
+     "i": 6.345,
+     "f": 6.762
+    },
+    {
+     "p": "fino",
+     "i": 6.774,
+     "f": 7.119
+    },
+    {
+     "p": "com",
+     "i": 7.405,
+     "f": 7.559
+    },
+    {
+     "p": "feedback",
+     "i": 7.571,
+     "f": 8.059
+    },
+    {
+     "p": "de",
+     "i": 8.071,
+     "f": 8.155
+    },
+    {
+     "p": "pessoas",
+     "i": 8.167,
+     "f": 8.619
+    },
+    {
+     "p": "e",
+     "i": 8.631,
+     "f": 8.738
+    },
+    {
+     "p": "de",
+     "i": 8.75,
+     "f": 8.893
+    },
+    {
+     "p": "outra",
+     "i": 8.905,
+     "f": 9.155
+    },
+    {
+     "p": "IA",
+     "i": 9.167,
+     "f": 10.405
+    },
+    {
+     "p": "Em",
+     "i": 11.226,
+     "f": 11.345
+    },
+    {
+     "p": "dezembro",
+     "i": 11.357,
+     "f": 11.857
+    },
+    {
+     "p": "de",
+     "i": 11.869,
+     "f": 11.94
+    },
+    {
+     "p": "2022",
+     "i": 11.952,
+     "f": 12.881
+    },
+    {
+     "p": "a",
+     "i": 13.119,
+     "f": 13.202
+    },
+    {
+     "p": "Anthropic",
+     "i": 13.214,
+     "f": 13.714
+    },
+    {
+     "p": "apresentou",
+     "i": 13.726,
+     "f": 14.226
+    },
+    {
+     "p": "a",
+     "i": 14.238,
+     "f": 14.286
+    },
+    {
+     "p": "IA",
+     "i": 14.298,
+     "f": 15.488
+    },
+    {
+     "p": "Constitucional",
+     "i": 15.5,
+     "f": 16.274
+    },
+    {
+     "p": "o",
+     "i": 16.607,
+     "f": 16.667
+    },
+    {
+     "p": "modelo",
+     "i": 16.679,
+     "f": 17.131
+    },
+    {
+     "p": "segue",
+     "i": 17.143,
+     "f": 17.464
+    },
+    {
+     "p": "princípios",
+     "i": 17.476,
+     "f": 17.976
+    },
+    {
+     "p": "escritos",
+     "i": 17.988,
+     "f": 18.69
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "5c5f7fe1e5",
+   "texto": "O erro comum é achar que o modelo consulta um banco de respostas prontas. Não consulta. Ele gera cada token com base em padrões, por isso pode errar com confiança.",
+   "audio": "audio/erro-comum-5c5f7fe1e5.mp3",
+   "duracao": 11.664,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.252
+    },
+    {
+     "p": "erro",
+     "i": 0.264,
+     "f": 0.502
+    },
+    {
+     "p": "comum",
+     "i": 0.514,
+     "f": 0.919
+    },
+    {
+     "p": "é",
+     "i": 0.931,
+     "f": 0.99
+    },
+    {
+     "p": "achar",
+     "i": 1.002,
+     "f": 1.336
+    },
+    {
+     "p": "que",
+     "i": 1.348,
+     "f": 1.419
+    },
+    {
+     "p": "o",
+     "i": 1.431,
+     "f": 1.443
+    },
+    {
+     "p": "modelo",
+     "i": 1.455,
+     "f": 1.848
+    },
+    {
+     "p": "consulta",
+     "i": 1.86,
+     "f": 2.348
+    },
+    {
+     "p": "um",
+     "i": 2.36,
+     "f": 2.479
+    },
+    {
+     "p": "banco",
+     "i": 2.49,
+     "f": 2.871
+    },
+    {
+     "p": "de",
+     "i": 2.883,
+     "f": 2.967
+    },
+    {
+     "p": "respostas",
+     "i": 2.979,
+     "f": 3.586
+    },
+    {
+     "p": "prontas",
+     "i": 3.598,
+     "f": 4.145
+    },
+    {
+     "p": "Não",
+     "i": 4.964,
+     "f": 5.238
+    },
+    {
+     "p": "consulta",
+     "i": 5.25,
+     "f": 5.869
+    },
+    {
+     "p": "Ele",
+     "i": 6.69,
+     "f": 6.869
+    },
+    {
+     "p": "gera",
+     "i": 6.881,
+     "f": 7.167
+    },
+    {
+     "p": "cada",
+     "i": 7.179,
+     "f": 7.429
+    },
+    {
+     "p": "token",
+     "i": 7.44,
+     "f": 7.821
+    },
+    {
+     "p": "com",
+     "i": 7.833,
+     "f": 7.988
+    },
+    {
+     "p": "base",
+     "i": 8,
+     "f": 8.286
+    },
+    {
+     "p": "em",
+     "i": 8.298,
+     "f": 8.357
+    },
+    {
+     "p": "padrões",
+     "i": 8.369,
+     "f": 8.857
+    },
+    {
+     "p": "por",
+     "i": 9.107,
+     "f": 9.262
+    },
+    {
+     "p": "isso",
+     "i": 9.274,
+     "f": 9.559
+    },
+    {
+     "p": "pode",
+     "i": 9.571,
+     "f": 9.774
+    },
+    {
+     "p": "errar",
+     "i": 9.786,
+     "f": 10.059
+    },
+    {
+     "p": "com",
+     "i": 10.071,
+     "f": 10.214
+    },
+    {
+     "p": "confiança",
+     "i": 10.226,
+     "f": 10.833
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "2d0fc07e87",
+   "texto": "Pause o vídeo e tente: digite uma frase incompleta no seu celular e veja o que o autocompletar sugere.",
+   "audio": "audio/pratica-2d0fc07e87.mp3",
+   "duracao": 6.36,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "o",
+     "i": 0.419,
+     "f": 0.479
+    },
+    {
+     "p": "vídeo",
+     "i": 0.49,
+     "f": 0.776
+    },
+    {
+     "p": "e",
+     "i": 0.788,
+     "f": 0.859
+    },
+    {
+     "p": "tente",
+     "i": 0.871,
+     "f": 1.205
+    },
+    {
+     "p": "digite",
+     "i": 1.431,
+     "f": 1.824
+    },
+    {
+     "p": "uma",
+     "i": 1.836,
+     "f": 1.967
+    },
+    {
+     "p": "frase",
+     "i": 1.979,
+     "f": 2.336
+    },
+    {
+     "p": "incompleta",
+     "i": 2.348,
+     "f": 2.919
+    },
+    {
+     "p": "no",
+     "i": 2.931,
+     "f": 3.014
+    },
+    {
+     "p": "seu",
+     "i": 3.026,
+     "f": 3.169
+    },
+    {
+     "p": "celular",
+     "i": 3.181,
+     "f": 3.657
+    },
+    {
+     "p": "e",
+     "i": 3.669,
+     "f": 3.74
+    },
+    {
+     "p": "veja",
+     "i": 3.752,
+     "f": 4.074
+    },
+    {
+     "p": "o",
+     "i": 4.086,
+     "f": 4.109
+    },
+    {
+     "p": "que",
+     "i": 4.121,
+     "f": 4.217
+    },
+    {
+     "p": "o",
+     "i": 4.229,
+     "f": 4.276
+    },
+    {
+     "p": "autocompletar",
+     "i": 4.288,
+     "f": 5.002
+    },
+    {
+     "p": "sugere",
+     "i": 5.014,
+     "f": 5.538
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "86db34506b",
+   "texto": "Resumo. Um LLM prevê o próximo token. O Transformer usa atenção para entender o contexto. E o treino tem duas etapas: pré-treino e ajuste fino.",
+   "audio": "audio/resumo-86db34506b.mp3",
+   "duracao": 12.504,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.693
+    },
+    {
+     "p": "Um",
+     "i": 1.512,
+     "f": 1.679
+    },
+    {
+     "p": "LLM",
+     "i": 1.69,
+     "f": 2.5
+    },
+    {
+     "p": "prevê",
+     "i": 2.512,
+     "f": 2.845
+    },
+    {
+     "p": "o",
+     "i": 2.857,
+     "f": 2.917
+    },
+    {
+     "p": "próximo",
+     "i": 2.929,
+     "f": 3.405
+    },
+    {
+     "p": "token",
+     "i": 3.417,
+     "f": 3.833
+    },
+    {
+     "p": "O",
+     "i": 4.655,
+     "f": 4.774
+    },
+    {
+     "p": "Transformer",
+     "i": 4.786,
+     "f": 5.369
+    },
+    {
+     "p": "usa",
+     "i": 5.381,
+     "f": 5.619
+    },
+    {
+     "p": "atenção",
+     "i": 5.631,
+     "f": 6.131
+    },
+    {
+     "p": "para",
+     "i": 6.143,
+     "f": 6.286
+    },
+    {
+     "p": "entender",
+     "i": 6.298,
+     "f": 6.726
+    },
+    {
+     "p": "o",
+     "i": 6.738,
+     "f": 6.786
+    },
+    {
+     "p": "contexto",
+     "i": 6.798,
+     "f": 7.393
+    },
+    {
+     "p": "E",
+     "i": 8.214,
+     "f": 8.333
+    },
+    {
+     "p": "o",
+     "i": 8.345,
+     "f": 8.417
+    },
+    {
+     "p": "treino",
+     "i": 8.429,
+     "f": 8.786
+    },
+    {
+     "p": "tem",
+     "i": 8.798,
+     "f": 9
+    },
+    {
+     "p": "duas",
+     "i": 9.012,
+     "f": 9.262
+    },
+    {
+     "p": "etapas",
+     "i": 9.274,
+     "f": 9.869
+    },
+    {
+     "p": "pré-treino",
+     "i": 10.083,
+     "f": 10.726
+    },
+    {
+     "p": "e",
+     "i": 10.738,
+     "f": 10.809
+    },
+    {
+     "p": "ajuste",
+     "i": 10.821,
+     "f": 11.298
+    },
+    {
+     "p": "fino",
+     "i": 11.31,
+     "f": 11.679
+    }
+   ]
+  },
+  "final": {
+   "hash": "21f1cd8c29",
+   "texto": "Quiz: o que um LLM faz a cada passo? Um, busca uma resposta pronta. Dois, prevê o próximo token. Pensou? É o dois. Na próxima aula: tokens e janela de contexto.",
+   "audio": "audio/final-21f1cd8c29.mp3",
+   "duracao": 16.344,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "o",
+     "i": 0.812,
+     "f": 0.895
+    },
+    {
+     "p": "que",
+     "i": 0.907,
+     "f": 1.05
+    },
+    {
+     "p": "um",
+     "i": 1.062,
+     "f": 1.217
+    },
+    {
+     "p": "LLM",
+     "i": 1.229,
+     "f": 1.99
+    },
+    {
+     "p": "faz",
+     "i": 2.002,
+     "f": 2.193
+    },
+    {
+     "p": "a",
+     "i": 2.205,
+     "f": 2.336
+    },
+    {
+     "p": "cada",
+     "i": 2.348,
+     "f": 2.586
+    },
+    {
+     "p": "passo",
+     "i": 2.598,
+     "f": 3.002
+    },
+    {
+     "p": "Um",
+     "i": 3.821,
+     "f": 4.059
+    },
+    {
+     "p": "busca",
+     "i": 4.393,
+     "f": 4.774
+    },
+    {
+     "p": "uma",
+     "i": 4.786,
+     "f": 4.905
+    },
+    {
+     "p": "resposta",
+     "i": 4.917,
+     "f": 5.464
+    },
+    {
+     "p": "pronta",
+     "i": 5.476,
+     "f": 5.881
+    },
+    {
+     "p": "Dois",
+     "i": 6.702,
+     "f": 7.155
+    },
+    {
+     "p": "prevê",
+     "i": 7.476,
+     "f": 7.81
+    },
+    {
+     "p": "o",
+     "i": 7.821,
+     "f": 7.893
+    },
+    {
+     "p": "próximo",
+     "i": 7.905,
+     "f": 8.393
+    },
+    {
+     "p": "token",
+     "i": 8.405,
+     "f": 8.845
+    },
+    {
+     "p": "Pensou",
+     "i": 9.667,
+     "f": 10.226
+    },
+    {
+     "p": "É",
+     "i": 11.048,
+     "f": 11.214
+    },
+    {
+     "p": "o",
+     "i": 11.226,
+     "f": 11.286
+    },
+    {
+     "p": "dois",
+     "i": 11.298,
+     "f": 11.774
+    },
+    {
+     "p": "Na",
+     "i": 12.595,
+     "f": 12.798
+    },
+    {
+     "p": "próxima",
+     "i": 12.81,
+     "f": 13.238
+    },
+    {
+     "p": "aula",
+     "i": 13.25,
+     "f": 13.583
+    },
+    {
+     "p": "tokens",
+     "i": 13.833,
+     "f": 14.214
+    },
+    {
+     "p": "e",
+     "i": 14.226,
+     "f": 14.345
+    },
+    {
+     "p": "janela",
+     "i": 14.357,
+     "f": 14.798
+    },
+    {
+     "p": "de",
+     "i": 14.81,
+     "f": 14.893
+    },
+    {
+     "p": "contexto",
+     "i": 14.905,
+     "f": 15.524
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "google": {
+   "arquivo": "imagens/google-8e0298bb.jpg",
+   "rotulo": "Google",
+   "wiki": "Google",
+   "commons": "Googleplex Mountain View",
+   "autor": "Asoundd",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
+   "titulo": "File:Googleplex HQ (cropped).jpg"
+  },
+  "anthropic": {
+   "arquivo": "imagens/anthropic-14563b4c.jpg",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic",
+   "commons": "Anthropic company",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Types_of_the_Age_of_Cavour.jpg",
+   "titulo": "File:Types of the Age of Cavour.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.939Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Vaswani et al. — Attention Is All You Need (arXiv, junho de 2017)",
+   "url": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+   "titulo": "Anthropic — Constitutional AI: Harmlessness from AI Feedback (dezembro de 2022)",
+   "url": "https://www.anthropic.com/news/constitutional-ai-harmlessness-from-ai-feedback"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }
