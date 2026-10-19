@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-0uj0",
- "titulo": "Aula 1.5: O mapa dos modelos de IA em 2026 — apresente Anthropic (Clau",
+ "titulo": "Aula 1.5: O mapa dos modelos de IA em 2026",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.940Z",
- "atualizadoEm": "2026-10-19T22:26:17.940Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:28:54Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 1.5: O mapa dos modelos de IA em 2026 — apresente Anthropic (Claude), OpenAI (ChatGPT), Google (Gemini), Meta (Llama) e modelos de pesos abertos, explique modelo fechado x aberto e multimodal, e mostre a família Claude: Haiku 5.5, Sonnet 5.5, Opus 5.5 e Fable 5.1, para que serve cada um",
@@ -61,11 +62,1965 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Claude, ChatGPT, Gemini, Llama. Qual deles é o melhor? Calma: a pergunta certa é outra. Hoje você monta o mapa.",
+   "fundo": "anthropic",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL É O MELHOR?",
+     "em": "melhor",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CLAUDE",
+     "icone": "balao",
+     "cor": "amarelo",
+     "em": "Claude",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "PERGUNTA ERRADA",
+     "cor": "vermelho",
+     "em": "Calma",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "O MAPA DA IA",
+     "em": "mapa",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 1.5. Você vai aprender três coisas: quem faz cada IA, a diferença entre modelo fechado e aberto, e qual Claude escolher.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "OS MODELOS DE IA",
+     "sub": "AULA 1.5",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "predio",
+       "QUEM FAZ"
+      ],
+      [
+       "cruz",
+       "FECHADO × ABERTO"
+      ],
+      [
+       "alvo",
+       "QUAL CLAUDE"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 APRENDIZADOS",
+     "icone": "check",
+     "cor": "verde",
+     "em": "aprender",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Um modelo é o cérebro treinado por trás do chatbot. A Anthropic faz o Claude. A OpenAI faz o ChatGPT. O Google faz o Gemini. A Meta faz o Llama.",
+   "fundo": "openai",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUEM FAZ O QUÊ",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "MODELO",
+     "significado": "O cérebro treinado por trás do chatbot",
+     "em": "modelo",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "mapa",
+     "de": "ANTHROPIC",
+     "para": "CLAUDE",
+     "em": "Anthropic",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "mapa",
+     "de": "OPENAI",
+     "para": "CHATGPT",
+     "em": "OpenAI",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "GOOGLE = GEMINI",
+     "icone": "pin",
+     "cor": "azul",
+     "em": "Google",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "META = LLAMA",
+     "icone": "pin",
+     "cor": "roxo",
+     "em": "Meta",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Modelo fechado é como um restaurante: você come o prato pronto, mas não vê a receita. Modelo aberto entrega a receita: você baixa os pesos, que são os números aprendidos, e roda no seu computador. O Llama é o exemplo mais conhecido.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FECHADO × ABERTO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FECHADO = PRATO PRONTO",
+     "icone": "casa",
+     "cor": "vermelho",
+     "em": "restaurante",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ABERTO = RECEITA",
+     "icone": "documento",
+     "cor": "verde",
+     "em": "aberto",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "PESOS",
+     "significado": "Os números que o modelo aprendeu no treino",
+     "em": "pesos",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "EX.: LLAMA",
+     "icone": "check",
+     "cor": "amarelo",
+     "em": "Llama",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "multimodal",
+   "texto": "E multimodal? É entender mais de um tipo de dado, como texto e imagem. Todos os Claude atuais aceitam os dois.",
+   "fontes": [
+    "Anthropic — Models overview"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "MULTIMODAL",
+     "significado": "Entende texto, imagem e mais de um tipo de dado",
+     "em": "multimodal",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "TEXTO"
+      ],
+      [
+       "mais",
+       ""
+      ],
+      [
+       "celular",
+       "IMAGEM"
+      ]
+     ],
+     "em": "texto",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "CLAUDE ACEITA TEXTO E IMAGEM",
+     "nota": "Todos os modelos atuais",
+     "em": "Todos",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "familia",
+   "texto": "Agora a família Claude. Haiku 5.5 é o mais rápido, para tarefas simples em volume. Sonnet 5.5 une velocidade e inteligência. Opus 5.5 é para trabalho longo, como programar. Fable 5.1 é o mais forte, para raciocínio difícil.",
+   "fundo": "anthropic",
+   "fontes": [
+    "Anthropic — Models overview"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FAMÍLIA CLAUDE",
+     "sub": "OUTUBRO DE 2026",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "HAIKU 5.5 · RÁPIDO",
+     "icone": "relogio",
+     "cor": "verde",
+     "em": "Haiku",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SONNET 5.5 · EQUILÍBRIO",
+     "icone": "balanca",
+     "cor": "azul",
+     "em": "Sonnet",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "OPUS 5.5 · TRABALHO LONGO",
+     "icone": "obra",
+     "cor": "roxo",
+     "em": "Opus",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FABLE 5.1 · MAIS FORTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Fable",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "precos",
+   "texto": "Isso aparece no preço. Por milhão de tokens de entrada: Haiku, a partir de 10 centavos de dólar. Sonnet, 2 dólares. Opus, 4. Fable, 10.",
+   "fontes": [
+    "Anthropic — Pricing, out. 2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PREÇO POR MILHÃO",
+     "sub": "TOKENS DE ENTRADA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 10,
+     "unidade": " US$",
+     "rotulo": "FABLE 5.1",
+     "em": "Fable",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "HAIKU: DE US$ 0,10",
+     "icone": "dinheiro",
+     "cor": "verde",
+     "em": "Haiku",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SONNET: US$ 2",
+     "icone": "dinheiro",
+     "cor": "azul",
+     "em": "Sonnet",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "OPUS: US$ 4",
+     "icone": "dinheiro",
+     "cor": "roxo",
+     "em": "Opus",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: achar que o maior modelo é sempre o melhor. Para tarefa simples, o Haiku responde mais rápido e custa menos. Escolha pela tarefa.",
+   "fontes": [
+    "Anthropic — Models overview"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "Erro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "O MAIOR É SEMPRE O MELHOR",
+     "nota": "Mais caro e mais lento",
+     "em": "maior",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "ESCOLHA PELA TAREFA",
+     "nota": "Haiku para o simples",
+     "em": "Haiku",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: pense em três tarefas suas e diga qual Claude combina com cada uma.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL CLAUDE PARA CADA TAREFA?",
+     "em": "três",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Comenta aí as suas 3 tarefas!",
+     "em": "combina",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo: cada empresa tem seus modelos. Fechado esconde a receita, aberto mostra. E no Claude, escolha pela tarefa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "predio",
+       "CADA EMPRESA"
+      ],
+      [
+       "cruz",
+       "FECHADO × ABERTO"
+      ],
+      [
+       "alvo",
+       "PELA TAREFA"
+      ]
+     ],
+     "em": "cada",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "ABERTO MOSTRA A RECEITA",
+     "nota": "Pesos abertos",
+     "em": "mostra",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: um modelo que classifica milhares de e-mails por minuto. Haiku ou Fable? Pensou? É o Haiku: rápido e barato para volume. Na próxima aula, prompts.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "CLASSIFICAR MILHARES DE E-MAILS?",
+     "opcoes": [
+      "1 · HAIKU",
+      "2 · FABLE"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "HAIKU!",
+     "cor": "verde",
+     "em": "Pensou",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 1.6",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "6d7a9aa91a",
+   "texto": "Claude, ChatGPT, Gemini, Llama. Qual deles é o melhor? Calma: a pergunta certa é outra. Hoje você monta o mapa.",
+   "audio": "audio/gancho-6d7a9aa91a.mp3",
+   "duracao": 10.752,
+   "palavras": [
+    {
+     "p": "Claude",
+     "i": 0.098,
+     "f": 0.526
+    },
+    {
+     "p": "ChatGPT",
+     "i": 0.764,
+     "f": 1.705
+    },
+    {
+     "p": "Gemini",
+     "i": 1.931,
+     "f": 2.395
+    },
+    {
+     "p": "Llama",
+     "i": 2.61,
+     "f": 2.979
+    },
+    {
+     "p": "Qual",
+     "i": 3.798,
+     "f": 4.048
+    },
+    {
+     "p": "deles",
+     "i": 4.06,
+     "f": 4.369
+    },
+    {
+     "p": "é",
+     "i": 4.381,
+     "f": 4.524
+    },
+    {
+     "p": "o",
+     "i": 4.536,
+     "f": 4.571
+    },
+    {
+     "p": "melhor",
+     "i": 4.583,
+     "f": 4.952
+    },
+    {
+     "p": "Calma",
+     "i": 5.774,
+     "f": 6.143
+    },
+    {
+     "p": "a",
+     "i": 6.345,
+     "f": 6.417
+    },
+    {
+     "p": "pergunta",
+     "i": 6.429,
+     "f": 6.917
+    },
+    {
+     "p": "certa",
+     "i": 6.929,
+     "f": 7.286
+    },
+    {
+     "p": "é",
+     "i": 7.298,
+     "f": 7.369
+    },
+    {
+     "p": "outra",
+     "i": 7.381,
+     "f": 7.75
+    },
+    {
+     "p": "Hoje",
+     "i": 8.571,
+     "f": 8.893
+    },
+    {
+     "p": "você",
+     "i": 8.905,
+     "f": 9.179
+    },
+    {
+     "p": "monta",
+     "i": 9.19,
+     "f": 9.5
+    },
+    {
+     "p": "o",
+     "i": 9.512,
+     "f": 9.536
+    },
+    {
+     "p": "mapa",
+     "i": 9.548,
+     "f": 9.917
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "2a282ee4ce",
+   "texto": "Aula 1.5. Você vai aprender três coisas: quem faz cada IA, a diferença entre modelo fechado e aberto, e qual Claude escolher.",
+   "audio": "audio/promessa-2a282ee4ce.mp3",
+   "duracao": 10.872,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "1.5",
+     "i": 0.443,
+     "f": 1.324
+    },
+    {
+     "p": "Você",
+     "i": 2.143,
+     "f": 2.488
+    },
+    {
+     "p": "vai",
+     "i": 2.5,
+     "f": 2.607
+    },
+    {
+     "p": "aprender",
+     "i": 2.619,
+     "f": 3.036
+    },
+    {
+     "p": "três",
+     "i": 3.048,
+     "f": 3.333
+    },
+    {
+     "p": "coisas",
+     "i": 3.345,
+     "f": 3.833
+    },
+    {
+     "p": "quem",
+     "i": 4.071,
+     "f": 4.298
+    },
+    {
+     "p": "faz",
+     "i": 4.31,
+     "f": 4.607
+    },
+    {
+     "p": "cada",
+     "i": 4.619,
+     "f": 4.857
+    },
+    {
+     "p": "IA",
+     "i": 4.869,
+     "f": 6.071
+    },
+    {
+     "p": "a",
+     "i": 6.31,
+     "f": 6.381
+    },
+    {
+     "p": "diferença",
+     "i": 6.393,
+     "f": 6.964
+    },
+    {
+     "p": "entre",
+     "i": 6.976,
+     "f": 7.143
+    },
+    {
+     "p": "modelo",
+     "i": 7.155,
+     "f": 7.5
+    },
+    {
+     "p": "fechado",
+     "i": 7.512,
+     "f": 7.988
+    },
+    {
+     "p": "e",
+     "i": 8,
+     "f": 8.048
+    },
+    {
+     "p": "aberto",
+     "i": 8.06,
+     "f": 8.583
+    },
+    {
+     "p": "e",
+     "i": 8.905,
+     "f": 9
+    },
+    {
+     "p": "qual",
+     "i": 9.012,
+     "f": 9.262
+    },
+    {
+     "p": "Claude",
+     "i": 9.274,
+     "f": 9.583
+    },
+    {
+     "p": "escolher",
+     "i": 9.595,
+     "f": 10.036
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "6490dfb094",
+   "texto": "Um modelo é o cérebro treinado por trás do chatbot. A Anthropic faz o Claude. A OpenAI faz o ChatGPT. O Google faz o Gemini. A Meta faz o Llama.",
+   "audio": "audio/conceito-6490dfb094.mp3",
+   "duracao": 13.08,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "modelo",
+     "i": 0.229,
+     "f": 0.681
+    },
+    {
+     "p": "é",
+     "i": 0.693,
+     "f": 0.764
+    },
+    {
+     "p": "o",
+     "i": 0.776,
+     "f": 0.836
+    },
+    {
+     "p": "cérebro",
+     "i": 0.848,
+     "f": 1.324
+    },
+    {
+     "p": "treinado",
+     "i": 1.336,
+     "f": 1.812
+    },
+    {
+     "p": "por",
+     "i": 1.824,
+     "f": 1.99
+    },
+    {
+     "p": "trás",
+     "i": 2.002,
+     "f": 2.3
+    },
+    {
+     "p": "do",
+     "i": 2.312,
+     "f": 2.431
+    },
+    {
+     "p": "chatbot",
+     "i": 2.443,
+     "f": 3.157
+    },
+    {
+     "p": "A",
+     "i": 3.976,
+     "f": 4.071
+    },
+    {
+     "p": "Anthropic",
+     "i": 4.083,
+     "f": 4.643
+    },
+    {
+     "p": "faz",
+     "i": 4.655,
+     "f": 4.833
+    },
+    {
+     "p": "o",
+     "i": 4.845,
+     "f": 4.988
+    },
+    {
+     "p": "Claude",
+     "i": 5,
+     "f": 5.393
+    },
+    {
+     "p": "A",
+     "i": 6.214,
+     "f": 6.357
+    },
+    {
+     "p": "OpenAI",
+     "i": 6.369,
+     "f": 6.929
+    },
+    {
+     "p": "faz",
+     "i": 6.94,
+     "f": 7.107
+    },
+    {
+     "p": "o",
+     "i": 7.119,
+     "f": 7.226
+    },
+    {
+     "p": "ChatGPT",
+     "i": 7.238,
+     "f": 8.155
+    },
+    {
+     "p": "O",
+     "i": 8.976,
+     "f": 9.095
+    },
+    {
+     "p": "Google",
+     "i": 9.107,
+     "f": 9.464
+    },
+    {
+     "p": "faz",
+     "i": 9.476,
+     "f": 9.702
+    },
+    {
+     "p": "o",
+     "i": 9.714,
+     "f": 9.845
+    },
+    {
+     "p": "Gemini",
+     "i": 9.857,
+     "f": 10.321
+    },
+    {
+     "p": "A",
+     "i": 11.143,
+     "f": 11.25
+    },
+    {
+     "p": "Meta",
+     "i": 11.262,
+     "f": 11.583
+    },
+    {
+     "p": "faz",
+     "i": 11.595,
+     "f": 11.774
+    },
+    {
+     "p": "o",
+     "i": 11.786,
+     "f": 11.905
+    },
+    {
+     "p": "Llama",
+     "i": 11.917,
+     "f": 12.262
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "9151fbd42a",
+   "texto": "Modelo fechado é como um restaurante: você come o prato pronto, mas não vê a receita. Modelo aberto entrega a receita: você baixa os pesos, que são os números aprendidos, e roda no seu computador. O Llama é o exemplo mais conhecido.",
+   "audio": "audio/analogia-9151fbd42a.mp3",
+   "duracao": 16.032,
+   "palavras": [
+    {
+     "p": "Modelo",
+     "i": 0.098,
+     "f": 0.562
+    },
+    {
+     "p": "fechado",
+     "i": 0.574,
+     "f": 1.038
+    },
+    {
+     "p": "é",
+     "i": 1.05,
+     "f": 1.11
+    },
+    {
+     "p": "como",
+     "i": 1.121,
+     "f": 1.324
+    },
+    {
+     "p": "um",
+     "i": 1.336,
+     "f": 1.383
+    },
+    {
+     "p": "restaurante",
+     "i": 1.395,
+     "f": 2.062
+    },
+    {
+     "p": "você",
+     "i": 2.383,
+     "f": 2.645
+    },
+    {
+     "p": "come",
+     "i": 2.657,
+     "f": 2.871
+    },
+    {
+     "p": "o",
+     "i": 2.883,
+     "f": 2.931
+    },
+    {
+     "p": "prato",
+     "i": 2.943,
+     "f": 3.264
+    },
+    {
+     "p": "pronto",
+     "i": 3.276,
+     "f": 3.633
+    },
+    {
+     "p": "mas",
+     "i": 3.907,
+     "f": 4.133
+    },
+    {
+     "p": "não",
+     "i": 4.145,
+     "f": 4.336
+    },
+    {
+     "p": "vê",
+     "i": 4.348,
+     "f": 4.514
+    },
+    {
+     "p": "a",
+     "i": 4.526,
+     "f": 4.562
+    },
+    {
+     "p": "receita",
+     "i": 4.574,
+     "f": 5.086
+    },
+    {
+     "p": "Modelo",
+     "i": 5.905,
+     "f": 6.345
+    },
+    {
+     "p": "aberto",
+     "i": 6.357,
+     "f": 6.714
+    },
+    {
+     "p": "entrega",
+     "i": 6.726,
+     "f": 7.06
+    },
+    {
+     "p": "a",
+     "i": 7.071,
+     "f": 7.083
+    },
+    {
+     "p": "receita",
+     "i": 7.095,
+     "f": 7.571
+    },
+    {
+     "p": "você",
+     "i": 7.929,
+     "f": 8.19
+    },
+    {
+     "p": "baixa",
+     "i": 8.202,
+     "f": 8.536
+    },
+    {
+     "p": "os",
+     "i": 8.548,
+     "f": 8.655
+    },
+    {
+     "p": "pesos",
+     "i": 8.667,
+     "f": 9.083
+    },
+    {
+     "p": "que",
+     "i": 9.298,
+     "f": 9.441
+    },
+    {
+     "p": "são",
+     "i": 9.452,
+     "f": 9.667
+    },
+    {
+     "p": "os",
+     "i": 9.679,
+     "f": 9.786
+    },
+    {
+     "p": "números",
+     "i": 9.798,
+     "f": 10.119
+    },
+    {
+     "p": "aprendidos",
+     "i": 10.131,
+     "f": 10.821
+    },
+    {
+     "p": "e",
+     "i": 11.095,
+     "f": 11.179
+    },
+    {
+     "p": "roda",
+     "i": 11.19,
+     "f": 11.536
+    },
+    {
+     "p": "no",
+     "i": 11.548,
+     "f": 11.643
+    },
+    {
+     "p": "seu",
+     "i": 11.655,
+     "f": 11.833
+    },
+    {
+     "p": "computador",
+     "i": 11.845,
+     "f": 12.441
+    },
+    {
+     "p": "O",
+     "i": 13.262,
+     "f": 13.369
+    },
+    {
+     "p": "Llama",
+     "i": 13.381,
+     "f": 13.714
+    },
+    {
+     "p": "é",
+     "i": 13.726,
+     "f": 13.774
+    },
+    {
+     "p": "o",
+     "i": 13.786,
+     "f": 13.857
+    },
+    {
+     "p": "exemplo",
+     "i": 13.869,
+     "f": 14.309
+    },
+    {
+     "p": "mais",
+     "i": 14.321,
+     "f": 14.571
+    },
+    {
+     "p": "conhecido",
+     "i": 14.583,
+     "f": 15.19
+    }
+   ]
+  },
+  "multimodal": {
+   "hash": "478828bec3",
+   "texto": "E multimodal? É entender mais de um tipo de dado, como texto e imagem. Todos os Claude atuais aceitam os dois.",
+   "audio": "audio/multimodal-478828bec3.mp3",
+   "duracao": 8.856,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.098,
+     "f": 0.205
+    },
+    {
+     "p": "multimodal",
+     "i": 0.217,
+     "f": 0.955
+    },
+    {
+     "p": "É",
+     "i": 1.774,
+     "f": 1.869
+    },
+    {
+     "p": "entender",
+     "i": 1.881,
+     "f": 2.381
+    },
+    {
+     "p": "mais",
+     "i": 2.393,
+     "f": 2.679
+    },
+    {
+     "p": "de",
+     "i": 2.69,
+     "f": 2.75
+    },
+    {
+     "p": "um",
+     "i": 2.762,
+     "f": 2.857
+    },
+    {
+     "p": "tipo",
+     "i": 2.869,
+     "f": 3.131
+    },
+    {
+     "p": "de",
+     "i": 3.143,
+     "f": 3.25
+    },
+    {
+     "p": "dado",
+     "i": 3.262,
+     "f": 3.571
+    },
+    {
+     "p": "como",
+     "i": 3.869,
+     "f": 4.131
+    },
+    {
+     "p": "texto",
+     "i": 4.143,
+     "f": 4.548
+    },
+    {
+     "p": "e",
+     "i": 4.56,
+     "f": 4.595
+    },
+    {
+     "p": "imagem",
+     "i": 4.607,
+     "f": 5.059
+    },
+    {
+     "p": "Todos",
+     "i": 5.881,
+     "f": 6.214
+    },
+    {
+     "p": "os",
+     "i": 6.226,
+     "f": 6.381
+    },
+    {
+     "p": "Claude",
+     "i": 6.393,
+     "f": 6.679
+    },
+    {
+     "p": "atuais",
+     "i": 6.69,
+     "f": 7.024
+    },
+    {
+     "p": "aceitam",
+     "i": 7.036,
+     "f": 7.488
+    },
+    {
+     "p": "os",
+     "i": 7.5,
+     "f": 7.595
+    },
+    {
+     "p": "dois",
+     "i": 7.607,
+     "f": 8.036
+    }
+   ]
+  },
+  "familia": {
+   "hash": "99f801c91a",
+   "texto": "Agora a família Claude. Haiku 5.5 é o mais rápido, para tarefas simples em volume. Sonnet 5.5 une velocidade e inteligência. Opus 5.5 é para trabalho longo, como programar. Fable 5.1 é o mais forte, para raciocínio difícil.",
+   "audio": "audio/familia-99f801c91a.mp3",
+   "duracao": 19.44,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.098,
+     "f": 0.514
+    },
+    {
+     "p": "a",
+     "i": 0.526,
+     "f": 0.562
+    },
+    {
+     "p": "família",
+     "i": 0.574,
+     "f": 0.979
+    },
+    {
+     "p": "Claude",
+     "i": 0.99,
+     "f": 1.395
+    },
+    {
+     "p": "Haiku",
+     "i": 2.214,
+     "f": 2.524
+    },
+    {
+     "p": "5.5 é",
+     "i": 2.536,
+     "f": 3.655
+    },
+    {
+     "p": "o",
+     "i": 3.667,
+     "f": 3.702
+    },
+    {
+     "p": "mais",
+     "i": 3.714,
+     "f": 3.917
+    },
+    {
+     "p": "rápido",
+     "i": 3.929,
+     "f": 4.333
+    },
+    {
+     "p": "para",
+     "i": 4.571,
+     "f": 4.774
+    },
+    {
+     "p": "tarefas",
+     "i": 4.786,
+     "f": 5.25
+    },
+    {
+     "p": "simples",
+     "i": 5.262,
+     "f": 5.631
+    },
+    {
+     "p": "em",
+     "i": 5.643,
+     "f": 5.762
+    },
+    {
+     "p": "volume",
+     "i": 5.774,
+     "f": 6.262
+    },
+    {
+     "p": "Sonnet",
+     "i": 7.083,
+     "f": 7.524
+    },
+    {
+     "p": "5.5 une",
+     "i": 7.536,
+     "f": 8.667
+    },
+    {
+     "p": "velocidade",
+     "i": 8.679,
+     "f": 9.321
+    },
+    {
+     "p": "e",
+     "i": 9.333,
+     "f": 9.345
+    },
+    {
+     "p": "inteligência",
+     "i": 9.357,
+     "f": 10.048
+    },
+    {
+     "p": "Opus",
+     "i": 10.869,
+     "f": 11.309
+    },
+    {
+     "p": "5.5 é",
+     "i": 11.321,
+     "f": 12.393
+    },
+    {
+     "p": "para",
+     "i": 12.405,
+     "f": 12.607
+    },
+    {
+     "p": "trabalho",
+     "i": 12.619,
+     "f": 12.976
+    },
+    {
+     "p": "longo",
+     "i": 12.988,
+     "f": 13.357
+    },
+    {
+     "p": "como",
+     "i": 13.631,
+     "f": 13.881
+    },
+    {
+     "p": "programar",
+     "i": 13.893,
+     "f": 14.369
+    },
+    {
+     "p": "Fable",
+     "i": 15.19,
+     "f": 15.571
+    },
+    {
+     "p": "5.1 é",
+     "i": 15.583,
+     "f": 16.429
+    },
+    {
+     "p": "o",
+     "i": 16.44,
+     "f": 16.476
+    },
+    {
+     "p": "mais",
+     "i": 16.488,
+     "f": 16.679
+    },
+    {
+     "p": "forte",
+     "i": 16.69,
+     "f": 17.095
+    },
+    {
+     "p": "para",
+     "i": 17.333,
+     "f": 17.524
+    },
+    {
+     "p": "raciocínio",
+     "i": 17.536,
+     "f": 18.095
+    },
+    {
+     "p": "difícil",
+     "i": 18.107,
+     "f": 18.619
+    }
+   ]
+  },
+  "precos": {
+   "hash": "c0c8b7cd35",
+   "texto": "Isso aparece no preço. Por milhão de tokens de entrada: Haiku, a partir de 10 centavos de dólar. Sonnet, 2 dólares. Opus, 4. Fable, 10.",
+   "audio": "audio/precos-c0c8b7cd35.mp3",
+   "duracao": 14.064,
+   "palavras": [
+    {
+     "p": "Isso",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "aparece",
+     "i": 0.407,
+     "f": 0.931
+    },
+    {
+     "p": "no",
+     "i": 0.943,
+     "f": 1.05
+    },
+    {
+     "p": "preço",
+     "i": 1.062,
+     "f": 1.49
+    },
+    {
+     "p": "Por",
+     "i": 2.31,
+     "f": 2.476
+    },
+    {
+     "p": "milhão",
+     "i": 2.488,
+     "f": 2.845
+    },
+    {
+     "p": "de",
+     "i": 2.857,
+     "f": 2.988
+    },
+    {
+     "p": "tokens",
+     "i": 3,
+     "f": 3.393
+    },
+    {
+     "p": "de",
+     "i": 3.405,
+     "f": 3.464
+    },
+    {
+     "p": "entrada",
+     "i": 3.476,
+     "f": 3.94
+    },
+    {
+     "p": "Haiku",
+     "i": 4.119,
+     "f": 4.524
+    },
+    {
+     "p": "a",
+     "i": 4.81,
+     "f": 4.893
+    },
+    {
+     "p": "partir",
+     "i": 4.905,
+     "f": 5.298
+    },
+    {
+     "p": "de",
+     "i": 5.31,
+     "f": 5.44
+    },
+    {
+     "p": "10 centavos",
+     "i": 5.452,
+     "f": 6.262
+    },
+    {
+     "p": "de",
+     "i": 6.274,
+     "f": 6.381
+    },
+    {
+     "p": "dólar",
+     "i": 6.393,
+     "f": 6.738
+    },
+    {
+     "p": "Sonnet",
+     "i": 7.56,
+     "f": 8.048
+    },
+    {
+     "p": "2 dólares",
+     "i": 8.286,
+     "f": 9.155
+    },
+    {
+     "p": "Opus",
+     "i": 9.976,
+     "f": 10.488
+    },
+    {
+     "p": "4",
+     "i": 10.762,
+     "f": 11.179
+    },
+    {
+     "p": "Fable",
+     "i": 12,
+     "f": 12.512
+    },
+    {
+     "p": "10",
+     "i": 12.75,
+     "f": 13.226
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "04f1cc010c",
+   "texto": "Erro comum: achar que o maior modelo é sempre o melhor. Para tarefa simples, o Haiku responde mais rápido e custa menos. Escolha pela tarefa.",
+   "audio": "audio/erro-comum-04f1cc010c.mp3",
+   "duracao": 10.392,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.348
+    },
+    {
+     "p": "comum",
+     "i": 0.36,
+     "f": 0.74
+    },
+    {
+     "p": "achar",
+     "i": 1.002,
+     "f": 1.336
+    },
+    {
+     "p": "que",
+     "i": 1.348,
+     "f": 1.419
+    },
+    {
+     "p": "o",
+     "i": 1.431,
+     "f": 1.455
+    },
+    {
+     "p": "maior",
+     "i": 1.467,
+     "f": 1.74
+    },
+    {
+     "p": "modelo",
+     "i": 1.752,
+     "f": 2.181
+    },
+    {
+     "p": "é",
+     "i": 2.193,
+     "f": 2.229
+    },
+    {
+     "p": "sempre",
+     "i": 2.24,
+     "f": 2.657
+    },
+    {
+     "p": "o",
+     "i": 2.669,
+     "f": 2.693
+    },
+    {
+     "p": "melhor",
+     "i": 2.705,
+     "f": 3.062
+    },
+    {
+     "p": "Para",
+     "i": 3.881,
+     "f": 4.095
+    },
+    {
+     "p": "tarefa",
+     "i": 4.107,
+     "f": 4.488
+    },
+    {
+     "p": "simples",
+     "i": 4.5,
+     "f": 5.012
+    },
+    {
+     "p": "o",
+     "i": 5.25,
+     "f": 5.321
+    },
+    {
+     "p": "Haiku",
+     "i": 5.333,
+     "f": 5.583
+    },
+    {
+     "p": "responde",
+     "i": 5.595,
+     "f": 6.048
+    },
+    {
+     "p": "mais",
+     "i": 6.06,
+     "f": 6.274
+    },
+    {
+     "p": "rápido",
+     "i": 6.286,
+     "f": 6.643
+    },
+    {
+     "p": "e",
+     "i": 6.655,
+     "f": 6.702
+    },
+    {
+     "p": "custa",
+     "i": 6.714,
+     "f": 7.024
+    },
+    {
+     "p": "menos",
+     "i": 7.036,
+     "f": 7.464
+    },
+    {
+     "p": "Escolha",
+     "i": 8.286,
+     "f": 8.798
+    },
+    {
+     "p": "pela",
+     "i": 8.81,
+     "f": 9.036
+    },
+    {
+     "p": "tarefa",
+     "i": 9.048,
+     "f": 9.571
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "88cd3b3b44",
+   "texto": "Pause o vídeo e tente: pense em três tarefas suas e diga qual Claude combina com cada uma.",
+   "audio": "audio/pratica-88cd3b3b44.mp3",
+   "duracao": 5.688,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "o",
+     "i": 0.407,
+     "f": 0.455
+    },
+    {
+     "p": "vídeo",
+     "i": 0.467,
+     "f": 0.764
+    },
+    {
+     "p": "e",
+     "i": 0.776,
+     "f": 0.848
+    },
+    {
+     "p": "tente",
+     "i": 0.86,
+     "f": 1.205
+    },
+    {
+     "p": "pense",
+     "i": 1.467,
+     "f": 1.752
+    },
+    {
+     "p": "em",
+     "i": 1.764,
+     "f": 1.86
+    },
+    {
+     "p": "três",
+     "i": 1.871,
+     "f": 2.109
+    },
+    {
+     "p": "tarefas",
+     "i": 2.121,
+     "f": 2.538
+    },
+    {
+     "p": "suas",
+     "i": 2.55,
+     "f": 2.717
+    },
+    {
+     "p": "e",
+     "i": 2.729,
+     "f": 2.848
+    },
+    {
+     "p": "diga",
+     "i": 2.86,
+     "f": 3.11
+    },
+    {
+     "p": "qual",
+     "i": 3.121,
+     "f": 3.336
+    },
+    {
+     "p": "Claude",
+     "i": 3.348,
+     "f": 3.669
+    },
+    {
+     "p": "combina",
+     "i": 3.681,
+     "f": 4.133
+    },
+    {
+     "p": "com",
+     "i": 4.145,
+     "f": 4.324
+    },
+    {
+     "p": "cada",
+     "i": 4.336,
+     "f": 4.586
+    },
+    {
+     "p": "uma",
+     "i": 4.598,
+     "f": 4.86
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "1e873561d3",
+   "texto": "Resumo: cada empresa tem seus modelos. Fechado esconde a receita, aberto mostra. E no Claude, escolha pela tarefa.",
+   "audio": "audio/resumo-1e873561d3.mp3",
+   "duracao": 9.648,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.681
+    },
+    {
+     "p": "cada",
+     "i": 0.99,
+     "f": 1.205
+    },
+    {
+     "p": "empresa",
+     "i": 1.217,
+     "f": 1.669
+    },
+    {
+     "p": "tem",
+     "i": 1.681,
+     "f": 1.824
+    },
+    {
+     "p": "seus",
+     "i": 1.836,
+     "f": 2.026
+    },
+    {
+     "p": "modelos",
+     "i": 2.038,
+     "f": 2.633
+    },
+    {
+     "p": "Fechado",
+     "i": 3.452,
+     "f": 3.976
+    },
+    {
+     "p": "esconde",
+     "i": 3.988,
+     "f": 4.333
+    },
+    {
+     "p": "a",
+     "i": 4.345,
+     "f": 4.369
+    },
+    {
+     "p": "receita",
+     "i": 4.381,
+     "f": 4.869
+    },
+    {
+     "p": "aberto",
+     "i": 5.048,
+     "f": 5.464
+    },
+    {
+     "p": "mostra",
+     "i": 5.476,
+     "f": 5.94
+    },
+    {
+     "p": "E",
+     "i": 6.762,
+     "f": 6.869
+    },
+    {
+     "p": "no",
+     "i": 6.881,
+     "f": 7
+    },
+    {
+     "p": "Claude",
+     "i": 7.012,
+     "f": 7.429
+    },
+    {
+     "p": "escolha",
+     "i": 7.631,
+     "f": 8.095
+    },
+    {
+     "p": "pela",
+     "i": 8.107,
+     "f": 8.321
+    },
+    {
+     "p": "tarefa",
+     "i": 8.333,
+     "f": 8.821
+    }
+   ]
+  },
+  "final": {
+   "hash": "36614cf346",
+   "texto": "Quiz: um modelo que classifica milhares de e-mails por minuto. Haiku ou Fable? Pensou? É o Haiku: rápido e barato para volume. Na próxima aula, prompts.",
+   "audio": "audio/final-36614cf346.mp3",
+   "duracao": 13.176,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "um",
+     "i": 0.8,
+     "f": 0.895
+    },
+    {
+     "p": "modelo",
+     "i": 0.907,
+     "f": 1.324
+    },
+    {
+     "p": "que",
+     "i": 1.336,
+     "f": 1.431
+    },
+    {
+     "p": "classifica",
+     "i": 1.443,
+     "f": 1.99
+    },
+    {
+     "p": "milhares",
+     "i": 2.002,
+     "f": 2.419
+    },
+    {
+     "p": "de",
+     "i": 2.431,
+     "f": 2.502
+    },
+    {
+     "p": "e-mails",
+     "i": 2.514,
+     "f": 2.883
+    },
+    {
+     "p": "por",
+     "i": 2.895,
+     "f": 3.05
+    },
+    {
+     "p": "minuto",
+     "i": 3.062,
+     "f": 3.455
+    },
+    {
+     "p": "Haiku",
+     "i": 4.274,
+     "f": 4.583
+    },
+    {
+     "p": "ou",
+     "i": 4.595,
+     "f": 4.702
+    },
+    {
+     "p": "Fable",
+     "i": 4.714,
+     "f": 5.155
+    },
+    {
+     "p": "Pensou",
+     "i": 5.976,
+     "f": 6.536
+    },
+    {
+     "p": "É",
+     "i": 7.357,
+     "f": 7.476
+    },
+    {
+     "p": "o",
+     "i": 7.488,
+     "f": 7.536
+    },
+    {
+     "p": "Haiku",
+     "i": 7.548,
+     "f": 7.929
+    },
+    {
+     "p": "rápido",
+     "i": 8.119,
+     "f": 8.548
+    },
+    {
+     "p": "e",
+     "i": 8.56,
+     "f": 8.583
+    },
+    {
+     "p": "barato",
+     "i": 8.595,
+     "f": 9.024
+    },
+    {
+     "p": "para",
+     "i": 9.036,
+     "f": 9.202
+    },
+    {
+     "p": "volume",
+     "i": 9.214,
+     "f": 9.702
+    },
+    {
+     "p": "Na",
+     "i": 10.524,
+     "f": 10.714
+    },
+    {
+     "p": "próxima",
+     "i": 10.726,
+     "f": 11.155
+    },
+    {
+     "p": "aula",
+     "i": 11.167,
+     "f": 11.548
+    },
+    {
+     "p": "prompts",
+     "i": 11.738,
+     "f": 12.345
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "openai": {
+   "arquivo": "",
+   "rotulo": "OpenAI",
+   "wiki": "OpenAI"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.940Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Models overview (modelos, preços e janela de contexto)",
+   "url": "https://platform.claude.com/docs/en/models/overview"
+  },
+  {
+   "titulo": "Anthropic — Pricing",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "lista"
  }
 }
