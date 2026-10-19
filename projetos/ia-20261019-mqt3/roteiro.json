@@ -1,0 +1,79 @@
+{
+  "titulo": "IA, machine learning e IA generativa",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Science History Institute — Dartmouth Summer Research Project: the birth of AI", "url": "https://www.historyofdatascience.com/dartmouth-summer-research-project-the-birth-of-artificial-intelligence/" }
+  ],
+  "cenas": [
+    { "id": "gancho",
+      "texto": "Spam, Netflix e Claude são tudo inteligência artificial? Sim, mas não são a mesma coisa. Hoje você vai entender a diferença.",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "TUDO É IA?", "em": "Spam", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["documento", "SPAM"], ["seta", ""], ["balao", "CLAUDE"]], "em": "Netflix", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "NÃO É A MESMA COISA", "cor": "vermelho", "em": "mesma" }
+      ] },
+    { "id": "promessa",
+      "texto": "Aula 1.1. Nesta aula você vai aprender três coisas: o que é IA, o que é machine learning, que significa aprendizado de máquina, e o que é IA generativa.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE É IA?", "sub": "AULA 1.1", "em": "Aula", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["obra", "IA"], ["documento", "MACHINE LEARNING"], ["mais", "GENERATIVA"]], "em": "três", "posicao": "meio" }
+      ] },
+    { "id": "conceito",
+      "texto": "Pense em círculos dentro de círculos. O maior é a inteligência artificial: máquinas que fazem tarefas que parecem exigir inteligência humana. O termo nasceu em 1956, numa conferência em Dartmouth, nos Estados Unidos. Dentro dele está o machine learning: o computador aprende com exemplos, sem regras escritas à mão.",
+      "fundo": "dartmouth",
+      "fontes": ["Science History Institute"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CÍRCULOS DE IA", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Inteligência artificial", "significado": "Máquinas que fazem tarefas que parecem exigir inteligência humana", "em": "maior", "posicao": "alto" },
+        { "tipo": "tag", "texto": "DARTMOUTH, 1956", "icone": "pin", "em": "1956", "posicao": "meio" },
+        { "tipo": "definicao", "palavra": "Machine learning", "significado": "O computador aprende com exemplos, sem regras escritas à mão", "em": "machine", "posicao": "alto2" }
+      ] },
+    { "id": "analogia",
+      "texto": "Dentro do machine learning mora o deep learning, ou aprendizado profundo: redes neurais com muitas camadas. E no centro, a IA generativa, que cria texto, imagem e áudio novos. Como bonecas russas: cada uma cabe dentro da maior.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "BONECAS RUSSAS", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Deep learning", "significado": "Aprendizado profundo: redes neurais com muitas camadas", "em": "deep", "posicao": "alto" },
+        { "tipo": "tag", "texto": "IA GENERATIVA", "icone": "mais", "cor": "roxo", "em": "generativa", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["obra", "IA"], ["seta", ""], ["mais", "GERA"]], "em": "bonecas", "posicao": "meio2" }
+      ] },
+    { "id": "exemplo",
+      "texto": "Exemplos do dia a dia. O filtro de spam aprende com e-mails marcados como lixo: isso é machine learning. A Netflix sugere séries pelo que você já assistiu: também. E quando o Claude escreve um texto novo para você, isso é IA generativa. Olha o pedido que digitei no Claude.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "NO DIA A DIA", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": true, "texto": "FILTRO DE SPAM", "nota": "Machine learning: aprende com e-mails marcados", "em": "filtro", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "NETFLIX", "nota": "Machine learning: sugere pelo que você viu", "em": "Netflix", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "CLAUDE = GENERATIVA", "icone": "check", "cor": "roxo", "em": "Claude", "posicao": "meio" },
+        { "tipo": "comentario", "texto": "Claude, explique o que é spam em duas frases.", "em": "pedido", "posicao": "meio2" }
+      ] },
+    { "id": "erro-comum",
+      "texto": "Erro comum: achar que IA e ChatGPT são a mesma coisa. ChatGPT e Claude são só um tipo de IA, a generativa. Tem IA que não conversa, como o filtro de spam.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "Erro", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "IA = CHATGPT", "nota": "Chatbots são só um tipo de IA", "em": "ChatGPT", "posicao": "meio" },
+        { "tipo": "tag", "texto": "TEM IA QUE NÃO CONVERSA", "icone": "alerta", "em": "Tem", "posicao": "meio2" }
+      ] },
+    { "id": "pratica",
+      "texto": "Pause o vídeo e tente: escolha três apps do seu celular e diga em qual círculo cada um se encaixa. Depois comente o que achou.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "QUAL CÍRCULO?", "em": "círculo", "posicao": "meio" },
+        { "tipo": "comentario", "texto": "Comenta aí os 3 apps!", "em": "comente", "posicao": "meio2" }
+      ] },
+    { "id": "resumo",
+      "texto": "Resumo. Primeiro: IA é o círculo maior. Segundo: machine learning e deep learning aprendem com dados. Terceiro: IA generativa cria conteúdo novo.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["obra", "IA"], ["documento", "APRENDE"], ["mais", "CRIA"]], "em": "Primeiro", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "3 IDEIAS", "cor": "verde", "em": "Terceiro" }
+      ] },
+    { "id": "final",
+      "texto": "Quiz: o filtro de spam é machine learning ou IA generativa? Pense um segundo. Resposta: machine learning, porque ele classifica e-mails, não cria nada novo. Na próxima aula, veja como um LLM funciona por dentro.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "FILTRO DE SPAM É...", "opcoes": ["Machine learning", "IA generativa"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "MACHINE LEARNING", "cor": "verde", "em": "Resposta" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 1.2", "em": "próxima", "posicao": "meio2" }
+      ] }
+  ]
+}

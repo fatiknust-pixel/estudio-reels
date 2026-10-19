@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-mqt3",
- "titulo": "Aula 1.1: O que é IA e IA generativa — explique para iniciantes a dife",
+ "titulo": "IA, machine learning e IA generativa",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.938Z",
- "atualizadoEm": "2026-10-19T22:26:17.938Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:28:59Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 1.1: O que é IA e IA generativa — explique para iniciantes a diferença entre inteligência artificial, machine learning, deep learning e IA generativa usando círculos dentro de círculos, com exemplos do dia a dia (filtro de spam, Netflix, Claude escrevendo um texto)",
@@ -61,11 +62,1934 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Spam, Netflix e Claude são tudo inteligência artificial? Sim, mas não são a mesma coisa. Hoje você vai entender a diferença.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "TUDO É IA?",
+     "em": "Spam",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "SPAM"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balao",
+       "CLAUDE"
+      ]
+     ],
+     "em": "Netflix",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO É A MESMA COISA",
+     "cor": "vermelho",
+     "em": "mesma"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 1.1. Nesta aula você vai aprender três coisas: o que é IA, o que é machine learning, que significa aprendizado de máquina, e o que é IA generativa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE É IA?",
+     "sub": "AULA 1.1",
+     "em": "Aula",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "obra",
+       "IA"
+      ],
+      [
+       "documento",
+       "MACHINE LEARNING"
+      ],
+      [
+       "mais",
+       "GENERATIVA"
+      ]
+     ],
+     "em": "três",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Pense em círculos dentro de círculos. O maior é a inteligência artificial: máquinas que fazem tarefas que parecem exigir inteligência humana. O termo nasceu em 1956, numa conferência em Dartmouth, nos Estados Unidos. Dentro dele está o machine learning: o computador aprende com exemplos, sem regras escritas à mão.",
+   "fundo": "dartmouth",
+   "fontes": [
+    "Science History Institute"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CÍRCULOS DE IA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Inteligência artificial",
+     "significado": "Máquinas que fazem tarefas que parecem exigir inteligência humana",
+     "em": "maior",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "DARTMOUTH, 1956",
+     "icone": "pin",
+     "em": "1956",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Machine learning",
+     "significado": "O computador aprende com exemplos, sem regras escritas à mão",
+     "em": "machine",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Dentro do machine learning mora o deep learning, ou aprendizado profundo: redes neurais com muitas camadas. E no centro, a IA generativa, que cria texto, imagem e áudio novos. Como bonecas russas: cada uma cabe dentro da maior.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "BONECAS RUSSAS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Deep learning",
+     "significado": "Aprendizado profundo: redes neurais com muitas camadas",
+     "em": "deep",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "IA GENERATIVA",
+     "icone": "mais",
+     "cor": "roxo",
+     "em": "generativa",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "obra",
+       "IA"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "mais",
+       "GERA"
+      ]
+     ],
+     "em": "bonecas",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Exemplos do dia a dia. O filtro de spam aprende com e-mails marcados como lixo: isso é machine learning. A Netflix sugere séries pelo que você já assistiu: também. E quando o Claude escreve um texto novo para você, isso é IA generativa. Olha o pedido que digitei no Claude.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NO DIA A DIA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "FILTRO DE SPAM",
+     "nota": "Machine learning: aprende com e-mails marcados",
+     "em": "filtro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "NETFLIX",
+     "nota": "Machine learning: sugere pelo que você viu",
+     "em": "Netflix",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CLAUDE = GENERATIVA",
+     "icone": "check",
+     "cor": "roxo",
+     "em": "Claude",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Claude, explique o que é spam em duas frases.",
+     "em": "pedido",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: achar que IA e ChatGPT são a mesma coisa. ChatGPT e Claude são só um tipo de IA, a generativa. Tem IA que não conversa, como o filtro de spam.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "Erro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "IA = CHATGPT",
+     "nota": "Chatbots são só um tipo de IA",
+     "em": "ChatGPT",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TEM IA QUE NÃO CONVERSA",
+     "icone": "alerta",
+     "em": "Tem",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: escolha três apps do seu celular e diga em qual círculo cada um se encaixa. Depois comente o que achou.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL CÍRCULO?",
+     "em": "círculo",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Comenta aí os 3 apps!",
+     "em": "comente",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo. Primeiro: IA é o círculo maior. Segundo: machine learning e deep learning aprendem com dados. Terceiro: IA generativa cria conteúdo novo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "obra",
+       "IA"
+      ],
+      [
+       "documento",
+       "APRENDE"
+      ],
+      [
+       "mais",
+       "CRIA"
+      ]
+     ],
+     "em": "Primeiro",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "3 IDEIAS",
+     "cor": "verde",
+     "em": "Terceiro"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: o filtro de spam é machine learning ou IA generativa? Pense um segundo. Resposta: machine learning, porque ele classifica e-mails, não cria nada novo. Na próxima aula, veja como um LLM funciona por dentro.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "FILTRO DE SPAM É...",
+     "opcoes": [
+      "Machine learning",
+      "IA generativa"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MACHINE LEARNING",
+     "cor": "verde",
+     "em": "Resposta"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 1.2",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "688fde9ba9",
+   "texto": "Spam, Netflix e Claude são tudo inteligência artificial? Sim, mas não são a mesma coisa. Hoje você vai entender a diferença.",
+   "audio": "audio/gancho-688fde9ba9.mp3",
+   "duracao": 10.032,
+   "palavras": [
+    {
+     "p": "Spam",
+     "i": 0.098,
+     "f": 0.526
+    },
+    {
+     "p": "Netflix",
+     "i": 0.776,
+     "f": 1.431
+    },
+    {
+     "p": "e",
+     "i": 1.443,
+     "f": 1.538
+    },
+    {
+     "p": "Claude",
+     "i": 1.55,
+     "f": 1.871
+    },
+    {
+     "p": "são",
+     "i": 1.883,
+     "f": 2.133
+    },
+    {
+     "p": "tudo",
+     "i": 2.145,
+     "f": 2.395
+    },
+    {
+     "p": "inteligência",
+     "i": 2.407,
+     "f": 2.99
+    },
+    {
+     "p": "artificial",
+     "i": 3.002,
+     "f": 3.633
+    },
+    {
+     "p": "Sim",
+     "i": 4.452,
+     "f": 4.798
+    },
+    {
+     "p": "mas",
+     "i": 5.071,
+     "f": 5.25
+    },
+    {
+     "p": "não",
+     "i": 5.262,
+     "f": 5.417
+    },
+    {
+     "p": "são",
+     "i": 5.429,
+     "f": 5.667
+    },
+    {
+     "p": "a",
+     "i": 5.679,
+     "f": 5.702
+    },
+    {
+     "p": "mesma",
+     "i": 5.714,
+     "f": 6.036
+    },
+    {
+     "p": "coisa",
+     "i": 6.048,
+     "f": 6.429
+    },
+    {
+     "p": "Hoje",
+     "i": 7.25,
+     "f": 7.571
+    },
+    {
+     "p": "você",
+     "i": 7.583,
+     "f": 7.869
+    },
+    {
+     "p": "vai",
+     "i": 7.881,
+     "f": 7.988
+    },
+    {
+     "p": "entender",
+     "i": 8,
+     "f": 8.452
+    },
+    {
+     "p": "a",
+     "i": 8.464,
+     "f": 8.524
+    },
+    {
+     "p": "diferença",
+     "i": 8.536,
+     "f": 9.202
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "4bf39eaa9b",
+   "texto": "Aula 1.1. Nesta aula você vai aprender três coisas: o que é IA, o que é machine learning, que significa aprendizado de máquina, e o que é IA generativa.",
+   "audio": "audio/promessa-4bf39eaa9b.mp3",
+   "duracao": 13.224,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "1.1",
+     "i": 0.455,
+     "f": 1.217
+    },
+    {
+     "p": "Nesta",
+     "i": 2.036,
+     "f": 2.369
+    },
+    {
+     "p": "aula",
+     "i": 2.381,
+     "f": 2.631
+    },
+    {
+     "p": "você",
+     "i": 2.643,
+     "f": 2.917
+    },
+    {
+     "p": "vai",
+     "i": 2.929,
+     "f": 3.024
+    },
+    {
+     "p": "aprender",
+     "i": 3.036,
+     "f": 3.464
+    },
+    {
+     "p": "três",
+     "i": 3.476,
+     "f": 3.75
+    },
+    {
+     "p": "coisas",
+     "i": 3.762,
+     "f": 4.25
+    },
+    {
+     "p": "o",
+     "i": 4.536,
+     "f": 4.607
+    },
+    {
+     "p": "que",
+     "i": 4.619,
+     "f": 4.762
+    },
+    {
+     "p": "é",
+     "i": 4.774,
+     "f": 4.893
+    },
+    {
+     "p": "IA",
+     "i": 4.905,
+     "f": 6.155
+    },
+    {
+     "p": "o",
+     "i": 6.488,
+     "f": 6.571
+    },
+    {
+     "p": "que",
+     "i": 6.583,
+     "f": 6.726
+    },
+    {
+     "p": "é",
+     "i": 6.738,
+     "f": 6.798
+    },
+    {
+     "p": "machine",
+     "i": 6.81,
+     "f": 7.25
+    },
+    {
+     "p": "learning",
+     "i": 7.262,
+     "f": 7.643
+    },
+    {
+     "p": "que",
+     "i": 7.94,
+     "f": 8.059
+    },
+    {
+     "p": "significa",
+     "i": 8.071,
+     "f": 8.643
+    },
+    {
+     "p": "aprendizado",
+     "i": 8.655,
+     "f": 9.274
+    },
+    {
+     "p": "de",
+     "i": 9.286,
+     "f": 9.381
+    },
+    {
+     "p": "máquina",
+     "i": 9.393,
+     "f": 9.81
+    },
+    {
+     "p": "e",
+     "i": 10.119,
+     "f": 10.214
+    },
+    {
+     "p": "o",
+     "i": 10.226,
+     "f": 10.274
+    },
+    {
+     "p": "que",
+     "i": 10.286,
+     "f": 10.405
+    },
+    {
+     "p": "é",
+     "i": 10.417,
+     "f": 10.512
+    },
+    {
+     "p": "IA",
+     "i": 10.524,
+     "f": 11.69
+    },
+    {
+     "p": "generativa",
+     "i": 11.702,
+     "f": 12.393
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "a000d396df",
+   "texto": "Pense em círculos dentro de círculos. O maior é a inteligência artificial: máquinas que fazem tarefas que parecem exigir inteligência humana. O termo nasceu em 1956, numa conferência em Dartmouth, nos Estados Unidos. Dentro dele está o machine learning: o computador aprende com exemplos, sem regras escritas à mão.",
+   "audio": "audio/conceito-a000d396df.mp3",
+   "duracao": 21.816,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "em",
+     "i": 0.443,
+     "f": 0.526
+    },
+    {
+     "p": "círculos",
+     "i": 0.538,
+     "f": 1.074
+    },
+    {
+     "p": "dentro",
+     "i": 1.086,
+     "f": 1.431
+    },
+    {
+     "p": "de",
+     "i": 1.443,
+     "f": 1.538
+    },
+    {
+     "p": "círculos",
+     "i": 1.55,
+     "f": 2.193
+    },
+    {
+     "p": "O",
+     "i": 3.012,
+     "f": 3.107
+    },
+    {
+     "p": "maior",
+     "i": 3.119,
+     "f": 3.536
+    },
+    {
+     "p": "é",
+     "i": 3.548,
+     "f": 3.595
+    },
+    {
+     "p": "a",
+     "i": 3.607,
+     "f": 3.643
+    },
+    {
+     "p": "inteligência",
+     "i": 3.655,
+     "f": 4.238
+    },
+    {
+     "p": "artificial",
+     "i": 4.25,
+     "f": 4.857
+    },
+    {
+     "p": "máquinas",
+     "i": 5.155,
+     "f": 5.559
+    },
+    {
+     "p": "que",
+     "i": 5.571,
+     "f": 5.679
+    },
+    {
+     "p": "fazem",
+     "i": 5.69,
+     "f": 6.012
+    },
+    {
+     "p": "tarefas",
+     "i": 6.024,
+     "f": 6.488
+    },
+    {
+     "p": "que",
+     "i": 6.5,
+     "f": 6.607
+    },
+    {
+     "p": "parecem",
+     "i": 6.619,
+     "f": 7.083
+    },
+    {
+     "p": "exigir",
+     "i": 7.095,
+     "f": 7.452
+    },
+    {
+     "p": "inteligência",
+     "i": 7.464,
+     "f": 8.036
+    },
+    {
+     "p": "humana",
+     "i": 8.048,
+     "f": 8.417
+    },
+    {
+     "p": "O",
+     "i": 9.238,
+     "f": 9.381
+    },
+    {
+     "p": "termo",
+     "i": 9.393,
+     "f": 9.75
+    },
+    {
+     "p": "nasceu",
+     "i": 9.762,
+     "f": 10.107
+    },
+    {
+     "p": "em 1956",
+     "i": 10.119,
+     "f": 11.774
+    },
+    {
+     "p": "numa",
+     "i": 11.988,
+     "f": 12.214
+    },
+    {
+     "p": "conferência",
+     "i": 12.226,
+     "f": 12.833
+    },
+    {
+     "p": "em",
+     "i": 12.845,
+     "f": 12.881
+    },
+    {
+     "p": "Dartmouth",
+     "i": 12.893,
+     "f": 13.464
+    },
+    {
+     "p": "nos",
+     "i": 13.655,
+     "f": 13.762
+    },
+    {
+     "p": "Estados",
+     "i": 13.774,
+     "f": 14.226
+    },
+    {
+     "p": "Unidos",
+     "i": 14.238,
+     "f": 14.786
+    },
+    {
+     "p": "Dentro",
+     "i": 15.607,
+     "f": 15.976
+    },
+    {
+     "p": "dele",
+     "i": 15.988,
+     "f": 16.226
+    },
+    {
+     "p": "está",
+     "i": 16.238,
+     "f": 16.417
+    },
+    {
+     "p": "o",
+     "i": 16.429,
+     "f": 16.452
+    },
+    {
+     "p": "machine",
+     "i": 16.464,
+     "f": 16.881
+    },
+    {
+     "p": "learning",
+     "i": 16.893,
+     "f": 17.262
+    },
+    {
+     "p": "o",
+     "i": 17.56,
+     "f": 17.607
+    },
+    {
+     "p": "computador",
+     "i": 17.619,
+     "f": 18.167
+    },
+    {
+     "p": "aprende",
+     "i": 18.179,
+     "f": 18.56
+    },
+    {
+     "p": "com",
+     "i": 18.571,
+     "f": 18.738
+    },
+    {
+     "p": "exemplos",
+     "i": 18.75,
+     "f": 19.31
+    },
+    {
+     "p": "sem",
+     "i": 19.5,
+     "f": 19.726
+    },
+    {
+     "p": "regras",
+     "i": 19.738,
+     "f": 20.059
+    },
+    {
+     "p": "escritas",
+     "i": 20.071,
+     "f": 20.583
+    },
+    {
+     "p": "à",
+     "i": 20.595,
+     "f": 20.702
+    },
+    {
+     "p": "mão",
+     "i": 20.714,
+     "f": 20.976
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "d3852cea08",
+   "texto": "Dentro do machine learning mora o deep learning, ou aprendizado profundo: redes neurais com muitas camadas. E no centro, a IA generativa, que cria texto, imagem e áudio novos. Como bonecas russas: cada uma cabe dentro da maior.",
+   "audio": "audio/analogia-d3852cea08.mp3",
+   "duracao": 16.992,
+   "palavras": [
+    {
+     "p": "Dentro",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "do",
+     "i": 0.49,
+     "f": 0.562
+    },
+    {
+     "p": "machine",
+     "i": 0.574,
+     "f": 0.979
+    },
+    {
+     "p": "learning",
+     "i": 0.99,
+     "f": 1.348
+    },
+    {
+     "p": "mora",
+     "i": 1.36,
+     "f": 1.598
+    },
+    {
+     "p": "o",
+     "i": 1.61,
+     "f": 1.645
+    },
+    {
+     "p": "deep",
+     "i": 1.657,
+     "f": 1.919
+    },
+    {
+     "p": "learning",
+     "i": 1.931,
+     "f": 2.348
+    },
+    {
+     "p": "ou",
+     "i": 2.621,
+     "f": 2.74
+    },
+    {
+     "p": "aprendizado",
+     "i": 2.752,
+     "f": 3.395
+    },
+    {
+     "p": "profundo",
+     "i": 3.407,
+     "f": 3.919
+    },
+    {
+     "p": "redes",
+     "i": 4.157,
+     "f": 4.455
+    },
+    {
+     "p": "neurais",
+     "i": 4.467,
+     "f": 4.871
+    },
+    {
+     "p": "com",
+     "i": 4.883,
+     "f": 5.05
+    },
+    {
+     "p": "muitas",
+     "i": 5.062,
+     "f": 5.419
+    },
+    {
+     "p": "camadas",
+     "i": 5.431,
+     "f": 6.038
+    },
+    {
+     "p": "E",
+     "i": 6.857,
+     "f": 6.952
+    },
+    {
+     "p": "no",
+     "i": 6.964,
+     "f": 7.071
+    },
+    {
+     "p": "centro",
+     "i": 7.083,
+     "f": 7.536
+    },
+    {
+     "p": "a",
+     "i": 7.69,
+     "f": 7.762
+    },
+    {
+     "p": "IA",
+     "i": 7.774,
+     "f": 8.964
+    },
+    {
+     "p": "generativa",
+     "i": 8.976,
+     "f": 9.69
+    },
+    {
+     "p": "que",
+     "i": 9.893,
+     "f": 10.06
+    },
+    {
+     "p": "cria",
+     "i": 10.071,
+     "f": 10.357
+    },
+    {
+     "p": "texto",
+     "i": 10.369,
+     "f": 10.809
+    },
+    {
+     "p": "imagem",
+     "i": 11.012,
+     "f": 11.56
+    },
+    {
+     "p": "e",
+     "i": 11.571,
+     "f": 11.631
+    },
+    {
+     "p": "áudio",
+     "i": 11.643,
+     "f": 11.941
+    },
+    {
+     "p": "novos",
+     "i": 11.952,
+     "f": 12.429
+    },
+    {
+     "p": "Como",
+     "i": 13.25,
+     "f": 13.5
+    },
+    {
+     "p": "bonecas",
+     "i": 13.512,
+     "f": 13.964
+    },
+    {
+     "p": "russas",
+     "i": 13.976,
+     "f": 14.417
+    },
+    {
+     "p": "cada",
+     "i": 14.631,
+     "f": 14.857
+    },
+    {
+     "p": "uma",
+     "i": 14.869,
+     "f": 15.083
+    },
+    {
+     "p": "cabe",
+     "i": 15.095,
+     "f": 15.357
+    },
+    {
+     "p": "dentro",
+     "i": 15.369,
+     "f": 15.702
+    },
+    {
+     "p": "da",
+     "i": 15.714,
+     "f": 15.786
+    },
+    {
+     "p": "maior",
+     "i": 15.798,
+     "f": 16.167
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "799fe7d815",
+   "texto": "Exemplos do dia a dia. O filtro de spam aprende com e-mails marcados como lixo: isso é machine learning. A Netflix sugere séries pelo que você já assistiu: também. E quando o Claude escreve um texto novo para você, isso é IA generativa. Olha o pedido que digitei no Claude.",
+   "audio": "audio/exemplo-799fe7d815.mp3",
+   "duracao": 20.448,
+   "palavras": [
+    {
+     "p": "Exemplos",
+     "i": 0.098,
+     "f": 0.717
+    },
+    {
+     "p": "do",
+     "i": 0.729,
+     "f": 0.86
+    },
+    {
+     "p": "dia",
+     "i": 0.871,
+     "f": 1.121
+    },
+    {
+     "p": "a",
+     "i": 1.133,
+     "f": 1.157
+    },
+    {
+     "p": "dia",
+     "i": 1.169,
+     "f": 1.526
+    },
+    {
+     "p": "O",
+     "i": 2.345,
+     "f": 2.464
+    },
+    {
+     "p": "filtro",
+     "i": 2.476,
+     "f": 2.881
+    },
+    {
+     "p": "de",
+     "i": 2.893,
+     "f": 2.964
+    },
+    {
+     "p": "spam",
+     "i": 2.976,
+     "f": 3.214
+    },
+    {
+     "p": "aprende",
+     "i": 3.226,
+     "f": 3.631
+    },
+    {
+     "p": "com",
+     "i": 3.643,
+     "f": 3.786
+    },
+    {
+     "p": "e-mails",
+     "i": 3.798,
+     "f": 4.095
+    },
+    {
+     "p": "marcados",
+     "i": 4.107,
+     "f": 4.667
+    },
+    {
+     "p": "como",
+     "i": 4.679,
+     "f": 4.905
+    },
+    {
+     "p": "lixo",
+     "i": 4.917,
+     "f": 5.31
+    },
+    {
+     "p": "isso",
+     "i": 5.726,
+     "f": 5.929
+    },
+    {
+     "p": "é",
+     "i": 5.94,
+     "f": 5.976
+    },
+    {
+     "p": "machine",
+     "i": 5.988,
+     "f": 6.464
+    },
+    {
+     "p": "learning",
+     "i": 6.476,
+     "f": 6.869
+    },
+    {
+     "p": "A",
+     "i": 7.69,
+     "f": 7.774
+    },
+    {
+     "p": "Netflix",
+     "i": 7.786,
+     "f": 8.452
+    },
+    {
+     "p": "sugere",
+     "i": 8.464,
+     "f": 8.857
+    },
+    {
+     "p": "séries",
+     "i": 8.869,
+     "f": 9.262
+    },
+    {
+     "p": "pelo",
+     "i": 9.274,
+     "f": 9.464
+    },
+    {
+     "p": "que",
+     "i": 9.476,
+     "f": 9.571
+    },
+    {
+     "p": "você",
+     "i": 9.583,
+     "f": 9.869
+    },
+    {
+     "p": "já",
+     "i": 9.881,
+     "f": 10.095
+    },
+    {
+     "p": "assistiu",
+     "i": 10.107,
+     "f": 10.643
+    },
+    {
+     "p": "também",
+     "i": 10.929,
+     "f": 11.393
+    },
+    {
+     "p": "E",
+     "i": 12.214,
+     "f": 12.31
+    },
+    {
+     "p": "quando",
+     "i": 12.321,
+     "f": 12.571
+    },
+    {
+     "p": "o",
+     "i": 12.583,
+     "f": 12.619
+    },
+    {
+     "p": "Claude",
+     "i": 12.631,
+     "f": 12.905
+    },
+    {
+     "p": "escreve",
+     "i": 12.917,
+     "f": 13.274
+    },
+    {
+     "p": "um",
+     "i": 13.286,
+     "f": 13.381
+    },
+    {
+     "p": "texto",
+     "i": 13.393,
+     "f": 13.714
+    },
+    {
+     "p": "novo",
+     "i": 13.726,
+     "f": 14.024
+    },
+    {
+     "p": "para",
+     "i": 14.036,
+     "f": 14.214
+    },
+    {
+     "p": "você",
+     "i": 14.226,
+     "f": 14.607
+    },
+    {
+     "p": "isso",
+     "i": 14.869,
+     "f": 15.107
+    },
+    {
+     "p": "é",
+     "i": 15.119,
+     "f": 15.143
+    },
+    {
+     "p": "IA",
+     "i": 15.155,
+     "f": 16.333
+    },
+    {
+     "p": "generativa",
+     "i": 16.345,
+     "f": 17.024
+    },
+    {
+     "p": "Olha",
+     "i": 17.845,
+     "f": 18.107
+    },
+    {
+     "p": "o",
+     "i": 18.119,
+     "f": 18.155
+    },
+    {
+     "p": "pedido",
+     "i": 18.167,
+     "f": 18.56
+    },
+    {
+     "p": "que",
+     "i": 18.571,
+     "f": 18.655
+    },
+    {
+     "p": "digitei",
+     "i": 18.667,
+     "f": 19.071
+    },
+    {
+     "p": "no",
+     "i": 19.083,
+     "f": 19.19
+    },
+    {
+     "p": "Claude",
+     "i": 19.202,
+     "f": 19.607
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "c17f95e20a",
+   "texto": "Erro comum: achar que IA e ChatGPT são a mesma coisa. ChatGPT e Claude são só um tipo de IA, a generativa. Tem IA que não conversa, como o filtro de spam.",
+   "audio": "audio/erro-comum-c17f95e20a.mp3",
+   "duracao": 14.904,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.348
+    },
+    {
+     "p": "comum",
+     "i": 0.36,
+     "f": 0.752
+    },
+    {
+     "p": "achar",
+     "i": 0.99,
+     "f": 1.359
+    },
+    {
+     "p": "que",
+     "i": 1.371,
+     "f": 1.455
+    },
+    {
+     "p": "IA",
+     "i": 1.467,
+     "f": 2.598
+    },
+    {
+     "p": "e",
+     "i": 2.61,
+     "f": 2.645
+    },
+    {
+     "p": "ChatGPT",
+     "i": 2.657,
+     "f": 3.49
+    },
+    {
+     "p": "são",
+     "i": 3.502,
+     "f": 3.717
+    },
+    {
+     "p": "a",
+     "i": 3.729,
+     "f": 3.764
+    },
+    {
+     "p": "mesma",
+     "i": 3.776,
+     "f": 4.133
+    },
+    {
+     "p": "coisa",
+     "i": 4.145,
+     "f": 4.55
+    },
+    {
+     "p": "ChatGPT",
+     "i": 5.369,
+     "f": 6.262
+    },
+    {
+     "p": "e",
+     "i": 6.274,
+     "f": 6.321
+    },
+    {
+     "p": "Claude",
+     "i": 6.333,
+     "f": 6.667
+    },
+    {
+     "p": "são",
+     "i": 6.679,
+     "f": 6.881
+    },
+    {
+     "p": "só",
+     "i": 6.893,
+     "f": 7.06
+    },
+    {
+     "p": "um",
+     "i": 7.071,
+     "f": 7.19
+    },
+    {
+     "p": "tipo",
+     "i": 7.202,
+     "f": 7.512
+    },
+    {
+     "p": "de",
+     "i": 7.524,
+     "f": 7.583
+    },
+    {
+     "p": "IA",
+     "i": 7.595,
+     "f": 8.738
+    },
+    {
+     "p": "a",
+     "i": 8.94,
+     "f": 9.012
+    },
+    {
+     "p": "generativa",
+     "i": 9.024,
+     "f": 9.69
+    },
+    {
+     "p": "Tem",
+     "i": 10.512,
+     "f": 10.655
+    },
+    {
+     "p": "IA",
+     "i": 10.667,
+     "f": 11.81
+    },
+    {
+     "p": "que",
+     "i": 11.821,
+     "f": 11.929
+    },
+    {
+     "p": "não",
+     "i": 11.94,
+     "f": 12.083
+    },
+    {
+     "p": "conversa",
+     "i": 12.095,
+     "f": 12.679
+    },
+    {
+     "p": "como",
+     "i": 12.952,
+     "f": 13.214
+    },
+    {
+     "p": "o",
+     "i": 13.226,
+     "f": 13.262
+    },
+    {
+     "p": "filtro",
+     "i": 13.274,
+     "f": 13.655
+    },
+    {
+     "p": "de",
+     "i": 13.667,
+     "f": 13.738
+    },
+    {
+     "p": "spam",
+     "i": 13.75,
+     "f": 14.083
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "e23220a3fb",
+   "texto": "Pause o vídeo e tente: escolha três apps do seu celular e diga em qual círculo cada um se encaixa. Depois comente o que achou.",
+   "audio": "audio/pratica-e23220a3fb.mp3",
+   "duracao": 8.64,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "o",
+     "i": 0.407,
+     "f": 0.467
+    },
+    {
+     "p": "vídeo",
+     "i": 0.479,
+     "f": 0.764
+    },
+    {
+     "p": "e",
+     "i": 0.776,
+     "f": 0.848
+    },
+    {
+     "p": "tente",
+     "i": 0.86,
+     "f": 1.24
+    },
+    {
+     "p": "escolha",
+     "i": 1.479,
+     "f": 1.931
+    },
+    {
+     "p": "três",
+     "i": 1.943,
+     "f": 2.181
+    },
+    {
+     "p": "apps",
+     "i": 2.193,
+     "f": 2.502
+    },
+    {
+     "p": "do",
+     "i": 2.514,
+     "f": 2.61
+    },
+    {
+     "p": "seu",
+     "i": 2.621,
+     "f": 2.764
+    },
+    {
+     "p": "celular",
+     "i": 2.776,
+     "f": 3.24
+    },
+    {
+     "p": "e",
+     "i": 3.252,
+     "f": 3.312
+    },
+    {
+     "p": "diga",
+     "i": 3.324,
+     "f": 3.526
+    },
+    {
+     "p": "em",
+     "i": 3.538,
+     "f": 3.633
+    },
+    {
+     "p": "qual",
+     "i": 3.645,
+     "f": 3.871
+    },
+    {
+     "p": "círculo",
+     "i": 3.883,
+     "f": 4.348
+    },
+    {
+     "p": "cada",
+     "i": 4.36,
+     "f": 4.633
+    },
+    {
+     "p": "um",
+     "i": 4.645,
+     "f": 4.812
+    },
+    {
+     "p": "se",
+     "i": 4.824,
+     "f": 4.919
+    },
+    {
+     "p": "encaixa",
+     "i": 4.931,
+     "f": 5.467
+    },
+    {
+     "p": "Depois",
+     "i": 6.286,
+     "f": 6.786
+    },
+    {
+     "p": "comente",
+     "i": 6.798,
+     "f": 7.262
+    },
+    {
+     "p": "o",
+     "i": 7.274,
+     "f": 7.309
+    },
+    {
+     "p": "que",
+     "i": 7.321,
+     "f": 7.405
+    },
+    {
+     "p": "achou",
+     "i": 7.417,
+     "f": 7.81
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "474a46e963",
+   "texto": "Resumo. Primeiro: IA é o círculo maior. Segundo: machine learning e deep learning aprendem com dados. Terceiro: IA generativa cria conteúdo novo.",
+   "audio": "audio/resumo-474a46e963.mp3",
+   "duracao": 14.232,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.693
+    },
+    {
+     "p": "Primeiro",
+     "i": 1.512,
+     "f": 1.94
+    },
+    {
+     "p": "IA",
+     "i": 2.238,
+     "f": 3.524
+    },
+    {
+     "p": "é",
+     "i": 3.536,
+     "f": 3.595
+    },
+    {
+     "p": "o",
+     "i": 3.607,
+     "f": 3.667
+    },
+    {
+     "p": "círculo",
+     "i": 3.679,
+     "f": 4.107
+    },
+    {
+     "p": "maior",
+     "i": 4.119,
+     "f": 4.464
+    },
+    {
+     "p": "Segundo",
+     "i": 5.286,
+     "f": 5.869
+    },
+    {
+     "p": "machine",
+     "i": 6.179,
+     "f": 6.631
+    },
+    {
+     "p": "learning",
+     "i": 6.643,
+     "f": 7.012
+    },
+    {
+     "p": "e",
+     "i": 7.024,
+     "f": 7.071
+    },
+    {
+     "p": "deep",
+     "i": 7.083,
+     "f": 7.333
+    },
+    {
+     "p": "learning",
+     "i": 7.345,
+     "f": 7.702
+    },
+    {
+     "p": "aprendem",
+     "i": 7.714,
+     "f": 8.119
+    },
+    {
+     "p": "com",
+     "i": 8.131,
+     "f": 8.298
+    },
+    {
+     "p": "dados",
+     "i": 8.31,
+     "f": 8.786
+    },
+    {
+     "p": "Terceiro",
+     "i": 9.607,
+     "f": 10.131
+    },
+    {
+     "p": "IA",
+     "i": 10.405,
+     "f": 11.643
+    },
+    {
+     "p": "generativa",
+     "i": 11.655,
+     "f": 12.262
+    },
+    {
+     "p": "cria",
+     "i": 12.274,
+     "f": 12.536
+    },
+    {
+     "p": "conteúdo",
+     "i": 12.548,
+     "f": 13.048
+    },
+    {
+     "p": "novo",
+     "i": 13.06,
+     "f": 13.393
+    }
+   ]
+  },
+  "final": {
+   "hash": "a159312b62",
+   "texto": "Quiz: o filtro de spam é machine learning ou IA generativa? Pense um segundo. Resposta: machine learning, porque ele classifica e-mails, não cria nada novo. Na próxima aula, veja como um LLM funciona por dentro.",
+   "audio": "audio/final-a159312b62.mp3",
+   "duracao": 17.376,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "o",
+     "i": 0.788,
+     "f": 0.848
+    },
+    {
+     "p": "filtro",
+     "i": 0.86,
+     "f": 1.24
+    },
+    {
+     "p": "de",
+     "i": 1.252,
+     "f": 1.336
+    },
+    {
+     "p": "spam",
+     "i": 1.348,
+     "f": 1.586
+    },
+    {
+     "p": "é",
+     "i": 1.598,
+     "f": 1.657
+    },
+    {
+     "p": "machine",
+     "i": 1.669,
+     "f": 2.086
+    },
+    {
+     "p": "learning",
+     "i": 2.098,
+     "f": 2.538
+    },
+    {
+     "p": "ou",
+     "i": 2.55,
+     "f": 2.669
+    },
+    {
+     "p": "IA",
+     "i": 2.681,
+     "f": 3.8
+    },
+    {
+     "p": "generativa",
+     "i": 3.812,
+     "f": 4.514
+    },
+    {
+     "p": "Pense",
+     "i": 5.333,
+     "f": 5.69
+    },
+    {
+     "p": "um",
+     "i": 5.702,
+     "f": 5.786
+    },
+    {
+     "p": "segundo",
+     "i": 5.798,
+     "f": 6.31
+    },
+    {
+     "p": "Resposta",
+     "i": 7.131,
+     "f": 7.786
+    },
+    {
+     "p": "machine",
+     "i": 8.06,
+     "f": 8.524
+    },
+    {
+     "p": "learning",
+     "i": 8.536,
+     "f": 8.976
+    },
+    {
+     "p": "porque",
+     "i": 9.238,
+     "f": 9.512
+    },
+    {
+     "p": "ele",
+     "i": 9.524,
+     "f": 9.643
+    },
+    {
+     "p": "classifica",
+     "i": 9.655,
+     "f": 10.131
+    },
+    {
+     "p": "e-mails",
+     "i": 10.143,
+     "f": 10.619
+    },
+    {
+     "p": "não",
+     "i": 10.81,
+     "f": 11.048
+    },
+    {
+     "p": "cria",
+     "i": 11.06,
+     "f": 11.345
+    },
+    {
+     "p": "nada",
+     "i": 11.357,
+     "f": 11.631
+    },
+    {
+     "p": "novo",
+     "i": 11.643,
+     "f": 12
+    },
+    {
+     "p": "Na",
+     "i": 12.821,
+     "f": 13.012
+    },
+    {
+     "p": "próxima",
+     "i": 13.024,
+     "f": 13.417
+    },
+    {
+     "p": "aula",
+     "i": 13.429,
+     "f": 13.726
+    },
+    {
+     "p": "veja",
+     "i": 14,
+     "f": 14.25
+    },
+    {
+     "p": "como",
+     "i": 14.262,
+     "f": 14.476
+    },
+    {
+     "p": "um",
+     "i": 14.488,
+     "f": 14.595
+    },
+    {
+     "p": "LLM",
+     "i": 14.607,
+     "f": 15.393
+    },
+    {
+     "p": "funciona",
+     "i": 15.405,
+     "f": 15.964
+    },
+    {
+     "p": "por",
+     "i": 15.976,
+     "f": 16.131
+    },
+    {
+     "p": "dentro",
+     "i": 16.143,
+     "f": 16.548
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "mccarthy": {
+   "arquivo": "imagens/mccarthy-7494f3ad.jpg",
+   "rotulo": "John McCarthy",
+   "wiki": "John McCarthy",
+   "autor": "\"null0\"",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg",
+   "titulo": "File:John McCarthy Stanford.jpg"
+  },
+  "dartmouth": {
+   "arquivo": "",
+   "rotulo": "Dartmouth College",
+   "wiki": "Dartmouth College"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.938Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Science History Institute — Dartmouth Summer Research Project: the birth of AI",
+   "url": "https://www.historyofdatascience.com/dartmouth-summer-research-project-the-birth-of-artificial-intelligence/"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }
