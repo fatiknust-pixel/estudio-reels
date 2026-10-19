@@ -1,0 +1,107 @@
+{
+  "titulo": "Tokens e janela de contexto",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Anthropic — Context windows (documentação)", "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows" },
+    { "titulo": "Anthropic — Pricing (documentação)", "url": "https://platform.claude.com/docs/en/about-claude/pricing" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você sabia que a IA não lê palavras? Ela lê tokens. E você paga por cada um deles.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "LÊ PALAVRAS?", "em": "palavras", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "NÃO", "cor": "vermelho", "em": "não", "posicao": "alto" },
+        { "tipo": "tag", "texto": "TOKENS", "icone": "alvo", "cor": "azul", "em": "tokens", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["dinheiro", "VOCÊ PAGA"]], "em": "paga", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Aula 1.3. Hoje você vai aprender três coisas: o que é um token, o que é a janela de contexto, e por que conversa nova economiza.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "TOKENS E CONTEXTO", "sub": "AULA 1.3", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["alvo", "TOKEN"], ["documento", "CONTEXTO"], ["dinheiro", "ECONOMIA"]], "em": "três", "posicao": "meio" },
+        { "tipo": "tag", "texto": "CONVERSA NOVA", "icone": "mais", "cor": "verde", "em": "nova", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Token é um pedaço de texto. Pode ser uma palavra curta, parte de uma palavra longa ou um sinal. Tudo na IA é medido assim. O que você envia é token de entrada. O que ela responde é token de saída.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE É TOKEN?", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "TOKEN", "significado": "pedaço de texto: palavra, parte dela ou sinal", "em": "pedaço", "posicao": "alto" },
+        { "tipo": "tag", "texto": "ENTRADA = O QUE VOCÊ ENVIA", "icone": "seta", "cor": "azul", "em": "entrada", "posicao": "meio" },
+        { "tipo": "tag", "texto": "SAÍDA = O QUE A IA RESPONDE", "icone": "balao", "cor": "amarelo", "em": "saída", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Imagine a mesa de trabalho da IA. Essa mesa é a janela de contexto: tudo que cabe nela, a IA enxerga. Sua conversa, seus arquivos e as respostas dela. No Claude, a mesa chega a 1 milhão de tokens.",
+      "fontes": ["Anthropic — Context windows"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "JANELA DE CONTEXTO", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "JANELA DE CONTEXTO", "significado": "tudo que a IA enxerga de uma vez: a memória de trabalho", "em": "janela", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["documento", "CONVERSA"], ["mais", ""], ["contrato", "ARQUIVOS"]], "em": "conversa", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 1000000, "unidade": "tokens", "rotulo": "NO CLAUDE", "em": "milhão", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Veja o custo. Em outubro de 2026, o Claude Sonnet 5.5 cobra 2 dólares por milhão de tokens de entrada e 10 dólares por milhão de saída. E a cada mensagem, a conversa inteira é enviada de novo.",
+      "fontes": ["Anthropic — Pricing, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUANTO CUSTA?", "sub": "CLAUDE SONNET 5.5", "em": 0, "posicao": "topo" },
+        { "tipo": "placar", "sim": 2, "nao": 10, "rotulo": "US$ POR MILHÃO DE TOKENS", "rotuloSim": "ENTRADA", "rotuloNao": "SAÍDA", "decimais": 0, "em": "dólares", "posicao": "alto" },
+        { "tipo": "tag", "texto": "OUT/2026", "icone": "relogio", "cor": "cinza", "em": "outubro", "posicao": "alto2" },
+        { "tipo": "mapa", "de": "CONVERSA INTEIRA", "para": "ENVIADA DE NOVO", "legenda": "A CADA MENSAGEM", "em": "mensagem", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum: usar a mesma conversa para tudo. Receita, trabalho, viagem, tudo junto. Isso gasta tokens à toa. E mais texto nem sempre ajuda: quanto mais cresce, mais a precisão pode cair.",
+      "fontes": ["Anthropic — Context windows"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "erro", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "UMA CONVERSA PARA TUDO", "nota": "gasta tokens e confunde a IA", "em": "mesma", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["casa", "RECEITA"], ["predio", "TRABALHO"], ["pin", "VIAGEM"]], "em": "Receita", "posicao": "alto2" },
+        { "tipo": "check", "ok": true, "texto": "ASSUNTO NOVO, CONVERSA NOVA", "nota": "economiza e melhora a resposta", "em": "ajuda", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: abra duas conversas, uma para cada assunto, e compare as respostas.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Conversa 1: viagem. Conversa 2: trabalho.", "em": "duas", "posicao": "meio" },
+        { "tipo": "pergunta", "texto": "QUAL RESPONDEU MELHOR?", "em": "compare", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo. Um: token é o pedaço de texto que a IA mede e cobra. Dois: a janela de contexto é a mesa de trabalho, de até 1 milhão de tokens. Três: assunto novo, conversa nova.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["alvo", "TOKEN"], ["documento", "CONTEXTO"], ["mais", "CONVERSA NOVA"]], "em": "Um", "posicao": "meio" },
+        { "tipo": "tag", "texto": "ATÉ 1 MILHÃO", "icone": "check", "cor": "verde", "em": "Dois", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: assunto novo no meio de uma conversa longa. O que fazer? Um, continuar na mesma. Dois, abrir uma conversa nova. A resposta é a dois: gasta menos tokens e a IA foca no que importa. Na próxima aula, alucinação e limites da IA.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "ASSUNTO NOVO: O QUE FAZER?", "opcoes": ["1 · CONTINUAR NA MESMA", "2 · CONVERSA NOVA"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 2", "cor": "verde", "em": "resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 1.4", "em": "próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

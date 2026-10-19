@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-y31c",
- "titulo": "Aula 1.3: Tokens e janela de contexto — explique o que é um token, por",
+ "titulo": "Tokens e janela de contexto",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.939Z",
- "atualizadoEm": "2026-10-19T22:26:17.939Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:29:27Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 1.3: Tokens e janela de contexto — explique o que é um token, por que tudo na IA é medido e cobrado em tokens de entrada e saída, o que é a janela de contexto (até 1 milhão de tokens no Claude) e por que abrir conversa nova para assunto novo economiza e melhora as respostas",
@@ -61,11 +62,1900 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você sabia que a IA não lê palavras? Ela lê tokens. E você paga por cada um deles.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "LÊ PALAVRAS?",
+     "em": "palavras",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO",
+     "cor": "vermelho",
+     "em": "não",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TOKENS",
+     "icone": "alvo",
+     "cor": "azul",
+     "em": "tokens",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "VOCÊ PAGA"
+      ]
+     ],
+     "em": "paga",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 1.3. Hoje você vai aprender três coisas: o que é um token, o que é a janela de contexto, e por que conversa nova economiza.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TOKENS E CONTEXTO",
+     "sub": "AULA 1.3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "TOKEN"
+      ],
+      [
+       "documento",
+       "CONTEXTO"
+      ],
+      [
+       "dinheiro",
+       "ECONOMIA"
+      ]
+     ],
+     "em": "três",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CONVERSA NOVA",
+     "icone": "mais",
+     "cor": "verde",
+     "em": "nova",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Token é um pedaço de texto. Pode ser uma palavra curta, parte de uma palavra longa ou um sinal. Tudo na IA é medido assim. O que você envia é token de entrada. O que ela responde é token de saída.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE É TOKEN?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "TOKEN",
+     "significado": "pedaço de texto: palavra, parte dela ou sinal",
+     "em": "pedaço",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ENTRADA = O QUE VOCÊ ENVIA",
+     "icone": "seta",
+     "cor": "azul",
+     "em": "entrada",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SAÍDA = O QUE A IA RESPONDE",
+     "icone": "balao",
+     "cor": "amarelo",
+     "em": "saída",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Imagine a mesa de trabalho da IA. Essa mesa é a janela de contexto: tudo que cabe nela, a IA enxerga. Sua conversa, seus arquivos e as respostas dela. No Claude, a mesa chega a 1 milhão de tokens.",
+   "fontes": [
+    "Anthropic — Context windows"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "JANELA DE CONTEXTO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "JANELA DE CONTEXTO",
+     "significado": "tudo que a IA enxerga de uma vez: a memória de trabalho",
+     "em": "janela",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "CONVERSA"
+      ],
+      [
+       "mais",
+       ""
+      ],
+      [
+       "contrato",
+       "ARQUIVOS"
+      ]
+     ],
+     "em": "conversa",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1000000,
+     "unidade": "tokens",
+     "rotulo": "NO CLAUDE",
+     "em": "milhão",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Veja o custo. Em outubro de 2026, o Claude Sonnet 5.5 cobra 2 dólares por milhão de tokens de entrada e 10 dólares por milhão de saída. E a cada mensagem, a conversa inteira é enviada de novo.",
+   "fontes": [
+    "Anthropic — Pricing, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUANTO CUSTA?",
+     "sub": "CLAUDE SONNET 5.5",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "placar",
+     "sim": 2,
+     "nao": 10,
+     "rotulo": "US$ POR MILHÃO DE TOKENS",
+     "rotuloSim": "ENTRADA",
+     "rotuloNao": "SAÍDA",
+     "decimais": 0,
+     "em": "dólares",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "OUT/2026",
+     "icone": "relogio",
+     "cor": "cinza",
+     "em": "outubro",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "mapa",
+     "de": "CONVERSA INTEIRA",
+     "para": "ENVIADA DE NOVO",
+     "legenda": "A CADA MENSAGEM",
+     "em": "mensagem",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum: usar a mesma conversa para tudo. Receita, trabalho, viagem, tudo junto. Isso gasta tokens à toa. E mais texto nem sempre ajuda: quanto mais cresce, mais a precisão pode cair.",
+   "fontes": [
+    "Anthropic — Context windows"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "UMA CONVERSA PARA TUDO",
+     "nota": "gasta tokens e confunde a IA",
+     "em": "mesma",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "casa",
+       "RECEITA"
+      ],
+      [
+       "predio",
+       "TRABALHO"
+      ],
+      [
+       "pin",
+       "VIAGEM"
+      ]
+     ],
+     "em": "Receita",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "ASSUNTO NOVO, CONVERSA NOVA",
+     "nota": "economiza e melhora a resposta",
+     "em": "ajuda",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: abra duas conversas, uma para cada assunto, e compare as respostas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Conversa 1: viagem. Conversa 2: trabalho.",
+     "em": "duas",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL RESPONDEU MELHOR?",
+     "em": "compare",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo. Um: token é o pedaço de texto que a IA mede e cobra. Dois: a janela de contexto é a mesa de trabalho, de até 1 milhão de tokens. Três: assunto novo, conversa nova.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "TOKEN"
+      ],
+      [
+       "documento",
+       "CONTEXTO"
+      ],
+      [
+       "mais",
+       "CONVERSA NOVA"
+      ]
+     ],
+     "em": "Um",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ATÉ 1 MILHÃO",
+     "icone": "check",
+     "cor": "verde",
+     "em": "Dois",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: assunto novo no meio de uma conversa longa. O que fazer? Um, continuar na mesma. Dois, abrir uma conversa nova. A resposta é a dois: gasta menos tokens e a IA foca no que importa. Na próxima aula, alucinação e limites da IA.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "ASSUNTO NOVO: O QUE FAZER?",
+     "opcoes": [
+      "1 · CONTINUAR NA MESMA",
+      "2 · CONVERSA NOVA"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 2",
+     "cor": "verde",
+     "em": "resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 1.4",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "3167a833d5",
+   "texto": "Você sabia que a IA não lê palavras? Ela lê tokens. E você paga por cada um deles.",
+   "audio": "audio/gancho-3167a833d5.mp3",
+   "duracao": 8.52,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.098,
+     "f": 0.371
+    },
+    {
+     "p": "sabia",
+     "i": 0.383,
+     "f": 0.836
+    },
+    {
+     "p": "que",
+     "i": 0.848,
+     "f": 0.943
+    },
+    {
+     "p": "a",
+     "i": 0.955,
+     "f": 0.979
+    },
+    {
+     "p": "IA",
+     "i": 0.99,
+     "f": 2.121
+    },
+    {
+     "p": "não",
+     "i": 2.133,
+     "f": 2.324
+    },
+    {
+     "p": "lê",
+     "i": 2.336,
+     "f": 2.455
+    },
+    {
+     "p": "palavras",
+     "i": 2.467,
+     "f": 3.133
+    },
+    {
+     "p": "Ela",
+     "i": 3.952,
+     "f": 4.214
+    },
+    {
+     "p": "lê",
+     "i": 4.226,
+     "f": 4.405
+    },
+    {
+     "p": "tokens",
+     "i": 4.417,
+     "f": 5.024
+    },
+    {
+     "p": "E",
+     "i": 5.845,
+     "f": 5.941
+    },
+    {
+     "p": "você",
+     "i": 5.952,
+     "f": 6.202
+    },
+    {
+     "p": "paga",
+     "i": 6.214,
+     "f": 6.56
+    },
+    {
+     "p": "por",
+     "i": 6.571,
+     "f": 6.738
+    },
+    {
+     "p": "cada",
+     "i": 6.75,
+     "f": 7.036
+    },
+    {
+     "p": "um",
+     "i": 7.048,
+     "f": 7.214
+    },
+    {
+     "p": "deles",
+     "i": 7.226,
+     "f": 7.69
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "0ad1e5b385",
+   "texto": "Aula 1.3. Hoje você vai aprender três coisas: o que é um token, o que é a janela de contexto, e por que conversa nova economiza.",
+   "audio": "audio/promessa-0ad1e5b385.mp3",
+   "duracao": 9.744,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "1.3",
+     "i": 0.455,
+     "f": 1.383
+    },
+    {
+     "p": "Hoje",
+     "i": 2.202,
+     "f": 2.488
+    },
+    {
+     "p": "você",
+     "i": 2.5,
+     "f": 2.774
+    },
+    {
+     "p": "vai",
+     "i": 2.786,
+     "f": 2.893
+    },
+    {
+     "p": "aprender",
+     "i": 2.905,
+     "f": 3.321
+    },
+    {
+     "p": "três",
+     "i": 3.333,
+     "f": 3.619
+    },
+    {
+     "p": "coisas",
+     "i": 3.631,
+     "f": 4.083
+    },
+    {
+     "p": "o",
+     "i": 4.357,
+     "f": 4.429
+    },
+    {
+     "p": "que",
+     "i": 4.44,
+     "f": 4.559
+    },
+    {
+     "p": "é",
+     "i": 4.571,
+     "f": 4.631
+    },
+    {
+     "p": "um",
+     "i": 4.643,
+     "f": 4.774
+    },
+    {
+     "p": "token",
+     "i": 4.786,
+     "f": 5.167
+    },
+    {
+     "p": "o",
+     "i": 5.417,
+     "f": 5.476
+    },
+    {
+     "p": "que",
+     "i": 5.488,
+     "f": 5.607
+    },
+    {
+     "p": "é",
+     "i": 5.619,
+     "f": 5.714
+    },
+    {
+     "p": "a",
+     "i": 5.726,
+     "f": 5.75
+    },
+    {
+     "p": "janela",
+     "i": 5.762,
+     "f": 6.167
+    },
+    {
+     "p": "de",
+     "i": 6.179,
+     "f": 6.25
+    },
+    {
+     "p": "contexto",
+     "i": 6.262,
+     "f": 6.857
+    },
+    {
+     "p": "e",
+     "i": 7.155,
+     "f": 7.238
+    },
+    {
+     "p": "por",
+     "i": 7.25,
+     "f": 7.405
+    },
+    {
+     "p": "que",
+     "i": 7.417,
+     "f": 7.571
+    },
+    {
+     "p": "conversa",
+     "i": 7.583,
+     "f": 8.083
+    },
+    {
+     "p": "nova",
+     "i": 8.095,
+     "f": 8.345
+    },
+    {
+     "p": "economiza",
+     "i": 8.357,
+     "f": 8.917
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "92b88a3c02",
+   "texto": "Token é um pedaço de texto. Pode ser uma palavra curta, parte de uma palavra longa ou um sinal. Tudo na IA é medido assim. O que você envia é token de entrada. O que ela responde é token de saída.",
+   "audio": "audio/conceito-92b88a3c02.mp3",
+   "duracao": 15.864,
+   "palavras": [
+    {
+     "p": "Token",
+     "i": 0.098,
+     "f": 0.502
+    },
+    {
+     "p": "é",
+     "i": 0.514,
+     "f": 0.55
+    },
+    {
+     "p": "um",
+     "i": 0.562,
+     "f": 0.669
+    },
+    {
+     "p": "pedaço",
+     "i": 0.681,
+     "f": 1.133
+    },
+    {
+     "p": "de",
+     "i": 1.145,
+     "f": 1.288
+    },
+    {
+     "p": "texto",
+     "i": 1.3,
+     "f": 1.693
+    },
+    {
+     "p": "Pode",
+     "i": 2.512,
+     "f": 2.774
+    },
+    {
+     "p": "ser",
+     "i": 2.786,
+     "f": 2.94
+    },
+    {
+     "p": "uma",
+     "i": 2.952,
+     "f": 3.095
+    },
+    {
+     "p": "palavra",
+     "i": 3.107,
+     "f": 3.452
+    },
+    {
+     "p": "curta",
+     "i": 3.464,
+     "f": 3.845
+    },
+    {
+     "p": "parte",
+     "i": 4.107,
+     "f": 4.464
+    },
+    {
+     "p": "de",
+     "i": 4.476,
+     "f": 4.536
+    },
+    {
+     "p": "uma",
+     "i": 4.548,
+     "f": 4.679
+    },
+    {
+     "p": "palavra",
+     "i": 4.69,
+     "f": 5.036
+    },
+    {
+     "p": "longa",
+     "i": 5.048,
+     "f": 5.488
+    },
+    {
+     "p": "ou",
+     "i": 5.5,
+     "f": 5.583
+    },
+    {
+     "p": "um",
+     "i": 5.595,
+     "f": 5.691
+    },
+    {
+     "p": "sinal",
+     "i": 5.702,
+     "f": 6.059
+    },
+    {
+     "p": "Tudo",
+     "i": 6.881,
+     "f": 7.131
+    },
+    {
+     "p": "na",
+     "i": 7.143,
+     "f": 7.226
+    },
+    {
+     "p": "IA",
+     "i": 7.238,
+     "f": 8.488
+    },
+    {
+     "p": "é",
+     "i": 8.5,
+     "f": 8.536
+    },
+    {
+     "p": "medido",
+     "i": 8.548,
+     "f": 8.917
+    },
+    {
+     "p": "assim",
+     "i": 8.929,
+     "f": 9.286
+    },
+    {
+     "p": "O",
+     "i": 10.107,
+     "f": 10.214
+    },
+    {
+     "p": "que",
+     "i": 10.226,
+     "f": 10.369
+    },
+    {
+     "p": "você",
+     "i": 10.381,
+     "f": 10.655
+    },
+    {
+     "p": "envia",
+     "i": 10.667,
+     "f": 11.012
+    },
+    {
+     "p": "é",
+     "i": 11.024,
+     "f": 11.083
+    },
+    {
+     "p": "token",
+     "i": 11.095,
+     "f": 11.5
+    },
+    {
+     "p": "de",
+     "i": 11.512,
+     "f": 11.607
+    },
+    {
+     "p": "entrada",
+     "i": 11.619,
+     "f": 12.095
+    },
+    {
+     "p": "O",
+     "i": 12.917,
+     "f": 13.036
+    },
+    {
+     "p": "que",
+     "i": 13.048,
+     "f": 13.191
+    },
+    {
+     "p": "ela",
+     "i": 13.202,
+     "f": 13.393
+    },
+    {
+     "p": "responde",
+     "i": 13.405,
+     "f": 13.929
+    },
+    {
+     "p": "é",
+     "i": 13.94,
+     "f": 13.976
+    },
+    {
+     "p": "token",
+     "i": 13.988,
+     "f": 14.393
+    },
+    {
+     "p": "de",
+     "i": 14.405,
+     "f": 14.512
+    },
+    {
+     "p": "saída",
+     "i": 14.524,
+     "f": 15.036
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "888943f521",
+   "texto": "Imagine a mesa de trabalho da IA. Essa mesa é a janela de contexto: tudo que cabe nela, a IA enxerga. Sua conversa, seus arquivos e as respostas dela. No Claude, a mesa chega a 1 milhão de tokens.",
+   "audio": "audio/analogia-888943f521.mp3",
+   "duracao": 17.184,
+   "palavras": [
+    {
+     "p": "Imagine",
+     "i": 0.098,
+     "f": 0.621
+    },
+    {
+     "p": "a",
+     "i": 0.633,
+     "f": 0.681
+    },
+    {
+     "p": "mesa",
+     "i": 0.693,
+     "f": 1.002
+    },
+    {
+     "p": "de",
+     "i": 1.014,
+     "f": 1.11
+    },
+    {
+     "p": "trabalho",
+     "i": 1.121,
+     "f": 1.586
+    },
+    {
+     "p": "da",
+     "i": 1.598,
+     "f": 1.681
+    },
+    {
+     "p": "IA",
+     "i": 1.693,
+     "f": 2.979
+    },
+    {
+     "p": "Essa",
+     "i": 3.798,
+     "f": 4.095
+    },
+    {
+     "p": "mesa",
+     "i": 4.107,
+     "f": 4.452
+    },
+    {
+     "p": "é",
+     "i": 4.464,
+     "f": 4.536
+    },
+    {
+     "p": "a",
+     "i": 4.548,
+     "f": 4.571
+    },
+    {
+     "p": "janela",
+     "i": 4.583,
+     "f": 5.012
+    },
+    {
+     "p": "de",
+     "i": 5.024,
+     "f": 5.095
+    },
+    {
+     "p": "contexto",
+     "i": 5.107,
+     "f": 5.714
+    },
+    {
+     "p": "tudo",
+     "i": 6.024,
+     "f": 6.298
+    },
+    {
+     "p": "que",
+     "i": 6.31,
+     "f": 6.429
+    },
+    {
+     "p": "cabe",
+     "i": 6.44,
+     "f": 6.69
+    },
+    {
+     "p": "nela",
+     "i": 6.702,
+     "f": 7.048
+    },
+    {
+     "p": "a",
+     "i": 7.202,
+     "f": 7.262
+    },
+    {
+     "p": "IA",
+     "i": 7.274,
+     "f": 8.488
+    },
+    {
+     "p": "enxerga",
+     "i": 8.5,
+     "f": 9.012
+    },
+    {
+     "p": "Sua",
+     "i": 9.833,
+     "f": 10.107
+    },
+    {
+     "p": "conversa",
+     "i": 10.119,
+     "f": 10.702
+    },
+    {
+     "p": "seus",
+     "i": 10.952,
+     "f": 11.107
+    },
+    {
+     "p": "arquivos",
+     "i": 11.119,
+     "f": 11.655
+    },
+    {
+     "p": "e",
+     "i": 11.667,
+     "f": 11.786
+    },
+    {
+     "p": "as",
+     "i": 11.798,
+     "f": 11.893
+    },
+    {
+     "p": "respostas",
+     "i": 11.905,
+     "f": 12.476
+    },
+    {
+     "p": "dela",
+     "i": 12.488,
+     "f": 12.833
+    },
+    {
+     "p": "No",
+     "i": 13.655,
+     "f": 13.833
+    },
+    {
+     "p": "Claude",
+     "i": 13.845,
+     "f": 14.25
+    },
+    {
+     "p": "a",
+     "i": 14.452,
+     "f": 14.536
+    },
+    {
+     "p": "mesa",
+     "i": 14.548,
+     "f": 14.845
+    },
+    {
+     "p": "chega",
+     "i": 14.857,
+     "f": 15.131
+    },
+    {
+     "p": "a",
+     "i": 15.143,
+     "f": 15.167
+    },
+    {
+     "p": "1 milhão",
+     "i": 15.179,
+     "f": 15.667
+    },
+    {
+     "p": "de",
+     "i": 15.679,
+     "f": 15.81
+    },
+    {
+     "p": "tokens",
+     "i": 15.821,
+     "f": 16.357
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "78379f92ca",
+   "texto": "Veja o custo. Em outubro de 2026, o Claude Sonnet 5.5 cobra 2 dólares por milhão de tokens de entrada e 10 dólares por milhão de saída. E a cada mensagem, a conversa inteira é enviada de novo.",
+   "audio": "audio/exemplo-78379f92ca.mp3",
+   "duracao": 14.928,
+   "palavras": [
+    {
+     "p": "Veja",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "o",
+     "i": 0.455,
+     "f": 0.502
+    },
+    {
+     "p": "custo",
+     "i": 0.514,
+     "f": 0.919
+    },
+    {
+     "p": "Em",
+     "i": 1.738,
+     "f": 1.881
+    },
+    {
+     "p": "outubro",
+     "i": 1.893,
+     "f": 2.357
+    },
+    {
+     "p": "de",
+     "i": 2.369,
+     "f": 2.44
+    },
+    {
+     "p": "2026",
+     "i": 2.452,
+     "f": 3.417
+    },
+    {
+     "p": "o",
+     "i": 3.738,
+     "f": 3.809
+    },
+    {
+     "p": "Claude",
+     "i": 3.821,
+     "f": 4.143
+    },
+    {
+     "p": "Sonnet",
+     "i": 4.155,
+     "f": 4.512
+    },
+    {
+     "p": "5.5 cobra",
+     "i": 4.524,
+     "f": 5.845
+    },
+    {
+     "p": "2 dólares",
+     "i": 5.857,
+     "f": 6.548
+    },
+    {
+     "p": "por",
+     "i": 6.56,
+     "f": 6.702
+    },
+    {
+     "p": "milhão",
+     "i": 6.714,
+     "f": 7.012
+    },
+    {
+     "p": "de",
+     "i": 7.024,
+     "f": 7.155
+    },
+    {
+     "p": "tokens",
+     "i": 7.167,
+     "f": 7.56
+    },
+    {
+     "p": "de",
+     "i": 7.571,
+     "f": 7.643
+    },
+    {
+     "p": "entrada",
+     "i": 7.655,
+     "f": 8.059
+    },
+    {
+     "p": "e",
+     "i": 8.071,
+     "f": 8.107
+    },
+    {
+     "p": "10 dólares",
+     "i": 8.119,
+     "f": 8.857
+    },
+    {
+     "p": "por",
+     "i": 8.869,
+     "f": 9.024
+    },
+    {
+     "p": "milhão",
+     "i": 9.036,
+     "f": 9.405
+    },
+    {
+     "p": "de",
+     "i": 9.417,
+     "f": 9.512
+    },
+    {
+     "p": "saída",
+     "i": 9.524,
+     "f": 9.976
+    },
+    {
+     "p": "E",
+     "i": 10.798,
+     "f": 10.905
+    },
+    {
+     "p": "a",
+     "i": 10.917,
+     "f": 11.012
+    },
+    {
+     "p": "cada",
+     "i": 11.024,
+     "f": 11.262
+    },
+    {
+     "p": "mensagem",
+     "i": 11.274,
+     "f": 11.893
+    },
+    {
+     "p": "a",
+     "i": 12.119,
+     "f": 12.167
+    },
+    {
+     "p": "conversa",
+     "i": 12.179,
+     "f": 12.655
+    },
+    {
+     "p": "inteira",
+     "i": 12.667,
+     "f": 13.06
+    },
+    {
+     "p": "é",
+     "i": 13.071,
+     "f": 13.131
+    },
+    {
+     "p": "enviada",
+     "i": 13.143,
+     "f": 13.631
+    },
+    {
+     "p": "de",
+     "i": 13.643,
+     "f": 13.738
+    },
+    {
+     "p": "novo",
+     "i": 13.75,
+     "f": 14.107
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "2663974bda",
+   "texto": "O erro comum: usar a mesma conversa para tudo. Receita, trabalho, viagem, tudo junto. Isso gasta tokens à toa. E mais texto nem sempre ajuda: quanto mais cresce, mais a precisão pode cair.",
+   "audio": "audio/erro-comum-2663974bda.mp3",
+   "duracao": 15.36,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "erro",
+     "i": 0.252,
+     "f": 0.467
+    },
+    {
+     "p": "comum",
+     "i": 0.479,
+     "f": 0.836
+    },
+    {
+     "p": "usar",
+     "i": 1.157,
+     "f": 1.431
+    },
+    {
+     "p": "a",
+     "i": 1.443,
+     "f": 1.49
+    },
+    {
+     "p": "mesma",
+     "i": 1.502,
+     "f": 1.824
+    },
+    {
+     "p": "conversa",
+     "i": 1.836,
+     "f": 2.371
+    },
+    {
+     "p": "para",
+     "i": 2.383,
+     "f": 2.598
+    },
+    {
+     "p": "tudo",
+     "i": 2.61,
+     "f": 2.919
+    },
+    {
+     "p": "Receita",
+     "i": 3.738,
+     "f": 4.369
+    },
+    {
+     "p": "trabalho",
+     "i": 4.536,
+     "f": 5.036
+    },
+    {
+     "p": "viagem",
+     "i": 5.357,
+     "f": 5.893
+    },
+    {
+     "p": "tudo",
+     "i": 6.119,
+     "f": 6.44
+    },
+    {
+     "p": "junto",
+     "i": 6.452,
+     "f": 6.821
+    },
+    {
+     "p": "Isso",
+     "i": 7.643,
+     "f": 7.941
+    },
+    {
+     "p": "gasta",
+     "i": 7.952,
+     "f": 8.321
+    },
+    {
+     "p": "tokens",
+     "i": 8.333,
+     "f": 8.667
+    },
+    {
+     "p": "à",
+     "i": 8.679,
+     "f": 8.821
+    },
+    {
+     "p": "toa",
+     "i": 8.833,
+     "f": 9.167
+    },
+    {
+     "p": "E",
+     "i": 9.988,
+     "f": 10.083
+    },
+    {
+     "p": "mais",
+     "i": 10.095,
+     "f": 10.381
+    },
+    {
+     "p": "texto",
+     "i": 10.393,
+     "f": 10.714
+    },
+    {
+     "p": "nem",
+     "i": 10.726,
+     "f": 10.929
+    },
+    {
+     "p": "sempre",
+     "i": 10.94,
+     "f": 11.309
+    },
+    {
+     "p": "ajuda",
+     "i": 11.321,
+     "f": 11.762
+    },
+    {
+     "p": "quanto",
+     "i": 12.012,
+     "f": 12.298
+    },
+    {
+     "p": "mais",
+     "i": 12.31,
+     "f": 12.512
+    },
+    {
+     "p": "cresce",
+     "i": 12.524,
+     "f": 12.929
+    },
+    {
+     "p": "mais",
+     "i": 13.179,
+     "f": 13.381
+    },
+    {
+     "p": "a",
+     "i": 13.393,
+     "f": 13.5
+    },
+    {
+     "p": "precisão",
+     "i": 13.512,
+     "f": 13.94
+    },
+    {
+     "p": "pode",
+     "i": 13.952,
+     "f": 14.19
+    },
+    {
+     "p": "cair",
+     "i": 14.202,
+     "f": 14.536
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "438fbd6fdb",
+   "texto": "Pause o vídeo e tente: abra duas conversas, uma para cada assunto, e compare as respostas.",
+   "audio": "audio/pratica-438fbd6fdb.mp3",
+   "duracao": 6.432,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "o",
+     "i": 0.407,
+     "f": 0.455
+    },
+    {
+     "p": "vídeo",
+     "i": 0.467,
+     "f": 0.776
+    },
+    {
+     "p": "e",
+     "i": 0.788,
+     "f": 0.848
+    },
+    {
+     "p": "tente",
+     "i": 0.86,
+     "f": 1.229
+    },
+    {
+     "p": "abra",
+     "i": 1.407,
+     "f": 1.681
+    },
+    {
+     "p": "duas",
+     "i": 1.693,
+     "f": 2.014
+    },
+    {
+     "p": "conversas",
+     "i": 2.026,
+     "f": 2.705
+    },
+    {
+     "p": "uma",
+     "i": 2.99,
+     "f": 3.181
+    },
+    {
+     "p": "para",
+     "i": 3.193,
+     "f": 3.395
+    },
+    {
+     "p": "cada",
+     "i": 3.407,
+     "f": 3.633
+    },
+    {
+     "p": "assunto",
+     "i": 3.645,
+     "f": 4.086
+    },
+    {
+     "p": "e",
+     "i": 4.324,
+     "f": 4.395
+    },
+    {
+     "p": "compare",
+     "i": 4.407,
+     "f": 4.776
+    },
+    {
+     "p": "as",
+     "i": 4.788,
+     "f": 4.859
+    },
+    {
+     "p": "respostas",
+     "i": 4.871,
+     "f": 5.598
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "d8df006ee4",
+   "texto": "Resumindo. Um: token é o pedaço de texto que a IA mede e cobra. Dois: a janela de contexto é a mesa de trabalho, de até 1 milhão de tokens. Três: assunto novo, conversa nova.",
+   "audio": "audio/resumo-d8df006ee4.mp3",
+   "duracao": 15.264,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.812
+    },
+    {
+     "p": "Um",
+     "i": 1.631,
+     "f": 1.857
+    },
+    {
+     "p": "token",
+     "i": 2.155,
+     "f": 2.548
+    },
+    {
+     "p": "é",
+     "i": 2.56,
+     "f": 2.607
+    },
+    {
+     "p": "o",
+     "i": 2.619,
+     "f": 2.667
+    },
+    {
+     "p": "pedaço",
+     "i": 2.679,
+     "f": 3.107
+    },
+    {
+     "p": "de",
+     "i": 3.119,
+     "f": 3.262
+    },
+    {
+     "p": "texto",
+     "i": 3.274,
+     "f": 3.631
+    },
+    {
+     "p": "que",
+     "i": 3.643,
+     "f": 3.714
+    },
+    {
+     "p": "a",
+     "i": 3.726,
+     "f": 3.75
+    },
+    {
+     "p": "IA",
+     "i": 3.762,
+     "f": 4.881
+    },
+    {
+     "p": "mede",
+     "i": 4.893,
+     "f": 5.191
+    },
+    {
+     "p": "e",
+     "i": 5.202,
+     "f": 5.226
+    },
+    {
+     "p": "cobra",
+     "i": 5.238,
+     "f": 5.619
+    },
+    {
+     "p": "Dois",
+     "i": 6.44,
+     "f": 6.869
+    },
+    {
+     "p": "a",
+     "i": 7.131,
+     "f": 7.179
+    },
+    {
+     "p": "janela",
+     "i": 7.19,
+     "f": 7.559
+    },
+    {
+     "p": "de",
+     "i": 7.571,
+     "f": 7.655
+    },
+    {
+     "p": "contexto",
+     "i": 7.667,
+     "f": 8.214
+    },
+    {
+     "p": "é",
+     "i": 8.226,
+     "f": 8.31
+    },
+    {
+     "p": "a",
+     "i": 8.321,
+     "f": 8.357
+    },
+    {
+     "p": "mesa",
+     "i": 8.369,
+     "f": 8.679
+    },
+    {
+     "p": "de",
+     "i": 8.69,
+     "f": 8.774
+    },
+    {
+     "p": "trabalho",
+     "i": 8.786,
+     "f": 9.274
+    },
+    {
+     "p": "de",
+     "i": 9.512,
+     "f": 9.595
+    },
+    {
+     "p": "até",
+     "i": 9.607,
+     "f": 9.833
+    },
+    {
+     "p": "1 milhão",
+     "i": 9.845,
+     "f": 10.274
+    },
+    {
+     "p": "de",
+     "i": 10.286,
+     "f": 10.429
+    },
+    {
+     "p": "tokens",
+     "i": 10.44,
+     "f": 10.988
+    },
+    {
+     "p": "Três",
+     "i": 11.81,
+     "f": 12.214
+    },
+    {
+     "p": "assunto",
+     "i": 12.417,
+     "f": 12.881
+    },
+    {
+     "p": "novo",
+     "i": 12.893,
+     "f": 13.25
+    },
+    {
+     "p": "conversa",
+     "i": 13.512,
+     "f": 14.071
+    },
+    {
+     "p": "nova",
+     "i": 14.083,
+     "f": 14.44
+    }
+   ]
+  },
+  "final": {
+   "hash": "9bf386145a",
+   "texto": "Quiz: assunto novo no meio de uma conversa longa. O que fazer? Um, continuar na mesma. Dois, abrir uma conversa nova. A resposta é a dois: gasta menos tokens e a IA foca no que importa. Na próxima aula, alucinação e limites da IA.",
+   "audio": "audio/final-9bf386145a.mp3",
+   "duracao": 21.216,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "assunto",
+     "i": 0.729,
+     "f": 1.133
+    },
+    {
+     "p": "novo",
+     "i": 1.145,
+     "f": 1.455
+    },
+    {
+     "p": "no",
+     "i": 1.467,
+     "f": 1.55
+    },
+    {
+     "p": "meio",
+     "i": 1.562,
+     "f": 1.824
+    },
+    {
+     "p": "de",
+     "i": 1.836,
+     "f": 1.907
+    },
+    {
+     "p": "uma",
+     "i": 1.919,
+     "f": 2.026
+    },
+    {
+     "p": "conversa",
+     "i": 2.038,
+     "f": 2.562
+    },
+    {
+     "p": "longa",
+     "i": 2.574,
+     "f": 3.002
+    },
+    {
+     "p": "O",
+     "i": 3.821,
+     "f": 3.94
+    },
+    {
+     "p": "que",
+     "i": 3.952,
+     "f": 4.107
+    },
+    {
+     "p": "fazer",
+     "i": 4.119,
+     "f": 4.524
+    },
+    {
+     "p": "Um",
+     "i": 5.345,
+     "f": 5.595
+    },
+    {
+     "p": "continuar",
+     "i": 5.845,
+     "f": 6.464
+    },
+    {
+     "p": "na",
+     "i": 6.476,
+     "f": 6.583
+    },
+    {
+     "p": "mesma",
+     "i": 6.595,
+     "f": 7.012
+    },
+    {
+     "p": "Dois",
+     "i": 7.833,
+     "f": 8.286
+    },
+    {
+     "p": "abrir",
+     "i": 8.571,
+     "f": 8.893
+    },
+    {
+     "p": "uma",
+     "i": 8.905,
+     "f": 9.036
+    },
+    {
+     "p": "conversa",
+     "i": 9.048,
+     "f": 9.571
+    },
+    {
+     "p": "nova",
+     "i": 9.583,
+     "f": 9.94
+    },
+    {
+     "p": "A",
+     "i": 10.762,
+     "f": 10.857
+    },
+    {
+     "p": "resposta",
+     "i": 10.869,
+     "f": 11.417
+    },
+    {
+     "p": "é",
+     "i": 11.429,
+     "f": 11.488
+    },
+    {
+     "p": "a",
+     "i": 11.5,
+     "f": 11.548
+    },
+    {
+     "p": "dois",
+     "i": 11.56,
+     "f": 11.929
+    },
+    {
+     "p": "gasta",
+     "i": 12.155,
+     "f": 12.536
+    },
+    {
+     "p": "menos",
+     "i": 12.548,
+     "f": 12.917
+    },
+    {
+     "p": "tokens",
+     "i": 12.929,
+     "f": 13.31
+    },
+    {
+     "p": "e",
+     "i": 13.321,
+     "f": 13.417
+    },
+    {
+     "p": "a",
+     "i": 13.429,
+     "f": 13.464
+    },
+    {
+     "p": "IA",
+     "i": 13.476,
+     "f": 14.607
+    },
+    {
+     "p": "foca",
+     "i": 14.619,
+     "f": 14.976
+    },
+    {
+     "p": "no",
+     "i": 14.988,
+     "f": 15.071
+    },
+    {
+     "p": "que",
+     "i": 15.083,
+     "f": 15.167
+    },
+    {
+     "p": "importa",
+     "i": 15.179,
+     "f": 15.714
+    },
+    {
+     "p": "Na",
+     "i": 16.536,
+     "f": 16.714
+    },
+    {
+     "p": "próxima",
+     "i": 16.726,
+     "f": 17.167
+    },
+    {
+     "p": "aula",
+     "i": 17.179,
+     "f": 17.512
+    },
+    {
+     "p": "alucinação",
+     "i": 17.762,
+     "f": 18.452
+    },
+    {
+     "p": "e",
+     "i": 18.464,
+     "f": 18.488
+    },
+    {
+     "p": "limites",
+     "i": 18.5,
+     "f": 18.964
+    },
+    {
+     "p": "da",
+     "i": 18.976,
+     "f": 19.06
+    },
+    {
+     "p": "IA",
+     "i": 19.071,
+     "f": 20.381
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic, criadora do Claude",
+   "wiki": "Anthropic"
+  },
+  "ia": {
+   "arquivo": "imagens/ia-acfc2791.jpg",
+   "rotulo": "Inteligência artificial",
+   "wiki": "Inteligência artificial",
+   "commons": "artificial intelligence neural network",
+   "autor": "mikemacmarketing / original posted on flickr Liam Huang / clipped and posted on flickr",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Artificial_Neural_Network_with_Chip.png",
+   "titulo": "File:Artificial Neural Network with Chip.png"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.939Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Context windows (documentação)",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+  },
+  {
+   "titulo": "Anthropic — Pricing (documentação)",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }
