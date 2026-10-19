@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-ynww",
- "titulo": "Aula 2.3: Iterar com a IA como um especialista — mostre 3 frases que m",
+ "titulo": "Aula 2.3: 3 frases que melhoram qualquer resposta da IA",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.940Z",
- "atualizadoEm": "2026-10-19T22:26:17.940Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:35:56Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 2.3: Iterar com a IA como um especialista — mostre 3 frases que melhoram qualquer resposta: peça para a IA te entrevistar antes, peça autocrítica como especialista exigente e peça 3 versões diferentes, com um exemplo de plano de negócios melhorando a cada rodada",
@@ -62,11 +63,1920 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você já aceitou a primeira resposta da IA, mesmo achando que podia ser melhor? Quase todo mundo faz isso. Hoje você aprende a melhorar qualquer resposta.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "1ª RESPOSTA?",
+     "em": "primeira",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "PODE MELHORAR",
+     "cor": "amarelo",
+     "em": "melhor?",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "ITERAR COM A IA",
+     "em": "aprende",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 2.3. Você vai aprender três frases: peça para a IA te entrevistar, peça autocrítica e peça três versões.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ITERAR COMO ESPECIALISTA",
+     "sub": "AULA 2.3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Entrevista"
+      ],
+      [
+       "alvo",
+       "Autocrítica"
+      ],
+      [
+       "documento",
+       "3 versões"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 FRASES",
+     "icone": "check",
+     "em": "frases:",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Iterar é melhorar em rodadas: você pede, avalia, ajusta e pede de novo. A própria OpenAI recomenda esse ciclo: escrever, revisar a resposta e refinar o prompt, que é o texto que você envia à IA.",
+   "fontes": [
+    "OpenAI — Prompt engineering best practices"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ITERAR",
+     "sub": "melhorar em rodadas",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Pedir"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "Avaliar"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "mais",
+       "Ajustar"
+      ]
+     ],
+     "em": "pede,",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Prompt",
+     "significado": "o texto que você envia à IA",
+     "em": "prompt,",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num arquiteto. Ele não desenha a casa de primeira. Ele pergunta, faz um rascunho, critica e refaz. Com a IA é igual.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "COMO UM ARQUITETO",
+     "icone": "casa",
+     "em": "arquiteto.",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Pergunta"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "documento",
+       "Rascunho"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "casa",
+       "Casa"
+      ]
+     ],
+     "em": "pergunta,",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "COM A IA É IGUAL",
+     "cor": "azul",
+     "em": "igual.",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "frase-1",
+   "texto": "Exemplo: um plano de negócios para uma cafeteria. Frase um: antes de responder, me entrevista com cinco perguntas. A IA pergunta sobre público, local e orçamento, e o plano deixa de ser genérico.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FRASE 1: ENTREVISTA",
+     "sub": "plano de negócios · cafeteria",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Antes de responder, me entrevista com 5 perguntas.",
+     "em": "Frase",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pin",
+       "Local"
+      ],
+      [
+       "casa",
+       "Público"
+      ],
+      [
+       "dinheiro",
+       "Orçamento"
+      ]
+     ],
+     "em": "público,",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Plano sob medida",
+     "nota": "menos genérico",
+     "em": "genérico.",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "frase-2",
+   "texto": "Frase dois: agora critique esse plano como um investidor exigente e liste os pontos fracos. A IA aponta que o preço está baixo e falta o custo do aluguel.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FRASE 2: AUTOCRÍTICA",
+     "sub": "rodada 2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Critique como um investidor exigente.",
+     "em": "critique",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Preço baixo",
+     "icone": "alerta",
+     "cor": "vermelho",
+     "em": "preço",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Falta o aluguel",
+     "icone": "x",
+     "cor": "vermelho",
+     "em": "aluguel.",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "frase-3",
+   "texto": "Frase três: reescreva em três versões diferentes: uma barata, uma premium e uma ousada. Você compara e escolhe. O plano melhorou a cada rodada.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FRASE 3: 3 VERSÕES",
+     "sub": "rodada 3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "Barata"
+      ],
+      [
+       "alvo",
+       "Premium"
+      ],
+      [
+       "alerta",
+       "Ousada"
+      ]
+     ],
+     "em": "barata,",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 1,
+     "ate": 3,
+     "unidade": " rodadas",
+     "rotulo": "o plano melhorou",
+     "em": "melhorou",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: aceitar a primeira resposta, ou pedir um ajuste vago, como melhore isso. Diga o que melhorar e por quê.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Melhore isso",
+     "nota": "vago demais",
+     "em": "vago,",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Corte o preço e some o aluguel",
+     "nota": "diga o que e por quê",
+     "em": "Diga",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: peça um plano para algo seu e use as três frases em sequência.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL É O SEU PLANO?",
+     "em": "plano",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "1"
+      ],
+      [
+       "alvo",
+       "2"
+      ],
+      [
+       "documento",
+       "3"
+      ]
+     ],
+     "em": "três",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo: peça entrevista, peça autocrítica, peça três versões.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Entrevista"
+      ],
+      [
+       "alvo",
+       "Autocrítica"
+      ],
+      [
+       "documento",
+       "3 versões"
+      ]
+     ],
+     "em": "entrevista,",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: o que a autocrítica faz? Um, aponta falhas da resposta. Dois, apaga a conversa. Pausa. A resposta é a um: a IA revisa o próprio trabalho como um especialista exigente. Na próxima aula, Projetos, instruções e memória no Claude.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "O que a autocrítica faz?",
+     "opcoes": [
+      "Aponta falhas",
+      "Apaga a conversa"
+     ],
+     "em": "Quiz:",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 1",
+     "cor": "verde",
+     "em": "resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 2.4",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "88537e3829",
+   "texto": "Você já aceitou a primeira resposta da IA, mesmo achando que podia ser melhor? Quase todo mundo faz isso. Hoje você aprende a melhorar qualquer resposta.",
+   "audio": "audio/gancho-88537e3829.mp3",
+   "duracao": 11.568,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "já",
+     "i": 0.419,
+     "f": 0.538
+    },
+    {
+     "p": "aceitou",
+     "i": 0.55,
+     "f": 0.907
+    },
+    {
+     "p": "a",
+     "i": 0.919,
+     "f": 0.967
+    },
+    {
+     "p": "primeira",
+     "i": 0.979,
+     "f": 1.288
+    },
+    {
+     "p": "resposta",
+     "i": 1.3,
+     "f": 1.824
+    },
+    {
+     "p": "da",
+     "i": 1.836,
+     "f": 1.907
+    },
+    {
+     "p": "IA",
+     "i": 1.919,
+     "f": 3.121
+    },
+    {
+     "p": "mesmo",
+     "i": 3.36,
+     "f": 3.633
+    },
+    {
+     "p": "achando",
+     "i": 3.645,
+     "f": 3.979
+    },
+    {
+     "p": "que",
+     "i": 3.99,
+     "f": 4.086
+    },
+    {
+     "p": "podia",
+     "i": 4.098,
+     "f": 4.395
+    },
+    {
+     "p": "ser",
+     "i": 4.407,
+     "f": 4.574
+    },
+    {
+     "p": "melhor",
+     "i": 4.586,
+     "f": 4.967
+    },
+    {
+     "p": "Quase",
+     "i": 5.786,
+     "f": 6.202
+    },
+    {
+     "p": "todo",
+     "i": 6.214,
+     "f": 6.5
+    },
+    {
+     "p": "mundo",
+     "i": 6.512,
+     "f": 6.821
+    },
+    {
+     "p": "faz",
+     "i": 6.833,
+     "f": 7.024
+    },
+    {
+     "p": "isso",
+     "i": 7.036,
+     "f": 7.488
+    },
+    {
+     "p": "Hoje",
+     "i": 8.31,
+     "f": 8.619
+    },
+    {
+     "p": "você",
+     "i": 8.631,
+     "f": 8.869
+    },
+    {
+     "p": "aprende",
+     "i": 8.881,
+     "f": 9.238
+    },
+    {
+     "p": "a",
+     "i": 9.25,
+     "f": 9.274
+    },
+    {
+     "p": "melhorar",
+     "i": 9.286,
+     "f": 9.714
+    },
+    {
+     "p": "qualquer",
+     "i": 9.726,
+     "f": 10.131
+    },
+    {
+     "p": "resposta",
+     "i": 10.143,
+     "f": 10.726
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "78a734e972",
+   "texto": "Aula 2.3. Você vai aprender três frases: peça para a IA te entrevistar, peça autocrítica e peça três versões.",
+   "audio": "audio/promessa-78a734e972.mp3",
+   "duracao": 9.816,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "2.3",
+     "i": 0.431,
+     "f": 1.49
+    },
+    {
+     "p": "Você",
+     "i": 2.31,
+     "f": 2.643
+    },
+    {
+     "p": "vai",
+     "i": 2.655,
+     "f": 2.75
+    },
+    {
+     "p": "aprender",
+     "i": 2.762,
+     "f": 3.143
+    },
+    {
+     "p": "três",
+     "i": 3.155,
+     "f": 3.44
+    },
+    {
+     "p": "frases",
+     "i": 3.452,
+     "f": 3.976
+    },
+    {
+     "p": "peça",
+     "i": 4.238,
+     "f": 4.571
+    },
+    {
+     "p": "para",
+     "i": 4.583,
+     "f": 4.714
+    },
+    {
+     "p": "a",
+     "i": 4.726,
+     "f": 4.738
+    },
+    {
+     "p": "IA",
+     "i": 4.75,
+     "f": 5.857
+    },
+    {
+     "p": "te",
+     "i": 5.869,
+     "f": 5.964
+    },
+    {
+     "p": "entrevistar",
+     "i": 5.976,
+     "f": 6.536
+    },
+    {
+     "p": "peça",
+     "i": 6.774,
+     "f": 7.048
+    },
+    {
+     "p": "autocrítica",
+     "i": 7.06,
+     "f": 7.69
+    },
+    {
+     "p": "e",
+     "i": 7.702,
+     "f": 7.786
+    },
+    {
+     "p": "peça",
+     "i": 7.798,
+     "f": 8.107
+    },
+    {
+     "p": "três",
+     "i": 8.119,
+     "f": 8.417
+    },
+    {
+     "p": "versões",
+     "i": 8.429,
+     "f": 8.988
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "b7fcf12ecb",
+   "texto": "Iterar é melhorar em rodadas: você pede, avalia, ajusta e pede de novo. A própria OpenAI recomenda esse ciclo: escrever, revisar a resposta e refinar o prompt, que é o texto que você envia à IA.",
+   "audio": "audio/conceito-b7fcf12ecb.mp3",
+   "duracao": 14.544,
+   "palavras": [
+    {
+     "p": "Iterar",
+     "i": 0.098,
+     "f": 0.526
+    },
+    {
+     "p": "é",
+     "i": 0.538,
+     "f": 0.586
+    },
+    {
+     "p": "melhorar",
+     "i": 0.598,
+     "f": 0.979
+    },
+    {
+     "p": "em",
+     "i": 0.99,
+     "f": 1.05
+    },
+    {
+     "p": "rodadas",
+     "i": 1.062,
+     "f": 1.669
+    },
+    {
+     "p": "você",
+     "i": 1.86,
+     "f": 2.169
+    },
+    {
+     "p": "pede",
+     "i": 2.181,
+     "f": 2.598
+    },
+    {
+     "p": "avalia",
+     "i": 2.86,
+     "f": 3.407
+    },
+    {
+     "p": "ajusta",
+     "i": 3.621,
+     "f": 4.109
+    },
+    {
+     "p": "e",
+     "i": 4.121,
+     "f": 4.157
+    },
+    {
+     "p": "pede",
+     "i": 4.169,
+     "f": 4.479
+    },
+    {
+     "p": "de",
+     "i": 4.49,
+     "f": 4.586
+    },
+    {
+     "p": "novo",
+     "i": 4.598,
+     "f": 4.943
+    },
+    {
+     "p": "A",
+     "i": 5.762,
+     "f": 5.893
+    },
+    {
+     "p": "própria",
+     "i": 5.905,
+     "f": 6.298
+    },
+    {
+     "p": "OpenAI",
+     "i": 6.31,
+     "f": 6.762
+    },
+    {
+     "p": "recomenda",
+     "i": 6.774,
+     "f": 7.262
+    },
+    {
+     "p": "esse",
+     "i": 7.274,
+     "f": 7.452
+    },
+    {
+     "p": "ciclo",
+     "i": 7.464,
+     "f": 7.845
+    },
+    {
+     "p": "escrever",
+     "i": 8.048,
+     "f": 8.56
+    },
+    {
+     "p": "revisar",
+     "i": 8.774,
+     "f": 9.226
+    },
+    {
+     "p": "a",
+     "i": 9.238,
+     "f": 9.274
+    },
+    {
+     "p": "resposta",
+     "i": 9.286,
+     "f": 9.786
+    },
+    {
+     "p": "e",
+     "i": 9.798,
+     "f": 9.821
+    },
+    {
+     "p": "refinar",
+     "i": 9.833,
+     "f": 10.238
+    },
+    {
+     "p": "o",
+     "i": 10.25,
+     "f": 10.31
+    },
+    {
+     "p": "prompt",
+     "i": 10.321,
+     "f": 10.774
+    },
+    {
+     "p": "que",
+     "i": 10.988,
+     "f": 11.083
+    },
+    {
+     "p": "é",
+     "i": 11.095,
+     "f": 11.167
+    },
+    {
+     "p": "o",
+     "i": 11.179,
+     "f": 11.262
+    },
+    {
+     "p": "texto",
+     "i": 11.274,
+     "f": 11.655
+    },
+    {
+     "p": "que",
+     "i": 11.667,
+     "f": 11.762
+    },
+    {
+     "p": "você",
+     "i": 11.774,
+     "f": 12.012
+    },
+    {
+     "p": "envia",
+     "i": 12.024,
+     "f": 12.381
+    },
+    {
+     "p": "à",
+     "i": 12.393,
+     "f": 12.417
+    },
+    {
+     "p": "IA",
+     "i": 12.429,
+     "f": 13.702
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "70b3009319",
+   "texto": "Pense num arquiteto. Ele não desenha a casa de primeira. Ele pergunta, faz um rascunho, critica e refaz. Com a IA é igual.",
+   "audio": "audio/analogia-70b3009319.mp3",
+   "duracao": 11.352,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "num",
+     "i": 0.467,
+     "f": 0.633
+    },
+    {
+     "p": "arquiteto",
+     "i": 0.645,
+     "f": 1.217
+    },
+    {
+     "p": "Ele",
+     "i": 2.036,
+     "f": 2.202
+    },
+    {
+     "p": "não",
+     "i": 2.214,
+     "f": 2.345
+    },
+    {
+     "p": "desenha",
+     "i": 2.357,
+     "f": 2.738
+    },
+    {
+     "p": "a",
+     "i": 2.75,
+     "f": 2.774
+    },
+    {
+     "p": "casa",
+     "i": 2.786,
+     "f": 3.083
+    },
+    {
+     "p": "de",
+     "i": 3.095,
+     "f": 3.202
+    },
+    {
+     "p": "primeira",
+     "i": 3.214,
+     "f": 3.655
+    },
+    {
+     "p": "Ele",
+     "i": 4.476,
+     "f": 4.679
+    },
+    {
+     "p": "pergunta",
+     "i": 4.69,
+     "f": 5.214
+    },
+    {
+     "p": "faz",
+     "i": 5.476,
+     "f": 5.643
+    },
+    {
+     "p": "um",
+     "i": 5.655,
+     "f": 5.833
+    },
+    {
+     "p": "rascunho",
+     "i": 5.845,
+     "f": 6.381
+    },
+    {
+     "p": "critica",
+     "i": 6.583,
+     "f": 7.071
+    },
+    {
+     "p": "e",
+     "i": 7.083,
+     "f": 7.119
+    },
+    {
+     "p": "refaz",
+     "i": 7.131,
+     "f": 7.726
+    },
+    {
+     "p": "Com",
+     "i": 8.548,
+     "f": 8.702
+    },
+    {
+     "p": "a",
+     "i": 8.714,
+     "f": 8.738
+    },
+    {
+     "p": "IA",
+     "i": 8.75,
+     "f": 10
+    },
+    {
+     "p": "é",
+     "i": 10.012,
+     "f": 10.083
+    },
+    {
+     "p": "igual",
+     "i": 10.095,
+     "f": 10.512
+    }
+   ]
+  },
+  "frase-1": {
+   "hash": "004eb8dbba",
+   "texto": "Exemplo: um plano de negócios para uma cafeteria. Frase um: antes de responder, me entrevista com cinco perguntas. A IA pergunta sobre público, local e orçamento, e o plano deixa de ser genérico.",
+   "audio": "audio/frase-1-004eb8dbba.mp3",
+   "duracao": 15.36,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.098,
+     "f": 0.657
+    },
+    {
+     "p": "um",
+     "i": 0.86,
+     "f": 1.014
+    },
+    {
+     "p": "plano",
+     "i": 1.026,
+     "f": 1.324
+    },
+    {
+     "p": "de",
+     "i": 1.336,
+     "f": 1.419
+    },
+    {
+     "p": "negócios",
+     "i": 1.431,
+     "f": 1.967
+    },
+    {
+     "p": "para",
+     "i": 1.979,
+     "f": 2.157
+    },
+    {
+     "p": "uma",
+     "i": 2.169,
+     "f": 2.312
+    },
+    {
+     "p": "cafeteria",
+     "i": 2.324,
+     "f": 2.967
+    },
+    {
+     "p": "Frase",
+     "i": 3.786,
+     "f": 4.298
+    },
+    {
+     "p": "um",
+     "i": 4.31,
+     "f": 4.464
+    },
+    {
+     "p": "antes",
+     "i": 4.702,
+     "f": 5
+    },
+    {
+     "p": "de",
+     "i": 5.012,
+     "f": 5.095
+    },
+    {
+     "p": "responder",
+     "i": 5.107,
+     "f": 5.619
+    },
+    {
+     "p": "me",
+     "i": 5.917,
+     "f": 5.988
+    },
+    {
+     "p": "entrevista",
+     "i": 6,
+     "f": 6.583
+    },
+    {
+     "p": "com",
+     "i": 6.595,
+     "f": 6.774
+    },
+    {
+     "p": "cinco",
+     "i": 6.786,
+     "f": 7.19
+    },
+    {
+     "p": "perguntas",
+     "i": 7.202,
+     "f": 7.857
+    },
+    {
+     "p": "A",
+     "i": 8.679,
+     "f": 8.774
+    },
+    {
+     "p": "IA",
+     "i": 8.786,
+     "f": 9.964
+    },
+    {
+     "p": "pergunta",
+     "i": 9.976,
+     "f": 10.417
+    },
+    {
+     "p": "sobre",
+     "i": 10.429,
+     "f": 10.69
+    },
+    {
+     "p": "público",
+     "i": 10.702,
+     "f": 11.119
+    },
+    {
+     "p": "local",
+     "i": 11.429,
+     "f": 11.833
+    },
+    {
+     "p": "e",
+     "i": 11.845,
+     "f": 11.905
+    },
+    {
+     "p": "orçamento",
+     "i": 11.917,
+     "f": 12.488
+    },
+    {
+     "p": "e",
+     "i": 12.81,
+     "f": 12.893
+    },
+    {
+     "p": "o",
+     "i": 12.905,
+     "f": 12.964
+    },
+    {
+     "p": "plano",
+     "i": 12.976,
+     "f": 13.333
+    },
+    {
+     "p": "deixa",
+     "i": 13.345,
+     "f": 13.655
+    },
+    {
+     "p": "de",
+     "i": 13.667,
+     "f": 13.774
+    },
+    {
+     "p": "ser",
+     "i": 13.786,
+     "f": 13.976
+    },
+    {
+     "p": "genérico",
+     "i": 13.988,
+     "f": 14.536
+    }
+   ]
+  },
+  "frase-2": {
+   "hash": "f41808955b",
+   "texto": "Frase dois: agora critique esse plano como um investidor exigente e liste os pontos fracos. A IA aponta que o preço está baixo e falta o custo do aluguel.",
+   "audio": "audio/frase-2-f41808955b.mp3",
+   "duracao": 11.088,
+   "palavras": [
+    {
+     "p": "Frase",
+     "i": 0.098,
+     "f": 0.562
+    },
+    {
+     "p": "dois",
+     "i": 0.574,
+     "f": 0.955
+    },
+    {
+     "p": "agora",
+     "i": 1.217,
+     "f": 1.562
+    },
+    {
+     "p": "critique",
+     "i": 1.574,
+     "f": 1.99
+    },
+    {
+     "p": "esse",
+     "i": 2.002,
+     "f": 2.169
+    },
+    {
+     "p": "plano",
+     "i": 2.181,
+     "f": 2.526
+    },
+    {
+     "p": "como",
+     "i": 2.538,
+     "f": 2.705
+    },
+    {
+     "p": "um",
+     "i": 2.717,
+     "f": 2.764
+    },
+    {
+     "p": "investidor",
+     "i": 2.776,
+     "f": 3.288
+    },
+    {
+     "p": "exigente",
+     "i": 3.3,
+     "f": 3.788
+    },
+    {
+     "p": "e",
+     "i": 3.8,
+     "f": 3.824
+    },
+    {
+     "p": "liste",
+     "i": 3.836,
+     "f": 4.145
+    },
+    {
+     "p": "os",
+     "i": 4.157,
+     "f": 4.252
+    },
+    {
+     "p": "pontos",
+     "i": 4.264,
+     "f": 4.61
+    },
+    {
+     "p": "fracos",
+     "i": 4.621,
+     "f": 5.157
+    },
+    {
+     "p": "A",
+     "i": 5.976,
+     "f": 6.083
+    },
+    {
+     "p": "IA",
+     "i": 6.095,
+     "f": 7.321
+    },
+    {
+     "p": "aponta",
+     "i": 7.333,
+     "f": 7.774
+    },
+    {
+     "p": "que",
+     "i": 7.786,
+     "f": 7.857
+    },
+    {
+     "p": "o",
+     "i": 7.869,
+     "f": 7.917
+    },
+    {
+     "p": "preço",
+     "i": 7.929,
+     "f": 8.226
+    },
+    {
+     "p": "está",
+     "i": 8.238,
+     "f": 8.44
+    },
+    {
+     "p": "baixo",
+     "i": 8.452,
+     "f": 8.833
+    },
+    {
+     "p": "e",
+     "i": 8.845,
+     "f": 8.893
+    },
+    {
+     "p": "falta",
+     "i": 8.905,
+     "f": 9.238
+    },
+    {
+     "p": "o",
+     "i": 9.25,
+     "f": 9.298
+    },
+    {
+     "p": "custo",
+     "i": 9.31,
+     "f": 9.667
+    },
+    {
+     "p": "do",
+     "i": 9.679,
+     "f": 9.774
+    },
+    {
+     "p": "aluguel",
+     "i": 9.786,
+     "f": 10.25
+    }
+   ]
+  },
+  "frase-3": {
+   "hash": "baa215c5c4",
+   "texto": "Frase três: reescreva em três versões diferentes: uma barata, uma premium e uma ousada. Você compara e escolhe. O plano melhorou a cada rodada.",
+   "audio": "audio/frase-3-baa215c5c4.mp3",
+   "duracao": 11.328,
+   "palavras": [
+    {
+     "p": "Frase",
+     "i": 0.098,
+     "f": 0.598
+    },
+    {
+     "p": "três",
+     "i": 0.61,
+     "f": 0.99
+    },
+    {
+     "p": "reescreva",
+     "i": 1.181,
+     "f": 1.74
+    },
+    {
+     "p": "em",
+     "i": 1.752,
+     "f": 1.836
+    },
+    {
+     "p": "três",
+     "i": 1.848,
+     "f": 2.145
+    },
+    {
+     "p": "versões",
+     "i": 2.157,
+     "f": 2.538
+    },
+    {
+     "p": "diferentes",
+     "i": 2.55,
+     "f": 3.181
+    },
+    {
+     "p": "uma",
+     "i": 3.538,
+     "f": 3.693
+    },
+    {
+     "p": "barata",
+     "i": 3.705,
+     "f": 4.169
+    },
+    {
+     "p": "uma",
+     "i": 4.443,
+     "f": 4.669
+    },
+    {
+     "p": "premium",
+     "i": 4.681,
+     "f": 5.062
+    },
+    {
+     "p": "e",
+     "i": 5.074,
+     "f": 5.157
+    },
+    {
+     "p": "uma",
+     "i": 5.169,
+     "f": 5.3
+    },
+    {
+     "p": "ousada",
+     "i": 5.312,
+     "f": 5.752
+    },
+    {
+     "p": "Você",
+     "i": 6.571,
+     "f": 6.952
+    },
+    {
+     "p": "compara",
+     "i": 6.964,
+     "f": 7.345
+    },
+    {
+     "p": "e",
+     "i": 7.357,
+     "f": 7.393
+    },
+    {
+     "p": "escolhe",
+     "i": 7.405,
+     "f": 7.929
+    },
+    {
+     "p": "O",
+     "i": 8.75,
+     "f": 8.893
+    },
+    {
+     "p": "plano",
+     "i": 8.905,
+     "f": 9.25
+    },
+    {
+     "p": "melhorou",
+     "i": 9.262,
+     "f": 9.655
+    },
+    {
+     "p": "a",
+     "i": 9.667,
+     "f": 9.75
+    },
+    {
+     "p": "cada",
+     "i": 9.762,
+     "f": 10.012
+    },
+    {
+     "p": "rodada",
+     "i": 10.024,
+     "f": 10.5
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "4515755b78",
+   "texto": "Erro comum: aceitar a primeira resposta, ou pedir um ajuste vago, como melhore isso. Diga o que melhorar e por quê.",
+   "audio": "audio/erro-comum-4515755b78.mp3",
+   "duracao": 8.256,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.348
+    },
+    {
+     "p": "comum",
+     "i": 0.36,
+     "f": 0.74
+    },
+    {
+     "p": "aceitar",
+     "i": 1.014,
+     "f": 1.467
+    },
+    {
+     "p": "a",
+     "i": 1.479,
+     "f": 1.526
+    },
+    {
+     "p": "primeira",
+     "i": 1.538,
+     "f": 1.836
+    },
+    {
+     "p": "resposta",
+     "i": 1.848,
+     "f": 2.407
+    },
+    {
+     "p": "ou",
+     "i": 2.693,
+     "f": 2.824
+    },
+    {
+     "p": "pedir",
+     "i": 2.836,
+     "f": 3.121
+    },
+    {
+     "p": "um",
+     "i": 3.133,
+     "f": 3.229
+    },
+    {
+     "p": "ajuste",
+     "i": 3.24,
+     "f": 3.633
+    },
+    {
+     "p": "vago",
+     "i": 3.645,
+     "f": 4.002
+    },
+    {
+     "p": "como",
+     "i": 4.217,
+     "f": 4.455
+    },
+    {
+     "p": "melhore",
+     "i": 4.467,
+     "f": 4.883
+    },
+    {
+     "p": "isso",
+     "i": 4.895,
+     "f": 5.181
+    },
+    {
+     "p": "Diga",
+     "i": 6,
+     "f": 6.333
+    },
+    {
+     "p": "o",
+     "i": 6.345,
+     "f": 6.393
+    },
+    {
+     "p": "que",
+     "i": 6.405,
+     "f": 6.5
+    },
+    {
+     "p": "melhorar",
+     "i": 6.512,
+     "f": 6.929
+    },
+    {
+     "p": "e",
+     "i": 6.94,
+     "f": 6.988
+    },
+    {
+     "p": "por",
+     "i": 7,
+     "f": 7.167
+    },
+    {
+     "p": "quê",
+     "i": 7.179,
+     "f": 7.429
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "fda93560d6",
+   "texto": "Pause o vídeo e tente: peça um plano para algo seu e use as três frases em sequência.",
+   "audio": "audio/pratica-fda93560d6.mp3",
+   "duracao": 5.472,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "o",
+     "i": 0.407,
+     "f": 0.455
+    },
+    {
+     "p": "vídeo",
+     "i": 0.467,
+     "f": 0.776
+    },
+    {
+     "p": "e",
+     "i": 0.788,
+     "f": 0.859
+    },
+    {
+     "p": "tente",
+     "i": 0.871,
+     "f": 1.217
+    },
+    {
+     "p": "peça",
+     "i": 1.455,
+     "f": 1.717
+    },
+    {
+     "p": "um",
+     "i": 1.729,
+     "f": 1.824
+    },
+    {
+     "p": "plano",
+     "i": 1.836,
+     "f": 2.157
+    },
+    {
+     "p": "para",
+     "i": 2.169,
+     "f": 2.324
+    },
+    {
+     "p": "algo",
+     "i": 2.336,
+     "f": 2.574
+    },
+    {
+     "p": "seu",
+     "i": 2.586,
+     "f": 2.836
+    },
+    {
+     "p": "e",
+     "i": 2.848,
+     "f": 2.931
+    },
+    {
+     "p": "use",
+     "i": 2.943,
+     "f": 3.133
+    },
+    {
+     "p": "as",
+     "i": 3.145,
+     "f": 3.276
+    },
+    {
+     "p": "três",
+     "i": 3.288,
+     "f": 3.55
+    },
+    {
+     "p": "frases",
+     "i": 3.562,
+     "f": 3.943
+    },
+    {
+     "p": "em",
+     "i": 3.955,
+     "f": 4.074
+    },
+    {
+     "p": "sequência",
+     "i": 4.086,
+     "f": 4.645
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "a7929e7345",
+   "texto": "Resumo: peça entrevista, peça autocrítica, peça três versões.",
+   "audio": "audio/resumo-a7929e7345.mp3",
+   "duracao": 5.4,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.645
+    },
+    {
+     "p": "peça",
+     "i": 0.907,
+     "f": 1.205
+    },
+    {
+     "p": "entrevista",
+     "i": 1.217,
+     "f": 1.824
+    },
+    {
+     "p": "peça",
+     "i": 2.098,
+     "f": 2.383
+    },
+    {
+     "p": "autocrítica",
+     "i": 2.395,
+     "f": 3.062
+    },
+    {
+     "p": "peça",
+     "i": 3.312,
+     "f": 3.645
+    },
+    {
+     "p": "três",
+     "i": 3.657,
+     "f": 3.967
+    },
+    {
+     "p": "versões",
+     "i": 3.979,
+     "f": 4.574
+    }
+   ]
+  },
+  "final": {
+   "hash": "a28e75ec15",
+   "texto": "Quiz: o que a autocrítica faz? Um, aponta falhas da resposta. Dois, apaga a conversa. Pausa. A resposta é a um: a IA revisa o próprio trabalho como um especialista exigente. Na próxima aula, Projetos, instruções e memória no Claude.",
+   "audio": "audio/final-a28e75ec15.mp3",
+   "duracao": 20.088,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "o",
+     "i": 0.764,
+     "f": 0.836
+    },
+    {
+     "p": "que",
+     "i": 0.848,
+     "f": 1.002
+    },
+    {
+     "p": "a",
+     "i": 1.014,
+     "f": 1.038
+    },
+    {
+     "p": "autocrítica",
+     "i": 1.05,
+     "f": 1.74
+    },
+    {
+     "p": "faz",
+     "i": 1.752,
+     "f": 2.169
+    },
+    {
+     "p": "Um",
+     "i": 2.988,
+     "f": 3.214
+    },
+    {
+     "p": "aponta",
+     "i": 3.488,
+     "f": 3.988
+    },
+    {
+     "p": "falhas",
+     "i": 4,
+     "f": 4.345
+    },
+    {
+     "p": "da",
+     "i": 4.357,
+     "f": 4.452
+    },
+    {
+     "p": "resposta",
+     "i": 4.464,
+     "f": 5.06
+    },
+    {
+     "p": "Dois",
+     "i": 5.881,
+     "f": 6.333
+    },
+    {
+     "p": "apaga",
+     "i": 6.56,
+     "f": 6.929
+    },
+    {
+     "p": "a",
+     "i": 6.94,
+     "f": 6.964
+    },
+    {
+     "p": "conversa",
+     "i": 6.976,
+     "f": 7.571
+    },
+    {
+     "p": "Pausa",
+     "i": 8.393,
+     "f": 8.821
+    },
+    {
+     "p": "A",
+     "i": 9.643,
+     "f": 9.75
+    },
+    {
+     "p": "resposta",
+     "i": 9.762,
+     "f": 10.321
+    },
+    {
+     "p": "é",
+     "i": 10.333,
+     "f": 10.417
+    },
+    {
+     "p": "a",
+     "i": 10.429,
+     "f": 10.488
+    },
+    {
+     "p": "um",
+     "i": 10.5,
+     "f": 10.714
+    },
+    {
+     "p": "a",
+     "i": 10.952,
+     "f": 10.988
+    },
+    {
+     "p": "IA",
+     "i": 11,
+     "f": 12.095
+    },
+    {
+     "p": "revisa",
+     "i": 12.107,
+     "f": 12.476
+    },
+    {
+     "p": "o",
+     "i": 12.488,
+     "f": 12.524
+    },
+    {
+     "p": "próprio",
+     "i": 12.536,
+     "f": 12.857
+    },
+    {
+     "p": "trabalho",
+     "i": 12.869,
+     "f": 13.298
+    },
+    {
+     "p": "como",
+     "i": 13.31,
+     "f": 13.488
+    },
+    {
+     "p": "um",
+     "i": 13.5,
+     "f": 13.571
+    },
+    {
+     "p": "especialista",
+     "i": 13.583,
+     "f": 14.262
+    },
+    {
+     "p": "exigente",
+     "i": 14.274,
+     "f": 14.821
+    },
+    {
+     "p": "Na",
+     "i": 15.643,
+     "f": 15.845
+    },
+    {
+     "p": "próxima",
+     "i": 15.857,
+     "f": 16.274
+    },
+    {
+     "p": "aula",
+     "i": 16.286,
+     "f": 16.607
+    },
+    {
+     "p": "Projetos",
+     "i": 16.798,
+     "f": 17.429
+    },
+    {
+     "p": "instruções",
+     "i": 17.655,
+     "f": 18.238
+    },
+    {
+     "p": "e",
+     "i": 18.25,
+     "f": 18.357
+    },
+    {
+     "p": "memória",
+     "i": 18.369,
+     "f": 18.738
+    },
+    {
+     "p": "no",
+     "i": 18.75,
+     "f": 18.845
+    },
+    {
+     "p": "Claude",
+     "i": 18.857,
+     "f": 19.262
+    }
+   ]
+  }
+ },
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.940Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "OpenAI — Prompt engineering best practices for ChatGPT",
+   "url": "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }

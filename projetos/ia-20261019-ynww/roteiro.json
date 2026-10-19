@@ -1,0 +1,122 @@
+{
+  "titulo": "Aula 2.3: 3 frases que melhoram qualquer resposta da IA",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "OpenAI — Prompt engineering best practices for ChatGPT", "url": "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você já aceitou a primeira resposta da IA, mesmo achando que podia ser melhor? Quase todo mundo faz isso. Hoje você aprende a melhorar qualquer resposta.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "1ª RESPOSTA?", "em": "primeira", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "PODE MELHORAR", "cor": "amarelo", "em": "melhor?", "posicao": "meio" },
+        { "tipo": "titulo", "texto": "ITERAR COM A IA", "em": "aprende", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Aula 2.3. Você vai aprender três frases: peça para a IA te entrevistar, peça autocrítica e peça três versões.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ITERAR COMO ESPECIALISTA", "sub": "AULA 2.3", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "Entrevista"], ["alvo", "Autocrítica"], ["documento", "3 versões"]], "em": "três", "posicao": "alto" },
+        { "tipo": "tag", "texto": "3 FRASES", "icone": "check", "em": "frases:", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Iterar é melhorar em rodadas: você pede, avalia, ajusta e pede de novo. A própria OpenAI recomenda esse ciclo: escrever, revisar a resposta e refinar o prompt, que é o texto que você envia à IA.",
+      "fontes": ["OpenAI — Prompt engineering best practices"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ITERAR", "sub": "melhorar em rodadas", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "Pedir"], ["seta", ""], ["check", "Avaliar"], ["seta", ""], ["mais", "Ajustar"]], "em": "pede,", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Prompt", "significado": "o texto que você envia à IA", "em": "prompt,", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num arquiteto. Ele não desenha a casa de primeira. Ele pergunta, faz um rascunho, critica e refaz. Com a IA é igual.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "COMO UM ARQUITETO", "icone": "casa", "em": "arquiteto.", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["balao", "Pergunta"], ["seta", ""], ["documento", "Rascunho"], ["seta", ""], ["casa", "Casa"]], "em": "pergunta,", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "COM A IA É IGUAL", "cor": "azul", "em": "igual.", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "frase-1",
+      "texto": "Exemplo: um plano de negócios para uma cafeteria. Frase um: antes de responder, me entrevista com cinco perguntas. A IA pergunta sobre público, local e orçamento, e o plano deixa de ser genérico.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FRASE 1: ENTREVISTA", "sub": "plano de negócios · cafeteria", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Antes de responder, me entrevista com 5 perguntas.", "em": "Frase", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["pin", "Local"], ["casa", "Público"], ["dinheiro", "Orçamento"]], "em": "público,", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "Plano sob medida", "nota": "menos genérico", "em": "genérico.", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "frase-2",
+      "texto": "Frase dois: agora critique esse plano como um investidor exigente e liste os pontos fracos. A IA aponta que o preço está baixo e falta o custo do aluguel.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FRASE 2: AUTOCRÍTICA", "sub": "rodada 2", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Critique como um investidor exigente.", "em": "critique", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Preço baixo", "icone": "alerta", "cor": "vermelho", "em": "preço", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Falta o aluguel", "icone": "x", "cor": "vermelho", "em": "aluguel.", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "frase-3",
+      "texto": "Frase três: reescreva em três versões diferentes: uma barata, uma premium e uma ousada. Você compara e escolhe. O plano melhorou a cada rodada.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FRASE 3: 3 VERSÕES", "sub": "rodada 3", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["dinheiro", "Barata"], ["alvo", "Premium"], ["alerta", "Ousada"]], "em": "barata,", "posicao": "alto" },
+        { "tipo": "contador", "de": 1, "ate": 3, "unidade": " rodadas", "rotulo": "o plano melhorou", "em": "melhorou", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: aceitar a primeira resposta, ou pedir um ajuste vago, como melhore isso. Diga o que melhorar e por quê.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Melhore isso", "nota": "vago demais", "em": "vago,", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Corte o preço e some o aluguel", "nota": "diga o que e por quê", "em": "Diga", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: peça um plano para algo seu e use as três frases em sequência.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "QUAL É O SEU PLANO?", "em": "plano", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["balao", "1"], ["alvo", "2"], ["documento", "3"]], "em": "três", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumo: peça entrevista, peça autocrítica, peça três versões.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "Entrevista"], ["alvo", "Autocrítica"], ["documento", "3 versões"]], "em": "entrevista,", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: o que a autocrítica faz? Um, aponta falhas da resposta. Dois, apaga a conversa. Pausa. A resposta é a um: a IA revisa o próprio trabalho como um especialista exigente. Na próxima aula, Projetos, instruções e memória no Claude.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "O que a autocrítica faz?", "opcoes": ["Aponta falhas", "Apaga a conversa"], "em": "Quiz:", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 1", "cor": "verde", "em": "resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 2.4", "em": "próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
