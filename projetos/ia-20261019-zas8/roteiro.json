@@ -1,0 +1,114 @@
+{
+  "titulo": "Aula 1.4: Alucinação e limites da IA",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "mito-verdade", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Anthropic — Reduce hallucinations", "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations" },
+    { "titulo": "Wikipédia — Mata v. Avianca, Inc.", "url": "https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc." }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Uma IA pode mentir com total confiança, e sem perceber. Em 2023, um advogado americano levou ao tribunal casos inventados por um chatbot. Será que você saberia notar?",
+      "fundo": "tribunal",
+      "fontes": ["Mata v. Avianca, 2023"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "IA MENTE?", "em": "mentir", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "CASOS FALSOS", "cor": "vermelho", "em": "inventados", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nesta aula você vai aprender o que é alucinação, o que é data de corte e três hábitos para checar respostas.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ALUCINAÇÃO E LIMITES", "sub": "AULA 1.4", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["alerta", "Alucinação"], ["relogio", "Data de corte"], ["check", "3 hábitos"]], "em": "alucinação", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Alucinação é quando o modelo inventa um fato que soa certo. Ele prevê palavras prováveis, não consulta uma base de verdades. Por isso pode errar nomes, números e até citações, sempre com confiança.",
+      "fontes": ["Anthropic Docs"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ALUCINAÇÃO", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Alucinação", "significado": "resposta inventada que parece verdadeira", "em": "inventa", "posicao": "alto" },
+        { "tipo": "tag", "texto": "PREVÊ PALAVRAS", "icone": "balao", "em": "prevê", "posicao": "alto2" },
+        { "tipo": "carimbo", "texto": "MITO: IA SEMPRE SABE", "cor": "vermelho", "em": "confiança", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num colega que nunca diz não sei. Se ele não lembra, improvisa uma resposta bonita e segura. Soa convincente, mas pode estar errada. A IA faz igual.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "icones", "itens": [["balao", "Pergunta"], ["seta", ""], ["alerta", "Chute bonito"]], "em": "colega", "posicao": "alto" },
+        { "tipo": "tag", "texto": "NUNCA DIZ NÃO SEI", "icone": "x", "cor": "amarelo", "em": "nunca", "posicao": "alto2" },
+        { "tipo": "carimbo", "texto": "IMPROVISA", "cor": "amarelo", "em": "improvisa", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "data-de-corte",
+      "texto": "Outro limite é a data de corte: o dia em que o treinamento parou. Depois dela, o modelo não sabe de nada novo, a menos que busque na web. E mesmo com busca, é preciso conferir o que ele encontrou.",
+      "fontes": ["Anthropic Docs"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DATA DE CORTE", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Data de corte", "significado": "último dia de dados do treinamento", "em": "data", "posicao": "alto" },
+        { "tipo": "linha", "itens": [["Treino", "dados até aqui"], ["Corte", "treino para"], ["Hoje", "modelo não viu"]], "em": "depois", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "BUSCA NA WEB AJUDA", "icone": "pin", "cor": "verde", "em": "busque", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Veja o prompt, que é a instrução enviada. Peça fontes e permita admitir dúvida. Com busca ativada, a resposta traz links, e você abre o original para conferir se aquilo realmente existe.",
+      "fontes": ["Anthropic Docs"],
+      "elementos": [
+        { "tipo": "comentario", "texto": "Pesquise na web e cite as fontes. Se não tiver certeza, diga que não sabe.", "em": "prompt", "posicao": "alto" },
+        { "tipo": "tag", "texto": "FONTES CITADAS", "icone": "documento", "cor": "verde", "em": "fontes", "posicao": "alto2" },
+        { "tipo": "check", "ok": true, "texto": "ADMITIR DÚVIDA", "nota": "reduz respostas inventadas", "em": "admitir", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "ABRA O LINK", "cor": "verde", "em": "original", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: achar que fonte citada é fonte verdadeira. No caso de 2023, o advogado foi multado em 5 mil dólares por citar casos que não existiam. Sempre abra o link e confira.",
+      "fundo": "avianca",
+      "fontes": ["Mata v. Avianca, 22/06/2023"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "erro", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "CITOU, ENTÃO É REAL", "nota": "a citação também pode ser inventada", "em": "achar", "posicao": "alto2" },
+        { "tipo": "contador", "de": 0, "ate": 5000, "unidade": "US$", "rotulo": "multa em 2023", "em": "multado", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: pergunte a uma IA sobre um fato recente, com e sem busca na web. Compare as respostas.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "pause", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "COM × SEM BUSCA?", "em": "pergunte", "posicao": "alto2" },
+        { "tipo": "comentario", "texto": "Comenta aí o que mudou!", "em": "compare", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumo: primeiro, peça fontes à IA. Segundo, abra os links e leia o original. Terceiro, confirme números e datas em outro lugar confiável.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3 HÁBITOS", "sub": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "Peça fontes"], ["pin", "Abra links"], ["check", "Confirme dados"]], "em": "primeiro", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: o que reduz erros? Um, pedir fontes e conferir. Dois, confiar porque a resposta soou segura. A certa é a um: confiança não é prova. Na próxima aula, você vê o mapa dos modelos de IA em 2026.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "O QUE REDUZ ERROS DA IA?", "opcoes": ["1 - Pedir fontes e conferir", "2 - Confiar se soar seguro"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "CERTA: 1", "cor": "verde", "em": "certa", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 1.5", "em": "próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

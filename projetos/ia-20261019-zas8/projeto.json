@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-zas8",
- "titulo": "Aula 1.4: Alucinação e limites da IA — explique por que modelos de lin",
+ "titulo": "Aula 1.4: Alucinação e limites da IA",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.939Z",
- "atualizadoEm": "2026-10-19T22:26:17.939Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:29:08Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 1.4: Alucinação e limites da IA — explique por que modelos de linguagem às vezes inventam fatos com confiança, o que é data de corte do treinamento, como a busca na web e as fontes citadas reduzem erros, e 3 hábitos para checar respostas antes de confiar",
@@ -61,11 +62,1954 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Uma IA pode mentir com total confiança, e sem perceber. Em 2023, um advogado americano levou ao tribunal casos inventados por um chatbot. Será que você saberia notar?",
+   "fundo": "tribunal",
+   "fontes": [
+    "Mata v. Avianca, 2023"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "IA MENTE?",
+     "em": "mentir",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "CASOS FALSOS",
+     "cor": "vermelho",
+     "em": "inventados",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula você vai aprender o que é alucinação, o que é data de corte e três hábitos para checar respostas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ALUCINAÇÃO E LIMITES",
+     "sub": "AULA 1.4",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alerta",
+       "Alucinação"
+      ],
+      [
+       "relogio",
+       "Data de corte"
+      ],
+      [
+       "check",
+       "3 hábitos"
+      ]
+     ],
+     "em": "alucinação",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Alucinação é quando o modelo inventa um fato que soa certo. Ele prevê palavras prováveis, não consulta uma base de verdades. Por isso pode errar nomes, números e até citações, sempre com confiança.",
+   "fontes": [
+    "Anthropic Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ALUCINAÇÃO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Alucinação",
+     "significado": "resposta inventada que parece verdadeira",
+     "em": "inventa",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PREVÊ PALAVRAS",
+     "icone": "balao",
+     "em": "prevê",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MITO: IA SEMPRE SABE",
+     "cor": "vermelho",
+     "em": "confiança",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num colega que nunca diz não sei. Se ele não lembra, improvisa uma resposta bonita e segura. Soa convincente, mas pode estar errada. A IA faz igual.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Pergunta"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "alerta",
+       "Chute bonito"
+      ]
+     ],
+     "em": "colega",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "NUNCA DIZ NÃO SEI",
+     "icone": "x",
+     "cor": "amarelo",
+     "em": "nunca",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "IMPROVISA",
+     "cor": "amarelo",
+     "em": "improvisa",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "data-de-corte",
+   "texto": "Outro limite é a data de corte: o dia em que o treinamento parou. Depois dela, o modelo não sabe de nada novo, a menos que busque na web. E mesmo com busca, é preciso conferir o que ele encontrou.",
+   "fontes": [
+    "Anthropic Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DATA DE CORTE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Data de corte",
+     "significado": "último dia de dados do treinamento",
+     "em": "data",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "Treino",
+       "dados até aqui"
+      ],
+      [
+       "Corte",
+       "treino para"
+      ],
+      [
+       "Hoje",
+       "modelo não viu"
+      ]
+     ],
+     "em": "depois",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "BUSCA NA WEB AJUDA",
+     "icone": "pin",
+     "cor": "verde",
+     "em": "busque",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Veja o prompt, que é a instrução enviada. Peça fontes e permita admitir dúvida. Com busca ativada, a resposta traz links, e você abre o original para conferir se aquilo realmente existe.",
+   "fontes": [
+    "Anthropic Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "comentario",
+     "texto": "Pesquise na web e cite as fontes. Se não tiver certeza, diga que não sabe.",
+     "em": "prompt",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FONTES CITADAS",
+     "icone": "documento",
+     "cor": "verde",
+     "em": "fontes",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "ADMITIR DÚVIDA",
+     "nota": "reduz respostas inventadas",
+     "em": "admitir",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "ABRA O LINK",
+     "cor": "verde",
+     "em": "original",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: achar que fonte citada é fonte verdadeira. No caso de 2023, o advogado foi multado em 5 mil dólares por citar casos que não existiam. Sempre abra o link e confira.",
+   "fundo": "avianca",
+   "fontes": [
+    "Mata v. Avianca, 22/06/2023"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "CITOU, ENTÃO É REAL",
+     "nota": "a citação também pode ser inventada",
+     "em": "achar",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 5000,
+     "unidade": "US$",
+     "rotulo": "multa em 2023",
+     "em": "multado",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: pergunte a uma IA sobre um fato recente, com e sem busca na web. Compare as respostas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "pause",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "COM × SEM BUSCA?",
+     "em": "pergunte",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Comenta aí o que mudou!",
+     "em": "compare",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo: primeiro, peça fontes à IA. Segundo, abra os links e leia o original. Terceiro, confirme números e datas em outro lugar confiável.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3 HÁBITOS",
+     "sub": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Peça fontes"
+      ],
+      [
+       "pin",
+       "Abra links"
+      ],
+      [
+       "check",
+       "Confirme dados"
+      ]
+     ],
+     "em": "primeiro",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: o que reduz erros? Um, pedir fontes e conferir. Dois, confiar porque a resposta soou segura. A certa é a um: confiança não é prova. Na próxima aula, você vê o mapa dos modelos de IA em 2026.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "O QUE REDUZ ERROS DA IA?",
+     "opcoes": [
+      "1 - Pedir fontes e conferir",
+      "2 - Confiar se soar seguro"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "CERTA: 1",
+     "cor": "verde",
+     "em": "certa",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 1.5",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "d16e66c0b0",
+   "texto": "Uma IA pode mentir com total confiança, e sem perceber. Em 2023, um advogado americano levou ao tribunal casos inventados por um chatbot. Será que você saberia notar?",
+   "audio": "audio/gancho-d16e66c0b0.mp3",
+   "duracao": 13.848,
+   "palavras": [
+    {
+     "p": "Uma",
+     "i": 0.098,
+     "f": 0.276
+    },
+    {
+     "p": "IA",
+     "i": 0.288,
+     "f": 1.467
+    },
+    {
+     "p": "pode",
+     "i": 1.479,
+     "f": 1.717
+    },
+    {
+     "p": "mentir",
+     "i": 1.729,
+     "f": 2.05
+    },
+    {
+     "p": "com",
+     "i": 2.062,
+     "f": 2.24
+    },
+    {
+     "p": "total",
+     "i": 2.252,
+     "f": 2.55
+    },
+    {
+     "p": "confiança",
+     "i": 2.562,
+     "f": 3.205
+    },
+    {
+     "p": "e",
+     "i": 3.443,
+     "f": 3.49
+    },
+    {
+     "p": "sem",
+     "i": 3.502,
+     "f": 3.729
+    },
+    {
+     "p": "perceber",
+     "i": 3.74,
+     "f": 4.264
+    },
+    {
+     "p": "Em 2023",
+     "i": 5.083,
+     "f": 6.25
+    },
+    {
+     "p": "um",
+     "i": 6.595,
+     "f": 6.714
+    },
+    {
+     "p": "advogado",
+     "i": 6.726,
+     "f": 7.238
+    },
+    {
+     "p": "americano",
+     "i": 7.25,
+     "f": 7.762
+    },
+    {
+     "p": "levou",
+     "i": 7.774,
+     "f": 8.071
+    },
+    {
+     "p": "ao",
+     "i": 8.083,
+     "f": 8.179
+    },
+    {
+     "p": "tribunal",
+     "i": 8.19,
+     "f": 8.643
+    },
+    {
+     "p": "casos",
+     "i": 8.655,
+     "f": 8.964
+    },
+    {
+     "p": "inventados",
+     "i": 8.976,
+     "f": 9.667
+    },
+    {
+     "p": "por",
+     "i": 9.679,
+     "f": 9.833
+    },
+    {
+     "p": "um",
+     "i": 9.845,
+     "f": 9.929
+    },
+    {
+     "p": "chatbot",
+     "i": 9.94,
+     "f": 10.643
+    },
+    {
+     "p": "Será",
+     "i": 11.464,
+     "f": 11.857
+    },
+    {
+     "p": "que",
+     "i": 11.869,
+     "f": 11.952
+    },
+    {
+     "p": "você",
+     "i": 11.964,
+     "f": 12.19
+    },
+    {
+     "p": "saberia",
+     "i": 12.202,
+     "f": 12.631
+    },
+    {
+     "p": "notar",
+     "i": 12.643,
+     "f": 13.024
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "2f30336265",
+   "texto": "Nesta aula você vai aprender o que é alucinação, o que é data de corte e três hábitos para checar respostas.",
+   "audio": "audio/promessa-2f30336265.mp3",
+   "duracao": 6.624,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "aula",
+     "i": 0.431,
+     "f": 0.693
+    },
+    {
+     "p": "você",
+     "i": 0.705,
+     "f": 0.967
+    },
+    {
+     "p": "vai",
+     "i": 0.979,
+     "f": 1.074
+    },
+    {
+     "p": "aprender",
+     "i": 1.086,
+     "f": 1.55
+    },
+    {
+     "p": "o",
+     "i": 1.562,
+     "f": 1.621
+    },
+    {
+     "p": "que",
+     "i": 1.633,
+     "f": 1.74
+    },
+    {
+     "p": "é",
+     "i": 1.752,
+     "f": 1.788
+    },
+    {
+     "p": "alucinação",
+     "i": 1.8,
+     "f": 2.455
+    },
+    {
+     "p": "o",
+     "i": 2.729,
+     "f": 2.788
+    },
+    {
+     "p": "que",
+     "i": 2.8,
+     "f": 2.919
+    },
+    {
+     "p": "é",
+     "i": 2.931,
+     "f": 3.026
+    },
+    {
+     "p": "data",
+     "i": 3.038,
+     "f": 3.336
+    },
+    {
+     "p": "de",
+     "i": 3.348,
+     "f": 3.455
+    },
+    {
+     "p": "corte",
+     "i": 3.467,
+     "f": 3.812
+    },
+    {
+     "p": "e",
+     "i": 3.824,
+     "f": 3.848
+    },
+    {
+     "p": "três",
+     "i": 3.86,
+     "f": 4.05
+    },
+    {
+     "p": "hábitos",
+     "i": 4.062,
+     "f": 4.502
+    },
+    {
+     "p": "para",
+     "i": 4.514,
+     "f": 4.669
+    },
+    {
+     "p": "checar",
+     "i": 4.681,
+     "f": 5.062
+    },
+    {
+     "p": "respostas",
+     "i": 5.074,
+     "f": 5.8
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "8bf2da5a4b",
+   "texto": "Alucinação é quando o modelo inventa um fato que soa certo. Ele prevê palavras prováveis, não consulta uma base de verdades. Por isso pode errar nomes, números e até citações, sempre com confiança.",
+   "audio": "audio/conceito-8bf2da5a4b.mp3",
+   "duracao": 13.968,
+   "palavras": [
+    {
+     "p": "Alucinação",
+     "i": 0.098,
+     "f": 0.848
+    },
+    {
+     "p": "é",
+     "i": 0.86,
+     "f": 0.919
+    },
+    {
+     "p": "quando",
+     "i": 0.931,
+     "f": 1.121
+    },
+    {
+     "p": "o",
+     "i": 1.133,
+     "f": 1.145
+    },
+    {
+     "p": "modelo",
+     "i": 1.157,
+     "f": 1.49
+    },
+    {
+     "p": "inventa",
+     "i": 1.502,
+     "f": 1.907
+    },
+    {
+     "p": "um",
+     "i": 1.919,
+     "f": 1.99
+    },
+    {
+     "p": "fato",
+     "i": 2.002,
+     "f": 2.348
+    },
+    {
+     "p": "que",
+     "i": 2.36,
+     "f": 2.467
+    },
+    {
+     "p": "soa",
+     "i": 2.479,
+     "f": 2.717
+    },
+    {
+     "p": "certo",
+     "i": 2.729,
+     "f": 3.169
+    },
+    {
+     "p": "Ele",
+     "i": 3.988,
+     "f": 4.167
+    },
+    {
+     "p": "prevê",
+     "i": 4.179,
+     "f": 4.452
+    },
+    {
+     "p": "palavras",
+     "i": 4.464,
+     "f": 4.905
+    },
+    {
+     "p": "prováveis",
+     "i": 4.917,
+     "f": 5.548
+    },
+    {
+     "p": "não",
+     "i": 5.762,
+     "f": 5.976
+    },
+    {
+     "p": "consulta",
+     "i": 5.988,
+     "f": 6.476
+    },
+    {
+     "p": "uma",
+     "i": 6.488,
+     "f": 6.631
+    },
+    {
+     "p": "base",
+     "i": 6.643,
+     "f": 6.988
+    },
+    {
+     "p": "de",
+     "i": 7,
+     "f": 7.083
+    },
+    {
+     "p": "verdades",
+     "i": 7.095,
+     "f": 7.786
+    },
+    {
+     "p": "Por",
+     "i": 8.607,
+     "f": 8.786
+    },
+    {
+     "p": "isso",
+     "i": 8.798,
+     "f": 9.095
+    },
+    {
+     "p": "pode",
+     "i": 9.107,
+     "f": 9.309
+    },
+    {
+     "p": "errar",
+     "i": 9.321,
+     "f": 9.583
+    },
+    {
+     "p": "nomes",
+     "i": 9.595,
+     "f": 10.048
+    },
+    {
+     "p": "números",
+     "i": 10.226,
+     "f": 10.643
+    },
+    {
+     "p": "e",
+     "i": 10.655,
+     "f": 10.762
+    },
+    {
+     "p": "até",
+     "i": 10.774,
+     "f": 11.012
+    },
+    {
+     "p": "citações",
+     "i": 11.024,
+     "f": 11.726
+    },
+    {
+     "p": "sempre",
+     "i": 11.94,
+     "f": 12.357
+    },
+    {
+     "p": "com",
+     "i": 12.369,
+     "f": 12.512
+    },
+    {
+     "p": "confiança",
+     "i": 12.524,
+     "f": 13.131
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "89ebd26569",
+   "texto": "Pense num colega que nunca diz não sei. Se ele não lembra, improvisa uma resposta bonita e segura. Soa convincente, mas pode estar errada. A IA faz igual.",
+   "audio": "audio/analogia-89ebd26569.mp3",
+   "duracao": 13.344,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "num",
+     "i": 0.455,
+     "f": 0.562
+    },
+    {
+     "p": "colega",
+     "i": 0.574,
+     "f": 1.014
+    },
+    {
+     "p": "que",
+     "i": 1.026,
+     "f": 1.133
+    },
+    {
+     "p": "nunca",
+     "i": 1.145,
+     "f": 1.514
+    },
+    {
+     "p": "diz",
+     "i": 1.526,
+     "f": 1.74
+    },
+    {
+     "p": "não",
+     "i": 1.752,
+     "f": 1.931
+    },
+    {
+     "p": "sei",
+     "i": 1.943,
+     "f": 2.264
+    },
+    {
+     "p": "Se",
+     "i": 3.083,
+     "f": 3.298
+    },
+    {
+     "p": "ele",
+     "i": 3.31,
+     "f": 3.452
+    },
+    {
+     "p": "não",
+     "i": 3.464,
+     "f": 3.643
+    },
+    {
+     "p": "lembra",
+     "i": 3.655,
+     "f": 4.012
+    },
+    {
+     "p": "improvisa",
+     "i": 4.274,
+     "f": 4.786
+    },
+    {
+     "p": "uma",
+     "i": 4.798,
+     "f": 4.905
+    },
+    {
+     "p": "resposta",
+     "i": 4.917,
+     "f": 5.44
+    },
+    {
+     "p": "bonita",
+     "i": 5.452,
+     "f": 5.845
+    },
+    {
+     "p": "e",
+     "i": 5.857,
+     "f": 5.893
+    },
+    {
+     "p": "segura",
+     "i": 5.905,
+     "f": 6.381
+    },
+    {
+     "p": "Soa",
+     "i": 7.202,
+     "f": 7.512
+    },
+    {
+     "p": "convincente",
+     "i": 7.524,
+     "f": 8.262
+    },
+    {
+     "p": "mas",
+     "i": 8.524,
+     "f": 8.75
+    },
+    {
+     "p": "pode",
+     "i": 8.762,
+     "f": 9.012
+    },
+    {
+     "p": "estar",
+     "i": 9.024,
+     "f": 9.25
+    },
+    {
+     "p": "errada",
+     "i": 9.262,
+     "f": 9.702
+    },
+    {
+     "p": "A",
+     "i": 10.524,
+     "f": 10.607
+    },
+    {
+     "p": "IA",
+     "i": 10.619,
+     "f": 11.869
+    },
+    {
+     "p": "faz",
+     "i": 11.881,
+     "f": 12.048
+    },
+    {
+     "p": "igual",
+     "i": 12.06,
+     "f": 12.512
+    }
+   ]
+  },
+  "data-de-corte": {
+   "hash": "d9d170db3a",
+   "texto": "Outro limite é a data de corte: o dia em que o treinamento parou. Depois dela, o modelo não sabe de nada novo, a menos que busque na web. E mesmo com busca, é preciso conferir o que ele encontrou.",
+   "audio": "audio/data-de-corte-d9d170db3a.mp3",
+   "duracao": 13.68,
+   "palavras": [
+    {
+     "p": "Outro",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "limite",
+     "i": 0.419,
+     "f": 0.848
+    },
+    {
+     "p": "é",
+     "i": 0.86,
+     "f": 0.907
+    },
+    {
+     "p": "a",
+     "i": 0.919,
+     "f": 0.99
+    },
+    {
+     "p": "data",
+     "i": 1.002,
+     "f": 1.276
+    },
+    {
+     "p": "de",
+     "i": 1.288,
+     "f": 1.395
+    },
+    {
+     "p": "corte",
+     "i": 1.407,
+     "f": 1.812
+    },
+    {
+     "p": "o",
+     "i": 2.086,
+     "f": 2.169
+    },
+    {
+     "p": "dia",
+     "i": 2.181,
+     "f": 2.371
+    },
+    {
+     "p": "em",
+     "i": 2.383,
+     "f": 2.467
+    },
+    {
+     "p": "que",
+     "i": 2.479,
+     "f": 2.55
+    },
+    {
+     "p": "o",
+     "i": 2.562,
+     "f": 2.61
+    },
+    {
+     "p": "treinamento",
+     "i": 2.621,
+     "f": 3.193
+    },
+    {
+     "p": "parou",
+     "i": 3.205,
+     "f": 3.562
+    },
+    {
+     "p": "Depois",
+     "i": 4.381,
+     "f": 4.798
+    },
+    {
+     "p": "dela",
+     "i": 4.81,
+     "f": 5.131
+    },
+    {
+     "p": "o",
+     "i": 5.429,
+     "f": 5.476
+    },
+    {
+     "p": "modelo",
+     "i": 5.488,
+     "f": 5.893
+    },
+    {
+     "p": "não",
+     "i": 5.905,
+     "f": 6.059
+    },
+    {
+     "p": "sabe",
+     "i": 6.071,
+     "f": 6.369
+    },
+    {
+     "p": "de",
+     "i": 6.381,
+     "f": 6.476
+    },
+    {
+     "p": "nada",
+     "i": 6.488,
+     "f": 6.714
+    },
+    {
+     "p": "novo",
+     "i": 6.726,
+     "f": 7.131
+    },
+    {
+     "p": "a",
+     "i": 7.333,
+     "f": 7.429
+    },
+    {
+     "p": "menos",
+     "i": 7.44,
+     "f": 7.821
+    },
+    {
+     "p": "que",
+     "i": 7.833,
+     "f": 7.952
+    },
+    {
+     "p": "busque",
+     "i": 7.964,
+     "f": 8.345
+    },
+    {
+     "p": "na",
+     "i": 8.357,
+     "f": 8.464
+    },
+    {
+     "p": "web",
+     "i": 8.476,
+     "f": 8.869
+    },
+    {
+     "p": "E",
+     "i": 9.69,
+     "f": 9.798
+    },
+    {
+     "p": "mesmo",
+     "i": 9.81,
+     "f": 10.19
+    },
+    {
+     "p": "com",
+     "i": 10.202,
+     "f": 10.393
+    },
+    {
+     "p": "busca",
+     "i": 10.405,
+     "f": 10.809
+    },
+    {
+     "p": "é",
+     "i": 10.94,
+     "f": 11
+    },
+    {
+     "p": "preciso",
+     "i": 11.012,
+     "f": 11.476
+    },
+    {
+     "p": "conferir",
+     "i": 11.488,
+     "f": 11.964
+    },
+    {
+     "p": "o",
+     "i": 11.976,
+     "f": 12.036
+    },
+    {
+     "p": "que",
+     "i": 12.048,
+     "f": 12.191
+    },
+    {
+     "p": "ele",
+     "i": 12.202,
+     "f": 12.333
+    },
+    {
+     "p": "encontrou",
+     "i": 12.345,
+     "f": 12.857
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "20c9488345",
+   "texto": "Veja o prompt, que é a instrução enviada. Peça fontes e permita admitir dúvida. Com busca ativada, a resposta traz links, e você abre o original para conferir se aquilo realmente existe.",
+   "audio": "audio/exemplo-20c9488345.mp3",
+   "duracao": 13.296,
+   "palavras": [
+    {
+     "p": "Veja",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "o",
+     "i": 0.419,
+     "f": 0.443
+    },
+    {
+     "p": "prompt",
+     "i": 0.455,
+     "f": 0.919
+    },
+    {
+     "p": "que",
+     "i": 1.121,
+     "f": 1.24
+    },
+    {
+     "p": "é",
+     "i": 1.252,
+     "f": 1.359
+    },
+    {
+     "p": "a",
+     "i": 1.371,
+     "f": 1.407
+    },
+    {
+     "p": "instrução",
+     "i": 1.419,
+     "f": 1.943
+    },
+    {
+     "p": "enviada",
+     "i": 1.955,
+     "f": 2.455
+    },
+    {
+     "p": "Peça",
+     "i": 3.274,
+     "f": 3.607
+    },
+    {
+     "p": "fontes",
+     "i": 3.619,
+     "f": 4.036
+    },
+    {
+     "p": "e",
+     "i": 4.048,
+     "f": 4.167
+    },
+    {
+     "p": "permita",
+     "i": 4.179,
+     "f": 4.619
+    },
+    {
+     "p": "admitir",
+     "i": 4.631,
+     "f": 5.083
+    },
+    {
+     "p": "dúvida",
+     "i": 5.095,
+     "f": 5.536
+    },
+    {
+     "p": "Com",
+     "i": 6.357,
+     "f": 6.559
+    },
+    {
+     "p": "busca",
+     "i": 6.571,
+     "f": 6.929
+    },
+    {
+     "p": "ativada",
+     "i": 6.94,
+     "f": 7.464
+    },
+    {
+     "p": "a",
+     "i": 7.631,
+     "f": 7.69
+    },
+    {
+     "p": "resposta",
+     "i": 7.702,
+     "f": 8.226
+    },
+    {
+     "p": "traz",
+     "i": 8.238,
+     "f": 8.476
+    },
+    {
+     "p": "links",
+     "i": 8.488,
+     "f": 8.917
+    },
+    {
+     "p": "e",
+     "i": 9.202,
+     "f": 9.262
+    },
+    {
+     "p": "você",
+     "i": 9.274,
+     "f": 9.548
+    },
+    {
+     "p": "abre",
+     "i": 9.56,
+     "f": 9.821
+    },
+    {
+     "p": "o",
+     "i": 9.833,
+     "f": 9.845
+    },
+    {
+     "p": "original",
+     "i": 9.857,
+     "f": 10.321
+    },
+    {
+     "p": "para",
+     "i": 10.333,
+     "f": 10.512
+    },
+    {
+     "p": "conferir",
+     "i": 10.524,
+     "f": 11
+    },
+    {
+     "p": "se",
+     "i": 11.012,
+     "f": 11.119
+    },
+    {
+     "p": "aquilo",
+     "i": 11.131,
+     "f": 11.464
+    },
+    {
+     "p": "realmente",
+     "i": 11.476,
+     "f": 11.988
+    },
+    {
+     "p": "existe",
+     "i": 12,
+     "f": 12.476
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "0b8e3c1d55",
+   "texto": "Erro comum: achar que fonte citada é fonte verdadeira. No caso de 2023, o advogado foi multado em 5 mil dólares por citar casos que não existiam. Sempre abra o link e confira.",
+   "audio": "audio/erro-comum-0b8e3c1d55.mp3",
+   "duracao": 13.488,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.371
+    },
+    {
+     "p": "comum",
+     "i": 0.383,
+     "f": 0.74
+    },
+    {
+     "p": "achar",
+     "i": 0.99,
+     "f": 1.324
+    },
+    {
+     "p": "que",
+     "i": 1.336,
+     "f": 1.455
+    },
+    {
+     "p": "fonte",
+     "i": 1.467,
+     "f": 1.776
+    },
+    {
+     "p": "citada",
+     "i": 1.788,
+     "f": 2.217
+    },
+    {
+     "p": "é",
+     "i": 2.229,
+     "f": 2.264
+    },
+    {
+     "p": "fonte",
+     "i": 2.276,
+     "f": 2.693
+    },
+    {
+     "p": "verdadeira",
+     "i": 2.705,
+     "f": 3.288
+    },
+    {
+     "p": "No",
+     "i": 4.107,
+     "f": 4.298
+    },
+    {
+     "p": "caso",
+     "i": 4.31,
+     "f": 4.655
+    },
+    {
+     "p": "de",
+     "i": 4.667,
+     "f": 4.738
+    },
+    {
+     "p": "2023",
+     "i": 4.75,
+     "f": 5.679
+    },
+    {
+     "p": "o",
+     "i": 5.964,
+     "f": 6.024
+    },
+    {
+     "p": "advogado",
+     "i": 6.036,
+     "f": 6.631
+    },
+    {
+     "p": "foi",
+     "i": 6.643,
+     "f": 6.762
+    },
+    {
+     "p": "multado",
+     "i": 6.774,
+     "f": 7.226
+    },
+    {
+     "p": "em",
+     "i": 7.238,
+     "f": 7.333
+    },
+    {
+     "p": "5 mil",
+     "i": 7.345,
+     "f": 7.869
+    },
+    {
+     "p": "dólares",
+     "i": 7.881,
+     "f": 8.262
+    },
+    {
+     "p": "por",
+     "i": 8.274,
+     "f": 8.417
+    },
+    {
+     "p": "citar",
+     "i": 8.429,
+     "f": 8.75
+    },
+    {
+     "p": "casos",
+     "i": 8.762,
+     "f": 9.19
+    },
+    {
+     "p": "que",
+     "i": 9.202,
+     "f": 9.309
+    },
+    {
+     "p": "não",
+     "i": 9.321,
+     "f": 9.559
+    },
+    {
+     "p": "existiam",
+     "i": 9.571,
+     "f": 10.107
+    },
+    {
+     "p": "Sempre",
+     "i": 10.929,
+     "f": 11.429
+    },
+    {
+     "p": "abra",
+     "i": 11.44,
+     "f": 11.69
+    },
+    {
+     "p": "o",
+     "i": 11.702,
+     "f": 11.726
+    },
+    {
+     "p": "link",
+     "i": 11.738,
+     "f": 12.059
+    },
+    {
+     "p": "e",
+     "i": 12.071,
+     "f": 12.107
+    },
+    {
+     "p": "confira",
+     "i": 12.119,
+     "f": 12.655
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "ca3e1fa54f",
+   "texto": "Pause o vídeo e tente: pergunte a uma IA sobre um fato recente, com e sem busca na web. Compare as respostas.",
+   "audio": "audio/pratica-ca3e1fa54f.mp3",
+   "duracao": 9.12,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "o",
+     "i": 0.431,
+     "f": 0.49
+    },
+    {
+     "p": "vídeo",
+     "i": 0.502,
+     "f": 0.812
+    },
+    {
+     "p": "e",
+     "i": 0.824,
+     "f": 0.883
+    },
+    {
+     "p": "tente",
+     "i": 0.895,
+     "f": 1.252
+    },
+    {
+     "p": "pergunte",
+     "i": 1.55,
+     "f": 2.038
+    },
+    {
+     "p": "a",
+     "i": 2.05,
+     "f": 2.074
+    },
+    {
+     "p": "uma",
+     "i": 2.086,
+     "f": 2.205
+    },
+    {
+     "p": "IA",
+     "i": 2.217,
+     "f": 3.348
+    },
+    {
+     "p": "sobre",
+     "i": 3.36,
+     "f": 3.598
+    },
+    {
+     "p": "um",
+     "i": 3.61,
+     "f": 3.681
+    },
+    {
+     "p": "fato",
+     "i": 3.693,
+     "f": 3.967
+    },
+    {
+     "p": "recente",
+     "i": 3.979,
+     "f": 4.538
+    },
+    {
+     "p": "com",
+     "i": 4.788,
+     "f": 4.955
+    },
+    {
+     "p": "e",
+     "i": 4.967,
+     "f": 5.002
+    },
+    {
+     "p": "sem",
+     "i": 5.014,
+     "f": 5.229
+    },
+    {
+     "p": "busca",
+     "i": 5.24,
+     "f": 5.586
+    },
+    {
+     "p": "na",
+     "i": 5.598,
+     "f": 5.705
+    },
+    {
+     "p": "web",
+     "i": 5.717,
+     "f": 6.11
+    },
+    {
+     "p": "Compare",
+     "i": 6.929,
+     "f": 7.417
+    },
+    {
+     "p": "as",
+     "i": 7.429,
+     "f": 7.512
+    },
+    {
+     "p": "respostas",
+     "i": 7.524,
+     "f": 8.286
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "5cca82b2a7",
+   "texto": "Resumo: primeiro, peça fontes à IA. Segundo, abra os links e leia o original. Terceiro, confirme números e datas em outro lugar confiável.",
+   "audio": "audio/resumo-5cca82b2a7.mp3",
+   "duracao": 12.336,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.681
+    },
+    {
+     "p": "primeiro",
+     "i": 0.955,
+     "f": 1.371
+    },
+    {
+     "p": "peça",
+     "i": 1.598,
+     "f": 1.907
+    },
+    {
+     "p": "fontes",
+     "i": 1.919,
+     "f": 2.288
+    },
+    {
+     "p": "à",
+     "i": 2.3,
+     "f": 2.407
+    },
+    {
+     "p": "IA",
+     "i": 2.419,
+     "f": 3.729
+    },
+    {
+     "p": "Segundo",
+     "i": 4.548,
+     "f": 5.167
+    },
+    {
+     "p": "abra",
+     "i": 5.405,
+     "f": 5.619
+    },
+    {
+     "p": "os",
+     "i": 5.631,
+     "f": 5.714
+    },
+    {
+     "p": "links",
+     "i": 5.726,
+     "f": 6.036
+    },
+    {
+     "p": "e",
+     "i": 6.048,
+     "f": 6.167
+    },
+    {
+     "p": "leia",
+     "i": 6.179,
+     "f": 6.44
+    },
+    {
+     "p": "o",
+     "i": 6.452,
+     "f": 6.464
+    },
+    {
+     "p": "original",
+     "i": 6.476,
+     "f": 7.048
+    },
+    {
+     "p": "Terceiro",
+     "i": 7.869,
+     "f": 8.417
+    },
+    {
+     "p": "confirme",
+     "i": 8.714,
+     "f": 9.238
+    },
+    {
+     "p": "números",
+     "i": 9.25,
+     "f": 9.583
+    },
+    {
+     "p": "e",
+     "i": 9.595,
+     "f": 9.714
+    },
+    {
+     "p": "datas",
+     "i": 9.726,
+     "f": 10.048
+    },
+    {
+     "p": "em",
+     "i": 10.06,
+     "f": 10.238
+    },
+    {
+     "p": "outro",
+     "i": 10.25,
+     "f": 10.5
+    },
+    {
+     "p": "lugar",
+     "i": 10.512,
+     "f": 10.821
+    },
+    {
+     "p": "confiável",
+     "i": 10.833,
+     "f": 11.5
+    }
+   ]
+  },
+  "final": {
+   "hash": "0176ef490d",
+   "texto": "Quiz: o que reduz erros? Um, pedir fontes e conferir. Dois, confiar porque a resposta soou segura. A certa é a um: confiança não é prova. Na próxima aula, você vê o mapa dos modelos de IA em 2026.",
+   "audio": "audio/final-0176ef490d.mp3",
+   "duracao": 18.696,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "o",
+     "i": 0.907,
+     "f": 0.99
+    },
+    {
+     "p": "que",
+     "i": 1.002,
+     "f": 1.145
+    },
+    {
+     "p": "reduz",
+     "i": 1.157,
+     "f": 1.443
+    },
+    {
+     "p": "erros",
+     "i": 1.455,
+     "f": 1.967
+    },
+    {
+     "p": "Um",
+     "i": 2.786,
+     "f": 3.036
+    },
+    {
+     "p": "pedir",
+     "i": 3.274,
+     "f": 3.607
+    },
+    {
+     "p": "fontes",
+     "i": 3.619,
+     "f": 4.048
+    },
+    {
+     "p": "e",
+     "i": 4.06,
+     "f": 4.167
+    },
+    {
+     "p": "conferir",
+     "i": 4.179,
+     "f": 4.655
+    },
+    {
+     "p": "Dois",
+     "i": 5.476,
+     "f": 5.893
+    },
+    {
+     "p": "confiar",
+     "i": 6.131,
+     "f": 6.69
+    },
+    {
+     "p": "porque",
+     "i": 6.702,
+     "f": 6.988
+    },
+    {
+     "p": "a",
+     "i": 7,
+     "f": 7.036
+    },
+    {
+     "p": "resposta",
+     "i": 7.048,
+     "f": 7.595
+    },
+    {
+     "p": "soou",
+     "i": 7.607,
+     "f": 7.893
+    },
+    {
+     "p": "segura",
+     "i": 7.905,
+     "f": 8.405
+    },
+    {
+     "p": "A",
+     "i": 9.226,
+     "f": 9.333
+    },
+    {
+     "p": "certa",
+     "i": 9.345,
+     "f": 9.762
+    },
+    {
+     "p": "é",
+     "i": 9.774,
+     "f": 9.869
+    },
+    {
+     "p": "a",
+     "i": 9.881,
+     "f": 9.929
+    },
+    {
+     "p": "um",
+     "i": 9.94,
+     "f": 10.155
+    },
+    {
+     "p": "confiança",
+     "i": 10.476,
+     "f": 11.083
+    },
+    {
+     "p": "não",
+     "i": 11.095,
+     "f": 11.298
+    },
+    {
+     "p": "é",
+     "i": 11.31,
+     "f": 11.369
+    },
+    {
+     "p": "prova",
+     "i": 11.381,
+     "f": 11.798
+    },
+    {
+     "p": "Na",
+     "i": 12.619,
+     "f": 12.809
+    },
+    {
+     "p": "próxima",
+     "i": 12.821,
+     "f": 13.25
+    },
+    {
+     "p": "aula",
+     "i": 13.262,
+     "f": 13.56
+    },
+    {
+     "p": "você",
+     "i": 13.881,
+     "f": 14.167
+    },
+    {
+     "p": "vê",
+     "i": 14.179,
+     "f": 14.31
+    },
+    {
+     "p": "o",
+     "i": 14.321,
+     "f": 14.369
+    },
+    {
+     "p": "mapa",
+     "i": 14.381,
+     "f": 14.679
+    },
+    {
+     "p": "dos",
+     "i": 14.69,
+     "f": 14.833
+    },
+    {
+     "p": "modelos",
+     "i": 14.845,
+     "f": 15.321
+    },
+    {
+     "p": "de",
+     "i": 15.333,
+     "f": 15.405
+    },
+    {
+     "p": "IA",
+     "i": 15.417,
+     "f": 16.595
+    },
+    {
+     "p": "em 2026",
+     "i": 16.607,
+     "f": 17.869
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "avianca": {
+   "arquivo": "imagens/avianca-1494d2ab.jpg",
+   "rotulo": "Avianca",
+   "wiki": "Avianca",
+   "commons": "Avianca Airbus A320",
+   "autor": "Oleg Yunakov",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Airbus_A320-251N_-_Avianca_-_N942AV.jpg",
+   "titulo": "File:Airbus A320-251N - Avianca - N942AV.jpg"
+  },
+  "tribunal": {
+   "arquivo": "imagens/tribunal-87f87e6d.jpg",
+   "rotulo": "Tribunal federal de Nova York",
+   "commons": "Daniel Patrick Moynihan United States Courthouse",
+   "autor": "Americasroof",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Moynihan-courthouse.jpg",
+   "titulo": "File:Moynihan-courthouse.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.939Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Reduce hallucinations",
+   "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations"
+  },
+  {
+   "titulo": "Wikipédia — Mata v. Avianca, Inc.",
+   "url": "https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc."
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "mito-verdade"
  }
 }
