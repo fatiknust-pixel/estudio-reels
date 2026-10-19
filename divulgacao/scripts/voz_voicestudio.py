@@ -5,7 +5,7 @@
    então a voz fica igual em todas as cenas e em todas as execuções.
 2. Cada cena é gerada clonando essa amostra.
 3. O Whisper (faster-whisper) transcreve o resultado: dá o tempo de cada palavra para a legenda e
-   confere se a fala saiu certa. Se sair muito diferente do texto, gera de novo com outra semente.
+   confere se a fala saiu certa. Se sair muito diferente do texto, gera mais uma vez com outra semente.
 
 Precisa do VoiceStudio no PYTHONPATH (o workflow clona o repositório) e roda em CPU.
 """
@@ -46,7 +46,14 @@ def _normal(s):
 
 
 def _transcrever(wav):
-    segs, _ = _whisper.transcribe(wav, language="pt", word_timestamps=True, vad_filter=False, beam_size=5)
+    # entrega o áudio já decodificado (16 kHz mono), sem depender do PyAV
+    import soundfile as sf
+    import torch, torchaudio
+    dados, sr = sf.read(wav, dtype="float32", always_2d=True)
+    sinal = torch.from_numpy(dados.mean(axis=1))
+    if sr != 16000:
+        sinal = torchaudio.functional.resample(sinal, sr, 16000)
+    segs, _ = _whisper.transcribe(sinal.numpy(), language="pt", word_timestamps=True, vad_filter=False, beam_size=5)
     return [{"p": w.word.strip(), "i": float(w.start), "f": float(w.end)} for s in segs for w in (s.words or [])]
 
 
@@ -99,7 +106,7 @@ def gerar(texto, destino_mp3, config):
     _carregar()
     ref_wav, ref_txt = _referencia(config.get("instrucao", "male, young adult, low pitch"))
     melhor = None
-    for tentativa in range(3):
+    for tentativa in range(2):
         torch.manual_seed(1000 + tentativa)
         audio = _modelo.generate(
             text=texto, language="pt", ref_audio=ref_wav, ref_text=ref_txt, speed=float(config.get("velocidade", 1.0))
