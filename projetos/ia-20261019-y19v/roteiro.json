@@ -1,0 +1,108 @@
+{
+  "titulo": "Aula 3.2: Planos do Claude — vale subir de plano?",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude — Planos e preços (oficial)", "url": "https://claude.com/pricing" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você paga 20 dólares por mês no Claude e mesmo assim bateu o limite? Ou será que nem precisava pagar?",
+      "fontes": ["claude.com/pricing"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 20, "unidade": "US$/mês", "rotulo": "Plano Pro", "em": "20", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "VALE PAGAR?", "em": "limite?", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "LIMITE!", "cor": "vermelho", "em": "bateu", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Na aula 3.2 você vai aprender três coisas: o que cada plano libera, quanto custa, e como saber a hora certa de subir de plano.",
+      "fundo": "anthropic",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PLANOS DO CLAUDE", "sub": "Aula 3.2", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["check", "O que libera"], ["dinheiro", "Quanto custa"], ["alvo", "Hora de subir"]], "em": "três", "posicao": "alto" },
+        { "tipo": "tag", "texto": "IA DO ZERO AO ESPECIALISTA", "icone": "alvo", "em": "certa", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Um plano é o pacote que define o que você acessa e quanto pode usar. Em outubro de 2026, o Free custa zero. O Pro custa 20 dólares por mês. O Max começa em 100 dólares, com cinco ou vinte vezes o uso do Pro.",
+      "fontes": ["claude.com/pricing", "Outubro de 2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PREÇOS POR MÊS", "sub": "Out/2026", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Plano", "significado": "Pacote de recursos + limite de uso", "em": "pacote", "posicao": "alto" },
+        { "tipo": "tag", "texto": "FREE · US$ 0", "icone": "check", "em": "Free", "posicao": "meio" },
+        { "tipo": "tag", "texto": "PRO · US$ 20", "icone": "dinheiro", "cor": "azul", "em": "Pro", "posicao": "meio2" },
+        { "tipo": "tag", "texto": "MAX · A PARTIR DE US$ 100", "icone": "alerta", "cor": "roxo", "em": "Max", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num plano de celular. Free é o pré-pago básico. Pro é o plano do dia a dia. Max é para quem usa o tempo todo. Team e Enterprise são os planos da empresa, cobrados por assento, ou seja, por pessoa.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "icones", "itens": [["celular", "Free"], ["seta", ""], ["celular", "Pro"], ["seta", ""], ["celular", "Max"]], "em": "celular.", "posicao": "alto" },
+        { "tipo": "tag", "texto": "TEAM E ENTERPRISE", "icone": "predio", "cor": "cinza", "em": "Team", "posicao": "meio" },
+        { "tipo": "definicao", "palavra": "Seat (assento)", "significado": "Uma vaga paga por pessoa", "em": "assento,", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "O Pro libera Projetos, o Claude Code, a pesquisa profunda, chamada Research, e o Claude in Chrome, que é o Claude dentro do navegador. O Team custa 25 dólares por assento, ou 20 no plano anual. O Enterprise cobra o uso pelo preço da API.",
+      "fundo": "navegador",
+      "fontes": ["claude.com/pricing"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE O PRO LIBERA", "sub": "Out/2026", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "Projetos"], ["balao", "Research"], ["pin", "Chrome"]], "em": "Projetos,", "posicao": "alto" },
+        { "tipo": "tag", "texto": "CLAUDE CODE", "icone": "check", "cor": "verde", "em": "Code,", "posicao": "meio" },
+        { "tipo": "placar", "sim": 20, "nao": 25, "rotulo": "Team por assento (US$)", "rotuloSim": "Anual", "rotuloNao": "Mensal", "em": "Team", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "ENTERPRISE: USO A PREÇO DE API", "icone": "contrato", "cor": "roxo", "em": "Enterprise", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum: subir de plano na primeira mensagem de limite. Todo plano tem uma janela de cinco horas, e os pagos têm também limite semanal. Às vezes basta esperar o reset, que é o recomeço do contador.",
+      "fontes": ["claude.com/pricing"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "erro", "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Subir no 1º aviso de limite", "nota": "Pode ser só um pico do dia", "em": "primeira", "posicao": "alto" },
+        { "tipo": "relogio", "rotulo": "Janela de uso", "antes": "5 horas", "depois": "reset", "em": "cinco", "posicao": "meio" },
+        { "tipo": "tag", "texto": "PAGOS: LIMITE SEMANAL", "icone": "alerta", "cor": "amarelo", "em": "semanal.", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: abra a tela de uso do Claude e anote quanto você gastou do limite nesta semana.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "QUANTO VOCÊ USOU?", "em": "uso", "posicao": "meio" },
+        { "tipo": "comentario", "texto": "Comenta aí quanto deu!", "em": "anote", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: Free para o dia a dia, Pro para usar Claude Code e Research, Max só se você bate o limite toda semana.",
+      "fontes": ["claude.com/pricing"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["casa", "Free"], ["check", "Pro"], ["alerta", "Max"]], "em": "Free", "posicao": "alto" },
+        { "tipo": "tag", "texto": "BATEU TODA SEMANA? SUBA", "icone": "relogio", "cor": "verde", "em": "bate", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: o limite do Pro acabou só hoje. Você sobe para o Max ou espera o reset? Resposta: espera. Suba só se isso se repetir. Na próxima aula: esforço e pensamento estendido.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Limite acabou só hoje. E agora?", "opcoes": ["1: Subir pro Max", "2: Esperar o reset"], "em": "Quiz:", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "ESPERAR", "cor": "verde", "em": "Resposta:", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 3.3", "em": "próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

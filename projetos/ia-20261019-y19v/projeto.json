@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-y19v",
- "titulo": "Aula 3.2: Planos do Claude explicados — compare Free, Pro (US$ 20 por ",
+ "titulo": "Aula 3.2: Planos do Claude — vale subir de plano?",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.941Z",
- "atualizadoEm": "2026-10-19T22:26:17.941Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:44:06Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 3.2: Planos do Claude explicados — compare Free, Pro (US$ 20 por mês), Max (a partir de US$ 100), Team e Enterprise, o que cada um libera (Projetos, Claude Code, Research, Claude in Chrome) e como saber se vale a pena subir de plano observando seus limites de uso",
@@ -62,11 +63,1902 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você paga 20 dólares por mês no Claude e mesmo assim bateu o limite? Ou será que nem precisava pagar?",
+   "fontes": [
+    "claude.com/pricing"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 20,
+     "unidade": "US$/mês",
+     "rotulo": "Plano Pro",
+     "em": "20",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "VALE PAGAR?",
+     "em": "limite?",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "LIMITE!",
+     "cor": "vermelho",
+     "em": "bateu",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Na aula 3.2 você vai aprender três coisas: o que cada plano libera, quanto custa, e como saber a hora certa de subir de plano.",
+   "fundo": "anthropic",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PLANOS DO CLAUDE",
+     "sub": "Aula 3.2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "check",
+       "O que libera"
+      ],
+      [
+       "dinheiro",
+       "Quanto custa"
+      ],
+      [
+       "alvo",
+       "Hora de subir"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "IA DO ZERO AO ESPECIALISTA",
+     "icone": "alvo",
+     "em": "certa",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Um plano é o pacote que define o que você acessa e quanto pode usar. Em outubro de 2026, o Free custa zero. O Pro custa 20 dólares por mês. O Max começa em 100 dólares, com cinco ou vinte vezes o uso do Pro.",
+   "fontes": [
+    "claude.com/pricing",
+    "Outubro de 2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PREÇOS POR MÊS",
+     "sub": "Out/2026",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Plano",
+     "significado": "Pacote de recursos + limite de uso",
+     "em": "pacote",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FREE · US$ 0",
+     "icone": "check",
+     "em": "Free",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PRO · US$ 20",
+     "icone": "dinheiro",
+     "cor": "azul",
+     "em": "Pro",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "MAX · A PARTIR DE US$ 100",
+     "icone": "alerta",
+     "cor": "roxo",
+     "em": "Max",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num plano de celular. Free é o pré-pago básico. Pro é o plano do dia a dia. Max é para quem usa o tempo todo. Team e Enterprise são os planos da empresa, cobrados por assento, ou seja, por pessoa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "Free"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "celular",
+       "Pro"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "celular",
+       "Max"
+      ]
+     ],
+     "em": "celular.",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TEAM E ENTERPRISE",
+     "icone": "predio",
+     "cor": "cinza",
+     "em": "Team",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Seat (assento)",
+     "significado": "Uma vaga paga por pessoa",
+     "em": "assento,",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "O Pro libera Projetos, o Claude Code, a pesquisa profunda, chamada Research, e o Claude in Chrome, que é o Claude dentro do navegador. O Team custa 25 dólares por assento, ou 20 no plano anual. O Enterprise cobra o uso pelo preço da API.",
+   "fundo": "navegador",
+   "fontes": [
+    "claude.com/pricing"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE O PRO LIBERA",
+     "sub": "Out/2026",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Projetos"
+      ],
+      [
+       "balao",
+       "Research"
+      ],
+      [
+       "pin",
+       "Chrome"
+      ]
+     ],
+     "em": "Projetos,",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CLAUDE CODE",
+     "icone": "check",
+     "cor": "verde",
+     "em": "Code,",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "placar",
+     "sim": 20,
+     "nao": 25,
+     "rotulo": "Team por assento (US$)",
+     "rotuloSim": "Anual",
+     "rotuloNao": "Mensal",
+     "em": "Team",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ENTERPRISE: USO A PREÇO DE API",
+     "icone": "contrato",
+     "cor": "roxo",
+     "em": "Enterprise",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum: subir de plano na primeira mensagem de limite. Todo plano tem uma janela de cinco horas, e os pagos têm também limite semanal. Às vezes basta esperar o reset, que é o recomeço do contador.",
+   "fontes": [
+    "claude.com/pricing"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Subir no 1º aviso de limite",
+     "nota": "Pode ser só um pico do dia",
+     "em": "primeira",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "relogio",
+     "rotulo": "Janela de uso",
+     "antes": "5 horas",
+     "depois": "reset",
+     "em": "cinco",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PAGOS: LIMITE SEMANAL",
+     "icone": "alerta",
+     "cor": "amarelo",
+     "em": "semanal.",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: abra a tela de uso do Claude e anote quanto você gastou do limite nesta semana.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUANTO VOCÊ USOU?",
+     "em": "uso",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Comenta aí quanto deu!",
+     "em": "anote",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: Free para o dia a dia, Pro para usar Claude Code e Research, Max só se você bate o limite toda semana.",
+   "fontes": [
+    "claude.com/pricing"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "casa",
+       "Free"
+      ],
+      [
+       "check",
+       "Pro"
+      ],
+      [
+       "alerta",
+       "Max"
+      ]
+     ],
+     "em": "Free",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "BATEU TODA SEMANA? SUBA",
+     "icone": "relogio",
+     "cor": "verde",
+     "em": "bate",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: o limite do Pro acabou só hoje. Você sobe para o Max ou espera o reset? Resposta: espera. Suba só se isso se repetir. Na próxima aula: esforço e pensamento estendido.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Limite acabou só hoje. E agora?",
+     "opcoes": [
+      "1: Subir pro Max",
+      "2: Esperar o reset"
+     ],
+     "em": "Quiz:",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "ESPERAR",
+     "cor": "verde",
+     "em": "Resposta:",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 3.3",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "33c68e2813",
+   "texto": "Você paga 20 dólares por mês no Claude e mesmo assim bateu o limite? Ou será que nem precisava pagar?",
+   "audio": "audio/gancho-33c68e2813.mp3",
+   "duracao": 7.224,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.098,
+     "f": 0.383
+    },
+    {
+     "p": "paga",
+     "i": 0.395,
+     "f": 0.705
+    },
+    {
+     "p": "20 dólares",
+     "i": 0.717,
+     "f": 1.407
+    },
+    {
+     "p": "por",
+     "i": 1.419,
+     "f": 1.574
+    },
+    {
+     "p": "mês",
+     "i": 1.586,
+     "f": 1.824
+    },
+    {
+     "p": "no",
+     "i": 1.836,
+     "f": 1.931
+    },
+    {
+     "p": "Claude",
+     "i": 1.943,
+     "f": 2.229
+    },
+    {
+     "p": "e",
+     "i": 2.24,
+     "f": 2.264
+    },
+    {
+     "p": "mesmo",
+     "i": 2.276,
+     "f": 2.598
+    },
+    {
+     "p": "assim",
+     "i": 2.61,
+     "f": 2.895
+    },
+    {
+     "p": "bateu",
+     "i": 2.907,
+     "f": 3.229
+    },
+    {
+     "p": "o",
+     "i": 3.24,
+     "f": 3.264
+    },
+    {
+     "p": "limite",
+     "i": 3.276,
+     "f": 3.752
+    },
+    {
+     "p": "Ou",
+     "i": 4.571,
+     "f": 4.75
+    },
+    {
+     "p": "será",
+     "i": 4.762,
+     "f": 5.131
+    },
+    {
+     "p": "que",
+     "i": 5.143,
+     "f": 5.262
+    },
+    {
+     "p": "nem",
+     "i": 5.274,
+     "f": 5.488
+    },
+    {
+     "p": "precisava",
+     "i": 5.5,
+     "f": 6.048
+    },
+    {
+     "p": "pagar",
+     "i": 6.06,
+     "f": 6.393
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "fa6656b579",
+   "texto": "Na aula 3.2 você vai aprender três coisas: o que cada plano libera, quanto custa, e como saber a hora certa de subir de plano.",
+   "audio": "audio/promessa-fa6656b579.mp3",
+   "duracao": 8.952,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "aula",
+     "i": 0.252,
+     "f": 0.562
+    },
+    {
+     "p": "3.2 você",
+     "i": 0.574,
+     "f": 1.681
+    },
+    {
+     "p": "vai",
+     "i": 1.693,
+     "f": 1.788
+    },
+    {
+     "p": "aprender",
+     "i": 1.8,
+     "f": 2.217
+    },
+    {
+     "p": "três",
+     "i": 2.229,
+     "f": 2.514
+    },
+    {
+     "p": "coisas",
+     "i": 2.526,
+     "f": 3.014
+    },
+    {
+     "p": "o",
+     "i": 3.348,
+     "f": 3.407
+    },
+    {
+     "p": "que",
+     "i": 3.419,
+     "f": 3.586
+    },
+    {
+     "p": "cada",
+     "i": 3.598,
+     "f": 3.871
+    },
+    {
+     "p": "plano",
+     "i": 3.883,
+     "f": 4.169
+    },
+    {
+     "p": "libera",
+     "i": 4.181,
+     "f": 4.621
+    },
+    {
+     "p": "quanto",
+     "i": 4.824,
+     "f": 5.109
+    },
+    {
+     "p": "custa",
+     "i": 5.121,
+     "f": 5.502
+    },
+    {
+     "p": "e",
+     "i": 5.729,
+     "f": 5.8
+    },
+    {
+     "p": "como",
+     "i": 5.812,
+     "f": 6.074
+    },
+    {
+     "p": "saber",
+     "i": 6.086,
+     "f": 6.419
+    },
+    {
+     "p": "a",
+     "i": 6.431,
+     "f": 6.502
+    },
+    {
+     "p": "hora",
+     "i": 6.514,
+     "f": 6.74
+    },
+    {
+     "p": "certa",
+     "i": 6.752,
+     "f": 7.157
+    },
+    {
+     "p": "de",
+     "i": 7.169,
+     "f": 7.276
+    },
+    {
+     "p": "subir",
+     "i": 7.288,
+     "f": 7.609
+    },
+    {
+     "p": "de",
+     "i": 7.621,
+     "f": 7.729
+    },
+    {
+     "p": "plano",
+     "i": 7.74,
+     "f": 8.121
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "6b7c349912",
+   "texto": "Um plano é o pacote que define o que você acessa e quanto pode usar. Em outubro de 2026, o Free custa zero. O Pro custa 20 dólares por mês. O Max começa em 100 dólares, com cinco ou vinte vezes o uso do Pro.",
+   "audio": "audio/conceito-6b7c349912.mp3",
+   "duracao": 15.912,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.3
+    },
+    {
+     "p": "plano",
+     "i": 0.312,
+     "f": 0.657
+    },
+    {
+     "p": "é",
+     "i": 0.669,
+     "f": 0.717
+    },
+    {
+     "p": "o",
+     "i": 0.729,
+     "f": 0.764
+    },
+    {
+     "p": "pacote",
+     "i": 0.776,
+     "f": 1.264
+    },
+    {
+     "p": "que",
+     "i": 1.276,
+     "f": 1.348
+    },
+    {
+     "p": "define",
+     "i": 1.36,
+     "f": 1.729
+    },
+    {
+     "p": "o",
+     "i": 1.74,
+     "f": 1.764
+    },
+    {
+     "p": "que",
+     "i": 1.776,
+     "f": 1.871
+    },
+    {
+     "p": "você",
+     "i": 1.883,
+     "f": 2.133
+    },
+    {
+     "p": "acessa",
+     "i": 2.145,
+     "f": 2.574
+    },
+    {
+     "p": "e",
+     "i": 2.586,
+     "f": 2.609
+    },
+    {
+     "p": "quanto",
+     "i": 2.621,
+     "f": 2.931
+    },
+    {
+     "p": "pode",
+     "i": 2.943,
+     "f": 3.217
+    },
+    {
+     "p": "usar",
+     "i": 3.229,
+     "f": 3.514
+    },
+    {
+     "p": "Em",
+     "i": 4.333,
+     "f": 4.488
+    },
+    {
+     "p": "outubro",
+     "i": 4.5,
+     "f": 4.976
+    },
+    {
+     "p": "de",
+     "i": 4.988,
+     "f": 5.059
+    },
+    {
+     "p": "2026",
+     "i": 5.071,
+     "f": 6.048
+    },
+    {
+     "p": "o",
+     "i": 6.31,
+     "f": 6.369
+    },
+    {
+     "p": "Free",
+     "i": 6.381,
+     "f": 6.607
+    },
+    {
+     "p": "custa",
+     "i": 6.619,
+     "f": 6.964
+    },
+    {
+     "p": "zero",
+     "i": 6.976,
+     "f": 7.333
+    },
+    {
+     "p": "O",
+     "i": 8.155,
+     "f": 8.274
+    },
+    {
+     "p": "Pro",
+     "i": 8.286,
+     "f": 8.524
+    },
+    {
+     "p": "custa",
+     "i": 8.536,
+     "f": 8.893
+    },
+    {
+     "p": "20 dólares",
+     "i": 8.905,
+     "f": 9.595
+    },
+    {
+     "p": "por",
+     "i": 9.607,
+     "f": 9.774
+    },
+    {
+     "p": "mês",
+     "i": 9.786,
+     "f": 10.179
+    },
+    {
+     "p": "O",
+     "i": 11,
+     "f": 11.107
+    },
+    {
+     "p": "Max",
+     "i": 11.119,
+     "f": 11.476
+    },
+    {
+     "p": "começa",
+     "i": 11.488,
+     "f": 11.929
+    },
+    {
+     "p": "em",
+     "i": 11.94,
+     "f": 12.024
+    },
+    {
+     "p": "100 dólares",
+     "i": 12.036,
+     "f": 12.81
+    },
+    {
+     "p": "com",
+     "i": 13.036,
+     "f": 13.226
+    },
+    {
+     "p": "cinco",
+     "i": 13.238,
+     "f": 13.619
+    },
+    {
+     "p": "ou",
+     "i": 13.631,
+     "f": 13.714
+    },
+    {
+     "p": "vinte",
+     "i": 13.726,
+     "f": 14.012
+    },
+    {
+     "p": "vezes",
+     "i": 14.024,
+     "f": 14.345
+    },
+    {
+     "p": "o",
+     "i": 14.357,
+     "f": 14.536
+    },
+    {
+     "p": "uso",
+     "i": 14.548,
+     "f": 14.738
+    },
+    {
+     "p": "do",
+     "i": 14.75,
+     "f": 14.857
+    },
+    {
+     "p": "Pro",
+     "i": 14.869,
+     "f": 15.083
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "78b81e4771",
+   "texto": "Pense num plano de celular. Free é o pré-pago básico. Pro é o plano do dia a dia. Max é para quem usa o tempo todo. Team e Enterprise são os planos da empresa, cobrados por assento, ou seja, por pessoa.",
+   "audio": "audio/analogia-78b81e4771.mp3",
+   "duracao": 15.84,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "num",
+     "i": 0.49,
+     "f": 0.645
+    },
+    {
+     "p": "plano",
+     "i": 0.657,
+     "f": 0.979
+    },
+    {
+     "p": "de",
+     "i": 0.99,
+     "f": 1.074
+    },
+    {
+     "p": "celular",
+     "i": 1.086,
+     "f": 1.586
+    },
+    {
+     "p": "Free",
+     "i": 2.405,
+     "f": 2.643
+    },
+    {
+     "p": "é",
+     "i": 2.655,
+     "f": 2.738
+    },
+    {
+     "p": "o",
+     "i": 2.75,
+     "f": 2.81
+    },
+    {
+     "p": "pré-pago",
+     "i": 2.821,
+     "f": 3.333
+    },
+    {
+     "p": "básico",
+     "i": 3.345,
+     "f": 3.798
+    },
+    {
+     "p": "Pro",
+     "i": 4.619,
+     "f": 4.833
+    },
+    {
+     "p": "é",
+     "i": 4.845,
+     "f": 4.941
+    },
+    {
+     "p": "o",
+     "i": 4.952,
+     "f": 5.024
+    },
+    {
+     "p": "plano",
+     "i": 5.036,
+     "f": 5.405
+    },
+    {
+     "p": "do",
+     "i": 5.417,
+     "f": 5.56
+    },
+    {
+     "p": "dia",
+     "i": 5.571,
+     "f": 5.798
+    },
+    {
+     "p": "a",
+     "i": 5.81,
+     "f": 5.833
+    },
+    {
+     "p": "dia",
+     "i": 5.845,
+     "f": 6.191
+    },
+    {
+     "p": "Max",
+     "i": 7.012,
+     "f": 7.393
+    },
+    {
+     "p": "é",
+     "i": 7.405,
+     "f": 7.512
+    },
+    {
+     "p": "para",
+     "i": 7.524,
+     "f": 7.714
+    },
+    {
+     "p": "quem",
+     "i": 7.726,
+     "f": 7.976
+    },
+    {
+     "p": "usa",
+     "i": 7.988,
+     "f": 8.19
+    },
+    {
+     "p": "o",
+     "i": 8.202,
+     "f": 8.25
+    },
+    {
+     "p": "tempo",
+     "i": 8.262,
+     "f": 8.571
+    },
+    {
+     "p": "todo",
+     "i": 8.583,
+     "f": 8.905
+    },
+    {
+     "p": "Team",
+     "i": 9.726,
+     "f": 9.929
+    },
+    {
+     "p": "e",
+     "i": 9.94,
+     "f": 9.964
+    },
+    {
+     "p": "Enterprise",
+     "i": 9.976,
+     "f": 10.643
+    },
+    {
+     "p": "são",
+     "i": 10.655,
+     "f": 10.845
+    },
+    {
+     "p": "os",
+     "i": 10.857,
+     "f": 10.976
+    },
+    {
+     "p": "planos",
+     "i": 10.988,
+     "f": 11.333
+    },
+    {
+     "p": "da",
+     "i": 11.345,
+     "f": 11.417
+    },
+    {
+     "p": "empresa",
+     "i": 11.429,
+     "f": 11.893
+    },
+    {
+     "p": "cobrados",
+     "i": 12.119,
+     "f": 12.667
+    },
+    {
+     "p": "por",
+     "i": 12.679,
+     "f": 12.833
+    },
+    {
+     "p": "assento",
+     "i": 12.845,
+     "f": 13.357
+    },
+    {
+     "p": "ou",
+     "i": 13.548,
+     "f": 13.667
+    },
+    {
+     "p": "seja",
+     "i": 13.679,
+     "f": 14.107
+    },
+    {
+     "p": "por",
+     "i": 14.321,
+     "f": 14.464
+    },
+    {
+     "p": "pessoa",
+     "i": 14.476,
+     "f": 15.024
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "9bc9b742ec",
+   "texto": "O Pro libera Projetos, o Claude Code, a pesquisa profunda, chamada Research, e o Claude in Chrome, que é o Claude dentro do navegador. O Team custa 25 dólares por assento, ou 20 no plano anual. O Enterprise cobra o uso pelo preço da API.",
+   "audio": "audio/exemplo-9bc9b742ec.mp3",
+   "duracao": 16.896,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.229
+    },
+    {
+     "p": "Pro",
+     "i": 0.24,
+     "f": 0.431
+    },
+    {
+     "p": "libera",
+     "i": 0.443,
+     "f": 0.788
+    },
+    {
+     "p": "Projetos",
+     "i": 0.8,
+     "f": 1.431
+    },
+    {
+     "p": "o",
+     "i": 1.717,
+     "f": 1.824
+    },
+    {
+     "p": "Claude",
+     "i": 1.836,
+     "f": 2.193
+    },
+    {
+     "p": "Code",
+     "i": 2.205,
+     "f": 2.586
+    },
+    {
+     "p": "a",
+     "i": 2.764,
+     "f": 2.836
+    },
+    {
+     "p": "pesquisa",
+     "i": 2.848,
+     "f": 3.312
+    },
+    {
+     "p": "profunda",
+     "i": 3.324,
+     "f": 3.848
+    },
+    {
+     "p": "chamada",
+     "i": 4.086,
+     "f": 4.514
+    },
+    {
+     "p": "Research",
+     "i": 4.526,
+     "f": 5.086
+    },
+    {
+     "p": "e",
+     "i": 5.348,
+     "f": 5.443
+    },
+    {
+     "p": "o",
+     "i": 5.455,
+     "f": 5.514
+    },
+    {
+     "p": "Claude",
+     "i": 5.526,
+     "f": 5.848
+    },
+    {
+     "p": "in",
+     "i": 5.86,
+     "f": 5.919
+    },
+    {
+     "p": "Chrome",
+     "i": 5.931,
+     "f": 6.312
+    },
+    {
+     "p": "que",
+     "i": 6.538,
+     "f": 6.633
+    },
+    {
+     "p": "é",
+     "i": 6.645,
+     "f": 6.705
+    },
+    {
+     "p": "o",
+     "i": 6.717,
+     "f": 6.788
+    },
+    {
+     "p": "Claude",
+     "i": 6.8,
+     "f": 7.169
+    },
+    {
+     "p": "dentro",
+     "i": 7.181,
+     "f": 7.49
+    },
+    {
+     "p": "do",
+     "i": 7.502,
+     "f": 7.586
+    },
+    {
+     "p": "navegador",
+     "i": 7.598,
+     "f": 8.145
+    },
+    {
+     "p": "O",
+     "i": 8.964,
+     "f": 9.083
+    },
+    {
+     "p": "Team",
+     "i": 9.095,
+     "f": 9.298
+    },
+    {
+     "p": "custa",
+     "i": 9.31,
+     "f": 9.679
+    },
+    {
+     "p": "25 dólares",
+     "i": 9.69,
+     "f": 10.643
+    },
+    {
+     "p": "por",
+     "i": 10.655,
+     "f": 10.809
+    },
+    {
+     "p": "assento",
+     "i": 10.821,
+     "f": 11.309
+    },
+    {
+     "p": "ou",
+     "i": 11.512,
+     "f": 11.655
+    },
+    {
+     "p": "20 no",
+     "i": 11.667,
+     "f": 12.083
+    },
+    {
+     "p": "plano",
+     "i": 12.095,
+     "f": 12.345
+    },
+    {
+     "p": "anual",
+     "i": 12.357,
+     "f": 12.762
+    },
+    {
+     "p": "O",
+     "i": 13.583,
+     "f": 13.679
+    },
+    {
+     "p": "Enterprise",
+     "i": 13.69,
+     "f": 14.369
+    },
+    {
+     "p": "cobra",
+     "i": 14.381,
+     "f": 14.69
+    },
+    {
+     "p": "o",
+     "i": 14.702,
+     "f": 14.774
+    },
+    {
+     "p": "uso",
+     "i": 14.786,
+     "f": 14.976
+    },
+    {
+     "p": "pelo",
+     "i": 14.988,
+     "f": 15.202
+    },
+    {
+     "p": "preço",
+     "i": 15.214,
+     "f": 15.56
+    },
+    {
+     "p": "da",
+     "i": 15.571,
+     "f": 15.655
+    },
+    {
+     "p": "API",
+     "i": 15.667,
+     "f": 16.071
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "4ac06869a0",
+   "texto": "O erro comum: subir de plano na primeira mensagem de limite. Todo plano tem uma janela de cinco horas, e os pagos têm também limite semanal. Às vezes basta esperar o reset, que é o recomeço do contador.",
+   "audio": "audio/erro-comum-4ac06869a0.mp3",
+   "duracao": 13.824,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "erro",
+     "i": 0.252,
+     "f": 0.479
+    },
+    {
+     "p": "comum",
+     "i": 0.49,
+     "f": 0.836
+    },
+    {
+     "p": "subir",
+     "i": 1.169,
+     "f": 1.479
+    },
+    {
+     "p": "de",
+     "i": 1.49,
+     "f": 1.598
+    },
+    {
+     "p": "plano",
+     "i": 1.61,
+     "f": 1.943
+    },
+    {
+     "p": "na",
+     "i": 1.955,
+     "f": 2.062
+    },
+    {
+     "p": "primeira",
+     "i": 2.074,
+     "f": 2.371
+    },
+    {
+     "p": "mensagem",
+     "i": 2.383,
+     "f": 2.907
+    },
+    {
+     "p": "de",
+     "i": 2.919,
+     "f": 3.014
+    },
+    {
+     "p": "limite",
+     "i": 3.026,
+     "f": 3.502
+    },
+    {
+     "p": "Todo",
+     "i": 4.321,
+     "f": 4.583
+    },
+    {
+     "p": "plano",
+     "i": 4.595,
+     "f": 4.929
+    },
+    {
+     "p": "tem",
+     "i": 4.94,
+     "f": 5.083
+    },
+    {
+     "p": "uma",
+     "i": 5.095,
+     "f": 5.226
+    },
+    {
+     "p": "janela",
+     "i": 5.238,
+     "f": 5.655
+    },
+    {
+     "p": "de",
+     "i": 5.667,
+     "f": 5.786
+    },
+    {
+     "p": "cinco",
+     "i": 5.798,
+     "f": 6.131
+    },
+    {
+     "p": "horas",
+     "i": 6.143,
+     "f": 6.488
+    },
+    {
+     "p": "e",
+     "i": 6.738,
+     "f": 6.786
+    },
+    {
+     "p": "os",
+     "i": 6.798,
+     "f": 6.905
+    },
+    {
+     "p": "pagos",
+     "i": 6.917,
+     "f": 7.321
+    },
+    {
+     "p": "têm",
+     "i": 7.333,
+     "f": 7.464
+    },
+    {
+     "p": "também",
+     "i": 7.476,
+     "f": 7.821
+    },
+    {
+     "p": "limite",
+     "i": 7.833,
+     "f": 8.19
+    },
+    {
+     "p": "semanal",
+     "i": 8.202,
+     "f": 8.69
+    },
+    {
+     "p": "Às",
+     "i": 9.512,
+     "f": 9.774
+    },
+    {
+     "p": "vezes",
+     "i": 9.786,
+     "f": 10.131
+    },
+    {
+     "p": "basta",
+     "i": 10.143,
+     "f": 10.452
+    },
+    {
+     "p": "esperar",
+     "i": 10.464,
+     "f": 10.833
+    },
+    {
+     "p": "o",
+     "i": 10.845,
+     "f": 10.881
+    },
+    {
+     "p": "reset",
+     "i": 10.893,
+     "f": 11.405
+    },
+    {
+     "p": "que",
+     "i": 11.571,
+     "f": 11.667
+    },
+    {
+     "p": "é",
+     "i": 11.679,
+     "f": 11.726
+    },
+    {
+     "p": "o",
+     "i": 11.738,
+     "f": 11.774
+    },
+    {
+     "p": "recomeço",
+     "i": 11.786,
+     "f": 12.369
+    },
+    {
+     "p": "do",
+     "i": 12.381,
+     "f": 12.5
+    },
+    {
+     "p": "contador",
+     "i": 12.512,
+     "f": 13
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "c9d5abf8c8",
+   "texto": "Pause o vídeo e tente: abra a tela de uso do Claude e anote quanto você gastou do limite nesta semana.",
+   "audio": "audio/pratica-c9d5abf8c8.mp3",
+   "duracao": 6.36,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "o",
+     "i": 0.431,
+     "f": 0.479
+    },
+    {
+     "p": "vídeo",
+     "i": 0.49,
+     "f": 0.8
+    },
+    {
+     "p": "e",
+     "i": 0.812,
+     "f": 0.871
+    },
+    {
+     "p": "tente",
+     "i": 0.883,
+     "f": 1.276
+    },
+    {
+     "p": "abra",
+     "i": 1.467,
+     "f": 1.693
+    },
+    {
+     "p": "a",
+     "i": 1.705,
+     "f": 1.74
+    },
+    {
+     "p": "tela",
+     "i": 1.752,
+     "f": 2.014
+    },
+    {
+     "p": "de",
+     "i": 2.026,
+     "f": 2.181
+    },
+    {
+     "p": "uso",
+     "i": 2.193,
+     "f": 2.407
+    },
+    {
+     "p": "do",
+     "i": 2.419,
+     "f": 2.514
+    },
+    {
+     "p": "Claude",
+     "i": 2.526,
+     "f": 2.836
+    },
+    {
+     "p": "e",
+     "i": 2.848,
+     "f": 2.871
+    },
+    {
+     "p": "anote",
+     "i": 2.883,
+     "f": 3.312
+    },
+    {
+     "p": "quanto",
+     "i": 3.324,
+     "f": 3.562
+    },
+    {
+     "p": "você",
+     "i": 3.574,
+     "f": 3.824
+    },
+    {
+     "p": "gastou",
+     "i": 3.836,
+     "f": 4.205
+    },
+    {
+     "p": "do",
+     "i": 4.217,
+     "f": 4.312
+    },
+    {
+     "p": "limite",
+     "i": 4.324,
+     "f": 4.74
+    },
+    {
+     "p": "nesta",
+     "i": 4.752,
+     "f": 5.014
+    },
+    {
+     "p": "semana",
+     "i": 5.026,
+     "f": 5.526
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "e03a04799e",
+   "texto": "Resumindo: Free para o dia a dia, Pro para usar Claude Code e Research, Max só se você bate o limite toda semana.",
+   "audio": "audio/resumo-e03a04799e.mp3",
+   "duracao": 7.608,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.729
+    },
+    {
+     "p": "Free",
+     "i": 1.014,
+     "f": 1.181
+    },
+    {
+     "p": "para",
+     "i": 1.193,
+     "f": 1.371
+    },
+    {
+     "p": "o",
+     "i": 1.383,
+     "f": 1.419
+    },
+    {
+     "p": "dia",
+     "i": 1.431,
+     "f": 1.598
+    },
+    {
+     "p": "a",
+     "i": 1.61,
+     "f": 1.645
+    },
+    {
+     "p": "dia",
+     "i": 1.657,
+     "f": 2.002
+    },
+    {
+     "p": "Pro",
+     "i": 2.229,
+     "f": 2.395
+    },
+    {
+     "p": "para",
+     "i": 2.407,
+     "f": 2.562
+    },
+    {
+     "p": "usar",
+     "i": 2.574,
+     "f": 2.824
+    },
+    {
+     "p": "Claude",
+     "i": 2.836,
+     "f": 3.169
+    },
+    {
+     "p": "Code",
+     "i": 3.181,
+     "f": 3.49
+    },
+    {
+     "p": "e",
+     "i": 3.502,
+     "f": 3.55
+    },
+    {
+     "p": "Research",
+     "i": 3.562,
+     "f": 4.074
+    },
+    {
+     "p": "Max",
+     "i": 4.36,
+     "f": 4.681
+    },
+    {
+     "p": "só",
+     "i": 4.693,
+     "f": 4.836
+    },
+    {
+     "p": "se",
+     "i": 4.848,
+     "f": 4.955
+    },
+    {
+     "p": "você",
+     "i": 4.967,
+     "f": 5.229
+    },
+    {
+     "p": "bate",
+     "i": 5.24,
+     "f": 5.538
+    },
+    {
+     "p": "o",
+     "i": 5.55,
+     "f": 5.562
+    },
+    {
+     "p": "limite",
+     "i": 5.574,
+     "f": 6.002
+    },
+    {
+     "p": "toda",
+     "i": 6.014,
+     "f": 6.3
+    },
+    {
+     "p": "semana",
+     "i": 6.312,
+     "f": 6.788
+    }
+   ]
+  },
+  "final": {
+   "hash": "573dcfa609",
+   "texto": "Quiz: o limite do Pro acabou só hoje. Você sobe para o Max ou espera o reset? Resposta: espera. Suba só se isso se repetir. Na próxima aula: esforço e pensamento estendido.",
+   "audio": "audio/final-573dcfa609.mp3",
+   "duracao": 15.168,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.502
+    },
+    {
+     "p": "o",
+     "i": 0.788,
+     "f": 0.824
+    },
+    {
+     "p": "limite",
+     "i": 0.836,
+     "f": 1.252
+    },
+    {
+     "p": "do",
+     "i": 1.264,
+     "f": 1.36
+    },
+    {
+     "p": "Pro",
+     "i": 1.371,
+     "f": 1.574
+    },
+    {
+     "p": "acabou",
+     "i": 1.586,
+     "f": 1.99
+    },
+    {
+     "p": "só",
+     "i": 2.002,
+     "f": 2.205
+    },
+    {
+     "p": "hoje",
+     "i": 2.217,
+     "f": 2.621
+    },
+    {
+     "p": "Você",
+     "i": 3.44,
+     "f": 3.75
+    },
+    {
+     "p": "sobe",
+     "i": 3.762,
+     "f": 4.131
+    },
+    {
+     "p": "para",
+     "i": 4.143,
+     "f": 4.31
+    },
+    {
+     "p": "o",
+     "i": 4.321,
+     "f": 4.345
+    },
+    {
+     "p": "Max",
+     "i": 4.357,
+     "f": 4.679
+    },
+    {
+     "p": "ou",
+     "i": 4.69,
+     "f": 4.929
+    },
+    {
+     "p": "espera",
+     "i": 4.94,
+     "f": 5.262
+    },
+    {
+     "p": "o",
+     "i": 5.274,
+     "f": 5.286
+    },
+    {
+     "p": "reset",
+     "i": 5.298,
+     "f": 5.821
+    },
+    {
+     "p": "Resposta",
+     "i": 6.643,
+     "f": 7.345
+    },
+    {
+     "p": "espera",
+     "i": 7.631,
+     "f": 8.131
+    },
+    {
+     "p": "Suba",
+     "i": 8.952,
+     "f": 9.357
+    },
+    {
+     "p": "só",
+     "i": 9.369,
+     "f": 9.559
+    },
+    {
+     "p": "se",
+     "i": 9.571,
+     "f": 9.762
+    },
+    {
+     "p": "isso",
+     "i": 9.774,
+     "f": 10.059
+    },
+    {
+     "p": "se",
+     "i": 10.071,
+     "f": 10.179
+    },
+    {
+     "p": "repetir",
+     "i": 10.19,
+     "f": 10.69
+    },
+    {
+     "p": "Na",
+     "i": 11.512,
+     "f": 11.69
+    },
+    {
+     "p": "próxima",
+     "i": 11.702,
+     "f": 12.119
+    },
+    {
+     "p": "aula",
+     "i": 12.131,
+     "f": 12.464
+    },
+    {
+     "p": "esforço",
+     "i": 12.679,
+     "f": 13.119
+    },
+    {
+     "p": "e",
+     "i": 13.131,
+     "f": 13.167
+    },
+    {
+     "p": "pensamento",
+     "i": 13.179,
+     "f": 13.738
+    },
+    {
+     "p": "estendido",
+     "i": 13.75,
+     "f": 14.333
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "navegador": {
+   "arquivo": "imagens/navegador-f139c63e.jpg",
+   "rotulo": "Navegador",
+   "commons": "Google Chrome browser window",
+   "autor": "Desconhecido",
+   "licenca": "BSD",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Google-chrome-acid-2-test-browser-window-resized.png",
+   "titulo": "File:Google-chrome-acid-2-test-browser-window-resized.png"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.941Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude — Planos e preços (oficial)",
+   "url": "https://claude.com/pricing"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }
