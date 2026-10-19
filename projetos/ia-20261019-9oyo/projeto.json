@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-9oyo",
- "titulo": "Aula 3.3: Esforço e pensamento estendido na IA — explique que os model",
+ "titulo": "Aula 3.3: Esforço e pensamento estendido",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.941Z",
- "atualizadoEm": "2026-10-19T22:26:17.941Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:44:45Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 3.3: Esforço e pensamento estendido na IA — explique que os modelos atuais pensam antes de responder, como o nível de esforço (baixo, médio, alto, extra-alto e máximo) troca velocidade e custo por qualidade, e quando usar cada nível, com exemplo de revisão de e-mail x planilha financeira",
@@ -62,11 +63,1955 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "A IA pensa antes de responder. Sabia disso? E você decide quanto tempo ela pensa. Mas atenção: pensar mais tem um preço, e você vai ver qual.",
+   "fontes": [
+    "Claude Docs — Effort"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "A IA PENSA?",
+     "em": "pensa",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "SIM",
+     "cor": "verde",
+     "em": "Sabia",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "VOCÊ ESCOLHE",
+     "icone": "alvo",
+     "cor": "azul",
+     "em": "decide",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "TEM PREÇO",
+     "cor": "vermelho",
+     "em": "preço",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula você vai aprender três coisas. O que é pensar antes de responder. Os cinco níveis de esforço. E quando usar cada um.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AULA 3.3",
+     "sub": "Esforço e pensamento",
+     "em": "Nesta",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "1 PENSAR",
+     "icone": "balao",
+     "cor": "azul",
+     "em": "pensar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2 NÍVEIS",
+     "icone": "relogio",
+     "cor": "roxo",
+     "em": "cinco",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 QUANDO",
+     "icone": "alvo",
+     "cor": "verde",
+     "em": "quando",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Os modelos atuais podem pensar antes de responder. Isso se chama pensamento estendido, ou extended thinking, em inglês. É um rascunho interno, feito antes da resposta final. E o nível de esforço controla o quanto ela pensa.",
+   "fontes": [
+    "Claude Docs — Effort"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PENSAMENTO ESTENDIDO",
+     "em": "Os",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Pensamento estendido",
+     "significado": "Rascunho interno da IA antes da resposta final",
+     "em": "estendido",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "RASCUNHO INTERNO",
+     "icone": "documento",
+     "cor": "azul",
+     "em": "rascunho",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "NÍVEL DE ESFORÇO",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "esforço",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "niveis",
+   "texto": "São cinco níveis. Baixo, médio, alto, extra-alto e máximo. Quanto mais alto, mais devagar, mais caro e mais cuidadoso.",
+   "fontes": [
+    "Claude Docs — Effort"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5 NÍVEIS",
+     "sub": "low · medium · high · xhigh · max",
+     "em": "São",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "BAIXO",
+       "rápido"
+      ],
+      [
+       "MÉDIO",
+       "equilíbrio"
+      ],
+      [
+       "ALTO",
+       "cuidado"
+      ],
+      [
+       "MÁXIMO",
+       "tudo"
+      ]
+     ],
+     "em": "Baixo",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "relogio",
+     "rotulo": "TEMPO DE ESPERA",
+     "antes": 2,
+     "depois": 10,
+     "em": "devagar",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MAIS CARO",
+     "cor": "vermelho",
+     "em": "caro",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense numa prova. No nível baixo, você responde de cabeça. No alto, você faz contas no rascunho e revisa. Mais rascunho, mais acerto, mais tempo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO NA PROVA",
+     "em": "Pense",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "BAIXO: DE CABEÇA",
+     "icone": "relogio",
+     "cor": "verde",
+     "em": "cabeça",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ALTO: RASCUNHO E REVISÃO",
+     "icone": "documento",
+     "cor": "roxo",
+     "em": "alto",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "RASCUNHO"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "ACERTO"
+      ]
+     ],
+     "em": "Mais",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Exemplo. Revisar um e-mail de três linhas? Nível baixo resolve, é rápido e barato. Conferir uma planilha financeira com fórmulas e totais? Suba para alto. Um erro ali custa dinheiro de verdade.",
+   "fontes": [
+    "Claude Docs — Effort"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "E-MAIL × PLANILHA",
+     "em": "Exemplo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Revise este e-mail e corrija os erros de português.",
+     "em": "e-mail",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "E-MAIL: BAIXO",
+     "nota": "Tarefa simples, resposta rápida e barata",
+     "em": "baixo",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "PLANILHA: ALTO",
+     "nota": "Fórmulas e totais pedem conferência cuidadosa",
+     "em": "alto",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO CUSTA CARO",
+     "cor": "vermelho",
+     "em": "dinheiro",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum é deixar tudo no máximo. Parece mais seguro, mas fica lento e caro, e nem sempre melhora o resultado. Comece médio e só suba se faltar qualidade.",
+   "fontes": [
+    "Claude Docs — Effort"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "TUDO NO MÁXIMO",
+     "nota": "Lento, caro e nem sempre melhor",
+     "em": "máximo",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "COMECE NO MÉDIO",
+     "nota": "Suba só se faltar qualidade",
+     "em": "médio",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente. Pegue uma tarefa sua, como um resumo ou uma tabela, e rode em dois níveis, baixo e alto. Compare a qualidade e o tempo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL NÍVEL VALE?",
+     "em": "dois",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "TEMPO"
+      ],
+      [
+       "check",
+       "QUALIDADE"
+      ]
+     ],
+     "em": "Compare",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo. A IA pensa antes de responder. O esforço troca velocidade e custo por qualidade. E tarefa simples pede nível baixo, enquanto tarefa delicada pede nível alto.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": "Resumindo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "1 A IA PENSA",
+     "icone": "balao",
+     "cor": "azul",
+     "em": "pensa",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2 VELOCIDADE × QUALIDADE",
+     "icone": "balanca",
+     "cor": "roxo",
+     "em": "esforço",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 SIMPLES = BAIXO",
+     "icone": "check",
+     "cor": "verde",
+     "em": "simples",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz. Para revisar um e-mail curto, qual nível? Um, baixo. Dois, máximo. A resposta é um: baixo basta, e sai mais rápido e barato. Na próxima aula, você vê a estratégia de modelo barato coleta e modelo forte pensa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "E-mail curto: qual nível?",
+     "opcoes": [
+      "1 · BAIXO",
+      "2 · MÁXIMO"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 1",
+     "cor": "verde",
+     "em": "resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 3.4",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "8b21e6ebc1",
+   "texto": "A IA pensa antes de responder. Sabia disso? E você decide quanto tempo ela pensa. Mas atenção: pensar mais tem um preço, e você vai ver qual.",
+   "audio": "audio/gancho-8b21e6ebc1.mp3",
+   "duracao": 13.032,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.098,
+     "f": 0.193
+    },
+    {
+     "p": "IA",
+     "i": 0.205,
+     "f": 1.419
+    },
+    {
+     "p": "pensa",
+     "i": 1.431,
+     "f": 1.812
+    },
+    {
+     "p": "antes",
+     "i": 1.824,
+     "f": 2.181
+    },
+    {
+     "p": "de",
+     "i": 2.193,
+     "f": 2.276
+    },
+    {
+     "p": "responder",
+     "i": 2.288,
+     "f": 2.824
+    },
+    {
+     "p": "Sabia",
+     "i": 3.643,
+     "f": 4.167
+    },
+    {
+     "p": "disso",
+     "i": 4.179,
+     "f": 4.595
+    },
+    {
+     "p": "E",
+     "i": 5.417,
+     "f": 5.512
+    },
+    {
+     "p": "você",
+     "i": 5.524,
+     "f": 5.75
+    },
+    {
+     "p": "decide",
+     "i": 5.762,
+     "f": 6.214
+    },
+    {
+     "p": "quanto",
+     "i": 6.226,
+     "f": 6.548
+    },
+    {
+     "p": "tempo",
+     "i": 6.56,
+     "f": 6.881
+    },
+    {
+     "p": "ela",
+     "i": 6.893,
+     "f": 7.083
+    },
+    {
+     "p": "pensa",
+     "i": 7.095,
+     "f": 7.524
+    },
+    {
+     "p": "Mas",
+     "i": 8.345,
+     "f": 8.548
+    },
+    {
+     "p": "atenção",
+     "i": 8.56,
+     "f": 9.226
+    },
+    {
+     "p": "pensar",
+     "i": 9.488,
+     "f": 9.94
+    },
+    {
+     "p": "mais",
+     "i": 9.952,
+     "f": 10.238
+    },
+    {
+     "p": "tem",
+     "i": 10.25,
+     "f": 10.381
+    },
+    {
+     "p": "um",
+     "i": 10.393,
+     "f": 10.5
+    },
+    {
+     "p": "preço",
+     "i": 10.512,
+     "f": 10.917
+    },
+    {
+     "p": "e",
+     "i": 11.131,
+     "f": 11.19
+    },
+    {
+     "p": "você",
+     "i": 11.202,
+     "f": 11.5
+    },
+    {
+     "p": "vai",
+     "i": 11.512,
+     "f": 11.643
+    },
+    {
+     "p": "ver",
+     "i": 11.655,
+     "f": 11.833
+    },
+    {
+     "p": "qual.",
+     "i": 11.845,
+     "f": 12.202
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "e82b134611",
+   "texto": "Nesta aula você vai aprender três coisas. O que é pensar antes de responder. Os cinco níveis de esforço. E quando usar cada um.",
+   "audio": "audio/promessa-e82b134611.mp3",
+   "duracao": 10.176,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "aula",
+     "i": 0.467,
+     "f": 0.74
+    },
+    {
+     "p": "você",
+     "i": 0.752,
+     "f": 1.038
+    },
+    {
+     "p": "vai",
+     "i": 1.05,
+     "f": 1.145
+    },
+    {
+     "p": "aprender",
+     "i": 1.157,
+     "f": 1.621
+    },
+    {
+     "p": "três",
+     "i": 1.633,
+     "f": 1.931
+    },
+    {
+     "p": "coisas",
+     "i": 1.943,
+     "f": 2.467
+    },
+    {
+     "p": "O",
+     "i": 3.286,
+     "f": 3.393
+    },
+    {
+     "p": "que",
+     "i": 3.405,
+     "f": 3.524
+    },
+    {
+     "p": "é",
+     "i": 3.536,
+     "f": 3.595
+    },
+    {
+     "p": "pensar",
+     "i": 3.607,
+     "f": 4.071
+    },
+    {
+     "p": "antes",
+     "i": 4.083,
+     "f": 4.381
+    },
+    {
+     "p": "de",
+     "i": 4.393,
+     "f": 4.476
+    },
+    {
+     "p": "responder",
+     "i": 4.488,
+     "f": 5.024
+    },
+    {
+     "p": "Os",
+     "i": 5.845,
+     "f": 6.024
+    },
+    {
+     "p": "cinco",
+     "i": 6.036,
+     "f": 6.393
+    },
+    {
+     "p": "níveis",
+     "i": 6.405,
+     "f": 6.75
+    },
+    {
+     "p": "de",
+     "i": 6.762,
+     "f": 6.821
+    },
+    {
+     "p": "esforço",
+     "i": 6.833,
+     "f": 7.333
+    },
+    {
+     "p": "E",
+     "i": 8.155,
+     "f": 8.262
+    },
+    {
+     "p": "quando",
+     "i": 8.274,
+     "f": 8.512
+    },
+    {
+     "p": "usar",
+     "i": 8.524,
+     "f": 8.833
+    },
+    {
+     "p": "cada",
+     "i": 8.845,
+     "f": 9.119
+    },
+    {
+     "p": "um",
+     "i": 9.131,
+     "f": 9.345
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "4e0216273d",
+   "texto": "Os modelos atuais podem pensar antes de responder. Isso se chama pensamento estendido, ou extended thinking, em inglês. É um rascunho interno, feito antes da resposta final. E o nível de esforço controla o quanto ela pensa.",
+   "audio": "audio/conceito-4e0216273d.mp3",
+   "duracao": 15.696,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "modelos",
+     "i": 0.252,
+     "f": 0.621
+    },
+    {
+     "p": "atuais",
+     "i": 0.633,
+     "f": 1.121
+    },
+    {
+     "p": "podem",
+     "i": 1.133,
+     "f": 1.383
+    },
+    {
+     "p": "pensar",
+     "i": 1.395,
+     "f": 1.836
+    },
+    {
+     "p": "antes",
+     "i": 1.848,
+     "f": 2.181
+    },
+    {
+     "p": "de",
+     "i": 2.193,
+     "f": 2.276
+    },
+    {
+     "p": "responder",
+     "i": 2.288,
+     "f": 2.848
+    },
+    {
+     "p": "Isso",
+     "i": 3.667,
+     "f": 3.94
+    },
+    {
+     "p": "se",
+     "i": 3.952,
+     "f": 4.071
+    },
+    {
+     "p": "chama",
+     "i": 4.083,
+     "f": 4.405
+    },
+    {
+     "p": "pensamento",
+     "i": 4.417,
+     "f": 4.929
+    },
+    {
+     "p": "estendido",
+     "i": 4.94,
+     "f": 5.488
+    },
+    {
+     "p": "ou",
+     "i": 5.714,
+     "f": 5.869
+    },
+    {
+     "p": "extended",
+     "i": 5.881,
+     "f": 6.476
+    },
+    {
+     "p": "thinking",
+     "i": 6.488,
+     "f": 6.929
+    },
+    {
+     "p": "em",
+     "i": 7.107,
+     "f": 7.214
+    },
+    {
+     "p": "inglês",
+     "i": 7.226,
+     "f": 7.714
+    },
+    {
+     "p": "É",
+     "i": 8.536,
+     "f": 8.643
+    },
+    {
+     "p": "um",
+     "i": 8.655,
+     "f": 8.762
+    },
+    {
+     "p": "rascunho",
+     "i": 8.774,
+     "f": 9.202
+    },
+    {
+     "p": "interno",
+     "i": 9.214,
+     "f": 9.69
+    },
+    {
+     "p": "feito",
+     "i": 9.952,
+     "f": 10.262
+    },
+    {
+     "p": "antes",
+     "i": 10.274,
+     "f": 10.571
+    },
+    {
+     "p": "da",
+     "i": 10.583,
+     "f": 10.679
+    },
+    {
+     "p": "resposta",
+     "i": 10.69,
+     "f": 11.214
+    },
+    {
+     "p": "final",
+     "i": 11.226,
+     "f": 11.607
+    },
+    {
+     "p": "E",
+     "i": 12.429,
+     "f": 12.548
+    },
+    {
+     "p": "o",
+     "i": 12.56,
+     "f": 12.595
+    },
+    {
+     "p": "nível",
+     "i": 12.607,
+     "f": 12.929
+    },
+    {
+     "p": "de",
+     "i": 12.94,
+     "f": 13.012
+    },
+    {
+     "p": "esforço",
+     "i": 13.024,
+     "f": 13.44
+    },
+    {
+     "p": "controla",
+     "i": 13.452,
+     "f": 13.893
+    },
+    {
+     "p": "o",
+     "i": 13.905,
+     "f": 13.952
+    },
+    {
+     "p": "quanto",
+     "i": 13.964,
+     "f": 14.274
+    },
+    {
+     "p": "ela",
+     "i": 14.286,
+     "f": 14.452
+    },
+    {
+     "p": "pensa",
+     "i": 14.464,
+     "f": 14.869
+    }
+   ]
+  },
+  "niveis": {
+   "hash": "cba745ad78",
+   "texto": "São cinco níveis. Baixo, médio, alto, extra-alto e máximo. Quanto mais alto, mais devagar, mais caro e mais cuidadoso.",
+   "audio": "audio/niveis-cba745ad78.mp3",
+   "duracao": 10.416,
+   "palavras": [
+    {
+     "p": "São",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "cinco",
+     "i": 0.407,
+     "f": 0.824
+    },
+    {
+     "p": "níveis",
+     "i": 0.836,
+     "f": 1.348
+    },
+    {
+     "p": "Baixo",
+     "i": 2.167,
+     "f": 2.643
+    },
+    {
+     "p": "médio",
+     "i": 2.893,
+     "f": 3.298
+    },
+    {
+     "p": "alto",
+     "i": 3.44,
+     "f": 3.786
+    },
+    {
+     "p": "extra-alto",
+     "i": 4.036,
+     "f": 4.69
+    },
+    {
+     "p": "e",
+     "i": 4.702,
+     "f": 4.738
+    },
+    {
+     "p": "máximo",
+     "i": 4.75,
+     "f": 5.262
+    },
+    {
+     "p": "Quanto",
+     "i": 6.083,
+     "f": 6.381
+    },
+    {
+     "p": "mais",
+     "i": 6.393,
+     "f": 6.536
+    },
+    {
+     "p": "alto",
+     "i": 6.548,
+     "f": 6.929
+    },
+    {
+     "p": "mais",
+     "i": 7.155,
+     "f": 7.357
+    },
+    {
+     "p": "devagar",
+     "i": 7.369,
+     "f": 7.821
+    },
+    {
+     "p": "mais",
+     "i": 8.083,
+     "f": 8.31
+    },
+    {
+     "p": "caro",
+     "i": 8.321,
+     "f": 8.607
+    },
+    {
+     "p": "e",
+     "i": 8.619,
+     "f": 8.667
+    },
+    {
+     "p": "mais",
+     "i": 8.679,
+     "f": 8.952
+    },
+    {
+     "p": "cuidadoso",
+     "i": 8.964,
+     "f": 9.583
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "f377e340ee",
+   "texto": "Pense numa prova. No nível baixo, você responde de cabeça. No alto, você faz contas no rascunho e revisa. Mais rascunho, mais acerto, mais tempo.",
+   "audio": "audio/analogia-f377e340ee.mp3",
+   "duracao": 12.384,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "numa",
+     "i": 0.443,
+     "f": 0.657
+    },
+    {
+     "p": "prova",
+     "i": 0.669,
+     "f": 1.098
+    },
+    {
+     "p": "No",
+     "i": 1.917,
+     "f": 2.071
+    },
+    {
+     "p": "nível",
+     "i": 2.083,
+     "f": 2.381
+    },
+    {
+     "p": "baixo",
+     "i": 2.393,
+     "f": 2.81
+    },
+    {
+     "p": "você",
+     "i": 3.107,
+     "f": 3.393
+    },
+    {
+     "p": "responde",
+     "i": 3.405,
+     "f": 3.952
+    },
+    {
+     "p": "de",
+     "i": 3.964,
+     "f": 4.036
+    },
+    {
+     "p": "cabeça",
+     "i": 4.048,
+     "f": 4.56
+    },
+    {
+     "p": "No",
+     "i": 5.381,
+     "f": 5.56
+    },
+    {
+     "p": "alto",
+     "i": 5.571,
+     "f": 5.881
+    },
+    {
+     "p": "você",
+     "i": 6.19,
+     "f": 6.429
+    },
+    {
+     "p": "faz",
+     "i": 6.44,
+     "f": 6.679
+    },
+    {
+     "p": "contas",
+     "i": 6.69,
+     "f": 7.071
+    },
+    {
+     "p": "no",
+     "i": 7.083,
+     "f": 7.155
+    },
+    {
+     "p": "rascunho",
+     "i": 7.167,
+     "f": 7.702
+    },
+    {
+     "p": "e",
+     "i": 7.714,
+     "f": 7.738
+    },
+    {
+     "p": "revisa",
+     "i": 7.75,
+     "f": 8.214
+    },
+    {
+     "p": "Mais",
+     "i": 9.036,
+     "f": 9.309
+    },
+    {
+     "p": "rascunho",
+     "i": 9.321,
+     "f": 9.786
+    },
+    {
+     "p": "mais",
+     "i": 10.036,
+     "f": 10.19
+    },
+    {
+     "p": "acerto",
+     "i": 10.202,
+     "f": 10.714
+    },
+    {
+     "p": "mais",
+     "i": 10.917,
+     "f": 11.19
+    },
+    {
+     "p": "tempo",
+     "i": 11.202,
+     "f": 11.559
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "47d21fc492",
+   "texto": "Exemplo. Revisar um e-mail de três linhas? Nível baixo resolve, é rápido e barato. Conferir uma planilha financeira com fórmulas e totais? Suba para alto. Um erro ali custa dinheiro de verdade.",
+   "audio": "audio/exemplo-47d21fc492.mp3",
+   "duracao": 16.104,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.098,
+     "f": 0.717
+    },
+    {
+     "p": "Revisar",
+     "i": 1.536,
+     "f": 2
+    },
+    {
+     "p": "um",
+     "i": 2.012,
+     "f": 2.119
+    },
+    {
+     "p": "e-mail",
+     "i": 2.131,
+     "f": 2.464
+    },
+    {
+     "p": "de",
+     "i": 2.476,
+     "f": 2.595
+    },
+    {
+     "p": "três",
+     "i": 2.607,
+     "f": 2.905
+    },
+    {
+     "p": "linhas",
+     "i": 2.917,
+     "f": 3.417
+    },
+    {
+     "p": "Nível",
+     "i": 4.238,
+     "f": 4.571
+    },
+    {
+     "p": "baixo",
+     "i": 4.583,
+     "f": 4.94
+    },
+    {
+     "p": "resolve",
+     "i": 4.952,
+     "f": 5.5
+    },
+    {
+     "p": "é",
+     "i": 5.69,
+     "f": 5.809
+    },
+    {
+     "p": "rápido",
+     "i": 5.821,
+     "f": 6.238
+    },
+    {
+     "p": "e",
+     "i": 6.25,
+     "f": 6.274
+    },
+    {
+     "p": "barato",
+     "i": 6.286,
+     "f": 6.762
+    },
+    {
+     "p": "Conferir",
+     "i": 7.583,
+     "f": 8.036
+    },
+    {
+     "p": "uma",
+     "i": 8.048,
+     "f": 8.179
+    },
+    {
+     "p": "planilha",
+     "i": 8.19,
+     "f": 8.643
+    },
+    {
+     "p": "financeira",
+     "i": 8.655,
+     "f": 9.25
+    },
+    {
+     "p": "com",
+     "i": 9.262,
+     "f": 9.429
+    },
+    {
+     "p": "fórmulas",
+     "i": 9.44,
+     "f": 9.893
+    },
+    {
+     "p": "e",
+     "i": 9.905,
+     "f": 10.012
+    },
+    {
+     "p": "totais",
+     "i": 10.024,
+     "f": 10.595
+    },
+    {
+     "p": "Suba",
+     "i": 11.417,
+     "f": 11.833
+    },
+    {
+     "p": "para",
+     "i": 11.845,
+     "f": 12.036
+    },
+    {
+     "p": "alto",
+     "i": 12.048,
+     "f": 12.393
+    },
+    {
+     "p": "Um",
+     "i": 13.214,
+     "f": 13.417
+    },
+    {
+     "p": "erro",
+     "i": 13.429,
+     "f": 13.679
+    },
+    {
+     "p": "ali",
+     "i": 13.69,
+     "f": 13.905
+    },
+    {
+     "p": "custa",
+     "i": 13.917,
+     "f": 14.238
+    },
+    {
+     "p": "dinheiro",
+     "i": 14.25,
+     "f": 14.631
+    },
+    {
+     "p": "de",
+     "i": 14.643,
+     "f": 14.714
+    },
+    {
+     "p": "verdade",
+     "i": 14.726,
+     "f": 15.286
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "013bb35432",
+   "texto": "O erro comum é deixar tudo no máximo. Parece mais seguro, mas fica lento e caro, e nem sempre melhora o resultado. Comece médio e só suba se faltar qualidade.",
+   "audio": "audio/erro-comum-013bb35432.mp3",
+   "duracao": 11.832,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "erro",
+     "i": 0.252,
+     "f": 0.479
+    },
+    {
+     "p": "comum",
+     "i": 0.49,
+     "f": 0.859
+    },
+    {
+     "p": "é",
+     "i": 0.871,
+     "f": 0.919
+    },
+    {
+     "p": "deixar",
+     "i": 0.931,
+     "f": 1.324
+    },
+    {
+     "p": "tudo",
+     "i": 1.336,
+     "f": 1.621
+    },
+    {
+     "p": "no",
+     "i": 1.633,
+     "f": 1.729
+    },
+    {
+     "p": "máximo",
+     "i": 1.74,
+     "f": 2.217
+    },
+    {
+     "p": "Parece",
+     "i": 3.036,
+     "f": 3.464
+    },
+    {
+     "p": "mais",
+     "i": 3.476,
+     "f": 3.655
+    },
+    {
+     "p": "seguro",
+     "i": 3.667,
+     "f": 4.083
+    },
+    {
+     "p": "mas",
+     "i": 4.357,
+     "f": 4.583
+    },
+    {
+     "p": "fica",
+     "i": 4.595,
+     "f": 4.845
+    },
+    {
+     "p": "lento",
+     "i": 4.857,
+     "f": 5.155
+    },
+    {
+     "p": "e",
+     "i": 5.167,
+     "f": 5.214
+    },
+    {
+     "p": "caro",
+     "i": 5.226,
+     "f": 5.56
+    },
+    {
+     "p": "e",
+     "i": 5.786,
+     "f": 5.881
+    },
+    {
+     "p": "nem",
+     "i": 5.893,
+     "f": 6.131
+    },
+    {
+     "p": "sempre",
+     "i": 6.143,
+     "f": 6.512
+    },
+    {
+     "p": "melhora",
+     "i": 6.524,
+     "f": 6.857
+    },
+    {
+     "p": "o",
+     "i": 6.869,
+     "f": 6.881
+    },
+    {
+     "p": "resultado",
+     "i": 6.893,
+     "f": 7.476
+    },
+    {
+     "p": "Comece",
+     "i": 8.298,
+     "f": 8.762
+    },
+    {
+     "p": "médio",
+     "i": 8.774,
+     "f": 9.131
+    },
+    {
+     "p": "e",
+     "i": 9.143,
+     "f": 9.179
+    },
+    {
+     "p": "só",
+     "i": 9.19,
+     "f": 9.357
+    },
+    {
+     "p": "suba",
+     "i": 9.369,
+     "f": 9.738
+    },
+    {
+     "p": "se",
+     "i": 9.75,
+     "f": 9.881
+    },
+    {
+     "p": "faltar",
+     "i": 9.893,
+     "f": 10.31
+    },
+    {
+     "p": "qualidade",
+     "i": 10.321,
+     "f": 10.988
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "794fab2e78",
+   "texto": "Pause o vídeo e tente. Pegue uma tarefa sua, como um resumo ou uma tabela, e rode em dois níveis, baixo e alto. Compare a qualidade e o tempo.",
+   "audio": "audio/pratica-794fab2e78.mp3",
+   "duracao": 10.632,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "o",
+     "i": 0.443,
+     "f": 0.491
+    },
+    {
+     "p": "vídeo",
+     "i": 0.502,
+     "f": 0.824
+    },
+    {
+     "p": "e",
+     "i": 0.836,
+     "f": 0.895
+    },
+    {
+     "p": "tente",
+     "i": 0.907,
+     "f": 1.276
+    },
+    {
+     "p": "Pegue",
+     "i": 2.095,
+     "f": 2.345
+    },
+    {
+     "p": "uma",
+     "i": 2.357,
+     "f": 2.524
+    },
+    {
+     "p": "tarefa",
+     "i": 2.536,
+     "f": 2.905
+    },
+    {
+     "p": "sua",
+     "i": 2.917,
+     "f": 3.25
+    },
+    {
+     "p": "como",
+     "i": 3.488,
+     "f": 3.679
+    },
+    {
+     "p": "um",
+     "i": 3.69,
+     "f": 3.774
+    },
+    {
+     "p": "resumo",
+     "i": 3.786,
+     "f": 4.25
+    },
+    {
+     "p": "ou",
+     "i": 4.262,
+     "f": 4.321
+    },
+    {
+     "p": "uma",
+     "i": 4.333,
+     "f": 4.488
+    },
+    {
+     "p": "tabela",
+     "i": 4.5,
+     "f": 4.952
+    },
+    {
+     "p": "e",
+     "i": 5.25,
+     "f": 5.357
+    },
+    {
+     "p": "rode",
+     "i": 5.369,
+     "f": 5.667
+    },
+    {
+     "p": "em",
+     "i": 5.679,
+     "f": 5.738
+    },
+    {
+     "p": "dois",
+     "i": 5.75,
+     "f": 6.012
+    },
+    {
+     "p": "níveis",
+     "i": 6.024,
+     "f": 6.452
+    },
+    {
+     "p": "baixo",
+     "i": 6.607,
+     "f": 7.012
+    },
+    {
+     "p": "e",
+     "i": 7.024,
+     "f": 7.095
+    },
+    {
+     "p": "alto",
+     "i": 7.107,
+     "f": 7.452
+    },
+    {
+     "p": "Compare",
+     "i": 8.274,
+     "f": 8.702
+    },
+    {
+     "p": "a",
+     "i": 8.714,
+     "f": 8.75
+    },
+    {
+     "p": "qualidade",
+     "i": 8.762,
+     "f": 9.321
+    },
+    {
+     "p": "e",
+     "i": 9.333,
+     "f": 9.357
+    },
+    {
+     "p": "o",
+     "i": 9.369,
+     "f": 9.452
+    },
+    {
+     "p": "tempo",
+     "i": 9.464,
+     "f": 9.81
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "0472732f53",
+   "texto": "Resumindo. A IA pensa antes de responder. O esforço troca velocidade e custo por qualidade. E tarefa simples pede nível baixo, enquanto tarefa delicada pede nível alto.",
+   "audio": "audio/resumo-0472732f53.mp3",
+   "duracao": 14.136,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.812
+    },
+    {
+     "p": "A",
+     "i": 1.631,
+     "f": 1.726
+    },
+    {
+     "p": "IA",
+     "i": 1.738,
+     "f": 2.952
+    },
+    {
+     "p": "pensa",
+     "i": 2.964,
+     "f": 3.345
+    },
+    {
+     "p": "antes",
+     "i": 3.357,
+     "f": 3.714
+    },
+    {
+     "p": "de",
+     "i": 3.726,
+     "f": 3.81
+    },
+    {
+     "p": "responder",
+     "i": 3.821,
+     "f": 4.357
+    },
+    {
+     "p": "O",
+     "i": 5.179,
+     "f": 5.298
+    },
+    {
+     "p": "esforço",
+     "i": 5.31,
+     "f": 5.798
+    },
+    {
+     "p": "troca",
+     "i": 5.81,
+     "f": 6.143
+    },
+    {
+     "p": "velocidade",
+     "i": 6.155,
+     "f": 6.798
+    },
+    {
+     "p": "e",
+     "i": 6.81,
+     "f": 6.845
+    },
+    {
+     "p": "custo",
+     "i": 6.857,
+     "f": 7.226
+    },
+    {
+     "p": "por",
+     "i": 7.238,
+     "f": 7.369
+    },
+    {
+     "p": "qualidade",
+     "i": 7.381,
+     "f": 8.06
+    },
+    {
+     "p": "E",
+     "i": 8.881,
+     "f": 8.988
+    },
+    {
+     "p": "tarefa",
+     "i": 9,
+     "f": 9.393
+    },
+    {
+     "p": "simples",
+     "i": 9.405,
+     "f": 9.869
+    },
+    {
+     "p": "pede",
+     "i": 9.881,
+     "f": 10.131
+    },
+    {
+     "p": "nível",
+     "i": 10.143,
+     "f": 10.405
+    },
+    {
+     "p": "baixo",
+     "i": 10.417,
+     "f": 10.845
+    },
+    {
+     "p": "enquanto",
+     "i": 11.095,
+     "f": 11.512
+    },
+    {
+     "p": "tarefa",
+     "i": 11.524,
+     "f": 11.869
+    },
+    {
+     "p": "delicada",
+     "i": 11.881,
+     "f": 12.357
+    },
+    {
+     "p": "pede",
+     "i": 12.369,
+     "f": 12.595
+    },
+    {
+     "p": "nível",
+     "i": 12.607,
+     "f": 12.952
+    },
+    {
+     "p": "alto",
+     "i": 12.964,
+     "f": 13.298
+    }
+   ]
+  },
+  "final": {
+   "hash": "4722ca0f85",
+   "texto": "Quiz. Para revisar um e-mail curto, qual nível? Um, baixo. Dois, máximo. A resposta é um: baixo basta, e sai mais rápido e barato. Na próxima aula, você vê a estratégia de modelo barato coleta e modelo forte pensa.",
+   "audio": "audio/final-4722ca0f85.mp3",
+   "duracao": 18.816,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.586
+    },
+    {
+     "p": "Para",
+     "i": 1.405,
+     "f": 1.607
+    },
+    {
+     "p": "revisar",
+     "i": 1.619,
+     "f": 2.083
+    },
+    {
+     "p": "um",
+     "i": 2.095,
+     "f": 2.202
+    },
+    {
+     "p": "e-mail",
+     "i": 2.214,
+     "f": 2.512
+    },
+    {
+     "p": "curto",
+     "i": 2.524,
+     "f": 2.917
+    },
+    {
+     "p": "qual",
+     "i": 3.143,
+     "f": 3.333
+    },
+    {
+     "p": "nível",
+     "i": 3.345,
+     "f": 3.774
+    },
+    {
+     "p": "Um",
+     "i": 4.595,
+     "f": 4.881
+    },
+    {
+     "p": "baixo",
+     "i": 5.167,
+     "f": 5.655
+    },
+    {
+     "p": "Dois",
+     "i": 6.476,
+     "f": 6.929
+    },
+    {
+     "p": "máximo",
+     "i": 7.143,
+     "f": 7.679
+    },
+    {
+     "p": "A",
+     "i": 8.5,
+     "f": 8.607
+    },
+    {
+     "p": "resposta",
+     "i": 8.619,
+     "f": 9.155
+    },
+    {
+     "p": "é",
+     "i": 9.167,
+     "f": 9.214
+    },
+    {
+     "p": "um",
+     "i": 9.226,
+     "f": 9.429
+    },
+    {
+     "p": "baixo",
+     "i": 9.69,
+     "f": 10.059
+    },
+    {
+     "p": "basta",
+     "i": 10.071,
+     "f": 10.512
+    },
+    {
+     "p": "e",
+     "i": 10.786,
+     "f": 10.845
+    },
+    {
+     "p": "sai",
+     "i": 10.857,
+     "f": 11.071
+    },
+    {
+     "p": "mais",
+     "i": 11.083,
+     "f": 11.31
+    },
+    {
+     "p": "rápido",
+     "i": 11.321,
+     "f": 11.714
+    },
+    {
+     "p": "e",
+     "i": 11.726,
+     "f": 11.75
+    },
+    {
+     "p": "barato",
+     "i": 11.762,
+     "f": 12.226
+    },
+    {
+     "p": "Na",
+     "i": 13.048,
+     "f": 13.238
+    },
+    {
+     "p": "próxima",
+     "i": 13.25,
+     "f": 13.667
+    },
+    {
+     "p": "aula",
+     "i": 13.679,
+     "f": 13.976
+    },
+    {
+     "p": "você",
+     "i": 14.298,
+     "f": 14.583
+    },
+    {
+     "p": "vê",
+     "i": 14.595,
+     "f": 14.726
+    },
+    {
+     "p": "a",
+     "i": 14.738,
+     "f": 14.774
+    },
+    {
+     "p": "estratégia",
+     "i": 14.786,
+     "f": 15.345
+    },
+    {
+     "p": "de",
+     "i": 15.357,
+     "f": 15.44
+    },
+    {
+     "p": "modelo",
+     "i": 15.452,
+     "f": 15.774
+    },
+    {
+     "p": "barato",
+     "i": 15.786,
+     "f": 16.167
+    },
+    {
+     "p": "coleta",
+     "i": 16.179,
+     "f": 16.667
+    },
+    {
+     "p": "e",
+     "i": 16.679,
+     "f": 16.714
+    },
+    {
+     "p": "modelo",
+     "i": 16.726,
+     "f": 17.131
+    },
+    {
+     "p": "forte",
+     "i": 17.143,
+     "f": 17.571
+    },
+    {
+     "p": "pensa",
+     "i": 17.583,
+     "f": 17.988
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.941Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Docs — Effort",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/effort"
+  },
+  {
+   "titulo": "Claude Docs — Steering thinking",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }

@@ -1,0 +1,120 @@
+{
+  "titulo": "Aula 3.3: Esforço e pensamento estendido",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Docs — Effort", "url": "https://platform.claude.com/docs/en/build-with-claude/effort" },
+    { "titulo": "Claude Docs — Steering thinking", "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "A IA pensa antes de responder. Sabia disso? E você decide quanto tempo ela pensa. Mas atenção: pensar mais tem um preço, e você vai ver qual.",
+      "fontes": ["Claude Docs — Effort"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "A IA PENSA?", "em": "pensa", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "SIM", "cor": "verde", "em": "Sabia", "posicao": "alto" },
+        { "tipo": "tag", "texto": "VOCÊ ESCOLHE", "icone": "alvo", "cor": "azul", "em": "decide", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "TEM PREÇO", "cor": "vermelho", "em": "preço", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nesta aula você vai aprender três coisas. O que é pensar antes de responder. Os cinco níveis de esforço. E quando usar cada um.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "AULA 3.3", "sub": "Esforço e pensamento", "em": "Nesta", "posicao": "topo" },
+        { "tipo": "tag", "texto": "1 PENSAR", "icone": "balao", "cor": "azul", "em": "pensar", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2 NÍVEIS", "icone": "relogio", "cor": "roxo", "em": "cinco", "posicao": "meio" },
+        { "tipo": "tag", "texto": "3 QUANDO", "icone": "alvo", "cor": "verde", "em": "quando", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Os modelos atuais podem pensar antes de responder. Isso se chama pensamento estendido, ou extended thinking, em inglês. É um rascunho interno, feito antes da resposta final. E o nível de esforço controla o quanto ela pensa.",
+      "fontes": ["Claude Docs — Effort"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PENSAMENTO ESTENDIDO", "em": "Os", "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Pensamento estendido", "significado": "Rascunho interno da IA antes da resposta final", "em": "estendido", "posicao": "alto" },
+        { "tipo": "tag", "texto": "RASCUNHO INTERNO", "icone": "documento", "cor": "azul", "em": "rascunho", "posicao": "meio" },
+        { "tipo": "tag", "texto": "NÍVEL DE ESFORÇO", "icone": "alvo", "cor": "amarelo", "em": "esforço", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "niveis",
+      "texto": "São cinco níveis. Baixo, médio, alto, extra-alto e máximo. Quanto mais alto, mais devagar, mais caro e mais cuidadoso.",
+      "fontes": ["Claude Docs — Effort"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5 NÍVEIS", "sub": "low · medium · high · xhigh · max", "em": "São", "posicao": "topo" },
+        { "tipo": "linha", "itens": [["BAIXO", "rápido"], ["MÉDIO", "equilíbrio"], ["ALTO", "cuidado"], ["MÁXIMO", "tudo"]], "em": "Baixo", "posicao": "alto" },
+        { "tipo": "relogio", "rotulo": "TEMPO DE ESPERA", "antes": 2, "depois": 10, "em": "devagar", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "MAIS CARO", "cor": "vermelho", "em": "caro", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense numa prova. No nível baixo, você responde de cabeça. No alto, você faz contas no rascunho e revisa. Mais rascunho, mais acerto, mais tempo.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMO NA PROVA", "em": "Pense", "posicao": "topo" },
+        { "tipo": "tag", "texto": "BAIXO: DE CABEÇA", "icone": "relogio", "cor": "verde", "em": "cabeça", "posicao": "alto" },
+        { "tipo": "tag", "texto": "ALTO: RASCUNHO E REVISÃO", "icone": "documento", "cor": "roxo", "em": "alto", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["documento", "RASCUNHO"], ["seta", ""], ["check", "ACERTO"]], "em": "Mais", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Exemplo. Revisar um e-mail de três linhas? Nível baixo resolve, é rápido e barato. Conferir uma planilha financeira com fórmulas e totais? Suba para alto. Um erro ali custa dinheiro de verdade.",
+      "fontes": ["Claude Docs — Effort"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "E-MAIL × PLANILHA", "em": "Exemplo", "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Revise este e-mail e corrija os erros de português.", "em": "e-mail", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "E-MAIL: BAIXO", "nota": "Tarefa simples, resposta rápida e barata", "em": "baixo", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "PLANILHA: ALTO", "nota": "Fórmulas e totais pedem conferência cuidadosa", "em": "alto", "posicao": "meio2" },
+        { "tipo": "carimbo", "texto": "ERRO CUSTA CARO", "cor": "vermelho", "em": "dinheiro", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum é deixar tudo no máximo. Parece mais seguro, mas fica lento e caro, e nem sempre melhora o resultado. Comece médio e só suba se faltar qualidade.",
+      "fontes": ["Claude Docs — Effort"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "erro", "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "TUDO NO MÁXIMO", "nota": "Lento, caro e nem sempre melhor", "em": "máximo", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "COMECE NO MÉDIO", "nota": "Suba só se faltar qualidade", "em": "médio", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente. Pegue uma tarefa sua, como um resumo ou uma tabela, e rode em dois níveis, baixo e alto. Compare a qualidade e o tempo.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "QUAL NÍVEL VALE?", "em": "dois", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["relogio", "TEMPO"], ["check", "QUALIDADE"]], "em": "Compare", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo. A IA pensa antes de responder. O esforço troca velocidade e custo por qualidade. E tarefa simples pede nível baixo, enquanto tarefa delicada pede nível alto.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": "Resumindo", "posicao": "topo" },
+        { "tipo": "tag", "texto": "1 A IA PENSA", "icone": "balao", "cor": "azul", "em": "pensa", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2 VELOCIDADE × QUALIDADE", "icone": "balanca", "cor": "roxo", "em": "esforço", "posicao": "meio" },
+        { "tipo": "tag", "texto": "3 SIMPLES = BAIXO", "icone": "check", "cor": "verde", "em": "simples", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz. Para revisar um e-mail curto, qual nível? Um, baixo. Dois, máximo. A resposta é um: baixo basta, e sai mais rápido e barato. Na próxima aula, você vê a estratégia de modelo barato coleta e modelo forte pensa.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "E-mail curto: qual nível?", "opcoes": ["1 · BAIXO", "2 · MÁXIMO"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 1", "cor": "verde", "em": "resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 3.4", "em": "próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
