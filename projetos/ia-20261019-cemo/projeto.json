@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-cemo",
- "titulo": "Aula 3.5: Como gastar menos com IA — explique prompt caching (reler do",
+ "titulo": "Aula 3.5: Como gastar menos com IA",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.942Z",
- "atualizadoEm": "2026-10-19T22:26:17.942Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:44:21Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 3.5: Como gastar menos com IA — explique prompt caching (reler do cache custa cerca de 10% do preço), Batch API com 50% de desconto, manter o contexto enxuto com /clear e /compact, desligar conectores sem uso e planejar antes para evitar retrabalho, com exemplo de chatbot com manual de 50 páginas",
@@ -62,11 +63,1923 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Toda vez que você manda uma mensagem, a IA relê o manual inteiro. E você paga de novo. Dá para pagar até 90% menos.",
+   "fontes": [
+    "Claude Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "PAGANDO 2 VEZES?",
+     "em": "mensagem",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "RELÊ TUDO",
+     "icone": "documento",
+     "cor": "vermelho",
+     "em": "relê",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "PAGA DE NOVO",
+     "cor": "vermelho",
+     "em": "paga",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 90,
+     "unidade": "% menos",
+     "em": "90%",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 3.5. Você vai aprender três coisas: prompt caching, a Batch API e como manter o contexto enxuto.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "GASTAR MENOS COM IA",
+     "sub": "AULA 3.5",
+     "em": "Aula",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "CACHE"
+      ],
+      [
+       "relogio",
+       "LOTE"
+      ],
+      [
+       "documento",
+       "ENXUTO"
+      ]
+     ],
+     "em": "prompt",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 APRENDIZADOS",
+     "icone": "check",
+     "cor": "verde",
+     "em": "três",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Prompt caching, ou cache de prompt, guarda o começo do texto já lido. Reler do cache custa cerca de 10% do preço normal. Em alguns modelos, ainda menos.",
+   "fundo": "anthropic",
+   "fontes": [
+    "Claude Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PROMPT CACHING",
+     "sub": "CACHE DE PROMPT",
+     "em": "caching",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Cache",
+     "significado": "memória que guarda o que já foi lido",
+     "em": "guarda",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "contador",
+     "de": 100,
+     "ate": 10,
+     "unidade": "% do preço",
+     "rotulo": "RELER DO CACHE",
+     "em": "10%",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "AINDA MENOS",
+     "cor": "verde",
+     "em": "menos",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num livro de receitas. Sem cache, você relê o livro todo a cada prato. Com cache, deixa aberto na página certa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "ANALOGIA",
+     "icone": "balao",
+     "cor": "azul",
+     "em": "Pense",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "LIVRO"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "x",
+       "RELER TUDO"
+      ]
+     ],
+     "em": "Sem",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "PÁGINA"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "ABERTA"
+      ]
+     ],
+     "em": "Com",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Exemplo: um chatbot com manual de 50 páginas. Sem cache, cada pergunta paga o manual inteiro. Com cache, o manual é gravado uma vez, e as próximas perguntas pagam só a leitura barata. O cache dura 5 minutos, renovado a cada uso.",
+   "fundo": "servidores",
+   "fontes": [
+    "Claude Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CHATBOT DE 50 PÁGINAS",
+     "em": "Exemplo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "cache_control: ephemeral",
+     "em": "chatbot",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "SEM CACHE",
+     "nota": "paga o manual em toda pergunta",
+     "em": "Sem",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "COM CACHE",
+     "nota": "paga o manual uma vez",
+     "em": "Com",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "relogio",
+     "rotulo": "VALIDADE DO CACHE: 5 MIN",
+     "em": "dura",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "lote",
+   "texto": "Tarefa sem pressa? A Batch API, ou API em lote, dá 50% de desconto. A resposta pode demorar, mas a maioria sai em menos de uma hora.",
+   "fontes": [
+    "Claude Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "BATCH API",
+     "sub": "API EM LOTE",
+     "em": "Batch",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "placar",
+     "sim": 50,
+     "nao": 100,
+     "rotulo": "PREÇO",
+     "rotuloSim": "LOTE",
+     "rotuloNao": "NORMAL",
+     "em": "50%",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "-50%",
+     "cor": "verde",
+     "em": "desconto",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SEM PRESSA",
+     "icone": "relogio",
+     "cor": "amarelo",
+     "em": "demorar",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "contexto",
+   "texto": "Mantenha o contexto enxuto. Use barra clear para começar do zero e barra compact para resumir a conversa. Desligue conectores sem uso, e planeje antes para evitar retrabalho.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CONTEXTO ENXUTO",
+     "em": "Mantenha",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "/clear",
+     "significado": "começa uma conversa do zero",
+     "em": "clear",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "/compact",
+     "significado": "resume a conversa",
+     "em": "compact",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "DESLIGUE CONECTORES",
+     "icone": "x",
+     "cor": "vermelho",
+     "em": "Desligue",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PLANEJE ANTES",
+     "icone": "alvo",
+     "cor": "verde",
+     "em": "planeje",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: mudar o começo do prompt a cada pergunta. O cache só vale para um começo idêntico. Deixe o fixo primeiro e o variável depois.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "Erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "COMEÇO MUDA",
+     "nota": "o cache não é reaproveitado",
+     "em": "mudar",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "FIXO PRIMEIRO",
+     "nota": "variável vai no final",
+     "em": "fixo",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: abra sua última conversa longa e use barra compact. Compare o tamanho do contexto.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUANTO ECONOMIZOU?",
+     "em": "Compare",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "/compact",
+     "em": "compact",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo. Cache: reler custa cerca de 10%. Lote: 50% de desconto. Contexto enxuto: menos tokens, menos custo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": "Resumo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "CACHE 10%"
+      ],
+      [
+       "relogio",
+       "LOTE -50%"
+      ],
+      [
+       "documento",
+       "ENXUTO"
+      ]
+     ],
+     "em": "Cache",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "comenta aí qual você vai usar",
+     "em": "custo",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: com 50 páginas fixas, o que economiza mais? Um, cache. Dois, mandar o manual de novo. Resposta: um, cache. Siga para a próxima aula.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "O QUE ECONOMIZA MAIS?",
+     "opcoes": [
+      "1 · CACHE DO MANUAL",
+      "2 · MANDAR DE NOVO"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 1",
+     "cor": "verde",
+     "em": "Resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 3.6",
+     "em": "Siga",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "c621d951bd",
+   "texto": "Toda vez que você manda uma mensagem, a IA relê o manual inteiro. E você paga de novo. Dá para pagar até 90% menos.",
+   "audio": "audio/gancho-c621d951bd.mp3",
+   "duracao": 10.68,
+   "palavras": [
+    {
+     "p": "Toda",
+     "i": 0.098,
+     "f": 0.348
+    },
+    {
+     "p": "vez",
+     "i": 0.36,
+     "f": 0.645
+    },
+    {
+     "p": "que",
+     "i": 0.657,
+     "f": 0.74
+    },
+    {
+     "p": "você",
+     "i": 0.752,
+     "f": 1.002
+    },
+    {
+     "p": "manda",
+     "i": 1.014,
+     "f": 1.276
+    },
+    {
+     "p": "uma",
+     "i": 1.288,
+     "f": 1.419
+    },
+    {
+     "p": "mensagem",
+     "i": 1.431,
+     "f": 2.014
+    },
+    {
+     "p": "a",
+     "i": 2.3,
+     "f": 2.348
+    },
+    {
+     "p": "IA",
+     "i": 2.36,
+     "f": 3.514
+    },
+    {
+     "p": "relê",
+     "i": 3.526,
+     "f": 3.788
+    },
+    {
+     "p": "o",
+     "i": 3.8,
+     "f": 3.848
+    },
+    {
+     "p": "manual",
+     "i": 3.86,
+     "f": 4.276
+    },
+    {
+     "p": "inteiro",
+     "i": 4.288,
+     "f": 4.74
+    },
+    {
+     "p": "E",
+     "i": 5.56,
+     "f": 5.655
+    },
+    {
+     "p": "você",
+     "i": 5.667,
+     "f": 5.94
+    },
+    {
+     "p": "paga",
+     "i": 5.952,
+     "f": 6.238
+    },
+    {
+     "p": "de",
+     "i": 6.25,
+     "f": 6.345
+    },
+    {
+     "p": "novo",
+     "i": 6.357,
+     "f": 6.69
+    },
+    {
+     "p": "Dá",
+     "i": 7.512,
+     "f": 7.69
+    },
+    {
+     "p": "para",
+     "i": 7.702,
+     "f": 7.893
+    },
+    {
+     "p": "pagar",
+     "i": 7.905,
+     "f": 8.214
+    },
+    {
+     "p": "até",
+     "i": 8.226,
+     "f": 8.417
+    },
+    {
+     "p": "90%",
+     "i": 8.429,
+     "f": 9.393
+    },
+    {
+     "p": "menos",
+     "i": 9.405,
+     "f": 9.845
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "0f5d4ac742",
+   "texto": "Aula 3.5. Você vai aprender três coisas: prompt caching, a Batch API e como manter o contexto enxuto.",
+   "audio": "audio/promessa-0f5d4ac742.mp3",
+   "duracao": 8.64,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "3.5",
+     "i": 0.455,
+     "f": 1.514
+    },
+    {
+     "p": "Você",
+     "i": 2.333,
+     "f": 2.667
+    },
+    {
+     "p": "vai",
+     "i": 2.679,
+     "f": 2.786
+    },
+    {
+     "p": "aprender",
+     "i": 2.798,
+     "f": 3.214
+    },
+    {
+     "p": "três",
+     "i": 3.226,
+     "f": 3.5
+    },
+    {
+     "p": "coisas",
+     "i": 3.512,
+     "f": 4
+    },
+    {
+     "p": "prompt",
+     "i": 4.274,
+     "f": 4.679
+    },
+    {
+     "p": "caching",
+     "i": 4.69,
+     "f": 5.119
+    },
+    {
+     "p": "a",
+     "i": 5.405,
+     "f": 5.476
+    },
+    {
+     "p": "Batch",
+     "i": 5.488,
+     "f": 5.714
+    },
+    {
+     "p": "API",
+     "i": 5.726,
+     "f": 6.167
+    },
+    {
+     "p": "e",
+     "i": 6.179,
+     "f": 6.238
+    },
+    {
+     "p": "como",
+     "i": 6.25,
+     "f": 6.44
+    },
+    {
+     "p": "manter",
+     "i": 6.452,
+     "f": 6.798
+    },
+    {
+     "p": "o",
+     "i": 6.81,
+     "f": 6.845
+    },
+    {
+     "p": "contexto",
+     "i": 6.857,
+     "f": 7.333
+    },
+    {
+     "p": "enxuto",
+     "i": 7.345,
+     "f": 7.81
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "643d123056",
+   "texto": "Prompt caching, ou cache de prompt, guarda o começo do texto já lido. Reler do cache custa cerca de 10% do preço normal. Em alguns modelos, ainda menos.",
+   "audio": "audio/conceito-643d123056.mp3",
+   "duracao": 12.096,
+   "palavras": [
+    {
+     "p": "Prompt",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "caching",
+     "i": 0.49,
+     "f": 0.871
+    },
+    {
+     "p": "ou",
+     "i": 1.205,
+     "f": 1.324
+    },
+    {
+     "p": "cache",
+     "i": 1.336,
+     "f": 1.669
+    },
+    {
+     "p": "de",
+     "i": 1.681,
+     "f": 1.776
+    },
+    {
+     "p": "prompt",
+     "i": 1.788,
+     "f": 2.217
+    },
+    {
+     "p": "guarda",
+     "i": 2.467,
+     "f": 2.776
+    },
+    {
+     "p": "o",
+     "i": 2.788,
+     "f": 2.812
+    },
+    {
+     "p": "começo",
+     "i": 2.824,
+     "f": 3.24
+    },
+    {
+     "p": "do",
+     "i": 3.252,
+     "f": 3.371
+    },
+    {
+     "p": "texto",
+     "i": 3.383,
+     "f": 3.729
+    },
+    {
+     "p": "já",
+     "i": 3.74,
+     "f": 3.883
+    },
+    {
+     "p": "lido",
+     "i": 3.895,
+     "f": 4.252
+    },
+    {
+     "p": "Reler",
+     "i": 5.071,
+     "f": 5.512
+    },
+    {
+     "p": "do",
+     "i": 5.524,
+     "f": 5.631
+    },
+    {
+     "p": "cache",
+     "i": 5.643,
+     "f": 5.952
+    },
+    {
+     "p": "custa",
+     "i": 5.964,
+     "f": 6.286
+    },
+    {
+     "p": "cerca",
+     "i": 6.298,
+     "f": 6.643
+    },
+    {
+     "p": "de",
+     "i": 6.655,
+     "f": 6.762
+    },
+    {
+     "p": "10%",
+     "i": 6.774,
+     "f": 7.512
+    },
+    {
+     "p": "do",
+     "i": 7.524,
+     "f": 7.631
+    },
+    {
+     "p": "preço",
+     "i": 7.643,
+     "f": 7.976
+    },
+    {
+     "p": "normal",
+     "i": 7.988,
+     "f": 8.44
+    },
+    {
+     "p": "Em",
+     "i": 9.262,
+     "f": 9.393
+    },
+    {
+     "p": "alguns",
+     "i": 9.405,
+     "f": 9.738
+    },
+    {
+     "p": "modelos",
+     "i": 9.75,
+     "f": 10.333
+    },
+    {
+     "p": "ainda",
+     "i": 10.488,
+     "f": 10.798
+    },
+    {
+     "p": "menos",
+     "i": 10.81,
+     "f": 11.262
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "97871c6842",
+   "texto": "Pense num livro de receitas. Sem cache, você relê o livro todo a cada prato. Com cache, deixa aberto na página certa.",
+   "audio": "audio/analogia-97871c6842.mp3",
+   "duracao": 9.816,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "num",
+     "i": 0.467,
+     "f": 0.621
+    },
+    {
+     "p": "livro",
+     "i": 0.633,
+     "f": 0.967
+    },
+    {
+     "p": "de",
+     "i": 0.979,
+     "f": 1.062
+    },
+    {
+     "p": "receitas",
+     "i": 1.074,
+     "f": 1.752
+    },
+    {
+     "p": "Sem",
+     "i": 2.571,
+     "f": 2.881
+    },
+    {
+     "p": "cache",
+     "i": 2.893,
+     "f": 3.274
+    },
+    {
+     "p": "você",
+     "i": 3.595,
+     "f": 3.869
+    },
+    {
+     "p": "relê",
+     "i": 3.881,
+     "f": 4.143
+    },
+    {
+     "p": "o",
+     "i": 4.155,
+     "f": 4.214
+    },
+    {
+     "p": "livro",
+     "i": 4.226,
+     "f": 4.619
+    },
+    {
+     "p": "todo",
+     "i": 4.631,
+     "f": 4.905
+    },
+    {
+     "p": "a",
+     "i": 4.917,
+     "f": 4.964
+    },
+    {
+     "p": "cada",
+     "i": 4.976,
+     "f": 5.226
+    },
+    {
+     "p": "prato",
+     "i": 5.238,
+     "f": 5.619
+    },
+    {
+     "p": "Com",
+     "i": 6.44,
+     "f": 6.667
+    },
+    {
+     "p": "cache",
+     "i": 6.679,
+     "f": 7.048
+    },
+    {
+     "p": "deixa",
+     "i": 7.31,
+     "f": 7.607
+    },
+    {
+     "p": "aberto",
+     "i": 7.619,
+     "f": 8.012
+    },
+    {
+     "p": "na",
+     "i": 8.024,
+     "f": 8.155
+    },
+    {
+     "p": "página",
+     "i": 8.167,
+     "f": 8.548
+    },
+    {
+     "p": "certa",
+     "i": 8.56,
+     "f": 8.976
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "41ff1582fd",
+   "texto": "Exemplo: um chatbot com manual de 50 páginas. Sem cache, cada pergunta paga o manual inteiro. Com cache, o manual é gravado uma vez, e as próximas perguntas pagam só a leitura barata. O cache dura 5 minutos, renovado a cada uso.",
+   "audio": "audio/exemplo-41ff1582fd.mp3",
+   "duracao": 17.76,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.098,
+     "f": 0.633
+    },
+    {
+     "p": "um",
+     "i": 0.86,
+     "f": 0.99
+    },
+    {
+     "p": "chatbot",
+     "i": 1.002,
+     "f": 1.633
+    },
+    {
+     "p": "com",
+     "i": 1.645,
+     "f": 1.776
+    },
+    {
+     "p": "manual",
+     "i": 1.788,
+     "f": 2.169
+    },
+    {
+     "p": "de",
+     "i": 2.181,
+     "f": 2.264
+    },
+    {
+     "p": "50 páginas",
+     "i": 2.276,
+     "f": 3.371
+    },
+    {
+     "p": "Sem",
+     "i": 4.19,
+     "f": 4.512
+    },
+    {
+     "p": "cache",
+     "i": 4.524,
+     "f": 4.94
+    },
+    {
+     "p": "cada",
+     "i": 5.107,
+     "f": 5.345
+    },
+    {
+     "p": "pergunta",
+     "i": 5.357,
+     "f": 5.833
+    },
+    {
+     "p": "paga",
+     "i": 5.845,
+     "f": 6.06
+    },
+    {
+     "p": "o",
+     "i": 6.071,
+     "f": 6.083
+    },
+    {
+     "p": "manual",
+     "i": 6.095,
+     "f": 6.476
+    },
+    {
+     "p": "inteiro",
+     "i": 6.488,
+     "f": 6.94
+    },
+    {
+     "p": "Com",
+     "i": 7.762,
+     "f": 7.988
+    },
+    {
+     "p": "cache",
+     "i": 8,
+     "f": 8.44
+    },
+    {
+     "p": "o",
+     "i": 8.631,
+     "f": 8.679
+    },
+    {
+     "p": "manual",
+     "i": 8.69,
+     "f": 9.119
+    },
+    {
+     "p": "é",
+     "i": 9.131,
+     "f": 9.167
+    },
+    {
+     "p": "gravado",
+     "i": 9.179,
+     "f": 9.571
+    },
+    {
+     "p": "uma",
+     "i": 9.583,
+     "f": 9.726
+    },
+    {
+     "p": "vez",
+     "i": 9.738,
+     "f": 10.071
+    },
+    {
+     "p": "e",
+     "i": 10.333,
+     "f": 10.405
+    },
+    {
+     "p": "as",
+     "i": 10.417,
+     "f": 10.571
+    },
+    {
+     "p": "próximas",
+     "i": 10.583,
+     "f": 11.024
+    },
+    {
+     "p": "perguntas",
+     "i": 11.036,
+     "f": 11.595
+    },
+    {
+     "p": "pagam",
+     "i": 11.607,
+     "f": 11.929
+    },
+    {
+     "p": "só",
+     "i": 11.94,
+     "f": 12.143
+    },
+    {
+     "p": "a",
+     "i": 12.155,
+     "f": 12.179
+    },
+    {
+     "p": "leitura",
+     "i": 12.19,
+     "f": 12.571
+    },
+    {
+     "p": "barata",
+     "i": 12.583,
+     "f": 13.048
+    },
+    {
+     "p": "O",
+     "i": 13.869,
+     "f": 13.988
+    },
+    {
+     "p": "cache",
+     "i": 14,
+     "f": 14.345
+    },
+    {
+     "p": "dura",
+     "i": 14.357,
+     "f": 14.595
+    },
+    {
+     "p": "5 minutos",
+     "i": 14.607,
+     "f": 15.5
+    },
+    {
+     "p": "renovado",
+     "i": 15.75,
+     "f": 16.286
+    },
+    {
+     "p": "a",
+     "i": 16.298,
+     "f": 16.345
+    },
+    {
+     "p": "cada",
+     "i": 16.357,
+     "f": 16.679
+    },
+    {
+     "p": "uso",
+     "i": 16.69,
+     "f": 16.94
+    }
+   ]
+  },
+  "lote": {
+   "hash": "6bd2e1ca02",
+   "texto": "Tarefa sem pressa? A Batch API, ou API em lote, dá 50% de desconto. A resposta pode demorar, mas a maioria sai em menos de uma hora.",
+   "audio": "audio/lote-6bd2e1ca02.mp3",
+   "duracao": 11.52,
+   "palavras": [
+    {
+     "p": "Tarefa",
+     "i": 0.098,
+     "f": 0.526
+    },
+    {
+     "p": "sem",
+     "i": 0.538,
+     "f": 0.729
+    },
+    {
+     "p": "pressa",
+     "i": 0.74,
+     "f": 1.181
+    },
+    {
+     "p": "A",
+     "i": 2,
+     "f": 2.095
+    },
+    {
+     "p": "Batch",
+     "i": 2.107,
+     "f": 2.345
+    },
+    {
+     "p": "API",
+     "i": 2.357,
+     "f": 2.869
+    },
+    {
+     "p": "ou",
+     "i": 3.119,
+     "f": 3.286
+    },
+    {
+     "p": "API",
+     "i": 3.298,
+     "f": 3.595
+    },
+    {
+     "p": "em",
+     "i": 3.607,
+     "f": 3.702
+    },
+    {
+     "p": "lote",
+     "i": 3.714,
+     "f": 4.071
+    },
+    {
+     "p": "dá",
+     "i": 4.345,
+     "f": 4.488
+    },
+    {
+     "p": "50%",
+     "i": 4.5,
+     "f": 5.512
+    },
+    {
+     "p": "de",
+     "i": 5.524,
+     "f": 5.619
+    },
+    {
+     "p": "desconto",
+     "i": 5.631,
+     "f": 6.179
+    },
+    {
+     "p": "A",
+     "i": 7,
+     "f": 7.119
+    },
+    {
+     "p": "resposta",
+     "i": 7.131,
+     "f": 7.667
+    },
+    {
+     "p": "pode",
+     "i": 7.679,
+     "f": 7.917
+    },
+    {
+     "p": "demorar",
+     "i": 7.929,
+     "f": 8.357
+    },
+    {
+     "p": "mas",
+     "i": 8.607,
+     "f": 8.726
+    },
+    {
+     "p": "a",
+     "i": 8.738,
+     "f": 8.845
+    },
+    {
+     "p": "maioria",
+     "i": 8.857,
+     "f": 9.262
+    },
+    {
+     "p": "sai",
+     "i": 9.274,
+     "f": 9.524
+    },
+    {
+     "p": "em",
+     "i": 9.536,
+     "f": 9.631
+    },
+    {
+     "p": "menos",
+     "i": 9.643,
+     "f": 10
+    },
+    {
+     "p": "de",
+     "i": 10.012,
+     "f": 10.107
+    },
+    {
+     "p": "uma",
+     "i": 10.119,
+     "f": 10.381
+    },
+    {
+     "p": "hora",
+     "i": 10.393,
+     "f": 10.679
+    }
+   ]
+  },
+  "contexto": {
+   "hash": "b5fa883fbb",
+   "texto": "Mantenha o contexto enxuto. Use barra clear para começar do zero e barra compact para resumir a conversa. Desligue conectores sem uso, e planeje antes para evitar retrabalho.",
+   "audio": "audio/contexto-b5fa883fbb.mp3",
+   "duracao": 12.384,
+   "palavras": [
+    {
+     "p": "Mantenha",
+     "i": 0.098,
+     "f": 0.633
+    },
+    {
+     "p": "o",
+     "i": 0.645,
+     "f": 0.681
+    },
+    {
+     "p": "contexto",
+     "i": 0.693,
+     "f": 1.193
+    },
+    {
+     "p": "enxuto",
+     "i": 1.205,
+     "f": 1.669
+    },
+    {
+     "p": "Use",
+     "i": 2.488,
+     "f": 2.774
+    },
+    {
+     "p": "barra",
+     "i": 2.786,
+     "f": 3.119
+    },
+    {
+     "p": "clear",
+     "i": 3.131,
+     "f": 3.369
+    },
+    {
+     "p": "para",
+     "i": 3.381,
+     "f": 3.595
+    },
+    {
+     "p": "começar",
+     "i": 3.607,
+     "f": 4.095
+    },
+    {
+     "p": "do",
+     "i": 4.107,
+     "f": 4.226
+    },
+    {
+     "p": "zero",
+     "i": 4.238,
+     "f": 4.571
+    },
+    {
+     "p": "e",
+     "i": 4.583,
+     "f": 4.619
+    },
+    {
+     "p": "barra",
+     "i": 4.631,
+     "f": 4.881
+    },
+    {
+     "p": "compact",
+     "i": 4.893,
+     "f": 5.452
+    },
+    {
+     "p": "para",
+     "i": 5.464,
+     "f": 5.667
+    },
+    {
+     "p": "resumir",
+     "i": 5.679,
+     "f": 6.083
+    },
+    {
+     "p": "a",
+     "i": 6.095,
+     "f": 6.143
+    },
+    {
+     "p": "conversa",
+     "i": 6.155,
+     "f": 6.738
+    },
+    {
+     "p": "Desligue",
+     "i": 7.56,
+     "f": 8.06
+    },
+    {
+     "p": "conectores",
+     "i": 8.071,
+     "f": 8.69
+    },
+    {
+     "p": "sem",
+     "i": 8.702,
+     "f": 8.964
+    },
+    {
+     "p": "uso",
+     "i": 8.976,
+     "f": 9.202
+    },
+    {
+     "p": "e",
+     "i": 9.536,
+     "f": 9.619
+    },
+    {
+     "p": "planeje",
+     "i": 9.631,
+     "f": 10.119
+    },
+    {
+     "p": "antes",
+     "i": 10.131,
+     "f": 10.452
+    },
+    {
+     "p": "para",
+     "i": 10.464,
+     "f": 10.595
+    },
+    {
+     "p": "evitar",
+     "i": 10.607,
+     "f": 10.964
+    },
+    {
+     "p": "retrabalho",
+     "i": 10.976,
+     "f": 11.548
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "77646bbe04",
+   "texto": "Erro comum: mudar o começo do prompt a cada pergunta. O cache só vale para um começo idêntico. Deixe o fixo primeiro e o variável depois.",
+   "audio": "audio/erro-comum-77646bbe04.mp3",
+   "duracao": 10.2,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.36
+    },
+    {
+     "p": "comum",
+     "i": 0.371,
+     "f": 0.729
+    },
+    {
+     "p": "mudar",
+     "i": 1.014,
+     "f": 1.348
+    },
+    {
+     "p": "o",
+     "i": 1.36,
+     "f": 1.395
+    },
+    {
+     "p": "começo",
+     "i": 1.407,
+     "f": 1.812
+    },
+    {
+     "p": "do",
+     "i": 1.824,
+     "f": 1.919
+    },
+    {
+     "p": "prompt",
+     "i": 1.931,
+     "f": 2.3
+    },
+    {
+     "p": "a",
+     "i": 2.312,
+     "f": 2.36
+    },
+    {
+     "p": "cada",
+     "i": 2.371,
+     "f": 2.609
+    },
+    {
+     "p": "pergunta",
+     "i": 2.621,
+     "f": 3.145
+    },
+    {
+     "p": "O",
+     "i": 3.964,
+     "f": 4.083
+    },
+    {
+     "p": "cache",
+     "i": 4.095,
+     "f": 4.417
+    },
+    {
+     "p": "só",
+     "i": 4.429,
+     "f": 4.583
+    },
+    {
+     "p": "vale",
+     "i": 4.595,
+     "f": 4.857
+    },
+    {
+     "p": "para",
+     "i": 4.869,
+     "f": 5.036
+    },
+    {
+     "p": "um",
+     "i": 5.048,
+     "f": 5.095
+    },
+    {
+     "p": "começo",
+     "i": 5.107,
+     "f": 5.524
+    },
+    {
+     "p": "idêntico",
+     "i": 5.536,
+     "f": 5.988
+    },
+    {
+     "p": "Deixe",
+     "i": 6.81,
+     "f": 7.179
+    },
+    {
+     "p": "o",
+     "i": 7.19,
+     "f": 7.226
+    },
+    {
+     "p": "fixo",
+     "i": 7.238,
+     "f": 7.631
+    },
+    {
+     "p": "primeiro",
+     "i": 7.643,
+     "f": 8.119
+    },
+    {
+     "p": "e",
+     "i": 8.131,
+     "f": 8.202
+    },
+    {
+     "p": "o",
+     "i": 8.214,
+     "f": 8.25
+    },
+    {
+     "p": "variável",
+     "i": 8.262,
+     "f": 8.786
+    },
+    {
+     "p": "depois",
+     "i": 8.798,
+     "f": 9.357
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "73a6a9e8e2",
+   "texto": "Pause o vídeo e tente: abra sua última conversa longa e use barra compact. Compare o tamanho do contexto.",
+   "audio": "audio/pratica-73a6a9e8e2.mp3",
+   "duracao": 7.896,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "o",
+     "i": 0.407,
+     "f": 0.455
+    },
+    {
+     "p": "vídeo",
+     "i": 0.467,
+     "f": 0.788
+    },
+    {
+     "p": "e",
+     "i": 0.8,
+     "f": 0.86
+    },
+    {
+     "p": "tente",
+     "i": 0.871,
+     "f": 1.24
+    },
+    {
+     "p": "abra",
+     "i": 1.431,
+     "f": 1.669
+    },
+    {
+     "p": "sua",
+     "i": 1.681,
+     "f": 1.955
+    },
+    {
+     "p": "última",
+     "i": 1.967,
+     "f": 2.3
+    },
+    {
+     "p": "conversa",
+     "i": 2.312,
+     "f": 2.812
+    },
+    {
+     "p": "longa",
+     "i": 2.824,
+     "f": 3.264
+    },
+    {
+     "p": "e",
+     "i": 3.276,
+     "f": 3.371
+    },
+    {
+     "p": "use",
+     "i": 3.383,
+     "f": 3.598
+    },
+    {
+     "p": "barra",
+     "i": 3.61,
+     "f": 3.907
+    },
+    {
+     "p": "compact",
+     "i": 3.919,
+     "f": 4.574
+    },
+    {
+     "p": "Compare",
+     "i": 5.393,
+     "f": 5.869
+    },
+    {
+     "p": "o",
+     "i": 5.881,
+     "f": 5.917
+    },
+    {
+     "p": "tamanho",
+     "i": 5.929,
+     "f": 6.345
+    },
+    {
+     "p": "do",
+     "i": 6.357,
+     "f": 6.452
+    },
+    {
+     "p": "contexto",
+     "i": 6.464,
+     "f": 7.071
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "82de4679dd",
+   "texto": "Resumo. Cache: reler custa cerca de 10%. Lote: 50% de desconto. Contexto enxuto: menos tokens, menos custo.",
+   "audio": "audio/resumo-82de4679dd.mp3",
+   "duracao": 12.216,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.693
+    },
+    {
+     "p": "Cache",
+     "i": 1.512,
+     "f": 1.893
+    },
+    {
+     "p": "reler",
+     "i": 2.131,
+     "f": 2.429
+    },
+    {
+     "p": "custa",
+     "i": 2.44,
+     "f": 2.786
+    },
+    {
+     "p": "cerca",
+     "i": 2.798,
+     "f": 3.143
+    },
+    {
+     "p": "de",
+     "i": 3.155,
+     "f": 3.25
+    },
+    {
+     "p": "10%",
+     "i": 3.262,
+     "f": 4.083
+    },
+    {
+     "p": "Lote",
+     "i": 4.905,
+     "f": 5.345
+    },
+    {
+     "p": "50%",
+     "i": 5.643,
+     "f": 6.702
+    },
+    {
+     "p": "de",
+     "i": 6.714,
+     "f": 6.798
+    },
+    {
+     "p": "desconto",
+     "i": 6.81,
+     "f": 7.357
+    },
+    {
+     "p": "Contexto",
+     "i": 8.179,
+     "f": 8.738
+    },
+    {
+     "p": "enxuto",
+     "i": 8.75,
+     "f": 9.214
+    },
+    {
+     "p": "menos",
+     "i": 9.452,
+     "f": 9.821
+    },
+    {
+     "p": "tokens",
+     "i": 9.833,
+     "f": 10.357
+    },
+    {
+     "p": "menos",
+     "i": 10.607,
+     "f": 10.988
+    },
+    {
+     "p": "custo",
+     "i": 11,
+     "f": 11.393
+    }
+   ]
+  },
+  "final": {
+   "hash": "74deaac0ea",
+   "texto": "Quiz: com 50 páginas fixas, o que economiza mais? Um, cache. Dois, mandar o manual de novo. Resposta: um, cache. Siga para a próxima aula.",
+   "audio": "audio/final-74deaac0ea.mp3",
+   "duracao": 14.328,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "com",
+     "i": 0.681,
+     "f": 0.86
+    },
+    {
+     "p": "50 páginas",
+     "i": 0.871,
+     "f": 1.824
+    },
+    {
+     "p": "fixas",
+     "i": 1.836,
+     "f": 2.359
+    },
+    {
+     "p": "o",
+     "i": 2.61,
+     "f": 2.693
+    },
+    {
+     "p": "que",
+     "i": 2.705,
+     "f": 2.824
+    },
+    {
+     "p": "economiza",
+     "i": 2.836,
+     "f": 3.395
+    },
+    {
+     "p": "mais",
+     "i": 3.407,
+     "f": 3.836
+    },
+    {
+     "p": "Um",
+     "i": 4.655,
+     "f": 4.964
+    },
+    {
+     "p": "cache",
+     "i": 5.202,
+     "f": 5.679
+    },
+    {
+     "p": "Dois",
+     "i": 6.5,
+     "f": 6.976
+    },
+    {
+     "p": "mandar",
+     "i": 7.238,
+     "f": 7.619
+    },
+    {
+     "p": "o",
+     "i": 7.631,
+     "f": 7.667
+    },
+    {
+     "p": "manual",
+     "i": 7.679,
+     "f": 8.083
+    },
+    {
+     "p": "de",
+     "i": 8.095,
+     "f": 8.191
+    },
+    {
+     "p": "novo",
+     "i": 8.202,
+     "f": 8.536
+    },
+    {
+     "p": "Resposta",
+     "i": 9.357,
+     "f": 10.083
+    },
+    {
+     "p": "um",
+     "i": 10.286,
+     "f": 10.524
+    },
+    {
+     "p": "cache",
+     "i": 10.786,
+     "f": 11.238
+    },
+    {
+     "p": "Siga",
+     "i": 12.06,
+     "f": 12.488
+    },
+    {
+     "p": "para",
+     "i": 12.5,
+     "f": 12.655
+    },
+    {
+     "p": "a",
+     "i": 12.667,
+     "f": 12.69
+    },
+    {
+     "p": "próxima",
+     "i": 12.702,
+     "f": 13.131
+    },
+    {
+     "p": "aula",
+     "i": 13.143,
+     "f": 13.488
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "servidores": {
+   "arquivo": "imagens/servidores-9ed99879.jpg",
+   "rotulo": "Servidores de data center",
+   "commons": "Data center servers",
+   "autor": "BalticServers.com",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+   "titulo": "File:BalticServers data center.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.942Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Docs — Prompt caching",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching"
+  },
+  {
+   "titulo": "Claude Docs — Batch processing",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "explicativo"
  }
 }

@@ -1,0 +1,124 @@
+{
+  "titulo": "Aula 3.5: Como gastar menos com IA",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Docs — Prompt caching", "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching" },
+    { "titulo": "Claude Docs — Batch processing", "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Toda vez que você manda uma mensagem, a IA relê o manual inteiro. E você paga de novo. Dá para pagar até 90% menos.",
+      "fontes": ["Claude Docs, out/2026"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "PAGANDO 2 VEZES?", "em": "mensagem", "posicao": "alto" },
+        { "tipo": "tag", "texto": "RELÊ TUDO", "icone": "documento", "cor": "vermelho", "em": "relê", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "PAGA DE NOVO", "cor": "vermelho", "em": "paga", "posicao": "meio2" },
+        { "tipo": "contador", "de": 0, "ate": 90, "unidade": "% menos", "em": "90%", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Aula 3.5. Você vai aprender três coisas: prompt caching, a Batch API e como manter o contexto enxuto.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "GASTAR MENOS COM IA", "sub": "AULA 3.5", "em": "Aula", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["dinheiro", "CACHE"], ["relogio", "LOTE"], ["documento", "ENXUTO"]], "em": "prompt", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "3 APRENDIZADOS", "icone": "check", "cor": "verde", "em": "três", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Prompt caching, ou cache de prompt, guarda o começo do texto já lido. Reler do cache custa cerca de 10% do preço normal. Em alguns modelos, ainda menos.",
+      "fundo": "anthropic",
+      "fontes": ["Claude Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PROMPT CACHING", "sub": "CACHE DE PROMPT", "em": "caching", "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Cache", "significado": "memória que guarda o que já foi lido", "em": "guarda", "posicao": "alto2" },
+        { "tipo": "contador", "de": 100, "ate": 10, "unidade": "% do preço", "rotulo": "RELER DO CACHE", "em": "10%", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "AINDA MENOS", "cor": "verde", "em": "menos", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num livro de receitas. Sem cache, você relê o livro todo a cada prato. Com cache, deixa aberto na página certa.",
+      "elementos": [
+        { "tipo": "tag", "texto": "ANALOGIA", "icone": "balao", "cor": "azul", "em": "Pense", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "LIVRO"], ["seta", ""], ["x", "RELER TUDO"]], "em": "Sem", "posicao": "alto2" },
+        { "tipo": "icones", "itens": [["documento", "PÁGINA"], ["seta", ""], ["check", "ABERTA"]], "em": "Com", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Exemplo: um chatbot com manual de 50 páginas. Sem cache, cada pergunta paga o manual inteiro. Com cache, o manual é gravado uma vez, e as próximas perguntas pagam só a leitura barata. O cache dura 5 minutos, renovado a cada uso.",
+      "fundo": "servidores",
+      "fontes": ["Claude Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CHATBOT DE 50 PÁGINAS", "em": "Exemplo", "posicao": "topo" },
+        { "tipo": "comentario", "texto": "cache_control: ephemeral", "em": "chatbot", "posicao": "alto2" },
+        { "tipo": "check", "ok": false, "texto": "SEM CACHE", "nota": "paga o manual em toda pergunta", "em": "Sem", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "COM CACHE", "nota": "paga o manual uma vez", "em": "Com", "posicao": "meio" },
+        { "tipo": "relogio", "rotulo": "VALIDADE DO CACHE: 5 MIN", "em": "dura", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "lote",
+      "texto": "Tarefa sem pressa? A Batch API, ou API em lote, dá 50% de desconto. A resposta pode demorar, mas a maioria sai em menos de uma hora.",
+      "fontes": ["Claude Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "BATCH API", "sub": "API EM LOTE", "em": "Batch", "posicao": "topo" },
+        { "tipo": "placar", "sim": 50, "nao": 100, "rotulo": "PREÇO", "rotuloSim": "LOTE", "rotuloNao": "NORMAL", "em": "50%", "posicao": "alto2" },
+        { "tipo": "carimbo", "texto": "-50%", "cor": "verde", "em": "desconto", "posicao": "meio" },
+        { "tipo": "tag", "texto": "SEM PRESSA", "icone": "relogio", "cor": "amarelo", "em": "demorar", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "contexto",
+      "texto": "Mantenha o contexto enxuto. Use barra clear para começar do zero e barra compact para resumir a conversa. Desligue conectores sem uso, e planeje antes para evitar retrabalho.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "CONTEXTO ENXUTO", "em": "Mantenha", "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "/clear", "significado": "começa uma conversa do zero", "em": "clear", "posicao": "alto2" },
+        { "tipo": "definicao", "palavra": "/compact", "significado": "resume a conversa", "em": "compact", "posicao": "meio" },
+        { "tipo": "tag", "texto": "DESLIGUE CONECTORES", "icone": "x", "cor": "vermelho", "em": "Desligue", "posicao": "meio2" },
+        { "tipo": "tag", "texto": "PLANEJE ANTES", "icone": "alvo", "cor": "verde", "em": "planeje", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: mudar o começo do prompt a cada pergunta. O cache só vale para um começo idêntico. Deixe o fixo primeiro e o variável depois.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "Erro", "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "COMEÇO MUDA", "nota": "o cache não é reaproveitado", "em": "mudar", "posicao": "alto2" },
+        { "tipo": "check", "ok": true, "texto": "FIXO PRIMEIRO", "nota": "variável vai no final", "em": "fixo", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: abra sua última conversa longa e use barra compact. Compare o tamanho do contexto.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "QUANTO ECONOMIZOU?", "em": "Compare", "posicao": "alto2" },
+        { "tipo": "comentario", "texto": "/compact", "em": "compact", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumo. Cache: reler custa cerca de 10%. Lote: 50% de desconto. Contexto enxuto: menos tokens, menos custo.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": "Resumo", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["dinheiro", "CACHE 10%"], ["relogio", "LOTE -50%"], ["documento", "ENXUTO"]], "em": "Cache", "posicao": "alto2" },
+        { "tipo": "comentario", "texto": "comenta aí qual você vai usar", "em": "custo", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: com 50 páginas fixas, o que economiza mais? Um, cache. Dois, mandar o manual de novo. Resposta: um, cache. Siga para a próxima aula.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "O QUE ECONOMIZA MAIS?", "opcoes": ["1 · CACHE DO MANUAL", "2 · MANDAR DE NOVO"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 1", "cor": "verde", "em": "Resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 3.6", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
