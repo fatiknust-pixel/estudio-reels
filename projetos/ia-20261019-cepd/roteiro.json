@@ -1,0 +1,119 @@
+{
+  "titulo": "Aula 2.5: Artefatos, arquivos e imagens no Claude",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Help Center — What are artifacts and how do I use them?", "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them" },
+    { "titulo": "Claude Help Center — Publish and share artifacts", "url": "https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts" },
+    { "titulo": "Claude Help Center — Upload files to Claude", "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você já pediu um gráfico ao Claude e recebeu só um monte de texto? Hoje ele entrega um painel que você clica e usa.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "SÓ TEXTO?", "em": "texto", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "CHEGA", "cor": "vermelho", "em": "monte", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Painel interativo", "icone": "celular", "cor": "verde", "em": "painel", "posicao": "meio2" },
+        { "tipo": "titulo", "texto": "AULA 2.5", "sub": "IA do Zero ao Especialista", "em": "usa", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Na aula 2 ponto 5, você vai aprender três coisas: o que são artefatos, como publicar e compartilhar, e como o Claude lê PDFs, planilhas e fotos.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "VOCÊ VAI APRENDER", "sub": "Aula 2.5", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "Artefatos"], ["seta", ""], ["pin", "Publicar"], ["seta", ""], ["celular", "Arquivos"]], "em": "artefatos", "posicao": "alto" },
+        { "tipo": "tag", "texto": "PDFs, planilhas e fotos", "icone": "documento", "em": "PDFs", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Artefato é um resultado que o Claude cria numa janela ao lado da conversa. Pode ser um documento, uma página, um app interativo, um gráfico ou uma apresentação. Você vê, testa e pede ajustes ali mesmo.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE É ARTEFATO", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Artefato", "significado": "Resultado que o Claude cria numa janela ao lado do chat", "em": "Artefato", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["documento", "Documento"], ["casa", "Página"], ["celular", "App"], ["alvo", "Gráfico"]], "em": "documento", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Peça ajustes ali mesmo", "icone": "balao", "em": "ajustes", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num garçom. Sem artefato, ele só descreve o prato. Com artefato, ele traz o prato à mesa para você provar.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "check", "ok": false, "texto": "SEM ARTEFATO", "nota": "Só descreve o prato", "em": "descreve", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "COM ARTEFATO", "nota": "Traz o prato para provar", "em": "traz", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "PROVE!", "cor": "verde", "em": "provar", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Exemplo: você anexa sua planilha de gastos do mês e escreve: transforme isto num painel interativo, com gastos por categoria e um filtro por mês. O Claude lê as colunas, cria o painel como artefato, e você clica nos filtros. Gostou? Clique em Publicar e copie o link público.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PLANILHA → PAINEL", "sub": "Exemplo prático", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "gastos.xlsx", "icone": "dinheiro", "em": "planilha", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Transforme isto num painel interativo, com gastos por categoria e filtro por mês", "em": "transforme", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["documento", "Planilha"], ["seta", ""], ["celular", "Painel"]], "em": "colunas", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "Publicar → link público", "icone": "pin", "cor": "verde", "em": "Publicar", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "arquivos",
+      "texto": "O Claude também lê PDFs, planilhas e fotos. Em PDFs de até 100 páginas, ele analisa texto e imagens. Cada conversa aceita até 20 arquivos.",
+      "fontes": ["Claude Help Center, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "LENDO ARQUIVOS", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "PDF"], ["dinheiro", "Planilha"], ["pin", "Foto"]], "em": "PDFs", "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 100, "unidade": "páginas", "rotulo": "PDF com texto e imagens", "em": "100", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 20, "unidade": "arquivos", "rotulo": "por conversa", "em": "20", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: publicar sem conferir. Nos planos Free, Pro e Max, quem tiver o link vê o artefato. E planilhas podem ter dados pessoais. Revise antes de publicar.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "Erro", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "PUBLICAR SEM CONFERIR", "nota": "Quem tem o link, vê tudo", "em": "link", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Dados pessoais? Revise", "icone": "alerta", "cor": "amarelo", "em": "pessoais", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: anexe uma planilha sua, sem dados sensíveis, e peça um painel com um gráfico e um filtro.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "QUAL PLANILHA?", "em": "planilha", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["dinheiro", "Gráfico"], ["check", "Filtro"]], "em": "gráfico", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumo. Artefato é o resultado que você usa, não só lê. Publicar gera um link. E o Claude lê PDFs, planilhas e fotos.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["celular", "Artefato"], ["pin", "Link"], ["documento", "Arquivos"]], "em": "Artefato", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "1 · USA", "cor": "verde", "em": "usa", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "2 · LINK", "cor": "azul", "em": "link", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: um artefato publicado num plano Pro é visto por quem? Só por você, ou por qualquer pessoa com o link? A resposta é qualquer pessoa com o link. Na próxima aula, a 2.6, a gente continua.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Quem vê um artefato publicado?", "opcoes": ["1 · Só eu", "2 · Quem tem o link"], "em": "Quiz", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "OPÇÃO 2", "cor": "verde", "em": "resposta", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 2.6", "em": "próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

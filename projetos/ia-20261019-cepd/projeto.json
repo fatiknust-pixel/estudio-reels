@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-cepd",
- "titulo": "Aula 2.5: Artefatos, arquivos e imagens no Claude — mostre o que são a",
+ "titulo": "Aula 2.5: Artefatos, arquivos e imagens no Claude",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.941Z",
- "atualizadoEm": "2026-10-19T22:26:17.941Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:36:18Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 2.5: Artefatos, arquivos e imagens no Claude — mostre o que são artefatos (documentos, páginas, apps interativos, gráficos, apresentações), como publicar e compartilhar, e como o Claude lê PDFs, planilhas e fotos, com o exemplo de transformar uma planilha de gastos num painel interativo",
@@ -62,11 +63,1984 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você já pediu um gráfico ao Claude e recebeu só um monte de texto? Hoje ele entrega um painel que você clica e usa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "SÓ TEXTO?",
+     "em": "texto",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "CHEGA",
+     "cor": "vermelho",
+     "em": "monte",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Painel interativo",
+     "icone": "celular",
+     "cor": "verde",
+     "em": "painel",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "AULA 2.5",
+     "sub": "IA do Zero ao Especialista",
+     "em": "usa",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Na aula 2 ponto 5, você vai aprender três coisas: o que são artefatos, como publicar e compartilhar, e como o Claude lê PDFs, planilhas e fotos.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "VOCÊ VAI APRENDER",
+     "sub": "Aula 2.5",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Artefatos"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "pin",
+       "Publicar"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "celular",
+       "Arquivos"
+      ]
+     ],
+     "em": "artefatos",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PDFs, planilhas e fotos",
+     "icone": "documento",
+     "em": "PDFs",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Artefato é um resultado que o Claude cria numa janela ao lado da conversa. Pode ser um documento, uma página, um app interativo, um gráfico ou uma apresentação. Você vê, testa e pede ajustes ali mesmo.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE É ARTEFATO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Artefato",
+     "significado": "Resultado que o Claude cria numa janela ao lado do chat",
+     "em": "Artefato",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Documento"
+      ],
+      [
+       "casa",
+       "Página"
+      ],
+      [
+       "celular",
+       "App"
+      ],
+      [
+       "alvo",
+       "Gráfico"
+      ]
+     ],
+     "em": "documento",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Peça ajustes ali mesmo",
+     "icone": "balao",
+     "em": "ajustes",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num garçom. Sem artefato, ele só descreve o prato. Com artefato, ele traz o prato à mesa para você provar.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "SEM ARTEFATO",
+     "nota": "Só descreve o prato",
+     "em": "descreve",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "COM ARTEFATO",
+     "nota": "Traz o prato para provar",
+     "em": "traz",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "PROVE!",
+     "cor": "verde",
+     "em": "provar",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Exemplo: você anexa sua planilha de gastos do mês e escreve: transforme isto num painel interativo, com gastos por categoria e um filtro por mês. O Claude lê as colunas, cria o painel como artefato, e você clica nos filtros. Gostou? Clique em Publicar e copie o link público.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PLANILHA → PAINEL",
+     "sub": "Exemplo prático",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "gastos.xlsx",
+     "icone": "dinheiro",
+     "em": "planilha",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Transforme isto num painel interativo, com gastos por categoria e filtro por mês",
+     "em": "transforme",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Planilha"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "celular",
+       "Painel"
+      ]
+     ],
+     "em": "colunas",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Publicar → link público",
+     "icone": "pin",
+     "cor": "verde",
+     "em": "Publicar",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "arquivos",
+   "texto": "O Claude também lê PDFs, planilhas e fotos. Em PDFs de até 100 páginas, ele analisa texto e imagens. Cada conversa aceita até 20 arquivos.",
+   "fontes": [
+    "Claude Help Center, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "LENDO ARQUIVOS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "PDF"
+      ],
+      [
+       "dinheiro",
+       "Planilha"
+      ],
+      [
+       "pin",
+       "Foto"
+      ]
+     ],
+     "em": "PDFs",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 100,
+     "unidade": "páginas",
+     "rotulo": "PDF com texto e imagens",
+     "em": "100",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 20,
+     "unidade": "arquivos",
+     "rotulo": "por conversa",
+     "em": "20",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: publicar sem conferir. Nos planos Free, Pro e Max, quem tiver o link vê o artefato. E planilhas podem ter dados pessoais. Revise antes de publicar.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "Erro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "PUBLICAR SEM CONFERIR",
+     "nota": "Quem tem o link, vê tudo",
+     "em": "link",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Dados pessoais? Revise",
+     "icone": "alerta",
+     "cor": "amarelo",
+     "em": "pessoais",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: anexe uma planilha sua, sem dados sensíveis, e peça um painel com um gráfico e um filtro.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL PLANILHA?",
+     "em": "planilha",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "dinheiro",
+       "Gráfico"
+      ],
+      [
+       "check",
+       "Filtro"
+      ]
+     ],
+     "em": "gráfico",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo. Artefato é o resultado que você usa, não só lê. Publicar gera um link. E o Claude lê PDFs, planilhas e fotos.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "Artefato"
+      ],
+      [
+       "pin",
+       "Link"
+      ],
+      [
+       "documento",
+       "Arquivos"
+      ]
+     ],
+     "em": "Artefato",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "1 · USA",
+     "cor": "verde",
+     "em": "usa",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "2 · LINK",
+     "cor": "azul",
+     "em": "link",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: um artefato publicado num plano Pro é visto por quem? Só por você, ou por qualquer pessoa com o link? A resposta é qualquer pessoa com o link. Na próxima aula, a 2.6, a gente continua.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Quem vê um artefato publicado?",
+     "opcoes": [
+      "1 · Só eu",
+      "2 · Quem tem o link"
+     ],
+     "em": "Quiz",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "OPÇÃO 2",
+     "cor": "verde",
+     "em": "resposta",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 2.6",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "4891614494",
+   "texto": "Você já pediu um gráfico ao Claude e recebeu só um monte de texto? Hoje ele entrega um painel que você clica e usa.",
+   "audio": "audio/gancho-4891614494.mp3",
+   "duracao": 7.584,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.098,
+     "f": 0.383
+    },
+    {
+     "p": "já",
+     "i": 0.395,
+     "f": 0.514
+    },
+    {
+     "p": "pediu",
+     "i": 0.526,
+     "f": 0.812
+    },
+    {
+     "p": "um",
+     "i": 0.824,
+     "f": 0.907
+    },
+    {
+     "p": "gráfico",
+     "i": 0.919,
+     "f": 1.324
+    },
+    {
+     "p": "ao",
+     "i": 1.336,
+     "f": 1.431
+    },
+    {
+     "p": "Claude",
+     "i": 1.443,
+     "f": 1.788
+    },
+    {
+     "p": "e",
+     "i": 1.8,
+     "f": 1.836
+    },
+    {
+     "p": "recebeu",
+     "i": 1.848,
+     "f": 2.24
+    },
+    {
+     "p": "só",
+     "i": 2.252,
+     "f": 2.407
+    },
+    {
+     "p": "um",
+     "i": 2.419,
+     "f": 2.526
+    },
+    {
+     "p": "monte",
+     "i": 2.538,
+     "f": 2.895
+    },
+    {
+     "p": "de",
+     "i": 2.907,
+     "f": 3.038
+    },
+    {
+     "p": "texto",
+     "i": 3.05,
+     "f": 3.443
+    },
+    {
+     "p": "Hoje",
+     "i": 4.262,
+     "f": 4.571
+    },
+    {
+     "p": "ele",
+     "i": 4.583,
+     "f": 4.667
+    },
+    {
+     "p": "entrega",
+     "i": 4.679,
+     "f": 5.036
+    },
+    {
+     "p": "um",
+     "i": 5.048,
+     "f": 5.107
+    },
+    {
+     "p": "painel",
+     "i": 5.119,
+     "f": 5.512
+    },
+    {
+     "p": "que",
+     "i": 5.524,
+     "f": 5.619
+    },
+    {
+     "p": "você",
+     "i": 5.631,
+     "f": 5.905
+    },
+    {
+     "p": "clica",
+     "i": 5.917,
+     "f": 6.31
+    },
+    {
+     "p": "e",
+     "i": 6.321,
+     "f": 6.464
+    },
+    {
+     "p": "usa",
+     "i": 6.476,
+     "f": 6.762
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "786ed41064",
+   "texto": "Na aula 2 ponto 5, você vai aprender três coisas: o que são artefatos, como publicar e compartilhar, e como o Claude lê PDFs, planilhas e fotos.",
+   "audio": "audio/promessa-786ed41064.mp3",
+   "duracao": 10.464,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.098,
+     "f": 0.264
+    },
+    {
+     "p": "aula",
+     "i": 0.276,
+     "f": 0.574
+    },
+    {
+     "p": "2 ponto",
+     "i": 0.586,
+     "f": 1.062
+    },
+    {
+     "p": "5",
+     "i": 1.074,
+     "f": 1.419
+    },
+    {
+     "p": "você",
+     "i": 1.752,
+     "f": 2.026
+    },
+    {
+     "p": "vai",
+     "i": 2.038,
+     "f": 2.145
+    },
+    {
+     "p": "aprender",
+     "i": 2.157,
+     "f": 2.562
+    },
+    {
+     "p": "três",
+     "i": 2.574,
+     "f": 2.848
+    },
+    {
+     "p": "coisas",
+     "i": 2.86,
+     "f": 3.324
+    },
+    {
+     "p": "o",
+     "i": 3.621,
+     "f": 3.693
+    },
+    {
+     "p": "que",
+     "i": 3.705,
+     "f": 3.824
+    },
+    {
+     "p": "são",
+     "i": 3.836,
+     "f": 4.05
+    },
+    {
+     "p": "artefatos",
+     "i": 4.062,
+     "f": 4.764
+    },
+    {
+     "p": "como",
+     "i": 5.014,
+     "f": 5.24
+    },
+    {
+     "p": "publicar",
+     "i": 5.252,
+     "f": 5.693
+    },
+    {
+     "p": "e",
+     "i": 5.705,
+     "f": 5.74
+    },
+    {
+     "p": "compartilhar",
+     "i": 5.752,
+     "f": 6.407
+    },
+    {
+     "p": "e",
+     "i": 6.729,
+     "f": 6.788
+    },
+    {
+     "p": "como",
+     "i": 6.8,
+     "f": 7.014
+    },
+    {
+     "p": "o",
+     "i": 7.026,
+     "f": 7.062
+    },
+    {
+     "p": "Claude",
+     "i": 7.074,
+     "f": 7.395
+    },
+    {
+     "p": "lê",
+     "i": 7.407,
+     "f": 7.526
+    },
+    {
+     "p": "PDFs",
+     "i": 7.538,
+     "f": 8.3
+    },
+    {
+     "p": "planilhas",
+     "i": 8.502,
+     "f": 8.955
+    },
+    {
+     "p": "e",
+     "i": 8.967,
+     "f": 9.086
+    },
+    {
+     "p": "fotos",
+     "i": 9.098,
+     "f": 9.633
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "8d117af48a",
+   "texto": "Artefato é um resultado que o Claude cria numa janela ao lado da conversa. Pode ser um documento, uma página, um app interativo, um gráfico ou uma apresentação. Você vê, testa e pede ajustes ali mesmo.",
+   "audio": "audio/conceito-8d117af48a.mp3",
+   "duracao": 14.376,
+   "palavras": [
+    {
+     "p": "Artefato",
+     "i": 0.098,
+     "f": 0.752
+    },
+    {
+     "p": "é",
+     "i": 0.764,
+     "f": 0.8
+    },
+    {
+     "p": "um",
+     "i": 0.812,
+     "f": 0.883
+    },
+    {
+     "p": "resultado",
+     "i": 0.895,
+     "f": 1.514
+    },
+    {
+     "p": "que",
+     "i": 1.526,
+     "f": 1.61
+    },
+    {
+     "p": "o",
+     "i": 1.621,
+     "f": 1.669
+    },
+    {
+     "p": "Claude",
+     "i": 1.681,
+     "f": 2.014
+    },
+    {
+     "p": "cria",
+     "i": 2.026,
+     "f": 2.3
+    },
+    {
+     "p": "numa",
+     "i": 2.312,
+     "f": 2.49
+    },
+    {
+     "p": "janela",
+     "i": 2.502,
+     "f": 2.919
+    },
+    {
+     "p": "ao",
+     "i": 2.931,
+     "f": 3.026
+    },
+    {
+     "p": "lado",
+     "i": 3.038,
+     "f": 3.336
+    },
+    {
+     "p": "da",
+     "i": 3.348,
+     "f": 3.443
+    },
+    {
+     "p": "conversa",
+     "i": 3.455,
+     "f": 4.05
+    },
+    {
+     "p": "Pode",
+     "i": 4.869,
+     "f": 5.155
+    },
+    {
+     "p": "ser",
+     "i": 5.167,
+     "f": 5.345
+    },
+    {
+     "p": "um",
+     "i": 5.357,
+     "f": 5.417
+    },
+    {
+     "p": "documento",
+     "i": 5.429,
+     "f": 6.012
+    },
+    {
+     "p": "uma",
+     "i": 6.274,
+     "f": 6.5
+    },
+    {
+     "p": "página",
+     "i": 6.512,
+     "f": 6.952
+    },
+    {
+     "p": "um",
+     "i": 7.19,
+     "f": 7.369
+    },
+    {
+     "p": "app",
+     "i": 7.381,
+     "f": 7.56
+    },
+    {
+     "p": "interativo",
+     "i": 7.571,
+     "f": 8.226
+    },
+    {
+     "p": "um",
+     "i": 8.476,
+     "f": 8.583
+    },
+    {
+     "p": "gráfico",
+     "i": 8.595,
+     "f": 9.083
+    },
+    {
+     "p": "ou",
+     "i": 9.095,
+     "f": 9.202
+    },
+    {
+     "p": "uma",
+     "i": 9.214,
+     "f": 9.357
+    },
+    {
+     "p": "apresentação",
+     "i": 9.369,
+     "f": 10.048
+    },
+    {
+     "p": "Você",
+     "i": 10.869,
+     "f": 11.214
+    },
+    {
+     "p": "vê",
+     "i": 11.226,
+     "f": 11.512
+    },
+    {
+     "p": "testa",
+     "i": 11.821,
+     "f": 12.107
+    },
+    {
+     "p": "e",
+     "i": 12.119,
+     "f": 12.155
+    },
+    {
+     "p": "pede",
+     "i": 12.167,
+     "f": 12.417
+    },
+    {
+     "p": "ajustes",
+     "i": 12.429,
+     "f": 12.845
+    },
+    {
+     "p": "ali",
+     "i": 12.857,
+     "f": 13.131
+    },
+    {
+     "p": "mesmo",
+     "i": 13.143,
+     "f": 13.548
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "fc51a8d98d",
+   "texto": "Pense num garçom. Sem artefato, ele só descreve o prato. Com artefato, ele traz o prato à mesa para você provar.",
+   "audio": "audio/analogia-fc51a8d98d.mp3",
+   "duracao": 8.928,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "num",
+     "i": 0.479,
+     "f": 0.586
+    },
+    {
+     "p": "garçom",
+     "i": 0.598,
+     "f": 1.038
+    },
+    {
+     "p": "Sem",
+     "i": 1.857,
+     "f": 2.143
+    },
+    {
+     "p": "artefato",
+     "i": 2.155,
+     "f": 2.786
+    },
+    {
+     "p": "ele",
+     "i": 3,
+     "f": 3.155
+    },
+    {
+     "p": "só",
+     "i": 3.167,
+     "f": 3.345
+    },
+    {
+     "p": "descreve",
+     "i": 3.357,
+     "f": 3.774
+    },
+    {
+     "p": "o",
+     "i": 3.786,
+     "f": 3.821
+    },
+    {
+     "p": "prato",
+     "i": 3.833,
+     "f": 4.214
+    },
+    {
+     "p": "Com",
+     "i": 5.036,
+     "f": 5.238
+    },
+    {
+     "p": "artefato",
+     "i": 5.25,
+     "f": 5.881
+    },
+    {
+     "p": "ele",
+     "i": 6.107,
+     "f": 6.262
+    },
+    {
+     "p": "traz",
+     "i": 6.274,
+     "f": 6.429
+    },
+    {
+     "p": "o",
+     "i": 6.44,
+     "f": 6.571
+    },
+    {
+     "p": "prato",
+     "i": 6.583,
+     "f": 6.905
+    },
+    {
+     "p": "à",
+     "i": 6.917,
+     "f": 6.964
+    },
+    {
+     "p": "mesa",
+     "i": 6.976,
+     "f": 7.298
+    },
+    {
+     "p": "para",
+     "i": 7.31,
+     "f": 7.476
+    },
+    {
+     "p": "você",
+     "i": 7.488,
+     "f": 7.738
+    },
+    {
+     "p": "provar",
+     "i": 7.75,
+     "f": 8.107
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "f9946fd60d",
+   "texto": "Exemplo: você anexa sua planilha de gastos do mês e escreve: transforme isto num painel interativo, com gastos por categoria e um filtro por mês. O Claude lê as colunas, cria o painel como artefato, e você clica nos filtros. Gostou? Clique em Publicar e copie o link público.",
+   "audio": "audio/exemplo-f9946fd60d.mp3",
+   "duracao": 19.488,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.098,
+     "f": 0.598
+    },
+    {
+     "p": "você",
+     "i": 0.99,
+     "f": 1.288
+    },
+    {
+     "p": "anexa",
+     "i": 1.3,
+     "f": 1.717
+    },
+    {
+     "p": "sua",
+     "i": 1.729,
+     "f": 1.919
+    },
+    {
+     "p": "planilha",
+     "i": 1.931,
+     "f": 2.371
+    },
+    {
+     "p": "de",
+     "i": 2.383,
+     "f": 2.479
+    },
+    {
+     "p": "gastos",
+     "i": 2.49,
+     "f": 2.931
+    },
+    {
+     "p": "do",
+     "i": 2.943,
+     "f": 3.05
+    },
+    {
+     "p": "mês",
+     "i": 3.062,
+     "f": 3.3
+    },
+    {
+     "p": "e",
+     "i": 3.312,
+     "f": 3.419
+    },
+    {
+     "p": "escreve",
+     "i": 3.431,
+     "f": 3.895
+    },
+    {
+     "p": "transforme",
+     "i": 4.217,
+     "f": 4.824
+    },
+    {
+     "p": "isto",
+     "i": 4.836,
+     "f": 5.098
+    },
+    {
+     "p": "num",
+     "i": 5.11,
+     "f": 5.252
+    },
+    {
+     "p": "painel",
+     "i": 5.264,
+     "f": 5.586
+    },
+    {
+     "p": "interativo",
+     "i": 5.598,
+     "f": 6.264
+    },
+    {
+     "p": "com",
+     "i": 6.502,
+     "f": 6.681
+    },
+    {
+     "p": "gastos",
+     "i": 6.693,
+     "f": 7.133
+    },
+    {
+     "p": "por",
+     "i": 7.145,
+     "f": 7.3
+    },
+    {
+     "p": "categoria",
+     "i": 7.312,
+     "f": 7.848
+    },
+    {
+     "p": "e",
+     "i": 7.86,
+     "f": 7.907
+    },
+    {
+     "p": "um",
+     "i": 7.919,
+     "f": 8.026
+    },
+    {
+     "p": "filtro",
+     "i": 8.038,
+     "f": 8.359
+    },
+    {
+     "p": "por",
+     "i": 8.371,
+     "f": 8.526
+    },
+    {
+     "p": "mês",
+     "i": 8.538,
+     "f": 8.931
+    },
+    {
+     "p": "O",
+     "i": 9.75,
+     "f": 9.857
+    },
+    {
+     "p": "Claude",
+     "i": 9.869,
+     "f": 10.214
+    },
+    {
+     "p": "lê",
+     "i": 10.226,
+     "f": 10.345
+    },
+    {
+     "p": "as",
+     "i": 10.357,
+     "f": 10.488
+    },
+    {
+     "p": "colunas",
+     "i": 10.5,
+     "f": 11.024
+    },
+    {
+     "p": "cria",
+     "i": 11.202,
+     "f": 11.417
+    },
+    {
+     "p": "o",
+     "i": 11.429,
+     "f": 11.464
+    },
+    {
+     "p": "painel",
+     "i": 11.476,
+     "f": 11.869
+    },
+    {
+     "p": "como",
+     "i": 11.881,
+     "f": 12.06
+    },
+    {
+     "p": "artefato",
+     "i": 12.071,
+     "f": 12.69
+    },
+    {
+     "p": "e",
+     "i": 12.94,
+     "f": 13.012
+    },
+    {
+     "p": "você",
+     "i": 13.024,
+     "f": 13.309
+    },
+    {
+     "p": "clica",
+     "i": 13.321,
+     "f": 13.667
+    },
+    {
+     "p": "nos",
+     "i": 13.679,
+     "f": 13.857
+    },
+    {
+     "p": "filtros",
+     "i": 13.869,
+     "f": 14.345
+    },
+    {
+     "p": "Gostou",
+     "i": 15.167,
+     "f": 15.667
+    },
+    {
+     "p": "Clique",
+     "i": 16.488,
+     "f": 16.762
+    },
+    {
+     "p": "em",
+     "i": 16.774,
+     "f": 16.845
+    },
+    {
+     "p": "Publicar",
+     "i": 16.857,
+     "f": 17.369
+    },
+    {
+     "p": "e",
+     "i": 17.381,
+     "f": 17.429
+    },
+    {
+     "p": "copie",
+     "i": 17.44,
+     "f": 17.786
+    },
+    {
+     "p": "o",
+     "i": 17.798,
+     "f": 17.833
+    },
+    {
+     "p": "link",
+     "i": 17.845,
+     "f": 18.202
+    },
+    {
+     "p": "público",
+     "i": 18.214,
+     "f": 18.667
+    }
+   ]
+  },
+  "arquivos": {
+   "hash": "b6840ffc56",
+   "texto": "O Claude também lê PDFs, planilhas e fotos. Em PDFs de até 100 páginas, ele analisa texto e imagens. Cada conversa aceita até 20 arquivos.",
+   "audio": "audio/arquivos-b6840ffc56.mp3",
+   "duracao": 11.64,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "Claude",
+     "i": 0.229,
+     "f": 0.621
+    },
+    {
+     "p": "também",
+     "i": 0.633,
+     "f": 0.955
+    },
+    {
+     "p": "lê",
+     "i": 0.967,
+     "f": 1.098
+    },
+    {
+     "p": "PDFs",
+     "i": 1.11,
+     "f": 1.871
+    },
+    {
+     "p": "planilhas",
+     "i": 2.086,
+     "f": 2.514
+    },
+    {
+     "p": "e",
+     "i": 2.526,
+     "f": 2.645
+    },
+    {
+     "p": "fotos",
+     "i": 2.657,
+     "f": 3.217
+    },
+    {
+     "p": "Em",
+     "i": 4.036,
+     "f": 4.19
+    },
+    {
+     "p": "PDFs",
+     "i": 4.202,
+     "f": 4.845
+    },
+    {
+     "p": "de",
+     "i": 4.857,
+     "f": 4.917
+    },
+    {
+     "p": "até",
+     "i": 4.929,
+     "f": 5.131
+    },
+    {
+     "p": "100 páginas",
+     "i": 5.143,
+     "f": 5.929
+    },
+    {
+     "p": "ele",
+     "i": 6.179,
+     "f": 6.286
+    },
+    {
+     "p": "analisa",
+     "i": 6.298,
+     "f": 6.738
+    },
+    {
+     "p": "texto",
+     "i": 6.75,
+     "f": 7.119
+    },
+    {
+     "p": "e",
+     "i": 7.131,
+     "f": 7.167
+    },
+    {
+     "p": "imagens",
+     "i": 7.179,
+     "f": 7.774
+    },
+    {
+     "p": "Cada",
+     "i": 8.595,
+     "f": 8.833
+    },
+    {
+     "p": "conversa",
+     "i": 8.845,
+     "f": 9.357
+    },
+    {
+     "p": "aceita",
+     "i": 9.369,
+     "f": 9.702
+    },
+    {
+     "p": "até",
+     "i": 9.714,
+     "f": 9.929
+    },
+    {
+     "p": "20 arquivos",
+     "i": 9.94,
+     "f": 10.798
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "581f690123",
+   "texto": "Erro comum: publicar sem conferir. Nos planos Free, Pro e Max, quem tiver o link vê o artefato. E planilhas podem ter dados pessoais. Revise antes de publicar.",
+   "audio": "audio/erro-comum-581f690123.mp3",
+   "duracao": 12.984,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.098,
+     "f": 0.36
+    },
+    {
+     "p": "comum",
+     "i": 0.371,
+     "f": 0.752
+    },
+    {
+     "p": "publicar",
+     "i": 0.979,
+     "f": 1.514
+    },
+    {
+     "p": "sem",
+     "i": 1.526,
+     "f": 1.74
+    },
+    {
+     "p": "conferir",
+     "i": 1.752,
+     "f": 2.252
+    },
+    {
+     "p": "Nos",
+     "i": 3.071,
+     "f": 3.321
+    },
+    {
+     "p": "planos",
+     "i": 3.333,
+     "f": 3.714
+    },
+    {
+     "p": "Free",
+     "i": 3.726,
+     "f": 4.036
+    },
+    {
+     "p": "Pro",
+     "i": 4.19,
+     "f": 4.369
+    },
+    {
+     "p": "e",
+     "i": 4.381,
+     "f": 4.452
+    },
+    {
+     "p": "Max",
+     "i": 4.464,
+     "f": 4.917
+    },
+    {
+     "p": "quem",
+     "i": 5.095,
+     "f": 5.274
+    },
+    {
+     "p": "tiver",
+     "i": 5.286,
+     "f": 5.571
+    },
+    {
+     "p": "o",
+     "i": 5.583,
+     "f": 5.607
+    },
+    {
+     "p": "link",
+     "i": 5.619,
+     "f": 5.952
+    },
+    {
+     "p": "vê",
+     "i": 5.964,
+     "f": 6.119
+    },
+    {
+     "p": "o",
+     "i": 6.131,
+     "f": 6.179
+    },
+    {
+     "p": "artefato",
+     "i": 6.19,
+     "f": 6.821
+    },
+    {
+     "p": "E",
+     "i": 7.643,
+     "f": 7.75
+    },
+    {
+     "p": "planilhas",
+     "i": 7.762,
+     "f": 8.357
+    },
+    {
+     "p": "podem",
+     "i": 8.369,
+     "f": 8.643
+    },
+    {
+     "p": "ter",
+     "i": 8.655,
+     "f": 8.833
+    },
+    {
+     "p": "dados",
+     "i": 8.845,
+     "f": 9.202
+    },
+    {
+     "p": "pessoais",
+     "i": 9.214,
+     "f": 9.869
+    },
+    {
+     "p": "Revise",
+     "i": 10.69,
+     "f": 11.214
+    },
+    {
+     "p": "antes",
+     "i": 11.226,
+     "f": 11.548
+    },
+    {
+     "p": "de",
+     "i": 11.56,
+     "f": 11.655
+    },
+    {
+     "p": "publicar",
+     "i": 11.667,
+     "f": 12.155
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "b5db548264",
+   "texto": "Pause o vídeo e tente: anexe uma planilha sua, sem dados sensíveis, e peça um painel com um gráfico e um filtro.",
+   "audio": "audio/pratica-b5db548264.mp3",
+   "duracao": 7.464,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.383
+    },
+    {
+     "p": "o",
+     "i": 0.395,
+     "f": 0.443
+    },
+    {
+     "p": "vídeo",
+     "i": 0.455,
+     "f": 0.764
+    },
+    {
+     "p": "e",
+     "i": 0.776,
+     "f": 0.848
+    },
+    {
+     "p": "tente",
+     "i": 0.86,
+     "f": 1.229
+    },
+    {
+     "p": "anexe",
+     "i": 1.443,
+     "f": 1.86
+    },
+    {
+     "p": "uma",
+     "i": 1.871,
+     "f": 2.014
+    },
+    {
+     "p": "planilha",
+     "i": 2.026,
+     "f": 2.431
+    },
+    {
+     "p": "sua",
+     "i": 2.443,
+     "f": 2.776
+    },
+    {
+     "p": "sem",
+     "i": 3.026,
+     "f": 3.193
+    },
+    {
+     "p": "dados",
+     "i": 3.205,
+     "f": 3.514
+    },
+    {
+     "p": "sensíveis",
+     "i": 3.526,
+     "f": 4.157
+    },
+    {
+     "p": "e",
+     "i": 4.431,
+     "f": 4.514
+    },
+    {
+     "p": "peça",
+     "i": 4.526,
+     "f": 4.812
+    },
+    {
+     "p": "um",
+     "i": 4.824,
+     "f": 4.883
+    },
+    {
+     "p": "painel",
+     "i": 4.895,
+     "f": 5.276
+    },
+    {
+     "p": "com",
+     "i": 5.288,
+     "f": 5.431
+    },
+    {
+     "p": "um",
+     "i": 5.443,
+     "f": 5.514
+    },
+    {
+     "p": "gráfico",
+     "i": 5.526,
+     "f": 6.038
+    },
+    {
+     "p": "e",
+     "i": 6.05,
+     "f": 6.121
+    },
+    {
+     "p": "um",
+     "i": 6.133,
+     "f": 6.24
+    },
+    {
+     "p": "filtro",
+     "i": 6.252,
+     "f": 6.645
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "debb1b57e1",
+   "texto": "Resumo. Artefato é o resultado que você usa, não só lê. Publicar gera um link. E o Claude lê PDFs, planilhas e fotos.",
+   "audio": "audio/resumo-debb1b57e1.mp3",
+   "duracao": 11.256,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.693
+    },
+    {
+     "p": "Artefato",
+     "i": 1.512,
+     "f": 2.179
+    },
+    {
+     "p": "é",
+     "i": 2.19,
+     "f": 2.226
+    },
+    {
+     "p": "o",
+     "i": 2.238,
+     "f": 2.274
+    },
+    {
+     "p": "resultado",
+     "i": 2.286,
+     "f": 2.857
+    },
+    {
+     "p": "que",
+     "i": 2.869,
+     "f": 2.952
+    },
+    {
+     "p": "você",
+     "i": 2.964,
+     "f": 3.274
+    },
+    {
+     "p": "usa",
+     "i": 3.286,
+     "f": 3.607
+    },
+    {
+     "p": "não",
+     "i": 3.881,
+     "f": 4.179
+    },
+    {
+     "p": "só",
+     "i": 4.19,
+     "f": 4.381
+    },
+    {
+     "p": "lê",
+     "i": 4.393,
+     "f": 4.631
+    },
+    {
+     "p": "Publicar",
+     "i": 5.452,
+     "f": 6
+    },
+    {
+     "p": "gera",
+     "i": 6.012,
+     "f": 6.238
+    },
+    {
+     "p": "um",
+     "i": 6.25,
+     "f": 6.369
+    },
+    {
+     "p": "link",
+     "i": 6.381,
+     "f": 6.774
+    },
+    {
+     "p": "E",
+     "i": 7.595,
+     "f": 7.714
+    },
+    {
+     "p": "o",
+     "i": 7.726,
+     "f": 7.798
+    },
+    {
+     "p": "Claude",
+     "i": 7.81,
+     "f": 8.131
+    },
+    {
+     "p": "lê",
+     "i": 8.143,
+     "f": 8.298
+    },
+    {
+     "p": "PDFs",
+     "i": 8.31,
+     "f": 9.095
+    },
+    {
+     "p": "planilhas",
+     "i": 9.31,
+     "f": 9.762
+    },
+    {
+     "p": "e",
+     "i": 9.774,
+     "f": 9.881
+    },
+    {
+     "p": "fotos",
+     "i": 9.893,
+     "f": 10.429
+    }
+   ]
+  },
+  "final": {
+   "hash": "0d5bc046fb",
+   "texto": "Quiz: um artefato publicado num plano Pro é visto por quem? Só por você, ou por qualquer pessoa com o link? A resposta é qualquer pessoa com o link. Na próxima aula, a 2.6, a gente continua.",
+   "audio": "audio/final-0d5bc046fb.mp3",
+   "duracao": 15.528,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "um",
+     "i": 0.86,
+     "f": 1.002
+    },
+    {
+     "p": "artefato",
+     "i": 1.014,
+     "f": 1.562
+    },
+    {
+     "p": "publicado",
+     "i": 1.574,
+     "f": 2.086
+    },
+    {
+     "p": "num",
+     "i": 2.098,
+     "f": 2.264
+    },
+    {
+     "p": "plano",
+     "i": 2.276,
+     "f": 2.61
+    },
+    {
+     "p": "Pro",
+     "i": 2.621,
+     "f": 2.776
+    },
+    {
+     "p": "é",
+     "i": 2.788,
+     "f": 2.871
+    },
+    {
+     "p": "visto",
+     "i": 2.883,
+     "f": 3.217
+    },
+    {
+     "p": "por",
+     "i": 3.229,
+     "f": 3.383
+    },
+    {
+     "p": "quem",
+     "i": 3.395,
+     "f": 3.669
+    },
+    {
+     "p": "Só",
+     "i": 4.488,
+     "f": 4.714
+    },
+    {
+     "p": "por",
+     "i": 4.726,
+     "f": 4.893
+    },
+    {
+     "p": "você",
+     "i": 4.905,
+     "f": 5.286
+    },
+    {
+     "p": "ou",
+     "i": 5.583,
+     "f": 5.702
+    },
+    {
+     "p": "por",
+     "i": 5.714,
+     "f": 5.881
+    },
+    {
+     "p": "qualquer",
+     "i": 5.893,
+     "f": 6.286
+    },
+    {
+     "p": "pessoa",
+     "i": 6.298,
+     "f": 6.738
+    },
+    {
+     "p": "com",
+     "i": 6.75,
+     "f": 6.917
+    },
+    {
+     "p": "o",
+     "i": 6.929,
+     "f": 6.952
+    },
+    {
+     "p": "link",
+     "i": 6.964,
+     "f": 7.321
+    },
+    {
+     "p": "A",
+     "i": 8.143,
+     "f": 8.25
+    },
+    {
+     "p": "resposta",
+     "i": 8.262,
+     "f": 8.821
+    },
+    {
+     "p": "é",
+     "i": 8.833,
+     "f": 8.869
+    },
+    {
+     "p": "qualquer",
+     "i": 8.881,
+     "f": 9.298
+    },
+    {
+     "p": "pessoa",
+     "i": 9.31,
+     "f": 9.774
+    },
+    {
+     "p": "com",
+     "i": 9.786,
+     "f": 9.964
+    },
+    {
+     "p": "o",
+     "i": 9.976,
+     "f": 10
+    },
+    {
+     "p": "link",
+     "i": 10.012,
+     "f": 10.393
+    },
+    {
+     "p": "Na",
+     "i": 11.214,
+     "f": 11.393
+    },
+    {
+     "p": "próxima",
+     "i": 11.405,
+     "f": 11.809
+    },
+    {
+     "p": "aula",
+     "i": 11.821,
+     "f": 12.155
+    },
+    {
+     "p": "a",
+     "i": 12.345,
+     "f": 12.441
+    },
+    {
+     "p": "2.6",
+     "i": 12.452,
+     "f": 13.488
+    },
+    {
+     "p": "a",
+     "i": 13.679,
+     "f": 13.75
+    },
+    {
+     "p": "gente",
+     "i": 13.762,
+     "f": 14.06
+    },
+    {
+     "p": "continua",
+     "i": 14.071,
+     "f": 14.69
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.941Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Help Center — What are artifacts and how do I use them?",
+   "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+  },
+  {
+   "titulo": "Claude Help Center — Publish and share artifacts",
+   "url": "https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts"
+  },
+  {
+   "titulo": "Claude Help Center — Upload files to Claude",
+   "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }
