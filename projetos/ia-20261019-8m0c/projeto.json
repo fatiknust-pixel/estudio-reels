@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-8m0c",
- "titulo": "Aula 2.1: Anatomia de um prompt que funciona — ensine as 5 partes de u",
+ "titulo": "Anatomia de um prompt que funciona",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.940Z",
- "atualizadoEm": "2026-10-19T22:26:17.940Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-19T22:35:49Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 2.1: Anatomia de um prompt que funciona — ensine as 5 partes de um bom prompt (quem, o quê, por quê, como e limites), mostre um prompt fraco virando um prompt forte para um post de Instagram, e a regra de ouro: trate a IA como um colega brilhante que acabou de chegar",
@@ -62,11 +63,1775 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Por que a IA te devolve respostas genéricas? Quase sempre, o erro não é dela. É do seu prompt, a instrução que você escreveu.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "RESPOSTA GENÉRICA?",
+     "em": "genéricas",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO É A IA",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "É O SEU PROMPT",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "prompt",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 2.1. Você vai aprender as cinco partes de um bom prompt, ver um prompt fraco virar forte e conhecer a regra de ouro.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ANATOMIA DE UM PROMPT",
+     "sub": "Aula 2.1",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "5 partes"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "mais",
+       "Fraco → forte"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "Regra de ouro"
+      ]
+     ],
+     "em": "cinco",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 APRENDIZADOS",
+     "icone": "check",
+     "em": "regra",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Prompt é a instrução que você escreve para a IA. Um bom prompt tem cinco partes: quem, o quê, por quê, como e limites.",
+   "fontes": [
+    "Anthropic — guia de prompts"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AS 5 PARTES",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Prompt",
+     "significado": "A instrução que você escreve para a IA",
+     "em": "Prompt",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "QUEM · O QUÊ · POR QUÊ",
+     "icone": "pin",
+     "em": "quem",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "COMO · LIMITES",
+     "icone": "alerta",
+     "cor": "amarelo",
+     "em": "como",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Agora a regra de ouro: trate a IA como um colega brilhante que acabou de chegar. Ele é muito capaz, mas não conhece sua empresa, seu público nem seu estilo. Você precisa explicar.",
+   "fundo": "anthropic",
+   "fontes": [
+    "Anthropic — guia de prompts"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "REGRA DE OURO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "cruz",
+       "Colega novo"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balao",
+       "IA"
+      ]
+     ],
+     "em": "colega",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Muito capaz",
+     "nota": "Mas sem contexto seu",
+     "em": "capaz",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "EXPLIQUE!",
+     "cor": "amarelo",
+     "em": "explicar",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Veja. Prompt fraco: escreva um post de Instagram. Prompt forte: você é social media de uma cafeteria. Escreva um post sobre o novo café gelado, para jovens de 20 a 30 anos, porque queremos lotar a loja no sábado. Tom leve, até 80 palavras, sem hashtags.",
+   "fundo": "instagram",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FRACO × FORTE",
+     "sub": "Post de Instagram",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Escreva um post",
+     "nota": "Vago demais",
+     "em": "fraco",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Você é social media de uma cafeteria. Post sobre o novo café gelado, para jovens de 20 a 30 anos.",
+     "em": "forte",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "POR QUÊ: LOTAR NO SÁBADO",
+     "icone": "alvo",
+     "cor": "verde",
+     "em": "porque",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "LIMITES: 80 PALAVRAS",
+     "icone": "check",
+     "cor": "verde",
+     "em": "Tom",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro mais comum é pedir pouco e esperar muito. Se um colega novo não entenderia seu pedido, a IA também não entende. Releia o prompt como se fosse ele.",
+   "fontes": [
+    "Anthropic — guia de prompts"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Pedir pouco, esperar muito",
+     "nota": "Resposta genérica",
+     "em": "pedir",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TESTE DO COLEGA NOVO",
+     "icone": "alerta",
+     "cor": "amarelo",
+     "em": "Releia",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: pegue um prompt seu e acrescente as cinco partes. Depois compare as duas respostas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "O QUE MUDOU?",
+     "em": "compare",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Conta aqui o que melhorou!",
+     "em": "respostas",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo. Um: todo prompt tem quem, o quê, por quê, como e limites. Dois: contexto transforma resposta genérica em resposta útil. Três: trate a IA como um colega novo e brilhante.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "1 · AS 5 PARTES",
+     "icone": "check",
+     "em": "Um",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2 · CONTEXTO",
+     "icone": "check",
+     "em": "Dois",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 · COLEGA NOVO",
+     "icone": "check",
+     "em": "Três",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: qual parte impede a IA de passar de 80 palavras? Um, o por quê. Dois, os limites. Pense um segundo. A resposta é dois: limites definem tamanho, tom e o que evitar. Siga para a próxima aula, sobre técnicas clássicas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Qual parte limita o tamanho?",
+     "opcoes": [
+      "1 · O POR QUÊ",
+      "2 · OS LIMITES"
+     ],
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 2",
+     "cor": "verde",
+     "em": "resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 2.2",
+     "em": "Siga",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "bb8e239755",
+   "texto": "Por que a IA te devolve respostas genéricas? Quase sempre, o erro não é dela. É do seu prompt, a instrução que você escreveu.",
+   "audio": "audio/gancho-bb8e239755.mp3",
+   "duracao": 10.752,
+   "palavras": [
+    {
+     "p": "Por",
+     "i": 0.098,
+     "f": 0.276
+    },
+    {
+     "p": "que",
+     "i": 0.288,
+     "f": 0.455
+    },
+    {
+     "p": "a",
+     "i": 0.467,
+     "f": 0.526
+    },
+    {
+     "p": "IA",
+     "i": 0.538,
+     "f": 1.788
+    },
+    {
+     "p": "te",
+     "i": 1.8,
+     "f": 1.895
+    },
+    {
+     "p": "devolve",
+     "i": 1.907,
+     "f": 2.288
+    },
+    {
+     "p": "respostas",
+     "i": 2.3,
+     "f": 2.895
+    },
+    {
+     "p": "genéricas",
+     "i": 2.907,
+     "f": 3.562
+    },
+    {
+     "p": "Quase",
+     "i": 4.381,
+     "f": 4.75
+    },
+    {
+     "p": "sempre",
+     "i": 4.762,
+     "f": 5.226
+    },
+    {
+     "p": "o",
+     "i": 5.452,
+     "f": 5.595
+    },
+    {
+     "p": "erro",
+     "i": 5.607,
+     "f": 5.821
+    },
+    {
+     "p": "não",
+     "i": 5.833,
+     "f": 6.012
+    },
+    {
+     "p": "é",
+     "i": 6.024,
+     "f": 6.095
+    },
+    {
+     "p": "dela",
+     "i": 6.107,
+     "f": 6.452
+    },
+    {
+     "p": "É",
+     "i": 7.274,
+     "f": 7.405
+    },
+    {
+     "p": "do",
+     "i": 7.417,
+     "f": 7.524
+    },
+    {
+     "p": "seu",
+     "i": 7.536,
+     "f": 7.738
+    },
+    {
+     "p": "prompt",
+     "i": 7.75,
+     "f": 8.202
+    },
+    {
+     "p": "a",
+     "i": 8.417,
+     "f": 8.476
+    },
+    {
+     "p": "instrução",
+     "i": 8.488,
+     "f": 9.012
+    },
+    {
+     "p": "que",
+     "i": 9.024,
+     "f": 9.107
+    },
+    {
+     "p": "você",
+     "i": 9.119,
+     "f": 9.381
+    },
+    {
+     "p": "escreveu",
+     "i": 9.393,
+     "f": 9.917
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "3b78c7ba88",
+   "texto": "Aula 2.1. Você vai aprender as cinco partes de um bom prompt, ver um prompt fraco virar forte e conhecer a regra de ouro.",
+   "audio": "audio/promessa-3b78c7ba88.mp3",
+   "duracao": 8.784,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "2.1",
+     "i": 0.431,
+     "f": 1.264
+    },
+    {
+     "p": "Você",
+     "i": 2.083,
+     "f": 2.429
+    },
+    {
+     "p": "vai",
+     "i": 2.44,
+     "f": 2.548
+    },
+    {
+     "p": "aprender",
+     "i": 2.56,
+     "f": 2.976
+    },
+    {
+     "p": "as",
+     "i": 2.988,
+     "f": 3.131
+    },
+    {
+     "p": "cinco",
+     "i": 3.143,
+     "f": 3.488
+    },
+    {
+     "p": "partes",
+     "i": 3.5,
+     "f": 3.893
+    },
+    {
+     "p": "de",
+     "i": 3.905,
+     "f": 3.976
+    },
+    {
+     "p": "um",
+     "i": 3.988,
+     "f": 4.107
+    },
+    {
+     "p": "bom",
+     "i": 4.119,
+     "f": 4.345
+    },
+    {
+     "p": "prompt",
+     "i": 4.357,
+     "f": 4.774
+    },
+    {
+     "p": "ver",
+     "i": 5.06,
+     "f": 5.19
+    },
+    {
+     "p": "um",
+     "i": 5.202,
+     "f": 5.298
+    },
+    {
+     "p": "prompt",
+     "i": 5.31,
+     "f": 5.69
+    },
+    {
+     "p": "fraco",
+     "i": 5.702,
+     "f": 6.012
+    },
+    {
+     "p": "virar",
+     "i": 6.024,
+     "f": 6.286
+    },
+    {
+     "p": "forte",
+     "i": 6.298,
+     "f": 6.691
+    },
+    {
+     "p": "e",
+     "i": 6.702,
+     "f": 6.714
+    },
+    {
+     "p": "conhecer",
+     "i": 6.726,
+     "f": 7.119
+    },
+    {
+     "p": "a",
+     "i": 7.131,
+     "f": 7.19
+    },
+    {
+     "p": "regra",
+     "i": 7.202,
+     "f": 7.524
+    },
+    {
+     "p": "de",
+     "i": 7.536,
+     "f": 7.679
+    },
+    {
+     "p": "ouro",
+     "i": 7.69,
+     "f": 7.94
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "8908ca26d2",
+   "texto": "Prompt é a instrução que você escreve para a IA. Um bom prompt tem cinco partes: quem, o quê, por quê, como e limites.",
+   "audio": "audio/conceito-8908ca26d2.mp3",
+   "duracao": 9.864,
+   "palavras": [
+    {
+     "p": "Prompt",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "é",
+     "i": 0.502,
+     "f": 0.526
+    },
+    {
+     "p": "a",
+     "i": 0.538,
+     "f": 0.562
+    },
+    {
+     "p": "instrução",
+     "i": 0.574,
+     "f": 1.074
+    },
+    {
+     "p": "que",
+     "i": 1.086,
+     "f": 1.181
+    },
+    {
+     "p": "você",
+     "i": 1.193,
+     "f": 1.407
+    },
+    {
+     "p": "escreve",
+     "i": 1.419,
+     "f": 1.883
+    },
+    {
+     "p": "para",
+     "i": 1.895,
+     "f": 2.05
+    },
+    {
+     "p": "a",
+     "i": 2.062,
+     "f": 2.074
+    },
+    {
+     "p": "IA",
+     "i": 2.086,
+     "f": 3.348
+    },
+    {
+     "p": "Um",
+     "i": 4.167,
+     "f": 4.333
+    },
+    {
+     "p": "bom",
+     "i": 4.345,
+     "f": 4.595
+    },
+    {
+     "p": "prompt",
+     "i": 4.607,
+     "f": 5.024
+    },
+    {
+     "p": "tem",
+     "i": 5.036,
+     "f": 5.19
+    },
+    {
+     "p": "cinco",
+     "i": 5.202,
+     "f": 5.548
+    },
+    {
+     "p": "partes",
+     "i": 5.56,
+     "f": 6.06
+    },
+    {
+     "p": "quem",
+     "i": 6.298,
+     "f": 6.56
+    },
+    {
+     "p": "o",
+     "i": 6.869,
+     "f": 6.952
+    },
+    {
+     "p": "quê",
+     "i": 6.964,
+     "f": 7.226
+    },
+    {
+     "p": "por",
+     "i": 7.464,
+     "f": 7.631
+    },
+    {
+     "p": "quê",
+     "i": 7.643,
+     "f": 7.905
+    },
+    {
+     "p": "como",
+     "i": 8.155,
+     "f": 8.429
+    },
+    {
+     "p": "e",
+     "i": 8.44,
+     "f": 8.452
+    },
+    {
+     "p": "limites",
+     "i": 8.464,
+     "f": 9.036
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "e90e3a8d74",
+   "texto": "Agora a regra de ouro: trate a IA como um colega brilhante que acabou de chegar. Ele é muito capaz, mas não conhece sua empresa, seu público nem seu estilo. Você precisa explicar.",
+   "audio": "audio/analogia-e90e3a8d74.mp3",
+   "duracao": 13.32,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "a",
+     "i": 0.49,
+     "f": 0.514
+    },
+    {
+     "p": "regra",
+     "i": 0.526,
+     "f": 0.86
+    },
+    {
+     "p": "de",
+     "i": 0.871,
+     "f": 1.002
+    },
+    {
+     "p": "ouro",
+     "i": 1.014,
+     "f": 1.264
+    },
+    {
+     "p": "trate",
+     "i": 1.49,
+     "f": 1.788
+    },
+    {
+     "p": "a",
+     "i": 1.8,
+     "f": 1.824
+    },
+    {
+     "p": "IA",
+     "i": 1.836,
+     "f": 2.955
+    },
+    {
+     "p": "como",
+     "i": 2.967,
+     "f": 3.157
+    },
+    {
+     "p": "um",
+     "i": 3.169,
+     "f": 3.229
+    },
+    {
+     "p": "colega",
+     "i": 3.24,
+     "f": 3.621
+    },
+    {
+     "p": "brilhante",
+     "i": 3.633,
+     "f": 4.121
+    },
+    {
+     "p": "que",
+     "i": 4.133,
+     "f": 4.193
+    },
+    {
+     "p": "acabou",
+     "i": 4.205,
+     "f": 4.609
+    },
+    {
+     "p": "de",
+     "i": 4.621,
+     "f": 4.693
+    },
+    {
+     "p": "chegar",
+     "i": 4.705,
+     "f": 5.098
+    },
+    {
+     "p": "Ele",
+     "i": 5.917,
+     "f": 6.083
+    },
+    {
+     "p": "é",
+     "i": 6.095,
+     "f": 6.143
+    },
+    {
+     "p": "muito",
+     "i": 6.155,
+     "f": 6.512
+    },
+    {
+     "p": "capaz",
+     "i": 6.524,
+     "f": 7.048
+    },
+    {
+     "p": "mas",
+     "i": 7.31,
+     "f": 7.5
+    },
+    {
+     "p": "não",
+     "i": 7.512,
+     "f": 7.667
+    },
+    {
+     "p": "conhece",
+     "i": 7.679,
+     "f": 8.119
+    },
+    {
+     "p": "sua",
+     "i": 8.131,
+     "f": 8.25
+    },
+    {
+     "p": "empresa",
+     "i": 8.262,
+     "f": 8.702
+    },
+    {
+     "p": "seu",
+     "i": 8.952,
+     "f": 9.131
+    },
+    {
+     "p": "público",
+     "i": 9.143,
+     "f": 9.583
+    },
+    {
+     "p": "nem",
+     "i": 9.595,
+     "f": 9.821
+    },
+    {
+     "p": "seu",
+     "i": 9.833,
+     "f": 9.976
+    },
+    {
+     "p": "estilo",
+     "i": 9.988,
+     "f": 10.417
+    },
+    {
+     "p": "Você",
+     "i": 11.238,
+     "f": 11.548
+    },
+    {
+     "p": "precisa",
+     "i": 11.56,
+     "f": 12
+    },
+    {
+     "p": "explicar",
+     "i": 12.012,
+     "f": 12.488
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "34d70a30fa",
+   "texto": "Veja. Prompt fraco: escreva um post de Instagram. Prompt forte: você é social media de uma cafeteria. Escreva um post sobre o novo café gelado, para jovens de 20 a 30 anos, porque queremos lotar a loja no sábado. Tom leve, até 80 palavras, sem hashtags.",
+   "audio": "audio/exemplo-34d70a30fa.mp3",
+   "duracao": 20.112,
+   "palavras": [
+    {
+     "p": "Veja",
+     "i": 0.098,
+     "f": 0.598
+    },
+    {
+     "p": "Prompt",
+     "i": 1.417,
+     "f": 1.821
+    },
+    {
+     "p": "fraco",
+     "i": 1.833,
+     "f": 2.25
+    },
+    {
+     "p": "escreva",
+     "i": 2.5,
+     "f": 2.881
+    },
+    {
+     "p": "um",
+     "i": 2.893,
+     "f": 3
+    },
+    {
+     "p": "post",
+     "i": 3.012,
+     "f": 3.405
+    },
+    {
+     "p": "de",
+     "i": 3.417,
+     "f": 3.5
+    },
+    {
+     "p": "Instagram",
+     "i": 3.512,
+     "f": 3.976
+    },
+    {
+     "p": "Prompt",
+     "i": 4.798,
+     "f": 5.191
+    },
+    {
+     "p": "forte",
+     "i": 5.202,
+     "f": 5.595
+    },
+    {
+     "p": "você",
+     "i": 5.893,
+     "f": 6.155
+    },
+    {
+     "p": "é",
+     "i": 6.167,
+     "f": 6.226
+    },
+    {
+     "p": "social",
+     "i": 6.238,
+     "f": 6.679
+    },
+    {
+     "p": "media",
+     "i": 6.69,
+     "f": 7.036
+    },
+    {
+     "p": "de",
+     "i": 7.048,
+     "f": 7.119
+    },
+    {
+     "p": "uma",
+     "i": 7.131,
+     "f": 7.262
+    },
+    {
+     "p": "cafeteria",
+     "i": 7.274,
+     "f": 7.929
+    },
+    {
+     "p": "Escreva",
+     "i": 8.75,
+     "f": 9.179
+    },
+    {
+     "p": "um",
+     "i": 9.19,
+     "f": 9.286
+    },
+    {
+     "p": "post",
+     "i": 9.298,
+     "f": 9.643
+    },
+    {
+     "p": "sobre",
+     "i": 9.655,
+     "f": 9.881
+    },
+    {
+     "p": "o",
+     "i": 9.893,
+     "f": 9.905
+    },
+    {
+     "p": "novo",
+     "i": 9.917,
+     "f": 10.226
+    },
+    {
+     "p": "café",
+     "i": 10.238,
+     "f": 10.536
+    },
+    {
+     "p": "gelado",
+     "i": 10.548,
+     "f": 10.988
+    },
+    {
+     "p": "para",
+     "i": 11.226,
+     "f": 11.44
+    },
+    {
+     "p": "jovens",
+     "i": 11.452,
+     "f": 11.857
+    },
+    {
+     "p": "de",
+     "i": 11.869,
+     "f": 11.952
+    },
+    {
+     "p": "20 a 30 anos",
+     "i": 11.964,
+     "f": 12.929
+    },
+    {
+     "p": "porque",
+     "i": 13.155,
+     "f": 13.488
+    },
+    {
+     "p": "queremos",
+     "i": 13.5,
+     "f": 13.893
+    },
+    {
+     "p": "lotar",
+     "i": 13.905,
+     "f": 14.226
+    },
+    {
+     "p": "a",
+     "i": 14.238,
+     "f": 14.286
+    },
+    {
+     "p": "loja",
+     "i": 14.298,
+     "f": 14.655
+    },
+    {
+     "p": "no",
+     "i": 14.667,
+     "f": 14.774
+    },
+    {
+     "p": "sábado",
+     "i": 14.786,
+     "f": 15.226
+    },
+    {
+     "p": "Tom",
+     "i": 16.048,
+     "f": 16.25
+    },
+    {
+     "p": "leve",
+     "i": 16.262,
+     "f": 16.607
+    },
+    {
+     "p": "até",
+     "i": 16.845,
+     "f": 17.083
+    },
+    {
+     "p": "80 palavras",
+     "i": 17.095,
+     "f": 18.095
+    },
+    {
+     "p": "sem",
+     "i": 18.274,
+     "f": 18.476
+    },
+    {
+     "p": "hashtags",
+     "i": 18.488,
+     "f": 19.274
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "661e2fd781",
+   "texto": "O erro mais comum é pedir pouco e esperar muito. Se um colega novo não entenderia seu pedido, a IA também não entende. Releia o prompt como se fosse ele.",
+   "audio": "audio/erro-comum-661e2fd781.mp3",
+   "duracao": 11.856,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.252
+    },
+    {
+     "p": "erro",
+     "i": 0.264,
+     "f": 0.49
+    },
+    {
+     "p": "mais",
+     "i": 0.502,
+     "f": 0.764
+    },
+    {
+     "p": "comum",
+     "i": 0.776,
+     "f": 1.145
+    },
+    {
+     "p": "é",
+     "i": 1.157,
+     "f": 1.205
+    },
+    {
+     "p": "pedir",
+     "i": 1.217,
+     "f": 1.526
+    },
+    {
+     "p": "pouco",
+     "i": 1.538,
+     "f": 1.907
+    },
+    {
+     "p": "e",
+     "i": 1.919,
+     "f": 1.943
+    },
+    {
+     "p": "esperar",
+     "i": 1.955,
+     "f": 2.36
+    },
+    {
+     "p": "muito",
+     "i": 2.371,
+     "f": 2.812
+    },
+    {
+     "p": "Se",
+     "i": 3.631,
+     "f": 3.821
+    },
+    {
+     "p": "um",
+     "i": 3.833,
+     "f": 3.917
+    },
+    {
+     "p": "colega",
+     "i": 3.929,
+     "f": 4.321
+    },
+    {
+     "p": "novo",
+     "i": 4.333,
+     "f": 4.69
+    },
+    {
+     "p": "não",
+     "i": 4.702,
+     "f": 4.833
+    },
+    {
+     "p": "entenderia",
+     "i": 4.845,
+     "f": 5.298
+    },
+    {
+     "p": "seu",
+     "i": 5.31,
+     "f": 5.464
+    },
+    {
+     "p": "pedido",
+     "i": 5.476,
+     "f": 5.881
+    },
+    {
+     "p": "a",
+     "i": 6.012,
+     "f": 6.071
+    },
+    {
+     "p": "IA",
+     "i": 6.083,
+     "f": 7.262
+    },
+    {
+     "p": "também",
+     "i": 7.274,
+     "f": 7.619
+    },
+    {
+     "p": "não",
+     "i": 7.631,
+     "f": 7.821
+    },
+    {
+     "p": "entende",
+     "i": 7.833,
+     "f": 8.286
+    },
+    {
+     "p": "Releia",
+     "i": 9.107,
+     "f": 9.571
+    },
+    {
+     "p": "o",
+     "i": 9.583,
+     "f": 9.631
+    },
+    {
+     "p": "prompt",
+     "i": 9.643,
+     "f": 10.048
+    },
+    {
+     "p": "como",
+     "i": 10.06,
+     "f": 10.274
+    },
+    {
+     "p": "se",
+     "i": 10.286,
+     "f": 10.405
+    },
+    {
+     "p": "fosse",
+     "i": 10.417,
+     "f": 10.738
+    },
+    {
+     "p": "ele",
+     "i": 10.75,
+     "f": 11.024
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "31a84cafe0",
+   "texto": "Pause o vídeo e tente: pegue um prompt seu e acrescente as cinco partes. Depois compare as duas respostas.",
+   "audio": "audio/pratica-31a84cafe0.mp3",
+   "duracao": 7.752,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "o",
+     "i": 0.431,
+     "f": 0.49
+    },
+    {
+     "p": "vídeo",
+     "i": 0.502,
+     "f": 0.8
+    },
+    {
+     "p": "e",
+     "i": 0.812,
+     "f": 0.883
+    },
+    {
+     "p": "tente",
+     "i": 0.895,
+     "f": 1.252
+    },
+    {
+     "p": "pegue",
+     "i": 1.526,
+     "f": 1.752
+    },
+    {
+     "p": "um",
+     "i": 1.764,
+     "f": 1.86
+    },
+    {
+     "p": "prompt",
+     "i": 1.871,
+     "f": 2.252
+    },
+    {
+     "p": "seu",
+     "i": 2.264,
+     "f": 2.479
+    },
+    {
+     "p": "e",
+     "i": 2.49,
+     "f": 2.526
+    },
+    {
+     "p": "acrescente",
+     "i": 2.538,
+     "f": 3.05
+    },
+    {
+     "p": "as",
+     "i": 3.062,
+     "f": 3.145
+    },
+    {
+     "p": "cinco",
+     "i": 3.157,
+     "f": 3.49
+    },
+    {
+     "p": "partes",
+     "i": 3.502,
+     "f": 4.014
+    },
+    {
+     "p": "Depois",
+     "i": 4.833,
+     "f": 5.298
+    },
+    {
+     "p": "compare",
+     "i": 5.31,
+     "f": 5.726
+    },
+    {
+     "p": "as",
+     "i": 5.738,
+     "f": 5.857
+    },
+    {
+     "p": "duas",
+     "i": 5.869,
+     "f": 6.179
+    },
+    {
+     "p": "respostas",
+     "i": 6.19,
+     "f": 6.929
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "3e6a93512b",
+   "texto": "Resumo. Um: todo prompt tem quem, o quê, por quê, como e limites. Dois: contexto transforma resposta genérica em resposta útil. Três: trate a IA como um colega novo e brilhante.",
+   "audio": "audio/resumo-3e6a93512b.mp3",
+   "duracao": 15.72,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.693
+    },
+    {
+     "p": "Um",
+     "i": 1.512,
+     "f": 1.75
+    },
+    {
+     "p": "todo",
+     "i": 1.964,
+     "f": 2.25
+    },
+    {
+     "p": "prompt",
+     "i": 2.262,
+     "f": 2.643
+    },
+    {
+     "p": "tem",
+     "i": 2.655,
+     "f": 2.821
+    },
+    {
+     "p": "quem",
+     "i": 2.833,
+     "f": 3.095
+    },
+    {
+     "p": "o",
+     "i": 3.405,
+     "f": 3.488
+    },
+    {
+     "p": "quê",
+     "i": 3.5,
+     "f": 3.75
+    },
+    {
+     "p": "por",
+     "i": 3.976,
+     "f": 4.143
+    },
+    {
+     "p": "quê",
+     "i": 4.155,
+     "f": 4.405
+    },
+    {
+     "p": "como",
+     "i": 4.667,
+     "f": 4.964
+    },
+    {
+     "p": "e",
+     "i": 4.976,
+     "f": 4.988
+    },
+    {
+     "p": "limites",
+     "i": 5,
+     "f": 5.583
+    },
+    {
+     "p": "Dois",
+     "i": 6.405,
+     "f": 6.857
+    },
+    {
+     "p": "contexto",
+     "i": 7.155,
+     "f": 7.762
+    },
+    {
+     "p": "transforma",
+     "i": 7.774,
+     "f": 8.274
+    },
+    {
+     "p": "resposta",
+     "i": 8.286,
+     "f": 8.798
+    },
+    {
+     "p": "genérica",
+     "i": 8.81,
+     "f": 9.31
+    },
+    {
+     "p": "em",
+     "i": 9.321,
+     "f": 9.393
+    },
+    {
+     "p": "resposta",
+     "i": 9.405,
+     "f": 10.024
+    },
+    {
+     "p": "útil.",
+     "i": 10.036,
+     "f": 10.333
+    },
+    {
+     "p": "Três",
+     "i": 11.155,
+     "f": 11.548
+    },
+    {
+     "p": "trate",
+     "i": 11.762,
+     "f": 12.06
+    },
+    {
+     "p": "a",
+     "i": 12.071,
+     "f": 12.095
+    },
+    {
+     "p": "IA",
+     "i": 12.107,
+     "f": 13.226
+    },
+    {
+     "p": "como",
+     "i": 13.238,
+     "f": 13.429
+    },
+    {
+     "p": "um",
+     "i": 13.44,
+     "f": 13.5
+    },
+    {
+     "p": "colega",
+     "i": 13.512,
+     "f": 13.893
+    },
+    {
+     "p": "novo",
+     "i": 13.905,
+     "f": 14.262
+    },
+    {
+     "p": "e",
+     "i": 14.274,
+     "f": 14.309
+    },
+    {
+     "p": "brilhante",
+     "i": 14.321,
+     "f": 14.893
+    }
+   ]
+  },
+  "final": {
+   "hash": "c4d5695535",
+   "texto": "Quiz: qual parte impede a IA de passar de 80 palavras? Um, o por quê. Dois, os limites. Pense um segundo. A resposta é dois: limites definem tamanho, tom e o que evitar. Siga para a próxima aula, sobre técnicas clássicas.",
+   "audio": "audio/final-c4d5695535.mp3",
+   "duracao": 19.848,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "qual",
+     "i": 0.705,
+     "f": 0.931
+    },
+    {
+     "p": "parte",
+     "i": 0.943,
+     "f": 1.288
+    },
+    {
+     "p": "impede",
+     "i": 1.3,
+     "f": 1.681
+    },
+    {
+     "p": "a",
+     "i": 1.693,
+     "f": 1.717
+    },
+    {
+     "p": "IA",
+     "i": 1.729,
+     "f": 2.919
+    },
+    {
+     "p": "de",
+     "i": 2.931,
+     "f": 3.026
+    },
+    {
+     "p": "passar",
+     "i": 3.038,
+     "f": 3.455
+    },
+    {
+     "p": "de",
+     "i": 3.467,
+     "f": 3.562
+    },
+    {
+     "p": "80 palavras",
+     "i": 3.574,
+     "f": 4.609
+    },
+    {
+     "p": "Um",
+     "i": 5.429,
+     "f": 5.702
+    },
+    {
+     "p": "o",
+     "i": 5.952,
+     "f": 6.036
+    },
+    {
+     "p": "por",
+     "i": 6.048,
+     "f": 6.226
+    },
+    {
+     "p": "quê",
+     "i": 6.238,
+     "f": 6.488
+    },
+    {
+     "p": "Dois",
+     "i": 7.31,
+     "f": 7.726
+    },
+    {
+     "p": "os",
+     "i": 8.048,
+     "f": 8.179
+    },
+    {
+     "p": "limites",
+     "i": 8.19,
+     "f": 8.786
+    },
+    {
+     "p": "Pense",
+     "i": 9.607,
+     "f": 9.964
+    },
+    {
+     "p": "um",
+     "i": 9.976,
+     "f": 10.06
+    },
+    {
+     "p": "segundo",
+     "i": 10.071,
+     "f": 10.583
+    },
+    {
+     "p": "A",
+     "i": 11.405,
+     "f": 11.512
+    },
+    {
+     "p": "resposta",
+     "i": 11.524,
+     "f": 12.048
+    },
+    {
+     "p": "é",
+     "i": 12.06,
+     "f": 12.095
+    },
+    {
+     "p": "dois",
+     "i": 12.107,
+     "f": 12.464
+    },
+    {
+     "p": "limites",
+     "i": 12.655,
+     "f": 13.143
+    },
+    {
+     "p": "definem",
+     "i": 13.155,
+     "f": 13.571
+    },
+    {
+     "p": "tamanho",
+     "i": 13.583,
+     "f": 14.048
+    },
+    {
+     "p": "tom",
+     "i": 14.31,
+     "f": 14.583
+    },
+    {
+     "p": "e",
+     "i": 14.595,
+     "f": 14.667
+    },
+    {
+     "p": "o",
+     "i": 14.679,
+     "f": 14.726
+    },
+    {
+     "p": "que",
+     "i": 14.738,
+     "f": 14.857
+    },
+    {
+     "p": "evitar",
+     "i": 14.869,
+     "f": 15.274
+    },
+    {
+     "p": "Siga",
+     "i": 16.095,
+     "f": 16.488
+    },
+    {
+     "p": "para",
+     "i": 16.5,
+     "f": 16.655
+    },
+    {
+     "p": "a",
+     "i": 16.667,
+     "f": 16.69
+    },
+    {
+     "p": "próxima",
+     "i": 16.702,
+     "f": 17.083
+    },
+    {
+     "p": "aula",
+     "i": 17.095,
+     "f": 17.381
+    },
+    {
+     "p": "sobre",
+     "i": 17.607,
+     "f": 17.893
+    },
+    {
+     "p": "técnicas",
+     "i": 17.905,
+     "f": 18.333
+    },
+    {
+     "p": "clássicas",
+     "i": 18.345,
+     "f": 19.012
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "instagram": {
+   "arquivo": "",
+   "rotulo": "Instagram",
+   "wiki": "Instagram"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.940Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Be clear and direct (guia de prompt engineering)",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }

@@ -1,0 +1,102 @@
+{
+  "titulo": "Anatomia de um prompt que funciona",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Anthropic — Be clear and direct (guia de prompt engineering)", "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Por que a IA te devolve respostas genéricas? Quase sempre, o erro não é dela. É do seu prompt, a instrução que você escreveu.",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "RESPOSTA GENÉRICA?", "em": "genéricas", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "NÃO É A IA", "cor": "vermelho", "em": "erro", "posicao": "meio" },
+        { "tipo": "tag", "texto": "É O SEU PROMPT", "icone": "alvo", "cor": "amarelo", "em": "prompt", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Aula 2.1. Você vai aprender as cinco partes de um bom prompt, ver um prompt fraco virar forte e conhecer a regra de ouro.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "ANATOMIA DE UM PROMPT", "sub": "Aula 2.1", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["alvo", "5 partes"], ["seta", ""], ["mais", "Fraco → forte"], ["seta", ""], ["check", "Regra de ouro"]], "em": "cinco", "posicao": "alto" },
+        { "tipo": "tag", "texto": "3 APRENDIZADOS", "icone": "check", "em": "regra", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Prompt é a instrução que você escreve para a IA. Um bom prompt tem cinco partes: quem, o quê, por quê, como e limites.",
+      "fontes": ["Anthropic — guia de prompts"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "AS 5 PARTES", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Prompt", "significado": "A instrução que você escreve para a IA", "em": "Prompt", "posicao": "alto" },
+        { "tipo": "tag", "texto": "QUEM · O QUÊ · POR QUÊ", "icone": "pin", "em": "quem", "posicao": "meio" },
+        { "tipo": "tag", "texto": "COMO · LIMITES", "icone": "alerta", "cor": "amarelo", "em": "como", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Agora a regra de ouro: trate a IA como um colega brilhante que acabou de chegar. Ele é muito capaz, mas não conhece sua empresa, seu público nem seu estilo. Você precisa explicar.",
+      "fontes": ["Anthropic — guia de prompts"],
+      "fundo": "anthropic",
+      "elementos": [
+        { "tipo": "titulo", "texto": "REGRA DE OURO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["cruz", "Colega novo"], ["seta", ""], ["balao", "IA"]], "em": "colega", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Muito capaz", "nota": "Mas sem contexto seu", "em": "capaz", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "EXPLIQUE!", "cor": "amarelo", "em": "explicar", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Veja. Prompt fraco: escreva um post de Instagram. Prompt forte: você é social media de uma cafeteria. Escreva um post sobre o novo café gelado, para jovens de 20 a 30 anos, porque queremos lotar a loja no sábado. Tom leve, até 80 palavras, sem hashtags.",
+      "fundo": "instagram",
+      "elementos": [
+        { "tipo": "titulo", "texto": "FRACO × FORTE", "sub": "Post de Instagram", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Escreva um post", "nota": "Vago demais", "em": "fraco", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Você é social media de uma cafeteria. Post sobre o novo café gelado, para jovens de 20 a 30 anos.", "em": "forte", "posicao": "meio" },
+        { "tipo": "tag", "texto": "POR QUÊ: LOTAR NO SÁBADO", "icone": "alvo", "cor": "verde", "em": "porque", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "LIMITES: 80 PALAVRAS", "icone": "check", "cor": "verde", "em": "Tom", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro mais comum é pedir pouco e esperar muito. Se um colega novo não entenderia seu pedido, a IA também não entende. Releia o prompt como se fosse ele.",
+      "fontes": ["Anthropic — guia de prompts"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "erro", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "Pedir pouco, esperar muito", "nota": "Resposta genérica", "em": "pedir", "posicao": "meio" },
+        { "tipo": "tag", "texto": "TESTE DO COLEGA NOVO", "icone": "alerta", "cor": "amarelo", "em": "Releia", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: pegue um prompt seu e acrescente as cinco partes. Depois compare as duas respostas.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "O QUE MUDOU?", "em": "compare", "posicao": "meio" },
+        { "tipo": "comentario", "texto": "Conta aqui o que melhorou!", "em": "respostas", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumo. Um: todo prompt tem quem, o quê, por quê, como e limites. Dois: contexto transforma resposta genérica em resposta útil. Três: trate a IA como um colega novo e brilhante.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "1 · AS 5 PARTES", "icone": "check", "em": "Um", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2 · CONTEXTO", "icone": "check", "em": "Dois", "posicao": "meio" },
+        { "tipo": "tag", "texto": "3 · COLEGA NOVO", "icone": "check", "em": "Três", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: qual parte impede a IA de passar de 80 palavras? Um, o por quê. Dois, os limites. Pense um segundo. A resposta é dois: limites definem tamanho, tom e o que evitar. Siga para a próxima aula, sobre técnicas clássicas.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Qual parte limita o tamanho?", "opcoes": ["1 · O POR QUÊ", "2 · OS LIMITES"], "em": 0, "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 2", "cor": "verde", "em": "resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 2.2", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
