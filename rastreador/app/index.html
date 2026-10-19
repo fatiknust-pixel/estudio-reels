@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>Rastreador de máquinas</title>
+<style>
+  :root {
+    --fundo: #f4f5f7; --cartao: #ffffff; --texto: #15171c; --suave: #5d6470; --borda: #dfe2e7;
+    --destaque: #1f6feb; --frio: #3b82f6; --morno: #f59e0b; --quente: #ef4444; --ok: #16a34a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fundo: #0f1115; --cartao: #181b21; --texto: #eef0f3; --suave: #9aa3af; --borda: #2a2f38; --destaque: #4c8dff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 16px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         padding: max(16px, env(safe-area-inset-top)) 16px 32px; }
+  main { max-width: 480px; margin: 0 auto; display: grid; gap: 14px; }
+  h1 { font-size: 20px; margin: 0; }
+  .cartao { background: var(--cartao); border: 1px solid var(--borda); border-radius: 16px; padding: 16px; }
+  .linha { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .suave { color: var(--suave); font-size: 14px; }
+  .status { font-size: 13px; padding: 4px 10px; border-radius: 99px; background: var(--borda); color: var(--suave); white-space: nowrap; }
+  .status.on { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
+  button { font: inherit; font-weight: 600; border: 0; border-radius: 12px; padding: 14px 16px; cursor: pointer;
+           background: var(--destaque); color: #fff; width: 100%; }
+  button.secundario { background: var(--borda); color: var(--texto); }
+  button.perigo { background: var(--quente); }
+  button:disabled { opacity: .45; cursor: default; }
+  .botoes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .grande { font-size: 56px; font-weight: 800; letter-spacing: -1px; line-height: 1; }
+  .barra { height: 18px; border-radius: 99px; background: var(--borda); overflow: hidden; margin: 14px 0 6px; }
+  .barra > div { height: 100%; width: 0%; border-radius: 99px; transition: width .3s, background .3s; }
+  .tendencia { font-weight: 700; min-height: 1.4em; }
+  .seta-area { display: grid; place-items: center; padding: 10px 0; }
+  svg.bussola { width: 220px; height: 220px; }
+  #seta { transition: transform .15s linear; transform-origin: 110px 110px; }
+  .aviso { background: color-mix(in srgb, var(--morno) 18%, transparent); border: 1px solid color-mix(in srgb, var(--morno) 45%, transparent);
+           border-radius: 12px; padding: 12px; font-size: 14px; }
+  .oculto { display: none !important; }
+  label.alternar { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 6px 0; }
+  input[type=checkbox] { width: 22px; height: 22px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="linha">
+    <h1>Rastreador de máquinas</h1>
+    <span id="status" class="status">desconectado</span>
+  </div>
+
+  <div id="semBluetooth" class="aviso oculto">
+    Este navegador não tem Bluetooth web. No <b>Android</b>, abra no <b>Chrome</b>.
+    No <b>iPhone</b>, o Safari não suporta: instale o app gratuito <b>Bluefy</b> e abra este endereço nele.
+  </div>
+
+  <section class="cartao">
+    <div class="linha">
+      <div>
+        <div class="suave">Máquina</div>
+        <div id="nome" style="font-weight:700;font-size:18px">—</div>
+      </div>
+      <div style="width:150px"><button id="btnConectar">Procurar</button></div>
+    </div>
+  </section>
+
+  <section class="cartao" id="painel">
+    <div class="linha" style="align-items:flex-end">
+      <div>
+        <div class="suave">Distância estimada</div>
+        <div class="grande" id="distancia">—</div>
+      </div>
+      <div style="text-align:right">
+        <div class="suave">Sinal</div>
+        <div id="rssi" style="font-weight:700">— dBm</div>
+      </div>
+    </div>
+    <div class="barra"><div id="barra"></div></div>
+    <div class="linha suave"><span>frio</span><span class="tendencia" id="tendencia"></span><span>quente</span></div>
+  </section>
+
+  <section class="botoes">
+    <button id="btnTocar" class="perigo" disabled>🔔 Tocar</button>
+    <button id="btnParar" class="secundario" disabled>Parar som</button>
+  </section>
+
+  <section class="cartao">
+    <div class="linha">
+      <div>
+        <div style="font-weight:700">Seta (experimental)</div>
+        <div class="suave" id="setaInfo">Segure o celular deitado, na frente do peito, com o topo apontando para a frente. Toque em “Girar” e dê uma volta completa devagar (~20 s). Seu corpo bloqueia o sinal que vem de trás, e o lado mais forte é a direção da máquina.</div>
+      </div>
+    </div>
+    <div class="seta-area">
+      <svg class="bussola" viewBox="0 0 220 220" aria-label="Direção estimada da máquina">
+        <circle cx="110" cy="110" r="100" fill="none" stroke="var(--borda)" stroke-width="2"/>
+        <g id="setores"></g>
+        <g id="seta" class="oculto">
+          <path d="M110 22 L140 92 L118 84 L118 170 L102 170 L102 84 L80 92 Z" fill="var(--destaque)"/>
+        </g>
+        <text id="setaTexto" x="110" y="116" text-anchor="middle" font-size="14" fill="var(--suave)">gire para medir</text>
+      </svg>
+      <div id="confianca" class="suave"></div>
+    </div>
+    <div class="botoes">
+      <button id="btnGirar" disabled>↻ Girar</button>
+      <button id="btnPronto" class="secundario" disabled>Pronto</button>
+    </div>
+  </section>
+
+  <section class="cartao">
+    <div style="font-weight:700;margin-bottom:6px">Ajustes</div>
+    <label class="alternar"><span>Bipe de proximidade no celular<br><span class="suave">acelera quando você se aproxima</span></span><input type="checkbox" id="optBipe"></label>
+    <label class="alternar"><span>Vibrar junto (Android)</span><input type="checkbox" id="optVibrar"></label>
+    <button id="btnCalibrar" class="secundario" disabled style="margin-top:8px">📏 Estou a 1 metro da etiqueta (calibrar)</button>
+    <div class="suave" id="calibInfo" style="margin-top:6px"></div>
+  </section>
+</main>
+
+<script>
+"use strict";
+// Mesmos UUIDs do firmware (rastreador/firmware/etiqueta/etiqueta.ino).
+const UUID_SERVICO = "7a1e0001-5c3b-4e8a-9d2f-6b0c8a4f1e01";
+const UUID_COMANDO = "7a1e0002-5c3b-4e8a-9d2f-6b0c8a4f1e01";
+const UUID_ESTADO  = "7a1e0003-5c3b-4e8a-9d2f-6b0c8a4f1e01";
+
+const $ = (id) => document.getElementById(id);
+const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+const ler = (k, padrao) => { try { const v = localStorage.getItem(k); return v === null ? padrao : JSON.parse(v); } catch { return padrao; } };
+
+// ---------- Estado ----------
+let dispositivo = null, caracComando = null, querConectado = false;
+let rssiSuave = null;                 // média móvel exponencial
+const historico = [];                 // [tempo, rssiSuave] dos últimos segundos (tendência)
+let rssi1m = ler("rssi1m", -59);      // sinal medido a 1 m (calibração)
+const EXPOENTE = 2.2;                 // perda de sinal em ambiente interno (2 = espaço livre)
+let rumo = null;                      // direção do celular em graus (0 = norte)
+let varrendo = false, amostras = [], alvo = null;
+let travaTela = null;
+
+if (!navigator.bluetooth) $("semBluetooth").classList.remove("oculto");
+$("optBipe").checked = ler("bipe", false);
+$("optVibrar").checked = ler("vibrar", false);
+$("optBipe").onchange = (e) => { guardar("bipe", e.target.checked); if (e.target.checked) iniciarAudio(); };
+$("optVibrar").onchange = (e) => guardar("vibrar", e.target.checked);
+mostrarCalibracao();
+
+// ---------- Bluetooth ----------
+$("btnConectar").onclick = async () => {
+  if (querConectado) { desconectar(); return; }
+  if (!navigator.bluetooth) return;
+  try {
+    dispositivo = await navigator.bluetooth.requestDevice({ filters: [{ services: [UUID_SERVICO] }] });
+  } catch { return; }  // o usuário fechou a lista
+  dispositivo.addEventListener("gattserverdisconnected", aoDesconectar);
+  querConectado = true;
+  $("nome").textContent = dispositivo.name || "Etiqueta";
+  $("btnConectar").textContent = "Desconectar";
+  await conectar();
+};
+
+async function conectar() {
+  definirStatus("conectando…", false);
+  try {
+    const gatt = await dispositivo.gatt.connect();
+    const servico = await gatt.getPrimaryService(UUID_SERVICO);
+    caracComando = await servico.getCharacteristic(UUID_COMANDO);
+    const caracEstado = await servico.getCharacteristic(UUID_ESTADO);
+    caracEstado.addEventListener("characteristicvaluechanged", (e) => aoReceberEstado(e.target.value));
+    await caracEstado.startNotifications();
+    definirStatus("conectado", true);
+    habilitar(true);
+    manterTelaLigada();
+  } catch (err) {
+    console.warn(err);
+    if (querConectado) setTimeout(() => querConectado && !dispositivo.gatt.connected && conectar(), 2000);
+  }
+}
+
+function aoDesconectar() {
+  habilitar(false);
+  caracComando = null;
+  if (querConectado) { definirStatus("sem sinal — tentando…", false); setTimeout(() => querConectado && conectar(), 1500); }
+}
+
+function desconectar() {
+  querConectado = false;
+  if (dispositivo?.gatt.connected) dispositivo.gatt.disconnect();
+  definirStatus("desconectado", false);
+  $("btnConectar").textContent = "Procurar";
+  habilitar(false);
+}
+
+async function enviarComando(byte) {
+  if (!caracComando) return;
+  const dados = new Uint8Array([byte]);
+  try {
+    if (caracComando.writeValueWithResponse) await caracComando.writeValueWithResponse(dados);
+    else await caracComando.writeValue(dados);
+  } catch (err) { console.warn(err); }
+}
+$("btnTocar").onclick = () => enviarComando(0x01);
+$("btnParar").onclick = () => enviarComando(0x00);
+
+// ---------- Sinal → distância, quente/frio, tendência ----------
+function aoReceberEstado(dv) {
+  const rssi = dv.getInt8(0);
+  const tocando = dv.byteLength > 1 && (dv.getUint8(1) & 1) === 1;
+  $("btnTocar").textContent = tocando ? "🔔 Tocando…" : "🔔 Tocar";
+  if (rssi === 0 || rssi < -110) return;  // leitura inválida
+
+  rssiSuave = rssiSuave === null ? rssi : rssiSuave * 0.7 + rssi * 0.3;
+  const agora = performance.now();
+  historico.push([agora, rssiSuave]);
+  while (historico.length && agora - historico[0][0] > 2500) historico.shift();
+
+  if (varrendo && rumo !== null) { amostras.push([rumo, rssi]); desenharSetores(); }
+
+  $("rssi").textContent = `${Math.round(rssiSuave)} dBm`;
+  const d = Math.pow(10, (rssi1m - rssiSuave) / (10 * EXPOENTE));
+  $("distancia").textContent = d < 1 ? "< 1 m" : d < 10 ? `${d.toFixed(1).replace(".", ",")} m` : `${Math.round(d)} m`;
+
+  const nivel = Math.min(1, Math.max(0, (rssiSuave + 95) / 50));  // -95 dBm = frio, -45 dBm = quente
+  const barra = $("barra");
+  barra.style.width = `${Math.max(4, nivel * 100)}%`;
+  barra.style.background = nivel < 0.4 ? "var(--frio)" : nivel < 0.7 ? "var(--morno)" : "var(--quente)";
+
+  if (historico.length > 4 && agora - historico[0][0] > 1500) {
+    const delta = rssiSuave - historico[0][1];
+    $("tendencia").textContent = delta > 2 ? "🔥 esquentando" : delta < -2 ? "❄️ esfriando" : "";
+  }
+  intervaloBipe = 1300 - nivel * 1180;  // 1,3 s longe → 0,12 s perto
+}
+
+// ---------- Bipe de proximidade ----------
+let audio = null, intervaloBipe = 1300, ultimoBipe = 0;
+function iniciarAudio() {
+  if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
+  if (audio.state === "suspended") audio.resume();
+}
+function bipe() {
+  const osc = audio.createOscillator(), ganho = audio.createGain();
+  osc.frequency.value = 1400;
+  ganho.gain.setValueAtTime(0.25, audio.currentTime);
+  ganho.gain.exponentialRampToValueAtTime(0.001, audio.currentTime + 0.06);
+  osc.connect(ganho).connect(audio.destination);
+  osc.start(); osc.stop(audio.currentTime + 0.07);
+}
+(function laco(t) {
+  if (rssiSuave !== null && dispositivo?.gatt.connected && t - ultimoBipe > intervaloBipe) {
+    ultimoBipe = t;
+    if ($("optBipe").checked && audio) bipe();
+    if ($("optVibrar").checked && navigator.vibrate) navigator.vibrate(30);
+  }
+  requestAnimationFrame(laco);
+})(0);
+
+// ---------- Calibração ----------
+$("btnCalibrar").onclick = () => {
+  if (rssiSuave === null) return;
+  rssi1m = Math.round(rssiSuave);
+  guardar("rssi1m", rssi1m);
+  mostrarCalibracao();
+};
+function mostrarCalibracao() {
+  $("calibInfo").textContent = `Referência a 1 m: ${rssi1m} dBm. A distância é só uma estimativa — paredes, metal e o corpo mudam o sinal.`;
+}
+
+// ---------- Bússola e seta experimental ----------
+function aoOrientar(e) {
+  if (typeof e.webkitCompassHeading === "number") rumo = e.webkitCompassHeading;          // iPhone
+  else if (e.absolute && typeof e.alpha === "number") rumo = (360 - e.alpha) % 360;       // Android
+  else return;
+  atualizarSeta();
+}
+async function ligarBussola() {
+  if (typeof DeviceOrientationEvent !== "undefined" && typeof DeviceOrientationEvent.requestPermission === "function") {
+    try { if (await DeviceOrientationEvent.requestPermission() !== "granted") return false; } catch { return false; }
+  }
+  if ("ondeviceorientationabsolute" in window) window.addEventListener("deviceorientationabsolute", aoOrientar);
+  else window.addEventListener("deviceorientation", aoOrientar);
+  return true;
+}
+
+const SETORES = 12, LARGURA = 360 / SETORES;
+$("btnGirar").onclick = async () => {
+  iniciarAudio();
+  if (rumo === null && !(await ligarBussola())) { $("setaTexto").textContent = "sem bússola"; return; }
+  await new Promise((r) => setTimeout(r, 300));
+  if (rumo === null) { $("setaTexto").textContent = "sem bússola"; return; }
+  varrendo = true; amostras = []; alvo = null;
+  $("seta").classList.add("oculto");
+  $("setaTexto").textContent = "girando…";
+  $("confianca").textContent = "";
+  $("btnPronto").disabled = false;
+  desenharSetores();
+};
+$("btnPronto").onclick = calcularDirecao;
+
+function mediasPorSetor() {
+  const soma = new Array(SETORES).fill(0), n = new Array(SETORES).fill(0);
+  for (const [h, r] of amostras) { const s = Math.floor(((h % 360) + 360) % 360 / LARGURA); soma[s] += r; n[s]++; }
+  return soma.map((v, i) => (n[i] ? v / n[i] : null));
+}
+
+function desenharSetores() {
+  const medias = mediasPorSetor();
+  const g = $("setores");
+  g.innerHTML = "";
+  const validos = medias.filter((m) => m !== null);
+  const min = Math.min(...validos), max = Math.max(...validos);
+  medias.forEach((m, i) => {
+    if (m === null) return;
+    // setores desenhados relativos ao norte; a seta é que gira com o celular
+    const a0 = (i * LARGURA - 90) * Math.PI / 180, a1 = ((i + 1) * LARGURA - 90) * Math.PI / 180;
+    const forca = max > min ? (m - min) / (max - min) : 0.5;
+    const r = 40 + forca * 58;
+    const p = `M110 110 L${110 + r * Math.cos(a0)} ${110 + r * Math.sin(a0)} A${r} ${r} 0 0 1 ${110 + r * Math.cos(a1)} ${110 + r * Math.sin(a1)} Z`;
+    const el = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    el.setAttribute("d", p);
+    el.setAttribute("fill", `color-mix(in srgb, var(--quente) ${Math.round(20 + forca * 60)}%, transparent)`);
+    g.appendChild(el);
+  });
+  if (varrendo) {
+    const cobertos = validos.length;
+    $("setaTexto").textContent = `${cobertos}/${SETORES} direções`;
+    if (cobertos === SETORES && amostras.length > SETORES * 3) calcularDirecao();
+  }
+}
+
+function calcularDirecao() {
+  varrendo = false;
+  $("btnPronto").disabled = true;
+  const medias = mediasPorSetor();
+  const cobertos = medias.filter((m) => m !== null).length;
+  if (cobertos < 8) { $("setaTexto").textContent = "volta incompleta"; $("confianca").textContent = "Gire a volta inteira, devagar."; return; }
+  // suaviza com os vizinhos (o sinal não muda de repente entre setores)
+  const suave = medias.map((m, i) => {
+    const viz = [medias[(i + SETORES - 1) % SETORES], m, medias[(i + 1) % SETORES]];
+    const pesos = [0.25, 0.5, 0.25];
+    let s = 0, p = 0;
+    viz.forEach((v, k) => { if (v !== null) { s += v * pesos[k]; p += pesos[k]; } });
+    return p ? s / p : null;
+  });
+  const validos = suave.filter((v) => v !== null);
+  const min = Math.min(...validos);
+  // média circular ponderada: cada setor puxa a seta para o seu lado conforme o sinal acima do mínimo
+  let x = 0, y = 0;
+  suave.forEach((v, i) => {
+    if (v === null) return;
+    const peso = Math.pow(v - min, 2);
+    const ang = (i + 0.5) * LARGURA * Math.PI / 180;
+    x += peso * Math.cos(ang); y += peso * Math.sin(ang);
+  });
+  alvo = ((Math.atan2(y, x) * 180 / Math.PI) + 360) % 360;
+  const ordenados = [...validos].sort((a, b) => a - b);
+  const contraste = Math.max(...validos) - ordenados[Math.floor(ordenados.length / 2)];
+  $("confianca").textContent = contraste > 6 ? "Confiança boa" : contraste > 3 ? "Confiança média — ande um pouco e gire de novo" : "Confiança baixa — sinal parecido em todas as direções (máquina muito perto ou longe demais)";
+  $("setaTexto").textContent = "";
+  $("seta").classList.remove("oculto");
+  atualizarSeta();
+}
+
+function atualizarSeta() {
+  if (alvo === null || rumo === null) return;
+  $("seta").style.transform = `rotate(${(alvo - rumo + 360) % 360}deg)`;
+}
+
+// ---------- Utilidades ----------
+function definirStatus(texto, ok) { const s = $("status"); s.textContent = texto; s.classList.toggle("on", ok); }
+function habilitar(on) { for (const id of ["btnTocar", "btnParar", "btnGirar", "btnCalibrar"]) $(id).disabled = !on; }
+async function manterTelaLigada() {
+  try { if ("wakeLock" in navigator && !travaTela) { travaTela = await navigator.wakeLock.request("screen"); travaTela.addEventListener("release", () => (travaTela = null)); } } catch {}
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && dispositivo?.gatt.connected) manterTelaLigada(); });
+</script>
+</body>
+</html>

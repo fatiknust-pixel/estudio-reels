@@ -1,0 +1,27 @@
+name: Rastreador — compilar firmware
+# Compila o firmware da etiqueta (ESP32-C3) e guarda o .bin como artefato da execução.
+on:
+  push:
+    paths: ["rastreador/firmware/**", ".github/workflows/rastreador-firmware.yml"]
+  workflow_dispatch:
+
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/setup-arduino-cli@v2
+      - name: Núcleo ESP32
+        run: |
+          arduino-cli config init
+          arduino-cli config add board_manager.additional_urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli core update-index
+          arduino-cli core install esp32:esp32
+      - name: Compilar
+        run: |
+          arduino-cli compile --fqbn esp32:esp32:esp32c3:CDCOnBoot=cdc --warnings default \
+            --export-binaries rastreador/firmware/etiqueta
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firmware-etiqueta
+          path: rastreador/firmware/etiqueta/build/**/*.bin
