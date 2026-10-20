@@ -1,0 +1,124 @@
+{
+  "titulo": "Aula 4.4: Como adicionar servidores MCP no Claude",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Code — Connect to tools via MCP", "url": "https://code.claude.com/docs/en/mcp" },
+    { "titulo": "Central de Ajuda Claude — Custom connectors (remote MCP)", "url": "https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp" },
+    { "titulo": "Figma — Remote MCP server", "url": "https://developers.figma.com/docs/figma-mcp-server/remote-server-installation" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Seu Claude pode ler o Notion, olhar um design no Figma e consultar um banco de dados. Mas como conectar isso em um minuto?",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "EM 1 MINUTO", "icone": "relogio", "em": "minuto", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "Notion"], ["seta", ""], ["balao", "Claude"]], "em": "Notion", "posicao": "meio" },
+        { "tipo": "pergunta", "texto": "COMO CONECTAR?", "em": "conectar", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nesta aula quatro ponto quatro, você aprende três coisas: adicionar um conector por URL no app, usar o comando claude mcp add no Claude Code, e desligar o que não usa.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ADICIONAR MCP", "sub": "AULA 4.4", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["celular", "App por URL"], ["documento", "claude mcp add"], ["x", "Desligar"]], "em": "adicionar", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "3 PASSOS", "cor": "azul", "em": "três", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Lembra do MCP, o USB-C da inteligência artificial? Adicionar um servidor é plugar um cabo novo. Para servidores remotos, basta o endereço, a URL, e entrar com a sua conta.",
+      "fontes": ["Claude Code Docs"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SERVIDOR REMOTO", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "URL", "significado": "O endereço do servidor na internet", "em": "URL", "posicao": "alto" },
+        { "tipo": "tag", "texto": "ENTRAR COM A CONTA", "icone": "check", "cor": "verde", "em": "conta", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense numa tomada com vários adaptadores. Notion, Figma e Slack são aparelhos prontos para plugar. Mas quanto mais aparelhos ligados, mais bagunça na bancada.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "icones", "itens": [["casa", "Tomada"], ["mais", "Adaptadores"], ["alerta", "Bagunça"]], "em": "tomada", "posicao": "alto" },
+        { "tipo": "tag", "texto": "PRONTOS PARA PLUGAR", "icone": "check", "em": "prontos", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "BAGUNÇA", "cor": "vermelho", "em": "bagunça", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo-app",
+      "texto": "No app, clique no mais, escolha adicionar conector personalizado, cole a URL do servidor e confirme. Depois, entre com a sua conta quando o Claude pedir.",
+      "fontes": ["Central de Ajuda Claude"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "NO APP", "sub": "Conector personalizado", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "ADICIONAR CONECTOR", "icone": "mais", "em": "personalizado", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "https://mcp.notion.com/mcp", "em": "cole", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "Entrar com a conta", "nota": "Se o servidor usar OAuth", "em": "entre", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "exemplo-cli",
+      "texto": "No Claude Code, digite claude mcp add, traço traço transport http, o nome notion e a URL do servidor. Depois rode barra mcp para entrar na conta.",
+      "fontes": ["Claude Code Docs"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "NO CLAUDE CODE", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "claude mcp add --transport http notion https://mcp.notion.com/mcp", "em": "digite", "posicao": "alto" },
+        { "tipo": "tag", "texto": "/mcp → ENTRAR", "icone": "pin", "em": "rode", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "prontos",
+      "texto": "Já existem servidores prontos para Notion, Figma e Slack. Para bancos de dados como Postgres, há opções da comunidade, então confira a origem antes de ligar.",
+      "fontes": ["Figma Developers", "Claude Code Docs"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SERVIDORES PRONTOS", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "Notion"], ["obra", "Figma"], ["balao", "Slack"]], "em": "Notion", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "Banco de dados: confira a origem", "nota": "Opções da comunidade variam", "em": "confira", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum: deixar tudo ligado. Cada servidor traz ferramentas que o Claude precisa considerar, e isso ocupa espaço no contexto. Rode barra mcp e desligue os que você não usa.",
+      "fontes": ["Claude Code Docs"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "erro", "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Tudo ligado o tempo todo", "nota": "Mais ferramentas, menos espaço", "em": "ligado", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Contexto", "significado": "A memória de trabalho da conversa", "em": "contexto", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "/mcp: desligue o que não usa", "nota": "O servidor continua listado", "em": "desligue", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause e tente: abra barra mcp, veja quantos servidores estão conectados e desligue um que você não usa hoje.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "QUANTOS ESTÃO LIGADOS?", "em": "quantos", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "DESLIGUE UM", "cor": "verde", "em": "desligue", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumo: no app, cole a URL. No Claude Code, use claude mcp add. E com barra mcp, desligue o que não usa.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["celular", "Colar a URL"], ["documento", "claude mcp add"], ["x", "/mcp desliga"]], "em": "app", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: para desligar um servidor sem apagar, você usa claude mcp remove ou barra mcp? Resposta: barra mcp. O remove apaga de vez. Na próxima aula, segurança contra prompt injection. Siga para não perder.",
+      "fontes": ["Claude Code Docs"],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Desligar sem apagar?", "opcoes": ["1 · claude mcp remove", "2 · /mcp"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 2", "cor": "verde", "em": "Resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 4.5", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-f2d8",
- "titulo": "Aula 4.4: Como adicionar servidores MCP no Claude — mostre como inclui",
+ "titulo": "Aula 4.4: Como adicionar servidores MCP no Claude",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.942Z",
- "atualizadoEm": "2026-10-19T22:53:32Z",
- "status": "erro",
+ "atualizadoEm": "2026-10-20T02:56:42Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 4.4: Como adicionar servidores MCP no Claude — mostre como incluir um conector personalizado por URL no app e pelo comando claude mcp add no Claude Code, exemplos de servidores prontos (Notion, Figma, Slack, bancos de dados) e por que desligar com /mcp os que você não usa para economizar contexto",
@@ -62,12 +63,2001 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Seu Claude pode ler o Notion, olhar um design no Figma e consultar um banco de dados. Mas como conectar isso em um minuto?",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "EM 1 MINUTO",
+     "icone": "relogio",
+     "em": "minuto",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Notion"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balao",
+       "Claude"
+      ]
+     ],
+     "em": "Notion",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "COMO CONECTAR?",
+     "em": "conectar",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula quatro ponto quatro, você aprende três coisas: adicionar um conector por URL no app, usar o comando claude mcp add no Claude Code, e desligar o que não usa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ADICIONAR MCP",
+     "sub": "AULA 4.4",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "App por URL"
+      ],
+      [
+       "documento",
+       "claude mcp add"
+      ],
+      [
+       "x",
+       "Desligar"
+      ]
+     ],
+     "em": "adicionar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "3 PASSOS",
+     "cor": "azul",
+     "em": "três",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Lembra do MCP, o USB-C da inteligência artificial? Adicionar um servidor é plugar um cabo novo. Para servidores remotos, basta o endereço, a URL, e entrar com a sua conta.",
+   "fontes": [
+    "Claude Code Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SERVIDOR REMOTO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "URL",
+     "significado": "O endereço do servidor na internet",
+     "em": "URL",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ENTRAR COM A CONTA",
+     "icone": "check",
+     "cor": "verde",
+     "em": "conta",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense numa tomada com vários adaptadores. Notion, Figma e Slack são aparelhos prontos para plugar. Mas quanto mais aparelhos ligados, mais bagunça na bancada.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "casa",
+       "Tomada"
+      ],
+      [
+       "mais",
+       "Adaptadores"
+      ],
+      [
+       "alerta",
+       "Bagunça"
+      ]
+     ],
+     "em": "tomada",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PRONTOS PARA PLUGAR",
+     "icone": "check",
+     "em": "prontos",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "BAGUNÇA",
+     "cor": "vermelho",
+     "em": "bagunça",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo-app",
+   "texto": "No app, clique no mais, escolha adicionar conector personalizado, cole a URL do servidor e confirme. Depois, entre com a sua conta quando o Claude pedir.",
+   "fontes": [
+    "Central de Ajuda Claude"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NO APP",
+     "sub": "Conector personalizado",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ADICIONAR CONECTOR",
+     "icone": "mais",
+     "em": "personalizado",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "https://mcp.notion.com/mcp",
+     "em": "cole",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Entrar com a conta",
+     "nota": "Se o servidor usar OAuth",
+     "em": "entre",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo-cli",
+   "texto": "No Claude Code, digite claude mcp add, traço traço transport http, o nome notion e a URL do servidor. Depois rode barra mcp para entrar na conta.",
+   "fontes": [
+    "Claude Code Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NO CLAUDE CODE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "claude mcp add --transport http notion https://mcp.notion.com/mcp",
+     "em": "digite",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "/mcp → ENTRAR",
+     "icone": "pin",
+     "em": "rode",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "prontos",
+   "texto": "Já existem servidores prontos para Notion, Figma e Slack. Para bancos de dados como Postgres, há opções da comunidade, então confira a origem antes de ligar.",
+   "fontes": [
+    "Figma Developers",
+    "Claude Code Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SERVIDORES PRONTOS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Notion"
+      ],
+      [
+       "obra",
+       "Figma"
+      ],
+      [
+       "balao",
+       "Slack"
+      ]
+     ],
+     "em": "Notion",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Banco de dados: confira a origem",
+     "nota": "Opções da comunidade variam",
+     "em": "confira",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum: deixar tudo ligado. Cada servidor traz ferramentas que o Claude precisa considerar, e isso ocupa espaço no contexto. Rode barra mcp e desligue os que você não usa.",
+   "fontes": [
+    "Claude Code Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Tudo ligado o tempo todo",
+     "nota": "Mais ferramentas, menos espaço",
+     "em": "ligado",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Contexto",
+     "significado": "A memória de trabalho da conversa",
+     "em": "contexto",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "/mcp: desligue o que não usa",
+     "nota": "O servidor continua listado",
+     "em": "desligue",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause e tente: abra barra mcp, veja quantos servidores estão conectados e desligue um que você não usa hoje.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUANTOS ESTÃO LIGADOS?",
+     "em": "quantos",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "DESLIGUE UM",
+     "cor": "verde",
+     "em": "desligue",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo: no app, cole a URL. No Claude Code, use claude mcp add. E com barra mcp, desligue o que não usa.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "Colar a URL"
+      ],
+      [
+       "documento",
+       "claude mcp add"
+      ],
+      [
+       "x",
+       "/mcp desliga"
+      ]
+     ],
+     "em": "app",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: para desligar um servidor sem apagar, você usa claude mcp remove ou barra mcp? Resposta: barra mcp. O remove apaga de vez. Na próxima aula, segurança contra prompt injection. Siga para não perder.",
+   "fontes": [
+    "Claude Code Docs"
+   ],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Desligar sem apagar?",
+     "opcoes": [
+      "1 · claude mcp remove",
+      "2 · /mcp"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 2",
+     "cor": "verde",
+     "em": "Resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 4.5",
+     "em": "Siga",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "e7f9748a4d",
+   "texto": "Seu Claude pode ler o Notion, olhar um design no Figma e consultar um banco de dados. Mas como conectar isso em um minuto?",
+   "audio": "audio/gancho-e7f9748a4d.mp3",
+   "duracao": 8.448,
+   "palavras": [
+    {
+     "p": "Seu",
+     "i": 0.098,
+     "f": 0.371
+    },
+    {
+     "p": "Claude",
+     "i": 0.383,
+     "f": 0.705
+    },
+    {
+     "p": "pode",
+     "i": 0.717,
+     "f": 0.943
+    },
+    {
+     "p": "ler",
+     "i": 0.955,
+     "f": 1.109
+    },
+    {
+     "p": "o",
+     "i": 1.121,
+     "f": 1.145
+    },
+    {
+     "p": "Notion",
+     "i": 1.157,
+     "f": 1.621
+    },
+    {
+     "p": "olhar",
+     "i": 1.883,
+     "f": 2.133
+    },
+    {
+     "p": "um",
+     "i": 2.145,
+     "f": 2.229
+    },
+    {
+     "p": "design",
+     "i": 2.24,
+     "f": 2.681
+    },
+    {
+     "p": "no",
+     "i": 2.693,
+     "f": 2.788
+    },
+    {
+     "p": "Figma",
+     "i": 2.8,
+     "f": 3.181
+    },
+    {
+     "p": "e",
+     "i": 3.193,
+     "f": 3.24
+    },
+    {
+     "p": "consultar",
+     "i": 3.252,
+     "f": 3.752
+    },
+    {
+     "p": "um",
+     "i": 3.764,
+     "f": 3.86
+    },
+    {
+     "p": "banco",
+     "i": 3.871,
+     "f": 4.217
+    },
+    {
+     "p": "de",
+     "i": 4.229,
+     "f": 4.336
+    },
+    {
+     "p": "dados",
+     "i": 4.348,
+     "f": 4.824
+    },
+    {
+     "p": "Mas",
+     "i": 5.643,
+     "f": 5.929
+    },
+    {
+     "p": "como",
+     "i": 5.94,
+     "f": 6.226
+    },
+    {
+     "p": "conectar",
+     "i": 6.238,
+     "f": 6.75
+    },
+    {
+     "p": "isso",
+     "i": 6.762,
+     "f": 7.036
+    },
+    {
+     "p": "em",
+     "i": 7.048,
+     "f": 7.107
+    },
+    {
+     "p": "um",
+     "i": 7.119,
+     "f": 7.202
+    },
+    {
+     "p": "minuto",
+     "i": 7.214,
+     "f": 7.619
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "83fe75f085",
+   "texto": "Nesta aula quatro ponto quatro, você aprende três coisas: adicionar um conector por URL no app, usar o comando claude mcp add no Claude Code, e desligar o que não usa.",
+   "audio": "audio/promessa-83fe75f085.mp3",
+   "duracao": 11.376,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.419
+    },
+    {
+     "p": "aula",
+     "i": 0.431,
+     "f": 0.681
+    },
+    {
+     "p": "quatro",
+     "i": 0.693,
+     "f": 1.05
+    },
+    {
+     "p": "ponto",
+     "i": 1.062,
+     "f": 1.324
+    },
+    {
+     "p": "quatro",
+     "i": 1.336,
+     "f": 1.729
+    },
+    {
+     "p": "você",
+     "i": 2.026,
+     "f": 2.264
+    },
+    {
+     "p": "aprende",
+     "i": 2.276,
+     "f": 2.669
+    },
+    {
+     "p": "três",
+     "i": 2.681,
+     "f": 2.931
+    },
+    {
+     "p": "coisas",
+     "i": 2.943,
+     "f": 3.407
+    },
+    {
+     "p": "adicionar",
+     "i": 3.705,
+     "f": 4.181
+    },
+    {
+     "p": "um",
+     "i": 4.193,
+     "f": 4.252
+    },
+    {
+     "p": "conector",
+     "i": 4.264,
+     "f": 4.764
+    },
+    {
+     "p": "por",
+     "i": 4.776,
+     "f": 4.967
+    },
+    {
+     "p": "URL",
+     "i": 4.979,
+     "f": 5.633
+    },
+    {
+     "p": "no",
+     "i": 5.645,
+     "f": 5.776
+    },
+    {
+     "p": "app",
+     "i": 5.788,
+     "f": 6.086
+    },
+    {
+     "p": "usar",
+     "i": 6.36,
+     "f": 6.669
+    },
+    {
+     "p": "o",
+     "i": 6.681,
+     "f": 6.729
+    },
+    {
+     "p": "comando",
+     "i": 6.74,
+     "f": 7.145
+    },
+    {
+     "p": "claude",
+     "i": 7.157,
+     "f": 7.455
+    },
+    {
+     "p": "mcp",
+     "i": 7.467,
+     "f": 7.979
+    },
+    {
+     "p": "add",
+     "i": 7.99,
+     "f": 8.229
+    },
+    {
+     "p": "no",
+     "i": 8.24,
+     "f": 8.324
+    },
+    {
+     "p": "Claude",
+     "i": 8.336,
+     "f": 8.633
+    },
+    {
+     "p": "Code",
+     "i": 8.645,
+     "f": 9.014
+    },
+    {
+     "p": "e",
+     "i": 9.276,
+     "f": 9.36
+    },
+    {
+     "p": "desligar",
+     "i": 9.371,
+     "f": 9.848
+    },
+    {
+     "p": "o",
+     "i": 9.86,
+     "f": 9.907
+    },
+    {
+     "p": "que",
+     "i": 9.919,
+     "f": 10.038
+    },
+    {
+     "p": "não",
+     "i": 10.05,
+     "f": 10.324
+    },
+    {
+     "p": "usa",
+     "i": 10.336,
+     "f": 10.55
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "9ef06fa4c5",
+   "texto": "Lembra do MCP, o USB-C da inteligência artificial? Adicionar um servidor é plugar um cabo novo. Para servidores remotos, basta o endereço, a URL, e entrar com a sua conta.",
+   "audio": "audio/conceito-9ef06fa4c5.mp3",
+   "duracao": 13.776,
+   "palavras": [
+    {
+     "p": "Lembra",
+     "i": 0.098,
+     "f": 0.502
+    },
+    {
+     "p": "do",
+     "i": 0.514,
+     "f": 0.633
+    },
+    {
+     "p": "MCP",
+     "i": 0.645,
+     "f": 1.24
+    },
+    {
+     "p": "o",
+     "i": 1.633,
+     "f": 1.788
+    },
+    {
+     "p": "USB-C",
+     "i": 1.8,
+     "f": 2.49
+    },
+    {
+     "p": "da",
+     "i": 2.502,
+     "f": 2.586
+    },
+    {
+     "p": "inteligência",
+     "i": 2.598,
+     "f": 3.169
+    },
+    {
+     "p": "artificial",
+     "i": 3.181,
+     "f": 3.812
+    },
+    {
+     "p": "Adicionar",
+     "i": 4.631,
+     "f": 5.19
+    },
+    {
+     "p": "um",
+     "i": 5.202,
+     "f": 5.262
+    },
+    {
+     "p": "servidor",
+     "i": 5.274,
+     "f": 5.738
+    },
+    {
+     "p": "é",
+     "i": 5.75,
+     "f": 5.798
+    },
+    {
+     "p": "plugar",
+     "i": 5.81,
+     "f": 6.167
+    },
+    {
+     "p": "um",
+     "i": 6.179,
+     "f": 6.286
+    },
+    {
+     "p": "cabo",
+     "i": 6.298,
+     "f": 6.595
+    },
+    {
+     "p": "novo",
+     "i": 6.607,
+     "f": 6.952
+    },
+    {
+     "p": "Para",
+     "i": 7.774,
+     "f": 7.988
+    },
+    {
+     "p": "servidores",
+     "i": 8,
+     "f": 8.571
+    },
+    {
+     "p": "remotos",
+     "i": 8.583,
+     "f": 9.19
+    },
+    {
+     "p": "basta",
+     "i": 9.417,
+     "f": 9.762
+    },
+    {
+     "p": "o",
+     "i": 9.774,
+     "f": 9.798
+    },
+    {
+     "p": "endereço",
+     "i": 9.81,
+     "f": 10.333
+    },
+    {
+     "p": "a",
+     "i": 10.524,
+     "f": 10.702
+    },
+    {
+     "p": "URL",
+     "i": 10.714,
+     "f": 11.429
+    },
+    {
+     "p": "e",
+     "i": 11.679,
+     "f": 11.75
+    },
+    {
+     "p": "entrar",
+     "i": 11.762,
+     "f": 12.06
+    },
+    {
+     "p": "com",
+     "i": 12.071,
+     "f": 12.25
+    },
+    {
+     "p": "a",
+     "i": 12.262,
+     "f": 12.298
+    },
+    {
+     "p": "sua",
+     "i": 12.31,
+     "f": 12.56
+    },
+    {
+     "p": "conta",
+     "i": 12.571,
+     "f": 12.952
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "50c69e7911",
+   "texto": "Pense numa tomada com vários adaptadores. Notion, Figma e Slack são aparelhos prontos para plugar. Mas quanto mais aparelhos ligados, mais bagunça na bancada.",
+   "audio": "audio/analogia-50c69e7911.mp3",
+   "duracao": 11.496,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "numa",
+     "i": 0.443,
+     "f": 0.621
+    },
+    {
+     "p": "tomada",
+     "i": 0.633,
+     "f": 1.062
+    },
+    {
+     "p": "com",
+     "i": 1.074,
+     "f": 1.252
+    },
+    {
+     "p": "vários",
+     "i": 1.264,
+     "f": 1.538
+    },
+    {
+     "p": "adaptadores",
+     "i": 1.55,
+     "f": 2.419
+    },
+    {
+     "p": "Notion",
+     "i": 3.238,
+     "f": 3.774
+    },
+    {
+     "p": "Figma",
+     "i": 4.048,
+     "f": 4.381
+    },
+    {
+     "p": "e",
+     "i": 4.393,
+     "f": 4.417
+    },
+    {
+     "p": "Slack",
+     "i": 4.429,
+     "f": 4.81
+    },
+    {
+     "p": "são",
+     "i": 4.821,
+     "f": 5.012
+    },
+    {
+     "p": "aparelhos",
+     "i": 5.024,
+     "f": 5.464
+    },
+    {
+     "p": "prontos",
+     "i": 5.476,
+     "f": 5.905
+    },
+    {
+     "p": "para",
+     "i": 5.917,
+     "f": 6.083
+    },
+    {
+     "p": "plugar",
+     "i": 6.095,
+     "f": 6.488
+    },
+    {
+     "p": "Mas",
+     "i": 7.31,
+     "f": 7.607
+    },
+    {
+     "p": "quanto",
+     "i": 7.619,
+     "f": 7.917
+    },
+    {
+     "p": "mais",
+     "i": 7.929,
+     "f": 8.107
+    },
+    {
+     "p": "aparelhos",
+     "i": 8.119,
+     "f": 8.595
+    },
+    {
+     "p": "ligados",
+     "i": 8.607,
+     "f": 9.155
+    },
+    {
+     "p": "mais",
+     "i": 9.369,
+     "f": 9.583
+    },
+    {
+     "p": "bagunça",
+     "i": 9.595,
+     "f": 10.071
+    },
+    {
+     "p": "na",
+     "i": 10.083,
+     "f": 10.155
+    },
+    {
+     "p": "bancada",
+     "i": 10.167,
+     "f": 10.655
+    }
+   ]
+  },
+  "exemplo-app": {
+   "hash": "dbe1336391",
+   "texto": "No app, clique no mais, escolha adicionar conector personalizado, cole a URL do servidor e confirme. Depois, entre com a sua conta quando o Claude pedir.",
+   "audio": "audio/exemplo-app-dbe1336391.mp3",
+   "duracao": 11.4,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.098,
+     "f": 0.288
+    },
+    {
+     "p": "app",
+     "i": 0.3,
+     "f": 0.633
+    },
+    {
+     "p": "clique",
+     "i": 0.883,
+     "f": 1.205
+    },
+    {
+     "p": "no",
+     "i": 1.217,
+     "f": 1.3
+    },
+    {
+     "p": "mais",
+     "i": 1.312,
+     "f": 1.633
+    },
+    {
+     "p": "escolha",
+     "i": 1.943,
+     "f": 2.36
+    },
+    {
+     "p": "adicionar",
+     "i": 2.371,
+     "f": 2.836
+    },
+    {
+     "p": "conector",
+     "i": 2.848,
+     "f": 3.36
+    },
+    {
+     "p": "personalizado",
+     "i": 3.371,
+     "f": 4.181
+    },
+    {
+     "p": "cole",
+     "i": 4.419,
+     "f": 4.717
+    },
+    {
+     "p": "a",
+     "i": 4.729,
+     "f": 4.883
+    },
+    {
+     "p": "URL",
+     "i": 4.895,
+     "f": 5.586
+    },
+    {
+     "p": "do",
+     "i": 5.598,
+     "f": 5.693
+    },
+    {
+     "p": "servidor",
+     "i": 5.705,
+     "f": 6.205
+    },
+    {
+     "p": "e",
+     "i": 6.217,
+     "f": 6.264
+    },
+    {
+     "p": "confirme",
+     "i": 6.276,
+     "f": 6.86
+    },
+    {
+     "p": "Depois",
+     "i": 7.679,
+     "f": 8.262
+    },
+    {
+     "p": "entre",
+     "i": 8.488,
+     "f": 8.714
+    },
+    {
+     "p": "com",
+     "i": 8.726,
+     "f": 8.893
+    },
+    {
+     "p": "a",
+     "i": 8.905,
+     "f": 8.94
+    },
+    {
+     "p": "sua",
+     "i": 8.952,
+     "f": 9.226
+    },
+    {
+     "p": "conta",
+     "i": 9.238,
+     "f": 9.607
+    },
+    {
+     "p": "quando",
+     "i": 9.619,
+     "f": 9.821
+    },
+    {
+     "p": "o",
+     "i": 9.833,
+     "f": 9.869
+    },
+    {
+     "p": "Claude",
+     "i": 9.881,
+     "f": 10.214
+    },
+    {
+     "p": "pedir",
+     "i": 10.226,
+     "f": 10.56
+    }
+   ]
+  },
+  "exemplo-cli": {
+   "hash": "af29af990a",
+   "texto": "No Claude Code, digite claude mcp add, traço traço transport http, o nome notion e a URL do servidor. Depois rode barra mcp para entrar na conta.",
+   "audio": "audio/exemplo-cli-af29af990a.mp3",
+   "duracao": 11.928,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.098,
+     "f": 0.288
+    },
+    {
+     "p": "Claude",
+     "i": 0.3,
+     "f": 0.669
+    },
+    {
+     "p": "Code",
+     "i": 0.681,
+     "f": 1.026
+    },
+    {
+     "p": "digite",
+     "i": 1.24,
+     "f": 1.681
+    },
+    {
+     "p": "claude",
+     "i": 1.693,
+     "f": 2.026
+    },
+    {
+     "p": "mcp",
+     "i": 2.038,
+     "f": 2.55
+    },
+    {
+     "p": "add",
+     "i": 2.562,
+     "f": 2.919
+    },
+    {
+     "p": "traço",
+     "i": 3.121,
+     "f": 3.455
+    },
+    {
+     "p": "traço",
+     "i": 3.467,
+     "f": 3.776
+    },
+    {
+     "p": "transport",
+     "i": 3.788,
+     "f": 4.324
+    },
+    {
+     "p": "http",
+     "i": 4.336,
+     "f": 5.002
+    },
+    {
+     "p": "o",
+     "i": 5.348,
+     "f": 5.419
+    },
+    {
+     "p": "nome",
+     "i": 5.431,
+     "f": 5.705
+    },
+    {
+     "p": "notion",
+     "i": 5.717,
+     "f": 6.181
+    },
+    {
+     "p": "e",
+     "i": 6.193,
+     "f": 6.24
+    },
+    {
+     "p": "a",
+     "i": 6.252,
+     "f": 6.383
+    },
+    {
+     "p": "URL",
+     "i": 6.395,
+     "f": 7.038
+    },
+    {
+     "p": "do",
+     "i": 7.05,
+     "f": 7.157
+    },
+    {
+     "p": "servidor",
+     "i": 7.169,
+     "f": 7.705
+    },
+    {
+     "p": "Depois",
+     "i": 8.524,
+     "f": 8.976
+    },
+    {
+     "p": "rode",
+     "i": 8.988,
+     "f": 9.274
+    },
+    {
+     "p": "barra",
+     "i": 9.286,
+     "f": 9.559
+    },
+    {
+     "p": "mcp",
+     "i": 9.571,
+     "f": 10.107
+    },
+    {
+     "p": "para",
+     "i": 10.119,
+     "f": 10.286
+    },
+    {
+     "p": "entrar",
+     "i": 10.298,
+     "f": 10.583
+    },
+    {
+     "p": "na",
+     "i": 10.595,
+     "f": 10.702
+    },
+    {
+     "p": "conta",
+     "i": 10.714,
+     "f": 11.107
+    }
+   ]
+  },
+  "prontos": {
+   "hash": "5cce5842ab",
+   "texto": "Já existem servidores prontos para Notion, Figma e Slack. Para bancos de dados como Postgres, há opções da comunidade, então confira a origem antes de ligar.",
+   "audio": "audio/prontos-5cce5842ab.mp3",
+   "duracao": 10.824,
+   "palavras": [
+    {
+     "p": "Já",
+     "i": 0.098,
+     "f": 0.324
+    },
+    {
+     "p": "existem",
+     "i": 0.336,
+     "f": 0.764
+    },
+    {
+     "p": "servidores",
+     "i": 0.776,
+     "f": 1.348
+    },
+    {
+     "p": "prontos",
+     "i": 1.36,
+     "f": 1.752
+    },
+    {
+     "p": "para",
+     "i": 1.764,
+     "f": 1.931
+    },
+    {
+     "p": "Notion",
+     "i": 1.943,
+     "f": 2.407
+    },
+    {
+     "p": "Figma",
+     "i": 2.598,
+     "f": 2.979
+    },
+    {
+     "p": "e",
+     "i": 2.99,
+     "f": 3.038
+    },
+    {
+     "p": "Slack",
+     "i": 3.05,
+     "f": 3.538
+    },
+    {
+     "p": "Para",
+     "i": 4.357,
+     "f": 4.583
+    },
+    {
+     "p": "bancos",
+     "i": 4.595,
+     "f": 4.952
+    },
+    {
+     "p": "de",
+     "i": 4.964,
+     "f": 5.06
+    },
+    {
+     "p": "dados",
+     "i": 5.071,
+     "f": 5.381
+    },
+    {
+     "p": "como",
+     "i": 5.393,
+     "f": 5.619
+    },
+    {
+     "p": "Postgres",
+     "i": 5.631,
+     "f": 6.19
+    },
+    {
+     "p": "há",
+     "i": 6.44,
+     "f": 6.524
+    },
+    {
+     "p": "opções",
+     "i": 6.536,
+     "f": 7
+    },
+    {
+     "p": "da",
+     "i": 7.012,
+     "f": 7.095
+    },
+    {
+     "p": "comunidade",
+     "i": 7.107,
+     "f": 7.75
+    },
+    {
+     "p": "então",
+     "i": 8,
+     "f": 8.321
+    },
+    {
+     "p": "confira",
+     "i": 8.333,
+     "f": 8.762
+    },
+    {
+     "p": "a",
+     "i": 8.774,
+     "f": 8.809
+    },
+    {
+     "p": "origem",
+     "i": 8.821,
+     "f": 9.226
+    },
+    {
+     "p": "antes",
+     "i": 9.238,
+     "f": 9.536
+    },
+    {
+     "p": "de",
+     "i": 9.548,
+     "f": 9.631
+    },
+    {
+     "p": "ligar",
+     "i": 9.643,
+     "f": 10
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "73198b566f",
+   "texto": "O erro comum: deixar tudo ligado. Cada servidor traz ferramentas que o Claude precisa considerar, e isso ocupa espaço no contexto. Rode barra mcp e desligue os que você não usa.",
+   "audio": "audio/erro-comum-73198b566f.mp3",
+   "duracao": 12.312,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.252
+    },
+    {
+     "p": "erro",
+     "i": 0.264,
+     "f": 0.479
+    },
+    {
+     "p": "comum",
+     "i": 0.49,
+     "f": 0.836
+    },
+    {
+     "p": "deixar",
+     "i": 1.098,
+     "f": 1.526
+    },
+    {
+     "p": "tudo",
+     "i": 1.538,
+     "f": 1.788
+    },
+    {
+     "p": "ligado",
+     "i": 1.8,
+     "f": 2.24
+    },
+    {
+     "p": "Cada",
+     "i": 3.06,
+     "f": 3.321
+    },
+    {
+     "p": "servidor",
+     "i": 3.333,
+     "f": 3.81
+    },
+    {
+     "p": "traz",
+     "i": 3.821,
+     "f": 4.036
+    },
+    {
+     "p": "ferramentas",
+     "i": 4.048,
+     "f": 4.679
+    },
+    {
+     "p": "que",
+     "i": 4.69,
+     "f": 4.774
+    },
+    {
+     "p": "o",
+     "i": 4.786,
+     "f": 4.845
+    },
+    {
+     "p": "Claude",
+     "i": 4.857,
+     "f": 5.155
+    },
+    {
+     "p": "precisa",
+     "i": 5.167,
+     "f": 5.548
+    },
+    {
+     "p": "considerar",
+     "i": 5.56,
+     "f": 6.107
+    },
+    {
+     "p": "e",
+     "i": 6.369,
+     "f": 6.452
+    },
+    {
+     "p": "isso",
+     "i": 6.464,
+     "f": 6.631
+    },
+    {
+     "p": "ocupa",
+     "i": 6.643,
+     "f": 6.905
+    },
+    {
+     "p": "espaço",
+     "i": 6.917,
+     "f": 7.357
+    },
+    {
+     "p": "no",
+     "i": 7.369,
+     "f": 7.452
+    },
+    {
+     "p": "contexto",
+     "i": 7.464,
+     "f": 8.036
+    },
+    {
+     "p": "Rode",
+     "i": 8.857,
+     "f": 9.155
+    },
+    {
+     "p": "barra",
+     "i": 9.167,
+     "f": 9.429
+    },
+    {
+     "p": "mcp",
+     "i": 9.44,
+     "f": 9.988
+    },
+    {
+     "p": "e",
+     "i": 10,
+     "f": 10.083
+    },
+    {
+     "p": "desligue",
+     "i": 10.095,
+     "f": 10.452
+    },
+    {
+     "p": "os",
+     "i": 10.464,
+     "f": 10.56
+    },
+    {
+     "p": "que",
+     "i": 10.571,
+     "f": 10.679
+    },
+    {
+     "p": "você",
+     "i": 10.69,
+     "f": 10.952
+    },
+    {
+     "p": "não",
+     "i": 10.964,
+     "f": 11.238
+    },
+    {
+     "p": "usa",
+     "i": 11.25,
+     "f": 11.488
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "be35eedd23",
+   "texto": "Pause e tente: abra barra mcp, veja quantos servidores estão conectados e desligue um que você não usa hoje.",
+   "audio": "audio/pratica-be35eedd23.mp3",
+   "duracao": 7.464,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.431
+    },
+    {
+     "p": "e",
+     "i": 0.443,
+     "f": 0.514
+    },
+    {
+     "p": "tente",
+     "i": 0.526,
+     "f": 0.931
+    },
+    {
+     "p": "abra",
+     "i": 1.11,
+     "f": 1.371
+    },
+    {
+     "p": "barra",
+     "i": 1.383,
+     "f": 1.693
+    },
+    {
+     "p": "mcp",
+     "i": 1.705,
+     "f": 2.324
+    },
+    {
+     "p": "veja",
+     "i": 2.598,
+     "f": 2.931
+    },
+    {
+     "p": "quantos",
+     "i": 2.943,
+     "f": 3.276
+    },
+    {
+     "p": "servidores",
+     "i": 3.288,
+     "f": 3.764
+    },
+    {
+     "p": "estão",
+     "i": 3.776,
+     "f": 4.074
+    },
+    {
+     "p": "conectados",
+     "i": 4.086,
+     "f": 4.681
+    },
+    {
+     "p": "e",
+     "i": 4.693,
+     "f": 4.8
+    },
+    {
+     "p": "desligue",
+     "i": 4.812,
+     "f": 5.205
+    },
+    {
+     "p": "um",
+     "i": 5.217,
+     "f": 5.348
+    },
+    {
+     "p": "que",
+     "i": 5.36,
+     "f": 5.479
+    },
+    {
+     "p": "você",
+     "i": 5.49,
+     "f": 5.74
+    },
+    {
+     "p": "não",
+     "i": 5.752,
+     "f": 6.014
+    },
+    {
+     "p": "usa",
+     "i": 6.026,
+     "f": 6.288
+    },
+    {
+     "p": "hoje",
+     "i": 6.3,
+     "f": 6.633
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "d1327cb185",
+   "texto": "Resumo: no app, cole a URL. No Claude Code, use claude mcp add. E com barra mcp, desligue o que não usa.",
+   "audio": "audio/resumo-d1327cb185.mp3",
+   "duracao": 10.584,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.098,
+     "f": 0.657
+    },
+    {
+     "p": "no",
+     "i": 0.919,
+     "f": 1.086
+    },
+    {
+     "p": "app",
+     "i": 1.098,
+     "f": 1.455
+    },
+    {
+     "p": "cole",
+     "i": 1.657,
+     "f": 1.955
+    },
+    {
+     "p": "a",
+     "i": 1.967,
+     "f": 2.074
+    },
+    {
+     "p": "URL",
+     "i": 2.086,
+     "f": 2.836
+    },
+    {
+     "p": "No",
+     "i": 3.655,
+     "f": 3.833
+    },
+    {
+     "p": "Claude",
+     "i": 3.845,
+     "f": 4.202
+    },
+    {
+     "p": "Code",
+     "i": 4.214,
+     "f": 4.595
+    },
+    {
+     "p": "use",
+     "i": 4.81,
+     "f": 5.048
+    },
+    {
+     "p": "claude",
+     "i": 5.06,
+     "f": 5.369
+    },
+    {
+     "p": "mcp",
+     "i": 5.381,
+     "f": 5.929
+    },
+    {
+     "p": "add",
+     "i": 5.94,
+     "f": 6.333
+    },
+    {
+     "p": "E",
+     "i": 7.155,
+     "f": 7.262
+    },
+    {
+     "p": "com",
+     "i": 7.274,
+     "f": 7.452
+    },
+    {
+     "p": "barra",
+     "i": 7.464,
+     "f": 7.762
+    },
+    {
+     "p": "mcp",
+     "i": 7.774,
+     "f": 8.393
+    },
+    {
+     "p": "desligue",
+     "i": 8.655,
+     "f": 9.083
+    },
+    {
+     "p": "o",
+     "i": 9.095,
+     "f": 9.131
+    },
+    {
+     "p": "que",
+     "i": 9.143,
+     "f": 9.25
+    },
+    {
+     "p": "não",
+     "i": 9.262,
+     "f": 9.524
+    },
+    {
+     "p": "usa",
+     "i": 9.536,
+     "f": 9.762
+    }
+   ]
+  },
+  "final": {
+   "hash": "96fd38f57f",
+   "texto": "Quiz: para desligar um servidor sem apagar, você usa claude mcp remove ou barra mcp? Resposta: barra mcp. O remove apaga de vez. Na próxima aula, segurança contra prompt injection. Siga para não perder.",
+   "audio": "audio/final-96fd38f57f.mp3",
+   "duracao": 17.616,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "para",
+     "i": 0.776,
+     "f": 0.99
+    },
+    {
+     "p": "desligar",
+     "i": 1.002,
+     "f": 1.431
+    },
+    {
+     "p": "um",
+     "i": 1.443,
+     "f": 1.502
+    },
+    {
+     "p": "servidor",
+     "i": 1.514,
+     "f": 2.002
+    },
+    {
+     "p": "sem",
+     "i": 2.014,
+     "f": 2.205
+    },
+    {
+     "p": "apagar",
+     "i": 2.217,
+     "f": 2.633
+    },
+    {
+     "p": "você",
+     "i": 2.871,
+     "f": 3.217
+    },
+    {
+     "p": "usa",
+     "i": 3.229,
+     "f": 3.479
+    },
+    {
+     "p": "claude",
+     "i": 3.49,
+     "f": 3.788
+    },
+    {
+     "p": "mcp",
+     "i": 3.8,
+     "f": 4.24
+    },
+    {
+     "p": "remove",
+     "i": 4.252,
+     "f": 4.776
+    },
+    {
+     "p": "ou",
+     "i": 4.788,
+     "f": 4.883
+    },
+    {
+     "p": "barra",
+     "i": 4.895,
+     "f": 5.217
+    },
+    {
+     "p": "mcp",
+     "i": 5.229,
+     "f": 5.788
+    },
+    {
+     "p": "Resposta",
+     "i": 6.607,
+     "f": 7.333
+    },
+    {
+     "p": "barra",
+     "i": 7.524,
+     "f": 7.857
+    },
+    {
+     "p": "mcp",
+     "i": 7.869,
+     "f": 8.631
+    },
+    {
+     "p": "O",
+     "i": 9.452,
+     "f": 9.548
+    },
+    {
+     "p": "remove",
+     "i": 9.56,
+     "f": 10.024
+    },
+    {
+     "p": "apaga",
+     "i": 10.036,
+     "f": 10.381
+    },
+    {
+     "p": "de",
+     "i": 10.393,
+     "f": 10.5
+    },
+    {
+     "p": "vez",
+     "i": 10.512,
+     "f": 10.929
+    },
+    {
+     "p": "Na",
+     "i": 11.75,
+     "f": 11.94
+    },
+    {
+     "p": "próxima",
+     "i": 11.952,
+     "f": 12.369
+    },
+    {
+     "p": "aula",
+     "i": 12.381,
+     "f": 12.667
+    },
+    {
+     "p": "segurança",
+     "i": 12.869,
+     "f": 13.44
+    },
+    {
+     "p": "contra",
+     "i": 13.452,
+     "f": 13.762
+    },
+    {
+     "p": "prompt",
+     "i": 13.774,
+     "f": 14.167
+    },
+    {
+     "p": "injection",
+     "i": 14.179,
+     "f": 14.81
+    },
+    {
+     "p": "Siga",
+     "i": 15.631,
+     "f": 16.036
+    },
+    {
+     "p": "para",
+     "i": 16.048,
+     "f": 16.202
+    },
+    {
+     "p": "não",
+     "i": 16.214,
+     "f": 16.381
+    },
+    {
+     "p": "perder",
+     "i": 16.393,
+     "f": 16.786
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "figma": {
+   "arquivo": "imagens/figma-1a8534d2.jpg",
+   "rotulo": "Figma",
+   "wiki": "Figma",
+   "commons": "Figma logo",
+   "autor": "w:Good Smile Company",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Figma_Series_Logo.jpg",
+   "titulo": "File:Figma Series Logo.jpg"
+  },
+  "slack": {
+   "arquivo": "imagens/slack-a5d2889f.jpg",
+   "rotulo": "Slack",
+   "wiki": "Slack",
+   "commons": "Slack logo",
+   "autor": "Slack",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Slack_Icon.png",
+   "titulo": "File:Slack Icon.png"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-19T22:26:17.942Z",
-  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/39337950740"
+  "pedidoEm": "2026-10-19T22:26:17.942Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Code — Connect to tools via MCP",
+   "url": "https://code.claude.com/docs/en/mcp"
+  },
+  {
+   "titulo": "Central de Ajuda Claude — Custom connectors (remote MCP)",
+   "url": "https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp"
+  },
+  {
+   "titulo": "Figma — Remote MCP server",
+   "url": "https://developers.figma.com/docs/figma-mcp-server/remote-server-installation"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }
