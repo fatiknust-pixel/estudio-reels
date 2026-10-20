@@ -20,8 +20,8 @@ import { avisar, avisarErro, fmtTempo, ir } from "../ui";
 
 type Aba = "cenas" | "legendas" | "estilo" | "efeitos" | "cortes" | "imagens" | "ia" | "exportar";
 const NOMES: Record<Aba, string> = {
-  ia: "🤖 IA",
-  cenas: "🎞️ Cenas", legendas: "💬 Legendas", estilo: "🎨 Estilo", efeitos: "✨ Efeitos", cortes: "✂️ Cortes", imagens: "🖼️ Imagens", exportar: "⬇️ Exportar",
+  ia: "IA",
+  cenas: "Cenas", legendas: "Legendas", estilo: "Estilo", efeitos: "Efeitos", cortes: "Cortes", imagens: "Imagens", exportar: "Exportar",
 };
 
 // Histórico para desfazer/refazer
@@ -49,7 +49,9 @@ const Controles: React.FC<{ duracao: number }> = ({ duracao }) => {
   const tocando = useTocando();
   return (
     <div className="ed-controles">
-      <button className="btn icone" aria-label={tocando ? "Pausar" : "Tocar"} onClick={() => player.current?.toggle()}>{tocando ? "⏸" : "▶️"}</button>
+      <button className="btn icone" aria-label={tocando ? "Pausar" : "Tocar"} onClick={() => player.current?.toggle()}>{tocando
+        ? <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
+        : <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z" /></svg>}</button>
       <input type="range" min={0} max={duracao - 1} value={f} aria-label="Posição" onChange={(e) => player.current?.seekTo(parseInt(e.target.value))} />
       <span className="tempo" title={`no original: ${fmtTempo(linha.paraConteudo(f))}`}>{fmtTempo(f / FPS)} / {fmtTempo(duracao / FPS, false)}</span>
     </div>
