@@ -22,7 +22,7 @@ on:
 permissions:
   contents: write
   id-token: write
-  actions: read
+  actions: write
 
 concurrency:
   group: ia-${{ inputs.projeto }}
@@ -49,22 +49,22 @@ jobs:
           fi
           rm -f "projetos/$ID/roteiro.json" "projetos/$ID/imagens.json"
 
-      - name: Disjuntor (para se as últimas gerações falharam)
+      - name: Disjuntor (pausa se a última geração falhou mesmo com 2 tentativas)
         if: inputs.ignorar_bloqueio != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Se as 3 últimas execuções terminadas falharam há menos de 30 min, o problema se repete:
-          # para aqui, antes de gastar com o Claude. Passou 30 min ou corrigiu? Gere de novo (ou marque ignorar_bloqueio).
-          runs=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/gerar-ia.yml/runs?status=completed&per_page=3" \
-            --jq '[.workflow_runs[] | {c: .conclusion, t: .updated_at}]')
-          total=$(jq length <<< "$runs")
-          falhas=$(jq '[.[] | select(.c == "failure")] | length' <<< "$runs")
-          if [ "$total" -eq 3 ] && [ "$falhas" -eq 3 ]; then
-            idade=$(( $(date +%s) - $(date -d "$(jq -r '.[0].t' <<< "$runs")" +%s) ))
-            if [ "$idade" -lt 1800 ]; then
-              echo "::error::As 3 últimas gerações falharam (a última há $((idade / 60)) min). Parei antes de gastar com o Claude. Veja o log de uma delas, corrija, e gere de novo depois de 30 min (ou marque ignorar_bloqueio)."
-              exit 1
+          # Cada geração já tenta 2 vezes. Se a última (ignorando as canceladas/pausadas) falhou há menos de 5 h,
+          # o problema se repete (ex.: limite da assinatura): pausa aqui, antes de gastar com o Claude.
+          ultima=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/gerar-ia.yml/runs?status=completed&per_page=10" \
+            --jq '[.workflow_runs[] | select(.conclusion != "cancelled")][0] | {c: .conclusion, t: .updated_at, u: .html_url}')
+          if [ "$(jq -r '.c' <<< "$ultima")" = "failure" ]; then
+            idade=$(( $(date +%s) - $(date -d "$(jq -r '.t' <<< "$ultima")" +%s) ))
+            if [ "$idade" -lt 18000 ]; then
+              msg="Pausado: a última geração falhou mesmo com 2 tentativas (há $((idade / 60)) min). Provável limite da assinatura ou erro que se repete. Veja $(jq -r '.u' <<< "$ultima") e tente de novo mais tarde."
+              echo "::error::$msg"
+              scripts/salvar_no_repo.sh "Pausado $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" --erro "$msg"
+              gh run cancel "$GITHUB_RUN_ID"; sleep 60; exit 1
             fi
           fi
 
@@ -82,6 +82,45 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
 
       - name: Claude pesquisa e escreve o roteiro
+        id: claude1
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Você é roteirista e pesquisador de vídeos curtos 9:16 (Reels/TikTok) em português do Brasil.
+
+            1. Leia `docs/guia-roteiro.md` e siga-o à risca (inclusive "Estilo de edição" e "Regra de variedade"). Use `app/demos/demo-ia.json` (campo `cenas`) como exemplo de qualidade.
+            2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao` em segundos;
+               `genero` quando houver — siga as instruções do gênero; e o campo `formato` do projeto: 9:16 ou 16:9).
+            3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
+            3b. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
+               e escolha o `estilo` deste vídeo: o que vier fixo em `pedido.estilo` é obrigatório; onde estiver "auto",
+               escolha combinando com o tema SEM repetir a dinâmica, a legenda, a transição e o fundo do vídeo anterior.
+               Adapte o roteiro (ritmo, tamanho das frases, quantidade de elementos) à dinâmica e ao formato.
+            4. Escreva `projetos/${{ inputs.projeto }}/roteiro.json` e `projetos/${{ inputs.projeto }}/imagens.json`:
+               gancho forte no início, cenas curtas com elementos animados e fontes na tela, e no final
+               uma pergunta para o público (enquete) e um CTA (seguir). Respeite o tom e a duração pedidos.
+            5. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija até aparecer "✅ Roteiro válido"
+               (trate também os avisos de duração e de fontes).
+
+            Não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --model sonnet
+            --max-turns 140
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(node scripts/validar-roteiro.mjs:*),Bash(node scripts/estilo-ia.mjs:*)"
+
+      - name: Esperar antes da 2ª tentativa
+        if: steps.claude1.outcome == 'failure'
+        run: |
+          echo "::warning::1ª tentativa do Claude falhou — tentando mais uma vez"
+          rm -f "projetos/$ID/roteiro.json" "projetos/$ID/imagens.json"
+          sleep 30
+
+      - name: Claude pesquisa e escreve o roteiro (2ª tentativa)
+        id: claude2
+        if: steps.claude1.outcome == 'failure'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
