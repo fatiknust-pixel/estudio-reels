@@ -111,7 +111,8 @@ export type Projeto = {
   estiloIA?: EstiloIA;
   formato?: "9:16" | "16:9"; // quadro do vídeo: vertical (padrão) ou horizontal
   genero?: string; // gênero do vídeo (catálogo src/generos.json), escolhido no pedido do Modo 1
-  voz?: { edge: string; velocidade: string };
+  visual?: "aula"; // modo IA: "aula" = videoaula com fundo branco e ícones simples (sem dinâmica de Reels)
+  voz?: { edge: string; velocidade: string; tratamento?: boolean }; // tratamento: equalização, compressor e -16 LUFS
   cenas?: Cena[];
   narracao?: Record<string, NarracaoCena>;
   imagens?: Record<string, ImagemInfo>;

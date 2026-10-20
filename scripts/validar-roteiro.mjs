@@ -28,7 +28,8 @@ const CAMPOS = {
   comentario: ["texto"], enquete: ["pergunta", "opcoes"], seguir: ["texto"],
 };
 const POSICOES = ["topo", "alto", "alto2", "meio", "meio2"];
-const ICONES = "predio casa seta contrato documento dinheiro lavagem martelo balanca obra relogio check x pin mais urna alvo alerta celular tornozeleira cruz balao".split(" ");
+const ICONES = ("predio casa seta contrato documento dinheiro lavagem martelo balanca obra relogio check x pin mais urna alvo alerta celular tornozeleira cruz balao " +
+  "cerebro chip robo chat lupa engrenagem raio nuvem livro codigo grafico cadeado pessoa lampada pasta globo imagem video microfone chave escudo camadas terminal plug calendario email estrela ferramenta lista play olho moeda").split(" ");
 const norm = (s) => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9ªº]/g, "");
 
 const roteiro = ler("roteiro.json");

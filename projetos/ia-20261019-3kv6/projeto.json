@@ -4,7 +4,7 @@
  "titulo": "Aula 7.1: App ou API do Claude, quando usar cada um — explique a difer",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "oceano",
+ "tema": "aula",
  "criadoEm": "2026-10-19T22:26:17.944Z",
  "atualizadoEm": "2026-10-19T22:26:17.944Z",
  "status": "processando",
@@ -58,9 +58,11 @@
   }
  },
  "formato": "16:9",
+ "visual": "aula",
  "voz": {
-  "edge": "pt-BR-AntonioNeural",
-  "velocidade": "+5%"
+  "edge": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+0%",
+  "tratamento": true
  },
  "cenas": [],
  "narracao": {},

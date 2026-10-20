@@ -23,6 +23,11 @@ const base = {
 };
 
 export const TEMAS: Record<string, Tema> = {
+  aula: {
+    nome: "Videoaula (branco)", fundo: "#FFFFFF", brilhoA: "#FFFFFF", brilhoB: "#FFFFFF", texto: "#111111", suave: "#6B6B6B",
+    amarelo: "#FFC400", vermelho: "#E5332A", verde: "#1E9E5A", azul: "#111111", cinza: "#9A9A9A", roxo: "#FF6B00",
+    destaque: "#FF6B00", transicao: ["#FF6B00", "#FFC400", "#111111"],
+  },
   padrao: {
     ...base, nome: "Noite (padrão)", fundo: "#0B0F1A", brilhoA: "#12305C", brilhoB: "#3A1C71",
     destaque: "#FFD60A", transicao: ["#FFD60A", "#FF3B30", "#FFFFFF"],

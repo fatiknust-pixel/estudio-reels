@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useMemo } from "react";
 import { arquivoProjeto } from "./arquivos";
 import { LinhaTempo, montarLinha, Quadro, quadroDe } from "./linhaTempo";
-import { Tema, temaDe } from "./temas";
+import { Tema, temaDe, TEMAS } from "./temas";
 import { Projeto } from "./tipos";
 
 export type VideoCtx = {
@@ -25,7 +25,7 @@ export const ProvedorVideo: React.FC<{ projeto: Projeto; arquivos?: Record<strin
       projeto,
       linha: montarLinha(projeto),
       quadro: quadroDe(projeto),
-      tema: temaDe(projeto.tema),
+      tema: projeto.visual === "aula" ? TEMAS.aula : temaDe(projeto.tema),
       arquivo,
       imagem: (chave) => (chave && imgs[chave] ? arquivo(imgs[chave].arquivo) : null),
       creditoImagem: (chave) => {

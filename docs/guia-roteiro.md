@@ -125,6 +125,21 @@ acompanhe sem se entediar**, sem perder a seriedade: ritmo de Reels, conteúdo d
 - `formato`: `explicativo` por padrão; `comparacao` quando a aula compara (ex.: modelos, planos);
   `lista` quando o briefing enumera itens; `mito-verdade` quando a aula é sobre erros e limites.
 
+**Visual "Videoaula" (`visual: "aula"` no projeto — fundo branco, sem dinâmica de Reels)**
+- Cada cena vira um slide: o `titulo` (em `topo`) é a manchete; os outros elementos ocupam vagas lado a lado,
+  uma por posição usada (`alto`, `alto2`, `meio`, `meio2`), da esquerda para a direita na ordem em que entram.
+  Use **no máximo 3 posições por cena** além do `titulo` (4 só em comparações), e reuse a mesma posição
+  quando um elemento deve substituir o anterior.
+- Os ícones são a ilustração da aula e se desenham na tela: escolha o ícone que **explica** a ideia, da lista
+  de tecnologia (`cerebro` para IA, `chip`/`robo` para modelos, `chat` para conversa, `terminal`/`codigo`
+  para comandos, `camadas` para contexto, `lupa` para pesquisa, `moeda`/`grafico` para custo, `escudo`/
+  `cadeado` para segurança, `plug` para conectores, `engrenagem` para automação, `lampada` para dica…).
+  Prefira `icones` (2–3 ícones com rótulos de 1–3 palavras) e `tag` com ícone a textos longos.
+- `carimbo` vira um destaque com marca-texto (vermelho = alerta/erro): use para a palavra-chave da cena, não
+  como carimbo de efeito. `comentario` mostra o prompt sendo digitado numa caixa "Prompt".
+- Nada de emojis nem exageros visuais; textos dos elementos curtos (até ~5 palavras), a fala explica o resto.
+- A voz dessas aulas lê bem termos em inglês: escreva "machine learning", "prompt", "tokens" normalmente.
+
 ## Gêneros (canal dark) — quando existir `pedido.genero`
 
 O app tem modelos de "canal dark" (vídeo narrado, sem rosto: documentário, história, biografia,
@@ -198,7 +213,9 @@ tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
 | `seguir` | `texto` | botão de seguir pulsando (CTA) |
 
 Ícones: `predio casa seta contrato documento dinheiro lavagem martelo balanca obra relogio check x pin
-mais urna alvo alerta celular tornozeleira cruz balao`.
+mais urna alvo alerta celular tornozeleira cruz balao` e, para tecnologia e aulas, `cerebro chip robo chat
+lupa engrenagem raio nuvem livro codigo grafico cadeado pessoa lampada pasta globo imagem video microfone
+chave escudo camadas terminal plug calendario email estrela ferramenta lista play olho moeda`.
 
 ## Formato do `imagens.json`
 

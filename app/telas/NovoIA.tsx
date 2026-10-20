@@ -10,6 +10,7 @@ const TONS = ["Explicativo e neutro", "Polêmico, mas factual", "Bem-humorado", 
 const DURACOES: [number, string][] = [[30, "30 s"], [45, "45 s"], [60, "1 min"], [90, "1:30"], [120, "2 min"], [180, "3 min"], [300, "5 min"], [480, "8 min"], [600, "10 min"], [720, "12 min"]];
 type Genero = (typeof GENEROS.generos)[number];
 const FORMATOS: [string, string][] = [["9:16", "📱 Vertical 9:16 (Reels, TikTok)"], ["16:9", "🖥️ Horizontal 16:9 (YouTube, aulas)"]];
+const VISUAIS: [string, string][] = [["reels", "🎬 Reels (dinâmico)"], ["aula", "📚 Videoaula (fundo branco, ícones simples)"]];
 const VOZES: [string, string][] = [["pt-BR-AntonioNeural", "Antonio (masc.)"], ["pt-BR-FranciscaNeural", "Francisca (fem.)"], ["pt-BR-ThalitaMultilingualNeural", "Thalita (fem.)"]];
 const IDEIAS = ["Por que o real perdeu valor desde 1994?", "Como funciona a delação premiada", "5 mitos sobre o sono que a ciência derrubou", "O que muda com a reforma tributária"];
 const MAX_LOTE = 5;
@@ -26,6 +27,7 @@ export const NovoIA: React.FC = () => {
   const [voz, setVoz] = useState(VOZES[0][0]);
   const [formato, setFormato] = useState("9:16");
   const [genero, setGenero] = useState<Genero | null>(null);
+  const [visual, setVisual] = useState("reels");
   const [enviando, setEnviando] = useState<string | null>(null);
   const token = temToken();
 
@@ -81,7 +83,8 @@ export const NovoIA: React.FC = () => {
           },
           e.paleta !== "auto" ? e.paleta : "padrao",
           voz,
-          formato as "9:16" | "16:9"
+          formato as "9:16" | "16:9",
+          visual === "aula" ? "aula" : undefined
         );
         await criarIA(p);
       }
@@ -168,6 +171,9 @@ export const NovoIA: React.FC = () => {
 
       <h3>Duração</h3>
       <Escolha opcoes={DURACOES} valor={duracao} mudar={setDuracao} />
+
+      <h3>Visual</h3>
+      <Escolha opcoes={VISUAIS} valor={visual} mudar={(v) => { setVisual(v); if (v === "aula") setFormato("16:9"); }} />
 
       <h3>Formato</h3>
       <Escolha opcoes={FORMATOS} valor={formato} mudar={setFormato} />

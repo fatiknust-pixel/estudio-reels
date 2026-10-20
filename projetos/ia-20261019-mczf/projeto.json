@@ -4,7 +4,7 @@
  "titulo": "Aula 2.4: Projetos, instruções e memória no Claude",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "oceano",
+ "tema": "aula",
  "criadoEm": "2026-10-19T22:26:17.940Z",
  "atualizadoEm": "2026-10-19T22:36:23Z",
  "status": "pronto",
@@ -59,9 +59,11 @@
   }
  },
  "formato": "16:9",
+ "visual": "aula",
  "voz": {
-  "edge": "pt-BR-AntonioNeural",
-  "velocidade": "+5%"
+  "edge": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+0%",
+  "tratamento": true
  },
  "cenas": [
   {

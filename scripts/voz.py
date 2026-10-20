@@ -36,6 +36,24 @@ async def via_edge(texto, voz, velocidade, destino):
     return palavras
 
 
+# Tratamento de estúdio (voz.tratamento): corta graves, dá presença, suaviza o "s", comprime e
+# normaliza o volume (-16 LUFS, pico -1,5 dBTP). Não muda a duração, então o tempo das palavras vale.
+FILTRO_VOZ = ",".join([
+    "highpass=f=80",
+    "equalizer=f=220:t=q:w=1.0:g=-1.5",
+    "equalizer=f=3200:t=q:w=1.2:g=2.5",
+    "deesser=i=0.35",
+    "acompressor=threshold=-21dB:ratio=2.8:attack=6:release=90:makeup=2",
+    "loudnorm=I=-16:TP=-1.5:LRA=7",
+])
+
+
+def tratar(arquivo):
+    tmp = arquivo + ".tmp.mp3"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", arquivo, "-af", FILTRO_VOZ, "-ar", "44100", "-ac", "1", "-b:a", "160k", tmp], check=True)
+    os.replace(tmp, arquivo)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("projeto")
@@ -47,12 +65,13 @@ def main():
     p = json.load(open(arq, encoding="utf-8"))
     voz = p.get("voz") or {}
     voz_id, vel = voz.get("edge", "pt-BR-AntonioNeural"), voz.get("velocidade", "+5%")
+    trat = bool(voz.get("tratamento"))
     anterior = p.get("narracao") or {}
     nova = {}
     os.makedirs(os.path.join(midia, "audio"), exist_ok=True)
     for cena in p.get("cenas", []):
         cid, texto = cena["id"], cena["texto"].strip()
-        h = hashlib.sha1(f"edge|{voz_id}|{vel}|{texto}".encode()).hexdigest()[:10]
+        h = hashlib.sha1(f"edge|{voz_id}|{vel}|{texto}{'|estudio' if trat else ''}".encode()).hexdigest()[:10]
         velho = anterior.get(cid)
         if velho and velho.get("hash") == h and os.path.exists(os.path.join(midia, velho["audio"])) and not a.forcar:
             nova[cid] = velho
@@ -72,6 +91,8 @@ def main():
                     raise
                 print(f"  tentativa {tentativa + 1} falhou ({e}); de novo…", flush=True)
                 time.sleep(3 * (tentativa + 1))
+        if trat:
+            tratar(dest)
         nova[cid] = {"hash": h, "texto": texto, "audio": rel, "duracao": round(duracao(dest), 3), "palavras": palavras}
     p["narracao"] = nova
     json.dump(p, open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

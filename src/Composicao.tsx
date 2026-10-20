@@ -7,6 +7,7 @@ import { carregarFontes, FONTES } from "./fontes";
 import { montarLinha, quadroDe } from "./linhaTempo";
 import { ModoBruto } from "./ModoBruto";
 import { ModoIA } from "./ModoIA";
+import { LegendaAula, ModoAula } from "./aula/ModoAula";
 import { temaDe } from "./temas";
 import { Projeto } from "./tipos";
 
@@ -16,9 +17,9 @@ export type PropsVideo = { projeto: Projeto; arquivos?: Record<string, string> }
 
 export const Composicao: React.FC<PropsVideo> = ({ projeto, arquivos }) => (
   <ProvedorVideo projeto={projeto} arquivos={arquivos}>
-    <AbsoluteFill style={{ background: temaDe(projeto.tema).fundo, overflow: "hidden", ["--fonte" as any]: `'${FONTES[projeto.legenda.fonte]?.familia ?? "Montserrat"}'` }}>
-      {projeto.modo === "bruto" ? <ModoBruto /> : <ModoIA />}
-      <Legenda />
+    <AbsoluteFill style={{ background: projeto.visual === "aula" ? "#FFFFFF" : temaDe(projeto.tema).fundo, overflow: "hidden", ["--fonte" as any]: `'${FONTES[projeto.legenda.fonte]?.familia ?? "Montserrat"}'` }}>
+      {projeto.modo === "bruto" ? <ModoBruto /> : projeto.visual === "aula" ? <ModoAula /> : <ModoIA />}
+      {projeto.visual === "aula" ? <LegendaAula /> : <Legenda />}
       <CamadaEfeitos />
     </AbsoluteFill>
   </ProvedorVideo>

@@ -129,9 +129,10 @@ export const CamadaEfeitos: React.FC = () => {
   const volumeTrilha = useVolumeTrilha();
   const sfx = ef.sfxAuto !== false;
   const fimConteudo = linha.duracao - (ef.enquete ? Math.round(ef.enquete.dur * FPS) : 0);
+  const aula = projeto.visual === "aula"; // videoaula: trilha bem baixa e progresso próprio (ModoAula)
   return (
     <>
-      {ef.trilha && <Audio src={arquivoGlobal(ARQUIVO_MUSICA[ef.musica ?? "tensao"] ?? "sfx/trilha.mp3")} volume={projeto.modo === "bruto" ? volumeTrilha : ef.volumeTrilha} loop />}
+      {ef.trilha && <Audio src={arquivoGlobal(ARQUIVO_MUSICA[ef.musica ?? "tensao"] ?? "sfx/trilha.mp3")} volume={projeto.modo === "bruto" ? volumeTrilha : aula ? Math.min(0.04, ef.volumeTrilha) : ef.volumeTrilha} loop />}
       {ef.titulos.map((t) => {
         const j = janela(t.i, t.f - t.i);
         return j && <Sequence key={t.id} from={j.de} durationInFrames={j.dur} layout="none">{sfx && <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.25} />}<TituloTela texto={t.texto} sub={t.sub} posicao={t.posicao ?? 14} cor={t.cor} dur={j.dur} /></Sequence>;
@@ -149,7 +150,7 @@ export const CamadaEfeitos: React.FC = () => {
           <EnqueteFinal pergunta={ef.enquete.pergunta} opcoes={ef.enquete.opcoes} />
         </Sequence>
       )}
-      {ef.barraProgresso && <Barra />}
+      {ef.barraProgresso && !aula && <Barra />}
     </>
   );
 };
