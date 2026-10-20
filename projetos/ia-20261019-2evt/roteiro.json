@@ -1,0 +1,127 @@
+{
+  "titulo": "Aula 6.3: Hooks no Claude Code",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Code Docs — Automate actions with hooks", "url": "https://code.claude.com/docs/en/hooks-guide" },
+    { "titulo": "Claude Code Docs — Hooks reference", "url": "https://code.claude.com/docs/en/hooks" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você escreveu no prompt: sempre formate o código. E a IA esqueceu. Como garantir que algo aconteça sempre, sem depender da memória dela?",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "ELA ESQUECEU?", "em": "esqueceu", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "ESQUECIDO", "cor": "vermelho", "em": "esqueceu", "posicao": "meio" },
+        { "tipo": "tag", "texto": "SEMPRE?", "icone": "alvo", "cor": "amarelo", "em": "garantir", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Aula 6.3. Você vai aprender três coisas: a diferença entre instrução e hook, os momentos em que um hook roda, e três exemplos práticos.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "HOOKS NO CLAUDE CODE", "sub": "AULA 6.3", "em": "Aula", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "INSTRUÇÃO × HOOK"], ["relogio", "MOMENTOS"], ["ferramenta", "3 EXEMPLOS"]], "em": "três", "posicao": "alto" },
+        { "tipo": "tag", "texto": "3 APRENDIZADOS", "icone": "check", "cor": "verde", "em": "coisas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Uma instrução no prompt é um pedido. A IA lê, interpreta e pode esquecer. Um hook, ou gancho, é um comando que o Claude Code executa sempre, em momentos definidos.",
+      "fontes": ["Claude Code Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "INSTRUÇÃO × HOOK", "sub": "PEDIDO × REGRA", "em": "instrução", "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "INSTRUÇÃO", "nota": "a IA pode esquecer", "em": "pedido", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Hook", "significado": "comando que roda sempre, num momento definido", "em": "hook", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "HOOK", "nota": "executa sempre", "em": "sempre", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num recado no mural: lembre de apagar a luz. Pode ser esquecido. O hook é o sensor de presença: saiu da sala, a luz apaga. Sempre, sozinho.",
+      "elementos": [
+        { "tipo": "tag", "texto": "ANALOGIA", "icone": "lampada", "cor": "azul", "em": "Pense", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "RECADO"], ["seta", ""], ["x", "ESQUECIDO"]], "em": "recado", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["olho", "SENSOR"], ["seta", ""], ["check", "LUZ APAGA"]], "em": "sensor", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "momentos",
+      "texto": "Os momentos principais são três. PreToolUse, antes de uma ferramenta. PostToolUse, depois dela. E Stop, quando o Claude termina de responder.",
+      "fontes": ["Claude Code Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3 MOMENTOS", "sub": "QUANDO O HOOK RODA", "em": "momentos", "posicao": "topo" },
+        { "tipo": "tag", "texto": "PreToolUse: ANTES", "icone": "escudo", "cor": "vermelho", "em": "PreToolUse", "posicao": "alto" },
+        { "tipo": "tag", "texto": "PostToolUse: DEPOIS", "icone": "ferramenta", "cor": "azul", "em": "PostToolUse", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Stop: AO TERMINAR", "icone": "check", "cor": "verde", "em": "Stop", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo-formatar",
+      "texto": "Exemplo um: formatar arquivos. Depois que o Claude edita ou cria um arquivo, o hook roda o Prettier. Fica no arquivo ponto claude, barra settings ponto json.",
+      "fontes": ["Claude Code Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1. FORMATAR ARQUIVOS", "sub": "PostToolUse", "em": "Exemplo", "posicao": "topo" },
+        { "tipo": "comentario", "texto": "matcher: Edit|Write → prettier --write", "em": "edita", "posicao": "alto" },
+        { "tipo": "tag", "texto": ".claude/settings.json", "icone": "pasta", "cor": "azul", "em": "ponto", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "exemplo-bloquear",
+      "texto": "Exemplo dois: bloquear comandos perigosos. Antes de cada comando Bash, o hook confere o texto. Se achar algo como rm menos rf, sai com código 2, e a ação é bloqueada.",
+      "fontes": ["Claude Code Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2. BLOQUEAR PERIGO", "sub": "PreToolUse", "em": "dois", "posicao": "topo" },
+        { "tipo": "comentario", "texto": "rm -rf encontrado → exit 2", "em": "rm", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "BLOQUEADO", "cor": "vermelho", "em": "bloqueada", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "exemplo-avisar",
+      "texto": "Exemplo três: avisar quando terminar. No evento Stop, o hook manda uma notificação. Você faz outra coisa e é chamado só no fim.",
+      "fontes": ["Claude Code Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3. AVISAR AO TERMINAR", "sub": "Stop", "em": "três", "posicao": "topo" },
+        { "tipo": "tag", "texto": "NOTIFICAÇÃO", "icone": "celular", "cor": "verde", "em": "notificação", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "TAREFA CONCLUÍDA", "nota": "você é chamado no fim", "em": "chamado", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum: copiar um hook sem ler. Ele roda no seu computador, com as suas permissões. Leia o comando antes de salvar.",
+      "fontes": ["Claude Code Docs, out/2026"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ERRO COMUM", "em": "erro", "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "COPIAR SEM LER", "cor": "vermelho", "em": "copiar", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "HOOK DESCONHECIDO", "nota": "roda com as suas permissões", "em": "roda", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: escreva um hook que avisa quando o Claude terminar. Qual evento você usaria?",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "QUAL EVENTO?", "em": "Qual", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo. Instrução é pedido, hook é regra. Hooks rodam antes, depois ou no fim. E servem para formatar, bloquear e avisar.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": "Resumindo", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "PEDIDO"], ["engrenagem", "REGRA"]], "em": "Instrução", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["escudo", "ANTES"], ["ferramenta", "DEPOIS"], ["check", "FIM"]], "em": "rodam", "posicao": "meio" },
+        { "tipo": "comentario", "texto": "Qual hook você criaria?", "em": "servem", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: qual garante que o código sempre será formatado? Um, a instrução no prompt. Dois, um hook. A resposta é dois: o hook sempre executa. Na próxima aula, controle do navegador.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "O que GARANTE a formatação?", "opcoes": ["1 · Instrução no prompt", "2 · Hook"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 6.4", "em": "próxima", "posicao": "meio" }
+      ]
+    }
+  ]
+}

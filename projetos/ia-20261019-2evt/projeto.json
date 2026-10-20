@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-2evt",
- "titulo": "Aula 6.3: Hooks no Claude Code — explique a diferença entre uma instru",
+ "titulo": "Aula 6.3: Hooks no Claude Code",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.944Z",
- "atualizadoEm": "2026-10-19T22:26:17.944Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-20T03:11:29Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 6.3: Hooks no Claude Code — explique a diferença entre uma instrução no prompt, que a IA pode esquecer, e um hook, que sempre executa em momentos definidos (antes de uma ferramenta, depois de editar, ao terminar), com 3 exemplos: formatar arquivos, bloquear comandos perigosos e avisar quando terminar",
@@ -64,11 +65,2060 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você escreveu no prompt: sempre formate o código. E a IA esqueceu. Como garantir que algo aconteça sempre, sem depender da memória dela?",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "ELA ESQUECEU?",
+     "em": "esqueceu",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "ESQUECIDO",
+     "cor": "vermelho",
+     "em": "esqueceu",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SEMPRE?",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "garantir",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 6.3. Você vai aprender três coisas: a diferença entre instrução e hook, os momentos em que um hook roda, e três exemplos práticos.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "HOOKS NO CLAUDE CODE",
+     "sub": "AULA 6.3",
+     "em": "Aula",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "INSTRUÇÃO × HOOK"
+      ],
+      [
+       "relogio",
+       "MOMENTOS"
+      ],
+      [
+       "ferramenta",
+       "3 EXEMPLOS"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 APRENDIZADOS",
+     "icone": "check",
+     "cor": "verde",
+     "em": "coisas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Uma instrução no prompt é um pedido. A IA lê, interpreta e pode esquecer. Um hook, ou gancho, é um comando que o Claude Code executa sempre, em momentos definidos.",
+   "fontes": [
+    "Claude Code Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "INSTRUÇÃO × HOOK",
+     "sub": "PEDIDO × REGRA",
+     "em": "instrução",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "INSTRUÇÃO",
+     "nota": "a IA pode esquecer",
+     "em": "pedido",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Hook",
+     "significado": "comando que roda sempre, num momento definido",
+     "em": "hook",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "HOOK",
+     "nota": "executa sempre",
+     "em": "sempre",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num recado no mural: lembre de apagar a luz. Pode ser esquecido. O hook é o sensor de presença: saiu da sala, a luz apaga. Sempre, sozinho.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "ANALOGIA",
+     "icone": "lampada",
+     "cor": "azul",
+     "em": "Pense",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "RECADO"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "x",
+       "ESQUECIDO"
+      ]
+     ],
+     "em": "recado",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "olho",
+       "SENSOR"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "LUZ APAGA"
+      ]
+     ],
+     "em": "sensor",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "momentos",
+   "texto": "Os momentos principais são três. PreToolUse, antes de uma ferramenta. PostToolUse, depois dela. E Stop, quando o Claude termina de responder.",
+   "fontes": [
+    "Claude Code Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3 MOMENTOS",
+     "sub": "QUANDO O HOOK RODA",
+     "em": "momentos",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PreToolUse: ANTES",
+     "icone": "escudo",
+     "cor": "vermelho",
+     "em": "PreToolUse",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PostToolUse: DEPOIS",
+     "icone": "ferramenta",
+     "cor": "azul",
+     "em": "PostToolUse",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Stop: AO TERMINAR",
+     "icone": "check",
+     "cor": "verde",
+     "em": "Stop",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo-formatar",
+   "texto": "Exemplo um: formatar arquivos. Depois que o Claude edita ou cria um arquivo, o hook roda o Prettier. Fica no arquivo ponto claude, barra settings ponto json.",
+   "fontes": [
+    "Claude Code Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1. FORMATAR ARQUIVOS",
+     "sub": "PostToolUse",
+     "em": "Exemplo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "matcher: Edit|Write → prettier --write",
+     "em": "edita",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": ".claude/settings.json",
+     "icone": "pasta",
+     "cor": "azul",
+     "em": "ponto",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "exemplo-bloquear",
+   "texto": "Exemplo dois: bloquear comandos perigosos. Antes de cada comando Bash, o hook confere o texto. Se achar algo como rm menos rf, sai com código 2, e a ação é bloqueada.",
+   "fontes": [
+    "Claude Code Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2. BLOQUEAR PERIGO",
+     "sub": "PreToolUse",
+     "em": "dois",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "rm -rf encontrado → exit 2",
+     "em": "rm",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "BLOQUEADO",
+     "cor": "vermelho",
+     "em": "bloqueada",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "exemplo-avisar",
+   "texto": "Exemplo três: avisar quando terminar. No evento Stop, o hook manda uma notificação. Você faz outra coisa e é chamado só no fim.",
+   "fontes": [
+    "Claude Code Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3. AVISAR AO TERMINAR",
+     "sub": "Stop",
+     "em": "três",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "NOTIFICAÇÃO",
+     "icone": "celular",
+     "cor": "verde",
+     "em": "notificação",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "TAREFA CONCLUÍDA",
+     "nota": "você é chamado no fim",
+     "em": "chamado",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum: copiar um hook sem ler. Ele roda no seu computador, com as suas permissões. Leia o comando antes de salvar.",
+   "fontes": [
+    "Claude Code Docs, out/2026"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ERRO COMUM",
+     "em": "erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "COPIAR SEM LER",
+     "cor": "vermelho",
+     "em": "copiar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "HOOK DESCONHECIDO",
+     "nota": "roda com as suas permissões",
+     "em": "roda",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: escreva um hook que avisa quando o Claude terminar. Qual evento você usaria?",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL EVENTO?",
+     "em": "Qual",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo. Instrução é pedido, hook é regra. Hooks rodam antes, depois ou no fim. E servem para formatar, bloquear e avisar.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": "Resumindo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "PEDIDO"
+      ],
+      [
+       "engrenagem",
+       "REGRA"
+      ]
+     ],
+     "em": "Instrução",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "escudo",
+       "ANTES"
+      ],
+      [
+       "ferramenta",
+       "DEPOIS"
+      ],
+      [
+       "check",
+       "FIM"
+      ]
+     ],
+     "em": "rodam",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Qual hook você criaria?",
+     "em": "servem",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: qual garante que o código sempre será formatado? Um, a instrução no prompt. Dois, um hook. A resposta é dois: o hook sempre executa. Na próxima aula, controle do navegador.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "O que GARANTE a formatação?",
+     "opcoes": [
+      "1 · Instrução no prompt",
+      "2 · Hook"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 6.4",
+     "em": "próxima",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "28f8abd25e",
+   "texto": "Você escreveu no prompt: sempre formate o código. E a IA esqueceu. Como garantir que algo aconteça sempre, sem depender da memória dela?",
+   "audio": "audio/gancho-28f8abd25e.mp3",
+   "duracao": 10.344,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.05,
+     "f": 0.3
+    },
+    {
+     "p": "escreveu",
+     "i": 0.3,
+     "f": 0.738
+    },
+    {
+     "p": "no",
+     "i": 0.738,
+     "f": 0.838
+    },
+    {
+     "p": "prompt",
+     "i": 0.838,
+     "f": 1.275
+    },
+    {
+     "p": "sempre",
+     "i": 1.525,
+     "f": 1.975
+    },
+    {
+     "p": "formate",
+     "i": 1.975,
+     "f": 2.462
+    },
+    {
+     "p": "o",
+     "i": 2.462,
+     "f": 2.512
+    },
+    {
+     "p": "código",
+     "i": 2.513,
+     "f": 2.963
+    },
+    {
+     "p": "E",
+     "i": 3.3,
+     "f": 3.438
+    },
+    {
+     "p": "a",
+     "i": 3.438,
+     "f": 3.562
+    },
+    {
+     "p": "IA",
+     "i": 3.562,
+     "f": 5
+    },
+    {
+     "p": "esqueceu",
+     "i": 5,
+     "f": 5.638
+    },
+    {
+     "p": "Como",
+     "i": 6,
+     "f": 6.188
+    },
+    {
+     "p": "garantir",
+     "i": 6.188,
+     "f": 6.787
+    },
+    {
+     "p": "que",
+     "i": 6.787,
+     "f": 6.925
+    },
+    {
+     "p": "algo",
+     "i": 6.925,
+     "f": 7.112
+    },
+    {
+     "p": "aconteça",
+     "i": 7.112,
+     "f": 7.638
+    },
+    {
+     "p": "sempre",
+     "i": 7.638,
+     "f": 8.137
+    },
+    {
+     "p": "sem",
+     "i": 8.35,
+     "f": 8.537
+    },
+    {
+     "p": "depender",
+     "i": 8.537,
+     "f": 9.112
+    },
+    {
+     "p": "da",
+     "i": 9.113,
+     "f": 9.213
+    },
+    {
+     "p": "memória",
+     "i": 9.213,
+     "f": 9.588
+    },
+    {
+     "p": "dela",
+     "i": 9.588,
+     "f": 9.925
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "9d92b8380c",
+   "texto": "Aula 6.3. Você vai aprender três coisas: a diferença entre instrução e hook, os momentos em que um hook roda, e três exemplos práticos.",
+   "audio": "audio/promessa-9d92b8380c.mp3",
+   "duracao": 9.665,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.05,
+     "f": 0.562
+    },
+    {
+     "p": "6.3",
+     "i": 0.562,
+     "f": 1.587
+    },
+    {
+     "p": "Você",
+     "i": 1.925,
+     "f": 2.125
+    },
+    {
+     "p": "vai",
+     "i": 2.125,
+     "f": 2.237
+    },
+    {
+     "p": "aprender",
+     "i": 2.237,
+     "f": 2.712
+    },
+    {
+     "p": "três",
+     "i": 2.712,
+     "f": 3.025
+    },
+    {
+     "p": "coisas",
+     "i": 3.025,
+     "f": 3.537
+    },
+    {
+     "p": "a",
+     "i": 3.812,
+     "f": 3.888
+    },
+    {
+     "p": "diferença",
+     "i": 3.888,
+     "f": 4.4
+    },
+    {
+     "p": "entre",
+     "i": 4.4,
+     "f": 4.6
+    },
+    {
+     "p": "instrução",
+     "i": 4.6,
+     "f": 5.225
+    },
+    {
+     "p": "e",
+     "i": 5.225,
+     "f": 5.3
+    },
+    {
+     "p": "hook",
+     "i": 5.3,
+     "f": 5.725
+    },
+    {
+     "p": "os",
+     "i": 5.888,
+     "f": 5.975
+    },
+    {
+     "p": "momentos",
+     "i": 5.975,
+     "f": 6.462
+    },
+    {
+     "p": "em",
+     "i": 6.463,
+     "f": 6.638
+    },
+    {
+     "p": "que",
+     "i": 6.638,
+     "f": 6.75
+    },
+    {
+     "p": "um",
+     "i": 6.75,
+     "f": 6.862
+    },
+    {
+     "p": "hook",
+     "i": 6.862,
+     "f": 7.2
+    },
+    {
+     "p": "roda",
+     "i": 7.2,
+     "f": 7.625
+    },
+    {
+     "p": "e",
+     "i": 7.787,
+     "f": 7.887
+    },
+    {
+     "p": "três",
+     "i": 7.888,
+     "f": 8.137
+    },
+    {
+     "p": "exemplos",
+     "i": 8.137,
+     "f": 8.637
+    },
+    {
+     "p": "práticos",
+     "i": 8.637,
+     "f": 9.275
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "e4bf7e4589",
+   "texto": "Uma instrução no prompt é um pedido. A IA lê, interpreta e pode esquecer. Um hook, ou gancho, é um comando que o Claude Code executa sempre, em momentos definidos.",
+   "audio": "audio/conceito-e4bf7e4589.mp3",
+   "duracao": 12.33,
+   "palavras": [
+    {
+     "p": "Uma",
+     "i": 0.05,
+     "f": 0.275
+    },
+    {
+     "p": "instrução",
+     "i": 0.275,
+     "f": 0.812
+    },
+    {
+     "p": "no",
+     "i": 0.812,
+     "f": 0.938
+    },
+    {
+     "p": "prompt",
+     "i": 0.938,
+     "f": 1.375
+    },
+    {
+     "p": "é",
+     "i": 1.375,
+     "f": 1.425
+    },
+    {
+     "p": "um",
+     "i": 1.425,
+     "f": 1.525
+    },
+    {
+     "p": "pedido",
+     "i": 1.525,
+     "f": 2.1
+    },
+    {
+     "p": "A",
+     "i": 2.438,
+     "f": 2.525
+    },
+    {
+     "p": "IA",
+     "i": 2.525,
+     "f": 3.812
+    },
+    {
+     "p": "lê",
+     "i": 3.812,
+     "f": 4.213
+    },
+    {
+     "p": "interpreta",
+     "i": 4.475,
+     "f": 5.412
+    },
+    {
+     "p": "e",
+     "i": 5.412,
+     "f": 5.487
+    },
+    {
+     "p": "pode",
+     "i": 5.487,
+     "f": 5.737
+    },
+    {
+     "p": "esquecer",
+     "i": 5.737,
+     "f": 6.263
+    },
+    {
+     "p": "Um",
+     "i": 6.6,
+     "f": 6.787
+    },
+    {
+     "p": "hook",
+     "i": 6.787,
+     "f": 7.125
+    },
+    {
+     "p": "ou",
+     "i": 7.287,
+     "f": 7.45
+    },
+    {
+     "p": "gancho",
+     "i": 7.45,
+     "f": 7.888
+    },
+    {
+     "p": "é",
+     "i": 8.088,
+     "f": 8.162
+    },
+    {
+     "p": "um",
+     "i": 8.162,
+     "f": 8.225
+    },
+    {
+     "p": "comando",
+     "i": 8.225,
+     "f": 8.688
+    },
+    {
+     "p": "que",
+     "i": 8.688,
+     "f": 8.75
+    },
+    {
+     "p": "o",
+     "i": 8.75,
+     "f": 8.825
+    },
+    {
+     "p": "Claude",
+     "i": 8.825,
+     "f": 9.15
+    },
+    {
+     "p": "Code",
+     "i": 9.15,
+     "f": 9.438
+    },
+    {
+     "p": "executa",
+     "i": 9.438,
+     "f": 9.912
+    },
+    {
+     "p": "sempre",
+     "i": 9.912,
+     "f": 10.45
+    },
+    {
+     "p": "em",
+     "i": 10.625,
+     "f": 10.725
+    },
+    {
+     "p": "momentos",
+     "i": 10.725,
+     "f": 11.175
+    },
+    {
+     "p": "definidos",
+     "i": 11.175,
+     "f": 11.925
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "6935ac6b61",
+   "texto": "Pense num recado no mural: lembre de apagar a luz. Pode ser esquecido. O hook é o sensor de presença: saiu da sala, a luz apaga. Sempre, sozinho.",
+   "audio": "audio/analogia-6935ac6b61.mp3",
+   "duracao": 11.389,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.05,
+     "f": 0.388
+    },
+    {
+     "p": "num",
+     "i": 0.388,
+     "f": 0.488
+    },
+    {
+     "p": "recado",
+     "i": 0.487,
+     "f": 0.95
+    },
+    {
+     "p": "no",
+     "i": 0.95,
+     "f": 1.025
+    },
+    {
+     "p": "mural",
+     "i": 1.025,
+     "f": 1.4
+    },
+    {
+     "p": "lembre",
+     "i": 1.738,
+     "f": 2.15
+    },
+    {
+     "p": "de",
+     "i": 2.15,
+     "f": 2.225
+    },
+    {
+     "p": "apagar",
+     "i": 2.225,
+     "f": 2.663
+    },
+    {
+     "p": "a",
+     "i": 2.663,
+     "f": 2.688
+    },
+    {
+     "p": "luz",
+     "i": 2.688,
+     "f": 3.163
+    },
+    {
+     "p": "Pode",
+     "i": 3.538,
+     "f": 3.812
+    },
+    {
+     "p": "ser",
+     "i": 3.812,
+     "f": 4.013
+    },
+    {
+     "p": "esquecido",
+     "i": 4.013,
+     "f": 4.737
+    },
+    {
+     "p": "O",
+     "i": 5.088,
+     "f": 5.225
+    },
+    {
+     "p": "hook",
+     "i": 5.225,
+     "f": 5.537
+    },
+    {
+     "p": "é",
+     "i": 5.537,
+     "f": 5.625
+    },
+    {
+     "p": "o",
+     "i": 5.625,
+     "f": 5.662
+    },
+    {
+     "p": "sensor",
+     "i": 5.662,
+     "f": 6.1
+    },
+    {
+     "p": "de",
+     "i": 6.1,
+     "f": 6.175
+    },
+    {
+     "p": "presença",
+     "i": 6.175,
+     "f": 6.75
+    },
+    {
+     "p": "saiu",
+     "i": 7.025,
+     "f": 7.375
+    },
+    {
+     "p": "da",
+     "i": 7.375,
+     "f": 7.513
+    },
+    {
+     "p": "sala",
+     "i": 7.513,
+     "f": 7.925
+    },
+    {
+     "p": "a",
+     "i": 8.137,
+     "f": 8.188
+    },
+    {
+     "p": "luz",
+     "i": 8.188,
+     "f": 8.488
+    },
+    {
+     "p": "apaga",
+     "i": 8.488,
+     "f": 9.075
+    },
+    {
+     "p": "Sempre",
+     "i": 9.412,
+     "f": 10.125
+    },
+    {
+     "p": "sozinho",
+     "i": 10.312,
+     "f": 11.012
+    }
+   ]
+  },
+  "momentos": {
+   "hash": "f8739c7588",
+   "texto": "Os momentos principais são três. PreToolUse, antes de uma ferramenta. PostToolUse, depois dela. E Stop, quando o Claude termina de responder.",
+   "audio": "audio/momentos-f8739c7588.mp3",
+   "duracao": 10.162,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.05,
+     "f": 0.188
+    },
+    {
+     "p": "momentos",
+     "i": 0.188,
+     "f": 0.7
+    },
+    {
+     "p": "principais",
+     "i": 0.7,
+     "f": 1.438
+    },
+    {
+     "p": "são",
+     "i": 1.438,
+     "f": 1.675
+    },
+    {
+     "p": "três",
+     "i": 1.675,
+     "f": 2.125
+    },
+    {
+     "p": "PreToolUse",
+     "i": 2.462,
+     "f": 3.263
+    },
+    {
+     "p": "antes",
+     "i": 3.513,
+     "f": 3.888
+    },
+    {
+     "p": "de",
+     "i": 3.888,
+     "f": 3.975
+    },
+    {
+     "p": "uma",
+     "i": 3.975,
+     "f": 4.1
+    },
+    {
+     "p": "ferramenta",
+     "i": 4.1,
+     "f": 4.737
+    },
+    {
+     "p": "PostToolUse",
+     "i": 5.088,
+     "f": 6
+    },
+    {
+     "p": "depois",
+     "i": 6.237,
+     "f": 6.587
+    },
+    {
+     "p": "dela",
+     "i": 6.588,
+     "f": 6.938
+    },
+    {
+     "p": "E",
+     "i": 7.275,
+     "f": 7.388
+    },
+    {
+     "p": "Stop",
+     "i": 7.388,
+     "f": 7.9
+    },
+    {
+     "p": "quando",
+     "i": 8.125,
+     "f": 8.35
+    },
+    {
+     "p": "o",
+     "i": 8.35,
+     "f": 8.412
+    },
+    {
+     "p": "Claude",
+     "i": 8.412,
+     "f": 8.762
+    },
+    {
+     "p": "termina",
+     "i": 8.762,
+     "f": 9.175
+    },
+    {
+     "p": "de",
+     "i": 9.175,
+     "f": 9.225
+    },
+    {
+     "p": "responder",
+     "i": 9.225,
+     "f": 9.787
+    }
+   ]
+  },
+  "exemplo-formatar": {
+   "hash": "c674ef5f39",
+   "texto": "Exemplo um: formatar arquivos. Depois que o Claude edita ou cria um arquivo, o hook roda o Prettier. Fica no arquivo ponto claude, barra settings ponto json.",
+   "audio": "audio/exemplo-formatar-c674ef5f39.mp3",
+   "duracao": 10.684,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.05,
+     "f": 0.663
+    },
+    {
+     "p": "um",
+     "i": 0.662,
+     "f": 0.825
+    },
+    {
+     "p": "formatar",
+     "i": 1.075,
+     "f": 1.663
+    },
+    {
+     "p": "arquivos",
+     "i": 1.663,
+     "f": 2.375
+    },
+    {
+     "p": "Depois",
+     "i": 2.725,
+     "f": 3.1
+    },
+    {
+     "p": "que",
+     "i": 3.1,
+     "f": 3.188
+    },
+    {
+     "p": "o",
+     "i": 3.188,
+     "f": 3.25
+    },
+    {
+     "p": "Claude",
+     "i": 3.25,
+     "f": 3.525
+    },
+    {
+     "p": "edita",
+     "i": 3.525,
+     "f": 3.975
+    },
+    {
+     "p": "ou",
+     "i": 3.975,
+     "f": 4.1
+    },
+    {
+     "p": "cria",
+     "i": 4.1,
+     "f": 4.362
+    },
+    {
+     "p": "um",
+     "i": 4.362,
+     "f": 4.475
+    },
+    {
+     "p": "arquivo",
+     "i": 4.475,
+     "f": 5.012
+    },
+    {
+     "p": "o",
+     "i": 5.2,
+     "f": 5.312
+    },
+    {
+     "p": "hook",
+     "i": 5.312,
+     "f": 5.65
+    },
+    {
+     "p": "roda",
+     "i": 5.65,
+     "f": 5.975
+    },
+    {
+     "p": "o",
+     "i": 5.975,
+     "f": 6.012
+    },
+    {
+     "p": "Prettier",
+     "i": 6.013,
+     "f": 6.45
+    },
+    {
+     "p": "Fica",
+     "i": 6.8,
+     "f": 7.125
+    },
+    {
+     "p": "no",
+     "i": 7.125,
+     "f": 7.2
+    },
+    {
+     "p": "arquivo",
+     "i": 7.2,
+     "f": 7.6
+    },
+    {
+     "p": "ponto",
+     "i": 7.6,
+     "f": 7.938
+    },
+    {
+     "p": "claude",
+     "i": 7.938,
+     "f": 8.338
+    },
+    {
+     "p": "barra",
+     "i": 8.588,
+     "f": 8.912
+    },
+    {
+     "p": "settings",
+     "i": 8.912,
+     "f": 9.562
+    },
+    {
+     "p": "ponto",
+     "i": 9.562,
+     "f": 9.975
+    },
+    {
+     "p": "json",
+     "i": 9.975,
+     "f": 10.3
+    }
+   ]
+  },
+  "exemplo-bloquear": {
+   "hash": "7340cd96c9",
+   "texto": "Exemplo dois: bloquear comandos perigosos. Antes de cada comando Bash, o hook confere o texto. Se achar algo como rm menos rf, sai com código 2, e a ação é bloqueada.",
+   "audio": "audio/exemplo-bloquear-7340cd96c9.mp3",
+   "duracao": 12.565,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.05,
+     "f": 0.65
+    },
+    {
+     "p": "dois",
+     "i": 0.65,
+     "f": 1.075
+    },
+    {
+     "p": "bloquear",
+     "i": 1.288,
+     "f": 1.838
+    },
+    {
+     "p": "comandos",
+     "i": 1.837,
+     "f": 2.275
+    },
+    {
+     "p": "perigosos",
+     "i": 2.275,
+     "f": 3.075
+    },
+    {
+     "p": "Antes",
+     "i": 3.413,
+     "f": 3.788
+    },
+    {
+     "p": "de",
+     "i": 3.788,
+     "f": 3.9
+    },
+    {
+     "p": "cada",
+     "i": 3.9,
+     "f": 4.188
+    },
+    {
+     "p": "comando",
+     "i": 4.188,
+     "f": 4.588
+    },
+    {
+     "p": "Bash",
+     "i": 4.588,
+     "f": 5.025
+    },
+    {
+     "p": "o",
+     "i": 5.225,
+     "f": 5.337
+    },
+    {
+     "p": "hook",
+     "i": 5.338,
+     "f": 5.65
+    },
+    {
+     "p": "confere",
+     "i": 5.65,
+     "f": 6.1
+    },
+    {
+     "p": "o",
+     "i": 6.1,
+     "f": 6.162
+    },
+    {
+     "p": "texto",
+     "i": 6.162,
+     "f": 6.6
+    },
+    {
+     "p": "Se",
+     "i": 6.95,
+     "f": 7.112
+    },
+    {
+     "p": "achar",
+     "i": 7.112,
+     "f": 7.425
+    },
+    {
+     "p": "algo",
+     "i": 7.425,
+     "f": 7.75
+    },
+    {
+     "p": "como",
+     "i": 7.75,
+     "f": 7.987
+    },
+    {
+     "p": "rm",
+     "i": 7.987,
+     "f": 8.512
+    },
+    {
+     "p": "menos",
+     "i": 8.512,
+     "f": 8.775
+    },
+    {
+     "p": "rf",
+     "i": 8.775,
+     "f": 9.438
+    },
+    {
+     "p": "sai",
+     "i": 9.625,
+     "f": 9.812
+    },
+    {
+     "p": "com",
+     "i": 9.812,
+     "f": 9.988
+    },
+    {
+     "p": "código",
+     "i": 9.988,
+     "f": 10.35
+    },
+    {
+     "p": "2",
+     "i": 10.35,
+     "f": 10.737
+    },
+    {
+     "p": "e",
+     "i": 10.938,
+     "f": 11.012
+    },
+    {
+     "p": "a",
+     "i": 11.012,
+     "f": 11.112
+    },
+    {
+     "p": "ação",
+     "i": 11.113,
+     "f": 11.475
+    },
+    {
+     "p": "é",
+     "i": 11.475,
+     "f": 11.512
+    },
+    {
+     "p": "bloqueada",
+     "i": 11.512,
+     "f": 12.188
+    }
+   ]
+  },
+  "exemplo-avisar": {
+   "hash": "aece726c99",
+   "texto": "Exemplo três: avisar quando terminar. No evento Stop, o hook manda uma notificação. Você faz outra coisa e é chamado só no fim.",
+   "audio": "audio/exemplo-avisar-aece726c99.mp3",
+   "duracao": 9.561,
+   "palavras": [
+    {
+     "p": "Exemplo",
+     "i": 0.05,
+     "f": 0.663
+    },
+    {
+     "p": "três",
+     "i": 0.662,
+     "f": 1.087
+    },
+    {
+     "p": "avisar",
+     "i": 1.35,
+     "f": 1.925
+    },
+    {
+     "p": "quando",
+     "i": 1.925,
+     "f": 2.225
+    },
+    {
+     "p": "terminar",
+     "i": 2.225,
+     "f": 2.712
+    },
+    {
+     "p": "No",
+     "i": 3.062,
+     "f": 3.212
+    },
+    {
+     "p": "evento",
+     "i": 3.212,
+     "f": 3.65
+    },
+    {
+     "p": "Stop",
+     "i": 3.65,
+     "f": 4.088
+    },
+    {
+     "p": "o",
+     "i": 4.438,
+     "f": 4.537
+    },
+    {
+     "p": "hook",
+     "i": 4.537,
+     "f": 4.85
+    },
+    {
+     "p": "manda",
+     "i": 4.85,
+     "f": 5.15
+    },
+    {
+     "p": "uma",
+     "i": 5.15,
+     "f": 5.263
+    },
+    {
+     "p": "notificação",
+     "i": 5.263,
+     "f": 6.15
+    },
+    {
+     "p": "Você",
+     "i": 6.5,
+     "f": 6.713
+    },
+    {
+     "p": "faz",
+     "i": 6.713,
+     "f": 6.913
+    },
+    {
+     "p": "outra",
+     "i": 6.912,
+     "f": 7.262
+    },
+    {
+     "p": "coisa",
+     "i": 7.263,
+     "f": 7.812
+    },
+    {
+     "p": "e",
+     "i": 7.812,
+     "f": 7.9
+    },
+    {
+     "p": "é",
+     "i": 7.9,
+     "f": 7.963
+    },
+    {
+     "p": "chamado",
+     "i": 7.963,
+     "f": 8.463
+    },
+    {
+     "p": "só",
+     "i": 8.463,
+     "f": 8.725
+    },
+    {
+     "p": "no",
+     "i": 8.725,
+     "f": 8.812
+    },
+    {
+     "p": "fim",
+     "i": 8.812,
+     "f": 9.175
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "54bf9060f1",
+   "texto": "O erro comum: copiar um hook sem ler. Ele roda no seu computador, com as suas permissões. Leia o comando antes de salvar.",
+   "audio": "audio/erro-comum-54bf9060f1.mp3",
+   "duracao": 8.594,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.05,
+     "f": 0.2
+    },
+    {
+     "p": "erro",
+     "i": 0.2,
+     "f": 0.425
+    },
+    {
+     "p": "comum",
+     "i": 0.425,
+     "f": 0.875
+    },
+    {
+     "p": "copiar",
+     "i": 1.062,
+     "f": 1.525
+    },
+    {
+     "p": "um",
+     "i": 1.525,
+     "f": 1.637
+    },
+    {
+     "p": "hook",
+     "i": 1.637,
+     "f": 1.95
+    },
+    {
+     "p": "sem",
+     "i": 1.95,
+     "f": 2.2
+    },
+    {
+     "p": "ler",
+     "i": 2.2,
+     "f": 2.438
+    },
+    {
+     "p": "Ele",
+     "i": 2.775,
+     "f": 3
+    },
+    {
+     "p": "roda",
+     "i": 3,
+     "f": 3.375
+    },
+    {
+     "p": "no",
+     "i": 3.375,
+     "f": 3.475
+    },
+    {
+     "p": "seu",
+     "i": 3.475,
+     "f": 3.638
+    },
+    {
+     "p": "computador",
+     "i": 3.638,
+     "f": 4.288
+    },
+    {
+     "p": "com",
+     "i": 4.463,
+     "f": 4.625
+    },
+    {
+     "p": "as",
+     "i": 4.625,
+     "f": 4.725
+    },
+    {
+     "p": "suas",
+     "i": 4.725,
+     "f": 4.987
+    },
+    {
+     "p": "permissões",
+     "i": 4.987,
+     "f": 5.875
+    },
+    {
+     "p": "Leia",
+     "i": 6.213,
+     "f": 6.663
+    },
+    {
+     "p": "o",
+     "i": 6.662,
+     "f": 6.7
+    },
+    {
+     "p": "comando",
+     "i": 6.7,
+     "f": 7.25
+    },
+    {
+     "p": "antes",
+     "i": 7.25,
+     "f": 7.6
+    },
+    {
+     "p": "de",
+     "i": 7.6,
+     "f": 7.712
+    },
+    {
+     "p": "salvar",
+     "i": 7.713,
+     "f": 8.188
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "dc0d902157",
+   "texto": "Pause o vídeo e tente: escreva um hook que avisa quando o Claude terminar. Qual evento você usaria?",
+   "audio": "audio/pratica-dc0d902157.mp3",
+   "duracao": 6.426,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.05,
+     "f": 0.4
+    },
+    {
+     "p": "o",
+     "i": 0.4,
+     "f": 0.45
+    },
+    {
+     "p": "vídeo",
+     "i": 0.45,
+     "f": 0.863
+    },
+    {
+     "p": "e",
+     "i": 0.863,
+     "f": 0.938
+    },
+    {
+     "p": "tente",
+     "i": 0.938,
+     "f": 1.337
+    },
+    {
+     "p": "escreva",
+     "i": 1.625,
+     "f": 2.075
+    },
+    {
+     "p": "um",
+     "i": 2.075,
+     "f": 2.175
+    },
+    {
+     "p": "hook",
+     "i": 2.175,
+     "f": 2.55
+    },
+    {
+     "p": "que",
+     "i": 2.55,
+     "f": 2.65
+    },
+    {
+     "p": "avisa",
+     "i": 2.65,
+     "f": 3.15
+    },
+    {
+     "p": "quando",
+     "i": 3.15,
+     "f": 3.362
+    },
+    {
+     "p": "o",
+     "i": 3.362,
+     "f": 3.387
+    },
+    {
+     "p": "Claude",
+     "i": 3.388,
+     "f": 3.725
+    },
+    {
+     "p": "terminar",
+     "i": 3.725,
+     "f": 4.162
+    },
+    {
+     "p": "Qual",
+     "i": 4.5,
+     "f": 4.725
+    },
+    {
+     "p": "evento",
+     "i": 4.725,
+     "f": 5.237
+    },
+    {
+     "p": "você",
+     "i": 5.237,
+     "f": 5.475
+    },
+    {
+     "p": "usaria",
+     "i": 5.475,
+     "f": 6.012
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "7904464307",
+   "texto": "Resumindo. Instrução é pedido, hook é regra. Hooks rodam antes, depois ou no fim. E servem para formatar, bloquear e avisar.",
+   "audio": "audio/resumo-7904464307.mp3",
+   "duracao": 9.874,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.05,
+     "f": 0.85
+    },
+    {
+     "p": "Instrução",
+     "i": 1.188,
+     "f": 1.775
+    },
+    {
+     "p": "é",
+     "i": 1.775,
+     "f": 1.812
+    },
+    {
+     "p": "pedido",
+     "i": 1.812,
+     "f": 2.337
+    },
+    {
+     "p": "hook",
+     "i": 2.612,
+     "f": 2.837
+    },
+    {
+     "p": "é",
+     "i": 2.837,
+     "f": 2.9
+    },
+    {
+     "p": "regra",
+     "i": 2.9,
+     "f": 3.35
+    },
+    {
+     "p": "Hooks",
+     "i": 3.688,
+     "f": 4.037
+    },
+    {
+     "p": "rodam",
+     "i": 4.037,
+     "f": 4.475
+    },
+    {
+     "p": "antes",
+     "i": 4.475,
+     "f": 4.887
+    },
+    {
+     "p": "depois",
+     "i": 5.062,
+     "f": 5.525
+    },
+    {
+     "p": "ou",
+     "i": 5.525,
+     "f": 5.738
+    },
+    {
+     "p": "no",
+     "i": 5.737,
+     "f": 5.825
+    },
+    {
+     "p": "fim",
+     "i": 5.825,
+     "f": 6.213
+    },
+    {
+     "p": "E",
+     "i": 6.55,
+     "f": 6.638
+    },
+    {
+     "p": "servem",
+     "i": 6.638,
+     "f": 7.125
+    },
+    {
+     "p": "para",
+     "i": 7.125,
+     "f": 7.325
+    },
+    {
+     "p": "formatar",
+     "i": 7.325,
+     "f": 7.975
+    },
+    {
+     "p": "bloquear",
+     "i": 8.238,
+     "f": 8.9
+    },
+    {
+     "p": "e",
+     "i": 8.9,
+     "f": 8.988
+    },
+    {
+     "p": "avisar",
+     "i": 8.988,
+     "f": 9.488
+    }
+   ]
+  },
+  "final": {
+   "hash": "be722d7440",
+   "texto": "Quiz: qual garante que o código sempre será formatado? Um, a instrução no prompt. Dois, um hook. A resposta é dois: o hook sempre executa. Na próxima aula, controle do navegador.",
+   "audio": "audio/final-be722d7440.mp3",
+   "duracao": 13.714,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.05,
+     "f": 0.438
+    },
+    {
+     "p": "qual",
+     "i": 0.662,
+     "f": 0.85
+    },
+    {
+     "p": "garante",
+     "i": 0.85,
+     "f": 1.362
+    },
+    {
+     "p": "que",
+     "i": 1.363,
+     "f": 1.45
+    },
+    {
+     "p": "o",
+     "i": 1.45,
+     "f": 1.525
+    },
+    {
+     "p": "código",
+     "i": 1.525,
+     "f": 1.912
+    },
+    {
+     "p": "sempre",
+     "i": 1.913,
+     "f": 2.388
+    },
+    {
+     "p": "será",
+     "i": 2.388,
+     "f": 2.638
+    },
+    {
+     "p": "formatado",
+     "i": 2.638,
+     "f": 3.35
+    },
+    {
+     "p": "Um",
+     "i": 3.7,
+     "f": 4
+    },
+    {
+     "p": "a",
+     "i": 4.225,
+     "f": 4.312
+    },
+    {
+     "p": "instrução",
+     "i": 4.312,
+     "f": 4.975
+    },
+    {
+     "p": "no",
+     "i": 4.975,
+     "f": 5.087
+    },
+    {
+     "p": "prompt",
+     "i": 5.088,
+     "f": 5.562
+    },
+    {
+     "p": "Dois",
+     "i": 5.9,
+     "f": 6.4
+    },
+    {
+     "p": "um",
+     "i": 6.625,
+     "f": 6.787
+    },
+    {
+     "p": "hook",
+     "i": 6.787,
+     "f": 7.212
+    },
+    {
+     "p": "A",
+     "i": 7.55,
+     "f": 7.65
+    },
+    {
+     "p": "resposta",
+     "i": 7.65,
+     "f": 8.138
+    },
+    {
+     "p": "é",
+     "i": 8.137,
+     "f": 8.162
+    },
+    {
+     "p": "dois",
+     "i": 8.162,
+     "f": 8.6
+    },
+    {
+     "p": "o",
+     "i": 8.85,
+     "f": 8.938
+    },
+    {
+     "p": "hook",
+     "i": 8.938,
+     "f": 9.238
+    },
+    {
+     "p": "sempre",
+     "i": 9.238,
+     "f": 9.7
+    },
+    {
+     "p": "executa",
+     "i": 9.7,
+     "f": 10.312
+    },
+    {
+     "p": "Na",
+     "i": 10.662,
+     "f": 10.887
+    },
+    {
+     "p": "próxima",
+     "i": 10.887,
+     "f": 11.438
+    },
+    {
+     "p": "aula",
+     "i": 11.438,
+     "f": 11.775
+    },
+    {
+     "p": "controle",
+     "i": 11.938,
+     "f": 12.613
+    },
+    {
+     "p": "do",
+     "i": 12.613,
+     "f": 12.7
+    },
+    {
+     "p": "navegador",
+     "i": 12.7,
+     "f": 13.337
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "servidores": {
+   "arquivo": "imagens/servidores-5c53c8c0.jpg",
+   "rotulo": "Servidores de data center",
+   "commons": "Data center servers",
+   "autor": "BalticServers.com",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+   "titulo": "File:BalticServers data center.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.944Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Code Docs — Automate actions with hooks",
+   "url": "https://code.claude.com/docs/en/hooks-guide"
+  },
+  {
+   "titulo": "Claude Code Docs — Hooks reference",
+   "url": "https://code.claude.com/docs/en/hooks"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }
