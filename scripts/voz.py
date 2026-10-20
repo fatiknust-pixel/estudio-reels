@@ -8,7 +8,7 @@ os áudios ao lado, em audio/<cena>-<hash>.mp3 (nome novo a cada mudança, entã
 Uso: python3 scripts/voz.py <pasta-ou-projeto.json> [--midia PASTA] [--forcar]
   --midia: onde ficam audio/ (padrão: a pasta do projeto.json)
 """
-import argparse, asyncio, hashlib, json, os, subprocess, sys, time
+import argparse, asyncio, hashlib, json, os, re, subprocess, sys, time
 
 
 def duracao(arquivo):
@@ -45,6 +45,7 @@ FILTRO_VOZ = ",".join([
     "deesser=i=0.35",
     "acompressor=threshold=-21dB:ratio=2.8:attack=6:release=90:makeup=2",
     "loudnorm=I=-16:TP=-1.5:LRA=7",
+    "apad=pad_dur=0.4",  # respiro no fim: o corte nunca come a última sílaba
 ])
 
 
@@ -52,6 +53,19 @@ def tratar(arquivo):
     tmp = arquivo + ".tmp.mp3"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", arquivo, "-af", FILTRO_VOZ, "-ar", "44100", "-ac", "1", "-b:a", "160k", tmp], check=True)
     os.replace(tmp, arquivo)
+
+
+def carregar_pronuncias():
+    """scripts/pronuncias.json: como a voz deve ler termos em inglês/siglas (ex.: Claude -> Clód)."""
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pronuncias.json")
+    d = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}
+    return {k: v for k, v in d.items() if not k.startswith("_")}
+
+
+def falado(texto, pron):
+    for k in sorted(pron, key=len, reverse=True):
+        texto = re.sub(rf"(?<![\wÀ-ÿ]){re.escape(k)}(?![\wÀ-ÿ])", pron[k], texto)
+    return texto
 
 
 def main():
@@ -68,10 +82,13 @@ def main():
     trat = bool(voz.get("tratamento"))
     anterior = p.get("narracao") or {}
     nova = {}
+    pron = carregar_pronuncias()
+    volta = {re.sub(r"[^\w]", "", v).lower(): k for k, v in pron.items()}
     os.makedirs(os.path.join(midia, "audio"), exist_ok=True)
     for cena in p.get("cenas", []):
         cid, texto = cena["id"], cena["texto"].strip()
-        h = hashlib.sha1(f"edge|{voz_id}|{vel}|{texto}{'|estudio' if trat else ''}".encode()).hexdigest()[:10]
+        lido = falado(texto, pron)
+        h = hashlib.sha1(f"edge|{voz_id}|{vel}|{lido}{'|estudio' if trat else ''}".encode()).hexdigest()[:10]
         velho = anterior.get(cid)
         if velho and velho.get("hash") == h and os.path.exists(os.path.join(midia, velho["audio"])) and not a.forcar:
             nova[cid] = velho
@@ -82,9 +99,11 @@ def main():
         print(f"♪ {cid} …", flush=True)
         for tentativa in range(4):
             try:
-                palavras = asyncio.run(via_edge(texto, voz_id, vel, dest))
+                palavras = asyncio.run(via_edge(lido, voz_id, vel, dest))
                 if not palavras:
                     raise RuntimeError("edge-tts não devolveu o tempo das palavras")
+                for w in palavras:  # a legenda mostra a grafia original, não a da pronúncia
+                    w["p"] = volta.get(re.sub(r"[^\w]", "", w["p"]).lower(), w["p"]) if lido != texto else w["p"]
                 break
             except Exception as e:
                 if tentativa == 3:
