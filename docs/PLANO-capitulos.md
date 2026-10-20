@@ -35,4 +35,4 @@ Decisão do dono do projeto (substitui o plano de 40 aulas de ~2 min):
 ## Já existente no repo
 
 - Os 40 projetos antigos (`projetos/ia-20261019-*`) ficam como histórico; não renderizar de novo.
-- A Aula 1.1 (nova) serviu de amostra do visual Videoaula e foi aprovada para seguir (ver dono).
+- A Aula 1.1 (nova) serviu de amostra do visual Videoaula; o dono pediu refazer tudo em capítulos.
