@@ -1,0 +1,98 @@
+{
+  "titulo": "Aula 4.1: Busca na web × Research no Claude",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Help Center — Using Research on Claude", "url": "https://support.claude.com/en/articles/11088861" },
+    { "titulo": "Anthropic — Research", "url": "https://www.anthropic.com/news/research" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você pergunta algo ao Claude e ele responde em segundos. Mas e se ele pudesse passar minutos pesquisando por você, e voltar com um relatório pronto?",
+      "fontes": ["Anthropic"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "AULA 4.1", "cor": "azul", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "SEGUNDOS OU MINUTOS?", "em": "segundos", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Busca × Research", "icone": "alvo", "em": "minutos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nesta aula você vai aprender três coisas: a diferença entre busca e Research, como ativar o Research, e por que conferir as fontes.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "AULA 4.1", "sub": "Busca na web e Research", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["pin", "Diferença"], ["mais", "Ativar"], ["check", "Fontes"]], "em": "diferença", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Como ativar", "icone": "mais", "em": "ativar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "A busca simples faz uma pesquisa rápida na internet e responde citando as fontes. Serve para uma dúvida pontual, como a cotação de hoje. O Research, que significa pesquisa aprofundada, faz várias buscas encadeadas, cada uma guiada pela anterior, e entrega um relatório com citações.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "BUSCA × RESEARCH", "sub": "Qual é a diferença?", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Busca na web", "significado": "Pesquisa rápida, com fontes citadas", "em": "simples", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Research", "significado": "Pesquisa aprofundada: várias buscas e um relatório", "em": "Research", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Planos pagos", "icone": "dinheiro", "cor": "amarelo", "em": "relatório", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense assim: a busca é perguntar a um colega que acabou de olhar o celular. Rápido, mas superficial. O Research é contratar alguém para ir à biblioteca, ler vários livros e voltar com um resumo organizado.",
+      "elementos": [
+        { "tipo": "icones", "itens": [["celular", "Busca"], ["seta", ""], ["predio", "Research"]], "em": "busca", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Resposta rápida", "icone": "relogio", "em": "celular", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Relatório completo", "icone": "documento", "cor": "verde", "em": "biblioteca", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Como ativar: na caixa de mensagem, clique no botão mais e ligue a busca na web. Para o Research, ligue também o botão Research. Depois digite o pedido, por exemplo, compare planos de internet. Ele leva alguns minutos, e o Research está nos planos pagos.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMO ATIVAR", "sub": "Botão + na caixa de mensagem", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "1. Busca na web", "icone": "mais", "em": "busca", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2. Research", "icone": "alvo", "cor": "verde", "em": "Research", "posicao": "alto2" },
+        { "tipo": "comentario", "texto": "Compare os planos de internet da minha cidade", "em": "digite", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Leva alguns minutos", "icone": "relogio", "em": "minutos", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum: ler o relatório e confiar sem abrir nada. Mesmo com fontes citadas, a IA pode errar um número ou entender mal um texto. Por isso, clique nos links e confira o que a página realmente diz.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Confiar sem conferir", "nota": "Número ou data podem estar errados", "em": "confiar", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Abrir as fontes citadas", "nota": "Compare com o que o Claude escreveu", "em": "errar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: peça ao Claude uma pesquisa sobre um assunto seu, e abra duas fontes citadas para conferir se elas dizem mesmo o que o relatório afirma.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "A FONTE DIZ ISSO?", "em": "duas", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Abra 2 fontes", "icone": "documento", "em": "conferir", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: um, busca é rápida e cita fontes. Dois, Research é profundo, com várias buscas e relatório. Três, as fontes você sempre confere.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["relogio", "Busca rápida"], ["documento", "Research profundo"], ["check", "Confira"]], "em": "busca", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: para um relatório com várias buscas encadeadas, qual usar? A, busca simples, ou B, Research? Pensou? A resposta é B, porque o Research encadeia as buscas. Na próxima aula: conectores do Claude. Siga para não perder!",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Relatório com várias buscas: qual usar?", "opcoes": ["A: Busca simples", "B: Research"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "B: RESEARCH", "cor": "verde", "em": "resposta", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 4.2", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

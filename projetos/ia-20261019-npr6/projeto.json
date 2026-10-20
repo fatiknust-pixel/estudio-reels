@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-npr6",
- "titulo": "Aula 4.1: Busca na web e Research no Claude — explique a diferença ent",
+ "titulo": "Aula 4.1: Busca na web × Research no Claude",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.942Z",
- "atualizadoEm": "2026-10-19T22:53:20Z",
- "status": "erro",
+ "atualizadoEm": "2026-10-20T02:54:29Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 4.1: Busca na web e Research no Claude — explique a diferença entre a busca simples com fontes citadas e o modo Research dos planos pagos, que faz várias buscas encadeadas e entrega um relatório, como ativar pelo botão mais e por que sempre abrir as fontes para conferir",
@@ -62,12 +63,1934 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você pergunta algo ao Claude e ele responde em segundos. Mas e se ele pudesse passar minutos pesquisando por você, e voltar com um relatório pronto?",
+   "fontes": [
+    "Anthropic"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "AULA 4.1",
+     "cor": "azul",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "SEGUNDOS OU MINUTOS?",
+     "em": "segundos",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Busca × Research",
+     "icone": "alvo",
+     "em": "minutos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula você vai aprender três coisas: a diferença entre busca e Research, como ativar o Research, e por que conferir as fontes.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AULA 4.1",
+     "sub": "Busca na web e Research",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pin",
+       "Diferença"
+      ],
+      [
+       "mais",
+       "Ativar"
+      ],
+      [
+       "check",
+       "Fontes"
+      ]
+     ],
+     "em": "diferença",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Como ativar",
+     "icone": "mais",
+     "em": "ativar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "A busca simples faz uma pesquisa rápida na internet e responde citando as fontes. Serve para uma dúvida pontual, como a cotação de hoje. O Research, que significa pesquisa aprofundada, faz várias buscas encadeadas, cada uma guiada pela anterior, e entrega um relatório com citações.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "BUSCA × RESEARCH",
+     "sub": "Qual é a diferença?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Busca na web",
+     "significado": "Pesquisa rápida, com fontes citadas",
+     "em": "simples",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Research",
+     "significado": "Pesquisa aprofundada: várias buscas e um relatório",
+     "em": "Research",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Planos pagos",
+     "icone": "dinheiro",
+     "cor": "amarelo",
+     "em": "relatório",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense assim: a busca é perguntar a um colega que acabou de olhar o celular. Rápido, mas superficial. O Research é contratar alguém para ir à biblioteca, ler vários livros e voltar com um resumo organizado.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "Busca"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "predio",
+       "Research"
+      ]
+     ],
+     "em": "busca",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Resposta rápida",
+     "icone": "relogio",
+     "em": "celular",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Relatório completo",
+     "icone": "documento",
+     "cor": "verde",
+     "em": "biblioteca",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Como ativar: na caixa de mensagem, clique no botão mais e ligue a busca na web. Para o Research, ligue também o botão Research. Depois digite o pedido, por exemplo, compare planos de internet. Ele leva alguns minutos, e o Research está nos planos pagos.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO ATIVAR",
+     "sub": "Botão + na caixa de mensagem",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "1. Busca na web",
+     "icone": "mais",
+     "em": "busca",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2. Research",
+     "icone": "alvo",
+     "cor": "verde",
+     "em": "Research",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Compare os planos de internet da minha cidade",
+     "em": "digite",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Leva alguns minutos",
+     "icone": "relogio",
+     "em": "minutos",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum: ler o relatório e confiar sem abrir nada. Mesmo com fontes citadas, a IA pode errar um número ou entender mal um texto. Por isso, clique nos links e confira o que a página realmente diz.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Confiar sem conferir",
+     "nota": "Número ou data podem estar errados",
+     "em": "confiar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Abrir as fontes citadas",
+     "nota": "Compare com o que o Claude escreveu",
+     "em": "errar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: peça ao Claude uma pesquisa sobre um assunto seu, e abra duas fontes citadas para conferir se elas dizem mesmo o que o relatório afirma.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "A FONTE DIZ ISSO?",
+     "em": "duas",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Abra 2 fontes",
+     "icone": "documento",
+     "em": "conferir",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: um, busca é rápida e cita fontes. Dois, Research é profundo, com várias buscas e relatório. Três, as fontes você sempre confere.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "Busca rápida"
+      ],
+      [
+       "documento",
+       "Research profundo"
+      ],
+      [
+       "check",
+       "Confira"
+      ]
+     ],
+     "em": "busca",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: para um relatório com várias buscas encadeadas, qual usar? A, busca simples, ou B, Research? Pensou? A resposta é B, porque o Research encadeia as buscas. Na próxima aula: conectores do Claude. Siga para não perder!",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Relatório com várias buscas: qual usar?",
+     "opcoes": [
+      "A: Busca simples",
+      "B: Research"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "B: RESEARCH",
+     "cor": "verde",
+     "em": "resposta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 4.2",
+     "em": "Siga",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "709655502f",
+   "texto": "Você pergunta algo ao Claude e ele responde em segundos. Mas e se ele pudesse passar minutos pesquisando por você, e voltar com um relatório pronto?",
+   "audio": "audio/gancho-709655502f.mp3",
+   "duracao": 9.696,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "pergunta",
+     "i": 0.407,
+     "f": 0.919
+    },
+    {
+     "p": "algo",
+     "i": 0.931,
+     "f": 1.193
+    },
+    {
+     "p": "ao",
+     "i": 1.205,
+     "f": 1.312
+    },
+    {
+     "p": "Claude",
+     "i": 1.324,
+     "f": 1.681
+    },
+    {
+     "p": "e",
+     "i": 1.693,
+     "f": 1.729
+    },
+    {
+     "p": "ele",
+     "i": 1.74,
+     "f": 1.871
+    },
+    {
+     "p": "responde",
+     "i": 1.883,
+     "f": 2.371
+    },
+    {
+     "p": "em",
+     "i": 2.383,
+     "f": 2.443
+    },
+    {
+     "p": "segundos",
+     "i": 2.455,
+     "f": 3.086
+    },
+    {
+     "p": "Mas",
+     "i": 3.905,
+     "f": 4.107
+    },
+    {
+     "p": "e",
+     "i": 4.119,
+     "f": 4.25
+    },
+    {
+     "p": "se",
+     "i": 4.262,
+     "f": 4.44
+    },
+    {
+     "p": "ele",
+     "i": 4.452,
+     "f": 4.595
+    },
+    {
+     "p": "pudesse",
+     "i": 4.607,
+     "f": 4.964
+    },
+    {
+     "p": "passar",
+     "i": 4.976,
+     "f": 5.333
+    },
+    {
+     "p": "minutos",
+     "i": 5.345,
+     "f": 5.762
+    },
+    {
+     "p": "pesquisando",
+     "i": 5.774,
+     "f": 6.274
+    },
+    {
+     "p": "por",
+     "i": 6.286,
+     "f": 6.429
+    },
+    {
+     "p": "você",
+     "i": 6.44,
+     "f": 6.857
+    },
+    {
+     "p": "e",
+     "i": 7.202,
+     "f": 7.286
+    },
+    {
+     "p": "voltar",
+     "i": 7.298,
+     "f": 7.714
+    },
+    {
+     "p": "com",
+     "i": 7.726,
+     "f": 7.857
+    },
+    {
+     "p": "um",
+     "i": 7.869,
+     "f": 7.94
+    },
+    {
+     "p": "relatório",
+     "i": 7.952,
+     "f": 8.464
+    },
+    {
+     "p": "pronto",
+     "i": 8.476,
+     "f": 8.857
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "cce38a03a1",
+   "texto": "Nesta aula você vai aprender três coisas: a diferença entre busca e Research, como ativar o Research, e por que conferir as fontes.",
+   "audio": "audio/promessa-cce38a03a1.mp3",
+   "duracao": 8.544,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "aula",
+     "i": 0.419,
+     "f": 0.681
+    },
+    {
+     "p": "você",
+     "i": 0.693,
+     "f": 0.955
+    },
+    {
+     "p": "vai",
+     "i": 0.967,
+     "f": 1.074
+    },
+    {
+     "p": "aprender",
+     "i": 1.086,
+     "f": 1.479
+    },
+    {
+     "p": "três",
+     "i": 1.49,
+     "f": 1.776
+    },
+    {
+     "p": "coisas",
+     "i": 1.788,
+     "f": 2.264
+    },
+    {
+     "p": "a",
+     "i": 2.55,
+     "f": 2.621
+    },
+    {
+     "p": "diferença",
+     "i": 2.633,
+     "f": 3.181
+    },
+    {
+     "p": "entre",
+     "i": 3.193,
+     "f": 3.383
+    },
+    {
+     "p": "busca",
+     "i": 3.395,
+     "f": 3.776
+    },
+    {
+     "p": "e",
+     "i": 3.788,
+     "f": 3.812
+    },
+    {
+     "p": "Research",
+     "i": 3.824,
+     "f": 4.383
+    },
+    {
+     "p": "como",
+     "i": 4.633,
+     "f": 4.836
+    },
+    {
+     "p": "ativar",
+     "i": 4.848,
+     "f": 5.217
+    },
+    {
+     "p": "o",
+     "i": 5.229,
+     "f": 5.264
+    },
+    {
+     "p": "Research",
+     "i": 5.276,
+     "f": 5.824
+    },
+    {
+     "p": "e",
+     "i": 6.11,
+     "f": 6.193
+    },
+    {
+     "p": "por",
+     "i": 6.205,
+     "f": 6.383
+    },
+    {
+     "p": "que",
+     "i": 6.395,
+     "f": 6.55
+    },
+    {
+     "p": "conferir",
+     "i": 6.562,
+     "f": 7.014
+    },
+    {
+     "p": "as",
+     "i": 7.026,
+     "f": 7.145
+    },
+    {
+     "p": "fontes",
+     "i": 7.157,
+     "f": 7.717
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "33e1d7742d",
+   "texto": "A busca simples faz uma pesquisa rápida na internet e responde citando as fontes. Serve para uma dúvida pontual, como a cotação de hoje. O Research, que significa pesquisa aprofundada, faz várias buscas encadeadas, cada uma guiada pela anterior, e entrega um relatório com citações.",
+   "audio": "audio/conceito-33e1d7742d.mp3",
+   "duracao": 19.152,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "busca",
+     "i": 0.229,
+     "f": 0.645
+    },
+    {
+     "p": "simples",
+     "i": 0.657,
+     "f": 1.098
+    },
+    {
+     "p": "faz",
+     "i": 1.11,
+     "f": 1.252
+    },
+    {
+     "p": "uma",
+     "i": 1.264,
+     "f": 1.455
+    },
+    {
+     "p": "pesquisa",
+     "i": 1.467,
+     "f": 1.919
+    },
+    {
+     "p": "rápida",
+     "i": 1.931,
+     "f": 2.312
+    },
+    {
+     "p": "na",
+     "i": 2.324,
+     "f": 2.419
+    },
+    {
+     "p": "internet",
+     "i": 2.431,
+     "f": 3.11
+    },
+    {
+     "p": "e",
+     "i": 3.121,
+     "f": 3.157
+    },
+    {
+     "p": "responde",
+     "i": 3.169,
+     "f": 3.657
+    },
+    {
+     "p": "citando",
+     "i": 3.669,
+     "f": 4.074
+    },
+    {
+     "p": "as",
+     "i": 4.086,
+     "f": 4.217
+    },
+    {
+     "p": "fontes",
+     "i": 4.229,
+     "f": 4.788
+    },
+    {
+     "p": "Serve",
+     "i": 5.607,
+     "f": 6.131
+    },
+    {
+     "p": "para",
+     "i": 6.143,
+     "f": 6.333
+    },
+    {
+     "p": "uma",
+     "i": 6.345,
+     "f": 6.512
+    },
+    {
+     "p": "dúvida",
+     "i": 6.524,
+     "f": 6.893
+    },
+    {
+     "p": "pontual",
+     "i": 6.905,
+     "f": 7.393
+    },
+    {
+     "p": "como",
+     "i": 7.643,
+     "f": 7.857
+    },
+    {
+     "p": "a",
+     "i": 7.869,
+     "f": 7.905
+    },
+    {
+     "p": "cotação",
+     "i": 7.917,
+     "f": 8.405
+    },
+    {
+     "p": "de",
+     "i": 8.417,
+     "f": 8.56
+    },
+    {
+     "p": "hoje",
+     "i": 8.571,
+     "f": 8.905
+    },
+    {
+     "p": "O",
+     "i": 9.726,
+     "f": 9.833
+    },
+    {
+     "p": "Research",
+     "i": 9.845,
+     "f": 10.417
+    },
+    {
+     "p": "que",
+     "i": 10.643,
+     "f": 10.762
+    },
+    {
+     "p": "significa",
+     "i": 10.774,
+     "f": 11.309
+    },
+    {
+     "p": "pesquisa",
+     "i": 11.321,
+     "f": 11.738
+    },
+    {
+     "p": "aprofundada",
+     "i": 11.75,
+     "f": 12.405
+    },
+    {
+     "p": "faz",
+     "i": 12.643,
+     "f": 12.893
+    },
+    {
+     "p": "várias",
+     "i": 12.905,
+     "f": 13.202
+    },
+    {
+     "p": "buscas",
+     "i": 13.214,
+     "f": 13.571
+    },
+    {
+     "p": "encadeadas",
+     "i": 13.583,
+     "f": 14.369
+    },
+    {
+     "p": "cada",
+     "i": 14.607,
+     "f": 14.821
+    },
+    {
+     "p": "uma",
+     "i": 14.833,
+     "f": 15
+    },
+    {
+     "p": "guiada",
+     "i": 15.012,
+     "f": 15.405
+    },
+    {
+     "p": "pela",
+     "i": 15.417,
+     "f": 15.571
+    },
+    {
+     "p": "anterior",
+     "i": 15.583,
+     "f": 16.06
+    },
+    {
+     "p": "e",
+     "i": 16.381,
+     "f": 16.429
+    },
+    {
+     "p": "entrega",
+     "i": 16.44,
+     "f": 16.821
+    },
+    {
+     "p": "um",
+     "i": 16.833,
+     "f": 16.893
+    },
+    {
+     "p": "relatório",
+     "i": 16.905,
+     "f": 17.452
+    },
+    {
+     "p": "com",
+     "i": 17.464,
+     "f": 17.583
+    },
+    {
+     "p": "citações",
+     "i": 17.595,
+     "f": 18.321
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "b3b4609d72",
+   "texto": "Pense assim: a busca é perguntar a um colega que acabou de olhar o celular. Rápido, mas superficial. O Research é contratar alguém para ir à biblioteca, ler vários livros e voltar com um resumo organizado.",
+   "audio": "audio/analogia-b3b4609d72.mp3",
+   "duracao": 13.44,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "assim",
+     "i": 0.419,
+     "f": 0.752
+    },
+    {
+     "p": "a",
+     "i": 1.05,
+     "f": 1.145
+    },
+    {
+     "p": "busca",
+     "i": 1.157,
+     "f": 1.526
+    },
+    {
+     "p": "é",
+     "i": 1.538,
+     "f": 1.574
+    },
+    {
+     "p": "perguntar",
+     "i": 1.586,
+     "f": 2.074
+    },
+    {
+     "p": "a",
+     "i": 2.086,
+     "f": 2.109
+    },
+    {
+     "p": "um",
+     "i": 2.121,
+     "f": 2.181
+    },
+    {
+     "p": "colega",
+     "i": 2.193,
+     "f": 2.621
+    },
+    {
+     "p": "que",
+     "i": 2.633,
+     "f": 2.717
+    },
+    {
+     "p": "acabou",
+     "i": 2.729,
+     "f": 3.086
+    },
+    {
+     "p": "de",
+     "i": 3.098,
+     "f": 3.181
+    },
+    {
+     "p": "olhar",
+     "i": 3.193,
+     "f": 3.455
+    },
+    {
+     "p": "o",
+     "i": 3.467,
+     "f": 3.514
+    },
+    {
+     "p": "celular",
+     "i": 3.526,
+     "f": 3.979
+    },
+    {
+     "p": "Rápido",
+     "i": 4.798,
+     "f": 5.298
+    },
+    {
+     "p": "mas",
+     "i": 5.56,
+     "f": 5.763
+    },
+    {
+     "p": "superficial",
+     "i": 5.774,
+     "f": 6.524
+    },
+    {
+     "p": "O",
+     "i": 7.345,
+     "f": 7.441
+    },
+    {
+     "p": "Research",
+     "i": 7.452,
+     "f": 7.988
+    },
+    {
+     "p": "é",
+     "i": 8,
+     "f": 8.036
+    },
+    {
+     "p": "contratar",
+     "i": 8.048,
+     "f": 8.488
+    },
+    {
+     "p": "alguém",
+     "i": 8.5,
+     "f": 8.786
+    },
+    {
+     "p": "para",
+     "i": 8.798,
+     "f": 9
+    },
+    {
+     "p": "ir",
+     "i": 9.012,
+     "f": 9.107
+    },
+    {
+     "p": "à",
+     "i": 9.119,
+     "f": 9.155
+    },
+    {
+     "p": "biblioteca",
+     "i": 9.167,
+     "f": 9.798
+    },
+    {
+     "p": "ler",
+     "i": 10.012,
+     "f": 10.202
+    },
+    {
+     "p": "vários",
+     "i": 10.214,
+     "f": 10.524
+    },
+    {
+     "p": "livros",
+     "i": 10.536,
+     "f": 10.845
+    },
+    {
+     "p": "e",
+     "i": 10.857,
+     "f": 10.952
+    },
+    {
+     "p": "voltar",
+     "i": 10.964,
+     "f": 11.369
+    },
+    {
+     "p": "com",
+     "i": 11.381,
+     "f": 11.524
+    },
+    {
+     "p": "um",
+     "i": 11.536,
+     "f": 11.607
+    },
+    {
+     "p": "resumo",
+     "i": 11.619,
+     "f": 11.988
+    },
+    {
+     "p": "organizado",
+     "i": 12,
+     "f": 12.619
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "38ec8898f5",
+   "texto": "Como ativar: na caixa de mensagem, clique no botão mais e ligue a busca na web. Para o Research, ligue também o botão Research. Depois digite o pedido, por exemplo, compare planos de internet. Ele leva alguns minutos, e o Research está nos planos pagos.",
+   "audio": "audio/exemplo-38ec8898f5.mp3",
+   "duracao": 17.976,
+   "palavras": [
+    {
+     "p": "Como",
+     "i": 0.098,
+     "f": 0.36
+    },
+    {
+     "p": "ativar",
+     "i": 0.371,
+     "f": 0.788
+    },
+    {
+     "p": "na",
+     "i": 0.955,
+     "f": 1.145
+    },
+    {
+     "p": "caixa",
+     "i": 1.157,
+     "f": 1.455
+    },
+    {
+     "p": "de",
+     "i": 1.467,
+     "f": 1.55
+    },
+    {
+     "p": "mensagem",
+     "i": 1.562,
+     "f": 2.133
+    },
+    {
+     "p": "clique",
+     "i": 2.36,
+     "f": 2.645
+    },
+    {
+     "p": "no",
+     "i": 2.657,
+     "f": 2.752
+    },
+    {
+     "p": "botão",
+     "i": 2.764,
+     "f": 3.157
+    },
+    {
+     "p": "mais",
+     "i": 3.169,
+     "f": 3.395
+    },
+    {
+     "p": "e",
+     "i": 3.407,
+     "f": 3.526
+    },
+    {
+     "p": "ligue",
+     "i": 3.538,
+     "f": 3.776
+    },
+    {
+     "p": "a",
+     "i": 3.788,
+     "f": 3.848
+    },
+    {
+     "p": "busca",
+     "i": 3.86,
+     "f": 4.217
+    },
+    {
+     "p": "na",
+     "i": 4.229,
+     "f": 4.336
+    },
+    {
+     "p": "web",
+     "i": 4.348,
+     "f": 4.776
+    },
+    {
+     "p": "Para",
+     "i": 5.595,
+     "f": 5.786
+    },
+    {
+     "p": "o",
+     "i": 5.798,
+     "f": 5.821
+    },
+    {
+     "p": "Research",
+     "i": 5.833,
+     "f": 6.369
+    },
+    {
+     "p": "ligue",
+     "i": 6.631,
+     "f": 6.869
+    },
+    {
+     "p": "também",
+     "i": 6.881,
+     "f": 7.226
+    },
+    {
+     "p": "o",
+     "i": 7.238,
+     "f": 7.286
+    },
+    {
+     "p": "botão",
+     "i": 7.298,
+     "f": 7.655
+    },
+    {
+     "p": "Research",
+     "i": 7.667,
+     "f": 8.226
+    },
+    {
+     "p": "Depois",
+     "i": 9.048,
+     "f": 9.512
+    },
+    {
+     "p": "digite",
+     "i": 9.524,
+     "f": 9.893
+    },
+    {
+     "p": "o",
+     "i": 9.905,
+     "f": 9.929
+    },
+    {
+     "p": "pedido",
+     "i": 9.94,
+     "f": 10.357
+    },
+    {
+     "p": "por",
+     "i": 10.571,
+     "f": 10.69
+    },
+    {
+     "p": "exemplo",
+     "i": 10.702,
+     "f": 11.155
+    },
+    {
+     "p": "compare",
+     "i": 11.417,
+     "f": 11.857
+    },
+    {
+     "p": "planos",
+     "i": 11.869,
+     "f": 12.25
+    },
+    {
+     "p": "de",
+     "i": 12.262,
+     "f": 12.345
+    },
+    {
+     "p": "internet",
+     "i": 12.357,
+     "f": 12.988
+    },
+    {
+     "p": "Ele",
+     "i": 13.81,
+     "f": 13.988
+    },
+    {
+     "p": "leva",
+     "i": 14,
+     "f": 14.202
+    },
+    {
+     "p": "alguns",
+     "i": 14.214,
+     "f": 14.512
+    },
+    {
+     "p": "minutos",
+     "i": 14.524,
+     "f": 15.012
+    },
+    {
+     "p": "e",
+     "i": 15.286,
+     "f": 15.345
+    },
+    {
+     "p": "o",
+     "i": 15.357,
+     "f": 15.405
+    },
+    {
+     "p": "Research",
+     "i": 15.417,
+     "f": 15.917
+    },
+    {
+     "p": "está",
+     "i": 15.929,
+     "f": 16.119
+    },
+    {
+     "p": "nos",
+     "i": 16.131,
+     "f": 16.298
+    },
+    {
+     "p": "planos",
+     "i": 16.31,
+     "f": 16.655
+    },
+    {
+     "p": "pagos",
+     "i": 16.667,
+     "f": 17.155
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "f39a2a78ca",
+   "texto": "O erro comum: ler o relatório e confiar sem abrir nada. Mesmo com fontes citadas, a IA pode errar um número ou entender mal um texto. Por isso, clique nos links e confira o que a página realmente diz.",
+   "audio": "audio/erro-comum-f39a2a78ca.mp3",
+   "duracao": 14.544,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "erro",
+     "i": 0.252,
+     "f": 0.479
+    },
+    {
+     "p": "comum",
+     "i": 0.49,
+     "f": 0.848
+    },
+    {
+     "p": "ler",
+     "i": 1.181,
+     "f": 1.324
+    },
+    {
+     "p": "o",
+     "i": 1.336,
+     "f": 1.371
+    },
+    {
+     "p": "relatório",
+     "i": 1.383,
+     "f": 1.883
+    },
+    {
+     "p": "e",
+     "i": 1.895,
+     "f": 1.931
+    },
+    {
+     "p": "confiar",
+     "i": 1.943,
+     "f": 2.419
+    },
+    {
+     "p": "sem",
+     "i": 2.431,
+     "f": 2.645
+    },
+    {
+     "p": "abrir",
+     "i": 2.657,
+     "f": 2.967
+    },
+    {
+     "p": "nada",
+     "i": 2.979,
+     "f": 3.348
+    },
+    {
+     "p": "Mesmo",
+     "i": 4.167,
+     "f": 4.548
+    },
+    {
+     "p": "com",
+     "i": 4.56,
+     "f": 4.702
+    },
+    {
+     "p": "fontes",
+     "i": 4.714,
+     "f": 5.048
+    },
+    {
+     "p": "citadas",
+     "i": 5.06,
+     "f": 5.619
+    },
+    {
+     "p": "a",
+     "i": 5.738,
+     "f": 5.798
+    },
+    {
+     "p": "IA",
+     "i": 5.81,
+     "f": 6.988
+    },
+    {
+     "p": "pode",
+     "i": 7,
+     "f": 7.202
+    },
+    {
+     "p": "errar",
+     "i": 7.214,
+     "f": 7.429
+    },
+    {
+     "p": "um",
+     "i": 7.44,
+     "f": 7.524
+    },
+    {
+     "p": "número",
+     "i": 7.536,
+     "f": 7.845
+    },
+    {
+     "p": "ou",
+     "i": 7.857,
+     "f": 7.976
+    },
+    {
+     "p": "entender",
+     "i": 7.988,
+     "f": 8.429
+    },
+    {
+     "p": "mal",
+     "i": 8.44,
+     "f": 8.643
+    },
+    {
+     "p": "um",
+     "i": 8.655,
+     "f": 8.798
+    },
+    {
+     "p": "texto",
+     "i": 8.81,
+     "f": 9.214
+    },
+    {
+     "p": "Por",
+     "i": 10.036,
+     "f": 10.226
+    },
+    {
+     "p": "isso",
+     "i": 10.238,
+     "f": 10.559
+    },
+    {
+     "p": "clique",
+     "i": 10.786,
+     "f": 11.083
+    },
+    {
+     "p": "nos",
+     "i": 11.095,
+     "f": 11.262
+    },
+    {
+     "p": "links",
+     "i": 11.274,
+     "f": 11.571
+    },
+    {
+     "p": "e",
+     "i": 11.583,
+     "f": 11.679
+    },
+    {
+     "p": "confira",
+     "i": 11.69,
+     "f": 12.107
+    },
+    {
+     "p": "o",
+     "i": 12.119,
+     "f": 12.143
+    },
+    {
+     "p": "que",
+     "i": 12.155,
+     "f": 12.25
+    },
+    {
+     "p": "a",
+     "i": 12.262,
+     "f": 12.345
+    },
+    {
+     "p": "página",
+     "i": 12.357,
+     "f": 12.75
+    },
+    {
+     "p": "realmente",
+     "i": 12.762,
+     "f": 13.31
+    },
+    {
+     "p": "diz",
+     "i": 13.321,
+     "f": 13.714
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "479b1f7d89",
+   "texto": "Pause o vídeo e tente: peça ao Claude uma pesquisa sobre um assunto seu, e abra duas fontes citadas para conferir se elas dizem mesmo o que o relatório afirma.",
+   "audio": "audio/pratica-479b1f7d89.mp3",
+   "duracao": 9.288,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "o",
+     "i": 0.407,
+     "f": 0.467
+    },
+    {
+     "p": "vídeo",
+     "i": 0.479,
+     "f": 0.788
+    },
+    {
+     "p": "e",
+     "i": 0.8,
+     "f": 0.871
+    },
+    {
+     "p": "tente",
+     "i": 0.883,
+     "f": 1.24
+    },
+    {
+     "p": "peça",
+     "i": 1.49,
+     "f": 1.776
+    },
+    {
+     "p": "ao",
+     "i": 1.788,
+     "f": 1.871
+    },
+    {
+     "p": "Claude",
+     "i": 1.883,
+     "f": 2.181
+    },
+    {
+     "p": "uma",
+     "i": 2.193,
+     "f": 2.3
+    },
+    {
+     "p": "pesquisa",
+     "i": 2.312,
+     "f": 2.776
+    },
+    {
+     "p": "sobre",
+     "i": 2.788,
+     "f": 3.038
+    },
+    {
+     "p": "um",
+     "i": 3.05,
+     "f": 3.133
+    },
+    {
+     "p": "assunto",
+     "i": 3.145,
+     "f": 3.55
+    },
+    {
+     "p": "seu",
+     "i": 3.562,
+     "f": 3.871
+    },
+    {
+     "p": "e",
+     "i": 4.145,
+     "f": 4.24
+    },
+    {
+     "p": "abra",
+     "i": 4.252,
+     "f": 4.526
+    },
+    {
+     "p": "duas",
+     "i": 4.538,
+     "f": 4.859
+    },
+    {
+     "p": "fontes",
+     "i": 4.871,
+     "f": 5.24
+    },
+    {
+     "p": "citadas",
+     "i": 5.252,
+     "f": 5.681
+    },
+    {
+     "p": "para",
+     "i": 5.693,
+     "f": 5.871
+    },
+    {
+     "p": "conferir",
+     "i": 5.883,
+     "f": 6.324
+    },
+    {
+     "p": "se",
+     "i": 6.336,
+     "f": 6.443
+    },
+    {
+     "p": "elas",
+     "i": 6.455,
+     "f": 6.669
+    },
+    {
+     "p": "dizem",
+     "i": 6.681,
+     "f": 6.979
+    },
+    {
+     "p": "mesmo",
+     "i": 6.99,
+     "f": 7.324
+    },
+    {
+     "p": "o",
+     "i": 7.336,
+     "f": 7.371
+    },
+    {
+     "p": "que",
+     "i": 7.383,
+     "f": 7.467
+    },
+    {
+     "p": "o",
+     "i": 7.479,
+     "f": 7.514
+    },
+    {
+     "p": "relatório",
+     "i": 7.526,
+     "f": 8.014
+    },
+    {
+     "p": "afirma",
+     "i": 8.026,
+     "f": 8.467
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "40be4c1db2",
+   "texto": "Resumindo: um, busca é rápida e cita fontes. Dois, Research é profundo, com várias buscas e relatório. Três, as fontes você sempre confere.",
+   "audio": "audio/resumo-40be4c1db2.mp3",
+   "duracao": 11.856,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.752
+    },
+    {
+     "p": "um",
+     "i": 1.05,
+     "f": 1.264
+    },
+    {
+     "p": "busca",
+     "i": 1.562,
+     "f": 1.919
+    },
+    {
+     "p": "é",
+     "i": 1.931,
+     "f": 2.002
+    },
+    {
+     "p": "rápida",
+     "i": 2.014,
+     "f": 2.407
+    },
+    {
+     "p": "e",
+     "i": 2.419,
+     "f": 2.467
+    },
+    {
+     "p": "cita",
+     "i": 2.479,
+     "f": 2.752
+    },
+    {
+     "p": "fontes",
+     "i": 2.764,
+     "f": 3.336
+    },
+    {
+     "p": "Dois",
+     "i": 4.155,
+     "f": 4.571
+    },
+    {
+     "p": "Research",
+     "i": 4.798,
+     "f": 5.31
+    },
+    {
+     "p": "é",
+     "i": 5.321,
+     "f": 5.345
+    },
+    {
+     "p": "profundo",
+     "i": 5.357,
+     "f": 5.929
+    },
+    {
+     "p": "com",
+     "i": 6.19,
+     "f": 6.381
+    },
+    {
+     "p": "várias",
+     "i": 6.393,
+     "f": 6.726
+    },
+    {
+     "p": "buscas",
+     "i": 6.738,
+     "f": 7.131
+    },
+    {
+     "p": "e",
+     "i": 7.143,
+     "f": 7.238
+    },
+    {
+     "p": "relatório",
+     "i": 7.25,
+     "f": 7.833
+    },
+    {
+     "p": "Três",
+     "i": 8.655,
+     "f": 9.059
+    },
+    {
+     "p": "as",
+     "i": 9.262,
+     "f": 9.405
+    },
+    {
+     "p": "fontes",
+     "i": 9.417,
+     "f": 9.833
+    },
+    {
+     "p": "você",
+     "i": 9.845,
+     "f": 10.083
+    },
+    {
+     "p": "sempre",
+     "i": 10.095,
+     "f": 10.452
+    },
+    {
+     "p": "confere",
+     "i": 10.464,
+     "f": 11.012
+    }
+   ]
+  },
+  "final": {
+   "hash": "a0ce0d602c",
+   "texto": "Quiz: para um relatório com várias buscas encadeadas, qual usar? A, busca simples, ou B, Research? Pensou? A resposta é B, porque o Research encadeia as buscas. Na próxima aula: conectores do Claude. Siga para não perder!",
+   "audio": "audio/final-a0ce0d602c.mp3",
+   "duracao": 19.488,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "para",
+     "i": 0.776,
+     "f": 0.955
+    },
+    {
+     "p": "um",
+     "i": 0.967,
+     "f": 1.026
+    },
+    {
+     "p": "relatório",
+     "i": 1.038,
+     "f": 1.562
+    },
+    {
+     "p": "com",
+     "i": 1.574,
+     "f": 1.752
+    },
+    {
+     "p": "várias",
+     "i": 1.764,
+     "f": 2.133
+    },
+    {
+     "p": "buscas",
+     "i": 2.145,
+     "f": 2.514
+    },
+    {
+     "p": "encadeadas",
+     "i": 2.526,
+     "f": 3.36
+    },
+    {
+     "p": "qual",
+     "i": 3.562,
+     "f": 3.8
+    },
+    {
+     "p": "usar",
+     "i": 3.812,
+     "f": 4.098
+    },
+    {
+     "p": "A",
+     "i": 4.917,
+     "f": 5.095
+    },
+    {
+     "p": "busca",
+     "i": 5.369,
+     "f": 5.75
+    },
+    {
+     "p": "simples",
+     "i": 5.762,
+     "f": 6.31
+    },
+    {
+     "p": "ou",
+     "i": 6.548,
+     "f": 6.702
+    },
+    {
+     "p": "B",
+     "i": 6.714,
+     "f": 7
+    },
+    {
+     "p": "Research",
+     "i": 7.25,
+     "f": 7.869
+    },
+    {
+     "p": "Pensou",
+     "i": 8.69,
+     "f": 9.25
+    },
+    {
+     "p": "A",
+     "i": 10.071,
+     "f": 10.19
+    },
+    {
+     "p": "resposta",
+     "i": 10.202,
+     "f": 10.738
+    },
+    {
+     "p": "é",
+     "i": 10.75,
+     "f": 10.774
+    },
+    {
+     "p": "B",
+     "i": 10.786,
+     "f": 11.036
+    },
+    {
+     "p": "porque",
+     "i": 11.321,
+     "f": 11.571
+    },
+    {
+     "p": "o",
+     "i": 11.583,
+     "f": 11.631
+    },
+    {
+     "p": "Research",
+     "i": 11.643,
+     "f": 12.131
+    },
+    {
+     "p": "encadeia",
+     "i": 12.143,
+     "f": 12.583
+    },
+    {
+     "p": "as",
+     "i": 12.595,
+     "f": 12.702
+    },
+    {
+     "p": "buscas",
+     "i": 12.714,
+     "f": 13.262
+    },
+    {
+     "p": "Na",
+     "i": 14.083,
+     "f": 14.286
+    },
+    {
+     "p": "próxima",
+     "i": 14.298,
+     "f": 14.75
+    },
+    {
+     "p": "aula",
+     "i": 14.762,
+     "f": 15.107
+    },
+    {
+     "p": "conectores",
+     "i": 15.345,
+     "f": 15.988
+    },
+    {
+     "p": "do",
+     "i": 16,
+     "f": 16.119
+    },
+    {
+     "p": "Claude",
+     "i": 16.131,
+     "f": 16.548
+    },
+    {
+     "p": "Siga",
+     "i": 17.369,
+     "f": 17.798
+    },
+    {
+     "p": "para",
+     "i": 17.81,
+     "f": 17.988
+    },
+    {
+     "p": "não",
+     "i": 18,
+     "f": 18.202
+    },
+    {
+     "p": "perder",
+     "i": 18.214,
+     "f": 18.667
+    }
+   ]
+  }
+ },
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-19T22:26:17.942Z",
-  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/39337941790"
+  "pedidoEm": "2026-10-19T22:26:17.942Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Help Center — Using Research on Claude",
+   "url": "https://support.claude.com/en/articles/11088861"
+  },
+  {
+   "titulo": "Anthropic — Research",
+   "url": "https://www.anthropic.com/news/research"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }
