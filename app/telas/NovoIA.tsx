@@ -107,7 +107,7 @@ export const NovoIA: React.FC = () => {
       </div>
       {!token && <div className="aviso">Conecte o GitHub em <a href="#/config">Configurações</a> — o Claude roda no GitHub Actions com a sua assinatura.</div>}
 
-      <h2 style={{ marginTop: 6 }}>🎭 Gênero do vídeo</h2>
+      <h2 style={{ marginTop: 6 }}>Gênero do vídeo</h2>
       <p className="pequeno suave" style={{ marginTop: -4 }}>Modelos prontos de canal dark: narração com imagens e animações, sem aparecer. Escolha um gênero ou crie livre.</p>
       <div className="generos">
         <button className={"genero-op" + (!genero ? " on" : "")} onClick={() => escolherGenero(null)}>
@@ -181,7 +181,7 @@ export const NovoIA: React.FC = () => {
       <h3>Voz</h3>
       <Escolha opcoes={VOZES} valor={voz} mudar={setVoz} />
 
-      <h2>🎬 Estilo da edição</h2>
+      <h2>Estilo da edição</h2>
       <p className="pequeno suave" style={{ marginTop: -4 }}>
         Muda o ritmo e o movimento do vídeo, não só as cores. Em <b>Automático</b> o Claude escolhe o que combina com o tema, sem repetir o vídeo anterior.
       </p>
@@ -221,15 +221,15 @@ export const NovoIA: React.FC = () => {
 
       <h3>Tema de cores</h3>
       <div className="temas">
-        <button className={"tema" + (estilo.paleta === "auto" ? " on" : "")} style={{ background: "linear-gradient(135deg, #3A1C71, #12305C 50%, #5A1F3D)", color: "#fff" }} onClick={() => mudarEstilo("paleta", "auto")}>
-          <span style={{ display: "block", height: 6, borderRadius: 3, background: "linear-gradient(90deg, #FFD60A, #00F5A0, #FF2E88)", marginBottom: 6 }} />
+        <button className={"tema" + (estilo.paleta === "auto" ? " on" : "")} onClick={() => mudarEstilo("paleta", "auto")}>
+          <span className="pinta"><i style={{ border: "1px dashed var(--suave)" }} /></span>
           Automático
         </button>
         {PALETAS.map((k) => {
           const t = TEMAS[k];
           return (
-            <button key={k} className={"tema" + (estilo.paleta === k ? " on" : "")} style={{ background: `linear-gradient(135deg, ${t.brilhoA}, ${t.fundo} 70%)`, color: t.texto }} onClick={() => mudarEstilo("paleta", k)}>
-              <span style={{ display: "block", height: 6, borderRadius: 3, background: t.destaque, marginBottom: 6 }} />
+            <button key={k} className={"tema" + (estilo.paleta === k ? " on" : "")} onClick={() => mudarEstilo("paleta", k)}>
+              <span className="pinta"><i style={{ background: t.fundo }} /><i style={{ background: t.brilhoA }} /><i style={{ background: t.destaque }} /></span>
               {t.nome}
             </button>
           );

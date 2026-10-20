@@ -106,8 +106,8 @@ export const PainelEstilo: React.FC = () => {
       <h3>Tema de cores</h3>
       <div className="temas">
         {Object.entries(TEMAS).map(([k, t]) => (
-          <button key={k} className={"tema" + (p.tema === k ? " on" : "")} style={{ background: `linear-gradient(135deg, ${t.brilhoA}, ${t.fundo} 70%)`, color: t.texto }} onClick={() => alterar((x) => { x.tema = k; })}>
-            <span style={{ display: "block", height: 6, borderRadius: 3, background: t.destaque, marginBottom: 6 }} />
+          <button key={k} className={"tema" + (p.tema === k ? " on" : "")} onClick={() => alterar((x) => { x.tema = k; })}>
+            <span className="pinta"><i style={{ background: t.fundo }} /><i style={{ background: t.brilhoA }} /><i style={{ background: t.destaque }} /></span>
             {t.nome}
           </button>
         ))}
