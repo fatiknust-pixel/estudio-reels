@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-02sl",
- "titulo": "Aula 7.3: Tool use, quando a IA aciona o seu sistema — explique como d",
+ "titulo": "Tool use: quando a IA aciona o seu sistema",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.944Z",
- "atualizadoEm": "2026-10-19T22:26:17.944Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-20T03:12:13Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 7.3: Tool use, quando a IA aciona o seu sistema — explique como descrever funções com nome, descrição e parâmetros, o ciclo em que o Claude pede a ferramenta, seu código executa e devolve o resultado, as ferramentas prontas de busca na web e execução de código, com exemplo de agenda de salão de beleza",
@@ -64,11 +65,2023 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "A cliente pergunta: tem horário amanhã às três? A IA não enxerga a agenda do seu salão. Então, como ela marca de verdade?",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "E A AGENDA?",
+     "em": "agenda",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pessoa",
+       "Cliente"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "calendario",
+       "Agenda"
+      ]
+     ],
+     "em": "enxerga",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "COMO?",
+     "cor": "vermelho",
+     "em": "como",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula você vai aprender três coisas: descrever uma função, entender o ciclo da chamada e conhecer as ferramentas prontas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TOOL USE",
+     "sub": "Aula 7.3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "codigo",
+       "Descrever"
+      ],
+      [
+       "engrenagem",
+       "Ciclo"
+      ],
+      [
+       "ferramenta",
+       "Prontas"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Tool use, ou uso de ferramentas, é quando o Claude pede para rodar uma função sua. Ele não executa nada sozinho. Ele pede, e o seu código faz o trabalho.",
+   "fontes": [
+    "Anthropic — Tool use"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "USO DE FERRAMENTAS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Tool use",
+     "significado": "Claude pede, seu código executa",
+     "em": "Tool",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Seu código executa",
+     "icone": "terminal",
+     "em": "código",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense numa recepcionista e no caderno de agenda. Ela consulta o caderno e responde. O Claude é a recepcionista. A sua função é o caderno.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ANALOGIA",
+     "sub": "Recepcionista",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pessoa",
+       "Claude"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "livro",
+       "Sua função"
+      ]
+     ],
+     "em": "caderno",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Consulta e responde",
+     "icone": "chat",
+     "em": "consulta",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "descrever",
+   "texto": "Primeiro, descreva a função com nome, descrição e parâmetros. Nome: marcar horário. Descrição: reserva um horário na agenda. Parâmetros: serviço, dia e hora. Descrição clara ajuda o Claude a decidir.",
+   "fontes": [
+    "Anthropic — Define tools"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DESCREVA A FUNÇÃO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "name: marcar_horario",
+     "icone": "pasta",
+     "em": "Nome",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "description: reserva horário",
+     "icone": "documento",
+     "em": "Descrição",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "parâmetros: serviço, dia, hora",
+     "icone": "lista",
+     "em": "Parâmetros",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "ciclo",
+   "texto": "O ciclo tem quatro passos. Um: o Claude pede a ferramenta. Dois: seu código executa. Três: você devolve o resultado. Quatro: o Claude escreve a resposta final.",
+   "fontes": [
+    "Anthropic — Handle tool calls"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O CICLO",
+     "sub": "4 passos",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1",
+       "Claude pede"
+      ],
+      [
+       "2",
+       "Código executa"
+      ],
+      [
+       "3",
+       "Devolve resultado"
+      ],
+      [
+       "4",
+       "Resposta final"
+      ]
+     ],
+     "em": "Um",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "stop_reason: tool_use",
+     "icone": "alerta",
+     "em": "pede",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "No salão: a cliente quer corte amanhã às 15 horas. O Claude pede a função de agenda. Seu código acha o horário livre e devolve. O Claude confirma para a cliente.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "EXEMPLO: SALÃO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Corte amanhã às 15h?",
+     "em": "corte",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "marcar_horario(corte, 15h)",
+     "icone": "calendario",
+     "em": "função",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Horário livre",
+     "nota": "Claude confirma",
+     "em": "confirma",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "prontas",
+   "texto": "Algumas ferramentas já vêm prontas e rodam nos servidores da Anthropic: busca na web e execução de código. Você só liga a ferramenta.",
+   "fontes": [
+    "Anthropic — Web search e code execution"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FERRAMENTAS PRONTAS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lupa",
+       "Busca na web"
+      ],
+      [
+       "codigo",
+       "Executa código"
+      ]
+     ],
+     "em": "busca",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Roda na Anthropic",
+     "icone": "nuvem",
+     "em": "servidores",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: achar que o Claude executa a função. Ele só pede. Se esquecer de devolver o resultado, o ciclo não fecha.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "Erro",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Claude executa",
+     "nota": "Ele só pede",
+     "em": "executa",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Sem resultado",
+     "nota": "Ciclo aberto",
+     "em": "esquecer",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: escreva nome, descrição e parâmetros de uma função para cancelar horário.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "em": "Pause",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "CANCELAR HORÁRIO?",
+     "em": "cancelar",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumo. Descreva a função com nome, descrição e parâmetros. Claude pede, seu código executa, você devolve. Busca e código já vêm prontos.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lista",
+       "Descrever"
+      ],
+      [
+       "engrenagem",
+       "Ciclo"
+      ],
+      [
+       "ferramenta",
+       "Prontas"
+      ]
+     ],
+     "em": "Descreva",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: quem executa a função da agenda? O Claude ou o seu código? Resposta: o seu código. O Claude só pede. Na próxima aula: RAG e embeddings.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Quem executa a função?",
+     "opcoes": [
+      "O Claude",
+      "Meu código"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 7.4",
+     "em": "próxima",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "bb2cb8fde0",
+   "texto": "A cliente pergunta: tem horário amanhã às três? A IA não enxerga a agenda do seu salão. Então, como ela marca de verdade?",
+   "audio": "audio/gancho-bb2cb8fde0.mp3",
+   "duracao": 9.613,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.05,
+     "f": 0.15
+    },
+    {
+     "p": "cliente",
+     "i": 0.15,
+     "f": 0.55
+    },
+    {
+     "p": "pergunta",
+     "i": 0.55,
+     "f": 1.113
+    },
+    {
+     "p": "tem",
+     "i": 1.35,
+     "f": 1.538
+    },
+    {
+     "p": "horário",
+     "i": 1.538,
+     "f": 1.925
+    },
+    {
+     "p": "amanhã",
+     "i": 1.925,
+     "f": 2.288
+    },
+    {
+     "p": "às",
+     "i": 2.288,
+     "f": 2.425
+    },
+    {
+     "p": "três",
+     "i": 2.425,
+     "f": 2.887
+    },
+    {
+     "p": "A",
+     "i": 3.225,
+     "f": 3.35
+    },
+    {
+     "p": "IA",
+     "i": 3.35,
+     "f": 4.725
+    },
+    {
+     "p": "não",
+     "i": 4.725,
+     "f": 4.975
+    },
+    {
+     "p": "enxerga",
+     "i": 4.975,
+     "f": 5.5
+    },
+    {
+     "p": "a",
+     "i": 5.5,
+     "f": 5.513
+    },
+    {
+     "p": "agenda",
+     "i": 5.513,
+     "f": 6
+    },
+    {
+     "p": "do",
+     "i": 6,
+     "f": 6.075
+    },
+    {
+     "p": "seu",
+     "i": 6.075,
+     "f": 6.263
+    },
+    {
+     "p": "salão",
+     "i": 6.263,
+     "f": 6.7
+    },
+    {
+     "p": "Então",
+     "i": 7.037,
+     "f": 7.587
+    },
+    {
+     "p": "como",
+     "i": 7.75,
+     "f": 7.987
+    },
+    {
+     "p": "ela",
+     "i": 7.987,
+     "f": 8.162
+    },
+    {
+     "p": "marca",
+     "i": 8.162,
+     "f": 8.537
+    },
+    {
+     "p": "de",
+     "i": 8.537,
+     "f": 8.625
+    },
+    {
+     "p": "verdade",
+     "i": 8.625,
+     "f": 9.213
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "4e14f62264",
+   "texto": "Nesta aula você vai aprender três coisas: descrever uma função, entender o ciclo da chamada e conhecer as ferramentas prontas.",
+   "audio": "audio/promessa-4e14f62264.mp3",
+   "duracao": 7.941,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.05,
+     "f": 0.462
+    },
+    {
+     "p": "aula",
+     "i": 0.463,
+     "f": 0.762
+    },
+    {
+     "p": "você",
+     "i": 0.762,
+     "f": 0.987
+    },
+    {
+     "p": "vai",
+     "i": 0.988,
+     "f": 1.088
+    },
+    {
+     "p": "aprender",
+     "i": 1.087,
+     "f": 1.537
+    },
+    {
+     "p": "três",
+     "i": 1.538,
+     "f": 1.875
+    },
+    {
+     "p": "coisas",
+     "i": 1.875,
+     "f": 2.388
+    },
+    {
+     "p": "descrever",
+     "i": 2.625,
+     "f": 3.2
+    },
+    {
+     "p": "uma",
+     "i": 3.2,
+     "f": 3.363
+    },
+    {
+     "p": "função",
+     "i": 3.362,
+     "f": 3.9
+    },
+    {
+     "p": "entender",
+     "i": 4.062,
+     "f": 4.6
+    },
+    {
+     "p": "o",
+     "i": 4.6,
+     "f": 4.662
+    },
+    {
+     "p": "ciclo",
+     "i": 4.662,
+     "f": 5.075
+    },
+    {
+     "p": "da",
+     "i": 5.075,
+     "f": 5.163
+    },
+    {
+     "p": "chamada",
+     "i": 5.162,
+     "f": 5.787
+    },
+    {
+     "p": "e",
+     "i": 5.787,
+     "f": 5.85
+    },
+    {
+     "p": "conhecer",
+     "i": 5.85,
+     "f": 6.325
+    },
+    {
+     "p": "as",
+     "i": 6.325,
+     "f": 6.425
+    },
+    {
+     "p": "ferramentas",
+     "i": 6.425,
+     "f": 6.987
+    },
+    {
+     "p": "prontas",
+     "i": 6.987,
+     "f": 7.55
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "c54e9b7341",
+   "texto": "Tool use, ou uso de ferramentas, é quando o Claude pede para rodar uma função sua. Ele não executa nada sozinho. Ele pede, e o seu código faz o trabalho.",
+   "audio": "audio/conceito-c54e9b7341.mp3",
+   "duracao": 10.371,
+   "palavras": [
+    {
+     "p": "Tool",
+     "i": 0.05,
+     "f": 0.412
+    },
+    {
+     "p": "use",
+     "i": 0.412,
+     "f": 0.662
+    },
+    {
+     "p": "ou",
+     "i": 0.863,
+     "f": 1.188
+    },
+    {
+     "p": "uso",
+     "i": 1.188,
+     "f": 1.4
+    },
+    {
+     "p": "de",
+     "i": 1.4,
+     "f": 1.475
+    },
+    {
+     "p": "ferramentas",
+     "i": 1.475,
+     "f": 2.163
+    },
+    {
+     "p": "é",
+     "i": 2.388,
+     "f": 2.463
+    },
+    {
+     "p": "quando",
+     "i": 2.462,
+     "f": 2.675
+    },
+    {
+     "p": "o",
+     "i": 2.675,
+     "f": 2.7
+    },
+    {
+     "p": "Claude",
+     "i": 2.7,
+     "f": 3
+    },
+    {
+     "p": "pede",
+     "i": 3,
+     "f": 3.375
+    },
+    {
+     "p": "para",
+     "i": 3.375,
+     "f": 3.55
+    },
+    {
+     "p": "rodar",
+     "i": 3.55,
+     "f": 3.887
+    },
+    {
+     "p": "uma",
+     "i": 3.888,
+     "f": 4.025
+    },
+    {
+     "p": "função",
+     "i": 4.025,
+     "f": 4.45
+    },
+    {
+     "p": "sua",
+     "i": 4.45,
+     "f": 4.812
+    },
+    {
+     "p": "Ele",
+     "i": 5.15,
+     "f": 5.363
+    },
+    {
+     "p": "não",
+     "i": 5.362,
+     "f": 5.575
+    },
+    {
+     "p": "executa",
+     "i": 5.575,
+     "f": 6.188
+    },
+    {
+     "p": "nada",
+     "i": 6.188,
+     "f": 6.55
+    },
+    {
+     "p": "sozinho",
+     "i": 6.55,
+     "f": 7.112
+    },
+    {
+     "p": "Ele",
+     "i": 7.45,
+     "f": 7.625
+    },
+    {
+     "p": "pede",
+     "i": 7.625,
+     "f": 8.1
+    },
+    {
+     "p": "e",
+     "i": 8.275,
+     "f": 8.35
+    },
+    {
+     "p": "o",
+     "i": 8.35,
+     "f": 8.4
+    },
+    {
+     "p": "seu",
+     "i": 8.4,
+     "f": 8.638
+    },
+    {
+     "p": "código",
+     "i": 8.637,
+     "f": 9.1
+    },
+    {
+     "p": "faz",
+     "i": 9.1,
+     "f": 9.375
+    },
+    {
+     "p": "o",
+     "i": 9.375,
+     "f": 9.488
+    },
+    {
+     "p": "trabalho",
+     "i": 9.488,
+     "f": 10
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "6f10fb1f38",
+   "texto": "Pense numa recepcionista e no caderno de agenda. Ela consulta o caderno e responde. O Claude é a recepcionista. A sua função é o caderno.",
+   "audio": "audio/analogia-6f10fb1f38.mp3",
+   "duracao": 10.109,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.05,
+     "f": 0.412
+    },
+    {
+     "p": "numa",
+     "i": 0.412,
+     "f": 0.587
+    },
+    {
+     "p": "recepcionista",
+     "i": 0.588,
+     "f": 1.8
+    },
+    {
+     "p": "e",
+     "i": 1.8,
+     "f": 1.875
+    },
+    {
+     "p": "no",
+     "i": 1.875,
+     "f": 1.962
+    },
+    {
+     "p": "caderno",
+     "i": 1.962,
+     "f": 2.425
+    },
+    {
+     "p": "de",
+     "i": 2.425,
+     "f": 2.487
+    },
+    {
+     "p": "agenda",
+     "i": 2.487,
+     "f": 3.037
+    },
+    {
+     "p": "Ela",
+     "i": 3.388,
+     "f": 3.6
+    },
+    {
+     "p": "consulta",
+     "i": 3.6,
+     "f": 4.213
+    },
+    {
+     "p": "o",
+     "i": 4.213,
+     "f": 4.25
+    },
+    {
+     "p": "caderno",
+     "i": 4.25,
+     "f": 4.787
+    },
+    {
+     "p": "e",
+     "i": 4.787,
+     "f": 4.8
+    },
+    {
+     "p": "responde",
+     "i": 4.8,
+     "f": 5.462
+    },
+    {
+     "p": "O",
+     "i": 5.8,
+     "f": 5.925
+    },
+    {
+     "p": "Claude",
+     "i": 5.925,
+     "f": 6.425
+    },
+    {
+     "p": "é",
+     "i": 6.425,
+     "f": 6.537
+    },
+    {
+     "p": "a",
+     "i": 6.537,
+     "f": 6.562
+    },
+    {
+     "p": "recepcionista",
+     "i": 6.562,
+     "f": 7.662
+    },
+    {
+     "p": "A",
+     "i": 8.012,
+     "f": 8.137
+    },
+    {
+     "p": "sua",
+     "i": 8.137,
+     "f": 8.4
+    },
+    {
+     "p": "função",
+     "i": 8.4,
+     "f": 8.988
+    },
+    {
+     "p": "é",
+     "i": 8.988,
+     "f": 9.062
+    },
+    {
+     "p": "o",
+     "i": 9.062,
+     "f": 9.113
+    },
+    {
+     "p": "caderno",
+     "i": 9.113,
+     "f": 9.725
+    }
+   ]
+  },
+  "descrever": {
+   "hash": "60abed9e45",
+   "texto": "Primeiro, descreva a função com nome, descrição e parâmetros. Nome: marcar horário. Descrição: reserva um horário na agenda. Parâmetros: serviço, dia e hora. Descrição clara ajuda o Claude a decidir.",
+   "audio": "audio/descrever-60abed9e45.mp3",
+   "duracao": 16.222,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.05,
+     "f": 0.55
+    },
+    {
+     "p": "descreva",
+     "i": 0.75,
+     "f": 1.238
+    },
+    {
+     "p": "a",
+     "i": 1.238,
+     "f": 1.275
+    },
+    {
+     "p": "função",
+     "i": 1.275,
+     "f": 1.737
+    },
+    {
+     "p": "com",
+     "i": 1.738,
+     "f": 1.925
+    },
+    {
+     "p": "nome",
+     "i": 1.925,
+     "f": 2.35
+    },
+    {
+     "p": "descrição",
+     "i": 2.513,
+     "f": 3.363
+    },
+    {
+     "p": "e",
+     "i": 3.362,
+     "f": 3.412
+    },
+    {
+     "p": "parâmetros",
+     "i": 3.413,
+     "f": 4.188
+    },
+    {
+     "p": "Nome",
+     "i": 4.537,
+     "f": 5.062
+    },
+    {
+     "p": "marcar",
+     "i": 5.312,
+     "f": 5.8
+    },
+    {
+     "p": "horário",
+     "i": 5.8,
+     "f": 6.3
+    },
+    {
+     "p": "Descrição",
+     "i": 6.65,
+     "f": 7.463
+    },
+    {
+     "p": "reserva",
+     "i": 7.725,
+     "f": 8.237
+    },
+    {
+     "p": "um",
+     "i": 8.238,
+     "f": 8.375
+    },
+    {
+     "p": "horário",
+     "i": 8.375,
+     "f": 8.825
+    },
+    {
+     "p": "na",
+     "i": 8.825,
+     "f": 8.938
+    },
+    {
+     "p": "agenda",
+     "i": 8.938,
+     "f": 9.45
+    },
+    {
+     "p": "Parâmetros",
+     "i": 9.8,
+     "f": 10.513
+    },
+    {
+     "p": "serviço",
+     "i": 10.738,
+     "f": 11.513
+    },
+    {
+     "p": "dia",
+     "i": 11.738,
+     "f": 12.25
+    },
+    {
+     "p": "e",
+     "i": 12.25,
+     "f": 12.35
+    },
+    {
+     "p": "hora",
+     "i": 12.35,
+     "f": 12.688
+    },
+    {
+     "p": "Descrição",
+     "i": 13.037,
+     "f": 13.875
+    },
+    {
+     "p": "clara",
+     "i": 13.875,
+     "f": 14.287
+    },
+    {
+     "p": "ajuda",
+     "i": 14.287,
+     "f": 14.825
+    },
+    {
+     "p": "o",
+     "i": 14.825,
+     "f": 14.912
+    },
+    {
+     "p": "Claude",
+     "i": 14.912,
+     "f": 15.25
+    },
+    {
+     "p": "a",
+     "i": 15.25,
+     "f": 15.287
+    },
+    {
+     "p": "decidir",
+     "i": 15.287,
+     "f": 15.812
+    }
+   ]
+  },
+  "ciclo": {
+   "hash": "665a481271",
+   "texto": "O ciclo tem quatro passos. Um: o Claude pede a ferramenta. Dois: seu código executa. Três: você devolve o resultado. Quatro: o Claude escreve a resposta final.",
+   "audio": "audio/ciclo-665a481271.mp3",
+   "duracao": 12.643,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.05,
+     "f": 0.163
+    },
+    {
+     "p": "ciclo",
+     "i": 0.163,
+     "f": 0.675
+    },
+    {
+     "p": "tem",
+     "i": 0.675,
+     "f": 0.863
+    },
+    {
+     "p": "quatro",
+     "i": 0.863,
+     "f": 1.325
+    },
+    {
+     "p": "passos",
+     "i": 1.325,
+     "f": 1.875
+    },
+    {
+     "p": "Um",
+     "i": 2.225,
+     "f": 2.562
+    },
+    {
+     "p": "o",
+     "i": 2.85,
+     "f": 2.938
+    },
+    {
+     "p": "Claude",
+     "i": 2.938,
+     "f": 3.425
+    },
+    {
+     "p": "pede",
+     "i": 3.425,
+     "f": 3.675
+    },
+    {
+     "p": "a",
+     "i": 3.675,
+     "f": 3.712
+    },
+    {
+     "p": "ferramenta",
+     "i": 3.712,
+     "f": 4.362
+    },
+    {
+     "p": "Dois",
+     "i": 4.713,
+     "f": 5.213
+    },
+    {
+     "p": "seu",
+     "i": 5.412,
+     "f": 5.65
+    },
+    {
+     "p": "código",
+     "i": 5.65,
+     "f": 6.05
+    },
+    {
+     "p": "executa",
+     "i": 6.05,
+     "f": 6.675
+    },
+    {
+     "p": "Três",
+     "i": 7.025,
+     "f": 7.413
+    },
+    {
+     "p": "você",
+     "i": 7.662,
+     "f": 7.938
+    },
+    {
+     "p": "devolve",
+     "i": 7.938,
+     "f": 8.438
+    },
+    {
+     "p": "o",
+     "i": 8.438,
+     "f": 8.463
+    },
+    {
+     "p": "resultado",
+     "i": 8.463,
+     "f": 9.125
+    },
+    {
+     "p": "Quatro",
+     "i": 9.475,
+     "f": 9.925
+    },
+    {
+     "p": "o",
+     "i": 10.225,
+     "f": 10.338
+    },
+    {
+     "p": "Claude",
+     "i": 10.338,
+     "f": 10.787
+    },
+    {
+     "p": "escreve",
+     "i": 10.787,
+     "f": 11.225
+    },
+    {
+     "p": "a",
+     "i": 11.225,
+     "f": 11.25
+    },
+    {
+     "p": "resposta",
+     "i": 11.25,
+     "f": 11.812
+    },
+    {
+     "p": "final",
+     "i": 11.812,
+     "f": 12.238
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "dccd318da5",
+   "texto": "No salão: a cliente quer corte amanhã às 15 horas. O Claude pede a função de agenda. Seu código acha o horário livre e devolve. O Claude confirma para a cliente.",
+   "audio": "audio/exemplo-dccd318da5.mp3",
+   "duracao": 11.624,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.05,
+     "f": 0.2
+    },
+    {
+     "p": "salão",
+     "i": 0.2,
+     "f": 0.65
+    },
+    {
+     "p": "a",
+     "i": 0.925,
+     "f": 1
+    },
+    {
+     "p": "cliente",
+     "i": 1,
+     "f": 1.45
+    },
+    {
+     "p": "quer",
+     "i": 1.45,
+     "f": 1.613
+    },
+    {
+     "p": "corte",
+     "i": 1.613,
+     "f": 1.962
+    },
+    {
+     "p": "amanhã",
+     "i": 1.962,
+     "f": 2.4
+    },
+    {
+     "p": "às",
+     "i": 2.4,
+     "f": 2.587
+    },
+    {
+     "p": "15 horas",
+     "i": 2.587,
+     "f": 3.487
+    },
+    {
+     "p": "O",
+     "i": 3.825,
+     "f": 3.913
+    },
+    {
+     "p": "Claude",
+     "i": 3.913,
+     "f": 4.412
+    },
+    {
+     "p": "pede",
+     "i": 4.412,
+     "f": 4.675
+    },
+    {
+     "p": "a",
+     "i": 4.675,
+     "f": 4.712
+    },
+    {
+     "p": "função",
+     "i": 4.713,
+     "f": 5.2
+    },
+    {
+     "p": "de",
+     "i": 5.2,
+     "f": 5.25
+    },
+    {
+     "p": "agenda",
+     "i": 5.25,
+     "f": 5.812
+    },
+    {
+     "p": "Seu",
+     "i": 6.162,
+     "f": 6.45
+    },
+    {
+     "p": "código",
+     "i": 6.45,
+     "f": 7.075
+    },
+    {
+     "p": "acha",
+     "i": 7.075,
+     "f": 7.388
+    },
+    {
+     "p": "o",
+     "i": 7.388,
+     "f": 7.4
+    },
+    {
+     "p": "horário",
+     "i": 7.4,
+     "f": 7.775
+    },
+    {
+     "p": "livre",
+     "i": 7.775,
+     "f": 8.3
+    },
+    {
+     "p": "e",
+     "i": 8.3,
+     "f": 8.388
+    },
+    {
+     "p": "devolve",
+     "i": 8.387,
+     "f": 9
+    },
+    {
+     "p": "O",
+     "i": 9.338,
+     "f": 9.438
+    },
+    {
+     "p": "Claude",
+     "i": 9.438,
+     "f": 9.887
+    },
+    {
+     "p": "confirma",
+     "i": 9.887,
+     "f": 10.5
+    },
+    {
+     "p": "para",
+     "i": 10.5,
+     "f": 10.637
+    },
+    {
+     "p": "a",
+     "i": 10.637,
+     "f": 10.662
+    },
+    {
+     "p": "cliente",
+     "i": 10.662,
+     "f": 11.225
+    }
+   ]
+  },
+  "prontas": {
+   "hash": "99817f9143",
+   "texto": "Algumas ferramentas já vêm prontas e rodam nos servidores da Anthropic: busca na web e execução de código. Você só liga a ferramenta.",
+   "audio": "audio/prontas-99817f9143.mp3",
+   "duracao": 8.62,
+   "palavras": [
+    {
+     "p": "Algumas",
+     "i": 0.05,
+     "f": 0.388
+    },
+    {
+     "p": "ferramentas",
+     "i": 0.388,
+     "f": 0.95
+    },
+    {
+     "p": "já",
+     "i": 0.95,
+     "f": 1.062
+    },
+    {
+     "p": "vêm",
+     "i": 1.062,
+     "f": 1.238
+    },
+    {
+     "p": "prontas",
+     "i": 1.238,
+     "f": 1.65
+    },
+    {
+     "p": "e",
+     "i": 1.65,
+     "f": 1.787
+    },
+    {
+     "p": "rodam",
+     "i": 1.788,
+     "f": 2.138
+    },
+    {
+     "p": "nos",
+     "i": 2.138,
+     "f": 2.263
+    },
+    {
+     "p": "servidores",
+     "i": 2.263,
+     "f": 2.838
+    },
+    {
+     "p": "da",
+     "i": 2.837,
+     "f": 3
+    },
+    {
+     "p": "Anthropic",
+     "i": 3,
+     "f": 3.688
+    },
+    {
+     "p": "busca",
+     "i": 3.975,
+     "f": 4.338
+    },
+    {
+     "p": "na",
+     "i": 4.338,
+     "f": 4.45
+    },
+    {
+     "p": "web",
+     "i": 4.45,
+     "f": 5
+    },
+    {
+     "p": "e",
+     "i": 5,
+     "f": 5.1
+    },
+    {
+     "p": "execução",
+     "i": 5.1,
+     "f": 5.625
+    },
+    {
+     "p": "de",
+     "i": 5.625,
+     "f": 5.713
+    },
+    {
+     "p": "código",
+     "i": 5.713,
+     "f": 6.2
+    },
+    {
+     "p": "Você",
+     "i": 6.537,
+     "f": 6.925
+    },
+    {
+     "p": "só",
+     "i": 6.925,
+     "f": 7.175
+    },
+    {
+     "p": "liga",
+     "i": 7.175,
+     "f": 7.55
+    },
+    {
+     "p": "a",
+     "i": 7.55,
+     "f": 7.587
+    },
+    {
+     "p": "ferramenta",
+     "i": 7.588,
+     "f": 8.238
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "81357f21b5",
+   "texto": "Erro comum: achar que o Claude executa a função. Ele só pede. Se esquecer de devolver o resultado, o ciclo não fecha.",
+   "audio": "audio/erro-comum-81357f21b5.mp3",
+   "duracao": 8.777,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.05,
+     "f": 0.362
+    },
+    {
+     "p": "comum",
+     "i": 0.362,
+     "f": 0.8
+    },
+    {
+     "p": "achar",
+     "i": 1.125,
+     "f": 1.538
+    },
+    {
+     "p": "que",
+     "i": 1.538,
+     "f": 1.625
+    },
+    {
+     "p": "o",
+     "i": 1.625,
+     "f": 1.7
+    },
+    {
+     "p": "Claude",
+     "i": 1.7,
+     "f": 2.013
+    },
+    {
+     "p": "executa",
+     "i": 2.013,
+     "f": 2.525
+    },
+    {
+     "p": "a",
+     "i": 2.525,
+     "f": 2.55
+    },
+    {
+     "p": "função",
+     "i": 2.55,
+     "f": 3.062
+    },
+    {
+     "p": "Ele",
+     "i": 3.4,
+     "f": 3.688
+    },
+    {
+     "p": "só",
+     "i": 3.688,
+     "f": 3.925
+    },
+    {
+     "p": "pede",
+     "i": 3.925,
+     "f": 4.438
+    },
+    {
+     "p": "Se",
+     "i": 4.775,
+     "f": 4.975
+    },
+    {
+     "p": "esquecer",
+     "i": 4.975,
+     "f": 5.587
+    },
+    {
+     "p": "de",
+     "i": 5.588,
+     "f": 5.688
+    },
+    {
+     "p": "devolver",
+     "i": 5.688,
+     "f": 6.2
+    },
+    {
+     "p": "o",
+     "i": 6.2,
+     "f": 6.225
+    },
+    {
+     "p": "resultado",
+     "i": 6.225,
+     "f": 6.9
+    },
+    {
+     "p": "o",
+     "i": 7.088,
+     "f": 7.15
+    },
+    {
+     "p": "ciclo",
+     "i": 7.15,
+     "f": 7.6
+    },
+    {
+     "p": "não",
+     "i": 7.6,
+     "f": 7.887
+    },
+    {
+     "p": "fecha",
+     "i": 7.888,
+     "f": 8.387
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "e45457e04c",
+   "texto": "Pause o vídeo e tente: escreva nome, descrição e parâmetros de uma função para cancelar horário.",
+   "audio": "audio/pratica-e45457e04c.mp3",
+   "duracao": 6.531,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.05,
+     "f": 0.412
+    },
+    {
+     "p": "o",
+     "i": 0.412,
+     "f": 0.462
+    },
+    {
+     "p": "vídeo",
+     "i": 0.463,
+     "f": 0.9
+    },
+    {
+     "p": "e",
+     "i": 0.9,
+     "f": 0.988
+    },
+    {
+     "p": "tente",
+     "i": 0.988,
+     "f": 1.4
+    },
+    {
+     "p": "escreva",
+     "i": 1.7,
+     "f": 2.125
+    },
+    {
+     "p": "nome",
+     "i": 2.125,
+     "f": 2.6
+    },
+    {
+     "p": "descrição",
+     "i": 2.75,
+     "f": 3.625
+    },
+    {
+     "p": "e",
+     "i": 3.625,
+     "f": 3.712
+    },
+    {
+     "p": "parâmetros",
+     "i": 3.712,
+     "f": 4.388
+    },
+    {
+     "p": "de",
+     "i": 4.388,
+     "f": 4.45
+    },
+    {
+     "p": "uma",
+     "i": 4.45,
+     "f": 4.588
+    },
+    {
+     "p": "função",
+     "i": 4.588,
+     "f": 5.138
+    },
+    {
+     "p": "para",
+     "i": 5.138,
+     "f": 5.288
+    },
+    {
+     "p": "cancelar",
+     "i": 5.287,
+     "f": 5.762
+    },
+    {
+     "p": "horário",
+     "i": 5.763,
+     "f": 6.15
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "b54e62df11",
+   "texto": "Resumo. Descreva a função com nome, descrição e parâmetros. Claude pede, seu código executa, você devolve. Busca e código já vêm prontos.",
+   "audio": "audio/resumo-b54e62df11.mp3",
+   "duracao": 10.527,
+   "palavras": [
+    {
+     "p": "Resumo",
+     "i": 0.05,
+     "f": 0.688
+    },
+    {
+     "p": "Descreva",
+     "i": 1.025,
+     "f": 1.587
+    },
+    {
+     "p": "a",
+     "i": 1.587,
+     "f": 1.612
+    },
+    {
+     "p": "função",
+     "i": 1.613,
+     "f": 2.05
+    },
+    {
+     "p": "com",
+     "i": 2.05,
+     "f": 2.237
+    },
+    {
+     "p": "nome",
+     "i": 2.237,
+     "f": 2.65
+    },
+    {
+     "p": "descrição",
+     "i": 2.8,
+     "f": 3.6
+    },
+    {
+     "p": "e",
+     "i": 3.6,
+     "f": 3.638
+    },
+    {
+     "p": "parâmetros",
+     "i": 3.638,
+     "f": 4.4
+    },
+    {
+     "p": "Claude",
+     "i": 4.75,
+     "f": 5.05
+    },
+    {
+     "p": "pede",
+     "i": 5.05,
+     "f": 5.487
+    },
+    {
+     "p": "seu",
+     "i": 5.688,
+     "f": 5.875
+    },
+    {
+     "p": "código",
+     "i": 5.875,
+     "f": 6.213
+    },
+    {
+     "p": "executa",
+     "i": 6.213,
+     "f": 6.8
+    },
+    {
+     "p": "você",
+     "i": 7.075,
+     "f": 7.325
+    },
+    {
+     "p": "devolve",
+     "i": 7.325,
+     "f": 7.9
+    },
+    {
+     "p": "Busca",
+     "i": 8.238,
+     "f": 8.775
+    },
+    {
+     "p": "e",
+     "i": 8.775,
+     "f": 8.85
+    },
+    {
+     "p": "código",
+     "i": 8.85,
+     "f": 9.262
+    },
+    {
+     "p": "já",
+     "i": 9.262,
+     "f": 9.387
+    },
+    {
+     "p": "vêm",
+     "i": 9.387,
+     "f": 9.575
+    },
+    {
+     "p": "prontos",
+     "i": 9.575,
+     "f": 10.137
+    }
+   ]
+  },
+  "final": {
+   "hash": "4a76f1f657",
+   "texto": "Quiz: quem executa a função da agenda? O Claude ou o seu código? Resposta: o seu código. O Claude só pede. Na próxima aula: RAG e embeddings.",
+   "audio": "audio/final-4a76f1f657.mp3",
+   "duracao": 11.416,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.062,
+     "f": 0.45
+    },
+    {
+     "p": "quem",
+     "i": 0.675,
+     "f": 0.875
+    },
+    {
+     "p": "executa",
+     "i": 0.875,
+     "f": 1.4
+    },
+    {
+     "p": "a",
+     "i": 1.4,
+     "f": 1.438
+    },
+    {
+     "p": "função",
+     "i": 1.438,
+     "f": 1.825
+    },
+    {
+     "p": "da",
+     "i": 1.825,
+     "f": 1.925
+    },
+    {
+     "p": "agenda",
+     "i": 1.925,
+     "f": 2.413
+    },
+    {
+     "p": "O",
+     "i": 2.763,
+     "f": 2.863
+    },
+    {
+     "p": "Claude",
+     "i": 2.862,
+     "f": 3.412
+    },
+    {
+     "p": "ou",
+     "i": 3.413,
+     "f": 3.55
+    },
+    {
+     "p": "o",
+     "i": 3.55,
+     "f": 3.6
+    },
+    {
+     "p": "seu",
+     "i": 3.6,
+     "f": 3.8
+    },
+    {
+     "p": "código",
+     "i": 3.8,
+     "f": 4.312
+    },
+    {
+     "p": "Resposta",
+     "i": 4.65,
+     "f": 5.4
+    },
+    {
+     "p": "o",
+     "i": 5.65,
+     "f": 5.713
+    },
+    {
+     "p": "seu",
+     "i": 5.713,
+     "f": 6.013
+    },
+    {
+     "p": "código",
+     "i": 6.013,
+     "f": 6.525
+    },
+    {
+     "p": "O",
+     "i": 6.875,
+     "f": 6.975
+    },
+    {
+     "p": "Claude",
+     "i": 6.975,
+     "f": 7.387
+    },
+    {
+     "p": "só",
+     "i": 7.388,
+     "f": 7.575
+    },
+    {
+     "p": "pede",
+     "i": 7.575,
+     "f": 8.05
+    },
+    {
+     "p": "Na",
+     "i": 8.4,
+     "f": 8.55
+    },
+    {
+     "p": "próxima",
+     "i": 8.55,
+     "f": 9.062
+    },
+    {
+     "p": "aula",
+     "i": 9.062,
+     "f": 9.35
+    },
+    {
+     "p": "RAG",
+     "i": 9.637,
+     "f": 9.975
+    },
+    {
+     "p": "e",
+     "i": 9.975,
+     "f": 10.05
+    },
+    {
+     "p": "embeddings",
+     "i": 10.05,
+     "f": 11.025
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "salao": {
+   "arquivo": "",
+   "rotulo": "Salão de beleza",
+   "commons": "salão de beleza cabeleireira"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.944Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Tool use with Claude (visão geral)",
+   "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"
+  },
+  {
+   "titulo": "Anthropic — Define tools",
+   "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools"
+  },
+  {
+   "titulo": "Anthropic — Handle tool calls",
+   "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls"
+  },
+  {
+   "titulo": "Anthropic — Web search tool",
+   "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool"
+  },
+  {
+   "titulo": "Anthropic — Code execution tool",
+   "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "linha-do-tempo"
  }
 }
