@@ -1,0 +1,129 @@
+{
+  "titulo": "Aula 4.2: Conectores do Claude",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "lista", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Help Center — Conectores (como conectar e permissões de ferramentas)", "url": "https://support.claude.com/en/articles/11176164" },
+    { "titulo": "Claude — Diretório de conectores e plugins", "url": "https://claude.com/marketplace/connectors-plugins" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "E se o Claude pudesse ler a sua agenda e o seu e-mail, e resumir seu dia em dez segundos?",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "E SE?", "em": "E", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["relogio", "Agenda"], ["seta", ""], ["balao", "Resumo"]], "em": "agenda", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 10, "unidade": "segundos", "em": "dez", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nesta aula, você vai aprender três coisas: ligar seus apps, ver como o Claude pede aprovação, e três usos práticos.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CONECTORES", "sub": "AULA 4.2", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["mais", "Ligar"], ["check", "Aprovar"], ["alvo", "Usar"]], "em": "três", "posicao": "alto" },
+        { "tipo": "tag", "texto": "3 APRENDIZADOS", "icone": "alvo", "em": "aprender", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Conector é uma ponte entre o Claude e outro aplicativo. Com ela, o Claude lê seus dados lá dentro, em vez de você copiar e colar. Assim a resposta vem com informação real, e não com chute.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1. O QUE É CONECTOR", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Conector", "significado": "Ponte que deixa o Claude acessar outro app", "em": "ponte", "posicao": "alto" },
+        { "tipo": "mapa", "de": "Seu app", "para": "Claude", "legenda": "sem copiar e colar", "em": "copiar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense num assistente novo no escritório. Você entrega as chaves só das salas que ele precisa. As outras ficam trancadas. Com o Claude, é o mesmo cuidado.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "ANALOGIA", "icone": "casa", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balao", "Assistente"], ["seta", ""], ["casa", "Só suas salas"]], "em": "assistente", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "TRANCADO", "cor": "vermelho", "em": "trancadas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "lista-apps",
+      "texto": "Primeiro: ligar. Vá em Personalizar, Conectores, e abra o diretório. Escolha Gmail, Google Agenda, Google Drive, Notion, Canva ou GitHub, clique em Conectar e autorize.",
+      "fundo": "gmail",
+      "fontes": ["Claude Help Center", "Diretório de conectores"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2. LIGAR OS APPS", "sub": "Conectores > Diretório", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "Gmail", "icone": "documento", "em": "Gmail", "posicao": "alto" },
+        { "tipo": "tag", "texto": "Agenda · Drive · Notion", "icone": "relogio", "em": "Notion", "posicao": "meio" },
+        { "tipo": "tag", "texto": "Canva · GitHub", "icone": "obra", "cor": "verde", "em": "GitHub", "posicao": "meio2" },
+        { "tipo": "carimbo", "texto": "AUTORIZE", "cor": "verde", "em": "autorize", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "aprovacao",
+      "texto": "Segundo: aprovar. Ler é uma coisa. Escrever ou apagar é outra. Para cada ferramenta você escolhe: sempre permitir, pedir aprovação ou bloquear.",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3. VOCÊ MANDA", "sub": "Permissões das ferramentas", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": true, "texto": "LER: pode liberar", "nota": "Ferramentas só de leitura", "em": "Ler", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "ESCREVER: peça aprovação", "nota": "Enviar, editar, apagar", "em": "Escrever", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "BLOQUEAR", "cor": "vermelho", "em": "bloquear", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Terceiro: usar. Peça assim: resuma meu dia, com e-mails e reuniões. Depois: monte minhas prioridades da semana. E por fim: crie uma capa no Canva para meu vídeo.",
+      "fundo": "canva",
+      "fontes": ["Diretório de conectores"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "4. TRÊS USOS", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Resuma meu dia: e-mails e reuniões", "em": "resuma", "posicao": "alto" },
+        { "tipo": "tag", "texto": "PRIORIDADES DA SEMANA", "icone": "alvo", "em": "prioridades", "posicao": "meio" },
+        { "tipo": "tag", "texto": "CAPA NO CANVA", "icone": "mais", "cor": "roxo", "em": "Canva", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum? Liberar tudo sem olhar. Conecte só o que a tarefa precisa, e leia o que o Claude pede antes de aprovar. Menos acesso, menos susto.",
+      "fundo": "github",
+      "fontes": ["Claude Help Center"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Liberar tudo sem olhar", "nota": "Risco desnecessário", "em": "Liberar", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Conectar só o necessário", "nota": "E ler antes de aprovar", "em": "Conecte", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: conecte só o Google Agenda e peça um resumo da sua semana. Depois, compare com a sua agenda de verdade.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "O QUE TEM NA SEMANA?", "em": "resumo", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Resuma minha semana", "em": "peça", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: conector liga o Claude aos seus apps. Você decide o que ele pode ler e fazer. E o melhor uso é rotina: dia, semana e capas. Simples, útil e sob o seu controle.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["mais", "Ligar"], ["check", "Aprovar"], ["alvo", "Usar"]], "em": "liga", "posicao": "alto" },
+        { "tipo": "tag", "texto": "VOCÊ DECIDE", "icone": "balanca", "em": "decide", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: antes de o Claude apagar um arquivo no Drive, o ideal é sempre permitir, ou pedir aprovação? Pedir aprovação, porque apagar é sensível. Na próxima aula, MCP.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Apagar arquivo: o que é melhor?", "opcoes": ["1. Sempre permitir", "2. Pedir aprovação"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "OPÇÃO 2", "cor": "verde", "em": "Pedir", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 4.3", "em": "Na", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-u0en",
- "titulo": "Aula 4.2: Conectores do Claude — mostre como ligar Gmail, Google Agend",
+ "titulo": "Aula 4.2: Conectores do Claude",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.942Z",
- "atualizadoEm": "2026-10-19T22:53:25Z",
- "status": "erro",
+ "atualizadoEm": "2026-10-20T02:57:19Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 4.2: Conectores do Claude — mostre como ligar Gmail, Google Agenda, Google Drive, Notion, Canva e GitHub, como o Claude lê seus dados e pede aprovação antes de ações sensíveis, onde fica o diretório de conectores e 3 usos práticos: resumo do dia, prioridades da semana e capas no Canva",
@@ -62,12 +63,2010 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "E se o Claude pudesse ler a sua agenda e o seu e-mail, e resumir seu dia em dez segundos?",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "E SE?",
+     "em": "E",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "Agenda"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balao",
+       "Resumo"
+      ]
+     ],
+     "em": "agenda",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 10,
+     "unidade": "segundos",
+     "em": "dez",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta aula, você vai aprender três coisas: ligar seus apps, ver como o Claude pede aprovação, e três usos práticos.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CONECTORES",
+     "sub": "AULA 4.2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "mais",
+       "Ligar"
+      ],
+      [
+       "check",
+       "Aprovar"
+      ],
+      [
+       "alvo",
+       "Usar"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3 APRENDIZADOS",
+     "icone": "alvo",
+     "em": "aprender",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Conector é uma ponte entre o Claude e outro aplicativo. Com ela, o Claude lê seus dados lá dentro, em vez de você copiar e colar. Assim a resposta vem com informação real, e não com chute.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1. O QUE É CONECTOR",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Conector",
+     "significado": "Ponte que deixa o Claude acessar outro app",
+     "em": "ponte",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Seu app",
+     "para": "Claude",
+     "legenda": "sem copiar e colar",
+     "em": "copiar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense num assistente novo no escritório. Você entrega as chaves só das salas que ele precisa. As outras ficam trancadas. Com o Claude, é o mesmo cuidado.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "ANALOGIA",
+     "icone": "casa",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balao",
+       "Assistente"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "casa",
+       "Só suas salas"
+      ]
+     ],
+     "em": "assistente",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "TRANCADO",
+     "cor": "vermelho",
+     "em": "trancadas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "lista-apps",
+   "texto": "Primeiro: ligar. Vá em Personalizar, Conectores, e abra o diretório. Escolha Gmail, Google Agenda, Google Drive, Notion, Canva ou GitHub, clique em Conectar e autorize.",
+   "fundo": "gmail",
+   "fontes": [
+    "Claude Help Center",
+    "Diretório de conectores"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2. LIGAR OS APPS",
+     "sub": "Conectores > Diretório",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Gmail",
+     "icone": "documento",
+     "em": "Gmail",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Agenda · Drive · Notion",
+     "icone": "relogio",
+     "em": "Notion",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Canva · GitHub",
+     "icone": "obra",
+     "cor": "verde",
+     "em": "GitHub",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "AUTORIZE",
+     "cor": "verde",
+     "em": "autorize",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "aprovacao",
+   "texto": "Segundo: aprovar. Ler é uma coisa. Escrever ou apagar é outra. Para cada ferramenta você escolhe: sempre permitir, pedir aprovação ou bloquear.",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3. VOCÊ MANDA",
+     "sub": "Permissões das ferramentas",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "LER: pode liberar",
+     "nota": "Ferramentas só de leitura",
+     "em": "Ler",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "ESCREVER: peça aprovação",
+     "nota": "Enviar, editar, apagar",
+     "em": "Escrever",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "BLOQUEAR",
+     "cor": "vermelho",
+     "em": "bloquear",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Terceiro: usar. Peça assim: resuma meu dia, com e-mails e reuniões. Depois: monte minhas prioridades da semana. E por fim: crie uma capa no Canva para meu vídeo.",
+   "fundo": "canva",
+   "fontes": [
+    "Diretório de conectores"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "4. TRÊS USOS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Resuma meu dia: e-mails e reuniões",
+     "em": "resuma",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PRIORIDADES DA SEMANA",
+     "icone": "alvo",
+     "em": "prioridades",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CAPA NO CANVA",
+     "icone": "mais",
+     "cor": "roxo",
+     "em": "Canva",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum? Liberar tudo sem olhar. Conecte só o que a tarefa precisa, e leia o que o Claude pede antes de aprovar. Menos acesso, menos susto.",
+   "fundo": "github",
+   "fontes": [
+    "Claude Help Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Liberar tudo sem olhar",
+     "nota": "Risco desnecessário",
+     "em": "Liberar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Conectar só o necessário",
+     "nota": "E ler antes de aprovar",
+     "em": "Conecte",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: conecte só o Google Agenda e peça um resumo da sua semana. Depois, compare com a sua agenda de verdade.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "O QUE TEM NA SEMANA?",
+     "em": "resumo",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Resuma minha semana",
+     "em": "peça",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: conector liga o Claude aos seus apps. Você decide o que ele pode ler e fazer. E o melhor uso é rotina: dia, semana e capas. Simples, útil e sob o seu controle.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "mais",
+       "Ligar"
+      ],
+      [
+       "check",
+       "Aprovar"
+      ],
+      [
+       "alvo",
+       "Usar"
+      ]
+     ],
+     "em": "liga",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "VOCÊ DECIDE",
+     "icone": "balanca",
+     "em": "decide",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: antes de o Claude apagar um arquivo no Drive, o ideal é sempre permitir, ou pedir aprovação? Pedir aprovação, porque apagar é sensível. Na próxima aula, MCP.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Apagar arquivo: o que é melhor?",
+     "opcoes": [
+      "1. Sempre permitir",
+      "2. Pedir aprovação"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "OPÇÃO 2",
+     "cor": "verde",
+     "em": "Pedir",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 4.3",
+     "em": "Na",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "edc47305a8",
+   "texto": "E se o Claude pudesse ler a sua agenda e o seu e-mail, e resumir seu dia em dez segundos?",
+   "audio": "audio/gancho-edc47305a8.mp3",
+   "duracao": 5.688,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "se",
+     "i": 0.229,
+     "f": 0.348
+    },
+    {
+     "p": "o",
+     "i": 0.36,
+     "f": 0.431
+    },
+    {
+     "p": "Claude",
+     "i": 0.443,
+     "f": 0.776
+    },
+    {
+     "p": "pudesse",
+     "i": 0.788,
+     "f": 1.217
+    },
+    {
+     "p": "ler",
+     "i": 1.229,
+     "f": 1.36
+    },
+    {
+     "p": "a",
+     "i": 1.371,
+     "f": 1.419
+    },
+    {
+     "p": "sua",
+     "i": 1.431,
+     "f": 1.633
+    },
+    {
+     "p": "agenda",
+     "i": 1.645,
+     "f": 1.979
+    },
+    {
+     "p": "e",
+     "i": 1.99,
+     "f": 2.026
+    },
+    {
+     "p": "o",
+     "i": 2.038,
+     "f": 2.074
+    },
+    {
+     "p": "seu",
+     "i": 2.086,
+     "f": 2.288
+    },
+    {
+     "p": "e-mail",
+     "i": 2.3,
+     "f": 2.645
+    },
+    {
+     "p": "e",
+     "i": 2.931,
+     "f": 2.99
+    },
+    {
+     "p": "resumir",
+     "i": 3.002,
+     "f": 3.443
+    },
+    {
+     "p": "seu",
+     "i": 3.455,
+     "f": 3.657
+    },
+    {
+     "p": "dia",
+     "i": 3.669,
+     "f": 3.895
+    },
+    {
+     "p": "em",
+     "i": 3.907,
+     "f": 3.99
+    },
+    {
+     "p": "dez",
+     "i": 4.002,
+     "f": 4.288
+    },
+    {
+     "p": "segundos",
+     "i": 4.3,
+     "f": 4.86
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "62c506e0e4",
+   "texto": "Nesta aula, você vai aprender três coisas: ligar seus apps, ver como o Claude pede aprovação, e três usos práticos.",
+   "audio": "audio/promessa-62c506e0e4.mp3",
+   "duracao": 8.256,
+   "palavras": [
+    {
+     "p": "Nesta",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "aula",
+     "i": 0.455,
+     "f": 0.729
+    },
+    {
+     "p": "você",
+     "i": 0.99,
+     "f": 1.276
+    },
+    {
+     "p": "vai",
+     "i": 1.288,
+     "f": 1.395
+    },
+    {
+     "p": "aprender",
+     "i": 1.407,
+     "f": 1.812
+    },
+    {
+     "p": "três",
+     "i": 1.824,
+     "f": 2.133
+    },
+    {
+     "p": "coisas",
+     "i": 2.145,
+     "f": 2.621
+    },
+    {
+     "p": "ligar",
+     "i": 2.907,
+     "f": 3.252
+    },
+    {
+     "p": "seus",
+     "i": 3.264,
+     "f": 3.443
+    },
+    {
+     "p": "apps",
+     "i": 3.455,
+     "f": 3.955
+    },
+    {
+     "p": "ver",
+     "i": 4.229,
+     "f": 4.443
+    },
+    {
+     "p": "como",
+     "i": 4.455,
+     "f": 4.669
+    },
+    {
+     "p": "o",
+     "i": 4.681,
+     "f": 4.717
+    },
+    {
+     "p": "Claude",
+     "i": 4.729,
+     "f": 5.026
+    },
+    {
+     "p": "pede",
+     "i": 5.038,
+     "f": 5.24
+    },
+    {
+     "p": "aprovação",
+     "i": 5.252,
+     "f": 5.812
+    },
+    {
+     "p": "e",
+     "i": 6.074,
+     "f": 6.169
+    },
+    {
+     "p": "três",
+     "i": 6.181,
+     "f": 6.407
+    },
+    {
+     "p": "usos",
+     "i": 6.419,
+     "f": 6.788
+    },
+    {
+     "p": "práticos",
+     "i": 6.8,
+     "f": 7.419
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "daa260d828",
+   "texto": "Conector é uma ponte entre o Claude e outro aplicativo. Com ela, o Claude lê seus dados lá dentro, em vez de você copiar e colar. Assim a resposta vem com informação real, e não com chute.",
+   "audio": "audio/conceito-daa260d828.mp3",
+   "duracao": 13.32,
+   "palavras": [
+    {
+     "p": "Conector",
+     "i": 0.098,
+     "f": 0.657
+    },
+    {
+     "p": "é",
+     "i": 0.669,
+     "f": 0.729
+    },
+    {
+     "p": "uma",
+     "i": 0.74,
+     "f": 0.931
+    },
+    {
+     "p": "ponte",
+     "i": 0.943,
+     "f": 1.288
+    },
+    {
+     "p": "entre",
+     "i": 1.3,
+     "f": 1.479
+    },
+    {
+     "p": "o",
+     "i": 1.49,
+     "f": 1.538
+    },
+    {
+     "p": "Claude",
+     "i": 1.55,
+     "f": 1.895
+    },
+    {
+     "p": "e",
+     "i": 1.907,
+     "f": 1.967
+    },
+    {
+     "p": "outro",
+     "i": 1.979,
+     "f": 2.229
+    },
+    {
+     "p": "aplicativo",
+     "i": 2.24,
+     "f": 2.883
+    },
+    {
+     "p": "Com",
+     "i": 3.702,
+     "f": 3.964
+    },
+    {
+     "p": "ela",
+     "i": 3.976,
+     "f": 4.238
+    },
+    {
+     "p": "o",
+     "i": 4.5,
+     "f": 4.583
+    },
+    {
+     "p": "Claude",
+     "i": 4.595,
+     "f": 4.941
+    },
+    {
+     "p": "lê",
+     "i": 4.952,
+     "f": 5.083
+    },
+    {
+     "p": "seus",
+     "i": 5.095,
+     "f": 5.298
+    },
+    {
+     "p": "dados",
+     "i": 5.31,
+     "f": 5.631
+    },
+    {
+     "p": "lá",
+     "i": 5.643,
+     "f": 5.738
+    },
+    {
+     "p": "dentro",
+     "i": 5.75,
+     "f": 6.167
+    },
+    {
+     "p": "em",
+     "i": 6.405,
+     "f": 6.571
+    },
+    {
+     "p": "vez",
+     "i": 6.583,
+     "f": 6.845
+    },
+    {
+     "p": "de",
+     "i": 6.857,
+     "f": 6.94
+    },
+    {
+     "p": "você",
+     "i": 6.952,
+     "f": 7.238
+    },
+    {
+     "p": "copiar",
+     "i": 7.25,
+     "f": 7.655
+    },
+    {
+     "p": "e",
+     "i": 7.667,
+     "f": 7.714
+    },
+    {
+     "p": "colar",
+     "i": 7.726,
+     "f": 8.095
+    },
+    {
+     "p": "Assim",
+     "i": 8.917,
+     "f": 9.333
+    },
+    {
+     "p": "a",
+     "i": 9.345,
+     "f": 9.393
+    },
+    {
+     "p": "resposta",
+     "i": 9.405,
+     "f": 9.988
+    },
+    {
+     "p": "vem",
+     "i": 10,
+     "f": 10.179
+    },
+    {
+     "p": "com",
+     "i": 10.19,
+     "f": 10.298
+    },
+    {
+     "p": "informação",
+     "i": 10.31,
+     "f": 10.869
+    },
+    {
+     "p": "real",
+     "i": 10.881,
+     "f": 11.274
+    },
+    {
+     "p": "e",
+     "i": 11.524,
+     "f": 11.619
+    },
+    {
+     "p": "não",
+     "i": 11.631,
+     "f": 11.869
+    },
+    {
+     "p": "com",
+     "i": 11.881,
+     "f": 12.06
+    },
+    {
+     "p": "chute",
+     "i": 12.071,
+     "f": 12.488
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "3180a4c559",
+   "texto": "Pense num assistente novo no escritório. Você entrega as chaves só das salas que ele precisa. As outras ficam trancadas. Com o Claude, é o mesmo cuidado.",
+   "audio": "audio/analogia-3180a4c559.mp3",
+   "duracao": 11.808,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "num",
+     "i": 0.49,
+     "f": 0.609
+    },
+    {
+     "p": "assistente",
+     "i": 0.621,
+     "f": 1.193
+    },
+    {
+     "p": "novo",
+     "i": 1.205,
+     "f": 1.526
+    },
+    {
+     "p": "no",
+     "i": 1.538,
+     "f": 1.598
+    },
+    {
+     "p": "escritório",
+     "i": 1.61,
+     "f": 2.169
+    },
+    {
+     "p": "Você",
+     "i": 2.988,
+     "f": 3.309
+    },
+    {
+     "p": "entrega",
+     "i": 3.321,
+     "f": 3.738
+    },
+    {
+     "p": "as",
+     "i": 3.75,
+     "f": 3.857
+    },
+    {
+     "p": "chaves",
+     "i": 3.869,
+     "f": 4.274
+    },
+    {
+     "p": "só",
+     "i": 4.286,
+     "f": 4.393
+    },
+    {
+     "p": "das",
+     "i": 4.405,
+     "f": 4.595
+    },
+    {
+     "p": "salas",
+     "i": 4.607,
+     "f": 5
+    },
+    {
+     "p": "que",
+     "i": 5.012,
+     "f": 5.107
+    },
+    {
+     "p": "ele",
+     "i": 5.119,
+     "f": 5.25
+    },
+    {
+     "p": "precisa",
+     "i": 5.262,
+     "f": 5.81
+    },
+    {
+     "p": "As",
+     "i": 6.631,
+     "f": 6.774
+    },
+    {
+     "p": "outras",
+     "i": 6.786,
+     "f": 7.202
+    },
+    {
+     "p": "ficam",
+     "i": 7.214,
+     "f": 7.524
+    },
+    {
+     "p": "trancadas",
+     "i": 7.536,
+     "f": 8.226
+    },
+    {
+     "p": "Com",
+     "i": 9.048,
+     "f": 9.238
+    },
+    {
+     "p": "o",
+     "i": 9.25,
+     "f": 9.298
+    },
+    {
+     "p": "Claude",
+     "i": 9.31,
+     "f": 9.726
+    },
+    {
+     "p": "é",
+     "i": 9.881,
+     "f": 9.976
+    },
+    {
+     "p": "o",
+     "i": 9.988,
+     "f": 10.059
+    },
+    {
+     "p": "mesmo",
+     "i": 10.071,
+     "f": 10.44
+    },
+    {
+     "p": "cuidado",
+     "i": 10.452,
+     "f": 10.964
+    }
+   ]
+  },
+  "lista-apps": {
+   "hash": "951109a269",
+   "texto": "Primeiro: ligar. Vá em Personalizar, Conectores, e abra o diretório. Escolha Gmail, Google Agenda, Google Drive, Notion, Canva ou GitHub, clique em Conectar e autorize.",
+   "audio": "audio/lista-apps-951109a269.mp3",
+   "duracao": 14.088,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.098,
+     "f": 0.562
+    },
+    {
+     "p": "ligar",
+     "i": 0.883,
+     "f": 1.264
+    },
+    {
+     "p": "Vá",
+     "i": 2.083,
+     "f": 2.333
+    },
+    {
+     "p": "em",
+     "i": 2.345,
+     "f": 2.441
+    },
+    {
+     "p": "Personalizar",
+     "i": 2.452,
+     "f": 3.214
+    },
+    {
+     "p": "Conectores",
+     "i": 3.417,
+     "f": 4.107
+    },
+    {
+     "p": "e",
+     "i": 4.369,
+     "f": 4.476
+    },
+    {
+     "p": "abra",
+     "i": 4.488,
+     "f": 4.75
+    },
+    {
+     "p": "o",
+     "i": 4.762,
+     "f": 4.798
+    },
+    {
+     "p": "diretório",
+     "i": 4.81,
+     "f": 5.381
+    },
+    {
+     "p": "Escolha",
+     "i": 6.202,
+     "f": 6.667
+    },
+    {
+     "p": "Gmail",
+     "i": 6.679,
+     "f": 7.119
+    },
+    {
+     "p": "Google",
+     "i": 7.405,
+     "f": 7.809
+    },
+    {
+     "p": "Agenda",
+     "i": 7.821,
+     "f": 8.274
+    },
+    {
+     "p": "Google",
+     "i": 8.512,
+     "f": 8.893
+    },
+    {
+     "p": "Drive",
+     "i": 8.905,
+     "f": 9.286
+    },
+    {
+     "p": "Notion",
+     "i": 9.536,
+     "f": 10.071
+    },
+    {
+     "p": "Canva",
+     "i": 10.286,
+     "f": 10.619
+    },
+    {
+     "p": "ou",
+     "i": 10.631,
+     "f": 10.738
+    },
+    {
+     "p": "GitHub",
+     "i": 10.75,
+     "f": 11.321
+    },
+    {
+     "p": "clique",
+     "i": 11.571,
+     "f": 11.857
+    },
+    {
+     "p": "em",
+     "i": 11.869,
+     "f": 11.929
+    },
+    {
+     "p": "Conectar",
+     "i": 11.94,
+     "f": 12.548
+    },
+    {
+     "p": "e",
+     "i": 12.56,
+     "f": 12.619
+    },
+    {
+     "p": "autorize",
+     "i": 12.631,
+     "f": 13.262
+    }
+   ]
+  },
+  "aprovacao": {
+   "hash": "e442bcdb4d",
+   "texto": "Segundo: aprovar. Ler é uma coisa. Escrever ou apagar é outra. Para cada ferramenta você escolhe: sempre permitir, pedir aprovação ou bloquear.",
+   "audio": "audio/aprovacao-e442bcdb4d.mp3",
+   "duracao": 11.784,
+   "palavras": [
+    {
+     "p": "Segundo",
+     "i": 0.098,
+     "f": 0.729
+    },
+    {
+     "p": "aprovar",
+     "i": 0.943,
+     "f": 1.455
+    },
+    {
+     "p": "Ler",
+     "i": 2.274,
+     "f": 2.512
+    },
+    {
+     "p": "é",
+     "i": 2.524,
+     "f": 2.607
+    },
+    {
+     "p": "uma",
+     "i": 2.619,
+     "f": 2.786
+    },
+    {
+     "p": "coisa",
+     "i": 2.798,
+     "f": 3.191
+    },
+    {
+     "p": "Escrever",
+     "i": 4.012,
+     "f": 4.56
+    },
+    {
+     "p": "ou",
+     "i": 4.571,
+     "f": 4.679
+    },
+    {
+     "p": "apagar",
+     "i": 4.69,
+     "f": 5.071
+    },
+    {
+     "p": "é",
+     "i": 5.083,
+     "f": 5.167
+    },
+    {
+     "p": "outra",
+     "i": 5.179,
+     "f": 5.512
+    },
+    {
+     "p": "Para",
+     "i": 6.333,
+     "f": 6.56
+    },
+    {
+     "p": "cada",
+     "i": 6.571,
+     "f": 6.821
+    },
+    {
+     "p": "ferramenta",
+     "i": 6.833,
+     "f": 7.381
+    },
+    {
+     "p": "você",
+     "i": 7.393,
+     "f": 7.631
+    },
+    {
+     "p": "escolhe",
+     "i": 7.643,
+     "f": 8.071
+    },
+    {
+     "p": "sempre",
+     "i": 8.357,
+     "f": 8.726
+    },
+    {
+     "p": "permitir",
+     "i": 8.738,
+     "f": 9.25
+    },
+    {
+     "p": "pedir",
+     "i": 9.452,
+     "f": 9.714
+    },
+    {
+     "p": "aprovação",
+     "i": 9.726,
+     "f": 10.31
+    },
+    {
+     "p": "ou",
+     "i": 10.321,
+     "f": 10.429
+    },
+    {
+     "p": "bloquear",
+     "i": 10.44,
+     "f": 10.964
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "e2c325ee2b",
+   "texto": "Terceiro: usar. Peça assim: resuma meu dia, com e-mails e reuniões. Depois: monte minhas prioridades da semana. E por fim: crie uma capa no Canva para meu vídeo.",
+   "audio": "audio/exemplo-e2c325ee2b.mp3",
+   "duracao": 13.512,
+   "palavras": [
+    {
+     "p": "Terceiro",
+     "i": 0.098,
+     "f": 0.669
+    },
+    {
+     "p": "usar",
+     "i": 1.026,
+     "f": 1.395
+    },
+    {
+     "p": "Peça",
+     "i": 2.214,
+     "f": 2.536
+    },
+    {
+     "p": "assim",
+     "i": 2.548,
+     "f": 2.869
+    },
+    {
+     "p": "resuma",
+     "i": 3.131,
+     "f": 3.536
+    },
+    {
+     "p": "meu",
+     "i": 3.548,
+     "f": 3.714
+    },
+    {
+     "p": "dia",
+     "i": 3.726,
+     "f": 4.012
+    },
+    {
+     "p": "com",
+     "i": 4.19,
+     "f": 4.369
+    },
+    {
+     "p": "e-mails",
+     "i": 4.381,
+     "f": 4.702
+    },
+    {
+     "p": "e",
+     "i": 4.714,
+     "f": 4.81
+    },
+    {
+     "p": "reuniões",
+     "i": 4.821,
+     "f": 5.524
+    },
+    {
+     "p": "Depois",
+     "i": 6.345,
+     "f": 6.964
+    },
+    {
+     "p": "monte",
+     "i": 7.167,
+     "f": 7.595
+    },
+    {
+     "p": "minhas",
+     "i": 7.607,
+     "f": 7.869
+    },
+    {
+     "p": "prioridades",
+     "i": 7.881,
+     "f": 8.536
+    },
+    {
+     "p": "da",
+     "i": 8.548,
+     "f": 8.643
+    },
+    {
+     "p": "semana",
+     "i": 8.655,
+     "f": 9.179
+    },
+    {
+     "p": "E",
+     "i": 10,
+     "f": 10.107
+    },
+    {
+     "p": "por",
+     "i": 10.119,
+     "f": 10.298
+    },
+    {
+     "p": "fim",
+     "i": 10.31,
+     "f": 10.56
+    },
+    {
+     "p": "crie",
+     "i": 10.774,
+     "f": 10.988
+    },
+    {
+     "p": "uma",
+     "i": 11,
+     "f": 11.179
+    },
+    {
+     "p": "capa",
+     "i": 11.19,
+     "f": 11.5
+    },
+    {
+     "p": "no",
+     "i": 11.512,
+     "f": 11.631
+    },
+    {
+     "p": "Canva",
+     "i": 11.643,
+     "f": 11.952
+    },
+    {
+     "p": "para",
+     "i": 11.964,
+     "f": 12.131
+    },
+    {
+     "p": "meu",
+     "i": 12.143,
+     "f": 12.321
+    },
+    {
+     "p": "vídeo",
+     "i": 12.333,
+     "f": 12.69
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "2e6d98edd4",
+   "texto": "O erro comum? Liberar tudo sem olhar. Conecte só o que a tarefa precisa, e leia o que o Claude pede antes de aprovar. Menos acesso, menos susto.",
+   "audio": "audio/erro-comum-2e6d98edd4.mp3",
+   "duracao": 11.64,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.252
+    },
+    {
+     "p": "erro",
+     "i": 0.264,
+     "f": 0.455
+    },
+    {
+     "p": "comum",
+     "i": 0.467,
+     "f": 0.895
+    },
+    {
+     "p": "Liberar",
+     "i": 1.714,
+     "f": 2.202
+    },
+    {
+     "p": "tudo",
+     "i": 2.214,
+     "f": 2.512
+    },
+    {
+     "p": "sem",
+     "i": 2.524,
+     "f": 2.762
+    },
+    {
+     "p": "olhar",
+     "i": 2.774,
+     "f": 3.107
+    },
+    {
+     "p": "Conecte",
+     "i": 3.929,
+     "f": 4.429
+    },
+    {
+     "p": "só",
+     "i": 4.44,
+     "f": 4.631
+    },
+    {
+     "p": "o",
+     "i": 4.643,
+     "f": 4.691
+    },
+    {
+     "p": "que",
+     "i": 4.702,
+     "f": 4.786
+    },
+    {
+     "p": "a",
+     "i": 4.798,
+     "f": 4.857
+    },
+    {
+     "p": "tarefa",
+     "i": 4.869,
+     "f": 5.226
+    },
+    {
+     "p": "precisa",
+     "i": 5.238,
+     "f": 5.762
+    },
+    {
+     "p": "e",
+     "i": 6.024,
+     "f": 6.131
+    },
+    {
+     "p": "leia",
+     "i": 6.143,
+     "f": 6.417
+    },
+    {
+     "p": "o",
+     "i": 6.429,
+     "f": 6.464
+    },
+    {
+     "p": "que",
+     "i": 6.476,
+     "f": 6.56
+    },
+    {
+     "p": "o",
+     "i": 6.571,
+     "f": 6.619
+    },
+    {
+     "p": "Claude",
+     "i": 6.631,
+     "f": 6.964
+    },
+    {
+     "p": "pede",
+     "i": 6.976,
+     "f": 7.31
+    },
+    {
+     "p": "antes",
+     "i": 7.321,
+     "f": 7.643
+    },
+    {
+     "p": "de",
+     "i": 7.655,
+     "f": 7.714
+    },
+    {
+     "p": "aprovar",
+     "i": 7.726,
+     "f": 8.131
+    },
+    {
+     "p": "Menos",
+     "i": 8.952,
+     "f": 9.262
+    },
+    {
+     "p": "acesso",
+     "i": 9.274,
+     "f": 9.881
+    },
+    {
+     "p": "menos",
+     "i": 10.095,
+     "f": 10.417
+    },
+    {
+     "p": "susto",
+     "i": 10.429,
+     "f": 10.81
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "0fa4c40e2f",
+   "texto": "Pause o vídeo e tente: conecte só o Google Agenda e peça um resumo da sua semana. Depois, compare com a sua agenda de verdade.",
+   "audio": "audio/pratica-0fa4c40e2f.mp3",
+   "duracao": 9.144,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "o",
+     "i": 0.419,
+     "f": 0.467
+    },
+    {
+     "p": "vídeo",
+     "i": 0.479,
+     "f": 0.776
+    },
+    {
+     "p": "e",
+     "i": 0.788,
+     "f": 0.859
+    },
+    {
+     "p": "tente",
+     "i": 0.871,
+     "f": 1.229
+    },
+    {
+     "p": "conecte",
+     "i": 1.502,
+     "f": 2.002
+    },
+    {
+     "p": "só",
+     "i": 2.014,
+     "f": 2.193
+    },
+    {
+     "p": "o",
+     "i": 2.205,
+     "f": 2.24
+    },
+    {
+     "p": "Google",
+     "i": 2.252,
+     "f": 2.574
+    },
+    {
+     "p": "Agenda",
+     "i": 2.586,
+     "f": 2.967
+    },
+    {
+     "p": "e",
+     "i": 2.979,
+     "f": 3.014
+    },
+    {
+     "p": "peça",
+     "i": 3.026,
+     "f": 3.336
+    },
+    {
+     "p": "um",
+     "i": 3.348,
+     "f": 3.407
+    },
+    {
+     "p": "resumo",
+     "i": 3.419,
+     "f": 3.824
+    },
+    {
+     "p": "da",
+     "i": 3.836,
+     "f": 3.919
+    },
+    {
+     "p": "sua",
+     "i": 3.931,
+     "f": 4.181
+    },
+    {
+     "p": "semana",
+     "i": 4.193,
+     "f": 4.705
+    },
+    {
+     "p": "Depois",
+     "i": 5.524,
+     "f": 6.095
+    },
+    {
+     "p": "compare",
+     "i": 6.357,
+     "f": 6.798
+    },
+    {
+     "p": "com",
+     "i": 6.81,
+     "f": 6.976
+    },
+    {
+     "p": "a",
+     "i": 6.988,
+     "f": 7.024
+    },
+    {
+     "p": "sua",
+     "i": 7.036,
+     "f": 7.298
+    },
+    {
+     "p": "agenda",
+     "i": 7.31,
+     "f": 7.667
+    },
+    {
+     "p": "de",
+     "i": 7.679,
+     "f": 7.75
+    },
+    {
+     "p": "verdade",
+     "i": 7.762,
+     "f": 8.31
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "2b4534b6c8",
+   "texto": "Resumindo: conector liga o Claude aos seus apps. Você decide o que ele pode ler e fazer. E o melhor uso é rotina: dia, semana e capas. Simples, útil e sob o seu controle.",
+   "audio": "audio/resumo-2b4534b6c8.mp3",
+   "duracao": 13.68,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.764
+    },
+    {
+     "p": "conector",
+     "i": 1.062,
+     "f": 1.598
+    },
+    {
+     "p": "liga",
+     "i": 1.61,
+     "f": 1.848
+    },
+    {
+     "p": "o",
+     "i": 1.86,
+     "f": 1.895
+    },
+    {
+     "p": "Claude",
+     "i": 1.907,
+     "f": 2.229
+    },
+    {
+     "p": "aos",
+     "i": 2.24,
+     "f": 2.371
+    },
+    {
+     "p": "seus",
+     "i": 2.383,
+     "f": 2.526
+    },
+    {
+     "p": "apps",
+     "i": 2.538,
+     "f": 3.05
+    },
+    {
+     "p": "Você",
+     "i": 3.869,
+     "f": 4.143
+    },
+    {
+     "p": "decide",
+     "i": 4.155,
+     "f": 4.583
+    },
+    {
+     "p": "o",
+     "i": 4.595,
+     "f": 4.631
+    },
+    {
+     "p": "que",
+     "i": 4.643,
+     "f": 4.738
+    },
+    {
+     "p": "ele",
+     "i": 4.75,
+     "f": 4.869
+    },
+    {
+     "p": "pode",
+     "i": 4.881,
+     "f": 5.143
+    },
+    {
+     "p": "ler",
+     "i": 5.155,
+     "f": 5.369
+    },
+    {
+     "p": "e",
+     "i": 5.381,
+     "f": 5.417
+    },
+    {
+     "p": "fazer",
+     "i": 5.429,
+     "f": 5.81
+    },
+    {
+     "p": "E",
+     "i": 6.631,
+     "f": 6.75
+    },
+    {
+     "p": "o",
+     "i": 6.762,
+     "f": 6.798
+    },
+    {
+     "p": "melhor",
+     "i": 6.81,
+     "f": 7.155
+    },
+    {
+     "p": "uso",
+     "i": 7.167,
+     "f": 7.393
+    },
+    {
+     "p": "é",
+     "i": 7.405,
+     "f": 7.452
+    },
+    {
+     "p": "rotina",
+     "i": 7.464,
+     "f": 7.952
+    },
+    {
+     "p": "dia",
+     "i": 8.155,
+     "f": 8.476
+    },
+    {
+     "p": "semana",
+     "i": 8.679,
+     "f": 9.167
+    },
+    {
+     "p": "e",
+     "i": 9.179,
+     "f": 9.238
+    },
+    {
+     "p": "capas",
+     "i": 9.25,
+     "f": 9.75
+    },
+    {
+     "p": "Simples",
+     "i": 10.571,
+     "f": 11.179
+    },
+    {
+     "p": "útil",
+     "i": 11.405,
+     "f": 11.702
+    },
+    {
+     "p": "e",
+     "i": 11.714,
+     "f": 11.75
+    },
+    {
+     "p": "sob",
+     "i": 11.762,
+     "f": 12.024
+    },
+    {
+     "p": "o",
+     "i": 12.036,
+     "f": 12.071
+    },
+    {
+     "p": "seu",
+     "i": 12.083,
+     "f": 12.286
+    },
+    {
+     "p": "controle",
+     "i": 12.298,
+     "f": 12.845
+    }
+   ]
+  },
+  "final": {
+   "hash": "7277294c77",
+   "texto": "Quiz: antes de o Claude apagar um arquivo no Drive, o ideal é sempre permitir, ou pedir aprovação? Pedir aprovação, porque apagar é sensível. Na próxima aula, MCP.",
+   "audio": "audio/final-7277294c77.mp3",
+   "duracao": 13.2,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.502
+    },
+    {
+     "p": "antes",
+     "i": 0.812,
+     "f": 1.145
+    },
+    {
+     "p": "de",
+     "i": 1.157,
+     "f": 1.229
+    },
+    {
+     "p": "o",
+     "i": 1.24,
+     "f": 1.3
+    },
+    {
+     "p": "Claude",
+     "i": 1.312,
+     "f": 1.574
+    },
+    {
+     "p": "apagar",
+     "i": 1.586,
+     "f": 1.907
+    },
+    {
+     "p": "um",
+     "i": 1.919,
+     "f": 2.026
+    },
+    {
+     "p": "arquivo",
+     "i": 2.038,
+     "f": 2.419
+    },
+    {
+     "p": "no",
+     "i": 2.431,
+     "f": 2.514
+    },
+    {
+     "p": "Drive",
+     "i": 2.526,
+     "f": 2.883
+    },
+    {
+     "p": "o",
+     "i": 3.217,
+     "f": 3.312
+    },
+    {
+     "p": "ideal",
+     "i": 3.324,
+     "f": 3.693
+    },
+    {
+     "p": "é",
+     "i": 3.705,
+     "f": 3.752
+    },
+    {
+     "p": "sempre",
+     "i": 3.764,
+     "f": 4.181
+    },
+    {
+     "p": "permitir",
+     "i": 4.193,
+     "f": 4.729
+    },
+    {
+     "p": "ou",
+     "i": 4.99,
+     "f": 5.098
+    },
+    {
+     "p": "pedir",
+     "i": 5.11,
+     "f": 5.395
+    },
+    {
+     "p": "aprovação",
+     "i": 5.407,
+     "f": 6.026
+    },
+    {
+     "p": "Pedir",
+     "i": 6.845,
+     "f": 7.167
+    },
+    {
+     "p": "aprovação",
+     "i": 7.179,
+     "f": 7.821
+    },
+    {
+     "p": "porque",
+     "i": 8.06,
+     "f": 8.345
+    },
+    {
+     "p": "apagar",
+     "i": 8.357,
+     "f": 8.786
+    },
+    {
+     "p": "é",
+     "i": 8.798,
+     "f": 8.857
+    },
+    {
+     "p": "sensível",
+     "i": 8.869,
+     "f": 9.524
+    },
+    {
+     "p": "Na",
+     "i": 10.345,
+     "f": 10.548
+    },
+    {
+     "p": "próxima",
+     "i": 10.56,
+     "f": 11
+    },
+    {
+     "p": "aula",
+     "i": 11.012,
+     "f": 11.393
+    },
+    {
+     "p": "MCP",
+     "i": 11.595,
+     "f": 12.357
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "gmail": {
+   "arquivo": "",
+   "rotulo": "Gmail",
+   "wiki": "Gmail"
+  },
+  "github": {
+   "arquivo": "",
+   "rotulo": "GitHub",
+   "wiki": "GitHub"
+  },
+  "canva": {
+   "arquivo": "imagens/canva-951517a0.jpg",
+   "rotulo": "Canva",
+   "wiki": "Canva",
+   "autor": "Wikiediter2029",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:GoalPro_20250822_172450_0000.png",
+   "titulo": "File:GoalPro 20250822 172450 0000.png"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-19T22:26:17.942Z",
-  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/39337945074"
+  "pedidoEm": "2026-10-19T22:26:17.942Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Help Center — Conectores (como conectar e permissões de ferramentas)",
+   "url": "https://support.claude.com/en/articles/11176164"
+  },
+  {
+   "titulo": "Claude — Diretório de conectores e plugins",
+   "url": "https://claude.com/marketplace/connectors-plugins"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "lista"
  }
 }
