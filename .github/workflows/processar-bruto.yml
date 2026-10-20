@@ -115,6 +115,7 @@ jobs:
             4. Rode `python3 scripts/aplicar_sugestoes.py --validar out/sugestoes.json out/projeto.json` e corrija até aparecer "✅".
             Não altere nenhum outro arquivo e não faça commit.
           claude_args: |
+            --model sonnet
             --max-turns 30
             --allowedTools "Read,Write,Edit,Bash(python3 scripts/aplicar_sugestoes.py --validar:*)"
 

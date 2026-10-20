@@ -80,6 +80,7 @@ jobs:
 
             Não altere nenhum outro arquivo e não faça commit.
           claude_args: |
+            --model sonnet
             --max-turns 140
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(node scripts/validar-roteiro.mjs:*),Bash(node scripts/estilo-ia.mjs:*)"
 
