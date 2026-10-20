@@ -1,0 +1,126 @@
+{
+  "titulo": "Aula 5.2: Sua primeira skill no Claude",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Claude Code Docs — Extend Claude with skills", "url": "https://code.claude.com/docs/en/skills" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Quantas vezes você já explicou a mesma tarefa para a IA? Hoje você vai escrever essa explicação uma única vez.",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "EXPLICAR DE NOVO?", "em": "explicou", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "UMA VEZ SÓ", "cor": "verde", "em": "única", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Na aula 5.2, você vai aprender três coisas: a estrutura de uma skill, por que a descrição manda, e como economizar com o modelo Haiku.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "AULA 5.2 — SKILLS", "sub": "IA do Zero ao Especialista", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "1. ESTRUTURA", "icone": "pasta", "em": "estrutura", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2. DESCRIÇÃO", "icone": "lupa", "cor": "azul", "em": "descrição", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "3. ECONOMIA", "icone": "moeda", "cor": "verde", "em": "economizar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "Uma skill é uma pasta com um arquivo chamado SKILL.md. Ele começa com um cabeçalho: o nome e a descrição. Depois vêm as instruções, o passo a passo que o Claude segue.",
+      "fontes": ["Claude Code Docs — Skills"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ESTRUTURA DO SKILL.MD", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "SKILL.md", "significado": "Arquivo com nome, descrição e instruções", "em": "arquivo", "posicao": "alto" },
+        { "tipo": "tag", "texto": "NOME", "icone": "pasta", "em": "nome", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "DESCRIÇÃO", "icone": "lupa", "cor": "azul", "em": "descrição.", "posicao": "meio" },
+        { "tipo": "tag", "texto": "INSTRUÇÕES", "icone": "lista", "cor": "verde", "em": "instruções,", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense numa receita guardada numa gaveta. A etiqueta diz o que ela faz. Você só abre a gaveta quando precisa. Com a skill é igual.",
+      "elementos": [
+        { "tipo": "icones", "itens": [["livro", "RECEITA"], ["seta", ""], ["pasta", "SKILL"]], "em": "receita", "posicao": "alto" },
+        { "tipo": "tag", "texto": "ETIQUETA = DESCRIÇÃO", "icone": "lupa", "cor": "azul", "em": "etiqueta", "posicao": "meio" },
+        { "tipo": "pergunta", "texto": "SÓ ABRE QUANDO PRECISA", "em": "abre", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Veja o exemplo. Crie a pasta resumo-reuniao com um SKILL.md. Na descrição: resume reuniões em tópicos. Use quando eu enviar uma ata. Nas instruções: liste decisões. Agora é só digitar barra resumo-reuniao.",
+      "fontes": ["Claude Code Docs — Skills"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SUA PRIMEIRA SKILL", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "PASTA: resumo-reuniao", "icone": "pasta", "em": "pasta", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "name: resumo-reuniao | description: Resume reuniões em tópicos. Use quando eu enviar uma ata.", "em": "descrição:", "posicao": "alto2" },
+        { "tipo": "carimbo", "texto": "/resumo-reuniao", "cor": "verde", "em": "barra", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "descricao",
+      "texto": "Por que a descrição importa? O Claude lê só as descrições. Quando seu pedido combina com uma, ele carrega a skill inteira. Descrição vaga, skill ignorada.",
+      "fontes": ["Claude Code Docs — Skills"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A DESCRIÇÃO DECIDE", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": false, "texto": "Ajuda com textos", "nota": "Vaga: quase nunca ativa", "em": "importa?", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Resume atas em tópicos", "nota": "Clara: ativa na hora certa", "em": "combina", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "VAGA = IGNORADA", "cor": "vermelho", "em": "vaga,", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "haiku",
+      "texto": "Agora o truque de economia. Skills simples, como resumir, não precisam do modelo mais forte. No cabeçalho, escreva model dois pontos haiku, e ela roda no Haiku, mais leve e barato.",
+      "fontes": ["Claude Code Docs — Skills"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "TRUQUE: MODELO HAIKU", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "model: haiku", "em": "model", "posicao": "alto" },
+        { "tipo": "tag", "texto": "TAREFA SIMPLES", "icone": "check", "cor": "verde", "em": "simples,", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "MAIS BARATO", "icone": "moeda", "cor": "amarelo", "em": "barato", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "skill-creator",
+      "texto": "E não precisa acertar de primeira. A skill oficial skill-creator testa a sua skill, vê se a descrição ativa nos pedidos certos e sugere melhorias.",
+      "fontes": ["Claude Code Docs — Skills"],
+      "elementos": [
+        { "tipo": "tag", "texto": "SKILL-CREATOR", "icone": "ferramenta", "cor": "roxo", "em": "skill-creator", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["pasta", "SUA SKILL"], ["seta", ""], ["lupa", "TESTE"], ["seta", ""], ["estrela", "MELHOR"]], "em": "testa", "posicao": "meio" },
+        { "tipo": "tag", "texto": "TESTA A DESCRIÇÃO", "icone": "alvo", "cor": "azul", "em": "descrição", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum é escrever uma descrição genérica, como ajuda com textos. Diga o que a skill faz e quando usar.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0, "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "Descrição genérica", "nota": "Diga o que faz e quando usar", "em": "genérica,", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: crie uma skill para uma tarefa que você repete toda semana.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "QUAL TAREFA VOCÊ REPETE?", "em": "tarefa", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: skill é uma pasta com SKILL.md. A descrição decide quando ela entra. E o Haiku deixa as simples mais baratas.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["pasta", "SKILL.MD"], ["lupa", "DESCRIÇÃO"], ["moeda", "HAIKU"]], "em": "pasta", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: o que decide quando o Claude usa a skill? A: o nome da pasta. B: a descrição. Resposta: B, pois o Claude compara seu pedido com as descrições. Próxima aula: Claude Code.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "O que ativa a skill? Comente 1 ou 2", "opcoes": ["Nome da pasta", "Descrição"], "em": "Quiz:", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: B", "cor": "verde", "em": "Resposta:", "posicao": "meio2" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 5.3", "em": "próxima", "posicao": "meio" }
+      ]
+    }
+  ]
+}

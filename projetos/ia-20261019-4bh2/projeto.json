@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-4bh2",
- "titulo": "Aula 5.2: Como criar sua primeira skill no Claude — mostre a estrutura",
+ "titulo": "Aula 5.2: Sua primeira skill no Claude",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.943Z",
- "atualizadoEm": "2026-10-19T22:26:17.943Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-20T03:12:06Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 5.2: Como criar sua primeira skill no Claude — mostre a estrutura do SKILL.md com nome, descrição e instruções, por que a descrição decide quando a skill é usada, o truque de rodar skills simples no modelo Haiku para economizar e a skill oficial skill-creator que testa e melhora outras skills",
@@ -64,11 +65,2072 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Quantas vezes você já explicou a mesma tarefa para a IA? Hoje você vai escrever essa explicação uma única vez.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "EXPLICAR DE NOVO?",
+     "em": "explicou",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "UMA VEZ SÓ",
+     "cor": "verde",
+     "em": "única",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Na aula 5.2, você vai aprender três coisas: a estrutura de uma skill, por que a descrição manda, e como economizar com o modelo Haiku.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AULA 5.2 — SKILLS",
+     "sub": "IA do Zero ao Especialista",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "1. ESTRUTURA",
+     "icone": "pasta",
+     "em": "estrutura",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2. DESCRIÇÃO",
+     "icone": "lupa",
+     "cor": "azul",
+     "em": "descrição",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3. ECONOMIA",
+     "icone": "moeda",
+     "cor": "verde",
+     "em": "economizar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "Uma skill é uma pasta com um arquivo chamado SKILL.md. Ele começa com um cabeçalho: o nome e a descrição. Depois vêm as instruções, o passo a passo que o Claude segue.",
+   "fontes": [
+    "Claude Code Docs — Skills"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ESTRUTURA DO SKILL.MD",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "SKILL.md",
+     "significado": "Arquivo com nome, descrição e instruções",
+     "em": "arquivo",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "NOME",
+     "icone": "pasta",
+     "em": "nome",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "DESCRIÇÃO",
+     "icone": "lupa",
+     "cor": "azul",
+     "em": "descrição.",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "INSTRUÇÕES",
+     "icone": "lista",
+     "cor": "verde",
+     "em": "instruções,",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense numa receita guardada numa gaveta. A etiqueta diz o que ela faz. Você só abre a gaveta quando precisa. Com a skill é igual.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "livro",
+       "RECEITA"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "pasta",
+       "SKILL"
+      ]
+     ],
+     "em": "receita",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ETIQUETA = DESCRIÇÃO",
+     "icone": "lupa",
+     "cor": "azul",
+     "em": "etiqueta",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "SÓ ABRE QUANDO PRECISA",
+     "em": "abre",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Veja o exemplo. Crie a pasta resumo-reuniao com um SKILL.md. Na descrição: resume reuniões em tópicos. Use quando eu enviar uma ata. Nas instruções: liste decisões. Agora é só digitar barra resumo-reuniao.",
+   "fontes": [
+    "Claude Code Docs — Skills"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SUA PRIMEIRA SKILL",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PASTA: resumo-reuniao",
+     "icone": "pasta",
+     "em": "pasta",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "name: resumo-reuniao | description: Resume reuniões em tópicos. Use quando eu enviar uma ata.",
+     "em": "descrição:",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "/resumo-reuniao",
+     "cor": "verde",
+     "em": "barra",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "descricao",
+   "texto": "Por que a descrição importa? O Claude lê só as descrições. Quando seu pedido combina com uma, ele carrega a skill inteira. Descrição vaga, skill ignorada.",
+   "fontes": [
+    "Claude Code Docs — Skills"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A DESCRIÇÃO DECIDE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Ajuda com textos",
+     "nota": "Vaga: quase nunca ativa",
+     "em": "importa?",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Resume atas em tópicos",
+     "nota": "Clara: ativa na hora certa",
+     "em": "combina",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "VAGA = IGNORADA",
+     "cor": "vermelho",
+     "em": "vaga,",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "haiku",
+   "texto": "Agora o truque de economia. Skills simples, como resumir, não precisam do modelo mais forte. No cabeçalho, escreva model dois pontos haiku, e ela roda no Haiku, mais leve e barato.",
+   "fontes": [
+    "Claude Code Docs — Skills"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TRUQUE: MODELO HAIKU",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "model: haiku",
+     "em": "model",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TAREFA SIMPLES",
+     "icone": "check",
+     "cor": "verde",
+     "em": "simples,",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "MAIS BARATO",
+     "icone": "moeda",
+     "cor": "amarelo",
+     "em": "barato",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "skill-creator",
+   "texto": "E não precisa acertar de primeira. A skill oficial skill-creator testa a sua skill, vê se a descrição ativa nos pedidos certos e sugere melhorias.",
+   "fontes": [
+    "Claude Code Docs — Skills"
+   ],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "SKILL-CREATOR",
+     "icone": "ferramenta",
+     "cor": "roxo",
+     "em": "skill-creator",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pasta",
+       "SUA SKILL"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "lupa",
+       "TESTE"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "estrela",
+       "MELHOR"
+      ]
+     ],
+     "em": "testa",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TESTA A DESCRIÇÃO",
+     "icone": "alvo",
+     "cor": "azul",
+     "em": "descrição",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum é escrever uma descrição genérica, como ajuda com textos. Diga o que a skill faz e quando usar.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Descrição genérica",
+     "nota": "Diga o que faz e quando usar",
+     "em": "genérica,",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: crie uma skill para uma tarefa que você repete toda semana.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL TAREFA VOCÊ REPETE?",
+     "em": "tarefa",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: skill é uma pasta com SKILL.md. A descrição decide quando ela entra. E o Haiku deixa as simples mais baratas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pasta",
+       "SKILL.MD"
+      ],
+      [
+       "lupa",
+       "DESCRIÇÃO"
+      ],
+      [
+       "moeda",
+       "HAIKU"
+      ]
+     ],
+     "em": "pasta",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: o que decide quando o Claude usa a skill? A: o nome da pasta. B: a descrição. Resposta: B, pois o Claude compara seu pedido com as descrições. Próxima aula: Claude Code.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "O que ativa a skill? Comente 1 ou 2",
+     "opcoes": [
+      "Nome da pasta",
+      "Descrição"
+     ],
+     "em": "Quiz:",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: B",
+     "cor": "verde",
+     "em": "Resposta:",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 5.3",
+     "em": "próxima",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "6d6ac41e88",
+   "texto": "Quantas vezes você já explicou a mesma tarefa para a IA? Hoje você vai escrever essa explicação uma única vez.",
+   "audio": "audio/gancho-6d6ac41e88.mp3",
+   "duracao": 8.333,
+   "palavras": [
+    {
+     "p": "Quantas",
+     "i": 0.062,
+     "f": 0.463
+    },
+    {
+     "p": "vezes",
+     "i": 0.463,
+     "f": 0.887
+    },
+    {
+     "p": "você",
+     "i": 0.887,
+     "f": 1.163
+    },
+    {
+     "p": "já",
+     "i": 1.163,
+     "f": 1.275
+    },
+    {
+     "p": "explicou",
+     "i": 1.275,
+     "f": 1.762
+    },
+    {
+     "p": "a",
+     "i": 1.762,
+     "f": 1.812
+    },
+    {
+     "p": "mesma",
+     "i": 1.812,
+     "f": 2.3
+    },
+    {
+     "p": "tarefa",
+     "i": 2.3,
+     "f": 2.787
+    },
+    {
+     "p": "para",
+     "i": 2.788,
+     "f": 2.925
+    },
+    {
+     "p": "a",
+     "i": 2.925,
+     "f": 2.938
+    },
+    {
+     "p": "IA",
+     "i": 2.938,
+     "f": 4.375
+    },
+    {
+     "p": "Hoje",
+     "i": 4.725,
+     "f": 5.087
+    },
+    {
+     "p": "você",
+     "i": 5.088,
+     "f": 5.312
+    },
+    {
+     "p": "vai",
+     "i": 5.312,
+     "f": 5.412
+    },
+    {
+     "p": "escrever",
+     "i": 5.412,
+     "f": 5.887
+    },
+    {
+     "p": "essa",
+     "i": 5.888,
+     "f": 6.038
+    },
+    {
+     "p": "explicação",
+     "i": 6.037,
+     "f": 6.787
+    },
+    {
+     "p": "uma",
+     "i": 6.787,
+     "f": 7.062
+    },
+    {
+     "p": "única",
+     "i": 7.062,
+     "f": 7.537
+    },
+    {
+     "p": "vez",
+     "i": 7.537,
+     "f": 7.938
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "a75ab60f2e",
+   "texto": "Na aula 5.2, você vai aprender três coisas: a estrutura de uma skill, por que a descrição manda, e como economizar com o modelo Haiku.",
+   "audio": "audio/promessa-a75ab60f2e.mp3",
+   "duracao": 8.986,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.05,
+     "f": 0.188
+    },
+    {
+     "p": "aula",
+     "i": 0.188,
+     "f": 0.463
+    },
+    {
+     "p": "5.2",
+     "i": 0.463,
+     "f": 1.513
+    },
+    {
+     "p": "você",
+     "i": 1.7,
+     "f": 1.887
+    },
+    {
+     "p": "vai",
+     "i": 1.887,
+     "f": 2
+    },
+    {
+     "p": "aprender",
+     "i": 2,
+     "f": 2.462
+    },
+    {
+     "p": "três",
+     "i": 2.462,
+     "f": 2.812
+    },
+    {
+     "p": "coisas",
+     "i": 2.812,
+     "f": 3.325
+    },
+    {
+     "p": "a",
+     "i": 3.6,
+     "f": 3.688
+    },
+    {
+     "p": "estrutura",
+     "i": 3.688,
+     "f": 4.225
+    },
+    {
+     "p": "de",
+     "i": 4.225,
+     "f": 4.312
+    },
+    {
+     "p": "uma",
+     "i": 4.312,
+     "f": 4.4
+    },
+    {
+     "p": "skill",
+     "i": 4.4,
+     "f": 4.875
+    },
+    {
+     "p": "por",
+     "i": 5.013,
+     "f": 5.138
+    },
+    {
+     "p": "que",
+     "i": 5.138,
+     "f": 5.325
+    },
+    {
+     "p": "a",
+     "i": 5.325,
+     "f": 5.4
+    },
+    {
+     "p": "descrição",
+     "i": 5.4,
+     "f": 6.038
+    },
+    {
+     "p": "manda",
+     "i": 6.037,
+     "f": 6.462
+    },
+    {
+     "p": "e",
+     "i": 6.612,
+     "f": 6.688
+    },
+    {
+     "p": "como",
+     "i": 6.688,
+     "f": 6.963
+    },
+    {
+     "p": "economizar",
+     "i": 6.963,
+     "f": 7.562
+    },
+    {
+     "p": "com",
+     "i": 7.562,
+     "f": 7.737
+    },
+    {
+     "p": "o",
+     "i": 7.737,
+     "f": 7.75
+    },
+    {
+     "p": "modelo",
+     "i": 7.75,
+     "f": 8.175
+    },
+    {
+     "p": "Haiku",
+     "i": 8.175,
+     "f": 8.6
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "8d8f70cb53",
+   "texto": "Uma skill é uma pasta com um arquivo chamado SKILL.md. Ele começa com um cabeçalho: o nome e a descrição. Depois vêm as instruções, o passo a passo que o Claude segue.",
+   "audio": "audio/conceito-8d8f70cb53.mp3",
+   "duracao": 11.755,
+   "palavras": [
+    {
+     "p": "Uma",
+     "i": 0.05,
+     "f": 0.263
+    },
+    {
+     "p": "skill",
+     "i": 0.263,
+     "f": 0.85
+    },
+    {
+     "p": "é",
+     "i": 0.85,
+     "f": 0.925
+    },
+    {
+     "p": "uma",
+     "i": 0.925,
+     "f": 1.075
+    },
+    {
+     "p": "pasta",
+     "i": 1.075,
+     "f": 1.475
+    },
+    {
+     "p": "com",
+     "i": 1.475,
+     "f": 1.588
+    },
+    {
+     "p": "um",
+     "i": 1.587,
+     "f": 1.675
+    },
+    {
+     "p": "arquivo",
+     "i": 1.675,
+     "f": 2.062
+    },
+    {
+     "p": "chamado",
+     "i": 2.062,
+     "f": 2.462
+    },
+    {
+     "p": "SKILL.md.",
+     "i": 2.462,
+     "f": 4.05
+    },
+    {
+     "p": "Ele",
+     "i": 4.388,
+     "f": 4.562
+    },
+    {
+     "p": "começa",
+     "i": 4.562,
+     "f": 4.95
+    },
+    {
+     "p": "com",
+     "i": 4.95,
+     "f": 5.038
+    },
+    {
+     "p": "um",
+     "i": 5.037,
+     "f": 5.087
+    },
+    {
+     "p": "cabeçalho",
+     "i": 5.088,
+     "f": 5.725
+    },
+    {
+     "p": "o",
+     "i": 5.95,
+     "f": 6.025
+    },
+    {
+     "p": "nome",
+     "i": 6.025,
+     "f": 6.613
+    },
+    {
+     "p": "e",
+     "i": 6.612,
+     "f": 6.75
+    },
+    {
+     "p": "a",
+     "i": 6.75,
+     "f": 6.862
+    },
+    {
+     "p": "descrição",
+     "i": 6.862,
+     "f": 7.688
+    },
+    {
+     "p": "Depois",
+     "i": 8.025,
+     "f": 8.438
+    },
+    {
+     "p": "vêm",
+     "i": 8.438,
+     "f": 8.6
+    },
+    {
+     "p": "as",
+     "i": 8.6,
+     "f": 8.65
+    },
+    {
+     "p": "instruções",
+     "i": 8.65,
+     "f": 9.463
+    },
+    {
+     "p": "o",
+     "i": 9.662,
+     "f": 9.713
+    },
+    {
+     "p": "passo",
+     "i": 9.713,
+     "f": 10.037
+    },
+    {
+     "p": "a",
+     "i": 10.037,
+     "f": 10.075
+    },
+    {
+     "p": "passo",
+     "i": 10.075,
+     "f": 10.487
+    },
+    {
+     "p": "que",
+     "i": 10.488,
+     "f": 10.55
+    },
+    {
+     "p": "o",
+     "i": 10.55,
+     "f": 10.613
+    },
+    {
+     "p": "Claude",
+     "i": 10.613,
+     "f": 10.875
+    },
+    {
+     "p": "segue",
+     "i": 10.875,
+     "f": 11.35
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "847955d078",
+   "texto": "Pense numa receita guardada numa gaveta. A etiqueta diz o que ela faz. Você só abre a gaveta quando precisa. Com a skill é igual.",
+   "audio": "audio/analogia-847955d078.mp3",
+   "duracao": 9.247,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.05,
+     "f": 0.412
+    },
+    {
+     "p": "numa",
+     "i": 0.412,
+     "f": 0.575
+    },
+    {
+     "p": "receita",
+     "i": 0.575,
+     "f": 1.163
+    },
+    {
+     "p": "guardada",
+     "i": 1.163,
+     "f": 1.713
+    },
+    {
+     "p": "numa",
+     "i": 1.712,
+     "f": 1.875
+    },
+    {
+     "p": "gaveta",
+     "i": 1.875,
+     "f": 2.45
+    },
+    {
+     "p": "A",
+     "i": 2.788,
+     "f": 2.925
+    },
+    {
+     "p": "etiqueta",
+     "i": 2.925,
+     "f": 3.6
+    },
+    {
+     "p": "diz",
+     "i": 3.6,
+     "f": 3.85
+    },
+    {
+     "p": "o",
+     "i": 3.85,
+     "f": 3.975
+    },
+    {
+     "p": "que",
+     "i": 3.975,
+     "f": 4.05
+    },
+    {
+     "p": "ela",
+     "i": 4.05,
+     "f": 4.225
+    },
+    {
+     "p": "faz",
+     "i": 4.225,
+     "f": 4.688
+    },
+    {
+     "p": "Você",
+     "i": 5.037,
+     "f": 5.387
+    },
+    {
+     "p": "só",
+     "i": 5.388,
+     "f": 5.7
+    },
+    {
+     "p": "abre",
+     "i": 5.7,
+     "f": 5.987
+    },
+    {
+     "p": "a",
+     "i": 5.987,
+     "f": 6.025
+    },
+    {
+     "p": "gaveta",
+     "i": 6.025,
+     "f": 6.525
+    },
+    {
+     "p": "quando",
+     "i": 6.525,
+     "f": 6.713
+    },
+    {
+     "p": "precisa",
+     "i": 6.713,
+     "f": 7.275
+    },
+    {
+     "p": "Com",
+     "i": 7.625,
+     "f": 7.838
+    },
+    {
+     "p": "a",
+     "i": 7.838,
+     "f": 7.888
+    },
+    {
+     "p": "skill",
+     "i": 7.888,
+     "f": 8.35
+    },
+    {
+     "p": "é",
+     "i": 8.35,
+     "f": 8.425
+    },
+    {
+     "p": "igual",
+     "i": 8.425,
+     "f": 8.863
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "e154e8170f",
+   "texto": "Veja o exemplo. Crie a pasta resumo-reuniao com um SKILL.md. Na descrição: resume reuniões em tópicos. Use quando eu enviar uma ata. Nas instruções: liste decisões. Agora é só digitar barra resumo-reuniao.",
+   "audio": "audio/exemplo-e154e8170f.mp3",
+   "duracao": 16.718,
+   "palavras": [
+    {
+     "p": "Veja",
+     "i": 0.05,
+     "f": 0.513
+    },
+    {
+     "p": "o",
+     "i": 0.512,
+     "f": 0.587
+    },
+    {
+     "p": "exemplo",
+     "i": 0.588,
+     "f": 1.15
+    },
+    {
+     "p": "Crie",
+     "i": 1.488,
+     "f": 1.7
+    },
+    {
+     "p": "a",
+     "i": 1.7,
+     "f": 1.787
+    },
+    {
+     "p": "pasta",
+     "i": 1.788,
+     "f": 2.175
+    },
+    {
+     "p": "resumo-reuniao",
+     "i": 2.175,
+     "f": 3.087
+    },
+    {
+     "p": "com",
+     "i": 3.087,
+     "f": 3.288
+    },
+    {
+     "p": "um",
+     "i": 3.288,
+     "f": 3.363
+    },
+    {
+     "p": "SKILL.md.",
+     "i": 3.362,
+     "f": 4.875
+    },
+    {
+     "p": "Na",
+     "i": 5.225,
+     "f": 5.412
+    },
+    {
+     "p": "descrição",
+     "i": 5.412,
+     "f": 6.075
+    },
+    {
+     "p": "resume",
+     "i": 6.35,
+     "f": 6.837
+    },
+    {
+     "p": "reuniões",
+     "i": 6.838,
+     "f": 7.388
+    },
+    {
+     "p": "em",
+     "i": 7.388,
+     "f": 7.6
+    },
+    {
+     "p": "tópicos",
+     "i": 7.6,
+     "f": 8.237
+    },
+    {
+     "p": "Use",
+     "i": 8.575,
+     "f": 8.962
+    },
+    {
+     "p": "quando",
+     "i": 8.963,
+     "f": 9.213
+    },
+    {
+     "p": "eu",
+     "i": 9.213,
+     "f": 9.287
+    },
+    {
+     "p": "enviar",
+     "i": 9.287,
+     "f": 9.713
+    },
+    {
+     "p": "uma",
+     "i": 9.713,
+     "f": 9.925
+    },
+    {
+     "p": "ata",
+     "i": 9.925,
+     "f": 10.363
+    },
+    {
+     "p": "Nas",
+     "i": 10.713,
+     "f": 10.912
+    },
+    {
+     "p": "instruções",
+     "i": 10.912,
+     "f": 11.838
+    },
+    {
+     "p": "liste",
+     "i": 12.062,
+     "f": 12.45
+    },
+    {
+     "p": "decisões",
+     "i": 12.45,
+     "f": 13.3
+    },
+    {
+     "p": "Agora",
+     "i": 13.65,
+     "f": 14.138
+    },
+    {
+     "p": "é",
+     "i": 14.137,
+     "f": 14.162
+    },
+    {
+     "p": "só",
+     "i": 14.162,
+     "f": 14.338
+    },
+    {
+     "p": "digitar",
+     "i": 14.338,
+     "f": 14.812
+    },
+    {
+     "p": "barra",
+     "i": 14.812,
+     "f": 15.213
+    },
+    {
+     "p": "resumo-reuniao",
+     "i": 15.213,
+     "f": 16.325
+    }
+   ]
+  },
+  "descricao": {
+   "hash": "da8dc35658",
+   "texto": "Por que a descrição importa? O Claude lê só as descrições. Quando seu pedido combina com uma, ele carrega a skill inteira. Descrição vaga, skill ignorada.",
+   "audio": "audio/descricao-da8dc35658.mp3",
+   "duracao": 11.102,
+   "palavras": [
+    {
+     "p": "Por",
+     "i": 0.062,
+     "f": 0.188
+    },
+    {
+     "p": "que",
+     "i": 0.188,
+     "f": 0.438
+    },
+    {
+     "p": "a",
+     "i": 0.438,
+     "f": 0.537
+    },
+    {
+     "p": "descrição",
+     "i": 0.537,
+     "f": 1.225
+    },
+    {
+     "p": "importa",
+     "i": 1.225,
+     "f": 1.812
+    },
+    {
+     "p": "O",
+     "i": 2.15,
+     "f": 2.225
+    },
+    {
+     "p": "Claude",
+     "i": 2.225,
+     "f": 2.55
+    },
+    {
+     "p": "lê",
+     "i": 2.55,
+     "f": 2.85
+    },
+    {
+     "p": "só",
+     "i": 2.85,
+     "f": 3.125
+    },
+    {
+     "p": "as",
+     "i": 3.125,
+     "f": 3.237
+    },
+    {
+     "p": "descrições",
+     "i": 3.237,
+     "f": 4.1
+    },
+    {
+     "p": "Quando",
+     "i": 4.438,
+     "f": 4.65
+    },
+    {
+     "p": "seu",
+     "i": 4.65,
+     "f": 4.8
+    },
+    {
+     "p": "pedido",
+     "i": 4.8,
+     "f": 5.175
+    },
+    {
+     "p": "combina",
+     "i": 5.175,
+     "f": 5.65
+    },
+    {
+     "p": "com",
+     "i": 5.65,
+     "f": 5.95
+    },
+    {
+     "p": "uma",
+     "i": 5.95,
+     "f": 6.1
+    },
+    {
+     "p": "ele",
+     "i": 6.325,
+     "f": 6.463
+    },
+    {
+     "p": "carrega",
+     "i": 6.463,
+     "f": 6.913
+    },
+    {
+     "p": "a",
+     "i": 6.912,
+     "f": 6.938
+    },
+    {
+     "p": "skill",
+     "i": 6.938,
+     "f": 7.325
+    },
+    {
+     "p": "inteira",
+     "i": 7.325,
+     "f": 7.85
+    },
+    {
+     "p": "Descrição",
+     "i": 8.2,
+     "f": 8.962
+    },
+    {
+     "p": "vaga",
+     "i": 8.963,
+     "f": 9.35
+    },
+    {
+     "p": "skill",
+     "i": 9.625,
+     "f": 10.062
+    },
+    {
+     "p": "ignorada",
+     "i": 10.062,
+     "f": 10.725
+    }
+   ]
+  },
+  "haiku": {
+   "hash": "306eba90e7",
+   "texto": "Agora o truque de economia. Skills simples, como resumir, não precisam do modelo mais forte. No cabeçalho, escreva model dois pontos haiku, e ela roda no Haiku, mais leve e barato.",
+   "audio": "audio/haiku-306eba90e7.mp3",
+   "duracao": 12.826,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.05,
+     "f": 0.625
+    },
+    {
+     "p": "o",
+     "i": 0.625,
+     "f": 0.7
+    },
+    {
+     "p": "truque",
+     "i": 0.7,
+     "f": 1.087
+    },
+    {
+     "p": "de",
+     "i": 1.087,
+     "f": 1.162
+    },
+    {
+     "p": "economia",
+     "i": 1.163,
+     "f": 1.788
+    },
+    {
+     "p": "Skills",
+     "i": 2.138,
+     "f": 2.588
+    },
+    {
+     "p": "simples",
+     "i": 2.587,
+     "f": 3.125
+    },
+    {
+     "p": "como",
+     "i": 3.263,
+     "f": 3.438
+    },
+    {
+     "p": "resumir",
+     "i": 3.438,
+     "f": 3.938
+    },
+    {
+     "p": "não",
+     "i": 4.225,
+     "f": 4.387
+    },
+    {
+     "p": "precisam",
+     "i": 4.388,
+     "f": 5
+    },
+    {
+     "p": "do",
+     "i": 5,
+     "f": 5.088
+    },
+    {
+     "p": "modelo",
+     "i": 5.088,
+     "f": 5.463
+    },
+    {
+     "p": "mais",
+     "i": 5.463,
+     "f": 5.675
+    },
+    {
+     "p": "forte",
+     "i": 5.675,
+     "f": 6.162
+    },
+    {
+     "p": "No",
+     "i": 6.513,
+     "f": 6.65
+    },
+    {
+     "p": "cabeçalho",
+     "i": 6.65,
+     "f": 7.288
+    },
+    {
+     "p": "escreva",
+     "i": 7.487,
+     "f": 7.888
+    },
+    {
+     "p": "model",
+     "i": 7.888,
+     "f": 8.287
+    },
+    {
+     "p": "dois",
+     "i": 8.287,
+     "f": 8.625
+    },
+    {
+     "p": "pontos",
+     "i": 8.625,
+     "f": 8.95
+    },
+    {
+     "p": "haiku",
+     "i": 8.95,
+     "f": 9.425
+    },
+    {
+     "p": "e",
+     "i": 9.613,
+     "f": 9.688
+    },
+    {
+     "p": "ela",
+     "i": 9.688,
+     "f": 9.9
+    },
+    {
+     "p": "roda",
+     "i": 9.9,
+     "f": 10.225
+    },
+    {
+     "p": "no",
+     "i": 10.225,
+     "f": 10.35
+    },
+    {
+     "p": "Haiku",
+     "i": 10.35,
+     "f": 10.762
+    },
+    {
+     "p": "mais",
+     "i": 11.012,
+     "f": 11.262
+    },
+    {
+     "p": "leve",
+     "i": 11.262,
+     "f": 11.825
+    },
+    {
+     "p": "e",
+     "i": 11.825,
+     "f": 11.912
+    },
+    {
+     "p": "barato",
+     "i": 11.912,
+     "f": 12.45
+    }
+   ]
+  },
+  "skill-creator": {
+   "hash": "4e106cc89c",
+   "texto": "E não precisa acertar de primeira. A skill oficial skill-creator testa a sua skill, vê se a descrição ativa nos pedidos certos e sugere melhorias.",
+   "audio": "audio/skill-creator-4e106cc89c.mp3",
+   "duracao": 9.404,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.05,
+     "f": 0.138
+    },
+    {
+     "p": "não",
+     "i": 0.138,
+     "f": 0.3
+    },
+    {
+     "p": "precisa",
+     "i": 0.3,
+     "f": 0.9
+    },
+    {
+     "p": "acertar",
+     "i": 0.9,
+     "f": 1.45
+    },
+    {
+     "p": "de",
+     "i": 1.45,
+     "f": 1.537
+    },
+    {
+     "p": "primeira",
+     "i": 1.538,
+     "f": 2.088
+    },
+    {
+     "p": "A",
+     "i": 2.438,
+     "f": 2.55
+    },
+    {
+     "p": "skill",
+     "i": 2.55,
+     "f": 2.85
+    },
+    {
+     "p": "oficial",
+     "i": 2.85,
+     "f": 3.375
+    },
+    {
+     "p": "skill-creator",
+     "i": 3.375,
+     "f": 4.312
+    },
+    {
+     "p": "testa",
+     "i": 4.312,
+     "f": 4.662
+    },
+    {
+     "p": "a",
+     "i": 4.662,
+     "f": 4.675
+    },
+    {
+     "p": "sua",
+     "i": 4.675,
+     "f": 4.825
+    },
+    {
+     "p": "skill",
+     "i": 4.825,
+     "f": 5.237
+    },
+    {
+     "p": "vê",
+     "i": 5.537,
+     "f": 5.725
+    },
+    {
+     "p": "se",
+     "i": 5.725,
+     "f": 5.825
+    },
+    {
+     "p": "a",
+     "i": 5.825,
+     "f": 5.875
+    },
+    {
+     "p": "descrição",
+     "i": 5.875,
+     "f": 6.375
+    },
+    {
+     "p": "ativa",
+     "i": 6.375,
+     "f": 6.787
+    },
+    {
+     "p": "nos",
+     "i": 6.787,
+     "f": 6.925
+    },
+    {
+     "p": "pedidos",
+     "i": 6.925,
+     "f": 7.362
+    },
+    {
+     "p": "certos",
+     "i": 7.362,
+     "f": 7.787
+    },
+    {
+     "p": "e",
+     "i": 7.787,
+     "f": 7.875
+    },
+    {
+     "p": "sugere",
+     "i": 7.875,
+     "f": 8.3
+    },
+    {
+     "p": "melhorias",
+     "i": 8.3,
+     "f": 9.013
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "418c893631",
+   "texto": "O erro comum é escrever uma descrição genérica, como ajuda com textos. Diga o que a skill faz e quando usar.",
+   "audio": "audio/erro-comum-418c893631.mp3",
+   "duracao": 7.105,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.05,
+     "f": 0.213
+    },
+    {
+     "p": "erro",
+     "i": 0.212,
+     "f": 0.425
+    },
+    {
+     "p": "comum",
+     "i": 0.425,
+     "f": 0.912
+    },
+    {
+     "p": "é",
+     "i": 0.912,
+     "f": 0.975
+    },
+    {
+     "p": "escrever",
+     "i": 0.975,
+     "f": 1.45
+    },
+    {
+     "p": "uma",
+     "i": 1.45,
+     "f": 1.6
+    },
+    {
+     "p": "descrição",
+     "i": 1.6,
+     "f": 2.188
+    },
+    {
+     "p": "genérica",
+     "i": 2.188,
+     "f": 2.812
+    },
+    {
+     "p": "como",
+     "i": 2.962,
+     "f": 3.163
+    },
+    {
+     "p": "ajuda",
+     "i": 3.163,
+     "f": 3.613
+    },
+    {
+     "p": "com",
+     "i": 3.612,
+     "f": 3.825
+    },
+    {
+     "p": "textos",
+     "i": 3.825,
+     "f": 4.375
+    },
+    {
+     "p": "Diga",
+     "i": 4.713,
+     "f": 5.138
+    },
+    {
+     "p": "o",
+     "i": 5.138,
+     "f": 5.175
+    },
+    {
+     "p": "que",
+     "i": 5.175,
+     "f": 5.25
+    },
+    {
+     "p": "a",
+     "i": 5.25,
+     "f": 5.287
+    },
+    {
+     "p": "skill",
+     "i": 5.287,
+     "f": 5.587
+    },
+    {
+     "p": "faz",
+     "i": 5.588,
+     "f": 5.925
+    },
+    {
+     "p": "e",
+     "i": 5.925,
+     "f": 6.125
+    },
+    {
+     "p": "quando",
+     "i": 6.125,
+     "f": 6.412
+    },
+    {
+     "p": "usar",
+     "i": 6.412,
+     "f": 6.712
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "9115886801",
+   "texto": "Pause o vídeo e tente: crie uma skill para uma tarefa que você repete toda semana.",
+   "audio": "audio/pratica-9115886801.mp3",
+   "duracao": 5.068,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.05,
+     "f": 0.412
+    },
+    {
+     "p": "o",
+     "i": 0.412,
+     "f": 0.462
+    },
+    {
+     "p": "vídeo",
+     "i": 0.463,
+     "f": 0.887
+    },
+    {
+     "p": "e",
+     "i": 0.887,
+     "f": 0.975
+    },
+    {
+     "p": "tente",
+     "i": 0.975,
+     "f": 1.387
+    },
+    {
+     "p": "crie",
+     "i": 1.637,
+     "f": 1.863
+    },
+    {
+     "p": "uma",
+     "i": 1.863,
+     "f": 2
+    },
+    {
+     "p": "skill",
+     "i": 2,
+     "f": 2.362
+    },
+    {
+     "p": "para",
+     "i": 2.362,
+     "f": 2.512
+    },
+    {
+     "p": "uma",
+     "i": 2.513,
+     "f": 2.625
+    },
+    {
+     "p": "tarefa",
+     "i": 2.625,
+     "f": 3.038
+    },
+    {
+     "p": "que",
+     "i": 3.038,
+     "f": 3.138
+    },
+    {
+     "p": "você",
+     "i": 3.138,
+     "f": 3.338
+    },
+    {
+     "p": "repete",
+     "i": 3.337,
+     "f": 3.837
+    },
+    {
+     "p": "toda",
+     "i": 3.837,
+     "f": 4.175
+    },
+    {
+     "p": "semana",
+     "i": 4.175,
+     "f": 4.7
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "f2be4b1766",
+   "texto": "Resumindo: skill é uma pasta com SKILL.md. A descrição decide quando ela entra. E o Haiku deixa as simples mais baratas.",
+   "audio": "audio/resumo-f2be4b1766.mp3",
+   "duracao": 9.456,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.05,
+     "f": 0.738
+    },
+    {
+     "p": "skill",
+     "i": 0.988,
+     "f": 1.363
+    },
+    {
+     "p": "é",
+     "i": 1.363,
+     "f": 1.4
+    },
+    {
+     "p": "uma",
+     "i": 1.4,
+     "f": 1.562
+    },
+    {
+     "p": "pasta",
+     "i": 1.562,
+     "f": 1.962
+    },
+    {
+     "p": "com",
+     "i": 1.962,
+     "f": 2.125
+    },
+    {
+     "p": "SKILL.md.",
+     "i": 2.125,
+     "f": 3.712
+    },
+    {
+     "p": "A",
+     "i": 4.062,
+     "f": 4.175
+    },
+    {
+     "p": "descrição",
+     "i": 4.175,
+     "f": 4.775
+    },
+    {
+     "p": "decide",
+     "i": 4.775,
+     "f": 5.375
+    },
+    {
+     "p": "quando",
+     "i": 5.375,
+     "f": 5.638
+    },
+    {
+     "p": "ela",
+     "i": 5.638,
+     "f": 5.875
+    },
+    {
+     "p": "entra",
+     "i": 5.875,
+     "f": 6.225
+    },
+    {
+     "p": "E",
+     "i": 6.562,
+     "f": 6.688
+    },
+    {
+     "p": "o",
+     "i": 6.688,
+     "f": 6.787
+    },
+    {
+     "p": "Haiku",
+     "i": 6.787,
+     "f": 7.3
+    },
+    {
+     "p": "deixa",
+     "i": 7.3,
+     "f": 7.6
+    },
+    {
+     "p": "as",
+     "i": 7.6,
+     "f": 7.675
+    },
+    {
+     "p": "simples",
+     "i": 7.675,
+     "f": 8.15
+    },
+    {
+     "p": "mais",
+     "i": 8.15,
+     "f": 8.388
+    },
+    {
+     "p": "baratas",
+     "i": 8.387,
+     "f": 9.062
+    }
+   ]
+  },
+  "final": {
+   "hash": "cb3cac1391",
+   "texto": "Quiz: o que decide quando o Claude usa a skill? A: o nome da pasta. B: a descrição. Resposta: B, pois o Claude compara seu pedido com as descrições. Próxima aula: Claude Code.",
+   "audio": "audio/final-cb3cac1391.mp3",
+   "duracao": 13.793,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.062,
+     "f": 0.412
+    },
+    {
+     "p": "o",
+     "i": 0.7,
+     "f": 0.762
+    },
+    {
+     "p": "que",
+     "i": 0.762,
+     "f": 0.9
+    },
+    {
+     "p": "decide",
+     "i": 0.9,
+     "f": 1.462
+    },
+    {
+     "p": "quando",
+     "i": 1.462,
+     "f": 1.688
+    },
+    {
+     "p": "o",
+     "i": 1.688,
+     "f": 1.725
+    },
+    {
+     "p": "Claude",
+     "i": 1.725,
+     "f": 2.163
+    },
+    {
+     "p": "usa",
+     "i": 2.163,
+     "f": 2.4
+    },
+    {
+     "p": "a",
+     "i": 2.4,
+     "f": 2.425
+    },
+    {
+     "p": "skill",
+     "i": 2.425,
+     "f": 2.887
+    },
+    {
+     "p": "A",
+     "i": 3.225,
+     "f": 3.5
+    },
+    {
+     "p": "o",
+     "i": 3.725,
+     "f": 3.812
+    },
+    {
+     "p": "nome",
+     "i": 3.812,
+     "f": 4.162
+    },
+    {
+     "p": "da",
+     "i": 4.162,
+     "f": 4.287
+    },
+    {
+     "p": "pasta",
+     "i": 4.287,
+     "f": 4.775
+    },
+    {
+     "p": "B",
+     "i": 5.125,
+     "f": 5.513
+    },
+    {
+     "p": "a",
+     "i": 5.75,
+     "f": 5.838
+    },
+    {
+     "p": "descrição",
+     "i": 5.838,
+     "f": 6.713
+    },
+    {
+     "p": "Resposta",
+     "i": 7.05,
+     "f": 7.712
+    },
+    {
+     "p": "B",
+     "i": 7.975,
+     "f": 8.3
+    },
+    {
+     "p": "pois",
+     "i": 8.45,
+     "f": 8.587
+    },
+    {
+     "p": "o",
+     "i": 8.588,
+     "f": 8.738
+    },
+    {
+     "p": "Claude",
+     "i": 8.738,
+     "f": 9.1
+    },
+    {
+     "p": "compara",
+     "i": 9.1,
+     "f": 9.487
+    },
+    {
+     "p": "seu",
+     "i": 9.488,
+     "f": 9.65
+    },
+    {
+     "p": "pedido",
+     "i": 9.65,
+     "f": 10.088
+    },
+    {
+     "p": "com",
+     "i": 10.088,
+     "f": 10.188
+    },
+    {
+     "p": "as",
+     "i": 10.188,
+     "f": 10.275
+    },
+    {
+     "p": "descrições",
+     "i": 10.275,
+     "f": 11.175
+    },
+    {
+     "p": "Próxima",
+     "i": 11.55,
+     "f": 12.062
+    },
+    {
+     "p": "aula",
+     "i": 12.062,
+     "f": 12.438
+    },
+    {
+     "p": "Claude",
+     "i": 12.65,
+     "f": 12.938
+    },
+    {
+     "p": "Code",
+     "i": 12.938,
+     "f": 13.412
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.943Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Claude Code Docs — Extend Claude with skills",
+   "url": "https://code.claude.com/docs/en/skills"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }
