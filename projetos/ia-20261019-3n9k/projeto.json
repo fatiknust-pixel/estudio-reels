@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-3n9k",
- "titulo": "Aula 4.3: O que é MCP, o USB-C da inteligência artificial — explique o",
+ "titulo": "Aula 4.3: MCP, o USB-C da IA",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.942Z",
- "atualizadoEm": "2026-10-19T22:53:29Z",
- "status": "erro",
+ "atualizadoEm": "2026-10-20T02:57:12Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 4.3: O que é MCP, o USB-C da inteligência artificial — explique o Model Context Protocol criado pela Anthropic em novembro de 2024 e adotado pela OpenAI em 2025, a relação entre cliente e servidor MCP, e as três coisas que um servidor oferece: ferramentas, recursos e prompts",
@@ -62,12 +63,1906 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você já pediu para a IA olhar sua agenda e ela disse que não consegue? Em novembro de 2024, a Anthropic criou um padrão para resolver isso.",
+   "fontes": [
+    "Anthropic, 25/11/2024"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "IA SEM ACESSO?",
+     "em": "agenda",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO CONSIGO",
+     "cor": "vermelho",
+     "em": "consegue?",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "NOVEMBRO DE 2024",
+     "icone": "relogio",
+     "cor": "azul",
+     "em": "novembro",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "anthropic",
+     "nome": "Anthropic",
+     "cargo": "Criou o MCP",
+     "em": "Anthropic",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Na aula 4.3, você vai aprender três coisas: o que é o MCP, como cliente e servidor conversam, e o que um servidor oferece.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AULA 4.3 — MCP",
+     "sub": "IA do Zero ao Especialista",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "1. O QUE É",
+     "icone": "alvo",
+     "em": "MCP,",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2. CLIENTE × SERVIDOR",
+     "icone": "seta",
+     "cor": "azul",
+     "em": "cliente",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "3. O QUE OFERECE",
+     "icone": "mais",
+     "cor": "verde",
+     "em": "oferece.",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "MCP significa Model Context Protocol, ou protocolo de contexto para modelos. É um padrão aberto que liga a IA a ferramentas e dados. A OpenAI adotou o padrão em março de 2025.",
+   "fontes": [
+    "modelcontextprotocol.io",
+    "TechCrunch, 26/03/2025"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE É MCP",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "MCP",
+     "significado": "Padrão aberto que conecta a IA a ferramentas e dados",
+     "em": "significa",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PADRÃO ABERTO",
+     "icone": "check",
+     "cor": "verde",
+     "em": "aberto",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "openai",
+     "nome": "OpenAI",
+     "cargo": "Adotou em março de 2025",
+     "em": "OpenAI",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MARÇO 2025",
+     "cor": "azul",
+     "em": "março",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense no USB-C. Um único cabo serve para celular, fone e notebook. Antes, cada aparelho exigia um cabo diferente. O MCP é isso para a IA: um encaixe só para qualquer ferramenta, sem precisar refazer a conexão toda vez.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "USB-C DA IA",
+     "em": "USB-C.",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "CELULAR"
+      ],
+      [
+       "mais",
+       "FONE"
+      ],
+      [
+       "predio",
+       "NOTEBOOK"
+      ]
+     ],
+     "em": "celular,",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "mapa",
+     "de": "IA",
+     "para": "FERRAMENTAS",
+     "legenda": "UM ENCAIXE SÓ",
+     "em": "encaixe",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Veja um exemplo prático. Você pede: liste meus compromissos de amanhã. O cliente é o app de IA, como o Claude. O servidor é o programa que dá acesso a algo, como sua agenda. Todo servidor oferece três coisas: ferramentas, que executam ações; recursos, que entregam dados; e prompts, que são instruções prontas.",
+   "fontes": [
+    "modelcontextprotocol.io"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CLIENTE × SERVIDOR",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "mapa",
+     "de": "CLIENTE (CLAUDE)",
+     "para": "SERVIDOR (AGENDA)",
+     "em": "cliente",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FERRAMENTAS = AÇÕES",
+     "icone": "martelo",
+     "cor": "amarelo",
+     "em": "ferramentas,",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "RECURSOS = DADOS",
+     "icone": "documento",
+     "cor": "verde",
+     "em": "recursos,",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PROMPTS = MODELOS",
+     "icone": "balao",
+     "cor": "roxo",
+     "em": "prompts,",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum é achar que o servidor é a inteligência. Não é. Ele só entrega ferramentas e dados. Quem decide o que usar, e quando, é o modelo de IA que está no cliente. O servidor apenas responde ao pedido.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "SERVIDOR PENSA",
+     "nota": "Ele só entrega ferramentas e dados",
+     "em": "servidor",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "O MODELO DECIDE",
+     "nota": "Ele escolhe o que usar",
+     "em": "decide",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: escreva três tarefas do seu dia e diga se cada uma seria ferramenta, recurso ou prompt.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "FERRAMENTA, RECURSO OU PROMPT?",
+     "em": "ferramenta,",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Comenta aí qual você escolheu",
+     "em": "prompt.",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: o MCP é o USB-C da IA. O cliente conversa com servidores. E cada servidor oferece ferramentas, recursos e prompts.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "check",
+       "USB-C DA IA"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "celular",
+       "CLIENTE E SERVIDOR"
+      ]
+     ],
+     "em": "MCP",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FERRAMENTAS · RECURSOS · PROMPTS",
+     "icone": "mais",
+     "cor": "verde",
+     "em": "ferramentas,",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: entregar o texto de um arquivo para a IA é ferramenta ou recurso? Pense um segundo. É recurso: ele só entrega dados, sem executar ação. Na próxima aula, você adiciona servidores MCP.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Ler um arquivo é...",
+     "opcoes": [
+      "1 · Ferramenta",
+      "2 · Recurso"
+     ],
+     "em": "Quiz:",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RECURSO",
+     "cor": "verde",
+     "em": "recurso:",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 4.4",
+     "em": "próxima",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "108249f53a",
+   "texto": "Você já pediu para a IA olhar sua agenda e ela disse que não consegue? Em novembro de 2024, a Anthropic criou um padrão para resolver isso.",
+   "audio": "audio/gancho-108249f53a.mp3",
+   "duracao": 10.224,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.098,
+     "f": 0.395
+    },
+    {
+     "p": "já",
+     "i": 0.407,
+     "f": 0.526
+    },
+    {
+     "p": "pediu",
+     "i": 0.538,
+     "f": 0.871
+    },
+    {
+     "p": "para",
+     "i": 0.883,
+     "f": 1.026
+    },
+    {
+     "p": "a",
+     "i": 1.038,
+     "f": 1.05
+    },
+    {
+     "p": "IA",
+     "i": 1.062,
+     "f": 2.157
+    },
+    {
+     "p": "olhar",
+     "i": 2.169,
+     "f": 2.443
+    },
+    {
+     "p": "sua",
+     "i": 2.455,
+     "f": 2.621
+    },
+    {
+     "p": "agenda",
+     "i": 2.633,
+     "f": 3.002
+    },
+    {
+     "p": "e",
+     "i": 3.014,
+     "f": 3.05
+    },
+    {
+     "p": "ela",
+     "i": 3.062,
+     "f": 3.264
+    },
+    {
+     "p": "disse",
+     "i": 3.276,
+     "f": 3.61
+    },
+    {
+     "p": "que",
+     "i": 3.621,
+     "f": 3.717
+    },
+    {
+     "p": "não",
+     "i": 3.729,
+     "f": 3.86
+    },
+    {
+     "p": "consegue",
+     "i": 3.871,
+     "f": 4.431
+    },
+    {
+     "p": "Em",
+     "i": 5.25,
+     "f": 5.357
+    },
+    {
+     "p": "novembro",
+     "i": 5.369,
+     "f": 5.845
+    },
+    {
+     "p": "de",
+     "i": 5.857,
+     "f": 5.929
+    },
+    {
+     "p": "2024",
+     "i": 5.94,
+     "f": 6.941
+    },
+    {
+     "p": "a",
+     "i": 7.143,
+     "f": 7.202
+    },
+    {
+     "p": "Anthropic",
+     "i": 7.214,
+     "f": 7.726
+    },
+    {
+     "p": "criou",
+     "i": 7.738,
+     "f": 7.988
+    },
+    {
+     "p": "um",
+     "i": 8,
+     "f": 8.071
+    },
+    {
+     "p": "padrão",
+     "i": 8.083,
+     "f": 8.44
+    },
+    {
+     "p": "para",
+     "i": 8.452,
+     "f": 8.631
+    },
+    {
+     "p": "resolver",
+     "i": 8.643,
+     "f": 9.06
+    },
+    {
+     "p": "isso",
+     "i": 9.071,
+     "f": 9.381
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "cb3c7a75e8",
+   "texto": "Na aula 4.3, você vai aprender três coisas: o que é o MCP, como cliente e servidor conversam, e o que um servidor oferece.",
+   "audio": "audio/promessa-cb3c7a75e8.mp3",
+   "duracao": 9.384,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.098,
+     "f": 0.264
+    },
+    {
+     "p": "aula",
+     "i": 0.276,
+     "f": 0.598
+    },
+    {
+     "p": "4.3",
+     "i": 0.61,
+     "f": 1.61
+    },
+    {
+     "p": "você",
+     "i": 1.74,
+     "f": 2.038
+    },
+    {
+     "p": "vai",
+     "i": 2.05,
+     "f": 2.157
+    },
+    {
+     "p": "aprender",
+     "i": 2.169,
+     "f": 2.586
+    },
+    {
+     "p": "três",
+     "i": 2.598,
+     "f": 2.871
+    },
+    {
+     "p": "coisas",
+     "i": 2.883,
+     "f": 3.348
+    },
+    {
+     "p": "o",
+     "i": 3.621,
+     "f": 3.717
+    },
+    {
+     "p": "que",
+     "i": 3.729,
+     "f": 3.907
+    },
+    {
+     "p": "é",
+     "i": 3.919,
+     "f": 4.038
+    },
+    {
+     "p": "o",
+     "i": 4.05,
+     "f": 4.145
+    },
+    {
+     "p": "MCP",
+     "i": 4.157,
+     "f": 4.776
+    },
+    {
+     "p": "como",
+     "i": 5.062,
+     "f": 5.3
+    },
+    {
+     "p": "cliente",
+     "i": 5.312,
+     "f": 5.717
+    },
+    {
+     "p": "e",
+     "i": 5.729,
+     "f": 5.752
+    },
+    {
+     "p": "servidor",
+     "i": 5.764,
+     "f": 6.133
+    },
+    {
+     "p": "conversam",
+     "i": 6.145,
+     "f": 6.776
+    },
+    {
+     "p": "e",
+     "i": 7.086,
+     "f": 7.181
+    },
+    {
+     "p": "o",
+     "i": 7.193,
+     "f": 7.252
+    },
+    {
+     "p": "que",
+     "i": 7.264,
+     "f": 7.395
+    },
+    {
+     "p": "um",
+     "i": 7.407,
+     "f": 7.526
+    },
+    {
+     "p": "servidor",
+     "i": 7.538,
+     "f": 8.002
+    },
+    {
+     "p": "oferece",
+     "i": 8.014,
+     "f": 8.562
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "237e44bb3f",
+   "texto": "MCP significa Model Context Protocol, ou protocolo de contexto para modelos. É um padrão aberto que liga a IA a ferramentas e dados. A OpenAI adotou o padrão em março de 2025.",
+   "audio": "audio/conceito-237e44bb3f.mp3",
+   "duracao": 14.352,
+   "palavras": [
+    {
+     "p": "MCP",
+     "i": 0.098,
+     "f": 0.74
+    },
+    {
+     "p": "significa",
+     "i": 0.752,
+     "f": 1.264
+    },
+    {
+     "p": "Model",
+     "i": 1.276,
+     "f": 1.526
+    },
+    {
+     "p": "Context",
+     "i": 1.538,
+     "f": 1.979
+    },
+    {
+     "p": "Protocol",
+     "i": 1.99,
+     "f": 2.526
+    },
+    {
+     "p": "ou",
+     "i": 2.871,
+     "f": 3.002
+    },
+    {
+     "p": "protocolo",
+     "i": 3.014,
+     "f": 3.562
+    },
+    {
+     "p": "de",
+     "i": 3.574,
+     "f": 3.645
+    },
+    {
+     "p": "contexto",
+     "i": 3.657,
+     "f": 4.181
+    },
+    {
+     "p": "para",
+     "i": 4.193,
+     "f": 4.36
+    },
+    {
+     "p": "modelos",
+     "i": 4.371,
+     "f": 4.955
+    },
+    {
+     "p": "É",
+     "i": 5.774,
+     "f": 5.869
+    },
+    {
+     "p": "um",
+     "i": 5.881,
+     "f": 5.976
+    },
+    {
+     "p": "padrão",
+     "i": 5.988,
+     "f": 6.321
+    },
+    {
+     "p": "aberto",
+     "i": 6.333,
+     "f": 6.738
+    },
+    {
+     "p": "que",
+     "i": 6.75,
+     "f": 6.845
+    },
+    {
+     "p": "liga",
+     "i": 6.857,
+     "f": 7.071
+    },
+    {
+     "p": "a",
+     "i": 7.083,
+     "f": 7.095
+    },
+    {
+     "p": "IA",
+     "i": 7.107,
+     "f": 8.25
+    },
+    {
+     "p": "a",
+     "i": 8.262,
+     "f": 8.321
+    },
+    {
+     "p": "ferramentas",
+     "i": 8.333,
+     "f": 8.857
+    },
+    {
+     "p": "e",
+     "i": 8.869,
+     "f": 8.988
+    },
+    {
+     "p": "dados",
+     "i": 9,
+     "f": 9.452
+    },
+    {
+     "p": "A",
+     "i": 10.274,
+     "f": 10.405
+    },
+    {
+     "p": "OpenAI",
+     "i": 10.417,
+     "f": 11.012
+    },
+    {
+     "p": "adotou",
+     "i": 11.024,
+     "f": 11.369
+    },
+    {
+     "p": "o",
+     "i": 11.381,
+     "f": 11.429
+    },
+    {
+     "p": "padrão",
+     "i": 11.44,
+     "f": 11.798
+    },
+    {
+     "p": "em",
+     "i": 11.81,
+     "f": 11.893
+    },
+    {
+     "p": "março",
+     "i": 11.905,
+     "f": 12.286
+    },
+    {
+     "p": "de",
+     "i": 12.298,
+     "f": 12.369
+    },
+    {
+     "p": "2025",
+     "i": 12.381,
+     "f": 13.512
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "bbb3b08611",
+   "texto": "Pense no USB-C. Um único cabo serve para celular, fone e notebook. Antes, cada aparelho exigia um cabo diferente. O MCP é isso para a IA: um encaixe só para qualquer ferramenta, sem precisar refazer a conexão toda vez.",
+   "audio": "audio/analogia-bbb3b08611.mp3",
+   "duracao": 18.216,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "no",
+     "i": 0.49,
+     "f": 0.586
+    },
+    {
+     "p": "USB-C",
+     "i": 0.598,
+     "f": 1.348
+    },
+    {
+     "p": "Um",
+     "i": 2.167,
+     "f": 2.333
+    },
+    {
+     "p": "único",
+     "i": 2.345,
+     "f": 2.655
+    },
+    {
+     "p": "cabo",
+     "i": 2.667,
+     "f": 2.976
+    },
+    {
+     "p": "serve",
+     "i": 2.988,
+     "f": 3.369
+    },
+    {
+     "p": "para",
+     "i": 3.381,
+     "f": 3.56
+    },
+    {
+     "p": "celular",
+     "i": 3.571,
+     "f": 4.048
+    },
+    {
+     "p": "fone",
+     "i": 4.321,
+     "f": 4.619
+    },
+    {
+     "p": "e",
+     "i": 4.631,
+     "f": 4.667
+    },
+    {
+     "p": "notebook",
+     "i": 4.679,
+     "f": 5.369
+    },
+    {
+     "p": "Antes",
+     "i": 6.19,
+     "f": 6.655
+    },
+    {
+     "p": "cada",
+     "i": 6.857,
+     "f": 7.071
+    },
+    {
+     "p": "aparelho",
+     "i": 7.083,
+     "f": 7.464
+    },
+    {
+     "p": "exigia",
+     "i": 7.476,
+     "f": 7.833
+    },
+    {
+     "p": "um",
+     "i": 7.845,
+     "f": 7.952
+    },
+    {
+     "p": "cabo",
+     "i": 7.964,
+     "f": 8.25
+    },
+    {
+     "p": "diferente",
+     "i": 8.262,
+     "f": 8.845
+    },
+    {
+     "p": "O",
+     "i": 9.667,
+     "f": 9.798
+    },
+    {
+     "p": "MCP",
+     "i": 9.81,
+     "f": 10.512
+    },
+    {
+     "p": "é",
+     "i": 10.524,
+     "f": 10.702
+    },
+    {
+     "p": "isso",
+     "i": 10.714,
+     "f": 11.071
+    },
+    {
+     "p": "para",
+     "i": 11.083,
+     "f": 11.238
+    },
+    {
+     "p": "a",
+     "i": 11.25,
+     "f": 11.262
+    },
+    {
+     "p": "IA",
+     "i": 11.274,
+     "f": 12.464
+    },
+    {
+     "p": "um",
+     "i": 12.786,
+     "f": 12.893
+    },
+    {
+     "p": "encaixe",
+     "i": 12.905,
+     "f": 13.381
+    },
+    {
+     "p": "só",
+     "i": 13.393,
+     "f": 13.536
+    },
+    {
+     "p": "para",
+     "i": 13.548,
+     "f": 13.738
+    },
+    {
+     "p": "qualquer",
+     "i": 13.75,
+     "f": 14.107
+    },
+    {
+     "p": "ferramenta",
+     "i": 14.119,
+     "f": 14.679
+    },
+    {
+     "p": "sem",
+     "i": 14.952,
+     "f": 15.131
+    },
+    {
+     "p": "precisar",
+     "i": 15.143,
+     "f": 15.583
+    },
+    {
+     "p": "refazer",
+     "i": 15.595,
+     "f": 16.024
+    },
+    {
+     "p": "a",
+     "i": 16.036,
+     "f": 16.095
+    },
+    {
+     "p": "conexão",
+     "i": 16.107,
+     "f": 16.679
+    },
+    {
+     "p": "toda",
+     "i": 16.69,
+     "f": 16.988
+    },
+    {
+     "p": "vez",
+     "i": 17,
+     "f": 17.381
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "4395bfe510",
+   "texto": "Veja um exemplo prático. Você pede: liste meus compromissos de amanhã. O cliente é o app de IA, como o Claude. O servidor é o programa que dá acesso a algo, como sua agenda. Todo servidor oferece três coisas: ferramentas, que executam ações; recursos, que entregam dados; e prompts, que são instruções prontas.",
+   "audio": "audio/exemplo-4395bfe510.mp3",
+   "duracao": 24,
+   "palavras": [
+    {
+     "p": "Veja",
+     "i": 0.098,
+     "f": 0.479
+    },
+    {
+     "p": "um",
+     "i": 0.49,
+     "f": 0.598
+    },
+    {
+     "p": "exemplo",
+     "i": 0.61,
+     "f": 1.014
+    },
+    {
+     "p": "prático",
+     "i": 1.026,
+     "f": 1.502
+    },
+    {
+     "p": "Você",
+     "i": 2.321,
+     "f": 2.667
+    },
+    {
+     "p": "pede",
+     "i": 2.679,
+     "f": 3.071
+    },
+    {
+     "p": "liste",
+     "i": 3.345,
+     "f": 3.679
+    },
+    {
+     "p": "meus",
+     "i": 3.69,
+     "f": 3.857
+    },
+    {
+     "p": "compromissos",
+     "i": 3.869,
+     "f": 4.524
+    },
+    {
+     "p": "de",
+     "i": 4.536,
+     "f": 4.607
+    },
+    {
+     "p": "amanhã",
+     "i": 4.619,
+     "f": 5.012
+    },
+    {
+     "p": "O",
+     "i": 5.833,
+     "f": 5.94
+    },
+    {
+     "p": "cliente",
+     "i": 5.952,
+     "f": 6.476
+    },
+    {
+     "p": "é",
+     "i": 6.488,
+     "f": 6.524
+    },
+    {
+     "p": "o",
+     "i": 6.536,
+     "f": 6.631
+    },
+    {
+     "p": "app",
+     "i": 6.643,
+     "f": 6.917
+    },
+    {
+     "p": "de",
+     "i": 6.929,
+     "f": 7.012
+    },
+    {
+     "p": "IA",
+     "i": 7.024,
+     "f": 8.238
+    },
+    {
+     "p": "como",
+     "i": 8.464,
+     "f": 8.714
+    },
+    {
+     "p": "o",
+     "i": 8.726,
+     "f": 8.762
+    },
+    {
+     "p": "Claude",
+     "i": 8.774,
+     "f": 9.226
+    },
+    {
+     "p": "O",
+     "i": 10.048,
+     "f": 10.155
+    },
+    {
+     "p": "servidor",
+     "i": 10.167,
+     "f": 10.69
+    },
+    {
+     "p": "é",
+     "i": 10.702,
+     "f": 10.738
+    },
+    {
+     "p": "o",
+     "i": 10.75,
+     "f": 10.786
+    },
+    {
+     "p": "programa",
+     "i": 10.798,
+     "f": 11.25
+    },
+    {
+     "p": "que",
+     "i": 11.262,
+     "f": 11.381
+    },
+    {
+     "p": "dá",
+     "i": 11.393,
+     "f": 11.512
+    },
+    {
+     "p": "acesso",
+     "i": 11.524,
+     "f": 11.94
+    },
+    {
+     "p": "a",
+     "i": 11.952,
+     "f": 11.988
+    },
+    {
+     "p": "algo",
+     "i": 12,
+     "f": 12.321
+    },
+    {
+     "p": "como",
+     "i": 12.595,
+     "f": 12.857
+    },
+    {
+     "p": "sua",
+     "i": 12.869,
+     "f": 13.155
+    },
+    {
+     "p": "agenda",
+     "i": 13.167,
+     "f": 13.595
+    },
+    {
+     "p": "Todo",
+     "i": 14.417,
+     "f": 14.702
+    },
+    {
+     "p": "servidor",
+     "i": 14.714,
+     "f": 15.155
+    },
+    {
+     "p": "oferece",
+     "i": 15.167,
+     "f": 15.619
+    },
+    {
+     "p": "três",
+     "i": 15.631,
+     "f": 15.881
+    },
+    {
+     "p": "coisas",
+     "i": 15.893,
+     "f": 16.333
+    },
+    {
+     "p": "ferramentas",
+     "i": 16.595,
+     "f": 17.369
+    },
+    {
+     "p": "que",
+     "i": 17.56,
+     "f": 17.667
+    },
+    {
+     "p": "executam",
+     "i": 17.679,
+     "f": 18.214
+    },
+    {
+     "p": "ações",
+     "i": 18.226,
+     "f": 18.702
+    },
+    {
+     "p": "recursos",
+     "i": 18.905,
+     "f": 19.5
+    },
+    {
+     "p": "que",
+     "i": 19.702,
+     "f": 19.798
+    },
+    {
+     "p": "entregam",
+     "i": 19.81,
+     "f": 20.262
+    },
+    {
+     "p": "dados",
+     "i": 20.274,
+     "f": 20.69
+    },
+    {
+     "p": "e",
+     "i": 20.917,
+     "f": 21.012
+    },
+    {
+     "p": "prompts",
+     "i": 21.024,
+     "f": 21.559
+    },
+    {
+     "p": "que",
+     "i": 21.762,
+     "f": 21.905
+    },
+    {
+     "p": "são",
+     "i": 21.917,
+     "f": 22.107
+    },
+    {
+     "p": "instruções",
+     "i": 22.119,
+     "f": 22.631
+    },
+    {
+     "p": "prontas",
+     "i": 22.643,
+     "f": 23.179
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "b26a4af622",
+   "texto": "O erro comum é achar que o servidor é a inteligência. Não é. Ele só entrega ferramentas e dados. Quem decide o que usar, e quando, é o modelo de IA que está no cliente. O servidor apenas responde ao pedido.",
+   "audio": "audio/erro-comum-b26a4af622.mp3",
+   "duracao": 16.392,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "erro",
+     "i": 0.252,
+     "f": 0.467
+    },
+    {
+     "p": "comum",
+     "i": 0.479,
+     "f": 0.86
+    },
+    {
+     "p": "é",
+     "i": 0.871,
+     "f": 0.943
+    },
+    {
+     "p": "achar",
+     "i": 0.955,
+     "f": 1.276
+    },
+    {
+     "p": "que",
+     "i": 1.288,
+     "f": 1.371
+    },
+    {
+     "p": "o",
+     "i": 1.383,
+     "f": 1.419
+    },
+    {
+     "p": "servidor",
+     "i": 1.431,
+     "f": 1.919
+    },
+    {
+     "p": "é",
+     "i": 1.931,
+     "f": 2.002
+    },
+    {
+     "p": "a",
+     "i": 2.014,
+     "f": 2.062
+    },
+    {
+     "p": "inteligência",
+     "i": 2.074,
+     "f": 2.848
+    },
+    {
+     "p": "Não",
+     "i": 3.667,
+     "f": 4
+    },
+    {
+     "p": "é",
+     "i": 4.012,
+     "f": 4.19
+    },
+    {
+     "p": "Ele",
+     "i": 5.012,
+     "f": 5.226
+    },
+    {
+     "p": "só",
+     "i": 5.238,
+     "f": 5.417
+    },
+    {
+     "p": "entrega",
+     "i": 5.429,
+     "f": 5.833
+    },
+    {
+     "p": "ferramentas",
+     "i": 5.845,
+     "f": 6.417
+    },
+    {
+     "p": "e",
+     "i": 6.429,
+     "f": 6.548
+    },
+    {
+     "p": "dados",
+     "i": 6.56,
+     "f": 7.024
+    },
+    {
+     "p": "Quem",
+     "i": 7.845,
+     "f": 8.036
+    },
+    {
+     "p": "decide",
+     "i": 8.048,
+     "f": 8.476
+    },
+    {
+     "p": "o",
+     "i": 8.488,
+     "f": 8.524
+    },
+    {
+     "p": "que",
+     "i": 8.536,
+     "f": 8.655
+    },
+    {
+     "p": "usar",
+     "i": 8.667,
+     "f": 8.988
+    },
+    {
+     "p": "e",
+     "i": 9.286,
+     "f": 9.345
+    },
+    {
+     "p": "quando",
+     "i": 9.357,
+     "f": 9.69
+    },
+    {
+     "p": "é",
+     "i": 9.893,
+     "f": 9.988
+    },
+    {
+     "p": "o",
+     "i": 10,
+     "f": 10.024
+    },
+    {
+     "p": "modelo",
+     "i": 10.036,
+     "f": 10.464
+    },
+    {
+     "p": "de",
+     "i": 10.476,
+     "f": 10.56
+    },
+    {
+     "p": "IA",
+     "i": 10.571,
+     "f": 11.762
+    },
+    {
+     "p": "que",
+     "i": 11.774,
+     "f": 11.857
+    },
+    {
+     "p": "está",
+     "i": 11.869,
+     "f": 12.083
+    },
+    {
+     "p": "no",
+     "i": 12.095,
+     "f": 12.191
+    },
+    {
+     "p": "cliente",
+     "i": 12.202,
+     "f": 12.702
+    },
+    {
+     "p": "O",
+     "i": 13.524,
+     "f": 13.631
+    },
+    {
+     "p": "servidor",
+     "i": 13.643,
+     "f": 14.155
+    },
+    {
+     "p": "apenas",
+     "i": 14.167,
+     "f": 14.536
+    },
+    {
+     "p": "responde",
+     "i": 14.548,
+     "f": 15.024
+    },
+    {
+     "p": "ao",
+     "i": 15.036,
+     "f": 15.107
+    },
+    {
+     "p": "pedido",
+     "i": 15.119,
+     "f": 15.571
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "69919af830",
+   "texto": "Pause o vídeo e tente: escreva três tarefas do seu dia e diga se cada uma seria ferramenta, recurso ou prompt.",
+   "audio": "audio/pratica-69919af830.mp3",
+   "duracao": 7.2,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.098,
+     "f": 0.407
+    },
+    {
+     "p": "o",
+     "i": 0.419,
+     "f": 0.479
+    },
+    {
+     "p": "vídeo",
+     "i": 0.49,
+     "f": 0.8
+    },
+    {
+     "p": "e",
+     "i": 0.812,
+     "f": 0.871
+    },
+    {
+     "p": "tente",
+     "i": 0.883,
+     "f": 1.252
+    },
+    {
+     "p": "escreva",
+     "i": 1.467,
+     "f": 1.871
+    },
+    {
+     "p": "três",
+     "i": 1.883,
+     "f": 2.133
+    },
+    {
+     "p": "tarefas",
+     "i": 2.145,
+     "f": 2.598
+    },
+    {
+     "p": "do",
+     "i": 2.61,
+     "f": 2.705
+    },
+    {
+     "p": "seu",
+     "i": 2.717,
+     "f": 2.895
+    },
+    {
+     "p": "dia",
+     "i": 2.907,
+     "f": 3.121
+    },
+    {
+     "p": "e",
+     "i": 3.133,
+     "f": 3.169
+    },
+    {
+     "p": "diga",
+     "i": 3.181,
+     "f": 3.455
+    },
+    {
+     "p": "se",
+     "i": 3.467,
+     "f": 3.61
+    },
+    {
+     "p": "cada",
+     "i": 3.621,
+     "f": 3.871
+    },
+    {
+     "p": "uma",
+     "i": 3.883,
+     "f": 4.086
+    },
+    {
+     "p": "seria",
+     "i": 4.098,
+     "f": 4.419
+    },
+    {
+     "p": "ferramenta",
+     "i": 4.431,
+     "f": 5.026
+    },
+    {
+     "p": "recurso",
+     "i": 5.276,
+     "f": 5.764
+    },
+    {
+     "p": "ou",
+     "i": 5.776,
+     "f": 5.895
+    },
+    {
+     "p": "prompt",
+     "i": 5.907,
+     "f": 6.371
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "0d11a998f4",
+   "texto": "Resumindo: o MCP é o USB-C da IA. O cliente conversa com servidores. E cada servidor oferece ferramentas, recursos e prompts.",
+   "audio": "audio/resumo-0d11a998f4.mp3",
+   "duracao": 12.072,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.788
+    },
+    {
+     "p": "o",
+     "i": 1.026,
+     "f": 1.145
+    },
+    {
+     "p": "MCP",
+     "i": 1.157,
+     "f": 1.848
+    },
+    {
+     "p": "é",
+     "i": 1.86,
+     "f": 1.943
+    },
+    {
+     "p": "o",
+     "i": 1.955,
+     "f": 2.05
+    },
+    {
+     "p": "USB-C",
+     "i": 2.062,
+     "f": 2.717
+    },
+    {
+     "p": "da",
+     "i": 2.729,
+     "f": 2.812
+    },
+    {
+     "p": "IA",
+     "i": 2.824,
+     "f": 4.098
+    },
+    {
+     "p": "O",
+     "i": 4.917,
+     "f": 5.024
+    },
+    {
+     "p": "cliente",
+     "i": 5.036,
+     "f": 5.488
+    },
+    {
+     "p": "conversa",
+     "i": 5.5,
+     "f": 6.036
+    },
+    {
+     "p": "com",
+     "i": 6.048,
+     "f": 6.202
+    },
+    {
+     "p": "servidores",
+     "i": 6.214,
+     "f": 6.94
+    },
+    {
+     "p": "E",
+     "i": 7.762,
+     "f": 7.881
+    },
+    {
+     "p": "cada",
+     "i": 7.893,
+     "f": 8.179
+    },
+    {
+     "p": "servidor",
+     "i": 8.19,
+     "f": 8.667
+    },
+    {
+     "p": "oferece",
+     "i": 8.679,
+     "f": 9.071
+    },
+    {
+     "p": "ferramentas",
+     "i": 9.083,
+     "f": 9.798
+    },
+    {
+     "p": "recursos",
+     "i": 10.024,
+     "f": 10.524
+    },
+    {
+     "p": "e",
+     "i": 10.536,
+     "f": 10.667
+    },
+    {
+     "p": "prompts",
+     "i": 10.679,
+     "f": 11.238
+    }
+   ]
+  },
+  "final": {
+   "hash": "0a9f8188a2",
+   "texto": "Quiz: entregar o texto de um arquivo para a IA é ferramenta ou recurso? Pense um segundo. É recurso: ele só entrega dados, sem executar ação. Na próxima aula, você adiciona servidores MCP.",
+   "audio": "audio/final-0a9f8188a2.mp3",
+   "duracao": 15.984,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.098,
+     "f": 0.49
+    },
+    {
+     "p": "entregar",
+     "i": 0.74,
+     "f": 1.181
+    },
+    {
+     "p": "o",
+     "i": 1.193,
+     "f": 1.252
+    },
+    {
+     "p": "texto",
+     "i": 1.264,
+     "f": 1.621
+    },
+    {
+     "p": "de",
+     "i": 1.633,
+     "f": 1.705
+    },
+    {
+     "p": "um",
+     "i": 1.717,
+     "f": 1.8
+    },
+    {
+     "p": "arquivo",
+     "i": 1.812,
+     "f": 2.229
+    },
+    {
+     "p": "para",
+     "i": 2.24,
+     "f": 2.383
+    },
+    {
+     "p": "a",
+     "i": 2.395,
+     "f": 2.407
+    },
+    {
+     "p": "IA",
+     "i": 2.419,
+     "f": 3.609
+    },
+    {
+     "p": "é",
+     "i": 3.621,
+     "f": 3.645
+    },
+    {
+     "p": "ferramenta",
+     "i": 3.657,
+     "f": 4.336
+    },
+    {
+     "p": "ou",
+     "i": 4.348,
+     "f": 4.407
+    },
+    {
+     "p": "recurso",
+     "i": 4.419,
+     "f": 4.967
+    },
+    {
+     "p": "Pense",
+     "i": 5.786,
+     "f": 6.143
+    },
+    {
+     "p": "um",
+     "i": 6.155,
+     "f": 6.238
+    },
+    {
+     "p": "segundo",
+     "i": 6.25,
+     "f": 6.762
+    },
+    {
+     "p": "É",
+     "i": 7.583,
+     "f": 7.667
+    },
+    {
+     "p": "recurso",
+     "i": 7.679,
+     "f": 8.25
+    },
+    {
+     "p": "ele",
+     "i": 8.452,
+     "f": 8.607
+    },
+    {
+     "p": "só",
+     "i": 8.619,
+     "f": 8.798
+    },
+    {
+     "p": "entrega",
+     "i": 8.81,
+     "f": 9.214
+    },
+    {
+     "p": "dados",
+     "i": 9.226,
+     "f": 9.679
+    },
+    {
+     "p": "sem",
+     "i": 9.881,
+     "f": 10.119
+    },
+    {
+     "p": "executar",
+     "i": 10.131,
+     "f": 10.607
+    },
+    {
+     "p": "ação",
+     "i": 10.619,
+     "f": 10.976
+    },
+    {
+     "p": "Na",
+     "i": 11.798,
+     "f": 12
+    },
+    {
+     "p": "próxima",
+     "i": 12.012,
+     "f": 12.44
+    },
+    {
+     "p": "aula",
+     "i": 12.452,
+     "f": 12.762
+    },
+    {
+     "p": "você",
+     "i": 13.06,
+     "f": 13.321
+    },
+    {
+     "p": "adiciona",
+     "i": 13.333,
+     "f": 13.845
+    },
+    {
+     "p": "servidores",
+     "i": 13.857,
+     "f": 14.417
+    },
+    {
+     "p": "MCP",
+     "i": 14.429,
+     "f": 15.155
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "openai": {
+   "arquivo": "",
+   "rotulo": "OpenAI",
+   "wiki": "OpenAI"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-19T22:26:17.942Z",
-  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/39337947908"
+  "pedidoEm": "2026-10-19T22:26:17.942Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Model Context Protocol — o que é o MCP (documentação oficial)",
+   "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+  },
+  {
+   "titulo": "TechCrunch — OpenAI adota o padrão MCP da Anthropic (26/03/2025)",
+   "url": "https://techcrunch.com/2025/03/26/openai-adopts-rival-anthropics-standard-for-connecting-ai-models-to-data/"
+  },
+  {
+   "titulo": "Wikipedia — Model Context Protocol",
+   "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "lista"
  }
 }

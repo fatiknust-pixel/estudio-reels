@@ -1,0 +1,103 @@
+{
+  "titulo": "Aula 4.3: MCP, o USB-C da IA",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "lista", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Model Context Protocol — o que é o MCP (documentação oficial)", "url": "https://modelcontextprotocol.io/docs/getting-started/intro" },
+    { "titulo": "TechCrunch — OpenAI adota o padrão MCP da Anthropic (26/03/2025)", "url": "https://techcrunch.com/2025/03/26/openai-adopts-rival-anthropics-standard-for-connecting-ai-models-to-data/" },
+    { "titulo": "Wikipedia — Model Context Protocol", "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você já pediu para a IA olhar sua agenda e ela disse que não consegue? Em novembro de 2024, a Anthropic criou um padrão para resolver isso.",
+      "fontes": ["Anthropic, 25/11/2024"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "IA SEM ACESSO?", "em": "agenda", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "NÃO CONSIGO", "cor": "vermelho", "em": "consegue?", "posicao": "meio" },
+        { "tipo": "tag", "texto": "NOVEMBRO DE 2024", "icone": "relogio", "cor": "azul", "em": "novembro", "posicao": "alto2" },
+        { "tipo": "pessoa", "imagem": "anthropic", "nome": "Anthropic", "cargo": "Criou o MCP", "em": "Anthropic", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Na aula 4.3, você vai aprender três coisas: o que é o MCP, como cliente e servidor conversam, e o que um servidor oferece.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "AULA 4.3 — MCP", "sub": "IA do Zero ao Especialista", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "1. O QUE É", "icone": "alvo", "em": "MCP,", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2. CLIENTE × SERVIDOR", "icone": "seta", "cor": "azul", "em": "cliente", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "3. O QUE OFERECE", "icone": "mais", "cor": "verde", "em": "oferece.", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "MCP significa Model Context Protocol, ou protocolo de contexto para modelos. É um padrão aberto que liga a IA a ferramentas e dados. A OpenAI adotou o padrão em março de 2025.",
+      "fontes": ["modelcontextprotocol.io", "TechCrunch, 26/03/2025"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE É MCP", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "MCP", "significado": "Padrão aberto que conecta a IA a ferramentas e dados", "em": "significa", "posicao": "alto" },
+        { "tipo": "tag", "texto": "PADRÃO ABERTO", "icone": "check", "cor": "verde", "em": "aberto", "posicao": "meio" },
+        { "tipo": "pessoa", "imagem": "openai", "nome": "OpenAI", "cargo": "Adotou em março de 2025", "em": "OpenAI", "posicao": "alto2" },
+        { "tipo": "carimbo", "texto": "MARÇO 2025", "cor": "azul", "em": "março", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense no USB-C. Um único cabo serve para celular, fone e notebook. Antes, cada aparelho exigia um cabo diferente. O MCP é isso para a IA: um encaixe só para qualquer ferramenta, sem precisar refazer a conexão toda vez.",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "USB-C DA IA", "em": "USB-C.", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["celular", "CELULAR"], ["mais", "FONE"], ["predio", "NOTEBOOK"]], "em": "celular,", "posicao": "meio" },
+        { "tipo": "mapa", "de": "IA", "para": "FERRAMENTAS", "legenda": "UM ENCAIXE SÓ", "em": "encaixe", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Veja um exemplo prático. Você pede: liste meus compromissos de amanhã. O cliente é o app de IA, como o Claude. O servidor é o programa que dá acesso a algo, como sua agenda. Todo servidor oferece três coisas: ferramentas, que executam ações; recursos, que entregam dados; e prompts, que são instruções prontas.",
+      "fontes": ["modelcontextprotocol.io"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CLIENTE × SERVIDOR", "em": 0, "posicao": "topo" },
+        { "tipo": "mapa", "de": "CLIENTE (CLAUDE)", "para": "SERVIDOR (AGENDA)", "em": "cliente", "posicao": "alto" },
+        { "tipo": "tag", "texto": "FERRAMENTAS = AÇÕES", "icone": "martelo", "cor": "amarelo", "em": "ferramentas,", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "RECURSOS = DADOS", "icone": "documento", "cor": "verde", "em": "recursos,", "posicao": "meio" },
+        { "tipo": "tag", "texto": "PROMPTS = MODELOS", "icone": "balao", "cor": "roxo", "em": "prompts,", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum é achar que o servidor é a inteligência. Não é. Ele só entrega ferramentas e dados. Quem decide o que usar, e quando, é o modelo de IA que está no cliente. O servidor apenas responde ao pedido.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": 0, "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "SERVIDOR PENSA", "nota": "Ele só entrega ferramentas e dados", "em": "servidor", "posicao": "alto2" },
+        { "tipo": "check", "ok": true, "texto": "O MODELO DECIDE", "nota": "Ele escolhe o que usar", "em": "decide", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: escreva três tarefas do seu dia e diga se cada uma seria ferramenta, recurso ou prompt.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "FERRAMENTA, RECURSO OU PROMPT?", "em": "ferramenta,", "posicao": "meio" },
+        { "tipo": "comentario", "texto": "Comenta aí qual você escolheu", "em": "prompt.", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: o MCP é o USB-C da IA. O cliente conversa com servidores. E cada servidor oferece ferramentas, recursos e prompts.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["check", "USB-C DA IA"], ["seta", ""], ["celular", "CLIENTE E SERVIDOR"]], "em": "MCP", "posicao": "alto" },
+        { "tipo": "tag", "texto": "FERRAMENTAS · RECURSOS · PROMPTS", "icone": "mais", "cor": "verde", "em": "ferramentas,", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: entregar o texto de um arquivo para a IA é ferramenta ou recurso? Pense um segundo. É recurso: ele só entrega dados, sem executar ação. Na próxima aula, você adiciona servidores MCP.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Ler um arquivo é...", "opcoes": ["1 · Ferramenta", "2 · Recurso"], "em": "Quiz:", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RECURSO", "cor": "verde", "em": "recurso:", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 4.4", "em": "próxima", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
