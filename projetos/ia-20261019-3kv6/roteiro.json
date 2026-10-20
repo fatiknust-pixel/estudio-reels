@@ -1,0 +1,106 @@
+{
+  "titulo": "Aula 7.1: App ou API do Claude, quando usar cada um",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "comparacao", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Anthropic — Preços dos modelos (Claude Docs)", "url": "https://platform.claude.com/docs/en/about-claude/pricing" },
+    { "titulo": "Anthropic — Workspaces no Console", "url": "https://claude.com/resources/articles/workspaces" },
+    { "titulo": "Anthropic — Limites de gasto (referência da API)", "url": "https://platform.claude.com/docs/en/api/cli/beta/organization/spend_limits.md" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você paga uma assinatura do Claude todo mês. Mas seu robô de atendimento precisa de uma chave de API. É a mesma coisa? Não é, e confundir custa caro.",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "APP OU API?", "em": "assinatura", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "NÃO É", "cor": "vermelho", "em": "Não" },
+        { "tipo": "tag", "texto": "CUSTA CARO", "icone": "dinheiro", "cor": "amarelo", "em": "caro", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Aula 7.1. Você vai aprender três coisas: app contra API, como criar a chave e limitar o gasto, e automatizar sem código.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "APP × API", "sub": "AULA 7.1", "em": "Aula", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balanca", "App x API"], ["chave", "Chave e limite"], ["engrenagem", "Sem código"]], "em": "três", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "No app, você paga uma assinatura mensal e conversa com o Claude. Na API, a porta para seus programas falarem com ele, você paga por token, um pedacinho de texto. Quanto mais usa, mais paga.",
+      "fontes": ["Anthropic — preços da API"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ASSINATURA × TOKEN", "em": "app", "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "API", "significado": "porta para programas usarem o Claude", "em": "API", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Token", "significado": "pedaço de texto cobrado", "em": "token", "posicao": "alto2" },
+        { "tipo": "tag", "texto": "USOU, PAGOU", "icone": "moeda", "cor": "amarelo", "em": "mais", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense no celular. O app é o plano mensal: uso pessoal, preço fixo. A API é a conta de luz da sua empresa: mede o consumo e cobra só o que você usou.",
+      "elementos": [
+        { "tipo": "icones", "itens": [["celular", "App: plano fixo"], ["seta", ""], ["raio", "API: conta de luz"]], "em": "celular", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "App = uso pessoal", "nota": "preço fixo por mês", "em": "plano", "posicao": "alto2" },
+        { "tipo": "check", "ok": true, "texto": "API = seus sistemas", "nota": "paga pelo consumo", "em": "consumo", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "exemplo-chave",
+      "texto": "Para criar a chave, entre no Console da Anthropic, abra um workspace e gere uma API key. Depois defina um limite mensal de gasto. O Haiku 5.5 custa dez centavos de dólar por milhão de tokens de entrada, em outubro de 2026.",
+      "fontes": ["Anthropic — preços, out/2026", "Anthropic — Workspaces"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CHAVE E LIMITE", "em": "chave", "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Console > Workspace > API keys > Create key", "em": "gere", "posicao": "alto" },
+        { "tipo": "tag", "texto": "LIMITE MENSAL", "icone": "alerta", "cor": "amarelo", "em": "limite", "posicao": "alto2" },
+        { "tipo": "contador", "de": 0, "ate": 0.10, "unidade": "US$ / milhão de tokens", "rotulo": "Haiku 5.5, entrada", "em": "dez", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "automacao",
+      "texto": "E sem programar? Ferramentas como n8n, Make e Zapier ligam o Claude ao seu e-mail ou planilha com blocos de arrastar. Você só cola a chave de API.",
+      "fundo": "zapier",
+      "elementos": [
+        { "tipo": "titulo", "texto": "SEM CÓDIGO", "em": "sem", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["email", "E-mail"], ["seta", ""], ["cerebro", "Claude"], ["seta", ""], ["lista", "Planilha"]], "em": "Ferramentas", "posicao": "alto" },
+        { "tipo": "tag", "texto": "COLE A CHAVE", "icone": "chave", "cor": "verde", "em": "cola", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "O erro comum: colar a chave num código público, como o GitHub ou o seu site. Quem achar usa, e você paga. Guarde em variável de ambiente e, se vazar, apague a chave na hora.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "erro" },
+        { "tipo": "check", "ok": false, "texto": "Chave no código público", "nota": "outra pessoa gasta por você", "em": "colar", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Variável de ambiente", "nota": "a chave fica fora do código", "em": "Guarde", "posicao": "alto2" },
+        { "tipo": "icones", "itens": [["cadeado", "Guarde"], ["x", "Apague se vazar"]], "em": "vazar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: crie um workspace de teste no Console e defina um limite de cinco dólares.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": "Pause", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "LIMITE DE US$ 5", "em": "limite", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: app é assinatura, API é pagar por token. Crie a chave com limite de gasto. E nunca exponha a chave.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": "Resumindo", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["balanca", "Assinatura x token"], ["escudo", "Limite de gasto"], ["cadeado", "Chave secreta"]], "em": "app", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: sua chave apareceu num repositório público. O que fazer primeiro? Um: apagar a chave e criar outra. Dois: esperar ninguém notar. A resposta é um: chave exposta é chave comprometida. Próxima aula: chamada à API em Python.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Chave vazou. O que fazer primeiro?", "opcoes": ["Apagar e criar outra", "Esperar ninguém notar"], "em": "Quiz:", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "RESPOSTA: 1", "cor": "verde", "em": "resposta" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 7.2", "em": "próxima", "posicao": "meio" }
+      ]
+    }
+  ]
+}

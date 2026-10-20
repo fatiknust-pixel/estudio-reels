@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-3kv6",
- "titulo": "Aula 7.1: App ou API do Claude, quando usar cada um — explique a difer",
+ "titulo": "Aula 7.1: App ou API do Claude, quando usar cada um",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.944Z",
- "atualizadoEm": "2026-10-19T22:26:17.944Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-20T03:12:16Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 7.1: App ou API do Claude, quando usar cada um — explique a diferença entre pagar assinatura no app e pagar por token na API, como criar a chave e definir limite de gasto no Console, automação sem código com n8n, Make e Zapier, e o cuidado de nunca expor sua chave de API",
@@ -64,11 +65,1983 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você paga uma assinatura do Claude todo mês. Mas seu robô de atendimento precisa de uma chave de API. É a mesma coisa? Não é, e confundir custa caro.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "APP OU API?",
+     "em": "assinatura",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO É",
+     "cor": "vermelho",
+     "em": "Não"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CUSTA CARO",
+     "icone": "dinheiro",
+     "cor": "amarelo",
+     "em": "caro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Aula 7.1. Você vai aprender três coisas: app contra API, como criar a chave e limitar o gasto, e automatizar sem código.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "APP × API",
+     "sub": "AULA 7.1",
+     "em": "Aula",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balanca",
+       "App x API"
+      ],
+      [
+       "chave",
+       "Chave e limite"
+      ],
+      [
+       "engrenagem",
+       "Sem código"
+      ]
+     ],
+     "em": "três",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "No app, você paga uma assinatura mensal e conversa com o Claude. Na API, a porta para seus programas falarem com ele, você paga por token, um pedacinho de texto. Quanto mais usa, mais paga.",
+   "fontes": [
+    "Anthropic — preços da API"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ASSINATURA × TOKEN",
+     "em": "app",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "API",
+     "significado": "porta para programas usarem o Claude",
+     "em": "API",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Token",
+     "significado": "pedaço de texto cobrado",
+     "em": "token",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "tag",
+     "texto": "USOU, PAGOU",
+     "icone": "moeda",
+     "cor": "amarelo",
+     "em": "mais",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense no celular. O app é o plano mensal: uso pessoal, preço fixo. A API é a conta de luz da sua empresa: mede o consumo e cobra só o que você usou.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "App: plano fixo"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "raio",
+       "API: conta de luz"
+      ]
+     ],
+     "em": "celular",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "App = uso pessoal",
+     "nota": "preço fixo por mês",
+     "em": "plano",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "API = seus sistemas",
+     "nota": "paga pelo consumo",
+     "em": "consumo",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "exemplo-chave",
+   "texto": "Para criar a chave, entre no Console da Anthropic, abra um workspace e gere uma API key. Depois defina um limite mensal de gasto. O Haiku 5.5 custa dez centavos de dólar por milhão de tokens de entrada, em outubro de 2026.",
+   "fontes": [
+    "Anthropic — preços, out/2026",
+    "Anthropic — Workspaces"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CHAVE E LIMITE",
+     "em": "chave",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Console > Workspace > API keys > Create key",
+     "em": "gere",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "LIMITE MENSAL",
+     "icone": "alerta",
+     "cor": "amarelo",
+     "em": "limite",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 0.1,
+     "unidade": "US$ / milhão de tokens",
+     "rotulo": "Haiku 5.5, entrada",
+     "em": "dez",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "automacao",
+   "texto": "E sem programar? Ferramentas como n8n, Make e Zapier ligam o Claude ao seu e-mail ou planilha com blocos de arrastar. Você só cola a chave de API.",
+   "fundo": "zapier",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SEM CÓDIGO",
+     "em": "sem",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "email",
+       "E-mail"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "cerebro",
+       "Claude"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "lista",
+       "Planilha"
+      ]
+     ],
+     "em": "Ferramentas",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "COLE A CHAVE",
+     "icone": "chave",
+     "cor": "verde",
+     "em": "cola",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "O erro comum: colar a chave num código público, como o GitHub ou o seu site. Quem achar usa, e você paga. Guarde em variável de ambiente e, se vazar, apague a chave na hora.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "erro"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Chave no código público",
+     "nota": "outra pessoa gasta por você",
+     "em": "colar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Variável de ambiente",
+     "nota": "a chave fica fora do código",
+     "em": "Guarde",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "cadeado",
+       "Guarde"
+      ],
+      [
+       "x",
+       "Apague se vazar"
+      ]
+     ],
+     "em": "vazar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: crie um workspace de teste no Console e defina um limite de cinco dólares.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": "Pause",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "LIMITE DE US$ 5",
+     "em": "limite",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: app é assinatura, API é pagar por token. Crie a chave com limite de gasto. E nunca exponha a chave.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": "Resumindo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "balanca",
+       "Assinatura x token"
+      ],
+      [
+       "escudo",
+       "Limite de gasto"
+      ],
+      [
+       "cadeado",
+       "Chave secreta"
+      ]
+     ],
+     "em": "app",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: sua chave apareceu num repositório público. O que fazer primeiro? Um: apagar a chave e criar outra. Dois: esperar ninguém notar. A resposta é um: chave exposta é chave comprometida. Próxima aula: chamada à API em Python.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Chave vazou. O que fazer primeiro?",
+     "opcoes": [
+      "Apagar e criar outra",
+      "Esperar ninguém notar"
+     ],
+     "em": "Quiz:",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "RESPOSTA: 1",
+     "cor": "verde",
+     "em": "resposta"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 7.2",
+     "em": "próxima",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "932ba71f65",
+   "texto": "Você paga uma assinatura do Claude todo mês. Mas seu robô de atendimento precisa de uma chave de API. É a mesma coisa? Não é, e confundir custa caro.",
+   "audio": "audio/gancho-932ba71f65.mp3",
+   "duracao": 10.553,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.05,
+     "f": 0.287
+    },
+    {
+     "p": "paga",
+     "i": 0.287,
+     "f": 0.662
+    },
+    {
+     "p": "uma",
+     "i": 0.662,
+     "f": 0.762
+    },
+    {
+     "p": "assinatura",
+     "i": 0.762,
+     "f": 1.413
+    },
+    {
+     "p": "do",
+     "i": 1.413,
+     "f": 1.55
+    },
+    {
+     "p": "Claude",
+     "i": 1.55,
+     "f": 1.975
+    },
+    {
+     "p": "todo",
+     "i": 1.975,
+     "f": 2.337
+    },
+    {
+     "p": "mês",
+     "i": 2.337,
+     "f": 2.725
+    },
+    {
+     "p": "Mas",
+     "i": 3.062,
+     "f": 3.288
+    },
+    {
+     "p": "seu",
+     "i": 3.288,
+     "f": 3.45
+    },
+    {
+     "p": "robô",
+     "i": 3.45,
+     "f": 3.812
+    },
+    {
+     "p": "de",
+     "i": 3.812,
+     "f": 3.875
+    },
+    {
+     "p": "atendimento",
+     "i": 3.875,
+     "f": 4.537
+    },
+    {
+     "p": "precisa",
+     "i": 4.537,
+     "f": 5
+    },
+    {
+     "p": "de",
+     "i": 5,
+     "f": 5.05
+    },
+    {
+     "p": "uma",
+     "i": 5.05,
+     "f": 5.162
+    },
+    {
+     "p": "chave",
+     "i": 5.162,
+     "f": 5.625
+    },
+    {
+     "p": "de",
+     "i": 5.625,
+     "f": 5.763
+    },
+    {
+     "p": "API",
+     "i": 5.763,
+     "f": 6.275
+    },
+    {
+     "p": "É",
+     "i": 6.625,
+     "f": 6.75
+    },
+    {
+     "p": "a",
+     "i": 6.75,
+     "f": 6.8
+    },
+    {
+     "p": "mesma",
+     "i": 6.8,
+     "f": 7.212
+    },
+    {
+     "p": "coisa",
+     "i": 7.213,
+     "f": 7.688
+    },
+    {
+     "p": "Não",
+     "i": 8.025,
+     "f": 8.3
+    },
+    {
+     "p": "é",
+     "i": 8.3,
+     "f": 8.463
+    },
+    {
+     "p": "e",
+     "i": 8.7,
+     "f": 8.787
+    },
+    {
+     "p": "confundir",
+     "i": 8.787,
+     "f": 9.475
+    },
+    {
+     "p": "custa",
+     "i": 9.475,
+     "f": 9.812
+    },
+    {
+     "p": "caro",
+     "i": 9.812,
+     "f": 10.175
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "440bed4e63",
+   "texto": "Aula 7.1. Você vai aprender três coisas: app contra API, como criar a chave e limitar o gasto, e automatizar sem código.",
+   "audio": "audio/promessa-440bed4e63.mp3",
+   "duracao": 9.509,
+   "palavras": [
+    {
+     "p": "Aula",
+     "i": 0.05,
+     "f": 0.575
+    },
+    {
+     "p": "7.1",
+     "i": 0.575,
+     "f": 1.863
+    },
+    {
+     "p": "Você",
+     "i": 2.2,
+     "f": 2.388
+    },
+    {
+     "p": "vai",
+     "i": 2.388,
+     "f": 2.5
+    },
+    {
+     "p": "aprender",
+     "i": 2.5,
+     "f": 2.962
+    },
+    {
+     "p": "três",
+     "i": 2.962,
+     "f": 3.288
+    },
+    {
+     "p": "coisas",
+     "i": 3.288,
+     "f": 3.788
+    },
+    {
+     "p": "app",
+     "i": 4.125,
+     "f": 4.412
+    },
+    {
+     "p": "contra",
+     "i": 4.412,
+     "f": 4.737
+    },
+    {
+     "p": "API",
+     "i": 4.737,
+     "f": 5.25
+    },
+    {
+     "p": "como",
+     "i": 5.388,
+     "f": 5.588
+    },
+    {
+     "p": "criar",
+     "i": 5.588,
+     "f": 5.9
+    },
+    {
+     "p": "a",
+     "i": 5.9,
+     "f": 5.938
+    },
+    {
+     "p": "chave",
+     "i": 5.938,
+     "f": 6.4
+    },
+    {
+     "p": "e",
+     "i": 6.4,
+     "f": 6.425
+    },
+    {
+     "p": "limitar",
+     "i": 6.425,
+     "f": 6.938
+    },
+    {
+     "p": "o",
+     "i": 6.938,
+     "f": 6.975
+    },
+    {
+     "p": "gasto",
+     "i": 6.975,
+     "f": 7.438
+    },
+    {
+     "p": "e",
+     "i": 7.588,
+     "f": 7.688
+    },
+    {
+     "p": "automatizar",
+     "i": 7.688,
+     "f": 8.425
+    },
+    {
+     "p": "sem",
+     "i": 8.425,
+     "f": 8.663
+    },
+    {
+     "p": "código",
+     "i": 8.662,
+     "f": 9.125
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "f45ade7a00",
+   "texto": "No app, você paga uma assinatura mensal e conversa com o Claude. Na API, a porta para seus programas falarem com ele, você paga por token, um pedacinho de texto. Quanto mais usa, mais paga.",
+   "audio": "audio/conceito-f45ade7a00.mp3",
+   "duracao": 12.643,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.05,
+     "f": 0.213
+    },
+    {
+     "p": "app",
+     "i": 0.212,
+     "f": 0.512
+    },
+    {
+     "p": "você",
+     "i": 0.75,
+     "f": 0.9
+    },
+    {
+     "p": "paga",
+     "i": 0.9,
+     "f": 1.175
+    },
+    {
+     "p": "uma",
+     "i": 1.175,
+     "f": 1.25
+    },
+    {
+     "p": "assinatura",
+     "i": 1.25,
+     "f": 1.75
+    },
+    {
+     "p": "mensal",
+     "i": 1.75,
+     "f": 2.425
+    },
+    {
+     "p": "e",
+     "i": 2.425,
+     "f": 2.5
+    },
+    {
+     "p": "conversa",
+     "i": 2.5,
+     "f": 3.087
+    },
+    {
+     "p": "com",
+     "i": 3.087,
+     "f": 3.25
+    },
+    {
+     "p": "o",
+     "i": 3.25,
+     "f": 3.312
+    },
+    {
+     "p": "Claude",
+     "i": 3.312,
+     "f": 3.75
+    },
+    {
+     "p": "Na",
+     "i": 4.088,
+     "f": 4.238
+    },
+    {
+     "p": "API",
+     "i": 4.237,
+     "f": 4.812
+    },
+    {
+     "p": "a",
+     "i": 5.1,
+     "f": 5.175
+    },
+    {
+     "p": "porta",
+     "i": 5.175,
+     "f": 5.55
+    },
+    {
+     "p": "para",
+     "i": 5.55,
+     "f": 5.712
+    },
+    {
+     "p": "seus",
+     "i": 5.713,
+     "f": 5.9
+    },
+    {
+     "p": "programas",
+     "i": 5.9,
+     "f": 6.375
+    },
+    {
+     "p": "falarem",
+     "i": 6.375,
+     "f": 6.787
+    },
+    {
+     "p": "com",
+     "i": 6.787,
+     "f": 7.012
+    },
+    {
+     "p": "ele",
+     "i": 7.013,
+     "f": 7.237
+    },
+    {
+     "p": "você",
+     "i": 7.475,
+     "f": 7.625
+    },
+    {
+     "p": "paga",
+     "i": 7.625,
+     "f": 7.912
+    },
+    {
+     "p": "por",
+     "i": 7.912,
+     "f": 8.062
+    },
+    {
+     "p": "token",
+     "i": 8.062,
+     "f": 8.575
+    },
+    {
+     "p": "um",
+     "i": 8.75,
+     "f": 8.85
+    },
+    {
+     "p": "pedacinho",
+     "i": 8.85,
+     "f": 9.4
+    },
+    {
+     "p": "de",
+     "i": 9.4,
+     "f": 9.537
+    },
+    {
+     "p": "texto",
+     "i": 9.537,
+     "f": 9.95
+    },
+    {
+     "p": "Quanto",
+     "i": 10.3,
+     "f": 10.613
+    },
+    {
+     "p": "mais",
+     "i": 10.613,
+     "f": 10.875
+    },
+    {
+     "p": "usa",
+     "i": 10.875,
+     "f": 11.35
+    },
+    {
+     "p": "mais",
+     "i": 11.575,
+     "f": 11.85
+    },
+    {
+     "p": "paga",
+     "i": 11.85,
+     "f": 12.262
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "4bfb9da992",
+   "texto": "Pense no celular. O app é o plano mensal: uso pessoal, preço fixo. A API é a conta de luz da sua empresa: mede o consumo e cobra só o que você usou.",
+   "audio": "audio/analogia-4bfb9da992.mp3",
+   "duracao": 10.658,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.062,
+     "f": 0.45
+    },
+    {
+     "p": "no",
+     "i": 0.45,
+     "f": 0.562
+    },
+    {
+     "p": "celular",
+     "i": 0.562,
+     "f": 1.1
+    },
+    {
+     "p": "O",
+     "i": 1.438,
+     "f": 1.587
+    },
+    {
+     "p": "app",
+     "i": 1.587,
+     "f": 1.85
+    },
+    {
+     "p": "é",
+     "i": 1.85,
+     "f": 1.95
+    },
+    {
+     "p": "o",
+     "i": 1.95,
+     "f": 2
+    },
+    {
+     "p": "plano",
+     "i": 2,
+     "f": 2.288
+    },
+    {
+     "p": "mensal",
+     "i": 2.288,
+     "f": 2.838
+    },
+    {
+     "p": "uso",
+     "i": 3.1,
+     "f": 3.337
+    },
+    {
+     "p": "pessoal",
+     "i": 3.337,
+     "f": 3.912
+    },
+    {
+     "p": "preço",
+     "i": 4.088,
+     "f": 4.413
+    },
+    {
+     "p": "fixo",
+     "i": 4.412,
+     "f": 4.9
+    },
+    {
+     "p": "A",
+     "i": 5.237,
+     "f": 5.312
+    },
+    {
+     "p": "API",
+     "i": 5.312,
+     "f": 5.938
+    },
+    {
+     "p": "é",
+     "i": 5.938,
+     "f": 6.05
+    },
+    {
+     "p": "a",
+     "i": 6.05,
+     "f": 6.1
+    },
+    {
+     "p": "conta",
+     "i": 6.1,
+     "f": 6.4
+    },
+    {
+     "p": "de",
+     "i": 6.4,
+     "f": 6.488
+    },
+    {
+     "p": "luz",
+     "i": 6.487,
+     "f": 6.725
+    },
+    {
+     "p": "da",
+     "i": 6.725,
+     "f": 6.837
+    },
+    {
+     "p": "sua",
+     "i": 6.838,
+     "f": 6.975
+    },
+    {
+     "p": "empresa",
+     "i": 6.975,
+     "f": 7.462
+    },
+    {
+     "p": "mede",
+     "i": 7.75,
+     "f": 7.975
+    },
+    {
+     "p": "o",
+     "i": 7.975,
+     "f": 8
+    },
+    {
+     "p": "consumo",
+     "i": 8,
+     "f": 8.738
+    },
+    {
+     "p": "e",
+     "i": 8.738,
+     "f": 8.825
+    },
+    {
+     "p": "cobra",
+     "i": 8.825,
+     "f": 9.188
+    },
+    {
+     "p": "só",
+     "i": 9.188,
+     "f": 9.5
+    },
+    {
+     "p": "o",
+     "i": 9.5,
+     "f": 9.537
+    },
+    {
+     "p": "que",
+     "i": 9.537,
+     "f": 9.637
+    },
+    {
+     "p": "você",
+     "i": 9.637,
+     "f": 9.887
+    },
+    {
+     "p": "usou",
+     "i": 9.887,
+     "f": 10.262
+    }
+   ]
+  },
+  "exemplo-chave": {
+   "hash": "7f8013d7d7",
+   "texto": "Para criar a chave, entre no Console da Anthropic, abra um workspace e gere uma API key. Depois defina um limite mensal de gasto. O Haiku 5.5 custa dez centavos de dólar por milhão de tokens de entrada, em outubro de 2026.",
+   "audio": "audio/exemplo-chave-7f8013d7d7.mp3",
+   "duracao": 16.013,
+   "palavras": [
+    {
+     "p": "Para",
+     "i": 0.05,
+     "f": 0.213
+    },
+    {
+     "p": "criar",
+     "i": 0.212,
+     "f": 0.5
+    },
+    {
+     "p": "a",
+     "i": 0.5,
+     "f": 0.537
+    },
+    {
+     "p": "chave",
+     "i": 0.537,
+     "f": 1.012
+    },
+    {
+     "p": "entre",
+     "i": 1.188,
+     "f": 1.475
+    },
+    {
+     "p": "no",
+     "i": 1.475,
+     "f": 1.575
+    },
+    {
+     "p": "Console",
+     "i": 1.575,
+     "f": 2.025
+    },
+    {
+     "p": "da",
+     "i": 2.025,
+     "f": 2.175
+    },
+    {
+     "p": "Anthropic",
+     "i": 2.175,
+     "f": 2.812
+    },
+    {
+     "p": "abra",
+     "i": 3.1,
+     "f": 3.288
+    },
+    {
+     "p": "um",
+     "i": 3.288,
+     "f": 3.388
+    },
+    {
+     "p": "workspace",
+     "i": 3.388,
+     "f": 4.225
+    },
+    {
+     "p": "e",
+     "i": 4.225,
+     "f": 4.3
+    },
+    {
+     "p": "gere",
+     "i": 4.3,
+     "f": 4.612
+    },
+    {
+     "p": "uma",
+     "i": 4.612,
+     "f": 4.712
+    },
+    {
+     "p": "API",
+     "i": 4.713,
+     "f": 5.225
+    },
+    {
+     "p": "key",
+     "i": 5.225,
+     "f": 5.55
+    },
+    {
+     "p": "Depois",
+     "i": 5.9,
+     "f": 6.3
+    },
+    {
+     "p": "defina",
+     "i": 6.3,
+     "f": 6.7
+    },
+    {
+     "p": "um",
+     "i": 6.7,
+     "f": 6.763
+    },
+    {
+     "p": "limite",
+     "i": 6.763,
+     "f": 7.213
+    },
+    {
+     "p": "mensal",
+     "i": 7.213,
+     "f": 7.713
+    },
+    {
+     "p": "de",
+     "i": 7.713,
+     "f": 7.812
+    },
+    {
+     "p": "gasto",
+     "i": 7.812,
+     "f": 8.3
+    },
+    {
+     "p": "O",
+     "i": 8.637,
+     "f": 8.75
+    },
+    {
+     "p": "Haiku",
+     "i": 8.75,
+     "f": 9.075
+    },
+    {
+     "p": "5.5 custa",
+     "i": 9.075,
+     "f": 10.438
+    },
+    {
+     "p": "dez",
+     "i": 10.438,
+     "f": 10.713
+    },
+    {
+     "p": "centavos",
+     "i": 10.713,
+     "f": 11.275
+    },
+    {
+     "p": "de",
+     "i": 11.275,
+     "f": 11.388
+    },
+    {
+     "p": "dólar",
+     "i": 11.387,
+     "f": 11.775
+    },
+    {
+     "p": "por",
+     "i": 11.775,
+     "f": 11.95
+    },
+    {
+     "p": "milhão",
+     "i": 11.95,
+     "f": 12.362
+    },
+    {
+     "p": "de",
+     "i": 12.363,
+     "f": 12.513
+    },
+    {
+     "p": "tokens",
+     "i": 12.512,
+     "f": 12.887
+    },
+    {
+     "p": "de",
+     "i": 12.887,
+     "f": 12.962
+    },
+    {
+     "p": "entrada",
+     "i": 12.963,
+     "f": 13.463
+    },
+    {
+     "p": "em",
+     "i": 13.65,
+     "f": 13.775
+    },
+    {
+     "p": "outubro",
+     "i": 13.775,
+     "f": 14.3
+    },
+    {
+     "p": "de",
+     "i": 14.3,
+     "f": 14.375
+    },
+    {
+     "p": "2026",
+     "i": 14.375,
+     "f": 15.613
+    }
+   ]
+  },
+  "automacao": {
+   "hash": "cb5294d8f9",
+   "texto": "E sem programar? Ferramentas como n8n, Make e Zapier ligam o Claude ao seu e-mail ou planilha com blocos de arrastar. Você só cola a chave de API.",
+   "audio": "audio/automacao-cb5294d8f9.mp3",
+   "duracao": 10.397,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.05,
+     "f": 0.125
+    },
+    {
+     "p": "sem",
+     "i": 0.125,
+     "f": 0.425
+    },
+    {
+     "p": "programar",
+     "i": 0.425,
+     "f": 1.012
+    },
+    {
+     "p": "Ferramentas",
+     "i": 1.35,
+     "f": 1.988
+    },
+    {
+     "p": "como",
+     "i": 1.988,
+     "f": 2.3
+    },
+    {
+     "p": "n8n",
+     "i": 2.3,
+     "f": 3.1
+    },
+    {
+     "p": "Make",
+     "i": 3.325,
+     "f": 3.75
+    },
+    {
+     "p": "e",
+     "i": 3.75,
+     "f": 3.825
+    },
+    {
+     "p": "Zapier",
+     "i": 3.825,
+     "f": 4.325
+    },
+    {
+     "p": "ligam",
+     "i": 4.325,
+     "f": 4.775
+    },
+    {
+     "p": "o",
+     "i": 4.775,
+     "f": 4.838
+    },
+    {
+     "p": "Claude",
+     "i": 4.838,
+     "f": 5.15
+    },
+    {
+     "p": "ao",
+     "i": 5.15,
+     "f": 5.213
+    },
+    {
+     "p": "seu",
+     "i": 5.213,
+     "f": 5.413
+    },
+    {
+     "p": "e-mail",
+     "i": 5.412,
+     "f": 5.912
+    },
+    {
+     "p": "ou",
+     "i": 5.912,
+     "f": 6.1
+    },
+    {
+     "p": "planilha",
+     "i": 6.1,
+     "f": 6.6
+    },
+    {
+     "p": "com",
+     "i": 6.6,
+     "f": 6.8
+    },
+    {
+     "p": "blocos",
+     "i": 6.8,
+     "f": 7.225
+    },
+    {
+     "p": "de",
+     "i": 7.225,
+     "f": 7.3
+    },
+    {
+     "p": "arrastar",
+     "i": 7.3,
+     "f": 7.787
+    },
+    {
+     "p": "Você",
+     "i": 8.125,
+     "f": 8.45
+    },
+    {
+     "p": "só",
+     "i": 8.45,
+     "f": 8.75
+    },
+    {
+     "p": "cola",
+     "i": 8.75,
+     "f": 9.075
+    },
+    {
+     "p": "a",
+     "i": 9.075,
+     "f": 9.1
+    },
+    {
+     "p": "chave",
+     "i": 9.1,
+     "f": 9.45
+    },
+    {
+     "p": "de",
+     "i": 9.45,
+     "f": 9.537
+    },
+    {
+     "p": "API",
+     "i": 9.537,
+     "f": 10.012
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "ac45eed4bc",
+   "texto": "O erro comum: colar a chave num código público, como o GitHub ou o seu site. Quem achar usa, e você paga. Guarde em variável de ambiente e, se vazar, apague a chave na hora.",
+   "audio": "audio/erro-comum-ac45eed4bc.mp3",
+   "duracao": 12.095,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.05,
+     "f": 0.213
+    },
+    {
+     "p": "erro",
+     "i": 0.212,
+     "f": 0.45
+    },
+    {
+     "p": "comum",
+     "i": 0.45,
+     "f": 0.887
+    },
+    {
+     "p": "colar",
+     "i": 1.125,
+     "f": 1.4
+    },
+    {
+     "p": "a",
+     "i": 1.4,
+     "f": 1.45
+    },
+    {
+     "p": "chave",
+     "i": 1.45,
+     "f": 1.837
+    },
+    {
+     "p": "num",
+     "i": 1.837,
+     "f": 1.987
+    },
+    {
+     "p": "código",
+     "i": 1.988,
+     "f": 2.388
+    },
+    {
+     "p": "público",
+     "i": 2.388,
+     "f": 2.9
+    },
+    {
+     "p": "como",
+     "i": 3.05,
+     "f": 3.237
+    },
+    {
+     "p": "o",
+     "i": 3.237,
+     "f": 3.262
+    },
+    {
+     "p": "GitHub",
+     "i": 3.263,
+     "f": 4.013
+    },
+    {
+     "p": "ou",
+     "i": 4.013,
+     "f": 4.175
+    },
+    {
+     "p": "o",
+     "i": 4.175,
+     "f": 4.212
+    },
+    {
+     "p": "seu",
+     "i": 4.213,
+     "f": 4.413
+    },
+    {
+     "p": "site",
+     "i": 4.412,
+     "f": 4.925
+    },
+    {
+     "p": "Quem",
+     "i": 5.275,
+     "f": 5.463
+    },
+    {
+     "p": "achar",
+     "i": 5.463,
+     "f": 5.863
+    },
+    {
+     "p": "usa",
+     "i": 5.862,
+     "f": 6.237
+    },
+    {
+     "p": "e",
+     "i": 6.4,
+     "f": 6.463
+    },
+    {
+     "p": "você",
+     "i": 6.463,
+     "f": 6.713
+    },
+    {
+     "p": "paga",
+     "i": 6.713,
+     "f": 7.15
+    },
+    {
+     "p": "Guarde",
+     "i": 7.5,
+     "f": 7.925
+    },
+    {
+     "p": "em",
+     "i": 7.925,
+     "f": 7.987
+    },
+    {
+     "p": "variável",
+     "i": 7.987,
+     "f": 8.537
+    },
+    {
+     "p": "de",
+     "i": 8.537,
+     "f": 8.637
+    },
+    {
+     "p": "ambiente",
+     "i": 8.637,
+     "f": 9.212
+    },
+    {
+     "p": "e",
+     "i": 9.213,
+     "f": 9.238
+    },
+    {
+     "p": "se",
+     "i": 9.537,
+     "f": 9.688
+    },
+    {
+     "p": "vazar",
+     "i": 9.688,
+     "f": 10.125
+    },
+    {
+     "p": "apague",
+     "i": 10.412,
+     "f": 10.825
+    },
+    {
+     "p": "a",
+     "i": 10.825,
+     "f": 10.862
+    },
+    {
+     "p": "chave",
+     "i": 10.863,
+     "f": 11.263
+    },
+    {
+     "p": "na",
+     "i": 11.262,
+     "f": 11.4
+    },
+    {
+     "p": "hora",
+     "i": 11.4,
+     "f": 11.7
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "cafb002fec",
+   "texto": "Pause o vídeo e tente: crie um workspace de teste no Console e defina um limite de cinco dólares.",
+   "audio": "audio/pratica-cafb002fec.mp3",
+   "duracao": 6.269,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.05,
+     "f": 0.388
+    },
+    {
+     "p": "o",
+     "i": 0.388,
+     "f": 0.438
+    },
+    {
+     "p": "vídeo",
+     "i": 0.438,
+     "f": 0.8
+    },
+    {
+     "p": "e",
+     "i": 0.8,
+     "f": 0.875
+    },
+    {
+     "p": "tente",
+     "i": 0.875,
+     "f": 1.262
+    },
+    {
+     "p": "crie",
+     "i": 1.525,
+     "f": 1.787
+    },
+    {
+     "p": "um",
+     "i": 1.788,
+     "f": 1.925
+    },
+    {
+     "p": "workspace",
+     "i": 1.925,
+     "f": 2.612
+    },
+    {
+     "p": "de",
+     "i": 2.612,
+     "f": 2.75
+    },
+    {
+     "p": "teste",
+     "i": 2.75,
+     "f": 3.087
+    },
+    {
+     "p": "no",
+     "i": 3.087,
+     "f": 3.175
+    },
+    {
+     "p": "Console",
+     "i": 3.175,
+     "f": 3.837
+    },
+    {
+     "p": "e",
+     "i": 3.837,
+     "f": 3.925
+    },
+    {
+     "p": "defina",
+     "i": 3.925,
+     "f": 4.3
+    },
+    {
+     "p": "um",
+     "i": 4.3,
+     "f": 4.35
+    },
+    {
+     "p": "limite",
+     "i": 4.35,
+     "f": 4.775
+    },
+    {
+     "p": "de",
+     "i": 4.775,
+     "f": 4.888
+    },
+    {
+     "p": "cinco",
+     "i": 4.888,
+     "f": 5.312
+    },
+    {
+     "p": "dólares",
+     "i": 5.312,
+     "f": 5.888
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "bff3d7f53b",
+   "texto": "Resumindo: app é assinatura, API é pagar por token. Crie a chave com limite de gasto. E nunca exponha a chave.",
+   "audio": "audio/resumo-bff3d7f53b.mp3",
+   "duracao": 8.307,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.05,
+     "f": 0.713
+    },
+    {
+     "p": "app",
+     "i": 0.963,
+     "f": 1.262
+    },
+    {
+     "p": "é",
+     "i": 1.262,
+     "f": 1.337
+    },
+    {
+     "p": "assinatura",
+     "i": 1.337,
+     "f": 2.037
+    },
+    {
+     "p": "API",
+     "i": 2.263,
+     "f": 2.812
+    },
+    {
+     "p": "é",
+     "i": 2.812,
+     "f": 2.888
+    },
+    {
+     "p": "pagar",
+     "i": 2.888,
+     "f": 3.25
+    },
+    {
+     "p": "por",
+     "i": 3.25,
+     "f": 3.413
+    },
+    {
+     "p": "token",
+     "i": 3.413,
+     "f": 3.888
+    },
+    {
+     "p": "Crie",
+     "i": 4.225,
+     "f": 4.462
+    },
+    {
+     "p": "a",
+     "i": 4.463,
+     "f": 4.55
+    },
+    {
+     "p": "chave",
+     "i": 4.55,
+     "f": 5.013
+    },
+    {
+     "p": "com",
+     "i": 5.013,
+     "f": 5.163
+    },
+    {
+     "p": "limite",
+     "i": 5.162,
+     "f": 5.587
+    },
+    {
+     "p": "de",
+     "i": 5.588,
+     "f": 5.675
+    },
+    {
+     "p": "gasto",
+     "i": 5.675,
+     "f": 6.162
+    },
+    {
+     "p": "E",
+     "i": 6.5,
+     "f": 6.6
+    },
+    {
+     "p": "nunca",
+     "i": 6.6,
+     "f": 7.012
+    },
+    {
+     "p": "exponha",
+     "i": 7.013,
+     "f": 7.413
+    },
+    {
+     "p": "a",
+     "i": 7.412,
+     "f": 7.425
+    },
+    {
+     "p": "chave",
+     "i": 7.425,
+     "f": 7.925
+    }
+   ]
+  },
+  "final": {
+   "hash": "472e829310",
+   "texto": "Quiz: sua chave apareceu num repositório público. O que fazer primeiro? Um: apagar a chave e criar outra. Dois: esperar ninguém notar. A resposta é um: chave exposta é chave comprometida. Próxima aula: chamada à API em Python.",
+   "audio": "audio/final-472e829310.mp3",
+   "duracao": 17.084,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.062,
+     "f": 0.463
+    },
+    {
+     "p": "sua",
+     "i": 0.713,
+     "f": 0.963
+    },
+    {
+     "p": "chave",
+     "i": 0.963,
+     "f": 1.337
+    },
+    {
+     "p": "apareceu",
+     "i": 1.337,
+     "f": 1.887
+    },
+    {
+     "p": "num",
+     "i": 1.887,
+     "f": 2
+    },
+    {
+     "p": "repositório",
+     "i": 2,
+     "f": 2.7
+    },
+    {
+     "p": "público",
+     "i": 2.7,
+     "f": 3.188
+    },
+    {
+     "p": "O",
+     "i": 3.525,
+     "f": 3.625
+    },
+    {
+     "p": "que",
+     "i": 3.625,
+     "f": 3.812
+    },
+    {
+     "p": "fazer",
+     "i": 3.812,
+     "f": 4.2
+    },
+    {
+     "p": "primeiro",
+     "i": 4.2,
+     "f": 4.737
+    },
+    {
+     "p": "Um",
+     "i": 5.088,
+     "f": 5.425
+    },
+    {
+     "p": "apagar",
+     "i": 5.7,
+     "f": 6.138
+    },
+    {
+     "p": "a",
+     "i": 6.138,
+     "f": 6.175
+    },
+    {
+     "p": "chave",
+     "i": 6.175,
+     "f": 6.825
+    },
+    {
+     "p": "e",
+     "i": 6.825,
+     "f": 6.9
+    },
+    {
+     "p": "criar",
+     "i": 6.9,
+     "f": 7.25
+    },
+    {
+     "p": "outra",
+     "i": 7.25,
+     "f": 7.65
+    },
+    {
+     "p": "Dois",
+     "i": 7.987,
+     "f": 8.525
+    },
+    {
+     "p": "esperar",
+     "i": 8.787,
+     "f": 9.312
+    },
+    {
+     "p": "ninguém",
+     "i": 9.312,
+     "f": 9.775
+    },
+    {
+     "p": "notar",
+     "i": 9.775,
+     "f": 10.162
+    },
+    {
+     "p": "A",
+     "i": 10.5,
+     "f": 10.613
+    },
+    {
+     "p": "resposta",
+     "i": 10.613,
+     "f": 11.15
+    },
+    {
+     "p": "é",
+     "i": 11.15,
+     "f": 11.2
+    },
+    {
+     "p": "um",
+     "i": 11.2,
+     "f": 11.412
+    },
+    {
+     "p": "chave",
+     "i": 11.688,
+     "f": 11.988
+    },
+    {
+     "p": "exposta",
+     "i": 11.988,
+     "f": 12.463
+    },
+    {
+     "p": "é",
+     "i": 12.463,
+     "f": 12.488
+    },
+    {
+     "p": "chave",
+     "i": 12.488,
+     "f": 12.875
+    },
+    {
+     "p": "comprometida",
+     "i": 12.875,
+     "f": 13.65
+    },
+    {
+     "p": "Próxima",
+     "i": 14,
+     "f": 14.488
+    },
+    {
+     "p": "aula",
+     "i": 14.488,
+     "f": 14.763
+    },
+    {
+     "p": "chamada",
+     "i": 14.988,
+     "f": 15.463
+    },
+    {
+     "p": "à",
+     "i": 15.463,
+     "f": 15.5
+    },
+    {
+     "p": "API",
+     "i": 15.5,
+     "f": 16.062
+    },
+    {
+     "p": "em",
+     "i": 16.062,
+     "f": 16.225
+    },
+    {
+     "p": "Python",
+     "i": 16.225,
+     "f": 16.7
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "anthropic": {
+   "arquivo": "",
+   "rotulo": "Anthropic",
+   "wiki": "Anthropic"
+  },
+  "zapier": {
+   "arquivo": "",
+   "rotulo": "Zapier",
+   "wiki": "Zapier"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.944Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Anthropic — Preços dos modelos (Claude Docs)",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "titulo": "Anthropic — Workspaces no Console",
+   "url": "https://claude.com/resources/articles/workspaces"
+  },
+  {
+   "titulo": "Anthropic — Limites de gasto (referência da API)",
+   "url": "https://platform.claude.com/docs/en/api/cli/beta/organization/spend_limits.md"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "comparacao"
  }
 }
