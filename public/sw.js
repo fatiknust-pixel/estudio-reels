@@ -2,7 +2,7 @@
 // - Página: rede primeiro (pega a versão nova), cache se offline.
 // - Arquivos com hash (assets/), fontes e sons: cache primeiro.
 // - GitHub (api/uploads) nunca passa pelo cache.
-const CACHE = "estudio-reels-v1";
+const CACHE = "estudio-reels-v2";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./manifest.webmanifest", "./icones/icone.svg"])).then(() => self.skipWaiting()));
@@ -22,7 +22,7 @@ self.addEventListener("fetch", (e) => {
 
   if (req.mode === "navigate") {
     e.respondWith(
-      fetch(req)
+      fetch(req, { cache: "no-cache" }) // ignora o cache HTTP (Pages guarda 10 min) para ver a versão nova na hora
         .then((r) => {
           const copia = r.clone();
           caches.open(CACHE).then((c) => c.put("./", copia));
