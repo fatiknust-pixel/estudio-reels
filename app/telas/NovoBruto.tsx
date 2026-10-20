@@ -35,6 +35,7 @@ export const NovoBruto: React.FC = () => {
   const [limite, setLimite] = useState(0.5);
   const [modelo, setModelo] = useState<"medium" | "small">("medium");
   const [ia, setIa] = useState(true);
+  const [formato, setFormato] = useState<"9:16" | "16:9">("9:16");
   const [fase, setFase] = useState<{ texto: string; fracao?: number } | null>(null);
   const token = temToken();
 
@@ -53,7 +54,7 @@ export const NovoBruto: React.FC = () => {
   const criar = async () => {
     if (!arquivo || !meta) return;
     const id = novoIdProjeto("v");
-    const p = projetoBruto(id, titulo.trim() || "Meu vídeo", estilo, meta, { cortarPausas, limitePausa: limite, idioma: "pt", modelo, ia });
+    const p = projetoBruto(id, titulo.trim() || "Meu vídeo", estilo, meta, { cortarPausas, limitePausa: limite, idioma: "pt", modelo, ia }, formato);
     try {
       await criarBruto(p, arquivo, meta.tocavel, (texto, fracao) => setFase({ texto, fracao }));
       ir(`/editor/${id}`);
@@ -93,6 +94,12 @@ export const NovoBruto: React.FC = () => {
       )}
       {arquivo && arquivo.size > 1.5 * 1024 ** 3 && <div className="aviso erro">Vídeo muito grande (máx. ~1,5 GB). Exporte do celular em resolução menor.</div>}
       {meta && meta.duracao > 600 && <div className="aviso">Vídeo longo ({fmtTempo(meta.duracao, false)}): o envio e a transcrição vão demorar mais.</div>}
+
+      <h2>Formato</h2>
+      <Escolha opcoes={[["9:16", "📱 Vertical 9:16 (Reels, TikTok, Shorts)"], ["16:9", "🖥️ Horizontal 16:9 (YouTube)"]]} valor={formato} mudar={setFormato} />
+      {meta && meta.duracao > 0 && (meta.largura > meta.altura) !== (formato === "16:9") && (
+        <p className="pequeno suave">O vídeo foi gravado {meta.largura > meta.altura ? "deitado" : "em pé"}: no {formato} ele preenche a tela cortando as bordas (dá para trocar por "inteiro + fundo desfocado" no editor).</p>
+      )}
 
       <h2>Estilo</h2>
       <div className="estilos">

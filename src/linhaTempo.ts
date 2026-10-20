@@ -10,7 +10,9 @@ export const ALTURA = 1920;
 // e a legenda na coluna da esquerda.
 export type Quadro = { largura: number; altura: number; horizontal: boolean; palco: { x: number; y: number; escala: number } | null; texto: number };
 export const quadroDe = (p: Projeto): Quadro => {
-  if (p.modo !== "ia" || p.formato !== "16:9") return { largura: LARGURA, altura: ALTURA, horizontal: false, palco: null, texto: LARGURA };
+  if (p.formato !== "16:9") return { largura: LARGURA, altura: ALTURA, horizontal: false, palco: null, texto: LARGURA };
+  // vídeo bruto deitado: o quadro todo é do vídeo, legenda centralizada embaixo
+  if (p.modo === "bruto") return { largura: ALTURA, altura: LARGURA, horizontal: true, palco: null, texto: ALTURA };
   const escala = 870 / 1260;
   const x = ALTURA - LARGURA * escala - 40;
   return { largura: ALTURA, altura: LARGURA, horizontal: true, palco: { x, y: 130 - 190 * escala, escala }, texto: x };
@@ -28,6 +30,7 @@ export type CenaTempo = {
   texto: string;
   audio?: string;
   fundo?: string;
+  galeria?: string[];
   fontes: string[];
   palavras: PalavraTempo[]; // frames relativos à cena
   elementos: ElementoTempo[];
@@ -156,7 +159,7 @@ const linhaIA = (p: Projeto): LinhaTempo => {
     }
     const cena: CenaTempo = {
       id: c.id, indice, inicio: cursor, duracao, texto: c.texto, audio: n?.audio,
-      fundo: c.fundo, fontes: c.fontes ?? [], palavras, elementos: base,
+      fundo: c.fundo, galeria: c.galeria, fontes: c.fontes ?? [], palavras, elementos: base,
     };
     cursor += duracao;
     return cena;

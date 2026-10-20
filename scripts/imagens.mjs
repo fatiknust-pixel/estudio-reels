@@ -21,7 +21,7 @@ const limparHtml = (s = "") => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").tr
 async function infoArquivo(titulo) {
   const j = await api("commons.wikimedia.org", {
     action: "query", titles: titulo.startsWith("File:") ? titulo : `File:${titulo}`,
-    prop: "imageinfo", iiprop: "url|extmetadata|mime", iiurlwidth: "1080",
+    prop: "imageinfo", iiprop: "url|extmetadata|mime", iiurlwidth: LARGURA_FOTO,
   });
   const p = j.query?.pages?.[0];
   const ii = p?.imageinfo?.[0];
@@ -47,6 +47,8 @@ async function viaCommons(busca) {
 }
 
 const p = JSON.parse(fs.readFileSync(arq, "utf8"));
+// fotos na largura do quadro: 1920 px no horizontal (16:9), 1080 px no vertical
+const LARGURA_FOTO = p.formato === "16:9" ? "1920" : "1080";
 fs.mkdirSync(path.join(midia, "imagens"), { recursive: true });
 let falhas = 0;
 for (const [chave, cfg] of Object.entries(p.imagens ?? {})) {

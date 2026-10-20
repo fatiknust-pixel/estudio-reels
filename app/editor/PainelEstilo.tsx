@@ -2,7 +2,8 @@ import React from "react";
 import { FONTES } from "../../src/fontes";
 import { TEMAS } from "../../src/temas";
 import CATALOGO from "../../src/estilos-ia.json";
-import { EstiloIA } from "../../src/tipos";
+import { EstiloIA, LEGENDA_PADRAO } from "../../src/tipos";
+import { LEGENDA_HORIZONTAL } from "../lib/projetos";
 import { ESTILOS } from "../estilos";
 import { DINAMICAS } from "../estilosIA";
 import { Alternar, Deslizar, Escolha } from "../ui";
@@ -89,6 +90,19 @@ export const PainelEstilo: React.FC = () => {
         </>
       )}
 
+      <h3>Formato do vídeo</h3>
+      <Escolha
+        opcoes={[["9:16", "📱 Vertical 9:16"], ["16:9", "🖥️ Horizontal 16:9"]]}
+        valor={p.formato ?? "9:16"}
+        mudar={(v) => alterar((x) => {
+          if ((x.formato ?? "9:16") === v) return;
+          x.formato = v as "9:16" | "16:9";
+          // ajusta a legenda ao novo quadro
+          Object.assign(x.legenda, v === "16:9" ? LEGENDA_HORIZONTAL : { posicao: LEGENDA_PADRAO.posicao, tamanho: Math.max(x.legenda.tamanho, LEGENDA_PADRAO.tamanho) });
+        })}
+      />
+      <p className="pequeno suave">Vertical para Reels, TikTok e Shorts; horizontal para YouTube. A prévia e o MP4 exportado seguem o formato.</p>
+
       <h3>Tema de cores</h3>
       <div className="temas">
         {Object.entries(TEMAS).map(([k, t]) => (
@@ -126,13 +140,13 @@ export const PainelEstilo: React.FC = () => {
       {p.modo === "bruto" && p.video && (
         <>
           <h3>Vídeo</h3>
-          <label className="campo"><span>Enquadramento (para vídeo deitado)</span>
-            <Escolha opcoes={[["preencher", "Preencher 9:16"], ["ajustar", "Inteiro + fundo desfocado"]]} valor={p.video.enquadramento} mudar={(v) => alterar((x) => { x.video!.enquadramento = v; })} />
+          <label className="campo"><span>Enquadramento (quando o vídeo e o quadro têm orientações diferentes)</span>
+            <Escolha opcoes={[["preencher", `Preencher ${p.formato === "16:9" ? "16:9" : "9:16"}`], ["ajustar", "Inteiro + fundo desfocado"]]} valor={p.video.enquadramento} mudar={(v) => alterar((x) => { x.video!.enquadramento = v; })} />
           </label>
           {p.video.enquadramento === "preencher" && !!p.video.foco?.length && (
             <Alternar rotulo="Seguir o rosto automaticamente" valor={p.video.seguirRosto !== false} mudar={(v) => alterar((x) => { x.video!.seguirRosto = v; })} />
           )}
-          {p.video.enquadramento === "preencher" && p.video.largura > p.video.altura * 0.75 && (p.video.seguirRosto === false || !p.video.foco?.length) && (
+          {p.video.enquadramento === "preencher" && p.video.largura > p.video.altura * (p.formato === "16:9" ? 1.78 : 0.75) && (p.video.seguirRosto === false || !p.video.foco?.length) && (
             <Deslizar rotulo="Foco horizontal" valor={p.video.focoX} min={0} max={100} mudar={(v) => alterar((x) => { x.video!.focoX = v; }, "foco")} fmt={(v) => `${v}%`} />
           )}
           <Deslizar rotulo="Volume do vídeo" valor={Math.round(p.video.volume * 100)} min={0} max={150} mudar={(v) => alterar((x) => { x.video!.volume = v / 100; }, "vol")} fmt={(v) => `${v}%`} />

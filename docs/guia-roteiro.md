@@ -125,6 +125,23 @@ acompanhe sem se entediar**, sem perder a seriedade: ritmo de Reels, conteúdo d
 - `formato`: `explicativo` por padrão; `comparacao` quando a aula compara (ex.: modelos, planos);
   `lista` quando o briefing enumera itens; `mito-verdade` quando a aula é sobre erros e limites.
 
+## Gêneros (canal dark) — quando existir `pedido.genero`
+
+O app tem modelos de "canal dark" (vídeo narrado, sem rosto: documentário, história, biografia,
+mistérios, curiosidades, ranking, ciência, lugares, mitologia, terror, economia, geopolítica,
+tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
+- **Siga `pedido.genero.instrucoes`** — elas valem mais que as regras gerais de estrutura deste guia
+  (ex.: num documentário longo não precisa de enquete; feche com o convite para se inscrever).
+- O formato do quadro está em `projeto.formato` (`16:9` = YouTube, horizontal; `9:16` = vertical) e a
+  duração em `pedido.duracao`. Vídeos longos (5–12 min) pedem 12 a 30 cenas de 20–40 s cada.
+- Se `pedido.genero.galeria` for `true`, é um vídeo **guiado por imagens**: cada cena tem o campo
+  `"galeria": ["chave1", "chave2", "chave3"]` com 2 a 4 fotos que se sucedem (com fusão e movimento de
+  câmera) enquanto o narrador fala. Escolha fotos variadas e do assunto exato daquele trecho (lugar,
+  pessoa, mapa, época, objeto), sem repetir chaves entre cenas. O `imagens.json` terá então 15 a 40
+  imagens (a regra geral de 4 a 9 não vale). `fundo` pode ficar vazio quando houver `galeria`.
+- Prefira acervos livres e confiáveis do Wikimedia Commons (fotos oficiais, NASA/ESA, museus, arquivos
+  históricos em domínio público). Nunca use imagens com direitos autorais.
+
 ## Formato do `roteiro.json`
 
 ```json
@@ -139,6 +156,7 @@ acompanhe sem se entediar**, sem perder a seriedade: ritmo de Reels, conteúdo d
       "id": "gancho",
       "texto": "O que a voz fala nesta cena (vira a narração e a legenda).",
       "fundo": "chave-da-imagem",
+      "galeria": ["chave-1", "chave-2"],
       "fontes": ["Fonte curta"],
       "elementos": [
         { "tipo": "pergunta", "texto": "INOCENTADO?", "em": "inocentado", "posicao": "alto" }
@@ -150,6 +168,7 @@ acompanhe sem se entediar**, sem perder a seriedade: ritmo de Reels, conteúdo d
 
 - `id`: curto, minúsculas e hífens, único (`gancho`, `contexto`, `numeros`, `final`…).
 - `fundo`: chave de uma imagem do `imagens.json` (ou omita para fundo animado).
+- `galeria` (opcional): 2 a 4 chaves do `imagens.json` que se sucedem na cena (estilo documentário).
 - `em`: a palavra **exata do `texto` da cena** em que o elemento aparece (ou `0` = início da cena).
 - `posicao`: `topo`, `alto`, `alto2`, `meio`, `meio2` (de cima para baixo). Um elemento sai quando
   outro (que não seja `carimbo`) entra na mesma posição. A legenda fica embaixo — não use `meio2`
