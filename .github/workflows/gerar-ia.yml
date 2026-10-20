@@ -13,10 +13,16 @@ on:
         description: "id do projeto (pasta em projetos/)"
         required: true
         type: string
+      ignorar_bloqueio:
+        description: "Gerar mesmo com falhas seguidas (use depois de corrigir o problema)"
+        required: false
+        default: "false"
+        type: string
 
 permissions:
   contents: write
   id-token: write
+  actions: read
 
 concurrency:
   group: ia-${{ inputs.projeto }}
@@ -42,6 +48,25 @@ jobs:
             echo "::error::Falta o segredo CLAUDE_CODE_OAUTH_TOKEN (rode 'claude setup-token' e salve em Settings → Secrets → Actions)"; exit 1
           fi
           rm -f "projetos/$ID/roteiro.json" "projetos/$ID/imagens.json"
+
+      - name: Disjuntor (para se as últimas gerações falharam)
+        if: inputs.ignorar_bloqueio != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Se as 3 últimas execuções terminadas falharam há menos de 30 min, o problema se repete:
+          # para aqui, antes de gastar com o Claude. Passou 30 min ou corrigiu? Gere de novo (ou marque ignorar_bloqueio).
+          runs=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/gerar-ia.yml/runs?status=completed&per_page=3" \
+            --jq '[.workflow_runs[] | {c: .conclusion, t: .updated_at}]')
+          total=$(jq length <<< "$runs")
+          falhas=$(jq '[.[] | select(.c == "failure")] | length' <<< "$runs")
+          if [ "$total" -eq 3 ] && [ "$falhas" -eq 3 ]; then
+            idade=$(( $(date +%s) - $(date -d "$(jq -r '.[0].t' <<< "$runs")" +%s) ))
+            if [ "$idade" -lt 1800 ]; then
+              echo "::error::As 3 últimas gerações falharam (a última há $((idade / 60)) min). Parei antes de gastar com o Claude. Veja o log de uma delas, corrija, e gere de novo depois de 30 min (ou marque ignorar_bloqueio)."
+              exit 1
+            fi
+          fi
 
       - uses: actions/setup-node@v4
         with:
