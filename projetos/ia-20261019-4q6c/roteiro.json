@@ -1,0 +1,93 @@
+{
+  "titulo": "Aula 8.2: Privacidade, LGPD e IA",
+  "estilo": { "dinamica": "energetica", "legenda": "caixa", "transicao": "deslize", "fundo": "grade",
+              "musica": "leve", "formato": "mito-verdade", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Planalto — Lei 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm" },
+    { "titulo": "ANPD — Autoridade Nacional de Proteção de Dados", "url": "https://www.gov.br/anpd/pt-br" },
+    { "titulo": "Anthropic — Updates to our consumer terms", "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você já colou o nome de um cliente num chat de IA? Isso pode ser um erro caro. Pela LGPD, a multa chega a 50 milhões de reais por infração.",
+      "fontes": ["LGPD — art. 52"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "COLOU O NOME?", "em": "cliente", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "ERRO CARO", "cor": "vermelho", "em": "erro", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 50, "unidade": "milhões de reais", "rotulo": "multa máxima por infração", "em": "50", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Na aula 8.2, você vai aprender três coisas: quando a LGPD vale para IA, o que nunca colar num chat, e como anonimizar dados e avisar quando algo foi feito com IA.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PRIVACIDADE E IA", "sub": "AULA 8.2", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["escudo", "Quando a LGPD vale"], ["cadeado", "O que não colar"], ["pessoa", "Anonimizar"]], "em": "três", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conceito",
+      "texto": "LGPD é a Lei Geral de Proteção de Dados, de 2018. Ela vale quando você trata dados pessoais, ou seja, qualquer informação que identifique uma pessoa. Colar esses dados num chat de IA já é tratar dados.",
+      "fontes": ["Lei 13.709/2018"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "LGPD", "sub": "Lei 13.709 · 2018", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Dado pessoal", "significado": "Informação que identifica uma pessoa", "em": "pessoais", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "Colar no chat é tratar dados", "nota": "A LGPD se aplica", "em": "Colar", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "analogia",
+      "texto": "Pense no chat de IA como um balcão de atendimento. Tudo o que você diz ali sai da sua mesa e vai para a empresa do serviço. Por isso, nunca cole senhas, CPF, dados de saúde ou contratos sigilosos.",
+      "elementos": [
+        { "tipo": "mapa", "de": "Sua mesa", "para": "Empresa da IA", "legenda": "o que você cola viaja", "em": "balcão", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["cadeado", "Senhas"], ["documento", "CPF"], ["cruz", "Saúde"]], "em": "senhas", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "NUNCA COLE", "cor": "vermelho", "em": "nunca", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "exemplo",
+      "texto": "Para anonimizar, troque nomes por códigos. Em vez de Maria Souza, escreva Cliente A. Guarde a tabela de códigos só com você. Depois, revise nas configurações se sua conta deixa a IA treinar com suas conversas.",
+      "fontes": ["Anthropic — termos 2025"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ANONIMIZAR", "sub": "nomes viram códigos", "em": 0, "posicao": "topo" },
+        { "tipo": "comentario", "texto": "Resuma a reclamação do Cliente A", "em": "Cliente", "posicao": "meio" },
+        { "tipo": "tag", "texto": "REVISE O TREINAMENTO", "icone": "engrenagem", "em": "configurações", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "erro-comum",
+      "texto": "Erro comum: achar que tirar só o nome basta. Endereço, cargo raro e data de nascimento ainda identificam. E aviso: conteúdo feito com IA deve ser identificado como tal, por transparência.",
+      "elementos": [
+        { "tipo": "carimbo", "texto": "ERRO COMUM", "cor": "vermelho", "em": "Erro", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "Tirar só o nome basta", "nota": "Outros dados identificam", "em": "Endereço", "posicao": "meio" },
+        { "tipo": "tag", "texto": "AVISE: FEITO COM IA", "icone": "robo", "em": "aviso", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "pratica",
+      "texto": "Pause o vídeo e tente: pegue um e-mail real do seu trabalho, troque todos os dados pessoais por códigos e confira se alguém ainda seria identificado.",
+      "elementos": [
+        { "tipo": "tag", "texto": "PAUSE E TENTE", "icone": "alvo", "cor": "amarelo", "em": 0, "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "AINDA IDENTIFICA?", "em": "alguém", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "resumo",
+      "texto": "Resumindo: um, a LGPD vale quando há dados de pessoas. Dois, nunca cole dados sensíveis e troque nomes por códigos. Três, revise o treinamento da conta e avise quando for feito com IA.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["escudo", "LGPD vale"], ["cadeado", "Códigos"], ["robo", "Avise"]], "em": "um", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Quiz: posso colar a lista de clientes com nomes num chat pessoal? Pense dois segundos. A resposta é não: troque os nomes por códigos antes. Siga a série e veja, na próxima aula, as leis de IA na Europa e no Brasil.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Colar a lista com nomes?", "opcoes": ["1 · Pode", "2 · Não pode"], "em": "Quiz", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "PRÓXIMA: AULA 8.3", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

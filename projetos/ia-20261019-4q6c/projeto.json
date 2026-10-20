@@ -1,23 +1,23 @@
 {
  "versao": 1,
  "id": "ia-20261019-4q6c",
- "titulo": "Aula 8.2: Privacidade, LGPD e uso responsável de IA — explique quando ",
+ "titulo": "Aula 8.2: Privacidade, LGPD e IA",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "oceano",
  "criadoEm": "2026-10-19T22:26:17.945Z",
- "atualizadoEm": "2026-10-19T22:26:17.945Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-20T03:11:47Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
   "mostrar": true
  },
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Aula 8.2: Privacidade, LGPD e uso responsável de IA — explique quando a LGPD se aplica ao uso de IA, o que nunca colar num chat, como anonimizar dados trocando nomes por códigos, revisar as configurações de treinamento da conta e por que avisar quando um conteúdo foi feito com IA",
@@ -64,11 +65,1901 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você já colou o nome de um cliente num chat de IA? Isso pode ser um erro caro. Pela LGPD, a multa chega a 50 milhões de reais por infração.",
+   "fontes": [
+    "LGPD — art. 52"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "COLOU O NOME?",
+     "em": "cliente",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO CARO",
+     "cor": "vermelho",
+     "em": "erro",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 50,
+     "unidade": "milhões de reais",
+     "rotulo": "multa máxima por infração",
+     "em": "50",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Na aula 8.2, você vai aprender três coisas: quando a LGPD vale para IA, o que nunca colar num chat, e como anonimizar dados e avisar quando algo foi feito com IA.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PRIVACIDADE E IA",
+     "sub": "AULA 8.2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "escudo",
+       "Quando a LGPD vale"
+      ],
+      [
+       "cadeado",
+       "O que não colar"
+      ],
+      [
+       "pessoa",
+       "Anonimizar"
+      ]
+     ],
+     "em": "três",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conceito",
+   "texto": "LGPD é a Lei Geral de Proteção de Dados, de 2018. Ela vale quando você trata dados pessoais, ou seja, qualquer informação que identifique uma pessoa. Colar esses dados num chat de IA já é tratar dados.",
+   "fontes": [
+    "Lei 13.709/2018"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "LGPD",
+     "sub": "Lei 13.709 · 2018",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Dado pessoal",
+     "significado": "Informação que identifica uma pessoa",
+     "em": "pessoais",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Colar no chat é tratar dados",
+     "nota": "A LGPD se aplica",
+     "em": "Colar",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "analogia",
+   "texto": "Pense no chat de IA como um balcão de atendimento. Tudo o que você diz ali sai da sua mesa e vai para a empresa do serviço. Por isso, nunca cole senhas, CPF, dados de saúde ou contratos sigilosos.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "mapa",
+     "de": "Sua mesa",
+     "para": "Empresa da IA",
+     "legenda": "o que você cola viaja",
+     "em": "balcão",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "cadeado",
+       "Senhas"
+      ],
+      [
+       "documento",
+       "CPF"
+      ],
+      [
+       "cruz",
+       "Saúde"
+      ]
+     ],
+     "em": "senhas",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NUNCA COLE",
+     "cor": "vermelho",
+     "em": "nunca",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "exemplo",
+   "texto": "Para anonimizar, troque nomes por códigos. Em vez de Maria Souza, escreva Cliente A. Guarde a tabela de códigos só com você. Depois, revise nas configurações se sua conta deixa a IA treinar com suas conversas.",
+   "fontes": [
+    "Anthropic — termos 2025"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ANONIMIZAR",
+     "sub": "nomes viram códigos",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Resuma a reclamação do Cliente A",
+     "em": "Cliente",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "REVISE O TREINAMENTO",
+     "icone": "engrenagem",
+     "em": "configurações",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "erro-comum",
+   "texto": "Erro comum: achar que tirar só o nome basta. Endereço, cargo raro e data de nascimento ainda identificam. E aviso: conteúdo feito com IA deve ser identificado como tal, por transparência.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "ERRO COMUM",
+     "cor": "vermelho",
+     "em": "Erro",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Tirar só o nome basta",
+     "nota": "Outros dados identificam",
+     "em": "Endereço",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "tag",
+     "texto": "AVISE: FEITO COM IA",
+     "icone": "robo",
+     "em": "aviso",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "pratica",
+   "texto": "Pause o vídeo e tente: pegue um e-mail real do seu trabalho, troque todos os dados pessoais por códigos e confira se alguém ainda seria identificado.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PAUSE E TENTE",
+     "icone": "alvo",
+     "cor": "amarelo",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "AINDA IDENTIFICA?",
+     "em": "alguém",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Resumindo: um, a LGPD vale quando há dados de pessoas. Dois, nunca cole dados sensíveis e troque nomes por códigos. Três, revise o treinamento da conta e avise quando for feito com IA.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "escudo",
+       "LGPD vale"
+      ],
+      [
+       "cadeado",
+       "Códigos"
+      ],
+      [
+       "robo",
+       "Avise"
+      ]
+     ],
+     "em": "um",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Quiz: posso colar a lista de clientes com nomes num chat pessoal? Pense dois segundos. A resposta é não: troque os nomes por códigos antes. Siga a série e veja, na próxima aula, as leis de IA na Europa e no Brasil.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Colar a lista com nomes?",
+     "opcoes": [
+      "1 · Pode",
+      "2 · Não pode"
+     ],
+     "em": "Quiz",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "PRÓXIMA: AULA 8.3",
+     "em": "Siga",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "f21e7a39f7",
+   "texto": "Você já colou o nome de um cliente num chat de IA? Isso pode ser um erro caro. Pela LGPD, a multa chega a 50 milhões de reais por infração.",
+   "audio": "audio/gancho-f21e7a39f7.mp3",
+   "duracao": 10.841,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.05,
+     "f": 0.325
+    },
+    {
+     "p": "já",
+     "i": 0.325,
+     "f": 0.475
+    },
+    {
+     "p": "colou",
+     "i": 0.475,
+     "f": 0.9
+    },
+    {
+     "p": "o",
+     "i": 0.9,
+     "f": 0.925
+    },
+    {
+     "p": "nome",
+     "i": 0.925,
+     "f": 1.25
+    },
+    {
+     "p": "de",
+     "i": 1.25,
+     "f": 1.325
+    },
+    {
+     "p": "um",
+     "i": 1.325,
+     "f": 1.387
+    },
+    {
+     "p": "cliente",
+     "i": 1.387,
+     "f": 1.862
+    },
+    {
+     "p": "num",
+     "i": 1.863,
+     "f": 1.975
+    },
+    {
+     "p": "chat",
+     "i": 1.975,
+     "f": 2.388
+    },
+    {
+     "p": "de",
+     "i": 2.388,
+     "f": 2.463
+    },
+    {
+     "p": "IA",
+     "i": 2.462,
+     "f": 3.862
+    },
+    {
+     "p": "Isso",
+     "i": 4.2,
+     "f": 4.463
+    },
+    {
+     "p": "pode",
+     "i": 4.463,
+     "f": 4.7
+    },
+    {
+     "p": "ser",
+     "i": 4.7,
+     "f": 4.888
+    },
+    {
+     "p": "um",
+     "i": 4.888,
+     "f": 5.038
+    },
+    {
+     "p": "erro",
+     "i": 5.037,
+     "f": 5.3
+    },
+    {
+     "p": "caro",
+     "i": 5.3,
+     "f": 5.662
+    },
+    {
+     "p": "Pela",
+     "i": 6,
+     "f": 6.3
+    },
+    {
+     "p": "LGPD",
+     "i": 6.3,
+     "f": 7.15
+    },
+    {
+     "p": "a",
+     "i": 7.4,
+     "f": 7.463
+    },
+    {
+     "p": "multa",
+     "i": 7.463,
+     "f": 7.875
+    },
+    {
+     "p": "chega",
+     "i": 7.875,
+     "f": 8.137
+    },
+    {
+     "p": "a",
+     "i": 8.137,
+     "f": 8.15
+    },
+    {
+     "p": "50 milhões",
+     "i": 8.15,
+     "f": 9.2
+    },
+    {
+     "p": "de",
+     "i": 9.2,
+     "f": 9.287
+    },
+    {
+     "p": "reais",
+     "i": 9.287,
+     "f": 9.675
+    },
+    {
+     "p": "por",
+     "i": 9.675,
+     "f": 9.812
+    },
+    {
+     "p": "infração",
+     "i": 9.812,
+     "f": 10.438
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "081613d49c",
+   "texto": "Na aula 8.2, você vai aprender três coisas: quando a LGPD vale para IA, o que nunca colar num chat, e como anonimizar dados e avisar quando algo foi feito com IA.",
+   "audio": "audio/promessa-081613d49c.mp3",
+   "duracao": 13.061,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.05,
+     "f": 0.2
+    },
+    {
+     "p": "aula",
+     "i": 0.2,
+     "f": 0.512
+    },
+    {
+     "p": "8.2",
+     "i": 0.512,
+     "f": 1.475
+    },
+    {
+     "p": "você",
+     "i": 1.625,
+     "f": 1.8
+    },
+    {
+     "p": "vai",
+     "i": 1.8,
+     "f": 1.925
+    },
+    {
+     "p": "aprender",
+     "i": 1.925,
+     "f": 2.362
+    },
+    {
+     "p": "três",
+     "i": 2.362,
+     "f": 2.688
+    },
+    {
+     "p": "coisas",
+     "i": 2.688,
+     "f": 3.212
+    },
+    {
+     "p": "quando",
+     "i": 3.425,
+     "f": 3.612
+    },
+    {
+     "p": "a",
+     "i": 3.612,
+     "f": 3.7
+    },
+    {
+     "p": "LGPD",
+     "i": 3.7,
+     "f": 4.438
+    },
+    {
+     "p": "vale",
+     "i": 4.438,
+     "f": 4.812
+    },
+    {
+     "p": "para",
+     "i": 4.812,
+     "f": 4.975
+    },
+    {
+     "p": "IA",
+     "i": 4.975,
+     "f": 6.275
+    },
+    {
+     "p": "o",
+     "i": 6.45,
+     "f": 6.513
+    },
+    {
+     "p": "que",
+     "i": 6.513,
+     "f": 6.638
+    },
+    {
+     "p": "nunca",
+     "i": 6.638,
+     "f": 7.088
+    },
+    {
+     "p": "colar",
+     "i": 7.088,
+     "f": 7.4
+    },
+    {
+     "p": "num",
+     "i": 7.4,
+     "f": 7.538
+    },
+    {
+     "p": "chat",
+     "i": 7.537,
+     "f": 8.037
+    },
+    {
+     "p": "e",
+     "i": 8.188,
+     "f": 8.287
+    },
+    {
+     "p": "como",
+     "i": 8.287,
+     "f": 8.512
+    },
+    {
+     "p": "anonimizar",
+     "i": 8.512,
+     "f": 9.112
+    },
+    {
+     "p": "dados",
+     "i": 9.113,
+     "f": 9.575
+    },
+    {
+     "p": "e",
+     "i": 9.575,
+     "f": 9.7
+    },
+    {
+     "p": "avisar",
+     "i": 9.7,
+     "f": 10.137
+    },
+    {
+     "p": "quando",
+     "i": 10.137,
+     "f": 10.475
+    },
+    {
+     "p": "algo",
+     "i": 10.475,
+     "f": 10.75
+    },
+    {
+     "p": "foi",
+     "i": 10.75,
+     "f": 10.938
+    },
+    {
+     "p": "feito",
+     "i": 10.938,
+     "f": 11.287
+    },
+    {
+     "p": "com",
+     "i": 11.287,
+     "f": 11.412
+    },
+    {
+     "p": "IA",
+     "i": 11.412,
+     "f": 12.675
+    }
+   ]
+  },
+  "conceito": {
+   "hash": "b8aeb6e9c5",
+   "texto": "LGPD é a Lei Geral de Proteção de Dados, de 2018. Ela vale quando você trata dados pessoais, ou seja, qualquer informação que identifique uma pessoa. Colar esses dados num chat de IA já é tratar dados.",
+   "audio": "audio/conceito-b8aeb6e9c5.mp3",
+   "duracao": 15.203,
+   "palavras": [
+    {
+     "p": "LGPD",
+     "i": 0.05,
+     "f": 0.875
+    },
+    {
+     "p": "é",
+     "i": 0.875,
+     "f": 1.025
+    },
+    {
+     "p": "a",
+     "i": 1.025,
+     "f": 1.05
+    },
+    {
+     "p": "Lei",
+     "i": 1.05,
+     "f": 1.3
+    },
+    {
+     "p": "Geral",
+     "i": 1.3,
+     "f": 1.7
+    },
+    {
+     "p": "de",
+     "i": 1.7,
+     "f": 1.787
+    },
+    {
+     "p": "Proteção",
+     "i": 1.788,
+     "f": 2.325
+    },
+    {
+     "p": "de",
+     "i": 2.325,
+     "f": 2.425
+    },
+    {
+     "p": "Dados",
+     "i": 2.425,
+     "f": 2.887
+    },
+    {
+     "p": "de",
+     "i": 3.038,
+     "f": 3.138
+    },
+    {
+     "p": "2018",
+     "i": 3.138,
+     "f": 4.238
+    },
+    {
+     "p": "Ela",
+     "i": 4.6,
+     "f": 4.912
+    },
+    {
+     "p": "vale",
+     "i": 4.912,
+     "f": 5.337
+    },
+    {
+     "p": "quando",
+     "i": 5.338,
+     "f": 5.55
+    },
+    {
+     "p": "você",
+     "i": 5.55,
+     "f": 5.75
+    },
+    {
+     "p": "trata",
+     "i": 5.75,
+     "f": 6.075
+    },
+    {
+     "p": "dados",
+     "i": 6.075,
+     "f": 6.338
+    },
+    {
+     "p": "pessoais",
+     "i": 6.338,
+     "f": 6.963
+    },
+    {
+     "p": "ou",
+     "i": 7.2,
+     "f": 7.312
+    },
+    {
+     "p": "seja",
+     "i": 7.312,
+     "f": 7.775
+    },
+    {
+     "p": "qualquer",
+     "i": 7.925,
+     "f": 8.412
+    },
+    {
+     "p": "informação",
+     "i": 8.412,
+     "f": 9.137
+    },
+    {
+     "p": "que",
+     "i": 9.137,
+     "f": 9.212
+    },
+    {
+     "p": "identifique",
+     "i": 9.213,
+     "f": 9.75
+    },
+    {
+     "p": "uma",
+     "i": 9.75,
+     "f": 9.863
+    },
+    {
+     "p": "pessoa",
+     "i": 9.863,
+     "f": 10.35
+    },
+    {
+     "p": "Colar",
+     "i": 10.7,
+     "f": 11.012
+    },
+    {
+     "p": "esses",
+     "i": 11.012,
+     "f": 11.25
+    },
+    {
+     "p": "dados",
+     "i": 11.25,
+     "f": 11.637
+    },
+    {
+     "p": "num",
+     "i": 11.637,
+     "f": 11.775
+    },
+    {
+     "p": "chat",
+     "i": 11.775,
+     "f": 12.213
+    },
+    {
+     "p": "de",
+     "i": 12.213,
+     "f": 12.3
+    },
+    {
+     "p": "IA",
+     "i": 12.3,
+     "f": 13.625
+    },
+    {
+     "p": "já",
+     "i": 13.625,
+     "f": 13.762
+    },
+    {
+     "p": "é",
+     "i": 13.762,
+     "f": 13.812
+    },
+    {
+     "p": "tratar",
+     "i": 13.812,
+     "f": 14.25
+    },
+    {
+     "p": "dados",
+     "i": 14.25,
+     "f": 14.812
+    }
+   ]
+  },
+  "analogia": {
+   "hash": "d99a9ae47c",
+   "texto": "Pense no chat de IA como um balcão de atendimento. Tudo o que você diz ali sai da sua mesa e vai para a empresa do serviço. Por isso, nunca cole senhas, CPF, dados de saúde ou contratos sigilosos.",
+   "audio": "audio/analogia-d99a9ae47c.mp3",
+   "duracao": 14.132,
+   "palavras": [
+    {
+     "p": "Pense",
+     "i": 0.062,
+     "f": 0.375
+    },
+    {
+     "p": "no",
+     "i": 0.375,
+     "f": 0.45
+    },
+    {
+     "p": "chat",
+     "i": 0.45,
+     "f": 0.863
+    },
+    {
+     "p": "de",
+     "i": 0.863,
+     "f": 0.963
+    },
+    {
+     "p": "IA",
+     "i": 0.963,
+     "f": 2.263
+    },
+    {
+     "p": "como",
+     "i": 2.263,
+     "f": 2.475
+    },
+    {
+     "p": "um",
+     "i": 2.475,
+     "f": 2.562
+    },
+    {
+     "p": "balcão",
+     "i": 2.562,
+     "f": 3.025
+    },
+    {
+     "p": "de",
+     "i": 3.025,
+     "f": 3.087
+    },
+    {
+     "p": "atendimento",
+     "i": 3.087,
+     "f": 3.787
+    },
+    {
+     "p": "Tudo",
+     "i": 4.125,
+     "f": 4.325
+    },
+    {
+     "p": "o",
+     "i": 4.325,
+     "f": 4.35
+    },
+    {
+     "p": "que",
+     "i": 4.35,
+     "f": 4.45
+    },
+    {
+     "p": "você",
+     "i": 4.45,
+     "f": 4.688
+    },
+    {
+     "p": "diz",
+     "i": 4.688,
+     "f": 4.8
+    },
+    {
+     "p": "ali",
+     "i": 4.8,
+     "f": 5.25
+    },
+    {
+     "p": "sai",
+     "i": 5.25,
+     "f": 5.588
+    },
+    {
+     "p": "da",
+     "i": 5.588,
+     "f": 5.688
+    },
+    {
+     "p": "sua",
+     "i": 5.688,
+     "f": 5.9
+    },
+    {
+     "p": "mesa",
+     "i": 5.9,
+     "f": 6.425
+    },
+    {
+     "p": "e",
+     "i": 6.425,
+     "f": 6.525
+    },
+    {
+     "p": "vai",
+     "i": 6.525,
+     "f": 6.738
+    },
+    {
+     "p": "para",
+     "i": 6.737,
+     "f": 6.85
+    },
+    {
+     "p": "a",
+     "i": 6.85,
+     "f": 6.862
+    },
+    {
+     "p": "empresa",
+     "i": 6.862,
+     "f": 7.275
+    },
+    {
+     "p": "do",
+     "i": 7.275,
+     "f": 7.338
+    },
+    {
+     "p": "serviço",
+     "i": 7.338,
+     "f": 7.963
+    },
+    {
+     "p": "Por",
+     "i": 8.3,
+     "f": 8.438
+    },
+    {
+     "p": "isso",
+     "i": 8.438,
+     "f": 8.775
+    },
+    {
+     "p": "nunca",
+     "i": 9.012,
+     "f": 9.312
+    },
+    {
+     "p": "cole",
+     "i": 9.312,
+     "f": 9.537
+    },
+    {
+     "p": "senhas",
+     "i": 9.537,
+     "f": 10.05
+    },
+    {
+     "p": "CPF",
+     "i": 10.2,
+     "f": 10.925
+    },
+    {
+     "p": "dados",
+     "i": 11.113,
+     "f": 11.488
+    },
+    {
+     "p": "de",
+     "i": 11.488,
+     "f": 11.625
+    },
+    {
+     "p": "saúde",
+     "i": 11.625,
+     "f": 12.338
+    },
+    {
+     "p": "ou",
+     "i": 12.338,
+     "f": 12.475
+    },
+    {
+     "p": "contratos",
+     "i": 12.475,
+     "f": 13.025
+    },
+    {
+     "p": "sigilosos",
+     "i": 13.025,
+     "f": 13.75
+    }
+   ]
+  },
+  "exemplo": {
+   "hash": "9db054cfa5",
+   "texto": "Para anonimizar, troque nomes por códigos. Em vez de Maria Souza, escreva Cliente A. Guarde a tabela de códigos só com você. Depois, revise nas configurações se sua conta deixa a IA treinar com suas conversas.",
+   "audio": "audio/exemplo-9db054cfa5.mp3",
+   "duracao": 15.229,
+   "palavras": [
+    {
+     "p": "Para",
+     "i": 0.05,
+     "f": 0.237
+    },
+    {
+     "p": "anonimizar",
+     "i": 0.237,
+     "f": 1.062
+    },
+    {
+     "p": "troque",
+     "i": 1.312,
+     "f": 1.637
+    },
+    {
+     "p": "nomes",
+     "i": 1.637,
+     "f": 2.062
+    },
+    {
+     "p": "por",
+     "i": 2.062,
+     "f": 2.237
+    },
+    {
+     "p": "códigos",
+     "i": 2.237,
+     "f": 2.938
+    },
+    {
+     "p": "Em",
+     "i": 3.275,
+     "f": 3.462
+    },
+    {
+     "p": "vez",
+     "i": 3.462,
+     "f": 3.712
+    },
+    {
+     "p": "de",
+     "i": 3.712,
+     "f": 3.788
+    },
+    {
+     "p": "Maria",
+     "i": 3.788,
+     "f": 4.138
+    },
+    {
+     "p": "Souza",
+     "i": 4.138,
+     "f": 4.638
+    },
+    {
+     "p": "escreva",
+     "i": 4.875,
+     "f": 5.287
+    },
+    {
+     "p": "Cliente",
+     "i": 5.287,
+     "f": 5.7
+    },
+    {
+     "p": "A.",
+     "i": 5.7,
+     "f": 5.775
+    },
+    {
+     "p": "Guarde",
+     "i": 5.775,
+     "f": 6.163
+    },
+    {
+     "p": "a",
+     "i": 6.162,
+     "f": 6.188
+    },
+    {
+     "p": "tabela",
+     "i": 6.188,
+     "f": 6.525
+    },
+    {
+     "p": "de",
+     "i": 6.525,
+     "f": 6.625
+    },
+    {
+     "p": "códigos",
+     "i": 6.625,
+     "f": 7.125
+    },
+    {
+     "p": "só",
+     "i": 7.125,
+     "f": 7.463
+    },
+    {
+     "p": "com",
+     "i": 7.463,
+     "f": 7.675
+    },
+    {
+     "p": "você",
+     "i": 7.675,
+     "f": 8.1
+    },
+    {
+     "p": "Depois",
+     "i": 8.438,
+     "f": 9.037
+    },
+    {
+     "p": "revise",
+     "i": 9.287,
+     "f": 9.775
+    },
+    {
+     "p": "nas",
+     "i": 9.775,
+     "f": 9.938
+    },
+    {
+     "p": "configurações",
+     "i": 9.938,
+     "f": 10.75
+    },
+    {
+     "p": "se",
+     "i": 10.75,
+     "f": 10.85
+    },
+    {
+     "p": "sua",
+     "i": 10.85,
+     "f": 11.075
+    },
+    {
+     "p": "conta",
+     "i": 11.075,
+     "f": 11.537
+    },
+    {
+     "p": "deixa",
+     "i": 11.537,
+     "f": 11.887
+    },
+    {
+     "p": "a",
+     "i": 11.887,
+     "f": 11.9
+    },
+    {
+     "p": "IA",
+     "i": 11.9,
+     "f": 13.175
+    },
+    {
+     "p": "treinar",
+     "i": 13.175,
+     "f": 13.638
+    },
+    {
+     "p": "com",
+     "i": 13.637,
+     "f": 13.825
+    },
+    {
+     "p": "suas",
+     "i": 13.825,
+     "f": 14.075
+    },
+    {
+     "p": "conversas",
+     "i": 14.075,
+     "f": 14.837
+    }
+   ]
+  },
+  "erro-comum": {
+   "hash": "6c1f97c37a",
+   "texto": "Erro comum: achar que tirar só o nome basta. Endereço, cargo raro e data de nascimento ainda identificam. E aviso: conteúdo feito com IA deve ser identificado como tal, por transparência.",
+   "audio": "audio/erro-comum-6c1f97c37a.mp3",
+   "duracao": 13.976,
+   "palavras": [
+    {
+     "p": "Erro",
+     "i": 0.05,
+     "f": 0.35
+    },
+    {
+     "p": "comum",
+     "i": 0.35,
+     "f": 0.787
+    },
+    {
+     "p": "achar",
+     "i": 1.087,
+     "f": 1.387
+    },
+    {
+     "p": "que",
+     "i": 1.387,
+     "f": 1.5
+    },
+    {
+     "p": "tirar",
+     "i": 1.5,
+     "f": 1.812
+    },
+    {
+     "p": "só",
+     "i": 1.812,
+     "f": 2.125
+    },
+    {
+     "p": "o",
+     "i": 2.125,
+     "f": 2.188
+    },
+    {
+     "p": "nome",
+     "i": 2.188,
+     "f": 2.438
+    },
+    {
+     "p": "basta",
+     "i": 2.438,
+     "f": 2.925
+    },
+    {
+     "p": "Endereço",
+     "i": 3.263,
+     "f": 4.038
+    },
+    {
+     "p": "cargo",
+     "i": 4.175,
+     "f": 4.525
+    },
+    {
+     "p": "raro",
+     "i": 4.525,
+     "f": 5.013
+    },
+    {
+     "p": "e",
+     "i": 5.013,
+     "f": 5.088
+    },
+    {
+     "p": "data",
+     "i": 5.088,
+     "f": 5.438
+    },
+    {
+     "p": "de",
+     "i": 5.438,
+     "f": 5.513
+    },
+    {
+     "p": "nascimento",
+     "i": 5.513,
+     "f": 6.112
+    },
+    {
+     "p": "ainda",
+     "i": 6.112,
+     "f": 6.412
+    },
+    {
+     "p": "identificam",
+     "i": 6.412,
+     "f": 7.212
+    },
+    {
+     "p": "E",
+     "i": 7.562,
+     "f": 7.662
+    },
+    {
+     "p": "aviso",
+     "i": 7.662,
+     "f": 8.2
+    },
+    {
+     "p": "conteúdo",
+     "i": 8.387,
+     "f": 8.962
+    },
+    {
+     "p": "feito",
+     "i": 8.963,
+     "f": 9.35
+    },
+    {
+     "p": "com",
+     "i": 9.35,
+     "f": 9.487
+    },
+    {
+     "p": "IA",
+     "i": 9.488,
+     "f": 10.738
+    },
+    {
+     "p": "deve",
+     "i": 10.738,
+     "f": 10.913
+    },
+    {
+     "p": "ser",
+     "i": 10.912,
+     "f": 11.088
+    },
+    {
+     "p": "identificado",
+     "i": 11.088,
+     "f": 11.85
+    },
+    {
+     "p": "como",
+     "i": 11.85,
+     "f": 12.125
+    },
+    {
+     "p": "tal",
+     "i": 12.125,
+     "f": 12.488
+    },
+    {
+     "p": "por",
+     "i": 12.588,
+     "f": 12.725
+    },
+    {
+     "p": "transparência",
+     "i": 12.725,
+     "f": 13.6
+    }
+   ]
+  },
+  "pratica": {
+   "hash": "5055e5a542",
+   "texto": "Pause o vídeo e tente: pegue um e-mail real do seu trabalho, troque todos os dados pessoais por códigos e confira se alguém ainda seria identificado.",
+   "audio": "audio/pratica-5055e5a542.mp3",
+   "duracao": 8.673,
+   "palavras": [
+    {
+     "p": "Pause",
+     "i": 0.05,
+     "f": 0.4
+    },
+    {
+     "p": "o",
+     "i": 0.4,
+     "f": 0.45
+    },
+    {
+     "p": "vídeo",
+     "i": 0.45,
+     "f": 0.988
+    },
+    {
+     "p": "e",
+     "i": 0.988,
+     "f": 1.088
+    },
+    {
+     "p": "tente",
+     "i": 1.087,
+     "f": 1.5
+    },
+    {
+     "p": "pegue",
+     "i": 1.738,
+     "f": 2.025
+    },
+    {
+     "p": "um",
+     "i": 2.025,
+     "f": 2.075
+    },
+    {
+     "p": "e-mail",
+     "i": 2.075,
+     "f": 2.4
+    },
+    {
+     "p": "real",
+     "i": 2.4,
+     "f": 2.75
+    },
+    {
+     "p": "do",
+     "i": 2.75,
+     "f": 2.837
+    },
+    {
+     "p": "seu",
+     "i": 2.837,
+     "f": 3
+    },
+    {
+     "p": "trabalho",
+     "i": 3,
+     "f": 3.5
+    },
+    {
+     "p": "troque",
+     "i": 3.638,
+     "f": 3.963
+    },
+    {
+     "p": "todos",
+     "i": 3.962,
+     "f": 4.287
+    },
+    {
+     "p": "os",
+     "i": 4.287,
+     "f": 4.438
+    },
+    {
+     "p": "dados",
+     "i": 4.438,
+     "f": 4.75
+    },
+    {
+     "p": "pessoais",
+     "i": 4.75,
+     "f": 5.237
+    },
+    {
+     "p": "por",
+     "i": 5.237,
+     "f": 5.388
+    },
+    {
+     "p": "códigos",
+     "i": 5.388,
+     "f": 5.913
+    },
+    {
+     "p": "e",
+     "i": 5.912,
+     "f": 6.1
+    },
+    {
+     "p": "confira",
+     "i": 6.1,
+     "f": 6.612
+    },
+    {
+     "p": "se",
+     "i": 6.612,
+     "f": 6.725
+    },
+    {
+     "p": "alguém",
+     "i": 6.725,
+     "f": 6.975
+    },
+    {
+     "p": "ainda",
+     "i": 6.975,
+     "f": 7.237
+    },
+    {
+     "p": "seria",
+     "i": 7.237,
+     "f": 7.562
+    },
+    {
+     "p": "identificado",
+     "i": 7.562,
+     "f": 8.287
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "03c6242301",
+   "texto": "Resumindo: um, a LGPD vale quando há dados de pessoas. Dois, nunca cole dados sensíveis e troque nomes por códigos. Três, revise o treinamento da conta e avise quando for feito com IA.",
+   "audio": "audio/resumo-03c6242301.mp3",
+   "duracao": 14.446,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.05,
+     "f": 0.738
+    },
+    {
+     "p": "um",
+     "i": 0.975,
+     "f": 1.238
+    },
+    {
+     "p": "a",
+     "i": 1.462,
+     "f": 1.575
+    },
+    {
+     "p": "LGPD",
+     "i": 1.575,
+     "f": 2.438
+    },
+    {
+     "p": "vale",
+     "i": 2.438,
+     "f": 2.75
+    },
+    {
+     "p": "quando",
+     "i": 2.75,
+     "f": 2.962
+    },
+    {
+     "p": "há",
+     "i": 2.962,
+     "f": 2.987
+    },
+    {
+     "p": "dados",
+     "i": 2.987,
+     "f": 3.362
+    },
+    {
+     "p": "de",
+     "i": 3.362,
+     "f": 3.45
+    },
+    {
+     "p": "pessoas",
+     "i": 3.45,
+     "f": 4.112
+    },
+    {
+     "p": "Dois",
+     "i": 4.45,
+     "f": 4.975
+    },
+    {
+     "p": "nunca",
+     "i": 5.188,
+     "f": 5.575
+    },
+    {
+     "p": "cole",
+     "i": 5.575,
+     "f": 5.862
+    },
+    {
+     "p": "dados",
+     "i": 5.862,
+     "f": 6.162
+    },
+    {
+     "p": "sensíveis",
+     "i": 6.162,
+     "f": 6.837
+    },
+    {
+     "p": "e",
+     "i": 6.838,
+     "f": 7.038
+    },
+    {
+     "p": "troque",
+     "i": 7.037,
+     "f": 7.362
+    },
+    {
+     "p": "nomes",
+     "i": 7.362,
+     "f": 7.75
+    },
+    {
+     "p": "por",
+     "i": 7.75,
+     "f": 7.912
+    },
+    {
+     "p": "códigos",
+     "i": 7.912,
+     "f": 8.537
+    },
+    {
+     "p": "Três",
+     "i": 8.875,
+     "f": 9.275
+    },
+    {
+     "p": "revise",
+     "i": 9.525,
+     "f": 9.988
+    },
+    {
+     "p": "o",
+     "i": 9.988,
+     "f": 10.038
+    },
+    {
+     "p": "treinamento",
+     "i": 10.037,
+     "f": 10.537
+    },
+    {
+     "p": "da",
+     "i": 10.537,
+     "f": 10.662
+    },
+    {
+     "p": "conta",
+     "i": 10.662,
+     "f": 11.125
+    },
+    {
+     "p": "e",
+     "i": 11.125,
+     "f": 11.225
+    },
+    {
+     "p": "avise",
+     "i": 11.225,
+     "f": 11.812
+    },
+    {
+     "p": "quando",
+     "i": 11.812,
+     "f": 12.062
+    },
+    {
+     "p": "for",
+     "i": 12.062,
+     "f": 12.25
+    },
+    {
+     "p": "feito",
+     "i": 12.25,
+     "f": 12.6
+    },
+    {
+     "p": "com",
+     "i": 12.6,
+     "f": 12.737
+    },
+    {
+     "p": "IA",
+     "i": 12.738,
+     "f": 14.062
+    }
+   ]
+  },
+  "final": {
+   "hash": "0ed933ec92",
+   "texto": "Quiz: posso colar a lista de clientes com nomes num chat pessoal? Pense dois segundos. A resposta é não: troque os nomes por códigos antes. Siga a série e veja, na próxima aula, as leis de IA na Europa e no Brasil.",
+   "audio": "audio/final-0ed933ec92.mp3",
+   "duracao": 15.882,
+   "palavras": [
+    {
+     "p": "Quiz",
+     "i": 0.062,
+     "f": 0.438
+    },
+    {
+     "p": "posso",
+     "i": 0.637,
+     "f": 0.925
+    },
+    {
+     "p": "colar",
+     "i": 0.925,
+     "f": 1.263
+    },
+    {
+     "p": "a",
+     "i": 1.262,
+     "f": 1.3
+    },
+    {
+     "p": "lista",
+     "i": 1.3,
+     "f": 1.688
+    },
+    {
+     "p": "de",
+     "i": 1.688,
+     "f": 1.788
+    },
+    {
+     "p": "clientes",
+     "i": 1.788,
+     "f": 2.275
+    },
+    {
+     "p": "com",
+     "i": 2.275,
+     "f": 2.462
+    },
+    {
+     "p": "nomes",
+     "i": 2.462,
+     "f": 2.8
+    },
+    {
+     "p": "num",
+     "i": 2.8,
+     "f": 2.938
+    },
+    {
+     "p": "chat",
+     "i": 2.938,
+     "f": 3.275
+    },
+    {
+     "p": "pessoal",
+     "i": 3.275,
+     "f": 3.812
+    },
+    {
+     "p": "Pense",
+     "i": 4.175,
+     "f": 4.562
+    },
+    {
+     "p": "dois",
+     "i": 4.562,
+     "f": 4.812
+    },
+    {
+     "p": "segundos",
+     "i": 4.812,
+     "f": 5.5
+    },
+    {
+     "p": "A",
+     "i": 5.85,
+     "f": 5.95
+    },
+    {
+     "p": "resposta",
+     "i": 5.95,
+     "f": 6.487
+    },
+    {
+     "p": "é",
+     "i": 6.487,
+     "f": 6.525
+    },
+    {
+     "p": "não",
+     "i": 6.525,
+     "f": 6.838
+    },
+    {
+     "p": "troque",
+     "i": 7.1,
+     "f": 7.438
+    },
+    {
+     "p": "os",
+     "i": 7.438,
+     "f": 7.525
+    },
+    {
+     "p": "nomes",
+     "i": 7.525,
+     "f": 7.863
+    },
+    {
+     "p": "por",
+     "i": 7.862,
+     "f": 8.025
+    },
+    {
+     "p": "códigos",
+     "i": 8.025,
+     "f": 8.5
+    },
+    {
+     "p": "antes",
+     "i": 8.5,
+     "f": 9.088
+    },
+    {
+     "p": "Siga",
+     "i": 9.438,
+     "f": 9.863
+    },
+    {
+     "p": "a",
+     "i": 9.863,
+     "f": 9.9
+    },
+    {
+     "p": "série",
+     "i": 9.9,
+     "f": 10.45
+    },
+    {
+     "p": "e",
+     "i": 10.45,
+     "f": 10.487
+    },
+    {
+     "p": "veja",
+     "i": 10.488,
+     "f": 10.925
+    },
+    {
+     "p": "na",
+     "i": 11.137,
+     "f": 11.262
+    },
+    {
+     "p": "próxima",
+     "i": 11.262,
+     "f": 11.787
+    },
+    {
+     "p": "aula",
+     "i": 11.787,
+     "f": 12.088
+    },
+    {
+     "p": "as",
+     "i": 12.3,
+     "f": 12.438
+    },
+    {
+     "p": "leis",
+     "i": 12.438,
+     "f": 12.738
+    },
+    {
+     "p": "de",
+     "i": 12.738,
+     "f": 12.825
+    },
+    {
+     "p": "IA",
+     "i": 12.825,
+     "f": 14.087
+    },
+    {
+     "p": "na",
+     "i": 14.088,
+     "f": 14.213
+    },
+    {
+     "p": "Europa",
+     "i": 14.213,
+     "f": 14.825
+    },
+    {
+     "p": "e",
+     "i": 14.825,
+     "f": 14.887
+    },
+    {
+     "p": "no",
+     "i": 14.887,
+     "f": 14.987
+    },
+    {
+     "p": "Brasil",
+     "i": 14.988,
+     "f": 15.5
+    }
+   ]
+  }
+ },
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-19T22:26:17.945Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Planalto — Lei 13.709/2018 (LGPD)",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm"
+  },
+  {
+   "titulo": "ANPD — Autoridade Nacional de Proteção de Dados",
+   "url": "https://www.gov.br/anpd/pt-br"
+  },
+  {
+   "titulo": "Anthropic — Updates to our consumer terms",
+   "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "caixa",
+  "transicao": "deslize",
+  "fundo": "grade",
+  "formato": "mito-verdade"
  }
 }
