@@ -1,4 +1,4 @@
-// Service worker do Estúdio Reels: deixa o app abrir offline e rápido.
+// Service worker do Framecraft: deixa o app abrir offline e rápido.
 // - Página: rede primeiro (pega a versão nova), cache se offline.
 // - Arquivos com hash (assets/), fontes e sons: cache primeiro.
 // - GitHub (api/uploads) nunca passa pelo cache.

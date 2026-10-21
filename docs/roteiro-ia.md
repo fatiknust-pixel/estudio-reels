@@ -11,9 +11,9 @@ Cada aula tem quatro partes:
 1. **Explicação** — o conceito em linguagem simples.
 2. **Exemplo** — um caso concreto, com prompt ou código pronto para copiar.
 3. **Prática** — um exercício de 10 a 30 minutos. Só avance depois de fazer.
-4. **Linha para o Estúdio** — o tema já escrito para virar videoaula no Estúdio Reels.
+4. **Linha para o Framecraft** — o tema já escrito para virar videoaula no Framecraft.
 
-### Como gerar as videoaulas no Estúdio Reels
+### Como gerar as videoaulas no Framecraft
 
 1. Abra o app e toque em **Vídeo gerado por IA** (Modo 1).
 2. No campo de temas, cole as **5 linhas** de um bloco (o app aceita até 5 vídeos por lote e 2000 caracteres; cada linha deste roteiro tem menos de 380).
@@ -39,7 +39,7 @@ Objetivo: entender o que acontece por trás da tela, para nunca mais usar IA "no
 
 **Prática.** Liste 5 coisas que você usa no dia a dia e classifique: IA clássica, IA generativa ou nenhuma (ex.: recomendação do Netflix, corretor do teclado, Waze, ChatGPT, calculadora).
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 1.1: O que é IA e IA generativa — explique para iniciantes a diferença entre inteligência artificial, machine learning, deep learning e IA generativa usando círculos dentro de círculos, com exemplos do dia a dia (filtro de spam, Netflix, Claude escrevendo um texto)
@@ -53,7 +53,7 @@ Aula 1.1: O que é IA e IA generativa — explique para iniciantes a diferença 
 
 **Prática.** Peça ao Claude: *"Explique como você gera uma resposta, passo a passo, como se eu tivesse 12 anos."* Depois peça: *"Agora como se eu fosse engenheiro."* Compare as duas.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 1.2: Como um LLM funciona por dentro — explique que modelos como o Claude preveem o próximo token, o que é o Transformer e a atenção (2017), pré-treino com muito texto e o ajuste fino com feedback humano e IA Constitucional, com analogia do autocompletar do celular
@@ -67,7 +67,7 @@ Aula 1.2: Como um LLM funciona por dentro — explique que modelos como o Claude
 
 **Prática.** Cole um texto de 2 páginas no Claude e peça um resumo. Depois, na mesma conversa, mude de assunto 3 vezes e note como as respostas começam a misturar contextos. Recomece numa conversa nova e compare.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 1.3: Tokens e janela de contexto — explique o que é um token, por que tudo na IA é medido e cobrado em tokens de entrada e saída, o que é a janela de contexto (até 1 milhão de tokens no Claude) e por que abrir conversa nova para assunto novo economiza e melhora as respostas
@@ -81,7 +81,7 @@ Aula 1.3: Tokens e janela de contexto — explique o que é um token, por que tu
 
 **Prática.** Peça 3 referências bibliográficas sobre um tema de nicho, sem busca. Verifique se existem. Depois repita com a busca ativada e peça os links. Anote a diferença.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 1.4: Alucinação e limites da IA — explique por que modelos de linguagem às vezes inventam fatos com confiança, o que é data de corte do treinamento, como a busca na web e as fontes citadas reduzem erros, e 3 hábitos para checar respostas antes de confiar
@@ -95,7 +95,7 @@ Aula 1.4: Alucinação e limites da IA — explique por que modelos de linguagem
 
 **Prática.** Faça a mesma pergunta difícil a dois modelos diferentes (ex.: Haiku e Opus no app do Claude). Compare qualidade, tamanho e tempo da resposta.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 1.5: O mapa dos modelos de IA em 2026 — apresente Anthropic (Claude), OpenAI (ChatGPT), Google (Gemini), Meta (Llama) e modelos de pesos abertos, explique modelo fechado x aberto e multimodal, e mostre a família Claude: Haiku 5.5, Sonnet 5.5, Opus 5.5 e Fable 5.1, para que serve cada um
@@ -116,7 +116,7 @@ Objetivo: tirar respostas de nível profissional na primeira tentativa e organiz
 
 **Prática.** Pegue 3 prompts que você usou esta semana e reescreva cada um com as cinco perguntas. Compare as respostas antes e depois.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 2.1: Anatomia de um prompt que funciona — ensine as 5 partes de um bom prompt (quem, o quê, por quê, como e limites), mostre um prompt fraco virando um prompt forte para um post de Instagram, e a regra de ouro: trate a IA como um colega brilhante que acabou de chegar
@@ -145,7 +145,7 @@ e em <sugestoes> uma redação alternativa para cada uma.
 
 **Prática.** Escolha uma tarefa repetitiva do seu trabalho e monte um prompt usando pelo menos 3 das 5 técnicas. Salve-o — ele vira um modelo reutilizável (e no Nível 5, uma skill).
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 2.2: As 5 técnicas clássicas de prompt — ensine com exemplo curto cada uma: dar exemplos (few-shot), separar dados com tags XML, definir um papel, pedir para pensar antes de responder e encadear prompts em etapas, segundo os guias oficiais da Anthropic, OpenAI e Google
@@ -159,7 +159,7 @@ Aula 2.2: As 5 técnicas clássicas de prompt — ensine com exemplo curto cada 
 
 **Prática.** Peça um texto qualquer e use os três movimentos em sequência. Anote qual deles mais melhorou o resultado.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 2.3: Iterar com a IA como um especialista — mostre 3 frases que melhoram qualquer resposta: peça para a IA te entrevistar antes, peça autocrítica como especialista exigente e peça 3 versões diferentes, com um exemplo de plano de negócios melhorando a cada rodada
@@ -173,7 +173,7 @@ Aula 2.3: Iterar com a IA como um especialista — mostre 3 frases que melhoram 
 
 **Prática.** Crie um projeto para a sua área principal de trabalho, com pelo menos 3 arquivos de referência e um parágrafo de instruções. Use-o por uma semana.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 2.4: Projetos, instruções e memória no Claude — explique como um Projeto guarda arquivos e instruções para todas as conversas, como funcionam instruções personalizadas, estilos e memória entre conversas, com o exemplo de um projeto para um canal de Reels
@@ -187,7 +187,7 @@ Aula 2.4: Projetos, instruções e memória no Claude — explique como um Proje
 
 **Prática.** Crie três artefatos: um documento (ex.: guia de onboarding), um mini-app (ex.: calculadora de preço de serviço) e uma análise de um PDF ou planilha seu.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 2.5: Artefatos, arquivos e imagens no Claude — mostre o que são artefatos (documentos, páginas, apps interativos, gráficos, apresentações), como publicar e compartilhar, e como o Claude lê PDFs, planilhas e fotos, com o exemplo de transformar uma planilha de gastos num painel interativo
@@ -214,7 +214,7 @@ Todos têm janela de 1 milhão de tokens. O Haiku custa 40 vezes menos que o Opu
 
 **Prática.** Liste 10 tarefas suas com IA e marque ao lado qual modelo cada uma merece.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 3.1: Qual modelo do Claude usar em cada tarefa — compare Haiku 5.5, Sonnet 5.5, Opus 5.5 e Fable 5.1 com os preços oficiais por milhão de tokens (de US$ 0,10 a US$ 10 na entrada), explique que o Haiku custa 40 vezes menos que o Opus e dê exemplos de tarefa certa para cada um
@@ -236,7 +236,7 @@ Aula 3.1: Qual modelo do Claude usar em cada tarefa — compare Haiku 5.5, Sonne
 
 **Prática.** Durante uma semana, anote quantas vezes você bateu no limite de uso. Isso decide seu plano melhor que qualquer tabela.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 3.2: Planos do Claude explicados — compare Free, Pro (US$ 20 por mês), Max (a partir de US$ 100), Team e Enterprise, o que cada um libera (Projetos, Claude Code, Research, Claude in Chrome) e como saber se vale a pena subir de plano observando seus limites de uso
@@ -250,7 +250,7 @@ Aula 3.2: Planos do Claude explicados — compare Free, Pro (US$ 20 por mês), M
 
 **Prática.** Faça o mesmo problema de lógica com esforço baixo e alto. Compare acerto e tempo.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 3.3: Esforço e pensamento estendido na IA — explique que os modelos atuais pensam antes de responder, como o nível de esforço (baixo, médio, alto, extra-alto e máximo) troca velocidade e custo por qualidade, e quando usar cada nível, com exemplo de revisão de e-mail x planilha financeira
@@ -264,7 +264,7 @@ Aula 3.3: Esforço e pensamento estendido na IA — explique que os modelos atua
 
 **Prática.** No Claude Code, peça: *"Use subagentes com o modelo haiku para pesquisar X, Y e Z em paralelo e me traga um resumo comparativo."* Observe o uso no `/usage`.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 3.4: A estratégia modelo barato coleta, modelo forte pensa — explique como delegar buscas e leituras a subagentes com Claude Haiku, deixar o Opus só para planejar e escrever, por que isso economiza tokens e protege a janela de contexto, com o exemplo de três pesquisas em paralelo
@@ -283,7 +283,7 @@ Aula 3.4: A estratégia modelo barato coleta, modelo forte pensa — explique co
 
 **Prática.** Aplique `/clear` e `/compact` por uma semana no Claude Code e compare seu `/usage` com a semana anterior.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 3.5: Como gastar menos com IA — explique prompt caching (reler do cache custa cerca de 10% do preço), Batch API com 50% de desconto, manter o contexto enxuto com /clear e /compact, desligar conectores sem uso e planejar antes para evitar retrabalho, com exemplo de chatbot com manual de 50 páginas
@@ -301,7 +301,7 @@ Objetivo: fazer a IA trabalhar com os **seus** dados e ferramentas (e-mail, agen
 
 **Prática.** Escolha uma decisão real (comprar um equipamento, escolher um curso) e faça um Research. Abra pelo menos 3 fontes citadas para conferir.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 4.1: Busca na web e Research no Claude — explique a diferença entre a busca simples com fontes citadas e o modo Research dos planos pagos, que faz várias buscas encadeadas e entrega um relatório, como ativar pelo botão mais e por que sempre abrir as fontes para conferir
@@ -315,7 +315,7 @@ Aula 4.1: Busca na web e Research no Claude — explique a diferença entre a bu
 
 **Prática.** Conecte Google Agenda e Gmail e peça um resumo diário. Depois conecte o Canva e gere um design.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 4.2: Conectores do Claude — mostre como ligar Gmail, Google Agenda, Google Drive, Notion, Canva e GitHub, como o Claude lê seus dados e pede aprovação antes de ações sensíveis, onde fica o diretório de conectores e 3 usos práticos: resumo do dia, prioridades da semana e capas no Canva
@@ -329,7 +329,7 @@ Aula 4.2: Conectores do Claude — mostre como ligar Gmail, Google Agenda, Googl
 
 **Prática.** Desenhe no papel: o Claude no centro, 4 servidores MCP ao redor (um para cada ferramenta que você usa) e o que cada um permitiria fazer.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 4.3: O que é MCP, o USB-C da inteligência artificial — explique o Model Context Protocol criado pela Anthropic em novembro de 2024 e adotado pela OpenAI em 2025, a relação entre cliente e servidor MCP, e as três coisas que um servidor oferece: ferramentas, recursos e prompts
@@ -350,7 +350,7 @@ Depois, dentro do Claude Code: *"Leia minha página de metas no Notion e crie ta
 
 **Prática.** Adicione um servidor MCP de uma ferramenta que você usa, faça 3 pedidos reais e depois desative-o com `/mcp`.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 4.4: Como adicionar servidores MCP no Claude — mostre como incluir um conector personalizado por URL no app e pelo comando claude mcp add no Claude Code, exemplos de servidores prontos (Notion, Figma, Slack, bancos de dados) e por que desligar com /mcp os que você não usa para economizar contexto
@@ -364,7 +364,7 @@ Aula 4.4: Como adicionar servidores MCP no Claude — mostre como incluir um con
 
 **Prática.** Revise os conectores ativos na sua conta e remova permissões que você não usa.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 4.5: Prompt injection e segurança com IA — explique como instruções escondidas em e-mails, sites e documentos podem enganar uma IA com conectores, por que é o risco número 1 da lista OWASP para LLMs, e 3 defesas: privilégio mínimo, aprovar ações sensíveis e desconfiar de mudanças de comportamento
@@ -382,7 +382,7 @@ Objetivo: transformar o que você sabe fazer em "receitas" que a IA executa sozi
 
 **Prática.** Liste 5 tarefas que você repete toda semana do mesmo jeito. Cada uma é candidata a skill.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 5.1: O que são Skills no Claude — explique que uma skill é uma pasta com um arquivo SKILL.md com nome, descrição e instruções, que o Claude lê só a descrição e carrega a skill quando o pedido combina, como chamar com barra e o nome, e exemplos de skills prontas de Word, Excel e PDF
@@ -412,7 +412,7 @@ Repare no `model: haiku`: a skill roda no modelo barato, porque revisar legenda 
 
 **Prática.** Transforme o prompt que você montou na Aula 2.2 em uma skill. Teste com 3 pedidos diferentes e ajuste a descrição até ela ser acionada sozinha.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 5.2: Como criar sua primeira skill no Claude — mostre a estrutura do SKILL.md com nome, descrição e instruções, por que a descrição decide quando a skill é usada, o truque de rodar skills simples no modelo Haiku para economizar e a skill oficial skill-creator que testa e melhora outras skills
@@ -422,11 +422,11 @@ Aula 5.2: Como criar sua primeira skill no Claude — mostre a estrutura do SKIL
 
 **Explicação.** O **Claude Code** é o Claude trabalhando direto nos seus arquivos: lê pastas, cria e edita documentos, roda comandos, usa Git e publica. Roda no terminal, no VS Code, no JetBrains, no app desktop e na web (claude.ai/code), nos planos pagos ([fonte](https://code.claude.com/docs/en/overview)). O arquivo **CLAUDE.md** na raiz do projeto é a "memória do projeto": regras, comandos e convenções que ele lê em toda sessão (mantenha abaixo de \~200 linhas).
 
-**Exemplo.** O próprio Estúdio Reels: o Claude Code roda dentro do GitHub Actions, lê o `docs/guia-roteiro.md`, pesquisa, escreve o `roteiro.json` e valida com um script. É Claude Code como "funcionário" de um sistema.
+**Exemplo.** O próprio Framecraft: o Claude Code roda dentro do GitHub Actions, lê o `docs/guia-roteiro.md`, pesquisa, escreve o `roteiro.json` e valida com um script. É Claude Code como "funcionário" de um sistema.
 
 **Prática.** Abra o Claude Code numa pasta com seus documentos e peça: *"Organize estes arquivos em pastas por assunto e crie um índice em INDICE.md."* Depois rode `/init` num projeto para gerar um CLAUDE.md.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 5.3: Claude Code não é só para programadores — explique que o Claude Code trabalha direto nos seus arquivos (lê pastas, edita, roda comandos), onde ele roda (terminal, VS Code, desktop e web), o papel do arquivo CLAUDE.md como memória do projeto, e exemplos fora da programação como organizar documentos
@@ -453,7 +453,7 @@ No **modo plan**, o Claude investiga e propõe um plano sem alterar nada; você 
 
 **Prática.** Faça uma tarefa média inteira usando: modo plan → aprovar → `/compact` no meio → `/usage` no fim.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 5.4: Comandos essenciais do Claude Code — ensine /model, /effort, /clear, /compact, /usage, /mcp e /init, o que faz cada um, e o modo plan (Shift+Tab) em que o Claude propõe um plano antes de mexer em qualquer arquivo, com o exemplo de reorganizar 300 arquivos com segurança
@@ -467,7 +467,7 @@ Aula 5.4: Comandos essenciais do Claude Code — ensine /model, /effort, /clear,
 
 **Prática.** Abra `/plugin`, instale um plugin oficial que faça sentido para você e use-o em uma tarefa real.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 5.5: Plugins e marketplaces do Claude — explique que um plugin empacota skills, subagentes, hooks e servidores MCP para instalar de uma vez, como usar o comando /plugin e o marketplace oficial, e o exemplo de uma agência que distribui seu padrão de trabalho para toda a equipe num plugin
@@ -485,7 +485,7 @@ Objetivo: a IA deixa de esperar você perguntar e passa a executar tarefas sozin
 
 **Prática.** Pegue 3 tarefas suas e classifique: chat, fluxo ou agente. Justifique.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 6.1: O que é um agente de IA — explique que um agente é um modelo em loop com ferramentas que planeja, age, observa e decide o próximo passo, a diferença entre chat, fluxo de etapas fixas e agente, e a regra de começar pelo mais simples, com exemplo de notas fiscais x investigar queda de vendas
@@ -513,7 +513,7 @@ Marque claramente o que não conseguiu confirmar.
 
 **Prática.** Crie dois subagentes: um `pesquisador` (Haiku) e um `revisor` (Opus) que critica textos. Peça um artigo e veja os dois trabalhando.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 6.2: Subagentes no Claude Code — explique que subagentes são especialistas que o Claude principal chama, cada um com contexto, ferramentas e modelo próprios, mostre um arquivo de subagente pesquisador com modelo Haiku na pasta .claude/agents e como montar uma equipe de pesquisador barato e revisor forte
@@ -527,7 +527,7 @@ Aula 6.2: Subagentes no Claude Code — explique que subagentes são especialist
 
 **Prática.** No Claude Code, peça: *"Configure um hook que me notifique quando você terminar uma tarefa."* Depois leia o `settings.json` que ele criou.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 6.3: Hooks no Claude Code — explique a diferença entre uma instrução no prompt, que a IA pode esquecer, e um hook, que sempre executa em momentos definidos (antes de uma ferramenta, depois de editar, ao terminar), com 3 exemplos: formatar arquivos, bloquear comandos perigosos e avisar quando terminar
@@ -541,7 +541,7 @@ Aula 6.3: Hooks no Claude Code — explique a diferença entre uma instrução n
 
 **Prática.** Faça uma pesquisa de preço com o Claude in Chrome. Regra de segurança: não use em sites de banco nem de saúde, como a própria Anthropic recomenda.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 6.4: IA que usa seu navegador e seu computador — explique o Claude in Chrome, que age nas abas em que você está logado com permissão por site e confirmação antes de compras, o controle do computador pelo app desktop, um exemplo de comparar passagens e por que evitar sites de banco e saúde
@@ -551,11 +551,11 @@ Aula 6.4: IA que usa seu navegador e seu computador — explique o Claude in Chr
 
 **Explicação.** O passo final da automação é a IA trabalhar **sem você abrir o app**. As **Routines** do Claude Code rodam na nuvem da Anthropic por agenda, por chamada de API ou por eventos do GitHub, mesmo com o computador desligado (Pro, Max, Team e Enterprise; crie em claude.ai/code/routines ou com `/schedule`) ([fonte](https://code.claude.com/docs/en/routines)). No **GitHub Actions**, a ação `anthropics/claude-code-action` roda o Claude a cada evento do repositório. Para scripts, o modo `claude -p "pedido"` roda sem interface.
 
-**Exemplo.** O Estúdio Reels é exatamente isso: você cola o tema no celular, o app grava o pedido no GitHub e uma Action acorda o Claude, que pesquisa, escreve o roteiro e dispara voz e imagens. Outra ideia: uma rotina toda segunda às 8h que resume as notícias do seu setor e salva num arquivo.
+**Exemplo.** O Framecraft é exatamente isso: você cola o tema no celular, o app grava o pedido no GitHub e uma Action acorda o Claude, que pesquisa, escreve o roteiro e dispara voz e imagens. Outra ideia: uma rotina toda segunda às 8h que resume as notícias do seu setor e salva num arquivo.
 
 **Prática.** Crie uma rotina semanal simples (ex.: "toda sexta, liste os 5 assuntos mais comentados de IA da semana com fontes").
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 6.5: IA trabalhando sozinha com rotinas e GitHub Actions — explique as Routines do Claude Code que rodam na nuvem por agenda ou eventos mesmo com o computador desligado, o claude-code-action no GitHub e o modo claude -p, usando como exemplo um app que gera vídeos de Reels sozinho a partir de um tema
@@ -573,7 +573,7 @@ Objetivo: sair de usuário e virar construtor. Aqui você liga o Claude aos seus
 
 **Prática.** Crie sua conta no Console, gere uma chave e defina um **limite de gasto mensal baixo** (ex.: US$ 5) antes de qualquer teste. Nunca publique a chave em código ou repositório público.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 7.1: App ou API do Claude, quando usar cada um — explique a diferença entre pagar assinatura no app e pagar por token na API, como criar a chave e definir limite de gasto no Console, automação sem código com n8n, Make e Zapier, e o cuidado de nunca expor sua chave de API
@@ -606,7 +606,7 @@ print(resposta.usage)  # tokens de entrada e saída gastos
 
 **Prática.** Rode o código, troque o `system` três vezes (professor, comediante, advogado) e anote o `usage` de cada chamada. Depois troque o modelo para `claude-sonnet-5-5` e compare.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 7.2: Sua primeira chamada à API do Claude em Python — mostre passo a passo instalar o pacote anthropic, guardar a chave na variável ANTHROPIC_API_KEY, chamar a Messages API com modelo, max_tokens, system e messages usando o Haiku 5.5 para gastar centavos, e ler o uso de tokens da resposta
@@ -634,7 +634,7 @@ ferramentas = [{
 
 **Prática.** Crie uma ferramenta falsa `cotacao_dolar` que retorna um número fixo e faça o Claude usá-la para responder "quanto são 250 dólares em reais?".
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 7.3: Tool use, quando a IA aciona o seu sistema — explique como descrever funções com nome, descrição e parâmetros, o ciclo em que o Claude pede a ferramenta, seu código executa e devolve o resultado, as ferramentas prontas de busca na web e execução de código, com exemplo de agenda de salão de beleza
@@ -648,7 +648,7 @@ Aula 7.3: Tool use, quando a IA aciona o seu sistema — explique como descrever
 
 **Prática.** Monte um "assistente da sua empresa" num Projeto do Claude com 5 documentos. Depois desenhe como ficaria a versão RAG se fossem 50 mil documentos.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 7.4: RAG e embeddings explicados — explique o que são embeddings (textos virando vetores de significado), como o RAG busca trechos da sua base antes de responder, e quando não precisa de RAG porque a base cabe inteira na janela de 1 milhão de tokens com prompt caching, com exemplo de escritório x loja
@@ -665,7 +665,7 @@ Aula 7.4: RAG e embeddings explicados — explique o que são embeddings (textos
 
 **Prática.** Escreva em uma página a especificação de um agente para seu trabalho: objetivo, ferramentas, modelo (lembre do Haiku para subtarefas), quando roda e o que exige aprovação humana.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 7.5: Como colocar agentes de IA em produção — compare o Claude Agent SDK, que é o Claude Code como biblioteca que você hospeda, e o Managed Agents, em que a Anthropic hospeda o agente e o ambiente, com o exemplo de um agente que confere pedidos e estoque toda noite e manda um relatório
@@ -683,7 +683,7 @@ Objetivo: o que separa quem "usa bem" de quem é referência: medir resultados, 
 
 **Prática.** Monte uma eval de 10 casos para a skill que você criou na Aula 5.2 e compare dois modelos.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 8.1: Evals, como provar que sua IA melhorou — explique o que é uma eval (casos de teste reais, resposta esperada e régua de nota), avaliação automática, humana e com outro modelo como juiz, e o exemplo de testar Haiku contra Sonnet numa skill de legendas para decidir se dá para economizar
@@ -697,7 +697,7 @@ Aula 8.1: Evals, como provar que sua IA melhorou — explique o que é uma eval 
 
 **Prática.** Escreva sua política pessoal de IA em 5 regras (o que nunca colar, quando revisar, quando avisar que usou IA).
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 8.2: Privacidade, LGPD e uso responsável de IA — explique quando a LGPD se aplica ao uso de IA, o que nunca colar num chat, como anonimizar dados trocando nomes por códigos, revisar as configurações de treinamento da conta e por que avisar quando um conteúdo foi feito com IA
@@ -711,7 +711,7 @@ Aula 8.2: Privacidade, LGPD e uso responsável de IA — explique quando a LGPD 
 
 **Prática.** Peça um Research: *"Qual a situação hoje do PL 2338/2023 na Câmara? Cite fontes oficiais."* Compare com o que está aqui.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 8.3: As leis de inteligência artificial na Europa e no Brasil — explique o AI Act europeu, com proibições desde fevereiro de 2025 e classificação por risco, e o PL 2338 de 2023, marco legal da IA aprovado no Senado em dezembro de 2024 e em análise na Câmara, de forma neutra e com fontes oficiais
@@ -730,11 +730,11 @@ Aula 8.3: As leis de inteligência artificial na Europa e no Brasil — explique
 | n8n, Make, Zapier | automações visuais ligando apps e IA |
 | Hugging Face | modelos abertos e cursos |
 
-**Exemplo.** O Estúdio Reels junta várias peças: Claude para roteiro, edge-tts para voz, Wikimedia para imagens, Remotion para montar o vídeo. Essa é a mentalidade de especialista: **compor ferramentas**, não depender de uma só.
+**Exemplo.** O Framecraft junta várias peças: Claude para roteiro, edge-tts para voz, Wikimedia para imagens, Remotion para montar o vídeo. Essa é a mentalidade de especialista: **compor ferramentas**, não depender de uma só.
 
 **Prática.** Monte um fluxo com pelo menos 3 ferramentas diferentes (ex.: Claude escreve → gerador de imagem ilustra → Canva monta o post).
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 8.4: O ecossistema de IA além do Claude — apresente ChatGPT e Gemini, NotebookLM para estudar documentos, Perplexity, geradores de imagem e vídeo (Midjourney, Veo, Sora, Runway, Kling), automação com n8n, Make e Zapier e a Hugging Face, e a mentalidade de combinar ferramentas em vez de depender de uma só
@@ -744,11 +744,11 @@ Aula 8.4: O ecossistema de IA além do Claude — apresente ChatGPT e Gemini, No
 
 **Explicação.** Você vira especialista quando resolve um problema real de ponta a ponta. Escolha um projeto que use pelo menos: uma skill, um conector ou MCP, um subagente com Haiku, uma automação agendada e uma eval. Documente o antes e depois (tempo e dinheiro economizados) — isso é seu portfólio. Para se manter atualizado, a IA muda a cada mês: acompanhe o blog e as notas de versão da Anthropic, a Anthropic Academy, e reserve 1 hora por semana para testar uma novidade.
 
-**Exemplo.** Projeto: "Assistente de conteúdo". Rotina toda segunda pesquisa tendências (subagente Haiku) → skill escreve 5 roteiros → você aprova → Estúdio Reels gera os vídeos → eval mede gancho e retenção.
+**Exemplo.** Projeto: "Assistente de conteúdo". Rotina toda segunda pesquisa tendências (subagente Haiku) → skill escreve 5 roteiros → você aprova → Framecraft gera os vídeos → eval mede gancho e retenção.
 
 **Prática.** Escreva em uma página o seu projeto final e um cronograma de 4 semanas para entregá-lo.
 
-**Linha para o Estúdio:**
+**Linha para o Framecraft:**
 
 ```
 Aula 8.5: Seu projeto final em IA e como se manter atualizado — mostre um projeto completo que combina skill, conector, subagente barato, automação agendada e avaliação, como documentar o antes e depois para virar portfólio, e o hábito de 1 hora por semana para testar novidades seguindo fontes oficiais

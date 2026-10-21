@@ -203,7 +203,7 @@ export const garantirRelease = async (tag: string, nome: string): Promise<Releas
   const c = lerConfig();
   return json(`/releases`, {
     method: "POST",
-    body: JSON.stringify({ tag_name: tag, target_commitish: c.ramo, name: nome, body: "Arquivos do Estúdio Reels (gerenciado pelo app).", prerelease: true }),
+    body: JSON.stringify({ tag_name: tag, target_commitish: c.ramo, name: nome, body: "Arquivos do Framecraft (gerenciado pelo app).", prerelease: true }),
   });
 };
 
