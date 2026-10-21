@@ -1,0 +1,1 @@
+Privacidade. Para a clonagem rodar no GitHub, o trecho de 10 segundos da sua voz precisa ficar no repositório Astra, que é público. O vídeo final também vai mostrar a sua voz clonada.
