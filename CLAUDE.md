@@ -1,4 +1,4 @@
-# Estúdio Reels — guia para o Claude
+# Framecraft — guia para o Claude
 
 PWA (React + Vite) que cria vídeos 9:16/16:9 com Remotion. Prévia ao vivo no app, render no GitHub Actions.
 - **Modo 1 (IA):** tema → Claude escreve `roteiro.json` → voz (edge-tts) + imagens (Wikimedia) → editor.

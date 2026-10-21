@@ -59,7 +59,7 @@ jobs:
 
       - name: Publicar na release "exportes"
         run: |
-          gh release view exportes > /dev/null 2>&1 || gh release create exportes --prerelease --title "Vídeos exportados" --notes "MP4 gerados pelo Estúdio Reels."
+          gh release view exportes > /dev/null 2>&1 || gh release create exportes --prerelease --title "Vídeos exportados" --notes "MP4 gerados pelo Framecraft."
           NOME="$ID--$(date -u +%Y%m%d-%H%M%S).mp4"
           mv out/video.mp4 "out/$NOME"
           gh release upload exportes "out/$NOME"

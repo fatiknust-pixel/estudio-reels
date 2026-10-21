@@ -1,7 +1,7 @@
 {
-  "name": "Estúdio Reels",
-  "short_name": "Estúdio",
-  "description": "Vídeos 9:16 com legenda palavra por palavra, cortes, efeitos e IA.",
+  "name": "Framecraft",
+  "short_name": "Framecraft",
+  "description": "Vídeos 9:16 e 16:9 com legenda palavra por palavra, cortes, efeitos e IA.",
   "lang": "pt-BR",
   "start_url": "./",
   "scope": "./",

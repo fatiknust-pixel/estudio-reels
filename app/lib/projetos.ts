@@ -108,11 +108,11 @@ export const salvarNoGitHub = async (p: Projeto, aviso?: (msg: string) => void) 
     const b = await local.arquivo(p.id, caminho);
     if (!b) continue;
     aviso?.(`Enviando ${caminho}…`);
-    await gh.salvarArquivo(`${pasta(p.id)}/${caminho}`, b, `Estúdio: ${p.id}/${caminho}`);
+    await gh.salvarArquivo(`${pasta(p.id)}/${caminho}`, b, `Framecraft: ${p.id}/${caminho}`);
   }
   aviso?.("Salvando projeto…");
   const final = { ...p, atualizadoEm: new Date().toISOString() };
-  await gh.salvarArquivo(`${pasta(p.id)}/projeto.json`, JSON.stringify(final, null, 1) + "\n", `Estúdio: salva ${p.titulo}`);
+  await gh.salvarArquivo(`${pasta(p.id)}/projeto.json`, JSON.stringify(final, null, 1) + "\n", `Framecraft: salva ${p.titulo}`);
   await local.salvarProjeto(final);
   limparSujo(p.id);
   return final;

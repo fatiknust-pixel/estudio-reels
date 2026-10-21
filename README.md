@@ -1,4 +1,4 @@
-# Estúdio Reels
+# Framecraft
 
 App pessoal (PWA, instalável no celular) para criar vídeos **9:16** profissionais (no Modo 1, também **16:9** e o visual **Videoaula**, de fundo branco), com prévia ao vivo
 (sem renderizar) e render final no **GitHub Actions**. Reaproveita a base do

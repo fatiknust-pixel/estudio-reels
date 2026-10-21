@@ -22,7 +22,7 @@ export const Config: React.FC = () => {
       avisarErro(e);
     }
   };
-  const novoToken = `https://github.com/settings/personal-access-tokens/new?name=Estudio%20Reels&description=App%20Estudio%20Reels&contents=write&actions=write`;
+  const novoToken = `https://github.com/settings/personal-access-tokens/new?name=Framecraft&description=App%20Framecraft&contents=write&actions=write`;
   return (
     <div className="tela">
       <div className="topo">

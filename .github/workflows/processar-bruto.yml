@@ -89,7 +89,7 @@ jobs:
       - name: Guardar vídeo para o render (release "brutos")
         if: inputs.etapa == 'tudo'
         run: |
-          gh release view brutos > /dev/null 2>&1 || gh release create brutos --prerelease --title "Vídeos brutos" --notes "Vídeos enviados pelo Estúdio Reels (normalizados para o render)."
+          gh release view brutos > /dev/null 2>&1 || gh release create brutos --prerelease --title "Vídeos brutos" --notes "Vídeos enviados pelo Framecraft (normalizados para o render)."
           cp out/fonte.mp4 "out/$ID--fonte.mp4"
           gh release upload brutos "out/$ID--fonte.mp4" --clobber
 
