@@ -1,0 +1,26 @@
+{
+  "titulo": "Framecraft",
+  "autor": "Fabio Sarri",
+  "voz": {
+    "voicestudio": { "instrucao": "male, young adult, moderate pitch", "velocidade": 1.1, "passos": 64 },
+    "edge": "pt-BR-AntonioNeural",
+    "velocidade": "+0%",
+    "kokoro": "pm_alex",
+    "kokoroVelocidade": 1.05
+  },
+  "bpm": 90,
+  "sem_batida": true,
+  "cenas": [
+    { "id": "abertura", "titulo": "Apresentação", "texto": "Este é o Framecraft, um aplicativo que eu desenvolvi para criar vídeos profissionais para as redes sociais, direto do celular.", "extra": 0.2 },
+    { "id": "problema", "titulo": "O problema", "texto": "Produzir um vídeo exige várias etapas: escrever o roteiro, gravar a narração, legendar, cortar e editar. Cada uma costuma pedir uma ferramenta diferente.", "extra": 0.3 },
+    { "id": "solucao", "titulo": "A solução", "texto": "A minha ideia foi reunir tudo em um só lugar. O Framecraft se instala como um aplicativo no celular e não precisa de servidor próprio.", "extra": 0.3 },
+    { "id": "modos", "titulo": "Dois modos", "texto": "Ele tem dois modos. No primeiro, a inteligência artificial cria o vídeo a partir de um tema. No segundo, o aplicativo edita um vídeo que você mesmo gravou.", "extra": 0.3 },
+    { "id": "ia", "titulo": "Modo IA", "texto": "No modo de inteligência artificial, eu digito o tema. O Claude pesquisa fontes e escreve o roteiro. Em seguida, o sistema gera a voz, busca as imagens com os créditos e monta as animações.", "extra": 0.3 },
+    { "id": "bruto", "titulo": "Vídeo bruto", "texto": "No modo de vídeo bruto, o aplicativo transcreve a fala palavra por palavra, corta as pausas, acompanha o rosto na câmera e destaca o que importa com zoom e legendas.", "extra": 0.3 },
+    { "id": "editor", "titulo": "O editor", "texto": "Tudo pode ser ajustado no editor, com prévia ao vivo: legendas, cores, fontes, efeitos e cortes. Quando está pronto, é só exportar o vídeo em alta qualidade.", "extra": 0.3 },
+    { "id": "arquitetura", "titulo": "Por dentro", "texto": "Por dentro, o aplicativo roda no navegador e conversa com o GitHub. O vídeo é renderizado automaticamente pelo GitHub Actions, e o arquivo final volta para o celular. A chave de acesso fica guardada só no aparelho.", "extra": 0.3 },
+    { "id": "tecnologia", "titulo": "Tecnologias", "texto": "Usei React e TypeScript na interface, Remotion para animar os vídeos, o Whisper para transcrever a fala e o OpenCV para reconhecer o rosto.", "extra": 0.4 },
+    { "id": "autoria", "titulo": "Autoria", "texto": "O projeto foi pensado, projetado e desenvolvido por mim, Fabio Sarri, com a inteligência artificial como parceira de desenvolvimento.", "extra": 0.4 },
+    { "id": "final", "titulo": "Créditos", "texto": "Framecraft. Da ideia ao vídeo, direto do celular.", "extra": 3.0 }
+  ]
+}
