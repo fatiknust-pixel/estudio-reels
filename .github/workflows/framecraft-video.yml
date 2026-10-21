@@ -1,0 +1,77 @@
+name: Framecraft apresentação (narração com voz clonada)
+
+# Gera a narração com o VoiceStudio (OmniVoice), clonando a voz de framecraft/voz/referencia.wav,
+# refaz a trilha no ritmo da narração e salva tudo de volta na branch. O vídeo é renderizado depois.
+on:
+  push:
+    paths:
+      - "framecraft/conteudo/**"
+      - "framecraft/scripts/**"
+      - ".github/workflows/framecraft-video.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: framecraft-video-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  narracao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: framecraft
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: framecraft/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+        run: |
+          npm ci
+          pip install numpy scipy
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: VoiceStudio (OmniVoice)
+        run: |
+          git clone --filter=blob:none https://github.com/debpalash/VoiceStudio "$RUNNER_TEMP/VoiceStudio"
+          git -C "$RUNNER_TEMP/VoiceStudio" checkout -q d819ff54d93017bf4a5b34b605833162163c9e3c
+          pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers==5.15.1 accelerate==1.14.0 huggingface-hub==1.28.0 pydub==0.25.1 soundfile==0.14.0 faster-whisper==1.2.1
+          echo "PYTHONPATH=$RUNNER_TEMP/VoiceStudio:$PWD/scripts" >> "$GITHUB_ENV"
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-omnivoice-whisper-small-framecraft-v1
+
+      - name: Narração
+        run: python3 scripts/gerar_audio.py --motor voicestudio
+
+      - name: Trilha e efeitos sonoros
+        run: python3 scripts/gerar_sons.py
+
+      - name: Checar tipos
+        run: npx tsc --noEmit
+
+      - name: Salvar narração e trilha no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/audio public/sfx src/gerado voz
+          if ! git diff --cached --quiet; then
+            git commit -m "Framecraft: narração com a voz clonada"
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
