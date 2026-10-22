@@ -1,0 +1,70 @@
+{
+ "versao": 1,
+ "id": "ia-20261022-9jr1",
+ "titulo": "5 pontos turísticos mais visitados no mundo",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "aula",
+ "criadoEm": "2026-10-22T13:24:51.485Z",
+ "atualizadoEm": "2026-10-22T13:24:51.488Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "5 pontos turísticos mais visitados no mundo",
+  "tom": "Curiosidades",
+  "duracao": 300,
+  "estilo": {
+   "dinamica": "cinema",
+   "legenda": "discreta",
+   "transicao": "zoom",
+   "fundo": "limpo",
+   "musica": "epica",
+   "formato": "lista",
+   "fonte": "raleway",
+   "paleta": "documentario"
+  },
+  "genero": {
+   "id": "lugares",
+   "nome": "Lugares incríveis e abandonados",
+   "instrucoes": "Viagem narrada por lugares reais: para cada lugar, onde fica (mapa ou tag com o país), a história de como surgiu ou foi abandonado e como está hoje. 'galeria' com 3 a 4 fotos por lugar. Nada de inventar lendas como se fossem fatos.",
+   "galeria": true
+  }
+ },
+ "formato": "16:9",
+ "visual": "aula",
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+0%",
+  "tratamento": true
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-22T13:24:51.485Z"
+ }
+}
