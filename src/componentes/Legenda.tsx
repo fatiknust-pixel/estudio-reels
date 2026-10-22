@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, useCurrentFrame } from "remotion";
 import { useQuadro, useVideo } from "../contexto";
-import { familiaDe } from "../fontes";
+import { FONTES, familiaDe } from "../fontes";
 import { PalavraTempo } from "../linhaTempo";
 
 // Texto escuro sobre cores claras (amarelo, branco…)
@@ -29,7 +29,7 @@ export const agrupar = (palavras: PalavraTempo[], n: number) => {
 };
 
 // Legenda palavra por palavra: cada palavra surge quando é falada e a palavra atual fica destacada.
-export const Legenda: React.FC = () => {
+const LegendaReels: React.FC = () => {
   const f = useCurrentFrame();
   const { linha, projeto } = useVideo();
   const q = useQuadro();
@@ -89,4 +89,64 @@ export const Legenda: React.FC = () => {
       </div>
     </AbsoluteFill>
   );
+};
+
+// Agrupa palavras em frases curtas (até `maxCaracteres`), quebrando nas pausas e na troca de cena.
+const agruparFrases = (palavras: PalavraTempo[], maxCaracteres: number) => {
+  const blocos: PalavraTempo[][] = [];
+  let atual: PalavraTempo[] = [];
+  let tam = 0;
+  palavras.forEach((w, i) => {
+    const anterior = palavras[i - 1];
+    if (atual.length && (tam + w.p.length + 1 > maxCaracteres || (anterior && (w.ini - anterior.fim > 9 || w.cena !== anterior.cena)))) {
+      blocos.push(atual);
+      atual = [];
+      tam = 0;
+    }
+    atual.push(w);
+    tam += w.p.length + 1;
+  });
+  if (atual.length) blocos.push(atual);
+  return blocos;
+};
+
+// Legenda de filmes e séries: a frase inteira aparece embaixo (até 2 linhas) e some quando termina de ser falada.
+const LegendaCinema: React.FC = () => {
+  const f = useCurrentFrame();
+  const { linha, projeto } = useVideo();
+  const q = useQuadro();
+  const L = projeto.legenda;
+  const largura = Math.min(q.largura - 140, 1500);
+  const maxCaracteres = Math.max(16, Math.floor((largura / (L.tamanho * 0.55)) * 1.8));
+  const blocos = useMemo(() => agruparFrases(linha.palavras, maxCaracteres), [linha, maxCaracteres]);
+  if (!L.mostrar) return null;
+  const idx = blocos.findIndex((t, i) => f >= t[0].ini && f < (blocos[i + 1]?.[0].ini ?? Infinity));
+  const bloco = blocos[idx];
+  if (!bloco || f > bloco[bloco.length - 1].fim + 8) return null;
+
+  const { familia } = familiaDe(L.fonte);
+  const pesos = (FONTES[L.fonte] ?? FONTES.montserrat).arquivos.map(([p]) => Number(p));
+  const peso = Math.min(...pesos); // o corte mais fino disponível: letra de legenda é leve
+  const aparece = Math.min(1, (f - bloco[0].ini + 1) / 4);
+  const texto = bloco.map((w) => w.p).join(" ");
+  const sombra = "0 0 4px #000, 0 2px 6px #000, 0 0 14px rgba(0,0,0,.85)";
+  return (
+    <AbsoluteFill style={{ top: "auto", height: 320, bottom: q.altura - (L.posicao / 100) * q.altura, alignItems: "center", justifyContent: "flex-end", pointerEvents: "none" }}>
+      <div
+        style={{
+          maxWidth: largura, textAlign: "center", fontFamily: familia, fontWeight: peso, fontSize: L.tamanho, lineHeight: 1.25, color: L.cor, opacity: aparece,
+          textTransform: L.maiusculas ? "uppercase" : "none", textShadow: sombra,
+          WebkitTextStroke: L.contorno ? `${L.contorno}px #000` : undefined, paintOrder: "stroke fill",
+          ...(L.fundo === "caixa" ? { background: "rgba(0,0,0,.62)", padding: "6px 24px", borderRadius: 8 } : {}),
+        }}
+      >
+        {texto}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+export const Legenda: React.FC = () => {
+  const { projeto } = useVideo();
+  return projeto.legenda.modo === "cinema" ? <LegendaCinema /> : <LegendaReels />;
 };

@@ -49,7 +49,7 @@ Todo `roteiro.json` tem um objeto `estilo`. Ele muda o **ritmo e o movimento** d
 | campo | opções |
 |---|---|
 | `dinamica` | `energetica`, `cinema`, `jornal`, `glitch`, `colagem`, `minimal`, `padrao` (veja abaixo) |
-| `legenda` | `karaoke` (3 palavras, a falada colorida), `palavra` (uma palavra gigante por vez), `caixa` (palavra falada dentro de uma caixa colorida), `discreta` (frase pequena, estilo documentário) |
+| `legenda` | `karaoke` (3 palavras, a falada colorida), `palavra` (uma palavra gigante por vez), `caixa` (palavra falada dentro de uma caixa colorida), `discreta` (frase pequena, estilo documentário), `cinema` (frase inteira embaixo, como legenda de filme e série) |
 | `transicao` | `faixas`, `zoom` (zoom com desfoque), `deslize` (cena entra pela lateral), `flash` (clarão), `circulo` (abre em círculo) |
 | `fundo` | `grade`, `ondas`, `pontos`, `raios`, `limpo`, `bandeira` (só para temas do Brasil) |
 | `musica` | `tensao`, `leve`, `epica`, `nenhuma` |

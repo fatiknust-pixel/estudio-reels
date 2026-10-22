@@ -17,6 +17,7 @@ export type EstiloLegenda = {
   fundo: "nenhum" | "caixa" | "palavra"; // caixa atrás da tela / atrás da palavra ativa
   animacao: "pop" | "subir" | "nenhuma";
   mostrar: boolean;
+  modo?: "reels" | "cinema"; // reels (padrão): palavra por palavra; cinema: frases embaixo, como legenda de filmes e séries
 };
 
 export type Titulo = { id: string; texto: string; sub?: string; i: number; f: number; posicao?: number; cor?: string };
@@ -47,7 +48,7 @@ export type Efeitos = {
 export type Dinamica = "padrao" | "energetica" | "cinema" | "jornal" | "glitch" | "colagem" | "minimal";
 export type EstiloIA = {
   dinamica: Dinamica;
-  legenda?: "karaoke" | "palavra" | "caixa" | "discreta";
+  legenda?: "karaoke" | "palavra" | "caixa" | "discreta" | "cinema";
   transicao: "faixas" | "zoom" | "deslize" | "flash" | "circulo";
   fundo: "grade" | "ondas" | "pontos" | "raios" | "limpo" | "bandeira";
   formato?: string;
@@ -136,6 +137,17 @@ export const LEGENDA_PADRAO: EstiloLegenda = {
   animacao: "pop",
   mostrar: true,
 };
+
+// Legenda de filmes e séries: frases de até 2 linhas na parte de baixo, sem destaque nem animação.
+// "posicao" aqui é onde fica a borda de baixo da legenda (% da altura).
+export const LEGENDA_CINEMA: Partial<EstiloLegenda> = {
+  modo: "cinema", fonte: "montserrat", tamanho: 60, cor: "#FFFFFF", posicao: 91, palavrasPorTela: 8, maiusculas: false, contorno: 0, fundo: "nenhum", animacao: "nenhuma",
+};
+// Volta ao palavra por palavra (valores de LEGENDA_PADRAO; no 16:9 maior posição/tamanho menor)
+export const LEGENDA_REELS = (horizontal: boolean): Partial<EstiloLegenda> => ({
+  modo: "reels", fonte: LEGENDA_PADRAO.fonte, tamanho: horizontal ? 78 : LEGENDA_PADRAO.tamanho, cor: LEGENDA_PADRAO.cor, posicao: horizontal ? 82 : LEGENDA_PADRAO.posicao,
+  palavrasPorTela: LEGENDA_PADRAO.palavrasPorTela, maiusculas: LEGENDA_PADRAO.maiusculas, contorno: LEGENDA_PADRAO.contorno, fundo: LEGENDA_PADRAO.fundo, animacao: LEGENDA_PADRAO.animacao,
+});
 
 export const EFEITOS_PADRAO: Efeitos = {
   barraProgresso: true,

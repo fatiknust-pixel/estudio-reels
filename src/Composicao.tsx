@@ -19,7 +19,7 @@ export const Composicao: React.FC<PropsVideo> = ({ projeto, arquivos }) => (
   <ProvedorVideo projeto={projeto} arquivos={arquivos}>
     <AbsoluteFill style={{ background: projeto.visual === "aula" ? "#FFFFFF" : temaDe(projeto.tema).fundo, overflow: "hidden", ["--fonte" as any]: `'${FONTES[projeto.legenda.fonte]?.familia ?? "Montserrat"}'` }}>
       {projeto.modo === "bruto" ? <ModoBruto /> : projeto.visual === "aula" ? <ModoAula /> : <ModoIA />}
-      {projeto.visual === "aula" ? <LegendaAula /> : <Legenda />}
+      {projeto.visual === "aula" && projeto.legenda.modo !== "cinema" ? <LegendaAula /> : <Legenda />}
       <CamadaEfeitos />
     </AbsoluteFill>
   </ProvedorVideo>
