@@ -49,6 +49,7 @@ export const NovoIA: React.FC = () => {
   // Gênero = ponto de partida: formato, duração, tom e estilo do gênero (tudo continua editável)
   const escolherGenero = (g: Genero | null) => {
     setGenero(g);
+    if (g?.galeria) setVisual("reels"); // canal dark vive de fotos e movimento; a videoaula é de slides simples
     if (!g) {
       setEstilo(ESTILO_INICIAL);
       setTomLivre("");
@@ -186,6 +187,7 @@ export const NovoIA: React.FC = () => {
 
       <h3>Visual</h3>
       <Escolha opcoes={VISUAIS} valor={visual} mudar={(v) => { setVisual(v); if (v === "aula") setFormato("16:9"); }} />
+      {genero?.galeria && visual === "aula" && <p className="pequeno suave">Para vídeo de canal dark, o visual Reels (fotos em tela cheia, movimento e legenda animada) fica bem melhor que a videoaula.</p>}
 
       <h3>Formato</h3>
       <Escolha opcoes={FORMATOS} valor={formato} mudar={setFormato} />

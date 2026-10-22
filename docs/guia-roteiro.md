@@ -121,7 +121,7 @@ acompanhe sem se entediar**, sem perder a seriedade: ritmo de Reels, conteúdo d
   Um `comentario` ("comenta aí qual você usa") pode entrar no exemplo ou no resumo.
 - Fundos: o tema quase nunca tem foto livre útil, então deixe a maioria das cenas com fundo animado
   (sem `fundo`). Use `imagens.json` só para pessoas, empresas ou lugares reais — nas videoaulas, 2 a 4
-  imagens bastam (exceção à regra geral de 4 a 9).
+  imagens bastam, salvo quando a aula cita algo concreto com foto própria — aí use `fundo`/`galeria`, que aparecem à esquerda do slide.
 - `formato`: `explicativo` por padrão; `comparacao` quando a aula compara (ex.: modelos, planos);
   `lista` quando o briefing enumera itens; `mito-verdade` quando a aula é sobre erros e limites.
 
@@ -245,8 +245,15 @@ chave escudo camadas terminal plug calendario email estrela ferramenta lista pla
 - `commons`: busca no Wikimedia Commons (para locais, objetos, eventos).
 - `arquivo`: nome exato de um arquivo do Commons (tem prioridade, use se você confirmou que existe).
 - `rotulo`: legenda curta mostrada no crédito.
-- 4 a 9 imagens; só imagens livres do Commons (o autor e a licença aparecem no vídeo).
-  Pode combinar `wiki` + `commons` como plano B.
+- Só imagens livres do Commons (o autor e a licença aparecem no vídeo). Combine `wiki` + `commons` como
+  plano B (sempre preencha os dois quando puder: se um não achar foto, o outro tenta).
+- **Pesquise a imagem do que a fala cita.** Antes de escrever o `imagens.json`, releia cada cena e liste
+  o que ela menciona de concreto (pessoa, lugar, empresa, produto, objeto, animal, órgão, época,
+  evento). Para cada item, uma imagem com `wiki` = título do artigo da Wikipédia em português que
+  mostre exatamente aquilo (use WebSearch para achar o título certo) e `commons` = busca descritiva
+  em português ou inglês. Fora das videoaulas, **pelo menos 60% das cenas** precisam de `fundo` ou
+  `galeria` com foto do assunto da fala; quanto mais concreta a cena, mais fotos (2 a 4 por cena). Não
+  use foto genérica quando o assunto tiver foto própria (ex.: "Torre Eiffel", não "turismo").
 
 ## Exemplo completo
 

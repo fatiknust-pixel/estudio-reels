@@ -40,7 +40,8 @@ export const GameplayFundo: React.FC = () => {
 
 // Fotos da cena como cartões por cima da gameplay: entram com um pulinho, se sucedem com fusão
 // (nos tempos de galeriaEm) e têm um zoom lento dentro do cartão.
-export const FotosCartoes: React.FC<{ chave?: string; galeria?: string[]; inicios?: number[]; duracao: number }> = ({ chave, galeria, inicios, duracao }) => {
+export type Caixa = { x: number; y: number; w: number; h: number };
+export const FotosCartoes: React.FC<{ chave?: string; galeria?: string[]; inicios?: number[]; duracao: number; caixa?: Caixa; claro?: boolean }> = ({ chave, galeria, inicios, duracao, caixa, claro }) => {
   const f = useCurrentFrame();
   const { imagem } = useVideo();
   const q = useQuadro();
@@ -49,10 +50,11 @@ export const FotosCartoes: React.FC<{ chave?: string; galeria?: string[]; inicio
   const itens = chaves.map((k, i) => ({ u: imagem(k), ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; ini: number } => !!x.u);
   const fotos = itens.map((x) => x.u);
   if (!fotos.length) return null;
-  const largura = q.horizontal ? q.texto - 140 : q.largura - 140;
-  const altura = q.horizontal ? Math.round(largura * 0.6) : 780;
-  const x = 70;
-  const y = q.horizontal ? 90 : 170;
+  // sem "caixa": cartão grande no alto (vertical) ou na coluna da esquerda (horizontal)
+  const largura = caixa?.w ?? (q.horizontal ? q.texto - 140 : q.largura - 140);
+  const altura = caixa?.h ?? (q.horizontal ? Math.round(largura * 0.6) : 780);
+  const x = caixa?.x ?? 70;
+  const y = caixa?.y ?? (q.horizontal ? 90 : 170);
   const entra = interpolate(f, [0, 9], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const pulo = 0.9 + 0.1 * entra;
   return (
@@ -60,7 +62,7 @@ export const FotosCartoes: React.FC<{ chave?: string; galeria?: string[]; inicio
       <div
         style={{
           position: "absolute", left: x, top: y, width: largura, height: altura, borderRadius: 30, overflow: "hidden", background: "#000",
-          boxShadow: "0 24px 70px rgba(0,0,0,.65), 0 0 0 5px rgba(255,255,255,.92)",
+          boxShadow: claro ? "0 14px 40px rgba(0,0,0,.22), 0 0 0 1px rgba(0,0,0,.08)" : "0 24px 70px rgba(0,0,0,.65), 0 0 0 5px rgba(255,255,255,.92)",
           opacity: entra, transform: `scale(${pulo})`,
         }}
       >

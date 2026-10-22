@@ -106,6 +106,12 @@ if (roteiro) {
     const total = (roteiro.cenas ?? []).length;
     if (com < Math.ceil(total * 0.7)) erros.push(`gênero "${genero.nome}" é guiado por imagens: pelo menos ${Math.ceil(total * 0.7)} das ${total} cenas precisam de "galeria" com 2 a 8 fotos (hoje: ${com})`);
   }
+  // vídeo que não é videoaula: a imagem na tela tem de mostrar o que está sendo dito (foto em fundo ou galeria)
+  if (!genero?.galeria && projeto?.visual !== "aula") {
+    const total = (roteiro.cenas ?? []).length;
+    const com = (roteiro.cenas ?? []).filter((c) => c.fundo || (Array.isArray(c.galeria) && c.galeria.length)).length;
+    if (com < Math.ceil(total * 0.6)) erros.push(`pelo menos ${Math.ceil(total * 0.6)} das ${total} cenas precisam de foto do assunto exato da fala ("fundo" ou "galeria"; hoje: ${com})`);
+  }
   if (!temEnquete && !genero) avisos.push("nenhum elemento 'enquete' (pergunta final para o público)");
   if (!temSeguir) avisos.push("nenhum elemento 'seguir' (CTA)");
   const alvo = Number(projeto?.pedido?.duracao) || 0;
