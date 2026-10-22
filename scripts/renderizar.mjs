@@ -47,6 +47,7 @@ if (projeto.modo === "ia") {
   const copia = path.join(destino, "projeto.json");
   execFileSync("python3", ["scripts/voz.py", copia], { stdio: "inherit", cwd: RAIZ });
   execFileSync("node", ["scripts/imagens.mjs", copia], { stdio: "inherit", cwd: RAIZ });
+  execFileSync("python3", ["scripts/enquadrar.py", copia], { stdio: "inherit", cwd: RAIZ }); // mede as fotos que ainda não foram medidas
   Object.assign(projeto, JSON.parse(fs.readFileSync(copia, "utf8")));
 }
 

@@ -43,7 +43,7 @@ jobs:
 
       - name: Instalar voz e ffmpeg
         run: |
-          pip install edge-tts==7.3.1
+          pip install edge-tts==7.3.1 opencv-python-headless==4.10.0.84
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
 
       - name: Voz e imagens
@@ -51,6 +51,7 @@ jobs:
           mkdir -p out && cp "projetos/$ID/projeto.json" out/projeto.json
           python3 scripts/voz.py out/projeto.json --midia "projetos/$ID"
           node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID"
+          python3 scripts/enquadrar.py out/projeto.json --midia "projetos/$ID"
 
       - name: Salvar
         run: |

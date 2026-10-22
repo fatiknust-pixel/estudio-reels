@@ -7,6 +7,7 @@ import { useVideo } from "../contexto";
 import { familiaDe } from "../fontes";
 import { ElementoTempo } from "../linhaTempo";
 import { Icone } from "../componentes/Icone";
+import { FotoEnquadrada } from "../foto";
 
 export const A = {
   preto: "#111111", texto: "#1F1F1F", suave: "#6B6B6B", linha: "#E7E7E7", papel: "#F6F6F4",
@@ -319,7 +320,8 @@ const Relogio: React.FC<{ e: ElementoTempo; u: number }> = ({ e, u }) => {
 const Pessoa: React.FC<{ e: ElementoTempo; u: number }> = ({ e, u }) => {
   const m = useEntrada();
   const anel = useTraco(0, 22);
-  const src = useVideo().imagem(e.imagem);
+  const { imagem, projeto } = useVideo();
+  const src = imagem(e.imagem);
   const D = 230 * u;
   const iniciais = String(e.nome ?? "").split(" ").map((p) => p[0]).slice(0, 2).join("");
   return (
@@ -329,7 +331,7 @@ const Pessoa: React.FC<{ e: ElementoTempo; u: number }> = ({ e, u }) => {
           <circle cx="50" cy="50" r="48" fill="none" stroke={A.laranja} strokeWidth={2.2} pathLength={1} strokeDasharray={1} strokeDashoffset={1 - anel} transform="rotate(-90 50 50)" />
         </svg>
         <div style={{ position: "absolute", left: 10 * u, top: 10 * u, width: D, height: D, borderRadius: "50%", overflow: "hidden", background: A.papel, display: "grid", placeItems: "center", opacity: m }}>
-          {src ? <Img src={src} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} /> : <div style={txt(90 * u, 800, A.suave)}>{iniciais}</div>}
+          {src ? <FotoEnquadrada src={src} info={projeto.imagens?.[e.imagem]} w={D} h={D} redonda /> : <div style={txt(90 * u, 800, A.suave)}>{iniciais}</div>}
         </div>
       </div>
       <Sobe m={m}>

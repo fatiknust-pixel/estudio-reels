@@ -75,6 +75,8 @@ export type NarracaoCena = { hash?: string; texto?: string; audio: string; durac
 export type ImagemInfo = {
   arquivo: string; rotulo?: string; autor?: string; licenca?: string; pagina?: string; titulo?: string;
   wiki?: string; commons?: string; arquivoCommons?: string; busca?: string; propria?: boolean;
+  // medidas por scripts/enquadrar.py: tamanho da foto, rostos achados e o centro do assunto (% da foto)
+  largura?: number; altura?: number; rostos?: number; foco?: { x: number; y: number };
 };
 
 // ----- Modo 2 (bruto) -----
