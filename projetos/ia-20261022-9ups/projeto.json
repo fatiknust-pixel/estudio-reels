@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "neon",
  "criadoEm": "2026-10-22T08:13:35.548Z",
- "atualizadoEm": "2026-10-22T08:53:19Z",
+ "atualizadoEm": "2026-10-22T20:46:23Z",
  "status": "pronto",
  "legenda": {
   "fonte": "oswald",
@@ -7757,7 +7757,14 @@
    "autor": "pikkuanna",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Midpoint_Nokia_Karaportti.jpg",
-   "titulo": "File:Midpoint Nokia Karaportti.jpg"
+   "titulo": "File:Midpoint Nokia Karaportti.jpg",
+   "largura": 1920,
+   "altura": 1153,
+   "rostos": 0,
+   "foco": {
+    "x": 41.0,
+    "y": 59.8
+   }
   },
   "idestam": {
    "arquivo": "imagens/idestam-42566418.jpg",
@@ -7766,7 +7773,14 @@
    "autor": "Gösta Florman",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Fredrik_Idestam.png",
-   "titulo": "File:Fredrik Idestam.png"
+   "titulo": "File:Fredrik Idestam.png",
+   "largura": 200,
+   "altura": 285,
+   "rostos": 2,
+   "foco": {
+    "x": 71.5,
+    "y": 37.5
+   }
   },
   "tampere": {
    "arquivo": "imagens/tampere-86a6cbc2.jpg",
@@ -7776,7 +7790,14 @@
    "autor": "Ville Oksanen, Leo-setä, Tiia Monto, Cryonic07, Rayshade, Mikko Paananen",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Tampere_Montage_1.jpg",
-   "titulo": "File:Tampere Montage 1.jpg"
+   "titulo": "File:Tampere Montage 1.jpg",
+   "largura": 1750,
+   "altura": 2952,
+   "rostos": 0,
+   "foco": {
+    "x": 53.7,
+    "y": 54.6
+   }
   },
   "nokia-fabrica": {
    "arquivo": "imagens/nokia-fabrica-b6bf5cd0.jpg",
@@ -7786,7 +7807,14 @@
    "autor": "pikkuanna",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Midpoint_Nokia_Karaportti.jpg",
-   "titulo": "File:Midpoint Nokia Karaportti.jpg"
+   "titulo": "File:Midpoint Nokia Karaportti.jpg",
+   "largura": 1920,
+   "altura": 1153,
+   "rostos": 0,
+   "foco": {
+    "x": 41.0,
+    "y": 59.8
+   }
   },
   "nokia-cidade": {
    "arquivo": "imagens/nokia-cidade-e415c738.jpg",
@@ -7796,7 +7824,14 @@
    "autor": "Oktoober",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia-kirik3.jpg",
-   "titulo": "File:Nokia-kirik3.jpg"
+   "titulo": "File:Nokia-kirik3.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 70.8,
+    "y": 32.6
+   }
   },
   "ollila": {
    "arquivo": "imagens/ollila-9147d649.jpg",
@@ -7805,7 +7840,14 @@
    "autor": "Soppakanuuna",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Jorma_Ollila.jpg",
-   "titulo": "File:Jorma Ollila.jpg"
+   "titulo": "File:Jorma Ollila.jpg",
+   "largura": 1281,
+   "altura": 1854,
+   "rostos": 1,
+   "foco": {
+    "x": 70.9,
+    "y": 33.5
+   }
   },
   "nokia-sede": {
    "arquivo": "",
@@ -7819,7 +7861,14 @@
    "autor": "Wasielgallery",
    "licenca": "CC BY 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Jerzy_Gorbas.jpg",
-   "titulo": "File:Jerzy Gorbas.jpg"
+   "titulo": "File:Jerzy Gorbas.jpg",
+   "largura": 863,
+   "altura": 1316,
+   "rostos": 1,
+   "foco": {
+    "x": 39.3,
+    "y": 39.2
+   }
   },
   "gsm": {
    "arquivo": "imagens/gsm-ac192691.jpg",
@@ -7829,7 +7878,14 @@
    "autor": "Eliot Philips aka \"Hack A Day\" (https://www.flickr.com/people/hackaday/)",
    "licenca": "CC BY 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Unloading_the_NinjaTel_Van,_DEF_CON_20.jpg",
-   "titulo": "File:Unloading the NinjaTel Van, DEF CON 20.jpg"
+   "titulo": "File:Unloading the NinjaTel Van, DEF CON 20.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.4,
+    "y": 61.2
+   }
   },
   "motorola": {
    "arquivo": "imagens/motorola-bd053801.jpg",
@@ -7839,7 +7895,14 @@
    "autor": "Wonderlane",
    "licenca": "CC0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Expressions,_using_Motorola_Solutions_products_on_the_walls,_corporate_headquarters,_Schaumburg,_Illinois,_USA.jpg",
-   "titulo": "File:Expressions, using Motorola Solutions products on the walls, corporate headquarters, Schaumburg, Illinois, USA.jpg"
+   "titulo": "File:Expressions, using Motorola Solutions products on the walls, corporate headquarters, Schaumburg, Illinois, USA.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 47.6
+   }
   },
   "nokia-2110": {
    "arquivo": "imagens/nokia-2110-8ec9ba9b.jpg",
@@ -7848,7 +7911,14 @@
    "autor": "Mustaraamattu",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_2110i_NHE-4NX.jpg",
-   "titulo": "File:Nokia 2110i NHE-4NX.jpg"
+   "titulo": "File:Nokia 2110i NHE-4NX.jpg",
+   "largura": 1920,
+   "altura": 3437,
+   "rostos": 1,
+   "foco": {
+    "x": 50.8,
+    "y": 58.7
+   }
   },
   "n3310": {
    "arquivo": "imagens/n3310-33122833.jpg",
@@ -7857,7 +7927,14 @@
    "autor": "smial (talk)",
    "licenca": "FAL",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_3310_Blue_R7309170_(retouch).jpg",
-   "titulo": "File:Nokia 3310 Blue R7309170 (retouch).jpg"
+   "titulo": "File:Nokia 3310 Blue R7309170 (retouch).jpg",
+   "largura": 1140,
+   "altura": 2280,
+   "rostos": 0,
+   "foco": {
+    "x": 53.1,
+    "y": 70.0
+   }
   },
   "n1100": {
    "arquivo": "imagens/n1100-c45a63e7.jpg",
@@ -7866,7 +7943,14 @@
    "autor": "Mgpa",
    "licenca": "CC BY 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_1100_Series.jpg",
-   "titulo": "File:Nokia 1100 Series.jpg"
+   "titulo": "File:Nokia 1100 Series.jpg",
+   "largura": 879,
+   "altura": 1827,
+   "rostos": 0,
+   "foco": {
+    "x": 53.8,
+    "y": 22.2
+   }
   },
   "n95": {
    "arquivo": "imagens/n95-85000a1d.jpg",
@@ -7875,7 +7959,14 @@
    "autor": "Asim18",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:N95_Front-slide-open.jpg",
-   "titulo": "File:N95 Front-slide-open.jpg"
+   "titulo": "File:N95 Front-slide-open.jpg",
+   "largura": 1920,
+   "altura": 1412,
+   "rostos": 0,
+   "foco": {
+    "x": 59.1,
+    "y": 53.0
+   }
   },
   "communicator": {
    "arquivo": "imagens/communicator-756234b3.jpg",
@@ -7884,7 +7975,14 @@
    "autor": "The original uploader was Loui at German Wikipedia.",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_Communicator_9000_(geschlossen).jpg",
-   "titulo": "File:Nokia Communicator 9000 (geschlossen).jpg"
+   "titulo": "File:Nokia Communicator 9000 (geschlossen).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 58.4,
+    "y": 49.0
+   }
   },
   "iphone": {
    "arquivo": "imagens/iphone-989d8be4.jpg",
@@ -7894,7 +7992,14 @@
    "autor": "Andrew from London, UK",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Original_iPhone_docked.jpg",
-   "titulo": "File:Original iPhone docked.jpg"
+   "titulo": "File:Original iPhone docked.jpg",
+   "largura": 1496,
+   "altura": 2256,
+   "rostos": 0,
+   "foco": {
+    "x": 38.9,
+    "y": 31.2
+   }
   },
   "jobs": {
    "arquivo": "imagens/jobs-3d37f878.jpg",
@@ -7903,7 +8008,14 @@
    "autor": "Matthew Yohe",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
-   "titulo": "File:Steve Jobs Headshot 2010 (cropped 4).jpg"
+   "titulo": "File:Steve Jobs Headshot 2010 (cropped 4).jpg",
+   "largura": 1920,
+   "altura": 2556,
+   "rostos": 2,
+   "foco": {
+    "x": 53.3,
+    "y": 37.0
+   }
   },
   "symbian": {
    "arquivo": "imagens/symbian-618621f6.jpg",
@@ -7913,7 +8025,14 @@
    "autor": "Asimzb",
    "licenca": "CC BY 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_E52_2.jpg",
-   "titulo": "File:Nokia E52 2.jpg"
+   "titulo": "File:Nokia E52 2.jpg",
+   "largura": 1920,
+   "altura": 2617,
+   "rostos": 0,
+   "foco": {
+    "x": 55.8,
+    "y": 64.4
+   }
   },
   "n8": {
    "arquivo": "imagens/n8-e2444821.jpg",
@@ -7922,12 +8041,30 @@
    "autor": "Editor182 (talk)",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_N8_(front_view).jpg",
-   "titulo": "File:Nokia N8 (front view).jpg"
+   "titulo": "File:Nokia N8 (front view).jpg",
+   "largura": 1209,
+   "altura": 2267,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 66.2
+   }
   },
   "elop": {
-   "arquivo": "",
+   "arquivo": "imagens/elop-cf3a9b4c.jpg",
    "rotulo": "Stephen Elop",
-   "wiki": "Stephen Elop"
+   "wiki": "Stephen Elop",
+   "autor": "luca.sartoni",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Stephen_elop.jpg",
+   "titulo": "File:Stephen elop.jpg",
+   "largura": 1920,
+   "altura": 1269,
+   "rostos": 2,
+   "foco": {
+    "x": 43.4,
+    "y": 38.5
+   }
   },
   "microsoft": {
    "arquivo": "imagens/microsoft-30657933.jpg",
@@ -7937,7 +8074,14 @@
    "autor": "Jelson25",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Aerial_Microsoft_West_Campus_August_2009.jpg",
-   "titulo": "File:Aerial Microsoft West Campus August 2009.jpg"
+   "titulo": "File:Aerial Microsoft West Campus August 2009.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 52.5
+   }
   },
   "plataforma": {
    "arquivo": "imagens/plataforma-fd60a637.jpg",
@@ -7946,7 +8090,14 @@
    "autor": "ESA (Sentinel-2B)",
    "licenca": "Attribution",
    "pagina": "https://commons.wikimedia.org/wiki/File:Offshore_oil_platform_in_fire_near_Changshan_Islands.jpg",
-   "titulo": "File:Offshore oil platform in fire near Changshan Islands.jpg"
+   "titulo": "File:Offshore oil platform in fire near Changshan Islands.jpg",
+   "largura": 1920,
+   "altura": 1182,
+   "rostos": 0,
+   "foco": {
+    "x": 54.7,
+    "y": 38.4
+   }
   },
   "pedra-mar": {
    "arquivo": "imagens/pedra-mar-29ff9ba5.jpg",
@@ -7955,7 +8106,14 @@
    "autor": "NAC",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:1_North_Sea_oil_platform_240918.jpg",
-   "titulo": "File:1 North Sea oil platform 240918.jpg"
+   "titulo": "File:1 North Sea oil platform 240918.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 80
+   }
   },
   "lumia800": {
    "arquivo": "imagens/lumia800-6c72159e.jpg",
@@ -7964,12 +8122,30 @@
    "autor": "Tarek Guez-Guez",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_800_-_Bleu.png",
-   "titulo": "File:Nokia Lumia 800 - Bleu.png"
+   "titulo": "File:Nokia Lumia 800 - Bleu.png",
+   "largura": 415,
+   "altura": 600,
+   "rostos": 0,
+   "foco": {
+    "x": 49.2,
+    "y": 20
+   }
   },
   "winphone": {
-   "arquivo": "",
+   "arquivo": "imagens/winphone-40896a77.jpg",
    "rotulo": "Windows Phone",
-   "wiki": "Windows Phone"
+   "wiki": "Windows Phone",
+   "autor": "ϺΥ ΡΗΟΝΕ",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Windows_Phone.jpg",
+   "titulo": "File:Windows Phone.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 57.8,
+    "y": 34.3
+   }
   },
   "samsung": {
    "arquivo": "imagens/samsung-f5cf2c60.jpg",
@@ -7979,7 +8155,14 @@
    "autor": "Oskar Alexanderson",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Samsung_headquarters.jpg",
-   "titulo": "File:Samsung headquarters.jpg"
+   "titulo": "File:Samsung headquarters.jpg",
+   "largura": 1920,
+   "altura": 1521,
+   "rostos": 0,
+   "foco": {
+    "x": 47.6,
+    "y": 64.0
+   }
   },
   "android": {
    "arquivo": "imagens/android-a21bfd5a.jpg",
@@ -7989,7 +8172,14 @@
    "autor": "Addonian1123",
    "licenca": "Apache License 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Android_17_Beta_3_Screenshot_pt.png",
-   "titulo": "File:Android 17 Beta 3 Screenshot pt.png"
+   "titulo": "File:Android 17 Beta 3 Screenshot pt.png",
+   "largura": 1080,
+   "altura": 2400,
+   "rostos": 1,
+   "foco": {
+    "x": 15.1,
+    "y": 80.8
+   }
   },
   "redmond": {
    "arquivo": "imagens/redmond-e55df140.jpg",
@@ -7999,7 +8189,14 @@
    "autor": "Sam.Meyer.Marton",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Redmond_transit_center.jpg",
-   "titulo": "File:Redmond transit center.jpg"
+   "titulo": "File:Redmond transit center.jpg",
+   "largura": 1920,
+   "altura": 1272,
+   "rostos": 0,
+   "foco": {
+    "x": 43.0,
+    "y": 46.8
+   }
   },
   "lumia-ms": {
    "arquivo": "imagens/lumia-ms-157e833f.jpg",
@@ -8008,12 +8205,30 @@
    "autor": "Mike Browne",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_%26_Microsoft_Lumia_devices.png",
-   "titulo": "File:Nokia & Microsoft Lumia devices.png"
+   "titulo": "File:Nokia & Microsoft Lumia devices.png",
+   "largura": 632,
+   "altura": 432,
+   "rostos": 0,
+   "foco": {
+    "x": 44.3,
+    "y": 49.8
+   }
   },
   "hmd": {
-   "arquivo": "",
+   "arquivo": "imagens/hmd-533435c2.jpg",
    "rotulo": "HMD Global",
-   "wiki": "HMD Global"
+   "wiki": "HMD Global",
+   "autor": "HMD",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:HMD_Global_logo_2024.png",
+   "titulo": "File:HMD Global logo 2024.png",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 53.6,
+    "y": 51.6
+   }
   },
   "n3310-novo": {
    "arquivo": "imagens/n3310-novo-6a075aae.jpg",
@@ -8023,7 +8238,14 @@
    "autor": "Pixabay user bijutoha",
    "licenca": "CC0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_3310_2017.png",
-   "titulo": "File:Nokia 3310 2017.png"
+   "titulo": "File:Nokia 3310 2017.png",
+   "largura": 1152,
+   "altura": 1920,
+   "rostos": 5,
+   "foco": {
+    "x": 49.7,
+    "y": 57.3
+   }
   },
   "nokia-logo": {
    "arquivo": "imagens/nokia-logo-b6bf5cd0.jpg",
@@ -8033,7 +8255,14 @@
    "autor": "pikkuanna",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Midpoint_Nokia_Karaportti.jpg",
-   "titulo": "File:Midpoint Nokia Karaportti.jpg"
+   "titulo": "File:Midpoint Nokia Karaportti.jpg",
+   "largura": 1920,
+   "altura": 1153,
+   "rostos": 0,
+   "foco": {
+    "x": 41.0,
+    "y": 59.8
+   }
   },
   "espoo": {
    "arquivo": "imagens/espoo-966ac502.jpg",
@@ -8043,7 +8272,14 @@
    "autor": "Vuo, Junafani, Arto Sipinen, Mustikka, Tuppence1, J-P Kärnä, Htm",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Espoo_Montage_1.jpg",
-   "titulo": "File:Espoo Montage 1.jpg"
+   "titulo": "File:Espoo Montage 1.jpg",
+   "largura": 1750,
+   "altura": 2914,
+   "rostos": 0,
+   "foco": {
+    "x": 63.9,
+    "y": 45.9
+   }
   },
   "nokia-final": {
    "arquivo": "imagens/nokia-final-389560e9.jpg",
@@ -8052,7 +8288,14 @@
    "autor": "Unknown",
    "licenca": "CC BY 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_N92.jpg",
-   "titulo": "File:Nokia N92.jpg"
+   "titulo": "File:Nokia N92.jpg",
+   "largura": 948,
+   "altura": 1536,
+   "rostos": 2,
+   "foco": {
+    "x": 51.0,
+    "y": 52.3
+   }
   },
   "nokia-antiga": {
    "arquivo": "imagens/nokia-antiga-e9a0375d.jpg",
@@ -8061,7 +8304,14 @@
    "autor": "Gpkp",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Old_Nokia_phone_01.jpg",
-   "titulo": "File:Old Nokia phone 01.jpg"
+   "titulo": "File:Old Nokia phone 01.jpg",
+   "largura": 1920,
+   "altura": 1446,
+   "rostos": 0,
+   "foco": {
+    "x": 54.7,
+    "y": 58.6
+   }
   }
  },
  "processamento": {
