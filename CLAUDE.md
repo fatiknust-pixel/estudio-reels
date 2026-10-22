@@ -39,6 +39,7 @@ PWA (React + Vite) que cria vídeos 9:16/16:9 com Remotion. Prévia ao vivo no a
 | Legenda palavra por palavra | `src/componentes/Legenda.tsx` |
 | Elementos animados das cenas (números, listas, mapas…) | `src/componentes/Elementos.tsx` |
 | Fundo, galeria de fotos, fusão | `src/componentes/Fundo.tsx` |
+| Gameplay no fundo + fotos como cartões por cima | `src/componentes/Gameplay.tsx` (dados: `fundoVideo` em `src/tipos.ts`; tempo das fotos: `iniciosGaleria` em `src/linhaTempo.ts`) |
 | Emojis, sons, música, barra de progresso, títulos, enquete final | `src/componentes/Efeitos.tsx` |
 | Dinâmica de edição (energética, cinema, glitch…), câmera | `src/componentes/Dinamica.tsx` |
 | Ícones | `src/componentes/Icone.tsx` |
@@ -80,6 +81,7 @@ PWA (React + Vite) que cria vídeos 9:16/16:9 com Remotion. Prévia ao vivo no a
 | Processar vídeo bruto (whisper, cortes, rosto, áudio) | `.github/workflows/processar-bruto.yml`, `scripts/processar_bruto.py` |
 | Sugestões da IA no Modo 2 | `docs/guia-sugestoes.md`, `scripts/aplicar_sugestoes.py` |
 | Exportar MP4 | `.github/workflows/exportar.yml`, `scripts/renderizar.mjs` |
+| Preparar a gameplay de fundo (corta, release `brutos`, prévia) | `.github/workflows/preparar-fundo.yml` |
 | Salvar resultado das Actions no repo | `scripts/aplicar_resultado.py`, `scripts/salvar_no_repo.sh` |
 | Publicar o app (GitHub Pages) | `.github/workflows/pages.yml` |
 | Efeitos sonoros | `scripts/gerar-sfx.sh` → `public/sfx/` |

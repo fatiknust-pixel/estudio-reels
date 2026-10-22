@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import GENEROS from "../../src/generos.json";
 import { TEMAS } from "../../src/temas";
 import { CampoEstilo, DINAMICAS, estilosDoLote, OPCOES_ESTILO, PALETAS } from "../estilosIA";
 import { temToken } from "../lib/github";
-import { criarIA, novoIdProjeto, projetoIA } from "../lib/projetos";
-import { Alternar, avisar, avisarErro, Escolha, ir } from "../ui";
+import { criarIA, lerMetaVideo, MetaVideo, novoFundo, novoIdProjeto, projetoIA } from "../lib/projetos";
+import { Alternar, fmtTempo, avisar, avisarErro, Escolha, ir } from "../ui";
 
 const TONS = ["Explicativo e neutro", "Polêmico, mas factual", "Bem-humorado", "Inspirador", "Urgente (notícia)", "Didático (passo a passo)", "Curiosidades"];
 const DURACOES: [number, string][] = [[30, "30 s"], [45, "45 s"], [60, "1 min"], [90, "1:30"], [120, "2 min"], [180, "3 min"], [300, "5 min"], [480, "8 min"], [600, "10 min"], [720, "12 min"]];
@@ -29,6 +29,15 @@ export const NovoIA: React.FC = () => {
   const [genero, setGenero] = useState<Genero | null>(null);
   const [visual, setVisual] = useState("reels");
   const [enviando, setEnviando] = useState<string | null>(null);
+  // gameplay de fundo (opcional): roda sem som atrás de tudo; as fotos e as animações entram por cima
+  const entradaFundo = useRef<HTMLInputElement>(null);
+  const [fundo, setFundo] = useState<{ arquivo: File; url: string; meta: MetaVideo & { tocavel: boolean } } | null>(null);
+  useEffect(() => () => { if (fundo) URL.revokeObjectURL(fundo.url); }, [fundo]);
+  const escolherFundo = async (f?: File) => {
+    if (!f) return;
+    const url = URL.createObjectURL(f);
+    setFundo({ arquivo: f, url, meta: await lerMetaVideo(url) });
+  };
   const token = temToken();
 
   // um tema por linha = um vídeo
@@ -86,7 +95,10 @@ export const NovoIA: React.FC = () => {
           formato as "9:16" | "16:9",
           visual === "aula" ? "aula" : undefined
         );
-        await criarIA(p);
+        const comFundo = fundo && visual !== "aula";
+        if (comFundo) p.fundoVideo = novoFundo(fundo.meta);
+        const prefixo = n > 1 ? `${i + 1} de ${n}: ` : "";
+        await criarIA(p, comFundo ? { arquivo: fundo.arquivo, tocavel: fundo.meta.tocavel } : undefined, (texto, fracao) => setEnviando(`${prefixo}${texto}${fracao !== undefined ? ` ${Math.round(fracao * 100)}%` : "…"}`));
       }
       if (n === 1) ir(`/editor/${primeiro}`);
       else {
@@ -177,6 +189,25 @@ export const NovoIA: React.FC = () => {
 
       <h3>Formato</h3>
       <Escolha opcoes={FORMATOS} valor={formato} mudar={setFormato} />
+
+      {visual !== "aula" && (
+        <>
+          <h3>Gameplay no fundo (opcional)</h3>
+          <input ref={entradaFundo} type="file" accept="video/*" hidden onChange={(e) => { escolherFundo(e.target.files?.[0]); e.target.value = ""; }} />
+          {fundo ? (
+            <div className="item" style={{ cursor: "default" }}>
+              <span className="tit">
+                {fundo.arquivo.name}
+                <small>{fundo.meta.duracao ? `${fmtTempo(fundo.meta.duracao, false)} · ` : ""}{(fundo.arquivo.size / 1024 / 1024).toFixed(0)} MB{fundo.meta.duracao > 600 ? " · usa os primeiros 10 min" : ""}</small>
+              </span>
+              <button className="btn mini" onClick={() => setFundo(null)} disabled={!!enviando}>Tirar</button>
+            </div>
+          ) : (
+            <button className="btn largo" onClick={() => entradaFundo.current?.click()}>🎮 Escolher vídeo de gameplay</button>
+          )}
+          <p className="pequeno suave">A gameplay roda sem som atrás de tudo (repete se for curta). As imagens entram por cima como cartões, no tempo da fala, e as animações do Claude e a legenda ficam por cima. {n > 1 ? "Com vários vídeos, a gameplay é enviada uma vez para cada um." : ""}</p>
+        </>
+      )}
 
       <h3>Voz</h3>
       <Escolha opcoes={VOZES} valor={voz} mudar={setVoz} />

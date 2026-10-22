@@ -64,7 +64,20 @@ if (roteiro) {
     if (c.fundo && !imagens[c.fundo]) erros.push(`${onde}: fundo "${c.fundo}" não está no imagens.json`);
     if (c.galeria !== undefined) {
       if (!Array.isArray(c.galeria)) erros.push(`${onde}: galeria deve ser uma lista de chaves`);
-      else for (const k of c.galeria) if (!imagens[k]) erros.push(`${onde}: galeria tem "${k}", que não está no imagens.json`);
+      else {
+        for (const k of c.galeria) if (!imagens[k]) erros.push(`${onde}: galeria tem "${k}", que não está no imagens.json`);
+        if (c.galeria.length > 8) erros.push(`${onde}: galeria com ${c.galeria.length} fotos (máximo 8 por cena)`);
+      }
+    }
+    if (c.galeriaEm !== undefined) {
+      if (!Array.isArray(c.galeriaEm) || !Array.isArray(c.galeria) || c.galeriaEm.length !== c.galeria.length) erros.push(`${onde}: galeriaEm precisa ter o mesmo tamanho da galeria (a 1ª posição pode ser 0)`);
+      else {
+        for (const [i, e] of c.galeriaEm.entries()) {
+          if (i === 0 || typeof e !== "string") continue;
+          const n = norm(e);
+          if (!normas.some((w) => w === n || w.startsWith(n) || w.includes(n))) erros.push(`${onde}: galeriaEm[${i}] = "${e}" não aparece no texto da cena`);
+        }
+      }
     }
     if (c.fontes && !Array.isArray(c.fontes)) erros.push(`${onde}: fontes deve ser uma lista`);
     for (const [i, e] of (c.elementos ?? []).entries()) {
@@ -91,7 +104,7 @@ if (roteiro) {
   if (genero?.galeria) {
     const com = (roteiro.cenas ?? []).filter((c) => Array.isArray(c.galeria) && c.galeria.length >= 2).length;
     const total = (roteiro.cenas ?? []).length;
-    if (com < Math.ceil(total * 0.7)) erros.push(`gênero "${genero.nome}" é guiado por imagens: pelo menos ${Math.ceil(total * 0.7)} das ${total} cenas precisam de "galeria" com 2 a 4 fotos (hoje: ${com})`);
+    if (com < Math.ceil(total * 0.7)) erros.push(`gênero "${genero.nome}" é guiado por imagens: pelo menos ${Math.ceil(total * 0.7)} das ${total} cenas precisam de "galeria" com 2 a 8 fotos (hoje: ${com})`);
   }
   if (!temEnquete && !genero) avisos.push("nenhum elemento 'enquete' (pergunta final para o público)");
   if (!temSeguir) avisos.push("nenhum elemento 'seguir' (CTA)");
