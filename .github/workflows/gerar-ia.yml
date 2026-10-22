@@ -78,7 +78,7 @@ jobs:
 
       - name: Instalar voz e ffmpeg
         run: |
-          pip install edge-tts==7.3.1
+          pip install edge-tts==7.3.1 opencv-python-headless==4.10.0.84
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
 
       - name: Claude pesquisa e escreve o roteiro
@@ -159,6 +159,9 @@ jobs:
 
       - name: Imagens (Wikimedia Commons)
         run: node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID"
+
+      - name: Enquadrar as fotos (rosto e assunto)
+        run: python3 scripts/enquadrar.py out/projeto.json --midia "projetos/$ID"
 
       - name: Salvar projeto pronto
         run: |

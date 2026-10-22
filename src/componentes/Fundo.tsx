@@ -1,6 +1,8 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, useCurrentFrame } from "remotion";
 import { useQuadro, useVideo } from "../contexto";
+import { FotoEnquadrada } from "../foto";
+import { ImagemInfo } from "../tipos";
 
 // Galeria (estilo documentário): várias fotos na mesma cena, cada uma num pedaço igual do tempo,
 // entrando com uma fusão de 12 frames. Devolve qual foto está na tela no frame f.
@@ -26,7 +28,7 @@ export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: num
   const tipo = est?.dinamica === "minimal" ? "limpo" : est?.fundo ?? (tema.bandeira ? "bandeira" : "grade");
   const chaves = galeria?.length ? galeria : chave ? [chave] : [];
   // foto que não foi baixada some da fila, e as outras mantêm o tempo marcado (galeriaEm)
-  const itens = chaves.map((k, i) => ({ u: imagem(k), ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; ini: number } => !!x.u);
+  const itens = chaves.map((k, i) => ({ u: imagem(k), info: projeto.imagens?.[k], ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; info: ImagemInfo | undefined; ini: number } => !!x.u);
   const fotos = itens.map((x) => x.u);
   const src = fotos[0] ?? null;
   const documentario = fotos.length > 1;
@@ -44,22 +46,11 @@ export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: num
         const dura = (itens[k + 1]?.ini ?? duracao) - ini;
         if (f < ini - FUSAO || f > ini + dura + FUSAO) return null; // só a foto da vez (e a da fusão)
         const t = Math.max(0, Math.min(1, (f - ini + FUSAO) / (dura + FUSAO)));
-        const dir = (indice + k) % 2 === 0 ? 1 : -1;
         const opacidade = k === 0 ? 1 : interpolate(f, [ini - FUSAO, ini], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-        // documentário alterna aproximar/afastar; cena com uma foto só mantém o zoom lento de sempre
-        const escala = documentario ? (k % 2 ? 1.16 - t * 0.1 : 1.06 + t * 0.1) : 1.12 + t * 0.14;
-        return (
-          <Img
-            key={k}
-            src={u}
-            style={{
-              // pelo terço de cima: em retratos, o rosto não fica cortado quando a foto é mais alta que o quadro
-              position: "absolute", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 28%", opacity: opacidade,
-              transform: `scale(${escala}) translateX(${dir * interpolate(t, [0, 1], [-30, 30])}px)`,
-              filter: "saturate(1.1) contrast(1.05)",
-            }}
-          />
-        );
+        // documentário alterna aproximar/afastar; cena com uma foto só mantém um zoom lento. O zoom sai do foco da foto
+        // e é curto (no máximo ~10%): a foto não é cortada além do enquadramento escolhido
+        const zoom = documentario ? (k % 2 ? 1.08 - t * 0.08 : 1 + t * 0.08) : 1 + t * 0.1;
+        return <FotoEnquadrada key={k} src={u} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, filter: "saturate(1.1) contrast(1.05)" }} />;
       })}
       {/* escurece para o texto aparecer */}
       <AbsoluteFill style={{ background: !src ? "transparent" : documentario ? `linear-gradient(180deg, ${tema.fundo}66 0%, transparent 25%, transparent 55%, ${tema.fundo}D9 100%)` : `linear-gradient(180deg, ${tema.fundo}8C 0%, ${tema.fundo}59 35%, ${tema.fundo}BF 62%, ${tema.fundo}F2 100%)` }} />

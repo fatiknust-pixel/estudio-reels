@@ -1,7 +1,9 @@
 import React from "react";
 import { AbsoluteFill, getRemotionEnvironment, Img, interpolate, OffthreadVideo, Sequence, useCurrentFrame } from "remotion";
 import { useQuadro, useVideo } from "../contexto";
+import { FotoEnquadrada } from "../foto";
 import { FPS } from "../linhaTempo";
+import { ImagemInfo } from "../tipos";
 import { FUSAO } from "./Fundo";
 
 const semErro = (e: Error) => console.warn("gameplay:", e.message);
@@ -43,11 +45,11 @@ export const GameplayFundo: React.FC = () => {
 export type Caixa = { x: number; y: number; w: number; h: number };
 export const FotosCartoes: React.FC<{ chave?: string; galeria?: string[]; inicios?: number[]; duracao: number; caixa?: Caixa; claro?: boolean }> = ({ chave, galeria, inicios, duracao, caixa, claro }) => {
   const f = useCurrentFrame();
-  const { imagem } = useVideo();
+  const { imagem, projeto } = useVideo();
   const q = useQuadro();
   const chaves = galeria?.length ? galeria : chave ? [chave] : [];
   // foto que não foi baixada some da fila, e as outras mantêm o tempo marcado (galeriaEm)
-  const itens = chaves.map((k, i) => ({ u: imagem(k), ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; ini: number } => !!x.u);
+  const itens = chaves.map((k, i) => ({ u: imagem(k), info: projeto.imagens?.[k], ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; info: ImagemInfo | undefined; ini: number } => !!x.u);
   const fotos = itens.map((x) => x.u);
   if (!fotos.length) return null;
   // sem "caixa": cartão grande no alto (vertical) ou na coluna da esquerda (horizontal)
@@ -72,14 +74,8 @@ export const FotosCartoes: React.FC<{ chave?: string; galeria?: string[]; inicio
           if (f < ini - FUSAO || f > ini + dura + FUSAO) return null;
           const t = Math.max(0, Math.min(1, (f - ini + FUSAO) / (dura + FUSAO)));
           const opacidade = k === 0 ? 1 : interpolate(f, [ini - FUSAO, ini], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-          const escala = k % 2 ? 1.14 - t * 0.08 : 1.04 + t * 0.1;
-          return (
-            <Img
-              key={k}
-              src={u}
-              style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 28%", opacity: opacidade, transform: `scale(${escala})`, filter: "saturate(1.08) contrast(1.04)" }}
-            />
-          );
+          const zoom = k % 2 ? 1.08 - t * 0.08 : 1 + t * 0.08;
+          return <FotoEnquadrada key={k} src={u} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, filter: "saturate(1.08) contrast(1.04)" }} />;
         })}
       </div>
     </AbsoluteFill>

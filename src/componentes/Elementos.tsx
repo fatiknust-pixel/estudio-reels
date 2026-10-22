@@ -6,6 +6,7 @@ import { corDe, useCor, useVideo } from "../contexto";
 import { FONTE, POSICAO } from "../fontes";
 import { Icone } from "./Icone";
 import { ajusteElemento } from "./Dinamica";
+import { FotoEnquadrada } from "../foto";
 
 const useMola = (atraso = 0, config = { damping: 13, stiffness: 140, mass: 0.8 }) => {
   const f = useCurrentFrame();
@@ -97,7 +98,8 @@ const Pessoa: React.FC<{ e: ElementoTempo }> = ({ e }) => {
   const f = useCurrentFrame();
   const m = useMola();
   const m2 = useMola(8);
-  const src = useVideo().imagem(e.imagem);
+  const { imagem, projeto } = useVideo();
+  const src = imagem(e.imagem);
   const iniciais = (e.nome as string).split(" ").map((p) => p[0]).slice(0, 2).join("");
   const D = 340;
   return (
@@ -109,7 +111,7 @@ const Pessoa: React.FC<{ e: ElementoTempo }> = ({ e }) => {
         </svg>
         <div style={{ position: "absolute", left: 20, top: 20, width: D, height: D, borderRadius: "50%", overflow: "hidden", background: `linear-gradient(135deg, ${COR.azul}, ${COR.roxo})`, display: "grid", placeItems: "center", boxShadow: "0 20px 60px rgba(0,0,0,.6)" }}>
           {src ? (
-            <Img src={src} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%", transform: `scale(${1.05 + f * 0.0015})` }} />
+            <FotoEnquadrada src={src} info={projeto.imagens?.[e.imagem]} w={D} h={D} zoom={1.02 + f * 0.0012} redonda />
           ) : (
             <div style={{ fontFamily: FONTE, fontWeight: 900, fontSize: 150, color: "#fff" }}>{iniciais}</div>
           )}
