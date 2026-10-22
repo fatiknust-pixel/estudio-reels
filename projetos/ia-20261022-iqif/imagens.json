@@ -1,0 +1,5 @@
+{
+  "cerebro": { "wiki": "Cérebro humano", "rotulo": "Cérebro humano" },
+  "sono": { "wiki": "Sono", "rotulo": "Sono" },
+  "eeg": { "commons": "polysomnography sleep EEG", "rotulo": "Registro do sono (polissonografia)" }
+}

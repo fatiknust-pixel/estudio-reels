@@ -1,0 +1,90 @@
+{
+  "titulo": "O que acontece com seu corpo quando você dorme",
+  "estilo": { "dinamica": "energetica", "legenda": "cinema", "transicao": "flash", "fundo": "raios",
+              "musica": "tensao", "formato": "lista", "fonte": "anton", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Xie et al., Science (2013) — Sleep drives metabolite clearance from the adult brain", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347443/" },
+    { "titulo": "NCCIH/NIH — como o cérebro elimina resíduos durante o sono", "url": "https://www.nccih.nih.gov/research/blog/nccih-supported-research-advances-understanding-of-how-the-brain-clears-waste" },
+    { "titulo": "Williamson & Feyer (2000), Occup Environ Med — privação de sono e álcool", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1071330" },
+    { "titulo": "NINDS/NIH — Brain Basics: Understanding Sleep", "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você sabia que, quando você dorme, seu cérebro não desliga? Ele trabalha a noite inteira. E o que acontece ali é surpreendente. Fique até o final, porque o último fato muda a forma como você enxerga uma noite mal dormida.",
+      "fundo": "sono",
+      "fontes": ["NINDS/NIH"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "VOCÊ DORMINDO", "sub": "5 fatos", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "DESLIGA?", "em": "desliga?", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "NÃO", "cor": "vermelho", "em": "trabalha", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "ciclos",
+      "texto": "Primeiro: o sono vem em ciclos de cerca de 90 minutos. Em cada um, você passa pelo sono leve, pelo sono profundo e pelo sono REM. Numa noite, são de quatro a seis ciclos. Por isso, ser acordado no meio de um ciclo profundo deixa aquela sensação de sono pesado.",
+      "fundo": "eeg",
+      "fontes": ["NINDS/NIH"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1. CICLOS DE SONO", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 90, "unidade": "min", "rotulo": "cada ciclo", "em": "90", "posicao": "alto" },
+        { "tipo": "icones", "itens": [["lampada", "LEVE"], ["seta", ""], ["cerebro", "PROFUNDO"], ["seta", ""], ["olho", "REM"]], "em": "leve", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 6, "unidade": "ciclos", "rotulo": "por noite: 4 a 6", "em": "seis", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "limpeza",
+      "texto": "Segundo: seu cérebro faz uma faxina. Durante o sono, o líquido que o envolve ajuda a eliminar resíduos, como a proteína beta-amiloide, ligada ao Alzheimer. Isso foi mostrado em camundongos.",
+      "fundo": "cerebro",
+      "fontes": ["Science, 2013", "NIH"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2. FAXINA CEREBRAL", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "LIMPEZA ATIVA", "icone": "engrenagem", "cor": "azul", "em": "faxina", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "BETA-AMILOIDE", "significado": "proteína que se acumula no Alzheimer", "em": "beta-amiloide,", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "EM CAMUNDONGOS", "cor": "amarelo", "em": "camundongos.", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "hormonio",
+      "texto": "Terceiro: é no sono profundo que o corpo libera boa parte do hormônio do crescimento. Ele ajuda a reparar tecidos e músculos. Dormir mal atrapalha essa recuperação. É como deixar a obra do seu corpo parada no meio, todos os dias.",
+      "fontes": ["NINDS/NIH"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3. HORA DO REPARO", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["cruz", "REPARO"], ["mais", ""], ["ferramenta", "MÚSCULOS"]], "em": "reparar", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "DORMIR MAL", "nota": "atrapalha a recuperação", "em": "mal", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "rem",
+      "texto": "Quarto: no sono REM, quando acontecem os sonhos mais vívidos, o cérebro paralisa seus músculos. É um freio natural, para você não sair vivendo o sonho de verdade. Quando ele falha, a pessoa pode se mexer dormindo, e isso é um distúrbio que exige avaliação médica.",
+      "fontes": ["NINDS/NIH"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "4. CORPO PARALISADO", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "SONO REM", "icone": "olho", "cor": "roxo", "em": "REM,", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "FREIO NATURAL", "cor": "verde", "em": "freio", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "memoria",
+      "texto": "Quinto: enquanto você dorme, o cérebro organiza o que aprendeu no dia. Ele fortalece memórias importantes. E se você fica acordado muito tempo, o desempenho cai: depois de 17 horas sem dormir, em alguns testes o efeito foi parecido com o de ter bebido álcool.",
+      "fontes": ["Occup Environ Med, 2000", "NINDS/NIH"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5. MEMÓRIA", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["livro", "APRENDEU"], ["seta", ""], ["cerebro", "GUARDA"]], "em": "organiza", "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 17, "unidade": "horas", "rotulo": "sem dormir", "em": "17", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "COMO ÁLCOOL?", "cor": "vermelho", "em": "álcool.", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumindo: dormir é o momento em que o corpo e o cérebro se reorganizam. Adultos precisam de sete horas ou mais. E você, dorme o suficiente? Comenta 1 ou 2 e segue para mais curiosidades.",
+      "fontes": ["AASM", "CDC"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 7, "unidade": "h+", "rotulo": "para adultos", "em": "sete", "posicao": "alto" },
+        { "tipo": "enquete", "pergunta": "Você dorme o suficiente?", "opcoes": ["1 — SIM", "2 — NÃO"], "em": "suficiente?", "posicao": "meio" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "segue", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

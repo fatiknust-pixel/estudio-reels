@@ -4,22 +4,23 @@
  "titulo": "O que acontece com seu corpo quando você dorme",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "oceano",
  "criadoEm": "2026-10-22T12:14:05.185Z",
- "atualizadoEm": "2026-10-22T12:14:05.189Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-22T12:16:59Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "anton",
+  "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
-  "posicao": 70,
-  "palavrasPorTela": 3,
-  "maiusculas": true,
-  "contorno": 10,
+  "posicao": 91,
+  "palavrasPorTela": 8,
+  "maiusculas": false,
+  "contorno": 0,
   "fundo": "nenhum",
-  "animacao": "pop",
-  "mostrar": true
+  "animacao": "nenhuma",
+  "mostrar": true,
+  "modo": "cinema"
  },
  "efeitos": {
   "barraProgresso": true,
@@ -30,7 +31,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "tensao"
  },
  "pedido": {
   "tema": "O que acontece com seu corpo quando você dorme",
@@ -60,11 +62,1821 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você sabia que, quando você dorme, seu cérebro não desliga? Ele trabalha a noite inteira. E o que acontece ali é surpreendente. Fique até o final, porque o último fato muda a forma como você enxerga uma noite mal dormida.",
+   "fundo": "sono",
+   "fontes": [
+    "NINDS/NIH"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "VOCÊ DORMINDO",
+     "sub": "5 fatos",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "DESLIGA?",
+     "em": "desliga?",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO",
+     "cor": "vermelho",
+     "em": "trabalha",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "ciclos",
+   "texto": "Primeiro: o sono vem em ciclos de cerca de 90 minutos. Em cada um, você passa pelo sono leve, pelo sono profundo e pelo sono REM. Numa noite, são de quatro a seis ciclos. Por isso, ser acordado no meio de um ciclo profundo deixa aquela sensação de sono pesado.",
+   "fundo": "eeg",
+   "fontes": [
+    "NINDS/NIH"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1. CICLOS DE SONO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 90,
+     "unidade": "min",
+     "rotulo": "cada ciclo",
+     "em": "90",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lampada",
+       "LEVE"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "cerebro",
+       "PROFUNDO"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "olho",
+       "REM"
+      ]
+     ],
+     "em": "leve",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 6,
+     "unidade": "ciclos",
+     "rotulo": "por noite: 4 a 6",
+     "em": "seis",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "limpeza",
+   "texto": "Segundo: seu cérebro faz uma faxina. Durante o sono, o líquido que o envolve ajuda a eliminar resíduos, como a proteína beta-amiloide, ligada ao Alzheimer. Isso foi mostrado em camundongos.",
+   "fundo": "cerebro",
+   "fontes": [
+    "Science, 2013",
+    "NIH"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2. FAXINA CEREBRAL",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "LIMPEZA ATIVA",
+     "icone": "engrenagem",
+     "cor": "azul",
+     "em": "faxina",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "BETA-AMILOIDE",
+     "significado": "proteína que se acumula no Alzheimer",
+     "em": "beta-amiloide,",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "EM CAMUNDONGOS",
+     "cor": "amarelo",
+     "em": "camundongos.",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "hormonio",
+   "texto": "Terceiro: é no sono profundo que o corpo libera boa parte do hormônio do crescimento. Ele ajuda a reparar tecidos e músculos. Dormir mal atrapalha essa recuperação. É como deixar a obra do seu corpo parada no meio, todos os dias.",
+   "fontes": [
+    "NINDS/NIH"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3. HORA DO REPARO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "cruz",
+       "REPARO"
+      ],
+      [
+       "mais",
+       ""
+      ],
+      [
+       "ferramenta",
+       "MÚSCULOS"
+      ]
+     ],
+     "em": "reparar",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "DORMIR MAL",
+     "nota": "atrapalha a recuperação",
+     "em": "mal",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "rem",
+   "texto": "Quarto: no sono REM, quando acontecem os sonhos mais vívidos, o cérebro paralisa seus músculos. É um freio natural, para você não sair vivendo o sonho de verdade. Quando ele falha, a pessoa pode se mexer dormindo, e isso é um distúrbio que exige avaliação médica.",
+   "fontes": [
+    "NINDS/NIH"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "4. CORPO PARALISADO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SONO REM",
+     "icone": "olho",
+     "cor": "roxo",
+     "em": "REM,",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "FREIO NATURAL",
+     "cor": "verde",
+     "em": "freio",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "memoria",
+   "texto": "Quinto: enquanto você dorme, o cérebro organiza o que aprendeu no dia. Ele fortalece memórias importantes. E se você fica acordado muito tempo, o desempenho cai: depois de 17 horas sem dormir, em alguns testes o efeito foi parecido com o de ter bebido álcool.",
+   "fontes": [
+    "Occup Environ Med, 2000",
+    "NINDS/NIH"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5. MEMÓRIA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "livro",
+       "APRENDEU"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "cerebro",
+       "GUARDA"
+      ]
+     ],
+     "em": "organiza",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 17,
+     "unidade": "horas",
+     "rotulo": "sem dormir",
+     "em": "17",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "COMO ÁLCOOL?",
+     "cor": "vermelho",
+     "em": "álcool.",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: dormir é o momento em que o corpo e o cérebro se reorganizam. Adultos precisam de sete horas ou mais. E você, dorme o suficiente? Comenta 1 ou 2 e segue para mais curiosidades.",
+   "fontes": [
+    "AASM",
+    "CDC"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 7,
+     "unidade": "h+",
+     "rotulo": "para adultos",
+     "em": "sete",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "enquete",
+     "pergunta": "Você dorme o suficiente?",
+     "opcoes": [
+      "1 — SIM",
+      "2 — NÃO"
+     ],
+     "em": "suficiente?",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "em": "segue",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "7169f4d6ca",
+   "texto": "Você sabia que, quando você dorme, seu cérebro não desliga? Ele trabalha a noite inteira. E o que acontece ali é surpreendente. Fique até o final, porque o último fato muda a forma como você enxerga uma noite mal dormida.",
+   "audio": "audio/gancho-7169f4d6ca.mp3",
+   "duracao": 16.849,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.1,
+     "f": 0.412
+    },
+    {
+     "p": "sabia",
+     "i": 0.425,
+     "f": 0.863
+    },
+    {
+     "p": "que",
+     "i": 0.875,
+     "f": 1.113
+    },
+    {
+     "p": "quando",
+     "i": 1.387,
+     "f": 1.613
+    },
+    {
+     "p": "você",
+     "i": 1.625,
+     "f": 1.9
+    },
+    {
+     "p": "dorme",
+     "i": 1.913,
+     "f": 2.312
+    },
+    {
+     "p": "seu",
+     "i": 2.562,
+     "f": 2.775
+    },
+    {
+     "p": "cérebro",
+     "i": 2.788,
+     "f": 3.225
+    },
+    {
+     "p": "não",
+     "i": 3.237,
+     "f": 3.425
+    },
+    {
+     "p": "desliga",
+     "i": 3.438,
+     "f": 3.975
+    },
+    {
+     "p": "Ele",
+     "i": 4.838,
+     "f": 5.038
+    },
+    {
+     "p": "trabalha",
+     "i": 5.05,
+     "f": 5.475
+    },
+    {
+     "p": "a",
+     "i": 5.487,
+     "f": 5.513
+    },
+    {
+     "p": "noite",
+     "i": 5.525,
+     "f": 5.875
+    },
+    {
+     "p": "inteira",
+     "i": 5.888,
+     "f": 6.325
+    },
+    {
+     "p": "E",
+     "i": 7.188,
+     "f": 7.325
+    },
+    {
+     "p": "o",
+     "i": 7.338,
+     "f": 7.388
+    },
+    {
+     "p": "que",
+     "i": 7.4,
+     "f": 7.475
+    },
+    {
+     "p": "acontece",
+     "i": 7.487,
+     "f": 8.125
+    },
+    {
+     "p": "ali",
+     "i": 8.137,
+     "f": 8.35
+    },
+    {
+     "p": "é",
+     "i": 8.363,
+     "f": 8.425
+    },
+    {
+     "p": "surpreendente",
+     "i": 8.438,
+     "f": 9.312
+    },
+    {
+     "p": "Fique",
+     "i": 10.175,
+     "f": 10.5
+    },
+    {
+     "p": "até",
+     "i": 10.512,
+     "f": 10.762
+    },
+    {
+     "p": "o",
+     "i": 10.775,
+     "f": 10.8
+    },
+    {
+     "p": "final",
+     "i": 10.812,
+     "f": 11.25
+    },
+    {
+     "p": "porque",
+     "i": 11.5,
+     "f": 11.825
+    },
+    {
+     "p": "o",
+     "i": 11.838,
+     "f": 11.938
+    },
+    {
+     "p": "último",
+     "i": 11.95,
+     "f": 12.337
+    },
+    {
+     "p": "fato",
+     "i": 12.35,
+     "f": 12.662
+    },
+    {
+     "p": "muda",
+     "i": 12.675,
+     "f": 12.925
+    },
+    {
+     "p": "a",
+     "i": 12.938,
+     "f": 12.975
+    },
+    {
+     "p": "forma",
+     "i": 12.988,
+     "f": 13.388
+    },
+    {
+     "p": "como",
+     "i": 13.4,
+     "f": 13.625
+    },
+    {
+     "p": "você",
+     "i": 13.637,
+     "f": 13.875
+    },
+    {
+     "p": "enxerga",
+     "i": 13.887,
+     "f": 14.312
+    },
+    {
+     "p": "uma",
+     "i": 14.325,
+     "f": 14.45
+    },
+    {
+     "p": "noite",
+     "i": 14.463,
+     "f": 14.838
+    },
+    {
+     "p": "mal",
+     "i": 14.85,
+     "f": 15.025
+    },
+    {
+     "p": "dormida",
+     "i": 15.037,
+     "f": 15.537
+    }
+   ]
+  },
+  "ciclos": {
+   "hash": "6c6734021c",
+   "texto": "Primeiro: o sono vem em ciclos de cerca de 90 minutos. Em cada um, você passa pelo sono leve, pelo sono profundo e pelo sono REM. Numa noite, são de quatro a seis ciclos. Por isso, ser acordado no meio de um ciclo profundo deixa aquela sensação de sono pesado.",
+   "audio": "audio/ciclos-6c6734021c.mp3",
+   "duracao": 20.245,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.1,
+     "f": 0.575
+    },
+    {
+     "p": "o",
+     "i": 0.912,
+     "f": 0.975
+    },
+    {
+     "p": "sono",
+     "i": 0.988,
+     "f": 1.337
+    },
+    {
+     "p": "vem",
+     "i": 1.35,
+     "f": 1.513
+    },
+    {
+     "p": "em",
+     "i": 1.525,
+     "f": 1.6
+    },
+    {
+     "p": "ciclos",
+     "i": 1.613,
+     "f": 2.05
+    },
+    {
+     "p": "de",
+     "i": 2.062,
+     "f": 2.15
+    },
+    {
+     "p": "cerca",
+     "i": 2.163,
+     "f": 2.513
+    },
+    {
+     "p": "de",
+     "i": 2.525,
+     "f": 2.6
+    },
+    {
+     "p": "90 minutos",
+     "i": 2.612,
+     "f": 3.688
+    },
+    {
+     "p": "Em",
+     "i": 4.55,
+     "f": 4.725
+    },
+    {
+     "p": "cada",
+     "i": 4.737,
+     "f": 5.013
+    },
+    {
+     "p": "um",
+     "i": 5.025,
+     "f": 5.238
+    },
+    {
+     "p": "você",
+     "i": 5.638,
+     "f": 5.9
+    },
+    {
+     "p": "passa",
+     "i": 5.912,
+     "f": 6.25
+    },
+    {
+     "p": "pelo",
+     "i": 6.263,
+     "f": 6.463
+    },
+    {
+     "p": "sono",
+     "i": 6.475,
+     "f": 6.737
+    },
+    {
+     "p": "leve",
+     "i": 6.75,
+     "f": 7.15
+    },
+    {
+     "p": "pelo",
+     "i": 7.35,
+     "f": 7.562
+    },
+    {
+     "p": "sono",
+     "i": 7.575,
+     "f": 7.888
+    },
+    {
+     "p": "profundo",
+     "i": 7.9,
+     "f": 8.463
+    },
+    {
+     "p": "e",
+     "i": 8.475,
+     "f": 8.525
+    },
+    {
+     "p": "pelo",
+     "i": 8.537,
+     "f": 8.762
+    },
+    {
+     "p": "sono",
+     "i": 8.775,
+     "f": 9.088
+    },
+    {
+     "p": "REM",
+     "i": 9.1,
+     "f": 9.387
+    },
+    {
+     "p": "Numa",
+     "i": 10.25,
+     "f": 10.55
+    },
+    {
+     "p": "noite",
+     "i": 10.562,
+     "f": 10.95
+    },
+    {
+     "p": "são",
+     "i": 11.225,
+     "f": 11.412
+    },
+    {
+     "p": "de",
+     "i": 11.425,
+     "f": 11.55
+    },
+    {
+     "p": "quatro",
+     "i": 11.562,
+     "f": 11.963
+    },
+    {
+     "p": "a",
+     "i": 11.975,
+     "f": 12
+    },
+    {
+     "p": "seis",
+     "i": 12.012,
+     "f": 12.3
+    },
+    {
+     "p": "ciclos",
+     "i": 12.312,
+     "f": 12.875
+    },
+    {
+     "p": "Por",
+     "i": 13.738,
+     "f": 13.925
+    },
+    {
+     "p": "isso",
+     "i": 13.938,
+     "f": 14.25
+    },
+    {
+     "p": "ser",
+     "i": 14.562,
+     "f": 14.725
+    },
+    {
+     "p": "acordado",
+     "i": 14.738,
+     "f": 15.325
+    },
+    {
+     "p": "no",
+     "i": 15.338,
+     "f": 15.425
+    },
+    {
+     "p": "meio",
+     "i": 15.438,
+     "f": 15.713
+    },
+    {
+     "p": "de",
+     "i": 15.725,
+     "f": 15.812
+    },
+    {
+     "p": "um",
+     "i": 15.825,
+     "f": 15.9
+    },
+    {
+     "p": "ciclo",
+     "i": 15.912,
+     "f": 16.262
+    },
+    {
+     "p": "profundo",
+     "i": 16.275,
+     "f": 16.812
+    },
+    {
+     "p": "deixa",
+     "i": 16.825,
+     "f": 17.087
+    },
+    {
+     "p": "aquela",
+     "i": 17.1,
+     "f": 17.35
+    },
+    {
+     "p": "sensação",
+     "i": 17.363,
+     "f": 17.938
+    },
+    {
+     "p": "de",
+     "i": 17.95,
+     "f": 18.075
+    },
+    {
+     "p": "sono",
+     "i": 18.087,
+     "f": 18.4
+    },
+    {
+     "p": "pesado",
+     "i": 18.413,
+     "f": 18.925
+    }
+   ]
+  },
+  "limpeza": {
+   "hash": "30a7857672",
+   "texto": "Segundo: seu cérebro faz uma faxina. Durante o sono, o líquido que o envolve ajuda a eliminar resíduos, como a proteína beta-amiloide, ligada ao Alzheimer. Isso foi mostrado em camundongos.",
+   "audio": "audio/limpeza-30a7857672.mp3",
+   "duracao": 14.759,
+   "palavras": [
+    {
+     "p": "Segundo",
+     "i": 0.1,
+     "f": 0.737
+    },
+    {
+     "p": "seu",
+     "i": 0.988,
+     "f": 1.175
+    },
+    {
+     "p": "cérebro",
+     "i": 1.188,
+     "f": 1.625
+    },
+    {
+     "p": "faz",
+     "i": 1.637,
+     "f": 1.837
+    },
+    {
+     "p": "uma",
+     "i": 1.85,
+     "f": 2.087
+    },
+    {
+     "p": "faxina",
+     "i": 2.1,
+     "f": 2.7
+    },
+    {
+     "p": "Durante",
+     "i": 3.562,
+     "f": 3.975
+    },
+    {
+     "p": "o",
+     "i": 3.987,
+     "f": 4.025
+    },
+    {
+     "p": "sono",
+     "i": 4.037,
+     "f": 4.387
+    },
+    {
+     "p": "o",
+     "i": 4.75,
+     "f": 4.825
+    },
+    {
+     "p": "líquido",
+     "i": 4.838,
+     "f": 5.275
+    },
+    {
+     "p": "que",
+     "i": 5.287,
+     "f": 5.375
+    },
+    {
+     "p": "o",
+     "i": 5.388,
+     "f": 5.413
+    },
+    {
+     "p": "envolve",
+     "i": 5.425,
+     "f": 5.85
+    },
+    {
+     "p": "ajuda",
+     "i": 5.862,
+     "f": 6.237
+    },
+    {
+     "p": "a",
+     "i": 6.25,
+     "f": 6.287
+    },
+    {
+     "p": "eliminar",
+     "i": 6.3,
+     "f": 6.712
+    },
+    {
+     "p": "resíduos",
+     "i": 6.725,
+     "f": 7.375
+    },
+    {
+     "p": "como",
+     "i": 7.638,
+     "f": 7.875
+    },
+    {
+     "p": "a",
+     "i": 7.888,
+     "f": 7.938
+    },
+    {
+     "p": "proteína",
+     "i": 7.95,
+     "f": 8.438
+    },
+    {
+     "p": "beta-amiloide",
+     "i": 8.45,
+     "f": 9.237
+    },
+    {
+     "p": "ligada",
+     "i": 9.512,
+     "f": 9.962
+    },
+    {
+     "p": "ao",
+     "i": 9.975,
+     "f": 10.088
+    },
+    {
+     "p": "Alzheimer",
+     "i": 10.1,
+     "f": 10.612
+    },
+    {
+     "p": "Isso",
+     "i": 11.475,
+     "f": 11.825
+    },
+    {
+     "p": "foi",
+     "i": 11.838,
+     "f": 11.975
+    },
+    {
+     "p": "mostrado",
+     "i": 11.988,
+     "f": 12.513
+    },
+    {
+     "p": "em",
+     "i": 12.525,
+     "f": 12.6
+    },
+    {
+     "p": "camundongos",
+     "i": 12.613,
+     "f": 13.45
+    }
+   ]
+  },
+  "hormonio": {
+   "hash": "76750e03bb",
+   "texto": "Terceiro: é no sono profundo que o corpo libera boa parte do hormônio do crescimento. Ele ajuda a reparar tecidos e músculos. Dormir mal atrapalha essa recuperação. É como deixar a obra do seu corpo parada no meio, todos os dias.",
+   "audio": "audio/hormonio-76750e03bb.mp3",
+   "duracao": 17.659,
+   "palavras": [
+    {
+     "p": "Terceiro",
+     "i": 0.1,
+     "f": 0.662
+    },
+    {
+     "p": "é",
+     "i": 0.938,
+     "f": 1.025
+    },
+    {
+     "p": "no",
+     "i": 1.038,
+     "f": 1.15
+    },
+    {
+     "p": "sono",
+     "i": 1.163,
+     "f": 1.5
+    },
+    {
+     "p": "profundo",
+     "i": 1.512,
+     "f": 2.025
+    },
+    {
+     "p": "que",
+     "i": 2.038,
+     "f": 2.138
+    },
+    {
+     "p": "o",
+     "i": 2.15,
+     "f": 2.212
+    },
+    {
+     "p": "corpo",
+     "i": 2.225,
+     "f": 2.55
+    },
+    {
+     "p": "libera",
+     "i": 2.562,
+     "f": 2.888
+    },
+    {
+     "p": "boa",
+     "i": 2.9,
+     "f": 3.188
+    },
+    {
+     "p": "parte",
+     "i": 3.2,
+     "f": 3.538
+    },
+    {
+     "p": "do",
+     "i": 3.55,
+     "f": 3.612
+    },
+    {
+     "p": "hormônio",
+     "i": 3.625,
+     "f": 4.088
+    },
+    {
+     "p": "do",
+     "i": 4.1,
+     "f": 4.212
+    },
+    {
+     "p": "crescimento",
+     "i": 4.225,
+     "f": 4.9
+    },
+    {
+     "p": "Ele",
+     "i": 5.763,
+     "f": 5.963
+    },
+    {
+     "p": "ajuda",
+     "i": 5.975,
+     "f": 6.387
+    },
+    {
+     "p": "a",
+     "i": 6.4,
+     "f": 6.425
+    },
+    {
+     "p": "reparar",
+     "i": 6.438,
+     "f": 6.9
+    },
+    {
+     "p": "tecidos",
+     "i": 6.912,
+     "f": 7.412
+    },
+    {
+     "p": "e",
+     "i": 7.425,
+     "f": 7.537
+    },
+    {
+     "p": "músculos",
+     "i": 7.55,
+     "f": 8.25
+    },
+    {
+     "p": "Dormir",
+     "i": 9.113,
+     "f": 9.55
+    },
+    {
+     "p": "mal",
+     "i": 9.562,
+     "f": 9.85
+    },
+    {
+     "p": "atrapalha",
+     "i": 9.863,
+     "f": 10.388
+    },
+    {
+     "p": "essa",
+     "i": 10.4,
+     "f": 10.65
+    },
+    {
+     "p": "recuperação",
+     "i": 10.662,
+     "f": 11.475
+    },
+    {
+     "p": "É",
+     "i": 12.338,
+     "f": 12.45
+    },
+    {
+     "p": "como",
+     "i": 12.463,
+     "f": 12.75
+    },
+    {
+     "p": "deixar",
+     "i": 12.762,
+     "f": 13.112
+    },
+    {
+     "p": "a",
+     "i": 13.125,
+     "f": 13.188
+    },
+    {
+     "p": "obra",
+     "i": 13.2,
+     "f": 13.5
+    },
+    {
+     "p": "do",
+     "i": 13.512,
+     "f": 13.6
+    },
+    {
+     "p": "seu",
+     "i": 13.613,
+     "f": 13.825
+    },
+    {
+     "p": "corpo",
+     "i": 13.838,
+     "f": 14.213
+    },
+    {
+     "p": "parada",
+     "i": 14.225,
+     "f": 14.65
+    },
+    {
+     "p": "no",
+     "i": 14.662,
+     "f": 14.762
+    },
+    {
+     "p": "meio",
+     "i": 14.775,
+     "f": 15.05
+    },
+    {
+     "p": "todos",
+     "i": 15.287,
+     "f": 15.637
+    },
+    {
+     "p": "os",
+     "i": 15.65,
+     "f": 15.85
+    },
+    {
+     "p": "dias",
+     "i": 15.863,
+     "f": 16.338
+    }
+   ]
+  },
+  "rem": {
+   "hash": "3c4d404e96",
+   "texto": "Quarto: no sono REM, quando acontecem os sonhos mais vívidos, o cérebro paralisa seus músculos. É um freio natural, para você não sair vivendo o sonho de verdade. Quando ele falha, a pessoa pode se mexer dormindo, e isso é um distúrbio que exige avaliação médica.",
+   "audio": "audio/rem-3c4d404e96.mp3",
+   "duracao": 18.338,
+   "palavras": [
+    {
+     "p": "Quarto",
+     "i": 0.1,
+     "f": 0.525
+    },
+    {
+     "p": "no",
+     "i": 0.838,
+     "f": 0.95
+    },
+    {
+     "p": "sono",
+     "i": 0.963,
+     "f": 1.3
+    },
+    {
+     "p": "REM",
+     "i": 1.312,
+     "f": 1.575
+    },
+    {
+     "p": "quando",
+     "i": 1.788,
+     "f": 1.95
+    },
+    {
+     "p": "acontecem",
+     "i": 1.962,
+     "f": 2.587
+    },
+    {
+     "p": "os",
+     "i": 2.6,
+     "f": 2.712
+    },
+    {
+     "p": "sonhos",
+     "i": 2.725,
+     "f": 3.038
+    },
+    {
+     "p": "mais",
+     "i": 3.05,
+     "f": 3.3
+    },
+    {
+     "p": "vívidos",
+     "i": 3.312,
+     "f": 3.788
+    },
+    {
+     "p": "o",
+     "i": 4.088,
+     "f": 4.15
+    },
+    {
+     "p": "cérebro",
+     "i": 4.162,
+     "f": 4.637
+    },
+    {
+     "p": "paralisa",
+     "i": 4.65,
+     "f": 5.163
+    },
+    {
+     "p": "seus",
+     "i": 5.175,
+     "f": 5.388
+    },
+    {
+     "p": "músculos",
+     "i": 5.4,
+     "f": 6.038
+    },
+    {
+     "p": "É",
+     "i": 6.9,
+     "f": 7.013
+    },
+    {
+     "p": "um",
+     "i": 7.025,
+     "f": 7.163
+    },
+    {
+     "p": "freio",
+     "i": 7.175,
+     "f": 7.462
+    },
+    {
+     "p": "natural",
+     "i": 7.475,
+     "f": 7.975
+    },
+    {
+     "p": "para",
+     "i": 8.262,
+     "f": 8.438
+    },
+    {
+     "p": "você",
+     "i": 8.45,
+     "f": 8.7
+    },
+    {
+     "p": "não",
+     "i": 8.713,
+     "f": 8.85
+    },
+    {
+     "p": "sair",
+     "i": 8.863,
+     "f": 9.2
+    },
+    {
+     "p": "vivendo",
+     "i": 9.213,
+     "f": 9.613
+    },
+    {
+     "p": "o",
+     "i": 9.625,
+     "f": 9.65
+    },
+    {
+     "p": "sonho",
+     "i": 9.662,
+     "f": 10.012
+    },
+    {
+     "p": "de",
+     "i": 10.025,
+     "f": 10.1
+    },
+    {
+     "p": "verdade",
+     "i": 10.113,
+     "f": 10.663
+    },
+    {
+     "p": "Quando",
+     "i": 11.525,
+     "f": 11.812
+    },
+    {
+     "p": "ele",
+     "i": 11.825,
+     "f": 11.962
+    },
+    {
+     "p": "falha",
+     "i": 11.975,
+     "f": 12.4
+    },
+    {
+     "p": "a",
+     "i": 12.537,
+     "f": 12.612
+    },
+    {
+     "p": "pessoa",
+     "i": 12.625,
+     "f": 13.037
+    },
+    {
+     "p": "pode",
+     "i": 13.05,
+     "f": 13.3
+    },
+    {
+     "p": "se",
+     "i": 13.312,
+     "f": 13.425
+    },
+    {
+     "p": "mexer",
+     "i": 13.438,
+     "f": 13.762
+    },
+    {
+     "p": "dormindo",
+     "i": 13.775,
+     "f": 14.312
+    },
+    {
+     "p": "e",
+     "i": 14.588,
+     "f": 14.713
+    },
+    {
+     "p": "isso",
+     "i": 14.725,
+     "f": 14.875
+    },
+    {
+     "p": "é",
+     "i": 14.887,
+     "f": 14.912
+    },
+    {
+     "p": "um",
+     "i": 14.925,
+     "f": 15.013
+    },
+    {
+     "p": "distúrbio",
+     "i": 15.025,
+     "f": 15.588
+    },
+    {
+     "p": "que",
+     "i": 15.6,
+     "f": 15.7
+    },
+    {
+     "p": "exige",
+     "i": 15.713,
+     "f": 16.075
+    },
+    {
+     "p": "avaliação",
+     "i": 16.087,
+     "f": 16.55
+    },
+    {
+     "p": "médica",
+     "i": 16.562,
+     "f": 17.025
+    }
+   ]
+  },
+  "memoria": {
+   "hash": "33b06254ca",
+   "texto": "Quinto: enquanto você dorme, o cérebro organiza o que aprendeu no dia. Ele fortalece memórias importantes. E se você fica acordado muito tempo, o desempenho cai: depois de 17 horas sem dormir, em alguns testes o efeito foi parecido com o de ter bebido álcool.",
+   "audio": "audio/memoria-33b06254ca.mp3",
+   "duracao": 18.86,
+   "palavras": [
+    {
+     "p": "Quinto",
+     "i": 0.1,
+     "f": 0.525
+    },
+    {
+     "p": "enquanto",
+     "i": 0.713,
+     "f": 1.137
+    },
+    {
+     "p": "você",
+     "i": 1.15,
+     "f": 1.425
+    },
+    {
+     "p": "dorme",
+     "i": 1.438,
+     "f": 1.825
+    },
+    {
+     "p": "o",
+     "i": 2.087,
+     "f": 2.163
+    },
+    {
+     "p": "cérebro",
+     "i": 2.175,
+     "f": 2.587
+    },
+    {
+     "p": "organiza",
+     "i": 2.6,
+     "f": 3.1
+    },
+    {
+     "p": "o",
+     "i": 3.112,
+     "f": 3.15
+    },
+    {
+     "p": "que",
+     "i": 3.163,
+     "f": 3.238
+    },
+    {
+     "p": "aprendeu",
+     "i": 3.25,
+     "f": 3.737
+    },
+    {
+     "p": "no",
+     "i": 3.75,
+     "f": 3.85
+    },
+    {
+     "p": "dia",
+     "i": 3.862,
+     "f": 4.212
+    },
+    {
+     "p": "Ele",
+     "i": 5.075,
+     "f": 5.275
+    },
+    {
+     "p": "fortalece",
+     "i": 5.287,
+     "f": 5.912
+    },
+    {
+     "p": "memórias",
+     "i": 5.925,
+     "f": 6.312
+    },
+    {
+     "p": "importantes",
+     "i": 6.325,
+     "f": 7.225
+    },
+    {
+     "p": "E",
+     "i": 8.088,
+     "f": 8.2
+    },
+    {
+     "p": "se",
+     "i": 8.213,
+     "f": 8.325
+    },
+    {
+     "p": "você",
+     "i": 8.338,
+     "f": 8.613
+    },
+    {
+     "p": "fica",
+     "i": 8.625,
+     "f": 8.85
+    },
+    {
+     "p": "acordado",
+     "i": 8.863,
+     "f": 9.4
+    },
+    {
+     "p": "muito",
+     "i": 9.412,
+     "f": 9.8
+    },
+    {
+     "p": "tempo",
+     "i": 9.812,
+     "f": 10.188
+    },
+    {
+     "p": "o",
+     "i": 10.488,
+     "f": 10.562
+    },
+    {
+     "p": "desempenho",
+     "i": 10.575,
+     "f": 11.125
+    },
+    {
+     "p": "cai",
+     "i": 11.137,
+     "f": 11.45
+    },
+    {
+     "p": "depois",
+     "i": 11.688,
+     "f": 12.088
+    },
+    {
+     "p": "de",
+     "i": 12.1,
+     "f": 12.188
+    },
+    {
+     "p": "17 horas",
+     "i": 12.2,
+     "f": 13.112
+    },
+    {
+     "p": "sem",
+     "i": 13.125,
+     "f": 13.275
+    },
+    {
+     "p": "dormir",
+     "i": 13.287,
+     "f": 13.725
+    },
+    {
+     "p": "em",
+     "i": 13.988,
+     "f": 14.075
+    },
+    {
+     "p": "alguns",
+     "i": 14.088,
+     "f": 14.475
+    },
+    {
+     "p": "testes",
+     "i": 14.488,
+     "f": 14.875
+    },
+    {
+     "p": "o",
+     "i": 14.887,
+     "f": 15
+    },
+    {
+     "p": "efeito",
+     "i": 15.012,
+     "f": 15.425
+    },
+    {
+     "p": "foi",
+     "i": 15.438,
+     "f": 15.6
+    },
+    {
+     "p": "parecido",
+     "i": 15.613,
+     "f": 16.2
+    },
+    {
+     "p": "com",
+     "i": 16.212,
+     "f": 16.362
+    },
+    {
+     "p": "o",
+     "i": 16.375,
+     "f": 16.4
+    },
+    {
+     "p": "de",
+     "i": 16.413,
+     "f": 16.525
+    },
+    {
+     "p": "ter",
+     "i": 16.538,
+     "f": 16.675
+    },
+    {
+     "p": "bebido",
+     "i": 16.688,
+     "f": 17.137
+    },
+    {
+     "p": "álcool",
+     "i": 17.15,
+     "f": 17.55
+    }
+   ]
+  },
+  "final": {
+   "hash": "1496a3bdab",
+   "texto": "Resumindo: dormir é o momento em que o corpo e o cérebro se reorganizam. Adultos precisam de sete horas ou mais. E você, dorme o suficiente? Comenta 1 ou 2 e segue para mais curiosidades.",
+   "audio": "audio/final-1496a3bdab.mp3",
+   "duracao": 15.83,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.1,
+     "f": 0.762
+    },
+    {
+     "p": "dormir",
+     "i": 1.087,
+     "f": 1.525
+    },
+    {
+     "p": "é",
+     "i": 1.538,
+     "f": 1.588
+    },
+    {
+     "p": "o",
+     "i": 1.6,
+     "f": 1.613
+    },
+    {
+     "p": "momento",
+     "i": 1.625,
+     "f": 2.1
+    },
+    {
+     "p": "em",
+     "i": 2.112,
+     "f": 2.175
+    },
+    {
+     "p": "que",
+     "i": 2.188,
+     "f": 2.275
+    },
+    {
+     "p": "o",
+     "i": 2.288,
+     "f": 2.35
+    },
+    {
+     "p": "corpo",
+     "i": 2.362,
+     "f": 2.787
+    },
+    {
+     "p": "e",
+     "i": 2.8,
+     "f": 2.875
+    },
+    {
+     "p": "o",
+     "i": 2.888,
+     "f": 2.938
+    },
+    {
+     "p": "cérebro",
+     "i": 2.95,
+     "f": 3.425
+    },
+    {
+     "p": "se",
+     "i": 3.438,
+     "f": 3.562
+    },
+    {
+     "p": "reorganizam",
+     "i": 3.575,
+     "f": 4.3
+    },
+    {
+     "p": "Adultos",
+     "i": 5.162,
+     "f": 5.75
+    },
+    {
+     "p": "precisam",
+     "i": 5.763,
+     "f": 6.263
+    },
+    {
+     "p": "de",
+     "i": 6.275,
+     "f": 6.375
+    },
+    {
+     "p": "sete",
+     "i": 6.388,
+     "f": 6.812
+    },
+    {
+     "p": "horas",
+     "i": 6.825,
+     "f": 7.075
+    },
+    {
+     "p": "ou",
+     "i": 7.088,
+     "f": 7.263
+    },
+    {
+     "p": "mais",
+     "i": 7.275,
+     "f": 7.7
+    },
+    {
+     "p": "E",
+     "i": 8.562,
+     "f": 8.675
+    },
+    {
+     "p": "você",
+     "i": 8.688,
+     "f": 9.113
+    },
+    {
+     "p": "dorme",
+     "i": 9.35,
+     "f": 9.713
+    },
+    {
+     "p": "o",
+     "i": 9.725,
+     "f": 9.762
+    },
+    {
+     "p": "suficiente",
+     "i": 9.775,
+     "f": 10.525
+    },
+    {
+     "p": "Comenta",
+     "i": 11.387,
+     "f": 11.925
+    },
+    {
+     "p": "1 ou",
+     "i": 11.938,
+     "f": 12.287
+    },
+    {
+     "p": "2 e",
+     "i": 12.3,
+     "f": 12.688
+    },
+    {
+     "p": "segue",
+     "i": 12.7,
+     "f": 13.062
+    },
+    {
+     "p": "para",
+     "i": 13.075,
+     "f": 13.25
+    },
+    {
+     "p": "mais",
+     "i": 13.262,
+     "f": 13.537
+    },
+    {
+     "p": "curiosidades",
+     "i": 13.55,
+     "f": 14.5
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "cerebro": {
+   "arquivo": "",
+   "rotulo": "Cérebro humano",
+   "wiki": "Cérebro humano"
+  },
+  "sono": {
+   "arquivo": "imagens/sono-5c1ab6fe.jpg",
+   "rotulo": "Sono",
+   "wiki": "Sono",
+   "autor": "Domenico Fetti",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Domenico_Fetti_-_Sleeping_Girl_-_WGA7863.jpg",
+   "titulo": "File:Domenico Fetti - Sleeping Girl - WGA7863.jpg"
+  },
+  "eeg": {
+   "arquivo": "imagens/eeg-6e6c27d7.jpg",
+   "rotulo": "Registro do sono (polissonografia)",
+   "commons": "polysomnography sleep EEG",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sleep_EEG_Stage_4.jpg",
+   "titulo": "File:Sleep EEG Stage 4.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-22T12:14:05.185Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Xie et al., Science (2013) — Sleep drives metabolite clearance from the adult brain",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347443/"
+  },
+  {
+   "titulo": "NCCIH/NIH — como o cérebro elimina resíduos durante o sono",
+   "url": "https://www.nccih.nih.gov/research/blog/nccih-supported-research-advances-understanding-of-how-the-brain-clears-waste"
+  },
+  {
+   "titulo": "Williamson & Feyer (2000), Occup Environ Med — privação de sono e álcool",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1071330"
+  },
+  {
+   "titulo": "NINDS/NIH — Brain Basics: Understanding Sleep",
+   "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "cinema",
+  "transicao": "flash",
+  "fundo": "raios",
+  "formato": "lista"
  }
 }
