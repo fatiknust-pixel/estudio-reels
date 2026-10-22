@@ -1,0 +1,224 @@
+{
+  "titulo": "O que acontece com seu corpo quando você dorme",
+  "estilo": { "dinamica": "colagem", "legenda": "cinema", "transicao": "zoom", "fundo": "ondas",
+              "musica": "leve", "formato": "curiosidade", "fonte": "robotoslab", "paleta": "pordosol" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "NINDS (NIH) — Brain Basics: Understanding Sleep", "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep" },
+    { "titulo": "Xie et al., Science 2013 — Sleep drives metabolite clearance from the adult brain", "url": "https://www.science.org/doi/10.1126/science.1241224" },
+    { "titulo": "AASM / Sleep Research Society — Recomendação de sono para adultos (Watson et al., 2015)", "url": "https://aasm.org/resources/pdf/pressroom/adult-sleep-duration-consensus.pdf" },
+    { "titulo": "Sleep Foundation — Stages of Sleep", "url": "https://www.sleepfoundation.org/stages-of-sleep" },
+    { "titulo": "ScienceAlert — Randy Gardner e as 11 dias sem dormir", "url": "https://www.sciencealert.com/watch-here-s-what-happened-when-a-teenager-stayed-awake-for-11-days-straight" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Você sabia que, enquanto você dorme, seu cérebro trabalha quase tanto quanto acordado? Pois é. Você apaga a luz, fecha os olhos e acha que o corpo desligou. Mas é bem o contrário. Durante a noite, uma equipe invisível entra em ação: faz faxina, arruma a memória e até paralisa você de propósito. Neste vídeo, você vai descobrir o que acontece com o seu corpo, hora por hora, enquanto você ronca em paz.",
+      "fontes": ["NINDS (NIH)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "VOCÊ NUNCA DESLIGA", "sub": "O que acontece quando você dorme", "posicao": "topo", "em": 0 },
+        { "tipo": "pergunta", "texto": "O CORPO DESLIGA?", "posicao": "alto", "em": "desligou" },
+        { "tipo": "carimbo", "texto": "MITO", "cor": "vermelho", "posicao": "meio", "em": "contrário" },
+        { "tipo": "tag", "texto": "CÉREBRO EM AÇÃO", "icone": "cerebro", "posicao": "meio2", "em": "faxina" }
+      ]
+    },
+    {
+      "id": "hora-de-deitar",
+      "texto": "Tudo começa antes mesmo de você dormir. Quando escurece, o cérebro libera a melatonina, o hormônio que avisa o corpo que a noite chegou. Ela não é um remédio que derruba você. É mais um sinal, tipo um despertador ao contrário. A luz azul do celular atrapalha esse aviso, porque engana o cérebro e faz ele achar que ainda é dia. Resultado: você deita, mas o sono demora a chegar.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A NOITE CHEGOU", "sub": "Melatonina", "posicao": "topo", "em": 0 },
+        { "tipo": "definicao", "palavra": "MELATONINA", "significado": "Hormônio que sinaliza a noite", "posicao": "alto", "em": "melatonina" },
+        { "tipo": "icones", "itens": [["celular", "Luz azul"], ["seta", ""], ["relogio", "Sono atrasa"]], "posicao": "meio", "em": "celular" },
+        { "tipo": "carimbo", "texto": "ATRAPALHA", "cor": "vermelho", "posicao": "meio2", "em": "atrapalha" }
+      ]
+    },
+    {
+      "id": "ciclos",
+      "texto": "Agora você apagou. O sono não é uma coisa só, é um ciclo que se repete. Cada ciclo dura cerca de noventa minutos e passa por fases: sono leve, sono profundo e o sono REM, aquele dos sonhos. Em uma noite boa, você completa quatro a seis ciclos. Ou seja, quando você diz que dormiu a noite inteira, na verdade você fez uma maratona de pequenas voltas, e cada uma tem um trabalho diferente.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A MARATONA DO SONO", "sub": "Ciclos de 90 minutos", "posicao": "topo", "em": 0 },
+        { "tipo": "contador", "de": 0, "ate": 90, "unidade": "min", "rotulo": "por ciclo", "posicao": "alto", "em": "noventa" },
+        { "tipo": "icones", "itens": [["lampada", "Leve"], ["seta", ""], ["cerebro", "Profundo"], ["seta", ""], ["estrela", "REM"]], "posicao": "meio", "em": "fases" },
+        { "tipo": "tag", "texto": "4 A 6 CICLOS", "icone": "calendario", "posicao": "meio2", "em": "seis" }
+      ]
+    },
+    {
+      "id": "sono-leve",
+      "texto": "Primeira parada: o sono leve. Nos primeiros minutos, a respiração desacelera, os músculos relaxam e o batimento do coração diminui. Sabe quando você está quase dormindo e leva um susto, como se tivesse caído da cama? Isso tem nome: espasmo hípnico. É um tranco muscular comum, que acontece com muita gente, e não faz mal nenhum. Os cientistas ainda discutem exatamente por que ele acontece.",
+      "fontes": ["Sleep Foundation", "NINDS (NIH)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FASE 1: SONO LEVE", "sub": "A porta de entrada", "posicao": "topo", "em": 0 },
+        { "tipo": "tag", "texto": "CORAÇÃO MAIS LENTO", "icone": "alerta", "posicao": "alto", "em": "coração" },
+        { "tipo": "definicao", "palavra": "ESPASMO HÍPNICO", "significado": "Tranco muscular ao pegar no sono", "posicao": "meio", "em": "espasmo" },
+        { "tipo": "check", "ok": true, "texto": "É normal", "nota": "Acontece com muita gente", "posicao": "meio2", "em": "comum" }
+      ]
+    },
+    {
+      "id": "temperatura",
+      "texto": "Enquanto você dorme, a temperatura do corpo cai. Não é muito, em geral menos de um grau, mas faz diferença. É por isso que dormir em um quarto muito quente atrapalha tanto. O corpo precisa esfriar um pouquinho para entrar no sono profundo. E repare: muita gente puxa o pé para fora do cobertor. Não é frescura, é o corpo tentando soltar calor para baixar a temperatura.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O CORPO ESFRIA", "sub": "Termostato interno", "posicao": "topo", "em": 0 },
+        { "tipo": "contador", "de": 0, "ate": 1, "unidade": "°C a menos", "rotulo": "queda aproximada", "posicao": "alto", "em": "grau" },
+        { "tipo": "check", "ok": false, "texto": "Quarto muito quente", "nota": "Atrapalha o sono profundo", "posicao": "meio", "em": "quente" },
+        { "tipo": "comentario", "texto": "Você também põe o pé para fora?", "posicao": "meio2", "em": "pé" }
+      ]
+    },
+    {
+      "id": "sono-profundo",
+      "texto": "Agora vem a parte mais pesada: o sono profundo. Aqui o batimento e a respiração ficam bem lentos, e é muito difícil acordar você. Se alguém te chamar, você nem escuta. É nessa fase, concentrada na primeira metade da noite, que o corpo faz o reparo. Músculos, tecidos e defesas do organismo se recuperam. Por isso, quem dorme mal costuma sentir o corpo moído, como se tivesse apanhado.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FASE 3: SONO PROFUNDO", "sub": "A hora do reparo", "posicao": "topo", "em": 0 },
+        { "tipo": "tag", "texto": "DIFÍCIL DE ACORDAR", "icone": "cadeado", "posicao": "alto", "em": "difícil" },
+        { "tipo": "icones", "itens": [["ferramenta", "Músculos"], ["escudo", "Defesas"]], "posicao": "meio", "em": "reparo" },
+        { "tipo": "carimbo", "texto": "1ª METADE DA NOITE", "cor": "azul", "posicao": "meio2", "em": "metade" }
+      ]
+    },
+    {
+      "id": "hormonio-crescimento",
+      "texto": "E tem mais. É durante o sono profundo que o corpo libera boa parte do hormônio do crescimento. Em crianças, ele ajuda a crescer. Em adultos, ele continua importante para reparar tecidos e manter os músculos. Ou seja, dormir bem não é perda de tempo, é parte do treino. Quem malha e dorme pouco está construindo a casa e esquecendo de chamar o pedreiro.",
+      "fontes": ["Sleep Foundation", "NINDS (NIH)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "HORMÔNIO DO CRESCIMENTO", "sub": "Liberado no sono profundo", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["pessoa", "Crianças"], ["seta", ""], ["ferramenta", "Adultos"]], "posicao": "alto", "em": "crianças" },
+        { "tipo": "carimbo", "texto": "SONO É TREINO", "cor": "verde", "posicao": "meio", "em": "treino" },
+        { "tipo": "comentario", "texto": "Quem aqui treina e dorme pouco?", "posicao": "meio2", "em": "malha" }
+      ]
+    },
+    {
+      "id": "faxina-cerebral",
+      "texto": "Agora, a descoberta mais legal da ciência do sono. Em 2013, pesquisadores publicaram na revista Science um estudo com camundongos mostrando que o cérebro faz uma faxina durante o sono. Um sistema chamado glinfático aumenta o fluxo de líquido entre as células e ajuda a carregar embora os resíduos acumulados durante o dia. Em humanos, os estudos ainda estão avançando, mas a ideia é simples: dormir é a hora de levar o lixo para fora.",
+      "fontes": ["Science 2013 — Xie et al.", "NINDS (NIH)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FAXINA NO CÉREBRO", "sub": "Sistema glinfático", "posicao": "topo", "em": 0 },
+        { "tipo": "definicao", "palavra": "GLINFÁTICO", "significado": "Sistema que ajuda a limpar resíduos", "posicao": "alto", "em": "glinfático" },
+        { "tipo": "tag", "texto": "ESTUDO EM CAMUNDONGOS", "icone": "lupa", "posicao": "meio", "em": "camundongos" },
+        { "tipo": "mapa", "de": "Resíduos do dia", "para": "Fora do cérebro", "legenda": "Limpeza durante o sono", "posicao": "meio2", "em": "lixo" }
+      ]
+    },
+    {
+      "id": "rem",
+      "texto": "Passamos a noite e chegamos ao sono REM. A sigla vem do inglês e significa movimento rápido dos olhos. Por baixo das pálpebras, seus olhos correm de um lado para o outro, e o cérebro fica quase tão ativo quanto acordado. O coração acelera, a respiração fica irregular. É aqui que acontecem os sonhos mais vívidos. E o REM aparece cada vez mais longo conforme a noite avança, por isso as manhãs têm sonhos mais compridos.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SONO REM", "sub": "Rapid Eye Movement", "posicao": "topo", "em": 0 },
+        { "tipo": "definicao", "palavra": "REM", "significado": "Movimento rápido dos olhos", "posicao": "alto", "em": "movimento" },
+        { "tipo": "icones", "itens": [["olho", "Olhos correm"], ["cerebro", "Cérebro ativo"]], "posicao": "meio", "em": "olhos" },
+        { "tipo": "tag", "texto": "SONHOS VÍVIDOS", "icone": "estrela", "posicao": "meio2", "em": "sonhos" }
+      ]
+    },
+    {
+      "id": "paralisia",
+      "texto": "E agora o detalhe mais curioso. Durante o sono REM, o seu corpo fica paralisado. De propósito. O cérebro desliga o comando dos músculos voluntários, num fenômeno chamado atonia. Isso protege você: se o corpo se mexesse conforme o sonho, você sairia correndo pela casa, lutando com o travesseiro. Existe até um distúrbio em que essa trava falha, e a pessoa atua os sonhos, com socos e chutes de verdade.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PARALISADO DE PROPÓSITO", "sub": "Atonia muscular", "posicao": "topo", "em": 0 },
+        { "tipo": "carimbo", "texto": "TRAVA ATIVA", "cor": "verde", "posicao": "alto", "em": "paralisado" },
+        { "tipo": "check", "ok": true, "texto": "Protege você", "nota": "Impede de atuar os sonhos", "posicao": "meio", "em": "protege" },
+        { "tipo": "check", "ok": false, "texto": "Quando a trava falha", "nota": "Distúrbio do sono REM", "posicao": "meio2", "em": "falha" }
+      ]
+    },
+    {
+      "id": "sonhos",
+      "texto": "Falando em sonhos: todo mundo sonha, mesmo quem jura que não. A diferença é que muita gente costuma esquecer tudo logo ao acordar, e por isso acha que passou a noite em branco. Em média, passamos algumas horas sonhando por noite, mas a maior parte some da memória em minutos depois de acordar. Anotar o sonho logo que acorda ajuda a lembrar mais, é só deixar um caderninho ou o celular perto da cama. Os cientistas ainda não chegaram a uma resposta final sobre para que servem os sonhos. Há teorias ligadas à memória e às emoções, mas nenhuma é considerada definitiva.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "TODO MUNDO SONHA", "sub": "Mesmo quem não lembra", "posicao": "topo", "em": 0 },
+        { "tipo": "pergunta", "texto": "VOCÊ SONHA?", "posicao": "alto", "em": "sonha" },
+        { "tipo": "carimbo", "texto": "ESQUECE EM MINUTOS", "cor": "amarelo", "posicao": "meio", "em": "esquecer" },
+        { "tipo": "tag", "texto": "CIÊNCIA AINDA DEBATE", "icone": "lupa", "posicao": "meio2", "em": "teorias" }
+      ]
+    },
+    {
+      "id": "memoria",
+      "texto": "Já que falamos de memória: dormir é como apertar o botão salvar. Durante a noite, o cérebro reorganiza o que você aprendeu no dia, fortalece o que é importante e deixa de lado o que não serve. Estudos mostram que pessoas que dormem depois de estudar lembram mais do conteúdo do que as que ficam acordadas. Então, virar a madrugada estudando antes da prova pode sair bem pior do que dormir.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O BOTÃO SALVAR", "sub": "Sono e memória", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["livro", "Estudar"], ["seta", ""], ["lampada", "Dormir"], ["seta", ""], ["cerebro", "Lembrar"]], "posicao": "alto", "em": "salvar" },
+        { "tipo": "check", "ok": false, "texto": "Virar a madrugada", "nota": "Pode piorar a nota", "posicao": "meio", "em": "madrugada" },
+        { "tipo": "check", "ok": true, "texto": "Dormir depois de estudar", "nota": "Ajuda a fixar", "posicao": "meio2", "em": "dormem" }
+      ]
+    },
+    {
+      "id": "coracao",
+      "texto": "E o coração, como fica? Ele descansa também. Durante o sono, a pressão arterial cai e o batimento diminui, o que dá uma folga para o sistema cardiovascular. Por isso, dormir pouco de forma crônica está associado a mais risco de pressão alta e problemas no coração. Nenhum remédio substitui isso. É um descanso que o corpo só consegue tirar de um jeito: dormindo.",
+      "fontes": ["NINDS (NIH)", "AASM"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O CORAÇÃO DESCANSA", "sub": "Pressão e batimentos caem", "posicao": "topo", "em": 0 },
+        { "tipo": "tag", "texto": "PRESSÃO CAI", "icone": "cruz", "posicao": "alto", "em": "pressão" },
+        { "tipo": "check", "ok": false, "texto": "Dormir pouco sempre", "nota": "Ligado a mais risco cardíaco", "posicao": "meio", "em": "pouco" },
+        { "tipo": "carimbo", "texto": "FOLGA PARA O CORAÇÃO", "cor": "verde", "posicao": "meio2", "em": "folga" }
+      ]
+    },
+    {
+      "id": "acordar",
+      "texto": "Chegando perto da manhã, o corpo começa a se preparar para acordar antes mesmo de o despertador tocar. A temperatura sobe, o cortisol, hormônio que dá energia, aumenta, e o sono fica mais leve. Por isso você muitas vezes acorda um minuto antes do alarme. Não é mágica, é o seu relógio biológico funcionando. E se você acorda no meio de um sono profundo, aquela moleza e o mau humor têm nome: inércia do sono.",
+      "fontes": ["Sleep Foundation", "NINDS (NIH)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "PREPARANDO O DESPERTAR", "sub": "Relógio biológico", "posicao": "topo", "em": 0 },
+        { "tipo": "definicao", "palavra": "CORTISOL", "significado": "Hormônio que dá energia", "posicao": "alto", "em": "cortisol" },
+        { "tipo": "tag", "texto": "ACORDA ANTES DO ALARME", "icone": "relogio", "posicao": "meio", "em": "alarme" },
+        { "tipo": "definicao", "palavra": "INÉRCIA DO SONO", "significado": "Moleza logo ao acordar", "posicao": "meio2", "em": "inércia" }
+      ]
+    },
+    {
+      "id": "sonambulismo",
+      "texto": "Agora uma esquisitice que muita gente conhece: o sonambulismo. A pessoa levanta, anda, às vezes até conversa, mas continua dormindo. Isso costuma acontecer no sono profundo, e não durante os sonhos, e é mais comum em crianças do que em adultos. O conselho dos especialistas é nunca acordar o sonâmbulo à força. O melhor é guiá-lo com calma de volta para a cama e deixar o ambiente seguro, sem escadas livres nem objetos pelo caminho.",
+      "fontes": ["Sleep Foundation", "NINDS (NIH)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ANDANDO DORMINDO", "sub": "Sonambulismo", "posicao": "topo", "em": 0 },
+        { "tipo": "tag", "texto": "NO SONO PROFUNDO", "icone": "pessoa", "posicao": "alto", "em": "profundo" },
+        { "tipo": "carimbo", "texto": "MAIS COMUM EM CRIANÇAS", "cor": "amarelo", "posicao": "meio", "em": "crianças" },
+        { "tipo": "check", "ok": true, "texto": "Guie de volta à cama", "nota": "Com calma e sem susto", "posicao": "meio2", "em": "guiá-lo" }
+      ]
+    },
+    {
+      "id": "privacao",
+      "texto": "E o que acontece quando o sono falta? Primeiro vem a cara de cansado, depois o resto. A atenção cai, o humor piora, os reflexos ficam lentos e a memória falha. Dirigir sonolento é perigoso, porque o cérebro pode dar pequenos apagões de poucos segundos, os chamados microssonos, sem você perceber. Em alta velocidade, alguns segundos são o suficiente para uma tragédia. Se bater sono ao volante, pare e descanse.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUANDO O SONO FALTA", "sub": "Privação de sono", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["olho", "Atenção"], ["balao", "Humor"], ["livro", "Memória"]], "posicao": "alto", "em": "atenção" },
+        { "tipo": "definicao", "palavra": "MICROSSONO", "significado": "Apagão de poucos segundos", "posicao": "meio", "em": "microssonos" },
+        { "tipo": "carimbo", "texto": "SONO NO VOLANTE? PARE", "cor": "vermelho", "posicao": "meio2", "em": "pare" }
+      ]
+    },
+    {
+      "id": "dicas",
+      "texto": "Quer dormir melhor? Os especialistas repetem as mesmas dicas. Tente deitar e acordar sempre no mesmo horário, até no fim de semana. Deixe o quarto escuro, silencioso e fresco. Evite telas na hora de dormir e cafeína no fim da tarde, porque o efeito do café pode durar muitas horas. E se o problema persistir, como roncos fortes, pausas na respiração ou insônia por semanas, procure um médico.",
+      "fontes": ["NINDS (NIH)", "Sleep Foundation"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DICAS PARA DORMIR MELHOR", "sub": "Rotina simples", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["relogio", "Mesmo horário"], ["casa", "Quarto escuro"], ["celular", "Sem telas"]], "posicao": "alto", "em": "horário" },
+        { "tipo": "tag", "texto": "CAFEÍNA SÓ DE MANHÃ", "icone": "alerta", "posicao": "meio", "em": "cafeína" },
+        { "tipo": "tag", "texto": "PROCURE UM MÉDICO", "icone": "cruz", "posicao": "meio2", "em": "médico" }
+      ]
+    },
+    {
+      "id": "quanto-dormir",
+      "texto": "Então, quanto dormir? Uma recomendação de consenso da Academia Americana de Medicina do Sono e da Sociedade de Pesquisa do Sono diz que adultos devem dormir sete horas ou mais por noite. Menos que isso, de forma regular, está ligado a vários problemas de saúde. O recorde de ficar sem dormir é de um adolescente chamado Randy Gardner, que ficou onze dias acordado, cerca de duzentas e sessenta e quatro horas. Mas ele ficou com a memória, o humor e a atenção comprometidos. Não tente isso em casa.",
+      "fontes": ["AASM / SRS", "ScienceAlert"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUANTO DORMIR?", "sub": "Recomendação para adultos", "posicao": "topo", "em": 0 },
+        { "tipo": "contador", "de": 0, "ate": 7, "unidade": "horas ou mais", "rotulo": "por noite", "posicao": "alto", "em": "sete" },
+        { "tipo": "contador", "de": 0, "ate": 264, "unidade": "horas acordado", "rotulo": "Randy Gardner", "posicao": "meio", "em": "duzentas" },
+        { "tipo": "carimbo", "texto": "NÃO TENTE", "cor": "vermelho", "posicao": "meio2", "em": "Não" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumindo: dormir não é desligar. É a hora em que o corpo se repara, o cérebro faz faxina, a memória é salva e o coração descansa. Então hoje à noite, quando você deitar, lembre que tem uma equipe trabalhando por você. Agora me conta aqui nos comentários: você é do time que dorme cedo ou do time que dorme tarde? E se você gostou, segue o canal para mais curiosidades.",
+      "fontes": ["NINDS (NIH)", "AASM"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DORMIR É TRABALHAR", "sub": "Resumo", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["ferramenta", "Reparo"], ["cerebro", "Faxina"], ["livro", "Memória"]], "posicao": "alto", "em": "repara" },
+        { "tipo": "enquete", "pergunta": "Você dorme cedo ou tarde?", "opcoes": ["1 — Cedo", "2 — Tarde"], "posicao": "meio", "em": "comentários" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "posicao": "meio2", "em": "segue" }
+      ]
+    }
+  ]
+}

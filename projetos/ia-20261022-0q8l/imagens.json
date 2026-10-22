@@ -1,0 +1,6 @@
+{
+  "sono": { "wiki": "Sono", "commons": "sleeping person bed", "rotulo": "Pessoa dormindo" },
+  "cerebro": { "wiki": "Cérebro humano", "commons": "human brain", "rotulo": "Cérebro humano" },
+  "eeg": { "wiki": "Eletroencefalografia", "commons": "polysomnography sleep EEG", "rotulo": "Registro de sono (EEG)" },
+  "melatonina": { "wiki": "Melatonina", "commons": "melatonin molecule", "rotulo": "Melatonina" }
+}

@@ -4,22 +4,23 @@
  "titulo": "O que acontece com seu corpo quando você dorme",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "pordosol",
  "criadoEm": "2026-10-22T10:35:40.224Z",
- "atualizadoEm": "2026-10-22T10:35:40.227Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-22T10:44:37Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "robotoslab",
+  "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
-  "posicao": 70,
-  "palavrasPorTela": 3,
-  "maiusculas": true,
-  "contorno": 10,
+  "posicao": 91,
+  "palavrasPorTela": 8,
+  "maiusculas": false,
+  "contorno": 0,
   "fundo": "nenhum",
-  "animacao": "pop",
-  "mostrar": true
+  "animacao": "nenhuma",
+  "mostrar": true,
+  "modo": "cinema"
  },
  "efeitos": {
   "barraProgresso": true,
@@ -30,7 +31,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "O que acontece com seu corpo quando você dorme",
@@ -60,11 +62,8007 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Você sabia que, enquanto você dorme, seu cérebro trabalha quase tanto quanto acordado? Pois é. Você apaga a luz, fecha os olhos e acha que o corpo desligou. Mas é bem o contrário. Durante a noite, uma equipe invisível entra em ação: faz faxina, arruma a memória e até paralisa você de propósito. Neste vídeo, você vai descobrir o que acontece com o seu corpo, hora por hora, enquanto você ronca em paz.",
+   "fontes": [
+    "NINDS (NIH)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "VOCÊ NUNCA DESLIGA",
+     "sub": "O que acontece quando você dorme",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "O CORPO DESLIGA?",
+     "posicao": "alto",
+     "em": "desligou"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MITO",
+     "cor": "vermelho",
+     "posicao": "meio",
+     "em": "contrário"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CÉREBRO EM AÇÃO",
+     "icone": "cerebro",
+     "posicao": "meio2",
+     "em": "faxina"
+    }
+   ]
+  },
+  {
+   "id": "hora-de-deitar",
+   "texto": "Tudo começa antes mesmo de você dormir. Quando escurece, o cérebro libera a melatonina, o hormônio que avisa o corpo que a noite chegou. Ela não é um remédio que derruba você. É mais um sinal, tipo um despertador ao contrário. A luz azul do celular atrapalha esse aviso, porque engana o cérebro e faz ele achar que ainda é dia. Resultado: você deita, mas o sono demora a chegar.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A NOITE CHEGOU",
+     "sub": "Melatonina",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "MELATONINA",
+     "significado": "Hormônio que sinaliza a noite",
+     "posicao": "alto",
+     "em": "melatonina"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "Luz azul"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "relogio",
+       "Sono atrasa"
+      ]
+     ],
+     "posicao": "meio",
+     "em": "celular"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "ATRAPALHA",
+     "cor": "vermelho",
+     "posicao": "meio2",
+     "em": "atrapalha"
+    }
+   ]
+  },
+  {
+   "id": "ciclos",
+   "texto": "Agora você apagou. O sono não é uma coisa só, é um ciclo que se repete. Cada ciclo dura cerca de noventa minutos e passa por fases: sono leve, sono profundo e o sono REM, aquele dos sonhos. Em uma noite boa, você completa quatro a seis ciclos. Ou seja, quando você diz que dormiu a noite inteira, na verdade você fez uma maratona de pequenas voltas, e cada uma tem um trabalho diferente.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A MARATONA DO SONO",
+     "sub": "Ciclos de 90 minutos",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 90,
+     "unidade": "min",
+     "rotulo": "por ciclo",
+     "posicao": "alto",
+     "em": "noventa"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lampada",
+       "Leve"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "cerebro",
+       "Profundo"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "estrela",
+       "REM"
+      ]
+     ],
+     "posicao": "meio",
+     "em": "fases"
+    },
+    {
+     "tipo": "tag",
+     "texto": "4 A 6 CICLOS",
+     "icone": "calendario",
+     "posicao": "meio2",
+     "em": "seis"
+    }
+   ]
+  },
+  {
+   "id": "sono-leve",
+   "texto": "Primeira parada: o sono leve. Nos primeiros minutos, a respiração desacelera, os músculos relaxam e o batimento do coração diminui. Sabe quando você está quase dormindo e leva um susto, como se tivesse caído da cama? Isso tem nome: espasmo hípnico. É um tranco muscular comum, que acontece com muita gente, e não faz mal nenhum. Os cientistas ainda discutem exatamente por que ele acontece.",
+   "fontes": [
+    "Sleep Foundation",
+    "NINDS (NIH)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FASE 1: SONO LEVE",
+     "sub": "A porta de entrada",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "tag",
+     "texto": "CORAÇÃO MAIS LENTO",
+     "icone": "alerta",
+     "posicao": "alto",
+     "em": "coração"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "ESPASMO HÍPNICO",
+     "significado": "Tranco muscular ao pegar no sono",
+     "posicao": "meio",
+     "em": "espasmo"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "É normal",
+     "nota": "Acontece com muita gente",
+     "posicao": "meio2",
+     "em": "comum"
+    }
+   ]
+  },
+  {
+   "id": "temperatura",
+   "texto": "Enquanto você dorme, a temperatura do corpo cai. Não é muito, em geral menos de um grau, mas faz diferença. É por isso que dormir em um quarto muito quente atrapalha tanto. O corpo precisa esfriar um pouquinho para entrar no sono profundo. E repare: muita gente puxa o pé para fora do cobertor. Não é frescura, é o corpo tentando soltar calor para baixar a temperatura.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O CORPO ESFRIA",
+     "sub": "Termostato interno",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1,
+     "unidade": "°C a menos",
+     "rotulo": "queda aproximada",
+     "posicao": "alto",
+     "em": "grau"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Quarto muito quente",
+     "nota": "Atrapalha o sono profundo",
+     "posicao": "meio",
+     "em": "quente"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Você também põe o pé para fora?",
+     "posicao": "meio2",
+     "em": "pé"
+    }
+   ]
+  },
+  {
+   "id": "sono-profundo",
+   "texto": "Agora vem a parte mais pesada: o sono profundo. Aqui o batimento e a respiração ficam bem lentos, e é muito difícil acordar você. Se alguém te chamar, você nem escuta. É nessa fase, concentrada na primeira metade da noite, que o corpo faz o reparo. Músculos, tecidos e defesas do organismo se recuperam. Por isso, quem dorme mal costuma sentir o corpo moído, como se tivesse apanhado.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FASE 3: SONO PROFUNDO",
+     "sub": "A hora do reparo",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "tag",
+     "texto": "DIFÍCIL DE ACORDAR",
+     "icone": "cadeado",
+     "posicao": "alto",
+     "em": "difícil"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "ferramenta",
+       "Músculos"
+      ],
+      [
+       "escudo",
+       "Defesas"
+      ]
+     ],
+     "posicao": "meio",
+     "em": "reparo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "1ª METADE DA NOITE",
+     "cor": "azul",
+     "posicao": "meio2",
+     "em": "metade"
+    }
+   ]
+  },
+  {
+   "id": "hormonio-crescimento",
+   "texto": "E tem mais. É durante o sono profundo que o corpo libera boa parte do hormônio do crescimento. Em crianças, ele ajuda a crescer. Em adultos, ele continua importante para reparar tecidos e manter os músculos. Ou seja, dormir bem não é perda de tempo, é parte do treino. Quem malha e dorme pouco está construindo a casa e esquecendo de chamar o pedreiro.",
+   "fontes": [
+    "Sleep Foundation",
+    "NINDS (NIH)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "HORMÔNIO DO CRESCIMENTO",
+     "sub": "Liberado no sono profundo",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pessoa",
+       "Crianças"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "ferramenta",
+       "Adultos"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "crianças"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "SONO É TREINO",
+     "cor": "verde",
+     "posicao": "meio",
+     "em": "treino"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Quem aqui treina e dorme pouco?",
+     "posicao": "meio2",
+     "em": "malha"
+    }
+   ]
+  },
+  {
+   "id": "faxina-cerebral",
+   "texto": "Agora, a descoberta mais legal da ciência do sono. Em 2013, pesquisadores publicaram na revista Science um estudo com camundongos mostrando que o cérebro faz uma faxina durante o sono. Um sistema chamado glinfático aumenta o fluxo de líquido entre as células e ajuda a carregar embora os resíduos acumulados durante o dia. Em humanos, os estudos ainda estão avançando, mas a ideia é simples: dormir é a hora de levar o lixo para fora.",
+   "fontes": [
+    "Science 2013 — Xie et al.",
+    "NINDS (NIH)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FAXINA NO CÉREBRO",
+     "sub": "Sistema glinfático",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "GLINFÁTICO",
+     "significado": "Sistema que ajuda a limpar resíduos",
+     "posicao": "alto",
+     "em": "glinfático"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ESTUDO EM CAMUNDONGOS",
+     "icone": "lupa",
+     "posicao": "meio",
+     "em": "camundongos"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Resíduos do dia",
+     "para": "Fora do cérebro",
+     "legenda": "Limpeza durante o sono",
+     "posicao": "meio2",
+     "em": "lixo"
+    }
+   ]
+  },
+  {
+   "id": "rem",
+   "texto": "Passamos a noite e chegamos ao sono REM. A sigla vem do inglês e significa movimento rápido dos olhos. Por baixo das pálpebras, seus olhos correm de um lado para o outro, e o cérebro fica quase tão ativo quanto acordado. O coração acelera, a respiração fica irregular. É aqui que acontecem os sonhos mais vívidos. E o REM aparece cada vez mais longo conforme a noite avança, por isso as manhãs têm sonhos mais compridos.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SONO REM",
+     "sub": "Rapid Eye Movement",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "REM",
+     "significado": "Movimento rápido dos olhos",
+     "posicao": "alto",
+     "em": "movimento"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "olho",
+       "Olhos correm"
+      ],
+      [
+       "cerebro",
+       "Cérebro ativo"
+      ]
+     ],
+     "posicao": "meio",
+     "em": "olhos"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SONHOS VÍVIDOS",
+     "icone": "estrela",
+     "posicao": "meio2",
+     "em": "sonhos"
+    }
+   ]
+  },
+  {
+   "id": "paralisia",
+   "texto": "E agora o detalhe mais curioso. Durante o sono REM, o seu corpo fica paralisado. De propósito. O cérebro desliga o comando dos músculos voluntários, num fenômeno chamado atonia. Isso protege você: se o corpo se mexesse conforme o sonho, você sairia correndo pela casa, lutando com o travesseiro. Existe até um distúrbio em que essa trava falha, e a pessoa atua os sonhos, com socos e chutes de verdade.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PARALISADO DE PROPÓSITO",
+     "sub": "Atonia muscular",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "TRAVA ATIVA",
+     "cor": "verde",
+     "posicao": "alto",
+     "em": "paralisado"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Protege você",
+     "nota": "Impede de atuar os sonhos",
+     "posicao": "meio",
+     "em": "protege"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Quando a trava falha",
+     "nota": "Distúrbio do sono REM",
+     "posicao": "meio2",
+     "em": "falha"
+    }
+   ]
+  },
+  {
+   "id": "sonhos",
+   "texto": "Falando em sonhos: todo mundo sonha, mesmo quem jura que não. A diferença é que muita gente costuma esquecer tudo logo ao acordar, e por isso acha que passou a noite em branco. Em média, passamos algumas horas sonhando por noite, mas a maior parte some da memória em minutos depois de acordar. Anotar o sonho logo que acorda ajuda a lembrar mais, é só deixar um caderninho ou o celular perto da cama. Os cientistas ainda não chegaram a uma resposta final sobre para que servem os sonhos. Há teorias ligadas à memória e às emoções, mas nenhuma é considerada definitiva.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TODO MUNDO SONHA",
+     "sub": "Mesmo quem não lembra",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "VOCÊ SONHA?",
+     "posicao": "alto",
+     "em": "sonha"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "ESQUECE EM MINUTOS",
+     "cor": "amarelo",
+     "posicao": "meio",
+     "em": "esquecer"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CIÊNCIA AINDA DEBATE",
+     "icone": "lupa",
+     "posicao": "meio2",
+     "em": "teorias"
+    }
+   ]
+  },
+  {
+   "id": "memoria",
+   "texto": "Já que falamos de memória: dormir é como apertar o botão salvar. Durante a noite, o cérebro reorganiza o que você aprendeu no dia, fortalece o que é importante e deixa de lado o que não serve. Estudos mostram que pessoas que dormem depois de estudar lembram mais do conteúdo do que as que ficam acordadas. Então, virar a madrugada estudando antes da prova pode sair bem pior do que dormir.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O BOTÃO SALVAR",
+     "sub": "Sono e memória",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "livro",
+       "Estudar"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "lampada",
+       "Dormir"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "cerebro",
+       "Lembrar"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "salvar"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Virar a madrugada",
+     "nota": "Pode piorar a nota",
+     "posicao": "meio",
+     "em": "madrugada"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Dormir depois de estudar",
+     "nota": "Ajuda a fixar",
+     "posicao": "meio2",
+     "em": "dormem"
+    }
+   ]
+  },
+  {
+   "id": "coracao",
+   "texto": "E o coração, como fica? Ele descansa também. Durante o sono, a pressão arterial cai e o batimento diminui, o que dá uma folga para o sistema cardiovascular. Por isso, dormir pouco de forma crônica está associado a mais risco de pressão alta e problemas no coração. Nenhum remédio substitui isso. É um descanso que o corpo só consegue tirar de um jeito: dormindo.",
+   "fontes": [
+    "NINDS (NIH)",
+    "AASM"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O CORAÇÃO DESCANSA",
+     "sub": "Pressão e batimentos caem",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "tag",
+     "texto": "PRESSÃO CAI",
+     "icone": "cruz",
+     "posicao": "alto",
+     "em": "pressão"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Dormir pouco sempre",
+     "nota": "Ligado a mais risco cardíaco",
+     "posicao": "meio",
+     "em": "pouco"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "FOLGA PARA O CORAÇÃO",
+     "cor": "verde",
+     "posicao": "meio2",
+     "em": "folga"
+    }
+   ]
+  },
+  {
+   "id": "acordar",
+   "texto": "Chegando perto da manhã, o corpo começa a se preparar para acordar antes mesmo de o despertador tocar. A temperatura sobe, o cortisol, hormônio que dá energia, aumenta, e o sono fica mais leve. Por isso você muitas vezes acorda um minuto antes do alarme. Não é mágica, é o seu relógio biológico funcionando. E se você acorda no meio de um sono profundo, aquela moleza e o mau humor têm nome: inércia do sono.",
+   "fontes": [
+    "Sleep Foundation",
+    "NINDS (NIH)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PREPARANDO O DESPERTAR",
+     "sub": "Relógio biológico",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "CORTISOL",
+     "significado": "Hormônio que dá energia",
+     "posicao": "alto",
+     "em": "cortisol"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ACORDA ANTES DO ALARME",
+     "icone": "relogio",
+     "posicao": "meio",
+     "em": "alarme"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "INÉRCIA DO SONO",
+     "significado": "Moleza logo ao acordar",
+     "posicao": "meio2",
+     "em": "inércia"
+    }
+   ]
+  },
+  {
+   "id": "sonambulismo",
+   "texto": "Agora uma esquisitice que muita gente conhece: o sonambulismo. A pessoa levanta, anda, às vezes até conversa, mas continua dormindo. Isso costuma acontecer no sono profundo, e não durante os sonhos, e é mais comum em crianças do que em adultos. O conselho dos especialistas é nunca acordar o sonâmbulo à força. O melhor é guiá-lo com calma de volta para a cama e deixar o ambiente seguro, sem escadas livres nem objetos pelo caminho.",
+   "fontes": [
+    "Sleep Foundation",
+    "NINDS (NIH)"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ANDANDO DORMINDO",
+     "sub": "Sonambulismo",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "tag",
+     "texto": "NO SONO PROFUNDO",
+     "icone": "pessoa",
+     "posicao": "alto",
+     "em": "profundo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MAIS COMUM EM CRIANÇAS",
+     "cor": "amarelo",
+     "posicao": "meio",
+     "em": "crianças"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Guie de volta à cama",
+     "nota": "Com calma e sem susto",
+     "posicao": "meio2",
+     "em": "guiá-lo"
+    }
+   ]
+  },
+  {
+   "id": "privacao",
+   "texto": "E o que acontece quando o sono falta? Primeiro vem a cara de cansado, depois o resto. A atenção cai, o humor piora, os reflexos ficam lentos e a memória falha. Dirigir sonolento é perigoso, porque o cérebro pode dar pequenos apagões de poucos segundos, os chamados microssonos, sem você perceber. Em alta velocidade, alguns segundos são o suficiente para uma tragédia. Se bater sono ao volante, pare e descanse.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUANDO O SONO FALTA",
+     "sub": "Privação de sono",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "olho",
+       "Atenção"
+      ],
+      [
+       "balao",
+       "Humor"
+      ],
+      [
+       "livro",
+       "Memória"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "atenção"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "MICROSSONO",
+     "significado": "Apagão de poucos segundos",
+     "posicao": "meio",
+     "em": "microssonos"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "SONO NO VOLANTE? PARE",
+     "cor": "vermelho",
+     "posicao": "meio2",
+     "em": "pare"
+    }
+   ]
+  },
+  {
+   "id": "dicas",
+   "texto": "Quer dormir melhor? Os especialistas repetem as mesmas dicas. Tente deitar e acordar sempre no mesmo horário, até no fim de semana. Deixe o quarto escuro, silencioso e fresco. Evite telas na hora de dormir e cafeína no fim da tarde, porque o efeito do café pode durar muitas horas. E se o problema persistir, como roncos fortes, pausas na respiração ou insônia por semanas, procure um médico.",
+   "fontes": [
+    "NINDS (NIH)",
+    "Sleep Foundation"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DICAS PARA DORMIR MELHOR",
+     "sub": "Rotina simples",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "Mesmo horário"
+      ],
+      [
+       "casa",
+       "Quarto escuro"
+      ],
+      [
+       "celular",
+       "Sem telas"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "horário"
+    },
+    {
+     "tipo": "tag",
+     "texto": "CAFEÍNA SÓ DE MANHÃ",
+     "icone": "alerta",
+     "posicao": "meio",
+     "em": "cafeína"
+    },
+    {
+     "tipo": "tag",
+     "texto": "PROCURE UM MÉDICO",
+     "icone": "cruz",
+     "posicao": "meio2",
+     "em": "médico"
+    }
+   ]
+  },
+  {
+   "id": "quanto-dormir",
+   "texto": "Então, quanto dormir? Uma recomendação de consenso da Academia Americana de Medicina do Sono e da Sociedade de Pesquisa do Sono diz que adultos devem dormir sete horas ou mais por noite. Menos que isso, de forma regular, está ligado a vários problemas de saúde. O recorde de ficar sem dormir é de um adolescente chamado Randy Gardner, que ficou onze dias acordado, cerca de duzentas e sessenta e quatro horas. Mas ele ficou com a memória, o humor e a atenção comprometidos. Não tente isso em casa.",
+   "fontes": [
+    "AASM / SRS",
+    "ScienceAlert"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUANTO DORMIR?",
+     "sub": "Recomendação para adultos",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 7,
+     "unidade": "horas ou mais",
+     "rotulo": "por noite",
+     "posicao": "alto",
+     "em": "sete"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 264,
+     "unidade": "horas acordado",
+     "rotulo": "Randy Gardner",
+     "posicao": "meio",
+     "em": "duzentas"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO TENTE",
+     "cor": "vermelho",
+     "posicao": "meio2",
+     "em": "Não"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: dormir não é desligar. É a hora em que o corpo se repara, o cérebro faz faxina, a memória é salva e o coração descansa. Então hoje à noite, quando você deitar, lembre que tem uma equipe trabalhando por você. Agora me conta aqui nos comentários: você é do time que dorme cedo ou do time que dorme tarde? E se você gostou, segue o canal para mais curiosidades.",
+   "fontes": [
+    "NINDS (NIH)",
+    "AASM"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DORMIR É TRABALHAR",
+     "sub": "Resumo",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "ferramenta",
+       "Reparo"
+      ],
+      [
+       "cerebro",
+       "Faxina"
+      ],
+      [
+       "livro",
+       "Memória"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "repara"
+    },
+    {
+     "tipo": "enquete",
+     "pergunta": "Você dorme cedo ou tarde?",
+     "opcoes": [
+      "1 — Cedo",
+      "2 — Tarde"
+     ],
+     "posicao": "meio",
+     "em": "comentários"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "posicao": "meio2",
+     "em": "segue"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "2318de6c81",
+   "texto": "Você sabia que, enquanto você dorme, seu cérebro trabalha quase tanto quanto acordado? Pois é. Você apaga a luz, fecha os olhos e acha que o corpo desligou. Mas é bem o contrário. Durante a noite, uma equipe invisível entra em ação: faz faxina, arruma a memória e até paralisa você de propósito. Neste vídeo, você vai descobrir o que acontece com o seu corpo, hora por hora, enquanto você ronca em paz.",
+   "audio": "audio/gancho-2318de6c81.mp3",
+   "duracao": 30.041,
+   "palavras": [
+    {
+     "p": "Você",
+     "i": 0.1,
+     "f": 0.412
+    },
+    {
+     "p": "sabia",
+     "i": 0.425,
+     "f": 0.863
+    },
+    {
+     "p": "que",
+     "i": 0.875,
+     "f": 1.15
+    },
+    {
+     "p": "enquanto",
+     "i": 1.4,
+     "f": 1.8
+    },
+    {
+     "p": "você",
+     "i": 1.812,
+     "f": 2.087
+    },
+    {
+     "p": "dorme",
+     "i": 2.1,
+     "f": 2.475
+    },
+    {
+     "p": "seu",
+     "i": 2.763,
+     "f": 2.95
+    },
+    {
+     "p": "cérebro",
+     "i": 2.962,
+     "f": 3.4
+    },
+    {
+     "p": "trabalha",
+     "i": 3.413,
+     "f": 3.788
+    },
+    {
+     "p": "quase",
+     "i": 3.8,
+     "f": 4.212
+    },
+    {
+     "p": "tanto",
+     "i": 4.225,
+     "f": 4.587
+    },
+    {
+     "p": "quanto",
+     "i": 4.6,
+     "f": 4.812
+    },
+    {
+     "p": "acordado",
+     "i": 4.825,
+     "f": 5.4
+    },
+    {
+     "p": "Pois",
+     "i": 6.263,
+     "f": 6.475
+    },
+    {
+     "p": "é",
+     "i": 6.487,
+     "f": 6.812
+    },
+    {
+     "p": "Você",
+     "i": 7.675,
+     "f": 8.012
+    },
+    {
+     "p": "apaga",
+     "i": 8.025,
+     "f": 8.4
+    },
+    {
+     "p": "a",
+     "i": 8.412,
+     "f": 8.425
+    },
+    {
+     "p": "luz",
+     "i": 8.438,
+     "f": 8.838
+    },
+    {
+     "p": "fecha",
+     "i": 9.137,
+     "f": 9.462
+    },
+    {
+     "p": "os",
+     "i": 9.475,
+     "f": 9.512
+    },
+    {
+     "p": "olhos",
+     "i": 9.525,
+     "f": 9.85
+    },
+    {
+     "p": "e",
+     "i": 9.863,
+     "f": 10
+    },
+    {
+     "p": "acha",
+     "i": 10.012,
+     "f": 10.337
+    },
+    {
+     "p": "que",
+     "i": 10.35,
+     "f": 10.438
+    },
+    {
+     "p": "o",
+     "i": 10.45,
+     "f": 10.525
+    },
+    {
+     "p": "corpo",
+     "i": 10.537,
+     "f": 10.9
+    },
+    {
+     "p": "desligou",
+     "i": 10.912,
+     "f": 11.45
+    },
+    {
+     "p": "Mas",
+     "i": 12.312,
+     "f": 12.512
+    },
+    {
+     "p": "é",
+     "i": 12.525,
+     "f": 12.7
+    },
+    {
+     "p": "bem",
+     "i": 12.713,
+     "f": 12.963
+    },
+    {
+     "p": "o",
+     "i": 12.975,
+     "f": 13.025
+    },
+    {
+     "p": "contrário",
+     "i": 13.037,
+     "f": 13.6
+    },
+    {
+     "p": "Durante",
+     "i": 14.463,
+     "f": 14.888
+    },
+    {
+     "p": "a",
+     "i": 14.9,
+     "f": 14.938
+    },
+    {
+     "p": "noite",
+     "i": 14.95,
+     "f": 15.337
+    },
+    {
+     "p": "uma",
+     "i": 15.625,
+     "f": 15.738
+    },
+    {
+     "p": "equipe",
+     "i": 15.75,
+     "f": 16.012
+    },
+    {
+     "p": "invisível",
+     "i": 16.025,
+     "f": 16.6
+    },
+    {
+     "p": "entra",
+     "i": 16.613,
+     "f": 16.825
+    },
+    {
+     "p": "em",
+     "i": 16.837,
+     "f": 16.912
+    },
+    {
+     "p": "ação",
+     "i": 16.925,
+     "f": 17.312
+    },
+    {
+     "p": "faz",
+     "i": 17.55,
+     "f": 17.788
+    },
+    {
+     "p": "faxina",
+     "i": 17.8,
+     "f": 18.35
+    },
+    {
+     "p": "arruma",
+     "i": 18.55,
+     "f": 18.938
+    },
+    {
+     "p": "a",
+     "i": 18.95,
+     "f": 18.975
+    },
+    {
+     "p": "memória",
+     "i": 18.988,
+     "f": 19.45
+    },
+    {
+     "p": "e",
+     "i": 19.462,
+     "f": 19.55
+    },
+    {
+     "p": "até",
+     "i": 19.562,
+     "f": 19.775
+    },
+    {
+     "p": "paralisa",
+     "i": 19.788,
+     "f": 20.3
+    },
+    {
+     "p": "você",
+     "i": 20.312,
+     "f": 20.6
+    },
+    {
+     "p": "de",
+     "i": 20.613,
+     "f": 20.688
+    },
+    {
+     "p": "propósito",
+     "i": 20.7,
+     "f": 21.35
+    },
+    {
+     "p": "Neste",
+     "i": 22.212,
+     "f": 22.612
+    },
+    {
+     "p": "vídeo",
+     "i": 22.625,
+     "f": 22.975
+    },
+    {
+     "p": "você",
+     "i": 23.3,
+     "f": 23.575
+    },
+    {
+     "p": "vai",
+     "i": 23.587,
+     "f": 23.725
+    },
+    {
+     "p": "descobrir",
+     "i": 23.738,
+     "f": 24.262
+    },
+    {
+     "p": "o",
+     "i": 24.275,
+     "f": 24.325
+    },
+    {
+     "p": "que",
+     "i": 24.337,
+     "f": 24.4
+    },
+    {
+     "p": "acontece",
+     "i": 24.413,
+     "f": 25
+    },
+    {
+     "p": "com",
+     "i": 25.012,
+     "f": 25.175
+    },
+    {
+     "p": "o",
+     "i": 25.188,
+     "f": 25.225
+    },
+    {
+     "p": "seu",
+     "i": 25.238,
+     "f": 25.438
+    },
+    {
+     "p": "corpo",
+     "i": 25.45,
+     "f": 25.875
+    },
+    {
+     "p": "hora",
+     "i": 26.087,
+     "f": 26.35
+    },
+    {
+     "p": "por",
+     "i": 26.363,
+     "f": 26.562
+    },
+    {
+     "p": "hora",
+     "i": 26.575,
+     "f": 26.837
+    },
+    {
+     "p": "enquanto",
+     "i": 27.113,
+     "f": 27.538
+    },
+    {
+     "p": "você",
+     "i": 27.55,
+     "f": 27.825
+    },
+    {
+     "p": "ronca",
+     "i": 27.837,
+     "f": 28.2
+    },
+    {
+     "p": "em",
+     "i": 28.212,
+     "f": 28.3
+    },
+    {
+     "p": "paz",
+     "i": 28.312,
+     "f": 28.712
+    }
+   ]
+  },
+  "hora-de-deitar": {
+   "hash": "6b5d2d3c5a",
+   "texto": "Tudo começa antes mesmo de você dormir. Quando escurece, o cérebro libera a melatonina, o hormônio que avisa o corpo que a noite chegou. Ela não é um remédio que derruba você. É mais um sinal, tipo um despertador ao contrário. A luz azul do celular atrapalha esse aviso, porque engana o cérebro e faz ele achar que ainda é dia. Resultado: você deita, mas o sono demora a chegar.",
+   "audio": "audio/hora-de-deitar-6b5d2d3c5a.mp3",
+   "duracao": 27.664,
+   "palavras": [
+    {
+     "p": "Tudo",
+     "i": 0.1,
+     "f": 0.375
+    },
+    {
+     "p": "começa",
+     "i": 0.388,
+     "f": 0.875
+    },
+    {
+     "p": "antes",
+     "i": 0.887,
+     "f": 1.237
+    },
+    {
+     "p": "mesmo",
+     "i": 1.25,
+     "f": 1.637
+    },
+    {
+     "p": "de",
+     "i": 1.65,
+     "f": 1.75
+    },
+    {
+     "p": "você",
+     "i": 1.762,
+     "f": 2.062
+    },
+    {
+     "p": "dormir",
+     "i": 2.075,
+     "f": 2.463
+    },
+    {
+     "p": "Quando",
+     "i": 3.325,
+     "f": 3.6
+    },
+    {
+     "p": "escurece",
+     "i": 3.612,
+     "f": 4.2
+    },
+    {
+     "p": "o",
+     "i": 4.463,
+     "f": 4.525
+    },
+    {
+     "p": "cérebro",
+     "i": 4.537,
+     "f": 5
+    },
+    {
+     "p": "libera",
+     "i": 5.013,
+     "f": 5.362
+    },
+    {
+     "p": "a",
+     "i": 5.375,
+     "f": 5.4
+    },
+    {
+     "p": "melatonina",
+     "i": 5.412,
+     "f": 6.025
+    },
+    {
+     "p": "o",
+     "i": 6.312,
+     "f": 6.375
+    },
+    {
+     "p": "hormônio",
+     "i": 6.388,
+     "f": 6.862
+    },
+    {
+     "p": "que",
+     "i": 6.875,
+     "f": 6.963
+    },
+    {
+     "p": "avisa",
+     "i": 6.975,
+     "f": 7.325
+    },
+    {
+     "p": "o",
+     "i": 7.338,
+     "f": 7.375
+    },
+    {
+     "p": "corpo",
+     "i": 7.388,
+     "f": 7.788
+    },
+    {
+     "p": "que",
+     "i": 7.8,
+     "f": 7.888
+    },
+    {
+     "p": "a",
+     "i": 7.9,
+     "f": 7.963
+    },
+    {
+     "p": "noite",
+     "i": 7.975,
+     "f": 8.312
+    },
+    {
+     "p": "chegou",
+     "i": 8.325,
+     "f": 8.775
+    },
+    {
+     "p": "Ela",
+     "i": 9.637,
+     "f": 9.912
+    },
+    {
+     "p": "não",
+     "i": 9.925,
+     "f": 10.15
+    },
+    {
+     "p": "é",
+     "i": 10.162,
+     "f": 10.213
+    },
+    {
+     "p": "um",
+     "i": 10.225,
+     "f": 10.325
+    },
+    {
+     "p": "remédio",
+     "i": 10.338,
+     "f": 10.812
+    },
+    {
+     "p": "que",
+     "i": 10.825,
+     "f": 10.912
+    },
+    {
+     "p": "derruba",
+     "i": 10.925,
+     "f": 11.338
+    },
+    {
+     "p": "você",
+     "i": 11.35,
+     "f": 11.8
+    },
+    {
+     "p": "É",
+     "i": 12.662,
+     "f": 12.787
+    },
+    {
+     "p": "mais",
+     "i": 12.8,
+     "f": 13.013
+    },
+    {
+     "p": "um",
+     "i": 13.025,
+     "f": 13.188
+    },
+    {
+     "p": "sinal",
+     "i": 13.2,
+     "f": 13.6
+    },
+    {
+     "p": "tipo",
+     "i": 13.825,
+     "f": 14.087
+    },
+    {
+     "p": "um",
+     "i": 14.1,
+     "f": 14.188
+    },
+    {
+     "p": "despertador",
+     "i": 14.2,
+     "f": 14.875
+    },
+    {
+     "p": "ao",
+     "i": 14.887,
+     "f": 14.962
+    },
+    {
+     "p": "contrário",
+     "i": 14.975,
+     "f": 15.537
+    },
+    {
+     "p": "A",
+     "i": 16.4,
+     "f": 16.512
+    },
+    {
+     "p": "luz",
+     "i": 16.525,
+     "f": 16.7
+    },
+    {
+     "p": "azul",
+     "i": 16.712,
+     "f": 17.087
+    },
+    {
+     "p": "do",
+     "i": 17.1,
+     "f": 17.188
+    },
+    {
+     "p": "celular",
+     "i": 17.2,
+     "f": 17.637
+    },
+    {
+     "p": "atrapalha",
+     "i": 17.65,
+     "f": 18.15
+    },
+    {
+     "p": "esse",
+     "i": 18.163,
+     "f": 18.325
+    },
+    {
+     "p": "aviso",
+     "i": 18.337,
+     "f": 18.787
+    },
+    {
+     "p": "porque",
+     "i": 19.075,
+     "f": 19.375
+    },
+    {
+     "p": "engana",
+     "i": 19.387,
+     "f": 19.825
+    },
+    {
+     "p": "o",
+     "i": 19.837,
+     "f": 19.875
+    },
+    {
+     "p": "cérebro",
+     "i": 19.887,
+     "f": 20.35
+    },
+    {
+     "p": "e",
+     "i": 20.363,
+     "f": 20.438
+    },
+    {
+     "p": "faz",
+     "i": 20.45,
+     "f": 20.637
+    },
+    {
+     "p": "ele",
+     "i": 20.65,
+     "f": 20.812
+    },
+    {
+     "p": "achar",
+     "i": 20.825,
+     "f": 21.175
+    },
+    {
+     "p": "que",
+     "i": 21.188,
+     "f": 21.312
+    },
+    {
+     "p": "ainda",
+     "i": 21.325,
+     "f": 21.625
+    },
+    {
+     "p": "é",
+     "i": 21.637,
+     "f": 21.675
+    },
+    {
+     "p": "dia",
+     "i": 21.688,
+     "f": 22.025
+    },
+    {
+     "p": "Resultado",
+     "i": 22.887,
+     "f": 23.575
+    },
+    {
+     "p": "você",
+     "i": 23.913,
+     "f": 24.213
+    },
+    {
+     "p": "deita",
+     "i": 24.225,
+     "f": 24.588
+    },
+    {
+     "p": "mas",
+     "i": 24.863,
+     "f": 24.988
+    },
+    {
+     "p": "o",
+     "i": 25,
+     "f": 25.125
+    },
+    {
+     "p": "sono",
+     "i": 25.137,
+     "f": 25.462
+    },
+    {
+     "p": "demora",
+     "i": 25.475,
+     "f": 25.888
+    },
+    {
+     "p": "a",
+     "i": 25.9,
+     "f": 25.925
+    },
+    {
+     "p": "chegar",
+     "i": 25.938,
+     "f": 26.337
+    }
+   ]
+  },
+  "ciclos": {
+   "hash": "767a10900e",
+   "texto": "Agora você apagou. O sono não é uma coisa só, é um ciclo que se repete. Cada ciclo dura cerca de noventa minutos e passa por fases: sono leve, sono profundo e o sono REM, aquele dos sonhos. Em uma noite boa, você completa quatro a seis ciclos. Ou seja, quando você diz que dormiu a noite inteira, na verdade você fez uma maratona de pequenas voltas, e cada uma tem um trabalho diferente.",
+   "audio": "audio/ciclos-767a10900e.mp3",
+   "duracao": 28.735,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.1,
+     "f": 0.55
+    },
+    {
+     "p": "você",
+     "i": 0.562,
+     "f": 0.887
+    },
+    {
+     "p": "apagou",
+     "i": 0.9,
+     "f": 1.387
+    },
+    {
+     "p": "O",
+     "i": 2.25,
+     "f": 2.375
+    },
+    {
+     "p": "sono",
+     "i": 2.388,
+     "f": 2.75
+    },
+    {
+     "p": "não",
+     "i": 2.763,
+     "f": 2.975
+    },
+    {
+     "p": "é",
+     "i": 2.987,
+     "f": 3.087
+    },
+    {
+     "p": "uma",
+     "i": 3.1,
+     "f": 3.275
+    },
+    {
+     "p": "coisa",
+     "i": 3.288,
+     "f": 3.638
+    },
+    {
+     "p": "só",
+     "i": 3.65,
+     "f": 4
+    },
+    {
+     "p": "é",
+     "i": 4.237,
+     "f": 4.3
+    },
+    {
+     "p": "um",
+     "i": 4.312,
+     "f": 4.412
+    },
+    {
+     "p": "ciclo",
+     "i": 4.425,
+     "f": 4.837
+    },
+    {
+     "p": "que",
+     "i": 4.85,
+     "f": 4.95
+    },
+    {
+     "p": "se",
+     "i": 4.963,
+     "f": 5.075
+    },
+    {
+     "p": "repete",
+     "i": 5.088,
+     "f": 5.65
+    },
+    {
+     "p": "Cada",
+     "i": 6.513,
+     "f": 6.788
+    },
+    {
+     "p": "ciclo",
+     "i": 6.8,
+     "f": 7.2
+    },
+    {
+     "p": "dura",
+     "i": 7.213,
+     "f": 7.5
+    },
+    {
+     "p": "cerca",
+     "i": 7.513,
+     "f": 7.875
+    },
+    {
+     "p": "de",
+     "i": 7.888,
+     "f": 7.975
+    },
+    {
+     "p": "noventa",
+     "i": 7.987,
+     "f": 8.438
+    },
+    {
+     "p": "minutos",
+     "i": 8.45,
+     "f": 8.837
+    },
+    {
+     "p": "e",
+     "i": 8.85,
+     "f": 8.987
+    },
+    {
+     "p": "passa",
+     "i": 9,
+     "f": 9.275
+    },
+    {
+     "p": "por",
+     "i": 9.287,
+     "f": 9.438
+    },
+    {
+     "p": "fases",
+     "i": 9.45,
+     "f": 9.987
+    },
+    {
+     "p": "sono",
+     "i": 10.225,
+     "f": 10.512
+    },
+    {
+     "p": "leve",
+     "i": 10.525,
+     "f": 10.9
+    },
+    {
+     "p": "sono",
+     "i": 11.162,
+     "f": 11.45
+    },
+    {
+     "p": "profundo",
+     "i": 11.463,
+     "f": 12.013
+    },
+    {
+     "p": "e",
+     "i": 12.025,
+     "f": 12.1
+    },
+    {
+     "p": "o",
+     "i": 12.113,
+     "f": 12.163
+    },
+    {
+     "p": "sono",
+     "i": 12.175,
+     "f": 12.513
+    },
+    {
+     "p": "REM",
+     "i": 12.525,
+     "f": 12.8
+    },
+    {
+     "p": "aquele",
+     "i": 13.012,
+     "f": 13.35
+    },
+    {
+     "p": "dos",
+     "i": 13.363,
+     "f": 13.575
+    },
+    {
+     "p": "sonhos",
+     "i": 13.588,
+     "f": 14.088
+    },
+    {
+     "p": "Em",
+     "i": 14.95,
+     "f": 15.087
+    },
+    {
+     "p": "uma",
+     "i": 15.1,
+     "f": 15.262
+    },
+    {
+     "p": "noite",
+     "i": 15.275,
+     "f": 15.613
+    },
+    {
+     "p": "boa",
+     "i": 15.625,
+     "f": 15.938
+    },
+    {
+     "p": "você",
+     "i": 16.212,
+     "f": 16.45
+    },
+    {
+     "p": "completa",
+     "i": 16.462,
+     "f": 16.987
+    },
+    {
+     "p": "quatro",
+     "i": 17,
+     "f": 17.363
+    },
+    {
+     "p": "a",
+     "i": 17.375,
+     "f": 17.4
+    },
+    {
+     "p": "seis",
+     "i": 17.413,
+     "f": 17.7
+    },
+    {
+     "p": "ciclos",
+     "i": 17.712,
+     "f": 18.275
+    },
+    {
+     "p": "Ou",
+     "i": 19.137,
+     "f": 19.3
+    },
+    {
+     "p": "seja",
+     "i": 19.312,
+     "f": 19.738
+    },
+    {
+     "p": "quando",
+     "i": 19.975,
+     "f": 20.2
+    },
+    {
+     "p": "você",
+     "i": 20.212,
+     "f": 20.487
+    },
+    {
+     "p": "diz",
+     "i": 20.5,
+     "f": 20.712
+    },
+    {
+     "p": "que",
+     "i": 20.725,
+     "f": 20.825
+    },
+    {
+     "p": "dormiu",
+     "i": 20.837,
+     "f": 21.225
+    },
+    {
+     "p": "a",
+     "i": 21.238,
+     "f": 21.288
+    },
+    {
+     "p": "noite",
+     "i": 21.3,
+     "f": 21.65
+    },
+    {
+     "p": "inteira",
+     "i": 21.663,
+     "f": 22.025
+    },
+    {
+     "p": "na",
+     "i": 22.35,
+     "f": 22.45
+    },
+    {
+     "p": "verdade",
+     "i": 22.462,
+     "f": 22.95
+    },
+    {
+     "p": "você",
+     "i": 22.962,
+     "f": 23.212
+    },
+    {
+     "p": "fez",
+     "i": 23.225,
+     "f": 23.388
+    },
+    {
+     "p": "uma",
+     "i": 23.4,
+     "f": 23.562
+    },
+    {
+     "p": "maratona",
+     "i": 23.575,
+     "f": 24.113
+    },
+    {
+     "p": "de",
+     "i": 24.125,
+     "f": 24.225
+    },
+    {
+     "p": "pequenas",
+     "i": 24.238,
+     "f": 24.75
+    },
+    {
+     "p": "voltas",
+     "i": 24.762,
+     "f": 25.212
+    },
+    {
+     "p": "e",
+     "i": 25.462,
+     "f": 25.537
+    },
+    {
+     "p": "cada",
+     "i": 25.55,
+     "f": 25.812
+    },
+    {
+     "p": "uma",
+     "i": 25.825,
+     "f": 26.037
+    },
+    {
+     "p": "tem",
+     "i": 26.05,
+     "f": 26.213
+    },
+    {
+     "p": "um",
+     "i": 26.225,
+     "f": 26.312
+    },
+    {
+     "p": "trabalho",
+     "i": 26.325,
+     "f": 26.762
+    },
+    {
+     "p": "diferente",
+     "i": 26.775,
+     "f": 27.412
+    }
+   ]
+  },
+  "sono-leve": {
+   "hash": "1c4a47ae52",
+   "texto": "Primeira parada: o sono leve. Nos primeiros minutos, a respiração desacelera, os músculos relaxam e o batimento do coração diminui. Sabe quando você está quase dormindo e leva um susto, como se tivesse caído da cama? Isso tem nome: espasmo hípnico. É um tranco muscular comum, que acontece com muita gente, e não faz mal nenhum. Os cientistas ainda discutem exatamente por que ele acontece.",
+   "audio": "audio/sono-leve-1c4a47ae52.mp3",
+   "duracao": 29.571,
+   "palavras": [
+    {
+     "p": "Primeira",
+     "i": 0.1,
+     "f": 0.5
+    },
+    {
+     "p": "parada",
+     "i": 0.512,
+     "f": 1
+    },
+    {
+     "p": "o",
+     "i": 1.238,
+     "f": 1.312
+    },
+    {
+     "p": "sono",
+     "i": 1.325,
+     "f": 1.65
+    },
+    {
+     "p": "leve",
+     "i": 1.663,
+     "f": 2.087
+    },
+    {
+     "p": "Nos",
+     "i": 2.95,
+     "f": 3.175
+    },
+    {
+     "p": "primeiros",
+     "i": 3.188,
+     "f": 3.6
+    },
+    {
+     "p": "minutos",
+     "i": 3.612,
+     "f": 4.162
+    },
+    {
+     "p": "a",
+     "i": 4.362,
+     "f": 4.45
+    },
+    {
+     "p": "respiração",
+     "i": 4.463,
+     "f": 5.138
+    },
+    {
+     "p": "desacelera",
+     "i": 5.15,
+     "f": 5.838
+    },
+    {
+     "p": "os",
+     "i": 6.162,
+     "f": 6.325
+    },
+    {
+     "p": "músculos",
+     "i": 6.338,
+     "f": 6.888
+    },
+    {
+     "p": "relaxam",
+     "i": 6.9,
+     "f": 7.475
+    },
+    {
+     "p": "e",
+     "i": 7.487,
+     "f": 7.55
+    },
+    {
+     "p": "o",
+     "i": 7.562,
+     "f": 7.588
+    },
+    {
+     "p": "batimento",
+     "i": 7.6,
+     "f": 8.162
+    },
+    {
+     "p": "do",
+     "i": 8.175,
+     "f": 8.263
+    },
+    {
+     "p": "coração",
+     "i": 8.275,
+     "f": 8.75
+    },
+    {
+     "p": "diminui",
+     "i": 8.762,
+     "f": 9.25
+    },
+    {
+     "p": "Sabe",
+     "i": 10.113,
+     "f": 10.475
+    },
+    {
+     "p": "quando",
+     "i": 10.488,
+     "f": 10.725
+    },
+    {
+     "p": "você",
+     "i": 10.738,
+     "f": 10.988
+    },
+    {
+     "p": "está",
+     "i": 11,
+     "f": 11.213
+    },
+    {
+     "p": "quase",
+     "i": 11.225,
+     "f": 11.562
+    },
+    {
+     "p": "dormindo",
+     "i": 11.575,
+     "f": 12.087
+    },
+    {
+     "p": "e",
+     "i": 12.1,
+     "f": 12.125
+    },
+    {
+     "p": "leva",
+     "i": 12.137,
+     "f": 12.362
+    },
+    {
+     "p": "um",
+     "i": 12.375,
+     "f": 12.463
+    },
+    {
+     "p": "susto",
+     "i": 12.475,
+     "f": 12.925
+    },
+    {
+     "p": "como",
+     "i": 13.262,
+     "f": 13.562
+    },
+    {
+     "p": "se",
+     "i": 13.575,
+     "f": 13.688
+    },
+    {
+     "p": "tivesse",
+     "i": 13.7,
+     "f": 14.1
+    },
+    {
+     "p": "caído",
+     "i": 14.113,
+     "f": 14.475
+    },
+    {
+     "p": "da",
+     "i": 14.488,
+     "f": 14.6
+    },
+    {
+     "p": "cama",
+     "i": 14.613,
+     "f": 14.963
+    },
+    {
+     "p": "Isso",
+     "i": 15.825,
+     "f": 16.188
+    },
+    {
+     "p": "tem",
+     "i": 16.2,
+     "f": 16.363
+    },
+    {
+     "p": "nome",
+     "i": 16.375,
+     "f": 16.75
+    },
+    {
+     "p": "espasmo",
+     "i": 17,
+     "f": 17.512
+    },
+    {
+     "p": "hípnico",
+     "i": 17.525,
+     "f": 18.025
+    },
+    {
+     "p": "É",
+     "i": 18.887,
+     "f": 19.012
+    },
+    {
+     "p": "um",
+     "i": 19.025,
+     "f": 19.15
+    },
+    {
+     "p": "tranco",
+     "i": 19.163,
+     "f": 19.488
+    },
+    {
+     "p": "muscular",
+     "i": 19.5,
+     "f": 19.962
+    },
+    {
+     "p": "comum",
+     "i": 19.975,
+     "f": 20.4
+    },
+    {
+     "p": "que",
+     "i": 20.637,
+     "f": 20.712
+    },
+    {
+     "p": "acontece",
+     "i": 20.725,
+     "f": 21.35
+    },
+    {
+     "p": "com",
+     "i": 21.363,
+     "f": 21.538
+    },
+    {
+     "p": "muita",
+     "i": 21.55,
+     "f": 21.9
+    },
+    {
+     "p": "gente",
+     "i": 21.913,
+     "f": 22.338
+    },
+    {
+     "p": "e",
+     "i": 22.55,
+     "f": 22.625
+    },
+    {
+     "p": "não",
+     "i": 22.637,
+     "f": 22.837
+    },
+    {
+     "p": "faz",
+     "i": 22.85,
+     "f": 23.125
+    },
+    {
+     "p": "mal",
+     "i": 23.137,
+     "f": 23.337
+    },
+    {
+     "p": "nenhum",
+     "i": 23.35,
+     "f": 23.75
+    },
+    {
+     "p": "Os",
+     "i": 24.613,
+     "f": 24.788
+    },
+    {
+     "p": "cientistas",
+     "i": 24.8,
+     "f": 25.4
+    },
+    {
+     "p": "ainda",
+     "i": 25.413,
+     "f": 25.775
+    },
+    {
+     "p": "discutem",
+     "i": 25.788,
+     "f": 26.338
+    },
+    {
+     "p": "exatamente",
+     "i": 26.35,
+     "f": 27.062
+    },
+    {
+     "p": "por",
+     "i": 27.075,
+     "f": 27.238
+    },
+    {
+     "p": "que",
+     "i": 27.25,
+     "f": 27.425
+    },
+    {
+     "p": "ele",
+     "i": 27.438,
+     "f": 27.562
+    },
+    {
+     "p": "acontece",
+     "i": 27.575,
+     "f": 28.262
+    }
+   ]
+  },
+  "temperatura": {
+   "hash": "086f14ab23",
+   "texto": "Enquanto você dorme, a temperatura do corpo cai. Não é muito, em geral menos de um grau, mas faz diferença. É por isso que dormir em um quarto muito quente atrapalha tanto. O corpo precisa esfriar um pouquinho para entrar no sono profundo. E repare: muita gente puxa o pé para fora do cobertor. Não é frescura, é o corpo tentando soltar calor para baixar a temperatura.",
+   "audio": "audio/temperatura-086f14ab23.mp3",
+   "duracao": 27.063,
+   "palavras": [
+    {
+     "p": "Enquanto",
+     "i": 0.1,
+     "f": 0.6
+    },
+    {
+     "p": "você",
+     "i": 0.613,
+     "f": 0.888
+    },
+    {
+     "p": "dorme",
+     "i": 0.9,
+     "f": 1.35
+    },
+    {
+     "p": "a",
+     "i": 1.562,
+     "f": 1.65
+    },
+    {
+     "p": "temperatura",
+     "i": 1.663,
+     "f": 2.312
+    },
+    {
+     "p": "do",
+     "i": 2.325,
+     "f": 2.425
+    },
+    {
+     "p": "corpo",
+     "i": 2.438,
+     "f": 2.825
+    },
+    {
+     "p": "cai",
+     "i": 2.837,
+     "f": 3.137
+    },
+    {
+     "p": "Não",
+     "i": 4,
+     "f": 4.287
+    },
+    {
+     "p": "é",
+     "i": 4.3,
+     "f": 4.362
+    },
+    {
+     "p": "muito",
+     "i": 4.375,
+     "f": 4.825
+    },
+    {
+     "p": "em",
+     "i": 5.088,
+     "f": 5.175
+    },
+    {
+     "p": "geral",
+     "i": 5.188,
+     "f": 5.525
+    },
+    {
+     "p": "menos",
+     "i": 5.537,
+     "f": 5.862
+    },
+    {
+     "p": "de",
+     "i": 5.875,
+     "f": 5.938
+    },
+    {
+     "p": "um",
+     "i": 5.95,
+     "f": 6.038
+    },
+    {
+     "p": "grau",
+     "i": 6.05,
+     "f": 6.35
+    },
+    {
+     "p": "mas",
+     "i": 6.638,
+     "f": 6.862
+    },
+    {
+     "p": "faz",
+     "i": 6.875,
+     "f": 7.088
+    },
+    {
+     "p": "diferença",
+     "i": 7.1,
+     "f": 7.762
+    },
+    {
+     "p": "É",
+     "i": 8.625,
+     "f": 8.738
+    },
+    {
+     "p": "por",
+     "i": 8.75,
+     "f": 8.938
+    },
+    {
+     "p": "isso",
+     "i": 8.95,
+     "f": 9.275
+    },
+    {
+     "p": "que",
+     "i": 9.287,
+     "f": 9.375
+    },
+    {
+     "p": "dormir",
+     "i": 9.387,
+     "f": 9.762
+    },
+    {
+     "p": "em",
+     "i": 9.775,
+     "f": 9.85
+    },
+    {
+     "p": "um",
+     "i": 9.863,
+     "f": 10
+    },
+    {
+     "p": "quarto",
+     "i": 10.012,
+     "f": 10.425
+    },
+    {
+     "p": "muito",
+     "i": 10.438,
+     "f": 10.863
+    },
+    {
+     "p": "quente",
+     "i": 10.875,
+     "f": 11.137
+    },
+    {
+     "p": "atrapalha",
+     "i": 11.15,
+     "f": 11.613
+    },
+    {
+     "p": "tanto",
+     "i": 11.625,
+     "f": 12.012
+    },
+    {
+     "p": "O",
+     "i": 12.875,
+     "f": 13.012
+    },
+    {
+     "p": "corpo",
+     "i": 13.025,
+     "f": 13.412
+    },
+    {
+     "p": "precisa",
+     "i": 13.425,
+     "f": 13.838
+    },
+    {
+     "p": "esfriar",
+     "i": 13.85,
+     "f": 14.188
+    },
+    {
+     "p": "um",
+     "i": 14.2,
+     "f": 14.275
+    },
+    {
+     "p": "pouquinho",
+     "i": 14.287,
+     "f": 14.775
+    },
+    {
+     "p": "para",
+     "i": 14.787,
+     "f": 14.925
+    },
+    {
+     "p": "entrar",
+     "i": 14.938,
+     "f": 15.25
+    },
+    {
+     "p": "no",
+     "i": 15.262,
+     "f": 15.375
+    },
+    {
+     "p": "sono",
+     "i": 15.387,
+     "f": 15.712
+    },
+    {
+     "p": "profundo",
+     "i": 15.725,
+     "f": 16.275
+    },
+    {
+     "p": "E",
+     "i": 17.137,
+     "f": 17.225
+    },
+    {
+     "p": "repare",
+     "i": 17.238,
+     "f": 17.7
+    },
+    {
+     "p": "muita",
+     "i": 17.975,
+     "f": 18.338
+    },
+    {
+     "p": "gente",
+     "i": 18.35,
+     "f": 18.638
+    },
+    {
+     "p": "puxa",
+     "i": 18.65,
+     "f": 18.95
+    },
+    {
+     "p": "o",
+     "i": 18.962,
+     "f": 19.012
+    },
+    {
+     "p": "pé",
+     "i": 19.025,
+     "f": 19.237
+    },
+    {
+     "p": "para",
+     "i": 19.25,
+     "f": 19.475
+    },
+    {
+     "p": "fora",
+     "i": 19.488,
+     "f": 19.762
+    },
+    {
+     "p": "do",
+     "i": 19.775,
+     "f": 19.875
+    },
+    {
+     "p": "cobertor",
+     "i": 19.887,
+     "f": 20.488
+    },
+    {
+     "p": "Não",
+     "i": 21.35,
+     "f": 21.65
+    },
+    {
+     "p": "é",
+     "i": 21.663,
+     "f": 21.713
+    },
+    {
+     "p": "frescura",
+     "i": 21.725,
+     "f": 22.3
+    },
+    {
+     "p": "é",
+     "i": 22.575,
+     "f": 22.675
+    },
+    {
+     "p": "o",
+     "i": 22.688,
+     "f": 22.75
+    },
+    {
+     "p": "corpo",
+     "i": 22.762,
+     "f": 23.137
+    },
+    {
+     "p": "tentando",
+     "i": 23.15,
+     "f": 23.587
+    },
+    {
+     "p": "soltar",
+     "i": 23.6,
+     "f": 23.975
+    },
+    {
+     "p": "calor",
+     "i": 23.988,
+     "f": 24.375
+    },
+    {
+     "p": "para",
+     "i": 24.387,
+     "f": 24.575
+    },
+    {
+     "p": "baixar",
+     "i": 24.587,
+     "f": 24.962
+    },
+    {
+     "p": "a",
+     "i": 24.975,
+     "f": 25.025
+    },
+    {
+     "p": "temperatura",
+     "i": 25.038,
+     "f": 25.75
+    }
+   ]
+  },
+  "sono-profundo": {
+   "hash": "1284d8c14d",
+   "texto": "Agora vem a parte mais pesada: o sono profundo. Aqui o batimento e a respiração ficam bem lentos, e é muito difícil acordar você. Se alguém te chamar, você nem escuta. É nessa fase, concentrada na primeira metade da noite, que o corpo faz o reparo. Músculos, tecidos e defesas do organismo se recuperam. Por isso, quem dorme mal costuma sentir o corpo moído, como se tivesse apanhado.",
+   "audio": "audio/sono-profundo-1284d8c14d.mp3",
+   "duracao": 29.257,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.1,
+     "f": 0.575
+    },
+    {
+     "p": "vem",
+     "i": 0.588,
+     "f": 0.762
+    },
+    {
+     "p": "a",
+     "i": 0.775,
+     "f": 0.863
+    },
+    {
+     "p": "parte",
+     "i": 0.875,
+     "f": 1.225
+    },
+    {
+     "p": "mais",
+     "i": 1.238,
+     "f": 1.463
+    },
+    {
+     "p": "pesada",
+     "i": 1.475,
+     "f": 2
+    },
+    {
+     "p": "o",
+     "i": 2.237,
+     "f": 2.3
+    },
+    {
+     "p": "sono",
+     "i": 2.312,
+     "f": 2.638
+    },
+    {
+     "p": "profundo",
+     "i": 2.65,
+     "f": 3.188
+    },
+    {
+     "p": "Aqui",
+     "i": 4.05,
+     "f": 4.35
+    },
+    {
+     "p": "o",
+     "i": 4.362,
+     "f": 4.4
+    },
+    {
+     "p": "batimento",
+     "i": 4.412,
+     "f": 4.987
+    },
+    {
+     "p": "e",
+     "i": 5,
+     "f": 5.037
+    },
+    {
+     "p": "a",
+     "i": 5.05,
+     "f": 5.1
+    },
+    {
+     "p": "respiração",
+     "i": 5.112,
+     "f": 5.75
+    },
+    {
+     "p": "ficam",
+     "i": 5.763,
+     "f": 6.062
+    },
+    {
+     "p": "bem",
+     "i": 6.075,
+     "f": 6.325
+    },
+    {
+     "p": "lentos",
+     "i": 6.338,
+     "f": 6.775
+    },
+    {
+     "p": "e",
+     "i": 7.013,
+     "f": 7.075
+    },
+    {
+     "p": "é",
+     "i": 7.088,
+     "f": 7.163
+    },
+    {
+     "p": "muito",
+     "i": 7.175,
+     "f": 7.6
+    },
+    {
+     "p": "difícil",
+     "i": 7.612,
+     "f": 8.05
+    },
+    {
+     "p": "acordar",
+     "i": 8.062,
+     "f": 8.5
+    },
+    {
+     "p": "você",
+     "i": 8.512,
+     "f": 8.938
+    },
+    {
+     "p": "Se",
+     "i": 9.8,
+     "f": 10
+    },
+    {
+     "p": "alguém",
+     "i": 10.012,
+     "f": 10.312
+    },
+    {
+     "p": "te",
+     "i": 10.325,
+     "f": 10.387
+    },
+    {
+     "p": "chamar",
+     "i": 10.4,
+     "f": 10.838
+    },
+    {
+     "p": "você",
+     "i": 11.05,
+     "f": 11.35
+    },
+    {
+     "p": "nem",
+     "i": 11.363,
+     "f": 11.6
+    },
+    {
+     "p": "escuta",
+     "i": 11.613,
+     "f": 12.113
+    },
+    {
+     "p": "É",
+     "i": 12.975,
+     "f": 13.088
+    },
+    {
+     "p": "nessa",
+     "i": 13.1,
+     "f": 13.412
+    },
+    {
+     "p": "fase",
+     "i": 13.425,
+     "f": 13.812
+    },
+    {
+     "p": "concentrada",
+     "i": 14.1,
+     "f": 14.762
+    },
+    {
+     "p": "na",
+     "i": 14.775,
+     "f": 14.875
+    },
+    {
+     "p": "primeira",
+     "i": 14.887,
+     "f": 15.212
+    },
+    {
+     "p": "metade",
+     "i": 15.225,
+     "f": 15.688
+    },
+    {
+     "p": "da",
+     "i": 15.7,
+     "f": 15.8
+    },
+    {
+     "p": "noite",
+     "i": 15.812,
+     "f": 16.2
+    },
+    {
+     "p": "que",
+     "i": 16.438,
+     "f": 16.538
+    },
+    {
+     "p": "o",
+     "i": 16.55,
+     "f": 16.613
+    },
+    {
+     "p": "corpo",
+     "i": 16.625,
+     "f": 17.012
+    },
+    {
+     "p": "faz",
+     "i": 17.025,
+     "f": 17.25
+    },
+    {
+     "p": "o",
+     "i": 17.262,
+     "f": 17.375
+    },
+    {
+     "p": "reparo",
+     "i": 17.387,
+     "f": 17.875
+    },
+    {
+     "p": "Músculos",
+     "i": 18.738,
+     "f": 19.375
+    },
+    {
+     "p": "tecidos",
+     "i": 19.675,
+     "f": 20.15
+    },
+    {
+     "p": "e",
+     "i": 20.163,
+     "f": 20.275
+    },
+    {
+     "p": "defesas",
+     "i": 20.288,
+     "f": 20.812
+    },
+    {
+     "p": "do",
+     "i": 20.825,
+     "f": 20.912
+    },
+    {
+     "p": "organismo",
+     "i": 20.925,
+     "f": 21.525
+    },
+    {
+     "p": "se",
+     "i": 21.538,
+     "f": 21.663
+    },
+    {
+     "p": "recuperam",
+     "i": 21.675,
+     "f": 22.25
+    },
+    {
+     "p": "Por",
+     "i": 23.113,
+     "f": 23.3
+    },
+    {
+     "p": "isso",
+     "i": 23.312,
+     "f": 23.625
+    },
+    {
+     "p": "quem",
+     "i": 23.863,
+     "f": 24.075
+    },
+    {
+     "p": "dorme",
+     "i": 24.087,
+     "f": 24.487
+    },
+    {
+     "p": "mal",
+     "i": 24.5,
+     "f": 24.725
+    },
+    {
+     "p": "costuma",
+     "i": 24.738,
+     "f": 25.163
+    },
+    {
+     "p": "sentir",
+     "i": 25.175,
+     "f": 25.538
+    },
+    {
+     "p": "o",
+     "i": 25.55,
+     "f": 25.6
+    },
+    {
+     "p": "corpo",
+     "i": 25.613,
+     "f": 25.963
+    },
+    {
+     "p": "moído",
+     "i": 25.975,
+     "f": 26.375
+    },
+    {
+     "p": "como",
+     "i": 26.625,
+     "f": 26.85
+    },
+    {
+     "p": "se",
+     "i": 26.863,
+     "f": 26.975
+    },
+    {
+     "p": "tivesse",
+     "i": 26.988,
+     "f": 27.363
+    },
+    {
+     "p": "apanhado",
+     "i": 27.375,
+     "f": 27.95
+    }
+   ]
+  },
+  "hormonio-crescimento": {
+   "hash": "89345aa0c0",
+   "texto": "E tem mais. É durante o sono profundo que o corpo libera boa parte do hormônio do crescimento. Em crianças, ele ajuda a crescer. Em adultos, ele continua importante para reparar tecidos e manter os músculos. Ou seja, dormir bem não é perda de tempo, é parte do treino. Quem malha e dorme pouco está construindo a casa e esquecendo de chamar o pedreiro.",
+   "audio": "audio/hormonio-crescimento-89345aa0c0.mp3",
+   "duracao": 25.835,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.1,
+     "f": 0.25
+    },
+    {
+     "p": "tem",
+     "i": 0.263,
+     "f": 0.463
+    },
+    {
+     "p": "mais",
+     "i": 0.475,
+     "f": 0.987
+    },
+    {
+     "p": "É",
+     "i": 1.85,
+     "f": 1.975
+    },
+    {
+     "p": "durante",
+     "i": 1.988,
+     "f": 2.362
+    },
+    {
+     "p": "o",
+     "i": 2.375,
+     "f": 2.4
+    },
+    {
+     "p": "sono",
+     "i": 2.413,
+     "f": 2.725
+    },
+    {
+     "p": "profundo",
+     "i": 2.737,
+     "f": 3.25
+    },
+    {
+     "p": "que",
+     "i": 3.263,
+     "f": 3.363
+    },
+    {
+     "p": "o",
+     "i": 3.375,
+     "f": 3.438
+    },
+    {
+     "p": "corpo",
+     "i": 3.45,
+     "f": 3.788
+    },
+    {
+     "p": "libera",
+     "i": 3.8,
+     "f": 4.125
+    },
+    {
+     "p": "boa",
+     "i": 4.138,
+     "f": 4.45
+    },
+    {
+     "p": "parte",
+     "i": 4.463,
+     "f": 4.825
+    },
+    {
+     "p": "do",
+     "i": 4.838,
+     "f": 4.9
+    },
+    {
+     "p": "hormônio",
+     "i": 4.912,
+     "f": 5.362
+    },
+    {
+     "p": "do",
+     "i": 5.375,
+     "f": 5.487
+    },
+    {
+     "p": "crescimento",
+     "i": 5.5,
+     "f": 6.188
+    },
+    {
+     "p": "Em",
+     "i": 7.05,
+     "f": 7.2
+    },
+    {
+     "p": "crianças",
+     "i": 7.213,
+     "f": 7.85
+    },
+    {
+     "p": "ele",
+     "i": 8.137,
+     "f": 8.287
+    },
+    {
+     "p": "ajuda",
+     "i": 8.3,
+     "f": 8.713
+    },
+    {
+     "p": "a",
+     "i": 8.725,
+     "f": 8.762
+    },
+    {
+     "p": "crescer",
+     "i": 8.775,
+     "f": 9.225
+    },
+    {
+     "p": "Em",
+     "i": 10.088,
+     "f": 10.263
+    },
+    {
+     "p": "adultos",
+     "i": 10.275,
+     "f": 10.8
+    },
+    {
+     "p": "ele",
+     "i": 11.062,
+     "f": 11.213
+    },
+    {
+     "p": "continua",
+     "i": 11.225,
+     "f": 11.688
+    },
+    {
+     "p": "importante",
+     "i": 11.7,
+     "f": 12.35
+    },
+    {
+     "p": "para",
+     "i": 12.363,
+     "f": 12.525
+    },
+    {
+     "p": "reparar",
+     "i": 12.537,
+     "f": 12.963
+    },
+    {
+     "p": "tecidos",
+     "i": 12.975,
+     "f": 13.463
+    },
+    {
+     "p": "e",
+     "i": 13.475,
+     "f": 13.575
+    },
+    {
+     "p": "manter",
+     "i": 13.588,
+     "f": 13.963
+    },
+    {
+     "p": "os",
+     "i": 13.975,
+     "f": 14.1
+    },
+    {
+     "p": "músculos",
+     "i": 14.113,
+     "f": 14.788
+    },
+    {
+     "p": "Ou",
+     "i": 15.65,
+     "f": 15.812
+    },
+    {
+     "p": "seja",
+     "i": 15.825,
+     "f": 16.262
+    },
+    {
+     "p": "dormir",
+     "i": 16.525,
+     "f": 16.912
+    },
+    {
+     "p": "bem",
+     "i": 16.925,
+     "f": 17.188
+    },
+    {
+     "p": "não",
+     "i": 17.2,
+     "f": 17.363
+    },
+    {
+     "p": "é",
+     "i": 17.375,
+     "f": 17.438
+    },
+    {
+     "p": "perda",
+     "i": 17.45,
+     "f": 17.787
+    },
+    {
+     "p": "de",
+     "i": 17.8,
+     "f": 17.925
+    },
+    {
+     "p": "tempo",
+     "i": 17.938,
+     "f": 18.337
+    },
+    {
+     "p": "é",
+     "i": 18.562,
+     "f": 18.65
+    },
+    {
+     "p": "parte",
+     "i": 18.663,
+     "f": 19.05
+    },
+    {
+     "p": "do",
+     "i": 19.062,
+     "f": 19.175
+    },
+    {
+     "p": "treino",
+     "i": 19.188,
+     "f": 19.575
+    },
+    {
+     "p": "Quem",
+     "i": 20.438,
+     "f": 20.663
+    },
+    {
+     "p": "malha",
+     "i": 20.675,
+     "f": 20.95
+    },
+    {
+     "p": "e",
+     "i": 20.962,
+     "f": 21
+    },
+    {
+     "p": "dorme",
+     "i": 21.012,
+     "f": 21.363
+    },
+    {
+     "p": "pouco",
+     "i": 21.375,
+     "f": 21.663
+    },
+    {
+     "p": "está",
+     "i": 21.675,
+     "f": 21.887
+    },
+    {
+     "p": "construindo",
+     "i": 21.9,
+     "f": 22.375
+    },
+    {
+     "p": "a",
+     "i": 22.387,
+     "f": 22.45
+    },
+    {
+     "p": "casa",
+     "i": 22.462,
+     "f": 22.85
+    },
+    {
+     "p": "e",
+     "i": 22.863,
+     "f": 22.887
+    },
+    {
+     "p": "esquecendo",
+     "i": 22.9,
+     "f": 23.487
+    },
+    {
+     "p": "de",
+     "i": 23.5,
+     "f": 23.587
+    },
+    {
+     "p": "chamar",
+     "i": 23.6,
+     "f": 23.95
+    },
+    {
+     "p": "o",
+     "i": 23.962,
+     "f": 24.012
+    },
+    {
+     "p": "pedreiro",
+     "i": 24.025,
+     "f": 24.525
+    }
+   ]
+  },
+  "faxina-cerebral": {
+   "hash": "bbd3a88cde",
+   "texto": "Agora, a descoberta mais legal da ciência do sono. Em 2013, pesquisadores publicaram na revista Science um estudo com camundongos mostrando que o cérebro faz uma faxina durante o sono. Um sistema chamado glinfático aumenta o fluxo de líquido entre as células e ajuda a carregar embora os resíduos acumulados durante o dia. Em humanos, os estudos ainda estão avançando, mas a ideia é simples: dormir é a hora de levar o lixo para fora.",
+   "audio": "audio/faxina-cerebral-bbd3a88cde.mp3",
+   "duracao": 29.074,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.1,
+     "f": 0.625
+    },
+    {
+     "p": "a",
+     "i": 0.875,
+     "f": 0.938
+    },
+    {
+     "p": "descoberta",
+     "i": 0.95,
+     "f": 1.625
+    },
+    {
+     "p": "mais",
+     "i": 1.637,
+     "f": 1.825
+    },
+    {
+     "p": "legal",
+     "i": 1.837,
+     "f": 2.2
+    },
+    {
+     "p": "da",
+     "i": 2.212,
+     "f": 2.325
+    },
+    {
+     "p": "ciência",
+     "i": 2.337,
+     "f": 2.875
+    },
+    {
+     "p": "do",
+     "i": 2.888,
+     "f": 2.988
+    },
+    {
+     "p": "sono",
+     "i": 3,
+     "f": 3.413
+    },
+    {
+     "p": "Em 2013",
+     "i": 4.275,
+     "f": 5.213
+    },
+    {
+     "p": "pesquisadores",
+     "i": 5.487,
+     "f": 6.275
+    },
+    {
+     "p": "publicaram",
+     "i": 6.287,
+     "f": 6.825
+    },
+    {
+     "p": "na",
+     "i": 6.838,
+     "f": 6.938
+    },
+    {
+     "p": "revista",
+     "i": 6.95,
+     "f": 7.388
+    },
+    {
+     "p": "Science",
+     "i": 7.4,
+     "f": 7.888
+    },
+    {
+     "p": "um",
+     "i": 7.9,
+     "f": 7.988
+    },
+    {
+     "p": "estudo",
+     "i": 8,
+     "f": 8.387
+    },
+    {
+     "p": "com",
+     "i": 8.4,
+     "f": 8.537
+    },
+    {
+     "p": "camundongos",
+     "i": 8.55,
+     "f": 9.188
+    },
+    {
+     "p": "mostrando",
+     "i": 9.2,
+     "f": 9.725
+    },
+    {
+     "p": "que",
+     "i": 9.738,
+     "f": 9.8
+    },
+    {
+     "p": "o",
+     "i": 9.812,
+     "f": 9.863
+    },
+    {
+     "p": "cérebro",
+     "i": 9.875,
+     "f": 10.275
+    },
+    {
+     "p": "faz",
+     "i": 10.287,
+     "f": 10.463
+    },
+    {
+     "p": "uma",
+     "i": 10.475,
+     "f": 10.675
+    },
+    {
+     "p": "faxina",
+     "i": 10.688,
+     "f": 11.15
+    },
+    {
+     "p": "durante",
+     "i": 11.162,
+     "f": 11.512
+    },
+    {
+     "p": "o",
+     "i": 11.525,
+     "f": 11.55
+    },
+    {
+     "p": "sono",
+     "i": 11.562,
+     "f": 11.963
+    },
+    {
+     "p": "Um",
+     "i": 12.825,
+     "f": 13
+    },
+    {
+     "p": "sistema",
+     "i": 13.012,
+     "f": 13.45
+    },
+    {
+     "p": "chamado",
+     "i": 13.463,
+     "f": 13.888
+    },
+    {
+     "p": "glinfático",
+     "i": 13.9,
+     "f": 14.575
+    },
+    {
+     "p": "aumenta",
+     "i": 14.588,
+     "f": 14.938
+    },
+    {
+     "p": "o",
+     "i": 14.95,
+     "f": 14.975
+    },
+    {
+     "p": "fluxo",
+     "i": 14.988,
+     "f": 15.388
+    },
+    {
+     "p": "de",
+     "i": 15.4,
+     "f": 15.513
+    },
+    {
+     "p": "líquido",
+     "i": 15.525,
+     "f": 15.925
+    },
+    {
+     "p": "entre",
+     "i": 15.938,
+     "f": 16.137
+    },
+    {
+     "p": "as",
+     "i": 16.15,
+     "f": 16.25
+    },
+    {
+     "p": "células",
+     "i": 16.262,
+     "f": 16.738
+    },
+    {
+     "p": "e",
+     "i": 16.75,
+     "f": 16.887
+    },
+    {
+     "p": "ajuda",
+     "i": 16.9,
+     "f": 17.325
+    },
+    {
+     "p": "a",
+     "i": 17.337,
+     "f": 17.375
+    },
+    {
+     "p": "carregar",
+     "i": 17.387,
+     "f": 17.787
+    },
+    {
+     "p": "embora",
+     "i": 17.8,
+     "f": 18.188
+    },
+    {
+     "p": "os",
+     "i": 18.2,
+     "f": 18.262
+    },
+    {
+     "p": "resíduos",
+     "i": 18.275,
+     "f": 18.737
+    },
+    {
+     "p": "acumulados",
+     "i": 18.75,
+     "f": 19.5
+    },
+    {
+     "p": "durante",
+     "i": 19.512,
+     "f": 19.887
+    },
+    {
+     "p": "o",
+     "i": 19.9,
+     "f": 19.938
+    },
+    {
+     "p": "dia",
+     "i": 19.95,
+     "f": 20.275
+    },
+    {
+     "p": "Em",
+     "i": 21.137,
+     "f": 21.275
+    },
+    {
+     "p": "humanos",
+     "i": 21.288,
+     "f": 21.738
+    },
+    {
+     "p": "os",
+     "i": 22.087,
+     "f": 22.15
+    },
+    {
+     "p": "estudos",
+     "i": 22.163,
+     "f": 22.6
+    },
+    {
+     "p": "ainda",
+     "i": 22.613,
+     "f": 22.913
+    },
+    {
+     "p": "estão",
+     "i": 22.925,
+     "f": 23.163
+    },
+    {
+     "p": "avançando",
+     "i": 23.175,
+     "f": 23.762
+    },
+    {
+     "p": "mas",
+     "i": 24.012,
+     "f": 24.137
+    },
+    {
+     "p": "a",
+     "i": 24.15,
+     "f": 24.312
+    },
+    {
+     "p": "ideia",
+     "i": 24.325,
+     "f": 24.562
+    },
+    {
+     "p": "é",
+     "i": 24.575,
+     "f": 24.6
+    },
+    {
+     "p": "simples",
+     "i": 24.613,
+     "f": 25.225
+    },
+    {
+     "p": "dormir",
+     "i": 25.45,
+     "f": 25.875
+    },
+    {
+     "p": "é",
+     "i": 25.887,
+     "f": 25.938
+    },
+    {
+     "p": "a",
+     "i": 25.95,
+     "f": 26.012
+    },
+    {
+     "p": "hora",
+     "i": 26.025,
+     "f": 26.262
+    },
+    {
+     "p": "de",
+     "i": 26.275,
+     "f": 26.35
+    },
+    {
+     "p": "levar",
+     "i": 26.363,
+     "f": 26.713
+    },
+    {
+     "p": "o",
+     "i": 26.725,
+     "f": 26.75
+    },
+    {
+     "p": "lixo",
+     "i": 26.762,
+     "f": 27.15
+    },
+    {
+     "p": "para",
+     "i": 27.163,
+     "f": 27.363
+    },
+    {
+     "p": "fora",
+     "i": 27.375,
+     "f": 27.75
+    }
+   ]
+  },
+  "rem": {
+   "hash": "2ad476909b",
+   "texto": "Passamos a noite e chegamos ao sono REM. A sigla vem do inglês e significa movimento rápido dos olhos. Por baixo das pálpebras, seus olhos correm de um lado para o outro, e o cérebro fica quase tão ativo quanto acordado. O coração acelera, a respiração fica irregular. É aqui que acontecem os sonhos mais vívidos. E o REM aparece cada vez mais longo conforme a noite avança, por isso as manhãs têm sonhos mais compridos.",
+   "audio": "audio/rem-2ad476909b.mp3",
+   "duracao": 29.989,
+   "palavras": [
+    {
+     "p": "Passamos",
+     "i": 0.1,
+     "f": 0.562
+    },
+    {
+     "p": "a",
+     "i": 0.575,
+     "f": 0.688
+    },
+    {
+     "p": "noite",
+     "i": 0.7,
+     "f": 1.125
+    },
+    {
+     "p": "e",
+     "i": 1.137,
+     "f": 1.15
+    },
+    {
+     "p": "chegamos",
+     "i": 1.163,
+     "f": 1.562
+    },
+    {
+     "p": "ao",
+     "i": 1.575,
+     "f": 1.775
+    },
+    {
+     "p": "sono",
+     "i": 1.788,
+     "f": 2.1
+    },
+    {
+     "p": "REM",
+     "i": 2.112,
+     "f": 2.387
+    },
+    {
+     "p": "A",
+     "i": 3.25,
+     "f": 3.375
+    },
+    {
+     "p": "sigla",
+     "i": 3.388,
+     "f": 3.825
+    },
+    {
+     "p": "vem",
+     "i": 3.837,
+     "f": 4
+    },
+    {
+     "p": "do",
+     "i": 4.013,
+     "f": 4.088
+    },
+    {
+     "p": "inglês",
+     "i": 4.1,
+     "f": 4.45
+    },
+    {
+     "p": "e",
+     "i": 4.463,
+     "f": 4.575
+    },
+    {
+     "p": "significa",
+     "i": 4.588,
+     "f": 5.175
+    },
+    {
+     "p": "movimento",
+     "i": 5.188,
+     "f": 5.713
+    },
+    {
+     "p": "rápido",
+     "i": 5.725,
+     "f": 6.137
+    },
+    {
+     "p": "dos",
+     "i": 6.15,
+     "f": 6.275
+    },
+    {
+     "p": "olhos",
+     "i": 6.287,
+     "f": 6.825
+    },
+    {
+     "p": "Por",
+     "i": 7.688,
+     "f": 7.875
+    },
+    {
+     "p": "baixo",
+     "i": 7.888,
+     "f": 8.262
+    },
+    {
+     "p": "das",
+     "i": 8.275,
+     "f": 8.463
+    },
+    {
+     "p": "pálpebras",
+     "i": 8.475,
+     "f": 9.088
+    },
+    {
+     "p": "seus",
+     "i": 9.3,
+     "f": 9.525
+    },
+    {
+     "p": "olhos",
+     "i": 9.537,
+     "f": 9.925
+    },
+    {
+     "p": "correm",
+     "i": 9.938,
+     "f": 10.25
+    },
+    {
+     "p": "de",
+     "i": 10.262,
+     "f": 10.362
+    },
+    {
+     "p": "um",
+     "i": 10.375,
+     "f": 10.475
+    },
+    {
+     "p": "lado",
+     "i": 10.488,
+     "f": 10.75
+    },
+    {
+     "p": "para",
+     "i": 10.762,
+     "f": 10.925
+    },
+    {
+     "p": "o",
+     "i": 10.938,
+     "f": 10.963
+    },
+    {
+     "p": "outro",
+     "i": 10.975,
+     "f": 11.3
+    },
+    {
+     "p": "e",
+     "i": 11.65,
+     "f": 11.763
+    },
+    {
+     "p": "o",
+     "i": 11.775,
+     "f": 11.838
+    },
+    {
+     "p": "cérebro",
+     "i": 11.85,
+     "f": 12.312
+    },
+    {
+     "p": "fica",
+     "i": 12.325,
+     "f": 12.587
+    },
+    {
+     "p": "quase",
+     "i": 12.6,
+     "f": 12.963
+    },
+    {
+     "p": "tão",
+     "i": 12.975,
+     "f": 13.188
+    },
+    {
+     "p": "ativo",
+     "i": 13.2,
+     "f": 13.6
+    },
+    {
+     "p": "quanto",
+     "i": 13.613,
+     "f": 13.825
+    },
+    {
+     "p": "acordado",
+     "i": 13.838,
+     "f": 14.438
+    },
+    {
+     "p": "O",
+     "i": 15.3,
+     "f": 15.413
+    },
+    {
+     "p": "coração",
+     "i": 15.425,
+     "f": 15.975
+    },
+    {
+     "p": "acelera",
+     "i": 15.988,
+     "f": 16.525
+    },
+    {
+     "p": "a",
+     "i": 16.725,
+     "f": 16.788
+    },
+    {
+     "p": "respiração",
+     "i": 16.8,
+     "f": 17.5
+    },
+    {
+     "p": "fica",
+     "i": 17.512,
+     "f": 17.787
+    },
+    {
+     "p": "irregular",
+     "i": 17.8,
+     "f": 18.325
+    },
+    {
+     "p": "É",
+     "i": 19.188,
+     "f": 19.35
+    },
+    {
+     "p": "aqui",
+     "i": 19.363,
+     "f": 19.65
+    },
+    {
+     "p": "que",
+     "i": 19.663,
+     "f": 19.713
+    },
+    {
+     "p": "acontecem",
+     "i": 19.725,
+     "f": 20.388
+    },
+    {
+     "p": "os",
+     "i": 20.4,
+     "f": 20.512
+    },
+    {
+     "p": "sonhos",
+     "i": 20.525,
+     "f": 20.887
+    },
+    {
+     "p": "mais",
+     "i": 20.9,
+     "f": 21.2
+    },
+    {
+     "p": "vívidos",
+     "i": 21.212,
+     "f": 21.762
+    },
+    {
+     "p": "E",
+     "i": 22.625,
+     "f": 22.762
+    },
+    {
+     "p": "o",
+     "i": 22.775,
+     "f": 22.825
+    },
+    {
+     "p": "REM",
+     "i": 22.837,
+     "f": 23.05
+    },
+    {
+     "p": "aparece",
+     "i": 23.062,
+     "f": 23.512
+    },
+    {
+     "p": "cada",
+     "i": 23.525,
+     "f": 23.775
+    },
+    {
+     "p": "vez",
+     "i": 23.788,
+     "f": 24
+    },
+    {
+     "p": "mais",
+     "i": 24.012,
+     "f": 24.262
+    },
+    {
+     "p": "longo",
+     "i": 24.275,
+     "f": 24.562
+    },
+    {
+     "p": "conforme",
+     "i": 24.575,
+     "f": 25.062
+    },
+    {
+     "p": "a",
+     "i": 25.075,
+     "f": 25.125
+    },
+    {
+     "p": "noite",
+     "i": 25.137,
+     "f": 25.45
+    },
+    {
+     "p": "avança",
+     "i": 25.462,
+     "f": 25.912
+    },
+    {
+     "p": "por",
+     "i": 26.163,
+     "f": 26.325
+    },
+    {
+     "p": "isso",
+     "i": 26.337,
+     "f": 26.587
+    },
+    {
+     "p": "as",
+     "i": 26.6,
+     "f": 26.663
+    },
+    {
+     "p": "manhãs",
+     "i": 26.675,
+     "f": 27.1
+    },
+    {
+     "p": "têm",
+     "i": 27.113,
+     "f": 27.262
+    },
+    {
+     "p": "sonhos",
+     "i": 27.275,
+     "f": 27.662
+    },
+    {
+     "p": "mais",
+     "i": 27.675,
+     "f": 27.963
+    },
+    {
+     "p": "compridos",
+     "i": 27.975,
+     "f": 28.663
+    }
+   ]
+  },
+  "paralisia": {
+   "hash": "2ea6f43359",
+   "texto": "E agora o detalhe mais curioso. Durante o sono REM, o seu corpo fica paralisado. De propósito. O cérebro desliga o comando dos músculos voluntários, num fenômeno chamado atonia. Isso protege você: se o corpo se mexesse conforme o sonho, você sairia correndo pela casa, lutando com o travesseiro. Existe até um distúrbio em que essa trava falha, e a pessoa atua os sonhos, com socos e chutes de verdade.",
+   "audio": "audio/paralisia-2ea6f43359.mp3",
+   "duracao": 29.832,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.1,
+     "f": 0.213
+    },
+    {
+     "p": "agora",
+     "i": 0.225,
+     "f": 0.588
+    },
+    {
+     "p": "o",
+     "i": 0.6,
+     "f": 0.625
+    },
+    {
+     "p": "detalhe",
+     "i": 0.637,
+     "f": 1.075
+    },
+    {
+     "p": "mais",
+     "i": 1.087,
+     "f": 1.412
+    },
+    {
+     "p": "curioso",
+     "i": 1.425,
+     "f": 2
+    },
+    {
+     "p": "Durante",
+     "i": 2.862,
+     "f": 3.3
+    },
+    {
+     "p": "o",
+     "i": 3.312,
+     "f": 3.337
+    },
+    {
+     "p": "sono",
+     "i": 3.35,
+     "f": 3.638
+    },
+    {
+     "p": "REM",
+     "i": 3.65,
+     "f": 3.913
+    },
+    {
+     "p": "o",
+     "i": 4.2,
+     "f": 4.25
+    },
+    {
+     "p": "seu",
+     "i": 4.263,
+     "f": 4.487
+    },
+    {
+     "p": "corpo",
+     "i": 4.5,
+     "f": 4.9
+    },
+    {
+     "p": "fica",
+     "i": 4.912,
+     "f": 5.188
+    },
+    {
+     "p": "paralisado",
+     "i": 5.2,
+     "f": 5.888
+    },
+    {
+     "p": "De",
+     "i": 6.75,
+     "f": 6.95
+    },
+    {
+     "p": "propósito",
+     "i": 6.963,
+     "f": 7.675
+    },
+    {
+     "p": "O",
+     "i": 8.537,
+     "f": 8.65
+    },
+    {
+     "p": "cérebro",
+     "i": 8.662,
+     "f": 9.15
+    },
+    {
+     "p": "desliga",
+     "i": 9.162,
+     "f": 9.575
+    },
+    {
+     "p": "o",
+     "i": 9.588,
+     "f": 9.613
+    },
+    {
+     "p": "comando",
+     "i": 9.625,
+     "f": 10.075
+    },
+    {
+     "p": "dos",
+     "i": 10.088,
+     "f": 10.287
+    },
+    {
+     "p": "músculos",
+     "i": 10.3,
+     "f": 10.788
+    },
+    {
+     "p": "voluntários",
+     "i": 10.8,
+     "f": 11.575
+    },
+    {
+     "p": "num",
+     "i": 11.812,
+     "f": 12
+    },
+    {
+     "p": "fenômeno",
+     "i": 12.012,
+     "f": 12.525
+    },
+    {
+     "p": "chamado",
+     "i": 12.537,
+     "f": 12.987
+    },
+    {
+     "p": "atonia",
+     "i": 13,
+     "f": 13.463
+    },
+    {
+     "p": "Isso",
+     "i": 14.325,
+     "f": 14.637
+    },
+    {
+     "p": "protege",
+     "i": 14.65,
+     "f": 15.088
+    },
+    {
+     "p": "você",
+     "i": 15.1,
+     "f": 15.5
+    },
+    {
+     "p": "se",
+     "i": 15.812,
+     "f": 15.912
+    },
+    {
+     "p": "o",
+     "i": 15.925,
+     "f": 15.975
+    },
+    {
+     "p": "corpo",
+     "i": 15.988,
+     "f": 16.375
+    },
+    {
+     "p": "se",
+     "i": 16.387,
+     "f": 16.5
+    },
+    {
+     "p": "mexesse",
+     "i": 16.512,
+     "f": 16.95
+    },
+    {
+     "p": "conforme",
+     "i": 16.962,
+     "f": 17.425
+    },
+    {
+     "p": "o",
+     "i": 17.438,
+     "f": 17.488
+    },
+    {
+     "p": "sonho",
+     "i": 17.5,
+     "f": 17.9
+    },
+    {
+     "p": "você",
+     "i": 18.2,
+     "f": 18.438
+    },
+    {
+     "p": "sairia",
+     "i": 18.45,
+     "f": 18.863
+    },
+    {
+     "p": "correndo",
+     "i": 18.875,
+     "f": 19.275
+    },
+    {
+     "p": "pela",
+     "i": 19.288,
+     "f": 19.525
+    },
+    {
+     "p": "casa",
+     "i": 19.538,
+     "f": 19.9
+    },
+    {
+     "p": "lutando",
+     "i": 20.137,
+     "f": 20.637
+    },
+    {
+     "p": "com",
+     "i": 20.65,
+     "f": 20.762
+    },
+    {
+     "p": "o",
+     "i": 20.775,
+     "f": 20.812
+    },
+    {
+     "p": "travesseiro",
+     "i": 20.825,
+     "f": 21.4
+    },
+    {
+     "p": "Existe",
+     "i": 22.262,
+     "f": 22.738
+    },
+    {
+     "p": "até",
+     "i": 22.75,
+     "f": 22.913
+    },
+    {
+     "p": "um",
+     "i": 22.925,
+     "f": 23.012
+    },
+    {
+     "p": "distúrbio",
+     "i": 23.025,
+     "f": 23.575
+    },
+    {
+     "p": "em",
+     "i": 23.587,
+     "f": 23.65
+    },
+    {
+     "p": "que",
+     "i": 23.663,
+     "f": 23.775
+    },
+    {
+     "p": "essa",
+     "i": 23.788,
+     "f": 24.038
+    },
+    {
+     "p": "trava",
+     "i": 24.05,
+     "f": 24.325
+    },
+    {
+     "p": "falha",
+     "i": 24.337,
+     "f": 24.737
+    },
+    {
+     "p": "e",
+     "i": 25.075,
+     "f": 25.162
+    },
+    {
+     "p": "a",
+     "i": 25.175,
+     "f": 25.25
+    },
+    {
+     "p": "pessoa",
+     "i": 25.262,
+     "f": 25.675
+    },
+    {
+     "p": "atua",
+     "i": 25.688,
+     "f": 25.925
+    },
+    {
+     "p": "os",
+     "i": 25.938,
+     "f": 26.025
+    },
+    {
+     "p": "sonhos",
+     "i": 26.038,
+     "f": 26.488
+    },
+    {
+     "p": "com",
+     "i": 26.75,
+     "f": 26.962
+    },
+    {
+     "p": "socos",
+     "i": 26.975,
+     "f": 27.338
+    },
+    {
+     "p": "e",
+     "i": 27.35,
+     "f": 27.463
+    },
+    {
+     "p": "chutes",
+     "i": 27.475,
+     "f": 27.888
+    },
+    {
+     "p": "de",
+     "i": 27.9,
+     "f": 27.962
+    },
+    {
+     "p": "verdade",
+     "i": 27.975,
+     "f": 28.525
+    }
+   ]
+  },
+  "sonhos": {
+   "hash": "182c1552e0",
+   "texto": "Falando em sonhos: todo mundo sonha, mesmo quem jura que não. A diferença é que muita gente costuma esquecer tudo logo ao acordar, e por isso acha que passou a noite em branco. Em média, passamos algumas horas sonhando por noite, mas a maior parte some da memória em minutos depois de acordar. Anotar o sonho logo que acorda ajuda a lembrar mais, é só deixar um caderninho ou o celular perto da cama. Os cientistas ainda não chegaram a uma resposta final sobre para que servem os sonhos. Há teorias ligadas à memória e às emoções, mas nenhuma é considerada definitiva.",
+   "audio": "audio/sonhos-182c1552e0.mp3",
+   "duracao": 38.165,
+   "palavras": [
+    {
+     "p": "Falando",
+     "i": 0.1,
+     "f": 0.562
+    },
+    {
+     "p": "em",
+     "i": 0.575,
+     "f": 0.662
+    },
+    {
+     "p": "sonhos",
+     "i": 0.675,
+     "f": 1.138
+    },
+    {
+     "p": "todo",
+     "i": 1.387,
+     "f": 1.65
+    },
+    {
+     "p": "mundo",
+     "i": 1.663,
+     "f": 1.963
+    },
+    {
+     "p": "sonha",
+     "i": 1.975,
+     "f": 2.4
+    },
+    {
+     "p": "mesmo",
+     "i": 2.65,
+     "f": 3.038
+    },
+    {
+     "p": "quem",
+     "i": 3.05,
+     "f": 3.225
+    },
+    {
+     "p": "jura",
+     "i": 3.237,
+     "f": 3.575
+    },
+    {
+     "p": "que",
+     "i": 3.587,
+     "f": 3.712
+    },
+    {
+     "p": "não",
+     "i": 3.725,
+     "f": 4.013
+    },
+    {
+     "p": "A",
+     "i": 4.875,
+     "f": 5
+    },
+    {
+     "p": "diferença",
+     "i": 5.013,
+     "f": 5.638
+    },
+    {
+     "p": "é",
+     "i": 5.65,
+     "f": 5.688
+    },
+    {
+     "p": "que",
+     "i": 5.7,
+     "f": 5.812
+    },
+    {
+     "p": "muita",
+     "i": 5.825,
+     "f": 6.2
+    },
+    {
+     "p": "gente",
+     "i": 6.213,
+     "f": 6.5
+    },
+    {
+     "p": "costuma",
+     "i": 6.513,
+     "f": 6.888
+    },
+    {
+     "p": "esquecer",
+     "i": 6.9,
+     "f": 7.375
+    },
+    {
+     "p": "tudo",
+     "i": 7.388,
+     "f": 7.688
+    },
+    {
+     "p": "logo",
+     "i": 7.7,
+     "f": 7.987
+    },
+    {
+     "p": "ao",
+     "i": 8,
+     "f": 8.075
+    },
+    {
+     "p": "acordar",
+     "i": 8.088,
+     "f": 8.625
+    },
+    {
+     "p": "e",
+     "i": 9.037,
+     "f": 9.1
+    },
+    {
+     "p": "por",
+     "i": 9.113,
+     "f": 9.288
+    },
+    {
+     "p": "isso",
+     "i": 9.3,
+     "f": 9.588
+    },
+    {
+     "p": "acha",
+     "i": 9.6,
+     "f": 9.887
+    },
+    {
+     "p": "que",
+     "i": 9.9,
+     "f": 10.013
+    },
+    {
+     "p": "passou",
+     "i": 10.025,
+     "f": 10.388
+    },
+    {
+     "p": "a",
+     "i": 10.4,
+     "f": 10.438
+    },
+    {
+     "p": "noite",
+     "i": 10.45,
+     "f": 10.812
+    },
+    {
+     "p": "em",
+     "i": 10.825,
+     "f": 10.887
+    },
+    {
+     "p": "branco",
+     "i": 10.9,
+     "f": 11.275
+    },
+    {
+     "p": "Em",
+     "i": 12.137,
+     "f": 12.312
+    },
+    {
+     "p": "média",
+     "i": 12.325,
+     "f": 12.688
+    },
+    {
+     "p": "passamos",
+     "i": 12.925,
+     "f": 13.35
+    },
+    {
+     "p": "algumas",
+     "i": 13.363,
+     "f": 13.788
+    },
+    {
+     "p": "horas",
+     "i": 13.8,
+     "f": 14.188
+    },
+    {
+     "p": "sonhando",
+     "i": 14.2,
+     "f": 14.6
+    },
+    {
+     "p": "por",
+     "i": 14.613,
+     "f": 14.775
+    },
+    {
+     "p": "noite",
+     "i": 14.787,
+     "f": 15.175
+    },
+    {
+     "p": "mas",
+     "i": 15.488,
+     "f": 15.588
+    },
+    {
+     "p": "a",
+     "i": 15.6,
+     "f": 15.713
+    },
+    {
+     "p": "maior",
+     "i": 15.725,
+     "f": 16.038
+    },
+    {
+     "p": "parte",
+     "i": 16.05,
+     "f": 16.413
+    },
+    {
+     "p": "some",
+     "i": 16.425,
+     "f": 16.725
+    },
+    {
+     "p": "da",
+     "i": 16.738,
+     "f": 16.838
+    },
+    {
+     "p": "memória",
+     "i": 16.85,
+     "f": 17.263
+    },
+    {
+     "p": "em",
+     "i": 17.275,
+     "f": 17.337
+    },
+    {
+     "p": "minutos",
+     "i": 17.35,
+     "f": 17.775
+    },
+    {
+     "p": "depois",
+     "i": 17.788,
+     "f": 18.2
+    },
+    {
+     "p": "de",
+     "i": 18.212,
+     "f": 18.262
+    },
+    {
+     "p": "acordar",
+     "i": 18.275,
+     "f": 18.762
+    },
+    {
+     "p": "Anotar",
+     "i": 19.625,
+     "f": 20.113
+    },
+    {
+     "p": "o",
+     "i": 20.125,
+     "f": 20.163
+    },
+    {
+     "p": "sonho",
+     "i": 20.175,
+     "f": 20.525
+    },
+    {
+     "p": "logo",
+     "i": 20.538,
+     "f": 20.9
+    },
+    {
+     "p": "que",
+     "i": 20.913,
+     "f": 21
+    },
+    {
+     "p": "acorda",
+     "i": 21.012,
+     "f": 21.375
+    },
+    {
+     "p": "ajuda",
+     "i": 21.387,
+     "f": 21.662
+    },
+    {
+     "p": "a",
+     "i": 21.675,
+     "f": 21.7
+    },
+    {
+     "p": "lembrar",
+     "i": 21.712,
+     "f": 22.087
+    },
+    {
+     "p": "mais",
+     "i": 22.1,
+     "f": 22.45
+    },
+    {
+     "p": "é",
+     "i": 22.738,
+     "f": 22.812
+    },
+    {
+     "p": "só",
+     "i": 22.825,
+     "f": 23.012
+    },
+    {
+     "p": "deixar",
+     "i": 23.025,
+     "f": 23.375
+    },
+    {
+     "p": "um",
+     "i": 23.387,
+     "f": 23.45
+    },
+    {
+     "p": "caderninho",
+     "i": 23.462,
+     "f": 24.125
+    },
+    {
+     "p": "ou",
+     "i": 24.137,
+     "f": 24.25
+    },
+    {
+     "p": "o",
+     "i": 24.262,
+     "f": 24.325
+    },
+    {
+     "p": "celular",
+     "i": 24.337,
+     "f": 24.812
+    },
+    {
+     "p": "perto",
+     "i": 24.825,
+     "f": 25.15
+    },
+    {
+     "p": "da",
+     "i": 25.163,
+     "f": 25.275
+    },
+    {
+     "p": "cama",
+     "i": 25.288,
+     "f": 25.663
+    },
+    {
+     "p": "Os",
+     "i": 26.525,
+     "f": 26.7
+    },
+    {
+     "p": "cientistas",
+     "i": 26.712,
+     "f": 27.312
+    },
+    {
+     "p": "ainda",
+     "i": 27.325,
+     "f": 27.65
+    },
+    {
+     "p": "não",
+     "i": 27.663,
+     "f": 27.812
+    },
+    {
+     "p": "chegaram",
+     "i": 27.825,
+     "f": 28.225
+    },
+    {
+     "p": "a",
+     "i": 28.238,
+     "f": 28.262
+    },
+    {
+     "p": "uma",
+     "i": 28.275,
+     "f": 28.412
+    },
+    {
+     "p": "resposta",
+     "i": 28.425,
+     "f": 28.975
+    },
+    {
+     "p": "final",
+     "i": 28.988,
+     "f": 29.325
+    },
+    {
+     "p": "sobre",
+     "i": 29.337,
+     "f": 29.737
+    },
+    {
+     "p": "para",
+     "i": 29.75,
+     "f": 29.95
+    },
+    {
+     "p": "que",
+     "i": 29.962,
+     "f": 30.075
+    },
+    {
+     "p": "servem",
+     "i": 30.087,
+     "f": 30.55
+    },
+    {
+     "p": "os",
+     "i": 30.562,
+     "f": 30.663
+    },
+    {
+     "p": "sonhos",
+     "i": 30.675,
+     "f": 31.175
+    },
+    {
+     "p": "Há",
+     "i": 32.038,
+     "f": 32.15
+    },
+    {
+     "p": "teorias",
+     "i": 32.163,
+     "f": 32.625
+    },
+    {
+     "p": "ligadas",
+     "i": 32.638,
+     "f": 33.075
+    },
+    {
+     "p": "à",
+     "i": 33.087,
+     "f": 33.188
+    },
+    {
+     "p": "memória",
+     "i": 33.2,
+     "f": 33.65
+    },
+    {
+     "p": "e",
+     "i": 33.663,
+     "f": 33.725
+    },
+    {
+     "p": "às",
+     "i": 33.737,
+     "f": 33.787
+    },
+    {
+     "p": "emoções",
+     "i": 33.8,
+     "f": 34.5
+    },
+    {
+     "p": "mas",
+     "i": 34.775,
+     "f": 35
+    },
+    {
+     "p": "nenhuma",
+     "i": 35.013,
+     "f": 35.425
+    },
+    {
+     "p": "é",
+     "i": 35.438,
+     "f": 35.475
+    },
+    {
+     "p": "considerada",
+     "i": 35.487,
+     "f": 36.125
+    },
+    {
+     "p": "definitiva",
+     "i": 36.138,
+     "f": 36.85
+    }
+   ]
+  },
+  "memoria": {
+   "hash": "4626e84eda",
+   "texto": "Já que falamos de memória: dormir é como apertar o botão salvar. Durante a noite, o cérebro reorganiza o que você aprendeu no dia, fortalece o que é importante e deixa de lado o que não serve. Estudos mostram que pessoas que dormem depois de estudar lembram mais do conteúdo do que as que ficam acordadas. Então, virar a madrugada estudando antes da prova pode sair bem pior do que dormir.",
+   "audio": "audio/memoria-4626e84eda.mp3",
+   "duracao": 25.678,
+   "palavras": [
+    {
+     "p": "Já",
+     "i": 0.1,
+     "f": 0.338
+    },
+    {
+     "p": "que",
+     "i": 0.35,
+     "f": 0.462
+    },
+    {
+     "p": "falamos",
+     "i": 0.475,
+     "f": 0.938
+    },
+    {
+     "p": "de",
+     "i": 0.95,
+     "f": 1.025
+    },
+    {
+     "p": "memória",
+     "i": 1.038,
+     "f": 1.513
+    },
+    {
+     "p": "dormir",
+     "i": 1.825,
+     "f": 2.212
+    },
+    {
+     "p": "é",
+     "i": 2.225,
+     "f": 2.275
+    },
+    {
+     "p": "como",
+     "i": 2.288,
+     "f": 2.462
+    },
+    {
+     "p": "apertar",
+     "i": 2.475,
+     "f": 2.962
+    },
+    {
+     "p": "o",
+     "i": 2.975,
+     "f": 3.013
+    },
+    {
+     "p": "botão",
+     "i": 3.025,
+     "f": 3.375
+    },
+    {
+     "p": "salvar",
+     "i": 3.388,
+     "f": 3.812
+    },
+    {
+     "p": "Durante",
+     "i": 4.675,
+     "f": 5.087
+    },
+    {
+     "p": "a",
+     "i": 5.1,
+     "f": 5.137
+    },
+    {
+     "p": "noite",
+     "i": 5.15,
+     "f": 5.538
+    },
+    {
+     "p": "o",
+     "i": 5.825,
+     "f": 5.9
+    },
+    {
+     "p": "cérebro",
+     "i": 5.912,
+     "f": 6.375
+    },
+    {
+     "p": "reorganiza",
+     "i": 6.388,
+     "f": 6.963
+    },
+    {
+     "p": "o",
+     "i": 6.975,
+     "f": 7.012
+    },
+    {
+     "p": "que",
+     "i": 7.025,
+     "f": 7.125
+    },
+    {
+     "p": "você",
+     "i": 7.138,
+     "f": 7.375
+    },
+    {
+     "p": "aprendeu",
+     "i": 7.388,
+     "f": 7.825
+    },
+    {
+     "p": "no",
+     "i": 7.838,
+     "f": 7.95
+    },
+    {
+     "p": "dia",
+     "i": 7.963,
+     "f": 8.238
+    },
+    {
+     "p": "fortalece",
+     "i": 8.562,
+     "f": 9.225
+    },
+    {
+     "p": "o",
+     "i": 9.238,
+     "f": 9.263
+    },
+    {
+     "p": "que",
+     "i": 9.275,
+     "f": 9.375
+    },
+    {
+     "p": "é",
+     "i": 9.387,
+     "f": 9.425
+    },
+    {
+     "p": "importante",
+     "i": 9.438,
+     "f": 10.088
+    },
+    {
+     "p": "e",
+     "i": 10.1,
+     "f": 10.112
+    },
+    {
+     "p": "deixa",
+     "i": 10.125,
+     "f": 10.438
+    },
+    {
+     "p": "de",
+     "i": 10.45,
+     "f": 10.562
+    },
+    {
+     "p": "lado",
+     "i": 10.575,
+     "f": 10.887
+    },
+    {
+     "p": "o",
+     "i": 10.9,
+     "f": 10.925
+    },
+    {
+     "p": "que",
+     "i": 10.938,
+     "f": 11.062
+    },
+    {
+     "p": "não",
+     "i": 11.075,
+     "f": 11.287
+    },
+    {
+     "p": "serve",
+     "i": 11.3,
+     "f": 11.812
+    },
+    {
+     "p": "Estudos",
+     "i": 12.675,
+     "f": 13.25
+    },
+    {
+     "p": "mostram",
+     "i": 13.262,
+     "f": 13.712
+    },
+    {
+     "p": "que",
+     "i": 13.725,
+     "f": 13.812
+    },
+    {
+     "p": "pessoas",
+     "i": 13.825,
+     "f": 14.35
+    },
+    {
+     "p": "que",
+     "i": 14.363,
+     "f": 14.475
+    },
+    {
+     "p": "dormem",
+     "i": 14.488,
+     "f": 14.825
+    },
+    {
+     "p": "depois",
+     "i": 14.838,
+     "f": 15.213
+    },
+    {
+     "p": "de",
+     "i": 15.225,
+     "f": 15.3
+    },
+    {
+     "p": "estudar",
+     "i": 15.312,
+     "f": 15.688
+    },
+    {
+     "p": "lembram",
+     "i": 15.7,
+     "f": 16.087
+    },
+    {
+     "p": "mais",
+     "i": 16.1,
+     "f": 16.288
+    },
+    {
+     "p": "do",
+     "i": 16.3,
+     "f": 16.4
+    },
+    {
+     "p": "conteúdo",
+     "i": 16.413,
+     "f": 16.938
+    },
+    {
+     "p": "do",
+     "i": 16.95,
+     "f": 17.05
+    },
+    {
+     "p": "que",
+     "i": 17.062,
+     "f": 17.188
+    },
+    {
+     "p": "as",
+     "i": 17.2,
+     "f": 17.325
+    },
+    {
+     "p": "que",
+     "i": 17.337,
+     "f": 17.462
+    },
+    {
+     "p": "ficam",
+     "i": 17.475,
+     "f": 17.812
+    },
+    {
+     "p": "acordadas",
+     "i": 17.825,
+     "f": 18.613
+    },
+    {
+     "p": "Então",
+     "i": 19.475,
+     "f": 19.938
+    },
+    {
+     "p": "virar",
+     "i": 20.35,
+     "f": 20.625
+    },
+    {
+     "p": "a",
+     "i": 20.637,
+     "f": 20.675
+    },
+    {
+     "p": "madrugada",
+     "i": 20.688,
+     "f": 21.225
+    },
+    {
+     "p": "estudando",
+     "i": 21.238,
+     "f": 21.713
+    },
+    {
+     "p": "antes",
+     "i": 21.725,
+     "f": 22
+    },
+    {
+     "p": "da",
+     "i": 22.012,
+     "f": 22.125
+    },
+    {
+     "p": "prova",
+     "i": 22.137,
+     "f": 22.512
+    },
+    {
+     "p": "pode",
+     "i": 22.525,
+     "f": 22.787
+    },
+    {
+     "p": "sair",
+     "i": 22.8,
+     "f": 23.125
+    },
+    {
+     "p": "bem",
+     "i": 23.137,
+     "f": 23.387
+    },
+    {
+     "p": "pior",
+     "i": 23.4,
+     "f": 23.737
+    },
+    {
+     "p": "do",
+     "i": 23.75,
+     "f": 23.875
+    },
+    {
+     "p": "que",
+     "i": 23.887,
+     "f": 23.988
+    },
+    {
+     "p": "dormir",
+     "i": 24,
+     "f": 24.387
+    }
+   ]
+  },
+  "coracao": {
+   "hash": "ac69dee7d8",
+   "texto": "E o coração, como fica? Ele descansa também. Durante o sono, a pressão arterial cai e o batimento diminui, o que dá uma folga para o sistema cardiovascular. Por isso, dormir pouco de forma crônica está associado a mais risco de pressão alta e problemas no coração. Nenhum remédio substitui isso. É um descanso que o corpo só consegue tirar de um jeito: dormindo.",
+   "audio": "audio/coracao-ac69dee7d8.mp3",
+   "duracao": 26.828,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.1,
+     "f": 0.225
+    },
+    {
+     "p": "o",
+     "i": 0.237,
+     "f": 0.287
+    },
+    {
+     "p": "coração",
+     "i": 0.3,
+     "f": 0.962
+    },
+    {
+     "p": "como",
+     "i": 1.2,
+     "f": 1.5
+    },
+    {
+     "p": "fica",
+     "i": 1.512,
+     "f": 1.938
+    },
+    {
+     "p": "Ele",
+     "i": 2.8,
+     "f": 3.025
+    },
+    {
+     "p": "descansa",
+     "i": 3.038,
+     "f": 3.638
+    },
+    {
+     "p": "também",
+     "i": 3.65,
+     "f": 4.125
+    },
+    {
+     "p": "Durante",
+     "i": 4.987,
+     "f": 5.412
+    },
+    {
+     "p": "o",
+     "i": 5.425,
+     "f": 5.45
+    },
+    {
+     "p": "sono",
+     "i": 5.463,
+     "f": 5.825
+    },
+    {
+     "p": "a",
+     "i": 6.037,
+     "f": 6.112
+    },
+    {
+     "p": "pressão",
+     "i": 6.125,
+     "f": 6.475
+    },
+    {
+     "p": "arterial",
+     "i": 6.487,
+     "f": 6.95
+    },
+    {
+     "p": "cai",
+     "i": 6.963,
+     "f": 7.213
+    },
+    {
+     "p": "e",
+     "i": 7.225,
+     "f": 7.287
+    },
+    {
+     "p": "o",
+     "i": 7.3,
+     "f": 7.325
+    },
+    {
+     "p": "batimento",
+     "i": 7.338,
+     "f": 7.838
+    },
+    {
+     "p": "diminui",
+     "i": 7.85,
+     "f": 8.312
+    },
+    {
+     "p": "o",
+     "i": 8.625,
+     "f": 8.7
+    },
+    {
+     "p": "que",
+     "i": 8.713,
+     "f": 8.85
+    },
+    {
+     "p": "dá",
+     "i": 8.863,
+     "f": 9
+    },
+    {
+     "p": "uma",
+     "i": 9.012,
+     "f": 9.2
+    },
+    {
+     "p": "folga",
+     "i": 9.213,
+     "f": 9.6
+    },
+    {
+     "p": "para",
+     "i": 9.613,
+     "f": 9.775
+    },
+    {
+     "p": "o",
+     "i": 9.787,
+     "f": 9.812
+    },
+    {
+     "p": "sistema",
+     "i": 9.825,
+     "f": 10.287
+    },
+    {
+     "p": "cardiovascular",
+     "i": 10.3,
+     "f": 11.15
+    },
+    {
+     "p": "Por",
+     "i": 12.012,
+     "f": 12.188
+    },
+    {
+     "p": "isso",
+     "i": 12.2,
+     "f": 12.512
+    },
+    {
+     "p": "dormir",
+     "i": 12.8,
+     "f": 13.225
+    },
+    {
+     "p": "pouco",
+     "i": 13.238,
+     "f": 13.613
+    },
+    {
+     "p": "de",
+     "i": 13.625,
+     "f": 13.713
+    },
+    {
+     "p": "forma",
+     "i": 13.725,
+     "f": 14.037
+    },
+    {
+     "p": "crônica",
+     "i": 14.05,
+     "f": 14.5
+    },
+    {
+     "p": "está",
+     "i": 14.512,
+     "f": 14.688
+    },
+    {
+     "p": "associado",
+     "i": 14.7,
+     "f": 15.3
+    },
+    {
+     "p": "a",
+     "i": 15.312,
+     "f": 15.363
+    },
+    {
+     "p": "mais",
+     "i": 15.375,
+     "f": 15.588
+    },
+    {
+     "p": "risco",
+     "i": 15.6,
+     "f": 15.938
+    },
+    {
+     "p": "de",
+     "i": 15.95,
+     "f": 16.025
+    },
+    {
+     "p": "pressão",
+     "i": 16.038,
+     "f": 16.463
+    },
+    {
+     "p": "alta",
+     "i": 16.475,
+     "f": 16.725
+    },
+    {
+     "p": "e",
+     "i": 16.738,
+     "f": 16.775
+    },
+    {
+     "p": "problemas",
+     "i": 16.788,
+     "f": 17.325
+    },
+    {
+     "p": "no",
+     "i": 17.337,
+     "f": 17.438
+    },
+    {
+     "p": "coração",
+     "i": 17.45,
+     "f": 18.012
+    },
+    {
+     "p": "Nenhum",
+     "i": 18.875,
+     "f": 19.312
+    },
+    {
+     "p": "remédio",
+     "i": 19.325,
+     "f": 19.8
+    },
+    {
+     "p": "substitui",
+     "i": 19.812,
+     "f": 20.488
+    },
+    {
+     "p": "isso",
+     "i": 20.5,
+     "f": 20.825
+    },
+    {
+     "p": "É",
+     "i": 21.688,
+     "f": 21.775
+    },
+    {
+     "p": "um",
+     "i": 21.788,
+     "f": 21.9
+    },
+    {
+     "p": "descanso",
+     "i": 21.913,
+     "f": 22.513
+    },
+    {
+     "p": "que",
+     "i": 22.525,
+     "f": 22.6
+    },
+    {
+     "p": "o",
+     "i": 22.613,
+     "f": 22.675
+    },
+    {
+     "p": "corpo",
+     "i": 22.688,
+     "f": 23.075
+    },
+    {
+     "p": "só",
+     "i": 23.087,
+     "f": 23.275
+    },
+    {
+     "p": "consegue",
+     "i": 23.288,
+     "f": 23.75
+    },
+    {
+     "p": "tirar",
+     "i": 23.762,
+     "f": 24.05
+    },
+    {
+     "p": "de",
+     "i": 24.062,
+     "f": 24.15
+    },
+    {
+     "p": "um",
+     "i": 24.163,
+     "f": 24.263
+    },
+    {
+     "p": "jeito",
+     "i": 24.275,
+     "f": 24.65
+    },
+    {
+     "p": "dormindo",
+     "i": 24.913,
+     "f": 25.513
+    }
+   ]
+  },
+  "acordar": {
+   "hash": "a4fd5c055a",
+   "texto": "Chegando perto da manhã, o corpo começa a se preparar para acordar antes mesmo de o despertador tocar. A temperatura sobe, o cortisol, hormônio que dá energia, aumenta, e o sono fica mais leve. Por isso você muitas vezes acorda um minuto antes do alarme. Não é mágica, é o seu relógio biológico funcionando. E se você acorda no meio de um sono profundo, aquela moleza e o mau humor têm nome: inércia do sono.",
+   "audio": "audio/acordar-a4fd5c055a.mp3",
+   "duracao": 30.093,
+   "palavras": [
+    {
+     "p": "Chegando",
+     "i": 0.1,
+     "f": 0.65
+    },
+    {
+     "p": "perto",
+     "i": 0.662,
+     "f": 0.962
+    },
+    {
+     "p": "da",
+     "i": 0.975,
+     "f": 1.062
+    },
+    {
+     "p": "manhã",
+     "i": 1.075,
+     "f": 1.425
+    },
+    {
+     "p": "o",
+     "i": 1.688,
+     "f": 1.788
+    },
+    {
+     "p": "corpo",
+     "i": 1.8,
+     "f": 2.15
+    },
+    {
+     "p": "começa",
+     "i": 2.163,
+     "f": 2.587
+    },
+    {
+     "p": "a",
+     "i": 2.6,
+     "f": 2.625
+    },
+    {
+     "p": "se",
+     "i": 2.638,
+     "f": 2.75
+    },
+    {
+     "p": "preparar",
+     "i": 2.763,
+     "f": 3.25
+    },
+    {
+     "p": "para",
+     "i": 3.263,
+     "f": 3.413
+    },
+    {
+     "p": "acordar",
+     "i": 3.425,
+     "f": 3.887
+    },
+    {
+     "p": "antes",
+     "i": 3.9,
+     "f": 4.237
+    },
+    {
+     "p": "mesmo",
+     "i": 4.25,
+     "f": 4.662
+    },
+    {
+     "p": "de",
+     "i": 4.675,
+     "f": 4.75
+    },
+    {
+     "p": "o",
+     "i": 4.763,
+     "f": 4.8
+    },
+    {
+     "p": "despertador",
+     "i": 4.812,
+     "f": 5.487
+    },
+    {
+     "p": "tocar",
+     "i": 5.5,
+     "f": 5.888
+    },
+    {
+     "p": "A",
+     "i": 6.75,
+     "f": 6.875
+    },
+    {
+     "p": "temperatura",
+     "i": 6.888,
+     "f": 7.538
+    },
+    {
+     "p": "sobe",
+     "i": 7.55,
+     "f": 8.025
+    },
+    {
+     "p": "o",
+     "i": 8.213,
+     "f": 8.287
+    },
+    {
+     "p": "cortisol",
+     "i": 8.3,
+     "f": 8.963
+    },
+    {
+     "p": "hormônio",
+     "i": 9.213,
+     "f": 9.7
+    },
+    {
+     "p": "que",
+     "i": 9.713,
+     "f": 9.825
+    },
+    {
+     "p": "dá",
+     "i": 9.838,
+     "f": 9.963
+    },
+    {
+     "p": "energia",
+     "i": 9.975,
+     "f": 10.55
+    },
+    {
+     "p": "aumenta",
+     "i": 10.675,
+     "f": 11.213
+    },
+    {
+     "p": "e",
+     "i": 11.525,
+     "f": 11.625
+    },
+    {
+     "p": "o",
+     "i": 11.637,
+     "f": 11.688
+    },
+    {
+     "p": "sono",
+     "i": 11.7,
+     "f": 12.05
+    },
+    {
+     "p": "fica",
+     "i": 12.062,
+     "f": 12.325
+    },
+    {
+     "p": "mais",
+     "i": 12.338,
+     "f": 12.575
+    },
+    {
+     "p": "leve",
+     "i": 12.588,
+     "f": 13.025
+    },
+    {
+     "p": "Por",
+     "i": 13.887,
+     "f": 14.075
+    },
+    {
+     "p": "isso",
+     "i": 14.088,
+     "f": 14.388
+    },
+    {
+     "p": "você",
+     "i": 14.4,
+     "f": 14.675
+    },
+    {
+     "p": "muitas",
+     "i": 14.688,
+     "f": 15.162
+    },
+    {
+     "p": "vezes",
+     "i": 15.175,
+     "f": 15.5
+    },
+    {
+     "p": "acorda",
+     "i": 15.512,
+     "f": 16.05
+    },
+    {
+     "p": "um",
+     "i": 16.062,
+     "f": 16.2
+    },
+    {
+     "p": "minuto",
+     "i": 16.212,
+     "f": 16.65
+    },
+    {
+     "p": "antes",
+     "i": 16.663,
+     "f": 16.975
+    },
+    {
+     "p": "do",
+     "i": 16.988,
+     "f": 17.113
+    },
+    {
+     "p": "alarme",
+     "i": 17.125,
+     "f": 17.587
+    },
+    {
+     "p": "Não",
+     "i": 18.45,
+     "f": 18.75
+    },
+    {
+     "p": "é",
+     "i": 18.762,
+     "f": 18.825
+    },
+    {
+     "p": "mágica",
+     "i": 18.837,
+     "f": 19.375
+    },
+    {
+     "p": "é",
+     "i": 19.6,
+     "f": 19.675
+    },
+    {
+     "p": "o",
+     "i": 19.688,
+     "f": 19.738
+    },
+    {
+     "p": "seu",
+     "i": 19.75,
+     "f": 19.938
+    },
+    {
+     "p": "relógio",
+     "i": 19.95,
+     "f": 20.412
+    },
+    {
+     "p": "biológico",
+     "i": 20.425,
+     "f": 21.012
+    },
+    {
+     "p": "funcionando",
+     "i": 21.025,
+     "f": 21.75
+    },
+    {
+     "p": "E",
+     "i": 22.613,
+     "f": 22.725
+    },
+    {
+     "p": "se",
+     "i": 22.738,
+     "f": 22.863
+    },
+    {
+     "p": "você",
+     "i": 22.875,
+     "f": 23.15
+    },
+    {
+     "p": "acorda",
+     "i": 23.163,
+     "f": 23.625
+    },
+    {
+     "p": "no",
+     "i": 23.637,
+     "f": 23.738
+    },
+    {
+     "p": "meio",
+     "i": 23.75,
+     "f": 24.012
+    },
+    {
+     "p": "de",
+     "i": 24.025,
+     "f": 24.1
+    },
+    {
+     "p": "um",
+     "i": 24.113,
+     "f": 24.175
+    },
+    {
+     "p": "sono",
+     "i": 24.188,
+     "f": 24.475
+    },
+    {
+     "p": "profundo",
+     "i": 24.488,
+     "f": 25.05
+    },
+    {
+     "p": "aquela",
+     "i": 25.275,
+     "f": 25.575
+    },
+    {
+     "p": "moleza",
+     "i": 25.587,
+     "f": 26.075
+    },
+    {
+     "p": "e",
+     "i": 26.087,
+     "f": 26.162
+    },
+    {
+     "p": "o",
+     "i": 26.175,
+     "f": 26.225
+    },
+    {
+     "p": "mau",
+     "i": 26.238,
+     "f": 26.463
+    },
+    {
+     "p": "humor",
+     "i": 26.475,
+     "f": 26.838
+    },
+    {
+     "p": "têm",
+     "i": 26.85,
+     "f": 27.05
+    },
+    {
+     "p": "nome",
+     "i": 27.062,
+     "f": 27.438
+    },
+    {
+     "p": "inércia",
+     "i": 27.762,
+     "f": 28.25
+    },
+    {
+     "p": "do",
+     "i": 28.262,
+     "f": 28.363
+    },
+    {
+     "p": "sono",
+     "i": 28.375,
+     "f": 28.788
+    }
+   ]
+  },
+  "sonambulismo": {
+   "hash": "410b353fe5",
+   "texto": "Agora uma esquisitice que muita gente conhece: o sonambulismo. A pessoa levanta, anda, às vezes até conversa, mas continua dormindo. Isso costuma acontecer no sono profundo, e não durante os sonhos, e é mais comum em crianças do que em adultos. O conselho dos especialistas é nunca acordar o sonâmbulo à força. O melhor é guiá-lo com calma de volta para a cama e deixar o ambiente seguro, sem escadas livres nem objetos pelo caminho.",
+   "audio": "audio/sonambulismo-410b353fe5.mp3",
+   "duracao": 30.668,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.1,
+     "f": 0.537
+    },
+    {
+     "p": "uma",
+     "i": 0.55,
+     "f": 0.625
+    },
+    {
+     "p": "esquisitice",
+     "i": 0.637,
+     "f": 1.337
+    },
+    {
+     "p": "que",
+     "i": 1.35,
+     "f": 1.463
+    },
+    {
+     "p": "muita",
+     "i": 1.475,
+     "f": 1.863
+    },
+    {
+     "p": "gente",
+     "i": 1.875,
+     "f": 2.138
+    },
+    {
+     "p": "conhece",
+     "i": 2.15,
+     "f": 2.737
+    },
+    {
+     "p": "o",
+     "i": 3.025,
+     "f": 3.087
+    },
+    {
+     "p": "sonambulismo",
+     "i": 3.1,
+     "f": 3.9
+    },
+    {
+     "p": "A",
+     "i": 4.763,
+     "f": 4.888
+    },
+    {
+     "p": "pessoa",
+     "i": 4.9,
+     "f": 5.25
+    },
+    {
+     "p": "levanta",
+     "i": 5.263,
+     "f": 5.838
+    },
+    {
+     "p": "anda",
+     "i": 6.075,
+     "f": 6.45
+    },
+    {
+     "p": "às",
+     "i": 6.662,
+     "f": 6.875
+    },
+    {
+     "p": "vezes",
+     "i": 6.888,
+     "f": 7.2
+    },
+    {
+     "p": "até",
+     "i": 7.213,
+     "f": 7.488
+    },
+    {
+     "p": "conversa",
+     "i": 7.5,
+     "f": 8.1
+    },
+    {
+     "p": "mas",
+     "i": 8.387,
+     "f": 8.55
+    },
+    {
+     "p": "continua",
+     "i": 8.562,
+     "f": 9.113
+    },
+    {
+     "p": "dormindo",
+     "i": 9.125,
+     "f": 9.675
+    },
+    {
+     "p": "Isso",
+     "i": 10.537,
+     "f": 10.838
+    },
+    {
+     "p": "costuma",
+     "i": 10.85,
+     "f": 11.25
+    },
+    {
+     "p": "acontecer",
+     "i": 11.262,
+     "f": 11.787
+    },
+    {
+     "p": "no",
+     "i": 11.8,
+     "f": 11.913
+    },
+    {
+     "p": "sono",
+     "i": 11.925,
+     "f": 12.213
+    },
+    {
+     "p": "profundo",
+     "i": 12.225,
+     "f": 12.8
+    },
+    {
+     "p": "e",
+     "i": 13.062,
+     "f": 13.15
+    },
+    {
+     "p": "não",
+     "i": 13.162,
+     "f": 13.412
+    },
+    {
+     "p": "durante",
+     "i": 13.425,
+     "f": 13.738
+    },
+    {
+     "p": "os",
+     "i": 13.75,
+     "f": 13.812
+    },
+    {
+     "p": "sonhos",
+     "i": 13.825,
+     "f": 14.225
+    },
+    {
+     "p": "e",
+     "i": 14.475,
+     "f": 14.537
+    },
+    {
+     "p": "é",
+     "i": 14.55,
+     "f": 14.625
+    },
+    {
+     "p": "mais",
+     "i": 14.637,
+     "f": 14.938
+    },
+    {
+     "p": "comum",
+     "i": 14.95,
+     "f": 15.337
+    },
+    {
+     "p": "em",
+     "i": 15.35,
+     "f": 15.412
+    },
+    {
+     "p": "crianças",
+     "i": 15.425,
+     "f": 16.012
+    },
+    {
+     "p": "do",
+     "i": 16.025,
+     "f": 16.15
+    },
+    {
+     "p": "que",
+     "i": 16.163,
+     "f": 16.263
+    },
+    {
+     "p": "em",
+     "i": 16.275,
+     "f": 16.387
+    },
+    {
+     "p": "adultos",
+     "i": 16.4,
+     "f": 17
+    },
+    {
+     "p": "O",
+     "i": 17.863,
+     "f": 17.963
+    },
+    {
+     "p": "conselho",
+     "i": 17.975,
+     "f": 18.525
+    },
+    {
+     "p": "dos",
+     "i": 18.538,
+     "f": 18.625
+    },
+    {
+     "p": "especialistas",
+     "i": 18.637,
+     "f": 19.5
+    },
+    {
+     "p": "é",
+     "i": 19.512,
+     "f": 19.65
+    },
+    {
+     "p": "nunca",
+     "i": 19.663,
+     "f": 20.05
+    },
+    {
+     "p": "acordar",
+     "i": 20.062,
+     "f": 20.5
+    },
+    {
+     "p": "o",
+     "i": 20.512,
+     "f": 20.562
+    },
+    {
+     "p": "sonâmbulo",
+     "i": 20.575,
+     "f": 21.137
+    },
+    {
+     "p": "à",
+     "i": 21.15,
+     "f": 21.2
+    },
+    {
+     "p": "força",
+     "i": 21.212,
+     "f": 21.7
+    },
+    {
+     "p": "O",
+     "i": 22.562,
+     "f": 22.663
+    },
+    {
+     "p": "melhor",
+     "i": 22.675,
+     "f": 23
+    },
+    {
+     "p": "é",
+     "i": 23.012,
+     "f": 23.075
+    },
+    {
+     "p": "guiá-lo",
+     "i": 23.087,
+     "f": 23.5
+    },
+    {
+     "p": "com",
+     "i": 23.512,
+     "f": 23.7
+    },
+    {
+     "p": "calma",
+     "i": 23.712,
+     "f": 24.012
+    },
+    {
+     "p": "de",
+     "i": 24.025,
+     "f": 24.125
+    },
+    {
+     "p": "volta",
+     "i": 24.137,
+     "f": 24.5
+    },
+    {
+     "p": "para",
+     "i": 24.512,
+     "f": 24.65
+    },
+    {
+     "p": "a",
+     "i": 24.663,
+     "f": 24.7
+    },
+    {
+     "p": "cama",
+     "i": 24.712,
+     "f": 25.037
+    },
+    {
+     "p": "e",
+     "i": 25.05,
+     "f": 25.088
+    },
+    {
+     "p": "deixar",
+     "i": 25.1,
+     "f": 25.463
+    },
+    {
+     "p": "o",
+     "i": 25.475,
+     "f": 25.538
+    },
+    {
+     "p": "ambiente",
+     "i": 25.55,
+     "f": 25.988
+    },
+    {
+     "p": "seguro",
+     "i": 26,
+     "f": 26.45
+    },
+    {
+     "p": "sem",
+     "i": 26.812,
+     "f": 26.988
+    },
+    {
+     "p": "escadas",
+     "i": 27,
+     "f": 27.462
+    },
+    {
+     "p": "livres",
+     "i": 27.475,
+     "f": 27.85
+    },
+    {
+     "p": "nem",
+     "i": 27.863,
+     "f": 28.025
+    },
+    {
+     "p": "objetos",
+     "i": 28.038,
+     "f": 28.65
+    },
+    {
+     "p": "pelo",
+     "i": 28.663,
+     "f": 28.863
+    },
+    {
+     "p": "caminho",
+     "i": 28.875,
+     "f": 29.337
+    }
+   ]
+  },
+  "privacao": {
+   "hash": "687eab873c",
+   "texto": "E o que acontece quando o sono falta? Primeiro vem a cara de cansado, depois o resto. A atenção cai, o humor piora, os reflexos ficam lentos e a memória falha. Dirigir sonolento é perigoso, porque o cérebro pode dar pequenos apagões de poucos segundos, os chamados microssonos, sem você perceber. Em alta velocidade, alguns segundos são o suficiente para uma tragédia. Se bater sono ao volante, pare e descanse.",
+   "audio": "audio/privacao-687eab873c.mp3",
+   "duracao": 30.354,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.1,
+     "f": 0.238
+    },
+    {
+     "p": "o",
+     "i": 0.25,
+     "f": 0.312
+    },
+    {
+     "p": "que",
+     "i": 0.325,
+     "f": 0.412
+    },
+    {
+     "p": "acontece",
+     "i": 0.425,
+     "f": 1.113
+    },
+    {
+     "p": "quando",
+     "i": 1.125,
+     "f": 1.35
+    },
+    {
+     "p": "o",
+     "i": 1.363,
+     "f": 1.387
+    },
+    {
+     "p": "sono",
+     "i": 1.4,
+     "f": 1.662
+    },
+    {
+     "p": "falta",
+     "i": 1.675,
+     "f": 2.087
+    },
+    {
+     "p": "Primeiro",
+     "i": 2.95,
+     "f": 3.4
+    },
+    {
+     "p": "vem",
+     "i": 3.413,
+     "f": 3.6
+    },
+    {
+     "p": "a",
+     "i": 3.612,
+     "f": 3.688
+    },
+    {
+     "p": "cara",
+     "i": 3.7,
+     "f": 3.963
+    },
+    {
+     "p": "de",
+     "i": 3.975,
+     "f": 4.062
+    },
+    {
+     "p": "cansado",
+     "i": 4.075,
+     "f": 4.663
+    },
+    {
+     "p": "depois",
+     "i": 4.888,
+     "f": 5.288
+    },
+    {
+     "p": "o",
+     "i": 5.3,
+     "f": 5.4
+    },
+    {
+     "p": "resto",
+     "i": 5.412,
+     "f": 5.85
+    },
+    {
+     "p": "A",
+     "i": 6.713,
+     "f": 6.838
+    },
+    {
+     "p": "atenção",
+     "i": 6.85,
+     "f": 7.375
+    },
+    {
+     "p": "cai",
+     "i": 7.388,
+     "f": 7.663
+    },
+    {
+     "p": "o",
+     "i": 7.925,
+     "f": 8.025
+    },
+    {
+     "p": "humor",
+     "i": 8.037,
+     "f": 8.325
+    },
+    {
+     "p": "piora",
+     "i": 8.338,
+     "f": 8.725
+    },
+    {
+     "p": "os",
+     "i": 9.012,
+     "f": 9.125
+    },
+    {
+     "p": "reflexos",
+     "i": 9.137,
+     "f": 9.75
+    },
+    {
+     "p": "ficam",
+     "i": 9.762,
+     "f": 10.1
+    },
+    {
+     "p": "lentos",
+     "i": 10.113,
+     "f": 10.45
+    },
+    {
+     "p": "e",
+     "i": 10.463,
+     "f": 10.562
+    },
+    {
+     "p": "a",
+     "i": 10.575,
+     "f": 10.612
+    },
+    {
+     "p": "memória",
+     "i": 10.625,
+     "f": 11.062
+    },
+    {
+     "p": "falha",
+     "i": 11.075,
+     "f": 11.475
+    },
+    {
+     "p": "Dirigir",
+     "i": 12.338,
+     "f": 12.863
+    },
+    {
+     "p": "sonolento",
+     "i": 12.875,
+     "f": 13.438
+    },
+    {
+     "p": "é",
+     "i": 13.45,
+     "f": 13.487
+    },
+    {
+     "p": "perigoso",
+     "i": 13.5,
+     "f": 14.1
+    },
+    {
+     "p": "porque",
+     "i": 14.45,
+     "f": 14.762
+    },
+    {
+     "p": "o",
+     "i": 14.775,
+     "f": 14.825
+    },
+    {
+     "p": "cérebro",
+     "i": 14.838,
+     "f": 15.287
+    },
+    {
+     "p": "pode",
+     "i": 15.3,
+     "f": 15.538
+    },
+    {
+     "p": "dar",
+     "i": 15.55,
+     "f": 15.7
+    },
+    {
+     "p": "pequenos",
+     "i": 15.713,
+     "f": 16.075
+    },
+    {
+     "p": "apagões",
+     "i": 16.087,
+     "f": 16.625
+    },
+    {
+     "p": "de",
+     "i": 16.637,
+     "f": 16.725
+    },
+    {
+     "p": "poucos",
+     "i": 16.738,
+     "f": 17.075
+    },
+    {
+     "p": "segundos",
+     "i": 17.087,
+     "f": 17.612
+    },
+    {
+     "p": "os",
+     "i": 17.938,
+     "f": 18.05
+    },
+    {
+     "p": "chamados",
+     "i": 18.062,
+     "f": 18.512
+    },
+    {
+     "p": "microssonos",
+     "i": 18.525,
+     "f": 19.25
+    },
+    {
+     "p": "sem",
+     "i": 19.45,
+     "f": 19.637
+    },
+    {
+     "p": "você",
+     "i": 19.65,
+     "f": 19.938
+    },
+    {
+     "p": "perceber",
+     "i": 19.95,
+     "f": 20.462
+    },
+    {
+     "p": "Em",
+     "i": 21.325,
+     "f": 21.5
+    },
+    {
+     "p": "alta",
+     "i": 21.512,
+     "f": 21.8
+    },
+    {
+     "p": "velocidade",
+     "i": 21.812,
+     "f": 22.55
+    },
+    {
+     "p": "alguns",
+     "i": 22.762,
+     "f": 23.113
+    },
+    {
+     "p": "segundos",
+     "i": 23.125,
+     "f": 23.6
+    },
+    {
+     "p": "são",
+     "i": 23.613,
+     "f": 23.775
+    },
+    {
+     "p": "o",
+     "i": 23.788,
+     "f": 23.838
+    },
+    {
+     "p": "suficiente",
+     "i": 23.85,
+     "f": 24.55
+    },
+    {
+     "p": "para",
+     "i": 24.562,
+     "f": 24.738
+    },
+    {
+     "p": "uma",
+     "i": 24.75,
+     "f": 24.9
+    },
+    {
+     "p": "tragédia",
+     "i": 24.913,
+     "f": 25.5
+    },
+    {
+     "p": "Se",
+     "i": 26.363,
+     "f": 26.562
+    },
+    {
+     "p": "bater",
+     "i": 26.575,
+     "f": 26.912
+    },
+    {
+     "p": "sono",
+     "i": 26.925,
+     "f": 27.2
+    },
+    {
+     "p": "ao",
+     "i": 27.212,
+     "f": 27.287
+    },
+    {
+     "p": "volante",
+     "i": 27.3,
+     "f": 27.85
+    },
+    {
+     "p": "pare",
+     "i": 28.087,
+     "f": 28.35
+    },
+    {
+     "p": "e",
+     "i": 28.363,
+     "f": 28.4
+    },
+    {
+     "p": "descanse",
+     "i": 28.413,
+     "f": 29.062
+    }
+   ]
+  },
+  "dicas": {
+   "hash": "aabfc51fe9",
+   "texto": "Quer dormir melhor? Os especialistas repetem as mesmas dicas. Tente deitar e acordar sempre no mesmo horário, até no fim de semana. Deixe o quarto escuro, silencioso e fresco. Evite telas na hora de dormir e cafeína no fim da tarde, porque o efeito do café pode durar muitas horas. E se o problema persistir, como roncos fortes, pausas na respiração ou insônia por semanas, procure um médico.",
+   "audio": "audio/dicas-aabfc51fe9.mp3",
+   "duracao": 28.97,
+   "palavras": [
+    {
+     "p": "Quer",
+     "i": 0.1,
+     "f": 0.325
+    },
+    {
+     "p": "dormir",
+     "i": 0.338,
+     "f": 0.75
+    },
+    {
+     "p": "melhor",
+     "i": 0.762,
+     "f": 1.175
+    },
+    {
+     "p": "Os",
+     "i": 2.038,
+     "f": 2.138
+    },
+    {
+     "p": "especialistas",
+     "i": 2.15,
+     "f": 3.075
+    },
+    {
+     "p": "repetem",
+     "i": 3.087,
+     "f": 3.587
+    },
+    {
+     "p": "as",
+     "i": 3.6,
+     "f": 3.763
+    },
+    {
+     "p": "mesmas",
+     "i": 3.775,
+     "f": 4.225
+    },
+    {
+     "p": "dicas",
+     "i": 4.237,
+     "f": 4.75
+    },
+    {
+     "p": "Tente",
+     "i": 5.612,
+     "f": 5.888
+    },
+    {
+     "p": "deitar",
+     "i": 5.9,
+     "f": 6.288
+    },
+    {
+     "p": "e",
+     "i": 6.3,
+     "f": 6.35
+    },
+    {
+     "p": "acordar",
+     "i": 6.362,
+     "f": 6.775
+    },
+    {
+     "p": "sempre",
+     "i": 6.787,
+     "f": 7.212
+    },
+    {
+     "p": "no",
+     "i": 7.225,
+     "f": 7.312
+    },
+    {
+     "p": "mesmo",
+     "i": 7.325,
+     "f": 7.6
+    },
+    {
+     "p": "horário",
+     "i": 7.612,
+     "f": 8
+    },
+    {
+     "p": "até",
+     "i": 8.2,
+     "f": 8.5
+    },
+    {
+     "p": "no",
+     "i": 8.512,
+     "f": 8.625
+    },
+    {
+     "p": "fim",
+     "i": 8.637,
+     "f": 8.85
+    },
+    {
+     "p": "de",
+     "i": 8.863,
+     "f": 8.975
+    },
+    {
+     "p": "semana",
+     "i": 8.988,
+     "f": 9.513
+    },
+    {
+     "p": "Deixe",
+     "i": 10.375,
+     "f": 10.762
+    },
+    {
+     "p": "o",
+     "i": 10.775,
+     "f": 10.8
+    },
+    {
+     "p": "quarto",
+     "i": 10.812,
+     "f": 11.113
+    },
+    {
+     "p": "escuro",
+     "i": 11.125,
+     "f": 11.525
+    },
+    {
+     "p": "silencioso",
+     "i": 11.775,
+     "f": 12.588
+    },
+    {
+     "p": "e",
+     "i": 12.6,
+     "f": 12.625
+    },
+    {
+     "p": "fresco",
+     "i": 12.637,
+     "f": 13.137
+    },
+    {
+     "p": "Evite",
+     "i": 14,
+     "f": 14.463
+    },
+    {
+     "p": "telas",
+     "i": 14.475,
+     "f": 14.762
+    },
+    {
+     "p": "na",
+     "i": 14.775,
+     "f": 14.863
+    },
+    {
+     "p": "hora",
+     "i": 14.875,
+     "f": 15.088
+    },
+    {
+     "p": "de",
+     "i": 15.1,
+     "f": 15.188
+    },
+    {
+     "p": "dormir",
+     "i": 15.2,
+     "f": 15.562
+    },
+    {
+     "p": "e",
+     "i": 15.575,
+     "f": 15.625
+    },
+    {
+     "p": "cafeína",
+     "i": 15.637,
+     "f": 16.113
+    },
+    {
+     "p": "no",
+     "i": 16.125,
+     "f": 16.25
+    },
+    {
+     "p": "fim",
+     "i": 16.262,
+     "f": 16.462
+    },
+    {
+     "p": "da",
+     "i": 16.475,
+     "f": 16.625
+    },
+    {
+     "p": "tarde",
+     "i": 16.637,
+     "f": 17.05
+    },
+    {
+     "p": "porque",
+     "i": 17.288,
+     "f": 17.588
+    },
+    {
+     "p": "o",
+     "i": 17.6,
+     "f": 17.675
+    },
+    {
+     "p": "efeito",
+     "i": 17.688,
+     "f": 18.05
+    },
+    {
+     "p": "do",
+     "i": 18.062,
+     "f": 18.137
+    },
+    {
+     "p": "café",
+     "i": 18.15,
+     "f": 18.425
+    },
+    {
+     "p": "pode",
+     "i": 18.438,
+     "f": 18.712
+    },
+    {
+     "p": "durar",
+     "i": 18.725,
+     "f": 19.038
+    },
+    {
+     "p": "muitas",
+     "i": 19.05,
+     "f": 19.5
+    },
+    {
+     "p": "horas",
+     "i": 19.512,
+     "f": 20.037
+    },
+    {
+     "p": "E",
+     "i": 20.9,
+     "f": 21.012
+    },
+    {
+     "p": "se",
+     "i": 21.025,
+     "f": 21.112
+    },
+    {
+     "p": "o",
+     "i": 21.125,
+     "f": 21.188
+    },
+    {
+     "p": "problema",
+     "i": 21.2,
+     "f": 21.675
+    },
+    {
+     "p": "persistir",
+     "i": 21.688,
+     "f": 22.3
+    },
+    {
+     "p": "como",
+     "i": 22.637,
+     "f": 22.875
+    },
+    {
+     "p": "roncos",
+     "i": 22.887,
+     "f": 23.25
+    },
+    {
+     "p": "fortes",
+     "i": 23.262,
+     "f": 23.8
+    },
+    {
+     "p": "pausas",
+     "i": 24.012,
+     "f": 24.363
+    },
+    {
+     "p": "na",
+     "i": 24.375,
+     "f": 24.45
+    },
+    {
+     "p": "respiração",
+     "i": 24.462,
+     "f": 25.112
+    },
+    {
+     "p": "ou",
+     "i": 25.125,
+     "f": 25.238
+    },
+    {
+     "p": "insônia",
+     "i": 25.25,
+     "f": 25.7
+    },
+    {
+     "p": "por",
+     "i": 25.712,
+     "f": 25.85
+    },
+    {
+     "p": "semanas",
+     "i": 25.863,
+     "f": 26.438
+    },
+    {
+     "p": "procure",
+     "i": 26.663,
+     "f": 27.1
+    },
+    {
+     "p": "um",
+     "i": 27.113,
+     "f": 27.188
+    },
+    {
+     "p": "médico",
+     "i": 27.2,
+     "f": 27.662
+    }
+   ]
+  },
+  "quanto-dormir": {
+   "hash": "b46ffe963d",
+   "texto": "Então, quanto dormir? Uma recomendação de consenso da Academia Americana de Medicina do Sono e da Sociedade de Pesquisa do Sono diz que adultos devem dormir sete horas ou mais por noite. Menos que isso, de forma regular, está ligado a vários problemas de saúde. O recorde de ficar sem dormir é de um adolescente chamado Randy Gardner, que ficou onze dias acordado, cerca de duzentas e sessenta e quatro horas. Mas ele ficou com a memória, o humor e a atenção comprometidos. Não tente isso em casa.",
+   "audio": "audio/quanto-dormir-b46ffe963d.mp3",
+   "duracao": 34.534,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.1,
+     "f": 0.625
+    },
+    {
+     "p": "quanto",
+     "i": 0.85,
+     "f": 1.15
+    },
+    {
+     "p": "dormir",
+     "i": 1.163,
+     "f": 1.6
+    },
+    {
+     "p": "Uma",
+     "i": 2.462,
+     "f": 2.663
+    },
+    {
+     "p": "recomendação",
+     "i": 2.675,
+     "f": 3.475
+    },
+    {
+     "p": "de",
+     "i": 3.487,
+     "f": 3.6
+    },
+    {
+     "p": "consenso",
+     "i": 3.612,
+     "f": 4.188
+    },
+    {
+     "p": "da",
+     "i": 4.2,
+     "f": 4.263
+    },
+    {
+     "p": "Academia",
+     "i": 4.275,
+     "f": 4.713
+    },
+    {
+     "p": "Americana",
+     "i": 4.725,
+     "f": 5.287
+    },
+    {
+     "p": "de",
+     "i": 5.3,
+     "f": 5.388
+    },
+    {
+     "p": "Medicina",
+     "i": 5.4,
+     "f": 5.925
+    },
+    {
+     "p": "do",
+     "i": 5.938,
+     "f": 6.05
+    },
+    {
+     "p": "Sono",
+     "i": 6.062,
+     "f": 6.463
+    },
+    {
+     "p": "e",
+     "i": 6.475,
+     "f": 6.5
+    },
+    {
+     "p": "da",
+     "i": 6.513,
+     "f": 6.612
+    },
+    {
+     "p": "Sociedade",
+     "i": 6.625,
+     "f": 7.263
+    },
+    {
+     "p": "de",
+     "i": 7.275,
+     "f": 7.35
+    },
+    {
+     "p": "Pesquisa",
+     "i": 7.362,
+     "f": 7.837
+    },
+    {
+     "p": "do",
+     "i": 7.85,
+     "f": 7.95
+    },
+    {
+     "p": "Sono",
+     "i": 7.963,
+     "f": 8.25
+    },
+    {
+     "p": "diz",
+     "i": 8.262,
+     "f": 8.512
+    },
+    {
+     "p": "que",
+     "i": 8.525,
+     "f": 8.6
+    },
+    {
+     "p": "adultos",
+     "i": 8.613,
+     "f": 9.062
+    },
+    {
+     "p": "devem",
+     "i": 9.075,
+     "f": 9.35
+    },
+    {
+     "p": "dormir",
+     "i": 9.363,
+     "f": 9.738
+    },
+    {
+     "p": "sete",
+     "i": 9.75,
+     "f": 10.137
+    },
+    {
+     "p": "horas",
+     "i": 10.15,
+     "f": 10.412
+    },
+    {
+     "p": "ou",
+     "i": 10.425,
+     "f": 10.625
+    },
+    {
+     "p": "mais",
+     "i": 10.637,
+     "f": 10.938
+    },
+    {
+     "p": "por",
+     "i": 10.95,
+     "f": 11.15
+    },
+    {
+     "p": "noite",
+     "i": 11.162,
+     "f": 11.588
+    },
+    {
+     "p": "Menos",
+     "i": 12.45,
+     "f": 12.862
+    },
+    {
+     "p": "que",
+     "i": 12.875,
+     "f": 13.037
+    },
+    {
+     "p": "isso",
+     "i": 13.05,
+     "f": 13.338
+    },
+    {
+     "p": "de",
+     "i": 13.625,
+     "f": 13.738
+    },
+    {
+     "p": "forma",
+     "i": 13.75,
+     "f": 14.075
+    },
+    {
+     "p": "regular",
+     "i": 14.088,
+     "f": 14.6
+    },
+    {
+     "p": "está",
+     "i": 14.925,
+     "f": 15.1
+    },
+    {
+     "p": "ligado",
+     "i": 15.113,
+     "f": 15.55
+    },
+    {
+     "p": "a",
+     "i": 15.562,
+     "f": 15.625
+    },
+    {
+     "p": "vários",
+     "i": 15.637,
+     "f": 15.95
+    },
+    {
+     "p": "problemas",
+     "i": 15.963,
+     "f": 16.475
+    },
+    {
+     "p": "de",
+     "i": 16.488,
+     "f": 16.588
+    },
+    {
+     "p": "saúde",
+     "i": 16.6,
+     "f": 17.138
+    },
+    {
+     "p": "O",
+     "i": 18,
+     "f": 18.1
+    },
+    {
+     "p": "recorde",
+     "i": 18.113,
+     "f": 18.613
+    },
+    {
+     "p": "de",
+     "i": 18.625,
+     "f": 18.712
+    },
+    {
+     "p": "ficar",
+     "i": 18.725,
+     "f": 19.025
+    },
+    {
+     "p": "sem",
+     "i": 19.038,
+     "f": 19.2
+    },
+    {
+     "p": "dormir",
+     "i": 19.212,
+     "f": 19.637
+    },
+    {
+     "p": "é",
+     "i": 19.65,
+     "f": 19.712
+    },
+    {
+     "p": "de",
+     "i": 19.725,
+     "f": 19.8
+    },
+    {
+     "p": "um",
+     "i": 19.812,
+     "f": 19.913
+    },
+    {
+     "p": "adolescente",
+     "i": 19.925,
+     "f": 20.5
+    },
+    {
+     "p": "chamado",
+     "i": 20.512,
+     "f": 20.962
+    },
+    {
+     "p": "Randy",
+     "i": 20.975,
+     "f": 21.288
+    },
+    {
+     "p": "Gardner",
+     "i": 21.3,
+     "f": 21.825
+    },
+    {
+     "p": "que",
+     "i": 22.087,
+     "f": 22.212
+    },
+    {
+     "p": "ficou",
+     "i": 22.225,
+     "f": 22.562
+    },
+    {
+     "p": "onze",
+     "i": 22.575,
+     "f": 22.887
+    },
+    {
+     "p": "dias",
+     "i": 22.9,
+     "f": 23.1
+    },
+    {
+     "p": "acordado",
+     "i": 23.113,
+     "f": 23.762
+    },
+    {
+     "p": "cerca",
+     "i": 24.062,
+     "f": 24.4
+    },
+    {
+     "p": "de",
+     "i": 24.413,
+     "f": 24.513
+    },
+    {
+     "p": "duzentas",
+     "i": 24.525,
+     "f": 25
+    },
+    {
+     "p": "e",
+     "i": 25.012,
+     "f": 25.125
+    },
+    {
+     "p": "sessenta",
+     "i": 25.137,
+     "f": 25.512
+    },
+    {
+     "p": "e",
+     "i": 25.525,
+     "f": 25.562
+    },
+    {
+     "p": "quatro",
+     "i": 25.575,
+     "f": 25.9
+    },
+    {
+     "p": "horas",
+     "i": 25.913,
+     "f": 26.338
+    },
+    {
+     "p": "Mas",
+     "i": 27.2,
+     "f": 27.4
+    },
+    {
+     "p": "ele",
+     "i": 27.413,
+     "f": 27.7
+    },
+    {
+     "p": "ficou",
+     "i": 27.712,
+     "f": 28.012
+    },
+    {
+     "p": "com",
+     "i": 28.025,
+     "f": 28.175
+    },
+    {
+     "p": "a",
+     "i": 28.188,
+     "f": 28.212
+    },
+    {
+     "p": "memória",
+     "i": 28.225,
+     "f": 28.7
+    },
+    {
+     "p": "o",
+     "i": 28.95,
+     "f": 29.062
+    },
+    {
+     "p": "humor",
+     "i": 29.075,
+     "f": 29.412
+    },
+    {
+     "p": "e",
+     "i": 29.425,
+     "f": 29.475
+    },
+    {
+     "p": "a",
+     "i": 29.488,
+     "f": 29.538
+    },
+    {
+     "p": "atenção",
+     "i": 29.55,
+     "f": 30.038
+    },
+    {
+     "p": "comprometidos",
+     "i": 30.05,
+     "f": 30.975
+    },
+    {
+     "p": "Não",
+     "i": 31.837,
+     "f": 32.125
+    },
+    {
+     "p": "tente",
+     "i": 32.138,
+     "f": 32.525
+    },
+    {
+     "p": "isso",
+     "i": 32.538,
+     "f": 32.763
+    },
+    {
+     "p": "em",
+     "i": 32.775,
+     "f": 32.85
+    },
+    {
+     "p": "casa",
+     "i": 32.862,
+     "f": 33.237
+    }
+   ]
+  },
+  "final": {
+   "hash": "270ccf74a5",
+   "texto": "Resumindo: dormir não é desligar. É a hora em que o corpo se repara, o cérebro faz faxina, a memória é salva e o coração descansa. Então hoje à noite, quando você deitar, lembre que tem uma equipe trabalhando por você. Agora me conta aqui nos comentários: você é do time que dorme cedo ou do time que dorme tarde? E se você gostou, segue o canal para mais curiosidades.",
+   "audio": "audio/final-270ccf74a5.mp3",
+   "duracao": 26.776,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.1,
+     "f": 0.787
+    },
+    {
+     "p": "dormir",
+     "i": 1.113,
+     "f": 1.562
+    },
+    {
+     "p": "não",
+     "i": 1.575,
+     "f": 1.775
+    },
+    {
+     "p": "é",
+     "i": 1.788,
+     "f": 1.85
+    },
+    {
+     "p": "desligar",
+     "i": 1.863,
+     "f": 2.4
+    },
+    {
+     "p": "É",
+     "i": 3.263,
+     "f": 3.413
+    },
+    {
+     "p": "a",
+     "i": 3.425,
+     "f": 3.487
+    },
+    {
+     "p": "hora",
+     "i": 3.5,
+     "f": 3.725
+    },
+    {
+     "p": "em",
+     "i": 3.737,
+     "f": 3.787
+    },
+    {
+     "p": "que",
+     "i": 3.8,
+     "f": 3.887
+    },
+    {
+     "p": "o",
+     "i": 3.9,
+     "f": 3.95
+    },
+    {
+     "p": "corpo",
+     "i": 3.962,
+     "f": 4.325
+    },
+    {
+     "p": "se",
+     "i": 4.338,
+     "f": 4.45
+    },
+    {
+     "p": "repara",
+     "i": 4.463,
+     "f": 4.938
+    },
+    {
+     "p": "o",
+     "i": 5.2,
+     "f": 5.275
+    },
+    {
+     "p": "cérebro",
+     "i": 5.287,
+     "f": 5.762
+    },
+    {
+     "p": "faz",
+     "i": 5.775,
+     "f": 6
+    },
+    {
+     "p": "faxina",
+     "i": 6.013,
+     "f": 6.538
+    },
+    {
+     "p": "a",
+     "i": 6.812,
+     "f": 6.862
+    },
+    {
+     "p": "memória",
+     "i": 6.875,
+     "f": 7.287
+    },
+    {
+     "p": "é",
+     "i": 7.3,
+     "f": 7.325
+    },
+    {
+     "p": "salva",
+     "i": 7.338,
+     "f": 7.825
+    },
+    {
+     "p": "e",
+     "i": 7.838,
+     "f": 7.913
+    },
+    {
+     "p": "o",
+     "i": 7.925,
+     "f": 7.975
+    },
+    {
+     "p": "coração",
+     "i": 7.987,
+     "f": 8.45
+    },
+    {
+     "p": "descansa",
+     "i": 8.463,
+     "f": 9.088
+    },
+    {
+     "p": "Então",
+     "i": 9.95,
+     "f": 10.425
+    },
+    {
+     "p": "hoje",
+     "i": 10.438,
+     "f": 10.675
+    },
+    {
+     "p": "à",
+     "i": 10.688,
+     "f": 10.725
+    },
+    {
+     "p": "noite",
+     "i": 10.738,
+     "f": 11.163
+    },
+    {
+     "p": "quando",
+     "i": 11.5,
+     "f": 11.713
+    },
+    {
+     "p": "você",
+     "i": 11.725,
+     "f": 11.975
+    },
+    {
+     "p": "deitar",
+     "i": 11.988,
+     "f": 12.388
+    },
+    {
+     "p": "lembre",
+     "i": 12.65,
+     "f": 13
+    },
+    {
+     "p": "que",
+     "i": 13.012,
+     "f": 13.137
+    },
+    {
+     "p": "tem",
+     "i": 13.15,
+     "f": 13.3
+    },
+    {
+     "p": "uma",
+     "i": 13.312,
+     "f": 13.412
+    },
+    {
+     "p": "equipe",
+     "i": 13.425,
+     "f": 13.75
+    },
+    {
+     "p": "trabalhando",
+     "i": 13.762,
+     "f": 14.275
+    },
+    {
+     "p": "por",
+     "i": 14.287,
+     "f": 14.438
+    },
+    {
+     "p": "você",
+     "i": 14.45,
+     "f": 14.875
+    },
+    {
+     "p": "Agora",
+     "i": 15.738,
+     "f": 16.163
+    },
+    {
+     "p": "me",
+     "i": 16.175,
+     "f": 16.288
+    },
+    {
+     "p": "conta",
+     "i": 16.3,
+     "f": 16.575
+    },
+    {
+     "p": "aqui",
+     "i": 16.587,
+     "f": 16.775
+    },
+    {
+     "p": "nos",
+     "i": 16.788,
+     "f": 16.925
+    },
+    {
+     "p": "comentários",
+     "i": 16.938,
+     "f": 17.738
+    },
+    {
+     "p": "você",
+     "i": 18,
+     "f": 18.288
+    },
+    {
+     "p": "é",
+     "i": 18.3,
+     "f": 18.35
+    },
+    {
+     "p": "do",
+     "i": 18.363,
+     "f": 18.488
+    },
+    {
+     "p": "time",
+     "i": 18.5,
+     "f": 18.825
+    },
+    {
+     "p": "que",
+     "i": 18.837,
+     "f": 18.95
+    },
+    {
+     "p": "dorme",
+     "i": 18.962,
+     "f": 19.287
+    },
+    {
+     "p": "cedo",
+     "i": 19.3,
+     "f": 19.65
+    },
+    {
+     "p": "ou",
+     "i": 19.663,
+     "f": 19.75
+    },
+    {
+     "p": "do",
+     "i": 19.762,
+     "f": 19.887
+    },
+    {
+     "p": "time",
+     "i": 19.9,
+     "f": 20.225
+    },
+    {
+     "p": "que",
+     "i": 20.238,
+     "f": 20.35
+    },
+    {
+     "p": "dorme",
+     "i": 20.363,
+     "f": 20.675
+    },
+    {
+     "p": "tarde",
+     "i": 20.688,
+     "f": 21.113
+    },
+    {
+     "p": "E",
+     "i": 21.975,
+     "f": 22.088
+    },
+    {
+     "p": "se",
+     "i": 22.1,
+     "f": 22.213
+    },
+    {
+     "p": "você",
+     "i": 22.225,
+     "f": 22.5
+    },
+    {
+     "p": "gostou",
+     "i": 22.512,
+     "f": 22.95
+    },
+    {
+     "p": "segue",
+     "i": 23.275,
+     "f": 23.55
+    },
+    {
+     "p": "o",
+     "i": 23.562,
+     "f": 23.6
+    },
+    {
+     "p": "canal",
+     "i": 23.613,
+     "f": 23.988
+    },
+    {
+     "p": "para",
+     "i": 24,
+     "f": 24.188
+    },
+    {
+     "p": "mais",
+     "i": 24.2,
+     "f": 24.5
+    },
+    {
+     "p": "curiosidades",
+     "i": 24.512,
+     "f": 25.45
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "sono": {
+   "arquivo": "imagens/sono-5c1ab6fe.jpg",
+   "rotulo": "Pessoa dormindo",
+   "wiki": "Sono",
+   "commons": "sleeping person bed",
+   "autor": "Domenico Fetti",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Domenico_Fetti_-_Sleeping_Girl_-_WGA7863.jpg",
+   "titulo": "File:Domenico Fetti - Sleeping Girl - WGA7863.jpg"
+  },
+  "cerebro": {
+   "arquivo": "imagens/cerebro-6a56ad4b.jpg",
+   "rotulo": "Cérebro humano",
+   "wiki": "Cérebro humano",
+   "commons": "human brain",
+   "autor": "Department of Radiology, Uppsala University Hospital. Uploaded by Mikael Häggström.",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Computed_tomography_of_human_brain_-_large.png",
+   "titulo": "File:Computed tomography of human brain - large.png"
+  },
+  "eeg": {
+   "arquivo": "imagens/eeg-4609fddd.jpg",
+   "rotulo": "Registro de sono (EEG)",
+   "wiki": "Eletroencefalografia",
+   "commons": "polysomnography sleep EEG",
+   "autor": "Sturm",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Random_Structures_in_the_Brain_102.jpg",
+   "titulo": "File:Random Structures in the Brain 102.jpg"
+  },
+  "melatonina": {
+   "arquivo": "imagens/melatonina-72d8dc34.jpg",
+   "rotulo": "Melatonina",
+   "wiki": "Melatonina",
+   "commons": "melatonin molecule",
+   "autor": "Jynto (talk)",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Melatonin_molecule_ball.png",
+   "titulo": "File:Melatonin molecule ball.png"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-22T10:35:40.224Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "NINDS (NIH) — Brain Basics: Understanding Sleep",
+   "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+  },
+  {
+   "titulo": "Xie et al., Science 2013 — Sleep drives metabolite clearance from the adult brain",
+   "url": "https://www.science.org/doi/10.1126/science.1241224"
+  },
+  {
+   "titulo": "AASM / Sleep Research Society — Recomendação de sono para adultos (Watson et al., 2015)",
+   "url": "https://aasm.org/resources/pdf/pressroom/adult-sleep-duration-consensus.pdf"
+  },
+  {
+   "titulo": "Sleep Foundation — Stages of Sleep",
+   "url": "https://www.sleepfoundation.org/stages-of-sleep"
+  },
+  {
+   "titulo": "ScienceAlert — Randy Gardner e as 11 dias sem dormir",
+   "url": "https://www.sciencealert.com/watch-here-s-what-happened-when-a-teenager-stayed-awake-for-11-days-straight"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "colagem",
+  "legenda": "cinema",
+  "transicao": "zoom",
+  "fundo": "ondas",
+  "formato": "curiosidade"
  }
 }
