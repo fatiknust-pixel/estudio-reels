@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "documentario",
  "criadoEm": "2026-10-22T13:24:51.485Z",
- "atualizadoEm": "2026-10-22T13:28:43Z",
+ "atualizadoEm": "2026-10-22T20:10:26Z",
  "status": "pronto",
  "legenda": {
   "fonte": "raleway",
@@ -3784,7 +3784,14 @@
    "autor": "Desconhecido",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Tourism.png",
-   "titulo": "File:Tourism.png"
+   "titulo": "File:Tourism.png",
+   "largura": 311,
+   "altura": 400,
+   "rostos": 0,
+   "foco": {
+    "x": 64.6,
+    "y": 42.2
+   }
   },
   "globo": {
    "arquivo": "imagens/globo-2e3f1176.jpg",
@@ -3793,7 +3800,14 @@
    "autor": "NASA images by Reto Stöckli, based on data from NASA and NOAA. Instrument: Terra - MODIS",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Blue_Marble_Western_Hemisphere.jpg",
-   "titulo": "File:Blue Marble Western Hemisphere.jpg"
+   "titulo": "File:Blue Marble Western Hemisphere.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 50.8,
+    "y": 61.2
+   }
   },
   "multidao": {
    "arquivo": "imagens/multidao-f4b9b1c8.jpg",
@@ -3802,7 +3816,14 @@
    "autor": "Unknown authorUnknown author",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Travelers_aboard_Griffith%27s_sightseeing_bus_in_Portland,_Oregon,_circa_1912_(AL%2BCA_1757).jpg",
-   "titulo": "File:Travelers aboard Griffith's sightseeing bus in Portland, Oregon, circa 1912 (AL+CA 1757).jpg"
+   "titulo": "File:Travelers aboard Griffith's sightseeing bus in Portland, Oregon, circa 1912 (AL+CA 1757).jpg",
+   "largura": 768,
+   "altura": 492,
+   "rostos": 0,
+   "foco": {
+    "x": 61.7,
+    "y": 46.5
+   }
   },
   "bilhete": {
    "arquivo": "imagens/bilhete-6a3555e2.jpg",
@@ -3811,7 +3832,14 @@
    "autor": "Richard Dorrell",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Queueing_for_tickets_-_geograph.org.uk_-_1454870.jpg",
-   "titulo": "File:Queueing for tickets - geograph.org.uk - 1454870.jpg"
+   "titulo": "File:Queueing for tickets - geograph.org.uk - 1454870.jpg",
+   "largura": 640,
+   "altura": 480,
+   "rostos": 0,
+   "foco": {
+    "x": 43.4,
+    "y": 37.9
+   }
   },
   "eiffel": {
    "arquivo": "imagens/eiffel-610fa753.jpg",
@@ -3820,7 +3848,14 @@
    "autor": "Gordon Gartrell",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ-de-Mars,_7_August_2017.jpg",
-   "titulo": "File:Eiffel Tower from Champ-de-Mars, 7 August 2017.jpg"
+   "titulo": "File:Eiffel Tower from Champ-de-Mars, 7 August 2017.jpg",
+   "largura": 1920,
+   "altura": 2905,
+   "rostos": 0,
+   "foco": {
+    "x": 50.2,
+    "y": 64.2
+   }
   },
   "eiffel-obra": {
    "arquivo": "imagens/eiffel-obra-d23e6ed6.jpg",
@@ -3829,7 +3864,14 @@
    "autor": "Louis-Emile Durandelle",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Louis-Emile_Durandelle,_The_Eiffel_Tower_-_State_of_the_Construction,_1888.jpg",
-   "titulo": "File:Louis-Emile Durandelle, The Eiffel Tower - State of the Construction, 1888.jpg"
+   "titulo": "File:Louis-Emile Durandelle, The Eiffel Tower - State of the Construction, 1888.jpg",
+   "largura": 1920,
+   "altura": 2443,
+   "rostos": 0,
+   "foco": {
+    "x": 51.8,
+    "y": 56.4
+   }
   },
   "eiffel-expo": {
    "arquivo": "imagens/eiffel-expo-e8548a36.jpg",
@@ -3838,7 +3880,14 @@
    "autor": "GTC",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:L%27Exposition_universelle_de_Paris,_1889.jpg",
-   "titulo": "File:L'Exposition universelle de Paris, 1889.jpg"
+   "titulo": "File:L'Exposition universelle de Paris, 1889.jpg",
+   "largura": 1920,
+   "altura": 1274,
+   "rostos": 0,
+   "foco": {
+    "x": 45.3,
+    "y": 61.6
+   }
   },
   "gustave-eiffel": {
    "arquivo": "imagens/gustave-eiffel-526fbaf1.jpg",
@@ -3847,7 +3896,14 @@
    "autor": "François Touranchet",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Gustave_Eiffel.jpg",
-   "titulo": "File:Gustave Eiffel.jpg"
+   "titulo": "File:Gustave Eiffel.jpg",
+   "largura": 1250,
+   "altura": 1500,
+   "rostos": 2,
+   "foco": {
+    "x": 58.9,
+    "y": 33.4
+   }
   },
   "eiffel-noite": {
    "arquivo": "imagens/eiffel-noite-6aa865d8.jpg",
@@ -3856,7 +3912,14 @@
    "autor": "Pierre Blaché from Paris, France",
    "licenca": "CC0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Light_trails_near_Paris,_27_May_2022.jpg",
-   "titulo": "File:Light trails near Paris, 27 May 2022.jpg"
+   "titulo": "File:Light trails near Paris, 27 May 2022.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 45.2,
+    "y": 54.3
+   }
   },
   "disneyland": {
    "arquivo": "imagens/disneyland-4a50d2c3.jpg",
@@ -3866,7 +3929,14 @@
    "autor": "Tuxyso",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg",
-   "titulo": "File:Sleeping Beauty Castle Disneyland Anaheim 2013.jpg"
+   "titulo": "File:Sleeping Beauty Castle Disneyland Anaheim 2013.jpg",
+   "largura": 1920,
+   "altura": 1651,
+   "rostos": 0,
+   "foco": {
+    "x": 40.6,
+    "y": 62.4
+   }
   },
   "disneyland-castelo": {
    "arquivo": "imagens/disneyland-castelo-4a50d2c3.jpg",
@@ -3875,7 +3945,14 @@
    "autor": "Tuxyso",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg",
-   "titulo": "File:Sleeping Beauty Castle Disneyland Anaheim 2013.jpg"
+   "titulo": "File:Sleeping Beauty Castle Disneyland Anaheim 2013.jpg",
+   "largura": 1920,
+   "altura": 1651,
+   "rostos": 0,
+   "foco": {
+    "x": 40.6,
+    "y": 62.4
+   }
   },
   "disneyland-1955": {
    "arquivo": "imagens/disneyland-1955-d17a4971.jpg",
@@ -3884,7 +3961,14 @@
    "autor": "U.S. Geological Survey",
    "licenca": "CC BY 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:We_Celebrate_The_Opening_of_Disneyland_On_This_Day_in_1955_with_Topographic_Maps.png",
-   "titulo": "File:We Celebrate The Opening of Disneyland On This Day in 1955 with Topographic Maps.png"
+   "titulo": "File:We Celebrate The Opening of Disneyland On This Day in 1955 with Topographic Maps.png",
+   "largura": 700,
+   "altura": 480,
+   "rostos": 0,
+   "foco": {
+    "x": 52.3,
+    "y": 50.4
+   }
   },
   "disneyland-rua": {
    "arquivo": "imagens/disneyland-rua-d4633302.jpg",
@@ -3893,7 +3977,14 @@
    "autor": "David Jones from Isle of Wight, United Kingdom",
    "licenca": "CC BY 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Main_Street_USA,_1991_-_Disneyland,_California_(497055618).jpg",
-   "titulo": "File:Main Street USA, 1991 - Disneyland, California (497055618).jpg"
+   "titulo": "File:Main Street USA, 1991 - Disneyland, California (497055618).jpg",
+   "largura": 1710,
+   "altura": 1170,
+   "rostos": 0,
+   "foco": {
+    "x": 42.1,
+    "y": 58.0
+   }
   },
   "disneyland-multidao": {
    "arquivo": "",
@@ -3907,7 +3998,14 @@
    "autor": "Jacob Ehnmark from Sendai, Japan",
    "licenca": "CC BY 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Forbidden_city_07.jpg",
-   "titulo": "File:Forbidden city 07.jpg"
+   "titulo": "File:Forbidden city 07.jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 52.3,
+    "y": 59.3
+   }
   },
   "cidade-proibida-salao": {
    "arquivo": "imagens/cidade-proibida-salao-54469d41.jpg",
@@ -3916,7 +4014,14 @@
    "autor": "Marcin Białek",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_2010.jpg",
-   "titulo": "File:Hall of Supreme Harmony 2010.jpg"
+   "titulo": "File:Hall of Supreme Harmony 2010.jpg",
+   "largura": 1920,
+   "altura": 378,
+   "rostos": 0,
+   "foco": {
+    "x": 49.0,
+    "y": 67.2
+   }
   },
   "cidade-proibida-aerea": {
    "arquivo": "imagens/cidade-proibida-aerea-b2eb4fe7.jpg",
@@ -3925,7 +4030,14 @@
    "autor": "Güldem Üstün from Istanbul, TURKEY",
    "licenca": "CC BY 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:China_(Beijing)_Aerial_view_of_Forbidden_City_(38884882275).jpg",
-   "titulo": "File:China (Beijing) Aerial view of Forbidden City (38884882275).jpg"
+   "titulo": "File:China (Beijing) Aerial view of Forbidden City (38884882275).jpg",
+   "largura": 1920,
+   "altura": 1207,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 60.2
+   }
   },
   "museu-palacio": {
    "arquivo": "imagens/museu-palacio-2a588d34.jpg",
@@ -3935,7 +4047,14 @@
    "autor": "Wang Xi",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._(Complete,_51,3x1191,5_cm)._1113._Palace_museum,_Beijing.jpg",
-   "titulo": "File:Wang Ximeng. A Thousand Li of Rivers and Mountains. (Complete, 51,3x1191,5 cm). 1113. Palace museum, Beijing.jpg"
+   "titulo": "File:Wang Ximeng. A Thousand Li of Rivers and Mountains. (Complete, 51,3x1191,5 cm). 1113. Palace museum, Beijing.jpg",
+   "largura": 1920,
+   "altura": 77,
+   "rostos": 0,
+   "foco": {
+    "x": 63.8,
+    "y": 50.0
+   }
   },
   "cidade-proibida-portao": {
    "arquivo": "imagens/cidade-proibida-portao-ee4265f6.jpg",
@@ -3944,7 +4063,14 @@
    "autor": "Chainwit.",
    "licenca": "CC BY 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Hu%E1%BA%BF_(2024)_-_Meridian_Gate_-_Ng%E1%BB%8D_M%C3%B4n_(Ho%C3%A0ng_th%C3%A0nh_Hu%E1%BA%BF)_-_img_07.jpg",
-   "titulo": "File:Huế (2024) - Meridian Gate - Ngọ Môn (Hoàng thành Huế) - img 07.jpg"
+   "titulo": "File:Huế (2024) - Meridian Gate - Ngọ Môn (Hoàng thành Huế) - img 07.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 48.9,
+    "y": 40.4
+   }
   },
   "magic-kingdom": {
    "arquivo": "imagens/magic-kingdom-fa299a1e.jpg",
@@ -3953,7 +4079,14 @@
    "autor": "Desconhecido",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Magic_Kingdom_castle.jpg",
-   "titulo": "File:Magic Kingdom castle.jpg"
+   "titulo": "File:Magic Kingdom castle.jpg",
+   "largura": 1262,
+   "altura": 1545,
+   "rostos": 0,
+   "foco": {
+    "x": 47.2,
+    "y": 43.0
+   }
   },
   "cinderela-castelo": {
    "arquivo": "imagens/cinderela-castelo-8ec14ddb.jpg",
@@ -3962,7 +4095,14 @@
    "autor": "Katie Rommel-Esham (contact via bdesham)",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle.jpg",
-   "titulo": "File:Cinderella Castle.jpg"
+   "titulo": "File:Cinderella Castle.jpg",
+   "largura": 1863,
+   "altura": 2330,
+   "rostos": 0,
+   "foco": {
+    "x": 55.8,
+    "y": 41.0
+   }
   },
   "walt-disney": {
    "arquivo": "imagens/walt-disney-278c9c2a.jpg",
@@ -3971,7 +4111,14 @@
    "autor": "Boy Scouts of America",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946.JPG",
-   "titulo": "File:Walt Disney 1946.JPG"
+   "titulo": "File:Walt Disney 1946.JPG",
+   "largura": 450,
+   "altura": 675,
+   "rostos": 2,
+   "foco": {
+    "x": 51.4,
+    "y": 43.2
+   }
   },
   "magic-kingdom-rua": {
    "arquivo": "imagens/magic-kingdom-rua-25684cd6.jpg",
@@ -3980,7 +4127,14 @@
    "autor": "DearCatastropheWaitress at English Wikipedia",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Magic_Kingdom_-_Main_Street_and_Trolley.jpg",
-   "titulo": "File:Magic Kingdom - Main Street and Trolley.jpg"
+   "titulo": "File:Magic Kingdom - Main Street and Trolley.jpg",
+   "largura": 1200,
+   "altura": 1600,
+   "rostos": 0,
+   "foco": {
+    "x": 45.2,
+    "y": 53.8
+   }
   },
   "magic-kingdom-multidao": {
    "arquivo": "imagens/magic-kingdom-multidao-61b19cb6.jpg",
@@ -3989,7 +4143,14 @@
    "autor": "Jedi94",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle,_Magic_Kingdom_Walt_Disney_World_(2024).jpg",
-   "titulo": "File:Cinderella Castle, Magic Kingdom Walt Disney World (2024).jpg"
+   "titulo": "File:Cinderella Castle, Magic Kingdom Walt Disney World (2024).jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 46.3,
+    "y": 66.3
+   }
   },
   "times-square": {
    "arquivo": "imagens/times-square-2aee6060.jpg",
@@ -3998,7 +4159,14 @@
    "autor": "Don Ramey Logan",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Times_Square_April_2022_by_Don_Ramey_Logan.jpg",
-   "titulo": "File:Times Square April 2022 by Don Ramey Logan.jpg"
+   "titulo": "File:Times Square April 2022 by Don Ramey Logan.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 1,
+   "foco": {
+    "x": 70.1,
+    "y": 53.4
+   }
   },
   "times-square-predio": {
    "arquivo": "imagens/times-square-predio-1dcef6db.jpg",
@@ -4007,7 +4175,14 @@
    "autor": "Anthony Quintano",
    "licenca": "CC BY 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Times_Square_Ball_from_above.jpg",
-   "titulo": "File:Times Square Ball from above.jpg"
+   "titulo": "File:Times Square Ball from above.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 31.2,
+    "y": 40.5
+   }
   },
   "times-square-noite": {
    "arquivo": "imagens/times-square-noite-aaeb05d0.jpg",
@@ -4016,7 +4191,14 @@
    "autor": "Suicasmo",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Times_Square_at_night_20170313.jpg",
-   "titulo": "File:Times Square at night 20170313.jpg"
+   "titulo": "File:Times Square at night 20170313.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 11.1,
+    "y": 54.9
+   }
   },
   "times-square-multidao": {
    "arquivo": "imagens/times-square-multidao-36e8e033.jpg",
@@ -4025,12 +4207,30 @@
    "autor": "Ken Lund from Reno, Nevada, USA",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Times_Square,_Manhattan,_New_York_(7237736496).jpg",
-   "titulo": "File:Times Square, Manhattan, New York (7237736496).jpg"
+   "titulo": "File:Times Square, Manhattan, New York (7237736496).jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 5,
+   "foco": {
+    "x": 39.9,
+    "y": 41.1
+   }
   },
   "times-square-dia": {
-   "arquivo": "",
+   "arquivo": "imagens/times-square-dia-d70ef23b.jpg",
    "rotulo": "Times Square de dia",
-   "commons": "Times Square daytime pedestrians"
+   "commons": "Times Square daytime pedestrians",
+   "autor": "Maria Carmen",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Times_Square_de_d%C3%ADa.JPG",
+   "titulo": "File:Times Square de día.JPG",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 42.5,
+    "y": 15.6
+   }
   },
   "resumo-mapa": {
    "arquivo": "imagens/resumo-mapa-148a5176.jpg",
@@ -4039,12 +4239,30 @@
    "autor": "Dietmar Rabich",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Waldbillig_(LU),_Schiessent%C3%BCmpel_--_2015_--_6033.jpg",
-   "titulo": "File:Waldbillig (LU), Schiessentümpel -- 2015 -- 6033.jpg"
+   "titulo": "File:Waldbillig (LU), Schiessentümpel -- 2015 -- 6033.jpg",
+   "largura": 1920,
+   "altura": 1388,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 60.6
+   }
   },
   "viagem": {
-   "arquivo": "",
+   "arquivo": "imagens/viagem-74c3aad0.jpg",
    "rotulo": "Viajante",
-   "commons": "Traveler looking at landmark sunset"
+   "commons": "Traveler looking at landmark sunset",
+   "autor": "Cris",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fonseca_Fever.jpg",
+   "titulo": "File:Fonseca Fever.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 3,
+   "foco": {
+    "x": 49.9,
+    "y": 31.9
+   }
   }
  },
  "processamento": {
