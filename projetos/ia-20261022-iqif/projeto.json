@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-22T12:14:05.185Z",
- "atualizadoEm": "2026-10-22T12:16:59Z",
+ "atualizadoEm": "2026-10-22T20:10:13Z",
  "status": "pronto",
  "legenda": {
   "fonte": "anton",
@@ -1827,9 +1827,20 @@
  },
  "imagens": {
   "cerebro": {
-   "arquivo": "",
+   "arquivo": "imagens/cerebro-e5a9e186.jpg",
    "rotulo": "Cérebro humano",
-   "wiki": "Cérebro humano"
+   "wiki": "Cérebro humano",
+   "autor": "National Institutes of Health",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Human_brain_NIH.png",
+   "titulo": "File:Human brain NIH.png",
+   "largura": 344,
+   "altura": 250,
+   "rostos": 0,
+   "foco": {
+    "x": 45.1,
+    "y": 42.8
+   }
   },
   "sono": {
    "arquivo": "imagens/sono-5c1ab6fe.jpg",
@@ -1838,7 +1849,14 @@
    "autor": "Domenico Fetti",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Domenico_Fetti_-_Sleeping_Girl_-_WGA7863.jpg",
-   "titulo": "File:Domenico Fetti - Sleeping Girl - WGA7863.jpg"
+   "titulo": "File:Domenico Fetti - Sleeping Girl - WGA7863.jpg",
+   "largura": 777,
+   "altura": 679,
+   "rostos": 1,
+   "foco": {
+    "x": 40.7,
+    "y": 46.7
+   }
   },
   "eeg": {
    "arquivo": "imagens/eeg-6e6c27d7.jpg",
@@ -1847,7 +1865,14 @@
    "autor": "Desconhecido",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Sleep_EEG_Stage_4.jpg",
-   "titulo": "File:Sleep EEG Stage 4.jpg"
+   "titulo": "File:Sleep EEG Stage 4.jpg",
+   "largura": 837,
+   "altura": 587,
+   "rostos": 0,
+   "foco": {
+    "x": 52.0,
+    "y": 37.3
+   }
   }
  },
  "processamento": {
