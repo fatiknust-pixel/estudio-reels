@@ -4,12 +4,12 @@
  "titulo": "Nokia: do topo do mundo à queda",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "neon",
+ "tema": "documentario",
  "criadoEm": "2026-10-22T08:13:35.548Z",
- "atualizadoEm": "2026-10-22T08:18:37Z",
+ "atualizadoEm": "2026-10-22T08:26:16.319Z",
  "status": "pronto",
  "legenda": {
-  "fonte": "oswald",
+  "fonte": "inter",
   "tamanho": 62,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -8092,9 +8092,9 @@
  ],
  "estiloIA": {
   "dinamica": "glitch",
-  "legenda": "discreta",
   "transicao": "deslize",
-  "fundo": "pontos",
+  "fundo": "limpo",
+  "legenda": "discreta",
   "formato": "linha-do-tempo"
  }
 }
