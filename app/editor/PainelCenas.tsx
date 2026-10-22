@@ -163,6 +163,7 @@ export const PainelCenas: React.FC = () => {
                             const g = x.galeria ?? [];
                             x.galeria = pos >= 0 ? g.filter((y) => y !== i) : [...g, i];
                             if (!x.galeria.length) x.galeria = undefined;
+                            x.galeriaEm = undefined; // mexeu nas fotos: voltam a dividir o tempo igualmente
                           })}>
                           {pos >= 0 ? `${pos + 1}. ` : "+ "}{p.imagens![i].rotulo ?? i}
                         </button>

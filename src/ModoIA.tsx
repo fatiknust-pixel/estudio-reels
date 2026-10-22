@@ -6,6 +6,7 @@ import { useCor, useQuadro, useVideo } from "./contexto";
 import { Camera, Sobreposicao, useDinamica } from "./componentes/Dinamica";
 import { Elemento } from "./componentes/Elementos";
 import { Fundo, fotoAtual } from "./componentes/Fundo";
+import { FotosCartoes, GameplayFundo } from "./componentes/Gameplay";
 import { FONTE } from "./fontes";
 import { ALTURA, CenaTempo, LARGURA } from "./linhaTempo";
 
@@ -78,7 +79,7 @@ const Cena: React.FC<{ c: CenaTempo; ultima: boolean }> = ({ c, ultima }) => {
   const f = useCurrentFrame();
   const { creditoImagem, arquivo, projeto } = useVideo();
   // na galeria (documentário), o crédito acompanha a foto que está na tela
-  const credito = creditoImagem(c.galeria?.length ? c.galeria[fotoAtual(c.galeria, f, c.duracao)] : c.fundo);
+  const credito = creditoImagem(c.galeria?.length ? c.galeria[fotoAtual(c.galeria, f, c.duracao, c.galeriaInicios)] : c.fundo);
   const audio = arquivo(c.audio);
   const transicao = projeto.estiloIA?.transicao ?? "faixas";
   const jornal = projeto.estiloIA?.dinamica === "jornal";
@@ -94,7 +95,9 @@ const Cena: React.FC<{ c: CenaTempo; ultima: boolean }> = ({ c, ultima }) => {
   return (
     <AbsoluteFill style={entrada}>
       <AbsoluteFill style={{ transform: `scale(${zoom})` }}>
-        <Fundo chave={c.fundo} galeria={c.galeria} indice={c.indice} duracao={c.duracao} />
+        {projeto.fundoVideo
+          ? <FotosCartoes chave={c.fundo} galeria={c.galeria} inicios={c.galeriaInicios} duracao={c.duracao} />
+          : <Fundo chave={c.fundo} galeria={c.galeria} inicios={c.galeriaInicios} indice={c.indice} duracao={c.duracao} />}
       </AbsoluteFill>
       {audio && <Sequence from={2} layout="none"><Audio src={audio} /></Sequence>}
       {c.indice > 0 && projeto.efeitos.somTransicao && <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.5} />}
@@ -119,6 +122,7 @@ export const ModoIA: React.FC = () => {
   const { linha } = useVideo();
   return (
     <>
+      <GameplayFundo />
       <Camera>
       {linha.cenas.map((c, i) => (
         <Sequence key={c.id} from={c.inicio} durationInFrames={c.duracao} name={c.id}>

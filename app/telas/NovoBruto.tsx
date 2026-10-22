@@ -1,28 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import { ESTILOS, EstiloPronto } from "../estilos";
 import { temToken } from "../lib/github";
-import { criarBruto, MetaVideo, novoIdProjeto, projetoBruto } from "../lib/projetos";
+import { criarBruto, lerMetaVideo, MetaVideo, novoIdProjeto, projetoBruto } from "../lib/projetos";
 import { Alternar, avisarErro, Deslizar, Escolha, fmtTempo, ir } from "../ui";
 
 const mb = (b: number) => `${(b / 1024 / 1024).toFixed(b > 100 * 1024 * 1024 ? 0 : 1)} MB`;
-
-// Lê duração e tamanho do vídeo no próprio aparelho (e se o navegador consegue tocá-lo)
-const lerMeta = (url: string) =>
-  new Promise<MetaVideo & { tocavel: boolean }>((ok) => {
-    const v = document.createElement("video");
-    v.preload = "metadata";
-    v.muted = true;
-    const fim = setTimeout(() => ok({ duracao: 0, largura: 1080, altura: 1920, tocavel: false }), 15000);
-    v.onloadedmetadata = () => {
-      clearTimeout(fim);
-      ok({ duracao: v.duration, largura: v.videoWidth || 1080, altura: v.videoHeight || 1920, tocavel: v.videoWidth > 0 });
-    };
-    v.onerror = () => {
-      clearTimeout(fim);
-      ok({ duracao: 0, largura: 1080, altura: 1920, tocavel: false });
-    };
-    v.src = url;
-  });
 
 export const NovoBruto: React.FC = () => {
   const entrada = useRef<HTMLInputElement>(null);
@@ -48,7 +30,7 @@ export const NovoBruto: React.FC = () => {
     setUrl(u);
     setMeta(null);
     if (!titulo) setTitulo(f.name.replace(/\.[^.]+$/, "").replace(/[_-]+/g, " ").slice(0, 60) || "Meu vídeo");
-    setMeta(await lerMeta(u));
+    setMeta(await lerMetaVideo(u));
   };
 
   const criar = async () => {

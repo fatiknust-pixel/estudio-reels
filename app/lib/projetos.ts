@@ -1,5 +1,5 @@
 // Projetos: rascunho no aparelho + cópia oficial no GitHub (projetos/<id>/projeto.json).
-import { EFEITOS_PADRAO, LEGENDA_PADRAO, Projeto } from "../../src/tipos";
+import { EFEITOS_PADRAO, FundoVideo, LEGENDA_PADRAO, Projeto } from "../../src/tipos";
 import { EstiloPronto } from "../estilos";
 import demoBruto from "../demos/demo-bruto.json";
 import demoIA from "../demos/demo-ia.json";
@@ -132,6 +132,24 @@ export const novoIdProjeto = (prefixo: string) => {
 
 export type MetaVideo = { duracao: number; largura: number; altura: number };
 
+// Lê duração e tamanho do vídeo no próprio aparelho (e se o navegador consegue tocá-lo)
+export const lerMetaVideo = (url: string) =>
+  new Promise<MetaVideo & { tocavel: boolean }>((ok) => {
+    const v = document.createElement("video");
+    v.preload = "metadata";
+    v.muted = true;
+    const fim = setTimeout(() => ok({ duracao: 0, largura: 1080, altura: 1920, tocavel: false }), 15000);
+    v.onloadedmetadata = () => {
+      clearTimeout(fim);
+      ok({ duracao: v.duration, largura: v.videoWidth || 1080, altura: v.videoHeight || 1920, tocavel: v.videoWidth > 0 });
+    };
+    v.onerror = () => {
+      clearTimeout(fim);
+      ok({ duracao: 0, largura: 1080, altura: 1920, tocavel: false });
+    };
+    v.src = url;
+  });
+
 // No 16:9 a legenda fica mais baixa e um pouco menor (a tela é mais larga e mais baixa)
 export const LEGENDA_HORIZONTAL = { posicao: 82, tamanho: 78 };
 
@@ -182,11 +200,37 @@ export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: st
   };
 };
 
-export const criarIA = async (p: Projeto) => {
+// Gameplay de fundo (Modo 1): o app manda o vídeo em partes e a Action preparar-fundo.yml corta para o formato,
+// guarda o vídeo do render na release "brutos" e uma versão leve em projetos/<id>/fundo-previa.mp4.
+export const novoFundo = (meta: MetaVideo): FundoVideo => ({ arquivo: "fundo.mp4", previa: "fundo-previa.mp4", duracao: meta.duracao, largura: meta.largura, altura: meta.altura, volume: 0, pronto: false });
+type Fase = (texto: string, fracao?: number) => void;
+const subirFundo = async (p: Projeto, arquivo: File, tocavel: boolean, fase?: Fase) => {
+  if (tocavel) await local.salvarArquivo(p.id, p.fundoVideo!.arquivo, arquivo);
+  fase?.("Enviando a gameplay", 0);
+  await gh.enviarEmPartes(`envio/${p.id}`, arquivo, { nome: arquivo.name, tipo: arquivo.type }, (f) => fase?.("Enviando a gameplay", f));
+};
+
+export const criarIA = async (p: Projeto, fundo?: { arquivo: File; tocavel: boolean }, fase?: Fase) => {
   await local.salvarProjeto(p);
+  if (fundo && p.fundoVideo) await subirFundo(p, fundo.arquivo, fundo.tocavel, fase);
   await salvarNoGitHub(p);
+  if (fundo && p.fundoVideo) await gh.dispararWorkflow("preparar-fundo.yml", { projeto: p.id });
   await gh.dispararWorkflow("gerar-ia.yml", { projeto: p.id });
 };
+
+// Coloca (ou troca) a gameplay de fundo de um vídeo que já existe
+export const anexarFundo = async (p: Projeto, arquivo: File, meta: MetaVideo, tocavel: boolean, fase?: Fase): Promise<FundoVideo> => {
+  const novo: Projeto = { ...p, fundoVideo: novoFundo(meta) };
+  await local.salvarProjeto(novo);
+  await subirFundo(novo, arquivo, tocavel, fase);
+  fase?.("Salvando o projeto");
+  await salvarNoGitHub(novo);
+  await gh.dispararWorkflow("preparar-fundo.yml", { projeto: p.id });
+  return novo.fundoVideo!;
+};
+
+// Pergunta ao GitHub se a gameplay já foi preparada
+export const consultarFundo = async (p: Projeto): Promise<FundoVideo | undefined> => (await gh.lerJSON<Projeto>(`${pasta(p.id)}/projeto.json`)).fundoVideo;
 
 // Modo 1: voz das cenas editadas + imagens pedidas (Action atualizar-ia.yml)
 export const pedirAtualizacaoIA = async (p: Projeto, aviso?: (m: string) => void): Promise<Projeto> => {
@@ -210,6 +254,8 @@ export const trazerResultado = async (atual: Projeto): Promise<Projeto> => {
     novo.titulo = remoto.titulo;
   }
   if (atual.modo === "ia" && remoto.titulo) novo.titulo = remoto.titulo;
+  // a gameplay de fundo é preparada à parte: traz só a situação dela (o volume e o início continuam os seus)
+  if (atual.fundoVideo && remoto.fundoVideo) novo.fundoVideo = { ...atual.fundoVideo, ...remoto.fundoVideo, volume: atual.fundoVideo.volume, inicio: atual.fundoVideo.inicio, erro: remoto.fundoVideo.erro ?? undefined };
   novo.atualizadoEm = remoto.atualizadoEm;
   // arquivos baixados antes podem ter mudado (voz nova, imagem nova): limpa o cache deste projeto
   const pendentes = lerSujos()[atual.id] ?? [];
@@ -258,6 +304,13 @@ export const carregarArquivos = async (p: Projeto, aoAtualizar: (m: Record<strin
     const original = await urlDe(p.id, p.video.arquivo, false);
     const u = original ?? (p.video.previa ? await urlDe(p.id, p.video.previa) : null);
     if (u) mapa[p.video.arquivo] = u;
+    aoAtualizar({ ...mapa });
+  }
+  if (p.fundoVideo) {
+    // gameplay original deste aparelho; senão a versão leve gerada pela Action
+    const original = await urlDe(p.id, p.fundoVideo.arquivo, false);
+    const u = original ?? (p.fundoVideo.pronto && p.fundoVideo.previa ? await urlDe(p.id, p.fundoVideo.previa) : null);
+    if (u) mapa[p.fundoVideo.arquivo] = u;
     aoAtualizar({ ...mapa });
   }
   for (const n of Object.values(p.narracao ?? {})) caminhos.add(n.audio);

@@ -31,6 +31,7 @@ export type CenaTempo = {
   audio?: string;
   fundo?: string;
   galeria?: string[];
+  galeriaInicios?: number[]; // frame (relativo à cena) em que cada foto da galeria entra
   fontes: string[];
   palavras: PalavraTempo[]; // frames relativos à cena
   elementos: ElementoTempo[];
@@ -61,6 +62,21 @@ const acharPalavra = (palavras: PalavraTempo[], alvo: string | number | undefine
     palavras.find((x) => normalizar(x.p).startsWith(n)) ??
     palavras.find((x) => normalizar(x.p).includes(n));
   return w ? Math.max(0, w.ini - 3) : 0;
+};
+
+// Quando cada foto da galeria entra: na palavra indicada em galeriaEm (a 1ª entra no começo); sem isso, tempos iguais.
+// Cada foto fica pelo menos 1 s na tela.
+const FOTO_MIN = 30;
+export const iniciosGaleria = (galeria: string[] | undefined, em: (string | number)[] | undefined, palavras: PalavraTempo[], duracao: number): number[] | undefined => {
+  if (!galeria || galeria.length < 2) return undefined;
+  const inicios: number[] = [];
+  galeria.forEach((_, k) => {
+    const sugerido = k === 0 ? 0 : em?.[k] !== undefined ? acharPalavra(palavras, em[k]) : Math.round((k * duracao) / galeria.length);
+    const minimo = k === 0 ? 0 : inicios[k - 1] + FOTO_MIN;
+    inicios.push(Math.max(minimo, sugerido));
+  });
+  // se as fotos finais não cabem, voltam para tempos iguais
+  return inicios[inicios.length - 1] > duracao - FOTO_MIN ? galeria.map((_, k) => Math.round((k * duracao) / galeria.length)) : inicios;
 };
 
 // Junta cortes sobrepostos e devolve os trechos mantidos
@@ -159,7 +175,7 @@ const linhaIA = (p: Projeto): LinhaTempo => {
     }
     const cena: CenaTempo = {
       id: c.id, indice, inicio: cursor, duracao, texto: c.texto, audio: n?.audio,
-      fundo: c.fundo, galeria: c.galeria, fontes: c.fontes ?? [], palavras, elementos: base,
+      fundo: c.fundo, galeria: c.galeria, galeriaInicios: iniciosGaleria(c.galeria, c.galeriaEm, palavras, duracao), fontes: c.fontes ?? [], palavras, elementos: base,
     };
     cursor += duracao;
     return cena;

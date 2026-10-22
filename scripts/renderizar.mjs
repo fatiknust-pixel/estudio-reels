@@ -30,6 +30,18 @@ if (projeto.modo === "bruto" && projeto.video) {
   }
 }
 
+// Modo 1 com gameplay no fundo: baixa o vídeo normalizado da release "brutos" (<id>--fundo.mp4)
+if (projeto.modo === "ia" && projeto.fundoVideo) {
+  const alvo = path.join(destino, projeto.fundoVideo.arquivo);
+  if (!fs.existsSync(alvo)) {
+    console.log(`Baixando a gameplay de fundo (${id}--fundo.mp4) da release "brutos"…`);
+    const tmp = fs.mkdtempSync(path.join(RAIZ, "out-"));
+    execFileSync("gh", ["release", "download", "brutos", "-p", `${id}--fundo.mp4`, "-D", tmp], { stdio: "inherit" });
+    fs.renameSync(path.join(tmp, `${id}--fundo.mp4`), alvo);
+    fs.rmSync(tmp, { recursive: true });
+  }
+}
+
 // Modo 1: garante voz das cenas editadas e imagens pedidas (na cópia do render, sem commit)
 if (projeto.modo === "ia") {
   const copia = path.join(destino, "projeto.json");

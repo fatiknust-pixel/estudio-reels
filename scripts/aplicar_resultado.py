@@ -29,6 +29,7 @@ def main():
     ap.add_argument("--erro")
     ap.add_argument("--campos", help="só estes campos do resultado (ex.: narracao,imagens)")
     ap.add_argument("--substituir", action="store_true", help="sobrescreve cortes e efeitos (em vez de só preencher vazios)")
+    ap.add_argument("--sem-status", action="store_true", help="não mexe no status do projeto (ex.: preparar a gameplay enquanto o roteiro é gerado)")
     ap.add_argument("--limpar-midia", action="store_true", help="apaga áudios/imagens que o projeto não usa mais")
     a = ap.parse_args()
     p = json.load(open(a.projeto, encoding="utf-8"))
@@ -50,6 +51,8 @@ def main():
         for k in ("cenas", "narracao", "imagens", "titulo", "fontesPesquisa", "voz", "sugestoes", "gancho", "estiloIA", "tema"):
             if k in r:
                 p[k] = r[k]
+        if "fundoVideo" in r:
+            p["fundoVideo"] = {**(p.get("fundoVideo") or {}), **r["fundoVideo"]}
         if "efeitos" in r and a.substituir:
             p["efeitos"] = {**p.get("efeitos", {}), **r["efeitos"]}
         elif "efeitos" in r:
@@ -60,14 +63,15 @@ def main():
                 ef[k] = v
         if "legenda" in r:
             p["legenda"] = {**p.get("legenda", {}), **r["legenda"]}
-        p["status"] = "pronto"
-        proc.pop("erro", None)
+        if not a.sem_status:
+            p["status"] = "pronto"
+            proc.pop("erro", None)
     if a.limpar_midia:
         limpar_midia(p, os.path.dirname(a.projeto))
     p["atualizadoEm"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     json.dump(p, open(a.projeto, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     open(a.projeto, "a", encoding="utf-8").write("\n")
-    print(f"{a.projeto}: status={p['status']}")
+    print(f"{a.projeto}: status={p.get('status')}")
 
 
 if __name__ == "__main__":

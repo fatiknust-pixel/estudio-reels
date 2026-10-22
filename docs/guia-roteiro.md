@@ -149,11 +149,21 @@ tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
   (ex.: num documentário longo não precisa de enquete; feche com o convite para se inscrever).
 - O formato do quadro está em `projeto.formato` (`16:9` = YouTube, horizontal; `9:16` = vertical) e a
   duração em `pedido.duracao`. Vídeos longos (5–12 min) pedem 12 a 30 cenas de 20–40 s cada.
-- Se `pedido.genero.galeria` for `true`, é um vídeo **guiado por imagens**: cada cena tem o campo
-  `"galeria": ["chave1", "chave2", "chave3"]` com 2 a 4 fotos que se sucedem (com fusão e movimento de
-  câmera) enquanto o narrador fala. Escolha fotos variadas e do assunto exato daquele trecho (lugar,
-  pessoa, mapa, época, objeto), sem repetir chaves entre cenas. O `imagens.json` terá então 15 a 40
-  imagens (a regra geral de 4 a 9 não vale). `fundo` pode ficar vazio quando houver `galeria`.
+- Se `pedido.genero.galeria` for `true`, é um vídeo **guiado por imagens**, no estilo dos canais dark do
+  YouTube: a imagem na tela sempre mostra **o que o narrador está dizendo naquele instante**. Cada cena
+  tem `"galeria": ["chave1", "chave2", "chave3", ...]` (2 a 8 fotos que se sucedem com fusão e movimento de
+  câmera) e `"galeriaEm": [0, "palavra2", "palavra3", ...]`: a palavra **exata do `texto` da cena** em
+  que cada foto entra (a 1ª é `0`, o começo). Quebre a fala em ideias (uma por frase ou oração) e dê a
+  cada ideia a foto do assunto exato dela (o lugar, a pessoa, o objeto, o mapa, a época citados),
+  trocando de foto a cada 3 a 6 segundos de fala (~8 a 14 palavras). Não repita chaves entre cenas.
+  O `imagens.json` terá então 20 a 60 imagens (a regra geral de 4 a 9 não vale). `fundo` pode ficar
+  vazio quando houver `galeria`.
+- Se o `projeto.json` tiver o campo `fundoVideo`, o vídeo roda sobre uma **gameplay de fundo** (vídeo sem
+  som atrás de tudo): as fotos da `galeria` aparecem por cima como cartões grandes (no vertical, na parte
+  de cima; no horizontal, à esquerda), os elementos animados ficam por cima de tudo e a legenda embaixo.
+  Faça tudo como acima (galeria com `galeriaEm`, em quase todas as cenas), mas use **poucos elementos por
+  cena (0 a 2)** e evite `posicao: "alto"`/`"topo"` com elementos grandes, para não cobrir o cartão da
+  foto; prefira `meio2` e `titulo` curto. Não mencione a gameplay na fala.
 - Prefira acervos livres e confiáveis do Wikimedia Commons (fotos oficiais, NASA/ESA, museus, arquivos
   históricos em domínio público). Nunca use imagens com direitos autorais.
 
@@ -172,6 +182,7 @@ tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
       "texto": "O que a voz fala nesta cena (vira a narração e a legenda).",
       "fundo": "chave-da-imagem",
       "galeria": ["chave-1", "chave-2"],
+      "galeriaEm": [0, "palavra"],
       "fontes": ["Fonte curta"],
       "elementos": [
         { "tipo": "pergunta", "texto": "INOCENTADO?", "em": "inocentado", "posicao": "alto" }
@@ -183,7 +194,9 @@ tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
 
 - `id`: curto, minúsculas e hífens, único (`gancho`, `contexto`, `numeros`, `final`…).
 - `fundo`: chave de uma imagem do `imagens.json` (ou omita para fundo animado).
-- `galeria` (opcional): 2 a 4 chaves do `imagens.json` que se sucedem na cena (estilo documentário).
+- `galeria` (opcional): 2 a 8 chaves do `imagens.json` que se sucedem na cena (estilo documentário).
+- `galeriaEm` (com `galeria`): lista do mesmo tamanho; para cada foto, a palavra exata do `texto` em que ela
+  entra (a 1ª: `0`). Sem ela, o tempo é dividido igualmente.
 - `em`: a palavra **exata do `texto` da cena** em que o elemento aparece (ou `0` = início da cena).
 - `posicao`: `topo`, `alto`, `alto2`, `meio`, `meio2` (de cima para baixo). Um elemento sai quando
   outro (que não seja `carimbo`) entra na mesma posição. A legenda fica embaixo — não use `meio2`

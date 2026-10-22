@@ -5,24 +5,31 @@ import { useQuadro, useVideo } from "../contexto";
 // Galeria (estilo documentário): várias fotos na mesma cena, cada uma num pedaço igual do tempo,
 // entrando com uma fusão de 12 frames. Devolve qual foto está na tela no frame f.
 export const FUSAO = 12;
-export const fotoAtual = (galeria: string[], f: number, duracao: number) => {
+export const fotoAtual = (galeria: string[], f: number, duracao: number, inicios?: number[]) => {
   if (galeria.length < 2) return 0;
+  if (inicios?.length === galeria.length) {
+    let k = 0;
+    inicios.forEach((i, n) => { if (f >= i) k = n; });
+    return k;
+  }
   return Math.min(galeria.length - 1, Math.max(0, Math.floor(f / (duracao / galeria.length))));
 };
 
 // Fundo da cena: foto com efeito Ken Burns + escurecimento, ou gradiente animado se não houver foto.
 // Com "galeria", as fotos se sucedem com fusão, cada uma com seu próprio movimento de câmera.
-export const Fundo: React.FC<{ chave?: string; galeria?: string[]; indice: number; duracao: number }> = ({ chave, galeria, indice, duracao }) => {
+export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: number[]; indice: number; duracao: number }> = ({ chave, galeria, inicios, indice, duracao }) => {
   const f = useCurrentFrame();
   const { imagem, tema, projeto } = useVideo();
   const { largura, altura } = useQuadro();
   const est = projeto.estiloIA;
   // sem estilo de edição (vídeos antigos e modo bruto): grade, e a bandeira no tema Brasil
   const tipo = est?.dinamica === "minimal" ? "limpo" : est?.fundo ?? (tema.bandeira ? "bandeira" : "grade");
-  const fotos = (galeria?.length ? galeria : chave ? [chave] : []).map((k) => imagem(k)).filter((u): u is string => !!u);
+  const chaves = galeria?.length ? galeria : chave ? [chave] : [];
+  // foto que não foi baixada some da fila, e as outras mantêm o tempo marcado (galeriaEm)
+  const itens = chaves.map((k, i) => ({ u: imagem(k), ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; ini: number } => !!x.u);
+  const fotos = itens.map((x) => x.u);
   const src = fotos[0] ?? null;
   const documentario = fotos.length > 1;
-  const fatia = Math.max(1, duracao / Math.max(1, fotos.length));
   return (
     <AbsoluteFill style={{ background: tema.fundo, overflow: "hidden" }}>
       <AbsoluteFill
@@ -33,9 +40,10 @@ export const Fundo: React.FC<{ chave?: string; galeria?: string[]; indice: numbe
       {tipo === "bandeira" && <Bandeira f={f} />}
       {tipo === "raios" && <Raios f={f} />}
       {fotos.map((u, k) => {
-        const ini = k * fatia;
-        if (f < ini - FUSAO || f > ini + fatia + FUSAO) return null; // só a foto da vez (e a da fusão)
-        const t = Math.max(0, Math.min(1, (f - ini + FUSAO) / (fatia + FUSAO)));
+        const ini = k === 0 ? 0 : itens[k].ini;
+        const dura = (itens[k + 1]?.ini ?? duracao) - ini;
+        if (f < ini - FUSAO || f > ini + dura + FUSAO) return null; // só a foto da vez (e a da fusão)
+        const t = Math.max(0, Math.min(1, (f - ini + FUSAO) / (dura + FUSAO)));
         const dir = (indice + k) % 2 === 0 ? 1 : -1;
         const opacidade = k === 0 ? 1 : interpolate(f, [ini - FUSAO, ini], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         // documentário alterna aproximar/afastar; cena com uma foto só mantém o zoom lento de sempre

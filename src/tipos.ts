@@ -20,6 +20,9 @@ export type EstiloLegenda = {
   modo?: "reels" | "cinema"; // reels (padrão): palavra por palavra; cinema: frases embaixo, como legenda de filmes e séries
 };
 
+// Vídeo de fundo do modo IA (a "gameplay"). arquivo/previa ficam em projetos/<id>/ (a release "brutos" guarda o do render).
+export type FundoVideo = { arquivo: string; previa?: string; duracao: number; largura: number; altura: number; inicio?: number; volume?: number; pronto?: boolean; erro?: string };
+
 export type Titulo = { id: string; texto: string; sub?: string; i: number; f: number; posicao?: number; cor?: string };
 export type Emoji = { id: string; emoji: string; i: number; dur: number; x: number; y: number; tamanho?: number };
 export type Som = { id: string; som: string; i: number; volume?: number };
@@ -63,6 +66,7 @@ export type Cena = {
   texto: string;
   fundo?: string;
   galeria?: string[]; // várias fotos que se sucedem na cena (estilo documentário); chaves de imagens
+  galeriaEm?: (string | number)[]; // quando cada foto entra: palavra (ou nº da palavra) da fala da cena; a 1ª entra no começo. Sem isso, tempos iguais
   fontes?: string[];
   elementos: ElementoCena[];
 };
@@ -112,6 +116,7 @@ export type Projeto = {
   estiloIA?: EstiloIA;
   formato?: "9:16" | "16:9"; // quadro do vídeo: vertical (padrão) ou horizontal
   genero?: string; // gênero do vídeo (catálogo src/generos.json), escolhido no pedido do Modo 1
+  fundoVideo?: FundoVideo; // modo IA: gameplay (ou outro vídeo) rodando no fundo; as fotos entram por cima como cartões
   visual?: "aula"; // modo IA: "aula" = videoaula com fundo branco e ícones simples (sem dinâmica de Reels)
   voz?: { edge: string; velocidade: string; tratamento?: boolean }; // tratamento: equalização, compressor e -16 LUFS
   cenas?: Cena[];

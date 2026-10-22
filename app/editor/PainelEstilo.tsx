@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { FONTES } from "../../src/fontes";
 import { TEMAS } from "../../src/temas";
 import CATALOGO from "../../src/estilos-ia.json";
 import { EstiloIA, LEGENDA_CINEMA, LEGENDA_PADRAO, LEGENDA_REELS } from "../../src/tipos";
-import { LEGENDA_HORIZONTAL } from "../lib/projetos";
+import { anexarFundo, consultarFundo, LEGENDA_HORIZONTAL, lerMetaVideo } from "../lib/projetos";
 import { ESTILOS } from "../estilos";
 import { DINAMICAS } from "../estilosIA";
-import { Alternar, Deslizar, Escolha } from "../ui";
+import { Alternar, avisar, avisarErro, Deslizar, Escolha } from "../ui";
 import { useEditor } from "./contexto";
 
 const ESTILO_IA_PADRAO: EstiloIA = { dinamica: "padrao", transicao: "faixas", fundo: "grade" };
@@ -21,6 +21,58 @@ const Cores: React.FC<{ valor: string; mudar: (c: string) => void }> = ({ valor,
     <input type="color" value={valor} onChange={(e) => mudar(e.target.value)} aria-label="Outra cor" />
   </div>
 );
+
+// Gameplay (ou outro vídeo) rodando no fundo do Modo 1; as fotos entram por cima como cartões
+const FundoGameplay: React.FC = () => {
+  const { projeto: p, alterar } = useEditor();
+  const entrada = useRef<HTMLInputElement>(null);
+  const [fase, setFase] = useState<string | null>(null);
+  const g = p.fundoVideo;
+  const escolher = async (f?: File) => {
+    if (!f) return;
+    try {
+      const url = URL.createObjectURL(f);
+      const meta = await lerMetaVideo(url);
+      URL.revokeObjectURL(url);
+      const novo = await anexarFundo(p, f, meta, meta.tocavel, (t, fr) => setFase(`${t}${fr !== undefined ? ` ${Math.round(fr * 100)}%` : "…"}`));
+      alterar((x) => { x.fundoVideo = novo; });
+      avisar("Gameplay enviada ✓ — a Action prepara em 1–3 min");
+    } catch (e) {
+      avisarErro(e);
+    } finally {
+      setFase(null);
+    }
+  };
+  const verificar = async () => {
+    try {
+      const r = await consultarFundo(p);
+      if (r) alterar((x) => { x.fundoVideo = { ...x.fundoVideo!, ...r, volume: x.fundoVideo?.volume, inicio: x.fundoVideo?.inicio, erro: r.erro ?? undefined }; });
+      avisar(r?.pronto ? "Gameplay pronta ✓" : r?.erro ? "A gameplay deu erro" : "Ainda preparando…");
+    } catch (e) {
+      avisarErro(e);
+    }
+  };
+  return (
+    <>
+      <h3>Gameplay no fundo</h3>
+      <input ref={entrada} type="file" accept="video/*" hidden onChange={(e) => { escolher(e.target.files?.[0]); e.target.value = ""; }} />
+      {g && (
+        <>
+          <p className="pequeno suave" style={{ marginTop: 0 }}>
+            {g.erro ? `⚠️ ${g.erro}` : g.pronto ? `✓ Pronta (${Math.round(g.duracao)} s, repete até o fim do vídeo)` : "⏳ Preparando (a prévia aparece quando a Action terminar)"}
+          </p>
+          <Deslizar rotulo="Volume da gameplay" valor={Math.round((g.volume ?? 0) * 100)} min={0} max={100} mudar={(v) => alterar((x) => { x.fundoVideo!.volume = v / 100; }, "vol-fundo")} fmt={(v) => (v ? `${v}%` : "sem som")} />
+        </>
+      )}
+      <div className="linha">
+        <button className="btn cresce" disabled={!!fase} onClick={() => entrada.current?.click()}>{fase ?? (g ? "🎮 Trocar gameplay" : "🎮 Escolher gameplay")}</button>
+        {g && !g.pronto && <button className="btn" onClick={verificar} disabled={!!fase}>Verificar</button>}
+        {g && <button className="btn perigo" onClick={() => alterar((x) => { x.fundoVideo = undefined; })} disabled={!!fase}>Tirar</button>}
+      </div>
+      <p className="pequeno suave">Roda sem som atrás de tudo. As imagens entram por cima como cartões e as animações do Claude ficam por cima. Usa até 10 min do vídeo.</p>
+    </>
+  );
+};
 
 export const PainelEstilo: React.FC = () => {
   const { projeto: p, alterar } = useEditor();
@@ -112,6 +164,8 @@ export const PainelEstilo: React.FC = () => {
           </button>
         ))}
       </div>
+
+      {p.modo === "ia" && p.visual !== "aula" && <FundoGameplay />}
 
       <h3>Legenda</h3>
       <Alternar rotulo="Mostrar legenda" valor={L.mostrar} mudar={(v) => leg("mostrar", v)} />

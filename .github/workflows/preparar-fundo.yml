@@ -1,0 +1,83 @@
+name: Preparar gameplay de fundo
+run-name: Gameplay ${{ inputs.projeto }}
+
+# Disparado pelo app depois de enviar a gameplay (vídeo de fundo do Modo 1).
+# O app manda o vídeo em partes para o ramo temporário envio/<id>; aqui ele é remontado, cortado
+# para o formato do projeto (sem áudio, até 10 min), guardado na release "brutos" (usado no render)
+# e uma versão leve fica em projetos/<id>/fundo-previa.mp4 (usada na prévia do app).
+on:
+  workflow_dispatch:
+    inputs:
+      projeto:
+        description: "id do projeto (pasta em projetos/)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fundo-${{ inputs.projeto }}
+  cancel-in-progress: true
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ID: ${{ inputs.projeto }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar id
+        run: |
+          if ! [[ "$ID" =~ ^[a-z0-9][a-z0-9-]{0,63}$ ]] || [ ! -f "projetos/$ID/projeto.json" ]; then
+            echo "::error::Projeto '$ID' não encontrado em projetos/"; exit 1
+          fi
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Remontar o vídeo enviado
+        run: |
+          git fetch -q --depth=1 origin "envio/$ID"
+          mkdir -p out/envio
+          git archive FETCH_HEAD | tar -x -C out/envio
+          cat $(ls out/envio/parte-* | sort) > out/original
+          ls -la out/original
+
+      - name: Cortar para o formato do vídeo
+        run: |
+          if [ "$(jq -r '.formato // "9:16"' "projetos/$ID/projeto.json")" = "16:9" ]; then W=1920; H=1080; PW=480; PH=270; else W=1080; H=1920; PW=270; PH=480; fi
+          # sem áudio, no máximo 10 min, 30 fps, preenchendo o quadro (corta as bordas)
+          ffmpeg -nostdin -v error -y -i out/original -t 600 -an \
+            -vf "scale=$W:$H:force_original_aspect_ratio=increase,crop=$W:$H,fps=30,format=yuv420p" \
+            -c:v libx264 -preset veryfast -crf 28 -movflags +faststart "out/$ID--fundo.mp4"
+          # versão leve para a prévia no celular (até 5 min)
+          ffmpeg -nostdin -v error -y -i "out/$ID--fundo.mp4" -t 300 -an \
+            -vf "scale=$PW:$PH" -c:v libx264 -preset veryfast -crf 34 -g 30 -movflags +faststart "projetos/$ID/fundo-previa.mp4"
+          DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "out/$ID--fundo.mp4")
+          jq -n --argjson d "$DUR" --argjson w "$W" --argjson h "$H" \
+            '{fundoVideo: {arquivo: "fundo.mp4", previa: "fundo-previa.mp4", duracao: $d, largura: $w, altura: $h, pronto: true, erro: null}}' > out/fundo.json
+          ls -la out "projetos/$ID"
+
+      - name: Guardar para o render (release "brutos")
+        run: |
+          gh release view brutos > /dev/null 2>&1 || gh release create brutos --prerelease --title "Vídeos brutos" --notes "Vídeos enviados pelo Framecraft (normalizados para o render)."
+          gh release upload brutos "out/$ID--fundo.mp4" --clobber
+
+      - name: Salvar no projeto
+        run: |
+          scripts/salvar_no_repo.sh "Gameplay de fundo de $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --resultado out/fundo.json --campos fundoVideo --sem-status
+
+      - name: Apagar ramo temporário
+        run: git push -q origin --delete "envio/$ID" || true
+
+      - name: Marcar erro na gameplay
+        if: failure()
+        run: |
+          echo '{"fundoVideo": {"pronto": false, "erro": "Falhou ao preparar a gameplay. Veja o log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"}}' > out/fundo.json
+          scripts/salvar_no_repo.sh "Erro na gameplay de $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
+            --resultado out/fundo.json --campos fundoVideo --sem-status
