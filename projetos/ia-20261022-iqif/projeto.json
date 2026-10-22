@@ -1,0 +1,70 @@
+{
+ "versao": 1,
+ "id": "ia-20261022-iqif",
+ "titulo": "O que acontece com seu corpo quando você dorme",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "aula",
+ "criadoEm": "2026-10-22T12:14:05.185Z",
+ "atualizadoEm": "2026-10-22T12:14:05.189Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "O que acontece com seu corpo quando você dorme",
+  "tom": "Curiosidades",
+  "duracao": 120,
+  "estilo": {
+   "dinamica": "energetica",
+   "legenda": "cinema",
+   "transicao": "auto",
+   "fundo": "auto",
+   "musica": "auto",
+   "formato": "auto",
+   "fonte": "anton",
+   "paleta": "auto"
+  },
+  "genero": {
+   "id": "curiosidades",
+   "nome": "Curiosidades rápidas",
+   "instrucoes": "Curiosidade rápida: gancho nos 2 primeiros segundos ('Você sabia que…?'), 4 a 6 fatos curtos e verificados, um por cena, com muitos elementos animados (contador, icones, carimbo), e um final que puxa comentário.",
+   "galeria": false
+  }
+ },
+ "formato": "16:9",
+ "visual": "aula",
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+0%",
+  "tratamento": true
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-22T12:14:05.185Z"
+ }
+}
