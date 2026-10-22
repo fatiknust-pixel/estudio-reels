@@ -1,0 +1,152 @@
+{
+  "titulo": "5 pontos turísticos mais visitados no mundo",
+  "estilo": { "dinamica": "cinema", "legenda": "discreta", "transicao": "zoom", "fundo": "limpo",
+              "musica": "epica", "formato": "lista", "fonte": "raleway", "paleta": "documentario" },
+  "legenda": { "palavrasPorTela": 6 },
+  "fontesPesquisa": [
+    { "titulo": "TEA/AECOM — Global Attractions Attendance Report 2024 (Magic Kingdom e Disneyland)", "url": "https://www.fox13news.com/news/magic-kingdom-park-most-visited-park-worldwide" },
+    { "titulo": "Guinness World Records — Museu mais visitado (Museu do Palácio, 2024)", "url": "https://www.guinnessworldrecords.com/world-records/781361-most-visited-museum-current" },
+    { "titulo": "Times Square Alliance — dados de mercado (pedestres por dia)", "url": "https://www.timessquarenyc.org/business-community/market-research-data" },
+    { "titulo": "L'Echo Touristique — Torre Eiffel, 6,3 milhões de visitantes em 2024", "url": "https://www.lechotouristique.com/article/tour-eiffel-63-millions-de-visiteurs-a-la-tour-eiffel-en-2024" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Cinco lugares do planeta recebem milhões de pessoas todos os anos. Alguns têm mais de cem anos, outros já passaram de seiscentos. Qual deles é o campeão de visitas? A resposta pode te surpreender, e tem um detalhe que quase ninguém conta. Vem comigo nessa contagem regressiva.",
+      "galeria": ["turismo", "globo"],
+      "galeriaEm": [0, "seiscentos"],
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5 MAIS VISITADOS", "sub": "CONTAGEM REGRESSIVA", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "QUAL É O CAMPEÃO?", "em": "campeão", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "metodo",
+      "texto": "Antes de começar, um aviso honesto. Não existe um ranking oficial único. Cada lista usa um método diferente: uns contam ingressos vendidos, outros contam gente passando na rua. Por isso, eu uso dados de 2024 sempre que possível e digo de onde vem cada número. Assim você compara com os olhos abertos, sem cair em manchete exagerada.",
+      "galeria": ["multidao", "bilhete"],
+      "galeriaEm": [0, "ingressos"],
+      "fontes": ["TEA/AECOM 2024"],
+      "elementos": [
+        { "tipo": "tag", "texto": "SEM RANKING OFICIAL ÚNICO", "icone": "alerta", "cor": "amarelo", "em": "oficial", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "eiffel-historia",
+      "texto": "Em quinto lugar, a Torre Eiffel, em Paris, na França. Ela foi erguida para a Exposição Universal de 1889, que celebrava os cem anos da Revolução Francesa. A licença original previa desmontá-la depois de vinte anos. Muita gente de Paris achava a torre feia, e artistas chegaram a protestar contra ela.",
+      "galeria": ["eiffel", "eiffel-obra", "eiffel-expo"],
+      "galeriaEm": [0, "erguida", "licença"],
+      "fontes": ["Torre Eiffel (SETE)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5º TORRE EIFFEL", "sub": "PARIS, FRANÇA", "em": 0, "posicao": "topo" },
+        { "tipo": "mapa", "de": "FRANÇA", "para": "PARIS", "legenda": "Exposição Universal de 1889", "em": "Paris", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "eiffel-hoje",
+      "texto": "Ela só continuou de pé porque servia de antena para o rádio. E funcionou: em 2024, a empresa que administra a torre contou cerca de 6,3 milhões de visitantes, a maioria estrangeiros. É o menor número da nossa lista, mas poucos monumentos no mundo têm uma imagem tão reconhecida, ano após ano.",
+      "galeria": ["gustave-eiffel", "eiffel-noite"],
+      "galeriaEm": [0, "visitantes"],
+      "fontes": ["SETE 2024"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 6.3, "unidade": "MILHÕES", "rotulo": "visitantes em 2024", "em": "6,3", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "disneyland-historia",
+      "texto": "Em quarto, o parque Disneyland, em Anaheim, na Califórnia. Walt Disney abriu o parque em 17 de julho de 1955. Foi o primeiro parque temático da Disney e virou modelo para o mundo inteiro. Antes dele, os parques de diversão eram bem mais simples, sem histórias nem cenários completos.",
+      "galeria": ["disneyland", "disneyland-castelo", "disneyland-1955"],
+      "galeriaEm": [0, "Walt", "Antes"],
+      "fontes": ["Disney"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "4º DISNEYLAND", "sub": "CALIFÓRNIA, EUA", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "ABERTO EM 1955", "icone": "calendario", "cor": "azul", "em": "julho", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "disneyland-hoje",
+      "texto": "Mais de setenta anos depois, ele segue lotado. Segundo o relatório da TEA e da AECOM, foram cerca de 17,3 milhões de visitantes em 2024. Isso coloca a Disneyland da Califórnia como o segundo parque temático mais visitado do planeta, atrás apenas de um velho conhecido da Flórida.",
+      "galeria": ["disneyland-rua", "disneyland-multidao"],
+      "galeriaEm": [0, "visitantes"],
+      "fontes": ["TEA/AECOM 2024"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 17.3, "unidade": "MILHÕES", "rotulo": "visitantes em 2024", "em": "relatório", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "cidade-proibida-historia",
+      "texto": "Em terceiro, a Cidade Proibida, em Pequim, na China. A construção começou no início do século quinze, na dinastia Ming, e o palácio foi a casa de vinte e quatro imperadores. Gente comum não podia entrar. O nome vem justamente disso: era um lugar fechado ao povo, o centro do poder do império.",
+      "galeria": ["cidade-proibida", "cidade-proibida-salao", "cidade-proibida-aerea"],
+      "galeriaEm": [0, "construção", "Gente"],
+      "fontes": ["Museu do Palácio"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3º CIDADE PROIBIDA", "sub": "PEQUIM, CHINA", "em": 0, "posicao": "topo" },
+        { "tipo": "tag", "texto": "24 IMPERADORES", "icone": "predio", "cor": "vermelho", "em": "vinte", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "cidade-proibida-hoje",
+      "texto": "Desde 1925, o palácio funciona como museu, o Museu do Palácio. Em 2024, segundo a TEA e a AECOM, recebeu cerca de 17 milhões de pessoas e foi o museu mais visitado do mundo. Hoje, o que era proibido ao povo virou um dos passeios mais desejados do planeta.",
+      "galeria": ["museu-palacio", "cidade-proibida-portao"],
+      "galeriaEm": [0, "milhões"],
+      "fontes": ["TEA/AECOM 2024", "Guinness"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 17, "unidade": "MILHÕES", "rotulo": "museu mais visitado do mundo", "em": "recebeu", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "magic-kingdom-historia",
+      "texto": "Em segundo, o Magic Kingdom, dentro do Walt Disney World, na Flórida. Ele abriu em primeiro de outubro de 1971. Walt Disney tinha morrido em 1966 e não viu o parque aberto. Seu irmão Roy cuidou da inauguração e fez questão de dar ao complexo o nome completo do irmão.",
+      "galeria": ["magic-kingdom", "cinderela-castelo", "walt-disney"],
+      "galeriaEm": [0, "abriu", "morrido"],
+      "fontes": ["Disney"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2º MAGIC KINGDOM", "sub": "FLÓRIDA, EUA", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1966", "Morre Walt"], ["1971", "Abre o parque"]], "em": "1971", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "magic-kingdom-hoje",
+      "texto": "Hoje ele é o parque temático mais visitado do planeta. Em 2024, foram cerca de 17,8 milhões de visitantes, segundo a TEA e a AECOM, um pouco mais que a Disneyland da Califórnia. A diferença entre os dois é pequena, mas o título é todo da Flórida.",
+      "galeria": ["magic-kingdom-rua", "magic-kingdom-multidao"],
+      "galeriaEm": [0, "visitantes"],
+      "fontes": ["TEA/AECOM 2024"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 17.8, "unidade": "MILHÕES", "rotulo": "visitantes em 2024", "em": "visitantes", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "times-square-historia",
+      "texto": "E em primeiro lugar, a Times Square, em Nova York, nos Estados Unidos. Até 1904, a praça se chamava Longacre Square. O nome mudou quando o jornal The New York Times mudou a sede para lá, e a festa de réveillon com a bola luminosa começou três anos depois. Hoje é o cruzamento mais iluminado do mundo.",
+      "galeria": ["times-square", "times-square-predio", "times-square-noite"],
+      "galeriaEm": [0, "jornal", "Hoje"],
+      "fontes": ["Times Square Alliance"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1º TIMES SQUARE", "sub": "NOVA YORK, EUA", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1904", "Vira Times Square"], ["1907", "Primeira bola"]], "em": "1904", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "times-square-hoje",
+      "texto": "Aqui a contagem é diferente: não tem bilhete, são pedestres. A associação da praça estima cerca de 220 mil pessoas por dia em 2024. Fazendo a conta, passa de 80 milhões por ano, muito à frente dos outros. Mas lembre: é gente passando, não ingressos vendidos.",
+      "galeria": ["times-square-multidao", "times-square-dia"],
+      "galeriaEm": [0, "associação"],
+      "fontes": ["Times Square Alliance 2024"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 220, "unidade": "MIL POR DIA", "rotulo": "pedestres em 2024", "em": "220", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "CONTAGEM DIFERENTE", "cor": "amarelo", "em": "Mas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumindo: a Torre Eiffel encanta, os parques da Disney lotam, a Cidade Proibida guarda séculos de história e a Times Square vence na contagem de pedestres. Agora a pergunta: qual desses lugares você mais quer visitar? Comenta aí a sua escolha. E se gostou da viagem, siga para ver mais lugares incríveis.",
+      "galeria": ["resumo-mapa", "viagem"],
+      "galeriaEm": [0, "pergunta"],
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "QUAL VOCÊ MAIS QUER VISITAR?", "opcoes": ["Cidade Proibida", "Times Square"], "em": "pergunta", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS LUGARES", "em": "siga", "posicao": "meio" }
+      ]
+    }
+  ]
+}
