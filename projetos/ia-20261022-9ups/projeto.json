@@ -4,12 +4,12 @@
  "titulo": "Nokia: do topo do mundo à queda",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "documentario",
+ "tema": "neon",
  "criadoEm": "2026-10-22T08:13:35.548Z",
- "atualizadoEm": "2026-10-22T08:26:16.319Z",
+ "atualizadoEm": "2026-10-22T08:53:19Z",
  "status": "pronto",
  "legenda": {
-  "fonte": "inter",
+  "fonte": "oswald",
   "tamanho": 62,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -19,7 +19,8 @@
   "contorno": 4,
   "fundo": "nenhum",
   "animacao": "subir",
-  "mostrar": true
+  "mostrar": true,
+  "modo": "reels"
  },
  "efeitos": {
   "barraProgresso": true,
@@ -7748,6 +7749,16 @@
   }
  },
  "imagens": {
+  "nokia-topo": {
+   "arquivo": "imagens/nokia-topo-b6bf5cd0.jpg",
+   "rotulo": "Nokia",
+   "wiki": "Nokia",
+   "commons": "Nokia headquarters Espoo",
+   "autor": "pikkuanna",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Midpoint_Nokia_Karaportti.jpg",
+   "titulo": "File:Midpoint Nokia Karaportti.jpg"
+  },
   "idestam": {
    "arquivo": "imagens/idestam-42566418.jpg",
    "rotulo": "Fredrik Idestam, fundador",
@@ -7922,21 +7933,25 @@
    "arquivo": "imagens/microsoft-30657933.jpg",
    "rotulo": "Microsoft",
    "wiki": "Microsoft",
-   "commons": "Microsoft logo building",
+   "commons": "Microsoft headquarters Redmond",
    "autor": "Jelson25",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Aerial_Microsoft_West_Campus_August_2009.jpg",
    "titulo": "File:Aerial Microsoft West Campus August 2009.jpg"
   },
   "plataforma": {
-   "arquivo": "",
+   "arquivo": "imagens/plataforma-fd60a637.jpg",
    "rotulo": "Plataforma de petróleo em chamas",
-   "commons": "Piper Alpha oil platform fire"
+   "commons": "Oil platform on fire",
+   "autor": "ESA (Sentinel-2B)",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Offshore_oil_platform_in_fire_near_Changshan_Islands.jpg",
+   "titulo": "File:Offshore oil platform in fire near Changshan Islands.jpg"
   },
   "pedra-mar": {
    "arquivo": "imagens/pedra-mar-29ff9ba5.jpg",
    "rotulo": "Plataforma no mar",
-   "commons": "oil platform North Sea",
+   "commons": "Oil platform North Sea",
    "autor": "NAC",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:1_North_Sea_oil_platform_240918.jpg",
@@ -7952,20 +7967,15 @@
    "titulo": "File:Nokia Lumia 800 - Bleu.png"
   },
   "winphone": {
-   "arquivo": "imagens/winphone-1159d88c.jpg",
+   "arquivo": "",
    "rotulo": "Windows Phone",
-   "wiki": "Windows Phone",
-   "commons": "Windows Phone 7 start screen",
-   "autor": "Chris Ssk",
-   "licenca": "CC BY-SA 3.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Windows_Phone_7_mockup.png",
-   "titulo": "File:Windows Phone 7 mockup.png"
+   "wiki": "Windows Phone"
   },
   "samsung": {
    "arquivo": "imagens/samsung-f5cf2c60.jpg",
    "rotulo": "Samsung",
    "wiki": "Samsung Electronics",
-   "commons": "Samsung Galaxy S III",
+   "commons": "Samsung Galaxy S4",
    "autor": "Oskar Alexanderson",
    "licenca": "CC BY-SA 2.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Samsung_headquarters.jpg",
@@ -7981,23 +7991,24 @@
    "pagina": "https://commons.wikimedia.org/wiki/File:Android_17_Beta_3_Screenshot_pt.png",
    "titulo": "File:Android 17 Beta 3 Screenshot pt.png"
   },
-  "lumia-ms": {
-   "arquivo": "imagens/lumia-ms-0ddfb73b.jpg",
-   "rotulo": "Microsoft Lumia",
-   "commons": "Microsoft Lumia 535",
-   "autor": "Maurizio Pesce from Milan, Italia",
-   "licenca": "CC BY 2.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Microsoft_Lumia_535_(16131387047).jpg",
-   "titulo": "File:Microsoft Lumia 535 (16131387047).jpg"
-  },
   "redmond": {
-   "arquivo": "imagens/redmond-e621e7de.jpg",
-   "rotulo": "Campus da Microsoft em Redmond",
+   "arquivo": "imagens/redmond-e55df140.jpg",
+   "rotulo": "Campus da Microsoft, Redmond",
+   "wiki": "Redmond (Washington)",
    "commons": "Microsoft Redmond campus",
-   "autor": "Coolcaesar",
+   "autor": "Sam.Meyer.Marton",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Redmond_transit_center.jpg",
+   "titulo": "File:Redmond transit center.jpg"
+  },
+  "lumia-ms": {
+   "arquivo": "imagens/lumia-ms-157e833f.jpg",
+   "rotulo": "Microsoft Lumia",
+   "wiki": "Microsoft Lumia",
+   "autor": "Mike Browne",
    "licenca": "CC BY-SA 4.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
-   "titulo": "File:Building92microsoft.jpg"
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_%26_Microsoft_Lumia_devices.png",
+   "titulo": "File:Nokia & Microsoft Lumia devices.png"
   },
   "hmd": {
    "arquivo": "",
@@ -8007,6 +8018,7 @@
   "n3310-novo": {
    "arquivo": "imagens/n3310-novo-6a075aae.jpg",
    "rotulo": "Nokia 3310 (2017)",
+   "wiki": "Nokia 3310 (2017)",
    "commons": "Nokia 3310 2017",
    "autor": "Pixabay user bijutoha",
    "licenca": "CC0",
@@ -8027,33 +8039,29 @@
    "arquivo": "imagens/espoo-966ac502.jpg",
    "rotulo": "Espoo, Finlândia",
    "wiki": "Espoo",
+   "commons": "Espoo Finland",
    "autor": "Vuo, Junafani, Arto Sipinen, Mustikka, Tuppence1, J-P Kärnä, Htm",
    "licenca": "CC BY-SA 3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Espoo_Montage_1.jpg",
    "titulo": "File:Espoo Montage 1.jpg"
   },
-  "nokia-topo": {
-   "arquivo": "imagens/nokia-topo-151d02e3.jpg",
-   "rotulo": "Celulares Nokia",
-   "commons": "Nokia store phones display",
-   "autor": "CHOADAICHONG MinuddR",
-   "licenca": "CC BY-SA 4.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:HK_WC_%E7%81%A3%E4%BB%94%E9%81%93_Wan_Chai_Road_%E8%8C%82%E8%98%BF%E8%A1%97_Mallory_Street_shop_%E6%95%B8%E7%A2%BC%E9%80%9A_SmarTone_Digital_smartphone_window_display_June_2022_Px3_03.jpg",
-   "titulo": "File:HK WC 灣仔道 Wan Chai Road 茂蘿街 Mallory Street shop 數碼通 SmarTone Digital smartphone window display June 2022 Px3 03.jpg"
-  },
   "nokia-final": {
-   "arquivo": "",
-   "rotulo": "Equipamentos de rede Nokia",
-   "commons": "Nokia Networks equipment base station"
+   "arquivo": "imagens/nokia-final-389560e9.jpg",
+   "rotulo": "Coleção de celulares Nokia",
+   "commons": "Nokia phones collection",
+   "autor": "Unknown",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_N92.jpg",
+   "titulo": "File:Nokia N92.jpg"
   },
   "nokia-antiga": {
-   "arquivo": "imagens/nokia-antiga-9d1666a7.jpg",
-   "rotulo": "Coleção de Nokias antigos",
-   "commons": "Old Nokia phones collection",
-   "autor": "Shiny Things",
-   "licenca": "CC BY 2.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Collection_of_old_phones_and_PDAs.jpg",
-   "titulo": "File:Collection of old phones and PDAs.jpg"
+   "arquivo": "imagens/nokia-antiga-e9a0375d.jpg",
+   "rotulo": "Celulares Nokia antigos",
+   "commons": "Old Nokia mobile phones",
+   "autor": "Gpkp",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Old_Nokia_phone_01.jpg",
+   "titulo": "File:Old Nokia phone 01.jpg"
   }
  },
  "processamento": {
@@ -8092,9 +8100,9 @@
  ],
  "estiloIA": {
   "dinamica": "glitch",
-  "transicao": "deslize",
-  "fundo": "limpo",
   "legenda": "discreta",
+  "transicao": "deslize",
+  "fundo": "pontos",
   "formato": "linha-do-tempo"
  }
 }
