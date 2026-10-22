@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "pordosol",
  "criadoEm": "2026-10-22T10:35:40.224Z",
- "atualizadoEm": "2026-10-22T10:44:37Z",
+ "atualizadoEm": "2026-10-22T20:10:19Z",
  "status": "pronto",
  "legenda": {
   "fonte": "robotoslab",
@@ -7999,7 +7999,14 @@
    "autor": "Domenico Fetti",
    "licenca": "Public domain",
    "pagina": "https://commons.wikimedia.org/wiki/File:Domenico_Fetti_-_Sleeping_Girl_-_WGA7863.jpg",
-   "titulo": "File:Domenico Fetti - Sleeping Girl - WGA7863.jpg"
+   "titulo": "File:Domenico Fetti - Sleeping Girl - WGA7863.jpg",
+   "largura": 777,
+   "altura": 679,
+   "rostos": 1,
+   "foco": {
+    "x": 40.7,
+    "y": 46.7
+   }
   },
   "cerebro": {
    "arquivo": "imagens/cerebro-6a56ad4b.jpg",
@@ -8009,7 +8016,14 @@
    "autor": "Department of Radiology, Uppsala University Hospital. Uploaded by Mikael Häggström.",
    "licenca": "CC0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Computed_tomography_of_human_brain_-_large.png",
-   "titulo": "File:Computed tomography of human brain - large.png"
+   "titulo": "File:Computed tomography of human brain - large.png",
+   "largura": 1920,
+   "altura": 1369,
+   "rostos": 9,
+   "foco": {
+    "x": 50.3,
+    "y": 50.8
+   }
   },
   "eeg": {
    "arquivo": "imagens/eeg-4609fddd.jpg",
@@ -8019,7 +8033,14 @@
    "autor": "Sturm",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Random_Structures_in_the_Brain_102.jpg",
-   "titulo": "File:Random Structures in the Brain 102.jpg"
+   "titulo": "File:Random Structures in the Brain 102.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 65.3,
+    "y": 66.3
+   }
   },
   "melatonina": {
    "arquivo": "imagens/melatonina-72d8dc34.jpg",
@@ -8029,7 +8050,14 @@
    "autor": "Jynto (talk)",
    "licenca": "CC0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Melatonin_molecule_ball.png",
-   "titulo": "File:Melatonin molecule ball.png"
+   "titulo": "File:Melatonin molecule ball.png",
+   "largura": 1920,
+   "altura": 1320,
+   "rostos": 0,
+   "foco": {
+    "x": 36.0,
+    "y": 66.0
+   }
   }
  },
  "processamento": {
