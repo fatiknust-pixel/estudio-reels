@@ -1,0 +1,210 @@
+{
+  "titulo": "Nokia: do topo do mundo à queda",
+  "estilo": { "dinamica": "glitch", "legenda": "discreta", "transicao": "deslize", "fundo": "pontos",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "oswald", "paleta": "neon" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Wikipédia — History of Nokia", "url": "https://en.wikipedia.org/wiki/History_of_Nokia" },
+    { "titulo": "Wamda — Microsoft acquires Nokia's phone division (Gartner)", "url": "https://www.wamda.com/2013/09/microsoft-acquires-nokia-s-phone-division-middle-east-target" },
+    { "titulo": "Fox News/AP — Nokia shareholders vote on $7.2 billion sale", "url": "https://www.foxnews.com/world/nokia-shareholders-to-vote-on-7-2-billion-planned-sale-of-devices-to-microsoft" },
+    { "titulo": "Computerworld — Burning memo from Nokia's CEO", "url": "https://www.computerworld.com/article/1535313/burning-memo-from-nokia-s-ceo-sets-stage-for-os-shake-up.html" },
+    { "titulo": "Wikipédia — List of best-selling mobile phones", "url": "https://en.wikipedia.org/wiki/List_of_best-selling_mobile_phones" },
+    { "titulo": "finland.fi — Nokia's tradition of adaptability", "url": "https://finland.fi/business-innovation/nokias-tradition-of-adaptability/" },
+    { "titulo": "Wikipédia — HMD Global", "url": "https://en.wikipedia.org/wiki/HMD_Global" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Imagine uma empresa que vendia quase metade dos celulares do planeta. Seu aparelho sobrevivia a quedas, a pedradas e, segundo a internet, até a um golpe de martelo. Seis anos depois, ela tinha uma fatia minúscula do mercado e vendeu o negócio de celulares. Como a Nokia foi do topo do mundo ao esquecimento? Fica comigo, porque essa história tem borracha, tem meme, tem um memorando pegando fogo e uma virada final que ninguém esperava.",
+      "galeria": ["nokia-topo", "n3310"],
+      "fontes": ["Gartner via Wamda"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "O QUE DEU ERRADO?", "em": "Como", "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 40, "unidade": "% DOS CELULARES", "rotulo": "Fatia da Nokia em 2007", "em": "metade", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "fabrica-de-papel",
+      "texto": "A história começa em 1865, e sem nenhum celular. O engenheiro de minas Fredrik Idestam abriu uma fábrica de polpa de papel às margens de um rio em Tampere, na Finlândia. Três anos depois, montou uma segunda fábrica perto de uma cidadezinha chamada Nokia, onde a energia da água era melhor. Em 1871 nasceu a empresa Nokia. Ou seja, a maior marca de celulares da década de 2000 começou fazendo papel. Ninguém ali imaginava que o nome ia parar no bolso de meio mundo.",
+      "galeria": ["idestam", "tampere"],
+      "fontes": ["finland.fi", "Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMEÇO HUMILDE", "sub": "Finlândia, 1865", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1865", "Fábrica de polpa"], ["1868", "Fábrica em Nokia"], ["1871", "Nasce a Nokia"]], "em": "1865", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "borracha-e-cabos",
+      "texto": "Depois do papel veio a borracha. Em 1904, uma fábrica de borracha se instalou perto da cidade de Nokia e usou o mesmo nome. Com o tempo, o grupo cresceu fazendo de tudo um pouco: papel, borracha, cabos e até eletrônicos. Em 1967, essas empresas se juntaram na Nokia Corporation. Era um gigante finlandês, sim, só que bagunçado, sem foco, vendendo de tudo e sem ser a melhor em nada. Parece uma loja de tudo por um euro, só que com chaminé.",
+      "galeria": ["nokia-fabrica", "nokia-cidade"],
+      "fontes": ["Wikipédia", "finland.fi"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DE TUDO UM POUCO", "sub": "A Nokia antes dos celulares", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["livro", "Papel"], ["seta", ""], ["engrenagem", "Borracha e cabos"], ["seta", ""], ["celular", "Celular"]], "em": "Depois", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Loja de R$ 1,99 com chaminé", "em": "euro", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "aposta-ollila",
+      "texto": "Em 1992, assumiu o comando Jorma Ollila, e ele tomou uma decisão radical: chega de ser tudo, vamos ser telecomunicações. Durante os anos noventa, a Nokia foi vendendo todos os negócios que não tinham a ver com isso. Papel, borracha, televisores, tudo fora. Foi uma aposta altíssima, porque a empresa jogou as fichas em um mercado que ainda parecia coisa de executivo com gravata e carro importado. Spoiler: a aposta deu muito certo, e por muito tempo.",
+      "galeria": ["ollila", "nokia-sede"],
+      "fontes": ["Wikipédia", "finland.fi"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1992: A GRANDE APOSTA", "em": 0, "posicao": "topo" },
+        { "tipo": "pessoa", "imagem": "ollila", "nome": "Jorma Ollila", "cargo": "CEO da Nokia desde 1992", "em": "Jorma", "posicao": "alto" },
+        { "tipo": "tag", "texto": "FOCO TOTAL EM TELECOM", "icone": "alvo", "em": "telecomunicações", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "gsm",
+      "texto": "O timing foi perfeito. O padrão digital GSM estava chegando à Europa, e em 10 de novembro de 1992 a Nokia lançou o 1011, o primeiro celular GSM produzido em massa. Antes disso, o celular era um tijolo caro de carro. A Nokia entendeu cedo que o aparelho precisava ser pequeno, simples e fácil de usar. E havia outro segredo: ela fabricava os aparelhos e também vendia a infraestrutura das redes. Então a empresa dominava o jogo dos dois lados do campo.",
+      "galeria": ["cityman", "gsm"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "NOKIA 1011", "sub": "10 de novembro de 1992", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "GSM", "significado": "Padrão digital de celular que virou o mundial", "em": "GSM", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "Pequeno, simples, barato", "nota": "A receita da Nokia", "em": "pequeno", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "lider-mundial",
+      "texto": "Em 1998, a Nokia passou a Motorola e se tornou a maior fabricante de celulares do mundo. A Motorola era a rainha dos anos oitenta e noventa, então foi uma troca de coroa daquelas. A estratégia era variar: a Nokia tinha aparelho para executivo, para adolescente e para quem só queria falar ao telefone. Trocar a capinha era um hobby, e o toque musical era sua personalidade. Pela primeira vez, uma empresa finlandesa de nome impronunciável mandava no bolso de todo mundo.",
+      "galeria": ["motorola", "nokia-2110"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1998: NÚMERO 1", "em": 0, "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "LÍDER MUNDIAL", "cor": "verde", "em": "maior", "posicao": "alto" },
+        { "tipo": "tag", "texto": "TROCOU A CAPINHA? TROCOU DE VIDA", "icone": "celular", "em": "capinha", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "tijolo-indestrutivel",
+      "texto": "Aí vieram os campeões de vendas. O Nokia 3310, de 2000, vendeu cerca de 126 milhões de unidades. Ele tinha bateria que durava dias, o joguinho da cobrinha e uma fama de indestrutível que virou piada eterna. E o Nokia 1100, de 2003, aparece nas listas de mais vendidos com mais de 250 milhões de aparelhos. Quase ninguém tinha um desses por vaidade. Tinha porque funcionava, durava e aguentava cair da escada.",
+      "galeria": ["n3310", "n1100"],
+      "fontes": ["Wikipédia — mais vendidos"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 126, "unidade": "MILHÕES", "rotulo": "Nokia 3310 vendidos", "em": "126", "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 250, "unidade": "MILHÕES", "rotulo": "Nokia 1100 (listas de mais vendidos)", "em": "250", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "INDESTRUTÍVEL", "cor": "amarelo", "em": "indestrutível", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "auge-2007",
+      "texto": "O auge chegou em 2007. Segundo a consultoria Gartner, a Nokia respondia por 40% das vendas de celulares do mundo e 49% dos smartphones. O sistema Symbian rodava em mais de 60% dos smartphones, e o N95, com câmera de cinco megapixels, era o sonho de consumo. A Nokia fazia o aparelho que o mundo queria, na quantidade que o mundo comprava. No topo da montanha, ela olhou para baixo e viu um concorrente de brinquedo. Ela olhou errado.",
+      "galeria": ["n95", "communicator"],
+      "fontes": ["Gartner via Wamda", "Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2007: O AUGE", "em": 0, "posicao": "topo" },
+        { "tipo": "placar", "sim": 49, "nao": 51, "rotulo": "Smartphones no mundo", "rotuloSim": "Nokia", "rotuloNao": "Resto", "decimais": 0, "em": "49%", "posicao": "alto" },
+        { "tipo": "tag", "texto": "N95: CÂMERA DE 5 MEGAPIXELS", "icone": "imagem", "em": "N95", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "iphone",
+      "texto": "Em 2007, Steve Jobs subiu ao palco e apresentou o iPhone. Sem teclado, sem antena para puxar e com uma tela que respondia ao dedo. A Nokia riu? Talvez. O número é que, no começo, o iPhone nem vendeu mais do que os smartphones da Nokia, como o N95. Só que o mercado estava mudando de regra. Não era mais sobre o melhor aparelho, e sim sobre a melhor experiência, com loja de aplicativos, sistema bonito e programas que não paravam de chegar.",
+      "galeria": ["iphone", "jobs"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "OUTRO JOGO", "sub": "Janeiro de 2007", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["celular", "Aparelho"], ["seta", ""], ["play", "Experiência"]], "em": "Não", "posicao": "alto" },
+        { "tipo": "comentario", "texto": "Ainda dá pra ligar nele?", "em": "riu", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "symbian",
+      "texto": "O problema da Nokia estava por dentro. O Symbian era um sistema antigo, nascido para celulares simples, e difícil de programar. Cada aparelho parecia um projeto diferente. E os números mostram o tombo: a fatia do Symbian entre os smartphones foi de 62,5% no fim de 2007 para 52,4% em 2008, 46,1% em 2009 e 32% no fim de 2010. Enquanto isso, desenvolvedores de aplicativos corriam para o iPhone e depois para o Android. E sem aplicativos, ninguém quer um smartphone.",
+      "galeria": ["symbian", "n8"],
+      "fontes": ["Wikipédia — History of Nokia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O ERRO POR DENTRO", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["2007", "62,5%"], ["2008", "52,4%"], ["2009", "46,1%"], ["2010", "32%"]], "em": "fatia", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "SEM APPS, SEM FUTURO", "cor": "vermelho", "em": "aplicativos,", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "elop",
+      "texto": "Em setembro de 2010, a Nokia contratou um novo chefe: Stephen Elop, que vinha direto da Microsoft. Ele chegou com uma missão que parecia impossível: consertar um navio enorme, com milhares de engenheiros trabalhando em sistemas diferentes e brigando entre si. A Nokia tinha dinheiro, tinha fábricas e tinha fãs. O que ela não tinha era um sistema competitivo, nem tempo sobrando.",
+      "galeria": ["elop", "microsoft"],
+      "fontes": ["Computerworld", "Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SETEMBRO DE 2010", "sub": "Chega Stephen Elop", "em": 0, "posicao": "topo" },
+        { "tipo": "pessoa", "imagem": "elop", "nome": "Stephen Elop", "cargo": "Ex-Microsoft, novo CEO", "em": "Stephen", "posicao": "alto" },
+        { "tipo": "tag", "texto": "SISTEMA FRACO, TEMPO CURTO", "icone": "relogio", "em": "sistema", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "plataforma-em-chamas",
+      "texto": "Em fevereiro de 2011, Elop mandou um memorando para todos os funcionários, que logo vazou. Ele contava a história de um homem numa plataforma de petróleo em chamas, que precisa escolher entre queimar e pular no mar gelado. A mensagem era clara: a Nokia estava na plataforma pegando fogo. Segundo a imprensa, ele chamou o Symbian de pouco competitivo em mercados como a América do Norte. O texto foi sincero, e justamente por isso assustou quem trabalhava lá.",
+      "galeria": ["plataforma", "pedra-mar"],
+      "fontes": ["Computerworld", "VentureBeat"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A PLATAFORMA EM CHAMAS", "sub": "Fevereiro de 2011", "em": 0, "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "NÃO HÁ VOLTA", "cor": "vermelho", "em": "chamas", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "aposta-windows-phone",
+      "texto": "Poucos dias depois, no dia 11 de fevereiro de 2011, veio a decisão: a Nokia largaria o Symbian e adotaria o Windows Phone, da Microsoft. Em vez do Android, que já crescia como ninguém, ela escolheu um sistema novo e quase sem aplicativos. Dali saíram os Lumia, que tinham design lindo e câmera ótima. Só que nasceram numa loja vazia. O sistema antigo foi abandonado antes de o novo estar pronto, e o intervalo foi cruel para as vendas.",
+      "galeria": ["lumia800", "winphone"],
+      "fontes": ["Wikipédia — History of Nokia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "11 DE FEVEREIRO DE 2011", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["chip", "Symbian"], ["seta", ""], ["pasta", "Windows Phone"]], "em": "largaria", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "Lojas de apps quase vazias", "nota": "Lumia lindo, sem aplicativos", "em": "loja", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "queda",
+      "texto": "O resultado veio rápido. Em 2013, segundo dados citados pela Wamda, a participação global da Nokia tinha caído para 14,8% e, entre smartphones, para menos de 3,8%. Antes, eram 40% e 49%. A Samsung e a Apple assumiram o trono, e os celulares baratos da Ásia roubaram o resto. Foi uma das maiores quedas da história da tecnologia: em apenas seis anos, a empresa que mandava no mercado virou coadjuvante de luxo no meio do caminho.",
+      "galeria": ["samsung", "android"],
+      "fontes": ["Gartner via Wamda"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A QUEDA", "sub": "2007 → 2013", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 40, "ate": 14.8, "unidade": "%", "rotulo": "Fatia nos celulares: 2007 → 2013", "em": "14,8%", "posicao": "alto" },
+        { "tipo": "contador", "de": 49, "ate": 3.8, "unidade": "%", "rotulo": "Fatia nos smartphones: 2007 → 2013", "em": "3,8%", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "venda-microsoft",
+      "texto": "Em setembro de 2013, a Nokia anunciou que venderia a divisão de celulares e licenciaria suas patentes para a Microsoft por cerca de 5,4 bilhões de euros, o equivalente a 7,2 bilhões de dólares. Eram 3,79 bilhões pela divisão de aparelhos e 1,65 bilhão pelas patentes, por dez anos. Os acionistas aprovaram com 99,5% dos votos. O negócio foi concluído em abril de 2014. Em outras palavras, a Nokia vendeu o que fez dela famosa, e a ironia é que o comprador era o antigo empregador do chefe.",
+      "galeria": ["redmond", "lumia-ms"],
+      "fontes": ["AP via Fox News", "Wamda"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A VENDA", "sub": "Setembro de 2013 → abril de 2014", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 7.2, "unidade": "BILHÕES DE US$", "rotulo": "Preço pago pela Microsoft", "em": "7,2", "posicao": "alto" },
+        { "tipo": "linha", "itens": [["Set/2013", "Anúncio"], ["Nov/2013", "Acionistas aprovam"], ["Abr/2014", "Concluída"]], "em": "setembro", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "volta-por-cima",
+      "texto": "E a Nokia acabou? Não! Depois da venda, ela virou uma empresa de redes de telecomunicações, que vende equipamentos para operadoras e é grande até hoje. Já a marca de celulares seguiu um caminho curioso. Em 2016, a Microsoft vendeu a divisão de celulares simples, e a empresa HMD, com ex-executivos da Nokia, passou a fabricar aparelhos com licença da marca. Voltaram o 3310 e os modelos básicos. A nostalgia, afinal, vendeu mais do que muito sistema operacional.",
+      "galeria": ["hmd", "n3310-novo"],
+      "fontes": ["Wikipédia — HMD Global"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A VOLTA POR CIMA", "sub": "Rede em um lado, marca em outro", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": true, "texto": "Nokia segue forte em redes", "nota": "Equipamento para operadoras", "em": "redes", "posicao": "alto" },
+        { "tipo": "tag", "texto": "2016: HMD LICENCIA A MARCA", "icone": "estrela", "em": "HMD", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "licoes",
+      "texto": "O que a gente aprende? Primeiro: ter sido o número um não protege ninguém, e quem para de olhar para fora acaba atropelado. Segundo: o produto não é só o aparelho, é o conjunto, com sistema, loja e aplicativos. Terceiro: demorar para decidir custa mais caro do que errar rápido, porque a Nokia gastou anos em dúvida, enquanto os rivais corriam. E, de lambuja, uma lição: aparelho indestrutível não salva empresa nenhuma.",
+      "galeria": ["nokia-logo", "espoo"],
+      "fontes": ["Análise do roteiro"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3 LIÇÕES DA NOKIA", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["olho", "Olhar pra fora"], ["camadas", "Ecossistema"], ["relogio", "Decidir rápido"]], "em": "primeiro:", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumindo: papel, borracha, o rei dos celulares e a queda mais famosa da tecnologia. Agora é com você. Qual foi o principal erro da Nokia? Comenta um ou dois e me conta qual foi o seu último Nokia. E se você gostou dessa viagem no tempo, segue o canal para mais histórias de empresas que mudaram o mundo, e de algumas que deixaram o mundo mudar por cima delas.",
+      "galeria": ["nokia-final", "nokia-antiga"],
+      "fontes": ["Wamda", "Wikipédia"],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Qual foi o maior erro da Nokia?", "opcoes": ["Ficar no Symbian", "Apostar no Windows Phone"], "em": "Qual", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS HISTÓRIAS", "em": "segue", "posicao": "meio" }
+      ]
+    }
+  ]
+}

@@ -4,21 +4,21 @@
  "titulo": "Nokia: do topo do mundo à queda",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "padrao",
+ "tema": "neon",
  "criadoEm": "2026-10-22T08:13:35.548Z",
- "atualizadoEm": "2026-10-22T08:13:35.557Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-22T08:18:37Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "oswald",
+  "tamanho": 62,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
-  "palavrasPorTela": 3,
-  "maiusculas": true,
-  "contorno": 10,
+  "palavrasPorTela": 6,
+  "maiusculas": false,
+  "contorno": 4,
   "fundo": "nenhum",
-  "animacao": "pop",
+  "animacao": "subir",
   "mostrar": true
  },
  "efeitos": {
@@ -30,7 +30,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
  },
  "pedido": {
   "tema": "Nokia: do topo do mundo à queda",
@@ -58,11 +59,8042 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Imagine uma empresa que vendia quase metade dos celulares do planeta. Seu aparelho sobrevivia a quedas, a pedradas e, segundo a internet, até a um golpe de martelo. Seis anos depois, ela tinha uma fatia minúscula do mercado e vendeu o negócio de celulares. Como a Nokia foi do topo do mundo ao esquecimento? Fica comigo, porque essa história tem borracha, tem meme, tem um memorando pegando fogo e uma virada final que ninguém esperava.",
+   "galeria": [
+    "nokia-topo",
+    "n3310"
+   ],
+   "fontes": [
+    "Gartner via Wamda"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "O QUE DEU ERRADO?",
+     "em": "Como",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 40,
+     "unidade": "% DOS CELULARES",
+     "rotulo": "Fatia da Nokia em 2007",
+     "em": "metade",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "fabrica-de-papel",
+   "texto": "A história começa em 1865, e sem nenhum celular. O engenheiro de minas Fredrik Idestam abriu uma fábrica de polpa de papel às margens de um rio em Tampere, na Finlândia. Três anos depois, montou uma segunda fábrica perto de uma cidadezinha chamada Nokia, onde a energia da água era melhor. Em 1871 nasceu a empresa Nokia. Ou seja, a maior marca de celulares da década de 2000 começou fazendo papel. Ninguém ali imaginava que o nome ia parar no bolso de meio mundo.",
+   "galeria": [
+    "idestam",
+    "tampere"
+   ],
+   "fontes": [
+    "finland.fi",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMEÇO HUMILDE",
+     "sub": "Finlândia, 1865",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1865",
+       "Fábrica de polpa"
+      ],
+      [
+       "1868",
+       "Fábrica em Nokia"
+      ],
+      [
+       "1871",
+       "Nasce a Nokia"
+      ]
+     ],
+     "em": "1865",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "borracha-e-cabos",
+   "texto": "Depois do papel veio a borracha. Em 1904, uma fábrica de borracha se instalou perto da cidade de Nokia e usou o mesmo nome. Com o tempo, o grupo cresceu fazendo de tudo um pouco: papel, borracha, cabos e até eletrônicos. Em 1967, essas empresas se juntaram na Nokia Corporation. Era um gigante finlandês, sim, só que bagunçado, sem foco, vendendo de tudo e sem ser a melhor em nada. Parece uma loja de tudo por um euro, só que com chaminé.",
+   "galeria": [
+    "nokia-fabrica",
+    "nokia-cidade"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "finland.fi"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DE TUDO UM POUCO",
+     "sub": "A Nokia antes dos celulares",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "livro",
+       "Papel"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "engrenagem",
+       "Borracha e cabos"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "celular",
+       "Celular"
+      ]
+     ],
+     "em": "Depois",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Loja de R$ 1,99 com chaminé",
+     "em": "euro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "aposta-ollila",
+   "texto": "Em 1992, assumiu o comando Jorma Ollila, e ele tomou uma decisão radical: chega de ser tudo, vamos ser telecomunicações. Durante os anos noventa, a Nokia foi vendendo todos os negócios que não tinham a ver com isso. Papel, borracha, televisores, tudo fora. Foi uma aposta altíssima, porque a empresa jogou as fichas em um mercado que ainda parecia coisa de executivo com gravata e carro importado. Spoiler: a aposta deu muito certo, e por muito tempo.",
+   "galeria": [
+    "ollila",
+    "nokia-sede"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "finland.fi"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1992: A GRANDE APOSTA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "ollila",
+     "nome": "Jorma Ollila",
+     "cargo": "CEO da Nokia desde 1992",
+     "em": "Jorma",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "FOCO TOTAL EM TELECOM",
+     "icone": "alvo",
+     "em": "telecomunicações",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "gsm",
+   "texto": "O timing foi perfeito. O padrão digital GSM estava chegando à Europa, e em 10 de novembro de 1992 a Nokia lançou o 1011, o primeiro celular GSM produzido em massa. Antes disso, o celular era um tijolo caro de carro. A Nokia entendeu cedo que o aparelho precisava ser pequeno, simples e fácil de usar. E havia outro segredo: ela fabricava os aparelhos e também vendia a infraestrutura das redes. Então a empresa dominava o jogo dos dois lados do campo.",
+   "galeria": [
+    "cityman",
+    "gsm"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NOKIA 1011",
+     "sub": "10 de novembro de 1992",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "GSM",
+     "significado": "Padrão digital de celular que virou o mundial",
+     "em": "GSM",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Pequeno, simples, barato",
+     "nota": "A receita da Nokia",
+     "em": "pequeno",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "lider-mundial",
+   "texto": "Em 1998, a Nokia passou a Motorola e se tornou a maior fabricante de celulares do mundo. A Motorola era a rainha dos anos oitenta e noventa, então foi uma troca de coroa daquelas. A estratégia era variar: a Nokia tinha aparelho para executivo, para adolescente e para quem só queria falar ao telefone. Trocar a capinha era um hobby, e o toque musical era sua personalidade. Pela primeira vez, uma empresa finlandesa de nome impronunciável mandava no bolso de todo mundo.",
+   "galeria": [
+    "motorola",
+    "nokia-2110"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1998: NÚMERO 1",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "LÍDER MUNDIAL",
+     "cor": "verde",
+     "em": "maior",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TROCOU A CAPINHA? TROCOU DE VIDA",
+     "icone": "celular",
+     "em": "capinha",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "tijolo-indestrutivel",
+   "texto": "Aí vieram os campeões de vendas. O Nokia 3310, de 2000, vendeu cerca de 126 milhões de unidades. Ele tinha bateria que durava dias, o joguinho da cobrinha e uma fama de indestrutível que virou piada eterna. E o Nokia 1100, de 2003, aparece nas listas de mais vendidos com mais de 250 milhões de aparelhos. Quase ninguém tinha um desses por vaidade. Tinha porque funcionava, durava e aguentava cair da escada.",
+   "galeria": [
+    "n3310",
+    "n1100"
+   ],
+   "fontes": [
+    "Wikipédia — mais vendidos"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 126,
+     "unidade": "MILHÕES",
+     "rotulo": "Nokia 3310 vendidos",
+     "em": "126",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 250,
+     "unidade": "MILHÕES",
+     "rotulo": "Nokia 1100 (listas de mais vendidos)",
+     "em": "250",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "INDESTRUTÍVEL",
+     "cor": "amarelo",
+     "em": "indestrutível",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "auge-2007",
+   "texto": "O auge chegou em 2007. Segundo a consultoria Gartner, a Nokia respondia por 40% das vendas de celulares do mundo e 49% dos smartphones. O sistema Symbian rodava em mais de 60% dos smartphones, e o N95, com câmera de cinco megapixels, era o sonho de consumo. A Nokia fazia o aparelho que o mundo queria, na quantidade que o mundo comprava. No topo da montanha, ela olhou para baixo e viu um concorrente de brinquedo. Ela olhou errado.",
+   "galeria": [
+    "n95",
+    "communicator"
+   ],
+   "fontes": [
+    "Gartner via Wamda",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2007: O AUGE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "placar",
+     "sim": 49,
+     "nao": 51,
+     "rotulo": "Smartphones no mundo",
+     "rotuloSim": "Nokia",
+     "rotuloNao": "Resto",
+     "decimais": 0,
+     "em": "49%",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "N95: CÂMERA DE 5 MEGAPIXELS",
+     "icone": "imagem",
+     "em": "N95",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "iphone",
+   "texto": "Em 2007, Steve Jobs subiu ao palco e apresentou o iPhone. Sem teclado, sem antena para puxar e com uma tela que respondia ao dedo. A Nokia riu? Talvez. O número é que, no começo, o iPhone nem vendeu mais do que os smartphones da Nokia, como o N95. Só que o mercado estava mudando de regra. Não era mais sobre o melhor aparelho, e sim sobre a melhor experiência, com loja de aplicativos, sistema bonito e programas que não paravam de chegar.",
+   "galeria": [
+    "iphone",
+    "jobs"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "OUTRO JOGO",
+     "sub": "Janeiro de 2007",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "Aparelho"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "play",
+       "Experiência"
+      ]
+     ],
+     "em": "Não",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "comentario",
+     "texto": "Ainda dá pra ligar nele?",
+     "em": "riu",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "symbian",
+   "texto": "O problema da Nokia estava por dentro. O Symbian era um sistema antigo, nascido para celulares simples, e difícil de programar. Cada aparelho parecia um projeto diferente. E os números mostram o tombo: a fatia do Symbian entre os smartphones foi de 62,5% no fim de 2007 para 52,4% em 2008, 46,1% em 2009 e 32% no fim de 2010. Enquanto isso, desenvolvedores de aplicativos corriam para o iPhone e depois para o Android. E sem aplicativos, ninguém quer um smartphone.",
+   "galeria": [
+    "symbian",
+    "n8"
+   ],
+   "fontes": [
+    "Wikipédia — History of Nokia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O ERRO POR DENTRO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2007",
+       "62,5%"
+      ],
+      [
+       "2008",
+       "52,4%"
+      ],
+      [
+       "2009",
+       "46,1%"
+      ],
+      [
+       "2010",
+       "32%"
+      ]
+     ],
+     "em": "fatia",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "SEM APPS, SEM FUTURO",
+     "cor": "vermelho",
+     "em": "aplicativos,",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "elop",
+   "texto": "Em setembro de 2010, a Nokia contratou um novo chefe: Stephen Elop, que vinha direto da Microsoft. Ele chegou com uma missão que parecia impossível: consertar um navio enorme, com milhares de engenheiros trabalhando em sistemas diferentes e brigando entre si. A Nokia tinha dinheiro, tinha fábricas e tinha fãs. O que ela não tinha era um sistema competitivo, nem tempo sobrando.",
+   "galeria": [
+    "elop",
+    "microsoft"
+   ],
+   "fontes": [
+    "Computerworld",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SETEMBRO DE 2010",
+     "sub": "Chega Stephen Elop",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "elop",
+     "nome": "Stephen Elop",
+     "cargo": "Ex-Microsoft, novo CEO",
+     "em": "Stephen",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "SISTEMA FRACO, TEMPO CURTO",
+     "icone": "relogio",
+     "em": "sistema",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "plataforma-em-chamas",
+   "texto": "Em fevereiro de 2011, Elop mandou um memorando para todos os funcionários, que logo vazou. Ele contava a história de um homem numa plataforma de petróleo em chamas, que precisa escolher entre queimar e pular no mar gelado. A mensagem era clara: a Nokia estava na plataforma pegando fogo. Segundo a imprensa, ele chamou o Symbian de pouco competitivo em mercados como a América do Norte. O texto foi sincero, e justamente por isso assustou quem trabalhava lá.",
+   "galeria": [
+    "plataforma",
+    "pedra-mar"
+   ],
+   "fontes": [
+    "Computerworld",
+    "VentureBeat"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A PLATAFORMA EM CHAMAS",
+     "sub": "Fevereiro de 2011",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO HÁ VOLTA",
+     "cor": "vermelho",
+     "em": "chamas",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "aposta-windows-phone",
+   "texto": "Poucos dias depois, no dia 11 de fevereiro de 2011, veio a decisão: a Nokia largaria o Symbian e adotaria o Windows Phone, da Microsoft. Em vez do Android, que já crescia como ninguém, ela escolheu um sistema novo e quase sem aplicativos. Dali saíram os Lumia, que tinham design lindo e câmera ótima. Só que nasceram numa loja vazia. O sistema antigo foi abandonado antes de o novo estar pronto, e o intervalo foi cruel para as vendas.",
+   "galeria": [
+    "lumia800",
+    "winphone"
+   ],
+   "fontes": [
+    "Wikipédia — History of Nokia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "11 DE FEVEREIRO DE 2011",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "chip",
+       "Symbian"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "pasta",
+       "Windows Phone"
+      ]
+     ],
+     "em": "largaria",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Lojas de apps quase vazias",
+     "nota": "Lumia lindo, sem aplicativos",
+     "em": "loja",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "queda",
+   "texto": "O resultado veio rápido. Em 2013, segundo dados citados pela Wamda, a participação global da Nokia tinha caído para 14,8% e, entre smartphones, para menos de 3,8%. Antes, eram 40% e 49%. A Samsung e a Apple assumiram o trono, e os celulares baratos da Ásia roubaram o resto. Foi uma das maiores quedas da história da tecnologia: em apenas seis anos, a empresa que mandava no mercado virou coadjuvante de luxo no meio do caminho.",
+   "galeria": [
+    "samsung",
+    "android"
+   ],
+   "fontes": [
+    "Gartner via Wamda"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A QUEDA",
+     "sub": "2007 → 2013",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 40,
+     "ate": 14.8,
+     "unidade": "%",
+     "rotulo": "Fatia nos celulares: 2007 → 2013",
+     "em": "14,8%",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 49,
+     "ate": 3.8,
+     "unidade": "%",
+     "rotulo": "Fatia nos smartphones: 2007 → 2013",
+     "em": "3,8%",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "venda-microsoft",
+   "texto": "Em setembro de 2013, a Nokia anunciou que venderia a divisão de celulares e licenciaria suas patentes para a Microsoft por cerca de 5,4 bilhões de euros, o equivalente a 7,2 bilhões de dólares. Eram 3,79 bilhões pela divisão de aparelhos e 1,65 bilhão pelas patentes, por dez anos. Os acionistas aprovaram com 99,5% dos votos. O negócio foi concluído em abril de 2014. Em outras palavras, a Nokia vendeu o que fez dela famosa, e a ironia é que o comprador era o antigo empregador do chefe.",
+   "galeria": [
+    "redmond",
+    "lumia-ms"
+   ],
+   "fontes": [
+    "AP via Fox News",
+    "Wamda"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A VENDA",
+     "sub": "Setembro de 2013 → abril de 2014",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 7.2,
+     "unidade": "BILHÕES DE US$",
+     "rotulo": "Preço pago pela Microsoft",
+     "em": "7,2",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "Set/2013",
+       "Anúncio"
+      ],
+      [
+       "Nov/2013",
+       "Acionistas aprovam"
+      ],
+      [
+       "Abr/2014",
+       "Concluída"
+      ]
+     ],
+     "em": "setembro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "volta-por-cima",
+   "texto": "E a Nokia acabou? Não! Depois da venda, ela virou uma empresa de redes de telecomunicações, que vende equipamentos para operadoras e é grande até hoje. Já a marca de celulares seguiu um caminho curioso. Em 2016, a Microsoft vendeu a divisão de celulares simples, e a empresa HMD, com ex-executivos da Nokia, passou a fabricar aparelhos com licença da marca. Voltaram o 3310 e os modelos básicos. A nostalgia, afinal, vendeu mais do que muito sistema operacional.",
+   "galeria": [
+    "hmd",
+    "n3310-novo"
+   ],
+   "fontes": [
+    "Wikipédia — HMD Global"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A VOLTA POR CIMA",
+     "sub": "Rede em um lado, marca em outro",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Nokia segue forte em redes",
+     "nota": "Equipamento para operadoras",
+     "em": "redes",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "2016: HMD LICENCIA A MARCA",
+     "icone": "estrela",
+     "em": "HMD",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "licoes",
+   "texto": "O que a gente aprende? Primeiro: ter sido o número um não protege ninguém, e quem para de olhar para fora acaba atropelado. Segundo: o produto não é só o aparelho, é o conjunto, com sistema, loja e aplicativos. Terceiro: demorar para decidir custa mais caro do que errar rápido, porque a Nokia gastou anos em dúvida, enquanto os rivais corriam. E, de lambuja, uma lição: aparelho indestrutível não salva empresa nenhuma.",
+   "galeria": [
+    "nokia-logo",
+    "espoo"
+   ],
+   "fontes": [
+    "Análise do roteiro"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3 LIÇÕES DA NOKIA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "olho",
+       "Olhar pra fora"
+      ],
+      [
+       "camadas",
+       "Ecossistema"
+      ],
+      [
+       "relogio",
+       "Decidir rápido"
+      ]
+     ],
+     "em": "primeiro:",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: papel, borracha, o rei dos celulares e a queda mais famosa da tecnologia. Agora é com você. Qual foi o principal erro da Nokia? Comenta um ou dois e me conta qual foi o seu último Nokia. E se você gostou dessa viagem no tempo, segue o canal para mais histórias de empresas que mudaram o mundo, e de algumas que deixaram o mundo mudar por cima delas.",
+   "galeria": [
+    "nokia-final",
+    "nokia-antiga"
+   ],
+   "fontes": [
+    "Wamda",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Qual foi o maior erro da Nokia?",
+     "opcoes": [
+      "Ficar no Symbian",
+      "Apostar no Windows Phone"
+     ],
+     "em": "Qual",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS HISTÓRIAS",
+     "em": "segue",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "8c03f227c9",
+   "texto": "Imagine uma empresa que vendia quase metade dos celulares do planeta. Seu aparelho sobrevivia a quedas, a pedradas e, segundo a internet, até a um golpe de martelo. Seis anos depois, ela tinha uma fatia minúscula do mercado e vendeu o negócio de celulares. Como a Nokia foi do topo do mundo ao esquecimento? Fica comigo, porque essa história tem borracha, tem meme, tem um memorando pegando fogo e uma virada final que ninguém esperava.",
+   "audio": "audio/gancho-8c03f227c9.mp3",
+   "duracao": 28.248,
+   "palavras": [
+    {
+     "p": "Imagine",
+     "i": 0.098,
+     "f": 0.633
+    },
+    {
+     "p": "uma",
+     "i": 0.645,
+     "f": 0.74
+    },
+    {
+     "p": "empresa",
+     "i": 0.752,
+     "f": 1.205
+    },
+    {
+     "p": "que",
+     "i": 1.217,
+     "f": 1.312
+    },
+    {
+     "p": "vendia",
+     "i": 1.324,
+     "f": 1.633
+    },
+    {
+     "p": "quase",
+     "i": 1.645,
+     "f": 1.991
+    },
+    {
+     "p": "metade",
+     "i": 2.002,
+     "f": 2.443
+    },
+    {
+     "p": "dos",
+     "i": 2.455,
+     "f": 2.645
+    },
+    {
+     "p": "celulares",
+     "i": 2.657,
+     "f": 3.181
+    },
+    {
+     "p": "do",
+     "i": 3.193,
+     "f": 3.3
+    },
+    {
+     "p": "planeta",
+     "i": 3.312,
+     "f": 3.8
+    },
+    {
+     "p": "Seu",
+     "i": 4.619,
+     "f": 4.881
+    },
+    {
+     "p": "aparelho",
+     "i": 4.893,
+     "f": 5.321
+    },
+    {
+     "p": "sobrevivia",
+     "i": 5.333,
+     "f": 5.94
+    },
+    {
+     "p": "a",
+     "i": 5.952,
+     "f": 5.988
+    },
+    {
+     "p": "quedas",
+     "i": 6,
+     "f": 6.476
+    },
+    {
+     "p": "a",
+     "i": 6.595,
+     "f": 6.667
+    },
+    {
+     "p": "pedradas",
+     "i": 6.679,
+     "f": 7.19
+    },
+    {
+     "p": "e",
+     "i": 7.202,
+     "f": 7.274
+    },
+    {
+     "p": "segundo",
+     "i": 7.56,
+     "f": 7.94
+    },
+    {
+     "p": "a",
+     "i": 7.952,
+     "f": 7.976
+    },
+    {
+     "p": "internet",
+     "i": 7.988,
+     "f": 8.619
+    },
+    {
+     "p": "até",
+     "i": 8.833,
+     "f": 9.119
+    },
+    {
+     "p": "a",
+     "i": 9.131,
+     "f": 9.179
+    },
+    {
+     "p": "um",
+     "i": 9.19,
+     "f": 9.345
+    },
+    {
+     "p": "golpe",
+     "i": 9.357,
+     "f": 9.679
+    },
+    {
+     "p": "de",
+     "i": 9.69,
+     "f": 9.774
+    },
+    {
+     "p": "martelo",
+     "i": 9.786,
+     "f": 10.262
+    },
+    {
+     "p": "Seis",
+     "i": 11.083,
+     "f": 11.405
+    },
+    {
+     "p": "anos",
+     "i": 11.417,
+     "f": 11.75
+    },
+    {
+     "p": "depois",
+     "i": 11.762,
+     "f": 12.238
+    },
+    {
+     "p": "ela",
+     "i": 12.369,
+     "f": 12.548
+    },
+    {
+     "p": "tinha",
+     "i": 12.56,
+     "f": 12.774
+    },
+    {
+     "p": "uma",
+     "i": 12.786,
+     "f": 12.917
+    },
+    {
+     "p": "fatia",
+     "i": 12.929,
+     "f": 13.262
+    },
+    {
+     "p": "minúscula",
+     "i": 13.274,
+     "f": 13.774
+    },
+    {
+     "p": "do",
+     "i": 13.786,
+     "f": 13.869
+    },
+    {
+     "p": "mercado",
+     "i": 13.881,
+     "f": 14.381
+    },
+    {
+     "p": "e",
+     "i": 14.393,
+     "f": 14.452
+    },
+    {
+     "p": "vendeu",
+     "i": 14.464,
+     "f": 14.833
+    },
+    {
+     "p": "o",
+     "i": 14.845,
+     "f": 14.893
+    },
+    {
+     "p": "negócio",
+     "i": 14.905,
+     "f": 15.357
+    },
+    {
+     "p": "de",
+     "i": 15.369,
+     "f": 15.452
+    },
+    {
+     "p": "celulares",
+     "i": 15.464,
+     "f": 16.131
+    },
+    {
+     "p": "Como",
+     "i": 16.952,
+     "f": 17.274
+    },
+    {
+     "p": "a",
+     "i": 17.286,
+     "f": 17.321
+    },
+    {
+     "p": "Nokia",
+     "i": 17.333,
+     "f": 17.714
+    },
+    {
+     "p": "foi",
+     "i": 17.726,
+     "f": 17.881
+    },
+    {
+     "p": "do",
+     "i": 17.893,
+     "f": 18.024
+    },
+    {
+     "p": "topo",
+     "i": 18.036,
+     "f": 18.333
+    },
+    {
+     "p": "do",
+     "i": 18.345,
+     "f": 18.441
+    },
+    {
+     "p": "mundo",
+     "i": 18.452,
+     "f": 18.809
+    },
+    {
+     "p": "ao",
+     "i": 18.821,
+     "f": 18.929
+    },
+    {
+     "p": "esquecimento",
+     "i": 18.94,
+     "f": 19.643
+    },
+    {
+     "p": "Fica",
+     "i": 20.464,
+     "f": 20.786
+    },
+    {
+     "p": "comigo",
+     "i": 20.798,
+     "f": 21.238
+    },
+    {
+     "p": "porque",
+     "i": 21.512,
+     "f": 21.81
+    },
+    {
+     "p": "essa",
+     "i": 21.821,
+     "f": 22.036
+    },
+    {
+     "p": "história",
+     "i": 22.048,
+     "f": 22.417
+    },
+    {
+     "p": "tem",
+     "i": 22.429,
+     "f": 22.571
+    },
+    {
+     "p": "borracha",
+     "i": 22.583,
+     "f": 23.131
+    },
+    {
+     "p": "tem",
+     "i": 23.357,
+     "f": 23.524
+    },
+    {
+     "p": "meme",
+     "i": 23.536,
+     "f": 23.881
+    },
+    {
+     "p": "tem",
+     "i": 24.071,
+     "f": 24.202
+    },
+    {
+     "p": "um",
+     "i": 24.214,
+     "f": 24.286
+    },
+    {
+     "p": "memorando",
+     "i": 24.298,
+     "f": 24.75
+    },
+    {
+     "p": "pegando",
+     "i": 24.762,
+     "f": 25.119
+    },
+    {
+     "p": "fogo",
+     "i": 25.131,
+     "f": 25.548
+    },
+    {
+     "p": "e",
+     "i": 25.56,
+     "f": 25.595
+    },
+    {
+     "p": "uma",
+     "i": 25.607,
+     "f": 25.738
+    },
+    {
+     "p": "virada",
+     "i": 25.75,
+     "f": 26.095
+    },
+    {
+     "p": "final",
+     "i": 26.107,
+     "f": 26.405
+    },
+    {
+     "p": "que",
+     "i": 26.417,
+     "f": 26.524
+    },
+    {
+     "p": "ninguém",
+     "i": 26.536,
+     "f": 26.893
+    },
+    {
+     "p": "esperava",
+     "i": 26.905,
+     "f": 27.429
+    }
+   ]
+  },
+  "fabrica-de-papel": {
+   "hash": "0b06caedde",
+   "texto": "A história começa em 1865, e sem nenhum celular. O engenheiro de minas Fredrik Idestam abriu uma fábrica de polpa de papel às margens de um rio em Tampere, na Finlândia. Três anos depois, montou uma segunda fábrica perto de uma cidadezinha chamada Nokia, onde a energia da água era melhor. Em 1871 nasceu a empresa Nokia. Ou seja, a maior marca de celulares da década de 2000 começou fazendo papel. Ninguém ali imaginava que o nome ia parar no bolso de meio mundo.",
+   "audio": "audio/fabrica-de-papel-0b06caedde.mp3",
+   "duracao": 32.496,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.098,
+     "f": 0.205
+    },
+    {
+     "p": "história",
+     "i": 0.217,
+     "f": 0.61
+    },
+    {
+     "p": "começa",
+     "i": 0.621,
+     "f": 1.026
+    },
+    {
+     "p": "em 1865",
+     "i": 1.038,
+     "f": 2.788
+    },
+    {
+     "p": "e",
+     "i": 3.098,
+     "f": 3.169
+    },
+    {
+     "p": "sem",
+     "i": 3.181,
+     "f": 3.431
+    },
+    {
+     "p": "nenhum",
+     "i": 3.443,
+     "f": 3.74
+    },
+    {
+     "p": "celular",
+     "i": 3.752,
+     "f": 4.205
+    },
+    {
+     "p": "O",
+     "i": 5.024,
+     "f": 5.119
+    },
+    {
+     "p": "engenheiro",
+     "i": 5.131,
+     "f": 5.607
+    },
+    {
+     "p": "de",
+     "i": 5.619,
+     "f": 5.714
+    },
+    {
+     "p": "minas",
+     "i": 5.726,
+     "f": 5.976
+    },
+    {
+     "p": "Fredrik",
+     "i": 5.988,
+     "f": 6.393
+    },
+    {
+     "p": "Idestam",
+     "i": 6.405,
+     "f": 6.762
+    },
+    {
+     "p": "abriu",
+     "i": 6.774,
+     "f": 7.012
+    },
+    {
+     "p": "uma",
+     "i": 7.024,
+     "f": 7.155
+    },
+    {
+     "p": "fábrica",
+     "i": 7.167,
+     "f": 7.583
+    },
+    {
+     "p": "de",
+     "i": 7.595,
+     "f": 7.702
+    },
+    {
+     "p": "polpa",
+     "i": 7.714,
+     "f": 8.024
+    },
+    {
+     "p": "de",
+     "i": 8.036,
+     "f": 8.119
+    },
+    {
+     "p": "papel",
+     "i": 8.131,
+     "f": 8.464
+    },
+    {
+     "p": "às",
+     "i": 8.476,
+     "f": 8.607
+    },
+    {
+     "p": "margens",
+     "i": 8.619,
+     "f": 9.095
+    },
+    {
+     "p": "de",
+     "i": 9.107,
+     "f": 9.167
+    },
+    {
+     "p": "um",
+     "i": 9.179,
+     "f": 9.262
+    },
+    {
+     "p": "rio",
+     "i": 9.274,
+     "f": 9.476
+    },
+    {
+     "p": "em",
+     "i": 9.488,
+     "f": 9.571
+    },
+    {
+     "p": "Tampere",
+     "i": 9.583,
+     "f": 10.071
+    },
+    {
+     "p": "na",
+     "i": 10.31,
+     "f": 10.44
+    },
+    {
+     "p": "Finlândia",
+     "i": 10.452,
+     "f": 11.048
+    },
+    {
+     "p": "Três",
+     "i": 11.869,
+     "f": 12.107
+    },
+    {
+     "p": "anos",
+     "i": 12.119,
+     "f": 12.44
+    },
+    {
+     "p": "depois",
+     "i": 12.452,
+     "f": 12.94
+    },
+    {
+     "p": "montou",
+     "i": 13.214,
+     "f": 13.56
+    },
+    {
+     "p": "uma",
+     "i": 13.571,
+     "f": 13.702
+    },
+    {
+     "p": "segunda",
+     "i": 13.714,
+     "f": 14.143
+    },
+    {
+     "p": "fábrica",
+     "i": 14.155,
+     "f": 14.583
+    },
+    {
+     "p": "perto",
+     "i": 14.595,
+     "f": 14.929
+    },
+    {
+     "p": "de",
+     "i": 14.94,
+     "f": 15
+    },
+    {
+     "p": "uma",
+     "i": 15.012,
+     "f": 15.143
+    },
+    {
+     "p": "cidadezinha",
+     "i": 15.155,
+     "f": 15.762
+    },
+    {
+     "p": "chamada",
+     "i": 15.774,
+     "f": 16.155
+    },
+    {
+     "p": "Nokia",
+     "i": 16.167,
+     "f": 16.548
+    },
+    {
+     "p": "onde",
+     "i": 16.857,
+     "f": 17.036
+    },
+    {
+     "p": "a",
+     "i": 17.048,
+     "f": 17.083
+    },
+    {
+     "p": "energia",
+     "i": 17.095,
+     "f": 17.571
+    },
+    {
+     "p": "da",
+     "i": 17.583,
+     "f": 17.69
+    },
+    {
+     "p": "água",
+     "i": 17.702,
+     "f": 17.976
+    },
+    {
+     "p": "era",
+     "i": 17.988,
+     "f": 18.131
+    },
+    {
+     "p": "melhor",
+     "i": 18.143,
+     "f": 18.512
+    },
+    {
+     "p": "Em 1871",
+     "i": 19.333,
+     "f": 20.869
+    },
+    {
+     "p": "nasceu",
+     "i": 20.881,
+     "f": 21.226
+    },
+    {
+     "p": "a",
+     "i": 21.238,
+     "f": 21.262
+    },
+    {
+     "p": "empresa",
+     "i": 21.274,
+     "f": 21.702
+    },
+    {
+     "p": "Nokia",
+     "i": 21.714,
+     "f": 22.083
+    },
+    {
+     "p": "Ou",
+     "i": 22.905,
+     "f": 23.071
+    },
+    {
+     "p": "seja",
+     "i": 23.083,
+     "f": 23.512
+    },
+    {
+     "p": "a",
+     "i": 23.69,
+     "f": 23.738
+    },
+    {
+     "p": "maior",
+     "i": 23.75,
+     "f": 24.071
+    },
+    {
+     "p": "marca",
+     "i": 24.083,
+     "f": 24.44
+    },
+    {
+     "p": "de",
+     "i": 24.452,
+     "f": 24.524
+    },
+    {
+     "p": "celulares",
+     "i": 24.536,
+     "f": 25.083
+    },
+    {
+     "p": "da",
+     "i": 25.095,
+     "f": 25.202
+    },
+    {
+     "p": "década",
+     "i": 25.214,
+     "f": 25.583
+    },
+    {
+     "p": "de",
+     "i": 25.595,
+     "f": 25.691
+    },
+    {
+     "p": "2000 começou",
+     "i": 25.702,
+     "f": 26.559
+    },
+    {
+     "p": "fazendo",
+     "i": 26.571,
+     "f": 26.976
+    },
+    {
+     "p": "papel.",
+     "i": 26.988,
+     "f": 27.393
+    },
+    {
+     "p": "Ninguém",
+     "i": 28.214,
+     "f": 28.679
+    },
+    {
+     "p": "ali",
+     "i": 28.69,
+     "f": 28.905
+    },
+    {
+     "p": "imaginava",
+     "i": 28.917,
+     "f": 29.512
+    },
+    {
+     "p": "que",
+     "i": 29.524,
+     "f": 29.619
+    },
+    {
+     "p": "o",
+     "i": 29.631,
+     "f": 29.667
+    },
+    {
+     "p": "nome",
+     "i": 29.679,
+     "f": 29.94
+    },
+    {
+     "p": "ia",
+     "i": 29.952,
+     "f": 30.095
+    },
+    {
+     "p": "parar",
+     "i": 30.107,
+     "f": 30.405
+    },
+    {
+     "p": "no",
+     "i": 30.417,
+     "f": 30.548
+    },
+    {
+     "p": "bolso",
+     "i": 30.56,
+     "f": 30.94
+    },
+    {
+     "p": "de",
+     "i": 30.952,
+     "f": 31.048
+    },
+    {
+     "p": "meio",
+     "i": 31.06,
+     "f": 31.286
+    },
+    {
+     "p": "mundo",
+     "i": 31.298,
+     "f": 31.667
+    }
+   ]
+  },
+  "borracha-e-cabos": {
+   "hash": "3865d3d6c3",
+   "texto": "Depois do papel veio a borracha. Em 1904, uma fábrica de borracha se instalou perto da cidade de Nokia e usou o mesmo nome. Com o tempo, o grupo cresceu fazendo de tudo um pouco: papel, borracha, cabos e até eletrônicos. Em 1967, essas empresas se juntaram na Nokia Corporation. Era um gigante finlandês, sim, só que bagunçado, sem foco, vendendo de tudo e sem ser a melhor em nada. Parece uma loja de tudo por um euro, só que com chaminé.",
+   "audio": "audio/borracha-e-cabos-3865d3d6c3.mp3",
+   "duracao": 32.784,
+   "palavras": [
+    {
+     "p": "Depois",
+     "i": 0.098,
+     "f": 0.526
+    },
+    {
+     "p": "do",
+     "i": 0.538,
+     "f": 0.621
+    },
+    {
+     "p": "papel",
+     "i": 0.633,
+     "f": 1.014
+    },
+    {
+     "p": "veio",
+     "i": 1.026,
+     "f": 1.288
+    },
+    {
+     "p": "a",
+     "i": 1.3,
+     "f": 1.348
+    },
+    {
+     "p": "borracha",
+     "i": 1.36,
+     "f": 1.907
+    },
+    {
+     "p": "Em 1904",
+     "i": 2.726,
+     "f": 4.059
+    },
+    {
+     "p": "uma",
+     "i": 4.333,
+     "f": 4.536
+    },
+    {
+     "p": "fábrica",
+     "i": 4.548,
+     "f": 5
+    },
+    {
+     "p": "de",
+     "i": 5.012,
+     "f": 5.083
+    },
+    {
+     "p": "borracha",
+     "i": 5.095,
+     "f": 5.571
+    },
+    {
+     "p": "se",
+     "i": 5.583,
+     "f": 5.679
+    },
+    {
+     "p": "instalou",
+     "i": 5.69,
+     "f": 6.083
+    },
+    {
+     "p": "perto",
+     "i": 6.095,
+     "f": 6.393
+    },
+    {
+     "p": "da",
+     "i": 6.405,
+     "f": 6.488
+    },
+    {
+     "p": "cidade",
+     "i": 6.5,
+     "f": 6.881
+    },
+    {
+     "p": "de",
+     "i": 6.893,
+     "f": 6.988
+    },
+    {
+     "p": "Nokia",
+     "i": 7,
+     "f": 7.405
+    },
+    {
+     "p": "e",
+     "i": 7.417,
+     "f": 7.5
+    },
+    {
+     "p": "usou",
+     "i": 7.512,
+     "f": 7.798
+    },
+    {
+     "p": "o",
+     "i": 7.81,
+     "f": 7.857
+    },
+    {
+     "p": "mesmo",
+     "i": 7.869,
+     "f": 8.202
+    },
+    {
+     "p": "nome",
+     "i": 8.214,
+     "f": 8.571
+    },
+    {
+     "p": "Com",
+     "i": 9.393,
+     "f": 9.607
+    },
+    {
+     "p": "o",
+     "i": 9.619,
+     "f": 9.667
+    },
+    {
+     "p": "tempo",
+     "i": 9.679,
+     "f": 10.048
+    },
+    {
+     "p": "o",
+     "i": 10.345,
+     "f": 10.417
+    },
+    {
+     "p": "grupo",
+     "i": 10.429,
+     "f": 10.738
+    },
+    {
+     "p": "cresceu",
+     "i": 10.75,
+     "f": 11.095
+    },
+    {
+     "p": "fazendo",
+     "i": 11.107,
+     "f": 11.524
+    },
+    {
+     "p": "de",
+     "i": 11.536,
+     "f": 11.667
+    },
+    {
+     "p": "tudo",
+     "i": 11.679,
+     "f": 11.929
+    },
+    {
+     "p": "um",
+     "i": 11.94,
+     "f": 12.024
+    },
+    {
+     "p": "pouco",
+     "i": 12.036,
+     "f": 12.381
+    },
+    {
+     "p": "papel",
+     "i": 12.679,
+     "f": 13.119
+    },
+    {
+     "p": "borracha",
+     "i": 13.393,
+     "f": 14
+    },
+    {
+     "p": "cabos",
+     "i": 14.19,
+     "f": 14.512
+    },
+    {
+     "p": "e",
+     "i": 14.524,
+     "f": 14.631
+    },
+    {
+     "p": "até",
+     "i": 14.643,
+     "f": 14.857
+    },
+    {
+     "p": "eletrônicos",
+     "i": 14.869,
+     "f": 15.595
+    },
+    {
+     "p": "Em 1967",
+     "i": 16.417,
+     "f": 18.155
+    },
+    {
+     "p": "essas",
+     "i": 18.333,
+     "f": 18.56
+    },
+    {
+     "p": "empresas",
+     "i": 18.571,
+     "f": 19.155
+    },
+    {
+     "p": "se",
+     "i": 19.167,
+     "f": 19.274
+    },
+    {
+     "p": "juntaram",
+     "i": 19.286,
+     "f": 19.762
+    },
+    {
+     "p": "na",
+     "i": 19.774,
+     "f": 19.869
+    },
+    {
+     "p": "Nokia",
+     "i": 19.881,
+     "f": 20.179
+    },
+    {
+     "p": "Corporation",
+     "i": 20.19,
+     "f": 20.905
+    },
+    {
+     "p": "Era",
+     "i": 21.726,
+     "f": 21.917
+    },
+    {
+     "p": "um",
+     "i": 21.929,
+     "f": 21.988
+    },
+    {
+     "p": "gigante",
+     "i": 22,
+     "f": 22.44
+    },
+    {
+     "p": "finlandês",
+     "i": 22.452,
+     "f": 23.131
+    },
+    {
+     "p": "sim",
+     "i": 23.333,
+     "f": 23.619
+    },
+    {
+     "p": "só",
+     "i": 23.845,
+     "f": 24.071
+    },
+    {
+     "p": "que",
+     "i": 24.083,
+     "f": 24.167
+    },
+    {
+     "p": "bagunçado",
+     "i": 24.179,
+     "f": 24.798
+    },
+    {
+     "p": "sem",
+     "i": 25.083,
+     "f": 25.262
+    },
+    {
+     "p": "foco",
+     "i": 25.274,
+     "f": 25.655
+    },
+    {
+     "p": "vendendo",
+     "i": 25.94,
+     "f": 26.393
+    },
+    {
+     "p": "de",
+     "i": 26.405,
+     "f": 26.559
+    },
+    {
+     "p": "tudo",
+     "i": 26.571,
+     "f": 26.845
+    },
+    {
+     "p": "e",
+     "i": 26.857,
+     "f": 26.881
+    },
+    {
+     "p": "sem",
+     "i": 26.893,
+     "f": 27.048
+    },
+    {
+     "p": "ser",
+     "i": 27.06,
+     "f": 27.214
+    },
+    {
+     "p": "a",
+     "i": 27.226,
+     "f": 27.274
+    },
+    {
+     "p": "melhor",
+     "i": 27.286,
+     "f": 27.583
+    },
+    {
+     "p": "em",
+     "i": 27.595,
+     "f": 27.679
+    },
+    {
+     "p": "nada",
+     "i": 27.69,
+     "f": 28.024
+    },
+    {
+     "p": "Parece",
+     "i": 28.845,
+     "f": 29.25
+    },
+    {
+     "p": "uma",
+     "i": 29.262,
+     "f": 29.393
+    },
+    {
+     "p": "loja",
+     "i": 29.405,
+     "f": 29.726
+    },
+    {
+     "p": "de",
+     "i": 29.738,
+     "f": 29.869
+    },
+    {
+     "p": "tudo",
+     "i": 29.881,
+     "f": 30.155
+    },
+    {
+     "p": "por",
+     "i": 30.167,
+     "f": 30.298
+    },
+    {
+     "p": "um",
+     "i": 30.31,
+     "f": 30.429
+    },
+    {
+     "p": "euro",
+     "i": 30.44,
+     "f": 30.679
+    },
+    {
+     "p": "só",
+     "i": 30.952,
+     "f": 31.167
+    },
+    {
+     "p": "que",
+     "i": 31.179,
+     "f": 31.286
+    },
+    {
+     "p": "com",
+     "i": 31.298,
+     "f": 31.452
+    },
+    {
+     "p": "chaminé",
+     "i": 31.464,
+     "f": 31.952
+    }
+   ]
+  },
+  "aposta-ollila": {
+   "hash": "686a090c54",
+   "texto": "Em 1992, assumiu o comando Jorma Ollila, e ele tomou uma decisão radical: chega de ser tudo, vamos ser telecomunicações. Durante os anos noventa, a Nokia foi vendendo todos os negócios que não tinham a ver com isso. Papel, borracha, televisores, tudo fora. Foi uma aposta altíssima, porque a empresa jogou as fichas em um mercado que ainda parecia coisa de executivo com gravata e carro importado. Spoiler: a aposta deu muito certo, e por muito tempo.",
+   "audio": "audio/aposta-ollila-686a090c54.mp3",
+   "duracao": 31.248,
+   "palavras": [
+    {
+     "p": "Em 1992",
+     "i": 0.098,
+     "f": 1.74
+    },
+    {
+     "p": "assumiu",
+     "i": 1.979,
+     "f": 2.36
+    },
+    {
+     "p": "o",
+     "i": 2.371,
+     "f": 2.395
+    },
+    {
+     "p": "comando",
+     "i": 2.407,
+     "f": 2.8
+    },
+    {
+     "p": "Jorma",
+     "i": 2.812,
+     "f": 3.11
+    },
+    {
+     "p": "Ollila",
+     "i": 3.121,
+     "f": 3.479
+    },
+    {
+     "p": "e",
+     "i": 3.752,
+     "f": 3.836
+    },
+    {
+     "p": "ele",
+     "i": 3.848,
+     "f": 4.002
+    },
+    {
+     "p": "tomou",
+     "i": 4.014,
+     "f": 4.264
+    },
+    {
+     "p": "uma",
+     "i": 4.276,
+     "f": 4.407
+    },
+    {
+     "p": "decisão",
+     "i": 4.419,
+     "f": 4.824
+    },
+    {
+     "p": "radical",
+     "i": 4.836,
+     "f": 5.348
+    },
+    {
+     "p": "chega",
+     "i": 5.645,
+     "f": 5.931
+    },
+    {
+     "p": "de",
+     "i": 5.943,
+     "f": 6.038
+    },
+    {
+     "p": "ser",
+     "i": 6.05,
+     "f": 6.24
+    },
+    {
+     "p": "tudo",
+     "i": 6.252,
+     "f": 6.574
+    },
+    {
+     "p": "vamos",
+     "i": 6.86,
+     "f": 7.133
+    },
+    {
+     "p": "ser",
+     "i": 7.145,
+     "f": 7.312
+    },
+    {
+     "p": "telecomunicações",
+     "i": 7.324,
+     "f": 8.49
+    },
+    {
+     "p": "Durante",
+     "i": 9.31,
+     "f": 9.702
+    },
+    {
+     "p": "os",
+     "i": 9.714,
+     "f": 9.738
+    },
+    {
+     "p": "anos",
+     "i": 9.75,
+     "f": 10.048
+    },
+    {
+     "p": "noventa",
+     "i": 10.06,
+     "f": 10.548
+    },
+    {
+     "p": "a",
+     "i": 10.762,
+     "f": 10.833
+    },
+    {
+     "p": "Nokia",
+     "i": 10.845,
+     "f": 11.191
+    },
+    {
+     "p": "foi",
+     "i": 11.202,
+     "f": 11.321
+    },
+    {
+     "p": "vendendo",
+     "i": 11.333,
+     "f": 11.762
+    },
+    {
+     "p": "todos",
+     "i": 11.774,
+     "f": 12.048
+    },
+    {
+     "p": "os",
+     "i": 12.06,
+     "f": 12.179
+    },
+    {
+     "p": "negócios",
+     "i": 12.19,
+     "f": 12.714
+    },
+    {
+     "p": "que",
+     "i": 12.726,
+     "f": 12.81
+    },
+    {
+     "p": "não",
+     "i": 12.821,
+     "f": 13
+    },
+    {
+     "p": "tinham",
+     "i": 13.012,
+     "f": 13.333
+    },
+    {
+     "p": "a",
+     "i": 13.345,
+     "f": 13.393
+    },
+    {
+     "p": "ver",
+     "i": 13.405,
+     "f": 13.571
+    },
+    {
+     "p": "com",
+     "i": 13.583,
+     "f": 13.81
+    },
+    {
+     "p": "isso",
+     "i": 13.821,
+     "f": 14.107
+    },
+    {
+     "p": "Papel",
+     "i": 14.929,
+     "f": 15.357
+    },
+    {
+     "p": "borracha",
+     "i": 15.667,
+     "f": 16.31
+    },
+    {
+     "p": "televisores",
+     "i": 16.5,
+     "f": 17.262
+    },
+    {
+     "p": "tudo",
+     "i": 17.488,
+     "f": 17.75
+    },
+    {
+     "p": "fora",
+     "i": 17.762,
+     "f": 18.155
+    },
+    {
+     "p": "Foi",
+     "i": 18.976,
+     "f": 19.202
+    },
+    {
+     "p": "uma",
+     "i": 19.214,
+     "f": 19.31
+    },
+    {
+     "p": "aposta",
+     "i": 19.321,
+     "f": 19.69
+    },
+    {
+     "p": "altíssima",
+     "i": 19.702,
+     "f": 20.226
+    },
+    {
+     "p": "porque",
+     "i": 20.476,
+     "f": 20.762
+    },
+    {
+     "p": "a",
+     "i": 20.774,
+     "f": 20.809
+    },
+    {
+     "p": "empresa",
+     "i": 20.821,
+     "f": 21.262
+    },
+    {
+     "p": "jogou",
+     "i": 21.274,
+     "f": 21.571
+    },
+    {
+     "p": "as",
+     "i": 21.583,
+     "f": 21.714
+    },
+    {
+     "p": "fichas",
+     "i": 21.726,
+     "f": 22.036
+    },
+    {
+     "p": "em",
+     "i": 22.048,
+     "f": 22.191
+    },
+    {
+     "p": "um",
+     "i": 22.202,
+     "f": 22.262
+    },
+    {
+     "p": "mercado",
+     "i": 22.274,
+     "f": 22.774
+    },
+    {
+     "p": "que",
+     "i": 22.786,
+     "f": 22.857
+    },
+    {
+     "p": "ainda",
+     "i": 22.869,
+     "f": 23.083
+    },
+    {
+     "p": "parecia",
+     "i": 23.095,
+     "f": 23.512
+    },
+    {
+     "p": "coisa",
+     "i": 23.524,
+     "f": 23.833
+    },
+    {
+     "p": "de",
+     "i": 23.845,
+     "f": 23.917
+    },
+    {
+     "p": "executivo",
+     "i": 23.929,
+     "f": 24.476
+    },
+    {
+     "p": "com",
+     "i": 24.488,
+     "f": 24.607
+    },
+    {
+     "p": "gravata",
+     "i": 24.619,
+     "f": 25.048
+    },
+    {
+     "p": "e",
+     "i": 25.06,
+     "f": 25.107
+    },
+    {
+     "p": "carro",
+     "i": 25.119,
+     "f": 25.345
+    },
+    {
+     "p": "importado",
+     "i": 25.357,
+     "f": 25.964
+    },
+    {
+     "p": "Spoiler",
+     "i": 26.786,
+     "f": 27.309
+    },
+    {
+     "p": "a",
+     "i": 27.631,
+     "f": 27.702
+    },
+    {
+     "p": "aposta",
+     "i": 27.714,
+     "f": 28.131
+    },
+    {
+     "p": "deu",
+     "i": 28.143,
+     "f": 28.298
+    },
+    {
+     "p": "muito",
+     "i": 28.31,
+     "f": 28.726
+    },
+    {
+     "p": "certo",
+     "i": 28.738,
+     "f": 29.19
+    },
+    {
+     "p": "e",
+     "i": 29.405,
+     "f": 29.5
+    },
+    {
+     "p": "por",
+     "i": 29.512,
+     "f": 29.679
+    },
+    {
+     "p": "muito",
+     "i": 29.69,
+     "f": 30.048
+    },
+    {
+     "p": "tempo",
+     "i": 30.06,
+     "f": 30.417
+    }
+   ]
+  },
+  "gsm": {
+   "hash": "57e2786b79",
+   "texto": "O timing foi perfeito. O padrão digital GSM estava chegando à Europa, e em 10 de novembro de 1992 a Nokia lançou o 1011, o primeiro celular GSM produzido em massa. Antes disso, o celular era um tijolo caro de carro. A Nokia entendeu cedo que o aparelho precisava ser pequeno, simples e fácil de usar. E havia outro segredo: ela fabricava os aparelhos e também vendia a infraestrutura das redes. Então a empresa dominava o jogo dos dois lados do campo.",
+   "audio": "audio/gsm-57e2786b79.mp3",
+   "duracao": 31.944,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "timing",
+     "i": 0.252,
+     "f": 0.633
+    },
+    {
+     "p": "foi",
+     "i": 0.645,
+     "f": 0.836
+    },
+    {
+     "p": "perfeito",
+     "i": 0.848,
+     "f": 1.395
+    },
+    {
+     "p": "O",
+     "i": 2.214,
+     "f": 2.333
+    },
+    {
+     "p": "padrão",
+     "i": 2.345,
+     "f": 2.726
+    },
+    {
+     "p": "digital",
+     "i": 2.738,
+     "f": 3.202
+    },
+    {
+     "p": "GSM",
+     "i": 3.214,
+     "f": 3.869
+    },
+    {
+     "p": "estava",
+     "i": 3.881,
+     "f": 4.179
+    },
+    {
+     "p": "chegando",
+     "i": 4.19,
+     "f": 4.548
+    },
+    {
+     "p": "à",
+     "i": 4.56,
+     "f": 4.583
+    },
+    {
+     "p": "Europa",
+     "i": 4.595,
+     "f": 5.048
+    },
+    {
+     "p": "e",
+     "i": 5.381,
+     "f": 5.452
+    },
+    {
+     "p": "em 10 de novembro de 1992",
+     "i": 5.464,
+     "f": 7.821
+    },
+    {
+     "p": "a",
+     "i": 7.833,
+     "f": 7.94
+    },
+    {
+     "p": "Nokia",
+     "i": 7.952,
+     "f": 8.274
+    },
+    {
+     "p": "lançou",
+     "i": 8.286,
+     "f": 8.679
+    },
+    {
+     "p": "o",
+     "i": 8.69,
+     "f": 8.714
+    },
+    {
+     "p": "1011",
+     "i": 8.726,
+     "f": 9.405
+    },
+    {
+     "p": "o",
+     "i": 9.655,
+     "f": 9.75
+    },
+    {
+     "p": "primeiro",
+     "i": 9.762,
+     "f": 10.083
+    },
+    {
+     "p": "celular",
+     "i": 10.095,
+     "f": 10.56
+    },
+    {
+     "p": "GSM",
+     "i": 10.571,
+     "f": 11.202
+    },
+    {
+     "p": "produzido",
+     "i": 11.214,
+     "f": 11.738
+    },
+    {
+     "p": "em",
+     "i": 11.75,
+     "f": 11.833
+    },
+    {
+     "p": "massa",
+     "i": 11.845,
+     "f": 12.238
+    },
+    {
+     "p": "Antes",
+     "i": 13.06,
+     "f": 13.429
+    },
+    {
+     "p": "disso",
+     "i": 13.44,
+     "f": 13.809
+    },
+    {
+     "p": "o",
+     "i": 14.048,
+     "f": 14.095
+    },
+    {
+     "p": "celular",
+     "i": 14.107,
+     "f": 14.595
+    },
+    {
+     "p": "era",
+     "i": 14.607,
+     "f": 14.714
+    },
+    {
+     "p": "um",
+     "i": 14.726,
+     "f": 14.774
+    },
+    {
+     "p": "tijolo",
+     "i": 14.786,
+     "f": 15.214
+    },
+    {
+     "p": "caro",
+     "i": 15.226,
+     "f": 15.512
+    },
+    {
+     "p": "de",
+     "i": 15.524,
+     "f": 15.631
+    },
+    {
+     "p": "carro",
+     "i": 15.643,
+     "f": 16.024
+    },
+    {
+     "p": "A",
+     "i": 16.845,
+     "f": 16.964
+    },
+    {
+     "p": "Nokia",
+     "i": 16.976,
+     "f": 17.333
+    },
+    {
+     "p": "entendeu",
+     "i": 17.345,
+     "f": 17.714
+    },
+    {
+     "p": "cedo",
+     "i": 17.726,
+     "f": 18.06
+    },
+    {
+     "p": "que",
+     "i": 18.071,
+     "f": 18.155
+    },
+    {
+     "p": "o",
+     "i": 18.167,
+     "f": 18.202
+    },
+    {
+     "p": "aparelho",
+     "i": 18.214,
+     "f": 18.631
+    },
+    {
+     "p": "precisava",
+     "i": 18.643,
+     "f": 19.143
+    },
+    {
+     "p": "ser",
+     "i": 19.155,
+     "f": 19.333
+    },
+    {
+     "p": "pequeno",
+     "i": 19.345,
+     "f": 19.786
+    },
+    {
+     "p": "simples",
+     "i": 20.06,
+     "f": 20.405
+    },
+    {
+     "p": "e",
+     "i": 20.417,
+     "f": 20.536
+    },
+    {
+     "p": "fácil",
+     "i": 20.548,
+     "f": 20.917
+    },
+    {
+     "p": "de",
+     "i": 20.929,
+     "f": 21.024
+    },
+    {
+     "p": "usar",
+     "i": 21.036,
+     "f": 21.333
+    },
+    {
+     "p": "E",
+     "i": 22.155,
+     "f": 22.262
+    },
+    {
+     "p": "havia",
+     "i": 22.274,
+     "f": 22.595
+    },
+    {
+     "p": "outro",
+     "i": 22.607,
+     "f": 22.881
+    },
+    {
+     "p": "segredo",
+     "i": 22.893,
+     "f": 23.405
+    },
+    {
+     "p": "ela",
+     "i": 23.655,
+     "f": 23.869
+    },
+    {
+     "p": "fabricava",
+     "i": 23.881,
+     "f": 24.393
+    },
+    {
+     "p": "os",
+     "i": 24.405,
+     "f": 24.429
+    },
+    {
+     "p": "aparelhos",
+     "i": 24.44,
+     "f": 24.976
+    },
+    {
+     "p": "e",
+     "i": 24.988,
+     "f": 25.107
+    },
+    {
+     "p": "também",
+     "i": 25.119,
+     "f": 25.429
+    },
+    {
+     "p": "vendia",
+     "i": 25.44,
+     "f": 25.809
+    },
+    {
+     "p": "a",
+     "i": 25.821,
+     "f": 25.845
+    },
+    {
+     "p": "infraestrutura",
+     "i": 25.857,
+     "f": 26.571
+    },
+    {
+     "p": "das",
+     "i": 26.583,
+     "f": 26.738
+    },
+    {
+     "p": "redes",
+     "i": 26.75,
+     "f": 27.226
+    },
+    {
+     "p": "Então",
+     "i": 28.048,
+     "f": 28.464
+    },
+    {
+     "p": "a",
+     "i": 28.476,
+     "f": 28.488
+    },
+    {
+     "p": "empresa",
+     "i": 28.5,
+     "f": 28.952
+    },
+    {
+     "p": "dominava",
+     "i": 28.964,
+     "f": 29.429
+    },
+    {
+     "p": "o",
+     "i": 29.44,
+     "f": 29.464
+    },
+    {
+     "p": "jogo",
+     "i": 29.476,
+     "f": 29.774
+    },
+    {
+     "p": "dos",
+     "i": 29.786,
+     "f": 29.952
+    },
+    {
+     "p": "dois",
+     "i": 29.964,
+     "f": 30.25
+    },
+    {
+     "p": "lados",
+     "i": 30.262,
+     "f": 30.619
+    },
+    {
+     "p": "do",
+     "i": 30.631,
+     "f": 30.75
+    },
+    {
+     "p": "campo",
+     "i": 30.762,
+     "f": 31.119
+    }
+   ]
+  },
+  "lider-mundial": {
+   "hash": "ed76004267",
+   "texto": "Em 1998, a Nokia passou a Motorola e se tornou a maior fabricante de celulares do mundo. A Motorola era a rainha dos anos oitenta e noventa, então foi uma troca de coroa daquelas. A estratégia era variar: a Nokia tinha aparelho para executivo, para adolescente e para quem só queria falar ao telefone. Trocar a capinha era um hobby, e o toque musical era sua personalidade. Pela primeira vez, uma empresa finlandesa de nome impronunciável mandava no bolso de todo mundo.",
+   "audio": "audio/lider-mundial-ed76004267.mp3",
+   "duracao": 30.264,
+   "palavras": [
+    {
+     "p": "Em 1998",
+     "i": 0.098,
+     "f": 1.681
+    },
+    {
+     "p": "a",
+     "i": 1.848,
+     "f": 1.931
+    },
+    {
+     "p": "Nokia",
+     "i": 1.943,
+     "f": 2.276
+    },
+    {
+     "p": "passou",
+     "i": 2.288,
+     "f": 2.598
+    },
+    {
+     "p": "a",
+     "i": 2.61,
+     "f": 2.633
+    },
+    {
+     "p": "Motorola",
+     "i": 2.645,
+     "f": 3.193
+    },
+    {
+     "p": "e",
+     "i": 3.205,
+     "f": 3.24
+    },
+    {
+     "p": "se",
+     "i": 3.252,
+     "f": 3.383
+    },
+    {
+     "p": "tornou",
+     "i": 3.395,
+     "f": 3.717
+    },
+    {
+     "p": "a",
+     "i": 3.729,
+     "f": 3.764
+    },
+    {
+     "p": "maior",
+     "i": 3.776,
+     "f": 4.098
+    },
+    {
+     "p": "fabricante",
+     "i": 4.11,
+     "f": 4.717
+    },
+    {
+     "p": "de",
+     "i": 4.729,
+     "f": 4.824
+    },
+    {
+     "p": "celulares",
+     "i": 4.836,
+     "f": 5.395
+    },
+    {
+     "p": "do",
+     "i": 5.407,
+     "f": 5.514
+    },
+    {
+     "p": "mundo",
+     "i": 5.526,
+     "f": 5.86
+    },
+    {
+     "p": "A",
+     "i": 6.679,
+     "f": 6.762
+    },
+    {
+     "p": "Motorola",
+     "i": 6.774,
+     "f": 7.333
+    },
+    {
+     "p": "era",
+     "i": 7.345,
+     "f": 7.488
+    },
+    {
+     "p": "a",
+     "i": 7.5,
+     "f": 7.524
+    },
+    {
+     "p": "rainha",
+     "i": 7.536,
+     "f": 7.869
+    },
+    {
+     "p": "dos",
+     "i": 7.881,
+     "f": 7.988
+    },
+    {
+     "p": "anos",
+     "i": 8,
+     "f": 8.298
+    },
+    {
+     "p": "oitenta",
+     "i": 8.31,
+     "f": 8.679
+    },
+    {
+     "p": "e",
+     "i": 8.69,
+     "f": 8.702
+    },
+    {
+     "p": "noventa",
+     "i": 8.714,
+     "f": 9.202
+    },
+    {
+     "p": "então",
+     "i": 9.417,
+     "f": 9.798
+    },
+    {
+     "p": "foi",
+     "i": 9.81,
+     "f": 9.952
+    },
+    {
+     "p": "uma",
+     "i": 9.964,
+     "f": 10.143
+    },
+    {
+     "p": "troca",
+     "i": 10.155,
+     "f": 10.464
+    },
+    {
+     "p": "de",
+     "i": 10.476,
+     "f": 10.56
+    },
+    {
+     "p": "coroa",
+     "i": 10.571,
+     "f": 10.893
+    },
+    {
+     "p": "daquelas",
+     "i": 10.905,
+     "f": 11.5
+    },
+    {
+     "p": "A",
+     "i": 12.321,
+     "f": 12.429
+    },
+    {
+     "p": "estratégia",
+     "i": 12.44,
+     "f": 13.012
+    },
+    {
+     "p": "era",
+     "i": 13.024,
+     "f": 13.143
+    },
+    {
+     "p": "variar",
+     "i": 13.155,
+     "f": 13.536
+    },
+    {
+     "p": "a",
+     "i": 13.833,
+     "f": 13.905
+    },
+    {
+     "p": "Nokia",
+     "i": 13.917,
+     "f": 14.262
+    },
+    {
+     "p": "tinha",
+     "i": 14.274,
+     "f": 14.464
+    },
+    {
+     "p": "aparelho",
+     "i": 14.476,
+     "f": 14.857
+    },
+    {
+     "p": "para",
+     "i": 14.869,
+     "f": 14.988
+    },
+    {
+     "p": "executivo",
+     "i": 15,
+     "f": 15.595
+    },
+    {
+     "p": "para",
+     "i": 15.821,
+     "f": 15.952
+    },
+    {
+     "p": "adolescente",
+     "i": 15.964,
+     "f": 16.595
+    },
+    {
+     "p": "e",
+     "i": 16.607,
+     "f": 16.631
+    },
+    {
+     "p": "para",
+     "i": 16.643,
+     "f": 16.845
+    },
+    {
+     "p": "quem",
+     "i": 16.857,
+     "f": 17.036
+    },
+    {
+     "p": "só",
+     "i": 17.048,
+     "f": 17.262
+    },
+    {
+     "p": "queria",
+     "i": 17.274,
+     "f": 17.583
+    },
+    {
+     "p": "falar",
+     "i": 17.595,
+     "f": 17.917
+    },
+    {
+     "p": "ao",
+     "i": 17.929,
+     "f": 18.024
+    },
+    {
+     "p": "telefone",
+     "i": 18.036,
+     "f": 18.631
+    },
+    {
+     "p": "Trocar",
+     "i": 19.452,
+     "f": 19.833
+    },
+    {
+     "p": "a",
+     "i": 19.845,
+     "f": 19.905
+    },
+    {
+     "p": "capinha",
+     "i": 19.917,
+     "f": 20.298
+    },
+    {
+     "p": "era",
+     "i": 20.31,
+     "f": 20.417
+    },
+    {
+     "p": "um",
+     "i": 20.429,
+     "f": 20.5
+    },
+    {
+     "p": "hobby",
+     "i": 20.512,
+     "f": 20.905
+    },
+    {
+     "p": "e",
+     "i": 21.167,
+     "f": 21.262
+    },
+    {
+     "p": "o",
+     "i": 21.274,
+     "f": 21.357
+    },
+    {
+     "p": "toque",
+     "i": 21.369,
+     "f": 21.69
+    },
+    {
+     "p": "musical",
+     "i": 21.702,
+     "f": 22.19
+    },
+    {
+     "p": "era",
+     "i": 22.202,
+     "f": 22.369
+    },
+    {
+     "p": "sua",
+     "i": 22.381,
+     "f": 22.619
+    },
+    {
+     "p": "personalidade",
+     "i": 22.631,
+     "f": 23.476
+    },
+    {
+     "p": "Pela",
+     "i": 24.298,
+     "f": 24.524
+    },
+    {
+     "p": "primeira",
+     "i": 24.536,
+     "f": 24.833
+    },
+    {
+     "p": "vez",
+     "i": 24.845,
+     "f": 25.179
+    },
+    {
+     "p": "uma",
+     "i": 25.476,
+     "f": 25.619
+    },
+    {
+     "p": "empresa",
+     "i": 25.631,
+     "f": 26.06
+    },
+    {
+     "p": "finlandesa",
+     "i": 26.071,
+     "f": 26.667
+    },
+    {
+     "p": "de",
+     "i": 26.679,
+     "f": 26.774
+    },
+    {
+     "p": "nome",
+     "i": 26.786,
+     "f": 27.012
+    },
+    {
+     "p": "impronunciável",
+     "i": 27.024,
+     "f": 27.762
+    },
+    {
+     "p": "mandava",
+     "i": 27.774,
+     "f": 28.226
+    },
+    {
+     "p": "no",
+     "i": 28.238,
+     "f": 28.345
+    },
+    {
+     "p": "bolso",
+     "i": 28.357,
+     "f": 28.702
+    },
+    {
+     "p": "de",
+     "i": 28.714,
+     "f": 28.857
+    },
+    {
+     "p": "todo",
+     "i": 28.869,
+     "f": 29.119
+    },
+    {
+     "p": "mundo",
+     "i": 29.131,
+     "f": 29.44
+    }
+   ]
+  },
+  "tijolo-indestrutivel": {
+   "hash": "9e36ef4928",
+   "texto": "Aí vieram os campeões de vendas. O Nokia 3310, de 2000, vendeu cerca de 126 milhões de unidades. Ele tinha bateria que durava dias, o joguinho da cobrinha e uma fama de indestrutível que virou piada eterna. E o Nokia 1100, de 2003, aparece nas listas de mais vendidos com mais de 250 milhões de aparelhos. Quase ninguém tinha um desses por vaidade. Tinha porque funcionava, durava e aguentava cair da escada.",
+   "audio": "audio/tijolo-indestrutivel-9e36ef4928.mp3",
+   "duracao": 30.936,
+   "palavras": [
+    {
+     "p": "Aí",
+     "i": 0.098,
+     "f": 0.443
+    },
+    {
+     "p": "vieram",
+     "i": 0.455,
+     "f": 0.848
+    },
+    {
+     "p": "os",
+     "i": 0.86,
+     "f": 0.955
+    },
+    {
+     "p": "campeões",
+     "i": 0.967,
+     "f": 1.467
+    },
+    {
+     "p": "de",
+     "i": 1.479,
+     "f": 1.562
+    },
+    {
+     "p": "vendas",
+     "i": 1.574,
+     "f": 2.086
+    },
+    {
+     "p": "O",
+     "i": 2.905,
+     "f": 3.012
+    },
+    {
+     "p": "Nokia",
+     "i": 3.024,
+     "f": 3.417
+    },
+    {
+     "p": "3310",
+     "i": 3.429,
+     "f": 4.929
+    },
+    {
+     "p": "de",
+     "i": 5.143,
+     "f": 5.262
+    },
+    {
+     "p": "2000",
+     "i": 5.274,
+     "f": 5.726
+    },
+    {
+     "p": "vendeu",
+     "i": 6.036,
+     "f": 6.369
+    },
+    {
+     "p": "cerca",
+     "i": 6.381,
+     "f": 6.75
+    },
+    {
+     "p": "de",
+     "i": 6.762,
+     "f": 6.881
+    },
+    {
+     "p": "126 milhões",
+     "i": 6.893,
+     "f": 8.274
+    },
+    {
+     "p": "de",
+     "i": 8.286,
+     "f": 8.369
+    },
+    {
+     "p": "unidades",
+     "i": 8.381,
+     "f": 9.048
+    },
+    {
+     "p": "Ele",
+     "i": 9.869,
+     "f": 10.095
+    },
+    {
+     "p": "tinha",
+     "i": 10.107,
+     "f": 10.321
+    },
+    {
+     "p": "bateria",
+     "i": 10.333,
+     "f": 10.738
+    },
+    {
+     "p": "que",
+     "i": 10.75,
+     "f": 10.845
+    },
+    {
+     "p": "durava",
+     "i": 10.857,
+     "f": 11.19
+    },
+    {
+     "p": "dias",
+     "i": 11.202,
+     "f": 11.595
+    },
+    {
+     "p": "o",
+     "i": 11.821,
+     "f": 11.881
+    },
+    {
+     "p": "joguinho",
+     "i": 11.893,
+     "f": 12.298
+    },
+    {
+     "p": "da",
+     "i": 12.31,
+     "f": 12.405
+    },
+    {
+     "p": "cobrinha",
+     "i": 12.417,
+     "f": 12.833
+    },
+    {
+     "p": "e",
+     "i": 12.845,
+     "f": 12.869
+    },
+    {
+     "p": "uma",
+     "i": 12.881,
+     "f": 13.048
+    },
+    {
+     "p": "fama",
+     "i": 13.06,
+     "f": 13.345
+    },
+    {
+     "p": "de",
+     "i": 13.357,
+     "f": 13.452
+    },
+    {
+     "p": "indestrutível",
+     "i": 13.464,
+     "f": 14.167
+    },
+    {
+     "p": "que",
+     "i": 14.179,
+     "f": 14.274
+    },
+    {
+     "p": "virou",
+     "i": 14.286,
+     "f": 14.512
+    },
+    {
+     "p": "piada",
+     "i": 14.524,
+     "f": 14.845
+    },
+    {
+     "p": "eterna",
+     "i": 14.857,
+     "f": 15.298
+    },
+    {
+     "p": "E",
+     "i": 16.119,
+     "f": 16.238
+    },
+    {
+     "p": "o",
+     "i": 16.25,
+     "f": 16.286
+    },
+    {
+     "p": "Nokia",
+     "i": 16.298,
+     "f": 16.655
+    },
+    {
+     "p": "1100",
+     "i": 16.667,
+     "f": 17.179
+    },
+    {
+     "p": "de",
+     "i": 17.393,
+     "f": 17.488
+    },
+    {
+     "p": "2003",
+     "i": 17.5,
+     "f": 18.25
+    },
+    {
+     "p": "aparece",
+     "i": 18.476,
+     "f": 18.952
+    },
+    {
+     "p": "nas",
+     "i": 18.964,
+     "f": 19.143
+    },
+    {
+     "p": "listas",
+     "i": 19.155,
+     "f": 19.524
+    },
+    {
+     "p": "de",
+     "i": 19.536,
+     "f": 19.631
+    },
+    {
+     "p": "mais",
+     "i": 19.643,
+     "f": 19.881
+    },
+    {
+     "p": "vendidos",
+     "i": 19.893,
+     "f": 20.393
+    },
+    {
+     "p": "com",
+     "i": 20.405,
+     "f": 20.571
+    },
+    {
+     "p": "mais",
+     "i": 20.583,
+     "f": 20.81
+    },
+    {
+     "p": "de",
+     "i": 20.821,
+     "f": 20.905
+    },
+    {
+     "p": "250 milhões",
+     "i": 20.917,
+     "f": 22.321
+    },
+    {
+     "p": "de",
+     "i": 22.333,
+     "f": 22.405
+    },
+    {
+     "p": "aparelhos",
+     "i": 22.417,
+     "f": 23.048
+    },
+    {
+     "p": "Quase",
+     "i": 23.869,
+     "f": 24.226
+    },
+    {
+     "p": "ninguém",
+     "i": 24.238,
+     "f": 24.619
+    },
+    {
+     "p": "tinha",
+     "i": 24.631,
+     "f": 24.833
+    },
+    {
+     "p": "um",
+     "i": 24.845,
+     "f": 24.929
+    },
+    {
+     "p": "desses",
+     "i": 24.94,
+     "f": 25.309
+    },
+    {
+     "p": "por",
+     "i": 25.321,
+     "f": 25.464
+    },
+    {
+     "p": "vaidade",
+     "i": 25.476,
+     "f": 26.036
+    },
+    {
+     "p": "Tinha",
+     "i": 26.857,
+     "f": 27.119
+    },
+    {
+     "p": "porque",
+     "i": 27.131,
+     "f": 27.393
+    },
+    {
+     "p": "funcionava",
+     "i": 27.405,
+     "f": 28.048
+    },
+    {
+     "p": "durava",
+     "i": 28.262,
+     "f": 28.655
+    },
+    {
+     "p": "e",
+     "i": 28.667,
+     "f": 28.714
+    },
+    {
+     "p": "aguentava",
+     "i": 28.726,
+     "f": 29.238
+    },
+    {
+     "p": "cair",
+     "i": 29.25,
+     "f": 29.548
+    },
+    {
+     "p": "da",
+     "i": 29.56,
+     "f": 29.643
+    },
+    {
+     "p": "escada",
+     "i": 29.655,
+     "f": 30.095
+    }
+   ]
+  },
+  "auge-2007": {
+   "hash": "efc7a0052c",
+   "texto": "O auge chegou em 2007. Segundo a consultoria Gartner, a Nokia respondia por 40% das vendas de celulares do mundo e 49% dos smartphones. O sistema Symbian rodava em mais de 60% dos smartphones, e o N95, com câmera de cinco megapixels, era o sonho de consumo. A Nokia fazia o aparelho que o mundo queria, na quantidade que o mundo comprava. No topo da montanha, ela olhou para baixo e viu um concorrente de brinquedo. Ela olhou errado.",
+   "audio": "audio/auge-2007-efc7a0052c.mp3",
+   "duracao": 32.136,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.229
+    },
+    {
+     "p": "auge",
+     "i": 0.24,
+     "f": 0.502
+    },
+    {
+     "p": "chegou",
+     "i": 0.514,
+     "f": 0.883
+    },
+    {
+     "p": "em 2007",
+     "i": 0.895,
+     "f": 1.836
+    },
+    {
+     "p": "Segundo",
+     "i": 2.655,
+     "f": 3.179
+    },
+    {
+     "p": "a",
+     "i": 3.19,
+     "f": 3.238
+    },
+    {
+     "p": "consultoria",
+     "i": 3.25,
+     "f": 3.821
+    },
+    {
+     "p": "Gartner",
+     "i": 3.833,
+     "f": 4.298
+    },
+    {
+     "p": "a",
+     "i": 4.56,
+     "f": 4.619
+    },
+    {
+     "p": "Nokia",
+     "i": 4.631,
+     "f": 4.988
+    },
+    {
+     "p": "respondia",
+     "i": 5,
+     "f": 5.56
+    },
+    {
+     "p": "por",
+     "i": 5.571,
+     "f": 5.702
+    },
+    {
+     "p": "40%",
+     "i": 5.714,
+     "f": 6.607
+    },
+    {
+     "p": "das",
+     "i": 6.619,
+     "f": 6.798
+    },
+    {
+     "p": "vendas",
+     "i": 6.81,
+     "f": 7.131
+    },
+    {
+     "p": "de",
+     "i": 7.143,
+     "f": 7.226
+    },
+    {
+     "p": "celulares",
+     "i": 7.238,
+     "f": 7.786
+    },
+    {
+     "p": "do",
+     "i": 7.798,
+     "f": 7.905
+    },
+    {
+     "p": "mundo",
+     "i": 7.917,
+     "f": 8.286
+    },
+    {
+     "p": "e",
+     "i": 8.298,
+     "f": 8.333
+    },
+    {
+     "p": "49%",
+     "i": 8.345,
+     "f": 9.44
+    },
+    {
+     "p": "dos",
+     "i": 9.452,
+     "f": 9.548
+    },
+    {
+     "p": "smartphones",
+     "i": 9.56,
+     "f": 10.512
+    },
+    {
+     "p": "O",
+     "i": 11.333,
+     "f": 11.44
+    },
+    {
+     "p": "sistema",
+     "i": 11.452,
+     "f": 11.929
+    },
+    {
+     "p": "Symbian",
+     "i": 11.94,
+     "f": 12.405
+    },
+    {
+     "p": "rodava",
+     "i": 12.417,
+     "f": 12.81
+    },
+    {
+     "p": "em",
+     "i": 12.821,
+     "f": 12.905
+    },
+    {
+     "p": "mais",
+     "i": 12.917,
+     "f": 13.179
+    },
+    {
+     "p": "de",
+     "i": 13.19,
+     "f": 13.274
+    },
+    {
+     "p": "60%",
+     "i": 13.286,
+     "f": 14.19
+    },
+    {
+     "p": "dos",
+     "i": 14.202,
+     "f": 14.286
+    },
+    {
+     "p": "smartphones",
+     "i": 14.298,
+     "f": 15.155
+    },
+    {
+     "p": "e",
+     "i": 15.452,
+     "f": 15.524
+    },
+    {
+     "p": "o",
+     "i": 15.536,
+     "f": 15.631
+    },
+    {
+     "p": "N95",
+     "i": 15.643,
+     "f": 16.607
+    },
+    {
+     "p": "com",
+     "i": 16.869,
+     "f": 17.059
+    },
+    {
+     "p": "câmera",
+     "i": 17.071,
+     "f": 17.44
+    },
+    {
+     "p": "de",
+     "i": 17.452,
+     "f": 17.559
+    },
+    {
+     "p": "cinco",
+     "i": 17.571,
+     "f": 17.917
+    },
+    {
+     "p": "megapixels",
+     "i": 17.929,
+     "f": 18.667
+    },
+    {
+     "p": "era",
+     "i": 18.893,
+     "f": 19.012
+    },
+    {
+     "p": "o",
+     "i": 19.024,
+     "f": 19.059
+    },
+    {
+     "p": "sonho",
+     "i": 19.071,
+     "f": 19.405
+    },
+    {
+     "p": "de",
+     "i": 19.417,
+     "f": 19.5
+    },
+    {
+     "p": "consumo",
+     "i": 19.512,
+     "f": 20.036
+    },
+    {
+     "p": "A",
+     "i": 20.857,
+     "f": 20.964
+    },
+    {
+     "p": "Nokia",
+     "i": 20.976,
+     "f": 21.333
+    },
+    {
+     "p": "fazia",
+     "i": 21.345,
+     "f": 21.667
+    },
+    {
+     "p": "o",
+     "i": 21.679,
+     "f": 21.714
+    },
+    {
+     "p": "aparelho",
+     "i": 21.726,
+     "f": 22.179
+    },
+    {
+     "p": "que",
+     "i": 22.19,
+     "f": 22.274
+    },
+    {
+     "p": "o",
+     "i": 22.286,
+     "f": 22.309
+    },
+    {
+     "p": "mundo",
+     "i": 22.321,
+     "f": 22.583
+    },
+    {
+     "p": "queria",
+     "i": 22.595,
+     "f": 22.964
+    },
+    {
+     "p": "na",
+     "i": 23.274,
+     "f": 23.369
+    },
+    {
+     "p": "quantidade",
+     "i": 23.381,
+     "f": 23.988
+    },
+    {
+     "p": "que",
+     "i": 24,
+     "f": 24.071
+    },
+    {
+     "p": "o",
+     "i": 24.083,
+     "f": 24.107
+    },
+    {
+     "p": "mundo",
+     "i": 24.119,
+     "f": 24.393
+    },
+    {
+     "p": "comprava",
+     "i": 24.405,
+     "f": 24.929
+    },
+    {
+     "p": "No",
+     "i": 25.75,
+     "f": 25.964
+    },
+    {
+     "p": "topo",
+     "i": 25.976,
+     "f": 26.214
+    },
+    {
+     "p": "da",
+     "i": 26.226,
+     "f": 26.298
+    },
+    {
+     "p": "montanha",
+     "i": 26.31,
+     "f": 26.833
+    },
+    {
+     "p": "ela",
+     "i": 26.952,
+     "f": 27.107
+    },
+    {
+     "p": "olhou",
+     "i": 27.119,
+     "f": 27.309
+    },
+    {
+     "p": "para",
+     "i": 27.321,
+     "f": 27.512
+    },
+    {
+     "p": "baixo",
+     "i": 27.524,
+     "f": 27.964
+    },
+    {
+     "p": "e",
+     "i": 27.976,
+     "f": 28.048
+    },
+    {
+     "p": "viu",
+     "i": 28.06,
+     "f": 28.238
+    },
+    {
+     "p": "um",
+     "i": 28.25,
+     "f": 28.357
+    },
+    {
+     "p": "concorrente",
+     "i": 28.369,
+     "f": 28.94
+    },
+    {
+     "p": "de",
+     "i": 28.952,
+     "f": 29.036
+    },
+    {
+     "p": "brinquedo",
+     "i": 29.048,
+     "f": 29.536
+    },
+    {
+     "p": "Ela",
+     "i": 30.357,
+     "f": 30.595
+    },
+    {
+     "p": "olhou",
+     "i": 30.607,
+     "f": 30.869
+    },
+    {
+     "p": "errado",
+     "i": 30.881,
+     "f": 31.298
+    }
+   ]
+  },
+  "iphone": {
+   "hash": "9d543b68a1",
+   "texto": "Em 2007, Steve Jobs subiu ao palco e apresentou o iPhone. Sem teclado, sem antena para puxar e com uma tela que respondia ao dedo. A Nokia riu? Talvez. O número é que, no começo, o iPhone nem vendeu mais do que os smartphones da Nokia, como o N95. Só que o mercado estava mudando de regra. Não era mais sobre o melhor aparelho, e sim sobre a melhor experiência, com loja de aplicativos, sistema bonito e programas que não paravam de chegar.",
+   "audio": "audio/iphone-9d543b68a1.mp3",
+   "duracao": 32.16,
+   "palavras": [
+    {
+     "p": "Em 2007",
+     "i": 0.098,
+     "f": 1.05
+    },
+    {
+     "p": "Steve",
+     "i": 1.288,
+     "f": 1.633
+    },
+    {
+     "p": "Jobs",
+     "i": 1.645,
+     "f": 1.991
+    },
+    {
+     "p": "subiu",
+     "i": 2.002,
+     "f": 2.312
+    },
+    {
+     "p": "ao",
+     "i": 2.324,
+     "f": 2.455
+    },
+    {
+     "p": "palco",
+     "i": 2.467,
+     "f": 2.824
+    },
+    {
+     "p": "e",
+     "i": 2.836,
+     "f": 2.883
+    },
+    {
+     "p": "apresentou",
+     "i": 2.895,
+     "f": 3.419
+    },
+    {
+     "p": "o",
+     "i": 3.431,
+     "f": 3.479
+    },
+    {
+     "p": "iPhone",
+     "i": 3.49,
+     "f": 3.99
+    },
+    {
+     "p": "Sem",
+     "i": 4.81,
+     "f": 5.095
+    },
+    {
+     "p": "teclado",
+     "i": 5.107,
+     "f": 5.583
+    },
+    {
+     "p": "sem",
+     "i": 5.845,
+     "f": 6.048
+    },
+    {
+     "p": "antena",
+     "i": 6.06,
+     "f": 6.524
+    },
+    {
+     "p": "para",
+     "i": 6.536,
+     "f": 6.714
+    },
+    {
+     "p": "puxar",
+     "i": 6.726,
+     "f": 7.131
+    },
+    {
+     "p": "e",
+     "i": 7.143,
+     "f": 7.202
+    },
+    {
+     "p": "com",
+     "i": 7.214,
+     "f": 7.369
+    },
+    {
+     "p": "uma",
+     "i": 7.381,
+     "f": 7.548
+    },
+    {
+     "p": "tela",
+     "i": 7.56,
+     "f": 7.869
+    },
+    {
+     "p": "que",
+     "i": 7.881,
+     "f": 7.988
+    },
+    {
+     "p": "respondia",
+     "i": 8,
+     "f": 8.524
+    },
+    {
+     "p": "ao",
+     "i": 8.536,
+     "f": 8.631
+    },
+    {
+     "p": "dedo",
+     "i": 8.643,
+     "f": 8.976
+    },
+    {
+     "p": "A",
+     "i": 9.798,
+     "f": 9.905
+    },
+    {
+     "p": "Nokia",
+     "i": 9.917,
+     "f": 10.321
+    },
+    {
+     "p": "riu",
+     "i": 10.333,
+     "f": 10.631
+    },
+    {
+     "p": "Talvez",
+     "i": 11.452,
+     "f": 12.083
+    },
+    {
+     "p": "O",
+     "i": 12.905,
+     "f": 13.012
+    },
+    {
+     "p": "número",
+     "i": 13.024,
+     "f": 13.369
+    },
+    {
+     "p": "é",
+     "i": 13.381,
+     "f": 13.44
+    },
+    {
+     "p": "que",
+     "i": 13.452,
+     "f": 13.679
+    },
+    {
+     "p": "no",
+     "i": 13.917,
+     "f": 14.036
+    },
+    {
+     "p": "começo",
+     "i": 14.048,
+     "f": 14.571
+    },
+    {
+     "p": "o",
+     "i": 14.786,
+     "f": 14.857
+    },
+    {
+     "p": "iPhone",
+     "i": 14.869,
+     "f": 15.321
+    },
+    {
+     "p": "nem",
+     "i": 15.333,
+     "f": 15.5
+    },
+    {
+     "p": "vendeu",
+     "i": 15.512,
+     "f": 15.845
+    },
+    {
+     "p": "mais",
+     "i": 15.857,
+     "f": 16.107
+    },
+    {
+     "p": "do",
+     "i": 16.119,
+     "f": 16.226
+    },
+    {
+     "p": "que",
+     "i": 16.238,
+     "f": 16.309
+    },
+    {
+     "p": "os",
+     "i": 16.321,
+     "f": 16.345
+    },
+    {
+     "p": "smartphones",
+     "i": 16.357,
+     "f": 17.131
+    },
+    {
+     "p": "da",
+     "i": 17.143,
+     "f": 17.238
+    },
+    {
+     "p": "Nokia",
+     "i": 17.25,
+     "f": 17.607
+    },
+    {
+     "p": "como",
+     "i": 17.893,
+     "f": 18.167
+    },
+    {
+     "p": "o",
+     "i": 18.179,
+     "f": 18.226
+    },
+    {
+     "p": "N95",
+     "i": 18.238,
+     "f": 19.238
+    },
+    {
+     "p": "Só",
+     "i": 20.06,
+     "f": 20.369
+    },
+    {
+     "p": "que",
+     "i": 20.381,
+     "f": 20.464
+    },
+    {
+     "p": "o",
+     "i": 20.476,
+     "f": 20.5
+    },
+    {
+     "p": "mercado",
+     "i": 20.512,
+     "f": 21.012
+    },
+    {
+     "p": "estava",
+     "i": 21.024,
+     "f": 21.333
+    },
+    {
+     "p": "mudando",
+     "i": 21.345,
+     "f": 21.798
+    },
+    {
+     "p": "de",
+     "i": 21.81,
+     "f": 21.917
+    },
+    {
+     "p": "regra",
+     "i": 21.929,
+     "f": 22.345
+    },
+    {
+     "p": "Não",
+     "i": 23.167,
+     "f": 23.44
+    },
+    {
+     "p": "era",
+     "i": 23.452,
+     "f": 23.607
+    },
+    {
+     "p": "mais",
+     "i": 23.619,
+     "f": 23.845
+    },
+    {
+     "p": "sobre",
+     "i": 23.857,
+     "f": 24.059
+    },
+    {
+     "p": "o",
+     "i": 24.071,
+     "f": 24.095
+    },
+    {
+     "p": "melhor",
+     "i": 24.107,
+     "f": 24.357
+    },
+    {
+     "p": "aparelho",
+     "i": 24.369,
+     "f": 24.857
+    },
+    {
+     "p": "e",
+     "i": 25.179,
+     "f": 25.238
+    },
+    {
+     "p": "sim",
+     "i": 25.25,
+     "f": 25.476
+    },
+    {
+     "p": "sobre",
+     "i": 25.488,
+     "f": 25.726
+    },
+    {
+     "p": "a",
+     "i": 25.738,
+     "f": 25.774
+    },
+    {
+     "p": "melhor",
+     "i": 25.786,
+     "f": 26.071
+    },
+    {
+     "p": "experiência",
+     "i": 26.083,
+     "f": 26.726
+    },
+    {
+     "p": "com",
+     "i": 27.012,
+     "f": 27.238
+    },
+    {
+     "p": "loja",
+     "i": 27.25,
+     "f": 27.536
+    },
+    {
+     "p": "de",
+     "i": 27.548,
+     "f": 27.619
+    },
+    {
+     "p": "aplicativos",
+     "i": 27.631,
+     "f": 28.393
+    },
+    {
+     "p": "sistema",
+     "i": 28.655,
+     "f": 29.095
+    },
+    {
+     "p": "bonito",
+     "i": 29.107,
+     "f": 29.536
+    },
+    {
+     "p": "e",
+     "i": 29.548,
+     "f": 29.571
+    },
+    {
+     "p": "programas",
+     "i": 29.583,
+     "f": 30.107
+    },
+    {
+     "p": "que",
+     "i": 30.119,
+     "f": 30.214
+    },
+    {
+     "p": "não",
+     "i": 30.226,
+     "f": 30.393
+    },
+    {
+     "p": "paravam",
+     "i": 30.405,
+     "f": 30.821
+    },
+    {
+     "p": "de",
+     "i": 30.833,
+     "f": 30.917
+    },
+    {
+     "p": "chegar",
+     "i": 30.929,
+     "f": 31.321
+    }
+   ]
+  },
+  "symbian": {
+   "hash": "25d7b91ee8",
+   "texto": "O problema da Nokia estava por dentro. O Symbian era um sistema antigo, nascido para celulares simples, e difícil de programar. Cada aparelho parecia um projeto diferente. E os números mostram o tombo: a fatia do Symbian entre os smartphones foi de 62,5% no fim de 2007 para 52,4% em 2008, 46,1% em 2009 e 32% no fim de 2010. Enquanto isso, desenvolvedores de aplicativos corriam para o iPhone e depois para o Android. E sem aplicativos, ninguém quer um smartphone.",
+   "audio": "audio/symbian-25d7b91ee8.mp3",
+   "duracao": 37.248,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "problema",
+     "i": 0.229,
+     "f": 0.693
+    },
+    {
+     "p": "da",
+     "i": 0.705,
+     "f": 0.8
+    },
+    {
+     "p": "Nokia",
+     "i": 0.812,
+     "f": 1.133
+    },
+    {
+     "p": "estava",
+     "i": 1.145,
+     "f": 1.479
+    },
+    {
+     "p": "por",
+     "i": 1.49,
+     "f": 1.645
+    },
+    {
+     "p": "dentro",
+     "i": 1.657,
+     "f": 2.062
+    },
+    {
+     "p": "O",
+     "i": 2.881,
+     "f": 2.988
+    },
+    {
+     "p": "Symbian",
+     "i": 3,
+     "f": 3.476
+    },
+    {
+     "p": "era",
+     "i": 3.488,
+     "f": 3.643
+    },
+    {
+     "p": "um",
+     "i": 3.655,
+     "f": 3.702
+    },
+    {
+     "p": "sistema",
+     "i": 3.714,
+     "f": 4.095
+    },
+    {
+     "p": "antigo",
+     "i": 4.107,
+     "f": 4.536
+    },
+    {
+     "p": "nascido",
+     "i": 4.798,
+     "f": 5.298
+    },
+    {
+     "p": "para",
+     "i": 5.31,
+     "f": 5.5
+    },
+    {
+     "p": "celulares",
+     "i": 5.512,
+     "f": 6.024
+    },
+    {
+     "p": "simples",
+     "i": 6.036,
+     "f": 6.536
+    },
+    {
+     "p": "e",
+     "i": 6.774,
+     "f": 6.833
+    },
+    {
+     "p": "difícil",
+     "i": 6.845,
+     "f": 7.345
+    },
+    {
+     "p": "de",
+     "i": 7.357,
+     "f": 7.452
+    },
+    {
+     "p": "programar",
+     "i": 7.464,
+     "f": 7.94
+    },
+    {
+     "p": "Cada",
+     "i": 8.762,
+     "f": 9.012
+    },
+    {
+     "p": "aparelho",
+     "i": 9.024,
+     "f": 9.452
+    },
+    {
+     "p": "parecia",
+     "i": 9.464,
+     "f": 9.881
+    },
+    {
+     "p": "um",
+     "i": 9.893,
+     "f": 9.952
+    },
+    {
+     "p": "projeto",
+     "i": 9.964,
+     "f": 10.476
+    },
+    {
+     "p": "diferente",
+     "i": 10.488,
+     "f": 11.059
+    },
+    {
+     "p": "E",
+     "i": 11.881,
+     "f": 12.012
+    },
+    {
+     "p": "os",
+     "i": 12.024,
+     "f": 12.179
+    },
+    {
+     "p": "números",
+     "i": 12.19,
+     "f": 12.583
+    },
+    {
+     "p": "mostram",
+     "i": 12.595,
+     "f": 13.024
+    },
+    {
+     "p": "o",
+     "i": 13.036,
+     "f": 13.071
+    },
+    {
+     "p": "tombo",
+     "i": 13.083,
+     "f": 13.429
+    },
+    {
+     "p": "a",
+     "i": 13.702,
+     "f": 13.774
+    },
+    {
+     "p": "fatia",
+     "i": 13.786,
+     "f": 14.143
+    },
+    {
+     "p": "do",
+     "i": 14.155,
+     "f": 14.25
+    },
+    {
+     "p": "Symbian",
+     "i": 14.262,
+     "f": 14.702
+    },
+    {
+     "p": "entre",
+     "i": 14.714,
+     "f": 14.905
+    },
+    {
+     "p": "os",
+     "i": 14.917,
+     "f": 14.929
+    },
+    {
+     "p": "smartphones",
+     "i": 14.94,
+     "f": 15.738
+    },
+    {
+     "p": "foi",
+     "i": 15.75,
+     "f": 15.905
+    },
+    {
+     "p": "de",
+     "i": 15.917,
+     "f": 16
+    },
+    {
+     "p": "62,5%",
+     "i": 16.012,
+     "f": 17.881
+    },
+    {
+     "p": "no",
+     "i": 17.893,
+     "f": 17.988
+    },
+    {
+     "p": "fim",
+     "i": 18,
+     "f": 18.19
+    },
+    {
+     "p": "de",
+     "i": 18.202,
+     "f": 18.286
+    },
+    {
+     "p": "2007 para",
+     "i": 18.298,
+     "f": 19.19
+    },
+    {
+     "p": " 52,4%",
+     "i": 19.202,
+     "f": 21.155
+    },
+    {
+     "p": "em 2008",
+     "i": 21.167,
+     "f": 21.976
+    },
+    {
+     "p": "46,1%",
+     "i": 22.214,
+     "f": 23.905
+    },
+    {
+     "p": "em 2009",
+     "i": 23.917,
+     "f": 24.643
+    },
+    {
+     "p": "e",
+     "i": 24.655,
+     "f": 24.714
+    },
+    {
+     "p": "32%",
+     "i": 24.726,
+     "f": 25.738
+    },
+    {
+     "p": "no",
+     "i": 25.75,
+     "f": 25.845
+    },
+    {
+     "p": "fim",
+     "i": 25.857,
+     "f": 26.048
+    },
+    {
+     "p": "de",
+     "i": 26.06,
+     "f": 26.143
+    },
+    {
+     "p": "2010",
+     "i": 26.155,
+     "f": 27.024
+    },
+    {
+     "p": "Enquanto",
+     "i": 27.845,
+     "f": 28.369
+    },
+    {
+     "p": "isso",
+     "i": 28.381,
+     "f": 28.667
+    },
+    {
+     "p": "desenvolvedores",
+     "i": 28.905,
+     "f": 29.726
+    },
+    {
+     "p": "de",
+     "i": 29.738,
+     "f": 29.786
+    },
+    {
+     "p": "aplicativos",
+     "i": 29.798,
+     "f": 30.405
+    },
+    {
+     "p": "corriam",
+     "i": 30.417,
+     "f": 30.786
+    },
+    {
+     "p": "para",
+     "i": 30.798,
+     "f": 30.952
+    },
+    {
+     "p": "o",
+     "i": 30.964,
+     "f": 31
+    },
+    {
+     "p": "iPhone",
+     "i": 31.012,
+     "f": 31.464
+    },
+    {
+     "p": "e",
+     "i": 31.476,
+     "f": 31.5
+    },
+    {
+     "p": "depois",
+     "i": 31.512,
+     "f": 31.952
+    },
+    {
+     "p": "para",
+     "i": 31.964,
+     "f": 32.119
+    },
+    {
+     "p": "o",
+     "i": 32.131,
+     "f": 32.179
+    },
+    {
+     "p": "Android",
+     "i": 32.19,
+     "f": 32.69
+    },
+    {
+     "p": "E",
+     "i": 33.512,
+     "f": 33.607
+    },
+    {
+     "p": "sem",
+     "i": 33.619,
+     "f": 33.881
+    },
+    {
+     "p": "aplicativos",
+     "i": 33.893,
+     "f": 34.691
+    },
+    {
+     "p": "ninguém",
+     "i": 34.833,
+     "f": 35.31
+    },
+    {
+     "p": "quer",
+     "i": 35.321,
+     "f": 35.512
+    },
+    {
+     "p": "um",
+     "i": 35.524,
+     "f": 35.607
+    },
+    {
+     "p": "smartphone",
+     "i": 35.619,
+     "f": 36.417
+    }
+   ]
+  },
+  "elop": {
+   "hash": "33c453bd89",
+   "texto": "Em setembro de 2010, a Nokia contratou um novo chefe: Stephen Elop, que vinha direto da Microsoft. Ele chegou com uma missão que parecia impossível: consertar um navio enorme, com milhares de engenheiros trabalhando em sistemas diferentes e brigando entre si. A Nokia tinha dinheiro, tinha fábricas e tinha fãs. O que ela não tinha era um sistema competitivo, nem tempo sobrando.",
+   "audio": "audio/elop-33c453bd89.mp3",
+   "duracao": 24.408,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.098,
+     "f": 0.24
+    },
+    {
+     "p": "setembro",
+     "i": 0.252,
+     "f": 0.752
+    },
+    {
+     "p": "de",
+     "i": 0.764,
+     "f": 0.836
+    },
+    {
+     "p": "2010",
+     "i": 0.848,
+     "f": 1.61
+    },
+    {
+     "p": "a",
+     "i": 1.848,
+     "f": 1.919
+    },
+    {
+     "p": "Nokia",
+     "i": 1.931,
+     "f": 2.252
+    },
+    {
+     "p": "contratou",
+     "i": 2.264,
+     "f": 2.681
+    },
+    {
+     "p": "um",
+     "i": 2.693,
+     "f": 2.788
+    },
+    {
+     "p": "novo",
+     "i": 2.8,
+     "f": 3.062
+    },
+    {
+     "p": "chefe",
+     "i": 3.074,
+     "f": 3.562
+    },
+    {
+     "p": "Stephen",
+     "i": 3.788,
+     "f": 4.264
+    },
+    {
+     "p": "Elop",
+     "i": 4.276,
+     "f": 4.598
+    },
+    {
+     "p": "que",
+     "i": 4.788,
+     "f": 4.931
+    },
+    {
+     "p": "vinha",
+     "i": 4.943,
+     "f": 5.205
+    },
+    {
+     "p": "direto",
+     "i": 5.217,
+     "f": 5.621
+    },
+    {
+     "p": "da",
+     "i": 5.633,
+     "f": 5.717
+    },
+    {
+     "p": "Microsoft",
+     "i": 5.729,
+     "f": 6.562
+    },
+    {
+     "p": "Ele",
+     "i": 7.381,
+     "f": 7.583
+    },
+    {
+     "p": "chegou",
+     "i": 7.595,
+     "f": 7.917
+    },
+    {
+     "p": "com",
+     "i": 7.929,
+     "f": 8.083
+    },
+    {
+     "p": "uma",
+     "i": 8.095,
+     "f": 8.202
+    },
+    {
+     "p": "missão",
+     "i": 8.214,
+     "f": 8.595
+    },
+    {
+     "p": "que",
+     "i": 8.607,
+     "f": 8.702
+    },
+    {
+     "p": "parecia",
+     "i": 8.714,
+     "f": 9.155
+    },
+    {
+     "p": "impossível",
+     "i": 9.167,
+     "f": 9.821
+    },
+    {
+     "p": "consertar",
+     "i": 10.155,
+     "f": 10.714
+    },
+    {
+     "p": "um",
+     "i": 10.726,
+     "f": 10.774
+    },
+    {
+     "p": "navio",
+     "i": 10.786,
+     "f": 11.107
+    },
+    {
+     "p": "enorme",
+     "i": 11.119,
+     "f": 11.571
+    },
+    {
+     "p": "com",
+     "i": 11.857,
+     "f": 12.012
+    },
+    {
+     "p": "milhares",
+     "i": 12.024,
+     "f": 12.429
+    },
+    {
+     "p": "de",
+     "i": 12.44,
+     "f": 12.524
+    },
+    {
+     "p": "engenheiros",
+     "i": 12.536,
+     "f": 13.024
+    },
+    {
+     "p": "trabalhando",
+     "i": 13.036,
+     "f": 13.512
+    },
+    {
+     "p": "em",
+     "i": 13.524,
+     "f": 13.583
+    },
+    {
+     "p": "sistemas",
+     "i": 13.595,
+     "f": 14.095
+    },
+    {
+     "p": "diferentes",
+     "i": 14.107,
+     "f": 14.619
+    },
+    {
+     "p": "e",
+     "i": 14.631,
+     "f": 14.726
+    },
+    {
+     "p": "brigando",
+     "i": 14.738,
+     "f": 15.167
+    },
+    {
+     "p": "entre",
+     "i": 15.179,
+     "f": 15.393
+    },
+    {
+     "p": "si",
+     "i": 15.405,
+     "f": 15.69
+    },
+    {
+     "p": "A",
+     "i": 16.512,
+     "f": 16.607
+    },
+    {
+     "p": "Nokia",
+     "i": 16.619,
+     "f": 16.952
+    },
+    {
+     "p": "tinha",
+     "i": 16.964,
+     "f": 17.202
+    },
+    {
+     "p": "dinheiro",
+     "i": 17.214,
+     "f": 17.595
+    },
+    {
+     "p": "tinha",
+     "i": 17.762,
+     "f": 18.024
+    },
+    {
+     "p": "fábricas",
+     "i": 18.036,
+     "f": 18.476
+    },
+    {
+     "p": "e",
+     "i": 18.488,
+     "f": 18.607
+    },
+    {
+     "p": "tinha",
+     "i": 18.619,
+     "f": 18.881
+    },
+    {
+     "p": "fãs",
+     "i": 18.893,
+     "f": 19.321
+    },
+    {
+     "p": "O",
+     "i": 20.143,
+     "f": 20.262
+    },
+    {
+     "p": "que",
+     "i": 20.274,
+     "f": 20.393
+    },
+    {
+     "p": "ela",
+     "i": 20.405,
+     "f": 20.559
+    },
+    {
+     "p": "não",
+     "i": 20.571,
+     "f": 20.702
+    },
+    {
+     "p": "tinha",
+     "i": 20.714,
+     "f": 20.952
+    },
+    {
+     "p": "era",
+     "i": 20.964,
+     "f": 21.071
+    },
+    {
+     "p": "um",
+     "i": 21.083,
+     "f": 21.131
+    },
+    {
+     "p": "sistema",
+     "i": 21.143,
+     "f": 21.548
+    },
+    {
+     "p": "competitivo",
+     "i": 21.56,
+     "f": 22.298
+    },
+    {
+     "p": "nem",
+     "i": 22.5,
+     "f": 22.738
+    },
+    {
+     "p": "tempo",
+     "i": 22.75,
+     "f": 23.048
+    },
+    {
+     "p": "sobrando",
+     "i": 23.06,
+     "f": 23.583
+    }
+   ]
+  },
+  "plataforma-em-chamas": {
+   "hash": "d63e66624c",
+   "texto": "Em fevereiro de 2011, Elop mandou um memorando para todos os funcionários, que logo vazou. Ele contava a história de um homem numa plataforma de petróleo em chamas, que precisa escolher entre queimar e pular no mar gelado. A mensagem era clara: a Nokia estava na plataforma pegando fogo. Segundo a imprensa, ele chamou o Symbian de pouco competitivo em mercados como a América do Norte. O texto foi sincero, e justamente por isso assustou quem trabalhava lá.",
+   "audio": "audio/plataforma-em-chamas-d63e66624c.mp3",
+   "duracao": 28.944,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.098,
+     "f": 0.229
+    },
+    {
+     "p": "fevereiro",
+     "i": 0.24,
+     "f": 0.729
+    },
+    {
+     "p": "de",
+     "i": 0.74,
+     "f": 0.824
+    },
+    {
+     "p": "2011",
+     "i": 0.836,
+     "f": 1.621
+    },
+    {
+     "p": "Elop",
+     "i": 1.871,
+     "f": 2.145
+    },
+    {
+     "p": "mandou",
+     "i": 2.157,
+     "f": 2.431
+    },
+    {
+     "p": "um",
+     "i": 2.443,
+     "f": 2.502
+    },
+    {
+     "p": "memorando",
+     "i": 2.514,
+     "f": 3.026
+    },
+    {
+     "p": "para",
+     "i": 3.038,
+     "f": 3.252
+    },
+    {
+     "p": "todos",
+     "i": 3.264,
+     "f": 3.55
+    },
+    {
+     "p": "os",
+     "i": 3.562,
+     "f": 3.705
+    },
+    {
+     "p": "funcionários",
+     "i": 3.717,
+     "f": 4.407
+    },
+    {
+     "p": "que",
+     "i": 4.598,
+     "f": 4.729
+    },
+    {
+     "p": "logo",
+     "i": 4.74,
+     "f": 5.074
+    },
+    {
+     "p": "vazou",
+     "i": 5.086,
+     "f": 5.514
+    },
+    {
+     "p": "Ele",
+     "i": 6.333,
+     "f": 6.512
+    },
+    {
+     "p": "contava",
+     "i": 6.524,
+     "f": 6.917
+    },
+    {
+     "p": "a",
+     "i": 6.929,
+     "f": 6.94
+    },
+    {
+     "p": "história",
+     "i": 6.952,
+     "f": 7.345
+    },
+    {
+     "p": "de",
+     "i": 7.357,
+     "f": 7.44
+    },
+    {
+     "p": "um",
+     "i": 7.452,
+     "f": 7.548
+    },
+    {
+     "p": "homem",
+     "i": 7.56,
+     "f": 7.833
+    },
+    {
+     "p": "numa",
+     "i": 7.845,
+     "f": 8.024
+    },
+    {
+     "p": "plataforma",
+     "i": 8.036,
+     "f": 8.679
+    },
+    {
+     "p": "de",
+     "i": 8.69,
+     "f": 8.774
+    },
+    {
+     "p": "petróleo",
+     "i": 8.786,
+     "f": 9.179
+    },
+    {
+     "p": "em",
+     "i": 9.19,
+     "f": 9.25
+    },
+    {
+     "p": "chamas",
+     "i": 9.262,
+     "f": 9.714
+    },
+    {
+     "p": "que",
+     "i": 9.964,
+     "f": 10.095
+    },
+    {
+     "p": "precisa",
+     "i": 10.107,
+     "f": 10.5
+    },
+    {
+     "p": "escolher",
+     "i": 10.512,
+     "f": 10.869
+    },
+    {
+     "p": "entre",
+     "i": 10.881,
+     "f": 11.095
+    },
+    {
+     "p": "queimar",
+     "i": 11.107,
+     "f": 11.512
+    },
+    {
+     "p": "e",
+     "i": 11.524,
+     "f": 11.571
+    },
+    {
+     "p": "pular",
+     "i": 11.583,
+     "f": 11.964
+    },
+    {
+     "p": "no",
+     "i": 11.976,
+     "f": 12.071
+    },
+    {
+     "p": "mar",
+     "i": 12.083,
+     "f": 12.274
+    },
+    {
+     "p": "gelado",
+     "i": 12.286,
+     "f": 12.738
+    },
+    {
+     "p": "A",
+     "i": 13.56,
+     "f": 13.643
+    },
+    {
+     "p": "mensagem",
+     "i": 13.655,
+     "f": 14.274
+    },
+    {
+     "p": "era",
+     "i": 14.286,
+     "f": 14.44
+    },
+    {
+     "p": "clara",
+     "i": 14.452,
+     "f": 14.821
+    },
+    {
+     "p": "a",
+     "i": 15.024,
+     "f": 15.107
+    },
+    {
+     "p": "Nokia",
+     "i": 15.119,
+     "f": 15.429
+    },
+    {
+     "p": "estava",
+     "i": 15.44,
+     "f": 15.726
+    },
+    {
+     "p": "na",
+     "i": 15.738,
+     "f": 15.845
+    },
+    {
+     "p": "plataforma",
+     "i": 15.857,
+     "f": 16.488
+    },
+    {
+     "p": "pegando",
+     "i": 16.5,
+     "f": 16.869
+    },
+    {
+     "p": "fogo",
+     "i": 16.881,
+     "f": 17.31
+    },
+    {
+     "p": "Segundo",
+     "i": 18.131,
+     "f": 18.631
+    },
+    {
+     "p": "a",
+     "i": 18.643,
+     "f": 18.667
+    },
+    {
+     "p": "imprensa",
+     "i": 18.679,
+     "f": 19.214
+    },
+    {
+     "p": "ele",
+     "i": 19.429,
+     "f": 19.56
+    },
+    {
+     "p": "chamou",
+     "i": 19.571,
+     "f": 19.881
+    },
+    {
+     "p": "o",
+     "i": 19.893,
+     "f": 19.929
+    },
+    {
+     "p": "Symbian",
+     "i": 19.94,
+     "f": 20.369
+    },
+    {
+     "p": "de",
+     "i": 20.381,
+     "f": 20.476
+    },
+    {
+     "p": "pouco",
+     "i": 20.488,
+     "f": 20.786
+    },
+    {
+     "p": "competitivo",
+     "i": 20.798,
+     "f": 21.441
+    },
+    {
+     "p": "em",
+     "i": 21.452,
+     "f": 21.5
+    },
+    {
+     "p": "mercados",
+     "i": 21.512,
+     "f": 22.036
+    },
+    {
+     "p": "como",
+     "i": 22.048,
+     "f": 22.25
+    },
+    {
+     "p": "a",
+     "i": 22.262,
+     "f": 22.298
+    },
+    {
+     "p": "América",
+     "i": 22.31,
+     "f": 22.69
+    },
+    {
+     "p": "do",
+     "i": 22.702,
+     "f": 22.798
+    },
+    {
+     "p": "Norte",
+     "i": 22.81,
+     "f": 23.25
+    },
+    {
+     "p": "O",
+     "i": 24.071,
+     "f": 24.238
+    },
+    {
+     "p": "texto",
+     "i": 24.25,
+     "f": 24.643
+    },
+    {
+     "p": "foi",
+     "i": 24.655,
+     "f": 24.809
+    },
+    {
+     "p": "sincero",
+     "i": 24.821,
+     "f": 25.369
+    },
+    {
+     "p": "e",
+     "i": 25.667,
+     "f": 25.726
+    },
+    {
+     "p": "justamente",
+     "i": 25.738,
+     "f": 26.333
+    },
+    {
+     "p": "por",
+     "i": 26.345,
+     "f": 26.476
+    },
+    {
+     "p": "isso",
+     "i": 26.488,
+     "f": 26.714
+    },
+    {
+     "p": "assustou",
+     "i": 26.726,
+     "f": 27.143
+    },
+    {
+     "p": "quem",
+     "i": 27.155,
+     "f": 27.321
+    },
+    {
+     "p": "trabalhava",
+     "i": 27.333,
+     "f": 27.845
+    },
+    {
+     "p": "lá",
+     "i": 27.857,
+     "f": 28.119
+    }
+   ]
+  },
+  "aposta-windows-phone": {
+   "hash": "0b098a59c4",
+   "texto": "Poucos dias depois, no dia 11 de fevereiro de 2011, veio a decisão: a Nokia largaria o Symbian e adotaria o Windows Phone, da Microsoft. Em vez do Android, que já crescia como ninguém, ela escolheu um sistema novo e quase sem aplicativos. Dali saíram os Lumia, que tinham design lindo e câmera ótima. Só que nasceram numa loja vazia. O sistema antigo foi abandonado antes de o novo estar pronto, e o intervalo foi cruel para as vendas.",
+   "audio": "audio/aposta-windows-phone-0b098a59c4.mp3",
+   "duracao": 29.304,
+   "palavras": [
+    {
+     "p": "Poucos",
+     "i": 0.098,
+     "f": 0.467
+    },
+    {
+     "p": "dias",
+     "i": 0.479,
+     "f": 0.717
+    },
+    {
+     "p": "depois",
+     "i": 0.729,
+     "f": 1.24
+    },
+    {
+     "p": "no",
+     "i": 1.371,
+     "f": 1.502
+    },
+    {
+     "p": "dia",
+     "i": 1.514,
+     "f": 1.729
+    },
+    {
+     "p": "11 de fevereiro de 2011",
+     "i": 1.74,
+     "f": 3.455
+    },
+    {
+     "p": "veio",
+     "i": 3.717,
+     "f": 3.955
+    },
+    {
+     "p": "a",
+     "i": 3.967,
+     "f": 4.002
+    },
+    {
+     "p": "decisão",
+     "i": 4.014,
+     "f": 4.49
+    },
+    {
+     "p": "a",
+     "i": 4.788,
+     "f": 4.859
+    },
+    {
+     "p": "Nokia",
+     "i": 4.871,
+     "f": 5.169
+    },
+    {
+     "p": "largaria",
+     "i": 5.181,
+     "f": 5.574
+    },
+    {
+     "p": "o",
+     "i": 5.586,
+     "f": 5.609
+    },
+    {
+     "p": "Symbian",
+     "i": 5.621,
+     "f": 6.074
+    },
+    {
+     "p": "e",
+     "i": 6.086,
+     "f": 6.181
+    },
+    {
+     "p": "adotaria",
+     "i": 6.193,
+     "f": 6.669
+    },
+    {
+     "p": "o",
+     "i": 6.681,
+     "f": 6.729
+    },
+    {
+     "p": "Windows",
+     "i": 6.74,
+     "f": 7.121
+    },
+    {
+     "p": "Phone",
+     "i": 7.133,
+     "f": 7.443
+    },
+    {
+     "p": "da",
+     "i": 7.705,
+     "f": 7.812
+    },
+    {
+     "p": "Microsoft",
+     "i": 7.824,
+     "f": 8.681
+    },
+    {
+     "p": "Em",
+     "i": 9.5,
+     "f": 9.679
+    },
+    {
+     "p": "vez",
+     "i": 9.69,
+     "f": 9.952
+    },
+    {
+     "p": "do",
+     "i": 9.964,
+     "f": 10.06
+    },
+    {
+     "p": "Android",
+     "i": 10.071,
+     "f": 10.548
+    },
+    {
+     "p": "que",
+     "i": 10.726,
+     "f": 10.857
+    },
+    {
+     "p": "já",
+     "i": 10.869,
+     "f": 11.048
+    },
+    {
+     "p": "crescia",
+     "i": 11.06,
+     "f": 11.464
+    },
+    {
+     "p": "como",
+     "i": 11.476,
+     "f": 11.69
+    },
+    {
+     "p": "ninguém",
+     "i": 11.702,
+     "f": 12.059
+    },
+    {
+     "p": "ela",
+     "i": 12.321,
+     "f": 12.429
+    },
+    {
+     "p": "escolheu",
+     "i": 12.44,
+     "f": 12.798
+    },
+    {
+     "p": "um",
+     "i": 12.81,
+     "f": 12.893
+    },
+    {
+     "p": "sistema",
+     "i": 12.905,
+     "f": 13.345
+    },
+    {
+     "p": "novo",
+     "i": 13.357,
+     "f": 13.702
+    },
+    {
+     "p": "e",
+     "i": 13.714,
+     "f": 13.75
+    },
+    {
+     "p": "quase",
+     "i": 13.762,
+     "f": 14.119
+    },
+    {
+     "p": "sem",
+     "i": 14.131,
+     "f": 14.369
+    },
+    {
+     "p": "aplicativos",
+     "i": 14.381,
+     "f": 15.179
+    },
+    {
+     "p": "Dali",
+     "i": 16,
+     "f": 16.393
+    },
+    {
+     "p": "saíram",
+     "i": 16.405,
+     "f": 16.798
+    },
+    {
+     "p": "os",
+     "i": 16.81,
+     "f": 16.917
+    },
+    {
+     "p": "Lumia",
+     "i": 16.929,
+     "f": 17.262
+    },
+    {
+     "p": "que",
+     "i": 17.464,
+     "f": 17.607
+    },
+    {
+     "p": "tinham",
+     "i": 17.619,
+     "f": 17.905
+    },
+    {
+     "p": "design",
+     "i": 17.917,
+     "f": 18.369
+    },
+    {
+     "p": "lindo",
+     "i": 18.381,
+     "f": 18.679
+    },
+    {
+     "p": "e",
+     "i": 18.69,
+     "f": 18.75
+    },
+    {
+     "p": "câmera",
+     "i": 18.762,
+     "f": 19.143
+    },
+    {
+     "p": "ótima",
+     "i": 19.155,
+     "f": 19.571
+    },
+    {
+     "p": "Só",
+     "i": 20.393,
+     "f": 20.679
+    },
+    {
+     "p": "que",
+     "i": 20.69,
+     "f": 20.798
+    },
+    {
+     "p": "nasceram",
+     "i": 20.81,
+     "f": 21.238
+    },
+    {
+     "p": "numa",
+     "i": 21.25,
+     "f": 21.44
+    },
+    {
+     "p": "loja",
+     "i": 21.452,
+     "f": 21.809
+    },
+    {
+     "p": "vazia",
+     "i": 21.821,
+     "f": 22.321
+    },
+    {
+     "p": "O",
+     "i": 23.143,
+     "f": 23.25
+    },
+    {
+     "p": "sistema",
+     "i": 23.262,
+     "f": 23.655
+    },
+    {
+     "p": "antigo",
+     "i": 23.667,
+     "f": 24.083
+    },
+    {
+     "p": "foi",
+     "i": 24.095,
+     "f": 24.214
+    },
+    {
+     "p": "abandonado",
+     "i": 24.226,
+     "f": 24.786
+    },
+    {
+     "p": "antes",
+     "i": 24.798,
+     "f": 25.095
+    },
+    {
+     "p": "de",
+     "i": 25.107,
+     "f": 25.167
+    },
+    {
+     "p": "o",
+     "i": 25.179,
+     "f": 25.202
+    },
+    {
+     "p": "novo",
+     "i": 25.214,
+     "f": 25.488
+    },
+    {
+     "p": "estar",
+     "i": 25.5,
+     "f": 25.75
+    },
+    {
+     "p": "pronto",
+     "i": 25.762,
+     "f": 26.167
+    },
+    {
+     "p": "e",
+     "i": 26.44,
+     "f": 26.524
+    },
+    {
+     "p": "o",
+     "i": 26.536,
+     "f": 26.571
+    },
+    {
+     "p": "intervalo",
+     "i": 26.583,
+     "f": 27.167
+    },
+    {
+     "p": "foi",
+     "i": 27.179,
+     "f": 27.333
+    },
+    {
+     "p": "cruel",
+     "i": 27.345,
+     "f": 27.679
+    },
+    {
+     "p": "para",
+     "i": 27.69,
+     "f": 27.845
+    },
+    {
+     "p": "as",
+     "i": 27.857,
+     "f": 27.976
+    },
+    {
+     "p": "vendas",
+     "i": 27.988,
+     "f": 28.464
+    }
+   ]
+  },
+  "queda": {
+   "hash": "a73487d75d",
+   "texto": "O resultado veio rápido. Em 2013, segundo dados citados pela Wamda, a participação global da Nokia tinha caído para 14,8% e, entre smartphones, para menos de 3,8%. Antes, eram 40% e 49%. A Samsung e a Apple assumiram o trono, e os celulares baratos da Ásia roubaram o resto. Foi uma das maiores quedas da história da tecnologia: em apenas seis anos, a empresa que mandava no mercado virou coadjuvante de luxo no meio do caminho.",
+   "audio": "audio/queda-a73487d75d.mp3",
+   "duracao": 32.712,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.181
+    },
+    {
+     "p": "resultado",
+     "i": 0.193,
+     "f": 0.8
+    },
+    {
+     "p": "veio",
+     "i": 0.812,
+     "f": 1.074
+    },
+    {
+     "p": "rápido",
+     "i": 1.086,
+     "f": 1.538
+    },
+    {
+     "p": "Em 2013",
+     "i": 2.357,
+     "f": 3.238
+    },
+    {
+     "p": "segundo",
+     "i": 3.524,
+     "f": 3.917
+    },
+    {
+     "p": "dados",
+     "i": 3.929,
+     "f": 4.226
+    },
+    {
+     "p": "citados",
+     "i": 4.238,
+     "f": 4.655
+    },
+    {
+     "p": "pela",
+     "i": 4.667,
+     "f": 4.869
+    },
+    {
+     "p": "Wamda",
+     "i": 4.881,
+     "f": 5.226
+    },
+    {
+     "p": "a",
+     "i": 5.44,
+     "f": 5.512
+    },
+    {
+     "p": "participação",
+     "i": 5.524,
+     "f": 6.167
+    },
+    {
+     "p": "global",
+     "i": 6.179,
+     "f": 6.583
+    },
+    {
+     "p": "da",
+     "i": 6.595,
+     "f": 6.679
+    },
+    {
+     "p": "Nokia",
+     "i": 6.69,
+     "f": 7
+    },
+    {
+     "p": "tinha",
+     "i": 7.012,
+     "f": 7.238
+    },
+    {
+     "p": "caído",
+     "i": 7.25,
+     "f": 7.619
+    },
+    {
+     "p": "para",
+     "i": 7.631,
+     "f": 7.821
+    },
+    {
+     "p": "14,8%",
+     "i": 7.833,
+     "f": 9.607
+    },
+    {
+     "p": "e",
+     "i": 9.619,
+     "f": 9.667
+    },
+    {
+     "p": "entre",
+     "i": 9.893,
+     "f": 10.155
+    },
+    {
+     "p": "smartphones",
+     "i": 10.167,
+     "f": 10.964
+    },
+    {
+     "p": "para",
+     "i": 11.19,
+     "f": 11.369
+    },
+    {
+     "p": "menos",
+     "i": 11.381,
+     "f": 11.714
+    },
+    {
+     "p": "de",
+     "i": 11.726,
+     "f": 11.845
+    },
+    {
+     "p": "3,8%",
+     "i": 11.857,
+     "f": 13.381
+    },
+    {
+     "p": "Antes",
+     "i": 14.202,
+     "f": 14.655
+    },
+    {
+     "p": "eram",
+     "i": 14.893,
+     "f": 15.071
+    },
+    {
+     "p": "40%",
+     "i": 15.083,
+     "f": 15.952
+    },
+    {
+     "p": "e",
+     "i": 15.964,
+     "f": 15.976
+    },
+    {
+     "p": "49%",
+     "i": 15.988,
+     "f": 17.083
+    },
+    {
+     "p": "A",
+     "i": 17.905,
+     "f": 18.012
+    },
+    {
+     "p": "Samsung",
+     "i": 18.024,
+     "f": 18.679
+    },
+    {
+     "p": "e",
+     "i": 18.69,
+     "f": 18.726
+    },
+    {
+     "p": "a",
+     "i": 18.738,
+     "f": 18.798
+    },
+    {
+     "p": "Apple",
+     "i": 18.81,
+     "f": 19.119
+    },
+    {
+     "p": "assumiram",
+     "i": 19.131,
+     "f": 19.548
+    },
+    {
+     "p": "o",
+     "i": 19.56,
+     "f": 19.595
+    },
+    {
+     "p": "trono",
+     "i": 19.607,
+     "f": 19.94
+    },
+    {
+     "p": "e",
+     "i": 20.214,
+     "f": 20.31
+    },
+    {
+     "p": "os",
+     "i": 20.321,
+     "f": 20.405
+    },
+    {
+     "p": "celulares",
+     "i": 20.417,
+     "f": 20.94
+    },
+    {
+     "p": "baratos",
+     "i": 20.952,
+     "f": 21.44
+    },
+    {
+     "p": "da",
+     "i": 21.452,
+     "f": 21.548
+    },
+    {
+     "p": "Ásia",
+     "i": 21.56,
+     "f": 21.857
+    },
+    {
+     "p": "roubaram",
+     "i": 21.869,
+     "f": 22.345
+    },
+    {
+     "p": "o",
+     "i": 22.357,
+     "f": 22.393
+    },
+    {
+     "p": "resto",
+     "i": 22.405,
+     "f": 22.809
+    },
+    {
+     "p": "Foi",
+     "i": 23.631,
+     "f": 23.893
+    },
+    {
+     "p": "uma",
+     "i": 23.905,
+     "f": 24.048
+    },
+    {
+     "p": "das",
+     "i": 24.06,
+     "f": 24.202
+    },
+    {
+     "p": "maiores",
+     "i": 24.214,
+     "f": 24.667
+    },
+    {
+     "p": "quedas",
+     "i": 24.679,
+     "f": 24.988
+    },
+    {
+     "p": "da",
+     "i": 25,
+     "f": 25.071
+    },
+    {
+     "p": "história",
+     "i": 25.083,
+     "f": 25.44
+    },
+    {
+     "p": "da",
+     "i": 25.452,
+     "f": 25.559
+    },
+    {
+     "p": "tecnologia",
+     "i": 25.571,
+     "f": 26.321
+    },
+    {
+     "p": "em",
+     "i": 26.607,
+     "f": 26.702
+    },
+    {
+     "p": "apenas",
+     "i": 26.714,
+     "f": 27.119
+    },
+    {
+     "p": "seis",
+     "i": 27.131,
+     "f": 27.298
+    },
+    {
+     "p": "anos",
+     "i": 27.31,
+     "f": 27.702
+    },
+    {
+     "p": "a",
+     "i": 27.952,
+     "f": 28
+    },
+    {
+     "p": "empresa",
+     "i": 28.012,
+     "f": 28.488
+    },
+    {
+     "p": "que",
+     "i": 28.5,
+     "f": 28.595
+    },
+    {
+     "p": "mandava",
+     "i": 28.607,
+     "f": 29.012
+    },
+    {
+     "p": "no",
+     "i": 29.024,
+     "f": 29.095
+    },
+    {
+     "p": "mercado",
+     "i": 29.107,
+     "f": 29.583
+    },
+    {
+     "p": "virou",
+     "i": 29.595,
+     "f": 29.821
+    },
+    {
+     "p": "coadjuvante",
+     "i": 29.833,
+     "f": 30.548
+    },
+    {
+     "p": "de",
+     "i": 30.56,
+     "f": 30.643
+    },
+    {
+     "p": "luxo",
+     "i": 30.655,
+     "f": 30.964
+    },
+    {
+     "p": "no",
+     "i": 30.976,
+     "f": 31.06
+    },
+    {
+     "p": "meio",
+     "i": 31.071,
+     "f": 31.298
+    },
+    {
+     "p": "do",
+     "i": 31.31,
+     "f": 31.44
+    },
+    {
+     "p": "caminho",
+     "i": 31.452,
+     "f": 31.893
+    }
+   ]
+  },
+  "venda-microsoft": {
+   "hash": "9146c19ba1",
+   "texto": "Em setembro de 2013, a Nokia anunciou que venderia a divisão de celulares e licenciaria suas patentes para a Microsoft por cerca de 5,4 bilhões de euros, o equivalente a 7,2 bilhões de dólares. Eram 3,79 bilhões pela divisão de aparelhos e 1,65 bilhão pelas patentes, por dez anos. Os acionistas aprovaram com 99,5% dos votos. O negócio foi concluído em abril de 2014. Em outras palavras, a Nokia vendeu o que fez dela famosa, e a ironia é que o comprador era o antigo empregador do chefe.",
+   "audio": "audio/venda-microsoft-9146c19ba1.mp3",
+   "duracao": 36.432,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "setembro",
+     "i": 0.229,
+     "f": 0.729
+    },
+    {
+     "p": "de",
+     "i": 0.74,
+     "f": 0.812
+    },
+    {
+     "p": "2013",
+     "i": 0.824,
+     "f": 1.538
+    },
+    {
+     "p": "a",
+     "i": 1.764,
+     "f": 1.836
+    },
+    {
+     "p": "Nokia",
+     "i": 1.848,
+     "f": 2.145
+    },
+    {
+     "p": "anunciou",
+     "i": 2.157,
+     "f": 2.61
+    },
+    {
+     "p": "que",
+     "i": 2.621,
+     "f": 2.705
+    },
+    {
+     "p": "venderia",
+     "i": 2.717,
+     "f": 3.086
+    },
+    {
+     "p": "a",
+     "i": 3.098,
+     "f": 3.133
+    },
+    {
+     "p": "divisão",
+     "i": 3.145,
+     "f": 3.55
+    },
+    {
+     "p": "de",
+     "i": 3.562,
+     "f": 3.645
+    },
+    {
+     "p": "celulares",
+     "i": 3.657,
+     "f": 4.181
+    },
+    {
+     "p": "e",
+     "i": 4.193,
+     "f": 4.3
+    },
+    {
+     "p": "licenciaria",
+     "i": 4.312,
+     "f": 4.931
+    },
+    {
+     "p": "suas",
+     "i": 4.943,
+     "f": 5.157
+    },
+    {
+     "p": "patentes",
+     "i": 5.169,
+     "f": 5.681
+    },
+    {
+     "p": "para",
+     "i": 5.693,
+     "f": 5.824
+    },
+    {
+     "p": "a",
+     "i": 5.836,
+     "f": 5.848
+    },
+    {
+     "p": "Microsoft",
+     "i": 5.86,
+     "f": 6.621
+    },
+    {
+     "p": "por",
+     "i": 6.633,
+     "f": 6.776
+    },
+    {
+     "p": "cerca",
+     "i": 6.788,
+     "f": 7.121
+    },
+    {
+     "p": "de",
+     "i": 7.133,
+     "f": 7.24
+    },
+    {
+     "p": "5,4 bilhões",
+     "i": 7.252,
+     "f": 8.8
+    },
+    {
+     "p": "de",
+     "i": 8.812,
+     "f": 8.907
+    },
+    {
+     "p": "euros",
+     "i": 8.919,
+     "f": 9.24
+    },
+    {
+     "p": "o",
+     "i": 9.526,
+     "f": 9.586
+    },
+    {
+     "p": "equivalente",
+     "i": 9.598,
+     "f": 10.145
+    },
+    {
+     "p": "a",
+     "i": 10.157,
+     "f": 10.193
+    },
+    {
+     "p": "7,2 bilhões",
+     "i": 10.205,
+     "f": 11.705
+    },
+    {
+     "p": "de",
+     "i": 11.717,
+     "f": 11.812
+    },
+    {
+     "p": "dólares",
+     "i": 11.824,
+     "f": 12.359
+    },
+    {
+     "p": "Eram",
+     "i": 13.179,
+     "f": 13.464
+    },
+    {
+     "p": "3,79 bilhões",
+     "i": 13.476,
+     "f": 15.143
+    },
+    {
+     "p": "pela",
+     "i": 15.155,
+     "f": 15.333
+    },
+    {
+     "p": "divisão",
+     "i": 15.345,
+     "f": 15.714
+    },
+    {
+     "p": "de",
+     "i": 15.726,
+     "f": 15.798
+    },
+    {
+     "p": "aparelhos",
+     "i": 15.81,
+     "f": 16.25
+    },
+    {
+     "p": "e",
+     "i": 16.262,
+     "f": 16.417
+    },
+    {
+     "p": "1,65 bilhão",
+     "i": 16.429,
+     "f": 17.905
+    },
+    {
+     "p": "pelas",
+     "i": 17.917,
+     "f": 18.155
+    },
+    {
+     "p": "patentes",
+     "i": 18.167,
+     "f": 18.714
+    },
+    {
+     "p": "por",
+     "i": 18.917,
+     "f": 19.095
+    },
+    {
+     "p": "dez",
+     "i": 19.107,
+     "f": 19.321
+    },
+    {
+     "p": "anos",
+     "i": 19.333,
+     "f": 19.833
+    },
+    {
+     "p": "Os",
+     "i": 20.655,
+     "f": 20.75
+    },
+    {
+     "p": "acionistas",
+     "i": 20.762,
+     "f": 21.381
+    },
+    {
+     "p": "aprovaram",
+     "i": 21.393,
+     "f": 21.976
+    },
+    {
+     "p": "com",
+     "i": 21.988,
+     "f": 22.119
+    },
+    {
+     "p": "99,5%",
+     "i": 22.131,
+     "f": 23.988
+    },
+    {
+     "p": "dos",
+     "i": 24,
+     "f": 24.155
+    },
+    {
+     "p": "votos",
+     "i": 24.167,
+     "f": 24.655
+    },
+    {
+     "p": "O",
+     "i": 25.476,
+     "f": 25.56
+    },
+    {
+     "p": "negócio",
+     "i": 25.571,
+     "f": 26.083
+    },
+    {
+     "p": "foi",
+     "i": 26.095,
+     "f": 26.238
+    },
+    {
+     "p": "concluído",
+     "i": 26.25,
+     "f": 26.786
+    },
+    {
+     "p": "em",
+     "i": 26.798,
+     "f": 26.881
+    },
+    {
+     "p": "abril",
+     "i": 26.893,
+     "f": 27.226
+    },
+    {
+     "p": "de",
+     "i": 27.238,
+     "f": 27.333
+    },
+    {
+     "p": "2014",
+     "i": 27.345,
+     "f": 28.333
+    },
+    {
+     "p": "Em",
+     "i": 29.155,
+     "f": 29.321
+    },
+    {
+     "p": "outras",
+     "i": 29.333,
+     "f": 29.667
+    },
+    {
+     "p": "palavras",
+     "i": 29.679,
+     "f": 30.238
+    },
+    {
+     "p": "a",
+     "i": 30.357,
+     "f": 30.417
+    },
+    {
+     "p": "Nokia",
+     "i": 30.429,
+     "f": 30.774
+    },
+    {
+     "p": "vendeu",
+     "i": 30.786,
+     "f": 31.119
+    },
+    {
+     "p": "o",
+     "i": 31.131,
+     "f": 31.167
+    },
+    {
+     "p": "que",
+     "i": 31.179,
+     "f": 31.286
+    },
+    {
+     "p": "fez",
+     "i": 31.298,
+     "f": 31.512
+    },
+    {
+     "p": "dela",
+     "i": 31.524,
+     "f": 31.726
+    },
+    {
+     "p": "famosa",
+     "i": 31.738,
+     "f": 32.25
+    },
+    {
+     "p": "e",
+     "i": 32.571,
+     "f": 32.655
+    },
+    {
+     "p": "a",
+     "i": 32.667,
+     "f": 32.714
+    },
+    {
+     "p": "ironia",
+     "i": 32.726,
+     "f": 33.143
+    },
+    {
+     "p": "é",
+     "i": 33.155,
+     "f": 33.179
+    },
+    {
+     "p": "que",
+     "i": 33.19,
+     "f": 33.286
+    },
+    {
+     "p": "o",
+     "i": 33.298,
+     "f": 33.333
+    },
+    {
+     "p": "comprador",
+     "i": 33.345,
+     "f": 33.845
+    },
+    {
+     "p": "era",
+     "i": 33.857,
+     "f": 33.976
+    },
+    {
+     "p": "o",
+     "i": 33.988,
+     "f": 34.024
+    },
+    {
+     "p": "antigo",
+     "i": 34.036,
+     "f": 34.393
+    },
+    {
+     "p": "empregador",
+     "i": 34.405,
+     "f": 35.012
+    },
+    {
+     "p": "do",
+     "i": 35.024,
+     "f": 35.119
+    },
+    {
+     "p": "chefe",
+     "i": 35.131,
+     "f": 35.595
+    }
+   ]
+  },
+  "volta-por-cima": {
+   "hash": "af1aa95361",
+   "texto": "E a Nokia acabou? Não! Depois da venda, ela virou uma empresa de redes de telecomunicações, que vende equipamentos para operadoras e é grande até hoje. Já a marca de celulares seguiu um caminho curioso. Em 2016, a Microsoft vendeu a divisão de celulares simples, e a empresa HMD, com ex-executivos da Nokia, passou a fabricar aparelhos com licença da marca. Voltaram o 3310 e os modelos básicos. A nostalgia, afinal, vendeu mais do que muito sistema operacional.",
+   "audio": "audio/volta-por-cima-af1aa95361.mp3",
+   "duracao": 34.152,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.098,
+     "f": 0.217
+    },
+    {
+     "p": "a",
+     "i": 0.229,
+     "f": 0.3
+    },
+    {
+     "p": "Nokia",
+     "i": 0.312,
+     "f": 0.645
+    },
+    {
+     "p": "acabou",
+     "i": 0.657,
+     "f": 1.109
+    },
+    {
+     "p": "Não",
+     "i": 1.929,
+     "f": 2.333
+    },
+    {
+     "p": "Depois",
+     "i": 3.155,
+     "f": 3.559
+    },
+    {
+     "p": "da",
+     "i": 3.571,
+     "f": 3.69
+    },
+    {
+     "p": "venda",
+     "i": 3.702,
+     "f": 4.071
+    },
+    {
+     "p": "ela",
+     "i": 4.274,
+     "f": 4.464
+    },
+    {
+     "p": "virou",
+     "i": 4.476,
+     "f": 4.667
+    },
+    {
+     "p": "uma",
+     "i": 4.679,
+     "f": 4.774
+    },
+    {
+     "p": "empresa",
+     "i": 4.786,
+     "f": 5.202
+    },
+    {
+     "p": "de",
+     "i": 5.214,
+     "f": 5.31
+    },
+    {
+     "p": "redes",
+     "i": 5.321,
+     "f": 5.655
+    },
+    {
+     "p": "de",
+     "i": 5.667,
+     "f": 5.786
+    },
+    {
+     "p": "telecomunicações",
+     "i": 5.798,
+     "f": 6.786
+    },
+    {
+     "p": "que",
+     "i": 7.036,
+     "f": 7.202
+    },
+    {
+     "p": "vende",
+     "i": 7.214,
+     "f": 7.5
+    },
+    {
+     "p": "equipamentos",
+     "i": 7.512,
+     "f": 8.143
+    },
+    {
+     "p": "para",
+     "i": 8.155,
+     "f": 8.309
+    },
+    {
+     "p": "operadoras",
+     "i": 8.321,
+     "f": 8.893
+    },
+    {
+     "p": "e",
+     "i": 8.905,
+     "f": 9.012
+    },
+    {
+     "p": "é",
+     "i": 9.024,
+     "f": 9.095
+    },
+    {
+     "p": "grande",
+     "i": 9.107,
+     "f": 9.452
+    },
+    {
+     "p": "até",
+     "i": 9.464,
+     "f": 9.667
+    },
+    {
+     "p": "hoje",
+     "i": 9.679,
+     "f": 10.048
+    },
+    {
+     "p": "Já",
+     "i": 10.869,
+     "f": 11.095
+    },
+    {
+     "p": "a",
+     "i": 11.107,
+     "f": 11.143
+    },
+    {
+     "p": "marca",
+     "i": 11.155,
+     "f": 11.5
+    },
+    {
+     "p": "de",
+     "i": 11.512,
+     "f": 11.595
+    },
+    {
+     "p": "celulares",
+     "i": 11.607,
+     "f": 12.167
+    },
+    {
+     "p": "seguiu",
+     "i": 12.179,
+     "f": 12.464
+    },
+    {
+     "p": "um",
+     "i": 12.476,
+     "f": 12.536
+    },
+    {
+     "p": "caminho",
+     "i": 12.548,
+     "f": 12.881
+    },
+    {
+     "p": "curioso",
+     "i": 12.893,
+     "f": 13.452
+    },
+    {
+     "p": "Em 2016",
+     "i": 14.274,
+     "f": 15.44
+    },
+    {
+     "p": "a",
+     "i": 15.667,
+     "f": 15.714
+    },
+    {
+     "p": "Microsoft",
+     "i": 15.726,
+     "f": 16.476
+    },
+    {
+     "p": "vendeu",
+     "i": 16.488,
+     "f": 16.809
+    },
+    {
+     "p": "a",
+     "i": 16.821,
+     "f": 16.869
+    },
+    {
+     "p": "divisão",
+     "i": 16.881,
+     "f": 17.274
+    },
+    {
+     "p": "de",
+     "i": 17.286,
+     "f": 17.381
+    },
+    {
+     "p": "celulares",
+     "i": 17.393,
+     "f": 17.917
+    },
+    {
+     "p": "simples",
+     "i": 17.929,
+     "f": 18.405
+    },
+    {
+     "p": "e",
+     "i": 18.667,
+     "f": 18.738
+    },
+    {
+     "p": "a",
+     "i": 18.75,
+     "f": 18.786
+    },
+    {
+     "p": "empresa",
+     "i": 18.798,
+     "f": 19.238
+    },
+    {
+     "p": "HMD",
+     "i": 19.25,
+     "f": 19.821
+    },
+    {
+     "p": "com",
+     "i": 20.143,
+     "f": 20.286
+    },
+    {
+     "p": "ex-executivos",
+     "i": 20.298,
+     "f": 20.964
+    },
+    {
+     "p": "da",
+     "i": 20.976,
+     "f": 21.095
+    },
+    {
+     "p": "Nokia",
+     "i": 21.107,
+     "f": 21.476
+    },
+    {
+     "p": "passou",
+     "i": 21.714,
+     "f": 22.036
+    },
+    {
+     "p": "a",
+     "i": 22.048,
+     "f": 22.107
+    },
+    {
+     "p": "fabricar",
+     "i": 22.119,
+     "f": 22.548
+    },
+    {
+     "p": "aparelhos",
+     "i": 22.56,
+     "f": 23.048
+    },
+    {
+     "p": "com",
+     "i": 23.06,
+     "f": 23.19
+    },
+    {
+     "p": "licença",
+     "i": 23.202,
+     "f": 23.679
+    },
+    {
+     "p": "da",
+     "i": 23.69,
+     "f": 23.786
+    },
+    {
+     "p": "marca",
+     "i": 23.798,
+     "f": 24.179
+    },
+    {
+     "p": "Voltaram",
+     "i": 25,
+     "f": 25.548
+    },
+    {
+     "p": "o",
+     "i": 25.56,
+     "f": 25.607
+    },
+    {
+     "p": "3310 e",
+     "i": 25.619,
+     "f": 27.167
+    },
+    {
+     "p": "os",
+     "i": 27.179,
+     "f": 27.262
+    },
+    {
+     "p": "modelos",
+     "i": 27.274,
+     "f": 27.738
+    },
+    {
+     "p": "básicos",
+     "i": 27.75,
+     "f": 28.357
+    },
+    {
+     "p": "A",
+     "i": 29.179,
+     "f": 29.274
+    },
+    {
+     "p": "nostalgia",
+     "i": 29.286,
+     "f": 30.036
+    },
+    {
+     "p": "afinal",
+     "i": 30.238,
+     "f": 30.69
+    },
+    {
+     "p": "vendeu",
+     "i": 30.988,
+     "f": 31.345
+    },
+    {
+     "p": "mais",
+     "i": 31.357,
+     "f": 31.583
+    },
+    {
+     "p": "do",
+     "i": 31.595,
+     "f": 31.702
+    },
+    {
+     "p": "que",
+     "i": 31.714,
+     "f": 31.821
+    },
+    {
+     "p": "muito",
+     "i": 31.833,
+     "f": 32.214
+    },
+    {
+     "p": "sistema",
+     "i": 32.226,
+     "f": 32.643
+    },
+    {
+     "p": "operacional",
+     "i": 32.655,
+     "f": 33.333
+    }
+   ]
+  },
+  "licoes": {
+   "hash": "8713f7ee9a",
+   "texto": "O que a gente aprende? Primeiro: ter sido o número um não protege ninguém, e quem para de olhar para fora acaba atropelado. Segundo: o produto não é só o aparelho, é o conjunto, com sistema, loja e aplicativos. Terceiro: demorar para decidir custa mais caro do que errar rápido, porque a Nokia gastou anos em dúvida, enquanto os rivais corriam. E, de lambuja, uma lição: aparelho indestrutível não salva empresa nenhuma.",
+   "audio": "audio/licoes-8713f7ee9a.mp3",
+   "duracao": 28.608,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.229
+    },
+    {
+     "p": "que",
+     "i": 0.24,
+     "f": 0.443
+    },
+    {
+     "p": "a",
+     "i": 0.455,
+     "f": 0.538
+    },
+    {
+     "p": "gente",
+     "i": 0.55,
+     "f": 0.848
+    },
+    {
+     "p": "aprende",
+     "i": 0.86,
+     "f": 1.336
+    },
+    {
+     "p": "Primeiro",
+     "i": 2.155,
+     "f": 2.583
+    },
+    {
+     "p": "ter",
+     "i": 2.893,
+     "f": 3.06
+    },
+    {
+     "p": "sido",
+     "i": 3.071,
+     "f": 3.345
+    },
+    {
+     "p": "o",
+     "i": 3.357,
+     "f": 3.381
+    },
+    {
+     "p": "número",
+     "i": 3.393,
+     "f": 3.679
+    },
+    {
+     "p": "um",
+     "i": 3.69,
+     "f": 3.75
+    },
+    {
+     "p": "não",
+     "i": 3.762,
+     "f": 3.917
+    },
+    {
+     "p": "protege",
+     "i": 3.929,
+     "f": 4.357
+    },
+    {
+     "p": "ninguém",
+     "i": 4.369,
+     "f": 4.738
+    },
+    {
+     "p": "e",
+     "i": 5.036,
+     "f": 5.107
+    },
+    {
+     "p": "quem",
+     "i": 5.119,
+     "f": 5.345
+    },
+    {
+     "p": "para",
+     "i": 5.357,
+     "f": 5.548
+    },
+    {
+     "p": "de",
+     "i": 5.56,
+     "f": 5.643
+    },
+    {
+     "p": "olhar",
+     "i": 5.655,
+     "f": 5.964
+    },
+    {
+     "p": "para",
+     "i": 5.976,
+     "f": 6.167
+    },
+    {
+     "p": "fora",
+     "i": 6.179,
+     "f": 6.417
+    },
+    {
+     "p": "acaba",
+     "i": 6.429,
+     "f": 6.667
+    },
+    {
+     "p": "atropelado",
+     "i": 6.679,
+     "f": 7.298
+    },
+    {
+     "p": "Segundo",
+     "i": 8.119,
+     "f": 8.714
+    },
+    {
+     "p": "o",
+     "i": 9.012,
+     "f": 9.095
+    },
+    {
+     "p": "produto",
+     "i": 9.107,
+     "f": 9.548
+    },
+    {
+     "p": "não",
+     "i": 9.56,
+     "f": 9.714
+    },
+    {
+     "p": "é",
+     "i": 9.726,
+     "f": 9.786
+    },
+    {
+     "p": "só",
+     "i": 9.798,
+     "f": 10
+    },
+    {
+     "p": "o",
+     "i": 10.012,
+     "f": 10.083
+    },
+    {
+     "p": "aparelho",
+     "i": 10.095,
+     "f": 10.583
+    },
+    {
+     "p": "é",
+     "i": 10.774,
+     "f": 10.857
+    },
+    {
+     "p": "o",
+     "i": 10.869,
+     "f": 10.917
+    },
+    {
+     "p": "conjunto",
+     "i": 10.929,
+     "f": 11.488
+    },
+    {
+     "p": "com",
+     "i": 11.726,
+     "f": 11.905
+    },
+    {
+     "p": "sistema",
+     "i": 11.917,
+     "f": 12.405
+    },
+    {
+     "p": "loja",
+     "i": 12.679,
+     "f": 13.036
+    },
+    {
+     "p": "e",
+     "i": 13.048,
+     "f": 13.095
+    },
+    {
+     "p": "aplicativos",
+     "i": 13.107,
+     "f": 13.905
+    },
+    {
+     "p": "Terceiro",
+     "i": 14.726,
+     "f": 15.238
+    },
+    {
+     "p": "demorar",
+     "i": 15.56,
+     "f": 16.048
+    },
+    {
+     "p": "para",
+     "i": 16.06,
+     "f": 16.25
+    },
+    {
+     "p": "decidir",
+     "i": 16.262,
+     "f": 16.643
+    },
+    {
+     "p": "custa",
+     "i": 16.655,
+     "f": 17.012
+    },
+    {
+     "p": "mais",
+     "i": 17.024,
+     "f": 17.25
+    },
+    {
+     "p": "caro",
+     "i": 17.262,
+     "f": 17.536
+    },
+    {
+     "p": "do",
+     "i": 17.548,
+     "f": 17.655
+    },
+    {
+     "p": "que",
+     "i": 17.667,
+     "f": 17.774
+    },
+    {
+     "p": "errar",
+     "i": 17.786,
+     "f": 18.059
+    },
+    {
+     "p": "rápido",
+     "i": 18.071,
+     "f": 18.512
+    },
+    {
+     "p": "porque",
+     "i": 18.81,
+     "f": 19.071
+    },
+    {
+     "p": "a",
+     "i": 19.083,
+     "f": 19.143
+    },
+    {
+     "p": "Nokia",
+     "i": 19.155,
+     "f": 19.524
+    },
+    {
+     "p": "gastou",
+     "i": 19.536,
+     "f": 19.94
+    },
+    {
+     "p": "anos",
+     "i": 19.952,
+     "f": 20.167
+    },
+    {
+     "p": "em",
+     "i": 20.179,
+     "f": 20.333
+    },
+    {
+     "p": "dúvida",
+     "i": 20.345,
+     "f": 20.75
+    },
+    {
+     "p": "enquanto",
+     "i": 20.988,
+     "f": 21.357
+    },
+    {
+     "p": "os",
+     "i": 21.369,
+     "f": 21.44
+    },
+    {
+     "p": "rivais",
+     "i": 21.452,
+     "f": 21.786
+    },
+    {
+     "p": "corriam",
+     "i": 21.798,
+     "f": 22.274
+    },
+    {
+     "p": "E",
+     "i": 23.095,
+     "f": 23.274
+    },
+    {
+     "p": "de",
+     "i": 23.488,
+     "f": 23.595
+    },
+    {
+     "p": "lambuja",
+     "i": 23.607,
+     "f": 24.167
+    },
+    {
+     "p": "uma",
+     "i": 24.464,
+     "f": 24.607
+    },
+    {
+     "p": "lição",
+     "i": 24.619,
+     "f": 25
+    },
+    {
+     "p": "aparelho",
+     "i": 25.31,
+     "f": 25.702
+    },
+    {
+     "p": "indestrutível",
+     "i": 25.714,
+     "f": 26.393
+    },
+    {
+     "p": "não",
+     "i": 26.405,
+     "f": 26.559
+    },
+    {
+     "p": "salva",
+     "i": 26.571,
+     "f": 26.905
+    },
+    {
+     "p": "empresa",
+     "i": 26.917,
+     "f": 27.31
+    },
+    {
+     "p": "nenhuma",
+     "i": 27.321,
+     "f": 27.774
+    }
+   ]
+  },
+  "final": {
+   "hash": "cc2106e8d0",
+   "texto": "Resumindo: papel, borracha, o rei dos celulares e a queda mais famosa da tecnologia. Agora é com você. Qual foi o principal erro da Nokia? Comenta um ou dois e me conta qual foi o seu último Nokia. E se você gostou dessa viagem no tempo, segue o canal para mais histórias de empresas que mudaram o mundo, e de algumas que deixaram o mundo mudar por cima delas.",
+   "audio": "audio/final-cc2106e8d0.mp3",
+   "duracao": 24.312,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.764
+    },
+    {
+     "p": "papel",
+     "i": 1.074,
+     "f": 1.49
+    },
+    {
+     "p": "borracha",
+     "i": 1.776,
+     "f": 2.36
+    },
+    {
+     "p": "o",
+     "i": 2.633,
+     "f": 2.717
+    },
+    {
+     "p": "rei",
+     "i": 2.729,
+     "f": 2.931
+    },
+    {
+     "p": "dos",
+     "i": 2.943,
+     "f": 3.145
+    },
+    {
+     "p": "celulares",
+     "i": 3.157,
+     "f": 3.681
+    },
+    {
+     "p": "e",
+     "i": 3.693,
+     "f": 3.788
+    },
+    {
+     "p": "a",
+     "i": 3.8,
+     "f": 3.871
+    },
+    {
+     "p": "queda",
+     "i": 3.883,
+     "f": 4.133
+    },
+    {
+     "p": "mais",
+     "i": 4.145,
+     "f": 4.371
+    },
+    {
+     "p": "famosa",
+     "i": 4.383,
+     "f": 4.812
+    },
+    {
+     "p": "da",
+     "i": 4.824,
+     "f": 4.943
+    },
+    {
+     "p": "tecnologia",
+     "i": 4.955,
+     "f": 5.729
+    },
+    {
+     "p": "Agora",
+     "i": 6.548,
+     "f": 6.988
+    },
+    {
+     "p": "é",
+     "i": 7,
+     "f": 7.048
+    },
+    {
+     "p": "com",
+     "i": 7.06,
+     "f": 7.202
+    },
+    {
+     "p": "você",
+     "i": 7.214,
+     "f": 7.643
+    },
+    {
+     "p": "Qual",
+     "i": 8.464,
+     "f": 8.714
+    },
+    {
+     "p": "foi",
+     "i": 8.726,
+     "f": 8.929
+    },
+    {
+     "p": "o",
+     "i": 8.94,
+     "f": 9
+    },
+    {
+     "p": "principal",
+     "i": 9.012,
+     "f": 9.571
+    },
+    {
+     "p": "erro",
+     "i": 9.583,
+     "f": 9.762
+    },
+    {
+     "p": "da",
+     "i": 9.774,
+     "f": 9.857
+    },
+    {
+     "p": "Nokia",
+     "i": 9.869,
+     "f": 10.274
+    },
+    {
+     "p": "Comenta",
+     "i": 11.095,
+     "f": 11.619
+    },
+    {
+     "p": "um",
+     "i": 11.631,
+     "f": 11.857
+    },
+    {
+     "p": "ou",
+     "i": 11.869,
+     "f": 11.988
+    },
+    {
+     "p": "dois",
+     "i": 12,
+     "f": 12.238
+    },
+    {
+     "p": "e",
+     "i": 12.25,
+     "f": 12.345
+    },
+    {
+     "p": "me",
+     "i": 12.357,
+     "f": 12.464
+    },
+    {
+     "p": "conta",
+     "i": 12.476,
+     "f": 12.798
+    },
+    {
+     "p": "qual",
+     "i": 12.81,
+     "f": 13.048
+    },
+    {
+     "p": "foi",
+     "i": 13.06,
+     "f": 13.238
+    },
+    {
+     "p": "o",
+     "i": 13.25,
+     "f": 13.298
+    },
+    {
+     "p": "seu",
+     "i": 13.31,
+     "f": 13.571
+    },
+    {
+     "p": "último",
+     "i": 13.583,
+     "f": 13.929
+    },
+    {
+     "p": "Nokia",
+     "i": 13.94,
+     "f": 14.309
+    },
+    {
+     "p": "E",
+     "i": 15.131,
+     "f": 15.238
+    },
+    {
+     "p": "se",
+     "i": 15.25,
+     "f": 15.369
+    },
+    {
+     "p": "você",
+     "i": 15.381,
+     "f": 15.643
+    },
+    {
+     "p": "gostou",
+     "i": 15.655,
+     "f": 16.036
+    },
+    {
+     "p": "dessa",
+     "i": 16.048,
+     "f": 16.298
+    },
+    {
+     "p": "viagem",
+     "i": 16.31,
+     "f": 16.714
+    },
+    {
+     "p": "no",
+     "i": 16.726,
+     "f": 16.845
+    },
+    {
+     "p": "tempo",
+     "i": 16.857,
+     "f": 17.202
+    },
+    {
+     "p": "segue",
+     "i": 17.524,
+     "f": 17.75
+    },
+    {
+     "p": "o",
+     "i": 17.762,
+     "f": 17.786
+    },
+    {
+     "p": "canal",
+     "i": 17.798,
+     "f": 18.143
+    },
+    {
+     "p": "para",
+     "i": 18.155,
+     "f": 18.333
+    },
+    {
+     "p": "mais",
+     "i": 18.345,
+     "f": 18.524
+    },
+    {
+     "p": "histórias",
+     "i": 18.536,
+     "f": 18.988
+    },
+    {
+     "p": "de",
+     "i": 19,
+     "f": 19.06
+    },
+    {
+     "p": "empresas",
+     "i": 19.071,
+     "f": 19.536
+    },
+    {
+     "p": "que",
+     "i": 19.548,
+     "f": 19.631
+    },
+    {
+     "p": "mudaram",
+     "i": 19.643,
+     "f": 20.048
+    },
+    {
+     "p": "o",
+     "i": 20.06,
+     "f": 20.083
+    },
+    {
+     "p": "mundo",
+     "i": 20.095,
+     "f": 20.429
+    },
+    {
+     "p": "e",
+     "i": 20.726,
+     "f": 20.786
+    },
+    {
+     "p": "de",
+     "i": 20.798,
+     "f": 20.869
+    },
+    {
+     "p": "algumas",
+     "i": 20.881,
+     "f": 21.298
+    },
+    {
+     "p": "que",
+     "i": 21.31,
+     "f": 21.393
+    },
+    {
+     "p": "deixaram",
+     "i": 21.405,
+     "f": 21.845
+    },
+    {
+     "p": "o",
+     "i": 21.857,
+     "f": 21.881
+    },
+    {
+     "p": "mundo",
+     "i": 21.893,
+     "f": 22.179
+    },
+    {
+     "p": "mudar",
+     "i": 22.19,
+     "f": 22.5
+    },
+    {
+     "p": "por",
+     "i": 22.512,
+     "f": 22.69
+    },
+    {
+     "p": "cima",
+     "i": 22.702,
+     "f": 23.036
+    },
+    {
+     "p": "delas",
+     "i": 23.048,
+     "f": 23.488
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "idestam": {
+   "arquivo": "imagens/idestam-42566418.jpg",
+   "rotulo": "Fredrik Idestam, fundador",
+   "wiki": "Fredrik Idestam",
+   "autor": "Gösta Florman",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fredrik_Idestam.png",
+   "titulo": "File:Fredrik Idestam.png"
+  },
+  "tampere": {
+   "arquivo": "imagens/tampere-86a6cbc2.jpg",
+   "rotulo": "Tampere, Finlândia",
+   "wiki": "Tampere",
+   "commons": "Tammerkoski Tampere",
+   "autor": "Ville Oksanen, Leo-setä, Tiia Monto, Cryonic07, Rayshade, Mikko Paananen",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tampere_Montage_1.jpg",
+   "titulo": "File:Tampere Montage 1.jpg"
+  },
+  "nokia-fabrica": {
+   "arquivo": "imagens/nokia-fabrica-b6bf5cd0.jpg",
+   "rotulo": "Fábrica de borracha em Nokia",
+   "wiki": "Nokia",
+   "commons": "Finnish Rubber Works Nokia factory",
+   "autor": "pikkuanna",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Midpoint_Nokia_Karaportti.jpg",
+   "titulo": "File:Midpoint Nokia Karaportti.jpg"
+  },
+  "nokia-cidade": {
+   "arquivo": "imagens/nokia-cidade-e415c738.jpg",
+   "rotulo": "Cidade de Nokia",
+   "wiki": "Nokia (Finlândia)",
+   "commons": "Nokia Finland town",
+   "autor": "Oktoober",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia-kirik3.jpg",
+   "titulo": "File:Nokia-kirik3.jpg"
+  },
+  "ollila": {
+   "arquivo": "imagens/ollila-9147d649.jpg",
+   "rotulo": "Jorma Ollila",
+   "wiki": "Jorma Ollila",
+   "autor": "Soppakanuuna",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Jorma_Ollila.jpg",
+   "titulo": "File:Jorma Ollila.jpg"
+  },
+  "nokia-sede": {
+   "arquivo": "",
+   "rotulo": "Sede da Nokia em Espoo",
+   "commons": "Nokia House Espoo headquarters"
+  },
+  "cityman": {
+   "arquivo": "imagens/cityman-7d8c0e47.jpg",
+   "rotulo": "Mobira Cityman 900",
+   "commons": "Mobira Cityman 900",
+   "autor": "Wasielgallery",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Jerzy_Gorbas.jpg",
+   "titulo": "File:Jerzy Gorbas.jpg"
+  },
+  "gsm": {
+   "arquivo": "imagens/gsm-ac192691.jpg",
+   "rotulo": "Rede GSM",
+   "wiki": "GSM",
+   "commons": "GSM mobile phone network antenna",
+   "autor": "Eliot Philips aka \"Hack A Day\" (https://www.flickr.com/people/hackaday/)",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Unloading_the_NinjaTel_Van,_DEF_CON_20.jpg",
+   "titulo": "File:Unloading the NinjaTel Van, DEF CON 20.jpg"
+  },
+  "motorola": {
+   "arquivo": "imagens/motorola-bd053801.jpg",
+   "rotulo": "Motorola",
+   "wiki": "Motorola",
+   "commons": "Motorola headquarters",
+   "autor": "Wonderlane",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Expressions,_using_Motorola_Solutions_products_on_the_walls,_corporate_headquarters,_Schaumburg,_Illinois,_USA.jpg",
+   "titulo": "File:Expressions, using Motorola Solutions products on the walls, corporate headquarters, Schaumburg, Illinois, USA.jpg"
+  },
+  "nokia-2110": {
+   "arquivo": "imagens/nokia-2110-8ec9ba9b.jpg",
+   "rotulo": "Nokia 2110",
+   "commons": "Nokia 2110",
+   "autor": "Mustaraamattu",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_2110i_NHE-4NX.jpg",
+   "titulo": "File:Nokia 2110i NHE-4NX.jpg"
+  },
+  "n3310": {
+   "arquivo": "imagens/n3310-33122833.jpg",
+   "rotulo": "Nokia 3310",
+   "wiki": "Nokia 3310",
+   "autor": "smial (talk)",
+   "licenca": "FAL",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_3310_Blue_R7309170_(retouch).jpg",
+   "titulo": "File:Nokia 3310 Blue R7309170 (retouch).jpg"
+  },
+  "n1100": {
+   "arquivo": "imagens/n1100-c45a63e7.jpg",
+   "rotulo": "Nokia 1100",
+   "wiki": "Nokia 1100",
+   "autor": "Mgpa",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_1100_Series.jpg",
+   "titulo": "File:Nokia 1100 Series.jpg"
+  },
+  "n95": {
+   "arquivo": "imagens/n95-85000a1d.jpg",
+   "rotulo": "Nokia N95",
+   "wiki": "Nokia N95",
+   "autor": "Asim18",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:N95_Front-slide-open.jpg",
+   "titulo": "File:N95 Front-slide-open.jpg"
+  },
+  "communicator": {
+   "arquivo": "imagens/communicator-756234b3.jpg",
+   "rotulo": "Nokia 9000 Communicator",
+   "commons": "Nokia 9000 Communicator",
+   "autor": "The original uploader was Loui at German Wikipedia.",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_Communicator_9000_(geschlossen).jpg",
+   "titulo": "File:Nokia Communicator 9000 (geschlossen).jpg"
+  },
+  "iphone": {
+   "arquivo": "imagens/iphone-989d8be4.jpg",
+   "rotulo": "iPhone original, 2007",
+   "wiki": "iPhone (1.ª geração)",
+   "commons": "iPhone 2G original",
+   "autor": "Andrew from London, UK",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Original_iPhone_docked.jpg",
+   "titulo": "File:Original iPhone docked.jpg"
+  },
+  "jobs": {
+   "arquivo": "imagens/jobs-3d37f878.jpg",
+   "rotulo": "Steve Jobs",
+   "wiki": "Steve Jobs",
+   "autor": "Matthew Yohe",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+   "titulo": "File:Steve Jobs Headshot 2010 (cropped 4).jpg"
+  },
+  "symbian": {
+   "arquivo": "imagens/symbian-618621f6.jpg",
+   "rotulo": "Symbian",
+   "wiki": "Symbian",
+   "commons": "Symbian OS phone",
+   "autor": "Asimzb",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_E52_2.jpg",
+   "titulo": "File:Nokia E52 2.jpg"
+  },
+  "n8": {
+   "arquivo": "imagens/n8-e2444821.jpg",
+   "rotulo": "Nokia N8",
+   "wiki": "Nokia N8",
+   "autor": "Editor182 (talk)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_N8_(front_view).jpg",
+   "titulo": "File:Nokia N8 (front view).jpg"
+  },
+  "elop": {
+   "arquivo": "",
+   "rotulo": "Stephen Elop",
+   "wiki": "Stephen Elop"
+  },
+  "microsoft": {
+   "arquivo": "imagens/microsoft-30657933.jpg",
+   "rotulo": "Microsoft",
+   "wiki": "Microsoft",
+   "commons": "Microsoft logo building",
+   "autor": "Jelson25",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aerial_Microsoft_West_Campus_August_2009.jpg",
+   "titulo": "File:Aerial Microsoft West Campus August 2009.jpg"
+  },
+  "plataforma": {
+   "arquivo": "",
+   "rotulo": "Plataforma de petróleo em chamas",
+   "commons": "Piper Alpha oil platform fire"
+  },
+  "pedra-mar": {
+   "arquivo": "imagens/pedra-mar-29ff9ba5.jpg",
+   "rotulo": "Plataforma no mar",
+   "commons": "oil platform North Sea",
+   "autor": "NAC",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:1_North_Sea_oil_platform_240918.jpg",
+   "titulo": "File:1 North Sea oil platform 240918.jpg"
+  },
+  "lumia800": {
+   "arquivo": "imagens/lumia800-6c72159e.jpg",
+   "rotulo": "Nokia Lumia 800",
+   "wiki": "Nokia Lumia 800",
+   "autor": "Tarek Guez-Guez",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_800_-_Bleu.png",
+   "titulo": "File:Nokia Lumia 800 - Bleu.png"
+  },
+  "winphone": {
+   "arquivo": "imagens/winphone-1159d88c.jpg",
+   "rotulo": "Windows Phone",
+   "wiki": "Windows Phone",
+   "commons": "Windows Phone 7 start screen",
+   "autor": "Chris Ssk",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Windows_Phone_7_mockup.png",
+   "titulo": "File:Windows Phone 7 mockup.png"
+  },
+  "samsung": {
+   "arquivo": "imagens/samsung-f5cf2c60.jpg",
+   "rotulo": "Samsung",
+   "wiki": "Samsung Electronics",
+   "commons": "Samsung Galaxy S III",
+   "autor": "Oskar Alexanderson",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Samsung_headquarters.jpg",
+   "titulo": "File:Samsung headquarters.jpg"
+  },
+  "android": {
+   "arquivo": "imagens/android-a21bfd5a.jpg",
+   "rotulo": "Android",
+   "wiki": "Android",
+   "commons": "Android smartphone",
+   "autor": "Addonian1123",
+   "licenca": "Apache License 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Android_17_Beta_3_Screenshot_pt.png",
+   "titulo": "File:Android 17 Beta 3 Screenshot pt.png"
+  },
+  "lumia-ms": {
+   "arquivo": "imagens/lumia-ms-0ddfb73b.jpg",
+   "rotulo": "Microsoft Lumia",
+   "commons": "Microsoft Lumia 535",
+   "autor": "Maurizio Pesce from Milan, Italia",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Microsoft_Lumia_535_(16131387047).jpg",
+   "titulo": "File:Microsoft Lumia 535 (16131387047).jpg"
+  },
+  "redmond": {
+   "arquivo": "imagens/redmond-e621e7de.jpg",
+   "rotulo": "Campus da Microsoft em Redmond",
+   "commons": "Microsoft Redmond campus",
+   "autor": "Coolcaesar",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
+   "titulo": "File:Building92microsoft.jpg"
+  },
+  "hmd": {
+   "arquivo": "",
+   "rotulo": "HMD Global",
+   "wiki": "HMD Global"
+  },
+  "n3310-novo": {
+   "arquivo": "imagens/n3310-novo-6a075aae.jpg",
+   "rotulo": "Nokia 3310 (2017)",
+   "commons": "Nokia 3310 2017",
+   "autor": "Pixabay user bijutoha",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nokia_3310_2017.png",
+   "titulo": "File:Nokia 3310 2017.png"
+  },
+  "nokia-logo": {
+   "arquivo": "imagens/nokia-logo-b6bf5cd0.jpg",
+   "rotulo": "Logotipo da Nokia",
+   "wiki": "Nokia",
+   "commons": "Nokia logo",
+   "autor": "pikkuanna",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Midpoint_Nokia_Karaportti.jpg",
+   "titulo": "File:Midpoint Nokia Karaportti.jpg"
+  },
+  "espoo": {
+   "arquivo": "imagens/espoo-966ac502.jpg",
+   "rotulo": "Espoo, Finlândia",
+   "wiki": "Espoo",
+   "autor": "Vuo, Junafani, Arto Sipinen, Mustikka, Tuppence1, J-P Kärnä, Htm",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Espoo_Montage_1.jpg",
+   "titulo": "File:Espoo Montage 1.jpg"
+  },
+  "nokia-topo": {
+   "arquivo": "imagens/nokia-topo-151d02e3.jpg",
+   "rotulo": "Celulares Nokia",
+   "commons": "Nokia store phones display",
+   "autor": "CHOADAICHONG MinuddR",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:HK_WC_%E7%81%A3%E4%BB%94%E9%81%93_Wan_Chai_Road_%E8%8C%82%E8%98%BF%E8%A1%97_Mallory_Street_shop_%E6%95%B8%E7%A2%BC%E9%80%9A_SmarTone_Digital_smartphone_window_display_June_2022_Px3_03.jpg",
+   "titulo": "File:HK WC 灣仔道 Wan Chai Road 茂蘿街 Mallory Street shop 數碼通 SmarTone Digital smartphone window display June 2022 Px3 03.jpg"
+  },
+  "nokia-final": {
+   "arquivo": "",
+   "rotulo": "Equipamentos de rede Nokia",
+   "commons": "Nokia Networks equipment base station"
+  },
+  "nokia-antiga": {
+   "arquivo": "imagens/nokia-antiga-9d1666a7.jpg",
+   "rotulo": "Coleção de Nokias antigos",
+   "commons": "Old Nokia phones collection",
+   "autor": "Shiny Things",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Collection_of_old_phones_and_PDAs.jpg",
+   "titulo": "File:Collection of old phones and PDAs.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-22T08:13:35.548Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipédia — History of Nokia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Nokia"
+  },
+  {
+   "titulo": "Wamda — Microsoft acquires Nokia's phone division (Gartner)",
+   "url": "https://www.wamda.com/2013/09/microsoft-acquires-nokia-s-phone-division-middle-east-target"
+  },
+  {
+   "titulo": "Fox News/AP — Nokia shareholders vote on $7.2 billion sale",
+   "url": "https://www.foxnews.com/world/nokia-shareholders-to-vote-on-7-2-billion-planned-sale-of-devices-to-microsoft"
+  },
+  {
+   "titulo": "Computerworld — Burning memo from Nokia's CEO",
+   "url": "https://www.computerworld.com/article/1535313/burning-memo-from-nokia-s-ceo-sets-stage-for-os-shake-up.html"
+  },
+  {
+   "titulo": "Wikipédia — List of best-selling mobile phones",
+   "url": "https://en.wikipedia.org/wiki/List_of_best-selling_mobile_phones"
+  },
+  {
+   "titulo": "finland.fi — Nokia's tradition of adaptability",
+   "url": "https://finland.fi/business-innovation/nokias-tradition-of-adaptability/"
+  },
+  {
+   "titulo": "Wikipédia — HMD Global",
+   "url": "https://en.wikipedia.org/wiki/HMD_Global"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "glitch",
+  "legenda": "discreta",
+  "transicao": "deslize",
+  "fundo": "pontos",
+  "formato": "linha-do-tempo"
  }
 }
