@@ -61,6 +61,9 @@ for (const [chave, cfg] of Object.entries(p.imagens ?? {})) {
     if (!info && cfg.arquivoCommons) info = await infoArquivo(cfg.arquivoCommons);
     if (!info && cfg.wiki) info = await viaWiki(cfg.wiki);
     if (!info && cfg.commons) info = await viaCommons(cfg.commons);
+    // último recurso: procura no Commons pelo nome do artigo e pelo rótulo da imagem
+    if (!info && cfg.wiki) info = await viaCommons(cfg.wiki);
+    if (!info && cfg.rotulo) info = await viaCommons(cfg.rotulo);
     if (!info) { console.warn(`! ${chave}: nenhuma imagem encontrada (o vídeo usa o fundo animado)`); falhas++; continue; }
     const r = await fetch(info.url, { headers: { "User-Agent": UA } });
     if (!r.ok) throw new Error(`download ${r.status}`);

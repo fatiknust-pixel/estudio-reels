@@ -4,6 +4,7 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, Audio, interpolate, Sequence, useCurrentFrame } from "remotion";
 import { useVideo } from "../contexto";
+import { FotosCartoes } from "../componentes/Gameplay";
 import { agrupar } from "../componentes/Legenda";
 import { CenaTempo, ElementoTempo } from "../linhaTempo";
 import { A, ElementoAula, FONTE_AULA, Manchete } from "./ElementosAula";
@@ -32,7 +33,11 @@ const Cena: React.FC<{ c: CenaTempo }> = ({ c }) => {
   const titulos = c.elementos.filter((e) => e.tipo === "titulo");
   const outros = c.elementos.filter((e) => e.tipo !== "titulo");
   const chaves = useMemo(() => [...new Set([...outros].sort((a, b) => a.entra - b.entra).map((e) => e.posicao ?? "alto"))], [outros]);
-  const area: Vaga = titulos.length ? { x: MARGEM, y: 330, w: 1920 - 2 * MARGEM, h: 520 } : { x: MARGEM, y: 190, w: 1920 - 2 * MARGEM, h: 660 };
+  const tela: Vaga = titulos.length ? { x: MARGEM, y: 330, w: 1920 - 2 * MARGEM, h: 520 } : { x: MARGEM, y: 190, w: 1920 - 2 * MARGEM, h: 660 };
+  // com foto (fundo ou galeria da cena): a foto ocupa a esquerda do slide e os elementos ficam na direita
+  const comFoto = !!(c.galeria?.length || c.fundo);
+  const FOTO_W = 780;
+  const area: Vaga = comFoto ? { x: tela.x + FOTO_W + 60, y: tela.y, w: tela.w - FOTO_W - 60, h: tela.h } : tela;
   const lugares = vagas(chaves.length, area);
   // troca de slide: entra subindo, sai em fade
   const entra = interpolate(f, [0, 10], [0, 1], { extrapolateRight: "clamp" });
@@ -41,6 +46,7 @@ const Cena: React.FC<{ c: CenaTempo }> = ({ c }) => {
   return (
     <AbsoluteFill style={{ opacity: Math.min(entra, sai), transform: `translateY(${(1 - entra) * 16}px)` }}>
       {audio && <Sequence from={2} layout="none"><Audio src={audio} /></Sequence>}
+      {comFoto && <FotosCartoes chave={c.fundo} galeria={c.galeria} inicios={c.galeriaInicios} duracao={c.duracao} caixa={{ x: tela.x, y: tela.y, w: FOTO_W, h: tela.h }} claro />}
       {titulos.map((e) => (
         <Sequence key={e.indice} from={e.entra} durationInFrames={dur(e)} layout="none">
           <div style={{ position: "absolute", left: MARGEM, top: 165, right: MARGEM }}><Manchete e={e} /></div>
