@@ -10,10 +10,11 @@
     "padrao": { "nome": "Clássica", "emoji": "🎞️", "descricao": "O visual original dos vídeos do Astra." }
   },
   "legenda": {
-    "karaoke": { "nome": "Karaokê", "preset": { "palavrasPorTela": 3, "tamanho": 92, "fundo": "nenhum", "animacao": "pop", "maiusculas": true, "contorno": 10 } },
-    "palavra": { "nome": "Palavra gigante", "preset": { "palavrasPorTela": 1, "tamanho": 132, "fundo": "nenhum", "animacao": "pop", "maiusculas": true, "contorno": 12 } },
-    "caixa": { "nome": "Caixa colorida", "preset": { "palavrasPorTela": 3, "tamanho": 84, "fundo": "palavra", "animacao": "pop", "maiusculas": true, "contorno": 8 } },
-    "discreta": { "nome": "Discreta", "preset": { "palavrasPorTela": 6, "tamanho": 62, "fundo": "nenhum", "animacao": "subir", "maiusculas": false, "contorno": 4 } }
+    "karaoke": { "nome": "Karaokê", "preset": { "modo": "reels", "palavrasPorTela": 3, "tamanho": 92, "fundo": "nenhum", "animacao": "pop", "maiusculas": true, "contorno": 10 } },
+    "palavra": { "nome": "Palavra gigante", "preset": { "modo": "reels", "palavrasPorTela": 1, "tamanho": 132, "fundo": "nenhum", "animacao": "pop", "maiusculas": true, "contorno": 12 } },
+    "caixa": { "nome": "Caixa colorida", "preset": { "modo": "reels", "palavrasPorTela": 3, "tamanho": 84, "fundo": "palavra", "animacao": "pop", "maiusculas": true, "contorno": 8 } },
+    "discreta": { "nome": "Discreta", "preset": { "modo": "reels", "palavrasPorTela": 6, "tamanho": 62, "fundo": "nenhum", "animacao": "subir", "maiusculas": false, "contorno": 4 } },
+    "cinema": { "nome": "Filme e série (embaixo)", "preset": { "modo": "cinema", "fonte": "montserrat", "palavrasPorTela": 8, "tamanho": 60, "posicao": 91, "fundo": "nenhum", "animacao": "nenhuma", "maiusculas": false, "contorno": 0, "cor": "#FFFFFF" } }
   },
   "transicao": {
     "faixas": { "nome": "Faixas" },

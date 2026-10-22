@@ -2,7 +2,7 @@ import React from "react";
 import { FONTES } from "../../src/fontes";
 import { TEMAS } from "../../src/temas";
 import CATALOGO from "../../src/estilos-ia.json";
-import { EstiloIA, LEGENDA_PADRAO } from "../../src/tipos";
+import { EstiloIA, LEGENDA_CINEMA, LEGENDA_PADRAO, LEGENDA_REELS } from "../../src/tipos";
 import { LEGENDA_HORIZONTAL } from "../lib/projetos";
 import { ESTILOS } from "../estilos";
 import { DINAMICAS } from "../estilosIA";
@@ -42,7 +42,7 @@ export const PainelEstilo: React.FC = () => {
                   alterar((x) => {
                     x.estilo = e.id;
                     x.tema = e.tema;
-                    x.legenda = { ...x.legenda, ...e.legenda };
+                    x.legenda = { ...x.legenda, modo: "reels", ...e.legenda };
                     x.efeitos = { ...x.efeitos, ...(e.efeitos ?? {}) };
                     if (x.video && e.video) x.video = { ...x.video, ...e.video };
                   })
@@ -98,7 +98,7 @@ export const PainelEstilo: React.FC = () => {
           if ((x.formato ?? "9:16") === v) return;
           x.formato = v as "9:16" | "16:9";
           // ajusta a legenda ao novo quadro
-          Object.assign(x.legenda, v === "16:9" ? LEGENDA_HORIZONTAL : { posicao: LEGENDA_PADRAO.posicao, tamanho: Math.max(x.legenda.tamanho, LEGENDA_PADRAO.tamanho) });
+          if (x.legenda.modo !== "cinema") Object.assign(x.legenda, v === "16:9" ? LEGENDA_HORIZONTAL : { posicao: LEGENDA_PADRAO.posicao, tamanho: Math.max(x.legenda.tamanho, LEGENDA_PADRAO.tamanho) });
         })}
       />
       <p className="pequeno suave">Vertical para Reels, TikTok e Shorts; horizontal para YouTube. A prévia e o MP4 exportado seguem o formato.</p>
@@ -115,6 +115,11 @@ export const PainelEstilo: React.FC = () => {
 
       <h3>Legenda</h3>
       <Alternar rotulo="Mostrar legenda" valor={L.mostrar} mudar={(v) => leg("mostrar", v)} />
+      <label className="campo"><span>Tipo de legenda</span>
+        <Escolha opcoes={[["reels", "Palavra por palavra"], ["cinema", "Filme e série (embaixo)"]]} valor={L.modo ?? "reels"} mudar={(v) => alterar((x) => {
+          Object.assign(x.legenda, v === "cinema" ? LEGENDA_CINEMA : LEGENDA_REELS(x.formato === "16:9"));
+        })} />
+      </label>
       <label className="campo"><span>Fonte</span></label>
       <div className="fontes-esc">
         {Object.entries(FONTES).map(([k, f]) => (
