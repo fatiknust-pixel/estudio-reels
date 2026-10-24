@@ -1,0 +1,70 @@
+{
+ "versao": 1,
+ "id": "ia-20261024-pmc1",
+ "titulo": "Parking Space Detection — Project Model Canvas",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "aula",
+ "criadoEm": "2026-10-24T13:54:49.578Z",
+ "atualizadoEm": "2026-10-24T13:54:49.578Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Projeto: Parking Space Detection — assistente veicular que identifica vagas disponíveis em estacionamentos. Trabalho de faculdade, preenchimento dos quadros do Project Model Canvas.\n\n1. GP — Justificativa (Passado)\nMotoristas perdem tempo procurando vagas disponíveis.\nDificuldade para encontrar vagas em estacionamentos lotados.\nNecessidade de melhorar a mobilidade e reduzir o estresse ao estacionar.\n\n2. PITCH\nDesenvolver um sistema inteligente que detecta vagas livres e orienta o motorista até elas, reduzindo o tempo de procura e facilitando o estacionamento.\n\n3. PRODUCT — Produto\nSistema de detecção de vagas utilizando câmeras e sensores.\nIdentificação de vagas livres e ocupadas.\nExibição das vagas disponíveis em uma tela ou aplicativo.\nOrientação do motorista até a vaga selecionada.\n\n4. STAKEHOLDERS — Partes interessadas\nEngenheiros de desenvolvimento.\nFabricantes de veículos.\nFornecedores de câmeras e sensores.\nEmpresas administradoras de estacionamentos.\nMotoristas e usuários do sistema.\n\n5. PREMISSES — Premissas\nCâmeras ou sensores conseguem identificar as vagas.\nO sistema terá processamento suficiente para analisar as imagens ou sinais.\nOs estacionamentos permitirão a instalação dos equipamentos.\nHaverá recursos disponíveis para desenvolver e testar o projeto.\n\n6. RISKS — Riscos\nSensores ou câmeras não identificarem corretamente as vagas.\nFalhas de comunicação entre os componentes.\nCondições de iluminação prejudicarem a detecção.\nCustos de desenvolvimento acima do previsto.\n\n7. OBJ. SMART\nDesenvolver e testar, em até seis meses, um protótipo capaz de identificar vagas livres e ocupadas em um estacionamento, com pelo menos 90% de precisão em condições controladas.\n\n8. REQUIREMENTS — Requisitos\nDetectar vagas livres e ocupadas.\nAtualizar as informações das vagas.\nApresentar os resultados em uma tela ou aplicativo.\nTer resposta rápida e funcionamento confiável.\nNão comprometer a segurança do veículo.\n\n9. BENEFITS — Benefícios futuros\nRedução do tempo de procura por vagas.\nMenor estresse para os motoristas.\nMelhoria do fluxo de veículos nos estacionamentos.\nMaior satisfação dos usuários.\nPossibilidade de reduzir o consumo de combustível durante a procura.\n\n10. EQUIPE\nEngenheiro de eletrônica automotiva.\nDesenvolvedor de software.\nEspecialista em sensores e câmeras.\nResponsável pelos testes e validação.\n\n11. MAIN DELIVERABLES — Principais entregas\nA. Levantamento de requisitos e planejamento.\nB. Desenvolvimento do protótipo.\nC. Integração de sensores, câmeras e software.\nD. Testes de detecção das vagas.\nE. Relatório final e apresentação do projeto.\n\n12. TIME LINE — Cronograma\nA. Março: planejamento e requisitos.\nB. Abril: seleção dos componentes.\nC. Maio: desenvolvimento do sistema.\nD. Junho: integração e testes.\nE. Julho: validação e apresentação final.\nAs datas são sugestões e podem ser ajustadas ao calendário da faculdade.\n\n13. RESTRICTION — Restrições\nOrçamento limitado para o protótipo.\nDisponibilidade de câmeras e sensores.\nNecessidade de manter precisão e segurança.\nTempo limitado para desenvolvimento.\nDependência das condições de iluminação e do ambiente.\n\n14. COST — Custos estimados\nDesenvolvimento: R$ 1.500.\nProtótipo e componentes: R$ 1.300.\nTestes e validação: R$ 800.\nCusto total estimado: R$ 3.600.\nOs valores são hipotéticos para fins acadêmicos.",
+  "tom": "Videoaula acadêmica: apresentação de trabalho de faculdade, formal e clara, na primeira pessoa do plural, sem exagero.",
+  "duracao": 300,
+  "estilo": {
+   "dinamica": "auto",
+   "legenda": "auto",
+   "transicao": "auto",
+   "fundo": "auto",
+   "musica": "auto",
+   "formato": "auto",
+   "fonte": "auto",
+   "paleta": "auto"
+  },
+  "genero": {
+   "id": "apresentacao-academica",
+   "nome": "Apresentação acadêmica (Project Model Canvas)",
+   "instrucoes": "APRESENTAÇÃO ACADÊMICA do Project Model Canvas (trabalho de faculdade). O conteúdo está no campo pedido.tema e é a ÚNICA fonte: não invente dados, números, nomes, ferramentas, prazos nem benefícios que não estejam lá, e não pesquise fatos novos (a pesquisa na web serve só para achar fotos ilustrativas). Explique cada item com palavras simples, sem acrescentar informação nova.\nCubra TODOS os 14 quadros, na ordem do canvas: 1 Justificativa, 2 Pitch, 3 Produto, 4 Stakeholders (partes interessadas), 5 Premissas, 6 Riscos, 7 Objetivo SMART, 8 Requisitos, 9 Benefícios futuros, 10 Equipe, 11 Principais entregas (A a E), 12 Cronograma (março a julho; diga que as datas são sugestões e podem ser ajustadas ao calendário da faculdade), 13 Restrições, 14 Custos (R$ 1.500 + R$ 1.300 + R$ 800 = R$ 3.600; diga que os valores são hipotéticos, para fins acadêmicos). Todos os itens de cada lista precisam aparecer na tela (use lista, icones ou tag) e ser citados na fala.\nEstrutura: abertura apresentando o projeto Parking Space Detection (assistente veicular que identifica vagas disponíveis em estacionamentos) e o roteiro da apresentação; 1 a 2 cenas por quadro (cenas de 10 a 25 s; 22 a 28 cenas no total); encerramento com um resumo em uma frase por bloco (problema, solução, equipe, prazo e custo) e agradecimento. Cada cena tem um `titulo` curto com o nome do quadro em português (ex.: \"Justificativa\", \"Riscos\", \"Custos estimados\").\nTom: apresentação de trabalho, formal e claro, na primeira pessoa do plural (\"nosso projeto\", \"nós vamos\"). Sem humor, sem enquete e sem pedido para seguir/curtir. Visual de videoaula, fundo branco.\nFotos são opcionais: 3 a 6 imagens livres do Wikimedia Commons só para ilustrar (estacionamento, câmera de monitoramento, sensor ultrassônico, aplicativo de navegação) em `fundo`/`galeria` de algumas cenas.",
+   "galeria": false
+  }
+ },
+ "formato": "16:9",
+ "visual": "aula",
+ "voz": {
+  "edge": "pt-BR-ThalitaMultilingualNeural",
+  "velocidade": "+0%",
+  "tratamento": true
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-24T13:54:49.578Z"
+ }
+}
