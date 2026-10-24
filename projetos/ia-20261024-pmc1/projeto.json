@@ -6,14 +6,14 @@
  "estilo": "documentario",
  "tema": "claro",
  "criadoEm": "2026-10-24T13:54:49.578Z",
- "atualizadoEm": "2026-10-24T14:00:15Z",
+ "atualizadoEm": "2026-10-24T14:10:42.993Z",
  "status": "pronto",
  "legenda": {
   "fonte": "inter",
-  "tamanho": 60,
-  "cor": "#FFFFFF",
+  "tamanho": 48,
+  "cor": "#111111",
   "corDestaque": "#FFD60A",
-  "posicao": 91,
+  "posicao": 88,
   "palavrasPorTela": 8,
   "maiusculas": false,
   "contorno": 0,
@@ -4396,7 +4396,7 @@
    "altura": 600,
    "rostos": 0,
    "foco": {
-    "x": 26.0,
+    "x": 26,
     "y": 32.5
    }
   },
