@@ -46,7 +46,7 @@ const Cena: React.FC<{ c: CenaTempo }> = ({ c }) => {
   return (
     <AbsoluteFill style={{ opacity: Math.min(entra, sai), transform: `translateY(${(1 - entra) * 16}px)` }}>
       {audio && <Sequence from={2} layout="none"><Audio src={audio} /></Sequence>}
-      {comFoto && <FotosCartoes chave={c.fundo} galeria={c.galeria} inicios={c.galeriaInicios} duracao={c.duracao} caixa={{ x: tela.x, y: tela.y, w: FOTO_W, h: tela.h }} claro />}
+      {comFoto && <FotosCartoes chave={c.fundo} galeria={c.galeria} inicios={c.galeriaInicios} duracao={c.duracao} caixa={{ x: tela.x, y: tela.y + 24, w: FOTO_W, h: tela.h - 24 }} claro />}
       {titulos.map((e) => (
         <Sequence key={e.indice} from={e.entra} durationInFrames={dur(e)} layout="none">
           <div style={{ position: "absolute", left: MARGEM, top: 165, right: MARGEM }}><Manchete e={e} /></div>
@@ -101,7 +101,7 @@ export const LegendaAula: React.FC = () => {
   const tela = telas[idx];
   if (!tela || f > tela[tela.length - 1].fim + 12) return null;
   return (
-    <div style={{ position: "absolute", left: 0, right: 0, top: 900, display: "flex", justifyContent: "center", pointerEvents: "none" }}>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 925, display: "flex", justifyContent: "center", pointerEvents: "none" }}>
       <div style={{ maxWidth: 1500, textAlign: "center", fontFamily: FONTE_AULA, fontSize: 42, fontWeight: 600, lineHeight: 1.35, color: A.texto }}>
         {tela.map((w, i) => {
           const ativa = f >= w.ini && (f < w.fim + 2 || i === tela.length - 1 || f < tela[i + 1].ini);
