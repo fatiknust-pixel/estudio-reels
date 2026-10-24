@@ -4,26 +4,27 @@
  "titulo": "Parking Space Detection — Project Model Canvas",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "aula",
+ "tema": "claro",
  "criadoEm": "2026-10-24T13:54:49.578Z",
- "atualizadoEm": "2026-10-24T13:54:49.578Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-24T14:00:15Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "inter",
+  "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
-  "posicao": 70,
-  "palavrasPorTela": 3,
-  "maiusculas": true,
-  "contorno": 10,
+  "posicao": 91,
+  "palavrasPorTela": 8,
+  "maiusculas": false,
+  "contorno": 0,
   "fundo": "nenhum",
-  "animacao": "pop",
-  "mostrar": true
+  "animacao": "nenhuma",
+  "mostrar": true,
+  "modo": "cinema"
  },
  "efeitos": {
   "barraProgresso": true,
-  "trilha": true,
+  "trilha": false,
   "volumeTrilha": 0.1,
   "somTransicao": true,
   "titulos": [],
@@ -60,11 +61,4416 @@
   "velocidade": "+0%",
   "tratamento": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "abertura",
+   "texto": "Olá! Nós vamos apresentar o nosso projeto, o Parking Space Detection, um assistente veicular que identifica vagas disponíveis em estacionamentos. Este é o nosso trabalho de faculdade, organizado no Project Model Canvas.",
+   "fundo": "estacionamento",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PARKING SPACE DETECTION",
+     "sub": "Project Model Canvas",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "tag",
+     "texto": "Assistente veicular",
+     "icone": "pin",
+     "posicao": "alto",
+     "em": "assistente"
+    }
+   ]
+  },
+  {
+   "id": "roteiro",
+   "texto": "Vamos passar pelos quatorze quadros do canvas: do problema e da solução, passando pela equipe e pelo prazo, até o custo total estimado do nosso protótipo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ROTEIRO DA APRESENTAÇÃO",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alerta",
+       "Problema"
+      ],
+      [
+       "lampada",
+       "Solução"
+      ],
+      [
+       "pessoa",
+       "Equipe"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "problema"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "calendario",
+       "Prazo"
+      ],
+      [
+       "moeda",
+       "Custo"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "prazo"
+    }
+   ]
+  },
+  {
+   "id": "justificativa",
+   "texto": "Na justificativa, olhamos o passado: motoristas perdem tempo procurando vagas, têm dificuldade em estacionamentos lotados, e existe a necessidade de melhorar a mobilidade e reduzir o estresse ao estacionar.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "JUSTIFICATIVA",
+     "sub": "Passado",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "Tempo perdido"
+      ],
+      [
+       "alerta",
+       "Lotação"
+      ],
+      [
+       "pessoa",
+       "Estresse"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "perdem"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Melhorar a mobilidade",
+     "icone": "alvo",
+     "posicao": "alto2",
+     "em": "mobilidade"
+    }
+   ]
+  },
+  {
+   "id": "pitch",
+   "texto": "O nosso pitch é desenvolver um sistema inteligente que detecta vagas livres e orienta o motorista até elas, reduzindo o tempo de procura e facilitando o estacionamento.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PITCH",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lupa",
+       "Detecta vagas"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "pin",
+       "Orienta o motorista"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "detecta"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Menos tempo de procura",
+     "icone": "relogio",
+     "posicao": "alto2",
+     "em": "reduzindo"
+    }
+   ]
+  },
+  {
+   "id": "produto",
+   "texto": "O produto é um sistema de detecção de vagas que usa câmeras e sensores instalados no estacionamento. Com eles, o sistema identifica quais vagas estão livres e quais estão ocupadas.",
+   "fundo": "camera",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PRODUTO",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "video",
+       "Câmeras"
+      ],
+      [
+       "chip",
+       "Sensores"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "câmeras"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "check",
+       "Livres"
+      ],
+      [
+       "x",
+       "Ocupadas"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "livres"
+    }
+   ]
+  },
+  {
+   "id": "produto-tela",
+   "texto": "As vagas disponíveis são exibidas em uma tela ou aplicativo, para que o motorista veja rapidamente onde estacionar. Depois, o sistema ainda orienta o motorista até a vaga selecionada.",
+   "fundo": "navegacao",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PRODUTO",
+     "sub": "Tela e orientação",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "celular",
+       "Tela ou aplicativo"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "pin",
+       "Vaga selecionada"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "exibidas"
+    }
+   ]
+  },
+  {
+   "id": "stakeholders",
+   "texto": "Os stakeholders, ou partes interessadas, incluem os engenheiros de desenvolvimento, os fabricantes de veículos e os fornecedores de câmeras e sensores.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "STAKEHOLDERS",
+     "sub": "Partes interessadas",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "engrenagem",
+       "Engenheiros"
+      ],
+      [
+       "predio",
+       "Fabricantes de veículos"
+      ],
+      [
+       "chip",
+       "Fornecedores"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "engenheiros"
+    }
+   ]
+  },
+  {
+   "id": "stakeholders-usuarios",
+   "texto": "Também fazem parte as empresas administradoras de estacionamentos, que precisam permitir o uso do sistema, e, claro, os motoristas e usuários, que são quem vai usar a solução no dia a dia.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "STAKEHOLDERS",
+     "sub": "Partes interessadas",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "predio",
+       "Administradoras"
+      ],
+      [
+       "pessoa",
+       "Motoristas e usuários"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "administradoras"
+    }
+   ]
+  },
+  {
+   "id": "premissas",
+   "texto": "Nas premissas, assumimos que câmeras ou sensores conseguem identificar as vagas, que haverá processamento suficiente, que os estacionamentos permitirão a instalação e que teremos recursos para desenvolver e testar.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PREMISSAS",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "video",
+       "Identificam as vagas"
+      ],
+      [
+       "chip",
+       "Processamento suficiente"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "câmeras"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "predio",
+       "Instalação permitida"
+      ],
+      [
+       "moeda",
+       "Recursos disponíveis"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "estacionamentos"
+    }
+   ]
+  },
+  {
+   "id": "riscos",
+   "texto": "Os riscos são quatro: sensores ou câmeras que não identifiquem corretamente as vagas, falhas de comunicação entre os componentes, iluminação que prejudique a detecção e custos acima do previsto.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RISCOS",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alerta",
+       "Detecção incorreta"
+      ],
+      [
+       "plug",
+       "Falha de comunicação"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "sensores"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lampada",
+       "Iluminação"
+      ],
+      [
+       "moeda",
+       "Custo acima do previsto"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "iluminação"
+    }
+   ]
+  },
+  {
+   "id": "objetivo-smart",
+   "texto": "O objetivo SMART é desenvolver e testar, em até seis meses, um protótipo capaz de identificar vagas livres e ocupadas, com pelo menos noventa por cento de precisão em condições controladas.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "OBJETIVO SMART",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 6,
+     "unidade": " meses",
+     "rotulo": "Prazo",
+     "posicao": "alto",
+     "em": "seis"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 90,
+     "unidade": "%",
+     "rotulo": "Precisão mínima",
+     "posicao": "alto2",
+     "em": "noventa"
+    }
+   ]
+  },
+  {
+   "id": "requisitos",
+   "texto": "Os requisitos são: detectar vagas livres e ocupadas, atualizar as informações das vagas, apresentar os resultados em uma tela ou aplicativo, ter resposta rápida e funcionamento confiável, e não comprometer a segurança do veículo.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "REQUISITOS",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lupa",
+       "Detectar vagas"
+      ],
+      [
+       "raio",
+       "Atualizar"
+      ],
+      [
+       "celular",
+       "Apresentar"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "detectar"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "Resposta rápida"
+      ],
+      [
+       "escudo",
+       "Segurança do veículo"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "resposta"
+    }
+   ]
+  },
+  {
+   "id": "beneficios",
+   "texto": "Como benefícios futuros, esperamos reduzir o tempo de procura, diminuir o estresse dos motoristas, melhorar o fluxo de veículos, aumentar a satisfação dos usuários e possivelmente reduzir o consumo de combustível.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "BENEFÍCIOS FUTUROS",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "Menos tempo"
+      ],
+      [
+       "pessoa",
+       "Menos estresse"
+      ],
+      [
+       "seta",
+       "Melhor fluxo"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "reduzir"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "estrela",
+       "Mais satisfação"
+      ],
+      [
+       "raio",
+       "Menos combustível"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "aumentar"
+    }
+   ]
+  },
+  {
+   "id": "equipe",
+   "texto": "A nossa equipe tem um engenheiro de eletrônica automotiva, um desenvolvedor de software, um especialista em sensores e câmeras e um responsável pelos testes e validação.",
+   "fundo": "sensor",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "EQUIPE",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "chip",
+       "Eletrônica automotiva"
+      ],
+      [
+       "codigo",
+       "Software"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "engenheiro"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "video",
+       "Sensores e câmeras"
+      ],
+      [
+       "check",
+       "Testes e validação"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "especialista"
+    }
+   ]
+  },
+  {
+   "id": "entregas-a-c",
+   "texto": "As principais entregas são cinco. A: levantamento de requisitos e planejamento. B: desenvolvimento do protótipo. C: integração de sensores, câmeras e software.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PRINCIPAIS ENTREGAS",
+     "sub": "A a C",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lista",
+       "A. Requisitos e planejamento"
+      ],
+      [
+       "ferramenta",
+       "B. Protótipo"
+      ],
+      [
+       "plug",
+       "C. Integração"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "levantamento"
+    }
+   ]
+  },
+  {
+   "id": "entregas-d-e",
+   "texto": "D: testes de detecção das vagas, para verificar se o sistema acerta no que está livre e no que está ocupado. E: relatório final e apresentação do projeto, que encerram o nosso trabalho.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PRINCIPAIS ENTREGAS",
+     "sub": "D e E",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lupa",
+       "D. Testes de detecção"
+      ],
+      [
+       "documento",
+       "E. Relatório e apresentação"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "testes"
+    }
+   ]
+  },
+  {
+   "id": "cronograma-a-c",
+   "texto": "No cronograma, em março fazemos o planejamento e os requisitos; em abril, a seleção dos componentes; e em maio, o desenvolvimento do sistema.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CRONOGRAMA",
+     "sub": "Março a maio",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "Março",
+       "Planejamento e requisitos"
+      ],
+      [
+       "Abril",
+       "Seleção dos componentes"
+      ],
+      [
+       "Maio",
+       "Desenvolvimento"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "março"
+    }
+   ]
+  },
+  {
+   "id": "cronograma-d-e",
+   "texto": "Em junho, vêm a integração e os testes; em julho, a validação e a apresentação final. As datas são sugestões e podem ser ajustadas ao calendário da faculdade.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CRONOGRAMA",
+     "sub": "Junho e julho",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "Junho",
+       "Integração e testes"
+      ],
+      [
+       "Julho",
+       "Validação e apresentação"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "junho"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Datas ajustáveis",
+     "icone": "calendario",
+     "posicao": "alto2",
+     "em": "sugestões"
+    }
+   ]
+  },
+  {
+   "id": "restricoes",
+   "texto": "As restrições são o orçamento limitado para o protótipo, a disponibilidade de câmeras e sensores, a necessidade de manter precisão e segurança, o tempo limitado e a dependência da iluminação e do ambiente.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESTRIÇÕES",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "moeda",
+       "Orçamento limitado"
+      ],
+      [
+       "video",
+       "Disponibilidade de câmeras"
+      ],
+      [
+       "escudo",
+       "Precisão e segurança"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "orçamento"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "relogio",
+       "Tempo limitado"
+      ],
+      [
+       "lampada",
+       "Iluminação e ambiente"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "tempo"
+    }
+   ]
+  },
+  {
+   "id": "custos",
+   "texto": "Os custos estimados são: R$ 1.500 em desenvolvimento, R$ 1.300 no protótipo e componentes, e R$ 800 em testes e validação.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CUSTOS ESTIMADOS",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "codigo",
+       "R$ 1.500 Desenvolvimento"
+      ],
+      [
+       "chip",
+       "R$ 1.300 Protótipo"
+      ],
+      [
+       "check",
+       "R$ 800 Testes"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "desenvolvimento"
+    }
+   ]
+  },
+  {
+   "id": "custo-total",
+   "texto": "Somando R$ 1.500, R$ 1.300 e R$ 800, chegamos ao custo total estimado de R$ 3.600. Lembrando que os valores são hipotéticos, para fins acadêmicos, e servem apenas para o planejamento do nosso trabalho.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CUSTO TOTAL",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 3600,
+     "unidade": "R$ ",
+     "rotulo": "Total estimado",
+     "posicao": "alto",
+     "em": "total"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Valores hipotéticos",
+     "icone": "alerta",
+     "posicao": "alto2",
+     "em": "hipotéticos"
+    }
+   ]
+  },
+  {
+   "id": "resumo",
+   "texto": "Em resumo: o problema é a perda de tempo atrás de vagas; a solução é um sistema com câmeras e sensores; a equipe tem quatro especialistas; o prazo é de março a julho; e o custo é de R$ 3.600.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RESUMO",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alerta",
+       "Problema"
+      ],
+      [
+       "lampada",
+       "Solução"
+      ],
+      [
+       "pessoa",
+       "Equipe"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "problema"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "calendario",
+       "Março a julho"
+      ],
+      [
+       "moeda",
+       "R$ 3.600"
+      ]
+     ],
+     "posicao": "alto2",
+     "em": "prazo"
+    }
+   ]
+  },
+  {
+   "id": "agradecimento",
+   "texto": "Chegamos ao fim da nossa apresentação. Muito obrigado pela atenção de todos. Ficamos à disposição para dúvidas, sugestões e comentários sobre o projeto Parking Space Detection.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "OBRIGADO!",
+     "sub": "Parking Space Detection",
+     "posicao": "topo",
+     "em": 0
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "abertura": {
+   "hash": "cb06c36e02",
+   "texto": "Olá! Nós vamos apresentar o nosso projeto, o Parking Space Detection, um assistente veicular que identifica vagas disponíveis em estacionamentos. Este é o nosso trabalho de faculdade, organizado no Project Model Canvas.",
+   "audio": "audio/abertura-cb06c36e02.mp3",
+   "duracao": 14.655,
+   "palavras": [
+    {
+     "p": "Olá",
+     "i": 0.05,
+     "f": 0.487
+    },
+    {
+     "p": "Nós",
+     "i": 0.838,
+     "f": 1.075
+    },
+    {
+     "p": "vamos",
+     "i": 1.075,
+     "f": 1.262
+    },
+    {
+     "p": "apresentar",
+     "i": 1.262,
+     "f": 1.887
+    },
+    {
+     "p": "o",
+     "i": 1.887,
+     "f": 1.9
+    },
+    {
+     "p": "nosso",
+     "i": 1.9,
+     "f": 2.163
+    },
+    {
+     "p": "projeto",
+     "i": 2.163,
+     "f": 2.725
+    },
+    {
+     "p": "o",
+     "i": 2.875,
+     "f": 2.938
+    },
+    {
+     "p": "Parking",
+     "i": 2.938,
+     "f": 3.375
+    },
+    {
+     "p": "Space",
+     "i": 3.375,
+     "f": 3.875
+    },
+    {
+     "p": "Detection",
+     "i": 3.875,
+     "f": 4.513
+    },
+    {
+     "p": "um",
+     "i": 4.725,
+     "f": 4.812
+    },
+    {
+     "p": "assistente",
+     "i": 4.812,
+     "f": 5.388
+    },
+    {
+     "p": "veicular",
+     "i": 5.388,
+     "f": 5.938
+    },
+    {
+     "p": "que",
+     "i": 5.938,
+     "f": 6.037
+    },
+    {
+     "p": "identifica",
+     "i": 6.037,
+     "f": 6.612
+    },
+    {
+     "p": "vagas",
+     "i": 6.612,
+     "f": 7.087
+    },
+    {
+     "p": "disponíveis",
+     "i": 7.088,
+     "f": 7.812
+    },
+    {
+     "p": "em",
+     "i": 7.812,
+     "f": 8
+    },
+    {
+     "p": "estacionamentos",
+     "i": 8,
+     "f": 8.988
+    },
+    {
+     "p": "Este",
+     "i": 9.325,
+     "f": 9.7
+    },
+    {
+     "p": "é",
+     "i": 9.7,
+     "f": 9.787
+    },
+    {
+     "p": "o",
+     "i": 9.787,
+     "f": 9.8
+    },
+    {
+     "p": "nosso",
+     "i": 9.8,
+     "f": 10.062
+    },
+    {
+     "p": "trabalho",
+     "i": 10.062,
+     "f": 10.45
+    },
+    {
+     "p": "de",
+     "i": 10.45,
+     "f": 10.525
+    },
+    {
+     "p": "faculdade",
+     "i": 10.525,
+     "f": 11.238
+    },
+    {
+     "p": "organizado",
+     "i": 11.438,
+     "f": 12.113
+    },
+    {
+     "p": "no",
+     "i": 12.113,
+     "f": 12.225
+    },
+    {
+     "p": "Project",
+     "i": 12.225,
+     "f": 12.85
+    },
+    {
+     "p": "Model",
+     "i": 12.85,
+     "f": 13.287
+    },
+    {
+     "p": "Canvas",
+     "i": 13.287,
+     "f": 13.862
+    }
+   ]
+  },
+  "roteiro": {
+   "hash": "ffe732a5a3",
+   "texto": "Vamos passar pelos quatorze quadros do canvas: do problema e da solução, passando pela equipe e pelo prazo, até o custo total estimado do nosso protótipo.",
+   "audio": "audio/roteiro-ffe732a5a3.mp3",
+   "duracao": 10.031,
+   "palavras": [
+    {
+     "p": "Vamos",
+     "i": 0.05,
+     "f": 0.312
+    },
+    {
+     "p": "passar",
+     "i": 0.312,
+     "f": 0.725
+    },
+    {
+     "p": "pelos",
+     "i": 0.725,
+     "f": 0.95
+    },
+    {
+     "p": "quatorze",
+     "i": 0.95,
+     "f": 1.487
+    },
+    {
+     "p": "quadros",
+     "i": 1.488,
+     "f": 1.938
+    },
+    {
+     "p": "do",
+     "i": 1.938,
+     "f": 2.075
+    },
+    {
+     "p": "canvas",
+     "i": 2.075,
+     "f": 2.525
+    },
+    {
+     "p": "do",
+     "i": 2.775,
+     "f": 2.875
+    },
+    {
+     "p": "problema",
+     "i": 2.875,
+     "f": 3.475
+    },
+    {
+     "p": "e",
+     "i": 3.475,
+     "f": 3.513
+    },
+    {
+     "p": "da",
+     "i": 3.513,
+     "f": 3.625
+    },
+    {
+     "p": "solução",
+     "i": 3.625,
+     "f": 4.237
+    },
+    {
+     "p": "passando",
+     "i": 4.4,
+     "f": 4.763
+    },
+    {
+     "p": "pela",
+     "i": 4.763,
+     "f": 4.963
+    },
+    {
+     "p": "equipe",
+     "i": 4.963,
+     "f": 5.55
+    },
+    {
+     "p": "e",
+     "i": 5.55,
+     "f": 5.612
+    },
+    {
+     "p": "pelo",
+     "i": 5.612,
+     "f": 5.888
+    },
+    {
+     "p": "prazo",
+     "i": 5.888,
+     "f": 6.312
+    },
+    {
+     "p": "até",
+     "i": 6.487,
+     "f": 6.737
+    },
+    {
+     "p": "o",
+     "i": 6.737,
+     "f": 6.837
+    },
+    {
+     "p": "custo",
+     "i": 6.838,
+     "f": 7.213
+    },
+    {
+     "p": "total",
+     "i": 7.213,
+     "f": 7.713
+    },
+    {
+     "p": "estimado",
+     "i": 7.713,
+     "f": 8.25
+    },
+    {
+     "p": "do",
+     "i": 8.25,
+     "f": 8.325
+    },
+    {
+     "p": "nosso",
+     "i": 8.325,
+     "f": 8.6
+    },
+    {
+     "p": "protótipo",
+     "i": 8.6,
+     "f": 9.25
+    }
+   ]
+  },
+  "justificativa": {
+   "hash": "6ddb75064f",
+   "texto": "Na justificativa, olhamos o passado: motoristas perdem tempo procurando vagas, têm dificuldade em estacionamentos lotados, e existe a necessidade de melhorar a mobilidade e reduzir o estresse ao estacionar.",
+   "audio": "audio/justificativa-6ddb75064f.mp3",
+   "duracao": 13.035,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.05,
+     "f": 0.213
+    },
+    {
+     "p": "justificativa",
+     "i": 0.212,
+     "f": 1.188
+    },
+    {
+     "p": "olhamos",
+     "i": 1.438,
+     "f": 1.75
+    },
+    {
+     "p": "o",
+     "i": 1.75,
+     "f": 1.85
+    },
+    {
+     "p": "passado",
+     "i": 1.85,
+     "f": 2.4
+    },
+    {
+     "p": "motoristas",
+     "i": 2.65,
+     "f": 3.263
+    },
+    {
+     "p": "perdem",
+     "i": 3.263,
+     "f": 3.65
+    },
+    {
+     "p": "tempo",
+     "i": 3.65,
+     "f": 3.95
+    },
+    {
+     "p": "procurando",
+     "i": 3.95,
+     "f": 4.438
+    },
+    {
+     "p": "vagas",
+     "i": 4.438,
+     "f": 4.95
+    },
+    {
+     "p": "têm",
+     "i": 5.15,
+     "f": 5.275
+    },
+    {
+     "p": "dificuldade",
+     "i": 5.275,
+     "f": 6.013
+    },
+    {
+     "p": "em",
+     "i": 6.013,
+     "f": 6.1
+    },
+    {
+     "p": "estacionamentos",
+     "i": 6.1,
+     "f": 6.8
+    },
+    {
+     "p": "lotados",
+     "i": 6.8,
+     "f": 7.425
+    },
+    {
+     "p": "e",
+     "i": 7.612,
+     "f": 7.675
+    },
+    {
+     "p": "existe",
+     "i": 7.675,
+     "f": 8.175
+    },
+    {
+     "p": "a",
+     "i": 8.175,
+     "f": 8.188
+    },
+    {
+     "p": "necessidade",
+     "i": 8.188,
+     "f": 8.975
+    },
+    {
+     "p": "de",
+     "i": 8.975,
+     "f": 9.075
+    },
+    {
+     "p": "melhorar",
+     "i": 9.075,
+     "f": 9.587
+    },
+    {
+     "p": "a",
+     "i": 9.588,
+     "f": 9.613
+    },
+    {
+     "p": "mobilidade",
+     "i": 9.613,
+     "f": 10.45
+    },
+    {
+     "p": "e",
+     "i": 10.45,
+     "f": 10.525
+    },
+    {
+     "p": "reduzir",
+     "i": 10.525,
+     "f": 11.088
+    },
+    {
+     "p": "o",
+     "i": 11.088,
+     "f": 11.138
+    },
+    {
+     "p": "estresse",
+     "i": 11.137,
+     "f": 11.637
+    },
+    {
+     "p": "ao",
+     "i": 11.637,
+     "f": 11.7
+    },
+    {
+     "p": "estacionar",
+     "i": 11.7,
+     "f": 12.25
+    }
+   ]
+  },
+  "pitch": {
+   "hash": "665bca860c",
+   "texto": "O nosso pitch é desenvolver um sistema inteligente que detecta vagas livres e orienta o motorista até elas, reduzindo o tempo de procura e facilitando o estacionamento.",
+   "audio": "audio/pitch-665bca860c.mp3",
+   "duracao": 10.109,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.05,
+     "f": 0.125
+    },
+    {
+     "p": "nosso",
+     "i": 0.125,
+     "f": 0.412
+    },
+    {
+     "p": "pitch",
+     "i": 0.412,
+     "f": 0.775
+    },
+    {
+     "p": "é",
+     "i": 0.775,
+     "f": 0.812
+    },
+    {
+     "p": "desenvolver",
+     "i": 0.812,
+     "f": 1.387
+    },
+    {
+     "p": "um",
+     "i": 1.387,
+     "f": 1.475
+    },
+    {
+     "p": "sistema",
+     "i": 1.475,
+     "f": 1.888
+    },
+    {
+     "p": "inteligente",
+     "i": 1.887,
+     "f": 2.575
+    },
+    {
+     "p": "que",
+     "i": 2.575,
+     "f": 2.65
+    },
+    {
+     "p": "detecta",
+     "i": 2.65,
+     "f": 3.175
+    },
+    {
+     "p": "vagas",
+     "i": 3.175,
+     "f": 3.6
+    },
+    {
+     "p": "livres",
+     "i": 3.6,
+     "f": 4.037
+    },
+    {
+     "p": "e",
+     "i": 4.037,
+     "f": 4.212
+    },
+    {
+     "p": "orienta",
+     "i": 4.213,
+     "f": 4.675
+    },
+    {
+     "p": "o",
+     "i": 4.675,
+     "f": 4.688
+    },
+    {
+     "p": "motorista",
+     "i": 4.688,
+     "f": 5.275
+    },
+    {
+     "p": "até",
+     "i": 5.275,
+     "f": 5.5
+    },
+    {
+     "p": "elas",
+     "i": 5.5,
+     "f": 5.95
+    },
+    {
+     "p": "reduzindo",
+     "i": 6.175,
+     "f": 6.7
+    },
+    {
+     "p": "o",
+     "i": 6.7,
+     "f": 6.775
+    },
+    {
+     "p": "tempo",
+     "i": 6.775,
+     "f": 7.038
+    },
+    {
+     "p": "de",
+     "i": 7.037,
+     "f": 7.112
+    },
+    {
+     "p": "procura",
+     "i": 7.112,
+     "f": 7.787
+    },
+    {
+     "p": "e",
+     "i": 7.787,
+     "f": 7.85
+    },
+    {
+     "p": "facilitando",
+     "i": 7.85,
+     "f": 8.475
+    },
+    {
+     "p": "o",
+     "i": 8.475,
+     "f": 8.487
+    },
+    {
+     "p": "estacionamento",
+     "i": 8.488,
+     "f": 9.312
+    }
+   ]
+  },
+  "produto": {
+   "hash": "887adb84b4",
+   "texto": "O produto é um sistema de detecção de vagas que usa câmeras e sensores instalados no estacionamento. Com eles, o sistema identifica quais vagas estão livres e quais estão ocupadas.",
+   "audio": "audio/produto-887adb84b4.mp3",
+   "duracao": 11.729,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.05,
+     "f": 0.138
+    },
+    {
+     "p": "produto",
+     "i": 0.138,
+     "f": 0.675
+    },
+    {
+     "p": "é",
+     "i": 0.675,
+     "f": 0.7
+    },
+    {
+     "p": "um",
+     "i": 0.7,
+     "f": 0.775
+    },
+    {
+     "p": "sistema",
+     "i": 0.775,
+     "f": 1.225
+    },
+    {
+     "p": "de",
+     "i": 1.225,
+     "f": 1.312
+    },
+    {
+     "p": "detecção",
+     "i": 1.312,
+     "f": 1.863
+    },
+    {
+     "p": "de",
+     "i": 1.863,
+     "f": 1.975
+    },
+    {
+     "p": "vagas",
+     "i": 1.975,
+     "f": 2.462
+    },
+    {
+     "p": "que",
+     "i": 2.462,
+     "f": 2.65
+    },
+    {
+     "p": "usa",
+     "i": 2.65,
+     "f": 2.887
+    },
+    {
+     "p": "câmeras",
+     "i": 2.888,
+     "f": 3.312
+    },
+    {
+     "p": "e",
+     "i": 3.312,
+     "f": 3.425
+    },
+    {
+     "p": "sensores",
+     "i": 3.425,
+     "f": 3.975
+    },
+    {
+     "p": "instalados",
+     "i": 3.975,
+     "f": 4.775
+    },
+    {
+     "p": "no",
+     "i": 4.775,
+     "f": 4.875
+    },
+    {
+     "p": "estacionamento",
+     "i": 4.875,
+     "f": 5.7
+    },
+    {
+     "p": "Com",
+     "i": 6.062,
+     "f": 6.263
+    },
+    {
+     "p": "eles",
+     "i": 6.263,
+     "f": 6.612
+    },
+    {
+     "p": "o",
+     "i": 6.875,
+     "f": 6.912
+    },
+    {
+     "p": "sistema",
+     "i": 6.912,
+     "f": 7.35
+    },
+    {
+     "p": "identifica",
+     "i": 7.35,
+     "f": 7.925
+    },
+    {
+     "p": "quais",
+     "i": 7.925,
+     "f": 8.312
+    },
+    {
+     "p": "vagas",
+     "i": 8.312,
+     "f": 8.713
+    },
+    {
+     "p": "estão",
+     "i": 8.713,
+     "f": 9.05
+    },
+    {
+     "p": "livres",
+     "i": 9.05,
+     "f": 9.438
+    },
+    {
+     "p": "e",
+     "i": 9.438,
+     "f": 9.6
+    },
+    {
+     "p": "quais",
+     "i": 9.6,
+     "f": 9.875
+    },
+    {
+     "p": "estão",
+     "i": 9.875,
+     "f": 10.188
+    },
+    {
+     "p": "ocupadas",
+     "i": 10.188,
+     "f": 10.925
+    }
+   ]
+  },
+  "produto-tela": {
+   "hash": "76ed248327",
+   "texto": "As vagas disponíveis são exibidas em uma tela ou aplicativo, para que o motorista veja rapidamente onde estacionar. Depois, o sistema ainda orienta o motorista até a vaga selecionada.",
+   "audio": "audio/produto-tela-76ed248327.mp3",
+   "duracao": 12.121,
+   "palavras": [
+    {
+     "p": "As",
+     "i": 0.05,
+     "f": 0.25
+    },
+    {
+     "p": "vagas",
+     "i": 0.25,
+     "f": 0.6
+    },
+    {
+     "p": "disponíveis",
+     "i": 0.6,
+     "f": 1.312
+    },
+    {
+     "p": "são",
+     "i": 1.312,
+     "f": 1.45
+    },
+    {
+     "p": "exibidas",
+     "i": 1.45,
+     "f": 1.887
+    },
+    {
+     "p": "em",
+     "i": 1.887,
+     "f": 2.05
+    },
+    {
+     "p": "uma",
+     "i": 2.05,
+     "f": 2.237
+    },
+    {
+     "p": "tela",
+     "i": 2.237,
+     "f": 2.75
+    },
+    {
+     "p": "ou",
+     "i": 2.75,
+     "f": 2.913
+    },
+    {
+     "p": "aplicativo",
+     "i": 2.913,
+     "f": 3.713
+    },
+    {
+     "p": "para",
+     "i": 3.888,
+     "f": 4.062
+    },
+    {
+     "p": "que",
+     "i": 4.062,
+     "f": 4.15
+    },
+    {
+     "p": "o",
+     "i": 4.15,
+     "f": 4.163
+    },
+    {
+     "p": "motorista",
+     "i": 4.162,
+     "f": 4.737
+    },
+    {
+     "p": "veja",
+     "i": 4.737,
+     "f": 5.05
+    },
+    {
+     "p": "rapidamente",
+     "i": 5.05,
+     "f": 5.9
+    },
+    {
+     "p": "onde",
+     "i": 5.9,
+     "f": 6.1
+    },
+    {
+     "p": "estacionar",
+     "i": 6.1,
+     "f": 6.7
+    },
+    {
+     "p": "Depois",
+     "i": 7.037,
+     "f": 7.65
+    },
+    {
+     "p": "o",
+     "i": 7.875,
+     "f": 7.9
+    },
+    {
+     "p": "sistema",
+     "i": 7.9,
+     "f": 8.338
+    },
+    {
+     "p": "ainda",
+     "i": 8.338,
+     "f": 8.6
+    },
+    {
+     "p": "orienta",
+     "i": 8.6,
+     "f": 9.037
+    },
+    {
+     "p": "o",
+     "i": 9.037,
+     "f": 9.037
+    },
+    {
+     "p": "motorista",
+     "i": 9.037,
+     "f": 9.825
+    },
+    {
+     "p": "até",
+     "i": 9.825,
+     "f": 10.087
+    },
+    {
+     "p": "a",
+     "i": 10.088,
+     "f": 10.175
+    },
+    {
+     "p": "vaga",
+     "i": 10.175,
+     "f": 10.55
+    },
+    {
+     "p": "selecionada",
+     "i": 10.55,
+     "f": 11.35
+    }
+   ]
+  },
+  "stakeholders": {
+   "hash": "251fb90e1e",
+   "texto": "Os stakeholders, ou partes interessadas, incluem os engenheiros de desenvolvimento, os fabricantes de veículos e os fornecedores de câmeras e sensores.",
+   "audio": "audio/stakeholders-251fb90e1e.mp3",
+   "duracao": 10.057,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.05,
+     "f": 0.113
+    },
+    {
+     "p": "stakeholders",
+     "i": 0.113,
+     "f": 1.062
+    },
+    {
+     "p": "ou",
+     "i": 1.288,
+     "f": 1.425
+    },
+    {
+     "p": "partes",
+     "i": 1.425,
+     "f": 1.812
+    },
+    {
+     "p": "interessadas",
+     "i": 1.812,
+     "f": 2.663
+    },
+    {
+     "p": "incluem",
+     "i": 2.875,
+     "f": 3.35
+    },
+    {
+     "p": "os",
+     "i": 3.35,
+     "f": 3.388
+    },
+    {
+     "p": "engenheiros",
+     "i": 3.388,
+     "f": 4.1
+    },
+    {
+     "p": "de",
+     "i": 4.1,
+     "f": 4.225
+    },
+    {
+     "p": "desenvolvimento",
+     "i": 4.225,
+     "f": 5.162
+    },
+    {
+     "p": "os",
+     "i": 5.325,
+     "f": 5.413
+    },
+    {
+     "p": "fabricantes",
+     "i": 5.412,
+     "f": 6.125
+    },
+    {
+     "p": "de",
+     "i": 6.125,
+     "f": 6.25
+    },
+    {
+     "p": "veículos",
+     "i": 6.25,
+     "f": 6.888
+    },
+    {
+     "p": "e",
+     "i": 6.888,
+     "f": 7.025
+    },
+    {
+     "p": "os",
+     "i": 7.025,
+     "f": 7.125
+    },
+    {
+     "p": "fornecedores",
+     "i": 7.125,
+     "f": 7.812
+    },
+    {
+     "p": "de",
+     "i": 7.812,
+     "f": 7.963
+    },
+    {
+     "p": "câmeras",
+     "i": 7.963,
+     "f": 8.388
+    },
+    {
+     "p": "e",
+     "i": 8.387,
+     "f": 8.487
+    },
+    {
+     "p": "sensores",
+     "i": 8.488,
+     "f": 9.263
+    }
+   ]
+  },
+  "stakeholders-usuarios": {
+   "hash": "de2bcccc3c",
+   "texto": "Também fazem parte as empresas administradoras de estacionamentos, que precisam permitir o uso do sistema, e, claro, os motoristas e usuários, que são quem vai usar a solução no dia a dia.",
+   "audio": "audio/stakeholders-usuarios-de2bcccc3c.mp3",
+   "duracao": 11.572,
+   "palavras": [
+    {
+     "p": "Também",
+     "i": 0.05,
+     "f": 0.35
+    },
+    {
+     "p": "fazem",
+     "i": 0.35,
+     "f": 0.712
+    },
+    {
+     "p": "parte",
+     "i": 0.713,
+     "f": 1.062
+    },
+    {
+     "p": "as",
+     "i": 1.062,
+     "f": 1.075
+    },
+    {
+     "p": "empresas",
+     "i": 1.075,
+     "f": 1.55
+    },
+    {
+     "p": "administradoras",
+     "i": 1.55,
+     "f": 2.525
+    },
+    {
+     "p": "de",
+     "i": 2.525,
+     "f": 2.6
+    },
+    {
+     "p": "estacionamentos",
+     "i": 2.6,
+     "f": 3.538
+    },
+    {
+     "p": "que",
+     "i": 3.663,
+     "f": 3.738
+    },
+    {
+     "p": "precisam",
+     "i": 3.737,
+     "f": 4.225
+    },
+    {
+     "p": "permitir",
+     "i": 4.225,
+     "f": 4.725
+    },
+    {
+     "p": "o",
+     "i": 4.725,
+     "f": 4.9
+    },
+    {
+     "p": "uso",
+     "i": 4.9,
+     "f": 5.113
+    },
+    {
+     "p": "do",
+     "i": 5.112,
+     "f": 5.212
+    },
+    {
+     "p": "sistema",
+     "i": 5.213,
+     "f": 5.812
+    },
+    {
+     "p": "e",
+     "i": 6,
+     "f": 6.125
+    },
+    {
+     "p": "claro",
+     "i": 6.275,
+     "f": 6.713
+    },
+    {
+     "p": "os",
+     "i": 6.888,
+     "f": 6.987
+    },
+    {
+     "p": "motoristas",
+     "i": 6.987,
+     "f": 7.712
+    },
+    {
+     "p": "e",
+     "i": 7.713,
+     "f": 7.9
+    },
+    {
+     "p": "usuários",
+     "i": 7.9,
+     "f": 8.55
+    },
+    {
+     "p": "que",
+     "i": 8.7,
+     "f": 8.787
+    },
+    {
+     "p": "são",
+     "i": 8.787,
+     "f": 8.987
+    },
+    {
+     "p": "quem",
+     "i": 8.988,
+     "f": 9.188
+    },
+    {
+     "p": "vai",
+     "i": 9.188,
+     "f": 9.363
+    },
+    {
+     "p": "usar",
+     "i": 9.363,
+     "f": 9.588
+    },
+    {
+     "p": "a",
+     "i": 9.588,
+     "f": 9.613
+    },
+    {
+     "p": "solução",
+     "i": 9.613,
+     "f": 10.125
+    },
+    {
+     "p": "no",
+     "i": 10.125,
+     "f": 10.25
+    },
+    {
+     "p": "dia",
+     "i": 10.25,
+     "f": 10.412
+    },
+    {
+     "p": "a",
+     "i": 10.412,
+     "f": 10.425
+    },
+    {
+     "p": "dia",
+     "i": 10.425,
+     "f": 10.788
+    }
+   ]
+  },
+  "premissas": {
+   "hash": "dd6cb3ccc5",
+   "texto": "Nas premissas, assumimos que câmeras ou sensores conseguem identificar as vagas, que haverá processamento suficiente, que os estacionamentos permitirão a instalação e que teremos recursos para desenvolver e testar.",
+   "audio": "audio/premissas-dd6cb3ccc5.mp3",
+   "duracao": 13.087,
+   "palavras": [
+    {
+     "p": "Nas",
+     "i": 0.05,
+     "f": 0.287
+    },
+    {
+     "p": "premissas",
+     "i": 0.287,
+     "f": 0.912
+    },
+    {
+     "p": "assumimos",
+     "i": 1.113,
+     "f": 1.65
+    },
+    {
+     "p": "que",
+     "i": 1.65,
+     "f": 1.8
+    },
+    {
+     "p": "câmeras",
+     "i": 1.8,
+     "f": 2.288
+    },
+    {
+     "p": "ou",
+     "i": 2.288,
+     "f": 2.475
+    },
+    {
+     "p": "sensores",
+     "i": 2.475,
+     "f": 3.1
+    },
+    {
+     "p": "conseguem",
+     "i": 3.1,
+     "f": 3.737
+    },
+    {
+     "p": "identificar",
+     "i": 3.737,
+     "f": 4.425
+    },
+    {
+     "p": "as",
+     "i": 4.425,
+     "f": 4.587
+    },
+    {
+     "p": "vagas",
+     "i": 4.588,
+     "f": 5.05
+    },
+    {
+     "p": "que",
+     "i": 5.213,
+     "f": 5.275
+    },
+    {
+     "p": "haverá",
+     "i": 5.275,
+     "f": 5.575
+    },
+    {
+     "p": "processamento",
+     "i": 5.575,
+     "f": 6.263
+    },
+    {
+     "p": "suficiente",
+     "i": 6.263,
+     "f": 7.112
+    },
+    {
+     "p": "que",
+     "i": 7.213,
+     "f": 7.288
+    },
+    {
+     "p": "os",
+     "i": 7.287,
+     "f": 7.312
+    },
+    {
+     "p": "estacionamentos",
+     "i": 7.312,
+     "f": 8.175
+    },
+    {
+     "p": "permitirão",
+     "i": 8.175,
+     "f": 8.713
+    },
+    {
+     "p": "a",
+     "i": 8.713,
+     "f": 8.75
+    },
+    {
+     "p": "instalação",
+     "i": 8.75,
+     "f": 9.562
+    },
+    {
+     "p": "e",
+     "i": 9.562,
+     "f": 9.637
+    },
+    {
+     "p": "que",
+     "i": 9.637,
+     "f": 9.75
+    },
+    {
+     "p": "teremos",
+     "i": 9.75,
+     "f": 10.075
+    },
+    {
+     "p": "recursos",
+     "i": 10.075,
+     "f": 10.762
+    },
+    {
+     "p": "para",
+     "i": 10.762,
+     "f": 11.025
+    },
+    {
+     "p": "desenvolver",
+     "i": 11.025,
+     "f": 11.8
+    },
+    {
+     "p": "e",
+     "i": 11.8,
+     "f": 11.875
+    },
+    {
+     "p": "testar",
+     "i": 11.875,
+     "f": 12.3
+    }
+   ]
+  },
+  "riscos": {
+   "hash": "df02164b42",
+   "texto": "Os riscos são quatro: sensores ou câmeras que não identifiquem corretamente as vagas, falhas de comunicação entre os componentes, iluminação que prejudique a detecção e custos acima do previsto.",
+   "audio": "audio/riscos-df02164b42.mp3",
+   "duracao": 12.487,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.05,
+     "f": 0.2
+    },
+    {
+     "p": "riscos",
+     "i": 0.2,
+     "f": 0.613
+    },
+    {
+     "p": "são",
+     "i": 0.613,
+     "f": 0.8
+    },
+    {
+     "p": "quatro",
+     "i": 0.8,
+     "f": 1.2
+    },
+    {
+     "p": "sensores",
+     "i": 1.475,
+     "f": 2.1
+    },
+    {
+     "p": "ou",
+     "i": 2.1,
+     "f": 2.312
+    },
+    {
+     "p": "câmeras",
+     "i": 2.312,
+     "f": 2.8
+    },
+    {
+     "p": "que",
+     "i": 2.8,
+     "f": 2.938
+    },
+    {
+     "p": "não",
+     "i": 2.938,
+     "f": 3.237
+    },
+    {
+     "p": "identifiquem",
+     "i": 3.237,
+     "f": 3.962
+    },
+    {
+     "p": "corretamente",
+     "i": 3.962,
+     "f": 4.75
+    },
+    {
+     "p": "as",
+     "i": 4.75,
+     "f": 4.912
+    },
+    {
+     "p": "vagas",
+     "i": 4.912,
+     "f": 5.362
+    },
+    {
+     "p": "falhas",
+     "i": 5.6,
+     "f": 5.975
+    },
+    {
+     "p": "de",
+     "i": 5.975,
+     "f": 6.062
+    },
+    {
+     "p": "comunicação",
+     "i": 6.062,
+     "f": 6.875
+    },
+    {
+     "p": "entre",
+     "i": 6.875,
+     "f": 7.05
+    },
+    {
+     "p": "os",
+     "i": 7.05,
+     "f": 7.112
+    },
+    {
+     "p": "componentes",
+     "i": 7.112,
+     "f": 7.837
+    },
+    {
+     "p": "iluminação",
+     "i": 8.037,
+     "f": 8.75
+    },
+    {
+     "p": "que",
+     "i": 8.75,
+     "f": 8.85
+    },
+    {
+     "p": "prejudique",
+     "i": 8.85,
+     "f": 9.425
+    },
+    {
+     "p": "a",
+     "i": 9.425,
+     "f": 9.45
+    },
+    {
+     "p": "detecção",
+     "i": 9.45,
+     "f": 10.137
+    },
+    {
+     "p": "e",
+     "i": 10.137,
+     "f": 10.237
+    },
+    {
+     "p": "custos",
+     "i": 10.238,
+     "f": 10.6
+    },
+    {
+     "p": "acima",
+     "i": 10.6,
+     "f": 11.025
+    },
+    {
+     "p": "do",
+     "i": 11.025,
+     "f": 11.1
+    },
+    {
+     "p": "previsto",
+     "i": 11.1,
+     "f": 11.7
+    }
+   ]
+  },
+  "objetivo-smart": {
+   "hash": "f716e09cf3",
+   "texto": "O objetivo SMART é desenvolver e testar, em até seis meses, um protótipo capaz de identificar vagas livres e ocupadas, com pelo menos noventa por cento de precisão em condições controladas.",
+   "audio": "audio/objetivo-smart-f716e09cf3.mp3",
+   "duracao": 12.33,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.05,
+     "f": 0.087
+    },
+    {
+     "p": "objetivo",
+     "i": 0.087,
+     "f": 0.675
+    },
+    {
+     "p": "SMART",
+     "i": 0.675,
+     "f": 1.15
+    },
+    {
+     "p": "é",
+     "i": 1.15,
+     "f": 1.2
+    },
+    {
+     "p": "desenvolver",
+     "i": 1.2,
+     "f": 1.9
+    },
+    {
+     "p": "e",
+     "i": 1.9,
+     "f": 1.975
+    },
+    {
+     "p": "testar",
+     "i": 1.975,
+     "f": 2.487
+    },
+    {
+     "p": "em",
+     "i": 2.763,
+     "f": 2.863
+    },
+    {
+     "p": "até",
+     "i": 2.862,
+     "f": 3.087
+    },
+    {
+     "p": "seis",
+     "i": 3.087,
+     "f": 3.475
+    },
+    {
+     "p": "meses",
+     "i": 3.475,
+     "f": 3.925
+    },
+    {
+     "p": "um",
+     "i": 4.15,
+     "f": 4.225
+    },
+    {
+     "p": "protótipo",
+     "i": 4.225,
+     "f": 4.837
+    },
+    {
+     "p": "capaz",
+     "i": 4.838,
+     "f": 5.213
+    },
+    {
+     "p": "de",
+     "i": 5.213,
+     "f": 5.25
+    },
+    {
+     "p": "identificar",
+     "i": 5.25,
+     "f": 5.888
+    },
+    {
+     "p": "vagas",
+     "i": 5.888,
+     "f": 6.325
+    },
+    {
+     "p": "livres",
+     "i": 6.325,
+     "f": 6.788
+    },
+    {
+     "p": "e",
+     "i": 6.787,
+     "f": 6.925
+    },
+    {
+     "p": "ocupadas",
+     "i": 6.925,
+     "f": 7.587
+    },
+    {
+     "p": "com",
+     "i": 7.75,
+     "f": 7.888
+    },
+    {
+     "p": "pelo",
+     "i": 7.888,
+     "f": 8.137
+    },
+    {
+     "p": "menos",
+     "i": 8.137,
+     "f": 8.475
+    },
+    {
+     "p": "noventa",
+     "i": 8.475,
+     "f": 8.912
+    },
+    {
+     "p": "por",
+     "i": 8.912,
+     "f": 9.05
+    },
+    {
+     "p": "cento",
+     "i": 9.05,
+     "f": 9.363
+    },
+    {
+     "p": "de",
+     "i": 9.363,
+     "f": 9.425
+    },
+    {
+     "p": "precisão",
+     "i": 9.425,
+     "f": 10.1
+    },
+    {
+     "p": "em",
+     "i": 10.1,
+     "f": 10.15
+    },
+    {
+     "p": "condições",
+     "i": 10.15,
+     "f": 10.675
+    },
+    {
+     "p": "controladas",
+     "i": 10.675,
+     "f": 11.525
+    }
+   ]
+  },
+  "requisitos": {
+   "hash": "ae82e92327",
+   "texto": "Os requisitos são: detectar vagas livres e ocupadas, atualizar as informações das vagas, apresentar os resultados em uma tela ou aplicativo, ter resposta rápida e funcionamento confiável, e não comprometer a segurança do veículo.",
+   "audio": "audio/requisitos-ae82e92327.mp3",
+   "duracao": 14.524,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.05,
+     "f": 0.175
+    },
+    {
+     "p": "requisitos",
+     "i": 0.175,
+     "f": 0.85
+    },
+    {
+     "p": "são",
+     "i": 0.85,
+     "f": 1.087
+    },
+    {
+     "p": "detectar",
+     "i": 1.312,
+     "f": 1.875
+    },
+    {
+     "p": "vagas",
+     "i": 1.875,
+     "f": 2.288
+    },
+    {
+     "p": "livres",
+     "i": 2.288,
+     "f": 2.7
+    },
+    {
+     "p": "e",
+     "i": 2.7,
+     "f": 2.825
+    },
+    {
+     "p": "ocupadas",
+     "i": 2.825,
+     "f": 3.475
+    },
+    {
+     "p": "atualizar",
+     "i": 3.688,
+     "f": 4.237
+    },
+    {
+     "p": "as",
+     "i": 4.237,
+     "f": 4.275
+    },
+    {
+     "p": "informações",
+     "i": 4.275,
+     "f": 4.925
+    },
+    {
+     "p": "das",
+     "i": 4.925,
+     "f": 5.175
+    },
+    {
+     "p": "vagas",
+     "i": 5.175,
+     "f": 5.65
+    },
+    {
+     "p": "apresentar",
+     "i": 5.825,
+     "f": 6.375
+    },
+    {
+     "p": "os",
+     "i": 6.375,
+     "f": 6.438
+    },
+    {
+     "p": "resultados",
+     "i": 6.438,
+     "f": 7.037
+    },
+    {
+     "p": "em",
+     "i": 7.037,
+     "f": 7.225
+    },
+    {
+     "p": "uma",
+     "i": 7.225,
+     "f": 7.375
+    },
+    {
+     "p": "tela",
+     "i": 7.375,
+     "f": 7.787
+    },
+    {
+     "p": "ou",
+     "i": 7.787,
+     "f": 7.925
+    },
+    {
+     "p": "aplicativo",
+     "i": 7.925,
+     "f": 8.662
+    },
+    {
+     "p": "ter",
+     "i": 8.825,
+     "f": 8.925
+    },
+    {
+     "p": "resposta",
+     "i": 8.925,
+     "f": 9.4
+    },
+    {
+     "p": "rápida",
+     "i": 9.4,
+     "f": 10.025
+    },
+    {
+     "p": "e",
+     "i": 10.025,
+     "f": 10.088
+    },
+    {
+     "p": "funcionamento",
+     "i": 10.088,
+     "f": 10.763
+    },
+    {
+     "p": "confiável",
+     "i": 10.762,
+     "f": 11.438
+    },
+    {
+     "p": "e",
+     "i": 11.6,
+     "f": 11.675
+    },
+    {
+     "p": "não",
+     "i": 11.675,
+     "f": 11.963
+    },
+    {
+     "p": "comprometer",
+     "i": 11.963,
+     "f": 12.562
+    },
+    {
+     "p": "a",
+     "i": 12.562,
+     "f": 12.6
+    },
+    {
+     "p": "segurança",
+     "i": 12.6,
+     "f": 13.125
+    },
+    {
+     "p": "do",
+     "i": 13.125,
+     "f": 13.2
+    },
+    {
+     "p": "veículo",
+     "i": 13.2,
+     "f": 13.75
+    }
+   ]
+  },
+  "beneficios": {
+   "hash": "5ab6f27876",
+   "texto": "Como benefícios futuros, esperamos reduzir o tempo de procura, diminuir o estresse dos motoristas, melhorar o fluxo de veículos, aumentar a satisfação dos usuários e possivelmente reduzir o consumo de combustível.",
+   "audio": "audio/beneficios-5ab6f27876.mp3",
+   "duracao": 13.218,
+   "palavras": [
+    {
+     "p": "Como",
+     "i": 0.05,
+     "f": 0.237
+    },
+    {
+     "p": "benefícios",
+     "i": 0.237,
+     "f": 0.812
+    },
+    {
+     "p": "futuros",
+     "i": 0.812,
+     "f": 1.387
+    },
+    {
+     "p": "esperamos",
+     "i": 1.575,
+     "f": 2
+    },
+    {
+     "p": "reduzir",
+     "i": 2,
+     "f": 2.538
+    },
+    {
+     "p": "o",
+     "i": 2.538,
+     "f": 2.625
+    },
+    {
+     "p": "tempo",
+     "i": 2.625,
+     "f": 2.862
+    },
+    {
+     "p": "de",
+     "i": 2.862,
+     "f": 2.938
+    },
+    {
+     "p": "procura",
+     "i": 2.938,
+     "f": 3.462
+    },
+    {
+     "p": "diminuir",
+     "i": 3.675,
+     "f": 4.162
+    },
+    {
+     "p": "o",
+     "i": 4.162,
+     "f": 4.212
+    },
+    {
+     "p": "estresse",
+     "i": 4.213,
+     "f": 4.675
+    },
+    {
+     "p": "dos",
+     "i": 4.675,
+     "f": 4.812
+    },
+    {
+     "p": "motoristas",
+     "i": 4.812,
+     "f": 5.55
+    },
+    {
+     "p": "melhorar",
+     "i": 5.737,
+     "f": 6.3
+    },
+    {
+     "p": "o",
+     "i": 6.3,
+     "f": 6.337
+    },
+    {
+     "p": "fluxo",
+     "i": 6.338,
+     "f": 6.763
+    },
+    {
+     "p": "de",
+     "i": 6.763,
+     "f": 6.862
+    },
+    {
+     "p": "veículos",
+     "i": 6.862,
+     "f": 7.55
+    },
+    {
+     "p": "aumentar",
+     "i": 7.713,
+     "f": 8.125
+    },
+    {
+     "p": "a",
+     "i": 8.125,
+     "f": 8.175
+    },
+    {
+     "p": "satisfação",
+     "i": 8.175,
+     "f": 8.888
+    },
+    {
+     "p": "dos",
+     "i": 8.887,
+     "f": 9
+    },
+    {
+     "p": "usuários",
+     "i": 9,
+     "f": 9.6
+    },
+    {
+     "p": "e",
+     "i": 9.6,
+     "f": 9.725
+    },
+    {
+     "p": "possivelmente",
+     "i": 9.725,
+     "f": 10.55
+    },
+    {
+     "p": "reduzir",
+     "i": 10.55,
+     "f": 11.088
+    },
+    {
+     "p": "o",
+     "i": 11.088,
+     "f": 11.113
+    },
+    {
+     "p": "consumo",
+     "i": 11.113,
+     "f": 11.562
+    },
+    {
+     "p": "de",
+     "i": 11.562,
+     "f": 11.637
+    },
+    {
+     "p": "combustível",
+     "i": 11.637,
+     "f": 12.4
+    }
+   ]
+  },
+  "equipe": {
+   "hash": "0d4d8d8fe4",
+   "texto": "A nossa equipe tem um engenheiro de eletrônica automotiva, um desenvolvedor de software, um especialista em sensores e câmeras e um responsável pelos testes e validação.",
+   "audio": "audio/equipe-0d4d8d8fe4.mp3",
+   "duracao": 10.318,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.05,
+     "f": 0.15
+    },
+    {
+     "p": "nossa",
+     "i": 0.15,
+     "f": 0.387
+    },
+    {
+     "p": "equipe",
+     "i": 0.388,
+     "f": 0.875
+    },
+    {
+     "p": "tem",
+     "i": 0.875,
+     "f": 1.05
+    },
+    {
+     "p": "um",
+     "i": 1.05,
+     "f": 1.1
+    },
+    {
+     "p": "engenheiro",
+     "i": 1.1,
+     "f": 1.65
+    },
+    {
+     "p": "de",
+     "i": 1.65,
+     "f": 1.725
+    },
+    {
+     "p": "eletrônica",
+     "i": 1.725,
+     "f": 2.2
+    },
+    {
+     "p": "automotiva",
+     "i": 2.2,
+     "f": 2.963
+    },
+    {
+     "p": "um",
+     "i": 3.112,
+     "f": 3.212
+    },
+    {
+     "p": "desenvolvedor",
+     "i": 3.212,
+     "f": 3.975
+    },
+    {
+     "p": "de",
+     "i": 3.975,
+     "f": 4.05
+    },
+    {
+     "p": "software",
+     "i": 4.05,
+     "f": 4.638
+    },
+    {
+     "p": "um",
+     "i": 4.9,
+     "f": 4.975
+    },
+    {
+     "p": "especialista",
+     "i": 4.975,
+     "f": 5.688
+    },
+    {
+     "p": "em",
+     "i": 5.688,
+     "f": 5.775
+    },
+    {
+     "p": "sensores",
+     "i": 5.775,
+     "f": 6.375
+    },
+    {
+     "p": "e",
+     "i": 6.375,
+     "f": 6.525
+    },
+    {
+     "p": "câmeras",
+     "i": 6.525,
+     "f": 6.95
+    },
+    {
+     "p": "e",
+     "i": 6.95,
+     "f": 7.138
+    },
+    {
+     "p": "um",
+     "i": 7.138,
+     "f": 7.2
+    },
+    {
+     "p": "responsável",
+     "i": 7.2,
+     "f": 7.95
+    },
+    {
+     "p": "pelos",
+     "i": 7.95,
+     "f": 8.238
+    },
+    {
+     "p": "testes",
+     "i": 8.238,
+     "f": 8.738
+    },
+    {
+     "p": "e",
+     "i": 8.738,
+     "f": 8.863
+    },
+    {
+     "p": "validação",
+     "i": 8.863,
+     "f": 9.55
+    }
+   ]
+  },
+  "entregas-a-c": {
+   "hash": "e266560d30",
+   "texto": "As principais entregas são cinco. A: levantamento de requisitos e planejamento. B: desenvolvimento do protótipo. C: integração de sensores, câmeras e software.",
+   "audio": "audio/entregas-a-c-e266560d30.mp3",
+   "duracao": 12.983,
+   "palavras": [
+    {
+     "p": "As",
+     "i": 0.05,
+     "f": 0.237
+    },
+    {
+     "p": "principais",
+     "i": 0.237,
+     "f": 0.85
+    },
+    {
+     "p": "entregas",
+     "i": 0.85,
+     "f": 1.487
+    },
+    {
+     "p": "são",
+     "i": 1.488,
+     "f": 1.775
+    },
+    {
+     "p": "cinco",
+     "i": 1.775,
+     "f": 2.312
+    },
+    {
+     "p": "A",
+     "i": 2.663,
+     "f": 2.9
+    },
+    {
+     "p": "levantamento",
+     "i": 3.225,
+     "f": 3.925
+    },
+    {
+     "p": "de",
+     "i": 3.925,
+     "f": 4.013
+    },
+    {
+     "p": "requisitos",
+     "i": 4.013,
+     "f": 4.725
+    },
+    {
+     "p": "e",
+     "i": 4.725,
+     "f": 4.825
+    },
+    {
+     "p": "planejamento",
+     "i": 4.825,
+     "f": 5.625
+    },
+    {
+     "p": "B",
+     "i": 5.975,
+     "f": 6.312
+    },
+    {
+     "p": "desenvolvimento",
+     "i": 6.588,
+     "f": 7.538
+    },
+    {
+     "p": "do",
+     "i": 7.537,
+     "f": 7.625
+    },
+    {
+     "p": "protótipo",
+     "i": 7.625,
+     "f": 8.3
+    },
+    {
+     "p": "C",
+     "i": 8.637,
+     "f": 9.112
+    },
+    {
+     "p": "integração",
+     "i": 9.3,
+     "f": 10.038
+    },
+    {
+     "p": "de",
+     "i": 10.037,
+     "f": 10.125
+    },
+    {
+     "p": "sensores",
+     "i": 10.125,
+     "f": 10.887
+    },
+    {
+     "p": "câmeras",
+     "i": 11.025,
+     "f": 11.425
+    },
+    {
+     "p": "e",
+     "i": 11.425,
+     "f": 11.562
+    },
+    {
+     "p": "software",
+     "i": 11.562,
+     "f": 12.188
+    }
+   ]
+  },
+  "entregas-d-e": {
+   "hash": "58e4db6159",
+   "texto": "D: testes de detecção das vagas, para verificar se o sistema acerta no que está livre e no que está ocupado. E: relatório final e apresentação do projeto, que encerram o nosso trabalho.",
+   "audio": "audio/entregas-d-e-58e4db6159.mp3",
+   "duracao": 12.408,
+   "palavras": [
+    {
+     "p": "D",
+     "i": 0.05,
+     "f": 0.45
+    },
+    {
+     "p": "testes",
+     "i": 0.713,
+     "f": 1.212
+    },
+    {
+     "p": "de",
+     "i": 1.212,
+     "f": 1.325
+    },
+    {
+     "p": "detecção",
+     "i": 1.325,
+     "f": 1.938
+    },
+    {
+     "p": "das",
+     "i": 1.938,
+     "f": 2.175
+    },
+    {
+     "p": "vagas",
+     "i": 2.175,
+     "f": 2.6
+    },
+    {
+     "p": "para",
+     "i": 2.763,
+     "f": 2.938
+    },
+    {
+     "p": "verificar",
+     "i": 2.938,
+     "f": 3.475
+    },
+    {
+     "p": "se",
+     "i": 3.475,
+     "f": 3.587
+    },
+    {
+     "p": "o",
+     "i": 3.587,
+     "f": 3.612
+    },
+    {
+     "p": "sistema",
+     "i": 3.612,
+     "f": 4
+    },
+    {
+     "p": "acerta",
+     "i": 4,
+     "f": 4.537
+    },
+    {
+     "p": "no",
+     "i": 4.537,
+     "f": 4.65
+    },
+    {
+     "p": "que",
+     "i": 4.65,
+     "f": 4.7
+    },
+    {
+     "p": "está",
+     "i": 4.7,
+     "f": 4.875
+    },
+    {
+     "p": "livre",
+     "i": 4.875,
+     "f": 5.463
+    },
+    {
+     "p": "e",
+     "i": 5.463,
+     "f": 5.538
+    },
+    {
+     "p": "no",
+     "i": 5.537,
+     "f": 5.637
+    },
+    {
+     "p": "que",
+     "i": 5.638,
+     "f": 5.7
+    },
+    {
+     "p": "está",
+     "i": 5.7,
+     "f": 5.888
+    },
+    {
+     "p": "ocupado",
+     "i": 5.888,
+     "f": 6.463
+    },
+    {
+     "p": "E",
+     "i": 6.8,
+     "f": 7.075
+    },
+    {
+     "p": "relatório",
+     "i": 7.338,
+     "f": 7.812
+    },
+    {
+     "p": "final",
+     "i": 7.812,
+     "f": 8.425
+    },
+    {
+     "p": "e",
+     "i": 8.425,
+     "f": 8.538
+    },
+    {
+     "p": "apresentação",
+     "i": 8.537,
+     "f": 9.338
+    },
+    {
+     "p": "do",
+     "i": 9.338,
+     "f": 9.425
+    },
+    {
+     "p": "projeto",
+     "i": 9.425,
+     "f": 10.013
+    },
+    {
+     "p": "que",
+     "i": 10.175,
+     "f": 10.238
+    },
+    {
+     "p": "encerram",
+     "i": 10.238,
+     "f": 10.85
+    },
+    {
+     "p": "o",
+     "i": 10.85,
+     "f": 10.862
+    },
+    {
+     "p": "nosso",
+     "i": 10.863,
+     "f": 11.138
+    },
+    {
+     "p": "trabalho",
+     "i": 11.137,
+     "f": 11.625
+    }
+   ]
+  },
+  "cronograma-a-c": {
+   "hash": "0d9182fce9",
+   "texto": "No cronograma, em março fazemos o planejamento e os requisitos; em abril, a seleção dos componentes; e em maio, o desenvolvimento do sistema.",
+   "audio": "audio/cronograma-a-c-0d9182fce9.mp3",
+   "duracao": 9.43,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.05,
+     "f": 0.2
+    },
+    {
+     "p": "cronograma",
+     "i": 0.2,
+     "f": 0.875
+    },
+    {
+     "p": "em",
+     "i": 1.038,
+     "f": 1.15
+    },
+    {
+     "p": "março",
+     "i": 1.15,
+     "f": 1.537
+    },
+    {
+     "p": "fazemos",
+     "i": 1.538,
+     "f": 1.913
+    },
+    {
+     "p": "o",
+     "i": 1.913,
+     "f": 2
+    },
+    {
+     "p": "planejamento",
+     "i": 2,
+     "f": 2.725
+    },
+    {
+     "p": "e",
+     "i": 2.725,
+     "f": 2.775
+    },
+    {
+     "p": "os",
+     "i": 2.775,
+     "f": 2.85
+    },
+    {
+     "p": "requisitos",
+     "i": 2.85,
+     "f": 3.625
+    },
+    {
+     "p": "em",
+     "i": 3.862,
+     "f": 4
+    },
+    {
+     "p": "abril",
+     "i": 4,
+     "f": 4.487
+    },
+    {
+     "p": "a",
+     "i": 4.675,
+     "f": 4.725
+    },
+    {
+     "p": "seleção",
+     "i": 4.725,
+     "f": 5.225
+    },
+    {
+     "p": "dos",
+     "i": 5.225,
+     "f": 5.35
+    },
+    {
+     "p": "componentes",
+     "i": 5.35,
+     "f": 6.062
+    },
+    {
+     "p": "e",
+     "i": 6.3,
+     "f": 6.438
+    },
+    {
+     "p": "em",
+     "i": 6.438,
+     "f": 6.625
+    },
+    {
+     "p": "maio",
+     "i": 6.625,
+     "f": 7.075
+    },
+    {
+     "p": "o",
+     "i": 7.213,
+     "f": 7.288
+    },
+    {
+     "p": "desenvolvimento",
+     "i": 7.287,
+     "f": 8.05
+    },
+    {
+     "p": "do",
+     "i": 8.05,
+     "f": 8.125
+    },
+    {
+     "p": "sistema",
+     "i": 8.125,
+     "f": 8.65
+    }
+   ]
+  },
+  "cronograma-d-e": {
+   "hash": "3e023ecd65",
+   "texto": "Em junho, vêm a integração e os testes; em julho, a validação e a apresentação final. As datas são sugestões e podem ser ajustadas ao calendário da faculdade.",
+   "audio": "audio/cronograma-d-e-3e023ecd65.mp3",
+   "duracao": 11.389,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.05,
+     "f": 0.263
+    },
+    {
+     "p": "junho",
+     "i": 0.263,
+     "f": 0.688
+    },
+    {
+     "p": "vêm",
+     "i": 0.887,
+     "f": 1.087
+    },
+    {
+     "p": "a",
+     "i": 1.087,
+     "f": 1.125
+    },
+    {
+     "p": "integração",
+     "i": 1.125,
+     "f": 1.95
+    },
+    {
+     "p": "e",
+     "i": 1.95,
+     "f": 2.025
+    },
+    {
+     "p": "os",
+     "i": 2.025,
+     "f": 2.15
+    },
+    {
+     "p": "testes",
+     "i": 2.15,
+     "f": 2.65
+    },
+    {
+     "p": "em",
+     "i": 2.925,
+     "f": 3.087
+    },
+    {
+     "p": "julho",
+     "i": 3.087,
+     "f": 3.575
+    },
+    {
+     "p": "a",
+     "i": 3.737,
+     "f": 3.812
+    },
+    {
+     "p": "validação",
+     "i": 3.812,
+     "f": 4.638
+    },
+    {
+     "p": "e",
+     "i": 4.638,
+     "f": 4.737
+    },
+    {
+     "p": "a",
+     "i": 4.737,
+     "f": 4.787
+    },
+    {
+     "p": "apresentação",
+     "i": 4.787,
+     "f": 5.462
+    },
+    {
+     "p": "final",
+     "i": 5.463,
+     "f": 5.913
+    },
+    {
+     "p": "As",
+     "i": 6.25,
+     "f": 6.438
+    },
+    {
+     "p": "datas",
+     "i": 6.438,
+     "f": 6.85
+    },
+    {
+     "p": "são",
+     "i": 6.85,
+     "f": 7.012
+    },
+    {
+     "p": "sugestões",
+     "i": 7.013,
+     "f": 7.763
+    },
+    {
+     "p": "e",
+     "i": 7.763,
+     "f": 7.987
+    },
+    {
+     "p": "podem",
+     "i": 7.987,
+     "f": 8.3
+    },
+    {
+     "p": "ser",
+     "i": 8.3,
+     "f": 8.45
+    },
+    {
+     "p": "ajustadas",
+     "i": 8.45,
+     "f": 9.075
+    },
+    {
+     "p": "ao",
+     "i": 9.075,
+     "f": 9.25
+    },
+    {
+     "p": "calendário",
+     "i": 9.25,
+     "f": 9.787
+    },
+    {
+     "p": "da",
+     "i": 9.787,
+     "f": 9.887
+    },
+    {
+     "p": "faculdade",
+     "i": 9.887,
+     "f": 10.587
+    }
+   ]
+  },
+  "restricoes": {
+   "hash": "f001c83304",
+   "texto": "As restrições são o orçamento limitado para o protótipo, a disponibilidade de câmeras e sensores, a necessidade de manter precisão e segurança, o tempo limitado e a dependência da iluminação e do ambiente.",
+   "audio": "audio/restricoes-f001c83304.mp3",
+   "duracao": 12.826,
+   "palavras": [
+    {
+     "p": "As",
+     "i": 0.05,
+     "f": 0.2
+    },
+    {
+     "p": "restrições",
+     "i": 0.2,
+     "f": 0.887
+    },
+    {
+     "p": "são",
+     "i": 0.887,
+     "f": 1.012
+    },
+    {
+     "p": "o",
+     "i": 1.012,
+     "f": 1.025
+    },
+    {
+     "p": "orçamento",
+     "i": 1.025,
+     "f": 1.525
+    },
+    {
+     "p": "limitado",
+     "i": 1.525,
+     "f": 2.062
+    },
+    {
+     "p": "para",
+     "i": 2.062,
+     "f": 2.2
+    },
+    {
+     "p": "o",
+     "i": 2.2,
+     "f": 2.225
+    },
+    {
+     "p": "protótipo",
+     "i": 2.225,
+     "f": 2.888
+    },
+    {
+     "p": "a",
+     "i": 3.038,
+     "f": 3.125
+    },
+    {
+     "p": "disponibilidade",
+     "i": 3.125,
+     "f": 3.962
+    },
+    {
+     "p": "de",
+     "i": 3.962,
+     "f": 4.1
+    },
+    {
+     "p": "câmeras",
+     "i": 4.1,
+     "f": 4.537
+    },
+    {
+     "p": "e",
+     "i": 4.537,
+     "f": 4.625
+    },
+    {
+     "p": "sensores",
+     "i": 4.625,
+     "f": 5.325
+    },
+    {
+     "p": "a",
+     "i": 5.5,
+     "f": 5.537
+    },
+    {
+     "p": "necessidade",
+     "i": 5.537,
+     "f": 6.287
+    },
+    {
+     "p": "de",
+     "i": 6.287,
+     "f": 6.362
+    },
+    {
+     "p": "manter",
+     "i": 6.362,
+     "f": 6.712
+    },
+    {
+     "p": "precisão",
+     "i": 6.713,
+     "f": 7.4
+    },
+    {
+     "p": "e",
+     "i": 7.4,
+     "f": 7.438
+    },
+    {
+     "p": "segurança",
+     "i": 7.438,
+     "f": 8.137
+    },
+    {
+     "p": "o",
+     "i": 8.3,
+     "f": 8.4
+    },
+    {
+     "p": "tempo",
+     "i": 8.4,
+     "f": 8.662
+    },
+    {
+     "p": "limitado",
+     "i": 8.662,
+     "f": 9.425
+    },
+    {
+     "p": "e",
+     "i": 9.425,
+     "f": 9.513
+    },
+    {
+     "p": "a",
+     "i": 9.512,
+     "f": 9.575
+    },
+    {
+     "p": "dependência",
+     "i": 9.575,
+     "f": 10.275
+    },
+    {
+     "p": "da",
+     "i": 10.275,
+     "f": 10.4
+    },
+    {
+     "p": "iluminação",
+     "i": 10.4,
+     "f": 11.175
+    },
+    {
+     "p": "e",
+     "i": 11.175,
+     "f": 11.238
+    },
+    {
+     "p": "do",
+     "i": 11.238,
+     "f": 11.338
+    },
+    {
+     "p": "ambiente",
+     "i": 11.338,
+     "f": 12.025
+    }
+   ]
+  },
+  "custos": {
+   "hash": "22fa0b4229",
+   "texto": "Os custos estimados são: R$ 1.500 em desenvolvimento, R$ 1.300 no protótipo e componentes, e R$ 800 em testes e validação.",
+   "audio": "audio/custos-22fa0b4229.mp3",
+   "duracao": 9.979,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.05,
+     "f": 0.175
+    },
+    {
+     "p": "custos",
+     "i": 0.175,
+     "f": 0.5
+    },
+    {
+     "p": "estimados",
+     "i": 0.5,
+     "f": 1.113
+    },
+    {
+     "p": "são",
+     "i": 1.113,
+     "f": 1.338
+    },
+    {
+     "p": "R$ 1.500",
+     "i": 1.575,
+     "f": 2.675
+    },
+    {
+     "p": "em",
+     "i": 2.675,
+     "f": 2.825
+    },
+    {
+     "p": "desenvolvimento",
+     "i": 2.825,
+     "f": 3.725
+    },
+    {
+     "p": "R$ 1.300",
+     "i": 3.888,
+     "f": 5.037
+    },
+    {
+     "p": "no",
+     "i": 5.037,
+     "f": 5.15
+    },
+    {
+     "p": "protótipo",
+     "i": 5.15,
+     "f": 5.775
+    },
+    {
+     "p": "e",
+     "i": 5.775,
+     "f": 5.812
+    },
+    {
+     "p": "componentes",
+     "i": 5.812,
+     "f": 6.55
+    },
+    {
+     "p": "e",
+     "i": 6.75,
+     "f": 6.838
+    },
+    {
+     "p": "R$ 800",
+     "i": 6.838,
+     "f": 7.763
+    },
+    {
+     "p": "em",
+     "i": 7.763,
+     "f": 7.987
+    },
+    {
+     "p": "testes",
+     "i": 7.987,
+     "f": 8.425
+    },
+    {
+     "p": "e",
+     "i": 8.425,
+     "f": 8.525
+    },
+    {
+     "p": "validação",
+     "i": 8.525,
+     "f": 9.213
+    }
+   ]
+  },
+  "custo-total": {
+   "hash": "bbc7ab3278",
+   "texto": "Somando R$ 1.500, R$ 1.300 e R$ 800, chegamos ao custo total estimado de R$ 3.600. Lembrando que os valores são hipotéticos, para fins acadêmicos, e servem apenas para o planejamento do nosso trabalho.",
+   "audio": "audio/custo-total-bbc7ab3278.mp3",
+   "duracao": 15.752,
+   "palavras": [
+    {
+     "p": "Somando",
+     "i": 0.05,
+     "f": 0.513
+    },
+    {
+     "p": "R$ 1.500",
+     "i": 0.512,
+     "f": 1.7
+    },
+    {
+     "p": "R$ 1.300",
+     "i": 1.863,
+     "f": 3.038
+    },
+    {
+     "p": "e",
+     "i": 3.038,
+     "f": 3.15
+    },
+    {
+     "p": "R$ 800",
+     "i": 3.15,
+     "f": 4.2
+    },
+    {
+     "p": "chegamos",
+     "i": 4.388,
+     "f": 4.75
+    },
+    {
+     "p": "ao",
+     "i": 4.75,
+     "f": 4.95
+    },
+    {
+     "p": "custo",
+     "i": 4.95,
+     "f": 5.288
+    },
+    {
+     "p": "total",
+     "i": 5.287,
+     "f": 5.725
+    },
+    {
+     "p": "estimado",
+     "i": 5.725,
+     "f": 6.225
+    },
+    {
+     "p": "de",
+     "i": 6.225,
+     "f": 6.362
+    },
+    {
+     "p": "R$ 3.600",
+     "i": 6.362,
+     "f": 8.037
+    },
+    {
+     "p": "Lembrando",
+     "i": 8.375,
+     "f": 8.988
+    },
+    {
+     "p": "que",
+     "i": 8.988,
+     "f": 9.062
+    },
+    {
+     "p": "os",
+     "i": 9.062,
+     "f": 9.175
+    },
+    {
+     "p": "valores",
+     "i": 9.175,
+     "f": 9.625
+    },
+    {
+     "p": "são",
+     "i": 9.625,
+     "f": 9.775
+    },
+    {
+     "p": "hipotéticos",
+     "i": 9.775,
+     "f": 10.588
+    },
+    {
+     "p": "para",
+     "i": 10.725,
+     "f": 10.925
+    },
+    {
+     "p": "fins",
+     "i": 10.925,
+     "f": 11.2
+    },
+    {
+     "p": "acadêmicos",
+     "i": 11.2,
+     "f": 12.012
+    },
+    {
+     "p": "e",
+     "i": 12.225,
+     "f": 12.262
+    },
+    {
+     "p": "servem",
+     "i": 12.262,
+     "f": 12.7
+    },
+    {
+     "p": "apenas",
+     "i": 12.7,
+     "f": 13.312
+    },
+    {
+     "p": "para",
+     "i": 13.312,
+     "f": 13.488
+    },
+    {
+     "p": "o",
+     "i": 13.488,
+     "f": 13.5
+    },
+    {
+     "p": "planejamento",
+     "i": 13.5,
+     "f": 14.15
+    },
+    {
+     "p": "do",
+     "i": 14.15,
+     "f": 14.225
+    },
+    {
+     "p": "nosso",
+     "i": 14.225,
+     "f": 14.5
+    },
+    {
+     "p": "trabalho",
+     "i": 14.5,
+     "f": 14.963
+    }
+   ]
+  },
+  "resumo": {
+   "hash": "1e4629e6e7",
+   "texto": "Em resumo: o problema é a perda de tempo atrás de vagas; a solução é um sistema com câmeras e sensores; a equipe tem quatro especialistas; o prazo é de março a julho; e o custo é de R$ 3.600.",
+   "audio": "audio/resumo-1e4629e6e7.mp3",
+   "duracao": 13.244,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.05,
+     "f": 0.2
+    },
+    {
+     "p": "resumo",
+     "i": 0.2,
+     "f": 0.725
+    },
+    {
+     "p": "o",
+     "i": 0.963,
+     "f": 1.038
+    },
+    {
+     "p": "problema",
+     "i": 1.038,
+     "f": 1.65
+    },
+    {
+     "p": "é",
+     "i": 1.65,
+     "f": 1.75
+    },
+    {
+     "p": "a",
+     "i": 1.75,
+     "f": 1.8
+    },
+    {
+     "p": "perda",
+     "i": 1.8,
+     "f": 2.112
+    },
+    {
+     "p": "de",
+     "i": 2.112,
+     "f": 2.237
+    },
+    {
+     "p": "tempo",
+     "i": 2.237,
+     "f": 2.5
+    },
+    {
+     "p": "atrás",
+     "i": 2.5,
+     "f": 2.85
+    },
+    {
+     "p": "de",
+     "i": 2.85,
+     "f": 2.975
+    },
+    {
+     "p": "vagas",
+     "i": 2.975,
+     "f": 3.5
+    },
+    {
+     "p": "a",
+     "i": 3.737,
+     "f": 3.812
+    },
+    {
+     "p": "solução",
+     "i": 3.812,
+     "f": 4.325
+    },
+    {
+     "p": "é",
+     "i": 4.325,
+     "f": 4.338
+    },
+    {
+     "p": "um",
+     "i": 4.338,
+     "f": 4.425
+    },
+    {
+     "p": "sistema",
+     "i": 4.425,
+     "f": 4.837
+    },
+    {
+     "p": "com",
+     "i": 4.838,
+     "f": 5.025
+    },
+    {
+     "p": "câmeras",
+     "i": 5.025,
+     "f": 5.438
+    },
+    {
+     "p": "e",
+     "i": 5.438,
+     "f": 5.537
+    },
+    {
+     "p": "sensores",
+     "i": 5.537,
+     "f": 6.262
+    },
+    {
+     "p": "a",
+     "i": 6.513,
+     "f": 6.588
+    },
+    {
+     "p": "equipe",
+     "i": 6.588,
+     "f": 6.95
+    },
+    {
+     "p": "tem",
+     "i": 6.95,
+     "f": 7.112
+    },
+    {
+     "p": "quatro",
+     "i": 7.112,
+     "f": 7.475
+    },
+    {
+     "p": "especialistas",
+     "i": 7.475,
+     "f": 8.325
+    },
+    {
+     "p": "o",
+     "i": 8.562,
+     "f": 8.637
+    },
+    {
+     "p": "prazo",
+     "i": 8.637,
+     "f": 9.037
+    },
+    {
+     "p": "é",
+     "i": 9.037,
+     "f": 9.075
+    },
+    {
+     "p": "de",
+     "i": 9.075,
+     "f": 9.162
+    },
+    {
+     "p": "março",
+     "i": 9.162,
+     "f": 9.537
+    },
+    {
+     "p": "a",
+     "i": 9.537,
+     "f": 9.6
+    },
+    {
+     "p": "julho",
+     "i": 9.6,
+     "f": 10.012
+    },
+    {
+     "p": "e",
+     "i": 10.175,
+     "f": 10.263
+    },
+    {
+     "p": "o",
+     "i": 10.262,
+     "f": 10.35
+    },
+    {
+     "p": "custo",
+     "i": 10.35,
+     "f": 10.713
+    },
+    {
+     "p": "é",
+     "i": 10.713,
+     "f": 10.75
+    },
+    {
+     "p": "de",
+     "i": 10.75,
+     "f": 10.875
+    },
+    {
+     "p": "R$ 3.600",
+     "i": 10.875,
+     "f": 12.45
+    }
+   ]
+  },
+  "agradecimento": {
+   "hash": "7746f1151f",
+   "texto": "Chegamos ao fim da nossa apresentação. Muito obrigado pela atenção de todos. Ficamos à disposição para dúvidas, sugestões e comentários sobre o projeto Parking Space Detection.",
+   "audio": "audio/agradecimento-7746f1151f.mp3",
+   "duracao": 11.86,
+   "palavras": [
+    {
+     "p": "Chegamos",
+     "i": 0.05,
+     "f": 0.537
+    },
+    {
+     "p": "ao",
+     "i": 0.537,
+     "f": 0.738
+    },
+    {
+     "p": "fim",
+     "i": 0.738,
+     "f": 1.013
+    },
+    {
+     "p": "da",
+     "i": 1.012,
+     "f": 1.137
+    },
+    {
+     "p": "nossa",
+     "i": 1.137,
+     "f": 1.425
+    },
+    {
+     "p": "apresentação",
+     "i": 1.425,
+     "f": 2.2
+    },
+    {
+     "p": "Muito",
+     "i": 2.538,
+     "f": 2.9
+    },
+    {
+     "p": "obrigado",
+     "i": 2.9,
+     "f": 3.4
+    },
+    {
+     "p": "pela",
+     "i": 3.4,
+     "f": 3.575
+    },
+    {
+     "p": "atenção",
+     "i": 3.575,
+     "f": 4.05
+    },
+    {
+     "p": "de",
+     "i": 4.05,
+     "f": 4.2
+    },
+    {
+     "p": "todos",
+     "i": 4.2,
+     "f": 4.725
+    },
+    {
+     "p": "Ficamos",
+     "i": 5.075,
+     "f": 5.487
+    },
+    {
+     "p": "à",
+     "i": 5.487,
+     "f": 5.6
+    },
+    {
+     "p": "disposição",
+     "i": 5.6,
+     "f": 6.25
+    },
+    {
+     "p": "para",
+     "i": 6.25,
+     "f": 6.45
+    },
+    {
+     "p": "dúvidas",
+     "i": 6.45,
+     "f": 7.038
+    },
+    {
+     "p": "sugestões",
+     "i": 7.188,
+     "f": 7.875
+    },
+    {
+     "p": "e",
+     "i": 7.875,
+     "f": 7.975
+    },
+    {
+     "p": "comentários",
+     "i": 7.975,
+     "f": 8.7
+    },
+    {
+     "p": "sobre",
+     "i": 8.7,
+     "f": 8.925
+    },
+    {
+     "p": "o",
+     "i": 8.925,
+     "f": 8.95
+    },
+    {
+     "p": "projeto",
+     "i": 8.95,
+     "f": 9.4
+    },
+    {
+     "p": "Parking",
+     "i": 9.4,
+     "f": 9.85
+    },
+    {
+     "p": "Space",
+     "i": 9.85,
+     "f": 10.375
+    },
+    {
+     "p": "Detection",
+     "i": 10.375,
+     "f": 11.088
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "estacionamento": {
+   "arquivo": "imagens/estacionamento-7b3b5758.jpg",
+   "rotulo": "Estacionamento",
+   "wiki": "Estacionamento",
+   "commons": "parking lot full of cars",
+   "autor": "Desconhecido",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rutgers-parking-garage.jpeg",
+   "titulo": "File:Rutgers-parking-garage.jpeg",
+   "largura": 800,
+   "altura": 600,
+   "rostos": 0,
+   "foco": {
+    "x": 26.0,
+    "y": 32.5
+   }
+  },
+  "camera": {
+   "arquivo": "imagens/camera-fc9eb2ea.jpg",
+   "rotulo": "Câmera de monitoramento",
+   "wiki": "Câmera de vigilância",
+   "commons": "CCTV security camera",
+   "autor": "Hustvedt",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Three_Surveillance_cameras.jpg",
+   "titulo": "File:Three Surveillance cameras.jpg",
+   "largura": 1815,
+   "altura": 1475,
+   "rostos": 0,
+   "foco": {
+    "x": 27.3,
+    "y": 80
+   }
+  },
+  "sensor": {
+   "arquivo": "imagens/sensor-8a06f835.jpg",
+   "rotulo": "Sensor ultrassônico",
+   "wiki": "Sensor de estacionamento",
+   "commons": "ultrasonic parking sensor",
+   "autor": "Basotxerri",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:VW_Golf_VII_-_Parking_sensor_02.jpg",
+   "titulo": "File:VW Golf VII - Parking sensor 02.jpg",
+   "largura": 1920,
+   "altura": 1442,
+   "rostos": 2,
+   "foco": {
+    "x": 67.8,
+    "y": 49.3
+   }
+  },
+  "navegacao": {
+   "arquivo": "imagens/navegacao-0b69fedf.jpg",
+   "rotulo": "Aplicativo de navegação",
+   "wiki": "Sistema de posicionamento global",
+   "commons": "car navigation system display",
+   "autor": "U.S. Air Force",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:GPS_Block_IIIA.jpg",
+   "titulo": "File:GPS Block IIIA.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 40.4,
+    "y": 53.2
+   }
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-24T13:54:49.578Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipédia — Estacionamento (foto ilustrativa)",
+   "url": "https://pt.wikipedia.org/wiki/Estacionamento"
+  },
+  {
+   "titulo": "Wikipédia — Câmera de vigilância (foto ilustrativa)",
+   "url": "https://pt.wikipedia.org/wiki/C%C3%A2mera_de_vigil%C3%A2ncia"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "pontos",
+  "formato": "explicativo"
  }
 }

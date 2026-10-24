@@ -1,0 +1,6 @@
+{
+  "estacionamento": { "wiki": "Estacionamento", "commons": "parking lot full of cars", "rotulo": "Estacionamento" },
+  "camera": { "wiki": "Câmera de vigilância", "commons": "CCTV security camera", "rotulo": "Câmera de monitoramento" },
+  "sensor": { "wiki": "Sensor de estacionamento", "commons": "ultrasonic parking sensor", "rotulo": "Sensor ultrassônico" },
+  "navegacao": { "wiki": "Sistema de posicionamento global", "commons": "car navigation system display", "rotulo": "Aplicativo de navegação" }
+}

@@ -1,0 +1,166 @@
+{
+  "titulo": "Parking Space Detection — Project Model Canvas",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "pontos",
+              "musica": "nenhuma", "formato": "explicativo", "fonte": "inter", "paleta": "claro" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Wikipédia — Estacionamento (foto ilustrativa)", "url": "https://pt.wikipedia.org/wiki/Estacionamento" },
+    { "titulo": "Wikipédia — Câmera de vigilância (foto ilustrativa)", "url": "https://pt.wikipedia.org/wiki/C%C3%A2mera_de_vigil%C3%A2ncia" }
+  ],
+  "cenas": [
+    { "id": "abertura", "fundo": "estacionamento",
+      "texto": "Olá! Nós vamos apresentar o nosso projeto, o Parking Space Detection, um assistente veicular que identifica vagas disponíveis em estacionamentos. Este é o nosso trabalho de faculdade, organizado no Project Model Canvas.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PARKING SPACE DETECTION", "sub": "Project Model Canvas", "posicao": "topo", "em": 0 },
+        { "tipo": "tag", "texto": "Assistente veicular", "icone": "pin", "posicao": "alto", "em": "assistente" }
+      ] },
+    { "id": "roteiro",
+      "texto": "Vamos passar pelos quatorze quadros do canvas: do problema e da solução, passando pela equipe e pelo prazo, até o custo total estimado do nosso protótipo.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "ROTEIRO DA APRESENTAÇÃO", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["alerta", "Problema"], ["lampada", "Solução"], ["pessoa", "Equipe"]], "posicao": "alto", "em": "problema" },
+        { "tipo": "icones", "itens": [["calendario", "Prazo"], ["moeda", "Custo"]], "posicao": "alto2", "em": "prazo" }
+      ] },
+    { "id": "justificativa",
+      "texto": "Na justificativa, olhamos o passado: motoristas perdem tempo procurando vagas, têm dificuldade em estacionamentos lotados, e existe a necessidade de melhorar a mobilidade e reduzir o estresse ao estacionar.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "JUSTIFICATIVA", "sub": "Passado", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["relogio", "Tempo perdido"], ["alerta", "Lotação"], ["pessoa", "Estresse"]], "posicao": "alto", "em": "perdem" },
+        { "tipo": "tag", "texto": "Melhorar a mobilidade", "icone": "alvo", "posicao": "alto2", "em": "mobilidade" }
+      ] },
+    { "id": "pitch",
+      "texto": "O nosso pitch é desenvolver um sistema inteligente que detecta vagas livres e orienta o motorista até elas, reduzindo o tempo de procura e facilitando o estacionamento.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PITCH", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["lupa", "Detecta vagas"], ["seta", ""], ["pin", "Orienta o motorista"]], "posicao": "alto", "em": "detecta" },
+        { "tipo": "tag", "texto": "Menos tempo de procura", "icone": "relogio", "posicao": "alto2", "em": "reduzindo" }
+      ] },
+    { "id": "produto",
+      "texto": "O produto é um sistema de detecção de vagas que usa câmeras e sensores instalados no estacionamento. Com eles, o sistema identifica quais vagas estão livres e quais estão ocupadas.",
+      "fundo": "camera",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PRODUTO", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["video", "Câmeras"], ["chip", "Sensores"]], "posicao": "alto", "em": "câmeras" },
+        { "tipo": "icones", "itens": [["check", "Livres"], ["x", "Ocupadas"]], "posicao": "alto2", "em": "livres" }
+      ] },
+    { "id": "produto-tela",
+      "texto": "As vagas disponíveis são exibidas em uma tela ou aplicativo, para que o motorista veja rapidamente onde estacionar. Depois, o sistema ainda orienta o motorista até a vaga selecionada.",
+      "fundo": "navegacao",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PRODUTO", "sub": "Tela e orientação", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["celular", "Tela ou aplicativo"], ["seta", ""], ["pin", "Vaga selecionada"]], "posicao": "alto", "em": "exibidas" }
+      ] },
+    { "id": "stakeholders",
+      "texto": "Os stakeholders, ou partes interessadas, incluem os engenheiros de desenvolvimento, os fabricantes de veículos e os fornecedores de câmeras e sensores.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "STAKEHOLDERS", "sub": "Partes interessadas", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["engrenagem", "Engenheiros"], ["predio", "Fabricantes de veículos"], ["chip", "Fornecedores"]], "posicao": "alto", "em": "engenheiros" }
+      ] },
+    { "id": "stakeholders-usuarios",
+      "texto": "Também fazem parte as empresas administradoras de estacionamentos, que precisam permitir o uso do sistema, e, claro, os motoristas e usuários, que são quem vai usar a solução no dia a dia.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "STAKEHOLDERS", "sub": "Partes interessadas", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["predio", "Administradoras"], ["pessoa", "Motoristas e usuários"]], "posicao": "alto", "em": "administradoras" }
+      ] },
+    { "id": "premissas",
+      "texto": "Nas premissas, assumimos que câmeras ou sensores conseguem identificar as vagas, que haverá processamento suficiente, que os estacionamentos permitirão a instalação e que teremos recursos para desenvolver e testar.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PREMISSAS", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["video", "Identificam as vagas"], ["chip", "Processamento suficiente"]], "posicao": "alto", "em": "câmeras" },
+        { "tipo": "icones", "itens": [["predio", "Instalação permitida"], ["moeda", "Recursos disponíveis"]], "posicao": "alto2", "em": "estacionamentos" }
+      ] },
+    { "id": "riscos",
+      "texto": "Os riscos são quatro: sensores ou câmeras que não identifiquem corretamente as vagas, falhas de comunicação entre os componentes, iluminação que prejudique a detecção e custos acima do previsto.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RISCOS", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["alerta", "Detecção incorreta"], ["plug", "Falha de comunicação"]], "posicao": "alto", "em": "sensores" },
+        { "tipo": "icones", "itens": [["lampada", "Iluminação"], ["moeda", "Custo acima do previsto"]], "posicao": "alto2", "em": "iluminação" }
+      ] },
+    { "id": "objetivo-smart",
+      "texto": "O objetivo SMART é desenvolver e testar, em até seis meses, um protótipo capaz de identificar vagas livres e ocupadas, com pelo menos noventa por cento de precisão em condições controladas.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "OBJETIVO SMART", "posicao": "topo", "em": 0 },
+        { "tipo": "contador", "de": 0, "ate": 6, "unidade": " meses", "rotulo": "Prazo", "posicao": "alto", "em": "seis" },
+        { "tipo": "contador", "de": 0, "ate": 90, "unidade": "%", "rotulo": "Precisão mínima", "posicao": "alto2", "em": "noventa" }
+      ] },
+    { "id": "requisitos",
+      "texto": "Os requisitos são: detectar vagas livres e ocupadas, atualizar as informações das vagas, apresentar os resultados em uma tela ou aplicativo, ter resposta rápida e funcionamento confiável, e não comprometer a segurança do veículo.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "REQUISITOS", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["lupa", "Detectar vagas"], ["raio", "Atualizar"], ["celular", "Apresentar"]], "posicao": "alto", "em": "detectar" },
+        { "tipo": "icones", "itens": [["relogio", "Resposta rápida"], ["escudo", "Segurança do veículo"]], "posicao": "alto2", "em": "resposta" }
+      ] },
+    { "id": "beneficios",
+      "texto": "Como benefícios futuros, esperamos reduzir o tempo de procura, diminuir o estresse dos motoristas, melhorar o fluxo de veículos, aumentar a satisfação dos usuários e possivelmente reduzir o consumo de combustível.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "BENEFÍCIOS FUTUROS", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["relogio", "Menos tempo"], ["pessoa", "Menos estresse"], ["seta", "Melhor fluxo"]], "posicao": "alto", "em": "reduzir" },
+        { "tipo": "icones", "itens": [["estrela", "Mais satisfação"], ["raio", "Menos combustível"]], "posicao": "alto2", "em": "aumentar" }
+      ] },
+    { "id": "equipe",
+      "texto": "A nossa equipe tem um engenheiro de eletrônica automotiva, um desenvolvedor de software, um especialista em sensores e câmeras e um responsável pelos testes e validação.",
+      "fundo": "sensor",
+      "elementos": [
+        { "tipo": "titulo", "texto": "EQUIPE", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["chip", "Eletrônica automotiva"], ["codigo", "Software"]], "posicao": "alto", "em": "engenheiro" },
+        { "tipo": "icones", "itens": [["video", "Sensores e câmeras"], ["check", "Testes e validação"]], "posicao": "alto2", "em": "especialista" }
+      ] },
+    { "id": "entregas-a-c",
+      "texto": "As principais entregas são cinco. A: levantamento de requisitos e planejamento. B: desenvolvimento do protótipo. C: integração de sensores, câmeras e software.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PRINCIPAIS ENTREGAS", "sub": "A a C", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["lista", "A. Requisitos e planejamento"], ["ferramenta", "B. Protótipo"], ["plug", "C. Integração"]], "posicao": "alto", "em": "levantamento" }
+      ] },
+    { "id": "entregas-d-e",
+      "texto": "D: testes de detecção das vagas, para verificar se o sistema acerta no que está livre e no que está ocupado. E: relatório final e apresentação do projeto, que encerram o nosso trabalho.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "PRINCIPAIS ENTREGAS", "sub": "D e E", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["lupa", "D. Testes de detecção"], ["documento", "E. Relatório e apresentação"]], "posicao": "alto", "em": "testes" }
+      ] },
+    { "id": "cronograma-a-c",
+      "texto": "No cronograma, em março fazemos o planejamento e os requisitos; em abril, a seleção dos componentes; e em maio, o desenvolvimento do sistema.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "CRONOGRAMA", "sub": "Março a maio", "posicao": "topo", "em": 0 },
+        { "tipo": "linha", "itens": [["Março", "Planejamento e requisitos"], ["Abril", "Seleção dos componentes"], ["Maio", "Desenvolvimento"]], "posicao": "alto", "em": "março" }
+      ] },
+    { "id": "cronograma-d-e",
+      "texto": "Em junho, vêm a integração e os testes; em julho, a validação e a apresentação final. As datas são sugestões e podem ser ajustadas ao calendário da faculdade.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "CRONOGRAMA", "sub": "Junho e julho", "posicao": "topo", "em": 0 },
+        { "tipo": "linha", "itens": [["Junho", "Integração e testes"], ["Julho", "Validação e apresentação"]], "posicao": "alto", "em": "junho" },
+        { "tipo": "tag", "texto": "Datas ajustáveis", "icone": "calendario", "posicao": "alto2", "em": "sugestões" }
+      ] },
+    { "id": "restricoes",
+      "texto": "As restrições são o orçamento limitado para o protótipo, a disponibilidade de câmeras e sensores, a necessidade de manter precisão e segurança, o tempo limitado e a dependência da iluminação e do ambiente.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESTRIÇÕES", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["moeda", "Orçamento limitado"], ["video", "Disponibilidade de câmeras"], ["escudo", "Precisão e segurança"]], "posicao": "alto", "em": "orçamento" },
+        { "tipo": "icones", "itens": [["relogio", "Tempo limitado"], ["lampada", "Iluminação e ambiente"]], "posicao": "alto2", "em": "tempo" }
+      ] },
+    { "id": "custos",
+      "texto": "Os custos estimados são: R$ 1.500 em desenvolvimento, R$ 1.300 no protótipo e componentes, e R$ 800 em testes e validação.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "CUSTOS ESTIMADOS", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["codigo", "R$ 1.500 Desenvolvimento"], ["chip", "R$ 1.300 Protótipo"], ["check", "R$ 800 Testes"]], "posicao": "alto", "em": "desenvolvimento" }
+      ] },
+    { "id": "custo-total",
+      "texto": "Somando R$ 1.500, R$ 1.300 e R$ 800, chegamos ao custo total estimado de R$ 3.600. Lembrando que os valores são hipotéticos, para fins acadêmicos, e servem apenas para o planejamento do nosso trabalho.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "CUSTO TOTAL", "posicao": "topo", "em": 0 },
+        { "tipo": "contador", "de": 0, "ate": 3600, "unidade": "R$ ", "rotulo": "Total estimado", "posicao": "alto", "em": "total" },
+        { "tipo": "tag", "texto": "Valores hipotéticos", "icone": "alerta", "posicao": "alto2", "em": "hipotéticos" }
+      ] },
+    { "id": "resumo",
+      "texto": "Em resumo: o problema é a perda de tempo atrás de vagas; a solução é um sistema com câmeras e sensores; a equipe tem quatro especialistas; o prazo é de março a julho; e o custo é de R$ 3.600.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "posicao": "topo", "em": 0 },
+        { "tipo": "icones", "itens": [["alerta", "Problema"], ["lampada", "Solução"], ["pessoa", "Equipe"]], "posicao": "alto", "em": "problema" },
+        { "tipo": "icones", "itens": [["calendario", "Março a julho"], ["moeda", "R$ 3.600"]], "posicao": "alto2", "em": "prazo" }
+      ] },
+    { "id": "agradecimento",
+      "texto": "Chegamos ao fim da nossa apresentação. Muito obrigado pela atenção de todos. Ficamos à disposição para dúvidas, sugestões e comentários sobre o projeto Parking Space Detection.",
+      "elementos": [
+        { "tipo": "titulo", "texto": "OBRIGADO!", "sub": "Parking Space Detection", "posicao": "topo", "em": 0 }
+      ] }
+  ]
+}
