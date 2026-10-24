@@ -79,7 +79,7 @@ const Cabecalho: React.FC = () => {
       {codigo && <div style={{ background: A.laranja, color: "#fff", fontWeight: 800, fontSize: 26, borderRadius: 10, padding: "6px 16px" }}>{codigo}</div>}
       <div style={{ fontWeight: 600, fontSize: 28, color: A.texto }}>{nome}</div>
       <div style={{ flex: 1, height: 2, background: A.linha, marginLeft: 12 }} />
-      <div style={{ fontWeight: 500, fontSize: 22, color: A.suave }}>IA do Zero ao Especialista</div>
+      {codigo && <div style={{ fontWeight: 500, fontSize: 22, color: A.suave }}>IA do Zero ao Especialista</div>}
     </div>
   );
 };
