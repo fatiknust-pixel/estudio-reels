@@ -63,6 +63,7 @@ export const Camera: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 
 const Grao: React.FC<{ f: number }> = ({ f }) => {
   const { largura, altura } = useQuadro();
+  if (useVideo().leve) return null;
   return (
     <AbsoluteFill style={{ opacity: 0.18, mixBlendMode: "overlay" }}>
       <svg width={largura} height={altura}>
@@ -76,7 +77,7 @@ const Grao: React.FC<{ f: number }> = ({ f }) => {
 // Camadas por cima das cenas (abaixo da legenda)
 export const Sobreposicao: React.FC = () => {
   const f = useCurrentFrame();
-  const { projeto, tema, linha } = useVideo();
+  const { projeto, tema, linha, leve } = useVideo();
   const d = useDinamica();
   const batidas = useBatidas();
   const q = useQuadro();
@@ -122,8 +123,8 @@ export const Sobreposicao: React.FC = () => {
         <AbsoluteFill style={{ opacity: 0.12, backgroundImage: "repeating-linear-gradient(0deg, rgba(255,255,255,.5) 0 2px, transparent 2px 6px)" }} />
         {forca > 0 && (
           <>
-            <AbsoluteFill style={{ background: tema.vermelho, mixBlendMode: "screen", opacity: 0.25 * forca, transform: `translateX(${12 * forca}px)` }} />
-            <AbsoluteFill style={{ background: tema.azul, mixBlendMode: "screen", opacity: 0.25 * forca, transform: `translateX(${-12 * forca}px)` }} />
+            {!leve && <AbsoluteFill style={{ background: tema.vermelho, mixBlendMode: "screen", opacity: 0.25 * forca, transform: `translateX(${12 * forca}px)` }} />}
+            {!leve && <AbsoluteFill style={{ background: tema.azul, mixBlendMode: "screen", opacity: 0.25 * forca, transform: `translateX(${-12 * forca}px)` }} />}
             {[0, 1, 2].map((i) => (
               <div key={i} style={{ position: "absolute", left: 0, right: 0, top: random(`b${f}-${i}`) * q.altura, height: 20 + random(`h${f}-${i}`) * 60, background: "rgba(255,255,255,.12)", transform: `translateX(${(random(`x${f}-${i}`) - 0.5) * 120}px)` }} />
             ))}
@@ -133,7 +134,7 @@ export const Sobreposicao: React.FC = () => {
     );
   }
 
-  if (d === "colagem") {
+  if (d === "colagem" && !leve) {
     return (
       <AbsoluteFill style={{ pointerEvents: "none", mixBlendMode: "overlay", opacity: 0.35 }}>
         <svg width={q.largura} height={q.altura}>

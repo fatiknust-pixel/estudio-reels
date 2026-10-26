@@ -21,7 +21,7 @@ export const fotoAtual = (galeria: string[], f: number, duracao: number, inicios
 // Com "galeria", as fotos se sucedem com fusão, cada uma com seu próprio movimento de câmera.
 export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: number[]; indice: number; duracao: number }> = ({ chave, galeria, inicios, indice, duracao }) => {
   const f = useCurrentFrame();
-  const { imagem, imagemBorrada, tema, projeto } = useVideo();
+  const { imagem, imagemBorrada, tema, projeto, leve } = useVideo();
   const { largura, altura } = useQuadro();
   const est = projeto.estiloIA;
   // sem estilo de edição (vídeos antigos e modo bruto): grade, e a bandeira no tema Brasil
@@ -50,7 +50,7 @@ export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: num
         // documentário alterna aproximar/afastar; cena com uma foto só mantém um zoom lento. O zoom sai do foco da foto
         // e é curto (no máximo ~10%): a foto não é cortada além do enquadramento escolhido
         const zoom = documentario ? (k % 2 ? 1.08 - t * 0.08 : 1 + t * 0.08) : 1 + t * 0.1;
-        return <FotoEnquadrada key={k} src={u} fundo={itens[k].fundo} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, filter: "saturate(1.1) contrast(1.05)" }} />;
+        return <FotoEnquadrada key={k} src={u} fundo={itens[k].fundo} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, ...(leve ? {} : { filter: "saturate(1.1) contrast(1.05)" }) }} />;
       })}
       {/* escurece para o texto aparecer */}
       <AbsoluteFill style={{ background: !src ? "transparent" : documentario ? `linear-gradient(180deg, ${tema.fundo}66 0%, transparent 25%, transparent 55%, ${tema.fundo}D9 100%)` : `linear-gradient(180deg, ${tema.fundo}8C 0%, ${tema.fundo}59 35%, ${tema.fundo}BF 62%, ${tema.fundo}F2 100%)` }} />
@@ -71,7 +71,7 @@ export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: num
         }}
       />}
       {/* partículas (no tema Brasil, viram "estrelas" verdes, amarelas e brancas) */}
-      {tipo !== "limpo" && Array.from({ length: tipo === "grade" || tipo === "bandeira" ? 14 : 6 }).map((_, i) => {
+      {tipo !== "limpo" && Array.from({ length: leve ? 3 : tipo === "grade" || tipo === "bandeira" ? 14 : 6 }).map((_, i) => {
         const x = (i * 137) % largura;
         const y = altura - ((f * (1 + (i % 4) * 0.6) + i * 210) % (altura + 180));
         const c = tema.bandeira ? [tema.amarelo, tema.verde, "#fff"][i % 3] : i % 3 ? tema.amarelo : "#fff";
