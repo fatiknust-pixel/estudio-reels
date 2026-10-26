@@ -1,25 +1,26 @@
 {
  "versao": 1,
  "id": "ia-20261026-cu9o",
- "titulo": "Eleição anulada? Irei te explicar tudo",
+ "titulo": "Eleição anulada? O que a lei diz",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "padrao",
+ "tema": "noticia",
  "criadoEm": "2026-10-26T10:42:59.147Z",
- "atualizadoEm": "2026-10-26T10:42:59.151Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-26T10:45:08Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "oswald",
+  "tamanho": 84,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
   "palavrasPorTela": 3,
   "maiusculas": true,
-  "contorno": 10,
-  "fundo": "nenhum",
+  "contorno": 8,
+  "fundo": "palavra",
   "animacao": "pop",
-  "mostrar": true
+  "mostrar": true,
+  "modo": "reels"
  },
  "efeitos": {
   "barraProgresso": true,
@@ -30,7 +31,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "tensao"
  },
  "pedido": {
   "tema": "Eleição anulada? Irei te explicar tudo",
@@ -52,11 +54,1041 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Eleição anulada? Calma. Antes de compartilhar aquele áudio, veja o que a lei realmente diz.",
+   "fundo": "urna",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "ELEIÇÃO ANULADA?",
+     "em": "anulada?",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "CONFIRA ANTES",
+     "cor": "vermelho",
+     "em": "compartilhar"
+    }
+   ]
+  },
+  {
+   "id": "mito-nulos",
+   "texto": "Mito número um: muito voto nulo ou em branco anula a eleição. Não anula. Esses votos nem entram na conta dos votos válidos.",
+   "fundo": "urna",
+   "fontes": [
+    "TSE"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "MITO Nº 1",
+     "sub": "Nulos anulam?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "MITO",
+     "cor": "vermelho",
+     "em": "anula."
+    },
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Voto nulo anula",
+     "nota": "Não entra nos votos válidos",
+     "em": "nem",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "artigo-224",
+   "texto": "O artigo 224 do Código Eleitoral manda fazer nova eleição quando a nulidade atinge mais da metade dos votos. Mas nulidade ali significa fraude ou ilegalidade comprovada, não voto nulo.",
+   "fundo": "tse",
+   "fontes": [
+    "Código Eleitoral, art. 224",
+    "TSE"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ARTIGO 224",
+     "sub": "Código Eleitoral",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 50,
+     "unidade": "%",
+     "rotulo": "dos votos atingidos",
+     "em": "metade",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Nulidade",
+     "significado": "Fraude ou ilegalidade comprovada",
+     "em": "fraude",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "2022",
+   "texto": "Quem decide é a Justiça Eleitoral, com provas e direito de defesa. Em 2022, o TSE negou o pedido do PL para invalidar votos de milhares de urnas e multou a coligação em 22 milhões e 900 mil reais por má-fé.",
+   "fundo": "moraes",
+   "fontes": [
+    "Poder360",
+    "O Povo"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TSE, NOVEMBRO DE 2022",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "PEDIDO NEGADO",
+     "cor": "vermelho",
+     "em": "negou"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 22.9,
+     "unidade": " mi",
+     "rotulo": "multa por má-fé (R$)",
+     "em": "multou",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "possivel",
+   "texto": "Anular é possível? Sim, em casos de fraude comprovada. A regra existe, mas exige prova, julgamento e decisão da Justiça.",
+   "fundo": "tse",
+   "fontes": [
+    "TSE"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "VERDADE",
+     "sub": "Com prova",
+     "cor": "verde",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Fraude comprovada",
+     "nota": "Pode haver nova eleição",
+     "em": "fraude",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "documento",
+       "Prova"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balanca",
+       "Julgamento"
+      ]
+     ],
+     "em": "prova",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: voto nulo não anula, fraude comprovada pode. Você confia mais no processo ou desconfia? Siga para mais explicações.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "Você confia no processo?",
+     "opcoes": [
+      "1 — Confio",
+      "2 — Desconfio"
+     ],
+     "em": "confia"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "em": "Siga"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "2022": {
+   "hash": "44879ea213",
+   "texto": "Quem decide é a Justiça Eleitoral, com provas e direito de defesa. Em 2022, o TSE negou o pedido do PL para invalidar votos de milhares de urnas e multou a coligação em 22 milhões e 900 mil reais por má-fé.",
+   "audio": "audio/2022-44879ea213.mp3",
+   "duracao": 14.616,
+   "palavras": [
+    {
+     "p": "Quem",
+     "i": 0.098,
+     "f": 0.276
+    },
+    {
+     "p": "decide",
+     "i": 0.288,
+     "f": 0.752
+    },
+    {
+     "p": "é",
+     "i": 0.764,
+     "f": 0.8
+    },
+    {
+     "p": "a",
+     "i": 0.812,
+     "f": 0.86
+    },
+    {
+     "p": "Justiça",
+     "i": 0.871,
+     "f": 1.3
+    },
+    {
+     "p": "Eleitoral",
+     "i": 1.312,
+     "f": 1.824
+    },
+    {
+     "p": "com",
+     "i": 2.098,
+     "f": 2.276
+    },
+    {
+     "p": "provas",
+     "i": 2.288,
+     "f": 2.657
+    },
+    {
+     "p": "e",
+     "i": 2.669,
+     "f": 2.788
+    },
+    {
+     "p": "direito",
+     "i": 2.8,
+     "f": 3.205
+    },
+    {
+     "p": "de",
+     "i": 3.217,
+     "f": 3.3
+    },
+    {
+     "p": "defesa",
+     "i": 3.312,
+     "f": 3.788
+    },
+    {
+     "p": "Em 2022",
+     "i": 4.607,
+     "f": 5.643
+    },
+    {
+     "p": "o",
+     "i": 5.917,
+     "f": 6.024
+    },
+    {
+     "p": "TSE",
+     "i": 6.036,
+     "f": 6.5
+    },
+    {
+     "p": "negou",
+     "i": 6.512,
+     "f": 6.821
+    },
+    {
+     "p": "o",
+     "i": 6.833,
+     "f": 6.881
+    },
+    {
+     "p": "pedido",
+     "i": 6.893,
+     "f": 7.238
+    },
+    {
+     "p": "do",
+     "i": 7.25,
+     "f": 7.345
+    },
+    {
+     "p": "PL",
+     "i": 7.357,
+     "f": 7.738
+    },
+    {
+     "p": "para",
+     "i": 7.75,
+     "f": 7.881
+    },
+    {
+     "p": "invalidar",
+     "i": 7.893,
+     "f": 8.381
+    },
+    {
+     "p": "votos",
+     "i": 8.393,
+     "f": 8.81
+    },
+    {
+     "p": "de",
+     "i": 8.821,
+     "f": 8.893
+    },
+    {
+     "p": "milhares",
+     "i": 8.905,
+     "f": 9.298
+    },
+    {
+     "p": "de",
+     "i": 9.31,
+     "f": 9.417
+    },
+    {
+     "p": "urnas",
+     "i": 9.429,
+     "f": 9.738
+    },
+    {
+     "p": "e",
+     "i": 9.75,
+     "f": 9.869
+    },
+    {
+     "p": "multou",
+     "i": 9.881,
+     "f": 10.202
+    },
+    {
+     "p": "a",
+     "i": 10.214,
+     "f": 10.262
+    },
+    {
+     "p": "coligação",
+     "i": 10.274,
+     "f": 10.857
+    },
+    {
+     "p": "em",
+     "i": 10.869,
+     "f": 10.94
+    },
+    {
+     "p": "22 milhões",
+     "i": 10.952,
+     "f": 11.81
+    },
+    {
+     "p": "e",
+     "i": 11.821,
+     "f": 11.905
+    },
+    {
+     "p": "900 mil",
+     "i": 11.917,
+     "f": 12.714
+    },
+    {
+     "p": "reais",
+     "i": 12.726,
+     "f": 13.107
+    },
+    {
+     "p": "por",
+     "i": 13.119,
+     "f": 13.286
+    },
+    {
+     "p": "má-fé",
+     "i": 13.298,
+     "f": 13.774
+    }
+   ]
+  },
+  "gancho": {
+   "hash": "1e1f0c205a",
+   "texto": "Eleição anulada? Calma. Antes de compartilhar aquele áudio, veja o que a lei realmente diz.",
+   "audio": "audio/gancho-1e1f0c205a.mp3",
+   "duracao": 7.656,
+   "palavras": [
+    {
+     "p": "Eleição",
+     "i": 0.098,
+     "f": 0.621
+    },
+    {
+     "p": "anulada",
+     "i": 0.633,
+     "f": 1.157
+    },
+    {
+     "p": "Calma",
+     "i": 1.976,
+     "f": 2.44
+    },
+    {
+     "p": "Antes",
+     "i": 3.262,
+     "f": 3.607
+    },
+    {
+     "p": "de",
+     "i": 3.619,
+     "f": 3.69
+    },
+    {
+     "p": "compartilhar",
+     "i": 3.702,
+     "f": 4.25
+    },
+    {
+     "p": "aquele",
+     "i": 4.262,
+     "f": 4.536
+    },
+    {
+     "p": "áudio",
+     "i": 4.548,
+     "f": 4.881
+    },
+    {
+     "p": "veja",
+     "i": 5.214,
+     "f": 5.5
+    },
+    {
+     "p": "o",
+     "i": 5.512,
+     "f": 5.536
+    },
+    {
+     "p": "que",
+     "i": 5.548,
+     "f": 5.643
+    },
+    {
+     "p": "a",
+     "i": 5.655,
+     "f": 5.69
+    },
+    {
+     "p": "lei",
+     "i": 5.702,
+     "f": 5.869
+    },
+    {
+     "p": "realmente",
+     "i": 5.881,
+     "f": 6.452
+    },
+    {
+     "p": "diz",
+     "i": 6.464,
+     "f": 6.833
+    }
+   ]
+  },
+  "mito-nulos": {
+   "hash": "12645990ef",
+   "texto": "Mito número um: muito voto nulo ou em branco anula a eleição. Não anula. Esses votos nem entram na conta dos votos válidos.",
+   "audio": "audio/mito-nulos-12645990ef.mp3",
+   "duracao": 9.744,
+   "palavras": [
+    {
+     "p": "Mito",
+     "i": 0.098,
+     "f": 0.455
+    },
+    {
+     "p": "número",
+     "i": 0.467,
+     "f": 0.74
+    },
+    {
+     "p": "um",
+     "i": 0.752,
+     "f": 0.943
+    },
+    {
+     "p": "muito",
+     "i": 1.169,
+     "f": 1.479
+    },
+    {
+     "p": "voto",
+     "i": 1.49,
+     "f": 1.836
+    },
+    {
+     "p": "nulo",
+     "i": 1.848,
+     "f": 2.193
+    },
+    {
+     "p": "ou",
+     "i": 2.205,
+     "f": 2.312
+    },
+    {
+     "p": "em",
+     "i": 2.324,
+     "f": 2.407
+    },
+    {
+     "p": "branco",
+     "i": 2.419,
+     "f": 2.788
+    },
+    {
+     "p": "anula",
+     "i": 2.8,
+     "f": 3.133
+    },
+    {
+     "p": "a",
+     "i": 3.145,
+     "f": 3.181
+    },
+    {
+     "p": "eleição",
+     "i": 3.193,
+     "f": 3.705
+    },
+    {
+     "p": "Não",
+     "i": 4.524,
+     "f": 4.821
+    },
+    {
+     "p": "anula",
+     "i": 4.833,
+     "f": 5.25
+    },
+    {
+     "p": "Esses",
+     "i": 6.071,
+     "f": 6.393
+    },
+    {
+     "p": "votos",
+     "i": 6.405,
+     "f": 6.833
+    },
+    {
+     "p": "nem",
+     "i": 6.845,
+     "f": 7.071
+    },
+    {
+     "p": "entram",
+     "i": 7.083,
+     "f": 7.357
+    },
+    {
+     "p": "na",
+     "i": 7.369,
+     "f": 7.464
+    },
+    {
+     "p": "conta",
+     "i": 7.476,
+     "f": 7.774
+    },
+    {
+     "p": "dos",
+     "i": 7.786,
+     "f": 7.94
+    },
+    {
+     "p": "votos",
+     "i": 7.952,
+     "f": 8.333
+    },
+    {
+     "p": "válidos",
+     "i": 8.345,
+     "f": 8.917
+    }
+   ]
+  },
+  "artigo-224": {
+   "hash": "cf84ce64b4",
+   "texto": "O artigo 224 do Código Eleitoral manda fazer nova eleição quando a nulidade atinge mais da metade dos votos. Mas nulidade ali significa fraude ou ilegalidade comprovada, não voto nulo.",
+   "audio": "audio/artigo-224-cf84ce64b4.mp3",
+   "duracao": 12.864,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.205
+    },
+    {
+     "p": "artigo",
+     "i": 0.217,
+     "f": 0.621
+    },
+    {
+     "p": "224 do",
+     "i": 0.633,
+     "f": 1.848
+    },
+    {
+     "p": "Código",
+     "i": 1.86,
+     "f": 2.217
+    },
+    {
+     "p": "Eleitoral",
+     "i": 2.229,
+     "f": 2.717
+    },
+    {
+     "p": "manda",
+     "i": 2.729,
+     "f": 3.05
+    },
+    {
+     "p": "fazer",
+     "i": 3.062,
+     "f": 3.348
+    },
+    {
+     "p": "nova",
+     "i": 3.36,
+     "f": 3.61
+    },
+    {
+     "p": "eleição",
+     "i": 3.621,
+     "f": 4.074
+    },
+    {
+     "p": "quando",
+     "i": 4.086,
+     "f": 4.264
+    },
+    {
+     "p": "a",
+     "i": 4.276,
+     "f": 4.312
+    },
+    {
+     "p": "nulidade",
+     "i": 4.324,
+     "f": 4.788
+    },
+    {
+     "p": "atinge",
+     "i": 4.8,
+     "f": 5.181
+    },
+    {
+     "p": "mais",
+     "i": 5.193,
+     "f": 5.443
+    },
+    {
+     "p": "da",
+     "i": 5.455,
+     "f": 5.55
+    },
+    {
+     "p": "metade",
+     "i": 5.562,
+     "f": 6.002
+    },
+    {
+     "p": "dos",
+     "i": 6.014,
+     "f": 6.193
+    },
+    {
+     "p": "votos",
+     "i": 6.205,
+     "f": 6.705
+    },
+    {
+     "p": "Mas",
+     "i": 7.524,
+     "f": 7.809
+    },
+    {
+     "p": "nulidade",
+     "i": 7.821,
+     "f": 8.333
+    },
+    {
+     "p": "ali",
+     "i": 8.345,
+     "f": 8.56
+    },
+    {
+     "p": "significa",
+     "i": 8.571,
+     "f": 9.143
+    },
+    {
+     "p": "fraude",
+     "i": 9.155,
+     "f": 9.559
+    },
+    {
+     "p": "ou",
+     "i": 9.571,
+     "f": 9.667
+    },
+    {
+     "p": "ilegalidade",
+     "i": 9.679,
+     "f": 10.274
+    },
+    {
+     "p": "comprovada",
+     "i": 10.286,
+     "f": 10.94
+    },
+    {
+     "p": "não",
+     "i": 11.131,
+     "f": 11.357
+    },
+    {
+     "p": "voto",
+     "i": 11.369,
+     "f": 11.702
+    },
+    {
+     "p": "nulo",
+     "i": 11.714,
+     "f": 12.036
+    }
+   ]
+  },
+  "possivel": {
+   "hash": "d9d70f5ba7",
+   "texto": "Anular é possível? Sim, em casos de fraude comprovada. A regra existe, mas exige prova, julgamento e decisão da Justiça.",
+   "audio": "audio/possivel-d9d70f5ba7.mp3",
+   "duracao": 9.96,
+   "palavras": [
+    {
+     "p": "Anular",
+     "i": 0.098,
+     "f": 0.538
+    },
+    {
+     "p": "é",
+     "i": 0.55,
+     "f": 0.586
+    },
+    {
+     "p": "possível",
+     "i": 0.598,
+     "f": 1.205
+    },
+    {
+     "p": "Sim",
+     "i": 2.024,
+     "f": 2.357
+    },
+    {
+     "p": "em",
+     "i": 2.595,
+     "f": 2.702
+    },
+    {
+     "p": "casos",
+     "i": 2.714,
+     "f": 3.095
+    },
+    {
+     "p": "de",
+     "i": 3.107,
+     "f": 3.214
+    },
+    {
+     "p": "fraude",
+     "i": 3.226,
+     "f": 3.607
+    },
+    {
+     "p": "comprovada",
+     "i": 3.619,
+     "f": 4.286
+    },
+    {
+     "p": "A",
+     "i": 5.107,
+     "f": 5.226
+    },
+    {
+     "p": "regra",
+     "i": 5.238,
+     "f": 5.524
+    },
+    {
+     "p": "existe",
+     "i": 5.536,
+     "f": 5.976
+    },
+    {
+     "p": "mas",
+     "i": 6.214,
+     "f": 6.31
+    },
+    {
+     "p": "exige",
+     "i": 6.321,
+     "f": 6.75
+    },
+    {
+     "p": "prova",
+     "i": 6.762,
+     "f": 7.131
+    },
+    {
+     "p": "julgamento",
+     "i": 7.381,
+     "f": 8
+    },
+    {
+     "p": "e",
+     "i": 8.012,
+     "f": 8.036
+    },
+    {
+     "p": "decisão",
+     "i": 8.048,
+     "f": 8.488
+    },
+    {
+     "p": "da",
+     "i": 8.5,
+     "f": 8.595
+    },
+    {
+     "p": "Justiça",
+     "i": 8.607,
+     "f": 9.131
+    }
+   ]
+  },
+  "final": {
+   "hash": "cabe165bc3",
+   "texto": "Resumindo: voto nulo não anula, fraude comprovada pode. Você confia mais no processo ou desconfia? Siga para mais explicações.",
+   "audio": "audio/final-cabe165bc3.mp3",
+   "duracao": 10.416,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.705
+    },
+    {
+     "p": "voto",
+     "i": 0.99,
+     "f": 1.3
+    },
+    {
+     "p": "nulo",
+     "i": 1.312,
+     "f": 1.562
+    },
+    {
+     "p": "não",
+     "i": 1.574,
+     "f": 1.776
+    },
+    {
+     "p": "anula",
+     "i": 1.788,
+     "f": 2.121
+    },
+    {
+     "p": "fraude",
+     "i": 2.336,
+     "f": 2.693
+    },
+    {
+     "p": "comprovada",
+     "i": 2.705,
+     "f": 3.312
+    },
+    {
+     "p": "pode",
+     "i": 3.324,
+     "f": 3.705
+    },
+    {
+     "p": "Você",
+     "i": 4.524,
+     "f": 4.798
+    },
+    {
+     "p": "confia",
+     "i": 4.81,
+     "f": 5.238
+    },
+    {
+     "p": "mais",
+     "i": 5.25,
+     "f": 5.476
+    },
+    {
+     "p": "no",
+     "i": 5.488,
+     "f": 5.583
+    },
+    {
+     "p": "processo",
+     "i": 5.595,
+     "f": 6.143
+    },
+    {
+     "p": "ou",
+     "i": 6.155,
+     "f": 6.25
+    },
+    {
+     "p": "desconfia",
+     "i": 6.262,
+     "f": 6.94
+    },
+    {
+     "p": "Siga",
+     "i": 7.762,
+     "f": 8.131
+    },
+    {
+     "p": "para",
+     "i": 8.143,
+     "f": 8.333
+    },
+    {
+     "p": "mais",
+     "i": 8.345,
+     "f": 8.571
+    },
+    {
+     "p": "explicações",
+     "i": 8.583,
+     "f": 9.583
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "urna": {
+   "arquivo": "imagens/urna-b3b0b766.jpg",
+   "rotulo": "Urna eletrônica brasileira",
+   "wiki": "Urna eletrônica",
+   "commons": "urna eletrônica brasileira",
+   "autor": "Defensoría del Pueblo de la Ciudad de Buenos Aires",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:DefPuebloCABA_-_voto_electronico_(3).jpg",
+   "titulo": "File:DefPuebloCABA - voto electronico (3).jpg",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 34.4,
+    "y": 42.4
+   }
+  },
+  "tse": {
+   "arquivo": "imagens/tse-9fd65559.jpg",
+   "rotulo": "Sede do TSE",
+   "wiki": "Tribunal Superior Eleitoral",
+   "commons": "Tribunal Superior Eleitoral sede Brasília",
+   "autor": "Tribunal Superior Eleitoral",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tribunal_Superior_Eleitoral.png",
+   "titulo": "File:Tribunal Superior Eleitoral.png",
+   "largura": 1280,
+   "altura": 591,
+   "rostos": 0,
+   "foco": {
+    "x": 34.0,
+    "y": 60.7
+   }
+  },
+  "moraes": {
+   "arquivo": "imagens/moraes-f1485a8b.jpg",
+   "rotulo": "Alexandre de Moraes",
+   "wiki": "Alexandre de Moraes",
+   "commons": "Alexandre de Moraes",
+   "autor": "Isac Nóbrega",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ministro_Alexandre_de_Moraes_como_presidente_do_TSE.jpg",
+   "titulo": "File:Ministro Alexandre de Moraes como presidente do TSE.jpg",
+   "largura": 1280,
+   "altura": 1610,
+   "rostos": 2,
+   "foco": {
+    "x": 59.2,
+    "y": 29.8
+   }
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-26T10:42:59.147Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "TSE — Temas selecionados: anulação de eleição",
+   "url": "https://temasselecionados.tse.jus.br/temas-selecionados/mandato-eletivo/execucao-da-decisao-que-atinge-o-mandato/anulacao-de-eleicao"
+  },
+  {
+   "titulo": "TSE — Temas selecionados: renovação da eleição (CE, art. 224)",
+   "url": "https://temasselecionados.tse.jus.br/temas-selecionados/apuracao-de-votos-e-eleicoes-extraordinarias/renovacao-da-eleicao-ce-art.-224/cabimento/nos-demais-casos-de-nulidade-da-votacao-ou-do-voto"
+  },
+  {
+   "titulo": "Poder360 — Moraes rejeita ação do PL contra urnas e aplica multa de R$ 22,9 mi",
+   "url": "https://www.poder360.com.br/eleicoes/moraes-rejeita-pedido-para-invalidar-votos-e-multa-pl-em-r-22-milhoes/"
+  },
+  {
+   "titulo": "O Povo — TSE multa coligação de Bolsonaro por má-fé",
+   "url": "https://www.opovo.com.br/noticias/mundo/2022/11/23/amp/tse-multa-coligacao-de-bolsonaro-por-ma-fe-ao-pedir-anulacao-de-votos.html"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "jornal",
+  "legenda": "caixa",
+  "transicao": "flash",
+  "fundo": "grade",
+  "formato": "mito-verdade"
  }
 }

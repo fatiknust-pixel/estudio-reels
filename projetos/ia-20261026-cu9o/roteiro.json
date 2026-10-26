@@ -1,0 +1,75 @@
+{
+  "titulo": "Eleição anulada? O que a lei diz",
+  "estilo": { "dinamica": "jornal", "legenda": "caixa", "transicao": "flash", "fundo": "grade",
+              "musica": "tensao", "formato": "mito-verdade", "fonte": "oswald", "paleta": "noticia" },
+  "legenda": { "palavrasPorTela": 2 },
+  "fontesPesquisa": [
+    { "titulo": "TSE — Temas selecionados: anulação de eleição", "url": "https://temasselecionados.tse.jus.br/temas-selecionados/mandato-eletivo/execucao-da-decisao-que-atinge-o-mandato/anulacao-de-eleicao" },
+    { "titulo": "TSE — Temas selecionados: renovação da eleição (CE, art. 224)", "url": "https://temasselecionados.tse.jus.br/temas-selecionados/apuracao-de-votos-e-eleicoes-extraordinarias/renovacao-da-eleicao-ce-art.-224/cabimento/nos-demais-casos-de-nulidade-da-votacao-ou-do-voto" },
+    { "titulo": "Poder360 — Moraes rejeita ação do PL contra urnas e aplica multa de R$ 22,9 mi", "url": "https://www.poder360.com.br/eleicoes/moraes-rejeita-pedido-para-invalidar-votos-e-multa-pl-em-r-22-milhoes/" },
+    { "titulo": "O Povo — TSE multa coligação de Bolsonaro por má-fé", "url": "https://www.opovo.com.br/noticias/mundo/2022/11/23/amp/tse-multa-coligacao-de-bolsonaro-por-ma-fe-ao-pedir-anulacao-de-votos.html" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Eleição anulada? Calma. Antes de compartilhar aquele áudio, veja o que a lei realmente diz.",
+      "fundo": "urna",
+      "elementos": [
+        { "tipo": "pergunta", "texto": "ELEIÇÃO ANULADA?", "em": "anulada?", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "CONFIRA ANTES", "cor": "vermelho", "em": "compartilhar" }
+      ]
+    },
+    {
+      "id": "mito-nulos",
+      "texto": "Mito número um: muito voto nulo ou em branco anula a eleição. Não anula. Esses votos nem entram na conta dos votos válidos.",
+      "fundo": "urna",
+      "fontes": ["TSE"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "MITO Nº 1", "sub": "Nulos anulam?", "em": 0, "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "MITO", "cor": "vermelho", "em": "anula." },
+        { "tipo": "check", "ok": false, "texto": "Voto nulo anula", "nota": "Não entra nos votos válidos", "em": "nem", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "artigo-224",
+      "texto": "O artigo 224 do Código Eleitoral manda fazer nova eleição quando a nulidade atinge mais da metade dos votos. Mas nulidade ali significa fraude ou ilegalidade comprovada, não voto nulo.",
+      "fundo": "tse",
+      "fontes": ["Código Eleitoral, art. 224", "TSE"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ARTIGO 224", "sub": "Código Eleitoral", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 50, "unidade": "%", "rotulo": "dos votos atingidos", "em": "metade", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Nulidade", "significado": "Fraude ou ilegalidade comprovada", "em": "fraude", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "2022",
+      "texto": "Quem decide é a Justiça Eleitoral, com provas e direito de defesa. Em 2022, o TSE negou o pedido do PL para invalidar votos de milhares de urnas e multou a coligação em 22 milhões e 900 mil reais por má-fé.",
+      "fundo": "moraes",
+      "fontes": ["Poder360", "O Povo"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "TSE, NOVEMBRO DE 2022", "em": 0, "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "PEDIDO NEGADO", "cor": "vermelho", "em": "negou" },
+        { "tipo": "contador", "de": 0, "ate": 22.9, "unidade": " mi", "rotulo": "multa por má-fé (R$)", "em": "multou", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "possivel",
+      "texto": "Anular é possível? Sim, em casos de fraude comprovada. A regra existe, mas exige prova, julgamento e decisão da Justiça.",
+      "fundo": "tse",
+      "fontes": ["TSE"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "VERDADE", "sub": "Com prova", "cor": "verde", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": true, "texto": "Fraude comprovada", "nota": "Pode haver nova eleição", "em": "fraude", "posicao": "meio" },
+        { "tipo": "icones", "itens": [["documento", "Prova"], ["seta", ""], ["balanca", "Julgamento"]], "em": "prova", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumindo: voto nulo não anula, fraude comprovada pode. Você confia mais no processo ou desconfia? Siga para mais explicações.",
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "Você confia no processo?", "opcoes": ["1 — Confio", "2 — Desconfio"], "em": "confia" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "Siga" }
+      ]
+    }
+  ]
+}
