@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "oceano",
  "criadoEm": "2026-10-26T13:19:48.165Z",
- "atualizadoEm": "2026-10-26T14:01:15Z",
+ "atualizadoEm": "2026-10-26T14:19:51.699Z",
  "status": "pronto",
  "legenda": {
   "fonte": "poppins",
@@ -1073,7 +1073,7 @@
    "altura": 1441,
    "rostos": 2,
    "foco": {
-    "x": 55.0,
+    "x": 55,
     "y": 35.8
    },
    "borrada": "imagens/flavio-083f8bfe-b.jpg"
@@ -1127,7 +1127,7 @@
    "altura": 853,
    "rostos": 0,
    "foco": {
-    "x": 47.0,
+    "x": 47,
     "y": 60.8
    },
    "borrada": "imagens/urna-3749e00d-b.jpg"
@@ -1145,7 +1145,7 @@
    "altura": 591,
    "rostos": 0,
    "foco": {
-    "x": 34.0,
+    "x": 34,
     "y": 60.7
    },
    "borrada": "imagens/tse-9fd65559-b.jpg"
