@@ -77,6 +77,7 @@ export type ImagemInfo = {
   wiki?: string; commons?: string; arquivoCommons?: string; busca?: string; propria?: boolean;
   // medidas por scripts/enquadrar.py: tamanho da foto, rostos achados e o centro do assunto (% da foto)
   largura?: number; altura?: number; rostos?: number; foco?: { x: number; y: number };
+  borrada?: string; // miniatura já desfocada e escurecida (fundo das fotos que aparecem inteiras), gerada por enquadrar.py
 };
 
 // ----- Modo 2 (bruto) -----
