@@ -1,0 +1,62 @@
+{
+ "versao": 1,
+ "id": "ia-20261026-cu9o",
+ "titulo": "Eleição anulada? Irei te explicar tudo",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "padrao",
+ "criadoEm": "2026-10-26T10:42:59.147Z",
+ "atualizadoEm": "2026-10-26T10:42:59.151Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Eleição anulada? Irei te explicar tudo",
+  "tom": "Polêmico, mas factual",
+  "duracao": 60,
+  "estilo": {
+   "dinamica": "auto",
+   "legenda": "auto",
+   "transicao": "auto",
+   "fundo": "auto",
+   "musica": "auto",
+   "formato": "auto",
+   "fonte": "auto",
+   "paleta": "auto"
+  }
+ },
+ "formato": "9:16",
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-26T10:42:59.147Z"
+ }
+}
