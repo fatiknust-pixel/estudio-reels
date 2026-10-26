@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "claro",
  "criadoEm": "2026-10-24T13:54:49.578Z",
- "atualizadoEm": "2026-10-24T14:10:42.993Z",
+ "atualizadoEm": "2026-10-26T13:00:19Z",
  "status": "pronto",
  "legenda": {
   "fonte": "inter",
@@ -4398,7 +4398,8 @@
    "foco": {
     "x": 26,
     "y": 32.5
-   }
+   },
+   "borrada": "imagens/estacionamento-7b3b5758-b.jpg"
   },
   "camera": {
    "arquivo": "imagens/camera-fc9eb2ea.jpg",
@@ -4415,7 +4416,8 @@
    "foco": {
     "x": 27.3,
     "y": 80
-   }
+   },
+   "borrada": "imagens/camera-fc9eb2ea-b.jpg"
   },
   "sensor": {
    "arquivo": "imagens/sensor-8a06f835.jpg",
@@ -4432,7 +4434,8 @@
    "foco": {
     "x": 67.8,
     "y": 49.3
-   }
+   },
+   "borrada": "imagens/sensor-8a06f835-b.jpg"
   },
   "navegacao": {
    "arquivo": "imagens/navegacao-0b69fedf.jpg",
@@ -4449,7 +4452,8 @@
    "foco": {
     "x": 40.4,
     "y": 53.2
-   }
+   },
+   "borrada": "imagens/navegacao-0b69fedf-b.jpg"
   }
  },
  "processamento": {
