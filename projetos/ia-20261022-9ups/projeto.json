@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "neon",
  "criadoEm": "2026-10-22T08:13:35.548Z",
- "atualizadoEm": "2026-10-22T20:46:23Z",
+ "atualizadoEm": "2026-10-26T13:23:19Z",
  "status": "pronto",
  "legenda": {
   "fonte": "oswald",
@@ -7762,9 +7762,10 @@
    "altura": 1153,
    "rostos": 0,
    "foco": {
-    "x": 41.0,
+    "x": 41,
     "y": 59.8
-   }
+   },
+   "borrada": "imagens/nokia-topo-b6bf5cd0-b.jpg"
   },
   "idestam": {
    "arquivo": "imagens/idestam-42566418.jpg",
@@ -7780,7 +7781,8 @@
    "foco": {
     "x": 71.5,
     "y": 37.5
-   }
+   },
+   "borrada": "imagens/idestam-42566418-b.jpg"
   },
   "tampere": {
    "arquivo": "imagens/tampere-86a6cbc2.jpg",
@@ -7797,7 +7799,8 @@
    "foco": {
     "x": 53.7,
     "y": 54.6
-   }
+   },
+   "borrada": "imagens/tampere-86a6cbc2-b.jpg"
   },
   "nokia-fabrica": {
    "arquivo": "imagens/nokia-fabrica-b6bf5cd0.jpg",
@@ -7812,9 +7815,10 @@
    "altura": 1153,
    "rostos": 0,
    "foco": {
-    "x": 41.0,
+    "x": 41,
     "y": 59.8
-   }
+   },
+   "borrada": "imagens/nokia-fabrica-b6bf5cd0-b.jpg"
   },
   "nokia-cidade": {
    "arquivo": "imagens/nokia-cidade-e415c738.jpg",
@@ -7831,7 +7835,8 @@
    "foco": {
     "x": 70.8,
     "y": 32.6
-   }
+   },
+   "borrada": "imagens/nokia-cidade-e415c738-b.jpg"
   },
   "ollila": {
    "arquivo": "imagens/ollila-9147d649.jpg",
@@ -7847,7 +7852,8 @@
    "foco": {
     "x": 70.9,
     "y": 33.5
-   }
+   },
+   "borrada": "imagens/ollila-9147d649-b.jpg"
   },
   "nokia-sede": {
    "arquivo": "",
@@ -7868,7 +7874,8 @@
    "foco": {
     "x": 39.3,
     "y": 39.2
-   }
+   },
+   "borrada": "imagens/cityman-7d8c0e47-b.jpg"
   },
   "gsm": {
    "arquivo": "imagens/gsm-ac192691.jpg",
@@ -7885,7 +7892,8 @@
    "foco": {
     "x": 55.4,
     "y": 61.2
-   }
+   },
+   "borrada": "imagens/gsm-ac192691-b.jpg"
   },
   "motorola": {
    "arquivo": "imagens/motorola-bd053801.jpg",
@@ -7902,7 +7910,8 @@
    "foco": {
     "x": 80,
     "y": 47.6
-   }
+   },
+   "borrada": "imagens/motorola-bd053801-b.jpg"
   },
   "nokia-2110": {
    "arquivo": "imagens/nokia-2110-8ec9ba9b.jpg",
@@ -7918,7 +7927,8 @@
    "foco": {
     "x": 50.8,
     "y": 58.7
-   }
+   },
+   "borrada": "imagens/nokia-2110-8ec9ba9b-b.jpg"
   },
   "n3310": {
    "arquivo": "imagens/n3310-33122833.jpg",
@@ -7933,8 +7943,9 @@
    "rostos": 0,
    "foco": {
     "x": 53.1,
-    "y": 70.0
-   }
+    "y": 70
+   },
+   "borrada": "imagens/n3310-33122833-b.jpg"
   },
   "n1100": {
    "arquivo": "imagens/n1100-c45a63e7.jpg",
@@ -7950,7 +7961,8 @@
    "foco": {
     "x": 53.8,
     "y": 22.2
-   }
+   },
+   "borrada": "imagens/n1100-c45a63e7-b.jpg"
   },
   "n95": {
    "arquivo": "imagens/n95-85000a1d.jpg",
@@ -7965,8 +7977,9 @@
    "rostos": 0,
    "foco": {
     "x": 59.1,
-    "y": 53.0
-   }
+    "y": 53
+   },
+   "borrada": "imagens/n95-85000a1d-b.jpg"
   },
   "communicator": {
    "arquivo": "imagens/communicator-756234b3.jpg",
@@ -7981,8 +7994,9 @@
    "rostos": 0,
    "foco": {
     "x": 58.4,
-    "y": 49.0
-   }
+    "y": 49
+   },
+   "borrada": "imagens/communicator-756234b3-b.jpg"
   },
   "iphone": {
    "arquivo": "imagens/iphone-989d8be4.jpg",
@@ -7999,7 +8013,8 @@
    "foco": {
     "x": 38.9,
     "y": 31.2
-   }
+   },
+   "borrada": "imagens/iphone-989d8be4-b.jpg"
   },
   "jobs": {
    "arquivo": "imagens/jobs-3d37f878.jpg",
@@ -8014,8 +8029,9 @@
    "rostos": 2,
    "foco": {
     "x": 53.3,
-    "y": 37.0
-   }
+    "y": 37
+   },
+   "borrada": "imagens/jobs-3d37f878-b.jpg"
   },
   "symbian": {
    "arquivo": "imagens/symbian-618621f6.jpg",
@@ -8032,7 +8048,8 @@
    "foco": {
     "x": 55.8,
     "y": 64.4
-   }
+   },
+   "borrada": "imagens/symbian-618621f6-b.jpg"
   },
   "n8": {
    "arquivo": "imagens/n8-e2444821.jpg",
@@ -8048,7 +8065,8 @@
    "foco": {
     "x": 52.4,
     "y": 66.2
-   }
+   },
+   "borrada": "imagens/n8-e2444821-b.jpg"
   },
   "elop": {
    "arquivo": "imagens/elop-cf3a9b4c.jpg",
@@ -8064,7 +8082,8 @@
    "foco": {
     "x": 43.4,
     "y": 38.5
-   }
+   },
+   "borrada": "imagens/elop-cf3a9b4c-b.jpg"
   },
   "microsoft": {
    "arquivo": "imagens/microsoft-30657933.jpg",
@@ -8081,7 +8100,8 @@
    "foco": {
     "x": 52.4,
     "y": 52.5
-   }
+   },
+   "borrada": "imagens/microsoft-30657933-b.jpg"
   },
   "plataforma": {
    "arquivo": "imagens/plataforma-fd60a637.jpg",
@@ -8097,7 +8117,8 @@
    "foco": {
     "x": 54.7,
     "y": 38.4
-   }
+   },
+   "borrada": "imagens/plataforma-fd60a637-b.jpg"
   },
   "pedra-mar": {
    "arquivo": "imagens/pedra-mar-29ff9ba5.jpg",
@@ -8113,7 +8134,8 @@
    "foco": {
     "x": 52.4,
     "y": 80
-   }
+   },
+   "borrada": "imagens/pedra-mar-29ff9ba5-b.jpg"
   },
   "lumia800": {
    "arquivo": "imagens/lumia800-6c72159e.jpg",
@@ -8129,7 +8151,8 @@
    "foco": {
     "x": 49.2,
     "y": 20
-   }
+   },
+   "borrada": "imagens/lumia800-6c72159e-b.jpg"
   },
   "winphone": {
    "arquivo": "imagens/winphone-40896a77.jpg",
@@ -8145,7 +8168,8 @@
    "foco": {
     "x": 57.8,
     "y": 34.3
-   }
+   },
+   "borrada": "imagens/winphone-40896a77-b.jpg"
   },
   "samsung": {
    "arquivo": "imagens/samsung-f5cf2c60.jpg",
@@ -8161,8 +8185,9 @@
    "rostos": 0,
    "foco": {
     "x": 47.6,
-    "y": 64.0
-   }
+    "y": 64
+   },
+   "borrada": "imagens/samsung-f5cf2c60-b.jpg"
   },
   "android": {
    "arquivo": "imagens/android-a21bfd5a.jpg",
@@ -8179,7 +8204,8 @@
    "foco": {
     "x": 15.1,
     "y": 80.8
-   }
+   },
+   "borrada": "imagens/android-a21bfd5a-b.jpg"
   },
   "redmond": {
    "arquivo": "imagens/redmond-e55df140.jpg",
@@ -8194,9 +8220,10 @@
    "altura": 1272,
    "rostos": 0,
    "foco": {
-    "x": 43.0,
+    "x": 43,
     "y": 46.8
-   }
+   },
+   "borrada": "imagens/redmond-e55df140-b.jpg"
   },
   "lumia-ms": {
    "arquivo": "imagens/lumia-ms-157e833f.jpg",
@@ -8212,7 +8239,8 @@
    "foco": {
     "x": 44.3,
     "y": 49.8
-   }
+   },
+   "borrada": "imagens/lumia-ms-157e833f-b.jpg"
   },
   "hmd": {
    "arquivo": "imagens/hmd-533435c2.jpg",
@@ -8228,7 +8256,8 @@
    "foco": {
     "x": 53.6,
     "y": 51.6
-   }
+   },
+   "borrada": "imagens/hmd-533435c2-b.jpg"
   },
   "n3310-novo": {
    "arquivo": "imagens/n3310-novo-6a075aae.jpg",
@@ -8245,7 +8274,8 @@
    "foco": {
     "x": 49.7,
     "y": 57.3
-   }
+   },
+   "borrada": "imagens/n3310-novo-6a075aae-b.jpg"
   },
   "nokia-logo": {
    "arquivo": "imagens/nokia-logo-b6bf5cd0.jpg",
@@ -8260,9 +8290,10 @@
    "altura": 1153,
    "rostos": 0,
    "foco": {
-    "x": 41.0,
+    "x": 41,
     "y": 59.8
-   }
+   },
+   "borrada": "imagens/nokia-logo-b6bf5cd0-b.jpg"
   },
   "espoo": {
    "arquivo": "imagens/espoo-966ac502.jpg",
@@ -8279,7 +8310,8 @@
    "foco": {
     "x": 63.9,
     "y": 45.9
-   }
+   },
+   "borrada": "imagens/espoo-966ac502-b.jpg"
   },
   "nokia-final": {
    "arquivo": "imagens/nokia-final-389560e9.jpg",
@@ -8293,9 +8325,10 @@
    "altura": 1536,
    "rostos": 2,
    "foco": {
-    "x": 51.0,
+    "x": 51,
     "y": 52.3
-   }
+   },
+   "borrada": "imagens/nokia-final-389560e9-b.jpg"
   },
   "nokia-antiga": {
    "arquivo": "imagens/nokia-antiga-e9a0375d.jpg",
@@ -8311,7 +8344,8 @@
    "foco": {
     "x": 54.7,
     "y": 58.6
-   }
+   },
+   "borrada": "imagens/nokia-antiga-e9a0375d-b.jpg"
   }
  },
  "processamento": {
