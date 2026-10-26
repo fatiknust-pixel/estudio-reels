@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "documentario",
  "criadoEm": "2026-10-22T13:24:51.485Z",
- "atualizadoEm": "2026-10-22T20:10:26Z",
+ "atualizadoEm": "2026-10-26T12:43:47Z",
  "status": "pronto",
  "legenda": {
   "fonte": "raleway",
@@ -3791,7 +3791,8 @@
    "foco": {
     "x": 64.6,
     "y": 42.2
-   }
+   },
+   "borrada": "imagens/turismo-850ed6b0-b.jpg"
   },
   "globo": {
    "arquivo": "imagens/globo-2e3f1176.jpg",
@@ -3807,7 +3808,8 @@
    "foco": {
     "x": 50.8,
     "y": 61.2
-   }
+   },
+   "borrada": "imagens/globo-2e3f1176-b.jpg"
   },
   "multidao": {
    "arquivo": "imagens/multidao-f4b9b1c8.jpg",
@@ -3823,7 +3825,8 @@
    "foco": {
     "x": 61.7,
     "y": 46.5
-   }
+   },
+   "borrada": "imagens/multidao-f4b9b1c8-b.jpg"
   },
   "bilhete": {
    "arquivo": "imagens/bilhete-6a3555e2.jpg",
@@ -3839,7 +3842,8 @@
    "foco": {
     "x": 43.4,
     "y": 37.9
-   }
+   },
+   "borrada": "imagens/bilhete-6a3555e2-b.jpg"
   },
   "eiffel": {
    "arquivo": "imagens/eiffel-610fa753.jpg",
@@ -3855,7 +3859,8 @@
    "foco": {
     "x": 50.2,
     "y": 64.2
-   }
+   },
+   "borrada": "imagens/eiffel-610fa753-b.jpg"
   },
   "eiffel-obra": {
    "arquivo": "imagens/eiffel-obra-d23e6ed6.jpg",
@@ -3871,7 +3876,8 @@
    "foco": {
     "x": 51.8,
     "y": 56.4
-   }
+   },
+   "borrada": "imagens/eiffel-obra-d23e6ed6-b.jpg"
   },
   "eiffel-expo": {
    "arquivo": "imagens/eiffel-expo-e8548a36.jpg",
@@ -3887,7 +3893,8 @@
    "foco": {
     "x": 45.3,
     "y": 61.6
-   }
+   },
+   "borrada": "imagens/eiffel-expo-e8548a36-b.jpg"
   },
   "gustave-eiffel": {
    "arquivo": "imagens/gustave-eiffel-526fbaf1.jpg",
@@ -3903,7 +3910,8 @@
    "foco": {
     "x": 58.9,
     "y": 33.4
-   }
+   },
+   "borrada": "imagens/gustave-eiffel-526fbaf1-b.jpg"
   },
   "eiffel-noite": {
    "arquivo": "imagens/eiffel-noite-6aa865d8.jpg",
@@ -3919,7 +3927,8 @@
    "foco": {
     "x": 45.2,
     "y": 54.3
-   }
+   },
+   "borrada": "imagens/eiffel-noite-6aa865d8-b.jpg"
   },
   "disneyland": {
    "arquivo": "imagens/disneyland-4a50d2c3.jpg",
@@ -3936,7 +3945,8 @@
    "foco": {
     "x": 40.6,
     "y": 62.4
-   }
+   },
+   "borrada": "imagens/disneyland-4a50d2c3-b.jpg"
   },
   "disneyland-castelo": {
    "arquivo": "imagens/disneyland-castelo-4a50d2c3.jpg",
@@ -3952,7 +3962,8 @@
    "foco": {
     "x": 40.6,
     "y": 62.4
-   }
+   },
+   "borrada": "imagens/disneyland-castelo-4a50d2c3-b.jpg"
   },
   "disneyland-1955": {
    "arquivo": "imagens/disneyland-1955-d17a4971.jpg",
@@ -3968,7 +3979,8 @@
    "foco": {
     "x": 52.3,
     "y": 50.4
-   }
+   },
+   "borrada": "imagens/disneyland-1955-d17a4971-b.jpg"
   },
   "disneyland-rua": {
    "arquivo": "imagens/disneyland-rua-d4633302.jpg",
@@ -3983,8 +3995,9 @@
    "rostos": 0,
    "foco": {
     "x": 42.1,
-    "y": 58.0
-   }
+    "y": 58
+   },
+   "borrada": "imagens/disneyland-rua-d4633302-b.jpg"
   },
   "disneyland-multidao": {
    "arquivo": "",
@@ -4005,7 +4018,8 @@
    "foco": {
     "x": 52.3,
     "y": 59.3
-   }
+   },
+   "borrada": "imagens/cidade-proibida-d1f2dbed-b.jpg"
   },
   "cidade-proibida-salao": {
    "arquivo": "imagens/cidade-proibida-salao-54469d41.jpg",
@@ -4019,9 +4033,10 @@
    "altura": 378,
    "rostos": 0,
    "foco": {
-    "x": 49.0,
+    "x": 49,
     "y": 67.2
-   }
+   },
+   "borrada": "imagens/cidade-proibida-salao-54469d41-b.jpg"
   },
   "cidade-proibida-aerea": {
    "arquivo": "imagens/cidade-proibida-aerea-b2eb4fe7.jpg",
@@ -4037,7 +4052,8 @@
    "foco": {
     "x": 52.4,
     "y": 60.2
-   }
+   },
+   "borrada": "imagens/cidade-proibida-aerea-b2eb4fe7-b.jpg"
   },
   "museu-palacio": {
    "arquivo": "imagens/museu-palacio-2a588d34.jpg",
@@ -4053,8 +4069,9 @@
    "rostos": 0,
    "foco": {
     "x": 63.8,
-    "y": 50.0
-   }
+    "y": 50
+   },
+   "borrada": "imagens/museu-palacio-2a588d34-b.jpg"
   },
   "cidade-proibida-portao": {
    "arquivo": "imagens/cidade-proibida-portao-ee4265f6.jpg",
@@ -4070,7 +4087,8 @@
    "foco": {
     "x": 48.9,
     "y": 40.4
-   }
+   },
+   "borrada": "imagens/cidade-proibida-portao-ee4265f6-b.jpg"
   },
   "magic-kingdom": {
    "arquivo": "imagens/magic-kingdom-fa299a1e.jpg",
@@ -4085,8 +4103,9 @@
    "rostos": 0,
    "foco": {
     "x": 47.2,
-    "y": 43.0
-   }
+    "y": 43
+   },
+   "borrada": "imagens/magic-kingdom-fa299a1e-b.jpg"
   },
   "cinderela-castelo": {
    "arquivo": "imagens/cinderela-castelo-8ec14ddb.jpg",
@@ -4101,8 +4120,9 @@
    "rostos": 0,
    "foco": {
     "x": 55.8,
-    "y": 41.0
-   }
+    "y": 41
+   },
+   "borrada": "imagens/cinderela-castelo-8ec14ddb-b.jpg"
   },
   "walt-disney": {
    "arquivo": "imagens/walt-disney-278c9c2a.jpg",
@@ -4118,7 +4138,8 @@
    "foco": {
     "x": 51.4,
     "y": 43.2
-   }
+   },
+   "borrada": "imagens/walt-disney-278c9c2a-b.jpg"
   },
   "magic-kingdom-rua": {
    "arquivo": "imagens/magic-kingdom-rua-25684cd6.jpg",
@@ -4134,7 +4155,8 @@
    "foco": {
     "x": 45.2,
     "y": 53.8
-   }
+   },
+   "borrada": "imagens/magic-kingdom-rua-25684cd6-b.jpg"
   },
   "magic-kingdom-multidao": {
    "arquivo": "imagens/magic-kingdom-multidao-61b19cb6.jpg",
@@ -4150,7 +4172,8 @@
    "foco": {
     "x": 46.3,
     "y": 66.3
-   }
+   },
+   "borrada": "imagens/magic-kingdom-multidao-61b19cb6-b.jpg"
   },
   "times-square": {
    "arquivo": "imagens/times-square-2aee6060.jpg",
@@ -4166,7 +4189,8 @@
    "foco": {
     "x": 70.1,
     "y": 53.4
-   }
+   },
+   "borrada": "imagens/times-square-2aee6060-b.jpg"
   },
   "times-square-predio": {
    "arquivo": "imagens/times-square-predio-1dcef6db.jpg",
@@ -4182,7 +4206,8 @@
    "foco": {
     "x": 31.2,
     "y": 40.5
-   }
+   },
+   "borrada": "imagens/times-square-predio-1dcef6db-b.jpg"
   },
   "times-square-noite": {
    "arquivo": "imagens/times-square-noite-aaeb05d0.jpg",
@@ -4198,7 +4223,8 @@
    "foco": {
     "x": 11.1,
     "y": 54.9
-   }
+   },
+   "borrada": "imagens/times-square-noite-aaeb05d0-b.jpg"
   },
   "times-square-multidao": {
    "arquivo": "imagens/times-square-multidao-36e8e033.jpg",
@@ -4214,7 +4240,8 @@
    "foco": {
     "x": 39.9,
     "y": 41.1
-   }
+   },
+   "borrada": "imagens/times-square-multidao-36e8e033-b.jpg"
   },
   "times-square-dia": {
    "arquivo": "imagens/times-square-dia-d70ef23b.jpg",
@@ -4230,7 +4257,8 @@
    "foco": {
     "x": 42.5,
     "y": 15.6
-   }
+   },
+   "borrada": "imagens/times-square-dia-d70ef23b-b.jpg"
   },
   "resumo-mapa": {
    "arquivo": "imagens/resumo-mapa-148a5176.jpg",
@@ -4246,7 +4274,8 @@
    "foco": {
     "x": 80,
     "y": 60.6
-   }
+   },
+   "borrada": "imagens/resumo-mapa-148a5176-b.jpg"
   },
   "viagem": {
    "arquivo": "imagens/viagem-74c3aad0.jpg",
@@ -4262,7 +4291,8 @@
    "foco": {
     "x": 49.9,
     "y": 31.9
-   }
+   },
+   "borrada": "imagens/viagem-74c3aad0-b.jpg"
   }
  },
  "processamento": {
