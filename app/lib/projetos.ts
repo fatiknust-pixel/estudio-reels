@@ -314,7 +314,10 @@ export const carregarArquivos = async (p: Projeto, aoAtualizar: (m: Record<strin
     aoAtualizar({ ...mapa });
   }
   for (const n of Object.values(p.narracao ?? {})) caminhos.add(n.audio);
-  for (const i of Object.values(p.imagens ?? {})) caminhos.add(i.arquivo);
+  for (const i of Object.values(p.imagens ?? {})) {
+    caminhos.add(i.arquivo);
+    if (i.borrada) caminhos.add(i.borrada);
+  }
   await Promise.all(
     [...caminhos].map(async (c) => {
       const u = await urlDe(p.id, c);

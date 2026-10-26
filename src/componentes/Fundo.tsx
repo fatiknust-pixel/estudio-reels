@@ -21,14 +21,14 @@ export const fotoAtual = (galeria: string[], f: number, duracao: number, inicios
 // Com "galeria", as fotos se sucedem com fusão, cada uma com seu próprio movimento de câmera.
 export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: number[]; indice: number; duracao: number }> = ({ chave, galeria, inicios, indice, duracao }) => {
   const f = useCurrentFrame();
-  const { imagem, tema, projeto } = useVideo();
+  const { imagem, imagemBorrada, tema, projeto } = useVideo();
   const { largura, altura } = useQuadro();
   const est = projeto.estiloIA;
   // sem estilo de edição (vídeos antigos e modo bruto): grade, e a bandeira no tema Brasil
   const tipo = est?.dinamica === "minimal" ? "limpo" : est?.fundo ?? (tema.bandeira ? "bandeira" : "grade");
   const chaves = galeria?.length ? galeria : chave ? [chave] : [];
   // foto que não foi baixada some da fila, e as outras mantêm o tempo marcado (galeriaEm)
-  const itens = chaves.map((k, i) => ({ u: imagem(k), info: projeto.imagens?.[k], ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; info: ImagemInfo | undefined; ini: number } => !!x.u);
+  const itens = chaves.map((k, i) => ({ u: imagem(k), fundo: imagemBorrada(k), info: projeto.imagens?.[k], ini: inicios?.length === chaves.length ? inicios[i] : (i * duracao) / chaves.length })).filter((x): x is { u: string; fundo: string | null; info: ImagemInfo | undefined; ini: number } => !!x.u);
   const fotos = itens.map((x) => x.u);
   const src = fotos[0] ?? null;
   const documentario = fotos.length > 1;
@@ -50,7 +50,7 @@ export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: num
         // documentário alterna aproximar/afastar; cena com uma foto só mantém um zoom lento. O zoom sai do foco da foto
         // e é curto (no máximo ~10%): a foto não é cortada além do enquadramento escolhido
         const zoom = documentario ? (k % 2 ? 1.08 - t * 0.08 : 1 + t * 0.08) : 1 + t * 0.1;
-        return <FotoEnquadrada key={k} src={u} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, filter: "saturate(1.1) contrast(1.05)" }} />;
+        return <FotoEnquadrada key={k} src={u} fundo={itens[k].fundo} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, filter: "saturate(1.1) contrast(1.05)" }} />;
       })}
       {/* escurece para o texto aparecer */}
       <AbsoluteFill style={{ background: !src ? "transparent" : documentario ? `linear-gradient(180deg, ${tema.fundo}66 0%, transparent 25%, transparent 55%, ${tema.fundo}D9 100%)` : `linear-gradient(180deg, ${tema.fundo}8C 0%, ${tema.fundo}59 35%, ${tema.fundo}BF 62%, ${tema.fundo}F2 100%)` }} />

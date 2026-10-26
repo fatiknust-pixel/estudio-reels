@@ -37,15 +37,23 @@ export const enquadrarFoto = (info: ImagemInfo | undefined, W: number, H: number
 };
 
 // Foto numa caixa W×H (px). "zoom" = escala atual (1 = sem zoom). Posicione/anime a caixa por fora.
-export const FotoEnquadrada: React.FC<{ src: string; info?: ImagemInfo; w: number; h: number; zoom?: number; style?: React.CSSProperties; redonda?: boolean }> = ({ src, info, w, h, zoom = 1, style, redonda }) => {
+export const FotoEnquadrada: React.FC<{ src: string; fundo?: string | null; info?: ImagemInfo; w: number; h: number; zoom?: number; style?: React.CSSProperties; redonda?: boolean }> = ({ src, fundo, info, w, h, zoom = 1, style, redonda }) => {
   const e = enquadrarFoto(info, w, h, { redonda });
   if (e.modo === "cobrir") {
     return <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", objectPosition: e.pos, transformOrigin: e.origem, transform: `scale(${zoom})`, ...style }} />;
   }
+  // Foto inteira sobre um fundo da própria foto. O fundo vem pronto (miniatura já desfocada e escurecida por
+  // enquadrar.py): blur em CSS numa camada que anima (zoom da câmera, fusão) derruba o Safari do iPhone.
+  // Sem a miniatura (vídeos antigos), usa a foto cobrindo, só escurecida.
+  const { filter: _filtro, ...resto } = style ?? {};
   return (
-    <AbsoluteFill style={{ overflow: "hidden", ...style }}>
-      <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", filter: "blur(34px) brightness(0.55) saturate(1.15)", transform: "scale(1.25)" }} />
-      <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "contain", transform: `scale(${1 + (zoom - 1) * 0.5})`, filter: "drop-shadow(0 10px 30px rgba(0,0,0,.45))" }} />
+    <AbsoluteFill style={{ overflow: "hidden", background: "#0c0c0e", ...resto }}>
+      {fundo ? (
+        <Img src={fundo} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover" }} />
+      ) : (
+        <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.4)" }} />
+      )}
+      <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "contain", transform: `scale(${1 + (zoom - 1) * 0.5})` }} />
     </AbsoluteFill>
   );
 };

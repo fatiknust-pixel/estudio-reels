@@ -9,7 +9,7 @@ import argparse, datetime, json, os, subprocess, sys
 
 
 def limpar_midia(p, pasta):
-    usados = {n.get("audio") for n in (p.get("narracao") or {}).values()} | {i.get("arquivo") for i in (p.get("imagens") or {}).values()}
+    usados = {n.get("audio") for n in (p.get("narracao") or {}).values()} | {i.get("arquivo") for i in (p.get("imagens") or {}).values()} | {i.get("borrada") for i in (p.get("imagens") or {}).values()}
     for sub in ("audio", "imagens"):
         d = os.path.join(pasta, sub)
         if not os.path.isdir(d):

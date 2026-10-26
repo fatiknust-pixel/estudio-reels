@@ -69,7 +69,7 @@ for (const [chave, cfg] of Object.entries(p.imagens ?? {})) {
     if (!r.ok) throw new Error(`download ${r.status}`);
     const rel = `imagens/${chave}-${crypto.createHash("sha1").update(info.url).digest("hex").slice(0, 8)}.jpg`;
     fs.writeFileSync(path.join(midia, rel), Buffer.from(await r.arrayBuffer()));
-    p.imagens[chave] = { ...cfg, largura: undefined, altura: undefined, rostos: undefined, foco: undefined, arquivo: rel, autor: info.autor, licenca: info.licenca, pagina: info.pagina, titulo: info.titulo, busca: undefined, propria: undefined };
+    p.imagens[chave] = { ...cfg, largura: undefined, altura: undefined, rostos: undefined, foco: undefined, borrada: undefined, arquivo: rel, autor: info.autor, licenca: info.licenca, pagina: info.pagina, titulo: info.titulo, busca: undefined, propria: undefined };
     console.log(`✓ ${chave} ← ${info.titulo} (${info.licenca}, ${info.autor})`);
   } catch (e) {
     console.warn(`! ${chave}: ${e.message}`);

@@ -53,6 +53,21 @@ def achar_foco(cv2, np, caminho):
     return {"largura": larg, "altura": alt, "rostos": 0, "foco": {"x": round(fx, 1), "y": round(fy, 1)}}
 
 
+def gerar_borrada(cv2, caminho, destino):
+    """Miniatura bem pequena, desfocada e escurecida: o vídeo a estica no fundo das fotos que aparecem inteiras."""
+    img = cv2.imread(caminho, cv2.IMREAD_COLOR)
+    if img is None:
+        return False
+    alt, larg = img.shape[:2]
+    w = 96
+    h = max(16, min(256, round(w * alt / larg)))
+    mini = cv2.resize(img, (w, h), interpolation=cv2.INTER_AREA)
+    mini = cv2.GaussianBlur(mini, (0, 0), 3)
+    mini = cv2.convertScaleAbs(mini, alpha=0.5, beta=0)  # escurece
+    cv2.imwrite(destino, mini, [cv2.IMWRITE_JPEG_QUALITY, 80])
+    return True
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("projeto")
@@ -71,15 +86,21 @@ def main():
         arq = info.get("arquivo")
         if not arq or not os.path.exists(os.path.join(midia, arq)):
             continue
-        if info.get("foco") and info.get("largura") and not a.forcar:
+        borrada = info.get("borrada")
+        if info.get("foco") and info.get("largura") and borrada and os.path.exists(os.path.join(midia, borrada)) and not a.forcar:
             continue
-        r = achar_foco(cv2, np, os.path.join(midia, arq))
-        if not r:
-            print(f"! {chave}: não consegui abrir a foto")
-            continue
-        info.update(r)
+        caminho = os.path.join(midia, arq)
+        if not (info.get("foco") and info.get("largura")) or a.forcar:
+            r = achar_foco(cv2, np, caminho)
+            if not r:
+                print(f"! {chave}: não consegui abrir a foto")
+                continue
+            info.update(r)
+            print(f"✓ {chave}: {r['largura']}x{r['altura']}, {r['rostos']} rosto(s), foco {r['foco']['x']}% {r['foco']['y']}%")
+        rel = os.path.splitext(arq)[0] + "-b.jpg"
+        if gerar_borrada(cv2, caminho, os.path.join(midia, rel)):
+            info["borrada"] = rel
         n += 1
-        print(f"✓ {chave}: {r['largura']}x{r['altura']}, {r['rostos']} rosto(s), foco {r['foco']['x']}% {r['foco']['y']}%")
     json.dump(p, open(a.projeto, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     open(a.projeto, "a", encoding="utf-8").write("\n")
     print(f"{n} foto(s) medida(s)")

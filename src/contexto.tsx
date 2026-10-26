@@ -11,6 +11,7 @@ export type VideoCtx = {
   tema: Tema;
   arquivo: (p?: string) => string | null;
   imagem: (chave?: string) => string | null;
+  imagemBorrada: (chave?: string) => string | null;
   creditoImagem: (chave?: string) => string | null;
   todosCreditos: () => string[];
 };
@@ -28,6 +29,7 @@ export const ProvedorVideo: React.FC<{ projeto: Projeto; arquivos?: Record<strin
       tema: projeto.visual === "aula" ? TEMAS.aula : temaDe(projeto.tema),
       arquivo,
       imagem: (chave) => (chave && imgs[chave] ? arquivo(imgs[chave].arquivo) : null),
+      imagemBorrada: (chave) => (chave && imgs[chave]?.borrada ? arquivo(imgs[chave].borrada) : null),
       creditoImagem: (chave) => {
         const i = chave ? imgs[chave] : undefined;
         if (!i || !i.autor) return null;
