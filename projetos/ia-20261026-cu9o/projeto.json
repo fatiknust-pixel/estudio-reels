@@ -6,7 +6,7 @@
  "estilo": "documentario",
  "tema": "noticia",
  "criadoEm": "2026-10-26T10:42:59.147Z",
- "atualizadoEm": "2026-10-26T10:45:08Z",
+ "atualizadoEm": "2026-10-26T12:43:43Z",
  "status": "pronto",
  "legenda": {
   "fonte": "oswald",
@@ -1025,7 +1025,8 @@
    "foco": {
     "x": 34.4,
     "y": 42.4
-   }
+   },
+   "borrada": "imagens/urna-b3b0b766-b.jpg"
   },
   "tse": {
    "arquivo": "imagens/tse-9fd65559.jpg",
@@ -1040,9 +1041,10 @@
    "altura": 591,
    "rostos": 0,
    "foco": {
-    "x": 34.0,
+    "x": 34,
     "y": 60.7
-   }
+   },
+   "borrada": "imagens/tse-9fd65559-b.jpg"
   },
   "moraes": {
    "arquivo": "imagens/moraes-f1485a8b.jpg",
@@ -1059,7 +1061,8 @@
    "foco": {
     "x": 59.2,
     "y": 29.8
-   }
+   },
+   "borrada": "imagens/moraes-f1485a8b-b.jpg"
   }
  },
  "processamento": {
