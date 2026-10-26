@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useMemo } from "react";
+import { getRemotionEnvironment } from "remotion";
 import { arquivoProjeto } from "./arquivos";
 import { LinhaTempo, montarLinha, Quadro, quadroDe } from "./linhaTempo";
 import { Tema, temaDe, TEMAS } from "./temas";
@@ -12,6 +13,7 @@ export type VideoCtx = {
   arquivo: (p?: string) => string | null;
   imagem: (chave?: string) => string | null;
   imagemBorrada: (chave?: string) => string | null;
+  leve: boolean; // prévia no iPhone/iPad: sem desfoque, ruído SVG nem mistura de cores (o Safari fecha a página por falta de memória)
   creditoImagem: (chave?: string) => string | null;
   todosCreditos: () => string[];
 };
@@ -29,6 +31,7 @@ export const ProvedorVideo: React.FC<{ projeto: Projeto; arquivos?: Record<strin
       tema: projeto.visual === "aula" ? TEMAS.aula : temaDe(projeto.tema),
       arquivo,
       imagem: (chave) => (chave && imgs[chave] ? arquivo(imgs[chave].arquivo) : null),
+      leve: getRemotionEnvironment().isPlayer && typeof navigator !== "undefined" && /iPhone|iPad|iPod/.test(navigator.userAgent),
       imagemBorrada: (chave) => (chave && imgs[chave]?.borrada ? arquivo(imgs[chave].borrada) : null),
       creditoImagem: (chave) => {
         const i = chave ? imgs[chave] : undefined;

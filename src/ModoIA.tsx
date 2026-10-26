@@ -77,7 +77,7 @@ const Palco: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 const Cena: React.FC<{ c: CenaTempo; ultima: boolean }> = ({ c, ultima }) => {
   const f = useCurrentFrame();
-  const { creditoImagem, arquivo, projeto } = useVideo();
+  const { creditoImagem, arquivo, projeto, leve } = useVideo();
   // na galeria (documentário), o crédito acompanha a foto que está na tela
   const credito = creditoImagem(c.galeria?.length ? c.galeria[fotoAtual(c.galeria, f, c.duracao, c.galeriaInicios)] : c.fundo);
   const audio = arquivo(c.audio);
@@ -88,7 +88,7 @@ const Cena: React.FC<{ c: CenaTempo; ultima: boolean }> = ({ c, ultima }) => {
   const k = interpolate(f, [0, 10], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   const entrada: React.CSSProperties =
     c.indice === 0 ? {} :
-    transicao === "zoom" ? { transform: `scale(${1.35 - 0.35 * k})`, filter: `blur(${(1 - k) * 14}px)` } :
+    transicao === "zoom" ? { transform: `scale(${1.35 - 0.35 * k})`, ...(leve ? {} : { filter: `blur(${(1 - k) * 14}px)` }) } :
     transicao === "deslize" ? { transform: `translateX(${(1 - k) * q.largura}px)` } :
     transicao === "circulo" ? { clipPath: `circle(${k * 120}% at 50% 50%)` } : {};
   const zoom = transicao === "faixas" || transicao === "flash" ? interpolate(f, [0, 10], [1.08, 1], { extrapolateRight: "clamp" }) : 1;

@@ -20,11 +20,14 @@ const sfx = (nome: string, volume = 0.5, atraso = 0) => (
   </Sequence>
 );
 
-const Caixa: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => (
-  <div style={{ background: `${useCor().fundo}D6`, border: "2px solid rgba(255,255,255,0.14)", borderRadius: 36, boxShadow: "0 30px 80px rgba(0,0,0,0.55)", backdropFilter: "blur(8px)", ...style }}>
-    {children}
-  </div>
-);
+const Caixa: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => {
+  const { leve } = useVideo();
+  return (
+    <div style={{ background: `${useCor().fundo}${leve ? "F2" : "D6"}`, border: "2px solid rgba(255,255,255,0.14)", borderRadius: 36, ...(leve ? {} : { boxShadow: "0 30px 80px rgba(0,0,0,0.55)", backdropFilter: "blur(8px)" }), ...style }}>
+      {children}
+    </div>
+  );
+};
 
 /* ---------- elementos ---------- */
 
