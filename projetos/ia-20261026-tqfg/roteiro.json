@@ -1,0 +1,80 @@
+{
+  "titulo": "Por que Flávio quer anular a eleição?",
+  "estilo": { "dinamica": "energetica", "legenda": "palavra", "transicao": "zoom", "fundo": "raios",
+              "musica": "epica", "formato": "explicativo", "fonte": "poppins", "paleta": "oceano" },
+  "legenda": { "palavrasPorTela": 1 },
+  "fontesPesquisa": [
+    { "titulo": "CNN Brasil — Flávio não reconhece vitória de Lula e diz que pedirá anulação", "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/" },
+    { "titulo": "InfoMoney — Flávio não reconhece resultado e diz que pedirá anulação ao TSE", "url": "https://www.infomoney.com.br/politica/flavio-nao-reconhece-resultado-da-eleicao-e-diz-que-pedira-anulacao-ao-tse/" },
+    { "titulo": "Gazeta do Povo — Flávio Bolsonaro diz que não reconhece resultado", "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-pronunciamento-anulacao-eleicao/" },
+    { "titulo": "Conjur — Flávio anuncia que vai tentar anulação do resultado", "url": "https://conjur.com.br/2026-out-25/derrotado-flavio-bolsonaro-critica-zanin-e-diz-que-vai-pedir-anulacao/" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Flávio Bolsonaro perdeu o segundo turno e disse que vai pedir para anular a eleição. Mas por que ele quer isso?",
+      "fundo": "flavio",
+      "fontes": ["CNN Brasil", "InfoMoney"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ANULAR A ELEIÇÃO?", "sub": "O que está em jogo", "posicao": "topo", "em": 0 },
+        { "tipo": "carimbo", "texto": "NÃO RECONHECE", "cor": "vermelho", "em": "perdeu" },
+        { "tipo": "pergunta", "texto": "POR QUÊ?", "posicao": "alto", "em": "por" }
+      ]
+    },
+    {
+      "id": "resultado",
+      "texto": "No domingo, 25 de outubro de 2026, Lula foi reeleito no segundo turno. Flávio disse que não reconhece o resultado.",
+      "fundo": "lula",
+      "fontes": ["CNN Brasil", "InfoMoney"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2º TURNO", "sub": "25 de outubro de 2026", "posicao": "topo", "em": 0 },
+        { "tipo": "tag", "texto": "LULA REELEITO", "icone": "urna", "cor": "verde", "posicao": "alto", "em": "Lula" },
+        { "tipo": "carimbo", "texto": "SEM RECONHECER", "cor": "vermelho", "em": "reconhece" }
+      ]
+    },
+    {
+      "id": "motivo",
+      "texto": "O motivo é uma decisão do ministro do STF Cristiano Zanin. Às 17h01, ele prorrogou a votação até as 19 horas, por problemas de transporte. Flávio diz que isso quebrou a igualdade entre eleitores.",
+      "fundo": "zanin",
+      "fontes": ["CNN Brasil", "InfoMoney"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A DECISÃO DE ZANIN", "sub": "Ministro do STF", "posicao": "topo", "em": 0 },
+        { "tipo": "relogio", "rotulo": "Votação até", "antes": "17h", "depois": "19h", "posicao": "alto", "em": "Às" },
+        { "tipo": "tag", "texto": "TRANSPORTE", "icone": "alerta", "cor": "amarelo", "posicao": "meio", "em": "transporte" },
+        { "tipo": "carimbo", "texto": "QUEBRA DE ISONOMIA", "cor": "vermelho", "em": "igualdade" }
+      ]
+    },
+    {
+      "id": "outro-lado",
+      "texto": "Mas a campanha dele também pediu mais tempo de votação em cidades com chuva. E Zanin disse que a extensão valia só onde as urnas ainda estavam abertas.",
+      "fundo": "urna",
+      "fontes": ["CNN Brasil", "InfoMoney"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O OUTRO LADO", "sub": "O que os fatos mostram", "posicao": "topo", "em": 0 },
+        { "tipo": "check", "ok": true, "texto": "Campanha pediu mais tempo", "nota": "Em cidades com chuva", "posicao": "alto", "em": "campanha" },
+        { "tipo": "check", "ok": true, "texto": "Só urnas abertas", "nota": "Sem reabrir as já fechadas", "posicao": "meio", "em": "Zanin" }
+      ]
+    },
+    {
+      "id": "fiscais",
+      "texto": "Ele diz que fiscais do PL foram retirados da sala-cofre, o que ainda não foi comprovado. Em 2022, o TSE rejeitou pedido parecido e multou a coligação do PL.",
+      "fundo": "tse",
+      "fontes": ["InfoMoney", "TSE 2022"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FISCAIS E 2022", "sub": "Alegação x precedente", "posicao": "topo", "em": 0 },
+        { "tipo": "carimbo", "texto": "NÃO COMPROVADO", "cor": "amarelo", "em": "comprovado" },
+        { "tipo": "linha", "itens": [["2022", "TSE rejeita pedido do PL"], ["2022", "Coligação multada"]], "posicao": "alto", "em": "2022" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Em resumo, ele contesta a prorrogação da votação. Cabe à Justiça decidir. Você acha que a eleição deve ser anulada? Siga para mais.",
+      "fontes": ["CNN Brasil", "InfoMoney"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CABE À JUSTIÇA", "sub": "Em resumo", "posicao": "topo", "em": 0 },
+        { "tipo": "enquete", "pergunta": "Deve anular a eleição?", "opcoes": ["1 - SIM", "2 - NÃO"], "posicao": "alto", "em": "Você" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "posicao": "meio", "em": "Siga" }
+      ]
+    }
+  ]
+}

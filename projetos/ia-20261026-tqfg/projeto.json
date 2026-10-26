@@ -1,25 +1,26 @@
 {
  "versao": 1,
  "id": "ia-20261026-tqfg",
- "titulo": "Porque o Flávio quer anular as eleições?",
+ "titulo": "Por que Flávio quer anular a eleição?",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "padrao",
+ "tema": "oceano",
  "criadoEm": "2026-10-26T13:19:48.165Z",
- "atualizadoEm": "2026-10-26T13:19:48.170Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-26T14:01:15Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
-  "tamanho": 92,
+  "fonte": "poppins",
+  "tamanho": 132,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
   "posicao": 70,
-  "palavrasPorTela": 3,
+  "palavrasPorTela": 1,
   "maiusculas": true,
-  "contorno": 10,
+  "contorno": 12,
   "fundo": "nenhum",
   "animacao": "pop",
-  "mostrar": true
+  "mostrar": true,
+  "modo": "reels"
  },
  "efeitos": {
   "barraProgresso": true,
@@ -30,7 +31,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "epica"
  },
  "pedido": {
   "tema": "Porque o Flávio quer anular as eleições?",
@@ -52,11 +54,1130 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Flávio Bolsonaro perdeu o segundo turno e disse que vai pedir para anular a eleição. Mas por que ele quer isso?",
+   "fundo": "flavio",
+   "fontes": [
+    "CNN Brasil",
+    "InfoMoney"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ANULAR A ELEIÇÃO?",
+     "sub": "O que está em jogo",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO RECONHECE",
+     "cor": "vermelho",
+     "em": "perdeu"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "POR QUÊ?",
+     "posicao": "alto",
+     "em": "por"
+    }
+   ]
+  },
+  {
+   "id": "resultado",
+   "texto": "No domingo, 25 de outubro de 2026, Lula foi reeleito no segundo turno. Flávio disse que não reconhece o resultado.",
+   "fundo": "lula",
+   "fontes": [
+    "CNN Brasil",
+    "InfoMoney"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2º TURNO",
+     "sub": "25 de outubro de 2026",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "tag",
+     "texto": "LULA REELEITO",
+     "icone": "urna",
+     "cor": "verde",
+     "posicao": "alto",
+     "em": "Lula"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "SEM RECONHECER",
+     "cor": "vermelho",
+     "em": "reconhece"
+    }
+   ]
+  },
+  {
+   "id": "motivo",
+   "texto": "O motivo é uma decisão do ministro do STF Cristiano Zanin. Às 17h01, ele prorrogou a votação até as 19 horas, por problemas de transporte. Flávio diz que isso quebrou a igualdade entre eleitores.",
+   "fundo": "zanin",
+   "fontes": [
+    "CNN Brasil",
+    "InfoMoney"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A DECISÃO DE ZANIN",
+     "sub": "Ministro do STF",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "relogio",
+     "rotulo": "Votação até",
+     "antes": "17h",
+     "depois": "19h",
+     "posicao": "alto",
+     "em": "Às"
+    },
+    {
+     "tipo": "tag",
+     "texto": "TRANSPORTE",
+     "icone": "alerta",
+     "cor": "amarelo",
+     "posicao": "meio",
+     "em": "transporte"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "QUEBRA DE ISONOMIA",
+     "cor": "vermelho",
+     "em": "igualdade"
+    }
+   ]
+  },
+  {
+   "id": "outro-lado",
+   "texto": "Mas a campanha dele também pediu mais tempo de votação em cidades com chuva. E Zanin disse que a extensão valia só onde as urnas ainda estavam abertas.",
+   "fundo": "urna",
+   "fontes": [
+    "CNN Brasil",
+    "InfoMoney"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O OUTRO LADO",
+     "sub": "O que os fatos mostram",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Campanha pediu mais tempo",
+     "nota": "Em cidades com chuva",
+     "posicao": "alto",
+     "em": "campanha"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Só urnas abertas",
+     "nota": "Sem reabrir as já fechadas",
+     "posicao": "meio",
+     "em": "Zanin"
+    }
+   ]
+  },
+  {
+   "id": "fiscais",
+   "texto": "Ele diz que fiscais do PL foram retirados da sala-cofre, o que ainda não foi comprovado. Em 2022, o TSE rejeitou pedido parecido e multou a coligação do PL.",
+   "fundo": "tse",
+   "fontes": [
+    "InfoMoney",
+    "TSE 2022"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FISCAIS E 2022",
+     "sub": "Alegação x precedente",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO COMPROVADO",
+     "cor": "amarelo",
+     "em": "comprovado"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2022",
+       "TSE rejeita pedido do PL"
+      ],
+      [
+       "2022",
+       "Coligação multada"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "2022"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Em resumo, ele contesta a prorrogação da votação. Cabe à Justiça decidir. Você acha que a eleição deve ser anulada? Siga para mais.",
+   "fontes": [
+    "CNN Brasil",
+    "InfoMoney"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CABE À JUSTIÇA",
+     "sub": "Em resumo",
+     "posicao": "topo",
+     "em": 0
+    },
+    {
+     "tipo": "enquete",
+     "pergunta": "Deve anular a eleição?",
+     "opcoes": [
+      "1 - SIM",
+      "2 - NÃO"
+     ],
+     "posicao": "alto",
+     "em": "Você"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "posicao": "meio",
+     "em": "Siga"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "6c682cb93e",
+   "texto": "Flávio Bolsonaro perdeu o segundo turno e disse que vai pedir para anular a eleição. Mas por que ele quer isso?",
+   "audio": "audio/gancho-6c682cb93e.mp3",
+   "duracao": 7.392,
+   "palavras": [
+    {
+     "p": "Flávio",
+     "i": 0.098,
+     "f": 0.538
+    },
+    {
+     "p": "Bolsonaro",
+     "i": 0.55,
+     "f": 1.086
+    },
+    {
+     "p": "perdeu",
+     "i": 1.098,
+     "f": 1.455
+    },
+    {
+     "p": "o",
+     "i": 1.467,
+     "f": 1.514
+    },
+    {
+     "p": "segundo",
+     "i": 1.526,
+     "f": 1.955
+    },
+    {
+     "p": "turno",
+     "i": 1.967,
+     "f": 2.264
+    },
+    {
+     "p": "e",
+     "i": 2.276,
+     "f": 2.324
+    },
+    {
+     "p": "disse",
+     "i": 2.336,
+     "f": 2.693
+    },
+    {
+     "p": "que",
+     "i": 2.705,
+     "f": 2.8
+    },
+    {
+     "p": "vai",
+     "i": 2.812,
+     "f": 2.955
+    },
+    {
+     "p": "pedir",
+     "i": 2.967,
+     "f": 3.24
+    },
+    {
+     "p": "para",
+     "i": 3.252,
+     "f": 3.419
+    },
+    {
+     "p": "anular",
+     "i": 3.431,
+     "f": 3.776
+    },
+    {
+     "p": "a",
+     "i": 3.788,
+     "f": 3.848
+    },
+    {
+     "p": "eleição",
+     "i": 3.86,
+     "f": 4.348
+    },
+    {
+     "p": "Mas",
+     "i": 5.167,
+     "f": 5.452
+    },
+    {
+     "p": "por",
+     "i": 5.464,
+     "f": 5.667
+    },
+    {
+     "p": "que",
+     "i": 5.679,
+     "f": 5.845
+    },
+    {
+     "p": "ele",
+     "i": 5.857,
+     "f": 6.024
+    },
+    {
+     "p": "quer",
+     "i": 6.036,
+     "f": 6.214
+    },
+    {
+     "p": "isso",
+     "i": 6.226,
+     "f": 6.548
+    }
+   ]
+  },
+  "resultado": {
+   "hash": "58f9f5cc15",
+   "texto": "No domingo, 25 de outubro de 2026, Lula foi reeleito no segundo turno. Flávio disse que não reconhece o resultado.",
+   "audio": "audio/resultado-58f9f5cc15.mp3",
+   "duracao": 9.504,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.098,
+     "f": 0.264
+    },
+    {
+     "p": "domingo",
+     "i": 0.276,
+     "f": 0.681
+    },
+    {
+     "p": "25 de outubro de 2026",
+     "i": 1.026,
+     "f": 3.217
+    },
+    {
+     "p": "Lula",
+     "i": 3.479,
+     "f": 3.824
+    },
+    {
+     "p": "foi",
+     "i": 3.836,
+     "f": 3.967
+    },
+    {
+     "p": "reeleito",
+     "i": 3.979,
+     "f": 4.467
+    },
+    {
+     "p": "no",
+     "i": 4.479,
+     "f": 4.574
+    },
+    {
+     "p": "segundo",
+     "i": 4.586,
+     "f": 5.086
+    },
+    {
+     "p": "turno",
+     "i": 5.098,
+     "f": 5.479
+    },
+    {
+     "p": "Flávio",
+     "i": 6.298,
+     "f": 6.762
+    },
+    {
+     "p": "disse",
+     "i": 6.774,
+     "f": 7.119
+    },
+    {
+     "p": "que",
+     "i": 7.131,
+     "f": 7.226
+    },
+    {
+     "p": "não",
+     "i": 7.238,
+     "f": 7.405
+    },
+    {
+     "p": "reconhece",
+     "i": 7.417,
+     "f": 8
+    },
+    {
+     "p": "o",
+     "i": 8.012,
+     "f": 8.036
+    },
+    {
+     "p": "resultado",
+     "i": 8.048,
+     "f": 8.667
+    }
+   ]
+  },
+  "motivo": {
+   "hash": "5f5f70f0e7",
+   "texto": "O motivo é uma decisão do ministro do STF Cristiano Zanin. Às 17h01, ele prorrogou a votação até as 19 horas, por problemas de transporte. Flávio diz que isso quebrou a igualdade entre eleitores.",
+   "audio": "audio/motivo-5f5f70f0e7.mp3",
+   "duracao": 14.616,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.169
+    },
+    {
+     "p": "motivo",
+     "i": 0.181,
+     "f": 0.681
+    },
+    {
+     "p": "é",
+     "i": 0.693,
+     "f": 0.729
+    },
+    {
+     "p": "uma",
+     "i": 0.74,
+     "f": 0.871
+    },
+    {
+     "p": "decisão",
+     "i": 0.883,
+     "f": 1.288
+    },
+    {
+     "p": "do",
+     "i": 1.3,
+     "f": 1.383
+    },
+    {
+     "p": "ministro",
+     "i": 1.395,
+     "f": 1.86
+    },
+    {
+     "p": "do",
+     "i": 1.871,
+     "f": 1.99
+    },
+    {
+     "p": "STF",
+     "i": 2.002,
+     "f": 2.669
+    },
+    {
+     "p": "Cristiano",
+     "i": 2.681,
+     "f": 3.145
+    },
+    {
+     "p": "Zanin",
+     "i": 3.157,
+     "f": 3.526
+    },
+    {
+     "p": "Às",
+     "i": 4.345,
+     "f": 4.536
+    },
+    {
+     "p": "17h01",
+     "i": 4.548,
+     "f": 5.726
+    },
+    {
+     "p": "ele",
+     "i": 6.024,
+     "f": 6.155
+    },
+    {
+     "p": "prorrogou",
+     "i": 6.167,
+     "f": 6.595
+    },
+    {
+     "p": "a",
+     "i": 6.607,
+     "f": 6.655
+    },
+    {
+     "p": "votação",
+     "i": 6.667,
+     "f": 7.155
+    },
+    {
+     "p": "até",
+     "i": 7.167,
+     "f": 7.417
+    },
+    {
+     "p": "as",
+     "i": 7.429,
+     "f": 7.524
+    },
+    {
+     "p": "19 horas",
+     "i": 7.536,
+     "f": 8.405
+    },
+    {
+     "p": "por",
+     "i": 8.619,
+     "f": 8.762
+    },
+    {
+     "p": "problemas",
+     "i": 8.774,
+     "f": 9.286
+    },
+    {
+     "p": "de",
+     "i": 9.298,
+     "f": 9.393
+    },
+    {
+     "p": "transporte",
+     "i": 9.405,
+     "f": 10.036
+    },
+    {
+     "p": "Flávio",
+     "i": 10.857,
+     "f": 11.321
+    },
+    {
+     "p": "diz",
+     "i": 11.333,
+     "f": 11.595
+    },
+    {
+     "p": "que",
+     "i": 11.607,
+     "f": 11.726
+    },
+    {
+     "p": "isso",
+     "i": 11.738,
+     "f": 11.94
+    },
+    {
+     "p": "quebrou",
+     "i": 11.952,
+     "f": 12.274
+    },
+    {
+     "p": "a",
+     "i": 12.286,
+     "f": 12.321
+    },
+    {
+     "p": "igualdade",
+     "i": 12.333,
+     "f": 12.881
+    },
+    {
+     "p": "entre",
+     "i": 12.893,
+     "f": 13.119
+    },
+    {
+     "p": "eleitores",
+     "i": 13.131,
+     "f": 13.774
+    }
+   ]
+  },
+  "outro-lado": {
+   "hash": "1307194595",
+   "texto": "Mas a campanha dele também pediu mais tempo de votação em cidades com chuva. E Zanin disse que a extensão valia só onde as urnas ainda estavam abertas.",
+   "audio": "audio/outro-lado-1307194595.mp3",
+   "duracao": 9.648,
+   "palavras": [
+    {
+     "p": "Mas",
+     "i": 0.098,
+     "f": 0.276
+    },
+    {
+     "p": "a",
+     "i": 0.288,
+     "f": 0.395
+    },
+    {
+     "p": "campanha",
+     "i": 0.407,
+     "f": 0.883
+    },
+    {
+     "p": "dele",
+     "i": 0.895,
+     "f": 1.145
+    },
+    {
+     "p": "também",
+     "i": 1.157,
+     "f": 1.467
+    },
+    {
+     "p": "pediu",
+     "i": 1.479,
+     "f": 1.729
+    },
+    {
+     "p": "mais",
+     "i": 1.74,
+     "f": 2.014
+    },
+    {
+     "p": "tempo",
+     "i": 2.026,
+     "f": 2.324
+    },
+    {
+     "p": "de",
+     "i": 2.336,
+     "f": 2.407
+    },
+    {
+     "p": "votação",
+     "i": 2.419,
+     "f": 2.931
+    },
+    {
+     "p": "em",
+     "i": 2.943,
+     "f": 2.99
+    },
+    {
+     "p": "cidades",
+     "i": 3.002,
+     "f": 3.455
+    },
+    {
+     "p": "com",
+     "i": 3.467,
+     "f": 3.645
+    },
+    {
+     "p": "chuva",
+     "i": 3.657,
+     "f": 4.074
+    },
+    {
+     "p": "E",
+     "i": 4.893,
+     "f": 4.988
+    },
+    {
+     "p": "Zanin",
+     "i": 5,
+     "f": 5.31
+    },
+    {
+     "p": "disse",
+     "i": 5.321,
+     "f": 5.702
+    },
+    {
+     "p": "que",
+     "i": 5.714,
+     "f": 5.774
+    },
+    {
+     "p": "a",
+     "i": 5.786,
+     "f": 5.809
+    },
+    {
+     "p": "extensão",
+     "i": 5.821,
+     "f": 6.309
+    },
+    {
+     "p": "valia",
+     "i": 6.321,
+     "f": 6.69
+    },
+    {
+     "p": "só",
+     "i": 6.702,
+     "f": 6.893
+    },
+    {
+     "p": "onde",
+     "i": 6.905,
+     "f": 7.119
+    },
+    {
+     "p": "as",
+     "i": 7.131,
+     "f": 7.179
+    },
+    {
+     "p": "urnas",
+     "i": 7.19,
+     "f": 7.512
+    },
+    {
+     "p": "ainda",
+     "i": 7.524,
+     "f": 7.821
+    },
+    {
+     "p": "estavam",
+     "i": 7.833,
+     "f": 8.214
+    },
+    {
+     "p": "abertas",
+     "i": 8.226,
+     "f": 8.821
+    }
+   ]
+  },
+  "fiscais": {
+   "hash": "da79098f95",
+   "texto": "Ele diz que fiscais do PL foram retirados da sala-cofre, o que ainda não foi comprovado. Em 2022, o TSE rejeitou pedido parecido e multou a coligação do PL.",
+   "audio": "audio/fiscais-da79098f95.mp3",
+   "duracao": 11.856,
+   "palavras": [
+    {
+     "p": "Ele",
+     "i": 0.098,
+     "f": 0.312
+    },
+    {
+     "p": "diz",
+     "i": 0.324,
+     "f": 0.562
+    },
+    {
+     "p": "que",
+     "i": 0.574,
+     "f": 0.669
+    },
+    {
+     "p": "fiscais",
+     "i": 0.681,
+     "f": 1.145
+    },
+    {
+     "p": "do",
+     "i": 1.157,
+     "f": 1.252
+    },
+    {
+     "p": "PL",
+     "i": 1.264,
+     "f": 1.645
+    },
+    {
+     "p": "foram",
+     "i": 1.657,
+     "f": 1.859
+    },
+    {
+     "p": "retirados",
+     "i": 1.871,
+     "f": 2.443
+    },
+    {
+     "p": "da",
+     "i": 2.455,
+     "f": 2.562
+    },
+    {
+     "p": "sala-cofre",
+     "i": 2.574,
+     "f": 3.264
+    },
+    {
+     "p": "o",
+     "i": 3.574,
+     "f": 3.669
+    },
+    {
+     "p": "que",
+     "i": 3.681,
+     "f": 3.824
+    },
+    {
+     "p": "ainda",
+     "i": 3.836,
+     "f": 4.157
+    },
+    {
+     "p": "não",
+     "i": 4.169,
+     "f": 4.395
+    },
+    {
+     "p": "foi",
+     "i": 4.407,
+     "f": 4.574
+    },
+    {
+     "p": "comprovado",
+     "i": 4.586,
+     "f": 5.205
+    },
+    {
+     "p": "Em 2022",
+     "i": 6.024,
+     "f": 7.095
+    },
+    {
+     "p": "o",
+     "i": 7.393,
+     "f": 7.488
+    },
+    {
+     "p": "TSE",
+     "i": 7.5,
+     "f": 8
+    },
+    {
+     "p": "rejeitou",
+     "i": 8.012,
+     "f": 8.488
+    },
+    {
+     "p": "pedido",
+     "i": 8.5,
+     "f": 8.845
+    },
+    {
+     "p": "parecido",
+     "i": 8.857,
+     "f": 9.405
+    },
+    {
+     "p": "e",
+     "i": 9.417,
+     "f": 9.44
+    },
+    {
+     "p": "multou",
+     "i": 9.452,
+     "f": 9.821
+    },
+    {
+     "p": "a",
+     "i": 9.833,
+     "f": 9.881
+    },
+    {
+     "p": "coligação",
+     "i": 9.893,
+     "f": 10.464
+    },
+    {
+     "p": "do",
+     "i": 10.476,
+     "f": 10.583
+    },
+    {
+     "p": "PL",
+     "i": 10.595,
+     "f": 11.024
+    }
+   ]
+  },
+  "final": {
+   "hash": "7d3ed14ad0",
+   "texto": "Em resumo, ele contesta a prorrogação da votação. Cabe à Justiça decidir. Você acha que a eleição deve ser anulada? Siga para mais.",
+   "audio": "audio/final-7d3ed14ad0.mp3",
+   "duracao": 10.656,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.098,
+     "f": 0.229
+    },
+    {
+     "p": "resumo",
+     "i": 0.24,
+     "f": 0.752
+    },
+    {
+     "p": "ele",
+     "i": 0.979,
+     "f": 1.121
+    },
+    {
+     "p": "contesta",
+     "i": 1.133,
+     "f": 1.645
+    },
+    {
+     "p": "a",
+     "i": 1.657,
+     "f": 1.681
+    },
+    {
+     "p": "prorrogação",
+     "i": 1.693,
+     "f": 2.229
+    },
+    {
+     "p": "da",
+     "i": 2.24,
+     "f": 2.348
+    },
+    {
+     "p": "votação",
+     "i": 2.36,
+     "f": 2.919
+    },
+    {
+     "p": "Cabe",
+     "i": 3.738,
+     "f": 4
+    },
+    {
+     "p": "à",
+     "i": 4.012,
+     "f": 4.071
+    },
+    {
+     "p": "Justiça",
+     "i": 4.083,
+     "f": 4.583
+    },
+    {
+     "p": "decidir",
+     "i": 4.595,
+     "f": 5.036
+    },
+    {
+     "p": "Você",
+     "i": 5.857,
+     "f": 6.179
+    },
+    {
+     "p": "acha",
+     "i": 6.19,
+     "f": 6.488
+    },
+    {
+     "p": "que",
+     "i": 6.5,
+     "f": 6.56
+    },
+    {
+     "p": "a",
+     "i": 6.571,
+     "f": 6.595
+    },
+    {
+     "p": "eleição",
+     "i": 6.607,
+     "f": 7.012
+    },
+    {
+     "p": "deve",
+     "i": 7.024,
+     "f": 7.25
+    },
+    {
+     "p": "ser",
+     "i": 7.262,
+     "f": 7.405
+    },
+    {
+     "p": "anulada",
+     "i": 7.417,
+     "f": 7.929
+    },
+    {
+     "p": "Siga",
+     "i": 8.75,
+     "f": 9.167
+    },
+    {
+     "p": "para",
+     "i": 9.179,
+     "f": 9.381
+    },
+    {
+     "p": "mais",
+     "i": 9.393,
+     "f": 9.821
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "flavio": {
+   "arquivo": "imagens/flavio-083f8bfe.jpg",
+   "rotulo": "Flávio Bolsonaro",
+   "wiki": "Flávio Bolsonaro",
+   "commons": "Flávio Bolsonaro senador",
+   "autor": "Agência Senado",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_(v._AgSen)_(3x4).jpg",
+   "titulo": "File:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg",
+   "largura": 1082,
+   "altura": 1441,
+   "rostos": 2,
+   "foco": {
+    "x": 55.0,
+    "y": 35.8
+   },
+   "borrada": "imagens/flavio-083f8bfe-b.jpg"
+  },
+  "lula": {
+   "arquivo": "imagens/lula-15ce061d.jpg",
+   "rotulo": "Luiz Inácio Lula da Silva",
+   "wiki": "Luiz Inácio Lula da Silva",
+   "commons": "Lula presidente",
+   "autor": "Ricardo Stuckert/PR",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(ombros)_denoise.jpg",
+   "titulo": "File:Foto oficial de Luiz Inácio Lula da Silva (ombros) denoise.jpg",
+   "largura": 1280,
+   "altura": 1638,
+   "rostos": 2,
+   "foco": {
+    "x": 45.4,
+    "y": 31.2
+   },
+   "borrada": "imagens/lula-15ce061d-b.jpg"
+  },
+  "zanin": {
+   "arquivo": "imagens/zanin-c4102d22.jpg",
+   "rotulo": "Cristiano Zanin",
+   "wiki": "Cristiano Zanin",
+   "commons": "Cristiano Zanin ministro STF",
+   "autor": "Vice-Presidência da República",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cristiano_Zanin_(cropped).jpg",
+   "titulo": "File:Cristiano Zanin (cropped).jpg",
+   "largura": 1280,
+   "altura": 1916,
+   "rostos": 2,
+   "foco": {
+    "x": 46.6,
+    "y": 33.7
+   },
+   "borrada": "imagens/zanin-c4102d22-b.jpg"
+  },
+  "urna": {
+   "arquivo": "imagens/urna-3749e00d.jpg",
+   "rotulo": "Urna eletrônica",
+   "wiki": "Urna eletrônica brasileira",
+   "commons": "urna eletrônica",
+   "autor": "TSE - Tribunal Superior Eleitoral",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Urna_eletr%C3%B4nica_brasileira_UE2020.jpg",
+   "titulo": "File:Urna eletrônica brasileira UE2020.jpg",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 60.8
+   },
+   "borrada": "imagens/urna-3749e00d-b.jpg"
+  },
+  "tse": {
+   "arquivo": "imagens/tse-9fd65559.jpg",
+   "rotulo": "Sede do TSE",
+   "wiki": "Tribunal Superior Eleitoral",
+   "commons": "Tribunal Superior Eleitoral sede Brasília",
+   "autor": "Tribunal Superior Eleitoral",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tribunal_Superior_Eleitoral.png",
+   "titulo": "File:Tribunal Superior Eleitoral.png",
+   "largura": 1280,
+   "altura": 591,
+   "rostos": 0,
+   "foco": {
+    "x": 34.0,
+    "y": 60.7
+   },
+   "borrada": "imagens/tse-9fd65559-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-26T13:19:48.165Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "CNN Brasil — Flávio não reconhece vitória de Lula e diz que pedirá anulação",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/"
+  },
+  {
+   "titulo": "InfoMoney — Flávio não reconhece resultado e diz que pedirá anulação ao TSE",
+   "url": "https://www.infomoney.com.br/politica/flavio-nao-reconhece-resultado-da-eleicao-e-diz-que-pedira-anulacao-ao-tse/"
+  },
+  {
+   "titulo": "Gazeta do Povo — Flávio Bolsonaro diz que não reconhece resultado",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-pronunciamento-anulacao-eleicao/"
+  },
+  {
+   "titulo": "Conjur — Flávio anuncia que vai tentar anulação do resultado",
+   "url": "https://conjur.com.br/2026-out-25/derrotado-flavio-bolsonaro-critica-zanin-e-diz-que-vai-pedir-anulacao/"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "energetica",
+  "legenda": "palavra",
+  "transicao": "zoom",
+  "fundo": "raios",
+  "formato": "explicativo"
  }
 }
