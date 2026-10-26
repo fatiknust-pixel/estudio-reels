@@ -269,6 +269,15 @@ export const trazerResultado = async (atual: Projeto): Promise<Projeto> => {
 // ---------- arquivos (áudio, imagens, vídeo) para a prévia ----------
 const urls = new Map<string, string>();
 
+// O GitHub entrega os arquivos como application/octet-stream. O Safari do iPhone não toca áudio/vídeo de um blob sem
+// o tipo certo (a prévia ficava muda), então o tipo vem da extensão.
+const TIPOS: Record<string, string> = { mp3: "audio/mpeg", m4a: "audio/mp4", wav: "audio/wav", mp4: "video/mp4", mov: "video/quicktime", jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "image/webp" };
+const comTipo = (b: Blob, caminho: string) => {
+  const tipo = TIPOS[caminho.split(".").pop()?.toLowerCase() ?? ""];
+  if (!tipo || b.type === tipo || (tipo.startsWith("video/") && b.type.startsWith("video/"))) return b;
+  return new Blob([b], { type: tipo });
+};
+
 const urlDe = async (id: string, caminho: string, doGitHub = true): Promise<string | null> => {
   const chave = `${id}/${caminho}`;
   if (urls.has(chave)) return urls.get(chave)!;
@@ -282,7 +291,7 @@ const urlDe = async (id: string, caminho: string, doGitHub = true): Promise<stri
     }
   }
   if (!b) return null;
-  const u = URL.createObjectURL(b);
+  const u = URL.createObjectURL(comTipo(b, caminho));
   urls.set(chave, u);
   return u;
 };
