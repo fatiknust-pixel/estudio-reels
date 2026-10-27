@@ -1,0 +1,62 @@
+{
+ "versao": 1,
+ "id": "ia-20261027-x1z3",
+ "titulo": "Como funciona a delação premiada",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "padrao",
+ "criadoEm": "2026-10-27T08:36:13.884Z",
+ "atualizadoEm": "2026-10-27T08:36:13.890Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Como funciona a delação premiada",
+  "tom": "Polêmico, mas factual",
+  "duracao": 90,
+  "estilo": {
+   "dinamica": "auto",
+   "legenda": "auto",
+   "transicao": "auto",
+   "fundo": "auto",
+   "musica": "auto",
+   "formato": "auto",
+   "fonte": "auto",
+   "paleta": "auto"
+  }
+ },
+ "formato": "9:16",
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-27T08:36:13.884Z"
+ }
+}
