@@ -4,6 +4,7 @@ import { AbsoluteFill, Audio, Easing, getRemotionEnvironment, interpolate, Offth
 import { arquivoGlobal } from "./arquivos";
 import { useVideo } from "./contexto";
 import { Fundo } from "./componentes/Fundo";
+import { AjusteMargem, MARGEM_TELA } from "./componentes/AjusteMargem";
 import { FPS } from "./linhaTempo";
 
 // Escala do zoom no frame atual (zooms em tempo do conteúdo)
@@ -80,10 +81,12 @@ const TextoGancho: React.FC<{ texto: string; dur: number }> = ({ texto, dur }) =
   const m = spring({ frame: f, fps: FPS, config: { damping: 10, stiffness: 170, mass: 0.7 } });
   const saida = interpolate(f, [dur - 6, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <AbsoluteFill style={{ top: 250, bottom: "auto", alignItems: "center", opacity: saida }}>
+    <AbsoluteFill style={{ top: 250, bottom: "auto", left: MARGEM_TELA, right: MARGEM_TELA, width: "auto", alignItems: "center", opacity: saida }}>
+     <AjusteMargem>
       <div style={{ maxWidth: 940, transform: `scale(${m}) rotate(-2deg)`, background: tema.destaque, color: "#111", fontFamily: "Montserrat, Arial", fontWeight: 900, fontSize: 78, lineHeight: 1.05, textAlign: "center", textTransform: "uppercase", padding: "18px 34px", borderRadius: 18, boxShadow: "0 20px 60px rgba(0,0,0,.5)" }}>
         {texto}
       </div>
+     </AjusteMargem>
     </AbsoluteFill>
   );
 };

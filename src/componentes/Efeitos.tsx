@@ -7,6 +7,7 @@ import { corDe, useQuadro, useVideo } from "../contexto";
 import { FONTE } from "../fontes";
 import { FPS } from "../linhaTempo";
 import CATALOGO from "../estilos-ia.json";
+import { AjusteMargem, MARGEM_TELA } from "./AjusteMargem";
 
 // Trilhas de fundo (efeitos.musica)
 export const ARQUIVO_MUSICA: Record<string, string> = Object.fromEntries(
@@ -37,7 +38,8 @@ const TituloTela: React.FC<{ texto: string; sub?: string; posicao: number; cor?:
   const escuro = /^#(F|E|D)/i.test(c);
   const { altura } = useQuadro();
   return (
-    <AbsoluteFill style={{ top: (posicao / 100) * altura - 80, bottom: "auto", alignItems: "center", opacity: saida }}>
+    <AbsoluteFill style={{ top: (posicao / 100) * altura - 80, bottom: "auto", left: MARGEM_TELA, right: MARGEM_TELA, width: "auto", alignItems: "center", opacity: saida }}>
+     <AjusteMargem>
       <div style={{ transform: `skewX(-8deg) scaleX(${m})`, background: c, padding: "14px 40px", borderRadius: 14, boxShadow: `0 0 60px ${c}66`, maxWidth: 980 }}>
         <div style={{ transform: "skewX(8deg)", fontFamily: FONTE, fontWeight: 900, fontSize: 72, color: escuro ? "#111" : "#fff", letterSpacing: -1, textAlign: "center", lineHeight: 1.05, opacity: m }}>
           {texto}
@@ -48,6 +50,7 @@ const TituloTela: React.FC<{ texto: string; sub?: string; posicao: number; cor?:
           {sub}
         </div>
       )}
+     </AjusteMargem>
     </AbsoluteFill>
   );
 };

@@ -7,6 +7,7 @@ import { FONTE, POSICAO } from "../fontes";
 import { Icone } from "./Icone";
 import { ajusteElemento } from "./Dinamica";
 import { FotoEnquadrada } from "../foto";
+import { AjusteMargem, MARGEM_TELA } from "./AjusteMargem";
 
 const useMola = (atraso = 0, config = { damping: 13, stiffness: 140, mass: 0.8 }) => {
   const f = useCurrentFrame();
@@ -377,8 +378,10 @@ export const Elemento: React.FC<{ e: ElementoTempo }> = ({ e }) => {
   if (!C) return null;
   const saida = interpolate(f, [dur - 7, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <AbsoluteFill style={{ top: POSICAO[e.posicao ?? "alto"] ?? POSICAO.alto, bottom: "auto", alignItems: "center", opacity: saida, transform: `translateY(${(1 - saida) * -40}px) scale(${0.9 + 0.1 * saida})`, ...ajusteElemento(dinamica, e.indice) }}>
-      <C e={e} />
+    <AbsoluteFill style={{ top: POSICAO[e.posicao ?? "alto"] ?? POSICAO.alto, bottom: "auto", left: MARGEM_TELA, right: MARGEM_TELA, width: "auto", alignItems: "center", opacity: saida, transform: `translateY(${(1 - saida) * -40}px) scale(${0.9 + 0.1 * saida})`, ...ajusteElemento(dinamica, e.indice) }}>
+      <AjusteMargem>
+        <C e={e} />
+      </AjusteMargem>
     </AbsoluteFill>
   );
 };
