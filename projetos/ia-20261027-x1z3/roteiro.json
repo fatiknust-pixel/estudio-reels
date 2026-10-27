@@ -1,0 +1,84 @@
+{
+  "titulo": "Como funciona a delação premiada",
+  "estilo": { "dinamica": "cinema", "legenda": "karaoke", "transicao": "circulo", "fundo": "limpo",
+              "musica": "tensao", "formato": "lista", "fonte": "playfair", "paleta": "documentario" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Planalto — Lei 12.850/2013 (organizações criminosas e colaboração premiada)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm" },
+    { "titulo": "Planalto — Lei 13.964/2019 (pacote anticrime)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13964.htm" },
+    { "titulo": "ConJur — O instituto da colaboração premiada", "url": "https://www.conjur.com.br/2024-fev-12/o-instituto-da-colaboracao-premiada-e-o-habeas-corpus/" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Um criminoso confessa o crime, entrega os comparsas e ainda pode sair com a pena reduzida. Isso é legal? Sim. É a delação premiada, e funciona assim.",
+      "fundo": "algemas",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "ISSO É LEGAL?", "em": "legal", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "SIM", "cor": "verde", "em": "Sim", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "lei",
+      "texto": "O nome oficial é colaboração premiada. Está na Lei 12.850, de 2013, a lei das organizações criminosas, e foi reformulada em 2019 pelo pacote anticrime.",
+      "fundo": "congresso",
+      "fontes": ["Lei 12.850/2013", "Lei 13.964/2019"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "LEI 12.850/2013", "sub": "Reformada em 2019", "em": "Lei", "posicao": "topo" },
+        { "tipo": "linha", "itens": [["2013", "Lei 12.850"], ["2019", "Pacote anticrime"]], "em": "reformulada", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "acordo",
+      "texto": "O acordo é feito entre o investigado, com advogado, e o Ministério Público ou a polícia. Em troca, ele precisa entregar resultados: apontar os outros envolvidos, revelar como o grupo funciona ou recuperar o dinheiro desviado.",
+      "fundo": "mpf",
+      "fontes": ["Lei 12.850/2013"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMO É O ACORDO", "em": "acordo", "posicao": "topo" },
+        { "tipo": "icones", "itens": [["pessoa", "Investigado"], ["seta", ""], ["balanca", "MP ou polícia"]], "em": "investigado", "posicao": "alto" },
+        { "tipo": "tag", "texto": "ENTREGAR RESULTADOS", "icone": "alvo", "em": "resultados", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "premio",
+      "texto": "O prêmio pode ser perdão judicial, redução da pena em até dois terços, ou troca por pena restritiva de direitos. Quem decide, no fim, é o juiz, que também precisa homologar o acordo.",
+      "fundo": "stf",
+      "fontes": ["Lei 12.850/2013, art. 4º"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 66, "unidade": "%", "rotulo": "REDUÇÃO MÁXIMA DA PENA (2/3)", "em": "redução", "posicao": "alto" },
+        { "tipo": "tag", "texto": "JUIZ HOMOLOGA", "icone": "martelo", "em": "homologar", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "limite",
+      "texto": "Mas aqui vem a polêmica. A palavra do delator, sozinha, não condena ninguém. A lei exige provas que confirmem o que ele disse, como documentos, quebras de sigilo ou outras testemunhas. E o delatado tem direito de responder por último.",
+      "fundo": "provas",
+      "fontes": ["Lei 12.850/2013, art. 4º"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SÓ A PALAVRA NÃO BASTA", "em": "polêmica", "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "NÃO CONDENA", "cor": "vermelho", "em": "condena", "posicao": "alto" },
+        { "tipo": "check", "ok": true, "texto": "PRECISA DE PROVA", "nota": "Documentos, sigilos, testemunhas", "em": "provas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "critica",
+      "texto": "Críticos dizem que a prisão preventiva pode pressionar o investigado a delatar. Defensores respondem que o acordo é voluntário e só rende frutos com prova que confirme. Por isso o juiz checa a voluntariedade antes de homologar.",
+      "fundo": "prisao",
+      "fontes": ["Lei 12.850/2013"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O DEBATE", "sub": "Críticos × defensores", "em": "Críticos", "posicao": "topo" },
+        { "tipo": "tag", "texto": "ACORDO VOLUNTÁRIO", "icone": "check", "em": "voluntário", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumindo: delação é uma troca, informação por redução de pena, mas sem prova que confirme, não condena. Na sua opinião, a delação premiada ajuda a combater o crime? Comenta 1 ou 2 e segue para mais.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "enquete", "pergunta": "A delação ajuda a combater o crime?", "opcoes": ["1 - SIM", "2 - NÃO"], "em": "opinião", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "segue", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

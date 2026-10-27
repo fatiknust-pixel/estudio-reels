@@ -4,12 +4,12 @@
  "titulo": "Como funciona a delação premiada",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "padrao",
+ "tema": "documentario",
  "criadoEm": "2026-10-27T08:36:13.884Z",
- "atualizadoEm": "2026-10-27T08:36:13.890Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-27T08:39:13Z",
+ "status": "pronto",
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "playfair",
   "tamanho": 92,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -19,7 +19,8 @@
   "contorno": 10,
   "fundo": "nenhum",
   "animacao": "pop",
-  "mostrar": true
+  "mostrar": true,
+  "modo": "reels"
  },
  "efeitos": {
   "barraProgresso": true,
@@ -30,7 +31,8 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "tensao"
  },
  "pedido": {
   "tema": "Como funciona a delação premiada",
@@ -52,11 +54,1553 @@
   "edge": "pt-BR-AntonioNeural",
   "velocidade": "+5%"
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Um criminoso confessa o crime, entrega os comparsas e ainda pode sair com a pena reduzida. Isso é legal? Sim. É a delação premiada, e funciona assim.",
+   "fundo": "algemas",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "ISSO É LEGAL?",
+     "em": "legal",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "SIM",
+     "cor": "verde",
+     "em": "Sim",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "lei",
+   "texto": "O nome oficial é colaboração premiada. Está na Lei 12.850, de 2013, a lei das organizações criminosas, e foi reformulada em 2019 pelo pacote anticrime.",
+   "fundo": "congresso",
+   "fontes": [
+    "Lei 12.850/2013",
+    "Lei 13.964/2019"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "LEI 12.850/2013",
+     "sub": "Reformada em 2019",
+     "em": "Lei",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2013",
+       "Lei 12.850"
+      ],
+      [
+       "2019",
+       "Pacote anticrime"
+      ]
+     ],
+     "em": "reformulada",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "acordo",
+   "texto": "O acordo é feito entre o investigado, com advogado, e o Ministério Público ou a polícia. Em troca, ele precisa entregar resultados: apontar os outros envolvidos, revelar como o grupo funciona ou recuperar o dinheiro desviado.",
+   "fundo": "mpf",
+   "fontes": [
+    "Lei 12.850/2013"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO É O ACORDO",
+     "em": "acordo",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pessoa",
+       "Investigado"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "balanca",
+       "MP ou polícia"
+      ]
+     ],
+     "em": "investigado",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ENTREGAR RESULTADOS",
+     "icone": "alvo",
+     "em": "resultados",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "premio",
+   "texto": "O prêmio pode ser perdão judicial, redução da pena em até dois terços, ou troca por pena restritiva de direitos. Quem decide, no fim, é o juiz, que também precisa homologar o acordo.",
+   "fundo": "stf",
+   "fontes": [
+    "Lei 12.850/2013, art. 4º"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 66,
+     "unidade": "%",
+     "rotulo": "REDUÇÃO MÁXIMA DA PENA (2/3)",
+     "em": "redução",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "tag",
+     "texto": "JUIZ HOMOLOGA",
+     "icone": "martelo",
+     "em": "homologar",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "limite",
+   "texto": "Mas aqui vem a polêmica. A palavra do delator, sozinha, não condena ninguém. A lei exige provas que confirmem o que ele disse, como documentos, quebras de sigilo ou outras testemunhas. E o delatado tem direito de responder por último.",
+   "fundo": "provas",
+   "fontes": [
+    "Lei 12.850/2013, art. 4º"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SÓ A PALAVRA NÃO BASTA",
+     "em": "polêmica",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "NÃO CONDENA",
+     "cor": "vermelho",
+     "em": "condena",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "PRECISA DE PROVA",
+     "nota": "Documentos, sigilos, testemunhas",
+     "em": "provas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "critica",
+   "texto": "Críticos dizem que a prisão preventiva pode pressionar o investigado a delatar. Defensores respondem que o acordo é voluntário e só rende frutos com prova que confirme. Por isso o juiz checa a voluntariedade antes de homologar.",
+   "fundo": "prisao",
+   "fontes": [
+    "Lei 12.850/2013"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O DEBATE",
+     "sub": "Críticos × defensores",
+     "em": "Críticos",
+     "posicao": "topo"
+    },
+    {
+     "tipo": "tag",
+     "texto": "ACORDO VOLUNTÁRIO",
+     "icone": "check",
+     "em": "voluntário",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Resumindo: delação é uma troca, informação por redução de pena, mas sem prova que confirme, não condena. Na sua opinião, a delação premiada ajuda a combater o crime? Comenta 1 ou 2 e segue para mais.",
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "enquete",
+     "pergunta": "A delação ajuda a combater o crime?",
+     "opcoes": [
+      "1 - SIM",
+      "2 - NÃO"
+     ],
+     "em": "opinião",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "SIGA PARA MAIS",
+     "em": "segue",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "8a3d1eb063",
+   "texto": "Um criminoso confessa o crime, entrega os comparsas e ainda pode sair com a pena reduzida. Isso é legal? Sim. É a delação premiada, e funciona assim.",
+   "audio": "audio/gancho-8a3d1eb063.mp3",
+   "duracao": 12,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.098,
+     "f": 0.252
+    },
+    {
+     "p": "criminoso",
+     "i": 0.264,
+     "f": 0.824
+    },
+    {
+     "p": "confessa",
+     "i": 0.836,
+     "f": 1.3
+    },
+    {
+     "p": "o",
+     "i": 1.312,
+     "f": 1.348
+    },
+    {
+     "p": "crime",
+     "i": 1.36,
+     "f": 1.681
+    },
+    {
+     "p": "entrega",
+     "i": 1.907,
+     "f": 2.312
+    },
+    {
+     "p": "os",
+     "i": 2.324,
+     "f": 2.395
+    },
+    {
+     "p": "comparsas",
+     "i": 2.407,
+     "f": 2.955
+    },
+    {
+     "p": "e",
+     "i": 2.967,
+     "f": 3.062
+    },
+    {
+     "p": "ainda",
+     "i": 3.074,
+     "f": 3.359
+    },
+    {
+     "p": "pode",
+     "i": 3.371,
+     "f": 3.609
+    },
+    {
+     "p": "sair",
+     "i": 3.621,
+     "f": 3.979
+    },
+    {
+     "p": "com",
+     "i": 3.99,
+     "f": 4.157
+    },
+    {
+     "p": "a",
+     "i": 4.169,
+     "f": 4.217
+    },
+    {
+     "p": "pena",
+     "i": 4.229,
+     "f": 4.49
+    },
+    {
+     "p": "reduzida",
+     "i": 4.502,
+     "f": 5.109
+    },
+    {
+     "p": "Isso",
+     "i": 5.929,
+     "f": 6.238
+    },
+    {
+     "p": "é",
+     "i": 6.25,
+     "f": 6.274
+    },
+    {
+     "p": "legal",
+     "i": 6.286,
+     "f": 6.714
+    },
+    {
+     "p": "Sim",
+     "i": 7.536,
+     "f": 7.94
+    },
+    {
+     "p": "É",
+     "i": 8.762,
+     "f": 8.905
+    },
+    {
+     "p": "a",
+     "i": 8.917,
+     "f": 8.952
+    },
+    {
+     "p": "delação",
+     "i": 8.964,
+     "f": 9.393
+    },
+    {
+     "p": "premiada",
+     "i": 9.405,
+     "f": 9.94
+    },
+    {
+     "p": "e",
+     "i": 10.143,
+     "f": 10.25
+    },
+    {
+     "p": "funciona",
+     "i": 10.262,
+     "f": 10.821
+    },
+    {
+     "p": "assim",
+     "i": 10.833,
+     "f": 11.179
+    }
+   ]
+  },
+  "lei": {
+   "hash": "dd447b4ccb",
+   "texto": "O nome oficial é colaboração premiada. Está na Lei 12.850, de 2013, a lei das organizações criminosas, e foi reformulada em 2019 pelo pacote anticrime.",
+   "audio": "audio/lei-dd447b4ccb.mp3",
+   "duracao": 12.936,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.205
+    },
+    {
+     "p": "nome",
+     "i": 0.217,
+     "f": 0.502
+    },
+    {
+     "p": "oficial",
+     "i": 0.514,
+     "f": 1.086
+    },
+    {
+     "p": "é",
+     "i": 1.098,
+     "f": 1.145
+    },
+    {
+     "p": "colaboração",
+     "i": 1.157,
+     "f": 1.836
+    },
+    {
+     "p": "premiada",
+     "i": 1.848,
+     "f": 2.407
+    },
+    {
+     "p": "Está",
+     "i": 3.226,
+     "f": 3.476
+    },
+    {
+     "p": "na",
+     "i": 3.488,
+     "f": 3.595
+    },
+    {
+     "p": "Lei",
+     "i": 3.607,
+     "f": 3.809
+    },
+    {
+     "p": "12.850",
+     "i": 3.821,
+     "f": 5.536
+    },
+    {
+     "p": "de",
+     "i": 5.774,
+     "f": 5.881
+    },
+    {
+     "p": "2013",
+     "i": 5.893,
+     "f": 6.655
+    },
+    {
+     "p": "a",
+     "i": 6.857,
+     "f": 6.929
+    },
+    {
+     "p": "lei",
+     "i": 6.94,
+     "f": 7.143
+    },
+    {
+     "p": "das",
+     "i": 7.155,
+     "f": 7.262
+    },
+    {
+     "p": "organizações",
+     "i": 7.274,
+     "f": 7.988
+    },
+    {
+     "p": "criminosas",
+     "i": 8,
+     "f": 8.667
+    },
+    {
+     "p": "e",
+     "i": 9,
+     "f": 9.06
+    },
+    {
+     "p": "foi",
+     "i": 9.071,
+     "f": 9.226
+    },
+    {
+     "p": "reformulada",
+     "i": 9.238,
+     "f": 9.905
+    },
+    {
+     "p": "em 2019",
+     "i": 9.917,
+     "f": 10.845
+    },
+    {
+     "p": "pelo",
+     "i": 10.857,
+     "f": 11.059
+    },
+    {
+     "p": "pacote",
+     "i": 11.071,
+     "f": 11.536
+    },
+    {
+     "p": "anticrime",
+     "i": 11.548,
+     "f": 12.107
+    }
+   ]
+  },
+  "acordo": {
+   "hash": "3bcb9c0fb0",
+   "texto": "O acordo é feito entre o investigado, com advogado, e o Ministério Público ou a polícia. Em troca, ele precisa entregar resultados: apontar os outros envolvidos, revelar como o grupo funciona ou recuperar o dinheiro desviado.",
+   "audio": "audio/acordo-3bcb9c0fb0.mp3",
+   "duracao": 14.616,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.205
+    },
+    {
+     "p": "acordo",
+     "i": 0.217,
+     "f": 0.681
+    },
+    {
+     "p": "é",
+     "i": 0.693,
+     "f": 0.729
+    },
+    {
+     "p": "feito",
+     "i": 0.74,
+     "f": 1.098
+    },
+    {
+     "p": "entre",
+     "i": 1.11,
+     "f": 1.288
+    },
+    {
+     "p": "o",
+     "i": 1.3,
+     "f": 1.312
+    },
+    {
+     "p": "investigado",
+     "i": 1.324,
+     "f": 2.038
+    },
+    {
+     "p": "com",
+     "i": 2.276,
+     "f": 2.407
+    },
+    {
+     "p": "advogado",
+     "i": 2.419,
+     "f": 3.074
+    },
+    {
+     "p": "e",
+     "i": 3.336,
+     "f": 3.419
+    },
+    {
+     "p": "o",
+     "i": 3.431,
+     "f": 3.467
+    },
+    {
+     "p": "Ministério",
+     "i": 3.479,
+     "f": 4.002
+    },
+    {
+     "p": "Público",
+     "i": 4.014,
+     "f": 4.443
+    },
+    {
+     "p": "ou",
+     "i": 4.455,
+     "f": 4.621
+    },
+    {
+     "p": "a",
+     "i": 4.633,
+     "f": 4.693
+    },
+    {
+     "p": "polícia",
+     "i": 4.705,
+     "f": 5.193
+    },
+    {
+     "p": "Em",
+     "i": 6.012,
+     "f": 6.167
+    },
+    {
+     "p": "troca",
+     "i": 6.179,
+     "f": 6.56
+    },
+    {
+     "p": "ele",
+     "i": 6.821,
+     "f": 6.964
+    },
+    {
+     "p": "precisa",
+     "i": 6.976,
+     "f": 7.381
+    },
+    {
+     "p": "entregar",
+     "i": 7.393,
+     "f": 7.762
+    },
+    {
+     "p": "resultados",
+     "i": 7.774,
+     "f": 8.44
+    },
+    {
+     "p": "apontar",
+     "i": 8.75,
+     "f": 9.202
+    },
+    {
+     "p": "os",
+     "i": 9.214,
+     "f": 9.25
+    },
+    {
+     "p": "outros",
+     "i": 9.262,
+     "f": 9.56
+    },
+    {
+     "p": "envolvidos",
+     "i": 9.571,
+     "f": 10.25
+    },
+    {
+     "p": "revelar",
+     "i": 10.488,
+     "f": 10.952
+    },
+    {
+     "p": "como",
+     "i": 10.964,
+     "f": 11.19
+    },
+    {
+     "p": "o",
+     "i": 11.202,
+     "f": 11.226
+    },
+    {
+     "p": "grupo",
+     "i": 11.238,
+     "f": 11.524
+    },
+    {
+     "p": "funciona",
+     "i": 11.536,
+     "f": 12.119
+    },
+    {
+     "p": "ou",
+     "i": 12.131,
+     "f": 12.19
+    },
+    {
+     "p": "recuperar",
+     "i": 12.202,
+     "f": 12.714
+    },
+    {
+     "p": "o",
+     "i": 12.726,
+     "f": 12.774
+    },
+    {
+     "p": "dinheiro",
+     "i": 12.786,
+     "f": 13.167
+    },
+    {
+     "p": "desviado",
+     "i": 13.179,
+     "f": 13.774
+    }
+   ]
+  },
+  "premio": {
+   "hash": "3911060308",
+   "texto": "O prêmio pode ser perdão judicial, redução da pena em até dois terços, ou troca por pena restritiva de direitos. Quem decide, no fim, é o juiz, que também precisa homologar o acordo.",
+   "audio": "audio/premio-3911060308.mp3",
+   "duracao": 12.72,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.098,
+     "f": 0.229
+    },
+    {
+     "p": "prêmio",
+     "i": 0.24,
+     "f": 0.598
+    },
+    {
+     "p": "pode",
+     "i": 0.61,
+     "f": 0.824
+    },
+    {
+     "p": "ser",
+     "i": 0.836,
+     "f": 1.002
+    },
+    {
+     "p": "perdão",
+     "i": 1.014,
+     "f": 1.431
+    },
+    {
+     "p": "judicial",
+     "i": 1.443,
+     "f": 1.99
+    },
+    {
+     "p": "redução",
+     "i": 2.312,
+     "f": 2.776
+    },
+    {
+     "p": "da",
+     "i": 2.788,
+     "f": 2.919
+    },
+    {
+     "p": "pena",
+     "i": 2.931,
+     "f": 3.205
+    },
+    {
+     "p": "em",
+     "i": 3.217,
+     "f": 3.312
+    },
+    {
+     "p": "até",
+     "i": 3.324,
+     "f": 3.538
+    },
+    {
+     "p": "dois",
+     "i": 3.55,
+     "f": 3.836
+    },
+    {
+     "p": "terços",
+     "i": 3.848,
+     "f": 4.288
+    },
+    {
+     "p": "ou",
+     "i": 4.538,
+     "f": 4.681
+    },
+    {
+     "p": "troca",
+     "i": 4.693,
+     "f": 5.038
+    },
+    {
+     "p": "por",
+     "i": 5.05,
+     "f": 5.193
+    },
+    {
+     "p": "pena",
+     "i": 5.205,
+     "f": 5.467
+    },
+    {
+     "p": "restritiva",
+     "i": 5.479,
+     "f": 6.074
+    },
+    {
+     "p": "de",
+     "i": 6.086,
+     "f": 6.181
+    },
+    {
+     "p": "direitos",
+     "i": 6.193,
+     "f": 6.764
+    },
+    {
+     "p": "Quem",
+     "i": 7.583,
+     "f": 7.762
+    },
+    {
+     "p": "decide",
+     "i": 7.774,
+     "f": 8.274
+    },
+    {
+     "p": "no",
+     "i": 8.5,
+     "f": 8.643
+    },
+    {
+     "p": "fim",
+     "i": 8.655,
+     "f": 8.929
+    },
+    {
+     "p": "é",
+     "i": 9.143,
+     "f": 9.226
+    },
+    {
+     "p": "o",
+     "i": 9.238,
+     "f": 9.309
+    },
+    {
+     "p": "juiz",
+     "i": 9.321,
+     "f": 9.774
+    },
+    {
+     "p": "que",
+     "i": 9.952,
+     "f": 10.095
+    },
+    {
+     "p": "também",
+     "i": 10.107,
+     "f": 10.452
+    },
+    {
+     "p": "precisa",
+     "i": 10.464,
+     "f": 10.857
+    },
+    {
+     "p": "homologar",
+     "i": 10.869,
+     "f": 11.333
+    },
+    {
+     "p": "o",
+     "i": 11.345,
+     "f": 11.405
+    },
+    {
+     "p": "acordo",
+     "i": 11.417,
+     "f": 11.893
+    }
+   ]
+  },
+  "limite": {
+   "hash": "f615dfea94",
+   "texto": "Mas aqui vem a polêmica. A palavra do delator, sozinha, não condena ninguém. A lei exige provas que confirmem o que ele disse, como documentos, quebras de sigilo ou outras testemunhas. E o delatado tem direito de responder por último.",
+   "audio": "audio/limite-f615dfea94.mp3",
+   "duracao": 16.656,
+   "palavras": [
+    {
+     "p": "Mas",
+     "i": 0.098,
+     "f": 0.288
+    },
+    {
+     "p": "aqui",
+     "i": 0.3,
+     "f": 0.645
+    },
+    {
+     "p": "vem",
+     "i": 0.657,
+     "f": 0.859
+    },
+    {
+     "p": "a",
+     "i": 0.871,
+     "f": 0.955
+    },
+    {
+     "p": "polêmica",
+     "i": 0.967,
+     "f": 1.526
+    },
+    {
+     "p": "A",
+     "i": 2.345,
+     "f": 2.464
+    },
+    {
+     "p": "palavra",
+     "i": 2.476,
+     "f": 2.905
+    },
+    {
+     "p": "do",
+     "i": 2.917,
+     "f": 3
+    },
+    {
+     "p": "delator",
+     "i": 3.012,
+     "f": 3.5
+    },
+    {
+     "p": "sozinha",
+     "i": 3.714,
+     "f": 4.345
+    },
+    {
+     "p": "não",
+     "i": 4.536,
+     "f": 4.774
+    },
+    {
+     "p": "condena",
+     "i": 4.786,
+     "f": 5.214
+    },
+    {
+     "p": "ninguém",
+     "i": 5.226,
+     "f": 5.643
+    },
+    {
+     "p": "A",
+     "i": 6.464,
+     "f": 6.56
+    },
+    {
+     "p": "lei",
+     "i": 6.571,
+     "f": 6.738
+    },
+    {
+     "p": "exige",
+     "i": 6.75,
+     "f": 7.143
+    },
+    {
+     "p": "provas",
+     "i": 7.155,
+     "f": 7.571
+    },
+    {
+     "p": "que",
+     "i": 7.583,
+     "f": 7.69
+    },
+    {
+     "p": "confirmem",
+     "i": 7.702,
+     "f": 8.179
+    },
+    {
+     "p": "o",
+     "i": 8.19,
+     "f": 8.25
+    },
+    {
+     "p": "que",
+     "i": 8.262,
+     "f": 8.369
+    },
+    {
+     "p": "ele",
+     "i": 8.381,
+     "f": 8.524
+    },
+    {
+     "p": "disse",
+     "i": 8.536,
+     "f": 8.905
+    },
+    {
+     "p": "como",
+     "i": 9.167,
+     "f": 9.369
+    },
+    {
+     "p": "documentos",
+     "i": 9.381,
+     "f": 10.012
+    },
+    {
+     "p": "quebras",
+     "i": 10.25,
+     "f": 10.583
+    },
+    {
+     "p": "de",
+     "i": 10.595,
+     "f": 10.691
+    },
+    {
+     "p": "sigilo",
+     "i": 10.702,
+     "f": 11.179
+    },
+    {
+     "p": "ou",
+     "i": 11.19,
+     "f": 11.357
+    },
+    {
+     "p": "outras",
+     "i": 11.369,
+     "f": 11.726
+    },
+    {
+     "p": "testemunhas",
+     "i": 11.738,
+     "f": 12.5
+    },
+    {
+     "p": "E",
+     "i": 13.321,
+     "f": 13.44
+    },
+    {
+     "p": "o",
+     "i": 13.452,
+     "f": 13.5
+    },
+    {
+     "p": "delatado",
+     "i": 13.512,
+     "f": 14.083
+    },
+    {
+     "p": "tem",
+     "i": 14.095,
+     "f": 14.214
+    },
+    {
+     "p": "direito",
+     "i": 14.226,
+     "f": 14.631
+    },
+    {
+     "p": "de",
+     "i": 14.643,
+     "f": 14.726
+    },
+    {
+     "p": "responder",
+     "i": 14.738,
+     "f": 15.25
+    },
+    {
+     "p": "por",
+     "i": 15.262,
+     "f": 15.44
+    },
+    {
+     "p": "último",
+     "i": 15.452,
+     "f": 15.833
+    }
+   ]
+  },
+  "critica": {
+   "hash": "4f3967a441",
+   "texto": "Críticos dizem que a prisão preventiva pode pressionar o investigado a delatar. Defensores respondem que o acordo é voluntário e só rende frutos com prova que confirme. Por isso o juiz checa a voluntariedade antes de homologar.",
+   "audio": "audio/critica-4f3967a441.mp3",
+   "duracao": 13.896,
+   "palavras": [
+    {
+     "p": "Críticos",
+     "i": 0.098,
+     "f": 0.586
+    },
+    {
+     "p": "dizem",
+     "i": 0.598,
+     "f": 0.919
+    },
+    {
+     "p": "que",
+     "i": 0.931,
+     "f": 0.979
+    },
+    {
+     "p": "a",
+     "i": 0.99,
+     "f": 1.026
+    },
+    {
+     "p": "prisão",
+     "i": 1.038,
+     "f": 1.371
+    },
+    {
+     "p": "preventiva",
+     "i": 1.383,
+     "f": 1.967
+    },
+    {
+     "p": "pode",
+     "i": 1.979,
+     "f": 2.217
+    },
+    {
+     "p": "pressionar",
+     "i": 2.229,
+     "f": 2.669
+    },
+    {
+     "p": "o",
+     "i": 2.681,
+     "f": 2.705
+    },
+    {
+     "p": "investigado",
+     "i": 2.717,
+     "f": 3.324
+    },
+    {
+     "p": "a",
+     "i": 3.336,
+     "f": 3.383
+    },
+    {
+     "p": "delatar",
+     "i": 3.395,
+     "f": 3.848
+    },
+    {
+     "p": "Defensores",
+     "i": 4.667,
+     "f": 5.393
+    },
+    {
+     "p": "respondem",
+     "i": 5.405,
+     "f": 5.905
+    },
+    {
+     "p": "que",
+     "i": 5.917,
+     "f": 5.988
+    },
+    {
+     "p": "o",
+     "i": 6,
+     "f": 6.048
+    },
+    {
+     "p": "acordo",
+     "i": 6.06,
+     "f": 6.488
+    },
+    {
+     "p": "é",
+     "i": 6.5,
+     "f": 6.548
+    },
+    {
+     "p": "voluntário",
+     "i": 6.56,
+     "f": 7.143
+    },
+    {
+     "p": "e",
+     "i": 7.155,
+     "f": 7.202
+    },
+    {
+     "p": "só",
+     "i": 7.214,
+     "f": 7.381
+    },
+    {
+     "p": "rende",
+     "i": 7.393,
+     "f": 7.679
+    },
+    {
+     "p": "frutos",
+     "i": 7.69,
+     "f": 8.071
+    },
+    {
+     "p": "com",
+     "i": 8.083,
+     "f": 8.262
+    },
+    {
+     "p": "prova",
+     "i": 8.274,
+     "f": 8.619
+    },
+    {
+     "p": "que",
+     "i": 8.631,
+     "f": 8.738
+    },
+    {
+     "p": "confirme",
+     "i": 8.75,
+     "f": 9.345
+    },
+    {
+     "p": "Por",
+     "i": 10.167,
+     "f": 10.345
+    },
+    {
+     "p": "isso",
+     "i": 10.357,
+     "f": 10.631
+    },
+    {
+     "p": "o",
+     "i": 10.643,
+     "f": 10.667
+    },
+    {
+     "p": "juiz",
+     "i": 10.679,
+     "f": 11.024
+    },
+    {
+     "p": "checa",
+     "i": 11.036,
+     "f": 11.321
+    },
+    {
+     "p": "a",
+     "i": 11.333,
+     "f": 11.357
+    },
+    {
+     "p": "voluntariedade",
+     "i": 11.369,
+     "f": 12.155
+    },
+    {
+     "p": "antes",
+     "i": 12.167,
+     "f": 12.464
+    },
+    {
+     "p": "de",
+     "i": 12.476,
+     "f": 12.571
+    },
+    {
+     "p": "homologar",
+     "i": 12.583,
+     "f": 13.071
+    }
+   ]
+  },
+  "final": {
+   "hash": "9f58d78fac",
+   "texto": "Resumindo: delação é uma troca, informação por redução de pena, mas sem prova que confirme, não condena. Na sua opinião, a delação premiada ajuda a combater o crime? Comenta 1 ou 2 e segue para mais.",
+   "audio": "audio/final-9f58d78fac.mp3",
+   "duracao": 14.88,
+   "palavras": [
+    {
+     "p": "Resumindo",
+     "i": 0.098,
+     "f": 0.74
+    },
+    {
+     "p": "delação",
+     "i": 1.002,
+     "f": 1.55
+    },
+    {
+     "p": "é",
+     "i": 1.562,
+     "f": 1.621
+    },
+    {
+     "p": "uma",
+     "i": 1.633,
+     "f": 1.824
+    },
+    {
+     "p": "troca",
+     "i": 1.836,
+     "f": 2.229
+    },
+    {
+     "p": "informação",
+     "i": 2.49,
+     "f": 3.145
+    },
+    {
+     "p": "por",
+     "i": 3.157,
+     "f": 3.288
+    },
+    {
+     "p": "redução",
+     "i": 3.3,
+     "f": 3.729
+    },
+    {
+     "p": "de",
+     "i": 3.74,
+     "f": 3.848
+    },
+    {
+     "p": "pena",
+     "i": 3.86,
+     "f": 4.181
+    },
+    {
+     "p": "mas",
+     "i": 4.467,
+     "f": 4.657
+    },
+    {
+     "p": "sem",
+     "i": 4.669,
+     "f": 4.836
+    },
+    {
+     "p": "prova",
+     "i": 4.848,
+     "f": 5.205
+    },
+    {
+     "p": "que",
+     "i": 5.217,
+     "f": 5.324
+    },
+    {
+     "p": "confirme",
+     "i": 5.336,
+     "f": 5.871
+    },
+    {
+     "p": "não",
+     "i": 6.062,
+     "f": 6.288
+    },
+    {
+     "p": "condena",
+     "i": 6.3,
+     "f": 6.836
+    },
+    {
+     "p": "Na",
+     "i": 7.655,
+     "f": 7.809
+    },
+    {
+     "p": "sua",
+     "i": 7.821,
+     "f": 7.988
+    },
+    {
+     "p": "opinião",
+     "i": 8,
+     "f": 8.464
+    },
+    {
+     "p": "a",
+     "i": 8.702,
+     "f": 8.75
+    },
+    {
+     "p": "delação",
+     "i": 8.762,
+     "f": 9.19
+    },
+    {
+     "p": "premiada",
+     "i": 9.202,
+     "f": 9.667
+    },
+    {
+     "p": "ajuda",
+     "i": 9.679,
+     "f": 9.976
+    },
+    {
+     "p": "a",
+     "i": 9.988,
+     "f": 10.012
+    },
+    {
+     "p": "combater",
+     "i": 10.024,
+     "f": 10.452
+    },
+    {
+     "p": "o",
+     "i": 10.464,
+     "f": 10.512
+    },
+    {
+     "p": "crime",
+     "i": 10.524,
+     "f": 10.917
+    },
+    {
+     "p": "Comenta",
+     "i": 11.738,
+     "f": 12.286
+    },
+    {
+     "p": "1 ou",
+     "i": 12.298,
+     "f": 12.679
+    },
+    {
+     "p": "2 e",
+     "i": 12.69,
+     "f": 13.083
+    },
+    {
+     "p": "segue",
+     "i": 13.095,
+     "f": 13.429
+    },
+    {
+     "p": "para",
+     "i": 13.44,
+     "f": 13.607
+    },
+    {
+     "p": "mais",
+     "i": 13.619,
+     "f": 14.048
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "algemas": {
+   "arquivo": "imagens/algemas-a88a5ea8.jpg",
+   "rotulo": "Algemas",
+   "wiki": "Algemas",
+   "commons": "handcuffs",
+   "autor": "No machine-readable author provided. Klaus with K assumed (based on copyright claims).",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Handcuffs01_2003-06-02.jpg",
+   "titulo": "File:Handcuffs01 2003-06-02.jpg",
+   "largura": 1280,
+   "altura": 602,
+   "rostos": 0,
+   "foco": {
+    "x": 55.3,
+    "y": 51.1
+   },
+   "borrada": "imagens/algemas-a88a5ea8-b.jpg"
+  },
+  "congresso": {
+   "arquivo": "imagens/congresso-9ad40064.jpg",
+   "rotulo": "Congresso Nacional",
+   "wiki": "Congresso Nacional do Brasil",
+   "commons": "Congresso Nacional Brasília",
+   "autor": "Eurico Zimbres",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brazilian_National_Congress.jpg",
+   "titulo": "File:Brazilian National Congress.jpg",
+   "largura": 1280,
+   "altura": 807,
+   "rostos": 0,
+   "foco": {
+    "x": 34.2,
+    "y": 50.8
+   },
+   "borrada": "imagens/congresso-9ad40064-b.jpg"
+  },
+  "mpf": {
+   "arquivo": "imagens/mpf-9fbcf37f.jpg",
+   "rotulo": "Ministério Público Federal",
+   "wiki": "Ministério Público Federal (Brasil)",
+   "commons": "Procuradoria-Geral da República Brasília",
+   "autor": "Josue Marinho",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brasilia_DF_Brasil_-_PGR_-_Procuradoria_Geral_da_Rep%C3%BAblica_-_panoramio.jpg",
+   "titulo": "File:Brasilia DF Brasil - PGR - Procuradoria Geral da República - panoramio.jpg",
+   "largura": 1280,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 46.4,
+    "y": 68.7
+   },
+   "borrada": "imagens/mpf-9fbcf37f-b.jpg"
+  },
+  "stf": {
+   "arquivo": "imagens/stf-574400d6.jpg",
+   "rotulo": "Supremo Tribunal Federal",
+   "wiki": "Supremo Tribunal Federal",
+   "commons": "Supremo Tribunal Federal sede Brasília",
+   "autor": "Leandro Ciuffo",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Supremo_Brasil.jpg",
+   "titulo": "File:Supremo Brasil.jpg",
+   "largura": 1280,
+   "altura": 859,
+   "rostos": 0,
+   "foco": {
+    "x": 49.4,
+    "y": 61.4
+   },
+   "borrada": "imagens/stf-574400d6-b.jpg"
+  },
+  "provas": {
+   "arquivo": "imagens/provas-91fba9c8.jpg",
+   "rotulo": "Provas e documentos",
+   "commons": "documents evidence investigation",
+   "autor": "Medusasami",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Em120_inspection_mountain.jpg",
+   "titulo": "File:Em120 inspection mountain.jpg",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 51.7,
+    "y": 72.6
+   },
+   "borrada": "imagens/provas-91fba9c8-b.jpg"
+  },
+  "prisao": {
+   "arquivo": "imagens/prisao-69eae542.jpg",
+   "rotulo": "Prisão",
+   "wiki": "Prisão",
+   "commons": "prison cell corridor",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Alcatraz11.JPEG",
+   "titulo": "File:Alcatraz11.JPEG",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 58.5
+   },
+   "borrada": "imagens/prisao-69eae542-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-27T08:36:13.884Z"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Planalto — Lei 12.850/2013 (organizações criminosas e colaboração premiada)",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+  },
+  {
+   "titulo": "Planalto — Lei 13.964/2019 (pacote anticrime)",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13964.htm"
+  },
+  {
+   "titulo": "ConJur — O instituto da colaboração premiada",
+   "url": "https://www.conjur.com.br/2024-fev-12/o-instituto-da-colaboracao-premiada-e-o-habeas-corpus/"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "cinema",
+  "legenda": "karaoke",
+  "transicao": "circulo",
+  "fundo": "limpo",
+  "formato": "lista"
  }
 }

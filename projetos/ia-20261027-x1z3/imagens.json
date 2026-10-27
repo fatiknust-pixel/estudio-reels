@@ -1,0 +1,8 @@
+{
+  "algemas": { "wiki": "Algemas", "commons": "handcuffs", "rotulo": "Algemas" },
+  "congresso": { "wiki": "Congresso Nacional do Brasil", "commons": "Congresso Nacional Brasília", "rotulo": "Congresso Nacional" },
+  "mpf": { "wiki": "Ministério Público Federal (Brasil)", "commons": "Procuradoria-Geral da República Brasília", "rotulo": "Ministério Público Federal" },
+  "stf": { "wiki": "Supremo Tribunal Federal", "commons": "Supremo Tribunal Federal sede Brasília", "rotulo": "Supremo Tribunal Federal" },
+  "provas": { "commons": "documents evidence investigation", "rotulo": "Provas e documentos" },
+  "prisao": { "wiki": "Prisão", "commons": "prison cell corridor", "rotulo": "Prisão" }
+}
