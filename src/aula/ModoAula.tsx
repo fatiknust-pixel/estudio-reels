@@ -7,6 +7,7 @@ import { useVideo } from "../contexto";
 import { FotosCartoes } from "../componentes/Gameplay";
 import { agrupar } from "../componentes/Legenda";
 import { CenaTempo, ElementoTempo } from "../linhaTempo";
+import { AjusteMargem } from "../componentes/AjusteMargem";
 import { A, ElementoAula, FONTE_AULA, Manchete } from "./ElementosAula";
 
 const MARGEM = 120;
@@ -49,7 +50,7 @@ const Cena: React.FC<{ c: CenaTempo }> = ({ c }) => {
       {comFoto && <FotosCartoes chave={c.fundo} galeria={c.galeria} inicios={c.galeriaInicios} duracao={c.duracao} caixa={{ x: tela.x, y: tela.y + 24, w: FOTO_W, h: tela.h - 24 }} claro />}
       {titulos.map((e) => (
         <Sequence key={e.indice} from={e.entra} durationInFrames={dur(e)} layout="none">
-          <div style={{ position: "absolute", left: MARGEM, top: 165, right: MARGEM }}><Manchete e={e} /></div>
+          <div style={{ position: "absolute", left: MARGEM, top: 165, right: MARGEM, height: 160 }}><AjusteMargem origem="0% 0%" cheio altura style={{ alignItems: "flex-start" }}><Manchete e={e} /></AjusteMargem></div>
         </Sequence>
       ))}
       {outros.map((e) => {

@@ -8,6 +8,7 @@ import { familiaDe } from "../fontes";
 import { ElementoTempo } from "../linhaTempo";
 import { Icone } from "../componentes/Icone";
 import { FotoEnquadrada } from "../foto";
+import { AjusteMargem } from "../componentes/AjusteMargem";
 
 export const A = {
   preto: "#111111", texto: "#1F1F1F", suave: "#6B6B6B", linha: "#E7E7E7", papel: "#F6F6F4",
@@ -359,7 +360,9 @@ export const ElementoAula: React.FC<{ e: ElementoTempo; w: number; h: number }> 
   const u = Math.max(0.7, Math.min(1.3, Math.min(w / 620, h / 430)));
   return (
     <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", opacity: saida }}>
-      <C e={e} u={u} w={w} />
+      <AjusteMargem origem="50% 50%" altura cheio>
+        <C e={e} u={u} w={w} />
+      </AjusteMargem>
     </div>
   );
 };
