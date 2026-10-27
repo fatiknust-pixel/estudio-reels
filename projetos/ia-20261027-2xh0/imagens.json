@@ -1,0 +1,7 @@
+{
+  "congresso": { "wiki": "Congresso Nacional do Brasil", "commons": "Congresso Nacional Brasília", "rotulo": "Congresso Nacional" },
+  "receita": { "wiki": "Receita Federal do Brasil", "commons": "Receita Federal Brasil sede", "rotulo": "Receita Federal" },
+  "senado": { "wiki": "Senado Federal (Brasil)", "commons": "Senado Federal Brasília plenário", "rotulo": "Senado Federal" },
+  "cesta": { "wiki": "Cesta básica", "commons": "cesta básica alimentos arroz feijão", "rotulo": "Cesta básica" },
+  "fazenda": { "wiki": "Ministério da Fazenda (Brasil)", "commons": "Ministério da Fazenda Brasília edifício", "rotulo": "Ministério da Fazenda" }
+}

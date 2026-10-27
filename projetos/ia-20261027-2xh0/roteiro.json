@@ -1,0 +1,91 @@
+{
+  "titulo": "O que muda com a reforma tributária",
+  "estilo": { "dinamica": "jornal", "legenda": "cinema", "transicao": "deslize", "fundo": "pontos",
+              "musica": "tensao", "formato": "comparacao", "fonte": "oswald", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 3 },
+  "fontesPesquisa": [
+    { "titulo": "Lei Complementar 214/2025 — Planalto", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm" },
+    { "titulo": "Emenda Constitucional 132/2023 — Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm" },
+    { "titulo": "Ministério da Fazenda — Reforma Tributária", "url": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Cinco impostos viram dois. Parece simples, mas quem vai pagar mais? A reforma tributária já começou, e quase ninguém entendeu o que muda.",
+      "fundo": "congresso",
+      "fontes": ["EC 132/2023"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "REFORMA TRIBUTÁRIA", "sub": "O QUE MUDA", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 5, "ate": 2, "unidade": "impostos", "rotulo": "SOBRE O CONSUMO", "em": "Cinco", "posicao": "alto" },
+        { "tipo": "pergunta", "texto": "QUEM PAGA MAIS?", "em": "quem", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "hoje",
+      "texto": "Hoje, PIS, Cofins, IPI, ICMS e ISS cobram sobre o consumo, cada um com regras próprias. É esse emaranhado que a reforma quer acabar.",
+      "fundo": "receita",
+      "fontes": ["Receita Federal"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "HOJE: CAOS", "sub": "5 IMPOSTOS, 5 REGRAS", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["documento", "PIS"], ["documento", "COFINS"], ["documento", "ICMS"]], "em": "PIS", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "EMARANHADO", "cor": "vermelho", "em": "emaranhado", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "novo",
+      "texto": "No lugar, entram a CBS, federal, e o IBS, de estados e municípios. Mais o Imposto Seletivo, que taxa produtos prejudiciais à saúde ou ao meio ambiente.",
+      "fundo": "senado",
+      "fontes": ["LC 214/2025"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O NOVO SISTEMA", "sub": "CBS + IBS", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "CBS", "significado": "Contribuição federal sobre bens e serviços", "em": "CBS", "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "IBS", "significado": "Imposto de estados e municípios", "em": "IBS", "posicao": "meio" },
+        { "tipo": "tag", "texto": "IMPOSTO SELETIVO", "icone": "alerta", "cor": "amarelo", "em": "Seletivo", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "calendario",
+      "texto": "Em 2026, é só teste: 0,9% de CBS e 0,1% de IBS. Em 2027, a CBS substitui PIS e Cofins. De 2029 a 2032, ICMS e ISS vão caindo. E em 2033, somem de vez.",
+      "fontes": ["LC 214/2025", "EC 132/2023"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "TRANSIÇÃO", "sub": "2026 A 2033", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["2026", "Teste"], ["2027", "CBS entra"], ["2029", "ICMS cai"], ["2033", "Fim"]], "em": "2026", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "2033: SÓ IBS E CBS", "cor": "verde", "em": "somem", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "cesta",
+      "texto": "A cesta básica nacional terá alíquota zero. Saúde e educação pagam 60% a menos. E famílias de baixa renda recebem parte do imposto de volta: o cashback.",
+      "fundo": "cesta",
+      "fontes": ["LC 214/2025"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUEM GANHA", "sub": "ALÍQUOTA REDUZIDA", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": true, "texto": "CESTA BÁSICA: ZERO", "nota": "IBS e CBS zerados", "em": "cesta", "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 60, "unidade": "%", "rotulo": "MENOS EM SAÚDE E EDUCAÇÃO", "em": "60%", "posicao": "meio" },
+        { "tipo": "tag", "texto": "CASHBACK", "icone": "dinheiro", "cor": "verde", "em": "cashback", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "polemica",
+      "texto": "Agora, a parte polêmica. A estimativa do Ministério da Fazenda é uma alíquota geral de cerca de 26,5%. Críticos dizem que seria uma das maiores do mundo, e o setor de serviços teme pagar mais. O governo diz que a carga total não vai subir.",
+      "fundo": "fazenda",
+      "fontes": ["Min. da Fazenda", "LC 214/2025"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A POLÊMICA", "sub": "ALÍQUOTA ESTIMADA", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 26.5, "unidade": "%", "rotulo": "ESTIMATIVA DA FAZENDA", "em": "26,5%", "posicao": "alto" },
+        { "tipo": "check", "ok": false, "texto": "SERVIÇOS TEMEM PAGAR MAIS", "nota": "Dizem os críticos", "em": "serviços", "posicao": "meio" },
+        { "tipo": "check", "ok": true, "texto": "CARGA TOTAL NÃO SOBE", "nota": "Diz o governo", "em": "governo", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Resumo: menos impostos, regras únicas, mas uma transição de sete anos. Você acha que a reforma vai baixar ou aumentar o que você paga? Siga para acompanhar cada etapa.",
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RESUMO", "sub": "MENOS IMPOSTOS, REGRAS ÚNICAS", "em": 0, "posicao": "topo" },
+        { "tipo": "enquete", "pergunta": "VAI BAIXAR OU AUMENTAR?", "opcoes": ["BAIXAR", "AUMENTAR"], "em": "Você", "posicao": "alto" },
+        { "tipo": "seguir", "texto": "SIGA PARA MAIS", "em": "Siga", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
