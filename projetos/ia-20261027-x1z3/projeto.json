@@ -6,21 +6,21 @@
  "estilo": "documentario",
  "tema": "documentario",
  "criadoEm": "2026-10-27T08:36:13.884Z",
- "atualizadoEm": "2026-10-27T08:39:13Z",
+ "atualizadoEm": "2026-10-27T11:04:00.224Z",
  "status": "pronto",
  "legenda": {
-  "fonte": "playfair",
-  "tamanho": 92,
+  "fonte": "montserrat",
+  "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
-  "posicao": 70,
-  "palavrasPorTela": 3,
-  "maiusculas": true,
-  "contorno": 10,
+  "posicao": 91,
+  "palavrasPorTela": 8,
+  "maiusculas": false,
+  "contorno": 0,
   "fundo": "nenhum",
-  "animacao": "pop",
+  "animacao": "nenhuma",
   "mostrar": true,
-  "modo": "reels"
+  "modo": "cinema"
  },
  "efeitos": {
   "barraProgresso": true,
@@ -1598,9 +1598,9 @@
  ],
  "estiloIA": {
   "dinamica": "cinema",
-  "legenda": "karaoke",
   "transicao": "circulo",
   "fundo": "limpo",
+  "legenda": "cinema",
   "formato": "lista"
  }
 }
