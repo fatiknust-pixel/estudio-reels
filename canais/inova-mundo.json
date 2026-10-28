@@ -1,0 +1,43 @@
+{
+ "id": "inova-mundo",
+ "nome": "Inova mundo",
+ "nicho": "Conhecendo o mundo e suas tecnologias",
+ "genero": "tecnologia",
+ "idioma": "pt-BR",
+ "voz": "pt-BR-AntonioNeural",
+ "ativo": false,
+ "ideias": [
+  {
+   "titulo": "Como pontes no mar são construídas",
+   "estado": "pendente"
+  },
+  {
+   "titulo": "Como funciona uma pedreira",
+   "estado": "pendente"
+  },
+  {
+   "titulo": "Evolução do garimpo",
+   "estado": "pendente"
+  },
+  {
+   "titulo": "Evolução das montadoras de carros",
+   "estado": "pendente"
+  },
+  {
+   "titulo": "Evolução dos carros",
+   "estado": "pendente"
+  },
+  {
+   "titulo": "Maquinários que você não conhecia",
+   "estado": "pendente"
+  },
+  {
+   "titulo": "Como é construído um prédio",
+   "estado": "pendente"
+  },
+  {
+   "titulo": "As construções que mudaram o mundo",
+   "estado": "pendente"
+  }
+ ]
+}
