@@ -10,7 +10,7 @@ export const MARGEM_TELA = 50;
 
 // "cheio": o conteúdo usa a largura toda do espaço (width: 100%, como nas vagas da videoaula); aí a medida é do que
 // passa para fora do primeiro elemento. Sem "cheio", o conteúdo tem a largura do próprio texto.
-export const AjusteMargem: React.FC<{ children: React.ReactNode; origem?: string; altura?: boolean; cheio?: boolean; style?: React.CSSProperties }> = ({ children, origem = "50% 0%", altura, cheio, style }) => {
+export const AjusteMargem: React.FC<{ children: React.ReactNode; origem?: string; altura?: boolean; cheio?: boolean; extra?: number; onAltura?: (h: number) => void; style?: React.CSSProperties }> = ({ children, origem = "50% 0%", altura, cheio, extra = 1, onAltura, style }) => {
   const ref = useRef<HTMLDivElement>(null);
   const [k, setK] = useState(1);
   const medir = useCallback(() => {
@@ -24,7 +24,8 @@ export const AjusteMargem: React.FC<{ children: React.ReactNode; origem?: string
     const kh = altura && h > 0 && pai.clientHeight > 0 ? pai.clientHeight / h : 1;
     const novo = Math.min(1, kw, kh);
     setK((a) => (Math.abs(a - novo) < 0.002 ? a : novo));
-  }, [cheio, altura]);
+    onAltura?.(h * novo); // altura que o conteúdo ocupa de verdade, já reduzido
+  }, [cheio, altura, onAltura]);
   useLayoutEffect(medir);
   // As fontes carregam depois da primeira medida (a fonte provisória é mais estreita): mede de novo quando
   // elas chegam e segura o quadro do render até a medida certa estar na tela.
@@ -46,7 +47,7 @@ export const AjusteMargem: React.FC<{ children: React.ReactNode; origem?: string
     };
   }, [espera, medir]);
   return (
-    <div ref={ref} style={{ display: "flex", flexDirection: "column", alignItems: "center", ...(cheio ? { width: "100%" } : {}), transform: k < 1 ? `scale(${k})` : undefined, transformOrigin: origem, ...style }}>
+    <div ref={ref} style={{ display: "flex", flexDirection: "column", alignItems: "center", ...(cheio ? { width: "100%" } : {}), transform: k * extra < 1 ? `scale(${k * extra})` : undefined, transformOrigin: origem, ...style }}>
       {children}
     </div>
   );
