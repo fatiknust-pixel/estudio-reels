@@ -7,7 +7,7 @@
  "tema": "neon",
  "criadoEm": "2026-10-28T17:56:05.483Z",
  "atualizadoEm": "2026-10-28T17:56:05.483Z",
- "status": "processando",
+ "status": "rascunho",
  "pedido": {
   "tema": "Evolução das montadoras de carros",
   "tom": "Curioso e analítico",
@@ -54,7 +54,8 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.483Z"
+  "pedidoEm": "2026-10-28T17:56:05.483Z",
+  "fila": true
  },
  "legenda": {
   "fonte": "montserrat",
