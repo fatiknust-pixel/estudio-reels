@@ -164,6 +164,10 @@ tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
   Faça tudo como acima (galeria com `galeriaEm`, em quase todas as cenas), mas use **poucos elementos por
   cena (0 a 2)** e evite `posicao: "alto"`/`"topo"` com elementos grandes, para não cobrir o cartão da
   foto; prefira `meio2` e `titulo` curto. Não mencione a gameplay na fala.
+- **Canal dark longo (8–10 min):** leia `docs/guia-canal-dark.md` (estrutura em capítulos, ritmo, fotos no tempo da fala, política do YouTube,
+  campo `publicacao`, outros idiomas). Se `pedido.idioma`/`idioma` não for pt-BR, escreva tudo nesse idioma.
+- No `roteiro.json`, ao lado de `titulo`, `estilo` e `cenas`: `"publicacao": { "titulos": ["…","…","…"], "descricao": "…", "tags": ["…"] }`
+  (obrigatório nos gêneros de canal dark; o app mostra para copiar e postar).
 - Prefira acervos livres e confiáveis do Wikimedia Commons (fotos oficiais, NASA/ESA, museus, arquivos
   históricos em domínio público). Nunca use imagens com direitos autorais.
 

@@ -9,6 +9,22 @@ const tamanho = (b: number) => (b > 1e6 ? `${(b / 1e6).toFixed(1)} MB` : `${Math
 const quando = (iso: string) => new Date(iso).toLocaleString("pt-BR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
 const NOME_STATUS: Record<string, string> = { queued: "na fila", in_progress: "renderizando…", completed: "terminou", waiting: "esperando", requested: "pedido", pending: "pendente" };
 
+const copiar = async (texto: string) => {
+  try {
+    await navigator.clipboard.writeText(texto);
+    avisar("Copiado ✓");
+  } catch {
+    avisarErro(new Error("Não consegui copiar: segure o texto e copie na mão."));
+  }
+};
+
+// Descrição pronta para colar no YouTube: a que o Claude escreveu + fontes + créditos das fotos (exigidos pelas licenças)
+const descricaoCompleta = (p: ReturnType<typeof useEditor>["projeto"]) => {
+  const fontes = (p.fontesPesquisa ?? []).map((f) => `• ${f.titulo}: ${f.url}`);
+  const creditos = Object.values(p.imagens ?? {}).filter((i) => i.autor).map((i) => `• ${i.rotulo ?? i.titulo}: ${i.autor} — ${i.licenca}${i.pagina ? ` (${i.pagina})` : ""}`);
+  return [p.publicacao?.descricao ?? "", fontes.length ? `Fontes:\n${fontes.join("\n")}` : "", creditos.length ? `Imagens (Wikimedia Commons e outras fontes livres):\n${creditos.join("\n")}` : ""].filter(Boolean).join("\n\n");
+};
+
 export const PainelExportar: React.FC<{ salvar: () => Promise<void> }> = ({ salvar }) => {
   const { projeto: p, ehDemo, atualizarIA } = useEditor();
   const [execs, setExecs] = useState<gh.Execucao[]>([]);
@@ -113,6 +129,24 @@ export const PainelExportar: React.FC<{ salvar: () => Promise<void> }> = ({ salv
         )}
         {ocupado && <p className="pequeno">{ocupado}</p>}
       </div>
+
+      {p.publicacao && (
+        <>
+          <h3>Para postar no YouTube</h3>
+          <div className="cartao">
+            <p className="pequeno suave" style={{ marginTop: 0 }}>Títulos sugeridos (toque para copiar):</p>
+            <div className="lista">
+              {p.publicacao.titulos.map((t, i) => (
+                <button key={i} className="item" onClick={() => copiar(t)}><span className="tit">{t}<small>{t.length} caracteres</small></span><span className="selo">copiar</span></button>
+              ))}
+            </div>
+            <div className="linha" style={{ marginTop: 10, flexWrap: "wrap" }}>
+              <button className="btn cresce" onClick={() => copiar(descricaoCompleta(p))}>Copiar descrição (com fontes e créditos)</button>
+              <button className="btn" onClick={() => copiar(p.publicacao!.tags.join(", "))}>Copiar tags</button>
+            </div>
+          </div>
+        </>
+      )}
 
       <div className="linha"><h3 className="cresce">Renders</h3><button className="btn mini" onClick={atualizar}>⟳</button></div>
       {!execs.length && <div className="vazio-lista">Nenhum render deste projeto ainda.</div>}

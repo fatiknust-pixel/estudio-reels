@@ -94,6 +94,9 @@ jobs:
             1. Leia `docs/guia-roteiro.md` e siga-o à risca (inclusive "Estilo de edição" e "Regra de variedade"). Use `app/demos/demo-ia.json` (campo `cenas`) como exemplo de qualidade.
             2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao` em segundos;
                `genero` quando houver — siga as instruções do gênero; e o campo `formato` do projeto: 9:16 ou 16:9).
+               O idioma do vídeo é `pedido.idioma` ou `idioma` do projeto (padrão pt-BR): escreva narração, textos na tela, `publicacao` e os
+               títulos da Wikipédia (`wiki`) nesse idioma, direto, sem traduzir frase por frase. Se houver `genero` (canal dark),
+               leia também `docs/guia-canal-dark.md` e siga a estrutura de capítulos, o ritmo, as fotos (`galeria` + `galeriaEm`) e o campo `publicacao`.
             3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
             3b. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
                e escolha o `estilo` deste vídeo: o que vier fixo em `pedido.estilo` é obrigatório; onde estiver "auto",
@@ -131,6 +134,9 @@ jobs:
             1. Leia `docs/guia-roteiro.md` e siga-o à risca (inclusive "Estilo de edição" e "Regra de variedade"). Use `app/demos/demo-ia.json` (campo `cenas`) como exemplo de qualidade.
             2. Leia o pedido em `projetos/${{ inputs.projeto }}/projeto.json` (campo `pedido`: `tema`, `tom`, `duracao` em segundos;
                `genero` quando houver — siga as instruções do gênero; e o campo `formato` do projeto: 9:16 ou 16:9).
+               O idioma do vídeo é `pedido.idioma` ou `idioma` do projeto (padrão pt-BR): escreva narração, textos na tela, `publicacao` e os
+               títulos da Wikipédia (`wiki`) nesse idioma, direto, sem traduzir frase por frase. Se houver `genero` (canal dark),
+               leia também `docs/guia-canal-dark.md` e siga a estrutura de capítulos, o ritmo, as fotos (`galeria` + `galeriaEm`) e o campo `publicacao`.
             3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
             3b. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
                e escolha o `estilo` deste vídeo: o que vier fixo em `pedido.estilo` é obrigatório; onde estiver "auto",
@@ -166,7 +172,7 @@ jobs:
       - name: Salvar projeto pronto
         run: |
           scripts/salvar_no_repo.sh "Roteiro, voz e imagens de $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
-            --resultado out/projeto.json --campos titulo,cenas,narracao,imagens,fontesPesquisa,voz,legenda,estiloIA,tema,efeitos --limpar-midia
+            --resultado out/projeto.json --campos titulo,cenas,narracao,imagens,fontesPesquisa,voz,legenda,estiloIA,tema,efeitos,publicacao --limpar-midia
 
       - name: Marcar erro no projeto
         if: failure()

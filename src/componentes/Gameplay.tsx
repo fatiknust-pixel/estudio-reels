@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, getRemotionEnvironment, Img, interpolate, OffthreadVideo, Sequence, useCurrentFrame } from "remotion";
 import { useQuadro, useVideo } from "../contexto";
-import { FotoEnquadrada } from "../foto";
+import { FotoEnquadrada, movimentoFoto } from "../foto";
 import { FPS } from "../linhaTempo";
 import { ImagemInfo } from "../tipos";
 import { FUSAO } from "./Fundo";
@@ -74,8 +74,8 @@ export const FotosCartoes: React.FC<{ chave?: string; galeria?: string[]; inicio
           if (f < ini - FUSAO || f > ini + dura + FUSAO) return null;
           const t = Math.max(0, Math.min(1, (f - ini + FUSAO) / (dura + FUSAO)));
           const opacidade = k === 0 ? 1 : interpolate(f, [ini - FUSAO, ini], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-          const zoom = k % 2 ? 1.08 - t * 0.08 : 1 + t * 0.08;
-          return <FotoEnquadrada key={k} src={u} fundo={itens[k].fundo} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, filter: "saturate(1.08) contrast(1.04)" }} />;
+          const mov = movimentoFoto(k, t);
+          return <FotoEnquadrada key={k} src={u} fundo={itens[k].fundo} info={itens[k].info} w={largura} h={altura} zoom={mov.zoom} tx={mov.tx} ty={mov.ty} style={{ opacity: opacidade, filter: "saturate(1.08) contrast(1.04)" }} />;
         })}
       </div>
     </AbsoluteFill>
