@@ -33,18 +33,28 @@ async function infoArquivo(titulo) {
   return {
     titulo: p.title, chaveUso: p.title, url: ii.thumburl || ii.url, pagina: ii.descriptionurl,
     autor: limparHtml(m.Artist?.value) || "Desconhecido", licenca: limparHtml(m.LicenseShortName?.value) || "ver página",
+    texto: sem(p.title) + " " + textoMeta(m),
   };
 }
 // Wikipédia do idioma do vídeo (pt, en, es…) e, se o artigo não existir ou não tiver foto, a em inglês
-async function viaWiki(artigo) {
+async function viaWiki(artigo, extra = "") {
+  const toks = palavras(`${artigo} ${extra}`);
   for (const host of [...new Set([`${LINGUA}.wikipedia.org`, "en.wikipedia.org"])]) {
     const j = await api(host, { action: "query", titles: artigo, prop: "pageimages", piprop: "name", redirects: "1" });
     const nome = j.query?.pages?.[0]?.pageimage;
     const info = nome ? await infoArquivo(nome) : null;
-    if (info) return info;
+    if (info && acertos(info.texto, toks) >= 1) return info; // a foto principal de um artigo genérico costuma não ter relação com a fala
+    if (info) console.warn(`  wiki "${artigo}": foto principal (${info.titulo}) não combina — descartada`);
   }
   return null;
 }
+// Relevância: a foto só vale se o título, a descrição ou as categorias do Commons falam do assunto pedido.
+// Sem isso, a busca devolvia a foto "maior" qualquer (ponte errada, ilha de satélite, escavadeira a vapor…).
+const PARADAS = new Set("the and for with from over under view photo photograph image picture file aerial the una uno los las del que con por para como das dos uma uns pela pelo sobre entre".split(" "));
+const sem = (t = "") => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+const palavras = (q = "") => [...new Set(sem(q).split(/[^a-z0-9]+/).filter((w) => w.length >= 3 && !PARADAS.has(w)))];
+const textoMeta = (m = {}) => sem([m.ImageDescription?.value, m.ObjectName?.value, (m.Categories?.value ?? "").replace(/\|/g, " ")].map(limparHtml).join(" "));
+const acertos = (texto, toks) => toks.filter((w) => texto.includes(w)).length;
 const usadas = new Set(); // a mesma foto não entra em duas chaves do mesmo vídeo
 const pausa = (ms) => new Promise((r) => setTimeout(r, ms));
 const tipoOk = (mime) => /image\/(jpeg|png|webp)/.test(mime ?? "");
@@ -52,25 +62,35 @@ const tipoOk = (mime) => /image\/(jpeg|png|webp)/.test(mime ?? "");
 // Uma consulta devolve vários candidatos já com tamanho e licença: escolhe o de maior resolução (≥ 1280 px é o ideal),
 // com leve preferência pela ordem de relevância da busca e por JPEG.
 async function viaCommons(busca) {
-  const j = await api("commons.wikimedia.org", {
-    action: "query", generator: "search", gsrsearch: `${busca} filetype:bitmap`, gsrnamespace: "6", gsrlimit: "12",
-    prop: "imageinfo", iiprop: "url|size|extmetadata|mime", iiurlwidth: LARGURA_FOTO,
-  });
-  const paginas = [...(j.query?.pages ?? [])].sort((a, b) => (a.index ?? 99) - (b.index ?? 99));
-  let melhor = null;
-  for (const pg of paginas) {
-    const ii = pg.imageinfo?.[0];
-    if (!ii || !tipoOk(ii.mime) || usadas.has(pg.title) || (ii.width ?? 0) < 640) continue;
-    const larg = ii.width ?? 0;
-    const nota = (larg >= 1600 ? 30 : larg >= 1280 ? 20 : larg >= 800 ? 10 : 0) - (pg.index ?? 0) + (ii.mime === "image/jpeg" ? 4 : 0);
-    if (!melhor || nota > melhor.nota) melhor = { nota, pg, ii };
+  const toks = palavras(busca);
+  // da busca completa para o núcleo (os nomes próprios do começo): uma busca comprida demais não acha nada
+  const variantes = [...new Set([toks, toks.slice(0, 4), toks.slice(0, 2)].filter((t) => t.length).map((t) => t.join(" ")))];
+  for (const v of variantes) {
+    const alvo = palavras(v);
+    const j = await api("commons.wikimedia.org", {
+      action: "query", generator: "search", gsrsearch: `${v} filetype:bitmap`, gsrnamespace: "6", gsrlimit: "15",
+      prop: "imageinfo", iiprop: "url|size|extmetadata|mime", iiurlwidth: LARGURA_FOTO,
+    });
+    const paginas = [...(j.query?.pages ?? [])].sort((x, y) => (x.index ?? 99) - (y.index ?? 99));
+    let melhor = null;
+    for (const pg of paginas) {
+      const ii = pg.imageinfo?.[0];
+      if (!ii || !tipoOk(ii.mime) || usadas.has(pg.title) || (ii.width ?? 0) < 640) continue;
+      const texto = sem(pg.title) + " " + textoMeta(ii.extmetadata);
+      const n = acertos(texto, alvo);
+      if (n < Math.max(1, Math.ceil(alvo.length * 0.6))) continue; // não fala do assunto pedido
+      const larg = ii.width ?? 0;
+      const nota = n * 12 + (larg >= 1600 ? 30 : larg >= 1280 ? 20 : larg >= 800 ? 10 : 0) - (pg.index ?? 0) + (ii.mime === "image/jpeg" ? 4 : 0);
+      if (!melhor || nota > melhor.nota) melhor = { nota, pg, ii };
+    }
+    if (!melhor) continue;
+    const m = melhor.ii.extmetadata || {};
+    return {
+      titulo: melhor.pg.title, chaveUso: melhor.pg.title, url: melhor.ii.thumburl || melhor.ii.url, pagina: melhor.ii.descriptionurl,
+      autor: limparHtml(m.Artist?.value) || "Desconhecido", licenca: limparHtml(m.LicenseShortName?.value) || "ver página",
+    };
   }
-  if (!melhor) return null;
-  const m = melhor.ii.extmetadata || {};
-  return {
-    titulo: melhor.pg.title, chaveUso: melhor.pg.title, url: melhor.ii.thumburl || melhor.ii.url, pagina: melhor.ii.descriptionurl,
-    autor: limparHtml(m.Artist?.value) || "Desconhecido", licenca: limparHtml(m.LicenseShortName?.value) || "ver página",
-  };
+  return null;
 }
 
 // Openverse (api.openverse.org): sem chave o limite é baixo, então só entra quando o Commons não achou. license_type garante
@@ -79,7 +99,9 @@ async function viaOpenverse(busca) {
   const r = await fetch("https://api.openverse.org/v1/images/?" + new URLSearchParams({ q: busca, license_type: "commercial,modification", page_size: "10", extension: "jpg,png", mature: "false" }), { headers: { "User-Agent": UA } });
   if (!r.ok) return null;
   const j = await r.json();
+  const toks = palavras(busca);
   for (const it of j.results ?? []) {
+    if (acertos(sem(`${it.title ?? ""} ${(it.tags ?? []).map((t) => t.name).join(" ")}`), toks) < Math.max(1, Math.ceil(toks.length * 0.6))) continue;
     if (!it.url || usadas.has(it.url) || (it.width ?? 9999) < 1000 || (it.filesize && it.filesize > 8e6)) continue;
     const lic = String(it.license ?? "").toLowerCase();
     if (/nc|nd/.test(lic)) continue;
@@ -121,8 +143,8 @@ for (const [chave, cfg] of Object.entries(p.imagens ?? {})) {
     cfg.busca && (() => viaCommons(cfg.busca)),
     cfg.arquivoCommons && (() => infoArquivo(cfg.arquivoCommons)),
     cfg.fonte === "nasa" && termo && (() => viaNasa(termo)),
-    cfg.wiki && (() => viaWiki(cfg.wiki)),
-    cfg.commons && (() => viaCommons(cfg.commons)),
+    cfg.commons && (() => viaCommons(cfg.commons)), // a busca específica escrita para esta fala vem antes do artigo genérico
+    cfg.wiki && (() => viaWiki(cfg.wiki, cfg.commons)),
     cfg.wiki && (() => viaCommons(cfg.wiki)),
     cfg.rotulo && (() => viaCommons(cfg.rotulo)),
     termo && (() => viaOpenverse(termo)),

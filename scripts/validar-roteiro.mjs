@@ -66,7 +66,11 @@ if (roteiro) {
       if (!Array.isArray(c.galeria)) erros.push(`${onde}: galeria deve ser uma lista de chaves`);
       else {
         for (const k of c.galeria) if (!imagens[k]) erros.push(`${onde}: galeria tem "${k}", que não está no imagens.json`);
-        if (c.galeria.length > 8) erros.push(`${onde}: galeria com ${c.galeria.length} fotos (máximo 8 por cena)`);
+        if (c.galeria.length > 12) erros.push(`${onde}: galeria com ${c.galeria.length} fotos (máximo 12 por cena)`);
+        // vídeo guiado por imagens: troca de foto a cada ~6–8 s, sempre que o assunto da frase muda
+        const seg = ws.length / 2.4;
+        const minimo = Math.ceil(seg / 8);
+        if (projeto?.pedido?.genero?.galeria && seg >= 14 && c.galeria.length < minimo) erros.push(`${onde}: fala de ~${Math.round(seg)} s com só ${c.galeria.length} foto(s); precisa de pelo menos ${minimo} (uma nova a cada 6–8 s, a cada mudança de assunto), cada uma mostrando o que a frase diz naquele momento`);
       }
     }
     if (c.galeriaEm !== undefined) {
