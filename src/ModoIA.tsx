@@ -4,7 +4,7 @@ import { AbsoluteFill, Audio, Easing, interpolate, Sequence, spring, useCurrentF
 import { arquivoGlobal } from "./arquivos";
 import { useCor, useQuadro, useVideo } from "./contexto";
 import { Camera, Sobreposicao, useDinamica } from "./componentes/Dinamica";
-import { Elemento } from "./componentes/Elementos";
+import { PilhaElementos } from "./componentes/Elementos";
 import { Fundo, fotoAtual } from "./componentes/Fundo";
 import { FotosCartoes, GameplayFundo } from "./componentes/Gameplay";
 import { FONTE } from "./fontes";
@@ -102,11 +102,7 @@ const Cena: React.FC<{ c: CenaTempo; ultima: boolean }> = ({ c, ultima }) => {
       {audio && <Sequence from={2} layout="none"><Audio src={audio} /></Sequence>}
       {c.indice > 0 && projeto.efeitos.somTransicao && <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.5} />}
       <Palco>
-        {c.elementos.map((e) => (
-          <Sequence key={e.indice} from={e.entra} durationInFrames={Math.max(1, e.sai - e.entra)}>
-            <Elemento e={e} />
-          </Sequence>
-        ))}
+        <PilhaElementos elementos={c.elementos} />
       </Palco>
       <Fontes fontes={c.fontes} />
       {credito && !ultima && (

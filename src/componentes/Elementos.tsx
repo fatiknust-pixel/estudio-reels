@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useCallback, useContext, useState } from "react";
 import { AbsoluteFill, Audio, Img, interpolate, Sequence, spring, useCurrentFrame, useVideoConfig, Easing } from "remotion";
 import { arquivoGlobal as arquivo } from "../arquivos";
 import { ElementoTempo } from "../linhaTempo";
@@ -369,17 +369,60 @@ const MAPA: Record<string, React.FC<{ e: ElementoTempo }>> = {
   comentario: Comentario, seguir: Seguir,
 };
 
+// ---------- sem sobreposição ----------
+// Cada elemento tem uma faixa (posicao) na tela, mas vários podem estar na tela ao mesmo tempo e alguns são altos
+// (pessoa, definição, ícones…). A pilha mede a altura real de cada um e empurra para baixo o que bateria no de cima:
+// o elemento fica na sua faixa se couber e, senão, logo abaixo do anterior.
+const ALTURA_ESTIMADA: Record<string, number> = { titulo: 190, pergunta: 170, carimbo: 170, tag: 110, pessoa: 520, icones: 250, contador: 280, linha: 300, definicao: 260, mapa: 400, placar: 300, relogio: 300, check: 120, enquete: 360, comentario: 200, seguir: 160 };
+const EXTRA_ABAIXO: Record<string, number> = { carimbo: 90 }; // o carimbo é desenhado 90 px abaixo da faixa
+const ESPACO_ENTRE = 36;
+const faixaY = (e: ElementoTempo) => POSICAO[e.posicao ?? "alto"] ?? POSICAO.alto;
+
+type Pilha = { topo: (indice: number) => number | undefined; escala: number; medir: (indice: number, h: number) => void };
+const PilhaCtx = createContext<Pilha | null>(null);
+
+export const PilhaElementos: React.FC<{ elementos: ElementoTempo[] }> = ({ elementos }) => {
+  const f = useCurrentFrame();
+  const { projeto, quadro: q } = useVideo();
+  const [alturas, setAlturas] = useState<Record<number, number>>({});
+  const medir = useCallback((i: number, h: number) => setAlturas((a) => (Math.abs((a[i] ?? 0) - h) < 1 ? a : { ...a, [i]: h })), []);
+  const ativos = elementos.filter((e) => MAPA[e.tipo] && f >= e.entra && f < e.sai).sort((a, b) => faixaY(a) - faixaY(b) || a.entra - b.entra || a.indice - b.indice);
+  const topos: Record<number, number> = {};
+  let fim = -Infinity;
+  for (const e of ativos) {
+    const topo = Math.max(faixaY(e), fim + ESPACO_ENTRE);
+    topos[e.indice] = topo;
+    fim = topo + (alturas[e.indice] ?? ALTURA_ESTIMADA[e.tipo] ?? 160) + (EXTRA_ABAIXO[e.tipo] ?? 0);
+  }
+  // se a pilha desce até a legenda, tudo diminui junto (até 60%) para ficar acima dela
+  const limite = q.palco ? 1750 : projeto.legenda.mostrar ? (projeto.legenda.posicao / 100) * q.altura - 130 : q.altura - 250;
+  const inicio = ativos.length ? topos[ativos[0].indice] : 0;
+  const escala = ativos.length && fim > limite ? Math.max(0.6, Math.min(1, (limite - inicio) / (fim - inicio))) : 1;
+  if (escala < 1) for (const e of ativos) topos[e.indice] = inicio + (topos[e.indice] - inicio) * escala;
+  return (
+    <PilhaCtx.Provider value={{ topo: (i) => topos[i], escala, medir }}>
+      {elementos.map((e) => (
+        <Sequence key={e.indice} from={e.entra} durationInFrames={Math.max(1, e.sai - e.entra)}>
+          <Elemento e={e} />
+        </Sequence>
+      ))}
+    </PilhaCtx.Provider>
+  );
+};
+
 // Envolve qualquer elemento com posição + animação de saída
 export const Elemento: React.FC<{ e: ElementoTempo }> = ({ e }) => {
   const f = useCurrentFrame();
+  const pilha = useContext(PilhaCtx);
+  const aoMedir = useCallback((h: number) => pilha?.medir(e.indice, h), [pilha?.medir, e.indice]);
   const dinamica = useVideo().projeto.estiloIA?.dinamica ?? "padrao";
   const dur = e.sai - e.entra;
   const C = MAPA[e.tipo];
   if (!C) return null;
   const saida = interpolate(f, [dur - 7, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <AbsoluteFill style={{ top: POSICAO[e.posicao ?? "alto"] ?? POSICAO.alto, bottom: "auto", left: MARGEM_TELA, right: MARGEM_TELA, width: "auto", alignItems: "center", opacity: saida, transform: `translateY(${(1 - saida) * -40}px) scale(${0.9 + 0.1 * saida})`, ...ajusteElemento(dinamica, e.indice) }}>
-      <AjusteMargem>
+    <AbsoluteFill style={{ top: pilha?.topo(e.indice) ?? faixaY(e), bottom: "auto", left: MARGEM_TELA, right: MARGEM_TELA, width: "auto", alignItems: "center", opacity: saida, transform: `translateY(${(1 - saida) * -40}px) scale(${0.9 + 0.1 * saida})`, ...ajusteElemento(dinamica, e.indice) }}>
+      <AjusteMargem onAltura={aoMedir} extra={pilha?.escala ?? 1}>
         <C e={e} />
       </AjusteMargem>
     </AbsoluteFill>
