@@ -1,0 +1,69 @@
+name: Ideias para o canal
+run-name: Ideias ${{ inputs.canal }}
+
+# O Claude pesquisa e acrescenta ideias de vídeo à fila do canal (canais/<id>.json), sem repetir as que já existem.
+on:
+  workflow_dispatch:
+    inputs:
+      canal:
+        description: "id do canal"
+        required: true
+        type: string
+      quantidade:
+        description: "quantas ideias"
+        required: false
+        default: "12"
+        type: string
+
+permissions:
+  contents: write
+  id-token: write
+  actions: write
+
+concurrency:
+  group: ideias-${{ inputs.canal }}
+  cancel-in-progress: false
+
+jobs:
+  ideias:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CANAL: ${{ inputs.canal }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validar
+        env:
+          TEM_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+        run: |
+          if ! [[ "$CANAL" =~ ^[a-z0-9][a-z0-9-]{0,59}$ ]] || [ ! -f "canais/$CANAL.json" ]; then echo "::error::Canal '$CANAL' não encontrado"; exit 1; fi
+          if [ "$TEM_TOKEN" != "true" ]; then echo "::error::Falta o segredo CLAUDE_CODE_OAUTH_TOKEN"; exit 1; fi
+          rm -f ideias-novas.json
+
+      - name: Claude pesquisa ideias
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Você planeja o calendário de um canal dark do YouTube (documentários narrados, sem rosto).
+            1. Leia `canais/${{ inputs.canal }}.json`: `nome`, `nicho`, `idioma` e a lista `ideias` (todas, inclusive as já geradas, que NÃO podem se repetir nem ser quase iguais).
+            2. Leia `docs/guia-canal-dark.md` (seções 5 a 7) para saber o que funciona e o que o YouTube pede.
+            3. Pesquise na web (WebSearch) o que o nicho tem de interessante: casos, lugares, personagens e perguntas que as pessoas procuram e que ainda têm pouca cobertura boa em vídeo.
+               Cada ideia precisa ter fontes confiáveis disponíveis para pesquisar depois e dar para montar com fotos reais (lugares, pessoas, documentos, mapas).
+            4. Escreva ${{ inputs.quantidade }} ideias no idioma do canal, variadas (não faça 12 vezes o mesmo molde: misture "a verdadeira história de…", "por que…", "o que aconteceu com…", rankings, mistérios, comparações),
+               do mais forte para o mais fraco, em `ideias-novas.json` (na raiz do repositório), neste formato exato:
+               `[{ "titulo": "título curto e curioso, até 70 caracteres", "angulo": "1–2 frases: a tese ou a pergunta que o vídeo responde e o que o torna diferente do que já existe" }]`
+            5. Confira que o JSON é válido com `node -e "JSON.parse(require('fs').readFileSync('ideias-novas.json','utf8'))"`.
+            Não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --model sonnet
+            --max-turns 40
+            --allowedTools "WebSearch,WebFetch,Read,Write,Glob,Grep,Bash(node -e:*)"
+
+      - name: Salvar ideias na fila
+        run: scripts/salvar_no_repo.sh "Novas ideias do canal $CANAL" node scripts/canal.mjs ideias "$CANAL" ideias-novas.json

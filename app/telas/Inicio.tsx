@@ -57,6 +57,13 @@ export const Inicio: React.FC = () => {
             <span>Escolha um vídeo da galeria e um estilo viral: legendas, cortes de pausas, zooms e destaques.</span>
           </div>
         </button>
+        <button className="modo" onClick={() => ir("/canais")}>
+          <div className="emoji">📺</div>
+          <div>
+            <b>Canais (1 vídeo por dia)</b>
+            <span>Crie um canal dark sobre um assunto: fila de ideias e um documentário novo gerado todo dia.</span>
+          </div>
+        </button>
       </div>
 
       <h2>Meus projetos</h2>

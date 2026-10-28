@@ -97,6 +97,8 @@ jobs:
                O idioma do vídeo é `pedido.idioma` ou `idioma` do projeto (padrão pt-BR): escreva narração, textos na tela, `publicacao` e os
                títulos da Wikipédia (`wiki`) nesse idioma, direto, sem traduzir frase por frase. Se houver `genero` (canal dark),
                leia também `docs/guia-canal-dark.md` e siga a estrutura de capítulos, o ritmo, as fotos (`galeria` + `galeriaEm`) e o campo `publicacao`.
+               Se houver `pedido.canal` (canal com um vídeo por dia): o vídeo é de um canal sobre `canal.nicho`; mantenha a voz e a identidade do canal,
+               mas abra e estruture de forma diferente dos vídeos em `canal.anteriores` (não repita ganchos nem molde), e sempre com ângulo próprio e fontes.
             3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
             3b. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
                e escolha o `estilo` deste vídeo: o que vier fixo em `pedido.estilo` é obrigatório; onde estiver "auto",
@@ -137,6 +139,8 @@ jobs:
                O idioma do vídeo é `pedido.idioma` ou `idioma` do projeto (padrão pt-BR): escreva narração, textos na tela, `publicacao` e os
                títulos da Wikipédia (`wiki`) nesse idioma, direto, sem traduzir frase por frase. Se houver `genero` (canal dark),
                leia também `docs/guia-canal-dark.md` e siga a estrutura de capítulos, o ritmo, as fotos (`galeria` + `galeriaEm`) e o campo `publicacao`.
+               Se houver `pedido.canal` (canal com um vídeo por dia): o vídeo é de um canal sobre `canal.nicho`; mantenha a voz e a identidade do canal,
+               mas abra e estruture de forma diferente dos vídeos em `canal.anteriores` (não repita ganchos nem molde), e sempre com ângulo próprio e fontes.
             3. Pesquise o tema na web em fontes confiáveis e confira os fatos (datas, números, nomes).
             3b. Rode `node scripts/estilo-ia.mjs recentes ${{ inputs.projeto }}` para ver o estilo dos vídeos anteriores
                e escolha o `estilo` deste vídeo: o que vier fixo em `pedido.estilo` é obrigatório; onde estiver "auto",
