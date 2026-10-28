@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "documentario",
  "criadoEm": "2026-10-28T14:30:01.193Z",
- "atualizadoEm": "2026-10-28T14:30:01.197Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-28T14:33:29Z",
+ "status": "erro",
  "legenda": {
   "fonte": "montserrat",
   "tamanho": 92,
@@ -63,6 +63,7 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T14:30:01.193Z"
+  "pedidoEm": "2026-10-28T14:30:01.193Z",
+  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/40706535099"
  }
 }
