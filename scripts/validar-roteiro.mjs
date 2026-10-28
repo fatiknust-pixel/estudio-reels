@@ -112,6 +112,14 @@ if (roteiro) {
     const com = (roteiro.cenas ?? []).filter((c) => c.fundo || (Array.isArray(c.galeria) && c.galeria.length)).length;
     if (com < Math.ceil(total * 0.6)) erros.push(`pelo menos ${Math.ceil(total * 0.6)} das ${total} cenas precisam de foto do assunto exato da fala ("fundo" ou "galeria"; hoje: ${com})`);
   }
+  if (genero?.galeria) {
+    const pub = roteiro.publicacao;
+    if (!pub || !Array.isArray(pub.titulos) || pub.titulos.length < 3) erros.push('falta "publicacao" com pelo menos 3 títulos alternativos (e descrição e tags) — veja docs/guia-canal-dark.md');
+    else {
+      if (!pub.descricao || String(pub.descricao).length < 80) avisos.push("publicacao.descricao curta: inclua o que o vídeo mostra, os capítulos (0:00 …) e as fontes");
+      if (!Array.isArray(pub.tags) || pub.tags.length < 5) avisos.push("publicacao.tags: use de 8 a 12 tags");
+    }
+  }
   if (!temEnquete && !genero) avisos.push("nenhum elemento 'enquete' (pergunta final para o público)");
   if (!temSeguir) avisos.push("nenhum elemento 'seguir' (CTA)");
   const alvo = Number(projeto?.pedido?.duracao) || 0;

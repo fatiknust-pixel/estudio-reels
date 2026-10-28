@@ -115,11 +115,13 @@ export type Projeto = {
   cortes?: Corte[];
   gancho?: Gancho | null;
   // ia
-  pedido?: { tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; genero?: { id: string; nome: string; instrucoes: string; galeria?: boolean }; lote?: { indice: number; total: number; outros: string[] } };
+  pedido?: { idioma?: string; tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; genero?: { id: string; nome: string; instrucoes: string; galeria?: boolean }; lote?: { indice: number; total: number; outros: string[] } };
   estiloIA?: EstiloIA;
   formato?: "9:16" | "16:9"; // quadro do vídeo: vertical (padrão) ou horizontal
   genero?: string; // gênero do vídeo (catálogo src/generos.json), escolhido no pedido do Modo 1
   fundoVideo?: FundoVideo; // modo IA: gameplay (ou outro vídeo) rodando no fundo; as fotos entram por cima como cartões
+  idioma?: string; // idioma do vídeo (src/idiomas.ts); padrão pt-BR
+  publicacao?: { titulos: string[]; descricao: string; tags: string[] }; // títulos, descrição e tags prontos para postar (escritos pelo Claude)
   visual?: "aula"; // modo IA: "aula" = videoaula com fundo branco e ícones simples (sem dinâmica de Reels)
   voz?: { edge: string; velocidade: string; tratamento?: boolean }; // tratamento: equalização, compressor e -16 LUFS
   cenas?: Cena[];

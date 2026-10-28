@@ -3,6 +3,7 @@ import GENEROS from "../../src/generos.json";
 import { TEMAS } from "../../src/temas";
 import { CampoEstilo, DINAMICAS, estilosDoLote, OPCOES_ESTILO, PALETAS } from "../estilosIA";
 import { temToken } from "../lib/github";
+import { IDIOMAS, idiomaDe } from "../../src/idiomas";
 import { criarIA, lerMetaVideo, MetaVideo, novoFundo, novoIdProjeto, projetoIA } from "../lib/projetos";
 import { Alternar, fmtTempo, avisar, avisarErro, Escolha, ir } from "../ui";
 
@@ -11,7 +12,6 @@ const DURACOES: [number, string][] = [[30, "30 s"], [45, "45 s"], [60, "1 min"],
 type Genero = (typeof GENEROS.generos)[number];
 const FORMATOS: [string, string][] = [["9:16", "📱 Vertical 9:16 (Reels, TikTok)"], ["16:9", "🖥️ Horizontal 16:9 (YouTube, aulas)"]];
 const VISUAIS: [string, string][] = [["reels", "🎬 Reels (dinâmico)"], ["aula", "📚 Videoaula (fundo branco, ícones simples)"]];
-const VOZES: [string, string][] = [["pt-BR-AntonioNeural", "Antonio (masc.)"], ["pt-BR-FranciscaNeural", "Francisca (fem.)"], ["pt-BR-ThalitaMultilingualNeural", "Thalita (fem.)"]];
 const IDEIAS = ["Por que o real perdeu valor desde 1994?", "Como funciona a delação premiada", "5 mitos sobre o sono que a ciência derrubou", "O que muda com a reforma tributária"];
 const MAX_LOTE = 5;
 
@@ -24,7 +24,8 @@ export const NovoIA: React.FC = () => {
   const [estilo, setEstilo] = useState(ESTILO_INICIAL);
   const [variar, setVariar] = useState(true);
   const [duracao, setDuracao] = useState(60);
-  const [voz, setVoz] = useState(VOZES[0][0]);
+  const [idioma, setIdioma] = useState(IDIOMAS[0].id);
+  const [voz, setVoz] = useState(IDIOMAS[0].vozes[0][0]);
   const [formato, setFormato] = useState("9:16");
   const [genero, setGenero] = useState<Genero | null>(null);
   const [visual, setVisual] = useState("reels");
@@ -88,13 +89,15 @@ export const NovoIA: React.FC = () => {
             tom: tomLivre.trim() || tom,
             duracao,
             estilo: e,
+            ...(idioma !== IDIOMAS[0].id ? { idioma } : {}),
             ...(genero ? { genero: { id: genero.id, nome: genero.nome, instrucoes: genero.instrucoes, galeria: genero.galeria } } : {}),
             ...(n > 1 ? { lote: { indice: i + 1, total: n, outros: temas.filter((_, j) => j !== i) } } : {}),
           },
           e.paleta !== "auto" ? e.paleta : "padrao",
           voz,
           formato as "9:16" | "16:9",
-          visual === "aula" ? "aula" : undefined
+          visual === "aula" ? "aula" : undefined,
+          { idioma, documentario: !!genero?.galeria }
         );
         const comFundo = fundo && visual !== "aula";
         if (comFundo) p.fundoVideo = novoFundo(fundo.meta);
@@ -211,8 +214,9 @@ export const NovoIA: React.FC = () => {
         </>
       )}
 
-      <h3>Voz</h3>
-      <Escolha opcoes={VOZES} valor={voz} mudar={setVoz} />
+      <h3>Idioma e voz</h3>
+      <Escolha opcoes={IDIOMAS.map((i) => [i.id, i.nome] as [string, string])} valor={idioma} mudar={(v) => { setIdioma(v); setVoz(idiomaDe(v).vozes[0][0]); }} />
+      <Escolha opcoes={idiomaDe(idioma).vozes} valor={voz} mudar={setVoz} />
 
       <h2>Estilo da edição</h2>
       <p className="pequeno suave" style={{ marginTop: -4 }}>

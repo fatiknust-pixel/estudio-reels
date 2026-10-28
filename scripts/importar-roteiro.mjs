@@ -14,6 +14,7 @@ const imagensCfg = fs.existsSync(path.join(pasta, "imagens.json")) ? ler("imagen
 projeto.titulo = roteiro.titulo || projeto.titulo;
 projeto.cenas = roteiro.cenas.map((c) => ({ id: c.id, texto: c.texto.trim(), fundo: c.fundo || undefined, galeria: Array.isArray(c.galeria) && c.galeria.length ? c.galeria : undefined, galeriaEm: Array.isArray(c.galeria) && c.galeria.length > 1 && Array.isArray(c.galeriaEm) ? c.galeriaEm : undefined, fontes: c.fontes ?? [], elementos: c.elementos ?? [] }));
 projeto.fontesPesquisa = roteiro.fontesPesquisa ?? [];
+if (roteiro.publicacao && Array.isArray(roteiro.publicacao.titulos)) projeto.publicacao = { titulos: roteiro.publicacao.titulos.map(String), descricao: String(roteiro.publicacao.descricao ?? ""), tags: (roteiro.publicacao.tags ?? []).map(String) };
 if (roteiro.legenda?.palavrasPorTela) projeto.legenda = { ...projeto.legenda, palavrasPorTela: roteiro.legenda.palavrasPorTela };
 aplicarEstilo(projeto, roteiro.estilo);
 projeto.voz = projeto.voz ?? { edge: "pt-BR-AntonioNeural", velocidade: "+5%" };

@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, useCurrentFrame } from "remotion";
 import { useQuadro, useVideo } from "../contexto";
-import { FotoEnquadrada } from "../foto";
+import { FotoEnquadrada, movimentoFoto } from "../foto";
 import { ImagemInfo } from "../tipos";
 
 // Galeria (estilo documentário): várias fotos na mesma cena, cada uma num pedaço igual do tempo,
@@ -49,8 +49,8 @@ export const Fundo: React.FC<{ chave?: string; galeria?: string[]; inicios?: num
         const opacidade = k === 0 ? 1 : interpolate(f, [ini - FUSAO, ini], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         // documentário alterna aproximar/afastar; cena com uma foto só mantém um zoom lento. O zoom sai do foco da foto
         // e é curto (no máximo ~10%): a foto não é cortada além do enquadramento escolhido
-        const zoom = documentario ? (k % 2 ? 1.08 - t * 0.08 : 1 + t * 0.08) : 1 + t * 0.1;
-        return <FotoEnquadrada key={k} src={u} fundo={itens[k].fundo} info={itens[k].info} w={largura} h={altura} zoom={zoom} style={{ opacity: opacidade, ...(leve ? {} : { filter: "saturate(1.1) contrast(1.05)" }) }} />;
+        const mov = movimentoFoto(indice + k, t);
+        return <FotoEnquadrada key={k} src={u} fundo={itens[k].fundo} info={itens[k].info} w={largura} h={altura} zoom={mov.zoom} tx={mov.tx} ty={mov.ty} style={{ opacity: opacidade, ...(leve ? {} : { filter: "saturate(1.1) contrast(1.05)" }) }} />;
       })}
       {/* escurece para o texto aparecer */}
       <AbsoluteFill style={{ background: !src ? "transparent" : documentario ? `linear-gradient(180deg, ${tema.fundo}66 0%, transparent 25%, transparent 55%, ${tema.fundo}D9 100%)` : `linear-gradient(180deg, ${tema.fundo}8C 0%, ${tema.fundo}59 35%, ${tema.fundo}BF 62%, ${tema.fundo}F2 100%)` }} />

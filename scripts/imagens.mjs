@@ -16,6 +16,7 @@ const api = async (host, params) => {
   if (!r.ok) throw new Error(`${host} respondeu ${r.status}`);
   return r.json();
 };
+let LINGUA = "pt";
 const limparHtml = (s = "") => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 
 async function infoArquivo(titulo) {
@@ -32,10 +33,15 @@ async function infoArquivo(titulo) {
     autor: limparHtml(m.Artist?.value) || "Desconhecido", licenca: limparHtml(m.LicenseShortName?.value) || "ver página",
   };
 }
+// Wikipédia do idioma do vídeo (pt, en, es…) e, se o artigo não existir ou não tiver foto, a em inglês
 async function viaWiki(artigo) {
-  const j = await api("pt.wikipedia.org", { action: "query", titles: artigo, prop: "pageimages", piprop: "name", redirects: "1" });
-  const nome = j.query?.pages?.[0]?.pageimage;
-  return nome ? infoArquivo(nome) : null;
+  for (const host of [...new Set([`${LINGUA}.wikipedia.org`, "en.wikipedia.org"])]) {
+    const j = await api(host, { action: "query", titles: artigo, prop: "pageimages", piprop: "name", redirects: "1" });
+    const nome = j.query?.pages?.[0]?.pageimage;
+    const info = nome ? await infoArquivo(nome) : null;
+    if (info) return info;
+  }
+  return null;
 }
 async function viaCommons(busca) {
   const j = await api("commons.wikimedia.org", { action: "query", list: "search", srsearch: `${busca} filetype:bitmap`, srnamespace: "6", srlimit: "8" });
@@ -47,6 +53,7 @@ async function viaCommons(busca) {
 }
 
 const p = JSON.parse(fs.readFileSync(arq, "utf8"));
+LINGUA = String(p.idioma ?? p.pedido?.idioma ?? "pt-BR").split("-")[0].toLowerCase();
 // fotos na largura do quadro: 1920 px no horizontal (16:9), 1080 px no vertical
 const LARGURA_FOTO = p.formato === "16:9" ? "1920" : "1080";
 fs.mkdirSync(path.join(midia, "imagens"), { recursive: true });

@@ -183,7 +183,7 @@ export const criarBruto = async (p: Projeto, arquivo: File, tocavel: boolean, fa
 export type PedidoIA = NonNullable<Projeto["pedido"]>;
 
 // visual "aula": videoaula de fundo branco (tema e voz tratada próprios)
-export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: string, voz: string, formato: NonNullable<Projeto["formato"]> = "9:16", visual?: "aula"): Projeto => {
+export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: string, voz: string, formato: NonNullable<Projeto["formato"]> = "9:16", visual?: "aula", opcoes: { idioma?: string; documentario?: boolean } = {}): Projeto => {
   const agora = new Date().toISOString();
   return {
     versao: 1, id, titulo, modo: "ia", estilo: "documentario", tema: visual ? "aula" : tema, criadoEm: agora, atualizadoEm: agora, status: "processando",
@@ -192,7 +192,9 @@ export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: st
     pedido,
     formato,
     ...(visual ? { visual } : {}),
-    voz: visual ? { edge: voz, velocidade: "+0%", tratamento: true } : { edge: voz, velocidade: "+5%" },
+    ...(opcoes.idioma ? { idioma: opcoes.idioma } : {}),
+    // documentário de canal dark: voz um pouco mais lenta, com o tratamento de estúdio (EQ, compressor, volume parelho)
+    voz: visual ? { edge: voz, velocidade: "+0%", tratamento: true } : opcoes.documentario ? { edge: voz, velocidade: "-4%", tratamento: true } : { edge: voz, velocidade: "+5%" },
     cenas: [],
     narracao: {},
     imagens: {},
@@ -242,7 +244,7 @@ export const pedirAtualizacaoIA = async (p: Projeto, aviso?: (m: string) => void
 };
 
 // Depois que uma Action termina: traz o que ela gerou sem perder o que você mudou no aparelho
-const GERADOS = ["video", "palavras", "gancho", "cenas", "narracao", "imagens", "fontesPesquisa", "voz", "sugestoes", "status", "processamento"] as const;
+const GERADOS = ["video", "palavras", "gancho", "cenas", "narracao", "imagens", "fontesPesquisa", "voz", "sugestoes", "publicacao", "status", "processamento"] as const;
 export const trazerResultado = async (atual: Projeto): Promise<Projeto> => {
   const remoto = await gh.lerJSON<Projeto>(`${pasta(atual.id)}/projeto.json`);
   const novo: Projeto = structuredClone(atual);

@@ -36,11 +36,26 @@ export const enquadrarFoto = (info: ImagemInfo | undefined, W: number, H: number
   return { modo: "cobrir", pos: `${px.toFixed(1)}% ${py.toFixed(1)}%`, origem: `${ox.toFixed(1)}% ${oy.toFixed(1)}%` };
 };
 
+// Movimento lento de câmera (efeito Ken Burns) de cada foto: t vai de 0 a 1 durante o tempo em que a foto está na tela.
+// Os tipos se alternam de foto em foto: aproximar, arrastar para um lado, afastar, arrastar para o outro, aproximar na diagonal.
+// A amplitude é pequena (≈ 10% de zoom, ≈ 3% de arrasto) e o zoom nunca fica abaixo do necessário para as bordas da foto não aparecerem.
+export type Movimento = { zoom: number; tx: number; ty: number }; // tx/ty em % da caixa
+export const movimentoFoto = (n: number, t: number): Movimento => {
+  const e = t * t * (3 - 2 * t); // começa e termina devagar
+  switch (((n % 5) + 5) % 5) {
+    case 0: return { zoom: 1.02 + 0.1 * e, tx: 0, ty: 0 }; // aproxima
+    case 1: return { zoom: 1.08, tx: -3 + 6 * e, ty: 0 }; // arrasta da esquerda para a direita
+    case 2: return { zoom: 1.12 - 0.1 * e, tx: 0, ty: 0 }; // afasta
+    case 3: return { zoom: 1.08, tx: 3 - 6 * e, ty: 0 }; // arrasta da direita para a esquerda
+    default: return { zoom: 1.03 + 0.09 * e, tx: -1.5 + 3 * e, ty: 1.5 - 3 * e }; // aproxima na diagonal
+  }
+};
+
 // Foto numa caixa W×H (px). "zoom" = escala atual (1 = sem zoom). Posicione/anime a caixa por fora.
-export const FotoEnquadrada: React.FC<{ src: string; fundo?: string | null; info?: ImagemInfo; w: number; h: number; zoom?: number; style?: React.CSSProperties; redonda?: boolean }> = ({ src, fundo, info, w, h, zoom = 1, style, redonda }) => {
+export const FotoEnquadrada: React.FC<{ src: string; fundo?: string | null; info?: ImagemInfo; w: number; h: number; zoom?: number; tx?: number; ty?: number; style?: React.CSSProperties; redonda?: boolean }> = ({ src, fundo, info, w, h, zoom = 1, tx = 0, ty = 0, style, redonda }) => {
   const e = enquadrarFoto(info, w, h, { redonda });
   if (e.modo === "cobrir") {
-    return <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", objectPosition: e.pos, transformOrigin: e.origem, transform: `scale(${zoom})`, ...style }} />;
+    return <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", objectPosition: e.pos, transformOrigin: e.origem, transform: `translate(${tx}%, ${ty}%) scale(${zoom})`, ...style }} />;
   }
   // Foto inteira sobre um fundo da própria foto. O fundo vem pronto (miniatura já desfocada e escurecida por
   // enquadrar.py): blur em CSS numa camada que anima (zoom da câmera, fusão) derruba o Safari do iPhone.
@@ -53,7 +68,7 @@ export const FotoEnquadrada: React.FC<{ src: string; fundo?: string | null; info
       ) : (
         <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.4)" }} />
       )}
-      <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "contain", transform: `scale(${1 + (zoom - 1) * 0.5})` }} />
+      <Img src={src} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "contain", transform: `translate(${tx * 0.5}%, ${ty * 0.5}%) scale(${1 + (zoom - 1) * 0.5})` }} />
     </AbsoluteFill>
   );
 };
