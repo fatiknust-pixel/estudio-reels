@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.480Z",
- "atualizadoEm": "2026-10-28T20:24:12Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-28T23:35:05Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Como pontes no mar são construídas",
   "tom": "Curioso e analítico",
@@ -52,11 +52,13 @@
    "galeria": [
     "hzmb-aerea",
     "hzmb-ilha",
-    "hzmb-mapa"
+    "hzmb-mapa",
+    "hzmb-estrada"
    ],
    "galeriaEm": [
     0,
     "mergulha",
+    "ligando",
     "Como"
    ],
    "fontes": [
@@ -81,12 +83,16 @@
    "galeria": [
     "engenheiros-obra",
     "ponte-akashi-torre",
-    "kobe-terremoto"
+    "kobe-terremoto",
+    "promessa-oresund",
+    "promessa-rio"
    ],
    "galeriaEm": [
     0,
     "Uma",
-    "terremoto"
+    "terremoto",
+    "Dinamarca",
+    "Janeiro"
    ],
    "fontes": [],
    "elementos": []
@@ -96,15 +102,23 @@
    "texto": "O mar é um péssimo lugar para construir. O fundo é mole, a água tem dezenas de metros de profundidade, e ondas, marés e tempestades nunca param. Navios enormes precisam passar por baixo ou ao lado. Então a pergunta não é só como atravessar. É como atravessar sem bloquear a navegação e sem cair. Há ainda o sal, que corrói o aço e o concreto, e o vento forte, que balança qualquer estrutura esbelta. Por isso o projeto de uma ponte marítima pensa em décadas de desgaste, não em anos. Os engenheiros têm três caminhos: vãos gigantes, muitos pilares, ou enterrar a estrada. A China resolveu usar todos ao mesmo tempo.",
    "galeria": [
     "fundo-mar-obra",
+    "mar-ondas",
     "porto-navios",
+    "navegacao-canal",
+    "corrosao-sal",
+    "vento-ponte",
     "balsa-estacas",
     "hzmb-cabos"
    ],
    "galeriaEm": [
     0,
+    "ondas",
     "Navios",
+    "bloquear",
+    "sal",
+    "vento",
     "Os",
-    "A"
+    "China"
    ],
    "fontes": [],
    "elementos": [
@@ -141,14 +155,22 @@
    "texto": "O primeiro truque foi criar terra firme. A ponte e o túnel precisavam de duas ilhas artificiais para se encontrar. Em vez de despejar areia, que a corrente levaria embora, os construtores cravaram células circulares de aço na lama e as encheram com material inerte. Elas formaram um muro de contenção, e só depois o miolo da ilha foi preenchido. Cada ilha precisava ser firme o bastante para sustentar as rampas e a estrutura de acesso ao túnel. Era engenharia de porto aplicada a uma rodovia, e tudo isso antes de a primeira peça do túnel chegar. A obra começou em dois mil e nove, do lado chinês. Mas faltava a parte mais difícil.",
    "galeria": [
     "hzmb-ilha-obra",
-    "celulas-aco",
+    "ilha-hk-link",
     "reclamacao-aterro",
+    "celulas-aco",
+    "ensecadeira-muro",
+    "ilha-tunel-portal",
+    "porto-engenharia",
     "hzmb-ilha-hoje"
    ],
    "galeriaEm": [
     0,
+    "duas",
+    "despejar",
     "cravaram",
     "muro",
+    "Cada",
+    "Era",
     "Mas"
    ],
    "fontes": [
@@ -175,14 +197,22 @@
    "id": "tunel",
    "texto": "A parte difícil era o túnel de seis vírgula sete quilômetros. Ninguém escava debaixo do mar aberto. Os trechos são fabricados em terra, como enormes caixas de concreto, fechados nas pontas e rebocados flutuando. Depois são afundados num vale cavado no fundo e encaixados um no outro. É a técnica do túnel imerso: um tubo montado em terra e encaixado no mar, sem escavar a rocha. Cada encaixe exige precisão enorme, com correntes, lama e pressão da água atrapalhando o trabalho. O último encaixe, a junta final, foi feito em dois de maio de dois mil e dezessete. Ele foi projetado para durar cento e vinte anos.",
    "galeria": [
+    "tunel-hzmb-portal",
     "tunel-imerso-elemento",
+    "tunel-imerso-reboque",
     "tunel-imerso-esquema",
+    "tunel-imerso-encaixe",
+    "tunel-junta-final",
     "tunel-imerso-interior"
    ],
    "galeriaEm": [
     0,
     "Os",
-    "Depois"
+    "rebocados",
+    "Depois",
+    "Cada",
+    "último",
+    "Ele"
    ],
    "fontes": [
     "Wikipédia — HZMB"
@@ -201,16 +231,24 @@
   },
   {
    "id": "custo",
-   "texto": "O resultado tem um trecho principal de vinte e nove vírgula seis quilômetros, com três pontes estaiadas e vãos de duzentos e oitenta a quatrocentos e sessenta metros. A conta foi pesada: cerca de cento e vinte e sete bilhões de yuans, perto de dezenove bilhões de dólares. E o custo humano também: dezenove trabalhadores morreram na obra. Ela abriu ao público em vinte e quatro de outubro de dois mil e dezoito. Do lado chinês, a construção começou em dois mil e nove, e do lado de Hong Kong em dois mil e onze. Foram quase nove anos entre as primeiras obras e a primeira viagem de carro. Mas existe outro lugar onde a ponte vira túnel por um motivo bem diferente.",
+   "texto": "O resultado tem um trecho principal de vinte e nove vírgula seis quilômetros, com três pontes estaiadas e vãos de duzentos e oitenta a quatrocentos e sessenta metros. A conta foi pesada: cerca de cento e vinte e sete bilhões de yuans, perto de dezenove bilhões de dólares. E o custo humano também: vários trabalhadores morreram na obra. Ela abriu ao público em vinte e quatro de outubro de dois mil e dezoito. Do lado chinês, a construção começou em dois mil e nove, e do lado de Hong Kong em dois mil e onze. Foram quase nove anos entre as primeiras obras e a primeira viagem de carro. Mas existe outro lugar onde a ponte vira túnel por um motivo bem diferente.",
    "galeria": [
     "hzmb-estaiada",
+    "hzmb-qingzhou",
+    "yuan",
+    "hzmb-abertura",
+    "zhuhai",
     "hong-kong-skyline",
-    "macau-skyline"
+    "hzmb-trafego"
    ],
    "galeriaEm": [
     0,
-    "A",
-    "Ela"
+    "três",
+    "conta",
+    "Ela",
+    "Do",
+    "Hong",
+    "Foram"
    ],
    "fontes": [
     "Wikipédia — HZMB"
@@ -253,13 +291,21 @@
     "oresund-ponte",
     "peberholm",
     "oresund-tunel",
-    "copenhague"
+    "copenhague",
+    "oresund-dragagem",
+    "oresund-trem",
+    "oresund-balsa",
+    "oresund-abertura"
    ],
    "galeriaEm": [
     0,
+    "termina",
     "Dali",
-    "motivo",
-    "Ela"
+    "aviões",
+    "dragado",
+    "corredor",
+    "balsas",
+    "abriu"
    ],
    "fontes": [
     "Wikipédia — Øresund",
@@ -288,15 +334,23 @@
    "texto": "No Japão, a ponte Akashi Kaikyō venceu o problema com um vão central de mil novecentos e noventa e um metros, o maior do mundo entre pontes suspensas. A obra começou em mil novecentos e oitenta e oito. Esse estreito é uma rota marítima movimentada, sujeita a ventos fortes, e por isso a ponte precisou de um desenho muito rígido e de cabos enormes para segurar o peso da pista. As fundações precisaram vencer uma água de uns quarenta e cinco metros de profundidade. Em mil novecentos e noventa e cinco, as torres já estavam de pé quando o terremoto de Kobe sacudiu a região. O epicentro ficava ali ao lado. E o que aconteceu com a ponte vai surpreender você.",
    "galeria": [
     "akashi-ponte",
+    "akashi-obra",
     "akashi-estreito-mapa",
+    "akashi-cabos-suspensao",
     "akashi-fundacao",
-    "kobe-cidade"
+    "kobe-cidade",
+    "kobe-epicentro",
+    "akashi-noite"
    ],
    "galeriaEm": [
     0,
-    "mil",
+    "obra",
+    "estreito",
+    "cabos",
     "fundações",
-    "Em"
+    "terremoto",
+    "epicentro",
+    "surpreender"
    ],
    "fontes": [
     "ICE",
@@ -327,12 +381,20 @@
    "galeria": [
     "kobe-danos",
     "akashi-torre",
-    "akashi-cabos"
+    "akashi-vao",
+    "akashi-cabos",
+    "nojima-falha",
+    "kobe-memorial",
+    "akashi-maiko"
    ],
    "galeriaEm": [
     0,
-    "A",
-    "A"
+    "torres",
+    "vão",
+    "cabos",
+    "natureza",
+    "tragédia",
+    "abriu"
    ],
    "fontes": [
     "ICE",
@@ -372,13 +434,23 @@
    "texto": "E o Brasil também tem uma obra dessas. A ponte Rio-Niterói tem treze vírgula vinte e nove quilômetros, dos quais oito vírgula oito sobre a Baía de Guanabara. O vão central de trezentos metros, a setenta e dois de altura, foi o maior vão em viga caixão do mundo quando ficou pronto. Para os brasileiros, a ponte virou rotina, com dezenas de milhares de veículos por dia. Para os engenheiros da época, foi uma prova de que dava para atravessar uma baía inteira com concreto e aço. Ela foi inaugurada em quatro de março de mil novecentos e setenta e quatro. Oficialmente, trinta e três pessoas morreram na obra. Estimativas não oficiais passam de quatrocentas.",
    "galeria": [
     "rio-niteroi",
+    "rio-niteroi-aerea",
+    "baia-guanabara",
     "rio-niteroi-vao",
-    "baia-guanabara"
+    "rio-niteroi-viga",
+    "rio-niteroi-transito",
+    "rio-niteroi-construcao",
+    "rio-niteroi-inauguracao"
    ],
    "galeriaEm": [
     0,
-    "O",
-    "Ela"
+    "quilômetros",
+    "Baía",
+    "vão",
+    "viga",
+    "veículos",
+    "engenheiros",
+    "inaugurada"
    ],
    "fontes": [
     "Marinha do Brasil",
@@ -409,12 +481,18 @@
    "galeria": [
     "ponte-noite-mar",
     "construcao-ponte-balsa",
-    "ponte-tempestade"
+    "pilares-causeway",
+    "ponte-tempestade",
+    "terremoto-baybridge",
+    "ponte-nevoeiro"
    ],
    "galeriaEm": [
     0,
     "Primeiro",
-    "oceano"
+    "escolhendo",
+    "tempestade",
+    "terremoto",
+    "natureza"
    ],
    "fontes": [],
    "elementos": [
@@ -2873,10 +2951,10 @@
    ]
   },
   "custo": {
-   "hash": "e107265f10",
-   "texto": "O resultado tem um trecho principal de vinte e nove vírgula seis quilômetros, com três pontes estaiadas e vãos de duzentos e oitenta a quatrocentos e sessenta metros. A conta foi pesada: cerca de cento e vinte e sete bilhões de yuans, perto de dezenove bilhões de dólares. E o custo humano também: dezenove trabalhadores morreram na obra. Ela abriu ao público em vinte e quatro de outubro de dois mil e dezoito. Do lado chinês, a construção começou em dois mil e nove, e do lado de Hong Kong em dois mil e onze. Foram quase nove anos entre as primeiras obras e a primeira viagem de carro. Mas existe outro lugar onde a ponte vira túnel por um motivo bem diferente.",
-   "audio": "audio/custo-e107265f10.mp3",
-   "duracao": 47.464,
+   "hash": "f8649886df",
+   "texto": "O resultado tem um trecho principal de vinte e nove vírgula seis quilômetros, com três pontes estaiadas e vãos de duzentos e oitenta a quatrocentos e sessenta metros. A conta foi pesada: cerca de cento e vinte e sete bilhões de yuans, perto de dezenove bilhões de dólares. E o custo humano também: vários trabalhadores morreram na obra. Ela abriu ao público em vinte e quatro de outubro de dois mil e dezoito. Do lado chinês, a construção começou em dois mil e nove, e do lado de Hong Kong em dois mil e onze. Foram quase nove anos entre as primeiras obras e a primeira viagem de carro. Mas existe outro lugar onde a ponte vira túnel por um motivo bem diferente.",
+   "audio": "audio/custo-f8649886df.mp3",
+   "duracao": 47.203,
    "palavras": [
     {
      "p": "O",
@@ -3121,377 +3199,377 @@
     {
      "p": "E",
      "i": 18.51,
-     "f": 18.653
+     "f": 18.64
     },
     {
      "p": "o",
-     "i": 18.666,
-     "f": 18.744
+     "i": 18.653,
+     "f": 18.718
     },
     {
      "p": "custo",
-     "i": 18.757,
-     "f": 19.109
+     "i": 18.731,
+     "f": 19.083
     },
     {
      "p": "humano",
-     "i": 19.122,
-     "f": 19.5
+     "i": 19.096,
+     "f": 19.435
     },
     {
      "p": "também",
-     "i": 19.513,
-     "f": 19.942
+     "i": 19.448,
+     "f": 19.851
     },
     {
-     "p": "dezenove",
-     "i": 20.216,
-     "f": 20.815
+     "p": "vários",
+     "i": 20.203,
+     "f": 20.554
     },
     {
      "p": "trabalhadores",
-     "i": 20.828,
-     "f": 21.596
+     "i": 20.567,
+     "f": 21.31
     },
     {
      "p": "morreram",
-     "i": 21.609,
-     "f": 22.078
+     "i": 21.323,
+     "f": 21.778
     },
     {
      "p": "na",
-     "i": 22.091,
-     "f": 22.234
+     "i": 21.791,
+     "f": 21.935
     },
     {
      "p": "obra",
-     "i": 22.247,
-     "f": 22.586
+     "i": 21.948,
+     "f": 22.312
     },
     {
      "p": "Ela",
-     "i": 23.838,
-     "f": 24.059
+     "i": 23.574,
+     "f": 23.795
     },
     {
      "p": "abriu",
-     "i": 24.072,
-     "f": 24.398
+     "i": 23.808,
+     "f": 24.134
     },
     {
      "p": "ao",
-     "i": 24.411,
-     "f": 24.541
+     "i": 24.147,
+     "f": 24.277
     },
     {
      "p": "público",
-     "i": 24.554,
-     "f": 24.984
+     "i": 24.29,
+     "f": 24.72
     },
     {
      "p": "em",
-     "i": 24.997,
-     "f": 25.101
+     "i": 24.733,
+     "f": 24.837
     },
     {
      "p": "vinte",
-     "i": 25.114,
-     "f": 25.401
+     "i": 24.85,
+     "f": 25.137
     },
     {
      "p": "e",
-     "i": 25.414,
-     "f": 25.427
+     "i": 25.15,
+     "f": 25.163
     },
     {
      "p": "quatro",
-     "i": 25.44,
-     "f": 25.791
+     "i": 25.176,
+     "f": 25.527
     },
     {
      "p": "de",
-     "i": 25.804,
-     "f": 25.882
+     "i": 25.54,
+     "f": 25.618
     },
     {
      "p": "outubro",
-     "i": 25.895,
-     "f": 26.351
+     "i": 25.631,
+     "f": 26.087
     },
     {
      "p": "de",
-     "i": 26.364,
-     "f": 26.455
+     "i": 26.1,
+     "f": 26.191
     },
     {
      "p": "dois",
-     "i": 26.468,
-     "f": 26.664
+     "i": 26.204,
+     "f": 26.4
     },
     {
      "p": "mil",
-     "i": 26.677,
-     "f": 26.807
+     "i": 26.413,
+     "f": 26.543
     },
     {
      "p": "e",
-     "i": 26.82,
-     "f": 26.859
+     "i": 26.556,
+     "f": 26.595
     },
     {
      "p": "dezoito",
-     "i": 26.872,
-     "f": 27.419
+     "i": 26.608,
+     "f": 27.155
     },
     {
      "p": "Do",
-     "i": 28.662,
-     "f": 28.857
+     "i": 28.398,
+     "f": 28.593
     },
     {
      "p": "lado",
-     "i": 28.87,
-     "f": 29.183
+     "i": 28.606,
+     "f": 28.919
     },
     {
      "p": "chinês",
-     "i": 29.196,
-     "f": 29.743
+     "i": 28.932,
+     "f": 29.479
     },
     {
      "p": "a",
-     "i": 30.029,
-     "f": 30.107
+     "i": 29.765,
+     "f": 29.843
     },
     {
      "p": "construção",
-     "i": 30.12,
-     "f": 30.719
+     "i": 29.856,
+     "f": 30.455
     },
     {
      "p": "começou",
-     "i": 30.732,
-     "f": 31.201
+     "i": 30.468,
+     "f": 30.937
     },
     {
      "p": "em",
-     "i": 31.214,
-     "f": 31.266
+     "i": 30.95,
+     "f": 31.002
     },
     {
      "p": "dois",
-     "i": 31.279,
-     "f": 31.475
+     "i": 31.015,
+     "f": 31.211
     },
     {
      "p": "mil",
-     "i": 31.488,
-     "f": 31.605
+     "i": 31.224,
+     "f": 31.341
     },
     {
      "p": "e",
-     "i": 31.618,
-     "f": 31.657
+     "i": 31.354,
+     "f": 31.393
     },
     {
      "p": "nove",
-     "i": 31.67,
-     "f": 32.074
+     "i": 31.406,
+     "f": 31.81
     },
     {
      "p": "e",
-     "i": 32.399,
-     "f": 32.49
+     "i": 32.135,
+     "f": 32.226
     },
     {
      "p": "do",
-     "i": 32.503,
-     "f": 32.633
+     "i": 32.239,
+     "f": 32.369
     },
     {
      "p": "lado",
-     "i": 32.646,
-     "f": 33.037
+     "i": 32.382,
+     "f": 32.773
     },
     {
      "p": "de",
-     "i": 33.05,
-     "f": 33.154
+     "i": 32.786,
+     "f": 32.89
     },
     {
      "p": "Hong",
-     "i": 33.167,
-     "f": 33.363
+     "i": 32.903,
+     "f": 33.099
     },
     {
      "p": "Kong",
-     "i": 33.376,
-     "f": 33.766
+     "i": 33.112,
+     "f": 33.502
     },
     {
      "p": "em",
-     "i": 33.779,
-     "f": 33.844
+     "i": 33.515,
+     "f": 33.58
     },
     {
      "p": "dois",
-     "i": 33.857,
-     "f": 34.118
+     "i": 33.593,
+     "f": 33.854
     },
     {
      "p": "mil",
-     "i": 34.131,
-     "f": 34.274
+     "i": 33.867,
+     "f": 34.01
     },
     {
      "p": "e",
-     "i": 34.287,
-     "f": 34.404
+     "i": 34.023,
+     "f": 34.14
     },
     {
      "p": "onze",
-     "i": 34.417,
-     "f": 34.821
+     "i": 34.153,
+     "f": 34.557
     },
     {
      "p": "Foram",
-     "i": 36.078,
-     "f": 36.391
+     "i": 35.814,
+     "f": 36.127
     },
     {
      "p": "quase",
-     "i": 36.404,
-     "f": 36.794
+     "i": 36.14,
+     "f": 36.53
     },
     {
      "p": "nove",
-     "i": 36.807,
-     "f": 37.146
+     "i": 36.543,
+     "f": 36.882
     },
     {
      "p": "anos",
-     "i": 37.159,
-     "f": 37.419
+     "i": 36.895,
+     "f": 37.155
     },
     {
      "p": "entre",
-     "i": 37.432,
-     "f": 37.719
+     "i": 37.168,
+     "f": 37.455
     },
     {
      "p": "as",
-     "i": 37.732,
-     "f": 37.836
+     "i": 37.468,
+     "f": 37.572
     },
     {
      "p": "primeiras",
-     "i": 37.849,
-     "f": 38.227
+     "i": 37.585,
+     "f": 37.963
     },
     {
      "p": "obras",
-     "i": 38.24,
-     "f": 38.643
+     "i": 37.976,
+     "f": 38.379
     },
     {
      "p": "e",
-     "i": 38.656,
-     "f": 38.773
+     "i": 38.392,
+     "f": 38.509
     },
     {
      "p": "a",
-     "i": 38.786,
-     "f": 38.852
+     "i": 38.522,
+     "f": 38.588
     },
     {
      "p": "primeira",
-     "i": 38.865,
-     "f": 39.229
+     "i": 38.601,
+     "f": 38.965
     },
     {
      "p": "viagem",
-     "i": 39.242,
-     "f": 39.685
+     "i": 38.978,
+     "f": 39.421
     },
     {
      "p": "de",
-     "i": 39.698,
-     "f": 39.828
+     "i": 39.434,
+     "f": 39.564
     },
     {
      "p": "carro",
-     "i": 39.841,
-     "f": 40.245
+     "i": 39.577,
+     "f": 39.981
     },
     {
      "p": "Mas",
-     "i": 41.502,
-     "f": 41.697
+     "i": 41.238,
+     "f": 41.433
     },
     {
      "p": "existe",
-     "i": 41.71,
-     "f": 42.218
+     "i": 41.446,
+     "f": 41.954
     },
     {
      "p": "outro",
-     "i": 42.231,
-     "f": 42.505
+     "i": 41.967,
+     "f": 42.241
     },
     {
      "p": "lugar",
-     "i": 42.518,
-     "f": 42.895
+     "i": 42.254,
+     "f": 42.631
     },
     {
      "p": "onde",
-     "i": 42.908,
-     "f": 43.065
+     "i": 42.644,
+     "f": 42.801
     },
     {
      "p": "a",
-     "i": 43.078,
-     "f": 43.143
+     "i": 42.814,
+     "f": 42.879
     },
     {
      "p": "ponte",
-     "i": 43.156,
-     "f": 43.494
+     "i": 42.892,
+     "f": 43.23
     },
     {
      "p": "vira",
-     "i": 43.507,
-     "f": 43.781
+     "i": 43.243,
+     "f": 43.517
     },
     {
      "p": "túnel",
-     "i": 43.794,
-     "f": 44.145
+     "i": 43.53,
+     "f": 43.881
     },
     {
      "p": "por",
-     "i": 44.158,
-     "f": 44.276
+     "i": 43.894,
+     "f": 44.012
     },
     {
      "p": "um",
-     "i": 44.289,
-     "f": 44.354
+     "i": 44.025,
+     "f": 44.09
     },
     {
      "p": "motivo",
-     "i": 44.367,
-     "f": 44.822
+     "i": 44.103,
+     "f": 44.558
     },
     {
      "p": "bem",
-     "i": 44.835,
-     "f": 45.07
+     "i": 44.571,
+     "f": 44.806
     },
     {
      "p": "diferente",
-     "i": 45.083,
-     "f": 45.721
+     "i": 44.819,
+     "f": 45.457
     }
    ]
   },
@@ -6407,7 +6485,7 @@
    "rostos": 0,
    "foco": {
     "x": 69.1,
-    "y": 59.0
+    "y": 59
    },
    "borrada": "imagens/hzmb-ilha-ade4a892-b.jpg"
   },
@@ -6429,23 +6507,39 @@
    },
    "borrada": "imagens/hzmb-mapa-aaec2789-b.jpg"
   },
-  "engenheiros-obra": {
-   "arquivo": "imagens/engenheiros-obra-66725974.jpg",
-   "rotulo": "Engenharia de pontes",
-   "wiki": "Engenharia civil",
-   "commons": "bridge construction engineers site",
-   "autor": "John Vetterli",
-   "licenca": "CC BY-SA 2.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Pulsefront.jpg",
-   "titulo": "File:Pulsefront.jpg",
-   "largura": 1800,
-   "altura": 1200,
+  "hzmb-estrada": {
+   "arquivo": "imagens/hzmb-estrada-9889303d.jpg",
+   "rotulo": "Pista da ponte",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge road deck lanes",
+   "autor": "Shujianyang",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong%E2%80%93Zhuhai%E2%80%93Macau_Bridge_steel_at_NMC.jpg",
+   "titulo": "File:Hong Kong–Zhuhai–Macau Bridge steel at NMC.jpg",
+   "largura": 1920,
+   "altura": 1280,
    "rostos": 0,
    "foco": {
-    "x": 71.2,
-    "y": 67.5
+    "x": 59.3,
+    "y": 57.7
    },
-   "borrada": "imagens/engenheiros-obra-66725974-b.jpg"
+   "borrada": "imagens/hzmb-estrada-9889303d-b.jpg"
+  },
+  "engenheiros-obra": {
+   "arquivo": "imagens/engenheiros-obra-ccfda473.jpg",
+   "rotulo": "Obra da ponte HZMB",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge construction site engineers",
+   "autor": "Pauloleong2002",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong%E2%80%93Zhuhai%E2%80%93Macau_Bridge_02.jpg",
+   "titulo": "File:Hong Kong–Zhuhai–Macau Bridge 02.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 58.5
+   },
+   "borrada": "imagens/engenheiros-obra-ccfda473-b.jpg"
   },
   "ponte-akashi-torre": {
    "arquivo": "imagens/ponte-akashi-torre-8c67966d.jpg",
@@ -6483,59 +6577,159 @@
    },
    "borrada": "imagens/kobe-terremoto-c9bd6484-b.jpg"
   },
-  "fundo-mar-obra": {
-   "arquivo": "imagens/fundo-mar-obra-908073c6.jpg",
-   "rotulo": "Fundação no mar",
-   "wiki": "Fundação (construção)",
-   "commons": "offshore bridge foundation construction seabed",
-   "autor": "http://en.wikipedia.org/wiki/User:Blacklemon67",
-   "licenca": "Public domain",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mock_foundations_for_House_and_Apartment.png",
-   "titulo": "File:Mock foundations for House and Apartment.png",
-   "largura": 644,
-   "altura": 461,
+  "promessa-oresund": {
+   "arquivo": "imagens/promessa-oresund-b7e9d708.jpg",
+   "rotulo": "Ponte de Øresund",
+   "commons": "Öresundsbron Denmark Sweden bridge sunset",
+   "autor": "Johan Wessman / News Oresund",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Oresundsbron_jarnvag_20140515_0252_(14379975915).jpg",
+   "titulo": "File:Oresundsbron jarnvag 20140515 0252 (14379975915).jpg",
+   "largura": 1920,
+   "altura": 1280,
    "rostos": 0,
    "foco": {
-    "x": 32.8,
-    "y": 52.5
+    "x": 61.2,
+    "y": 62.2
    },
-   "borrada": "imagens/fundo-mar-obra-908073c6-b.jpg"
+   "borrada": "imagens/promessa-oresund-b7e9d708-b.jpg"
+  },
+  "promessa-rio": {
+   "arquivo": "imagens/promessa-rio-70da5f35.jpg",
+   "rotulo": "Ponte Rio–Niterói",
+   "commons": "Ponte Rio-Niterói noite",
+   "autor": "Didier Descouens",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rio_della_Sensa_(Venice)_-_Del_Ponte_de_la_Malvasia_a_Ponte_Turlona.jpg",
+   "titulo": "File:Rio della Sensa (Venice) - Del Ponte de la Malvasia a Ponte Turlona.jpg",
+   "largura": 1920,
+   "altura": 1281,
+   "rostos": 0,
+   "foco": {
+    "x": 62.4,
+    "y": 47.5
+   },
+   "borrada": "imagens/promessa-rio-70da5f35-b.jpg"
+  },
+  "fundo-mar-obra": {
+   "arquivo": "imagens/fundo-mar-obra-a391c1b2.jpg",
+   "rotulo": "Fundação no mar",
+   "commons": "offshore bridge foundation construction seabed",
+   "autor": "Department of Public Works and Highways (DPWH)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2022-10-07_Davao-Samal_Bridge_002.jpg",
+   "titulo": "File:2022-10-07 Davao-Samal Bridge 002.jpg",
+   "largura": 1600,
+   "altura": 757,
+   "rostos": 0,
+   "foco": {
+    "x": 50.6,
+    "y": 53.9
+   },
+   "borrada": "imagens/fundo-mar-obra-a391c1b2-b.jpg"
+  },
+  "mar-ondas": {
+   "arquivo": "imagens/mar-ondas-472d2257.jpg",
+   "rotulo": "Ondas em Hong Kong",
+   "commons": "Hong Kong typhoon waves seawall",
+   "autor": "Anthony Ivanoff",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Central_Harbourfront_in_Hong_Kong_damaged_by_Typhoon_Mangkhut_(2018).jpg",
+   "titulo": "File:Central Harbourfront in Hong Kong damaged by Typhoon Mangkhut (2018).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.4,
+    "y": 62.8
+   },
+   "borrada": "imagens/mar-ondas-472d2257-b.jpg"
   },
   "porto-navios": {
-   "arquivo": "imagens/porto-navios-6510a0f6.jpg",
+   "arquivo": "imagens/porto-navios-9fd89641.jpg",
    "rotulo": "Navio sob uma ponte",
-   "wiki": "Navio porta-contêineres",
    "commons": "container ship passing under bridge",
-   "autor": "NOAA",
-   "licenca": "Public domain",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Container_ships_President_Truman_(IMO_8616283)_and_President_Kennedy_(IMO_8616295)_at_San_Francisco.jpg",
-   "titulo": "File:Container ships President Truman (IMO 8616283) and President Kennedy (IMO 8616295) at San Francisco.jpg",
-   "largura": 1832,
-   "altura": 1184,
+   "autor": "Frank Schulenburg",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Container_ship_from_Hamburg_passing_the_Golden_Gate.jpg",
+   "titulo": "File:Container ship from Hamburg passing the Golden Gate.jpg",
+   "largura": 1920,
+   "altura": 1280,
    "rostos": 0,
    "foco": {
-    "x": 61.6,
-    "y": 56.1
+    "x": 28.6,
+    "y": 44.2
    },
-   "borrada": "imagens/porto-navios-6510a0f6-b.jpg"
+   "borrada": "imagens/porto-navios-9fd89641-b.jpg"
+  },
+  "navegacao-canal": {
+   "arquivo": "imagens/navegacao-canal-0bb8484a.jpg",
+   "rotulo": "Tráfego de navios em Hong Kong",
+   "commons": "Hong Kong Victoria Harbour container ships channel",
+   "autor": "Benh LIEU SONG (Flickr)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg",
+   "titulo": "File:Hong Kong Harbour Night 2019-06-11.jpg",
+   "largura": 1920,
+   "altura": 908,
+   "rostos": 0,
+   "foco": {
+    "x": 41.0,
+    "y": 55.8
+   },
+   "borrada": "imagens/navegacao-canal-0bb8484a-b.jpg"
+  },
+  "corrosao-sal": {
+   "arquivo": "imagens/corrosao-sal-6e662aed.jpg",
+   "rotulo": "Corrosão pelo sal",
+   "commons": "corrosion marine steel pier salt water",
+   "autor": "patano",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:S.Antonio_a_Boccadasse_-_marine_corrosion_on_the_church_-_panoramio.jpg",
+   "titulo": "File:S.Antonio a Boccadasse - marine corrosion on the church - panoramio.jpg",
+   "largura": 1920,
+   "altura": 1320,
+   "rostos": 0,
+   "foco": {
+    "x": 32.7,
+    "y": 64.6
+   },
+   "borrada": "imagens/corrosao-sal-6e662aed-b.jpg"
+  },
+  "vento-ponte": {
+   "arquivo": "imagens/vento-ponte-77268bf7.jpg",
+   "rotulo": "Ponte Tsing Ma em tufão",
+   "wiki": "Ponte Tsing Ma",
+   "commons": "Tsing Ma Bridge typhoon",
+   "autor": "CK ALAN Lam Tsui",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:HK_KTD_MTR_train_view_%E8%91%B5%E9%9D%92%E5%8D%80_Kwai_Tsing_District_Rambler_Channel_April_2022_Px3_08.jpg",
+   "titulo": "File:HK KTD MTR train view 葵青區 Kwai Tsing District Rambler Channel April 2022 Px3 08.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 66.9,
+    "y": 41.6
+   },
+   "borrada": "imagens/vento-ponte-77268bf7-b.jpg"
   },
   "balsa-estacas": {
-   "arquivo": "imagens/balsa-estacas-d8df2eb9.jpg",
+   "arquivo": "imagens/balsa-estacas-44edb68c.jpg",
    "rotulo": "Balsa cravando estacas",
-   "wiki": "Bate-estacas",
    "commons": "pile driving barge bridge construction sea",
-   "autor": "The original uploader was Argyriou at English Wikipedia.",
-   "licenca": "CC BY 2.5",
-   "pagina": "https://commons.wikimedia.org/wiki/File:PileDriving.jpg",
-   "titulo": "File:PileDriving.jpg",
-   "largura": 600,
-   "altura": 800,
-   "rostos": 2,
+   "autor": "MassDOT",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Worcester,_Route_9_Burns_Bridge,_January_2013_(8358161650).jpg",
+   "titulo": "File:Worcester, Route 9 Burns Bridge, January 2013 (8358161650).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
    "foco": {
-    "x": 70.3,
-    "y": 20.5
+    "x": 49.2,
+    "y": 43.3
    },
-   "borrada": "imagens/balsa-estacas-d8df2eb9-b.jpg"
+   "borrada": "imagens/balsa-estacas-44edb68c-b.jpg"
   },
   "hzmb-cabos": {
    "arquivo": "imagens/hzmb-cabos-2e04f198.jpg",
@@ -6556,40 +6750,38 @@
    "borrada": "imagens/hzmb-cabos-2e04f198-b.jpg"
   },
   "hzmb-ilha-obra": {
-   "arquivo": "imagens/hzmb-ilha-obra-3671094f.jpg",
+   "arquivo": "imagens/hzmb-ilha-obra-b97b4ff3.jpg",
    "rotulo": "Construção da ilha artificial",
-   "wiki": "Ilha artificial",
    "commons": "Hong Kong-Zhuhai-Macau Bridge artificial island construction",
-   "autor": "Copernicus Sentinel-2, ESA",
-   "licenca": "CC BY-SA 3.0 igo",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Flevoland_by_Sentinel-2,_2018-06-30.jpg",
-   "titulo": "File:Flevoland by Sentinel-2, 2018-06-30.jpg",
+   "autor": "Manuel Schneider",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2013-08-05_23-37-46_Wikimania.jpg",
+   "titulo": "File:2013-08-05 23-37-46 Wikimania.jpg",
    "largura": 1920,
-   "altura": 1920,
+   "altura": 1440,
    "rostos": 0,
    "foco": {
-    "x": 58.4,
+    "x": 42.3,
     "y": 56.4
    },
-   "borrada": "imagens/hzmb-ilha-obra-3671094f-b.jpg"
+   "borrada": "imagens/hzmb-ilha-obra-b97b4ff3-b.jpg"
   },
-  "celulas-aco": {
-   "arquivo": "imagens/celulas-aco-7724d17c.jpg",
-   "rotulo": "Células de aço",
-   "wiki": "Ensecadeira",
-   "commons": "steel cylinders cofferdam artificial island construction",
-   "autor": "José Rosael/HélioNobre/Museu Paulista da USP",
-   "licenca": "Public domain",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Escavadeira_a_Vapor_Utilizada_na_Constru%C3%A7%C3%A3o_da_Ferrovia_Madeira-Mamor%C3%A9,_Acervo_do_Museu_Paulista_da_USP.jpg",
-   "titulo": "File:Escavadeira a Vapor Utilizada na Construção da Ferrovia Madeira-Mamoré, Acervo do Museu Paulista da USP.jpg",
+  "ilha-hk-link": {
+   "arquivo": "imagens/ilha-hk-link-fa9af82b.jpg",
+   "rotulo": "Ilha e acesso de Hong Kong",
+   "commons": "Hong Kong Link Road Hong Kong-Zhuhai-Macau Bridge island",
+   "autor": "LN9267",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong-Zhuhai-Macao_Bridge_Hong_Kong_Link_Road_28-05-2023(2).jpg",
+   "titulo": "File:Hong Kong-Zhuhai-Macao Bridge Hong Kong Link Road 28-05-2023(2).jpg",
    "largura": 1920,
-   "altura": 1280,
-   "rostos": 0,
+   "altura": 1440,
+   "rostos": 1,
    "foco": {
-    "x": 32.9,
-    "y": 55.0
+    "x": 68.7,
+    "y": 73.1
    },
-   "borrada": "imagens/celulas-aco-7724d17c-b.jpg"
+   "borrada": "imagens/ilha-hk-link-fa9af82b-b.jpg"
   },
   "reclamacao-aterro": {
    "arquivo": "imagens/reclamacao-aterro-70e636d9.jpg",
@@ -6609,11 +6801,257 @@
    },
    "borrada": "imagens/reclamacao-aterro-70e636d9-b.jpg"
   },
+  "celulas-aco": {
+   "arquivo": "imagens/celulas-aco-7724d17c.jpg",
+   "rotulo": "Células de aço",
+   "wiki": "Ensecadeira",
+   "commons": "steel cylinders cofferdam artificial island construction",
+   "autor": "José Rosael/HélioNobre/Museu Paulista da USP",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Escavadeira_a_Vapor_Utilizada_na_Constru%C3%A7%C3%A3o_da_Ferrovia_Madeira-Mamor%C3%A9,_Acervo_do_Museu_Paulista_da_USP.jpg",
+   "titulo": "File:Escavadeira a Vapor Utilizada na Construção da Ferrovia Madeira-Mamoré, Acervo do Museu Paulista da USP.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 32.9,
+    "y": 55
+   },
+   "borrada": "imagens/celulas-aco-7724d17c-b.jpg"
+  },
+  "ensecadeira-muro": {
+   "arquivo": "imagens/ensecadeira-muro-e0e20172.jpg",
+   "rotulo": "Muro de contenção",
+   "commons": "cofferdam wall bridge island Hong Kong-Zhuhai-Macau",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22Looking_down_into_upper_Cofferdam_excavation_from_rim_of_Black_Canyon_on_Arizona_side._Canyon_wall_in_foreground..._-_NARA_-_293749.jpg",
+   "titulo": "File:\"Looking down into upper Cofferdam excavation from rim of Black Canyon on Arizona side. Canyon wall in foreground... - NARA - 293749.jpg",
+   "largura": 1920,
+   "altura": 1350,
+   "rostos": 0,
+   "foco": {
+    "x": 35.7,
+    "y": 44.5
+   },
+   "borrada": "imagens/ensecadeira-muro-e0e20172-b.jpg"
+  },
+  "ilha-tunel-portal": {
+   "arquivo": "imagens/ilha-tunel-portal-f8476de6.jpg",
+   "rotulo": "Entrada do túnel na ilha",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge tunnel portal artificial island",
+   "autor": "Pauloleong2002",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong%E2%80%93Zhuhai%E2%80%93Macau_Bridge_01.jpg",
+   "titulo": "File:Hong Kong–Zhuhai–Macau Bridge 01.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 20
+   },
+   "borrada": "imagens/ilha-tunel-portal-f8476de6-b.jpg"
+  },
+  "porto-engenharia": {
+   "arquivo": "imagens/porto-engenharia-39b67af0.jpg",
+   "rotulo": "Porto de Hong Kong",
+   "wiki": "Kwai Tsing Container Terminals",
+   "commons": "Kwai Tsing Container Terminals Hong Kong",
+   "autor": "Wilfredor",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_view_from_International_Commerce_Center_Building.jpg",
+   "titulo": "File:Hong Kong Harbour view from International Commerce Center Building.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 1,
+   "foco": {
+    "x": 87.0,
+    "y": 86.9
+   },
+   "borrada": "imagens/porto-engenharia-39b67af0-b.jpg"
+  },
   "hzmb-ilha-hoje": {
-   "arquivo": "imagens/hzmb-ilha-hoje-4de4f82f.jpg",
+   "arquivo": "imagens/hzmb-ilha-hoje-502813a6.jpg",
    "rotulo": "Ilha artificial hoje",
-   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
    "commons": "Hong Kong-Zhuhai-Macau Bridge East Artificial Island",
+   "autor": "JULIANISME",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:View_of_the_Hong_Kong-Zhuhai-Macau_Bridge_Zhuhai_Port_from_Zhuhai_Qingl%C3%BC_South_Road_20250130.jpg",
+   "titulo": "File:View of the Hong Kong-Zhuhai-Macau Bridge Zhuhai Port from Zhuhai Qinglü South Road 20250130.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.3,
+    "y": 71.4
+   },
+   "borrada": "imagens/hzmb-ilha-hoje-502813a6-b.jpg"
+  },
+  "tunel-hzmb-portal": {
+   "arquivo": "imagens/tunel-hzmb-portal-5648727c.jpg",
+   "rotulo": "Entrada do túnel submarino",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge undersea tunnel portal",
+   "autor": "ShenzhenPages",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:A_section_of_the_Hong_Kong%E2%80%93_Zhuhai%E2%80%93_Macau_Bridge.jpg",
+   "titulo": "File:A section of the Hong Kong– Zhuhai– Macau Bridge.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 46.6,
+    "y": 65.0
+   },
+   "borrada": "imagens/tunel-hzmb-portal-5648727c-b.jpg"
+  },
+  "tunel-imerso-elemento": {
+   "arquivo": "imagens/tunel-imerso-elemento-2354ba71.jpg",
+   "rotulo": "Elemento de túnel em concreto",
+   "commons": "immersed tunnel element casting basin concrete",
+   "autor": "Asfreeas",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Goega_Bridge_Submarine_tunnel.jpg",
+   "titulo": "File:Goega Bridge Submarine tunnel.jpg",
+   "largura": 1920,
+   "altura": 1289,
+   "rostos": 0,
+   "foco": {
+    "x": 49.1,
+    "y": 65.1
+   },
+   "borrada": "imagens/tunel-imerso-elemento-2354ba71-b.jpg"
+  },
+  "tunel-imerso-reboque": {
+   "arquivo": "imagens/tunel-imerso-reboque-05fcfd56.jpg",
+   "rotulo": "Elemento rebocado flutuando",
+   "commons": "immersed tunnel element floating tow",
+   "autor": "Asfreeas",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Goega_Bridge_Submarine_Tunnel2.jpg",
+   "titulo": "File:Goega Bridge Submarine Tunnel2.jpg",
+   "largura": 1920,
+   "altura": 1289,
+   "rostos": 0,
+   "foco": {
+    "x": 50.7,
+    "y": 63.2
+   },
+   "borrada": "imagens/tunel-imerso-reboque-05fcfd56-b.jpg"
+  },
+  "tunel-imerso-esquema": {
+   "arquivo": "imagens/tunel-imerso-esquema-534cd6fa.jpg",
+   "rotulo": "Esquema de túnel imerso",
+   "wiki": "Túnel imerso",
+   "commons": "immersed tube tunnel construction diagram",
+   "autor": "GeeKaa",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2e-Coentunnel-in-Aanbouw2.jpg",
+   "titulo": "File:2e-Coentunnel-in-Aanbouw2.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 33.9,
+    "y": 65.5
+   },
+   "borrada": "imagens/tunel-imerso-esquema-534cd6fa-b.jpg"
+  },
+  "tunel-imerso-encaixe": {
+   "arquivo": "imagens/tunel-imerso-encaixe-f71eb060.jpg",
+   "rotulo": "Encaixe de elemento",
+   "commons": "immersed tunnel element immersion joint lowering",
+   "autor": "GeeKaa",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2e-Countunnel-in-Aanbouw.jpg",
+   "titulo": "File:2e-Countunnel-in-Aanbouw.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.8,
+    "y": 44.6
+   },
+   "borrada": "imagens/tunel-imerso-encaixe-f71eb060-b.jpg"
+  },
+  "tunel-junta-final": {
+   "arquivo": "imagens/tunel-junta-final-ef54ecdd.jpg",
+   "rotulo": "Junta final do túnel",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge tunnel final joint 2017",
+   "autor": "Nrg800",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:HongKong-Macau_Bridge_S2_2022.jpg",
+   "titulo": "File:HongKong-Macau Bridge S2 2022.jpg",
+   "largura": 1920,
+   "altura": 761,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 51.4
+   },
+   "borrada": "imagens/tunel-junta-final-ef54ecdd-b.jpg"
+  },
+  "tunel-imerso-interior": {
+   "arquivo": "imagens/tunel-imerso-interior-51772f6a.jpg",
+   "rotulo": "Interior do túnel",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge tunnel interior",
+   "autor": "JULIANISME",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:View_of_the_Hong_Kong-Zhuhai-Macao_Bridge_West_Section_from_Zhuhai_Qingl%C3%BC_South_Road_20250130-1.jpg",
+   "titulo": "File:View of the Hong Kong-Zhuhai-Macao Bridge West Section from Zhuhai Qinglü South Road 20250130-1.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 48.3,
+    "y": 72.7
+   },
+   "borrada": "imagens/tunel-imerso-interior-51772f6a-b.jpg"
+  },
+  "hzmb-estaiada": {
+   "arquivo": "imagens/hzmb-estaiada-0dbbf86e.jpg",
+   "rotulo": "Ponte estaiada da HZMB",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge Jiuzhou Channel Bridge",
+   "autor": "JULIANISME",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:View_of_the_Hong_Kong-Zhuhai-Macao_Bridge_West_Section_from_Zhuhai_Qingl%C3%BC_South_Road_20250130-2.jpg",
+   "titulo": "File:View of the Hong Kong-Zhuhai-Macao Bridge West Section from Zhuhai Qinglü South Road 20250130-2.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.6,
+    "y": 75.9
+   },
+   "borrada": "imagens/hzmb-estaiada-0dbbf86e-b.jpg"
+  },
+  "hzmb-qingzhou": {
+   "arquivo": "",
+   "rotulo": "Ponte Qingzhou",
+   "commons": "Qingzhou Channel Bridge"
+  },
+  "yuan": {
+   "arquivo": "imagens/yuan-84072e31.jpg",
+   "rotulo": "Yuan chinês",
+   "wiki": "Yuan",
+   "commons": "Chinese yuan banknotes",
+   "autor": "Gary Todd",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chinese_Money_17_-_Yuan_Paper_Currency_Printing_Block.jpg",
+   "titulo": "File:Chinese Money 17 - Yuan Paper Currency Printing Block.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 49.8,
+    "y": 36.3
+   },
+   "borrada": "imagens/yuan-84072e31-b.jpg"
+  },
+  "hzmb-abertura": {
+   "arquivo": "imagens/hzmb-abertura-4de4f82f.jpg",
+   "rotulo": "Abertura da ponte, 2018",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge opening ceremony 2018",
    "autor": "LN9267",
    "licenca": "CC BY-SA 4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong-Zhuhai-Macau_Bridge_09-02-2023(4).jpg",
@@ -6625,55 +7063,25 @@
     "x": 35.4,
     "y": 51.0
    },
-   "borrada": "imagens/hzmb-ilha-hoje-4de4f82f-b.jpg"
+   "borrada": "imagens/hzmb-abertura-4de4f82f-b.jpg"
   },
-  "tunel-imerso-elemento": {
-   "arquivo": "",
-   "rotulo": "Elemento de túnel imerso",
-   "wiki": "Túnel imerso",
-   "commons": "immersed tunnel element floating tow"
-  },
-  "tunel-imerso-esquema": {
-   "arquivo": "",
-   "rotulo": "Esquema de túnel imerso",
-   "wiki": "Túnel imerso",
-   "commons": "immersed tube tunnel construction diagram"
-  },
-  "tunel-imerso-interior": {
-   "arquivo": "imagens/tunel-imerso-interior-67720b69.jpg",
-   "rotulo": "Interior do túnel",
-   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
-   "commons": "Hong Kong-Zhuhai-Macau Bridge tunnel interior",
-   "autor": "LN9267",
-   "licenca": "CC BY-SA 4.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong-Zhuhai-Macau_Bridge_to_Hong_Kong_or_Zhuhai_direction_09-05-2023.jpg",
-   "titulo": "File:Hong Kong-Zhuhai-Macau Bridge to Hong Kong or Zhuhai direction 09-05-2023.jpg",
+  "zhuhai": {
+   "arquivo": "imagens/zhuhai-45592d37.jpg",
+   "rotulo": "Zhuhai",
+   "wiki": "Zhuhai",
+   "commons": "Zhuhai skyline",
+   "autor": "PH2 ERIC MURATA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Luda-III_Zhuhai_at_SAN_DIEGO.JPEG",
+   "titulo": "File:Luda-III Zhuhai at SAN DIEGO.JPEG",
    "largura": 1920,
-   "altura": 1440,
+   "altura": 1242,
    "rostos": 0,
    "foco": {
-    "x": 31.9,
-    "y": 76.1
+    "x": 53.2,
+    "y": 54.5
    },
-   "borrada": "imagens/tunel-imerso-interior-67720b69-b.jpg"
-  },
-  "hzmb-estaiada": {
-   "arquivo": "imagens/hzmb-estaiada-8772fd95.jpg",
-   "rotulo": "Ponte estaiada da HZMB",
-   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
-   "commons": "Hong Kong-Zhuhai-Macau Bridge Jiuzhou Channel Bridge",
-   "autor": "LN9267",
-   "licenca": "CC BY-SA 4.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Sunset_in_Hong_Kong-Zhuhai-Macau_Bridge_09-05-2023.jpg",
-   "titulo": "File:Sunset in Hong Kong-Zhuhai-Macau Bridge 09-05-2023.jpg",
-   "largura": 1920,
-   "altura": 1440,
-   "rostos": 0,
-   "foco": {
-    "x": 56.3,
-    "y": 49.5
-   },
-   "borrada": "imagens/hzmb-estaiada-8772fd95-b.jpg"
+   "borrada": "imagens/zhuhai-45592d37-b.jpg"
   },
   "hong-kong-skyline": {
    "arquivo": "imagens/hong-kong-skyline-879e1bcc.jpg",
@@ -6688,28 +7096,27 @@
    "altura": 600,
    "rostos": 0,
    "foco": {
-    "x": 30.0,
+    "x": 30,
     "y": 27.5
    },
    "borrada": "imagens/hong-kong-skyline-879e1bcc-b.jpg"
   },
-  "macau-skyline": {
-   "arquivo": "imagens/macau-skyline-1fcd56b0.jpg",
-   "rotulo": "Macau",
-   "wiki": "Macau",
-   "commons": "Macau skyline",
-   "autor": "Charlie fong",
+  "hzmb-trafego": {
+   "arquivo": "imagens/hzmb-trafego-67720b69.jpg",
+   "rotulo": "Tráfego na ponte",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge traffic shuttle bus",
+   "autor": "LN9267",
    "licenca": "CC BY-SA 4.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Southwest_View_Macau_Peninsula2021.jpg",
-   "titulo": "File:Southwest View Macau Peninsula2021.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong-Zhuhai-Macau_Bridge_to_Hong_Kong_or_Zhuhai_direction_09-05-2023.jpg",
+   "titulo": "File:Hong Kong-Zhuhai-Macau Bridge to Hong Kong or Zhuhai direction 09-05-2023.jpg",
    "largura": 1920,
-   "altura": 1080,
+   "altura": 1440,
    "rostos": 0,
    "foco": {
-    "x": 49.2,
-    "y": 55.5
+    "x": 31.9,
+    "y": 76.1
    },
-   "borrada": "imagens/macau-skyline-1fcd56b0-b.jpg"
+   "borrada": "imagens/hzmb-trafego-67720b69-b.jpg"
   },
   "oresund-ponte": {
    "arquivo": "imagens/oresund-ponte-8f19535d.jpg",
@@ -6766,22 +7173,78 @@
    "borrada": "imagens/oresund-tunel-ac4d4424-b.jpg"
   },
   "copenhague": {
-   "arquivo": "imagens/copenhague-7eefe0f2.jpg",
-   "rotulo": "Copenhague",
-   "wiki": "Copenhague",
+   "arquivo": "imagens/copenhague-8cb47e60.jpg",
+   "rotulo": "Aeroporto de Copenhague",
+   "wiki": "Aeroporto de Copenhague",
    "commons": "Copenhagen Kastrup Airport aerial",
-   "autor": "Pudelek",
+   "autor": "Ank Kumar",
    "licenca": "CC BY-SA 4.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Copenhagen_-_view_from_Christiansborg_castle.jpg",
-   "titulo": "File:Copenhagen - view from Christiansborg castle.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Copenhagen_International_Airport_(Kastrup)_(CPH_IATA),_Copenhagen,_Denmark_(Ank_Kumar,_Infosys_Limited)_02.jpg",
+   "titulo": "File:Copenhagen International Airport (Kastrup) (CPH IATA), Copenhagen, Denmark (Ank Kumar, Infosys Limited) 02.jpg",
    "largura": 1920,
-   "altura": 1165,
+   "altura": 1920,
    "rostos": 0,
    "foco": {
-    "x": 40.8,
-    "y": 56.6
+    "x": 51.4,
+    "y": 63.2
    },
-   "borrada": "imagens/copenhague-7eefe0f2-b.jpg"
+   "borrada": "imagens/copenhague-8cb47e60-b.jpg"
+  },
+  "oresund-dragagem": {
+   "arquivo": "imagens/oresund-dragagem-12ef1232.jpg",
+   "rotulo": "Obra de Øresund",
+   "commons": "Øresund Bridge construction Peberholm dredging",
+   "autor": "Kim Hansen",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%C3%98resund_Bridge_(94753499).jpeg",
+   "titulo": "File:Øresund Bridge (94753499).jpeg",
+   "largura": 1920,
+   "altura": 1285,
+   "rostos": 1,
+   "foco": {
+    "x": 66.7,
+    "y": 85.3
+   },
+   "borrada": "imagens/oresund-dragagem-12ef1232-b.jpg"
+  },
+  "oresund-trem": {
+   "arquivo": "imagens/oresund-trem-a254f2c9.jpg",
+   "rotulo": "Trem na ponte de Øresund",
+   "commons": "Øresund Bridge train",
+   "autor": "Ashkan Baharlooe",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%C3%96resund_S_Bridge_(113860925).jpeg",
+   "titulo": "File:Öresund S Bridge (113860925).jpeg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 64.9,
+    "y": 71.1
+   },
+   "borrada": "imagens/oresund-trem-a254f2c9-b.jpg"
+  },
+  "oresund-balsa": {
+   "arquivo": "",
+   "rotulo": "Balsa Helsingør–Helsingborg",
+   "commons": "Helsingør Helsingborg ferry Öresund"
+  },
+  "oresund-abertura": {
+   "arquivo": "imagens/oresund-abertura-50085ead.jpg",
+   "rotulo": "Abertura da ponte, 2000",
+   "commons": "Øresund Bridge opening 2000",
+   "autor": "Ashkan Baharlooe",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Blue_(115649139).jpeg",
+   "titulo": "File:Blue (115649139).jpeg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 55.3,
+    "y": 64.4
+   },
+   "borrada": "imagens/oresund-abertura-50085ead-b.jpg"
   },
   "akashi-ponte": {
    "arquivo": "imagens/akashi-ponte-0526bbf0.jpg",
@@ -6801,6 +7264,23 @@
    },
    "borrada": "imagens/akashi-ponte-0526bbf0-b.jpg"
   },
+  "akashi-obra": {
+   "arquivo": "imagens/akashi-obra-82d9ed17.jpg",
+   "rotulo": "Construção da Akashi Kaikyō",
+   "commons": "Akashi Kaikyo Bridge construction",
+   "autor": "神戸市",
+   "licenca": "CC BY 2.1 jp",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Akashi-Kaikyo_Bridge_h008.jpg",
+   "titulo": "File:Akashi-Kaikyo Bridge h008.jpg",
+   "largura": 1000,
+   "altura": 590,
+   "rostos": 0,
+   "foco": {
+    "x": 21.8,
+    "y": 80
+   },
+   "borrada": "imagens/akashi-obra-82d9ed17-b.jpg"
+  },
   "akashi-estreito-mapa": {
    "arquivo": "imagens/akashi-estreito-mapa-28f62a16.jpg",
    "rotulo": "Estreito de Akashi",
@@ -6814,16 +7294,44 @@
    "altura": 1735,
    "rostos": 1,
    "foco": {
-    "x": 54.0,
+    "x": 54,
     "y": 38.5
    },
    "borrada": "imagens/akashi-estreito-mapa-28f62a16-b.jpg"
   },
+  "akashi-cabos-suspensao": {
+   "arquivo": "imagens/akashi-cabos-suspensao-f418af2c.jpg",
+   "rotulo": "Cabo principal da Akashi",
+   "commons": "Akashi Kaikyo Bridge main cable",
+   "autor": "＋－",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:MainCableOfPearlBridge.jpg",
+   "titulo": "File:MainCableOfPearlBridge.jpg",
+   "largura": 1920,
+   "altura": 1597,
+   "rostos": 0,
+   "foco": {
+    "x": 41.4,
+    "y": 43.4
+   },
+   "borrada": "imagens/akashi-cabos-suspensao-f418af2c-b.jpg"
+  },
   "akashi-fundacao": {
-   "arquivo": "",
+   "arquivo": "imagens/akashi-fundacao-26da4f51.jpg",
    "rotulo": "Ancoragem da Akashi",
-   "wiki": "Ancoragem (engenharia)",
-   "commons": "Akashi Kaikyo Bridge anchorage construction"
+   "commons": "Akashi Kaikyo Bridge anchorage construction",
+   "autor": "そらみみ (Soramimi)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Anchorage_on_north_side_of_Akashi_Strait_Bridge_2.JPG",
+   "titulo": "File:Anchorage on north side of Akashi Strait Bridge 2.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 36.6,
+    "y": 71.1
+   },
+   "borrada": "imagens/akashi-fundacao-26da4f51-b.jpg"
   },
   "kobe-cidade": {
    "arquivo": "imagens/kobe-cidade-e41d57cc.jpg",
@@ -6838,15 +7346,49 @@
    "altura": 1678,
    "rostos": 0,
    "foco": {
-    "x": 49.0,
+    "x": 49,
     "y": 78.2
    },
    "borrada": "imagens/kobe-cidade-e41d57cc-b.jpg"
   },
+  "kobe-epicentro": {
+   "arquivo": "imagens/kobe-epicentro-3e6083c2.jpg",
+   "rotulo": "Ilha Awaji",
+   "wiki": "Ilha Awaji",
+   "commons": "Awaji Island map epicenter Hanshin earthquake",
+   "autor": "Mti",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Awaji_chicken_Bajiru_Sand.jpg",
+   "titulo": "File:Awaji chicken Bajiru Sand.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 59.1,
+    "y": 41.2
+   },
+   "borrada": "imagens/kobe-epicentro-3e6083c2-b.jpg"
+  },
+  "akashi-noite": {
+   "arquivo": "imagens/akashi-noite-6cd6d524.jpg",
+   "rotulo": "Akashi Kaikyō à noite",
+   "commons": "Akashi Kaikyo Bridge night illumination",
+   "autor": "そらみみ",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Akashi_Kaikyo_Bridge_from_ferry_on_Akashi_Strait_at_night_2.jpg",
+   "titulo": "File:Akashi Kaikyo Bridge from ferry on Akashi Strait at night 2.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 54.1,
+    "y": 56.6
+   },
+   "borrada": "imagens/akashi-noite-6cd6d524-b.jpg"
+  },
   "kobe-danos": {
    "arquivo": "imagens/kobe-danos-658e4520.jpg",
    "rotulo": "Danos do terremoto de Kobe",
-   "wiki": "Sismo de Kobe de 1995",
    "commons": "Great Hanshin earthquake collapsed expressway Kobe 1995",
    "autor": "野田知明",
    "licenca": "CC BY-SA 4.0",
@@ -6862,40 +7404,106 @@
    "borrada": "imagens/kobe-danos-658e4520-b.jpg"
   },
   "akashi-torre": {
-   "arquivo": "imagens/akashi-torre-98c32ce1.jpg",
+   "arquivo": "imagens/akashi-torre-2e4bdb79.jpg",
    "rotulo": "Torre e cabos da Akashi",
-   "wiki": "Ponte Akashi Kaikyō",
    "commons": "Akashi Kaikyo Bridge main tower cables",
-   "autor": "Alankang",
-   "licenca": "CC BY-SA 4.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Akashi_Kaiky%C5%8D_Bridge,_2004-08-27.jpg",
-   "titulo": "File:Akashi Kaikyō Bridge, 2004-08-27.jpg",
-   "largura": 1600,
-   "altura": 1200,
-   "rostos": 2,
-   "foco": {
-    "x": 59.3,
-    "y": 17.9
-   },
-   "borrada": "imagens/akashi-torre-98c32ce1-b.jpg"
-  },
-  "akashi-cabos": {
-   "arquivo": "imagens/akashi-cabos-26d8aa77.jpg",
-   "rotulo": "Cabos principais",
-   "wiki": "Ponte suspensa",
-   "commons": "Akashi Kaikyo Bridge main cable",
-   "autor": "User Leonard G. on en.wikipedia",
-   "licenca": "CC SA 1.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:CapilanoBridge.jpg",
-   "titulo": "File:CapilanoBridge.jpg",
-   "largura": 1800,
-   "altura": 1100,
+   "autor": "w0746203-1",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:JRW_series223_Kobe.jpg",
+   "titulo": "File:JRW series223 Kobe.jpg",
+   "largura": 1200,
+   "altura": 797,
    "rostos": 0,
    "foco": {
-    "x": 48.8,
-    "y": 41.3
+    "x": 51.2,
+    "y": 73.5
    },
-   "borrada": "imagens/akashi-cabos-26d8aa77-b.jpg"
+   "borrada": "imagens/akashi-torre-2e4bdb79-b.jpg"
+  },
+  "akashi-vao": {
+   "arquivo": "imagens/akashi-vao-b00b0f20.jpg",
+   "rotulo": "Vão central da Akashi",
+   "commons": "Akashi Kaikyo Bridge center span",
+   "autor": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Akashi_Kaikyo_Bridge,_Japan_(ASTER).jpg",
+   "titulo": "File:Akashi Kaikyo Bridge, Japan (ASTER).jpg",
+   "largura": 1200,
+   "altura": 1000,
+   "rostos": 0,
+   "foco": {
+    "x": 36.4,
+    "y": 68.4
+   },
+   "borrada": "imagens/akashi-vao-b00b0f20-b.jpg"
+  },
+  "akashi-cabos": {
+   "arquivo": "imagens/akashi-cabos-7d51a574.jpg",
+   "rotulo": "Cabos da Akashi",
+   "commons": "Akashi Kaikyo Bridge suspension cables hangers",
+   "autor": "Masakazu Matsumoto",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Views_from_Akashi-Kaikyo_Bridge.jpg",
+   "titulo": "File:Views from Akashi-Kaikyo Bridge.jpg",
+   "largura": 1920,
+   "altura": 4484,
+   "rostos": 0,
+   "foco": {
+    "x": 50.1,
+    "y": 43.9
+   },
+   "borrada": "imagens/akashi-cabos-7d51a574-b.jpg"
+  },
+  "nojima-falha": {
+   "arquivo": "imagens/nojima-falha-f9e8cd55.jpg",
+   "rotulo": "Falha de Nojima, Awaji",
+   "commons": "Nojima Fault Preservation Museum Awaji",
+   "autor": "E.M. Cushing",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nojima-fault-museum-coupe.jpg",
+   "titulo": "File:Nojima-fault-museum-coupe.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 1,
+   "foco": {
+    "x": 29.0,
+    "y": 70.2
+   },
+   "borrada": "imagens/nojima-falha-f9e8cd55-b.jpg"
+  },
+  "kobe-memorial": {
+   "arquivo": "imagens/kobe-memorial-dfa31c75.jpg",
+   "rotulo": "Memorial do terremoto de Kobe",
+   "commons": "Great Hanshin-Awaji Earthquake Memorial Museum Kobe",
+   "autor": "Akiyoshi Matsuoka (松岡明芳)",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hanshin-Awaji_earthquake_1995_343.jpg",
+   "titulo": "File:Hanshin-Awaji earthquake 1995 343.jpg",
+   "largura": 1920,
+   "altura": 1357,
+   "rostos": 0,
+   "foco": {
+    "x": 29.4,
+    "y": 58.5
+   },
+   "borrada": "imagens/kobe-memorial-dfa31c75-b.jpg"
+  },
+  "akashi-maiko": {
+   "arquivo": "imagens/akashi-maiko-0896bdf1.jpg",
+   "rotulo": "Akashi Kaikyō vista de Maiko",
+   "commons": "Akashi Kaikyo Bridge Maiko Marine Promenade",
+   "autor": "そらみみ (Soramimi)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:View_from_Maiko_Marine_Promenade_2.JPG",
+   "titulo": "File:View from Maiko Marine Promenade 2.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.3,
+    "y": 55.1
+   },
+   "borrada": "imagens/akashi-maiko-0896bdf1-b.jpg"
   },
   "rio-niteroi": {
    "arquivo": "imagens/rio-niteroi-5ece0351.jpg",
@@ -6915,23 +7523,22 @@
    },
    "borrada": "imagens/rio-niteroi-5ece0351-b.jpg"
   },
-  "rio-niteroi-vao": {
-   "arquivo": "imagens/rio-niteroi-vao-62ed723d.jpg",
-   "rotulo": "Vão central da Rio–Niterói",
-   "wiki": "Ponte Rio–Niterói",
-   "commons": "Ponte Rio-Niterói vão central",
-   "autor": "Wanderson S. Dantas",
-   "licenca": "CC BY 3.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:V%C3%A3o_central_da_Ponte_Rio-Niter%C3%B3i_(18-09-2011)_-_panoramio.jpg",
-   "titulo": "File:Vão central da Ponte Rio-Niterói (18-09-2011) - panoramio.jpg",
+  "rio-niteroi-aerea": {
+   "arquivo": "imagens/rio-niteroi-aerea-969a88f6.jpg",
+   "rotulo": "Rio–Niterói vista aérea",
+   "commons": "Ponte Rio-Niterói vista aérea Baía de Guanabara",
+   "autor": "Jorge Colares",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_RJ_Brasil_-_Ponte_Rio_Niteroi,_vista_do_Morro_da_Urca_-_panoramio.jpg",
+   "titulo": "File:Rio de Janeiro RJ Brasil - Ponte Rio Niteroi, vista do Morro da Urca - panoramio.jpg",
    "largura": 1920,
    "altura": 1440,
    "rostos": 0,
    "foco": {
-    "x": 55.9,
-    "y": 76.7
+    "x": 32.9,
+    "y": 64.4
    },
-   "borrada": "imagens/rio-niteroi-vao-62ed723d-b.jpg"
+   "borrada": "imagens/rio-niteroi-aerea-969a88f6-b.jpg"
   },
   "baia-guanabara": {
    "arquivo": "imagens/baia-guanabara-f424e300.jpg",
@@ -6951,59 +7558,194 @@
    },
    "borrada": "imagens/baia-guanabara-f424e300-b.jpg"
   },
-  "ponte-noite-mar": {
-   "arquivo": "imagens/ponte-noite-mar-c57e4f40.jpg",
-   "rotulo": "Ponte sobre o mar",
-   "wiki": "Ponte",
-   "commons": "bridge over sea night",
-   "autor": "Rich Niewiroski Jr.",
-   "licenca": "CC BY 2.5",
-   "pagina": "https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg",
-   "titulo": "File:GoldenGateBridge-001.jpg",
+  "rio-niteroi-vao": {
+   "arquivo": "imagens/rio-niteroi-vao-62ed723d.jpg",
+   "rotulo": "Vão central da Rio–Niterói",
+   "commons": "Ponte Rio-Niterói vão central",
+   "autor": "Wanderson S. Dantas",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:V%C3%A3o_central_da_Ponte_Rio-Niter%C3%B3i_(18-09-2011)_-_panoramio.jpg",
+   "titulo": "File:Vão central da Ponte Rio-Niterói (18-09-2011) - panoramio.jpg",
    "largura": 1920,
    "altura": 1440,
    "rostos": 0,
    "foco": {
-    "x": 45.2,
-    "y": 72.0
+    "x": 55.9,
+    "y": 76.7
    },
-   "borrada": "imagens/ponte-noite-mar-c57e4f40-b.jpg"
+   "borrada": "imagens/rio-niteroi-vao-62ed723d-b.jpg"
+  },
+  "rio-niteroi-viga": {
+   "arquivo": "imagens/rio-niteroi-viga-c661fe37.jpg",
+   "rotulo": "Viga caixão da Rio–Niterói",
+   "commons": "Ponte Rio-Niterói box girder",
+   "autor": "Gilberto Santa Rosa from Rio de Janeiro, Brasil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rio-niteroi,_riodejaneiro.jpg",
+   "titulo": "File:Rio-niteroi, riodejaneiro.jpg",
+   "largura": 800,
+   "altura": 600,
+   "rostos": 0,
+   "foco": {
+    "x": 50.2,
+    "y": 72.3
+   },
+   "borrada": "imagens/rio-niteroi-viga-c661fe37-b.jpg"
+  },
+  "rio-niteroi-transito": {
+   "arquivo": "imagens/rio-niteroi-transito-771b00ef.jpg",
+   "rotulo": "Tráfego na ponte",
+   "commons": "Ponte Rio-Niterói tráfego carros",
+   "autor": "Didier Descouens",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rio_del_Gheto_del_ponte_del_Gheto_Vecchio.jpg",
+   "titulo": "File:Rio del Gheto del ponte del Gheto Vecchio.jpg",
+   "largura": 1920,
+   "altura": 1281,
+   "rostos": 0,
+   "foco": {
+    "x": 56.7,
+    "y": 35.5
+   },
+   "borrada": "imagens/rio-niteroi-transito-771b00ef-b.jpg"
+  },
+  "rio-niteroi-construcao": {
+   "arquivo": "imagens/rio-niteroi-construcao-6fa3032f.jpg",
+   "rotulo": "Construção da ponte",
+   "commons": "Ponte Rio-Niterói construção 1970",
+   "autor": "Carlos Ebert from São Paulo, BrazilGRU",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ponta_de_Areia_(143712820).jpg",
+   "titulo": "File:Ponta de Areia (143712820).jpg",
+   "largura": 1538,
+   "altura": 1417,
+   "rostos": 0,
+   "foco": {
+    "x": 47.4,
+    "y": 51.7
+   },
+   "borrada": "imagens/rio-niteroi-construcao-6fa3032f-b.jpg"
+  },
+  "rio-niteroi-inauguracao": {
+   "arquivo": "imagens/rio-niteroi-inauguracao-c1eb78aa.jpg",
+   "rotulo": "Inauguração, 1974",
+   "commons": "Inauguração Ponte Rio-Niterói 1974",
+   "autor": "Correio do Brasil",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Selo_da_Ponte_Rio-Niter%C3%B3i_040.jpg",
+   "titulo": "File:Selo da Ponte Rio-Niterói 040.jpg",
+   "largura": 1920,
+   "altura": 1189,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 41.5
+   },
+   "borrada": "imagens/rio-niteroi-inauguracao-c1eb78aa-b.jpg"
+  },
+  "ponte-noite-mar": {
+   "arquivo": "imagens/ponte-noite-mar-a38c3d97.jpg",
+   "rotulo": "Ponte sobre o mar à noite",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge night",
+   "autor": "LN9267",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:8011_CTB_A21_13-01-2023(2).jpg",
+   "titulo": "File:8011 CTB A21 13-01-2023(2).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 66.3,
+    "y": 51.3
+   },
+   "borrada": "imagens/ponte-noite-mar-a38c3d97-b.jpg"
   },
   "construcao-ponte-balsa": {
-   "arquivo": "imagens/construcao-ponte-balsa-7525bdab.jpg",
+   "arquivo": "imagens/construcao-ponte-balsa-87044d66.jpg",
    "rotulo": "Guindaste flutuante",
-   "wiki": "Guindaste flutuante",
    "commons": "floating crane bridge segment installation",
-   "autor": "Vitor Oliveira from Torres Vedras, PORTUGAL",
-   "licenca": "CC BY-SA 2.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Lisnave_-_Cacilhas_-_Portugal_(51307597933).jpg",
-   "titulo": "File:Lisnave - Cacilhas - Portugal (51307597933).jpg",
+   "autor": "Elmschrat",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Floating_crane_Phu_Quoc.jpg",
+   "titulo": "File:Floating crane Phu Quoc.jpg",
+   "largura": 1920,
+   "altura": 1446,
+   "rostos": 0,
+   "foco": {
+    "x": 42.9,
+    "y": 51.6
+   },
+   "borrada": "imagens/construcao-ponte-balsa-87044d66-b.jpg"
+  },
+  "pilares-causeway": {
+   "arquivo": "imagens/pilares-causeway-8541129a.jpg",
+   "rotulo": "Lake Pontchartrain Causeway",
+   "wiki": "Lake Pontchartrain Causeway",
+   "commons": "Lake Pontchartrain Causeway",
+   "autor": "Terry Greene",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lake_Pontchartrain_Causeway_Southern_Toll_Plaza_HAER_LA-21-1_crop.jpg",
+   "titulo": "File:Lake Pontchartrain Causeway Southern Toll Plaza HAER LA-21-1 crop.jpg",
+   "largura": 1920,
+   "altura": 1519,
+   "rostos": 0,
+   "foco": {
+    "x": 50.1,
+    "y": 49.6
+   },
+   "borrada": "imagens/pilares-causeway-8541129a-b.jpg"
+  },
+  "ponte-tempestade": {
+   "arquivo": "imagens/ponte-tempestade-54167bc3.jpg",
+   "rotulo": "Mar em tempestade",
+   "commons": "storm waves bridge",
+   "autor": "Bering Land Bridge National Preserve",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bering_Sea_Storm,_Looking_Down_East_Beach_(5188618614).jpg",
+   "titulo": "File:Bering Sea Storm, Looking Down East Beach (5188618614).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 57.3,
+    "y": 63.0
+   },
+   "borrada": "imagens/ponte-tempestade-54167bc3-b.jpg"
+  },
+  "terremoto-baybridge": {
+   "arquivo": "imagens/terremoto-baybridge-5835254f.jpg",
+   "rotulo": "Terremoto de Loma Prieta, 1989",
+   "commons": "1989 Loma Prieta earthquake Bay Bridge collapsed section",
+   "autor": "C. E. Meyer",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BayBridgeLomaPrietraMeyerB.jpg",
+   "titulo": "File:BayBridgeLomaPrietraMeyerB.jpg",
+   "largura": 1920,
+   "altura": 2917,
+   "rostos": 0,
+   "foco": {
+    "x": 46.8,
+    "y": 56.4
+   },
+   "borrada": "imagens/terremoto-baybridge-5835254f-b.jpg"
+  },
+  "ponte-nevoeiro": {
+   "arquivo": "imagens/ponte-nevoeiro-7b1de2c0.jpg",
+   "rotulo": "Golden Gate no nevoeiro",
+   "wiki": "Ponte Golden Gate",
+   "commons": "Golden Gate Bridge fog",
+   "autor": "Sebring12Hrs",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Golden_Gate_bridge_3.jpg",
+   "titulo": "File:Golden Gate bridge 3.jpg",
    "largura": 1920,
    "altura": 2880,
    "rostos": 0,
    "foco": {
-    "x": 54.0,
-    "y": 42.8
+    "x": 43.8,
+    "y": 79.8
    },
-   "borrada": "imagens/construcao-ponte-balsa-7525bdab-b.jpg"
-  },
-  "ponte-tempestade": {
-   "arquivo": "imagens/ponte-tempestade-72d3da91.jpg",
-   "rotulo": "Mar em tempestade",
-   "wiki": "Tempestade",
-   "commons": "storm waves bridge",
-   "autor": "Photo by John Kerstholt. original upload by Solitude",
-   "licenca": "CC BY-SA 3.0",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Rolling-thunder-cloud.jpg",
-   "titulo": "File:Rolling-thunder-cloud.jpg",
-   "largura": 640,
-   "altura": 425,
-   "rostos": 0,
-   "foco": {
-    "x": 53.6,
-    "y": 80
-   },
-   "borrada": "imagens/ponte-tempestade-72d3da91-b.jpg"
+   "borrada": "imagens/ponte-nevoeiro-7b1de2c0-b.jpg"
   },
   "tunel-submarino": {
    "arquivo": "imagens/tunel-submarino-aff17139.jpg",
@@ -7107,8 +7849,7 @@
   "legenda": "cinema",
   "transicao": "deslize",
   "fundo": "limpo",
-  "formato": "linha-do-tempo",
-  "paleta": "grafite"
+  "formato": "linha-do-tempo"
  },
  "publicacao": {
   "titulos": [
