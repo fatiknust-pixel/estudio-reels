@@ -194,7 +194,7 @@ export const projetoIA = (id: string, titulo: string, pedido: PedidoIA, tema: st
     ...(visual ? { visual } : {}),
     ...(opcoes.idioma ? { idioma: opcoes.idioma } : {}),
     // documentário de canal dark: voz um pouco mais lenta, com o tratamento de estúdio (EQ, compressor, volume parelho)
-    voz: visual ? { edge: voz, velocidade: "+0%", tratamento: true } : opcoes.documentario ? { edge: voz, velocidade: "-4%", tratamento: true } : { edge: voz, velocidade: "+5%" },
+    voz: visual ? { edge: voz, velocidade: "+0%", tratamento: true } : opcoes.documentario ? { edge: voz, velocidade: "-4%", tom: "-2Hz", tratamento: true, fluida: true } : { edge: voz, velocidade: "+5%" },
     cenas: [],
     narracao: {},
     imagens: {},

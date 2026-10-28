@@ -123,7 +123,7 @@ export type Projeto = {
   idioma?: string; // idioma do vídeo (src/idiomas.ts); padrão pt-BR
   publicacao?: { titulos: string[]; descricao: string; tags: string[] }; // títulos, descrição e tags prontos para postar (escritos pelo Claude)
   visual?: "aula"; // modo IA: "aula" = videoaula com fundo branco e ícones simples (sem dinâmica de Reels)
-  voz?: { edge: string; velocidade: string; tratamento?: boolean }; // tratamento: equalização, compressor e -16 LUFS
+  voz?: { edge: string; velocidade: string; tratamento?: boolean; tom?: string; fluida?: boolean }; // tom: ex. "-2Hz" (mais grave); fluida: frases lidas uma a uma, com pausas pela pontuação // tratamento: equalização, compressor e -16 LUFS
   cenas?: Cena[];
   narracao?: Record<string, NarracaoCena>;
   imagens?: Record<string, ImagemInfo>;
