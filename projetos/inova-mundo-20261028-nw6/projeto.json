@@ -7,7 +7,7 @@
  "tema": "neon",
  "criadoEm": "2026-10-28T17:56:05.483Z",
  "atualizadoEm": "2026-10-28T17:56:05.483Z",
- "status": "rascunho",
+ "status": "processando",
  "pedido": {
   "tema": "Como funciona uma pedreira",
   "tom": "Curioso e analítico",
@@ -52,8 +52,7 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.483Z",
-  "fila": true
+  "pedidoEm": "2026-10-28T20:25:13.231Z"
  },
  "legenda": {
   "fonte": "montserrat",
