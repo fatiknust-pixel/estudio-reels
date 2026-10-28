@@ -115,7 +115,7 @@ export type Projeto = {
   cortes?: Corte[];
   gancho?: Gancho | null;
   // ia
-  pedido?: { idioma?: string; tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; genero?: { id: string; nome: string; instrucoes: string; galeria?: boolean }; lote?: { indice: number; total: number; outros: string[] } };
+  pedido?: { idioma?: string; tema: string; tom: string; duracao: number; estilo?: PedidoEstilo; genero?: { id: string; nome: string; instrucoes: string; galeria?: boolean }; canal?: { id: string; nome: string; nicho: string; anteriores: string[] }; lote?: { indice: number; total: number; outros: string[] } };
   estiloIA?: EstiloIA;
   formato?: "9:16" | "16:9"; // quadro do vídeo: vertical (padrão) ou horizontal
   genero?: string; // gênero do vídeo (catálogo src/generos.json), escolhido no pedido do Modo 1

@@ -1,0 +1,65 @@
+name: Canal diário
+run-name: Canal diário ${{ inputs.canal || '(todos)' }}
+
+# Todo dia cria o próximo vídeo da fila de cada canal ativo (canais/<id>.json) e dispara a geração (gerar-ia.yml).
+# Se a fila de um canal está acabando, pede mais ideias (canal-ideias.yml). Também roda pelo botão "Gerar agora" do app.
+# Obs.: o GitHub desliga agendamentos de repositório sem atividade por 60 dias; os vídeos gerados contam como atividade.
+on:
+  schedule:
+    - cron: "7 10 * * *" # 07:07 em Brasília
+  workflow_dispatch:
+    inputs:
+      canal:
+        description: "id do canal (vazio = todos os ativos)"
+        required: false
+        default: ""
+        type: string
+      forcar:
+        description: "Gerar mesmo se já gerou hoje"
+        required: false
+        default: "false"
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: canal-diario
+  cancel-in-progress: false
+
+jobs:
+  diario:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Criar o vídeo do dia
+        id: dia
+        env:
+          CANAL: ${{ inputs.canal }}
+          FORCAR: ${{ inputs.forcar }}
+        run: |
+          if ! [[ "$CANAL" =~ ^[a-z0-9-]{0,60}$ ]]; then echo "::error::id de canal inválido"; exit 1; fi
+          args=(diario)
+          [ -n "$CANAL" ] && args+=(--canal "$CANAL")
+          [ "$FORCAR" = "true" ] && args+=(--forcar)
+          scripts/salvar_no_repo.sh "Canal: vídeo do dia" node scripts/canal.mjs "${args[@]}"
+
+      - name: Disparar geração dos vídeos e novas ideias
+        run: |
+          # o resultado vem do último "diario" (o arquivo de saída acumula as tentativas; vale a última linha de cada chave)
+          projetos=$(grep '^projetos=' "$GITHUB_OUTPUT" | tail -1 | cut -d= -f2-)
+          faltam=$(grep '^faltam=' "$GITHUB_OUTPUT" | tail -1 | cut -d= -f2-)
+          for id in ${projetos//,/ }; do
+            echo "gerando $id"; gh workflow run gerar-ia.yml -f projeto="$id"; sleep 5
+          done
+          for c in ${faltam//,/ }; do
+            echo "poucas ideias em $c"; gh workflow run canal-ideias.yml -f canal="$c"
+          done
