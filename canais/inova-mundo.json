@@ -5,39 +5,56 @@
  "genero": "tecnologia",
  "idioma": "pt-BR",
  "voz": "pt-BR-AntonioNeural",
- "ativo": false,
+ "ativo": true,
  "ideias": [
   {
    "titulo": "Como pontes no mar são construídas",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028",
+   "em": "2026-10-28"
   },
   {
    "titulo": "Como funciona uma pedreira",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028-nw6",
+   "em": "2026-10-28"
   },
   {
    "titulo": "Evolução do garimpo",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028-sa6",
+   "em": "2026-10-28"
   },
   {
    "titulo": "Evolução das montadoras de carros",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028-tjp",
+   "em": "2026-10-28"
   },
   {
    "titulo": "Evolução dos carros",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028-6qe",
+   "em": "2026-10-28"
   },
   {
    "titulo": "Maquinários que você não conhecia",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028-3ev",
+   "em": "2026-10-28"
   },
   {
    "titulo": "Como é construído um prédio",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028-ynf",
+   "em": "2026-10-28"
   },
   {
    "titulo": "As construções que mudaram o mundo",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261028-fl4",
+   "em": "2026-10-28"
   }
- ]
+ ],
+ "ultimaGeracao": "2026-10-28"
 }
