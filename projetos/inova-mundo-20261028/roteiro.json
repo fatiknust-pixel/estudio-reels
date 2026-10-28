@@ -1,0 +1,151 @@
+{
+  "titulo": "Como pontes no mar são construídas",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "pontos",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "neon" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Wikipédia — Hong Kong–Zhuhai–Macau Bridge", "url": "https://en.wikipedia.org/wiki/Hong_Kong%E2%80%93Zhuhai%E2%80%93Macau_Bridge" },
+    { "titulo": "SCMP — The bridge (HZMB)", "url": "https://multimedia.scmp.com/widgets/hong-kong/hk-zhuhai-macao-bridge" },
+    { "titulo": "Wikipédia — Øresund Bridge", "url": "https://en.wikipedia.org/wiki/%C3%98resund_Bridge" },
+    { "titulo": "Øresundsbron — Facts", "url": "https://oresundsbron.com/en/info/a-bridge-at-one-sea" },
+    { "titulo": "ICE — Akashi Kaikyo Bridge", "url": "https://www.ice.org.uk/what-is-civil-engineering/what-do-civil-engineers-do/akashi-kaikyo-bridge" },
+    { "titulo": "Wikipédia — Rio–Niterói Bridge", "url": "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge" },
+    { "titulo": "Marinha do Brasil — 50 anos da Ponte Rio-Niterói", "url": "https://www.portaldeperiodicos.marinha.mil.br/index.php/clubenaval/article/download/5608/5384" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "Como constroem pontes no meio do mar? Quatro obras impossíveis",
+      "A ponte de 55 km que some debaixo d'água",
+      "O terremoto que esticou uma ponte (MAR SEM CHÃO)"
+    ],
+    "descricao": "Como se constrói uma estrada onde não existe chão? Neste vídeo vemos quatro obras gigantes sobre o mar: a ponte Hong Kong–Zhuhai–Macau, a ponte de Øresund, a Akashi Kaikyō e a Rio–Niterói, e as soluções de engenharia por trás de cada uma.\n\n0:00 Gancho\n0:35 O problema do mar\n1:35 Ilhas feitas à mão\n2:35 O túnel que flutua\n3:40 Øresund: ponte e túnel\n5:20 Akashi e o terremoto\n6:30 Rio–Niterói\n7:30 Desfecho\n\nFontes: Wikipédia (HZMB, Øresund, Rio–Niterói), Øresundsbron, ICE (Akashi Kaikyō), SCMP, Marinha do Brasil.",
+    "tags": ["pontes", "engenharia", "ponte no mar", "Hong Kong Zhuhai Macau", "Akashi Kaikyo", "Ponte Rio-Niterói", "Øresund", "túnel imerso", "megaconstruções", "tecnologia", "curiosidades", "Inova mundo"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Em outubro de dois mil e dezoito, a China abriu uma ponte de cinquenta e cinco quilômetros sobre o mar. No meio do caminho, a estrada mergulha e vira um túnel debaixo d'água. É considerada a maior travessia marítima do mundo, ligando Hong Kong, Zhuhai e Macau, numa região por onde passam navios enormes o tempo todo. Como alguém constrói uma estrada onde não existe chão?",
+      "galeria": ["hzmb-aerea", "hzmb-ilha", "hzmb-mapa"],
+      "galeriaEm": [0, "mergulha", "Como"],
+      "fontes": ["Wikipédia — HZMB", "SCMP"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 55, "unidade": "km", "rotulo": "sobre o mar", "em": "cinquenta", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Neste vídeo você vai conhecer o problema que todo engenheiro de pontes marítimas enfrenta, e quatro obras que parecem impossíveis. Uma delas teve o tamanho alterado por um terremoto. Vamos de Hong Kong a Kobe, passando pela Dinamarca e pelo Rio de Janeiro. Em cada lugar o desafio muda, mas a pergunta é sempre a mesma: onde apoiar a estrada quando o chão não existe? Mas primeiro, precisamos entender por que o mar é tão hostil.",
+      "galeria": ["engenheiros-obra", "ponte-akashi-torre", "kobe-terremoto"],
+      "galeriaEm": [0, "Uma", "terremoto"],
+      "fontes": [],
+      "elementos": []
+    },
+    {
+      "id": "problema",
+      "texto": "O mar é um péssimo lugar para construir. O fundo é mole, a água tem dezenas de metros de profundidade, e ondas, marés e tempestades nunca param. Navios enormes precisam passar por baixo ou ao lado. Então a pergunta não é só como atravessar. É como atravessar sem bloquear a navegação e sem cair. Há ainda o sal, que corrói o aço e o concreto, e o vento forte, que balança qualquer estrutura esbelta. Por isso o projeto de uma ponte marítima pensa em décadas de desgaste, não em anos. Os engenheiros têm três caminhos: vãos gigantes, muitos pilares, ou enterrar a estrada. A China resolveu usar todos ao mesmo tempo.",
+      "galeria": ["fundo-mar-obra", "porto-navios", "balsa-estacas", "hzmb-cabos"],
+      "galeriaEm": [0, "Navios", "Os", "A"],
+      "fontes": [],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O PROBLEMA DO MAR", "sub": "Capítulo 1", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["globo", "Vão gigante"], ["predio", "Pilares"], ["seta", ""]], "em": "caminhos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "ilhas",
+      "texto": "O primeiro truque foi criar terra firme. A ponte e o túnel precisavam de duas ilhas artificiais para se encontrar. Em vez de despejar areia, que a corrente levaria embora, os construtores cravaram células circulares de aço na lama e as encheram com material inerte. Elas formaram um muro de contenção, e só depois o miolo da ilha foi preenchido. Cada ilha precisava ser firme o bastante para sustentar as rampas e a estrutura de acesso ao túnel. Era engenharia de porto aplicada a uma rodovia, e tudo isso antes de a primeira peça do túnel chegar. A obra começou em dois mil e nove, do lado chinês. Mas faltava a parte mais difícil.",
+      "galeria": ["hzmb-ilha-obra", "celulas-aco", "reclamacao-aterro", "hzmb-ilha-hoje"],
+      "galeriaEm": [0, "cravaram", "muro", "Mas"],
+      "fontes": ["Wikipédia — HZMB"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ILHAS FEITAS À MÃO", "sub": "Capítulo 2", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Célula de aço", "significado": "Anel gigante cravado no fundo para segurar o aterro", "em": "cravaram", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "tunel",
+      "texto": "A parte difícil era o túnel de seis vírgula sete quilômetros. Ninguém escava debaixo do mar aberto. Os trechos são fabricados em terra, como enormes caixas de concreto, fechados nas pontas e rebocados flutuando. Depois são afundados num vale cavado no fundo e encaixados um no outro. É a técnica do túnel imerso: um tubo montado em terra e encaixado no mar, sem escavar a rocha. Cada encaixe exige precisão enorme, com correntes, lama e pressão da água atrapalhando o trabalho. O último encaixe, a junta final, foi feito em dois de maio de dois mil e dezessete. Ele foi projetado para durar cento e vinte anos.",
+      "galeria": ["tunel-imerso-elemento", "tunel-imerso-esquema", "tunel-imerso-interior"],
+      "galeriaEm": [0, "Os", "Depois"],
+      "fontes": ["Wikipédia — HZMB"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 120, "unidade": "anos", "rotulo": "vida útil projetada", "em": "Ele", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "custo",
+      "texto": "O resultado tem um trecho principal de vinte e nove vírgula seis quilômetros, com três pontes estaiadas e vãos de duzentos e oitenta a quatrocentos e sessenta metros. A conta foi pesada: cerca de cento e vinte e sete bilhões de yuans, perto de dezenove bilhões de dólares. E o custo humano também: dezenove trabalhadores morreram na obra. Ela abriu ao público em vinte e quatro de outubro de dois mil e dezoito. Do lado chinês, a construção começou em dois mil e nove, e do lado de Hong Kong em dois mil e onze. Foram quase nove anos entre as primeiras obras e a primeira viagem de carro. Mas existe outro lugar onde a ponte vira túnel por um motivo bem diferente.",
+      "galeria": ["hzmb-estaiada", "hong-kong-skyline", "macau-skyline"],
+      "galeriaEm": [0, "A", "Ela"],
+      "fontes": ["Wikipédia — HZMB"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 19, "unidade": "bilhões US$", "rotulo": "custo aproximado", "em": "bilhões", "posicao": "meio" },
+        { "tipo": "linha", "itens": [["2009", "Início"], ["2017", "Junta final"], ["2018", "Abertura"]], "em": "abriu", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "oresund",
+      "texto": "Entre a Dinamarca e a Suécia, a ponte de Øresund tem cerca de sete vírgula oito quilômetros e termina numa ilha, a Peberholm. Dali, a estrada entra num túnel de uns quatro quilômetros até Copenhague. O motivo é prático: um túnel não atrapalha os aviões do aeroporto e deixa livre o canal dos navios. E a ilha? Ela foi feita com o material dragado da própria obra. Ponte e túnel formam um único corredor de estrada e trilho entre Copenhague e Malmö. Para a região, isso significou unir duas cidades que antes dependiam de balsas. A ponte abriu em primeiro de julho de dois mil. Mas a obra mais ousada ainda estava no Japão.",
+      "galeria": ["oresund-ponte", "peberholm", "oresund-tunel", "copenhague"],
+      "galeriaEm": [0, "Dali", "motivo", "Ela"],
+      "fontes": ["Wikipédia — Øresund", "Øresundsbron"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ØRESUND: PONTE E TÚNEL", "sub": "Capítulo 3", "em": 0, "posicao": "topo" },
+        { "tipo": "mapa", "de": "Dinamarca", "para": "Suécia", "legenda": "Aberta em 1º de julho de 2000", "em": "Dinamarca", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "akashi",
+      "texto": "No Japão, a ponte Akashi Kaikyō venceu o problema com um vão central de mil novecentos e noventa e um metros, o maior do mundo entre pontes suspensas. A obra começou em mil novecentos e oitenta e oito. Esse estreito é uma rota marítima movimentada, sujeita a ventos fortes, e por isso a ponte precisou de um desenho muito rígido e de cabos enormes para segurar o peso da pista. As fundações precisaram vencer uma água de uns quarenta e cinco metros de profundidade. Em mil novecentos e noventa e cinco, as torres já estavam de pé quando o terremoto de Kobe sacudiu a região. O epicentro ficava ali ao lado. E o que aconteceu com a ponte vai surpreender você.",
+      "galeria": ["akashi-ponte", "akashi-estreito-mapa", "akashi-fundacao", "kobe-cidade"],
+      "galeriaEm": [0, "mil", "fundações", "Em"],
+      "fontes": ["ICE", "Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "AKASHI KAIKYŌ", "sub": "Capítulo 4 · a virada", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 1991, "unidade": "m", "rotulo": "vão central", "em": "central", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "terremoto",
+      "texto": "As duas torres se afastaram. A distância entre elas aumentou perto de um metro, e o vão passou de mil novecentos e noventa para mil novecentos e noventa e um metros. A estrutura sobreviveu porque os cabos principais já estavam instalados. A natureza, sem querer, redesenhou o projeto no meio da obra. O que parecia uma tragédia virou um ajuste de medidas que os engenheiros souberam absorver. A obra foi ajustada e a ponte abriu em cinco de abril de mil novecentos e noventa e oito. O maior vão do mundo ganhou um metro de brinde, graças a um desastre.",
+      "galeria": ["kobe-danos", "akashi-torre", "akashi-cabos"],
+      "galeriaEm": [0, "A", "A"],
+      "fontes": ["ICE", "Engenharia — relatos"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1988", "Início"], ["1995", "Terremoto"], ["1998", "Abertura"]], "em": "As", "posicao": "alto" },
+        { "tipo": "carimbo", "texto": "+1 METRO", "cor": "vermelho", "em": "brinde", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "rio-niteroi",
+      "texto": "E o Brasil também tem uma obra dessas. A ponte Rio-Niterói tem treze vírgula vinte e nove quilômetros, dos quais oito vírgula oito sobre a Baía de Guanabara. O vão central de trezentos metros, a setenta e dois de altura, foi o maior vão em viga caixão do mundo quando ficou pronto. Para os brasileiros, a ponte virou rotina, com dezenas de milhares de veículos por dia. Para os engenheiros da época, foi uma prova de que dava para atravessar uma baía inteira com concreto e aço. Ela foi inaugurada em quatro de março de mil novecentos e setenta e quatro. Oficialmente, trinta e três pessoas morreram na obra. Estimativas não oficiais passam de quatrocentas.",
+      "galeria": ["rio-niteroi", "rio-niteroi-vao", "baia-guanabara"],
+      "galeriaEm": [0, "O", "Ela"],
+      "fontes": ["Marinha do Brasil", "Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A PONTE BRASILEIRA", "sub": "Rio de Janeiro ↔ Niterói", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 13, "unidade": "km", "rotulo": "extensão total", "em": "treze", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "Então, como se constrói uma ponte no mar? Primeiro, criando chão, com ilhas, estacas e fundações. Depois, escolhendo entre vão gigante, muitos pilares ou túnel, e muitas vezes combinando tudo. E, no fim, aceitando que o oceano sempre pode surpreender, seja com tempestade, seja com terremoto. A resposta ao começo do vídeo é essa: a estrada no meio do oceano existe porque alguém criou chão onde ele não havia, uma peça por vez. Cada uma dessas obras mostra que engenharia é, no fundo, a arte de negociar com a natureza.",
+      "galeria": ["ponte-noite-mar", "construcao-ponte-balsa", "ponte-tempestade"],
+      "galeriaEm": [0, "Primeiro", "oceano"],
+      "fontes": [],
+      "elementos": [
+        { "tipo": "icones", "itens": [["obra", "Criar chão"], ["pin", "Escolher o traçado"], ["alerta", "Prever o inesperado"]], "em": "Primeiro", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "Se você gosta de entender como o mundo é construído, se inscreva no canal. No próximo vídeo, vamos descer ainda mais fundo: túneis sob o oceano.",
+      "galeria": ["tunel-submarino", "canal-mancha"],
+      "galeriaEm": [0, "próximo"],
+      "fontes": [],
+      "elementos": [
+        { "tipo": "seguir", "texto": "INSCREVA-SE", "em": "inscreva", "posicao": "meio2" }
+      ]
+    }
+  ]
+}

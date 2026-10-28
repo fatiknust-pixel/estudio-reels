@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "neon",
  "criadoEm": "2026-10-28T17:56:05.480Z",
- "atualizadoEm": "2026-10-28T17:56:05.480Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-28T20:24:12Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Como pontes no mar são construídas",
   "tom": "Curioso e analítico",
@@ -45,15 +45,7009 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em outubro de dois mil e dezoito, a China abriu uma ponte de cinquenta e cinco quilômetros sobre o mar. No meio do caminho, a estrada mergulha e vira um túnel debaixo d'água. É considerada a maior travessia marítima do mundo, ligando Hong Kong, Zhuhai e Macau, numa região por onde passam navios enormes o tempo todo. Como alguém constrói uma estrada onde não existe chão?",
+   "galeria": [
+    "hzmb-aerea",
+    "hzmb-ilha",
+    "hzmb-mapa"
+   ],
+   "galeriaEm": [
+    0,
+    "mergulha",
+    "Como"
+   ],
+   "fontes": [
+    "Wikipédia — HZMB",
+    "SCMP"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 55,
+     "unidade": "km",
+     "rotulo": "sobre o mar",
+     "em": "cinquenta",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Neste vídeo você vai conhecer o problema que todo engenheiro de pontes marítimas enfrenta, e quatro obras que parecem impossíveis. Uma delas teve o tamanho alterado por um terremoto. Vamos de Hong Kong a Kobe, passando pela Dinamarca e pelo Rio de Janeiro. Em cada lugar o desafio muda, mas a pergunta é sempre a mesma: onde apoiar a estrada quando o chão não existe? Mas primeiro, precisamos entender por que o mar é tão hostil.",
+   "galeria": [
+    "engenheiros-obra",
+    "ponte-akashi-torre",
+    "kobe-terremoto"
+   ],
+   "galeriaEm": [
+    0,
+    "Uma",
+    "terremoto"
+   ],
+   "fontes": [],
+   "elementos": []
+  },
+  {
+   "id": "problema",
+   "texto": "O mar é um péssimo lugar para construir. O fundo é mole, a água tem dezenas de metros de profundidade, e ondas, marés e tempestades nunca param. Navios enormes precisam passar por baixo ou ao lado. Então a pergunta não é só como atravessar. É como atravessar sem bloquear a navegação e sem cair. Há ainda o sal, que corrói o aço e o concreto, e o vento forte, que balança qualquer estrutura esbelta. Por isso o projeto de uma ponte marítima pensa em décadas de desgaste, não em anos. Os engenheiros têm três caminhos: vãos gigantes, muitos pilares, ou enterrar a estrada. A China resolveu usar todos ao mesmo tempo.",
+   "galeria": [
+    "fundo-mar-obra",
+    "porto-navios",
+    "balsa-estacas",
+    "hzmb-cabos"
+   ],
+   "galeriaEm": [
+    0,
+    "Navios",
+    "Os",
+    "A"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O PROBLEMA DO MAR",
+     "sub": "Capítulo 1",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "globo",
+       "Vão gigante"
+      ],
+      [
+       "predio",
+       "Pilares"
+      ],
+      [
+       "seta",
+       ""
+      ]
+     ],
+     "em": "caminhos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "ilhas",
+   "texto": "O primeiro truque foi criar terra firme. A ponte e o túnel precisavam de duas ilhas artificiais para se encontrar. Em vez de despejar areia, que a corrente levaria embora, os construtores cravaram células circulares de aço na lama e as encheram com material inerte. Elas formaram um muro de contenção, e só depois o miolo da ilha foi preenchido. Cada ilha precisava ser firme o bastante para sustentar as rampas e a estrutura de acesso ao túnel. Era engenharia de porto aplicada a uma rodovia, e tudo isso antes de a primeira peça do túnel chegar. A obra começou em dois mil e nove, do lado chinês. Mas faltava a parte mais difícil.",
+   "galeria": [
+    "hzmb-ilha-obra",
+    "celulas-aco",
+    "reclamacao-aterro",
+    "hzmb-ilha-hoje"
+   ],
+   "galeriaEm": [
+    0,
+    "cravaram",
+    "muro",
+    "Mas"
+   ],
+   "fontes": [
+    "Wikipédia — HZMB"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ILHAS FEITAS À MÃO",
+     "sub": "Capítulo 2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Célula de aço",
+     "significado": "Anel gigante cravado no fundo para segurar o aterro",
+     "em": "cravaram",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "tunel",
+   "texto": "A parte difícil era o túnel de seis vírgula sete quilômetros. Ninguém escava debaixo do mar aberto. Os trechos são fabricados em terra, como enormes caixas de concreto, fechados nas pontas e rebocados flutuando. Depois são afundados num vale cavado no fundo e encaixados um no outro. É a técnica do túnel imerso: um tubo montado em terra e encaixado no mar, sem escavar a rocha. Cada encaixe exige precisão enorme, com correntes, lama e pressão da água atrapalhando o trabalho. O último encaixe, a junta final, foi feito em dois de maio de dois mil e dezessete. Ele foi projetado para durar cento e vinte anos.",
+   "galeria": [
+    "tunel-imerso-elemento",
+    "tunel-imerso-esquema",
+    "tunel-imerso-interior"
+   ],
+   "galeriaEm": [
+    0,
+    "Os",
+    "Depois"
+   ],
+   "fontes": [
+    "Wikipédia — HZMB"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 120,
+     "unidade": "anos",
+     "rotulo": "vida útil projetada",
+     "em": "Ele",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "custo",
+   "texto": "O resultado tem um trecho principal de vinte e nove vírgula seis quilômetros, com três pontes estaiadas e vãos de duzentos e oitenta a quatrocentos e sessenta metros. A conta foi pesada: cerca de cento e vinte e sete bilhões de yuans, perto de dezenove bilhões de dólares. E o custo humano também: dezenove trabalhadores morreram na obra. Ela abriu ao público em vinte e quatro de outubro de dois mil e dezoito. Do lado chinês, a construção começou em dois mil e nove, e do lado de Hong Kong em dois mil e onze. Foram quase nove anos entre as primeiras obras e a primeira viagem de carro. Mas existe outro lugar onde a ponte vira túnel por um motivo bem diferente.",
+   "galeria": [
+    "hzmb-estaiada",
+    "hong-kong-skyline",
+    "macau-skyline"
+   ],
+   "galeriaEm": [
+    0,
+    "A",
+    "Ela"
+   ],
+   "fontes": [
+    "Wikipédia — HZMB"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 19,
+     "unidade": "bilhões US$",
+     "rotulo": "custo aproximado",
+     "em": "bilhões",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2009",
+       "Início"
+      ],
+      [
+       "2017",
+       "Junta final"
+      ],
+      [
+       "2018",
+       "Abertura"
+      ]
+     ],
+     "em": "abriu",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "oresund",
+   "texto": "Entre a Dinamarca e a Suécia, a ponte de Øresund tem cerca de sete vírgula oito quilômetros e termina numa ilha, a Peberholm. Dali, a estrada entra num túnel de uns quatro quilômetros até Copenhague. O motivo é prático: um túnel não atrapalha os aviões do aeroporto e deixa livre o canal dos navios. E a ilha? Ela foi feita com o material dragado da própria obra. Ponte e túnel formam um único corredor de estrada e trilho entre Copenhague e Malmö. Para a região, isso significou unir duas cidades que antes dependiam de balsas. A ponte abriu em primeiro de julho de dois mil. Mas a obra mais ousada ainda estava no Japão.",
+   "galeria": [
+    "oresund-ponte",
+    "peberholm",
+    "oresund-tunel",
+    "copenhague"
+   ],
+   "galeriaEm": [
+    0,
+    "Dali",
+    "motivo",
+    "Ela"
+   ],
+   "fontes": [
+    "Wikipédia — Øresund",
+    "Øresundsbron"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ØRESUND: PONTE E TÚNEL",
+     "sub": "Capítulo 3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Dinamarca",
+     "para": "Suécia",
+     "legenda": "Aberta em 1º de julho de 2000",
+     "em": "Dinamarca",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "akashi",
+   "texto": "No Japão, a ponte Akashi Kaikyō venceu o problema com um vão central de mil novecentos e noventa e um metros, o maior do mundo entre pontes suspensas. A obra começou em mil novecentos e oitenta e oito. Esse estreito é uma rota marítima movimentada, sujeita a ventos fortes, e por isso a ponte precisou de um desenho muito rígido e de cabos enormes para segurar o peso da pista. As fundações precisaram vencer uma água de uns quarenta e cinco metros de profundidade. Em mil novecentos e noventa e cinco, as torres já estavam de pé quando o terremoto de Kobe sacudiu a região. O epicentro ficava ali ao lado. E o que aconteceu com a ponte vai surpreender você.",
+   "galeria": [
+    "akashi-ponte",
+    "akashi-estreito-mapa",
+    "akashi-fundacao",
+    "kobe-cidade"
+   ],
+   "galeriaEm": [
+    0,
+    "mil",
+    "fundações",
+    "Em"
+   ],
+   "fontes": [
+    "ICE",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AKASHI KAIKYŌ",
+     "sub": "Capítulo 4 · a virada",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1991,
+     "unidade": "m",
+     "rotulo": "vão central",
+     "em": "central",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "terremoto",
+   "texto": "As duas torres se afastaram. A distância entre elas aumentou perto de um metro, e o vão passou de mil novecentos e noventa para mil novecentos e noventa e um metros. A estrutura sobreviveu porque os cabos principais já estavam instalados. A natureza, sem querer, redesenhou o projeto no meio da obra. O que parecia uma tragédia virou um ajuste de medidas que os engenheiros souberam absorver. A obra foi ajustada e a ponte abriu em cinco de abril de mil novecentos e noventa e oito. O maior vão do mundo ganhou um metro de brinde, graças a um desastre.",
+   "galeria": [
+    "kobe-danos",
+    "akashi-torre",
+    "akashi-cabos"
+   ],
+   "galeriaEm": [
+    0,
+    "A",
+    "A"
+   ],
+   "fontes": [
+    "ICE",
+    "Engenharia — relatos"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1988",
+       "Início"
+      ],
+      [
+       "1995",
+       "Terremoto"
+      ],
+      [
+       "1998",
+       "Abertura"
+      ]
+     ],
+     "em": "As",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "+1 METRO",
+     "cor": "vermelho",
+     "em": "brinde",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "rio-niteroi",
+   "texto": "E o Brasil também tem uma obra dessas. A ponte Rio-Niterói tem treze vírgula vinte e nove quilômetros, dos quais oito vírgula oito sobre a Baía de Guanabara. O vão central de trezentos metros, a setenta e dois de altura, foi o maior vão em viga caixão do mundo quando ficou pronto. Para os brasileiros, a ponte virou rotina, com dezenas de milhares de veículos por dia. Para os engenheiros da época, foi uma prova de que dava para atravessar uma baía inteira com concreto e aço. Ela foi inaugurada em quatro de março de mil novecentos e setenta e quatro. Oficialmente, trinta e três pessoas morreram na obra. Estimativas não oficiais passam de quatrocentas.",
+   "galeria": [
+    "rio-niteroi",
+    "rio-niteroi-vao",
+    "baia-guanabara"
+   ],
+   "galeriaEm": [
+    0,
+    "O",
+    "Ela"
+   ],
+   "fontes": [
+    "Marinha do Brasil",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A PONTE BRASILEIRA",
+     "sub": "Rio de Janeiro ↔ Niterói",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 13,
+     "unidade": "km",
+     "rotulo": "extensão total",
+     "em": "treze",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então, como se constrói uma ponte no mar? Primeiro, criando chão, com ilhas, estacas e fundações. Depois, escolhendo entre vão gigante, muitos pilares ou túnel, e muitas vezes combinando tudo. E, no fim, aceitando que o oceano sempre pode surpreender, seja com tempestade, seja com terremoto. A resposta ao começo do vídeo é essa: a estrada no meio do oceano existe porque alguém criou chão onde ele não havia, uma peça por vez. Cada uma dessas obras mostra que engenharia é, no fundo, a arte de negociar com a natureza.",
+   "galeria": [
+    "ponte-noite-mar",
+    "construcao-ponte-balsa",
+    "ponte-tempestade"
+   ],
+   "galeriaEm": [
+    0,
+    "Primeiro",
+    "oceano"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "obra",
+       "Criar chão"
+      ],
+      [
+       "pin",
+       "Escolher o traçado"
+      ],
+      [
+       "alerta",
+       "Prever o inesperado"
+      ]
+     ],
+     "em": "Primeiro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Se você gosta de entender como o mundo é construído, se inscreva no canal. No próximo vídeo, vamos descer ainda mais fundo: túneis sob o oceano.",
+   "galeria": [
+    "tunel-submarino",
+    "canal-mancha"
+   ],
+   "galeriaEm": [
+    0,
+    "próximo"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "seguir",
+     "texto": "INSCREVA-SE",
+     "em": "inscreva",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "d6e0316006",
+   "texto": "Em outubro de dois mil e dezoito, a China abriu uma ponte de cinquenta e cinco quilômetros sobre o mar. No meio do caminho, a estrada mergulha e vira um túnel debaixo d'água. É considerada a maior travessia marítima do mundo, ligando Hong Kong, Zhuhai e Macau, numa região por onde passam navios enormes o tempo todo. Como alguém constrói uma estrada onde não existe chão?",
+   "audio": "audio/gancho-d6e0316006.mp3",
+   "duracao": 26.619,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "outubro",
+     "i": 0.297,
+     "f": 0.792
+    },
+    {
+     "p": "de",
+     "i": 0.805,
+     "f": 0.883
+    },
+    {
+     "p": "dois",
+     "i": 0.896,
+     "f": 1.079
+    },
+    {
+     "p": "mil",
+     "i": 1.092,
+     "f": 1.209
+    },
+    {
+     "p": "e",
+     "i": 1.222,
+     "f": 1.248
+    },
+    {
+     "p": "dezoito",
+     "i": 1.261,
+     "f": 1.821
+    },
+    {
+     "p": "a",
+     "i": 2.016,
+     "f": 2.107
+    },
+    {
+     "p": "China",
+     "i": 2.12,
+     "f": 2.433
+    },
+    {
+     "p": "abriu",
+     "i": 2.446,
+     "f": 2.732
+    },
+    {
+     "p": "uma",
+     "i": 2.745,
+     "f": 2.928
+    },
+    {
+     "p": "ponte",
+     "i": 2.941,
+     "f": 3.331
+    },
+    {
+     "p": "de",
+     "i": 3.344,
+     "f": 3.435
+    },
+    {
+     "p": "cinquenta",
+     "i": 3.448,
+     "f": 3.93
+    },
+    {
+     "p": "e",
+     "i": 3.943,
+     "f": 3.969
+    },
+    {
+     "p": "cinco",
+     "i": 3.982,
+     "f": 4.282
+    },
+    {
+     "p": "quilômetros",
+     "i": 4.295,
+     "f": 4.92
+    },
+    {
+     "p": "sobre",
+     "i": 4.933,
+     "f": 5.18
+    },
+    {
+     "p": "o",
+     "i": 5.193,
+     "f": 5.219
+    },
+    {
+     "p": "mar.",
+     "i": 5.232,
+     "f": 5.467
+    },
+    {
+     "p": "No",
+     "i": 6.726,
+     "f": 6.895
+    },
+    {
+     "p": "meio",
+     "i": 6.908,
+     "f": 7.182
+    },
+    {
+     "p": "do",
+     "i": 7.195,
+     "f": 7.325
+    },
+    {
+     "p": "caminho",
+     "i": 7.338,
+     "f": 7.781
+    },
+    {
+     "p": "a",
+     "i": 8.041,
+     "f": 8.106
+    },
+    {
+     "p": "estrada",
+     "i": 8.119,
+     "f": 8.536
+    },
+    {
+     "p": "mergulha",
+     "i": 8.549,
+     "f": 9.044
+    },
+    {
+     "p": "e",
+     "i": 9.057,
+     "f": 9.148
+    },
+    {
+     "p": "vira",
+     "i": 9.161,
+     "f": 9.356
+    },
+    {
+     "p": "um",
+     "i": 9.369,
+     "f": 9.473
+    },
+    {
+     "p": "túnel",
+     "i": 9.486,
+     "f": 9.799
+    },
+    {
+     "p": "debaixo",
+     "i": 9.812,
+     "f": 10.307
+    },
+    {
+     "p": "d'água",
+     "i": 10.32,
+     "f": 10.736
+    },
+    {
+     "p": "É",
+     "i": 11.982,
+     "f": 12.112
+    },
+    {
+     "p": "considerada",
+     "i": 12.125,
+     "f": 12.789
+    },
+    {
+     "p": "a",
+     "i": 12.802,
+     "f": 12.815
+    },
+    {
+     "p": "maior",
+     "i": 12.828,
+     "f": 13.154
+    },
+    {
+     "p": "travessia",
+     "i": 13.167,
+     "f": 13.649
+    },
+    {
+     "p": "marítima",
+     "i": 13.662,
+     "f": 14.196
+    },
+    {
+     "p": "do",
+     "i": 14.209,
+     "f": 14.3
+    },
+    {
+     "p": "mundo",
+     "i": 14.313,
+     "f": 14.651
+    },
+    {
+     "p": "ligando",
+     "i": 14.912,
+     "f": 15.341
+    },
+    {
+     "p": "Hong",
+     "i": 15.354,
+     "f": 15.537
+    },
+    {
+     "p": "Kong",
+     "i": 15.55,
+     "f": 15.953
+    },
+    {
+     "p": "Zhuhai",
+     "i": 16.266,
+     "f": 16.657
+    },
+    {
+     "p": "e",
+     "i": 16.67,
+     "f": 16.709
+    },
+    {
+     "p": "Macau",
+     "i": 16.722,
+     "f": 17.203
+    },
+    {
+     "p": "numa",
+     "i": 17.464,
+     "f": 17.659
+    },
+    {
+     "p": "região",
+     "i": 17.672,
+     "f": 18.128
+    },
+    {
+     "p": "por",
+     "i": 18.141,
+     "f": 18.284
+    },
+    {
+     "p": "onde",
+     "i": 18.297,
+     "f": 18.545
+    },
+    {
+     "p": "passam",
+     "i": 18.558,
+     "f": 18.857
+    },
+    {
+     "p": "navios",
+     "i": 18.87,
+     "f": 19.209
+    },
+    {
+     "p": "enormes",
+     "i": 19.222,
+     "f": 19.729
+    },
+    {
+     "p": "o",
+     "i": 19.742,
+     "f": 19.886
+    },
+    {
+     "p": "tempo",
+     "i": 19.899,
+     "f": 20.237
+    },
+    {
+     "p": "todo",
+     "i": 20.25,
+     "f": 20.602
+    },
+    {
+     "p": "Como",
+     "i": 21.846,
+     "f": 22.146
+    },
+    {
+     "p": "alguém",
+     "i": 22.159,
+     "f": 22.432
+    },
+    {
+     "p": "constrói",
+     "i": 22.445,
+     "f": 22.888
+    },
+    {
+     "p": "uma",
+     "i": 22.901,
+     "f": 23.005
+    },
+    {
+     "p": "estrada",
+     "i": 23.018,
+     "f": 23.461
+    },
+    {
+     "p": "onde",
+     "i": 23.474,
+     "f": 23.812
+    },
+    {
+     "p": "não",
+     "i": 23.825,
+     "f": 24.034
+    },
+    {
+     "p": "existe",
+     "i": 24.047,
+     "f": 24.489
+    },
+    {
+     "p": "chão",
+     "i": 24.502,
+     "f": 24.867
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "f0df708992",
+   "texto": "Neste vídeo você vai conhecer o problema que todo engenheiro de pontes marítimas enfrenta, e quatro obras que parecem impossíveis. Uma delas teve o tamanho alterado por um terremoto. Vamos de Hong Kong a Kobe, passando pela Dinamarca e pelo Rio de Janeiro. Em cada lugar o desafio muda, mas a pergunta é sempre a mesma: onde apoiar a estrada quando o chão não existe? Mas primeiro, precisamos entender por que o mar é tão hostil.",
+   "audio": "audio/promessa-f0df708992.mp3",
+   "duracao": 31.478,
+   "palavras": [
+    {
+     "p": "Neste",
+     "i": 0.102,
+     "f": 0.532
+    },
+    {
+     "p": "vídeo",
+     "i": 0.545,
+     "f": 0.857
+    },
+    {
+     "p": "você",
+     "i": 0.87,
+     "f": 1.144
+    },
+    {
+     "p": "vai",
+     "i": 1.157,
+     "f": 1.3
+    },
+    {
+     "p": "conhecer",
+     "i": 1.313,
+     "f": 1.769
+    },
+    {
+     "p": "o",
+     "i": 1.782,
+     "f": 1.821
+    },
+    {
+     "p": "problema",
+     "i": 1.834,
+     "f": 2.316
+    },
+    {
+     "p": "que",
+     "i": 2.329,
+     "f": 2.498
+    },
+    {
+     "p": "todo",
+     "i": 2.511,
+     "f": 2.797
+    },
+    {
+     "p": "engenheiro",
+     "i": 2.81,
+     "f": 3.279
+    },
+    {
+     "p": "de",
+     "i": 3.292,
+     "f": 3.409
+    },
+    {
+     "p": "pontes",
+     "i": 3.422,
+     "f": 3.8
+    },
+    {
+     "p": "marítimas",
+     "i": 3.813,
+     "f": 4.321
+    },
+    {
+     "p": "enfrenta",
+     "i": 4.334,
+     "f": 4.985
+    },
+    {
+     "p": "e",
+     "i": 5.284,
+     "f": 5.402
+    },
+    {
+     "p": "quatro",
+     "i": 5.415,
+     "f": 5.792
+    },
+    {
+     "p": "obras",
+     "i": 5.805,
+     "f": 6.157
+    },
+    {
+     "p": "que",
+     "i": 6.17,
+     "f": 6.274
+    },
+    {
+     "p": "parecem",
+     "i": 6.287,
+     "f": 6.743
+    },
+    {
+     "p": "impossíveis",
+     "i": 6.756,
+     "f": 7.55
+    },
+    {
+     "p": "Uma",
+     "i": 8.79,
+     "f": 9.05
+    },
+    {
+     "p": "delas",
+     "i": 9.064,
+     "f": 9.48
+    },
+    {
+     "p": "teve",
+     "i": 9.493,
+     "f": 9.715
+    },
+    {
+     "p": "o",
+     "i": 9.728,
+     "f": 9.767
+    },
+    {
+     "p": "tamanho",
+     "i": 9.78,
+     "f": 10.131
+    },
+    {
+     "p": "alterado",
+     "i": 10.144,
+     "f": 10.639
+    },
+    {
+     "p": "por",
+     "i": 10.652,
+     "f": 10.795
+    },
+    {
+     "p": "um",
+     "i": 10.808,
+     "f": 10.912
+    },
+    {
+     "p": "terremoto",
+     "i": 10.925,
+     "f": 11.524
+    },
+    {
+     "p": "Vamos",
+     "i": 12.774,
+     "f": 13.152
+    },
+    {
+     "p": "de",
+     "i": 13.165,
+     "f": 13.256
+    },
+    {
+     "p": "Hong",
+     "i": 13.269,
+     "f": 13.451
+    },
+    {
+     "p": "Kong",
+     "i": 13.464,
+     "f": 13.816
+    },
+    {
+     "p": "a",
+     "i": 13.829,
+     "f": 13.894
+    },
+    {
+     "p": "Kobe",
+     "i": 13.907,
+     "f": 14.311
+    },
+    {
+     "p": "passando",
+     "i": 14.636,
+     "f": 15.105
+    },
+    {
+     "p": "pela",
+     "i": 15.118,
+     "f": 15.326
+    },
+    {
+     "p": "Dinamarca",
+     "i": 15.339,
+     "f": 15.964
+    },
+    {
+     "p": "e",
+     "i": 15.977,
+     "f": 16.029
+    },
+    {
+     "p": "pelo",
+     "i": 16.042,
+     "f": 16.264
+    },
+    {
+     "p": "Rio",
+     "i": 16.277,
+     "f": 16.511
+    },
+    {
+     "p": "de",
+     "i": 16.524,
+     "f": 16.589
+    },
+    {
+     "p": "Janeiro",
+     "i": 16.602,
+     "f": 17.097
+    },
+    {
+     "p": "Em",
+     "i": 18.342,
+     "f": 18.524
+    },
+    {
+     "p": "cada",
+     "i": 18.537,
+     "f": 18.811
+    },
+    {
+     "p": "lugar",
+     "i": 18.824,
+     "f": 19.136
+    },
+    {
+     "p": "o",
+     "i": 19.149,
+     "f": 19.188
+    },
+    {
+     "p": "desafio",
+     "i": 19.201,
+     "f": 19.657
+    },
+    {
+     "p": "muda",
+     "i": 19.67,
+     "f": 20.009
+    },
+    {
+     "p": "mas",
+     "i": 20.269,
+     "f": 20.36
+    },
+    {
+     "p": "a",
+     "i": 20.373,
+     "f": 20.504
+    },
+    {
+     "p": "pergunta",
+     "i": 20.517,
+     "f": 21.024
+    },
+    {
+     "p": "é",
+     "i": 21.037,
+     "f": 21.076
+    },
+    {
+     "p": "sempre",
+     "i": 21.089,
+     "f": 21.506
+    },
+    {
+     "p": "a",
+     "i": 21.519,
+     "f": 21.571
+    },
+    {
+     "p": "mesma",
+     "i": 21.584,
+     "f": 21.988
+    },
+    {
+     "p": "onde",
+     "i": 22.352,
+     "f": 22.574
+    },
+    {
+     "p": "apoiar",
+     "i": 22.587,
+     "f": 22.938
+    },
+    {
+     "p": "a",
+     "i": 22.951,
+     "f": 22.991
+    },
+    {
+     "p": "estrada",
+     "i": 23.004,
+     "f": 23.459
+    },
+    {
+     "p": "quando",
+     "i": 23.472,
+     "f": 23.694
+    },
+    {
+     "p": "o",
+     "i": 23.707,
+     "f": 23.72
+    },
+    {
+     "p": "chão",
+     "i": 23.733,
+     "f": 23.967
+    },
+    {
+     "p": "não",
+     "i": 23.98,
+     "f": 24.162
+    },
+    {
+     "p": "existe",
+     "i": 24.175,
+     "f": 24.696
+    },
+    {
+     "p": "Mas",
+     "i": 26.05,
+     "f": 26.363
+    },
+    {
+     "p": "primeiro",
+     "i": 26.376,
+     "f": 26.831
+    },
+    {
+     "p": "precisamos",
+     "i": 27.053,
+     "f": 27.652
+    },
+    {
+     "p": "entender",
+     "i": 27.665,
+     "f": 28.251
+    },
+    {
+     "p": "por",
+     "i": 28.264,
+     "f": 28.472
+    },
+    {
+     "p": "que",
+     "i": 28.485,
+     "f": 28.602
+    },
+    {
+     "p": "o",
+     "i": 28.615,
+     "f": 28.68
+    },
+    {
+     "p": "mar",
+     "i": 28.693,
+     "f": 28.928
+    },
+    {
+     "p": "é",
+     "i": 28.941,
+     "f": 28.993
+    },
+    {
+     "p": "tão",
+     "i": 29.006,
+     "f": 29.266
+    },
+    {
+     "p": "hostil",
+     "i": 29.279,
+     "f": 29.709
+    }
+   ]
+  },
+  "problema": {
+   "hash": "75042bcab3",
+   "texto": "O mar é um péssimo lugar para construir. O fundo é mole, a água tem dezenas de metros de profundidade, e ondas, marés e tempestades nunca param. Navios enormes precisam passar por baixo ou ao lado. Então a pergunta não é só como atravessar. É como atravessar sem bloquear a navegação e sem cair. Há ainda o sal, que corrói o aço e o concreto, e o vento forte, que balança qualquer estrutura esbelta. Por isso o projeto de uma ponte marítima pensa em décadas de desgaste, não em anos. Os engenheiros têm três caminhos: vãos gigantes, muitos pilares, ou enterrar a estrada. A China resolveu usar todos ao mesmo tempo.",
+   "audio": "audio/problema-75042bcab3.mp3",
+   "duracao": 49.685,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "mar",
+     "i": 0.219,
+     "f": 0.493
+    },
+    {
+     "p": "é",
+     "i": 0.506,
+     "f": 0.545
+    },
+    {
+     "p": "um",
+     "i": 0.558,
+     "f": 0.675
+    },
+    {
+     "p": "péssimo",
+     "i": 0.688,
+     "f": 1.092
+    },
+    {
+     "p": "lugar",
+     "i": 1.105,
+     "f": 1.508
+    },
+    {
+     "p": "para",
+     "i": 1.521,
+     "f": 1.743
+    },
+    {
+     "p": "construir",
+     "i": 1.756,
+     "f": 2.342
+    },
+    {
+     "p": "O",
+     "i": 3.582,
+     "f": 3.712
+    },
+    {
+     "p": "fundo",
+     "i": 3.725,
+     "f": 4.064
+    },
+    {
+     "p": "é",
+     "i": 4.077,
+     "f": 4.142
+    },
+    {
+     "p": "mole",
+     "i": 4.155,
+     "f": 4.533
+    },
+    {
+     "p": "a",
+     "i": 4.78,
+     "f": 4.884
+    },
+    {
+     "p": "água",
+     "i": 4.897,
+     "f": 5.236
+    },
+    {
+     "p": "tem",
+     "i": 5.249,
+     "f": 5.392
+    },
+    {
+     "p": "dezenas",
+     "i": 5.405,
+     "f": 5.874
+    },
+    {
+     "p": "de",
+     "i": 5.887,
+     "f": 5.978
+    },
+    {
+     "p": "metros",
+     "i": 5.991,
+     "f": 6.421
+    },
+    {
+     "p": "de",
+     "i": 6.434,
+     "f": 6.525
+    },
+    {
+     "p": "profundidade",
+     "i": 6.538,
+     "f": 7.345
+    },
+    {
+     "p": "e",
+     "i": 7.671,
+     "f": 7.827
+    },
+    {
+     "p": "ondas",
+     "i": 7.84,
+     "f": 8.296
+    },
+    {
+     "p": "marés",
+     "i": 8.53,
+     "f": 8.829
+    },
+    {
+     "p": "e",
+     "i": 8.842,
+     "f": 8.96
+    },
+    {
+     "p": "tempestades",
+     "i": 8.973,
+     "f": 9.676
+    },
+    {
+     "p": "nunca",
+     "i": 9.689,
+     "f": 10.079
+    },
+    {
+     "p": "param",
+     "i": 10.092,
+     "f": 10.392
+    },
+    {
+     "p": "Navios",
+     "i": 11.646,
+     "f": 12.076
+    },
+    {
+     "p": "enormes",
+     "i": 12.089,
+     "f": 12.675
+    },
+    {
+     "p": "precisam",
+     "i": 12.688,
+     "f": 13.13
+    },
+    {
+     "p": "passar",
+     "i": 13.143,
+     "f": 13.534
+    },
+    {
+     "p": "por",
+     "i": 13.547,
+     "f": 13.742
+    },
+    {
+     "p": "baixo",
+     "i": 13.755,
+     "f": 14.25
+    },
+    {
+     "p": "ou",
+     "i": 14.263,
+     "f": 14.42
+    },
+    {
+     "p": "ao",
+     "i": 14.433,
+     "f": 14.537
+    },
+    {
+     "p": "lado",
+     "i": 14.55,
+     "f": 14.953
+    },
+    {
+     "p": "Então",
+     "i": 16.206,
+     "f": 16.701
+    },
+    {
+     "p": "a",
+     "i": 16.714,
+     "f": 16.753
+    },
+    {
+     "p": "pergunta",
+     "i": 16.766,
+     "f": 17.313
+    },
+    {
+     "p": "não",
+     "i": 17.326,
+     "f": 17.521
+    },
+    {
+     "p": "é",
+     "i": 17.534,
+     "f": 17.586
+    },
+    {
+     "p": "só",
+     "i": 17.599,
+     "f": 17.847
+    },
+    {
+     "p": "como",
+     "i": 17.86,
+     "f": 18.042
+    },
+    {
+     "p": "atravessar",
+     "i": 18.055,
+     "f": 18.667
+    },
+    {
+     "p": "É",
+     "i": 19.926,
+     "f": 20.056
+    },
+    {
+     "p": "como",
+     "i": 20.069,
+     "f": 20.291
+    },
+    {
+     "p": "atravessar",
+     "i": 20.304,
+     "f": 20.903
+    },
+    {
+     "p": "sem",
+     "i": 20.916,
+     "f": 21.098
+    },
+    {
+     "p": "bloquear",
+     "i": 21.111,
+     "f": 21.619
+    },
+    {
+     "p": "a",
+     "i": 21.632,
+     "f": 21.671
+    },
+    {
+     "p": "navegação",
+     "i": 21.684,
+     "f": 22.335
+    },
+    {
+     "p": "e",
+     "i": 22.348,
+     "f": 22.4
+    },
+    {
+     "p": "sem",
+     "i": 22.413,
+     "f": 22.66
+    },
+    {
+     "p": "cair",
+     "i": 22.673,
+     "f": 23.064
+    },
+    {
+     "p": "Há",
+     "i": 24.318,
+     "f": 24.487
+    },
+    {
+     "p": "ainda",
+     "i": 24.5,
+     "f": 24.813
+    },
+    {
+     "p": "o",
+     "i": 24.826,
+     "f": 24.852
+    },
+    {
+     "p": "sal",
+     "i": 24.865,
+     "f": 25.23
+    },
+    {
+     "p": "que",
+     "i": 25.412,
+     "f": 25.542
+    },
+    {
+     "p": "corrói",
+     "i": 25.555,
+     "f": 25.972
+    },
+    {
+     "p": "o",
+     "i": 25.985,
+     "f": 26.089
+    },
+    {
+     "p": "aço",
+     "i": 26.102,
+     "f": 26.414
+    },
+    {
+     "p": "e",
+     "i": 26.427,
+     "f": 26.467
+    },
+    {
+     "p": "o",
+     "i": 26.48,
+     "f": 26.519
+    },
+    {
+     "p": "concreto",
+     "i": 26.532,
+     "f": 27.144
+    },
+    {
+     "p": "e",
+     "i": 27.443,
+     "f": 27.534
+    },
+    {
+     "p": "o",
+     "i": 27.547,
+     "f": 27.612
+    },
+    {
+     "p": "vento",
+     "i": 27.625,
+     "f": 27.977
+    },
+    {
+     "p": "forte",
+     "i": 27.99,
+     "f": 28.472
+    },
+    {
+     "p": "que",
+     "i": 28.68,
+     "f": 28.81
+    },
+    {
+     "p": "balança",
+     "i": 28.823,
+     "f": 29.383
+    },
+    {
+     "p": "qualquer",
+     "i": 29.396,
+     "f": 29.8
+    },
+    {
+     "p": "estrutura",
+     "i": 29.813,
+     "f": 30.269
+    },
+    {
+     "p": "esbelta",
+     "i": 30.282,
+     "f": 30.828
+    },
+    {
+     "p": "Por",
+     "i": 32.07,
+     "f": 32.278
+    },
+    {
+     "p": "isso",
+     "i": 32.291,
+     "f": 32.578
+    },
+    {
+     "p": "o",
+     "i": 32.591,
+     "f": 32.617
+    },
+    {
+     "p": "projeto",
+     "i": 32.63,
+     "f": 33.164
+    },
+    {
+     "p": "de",
+     "i": 33.177,
+     "f": 33.242
+    },
+    {
+     "p": "uma",
+     "i": 33.255,
+     "f": 33.437
+    },
+    {
+     "p": "ponte",
+     "i": 33.45,
+     "f": 33.763
+    },
+    {
+     "p": "marítima",
+     "i": 33.776,
+     "f": 34.284
+    },
+    {
+     "p": "pensa",
+     "i": 34.297,
+     "f": 34.648
+    },
+    {
+     "p": "em",
+     "i": 34.661,
+     "f": 34.739
+    },
+    {
+     "p": "décadas",
+     "i": 34.752,
+     "f": 35.208
+    },
+    {
+     "p": "de",
+     "i": 35.221,
+     "f": 35.312
+    },
+    {
+     "p": "desgaste",
+     "i": 35.325,
+     "f": 35.924
+    },
+    {
+     "p": "não",
+     "i": 36.12,
+     "f": 36.419
+    },
+    {
+     "p": "em",
+     "i": 36.432,
+     "f": 36.536
+    },
+    {
+     "p": "anos",
+     "i": 36.549,
+     "f": 36.979
+    },
+    {
+     "p": "Os",
+     "i": 38.238,
+     "f": 38.355
+    },
+    {
+     "p": "engenheiros",
+     "i": 38.368,
+     "f": 39.045
+    },
+    {
+     "p": "têm",
+     "i": 39.058,
+     "f": 39.241
+    },
+    {
+     "p": "três",
+     "i": 39.254,
+     "f": 39.527
+    },
+    {
+     "p": "caminhos",
+     "i": 39.54,
+     "f": 40.152
+    },
+    {
+     "p": "vãos",
+     "i": 40.413,
+     "f": 40.725
+    },
+    {
+     "p": "gigantes",
+     "i": 40.738,
+     "f": 41.376
+    },
+    {
+     "p": "muitos",
+     "i": 41.623,
+     "f": 42.053
+    },
+    {
+     "p": "pilares",
+     "i": 42.066,
+     "f": 42.626
+    },
+    {
+     "p": "ou",
+     "i": 42.913,
+     "f": 43.069
+    },
+    {
+     "p": "enterrar",
+     "i": 43.082,
+     "f": 43.512
+    },
+    {
+     "p": "a",
+     "i": 43.525,
+     "f": 43.564
+    },
+    {
+     "p": "estrada",
+     "i": 43.577,
+     "f": 44.084
+    },
+    {
+     "p": "A",
+     "i": 45.342,
+     "f": 45.485
+    },
+    {
+     "p": "China",
+     "i": 45.498,
+     "f": 45.863
+    },
+    {
+     "p": "resolveu",
+     "i": 45.876,
+     "f": 46.332
+    },
+    {
+     "p": "usar",
+     "i": 46.345,
+     "f": 46.631
+    },
+    {
+     "p": "todos",
+     "i": 46.644,
+     "f": 46.957
+    },
+    {
+     "p": "ao",
+     "i": 46.97,
+     "f": 47.152
+    },
+    {
+     "p": "mesmo",
+     "i": 47.165,
+     "f": 47.53
+    },
+    {
+     "p": "tempo",
+     "i": 47.543,
+     "f": 47.933
+    }
+   ]
+  },
+  "ilhas": {
+   "hash": "4c6fa4134f",
+   "texto": "O primeiro truque foi criar terra firme. A ponte e o túnel precisavam de duas ilhas artificiais para se encontrar. Em vez de despejar areia, que a corrente levaria embora, os construtores cravaram células circulares de aço na lama e as encheram com material inerte. Elas formaram um muro de contenção, e só depois o miolo da ilha foi preenchido. Cada ilha precisava ser firme o bastante para sustentar as rampas e a estrutura de acesso ao túnel. Era engenharia de porto aplicada a uma rodovia, e tudo isso antes de a primeira peça do túnel chegar. A obra começou em dois mil e nove, do lado chinês. Mas faltava a parte mais difícil.",
+   "audio": "audio/ilhas-4c6fa4134f.mp3",
+   "duracao": 47.386,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "primeiro",
+     "i": 0.245,
+     "f": 0.649
+    },
+    {
+     "p": "truque",
+     "i": 0.662,
+     "f": 0.975
+    },
+    {
+     "p": "foi",
+     "i": 0.988,
+     "f": 1.144
+    },
+    {
+     "p": "criar",
+     "i": 1.157,
+     "f": 1.521
+    },
+    {
+     "p": "terra",
+     "i": 1.534,
+     "f": 1.86
+    },
+    {
+     "p": "firme",
+     "i": 1.873,
+     "f": 2.316
+    },
+    {
+     "p": "A",
+     "i": 3.558,
+     "f": 3.701
+    },
+    {
+     "p": "ponte",
+     "i": 3.714,
+     "f": 4.131
+    },
+    {
+     "p": "e",
+     "i": 4.144,
+     "f": 4.17
+    },
+    {
+     "p": "o",
+     "i": 4.183,
+     "f": 4.261
+    },
+    {
+     "p": "túnel",
+     "i": 4.274,
+     "f": 4.561
+    },
+    {
+     "p": "precisavam",
+     "i": 4.574,
+     "f": 5.225
+    },
+    {
+     "p": "de",
+     "i": 5.238,
+     "f": 5.355
+    },
+    {
+     "p": "duas",
+     "i": 5.368,
+     "f": 5.694
+    },
+    {
+     "p": "ilhas",
+     "i": 5.707,
+     "f": 6.032
+    },
+    {
+     "p": "artificiais",
+     "i": 6.045,
+     "f": 6.839
+    },
+    {
+     "p": "para",
+     "i": 6.852,
+     "f": 7.048
+    },
+    {
+     "p": "se",
+     "i": 7.061,
+     "f": 7.165
+    },
+    {
+     "p": "encontrar",
+     "i": 7.178,
+     "f": 7.699
+    },
+    {
+     "p": "Em",
+     "i": 8.958,
+     "f": 9.153
+    },
+    {
+     "p": "vez",
+     "i": 9.166,
+     "f": 9.466
+    },
+    {
+     "p": "de",
+     "i": 9.479,
+     "f": 9.583
+    },
+    {
+     "p": "despejar",
+     "i": 9.596,
+     "f": 10.169
+    },
+    {
+     "p": "areia",
+     "i": 10.182,
+     "f": 10.521
+    },
+    {
+     "p": "que",
+     "i": 10.781,
+     "f": 10.872
+    },
+    {
+     "p": "a",
+     "i": 10.885,
+     "f": 10.95
+    },
+    {
+     "p": "corrente",
+     "i": 10.963,
+     "f": 11.367
+    },
+    {
+     "p": "levaria",
+     "i": 11.38,
+     "f": 11.771
+    },
+    {
+     "p": "embora",
+     "i": 11.784,
+     "f": 12.226
+    },
+    {
+     "p": "os",
+     "i": 12.513,
+     "f": 12.63
+    },
+    {
+     "p": "construtores",
+     "i": 12.643,
+     "f": 13.385
+    },
+    {
+     "p": "cravaram",
+     "i": 13.398,
+     "f": 13.841
+    },
+    {
+     "p": "células",
+     "i": 13.854,
+     "f": 14.336
+    },
+    {
+     "p": "circulares",
+     "i": 14.349,
+     "f": 14.909
+    },
+    {
+     "p": "de",
+     "i": 14.922,
+     "f": 15.039
+    },
+    {
+     "p": "aço",
+     "i": 15.052,
+     "f": 15.325
+    },
+    {
+     "p": "na",
+     "i": 15.338,
+     "f": 15.429
+    },
+    {
+     "p": "lama",
+     "i": 15.442,
+     "f": 15.872
+    },
+    {
+     "p": "e",
+     "i": 15.885,
+     "f": 15.95
+    },
+    {
+     "p": "as",
+     "i": 15.963,
+     "f": 16.028
+    },
+    {
+     "p": "encheram",
+     "i": 16.041,
+     "f": 16.575
+    },
+    {
+     "p": "com",
+     "i": 16.588,
+     "f": 16.718
+    },
+    {
+     "p": "material",
+     "i": 16.732,
+     "f": 17.265
+    },
+    {
+     "p": "inerte",
+     "i": 17.278,
+     "f": 17.799
+    },
+    {
+     "p": "Elas",
+     "i": 19.062,
+     "f": 19.375
+    },
+    {
+     "p": "formaram",
+     "i": 19.388,
+     "f": 19.895
+    },
+    {
+     "p": "um",
+     "i": 19.908,
+     "f": 19.974
+    },
+    {
+     "p": "muro",
+     "i": 19.987,
+     "f": 20.234
+    },
+    {
+     "p": "de",
+     "i": 20.247,
+     "f": 20.325
+    },
+    {
+     "p": "contenção",
+     "i": 20.338,
+     "f": 21.015
+    },
+    {
+     "p": "e",
+     "i": 21.341,
+     "f": 21.406
+    },
+    {
+     "p": "só",
+     "i": 21.419,
+     "f": 21.575
+    },
+    {
+     "p": "depois",
+     "i": 21.588,
+     "f": 21.979
+    },
+    {
+     "p": "o",
+     "i": 21.992,
+     "f": 22.096
+    },
+    {
+     "p": "miolo",
+     "i": 22.109,
+     "f": 22.487
+    },
+    {
+     "p": "da",
+     "i": 22.5,
+     "f": 22.669
+    },
+    {
+     "p": "ilha",
+     "i": 22.682,
+     "f": 22.955
+    },
+    {
+     "p": "foi",
+     "i": 22.968,
+     "f": 23.125
+    },
+    {
+     "p": "preenchido",
+     "i": 23.138,
+     "f": 23.789
+    },
+    {
+     "p": "Cada",
+     "i": 25.038,
+     "f": 25.364
+    },
+    {
+     "p": "ilha",
+     "i": 25.377,
+     "f": 25.611
+    },
+    {
+     "p": "precisava",
+     "i": 25.624,
+     "f": 26.184
+    },
+    {
+     "p": "ser",
+     "i": 26.197,
+     "f": 26.392
+    },
+    {
+     "p": "firme",
+     "i": 26.405,
+     "f": 26.731
+    },
+    {
+     "p": "o",
+     "i": 26.744,
+     "f": 26.77
+    },
+    {
+     "p": "bastante",
+     "i": 26.783,
+     "f": 27.317
+    },
+    {
+     "p": "para",
+     "i": 27.33,
+     "f": 27.499
+    },
+    {
+     "p": "sustentar",
+     "i": 27.512,
+     "f": 28.124
+    },
+    {
+     "p": "as",
+     "i": 28.137,
+     "f": 28.267
+    },
+    {
+     "p": "rampas",
+     "i": 28.28,
+     "f": 28.697
+    },
+    {
+     "p": "e",
+     "i": 28.71,
+     "f": 28.84
+    },
+    {
+     "p": "a",
+     "i": 28.853,
+     "f": 28.892
+    },
+    {
+     "p": "estrutura",
+     "i": 28.905,
+     "f": 29.452
+    },
+    {
+     "p": "de",
+     "i": 29.465,
+     "f": 29.556
+    },
+    {
+     "p": "acesso",
+     "i": 29.569,
+     "f": 30.077
+    },
+    {
+     "p": "ao",
+     "i": 30.09,
+     "f": 30.207
+    },
+    {
+     "p": "túnel",
+     "i": 30.22,
+     "f": 30.637
+    },
+    {
+     "p": "Era",
+     "i": 31.878,
+     "f": 32.112
+    },
+    {
+     "p": "engenharia",
+     "i": 32.125,
+     "f": 32.711
+    },
+    {
+     "p": "de",
+     "i": 32.724,
+     "f": 32.842
+    },
+    {
+     "p": "porto",
+     "i": 32.855,
+     "f": 33.18
+    },
+    {
+     "p": "aplicada",
+     "i": 33.193,
+     "f": 33.727
+    },
+    {
+     "p": "a",
+     "i": 33.74,
+     "f": 33.779
+    },
+    {
+     "p": "uma",
+     "i": 33.792,
+     "f": 33.948
+    },
+    {
+     "p": "rodovia",
+     "i": 33.961,
+     "f": 34.573
+    },
+    {
+     "p": "e",
+     "i": 34.912,
+     "f": 35.029
+    },
+    {
+     "p": "tudo",
+     "i": 35.042,
+     "f": 35.342
+    },
+    {
+     "p": "isso",
+     "i": 35.355,
+     "f": 35.68
+    },
+    {
+     "p": "antes",
+     "i": 35.693,
+     "f": 36.019
+    },
+    {
+     "p": "de",
+     "i": 36.032,
+     "f": 36.084
+    },
+    {
+     "p": "a",
+     "i": 36.097,
+     "f": 36.136
+    },
+    {
+     "p": "primeira",
+     "i": 36.149,
+     "f": 36.527
+    },
+    {
+     "p": "peça",
+     "i": 36.54,
+     "f": 36.865
+    },
+    {
+     "p": "do",
+     "i": 36.878,
+     "f": 36.995
+    },
+    {
+     "p": "túnel",
+     "i": 37.008,
+     "f": 37.321
+    },
+    {
+     "p": "chegar",
+     "i": 37.334,
+     "f": 37.79
+    },
+    {
+     "p": "A",
+     "i": 39.03,
+     "f": 39.173
+    },
+    {
+     "p": "obra",
+     "i": 39.186,
+     "f": 39.499
+    },
+    {
+     "p": "começou",
+     "i": 39.512,
+     "f": 40.02
+    },
+    {
+     "p": "em",
+     "i": 40.033,
+     "f": 40.085
+    },
+    {
+     "p": "dois",
+     "i": 40.098,
+     "f": 40.319
+    },
+    {
+     "p": "mil",
+     "i": 40.332,
+     "f": 40.436
+    },
+    {
+     "p": "e",
+     "i": 40.449,
+     "f": 40.501
+    },
+    {
+     "p": "nove",
+     "i": 40.514,
+     "f": 40.905
+    },
+    {
+     "p": "do",
+     "i": 41.192,
+     "f": 41.361
+    },
+    {
+     "p": "lado",
+     "i": 41.374,
+     "f": 41.751
+    },
+    {
+     "p": "chinês",
+     "i": 41.764,
+     "f": 42.337
+    },
+    {
+     "p": "Mas",
+     "i": 43.59,
+     "f": 43.877
+    },
+    {
+     "p": "faltava",
+     "i": 43.89,
+     "f": 44.332
+    },
+    {
+     "p": "a",
+     "i": 44.345,
+     "f": 44.384
+    },
+    {
+     "p": "parte",
+     "i": 44.397,
+     "f": 44.775
+    },
+    {
+     "p": "mais",
+     "i": 44.788,
+     "f": 45.074
+    },
+    {
+     "p": "difícil",
+     "i": 45.087,
+     "f": 45.647
+    }
+   ]
+  },
+  "tunel": {
+   "hash": "a35d835a6e",
+   "texto": "A parte difícil era o túnel de seis vírgula sete quilômetros. Ninguém escava debaixo do mar aberto. Os trechos são fabricados em terra, como enormes caixas de concreto, fechados nas pontas e rebocados flutuando. Depois são afundados num vale cavado no fundo e encaixados um no outro. É a técnica do túnel imerso: um tubo montado em terra e encaixado no mar, sem escavar a rocha. Cada encaixe exige precisão enorme, com correntes, lama e pressão da água atrapalhando o trabalho. O último encaixe, a junta final, foi feito em dois de maio de dois mil e dezessete. Ele foi projetado para durar cento e vinte anos.",
+   "audio": "audio/tunel-a35d835a6e.mp3",
+   "duracao": 47.569,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "parte",
+     "i": 0.258,
+     "f": 0.649
+    },
+    {
+     "p": "difícil",
+     "i": 0.662,
+     "f": 1.196
+    },
+    {
+     "p": "era",
+     "i": 1.209,
+     "f": 1.313
+    },
+    {
+     "p": "o",
+     "i": 1.326,
+     "f": 1.378
+    },
+    {
+     "p": "túnel",
+     "i": 1.391,
+     "f": 1.717
+    },
+    {
+     "p": "de",
+     "i": 1.73,
+     "f": 1.847
+    },
+    {
+     "p": "seis",
+     "i": 1.86,
+     "f": 2.238
+    },
+    {
+     "p": "vírgula",
+     "i": 2.251,
+     "f": 2.628
+    },
+    {
+     "p": "sete",
+     "i": 2.641,
+     "f": 3.006
+    },
+    {
+     "p": "quilômetros",
+     "i": 3.019,
+     "f": 3.735
+    },
+    {
+     "p": "Ninguém",
+     "i": 4.974,
+     "f": 5.482
+    },
+    {
+     "p": "escava",
+     "i": 5.495,
+     "f": 5.899
+    },
+    {
+     "p": "debaixo",
+     "i": 5.912,
+     "f": 6.393
+    },
+    {
+     "p": "do",
+     "i": 6.406,
+     "f": 6.511
+    },
+    {
+     "p": "mar",
+     "i": 6.524,
+     "f": 6.693
+    },
+    {
+     "p": "aberto",
+     "i": 6.706,
+     "f": 7.227
+    },
+    {
+     "p": "Os",
+     "i": 8.478,
+     "f": 8.712
+    },
+    {
+     "p": "trechos",
+     "i": 8.725,
+     "f": 9.168
+    },
+    {
+     "p": "são",
+     "i": 9.181,
+     "f": 9.311
+    },
+    {
+     "p": "fabricados",
+     "i": 9.324,
+     "f": 9.923
+    },
+    {
+     "p": "em",
+     "i": 9.936,
+     "f": 10.132
+    },
+    {
+     "p": "terra",
+     "i": 10.145,
+     "f": 10.496
+    },
+    {
+     "p": "como",
+     "i": 10.796,
+     "f": 11.004
+    },
+    {
+     "p": "enormes",
+     "i": 11.017,
+     "f": 11.486
+    },
+    {
+     "p": "caixas",
+     "i": 11.499,
+     "f": 11.903
+    },
+    {
+     "p": "de",
+     "i": 11.916,
+     "f": 11.994
+    },
+    {
+     "p": "concreto",
+     "i": 12.007,
+     "f": 12.58
+    },
+    {
+     "p": "fechados",
+     "i": 12.892,
+     "f": 13.426
+    },
+    {
+     "p": "nas",
+     "i": 13.439,
+     "f": 13.647
+    },
+    {
+     "p": "pontas",
+     "i": 13.66,
+     "f": 14.051
+    },
+    {
+     "p": "e",
+     "i": 14.064,
+     "f": 14.168
+    },
+    {
+     "p": "rebocados",
+     "i": 14.181,
+     "f": 14.819
+    },
+    {
+     "p": "flutuando",
+     "i": 14.832,
+     "f": 15.483
+    },
+    {
+     "p": "Depois",
+     "i": 16.734,
+     "f": 17.242
+    },
+    {
+     "p": "são",
+     "i": 17.255,
+     "f": 17.424
+    },
+    {
+     "p": "afundados",
+     "i": 17.437,
+     "f": 18.127
+    },
+    {
+     "p": "num",
+     "i": 18.14,
+     "f": 18.297
+    },
+    {
+     "p": "vale",
+     "i": 18.31,
+     "f": 18.622
+    },
+    {
+     "p": "cavado",
+     "i": 18.635,
+     "f": 19.117
+    },
+    {
+     "p": "no",
+     "i": 19.13,
+     "f": 19.234
+    },
+    {
+     "p": "fundo",
+     "i": 19.247,
+     "f": 19.638
+    },
+    {
+     "p": "e",
+     "i": 19.651,
+     "f": 19.677
+    },
+    {
+     "p": "encaixados",
+     "i": 19.69,
+     "f": 20.328
+    },
+    {
+     "p": "um",
+     "i": 20.341,
+     "f": 20.536
+    },
+    {
+     "p": "no",
+     "i": 20.549,
+     "f": 20.64
+    },
+    {
+     "p": "outro",
+     "i": 20.653,
+     "f": 21.005
+    },
+    {
+     "p": "É",
+     "i": 22.254,
+     "f": 22.397
+    },
+    {
+     "p": "a",
+     "i": 22.41,
+     "f": 22.488
+    },
+    {
+     "p": "técnica",
+     "i": 22.501,
+     "f": 23.022
+    },
+    {
+     "p": "do",
+     "i": 23.035,
+     "f": 23.139
+    },
+    {
+     "p": "túnel",
+     "i": 23.153,
+     "f": 23.452
+    },
+    {
+     "p": "imerso",
+     "i": 23.465,
+     "f": 23.973
+    },
+    {
+     "p": "um",
+     "i": 24.259,
+     "f": 24.429
+    },
+    {
+     "p": "tubo",
+     "i": 24.442,
+     "f": 24.715
+    },
+    {
+     "p": "montado",
+     "i": 24.728,
+     "f": 25.236
+    },
+    {
+     "p": "em",
+     "i": 25.249,
+     "f": 25.353
+    },
+    {
+     "p": "terra",
+     "i": 25.366,
+     "f": 25.692
+    },
+    {
+     "p": "e",
+     "i": 25.705,
+     "f": 25.731
+    },
+    {
+     "p": "encaixado",
+     "i": 25.744,
+     "f": 26.356
+    },
+    {
+     "p": "no",
+     "i": 26.369,
+     "f": 26.46
+    },
+    {
+     "p": "mar",
+     "i": 26.473,
+     "f": 26.72
+    },
+    {
+     "p": "sem",
+     "i": 27.02,
+     "f": 27.202
+    },
+    {
+     "p": "escavar",
+     "i": 27.215,
+     "f": 27.658
+    },
+    {
+     "p": "a",
+     "i": 27.671,
+     "f": 27.723
+    },
+    {
+     "p": "rocha",
+     "i": 27.736,
+     "f": 28.166
+    },
+    {
+     "p": "Cada",
+     "i": 29.406,
+     "f": 29.68
+    },
+    {
+     "p": "encaixe",
+     "i": 29.693,
+     "f": 30.148
+    },
+    {
+     "p": "exige",
+     "i": 30.161,
+     "f": 30.552
+    },
+    {
+     "p": "precisão",
+     "i": 30.565,
+     "f": 31.099
+    },
+    {
+     "p": "enorme",
+     "i": 31.112,
+     "f": 31.633
+    },
+    {
+     "p": "com",
+     "i": 31.906,
+     "f": 32.062
+    },
+    {
+     "p": "correntes",
+     "i": 32.075,
+     "f": 32.766
+    },
+    {
+     "p": "lama",
+     "i": 32.987,
+     "f": 33.338
+    },
+    {
+     "p": "e",
+     "i": 33.351,
+     "f": 33.39
+    },
+    {
+     "p": "pressão",
+     "i": 33.403,
+     "f": 33.82
+    },
+    {
+     "p": "da",
+     "i": 33.833,
+     "f": 33.95
+    },
+    {
+     "p": "água",
+     "i": 33.963,
+     "f": 34.237
+    },
+    {
+     "p": "atrapalhando",
+     "i": 34.25,
+     "f": 34.81
+    },
+    {
+     "p": "o",
+     "i": 34.823,
+     "f": 34.849
+    },
+    {
+     "p": "trabalho",
+     "i": 34.862,
+     "f": 35.383
+    },
+    {
+     "p": "O",
+     "i": 36.63,
+     "f": 36.773
+    },
+    {
+     "p": "último",
+     "i": 36.786,
+     "f": 37.177
+    },
+    {
+     "p": "encaixe",
+     "i": 37.19,
+     "f": 37.737
+    },
+    {
+     "p": "a",
+     "i": 37.945,
+     "f": 38.036
+    },
+    {
+     "p": "junta",
+     "i": 38.049,
+     "f": 38.388
+    },
+    {
+     "p": "final",
+     "i": 38.401,
+     "f": 38.792
+    },
+    {
+     "p": "foi",
+     "i": 39.104,
+     "f": 39.286
+    },
+    {
+     "p": "feito",
+     "i": 39.299,
+     "f": 39.586
+    },
+    {
+     "p": "em",
+     "i": 39.599,
+     "f": 39.69
+    },
+    {
+     "p": "dois",
+     "i": 39.703,
+     "f": 40.015
+    },
+    {
+     "p": "de",
+     "i": 40.029,
+     "f": 40.12
+    },
+    {
+     "p": "maio",
+     "i": 40.133,
+     "f": 40.458
+    },
+    {
+     "p": "de",
+     "i": 40.471,
+     "f": 40.562
+    },
+    {
+     "p": "dois",
+     "i": 40.575,
+     "f": 40.784
+    },
+    {
+     "p": "mil",
+     "i": 40.797,
+     "f": 40.94
+    },
+    {
+     "p": "e",
+     "i": 40.953,
+     "f": 41.005
+    },
+    {
+     "p": "dezessete",
+     "i": 41.018,
+     "f": 41.734
+    },
+    {
+     "p": "Ele",
+     "i": 42.99,
+     "f": 43.198
+    },
+    {
+     "p": "foi",
+     "i": 43.211,
+     "f": 43.355
+    },
+    {
+     "p": "projetado",
+     "i": 43.368,
+     "f": 44.045
+    },
+    {
+     "p": "para",
+     "i": 44.058,
+     "f": 44.24
+    },
+    {
+     "p": "durar",
+     "i": 44.253,
+     "f": 44.592
+    },
+    {
+     "p": "cento",
+     "i": 44.605,
+     "f": 44.969
+    },
+    {
+     "p": "e",
+     "i": 44.982,
+     "f": 45.021
+    },
+    {
+     "p": "vinte",
+     "i": 45.034,
+     "f": 45.386
+    },
+    {
+     "p": "anos",
+     "i": 45.399,
+     "f": 45.829
+    }
+   ]
+  },
+  "custo": {
+   "hash": "e107265f10",
+   "texto": "O resultado tem um trecho principal de vinte e nove vírgula seis quilômetros, com três pontes estaiadas e vãos de duzentos e oitenta a quatrocentos e sessenta metros. A conta foi pesada: cerca de cento e vinte e sete bilhões de yuans, perto de dezenove bilhões de dólares. E o custo humano também: dezenove trabalhadores morreram na obra. Ela abriu ao público em vinte e quatro de outubro de dois mil e dezoito. Do lado chinês, a construção começou em dois mil e nove, e do lado de Hong Kong em dois mil e onze. Foram quase nove anos entre as primeiras obras e a primeira viagem de carro. Mas existe outro lugar onde a ponte vira túnel por um motivo bem diferente.",
+   "audio": "audio/custo-e107265f10.mp3",
+   "duracao": 47.464,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "resultado",
+     "i": 0.219,
+     "f": 0.883
+    },
+    {
+     "p": "tem",
+     "i": 0.896,
+     "f": 1.04
+    },
+    {
+     "p": "um",
+     "i": 1.053,
+     "f": 1.17
+    },
+    {
+     "p": "trecho",
+     "i": 1.183,
+     "f": 1.56
+    },
+    {
+     "p": "principal",
+     "i": 1.573,
+     "f": 2.107
+    },
+    {
+     "p": "de",
+     "i": 2.12,
+     "f": 2.224
+    },
+    {
+     "p": "vinte",
+     "i": 2.237,
+     "f": 2.472
+    },
+    {
+     "p": "e",
+     "i": 2.485,
+     "f": 2.498
+    },
+    {
+     "p": "nove",
+     "i": 2.511,
+     "f": 2.81
+    },
+    {
+     "p": "vírgula",
+     "i": 2.823,
+     "f": 3.175
+    },
+    {
+     "p": "seis",
+     "i": 3.188,
+     "f": 3.435
+    },
+    {
+     "p": "quilômetros",
+     "i": 3.448,
+     "f": 4.086
+    },
+    {
+     "p": "com",
+     "i": 4.386,
+     "f": 4.633
+    },
+    {
+     "p": "três",
+     "i": 4.646,
+     "f": 4.959
+    },
+    {
+     "p": "pontes",
+     "i": 4.972,
+     "f": 5.336
+    },
+    {
+     "p": "estaiadas",
+     "i": 5.349,
+     "f": 6.027
+    },
+    {
+     "p": "e",
+     "i": 6.04,
+     "f": 6.17
+    },
+    {
+     "p": "vãos",
+     "i": 6.183,
+     "f": 6.482
+    },
+    {
+     "p": "de",
+     "i": 6.495,
+     "f": 6.586
+    },
+    {
+     "p": "duzentos",
+     "i": 6.599,
+     "f": 7.068
+    },
+    {
+     "p": "e",
+     "i": 7.081,
+     "f": 7.172
+    },
+    {
+     "p": "oitenta",
+     "i": 7.185,
+     "f": 7.524
+    },
+    {
+     "p": "a",
+     "i": 7.537,
+     "f": 7.576
+    },
+    {
+     "p": "quatrocentos",
+     "i": 7.589,
+     "f": 8.331
+    },
+    {
+     "p": "e",
+     "i": 8.344,
+     "f": 8.448
+    },
+    {
+     "p": "sessenta",
+     "i": 8.461,
+     "f": 8.917
+    },
+    {
+     "p": "metros",
+     "i": 8.93,
+     "f": 9.451
+    },
+    {
+     "p": "A",
+     "i": 10.71,
+     "f": 10.84
+    },
+    {
+     "p": "conta",
+     "i": 10.853,
+     "f": 11.257
+    },
+    {
+     "p": "foi",
+     "i": 11.27,
+     "f": 11.426
+    },
+    {
+     "p": "pesada",
+     "i": 11.439,
+     "f": 11.973
+    },
+    {
+     "p": "cerca",
+     "i": 12.26,
+     "f": 12.689
+    },
+    {
+     "p": "de",
+     "i": 12.702,
+     "f": 12.819
+    },
+    {
+     "p": "cento",
+     "i": 12.832,
+     "f": 13.184
+    },
+    {
+     "p": "e",
+     "i": 13.197,
+     "f": 13.223
+    },
+    {
+     "p": "vinte",
+     "i": 13.236,
+     "f": 13.444
+    },
+    {
+     "p": "e",
+     "i": 13.457,
+     "f": 13.484
+    },
+    {
+     "p": "sete",
+     "i": 13.497,
+     "f": 13.783
+    },
+    {
+     "p": "bilhões",
+     "i": 13.796,
+     "f": 14.239
+    },
+    {
+     "p": "de",
+     "i": 14.252,
+     "f": 14.343
+    },
+    {
+     "p": "yuans",
+     "i": 14.356,
+     "f": 14.812
+    },
+    {
+     "p": "perto",
+     "i": 15.072,
+     "f": 15.437
+    },
+    {
+     "p": "de",
+     "i": 15.45,
+     "f": 15.541
+    },
+    {
+     "p": "dezenove",
+     "i": 15.554,
+     "f": 16.062
+    },
+    {
+     "p": "bilhões",
+     "i": 16.075,
+     "f": 16.556
+    },
+    {
+     "p": "de",
+     "i": 16.569,
+     "f": 16.661
+    },
+    {
+     "p": "dólares",
+     "i": 16.674,
+     "f": 17.247
+    },
+    {
+     "p": "E",
+     "i": 18.51,
+     "f": 18.653
+    },
+    {
+     "p": "o",
+     "i": 18.666,
+     "f": 18.744
+    },
+    {
+     "p": "custo",
+     "i": 18.757,
+     "f": 19.109
+    },
+    {
+     "p": "humano",
+     "i": 19.122,
+     "f": 19.5
+    },
+    {
+     "p": "também",
+     "i": 19.513,
+     "f": 19.942
+    },
+    {
+     "p": "dezenove",
+     "i": 20.216,
+     "f": 20.815
+    },
+    {
+     "p": "trabalhadores",
+     "i": 20.828,
+     "f": 21.596
+    },
+    {
+     "p": "morreram",
+     "i": 21.609,
+     "f": 22.078
+    },
+    {
+     "p": "na",
+     "i": 22.091,
+     "f": 22.234
+    },
+    {
+     "p": "obra",
+     "i": 22.247,
+     "f": 22.586
+    },
+    {
+     "p": "Ela",
+     "i": 23.838,
+     "f": 24.059
+    },
+    {
+     "p": "abriu",
+     "i": 24.072,
+     "f": 24.398
+    },
+    {
+     "p": "ao",
+     "i": 24.411,
+     "f": 24.541
+    },
+    {
+     "p": "público",
+     "i": 24.554,
+     "f": 24.984
+    },
+    {
+     "p": "em",
+     "i": 24.997,
+     "f": 25.101
+    },
+    {
+     "p": "vinte",
+     "i": 25.114,
+     "f": 25.401
+    },
+    {
+     "p": "e",
+     "i": 25.414,
+     "f": 25.427
+    },
+    {
+     "p": "quatro",
+     "i": 25.44,
+     "f": 25.791
+    },
+    {
+     "p": "de",
+     "i": 25.804,
+     "f": 25.882
+    },
+    {
+     "p": "outubro",
+     "i": 25.895,
+     "f": 26.351
+    },
+    {
+     "p": "de",
+     "i": 26.364,
+     "f": 26.455
+    },
+    {
+     "p": "dois",
+     "i": 26.468,
+     "f": 26.664
+    },
+    {
+     "p": "mil",
+     "i": 26.677,
+     "f": 26.807
+    },
+    {
+     "p": "e",
+     "i": 26.82,
+     "f": 26.859
+    },
+    {
+     "p": "dezoito",
+     "i": 26.872,
+     "f": 27.419
+    },
+    {
+     "p": "Do",
+     "i": 28.662,
+     "f": 28.857
+    },
+    {
+     "p": "lado",
+     "i": 28.87,
+     "f": 29.183
+    },
+    {
+     "p": "chinês",
+     "i": 29.196,
+     "f": 29.743
+    },
+    {
+     "p": "a",
+     "i": 30.029,
+     "f": 30.107
+    },
+    {
+     "p": "construção",
+     "i": 30.12,
+     "f": 30.719
+    },
+    {
+     "p": "começou",
+     "i": 30.732,
+     "f": 31.201
+    },
+    {
+     "p": "em",
+     "i": 31.214,
+     "f": 31.266
+    },
+    {
+     "p": "dois",
+     "i": 31.279,
+     "f": 31.475
+    },
+    {
+     "p": "mil",
+     "i": 31.488,
+     "f": 31.605
+    },
+    {
+     "p": "e",
+     "i": 31.618,
+     "f": 31.657
+    },
+    {
+     "p": "nove",
+     "i": 31.67,
+     "f": 32.074
+    },
+    {
+     "p": "e",
+     "i": 32.399,
+     "f": 32.49
+    },
+    {
+     "p": "do",
+     "i": 32.503,
+     "f": 32.633
+    },
+    {
+     "p": "lado",
+     "i": 32.646,
+     "f": 33.037
+    },
+    {
+     "p": "de",
+     "i": 33.05,
+     "f": 33.154
+    },
+    {
+     "p": "Hong",
+     "i": 33.167,
+     "f": 33.363
+    },
+    {
+     "p": "Kong",
+     "i": 33.376,
+     "f": 33.766
+    },
+    {
+     "p": "em",
+     "i": 33.779,
+     "f": 33.844
+    },
+    {
+     "p": "dois",
+     "i": 33.857,
+     "f": 34.118
+    },
+    {
+     "p": "mil",
+     "i": 34.131,
+     "f": 34.274
+    },
+    {
+     "p": "e",
+     "i": 34.287,
+     "f": 34.404
+    },
+    {
+     "p": "onze",
+     "i": 34.417,
+     "f": 34.821
+    },
+    {
+     "p": "Foram",
+     "i": 36.078,
+     "f": 36.391
+    },
+    {
+     "p": "quase",
+     "i": 36.404,
+     "f": 36.794
+    },
+    {
+     "p": "nove",
+     "i": 36.807,
+     "f": 37.146
+    },
+    {
+     "p": "anos",
+     "i": 37.159,
+     "f": 37.419
+    },
+    {
+     "p": "entre",
+     "i": 37.432,
+     "f": 37.719
+    },
+    {
+     "p": "as",
+     "i": 37.732,
+     "f": 37.836
+    },
+    {
+     "p": "primeiras",
+     "i": 37.849,
+     "f": 38.227
+    },
+    {
+     "p": "obras",
+     "i": 38.24,
+     "f": 38.643
+    },
+    {
+     "p": "e",
+     "i": 38.656,
+     "f": 38.773
+    },
+    {
+     "p": "a",
+     "i": 38.786,
+     "f": 38.852
+    },
+    {
+     "p": "primeira",
+     "i": 38.865,
+     "f": 39.229
+    },
+    {
+     "p": "viagem",
+     "i": 39.242,
+     "f": 39.685
+    },
+    {
+     "p": "de",
+     "i": 39.698,
+     "f": 39.828
+    },
+    {
+     "p": "carro",
+     "i": 39.841,
+     "f": 40.245
+    },
+    {
+     "p": "Mas",
+     "i": 41.502,
+     "f": 41.697
+    },
+    {
+     "p": "existe",
+     "i": 41.71,
+     "f": 42.218
+    },
+    {
+     "p": "outro",
+     "i": 42.231,
+     "f": 42.505
+    },
+    {
+     "p": "lugar",
+     "i": 42.518,
+     "f": 42.895
+    },
+    {
+     "p": "onde",
+     "i": 42.908,
+     "f": 43.065
+    },
+    {
+     "p": "a",
+     "i": 43.078,
+     "f": 43.143
+    },
+    {
+     "p": "ponte",
+     "i": 43.156,
+     "f": 43.494
+    },
+    {
+     "p": "vira",
+     "i": 43.507,
+     "f": 43.781
+    },
+    {
+     "p": "túnel",
+     "i": 43.794,
+     "f": 44.145
+    },
+    {
+     "p": "por",
+     "i": 44.158,
+     "f": 44.276
+    },
+    {
+     "p": "um",
+     "i": 44.289,
+     "f": 44.354
+    },
+    {
+     "p": "motivo",
+     "i": 44.367,
+     "f": 44.822
+    },
+    {
+     "p": "bem",
+     "i": 44.835,
+     "f": 45.07
+    },
+    {
+     "p": "diferente",
+     "i": 45.083,
+     "f": 45.721
+    }
+   ]
+  },
+  "oresund": {
+   "hash": "c004ff8aef",
+   "texto": "Entre a Dinamarca e a Suécia, a ponte de Øresund tem cerca de sete vírgula oito quilômetros e termina numa ilha, a Peberholm. Dali, a estrada entra num túnel de uns quatro quilômetros até Copenhague. O motivo é prático: um túnel não atrapalha os aviões do aeroporto e deixa livre o canal dos navios. E a ilha? Ela foi feita com o material dragado da própria obra. Ponte e túnel formam um único corredor de estrada e trilho entre Copenhague e Malmö. Para a região, isso significou unir duas cidades que antes dependiam de balsas. A ponte abriu em primeiro de julho de dois mil. Mas a obra mais ousada ainda estava no Japão.",
+   "audio": "audio/oresund-c004ff8aef.mp3",
+   "duracao": 48.118,
+   "palavras": [
+    {
+     "p": "Entre",
+     "i": 0.102,
+     "f": 0.402
+    },
+    {
+     "p": "a",
+     "i": 0.415,
+     "f": 0.454
+    },
+    {
+     "p": "Dinamarca",
+     "i": 0.467,
+     "f": 1.079
+    },
+    {
+     "p": "e",
+     "i": 1.092,
+     "f": 1.131
+    },
+    {
+     "p": "a",
+     "i": 1.144,
+     "f": 1.209
+    },
+    {
+     "p": "Suécia",
+     "i": 1.222,
+     "f": 1.834
+    },
+    {
+     "p": "a",
+     "i": 2.107,
+     "f": 2.211
+    },
+    {
+     "p": "ponte",
+     "i": 2.224,
+     "f": 2.589
+    },
+    {
+     "p": "de",
+     "i": 2.602,
+     "f": 2.693
+    },
+    {
+     "p": "Øresund",
+     "i": 2.706,
+     "f": 3.136
+    },
+    {
+     "p": "tem",
+     "i": 3.149,
+     "f": 3.305
+    },
+    {
+     "p": "cerca",
+     "i": 3.318,
+     "f": 3.696
+    },
+    {
+     "p": "de",
+     "i": 3.709,
+     "f": 3.826
+    },
+    {
+     "p": "sete",
+     "i": 3.839,
+     "f": 4.23
+    },
+    {
+     "p": "vírgula",
+     "i": 4.243,
+     "f": 4.633
+    },
+    {
+     "p": "oito",
+     "i": 4.646,
+     "f": 4.907
+    },
+    {
+     "p": "quilômetros",
+     "i": 4.92,
+     "f": 5.48
+    },
+    {
+     "p": "e",
+     "i": 5.493,
+     "f": 5.623
+    },
+    {
+     "p": "termina",
+     "i": 5.636,
+     "f": 6.053
+    },
+    {
+     "p": "numa",
+     "i": 6.066,
+     "f": 6.365
+    },
+    {
+     "p": "ilha",
+     "i": 6.378,
+     "f": 6.691
+    },
+    {
+     "p": "a",
+     "i": 6.847,
+     "f": 6.925
+    },
+    {
+     "p": "Peberholm",
+     "i": 6.938,
+     "f": 7.485
+    },
+    {
+     "p": "Dali",
+     "i": 8.742,
+     "f": 9.25
+    },
+    {
+     "p": "a",
+     "i": 9.536,
+     "f": 9.628
+    },
+    {
+     "p": "estrada",
+     "i": 9.641,
+     "f": 10.122
+    },
+    {
+     "p": "entra",
+     "i": 10.135,
+     "f": 10.344
+    },
+    {
+     "p": "num",
+     "i": 10.357,
+     "f": 10.526
+    },
+    {
+     "p": "túnel",
+     "i": 10.539,
+     "f": 10.851
+    },
+    {
+     "p": "de",
+     "i": 10.864,
+     "f": 10.943
+    },
+    {
+     "p": "uns",
+     "i": 10.956,
+     "f": 11.112
+    },
+    {
+     "p": "quatro",
+     "i": 11.125,
+     "f": 11.516
+    },
+    {
+     "p": "quilômetros",
+     "i": 11.529,
+     "f": 12.075
+    },
+    {
+     "p": "até",
+     "i": 12.088,
+     "f": 12.427
+    },
+    {
+     "p": "Copenhague",
+     "i": 12.44,
+     "f": 13.143
+    },
+    {
+     "p": "O",
+     "i": 14.382,
+     "f": 14.46
+    },
+    {
+     "p": "motivo",
+     "i": 14.473,
+     "f": 14.968
+    },
+    {
+     "p": "é",
+     "i": 14.981,
+     "f": 15.033
+    },
+    {
+     "p": "prático",
+     "i": 15.046,
+     "f": 15.593
+    },
+    {
+     "p": "um",
+     "i": 15.866,
+     "f": 16.088
+    },
+    {
+     "p": "túnel",
+     "i": 16.101,
+     "f": 16.439
+    },
+    {
+     "p": "não",
+     "i": 16.452,
+     "f": 16.635
+    },
+    {
+     "p": "atrapalha",
+     "i": 16.648,
+     "f": 17.116
+    },
+    {
+     "p": "os",
+     "i": 17.129,
+     "f": 17.156
+    },
+    {
+     "p": "aviões",
+     "i": 17.169,
+     "f": 17.65
+    },
+    {
+     "p": "do",
+     "i": 17.663,
+     "f": 17.754
+    },
+    {
+     "p": "aeroporto",
+     "i": 17.767,
+     "f": 18.379
+    },
+    {
+     "p": "e",
+     "i": 18.392,
+     "f": 18.419
+    },
+    {
+     "p": "deixa",
+     "i": 18.432,
+     "f": 18.744
+    },
+    {
+     "p": "livre",
+     "i": 18.757,
+     "f": 19.057
+    },
+    {
+     "p": "o",
+     "i": 19.07,
+     "f": 19.096
+    },
+    {
+     "p": "canal",
+     "i": 19.109,
+     "f": 19.447
+    },
+    {
+     "p": "dos",
+     "i": 19.46,
+     "f": 19.616
+    },
+    {
+     "p": "navios",
+     "i": 19.629,
+     "f": 20.215
+    },
+    {
+     "p": "E",
+     "i": 21.462,
+     "f": 21.605
+    },
+    {
+     "p": "a",
+     "i": 21.618,
+     "f": 21.762
+    },
+    {
+     "p": "ilha",
+     "i": 21.775,
+     "f": 22.126
+    },
+    {
+     "p": "Ela",
+     "i": 23.674,
+     "f": 23.961
+    },
+    {
+     "p": "foi",
+     "i": 23.974,
+     "f": 24.13
+    },
+    {
+     "p": "feita",
+     "i": 24.143,
+     "f": 24.52
+    },
+    {
+     "p": "com",
+     "i": 24.533,
+     "f": 24.69
+    },
+    {
+     "p": "o",
+     "i": 24.703,
+     "f": 24.729
+    },
+    {
+     "p": "material",
+     "i": 24.742,
+     "f": 25.25
+    },
+    {
+     "p": "dragado",
+     "i": 25.263,
+     "f": 25.783
+    },
+    {
+     "p": "da",
+     "i": 25.796,
+     "f": 25.914
+    },
+    {
+     "p": "própria",
+     "i": 25.927,
+     "f": 26.317
+    },
+    {
+     "p": "obra",
+     "i": 26.33,
+     "f": 26.721
+    },
+    {
+     "p": "Ponte",
+     "i": 27.97,
+     "f": 28.309
+    },
+    {
+     "p": "e",
+     "i": 28.322,
+     "f": 28.374
+    },
+    {
+     "p": "túnel",
+     "i": 28.387,
+     "f": 28.66
+    },
+    {
+     "p": "formam",
+     "i": 28.673,
+     "f": 29.116
+    },
+    {
+     "p": "um",
+     "i": 29.129,
+     "f": 29.22
+    },
+    {
+     "p": "único",
+     "i": 29.233,
+     "f": 29.533
+    },
+    {
+     "p": "corredor",
+     "i": 29.546,
+     "f": 30.092
+    },
+    {
+     "p": "de",
+     "i": 30.105,
+     "f": 30.197
+    },
+    {
+     "p": "estrada",
+     "i": 30.21,
+     "f": 30.652
+    },
+    {
+     "p": "e",
+     "i": 30.665,
+     "f": 30.717
+    },
+    {
+     "p": "trilho",
+     "i": 30.73,
+     "f": 31.069
+    },
+    {
+     "p": "entre",
+     "i": 31.082,
+     "f": 31.29
+    },
+    {
+     "p": "Copenhague",
+     "i": 31.303,
+     "f": 31.98
+    },
+    {
+     "p": "e",
+     "i": 31.994,
+     "f": 32.046
+    },
+    {
+     "p": "Malmö",
+     "i": 32.059,
+     "f": 32.488
+    },
+    {
+     "p": "Para",
+     "i": 33.73,
+     "f": 33.925
+    },
+    {
+     "p": "a",
+     "i": 33.938,
+     "f": 33.964
+    },
+    {
+     "p": "região",
+     "i": 33.977,
+     "f": 34.485
+    },
+    {
+     "p": "isso",
+     "i": 34.863,
+     "f": 35.058
+    },
+    {
+     "p": "significou",
+     "i": 35.071,
+     "f": 35.67
+    },
+    {
+     "p": "unir",
+     "i": 35.683,
+     "f": 35.996
+    },
+    {
+     "p": "duas",
+     "i": 36.009,
+     "f": 36.36
+    },
+    {
+     "p": "cidades",
+     "i": 36.373,
+     "f": 36.881
+    },
+    {
+     "p": "que",
+     "i": 36.894,
+     "f": 37.037
+    },
+    {
+     "p": "antes",
+     "i": 37.05,
+     "f": 37.376
+    },
+    {
+     "p": "dependiam",
+     "i": 37.389,
+     "f": 37.923
+    },
+    {
+     "p": "de",
+     "i": 37.936,
+     "f": 38.04
+    },
+    {
+     "p": "balsas",
+     "i": 38.053,
+     "f": 38.665
+    },
+    {
+     "p": "A",
+     "i": 39.922,
+     "f": 40.052
+    },
+    {
+     "p": "ponte",
+     "i": 40.065,
+     "f": 40.43
+    },
+    {
+     "p": "abriu",
+     "i": 40.443,
+     "f": 40.781
+    },
+    {
+     "p": "em",
+     "i": 40.795,
+     "f": 40.873
+    },
+    {
+     "p": "primeiro",
+     "i": 40.886,
+     "f": 41.315
+    },
+    {
+     "p": "de",
+     "i": 41.328,
+     "f": 41.419
+    },
+    {
+     "p": "julho",
+     "i": 41.433,
+     "f": 41.771
+    },
+    {
+     "p": "de",
+     "i": 41.784,
+     "f": 41.888
+    },
+    {
+     "p": "dois",
+     "i": 41.901,
+     "f": 42.188
+    },
+    {
+     "p": "mil.",
+     "i": 42.201,
+     "f": 42.487
+    },
+    {
+     "p": "Mas",
+     "i": 43.738,
+     "f": 43.946
+    },
+    {
+     "p": "a",
+     "i": 43.959,
+     "f": 44.116
+    },
+    {
+     "p": "obra",
+     "i": 44.129,
+     "f": 44.441
+    },
+    {
+     "p": "mais",
+     "i": 44.454,
+     "f": 44.611
+    },
+    {
+     "p": "ousada",
+     "i": 44.624,
+     "f": 45.144
+    },
+    {
+     "p": "ainda",
+     "i": 45.157,
+     "f": 45.379
+    },
+    {
+     "p": "estava",
+     "i": 45.392,
+     "f": 45.795
+    },
+    {
+     "p": "no",
+     "i": 45.808,
+     "f": 45.9
+    },
+    {
+     "p": "Japão",
+     "i": 45.913,
+     "f": 46.368
+    }
+   ]
+  },
+  "akashi": {
+   "hash": "2b5707b561",
+   "texto": "No Japão, a ponte Akashi Kaikyō venceu o problema com um vão central de mil novecentos e noventa e um metros, o maior do mundo entre pontes suspensas. A obra começou em mil novecentos e oitenta e oito. Esse estreito é uma rota marítima movimentada, sujeita a ventos fortes, e por isso a ponte precisou de um desenho muito rígido e de cabos enormes para segurar o peso da pista. As fundações precisaram vencer uma água de uns quarenta e cinco metros de profundidade. Em mil novecentos e noventa e cinco, as torres já estavam de pé quando o terremoto de Kobe sacudiu a região. O epicentro ficava ali ao lado. E o que aconteceu com a ponte vai surpreender você.",
+   "audio": "audio/akashi-2b5707b561.mp3",
+   "duracao": 46.211,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "Japão",
+     "i": 0.271,
+     "f": 0.727
+    },
+    {
+     "p": "a",
+     "i": 1.04,
+     "f": 1.144
+    },
+    {
+     "p": "ponte",
+     "i": 1.157,
+     "f": 1.443
+    },
+    {
+     "p": "Akashi",
+     "i": 1.456,
+     "f": 1.847
+    },
+    {
+     "p": "Kaikyō",
+     "i": 1.86,
+     "f": 2.211
+    },
+    {
+     "p": "venceu",
+     "i": 2.224,
+     "f": 2.628
+    },
+    {
+     "p": "o",
+     "i": 2.641,
+     "f": 2.68
+    },
+    {
+     "p": "problema",
+     "i": 2.693,
+     "f": 3.201
+    },
+    {
+     "p": "com",
+     "i": 3.214,
+     "f": 3.409
+    },
+    {
+     "p": "um",
+     "i": 3.422,
+     "f": 3.514
+    },
+    {
+     "p": "vão",
+     "i": 3.527,
+     "f": 3.696
+    },
+    {
+     "p": "central",
+     "i": 3.709,
+     "f": 4.126
+    },
+    {
+     "p": "de",
+     "i": 4.139,
+     "f": 4.243
+    },
+    {
+     "p": "mil",
+     "i": 4.256,
+     "f": 4.386
+    },
+    {
+     "p": "novecentos",
+     "i": 4.399,
+     "f": 4.933
+    },
+    {
+     "p": "e",
+     "i": 4.946,
+     "f": 5.024
+    },
+    {
+     "p": "noventa",
+     "i": 5.037,
+     "f": 5.376
+    },
+    {
+     "p": "e",
+     "i": 5.389,
+     "f": 5.402
+    },
+    {
+     "p": "um",
+     "i": 5.415,
+     "f": 5.532
+    },
+    {
+     "p": "metros",
+     "i": 5.545,
+     "f": 6.027
+    },
+    {
+     "p": "o",
+     "i": 6.365,
+     "f": 6.417
+    },
+    {
+     "p": "maior",
+     "i": 6.43,
+     "f": 6.795
+    },
+    {
+     "p": "do",
+     "i": 6.808,
+     "f": 6.912
+    },
+    {
+     "p": "mundo",
+     "i": 6.925,
+     "f": 7.264
+    },
+    {
+     "p": "entre",
+     "i": 7.277,
+     "f": 7.472
+    },
+    {
+     "p": "pontes",
+     "i": 7.485,
+     "f": 7.876
+    },
+    {
+     "p": "suspensas",
+     "i": 7.889,
+     "f": 8.657
+    },
+    {
+     "p": "A",
+     "i": 9.918,
+     "f": 10.1
+    },
+    {
+     "p": "obra",
+     "i": 10.113,
+     "f": 10.426
+    },
+    {
+     "p": "começou",
+     "i": 10.439,
+     "f": 10.947
+    },
+    {
+     "p": "em",
+     "i": 10.96,
+     "f": 11.038
+    },
+    {
+     "p": "mil",
+     "i": 11.051,
+     "f": 11.233
+    },
+    {
+     "p": "novecentos",
+     "i": 11.246,
+     "f": 11.91
+    },
+    {
+     "p": "e",
+     "i": 11.923,
+     "f": 12.027
+    },
+    {
+     "p": "oitenta",
+     "i": 12.04,
+     "f": 12.405
+    },
+    {
+     "p": "e",
+     "i": 12.418,
+     "f": 12.457
+    },
+    {
+     "p": "oito",
+     "i": 12.47,
+     "f": 12.796
+    },
+    {
+     "p": "Esse",
+     "i": 14.046,
+     "f": 14.28
+    },
+    {
+     "p": "estreito",
+     "i": 14.293,
+     "f": 14.749
+    },
+    {
+     "p": "é",
+     "i": 14.762,
+     "f": 14.788
+    },
+    {
+     "p": "uma",
+     "i": 14.801,
+     "f": 14.931
+    },
+    {
+     "p": "rota",
+     "i": 14.945,
+     "f": 15.205
+    },
+    {
+     "p": "marítima",
+     "i": 15.218,
+     "f": 15.713
+    },
+    {
+     "p": "movimentada",
+     "i": 15.726,
+     "f": 16.468
+    },
+    {
+     "p": "sujeita",
+     "i": 16.767,
+     "f": 17.236
+    },
+    {
+     "p": "a",
+     "i": 17.249,
+     "f": 17.275
+    },
+    {
+     "p": "ventos",
+     "i": 17.288,
+     "f": 17.64
+    },
+    {
+     "p": "fortes",
+     "i": 17.653,
+     "f": 18.213
+    },
+    {
+     "p": "e",
+     "i": 18.564,
+     "f": 18.629
+    },
+    {
+     "p": "por",
+     "i": 18.642,
+     "f": 18.825
+    },
+    {
+     "p": "isso",
+     "i": 18.838,
+     "f": 19.085
+    },
+    {
+     "p": "a",
+     "i": 19.098,
+     "f": 19.15
+    },
+    {
+     "p": "ponte",
+     "i": 19.163,
+     "f": 19.502
+    },
+    {
+     "p": "precisou",
+     "i": 19.515,
+     "f": 20.036
+    },
+    {
+     "p": "de",
+     "i": 20.049,
+     "f": 20.114
+    },
+    {
+     "p": "um",
+     "i": 20.127,
+     "f": 20.179
+    },
+    {
+     "p": "desenho",
+     "i": 20.192,
+     "f": 20.583
+    },
+    {
+     "p": "muito",
+     "i": 20.596,
+     "f": 21.025
+    },
+    {
+     "p": "rígido",
+     "i": 21.038,
+     "f": 21.429
+    },
+    {
+     "p": "e",
+     "i": 21.442,
+     "f": 21.468
+    },
+    {
+     "p": "de",
+     "i": 21.481,
+     "f": 21.611
+    },
+    {
+     "p": "cabos",
+     "i": 21.624,
+     "f": 21.885
+    },
+    {
+     "p": "enormes",
+     "i": 21.898,
+     "f": 22.418
+    },
+    {
+     "p": "para",
+     "i": 22.432,
+     "f": 22.64
+    },
+    {
+     "p": "segurar",
+     "i": 22.653,
+     "f": 23.122
+    },
+    {
+     "p": "o",
+     "i": 23.135,
+     "f": 23.2
+    },
+    {
+     "p": "peso",
+     "i": 23.213,
+     "f": 23.525
+    },
+    {
+     "p": "da",
+     "i": 23.538,
+     "f": 23.655
+    },
+    {
+     "p": "pista",
+     "i": 23.669,
+     "f": 24.111
+    },
+    {
+     "p": "As",
+     "i": 25.374,
+     "f": 25.569
+    },
+    {
+     "p": "fundações",
+     "i": 25.582,
+     "f": 26.22
+    },
+    {
+     "p": "precisaram",
+     "i": 26.233,
+     "f": 26.741
+    },
+    {
+     "p": "vencer",
+     "i": 26.754,
+     "f": 27.106
+    },
+    {
+     "p": "uma",
+     "i": 27.119,
+     "f": 27.275
+    },
+    {
+     "p": "água",
+     "i": 27.288,
+     "f": 27.601
+    },
+    {
+     "p": "de",
+     "i": 27.614,
+     "f": 27.705
+    },
+    {
+     "p": "uns",
+     "i": 27.718,
+     "f": 27.874
+    },
+    {
+     "p": "quarenta",
+     "i": 27.887,
+     "f": 28.278
+    },
+    {
+     "p": "e",
+     "i": 28.291,
+     "f": 28.317
+    },
+    {
+     "p": "cinco",
+     "i": 28.33,
+     "f": 28.655
+    },
+    {
+     "p": "metros",
+     "i": 28.668,
+     "f": 29.072
+    },
+    {
+     "p": "de",
+     "i": 29.085,
+     "f": 29.176
+    },
+    {
+     "p": "profundidade",
+     "i": 29.189,
+     "f": 30.049
+    },
+    {
+     "p": "Em",
+     "i": 31.302,
+     "f": 31.471
+    },
+    {
+     "p": "mil",
+     "i": 31.484,
+     "f": 31.615
+    },
+    {
+     "p": "novecentos",
+     "i": 31.628,
+     "f": 32.162
+    },
+    {
+     "p": "e",
+     "i": 32.175,
+     "f": 32.253
+    },
+    {
+     "p": "noventa",
+     "i": 32.266,
+     "f": 32.578
+    },
+    {
+     "p": "e",
+     "i": 32.591,
+     "f": 32.63
+    },
+    {
+     "p": "cinco",
+     "i": 32.643,
+     "f": 33.06
+    },
+    {
+     "p": "as",
+     "i": 33.294,
+     "f": 33.503
+    },
+    {
+     "p": "torres",
+     "i": 33.516,
+     "f": 33.867
+    },
+    {
+     "p": "já",
+     "i": 33.88,
+     "f": 33.971
+    },
+    {
+     "p": "estavam",
+     "i": 33.984,
+     "f": 34.362
+    },
+    {
+     "p": "de",
+     "i": 34.375,
+     "f": 34.492
+    },
+    {
+     "p": "pé",
+     "i": 34.505,
+     "f": 34.687
+    },
+    {
+     "p": "quando",
+     "i": 34.701,
+     "f": 34.896
+    },
+    {
+     "p": "o",
+     "i": 34.909,
+     "f": 34.935
+    },
+    {
+     "p": "terremoto",
+     "i": 34.948,
+     "f": 35.469
+    },
+    {
+     "p": "de",
+     "i": 35.482,
+     "f": 35.599
+    },
+    {
+     "p": "Kobe",
+     "i": 35.612,
+     "f": 35.938
+    },
+    {
+     "p": "sacudiu",
+     "i": 35.951,
+     "f": 36.51
+    },
+    {
+     "p": "a",
+     "i": 36.523,
+     "f": 36.576
+    },
+    {
+     "p": "região",
+     "i": 36.589,
+     "f": 37.083
+    },
+    {
+     "p": "O",
+     "i": 38.334,
+     "f": 38.464
+    },
+    {
+     "p": "epicentro",
+     "i": 38.477,
+     "f": 39.102
+    },
+    {
+     "p": "ficava",
+     "i": 39.115,
+     "f": 39.506
+    },
+    {
+     "p": "ali",
+     "i": 39.519,
+     "f": 39.727
+    },
+    {
+     "p": "ao",
+     "i": 39.74,
+     "f": 39.884
+    },
+    {
+     "p": "lado",
+     "i": 39.897,
+     "f": 40.3
+    },
+    {
+     "p": "E",
+     "i": 41.55,
+     "f": 41.693
+    },
+    {
+     "p": "o",
+     "i": 41.706,
+     "f": 41.758
+    },
+    {
+     "p": "que",
+     "i": 41.771,
+     "f": 41.85
+    },
+    {
+     "p": "aconteceu",
+     "i": 41.863,
+     "f": 42.449
+    },
+    {
+     "p": "com",
+     "i": 42.462,
+     "f": 42.618
+    },
+    {
+     "p": "a",
+     "i": 42.631,
+     "f": 42.696
+    },
+    {
+     "p": "ponte",
+     "i": 42.709,
+     "f": 43.113
+    },
+    {
+     "p": "vai",
+     "i": 43.126,
+     "f": 43.282
+    },
+    {
+     "p": "surpreender",
+     "i": 43.295,
+     "f": 43.985
+    },
+    {
+     "p": "você",
+     "i": 43.998,
+     "f": 44.467
+    }
+   ]
+  },
+  "terremoto": {
+   "hash": "cc4cc36f58",
+   "texto": "As duas torres se afastaram. A distância entre elas aumentou perto de um metro, e o vão passou de mil novecentos e noventa para mil novecentos e noventa e um metros. A estrutura sobreviveu porque os cabos principais já estavam instalados. A natureza, sem querer, redesenhou o projeto no meio da obra. O que parecia uma tragédia virou um ajuste de medidas que os engenheiros souberam absorver. A obra foi ajustada e a ponte abriu em cinco de abril de mil novecentos e noventa e oito. O maior vão do mundo ganhou um metro de brinde, graças a um desastre.",
+   "audio": "audio/terremoto-cc4cc36f58.mp3",
+   "duracao": 40.359,
+   "palavras": [
+    {
+     "p": "As",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "duas",
+     "i": 0.336,
+     "f": 0.701
+    },
+    {
+     "p": "torres",
+     "i": 0.714,
+     "f": 1.092
+    },
+    {
+     "p": "se",
+     "i": 1.105,
+     "f": 1.183
+    },
+    {
+     "p": "afastaram",
+     "i": 1.196,
+     "f": 1.938
+    },
+    {
+     "p": "A",
+     "i": 3.198,
+     "f": 3.315
+    },
+    {
+     "p": "distância",
+     "i": 3.328,
+     "f": 3.888
+    },
+    {
+     "p": "entre",
+     "i": 3.901,
+     "f": 4.11
+    },
+    {
+     "p": "elas",
+     "i": 4.123,
+     "f": 4.318
+    },
+    {
+     "p": "aumentou",
+     "i": 4.331,
+     "f": 4.865
+    },
+    {
+     "p": "perto",
+     "i": 4.878,
+     "f": 5.255
+    },
+    {
+     "p": "de",
+     "i": 5.268,
+     "f": 5.36
+    },
+    {
+     "p": "um",
+     "i": 5.373,
+     "f": 5.477
+    },
+    {
+     "p": "metro",
+     "i": 5.49,
+     "f": 5.893
+    },
+    {
+     "p": "e",
+     "i": 6.245,
+     "f": 6.362
+    },
+    {
+     "p": "o",
+     "i": 6.375,
+     "f": 6.427
+    },
+    {
+     "p": "vão",
+     "i": 6.44,
+     "f": 6.649
+    },
+    {
+     "p": "passou",
+     "i": 6.662,
+     "f": 7.039
+    },
+    {
+     "p": "de",
+     "i": 7.052,
+     "f": 7.156
+    },
+    {
+     "p": "mil",
+     "i": 7.169,
+     "f": 7.326
+    },
+    {
+     "p": "novecentos",
+     "i": 7.339,
+     "f": 7.873
+    },
+    {
+     "p": "e",
+     "i": 7.886,
+     "f": 7.977
+    },
+    {
+     "p": "noventa",
+     "i": 7.99,
+     "f": 8.498
+    },
+    {
+     "p": "para",
+     "i": 8.511,
+     "f": 8.693
+    },
+    {
+     "p": "mil",
+     "i": 8.706,
+     "f": 8.849
+    },
+    {
+     "p": "novecentos",
+     "i": 8.862,
+     "f": 9.409
+    },
+    {
+     "p": "e",
+     "i": 9.422,
+     "f": 9.513
+    },
+    {
+     "p": "noventa",
+     "i": 9.526,
+     "f": 9.904
+    },
+    {
+     "p": "e",
+     "i": 9.917,
+     "f": 9.956
+    },
+    {
+     "p": "um",
+     "i": 9.969,
+     "f": 10.138
+    },
+    {
+     "p": "metros",
+     "i": 10.151,
+     "f": 10.685
+    },
+    {
+     "p": "A",
+     "i": 11.934,
+     "f": 12.038
+    },
+    {
+     "p": "estrutura",
+     "i": 12.051,
+     "f": 12.572
+    },
+    {
+     "p": "sobreviveu",
+     "i": 12.585,
+     "f": 13.223
+    },
+    {
+     "p": "porque",
+     "i": 13.236,
+     "f": 13.51
+    },
+    {
+     "p": "os",
+     "i": 13.523,
+     "f": 13.666
+    },
+    {
+     "p": "cabos",
+     "i": 13.679,
+     "f": 14.03
+    },
+    {
+     "p": "principais",
+     "i": 14.043,
+     "f": 14.694
+    },
+    {
+     "p": "já",
+     "i": 14.708,
+     "f": 14.825
+    },
+    {
+     "p": "estavam",
+     "i": 14.838,
+     "f": 15.241
+    },
+    {
+     "p": "instalados",
+     "i": 15.254,
+     "f": 16.023
+    },
+    {
+     "p": "A",
+     "i": 17.286,
+     "f": 17.39
+    },
+    {
+     "p": "natureza",
+     "i": 17.403,
+     "f": 18.015
+    },
+    {
+     "p": "sem",
+     "i": 18.289,
+     "f": 18.497
+    },
+    {
+     "p": "querer",
+     "i": 18.51,
+     "f": 18.901
+    },
+    {
+     "p": "redesenhou",
+     "i": 19.135,
+     "f": 19.747
+    },
+    {
+     "p": "o",
+     "i": 19.76,
+     "f": 19.799
+    },
+    {
+     "p": "projeto",
+     "i": 19.812,
+     "f": 20.372
+    },
+    {
+     "p": "no",
+     "i": 20.385,
+     "f": 20.476
+    },
+    {
+     "p": "meio",
+     "i": 20.489,
+     "f": 20.776
+    },
+    {
+     "p": "da",
+     "i": 20.789,
+     "f": 20.932
+    },
+    {
+     "p": "obra",
+     "i": 20.945,
+     "f": 21.31
+    },
+    {
+     "p": "O",
+     "i": 22.566,
+     "f": 22.683
+    },
+    {
+     "p": "que",
+     "i": 22.696,
+     "f": 22.866
+    },
+    {
+     "p": "parecia",
+     "i": 22.879,
+     "f": 23.373
+    },
+    {
+     "p": "uma",
+     "i": 23.386,
+     "f": 23.504
+    },
+    {
+     "p": "tragédia",
+     "i": 23.517,
+     "f": 24.011
+    },
+    {
+     "p": "virou",
+     "i": 24.024,
+     "f": 24.233
+    },
+    {
+     "p": "um",
+     "i": 24.246,
+     "f": 24.389
+    },
+    {
+     "p": "ajuste",
+     "i": 24.402,
+     "f": 24.858
+    },
+    {
+     "p": "de",
+     "i": 24.871,
+     "f": 24.949
+    },
+    {
+     "p": "medidas",
+     "i": 24.962,
+     "f": 25.483
+    },
+    {
+     "p": "que",
+     "i": 25.496,
+     "f": 25.574
+    },
+    {
+     "p": "os",
+     "i": 25.587,
+     "f": 25.626
+    },
+    {
+     "p": "engenheiros",
+     "i": 25.639,
+     "f": 26.264
+    },
+    {
+     "p": "souberam",
+     "i": 26.277,
+     "f": 26.707
+    },
+    {
+     "p": "absorver",
+     "i": 26.72,
+     "f": 27.319
+    },
+    {
+     "p": "A",
+     "i": 28.566,
+     "f": 28.735
+    },
+    {
+     "p": "obra",
+     "i": 28.748,
+     "f": 29.113
+    },
+    {
+     "p": "foi",
+     "i": 29.126,
+     "f": 29.282
+    },
+    {
+     "p": "ajustada",
+     "i": 29.295,
+     "f": 29.855
+    },
+    {
+     "p": "e",
+     "i": 29.868,
+     "f": 29.92
+    },
+    {
+     "p": "a",
+     "i": 29.933,
+     "f": 30.024
+    },
+    {
+     "p": "ponte",
+     "i": 30.037,
+     "f": 30.35
+    },
+    {
+     "p": "abriu",
+     "i": 30.363,
+     "f": 30.688
+    },
+    {
+     "p": "em",
+     "i": 30.701,
+     "f": 30.806
+    },
+    {
+     "p": "cinco",
+     "i": 30.819,
+     "f": 31.196
+    },
+    {
+     "p": "de",
+     "i": 31.209,
+     "f": 31.261
+    },
+    {
+     "p": "abril",
+     "i": 31.274,
+     "f": 31.587
+    },
+    {
+     "p": "de",
+     "i": 31.6,
+     "f": 31.717
+    },
+    {
+     "p": "mil",
+     "i": 31.73,
+     "f": 31.86
+    },
+    {
+     "p": "novecentos",
+     "i": 31.873,
+     "f": 32.446
+    },
+    {
+     "p": "e",
+     "i": 32.459,
+     "f": 32.55
+    },
+    {
+     "p": "noventa",
+     "i": 32.563,
+     "f": 32.902
+    },
+    {
+     "p": "e",
+     "i": 32.915,
+     "f": 32.941
+    },
+    {
+     "p": "oito",
+     "i": 32.954,
+     "f": 33.28
+    },
+    {
+     "p": "O",
+     "i": 34.542,
+     "f": 34.646
+    },
+    {
+     "p": "maior",
+     "i": 34.659,
+     "f": 35.102
+    },
+    {
+     "p": "vão",
+     "i": 35.115,
+     "f": 35.271
+    },
+    {
+     "p": "do",
+     "i": 35.284,
+     "f": 35.375
+    },
+    {
+     "p": "mundo",
+     "i": 35.388,
+     "f": 35.753
+    },
+    {
+     "p": "ganhou",
+     "i": 35.766,
+     "f": 36.039
+    },
+    {
+     "p": "um",
+     "i": 36.053,
+     "f": 36.144
+    },
+    {
+     "p": "metro",
+     "i": 36.157,
+     "f": 36.508
+    },
+    {
+     "p": "de",
+     "i": 36.521,
+     "f": 36.599
+    },
+    {
+     "p": "brinde",
+     "i": 36.612,
+     "f": 37.029
+    },
+    {
+     "p": "graças",
+     "i": 37.25,
+     "f": 37.719
+    },
+    {
+     "p": "a",
+     "i": 37.732,
+     "f": 37.862
+    },
+    {
+     "p": "um",
+     "i": 37.875,
+     "f": 38.006
+    },
+    {
+     "p": "desastre",
+     "i": 38.019,
+     "f": 38.618
+    }
+   ]
+  },
+  "rio-niteroi": {
+   "hash": "1e91e4616d",
+   "texto": "E o Brasil também tem uma obra dessas. A ponte Rio-Niterói tem treze vírgula vinte e nove quilômetros, dos quais oito vírgula oito sobre a Baía de Guanabara. O vão central de trezentos metros, a setenta e dois de altura, foi o maior vão em viga caixão do mundo quando ficou pronto. Para os brasileiros, a ponte virou rotina, com dezenas de milhares de veículos por dia. Para os engenheiros da época, foi uma prova de que dava para atravessar uma baía inteira com concreto e aço. Ela foi inaugurada em quatro de março de mil novecentos e setenta e quatro. Oficialmente, trinta e três pessoas morreram na obra. Estimativas não oficiais passam de quatrocentas.",
+   "audio": "audio/rio-niteroi-1e91e4616d.mp3",
+   "duracao": 48.274,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "o",
+     "i": 0.245,
+     "f": 0.271
+    },
+    {
+     "p": "Brasil",
+     "i": 0.284,
+     "f": 0.74
+    },
+    {
+     "p": "também",
+     "i": 0.753,
+     "f": 1.183
+    },
+    {
+     "p": "tem",
+     "i": 1.196,
+     "f": 1.352
+    },
+    {
+     "p": "uma",
+     "i": 1.365,
+     "f": 1.56
+    },
+    {
+     "p": "obra",
+     "i": 1.573,
+     "f": 1.938
+    },
+    {
+     "p": "dessas",
+     "i": 1.951,
+     "f": 2.537
+    },
+    {
+     "p": "A",
+     "i": 3.798,
+     "f": 3.941
+    },
+    {
+     "p": "ponte",
+     "i": 3.954,
+     "f": 4.384
+    },
+    {
+     "p": "Rio-Niterói",
+     "i": 4.397,
+     "f": 5.152
+    },
+    {
+     "p": "tem",
+     "i": 5.165,
+     "f": 5.374
+    },
+    {
+     "p": "treze",
+     "i": 5.387,
+     "f": 5.751
+    },
+    {
+     "p": "vírgula",
+     "i": 5.764,
+     "f": 6.129
+    },
+    {
+     "p": "vinte",
+     "i": 6.142,
+     "f": 6.376
+    },
+    {
+     "p": "e",
+     "i": 6.389,
+     "f": 6.402
+    },
+    {
+     "p": "nove",
+     "i": 6.415,
+     "f": 6.663
+    },
+    {
+     "p": "quilômetros",
+     "i": 6.676,
+     "f": 7.314
+    },
+    {
+     "p": "dos",
+     "i": 7.561,
+     "f": 7.835
+    },
+    {
+     "p": "quais",
+     "i": 7.848,
+     "f": 8.095
+    },
+    {
+     "p": "oito",
+     "i": 8.108,
+     "f": 8.486
+    },
+    {
+     "p": "vírgula",
+     "i": 8.499,
+     "f": 8.902
+    },
+    {
+     "p": "oito",
+     "i": 8.915,
+     "f": 9.228
+    },
+    {
+     "p": "sobre",
+     "i": 9.241,
+     "f": 9.488
+    },
+    {
+     "p": "a",
+     "i": 9.501,
+     "f": 9.527
+    },
+    {
+     "p": "Baía",
+     "i": 9.54,
+     "f": 9.931
+    },
+    {
+     "p": "de",
+     "i": 9.944,
+     "f": 10.035
+    },
+    {
+     "p": "Guanabara",
+     "i": 10.048,
+     "f": 10.647
+    },
+    {
+     "p": "O",
+     "i": 11.91,
+     "f": 12.027
+    },
+    {
+     "p": "vão",
+     "i": 12.04,
+     "f": 12.236
+    },
+    {
+     "p": "central",
+     "i": 12.249,
+     "f": 12.73
+    },
+    {
+     "p": "de",
+     "i": 12.743,
+     "f": 12.848
+    },
+    {
+     "p": "trezentos",
+     "i": 12.861,
+     "f": 13.434
+    },
+    {
+     "p": "metros",
+     "i": 13.447,
+     "f": 13.941
+    },
+    {
+     "p": "a",
+     "i": 14.176,
+     "f": 14.215
+    },
+    {
+     "p": "setenta",
+     "i": 14.228,
+     "f": 14.644
+    },
+    {
+     "p": "e",
+     "i": 14.657,
+     "f": 14.697
+    },
+    {
+     "p": "dois",
+     "i": 14.71,
+     "f": 14.931
+    },
+    {
+     "p": "de",
+     "i": 14.944,
+     "f": 15.009
+    },
+    {
+     "p": "altura",
+     "i": 15.022,
+     "f": 15.452
+    },
+    {
+     "p": "foi",
+     "i": 15.764,
+     "f": 15.881
+    },
+    {
+     "p": "o",
+     "i": 15.894,
+     "f": 15.947
+    },
+    {
+     "p": "maior",
+     "i": 15.96,
+     "f": 16.311
+    },
+    {
+     "p": "vão",
+     "i": 16.324,
+     "f": 16.493
+    },
+    {
+     "p": "em",
+     "i": 16.506,
+     "f": 16.559
+    },
+    {
+     "p": "viga",
+     "i": 16.572,
+     "f": 16.871
+    },
+    {
+     "p": "caixão",
+     "i": 16.884,
+     "f": 17.314
+    },
+    {
+     "p": "do",
+     "i": 17.327,
+     "f": 17.444
+    },
+    {
+     "p": "mundo",
+     "i": 17.457,
+     "f": 17.822
+    },
+    {
+     "p": "quando",
+     "i": 17.835,
+     "f": 18.082
+    },
+    {
+     "p": "ficou",
+     "i": 18.095,
+     "f": 18.407
+    },
+    {
+     "p": "pronto",
+     "i": 18.42,
+     "f": 18.85
+    },
+    {
+     "p": "Para",
+     "i": 20.094,
+     "f": 20.289
+    },
+    {
+     "p": "os",
+     "i": 20.302,
+     "f": 20.381
+    },
+    {
+     "p": "brasileiros",
+     "i": 20.394,
+     "f": 21.084
+    },
+    {
+     "p": "a",
+     "i": 21.318,
+     "f": 21.409
+    },
+    {
+     "p": "ponte",
+     "i": 21.422,
+     "f": 21.774
+    },
+    {
+     "p": "virou",
+     "i": 21.787,
+     "f": 22.008
+    },
+    {
+     "p": "rotina",
+     "i": 22.021,
+     "f": 22.555
+    },
+    {
+     "p": "com",
+     "i": 22.868,
+     "f": 23.037
+    },
+    {
+     "p": "dezenas",
+     "i": 23.05,
+     "f": 23.545
+    },
+    {
+     "p": "de",
+     "i": 23.558,
+     "f": 23.662
+    },
+    {
+     "p": "milhares",
+     "i": 23.675,
+     "f": 24.105
+    },
+    {
+     "p": "de",
+     "i": 24.118,
+     "f": 24.209
+    },
+    {
+     "p": "veículos",
+     "i": 24.222,
+     "f": 24.795
+    },
+    {
+     "p": "por",
+     "i": 24.808,
+     "f": 24.99
+    },
+    {
+     "p": "dia",
+     "i": 25.003,
+     "f": 25.368
+    },
+    {
+     "p": "Para",
+     "i": 26.622,
+     "f": 26.83
+    },
+    {
+     "p": "os",
+     "i": 26.843,
+     "f": 26.856
+    },
+    {
+     "p": "engenheiros",
+     "i": 26.869,
+     "f": 27.429
+    },
+    {
+     "p": "da",
+     "i": 27.442,
+     "f": 27.56
+    },
+    {
+     "p": "época",
+     "i": 27.573,
+     "f": 27.963
+    },
+    {
+     "p": "foi",
+     "i": 28.302,
+     "f": 28.432
+    },
+    {
+     "p": "uma",
+     "i": 28.445,
+     "f": 28.627
+    },
+    {
+     "p": "prova",
+     "i": 28.64,
+     "f": 29.018
+    },
+    {
+     "p": "de",
+     "i": 29.031,
+     "f": 29.122
+    },
+    {
+     "p": "que",
+     "i": 29.135,
+     "f": 29.239
+    },
+    {
+     "p": "dava",
+     "i": 29.252,
+     "f": 29.513
+    },
+    {
+     "p": "para",
+     "i": 29.526,
+     "f": 29.656
+    },
+    {
+     "p": "atravessar",
+     "i": 29.669,
+     "f": 30.203
+    },
+    {
+     "p": "uma",
+     "i": 30.216,
+     "f": 30.359
+    },
+    {
+     "p": "baía",
+     "i": 30.372,
+     "f": 30.698
+    },
+    {
+     "p": "inteira",
+     "i": 30.711,
+     "f": 31.127
+    },
+    {
+     "p": "com",
+     "i": 31.14,
+     "f": 31.284
+    },
+    {
+     "p": "concreto",
+     "i": 31.297,
+     "f": 31.883
+    },
+    {
+     "p": "e",
+     "i": 31.896,
+     "f": 31.974
+    },
+    {
+     "p": "aço",
+     "i": 31.987,
+     "f": 32.403
+    },
+    {
+     "p": "Ela",
+     "i": 33.654,
+     "f": 33.954
+    },
+    {
+     "p": "foi",
+     "i": 33.967,
+     "f": 34.11
+    },
+    {
+     "p": "inaugurada",
+     "i": 34.123,
+     "f": 34.683
+    },
+    {
+     "p": "em",
+     "i": 34.696,
+     "f": 34.8
+    },
+    {
+     "p": "quatro",
+     "i": 34.813,
+     "f": 35.204
+    },
+    {
+     "p": "de",
+     "i": 35.217,
+     "f": 35.321
+    },
+    {
+     "p": "março",
+     "i": 35.334,
+     "f": 35.724
+    },
+    {
+     "p": "de",
+     "i": 35.737,
+     "f": 35.842
+    },
+    {
+     "p": "mil",
+     "i": 35.855,
+     "f": 35.985
+    },
+    {
+     "p": "novecentos",
+     "i": 35.998,
+     "f": 36.597
+    },
+    {
+     "p": "e",
+     "i": 36.61,
+     "f": 36.714
+    },
+    {
+     "p": "setenta",
+     "i": 36.727,
+     "f": 37.118
+    },
+    {
+     "p": "e",
+     "i": 37.131,
+     "f": 37.183
+    },
+    {
+     "p": "quatro",
+     "i": 37.196,
+     "f": 37.638
+    },
+    {
+     "p": "Oficialmente",
+     "i": 38.886,
+     "f": 39.811
+    },
+    {
+     "p": "trinta",
+     "i": 39.941,
+     "f": 40.227
+    },
+    {
+     "p": "e",
+     "i": 40.24,
+     "f": 40.292
+    },
+    {
+     "p": "três",
+     "i": 40.305,
+     "f": 40.553
+    },
+    {
+     "p": "pessoas",
+     "i": 40.566,
+     "f": 41.126
+    },
+    {
+     "p": "morreram",
+     "i": 41.139,
+     "f": 41.633
+    },
+    {
+     "p": "na",
+     "i": 41.646,
+     "f": 41.803
+    },
+    {
+     "p": "obra",
+     "i": 41.816,
+     "f": 42.167
+    },
+    {
+     "p": "Estimativas",
+     "i": 43.422,
+     "f": 44.242
+    },
+    {
+     "p": "não",
+     "i": 44.255,
+     "f": 44.451
+    },
+    {
+     "p": "oficiais",
+     "i": 44.464,
+     "f": 45.063
+    },
+    {
+     "p": "passam",
+     "i": 45.076,
+     "f": 45.479
+    },
+    {
+     "p": "de",
+     "i": 45.492,
+     "f": 45.597
+    },
+    {
+     "p": "quatrocentas",
+     "i": 45.61,
+     "f": 46.534
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "511ffc4395",
+   "texto": "Então, como se constrói uma ponte no mar? Primeiro, criando chão, com ilhas, estacas e fundações. Depois, escolhendo entre vão gigante, muitos pilares ou túnel, e muitas vezes combinando tudo. E, no fim, aceitando que o oceano sempre pode surpreender, seja com tempestade, seja com terremoto. A resposta ao começo do vídeo é essa: a estrada no meio do oceano existe porque alguém criou chão onde ele não havia, uma peça por vez. Cada uma dessas obras mostra que engenharia é, no fundo, a arte de negociar com a natureza.",
+   "audio": "audio/desfecho-511ffc4395.mp3",
+   "duracao": 42.423,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.623
+    },
+    {
+     "p": "como",
+     "i": 0.909,
+     "f": 1.222
+    },
+    {
+     "p": "se",
+     "i": 1.235,
+     "f": 1.352
+    },
+    {
+     "p": "constrói",
+     "i": 1.365,
+     "f": 1.821
+    },
+    {
+     "p": "uma",
+     "i": 1.834,
+     "f": 2.029
+    },
+    {
+     "p": "ponte",
+     "i": 2.042,
+     "f": 2.459
+    },
+    {
+     "p": "no",
+     "i": 2.472,
+     "f": 2.576
+    },
+    {
+     "p": "mar",
+     "i": 2.589,
+     "f": 2.823
+    },
+    {
+     "p": "Primeiro",
+     "i": 4.186,
+     "f": 4.707
+    },
+    {
+     "p": "criando",
+     "i": 4.967,
+     "f": 5.462
+    },
+    {
+     "p": "chão",
+     "i": 5.475,
+     "f": 5.84
+    },
+    {
+     "p": "com",
+     "i": 6.113,
+     "f": 6.374
+    },
+    {
+     "p": "ilhas",
+     "i": 6.387,
+     "f": 6.738
+    },
+    {
+     "p": "estacas",
+     "i": 6.986,
+     "f": 7.415
+    },
+    {
+     "p": "e",
+     "i": 7.428,
+     "f": 7.572
+    },
+    {
+     "p": "fundações",
+     "i": 7.585,
+     "f": 8.483
+    },
+    {
+     "p": "Depois",
+     "i": 9.73,
+     "f": 10.342
+    },
+    {
+     "p": "escolhendo",
+     "i": 10.603,
+     "f": 11.149
+    },
+    {
+     "p": "entre",
+     "i": 11.162,
+     "f": 11.371
+    },
+    {
+     "p": "vão",
+     "i": 11.384,
+     "f": 11.566
+    },
+    {
+     "p": "gigante",
+     "i": 11.579,
+     "f": 12.087
+    },
+    {
+     "p": "muitos",
+     "i": 12.36,
+     "f": 12.777
+    },
+    {
+     "p": "pilares",
+     "i": 12.79,
+     "f": 13.168
+    },
+    {
+     "p": "ou",
+     "i": 13.181,
+     "f": 13.376
+    },
+    {
+     "p": "túnel",
+     "i": 13.389,
+     "f": 13.806
+    },
+    {
+     "p": "e",
+     "i": 14.105,
+     "f": 14.183
+    },
+    {
+     "p": "muitas",
+     "i": 14.196,
+     "f": 14.717
+    },
+    {
+     "p": "vezes",
+     "i": 14.73,
+     "f": 15.108
+    },
+    {
+     "p": "combinando",
+     "i": 15.121,
+     "f": 15.668
+    },
+    {
+     "p": "tudo",
+     "i": 15.681,
+     "f": 16.032
+    },
+    {
+     "p": "E",
+     "i": 17.29,
+     "f": 17.55
+    },
+    {
+     "p": "no",
+     "i": 17.837,
+     "f": 17.993
+    },
+    {
+     "p": "fim",
+     "i": 18.006,
+     "f": 18.293
+    },
+    {
+     "p": "aceitando",
+     "i": 18.592,
+     "f": 19.178
+    },
+    {
+     "p": "que",
+     "i": 19.191,
+     "f": 19.256
+    },
+    {
+     "p": "o",
+     "i": 19.269,
+     "f": 19.282
+    },
+    {
+     "p": "oceano",
+     "i": 19.295,
+     "f": 19.764
+    },
+    {
+     "p": "sempre",
+     "i": 19.777,
+     "f": 20.194
+    },
+    {
+     "p": "pode",
+     "i": 20.207,
+     "f": 20.467
+    },
+    {
+     "p": "surpreender",
+     "i": 20.48,
+     "f": 21.183
+    },
+    {
+     "p": "seja",
+     "i": 21.47,
+     "f": 21.782
+    },
+    {
+     "p": "com",
+     "i": 21.795,
+     "f": 21.978
+    },
+    {
+     "p": "tempestade",
+     "i": 21.991,
+     "f": 22.707
+    },
+    {
+     "p": "seja",
+     "i": 23.006,
+     "f": 23.358
+    },
+    {
+     "p": "com",
+     "i": 23.371,
+     "f": 23.527
+    },
+    {
+     "p": "terremoto",
+     "i": 23.54,
+     "f": 24.165
+    },
+    {
+     "p": "A",
+     "i": 25.426,
+     "f": 25.543
+    },
+    {
+     "p": "resposta",
+     "i": 25.556,
+     "f": 26.155
+    },
+    {
+     "p": "ao",
+     "i": 26.168,
+     "f": 26.259
+    },
+    {
+     "p": "começo",
+     "i": 26.272,
+     "f": 26.728
+    },
+    {
+     "p": "do",
+     "i": 26.741,
+     "f": 26.832
+    },
+    {
+     "p": "vídeo",
+     "i": 26.845,
+     "f": 27.197
+    },
+    {
+     "p": "é",
+     "i": 27.21,
+     "f": 27.275
+    },
+    {
+     "p": "essa",
+     "i": 27.288,
+     "f": 27.653
+    },
+    {
+     "p": "a",
+     "i": 27.965,
+     "f": 28.03
+    },
+    {
+     "p": "estrada",
+     "i": 28.043,
+     "f": 28.486
+    },
+    {
+     "p": "no",
+     "i": 28.499,
+     "f": 28.59
+    },
+    {
+     "p": "meio",
+     "i": 28.603,
+     "f": 28.851
+    },
+    {
+     "p": "do",
+     "i": 28.864,
+     "f": 28.968
+    },
+    {
+     "p": "oceano",
+     "i": 28.981,
+     "f": 29.423
+    },
+    {
+     "p": "existe",
+     "i": 29.436,
+     "f": 29.84
+    },
+    {
+     "p": "porque",
+     "i": 29.853,
+     "f": 30.101
+    },
+    {
+     "p": "alguém",
+     "i": 30.114,
+     "f": 30.374
+    },
+    {
+     "p": "criou",
+     "i": 30.387,
+     "f": 30.713
+    },
+    {
+     "p": "chão",
+     "i": 30.726,
+     "f": 30.999
+    },
+    {
+     "p": "onde",
+     "i": 31.012,
+     "f": 31.22
+    },
+    {
+     "p": "ele",
+     "i": 31.233,
+     "f": 31.377
+    },
+    {
+     "p": "não",
+     "i": 31.39,
+     "f": 31.598
+    },
+    {
+     "p": "havia",
+     "i": 31.611,
+     "f": 32.015
+    },
+    {
+     "p": "uma",
+     "i": 32.275,
+     "f": 32.522
+    },
+    {
+     "p": "peça",
+     "i": 32.535,
+     "f": 32.913
+    },
+    {
+     "p": "por",
+     "i": 32.926,
+     "f": 33.095
+    },
+    {
+     "p": "vez",
+     "i": 33.108,
+     "f": 33.564
+    },
+    {
+     "p": "Cada",
+     "i": 34.81,
+     "f": 35.097
+    },
+    {
+     "p": "uma",
+     "i": 35.11,
+     "f": 35.37
+    },
+    {
+     "p": "dessas",
+     "i": 35.383,
+     "f": 35.63
+    },
+    {
+     "p": "obras",
+     "i": 35.643,
+     "f": 36.047
+    },
+    {
+     "p": "mostra",
+     "i": 36.06,
+     "f": 36.503
+    },
+    {
+     "p": "que",
+     "i": 36.516,
+     "f": 36.633
+    },
+    {
+     "p": "engenharia",
+     "i": 36.646,
+     "f": 37.31
+    },
+    {
+     "p": "é",
+     "i": 37.323,
+     "f": 37.557
+    },
+    {
+     "p": "no",
+     "i": 37.883,
+     "f": 38.013
+    },
+    {
+     "p": "fundo",
+     "i": 38.026,
+     "f": 38.495
+    },
+    {
+     "p": "a",
+     "i": 38.651,
+     "f": 38.729
+    },
+    {
+     "p": "arte",
+     "i": 38.742,
+     "f": 39.133
+    },
+    {
+     "p": "de",
+     "i": 39.146,
+     "f": 39.237
+    },
+    {
+     "p": "negociar",
+     "i": 39.25,
+     "f": 39.862
+    },
+    {
+     "p": "com",
+     "i": 39.875,
+     "f": 40.044
+    },
+    {
+     "p": "a",
+     "i": 40.057,
+     "f": 40.071
+    },
+    {
+     "p": "natureza",
+     "i": 40.084,
+     "f": 40.669
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "3f6ea7e478",
+   "texto": "Se você gosta de entender como o mundo é construído, se inscreva no canal. No próximo vídeo, vamos descer ainda mais fundo: túneis sob o oceano.",
+   "audio": "audio/fecho-3f6ea7e478.mp3",
+   "duracao": 11.781,
+   "palavras": [
+    {
+     "p": "Se",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "você",
+     "i": 0.336,
+     "f": 0.623
+    },
+    {
+     "p": "gosta",
+     "i": 0.636,
+     "f": 1.027
+    },
+    {
+     "p": "de",
+     "i": 1.04,
+     "f": 1.118
+    },
+    {
+     "p": "entender",
+     "i": 1.131,
+     "f": 1.573
+    },
+    {
+     "p": "como",
+     "i": 1.586,
+     "f": 1.821
+    },
+    {
+     "p": "o",
+     "i": 1.834,
+     "f": 1.86
+    },
+    {
+     "p": "mundo",
+     "i": 1.873,
+     "f": 2.198
+    },
+    {
+     "p": "é",
+     "i": 2.211,
+     "f": 2.264
+    },
+    {
+     "p": "construído",
+     "i": 2.277,
+     "f": 2.915
+    },
+    {
+     "p": "se",
+     "i": 3.175,
+     "f": 3.266
+    },
+    {
+     "p": "inscreva",
+     "i": 3.279,
+     "f": 3.813
+    },
+    {
+     "p": "no",
+     "i": 3.826,
+     "f": 3.917
+    },
+    {
+     "p": "canal.",
+     "i": 3.93,
+     "f": 4.334
+    },
+    {
+     "p": "No",
+     "i": 5.574,
+     "f": 5.756
+    },
+    {
+     "p": "próximo",
+     "i": 5.769,
+     "f": 6.277
+    },
+    {
+     "p": "vídeo",
+     "i": 6.29,
+     "f": 6.642
+    },
+    {
+     "p": "vamos",
+     "i": 6.98,
+     "f": 7.241
+    },
+    {
+     "p": "descer",
+     "i": 7.254,
+     "f": 7.566
+    },
+    {
+     "p": "ainda",
+     "i": 7.579,
+     "f": 7.892
+    },
+    {
+     "p": "mais",
+     "i": 7.905,
+     "f": 8.126
+    },
+    {
+     "p": "fundo",
+     "i": 8.139,
+     "f": 8.517
+    },
+    {
+     "p": "túneis",
+     "i": 8.777,
+     "f": 9.142
+    },
+    {
+     "p": "sob",
+     "i": 9.155,
+     "f": 9.389
+    },
+    {
+     "p": "o",
+     "i": 9.402,
+     "f": 9.428
+    },
+    {
+     "p": "oceano",
+     "i": 9.441,
+     "f": 10.027
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "hzmb-aerea": {
+   "arquivo": "imagens/hzmb-aerea-d3585f1e.jpg",
+   "rotulo": "Ponte Hong Kong–Zhuhai–Macau",
+   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge aerial view",
+   "autor": "N509FZ",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:West_section_of_Hong_Kong-Zhuhai-Macau_Bridge_(20180902174105).jpg",
+   "titulo": "File:West section of Hong Kong-Zhuhai-Macau Bridge (20180902174105).jpg",
+   "largura": 1920,
+   "altura": 1249,
+   "rostos": 0,
+   "foco": {
+    "x": 56.4,
+    "y": 71.5
+   },
+   "borrada": "imagens/hzmb-aerea-d3585f1e-b.jpg"
+  },
+  "hzmb-ilha": {
+   "arquivo": "imagens/hzmb-ilha-ade4a892.jpg",
+   "rotulo": "Ilha artificial da HZMB",
+   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge Hong Kong Boundary Crossing Facilities artificial island",
+   "autor": "LN9267",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:VR6129_Hong_Kong-Zhuhai-Macau_Bridge_Shuttle_Bus_09-02-2023.jpg",
+   "titulo": "File:VR6129 Hong Kong-Zhuhai-Macau Bridge Shuttle Bus 09-02-2023.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 69.1,
+    "y": 59.0
+   },
+   "borrada": "imagens/hzmb-ilha-ade4a892-b.jpg"
+  },
+  "hzmb-mapa": {
+   "arquivo": "imagens/hzmb-mapa-aaec2789.jpg",
+   "rotulo": "Mapa da ponte",
+   "wiki": "Delta do Rio das Pérolas",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge map",
+   "autor": "Croquant",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pearl_River_Delta_Area.png",
+   "titulo": "File:Pearl River Delta Area.png",
+   "largura": 1000,
+   "altura": 800,
+   "rostos": 0,
+   "foco": {
+    "x": 35.9,
+    "y": 61.4
+   },
+   "borrada": "imagens/hzmb-mapa-aaec2789-b.jpg"
+  },
+  "engenheiros-obra": {
+   "arquivo": "imagens/engenheiros-obra-66725974.jpg",
+   "rotulo": "Engenharia de pontes",
+   "wiki": "Engenharia civil",
+   "commons": "bridge construction engineers site",
+   "autor": "John Vetterli",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pulsefront.jpg",
+   "titulo": "File:Pulsefront.jpg",
+   "largura": 1800,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 71.2,
+    "y": 67.5
+   },
+   "borrada": "imagens/engenheiros-obra-66725974-b.jpg"
+  },
+  "ponte-akashi-torre": {
+   "arquivo": "imagens/ponte-akashi-torre-8c67966d.jpg",
+   "rotulo": "Torre da ponte Akashi Kaikyō",
+   "wiki": "Ponte Akashi Kaikyō",
+   "commons": "Akashi Kaikyo Bridge tower",
+   "autor": "Tysto",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Akashi_Bridge.JPG",
+   "titulo": "File:Akashi Bridge.JPG",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 58.3,
+    "y": 37.1
+   },
+   "borrada": "imagens/ponte-akashi-torre-8c67966d-b.jpg"
+  },
+  "kobe-terremoto": {
+   "arquivo": "imagens/kobe-terremoto-c9bd6484.jpg",
+   "rotulo": "Terremoto de Kobe, 1995",
+   "wiki": "Sismo de Kobe de 1995",
+   "commons": "1995 Great Hanshin earthquake damage Kobe",
+   "autor": "Akiyoshi's Room",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hanshin-Awaji_earthquake_1995_Chuo-ku_Kobe_city_Hyogo_prefecture_350.jpg",
+   "titulo": "File:Hanshin-Awaji earthquake 1995 Chuo-ku Kobe city Hyogo prefecture 350.jpg",
+   "largura": 1920,
+   "altura": 2716,
+   "rostos": 0,
+   "foco": {
+    "x": 39.6,
+    "y": 43.9
+   },
+   "borrada": "imagens/kobe-terremoto-c9bd6484-b.jpg"
+  },
+  "fundo-mar-obra": {
+   "arquivo": "imagens/fundo-mar-obra-908073c6.jpg",
+   "rotulo": "Fundação no mar",
+   "wiki": "Fundação (construção)",
+   "commons": "offshore bridge foundation construction seabed",
+   "autor": "http://en.wikipedia.org/wiki/User:Blacklemon67",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Mock_foundations_for_House_and_Apartment.png",
+   "titulo": "File:Mock foundations for House and Apartment.png",
+   "largura": 644,
+   "altura": 461,
+   "rostos": 0,
+   "foco": {
+    "x": 32.8,
+    "y": 52.5
+   },
+   "borrada": "imagens/fundo-mar-obra-908073c6-b.jpg"
+  },
+  "porto-navios": {
+   "arquivo": "imagens/porto-navios-6510a0f6.jpg",
+   "rotulo": "Navio sob uma ponte",
+   "wiki": "Navio porta-contêineres",
+   "commons": "container ship passing under bridge",
+   "autor": "NOAA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Container_ships_President_Truman_(IMO_8616283)_and_President_Kennedy_(IMO_8616295)_at_San_Francisco.jpg",
+   "titulo": "File:Container ships President Truman (IMO 8616283) and President Kennedy (IMO 8616295) at San Francisco.jpg",
+   "largura": 1832,
+   "altura": 1184,
+   "rostos": 0,
+   "foco": {
+    "x": 61.6,
+    "y": 56.1
+   },
+   "borrada": "imagens/porto-navios-6510a0f6-b.jpg"
+  },
+  "balsa-estacas": {
+   "arquivo": "imagens/balsa-estacas-d8df2eb9.jpg",
+   "rotulo": "Balsa cravando estacas",
+   "wiki": "Bate-estacas",
+   "commons": "pile driving barge bridge construction sea",
+   "autor": "The original uploader was Argyriou at English Wikipedia.",
+   "licenca": "CC BY 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:PileDriving.jpg",
+   "titulo": "File:PileDriving.jpg",
+   "largura": 600,
+   "altura": 800,
+   "rostos": 2,
+   "foco": {
+    "x": 70.3,
+    "y": 20.5
+   },
+   "borrada": "imagens/balsa-estacas-d8df2eb9-b.jpg"
+  },
+  "hzmb-cabos": {
+   "arquivo": "imagens/hzmb-cabos-2e04f198.jpg",
+   "rotulo": "Trecho estaiado da HZMB",
+   "wiki": "Ponte estaiada",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge cable-stayed Qingzhou",
+   "autor": "Marcosleal",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg",
+   "titulo": "File:Ponte estaiada Octavio Frias - Sao Paulo.jpg",
+   "largura": 1920,
+   "altura": 1265,
+   "rostos": 1,
+   "foco": {
+    "x": 70.3,
+    "y": 65.1
+   },
+   "borrada": "imagens/hzmb-cabos-2e04f198-b.jpg"
+  },
+  "hzmb-ilha-obra": {
+   "arquivo": "imagens/hzmb-ilha-obra-3671094f.jpg",
+   "rotulo": "Construção da ilha artificial",
+   "wiki": "Ilha artificial",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge artificial island construction",
+   "autor": "Copernicus Sentinel-2, ESA",
+   "licenca": "CC BY-SA 3.0 igo",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Flevoland_by_Sentinel-2,_2018-06-30.jpg",
+   "titulo": "File:Flevoland by Sentinel-2, 2018-06-30.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 58.4,
+    "y": 56.4
+   },
+   "borrada": "imagens/hzmb-ilha-obra-3671094f-b.jpg"
+  },
+  "celulas-aco": {
+   "arquivo": "imagens/celulas-aco-7724d17c.jpg",
+   "rotulo": "Células de aço",
+   "wiki": "Ensecadeira",
+   "commons": "steel cylinders cofferdam artificial island construction",
+   "autor": "José Rosael/HélioNobre/Museu Paulista da USP",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Escavadeira_a_Vapor_Utilizada_na_Constru%C3%A7%C3%A3o_da_Ferrovia_Madeira-Mamor%C3%A9,_Acervo_do_Museu_Paulista_da_USP.jpg",
+   "titulo": "File:Escavadeira a Vapor Utilizada na Construção da Ferrovia Madeira-Mamoré, Acervo do Museu Paulista da USP.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 32.9,
+    "y": 55.0
+   },
+   "borrada": "imagens/celulas-aco-7724d17c-b.jpg"
+  },
+  "reclamacao-aterro": {
+   "arquivo": "imagens/reclamacao-aterro-70e636d9.jpg",
+   "rotulo": "Aterro sobre o mar",
+   "wiki": "Aterro hidráulico",
+   "commons": "land reclamation dredger sand sea",
+   "autor": "SwarmCheng",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:New_Manila_International_Airport_construction_17.jpg",
+   "titulo": "File:New Manila International Airport construction 17.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 27.1,
+    "y": 56.1
+   },
+   "borrada": "imagens/reclamacao-aterro-70e636d9-b.jpg"
+  },
+  "hzmb-ilha-hoje": {
+   "arquivo": "imagens/hzmb-ilha-hoje-4de4f82f.jpg",
+   "rotulo": "Ilha artificial hoje",
+   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge East Artificial Island",
+   "autor": "LN9267",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong-Zhuhai-Macau_Bridge_09-02-2023(4).jpg",
+   "titulo": "File:Hong Kong-Zhuhai-Macau Bridge 09-02-2023(4).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 35.4,
+    "y": 51.0
+   },
+   "borrada": "imagens/hzmb-ilha-hoje-4de4f82f-b.jpg"
+  },
+  "tunel-imerso-elemento": {
+   "arquivo": "",
+   "rotulo": "Elemento de túnel imerso",
+   "wiki": "Túnel imerso",
+   "commons": "immersed tunnel element floating tow"
+  },
+  "tunel-imerso-esquema": {
+   "arquivo": "",
+   "rotulo": "Esquema de túnel imerso",
+   "wiki": "Túnel imerso",
+   "commons": "immersed tube tunnel construction diagram"
+  },
+  "tunel-imerso-interior": {
+   "arquivo": "imagens/tunel-imerso-interior-67720b69.jpg",
+   "rotulo": "Interior do túnel",
+   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge tunnel interior",
+   "autor": "LN9267",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hong_Kong-Zhuhai-Macau_Bridge_to_Hong_Kong_or_Zhuhai_direction_09-05-2023.jpg",
+   "titulo": "File:Hong Kong-Zhuhai-Macau Bridge to Hong Kong or Zhuhai direction 09-05-2023.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 31.9,
+    "y": 76.1
+   },
+   "borrada": "imagens/tunel-imerso-interior-67720b69-b.jpg"
+  },
+  "hzmb-estaiada": {
+   "arquivo": "imagens/hzmb-estaiada-8772fd95.jpg",
+   "rotulo": "Ponte estaiada da HZMB",
+   "wiki": "Ponte Hong Kong–Zhuhai–Macau",
+   "commons": "Hong Kong-Zhuhai-Macau Bridge Jiuzhou Channel Bridge",
+   "autor": "LN9267",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sunset_in_Hong_Kong-Zhuhai-Macau_Bridge_09-05-2023.jpg",
+   "titulo": "File:Sunset in Hong Kong-Zhuhai-Macau Bridge 09-05-2023.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.3,
+    "y": 49.5
+   },
+   "borrada": "imagens/hzmb-estaiada-8772fd95-b.jpg"
+  },
+  "hong-kong-skyline": {
+   "arquivo": "imagens/hong-kong-skyline-879e1bcc.jpg",
+   "rotulo": "Hong Kong",
+   "wiki": "Hong Kong",
+   "commons": "Hong Kong skyline Victoria Harbour",
+   "autor": "Michael Chan",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:HK_Government_House_2005.jpg",
+   "titulo": "File:HK Government House 2005.jpg",
+   "largura": 800,
+   "altura": 600,
+   "rostos": 0,
+   "foco": {
+    "x": 30.0,
+    "y": 27.5
+   },
+   "borrada": "imagens/hong-kong-skyline-879e1bcc-b.jpg"
+  },
+  "macau-skyline": {
+   "arquivo": "imagens/macau-skyline-1fcd56b0.jpg",
+   "rotulo": "Macau",
+   "wiki": "Macau",
+   "commons": "Macau skyline",
+   "autor": "Charlie fong",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Southwest_View_Macau_Peninsula2021.jpg",
+   "titulo": "File:Southwest View Macau Peninsula2021.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 49.2,
+    "y": 55.5
+   },
+   "borrada": "imagens/macau-skyline-1fcd56b0-b.jpg"
+  },
+  "oresund-ponte": {
+   "arquivo": "imagens/oresund-ponte-8f19535d.jpg",
+   "rotulo": "Ponte de Øresund",
+   "wiki": "Ponte de Øresund",
+   "commons": "Øresund Bridge",
+   "autor": "Nick-D",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+   "titulo": "File:Øresund Bridge from the air in September 2015.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 74.4,
+    "y": 53.5
+   },
+   "borrada": "imagens/oresund-ponte-8f19535d-b.jpg"
+  },
+  "peberholm": {
+   "arquivo": "imagens/peberholm-6e6b0b34.jpg",
+   "rotulo": "Ilha Peberholm",
+   "wiki": "Peberholm",
+   "commons": "Peberholm island aerial",
+   "autor": "Nick-D",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%C3%98resund_Bridge_from_the_air_in_September_2015_(cropped).jpg",
+   "titulo": "File:Øresund Bridge from the air in September 2015 (cropped).jpg",
+   "largura": 1920,
+   "altura": 1456,
+   "rostos": 0,
+   "foco": {
+    "x": 62.3,
+    "y": 58.4
+   },
+   "borrada": "imagens/peberholm-6e6b0b34-b.jpg"
+  },
+  "oresund-tunel": {
+   "arquivo": "imagens/oresund-tunel-ac4d4424.jpg",
+   "rotulo": "Túnel de Drogden",
+   "wiki": "Túnel de Drogden",
+   "commons": "Drogden Tunnel Øresund",
+   "autor": "News Oresund",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:20170613_Oresundsbron_tunneln_N8B9128_(35256763476).jpg",
+   "titulo": "File:20170613 Oresundsbron tunneln N8B9128 (35256763476).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 29.4,
+    "y": 58.5
+   },
+   "borrada": "imagens/oresund-tunel-ac4d4424-b.jpg"
+  },
+  "copenhague": {
+   "arquivo": "imagens/copenhague-7eefe0f2.jpg",
+   "rotulo": "Copenhague",
+   "wiki": "Copenhague",
+   "commons": "Copenhagen Kastrup Airport aerial",
+   "autor": "Pudelek",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Copenhagen_-_view_from_Christiansborg_castle.jpg",
+   "titulo": "File:Copenhagen - view from Christiansborg castle.jpg",
+   "largura": 1920,
+   "altura": 1165,
+   "rostos": 0,
+   "foco": {
+    "x": 40.8,
+    "y": 56.6
+   },
+   "borrada": "imagens/copenhague-7eefe0f2-b.jpg"
+  },
+  "akashi-ponte": {
+   "arquivo": "imagens/akashi-ponte-0526bbf0.jpg",
+   "rotulo": "Ponte Akashi Kaikyō",
+   "wiki": "Ponte Akashi Kaikyō",
+   "commons": "Akashi Kaikyo Bridge",
+   "autor": "Anonymous",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:DSC01488_Akashi-Kaikyo_Bridge_interfior.jpg",
+   "titulo": "File:DSC01488 Akashi-Kaikyo Bridge interfior.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 1,
+   "foco": {
+    "x": 35.6,
+    "y": 89.2
+   },
+   "borrada": "imagens/akashi-ponte-0526bbf0-b.jpg"
+  },
+  "akashi-estreito-mapa": {
+   "arquivo": "imagens/akashi-estreito-mapa-28f62a16.jpg",
+   "rotulo": "Estreito de Akashi",
+   "wiki": "Estreito de Akashi",
+   "commons": "Akashi Strait map Awaji Island Kobe",
+   "autor": "Alexrk2",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Japan_natural_location_map_with_side_map_of_the_Ryukyu_Islands.jpg",
+   "titulo": "File:Japan natural location map with side map of the Ryukyu Islands.jpg",
+   "largura": 1920,
+   "altura": 1735,
+   "rostos": 1,
+   "foco": {
+    "x": 54.0,
+    "y": 38.5
+   },
+   "borrada": "imagens/akashi-estreito-mapa-28f62a16-b.jpg"
+  },
+  "akashi-fundacao": {
+   "arquivo": "",
+   "rotulo": "Ancoragem da Akashi",
+   "wiki": "Ancoragem (engenharia)",
+   "commons": "Akashi Kaikyo Bridge anchorage construction"
+  },
+  "kobe-cidade": {
+   "arquivo": "imagens/kobe-cidade-e41d57cc.jpg",
+   "rotulo": "Kobe",
+   "wiki": "Kobe",
+   "commons": "Kobe port city",
+   "autor": "File:Taisanji13s3200.jpg by 663highland File:Kobe-Nankinmachi.JPG by Tomomarusan File:Akashi Kaikyo Ohashi 01.jpg by Pinqui File:Kobe port tower11s3200.jpg by 663highland File:Night view of Osaka bay.jpg by Laitr Keiows Composition by ASDFGH",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Japan_Kobe.png",
+   "titulo": "File:Japan Kobe.png",
+   "largura": 1230,
+   "altura": 1678,
+   "rostos": 0,
+   "foco": {
+    "x": 49.0,
+    "y": 78.2
+   },
+   "borrada": "imagens/kobe-cidade-e41d57cc-b.jpg"
+  },
+  "kobe-danos": {
+   "arquivo": "imagens/kobe-danos-658e4520.jpg",
+   "rotulo": "Danos do terremoto de Kobe",
+   "wiki": "Sismo de Kobe de 1995",
+   "commons": "Great Hanshin earthquake collapsed expressway Kobe 1995",
+   "autor": "野田知明",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%E9%98%AA%E7%A5%9E%E3%83%BB%E6%B7%A1%E8%B7%AF%E5%A4%A7%E9%9C%87%E7%81%BD%E3%81%A7%E9%98%AA%E7%A5%9E%E9%AB%98%E9%80%9F%E9%81%93%E8%B7%AF%E3%81%8C%E5%B4%A9%E5%A3%8A%E3%81%97%E3%80%81%E8%BB%A2%E8%90%BD%E3%81%97%E3%81%9D%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E8%A6%B3%E5%85%89%E3%83%90%E3%82%B9%E3%80%82.jpg",
+   "titulo": "File:阪神・淡路大震災で阪神高速道路が崩壊し、転落しそうになった観光バス。.jpg",
+   "largura": 799,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 63.3,
+    "y": 45.3
+   },
+   "borrada": "imagens/kobe-danos-658e4520-b.jpg"
+  },
+  "akashi-torre": {
+   "arquivo": "imagens/akashi-torre-98c32ce1.jpg",
+   "rotulo": "Torre e cabos da Akashi",
+   "wiki": "Ponte Akashi Kaikyō",
+   "commons": "Akashi Kaikyo Bridge main tower cables",
+   "autor": "Alankang",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Akashi_Kaiky%C5%8D_Bridge,_2004-08-27.jpg",
+   "titulo": "File:Akashi Kaikyō Bridge, 2004-08-27.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 2,
+   "foco": {
+    "x": 59.3,
+    "y": 17.9
+   },
+   "borrada": "imagens/akashi-torre-98c32ce1-b.jpg"
+  },
+  "akashi-cabos": {
+   "arquivo": "imagens/akashi-cabos-26d8aa77.jpg",
+   "rotulo": "Cabos principais",
+   "wiki": "Ponte suspensa",
+   "commons": "Akashi Kaikyo Bridge main cable",
+   "autor": "User Leonard G. on en.wikipedia",
+   "licenca": "CC SA 1.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:CapilanoBridge.jpg",
+   "titulo": "File:CapilanoBridge.jpg",
+   "largura": 1800,
+   "altura": 1100,
+   "rostos": 0,
+   "foco": {
+    "x": 48.8,
+    "y": 41.3
+   },
+   "borrada": "imagens/akashi-cabos-26d8aa77-b.jpg"
+  },
+  "rio-niteroi": {
+   "arquivo": "imagens/rio-niteroi-5ece0351.jpg",
+   "rotulo": "Ponte Rio–Niterói",
+   "wiki": "Ponte Rio–Niterói",
+   "commons": "Ponte Rio-Niterói",
+   "autor": "Diego Baravelli",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ilha_de_Mocangu%C3%AA_by_Diego_Baravelli_(cropped).jpg",
+   "titulo": "File:Ilha de Mocanguê by Diego Baravelli (cropped).jpg",
+   "largura": 1920,
+   "altura": 1227,
+   "rostos": 0,
+   "foco": {
+    "x": 51.7,
+    "y": 63.1
+   },
+   "borrada": "imagens/rio-niteroi-5ece0351-b.jpg"
+  },
+  "rio-niteroi-vao": {
+   "arquivo": "imagens/rio-niteroi-vao-62ed723d.jpg",
+   "rotulo": "Vão central da Rio–Niterói",
+   "wiki": "Ponte Rio–Niterói",
+   "commons": "Ponte Rio-Niterói vão central",
+   "autor": "Wanderson S. Dantas",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:V%C3%A3o_central_da_Ponte_Rio-Niter%C3%B3i_(18-09-2011)_-_panoramio.jpg",
+   "titulo": "File:Vão central da Ponte Rio-Niterói (18-09-2011) - panoramio.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.9,
+    "y": 76.7
+   },
+   "borrada": "imagens/rio-niteroi-vao-62ed723d-b.jpg"
+  },
+  "baia-guanabara": {
+   "arquivo": "imagens/baia-guanabara-f424e300.jpg",
+   "rotulo": "Baía de Guanabara",
+   "wiki": "Baía de Guanabara",
+   "commons": "Baía de Guanabara aerial",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rio_deJaneiro_LE2002059_lrg.jpg",
+   "titulo": "File:Rio deJaneiro LE2002059 lrg.jpg",
+   "largura": 1000,
+   "altura": 1000,
+   "rostos": 0,
+   "foco": {
+    "x": 45.6,
+    "y": 45.2
+   },
+   "borrada": "imagens/baia-guanabara-f424e300-b.jpg"
+  },
+  "ponte-noite-mar": {
+   "arquivo": "imagens/ponte-noite-mar-c57e4f40.jpg",
+   "rotulo": "Ponte sobre o mar",
+   "wiki": "Ponte",
+   "commons": "bridge over sea night",
+   "autor": "Rich Niewiroski Jr.",
+   "licenca": "CC BY 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg",
+   "titulo": "File:GoldenGateBridge-001.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 45.2,
+    "y": 72.0
+   },
+   "borrada": "imagens/ponte-noite-mar-c57e4f40-b.jpg"
+  },
+  "construcao-ponte-balsa": {
+   "arquivo": "imagens/construcao-ponte-balsa-7525bdab.jpg",
+   "rotulo": "Guindaste flutuante",
+   "wiki": "Guindaste flutuante",
+   "commons": "floating crane bridge segment installation",
+   "autor": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lisnave_-_Cacilhas_-_Portugal_(51307597933).jpg",
+   "titulo": "File:Lisnave - Cacilhas - Portugal (51307597933).jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 54.0,
+    "y": 42.8
+   },
+   "borrada": "imagens/construcao-ponte-balsa-7525bdab-b.jpg"
+  },
+  "ponte-tempestade": {
+   "arquivo": "imagens/ponte-tempestade-72d3da91.jpg",
+   "rotulo": "Mar em tempestade",
+   "wiki": "Tempestade",
+   "commons": "storm waves bridge",
+   "autor": "Photo by John Kerstholt. original upload by Solitude",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rolling-thunder-cloud.jpg",
+   "titulo": "File:Rolling-thunder-cloud.jpg",
+   "largura": 640,
+   "altura": 425,
+   "rostos": 0,
+   "foco": {
+    "x": 53.6,
+    "y": 80
+   },
+   "borrada": "imagens/ponte-tempestade-72d3da91-b.jpg"
+  },
+  "tunel-submarino": {
+   "arquivo": "imagens/tunel-submarino-aff17139.jpg",
+   "rotulo": "Túnel sob o canal da Mancha",
+   "wiki": "Eurotúnel",
+   "commons": "Channel Tunnel construction",
+   "autor": "The Basingstoker",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Site_of_the_Channel_Tunnel_Construction_in_May_1991.jpg",
+   "titulo": "File:Site of the Channel Tunnel Construction in May 1991.jpg",
+   "largura": 1920,
+   "altura": 1232,
+   "rostos": 0,
+   "foco": {
+    "x": 40.3,
+    "y": 51.1
+   },
+   "borrada": "imagens/tunel-submarino-aff17139-b.jpg"
+  },
+  "canal-mancha": {
+   "arquivo": "imagens/canal-mancha-f109cdcd.jpg",
+   "rotulo": "Canal da Mancha",
+   "wiki": "Canal da Mancha",
+   "commons": "English Channel Dover cliffs",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:EnglishChannel.jpg",
+   "titulo": "File:EnglishChannel.jpg",
+   "largura": 1133,
+   "altura": 677,
+   "rostos": 0,
+   "foco": {
+    "x": 42.9,
+    "y": 39.9
+   },
+   "borrada": "imagens/canal-mancha-f109cdcd-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-28T17:56:05.480Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -75,6 +7069,66 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipédia — Hong Kong–Zhuhai–Macau Bridge",
+   "url": "https://en.wikipedia.org/wiki/Hong_Kong%E2%80%93Zhuhai%E2%80%93Macau_Bridge"
+  },
+  {
+   "titulo": "SCMP — The bridge (HZMB)",
+   "url": "https://multimedia.scmp.com/widgets/hong-kong/hk-zhuhai-macao-bridge"
+  },
+  {
+   "titulo": "Wikipédia — Øresund Bridge",
+   "url": "https://en.wikipedia.org/wiki/%C3%98resund_Bridge"
+  },
+  {
+   "titulo": "Øresundsbron — Facts",
+   "url": "https://oresundsbron.com/en/info/a-bridge-at-one-sea"
+  },
+  {
+   "titulo": "ICE — Akashi Kaikyo Bridge",
+   "url": "https://www.ice.org.uk/what-is-civil-engineering/what-do-civil-engineers-do/akashi-kaikyo-bridge"
+  },
+  {
+   "titulo": "Wikipédia — Rio–Niterói Bridge",
+   "url": "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge"
+  },
+  {
+   "titulo": "Marinha do Brasil — 50 anos da Ponte Rio-Niterói",
+   "url": "https://www.portaldeperiodicos.marinha.mil.br/index.php/clubenaval/article/download/5608/5384"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "pontos",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Como constroem pontes no meio do mar? Quatro obras impossíveis",
+   "A ponte de 55 km que some debaixo d'água",
+   "O terremoto que esticou uma ponte (MAR SEM CHÃO)"
+  ],
+  "descricao": "Como se constrói uma estrada onde não existe chão? Neste vídeo vemos quatro obras gigantes sobre o mar: a ponte Hong Kong–Zhuhai–Macau, a ponte de Øresund, a Akashi Kaikyō e a Rio–Niterói, e as soluções de engenharia por trás de cada uma.\n\n0:00 Gancho\n0:35 O problema do mar\n1:35 Ilhas feitas à mão\n2:35 O túnel que flutua\n3:40 Øresund: ponte e túnel\n5:20 Akashi e o terremoto\n6:30 Rio–Niterói\n7:30 Desfecho\n\nFontes: Wikipédia (HZMB, Øresund, Rio–Niterói), Øresundsbron, ICE (Akashi Kaikyō), SCMP, Marinha do Brasil.",
+  "tags": [
+   "pontes",
+   "engenharia",
+   "ponte no mar",
+   "Hong Kong Zhuhai Macau",
+   "Akashi Kaikyo",
+   "Ponte Rio-Niterói",
+   "Øresund",
+   "túnel imerso",
+   "megaconstruções",
+   "tecnologia",
+   "curiosidades",
+   "Inova mundo"
+  ]
  }
 }
