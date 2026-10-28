@@ -249,6 +249,7 @@ chave escudo camadas terminal plug calendario email estrela ferramenta lista pla
 - `commons`: busca no Wikimedia Commons (para locais, objetos, eventos).
 - `arquivo`: nome exato de um arquivo do Commons (tem prioridade, use se você confirmou que existe).
 - `rotulo`: legenda curta mostrada no crédito.
+- `fonte`: `"nasa"` (opcional) para temas de espaço: busca primeiro na biblioteca de imagens da NASA. Se o Commons não achar, o app ainda tenta o Openverse (só licenças que permitem uso comercial) e, para espaço, a NASA; mesmo assim escreva `wiki` e `commons` bons — são a primeira escolha.
 - Só imagens livres do Commons (o autor e a licença aparecem no vídeo). Combine `wiki` + `commons` como
   plano B (sempre preencha os dois quando puder: se um não achar foto, o outro tenta).
 - **Pesquise a imagem do que a fala cita.** Antes de escrever o `imagens.json`, releia cada cena e liste
