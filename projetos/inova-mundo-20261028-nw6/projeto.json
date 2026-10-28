@@ -4,10 +4,10 @@
  "titulo": "Como funciona uma pedreira",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "neon",
+ "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
  "atualizadoEm": "2026-10-28T22:57:22Z",
- "status": "erro",
+ "status": "rascunho",
  "pedido": {
   "tema": "Como funciona uma pedreira",
   "tom": "Curioso e analítico",
@@ -16,9 +16,9 @@
    "dinamica": "minimal",
    "legenda": "cinema",
    "transicao": "deslize",
-   "fundo": "pontos",
+   "fundo": "limpo",
    "musica": "leve",
-   "paleta": "neon",
+   "paleta": "grafite",
    "fonte": "poppins",
    "formato": "linha-do-tempo"
   },
@@ -53,7 +53,7 @@
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-28T22:57:00.404Z",
-  "erro": "Pausado: a última geração falhou mesmo com 2 tentativas (há 150 min). Provável limite da assinatura ou erro que se repete. Veja https://github.com/fatiknust-pixel/estudio-reels/actions/runs/40763117020 e tente de novo mais tarde."
+  "fila": true
  },
  "legenda": {
   "fonte": "montserrat",

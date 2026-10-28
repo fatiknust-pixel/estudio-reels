@@ -4,10 +4,10 @@
  "titulo": "Como pontes no mar são construídas",
  "modo": "ia",
  "estilo": "documentario",
- "tema": "neon",
+ "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.480Z",
  "atualizadoEm": "2026-10-28T20:24:12Z",
- "status": "pronto",
+ "status": "processando",
  "pedido": {
   "tema": "Como pontes no mar são construídas",
   "tom": "Curioso e analítico",
@@ -16,9 +16,9 @@
    "dinamica": "minimal",
    "legenda": "cinema",
    "transicao": "deslize",
-   "fundo": "pontos",
+   "fundo": "limpo",
    "musica": "leve",
-   "paleta": "neon",
+   "paleta": "grafite",
    "fonte": "poppins",
    "formato": "linha-do-tempo"
   },
@@ -7044,7 +7044,7 @@
  },
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.480Z"
+  "pedidoEm": "2026-10-28T23:27:29.117645Z"
  },
  "legenda": {
   "fonte": "poppins",
@@ -7106,8 +7106,9 @@
   "dinamica": "minimal",
   "legenda": "cinema",
   "transicao": "deslize",
-  "fundo": "pontos",
-  "formato": "linha-do-tempo"
+  "fundo": "limpo",
+  "formato": "linha-do-tempo",
+  "paleta": "grafite"
  },
  "publicacao": {
   "titulos": [

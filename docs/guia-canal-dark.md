@@ -32,6 +32,12 @@ Para 8 min: 4 capítulos (≈ 1.150 palavras). Para 5 min: 3 capítulos (≈ 720
 - Prefira fotos reais e datadas; mapas (locator maps do Commons) quando falar de lugar, fronteira ou rota; documentos/capas/jornais da época em história.
 - Para cada imagem do `imagens.json` dê `wiki` (artigo da Wikipédia **no idioma do vídeo**) e `commons` (busca descritiva, com nome do lugar/pessoa e,
   se ajudar, o ano), além de `rotulo` curto. Evite termos genéricos ("floresta", "cidade"): diga qual.
+- **A foto tem de ser do que a frase diz, não do tema geral.** Frase sobre um país/cidade → foto desse país/cidade (paisagem, skyline, marco conhecido, mapa de localização), nunca uma foto genérica nem de outro lugar.
+  Frase sobre uma obra, máquina ou fato → foto daquela obra/máquina/fato. Se não houver foto específica, escolha outro assunto da frase que tenha foto, em vez de uma foto "parecida".
+- **`commons` é a busca que decide a foto**: escreva com os nomes próprios exatos, em inglês, como no título do arquivo no Commons (ex.: "Hong Kong-Zhuhai-Macau Bridge Qingzhou cable-stayed", "Brasília Congresso Nacional Oscar Niemeyer").
+  Termos genéricos ("bridge construction", "city") trazem fotos aleatórias. `wiki` só serve se o artigo for exatamente o assunto da foto (artigo de conceito genérico mostra foto qualquer).
+  O sistema descarta foto cujo título/descrição não cite o assunto pedido; sem foto boa, o vídeo mostra o fundo neutro em vez de uma foto errada.
+- Ritmo: nunca deixe a mesma foto mais de 8 s; o validador exige pelo menos 1 foto para cada 8 s de fala.
 - A câmera já se move devagar sozinha (aproxima, afasta, arrasta para os lados); você não precisa descrever.
 
 ## 4. Na tela
