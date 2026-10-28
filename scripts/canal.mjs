@@ -40,16 +40,18 @@ function projetoDe(c, ideia, anteriores) {
 if (cmd === "diario") {
   const so = args.includes("--canal") ? args[args.indexOf("--canal") + 1] : null;
   const forcar = args.includes("--forcar");
+  const todas = args.includes("--todas"); // gera de uma vez todas as ideias da fila e deixa o canal ativo (continua 1 por dia)
   const criados = [], faltam = [];
   for (const f of fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((n) => n.endsWith(".json")) : []) {
     const c = ler(f.replace(/\.json$/, ""));
     if (so ? c.id !== so : !c.ativo) continue;
     c.ideias ??= [];
     const pendentes = c.ideias.filter((i) => i.estado === "pendente");
-    if (pendentes.length < 4) faltam.push(c.id);
-    if (!forcar && c.ultimaGeracao === hoje()) { console.log(`= ${c.id}: já gerou hoje`); continue; }
-    const ideia = pendentes[0];
-    if (!ideia) { console.warn(`! ${c.id}: sem ideias na fila`); continue; }
+    if (todas || pendentes.length < 4) faltam.push(c.id);
+    if (!forcar && !todas && c.ultimaGeracao === hoje()) { console.log(`= ${c.id}: já gerou hoje`); continue; }
+    if (!pendentes.length) { console.warn(`! ${c.id}: sem ideias na fila`); continue; }
+    if (todas) c.ativo = true;
+    for (const ideia of todas ? pendentes : pendentes.slice(0, 1)) {
     const anteriores = c.ideias.filter((i) => i.estado === "gerado").slice(-12).map((i) => i.titulo);
     const p = projetoDe(c, ideia, anteriores);
     if (fs.existsSync(path.join("projetos", p.id))) p.id += "-" + Math.random().toString(36).slice(2, 5); // 2º vídeo no mesmo dia (forçado)
@@ -60,9 +62,10 @@ if (cmd === "diario") {
     fs.writeFileSync(path.join("projetos", p.id, "projeto.json"), JSON.stringify(p, null, 1) + "\n");
     Object.assign(ideia, { estado: "gerado", projeto: p.id, em: hoje() });
     c.ultimaGeracao = hoje();
-    gravar(c);
     criados.push(p.id);
     console.log(`✓ ${c.id}: "${ideia.titulo}" → ${p.id}`);
+    }
+    gravar(c);
   }
   saida("projetos", criados.join(","));
   saida("faltam", faltam.join(","));

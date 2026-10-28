@@ -19,6 +19,11 @@ on:
         required: false
         default: "false"
         type: string
+      todas:
+        description: "Gerar de uma vez todas as ideias da fila e deixar o canal ativo"
+        required: false
+        default: "false"
+        type: string
 
 permissions:
   contents: write
@@ -45,11 +50,13 @@ jobs:
         env:
           CANAL: ${{ inputs.canal }}
           FORCAR: ${{ inputs.forcar }}
+          TODAS: ${{ inputs.todas }}
         run: |
           if ! [[ "$CANAL" =~ ^[a-z0-9-]{0,60}$ ]]; then echo "::error::id de canal inválido"; exit 1; fi
           args=(diario)
           [ -n "$CANAL" ] && args+=(--canal "$CANAL")
           [ "$FORCAR" = "true" ] && args+=(--forcar)
+          [ "$TODAS" = "true" ] && args+=(--todas)
           scripts/salvar_no_repo.sh "Canal: vídeo do dia" node scripts/canal.mjs "${args[@]}"
 
       - name: Disparar geração dos vídeos e novas ideias
