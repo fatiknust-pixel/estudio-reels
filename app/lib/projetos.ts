@@ -324,20 +324,32 @@ export const carregarArquivos = async (p: Projeto, aoAtualizar: (m: Record<strin
     if (u) mapa[p.fundoVideo.arquivo] = u;
     aoAtualizar({ ...mapa });
   }
-  for (const n of Object.values(p.narracao ?? {})) caminhos.add(n.audio);
+  // Áudio primeiro e poucos downloads por vez: um documentário tem 100+ fotos, e pedir tudo junto estoura o limite do GitHub
+  // (a voz falhava em silêncio e a prévia ficava muda). Cada arquivo tenta de novo se falhar.
+  const audios = [...new Set(Object.values(p.narracao ?? {}).map((n) => n.audio))];
   for (const i of Object.values(p.imagens ?? {})) {
     caminhos.add(i.arquivo);
     if (i.borrada) caminhos.add(i.borrada);
   }
-  await Promise.all(
-    [...caminhos].map(async (c) => {
+  const buscar = async (c: string) => {
+    for (let t = 0; t < 3; t++) {
       const u = await urlDe(p.id, c);
       if (u) {
         mapa[c] = u;
         aoAtualizar({ ...mapa });
+        return;
       }
-    })
-  );
+      await new Promise((r) => setTimeout(r, 800 * (t + 1)));
+    }
+  };
+  const fila = async (lista: string[], simultaneos: number) => {
+    const resto = [...lista];
+    await Promise.all(Array.from({ length: Math.min(simultaneos, resto.length) }, async () => {
+      for (let c = resto.shift(); c; c = resto.shift()) await buscar(c);
+    }));
+  };
+  await fila(audios, 3);
+  await fila([...caminhos].filter((c) => !audios.includes(c)), 5);
 };
 
 // ---------- exportar ----------
