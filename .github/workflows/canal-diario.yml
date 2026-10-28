@@ -45,9 +45,9 @@ jobs:
         with:
           node-version: 22
 
-      - name: Criar o vídeo do dia
-        id: dia
+      - name: Criar o vídeo do dia, pôr o primeiro da fila para gerar e pedir ideias
         env:
+          GH_TOKEN: ${{ github.token }}
           CANAL: ${{ inputs.canal }}
           FORCAR: ${{ inputs.forcar }}
           TODAS: ${{ inputs.todas }}
@@ -58,13 +58,16 @@ jobs:
           [ "$FORCAR" = "true" ] && args+=(--forcar)
           [ "$TODAS" = "true" ] && args+=(--todas)
           scripts/salvar_no_repo.sh "Canal: vídeo do dia" node scripts/canal.mjs "${args[@]}"
-
-      - name: Disparar geração dos vídeos e novas ideias
-        run: |
-          # o resultado vem do último "diario" (o arquivo de saída acumula as tentativas; vale a última linha de cada chave)
-          projetos=$(grep '^projetos=' "$GITHUB_OUTPUT" | tail -1 | cut -d= -f2-)
+          # cada passo tem o seu próprio arquivo de saída: lê e dispara aqui mesmo, no passo que gerou
+          criados=$(grep '^projetos=' "$GITHUB_OUTPUT" | tail -1 | cut -d= -f2-)
           faltam=$(grep '^faltam=' "$GITHUB_OUTPUT" | tail -1 | cut -d= -f2-)
-          for id in ${projetos//,/ }; do
+          : > "$GITHUB_OUTPUT"
+          # se nada novo foi criado hoje, retoma a fila de um canal que parou (ex.: limite da assinatura)
+          if [ -z "$criados" ]; then
+            scripts/salvar_no_repo.sh "Canal: próximo da fila" node scripts/canal.mjs proximo ${CANAL:+"$CANAL"}
+            criados=$(grep '^projetos=' "$GITHUB_OUTPUT" | tail -1 | cut -d= -f2-)
+          fi
+          for id in ${criados//,/ }; do
             echo "gerando $id"; gh workflow run gerar-ia.yml -f projeto="$id"; sleep 5
           done
           for c in ${faltam//,/ }; do

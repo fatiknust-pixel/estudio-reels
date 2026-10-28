@@ -7,7 +7,7 @@
  "tema": "neon",
  "criadoEm": "2026-10-28T17:56:05.484Z",
  "atualizadoEm": "2026-10-28T17:56:05.484Z",
- "status": "processando",
+ "status": "rascunho",
  "pedido": {
   "tema": "Como é construído um prédio",
   "tom": "Curioso e analítico",
@@ -57,7 +57,8 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.484Z"
+  "pedidoEm": "2026-10-28T17:56:05.484Z",
+  "fila": true
  },
  "legenda": {
   "fonte": "montserrat",

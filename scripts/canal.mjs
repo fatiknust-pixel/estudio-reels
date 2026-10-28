@@ -41,7 +41,7 @@ if (cmd === "diario") {
   const so = args.includes("--canal") ? args[args.indexOf("--canal") + 1] : null;
   const forcar = args.includes("--forcar");
   const todas = args.includes("--todas"); // gera de uma vez todas as ideias da fila e deixa o canal ativo (continua 1 por dia)
-  const criados = [], faltam = [];
+  const criados = [], disparar = [], faltam = [];
   for (const f of fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((n) => n.endsWith(".json")) : []) {
     const c = ler(f.replace(/\.json$/, ""));
     if (so ? c.id !== so : !c.ativo) continue;
@@ -62,13 +62,35 @@ if (cmd === "diario") {
     fs.writeFileSync(path.join("projetos", p.id, "projeto.json"), JSON.stringify(p, null, 1) + "\n");
     Object.assign(ideia, { estado: "gerado", projeto: p.id, em: hoje() });
     c.ultimaGeracao = hoje();
+    if (todas && criados.length) { p.status = "rascunho"; p.processamento.fila = true; } else disparar.push(p.id); // um de cada vez: o resto espera na fila
+    fs.writeFileSync(path.join("projetos", p.id, "projeto.json"), JSON.stringify(p, null, 1) + "\n");
     criados.push(p.id);
     console.log(`✓ ${c.id}: "${ideia.titulo}" → ${p.id}`);
     }
     gravar(c);
   }
-  saida("projetos", criados.join(","));
+  saida("projetos", disparar.join(","));
   saida("faltam", faltam.join(","));
+} else if (cmd === "proximo") {
+  // Põe para gerar o próximo vídeo da fila do canal (um de cada vez). Não faz nada se já há um sendo gerado há menos de 6 h.
+  const so = args[0];
+  const iniciados = [];
+  for (const f of fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((n) => n.endsWith(".json")) : []) {
+    const c = ler(f.replace(/\.json$/, ""));
+    if (so ? c.id !== so : !c.ativo) continue;
+    const meus = fs.readdirSync("projetos").filter((d) => d.startsWith(c.id + "-")).map((d) => ({ d, f: path.join("projetos", d, "projeto.json") })).filter((x) => fs.existsSync(x.f)).map((x) => ({ ...x, p: JSON.parse(fs.readFileSync(x.f, "utf8")) })).filter((x) => x.p.pedido?.canal?.id === c.id);
+    if (meus.some((x) => x.p.status === "processando" && !x.p.processamento?.fila && Date.now() - Date.parse(x.p.processamento?.pedidoEm ?? 0) < 6 * 3600e3)) { console.log(`= ${c.id}: já há um vídeo sendo gerado`); continue; }
+    const ordem = c.ideias.map((i) => i.projeto);
+    const fila = meus.filter((x) => x.p.processamento?.fila).sort((a, b) => ordem.indexOf(a.d) - ordem.indexOf(b.d));
+    if (!fila.length) continue;
+    const { p, f: arqProj } = fila[0];
+    p.status = "processando";
+    p.processamento = { ...p.processamento, fila: undefined, pedidoEm: new Date().toISOString() };
+    fs.writeFileSync(arqProj, JSON.stringify(p, null, 1) + "\n");
+    iniciados.push(p.id);
+    console.log(`▶ ${c.id}: ${p.id} (restam ${fila.length - 1} na fila)`);
+  }
+  saida("projetos", iniciados.join(","));
 } else if (cmd === "ideias") {
   const c = ler(args[0]);
   const novas = JSON.parse(fs.readFileSync(args[1], "utf8"));
