@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
- "atualizadoEm": "2026-10-28T22:57:22Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-28T23:37:45Z",
+ "status": "erro",
  "pedido": {
   "tema": "Como funciona uma pedreira",
   "tom": "Curioso e analítico",
@@ -52,7 +52,8 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T23:35:09.882Z"
+  "pedidoEm": "2026-10-28T23:35:09.882Z",
+  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/40788388506"
  },
  "legenda": {
   "fonte": "montserrat",
