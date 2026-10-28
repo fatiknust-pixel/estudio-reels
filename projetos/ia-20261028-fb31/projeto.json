@@ -1,0 +1,68 @@
+{
+ "versao": 1,
+ "id": "ia-20261028-fb31",
+ "titulo": "Como o Japão se reergueu depois da Segunda Guerra",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "documentario",
+ "criadoEm": "2026-10-28T14:30:01.193Z",
+ "atualizadoEm": "2026-10-28T14:30:01.197Z",
+ "status": "processando",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": true
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "pedido": {
+  "tema": "Como o Japão se reergueu depois da Segunda Guerra",
+  "tom": "Documentário sério e envolvente, narrador em terceira pessoa",
+  "duracao": 600,
+  "estilo": {
+   "dinamica": "cinema",
+   "legenda": "discreta",
+   "transicao": "zoom",
+   "fundo": "limpo",
+   "musica": "epica",
+   "formato": "explicativo",
+   "fonte": "playfair",
+   "paleta": "documentario"
+  },
+  "genero": {
+   "id": "documentario",
+   "nome": "Documentário",
+   "instrucoes": "Documentário narrado (estilo canal dark): a imagem é a protagonista. Cada cena tem 'galeria' com 2 a 4 fotos reais do assunto (lugares, pessoas, mapas, prédios, época), que vão se sucedendo enquanto o narrador fala; 15 a 30 imagens no total, sem repetir. Use poucos elementos animados (0 a 2 por cena: titulo para capítulos, linha para datas, contador para números grandes). Abra com uma pergunta ou um fato surpreendente, divida em capítulos (titulo com o nome do capítulo) e feche com uma reflexão e um convite para se inscrever (seguir com 'INSCREVA-SE').",
+   "galeria": true
+  }
+ },
+ "formato": "16:9",
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "+5%"
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-28T14:30:01.193Z"
+ }
+}
