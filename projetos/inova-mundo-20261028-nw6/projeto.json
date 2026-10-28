@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "neon",
  "criadoEm": "2026-10-28T17:56:05.483Z",
- "atualizadoEm": "2026-10-28T22:57:00.405Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-28T22:57:22Z",
+ "status": "erro",
  "pedido": {
   "tema": "Como funciona uma pedreira",
   "tom": "Curioso e analítico",
@@ -52,7 +52,8 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T22:57:00.404Z"
+  "pedidoEm": "2026-10-28T22:57:00.404Z",
+  "erro": "Pausado: a última geração falhou mesmo com 2 tentativas (há 150 min). Provável limite da assinatura ou erro que se repete. Veja https://github.com/fatiknust-pixel/estudio-reels/actions/runs/40763117020 e tente de novo mais tarde."
  },
  "legenda": {
   "fonte": "montserrat",
