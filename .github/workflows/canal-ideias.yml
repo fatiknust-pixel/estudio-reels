@@ -49,6 +49,7 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ github.token }}
+          allowed_bots: "*" # a geração disparada por outra Action (fila do canal) roda como github-actions[bot]
           prompt: |
             Você planeja o calendário de um canal dark do YouTube (documentários narrados, sem rosto).
             1. Leia `canais/${{ inputs.canal }}.json`: `nome`, `nicho`, `idioma` e a lista `ideias` (todas, inclusive as já geradas, que NÃO podem se repetir nem ser quase iguais).
