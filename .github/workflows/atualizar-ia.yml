@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 concurrency:
   group: ia-${{ inputs.projeto }}
@@ -70,12 +71,50 @@ jobs:
           python3 scripts/voz_propria.py out/projeto.json --original out/narracao-original --midia "projetos/$ID" --deepfilter ./deep-filter
           rm -f deep-filter
 
-      - name: Voz e imagens
+      - name: Voz
         run: |
           mkdir -p out && [ -f out/projeto.json ] || cp "projetos/$ID/projeto.json" out/projeto.json
           python3 scripts/voz.py out/projeto.json --midia "projetos/$ID"
-          node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID"
-          python3 scripts/enquadrar.py out/projeto.json --midia "projetos/$ID"
+
+      - name: Imagens — juntar candidatas (Wikimedia, Pixabay, Openverse, NASA)
+        id: candidatas
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID" --candidatos out/candidatos || true
+          echo "n=$(jq length out/candidatos/indice.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+
+      - name: Claude olha as candidatas e escolhe
+        if: steps.candidatas.outputs.n != '0'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          allowed_bots: "*"
+          prompt: |
+            Você escolhe fotos REAIS para um vídeo documental. Leia `out/candidatos/indice.json`: para cada item há a `chave`,
+            o que a foto precisa mostrar (`mostrar`), o trecho da narração em que ela aparece (`fala`) e a `folha`.
+            Para cada item, abra a folha com Read (`out/candidatos/<folha>`): são fotos numeradas 1..N no canto.
+            Escolha a foto que mostra EXATAMENTE o assunto da fala (o objeto, o lugar, a obra, a pessoa ou a época citados).
+            Critérios, nesta ordem: 1) é o assunto certo (não um parecido, de outro lugar ou de outra época);
+            2) nítida e bonita, boa para tela cheia; 3) sem texto grande, marca d'água, colagem ou mapa ilegível.
+            Responda 0 quando nenhuma mostra o assunto: é melhor ficar sem foto do que mostrar algo que não tem a ver com a fala.
+            Não escolha a mesma foto (igual) para chaves diferentes.
+            Grave `out/candidatos/escolhas.json` no formato {"chave": número, ...} com todas as chaves do índice.
+            Não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --model sonnet
+            --max-turns 160
+            --allowedTools "Read,Write,Glob"
+
+      - name: Imagens — baixar as escolhidas (e buscar as que faltarem)
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID" --escolhas out/candidatos/escolhas.json
+
+      - name: Enquadrar as fotos
+        run: python3 scripts/enquadrar.py out/projeto.json --midia "projetos/$ID"
 
       - name: Salvar
         run: |
