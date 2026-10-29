@@ -152,20 +152,24 @@ export const ModoCorrida: React.FC<{ corrida: Corrida }> = ({ corrida: c }) => {
       ))}
       <div style={{ position: "absolute", top: 290, width: "100%", textAlign: "center", fontSize: 34, fontWeight: 700, color: "#FFC83D" }}>{c.subtitulo}</div>
 
-      {/* pistas: moldura, números de vida e avisos (as bolinhas e placas vão no canvas por cima) */}
+      {/* pistas: moldura (embaixo), bolinhas e placas no canvas, e por cima de tudo os números de vida e avisos */}
+      {c.pistas.map((p, i) => {
+        const ganhou = venceu && i === vencedora;
+        return <div key={i} style={{ position: "absolute", left: MARGEM + i * (larg + VAO), top: TOPO_PISTAS, width: larg, height: altPista, borderRadius: 22, border: `2px solid ${ganhou ? p.cor : "#2a2450"}`, background: "#0e0b20cc", boxShadow: ganhou ? `0 0 40px ${p.cor}` : "none" }} />;
+      })}
+      <canvas ref={tela} width={1080} height={altPista} style={{ position: "absolute", left: 0, top: TOPO_PISTAS, width: 1080, height: altPista, pointerEvents: "none" }} />
       {c.pistas.map((p, i) => {
         const e = est[i], fp = fis[i];
-        const ganhou = venceu && i === vencedora;
         const ultimaQuebra = quebras.filter((qb) => qb.pista === i && qb.quadro <= f).pop();
         const idadeQuebra = ultimaQuebra ? f - ultimaQuebra.quadro : 999;
         return (
-          <div key={i} style={{ position: "absolute", left: MARGEM + i * (larg + VAO), top: TOPO_PISTAS, width: larg, height: altPista, borderRadius: 22, border: `2px solid ${ganhou ? p.cor : "#2a2450"}`, background: "#0e0b20cc", boxShadow: ganhou ? `0 0 40px ${p.cor}` : "none" }}>
+          <div key={i} style={{ position: "absolute", left: MARGEM + i * (larg + VAO), top: TOPO_PISTAS, width: larg, height: altPista, pointerEvents: "none" }}>
             {e.fim === null && c.paredes.map((hp, k) => {
               if (k < e.parede) return null;
               const atual = k === e.parede;
               const golpe = atual && fp.golpes[q] > 0;
               return (
-                <div key={k} style={{ position: "absolute", left: 0, right: 0, top: yPlaca(k) - 46, textAlign: "center", fontSize: 32, fontWeight: 800, color: atual ? "#fff" : "#cfcae8", transform: golpe ? "scale(1.06)" : undefined, textShadow: atual ? `0 0 12px ${p.cor}` : undefined }}>
+                <div key={k} style={{ position: "absolute", left: 0, right: 0, top: yPlaca(k) - 46, textAlign: "center", fontSize: 32, fontWeight: 800, color: atual ? "#fff" : "#cfcae8", transform: golpe ? "scale(1.06)" : undefined, textShadow: atual ? `0 0 4px #000, 0 0 10px #000, 0 0 16px ${p.cor}` : "0 0 4px #000" }}>
                   {fmtNum(atual ? fp.hpTela[q] : hp)}
                 </div>
               );
@@ -184,7 +188,6 @@ export const ModoCorrida: React.FC<{ corrida: Corrida }> = ({ corrida: c }) => {
           </div>
         );
       })}
-      <canvas ref={tela} width={1080} height={altPista} style={{ position: "absolute", left: 0, top: TOPO_PISTAS, width: 1080, height: altPista, pointerEvents: "none" }} />
 
       {/* rodapé: mascotes, balão de seguir e barra de progresso */}
       <Mascote cor="#3fb6ff" x={-20} lado={1} />

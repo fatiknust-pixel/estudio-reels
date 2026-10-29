@@ -1,4 +1,5 @@
-// Física das bolinhas do modo "corrida": gravidade, quique na placa, colisão entre bolinhas e com as laterais.
+// Física das bolinhas do modo "corrida": gravidade e quique de trampolim na placa (cada bolinha sozinha: elas se
+// sobrepõem, não se empurram), rebatendo nas laterais.
 // Calculada uma vez para o vídeo inteiro (determinística: mesma semente → mesmo vídeo, na prévia e no render).
 // O ritmo da corrida (quando cada placa quebra) vem de simular.ts; aqui cada batida na placa é que faz a vida cair na tela.
 import { Corrida } from "../tipos";
@@ -7,7 +8,7 @@ import { rng, Simulacao } from "./simular";
 export const MAX_BOLAS = 170; // bolinhas desenhadas por pista (cada uma representa bolas/MAX_BOLAS quando há milhões)
 const G = 2600; // gravidade (px/s²)
 const PASSOS = 4; // subpassos por quadro
-const RESTITUICAO = 0.72;
+const TRAMPOLIM = [520, 980]; // velocidade (px/s) com que a placa devolve cada bolinha: quica de ~50 a ~185 px
 
 export type Geometria = { largura: number; altura: number; placas: number[] }; // por pista, em coordenadas locais da pista
 export type FisicaPista = {
@@ -54,7 +55,6 @@ export const fisica = (c: Corrida, sim: Simulacao, geo: Geometria): FisicaPista[
       for (let s = 0; s < PASSOS; s++) {
         for (let b = 0; b < bx.length; b++) {
           vy[b] += G * h;
-          if (!acabou && s === 0) { vx[b] += (r() - 0.5) * 70; vy[b] += (r() - 0.5) * 70; } // agitação: a massa nunca fica parada
           vx[b] *= 0.999;
           bx[b] += vx[b] * h;
           by[b] += vy[b] * h;
@@ -65,35 +65,10 @@ export const fisica = (c: Corrida, sim: Simulacao, geo: Geometria): FisicaPista[
             by[b] = placa - rr;
             if (vy[b] > 0) {
               if (vy[b] > 120 && !jaBateu[b] && !acabou) { jaBateu[b] = 1; bateu++; }
-              // quica: perde energia, mas a placa "devolve" um pouco (as bolinhas seguem martelando)
-              vy[b] = -(vy[b] * RESTITUICAO) - (acabou ? 0 : 90 + r() * 200);
-              vx[b] += (r() - 0.5) * 140;
-            }
-          }
-        }
-        // colisão entre bolinhas (grade de células do tamanho do diâmetro)
-        const cel = rr * 2, mapa = new Map<number, number[]>();
-        for (let b = 0; b < bx.length; b++) {
-          const k = Math.floor(bx[b] / cel) * 4096 + Math.floor((by[b] + 4096) / cel);
-          const l = mapa.get(k);
-          if (l) l.push(b); else mapa.set(k, [b]);
-        }
-        for (let b = 0; b < bx.length; b++) {
-          const cx = Math.floor(bx[b] / cel), cy = Math.floor((by[b] + 4096) / cel);
-          for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
-            const l = mapa.get((cx + dx) * 4096 + cy + dy);
-            if (!l) continue;
-            for (const o of l) {
-              if (o <= b) continue;
-              const ddx = bx[o] - bx[b], ddy = by[o] - by[b], d2 = ddx * ddx + ddy * ddy, min = rr * 2;
-              if (d2 >= min * min || d2 === 0) continue;
-              const d = Math.sqrt(d2), nx = ddx / d, ny = ddy / d, sobra = (min - d) / 2;
-              bx[b] -= nx * sobra; by[b] -= ny * sobra; bx[o] += nx * sobra; by[o] += ny * sobra;
-              const rel = (vx[o] - vx[b]) * nx + (vy[o] - vy[b]) * ny;
-              if (rel < 0) {
-                const j = -rel * 0.9;
-                vx[b] -= j * nx; vy[b] -= j * ny; vx[o] += j * nx; vy[o] += j * ny;
-              }
+              // trampolim: a placa devolve cada bolinha para cima (altura sorteada, então elas não quicam juntas);
+              // depois de terminar a corrida, assentam no fundo da pista
+              vy[b] = acabou ? -vy[b] * 0.35 : -(TRAMPOLIM[0] + r() * (TRAMPOLIM[1] - TRAMPOLIM[0]));
+              vx[b] = acabou ? vx[b] * 0.6 : vx[b] * 0.7 + (r() - 0.5) * 160;
             }
           }
         }
