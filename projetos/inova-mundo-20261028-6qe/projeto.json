@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
- "atualizadoEm": "2026-10-28T17:56:05.483Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-29T10:47:17Z",
+ "status": "erro",
  "pedido": {
   "tema": "Evolução dos carros",
   "tom": "Curioso e analítico",
@@ -55,7 +55,8 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-29T10:43:26.277Z"
+  "pedidoEm": "2026-10-29T10:43:26.277Z",
+  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/40859798468"
  },
  "legenda": {
   "fonte": "montserrat",
