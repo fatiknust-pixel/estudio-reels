@@ -62,7 +62,7 @@ export const ModoCorrida: React.FC<{ corrida: Corrida }> = ({ corrida: c }) => {
     let ultimo = -99;
     for (let k = 0; k < sim.quadros.length; k++) {
       const g = fis.reduce((s, p) => s + p.golpes[k], 0);
-      if (g && k - ultimo >= 3) { out.push({ q: k, v: Math.min(0.5, 0.18 + g / 120) }); ultimo = k; }
+      if (g && k - ultimo >= 3) { out.push({ q: k, v: Math.min(0.75, 0.35 + g / 150) }); ultimo = k; }
     }
     return out;
   }, [sim, fis]);
@@ -128,15 +128,15 @@ export const ModoCorrida: React.FC<{ corrida: Corrida }> = ({ corrida: c }) => {
 
   return (
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 0%, #1d1240 0%, #0b0818 55%, #07060f 100%)", fontFamily: FONTE, color: "#fff" }}>
-      {c.musica !== false && <Audio src={arquivoGlobal("sfx/trilha-epica.mp3")} volume={0.1} loop />}
+      {c.musica !== false && <Audio src={arquivoGlobal("sfx/trilha-epica.mp3")} volume={0.45} loop />}
       {tics.map((t) => (
         <Sequence key={`t${t.q}`} from={t.q} durationInFrames={6} layout="none">
-          <Audio src={arquivoGlobal("sfx/tique.mp3")} volume={t.v} />
+          <Audio src={arquivoGlobal("sfx/corrida-bate.mp3")} volume={t.v} />
         </Sequence>
       ))}
       {quebras.map((qb) => (
         <Sequence key={`${qb.pista}-${qb.parede}`} from={qb.quadro} durationInFrames={20} layout="none">
-          <Audio src={arquivoGlobal(qb.parede === c.paredes.length - 1 ? "sfx/ding.mp3" : "sfx/pop.mp3")} volume={0.55} />
+          <Audio src={arquivoGlobal(qb.parede === c.paredes.length - 1 ? "sfx/ding.mp3" : "sfx/corrida-quebra.mp3")} volume={qb.parede === c.paredes.length - 1 ? 1 : 0.8} />
         </Sequence>
       ))}
 
