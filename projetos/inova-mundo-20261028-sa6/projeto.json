@@ -7,7 +7,7 @@
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
  "atualizadoEm": "2026-10-28T17:56:05.483Z",
- "status": "rascunho",
+ "status": "processando",
  "pedido": {
   "tema": "Evolução do garimpo",
   "tom": "Curioso e analítico",
@@ -53,8 +53,7 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.483Z",
-  "fila": true
+  "pedidoEm": "2026-10-29T00:38:15.967Z"
  },
  "legenda": {
   "fonte": "montserrat",
