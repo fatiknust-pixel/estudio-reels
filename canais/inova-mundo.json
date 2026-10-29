@@ -58,7 +58,9 @@
   {
    "titulo": "O cofre de sementes do fim do mundo",
    "angulo": "Como funciona o Svalbard Global Seed Vault, escavado na rocha e no permafrost, quem pode retirar sementes e o caso real da retirada pela Síria/ICARDA. Mostra o cofre como seguro da humanidade, não como curiosidade apocalíptica.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261029",
+   "em": "2026-10-29"
   },
   {
    "titulo": "Como a Holanda venceu o mar: Delta Works",
@@ -116,5 +118,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-10-28"
+ "ultimaGeracao": "2026-10-29"
 }
