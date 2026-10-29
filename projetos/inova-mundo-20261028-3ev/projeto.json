@@ -7,7 +7,7 @@
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
  "atualizadoEm": "2026-10-29T12:19:08Z",
- "status": "pronto",
+ "status": "processando",
  "pedido": {
   "tema": "Maquinários que você não conhecia",
   "tom": "Curioso e analítico",
@@ -6442,7 +6442,7 @@
    "rostos": 0,
    "foco": {
     "x": 57.4,
-    "y": 55.0
+    "y": 55
    },
    "borrada": "imagens/hambach-mine-32063a17-b.jpg"
   },
@@ -6476,7 +6476,7 @@
    "rostos": 0,
    "foco": {
     "x": 44.3,
-    "y": 47.0
+    "y": 47
    },
    "borrada": "imagens/garzweiler-1a3f72e6-b.jpg"
   },
@@ -6493,7 +6493,7 @@
    "altura": 1277,
    "rostos": 0,
    "foco": {
-    "x": 74.0,
+    "x": 74,
     "y": 46.5
    },
    "borrada": "imagens/belaz-a-abd0ea12-b.jpg"
@@ -6579,7 +6579,7 @@
    "altura": 1440,
    "rostos": 1,
    "foco": {
-    "x": 87.0,
+    "x": 87,
     "y": 48.3
    },
    "borrada": "imagens/rodas-a9c6fd61-b.jpg"
@@ -6597,7 +6597,7 @@
    "rostos": 0,
    "foco": {
     "x": 37.4,
-    "y": 51.0
+    "y": 51
    },
    "borrada": "imagens/bagger-front-34720a2f-b.jpg"
   },
@@ -6732,7 +6732,7 @@
    "altura": 720,
    "rostos": 2,
    "foco": {
-    "x": 64.0,
+    "x": 64,
     "y": 53.8
    },
    "borrada": "imagens/belaz-f-9a4eba65-b.jpg"
@@ -6750,7 +6750,7 @@
    "rostos": 0,
    "foco": {
     "x": 38.1,
-    "y": 47.0
+    "y": 47
    },
    "borrada": "imagens/belaz-b-6b6c1d33-b.jpg"
   },
@@ -6784,7 +6784,7 @@
    "rostos": 1,
    "foco": {
     "x": 49.2,
-    "y": 79.0
+    "y": 79
    },
    "borrada": "imagens/belaz-c-ad737b22-b.jpg"
   },
@@ -6834,7 +6834,7 @@
    "altura": 1442,
    "rostos": 0,
    "foco": {
-    "x": 64.0,
+    "x": 64,
     "y": 37.5
    },
    "borrada": "imagens/siemens-51b3ac9f-b.jpg"
@@ -6965,7 +6965,7 @@
    "rostos": 0,
    "foco": {
     "x": 43.7,
-    "y": 61.0
+    "y": 61
    },
    "borrada": "imagens/vab-1228f354-b.jpg"
   },
@@ -7084,7 +7084,7 @@
    "rostos": 0,
    "foco": {
     "x": 39.3,
-    "y": 56.0
+    "y": 56
    },
    "borrada": "imagens/shuttle-ffaddc8f-b.jpg"
   },
@@ -7260,7 +7260,7 @@
    "rostos": 0,
    "foco": {
     "x": 43.8,
-    "y": 53.0
+    "y": 53
    },
    "borrada": "imagens/bertha-a-e9893bf6-b.jpg"
   },
@@ -7344,7 +7344,7 @@
    "altura": 1280,
    "rostos": 0,
    "foco": {
-    "x": 46.0,
+    "x": 46,
     "y": 61.5
    },
    "borrada": "imagens/sr99-d7691e4a-b.jpg"
@@ -7362,7 +7362,7 @@
    "rostos": 0,
    "foco": {
     "x": 51.1,
-    "y": 45.0
+    "y": 45
    },
    "borrada": "imagens/herrenknecht-edfd710b-b.jpg"
   },
@@ -7463,7 +7463,7 @@
    "altura": 1285,
    "rostos": 0,
    "foco": {
-    "x": 44.0,
+    "x": 44,
     "y": 51.2
    },
    "borrada": "imagens/bagger-e-bd6ba18a-b.jpg"
@@ -7505,8 +7505,7 @@
  },
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.483Z",
-  "fila": true
+  "pedidoEm": "2026-10-29T12:19:15.164Z"
  },
  "legenda": {
   "fonte": "poppins",
