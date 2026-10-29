@@ -95,11 +95,17 @@ export type VideoFonte = {
   seguirRosto?: boolean; // false = usa só focoX
 };
 
+// Modo "corrida" (estilo "ball race"): pistas lado a lado; a massa de bolinhas de cada uma quebra paredes de vida
+// crescente, e a regra da pista (×bolinhas, ×força ou +bolinhas) vale a cada parede quebrada. Tudo calculado, sem IA.
+export type RegraPista = { tipo: "multiplica" | "forca" | "soma"; valor: number };
+export type PistaCorrida = { nome: string; desc: string; cor: string; bolas: number; forca: number; regra: RegraPista };
+export type Corrida = { titulo: string; subtitulo: string; canal: string; duracao: number; paredes: number[]; pistas: PistaCorrida[]; semente: number; musica?: boolean };
+
 export type Projeto = {
   versao: 1;
   id: string;
   titulo: string;
-  modo: "ia" | "bruto";
+  modo: "ia" | "bruto" | "corrida";
   estilo: string; // estilo pronto (impacto, cortes-rapidos, podcast, documentario, noticia, tutorial)
   tema: string; // chave de TEMAS
   criadoEm: string;
@@ -128,6 +134,7 @@ export type Projeto = {
   narracao?: Record<string, NarracaoCena>;
   imagens?: Record<string, ImagemInfo>;
   fontesPesquisa?: { titulo: string; url: string }[];
+  corrida?: Corrida; // modo "corrida": simulação de bolinhas quebrando paredes (src/corrida/)
   // sugestões da IA ainda não aplicadas
   sugestoes?: any;
   // só na prévia da aba Cortes: mostra o original inteiro e marca o que será cortado

@@ -35,6 +35,7 @@ PWA (React + Vite) que cria vídeos 9:16/16:9 com Remotion. Prévia ao vivo no a
 | Montagem geral (qual modo, legenda, efeitos) | `src/Composicao.tsx` (registro em `src/Root.tsx`, `src/index.ts`) |
 | Cenas do Modo 1 (IA) | `src/ModoIA.tsx` |
 | Vídeo bruto do Modo 2 (enquadramento, zoom, cortes) | `src/ModoBruto.tsx` |
+| Corrida de bolinhas ("ball race": simulação, sorteio, visual) | `src/corrida/simular.ts`, `src/corrida/ModoCorrida.tsx`; aba `app/editor/PainelCorrida.tsx` |
 | Visual "Videoaula" (fundo branco) | `src/aula/ModoAula.tsx`, `src/aula/ElementosAula.tsx` |
 | Legenda palavra por palavra | `src/componentes/Legenda.tsx` |
 | Elementos animados das cenas (números, listas, mapas…) | `src/componentes/Elementos.tsx` |

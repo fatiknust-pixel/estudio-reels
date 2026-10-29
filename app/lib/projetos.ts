@@ -1,4 +1,5 @@
 // Projetos: rascunho no aparelho + cópia oficial no GitHub (projetos/<id>/projeto.json).
+import { sortearCorrida } from "../../src/corrida/simular";
 import { EFEITOS_PADRAO, FundoVideo, LEGENDA_PADRAO, Projeto } from "../../src/tipos";
 import { EstiloPronto } from "../estilos";
 import demoBruto from "../demos/demo-bruto.json";
@@ -128,6 +129,20 @@ export const novoIdProjeto = (prefixo: string) => {
   const d = new Date();
   const data = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}`;
   return `${prefixo}-${data}-${Math.random().toString(36).slice(2, 6)}`;
+};
+
+// Modo "corrida": sorteia a corrida e cria o projeto no aparelho (não precisa de IA nem de Actions até exportar)
+export const novaCorrida = async (): Promise<Projeto> => {
+  let canal = "@seucanal";
+  try { canal = localStorage.getItem("corrida.canal") || canal; } catch {}
+  const agora = new Date().toISOString();
+  const p: Projeto = {
+    versao: 1, id: novoIdProjeto("corrida"), titulo: "Corrida de bolinhas", modo: "corrida", estilo: "corrida", tema: "padrao",
+    criadoEm: agora, atualizadoEm: agora, status: "rascunho", legenda: { ...LEGENDA_PADRAO, mostrar: false }, efeitos: { ...EFEITOS_PADRAO, trilha: false },
+    corrida: sortearCorrida(undefined, canal),
+  };
+  await salvarRascunho(p);
+  return p;
 };
 
 export type MetaVideo = { duracao: number; largura: number; altura: number };

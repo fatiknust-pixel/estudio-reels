@@ -5,6 +5,7 @@ import { FPS, montarLinha, quadroDe } from "../../src/linhaTempo";
 import { Projeto } from "../../src/tipos";
 import { EditorCtx, ProvedorEditor, useEditor, useFrame, useTocando } from "../editor/contexto";
 import { PainelCenas } from "../editor/PainelCenas";
+import { PainelCorrida } from "../editor/PainelCorrida";
 import { PainelCortes } from "../editor/PainelCortes";
 import { PainelEfeitos } from "../editor/PainelEfeitos";
 import { PainelEstilo } from "../editor/PainelEstilo";
@@ -18,9 +19,9 @@ import { local } from "../lib/local";
 import { carregarArquivos, carregarProjeto, ehDemo, esquecerUrl, marcarSujo, enviarNarracao, pedirAtualizacaoIA, recarregarDoGitHub, salvarNoGitHub, salvarRascunho } from "../lib/projetos";
 import { avisar, avisarErro, fmtTempo, ir } from "../ui";
 
-type Aba = "cenas" | "legendas" | "estilo" | "efeitos" | "cortes" | "imagens" | "ia" | "exportar";
+type Aba = "corrida" | "cenas" | "legendas" | "estilo" | "efeitos" | "cortes" | "imagens" | "ia" | "exportar";
 const NOMES: Record<Aba, string> = {
-  ia: "IA",
+  ia: "IA", corrida: "Corrida",
   cenas: "Cenas", legendas: "Legendas", estilo: "Estilo", efeitos: "Efeitos", cortes: "Cortes", imagens: "Imagens", exportar: "Exportar",
 };
 
@@ -74,7 +75,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
       const { projeto } = recarregar ? await recarregarDoGitHub(id) : await carregarProjeto(id);
       primeiro.current = true;
       h.iniciar(projeto);
-      setAba((a) => a ?? (projeto.modo === "ia" ? "cenas" : "legendas"));
+      setAba((a) => a ?? (projeto.modo === "ia" ? "cenas" : projeto.modo === "corrida" ? "corrida" : "legendas"));
       if (demo) setArquivos({ __publico: "1" });
       else {
         setArquivos({});
@@ -169,7 +170,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
     irParaFrame: (fr) => ref.current?.seekTo(Math.max(0, Math.min(linha.duracao - 1, fr))),
   };
 
-  const abas: Aba[] = p.modo === "ia" ? ["cenas", "legendas", "estilo", "efeitos", "imagens", "exportar"] : ["legendas", "estilo", "efeitos", "cortes", "ia", "exportar"];
+  const abas: Aba[] = p.modo === "corrida" ? ["corrida", "exportar"] : p.modo === "ia" ? ["cenas", "legendas", "estilo", "efeitos", "imagens", "exportar"] : ["legendas", "estilo", "efeitos", "cortes", "ia", "exportar"];
 
   const salvar = async () => {
     setSalvando(true);
@@ -243,6 +244,7 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
             </div>
             <div className="painel" role="tabpanel">
               {demo && aba !== "exportar" && <div className="aviso pequeno">Exemplo: mexa à vontade — as mudanças ficam só neste aparelho.</div>}
+              {aba === "corrida" && <PainelCorrida />}
               {aba === "cenas" && <PainelCenas />}
               {aba === "legendas" && <PainelLegendas />}
               {aba === "estilo" && <PainelEstilo />}
