@@ -26,7 +26,7 @@ const descricaoCompleta = (p: ReturnType<typeof useEditor>["projeto"]) => {
 };
 
 export const PainelExportar: React.FC<{ salvar: () => Promise<void> }> = ({ salvar }) => {
-  const { projeto: p, ehDemo, atualizarIA } = useEditor();
+  const { projeto: p, ehDemo, atualizarIA, enviarNarracao } = useEditor();
   const [execs, setExecs] = useState<gh.Execucao[]>([]);
   const [arquivos, setArquivos] = useState<gh.Asset[] | null>(null);
   const [ocupado, setOcupado] = useState<string | null>(null);
@@ -126,6 +126,27 @@ export const PainelExportar: React.FC<{ salvar: () => Promise<void> }> = ({ salv
           <button className="btn largo" style={{ marginTop: 8 }} disabled={!!ocupado || p.status === "processando"} onClick={async () => { setOcupado("Pedindo…"); await atualizarIA(); setOcupado(null); }}>
             🎙️ Atualizar voz e imagens
           </button>
+        )}
+        {p.modo === "ia" && (
+          <label className="btn largo" style={{ marginTop: 8 }} aria-disabled={!!ocupado || p.status === "processando"}>
+            🎤 {p.voz?.propria ? "Trocar minha narração" : "Usar minha voz gravada"}
+            <input type="file" accept="audio/*,video/*" hidden disabled={!!ocupado || p.status === "processando"} onChange={async (e) => {
+              const arq = e.target.files?.[0];
+              e.target.value = "";
+              if (!arq) return;
+              setOcupado("Enviando…");
+              await enviarNarracao(arq, (t, f) => setOcupado(f === undefined ? `${t}…` : `${t} ${Math.round(f * 100)}%`));
+              setOcupado(null);
+            }} />
+          </label>
+        )}
+        {p.modo === "ia" && p.voz?.propria && (
+          <button className="btn largo" style={{ marginTop: 8 }} disabled={!!ocupado || p.status === "processando"} onClick={async () => { setOcupado("Pedindo…"); await atualizarIA({ voz: { ...p.voz!, propria: false } }); setOcupado(null); }}>
+            🤖 Voltar para a voz da IA
+          </button>
+        )}
+        {p.modo === "ia" && (
+          <p className="pequeno suave">Grave lendo o texto das cenas, na ordem, num arquivo só (celular serve). O GitHub tira o ruído, ajusta o volume e sincroniza legenda e imagens com a sua fala. Se mudar o texto de uma cena depois, grave de novo.</p>
         )}
         {ocupado && <p className="pequeno">{ocupado}</p>}
       </div>

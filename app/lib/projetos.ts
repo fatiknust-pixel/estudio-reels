@@ -236,10 +236,22 @@ export const consultarFundo = async (p: Projeto): Promise<FundoVideo | undefined
 
 // Modo 1: voz das cenas editadas + imagens pedidas (Action atualizar-ia.yml)
 export const pedirAtualizacaoIA = async (p: Projeto, aviso?: (m: string) => void): Promise<Projeto> => {
-  const novo: Projeto = { ...p, status: "processando", processamento: { ...p.processamento, workflow: "atualizar-ia.yml", pedidoEm: new Date().toISOString(), erro: undefined } };
+  const novo: Projeto = { ...p, status: "processando", processamento: { ...p.processamento, workflow: "atualizar-ia.yml", pedidoEm: new Date().toISOString(), erro: undefined, audio: false } };
   const salvo = await salvarNoGitHub(novo, aviso);
   aviso?.("Pedindo voz e imagens ao GitHub…");
   await gh.dispararWorkflow("atualizar-ia.yml", { projeto: p.id });
+  return salvo;
+};
+
+// Modo 1: narração gravada por você. O áudio vai em partes para o ramo envio/<id>; a Action limpa o ruído,
+// transcreve, alinha ao texto das cenas e corta um áudio por cena (scripts/voz_propria.py).
+export const enviarNarracao = async (p: Projeto, arquivo: File, fase?: Fase): Promise<Projeto> => {
+  fase?.("Enviando a narração", 0);
+  await gh.enviarEmPartes(`envio/${p.id}`, arquivo, { nome: arquivo.name, tipo: arquivo.type }, (f) => fase?.("Enviando a narração", f));
+  const novo: Projeto = { ...p, status: "processando", processamento: { ...p.processamento, workflow: "atualizar-ia.yml", pedidoEm: new Date().toISOString(), erro: undefined, audio: true } };
+  fase?.("Salvando o projeto");
+  const salvo = await salvarNoGitHub(novo);
+  await gh.dispararWorkflow("atualizar-ia.yml", { projeto: p.id, audio: "true" });
   return salvo;
 };
 

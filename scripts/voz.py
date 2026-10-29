@@ -208,6 +208,9 @@ def main():
     midia = a.midia or os.path.dirname(arq)
     p = json.load(open(arq, encoding="utf-8"))
     voz = p.get("voz") or {}
+    if voz.get("propria"):  # narração gravada por você (scripts/voz_propria.py): não refaz com a IA
+        print("= voz própria: narração mantida")
+        return
     voz_id, vel = voz.get("edge", VOZ_PADRAO.get(p.get("idioma", "pt-BR"), "pt-BR-AntonioNeural")), voz.get("velocidade", "+5%")
     trat = bool(voz.get("tratamento"))
     fluida = bool(voz.get("fluida"))
