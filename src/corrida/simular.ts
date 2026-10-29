@@ -2,7 +2,7 @@
 import { Corrida, PistaCorrida, RegraPista } from "../tipos";
 
 export const VIAGEM = 0.3; // segundos que a massa de bolinhas leva de uma parede até a próxima
-const FOLGA_FIM = 5; // segundos de vídeo depois que a vencedora termina
+const FOLGA_FIM = 7; // segundos de vídeo depois que a vencedora termina (a física chega ~1–2 s depois do planejado)
 
 // Gerador pseudoaleatório com semente (mulberry32): o mesmo sorteio sempre dá o mesmo vídeo
 export const rng = (semente: number) => {
@@ -31,7 +31,7 @@ const aplicar = (r: RegraPista, s: { bolas: number; forca: number }) => {
 // Roda a corrida com a escala de dano k (dano por segundo = bolas × força × k)
 const rodar = (c: Corrida, k: number, fps: number, total: number, guardar: boolean) => {
   const dt = 1 / fps;
-  const st = c.pistas.map((p) => ({ parede: 0, hp: c.paredes[0], bolas: p.bolas, forca: p.forca, viagem: 1, fim: null as number | null }));
+  const st = c.pistas.map((p) => ({ parede: 0, hp: c.paredes[0], bolas: p.bolas, forca: p.forca, viagem: 0, fim: null as number | null }));
   const quadros: EstadoPista[][] = [];
   const quebras: Simulacao["quebras"] = [];
   for (let f = 0; f < total; f++) {

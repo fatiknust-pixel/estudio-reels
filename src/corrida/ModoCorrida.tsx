@@ -1,35 +1,22 @@
-// Modo "corrida" (estilo "ball race"): pistas neon, paredes com vida, massa de bolinhas que cresce pela regra da pista.
-import React, { useMemo } from "react";
+// Modo "corrida" (estilo "ball race"): pistas neon, placas com vida, bolinhas com física de verdade martelando cada placa.
+import React, { useEffect, useMemo, useRef } from "react";
 import { AbsoluteFill, Audio, interpolate, Sequence, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { arquivoGlobal } from "../arquivos";
-import { Corrida } from "../tipos";
-import { EstadoPista, fmtNum, rng, simular } from "./simular";
+import { Corrida, RegraPista } from "../tipos";
+import { fisica, MAX_BOLAS } from "./fisica";
+import { fmtNum, rng, simular } from "./simular";
 
 const FONTE = "'Poppins', 'Montserrat', sans-serif";
 const TOPO_PISTAS = 360, BASE_PISTAS = 1660; // faixa das pistas no quadro 1080×1920
 const MARGEM = 16, VAO = 18;
+const ESTILHACOS = 26, DUR_ESTILHACO = 26; // pedaços da placa quando quebra e quantos quadros duram
 
-// Massa de bolinhas: quantos pontos desenhar e a altura do bloco crescem com o log da quantidade
-const Massa: React.FC<{ e: EstadoPista; cor: string; largura: number; y: number; semente: number }> = ({ e, cor, largura, y, semente }) => {
-  const f = useCurrentFrame();
-  const total = e.bolas;
-  const pontos = useMemo(() => {
-    const r = rng(semente);
-    return Array.from({ length: 170 }, () => ({ x: r(), y: r(), fase: r() * 6.28, tam: 5 + r() * 6 }));
-  }, [semente]);
-  if (total <= 1.5) {
-    // uma bolinha só
-    return <div style={{ position: "absolute", left: largura / 2 - 15, top: y - 92, width: 30, height: 30, borderRadius: 15, background: cor, boxShadow: `0 0 24px 8px ${cor}aa` }} />;
-  }
-  const alt = Math.min(170, 28 + 24 * Math.log10(total));
-  const n = Math.min(pontos.length, Math.max(6, Math.round(14 * Math.log10(total + 1) ** 1.6)));
-  return (
-    <div style={{ position: "absolute", left: 6, top: y - alt - 58, width: largura - 12, height: alt, borderRadius: 18, background: `${cor}55`, boxShadow: `0 0 50px 14px ${cor}77`, overflow: "hidden" }}>
-      {pontos.slice(0, n).map((p, i) => (
-        <div key={i} style={{ position: "absolute", left: `${p.x * 96}%`, top: `${(p.y * 88 + Math.sin(f * 0.35 + p.fase) * 4) | 0}%`, width: p.tam, height: p.tam, borderRadius: p.tam, background: "#fff", opacity: 0.55 + 0.45 * Math.sin(f * 0.2 + p.fase) ** 2 }} />
-      ))}
-    </div>
-  );
+const textoRegra = (r: RegraPista) => (r.tipo === "multiplica" ? `×${r.valor} BALLS!` : r.tipo === "forca" ? `×${r.valor} POWER!` : `+${fmtNum(r.valor)}!`);
+
+// "#rrggbb" + alfa (0–1) → rgba
+const rgba = (hex: string, a: number) => {
+  const v = parseInt(hex.slice(1), 16);
+  return `rgba(${(v >> 16) & 255},${(v >> 8) & 255},${v & 255},${a})`;
 };
 
 const Mascote: React.FC<{ cor: string; x: number; lado: 1 | -1 }> = ({ cor, x, lado }) => {
@@ -52,20 +39,104 @@ const Mascote: React.FC<{ cor: string; x: number; lado: 1 | -1 }> = ({ cor, x, l
 export const ModoCorrida: React.FC<{ corrida: Corrida }> = ({ corrida: c }) => {
   const f = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
-  const sim = useMemo(() => simular(c, fps), [c, fps]);
-  const est = sim.quadros[Math.min(f, sim.quadros.length - 1)];
   const n = c.pistas.length;
   const larg = (1080 - MARGEM * 2 - VAO * (n - 1)) / n;
-  const yParede = (k: number) => TOPO_PISTAS + 120 + (k * (BASE_PISTAS - TOPO_PISTAS - 170)) / (c.paredes.length - 1);
-  const venceu = f >= sim.fimVencedora;
-  const entraVit = spring({ frame: f - sim.fimVencedora, fps, config: { damping: 12 } });
+  const altPista = BASE_PISTAS - TOPO_PISTAS;
+  const yPlaca = (k: number) => 130 + (k * (altPista - 190)) / (c.paredes.length - 1); // na pista
+  const { sim, fis } = useMemo(() => {
+    const sim = simular(c, fps);
+    return { sim, fis: fisica(c, sim, { largura: larg, altura: altPista, placas: c.paredes.map((_, k) => yPlaca(k)) }) };
+  }, [c, fps]); // eslint-disable-line react-hooks/exhaustive-deps
+  const q = Math.min(f, sim.quadros.length - 1);
+  // o que está na tela vem da física: placa atual, quebras e chegada de cada pista
+  const est = fis.map((fp) => ({ parede: fp.parede[q], fim: fp.fim !== null && q >= fp.fim ? fp.fim : null }));
+  const fins = fis.map((fp) => fp.fim ?? Infinity);
+  const vencedora = fins.indexOf(Math.min(...fins)), fimVencedora = fins[vencedora];
+  const quebras = fis.flatMap((fp, pista) => fp.quebras.map((quadro, parede) => ({ pista, parede, quadro })));
+  const venceu = f >= fimVencedora;
+  const entraVit = spring({ frame: f - fimVencedora, fps, config: { damping: 12 } });
+
+  // sons de batida: um "tic" a cada 3 quadros enquanto alguma pista está martelando (mais alto com mais batidas)
+  const tics = useMemo(() => {
+    const out: { q: number; v: number }[] = [];
+    let ultimo = -99;
+    for (let k = 0; k < sim.quadros.length; k++) {
+      const g = fis.reduce((s, p) => s + p.golpes[k], 0);
+      if (g && k - ultimo >= 3) { out.push({ q: k, v: Math.min(0.5, 0.18 + g / 120) }); ultimo = k; }
+    }
+    return out;
+  }, [sim, fis]);
+
+  // desenho das placas, bolinhas e estilhaços
+  const tela = useRef<HTMLCanvasElement>(null);
+  useEffect(() => {
+    const ctx = tela.current?.getContext("2d");
+    if (!ctx) return;
+    ctx.clearRect(0, 0, 1080, altPista);
+    c.pistas.forEach((p, i) => {
+      const e = est[i], fp = fis[i], ox = MARGEM + i * (larg + VAO);
+      ctx.save();
+      ctx.beginPath();
+      ctx.rect(ox, 0, larg, altPista);
+      ctx.clip();
+      // placas ainda inteiras
+      if (e.fim === null) {
+        for (let k = e.parede; k < c.paredes.length; k++) {
+          const atual = k === e.parede;
+          const golpe = atual ? fp.golpes[q] : 0;
+          const tremor = golpe ? (rng(q * 13 + i)() - 0.5) * Math.min(6, 2 + golpe / 10) : 0;
+          const y = yPlaca(k) + tremor, x0 = ox + 12, w = larg - 24;
+          const frac = atual ? Math.max(0, fp.hpTela[q] / c.paredes[k]) : 1;
+          ctx.fillStyle = rgba(p.cor, 0.18);
+          ctx.beginPath(); ctx.roundRect(x0, y, w, 12, 6); ctx.fill();
+          ctx.shadowColor = p.cor;
+          ctx.shadowBlur = atual ? (golpe ? 30 : 16) : 0;
+          ctx.fillStyle = atual ? (golpe ? "#ffffff" : p.cor) : rgba(p.cor, 0.45);
+          ctx.beginPath(); ctx.roundRect(x0, y, Math.max(6, w * frac), 12, 6); ctx.fill();
+          ctx.shadowBlur = 0;
+        }
+      }
+      // estilhaços das placas quebradas há pouco
+      for (const qb of quebras) {
+        if (qb.pista !== i || f < qb.quadro || f > qb.quadro + DUR_ESTILHACO) continue;
+        const t = (f - qb.quadro) / fps, rr = rng(qb.quadro * 7 + qb.parede * 131 + i);
+        ctx.fillStyle = p.cor;
+        ctx.globalAlpha = 1 - (f - qb.quadro) / DUR_ESTILHACO;
+        for (let s = 0; s < ESTILHACOS; s++) {
+          const x = ox + 12 + rr() * (larg - 24) + (rr() - 0.5) * 500 * t;
+          const y = yPlaca(qb.parede) + (-250 - rr() * 450) * t + 1800 * t * t;
+          ctx.fillRect(x, y, 6 + rr() * 10, 4 + rr() * 5);
+        }
+        ctx.globalAlpha = 1;
+      }
+      // bolinhas: brilho somado (onde há muitas, vira uma massa luminosa)
+      const nb = fp.n[q], rb = fp.raio[q];
+      ctx.globalCompositeOperation = "lighter";
+      for (let b = 0; b < nb; b++) {
+        const x = ox + fp.pos[(q * MAX_BOLAS + b) * 2], y = fp.pos[(q * MAX_BOLAS + b) * 2 + 1];
+        ctx.fillStyle = rgba(p.cor, 0.13);
+        ctx.beginPath(); ctx.arc(x, y, rb * 2.4, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = p.cor;
+        ctx.beginPath(); ctx.arc(x, y, rb, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = "rgba(255,255,255,0.85)";
+        ctx.beginPath(); ctx.arc(x - rb * 0.3, y - rb * 0.3, rb * 0.42, 0, Math.PI * 2); ctx.fill();
+      }
+      ctx.globalCompositeOperation = "source-over";
+      ctx.restore();
+    });
+  });
 
   return (
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 0%, #1d1240 0%, #0b0818 55%, #07060f 100%)", fontFamily: FONTE, color: "#fff" }}>
-      {c.musica !== false && <Audio src={arquivoGlobal("sfx/trilha-epica.mp3")} volume={0.12} loop />}
-      {sim.quebras.map((q) => (
-        <Sequence key={`${q.pista}-${q.parede}`} from={q.quadro} durationInFrames={15} layout="none">
-          <Audio src={arquivoGlobal(q.parede === c.paredes.length - 1 ? "sfx/ding.mp3" : "sfx/pop.mp3")} volume={0.35} />
+      {c.musica !== false && <Audio src={arquivoGlobal("sfx/trilha-epica.mp3")} volume={0.1} loop />}
+      {tics.map((t) => (
+        <Sequence key={`t${t.q}`} from={t.q} durationInFrames={6} layout="none">
+          <Audio src={arquivoGlobal("sfx/tique.mp3")} volume={t.v} />
+        </Sequence>
+      ))}
+      {quebras.map((qb) => (
+        <Sequence key={`${qb.pista}-${qb.parede}`} from={qb.quadro} durationInFrames={20} layout="none">
+          <Audio src={arquivoGlobal(qb.parede === c.paredes.length - 1 ? "sfx/ding.mp3" : "sfx/pop.mp3")} volume={0.55} />
         </Sequence>
       ))}
 
@@ -81,39 +152,39 @@ export const ModoCorrida: React.FC<{ corrida: Corrida }> = ({ corrida: c }) => {
       ))}
       <div style={{ position: "absolute", top: 290, width: "100%", textAlign: "center", fontSize: 34, fontWeight: 700, color: "#FFC83D" }}>{c.subtitulo}</div>
 
-      {/* pistas */}
+      {/* pistas: moldura, números de vida e avisos (as bolinhas e placas vão no canvas por cima) */}
       {c.pistas.map((p, i) => {
-        const e = est[i];
-        const x = MARGEM + i * (larg + VAO);
-        const ganhou = venceu && i === sim.vencedora;
-        // altura da massa: parada acima da parede atual; em viagem, desce da anterior até ela
-        const yMassa = e.fim !== null ? yParede(c.paredes.length - 1) + 60 : e.parede === 0 ? yParede(0) : interpolate(e.viagem, [0, 1], [yParede(e.parede - 1), yParede(e.parede)]);
+        const e = est[i], fp = fis[i];
+        const ganhou = venceu && i === vencedora;
+        const ultimaQuebra = quebras.filter((qb) => qb.pista === i && qb.quadro <= f).pop();
+        const idadeQuebra = ultimaQuebra ? f - ultimaQuebra.quadro : 999;
         return (
-          <div key={i} style={{ position: "absolute", left: x, top: TOPO_PISTAS, width: larg, height: BASE_PISTAS - TOPO_PISTAS, borderRadius: 22, border: `2px solid ${ganhou ? p.cor : "#2a2450"}`, background: "#0e0b20cc", boxShadow: ganhou ? `0 0 40px ${p.cor}` : "none" }}>
-            {c.paredes.map((hp, k) => {
-              if (k < e.parede || e.fim !== null) return null; // já quebrada
-              const atual = k === e.parede && e.viagem >= 1;
-              const frac = atual ? Math.max(0, e.hp / hp) : 1;
-              const y = yParede(k) - TOPO_PISTAS;
+          <div key={i} style={{ position: "absolute", left: MARGEM + i * (larg + VAO), top: TOPO_PISTAS, width: larg, height: altPista, borderRadius: 22, border: `2px solid ${ganhou ? p.cor : "#2a2450"}`, background: "#0e0b20cc", boxShadow: ganhou ? `0 0 40px ${p.cor}` : "none" }}>
+            {e.fim === null && c.paredes.map((hp, k) => {
+              if (k < e.parede) return null;
+              const atual = k === e.parede;
+              const golpe = atual && fp.golpes[q] > 0;
               return (
-                <div key={k} style={{ position: "absolute", left: 14, right: 14, top: y }}>
-                  <div style={{ textAlign: "center", fontSize: 32, fontWeight: 800, marginTop: -46, color: atual ? "#fff" : "#d8d4ee" }}>{fmtNum(atual ? e.hp : hp)}</div>
-                  <div style={{ height: 8, borderRadius: 4, background: `${p.cor}33`, marginTop: 4 }}>
-                    <div style={{ width: `${frac * 100}%`, height: "100%", borderRadius: 4, background: atual ? p.cor : `${p.cor}66`, boxShadow: atual ? `0 0 14px ${p.cor}` : "none" }} />
-                  </div>
+                <div key={k} style={{ position: "absolute", left: 0, right: 0, top: yPlaca(k) - 46, textAlign: "center", fontSize: 32, fontWeight: 800, color: atual ? "#fff" : "#cfcae8", transform: golpe ? "scale(1.06)" : undefined, textShadow: atual ? `0 0 12px ${p.cor}` : undefined }}>
+                  {fmtNum(atual ? fp.hpTela[q] : hp)}
                 </div>
               );
             })}
-            {e.fim === null && <Massa e={e} cor={p.cor} largura={larg} y={yMassa - TOPO_PISTAS} semente={c.semente + i} />}
+            {ultimaQuebra && idadeQuebra < 30 && e.fim === null && (
+              <div style={{ position: "absolute", width: "100%", top: yPlaca(ultimaQuebra.parede) - 60 - idadeQuebra * 2.5, textAlign: "center", fontSize: 42, fontWeight: 800, color: "#fff", textShadow: `0 0 18px ${p.cor}, 0 0 4px ${p.cor}`, opacity: interpolate(idadeQuebra, [0, 4, 22, 30], [0, 1, 1, 0]), transform: `scale(${interpolate(idadeQuebra, [0, 5], [0.6, 1], { extrapolateRight: "clamp" })})` }}>
+                {textoRegra(p.regra)}
+              </div>
+            )}
             {e.fim !== null && (
-              <div style={{ position: "absolute", top: "40%", width: "100%", textAlign: "center", transform: `scale(${i === sim.vencedora ? entraVit : 0.8})` }}>
-                <div style={{ fontSize: 110 }}>{i === sim.vencedora ? "🏆" : "✅"}</div>
-                <div style={{ fontSize: 40, fontWeight: 800, color: p.cor }}>{i === sim.vencedora ? "WINNER!" : "DONE"}</div>
+              <div style={{ position: "absolute", top: "32%", width: "100%", textAlign: "center", transform: `scale(${i === vencedora ? entraVit : 0.8})` }}>
+                <div style={{ fontSize: 110 }}>{i === vencedora ? "🏆" : "✅"}</div>
+                <div style={{ fontSize: 40, fontWeight: 800, color: p.cor }}>{i === vencedora ? "WINNER!" : "DONE"}</div>
               </div>
             )}
           </div>
         );
       })}
+      <canvas ref={tela} width={1080} height={altPista} style={{ position: "absolute", left: 0, top: TOPO_PISTAS, width: 1080, height: altPista, pointerEvents: "none" }} />
 
       {/* rodapé: mascotes, balão de seguir e barra de progresso */}
       <Mascote cor="#3fb6ff" x={-20} lado={1} />
@@ -123,9 +194,9 @@ export const ModoCorrida: React.FC<{ corrida: Corrida }> = ({ corrida: c }) => {
         <div style={{ fontSize: 26, fontWeight: 600, color: "#555" }}>{c.canal}</div>
       </div>
       {venceu && (
-        <div style={{ position: "absolute", left: 160, right: 160, top: 1680, padding: "14px 20px", borderRadius: 26, background: c.pistas[sim.vencedora].cor, color: "#111", textAlign: "center", transform: `scale(${entraVit})`, fontWeight: 800 }}>
+        <div style={{ position: "absolute", left: 160, right: 160, top: 1680, padding: "14px 20px", borderRadius: 26, background: c.pistas[vencedora].cor, color: "#111", textAlign: "center", transform: `scale(${entraVit})`, fontWeight: 800 }}>
           <div style={{ fontSize: 30 }}>WINNER</div>
-          <div style={{ fontSize: 48 }}>{c.pistas[sim.vencedora].nome}</div>
+          <div style={{ fontSize: 48 }}>{c.pistas[vencedora].nome}</div>
         </div>
       )}
       <div style={{ position: "absolute", left: 40, right: 40, top: 1880, height: 6, borderRadius: 3, background: "#ffffff22" }}>
