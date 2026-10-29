@@ -63,7 +63,8 @@ jobs:
             if [ "$idade" -lt 18000 ]; then
               msg="Pausado: a última geração falhou mesmo com 2 tentativas (há $((idade / 60)) min). Provável limite da assinatura ou erro que se repete. Veja $(jq -r '.u' <<< "$ultima") e tente de novo mais tarde."
               echo "::error::$msg"
-              scripts/salvar_no_repo.sh "Pausado $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" --erro "$msg"
+              # nunca marca como erro um vídeo que já ficou pronto
+              [ "$(jq -r '.status' "projetos/$ID/projeto.json")" != "pronto" ] && scripts/salvar_no_repo.sh "Pausado $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" --erro "$msg"
               gh run cancel "$GITHUB_RUN_ID"; sleep 60; exit 1
             fi
           fi

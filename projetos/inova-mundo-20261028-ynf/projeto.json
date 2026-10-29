@@ -7,7 +7,7 @@
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.484Z",
  "atualizadoEm": "2026-10-28T17:56:05.484Z",
- "status": "rascunho",
+ "status": "processando",
  "pedido": {
   "tema": "Como é construído um prédio",
   "tom": "Curioso e analítico",
@@ -57,8 +57,7 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.484Z",
-  "fila": true
+  "pedidoEm": "2026-10-29T12:32:14.253Z"
  },
  "legenda": {
   "fonte": "montserrat",

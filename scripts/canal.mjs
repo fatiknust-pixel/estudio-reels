@@ -81,7 +81,8 @@ if (cmd === "diario") {
     const meus = fs.readdirSync("projetos").filter((d) => d.startsWith(c.id + "-")).map((d) => ({ d, f: path.join("projetos", d, "projeto.json") })).filter((x) => fs.existsSync(x.f)).map((x) => ({ ...x, p: JSON.parse(fs.readFileSync(x.f, "utf8")) })).filter((x) => x.p.pedido?.canal?.id === c.id);
     if (meus.some((x) => x.p.status === "processando" && !x.p.processamento?.fila && Date.now() - Date.parse(x.p.processamento?.pedidoEm ?? 0) < 6 * 3600e3)) { console.log(`= ${c.id}: já há um vídeo sendo gerado`); continue; }
     const ordem = c.ideias.map((i) => i.projeto);
-    const fila = meus.filter((x) => x.p.processamento?.fila).sort((a, b) => ordem.indexOf(a.d) - ordem.indexOf(b.d));
+    // só rascunhos: um vídeo disparado à mão (gerar-ia direto) fica pronto com a marca "fila" e não pode voltar a ser gerado
+    const fila = meus.filter((x) => x.p.processamento?.fila && x.p.status === "rascunho").sort((a, b) => ordem.indexOf(a.d) - ordem.indexOf(b.d));
     if (!fila.length) continue;
     const { p, f: arqProj } = fila[0];
     p.status = "processando";
