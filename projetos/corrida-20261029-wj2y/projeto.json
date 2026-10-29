@@ -1,0 +1,88 @@
+{
+ "versao": 1,
+ "id": "corrida-20261029-wj2y",
+ "titulo": "Corrida de bolinhas",
+ "modo": "corrida",
+ "estilo": "corrida",
+ "tema": "padrao",
+ "criadoEm": "2026-10-29T15:53:12.684Z",
+ "atualizadoEm": "2026-10-29T15:54:10.260Z",
+ "status": "rascunho",
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 92,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 70,
+  "palavrasPorTela": 3,
+  "maiusculas": true,
+  "contorno": 10,
+  "fundo": "nenhum",
+  "animacao": "pop",
+  "mostrar": false
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": false,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ },
+ "corrida": {
+  "titulo": "MEGA RACE · 3 LANES",
+  "subtitulo": "hundred-million-HP walls",
+  "canal": "@seucanal",
+  "duracao": 45,
+  "paredes": [
+   1811,
+   8769,
+   42456,
+   205562,
+   995294,
+   4819027,
+   23332838,
+   112973283
+  ],
+  "pistas": [
+   {
+    "nome": "+5.000 BALLS",
+    "desc": "+5.000 every wall",
+    "cor": "#5BC8FF",
+    "bolas": 5000,
+    "forca": 1,
+    "regra": {
+     "tipo": "soma",
+     "valor": 5000
+    }
+   },
+   {
+    "nome": "×2 BALLS",
+    "desc": "starts with 200",
+    "cor": "#B57BFF",
+    "bolas": 200,
+    "forca": 1,
+    "regra": {
+     "tipo": "multiplica",
+     "valor": 2
+    }
+   },
+   {
+    "nome": "×10 POWER",
+    "desc": "one ball · hit ×10",
+    "cor": "#FFC83D",
+    "bolas": 1,
+    "forca": 1,
+    "regra": {
+     "tipo": "forca",
+     "valor": 10
+    }
+   }
+  ],
+  "semente": 80376891,
+  "musica": true
+ }
+}
