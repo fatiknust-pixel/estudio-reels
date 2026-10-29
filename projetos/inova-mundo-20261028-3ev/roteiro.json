@@ -1,0 +1,197 @@
+{
+  "titulo": "Maquinários gigantes que você não conhecia",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "publicacao": {
+    "titulos": [
+      "A máquina de 14 mil toneladas que quase ninguém conhece",
+      "4 máquinas gigantes que mudam o mundo (e seus limites)",
+      "Bagger 293, BelAZ, Bertha: gigantes da engenharia"
+    ],
+    "descricao": "Quatro máquinas fora de escala: a escavadeira Bagger 293, o caminhão BelAZ 75710, o crawler-transporter da NASA e as tuneladoras, incluindo a Bertha, que ficou parada por mais de dois anos. Além do que elas fazem, analisamos o preço de construir grande demais.\n\n0:00 Gancho\n0:30 O que você vai ver\n1:05 Capítulo 1: Bagger 293\n2:35 Capítulo 2: BelAZ 75710\n4:05 Capítulo 3: Crawler-transporter da NASA\n5:20 Capítulo 4: Tuneladoras e a Bertha\n7:30 Desfecho\n\nFontes: Wikipedia (Bagger 293, BelAZ 75710, Crawler-transporter, Tunnel boring machine).",
+    "tags": ["máquinas gigantes", "engenharia", "Bagger 293", "BelAZ 75710", "crawler-transporter", "NASA", "tuneladora", "Bertha", "mineração", "tecnologia", "curiosidades", "Inova Mundo"]
+  },
+  "fontesPesquisa": [
+    { "titulo": "Wikipedia — Bagger 293", "url": "https://en.wikipedia.org/wiki/Bagger_293" },
+    { "titulo": "Wikipedia — BelAZ 75710", "url": "https://en.wikipedia.org/wiki/BelAZ_75710" },
+    { "titulo": "Wikipedia — Crawler-transporter", "url": "https://en.wikipedia.org/wiki/Crawler-transporter" },
+    { "titulo": "Wikipedia — Tunnel boring machine", "url": "https://en.wikipedia.org/wiki/Tunnel_boring_machine" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Existe, na Alemanha, uma máquina com noventa e seis metros de altura e duzentos e vinte e cinco de comprimento. Ela pesa mais de catorze mil toneladas e é operada por apenas cinco pessoas. Em um único dia, move terra suficiente para encher quase cem piscinas olímpicas. Mas essa nem é a mais estranha desta lista. Hoje, o Inova Mundo mostra o lado gigante da engenharia.",
+      "galeria": ["bagger-a", "bagger-b", "hambach-mine", "piscina"],
+      "galeriaEm": [0, "comprimento", "terra", "piscinas"],
+      "fontes": ["Wikipedia — Bagger 293"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 96, "unidade": "m", "rotulo": "altura", "em": "noventa", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Hoje você vai conhecer quatro gigantes que quase ninguém vê de perto. Uma escavadeira de mina. Um caminhão que carrega quatrocentas e cinquenta toneladas. Um transportador que leva foguetes da NASA. E máquinas que fazem túneis debaixo de cidades. No fim, você vai entender por que construir grande demais traz vantagens enormes, e riscos que quase ninguém comenta.",
+      "galeria": ["garzweiler", "belaz-a", "crawler-a", "tbm-a"],
+      "galeriaEm": [0, "caminhão", "transportador", "túneis"],
+      "elementos": [
+        { "tipo": "icones", "itens": [["engrenagem", "Mina"], ["moeda", "Carga"], ["alvo", "Foguete"]], "em": "escavadeira", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "cap1-bagger",
+      "texto": "Capítulo um. Começamos em Hambach, uma mina de carvão marrom operada pela empresa alemã RWE. Ali trabalha a Bagger duzentos e noventa e três, uma escavadeira de rodas de caçambas. O nome é seco, mas o tamanho é absurdo: duzentos e vinte e cinco metros de comprimento, quarenta e seis de largura e noventa e seis de altura. É a altura de um prédio de mais de trinta andares.",
+      "galeria": ["rwe-hambach", "lignite", "rodas", "bagger-front"],
+      "galeriaEm": [0, "carvão", "escavadeira", "comprimento"],
+      "fontes": ["Wikipedia — Bagger 293"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O DEVORADOR DE CARVÃO", "sub": "Capítulo 1", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Carvão marrom", "significado": "Carvão jovem, macio, que a máquina corta com facilidade", "em": "carvão", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "bagger-peso",
+      "texto": "Ela pesa catorze mil e duzentas toneladas, o que a coloca entre os maiores veículos terrestres já construídos. Uma enorme roda giratória, cheia de caçambas, raspa a parede da mina e despeja o material em esteiras. Ao todo, são cerca de duzentos e quarenta mil metros cúbicos por dia. Pense em quase cem piscinas olímpicas esvaziadas de terra, todos os dias, sem parar.",
+      "galeria": ["bagger-c", "bucketwheel", "conveyor", "garzweiler-b"],
+      "galeriaEm": [0, "roda", "esteiras", "cúbicos"],
+      "fontes": ["Wikipedia — Bagger 293"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 14200, "unidade": "t", "rotulo": "peso", "em": "catorze", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 240000, "unidade": "m³", "rotulo": "por dia", "em": "cúbicos", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "bagger-limite",
+      "texto": "Foi fabricada pela TAKRAF, empresa que nasceu na Alemanha Oriental, e custou cerca de cem milhões de dólares. O mais curioso: apenas cinco pessoas bastam para operar a máquina. O preço da eficiência é a rigidez. Ela só trabalha em terra macia, como o carvão marrom, e depende de uma mina inteira montada em torno dela. Mas toda essa terra precisa ir para algum lugar. E para isso existe um caminhão que parece de outro planeta.",
+      "galeria": ["takraf", "cabine", "lignite-power", "belaz-f"],
+      "galeriaEm": [0, "cinco", "carvão", "caminhão"],
+      "fontes": ["Wikipedia — Bagger 293"],
+      "elementos": [
+        { "tipo": "tag", "texto": "5 OPERADORES", "icone": "pessoa", "em": "cinco", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "cap2-belaz",
+      "texto": "Capítulo dois. O BelAZ sete cinco sete um zero nasceu em Jodino, na Bielorrússia, e foi apresentado em dois mil e treze. Tem vinte metros e meio de comprimento. Vazio, pesa trezentas e sessenta toneladas. A carga declarada é de quatrocentas e cinquenta toneladas, e o peso bruto chega a mais de oitocentas e quarenta. Para comparar: é como carregar dezenas de caminhões comuns de uma só vez.",
+      "galeria": ["belaz-b", "belarus-map", "belaz-c", "belaz-d"],
+      "galeriaEm": [0, "Bielorrússia", "comprimento", "bruto"],
+      "fontes": ["Wikipedia — BelAZ 75710"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O GIGANTE DE 450 T", "sub": "Capítulo 2", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 450, "unidade": "t", "rotulo": "carga declarada", "em": "quatrocentas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "belaz-motores",
+      "texto": "Por dentro, não é um caminhão comum. Dois motores diesel de dezesseis cilindros, da MTU, geram eletricidade para um sistema da Siemens. Esse sistema alimenta quatro motores elétricos, um em cada roda, e cada um entrega mil e duzentos quilowatts. Os pneus são duplos em cada eixo. Cada motor a diesel tem mais ou menos dois mil e trezentos cavalos, potência para empurrar centenas de toneladas morro acima.",
+      "galeria": ["mtu", "siemens", "tire", "haul-ramp"],
+      "galeriaEm": [0, "Siemens", "pneus", "morro"],
+      "fontes": ["Wikipedia — BelAZ 75710"],
+      "elementos": [
+        { "tipo": "icones", "itens": [["engrenagem", "2 diesel"], ["seta", ""], ["raio", "4 motores elétricos"]], "em": "eletricidade", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "belaz-analise",
+      "texto": "Agora a parte analítica. Quanto maior o caminhão, menos viagens ele faz para levar a mesma terra. Em teoria, isso reduz motoristas e combustível por tonelada. Mas também exige estradas reforçadas, oficinas enormes e peças que poucas fábricas produzem. Antes dele, o recorde era de modelos como o Liebherr T duzentos e oitenta e dois B. Quando uma máquina dessas quebra, a mina sente. Agora, a máquina mais lenta desta lista, e talvez a mais famosa.",
+      "galeria": ["bucyrus", "mining-road", "liebherr", "cat797"],
+      "galeriaEm": [0, "estradas", "Liebherr", "quebra"],
+      "fontes": ["Wikipedia — BelAZ 75710"],
+      "elementos": [
+        { "tipo": "check", "ok": false, "texto": "Maior nem sempre é melhor", "nota": "Exige estradas, oficinas e peças próprias", "em": "exige", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "cap3-crawler",
+      "texto": "Capítulo três. Em mil novecentos e sessenta e cinco, a NASA recebeu a primeira de duas máquinas feitas pela Marion Power Shovel Company. O nome é crawler-transporter, algo como transportador de esteiras. A missão: levar foguetes inteiros, em pé, da montagem até a plataforma de lançamento, no Centro Espacial Kennedy, na Flórida. Foi ele quem levou o Saturno Cinco, do programa Apollo, até a plataforma.",
+      "galeria": ["crawler-b", "marion", "vab", "kennedy"],
+      "galeriaEm": [0, "Marion", "foguetes", "Kennedy"],
+      "fontes": ["Wikipedia — Crawler-transporter"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O TRATOR DOS FOGUETES", "sub": "Capítulo 3", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1965", "NASA recebe o primeiro crawler"]], "em": "mil", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "crawler-numeros",
+      "texto": "Ela pesa duas mil, setecentas e vinte e uma toneladas. Anda sobre oito esteiras, e cada esteira tem cinquenta e sete sapatas de aço. Cada sapata pesa quase uma tonelada. Carregada, a velocidade máxima é de um vírgula seis quilômetro por hora. O trajeto até a plataforma tem entre cinco vírgula cinco e seis vírgula oito quilômetros, e leva cerca de cinco horas. Uma pessoa a pé chegaria antes.",
+      "galeria": ["crawler-tracks", "saturn-crawler", "crawlerway", "lc39a"],
+      "galeriaEm": [0, "velocidade", "trajeto", "plataforma"],
+      "fontes": ["Wikipedia — Crawler-transporter"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 2721, "unidade": "t", "rotulo": "peso", "em": "toneladas", "posicao": "meio" },
+        { "tipo": "contador", "de": 0, "ate": 1.6, "unidade": "km/h", "rotulo": "velocidade máxima carregado", "em": "velocidade", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "crawler-analise",
+      "texto": "Gasta cerca de duzentos e noventa e seis litros de diesel por quilômetro. Quase trinta pessoas acompanham cada viagem. Com o tempo, uma das duas máquinas foi reforçada para erguer até oito mil e duzentas toneladas, contra cinco mil e quatrocentas do projeto original. A velocidade é baixa de propósito: equilíbrio importa mais que pressa. Só que, às vezes, o problema não é carregar peso. É abrir caminho dentro da rocha.",
+      "galeria": ["lc39b", "shuttle", "sls-crawler", "crawler-jack"],
+      "galeriaEm": [0, "viagem", "reforçada", "equilíbrio"],
+      "fontes": ["Wikipedia — Crawler-transporter"],
+      "elementos": [
+        { "tipo": "placar", "sim": 82, "nao": 54, "rotulo": "Capacidade em centenas de toneladas", "rotuloSim": "Depois: 8.200 t", "rotuloNao": "Antes: 5.400 t", "em": "reforçada", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "cap4-tuneladoras",
+      "texto": "Capítulo quatro. A ideia de furar o chão com uma máquina é antiga. Em mil oitocentos e vinte e cinco, Marc Brunel usou um escudo de túnel sob o rio Tâmisa, em Londres. Em mil oitocentos e quarenta e seis, Henri Maus construiu a Mountain Slicer, apontada como a primeira máquina de perfurar túneis. E em mil oitocentos e oitenta e dois, uma máquina inglesa já cavava o giz sob o Canal da Mancha.",
+      "galeria": ["brunel", "thames", "maus", "channel-1882"],
+      "galeriaEm": [0, "Tâmisa", "Maus", "Canal"],
+      "fontes": ["Wikipedia — Tunnel boring machine"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FURAR O MUNDO", "sub": "Capítulo 4", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1825", "Escudo de Brunel"], ["1846", "Mountain Slicer"], ["1882", "Canal da Mancha"]], "em": "Marc", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "tbm-evolucao",
+      "texto": "Aquela máquina perfurou mil oitocentos e quarenta metros do lado inglês. Mas o projeto foi abandonado em mil oitocentos e oitenta e três, por medo militar. A tecnologia esperou. Hoje as tuneladoras variam de um a vinte e três metros de diâmetro. Em rocha, avançam mais de setecentos metros por semana. Em solo mole, passam dos duzentos. Parece rotina de engenharia, até o dia em que uma delas para.",
+      "galeria": ["chunnel", "tbm-b", "tbm-cut", "tbm-seg"],
+      "galeriaEm": [0, "abandonado", "diâmetro", "semana"],
+      "fontes": ["Wikipedia — Tunnel boring machine"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 700, "unidade": "m", "rotulo": "por semana em rocha", "em": "setecentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "bertha",
+      "texto": "Seattle, nos Estados Unidos. A tuneladora Bertha, fabricada pela Hitachi Zosen, tem dezessete metros e quarenta e cinco centímetros de diâmetro, uma das maiores já usadas. Seu trabalho era abrir um túnel sob o centro da cidade, no lugar de uma via elevada. Em dezembro de dois mil e treze, ela parou. E ficou parada. O que ninguém esperava era quanto tempo isso ia durar.",
+      "galeria": ["bertha-a", "hitachi", "seattle", "bertha-b"],
+      "galeriaEm": [0, "Hitachi", "centro", "dezembro"],
+      "fontes": ["Wikipedia — Tunnel boring machine"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 17.45, "unidade": "m", "rotulo": "diâmetro da Bertha", "em": "dezessete", "posicao": "meio" },
+        { "tipo": "carimbo", "texto": "PAROU", "cor": "vermelho", "em": "parou", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "bertha-volta",
+      "texto": "Bertha só voltou a funcionar em janeiro de dois mil e dezesseis. O túnel foi concluído em quatro de abril de dois mil e dezessete, mais de três anos depois da parada. Hoje, o recorde mundial de tamanho é de uma máquina da Herrenknecht, a Qin Liangyu, com dezessete metros e sessenta e três centímetros. Maior que a Bertha por poucos centímetros, e ainda assim sujeita às mesmas incertezas do subsolo.",
+      "galeria": ["bertha-pit", "sr99", "herrenknecht", "qin"],
+      "galeriaEm": [0, "túnel", "Herrenknecht", "Qin"],
+      "fontes": ["Wikipedia — Tunnel boring machine"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["Dez 2013", "Bertha para"], ["Jan 2016", "Volta a operar"], ["Abr 2017", "Túnel concluído"]], "em": 0, "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "O que as quatro têm em comum? Cada uma resolve um problema que a força humana não resolveria. Mas a escala cobra seu preço. A Bagger e o BelAZ dependem de minas e estradas feitas só para eles. O transportador da NASA anda mais devagar que uma pessoa a pé. E a Bertha mostrou que grande demais também pode parar. Máquina gigante é solução, e também é aposta. Qual dessas você nunca tinha visto? Conta aqui nos comentários.",
+      "galeria": ["bagger-d", "belaz-g", "crawler-c", "tbm-c", "bagger-e"],
+      "galeriaEm": [0, "BelAZ", "NASA", "Bertha", "aposta"],
+      "elementos": [
+        { "tipo": "comentario", "texto": "Qual máquina você nunca tinha visto?", "em": "Qual", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "Se gostou, se inscreva no Inova Mundo. No próximo vídeo, continuamos explorando o mundo e suas tecnologias.",
+      "galeria": ["terra", "terra-noite"],
+      "galeriaEm": [0, "próximo"],
+      "elementos": [
+        { "tipo": "seguir", "texto": "SE INSCREVA", "em": "inscreva", "posicao": "meio" }
+      ]
+    }
+  ]
+}

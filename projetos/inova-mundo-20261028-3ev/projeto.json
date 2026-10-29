@@ -1,13 +1,13 @@
 {
  "versao": 1,
  "id": "inova-mundo-20261028-3ev",
- "titulo": "Maquinários que você não conhecia",
+ "titulo": "Maquinários gigantes que você não conhecia",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
- "atualizadoEm": "2026-10-28T17:56:05.483Z",
- "status": "rascunho",
+ "atualizadoEm": "2026-10-29T12:19:08Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Maquinários que você não conhecia",
   "tom": "Curioso e analítico",
@@ -51,16 +51,7465 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Existe, na Alemanha, uma máquina com noventa e seis metros de altura e duzentos e vinte e cinco de comprimento. Ela pesa mais de catorze mil toneladas e é operada por apenas cinco pessoas. Em um único dia, move terra suficiente para encher quase cem piscinas olímpicas. Mas essa nem é a mais estranha desta lista. Hoje, o Inova Mundo mostra o lado gigante da engenharia.",
+   "galeria": [
+    "bagger-a",
+    "bagger-b",
+    "hambach-mine",
+    "piscina"
+   ],
+   "galeriaEm": [
+    0,
+    "comprimento",
+    "terra",
+    "piscinas"
+   ],
+   "fontes": [
+    "Wikipedia — Bagger 293"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 96,
+     "unidade": "m",
+     "rotulo": "altura",
+     "em": "noventa",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Hoje você vai conhecer quatro gigantes que quase ninguém vê de perto. Uma escavadeira de mina. Um caminhão que carrega quatrocentas e cinquenta toneladas. Um transportador que leva foguetes da NASA. E máquinas que fazem túneis debaixo de cidades. No fim, você vai entender por que construir grande demais traz vantagens enormes, e riscos que quase ninguém comenta.",
+   "galeria": [
+    "garzweiler",
+    "belaz-a",
+    "crawler-a",
+    "tbm-a"
+   ],
+   "galeriaEm": [
+    0,
+    "caminhão",
+    "transportador",
+    "túneis"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "engrenagem",
+       "Mina"
+      ],
+      [
+       "moeda",
+       "Carga"
+      ],
+      [
+       "alvo",
+       "Foguete"
+      ]
+     ],
+     "em": "escavadeira",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "cap1-bagger",
+   "texto": "Capítulo um. Começamos em Hambach, uma mina de carvão marrom operada pela empresa alemã RWE. Ali trabalha a Bagger duzentos e noventa e três, uma escavadeira de rodas de caçambas. O nome é seco, mas o tamanho é absurdo: duzentos e vinte e cinco metros de comprimento, quarenta e seis de largura e noventa e seis de altura. É a altura de um prédio de mais de trinta andares.",
+   "galeria": [
+    "rwe-hambach",
+    "lignite",
+    "rodas",
+    "bagger-front"
+   ],
+   "galeriaEm": [
+    0,
+    "carvão",
+    "escavadeira",
+    "comprimento"
+   ],
+   "fontes": [
+    "Wikipedia — Bagger 293"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O DEVORADOR DE CARVÃO",
+     "sub": "Capítulo 1",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Carvão marrom",
+     "significado": "Carvão jovem, macio, que a máquina corta com facilidade",
+     "em": "carvão",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "bagger-peso",
+   "texto": "Ela pesa catorze mil e duzentas toneladas, o que a coloca entre os maiores veículos terrestres já construídos. Uma enorme roda giratória, cheia de caçambas, raspa a parede da mina e despeja o material em esteiras. Ao todo, são cerca de duzentos e quarenta mil metros cúbicos por dia. Pense em quase cem piscinas olímpicas esvaziadas de terra, todos os dias, sem parar.",
+   "galeria": [
+    "bagger-c",
+    "bucketwheel",
+    "conveyor",
+    "garzweiler-b"
+   ],
+   "galeriaEm": [
+    0,
+    "roda",
+    "esteiras",
+    "cúbicos"
+   ],
+   "fontes": [
+    "Wikipedia — Bagger 293"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 14200,
+     "unidade": "t",
+     "rotulo": "peso",
+     "em": "catorze",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 240000,
+     "unidade": "m³",
+     "rotulo": "por dia",
+     "em": "cúbicos",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "bagger-limite",
+   "texto": "Foi fabricada pela TAKRAF, empresa que nasceu na Alemanha Oriental, e custou cerca de cem milhões de dólares. O mais curioso: apenas cinco pessoas bastam para operar a máquina. O preço da eficiência é a rigidez. Ela só trabalha em terra macia, como o carvão marrom, e depende de uma mina inteira montada em torno dela. Mas toda essa terra precisa ir para algum lugar. E para isso existe um caminhão que parece de outro planeta.",
+   "galeria": [
+    "takraf",
+    "cabine",
+    "lignite-power",
+    "belaz-f"
+   ],
+   "galeriaEm": [
+    0,
+    "cinco",
+    "carvão",
+    "caminhão"
+   ],
+   "fontes": [
+    "Wikipedia — Bagger 293"
+   ],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "5 OPERADORES",
+     "icone": "pessoa",
+     "em": "cinco",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "cap2-belaz",
+   "texto": "Capítulo dois. O BelAZ sete cinco sete um zero nasceu em Jodino, na Bielorrússia, e foi apresentado em dois mil e treze. Tem vinte metros e meio de comprimento. Vazio, pesa trezentas e sessenta toneladas. A carga declarada é de quatrocentas e cinquenta toneladas, e o peso bruto chega a mais de oitocentas e quarenta. Para comparar: é como carregar dezenas de caminhões comuns de uma só vez.",
+   "galeria": [
+    "belaz-b",
+    "belarus-map",
+    "belaz-c",
+    "belaz-d"
+   ],
+   "galeriaEm": [
+    0,
+    "Bielorrússia",
+    "comprimento",
+    "bruto"
+   ],
+   "fontes": [
+    "Wikipedia — BelAZ 75710"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O GIGANTE DE 450 T",
+     "sub": "Capítulo 2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 450,
+     "unidade": "t",
+     "rotulo": "carga declarada",
+     "em": "quatrocentas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "belaz-motores",
+   "texto": "Por dentro, não é um caminhão comum. Dois motores diesel de dezesseis cilindros, da MTU, geram eletricidade para um sistema da Siemens. Esse sistema alimenta quatro motores elétricos, um em cada roda, e cada um entrega mil e duzentos quilowatts. Os pneus são duplos em cada eixo. Cada motor a diesel tem mais ou menos dois mil e trezentos cavalos, potência para empurrar centenas de toneladas morro acima.",
+   "galeria": [
+    "mtu",
+    "siemens",
+    "tire",
+    "haul-ramp"
+   ],
+   "galeriaEm": [
+    0,
+    "Siemens",
+    "pneus",
+    "morro"
+   ],
+   "fontes": [
+    "Wikipedia — BelAZ 75710"
+   ],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "engrenagem",
+       "2 diesel"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "raio",
+       "4 motores elétricos"
+      ]
+     ],
+     "em": "eletricidade",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "belaz-analise",
+   "texto": "Agora a parte analítica. Quanto maior o caminhão, menos viagens ele faz para levar a mesma terra. Em teoria, isso reduz motoristas e combustível por tonelada. Mas também exige estradas reforçadas, oficinas enormes e peças que poucas fábricas produzem. Antes dele, o recorde era de modelos como o Liebherr T duzentos e oitenta e dois B. Quando uma máquina dessas quebra, a mina sente. Agora, a máquina mais lenta desta lista, e talvez a mais famosa.",
+   "galeria": [
+    "bucyrus",
+    "mining-road",
+    "liebherr",
+    "cat797"
+   ],
+   "galeriaEm": [
+    0,
+    "estradas",
+    "Liebherr",
+    "quebra"
+   ],
+   "fontes": [
+    "Wikipedia — BelAZ 75710"
+   ],
+   "elementos": [
+    {
+     "tipo": "check",
+     "ok": false,
+     "texto": "Maior nem sempre é melhor",
+     "nota": "Exige estradas, oficinas e peças próprias",
+     "em": "exige",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "cap3-crawler",
+   "texto": "Capítulo três. Em mil novecentos e sessenta e cinco, a NASA recebeu a primeira de duas máquinas feitas pela Marion Power Shovel Company. O nome é crawler-transporter, algo como transportador de esteiras. A missão: levar foguetes inteiros, em pé, da montagem até a plataforma de lançamento, no Centro Espacial Kennedy, na Flórida. Foi ele quem levou o Saturno Cinco, do programa Apollo, até a plataforma.",
+   "galeria": [
+    "crawler-b",
+    "marion",
+    "vab",
+    "kennedy"
+   ],
+   "galeriaEm": [
+    0,
+    "Marion",
+    "foguetes",
+    "Kennedy"
+   ],
+   "fontes": [
+    "Wikipedia — Crawler-transporter"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O TRATOR DOS FOGUETES",
+     "sub": "Capítulo 3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1965",
+       "NASA recebe o primeiro crawler"
+      ]
+     ],
+     "em": "mil",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "crawler-numeros",
+   "texto": "Ela pesa duas mil, setecentas e vinte e uma toneladas. Anda sobre oito esteiras, e cada esteira tem cinquenta e sete sapatas de aço. Cada sapata pesa quase uma tonelada. Carregada, a velocidade máxima é de um vírgula seis quilômetro por hora. O trajeto até a plataforma tem entre cinco vírgula cinco e seis vírgula oito quilômetros, e leva cerca de cinco horas. Uma pessoa a pé chegaria antes.",
+   "galeria": [
+    "crawler-tracks",
+    "saturn-crawler",
+    "crawlerway",
+    "lc39a"
+   ],
+   "galeriaEm": [
+    0,
+    "velocidade",
+    "trajeto",
+    "plataforma"
+   ],
+   "fontes": [
+    "Wikipedia — Crawler-transporter"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 2721,
+     "unidade": "t",
+     "rotulo": "peso",
+     "em": "toneladas",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1.6,
+     "unidade": "km/h",
+     "rotulo": "velocidade máxima carregado",
+     "em": "velocidade",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "crawler-analise",
+   "texto": "Gasta cerca de duzentos e noventa e seis litros de diesel por quilômetro. Quase trinta pessoas acompanham cada viagem. Com o tempo, uma das duas máquinas foi reforçada para erguer até oito mil e duzentas toneladas, contra cinco mil e quatrocentas do projeto original. A velocidade é baixa de propósito: equilíbrio importa mais que pressa. Só que, às vezes, o problema não é carregar peso. É abrir caminho dentro da rocha.",
+   "galeria": [
+    "lc39b",
+    "shuttle",
+    "sls-crawler",
+    "crawler-jack"
+   ],
+   "galeriaEm": [
+    0,
+    "viagem",
+    "reforçada",
+    "equilíbrio"
+   ],
+   "fontes": [
+    "Wikipedia — Crawler-transporter"
+   ],
+   "elementos": [
+    {
+     "tipo": "placar",
+     "sim": 82,
+     "nao": 54,
+     "rotulo": "Capacidade em centenas de toneladas",
+     "rotuloSim": "Depois: 8.200 t",
+     "rotuloNao": "Antes: 5.400 t",
+     "em": "reforçada",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "cap4-tuneladoras",
+   "texto": "Capítulo quatro. A ideia de furar o chão com uma máquina é antiga. Em mil oitocentos e vinte e cinco, Marc Brunel usou um escudo de túnel sob o rio Tâmisa, em Londres. Em mil oitocentos e quarenta e seis, Henri Maus construiu a Mountain Slicer, apontada como a primeira máquina de perfurar túneis. E em mil oitocentos e oitenta e dois, uma máquina inglesa já cavava o giz sob o Canal da Mancha.",
+   "galeria": [
+    "brunel",
+    "thames",
+    "maus",
+    "channel-1882"
+   ],
+   "galeriaEm": [
+    0,
+    "Tâmisa",
+    "Maus",
+    "Canal"
+   ],
+   "fontes": [
+    "Wikipedia — Tunnel boring machine"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FURAR O MUNDO",
+     "sub": "Capítulo 4",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1825",
+       "Escudo de Brunel"
+      ],
+      [
+       "1846",
+       "Mountain Slicer"
+      ],
+      [
+       "1882",
+       "Canal da Mancha"
+      ]
+     ],
+     "em": "Marc",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "tbm-evolucao",
+   "texto": "Aquela máquina perfurou mil oitocentos e quarenta metros do lado inglês. Mas o projeto foi abandonado em mil oitocentos e oitenta e três, por medo militar. A tecnologia esperou. Hoje as tuneladoras variam de um a vinte e três metros de diâmetro. Em rocha, avançam mais de setecentos metros por semana. Em solo mole, passam dos duzentos. Parece rotina de engenharia, até o dia em que uma delas para.",
+   "galeria": [
+    "chunnel",
+    "tbm-b",
+    "tbm-cut",
+    "tbm-seg"
+   ],
+   "galeriaEm": [
+    0,
+    "abandonado",
+    "diâmetro",
+    "semana"
+   ],
+   "fontes": [
+    "Wikipedia — Tunnel boring machine"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 700,
+     "unidade": "m",
+     "rotulo": "por semana em rocha",
+     "em": "setecentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "bertha",
+   "texto": "Seattle, nos Estados Unidos. A tuneladora Bertha, fabricada pela Hitachi Zosen, tem dezessete metros e quarenta e cinco centímetros de diâmetro, uma das maiores já usadas. Seu trabalho era abrir um túnel sob o centro da cidade, no lugar de uma via elevada. Em dezembro de dois mil e treze, ela parou. E ficou parada. O que ninguém esperava era quanto tempo isso ia durar.",
+   "galeria": [
+    "bertha-a",
+    "hitachi",
+    "seattle",
+    "bertha-b"
+   ],
+   "galeriaEm": [
+    0,
+    "Hitachi",
+    "centro",
+    "dezembro"
+   ],
+   "fontes": [
+    "Wikipedia — Tunnel boring machine"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 17.45,
+     "unidade": "m",
+     "rotulo": "diâmetro da Bertha",
+     "em": "dezessete",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "PAROU",
+     "cor": "vermelho",
+     "em": "parou",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "bertha-volta",
+   "texto": "Bertha só voltou a funcionar em janeiro de dois mil e dezesseis. O túnel foi concluído em quatro de abril de dois mil e dezessete, mais de três anos depois da parada. Hoje, o recorde mundial de tamanho é de uma máquina da Herrenknecht, a Qin Liangyu, com dezessete metros e sessenta e três centímetros. Maior que a Bertha por poucos centímetros, e ainda assim sujeita às mesmas incertezas do subsolo.",
+   "galeria": [
+    "bertha-pit",
+    "sr99",
+    "herrenknecht",
+    "qin"
+   ],
+   "galeriaEm": [
+    0,
+    "túnel",
+    "Herrenknecht",
+    "Qin"
+   ],
+   "fontes": [
+    "Wikipedia — Tunnel boring machine"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "Dez 2013",
+       "Bertha para"
+      ],
+      [
+       "Jan 2016",
+       "Volta a operar"
+      ],
+      [
+       "Abr 2017",
+       "Túnel concluído"
+      ]
+     ],
+     "em": 0,
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "O que as quatro têm em comum? Cada uma resolve um problema que a força humana não resolveria. Mas a escala cobra seu preço. A Bagger e o BelAZ dependem de minas e estradas feitas só para eles. O transportador da NASA anda mais devagar que uma pessoa a pé. E a Bertha mostrou que grande demais também pode parar. Máquina gigante é solução, e também é aposta. Qual dessas você nunca tinha visto? Conta aqui nos comentários.",
+   "galeria": [
+    "bagger-d",
+    "belaz-g",
+    "crawler-c",
+    "tbm-c",
+    "bagger-e"
+   ],
+   "galeriaEm": [
+    0,
+    "BelAZ",
+    "NASA",
+    "Bertha",
+    "aposta"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "comentario",
+     "texto": "Qual máquina você nunca tinha visto?",
+     "em": "Qual",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Se gostou, se inscreva no Inova Mundo. No próximo vídeo, continuamos explorando o mundo e suas tecnologias.",
+   "galeria": [
+    "terra",
+    "terra-noite"
+   ],
+   "galeriaEm": [
+    0,
+    "próximo"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "seguir",
+     "texto": "SE INSCREVA",
+     "em": "inscreva",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "2a9976febd",
+   "texto": "Existe, na Alemanha, uma máquina com noventa e seis metros de altura e duzentos e vinte e cinco de comprimento. Ela pesa mais de catorze mil toneladas e é operada por apenas cinco pessoas. Em um único dia, move terra suficiente para encher quase cem piscinas olímpicas. Mas essa nem é a mais estranha desta lista. Hoje, o Inova Mundo mostra o lado gigante da engenharia.",
+   "audio": "audio/gancho-2a9976febd.mp3",
+   "duracao": 29.074,
+   "palavras": [
+    {
+     "p": "Existe",
+     "i": 0.102,
+     "f": 0.675
+    },
+    {
+     "p": "na",
+     "i": 0.935,
+     "f": 1.027
+    },
+    {
+     "p": "Alemanha",
+     "i": 1.04,
+     "f": 1.573
+    },
+    {
+     "p": "uma",
+     "i": 1.899,
+     "f": 2.107
+    },
+    {
+     "p": "máquina",
+     "i": 2.12,
+     "f": 2.524
+    },
+    {
+     "p": "com",
+     "i": 2.537,
+     "f": 2.693
+    },
+    {
+     "p": "noventa",
+     "i": 2.706,
+     "f": 3.071
+    },
+    {
+     "p": "e",
+     "i": 3.084,
+     "f": 3.11
+    },
+    {
+     "p": "seis",
+     "i": 3.123,
+     "f": 3.357
+    },
+    {
+     "p": "metros",
+     "i": 3.37,
+     "f": 3.787
+    },
+    {
+     "p": "de",
+     "i": 3.8,
+     "f": 3.865
+    },
+    {
+     "p": "altura",
+     "i": 3.878,
+     "f": 4.256
+    },
+    {
+     "p": "e",
+     "i": 4.269,
+     "f": 4.295
+    },
+    {
+     "p": "duzentos",
+     "i": 4.308,
+     "f": 4.777
+    },
+    {
+     "p": "e",
+     "i": 4.79,
+     "f": 4.894
+    },
+    {
+     "p": "vinte",
+     "i": 4.907,
+     "f": 5.154
+    },
+    {
+     "p": "e",
+     "i": 5.167,
+     "f": 5.193
+    },
+    {
+     "p": "cinco",
+     "i": 5.206,
+     "f": 5.545
+    },
+    {
+     "p": "de",
+     "i": 5.558,
+     "f": 5.636
+    },
+    {
+     "p": "comprimento",
+     "i": 5.649,
+     "f": 6.326
+    },
+    {
+     "p": "Ela",
+     "i": 7.566,
+     "f": 7.84
+    },
+    {
+     "p": "pesa",
+     "i": 7.853,
+     "f": 8.165
+    },
+    {
+     "p": "mais",
+     "i": 8.178,
+     "f": 8.438
+    },
+    {
+     "p": "de",
+     "i": 8.452,
+     "f": 8.53
+    },
+    {
+     "p": "catorze",
+     "i": 8.543,
+     "f": 9.09
+    },
+    {
+     "p": "mil",
+     "i": 9.103,
+     "f": 9.272
+    },
+    {
+     "p": "toneladas",
+     "i": 9.285,
+     "f": 9.897
+    },
+    {
+     "p": "e",
+     "i": 9.91,
+     "f": 10.027
+    },
+    {
+     "p": "é",
+     "i": 10.04,
+     "f": 10.092
+    },
+    {
+     "p": "operada",
+     "i": 10.105,
+     "f": 10.574
+    },
+    {
+     "p": "por",
+     "i": 10.587,
+     "f": 10.73
+    },
+    {
+     "p": "apenas",
+     "i": 10.743,
+     "f": 11.225
+    },
+    {
+     "p": "cinco",
+     "i": 11.238,
+     "f": 11.603
+    },
+    {
+     "p": "pessoas",
+     "i": 11.616,
+     "f": 12.28
+    },
+    {
+     "p": "Em",
+     "i": 13.542,
+     "f": 13.698
+    },
+    {
+     "p": "um",
+     "i": 13.711,
+     "f": 13.829
+    },
+    {
+     "p": "único",
+     "i": 13.842,
+     "f": 14.18
+    },
+    {
+     "p": "dia",
+     "i": 14.193,
+     "f": 14.519
+    },
+    {
+     "p": "move",
+     "i": 14.792,
+     "f": 15.092
+    },
+    {
+     "p": "terra",
+     "i": 15.105,
+     "f": 15.352
+    },
+    {
+     "p": "suficiente",
+     "i": 15.365,
+     "f": 16.081
+    },
+    {
+     "p": "para",
+     "i": 16.094,
+     "f": 16.25
+    },
+    {
+     "p": "encher",
+     "i": 16.263,
+     "f": 16.602
+    },
+    {
+     "p": "quase",
+     "i": 16.615,
+     "f": 17.019
+    },
+    {
+     "p": "cem",
+     "i": 17.032,
+     "f": 17.331
+    },
+    {
+     "p": "piscinas",
+     "i": 17.344,
+     "f": 17.787
+    },
+    {
+     "p": "olímpicas",
+     "i": 17.8,
+     "f": 18.568
+    },
+    {
+     "p": "Mas",
+     "i": 19.83,
+     "f": 20.051
+    },
+    {
+     "p": "essa",
+     "i": 20.064,
+     "f": 20.507
+    },
+    {
+     "p": "nem",
+     "i": 20.52,
+     "f": 20.781
+    },
+    {
+     "p": "é",
+     "i": 20.794,
+     "f": 20.872
+    },
+    {
+     "p": "a",
+     "i": 20.885,
+     "f": 20.95
+    },
+    {
+     "p": "mais",
+     "i": 20.963,
+     "f": 21.249
+    },
+    {
+     "p": "estranha",
+     "i": 21.262,
+     "f": 21.77
+    },
+    {
+     "p": "desta",
+     "i": 21.783,
+     "f": 22.057
+    },
+    {
+     "p": "lista",
+     "i": 22.07,
+     "f": 22.512
+    },
+    {
+     "p": "Hoje",
+     "i": 23.766,
+     "f": 24.209
+    },
+    {
+     "p": "o",
+     "i": 24.482,
+     "f": 24.586
+    },
+    {
+     "p": "Inova",
+     "i": 24.599,
+     "f": 24.951
+    },
+    {
+     "p": "Mundo",
+     "i": 24.964,
+     "f": 25.277
+    },
+    {
+     "p": "mostra",
+     "i": 25.29,
+     "f": 25.68
+    },
+    {
+     "p": "o",
+     "i": 25.693,
+     "f": 25.706
+    },
+    {
+     "p": "lado",
+     "i": 25.719,
+     "f": 26.032
+    },
+    {
+     "p": "gigante",
+     "i": 26.045,
+     "f": 26.579
+    },
+    {
+     "p": "da",
+     "i": 26.592,
+     "f": 26.67
+    },
+    {
+     "p": "engenharia",
+     "i": 26.683,
+     "f": 27.334
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "1b9a29bf30",
+   "texto": "Hoje você vai conhecer quatro gigantes que quase ninguém vê de perto. Uma escavadeira de mina. Um caminhão que carrega quatrocentas e cinquenta toneladas. Um transportador que leva foguetes da NASA. E máquinas que fazem túneis debaixo de cidades. No fim, você vai entender por que construir grande demais traz vantagens enormes, e riscos que quase ninguém comenta.",
+   "audio": "audio/promessa-1b9a29bf30.mp3",
+   "duracao": 29.205,
+   "palavras": [
+    {
+     "p": "Hoje",
+     "i": 0.102,
+     "f": 0.441
+    },
+    {
+     "p": "você",
+     "i": 0.454,
+     "f": 0.727
+    },
+    {
+     "p": "vai",
+     "i": 0.74,
+     "f": 0.883
+    },
+    {
+     "p": "conhecer",
+     "i": 0.896,
+     "f": 1.352
+    },
+    {
+     "p": "quatro",
+     "i": 1.365,
+     "f": 1.795
+    },
+    {
+     "p": "gigantes",
+     "i": 1.808,
+     "f": 2.394
+    },
+    {
+     "p": "que",
+     "i": 2.407,
+     "f": 2.537
+    },
+    {
+     "p": "quase",
+     "i": 2.55,
+     "f": 2.915
+    },
+    {
+     "p": "ninguém",
+     "i": 2.928,
+     "f": 3.292
+    },
+    {
+     "p": "vê",
+     "i": 3.305,
+     "f": 3.461
+    },
+    {
+     "p": "de",
+     "i": 3.474,
+     "f": 3.592
+    },
+    {
+     "p": "perto",
+     "i": 3.605,
+     "f": 4.008
+    },
+    {
+     "p": "Uma",
+     "i": 5.262,
+     "f": 5.457
+    },
+    {
+     "p": "escavadeira",
+     "i": 5.47,
+     "f": 6.108
+    },
+    {
+     "p": "de",
+     "i": 6.121,
+     "f": 6.226
+    },
+    {
+     "p": "mina",
+     "i": 6.239,
+     "f": 6.616
+    },
+    {
+     "p": "Um",
+     "i": 7.878,
+     "f": 8.06
+    },
+    {
+     "p": "caminhão",
+     "i": 8.073,
+     "f": 8.62
+    },
+    {
+     "p": "que",
+     "i": 8.633,
+     "f": 8.737
+    },
+    {
+     "p": "carrega",
+     "i": 8.751,
+     "f": 9.154
+    },
+    {
+     "p": "quatrocentas",
+     "i": 9.167,
+     "f": 9.883
+    },
+    {
+     "p": "e",
+     "i": 9.896,
+     "f": 10.014
+    },
+    {
+     "p": "cinquenta",
+     "i": 10.027,
+     "f": 10.521
+    },
+    {
+     "p": "toneladas",
+     "i": 10.534,
+     "f": 11.277
+    },
+    {
+     "p": "Um",
+     "i": 12.534,
+     "f": 12.716
+    },
+    {
+     "p": "transportador",
+     "i": 12.729,
+     "f": 13.537
+    },
+    {
+     "p": "que",
+     "i": 13.55,
+     "f": 13.667
+    },
+    {
+     "p": "leva",
+     "i": 13.68,
+     "f": 13.966
+    },
+    {
+     "p": "foguetes",
+     "i": 13.979,
+     "f": 14.487
+    },
+    {
+     "p": "da",
+     "i": 14.5,
+     "f": 14.617
+    },
+    {
+     "p": "NASA",
+     "i": 14.63,
+     "f": 15.047
+    },
+    {
+     "p": "E",
+     "i": 16.302,
+     "f": 16.419
+    },
+    {
+     "p": "máquinas",
+     "i": 16.432,
+     "f": 16.953
+    },
+    {
+     "p": "que",
+     "i": 16.966,
+     "f": 17.083
+    },
+    {
+     "p": "fazem",
+     "i": 17.096,
+     "f": 17.487
+    },
+    {
+     "p": "túneis",
+     "i": 17.5,
+     "f": 17.826
+    },
+    {
+     "p": "debaixo",
+     "i": 17.839,
+     "f": 18.333
+    },
+    {
+     "p": "de",
+     "i": 18.346,
+     "f": 18.438
+    },
+    {
+     "p": "cidades",
+     "i": 18.451,
+     "f": 19.141
+    },
+    {
+     "p": "No",
+     "i": 20.382,
+     "f": 20.577
+    },
+    {
+     "p": "fim",
+     "i": 20.59,
+     "f": 20.877
+    },
+    {
+     "p": "você",
+     "i": 21.268,
+     "f": 21.567
+    },
+    {
+     "p": "vai",
+     "i": 21.58,
+     "f": 21.697
+    },
+    {
+     "p": "entender",
+     "i": 21.71,
+     "f": 22.192
+    },
+    {
+     "p": "por",
+     "i": 22.205,
+     "f": 22.387
+    },
+    {
+     "p": "que",
+     "i": 22.4,
+     "f": 22.544
+    },
+    {
+     "p": "construir",
+     "i": 22.557,
+     "f": 23.064
+    },
+    {
+     "p": "grande",
+     "i": 23.077,
+     "f": 23.429
+    },
+    {
+     "p": "demais",
+     "i": 23.442,
+     "f": 23.794
+    },
+    {
+     "p": "traz",
+     "i": 23.807,
+     "f": 24.015
+    },
+    {
+     "p": "vantagens",
+     "i": 24.028,
+     "f": 24.549
+    },
+    {
+     "p": "enormes",
+     "i": 24.562,
+     "f": 25.148
+    },
+    {
+     "p": "e",
+     "i": 25.434,
+     "f": 25.551
+    },
+    {
+     "p": "riscos",
+     "i": 25.564,
+     "f": 26.059
+    },
+    {
+     "p": "que",
+     "i": 26.072,
+     "f": 26.202
+    },
+    {
+     "p": "quase",
+     "i": 26.215,
+     "f": 26.567
+    },
+    {
+     "p": "ninguém",
+     "i": 26.58,
+     "f": 26.932
+    },
+    {
+     "p": "comenta",
+     "i": 26.945,
+     "f": 27.452
+    }
+   ]
+  },
+  "cap1-bagger": {
+   "hash": "1a0c444213",
+   "texto": "Capítulo um. Começamos em Hambach, uma mina de carvão marrom operada pela empresa alemã RWE. Ali trabalha a Bagger duzentos e noventa e três, uma escavadeira de rodas de caçambas. O nome é seco, mas o tamanho é absurdo: duzentos e vinte e cinco metros de comprimento, quarenta e seis de largura e noventa e seis de altura. É a altura de um prédio de mais de trinta andares.",
+   "audio": "audio/cap1-bagger-1a0c444213.mp3",
+   "duracao": 28.761,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.74
+    },
+    {
+     "p": "um",
+     "i": 0.753,
+     "f": 1.001
+    },
+    {
+     "p": "Começamos",
+     "i": 2.262,
+     "f": 2.9
+    },
+    {
+     "p": "em",
+     "i": 2.913,
+     "f": 3.095
+    },
+    {
+     "p": "Hambach",
+     "i": 3.108,
+     "f": 3.577
+    },
+    {
+     "p": "uma",
+     "i": 3.942,
+     "f": 4.189
+    },
+    {
+     "p": "mina",
+     "i": 4.202,
+     "f": 4.476
+    },
+    {
+     "p": "de",
+     "i": 4.489,
+     "f": 4.58
+    },
+    {
+     "p": "carvão",
+     "i": 4.593,
+     "f": 4.97
+    },
+    {
+     "p": "marrom",
+     "i": 4.983,
+     "f": 5.296
+    },
+    {
+     "p": "operada",
+     "i": 5.309,
+     "f": 5.83
+    },
+    {
+     "p": "pela",
+     "i": 5.843,
+     "f": 5.999
+    },
+    {
+     "p": "empresa",
+     "i": 6.012,
+     "f": 6.468
+    },
+    {
+     "p": "alemã",
+     "i": 6.481,
+     "f": 6.819
+    },
+    {
+     "p": "RWE",
+     "i": 6.832,
+     "f": 7.171
+    },
+    {
+     "p": "Ali",
+     "i": 8.43,
+     "f": 8.704
+    },
+    {
+     "p": "trabalha",
+     "i": 8.717,
+     "f": 9.146
+    },
+    {
+     "p": "a",
+     "i": 9.159,
+     "f": 9.172
+    },
+    {
+     "p": "Bagger",
+     "i": 9.185,
+     "f": 9.589
+    },
+    {
+     "p": "duzentos",
+     "i": 9.602,
+     "f": 10.097
+    },
+    {
+     "p": "e",
+     "i": 10.11,
+     "f": 10.188
+    },
+    {
+     "p": "noventa",
+     "i": 10.201,
+     "f": 10.513
+    },
+    {
+     "p": "e",
+     "i": 10.526,
+     "f": 10.579
+    },
+    {
+     "p": "três",
+     "i": 10.592,
+     "f": 10.969
+    },
+    {
+     "p": "uma",
+     "i": 11.347,
+     "f": 11.477
+    },
+    {
+     "p": "escavadeira",
+     "i": 11.49,
+     "f": 12.089
+    },
+    {
+     "p": "de",
+     "i": 12.102,
+     "f": 12.206
+    },
+    {
+     "p": "rodas",
+     "i": 12.219,
+     "f": 12.61
+    },
+    {
+     "p": "de",
+     "i": 12.623,
+     "f": 12.727
+    },
+    {
+     "p": "caçambas",
+     "i": 12.74,
+     "f": 13.469
+    },
+    {
+     "p": "O",
+     "i": 14.718,
+     "f": 14.835
+    },
+    {
+     "p": "nome",
+     "i": 14.848,
+     "f": 15.187
+    },
+    {
+     "p": "é",
+     "i": 15.2,
+     "f": 15.239
+    },
+    {
+     "p": "seco",
+     "i": 15.252,
+     "f": 15.682
+    },
+    {
+     "p": "mas",
+     "i": 15.981,
+     "f": 16.111
+    },
+    {
+     "p": "o",
+     "i": 16.124,
+     "f": 16.255
+    },
+    {
+     "p": "tamanho",
+     "i": 16.268,
+     "f": 16.697
+    },
+    {
+     "p": "é",
+     "i": 16.71,
+     "f": 16.762
+    },
+    {
+     "p": "absurdo",
+     "i": 16.775,
+     "f": 17.387
+    },
+    {
+     "p": "duzentos",
+     "i": 17.713,
+     "f": 18.26
+    },
+    {
+     "p": "e",
+     "i": 18.273,
+     "f": 18.377
+    },
+    {
+     "p": "vinte",
+     "i": 18.39,
+     "f": 18.585
+    },
+    {
+     "p": "e",
+     "i": 18.598,
+     "f": 18.624
+    },
+    {
+     "p": "cinco",
+     "i": 18.637,
+     "f": 18.924
+    },
+    {
+     "p": "metros",
+     "i": 18.937,
+     "f": 19.314
+    },
+    {
+     "p": "de",
+     "i": 19.327,
+     "f": 19.419
+    },
+    {
+     "p": "comprimento",
+     "i": 19.432,
+     "f": 20.122
+    },
+    {
+     "p": "quarenta",
+     "i": 20.408,
+     "f": 20.838
+    },
+    {
+     "p": "e",
+     "i": 20.851,
+     "f": 20.877
+    },
+    {
+     "p": "seis",
+     "i": 20.89,
+     "f": 21.098
+    },
+    {
+     "p": "de",
+     "i": 21.111,
+     "f": 21.189
+    },
+    {
+     "p": "largura",
+     "i": 21.202,
+     "f": 21.671
+    },
+    {
+     "p": "e",
+     "i": 21.684,
+     "f": 21.71
+    },
+    {
+     "p": "noventa",
+     "i": 21.723,
+     "f": 22.14
+    },
+    {
+     "p": "e",
+     "i": 22.153,
+     "f": 22.179
+    },
+    {
+     "p": "seis",
+     "i": 22.192,
+     "f": 22.426
+    },
+    {
+     "p": "de",
+     "i": 22.439,
+     "f": 22.505
+    },
+    {
+     "p": "altura",
+     "i": 22.518,
+     "f": 22.986
+    },
+    {
+     "p": "É",
+     "i": 24.246,
+     "f": 24.363
+    },
+    {
+     "p": "a",
+     "i": 24.376,
+     "f": 24.389
+    },
+    {
+     "p": "altura",
+     "i": 24.402,
+     "f": 24.884
+    },
+    {
+     "p": "de",
+     "i": 24.897,
+     "f": 24.988
+    },
+    {
+     "p": "um",
+     "i": 25.001,
+     "f": 25.105
+    },
+    {
+     "p": "prédio",
+     "i": 25.119,
+     "f": 25.509
+    },
+    {
+     "p": "de",
+     "i": 25.522,
+     "f": 25.626
+    },
+    {
+     "p": "mais",
+     "i": 25.639,
+     "f": 25.952
+    },
+    {
+     "p": "de",
+     "i": 25.965,
+     "f": 26.095
+    },
+    {
+     "p": "trinta",
+     "i": 26.108,
+     "f": 26.434
+    },
+    {
+     "p": "andares",
+     "i": 26.447,
+     "f": 27.007
+    }
+   ]
+  },
+  "bagger-peso": {
+   "hash": "53d96946eb",
+   "texto": "Ela pesa catorze mil e duzentas toneladas, o que a coloca entre os maiores veículos terrestres já construídos. Uma enorme roda giratória, cheia de caçambas, raspa a parede da mina e despeja o material em esteiras. Ao todo, são cerca de duzentos e quarenta mil metros cúbicos por dia. Pense em quase cem piscinas olímpicas esvaziadas de terra, todos os dias, sem parar.",
+   "audio": "audio/bagger-peso-53d96946eb.mp3",
+   "duracao": 28.578,
+   "palavras": [
+    {
+     "p": "Ela",
+     "i": 0.102,
+     "f": 0.336
+    },
+    {
+     "p": "pesa",
+     "i": 0.349,
+     "f": 0.675
+    },
+    {
+     "p": "catorze",
+     "i": 0.688,
+     "f": 1.209
+    },
+    {
+     "p": "mil",
+     "i": 1.222,
+     "f": 1.404
+    },
+    {
+     "p": "e",
+     "i": 1.417,
+     "f": 1.456
+    },
+    {
+     "p": "duzentas",
+     "i": 1.469,
+     "f": 1.938
+    },
+    {
+     "p": "toneladas",
+     "i": 1.951,
+     "f": 2.654
+    },
+    {
+     "p": "o",
+     "i": 2.993,
+     "f": 3.058
+    },
+    {
+     "p": "que",
+     "i": 3.071,
+     "f": 3.201
+    },
+    {
+     "p": "a",
+     "i": 3.214,
+     "f": 3.318
+    },
+    {
+     "p": "coloca",
+     "i": 3.331,
+     "f": 3.774
+    },
+    {
+     "p": "entre",
+     "i": 3.787,
+     "f": 3.956
+    },
+    {
+     "p": "os",
+     "i": 3.969,
+     "f": 4.034
+    },
+    {
+     "p": "maiores",
+     "i": 4.047,
+     "f": 4.555
+    },
+    {
+     "p": "veículos",
+     "i": 4.568,
+     "f": 5.102
+    },
+    {
+     "p": "terrestres",
+     "i": 5.115,
+     "f": 5.675
+    },
+    {
+     "p": "já",
+     "i": 5.688,
+     "f": 5.857
+    },
+    {
+     "p": "construídos",
+     "i": 5.87,
+     "f": 6.691
+    },
+    {
+     "p": "Uma",
+     "i": 7.95,
+     "f": 8.145
+    },
+    {
+     "p": "enorme",
+     "i": 8.158,
+     "f": 8.601
+    },
+    {
+     "p": "roda",
+     "i": 8.614,
+     "f": 8.927
+    },
+    {
+     "p": "giratória",
+     "i": 8.94,
+     "f": 9.565
+    },
+    {
+     "p": "cheia",
+     "i": 9.838,
+     "f": 10.138
+    },
+    {
+     "p": "de",
+     "i": 10.151,
+     "f": 10.242
+    },
+    {
+     "p": "caçambas",
+     "i": 10.255,
+     "f": 10.958
+    },
+    {
+     "p": "raspa",
+     "i": 11.192,
+     "f": 11.57
+    },
+    {
+     "p": "a",
+     "i": 11.583,
+     "f": 11.609
+    },
+    {
+     "p": "parede",
+     "i": 11.622,
+     "f": 11.987
+    },
+    {
+     "p": "da",
+     "i": 12,
+     "f": 12.104
+    },
+    {
+     "p": "mina",
+     "i": 12.117,
+     "f": 12.442
+    },
+    {
+     "p": "e",
+     "i": 12.455,
+     "f": 12.507
+    },
+    {
+     "p": "despeja",
+     "i": 12.52,
+     "f": 13.015
+    },
+    {
+     "p": "o",
+     "i": 13.028,
+     "f": 13.041
+    },
+    {
+     "p": "material",
+     "i": 13.054,
+     "f": 13.614
+    },
+    {
+     "p": "em",
+     "i": 13.627,
+     "f": 13.705
+    },
+    {
+     "p": "esteiras",
+     "i": 13.718,
+     "f": 14.356
+    },
+    {
+     "p": "Ao",
+     "i": 15.606,
+     "f": 15.84
+    },
+    {
+     "p": "todo",
+     "i": 15.853,
+     "f": 16.244
+    },
+    {
+     "p": "são",
+     "i": 16.57,
+     "f": 16.765
+    },
+    {
+     "p": "cerca",
+     "i": 16.778,
+     "f": 17.182
+    },
+    {
+     "p": "de",
+     "i": 17.195,
+     "f": 17.299
+    },
+    {
+     "p": "duzentos",
+     "i": 17.312,
+     "f": 17.781
+    },
+    {
+     "p": "e",
+     "i": 17.794,
+     "f": 17.898
+    },
+    {
+     "p": "quarenta",
+     "i": 17.911,
+     "f": 18.353
+    },
+    {
+     "p": "mil",
+     "i": 18.366,
+     "f": 18.575
+    },
+    {
+     "p": "metros",
+     "i": 18.588,
+     "f": 19.031
+    },
+    {
+     "p": "cúbicos",
+     "i": 19.044,
+     "f": 19.525
+    },
+    {
+     "p": "por",
+     "i": 19.538,
+     "f": 19.708
+    },
+    {
+     "p": "dia",
+     "i": 19.721,
+     "f": 20.085
+    },
+    {
+     "p": "Pense",
+     "i": 21.342,
+     "f": 21.72
+    },
+    {
+     "p": "em",
+     "i": 21.733,
+     "f": 21.824
+    },
+    {
+     "p": "quase",
+     "i": 21.837,
+     "f": 22.201
+    },
+    {
+     "p": "cem",
+     "i": 22.215,
+     "f": 22.488
+    },
+    {
+     "p": "piscinas",
+     "i": 22.501,
+     "f": 22.931
+    },
+    {
+     "p": "olímpicas",
+     "i": 22.944,
+     "f": 23.504
+    },
+    {
+     "p": "esvaziadas",
+     "i": 23.517,
+     "f": 24.233
+    },
+    {
+     "p": "de",
+     "i": 24.246,
+     "f": 24.376
+    },
+    {
+     "p": "terra",
+     "i": 24.389,
+     "f": 24.727
+    },
+    {
+     "p": "todos",
+     "i": 24.962,
+     "f": 25.326
+    },
+    {
+     "p": "os",
+     "i": 25.339,
+     "f": 25.548
+    },
+    {
+     "p": "dias",
+     "i": 25.561,
+     "f": 26.017
+    },
+    {
+     "p": "sem",
+     "i": 26.251,
+     "f": 26.459
+    },
+    {
+     "p": "parar",
+     "i": 26.472,
+     "f": 26.837
+    }
+   ]
+  },
+  "bagger-limite": {
+   "hash": "21ce4b251f",
+   "texto": "Foi fabricada pela TAKRAF, empresa que nasceu na Alemanha Oriental, e custou cerca de cem milhões de dólares. O mais curioso: apenas cinco pessoas bastam para operar a máquina. O preço da eficiência é a rigidez. Ela só trabalha em terra macia, como o carvão marrom, e depende de uma mina inteira montada em torno dela. Mas toda essa terra precisa ir para algum lugar. E para isso existe um caminhão que parece de outro planeta.",
+   "audio": "audio/bagger-limite-21ce4b251f.mp3",
+   "duracao": 33.75,
+   "palavras": [
+    {
+     "p": "Foi",
+     "i": 0.102,
+     "f": 0.336
+    },
+    {
+     "p": "fabricada",
+     "i": 0.349,
+     "f": 0.974
+    },
+    {
+     "p": "pela",
+     "i": 0.988,
+     "f": 1.209
+    },
+    {
+     "p": "TAKRAF",
+     "i": 1.222,
+     "f": 1.743
+    },
+    {
+     "p": "empresa",
+     "i": 1.964,
+     "f": 2.433
+    },
+    {
+     "p": "que",
+     "i": 2.446,
+     "f": 2.55
+    },
+    {
+     "p": "nasceu",
+     "i": 2.563,
+     "f": 2.928
+    },
+    {
+     "p": "na",
+     "i": 2.941,
+     "f": 3.032
+    },
+    {
+     "p": "Alemanha",
+     "i": 3.045,
+     "f": 3.474
+    },
+    {
+     "p": "Oriental",
+     "i": 3.487,
+     "f": 4.021
+    },
+    {
+     "p": "e",
+     "i": 4.347,
+     "f": 4.425
+    },
+    {
+     "p": "custou",
+     "i": 4.438,
+     "f": 4.842
+    },
+    {
+     "p": "cerca",
+     "i": 4.855,
+     "f": 5.284
+    },
+    {
+     "p": "de",
+     "i": 5.297,
+     "f": 5.428
+    },
+    {
+     "p": "cem",
+     "i": 5.441,
+     "f": 5.779
+    },
+    {
+     "p": "milhões",
+     "i": 5.792,
+     "f": 6.261
+    },
+    {
+     "p": "de",
+     "i": 6.274,
+     "f": 6.378
+    },
+    {
+     "p": "dólares",
+     "i": 6.391,
+     "f": 6.951
+    },
+    {
+     "p": "O",
+     "i": 8.214,
+     "f": 8.331
+    },
+    {
+     "p": "mais",
+     "i": 8.344,
+     "f": 8.644
+    },
+    {
+     "p": "curioso",
+     "i": 8.657,
+     "f": 9.23
+    },
+    {
+     "p": "apenas",
+     "i": 9.503,
+     "f": 9.998
+    },
+    {
+     "p": "cinco",
+     "i": 10.011,
+     "f": 10.336
+    },
+    {
+     "p": "pessoas",
+     "i": 10.349,
+     "f": 10.818
+    },
+    {
+     "p": "bastam",
+     "i": 10.831,
+     "f": 11.235
+    },
+    {
+     "p": "para",
+     "i": 11.248,
+     "f": 11.417
+    },
+    {
+     "p": "operar",
+     "i": 11.43,
+     "f": 11.756
+    },
+    {
+     "p": "a",
+     "i": 11.769,
+     "f": 11.821
+    },
+    {
+     "p": "máquina",
+     "i": 11.834,
+     "f": 12.329
+    },
+    {
+     "p": "O",
+     "i": 13.59,
+     "f": 13.733
+    },
+    {
+     "p": "preço",
+     "i": 13.746,
+     "f": 14.137
+    },
+    {
+     "p": "da",
+     "i": 14.15,
+     "f": 14.215
+    },
+    {
+     "p": "eficiência",
+     "i": 14.228,
+     "f": 14.983
+    },
+    {
+     "p": "é",
+     "i": 14.996,
+     "f": 15.048
+    },
+    {
+     "p": "a",
+     "i": 15.061,
+     "f": 15.087
+    },
+    {
+     "p": "rigidez",
+     "i": 15.101,
+     "f": 15.869
+    },
+    {
+     "p": "Ela",
+     "i": 17.118,
+     "f": 17.392
+    },
+    {
+     "p": "só",
+     "i": 17.405,
+     "f": 17.561
+    },
+    {
+     "p": "trabalha",
+     "i": 17.574,
+     "f": 18.004
+    },
+    {
+     "p": "em",
+     "i": 18.017,
+     "f": 18.108
+    },
+    {
+     "p": "terra",
+     "i": 18.121,
+     "f": 18.394
+    },
+    {
+     "p": "macia",
+     "i": 18.407,
+     "f": 18.902
+    },
+    {
+     "p": "como",
+     "i": 19.201,
+     "f": 19.436
+    },
+    {
+     "p": "o",
+     "i": 19.449,
+     "f": 19.475
+    },
+    {
+     "p": "carvão",
+     "i": 19.488,
+     "f": 19.852
+    },
+    {
+     "p": "marrom",
+     "i": 19.865,
+     "f": 20.256
+    },
+    {
+     "p": "e",
+     "i": 20.595,
+     "f": 20.647
+    },
+    {
+     "p": "depende",
+     "i": 20.66,
+     "f": 21.155
+    },
+    {
+     "p": "de",
+     "i": 21.168,
+     "f": 21.233
+    },
+    {
+     "p": "uma",
+     "i": 21.246,
+     "f": 21.402
+    },
+    {
+     "p": "mina",
+     "i": 21.415,
+     "f": 21.61
+    },
+    {
+     "p": "inteira",
+     "i": 21.623,
+     "f": 22.014
+    },
+    {
+     "p": "montada",
+     "i": 22.027,
+     "f": 22.535
+    },
+    {
+     "p": "em",
+     "i": 22.548,
+     "f": 22.652
+    },
+    {
+     "p": "torno",
+     "i": 22.665,
+     "f": 23.017
+    },
+    {
+     "p": "dela",
+     "i": 23.03,
+     "f": 23.394
+    },
+    {
+     "p": "Mas",
+     "i": 24.654,
+     "f": 25.006
+    },
+    {
+     "p": "toda",
+     "i": 25.019,
+     "f": 25.383
+    },
+    {
+     "p": "essa",
+     "i": 25.396,
+     "f": 25.657
+    },
+    {
+     "p": "terra",
+     "i": 25.67,
+     "f": 25.969
+    },
+    {
+     "p": "precisa",
+     "i": 25.982,
+     "f": 26.451
+    },
+    {
+     "p": "ir",
+     "i": 26.464,
+     "f": 26.646
+    },
+    {
+     "p": "para",
+     "i": 26.659,
+     "f": 26.855
+    },
+    {
+     "p": "algum",
+     "i": 26.868,
+     "f": 27.154
+    },
+    {
+     "p": "lugar",
+     "i": 27.167,
+     "f": 27.532
+    },
+    {
+     "p": "E",
+     "i": 28.782,
+     "f": 28.899
+    },
+    {
+     "p": "para",
+     "i": 28.912,
+     "f": 29.186
+    },
+    {
+     "p": "isso",
+     "i": 29.199,
+     "f": 29.485
+    },
+    {
+     "p": "existe",
+     "i": 29.498,
+     "f": 29.863
+    },
+    {
+     "p": "um",
+     "i": 29.876,
+     "f": 29.928
+    },
+    {
+     "p": "caminhão",
+     "i": 29.941,
+     "f": 30.423
+    },
+    {
+     "p": "que",
+     "i": 30.436,
+     "f": 30.553
+    },
+    {
+     "p": "parece",
+     "i": 30.566,
+     "f": 30.983
+    },
+    {
+     "p": "de",
+     "i": 30.996,
+     "f": 31.139
+    },
+    {
+     "p": "outro",
+     "i": 31.152,
+     "f": 31.425
+    },
+    {
+     "p": "planeta",
+     "i": 31.438,
+     "f": 31.985
+    }
+   ]
+  },
+  "cap2-belaz": {
+   "hash": "51cb630b5c",
+   "texto": "Capítulo dois. O BelAZ sete cinco sete um zero nasceu em Jodino, na Bielorrússia, e foi apresentado em dois mil e treze. Tem vinte metros e meio de comprimento. Vazio, pesa trezentas e sessenta toneladas. A carga declarada é de quatrocentas e cinquenta toneladas, e o peso bruto chega a mais de oitocentas e quarenta. Para comparar: é como carregar dezenas de caminhões comuns de uma só vez.",
+   "audio": "audio/cap2-belaz-51cb630b5c.mp3",
+   "duracao": 32.104,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.74
+    },
+    {
+     "p": "dois",
+     "i": 0.753,
+     "f": 1.235
+    },
+    {
+     "p": "O",
+     "i": 2.478,
+     "f": 2.595
+    },
+    {
+     "p": "BelAZ",
+     "i": 2.608,
+     "f": 3.207
+    },
+    {
+     "p": "sete",
+     "i": 3.22,
+     "f": 3.598
+    },
+    {
+     "p": "cinco",
+     "i": 3.611,
+     "f": 3.975
+    },
+    {
+     "p": "sete",
+     "i": 3.989,
+     "f": 4.314
+    },
+    {
+     "p": "um",
+     "i": 4.327,
+     "f": 4.431
+    },
+    {
+     "p": "zero",
+     "i": 4.444,
+     "f": 4.744
+    },
+    {
+     "p": "nasceu",
+     "i": 4.757,
+     "f": 5.108
+    },
+    {
+     "p": "em",
+     "i": 5.121,
+     "f": 5.186
+    },
+    {
+     "p": "Jodino",
+     "i": 5.199,
+     "f": 5.707
+    },
+    {
+     "p": "na",
+     "i": 6.02,
+     "f": 6.137
+    },
+    {
+     "p": "Bielorrússia",
+     "i": 6.15,
+     "f": 6.905
+    },
+    {
+     "p": "e",
+     "i": 7.231,
+     "f": 7.322
+    },
+    {
+     "p": "foi",
+     "i": 7.335,
+     "f": 7.491
+    },
+    {
+     "p": "apresentado",
+     "i": 7.504,
+     "f": 8.155
+    },
+    {
+     "p": "em",
+     "i": 8.168,
+     "f": 8.207
+    },
+    {
+     "p": "dois",
+     "i": 8.22,
+     "f": 8.455
+    },
+    {
+     "p": "mil",
+     "i": 8.468,
+     "f": 8.598
+    },
+    {
+     "p": "e",
+     "i": 8.611,
+     "f": 8.689
+    },
+    {
+     "p": "treze",
+     "i": 8.702,
+     "f": 9.106
+    },
+    {
+     "p": "Tem",
+     "i": 10.35,
+     "f": 10.545
+    },
+    {
+     "p": "vinte",
+     "i": 10.558,
+     "f": 10.884
+    },
+    {
+     "p": "metros",
+     "i": 10.897,
+     "f": 11.262
+    },
+    {
+     "p": "e",
+     "i": 11.275,
+     "f": 11.405
+    },
+    {
+     "p": "meio",
+     "i": 11.418,
+     "f": 11.73
+    },
+    {
+     "p": "de",
+     "i": 11.743,
+     "f": 11.834
+    },
+    {
+     "p": "comprimento",
+     "i": 11.847,
+     "f": 12.564
+    },
+    {
+     "p": "Vazio",
+     "i": 13.806,
+     "f": 14.392
+    },
+    {
+     "p": "pesa",
+     "i": 14.652,
+     "f": 14.965
+    },
+    {
+     "p": "trezentas",
+     "i": 14.978,
+     "f": 15.525
+    },
+    {
+     "p": "e",
+     "i": 15.538,
+     "f": 15.655
+    },
+    {
+     "p": "sessenta",
+     "i": 15.668,
+     "f": 16.098
+    },
+    {
+     "p": "toneladas",
+     "i": 16.111,
+     "f": 16.866
+    },
+    {
+     "p": "A",
+     "i": 18.126,
+     "f": 18.256
+    },
+    {
+     "p": "carga",
+     "i": 18.269,
+     "f": 18.634
+    },
+    {
+     "p": "declarada",
+     "i": 18.647,
+     "f": 19.22
+    },
+    {
+     "p": "é",
+     "i": 19.233,
+     "f": 19.272
+    },
+    {
+     "p": "de",
+     "i": 19.285,
+     "f": 19.389
+    },
+    {
+     "p": "quatrocentas",
+     "i": 19.402,
+     "f": 20.079
+    },
+    {
+     "p": "e",
+     "i": 20.092,
+     "f": 20.196
+    },
+    {
+     "p": "cinquenta",
+     "i": 20.209,
+     "f": 20.665
+    },
+    {
+     "p": "toneladas",
+     "i": 20.678,
+     "f": 21.368
+    },
+    {
+     "p": "e",
+     "i": 21.707,
+     "f": 21.798
+    },
+    {
+     "p": "o",
+     "i": 21.811,
+     "f": 21.863
+    },
+    {
+     "p": "peso",
+     "i": 21.876,
+     "f": 22.163
+    },
+    {
+     "p": "bruto",
+     "i": 22.176,
+     "f": 22.488
+    },
+    {
+     "p": "chega",
+     "i": 22.501,
+     "f": 22.775
+    },
+    {
+     "p": "a",
+     "i": 22.788,
+     "f": 22.814
+    },
+    {
+     "p": "mais",
+     "i": 22.827,
+     "f": 23.152
+    },
+    {
+     "p": "de",
+     "i": 23.165,
+     "f": 23.256
+    },
+    {
+     "p": "oitocentas",
+     "i": 23.269,
+     "f": 23.933
+    },
+    {
+     "p": "e",
+     "i": 23.946,
+     "f": 24.051
+    },
+    {
+     "p": "quarenta",
+     "i": 24.064,
+     "f": 24.61
+    },
+    {
+     "p": "Para",
+     "i": 25.854,
+     "f": 26.075
+    },
+    {
+     "p": "comparar",
+     "i": 26.088,
+     "f": 26.635
+    },
+    {
+     "p": "é",
+     "i": 26.935,
+     "f": 26.987
+    },
+    {
+     "p": "como",
+     "i": 27,
+     "f": 27.221
+    },
+    {
+     "p": "carregar",
+     "i": 27.234,
+     "f": 27.716
+    },
+    {
+     "p": "dezenas",
+     "i": 27.729,
+     "f": 28.237
+    },
+    {
+     "p": "de",
+     "i": 28.25,
+     "f": 28.341
+    },
+    {
+     "p": "caminhões",
+     "i": 28.354,
+     "f": 28.888
+    },
+    {
+     "p": "comuns",
+     "i": 28.901,
+     "f": 29.331
+    },
+    {
+     "p": "de",
+     "i": 29.344,
+     "f": 29.448
+    },
+    {
+     "p": "uma",
+     "i": 29.461,
+     "f": 29.643
+    },
+    {
+     "p": "só",
+     "i": 29.656,
+     "f": 29.891
+    },
+    {
+     "p": "vez",
+     "i": 29.904,
+     "f": 30.359
+    }
+   ]
+  },
+  "belaz-motores": {
+   "hash": "07520f79e5",
+   "texto": "Por dentro, não é um caminhão comum. Dois motores diesel de dezesseis cilindros, da MTU, geram eletricidade para um sistema da Siemens. Esse sistema alimenta quatro motores elétricos, um em cada roda, e cada um entrega mil e duzentos quilowatts. Os pneus são duplos em cada eixo. Cada motor a diesel tem mais ou menos dois mil e trezentos cavalos, potência para empurrar centenas de toneladas morro acima.",
+   "audio": "audio/belaz-motores-07520f79e5.mp3",
+   "duracao": 31.948,
+   "palavras": [
+    {
+     "p": "Por",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "dentro",
+     "i": 0.31,
+     "f": 0.766
+    },
+    {
+     "p": "não",
+     "i": 0.975,
+     "f": 1.274
+    },
+    {
+     "p": "é",
+     "i": 1.287,
+     "f": 1.391
+    },
+    {
+     "p": "um",
+     "i": 1.404,
+     "f": 1.521
+    },
+    {
+     "p": "caminhão",
+     "i": 1.534,
+     "f": 2.003
+    },
+    {
+     "p": "comum",
+     "i": 2.016,
+     "f": 2.42
+    },
+    {
+     "p": "Dois",
+     "i": 3.678,
+     "f": 3.991
+    },
+    {
+     "p": "motores",
+     "i": 4.004,
+     "f": 4.498
+    },
+    {
+     "p": "diesel",
+     "i": 4.511,
+     "f": 4.837
+    },
+    {
+     "p": "de",
+     "i": 4.85,
+     "f": 4.967
+    },
+    {
+     "p": "dezesseis",
+     "i": 4.98,
+     "f": 5.475
+    },
+    {
+     "p": "cilindros",
+     "i": 5.488,
+     "f": 6.113
+    },
+    {
+     "p": "da",
+     "i": 6.282,
+     "f": 6.412
+    },
+    {
+     "p": "MTU",
+     "i": 6.425,
+     "f": 7.05
+    },
+    {
+     "p": "geram",
+     "i": 7.389,
+     "f": 7.702
+    },
+    {
+     "p": "eletricidade",
+     "i": 7.715,
+     "f": 8.496
+    },
+    {
+     "p": "para",
+     "i": 8.509,
+     "f": 8.678
+    },
+    {
+     "p": "um",
+     "i": 8.691,
+     "f": 8.743
+    },
+    {
+     "p": "sistema",
+     "i": 8.756,
+     "f": 9.251
+    },
+    {
+     "p": "da",
+     "i": 9.264,
+     "f": 9.381
+    },
+    {
+     "p": "Siemens",
+     "i": 9.394,
+     "f": 9.993
+    },
+    {
+     "p": "Esse",
+     "i": 11.238,
+     "f": 11.525
+    },
+    {
+     "p": "sistema",
+     "i": 11.538,
+     "f": 11.967
+    },
+    {
+     "p": "alimenta",
+     "i": 11.98,
+     "f": 12.475
+    },
+    {
+     "p": "quatro",
+     "i": 12.488,
+     "f": 12.866
+    },
+    {
+     "p": "motores",
+     "i": 12.879,
+     "f": 13.269
+    },
+    {
+     "p": "elétricos",
+     "i": 13.282,
+     "f": 13.985
+    },
+    {
+     "p": "um",
+     "i": 14.337,
+     "f": 14.467
+    },
+    {
+     "p": "em",
+     "i": 14.48,
+     "f": 14.571
+    },
+    {
+     "p": "cada",
+     "i": 14.584,
+     "f": 14.871
+    },
+    {
+     "p": "roda",
+     "i": 14.884,
+     "f": 15.275
+    },
+    {
+     "p": "e",
+     "i": 15.509,
+     "f": 15.626
+    },
+    {
+     "p": "cada",
+     "i": 15.639,
+     "f": 15.9
+    },
+    {
+     "p": "um",
+     "i": 15.913,
+     "f": 16.082
+    },
+    {
+     "p": "entrega",
+     "i": 16.095,
+     "f": 16.525
+    },
+    {
+     "p": "mil",
+     "i": 16.538,
+     "f": 16.759
+    },
+    {
+     "p": "e",
+     "i": 16.772,
+     "f": 16.811
+    },
+    {
+     "p": "duzentos",
+     "i": 16.824,
+     "f": 17.358
+    },
+    {
+     "p": "quilowatts",
+     "i": 17.371,
+     "f": 18.165
+    },
+    {
+     "p": "Os",
+     "i": 19.422,
+     "f": 19.604
+    },
+    {
+     "p": "pneus",
+     "i": 19.617,
+     "f": 20.034
+    },
+    {
+     "p": "são",
+     "i": 20.047,
+     "f": 20.255
+    },
+    {
+     "p": "duplos",
+     "i": 20.268,
+     "f": 20.672
+    },
+    {
+     "p": "em",
+     "i": 20.685,
+     "f": 20.88
+    },
+    {
+     "p": "cada",
+     "i": 20.893,
+     "f": 21.206
+    },
+    {
+     "p": "eixo",
+     "i": 21.219,
+     "f": 21.597
+    },
+    {
+     "p": "Cada",
+     "i": 22.854,
+     "f": 23.101
+    },
+    {
+     "p": "motor",
+     "i": 23.114,
+     "f": 23.492
+    },
+    {
+     "p": "a",
+     "i": 23.505,
+     "f": 23.57
+    },
+    {
+     "p": "diesel",
+     "i": 23.583,
+     "f": 23.961
+    },
+    {
+     "p": "tem",
+     "i": 23.974,
+     "f": 24.13
+    },
+    {
+     "p": "mais",
+     "i": 24.143,
+     "f": 24.378
+    },
+    {
+     "p": "ou",
+     "i": 24.391,
+     "f": 24.56
+    },
+    {
+     "p": "menos",
+     "i": 24.573,
+     "f": 24.898
+    },
+    {
+     "p": "dois",
+     "i": 24.911,
+     "f": 25.133
+    },
+    {
+     "p": "mil",
+     "i": 25.146,
+     "f": 25.263
+    },
+    {
+     "p": "e",
+     "i": 25.276,
+     "f": 25.328
+    },
+    {
+     "p": "trezentos",
+     "i": 25.341,
+     "f": 25.849
+    },
+    {
+     "p": "cavalos",
+     "i": 25.862,
+     "f": 26.474
+    },
+    {
+     "p": "potência",
+     "i": 26.747,
+     "f": 27.372
+    },
+    {
+     "p": "para",
+     "i": 27.385,
+     "f": 27.542
+    },
+    {
+     "p": "empurrar",
+     "i": 27.555,
+     "f": 27.997
+    },
+    {
+     "p": "centenas",
+     "i": 28.01,
+     "f": 28.57
+    },
+    {
+     "p": "de",
+     "i": 28.583,
+     "f": 28.7
+    },
+    {
+     "p": "toneladas",
+     "i": 28.713,
+     "f": 29.338
+    },
+    {
+     "p": "morro",
+     "i": 29.351,
+     "f": 29.677
+    },
+    {
+     "p": "acima",
+     "i": 29.69,
+     "f": 30.185
+    }
+   ]
+  },
+  "belaz-analise": {
+   "hash": "e61c4a610e",
+   "texto": "Agora a parte analítica. Quanto maior o caminhão, menos viagens ele faz para levar a mesma terra. Em teoria, isso reduz motoristas e combustível por tonelada. Mas também exige estradas reforçadas, oficinas enormes e peças que poucas fábricas produzem. Antes dele, o recorde era de modelos como o Liebherr T duzentos e oitenta e dois B. Quando uma máquina dessas quebra, a mina sente. Agora, a máquina mais lenta desta lista, e talvez a mais famosa.",
+   "audio": "audio/belaz-analise-e61c4a610e.mp3",
+   "duracao": 36.624,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.558
+    },
+    {
+     "p": "a",
+     "i": 0.571,
+     "f": 0.623
+    },
+    {
+     "p": "parte",
+     "i": 0.636,
+     "f": 0.961
+    },
+    {
+     "p": "analítica",
+     "i": 0.975,
+     "f": 1.547
+    },
+    {
+     "p": "Quanto",
+     "i": 2.79,
+     "f": 3.155
+    },
+    {
+     "p": "maior",
+     "i": 3.168,
+     "f": 3.48
+    },
+    {
+     "p": "o",
+     "i": 3.493,
+     "f": 3.532
+    },
+    {
+     "p": "caminhão",
+     "i": 3.545,
+     "f": 4.027
+    },
+    {
+     "p": "menos",
+     "i": 4.287,
+     "f": 4.652
+    },
+    {
+     "p": "viagens",
+     "i": 4.665,
+     "f": 5.16
+    },
+    {
+     "p": "ele",
+     "i": 5.173,
+     "f": 5.407
+    },
+    {
+     "p": "faz",
+     "i": 5.42,
+     "f": 5.694
+    },
+    {
+     "p": "para",
+     "i": 5.707,
+     "f": 5.863
+    },
+    {
+     "p": "levar",
+     "i": 5.876,
+     "f": 6.215
+    },
+    {
+     "p": "a",
+     "i": 6.228,
+     "f": 6.293
+    },
+    {
+     "p": "mesma",
+     "i": 6.306,
+     "f": 6.761
+    },
+    {
+     "p": "terra",
+     "i": 6.774,
+     "f": 7.204
+    },
+    {
+     "p": "Em",
+     "i": 8.454,
+     "f": 8.636
+    },
+    {
+     "p": "teoria",
+     "i": 8.649,
+     "f": 9.105
+    },
+    {
+     "p": "isso",
+     "i": 9.418,
+     "f": 9.652
+    },
+    {
+     "p": "reduz",
+     "i": 9.665,
+     "f": 10.03
+    },
+    {
+     "p": "motoristas",
+     "i": 10.043,
+     "f": 10.668
+    },
+    {
+     "p": "e",
+     "i": 10.681,
+     "f": 10.798
+    },
+    {
+     "p": "combustível",
+     "i": 10.811,
+     "f": 11.514
+    },
+    {
+     "p": "por",
+     "i": 11.527,
+     "f": 11.709
+    },
+    {
+     "p": "tonelada",
+     "i": 11.722,
+     "f": 12.412
+    },
+    {
+     "p": "Mas",
+     "i": 13.662,
+     "f": 13.988
+    },
+    {
+     "p": "também",
+     "i": 14.001,
+     "f": 14.43
+    },
+    {
+     "p": "exige",
+     "i": 14.443,
+     "f": 14.782
+    },
+    {
+     "p": "estradas",
+     "i": 14.795,
+     "f": 15.225
+    },
+    {
+     "p": "reforçadas",
+     "i": 15.238,
+     "f": 16.058
+    },
+    {
+     "p": "oficinas",
+     "i": 16.305,
+     "f": 16.839
+    },
+    {
+     "p": "enormes",
+     "i": 16.852,
+     "f": 17.347
+    },
+    {
+     "p": "e",
+     "i": 17.36,
+     "f": 17.503
+    },
+    {
+     "p": "peças",
+     "i": 17.516,
+     "f": 17.946
+    },
+    {
+     "p": "que",
+     "i": 17.959,
+     "f": 18.102
+    },
+    {
+     "p": "poucas",
+     "i": 18.115,
+     "f": 18.571
+    },
+    {
+     "p": "fábricas",
+     "i": 18.584,
+     "f": 19.066
+    },
+    {
+     "p": "produzem",
+     "i": 19.079,
+     "f": 19.665
+    },
+    {
+     "p": "Antes",
+     "i": 20.91,
+     "f": 21.314
+    },
+    {
+     "p": "dele",
+     "i": 21.327,
+     "f": 21.704
+    },
+    {
+     "p": "o",
+     "i": 21.965,
+     "f": 22.03
+    },
+    {
+     "p": "recorde",
+     "i": 22.043,
+     "f": 22.551
+    },
+    {
+     "p": "era",
+     "i": 22.564,
+     "f": 22.694
+    },
+    {
+     "p": "de",
+     "i": 22.707,
+     "f": 22.785
+    },
+    {
+     "p": "modelos",
+     "i": 22.798,
+     "f": 23.332
+    },
+    {
+     "p": "como",
+     "i": 23.345,
+     "f": 23.566
+    },
+    {
+     "p": "o",
+     "i": 23.579,
+     "f": 23.592
+    },
+    {
+     "p": "Liebherr",
+     "i": 23.605,
+     "f": 23.983
+    },
+    {
+     "p": "T",
+     "i": 23.996,
+     "f": 24.178
+    },
+    {
+     "p": "duzentos",
+     "i": 24.191,
+     "f": 24.725
+    },
+    {
+     "p": "e",
+     "i": 24.738,
+     "f": 24.842
+    },
+    {
+     "p": "oitenta",
+     "i": 24.855,
+     "f": 25.207
+    },
+    {
+     "p": "e",
+     "i": 25.22,
+     "f": 25.246
+    },
+    {
+     "p": "dois",
+     "i": 25.259,
+     "f": 25.48
+    },
+    {
+     "p": "B.",
+     "i": 25.493,
+     "f": 25.78
+    },
+    {
+     "p": "Quando",
+     "i": 26.68,
+     "f": 26.967
+    },
+    {
+     "p": "uma",
+     "i": 26.98,
+     "f": 27.136
+    },
+    {
+     "p": "máquina",
+     "i": 27.149,
+     "f": 27.54
+    },
+    {
+     "p": "dessas",
+     "i": 27.553,
+     "f": 27.878
+    },
+    {
+     "p": "quebra",
+     "i": 27.891,
+     "f": 28.321
+    },
+    {
+     "p": "a",
+     "i": 28.464,
+     "f": 28.529
+    },
+    {
+     "p": "mina",
+     "i": 28.542,
+     "f": 28.829
+    },
+    {
+     "p": "sente",
+     "i": 28.842,
+     "f": 29.35
+    },
+    {
+     "p": "Agora",
+     "i": 30.606,
+     "f": 31.127
+    },
+    {
+     "p": "a",
+     "i": 31.322,
+     "f": 31.4
+    },
+    {
+     "p": "máquina",
+     "i": 31.413,
+     "f": 31.869
+    },
+    {
+     "p": "mais",
+     "i": 31.882,
+     "f": 32.103
+    },
+    {
+     "p": "lenta",
+     "i": 32.117,
+     "f": 32.455
+    },
+    {
+     "p": "desta",
+     "i": 32.468,
+     "f": 32.742
+    },
+    {
+     "p": "lista",
+     "i": 32.755,
+     "f": 33.158
+    },
+    {
+     "p": "e",
+     "i": 33.393,
+     "f": 33.484
+    },
+    {
+     "p": "talvez",
+     "i": 33.497,
+     "f": 33.926
+    },
+    {
+     "p": "a",
+     "i": 33.939,
+     "f": 34.044
+    },
+    {
+     "p": "mais",
+     "i": 34.057,
+     "f": 34.304
+    },
+    {
+     "p": "famosa",
+     "i": 34.317,
+     "f": 34.877
+    }
+   ]
+  },
+  "cap3-crawler": {
+   "hash": "9f56941079",
+   "texto": "Capítulo três. Em mil novecentos e sessenta e cinco, a NASA recebeu a primeira de duas máquinas feitas pela Marion Power Shovel Company. O nome é crawler-transporter, algo como transportador de esteiras. A missão: levar foguetes inteiros, em pé, da montagem até a plataforma de lançamento, no Centro Espacial Kennedy, na Flórida. Foi ele quem levou o Saturno Cinco, do programa Apollo, até a plataforma.",
+   "audio": "audio/cap3-crawler-9f56941079.mp3",
+   "duracao": 31.791,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.753
+    },
+    {
+     "p": "três",
+     "i": 0.766,
+     "f": 1.248
+    },
+    {
+     "p": "Em",
+     "i": 2.502,
+     "f": 2.671
+    },
+    {
+     "p": "mil",
+     "i": 2.684,
+     "f": 2.828
+    },
+    {
+     "p": "novecentos",
+     "i": 2.841,
+     "f": 3.453
+    },
+    {
+     "p": "e",
+     "i": 3.466,
+     "f": 3.583
+    },
+    {
+     "p": "sessenta",
+     "i": 3.596,
+     "f": 3.96
+    },
+    {
+     "p": "e",
+     "i": 3.973,
+     "f": 4.013
+    },
+    {
+     "p": "cinco",
+     "i": 4.026,
+     "f": 4.468
+    },
+    {
+     "p": "a",
+     "i": 4.651,
+     "f": 4.742
+    },
+    {
+     "p": "NASA",
+     "i": 4.755,
+     "f": 5.08
+    },
+    {
+     "p": "recebeu",
+     "i": 5.093,
+     "f": 5.523
+    },
+    {
+     "p": "a",
+     "i": 5.536,
+     "f": 5.588
+    },
+    {
+     "p": "primeira",
+     "i": 5.601,
+     "f": 5.966
+    },
+    {
+     "p": "de",
+     "i": 5.979,
+     "f": 6.109
+    },
+    {
+     "p": "duas",
+     "i": 6.122,
+     "f": 6.46
+    },
+    {
+     "p": "máquinas",
+     "i": 6.473,
+     "f": 6.955
+    },
+    {
+     "p": "feitas",
+     "i": 6.968,
+     "f": 7.346
+    },
+    {
+     "p": "pela",
+     "i": 7.359,
+     "f": 7.541
+    },
+    {
+     "p": "Marion",
+     "i": 7.554,
+     "f": 7.958
+    },
+    {
+     "p": "Power",
+     "i": 7.971,
+     "f": 8.309
+    },
+    {
+     "p": "Shovel",
+     "i": 8.322,
+     "f": 8.687
+    },
+    {
+     "p": "Company",
+     "i": 8.7,
+     "f": 9.208
+    },
+    {
+     "p": "O",
+     "i": 10.47,
+     "f": 10.587
+    },
+    {
+     "p": "nome",
+     "i": 10.6,
+     "f": 10.926
+    },
+    {
+     "p": "é",
+     "i": 10.939,
+     "f": 10.978
+    },
+    {
+     "p": "crawler-transporter",
+     "i": 10.991,
+     "f": 12.098
+    },
+    {
+     "p": "algo",
+     "i": 12.371,
+     "f": 12.632
+    },
+    {
+     "p": "como",
+     "i": 12.645,
+     "f": 12.892
+    },
+    {
+     "p": "transportador",
+     "i": 12.905,
+     "f": 13.673
+    },
+    {
+     "p": "de",
+     "i": 13.686,
+     "f": 13.764
+    },
+    {
+     "p": "esteiras",
+     "i": 13.777,
+     "f": 14.389
+    },
+    {
+     "p": "A",
+     "i": 15.63,
+     "f": 15.721
+    },
+    {
+     "p": "missão",
+     "i": 15.734,
+     "f": 16.203
+    },
+    {
+     "p": "levar",
+     "i": 16.555,
+     "f": 16.906
+    },
+    {
+     "p": "foguetes",
+     "i": 16.919,
+     "f": 17.401
+    },
+    {
+     "p": "inteiros",
+     "i": 17.414,
+     "f": 18.026
+    },
+    {
+     "p": "em",
+     "i": 18.286,
+     "f": 18.43
+    },
+    {
+     "p": "pé",
+     "i": 18.443,
+     "f": 18.742
+    },
+    {
+     "p": "da",
+     "i": 19.081,
+     "f": 19.172
+    },
+    {
+     "p": "montagem",
+     "i": 19.185,
+     "f": 19.784
+    },
+    {
+     "p": "até",
+     "i": 19.797,
+     "f": 20.018
+    },
+    {
+     "p": "a",
+     "i": 20.031,
+     "f": 20.083
+    },
+    {
+     "p": "plataforma",
+     "i": 20.096,
+     "f": 20.734
+    },
+    {
+     "p": "de",
+     "i": 20.747,
+     "f": 20.838
+    },
+    {
+     "p": "lançamento",
+     "i": 20.851,
+     "f": 21.529
+    },
+    {
+     "p": "no",
+     "i": 21.841,
+     "f": 21.932
+    },
+    {
+     "p": "Centro",
+     "i": 21.945,
+     "f": 22.349
+    },
+    {
+     "p": "Espacial",
+     "i": 22.362,
+     "f": 22.857
+    },
+    {
+     "p": "Kennedy",
+     "i": 22.87,
+     "f": 23.325
+    },
+    {
+     "p": "na",
+     "i": 23.573,
+     "f": 23.755
+    },
+    {
+     "p": "Flórida",
+     "i": 23.768,
+     "f": 24.302
+    },
+    {
+     "p": "Foi",
+     "i": 25.542,
+     "f": 25.816
+    },
+    {
+     "p": "ele",
+     "i": 25.829,
+     "f": 26.011
+    },
+    {
+     "p": "quem",
+     "i": 26.024,
+     "f": 26.18
+    },
+    {
+     "p": "levou",
+     "i": 26.193,
+     "f": 26.493
+    },
+    {
+     "p": "o",
+     "i": 26.506,
+     "f": 26.558
+    },
+    {
+     "p": "Saturno",
+     "i": 26.571,
+     "f": 27.079
+    },
+    {
+     "p": "Cinco",
+     "i": 27.092,
+     "f": 27.521
+    },
+    {
+     "p": "do",
+     "i": 27.769,
+     "f": 27.925
+    },
+    {
+     "p": "programa",
+     "i": 27.938,
+     "f": 28.342
+    },
+    {
+     "p": "Apollo",
+     "i": 28.355,
+     "f": 28.784
+    },
+    {
+     "p": "até",
+     "i": 28.993,
+     "f": 29.24
+    },
+    {
+     "p": "a",
+     "i": 29.253,
+     "f": 29.318
+    },
+    {
+     "p": "plataforma",
+     "i": 29.331,
+     "f": 30.06
+    }
+   ]
+  },
+  "crawler-numeros": {
+   "hash": "b6644fa6ed",
+   "texto": "Ela pesa duas mil, setecentas e vinte e uma toneladas. Anda sobre oito esteiras, e cada esteira tem cinquenta e sete sapatas de aço. Cada sapata pesa quase uma tonelada. Carregada, a velocidade máxima é de um vírgula seis quilômetro por hora. O trajeto até a plataforma tem entre cinco vírgula cinco e seis vírgula oito quilômetros, e leva cerca de cinco horas. Uma pessoa a pé chegaria antes.",
+   "audio": "audio/crawler-numeros-b6644fa6ed.mp3",
+   "duracao": 32.34,
+   "palavras": [
+    {
+     "p": "Ela",
+     "i": 0.102,
+     "f": 0.389
+    },
+    {
+     "p": "pesa",
+     "i": 0.402,
+     "f": 0.74
+    },
+    {
+     "p": "duas",
+     "i": 0.753,
+     "f": 1.144
+    },
+    {
+     "p": "mil",
+     "i": 1.157,
+     "f": 1.391
+    },
+    {
+     "p": "setecentas",
+     "i": 1.704,
+     "f": 2.42
+    },
+    {
+     "p": "e",
+     "i": 2.433,
+     "f": 2.563
+    },
+    {
+     "p": "vinte",
+     "i": 2.576,
+     "f": 2.836
+    },
+    {
+     "p": "e",
+     "i": 2.849,
+     "f": 2.863
+    },
+    {
+     "p": "uma",
+     "i": 2.876,
+     "f": 3.032
+    },
+    {
+     "p": "toneladas",
+     "i": 3.045,
+     "f": 3.787
+    },
+    {
+     "p": "Anda",
+     "i": 5.046,
+     "f": 5.346
+    },
+    {
+     "p": "sobre",
+     "i": 5.359,
+     "f": 5.697
+    },
+    {
+     "p": "oito",
+     "i": 5.71,
+     "f": 5.945
+    },
+    {
+     "p": "esteiras",
+     "i": 5.958,
+     "f": 6.465
+    },
+    {
+     "p": "e",
+     "i": 6.713,
+     "f": 6.791
+    },
+    {
+     "p": "cada",
+     "i": 6.804,
+     "f": 7.025
+    },
+    {
+     "p": "esteira",
+     "i": 7.038,
+     "f": 7.429
+    },
+    {
+     "p": "tem",
+     "i": 7.442,
+     "f": 7.611
+    },
+    {
+     "p": "cinquenta",
+     "i": 7.624,
+     "f": 8.119
+    },
+    {
+     "p": "e",
+     "i": 8.132,
+     "f": 8.171
+    },
+    {
+     "p": "sete",
+     "i": 8.184,
+     "f": 8.51
+    },
+    {
+     "p": "sapatas",
+     "i": 8.523,
+     "f": 9.057
+    },
+    {
+     "p": "de",
+     "i": 9.07,
+     "f": 9.174
+    },
+    {
+     "p": "aço",
+     "i": 9.187,
+     "f": 9.551
+    },
+    {
+     "p": "Cada",
+     "i": 10.806,
+     "f": 11.093
+    },
+    {
+     "p": "sapata",
+     "i": 11.106,
+     "f": 11.613
+    },
+    {
+     "p": "pesa",
+     "i": 11.626,
+     "f": 11.965
+    },
+    {
+     "p": "quase",
+     "i": 11.978,
+     "f": 12.369
+    },
+    {
+     "p": "uma",
+     "i": 12.382,
+     "f": 12.538
+    },
+    {
+     "p": "tonelada",
+     "i": 12.551,
+     "f": 13.137
+    },
+    {
+     "p": "Carregada",
+     "i": 14.382,
+     "f": 15.085
+    },
+    {
+     "p": "a",
+     "i": 15.346,
+     "f": 15.424
+    },
+    {
+     "p": "velocidade",
+     "i": 15.437,
+     "f": 16.14
+    },
+    {
+     "p": "máxima",
+     "i": 16.153,
+     "f": 16.661
+    },
+    {
+     "p": "é",
+     "i": 16.674,
+     "f": 16.726
+    },
+    {
+     "p": "de",
+     "i": 16.739,
+     "f": 16.882
+    },
+    {
+     "p": "um",
+     "i": 16.895,
+     "f": 17.077
+    },
+    {
+     "p": "vírgula",
+     "i": 17.09,
+     "f": 17.468
+    },
+    {
+     "p": "seis",
+     "i": 17.481,
+     "f": 17.781
+    },
+    {
+     "p": "quilômetro",
+     "i": 17.794,
+     "f": 18.353
+    },
+    {
+     "p": "por",
+     "i": 18.366,
+     "f": 18.549
+    },
+    {
+     "p": "hora",
+     "i": 18.562,
+     "f": 18.848
+    },
+    {
+     "p": "O",
+     "i": 20.094,
+     "f": 20.211
+    },
+    {
+     "p": "trajeto",
+     "i": 20.224,
+     "f": 20.745
+    },
+    {
+     "p": "até",
+     "i": 20.758,
+     "f": 20.927
+    },
+    {
+     "p": "a",
+     "i": 20.94,
+     "f": 20.993
+    },
+    {
+     "p": "plataforma",
+     "i": 21.006,
+     "f": 21.748
+    },
+    {
+     "p": "tem",
+     "i": 21.761,
+     "f": 21.943
+    },
+    {
+     "p": "entre",
+     "i": 21.956,
+     "f": 22.216
+    },
+    {
+     "p": "cinco",
+     "i": 22.229,
+     "f": 22.607
+    },
+    {
+     "p": "vírgula",
+     "i": 22.62,
+     "f": 22.985
+    },
+    {
+     "p": "cinco",
+     "i": 22.998,
+     "f": 23.336
+    },
+    {
+     "p": "e",
+     "i": 23.349,
+     "f": 23.401
+    },
+    {
+     "p": "seis",
+     "i": 23.414,
+     "f": 23.714
+    },
+    {
+     "p": "vírgula",
+     "i": 23.727,
+     "f": 24.105
+    },
+    {
+     "p": "oito",
+     "i": 24.118,
+     "f": 24.365
+    },
+    {
+     "p": "quilômetros",
+     "i": 24.378,
+     "f": 25.055
+    },
+    {
+     "p": "e",
+     "i": 25.368,
+     "f": 25.433
+    },
+    {
+     "p": "leva",
+     "i": 25.446,
+     "f": 25.732
+    },
+    {
+     "p": "cerca",
+     "i": 25.745,
+     "f": 26.149
+    },
+    {
+     "p": "de",
+     "i": 26.162,
+     "f": 26.292
+    },
+    {
+     "p": "cinco",
+     "i": 26.305,
+     "f": 26.748
+    },
+    {
+     "p": "horas",
+     "i": 26.761,
+     "f": 27.19
+    },
+    {
+     "p": "Uma",
+     "i": 28.446,
+     "f": 28.693
+    },
+    {
+     "p": "pessoa",
+     "i": 28.706,
+     "f": 29.214
+    },
+    {
+     "p": "a",
+     "i": 29.227,
+     "f": 29.279
+    },
+    {
+     "p": "pé",
+     "i": 29.292,
+     "f": 29.475
+    },
+    {
+     "p": "chegaria",
+     "i": 29.488,
+     "f": 30.022
+    },
+    {
+     "p": "antes",
+     "i": 30.035,
+     "f": 30.595
+    }
+   ]
+  },
+  "crawler-analise": {
+   "hash": "013f33b876",
+   "texto": "Gasta cerca de duzentos e noventa e seis litros de diesel por quilômetro. Quase trinta pessoas acompanham cada viagem. Com o tempo, uma das duas máquinas foi reforçada para erguer até oito mil e duzentas toneladas, contra cinco mil e quatrocentas do projeto original. A velocidade é baixa de propósito: equilíbrio importa mais que pressa. Só que, às vezes, o problema não é carregar peso. É abrir caminho dentro da rocha.",
+   "audio": "audio/crawler-analise-013f33b876.mp3",
+   "duracao": 32.862,
+   "palavras": [
+    {
+     "p": "Gasta",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "cerca",
+     "i": 0.532,
+     "f": 0.909
+    },
+    {
+     "p": "de",
+     "i": 0.922,
+     "f": 1.04
+    },
+    {
+     "p": "duzentos",
+     "i": 1.053,
+     "f": 1.521
+    },
+    {
+     "p": "e",
+     "i": 1.534,
+     "f": 1.626
+    },
+    {
+     "p": "noventa",
+     "i": 1.639,
+     "f": 1.99
+    },
+    {
+     "p": "e",
+     "i": 2.003,
+     "f": 2.029
+    },
+    {
+     "p": "seis",
+     "i": 2.042,
+     "f": 2.277
+    },
+    {
+     "p": "litros",
+     "i": 2.29,
+     "f": 2.667
+    },
+    {
+     "p": "de",
+     "i": 2.68,
+     "f": 2.797
+    },
+    {
+     "p": "diesel",
+     "i": 2.81,
+     "f": 3.188
+    },
+    {
+     "p": "por",
+     "i": 3.201,
+     "f": 3.344
+    },
+    {
+     "p": "quilômetro",
+     "i": 3.357,
+     "f": 3.969
+    },
+    {
+     "p": "Quase",
+     "i": 5.214,
+     "f": 5.631
+    },
+    {
+     "p": "trinta",
+     "i": 5.644,
+     "f": 5.93
+    },
+    {
+     "p": "pessoas",
+     "i": 5.943,
+     "f": 6.334
+    },
+    {
+     "p": "acompanham",
+     "i": 6.347,
+     "f": 7.024
+    },
+    {
+     "p": "cada",
+     "i": 7.037,
+     "f": 7.31
+    },
+    {
+     "p": "viagem",
+     "i": 7.323,
+     "f": 7.831
+    },
+    {
+     "p": "Com",
+     "i": 9.078,
+     "f": 9.26
+    },
+    {
+     "p": "o",
+     "i": 9.273,
+     "f": 9.325
+    },
+    {
+     "p": "tempo",
+     "i": 9.338,
+     "f": 9.742
+    },
+    {
+     "p": "uma",
+     "i": 10.016,
+     "f": 10.185
+    },
+    {
+     "p": "das",
+     "i": 10.198,
+     "f": 10.38
+    },
+    {
+     "p": "duas",
+     "i": 10.393,
+     "f": 10.745
+    },
+    {
+     "p": "máquinas",
+     "i": 10.758,
+     "f": 11.2
+    },
+    {
+     "p": "foi",
+     "i": 11.213,
+     "f": 11.37
+    },
+    {
+     "p": "reforçada",
+     "i": 11.383,
+     "f": 12.06
+    },
+    {
+     "p": "para",
+     "i": 12.073,
+     "f": 12.229
+    },
+    {
+     "p": "erguer",
+     "i": 12.242,
+     "f": 12.516
+    },
+    {
+     "p": "até",
+     "i": 12.529,
+     "f": 12.737
+    },
+    {
+     "p": "oito",
+     "i": 12.75,
+     "f": 13.023
+    },
+    {
+     "p": "mil",
+     "i": 13.036,
+     "f": 13.219
+    },
+    {
+     "p": "e",
+     "i": 13.232,
+     "f": 13.271
+    },
+    {
+     "p": "duzentas",
+     "i": 13.284,
+     "f": 13.779
+    },
+    {
+     "p": "toneladas",
+     "i": 13.792,
+     "f": 14.534
+    },
+    {
+     "p": "contra",
+     "i": 14.794,
+     "f": 15.146
+    },
+    {
+     "p": "cinco",
+     "i": 15.159,
+     "f": 15.549
+    },
+    {
+     "p": "mil",
+     "i": 15.562,
+     "f": 15.732
+    },
+    {
+     "p": "e",
+     "i": 15.745,
+     "f": 15.771
+    },
+    {
+     "p": "quatrocentas",
+     "i": 15.784,
+     "f": 16.5
+    },
+    {
+     "p": "do",
+     "i": 16.513,
+     "f": 16.63
+    },
+    {
+     "p": "projeto",
+     "i": 16.643,
+     "f": 17.125
+    },
+    {
+     "p": "original",
+     "i": 17.138,
+     "f": 17.685
+    },
+    {
+     "p": "A",
+     "i": 18.942,
+     "f": 19.033
+    },
+    {
+     "p": "velocidade",
+     "i": 19.046,
+     "f": 19.723
+    },
+    {
+     "p": "é",
+     "i": 19.736,
+     "f": 19.762
+    },
+    {
+     "p": "baixa",
+     "i": 19.775,
+     "f": 20.101
+    },
+    {
+     "p": "de",
+     "i": 20.114,
+     "f": 20.205
+    },
+    {
+     "p": "propósito",
+     "i": 20.218,
+     "f": 20.895
+    },
+    {
+     "p": "equilíbrio",
+     "i": 21.104,
+     "f": 21.637
+    },
+    {
+     "p": "importa",
+     "i": 21.65,
+     "f": 22.132
+    },
+    {
+     "p": "mais",
+     "i": 22.145,
+     "f": 22.445
+    },
+    {
+     "p": "que",
+     "i": 22.458,
+     "f": 22.588
+    },
+    {
+     "p": "pressa",
+     "i": 22.601,
+     "f": 23.044
+    },
+    {
+     "p": "Só",
+     "i": 24.294,
+     "f": 24.581
+    },
+    {
+     "p": "que",
+     "i": 24.594,
+     "f": 24.88
+    },
+    {
+     "p": "às",
+     "i": 25.14,
+     "f": 25.375
+    },
+    {
+     "p": "vezes",
+     "i": 25.388,
+     "f": 25.818
+    },
+    {
+     "p": "o",
+     "i": 26.13,
+     "f": 26.208
+    },
+    {
+     "p": "problema",
+     "i": 26.221,
+     "f": 26.729
+    },
+    {
+     "p": "não",
+     "i": 26.742,
+     "f": 26.95
+    },
+    {
+     "p": "é",
+     "i": 26.963,
+     "f": 27.041
+    },
+    {
+     "p": "carregar",
+     "i": 27.054,
+     "f": 27.51
+    },
+    {
+     "p": "peso",
+     "i": 27.523,
+     "f": 27.927
+    },
+    {
+     "p": "É",
+     "i": 29.166,
+     "f": 29.296
+    },
+    {
+     "p": "abrir",
+     "i": 29.309,
+     "f": 29.635
+    },
+    {
+     "p": "caminho",
+     "i": 29.648,
+     "f": 30.117
+    },
+    {
+     "p": "dentro",
+     "i": 30.13,
+     "f": 30.507
+    },
+    {
+     "p": "da",
+     "i": 30.52,
+     "f": 30.637
+    },
+    {
+     "p": "rocha",
+     "i": 30.65,
+     "f": 31.106
+    }
+   ]
+  },
+  "cap4-tuneladoras": {
+   "hash": "0f4af0ab26",
+   "texto": "Capítulo quatro. A ideia de furar o chão com uma máquina é antiga. Em mil oitocentos e vinte e cinco, Marc Brunel usou um escudo de túnel sob o rio Tâmisa, em Londres. Em mil oitocentos e quarenta e seis, Henri Maus construiu a Mountain Slicer, apontada como a primeira máquina de perfurar túneis. E em mil oitocentos e oitenta e dois, uma máquina inglesa já cavava o giz sob o Canal da Mancha.",
+   "audio": "audio/cap4-tuneladoras-0f4af0ab26.mp3",
+   "duracao": 29.727,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.727
+    },
+    {
+     "p": "quatro",
+     "i": 0.74,
+     "f": 1.209
+    },
+    {
+     "p": "A",
+     "i": 2.454,
+     "f": 2.597
+    },
+    {
+     "p": "ideia",
+     "i": 2.61,
+     "f": 2.923
+    },
+    {
+     "p": "de",
+     "i": 2.936,
+     "f": 3.053
+    },
+    {
+     "p": "furar",
+     "i": 3.066,
+     "f": 3.418
+    },
+    {
+     "p": "o",
+     "i": 3.431,
+     "f": 3.457
+    },
+    {
+     "p": "chão",
+     "i": 3.47,
+     "f": 3.795
+    },
+    {
+     "p": "com",
+     "i": 3.808,
+     "f": 3.951
+    },
+    {
+     "p": "uma",
+     "i": 3.965,
+     "f": 4.121
+    },
+    {
+     "p": "máquina",
+     "i": 4.134,
+     "f": 4.55
+    },
+    {
+     "p": "é",
+     "i": 4.563,
+     "f": 4.603
+    },
+    {
+     "p": "antiga",
+     "i": 4.616,
+     "f": 5.162
+    },
+    {
+     "p": "Em",
+     "i": 6.414,
+     "f": 6.596
+    },
+    {
+     "p": "mil",
+     "i": 6.609,
+     "f": 6.792
+    },
+    {
+     "p": "oitocentos",
+     "i": 6.805,
+     "f": 7.443
+    },
+    {
+     "p": "e",
+     "i": 7.456,
+     "f": 7.573
+    },
+    {
+     "p": "vinte",
+     "i": 7.586,
+     "f": 7.794
+    },
+    {
+     "p": "e",
+     "i": 7.807,
+     "f": 7.833
+    },
+    {
+     "p": "cinco",
+     "i": 7.846,
+     "f": 8.276
+    },
+    {
+     "p": "Marc",
+     "i": 8.563,
+     "f": 8.901
+    },
+    {
+     "p": "Brunel",
+     "i": 8.914,
+     "f": 9.37
+    },
+    {
+     "p": "usou",
+     "i": 9.383,
+     "f": 9.643
+    },
+    {
+     "p": "um",
+     "i": 9.656,
+     "f": 9.747
+    },
+    {
+     "p": "escudo",
+     "i": 9.76,
+     "f": 10.177
+    },
+    {
+     "p": "de",
+     "i": 10.19,
+     "f": 10.333
+    },
+    {
+     "p": "túnel",
+     "i": 10.346,
+     "f": 10.646
+    },
+    {
+     "p": "sob",
+     "i": 10.659,
+     "f": 10.932
+    },
+    {
+     "p": "o",
+     "i": 10.945,
+     "f": 10.997
+    },
+    {
+     "p": "rio",
+     "i": 11.01,
+     "f": 11.232
+    },
+    {
+     "p": "Tâmisa",
+     "i": 11.245,
+     "f": 11.74
+    },
+    {
+     "p": "em",
+     "i": 11.922,
+     "f": 12.065
+    },
+    {
+     "p": "Londres",
+     "i": 12.078,
+     "f": 12.599
+    },
+    {
+     "p": "Em",
+     "i": 13.854,
+     "f": 14.036
+    },
+    {
+     "p": "mil",
+     "i": 14.049,
+     "f": 14.206
+    },
+    {
+     "p": "oitocentos",
+     "i": 14.219,
+     "f": 14.844
+    },
+    {
+     "p": "e",
+     "i": 14.857,
+     "f": 14.961
+    },
+    {
+     "p": "quarenta",
+     "i": 14.974,
+     "f": 15.286
+    },
+    {
+     "p": "e",
+     "i": 15.299,
+     "f": 15.338
+    },
+    {
+     "p": "seis",
+     "i": 15.351,
+     "f": 15.729
+    },
+    {
+     "p": "Henri",
+     "i": 16.055,
+     "f": 16.302
+    },
+    {
+     "p": "Maus",
+     "i": 16.315,
+     "f": 16.615
+    },
+    {
+     "p": "construiu",
+     "i": 16.628,
+     "f": 17.2
+    },
+    {
+     "p": "a",
+     "i": 17.213,
+     "f": 17.279
+    },
+    {
+     "p": "Mountain",
+     "i": 17.292,
+     "f": 17.643
+    },
+    {
+     "p": "Slicer",
+     "i": 17.656,
+     "f": 18.203
+    },
+    {
+     "p": "apontada",
+     "i": 18.516,
+     "f": 19.154
+    },
+    {
+     "p": "como",
+     "i": 19.167,
+     "f": 19.362
+    },
+    {
+     "p": "a",
+     "i": 19.375,
+     "f": 19.414
+    },
+    {
+     "p": "primeira",
+     "i": 19.427,
+     "f": 19.766
+    },
+    {
+     "p": "máquina",
+     "i": 19.779,
+     "f": 20.195
+    },
+    {
+     "p": "de",
+     "i": 20.208,
+     "f": 20.299
+    },
+    {
+     "p": "perfurar",
+     "i": 20.312,
+     "f": 20.833
+    },
+    {
+     "p": "túneis",
+     "i": 20.846,
+     "f": 21.406
+    },
+    {
+     "p": "E",
+     "i": 22.662,
+     "f": 22.766
+    },
+    {
+     "p": "em",
+     "i": 22.779,
+     "f": 22.896
+    },
+    {
+     "p": "mil",
+     "i": 22.909,
+     "f": 23.066
+    },
+    {
+     "p": "oitocentos",
+     "i": 23.079,
+     "f": 23.665
+    },
+    {
+     "p": "e",
+     "i": 23.678,
+     "f": 23.769
+    },
+    {
+     "p": "oitenta",
+     "i": 23.782,
+     "f": 24.068
+    },
+    {
+     "p": "e",
+     "i": 24.081,
+     "f": 24.12
+    },
+    {
+     "p": "dois",
+     "i": 24.133,
+     "f": 24.446
+    },
+    {
+     "p": "uma",
+     "i": 24.797,
+     "f": 24.993
+    },
+    {
+     "p": "máquina",
+     "i": 25.006,
+     "f": 25.37
+    },
+    {
+     "p": "inglesa",
+     "i": 25.383,
+     "f": 25.826
+    },
+    {
+     "p": "já",
+     "i": 25.839,
+     "f": 25.995
+    },
+    {
+     "p": "cavava",
+     "i": 26.008,
+     "f": 26.438
+    },
+    {
+     "p": "o",
+     "i": 26.451,
+     "f": 26.49
+    },
+    {
+     "p": "giz",
+     "i": 26.503,
+     "f": 26.79
+    },
+    {
+     "p": "sob",
+     "i": 26.803,
+     "f": 27.037
+    },
+    {
+     "p": "o",
+     "i": 27.05,
+     "f": 27.076
+    },
+    {
+     "p": "Canal",
+     "i": 27.089,
+     "f": 27.415
+    },
+    {
+     "p": "da",
+     "i": 27.428,
+     "f": 27.532
+    },
+    {
+     "p": "Mancha",
+     "i": 27.545,
+     "f": 27.988
+    }
+   ]
+  },
+  "tbm-evolucao": {
+   "hash": "f0aa3ee6e5",
+   "texto": "Aquela máquina perfurou mil oitocentos e quarenta metros do lado inglês. Mas o projeto foi abandonado em mil oitocentos e oitenta e três, por medo militar. A tecnologia esperou. Hoje as tuneladoras variam de um a vinte e três metros de diâmetro. Em rocha, avançam mais de setecentos metros por semana. Em solo mole, passam dos duzentos. Parece rotina de engenharia, até o dia em que uma delas para.",
+   "audio": "audio/tbm-evolucao-f0aa3ee6e5.mp3",
+   "duracao": 33.541,
+   "palavras": [
+    {
+     "p": "Aquela",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "máquina",
+     "i": 0.532,
+     "f": 0.988
+    },
+    {
+     "p": "perfurou",
+     "i": 1.001,
+     "f": 1.443
+    },
+    {
+     "p": "mil",
+     "i": 1.456,
+     "f": 1.665
+    },
+    {
+     "p": "oitocentos",
+     "i": 1.678,
+     "f": 2.303
+    },
+    {
+     "p": "e",
+     "i": 2.316,
+     "f": 2.42
+    },
+    {
+     "p": "quarenta",
+     "i": 2.433,
+     "f": 2.863
+    },
+    {
+     "p": "metros",
+     "i": 2.876,
+     "f": 3.305
+    },
+    {
+     "p": "do",
+     "i": 3.318,
+     "f": 3.422
+    },
+    {
+     "p": "lado",
+     "i": 3.435,
+     "f": 3.748
+    },
+    {
+     "p": "inglês",
+     "i": 3.761,
+     "f": 4.321
+    },
+    {
+     "p": "Mas",
+     "i": 5.574,
+     "f": 5.782
+    },
+    {
+     "p": "o",
+     "i": 5.795,
+     "f": 5.926
+    },
+    {
+     "p": "projeto",
+     "i": 5.939,
+     "f": 6.525
+    },
+    {
+     "p": "foi",
+     "i": 6.538,
+     "f": 6.668
+    },
+    {
+     "p": "abandonado",
+     "i": 6.681,
+     "f": 7.306
+    },
+    {
+     "p": "em",
+     "i": 7.319,
+     "f": 7.397
+    },
+    {
+     "p": "mil",
+     "i": 7.41,
+     "f": 7.579
+    },
+    {
+     "p": "oitocentos",
+     "i": 7.592,
+     "f": 8.204
+    },
+    {
+     "p": "e",
+     "i": 8.217,
+     "f": 8.308
+    },
+    {
+     "p": "oitenta",
+     "i": 8.321,
+     "f": 8.634
+    },
+    {
+     "p": "e",
+     "i": 8.647,
+     "f": 8.699
+    },
+    {
+     "p": "três",
+     "i": 8.712,
+     "f": 9.09
+    },
+    {
+     "p": "por",
+     "i": 9.298,
+     "f": 9.48
+    },
+    {
+     "p": "medo",
+     "i": 9.493,
+     "f": 9.806
+    },
+    {
+     "p": "militar",
+     "i": 9.819,
+     "f": 10.327
+    },
+    {
+     "p": "A",
+     "i": 11.574,
+     "f": 11.704
+    },
+    {
+     "p": "tecnologia",
+     "i": 11.717,
+     "f": 12.46
+    },
+    {
+     "p": "esperou",
+     "i": 12.473,
+     "f": 12.98
+    },
+    {
+     "p": "Hoje",
+     "i": 14.238,
+     "f": 14.564
+    },
+    {
+     "p": "as",
+     "i": 14.577,
+     "f": 14.72
+    },
+    {
+     "p": "tuneladoras",
+     "i": 14.733,
+     "f": 15.475
+    },
+    {
+     "p": "variam",
+     "i": 15.488,
+     "f": 15.905
+    },
+    {
+     "p": "de",
+     "i": 15.918,
+     "f": 16.048
+    },
+    {
+     "p": "um",
+     "i": 16.061,
+     "f": 16.217
+    },
+    {
+     "p": "a",
+     "i": 16.23,
+     "f": 16.295
+    },
+    {
+     "p": "vinte",
+     "i": 16.308,
+     "f": 16.556
+    },
+    {
+     "p": "e",
+     "i": 16.569,
+     "f": 16.595
+    },
+    {
+     "p": "três",
+     "i": 16.608,
+     "f": 16.842
+    },
+    {
+     "p": "metros",
+     "i": 16.855,
+     "f": 17.246
+    },
+    {
+     "p": "de",
+     "i": 17.259,
+     "f": 17.35
+    },
+    {
+     "p": "diâmetro",
+     "i": 17.363,
+     "f": 17.923
+    },
+    {
+     "p": "Em",
+     "i": 19.182,
+     "f": 19.338
+    },
+    {
+     "p": "rocha",
+     "i": 19.351,
+     "f": 19.807
+    },
+    {
+     "p": "avançam",
+     "i": 20.055,
+     "f": 20.588
+    },
+    {
+     "p": "mais",
+     "i": 20.601,
+     "f": 20.862
+    },
+    {
+     "p": "de",
+     "i": 20.875,
+     "f": 20.979
+    },
+    {
+     "p": "setecentos",
+     "i": 20.992,
+     "f": 21.747
+    },
+    {
+     "p": "metros",
+     "i": 21.76,
+     "f": 22.203
+    },
+    {
+     "p": "por",
+     "i": 22.216,
+     "f": 22.372
+    },
+    {
+     "p": "semana",
+     "i": 22.385,
+     "f": 22.958
+    },
+    {
+     "p": "Em",
+     "i": 24.222,
+     "f": 24.378
+    },
+    {
+     "p": "solo",
+     "i": 24.391,
+     "f": 24.743
+    },
+    {
+     "p": "mole",
+     "i": 24.756,
+     "f": 25.134
+    },
+    {
+     "p": "passam",
+     "i": 25.381,
+     "f": 25.785
+    },
+    {
+     "p": "dos",
+     "i": 25.798,
+     "f": 26.097
+    },
+    {
+     "p": "duzentos",
+     "i": 26.11,
+     "f": 26.8
+    },
+    {
+     "p": "Parece",
+     "i": 28.062,
+     "f": 28.531
+    },
+    {
+     "p": "rotina",
+     "i": 28.544,
+     "f": 29
+    },
+    {
+     "p": "de",
+     "i": 29.013,
+     "f": 29.117
+    },
+    {
+     "p": "engenharia",
+     "i": 29.13,
+     "f": 29.781
+    },
+    {
+     "p": "até",
+     "i": 30.002,
+     "f": 30.276
+    },
+    {
+     "p": "o",
+     "i": 30.289,
+     "f": 30.367
+    },
+    {
+     "p": "dia",
+     "i": 30.38,
+     "f": 30.601
+    },
+    {
+     "p": "em",
+     "i": 30.614,
+     "f": 30.692
+    },
+    {
+     "p": "que",
+     "i": 30.705,
+     "f": 30.823
+    },
+    {
+     "p": "uma",
+     "i": 30.836,
+     "f": 31.044
+    },
+    {
+     "p": "delas",
+     "i": 31.057,
+     "f": 31.421
+    },
+    {
+     "p": "para",
+     "i": 31.434,
+     "f": 31.799
+    }
+   ]
+  },
+  "bertha": {
+   "hash": "572eb42fa3",
+   "texto": "Seattle, nos Estados Unidos. A tuneladora Bertha, fabricada pela Hitachi Zosen, tem dezessete metros e quarenta e cinco centímetros de diâmetro, uma das maiores já usadas. Seu trabalho era abrir um túnel sob o centro da cidade, no lugar de uma via elevada. Em dezembro de dois mil e treze, ela parou. E ficou parada. O que ninguém esperava era quanto tempo isso ia durar.",
+   "audio": "audio/bertha-572eb42fa3.mp3",
+   "duracao": 30.067,
+   "palavras": [
+    {
+     "p": "Seattle",
+     "i": 0.102,
+     "f": 0.766
+    },
+    {
+     "p": "nos",
+     "i": 0.988,
+     "f": 1.079
+    },
+    {
+     "p": "Estados",
+     "i": 1.092,
+     "f": 1.612
+    },
+    {
+     "p": "Unidos",
+     "i": 1.626,
+     "f": 2.238
+    },
+    {
+     "p": "A",
+     "i": 3.486,
+     "f": 3.616
+    },
+    {
+     "p": "tuneladora",
+     "i": 3.629,
+     "f": 4.293
+    },
+    {
+     "p": "Bertha",
+     "i": 4.306,
+     "f": 4.723
+    },
+    {
+     "p": "fabricada",
+     "i": 4.944,
+     "f": 5.556
+    },
+    {
+     "p": "pela",
+     "i": 5.569,
+     "f": 5.726
+    },
+    {
+     "p": "Hitachi",
+     "i": 5.739,
+     "f": 6.129
+    },
+    {
+     "p": "Zosen",
+     "i": 6.142,
+     "f": 6.559
+    },
+    {
+     "p": "tem",
+     "i": 6.819,
+     "f": 6.95
+    },
+    {
+     "p": "dezessete",
+     "i": 6.963,
+     "f": 7.575
+    },
+    {
+     "p": "metros",
+     "i": 7.588,
+     "f": 7.913
+    },
+    {
+     "p": "e",
+     "i": 7.926,
+     "f": 8.017
+    },
+    {
+     "p": "quarenta",
+     "i": 8.03,
+     "f": 8.343
+    },
+    {
+     "p": "e",
+     "i": 8.356,
+     "f": 8.382
+    },
+    {
+     "p": "cinco",
+     "i": 8.395,
+     "f": 8.642
+    },
+    {
+     "p": "centímetros",
+     "i": 8.655,
+     "f": 9.293
+    },
+    {
+     "p": "de",
+     "i": 9.306,
+     "f": 9.398
+    },
+    {
+     "p": "diâmetro",
+     "i": 9.411,
+     "f": 9.97
+    },
+    {
+     "p": "uma",
+     "i": 10.257,
+     "f": 10.426
+    },
+    {
+     "p": "das",
+     "i": 10.439,
+     "f": 10.582
+    },
+    {
+     "p": "maiores",
+     "i": 10.595,
+     "f": 11.09
+    },
+    {
+     "p": "já",
+     "i": 11.103,
+     "f": 11.273
+    },
+    {
+     "p": "usadas",
+     "i": 11.286,
+     "f": 11.898
+    },
+    {
+     "p": "Seu",
+     "i": 13.158,
+     "f": 13.445
+    },
+    {
+     "p": "trabalho",
+     "i": 13.458,
+     "f": 13.939
+    },
+    {
+     "p": "era",
+     "i": 13.952,
+     "f": 14.057
+    },
+    {
+     "p": "abrir",
+     "i": 14.07,
+     "f": 14.33
+    },
+    {
+     "p": "um",
+     "i": 14.343,
+     "f": 14.46
+    },
+    {
+     "p": "túnel",
+     "i": 14.473,
+     "f": 14.773
+    },
+    {
+     "p": "sob",
+     "i": 14.786,
+     "f": 15.033
+    },
+    {
+     "p": "o",
+     "i": 15.046,
+     "f": 15.085
+    },
+    {
+     "p": "centro",
+     "i": 15.098,
+     "f": 15.515
+    },
+    {
+     "p": "da",
+     "i": 15.528,
+     "f": 15.619
+    },
+    {
+     "p": "cidade",
+     "i": 15.632,
+     "f": 16.153
+    },
+    {
+     "p": "no",
+     "i": 16.439,
+     "f": 16.543
+    },
+    {
+     "p": "lugar",
+     "i": 16.557,
+     "f": 16.973
+    },
+    {
+     "p": "de",
+     "i": 16.986,
+     "f": 17.09
+    },
+    {
+     "p": "uma",
+     "i": 17.103,
+     "f": 17.286
+    },
+    {
+     "p": "via",
+     "i": 17.299,
+     "f": 17.468
+    },
+    {
+     "p": "elevada",
+     "i": 17.481,
+     "f": 18.028
+    },
+    {
+     "p": "Em",
+     "i": 19.278,
+     "f": 19.395
+    },
+    {
+     "p": "dezembro",
+     "i": 19.408,
+     "f": 19.994
+    },
+    {
+     "p": "de",
+     "i": 20.007,
+     "f": 20.085
+    },
+    {
+     "p": "dois",
+     "i": 20.098,
+     "f": 20.281
+    },
+    {
+     "p": "mil",
+     "i": 20.294,
+     "f": 20.398
+    },
+    {
+     "p": "e",
+     "i": 20.411,
+     "f": 20.476
+    },
+    {
+     "p": "treze",
+     "i": 20.489,
+     "f": 20.958
+    },
+    {
+     "p": "ela",
+     "i": 21.075,
+     "f": 21.309
+    },
+    {
+     "p": "parou",
+     "i": 21.322,
+     "f": 21.739
+    },
+    {
+     "p": "E",
+     "i": 22.998,
+     "f": 23.115
+    },
+    {
+     "p": "ficou",
+     "i": 23.128,
+     "f": 23.532
+    },
+    {
+     "p": "parada",
+     "i": 23.545,
+     "f": 24.053
+    },
+    {
+     "p": "O",
+     "i": 25.302,
+     "f": 25.432
+    },
+    {
+     "p": "que",
+     "i": 25.445,
+     "f": 25.576
+    },
+    {
+     "p": "ninguém",
+     "i": 25.589,
+     "f": 25.953
+    },
+    {
+     "p": "esperava",
+     "i": 25.966,
+     "f": 26.5
+    },
+    {
+     "p": "era",
+     "i": 26.513,
+     "f": 26.682
+    },
+    {
+     "p": "quanto",
+     "i": 26.695,
+     "f": 27.047
+    },
+    {
+     "p": "tempo",
+     "i": 27.06,
+     "f": 27.464
+    },
+    {
+     "p": "isso",
+     "i": 27.477,
+     "f": 27.815
+    },
+    {
+     "p": "ia",
+     "i": 27.828,
+     "f": 27.984
+    },
+    {
+     "p": "durar",
+     "i": 27.997,
+     "f": 28.323
+    }
+   ]
+  },
+  "bertha-volta": {
+   "hash": "b0b4d3f00c",
+   "texto": "Bertha só voltou a funcionar em janeiro de dois mil e dezesseis. O túnel foi concluído em quatro de abril de dois mil e dezessete, mais de três anos depois da parada. Hoje, o recorde mundial de tamanho é de uma máquina da Herrenknecht, a Qin Liangyu, com dezessete metros e sessenta e três centímetros. Maior que a Bertha por poucos centímetros, e ainda assim sujeita às mesmas incertezas do subsolo.",
+   "audio": "audio/bertha-volta-b0b4d3f00c.mp3",
+   "duracao": 28.787,
+   "palavras": [
+    {
+     "p": "Bertha",
+     "i": 0.102,
+     "f": 0.506
+    },
+    {
+     "p": "só",
+     "i": 0.519,
+     "f": 0.714
+    },
+    {
+     "p": "voltou",
+     "i": 0.727,
+     "f": 1.092
+    },
+    {
+     "p": "a",
+     "i": 1.105,
+     "f": 1.157
+    },
+    {
+     "p": "funcionar",
+     "i": 1.17,
+     "f": 1.704
+    },
+    {
+     "p": "em",
+     "i": 1.717,
+     "f": 1.795
+    },
+    {
+     "p": "janeiro",
+     "i": 1.808,
+     "f": 2.251
+    },
+    {
+     "p": "de",
+     "i": 2.264,
+     "f": 2.355
+    },
+    {
+     "p": "dois",
+     "i": 2.368,
+     "f": 2.563
+    },
+    {
+     "p": "mil",
+     "i": 2.576,
+     "f": 2.732
+    },
+    {
+     "p": "e",
+     "i": 2.745,
+     "f": 2.784
+    },
+    {
+     "p": "dezesseis",
+     "i": 2.797,
+     "f": 3.553
+    },
+    {
+     "p": "O",
+     "i": 4.806,
+     "f": 4.962
+    },
+    {
+     "p": "túnel",
+     "i": 4.975,
+     "f": 5.301
+    },
+    {
+     "p": "foi",
+     "i": 5.314,
+     "f": 5.483
+    },
+    {
+     "p": "concluído",
+     "i": 5.496,
+     "f": 6.043
+    },
+    {
+     "p": "em",
+     "i": 6.056,
+     "f": 6.147
+    },
+    {
+     "p": "quatro",
+     "i": 6.16,
+     "f": 6.525
+    },
+    {
+     "p": "de",
+     "i": 6.538,
+     "f": 6.616
+    },
+    {
+     "p": "abril",
+     "i": 6.629,
+     "f": 6.941
+    },
+    {
+     "p": "de",
+     "i": 6.955,
+     "f": 7.046
+    },
+    {
+     "p": "dois",
+     "i": 7.059,
+     "f": 7.241
+    },
+    {
+     "p": "mil",
+     "i": 7.254,
+     "f": 7.371
+    },
+    {
+     "p": "e",
+     "i": 7.384,
+     "f": 7.436
+    },
+    {
+     "p": "dezessete",
+     "i": 7.449,
+     "f": 8.126
+    },
+    {
+     "p": "mais",
+     "i": 8.452,
+     "f": 8.686
+    },
+    {
+     "p": "de",
+     "i": 8.699,
+     "f": 8.817
+    },
+    {
+     "p": "três",
+     "i": 8.83,
+     "f": 9.103
+    },
+    {
+     "p": "anos",
+     "i": 9.116,
+     "f": 9.481
+    },
+    {
+     "p": "depois",
+     "i": 9.494,
+     "f": 9.858
+    },
+    {
+     "p": "da",
+     "i": 9.871,
+     "f": 9.988
+    },
+    {
+     "p": "parada",
+     "i": 10.001,
+     "f": 10.47
+    },
+    {
+     "p": "Hoje",
+     "i": 11.718,
+     "f": 12.148
+    },
+    {
+     "p": "o",
+     "i": 12.421,
+     "f": 12.486
+    },
+    {
+     "p": "recorde",
+     "i": 12.499,
+     "f": 13.007
+    },
+    {
+     "p": "mundial",
+     "i": 13.02,
+     "f": 13.463
+    },
+    {
+     "p": "de",
+     "i": 13.476,
+     "f": 13.58
+    },
+    {
+     "p": "tamanho",
+     "i": 13.593,
+     "f": 14.062
+    },
+    {
+     "p": "é",
+     "i": 14.075,
+     "f": 14.14
+    },
+    {
+     "p": "de",
+     "i": 14.153,
+     "f": 14.231
+    },
+    {
+     "p": "uma",
+     "i": 14.244,
+     "f": 14.4
+    },
+    {
+     "p": "máquina",
+     "i": 14.413,
+     "f": 14.817
+    },
+    {
+     "p": "da",
+     "i": 14.83,
+     "f": 14.908
+    },
+    {
+     "p": "Herrenknecht",
+     "i": 14.921,
+     "f": 15.559
+    },
+    {
+     "p": "a",
+     "i": 15.833,
+     "f": 15.924
+    },
+    {
+     "p": "Qin",
+     "i": 15.937,
+     "f": 16.197
+    },
+    {
+     "p": "Liangyu",
+     "i": 16.21,
+     "f": 16.731
+    },
+    {
+     "p": "com",
+     "i": 16.978,
+     "f": 17.135
+    },
+    {
+     "p": "dezessete",
+     "i": 17.148,
+     "f": 17.76
+    },
+    {
+     "p": "metros",
+     "i": 17.773,
+     "f": 18.111
+    },
+    {
+     "p": "e",
+     "i": 18.124,
+     "f": 18.228
+    },
+    {
+     "p": "sessenta",
+     "i": 18.242,
+     "f": 18.619
+    },
+    {
+     "p": "e",
+     "i": 18.632,
+     "f": 18.671
+    },
+    {
+     "p": "três",
+     "i": 18.684,
+     "f": 18.906
+    },
+    {
+     "p": "centímetros",
+     "i": 18.919,
+     "f": 19.726
+    },
+    {
+     "p": "Maior",
+     "i": 20.982,
+     "f": 21.49
+    },
+    {
+     "p": "que",
+     "i": 21.503,
+     "f": 21.594
+    },
+    {
+     "p": "a",
+     "i": 21.607,
+     "f": 21.659
+    },
+    {
+     "p": "Bertha",
+     "i": 21.672,
+     "f": 22.089
+    },
+    {
+     "p": "por",
+     "i": 22.102,
+     "f": 22.258
+    },
+    {
+     "p": "poucos",
+     "i": 22.271,
+     "f": 22.636
+    },
+    {
+     "p": "centímetros",
+     "i": 22.649,
+     "f": 23.404
+    },
+    {
+     "p": "e",
+     "i": 23.756,
+     "f": 23.86
+    },
+    {
+     "p": "ainda",
+     "i": 23.873,
+     "f": 24.159
+    },
+    {
+     "p": "assim",
+     "i": 24.172,
+     "f": 24.459
+    },
+    {
+     "p": "sujeita",
+     "i": 24.472,
+     "f": 24.966
+    },
+    {
+     "p": "às",
+     "i": 24.979,
+     "f": 25.11
+    },
+    {
+     "p": "mesmas",
+     "i": 25.123,
+     "f": 25.513
+    },
+    {
+     "p": "incertezas",
+     "i": 25.526,
+     "f": 26.269
+    },
+    {
+     "p": "do",
+     "i": 26.282,
+     "f": 26.399
+    },
+    {
+     "p": "subsolo",
+     "i": 26.412,
+     "f": 27.063
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "bdc13e8ce7",
+   "texto": "O que as quatro têm em comum? Cada uma resolve um problema que a força humana não resolveria. Mas a escala cobra seu preço. A Bagger e o BelAZ dependem de minas e estradas feitas só para eles. O transportador da NASA anda mais devagar que uma pessoa a pé. E a Bertha mostrou que grande demais também pode parar. Máquina gigante é solução, e também é aposta. Qual dessas você nunca tinha visto? Conta aqui nos comentários.",
+   "audio": "audio/desfecho-bdc13e8ce7.mp3",
+   "duracao": 36.336,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "que",
+     "i": 0.245,
+     "f": 0.441
+    },
+    {
+     "p": "as",
+     "i": 0.454,
+     "f": 0.675
+    },
+    {
+     "p": "quatro",
+     "i": 0.688,
+     "f": 1.118
+    },
+    {
+     "p": "têm",
+     "i": 1.131,
+     "f": 1.3
+    },
+    {
+     "p": "em",
+     "i": 1.313,
+     "f": 1.378
+    },
+    {
+     "p": "comum",
+     "i": 1.391,
+     "f": 1.821
+    },
+    {
+     "p": "Cada",
+     "i": 3.178,
+     "f": 3.438
+    },
+    {
+     "p": "uma",
+     "i": 3.452,
+     "f": 3.634
+    },
+    {
+     "p": "resolve",
+     "i": 3.647,
+     "f": 4.116
+    },
+    {
+     "p": "um",
+     "i": 4.129,
+     "f": 4.194
+    },
+    {
+     "p": "problema",
+     "i": 4.207,
+     "f": 4.754
+    },
+    {
+     "p": "que",
+     "i": 4.767,
+     "f": 4.858
+    },
+    {
+     "p": "a",
+     "i": 4.871,
+     "f": 4.949
+    },
+    {
+     "p": "força",
+     "i": 4.962,
+     "f": 5.314
+    },
+    {
+     "p": "humana",
+     "i": 5.327,
+     "f": 5.678
+    },
+    {
+     "p": "não",
+     "i": 5.691,
+     "f": 5.925
+    },
+    {
+     "p": "resolveria",
+     "i": 5.938,
+     "f": 6.642
+    },
+    {
+     "p": "Mas",
+     "i": 7.882,
+     "f": 8.09
+    },
+    {
+     "p": "a",
+     "i": 8.103,
+     "f": 8.221
+    },
+    {
+     "p": "escala",
+     "i": 8.234,
+     "f": 8.637
+    },
+    {
+     "p": "cobra",
+     "i": 8.65,
+     "f": 8.95
+    },
+    {
+     "p": "seu",
+     "i": 8.963,
+     "f": 9.132
+    },
+    {
+     "p": "preço",
+     "i": 9.145,
+     "f": 9.588
+    },
+    {
+     "p": "A",
+     "i": 10.834,
+     "f": 10.925
+    },
+    {
+     "p": "Bagger",
+     "i": 10.938,
+     "f": 11.355
+    },
+    {
+     "p": "e",
+     "i": 11.368,
+     "f": 11.407
+    },
+    {
+     "p": "o",
+     "i": 11.42,
+     "f": 11.472
+    },
+    {
+     "p": "BelAZ",
+     "i": 11.485,
+     "f": 12.058
+    },
+    {
+     "p": "dependem",
+     "i": 12.071,
+     "f": 12.501
+    },
+    {
+     "p": "de",
+     "i": 12.514,
+     "f": 12.631
+    },
+    {
+     "p": "minas",
+     "i": 12.644,
+     "f": 12.956
+    },
+    {
+     "p": "e",
+     "i": 12.969,
+     "f": 13.074
+    },
+    {
+     "p": "estradas",
+     "i": 13.087,
+     "f": 13.568
+    },
+    {
+     "p": "feitas",
+     "i": 13.581,
+     "f": 14.011
+    },
+    {
+     "p": "só",
+     "i": 14.024,
+     "f": 14.154
+    },
+    {
+     "p": "para",
+     "i": 14.167,
+     "f": 14.415
+    },
+    {
+     "p": "eles",
+     "i": 14.428,
+     "f": 14.818
+    },
+    {
+     "p": "O",
+     "i": 16.066,
+     "f": 16.183
+    },
+    {
+     "p": "transportador",
+     "i": 16.196,
+     "f": 16.965
+    },
+    {
+     "p": "da",
+     "i": 16.978,
+     "f": 17.082
+    },
+    {
+     "p": "NASA",
+     "i": 17.095,
+     "f": 17.407
+    },
+    {
+     "p": "anda",
+     "i": 17.42,
+     "f": 17.655
+    },
+    {
+     "p": "mais",
+     "i": 17.668,
+     "f": 17.928
+    },
+    {
+     "p": "devagar",
+     "i": 17.941,
+     "f": 18.436
+    },
+    {
+     "p": "que",
+     "i": 18.449,
+     "f": 18.566
+    },
+    {
+     "p": "uma",
+     "i": 18.579,
+     "f": 18.748
+    },
+    {
+     "p": "pessoa",
+     "i": 18.761,
+     "f": 19.191
+    },
+    {
+     "p": "a",
+     "i": 19.204,
+     "f": 19.243
+    },
+    {
+     "p": "pé",
+     "i": 19.256,
+     "f": 19.543
+    },
+    {
+     "p": "E",
+     "i": 20.794,
+     "f": 20.911
+    },
+    {
+     "p": "a",
+     "i": 20.924,
+     "f": 21.015
+    },
+    {
+     "p": "Bertha",
+     "i": 21.028,
+     "f": 21.419
+    },
+    {
+     "p": "mostrou",
+     "i": 21.432,
+     "f": 21.849
+    },
+    {
+     "p": "que",
+     "i": 21.862,
+     "f": 21.992
+    },
+    {
+     "p": "grande",
+     "i": 22.005,
+     "f": 22.37
+    },
+    {
+     "p": "demais",
+     "i": 22.383,
+     "f": 22.799
+    },
+    {
+     "p": "também",
+     "i": 22.812,
+     "f": 23.177
+    },
+    {
+     "p": "pode",
+     "i": 23.19,
+     "f": 23.45
+    },
+    {
+     "p": "parar",
+     "i": 23.463,
+     "f": 23.802
+    },
+    {
+     "p": "Máquina",
+     "i": 25.042,
+     "f": 25.537
+    },
+    {
+     "p": "gigante",
+     "i": 25.55,
+     "f": 26.097
+    },
+    {
+     "p": "é",
+     "i": 26.11,
+     "f": 26.136
+    },
+    {
+     "p": "solução",
+     "i": 26.149,
+     "f": 26.761
+    },
+    {
+     "p": "e",
+     "i": 27.034,
+     "f": 27.138
+    },
+    {
+     "p": "também",
+     "i": 27.151,
+     "f": 27.633
+    },
+    {
+     "p": "é",
+     "i": 27.646,
+     "f": 27.698
+    },
+    {
+     "p": "aposta",
+     "i": 27.711,
+     "f": 28.258
+    },
+    {
+     "p": "Qual",
+     "i": 29.506,
+     "f": 29.74
+    },
+    {
+     "p": "dessas",
+     "i": 29.753,
+     "f": 30.079
+    },
+    {
+     "p": "você",
+     "i": 30.092,
+     "f": 30.405
+    },
+    {
+     "p": "nunca",
+     "i": 30.418,
+     "f": 30.795
+    },
+    {
+     "p": "tinha",
+     "i": 30.808,
+     "f": 31.121
+    },
+    {
+     "p": "visto",
+     "i": 31.134,
+     "f": 31.563
+    },
+    {
+     "p": "Conta",
+     "i": 32.918,
+     "f": 33.27
+    },
+    {
+     "p": "aqui",
+     "i": 33.283,
+     "f": 33.517
+    },
+    {
+     "p": "nos",
+     "i": 33.53,
+     "f": 33.699
+    },
+    {
+     "p": "comentários",
+     "i": 33.712,
+     "f": 34.585
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "90abcc1d39",
+   "texto": "Se gostou, se inscreva no Inova Mundo. No próximo vídeo, continuamos explorando o mundo e suas tecnologias.",
+   "audio": "audio/fecho-90abcc1d39.mp3",
+   "duracao": 10.057,
+   "palavras": [
+    {
+     "p": "Se",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "gostou",
+     "i": 0.336,
+     "f": 0.805
+    },
+    {
+     "p": "se",
+     "i": 1.04,
+     "f": 1.17
+    },
+    {
+     "p": "inscreva",
+     "i": 1.183,
+     "f": 1.717
+    },
+    {
+     "p": "no",
+     "i": 1.73,
+     "f": 1.847
+    },
+    {
+     "p": "Inova",
+     "i": 1.86,
+     "f": 2.238
+    },
+    {
+     "p": "Mundo",
+     "i": 2.251,
+     "f": 2.641
+    },
+    {
+     "p": "No",
+     "i": 3.894,
+     "f": 4.076
+    },
+    {
+     "p": "próximo",
+     "i": 4.089,
+     "f": 4.623
+    },
+    {
+     "p": "vídeo",
+     "i": 4.636,
+     "f": 5.014
+    },
+    {
+     "p": "continuamos",
+     "i": 5.261,
+     "f": 5.925
+    },
+    {
+     "p": "explorando",
+     "i": 5.938,
+     "f": 6.498
+    },
+    {
+     "p": "o",
+     "i": 6.511,
+     "f": 6.55
+    },
+    {
+     "p": "mundo",
+     "i": 6.563,
+     "f": 6.928
+    },
+    {
+     "p": "e",
+     "i": 6.941,
+     "f": 6.98
+    },
+    {
+     "p": "suas",
+     "i": 6.993,
+     "f": 7.266
+    },
+    {
+     "p": "tecnologias",
+     "i": 7.279,
+     "f": 8.295
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "bagger-a": {
+   "arquivo": "imagens/bagger-a-716ac76e.jpg",
+   "rotulo": "Bagger 293",
+   "wiki": "Bagger 293",
+   "commons": "Bagger 293 Tagebau Hambach",
+   "autor": "Elsdorf-blog.de",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Braunkohlenbagger_im_Tagebau_Hambach.jpg",
+   "titulo": "File:Braunkohlenbagger im Tagebau Hambach.jpg",
+   "largura": 1920,
+   "altura": 1279,
+   "rostos": 0,
+   "foco": {
+    "x": 53.2,
+    "y": 60.6
+   },
+   "borrada": "imagens/bagger-a-716ac76e-b.jpg"
+  },
+  "bagger-b": {
+   "arquivo": "imagens/bagger-b-c4e59267.jpg",
+   "rotulo": "Bagger 293 de lado",
+   "commons": "Bagger 293 bucket-wheel excavator",
+   "autor": "bluecloud9",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bagger_293_Tagebau_Hambach_DE_2017.jpg",
+   "titulo": "File:Bagger 293 Tagebau Hambach DE 2017.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 38.8,
+    "y": 58.5
+   },
+   "borrada": "imagens/bagger-b-c4e59267-b.jpg"
+  },
+  "hambach-mine": {
+   "arquivo": "imagens/hambach-mine-32063a17.jpg",
+   "rotulo": "Mina de Hambach",
+   "commons": "Tagebau Hambach open pit mine",
+   "autor": "Leonhard Lenz",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Preparation_area_between_the_open_pit_mine_Hambach_and_the_Hambach_forest_15.jpg",
+   "titulo": "File:Preparation area between the open pit mine Hambach and the Hambach forest 15.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 57.4,
+    "y": 55.0
+   },
+   "borrada": "imagens/hambach-mine-32063a17-b.jpg"
+  },
+  "piscina": {
+   "arquivo": "imagens/piscina-48d2307e.jpg",
+   "rotulo": "Piscina olímpica",
+   "commons": "Olympic-size swimming pool",
+   "autor": "Richie Diesterheft from Chicago, IL, USA",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Olympic_Size_Swimming_Pool_(2069924837).jpg",
+   "titulo": "File:Olympic Size Swimming Pool (2069924837).jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 1,
+   "foco": {
+    "x": 73.3,
+    "y": 32.6
+   },
+   "borrada": "imagens/piscina-48d2307e-b.jpg"
+  },
+  "garzweiler": {
+   "arquivo": "imagens/garzweiler-1a3f72e6.jpg",
+   "rotulo": "Escavadeira em Garzweiler",
+   "commons": "Tagebau Garzweiler bucket-wheel excavator",
+   "autor": "Raimond Spekking",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Garzweiler_Tagebau-1230.jpg",
+   "titulo": "File:Garzweiler Tagebau-1230.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 44.3,
+    "y": 47.0
+   },
+   "borrada": "imagens/garzweiler-1a3f72e6-b.jpg"
+  },
+  "belaz-a": {
+   "arquivo": "imagens/belaz-a-abd0ea12.jpg",
+   "rotulo": "BelAZ 75710",
+   "wiki": "BelAZ 75710",
+   "commons": "BelAZ 75710 haul truck",
+   "autor": "Лапоть",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BelAZ-75710_-_UMMC_Museum_Complex.jpg",
+   "titulo": "File:BelAZ-75710 - UMMC Museum Complex.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 74.0,
+    "y": 46.5
+   },
+   "borrada": "imagens/belaz-a-abd0ea12-b.jpg"
+  },
+  "crawler-a": {
+   "arquivo": "imagens/crawler-a-5c26b5f9.jpg",
+   "rotulo": "Crawler-transporter da NASA",
+   "commons": "Crawler-transporter Kennedy Space Center",
+   "autor": "NASA/KSC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:STS-79_rollout.jpg",
+   "titulo": "File:STS-79 rollout.jpg",
+   "largura": 1746,
+   "altura": 1947,
+   "rostos": 0,
+   "foco": {
+    "x": 40.8,
+    "y": 53.6
+   },
+   "borrada": "imagens/crawler-a-5c26b5f9-b.jpg"
+  },
+  "tbm-a": {
+   "arquivo": "imagens/tbm-a-28d45c80.jpg",
+   "rotulo": "Cabeça de corte de tuneladora",
+   "commons": "Tunnel boring machine cutterhead",
+   "autor": "Tatiane Aparecida Domingues da Silva",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Atta_laevigata_por_Tatiane_Domingues.jpg",
+   "titulo": "File:Atta laevigata por Tatiane Domingues.jpg",
+   "largura": 1920,
+   "altura": 3413,
+   "rostos": 0,
+   "foco": {
+    "x": 44.1,
+    "y": 49.9
+   },
+   "borrada": "imagens/tbm-a-28d45c80-b.jpg"
+  },
+  "rwe-hambach": {
+   "arquivo": "imagens/rwe-hambach-4986d951.jpg",
+   "rotulo": "Mina da RWE em Hambach",
+   "commons": "RWE Power Hambach lignite mine",
+   "autor": "Jörg Kutzera",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Absetzer756.JPG",
+   "titulo": "File:Absetzer756.JPG",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 42.3,
+    "y": 53.7
+   },
+   "borrada": "imagens/rwe-hambach-4986d951-b.jpg"
+  },
+  "lignite": {
+   "arquivo": "imagens/lignite-aad14ea4.jpg",
+   "rotulo": "Carvão marrom (linhito)",
+   "wiki": "Linhito",
+   "commons": "Lignite brown coal",
+   "autor": "Prissantenbär",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lignite_Klingenberg.jpg",
+   "titulo": "File:Lignite Klingenberg.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 51.6,
+    "y": 52.5
+   },
+   "borrada": "imagens/lignite-aad14ea4-b.jpg"
+  },
+  "rodas": {
+   "arquivo": "imagens/rodas-a9c6fd61.jpg",
+   "rotulo": "Escavadeira de rodas de caçambas",
+   "commons": "Bucket-wheel excavator Tagebau Hambach",
+   "autor": "Leonhard Lenz",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ende_Gel%C3%A4nde_November_2017_-_Police_in_front_of_a_bucket-wheel_excavator.jpg",
+   "titulo": "File:Ende Gelände November 2017 - Police in front of a bucket-wheel excavator.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 1,
+   "foco": {
+    "x": 87.0,
+    "y": 48.3
+   },
+   "borrada": "imagens/rodas-a9c6fd61-b.jpg"
+  },
+  "bagger-front": {
+   "arquivo": "imagens/bagger-front-34720a2f.jpg",
+   "rotulo": "Bagger 293 de frente",
+   "commons": "Bagger 293 front view",
+   "autor": "North Lincolnshire Museum, Martin Foreman, 2020-11-25 10:24:14",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Roman_coin,_possibly_a_radiate_of_Carausius_(FindID_1016684).jpg",
+   "titulo": "File:Roman coin, possibly a radiate of Carausius (FindID 1016684).jpg",
+   "largura": 1920,
+   "altura": 855,
+   "rostos": 0,
+   "foco": {
+    "x": 37.4,
+    "y": 51.0
+   },
+   "borrada": "imagens/bagger-front-34720a2f-b.jpg"
+  },
+  "bagger-c": {
+   "arquivo": "imagens/bagger-c-0f197da6.jpg",
+   "rotulo": "Bagger 293 e a escala humana",
+   "commons": "Bagger 293 size comparison",
+   "autor": "Salisbury and South Wiltshire Museum, Ian Richardson, 2012-07-12 10:14:52",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Copper-alloy_chisels_and_awls_from_the_hoard_(FindID_467433).jpg",
+   "titulo": "File:Copper-alloy chisels and awls from the hoard (FindID 467433).jpg",
+   "largura": 1920,
+   "altura": 1443,
+   "rostos": 0,
+   "foco": {
+    "x": 33.4,
+    "y": 49.9
+   },
+   "borrada": "imagens/bagger-c-0f197da6-b.jpg"
+  },
+  "bucketwheel": {
+   "arquivo": "imagens/bucketwheel-60663097.jpg",
+   "rotulo": "Roda de caçambas",
+   "commons": "Bucket-wheel excavator bucket wheel closeup",
+   "autor": "Arne Müseler",
+   "licenca": "CC BY-SA 3.0 de",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Garzweiler_surface_mine_Bucket-wheel_excavator_2019_1.jpg",
+   "titulo": "File:Garzweiler surface mine Bucket-wheel excavator 2019 1.jpg",
+   "largura": 1920,
+   "altura": 1079,
+   "rostos": 0,
+   "foco": {
+    "x": 53.3,
+    "y": 46.5
+   },
+   "borrada": "imagens/bucketwheel-60663097-b.jpg"
+  },
+  "conveyor": {
+   "arquivo": "imagens/conveyor-7859de60.jpg",
+   "rotulo": "Esteira transportadora",
+   "commons": "Lignite mine conveyor belt Garzweiler",
+   "autor": "Jörg Kutzera",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Absetzer756_Rekultivierung.JPG",
+   "titulo": "File:Absetzer756 Rekultivierung.JPG",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 55.8,
+    "y": 31.2
+   },
+   "borrada": "imagens/conveyor-7859de60-b.jpg"
+  },
+  "garzweiler-b": {
+   "arquivo": "imagens/garzweiler-b-2377c9d9.jpg",
+   "rotulo": "Mina de Garzweiler",
+   "commons": "Tagebau Garzweiler open pit",
+   "autor": "Stephan Sprinz",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Open_pit_lignite_mining_in_Garzweiler,_Germany_03.jpg",
+   "titulo": "File:Open pit lignite mining in Garzweiler, Germany 03.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 52.7,
+    "y": 50.1
+   },
+   "borrada": "imagens/garzweiler-b-2377c9d9-b.jpg"
+  },
+  "takraf": {
+   "arquivo": "imagens/takraf-c256983a.jpg",
+   "rotulo": "Escavadeira TAKRAF",
+   "commons": "TAKRAF Lauchhammer bucket-wheel excavator",
+   "autor": "Uhlemann, Thomas",
+   "licenca": "CC BY-SA 3.0 de",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1986-0802-001,_Magdeburg,_Teufelsbrunnen.jpg",
+   "titulo": "File:Bundesarchiv Bild 183-1986-0802-001, Magdeburg, Teufelsbrunnen.jpg",
+   "largura": 800,
+   "altura": 572,
+   "rostos": 0,
+   "foco": {
+    "x": 78.2,
+    "y": 56.3
+   },
+   "borrada": "imagens/takraf-c256983a-b.jpg"
+  },
+  "cabine": {
+   "arquivo": "imagens/cabine-bc4453dc.jpg",
+   "rotulo": "Cabine de operação",
+   "commons": "Bucket-wheel excavator operator cabin",
+   "autor": "Kecko from Eastern Switzerland",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sersa_-_Bucket-wheel_Excavator_(51079445216).jpg",
+   "titulo": "File:Sersa - Bucket-wheel Excavator (51079445216).jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 26.5,
+    "y": 59.1
+   },
+   "borrada": "imagens/cabine-bc4453dc-b.jpg"
+  },
+  "lignite-power": {
+   "arquivo": "imagens/lignite-power-4b122cb8.jpg",
+   "rotulo": "Usina a carvão marrom",
+   "commons": "Kraftwerk Niederaußem lignite power plant",
+   "autor": "Achim Raschka (talk)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Niederau%C3%9Fem_RWE_01.jpg",
+   "titulo": "File:Niederaußem RWE 01.jpg",
+   "largura": 1920,
+   "altura": 2888,
+   "rostos": 1,
+   "foco": {
+    "x": 26.2,
+    "y": 77.7
+   },
+   "borrada": "imagens/lignite-power-4b122cb8-b.jpg"
+  },
+  "belaz-f": {
+   "arquivo": "imagens/belaz-f-9a4eba65.jpg",
+   "rotulo": "BelAZ 75710 em operação",
+   "commons": "BelAZ 75710 yellow mining truck",
+   "autor": "Hasan Hüseyin Kulak",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BelAZ_75710_1.png",
+   "titulo": "File:BelAZ 75710 1.png",
+   "largura": 1280,
+   "altura": 720,
+   "rostos": 2,
+   "foco": {
+    "x": 64.0,
+    "y": 53.8
+   },
+   "borrada": "imagens/belaz-f-9a4eba65-b.jpg"
+  },
+  "belaz-b": {
+   "arquivo": "imagens/belaz-b-6b6c1d33.jpg",
+   "rotulo": "BelAZ 75710",
+   "commons": "BelAZ 75710 Kuzbass",
+   "autor": "Hasan Hüseyin Kulak",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BelAZ_75710_14.png",
+   "titulo": "File:BelAZ 75710 14.png",
+   "largura": 1280,
+   "altura": 720,
+   "rostos": 0,
+   "foco": {
+    "x": 38.1,
+    "y": 47.0
+   },
+   "borrada": "imagens/belaz-b-6b6c1d33-b.jpg"
+  },
+  "belarus-map": {
+   "arquivo": "imagens/belarus-map-8cf9285d.jpg",
+   "rotulo": "Bielorrússia",
+   "commons": "Belarus location map Zhodino",
+   "autor": "Budgawl",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Interior_of_the_famous_abandoned_KZTSH_foundry_plant_Zhodzina.jpg",
+   "titulo": "File:Interior of the famous abandoned KZTSH foundry plant Zhodzina.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 42.1,
+    "y": 41.7
+   },
+   "borrada": "imagens/belarus-map-8cf9285d-b.jpg"
+  },
+  "belaz-c": {
+   "arquivo": "imagens/belaz-c-ad737b22.jpg",
+   "rotulo": "BelAZ 75710 de lado",
+   "commons": "BelAZ 75710 side view",
+   "autor": "Hasan Hüseyin Kulak",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BelAZ_75710_4.png",
+   "titulo": "File:BelAZ 75710 4.png",
+   "largura": 1280,
+   "altura": 720,
+   "rostos": 1,
+   "foco": {
+    "x": 49.2,
+    "y": 79.0
+   },
+   "borrada": "imagens/belaz-c-ad737b22-b.jpg"
+  },
+  "belaz-d": {
+   "arquivo": "imagens/belaz-d-1deff031.jpg",
+   "rotulo": "BelAZ 75710 carregado",
+   "commons": "BelAZ 75710 loaded",
+   "autor": "Hasan Hüseyin Kulak",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BelAZ_75710_12.png",
+   "titulo": "File:BelAZ 75710 12.png",
+   "largura": 1280,
+   "altura": 720,
+   "rostos": 0,
+   "foco": {
+    "x": 60.2,
+    "y": 66.4
+   },
+   "borrada": "imagens/belaz-d-1deff031-b.jpg"
+  },
+  "mtu": {
+   "arquivo": "imagens/mtu-3d9c1f26.jpg",
+   "rotulo": "Motor diesel MTU",
+   "commons": "MTU 16V 4000 diesel engine",
+   "autor": "Linie29",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:MTU_4000_16V_R41_%C3%96BB_2016.jpg",
+   "titulo": "File:MTU 4000 16V R41 ÖBB 2016.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 4,
+   "foco": {
+    "x": 64.2,
+    "y": 78.2
+   },
+   "borrada": "imagens/mtu-3d9c1f26-b.jpg"
+  },
+  "siemens": {
+   "arquivo": "imagens/siemens-51b3ac9f.jpg",
+   "rotulo": "Sistema elétrico Siemens",
+   "commons": "Siemens electric drive mining truck",
+   "autor": "Loracco",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Siemens_mining_locomotive_001.jpg",
+   "titulo": "File:Siemens mining locomotive 001.jpg",
+   "largura": 1920,
+   "altura": 1442,
+   "rostos": 0,
+   "foco": {
+    "x": 64.0,
+    "y": 37.5
+   },
+   "borrada": "imagens/siemens-51b3ac9f-b.jpg"
+  },
+  "tire": {
+   "arquivo": "imagens/tire-ff9f006e.jpg",
+   "rotulo": "Pneu de caminhão de mina",
+   "commons": "Giant mining truck tire 59/80R63",
+   "autor": "Cjp24",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lectra_Haul_giant_mining_truck_in_Asbestos,_Quebec.jpg",
+   "titulo": "File:Lectra Haul giant mining truck in Asbestos, Quebec.jpg",
+   "largura": 1920,
+   "altura": 1407,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 50.5
+   },
+   "borrada": "imagens/tire-ff9f006e-b.jpg"
+  },
+  "haul-ramp": {
+   "arquivo": "imagens/haul-ramp-1771ec7f.jpg",
+   "rotulo": "Rampa de transporte em mina",
+   "commons": "Open pit mine haul truck ramp",
+   "autor": "Calistemon",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sunrise_Dam_Gold_Mine_open_pit_04.jpg",
+   "titulo": "File:Sunrise Dam Gold Mine open pit 04.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 56.7,
+    "y": 70.7
+   },
+   "borrada": "imagens/haul-ramp-1771ec7f-b.jpg"
+  },
+  "bucyrus": {
+   "arquivo": "",
+   "rotulo": "Bucyrus MT6300AC",
+   "commons": "Bucyrus MT6300AC"
+  },
+  "mining-road": {
+   "arquivo": "imagens/mining-road-396a2f27.jpg",
+   "rotulo": "Estrada de mina",
+   "commons": "Haul road open pit mine truck",
+   "autor": "Paul Peter, CSIRO",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_5285_A_120_ton_ore_truck_at_the_New_Celebration_Gold_Mine.jpg",
+   "titulo": "File:CSIRO ScienceImage 5285 A 120 ton ore truck at the New Celebration Gold Mine.jpg",
+   "largura": 1850,
+   "altura": 1200,
+   "rostos": 2,
+   "foco": {
+    "x": 60.3,
+    "y": 24.2
+   },
+   "borrada": "imagens/mining-road-396a2f27-b.jpg"
+  },
+  "liebherr": {
+   "arquivo": "imagens/liebherr-268e8d89.jpg",
+   "rotulo": "Liebherr T 282B",
+   "commons": "Liebherr T 282B",
+   "autor": "Lidingo",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Liebherr_Dumper_Bauma_2004.jpg",
+   "titulo": "File:Liebherr Dumper Bauma 2004.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 16.4,
+    "y": 68.2
+   },
+   "borrada": "imagens/liebherr-268e8d89-b.jpg"
+  },
+  "cat797": {
+   "arquivo": "",
+   "rotulo": "Caterpillar 797F",
+   "commons": "Caterpillar 797F"
+  },
+  "crawler-b": {
+   "arquivo": "imagens/crawler-b-9a937c82.jpg",
+   "rotulo": "Crawler-transporter 2",
+   "commons": "Crawler-transporter 2 Kennedy Space Center",
+   "autor": "Daderot",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crawler-transporter_-_Kennedy_Space_Center_-_Cape_Canaveral,_Florida_-_DSC02612.jpg",
+   "titulo": "File:Crawler-transporter - Kennedy Space Center - Cape Canaveral, Florida - DSC02612.jpg",
+   "largura": 1920,
+   "altura": 1010,
+   "rostos": 0,
+   "foco": {
+    "x": 68.1,
+    "y": 46.5
+   },
+   "borrada": "imagens/crawler-b-9a937c82-b.jpg"
+  },
+  "marion": {
+   "arquivo": "imagens/marion-bc37af22.jpg",
+   "rotulo": "Marion Power Shovel",
+   "commons": "Marion Power Shovel Company",
+   "autor": "Daniel Case",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Marion_Steam_Shovel,_Le_Roy,_NY.jpg",
+   "titulo": "File:Marion Steam Shovel, Le Roy, NY.jpg",
+   "largura": 1920,
+   "altura": 1098,
+   "rostos": 0,
+   "foco": {
+    "x": 68.8,
+    "y": 52.3
+   },
+   "borrada": "imagens/marion-bc37af22-b.jpg"
+  },
+  "vab": {
+   "arquivo": "imagens/vab-1228f354.jpg",
+   "rotulo": "Prédio de montagem de veículos (VAB)",
+   "wiki": "Vehicle Assembly Building",
+   "commons": "Vehicle Assembly Building Kennedy Space Center",
+   "autor": "Daniel Schwen",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:LC-39_Observation_gantry_pano2.jpg",
+   "titulo": "File:LC-39 Observation gantry pano2.jpg",
+   "largura": 1920,
+   "altura": 330,
+   "rostos": 0,
+   "foco": {
+    "x": 43.7,
+    "y": 61.0
+   },
+   "borrada": "imagens/vab-1228f354-b.jpg"
+  },
+  "kennedy": {
+   "arquivo": "imagens/kennedy-840f7d8c.jpg",
+   "rotulo": "Centro Espacial Kennedy",
+   "commons": "Kennedy Space Center aerial view",
+   "autor": "Gzzz",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Atlantis_Kennedy_Space_Center_Visitor_Complex_4.jpg",
+   "titulo": "File:Atlantis Kennedy Space Center Visitor Complex 4.jpg",
+   "largura": 1920,
+   "altura": 1182,
+   "rostos": 0,
+   "foco": {
+    "x": 38.2,
+    "y": 63.9
+   },
+   "borrada": "imagens/kennedy-840f7d8c-b.jpg"
+  },
+  "crawler-tracks": {
+   "arquivo": "imagens/crawler-tracks-a1cf4ef2.jpg",
+   "rotulo": "Esteiras do crawler-transporter",
+   "commons": "Crawler-transporter track shoes",
+   "autor": "NASA or National Aeronautics and Space Administration",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crawler_transporter_new_track_shoes.jpg",
+   "titulo": "File:Crawler transporter new track shoes.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 1,
+   "foco": {
+    "x": 7.1,
+    "y": 67.5
+   },
+   "borrada": "imagens/crawler-tracks-a1cf4ef2-b.jpg"
+  },
+  "saturn-crawler": {
+   "arquivo": "imagens/saturn-crawler-99f1a8df.jpg",
+   "rotulo": "Saturno V a caminho da plataforma",
+   "commons": "Saturn V Apollo 11 rollout crawler-transporter",
+   "autor": "NASA; restored by Michel Vuijlsteke",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch2.jpg",
+   "titulo": "File:Apollo 11 Launch2.jpg",
+   "largura": 1920,
+   "altura": 2400,
+   "rostos": 0,
+   "foco": {
+    "x": 59.9,
+    "y": 71.4
+   },
+   "borrada": "imagens/saturn-crawler-99f1a8df-b.jpg"
+  },
+  "crawlerway": {
+   "arquivo": "imagens/crawlerway-d8825282.jpg",
+   "rotulo": "Crawlerway",
+   "commons": "Crawlerway Kennedy Space Center",
+   "autor": "Olga Ernst",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crawlerway_and_Artemis_II_at_LC_39B.jpg",
+   "titulo": "File:Crawlerway and Artemis II at LC 39B.jpg",
+   "largura": 1920,
+   "altura": 1272,
+   "rostos": 0,
+   "foco": {
+    "x": 47.6,
+    "y": 61.7
+   },
+   "borrada": "imagens/crawlerway-d8825282-b.jpg"
+  },
+  "lc39a": {
+   "arquivo": "imagens/lc39a-903549a0.jpg",
+   "rotulo": "Plataforma 39A",
+   "commons": "Launch Complex 39A",
+   "autor": "Bill Ingalls",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brightly_lit_STS-135_on_launch_pad_39a.jpg",
+   "titulo": "File:Brightly lit STS-135 on launch pad 39a.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 0,
+   "foco": {
+    "x": 46.6,
+    "y": 46.1
+   },
+   "borrada": "imagens/lc39a-903549a0-b.jpg"
+  },
+  "lc39b": {
+   "arquivo": "imagens/lc39b-a6bfa720.jpg",
+   "rotulo": "Plataforma 39B",
+   "commons": "Launch Complex 39B",
+   "autor": "NASA/Jack Pfaller",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:STS-125_and_STS-400_on_Launch_Pads.jpg",
+   "titulo": "File:STS-125 and STS-400 on Launch Pads.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 48.8,
+    "y": 63.8
+   },
+   "borrada": "imagens/lc39b-a6bfa720-b.jpg"
+  },
+  "shuttle": {
+   "arquivo": "imagens/shuttle-ffaddc8f.jpg",
+   "rotulo": "Ônibus espacial no crawler",
+   "commons": "Space Shuttle rollout crawler-transporter",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Foggy_Rollout_for_Space_Shuttle_Challenger.jpg",
+   "titulo": "File:Foggy Rollout for Space Shuttle Challenger.jpg",
+   "largura": 1920,
+   "altura": 1449,
+   "rostos": 0,
+   "foco": {
+    "x": 39.3,
+    "y": 56.0
+   },
+   "borrada": "imagens/shuttle-ffaddc8f-b.jpg"
+  },
+  "sls-crawler": {
+   "arquivo": "imagens/sls-crawler-019f6140.jpg",
+   "rotulo": "SLS a caminho da plataforma",
+   "commons": "Space Launch System crawler-transporter rollout Artemis",
+   "autor": "Kim Shiflett",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crawler_Transporter_Roll_to_VAB_for_Artemis_I_WDR_Rollout_(KSC-20220311-PH-KLS01_0152).jpg",
+   "titulo": "File:Crawler Transporter Roll to VAB for Artemis I WDR Rollout (KSC-20220311-PH-KLS01 0152).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 38.3,
+    "y": 80
+   },
+   "borrada": "imagens/sls-crawler-019f6140-b.jpg"
+  },
+  "crawler-jack": {
+   "arquivo": "imagens/crawler-jack-011bb667.jpg",
+   "rotulo": "Plataforma móvel de lançamento",
+   "commons": "Mobile Launcher Platform crawler-transporter",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Mobile_Launcher_Platform_3_in_parked_configuration.jpg",
+   "titulo": "File:Mobile Launcher Platform 3 in parked configuration.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 55.3,
+    "y": 41.2
+   },
+   "borrada": "imagens/crawler-jack-011bb667-b.jpg"
+  },
+  "brunel": {
+   "arquivo": "imagens/brunel-ecdf5a98.jpg",
+   "rotulo": "Marc Brunel",
+   "wiki": "Marc Isambard Brunel",
+   "commons": "Marc Isambard Brunel portrait",
+   "autor": "James Northcote",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sir_Marc_Isambard_Brunel_by_James_Northcote.jpg",
+   "titulo": "File:Sir Marc Isambard Brunel by James Northcote.jpg",
+   "largura": 1920,
+   "altura": 2420,
+   "rostos": 3,
+   "foco": {
+    "x": 57.6,
+    "y": 54.1
+   },
+   "borrada": "imagens/brunel-ecdf5a98-b.jpg"
+  },
+  "thames": {
+   "arquivo": "imagens/thames-3f426fb4.jpg",
+   "rotulo": "Túnel do Tâmisa",
+   "commons": "Thames Tunnel Brunel shield",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Thames_Tunnel_(BM_1880,1113.1690).jpg",
+   "titulo": "File:The Thames Tunnel (BM 1880,1113.1690).jpg",
+   "largura": 1920,
+   "altura": 2144,
+   "rostos": 0,
+   "foco": {
+    "x": 52.5,
+    "y": 37.9
+   },
+   "borrada": "imagens/thames-3f426fb4-b.jpg"
+  },
+  "maus": {
+   "arquivo": "",
+   "rotulo": "Mountain Slicer de Maus",
+   "commons": "Mountain Slicer Maus tunnel boring machine 1846"
+  },
+  "channel-1882": {
+   "arquivo": "imagens/channel-1882-c0ef931d.jpg",
+   "rotulo": "Tuneladora de 1882",
+   "commons": "Beaumont-English tunnel boring machine Channel Tunnel 1882",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Beaumont-tunnelbohrmaschine.png",
+   "titulo": "File:Beaumont-tunnelbohrmaschine.png",
+   "largura": 1920,
+   "altura": 902,
+   "rostos": 0,
+   "foco": {
+    "x": 47.8,
+    "y": 47.9
+   },
+   "borrada": "imagens/channel-1882-c0ef931d-b.jpg"
+  },
+  "chunnel": {
+   "arquivo": "imagens/chunnel-8ad19b39.jpg",
+   "rotulo": "Tuneladora do Eurotúnel",
+   "commons": "Channel Tunnel tunnel boring machine",
+   "autor": "Prolete",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Channel_Tunnel_car_train.jpg",
+   "titulo": "File:Channel Tunnel car train.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 1,
+   "foco": {
+    "x": 90.9,
+    "y": 16.9
+   },
+   "borrada": "imagens/chunnel-8ad19b39-b.jpg"
+  },
+  "tbm-b": {
+   "arquivo": "imagens/tbm-b-af6b208d.jpg",
+   "rotulo": "Tuneladora Herrenknecht",
+   "commons": "Herrenknecht tunnel boring machine",
+   "autor": "Peterbuild",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Innenansicht-Herrenknecht-S833.jpg",
+   "titulo": "File:Innenansicht-Herrenknecht-S833.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 67.4,
+    "y": 61.3
+   },
+   "borrada": "imagens/tbm-b-af6b208d-b.jpg"
+  },
+  "tbm-cut": {
+   "arquivo": "imagens/tbm-cut-428089b6.jpg",
+   "rotulo": "Cortadores de disco",
+   "commons": "TBM cutter head disc cutters",
+   "autor": "oyxman",
+   "licenca": "CC BY 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:TBM_Cutter_Head_at_Cutty_Sark_DLR_station.jpg",
+   "titulo": "File:TBM Cutter Head at Cutty Sark DLR station.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 20.3,
+    "y": 19.8
+   },
+   "borrada": "imagens/tbm-cut-428089b6-b.jpg"
+  },
+  "tbm-seg": {
+   "arquivo": "imagens/tbm-seg-52f99905.jpg",
+   "rotulo": "Anéis de revestimento",
+   "commons": "Tunnel segment lining TBM",
+   "autor": "Spudgun67",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Greenwich_Foot_Tunnel_-_ring_segment_lining.jpg",
+   "titulo": "File:Greenwich Foot Tunnel - ring segment lining.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 1,
+   "foco": {
+    "x": 30.9,
+    "y": 58.6
+   },
+   "borrada": "imagens/tbm-seg-52f99905-b.jpg"
+  },
+  "bertha-a": {
+   "arquivo": "imagens/bertha-a-e9893bf6.jpg",
+   "rotulo": "Tuneladora Bertha",
+   "commons": "Bertha tunnel boring machine Seattle",
+   "autor": "SounderBruce",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bertha_TBM_model_at_Milepost_31.jpg",
+   "titulo": "File:Bertha TBM model at Milepost 31.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 43.8,
+    "y": 53.0
+   },
+   "borrada": "imagens/bertha-a-e9893bf6-b.jpg"
+  },
+  "hitachi": {
+   "arquivo": "imagens/hitachi-09dcddfb.jpg",
+   "rotulo": "Hitachi Zosen",
+   "commons": "Hitachi Zosen Corporation",
+   "autor": "Tokumeigakarinoaoshima",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Headquarters_of_Hitachi_Zosen_Corporation.jpg",
+   "titulo": "File:Headquarters of Hitachi Zosen Corporation.jpg",
+   "largura": 1920,
+   "altura": 1439,
+   "rostos": 1,
+   "foco": {
+    "x": 88.1,
+    "y": 81.2
+   },
+   "borrada": "imagens/hitachi-09dcddfb-b.jpg"
+  },
+  "seattle": {
+   "arquivo": "imagens/seattle-f1afe0d5.jpg",
+   "rotulo": "Viaduto Alaskan Way, Seattle",
+   "commons": "Alaskan Way Viaduct Seattle",
+   "autor": "Adbar",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Alaskan_Way_Viaduct_Seattle_Twilight.jpg",
+   "titulo": "File:Alaskan Way Viaduct Seattle Twilight.jpg",
+   "largura": 1920,
+   "altura": 1148,
+   "rostos": 0,
+   "foco": {
+    "x": 29.7,
+    "y": 52.4
+   },
+   "borrada": "imagens/seattle-f1afe0d5-b.jpg"
+  },
+  "bertha-b": {
+   "arquivo": "imagens/bertha-b-d42d08f3.jpg",
+   "rotulo": "Cabeça de corte da Bertha",
+   "commons": "Bertha cutterhead Seattle 2013",
+   "autor": "Pedro Ribeiro Simões from Lisboa, Portugal",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tristezas,_Cabe%C3%A7a_(c._1913%E2%80%9315)_-_Amadeu_de_Souza-Cardoso_(26450956625).jpg",
+   "titulo": "File:Tristezas, Cabeça (c. 1913–15) - Amadeu de Souza-Cardoso (26450956625).jpg",
+   "largura": 1920,
+   "altura": 1813,
+   "rostos": 2,
+   "foco": {
+    "x": 62.1,
+    "y": 29.2
+   },
+   "borrada": "imagens/bertha-b-d42d08f3-b.jpg"
+  },
+  "bertha-pit": {
+   "arquivo": "imagens/bertha-pit-54ad188f.jpg",
+   "rotulo": "Poço de resgate da Bertha",
+   "commons": "Bertha rescue pit Seattle",
+   "autor": "National Museum of Health and Medicine",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Freed_Navy_nurses_(BUMED_09-8119-3),_U.S._Navy_BUMED_Library_and_Archives_(4290476620).jpg",
+   "titulo": "File:Freed Navy nurses (BUMED 09-8119-3), U.S. Navy BUMED Library and Archives (4290476620).jpg",
+   "largura": 1920,
+   "altura": 1564,
+   "rostos": 0,
+   "foco": {
+    "x": 56.7,
+    "y": 39.3
+   },
+   "borrada": "imagens/bertha-pit-54ad188f-b.jpg"
+  },
+  "sr99": {
+   "arquivo": "imagens/sr99-d7691e4a.jpg",
+   "rotulo": "Túnel da SR 99",
+   "commons": "State Route 99 tunnel Seattle",
+   "autor": "SounderBruce",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SR_99_Tunnel_north_portal_(southbound_lanes)_on_opening_day.jpg",
+   "titulo": "File:SR 99 Tunnel north portal (southbound lanes) on opening day.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 46.0,
+    "y": 61.5
+   },
+   "borrada": "imagens/sr99-d7691e4a-b.jpg"
+  },
+  "herrenknecht": {
+   "arquivo": "imagens/herrenknecht-edfd710b.jpg",
+   "rotulo": "Herrenknecht",
+   "commons": "Herrenknecht Schwanau",
+   "autor": "Herrenknecht AG (fabrikant)",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Snijbeitel_(graaftand)_van_%27Victoria%27,_boormachine_NoordZuidlijn,_objectnr_1256.jpg",
+   "titulo": "File:Snijbeitel (graaftand) van 'Victoria', boormachine NoordZuidlijn, objectnr 1256.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 51.1,
+    "y": 45.0
+   },
+   "borrada": "imagens/herrenknecht-edfd710b-b.jpg"
+  },
+  "qin": {
+   "arquivo": "imagens/qin-86b291c4.jpg",
+   "rotulo": "Qin Liangyu",
+   "commons": "Herrenknecht Mixshield Qin Liangyu",
+   "autor": "Poems by Cao Zhenxiu (曹貞秀), 1762–ca. 1822 Paintings by Gai Qi (改琦), 1773–1828",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Famous_Women,_1799_(P,_PP).jpg",
+   "titulo": "File:Famous Women, 1799 (P, PP).jpg",
+   "largura": 1920,
+   "altura": 1348,
+   "rostos": 0,
+   "foco": {
+    "x": 34.7,
+    "y": 51.2
+   },
+   "borrada": "imagens/qin-86b291c4-b.jpg"
+  },
+  "bagger-d": {
+   "arquivo": "imagens/bagger-d-27a8d2e9.jpg",
+   "rotulo": "Bagger 293",
+   "commons": "Bagger 293 RB293",
+   "autor": "Jugendnetzwerk für politische Aktionen (JunepA)",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tagebau_Hambach,_It%27s_up_to_us_to_keep_it_in_the_ground,_JunepA_DE_2017-11-17.jpg",
+   "titulo": "File:Tagebau Hambach, It's up to us to keep it in the ground, JunepA DE 2017-11-17.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 56.4,
+    "y": 66.2
+   },
+   "borrada": "imagens/bagger-d-27a8d2e9-b.jpg"
+  },
+  "belaz-g": {
+   "arquivo": "imagens/belaz-g-73ccc9dc.jpg",
+   "rotulo": "BelAZ 75710",
+   "commons": "BelAZ 75710 loaded mining truck",
+   "autor": "Hasan Hüseyin Kulak",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BelAZ_75710_15.png",
+   "titulo": "File:BelAZ 75710 15.png",
+   "largura": 1280,
+   "altura": 720,
+   "rostos": 0,
+   "foco": {
+    "x": 38.1,
+    "y": 48.4
+   },
+   "borrada": "imagens/belaz-g-73ccc9dc-b.jpg"
+  },
+  "crawler-c": {
+   "arquivo": "imagens/crawler-c-974a7f52.jpg",
+   "rotulo": "Crawler-transporter 1",
+   "commons": "Crawler-transporter 1 NASA",
+   "autor": "NASA/KSC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:NASA_Crawler_Transporter_2_on_the_crawlerway.jpg",
+   "titulo": "File:NASA Crawler Transporter 2 on the crawlerway.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 40.6,
+    "y": 55.8
+   },
+   "borrada": "imagens/crawler-c-974a7f52-b.jpg"
+  },
+  "tbm-c": {
+   "arquivo": "imagens/tbm-c-77e7cfe6.jpg",
+   "rotulo": "Tuneladora rompendo a rocha",
+   "commons": "Tunnel boring machine breakthrough ceremony",
+   "autor": "Cooper.ch 16:58, 19 September 2006 (UTC)",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:TBM_S-210_Alptransit_Faido_East.jpg",
+   "titulo": "File:TBM S-210 Alptransit Faido East.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 3,
+   "foco": {
+    "x": 75.2,
+    "y": 46.5
+   },
+   "borrada": "imagens/tbm-c-77e7cfe6-b.jpg"
+  },
+  "bagger-e": {
+   "arquivo": "imagens/bagger-e-bd6ba18a.jpg",
+   "rotulo": "Bagger 288",
+   "commons": "Bucket-wheel excavator Bagger 288",
+   "autor": "Pappnaas666",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bagger_288_2012.jpg",
+   "titulo": "File:Bagger 288 2012.jpg",
+   "largura": 1920,
+   "altura": 1285,
+   "rostos": 0,
+   "foco": {
+    "x": 44.0,
+    "y": 51.2
+   },
+   "borrada": "imagens/bagger-e-bd6ba18a-b.jpg"
+  },
+  "terra": {
+   "arquivo": "imagens/terra-7bdde2c7.jpg",
+   "rotulo": "A Terra vista do espaço",
+   "commons": "Earth from space Apollo 17 Blue Marble",
+   "autor": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+   "titulo": "File:The Earth seen from Apollo 17.jpg",
+   "largura": 1920,
+   "altura": 1921,
+   "rostos": 0,
+   "foco": {
+    "x": 62.4,
+    "y": 66.2
+   },
+   "borrada": "imagens/terra-7bdde2c7-b.jpg"
+  },
+  "terra-noite": {
+   "arquivo": "imagens/terra-noite-2e3f1176.jpg",
+   "rotulo": "A Terra à noite",
+   "commons": "Earth night lights NASA",
+   "autor": "NASA images by Reto Stöckli, based on data from NASA and NOAA. Instrument: Terra - MODIS",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Blue_Marble_Western_Hemisphere.jpg",
+   "titulo": "File:Blue Marble Western Hemisphere.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 50.8,
+    "y": 61.2
+   },
+   "borrada": "imagens/terra-noite-2e3f1176-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-28T17:56:05.483Z",
   "fila": true
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -82,6 +7531,54 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipedia — Bagger 293",
+   "url": "https://en.wikipedia.org/wiki/Bagger_293"
+  },
+  {
+   "titulo": "Wikipedia — BelAZ 75710",
+   "url": "https://en.wikipedia.org/wiki/BelAZ_75710"
+  },
+  {
+   "titulo": "Wikipedia — Crawler-transporter",
+   "url": "https://en.wikipedia.org/wiki/Crawler-transporter"
+  },
+  {
+   "titulo": "Wikipedia — Tunnel boring machine",
+   "url": "https://en.wikipedia.org/wiki/Tunnel_boring_machine"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "A máquina de 14 mil toneladas que quase ninguém conhece",
+   "4 máquinas gigantes que mudam o mundo (e seus limites)",
+   "Bagger 293, BelAZ, Bertha: gigantes da engenharia"
+  ],
+  "descricao": "Quatro máquinas fora de escala: a escavadeira Bagger 293, o caminhão BelAZ 75710, o crawler-transporter da NASA e as tuneladoras, incluindo a Bertha, que ficou parada por mais de dois anos. Além do que elas fazem, analisamos o preço de construir grande demais.\n\n0:00 Gancho\n0:30 O que você vai ver\n1:05 Capítulo 1: Bagger 293\n2:35 Capítulo 2: BelAZ 75710\n4:05 Capítulo 3: Crawler-transporter da NASA\n5:20 Capítulo 4: Tuneladoras e a Bertha\n7:30 Desfecho\n\nFontes: Wikipedia (Bagger 293, BelAZ 75710, Crawler-transporter, Tunnel boring machine).",
+  "tags": [
+   "máquinas gigantes",
+   "engenharia",
+   "Bagger 293",
+   "BelAZ 75710",
+   "crawler-transporter",
+   "NASA",
+   "tuneladora",
+   "Bertha",
+   "mineração",
+   "tecnologia",
+   "curiosidades",
+   "Inova Mundo"
+  ]
  }
 }
