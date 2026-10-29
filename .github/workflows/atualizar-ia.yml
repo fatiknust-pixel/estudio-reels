@@ -10,6 +10,10 @@ on:
         description: "id do projeto (pasta em projetos/)"
         required: true
         type: string
+      audio:
+        description: "Usar a narração gravada que o app mandou para o ramo envio/<id>"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -46,9 +50,29 @@ jobs:
           pip install edge-tts==7.3.1 opencv-python-headless==4.10.0.84
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
 
+      - name: Modelos do Whisper (cache)
+        if: inputs.audio
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-medium-v1
+
+      - name: Narração gravada (limpar, transcrever, cortar por cena)
+        if: inputs.audio
+        run: |
+          pip install -r .github/requisitos-bruto.txt
+          curl -sSfL -o deep-filter "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl"
+          chmod +x deep-filter
+          git fetch -q --depth=1 origin "envio/$ID"
+          mkdir -p out/envio && git archive FETCH_HEAD | tar -x -C out/envio
+          cat $(ls out/envio/parte-* | sort) > out/narracao-original
+          mkdir -p out && cp "projetos/$ID/projeto.json" out/projeto.json
+          python3 scripts/voz_propria.py out/projeto.json --original out/narracao-original --midia "projetos/$ID" --deepfilter ./deep-filter
+          rm -f deep-filter
+
       - name: Voz e imagens
         run: |
-          mkdir -p out && cp "projetos/$ID/projeto.json" out/projeto.json
+          mkdir -p out && [ -f out/projeto.json ] || cp "projetos/$ID/projeto.json" out/projeto.json
           python3 scripts/voz.py out/projeto.json --midia "projetos/$ID"
           node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID"
           python3 scripts/enquadrar.py out/projeto.json --midia "projetos/$ID"
@@ -56,7 +80,11 @@ jobs:
       - name: Salvar
         run: |
           scripts/salvar_no_repo.sh "Atualiza voz e imagens de $ID" python3 scripts/aplicar_resultado.py "projetos/$ID/projeto.json" \
-            --resultado out/projeto.json --campos narracao,imagens --limpar-midia
+            --resultado out/projeto.json --campos narracao,imagens,voz --limpar-midia
+
+      - name: Apagar o ramo temporário da narração
+        if: inputs.audio
+        run: git push -q origin --delete "envio/$ID" || true
 
       - name: Marcar erro no projeto
         if: failure()

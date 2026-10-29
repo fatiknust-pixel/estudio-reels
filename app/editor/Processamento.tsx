@@ -61,6 +61,7 @@ export const Processamento: React.FC<{ projeto: Projeto; aoConcluir: (p: Projeto
         const novo: Projeto = { ...projeto, status: "processando", processamento: { ...projeto.processamento, workflow: wf, pedidoEm: new Date().toISOString(), erro: undefined } };
         const salvo = await salvarNoGitHub(novo);
         const inputs: Record<string, string> = { projeto: projeto.id };
+        if (wf === "atualizar-ia.yml" && projeto.processamento?.audio) inputs.audio = "true";
         if (wf === "processar-bruto.yml") Object.assign(inputs, { etapa: "tudo", ia: String(projeto.processamento?.ia ?? true), modelo: projeto.processamento?.modelo ?? "medium" });
         await gh.dispararWorkflow(wf, inputs);
         aoConcluir(salvo);

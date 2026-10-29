@@ -15,7 +15,7 @@ import { PainelLegendas } from "../editor/PainelLegendas";
 import { Processamento } from "../editor/Processamento";
 import { arquivoProjeto } from "../../src/arquivos";
 import { local } from "../lib/local";
-import { carregarArquivos, carregarProjeto, ehDemo, esquecerUrl, marcarSujo, pedirAtualizacaoIA, recarregarDoGitHub, salvarNoGitHub, salvarRascunho } from "../lib/projetos";
+import { carregarArquivos, carregarProjeto, ehDemo, esquecerUrl, marcarSujo, enviarNarracao, pedirAtualizacaoIA, recarregarDoGitHub, salvarNoGitHub, salvarRascunho } from "../lib/projetos";
 import { avisar, avisarErro, fmtTempo, ir } from "../ui";
 
 type Aba = "cenas" | "legendas" | "estilo" | "efeitos" | "cortes" | "imagens" | "ia" | "exportar";
@@ -134,13 +134,24 @@ export const Editor: React.FC<{ id: string }> = ({ id }) => {
       setArquivos((a) => ({ ...(a ?? {}), [caminho]: u }));
     },
     ehDemo: demo,
-    atualizarIA: async () => {
+    atualizarIA: async (mudar) => {
       if (demo) return avisar("No exemplo a voz não é refeita. Crie um projeto seu.", true);
       try {
-        const salvo = await pedirAtualizacaoIA(p, (m) => avisar(m));
+        const salvo = await pedirAtualizacaoIA(mudar ? { ...p, ...mudar } : p, (m) => avisar(m));
         primeiro.current = true;
         h.iniciar(salvo);
         avisar("Pedido ✓ — a voz nova aparece em ~1 min");
+      } catch (e) {
+        avisarErro(e);
+      }
+    },
+    enviarNarracao: async (arquivo, fase) => {
+      if (demo) return avisar("No exemplo a voz não é trocada. Crie um projeto seu.", true);
+      try {
+        const salvo = await enviarNarracao(p, arquivo, fase);
+        primeiro.current = true;
+        h.iniciar(salvo);
+        avisar("Narração enviada ✓ — limpar, transcrever e cortar leva ~5 min");
       } catch (e) {
         avisarErro(e);
       }
