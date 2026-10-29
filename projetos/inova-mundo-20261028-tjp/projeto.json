@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
- "atualizadoEm": "2026-10-28T17:56:05.483Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-29T00:49:29Z",
+ "status": "erro",
  "pedido": {
   "tema": "Evolução das montadoras de carros",
   "tom": "Curioso e analítico",
@@ -54,7 +54,8 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-29T00:44:46.770Z"
+  "pedidoEm": "2026-10-29T00:44:46.770Z",
+  "erro": "Falhou ao gerar o vídeo. Veja o log: https://github.com/fatiknust-pixel/estudio-reels/actions/runs/40796055605"
  },
  "legenda": {
   "fonte": "montserrat",
