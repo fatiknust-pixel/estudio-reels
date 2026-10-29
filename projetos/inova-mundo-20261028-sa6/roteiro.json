@@ -1,0 +1,189 @@
+{
+ "titulo": "Evolução do garimpo: da bateia à draga",
+ "estilo": {"dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo", "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite"},
+ "legenda": {"palavrasPorTela": 8},
+ "publicacao": {
+  "titulos": ["Do garimpo de Minas às dragas da Amazônia: o que mudou?", "A verdadeira história do garimpo no Brasil", "Serra Pelada, mercúrio e rios: a evolução do garimpo", "DA BATEIA À DRAGA"],
+  "descricao": "Como o garimpo de ouro saiu das bateias de Minas Gerais no século XVIII, passou por Serra Pelada nos anos 1980 e chegou às dragas e escavadeiras da Amazônia, com dados do MapBiomas sobre o garimpo em terras indígenas.\n\n0:00 Gancho\n0:25 Promessa\n0:50 Minas Gerais e o quinto\n2:20 Serra Pelada\n4:20 Da pá à máquina e o mercúrio\n5:50 Os números do MapBiomas\n6:50 Terras indígenas\n7:40 Desfecho\n\nFontes: MapBiomas (2022), IPAM (2024), IBRAM, NAEA/UFPA, Serviço Geológico do Brasil. Créditos das fotos abaixo.",
+  "tags": ["garimpo", "história do garimpo", "Serra Pelada", "ouro", "ciclo do ouro", "Minas Gerais", "Amazônia", "mercúrio", "MapBiomas", "Yanomami", "documentário", "Inova Mundo"]
+ },
+ "fontesPesquisa": [
+  {"titulo": "IBRAM — Serra Pelada foi o maior garimpo a céu aberto nos anos 80", "url": "https://ibram.org.br/?p=62679"},
+  {"titulo": "SGB — História da mineração no Brasil", "url": "https://p3m.sgb.gov.br/media/historia_mineracao.pdf"},
+  {"titulo": "Preparaenem — Ciclo do ouro", "url": "https://www.preparaenem.com/historia-do-brasil/ciclo-do-ouro.htm"},
+  {"titulo": "UFU — Os garimpos clandestinos de ouro em Minas: tradição e mudança", "url": "https://seer.ufu.br/index.php/historiaperspectivas/article/view/19115"},
+  {"titulo": "NAEA/UFPA — Serra Pelada (artigo acadêmico)", "url": "https://periodicos.ufpa.br/index.php/pnaea/article/viewFile/11954/8270"},
+  {"titulo": "Brasil de Fato — Garimpo da Amazônia está concentrado a menos de 500 m de cursos d'água (MapBiomas, dados de 2022)", "url": "https://www.brasildefato.com.br/2024/04/18/garimpo-da-amazonia-esta-concentrado-em-locais-a-menos-de-500-metros-de-cursos-d-agua"},
+  {"titulo": "IPAM — Nota técnica sobre garimpo em terras indígenas (2024)", "url": "https://ipam.org.br/wp-content/uploads/2024/04/NT11_portugues.pdf"}
+ ],
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Uma bacia de metal, um rio e muita paciência. Foi assim que o Brasil começou a caçar ouro. Trezentos anos depois, o mesmo sonho usa escavadeiras, balsas e aviões. O que mudou nesse caminho? E quanto custou?",
+   "galeria": ["bateia", "ouro-pepita", "escavadeira", "pista-pouso"],
+   "galeriaEm": [0, "metal", "escavadeiras", "aviões"],
+   "elementos": [{"tipo": "pergunta", "texto": "O QUE MUDOU?", "em": "mudou", "posicao": "alto"}]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nesta viagem, você vai ver como o garimpo saiu das bateias de Minas Gerais, passou pelo buraco gigante de Serra Pelada e chegou às dragas da Amazônia. No fim, vai entender por que a mesma palavra, garimpo, hoje significa coisas tão diferentes.",
+   "galeria": ["minas-mapa", "serra-pelada", "balsa", "rio-turvo"],
+   "galeriaEm": [0, "Serra", "dragas", "Amazônia"],
+   "elementos": [{"tipo": "titulo", "texto": "EVOLUÇÃO DO GARIMPO", "sub": "Do rio à máquina", "em": 0, "posicao": "topo"}]
+  },
+  {
+   "id": "minas-1",
+   "texto": "Começamos no fim do século dezessete. Bandeirantes encontram ouro de aluvião nas serras de Minas Gerais, perto de lugares como Sabará. Aluvião é o ouro solto no cascalho dos rios. Para tirá-lo, basta uma bateia: você gira a água, e o metal, mais pesado, fica no fundo.",
+   "galeria": ["sabara", "ouro-pepita", "lavagem-ouro", "bateia"],
+   "galeriaEm": [0, "Aluvião", "Para", "bateia"],
+   "fontes": ["SGB — História da mineração"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "1690: O OURO DE MINAS", "em": 0, "posicao": "topo"},
+    {"tipo": "definicao", "palavra": "Aluvião", "significado": "Ouro solto no cascalho dos rios", "em": "Aluvião", "posicao": "alto"}
+   ]
+  },
+  {
+   "id": "minas-2",
+   "texto": "A notícia corre, e gente de todo o Brasil e de Portugal vem para a região. Nasce a Vila Rica, a atual Ouro Preto. Mas a Coroa portuguesa quer a parte dela: o quinto, vinte por cento de todo o ouro. Quem tenta escapar do imposto vira contrabandista. Mas o que acontece quando o ouro de superfície acaba?",
+   "galeria": ["ouro-preto", "casa-contos", "barras-ouro", "lavagem-ouro"],
+   "galeriaEm": [0, "Coroa", "quinto", "contrabandista"],
+   "fontes": ["Preparaenem — Ciclo do ouro", "SGB"],
+   "elementos": [{"tipo": "tag", "texto": "IMPOSTO: 20%", "icone": "moeda", "cor": "amarelo", "em": "quinto", "posicao": "alto"}]
+  },
+  {
+   "id": "minas-trabalho",
+   "texto": "E quem fazia esse trabalho pesado? Em grande parte, pessoas escravizadas, trazidas da África para lavar cascalho com água até a cintura, dia após dia. O ouro que enriqueceu a Coroa e as igrejas barrocas de Minas nasceu, antes de tudo, do esforço forçado de milhares de pessoas. É uma parte da história que o brilho do metal costuma esconder.",
+   "galeria": ["lavagem-ouro", "bateia", "ouro-preto", "barras-ouro"],
+   "galeriaEm": [0, "lavar", "igrejas", "metal"],
+   "fontes": ["SGB — História da mineração"],
+   "elementos": [{"tipo": "titulo", "texto": "O PREÇO HUMANO", "em": 0, "posicao": "topo"}]
+  },
+  {
+   "id": "minas-3",
+   "texto": "A partir dos anos mil setecentos e sessenta, o ouro fácil de Minas diminui. Os impostos pesam, e em mil setecentos e oitenta e nove a revolta conhecida como Inconfidência Mineira tenta romper com Portugal. Antes, a capital da colônia já tinha saído de Salvador para o Rio de Janeiro, mais perto do ouro. O garimpo muda a geografia do país inteiro.",
+   "galeria": ["ouro-preto", "inconfidencia", "rio-colonial", "minas-mapa"],
+   "galeriaEm": [0, "Inconfidência", "capital", "garimpo"],
+   "fontes": ["Preparaenem — Ciclo do ouro"],
+   "elementos": [{"tipo": "linha", "itens": [["1690", "Ouro em Minas"], ["1760", "Ouro fácil diminui"], ["1789", "Inconfidência"]], "em": "anos", "posicao": "alto"}]
+  },
+  {
+   "id": "mundo",
+   "texto": "O ouro, aliás, já mexia com o mundo todo. Em mil oitocentos e quarenta e oito, acharam pepitas na Califórnia, e milhares de pessoas atravessaram um continente. Em mil oitocentos e oitenta e seis, foi a vez do Witwatersrand, na África do Sul. Só que o próximo grande capítulo brasileiro ainda estava longe, escondido em um morro no Pará.",
+   "galeria": ["california", "witwatersrand", "para-mapa", "serra-pelada"],
+   "galeriaEm": [0, "Witwatersrand", "capítulo", "morro"],
+   "elementos": [{"tipo": "linha", "itens": [["1848", "Califórnia"], ["1886", "África do Sul"]], "em": "mil", "posicao": "alto"}]
+  },
+  {
+   "id": "sp-0",
+   "texto": "Existem versões diferentes sobre como tudo começou. A mais conhecida diz que um homem chamado Genésio Ferreira da Silva viu brilho no chão ao cavar numa fazenda. Verdade ou não, a história se espalha como fogo no mato, e é o suficiente para atrair uma multidão que quer tentar a sorte.",
+   "galeria": ["para-mapa", "maraba", "sp-cava"],
+   "galeriaEm": [0, "Genésio", "multidão"],
+   "fontes": ["NAEA/UFPA"],
+   "elementos": [{"tipo": "tag", "texto": "VERSÕES DIFERENTES", "icone": "lupa", "cor": "cinza", "em": "versões", "posicao": "alto"}]
+  },
+  {
+   "id": "sp-1",
+   "texto": "Final de mil novecentos e setenta e nove, início de oitenta. Um morro no sul do Pará, perto de Marabá, revela ouro, e a notícia explode. Em poucos dias, mais de mil pessoas chegam. Em março de oitenta, já são mais de cinco mil. Nasce Serra Pelada, o maior garimpo a céu aberto da década.",
+   "galeria": ["maraba", "serra-pelada", "sacos-terra", "sp-cava"],
+   "galeriaEm": [0, "revela", "cinco", "Nasce"],
+   "fontes": ["NAEA/UFPA", "IBRAM"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "1980: SERRA PELADA", "em": 0, "posicao": "topo"},
+    {"tipo": "contador", "de": 1000, "ate": 5000, "unidade": "pessoas", "rotulo": "em março de 1980", "em": "cinco", "posicao": "alto"}
+   ]
+  },
+  {
+   "id": "sp-2",
+   "texto": "O governo federal manda o coronel Sebastião Curió organizar o lugar, e a cidade vizinha, Curionópolis, leva o apelido dele. Os garimpeiros escavam à mão, descendo escadas improvisadas e subindo com sacos de terra nas costas. Em mil novecentos e oitenta e três, o auge: catorze toneladas de ouro em um único ano, segundo registros oficiais.",
+   "galeria": ["curio", "curionopolis", "sacos-terra", "sp-cava", "barras-ouro"],
+   "galeriaEm": [0, "Curionópolis", "escavam", "escadas", "toneladas"],
+   "fontes": ["IBRAM"],
+   "elementos": [{"tipo": "contador", "de": 0, "ate": 14, "unidade": "toneladas", "rotulo": "de ouro em 1983", "em": "catorze", "posicao": "alto"}]
+  },
+  {
+   "id": "sp-3",
+   "texto": "Pelas contas do Ibram, mais de cem mil pessoas passaram por lá e tiraram mais de quarenta toneladas de ouro em dez anos. Mas o buraco foi ficando fundo e perigoso, a água subia, e em mil novecentos e noventa e dois o garimpo foi encerrado. Muita gente saiu com pouco, e a grande dúvida era: para onde iria essa multidão?",
+   "galeria": ["serra-pelada", "sacos-terra", "sp-cava", "tapajos"],
+   "galeriaEm": [0, "buraco", "água", "multidão"],
+   "fontes": ["IBRAM"],
+   "elementos": [{"tipo": "placar", "sim": 42, "nao": 100, "rotulo": "toneladas × mil pessoas", "rotuloSim": "Toneladas de ouro", "rotuloNao": "Mil garimpeiros", "em": "Pelas", "posicao": "alto"}]
+  },
+  {
+   "id": "amazonia",
+   "texto": "Parte dela seguiu os rios da Amazônia. O Tapajós virou símbolo desse movimento. E a ferramenta mudou: no lugar da pá, entram a balsa com draga, que suga o fundo do rio, e a escavadeira hidráulica. Uma equipe pequena, com máquina, move em um dia o que mil braços levavam semanas para mover.",
+   "galeria": ["tapajos", "balsa", "rio-turvo", "escavadeira"],
+   "galeriaEm": [0, "balsa", "suga", "escavadeira"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "DA PÁ À MÁQUINA", "em": 0, "posicao": "topo"},
+    {"tipo": "icones", "itens": [["ferramenta", "Pá"], ["seta", ""], ["engrenagem", "Draga"]], "em": "balsa", "posicao": "alto"}
+   ]
+  },
+  {
+   "id": "mercurio",
+   "texto": "Só que o ouro nem sempre aparece limpo. Para juntá-lo, muitos garimpos usam mercúrio, que gruda no metal e forma uma massa chamada amálgama. Depois, ao esquentar essa massa, o mercúrio evapora e vai para o ar, a água e os peixes. É um veneno que se acumula na cadeia alimentar, e o mundo passou a tratar isso como problema grave.",
+   "galeria": ["mercurio", "amalgama", "rio-turvo", "minamata"],
+   "galeriaEm": [0, "amálgama", "água", "mundo"],
+   "fontes": ["Greenpeace", "MapBiomas"],
+   "elementos": [{"tipo": "definicao", "palavra": "Amálgama", "significado": "Mistura de ouro com mercúrio", "em": "amálgama", "posicao": "alto"}]
+  },
+  {
+   "id": "virada",
+   "texto": "Agora vem o número que muda a conversa. Segundo o MapBiomas, em dois mil e vinte e dois, a Amazônia tinha cerca de duzentos e quarenta e um mil hectares de garimpo. E setenta e sete por cento disso ficava a menos de quinhentos metros de um curso d'água. O garimpo moderno não é só um buraco: é uma ferida ao longo dos rios.",
+   "galeria": ["satelite", "desmatamento", "rio-turvo", "balsa"],
+   "galeriaEm": [0, "Amazônia", "setenta", "garimpo"],
+   "fontes": ["MapBiomas 2022"],
+   "elementos": [
+    {"tipo": "contador", "de": 0, "ate": 241, "unidade": "mil hectares", "rotulo": "de garimpo na Amazônia em 2022", "em": "duzentos", "posicao": "alto"},
+    {"tipo": "placar", "sim": 77, "nao": 23, "rotulo": "Perto de rios", "rotuloSim": "A menos de 500 m da água", "rotuloNao": "Mais longe", "em": "setenta", "posicao": "alto2"}
+   ]
+  },
+  {
+   "id": "indigenas",
+   "texto": "Boa parte dessa área está em terras indígenas. O MapBiomas mostra que o garimpo dentro delas cresceu seiscentos e trinta e dois por cento entre dois mil e dez e dois mil e vinte e um. Kayapó, Munduruku e Yanomami concentram a maior parte: na Terra Yanomami, em Roraima, eram cerca de três mil e duzentos hectares em dois mil e vinte e dois.",
+   "galeria": ["yanomami", "kayapo", "munduruku", "aldeia-yanomami", "roraima"],
+   "galeriaEm": [0, "Kayapó", "Munduruku", "Terra", "Roraima"],
+   "fontes": ["MapBiomas", "IPAM 2024"],
+   "elementos": [{"tipo": "contador", "de": 0, "ate": 632, "unidade": "%", "rotulo": "de alta em terras indígenas, 2010–2021", "em": "seiscentos", "posicao": "alto"}]
+  },
+  {
+   "id": "dificil",
+   "texto": "Em áreas assim, o garimpo vive de logística: combustível, máquinas e comida chegam de avião, em pistas abertas na mata, e o ouro sai pelo mesmo caminho. Por isso o combate depende de satélite, de fiscais do Ibama e da Polícia Federal e de alguém que denuncie. E o povo que mora ali, como os Yanomami de Davi Kopenawa, pede proteção há décadas.",
+   "galeria": ["pista-pouso", "satelite", "ibama", "davi"],
+   "galeriaEm": [0, "satélite", "Ibama", "Davi"],
+   "fontes": ["IPAM", "MapBiomas"],
+   "elementos": [{"tipo": "pessoa", "imagem": "davi", "nome": "Davi Kopenawa", "cargo": "Líder yanomami", "em": "Davi", "posicao": "alto"}]
+  },
+  {
+   "id": "legal",
+   "texto": "Mas é justo dizer que nem todo garimpo é crime. A Constituição de mil novecentos e oitenta e oito reconhece a atividade de cooperativas de garimpeiros, e existe a permissão de lavra garimpeira, dada pelo governo. O problema começa quando falta licença, quando se usa mercúrio de forma proibida ou quando a mina invade uma terra indígena, onde esse tipo de mineração não é permitido.",
+   "galeria": ["casa-contos", "amalgama", "yanomami", "ibama"],
+   "galeriaEm": [0, "mercúrio", "indígena", "permitido"],
+   "fontes": ["Constituição Federal 1988", "MapBiomas"],
+   "elementos": [
+    {"tipo": "check", "ok": true, "texto": "Garimpo com licença", "nota": "Permissão de lavra garimpeira", "em": "licença", "posicao": "alto"},
+    {"tipo": "check", "ok": false, "texto": "Garimpo em terra indígena", "nota": "Mineração não é permitida", "em": "invade", "posicao": "alto2"}
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então, o que mudou, afinal? A bateia virou draga, o rio virou estrada, e o ouro de aluvião virou mercadoria global. Existe garimpo com licença e existe o que escapa de qualquer regra, mas a escala é outra. O sonho de um pedacinho de ouro é o mesmo de trezentos anos atrás, e o preço agora se paga em floresta e em saúde.",
+   "galeria": ["bateia", "balsa", "barras-ouro", "amalgama", "aldeia-yanomami"],
+   "galeriaEm": [0, "draga", "global", "preço", "saúde"],
+   "elementos": [{"tipo": "titulo", "texto": "O SONHO É O MESMO", "em": 0, "posicao": "topo"}]
+  },
+  {
+   "id": "anel",
+   "texto": "E sabe de onde vem o ouro das alianças, das joias e até dos circuitos do seu celular? Em parte, de lugares como esses. Vale perguntar de onde veio, antes de comprar.",
+   "galeria": ["aliancas", "celular", "joias"],
+   "galeriaEm": [0, "circuitos", "Vale"],
+   "elementos": [{"tipo": "pergunta", "texto": "DE ONDE VEIO?", "em": "onde", "posicao": "alto"}]
+  },
+  {
+   "id": "fecho",
+   "texto": "Se você gostou desta viagem, inscreva-se no canal Inova Mundo. No próximo vídeo, tem mais bastidores de como o mundo funciona.",
+   "galeria": ["serra-pelada", "sp-cava"],
+   "galeriaEm": [0, "inscreva-se"],
+   "elementos": [{"tipo": "seguir", "texto": "INSCREVA-SE", "em": "inscreva-se", "posicao": "alto"}]
+  }
+ ]
+}
