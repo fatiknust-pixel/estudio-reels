@@ -111,14 +111,28 @@ jobs:
             5. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija até aparecer "✅ Roteiro válido"
                (trate também os avisos de duração e de fontes).
 
+            Só termine depois de gravar os dois arquivos com a ferramenta Write; se algo do pedido parecer estranho ou repetido,
+            escolha a interpretação mais provável e escreva mesmo assim (ninguém vai responder perguntas).
             Não altere nenhum outro arquivo e não faça commit.
           claude_args: |
             --model sonnet
             --max-turns 140
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(node scripts/validar-roteiro.mjs:*),Bash(node scripts/estilo-ia.mjs:*)"
 
+      - name: O Claude escreveu o roteiro?
+        id: conferir1
+        if: always()
+        run: |
+          # o Claude às vezes encerra "com sucesso" sem escrever os arquivos: mostra a resposta final e o que foi negado
+          saida=/home/runner/work/_temp/claude-execution-output.json
+          if [ -f "$saida" ]; then
+            jq -r '[.[] | select(.type == "result")][-1] | "Resposta final do Claude:\n\(.result // "(vazia)")\n\nNegado: \([.permission_denials[]? | .tool_name + " " + ((.tool_input.command // .tool_input.file_path // .tool_input.url // "") | tostring)] | join(" | "))"' "$saida" || true
+          fi
+          if [ -f "projetos/$ID/roteiro.json" ] && [ -f "projetos/$ID/imagens.json" ]; then echo "faltou=false" >> "$GITHUB_OUTPUT"
+          else echo "::warning::O Claude terminou sem escrever roteiro.json/imagens.json"; echo "faltou=true" >> "$GITHUB_OUTPUT"; fi
+
       - name: Esperar antes da 2ª tentativa
-        if: steps.claude1.outcome == 'failure'
+        if: steps.claude1.outcome == 'failure' || steps.conferir1.outputs.faltou == 'true'
         run: |
           echo "::warning::1ª tentativa do Claude falhou — tentando mais uma vez"
           rm -f "projetos/$ID/roteiro.json" "projetos/$ID/imagens.json"
@@ -126,7 +140,7 @@ jobs:
 
       - name: Claude pesquisa e escreve o roteiro (2ª tentativa)
         id: claude2
-        if: steps.claude1.outcome == 'failure'
+        if: steps.claude1.outcome == 'failure' || steps.conferir1.outputs.faltou == 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -154,6 +168,8 @@ jobs:
             5. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija até aparecer "✅ Roteiro válido"
                (trate também os avisos de duração e de fontes).
 
+            Só termine depois de gravar os dois arquivos com a ferramenta Write; se algo do pedido parecer estranho ou repetido,
+            escolha a interpretação mais provável e escreva mesmo assim (ninguém vai responder perguntas).
             Não altere nenhum outro arquivo e não faça commit.
           claude_args: |
             --model sonnet
