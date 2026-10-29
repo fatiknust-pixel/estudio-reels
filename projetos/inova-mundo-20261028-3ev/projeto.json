@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
- "atualizadoEm": "2026-10-29T12:19:08Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-29T12:19:58Z",
+ "status": "erro",
  "pedido": {
   "tema": "Maquinários que você não conhecia",
   "tom": "Curioso e analítico",
@@ -7505,7 +7505,8 @@
  },
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-29T12:19:15.164Z"
+  "pedidoEm": "2026-10-29T12:19:15.164Z",
+  "erro": "Pausado: a última geração falhou mesmo com 2 tentativas (há 92 min). Provável limite da assinatura ou erro que se repete. Veja https://github.com/fatiknust-pixel/estudio-reels/actions/runs/40859798468 e tente de novo mais tarde."
  },
  "legenda": {
   "fonte": "poppins",
