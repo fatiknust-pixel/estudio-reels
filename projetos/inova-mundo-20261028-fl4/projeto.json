@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.484Z",
- "atualizadoEm": "2026-10-28T17:56:05.484Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-29T12:50:32Z",
+ "status": "pronto",
  "pedido": {
   "tema": "As construções que mudaram o mundo",
   "tom": "Curioso e analítico",
@@ -53,15 +53,7351 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em mil oitocentos e oitenta e cinco, um prédio de dez andares surgiu em Chicago e deixou engenheiros do mundo todo desconfiados. Ele não era o mais alto da cidade, nem o mais bonito. Mas escondia, dentro das paredes, uma ideia capaz de derrubar quase tudo o que se sabia sobre construir. E essa ideia dependia de um material que os romanos dominavam quase dois mil anos antes.",
+   "galeria": [
+    "home-1",
+    "chicago-1880",
+    "jenney",
+    "panteao-interior"
+   ],
+   "galeriaEm": [
+    0,
+    "alto",
+    "escondia",
+    "dependia"
+   ],
+   "fontes": [
+    "Britannica"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DEZ ANDARES, 1885",
+     "sub": "Chicago",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1885,
+     "unidade": " d.C.",
+     "rotulo": "o ano em que tudo mudou",
+     "em": "mil",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Hoje vamos percorrer quatro obras que mudaram o que a humanidade consegue construir. Uma cúpula romana, um prédio de aço, um canal que cortou um continente e uma torre de oitocentos metros. Parecem histórias separadas, mas existe um fio que liga todas elas. No fim, você vai entender por que a última obra só existe por causa da primeira.",
+   "galeria": [
+    "comparacao-alturas",
+    "panteao",
+    "roma-antiga",
+    "burj"
+   ],
+   "galeriaEm": [
+    0,
+    "cúpula",
+    "Parecem",
+    "entender"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "126",
+       "Panteão"
+      ],
+      [
+       "1885",
+       "Aço"
+      ],
+      [
+       "1914",
+       "Panamá"
+      ],
+      [
+       "2010",
+       "Burj"
+      ]
+     ],
+     "em": "cúpula",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pantheon-1",
+   "texto": "Capítulo um. Roma, por volta do ano cento e vinte e seis. O imperador Adriano manda concluir o Panteão, um templo com uma cúpula que ninguém sabia como sustentar. Ela mede quarenta e três metros e trinta centímetros de diâmetro, e a altura até o topo é exatamente a mesma. Uma esfera perfeita caberia lá dentro. E durante mais de mil anos, nenhuma cúpula do mundo foi maior. No centro, um buraco de oito metros deixa a chuva e a luz entrarem direto. O segredo estava na receita do material, não no desenho.",
+   "galeria": [
+    "roma-antiga",
+    "adriano",
+    "panteao-interior",
+    "caixotoes",
+    "oculo",
+    "concreto-romano"
+   ],
+   "galeriaEm": [
+    0,
+    "Adriano",
+    "mede",
+    "esfera",
+    "centro",
+    "segredo"
+   ],
+   "fontes": [
+    "Britannica",
+    "Guinness"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "PANTEÃO",
+     "sub": "Roma, c. 126 d.C.",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 43.3,
+     "unidade": " m",
+     "rotulo": "diâmetro da cúpula",
+     "em": "mede",
+     "posicao": "meio",
+     "decimais": 1
+    }
+   ]
+  },
+  {
+   "id": "pantheon-2",
+   "texto": "Os romanos misturavam cal, pedras e cinza vulcânica, chamada pozolana, extraída perto de Nápoles. Esse concreto endurece até debaixo d'água e aguenta séculos de terremotos e enchentes. Para aliviar o peso, eles usavam pedras mais leves quanto mais alto subiam na cúpula. Pesquisadores do MIT, em dois mil e vinte e três, sugeriram que pedaços de cal viva ajudam o concreto a se curar sozinho. Sem nenhum aço para segurá-la, a cúpula ficou de pé por quase dois mil anos. Mas aquele concreto tinha um limite: não crescia para cima. Quem quebrou esse limite foi um engenheiro em Chicago.",
+   "galeria": [
+    "cinza-vulcanica",
+    "aqueduto",
+    "santa-maria-martires",
+    "concreto-romano-lab",
+    "coliseu",
+    "chicago-1880"
+   ],
+   "galeriaEm": [
+    0,
+    "endurece",
+    "aliviar",
+    "Pesquisadores",
+    "nenhum",
+    "aquele"
+   ],
+   "fontes": [
+    "Science Advances 2023",
+    "Guinness"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "POZOLANA",
+     "significado": "cinza vulcânica que faz o concreto endurecer",
+     "em": "cinza",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Sem reforço de aço",
+     "nota": "a maior cúpula de concreto sem armadura",
+     "em": "nenhum",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "aco-1",
+   "texto": "Capítulo dois. Chicago, mil oitocentos e setenta e um. Um incêndio destrói a cidade, e a reconstrução vira um laboratório. Os terrenos custavam caro, então a saída era subir. Havia só um problema: as paredes de pedra. Quanto mais alto o prédio, mais grossa a parede da base, e menos espaço sobrava dentro. O engenheiro William Le Baron Jenney teve a ideia de montar um esqueleto metálico e pendurar as paredes nele. O Home Insurance Building ficou pronto em mil oitocentos e oitenta e cinco, com dez andares e cerca de quarenta e dois metros.",
+   "galeria": [
+    "incendio-chicago",
+    "chicago-ruinas",
+    "chicago-1880",
+    "rookery",
+    "jenney",
+    "home-1"
+   ],
+   "galeriaEm": [
+    0,
+    "incêndio",
+    "terrenos",
+    "Quanto",
+    "engenheiro",
+    "Home"
+   ],
+   "fontes": [
+    "Britannica",
+    "Chicago Architecture Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O ESQUELETO DE AÇO",
+     "sub": "Chicago, 1885",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pessoa",
+     "imagem": "jenney",
+     "nome": "William Le Baron Jenney",
+     "cargo": "engenheiro e arquiteto",
+     "em": "engenheiro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "aco-2",
+   "texto": "Muitos historiadores o consideram o primeiro arranha-céu da história, embora o título seja disputado. O peso agora descia pelas vigas e colunas, e as paredes viraram só uma pele, leve e fina. O aço barato do processo Bessemer e o elevador de segurança de Elisha Otis fecharam a conta. Otis mostrou em mil oitocentos e cinquenta e quatro que o cabo podia se romper sem o elevador cair. Em poucas décadas vieram o Flatiron, o Empire State e as cidades cheias de torres. O Home Insurance foi demolido em mil novecentos e trinta e um. Mas e se o próximo desafio fosse cortar um continente ao meio?",
+   "galeria": [
+    "chicago-hoje",
+    "viga-aco",
+    "bessemer",
+    "elevador-otis",
+    "empire-1931",
+    "home-demolicao"
+   ],
+   "galeriaEm": [
+    0,
+    "peso",
+    "barato",
+    "mostrou",
+    "poucas",
+    "demolido"
+   ],
+   "fontes": [
+    "Britannica",
+    "Chicago Architecture Center"
+   ],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "raio",
+       "Aço"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "predio",
+       "Altura"
+      ]
+     ],
+     "em": "peso",
+     "posicao": "alto2"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "ESQUELETO",
+     "significado": "vigas e colunas carregam o peso, não as paredes",
+     "em": "descia",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "panama-1",
+   "texto": "Capítulo três. Em mil novecentos e catorze, a rota entre os oceanos se encurtou de um dia para outro. Antes, um navio de Nova York a São Francisco contornava a América do Sul pelo temido Cabo Horn. Eram cerca de quinze mil quilômetros a mais, semanas de mar e tempestade. A ideia de cortar o Panamá era antiga. Quem tentou primeiro foi o francês Ferdinand de Lesseps, o homem do Canal de Suez. Ele começou em mil oitocentos e oitenta e um, com um plano de canal ao nível do mar. Mas a selva, a chuva e as doenças venceram o projeto, e a empresa francesa quebrou.",
+   "galeria": [
+    "ancon-1914",
+    "cabo-horn",
+    "mapa-panama",
+    "lesseps",
+    "suez",
+    "operarios"
+   ],
+   "galeriaEm": [
+    0,
+    "Antes",
+    "cerca",
+    "ideia",
+    "começou",
+    "selva"
+   ],
+   "fontes": [
+    "Autoridade do Canal do Panamá",
+    "Britannica"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CANAL DO PANAMÁ",
+     "sub": "1881 – 1914",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Atlântico",
+     "para": "Pacífico",
+     "legenda": "cerca de 15 mil km a menos",
+     "em": "quinze",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "panama-2",
+   "texto": "Em mil novecentos e quatro, os Estados Unidos assumem a obra com duas mudanças decisivas. A primeira foi sanitária. O médico William Gorgas combateu os mosquitos que espalhavam febre amarela e malária. A segunda foi de engenharia: em vez de escavar até o nível do mar, criar um lago no meio do caminho. Os navios sobem por eclusas, atravessam o lago Gatún e descem do outro lado, como degraus de água. No Corte Culebra, escavadeiras a vapor abriram a montanha por anos, e milhares de operários morreram na obra. Em quinze de agosto de mil novecentos e catorze, o navio Ancón fez a primeira travessia oficial.",
+   "galeria": [
+    "teddy",
+    "gorgas",
+    "lago-gatun",
+    "eclusas-gatun",
+    "culebra",
+    "ancon-1914"
+   ],
+   "galeriaEm": [
+    0,
+    "sanitária",
+    "segunda",
+    "navios",
+    "Corte",
+    "agosto"
+   ],
+   "fontes": [
+    "Autoridade do Canal do Panamá",
+    "Britannica"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 82,
+     "unidade": " km",
+     "rotulo": "de extensão do canal",
+     "em": "eclusas",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "1914",
+     "cor": "verde",
+     "em": "agosto",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "panama-3",
+   "texto": "O canal mudou o mapa do comércio e quase nunca parou desde então. Em dois mil e dezesseis, novas eclusas permitiram a passagem de navios muito maiores. Foi a prova de que uma obra do começo do século vinte ainda podia crescer. Mas a pergunta seguinte era mais ousada: até que altura a humanidade poderia levantar um prédio?",
+   "galeria": [
+    "canal-panama",
+    "novas-eclusas",
+    "navio-neopanamax",
+    "burj-topo"
+   ],
+   "galeriaEm": [
+    0,
+    "dezesseis",
+    "prova",
+    "pergunta"
+   ],
+   "fontes": [
+    "Autoridade do Canal do Panamá"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1881",
+       "França começa"
+      ],
+      [
+       "1904",
+       "EUA assumem"
+      ],
+      [
+       "1914",
+       "Abertura"
+      ],
+      [
+       "2016",
+       "Ampliação"
+      ]
+     ],
+     "em": "comércio",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "burj-1",
+   "texto": "Capítulo quatro. Dubai, dois mil e quatro. Em pleno deserto, começa a construção de uma torre sem precedentes. O arquiteto Adrian Smith precisava de um formato que não fosse derrubado pelo vento. A solução foi uma planta em forma de Y, inspirada numa flor do deserto, a hymenocallis. Cada ala se apoia nas outras e quebra o vento, que não consegue formar grandes redemoinhos. Modelos foram testados em túneis de vento durante meses, até a forma final ficar pronta. Mesmo assim, ainda faltava saber como levar o concreto até o céu.",
+   "galeria": [
+    "dubai-1990",
+    "adrian-smith",
+    "hymenocallis",
+    "burj-planta-y",
+    "tunel-vento",
+    "burj-obra"
+   ],
+   "galeriaEm": [
+    0,
+    "arquiteto",
+    "solução",
+    "Cada",
+    "Modelos",
+    "Mesmo"
+   ],
+   "fontes": [
+    "Skidmore, Owings & Merrill",
+    "Emaar"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "BURJ KHALIFA",
+     "sub": "Dubai, 2004 – 2010",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "PLANTA EM Y",
+     "significado": "três alas que se apoiam e reduzem o efeito do vento",
+     "em": "planta",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "burj-2-virada",
+   "texto": "E aqui está a virada. O núcleo do Burj Khalifa é feito de concreto armado, o mesmo material dos romanos. Os engenheiros criaram misturas muito resistentes e bombearam o concreto a mais de seiscentos metros de altura, um recorde na época. Para a mistura não endurecer no caminho, boa parte da obra foi feita de madrugada, com gelo na massa. A torre foi inaugurada em quatro de janeiro de dois mil e dez, com oitocentos e vinte e oito metros e cento e sessenta e três andares. Ou seja: o Panteão, o aço de Chicago e a engenharia do Panamá se encontram numa única torre. Ela é quase três vezes mais alta que a Torre Eiffel de mil oitocentos e oitenta e nove.",
+   "galeria": [
+    "burj-nucleo",
+    "bomba-concreto",
+    "burj-fachada",
+    "burj-inauguracao",
+    "burj",
+    "burj-mirante",
+    "eiffel-1889"
+   ],
+   "galeriaEm": [
+    0,
+    "engenheiros",
+    "endurecer",
+    "inaugurada",
+    "Panteão",
+    "única",
+    "quase"
+   ],
+   "fontes": [
+    "Emaar",
+    "CTBUH"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "CONCRETO",
+     "cor": "amarelo",
+     "em": "concreto",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 828,
+     "unidade": " m",
+     "rotulo": "altura do Burj Khalifa",
+     "em": "oitocentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Voltando ao gancho: o prédio de Chicago assustou os engenheiros porque provou que uma parede não precisava segurar um edifício. Foi esse salto que deixou o concreto subir de verdade, nas costas do aço. O Panteão ensinou a vencer o vão, o prédio de aço ensinou a vencer a altura, o Panamá ensinou a vencer a distância. E o Burj Khalifa mostrou que cada limite que parecia final era apenas a próxima obra esperando alguém. Hoje, mais da metade da humanidade vive em cidades, e todas elas dependem dessas ideias. Uma pergunta para você: qual será o próximo limite que a engenharia vai derrubar?",
+   "galeria": [
+    "home-demolicao",
+    "viga-aco",
+    "panteao",
+    "dubai-hoje",
+    "cidades",
+    "terra-noite"
+   ],
+   "galeriaEm": [
+    0,
+    "salto",
+    "Panteão",
+    "Burj",
+    "Hoje",
+    "pergunta"
+   ],
+   "fontes": [
+    "ONU — World Urbanization Prospects"
+   ],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "casa",
+       "Vão"
+      ],
+      [
+       "predio",
+       "Altura"
+      ],
+      [
+       "globo",
+       "Distância"
+      ]
+     ],
+     "em": "vencer",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "QUAL O PRÓXIMO LIMITE?",
+     "em": "pergunta",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Se você gostou dessa viagem, se inscreva no canal Inova Mundo. No próximo vídeo, vamos descobrir como as grandes obras dão certo antes mesmo da primeira escavação.",
+   "galeria": [
+    "manhattan",
+    "willis"
+   ],
+   "galeriaEm": [
+    0,
+    "próximo"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "seguir",
+     "texto": "INSCREVA-SE",
+     "em": "inscreva",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "b77a1b0089",
+   "texto": "Em mil oitocentos e oitenta e cinco, um prédio de dez andares surgiu em Chicago e deixou engenheiros do mundo todo desconfiados. Ele não era o mais alto da cidade, nem o mais bonito. Mas escondia, dentro das paredes, uma ideia capaz de derrubar quase tudo o que se sabia sobre construir. E essa ideia dependia de um material que os romanos dominavam quase dois mil anos antes.",
+   "audio": "audio/gancho-b77a1b0089.mp3",
+   "duracao": 27.768,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "mil",
+     "i": 0.284,
+     "f": 0.441
+    },
+    {
+     "p": "oitocentos",
+     "i": 0.454,
+     "f": 1.079
+    },
+    {
+     "p": "e",
+     "i": 1.092,
+     "f": 1.183
+    },
+    {
+     "p": "oitenta",
+     "i": 1.196,
+     "f": 1.495
+    },
+    {
+     "p": "e",
+     "i": 1.508,
+     "f": 1.534
+    },
+    {
+     "p": "cinco",
+     "i": 1.547,
+     "f": 1.964
+    },
+    {
+     "p": "um",
+     "i": 2.211,
+     "f": 2.355
+    },
+    {
+     "p": "prédio",
+     "i": 2.368,
+     "f": 2.758
+    },
+    {
+     "p": "de",
+     "i": 2.771,
+     "f": 2.876
+    },
+    {
+     "p": "dez",
+     "i": 2.889,
+     "f": 3.045
+    },
+    {
+     "p": "andares",
+     "i": 3.058,
+     "f": 3.631
+    },
+    {
+     "p": "surgiu",
+     "i": 3.644,
+     "f": 4.086
+    },
+    {
+     "p": "em",
+     "i": 4.099,
+     "f": 4.165
+    },
+    {
+     "p": "Chicago",
+     "i": 4.178,
+     "f": 4.712
+    },
+    {
+     "p": "e",
+     "i": 4.724,
+     "f": 4.751
+    },
+    {
+     "p": "deixou",
+     "i": 4.764,
+     "f": 5.141
+    },
+    {
+     "p": "engenheiros",
+     "i": 5.154,
+     "f": 5.727
+    },
+    {
+     "p": "do",
+     "i": 5.74,
+     "f": 5.87
+    },
+    {
+     "p": "mundo",
+     "i": 5.883,
+     "f": 6.274
+    },
+    {
+     "p": "todo",
+     "i": 6.287,
+     "f": 6.626
+    },
+    {
+     "p": "desconfiados",
+     "i": 6.639,
+     "f": 7.602
+    },
+    {
+     "p": "Ele",
+     "i": 8.862,
+     "f": 9.057
+    },
+    {
+     "p": "não",
+     "i": 9.07,
+     "f": 9.24
+    },
+    {
+     "p": "era",
+     "i": 9.253,
+     "f": 9.383
+    },
+    {
+     "p": "o",
+     "i": 9.396,
+     "f": 9.422
+    },
+    {
+     "p": "mais",
+     "i": 9.435,
+     "f": 9.643
+    },
+    {
+     "p": "alto",
+     "i": 9.656,
+     "f": 9.995
+    },
+    {
+     "p": "da",
+     "i": 10.008,
+     "f": 10.099
+    },
+    {
+     "p": "cidade",
+     "i": 10.112,
+     "f": 10.633
+    },
+    {
+     "p": "nem",
+     "i": 10.867,
+     "f": 11.063
+    },
+    {
+     "p": "o",
+     "i": 11.076,
+     "f": 11.128
+    },
+    {
+     "p": "mais",
+     "i": 11.141,
+     "f": 11.388
+    },
+    {
+     "p": "bonito",
+     "i": 11.401,
+     "f": 11.896
+    },
+    {
+     "p": "Mas",
+     "i": 13.158,
+     "f": 13.353
+    },
+    {
+     "p": "escondia",
+     "i": 13.366,
+     "f": 14.122
+    },
+    {
+     "p": "dentro",
+     "i": 14.356,
+     "f": 14.695
+    },
+    {
+     "p": "das",
+     "i": 14.708,
+     "f": 14.877
+    },
+    {
+     "p": "paredes",
+     "i": 14.89,
+     "f": 15.45
+    },
+    {
+     "p": "uma",
+     "i": 15.775,
+     "f": 15.932
+    },
+    {
+     "p": "ideia",
+     "i": 15.945,
+     "f": 16.257
+    },
+    {
+     "p": "capaz",
+     "i": 16.27,
+     "f": 16.648
+    },
+    {
+     "p": "de",
+     "i": 16.661,
+     "f": 16.739
+    },
+    {
+     "p": "derrubar",
+     "i": 16.752,
+     "f": 17.208
+    },
+    {
+     "p": "quase",
+     "i": 17.221,
+     "f": 17.663
+    },
+    {
+     "p": "tudo",
+     "i": 17.676,
+     "f": 17.976
+    },
+    {
+     "p": "o",
+     "i": 17.989,
+     "f": 18.015
+    },
+    {
+     "p": "que",
+     "i": 18.028,
+     "f": 18.158
+    },
+    {
+     "p": "se",
+     "i": 18.171,
+     "f": 18.275
+    },
+    {
+     "p": "sabia",
+     "i": 18.288,
+     "f": 18.692
+    },
+    {
+     "p": "sobre",
+     "i": 18.705,
+     "f": 19.004
+    },
+    {
+     "p": "construir",
+     "i": 19.017,
+     "f": 19.629
+    },
+    {
+     "p": "E",
+     "i": 20.886,
+     "f": 21.003
+    },
+    {
+     "p": "essa",
+     "i": 21.016,
+     "f": 21.264
+    },
+    {
+     "p": "ideia",
+     "i": 21.277,
+     "f": 21.589
+    },
+    {
+     "p": "dependia",
+     "i": 21.602,
+     "f": 22.162
+    },
+    {
+     "p": "de",
+     "i": 22.175,
+     "f": 22.266
+    },
+    {
+     "p": "um",
+     "i": 22.279,
+     "f": 22.331
+    },
+    {
+     "p": "material",
+     "i": 22.344,
+     "f": 22.891
+    },
+    {
+     "p": "que",
+     "i": 22.904,
+     "f": 23.008
+    },
+    {
+     "p": "os",
+     "i": 23.021,
+     "f": 23.1
+    },
+    {
+     "p": "romanos",
+     "i": 23.113,
+     "f": 23.607
+    },
+    {
+     "p": "dominavam",
+     "i": 23.62,
+     "f": 24.232
+    },
+    {
+     "p": "quase",
+     "i": 24.245,
+     "f": 24.623
+    },
+    {
+     "p": "dois",
+     "i": 24.636,
+     "f": 24.883
+    },
+    {
+     "p": "mil",
+     "i": 24.896,
+     "f": 25.17
+    },
+    {
+     "p": "anos",
+     "i": 25.183,
+     "f": 25.417
+    },
+    {
+     "p": "antes",
+     "i": 25.43,
+     "f": 26.016
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "62e68b0a98",
+   "texto": "Hoje vamos percorrer quatro obras que mudaram o que a humanidade consegue construir. Uma cúpula romana, um prédio de aço, um canal que cortou um continente e uma torre de oitocentos metros. Parecem histórias separadas, mas existe um fio que liga todas elas. No fim, você vai entender por que a última obra só existe por causa da primeira.",
+   "audio": "audio/promessa-62e68b0a98.mp3",
+   "duracao": 25.652,
+   "palavras": [
+    {
+     "p": "Hoje",
+     "i": 0.102,
+     "f": 0.454
+    },
+    {
+     "p": "vamos",
+     "i": 0.467,
+     "f": 0.779
+    },
+    {
+     "p": "percorrer",
+     "i": 0.792,
+     "f": 1.339
+    },
+    {
+     "p": "quatro",
+     "i": 1.352,
+     "f": 1.769
+    },
+    {
+     "p": "obras",
+     "i": 1.782,
+     "f": 2.159
+    },
+    {
+     "p": "que",
+     "i": 2.172,
+     "f": 2.264
+    },
+    {
+     "p": "mudaram",
+     "i": 2.277,
+     "f": 2.758
+    },
+    {
+     "p": "o",
+     "i": 2.771,
+     "f": 2.823
+    },
+    {
+     "p": "que",
+     "i": 2.836,
+     "f": 2.902
+    },
+    {
+     "p": "a",
+     "i": 2.915,
+     "f": 2.98
+    },
+    {
+     "p": "humanidade",
+     "i": 2.993,
+     "f": 3.566
+    },
+    {
+     "p": "consegue",
+     "i": 3.579,
+     "f": 4.086
+    },
+    {
+     "p": "construir",
+     "i": 4.099,
+     "f": 4.672
+    },
+    {
+     "p": "Uma",
+     "i": 5.934,
+     "f": 6.181
+    },
+    {
+     "p": "cúpula",
+     "i": 6.194,
+     "f": 6.585
+    },
+    {
+     "p": "romana",
+     "i": 6.598,
+     "f": 7.08
+    },
+    {
+     "p": "um",
+     "i": 7.392,
+     "f": 7.536
+    },
+    {
+     "p": "prédio",
+     "i": 7.549,
+     "f": 7.926
+    },
+    {
+     "p": "de",
+     "i": 7.939,
+     "f": 8.083
+    },
+    {
+     "p": "aço",
+     "i": 8.096,
+     "f": 8.447
+    },
+    {
+     "p": "um",
+     "i": 8.694,
+     "f": 8.812
+    },
+    {
+     "p": "canal",
+     "i": 8.825,
+     "f": 9.189
+    },
+    {
+     "p": "que",
+     "i": 9.202,
+     "f": 9.32
+    },
+    {
+     "p": "cortou",
+     "i": 9.333,
+     "f": 9.697
+    },
+    {
+     "p": "um",
+     "i": 9.71,
+     "f": 9.814
+    },
+    {
+     "p": "continente",
+     "i": 9.827,
+     "f": 10.4
+    },
+    {
+     "p": "e",
+     "i": 10.413,
+     "f": 10.426
+    },
+    {
+     "p": "uma",
+     "i": 10.439,
+     "f": 10.609
+    },
+    {
+     "p": "torre",
+     "i": 10.622,
+     "f": 10.934
+    },
+    {
+     "p": "de",
+     "i": 10.947,
+     "f": 11.038
+    },
+    {
+     "p": "oitocentos",
+     "i": 11.051,
+     "f": 11.767
+    },
+    {
+     "p": "metros",
+     "i": 11.78,
+     "f": 12.327
+    },
+    {
+     "p": "Parecem",
+     "i": 13.566,
+     "f": 14.087
+    },
+    {
+     "p": "histórias",
+     "i": 14.1,
+     "f": 14.543
+    },
+    {
+     "p": "separadas",
+     "i": 14.556,
+     "f": 15.311
+    },
+    {
+     "p": "mas",
+     "i": 15.558,
+     "f": 15.688
+    },
+    {
+     "p": "existe",
+     "i": 15.701,
+     "f": 16.209
+    },
+    {
+     "p": "um",
+     "i": 16.222,
+     "f": 16.3
+    },
+    {
+     "p": "fio",
+     "i": 16.313,
+     "f": 16.6
+    },
+    {
+     "p": "que",
+     "i": 16.613,
+     "f": 16.717
+    },
+    {
+     "p": "liga",
+     "i": 16.73,
+     "f": 17.03
+    },
+    {
+     "p": "todas",
+     "i": 17.043,
+     "f": 17.394
+    },
+    {
+     "p": "elas",
+     "i": 17.407,
+     "f": 17.941
+    },
+    {
+     "p": "No",
+     "i": 19.182,
+     "f": 19.377
+    },
+    {
+     "p": "fim",
+     "i": 19.39,
+     "f": 19.677
+    },
+    {
+     "p": "você",
+     "i": 20.055,
+     "f": 20.328
+    },
+    {
+     "p": "vai",
+     "i": 20.341,
+     "f": 20.445
+    },
+    {
+     "p": "entender",
+     "i": 20.458,
+     "f": 20.94
+    },
+    {
+     "p": "por",
+     "i": 20.953,
+     "f": 21.161
+    },
+    {
+     "p": "que",
+     "i": 21.174,
+     "f": 21.291
+    },
+    {
+     "p": "a",
+     "i": 21.304,
+     "f": 21.422
+    },
+    {
+     "p": "última",
+     "i": 21.435,
+     "f": 21.786
+    },
+    {
+     "p": "obra",
+     "i": 21.799,
+     "f": 22.112
+    },
+    {
+     "p": "só",
+     "i": 22.125,
+     "f": 22.346
+    },
+    {
+     "p": "existe",
+     "i": 22.359,
+     "f": 22.828
+    },
+    {
+     "p": "por",
+     "i": 22.841,
+     "f": 22.984
+    },
+    {
+     "p": "causa",
+     "i": 22.997,
+     "f": 23.323
+    },
+    {
+     "p": "da",
+     "i": 23.336,
+     "f": 23.44
+    },
+    {
+     "p": "primeira",
+     "i": 23.453,
+     "f": 23.896
+    }
+   ]
+  },
+  "pantheon-1": {
+   "hash": "8887e465b3",
+   "texto": "Capítulo um. Roma, por volta do ano cento e vinte e seis. O imperador Adriano manda concluir o Panteão, um templo com uma cúpula que ninguém sabia como sustentar. Ela mede quarenta e três metros e trinta centímetros de diâmetro, e a altura até o topo é exatamente a mesma. Uma esfera perfeita caberia lá dentro. E durante mais de mil anos, nenhuma cúpula do mundo foi maior. No centro, um buraco de oito metros deixa a chuva e a luz entrarem direto. O segredo estava na receita do material, não no desenho.",
+   "audio": "audio/pantheon-1-8887e465b3.mp3",
+   "duracao": 40.96,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.74
+    },
+    {
+     "p": "um",
+     "i": 0.753,
+     "f": 1.001
+    },
+    {
+     "p": "Roma",
+     "i": 2.262,
+     "f": 2.679
+    },
+    {
+     "p": "por",
+     "i": 2.965,
+     "f": 3.147
+    },
+    {
+     "p": "volta",
+     "i": 3.161,
+     "f": 3.564
+    },
+    {
+     "p": "do",
+     "i": 3.577,
+     "f": 3.72
+    },
+    {
+     "p": "ano",
+     "i": 3.733,
+     "f": 3.981
+    },
+    {
+     "p": "cento",
+     "i": 3.994,
+     "f": 4.424
+    },
+    {
+     "p": "e",
+     "i": 4.437,
+     "f": 4.476
+    },
+    {
+     "p": "vinte",
+     "i": 4.489,
+     "f": 4.762
+    },
+    {
+     "p": "e",
+     "i": 4.775,
+     "f": 4.801
+    },
+    {
+     "p": "seis",
+     "i": 4.814,
+     "f": 5.309
+    },
+    {
+     "p": "O",
+     "i": 6.558,
+     "f": 6.649
+    },
+    {
+     "p": "imperador",
+     "i": 6.662,
+     "f": 7.222
+    },
+    {
+     "p": "Adriano",
+     "i": 7.235,
+     "f": 7.665
+    },
+    {
+     "p": "manda",
+     "i": 7.678,
+     "f": 7.99
+    },
+    {
+     "p": "concluir",
+     "i": 8.003,
+     "f": 8.446
+    },
+    {
+     "p": "o",
+     "i": 8.459,
+     "f": 8.511
+    },
+    {
+     "p": "Panteão",
+     "i": 8.524,
+     "f": 9.019
+    },
+    {
+     "p": "um",
+     "i": 9.318,
+     "f": 9.475
+    },
+    {
+     "p": "templo",
+     "i": 9.488,
+     "f": 9.878
+    },
+    {
+     "p": "com",
+     "i": 9.891,
+     "f": 10.048
+    },
+    {
+     "p": "uma",
+     "i": 10.061,
+     "f": 10.243
+    },
+    {
+     "p": "cúpula",
+     "i": 10.256,
+     "f": 10.673
+    },
+    {
+     "p": "que",
+     "i": 10.686,
+     "f": 10.803
+    },
+    {
+     "p": "ninguém",
+     "i": 10.816,
+     "f": 11.167
+    },
+    {
+     "p": "sabia",
+     "i": 11.18,
+     "f": 11.649
+    },
+    {
+     "p": "como",
+     "i": 11.662,
+     "f": 11.91
+    },
+    {
+     "p": "sustentar",
+     "i": 11.923,
+     "f": 12.548
+    },
+    {
+     "p": "Ela",
+     "i": 13.806,
+     "f": 14.053
+    },
+    {
+     "p": "mede",
+     "i": 14.066,
+     "f": 14.366
+    },
+    {
+     "p": "quarenta",
+     "i": 14.379,
+     "f": 14.731
+    },
+    {
+     "p": "e",
+     "i": 14.744,
+     "f": 14.783
+    },
+    {
+     "p": "três",
+     "i": 14.796,
+     "f": 15.03
+    },
+    {
+     "p": "metros",
+     "i": 15.043,
+     "f": 15.421
+    },
+    {
+     "p": "e",
+     "i": 15.434,
+     "f": 15.577
+    },
+    {
+     "p": "trinta",
+     "i": 15.59,
+     "f": 15.863
+    },
+    {
+     "p": "centímetros",
+     "i": 15.876,
+     "f": 16.553
+    },
+    {
+     "p": "de",
+     "i": 16.566,
+     "f": 16.658
+    },
+    {
+     "p": "diâmetro",
+     "i": 16.671,
+     "f": 17.231
+    },
+    {
+     "p": "e",
+     "i": 17.543,
+     "f": 17.621
+    },
+    {
+     "p": "a",
+     "i": 17.634,
+     "f": 17.66
+    },
+    {
+     "p": "altura",
+     "i": 17.673,
+     "f": 18.09
+    },
+    {
+     "p": "até",
+     "i": 18.103,
+     "f": 18.324
+    },
+    {
+     "p": "o",
+     "i": 18.337,
+     "f": 18.441
+    },
+    {
+     "p": "topo",
+     "i": 18.455,
+     "f": 18.845
+    },
+    {
+     "p": "é",
+     "i": 18.858,
+     "f": 18.949
+    },
+    {
+     "p": "exatamente",
+     "i": 18.962,
+     "f": 19.652
+    },
+    {
+     "p": "a",
+     "i": 19.665,
+     "f": 19.705
+    },
+    {
+     "p": "mesma",
+     "i": 19.718,
+     "f": 20.134
+    },
+    {
+     "p": "Uma",
+     "i": 21.39,
+     "f": 21.572
+    },
+    {
+     "p": "esfera",
+     "i": 21.585,
+     "f": 21.976
+    },
+    {
+     "p": "perfeita",
+     "i": 21.989,
+     "f": 22.536
+    },
+    {
+     "p": "caberia",
+     "i": 22.549,
+     "f": 23.018
+    },
+    {
+     "p": "lá",
+     "i": 23.031,
+     "f": 23.174
+    },
+    {
+     "p": "dentro",
+     "i": 23.187,
+     "f": 23.643
+    },
+    {
+     "p": "E",
+     "i": 24.894,
+     "f": 24.998
+    },
+    {
+     "p": "durante",
+     "i": 25.011,
+     "f": 25.428
+    },
+    {
+     "p": "mais",
+     "i": 25.441,
+     "f": 25.688
+    },
+    {
+     "p": "de",
+     "i": 25.701,
+     "f": 25.793
+    },
+    {
+     "p": "mil",
+     "i": 25.806,
+     "f": 26.118
+    },
+    {
+     "p": "anos",
+     "i": 26.131,
+     "f": 26.522
+    },
+    {
+     "p": "nenhuma",
+     "i": 26.717,
+     "f": 27.173
+    },
+    {
+     "p": "cúpula",
+     "i": 27.186,
+     "f": 27.563
+    },
+    {
+     "p": "do",
+     "i": 27.576,
+     "f": 27.681
+    },
+    {
+     "p": "mundo",
+     "i": 27.694,
+     "f": 28.058
+    },
+    {
+     "p": "foi",
+     "i": 28.071,
+     "f": 28.227
+    },
+    {
+     "p": "maior",
+     "i": 28.24,
+     "f": 28.644
+    },
+    {
+     "p": "No",
+     "i": 29.886,
+     "f": 30.068
+    },
+    {
+     "p": "centro",
+     "i": 30.081,
+     "f": 30.602
+    },
+    {
+     "p": "um",
+     "i": 30.85,
+     "f": 30.954
+    },
+    {
+     "p": "buraco",
+     "i": 30.967,
+     "f": 31.436
+    },
+    {
+     "p": "de",
+     "i": 31.449,
+     "f": 31.579
+    },
+    {
+     "p": "oito",
+     "i": 31.592,
+     "f": 31.852
+    },
+    {
+     "p": "metros",
+     "i": 31.865,
+     "f": 32.269
+    },
+    {
+     "p": "deixa",
+     "i": 32.282,
+     "f": 32.568
+    },
+    {
+     "p": "a",
+     "i": 32.581,
+     "f": 32.607
+    },
+    {
+     "p": "chuva",
+     "i": 32.62,
+     "f": 33.141
+    },
+    {
+     "p": "e",
+     "i": 33.154,
+     "f": 33.245
+    },
+    {
+     "p": "a",
+     "i": 33.258,
+     "f": 33.311
+    },
+    {
+     "p": "luz",
+     "i": 33.324,
+     "f": 33.532
+    },
+    {
+     "p": "entrarem",
+     "i": 33.545,
+     "f": 34.001
+    },
+    {
+     "p": "direto",
+     "i": 34.014,
+     "f": 34.495
+    },
+    {
+     "p": "O",
+     "i": 35.742,
+     "f": 35.859
+    },
+    {
+     "p": "segredo",
+     "i": 35.872,
+     "f": 36.38
+    },
+    {
+     "p": "estava",
+     "i": 36.393,
+     "f": 36.758
+    },
+    {
+     "p": "na",
+     "i": 36.771,
+     "f": 36.862
+    },
+    {
+     "p": "receita",
+     "i": 36.875,
+     "f": 37.305
+    },
+    {
+     "p": "do",
+     "i": 37.318,
+     "f": 37.409
+    },
+    {
+     "p": "material",
+     "i": 37.422,
+     "f": 37.995
+    },
+    {
+     "p": "não",
+     "i": 38.281,
+     "f": 38.542
+    },
+    {
+     "p": "no",
+     "i": 38.555,
+     "f": 38.659
+    },
+    {
+     "p": "desenho",
+     "i": 38.672,
+     "f": 39.219
+    }
+   ]
+  },
+  "pantheon-2": {
+   "hash": "d18cae5938",
+   "texto": "Os romanos misturavam cal, pedras e cinza vulcânica, chamada pozolana, extraída perto de Nápoles. Esse concreto endurece até debaixo d'água e aguenta séculos de terremotos e enchentes. Para aliviar o peso, eles usavam pedras mais leves quanto mais alto subiam na cúpula. Pesquisadores do MIT, em dois mil e vinte e três, sugeriram que pedaços de cal viva ajudam o concreto a se curar sozinho. Sem nenhum aço para segurá-la, a cúpula ficou de pé por quase dois mil anos. Mas aquele concreto tinha um limite: não crescia para cima. Quem quebrou esse limite foi um engenheiro em Chicago.",
+   "audio": "audio/pantheon-2-d18cae5938.mp3",
+   "duracao": 44.147,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "romanos",
+     "i": 0.271,
+     "f": 0.792
+    },
+    {
+     "p": "misturavam",
+     "i": 0.805,
+     "f": 1.43
+    },
+    {
+     "p": "cal",
+     "i": 1.443,
+     "f": 1.756
+    },
+    {
+     "p": "pedras",
+     "i": 2.029,
+     "f": 2.368
+    },
+    {
+     "p": "e",
+     "i": 2.381,
+     "f": 2.498
+    },
+    {
+     "p": "cinza",
+     "i": 2.511,
+     "f": 2.836
+    },
+    {
+     "p": "vulcânica",
+     "i": 2.849,
+     "f": 3.435
+    },
+    {
+     "p": "chamada",
+     "i": 3.735,
+     "f": 4.204
+    },
+    {
+     "p": "pozolana",
+     "i": 4.217,
+     "f": 4.803
+    },
+    {
+     "p": "extraída",
+     "i": 5.037,
+     "f": 5.571
+    },
+    {
+     "p": "perto",
+     "i": 5.584,
+     "f": 5.922
+    },
+    {
+     "p": "de",
+     "i": 5.935,
+     "f": 6.053
+    },
+    {
+     "p": "Nápoles",
+     "i": 6.066,
+     "f": 6.626
+    },
+    {
+     "p": "Esse",
+     "i": 7.878,
+     "f": 8.165
+    },
+    {
+     "p": "concreto",
+     "i": 8.178,
+     "f": 8.685
+    },
+    {
+     "p": "endurece",
+     "i": 8.698,
+     "f": 9.102
+    },
+    {
+     "p": "até",
+     "i": 9.115,
+     "f": 9.31
+    },
+    {
+     "p": "debaixo",
+     "i": 9.323,
+     "f": 9.779
+    },
+    {
+     "p": "d'água",
+     "i": 9.792,
+     "f": 10.196
+    },
+    {
+     "p": "e",
+     "i": 10.209,
+     "f": 10.313
+    },
+    {
+     "p": "aguenta",
+     "i": 10.326,
+     "f": 10.782
+    },
+    {
+     "p": "séculos",
+     "i": 10.795,
+     "f": 11.303
+    },
+    {
+     "p": "de",
+     "i": 11.316,
+     "f": 11.42
+    },
+    {
+     "p": "terremotos",
+     "i": 11.433,
+     "f": 12.019
+    },
+    {
+     "p": "e",
+     "i": 12.032,
+     "f": 12.123
+    },
+    {
+     "p": "enchentes",
+     "i": 12.136,
+     "f": 12.826
+    },
+    {
+     "p": "Para",
+     "i": 14.07,
+     "f": 14.239
+    },
+    {
+     "p": "aliviar",
+     "i": 14.252,
+     "f": 14.669
+    },
+    {
+     "p": "o",
+     "i": 14.682,
+     "f": 14.747
+    },
+    {
+     "p": "peso",
+     "i": 14.76,
+     "f": 15.164
+    },
+    {
+     "p": "eles",
+     "i": 15.411,
+     "f": 15.567
+    },
+    {
+     "p": "usavam",
+     "i": 15.581,
+     "f": 16.088
+    },
+    {
+     "p": "pedras",
+     "i": 16.101,
+     "f": 16.479
+    },
+    {
+     "p": "mais",
+     "i": 16.492,
+     "f": 16.726
+    },
+    {
+     "p": "leves",
+     "i": 16.739,
+     "f": 17.13
+    },
+    {
+     "p": "quanto",
+     "i": 17.143,
+     "f": 17.442
+    },
+    {
+     "p": "mais",
+     "i": 17.455,
+     "f": 17.638
+    },
+    {
+     "p": "alto",
+     "i": 17.651,
+     "f": 18.015
+    },
+    {
+     "p": "subiam",
+     "i": 18.028,
+     "f": 18.471
+    },
+    {
+     "p": "na",
+     "i": 18.484,
+     "f": 18.601
+    },
+    {
+     "p": "cúpula",
+     "i": 18.614,
+     "f": 19.083
+    },
+    {
+     "p": "Pesquisadores",
+     "i": 20.334,
+     "f": 21.115
+    },
+    {
+     "p": "do",
+     "i": 21.128,
+     "f": 21.259
+    },
+    {
+     "p": "MIT",
+     "i": 21.272,
+     "f": 21.818
+    },
+    {
+     "p": "em",
+     "i": 22.066,
+     "f": 22.157
+    },
+    {
+     "p": "dois",
+     "i": 22.17,
+     "f": 22.391
+    },
+    {
+     "p": "mil",
+     "i": 22.404,
+     "f": 22.535
+    },
+    {
+     "p": "e",
+     "i": 22.548,
+     "f": 22.613
+    },
+    {
+     "p": "vinte",
+     "i": 22.626,
+     "f": 22.821
+    },
+    {
+     "p": "e",
+     "i": 22.834,
+     "f": 22.86
+    },
+    {
+     "p": "três",
+     "i": 22.873,
+     "f": 23.251
+    },
+    {
+     "p": "sugeriram",
+     "i": 23.511,
+     "f": 24.058
+    },
+    {
+     "p": "que",
+     "i": 24.071,
+     "f": 24.162
+    },
+    {
+     "p": "pedaços",
+     "i": 24.175,
+     "f": 24.709
+    },
+    {
+     "p": "de",
+     "i": 24.722,
+     "f": 24.826
+    },
+    {
+     "p": "cal",
+     "i": 24.839,
+     "f": 25.139
+    },
+    {
+     "p": "viva",
+     "i": 25.152,
+     "f": 25.386
+    },
+    {
+     "p": "ajudam",
+     "i": 25.399,
+     "f": 25.829
+    },
+    {
+     "p": "o",
+     "i": 25.842,
+     "f": 25.881
+    },
+    {
+     "p": "concreto",
+     "i": 25.894,
+     "f": 26.454
+    },
+    {
+     "p": "a",
+     "i": 26.467,
+     "f": 26.493
+    },
+    {
+     "p": "se",
+     "i": 26.506,
+     "f": 26.649
+    },
+    {
+     "p": "curar",
+     "i": 26.662,
+     "f": 26.962
+    },
+    {
+     "p": "sozinho",
+     "i": 26.975,
+     "f": 27.561
+    },
+    {
+     "p": "Sem",
+     "i": 28.806,
+     "f": 29.119
+    },
+    {
+     "p": "nenhum",
+     "i": 29.132,
+     "f": 29.496
+    },
+    {
+     "p": "aço",
+     "i": 29.509,
+     "f": 29.822
+    },
+    {
+     "p": "para",
+     "i": 29.835,
+     "f": 30.004
+    },
+    {
+     "p": "segurá-la",
+     "i": 30.017,
+     "f": 30.577
+    },
+    {
+     "p": "a",
+     "i": 30.837,
+     "f": 30.915
+    },
+    {
+     "p": "cúpula",
+     "i": 30.928,
+     "f": 31.332
+    },
+    {
+     "p": "ficou",
+     "i": 31.345,
+     "f": 31.658
+    },
+    {
+     "p": "de",
+     "i": 31.671,
+     "f": 31.775
+    },
+    {
+     "p": "pé",
+     "i": 31.788,
+     "f": 31.983
+    },
+    {
+     "p": "por",
+     "i": 31.996,
+     "f": 32.165
+    },
+    {
+     "p": "quase",
+     "i": 32.178,
+     "f": 32.595
+    },
+    {
+     "p": "dois",
+     "i": 32.608,
+     "f": 32.921
+    },
+    {
+     "p": "mil",
+     "i": 32.934,
+     "f": 33.194
+    },
+    {
+     "p": "anos",
+     "i": 33.207,
+     "f": 33.624
+    },
+    {
+     "p": "Mas",
+     "i": 34.878,
+     "f": 35.073
+    },
+    {
+     "p": "aquele",
+     "i": 35.086,
+     "f": 35.438
+    },
+    {
+     "p": "concreto",
+     "i": 35.451,
+     "f": 36.037
+    },
+    {
+     "p": "tinha",
+     "i": 36.05,
+     "f": 36.245
+    },
+    {
+     "p": "um",
+     "i": 36.258,
+     "f": 36.31
+    },
+    {
+     "p": "limite",
+     "i": 36.323,
+     "f": 36.753
+    },
+    {
+     "p": "não",
+     "i": 37.066,
+     "f": 37.3
+    },
+    {
+     "p": "crescia",
+     "i": 37.313,
+     "f": 37.795
+    },
+    {
+     "p": "para",
+     "i": 37.808,
+     "f": 38.003
+    },
+    {
+     "p": "cima",
+     "i": 38.016,
+     "f": 38.446
+    },
+    {
+     "p": "Quem",
+     "i": 39.702,
+     "f": 39.897
+    },
+    {
+     "p": "quebrou",
+     "i": 39.91,
+     "f": 40.34
+    },
+    {
+     "p": "esse",
+     "i": 40.353,
+     "f": 40.535
+    },
+    {
+     "p": "limite",
+     "i": 40.548,
+     "f": 41.004
+    },
+    {
+     "p": "foi",
+     "i": 41.017,
+     "f": 41.173
+    },
+    {
+     "p": "um",
+     "i": 41.186,
+     "f": 41.265
+    },
+    {
+     "p": "engenheiro",
+     "i": 41.278,
+     "f": 41.759
+    },
+    {
+     "p": "em",
+     "i": 41.772,
+     "f": 41.824
+    },
+    {
+     "p": "Chicago",
+     "i": 41.837,
+     "f": 42.397
+    }
+   ]
+  },
+  "aco-1": {
+   "hash": "5506d25c87",
+   "texto": "Capítulo dois. Chicago, mil oitocentos e setenta e um. Um incêndio destrói a cidade, e a reconstrução vira um laboratório. Os terrenos custavam caro, então a saída era subir. Havia só um problema: as paredes de pedra. Quanto mais alto o prédio, mais grossa a parede da base, e menos espaço sobrava dentro. O engenheiro William Le Baron Jenney teve a ideia de montar um esqueleto metálico e pendurar as paredes nele. O Home Insurance Building ficou pronto em mil oitocentos e oitenta e cinco, com dez andares e cerca de quarenta e dois metros.",
+   "audio": "audio/aco-1-5506d25c87.mp3",
+   "duracao": 42.684,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.74
+    },
+    {
+     "p": "dois",
+     "i": 0.753,
+     "f": 1.235
+    },
+    {
+     "p": "Chicago",
+     "i": 2.478,
+     "f": 3.155
+    },
+    {
+     "p": "mil",
+     "i": 3.403,
+     "f": 3.611
+    },
+    {
+     "p": "oitocentos",
+     "i": 3.624,
+     "f": 4.301
+    },
+    {
+     "p": "e",
+     "i": 4.314,
+     "f": 4.418
+    },
+    {
+     "p": "setenta",
+     "i": 4.431,
+     "f": 4.809
+    },
+    {
+     "p": "e",
+     "i": 4.822,
+     "f": 4.874
+    },
+    {
+     "p": "um",
+     "i": 4.887,
+     "f": 5.095
+    },
+    {
+     "p": "Um",
+     "i": 6.342,
+     "f": 6.472
+    },
+    {
+     "p": "incêndio",
+     "i": 6.485,
+     "f": 6.993
+    },
+    {
+     "p": "destrói",
+     "i": 7.006,
+     "f": 7.397
+    },
+    {
+     "p": "a",
+     "i": 7.41,
+     "f": 7.449
+    },
+    {
+     "p": "cidade",
+     "i": 7.462,
+     "f": 8.022
+    },
+    {
+     "p": "e",
+     "i": 8.295,
+     "f": 8.373
+    },
+    {
+     "p": "a",
+     "i": 8.386,
+     "f": 8.452
+    },
+    {
+     "p": "reconstrução",
+     "i": 8.464,
+     "f": 9.272
+    },
+    {
+     "p": "vira",
+     "i": 9.285,
+     "f": 9.506
+    },
+    {
+     "p": "um",
+     "i": 9.519,
+     "f": 9.584
+    },
+    {
+     "p": "laboratório",
+     "i": 9.597,
+     "f": 10.339
+    },
+    {
+     "p": "Os",
+     "i": 11.598,
+     "f": 11.78
+    },
+    {
+     "p": "terrenos",
+     "i": 11.793,
+     "f": 12.262
+    },
+    {
+     "p": "custavam",
+     "i": 12.275,
+     "f": 12.809
+    },
+    {
+     "p": "caro",
+     "i": 12.822,
+     "f": 13.174
+    },
+    {
+     "p": "então",
+     "i": 13.395,
+     "f": 13.825
+    },
+    {
+     "p": "a",
+     "i": 13.838,
+     "f": 13.877
+    },
+    {
+     "p": "saída",
+     "i": 13.89,
+     "f": 14.306
+    },
+    {
+     "p": "era",
+     "i": 14.319,
+     "f": 14.515
+    },
+    {
+     "p": "subir",
+     "i": 14.528,
+     "f": 14.944
+    },
+    {
+     "p": "Havia",
+     "i": 16.206,
+     "f": 16.636
+    },
+    {
+     "p": "só",
+     "i": 16.649,
+     "f": 16.831
+    },
+    {
+     "p": "um",
+     "i": 16.844,
+     "f": 16.935
+    },
+    {
+     "p": "problema",
+     "i": 16.948,
+     "f": 17.495
+    },
+    {
+     "p": "as",
+     "i": 17.756,
+     "f": 17.912
+    },
+    {
+     "p": "paredes",
+     "i": 17.925,
+     "f": 18.394
+    },
+    {
+     "p": "de",
+     "i": 18.407,
+     "f": 18.524
+    },
+    {
+     "p": "pedra",
+     "i": 18.537,
+     "f": 18.98
+    },
+    {
+     "p": "Quanto",
+     "i": 20.238,
+     "f": 20.59
+    },
+    {
+     "p": "mais",
+     "i": 20.603,
+     "f": 20.785
+    },
+    {
+     "p": "alto",
+     "i": 20.798,
+     "f": 21.098
+    },
+    {
+     "p": "o",
+     "i": 21.111,
+     "f": 21.15
+    },
+    {
+     "p": "prédio",
+     "i": 21.163,
+     "f": 21.605
+    },
+    {
+     "p": "mais",
+     "i": 21.879,
+     "f": 22.1
+    },
+    {
+     "p": "grossa",
+     "i": 22.113,
+     "f": 22.478
+    },
+    {
+     "p": "a",
+     "i": 22.491,
+     "f": 22.517
+    },
+    {
+     "p": "parede",
+     "i": 22.53,
+     "f": 22.894
+    },
+    {
+     "p": "da",
+     "i": 22.907,
+     "f": 23.012
+    },
+    {
+     "p": "base",
+     "i": 23.025,
+     "f": 23.428
+    },
+    {
+     "p": "e",
+     "i": 23.754,
+     "f": 23.845
+    },
+    {
+     "p": "menos",
+     "i": 23.858,
+     "f": 24.131
+    },
+    {
+     "p": "espaço",
+     "i": 24.144,
+     "f": 24.691
+    },
+    {
+     "p": "sobrava",
+     "i": 24.704,
+     "f": 25.199
+    },
+    {
+     "p": "dentro",
+     "i": 25.212,
+     "f": 25.616
+    },
+    {
+     "p": "O",
+     "i": 26.862,
+     "f": 26.966
+    },
+    {
+     "p": "engenheiro",
+     "i": 26.979,
+     "f": 27.526
+    },
+    {
+     "p": "William",
+     "i": 27.539,
+     "f": 27.852
+    },
+    {
+     "p": "Le",
+     "i": 27.865,
+     "f": 28.021
+    },
+    {
+     "p": "Baron",
+     "i": 28.034,
+     "f": 28.386
+    },
+    {
+     "p": "Jenney",
+     "i": 28.399,
+     "f": 28.776
+    },
+    {
+     "p": "teve",
+     "i": 28.789,
+     "f": 28.997
+    },
+    {
+     "p": "a",
+     "i": 29.011,
+     "f": 29.05
+    },
+    {
+     "p": "ideia",
+     "i": 29.063,
+     "f": 29.401
+    },
+    {
+     "p": "de",
+     "i": 29.414,
+     "f": 29.505
+    },
+    {
+     "p": "montar",
+     "i": 29.518,
+     "f": 29.883
+    },
+    {
+     "p": "um",
+     "i": 29.896,
+     "f": 29.974
+    },
+    {
+     "p": "esqueleto",
+     "i": 29.987,
+     "f": 30.482
+    },
+    {
+     "p": "metálico",
+     "i": 30.495,
+     "f": 31.159
+    },
+    {
+     "p": "e",
+     "i": 31.172,
+     "f": 31.224
+    },
+    {
+     "p": "pendurar",
+     "i": 31.237,
+     "f": 31.706
+    },
+    {
+     "p": "as",
+     "i": 31.719,
+     "f": 31.849
+    },
+    {
+     "p": "paredes",
+     "i": 31.862,
+     "f": 32.37
+    },
+    {
+     "p": "nele",
+     "i": 32.383,
+     "f": 32.747
+    },
+    {
+     "p": "O",
+     "i": 33.99,
+     "f": 34.12
+    },
+    {
+     "p": "Home",
+     "i": 34.133,
+     "f": 34.446
+    },
+    {
+     "p": "Insurance",
+     "i": 34.459,
+     "f": 35.045
+    },
+    {
+     "p": "Building",
+     "i": 35.058,
+     "f": 35.409
+    },
+    {
+     "p": "ficou",
+     "i": 35.422,
+     "f": 35.722
+    },
+    {
+     "p": "pronto",
+     "i": 35.735,
+     "f": 36.073
+    },
+    {
+     "p": "em",
+     "i": 36.086,
+     "f": 36.165
+    },
+    {
+     "p": "mil",
+     "i": 36.178,
+     "f": 36.347
+    },
+    {
+     "p": "oitocentos",
+     "i": 36.36,
+     "f": 36.959
+    },
+    {
+     "p": "e",
+     "i": 36.972,
+     "f": 37.063
+    },
+    {
+     "p": "oitenta",
+     "i": 37.076,
+     "f": 37.402
+    },
+    {
+     "p": "e",
+     "i": 37.415,
+     "f": 37.454
+    },
+    {
+     "p": "cinco",
+     "i": 37.467,
+     "f": 37.87
+    },
+    {
+     "p": "com",
+     "i": 38.17,
+     "f": 38.352
+    },
+    {
+     "p": "dez",
+     "i": 38.365,
+     "f": 38.599
+    },
+    {
+     "p": "andares",
+     "i": 38.612,
+     "f": 39.133
+    },
+    {
+     "p": "e",
+     "i": 39.146,
+     "f": 39.29
+    },
+    {
+     "p": "cerca",
+     "i": 39.303,
+     "f": 39.654
+    },
+    {
+     "p": "de",
+     "i": 39.667,
+     "f": 39.758
+    },
+    {
+     "p": "quarenta",
+     "i": 39.771,
+     "f": 40.162
+    },
+    {
+     "p": "e",
+     "i": 40.175,
+     "f": 40.201
+    },
+    {
+     "p": "dois",
+     "i": 40.214,
+     "f": 40.422
+    },
+    {
+     "p": "metros",
+     "i": 40.435,
+     "f": 40.956
+    }
+   ]
+  },
+  "aco-2": {
+   "hash": "59aeb0bf3a",
+   "texto": "Muitos historiadores o consideram o primeiro arranha-céu da história, embora o título seja disputado. O peso agora descia pelas vigas e colunas, e as paredes viraram só uma pele, leve e fina. O aço barato do processo Bessemer e o elevador de segurança de Elisha Otis fecharam a conta. Otis mostrou em mil oitocentos e cinquenta e quatro que o cabo podia se romper sem o elevador cair. Em poucas décadas vieram o Flatiron, o Empire State e as cidades cheias de torres. O Home Insurance foi demolido em mil novecentos e trinta e um. Mas e se o próximo desafio fosse cortar um continente ao meio?",
+   "audio": "audio/aco-2-59aeb0bf3a.mp3",
+   "duracao": 43.468,
+   "palavras": [
+    {
+     "p": "Muitos",
+     "i": 0.102,
+     "f": 0.467
+    },
+    {
+     "p": "historiadores",
+     "i": 0.48,
+     "f": 1.209
+    },
+    {
+     "p": "o",
+     "i": 1.222,
+     "f": 1.326
+    },
+    {
+     "p": "consideram",
+     "i": 1.339,
+     "f": 1.873
+    },
+    {
+     "p": "o",
+     "i": 1.886,
+     "f": 1.925
+    },
+    {
+     "p": "primeiro",
+     "i": 1.938,
+     "f": 2.303
+    },
+    {
+     "p": "arranha-céu",
+     "i": 2.316,
+     "f": 2.823
+    },
+    {
+     "p": "da",
+     "i": 2.836,
+     "f": 2.915
+    },
+    {
+     "p": "história",
+     "i": 2.928,
+     "f": 3.37
+    },
+    {
+     "p": "embora",
+     "i": 3.67,
+     "f": 4.021
+    },
+    {
+     "p": "o",
+     "i": 4.034,
+     "f": 4.073
+    },
+    {
+     "p": "título",
+     "i": 4.086,
+     "f": 4.49
+    },
+    {
+     "p": "seja",
+     "i": 4.503,
+     "f": 4.842
+    },
+    {
+     "p": "disputado",
+     "i": 4.855,
+     "f": 5.571
+    },
+    {
+     "p": "O",
+     "i": 6.822,
+     "f": 6.952
+    },
+    {
+     "p": "peso",
+     "i": 6.965,
+     "f": 7.291
+    },
+    {
+     "p": "agora",
+     "i": 7.304,
+     "f": 7.655
+    },
+    {
+     "p": "descia",
+     "i": 7.668,
+     "f": 8.033
+    },
+    {
+     "p": "pelas",
+     "i": 8.046,
+     "f": 8.346
+    },
+    {
+     "p": "vigas",
+     "i": 8.359,
+     "f": 8.632
+    },
+    {
+     "p": "e",
+     "i": 8.645,
+     "f": 8.762
+    },
+    {
+     "p": "colunas",
+     "i": 8.775,
+     "f": 9.309
+    },
+    {
+     "p": "e",
+     "i": 9.609,
+     "f": 9.687
+    },
+    {
+     "p": "as",
+     "i": 9.7,
+     "f": 9.843
+    },
+    {
+     "p": "paredes",
+     "i": 9.856,
+     "f": 10.325
+    },
+    {
+     "p": "viraram",
+     "i": 10.338,
+     "f": 10.767
+    },
+    {
+     "p": "só",
+     "i": 10.78,
+     "f": 10.963
+    },
+    {
+     "p": "uma",
+     "i": 10.976,
+     "f": 11.171
+    },
+    {
+     "p": "pele",
+     "i": 11.184,
+     "f": 11.549
+    },
+    {
+     "p": "leve",
+     "i": 11.796,
+     "f": 12.135
+    },
+    {
+     "p": "e",
+     "i": 12.148,
+     "f": 12.2
+    },
+    {
+     "p": "fina",
+     "i": 12.213,
+     "f": 12.603
+    },
+    {
+     "p": "O",
+     "i": 13.854,
+     "f": 13.997
+    },
+    {
+     "p": "aço",
+     "i": 14.01,
+     "f": 14.297
+    },
+    {
+     "p": "barato",
+     "i": 14.31,
+     "f": 14.753
+    },
+    {
+     "p": "do",
+     "i": 14.766,
+     "f": 14.857
+    },
+    {
+     "p": "processo",
+     "i": 14.87,
+     "f": 15.404
+    },
+    {
+     "p": "Bessemer",
+     "i": 15.417,
+     "f": 15.924
+    },
+    {
+     "p": "e",
+     "i": 15.937,
+     "f": 15.976
+    },
+    {
+     "p": "o",
+     "i": 15.989,
+     "f": 16.042
+    },
+    {
+     "p": "elevador",
+     "i": 16.055,
+     "f": 16.575
+    },
+    {
+     "p": "de",
+     "i": 16.588,
+     "f": 16.706
+    },
+    {
+     "p": "segurança",
+     "i": 16.719,
+     "f": 17.37
+    },
+    {
+     "p": "de",
+     "i": 17.383,
+     "f": 17.461
+    },
+    {
+     "p": "Elisha",
+     "i": 17.474,
+     "f": 17.864
+    },
+    {
+     "p": "Otis",
+     "i": 17.878,
+     "f": 18.216
+    },
+    {
+     "p": "fecharam",
+     "i": 18.229,
+     "f": 18.737
+    },
+    {
+     "p": "a",
+     "i": 18.75,
+     "f": 18.802
+    },
+    {
+     "p": "conta",
+     "i": 18.815,
+     "f": 19.245
+    },
+    {
+     "p": "Otis",
+     "i": 20.502,
+     "f": 20.958
+    },
+    {
+     "p": "mostrou",
+     "i": 20.971,
+     "f": 21.374
+    },
+    {
+     "p": "em",
+     "i": 21.388,
+     "f": 21.479
+    },
+    {
+     "p": "mil",
+     "i": 21.492,
+     "f": 21.674
+    },
+    {
+     "p": "oitocentos",
+     "i": 21.687,
+     "f": 22.312
+    },
+    {
+     "p": "e",
+     "i": 22.325,
+     "f": 22.429
+    },
+    {
+     "p": "cinquenta",
+     "i": 22.442,
+     "f": 22.846
+    },
+    {
+     "p": "e",
+     "i": 22.859,
+     "f": 22.885
+    },
+    {
+     "p": "quatro",
+     "i": 22.898,
+     "f": 23.276
+    },
+    {
+     "p": "que",
+     "i": 23.289,
+     "f": 23.393
+    },
+    {
+     "p": "o",
+     "i": 23.406,
+     "f": 23.471
+    },
+    {
+     "p": "cabo",
+     "i": 23.484,
+     "f": 23.822
+    },
+    {
+     "p": "podia",
+     "i": 23.835,
+     "f": 24.239
+    },
+    {
+     "p": "se",
+     "i": 24.252,
+     "f": 24.369
+    },
+    {
+     "p": "romper",
+     "i": 24.382,
+     "f": 24.786
+    },
+    {
+     "p": "sem",
+     "i": 24.799,
+     "f": 25.046
+    },
+    {
+     "p": "o",
+     "i": 25.059,
+     "f": 25.137
+    },
+    {
+     "p": "elevador",
+     "i": 25.151,
+     "f": 25.606
+    },
+    {
+     "p": "cair",
+     "i": 25.619,
+     "f": 25.997
+    },
+    {
+     "p": "Em",
+     "i": 27.246,
+     "f": 27.454
+    },
+    {
+     "p": "poucas",
+     "i": 27.467,
+     "f": 27.897
+    },
+    {
+     "p": "décadas",
+     "i": 27.91,
+     "f": 28.379
+    },
+    {
+     "p": "vieram",
+     "i": 28.392,
+     "f": 28.691
+    },
+    {
+     "p": "o",
+     "i": 28.704,
+     "f": 28.73
+    },
+    {
+     "p": "Flatiron",
+     "i": 28.743,
+     "f": 29.329
+    },
+    {
+     "p": "o",
+     "i": 29.681,
+     "f": 29.733
+    },
+    {
+     "p": "Empire",
+     "i": 29.746,
+     "f": 30.215
+    },
+    {
+     "p": "State",
+     "i": 30.228,
+     "f": 30.658
+    },
+    {
+     "p": "e",
+     "i": 30.671,
+     "f": 30.723
+    },
+    {
+     "p": "as",
+     "i": 30.736,
+     "f": 30.827
+    },
+    {
+     "p": "cidades",
+     "i": 30.84,
+     "f": 31.361
+    },
+    {
+     "p": "cheias",
+     "i": 31.374,
+     "f": 31.66
+    },
+    {
+     "p": "de",
+     "i": 31.673,
+     "f": 31.803
+    },
+    {
+     "p": "torres",
+     "i": 31.816,
+     "f": 32.337
+    },
+    {
+     "p": "O",
+     "i": 33.582,
+     "f": 33.712
+    },
+    {
+     "p": "Home",
+     "i": 33.725,
+     "f": 34.051
+    },
+    {
+     "p": "Insurance",
+     "i": 34.064,
+     "f": 34.715
+    },
+    {
+     "p": "foi",
+     "i": 34.728,
+     "f": 34.871
+    },
+    {
+     "p": "demolido",
+     "i": 34.884,
+     "f": 35.405
+    },
+    {
+     "p": "em",
+     "i": 35.418,
+     "f": 35.483
+    },
+    {
+     "p": "mil",
+     "i": 35.496,
+     "f": 35.665
+    },
+    {
+     "p": "novecentos",
+     "i": 35.678,
+     "f": 36.29
+    },
+    {
+     "p": "e",
+     "i": 36.303,
+     "f": 36.46
+    },
+    {
+     "p": "trinta",
+     "i": 36.473,
+     "f": 36.746
+    },
+    {
+     "p": "e",
+     "i": 36.759,
+     "f": 36.811
+    },
+    {
+     "p": "um",
+     "i": 36.824,
+     "f": 37.007
+    },
+    {
+     "p": "Mas",
+     "i": 38.262,
+     "f": 38.47
+    },
+    {
+     "p": "e",
+     "i": 38.483,
+     "f": 38.627
+    },
+    {
+     "p": "se",
+     "i": 38.64,
+     "f": 38.744
+    },
+    {
+     "p": "o",
+     "i": 38.757,
+     "f": 38.822
+    },
+    {
+     "p": "próximo",
+     "i": 38.835,
+     "f": 39.291
+    },
+    {
+     "p": "desafio",
+     "i": 39.304,
+     "f": 39.812
+    },
+    {
+     "p": "fosse",
+     "i": 39.825,
+     "f": 40.098
+    },
+    {
+     "p": "cortar",
+     "i": 40.111,
+     "f": 40.554
+    },
+    {
+     "p": "um",
+     "i": 40.567,
+     "f": 40.632
+    },
+    {
+     "p": "continente",
+     "i": 40.645,
+     "f": 41.244
+    },
+    {
+     "p": "ao",
+     "i": 41.257,
+     "f": 41.335
+    },
+    {
+     "p": "meio",
+     "i": 41.348,
+     "f": 41.713
+    }
+   ]
+  },
+  "panama-1": {
+   "hash": "a569364495",
+   "texto": "Capítulo três. Em mil novecentos e catorze, a rota entre os oceanos se encurtou de um dia para outro. Antes, um navio de Nova York a São Francisco contornava a América do Sul pelo temido Cabo Horn. Eram cerca de quinze mil quilômetros a mais, semanas de mar e tempestade. A ideia de cortar o Panamá era antiga. Quem tentou primeiro foi o francês Ferdinand de Lesseps, o homem do Canal de Suez. Ele começou em mil oitocentos e oitenta e um, com um plano de canal ao nível do mar. Mas a selva, a chuva e as doenças venceram o projeto, e a empresa francesa quebrou.",
+   "audio": "audio/panama-1-a569364495.mp3",
+   "duracao": 44.8,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.753
+    },
+    {
+     "p": "três",
+     "i": 0.766,
+     "f": 1.248
+    },
+    {
+     "p": "Em",
+     "i": 2.502,
+     "f": 2.671
+    },
+    {
+     "p": "mil",
+     "i": 2.684,
+     "f": 2.815
+    },
+    {
+     "p": "novecentos",
+     "i": 2.828,
+     "f": 3.427
+    },
+    {
+     "p": "e",
+     "i": 3.44,
+     "f": 3.544
+    },
+    {
+     "p": "catorze",
+     "i": 3.557,
+     "f": 4.143
+    },
+    {
+     "p": "a",
+     "i": 4.377,
+     "f": 4.481
+    },
+    {
+     "p": "rota",
+     "i": 4.494,
+     "f": 4.82
+    },
+    {
+     "p": "entre",
+     "i": 4.833,
+     "f": 5.015
+    },
+    {
+     "p": "os",
+     "i": 5.028,
+     "f": 5.054
+    },
+    {
+     "p": "oceanos",
+     "i": 5.067,
+     "f": 5.679
+    },
+    {
+     "p": "se",
+     "i": 5.692,
+     "f": 5.77
+    },
+    {
+     "p": "encurtou",
+     "i": 5.783,
+     "f": 6.291
+    },
+    {
+     "p": "de",
+     "i": 6.304,
+     "f": 6.408
+    },
+    {
+     "p": "um",
+     "i": 6.421,
+     "f": 6.539
+    },
+    {
+     "p": "dia",
+     "i": 6.552,
+     "f": 6.851
+    },
+    {
+     "p": "para",
+     "i": 6.864,
+     "f": 7.085
+    },
+    {
+     "p": "outro",
+     "i": 7.098,
+     "f": 7.45
+    },
+    {
+     "p": "Antes",
+     "i": 8.694,
+     "f": 9.189
+    },
+    {
+     "p": "um",
+     "i": 9.527,
+     "f": 9.619
+    },
+    {
+     "p": "navio",
+     "i": 9.632,
+     "f": 10.022
+    },
+    {
+     "p": "de",
+     "i": 10.035,
+     "f": 10.139
+    },
+    {
+     "p": "Nova",
+     "i": 10.152,
+     "f": 10.426
+    },
+    {
+     "p": "York",
+     "i": 10.439,
+     "f": 10.843
+    },
+    {
+     "p": "a",
+     "i": 10.856,
+     "f": 10.908
+    },
+    {
+     "p": "São",
+     "i": 10.921,
+     "f": 11.129
+    },
+    {
+     "p": "Francisco",
+     "i": 11.142,
+     "f": 11.754
+    },
+    {
+     "p": "contornava",
+     "i": 11.767,
+     "f": 12.405
+    },
+    {
+     "p": "a",
+     "i": 12.418,
+     "f": 12.444
+    },
+    {
+     "p": "América",
+     "i": 12.457,
+     "f": 12.887
+    },
+    {
+     "p": "do",
+     "i": 12.9,
+     "f": 13.017
+    },
+    {
+     "p": "Sul",
+     "i": 13.03,
+     "f": 13.277
+    },
+    {
+     "p": "pelo",
+     "i": 13.29,
+     "f": 13.512
+    },
+    {
+     "p": "temido",
+     "i": 13.525,
+     "f": 13.941
+    },
+    {
+     "p": "Cabo",
+     "i": 13.954,
+     "f": 14.28
+    },
+    {
+     "p": "Horn",
+     "i": 14.293,
+     "f": 14.671
+    },
+    {
+     "p": "Eram",
+     "i": 15.918,
+     "f": 16.231
+    },
+    {
+     "p": "cerca",
+     "i": 16.244,
+     "f": 16.66
+    },
+    {
+     "p": "de",
+     "i": 16.673,
+     "f": 16.803
+    },
+    {
+     "p": "quinze",
+     "i": 16.817,
+     "f": 17.246
+    },
+    {
+     "p": "mil",
+     "i": 17.259,
+     "f": 17.481
+    },
+    {
+     "p": "quilômetros",
+     "i": 17.494,
+     "f": 18.04
+    },
+    {
+     "p": "a",
+     "i": 18.053,
+     "f": 18.158
+    },
+    {
+     "p": "mais",
+     "i": 18.171,
+     "f": 18.587
+    },
+    {
+     "p": "semanas",
+     "i": 18.822,
+     "f": 19.356
+    },
+    {
+     "p": "de",
+     "i": 19.369,
+     "f": 19.473
+    },
+    {
+     "p": "mar",
+     "i": 19.486,
+     "f": 19.72
+    },
+    {
+     "p": "e",
+     "i": 19.733,
+     "f": 19.785
+    },
+    {
+     "p": "tempestade",
+     "i": 19.798,
+     "f": 20.553
+    },
+    {
+     "p": "A",
+     "i": 21.798,
+     "f": 21.941
+    },
+    {
+     "p": "ideia",
+     "i": 21.954,
+     "f": 22.306
+    },
+    {
+     "p": "de",
+     "i": 22.319,
+     "f": 22.423
+    },
+    {
+     "p": "cortar",
+     "i": 22.436,
+     "f": 22.905
+    },
+    {
+     "p": "o",
+     "i": 22.918,
+     "f": 22.97
+    },
+    {
+     "p": "Panamá",
+     "i": 22.983,
+     "f": 23.348
+    },
+    {
+     "p": "era",
+     "i": 23.361,
+     "f": 23.53
+    },
+    {
+     "p": "antiga",
+     "i": 23.543,
+     "f": 24.038
+    },
+    {
+     "p": "Quem",
+     "i": 25.278,
+     "f": 25.538
+    },
+    {
+     "p": "tentou",
+     "i": 25.552,
+     "f": 25.916
+    },
+    {
+     "p": "primeiro",
+     "i": 25.929,
+     "f": 26.372
+    },
+    {
+     "p": "foi",
+     "i": 26.385,
+     "f": 26.515
+    },
+    {
+     "p": "o",
+     "i": 26.528,
+     "f": 26.567
+    },
+    {
+     "p": "francês",
+     "i": 26.58,
+     "f": 27.049
+    },
+    {
+     "p": "Ferdinand",
+     "i": 27.062,
+     "f": 27.557
+    },
+    {
+     "p": "de",
+     "i": 27.57,
+     "f": 27.687
+    },
+    {
+     "p": "Lesseps",
+     "i": 27.7,
+     "f": 28.299
+    },
+    {
+     "p": "o",
+     "i": 28.572,
+     "f": 28.65
+    },
+    {
+     "p": "homem",
+     "i": 28.663,
+     "f": 29.002
+    },
+    {
+     "p": "do",
+     "i": 29.015,
+     "f": 29.158
+    },
+    {
+     "p": "Canal",
+     "i": 29.171,
+     "f": 29.523
+    },
+    {
+     "p": "de",
+     "i": 29.536,
+     "f": 29.627
+    },
+    {
+     "p": "Suez",
+     "i": 29.64,
+     "f": 30.187
+    },
+    {
+     "p": "Ele",
+     "i": 31.446,
+     "f": 31.654
+    },
+    {
+     "p": "começou",
+     "i": 31.667,
+     "f": 32.175
+    },
+    {
+     "p": "em",
+     "i": 32.188,
+     "f": 32.279
+    },
+    {
+     "p": "mil",
+     "i": 32.292,
+     "f": 32.475
+    },
+    {
+     "p": "oitocentos",
+     "i": 32.488,
+     "f": 33.087
+    },
+    {
+     "p": "e",
+     "i": 33.1,
+     "f": 33.191
+    },
+    {
+     "p": "oitenta",
+     "i": 33.204,
+     "f": 33.516
+    },
+    {
+     "p": "e",
+     "i": 33.529,
+     "f": 33.568
+    },
+    {
+     "p": "um",
+     "i": 33.581,
+     "f": 33.751
+    },
+    {
+     "p": "com",
+     "i": 34.063,
+     "f": 34.207
+    },
+    {
+     "p": "um",
+     "i": 34.22,
+     "f": 34.324
+    },
+    {
+     "p": "plano",
+     "i": 34.337,
+     "f": 34.701
+    },
+    {
+     "p": "de",
+     "i": 34.714,
+     "f": 34.805
+    },
+    {
+     "p": "canal",
+     "i": 34.818,
+     "f": 35.209
+    },
+    {
+     "p": "ao",
+     "i": 35.222,
+     "f": 35.339
+    },
+    {
+     "p": "nível",
+     "i": 35.352,
+     "f": 35.717
+    },
+    {
+     "p": "do",
+     "i": 35.73,
+     "f": 35.834
+    },
+    {
+     "p": "mar.",
+     "i": 35.847,
+     "f": 36.095
+    },
+    {
+     "p": "Mas",
+     "i": 37.35,
+     "f": 37.571
+    },
+    {
+     "p": "a",
+     "i": 37.584,
+     "f": 37.728
+    },
+    {
+     "p": "selva",
+     "i": 37.741,
+     "f": 38.222
+    },
+    {
+     "p": "a",
+     "i": 38.483,
+     "f": 38.574
+    },
+    {
+     "p": "chuva",
+     "i": 38.587,
+     "f": 39.069
+    },
+    {
+     "p": "e",
+     "i": 39.082,
+     "f": 39.16
+    },
+    {
+     "p": "as",
+     "i": 39.173,
+     "f": 39.303
+    },
+    {
+     "p": "doenças",
+     "i": 39.316,
+     "f": 39.85
+    },
+    {
+     "p": "venceram",
+     "i": 39.863,
+     "f": 40.345
+    },
+    {
+     "p": "o",
+     "i": 40.358,
+     "f": 40.397
+    },
+    {
+     "p": "projeto",
+     "i": 40.41,
+     "f": 41.009
+    },
+    {
+     "p": "e",
+     "i": 41.334,
+     "f": 41.439
+    },
+    {
+     "p": "a",
+     "i": 41.452,
+     "f": 41.504
+    },
+    {
+     "p": "empresa",
+     "i": 41.517,
+     "f": 42.038
+    },
+    {
+     "p": "francesa",
+     "i": 42.051,
+     "f": 42.597
+    },
+    {
+     "p": "quebrou",
+     "i": 42.61,
+     "f": 43.066
+    }
+   ]
+  },
+  "panama-2": {
+   "hash": "207b9dee82",
+   "texto": "Em mil novecentos e quatro, os Estados Unidos assumem a obra com duas mudanças decisivas. A primeira foi sanitária. O médico William Gorgas combateu os mosquitos que espalhavam febre amarela e malária. A segunda foi de engenharia: em vez de escavar até o nível do mar, criar um lago no meio do caminho. Os navios sobem por eclusas, atravessam o lago Gatún e descem do outro lado, como degraus de água. No Corte Culebra, escavadeiras a vapor abriram a montanha por anos, e milhares de operários morreram na obra. Em quinze de agosto de mil novecentos e catorze, o navio Ancón fez a primeira travessia oficial.",
+   "audio": "audio/panama-2-207b9dee82.mp3",
+   "duracao": 45.349,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "mil",
+     "i": 0.271,
+     "f": 0.415
+    },
+    {
+     "p": "novecentos",
+     "i": 0.428,
+     "f": 1.014
+    },
+    {
+     "p": "e",
+     "i": 1.027,
+     "f": 1.144
+    },
+    {
+     "p": "quatro",
+     "i": 1.157,
+     "f": 1.586
+    },
+    {
+     "p": "os",
+     "i": 1.86,
+     "f": 1.951
+    },
+    {
+     "p": "Estados",
+     "i": 1.964,
+     "f": 2.472
+    },
+    {
+     "p": "Unidos",
+     "i": 2.485,
+     "f": 2.889
+    },
+    {
+     "p": "assumem",
+     "i": 2.902,
+     "f": 3.448
+    },
+    {
+     "p": "a",
+     "i": 3.461,
+     "f": 3.54
+    },
+    {
+     "p": "obra",
+     "i": 3.553,
+     "f": 3.865
+    },
+    {
+     "p": "com",
+     "i": 3.878,
+     "f": 4.099
+    },
+    {
+     "p": "duas",
+     "i": 4.112,
+     "f": 4.49
+    },
+    {
+     "p": "mudanças",
+     "i": 4.503,
+     "f": 5.089
+    },
+    {
+     "p": "decisivas",
+     "i": 5.102,
+     "f": 5.961
+    },
+    {
+     "p": "A",
+     "i": 7.206,
+     "f": 7.323
+    },
+    {
+     "p": "primeira",
+     "i": 7.336,
+     "f": 7.818
+    },
+    {
+     "p": "foi",
+     "i": 7.831,
+     "f": 8.013
+    },
+    {
+     "p": "sanitária",
+     "i": 8.026,
+     "f": 8.717
+    },
+    {
+     "p": "O",
+     "i": 9.966,
+     "f": 10.07
+    },
+    {
+     "p": "médico",
+     "i": 10.083,
+     "f": 10.565
+    },
+    {
+     "p": "William",
+     "i": 10.578,
+     "f": 10.891
+    },
+    {
+     "p": "Gorgas",
+     "i": 10.904,
+     "f": 11.372
+    },
+    {
+     "p": "combateu",
+     "i": 11.385,
+     "f": 11.828
+    },
+    {
+     "p": "os",
+     "i": 11.841,
+     "f": 11.945
+    },
+    {
+     "p": "mosquitos",
+     "i": 11.958,
+     "f": 12.57
+    },
+    {
+     "p": "que",
+     "i": 12.583,
+     "f": 12.648
+    },
+    {
+     "p": "espalhavam",
+     "i": 12.661,
+     "f": 13.234
+    },
+    {
+     "p": "febre",
+     "i": 13.247,
+     "f": 13.573
+    },
+    {
+     "p": "amarela",
+     "i": 13.586,
+     "f": 14.081
+    },
+    {
+     "p": "e",
+     "i": 14.094,
+     "f": 14.159
+    },
+    {
+     "p": "malária",
+     "i": 14.172,
+     "f": 14.667
+    },
+    {
+     "p": "A",
+     "i": 15.918,
+     "f": 16.035
+    },
+    {
+     "p": "segunda",
+     "i": 16.048,
+     "f": 16.569
+    },
+    {
+     "p": "foi",
+     "i": 16.582,
+     "f": 16.738
+    },
+    {
+     "p": "de",
+     "i": 16.751,
+     "f": 16.83
+    },
+    {
+     "p": "engenharia",
+     "i": 16.843,
+     "f": 17.468
+    },
+    {
+     "p": "em",
+     "i": 17.819,
+     "f": 17.988
+    },
+    {
+     "p": "vez",
+     "i": 18.001,
+     "f": 18.262
+    },
+    {
+     "p": "de",
+     "i": 18.275,
+     "f": 18.353
+    },
+    {
+     "p": "escavar",
+     "i": 18.366,
+     "f": 18.809
+    },
+    {
+     "p": "até",
+     "i": 18.822,
+     "f": 19.03
+    },
+    {
+     "p": "o",
+     "i": 19.043,
+     "f": 19.082
+    },
+    {
+     "p": "nível",
+     "i": 19.095,
+     "f": 19.434
+    },
+    {
+     "p": "do",
+     "i": 19.447,
+     "f": 19.551
+    },
+    {
+     "p": "mar",
+     "i": 19.564,
+     "f": 19.824
+    },
+    {
+     "p": "criar",
+     "i": 20.02,
+     "f": 20.319
+    },
+    {
+     "p": "um",
+     "i": 20.332,
+     "f": 20.462
+    },
+    {
+     "p": "lago",
+     "i": 20.475,
+     "f": 20.788
+    },
+    {
+     "p": "no",
+     "i": 20.801,
+     "f": 20.879
+    },
+    {
+     "p": "meio",
+     "i": 20.892,
+     "f": 21.126
+    },
+    {
+     "p": "do",
+     "i": 21.139,
+     "f": 21.257
+    },
+    {
+     "p": "caminho",
+     "i": 21.27,
+     "f": 21.751
+    },
+    {
+     "p": "Os",
+     "i": 22.998,
+     "f": 23.167
+    },
+    {
+     "p": "navios",
+     "i": 23.18,
+     "f": 23.688
+    },
+    {
+     "p": "sobem",
+     "i": 23.701,
+     "f": 24.027
+    },
+    {
+     "p": "por",
+     "i": 24.04,
+     "f": 24.17
+    },
+    {
+     "p": "eclusas",
+     "i": 24.183,
+     "f": 24.782
+    },
+    {
+     "p": "atravessam",
+     "i": 25.042,
+     "f": 25.693
+    },
+    {
+     "p": "o",
+     "i": 25.706,
+     "f": 25.732
+    },
+    {
+     "p": "lago",
+     "i": 25.745,
+     "f": 26.045
+    },
+    {
+     "p": "Gatún",
+     "i": 26.058,
+     "f": 26.501
+    },
+    {
+     "p": "e",
+     "i": 26.514,
+     "f": 26.553
+    },
+    {
+     "p": "descem",
+     "i": 26.566,
+     "f": 26.865
+    },
+    {
+     "p": "do",
+     "i": 26.878,
+     "f": 27.008
+    },
+    {
+     "p": "outro",
+     "i": 27.022,
+     "f": 27.308
+    },
+    {
+     "p": "lado",
+     "i": 27.321,
+     "f": 27.66
+    },
+    {
+     "p": "como",
+     "i": 27.946,
+     "f": 28.18
+    },
+    {
+     "p": "degraus",
+     "i": 28.193,
+     "f": 28.584
+    },
+    {
+     "p": "de",
+     "i": 28.597,
+     "f": 28.701
+    },
+    {
+     "p": "água",
+     "i": 28.714,
+     "f": 29.079
+    },
+    {
+     "p": "No",
+     "i": 30.342,
+     "f": 30.55
+    },
+    {
+     "p": "Corte",
+     "i": 30.563,
+     "f": 30.954
+    },
+    {
+     "p": "Culebra",
+     "i": 30.967,
+     "f": 31.449
+    },
+    {
+     "p": "escavadeiras",
+     "i": 31.761,
+     "f": 32.373
+    },
+    {
+     "p": "a",
+     "i": 32.386,
+     "f": 32.504
+    },
+    {
+     "p": "vapor",
+     "i": 32.517,
+     "f": 32.855
+    },
+    {
+     "p": "abriram",
+     "i": 32.868,
+     "f": 33.272
+    },
+    {
+     "p": "a",
+     "i": 33.285,
+     "f": 33.311
+    },
+    {
+     "p": "montanha",
+     "i": 33.324,
+     "f": 33.78
+    },
+    {
+     "p": "por",
+     "i": 33.793,
+     "f": 33.962
+    },
+    {
+     "p": "anos",
+     "i": 33.975,
+     "f": 34.3
+    },
+    {
+     "p": "e",
+     "i": 34.626,
+     "f": 34.717
+    },
+    {
+     "p": "milhares",
+     "i": 34.73,
+     "f": 35.186
+    },
+    {
+     "p": "de",
+     "i": 35.199,
+     "f": 35.277
+    },
+    {
+     "p": "operários",
+     "i": 35.29,
+     "f": 35.811
+    },
+    {
+     "p": "morreram",
+     "i": 35.824,
+     "f": 36.293
+    },
+    {
+     "p": "na",
+     "i": 36.306,
+     "f": 36.449
+    },
+    {
+     "p": "obra",
+     "i": 36.462,
+     "f": 36.8
+    },
+    {
+     "p": "Em",
+     "i": 38.046,
+     "f": 38.241
+    },
+    {
+     "p": "quinze",
+     "i": 38.254,
+     "f": 38.645
+    },
+    {
+     "p": "de",
+     "i": 38.658,
+     "f": 38.749
+    },
+    {
+     "p": "agosto",
+     "i": 38.762,
+     "f": 39.257
+    },
+    {
+     "p": "de",
+     "i": 39.27,
+     "f": 39.374
+    },
+    {
+     "p": "mil",
+     "i": 39.387,
+     "f": 39.517
+    },
+    {
+     "p": "novecentos",
+     "i": 39.53,
+     "f": 40.077
+    },
+    {
+     "p": "e",
+     "i": 40.09,
+     "f": 40.182
+    },
+    {
+     "p": "catorze",
+     "i": 40.195,
+     "f": 40.78
+    },
+    {
+     "p": "o",
+     "i": 41.08,
+     "f": 41.145
+    },
+    {
+     "p": "navio",
+     "i": 41.158,
+     "f": 41.484
+    },
+    {
+     "p": "Ancón",
+     "i": 41.497,
+     "f": 41.874
+    },
+    {
+     "p": "fez",
+     "i": 41.887,
+     "f": 42.043
+    },
+    {
+     "p": "a",
+     "i": 42.056,
+     "f": 42.174
+    },
+    {
+     "p": "primeira",
+     "i": 42.187,
+     "f": 42.538
+    },
+    {
+     "p": "travessia",
+     "i": 42.551,
+     "f": 43.033
+    },
+    {
+     "p": "oficial",
+     "i": 43.046,
+     "f": 43.619
+    }
+   ]
+  },
+  "panama-3": {
+   "hash": "f306d69ff2",
+   "texto": "O canal mudou o mapa do comércio e quase nunca parou desde então. Em dois mil e dezesseis, novas eclusas permitiram a passagem de navios muito maiores. Foi a prova de que uma obra do começo do século vinte ainda podia crescer. Mas a pergunta seguinte era mais ousada: até que altura a humanidade poderia levantar um prédio?",
+   "audio": "audio/panama-3-f306d69ff2.mp3",
+   "duracao": 24.163,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "canal",
+     "i": 0.232,
+     "f": 0.636
+    },
+    {
+     "p": "mudou",
+     "i": 0.649,
+     "f": 0.961
+    },
+    {
+     "p": "o",
+     "i": 0.975,
+     "f": 1.014
+    },
+    {
+     "p": "mapa",
+     "i": 1.027,
+     "f": 1.339
+    },
+    {
+     "p": "do",
+     "i": 1.352,
+     "f": 1.456
+    },
+    {
+     "p": "comércio",
+     "i": 1.469,
+     "f": 1.99
+    },
+    {
+     "p": "e",
+     "i": 2.003,
+     "f": 2.042
+    },
+    {
+     "p": "quase",
+     "i": 2.055,
+     "f": 2.433
+    },
+    {
+     "p": "nunca",
+     "i": 2.446,
+     "f": 2.849
+    },
+    {
+     "p": "parou",
+     "i": 2.862,
+     "f": 3.162
+    },
+    {
+     "p": "desde",
+     "i": 3.175,
+     "f": 3.553
+    },
+    {
+     "p": "então",
+     "i": 3.566,
+     "f": 3.969
+    },
+    {
+     "p": "Em",
+     "i": 5.214,
+     "f": 5.357
+    },
+    {
+     "p": "dois",
+     "i": 5.37,
+     "f": 5.592
+    },
+    {
+     "p": "mil",
+     "i": 5.605,
+     "f": 5.722
+    },
+    {
+     "p": "e",
+     "i": 5.735,
+     "f": 5.774
+    },
+    {
+     "p": "dezesseis",
+     "i": 5.787,
+     "f": 6.451
+    },
+    {
+     "p": "novas",
+     "i": 6.672,
+     "f": 6.946
+    },
+    {
+     "p": "eclusas",
+     "i": 6.959,
+     "f": 7.519
+    },
+    {
+     "p": "permitiram",
+     "i": 7.532,
+     "f": 8.105
+    },
+    {
+     "p": "a",
+     "i": 8.118,
+     "f": 8.157
+    },
+    {
+     "p": "passagem",
+     "i": 8.17,
+     "f": 8.704
+    },
+    {
+     "p": "de",
+     "i": 8.717,
+     "f": 8.808
+    },
+    {
+     "p": "navios",
+     "i": 8.821,
+     "f": 9.29
+    },
+    {
+     "p": "muito",
+     "i": 9.303,
+     "f": 9.706
+    },
+    {
+     "p": "maiores",
+     "i": 9.719,
+     "f": 10.318
+    },
+    {
+     "p": "Foi",
+     "i": 11.574,
+     "f": 11.795
+    },
+    {
+     "p": "a",
+     "i": 11.808,
+     "f": 11.913
+    },
+    {
+     "p": "prova",
+     "i": 11.926,
+     "f": 12.303
+    },
+    {
+     "p": "de",
+     "i": 12.316,
+     "f": 12.42
+    },
+    {
+     "p": "que",
+     "i": 12.433,
+     "f": 12.564
+    },
+    {
+     "p": "uma",
+     "i": 12.577,
+     "f": 12.746
+    },
+    {
+     "p": "obra",
+     "i": 12.759,
+     "f": 13.085
+    },
+    {
+     "p": "do",
+     "i": 13.098,
+     "f": 13.189
+    },
+    {
+     "p": "começo",
+     "i": 13.202,
+     "f": 13.67
+    },
+    {
+     "p": "do",
+     "i": 13.683,
+     "f": 13.775
+    },
+    {
+     "p": "século",
+     "i": 13.788,
+     "f": 14.23
+    },
+    {
+     "p": "vinte",
+     "i": 14.243,
+     "f": 14.543
+    },
+    {
+     "p": "ainda",
+     "i": 14.556,
+     "f": 14.842
+    },
+    {
+     "p": "podia",
+     "i": 14.855,
+     "f": 15.207
+    },
+    {
+     "p": "crescer",
+     "i": 15.22,
+     "f": 15.676
+    },
+    {
+     "p": "Mas",
+     "i": 16.926,
+     "f": 17.108
+    },
+    {
+     "p": "a",
+     "i": 17.121,
+     "f": 17.252
+    },
+    {
+     "p": "pergunta",
+     "i": 17.265,
+     "f": 17.785
+    },
+    {
+     "p": "seguinte",
+     "i": 17.799,
+     "f": 18.28
+    },
+    {
+     "p": "era",
+     "i": 18.293,
+     "f": 18.437
+    },
+    {
+     "p": "mais",
+     "i": 18.45,
+     "f": 18.606
+    },
+    {
+     "p": "ousada",
+     "i": 18.619,
+     "f": 19.153
+    },
+    {
+     "p": "até",
+     "i": 19.465,
+     "f": 19.778
+    },
+    {
+     "p": "que",
+     "i": 19.791,
+     "f": 19.869
+    },
+    {
+     "p": "altura",
+     "i": 19.882,
+     "f": 20.298
+    },
+    {
+     "p": "a",
+     "i": 20.311,
+     "f": 20.351
+    },
+    {
+     "p": "humanidade",
+     "i": 20.364,
+     "f": 20.976
+    },
+    {
+     "p": "poderia",
+     "i": 20.989,
+     "f": 21.366
+    },
+    {
+     "p": "levantar",
+     "i": 21.379,
+     "f": 21.848
+    },
+    {
+     "p": "um",
+     "i": 21.861,
+     "f": 21.965
+    },
+    {
+     "p": "prédio",
+     "i": 21.978,
+     "f": 22.421
+    }
+   ]
+  },
+  "burj-1": {
+   "hash": "c25502003f",
+   "texto": "Capítulo quatro. Dubai, dois mil e quatro. Em pleno deserto, começa a construção de uma torre sem precedentes. O arquiteto Adrian Smith precisava de um formato que não fosse derrubado pelo vento. A solução foi uma planta em forma de Y, inspirada numa flor do deserto, a hymenocallis. Cada ala se apoia nas outras e quebra o vento, que não consegue formar grandes redemoinhos. Modelos foram testados em túneis de vento durante meses, até a forma final ficar pronta. Mesmo assim, ainda faltava saber como levar o concreto até o céu.",
+   "audio": "audio/burj-1-c25502003f.mp3",
+   "duracao": 43.154,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.727
+    },
+    {
+     "p": "quatro",
+     "i": 0.74,
+     "f": 1.209
+    },
+    {
+     "p": "Dubai",
+     "i": 2.454,
+     "f": 2.962
+    },
+    {
+     "p": "dois",
+     "i": 3.248,
+     "f": 3.548
+    },
+    {
+     "p": "mil",
+     "i": 3.561,
+     "f": 3.717
+    },
+    {
+     "p": "e",
+     "i": 3.73,
+     "f": 3.769
+    },
+    {
+     "p": "quatro",
+     "i": 3.782,
+     "f": 4.251
+    },
+    {
+     "p": "Em",
+     "i": 5.502,
+     "f": 5.684
+    },
+    {
+     "p": "pleno",
+     "i": 5.697,
+     "f": 6.023
+    },
+    {
+     "p": "deserto",
+     "i": 6.036,
+     "f": 6.596
+    },
+    {
+     "p": "começa",
+     "i": 6.869,
+     "f": 7.338
+    },
+    {
+     "p": "a",
+     "i": 7.351,
+     "f": 7.377
+    },
+    {
+     "p": "construção",
+     "i": 7.39,
+     "f": 8.015
+    },
+    {
+     "p": "de",
+     "i": 8.028,
+     "f": 8.106
+    },
+    {
+     "p": "uma",
+     "i": 8.119,
+     "f": 8.289
+    },
+    {
+     "p": "torre",
+     "i": 8.302,
+     "f": 8.653
+    },
+    {
+     "p": "sem",
+     "i": 8.666,
+     "f": 8.94
+    },
+    {
+     "p": "precedentes",
+     "i": 8.953,
+     "f": 9.812
+    },
+    {
+     "p": "O",
+     "i": 11.07,
+     "f": 11.187
+    },
+    {
+     "p": "arquiteto",
+     "i": 11.2,
+     "f": 11.812
+    },
+    {
+     "p": "Adrian",
+     "i": 11.825,
+     "f": 12.125
+    },
+    {
+     "p": "Smith",
+     "i": 12.138,
+     "f": 12.594
+    },
+    {
+     "p": "precisava",
+     "i": 12.607,
+     "f": 13.192
+    },
+    {
+     "p": "de",
+     "i": 13.205,
+     "f": 13.284
+    },
+    {
+     "p": "um",
+     "i": 13.297,
+     "f": 13.375
+    },
+    {
+     "p": "formato",
+     "i": 13.388,
+     "f": 13.935
+    },
+    {
+     "p": "que",
+     "i": 13.948,
+     "f": 14.052
+    },
+    {
+     "p": "não",
+     "i": 14.065,
+     "f": 14.221
+    },
+    {
+     "p": "fosse",
+     "i": 14.234,
+     "f": 14.573
+    },
+    {
+     "p": "derrubado",
+     "i": 14.586,
+     "f": 15.146
+    },
+    {
+     "p": "pelo",
+     "i": 15.159,
+     "f": 15.393
+    },
+    {
+     "p": "vento",
+     "i": 15.406,
+     "f": 15.797
+    },
+    {
+     "p": "A",
+     "i": 17.046,
+     "f": 17.15
+    },
+    {
+     "p": "solução",
+     "i": 17.163,
+     "f": 17.762
+    },
+    {
+     "p": "foi",
+     "i": 17.775,
+     "f": 17.919
+    },
+    {
+     "p": "uma",
+     "i": 17.932,
+     "f": 18.127
+    },
+    {
+     "p": "planta",
+     "i": 18.14,
+     "f": 18.53
+    },
+    {
+     "p": "em",
+     "i": 18.543,
+     "f": 18.609
+    },
+    {
+     "p": "forma",
+     "i": 18.622,
+     "f": 18.999
+    },
+    {
+     "p": "de",
+     "i": 19.012,
+     "f": 19.195
+    },
+    {
+     "p": "Y",
+     "i": 19.208,
+     "f": 19.611
+    },
+    {
+     "p": "inspirada",
+     "i": 19.95,
+     "f": 20.523
+    },
+    {
+     "p": "numa",
+     "i": 20.536,
+     "f": 20.757
+    },
+    {
+     "p": "flor",
+     "i": 20.77,
+     "f": 21.03
+    },
+    {
+     "p": "do",
+     "i": 21.043,
+     "f": 21.135
+    },
+    {
+     "p": "deserto",
+     "i": 21.148,
+     "f": 21.747
+    },
+    {
+     "p": "a",
+     "i": 21.968,
+     "f": 22.059
+    },
+    {
+     "p": "hymenocallis",
+     "i": 22.072,
+     "f": 22.905
+    },
+    {
+     "p": "Cada",
+     "i": 24.15,
+     "f": 24.437
+    },
+    {
+     "p": "ala",
+     "i": 24.45,
+     "f": 24.749
+    },
+    {
+     "p": "se",
+     "i": 24.762,
+     "f": 24.879
+    },
+    {
+     "p": "apoia",
+     "i": 24.892,
+     "f": 25.296
+    },
+    {
+     "p": "nas",
+     "i": 25.309,
+     "f": 25.452
+    },
+    {
+     "p": "outras",
+     "i": 25.465,
+     "f": 25.83
+    },
+    {
+     "p": "e",
+     "i": 25.843,
+     "f": 25.973
+    },
+    {
+     "p": "quebra",
+     "i": 25.986,
+     "f": 26.246
+    },
+    {
+     "p": "o",
+     "i": 26.259,
+     "f": 26.285
+    },
+    {
+     "p": "vento",
+     "i": 26.299,
+     "f": 26.676
+    },
+    {
+     "p": "que",
+     "i": 26.95,
+     "f": 27.093
+    },
+    {
+     "p": "não",
+     "i": 27.106,
+     "f": 27.301
+    },
+    {
+     "p": "consegue",
+     "i": 27.314,
+     "f": 27.848
+    },
+    {
+     "p": "formar",
+     "i": 27.861,
+     "f": 28.265
+    },
+    {
+     "p": "grandes",
+     "i": 28.278,
+     "f": 28.746
+    },
+    {
+     "p": "redemoinhos",
+     "i": 28.759,
+     "f": 29.567
+    },
+    {
+     "p": "Modelos",
+     "i": 30.822,
+     "f": 31.382
+    },
+    {
+     "p": "foram",
+     "i": 31.395,
+     "f": 31.655
+    },
+    {
+     "p": "testados",
+     "i": 31.668,
+     "f": 32.137
+    },
+    {
+     "p": "em",
+     "i": 32.15,
+     "f": 32.372
+    },
+    {
+     "p": "túneis",
+     "i": 32.385,
+     "f": 32.723
+    },
+    {
+     "p": "de",
+     "i": 32.736,
+     "f": 32.814
+    },
+    {
+     "p": "vento",
+     "i": 32.827,
+     "f": 33.14
+    },
+    {
+     "p": "durante",
+     "i": 33.153,
+     "f": 33.491
+    },
+    {
+     "p": "meses",
+     "i": 33.504,
+     "f": 33.96
+    },
+    {
+     "p": "até",
+     "i": 34.234,
+     "f": 34.455
+    },
+    {
+     "p": "a",
+     "i": 34.468,
+     "f": 34.559
+    },
+    {
+     "p": "forma",
+     "i": 34.572,
+     "f": 34.95
+    },
+    {
+     "p": "final",
+     "i": 34.963,
+     "f": 35.288
+    },
+    {
+     "p": "ficar",
+     "i": 35.301,
+     "f": 35.64
+    },
+    {
+     "p": "pronta",
+     "i": 35.653,
+     "f": 36.122
+    },
+    {
+     "p": "Mesmo",
+     "i": 37.374,
+     "f": 37.752
+    },
+    {
+     "p": "assim",
+     "i": 37.765,
+     "f": 38.142
+    },
+    {
+     "p": "ainda",
+     "i": 38.416,
+     "f": 38.741
+    },
+    {
+     "p": "faltava",
+     "i": 38.754,
+     "f": 39.158
+    },
+    {
+     "p": "saber",
+     "i": 39.171,
+     "f": 39.483
+    },
+    {
+     "p": "como",
+     "i": 39.496,
+     "f": 39.731
+    },
+    {
+     "p": "levar",
+     "i": 39.744,
+     "f": 40.069
+    },
+    {
+     "p": "o",
+     "i": 40.082,
+     "f": 40.121
+    },
+    {
+     "p": "concreto",
+     "i": 40.134,
+     "f": 40.668
+    },
+    {
+     "p": "até",
+     "i": 40.681,
+     "f": 40.903
+    },
+    {
+     "p": "o",
+     "i": 40.916,
+     "f": 40.968
+    },
+    {
+     "p": "céu",
+     "i": 40.981,
+     "f": 41.398
+    }
+   ]
+  },
+  "burj-2-virada": {
+   "hash": "90c8bb6294",
+   "texto": "E aqui está a virada. O núcleo do Burj Khalifa é feito de concreto armado, o mesmo material dos romanos. Os engenheiros criaram misturas muito resistentes e bombearam o concreto a mais de seiscentos metros de altura, um recorde na época. Para a mistura não endurecer no caminho, boa parte da obra foi feita de madrugada, com gelo na massa. A torre foi inaugurada em quatro de janeiro de dois mil e dez, com oitocentos e vinte e oito metros e cento e sessenta e três andares. Ou seja: o Panteão, o aço de Chicago e a engenharia do Panamá se encontram numa única torre. Ela é quase três vezes mais alta que a Torre Eiffel de mil oitocentos e oitenta e nove.",
+   "audio": "audio/burj-2-virada-90c8bb6294.mp3",
+   "duracao": 47.569,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "aqui",
+     "i": 0.245,
+     "f": 0.467
+    },
+    {
+     "p": "está",
+     "i": 0.48,
+     "f": 0.844
+    },
+    {
+     "p": "a",
+     "i": 0.857,
+     "f": 0.896
+    },
+    {
+     "p": "virada",
+     "i": 0.909,
+     "f": 1.43
+    },
+    {
+     "p": "O",
+     "i": 2.67,
+     "f": 2.787
+    },
+    {
+     "p": "núcleo",
+     "i": 2.8,
+     "f": 3.217
+    },
+    {
+     "p": "do",
+     "i": 3.23,
+     "f": 3.334
+    },
+    {
+     "p": "Burj",
+     "i": 3.347,
+     "f": 3.647
+    },
+    {
+     "p": "Khalifa",
+     "i": 3.66,
+     "f": 4.167
+    },
+    {
+     "p": "é",
+     "i": 4.181,
+     "f": 4.207
+    },
+    {
+     "p": "feito",
+     "i": 4.22,
+     "f": 4.558
+    },
+    {
+     "p": "de",
+     "i": 4.571,
+     "f": 4.649
+    },
+    {
+     "p": "concreto",
+     "i": 4.662,
+     "f": 5.131
+    },
+    {
+     "p": "armado",
+     "i": 5.144,
+     "f": 5.6
+    },
+    {
+     "p": "o",
+     "i": 5.886,
+     "f": 6.003
+    },
+    {
+     "p": "mesmo",
+     "i": 6.016,
+     "f": 6.459
+    },
+    {
+     "p": "material",
+     "i": 6.472,
+     "f": 6.98
+    },
+    {
+     "p": "dos",
+     "i": 6.993,
+     "f": 7.149
+    },
+    {
+     "p": "romanos",
+     "i": 7.162,
+     "f": 7.813
+    },
+    {
+     "p": "Os",
+     "i": 9.054,
+     "f": 9.171
+    },
+    {
+     "p": "engenheiros",
+     "i": 9.184,
+     "f": 9.809
+    },
+    {
+     "p": "criaram",
+     "i": 9.822,
+     "f": 10.174
+    },
+    {
+     "p": "misturas",
+     "i": 10.187,
+     "f": 10.708
+    },
+    {
+     "p": "muito",
+     "i": 10.721,
+     "f": 11.085
+    },
+    {
+     "p": "resistentes",
+     "i": 11.098,
+     "f": 11.736
+    },
+    {
+     "p": "e",
+     "i": 11.749,
+     "f": 11.841
+    },
+    {
+     "p": "bombearam",
+     "i": 11.854,
+     "f": 12.309
+    },
+    {
+     "p": "o",
+     "i": 12.322,
+     "f": 12.361
+    },
+    {
+     "p": "concreto",
+     "i": 12.374,
+     "f": 12.882
+    },
+    {
+     "p": "a",
+     "i": 12.895,
+     "f": 12.947
+    },
+    {
+     "p": "mais",
+     "i": 12.96,
+     "f": 13.247
+    },
+    {
+     "p": "de",
+     "i": 13.26,
+     "f": 13.364
+    },
+    {
+     "p": "seiscentos",
+     "i": 13.377,
+     "f": 13.976
+    },
+    {
+     "p": "metros",
+     "i": 13.989,
+     "f": 14.38
+    },
+    {
+     "p": "de",
+     "i": 14.393,
+     "f": 14.445
+    },
+    {
+     "p": "altura",
+     "i": 14.458,
+     "f": 14.9
+    },
+    {
+     "p": "um",
+     "i": 15.252,
+     "f": 15.395
+    },
+    {
+     "p": "recorde",
+     "i": 15.408,
+     "f": 15.955
+    },
+    {
+     "p": "na",
+     "i": 15.968,
+     "f": 16.124
+    },
+    {
+     "p": "época",
+     "i": 16.137,
+     "f": 16.554
+    },
+    {
+     "p": "Para",
+     "i": 17.814,
+     "f": 18.022
+    },
+    {
+     "p": "a",
+     "i": 18.035,
+     "f": 18.048
+    },
+    {
+     "p": "mistura",
+     "i": 18.061,
+     "f": 18.504
+    },
+    {
+     "p": "não",
+     "i": 18.517,
+     "f": 18.699
+    },
+    {
+     "p": "endurecer",
+     "i": 18.713,
+     "f": 19.233
+    },
+    {
+     "p": "no",
+     "i": 19.246,
+     "f": 19.325
+    },
+    {
+     "p": "caminho",
+     "i": 19.338,
+     "f": 19.78
+    },
+    {
+     "p": "boa",
+     "i": 20.08,
+     "f": 20.366
+    },
+    {
+     "p": "parte",
+     "i": 20.379,
+     "f": 20.731
+    },
+    {
+     "p": "da",
+     "i": 20.744,
+     "f": 20.874
+    },
+    {
+     "p": "obra",
+     "i": 20.887,
+     "f": 21.213
+    },
+    {
+     "p": "foi",
+     "i": 21.226,
+     "f": 21.382
+    },
+    {
+     "p": "feita",
+     "i": 21.395,
+     "f": 21.72
+    },
+    {
+     "p": "de",
+     "i": 21.733,
+     "f": 21.825
+    },
+    {
+     "p": "madrugada",
+     "i": 21.838,
+     "f": 22.436
+    },
+    {
+     "p": "com",
+     "i": 22.71,
+     "f": 22.918
+    },
+    {
+     "p": "gelo",
+     "i": 22.931,
+     "f": 23.244
+    },
+    {
+     "p": "na",
+     "i": 23.257,
+     "f": 23.374
+    },
+    {
+     "p": "massa",
+     "i": 23.387,
+     "f": 23.804
+    },
+    {
+     "p": "A",
+     "i": 25.062,
+     "f": 25.205
+    },
+    {
+     "p": "torre",
+     "i": 25.218,
+     "f": 25.622
+    },
+    {
+     "p": "foi",
+     "i": 25.635,
+     "f": 25.778
+    },
+    {
+     "p": "inaugurada",
+     "i": 25.791,
+     "f": 26.364
+    },
+    {
+     "p": "em",
+     "i": 26.377,
+     "f": 26.481
+    },
+    {
+     "p": "quatro",
+     "i": 26.494,
+     "f": 26.872
+    },
+    {
+     "p": "de",
+     "i": 26.885,
+     "f": 26.95
+    },
+    {
+     "p": "janeiro",
+     "i": 26.963,
+     "f": 27.419
+    },
+    {
+     "p": "de",
+     "i": 27.432,
+     "f": 27.51
+    },
+    {
+     "p": "dois",
+     "i": 27.523,
+     "f": 27.731
+    },
+    {
+     "p": "mil",
+     "i": 27.744,
+     "f": 27.862
+    },
+    {
+     "p": "e",
+     "i": 27.875,
+     "f": 27.927
+    },
+    {
+     "p": "dez",
+     "i": 27.94,
+     "f": 28.343
+    },
+    {
+     "p": "com",
+     "i": 28.591,
+     "f": 28.708
+    },
+    {
+     "p": "oitocentos",
+     "i": 28.721,
+     "f": 29.359
+    },
+    {
+     "p": "e",
+     "i": 29.372,
+     "f": 29.489
+    },
+    {
+     "p": "vinte",
+     "i": 29.502,
+     "f": 29.737
+    },
+    {
+     "p": "e",
+     "i": 29.75,
+     "f": 29.763
+    },
+    {
+     "p": "oito",
+     "i": 29.776,
+     "f": 29.984
+    },
+    {
+     "p": "metros",
+     "i": 29.997,
+     "f": 30.362
+    },
+    {
+     "p": "e",
+     "i": 30.375,
+     "f": 30.505
+    },
+    {
+     "p": "cento",
+     "i": 30.518,
+     "f": 30.843
+    },
+    {
+     "p": "e",
+     "i": 30.856,
+     "f": 30.895
+    },
+    {
+     "p": "sessenta",
+     "i": 30.908,
+     "f": 31.247
+    },
+    {
+     "p": "e",
+     "i": 31.26,
+     "f": 31.312
+    },
+    {
+     "p": "três",
+     "i": 31.325,
+     "f": 31.52
+    },
+    {
+     "p": "andares",
+     "i": 31.533,
+     "f": 32.198
+    },
+    {
+     "p": "Ou",
+     "i": 33.462,
+     "f": 33.631
+    },
+    {
+     "p": "seja",
+     "i": 33.644,
+     "f": 34.139
+    },
+    {
+     "p": "o",
+     "i": 34.465,
+     "f": 34.582
+    },
+    {
+     "p": "Panteão",
+     "i": 34.595,
+     "f": 35.155
+    },
+    {
+     "p": "o",
+     "i": 35.519,
+     "f": 35.676
+    },
+    {
+     "p": "aço",
+     "i": 35.689,
+     "f": 36.001
+    },
+    {
+     "p": "de",
+     "i": 36.014,
+     "f": 36.092
+    },
+    {
+     "p": "Chicago",
+     "i": 36.105,
+     "f": 36.665
+    },
+    {
+     "p": "e",
+     "i": 36.678,
+     "f": 36.73
+    },
+    {
+     "p": "a",
+     "i": 36.743,
+     "f": 36.782
+    },
+    {
+     "p": "engenharia",
+     "i": 36.795,
+     "f": 37.329
+    },
+    {
+     "p": "do",
+     "i": 37.342,
+     "f": 37.459
+    },
+    {
+     "p": "Panamá",
+     "i": 37.472,
+     "f": 37.876
+    },
+    {
+     "p": "se",
+     "i": 37.889,
+     "f": 38.019
+    },
+    {
+     "p": "encontram",
+     "i": 38.032,
+     "f": 38.54
+    },
+    {
+     "p": "numa",
+     "i": 38.553,
+     "f": 38.788
+    },
+    {
+     "p": "única",
+     "i": 38.801,
+     "f": 39.23
+    },
+    {
+     "p": "torre",
+     "i": 39.243,
+     "f": 39.673
+    },
+    {
+     "p": "Ela",
+     "i": 40.926,
+     "f": 41.147
+    },
+    {
+     "p": "é",
+     "i": 41.16,
+     "f": 41.213
+    },
+    {
+     "p": "quase",
+     "i": 41.226,
+     "f": 41.668
+    },
+    {
+     "p": "três",
+     "i": 41.681,
+     "f": 42.046
+    },
+    {
+     "p": "vezes",
+     "i": 42.059,
+     "f": 42.437
+    },
+    {
+     "p": "mais",
+     "i": 42.45,
+     "f": 42.658
+    },
+    {
+     "p": "alta",
+     "i": 42.671,
+     "f": 43.035
+    },
+    {
+     "p": "que",
+     "i": 43.048,
+     "f": 43.153
+    },
+    {
+     "p": "a",
+     "i": 43.166,
+     "f": 43.257
+    },
+    {
+     "p": "Torre",
+     "i": 43.27,
+     "f": 43.517
+    },
+    {
+     "p": "Eiffel",
+     "i": 43.53,
+     "f": 43.882
+    },
+    {
+     "p": "de",
+     "i": 43.895,
+     "f": 44.025
+    },
+    {
+     "p": "mil",
+     "i": 44.038,
+     "f": 44.233
+    },
+    {
+     "p": "oitocentos",
+     "i": 44.246,
+     "f": 44.897
+    },
+    {
+     "p": "e",
+     "i": 44.91,
+     "f": 45.015
+    },
+    {
+     "p": "oitenta",
+     "i": 45.028,
+     "f": 45.366
+    },
+    {
+     "p": "e",
+     "i": 45.379,
+     "f": 45.405
+    },
+    {
+     "p": "nove",
+     "i": 45.418,
+     "f": 45.809
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "fb54335528",
+   "texto": "Voltando ao gancho: o prédio de Chicago assustou os engenheiros porque provou que uma parede não precisava segurar um edifício. Foi esse salto que deixou o concreto subir de verdade, nas costas do aço. O Panteão ensinou a vencer o vão, o prédio de aço ensinou a vencer a altura, o Panamá ensinou a vencer a distância. E o Burj Khalifa mostrou que cada limite que parecia final era apenas a próxima obra esperando alguém. Hoje, mais da metade da humanidade vive em cidades, e todas elas dependem dessas ideias. Uma pergunta para você: qual será o próximo limite que a engenharia vai derrubar?",
+   "audio": "audio/desfecho-fb54335528.mp3",
+   "duracao": 42.815,
+   "palavras": [
+    {
+     "p": "Voltando",
+     "i": 0.102,
+     "f": 0.61
+    },
+    {
+     "p": "ao",
+     "i": 0.623,
+     "f": 0.727
+    },
+    {
+     "p": "gancho",
+     "i": 0.74,
+     "f": 1.17
+    },
+    {
+     "p": "o",
+     "i": 1.599,
+     "f": 1.73
+    },
+    {
+     "p": "prédio",
+     "i": 1.743,
+     "f": 2.159
+    },
+    {
+     "p": "de",
+     "i": 2.172,
+     "f": 2.238
+    },
+    {
+     "p": "Chicago",
+     "i": 2.251,
+     "f": 2.706
+    },
+    {
+     "p": "assustou",
+     "i": 2.719,
+     "f": 3.136
+    },
+    {
+     "p": "os",
+     "i": 3.149,
+     "f": 3.201
+    },
+    {
+     "p": "engenheiros",
+     "i": 3.214,
+     "f": 3.839
+    },
+    {
+     "p": "porque",
+     "i": 3.852,
+     "f": 4.178
+    },
+    {
+     "p": "provou",
+     "i": 4.191,
+     "f": 4.581
+    },
+    {
+     "p": "que",
+     "i": 4.594,
+     "f": 4.711
+    },
+    {
+     "p": "uma",
+     "i": 4.724,
+     "f": 4.868
+    },
+    {
+     "p": "parede",
+     "i": 4.881,
+     "f": 5.297
+    },
+    {
+     "p": "não",
+     "i": 5.31,
+     "f": 5.467
+    },
+    {
+     "p": "precisava",
+     "i": 5.48,
+     "f": 6.014
+    },
+    {
+     "p": "segurar",
+     "i": 6.027,
+     "f": 6.482
+    },
+    {
+     "p": "um",
+     "i": 6.495,
+     "f": 6.626
+    },
+    {
+     "p": "edifício",
+     "i": 6.639,
+     "f": 7.264
+    },
+    {
+     "p": "Foi",
+     "i": 8.526,
+     "f": 8.773
+    },
+    {
+     "p": "esse",
+     "i": 8.786,
+     "f": 9.008
+    },
+    {
+     "p": "salto",
+     "i": 9.021,
+     "f": 9.425
+    },
+    {
+     "p": "que",
+     "i": 9.438,
+     "f": 9.529
+    },
+    {
+     "p": "deixou",
+     "i": 9.542,
+     "f": 9.893
+    },
+    {
+     "p": "o",
+     "i": 9.906,
+     "f": 9.945
+    },
+    {
+     "p": "concreto",
+     "i": 9.958,
+     "f": 10.557
+    },
+    {
+     "p": "subir",
+     "i": 10.57,
+     "f": 10.896
+    },
+    {
+     "p": "de",
+     "i": 10.909,
+     "f": 10.987
+    },
+    {
+     "p": "verdade",
+     "i": 11,
+     "f": 11.586
+    },
+    {
+     "p": "nas",
+     "i": 11.82,
+     "f": 12.055
+    },
+    {
+     "p": "costas",
+     "i": 12.068,
+     "f": 12.51
+    },
+    {
+     "p": "do",
+     "i": 12.523,
+     "f": 12.667
+    },
+    {
+     "p": "aço",
+     "i": 12.68,
+     "f": 13.07
+    },
+    {
+     "p": "O",
+     "i": 14.334,
+     "f": 14.477
+    },
+    {
+     "p": "Panteão",
+     "i": 14.49,
+     "f": 15.011
+    },
+    {
+     "p": "ensinou",
+     "i": 15.024,
+     "f": 15.402
+    },
+    {
+     "p": "a",
+     "i": 15.415,
+     "f": 15.467
+    },
+    {
+     "p": "vencer",
+     "i": 15.48,
+     "f": 15.844
+    },
+    {
+     "p": "o",
+     "i": 15.858,
+     "f": 15.923
+    },
+    {
+     "p": "vão",
+     "i": 15.936,
+     "f": 16.183
+    },
+    {
+     "p": "o",
+     "i": 16.561,
+     "f": 16.652
+    },
+    {
+     "p": "prédio",
+     "i": 16.665,
+     "f": 17.042
+    },
+    {
+     "p": "de",
+     "i": 17.055,
+     "f": 17.16
+    },
+    {
+     "p": "aço",
+     "i": 17.173,
+     "f": 17.433
+    },
+    {
+     "p": "ensinou",
+     "i": 17.446,
+     "f": 17.811
+    },
+    {
+     "p": "a",
+     "i": 17.824,
+     "f": 17.876
+    },
+    {
+     "p": "vencer",
+     "i": 17.889,
+     "f": 18.24
+    },
+    {
+     "p": "a",
+     "i": 18.253,
+     "f": 18.266
+    },
+    {
+     "p": "altura",
+     "i": 18.279,
+     "f": 18.735
+    },
+    {
+     "p": "o",
+     "i": 19.113,
+     "f": 19.217
+    },
+    {
+     "p": "Panamá",
+     "i": 19.23,
+     "f": 19.647
+    },
+    {
+     "p": "ensinou",
+     "i": 19.66,
+     "f": 20.089
+    },
+    {
+     "p": "a",
+     "i": 20.102,
+     "f": 20.154
+    },
+    {
+     "p": "vencer",
+     "i": 20.167,
+     "f": 20.558
+    },
+    {
+     "p": "a",
+     "i": 20.571,
+     "f": 20.623
+    },
+    {
+     "p": "distância",
+     "i": 20.636,
+     "f": 21.3
+    },
+    {
+     "p": "E",
+     "i": 22.542,
+     "f": 22.685
+    },
+    {
+     "p": "o",
+     "i": 22.698,
+     "f": 22.776
+    },
+    {
+     "p": "Burj",
+     "i": 22.789,
+     "f": 23.154
+    },
+    {
+     "p": "Khalifa",
+     "i": 23.167,
+     "f": 23.636
+    },
+    {
+     "p": "mostrou",
+     "i": 23.649,
+     "f": 24.105
+    },
+    {
+     "p": "que",
+     "i": 24.118,
+     "f": 24.261
+    },
+    {
+     "p": "cada",
+     "i": 24.274,
+     "f": 24.508
+    },
+    {
+     "p": "limite",
+     "i": 24.521,
+     "f": 24.951
+    },
+    {
+     "p": "que",
+     "i": 24.964,
+     "f": 25.068
+    },
+    {
+     "p": "parecia",
+     "i": 25.081,
+     "f": 25.576
+    },
+    {
+     "p": "final",
+     "i": 25.589,
+     "f": 25.993
+    },
+    {
+     "p": "era",
+     "i": 26.006,
+     "f": 26.11
+    },
+    {
+     "p": "apenas",
+     "i": 26.123,
+     "f": 26.461
+    },
+    {
+     "p": "a",
+     "i": 26.474,
+     "f": 26.631
+    },
+    {
+     "p": "próxima",
+     "i": 26.644,
+     "f": 27.099
+    },
+    {
+     "p": "obra",
+     "i": 27.112,
+     "f": 27.399
+    },
+    {
+     "p": "esperando",
+     "i": 27.412,
+     "f": 27.842
+    },
+    {
+     "p": "alguém",
+     "i": 27.855,
+     "f": 28.219
+    },
+    {
+     "p": "Hoje",
+     "i": 29.478,
+     "f": 29.869
+    },
+    {
+     "p": "mais",
+     "i": 30.155,
+     "f": 30.363
+    },
+    {
+     "p": "da",
+     "i": 30.377,
+     "f": 30.468
+    },
+    {
+     "p": "metade",
+     "i": 30.481,
+     "f": 30.962
+    },
+    {
+     "p": "da",
+     "i": 30.975,
+     "f": 31.093
+    },
+    {
+     "p": "humanidade",
+     "i": 31.106,
+     "f": 31.679
+    },
+    {
+     "p": "vive",
+     "i": 31.692,
+     "f": 31.939
+    },
+    {
+     "p": "em",
+     "i": 31.952,
+     "f": 32.004
+    },
+    {
+     "p": "cidades",
+     "i": 32.017,
+     "f": 32.629
+    },
+    {
+     "p": "e",
+     "i": 32.955,
+     "f": 33.072
+    },
+    {
+     "p": "todas",
+     "i": 33.085,
+     "f": 33.397
+    },
+    {
+     "p": "elas",
+     "i": 33.41,
+     "f": 33.762
+    },
+    {
+     "p": "dependem",
+     "i": 33.775,
+     "f": 34.244
+    },
+    {
+     "p": "dessas",
+     "i": 34.257,
+     "f": 34.569
+    },
+    {
+     "p": "ideias",
+     "i": 34.582,
+     "f": 35.194
+    },
+    {
+     "p": "Uma",
+     "i": 36.438,
+     "f": 36.685
+    },
+    {
+     "p": "pergunta",
+     "i": 36.698,
+     "f": 37.245
+    },
+    {
+     "p": "para",
+     "i": 37.258,
+     "f": 37.454
+    },
+    {
+     "p": "você",
+     "i": 37.467,
+     "f": 37.896
+    },
+    {
+     "p": "qual",
+     "i": 38.209,
+     "f": 38.443
+    },
+    {
+     "p": "será",
+     "i": 38.456,
+     "f": 38.756
+    },
+    {
+     "p": "o",
+     "i": 38.769,
+     "f": 38.834
+    },
+    {
+     "p": "próximo",
+     "i": 38.847,
+     "f": 39.303
+    },
+    {
+     "p": "limite",
+     "i": 39.316,
+     "f": 39.771
+    },
+    {
+     "p": "que",
+     "i": 39.784,
+     "f": 39.85
+    },
+    {
+     "p": "a",
+     "i": 39.863,
+     "f": 39.889
+    },
+    {
+     "p": "engenharia",
+     "i": 39.902,
+     "f": 40.462
+    },
+    {
+     "p": "vai",
+     "i": 40.475,
+     "f": 40.592
+    },
+    {
+     "p": "derrubar",
+     "i": 40.605,
+     "f": 41.073
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "5bdc004cbe",
+   "texto": "Se você gostou dessa viagem, se inscreva no canal Inova Mundo. No próximo vídeo, vamos descobrir como as grandes obras dão certo antes mesmo da primeira escavação.",
+   "audio": "audio/fecho-5bdc004cbe.mp3",
+   "duracao": 13.14,
+   "palavras": [
+    {
+     "p": "Se",
+     "i": 0.102,
+     "f": 0.31
+    },
+    {
+     "p": "você",
+     "i": 0.323,
+     "f": 0.61
+    },
+    {
+     "p": "gostou",
+     "i": 0.623,
+     "f": 1.027
+    },
+    {
+     "p": "dessa",
+     "i": 1.04,
+     "f": 1.313
+    },
+    {
+     "p": "viagem",
+     "i": 1.326,
+     "f": 1.834
+    },
+    {
+     "p": "se",
+     "i": 2.094,
+     "f": 2.211
+    },
+    {
+     "p": "inscreva",
+     "i": 2.224,
+     "f": 2.758
+    },
+    {
+     "p": "no",
+     "i": 2.771,
+     "f": 2.876
+    },
+    {
+     "p": "canal",
+     "i": 2.889,
+     "f": 3.292
+    },
+    {
+     "p": "Inova",
+     "i": 3.305,
+     "f": 3.696
+    },
+    {
+     "p": "Mundo",
+     "i": 3.709,
+     "f": 4.073
+    },
+    {
+     "p": "No",
+     "i": 5.334,
+     "f": 5.516
+    },
+    {
+     "p": "próximo",
+     "i": 5.529,
+     "f": 6.037
+    },
+    {
+     "p": "vídeo",
+     "i": 6.05,
+     "f": 6.402
+    },
+    {
+     "p": "vamos",
+     "i": 6.753,
+     "f": 7.001
+    },
+    {
+     "p": "descobrir",
+     "i": 7.014,
+     "f": 7.613
+    },
+    {
+     "p": "como",
+     "i": 7.626,
+     "f": 7.86
+    },
+    {
+     "p": "as",
+     "i": 7.873,
+     "f": 7.977
+    },
+    {
+     "p": "grandes",
+     "i": 7.99,
+     "f": 8.381
+    },
+    {
+     "p": "obras",
+     "i": 8.394,
+     "f": 8.824
+    },
+    {
+     "p": "dão",
+     "i": 8.837,
+     "f": 9.006
+    },
+    {
+     "p": "certo",
+     "i": 9.019,
+     "f": 9.449
+    },
+    {
+     "p": "antes",
+     "i": 9.462,
+     "f": 9.813
+    },
+    {
+     "p": "mesmo",
+     "i": 9.826,
+     "f": 10.23
+    },
+    {
+     "p": "da",
+     "i": 10.243,
+     "f": 10.347
+    },
+    {
+     "p": "primeira",
+     "i": 10.36,
+     "f": 10.673
+    },
+    {
+     "p": "escavação",
+     "i": 10.686,
+     "f": 11.376
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "home-1": {
+   "arquivo": "imagens/home-1-1d2a899e.jpg",
+   "rotulo": "Home Insurance Building, Chicago",
+   "wiki": "Home Insurance Building",
+   "commons": "Home Insurance Building Chicago 1885 Jenney",
+   "autor": "Marlin Keesler from Streamwood, IL",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Location_of_the_Home_Insurance_Building_(7170814107).jpg",
+   "titulo": "File:Location of the Home Insurance Building (7170814107).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.3,
+    "y": 53.0
+   },
+   "borrada": "imagens/home-1-1d2a899e-b.jpg"
+  },
+  "chicago-1880": {
+   "arquivo": "imagens/chicago-1880-cda8fa5a.jpg",
+   "rotulo": "Chicago no século 19",
+   "commons": "Chicago skyline 1880s LaSalle Street historic",
+   "autor": "Diego Delso",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Skyline_de_Chicago_desde_el_centro,_Illinois,_Estados_Unidos,_2012-10-20,_DD_06.jpg",
+   "titulo": "File:Skyline de Chicago desde el centro, Illinois, Estados Unidos, 2012-10-20, DD 06.jpg",
+   "largura": 1920,
+   "altura": 929,
+   "rostos": 0,
+   "foco": {
+    "x": 60.2,
+    "y": 59.3
+   },
+   "borrada": "imagens/chicago-1880-cda8fa5a-b.jpg"
+  },
+  "jenney": {
+   "arquivo": "imagens/jenney-52eb564a.jpg",
+   "rotulo": "William Le Baron Jenney",
+   "wiki": "William Le Baron Jenney",
+   "commons": "William Le Baron Jenney portrait",
+   "autor": "T. &amp; R. Annan &amp; Sons; restored by Adam Cuerden[1]",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin_by_T._%26_R._Annan_%26_Sons.jpg",
+   "titulo": "File:Sir William Thomson, Baron Kelvin by T. & R. Annan & Sons.jpg",
+   "largura": 1920,
+   "altura": 2483,
+   "rostos": 2,
+   "foco": {
+    "x": 47.3,
+    "y": 23.1
+   },
+   "borrada": "imagens/jenney-52eb564a-b.jpg"
+  },
+  "panteao": {
+   "arquivo": "imagens/panteao-82e40b92.jpg",
+   "rotulo": "Panteão de Roma",
+   "wiki": "Panteão (Roma)",
+   "commons": "Pantheon Rome exterior portico",
+   "autor": "Nhartmannphotos",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pantheon_portico_and_dome,_Rome.jpg",
+   "titulo": "File:Pantheon portico and dome, Rome.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 56.2,
+    "y": 43.2
+   },
+   "borrada": "imagens/panteao-82e40b92-b.jpg"
+  },
+  "panteao-interior": {
+   "arquivo": "imagens/panteao-interior-d15621d7.jpg",
+   "rotulo": "Interior do Panteão",
+   "commons": "Pantheon Rome interior dome oculus Panini",
+   "autor": "Wilfredor",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome),_Dome_interior.jpg",
+   "titulo": "File:Pantheon (Rome), Dome interior.jpg",
+   "largura": 1920,
+   "altura": 1643,
+   "rostos": 1,
+   "foco": {
+    "x": 31.1,
+    "y": 58.1
+   },
+   "borrada": "imagens/panteao-interior-d15621d7-b.jpg"
+  },
+  "adriano": {
+   "arquivo": "imagens/adriano-28444b6f.jpg",
+   "rotulo": "Imperador Adriano",
+   "wiki": "Adriano",
+   "commons": "Hadrian bust Roman emperor Vatican Museums",
+   "autor": "Daderot",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Emperor_Hadrian_bust,_inv._2247,_Roman,_117-138_AD_-_Braccio_Nuovo,_Museo_Chiaramonti_-_Vatican_Museums_-_DSC00922.jpg",
+   "titulo": "File:Emperor Hadrian bust, inv. 2247, Roman, 117-138 AD - Braccio Nuovo, Museo Chiaramonti - Vatican Museums - DSC00922.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 2,
+   "foco": {
+    "x": 61.6,
+    "y": 23.3
+   },
+   "borrada": "imagens/adriano-28444b6f-b.jpg"
+  },
+  "roma-antiga": {
+   "arquivo": "imagens/roma-antiga-3d92512e.jpg",
+   "rotulo": "Fórum Romano",
+   "commons": "Roman Forum ruins Rome panorama",
+   "autor": "Nhartmannphotos",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Roman_Forum_east_end_panorama.jpg",
+   "titulo": "File:Roman Forum east end panorama.jpg",
+   "largura": 1920,
+   "altura": 966,
+   "rostos": 0,
+   "foco": {
+    "x": 58.0,
+    "y": 61.5
+   },
+   "borrada": "imagens/roma-antiga-3d92512e-b.jpg"
+  },
+  "oculo": {
+   "arquivo": "imagens/oculo-b9c47a30.jpg",
+   "rotulo": "O óculo do Panteão",
+   "commons": "Pantheon Rome oculus sunlight beam floor",
+   "autor": "Wouter Engler",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pantheon-Rome-DSC_0161.jpg",
+   "titulo": "File:Pantheon-Rome-DSC 0161.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 31.4,
+    "y": 80
+   },
+   "borrada": "imagens/oculo-b9c47a30-b.jpg"
+  },
+  "caixotoes": {
+   "arquivo": "imagens/caixotoes-b963d4c6.jpg",
+   "rotulo": "Caixotões da cúpula",
+   "commons": "Pantheon Rome coffered dome ceiling coffers",
+   "autor": "Kent Wang",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:San_Bernardo_alle_Terme_-_52867264650.jpg",
+   "titulo": "File:San Bernardo alle Terme - 52867264650.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 59.7,
+    "y": 49.6
+   },
+   "borrada": "imagens/caixotoes-b963d4c6-b.jpg"
+  },
+  "coliseu": {
+   "arquivo": "imagens/coliseu-3ea4cabd.jpg",
+   "rotulo": "Coliseu de Roma",
+   "wiki": "Coliseu",
+   "commons": "Colosseum Rome exterior",
+   "autor": "Wilfredor",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Colosseum_of_Rome_and_Roman_forum.jpg",
+   "titulo": "File:Colosseum of Rome and Roman forum.jpg",
+   "largura": 1920,
+   "altura": 1136,
+   "rostos": 1,
+   "foco": {
+    "x": 85.6,
+    "y": 37.3
+   },
+   "borrada": "imagens/coliseu-3ea4cabd-b.jpg"
+  },
+  "cinza-vulcanica": {
+   "arquivo": "imagens/cinza-vulcanica-d6fef0e6.jpg",
+   "rotulo": "Pozolana (cinza vulcânica)",
+   "commons": "Pozzolana volcanic ash Pozzuoli",
+   "autor": "Jebulon",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Puzzolane_stones_from_Vesuvius_Italy.jpg",
+   "titulo": "File:Puzzolane stones from Vesuvius Italy.jpg",
+   "largura": 1920,
+   "altura": 1176,
+   "rostos": 0,
+   "foco": {
+    "x": 53.1,
+    "y": 47.7
+   },
+   "borrada": "imagens/cinza-vulcanica-d6fef0e6-b.jpg"
+  },
+  "concreto-romano": {
+   "arquivo": "imagens/concreto-romano-e4787635.jpg",
+   "rotulo": "Concreto romano",
+   "commons": "Opus caementicium Roman concrete wall Ostia",
+   "autor": "Michael Wilson from York, United Kingdom",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_concrete_vault.jpg",
+   "titulo": "File:Ancient Roman concrete vault.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 3,
+   "foco": {
+    "x": 30.3,
+    "y": 75.5
+   },
+   "borrada": "imagens/concreto-romano-e4787635-b.jpg"
+  },
+  "aqueduto": {
+   "arquivo": "imagens/aqueduto-1efbbcfc.jpg",
+   "rotulo": "Pont du Gard",
+   "commons": "Pont du Gard aqueduct Roman",
+   "autor": "Benh LIEU SONG (Flickr)",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg",
+   "titulo": "File:Pont du Gard BLS.jpg",
+   "largura": 1920,
+   "altura": 741,
+   "rostos": 0,
+   "foco": {
+    "x": 45.8,
+    "y": 54.5
+   },
+   "borrada": "imagens/aqueduto-1efbbcfc-b.jpg"
+  },
+  "concreto-romano-lab": {
+   "arquivo": "imagens/concreto-romano-lab-7e196af2.jpg",
+   "rotulo": "Amostra de concreto romano",
+   "commons": "Roman concrete sample lime clast self-healing",
+   "autor": "Blythwood",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:CMU_Concrete_Roman.png",
+   "titulo": "File:CMU Concrete Roman.png",
+   "largura": 1920,
+   "altura": 2345,
+   "rostos": 0,
+   "foco": {
+    "x": 59.9,
+    "y": 59.6
+   },
+   "borrada": "imagens/concreto-romano-lab-7e196af2-b.jpg"
+  },
+  "santa-maria-martires": {
+   "arquivo": "imagens/santa-maria-martires-23a2aa36.jpg",
+   "rotulo": "Altar do Panteão",
+   "commons": "Pantheon Rome altar church Santa Maria ad Martyres",
+   "autor": "Jebulon",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Main_altar,_Pantheon,_Rome,_Italy.jpg",
+   "titulo": "File:Main altar, Pantheon, Rome, Italy.jpg",
+   "largura": 1920,
+   "altura": 1299,
+   "rostos": 0,
+   "foco": {
+    "x": 48.6,
+    "y": 49.3
+   },
+   "borrada": "imagens/santa-maria-martires-23a2aa36-b.jpg"
+  },
+  "elevador-otis": {
+   "arquivo": "imagens/elevador-otis-e155bf18.jpg",
+   "rotulo": "Elevador de segurança de Otis",
+   "wiki": "Elisha Otis",
+   "commons": "Elisha Otis safety elevator demonstration 1854",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Elisha_OTIS_1854.jpg",
+   "titulo": "File:Elisha OTIS 1854.jpg",
+   "largura": 1920,
+   "altura": 1891,
+   "rostos": 0,
+   "foco": {
+    "x": 55.9,
+    "y": 40.0
+   },
+   "borrada": "imagens/elevador-otis-e155bf18-b.jpg"
+  },
+  "incendio-chicago": {
+   "arquivo": "imagens/incendio-chicago-397a1f31.jpg",
+   "rotulo": "Chicago após o incêndio de 1871",
+   "wiki": "Grande Incêndio de Chicago",
+   "commons": "Great Chicago Fire 1871 ruins",
+   "autor": "Clark, C. R. (Charles R.)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chicago_Fire_of_1871,_Ruins_of_the_Drake_Block_(NBY_1288).jpg",
+   "titulo": "File:Chicago Fire of 1871, Ruins of the Drake Block (NBY 1288).jpg",
+   "largura": 1920,
+   "altura": 2161,
+   "rostos": 0,
+   "foco": {
+    "x": 57.4,
+    "y": 63.4
+   },
+   "borrada": "imagens/incendio-chicago-397a1f31-b.jpg"
+  },
+  "chicago-ruinas": {
+   "arquivo": "imagens/chicago-ruinas-03c5c784.jpg",
+   "rotulo": "Ruínas de Chicago, 1871",
+   "commons": "Chicago after the Great Fire 1871 ruins photograph",
+   "autor": "R.P. Studley Co.",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Richard%27s_illustrated_and_statistical_map_of_the_great_conflagration_in_Chicago_(NBY_1318).jpg",
+   "titulo": "File:Richard's illustrated and statistical map of the great conflagration in Chicago (NBY 1318).jpg",
+   "largura": 1920,
+   "altura": 1300,
+   "rostos": 0,
+   "foco": {
+    "x": 42.8,
+    "y": 40.7
+   },
+   "borrada": "imagens/chicago-ruinas-03c5c784-b.jpg"
+  },
+  "bessemer": {
+   "arquivo": "imagens/bessemer-c1d11430.jpg",
+   "rotulo": "Conversor Bessemer",
+   "wiki": "Processo Bessemer",
+   "commons": "Bessemer converter steel process",
+   "autor": "Sauveur, Albert, 1863-1939",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_Bessemer_Process.jpg",
+   "titulo": "File:Diagram of the Bessemer Process.jpg",
+   "largura": 1920,
+   "altura": 1334,
+   "rostos": 0,
+   "foco": {
+    "x": 43.4,
+    "y": 52.5
+   },
+   "borrada": "imagens/bessemer-c1d11430-b.jpg"
+  },
+  "viga-aco": {
+   "arquivo": "imagens/viga-aco-2c7cca70.jpg",
+   "rotulo": "Estrutura de aço",
+   "commons": "Steel frame skyscraper construction beams early 1900s",
+   "autor": "SSJF01",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Steel_frame_building_under_construction_in_Taiwan.jpg",
+   "titulo": "File:Steel frame building under construction in Taiwan.jpg",
+   "largura": 1920,
+   "altura": 1282,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 65.5
+   },
+   "borrada": "imagens/viga-aco-2c7cca70-b.jpg"
+  },
+  "home-demolicao": {
+   "arquivo": "imagens/home-demolicao-a38ba378.jpg",
+   "rotulo": "Demolição do Home Insurance Building",
+   "commons": "Home Insurance Building demolition 1931",
+   "autor": "w_lemay",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:National_Guardian_Life_Insurance_Company_Building,_Gilman_Street_and_Wisconsin_Avenue,_Mansion_Hill,_Madison,_WI.jpg",
+   "titulo": "File:National Guardian Life Insurance Company Building, Gilman Street and Wisconsin Avenue, Mansion Hill, Madison, WI.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 69.7,
+    "y": 49.6
+   },
+   "borrada": "imagens/home-demolicao-a38ba378-b.jpg"
+  },
+  "rookery": {
+   "arquivo": "imagens/rookery-78dd8b6b.jpg",
+   "rotulo": "Rookery Building, Chicago",
+   "wiki": "Rookery Building",
+   "commons": "Rookery Building Chicago",
+   "autor": "Velvet",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chicago_rookery_escalier_face.jpg",
+   "titulo": "File:Chicago rookery escalier face.jpg",
+   "largura": 1920,
+   "altura": 2191,
+   "rostos": 0,
+   "foco": {
+    "x": 51.0,
+    "y": 35.2
+   },
+   "borrada": "imagens/rookery-78dd8b6b-b.jpg"
+  },
+  "eiffel-1889": {
+   "arquivo": "imagens/eiffel-1889-d23e6ed6.jpg",
+   "rotulo": "Torre Eiffel em construção",
+   "wiki": "Torre Eiffel",
+   "commons": "Eiffel Tower construction 1888",
+   "autor": "Louis-Emile Durandelle",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Louis-Emile_Durandelle,_The_Eiffel_Tower_-_State_of_the_Construction,_1888.jpg",
+   "titulo": "File:Louis-Emile Durandelle, The Eiffel Tower - State of the Construction, 1888.jpg",
+   "largura": 1920,
+   "altura": 2443,
+   "rostos": 0,
+   "foco": {
+    "x": 51.8,
+    "y": 56.4
+   },
+   "borrada": "imagens/eiffel-1889-d23e6ed6-b.jpg"
+  },
+  "empire-1931": {
+   "arquivo": "imagens/empire-1931-929c0f69.jpg",
+   "rotulo": "Empire State em construção, 1931",
+   "wiki": "Empire State Building",
+   "commons": "Empire State Building construction 1931 steel workers",
+   "autor": "E. A. Bushnell",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22New_Straw_Hat%22_Season_E._A._Bushnell.jpg",
+   "titulo": "File:\"New Straw Hat\" Season E. A. Bushnell.jpg",
+   "largura": 798,
+   "altura": 1176,
+   "rostos": 1,
+   "foco": {
+    "x": 71.6,
+    "y": 33.8
+   },
+   "borrada": "imagens/empire-1931-929c0f69-b.jpg"
+  },
+  "manhattan": {
+   "arquivo": "imagens/manhattan-166bf3ab.jpg",
+   "rotulo": "Manhattan hoje",
+   "commons": "Manhattan skyline Midtown Empire State aerial",
+   "autor": "King of Hearts",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Midtown_Manhattan_from_Jersey_City_September_2020_HDR.jpg",
+   "titulo": "File:Midtown Manhattan from Jersey City September 2020 HDR.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 54.7,
+    "y": 59.1
+   },
+   "borrada": "imagens/manhattan-166bf3ab-b.jpg"
+  },
+  "willis": {
+   "arquivo": "imagens/willis-2a62f8fa.jpg",
+   "rotulo": "Willis Tower, Chicago",
+   "wiki": "Willis Tower",
+   "commons": "Willis Tower Chicago skyline",
+   "autor": "Spatms",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Willis_Tower,_formerly_Sears_Tower,_Chicago_Skyline.jpg",
+   "titulo": "File:Willis Tower, formerly Sears Tower, Chicago Skyline.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 45.1,
+    "y": 53.9
+   },
+   "borrada": "imagens/willis-2a62f8fa-b.jpg"
+  },
+  "chicago-hoje": {
+   "arquivo": "imagens/chicago-hoje-55bca5ac.jpg",
+   "rotulo": "Chicago hoje",
+   "commons": "Chicago skyline downtown Loop aerial",
+   "autor": "Jesse Collins",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chicago_Skyline_(193222927).jpeg",
+   "titulo": "File:Chicago Skyline (193222927).jpeg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 60.3,
+    "y": 49.7
+   },
+   "borrada": "imagens/chicago-hoje-55bca5ac-b.jpg"
+  },
+  "canal-panama": {
+   "arquivo": "imagens/canal-panama-880c8d59.jpg",
+   "rotulo": "Canal do Panamá",
+   "wiki": "Canal do Panamá",
+   "commons": "Panama Canal Miraflores Locks aerial",
+   "autor": "Gordon Panoramic Photo Co.",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Miraflores_Locks_Panama_1914.JPG",
+   "titulo": "File:Miraflores Locks Panama 1914.JPG",
+   "largura": 1920,
+   "altura": 221,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 51.5
+   },
+   "borrada": "imagens/canal-panama-880c8d59-b.jpg"
+  },
+  "mapa-panama": {
+   "arquivo": "imagens/mapa-panama-86fc5c7c.jpg",
+   "rotulo": "Mapa do Canal do Panamá",
+   "commons": "Panama Canal location map Americas",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Map_of_the_Panama_Canal_Zone_-_NARA_-_6861830.jpg",
+   "titulo": "File:Map of the Panama Canal Zone - NARA - 6861830.jpg",
+   "largura": 1920,
+   "altura": 2468,
+   "rostos": 0,
+   "foco": {
+    "x": 52.9,
+    "y": 59.2
+   },
+   "borrada": "imagens/mapa-panama-86fc5c7c-b.jpg"
+  },
+  "cabo-horn": {
+   "arquivo": "imagens/cabo-horn-4639f5c5.jpg",
+   "rotulo": "Cabo Horn",
+   "wiki": "Cabo Horn",
+   "commons": "Cape Horn Chile rocky headland",
+   "autor": "W. Bulach",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:00_2477_Cape_Horn_-_Chile.jpg",
+   "titulo": "File:00 2477 Cape Horn - Chile.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 0,
+   "foco": {
+    "x": 59.8,
+    "y": 54.9
+   },
+   "borrada": "imagens/cabo-horn-4639f5c5-b.jpg"
+  },
+  "lesseps": {
+   "arquivo": "imagens/lesseps-51ad18db.jpg",
+   "rotulo": "Ferdinand de Lesseps",
+   "wiki": "Ferdinand de Lesseps",
+   "commons": "Ferdinand de Lesseps portrait",
+   "autor": "Félix Bracquemond",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_Fernand_Lesseps_MET_DP814377.jpg",
+   "titulo": "File:Portrait of Fernand Lesseps MET DP814377.jpg",
+   "largura": 1920,
+   "altura": 2911,
+   "rostos": 2,
+   "foco": {
+    "x": 57.3,
+    "y": 23.6
+   },
+   "borrada": "imagens/lesseps-51ad18db-b.jpg"
+  },
+  "suez": {
+   "arquivo": "imagens/suez-79746ff9.jpg",
+   "rotulo": "Canal de Suez",
+   "wiki": "Canal de Suez",
+   "commons": "Suez Canal ship aerial",
+   "autor": "European Space Agency",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Suez_Canal_traffic_jam_seen_from_space.jpg",
+   "titulo": "File:Suez Canal traffic jam seen from space.jpg",
+   "largura": 1920,
+   "altura": 1141,
+   "rostos": 0,
+   "foco": {
+    "x": 53.4,
+    "y": 41.8
+   },
+   "borrada": "imagens/suez-79746ff9-b.jpg"
+  },
+  "culebra": {
+   "arquivo": "imagens/culebra-56b44749.jpg",
+   "rotulo": "Corte Culebra, 1907",
+   "commons": "Culebra Cut Panama Canal construction 1907 steam shovels",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Labourers_at_work_on_the_panama_canal_at_Culebra_Cut_1904.jpg",
+   "titulo": "File:Labourers at work on the panama canal at Culebra Cut 1904.jpg",
+   "largura": 1920,
+   "altura": 2092,
+   "rostos": 0,
+   "foco": {
+    "x": 48.2,
+    "y": 51.8
+   },
+   "borrada": "imagens/culebra-56b44749-b.jpg"
+  },
+  "gorgas": {
+   "arquivo": "imagens/gorgas-c7e57971.jpg",
+   "rotulo": "William Gorgas",
+   "wiki": "William C. Gorgas",
+   "commons": "William Crawford Gorgas portrait",
+   "autor": "Desconhecido",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Crawford_Gorgas_Wellcome_M0001440.jpg",
+   "titulo": "File:Portrait of William Crawford Gorgas Wellcome M0001440.jpg",
+   "largura": 1920,
+   "altura": 2840,
+   "rostos": 0,
+   "foco": {
+    "x": 49.2,
+    "y": 41.8
+   },
+   "borrada": "imagens/gorgas-c7e57971-b.jpg"
+  },
+  "eclusas-gatun": {
+   "arquivo": "imagens/eclusas-gatun-29459fee.jpg",
+   "rotulo": "Eclusas de Gatún, 1913",
+   "commons": "Gatun Locks Panama Canal construction 1913",
+   "autor": "Isthmian Historical Society",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Gatun_Locks_1913.JPG",
+   "titulo": "File:Panama Canal Gatun Locks 1913.JPG",
+   "largura": 1920,
+   "altura": 304,
+   "rostos": 0,
+   "foco": {
+    "x": 68.9,
+    "y": 54.9
+   },
+   "borrada": "imagens/eclusas-gatun-29459fee-b.jpg"
+  },
+  "lago-gatun": {
+   "arquivo": "imagens/lago-gatun-66b2347a.jpg",
+   "rotulo": "Lago Gatún",
+   "commons": "Gatun Lake Panama aerial",
+   "autor": "ImagePerson",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Container_Vessel_HS_Mozart_Gatun_Lake_Panama_Canal_0682.jpg",
+   "titulo": "File:Container Vessel HS Mozart Gatun Lake Panama Canal 0682.jpg",
+   "largura": 1920,
+   "altura": 1170,
+   "rostos": 0,
+   "foco": {
+    "x": 36.7,
+    "y": 52.7
+   },
+   "borrada": "imagens/lago-gatun-66b2347a-b.jpg"
+  },
+  "ancon-1914": {
+   "arquivo": "imagens/ancon-1914-95777465.jpg",
+   "rotulo": "SS Ancón, 1914",
+   "commons": "SS Ancon first ship Panama Canal 1914",
+   "autor": "U.S. Navy",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SS_Ancon_transiting_the_Panama_Canal_1939.jpeg",
+   "titulo": "File:SS Ancon transiting the Panama Canal 1939.jpeg",
+   "largura": 1920,
+   "altura": 1471,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 50.1
+   },
+   "borrada": "imagens/ancon-1914-95777465-b.jpg"
+  },
+  "operarios": {
+   "arquivo": "imagens/operarios-40273bd5.jpg",
+   "rotulo": "Operários no Panamá",
+   "commons": "Panama Canal construction workers Culebra Cut 1910",
+   "autor": "Desconhecido",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_Canal_construction_workers_(American_and_European)_di_Wellcome_V0030216.jpg",
+   "titulo": "File:Panama Canal construction workers (American and European) di Wellcome V0030216.jpg",
+   "largura": 1920,
+   "altura": 1545,
+   "rostos": 0,
+   "foco": {
+    "x": 60.3,
+    "y": 59.4
+   },
+   "borrada": "imagens/operarios-40273bd5-b.jpg"
+  },
+  "novas-eclusas": {
+   "arquivo": "imagens/novas-eclusas-e154be54.jpg",
+   "rotulo": "Novas eclusas, 2016",
+   "commons": "Agua Clara Locks Panama Canal expansion 2016",
+   "autor": "Keith Yahl",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:New_Panama_Canal_expansion_project.png",
+   "titulo": "File:New Panama Canal expansion project.png",
+   "largura": 1920,
+   "altura": 409,
+   "rostos": 0,
+   "foco": {
+    "x": 42.0,
+    "y": 56.5
+   },
+   "borrada": "imagens/novas-eclusas-e154be54-b.jpg"
+  },
+  "navio-neopanamax": {
+   "arquivo": "imagens/navio-neopanamax-64fc95f7.jpg",
+   "rotulo": "Navio neopanamax",
+   "commons": "Neopanamax container ship Panama Canal expansion",
+   "autor": "ARG_Flickr",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_First_Post-Panamax_Ship_At_Liverpool_2.jpg",
+   "titulo": "File:The First Post-Panamax Ship At Liverpool 2.jpg",
+   "largura": 1920,
+   "altura": 1058,
+   "rostos": 0,
+   "foco": {
+    "x": 46.6,
+    "y": 57.0
+   },
+   "borrada": "imagens/navio-neopanamax-64fc95f7-b.jpg"
+  },
+  "teddy": {
+   "arquivo": "imagens/teddy-a091d645.jpg",
+   "rotulo": "Roosevelt na escavadeira, 1906",
+   "wiki": "Theodore Roosevelt",
+   "commons": "Theodore Roosevelt Panama Canal steam shovel 1906",
+   "autor": "Delevante, Michael",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_pictures_-_nature_and_life_in_the_land_of_the_great_canal_(1907)_(14767465585).jpg",
+   "titulo": "File:Panama pictures - nature and life in the land of the great canal (1907) (14767465585).jpg",
+   "largura": 1920,
+   "altura": 1272,
+   "rostos": 0,
+   "foco": {
+    "x": 57.4,
+    "y": 64.1
+   },
+   "borrada": "imagens/teddy-a091d645-b.jpg"
+  },
+  "burj": {
+   "arquivo": "imagens/burj-b2802995.jpg",
+   "rotulo": "Burj Khalifa",
+   "wiki": "Burj Khalifa",
+   "commons": "Burj Khalifa Dubai exterior",
+   "autor": "Jpbowen",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_from_a_ferry,_Dubai.jpg",
+   "titulo": "File:Burj Khalifa from a ferry, Dubai.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 57.8,
+    "y": 70.4
+   },
+   "borrada": "imagens/burj-b2802995-b.jpg"
+  },
+  "dubai-1990": {
+   "arquivo": "imagens/dubai-1990-ee1bd20a.jpg",
+   "rotulo": "Dubai nos anos 1990",
+   "commons": "Dubai Sheikh Zayed Road 1990s skyline",
+   "autor": "Producer",
+   "licenca": "CC BY 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:On_Rout_to_Abu_Dhabi_from_Dubai_(2).JPG",
+   "titulo": "File:On Rout to Abu Dhabi from Dubai (2).JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 1,
+   "foco": {
+    "x": 16.2,
+    "y": 65.6
+   },
+   "borrada": "imagens/dubai-1990-ee1bd20a-b.jpg"
+  },
+  "dubai-hoje": {
+   "arquivo": "imagens/dubai-hoje-276d89c5.jpg",
+   "rotulo": "Dubai hoje",
+   "commons": "Dubai Downtown skyline Burj Khalifa night",
+   "autor": "Michaelbibin from Pixabay",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dubai_skyscrapers_at_night_2011.jpg",
+   "titulo": "File:Dubai skyscrapers at night 2011.jpg",
+   "largura": 1920,
+   "altura": 1202,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 62.0
+   },
+   "borrada": "imagens/dubai-hoje-276d89c5-b.jpg"
+  },
+  "adrian-smith": {
+   "arquivo": "imagens/adrian-smith-77bde3e5.jpg",
+   "rotulo": "Adrian Smith, arquiteto",
+   "wiki": "Adrian Smith",
+   "commons": "Adrian Smith architect SOM portrait",
+   "autor": "Baycrest",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lujiazui_tallest_buildings.jpg",
+   "titulo": "File:Lujiazui tallest buildings.jpg",
+   "largura": 1800,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 53.6,
+    "y": 69.3
+   },
+   "borrada": "imagens/adrian-smith-77bde3e5-b.jpg"
+  },
+  "hymenocallis": {
+   "arquivo": "imagens/hymenocallis-c127bf65.jpg",
+   "rotulo": "Flor Hymenocallis",
+   "commons": "Hymenocallis flower spider lily",
+   "autor": "Billjones94",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Flowers_of_Hymenocallis_littoralis_(beach_spider_lily)_in_West_Bengal,_India.jpg",
+   "titulo": "File:Flowers of Hymenocallis littoralis (beach spider lily) in West Bengal, India.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 52.1,
+    "y": 40.7
+   },
+   "borrada": "imagens/hymenocallis-c127bf65-b.jpg"
+  },
+  "burj-planta-y": {
+   "arquivo": "imagens/burj-planta-y-e1b8d52b.jpg",
+   "rotulo": "Planta em Y",
+   "commons": "Burj Khalifa Y-shaped floor plan diagram",
+   "autor": "Laika ac",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(16260269606).jpg",
+   "titulo": "File:Burj Khalifa (16260269606).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 57.0,
+    "y": 75.0
+   },
+   "borrada": "imagens/burj-planta-y-e1b8d52b-b.jpg"
+  },
+  "burj-obra": {
+   "arquivo": "imagens/burj-obra-461d4211.jpg",
+   "rotulo": "Burj Khalifa em obras",
+   "commons": "Burj Khalifa construction 2008 tower crane",
+   "autor": "petter palander",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_and_Burj_Khalifa_-_25072008.jpg",
+   "titulo": "File:Dubai Skyline and Burj Khalifa - 25072008.jpg",
+   "largura": 1920,
+   "altura": 847,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 80
+   },
+   "borrada": "imagens/burj-obra-461d4211-b.jpg"
+  },
+  "burj-nucleo": {
+   "arquivo": "imagens/burj-nucleo-5d65b6a1.jpg",
+   "rotulo": "Núcleo de concreto",
+   "commons": "Burj Khalifa construction concrete core 2007",
+   "autor": "Imre Solt",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Burj_Dubai_Under_Construction_on_26_March_2008_Pict_2.jpg",
+   "titulo": "File:Burj Dubai Under Construction on 26 March 2008 Pict 2.jpg",
+   "largura": 922,
+   "altura": 1150,
+   "rostos": 1,
+   "foco": {
+    "x": 31.6,
+    "y": 7.1
+   },
+   "borrada": "imagens/burj-nucleo-5d65b6a1-b.jpg"
+  },
+  "bomba-concreto": {
+   "arquivo": "imagens/bomba-concreto-5b6799f4.jpg",
+   "rotulo": "Bomba de concreto",
+   "commons": "Concrete pump boom truck high-rise",
+   "autor": "Parishi Rental",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concrete_Boom_Pump.jpg",
+   "titulo": "File:Concrete Boom Pump.jpg",
+   "largura": 1003,
+   "altura": 584,
+   "rostos": 0,
+   "foco": {
+    "x": 72.1,
+    "y": 53.2
+   },
+   "borrada": "imagens/bomba-concreto-5b6799f4-b.jpg"
+  },
+  "tunel-vento": {
+   "arquivo": "imagens/tunel-vento-917d0e34.jpg",
+   "rotulo": "Teste em túnel de vento",
+   "commons": "Wind tunnel testing tall building model",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dale_Reed_with_model_in_front_of_M2-F1_DVIDS717045.jpg",
+   "titulo": "File:Dale Reed with model in front of M2-F1 DVIDS717045.jpg",
+   "largura": 1920,
+   "altura": 2400,
+   "rostos": 3,
+   "foco": {
+    "x": 48.3,
+    "y": 21.9
+   },
+   "borrada": "imagens/tunel-vento-917d0e34-b.jpg"
+  },
+  "burj-inauguracao": {
+   "arquivo": "imagens/burj-inauguracao-5bd5ce0d.jpg",
+   "rotulo": "Inauguração, 2010",
+   "commons": "Burj Khalifa opening ceremony fireworks January 2010",
+   "autor": "ECWiki1",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Dubai,_UAE_at_Sunset_001_by_Eric_Chamchoum.jpg",
+   "titulo": "File:Burj Khalifa Dubai, UAE at Sunset 001 by Eric Chamchoum.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 39.3,
+    "y": 67.3
+   },
+   "borrada": "imagens/burj-inauguracao-5bd5ce0d-b.jpg"
+  },
+  "burj-topo": {
+   "arquivo": "imagens/burj-topo-d536b7cd.jpg",
+   "rotulo": "Topo do Burj Khalifa",
+   "commons": "Burj Khalifa spire top view clouds",
+   "autor": "(vincent desjardins) from Paris, France",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chicago_(ILL)_downtown,_S.Wasbash_Ave._%22_Trump_hotel_%26_tower_%22_2009_(4826613454).jpg",
+   "titulo": "File:Chicago (ILL) downtown, S.Wasbash Ave. \" Trump hotel & tower \" 2009 (4826613454).jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 48.8,
+    "y": 52.4
+   },
+   "borrada": "imagens/burj-topo-d536b7cd-b.jpg"
+  },
+  "comparacao-alturas": {
+   "arquivo": "imagens/comparacao-alturas-0d02fa1f.jpg",
+   "rotulo": "Comparação de alturas",
+   "commons": "Comparison tallest buildings Burj Khalifa Empire State Eiffel Tower",
+   "autor": "Ali Zifan",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tallest_Buildings_in_the_World_by_pinnacle_height.png",
+   "titulo": "File:Tallest Buildings in the World by pinnacle height.png",
+   "largura": 1920,
+   "altura": 762,
+   "rostos": 0,
+   "foco": {
+    "x": 50.9,
+    "y": 42.9
+   },
+   "borrada": "imagens/comparacao-alturas-0d02fa1f-b.jpg"
+  },
+  "burj-fachada": {
+   "arquivo": "imagens/burj-fachada-7bd33b33.jpg",
+   "rotulo": "Fachada de vidro",
+   "commons": "Burj Khalifa cladding facade glass panels",
+   "autor": "w_lemay",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sears_Tower,_Wacker_Drive_and_Jackson_Boulevard,_Chicago,_IL_-_54189881174.jpg",
+   "titulo": "File:Sears Tower, Wacker Drive and Jackson Boulevard, Chicago, IL - 54189881174.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 50.2,
+    "y": 61.6
+   },
+   "borrada": "imagens/burj-fachada-7bd33b33-b.jpg"
+  },
+  "terra-noite": {
+   "arquivo": "imagens/terra-noite-3a4d6e3e.jpg",
+   "rotulo": "Terra à noite",
+   "commons": "Earth at night city lights NASA",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lights_of_Java.jpg",
+   "titulo": "File:Lights of Java.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 57.9,
+    "y": 41.7
+   },
+   "borrada": "imagens/terra-noite-3a4d6e3e-b.jpg"
+  },
+  "burj-mirante": {
+   "arquivo": "imagens/burj-mirante-09d6793d.jpg",
+   "rotulo": "Mirante do Burj Khalifa",
+   "commons": "Burj Khalifa At the Top observation deck view",
+   "autor": "Ravi Kumar",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:At_The_Top_Burj_Khalifa_Dubai_(157940823).jpeg",
+   "titulo": "File:At The Top Burj Khalifa Dubai (157940823).jpeg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 54.6,
+    "y": 69.2
+   },
+   "borrada": "imagens/burj-mirante-09d6793d-b.jpg"
+  },
+  "cidades": {
+   "arquivo": "imagens/cidades-a09a8089.jpg",
+   "rotulo": "Cidades modernas",
+   "commons": "Megacity skyline crowded modern city aerial",
+   "autor": "Ken Lund from Reno, Nevada, USA",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:View_of_Los_Angeles_Skyline_from_Dodger_Stadium,_Los_Angeles,_California_(14331189450).jpg",
+   "titulo": "File:View of Los Angeles Skyline from Dodger Stadium, Los Angeles, California (14331189450).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 48.2,
+    "y": 53.6
+   },
+   "borrada": "imagens/cidades-a09a8089-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-29T12:42:08.676Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -83,6 +7419,61 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Guinness World Records — Largest masonry dome",
+   "url": "https://www.guinnessworldrecords.com/world-records/83547-largest-masonry-dome"
+  },
+  {
+   "titulo": "Wikipedia — 2nd-century Roman domes",
+   "url": "https://en.wikipedia.org/wiki/2nd-century_Roman_domes"
+  },
+  {
+   "titulo": "Britannica — Home Insurance Building",
+   "url": "https://www.britannica.com/topic/Home-Insurance-Building"
+  },
+  {
+   "titulo": "Britannica — Panama Canal",
+   "url": "https://www.britannica.com/topic/Panama-Canal"
+  },
+  {
+   "titulo": "ASCE — Culebra Cut milestone",
+   "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2021/05/19/panama-canal-culebra-cut-milestone"
+  },
+  {
+   "titulo": "Britannica — Burj Khalifa",
+   "url": "https://www.britannica.com/topic/Burj-Khalifa"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "As 4 construções que mudaram o que o mundo consegue construir",
+   "O segredo romano que está dentro do Burj Khalifa",
+   "Do Panteão ao Burj Khalifa: concreto e aço",
+   "Construções que mudaram o mundo"
+  ],
+  "descricao": "Do Panteão de Roma ao Burj Khalifa, quatro obras que mudaram o que a humanidade consegue construir, e o fio que as une.\n\n0:00 Gancho\n0:40 Promessa\n1:10 Panteão: a cúpula de concreto\n2:30 Chicago e o esqueleto de aço\n3:50 Canal do Panamá\n5:30 Burj Khalifa e a virada\n7:10 Desfecho\n\nFontes: Britannica, Guinness World Records, Autoridade do Canal do Panamá, CTBUH, Science Advances (2023).",
+  "tags": [
+   "construções",
+   "engenharia",
+   "arquitetura",
+   "Panteão",
+   "Burj Khalifa",
+   "Canal do Panamá",
+   "arranha-céu",
+   "concreto romano",
+   "história da engenharia",
+   "Inova Mundo"
+  ]
  }
 }
