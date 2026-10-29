@@ -7,7 +7,7 @@
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
  "atualizadoEm": "2026-10-28T17:56:05.483Z",
- "status": "rascunho",
+ "status": "processando",
  "pedido": {
   "tema": "Evolução dos carros",
   "tom": "Curioso e analítico",
@@ -55,8 +55,7 @@
  "imagens": {},
  "processamento": {
   "workflow": "gerar-ia.yml",
-  "pedidoEm": "2026-10-28T17:56:05.483Z",
-  "fila": true
+  "pedidoEm": "2026-10-29T10:43:26.277Z"
  },
  "legenda": {
   "fonte": "montserrat",
