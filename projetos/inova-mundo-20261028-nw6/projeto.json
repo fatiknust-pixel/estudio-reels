@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.483Z",
- "atualizadoEm": "2026-10-28T23:37:45Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-29T00:38:09Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Como funciona uma pedreira",
   "tom": "Curioso e analítico",
@@ -47,15 +47,7301 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Todo prédio, toda estrada e toda calçada da sua cidade começaram dentro de uma montanha. Uma montanha que alguém explodiu de propósito, com hora marcada e um plano calculado. E o mais curioso é que quase ninguém sabe como isso funciona. Hoje, você vai entrar numa pedreira e descobrir o caminho de uma rocha, do paredão até o caminhão.",
+   "galeria": [
+    "predio-copan",
+    "rodovia",
+    "desmonte-geral",
+    "pedreira-aerea"
+   ],
+   "galeriaEm": [
+    0,
+    "estrada",
+    "explodiu",
+    "pedreira"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "COMO NASCE UMA ESTRADA?",
+     "em": "montanha",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Neste vídeo, você vai ver quatro coisas. Primeiro, como a montanha é preparada e como se decide onde explodir. Depois, o que acontece dentro de cada furo. Em seguida, como um bloco do tamanho de um carro vira areia fina. E no final, uma pedreira bem diferente, que ajudou a fazer história na arte. Fique até o fim, porque a virada vale a pena.",
+   "galeria": [
+    "pedreira-bancos",
+    "caminhao-pedreira",
+    "britador-planta",
+    "carrara-pedreira"
+   ],
+   "galeriaEm": [
+    0,
+    "bloco",
+    "areia",
+    "pedreira"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DENTRO DA PEDREIRA",
+     "sub": "Do paredão ao caminhão",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "alvo",
+       "Planejar"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "alerta",
+       "Detonar"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "engrenagem",
+       "Britar"
+      ]
+     ],
+     "em": "Primeiro",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "o-que-e",
+   "texto": "Uma pedreira é uma mina a céu aberto, onde se extrai rocha dura, como granito e gnaisse. Ninguém procura ouro ali: a própria pedra é o produto. Ela é quebrada e peneirada até virar brita, a pedrinha que entra no concreto e no asfalto, além de pó de pedra e areia de brita. Parece simples, mas, como você vai ver, por trás de cada pedrinha existe muita engenharia.",
+   "galeria": [
+    "granito",
+    "gnaisse",
+    "brita",
+    "asfalto",
+    "concreto"
+   ],
+   "galeriaEm": [
+    "granito",
+    "gnaisse",
+    "brita",
+    "asfalto",
+    "concreto"
+   ],
+   "fontes": [
+    "MME — Perfil da brita"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 1 · A MONTANHA",
+     "sub": "O que é uma pedreira",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Brita",
+     "significado": "Pedra dura britada e peneirada",
+     "em": "brita",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "numeros",
+   "texto": "Quão grande é esse negócio? Em dois mil e vinte, o Brasil produziu seiscentos e cinco milhões de toneladas de agregados, entre areia e brita, segundo a associação do setor. É perto de três toneladas e meia por habitante, por ano. E a capacidade instalada chega a novecentos milhões de toneladas. Só que antes de virar pó, a rocha precisa sair da montanha, e isso começa com um mapa.",
+   "galeria": [
+    "mapa-brasil",
+    "areia-rio",
+    "pilha-brita",
+    "obra-brasil"
+   ],
+   "galeriaEm": [
+    0,
+    "areia",
+    "brita",
+    "habitante"
+   ],
+   "fontes": [
+    "ANEPAC 2020",
+    "Brasil Mineral"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 605,
+     "unidade": "milhões de t",
+     "rotulo": "Agregados no Brasil, 2020",
+     "em": "seiscentos",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "decapeamento",
+   "texto": "Antes de qualquer explosão, vem a faxina. É o decapeamento: tirar a terra, as raízes e a rocha estragada que cobrem a rocha boa. Só então a montanha é cortada em degraus, as bancadas. Cada degrau tem altura planejada por engenheiros, porque é isso que mantém a operação estável e as pessoas seguras. Em seguida, vem a parte que ninguém esquece: os furos.",
+   "galeria": [
+    "decapeamento",
+    "escavadeira",
+    "bancadas",
+    "engenheiro"
+   ],
+   "galeriaEm": [
+    0,
+    "raízes",
+    "degraus",
+    "engenheiros"
+   ],
+   "fontes": [
+    "Confea — pedreira de granito"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 2 · O FOGO",
+     "sub": "Planejar e perfurar",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Bancada",
+     "significado": "Degrau da frente de lavra",
+     "em": "bancadas",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "perfuracao",
+   "texto": "Agora entram as perfuratrizes. Elas abrem uma malha de furos na bancada, com distâncias calculadas. O chamado plano de fogo define o tipo de explosivo, os acessórios de detonação e a geometria dessa malha. Cada furo é carregado e ligado aos vizinhos, com tempos de espera diferentes, para a rocha quebrar em sequência e não de uma vez só. Um detalhe de matemática que decide o resultado.",
+   "galeria": [
+    "perfuratriz",
+    "malha-furos",
+    "anfo",
+    "detonador"
+   ],
+   "galeriaEm": [
+    0,
+    "malha",
+    "explosivo",
+    "acessórios"
+   ],
+   "fontes": [
+    "UNESP — Geociências",
+    "Confea"
+   ],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "PLANO DE FOGO",
+     "icone": "alvo",
+     "em": "plano",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "engrenagem",
+       "Furar"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "alerta",
+       "Carregar"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "raio",
+       "Detonar"
+      ]
+     ],
+     "em": "carregado",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "detonacao",
+   "texto": "Então o local é evacuado e o fogo é acionado. Em segundos, uma enorme massa de rocha desaba da bancada. Esse desmonte responde, em média, por cerca de vinte por cento do custo unitário de produção. Mas explodir também cobra um preço: vibração, poeira, gases e fragmentos lançados longe, que precisam ser controlados. E o pior para a pedreira é a rocha que sai grande demais.",
+   "galeria": [
+    "aviso-detonacao",
+    "desmonte-fragmentos",
+    "poeira",
+    "pilha-rocha"
+   ],
+   "galeriaEm": [
+    0,
+    "desaba",
+    "poeira",
+    "grande"
+   ],
+   "fontes": [
+    "Confea — pedreira de granito"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 20,
+     "unidade": "%",
+     "rotulo": "Custo do desmonte, em média",
+     "em": "vinte",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "mine-to-crusher",
+   "texto": "Por que isso importa tanto? Porque o tamanho dos pedaços que saem do desmonte influencia a eficiência da britagem. Existe até uma metodologia chamada Mine to Crusher, da mina ao britador, que busca ajustar o desmonte para reduzir o custo dele e o da britagem primária. Ou seja, o engenheiro que desenha a malha de furos já está, de certa forma, trabalhando para o britador. Cada decisão ecoa na linha inteira.",
+   "galeria": [
+    "engenheiro-malha",
+    "rom-granulometria",
+    "mine-crusher",
+    "britador-fila"
+   ],
+   "galeriaEm": [
+    0,
+    "pedaços",
+    "metodologia",
+    "engenheiro"
+   ],
+   "fontes": [
+    "Multivix — Espaço Acadêmico"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "Mine to Crusher",
+     "significado": "Da mina ao britador",
+     "em": "Mine",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "carregamento",
+   "texto": "Depois do estrondo, vem o carregamento e o transporte. Escavadeiras enchem caminhões enormes com a rocha solta, e eles sobem e descem a rampa da pedreira o dia inteiro. É uma etapa lenta e silenciosa, bem diferente da explosão, mas é ela que mantém o britador alimentado. Sem caminhão, não existe brita. E quando a rocha enfim chega à boca do britador, começa a transformação.",
+   "galeria": [
+    "carregadeira",
+    "caminhao-rampa",
+    "rampa-pedreira",
+    "boca-britador"
+   ],
+   "galeriaEm": [
+    0,
+    "caminhões",
+    "rampa",
+    "britador"
+   ],
+   "fontes": [
+    "Confea — pedreira de granito"
+   ],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "CARREGAR E TRANSPORTAR",
+     "icone": "engrenagem",
+     "em": "carregamento",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "britagem-primaria",
+   "texto": "A rocha desmontada segue de caminhão para o britador primário. Ele esmaga os blocos grandes, reduzindo o tamanho em até oito vezes numa só etapa. O britador de mandíbulas funciona como um quebra-nozes gigante, apertando a pedra entre uma placa fixa e outra móvel. O que sai dali ainda é grosso demais para o concreto, então a pedra viaja numa esteira para a próxima etapa.",
+   "galeria": [
+    "britador-caminhao",
+    "mandibula",
+    "mandibula-interior",
+    "esteira"
+   ],
+   "galeriaEm": [
+    0,
+    "mandíbulas",
+    "placa",
+    "esteira"
+   ],
+   "fontes": [
+    "USP — Britagem"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 3 · ESMAGAMENTO",
+     "sub": "Britagem",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 1,
+     "ate": 8,
+     "unidade": "x",
+     "rotulo": "Redução na britagem primária",
+     "em": "oito",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "britagem-secundaria",
+   "texto": "Depois vêm as etapas seguintes. Na secundária e na terciária, britadores cônicos e de impacto reduzem a pedra mais seis a oito vezes, e depois mais quatro a seis. Entre uma etapa e outra, entram as peneiras vibratórias, que separam o que já está pequeno o bastante e devolvem o resto para o circuito. É uma linha de montagem ao contrário: o produto fica cada vez menor.",
+   "galeria": [
+    "cone",
+    "impacto",
+    "peneira",
+    "planta-aerea"
+   ],
+   "galeriaEm": [
+    0,
+    "impacto",
+    "peneiras",
+    "circuito"
+   ],
+   "fontes": [
+    "USP — Britagem"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1ª",
+       "Primária"
+      ],
+      [
+       "2ª",
+       "Secundária"
+      ],
+      [
+       "3ª",
+       "Terciária"
+      ]
+     ],
+     "em": "secundária",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "produtos",
+   "texto": "No fim da linha, a pedra ganha nome: brita um, pedrisco, também chamado de brita zero, pó de pedra e areia de brita. Cada uma serve a um uso, do concreto ao asfalto. E sobra pó: os finos chegam a dez ou quinze por cento do que se produz, segundo um estudo sobre pedreiras paulistas. Mas existe um tipo de pedreira que trabalha ao contrário, e a regra dela é não quebrar nada.",
+   "galeria": [
+    "brita1",
+    "pedrisco",
+    "po-pedra",
+    "pilhas-tamanhos"
+   ],
+   "galeriaEm": [
+    0,
+    "pedrisco",
+    "pó",
+    "finos"
+   ],
+   "fontes": [
+    "MME — Perfil da brita"
+   ],
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "BRITA 1 · BRITA 0 · PÓ",
+     "icone": "lista",
+     "em": "nome",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "carrara",
+   "texto": "Em Carrara, na Itália, o objetivo é o oposto. Ali se tiram blocos inteiros de mármore, sem uma rachadura. Os romanos já exploravam essas montanhas, e a cidade nasceu como um povoado para abrigar os trabalhadores das pedreiras. Um explosivo comum quebraria o bloco em pedaços. Então, como cortar uma montanha sem estilhaçá-la? A resposta, curiosamente, é um fio.",
+   "galeria": [
+    "carrara-cidade",
+    "apuanas",
+    "fantiscritti-romano",
+    "bloco-marmore"
+   ],
+   "galeriaEm": [
+    0,
+    "montanhas",
+    "romanos",
+    "bloco"
+   ],
+   "fontes": [
+    "Wikipédia — Carrara"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 4 · A VIRADA",
+     "sub": "Carrara, Itália",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Brasil",
+     "para": "Carrara, Itália",
+     "legenda": "Outra pedreira",
+     "em": "Itália",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "fio-diamantado",
+   "texto": "Um cabo de aço com contas cobertas de diamante, refrigerado com água, corta a rocha num corte estreito, sem rachar a pedra. Para começar, fazem-se dois furos que se cruzam, um vertical e um horizontal, e o fio passa por eles. Antigamente, os trabalhadores usavam cunhas de madeira molhada, que incham e abrem a rocha ao longo das fissuras. Séculos depois, a tecnologia mudou, mas a paciência continua a mesma.",
+   "galeria": [
+    "fio-diamantado",
+    "furos-marmore",
+    "cunhas",
+    "corte-marmore"
+   ],
+   "galeriaEm": [
+    0,
+    "furos",
+    "Antigamente",
+    "tecnologia"
+   ],
+   "fontes": [
+    "Britannica — Quarrying",
+    "Wikipédia — Dimension stone"
+   ],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "engrenagem",
+       "Dois furos"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "chave",
+       "Fio passa"
+      ],
+      [
+       "seta",
+       ""
+      ],
+      [
+       "check",
+       "Corte limpo"
+      ]
+     ],
+     "em": "Para",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "david",
+   "texto": "Foi desse tipo de montanha que saiu o David de Michelangelo. O bloco veio de Carrara, e análises citadas na Wikipédia apontam o vale de Miseglia, na região de Fantiscritti. Hoje a estátua está em Florença. Uma pedra extraída com paciência para virar arte. É a mesma lógica de uma pedreira de brita, só que cada decisão tenta preservar a rocha, em vez de quebrá-la.",
+   "galeria": [
+    "david",
+    "miseglia",
+    "florenca",
+    "accademia"
+   ],
+   "galeriaEm": [
+    0,
+    "Miseglia",
+    "Florença",
+    "paciência"
+   ],
+   "fontes": [
+    "Wikipédia — David (Michelangelo)"
+   ],
+   "elementos": [
+    {
+     "tipo": "pessoa",
+     "imagem": "david",
+     "nome": "David",
+     "cargo": "Michelangelo · mármore de Carrara",
+     "em": "Michelangelo",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então, voltando ao começo: o prédio, a estrada, a calçada. Tudo passou por um plano de fogo, por um furo, por uma sequência de britadores e peneiras. Uma pedreira é uma fábrica de pedra, onde cada decisão, do tamanho do furo até a abertura da peneira, decide o que a rocha vai ser. Da próxima vez que você pisar numa calçada, lembre-se: você está andando sobre uma montanha.",
+   "galeria": [
+    "pedreira-final",
+    "ponte",
+    "calcada",
+    "montanha-final"
+   ],
+   "galeriaEm": [
+    0,
+    "britadores",
+    "calçada",
+    "montanha"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "UMA FÁBRICA DE PEDRA",
+     "em": "fábrica",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Se você gostou de ver o mundo por dentro, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos entender outra obra gigante. Até lá.",
+   "galeria": [
+    "globo-inova",
+    "obra-gigante"
+   ],
+   "galeriaEm": [
+    0,
+    "obra"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "seguir",
+     "texto": "INSCREVA-SE NO INOVA MUNDO",
+     "em": "inscreva-se",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "2fd71ce304",
+   "texto": "Todo prédio, toda estrada e toda calçada da sua cidade começaram dentro de uma montanha. Uma montanha que alguém explodiu de propósito, com hora marcada e um plano calculado. E o mais curioso é que quase ninguém sabe como isso funciona. Hoje, você vai entrar numa pedreira e descobrir o caminho de uma rocha, do paredão até o caminhão.",
+   "audio": "audio/gancho-2fd71ce304.mp3",
+   "duracao": 24.947,
+   "palavras": [
+    {
+     "p": "Todo",
+     "i": 0.102,
+     "f": 0.389
+    },
+    {
+     "p": "prédio",
+     "i": 0.402,
+     "f": 0.844
+    },
+    {
+     "p": "toda",
+     "i": 1.092,
+     "f": 1.3
+    },
+    {
+     "p": "estrada",
+     "i": 1.313,
+     "f": 1.717
+    },
+    {
+     "p": "e",
+     "i": 1.73,
+     "f": 1.808
+    },
+    {
+     "p": "toda",
+     "i": 1.821,
+     "f": 2.068
+    },
+    {
+     "p": "calçada",
+     "i": 2.081,
+     "f": 2.602
+    },
+    {
+     "p": "da",
+     "i": 2.615,
+     "f": 2.706
+    },
+    {
+     "p": "sua",
+     "i": 2.719,
+     "f": 2.928
+    },
+    {
+     "p": "cidade",
+     "i": 2.941,
+     "f": 3.396
+    },
+    {
+     "p": "começaram",
+     "i": 3.409,
+     "f": 3.982
+    },
+    {
+     "p": "dentro",
+     "i": 3.995,
+     "f": 4.386
+    },
+    {
+     "p": "de",
+     "i": 4.399,
+     "f": 4.503
+    },
+    {
+     "p": "uma",
+     "i": 4.516,
+     "f": 4.646
+    },
+    {
+     "p": "montanha",
+     "i": 4.659,
+     "f": 5.271
+    },
+    {
+     "p": "Uma",
+     "i": 6.534,
+     "f": 6.729
+    },
+    {
+     "p": "montanha",
+     "i": 6.742,
+     "f": 7.302
+    },
+    {
+     "p": "que",
+     "i": 7.315,
+     "f": 7.406
+    },
+    {
+     "p": "alguém",
+     "i": 7.42,
+     "f": 7.693
+    },
+    {
+     "p": "explodiu",
+     "i": 7.706,
+     "f": 8.201
+    },
+    {
+     "p": "de",
+     "i": 8.214,
+     "f": 8.292
+    },
+    {
+     "p": "propósito",
+     "i": 8.305,
+     "f": 8.969
+    },
+    {
+     "p": "com",
+     "i": 9.268,
+     "f": 9.451
+    },
+    {
+     "p": "hora",
+     "i": 9.464,
+     "f": 9.685
+    },
+    {
+     "p": "marcada",
+     "i": 9.698,
+     "f": 10.219
+    },
+    {
+     "p": "e",
+     "i": 10.232,
+     "f": 10.271
+    },
+    {
+     "p": "um",
+     "i": 10.284,
+     "f": 10.414
+    },
+    {
+     "p": "plano",
+     "i": 10.427,
+     "f": 10.727
+    },
+    {
+     "p": "calculado",
+     "i": 10.74,
+     "f": 11.417
+    },
+    {
+     "p": "E",
+     "i": 12.678,
+     "f": 12.821
+    },
+    {
+     "p": "o",
+     "i": 12.834,
+     "f": 12.873
+    },
+    {
+     "p": "mais",
+     "i": 12.886,
+     "f": 13.173
+    },
+    {
+     "p": "curioso",
+     "i": 13.186,
+     "f": 13.746
+    },
+    {
+     "p": "é",
+     "i": 13.759,
+     "f": 13.811
+    },
+    {
+     "p": "que",
+     "i": 13.824,
+     "f": 13.954
+    },
+    {
+     "p": "quase",
+     "i": 13.967,
+     "f": 14.332
+    },
+    {
+     "p": "ninguém",
+     "i": 14.345,
+     "f": 14.722
+    },
+    {
+     "p": "sabe",
+     "i": 14.735,
+     "f": 15.048
+    },
+    {
+     "p": "como",
+     "i": 15.061,
+     "f": 15.347
+    },
+    {
+     "p": "isso",
+     "i": 15.36,
+     "f": 15.634
+    },
+    {
+     "p": "funciona",
+     "i": 15.647,
+     "f": 16.298
+    },
+    {
+     "p": "Hoje",
+     "i": 17.55,
+     "f": 17.915
+    },
+    {
+     "p": "você",
+     "i": 18.227,
+     "f": 18.514
+    },
+    {
+     "p": "vai",
+     "i": 18.527,
+     "f": 18.644
+    },
+    {
+     "p": "entrar",
+     "i": 18.657,
+     "f": 18.969
+    },
+    {
+     "p": "numa",
+     "i": 18.982,
+     "f": 19.178
+    },
+    {
+     "p": "pedreira",
+     "i": 19.191,
+     "f": 19.646
+    },
+    {
+     "p": "e",
+     "i": 19.659,
+     "f": 19.699
+    },
+    {
+     "p": "descobrir",
+     "i": 19.712,
+     "f": 20.232
+    },
+    {
+     "p": "o",
+     "i": 20.245,
+     "f": 20.284
+    },
+    {
+     "p": "caminho",
+     "i": 20.297,
+     "f": 20.688
+    },
+    {
+     "p": "de",
+     "i": 20.701,
+     "f": 20.779
+    },
+    {
+     "p": "uma",
+     "i": 20.792,
+     "f": 20.949
+    },
+    {
+     "p": "rocha",
+     "i": 20.962,
+     "f": 21.391
+    },
+    {
+     "p": "do",
+     "i": 21.652,
+     "f": 21.821
+    },
+    {
+     "p": "paredão",
+     "i": 21.834,
+     "f": 22.329
+    },
+    {
+     "p": "até",
+     "i": 22.342,
+     "f": 22.563
+    },
+    {
+     "p": "o",
+     "i": 22.576,
+     "f": 22.615
+    },
+    {
+     "p": "caminhão",
+     "i": 22.628,
+     "f": 23.201
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "b223d90d98",
+   "texto": "Neste vídeo, você vai ver quatro coisas. Primeiro, como a montanha é preparada e como se decide onde explodir. Depois, o que acontece dentro de cada furo. Em seguida, como um bloco do tamanho de um carro vira areia fina. E no final, uma pedreira bem diferente, que ajudou a fazer história na arte. Fique até o fim, porque a virada vale a pena.",
+   "audio": "audio/promessa-b223d90d98.mp3",
+   "duracao": 29.048,
+   "palavras": [
+    {
+     "p": "Neste",
+     "i": 0.102,
+     "f": 0.506
+    },
+    {
+     "p": "vídeo",
+     "i": 0.519,
+     "f": 0.883
+    },
+    {
+     "p": "você",
+     "i": 1.196,
+     "f": 1.469
+    },
+    {
+     "p": "vai",
+     "i": 1.482,
+     "f": 1.612
+    },
+    {
+     "p": "ver",
+     "i": 1.626,
+     "f": 1.795
+    },
+    {
+     "p": "quatro",
+     "i": 1.808,
+     "f": 2.238
+    },
+    {
+     "p": "coisas",
+     "i": 2.251,
+     "f": 2.797
+    },
+    {
+     "p": "Primeiro",
+     "i": 4.038,
+     "f": 4.546
+    },
+    {
+     "p": "como",
+     "i": 4.806,
+     "f": 5.028
+    },
+    {
+     "p": "a",
+     "i": 5.041,
+     "f": 5.054
+    },
+    {
+     "p": "montanha",
+     "i": 5.067,
+     "f": 5.588
+    },
+    {
+     "p": "é",
+     "i": 5.601,
+     "f": 5.627
+    },
+    {
+     "p": "preparada",
+     "i": 5.64,
+     "f": 6.382
+    },
+    {
+     "p": "e",
+     "i": 6.395,
+     "f": 6.486
+    },
+    {
+     "p": "como",
+     "i": 6.499,
+     "f": 6.733
+    },
+    {
+     "p": "se",
+     "i": 6.746,
+     "f": 6.864
+    },
+    {
+     "p": "decide",
+     "i": 6.877,
+     "f": 7.41
+    },
+    {
+     "p": "onde",
+     "i": 7.423,
+     "f": 7.645
+    },
+    {
+     "p": "explodir",
+     "i": 7.658,
+     "f": 8.205
+    },
+    {
+     "p": "Depois",
+     "i": 9.462,
+     "f": 10.087
+    },
+    {
+     "p": "o",
+     "i": 10.426,
+     "f": 10.491
+    },
+    {
+     "p": "que",
+     "i": 10.504,
+     "f": 10.582
+    },
+    {
+     "p": "acontece",
+     "i": 10.595,
+     "f": 11.246
+    },
+    {
+     "p": "dentro",
+     "i": 11.259,
+     "f": 11.584
+    },
+    {
+     "p": "de",
+     "i": 11.597,
+     "f": 11.715
+    },
+    {
+     "p": "cada",
+     "i": 11.728,
+     "f": 12.04
+    },
+    {
+     "p": "furo",
+     "i": 12.053,
+     "f": 12.431
+    },
+    {
+     "p": "Em",
+     "i": 13.686,
+     "f": 13.829
+    },
+    {
+     "p": "seguida",
+     "i": 13.842,
+     "f": 14.35
+    },
+    {
+     "p": "como",
+     "i": 14.611,
+     "f": 14.819
+    },
+    {
+     "p": "um",
+     "i": 14.832,
+     "f": 14.91
+    },
+    {
+     "p": "bloco",
+     "i": 14.923,
+     "f": 15.327
+    },
+    {
+     "p": "do",
+     "i": 15.34,
+     "f": 15.431
+    },
+    {
+     "p": "tamanho",
+     "i": 15.444,
+     "f": 15.887
+    },
+    {
+     "p": "de",
+     "i": 15.9,
+     "f": 15.991
+    },
+    {
+     "p": "um",
+     "i": 16.004,
+     "f": 16.108
+    },
+    {
+     "p": "carro",
+     "i": 16.121,
+     "f": 16.473
+    },
+    {
+     "p": "vira",
+     "i": 16.486,
+     "f": 16.707
+    },
+    {
+     "p": "areia",
+     "i": 16.72,
+     "f": 17.032
+    },
+    {
+     "p": "fina",
+     "i": 17.045,
+     "f": 17.475
+    },
+    {
+     "p": "E",
+     "i": 18.726,
+     "f": 18.83
+    },
+    {
+     "p": "no",
+     "i": 18.843,
+     "f": 18.947
+    },
+    {
+     "p": "final",
+     "i": 18.96,
+     "f": 19.39
+    },
+    {
+     "p": "uma",
+     "i": 19.716,
+     "f": 19.898
+    },
+    {
+     "p": "pedreira",
+     "i": 19.911,
+     "f": 20.354
+    },
+    {
+     "p": "bem",
+     "i": 20.367,
+     "f": 20.614
+    },
+    {
+     "p": "diferente",
+     "i": 20.627,
+     "f": 21.265
+    },
+    {
+     "p": "que",
+     "i": 21.434,
+     "f": 21.565
+    },
+    {
+     "p": "ajudou",
+     "i": 21.578,
+     "f": 22.007
+    },
+    {
+     "p": "a",
+     "i": 22.02,
+     "f": 22.086
+    },
+    {
+     "p": "fazer",
+     "i": 22.098,
+     "f": 22.398
+    },
+    {
+     "p": "história",
+     "i": 22.411,
+     "f": 22.815
+    },
+    {
+     "p": "na",
+     "i": 22.828,
+     "f": 22.945
+    },
+    {
+     "p": "arte",
+     "i": 22.958,
+     "f": 23.362
+    },
+    {
+     "p": "Fique",
+     "i": 24.606,
+     "f": 24.932
+    },
+    {
+     "p": "até",
+     "i": 24.945,
+     "f": 25.179
+    },
+    {
+     "p": "o",
+     "i": 25.192,
+     "f": 25.257
+    },
+    {
+     "p": "fim",
+     "i": 25.27,
+     "f": 25.583
+    },
+    {
+     "p": "porque",
+     "i": 25.804,
+     "f": 26.09
+    },
+    {
+     "p": "a",
+     "i": 26.103,
+     "f": 26.156
+    },
+    {
+     "p": "virada",
+     "i": 26.169,
+     "f": 26.585
+    },
+    {
+     "p": "vale",
+     "i": 26.598,
+     "f": 26.807
+    },
+    {
+     "p": "a",
+     "i": 26.82,
+     "f": 26.898
+    },
+    {
+     "p": "pena",
+     "i": 26.911,
+     "f": 27.288
+    }
+   ]
+  },
+  "o-que-e": {
+   "hash": "5ce2d1a1d5",
+   "texto": "Uma pedreira é uma mina a céu aberto, onde se extrai rocha dura, como granito e gnaisse. Ninguém procura ouro ali: a própria pedra é o produto. Ela é quebrada e peneirada até virar brita, a pedrinha que entra no concreto e no asfalto, além de pó de pedra e areia de brita. Parece simples, mas, como você vai ver, por trás de cada pedrinha existe muita engenharia.",
+   "audio": "audio/o-que-e-5ce2d1a1d5.mp3",
+   "duracao": 27.638,
+   "palavras": [
+    {
+     "p": "Uma",
+     "i": 0.102,
+     "f": 0.349
+    },
+    {
+     "p": "pedreira",
+     "i": 0.362,
+     "f": 0.857
+    },
+    {
+     "p": "é",
+     "i": 0.87,
+     "f": 0.909
+    },
+    {
+     "p": "uma",
+     "i": 0.922,
+     "f": 1.079
+    },
+    {
+     "p": "mina",
+     "i": 1.092,
+     "f": 1.3
+    },
+    {
+     "p": "a",
+     "i": 1.313,
+     "f": 1.339
+    },
+    {
+     "p": "céu",
+     "i": 1.352,
+     "f": 1.665
+    },
+    {
+     "p": "aberto",
+     "i": 1.678,
+     "f": 2.172
+    },
+    {
+     "p": "onde",
+     "i": 2.446,
+     "f": 2.68
+    },
+    {
+     "p": "se",
+     "i": 2.693,
+     "f": 2.784
+    },
+    {
+     "p": "extrai",
+     "i": 2.797,
+     "f": 3.11
+    },
+    {
+     "p": "rocha",
+     "i": 3.123,
+     "f": 3.461
+    },
+    {
+     "p": "dura",
+     "i": 3.474,
+     "f": 3.787
+    },
+    {
+     "p": "como",
+     "i": 4.086,
+     "f": 4.347
+    },
+    {
+     "p": "granito",
+     "i": 4.36,
+     "f": 4.855
+    },
+    {
+     "p": "e",
+     "i": 4.868,
+     "f": 4.907
+    },
+    {
+     "p": "gnaisse",
+     "i": 4.92,
+     "f": 5.454
+    },
+    {
+     "p": "Ninguém",
+     "i": 6.702,
+     "f": 7.158
+    },
+    {
+     "p": "procura",
+     "i": 7.171,
+     "f": 7.627
+    },
+    {
+     "p": "ouro",
+     "i": 7.64,
+     "f": 7.874
+    },
+    {
+     "p": "ali",
+     "i": 7.887,
+     "f": 8.16
+    },
+    {
+     "p": "a",
+     "i": 8.434,
+     "f": 8.538
+    },
+    {
+     "p": "própria",
+     "i": 8.551,
+     "f": 8.981
+    },
+    {
+     "p": "pedra",
+     "i": 8.994,
+     "f": 9.384
+    },
+    {
+     "p": "é",
+     "i": 9.397,
+     "f": 9.436
+    },
+    {
+     "p": "o",
+     "i": 9.449,
+     "f": 9.515
+    },
+    {
+     "p": "produto",
+     "i": 9.528,
+     "f": 10.048
+    },
+    {
+     "p": "Ela",
+     "i": 11.31,
+     "f": 11.544
+    },
+    {
+     "p": "é",
+     "i": 11.557,
+     "f": 11.597
+    },
+    {
+     "p": "quebrada",
+     "i": 11.61,
+     "f": 12.169
+    },
+    {
+     "p": "e",
+     "i": 12.183,
+     "f": 12.222
+    },
+    {
+     "p": "peneirada",
+     "i": 12.235,
+     "f": 12.755
+    },
+    {
+     "p": "até",
+     "i": 12.768,
+     "f": 12.964
+    },
+    {
+     "p": "virar",
+     "i": 12.977,
+     "f": 13.25
+    },
+    {
+     "p": "brita",
+     "i": 13.263,
+     "f": 13.641
+    },
+    {
+     "p": "a",
+     "i": 13.901,
+     "f": 13.992
+    },
+    {
+     "p": "pedrinha",
+     "i": 14.005,
+     "f": 14.539
+    },
+    {
+     "p": "que",
+     "i": 14.552,
+     "f": 14.735
+    },
+    {
+     "p": "entra",
+     "i": 14.748,
+     "f": 14.995
+    },
+    {
+     "p": "no",
+     "i": 15.008,
+     "f": 15.086
+    },
+    {
+     "p": "concreto",
+     "i": 15.099,
+     "f": 15.607
+    },
+    {
+     "p": "e",
+     "i": 15.62,
+     "f": 15.646
+    },
+    {
+     "p": "no",
+     "i": 15.659,
+     "f": 15.737
+    },
+    {
+     "p": "asfalto",
+     "i": 15.75,
+     "f": 16.271
+    },
+    {
+     "p": "além",
+     "i": 16.505,
+     "f": 16.74
+    },
+    {
+     "p": "de",
+     "i": 16.753,
+     "f": 16.883
+    },
+    {
+     "p": "pó",
+     "i": 16.896,
+     "f": 17.052
+    },
+    {
+     "p": "de",
+     "i": 17.065,
+     "f": 17.195
+    },
+    {
+     "p": "pedra",
+     "i": 17.209,
+     "f": 17.638
+    },
+    {
+     "p": "e",
+     "i": 17.651,
+     "f": 17.716
+    },
+    {
+     "p": "areia",
+     "i": 17.729,
+     "f": 18.055
+    },
+    {
+     "p": "de",
+     "i": 18.068,
+     "f": 18.185
+    },
+    {
+     "p": "brita",
+     "i": 18.198,
+     "f": 18.576
+    },
+    {
+     "p": "Parece",
+     "i": 19.83,
+     "f": 20.273
+    },
+    {
+     "p": "simples",
+     "i": 20.286,
+     "f": 20.924
+    },
+    {
+     "p": "mas",
+     "i": 21.171,
+     "f": 21.614
+    },
+    {
+     "p": "como",
+     "i": 21.822,
+     "f": 22.096
+    },
+    {
+     "p": "você",
+     "i": 22.109,
+     "f": 22.395
+    },
+    {
+     "p": "vai",
+     "i": 22.408,
+     "f": 22.577
+    },
+    {
+     "p": "ver",
+     "i": 22.59,
+     "f": 22.864
+    },
+    {
+     "p": "por",
+     "i": 23.15,
+     "f": 23.333
+    },
+    {
+     "p": "trás",
+     "i": 23.346,
+     "f": 23.619
+    },
+    {
+     "p": "de",
+     "i": 23.632,
+     "f": 23.736
+    },
+    {
+     "p": "cada",
+     "i": 23.749,
+     "f": 24.036
+    },
+    {
+     "p": "pedrinha",
+     "i": 24.049,
+     "f": 24.439
+    },
+    {
+     "p": "existe",
+     "i": 24.452,
+     "f": 24.843
+    },
+    {
+     "p": "muita",
+     "i": 24.856,
+     "f": 25.247
+    },
+    {
+     "p": "engenharia",
+     "i": 25.26,
+     "f": 25.898
+    }
+   ]
+  },
+  "numeros": {
+   "hash": "9133326ee4",
+   "texto": "Quão grande é esse negócio? Em dois mil e vinte, o Brasil produziu seiscentos e cinco milhões de toneladas de agregados, entre areia e brita, segundo a associação do setor. É perto de três toneladas e meia por habitante, por ano. E a capacidade instalada chega a novecentos milhões de toneladas. Só que antes de virar pó, a rocha precisa sair da montanha, e isso começa com um mapa.",
+   "audio": "audio/numeros-9133326ee4.mp3",
+   "duracao": 30.171,
+   "palavras": [
+    {
+     "p": "Quão",
+     "i": 0.102,
+     "f": 0.362
+    },
+    {
+     "p": "grande",
+     "i": 0.376,
+     "f": 0.818
+    },
+    {
+     "p": "é",
+     "i": 0.831,
+     "f": 0.935
+    },
+    {
+     "p": "esse",
+     "i": 0.948,
+     "f": 1.209
+    },
+    {
+     "p": "negócio",
+     "i": 1.222,
+     "f": 1.795
+    },
+    {
+     "p": "Em",
+     "i": 3.154,
+     "f": 3.297
+    },
+    {
+     "p": "dois",
+     "i": 3.31,
+     "f": 3.545
+    },
+    {
+     "p": "mil",
+     "i": 3.558,
+     "f": 3.688
+    },
+    {
+     "p": "e",
+     "i": 3.701,
+     "f": 3.766
+    },
+    {
+     "p": "vinte",
+     "i": 3.779,
+     "f": 4.157
+    },
+    {
+     "p": "o",
+     "i": 4.352,
+     "f": 4.404
+    },
+    {
+     "p": "Brasil",
+     "i": 4.417,
+     "f": 4.834
+    },
+    {
+     "p": "produziu",
+     "i": 4.847,
+     "f": 5.329
+    },
+    {
+     "p": "seiscentos",
+     "i": 5.342,
+     "f": 5.954
+    },
+    {
+     "p": "e",
+     "i": 5.967,
+     "f": 6.097
+    },
+    {
+     "p": "cinco",
+     "i": 6.11,
+     "f": 6.435
+    },
+    {
+     "p": "milhões",
+     "i": 6.448,
+     "f": 6.839
+    },
+    {
+     "p": "de",
+     "i": 6.852,
+     "f": 6.956
+    },
+    {
+     "p": "toneladas",
+     "i": 6.969,
+     "f": 7.568
+    },
+    {
+     "p": "de",
+     "i": 7.581,
+     "f": 7.633
+    },
+    {
+     "p": "agregados",
+     "i": 7.646,
+     "f": 8.31
+    },
+    {
+     "p": "entre",
+     "i": 8.701,
+     "f": 8.922
+    },
+    {
+     "p": "areia",
+     "i": 8.935,
+     "f": 9.222
+    },
+    {
+     "p": "e",
+     "i": 9.235,
+     "f": 9.274
+    },
+    {
+     "p": "brita",
+     "i": 9.287,
+     "f": 9.625
+    },
+    {
+     "p": "segundo",
+     "i": 9.977,
+     "f": 10.42
+    },
+    {
+     "p": "a",
+     "i": 10.433,
+     "f": 10.459
+    },
+    {
+     "p": "associação",
+     "i": 10.472,
+     "f": 11.123
+    },
+    {
+     "p": "do",
+     "i": 11.136,
+     "f": 11.227
+    },
+    {
+     "p": "setor",
+     "i": 11.24,
+     "f": 11.696
+    },
+    {
+     "p": "É",
+     "i": 12.946,
+     "f": 13.076
+    },
+    {
+     "p": "perto",
+     "i": 13.089,
+     "f": 13.558
+    },
+    {
+     "p": "de",
+     "i": 13.571,
+     "f": 13.714
+    },
+    {
+     "p": "três",
+     "i": 13.727,
+     "f": 13.988
+    },
+    {
+     "p": "toneladas",
+     "i": 14.001,
+     "f": 14.587
+    },
+    {
+     "p": "e",
+     "i": 14.6,
+     "f": 14.73
+    },
+    {
+     "p": "meia",
+     "i": 14.743,
+     "f": 15.095
+    },
+    {
+     "p": "por",
+     "i": 15.108,
+     "f": 15.251
+    },
+    {
+     "p": "habitante",
+     "i": 15.264,
+     "f": 15.902
+    },
+    {
+     "p": "por",
+     "i": 16.045,
+     "f": 16.24
+    },
+    {
+     "p": "ano",
+     "i": 16.253,
+     "f": 16.566
+    },
+    {
+     "p": "E",
+     "i": 17.818,
+     "f": 17.935
+    },
+    {
+     "p": "a",
+     "i": 17.948,
+     "f": 18.013
+    },
+    {
+     "p": "capacidade",
+     "i": 18.026,
+     "f": 18.717
+    },
+    {
+     "p": "instalada",
+     "i": 18.73,
+     "f": 19.302
+    },
+    {
+     "p": "chega",
+     "i": 19.315,
+     "f": 19.589
+    },
+    {
+     "p": "a",
+     "i": 19.602,
+     "f": 19.615
+    },
+    {
+     "p": "novecentos",
+     "i": 19.628,
+     "f": 20.279
+    },
+    {
+     "p": "milhões",
+     "i": 20.292,
+     "f": 20.722
+    },
+    {
+     "p": "de",
+     "i": 20.735,
+     "f": 20.826
+    },
+    {
+     "p": "toneladas",
+     "i": 20.839,
+     "f": 21.594
+    },
+    {
+     "p": "Só",
+     "i": 22.858,
+     "f": 23.197
+    },
+    {
+     "p": "que",
+     "i": 23.21,
+     "f": 23.379
+    },
+    {
+     "p": "antes",
+     "i": 23.392,
+     "f": 23.704
+    },
+    {
+     "p": "de",
+     "i": 23.717,
+     "f": 23.796
+    },
+    {
+     "p": "virar",
+     "i": 23.809,
+     "f": 24.108
+    },
+    {
+     "p": "pó",
+     "i": 24.121,
+     "f": 24.447
+    },
+    {
+     "p": "a",
+     "i": 24.694,
+     "f": 24.772
+    },
+    {
+     "p": "rocha",
+     "i": 24.785,
+     "f": 25.137
+    },
+    {
+     "p": "precisa",
+     "i": 25.15,
+     "f": 25.553
+    },
+    {
+     "p": "sair",
+     "i": 25.566,
+     "f": 25.879
+    },
+    {
+     "p": "da",
+     "i": 25.892,
+     "f": 25.983
+    },
+    {
+     "p": "montanha",
+     "i": 25.996,
+     "f": 26.608
+    },
+    {
+     "p": "e",
+     "i": 26.868,
+     "f": 26.999
+    },
+    {
+     "p": "isso",
+     "i": 27.012,
+     "f": 27.22
+    },
+    {
+     "p": "começa",
+     "i": 27.233,
+     "f": 27.728
+    },
+    {
+     "p": "com",
+     "i": 27.741,
+     "f": 27.91
+    },
+    {
+     "p": "um",
+     "i": 27.923,
+     "f": 27.988
+    },
+    {
+     "p": "mapa",
+     "i": 28.001,
+     "f": 28.418
+    }
+   ]
+  },
+  "decapeamento": {
+   "hash": "9f2d6da21b",
+   "texto": "Antes de qualquer explosão, vem a faxina. É o decapeamento: tirar a terra, as raízes e a rocha estragada que cobrem a rocha boa. Só então a montanha é cortada em degraus, as bancadas. Cada degrau tem altura planejada por engenheiros, porque é isso que mantém a operação estável e as pessoas seguras. Em seguida, vem a parte que ninguém esquece: os furos.",
+   "audio": "audio/decapeamento-9f2d6da21b.mp3",
+   "duracao": 29.074,
+   "palavras": [
+    {
+     "p": "Antes",
+     "i": 0.102,
+     "f": 0.48
+    },
+    {
+     "p": "de",
+     "i": 0.493,
+     "f": 0.584
+    },
+    {
+     "p": "qualquer",
+     "i": 0.597,
+     "f": 0.948
+    },
+    {
+     "p": "explosão",
+     "i": 0.961,
+     "f": 1.547
+    },
+    {
+     "p": "vem",
+     "i": 1.951,
+     "f": 2.159
+    },
+    {
+     "p": "a",
+     "i": 2.172,
+     "f": 2.251
+    },
+    {
+     "p": "faxina",
+     "i": 2.264,
+     "f": 2.849
+    },
+    {
+     "p": "É",
+     "i": 4.11,
+     "f": 4.24
+    },
+    {
+     "p": "o",
+     "i": 4.253,
+     "f": 4.318
+    },
+    {
+     "p": "decapeamento",
+     "i": 4.331,
+     "f": 5.126
+    },
+    {
+     "p": "tirar",
+     "i": 5.412,
+     "f": 5.699
+    },
+    {
+     "p": "a",
+     "i": 5.712,
+     "f": 5.803
+    },
+    {
+     "p": "terra",
+     "i": 5.816,
+     "f": 6.219
+    },
+    {
+     "p": "as",
+     "i": 6.428,
+     "f": 6.571
+    },
+    {
+     "p": "raízes",
+     "i": 6.584,
+     "f": 7.066
+    },
+    {
+     "p": "e",
+     "i": 7.079,
+     "f": 7.209
+    },
+    {
+     "p": "a",
+     "i": 7.222,
+     "f": 7.3
+    },
+    {
+     "p": "rocha",
+     "i": 7.313,
+     "f": 7.639
+    },
+    {
+     "p": "estragada",
+     "i": 7.652,
+     "f": 8.264
+    },
+    {
+     "p": "que",
+     "i": 8.277,
+     "f": 8.407
+    },
+    {
+     "p": "cobrem",
+     "i": 8.42,
+     "f": 8.772
+    },
+    {
+     "p": "a",
+     "i": 8.785,
+     "f": 8.863
+    },
+    {
+     "p": "rocha",
+     "i": 8.876,
+     "f": 9.227
+    },
+    {
+     "p": "boa",
+     "i": 9.24,
+     "f": 9.618
+    },
+    {
+     "p": "Só",
+     "i": 10.878,
+     "f": 11.138
+    },
+    {
+     "p": "então",
+     "i": 11.152,
+     "f": 11.542
+    },
+    {
+     "p": "a",
+     "i": 11.555,
+     "f": 11.568
+    },
+    {
+     "p": "montanha",
+     "i": 11.581,
+     "f": 12.076
+    },
+    {
+     "p": "é",
+     "i": 12.089,
+     "f": 12.128
+    },
+    {
+     "p": "cortada",
+     "i": 12.141,
+     "f": 12.662
+    },
+    {
+     "p": "em",
+     "i": 12.675,
+     "f": 12.727
+    },
+    {
+     "p": "degraus",
+     "i": 12.74,
+     "f": 13.287
+    },
+    {
+     "p": "as",
+     "i": 13.521,
+     "f": 13.652
+    },
+    {
+     "p": "bancadas",
+     "i": 13.665,
+     "f": 14.407
+    },
+    {
+     "p": "Cada",
+     "i": 15.654,
+     "f": 15.928
+    },
+    {
+     "p": "degrau",
+     "i": 15.941,
+     "f": 16.37
+    },
+    {
+     "p": "tem",
+     "i": 16.383,
+     "f": 16.527
+    },
+    {
+     "p": "altura",
+     "i": 16.54,
+     "f": 16.93
+    },
+    {
+     "p": "planejada",
+     "i": 16.943,
+     "f": 17.568
+    },
+    {
+     "p": "por",
+     "i": 17.581,
+     "f": 17.711
+    },
+    {
+     "p": "engenheiros",
+     "i": 17.724,
+     "f": 18.401
+    },
+    {
+     "p": "porque",
+     "i": 18.714,
+     "f": 19.04
+    },
+    {
+     "p": "é",
+     "i": 19.053,
+     "f": 19.183
+    },
+    {
+     "p": "isso",
+     "i": 19.196,
+     "f": 19.547
+    },
+    {
+     "p": "que",
+     "i": 19.56,
+     "f": 19.651
+    },
+    {
+     "p": "mantém",
+     "i": 19.664,
+     "f": 20.003
+    },
+    {
+     "p": "a",
+     "i": 20.016,
+     "f": 20.094
+    },
+    {
+     "p": "operação",
+     "i": 20.107,
+     "f": 20.615
+    },
+    {
+     "p": "estável",
+     "i": 20.628,
+     "f": 21.175
+    },
+    {
+     "p": "e",
+     "i": 21.188,
+     "f": 21.253
+    },
+    {
+     "p": "as",
+     "i": 21.266,
+     "f": 21.396
+    },
+    {
+     "p": "pessoas",
+     "i": 21.409,
+     "f": 21.865
+    },
+    {
+     "p": "seguras",
+     "i": 21.878,
+     "f": 22.516
+    },
+    {
+     "p": "Em",
+     "i": 23.766,
+     "f": 23.883
+    },
+    {
+     "p": "seguida",
+     "i": 23.896,
+     "f": 24.365
+    },
+    {
+     "p": "vem",
+     "i": 24.652,
+     "f": 24.821
+    },
+    {
+     "p": "a",
+     "i": 24.834,
+     "f": 24.951
+    },
+    {
+     "p": "parte",
+     "i": 24.964,
+     "f": 25.355
+    },
+    {
+     "p": "que",
+     "i": 25.368,
+     "f": 25.446
+    },
+    {
+     "p": "ninguém",
+     "i": 25.459,
+     "f": 25.81
+    },
+    {
+     "p": "esquece",
+     "i": 25.823,
+     "f": 26.396
+    },
+    {
+     "p": "os",
+     "i": 26.657,
+     "f": 26.787
+    },
+    {
+     "p": "furos",
+     "i": 26.8,
+     "f": 27.321
+    }
+   ]
+  },
+  "perfuracao": {
+   "hash": "47de019d7b",
+   "texto": "Agora entram as perfuratrizes. Elas abrem uma malha de furos na bancada, com distâncias calculadas. O chamado plano de fogo define o tipo de explosivo, os acessórios de detonação e a geometria dessa malha. Cada furo é carregado e ligado aos vizinhos, com tempos de espera diferentes, para a rocha quebrar em sequência e não de uma vez só. Um detalhe de matemática que decide o resultado.",
+   "audio": "audio/perfuracao-47de019d7b.mp3",
+   "duracao": 29.388,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.571
+    },
+    {
+     "p": "entram",
+     "i": 0.584,
+     "f": 0.896
+    },
+    {
+     "p": "as",
+     "i": 0.909,
+     "f": 1.04
+    },
+    {
+     "p": "perfuratrizes",
+     "i": 1.053,
+     "f": 2.068
+    },
+    {
+     "p": "Elas",
+     "i": 3.318,
+     "f": 3.592
+    },
+    {
+     "p": "abrem",
+     "i": 3.605,
+     "f": 3.995
+    },
+    {
+     "p": "uma",
+     "i": 4.008,
+     "f": 4.164
+    },
+    {
+     "p": "malha",
+     "i": 4.177,
+     "f": 4.477
+    },
+    {
+     "p": "de",
+     "i": 4.49,
+     "f": 4.594
+    },
+    {
+     "p": "furos",
+     "i": 4.607,
+     "f": 4.959
+    },
+    {
+     "p": "na",
+     "i": 4.972,
+     "f": 5.076
+    },
+    {
+     "p": "bancada",
+     "i": 5.089,
+     "f": 5.636
+    },
+    {
+     "p": "com",
+     "i": 5.922,
+     "f": 6.065
+    },
+    {
+     "p": "distâncias",
+     "i": 6.078,
+     "f": 6.664
+    },
+    {
+     "p": "calculadas",
+     "i": 6.677,
+     "f": 7.498
+    },
+    {
+     "p": "O",
+     "i": 8.742,
+     "f": 8.846
+    },
+    {
+     "p": "chamado",
+     "i": 8.859,
+     "f": 9.367
+    },
+    {
+     "p": "plano",
+     "i": 9.38,
+     "f": 9.719
+    },
+    {
+     "p": "de",
+     "i": 9.732,
+     "f": 9.836
+    },
+    {
+     "p": "fogo",
+     "i": 9.849,
+     "f": 10.174
+    },
+    {
+     "p": "define",
+     "i": 10.187,
+     "f": 10.552
+    },
+    {
+     "p": "o",
+     "i": 10.565,
+     "f": 10.617
+    },
+    {
+     "p": "tipo",
+     "i": 10.63,
+     "f": 10.93
+    },
+    {
+     "p": "de",
+     "i": 10.943,
+     "f": 11.021
+    },
+    {
+     "p": "explosivo",
+     "i": 11.034,
+     "f": 11.685
+    },
+    {
+     "p": "os",
+     "i": 11.997,
+     "f": 12.062
+    },
+    {
+     "p": "acessórios",
+     "i": 12.075,
+     "f": 12.752
+    },
+    {
+     "p": "de",
+     "i": 12.766,
+     "f": 12.844
+    },
+    {
+     "p": "detonação",
+     "i": 12.857,
+     "f": 13.495
+    },
+    {
+     "p": "e",
+     "i": 13.508,
+     "f": 13.56
+    },
+    {
+     "p": "a",
+     "i": 13.573,
+     "f": 13.651
+    },
+    {
+     "p": "geometria",
+     "i": 13.664,
+     "f": 14.224
+    },
+    {
+     "p": "dessa",
+     "i": 14.237,
+     "f": 14.497
+    },
+    {
+     "p": "malha",
+     "i": 14.51,
+     "f": 14.888
+    },
+    {
+     "p": "Cada",
+     "i": 16.134,
+     "f": 16.434
+    },
+    {
+     "p": "furo",
+     "i": 16.447,
+     "f": 16.772
+    },
+    {
+     "p": "é",
+     "i": 16.785,
+     "f": 16.85
+    },
+    {
+     "p": "carregado",
+     "i": 16.863,
+     "f": 17.436
+    },
+    {
+     "p": "e",
+     "i": 17.449,
+     "f": 17.475
+    },
+    {
+     "p": "ligado",
+     "i": 17.488,
+     "f": 17.879
+    },
+    {
+     "p": "aos",
+     "i": 17.892,
+     "f": 18.022
+    },
+    {
+     "p": "vizinhos",
+     "i": 18.035,
+     "f": 18.608
+    },
+    {
+     "p": "com",
+     "i": 18.881,
+     "f": 19.116
+    },
+    {
+     "p": "tempos",
+     "i": 19.129,
+     "f": 19.506
+    },
+    {
+     "p": "de",
+     "i": 19.519,
+     "f": 19.598
+    },
+    {
+     "p": "espera",
+     "i": 19.611,
+     "f": 19.962
+    },
+    {
+     "p": "diferentes",
+     "i": 19.975,
+     "f": 20.691
+    },
+    {
+     "p": "para",
+     "i": 20.913,
+     "f": 21.056
+    },
+    {
+     "p": "a",
+     "i": 21.069,
+     "f": 21.095
+    },
+    {
+     "p": "rocha",
+     "i": 21.108,
+     "f": 21.421
+    },
+    {
+     "p": "quebrar",
+     "i": 21.434,
+     "f": 21.759
+    },
+    {
+     "p": "em",
+     "i": 21.772,
+     "f": 21.85
+    },
+    {
+     "p": "sequência",
+     "i": 21.863,
+     "f": 22.488
+    },
+    {
+     "p": "e",
+     "i": 22.501,
+     "f": 22.553
+    },
+    {
+     "p": "não",
+     "i": 22.566,
+     "f": 22.801
+    },
+    {
+     "p": "de",
+     "i": 22.814,
+     "f": 22.892
+    },
+    {
+     "p": "uma",
+     "i": 22.905,
+     "f": 23.087
+    },
+    {
+     "p": "vez",
+     "i": 23.1,
+     "f": 23.4
+    },
+    {
+     "p": "só",
+     "i": 23.413,
+     "f": 23.66
+    },
+    {
+     "p": "Um",
+     "i": 24.918,
+     "f": 25.035
+    },
+    {
+     "p": "detalhe",
+     "i": 25.048,
+     "f": 25.53
+    },
+    {
+     "p": "de",
+     "i": 25.543,
+     "f": 25.634
+    },
+    {
+     "p": "matemática",
+     "i": 25.647,
+     "f": 26.35
+    },
+    {
+     "p": "que",
+     "i": 26.363,
+     "f": 26.468
+    },
+    {
+     "p": "decide",
+     "i": 26.481,
+     "f": 26.936
+    },
+    {
+     "p": "o",
+     "i": 26.949,
+     "f": 26.975
+    },
+    {
+     "p": "resultado",
+     "i": 26.988,
+     "f": 27.626
+    }
+   ]
+  },
+  "detonacao": {
+   "hash": "9cbdd31eb0",
+   "texto": "Então o local é evacuado e o fogo é acionado. Em segundos, uma enorme massa de rocha desaba da bancada. Esse desmonte responde, em média, por cerca de vinte por cento do custo unitário de produção. Mas explodir também cobra um preço: vibração, poeira, gases e fragmentos lançados longe, que precisam ser controlados. E o pior para a pedreira é a rocha que sai grande demais.",
+   "audio": "audio/detonacao-9cbdd31eb0.mp3",
+   "duracao": 30.276,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "o",
+     "i": 0.532,
+     "f": 0.558
+    },
+    {
+     "p": "local",
+     "i": 0.571,
+     "f": 1.04
+    },
+    {
+     "p": "é",
+     "i": 1.053,
+     "f": 1.105
+    },
+    {
+     "p": "evacuado",
+     "i": 1.118,
+     "f": 1.821
+    },
+    {
+     "p": "e",
+     "i": 1.834,
+     "f": 1.899
+    },
+    {
+     "p": "o",
+     "i": 1.912,
+     "f": 1.964
+    },
+    {
+     "p": "fogo",
+     "i": 1.977,
+     "f": 2.381
+    },
+    {
+     "p": "é",
+     "i": 2.394,
+     "f": 2.459
+    },
+    {
+     "p": "acionado",
+     "i": 2.472,
+     "f": 3.058
+    },
+    {
+     "p": "Em",
+     "i": 4.302,
+     "f": 4.419
+    },
+    {
+     "p": "segundos",
+     "i": 4.432,
+     "f": 5.031
+    },
+    {
+     "p": "uma",
+     "i": 5.305,
+     "f": 5.435
+    },
+    {
+     "p": "enorme",
+     "i": 5.448,
+     "f": 5.852
+    },
+    {
+     "p": "massa",
+     "i": 5.865,
+     "f": 6.19
+    },
+    {
+     "p": "de",
+     "i": 6.203,
+     "f": 6.307
+    },
+    {
+     "p": "rocha",
+     "i": 6.32,
+     "f": 6.672
+    },
+    {
+     "p": "desaba",
+     "i": 6.685,
+     "f": 7.141
+    },
+    {
+     "p": "da",
+     "i": 7.154,
+     "f": 7.232
+    },
+    {
+     "p": "bancada",
+     "i": 7.245,
+     "f": 7.779
+    },
+    {
+     "p": "Esse",
+     "i": 9.03,
+     "f": 9.356
+    },
+    {
+     "p": "desmonte",
+     "i": 9.369,
+     "f": 9.916
+    },
+    {
+     "p": "responde",
+     "i": 9.929,
+     "f": 10.541
+    },
+    {
+     "p": "em",
+     "i": 10.658,
+     "f": 10.827
+    },
+    {
+     "p": "média",
+     "i": 10.84,
+     "f": 11.244
+    },
+    {
+     "p": "por",
+     "i": 11.478,
+     "f": 11.66
+    },
+    {
+     "p": "cerca",
+     "i": 11.673,
+     "f": 12.077
+    },
+    {
+     "p": "de",
+     "i": 12.09,
+     "f": 12.194
+    },
+    {
+     "p": "vinte",
+     "i": 12.207,
+     "f": 12.52
+    },
+    {
+     "p": "por",
+     "i": 12.533,
+     "f": 12.676
+    },
+    {
+     "p": "cento",
+     "i": 12.689,
+     "f": 13.041
+    },
+    {
+     "p": "do",
+     "i": 13.054,
+     "f": 13.171
+    },
+    {
+     "p": "custo",
+     "i": 13.184,
+     "f": 13.496
+    },
+    {
+     "p": "unitário",
+     "i": 13.509,
+     "f": 14.017
+    },
+    {
+     "p": "de",
+     "i": 14.03,
+     "f": 14.134
+    },
+    {
+     "p": "produção",
+     "i": 14.147,
+     "f": 14.746
+    },
+    {
+     "p": "Mas",
+     "i": 15.99,
+     "f": 16.185
+    },
+    {
+     "p": "explodir",
+     "i": 16.198,
+     "f": 16.771
+    },
+    {
+     "p": "também",
+     "i": 16.784,
+     "f": 17.175
+    },
+    {
+     "p": "cobra",
+     "i": 17.188,
+     "f": 17.461
+    },
+    {
+     "p": "um",
+     "i": 17.474,
+     "f": 17.553
+    },
+    {
+     "p": "preço",
+     "i": 17.566,
+     "f": 17.956
+    },
+    {
+     "p": "vibração",
+     "i": 18.308,
+     "f": 18.972
+    },
+    {
+     "p": "poeira",
+     "i": 19.232,
+     "f": 19.662
+    },
+    {
+     "p": "gases",
+     "i": 19.896,
+     "f": 20.287
+    },
+    {
+     "p": "e",
+     "i": 20.3,
+     "f": 20.404
+    },
+    {
+     "p": "fragmentos",
+     "i": 20.417,
+     "f": 21.107
+    },
+    {
+     "p": "lançados",
+     "i": 21.12,
+     "f": 21.758
+    },
+    {
+     "p": "longe",
+     "i": 21.771,
+     "f": 22.227
+    },
+    {
+     "p": "que",
+     "i": 22.435,
+     "f": 22.566
+    },
+    {
+     "p": "precisam",
+     "i": 22.579,
+     "f": 23.073
+    },
+    {
+     "p": "ser",
+     "i": 23.086,
+     "f": 23.256
+    },
+    {
+     "p": "controlados",
+     "i": 23.269,
+     "f": 24.076
+    },
+    {
+     "p": "E",
+     "i": 25.326,
+     "f": 25.456
+    },
+    {
+     "p": "o",
+     "i": 25.469,
+     "f": 25.534
+    },
+    {
+     "p": "pior",
+     "i": 25.547,
+     "f": 25.899
+    },
+    {
+     "p": "para",
+     "i": 25.912,
+     "f": 26.068
+    },
+    {
+     "p": "a",
+     "i": 26.081,
+     "f": 26.107
+    },
+    {
+     "p": "pedreira",
+     "i": 26.12,
+     "f": 26.615
+    },
+    {
+     "p": "é",
+     "i": 26.628,
+     "f": 26.68
+    },
+    {
+     "p": "a",
+     "i": 26.693,
+     "f": 26.732
+    },
+    {
+     "p": "rocha",
+     "i": 26.745,
+     "f": 27.162
+    },
+    {
+     "p": "que",
+     "i": 27.175,
+     "f": 27.292
+    },
+    {
+     "p": "sai",
+     "i": 27.305,
+     "f": 27.553
+    },
+    {
+     "p": "grande",
+     "i": 27.566,
+     "f": 27.982
+    },
+    {
+     "p": "demais",
+     "i": 27.995,
+     "f": 28.542
+    }
+   ]
+  },
+  "mine-to-crusher": {
+   "hash": "c71c62bc9f",
+   "texto": "Por que isso importa tanto? Porque o tamanho dos pedaços que saem do desmonte influencia a eficiência da britagem. Existe até uma metodologia chamada Mine to Crusher, da mina ao britador, que busca ajustar o desmonte para reduzir o custo dele e o da britagem primária. Ou seja, o engenheiro que desenha a malha de furos já está, de certa forma, trabalhando para o britador. Cada decisão ecoa na linha inteira.",
+   "audio": "audio/mine-to-crusher-c71c62bc9f.mp3",
+   "duracao": 30.772,
+   "palavras": [
+    {
+     "p": "Por",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "que",
+     "i": 0.31,
+     "f": 0.506
+    },
+    {
+     "p": "isso",
+     "i": 0.519,
+     "f": 0.792
+    },
+    {
+     "p": "importa",
+     "i": 0.805,
+     "f": 1.313
+    },
+    {
+     "p": "tanto",
+     "i": 1.326,
+     "f": 1.782
+    },
+    {
+     "p": "Porque",
+     "i": 3.13,
+     "f": 3.495
+    },
+    {
+     "p": "o",
+     "i": 3.508,
+     "f": 3.573
+    },
+    {
+     "p": "tamanho",
+     "i": 3.586,
+     "f": 3.989
+    },
+    {
+     "p": "dos",
+     "i": 4.003,
+     "f": 4.172
+    },
+    {
+     "p": "pedaços",
+     "i": 4.185,
+     "f": 4.758
+    },
+    {
+     "p": "que",
+     "i": 4.771,
+     "f": 4.888
+    },
+    {
+     "p": "saem",
+     "i": 4.901,
+     "f": 5.174
+    },
+    {
+     "p": "do",
+     "i": 5.187,
+     "f": 5.292
+    },
+    {
+     "p": "desmonte",
+     "i": 5.305,
+     "f": 5.904
+    },
+    {
+     "p": "influencia",
+     "i": 5.917,
+     "f": 6.555
+    },
+    {
+     "p": "a",
+     "i": 6.568,
+     "f": 6.607
+    },
+    {
+     "p": "eficiência",
+     "i": 6.62,
+     "f": 7.336
+    },
+    {
+     "p": "da",
+     "i": 7.349,
+     "f": 7.44
+    },
+    {
+     "p": "britagem",
+     "i": 7.453,
+     "f": 8.065
+    },
+    {
+     "p": "Existe",
+     "i": 9.322,
+     "f": 9.817
+    },
+    {
+     "p": "até",
+     "i": 9.83,
+     "f": 10.012
+    },
+    {
+     "p": "uma",
+     "i": 10.025,
+     "f": 10.168
+    },
+    {
+     "p": "metodologia",
+     "i": 10.181,
+     "f": 10.898
+    },
+    {
+     "p": "chamada",
+     "i": 10.911,
+     "f": 11.366
+    },
+    {
+     "p": "Mine",
+     "i": 11.379,
+     "f": 11.653
+    },
+    {
+     "p": "to",
+     "i": 11.666,
+     "f": 11.809
+    },
+    {
+     "p": "Crusher",
+     "i": 11.822,
+     "f": 12.343
+    },
+    {
+     "p": "da",
+     "i": 12.616,
+     "f": 12.773
+    },
+    {
+     "p": "mina",
+     "i": 12.786,
+     "f": 13.02
+    },
+    {
+     "p": "ao",
+     "i": 13.033,
+     "f": 13.098
+    },
+    {
+     "p": "britador",
+     "i": 13.111,
+     "f": 13.632
+    },
+    {
+     "p": "que",
+     "i": 13.918,
+     "f": 14.075
+    },
+    {
+     "p": "busca",
+     "i": 14.088,
+     "f": 14.478
+    },
+    {
+     "p": "ajustar",
+     "i": 14.491,
+     "f": 14.921
+    },
+    {
+     "p": "o",
+     "i": 14.934,
+     "f": 14.973
+    },
+    {
+     "p": "desmonte",
+     "i": 14.986,
+     "f": 15.546
+    },
+    {
+     "p": "para",
+     "i": 15.559,
+     "f": 15.728
+    },
+    {
+     "p": "reduzir",
+     "i": 15.741,
+     "f": 16.197
+    },
+    {
+     "p": "o",
+     "i": 16.21,
+     "f": 16.275
+    },
+    {
+     "p": "custo",
+     "i": 16.288,
+     "f": 16.653
+    },
+    {
+     "p": "dele",
+     "i": 16.666,
+     "f": 16.965
+    },
+    {
+     "p": "e",
+     "i": 16.978,
+     "f": 17.03
+    },
+    {
+     "p": "o",
+     "i": 17.043,
+     "f": 17.096
+    },
+    {
+     "p": "da",
+     "i": 17.109,
+     "f": 17.2
+    },
+    {
+     "p": "britagem",
+     "i": 17.213,
+     "f": 17.747
+    },
+    {
+     "p": "primária",
+     "i": 17.76,
+     "f": 18.28
+    },
+    {
+     "p": "Ou",
+     "i": 19.522,
+     "f": 19.717
+    },
+    {
+     "p": "seja",
+     "i": 19.73,
+     "f": 20.212
+    },
+    {
+     "p": "o",
+     "i": 20.551,
+     "f": 20.629
+    },
+    {
+     "p": "engenheiro",
+     "i": 20.642,
+     "f": 21.15
+    },
+    {
+     "p": "que",
+     "i": 21.163,
+     "f": 21.254
+    },
+    {
+     "p": "desenha",
+     "i": 21.267,
+     "f": 21.644
+    },
+    {
+     "p": "a",
+     "i": 21.657,
+     "f": 21.684
+    },
+    {
+     "p": "malha",
+     "i": 21.697,
+     "f": 21.983
+    },
+    {
+     "p": "de",
+     "i": 21.996,
+     "f": 22.1
+    },
+    {
+     "p": "furos",
+     "i": 22.113,
+     "f": 22.478
+    },
+    {
+     "p": "já",
+     "i": 22.491,
+     "f": 22.634
+    },
+    {
+     "p": "está",
+     "i": 22.647,
+     "f": 22.986
+    },
+    {
+     "p": "de",
+     "i": 23.181,
+     "f": 23.311
+    },
+    {
+     "p": "certa",
+     "i": 23.324,
+     "f": 23.715
+    },
+    {
+     "p": "forma",
+     "i": 23.728,
+     "f": 24.118
+    },
+    {
+     "p": "trabalhando",
+     "i": 24.392,
+     "f": 24.965
+    },
+    {
+     "p": "para",
+     "i": 24.978,
+     "f": 25.147
+    },
+    {
+     "p": "o",
+     "i": 25.16,
+     "f": 25.173
+    },
+    {
+     "p": "britador",
+     "i": 25.186,
+     "f": 25.746
+    },
+    {
+     "p": "Cada",
+     "i": 26.986,
+     "f": 27.273
+    },
+    {
+     "p": "decisão",
+     "i": 27.286,
+     "f": 27.819
+    },
+    {
+     "p": "ecoa",
+     "i": 27.832,
+     "f": 28.184
+    },
+    {
+     "p": "na",
+     "i": 28.197,
+     "f": 28.288
+    },
+    {
+     "p": "linha",
+     "i": 28.301,
+     "f": 28.536
+    },
+    {
+     "p": "inteira",
+     "i": 28.549,
+     "f": 29.03
+    }
+   ]
+  },
+  "carregamento": {
+   "hash": "f20a50c4e2",
+   "texto": "Depois do estrondo, vem o carregamento e o transporte. Escavadeiras enchem caminhões enormes com a rocha solta, e eles sobem e descem a rampa da pedreira o dia inteiro. É uma etapa lenta e silenciosa, bem diferente da explosão, mas é ela que mantém o britador alimentado. Sem caminhão, não existe brita. E quando a rocha enfim chega à boca do britador, começa a transformação.",
+   "audio": "audio/carregamento-f20a50c4e2.mp3",
+   "duracao": 29.388,
+   "palavras": [
+    {
+     "p": "Depois",
+     "i": 0.102,
+     "f": 0.545
+    },
+    {
+     "p": "do",
+     "i": 0.558,
+     "f": 0.636
+    },
+    {
+     "p": "estrondo",
+     "i": 0.649,
+     "f": 1.118
+    },
+    {
+     "p": "vem",
+     "i": 1.443,
+     "f": 1.678
+    },
+    {
+     "p": "o",
+     "i": 1.691,
+     "f": 1.743
+    },
+    {
+     "p": "carregamento",
+     "i": 1.756,
+     "f": 2.602
+    },
+    {
+     "p": "e",
+     "i": 2.615,
+     "f": 2.654
+    },
+    {
+     "p": "o",
+     "i": 2.667,
+     "f": 2.719
+    },
+    {
+     "p": "transporte",
+     "i": 2.732,
+     "f": 3.487
+    },
+    {
+     "p": "Escavadeiras",
+     "i": 4.734,
+     "f": 5.437
+    },
+    {
+     "p": "enchem",
+     "i": 5.45,
+     "f": 5.828
+    },
+    {
+     "p": "caminhões",
+     "i": 5.841,
+     "f": 6.31
+    },
+    {
+     "p": "enormes",
+     "i": 6.323,
+     "f": 6.883
+    },
+    {
+     "p": "com",
+     "i": 6.896,
+     "f": 7.052
+    },
+    {
+     "p": "a",
+     "i": 7.065,
+     "f": 7.104
+    },
+    {
+     "p": "rocha",
+     "i": 7.117,
+     "f": 7.442
+    },
+    {
+     "p": "solta",
+     "i": 7.455,
+     "f": 7.872
+    },
+    {
+     "p": "e",
+     "i": 8.198,
+     "f": 8.315
+    },
+    {
+     "p": "eles",
+     "i": 8.328,
+     "f": 8.536
+    },
+    {
+     "p": "sobem",
+     "i": 8.549,
+     "f": 8.966
+    },
+    {
+     "p": "e",
+     "i": 8.979,
+     "f": 9.018
+    },
+    {
+     "p": "descem",
+     "i": 9.031,
+     "f": 9.409
+    },
+    {
+     "p": "a",
+     "i": 9.422,
+     "f": 9.487
+    },
+    {
+     "p": "rampa",
+     "i": 9.5,
+     "f": 9.851
+    },
+    {
+     "p": "da",
+     "i": 9.864,
+     "f": 9.968
+    },
+    {
+     "p": "pedreira",
+     "i": 9.981,
+     "f": 10.411
+    },
+    {
+     "p": "o",
+     "i": 10.424,
+     "f": 10.463
+    },
+    {
+     "p": "dia",
+     "i": 10.476,
+     "f": 10.672
+    },
+    {
+     "p": "inteiro",
+     "i": 10.685,
+     "f": 11.179
+    },
+    {
+     "p": "É",
+     "i": 12.438,
+     "f": 12.568
+    },
+    {
+     "p": "uma",
+     "i": 12.581,
+     "f": 12.738
+    },
+    {
+     "p": "etapa",
+     "i": 12.751,
+     "f": 13.154
+    },
+    {
+     "p": "lenta",
+     "i": 13.167,
+     "f": 13.493
+    },
+    {
+     "p": "e",
+     "i": 13.506,
+     "f": 13.532
+    },
+    {
+     "p": "silenciosa",
+     "i": 13.545,
+     "f": 14.326
+    },
+    {
+     "p": "bem",
+     "i": 14.613,
+     "f": 14.808
+    },
+    {
+     "p": "diferente",
+     "i": 14.821,
+     "f": 15.329
+    },
+    {
+     "p": "da",
+     "i": 15.342,
+     "f": 15.407
+    },
+    {
+     "p": "explosão",
+     "i": 15.42,
+     "f": 15.98
+    },
+    {
+     "p": "mas",
+     "i": 16.331,
+     "f": 16.449
+    },
+    {
+     "p": "é",
+     "i": 16.462,
+     "f": 16.631
+    },
+    {
+     "p": "ela",
+     "i": 16.644,
+     "f": 16.904
+    },
+    {
+     "p": "que",
+     "i": 16.917,
+     "f": 17.021
+    },
+    {
+     "p": "mantém",
+     "i": 17.034,
+     "f": 17.386
+    },
+    {
+     "p": "o",
+     "i": 17.399,
+     "f": 17.438
+    },
+    {
+     "p": "britador",
+     "i": 17.451,
+     "f": 17.933
+    },
+    {
+     "p": "alimentado",
+     "i": 17.946,
+     "f": 18.649
+    },
+    {
+     "p": "Sem",
+     "i": 19.902,
+     "f": 20.228
+    },
+    {
+     "p": "caminhão",
+     "i": 20.241,
+     "f": 20.774
+    },
+    {
+     "p": "não",
+     "i": 21.074,
+     "f": 21.321
+    },
+    {
+     "p": "existe",
+     "i": 21.334,
+     "f": 21.79
+    },
+    {
+     "p": "brita",
+     "i": 21.803,
+     "f": 22.194
+    },
+    {
+     "p": "E",
+     "i": 23.454,
+     "f": 23.571
+    },
+    {
+     "p": "quando",
+     "i": 23.584,
+     "f": 23.845
+    },
+    {
+     "p": "a",
+     "i": 23.858,
+     "f": 23.91
+    },
+    {
+     "p": "rocha",
+     "i": 23.923,
+     "f": 24.287
+    },
+    {
+     "p": "enfim",
+     "i": 24.3,
+     "f": 24.626
+    },
+    {
+     "p": "chega",
+     "i": 24.639,
+     "f": 24.886
+    },
+    {
+     "p": "à",
+     "i": 24.899,
+     "f": 24.925
+    },
+    {
+     "p": "boca",
+     "i": 24.938,
+     "f": 25.29
+    },
+    {
+     "p": "do",
+     "i": 25.303,
+     "f": 25.381
+    },
+    {
+     "p": "britador",
+     "i": 25.394,
+     "f": 25.915
+    },
+    {
+     "p": "começa",
+     "i": 26.214,
+     "f": 26.709
+    },
+    {
+     "p": "a",
+     "i": 26.722,
+     "f": 26.748
+    },
+    {
+     "p": "transformação",
+     "i": 26.761,
+     "f": 27.634
+    }
+   ]
+  },
+  "britagem-primaria": {
+   "hash": "360fe62871",
+   "texto": "A rocha desmontada segue de caminhão para o britador primário. Ele esmaga os blocos grandes, reduzindo o tamanho em até oito vezes numa só etapa. O britador de mandíbulas funciona como um quebra-nozes gigante, apertando a pedra entre uma placa fixa e outra móvel. O que sai dali ainda é grosso demais para o concreto, então a pedra viaja numa esteira para a próxima etapa.",
+   "audio": "audio/britagem-primaria-360fe62871.mp3",
+   "duracao": 26.619,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "rocha",
+     "i": 0.245,
+     "f": 0.623
+    },
+    {
+     "p": "desmontada",
+     "i": 0.636,
+     "f": 1.326
+    },
+    {
+     "p": "segue",
+     "i": 1.339,
+     "f": 1.678
+    },
+    {
+     "p": "de",
+     "i": 1.691,
+     "f": 1.769
+    },
+    {
+     "p": "caminhão",
+     "i": 1.782,
+     "f": 2.238
+    },
+    {
+     "p": "para",
+     "i": 2.251,
+     "f": 2.42
+    },
+    {
+     "p": "o",
+     "i": 2.433,
+     "f": 2.446
+    },
+    {
+     "p": "britador",
+     "i": 2.459,
+     "f": 2.967
+    },
+    {
+     "p": "primário",
+     "i": 2.98,
+     "f": 3.514
+    },
+    {
+     "p": "Ele",
+     "i": 4.758,
+     "f": 4.927
+    },
+    {
+     "p": "esmaga",
+     "i": 4.94,
+     "f": 5.305
+    },
+    {
+     "p": "os",
+     "i": 5.318,
+     "f": 5.409
+    },
+    {
+     "p": "blocos",
+     "i": 5.422,
+     "f": 5.852
+    },
+    {
+     "p": "grandes",
+     "i": 5.865,
+     "f": 6.438
+    },
+    {
+     "p": "reduzindo",
+     "i": 6.672,
+     "f": 7.167
+    },
+    {
+     "p": "o",
+     "i": 7.18,
+     "f": 7.206
+    },
+    {
+     "p": "tamanho",
+     "i": 7.219,
+     "f": 7.623
+    },
+    {
+     "p": "em",
+     "i": 7.636,
+     "f": 7.714
+    },
+    {
+     "p": "até",
+     "i": 7.727,
+     "f": 7.961
+    },
+    {
+     "p": "oito",
+     "i": 7.974,
+     "f": 8.248
+    },
+    {
+     "p": "vezes",
+     "i": 8.261,
+     "f": 8.69
+    },
+    {
+     "p": "numa",
+     "i": 8.703,
+     "f": 8.951
+    },
+    {
+     "p": "só",
+     "i": 8.964,
+     "f": 9.159
+    },
+    {
+     "p": "etapa",
+     "i": 9.172,
+     "f": 9.654
+    },
+    {
+     "p": "O",
+     "i": 10.902,
+     "f": 11.019
+    },
+    {
+     "p": "britador",
+     "i": 11.032,
+     "f": 11.592
+    },
+    {
+     "p": "de",
+     "i": 11.605,
+     "f": 11.696
+    },
+    {
+     "p": "mandíbulas",
+     "i": 11.709,
+     "f": 12.347
+    },
+    {
+     "p": "funciona",
+     "i": 12.36,
+     "f": 12.933
+    },
+    {
+     "p": "como",
+     "i": 12.946,
+     "f": 13.142
+    },
+    {
+     "p": "um",
+     "i": 13.155,
+     "f": 13.207
+    },
+    {
+     "p": "quebra-nozes",
+     "i": 13.22,
+     "f": 13.871
+    },
+    {
+     "p": "gigante",
+     "i": 13.884,
+     "f": 14.431
+    },
+    {
+     "p": "apertando",
+     "i": 14.691,
+     "f": 15.199
+    },
+    {
+     "p": "a",
+     "i": 15.212,
+     "f": 15.29
+    },
+    {
+     "p": "pedra",
+     "i": 15.303,
+     "f": 15.642
+    },
+    {
+     "p": "entre",
+     "i": 15.655,
+     "f": 15.85
+    },
+    {
+     "p": "uma",
+     "i": 15.863,
+     "f": 16.045
+    },
+    {
+     "p": "placa",
+     "i": 16.058,
+     "f": 16.423
+    },
+    {
+     "p": "fixa",
+     "i": 16.436,
+     "f": 16.918
+    },
+    {
+     "p": "e",
+     "i": 16.931,
+     "f": 17.022
+    },
+    {
+     "p": "outra",
+     "i": 17.035,
+     "f": 17.308
+    },
+    {
+     "p": "móvel",
+     "i": 17.321,
+     "f": 17.725
+    },
+    {
+     "p": "O",
+     "i": 18.966,
+     "f": 19.083
+    },
+    {
+     "p": "que",
+     "i": 19.096,
+     "f": 19.24
+    },
+    {
+     "p": "sai",
+     "i": 19.253,
+     "f": 19.487
+    },
+    {
+     "p": "dali",
+     "i": 19.5,
+     "f": 19.786
+    },
+    {
+     "p": "ainda",
+     "i": 19.799,
+     "f": 20.086
+    },
+    {
+     "p": "é",
+     "i": 20.099,
+     "f": 20.138
+    },
+    {
+     "p": "grosso",
+     "i": 20.151,
+     "f": 20.516
+    },
+    {
+     "p": "demais",
+     "i": 20.529,
+     "f": 20.932
+    },
+    {
+     "p": "para",
+     "i": 20.945,
+     "f": 21.101
+    },
+    {
+     "p": "o",
+     "i": 21.115,
+     "f": 21.128
+    },
+    {
+     "p": "concreto",
+     "i": 21.141,
+     "f": 21.7
+    },
+    {
+     "p": "então",
+     "i": 22,
+     "f": 22.352
+    },
+    {
+     "p": "a",
+     "i": 22.365,
+     "f": 22.43
+    },
+    {
+     "p": "pedra",
+     "i": 22.443,
+     "f": 22.768
+    },
+    {
+     "p": "viaja",
+     "i": 22.781,
+     "f": 23.211
+    },
+    {
+     "p": "numa",
+     "i": 23.224,
+     "f": 23.367
+    },
+    {
+     "p": "esteira",
+     "i": 23.38,
+     "f": 23.797
+    },
+    {
+     "p": "para",
+     "i": 23.81,
+     "f": 23.953
+    },
+    {
+     "p": "a",
+     "i": 23.966,
+     "f": 23.992
+    },
+    {
+     "p": "próxima",
+     "i": 24.005,
+     "f": 24.383
+    },
+    {
+     "p": "etapa",
+     "i": 24.396,
+     "f": 24.878
+    }
+   ]
+  },
+  "britagem-secundaria": {
+   "hash": "9414825f2f",
+   "texto": "Depois vêm as etapas seguintes. Na secundária e na terciária, britadores cônicos e de impacto reduzem a pedra mais seis a oito vezes, e depois mais quatro a seis. Entre uma etapa e outra, entram as peneiras vibratórias, que separam o que já está pequeno o bastante e devolvem o resto para o circuito. É uma linha de montagem ao contrário: o produto fica cada vez menor.",
+   "audio": "audio/britagem-secundaria-9414825f2f.mp3",
+   "duracao": 27.193,
+   "palavras": [
+    {
+     "p": "Depois",
+     "i": 0.102,
+     "f": 0.584
+    },
+    {
+     "p": "vêm",
+     "i": 0.597,
+     "f": 0.844
+    },
+    {
+     "p": "as",
+     "i": 0.857,
+     "f": 0.909
+    },
+    {
+     "p": "etapas",
+     "i": 0.922,
+     "f": 1.443
+    },
+    {
+     "p": "seguintes",
+     "i": 1.456,
+     "f": 2.12
+    },
+    {
+     "p": "Na",
+     "i": 3.366,
+     "f": 3.535
+    },
+    {
+     "p": "secundária",
+     "i": 3.548,
+     "f": 4.212
+    },
+    {
+     "p": "e",
+     "i": 4.225,
+     "f": 4.265
+    },
+    {
+     "p": "na",
+     "i": 4.278,
+     "f": 4.408
+    },
+    {
+     "p": "terciária",
+     "i": 4.421,
+     "f": 5.072
+    },
+    {
+     "p": "britadores",
+     "i": 5.306,
+     "f": 5.957
+    },
+    {
+     "p": "cônicos",
+     "i": 5.97,
+     "f": 6.387
+    },
+    {
+     "p": "e",
+     "i": 6.4,
+     "f": 6.491
+    },
+    {
+     "p": "de",
+     "i": 6.504,
+     "f": 6.582
+    },
+    {
+     "p": "impacto",
+     "i": 6.595,
+     "f": 7.051
+    },
+    {
+     "p": "reduzem",
+     "i": 7.064,
+     "f": 7.598
+    },
+    {
+     "p": "a",
+     "i": 7.611,
+     "f": 7.702
+    },
+    {
+     "p": "pedra",
+     "i": 7.715,
+     "f": 8.028
+    },
+    {
+     "p": "mais",
+     "i": 8.041,
+     "f": 8.236
+    },
+    {
+     "p": "seis",
+     "i": 8.249,
+     "f": 8.457
+    },
+    {
+     "p": "a",
+     "i": 8.47,
+     "f": 8.626
+    },
+    {
+     "p": "oito",
+     "i": 8.64,
+     "f": 8.926
+    },
+    {
+     "p": "vezes",
+     "i": 8.939,
+     "f": 9.382
+    },
+    {
+     "p": "e",
+     "i": 9.694,
+     "f": 9.733
+    },
+    {
+     "p": "depois",
+     "i": 9.746,
+     "f": 10.124
+    },
+    {
+     "p": "mais",
+     "i": 10.137,
+     "f": 10.436
+    },
+    {
+     "p": "quatro",
+     "i": 10.449,
+     "f": 10.853
+    },
+    {
+     "p": "a",
+     "i": 10.866,
+     "f": 10.905
+    },
+    {
+     "p": "seis",
+     "i": 10.918,
+     "f": 11.387
+    },
+    {
+     "p": "Entre",
+     "i": 12.63,
+     "f": 12.943
+    },
+    {
+     "p": "uma",
+     "i": 12.956,
+     "f": 13.06
+    },
+    {
+     "p": "etapa",
+     "i": 13.073,
+     "f": 13.476
+    },
+    {
+     "p": "e",
+     "i": 13.489,
+     "f": 13.542
+    },
+    {
+     "p": "outra",
+     "i": 13.555,
+     "f": 13.919
+    },
+    {
+     "p": "entram",
+     "i": 14.141,
+     "f": 14.44
+    },
+    {
+     "p": "as",
+     "i": 14.453,
+     "f": 14.57
+    },
+    {
+     "p": "peneiras",
+     "i": 14.583,
+     "f": 15.026
+    },
+    {
+     "p": "vibratórias",
+     "i": 15.039,
+     "f": 15.82
+    },
+    {
+     "p": "que",
+     "i": 16.055,
+     "f": 16.198
+    },
+    {
+     "p": "separam",
+     "i": 16.211,
+     "f": 16.68
+    },
+    {
+     "p": "o",
+     "i": 16.693,
+     "f": 16.745
+    },
+    {
+     "p": "que",
+     "i": 16.758,
+     "f": 16.849
+    },
+    {
+     "p": "já",
+     "i": 16.862,
+     "f": 17.031
+    },
+    {
+     "p": "está",
+     "i": 17.044,
+     "f": 17.266
+    },
+    {
+     "p": "pequeno",
+     "i": 17.279,
+     "f": 17.682
+    },
+    {
+     "p": "o",
+     "i": 17.695,
+     "f": 17.721
+    },
+    {
+     "p": "bastante",
+     "i": 17.734,
+     "f": 18.281
+    },
+    {
+     "p": "e",
+     "i": 18.294,
+     "f": 18.307
+    },
+    {
+     "p": "devolvem",
+     "i": 18.32,
+     "f": 18.841
+    },
+    {
+     "p": "o",
+     "i": 18.854,
+     "f": 18.906
+    },
+    {
+     "p": "resto",
+     "i": 18.919,
+     "f": 19.31
+    },
+    {
+     "p": "para",
+     "i": 19.323,
+     "f": 19.479
+    },
+    {
+     "p": "o",
+     "i": 19.492,
+     "f": 19.518
+    },
+    {
+     "p": "circuito",
+     "i": 19.531,
+     "f": 20.117
+    },
+    {
+     "p": "É",
+     "i": 21.366,
+     "f": 21.496
+    },
+    {
+     "p": "uma",
+     "i": 21.509,
+     "f": 21.718
+    },
+    {
+     "p": "linha",
+     "i": 21.731,
+     "f": 21.991
+    },
+    {
+     "p": "de",
+     "i": 22.004,
+     "f": 22.082
+    },
+    {
+     "p": "montagem",
+     "i": 22.095,
+     "f": 22.655
+    },
+    {
+     "p": "ao",
+     "i": 22.668,
+     "f": 22.759
+    },
+    {
+     "p": "contrário",
+     "i": 22.772,
+     "f": 23.358
+    },
+    {
+     "p": "o",
+     "i": 23.736,
+     "f": 23.801
+    },
+    {
+     "p": "produto",
+     "i": 23.814,
+     "f": 24.283
+    },
+    {
+     "p": "fica",
+     "i": 24.296,
+     "f": 24.53
+    },
+    {
+     "p": "cada",
+     "i": 24.543,
+     "f": 24.804
+    },
+    {
+     "p": "vez",
+     "i": 24.817,
+     "f": 25.064
+    },
+    {
+     "p": "menor",
+     "i": 25.077,
+     "f": 25.455
+    }
+   ]
+  },
+  "produtos": {
+   "hash": "71f8965faa",
+   "texto": "No fim da linha, a pedra ganha nome: brita um, pedrisco, também chamado de brita zero, pó de pedra e areia de brita. Cada uma serve a um uso, do concreto ao asfalto. E sobra pó: os finos chegam a dez ou quinze por cento do que se produz, segundo um estudo sobre pedreiras paulistas. Mas existe um tipo de pedreira que trabalha ao contrário, e a regra dela é não quebrar nada.",
+   "audio": "audio/produtos-71f8965faa.mp3",
+   "duracao": 29.309,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "fim",
+     "i": 0.297,
+     "f": 0.493
+    },
+    {
+     "p": "da",
+     "i": 0.506,
+     "f": 0.61
+    },
+    {
+     "p": "linha",
+     "i": 0.623,
+     "f": 1.001
+    },
+    {
+     "p": "a",
+     "i": 1.183,
+     "f": 1.3
+    },
+    {
+     "p": "pedra",
+     "i": 1.313,
+     "f": 1.678
+    },
+    {
+     "p": "ganha",
+     "i": 1.691,
+     "f": 1.951
+    },
+    {
+     "p": "nome",
+     "i": 1.964,
+     "f": 2.381
+    },
+    {
+     "p": "brita",
+     "i": 2.706,
+     "f": 3.032
+    },
+    {
+     "p": "um",
+     "i": 3.045,
+     "f": 3.305
+    },
+    {
+     "p": "pedrisco",
+     "i": 3.592,
+     "f": 4.217
+    },
+    {
+     "p": "também",
+     "i": 4.464,
+     "f": 4.842
+    },
+    {
+     "p": "chamado",
+     "i": 4.855,
+     "f": 5.297
+    },
+    {
+     "p": "de",
+     "i": 5.31,
+     "f": 5.389
+    },
+    {
+     "p": "brita",
+     "i": 5.402,
+     "f": 5.753
+    },
+    {
+     "p": "zero",
+     "i": 5.766,
+     "f": 6.118
+    },
+    {
+     "p": "pó",
+     "i": 6.352,
+     "f": 6.495
+    },
+    {
+     "p": "de",
+     "i": 6.508,
+     "f": 6.652
+    },
+    {
+     "p": "pedra",
+     "i": 6.665,
+     "f": 7.107
+    },
+    {
+     "p": "e",
+     "i": 7.12,
+     "f": 7.185
+    },
+    {
+     "p": "areia",
+     "i": 7.198,
+     "f": 7.524
+    },
+    {
+     "p": "de",
+     "i": 7.537,
+     "f": 7.641
+    },
+    {
+     "p": "brita",
+     "i": 7.654,
+     "f": 8.045
+    },
+    {
+     "p": "Cada",
+     "i": 9.294,
+     "f": 9.581
+    },
+    {
+     "p": "uma",
+     "i": 9.594,
+     "f": 9.841
+    },
+    {
+     "p": "serve",
+     "i": 9.854,
+     "f": 10.284
+    },
+    {
+     "p": "a",
+     "i": 10.297,
+     "f": 10.336
+    },
+    {
+     "p": "um",
+     "i": 10.349,
+     "f": 10.609
+    },
+    {
+     "p": "uso",
+     "i": 10.622,
+     "f": 10.844
+    },
+    {
+     "p": "do",
+     "i": 11.091,
+     "f": 11.26
+    },
+    {
+     "p": "concreto",
+     "i": 11.273,
+     "f": 11.833
+    },
+    {
+     "p": "ao",
+     "i": 11.846,
+     "f": 11.963
+    },
+    {
+     "p": "asfalto",
+     "i": 11.976,
+     "f": 12.523
+    },
+    {
+     "p": "E",
+     "i": 13.782,
+     "f": 13.886
+    },
+    {
+     "p": "sobra",
+     "i": 13.899,
+     "f": 14.303
+    },
+    {
+     "p": "pó",
+     "i": 14.316,
+     "f": 14.589
+    },
+    {
+     "p": "os",
+     "i": 14.928,
+     "f": 15.071
+    },
+    {
+     "p": "finos",
+     "i": 15.084,
+     "f": 15.462
+    },
+    {
+     "p": "chegam",
+     "i": 15.475,
+     "f": 15.8
+    },
+    {
+     "p": "a",
+     "i": 15.813,
+     "f": 15.878
+    },
+    {
+     "p": "dez",
+     "i": 15.891,
+     "f": 16.126
+    },
+    {
+     "p": "ou",
+     "i": 16.139,
+     "f": 16.347
+    },
+    {
+     "p": "quinze",
+     "i": 16.36,
+     "f": 16.751
+    },
+    {
+     "p": "por",
+     "i": 16.764,
+     "f": 16.92
+    },
+    {
+     "p": "cento",
+     "i": 16.933,
+     "f": 17.285
+    },
+    {
+     "p": "do",
+     "i": 17.298,
+     "f": 17.389
+    },
+    {
+     "p": "que",
+     "i": 17.402,
+     "f": 17.506
+    },
+    {
+     "p": "se",
+     "i": 17.519,
+     "f": 17.636
+    },
+    {
+     "p": "produz",
+     "i": 17.649,
+     "f": 18.222
+    },
+    {
+     "p": "segundo",
+     "i": 18.496,
+     "f": 18.912
+    },
+    {
+     "p": "um",
+     "i": 18.925,
+     "f": 19.016
+    },
+    {
+     "p": "estudo",
+     "i": 19.029,
+     "f": 19.446
+    },
+    {
+     "p": "sobre",
+     "i": 19.459,
+     "f": 19.72
+    },
+    {
+     "p": "pedreiras",
+     "i": 19.733,
+     "f": 20.253
+    },
+    {
+     "p": "paulistas",
+     "i": 20.266,
+     "f": 21.009
+    },
+    {
+     "p": "Mas",
+     "i": 22.254,
+     "f": 22.436
+    },
+    {
+     "p": "existe",
+     "i": 22.449,
+     "f": 22.97
+    },
+    {
+     "p": "um",
+     "i": 22.983,
+     "f": 23.061
+    },
+    {
+     "p": "tipo",
+     "i": 23.074,
+     "f": 23.387
+    },
+    {
+     "p": "de",
+     "i": 23.4,
+     "f": 23.478
+    },
+    {
+     "p": "pedreira",
+     "i": 23.491,
+     "f": 23.973
+    },
+    {
+     "p": "que",
+     "i": 23.986,
+     "f": 24.09
+    },
+    {
+     "p": "trabalha",
+     "i": 24.103,
+     "f": 24.52
+    },
+    {
+     "p": "ao",
+     "i": 24.533,
+     "f": 24.611
+    },
+    {
+     "p": "contrário",
+     "i": 24.624,
+     "f": 25.223
+    },
+    {
+     "p": "e",
+     "i": 25.613,
+     "f": 25.705
+    },
+    {
+     "p": "a",
+     "i": 25.718,
+     "f": 25.822
+    },
+    {
+     "p": "regra",
+     "i": 25.835,
+     "f": 26.199
+    },
+    {
+     "p": "dela",
+     "i": 26.212,
+     "f": 26.473
+    },
+    {
+     "p": "é",
+     "i": 26.486,
+     "f": 26.525
+    },
+    {
+     "p": "não",
+     "i": 26.538,
+     "f": 26.72
+    },
+    {
+     "p": "quebrar",
+     "i": 26.733,
+     "f": 27.137
+    },
+    {
+     "p": "nada",
+     "i": 27.15,
+     "f": 27.554
+    }
+   ]
+  },
+  "carrara": {
+   "hash": "6e3a6cc3de",
+   "texto": "Em Carrara, na Itália, o objetivo é o oposto. Ali se tiram blocos inteiros de mármore, sem uma rachadura. Os romanos já exploravam essas montanhas, e a cidade nasceu como um povoado para abrigar os trabalhadores das pedreiras. Um explosivo comum quebraria o bloco em pedaços. Então, como cortar uma montanha sem estilhaçá-la? A resposta, curiosamente, é um fio.",
+   "audio": "audio/carrara-6e3a6cc3de.mp3",
+   "duracao": 31.504,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "Carrara",
+     "i": 0.245,
+     "f": 0.792
+    },
+    {
+     "p": "na",
+     "i": 1.066,
+     "f": 1.196
+    },
+    {
+     "p": "Itália",
+     "i": 1.209,
+     "f": 1.652
+    },
+    {
+     "p": "o",
+     "i": 1.925,
+     "f": 1.964
+    },
+    {
+     "p": "objetivo",
+     "i": 1.977,
+     "f": 2.732
+    },
+    {
+     "p": "é",
+     "i": 2.745,
+     "f": 2.823
+    },
+    {
+     "p": "o",
+     "i": 2.836,
+     "f": 2.915
+    },
+    {
+     "p": "oposto",
+     "i": 2.928,
+     "f": 3.514
+    },
+    {
+     "p": "Ali",
+     "i": 4.758,
+     "f": 5.11
+    },
+    {
+     "p": "se",
+     "i": 5.123,
+     "f": 5.266
+    },
+    {
+     "p": "tiram",
+     "i": 5.279,
+     "f": 5.526
+    },
+    {
+     "p": "blocos",
+     "i": 5.539,
+     "f": 5.956
+    },
+    {
+     "p": "inteiros",
+     "i": 5.969,
+     "f": 6.542
+    },
+    {
+     "p": "de",
+     "i": 6.555,
+     "f": 6.633
+    },
+    {
+     "p": "mármore",
+     "i": 6.646,
+     "f": 7.154
+    },
+    {
+     "p": "sem",
+     "i": 7.44,
+     "f": 7.688
+    },
+    {
+     "p": "uma",
+     "i": 7.701,
+     "f": 7.857
+    },
+    {
+     "p": "rachadura",
+     "i": 7.87,
+     "f": 8.573
+    },
+    {
+     "p": "Os",
+     "i": 9.822,
+     "f": 9.978
+    },
+    {
+     "p": "romanos",
+     "i": 9.991,
+     "f": 10.525
+    },
+    {
+     "p": "já",
+     "i": 10.538,
+     "f": 10.642
+    },
+    {
+     "p": "exploravam",
+     "i": 10.655,
+     "f": 11.267
+    },
+    {
+     "p": "essas",
+     "i": 11.28,
+     "f": 11.528
+    },
+    {
+     "p": "montanhas",
+     "i": 11.541,
+     "f": 12.218
+    },
+    {
+     "p": "e",
+     "i": 12.582,
+     "f": 12.635
+    },
+    {
+     "p": "a",
+     "i": 12.648,
+     "f": 12.713
+    },
+    {
+     "p": "cidade",
+     "i": 12.726,
+     "f": 13.194
+    },
+    {
+     "p": "nasceu",
+     "i": 13.207,
+     "f": 13.598
+    },
+    {
+     "p": "como",
+     "i": 13.611,
+     "f": 13.819
+    },
+    {
+     "p": "um",
+     "i": 13.832,
+     "f": 13.911
+    },
+    {
+     "p": "povoado",
+     "i": 13.924,
+     "f": 14.497
+    },
+    {
+     "p": "para",
+     "i": 14.51,
+     "f": 14.666
+    },
+    {
+     "p": "abrigar",
+     "i": 14.679,
+     "f": 15.083
+    },
+    {
+     "p": "os",
+     "i": 15.096,
+     "f": 15.2
+    },
+    {
+     "p": "trabalhadores",
+     "i": 15.213,
+     "f": 15.942
+    },
+    {
+     "p": "das",
+     "i": 15.955,
+     "f": 16.124
+    },
+    {
+     "p": "pedreiras",
+     "i": 16.137,
+     "f": 16.814
+    },
+    {
+     "p": "Um",
+     "i": 18.078,
+     "f": 18.221
+    },
+    {
+     "p": "explosivo",
+     "i": 18.234,
+     "f": 18.885
+    },
+    {
+     "p": "comum",
+     "i": 18.898,
+     "f": 19.263
+    },
+    {
+     "p": "quebraria",
+     "i": 19.276,
+     "f": 19.693
+    },
+    {
+     "p": "o",
+     "i": 19.706,
+     "f": 19.745
+    },
+    {
+     "p": "bloco",
+     "i": 19.758,
+     "f": 20.148
+    },
+    {
+     "p": "em",
+     "i": 20.161,
+     "f": 20.253
+    },
+    {
+     "p": "pedaços",
+     "i": 20.266,
+     "f": 20.995
+    },
+    {
+     "p": "Então",
+     "i": 22.254,
+     "f": 22.775
+    },
+    {
+     "p": "como",
+     "i": 23.061,
+     "f": 23.361
+    },
+    {
+     "p": "cortar",
+     "i": 23.374,
+     "f": 23.869
+    },
+    {
+     "p": "uma",
+     "i": 23.882,
+     "f": 24.012
+    },
+    {
+     "p": "montanha",
+     "i": 24.025,
+     "f": 24.598
+    },
+    {
+     "p": "sem",
+     "i": 24.611,
+     "f": 24.91
+    },
+    {
+     "p": "estilhaçá-la",
+     "i": 24.923,
+     "f": 25.718
+    },
+    {
+     "p": "A",
+     "i": 27.058,
+     "f": 27.162
+    },
+    {
+     "p": "resposta",
+     "i": 27.175,
+     "f": 27.878
+    },
+    {
+     "p": "curiosamente",
+     "i": 28.1,
+     "f": 28.985
+    },
+    {
+     "p": "é",
+     "i": 29.089,
+     "f": 29.167
+    },
+    {
+     "p": "um",
+     "i": 29.18,
+     "f": 29.298
+    },
+    {
+     "p": "fio",
+     "i": 29.311,
+     "f": 29.74
+    }
+   ]
+  },
+  "fio-diamantado": {
+   "hash": "badf002e6b",
+   "texto": "Um cabo de aço com contas cobertas de diamante, refrigerado com água, corta a rocha num corte estreito, sem rachar a pedra. Para começar, fazem-se dois furos que se cruzam, um vertical e um horizontal, e o fio passa por eles. Antigamente, os trabalhadores usavam cunhas de madeira molhada, que incham e abrem a rocha ao longo das fissuras. Séculos depois, a tecnologia mudou, mas a paciência continua a mesma.",
+   "audio": "audio/fio-diamantado-badf002e6b.mp3",
+   "duracao": 31.948,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.102,
+     "f": 0.336
+    },
+    {
+     "p": "cabo",
+     "i": 0.349,
+     "f": 0.675
+    },
+    {
+     "p": "de",
+     "i": 0.688,
+     "f": 0.805
+    },
+    {
+     "p": "aço",
+     "i": 0.818,
+     "f": 1.131
+    },
+    {
+     "p": "com",
+     "i": 1.144,
+     "f": 1.313
+    },
+    {
+     "p": "contas",
+     "i": 1.326,
+     "f": 1.691
+    },
+    {
+     "p": "cobertas",
+     "i": 1.704,
+     "f": 2.238
+    },
+    {
+     "p": "de",
+     "i": 2.251,
+     "f": 2.355
+    },
+    {
+     "p": "diamante",
+     "i": 2.368,
+     "f": 2.98
+    },
+    {
+     "p": "refrigerado",
+     "i": 3.24,
+     "f": 3.956
+    },
+    {
+     "p": "com",
+     "i": 3.969,
+     "f": 4.178
+    },
+    {
+     "p": "água",
+     "i": 4.191,
+     "f": 4.503
+    },
+    {
+     "p": "corta",
+     "i": 4.777,
+     "f": 5.141
+    },
+    {
+     "p": "a",
+     "i": 5.154,
+     "f": 5.18
+    },
+    {
+     "p": "rocha",
+     "i": 5.193,
+     "f": 5.545
+    },
+    {
+     "p": "num",
+     "i": 5.558,
+     "f": 5.727
+    },
+    {
+     "p": "corte",
+     "i": 5.74,
+     "f": 6.092
+    },
+    {
+     "p": "estreito",
+     "i": 6.105,
+     "f": 6.573
+    },
+    {
+     "p": "sem",
+     "i": 6.886,
+     "f": 7.107
+    },
+    {
+     "p": "rachar",
+     "i": 7.12,
+     "f": 7.485
+    },
+    {
+     "p": "a",
+     "i": 7.498,
+     "f": 7.576
+    },
+    {
+     "p": "pedra",
+     "i": 7.589,
+     "f": 8.019
+    },
+    {
+     "p": "Para",
+     "i": 9.27,
+     "f": 9.504
+    },
+    {
+     "p": "começar",
+     "i": 9.517,
+     "f": 10.103
+    },
+    {
+     "p": "fazem-se",
+     "i": 10.377,
+     "f": 10.872
+    },
+    {
+     "p": "dois",
+     "i": 10.885,
+     "f": 11.223
+    },
+    {
+     "p": "furos",
+     "i": 11.236,
+     "f": 11.601
+    },
+    {
+     "p": "que",
+     "i": 11.614,
+     "f": 11.718
+    },
+    {
+     "p": "se",
+     "i": 11.731,
+     "f": 11.861
+    },
+    {
+     "p": "cruzam",
+     "i": 11.874,
+     "f": 12.317
+    },
+    {
+     "p": "um",
+     "i": 12.616,
+     "f": 12.747
+    },
+    {
+     "p": "vertical",
+     "i": 12.76,
+     "f": 13.385
+    },
+    {
+     "p": "e",
+     "i": 13.398,
+     "f": 13.437
+    },
+    {
+     "p": "um",
+     "i": 13.45,
+     "f": 13.567
+    },
+    {
+     "p": "horizontal",
+     "i": 13.58,
+     "f": 14.257
+    },
+    {
+     "p": "e",
+     "i": 14.622,
+     "f": 14.739
+    },
+    {
+     "p": "o",
+     "i": 14.752,
+     "f": 14.791
+    },
+    {
+     "p": "fio",
+     "i": 14.804,
+     "f": 15.077
+    },
+    {
+     "p": "passa",
+     "i": 15.09,
+     "f": 15.442
+    },
+    {
+     "p": "por",
+     "i": 15.455,
+     "f": 15.611
+    },
+    {
+     "p": "eles",
+     "i": 15.624,
+     "f": 16.067
+    },
+    {
+     "p": "Antigamente",
+     "i": 17.31,
+     "f": 18.13
+    },
+    {
+     "p": "os",
+     "i": 18.417,
+     "f": 18.534
+    },
+    {
+     "p": "trabalhadores",
+     "i": 18.547,
+     "f": 19.211
+    },
+    {
+     "p": "usavam",
+     "i": 19.224,
+     "f": 19.732
+    },
+    {
+     "p": "cunhas",
+     "i": 19.745,
+     "f": 20.162
+    },
+    {
+     "p": "de",
+     "i": 20.175,
+     "f": 20.253
+    },
+    {
+     "p": "madeira",
+     "i": 20.266,
+     "f": 20.63
+    },
+    {
+     "p": "molhada",
+     "i": 20.643,
+     "f": 21.164
+    },
+    {
+     "p": "que",
+     "i": 21.373,
+     "f": 21.516
+    },
+    {
+     "p": "incham",
+     "i": 21.529,
+     "f": 21.972
+    },
+    {
+     "p": "e",
+     "i": 21.985,
+     "f": 22.063
+    },
+    {
+     "p": "abrem",
+     "i": 22.076,
+     "f": 22.427
+    },
+    {
+     "p": "a",
+     "i": 22.44,
+     "f": 22.505
+    },
+    {
+     "p": "rocha",
+     "i": 22.518,
+     "f": 22.857
+    },
+    {
+     "p": "ao",
+     "i": 22.87,
+     "f": 22.961
+    },
+    {
+     "p": "longo",
+     "i": 22.974,
+     "f": 23.313
+    },
+    {
+     "p": "das",
+     "i": 23.326,
+     "f": 23.495
+    },
+    {
+     "p": "fissuras",
+     "i": 23.508,
+     "f": 24.172
+    },
+    {
+     "p": "Séculos",
+     "i": 25.422,
+     "f": 25.982
+    },
+    {
+     "p": "depois",
+     "i": 25.995,
+     "f": 26.49
+    },
+    {
+     "p": "a",
+     "i": 26.724,
+     "f": 26.802
+    },
+    {
+     "p": "tecnologia",
+     "i": 26.815,
+     "f": 27.492
+    },
+    {
+     "p": "mudou",
+     "i": 27.505,
+     "f": 27.883
+    },
+    {
+     "p": "mas",
+     "i": 28.182,
+     "f": 28.287
+    },
+    {
+     "p": "a",
+     "i": 28.3,
+     "f": 28.443
+    },
+    {
+     "p": "paciência",
+     "i": 28.456,
+     "f": 29.12
+    },
+    {
+     "p": "continua",
+     "i": 29.133,
+     "f": 29.706
+    },
+    {
+     "p": "a",
+     "i": 29.719,
+     "f": 29.745
+    },
+    {
+     "p": "mesma",
+     "i": 29.758,
+     "f": 30.188
+    }
+   ]
+  },
+  "david": {
+   "hash": "31775db727",
+   "texto": "Foi desse tipo de montanha que saiu o David de Michelangelo. O bloco veio de Carrara, e análises citadas na Wikipédia apontam o vale de Miseglia, na região de Fantiscritti. Hoje a estátua está em Florença. Uma pedra extraída com paciência para virar arte. É a mesma lógica de uma pedreira de brita, só que cada decisão tenta preservar a rocha, em vez de quebrá-la.",
+   "audio": "audio/david-31775db727.mp3",
+   "duracao": 28.212,
+   "palavras": [
+    {
+     "p": "Foi",
+     "i": 0.102,
+     "f": 0.362
+    },
+    {
+     "p": "desse",
+     "i": 0.376,
+     "f": 0.662
+    },
+    {
+     "p": "tipo",
+     "i": 0.675,
+     "f": 0.961
+    },
+    {
+     "p": "de",
+     "i": 0.975,
+     "f": 1.04
+    },
+    {
+     "p": "montanha",
+     "i": 1.053,
+     "f": 1.587
+    },
+    {
+     "p": "que",
+     "i": 1.599,
+     "f": 1.743
+    },
+    {
+     "p": "saiu",
+     "i": 1.756,
+     "f": 2.094
+    },
+    {
+     "p": "o",
+     "i": 2.107,
+     "f": 2.185
+    },
+    {
+     "p": "David",
+     "i": 2.198,
+     "f": 2.654
+    },
+    {
+     "p": "de",
+     "i": 2.667,
+     "f": 2.771
+    },
+    {
+     "p": "Michelangelo",
+     "i": 2.784,
+     "f": 3.579
+    },
+    {
+     "p": "O",
+     "i": 4.83,
+     "f": 4.947
+    },
+    {
+     "p": "bloco",
+     "i": 4.96,
+     "f": 5.416
+    },
+    {
+     "p": "veio",
+     "i": 5.429,
+     "f": 5.676
+    },
+    {
+     "p": "de",
+     "i": 5.689,
+     "f": 5.768
+    },
+    {
+     "p": "Carrara",
+     "i": 5.781,
+     "f": 6.262
+    },
+    {
+     "p": "e",
+     "i": 6.549,
+     "f": 6.64
+    },
+    {
+     "p": "análises",
+     "i": 6.653,
+     "f": 7.174
+    },
+    {
+     "p": "citadas",
+     "i": 7.187,
+     "f": 7.669
+    },
+    {
+     "p": "na",
+     "i": 7.682,
+     "f": 7.76
+    },
+    {
+     "p": "Wikipédia",
+     "i": 7.773,
+     "f": 8.372
+    },
+    {
+     "p": "apontam",
+     "i": 8.385,
+     "f": 8.814
+    },
+    {
+     "p": "o",
+     "i": 8.827,
+     "f": 8.867
+    },
+    {
+     "p": "vale",
+     "i": 8.88,
+     "f": 9.166
+    },
+    {
+     "p": "de",
+     "i": 9.179,
+     "f": 9.283
+    },
+    {
+     "p": "Miseglia",
+     "i": 9.296,
+     "f": 9.882
+    },
+    {
+     "p": "na",
+     "i": 10.234,
+     "f": 10.351
+    },
+    {
+     "p": "região",
+     "i": 10.364,
+     "f": 10.833
+    },
+    {
+     "p": "de",
+     "i": 10.846,
+     "f": 10.95
+    },
+    {
+     "p": "Fantiscritti",
+     "i": 10.963,
+     "f": 11.718
+    },
+    {
+     "p": "Hoje",
+     "i": 12.966,
+     "f": 13.24
+    },
+    {
+     "p": "a",
+     "i": 13.253,
+     "f": 13.266
+    },
+    {
+     "p": "estátua",
+     "i": 13.279,
+     "f": 13.773
+    },
+    {
+     "p": "está",
+     "i": 13.786,
+     "f": 14.021
+    },
+    {
+     "p": "em",
+     "i": 14.034,
+     "f": 14.112
+    },
+    {
+     "p": "Florença",
+     "i": 14.125,
+     "f": 14.776
+    },
+    {
+     "p": "Uma",
+     "i": 16.038,
+     "f": 16.325
+    },
+    {
+     "p": "pedra",
+     "i": 16.338,
+     "f": 16.689
+    },
+    {
+     "p": "extraída",
+     "i": 16.702,
+     "f": 17.236
+    },
+    {
+     "p": "com",
+     "i": 17.249,
+     "f": 17.431
+    },
+    {
+     "p": "paciência",
+     "i": 17.444,
+     "f": 18.108
+    },
+    {
+     "p": "para",
+     "i": 18.121,
+     "f": 18.304
+    },
+    {
+     "p": "virar",
+     "i": 18.317,
+     "f": 18.577
+    },
+    {
+     "p": "arte",
+     "i": 18.59,
+     "f": 18.981
+    },
+    {
+     "p": "É",
+     "i": 20.238,
+     "f": 20.381
+    },
+    {
+     "p": "a",
+     "i": 20.394,
+     "f": 20.446
+    },
+    {
+     "p": "mesma",
+     "i": 20.459,
+     "f": 20.824
+    },
+    {
+     "p": "lógica",
+     "i": 20.837,
+     "f": 21.319
+    },
+    {
+     "p": "de",
+     "i": 21.332,
+     "f": 21.41
+    },
+    {
+     "p": "uma",
+     "i": 21.423,
+     "f": 21.553
+    },
+    {
+     "p": "pedreira",
+     "i": 21.566,
+     "f": 21.996
+    },
+    {
+     "p": "de",
+     "i": 22.009,
+     "f": 22.113
+    },
+    {
+     "p": "brita",
+     "i": 22.126,
+     "f": 22.478
+    },
+    {
+     "p": "só",
+     "i": 22.777,
+     "f": 22.946
+    },
+    {
+     "p": "que",
+     "i": 22.959,
+     "f": 23.09
+    },
+    {
+     "p": "cada",
+     "i": 23.103,
+     "f": 23.376
+    },
+    {
+     "p": "decisão",
+     "i": 23.389,
+     "f": 23.858
+    },
+    {
+     "p": "tenta",
+     "i": 23.871,
+     "f": 24.118
+    },
+    {
+     "p": "preservar",
+     "i": 24.131,
+     "f": 24.626
+    },
+    {
+     "p": "a",
+     "i": 24.639,
+     "f": 24.691
+    },
+    {
+     "p": "rocha",
+     "i": 24.704,
+     "f": 25.121
+    },
+    {
+     "p": "em",
+     "i": 25.381,
+     "f": 25.551
+    },
+    {
+     "p": "vez",
+     "i": 25.564,
+     "f": 25.824
+    },
+    {
+     "p": "de",
+     "i": 25.837,
+     "f": 25.915
+    },
+    {
+     "p": "quebrá-la",
+     "i": 25.928,
+     "f": 26.462
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "7ce4e7baa2",
+   "texto": "Então, voltando ao começo: o prédio, a estrada, a calçada. Tudo passou por um plano de fogo, por um furo, por uma sequência de britadores e peneiras. Uma pedreira é uma fábrica de pedra, onde cada decisão, do tamanho do furo até a abertura da peneira, decide o que a rocha vai ser. Da próxima vez que você pisar numa calçada, lembre-se: você está andando sobre uma montanha.",
+   "audio": "audio/desfecho-7ce4e7baa2.mp3",
+   "duracao": 29.205,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.623
+    },
+    {
+     "p": "voltando",
+     "i": 0.988,
+     "f": 1.469
+    },
+    {
+     "p": "ao",
+     "i": 1.482,
+     "f": 1.573
+    },
+    {
+     "p": "começo",
+     "i": 1.586,
+     "f": 2.159
+    },
+    {
+     "p": "o",
+     "i": 2.42,
+     "f": 2.55
+    },
+    {
+     "p": "prédio",
+     "i": 2.563,
+     "f": 3.071
+    },
+    {
+     "p": "a",
+     "i": 3.24,
+     "f": 3.305
+    },
+    {
+     "p": "estrada",
+     "i": 3.318,
+     "f": 3.878
+    },
+    {
+     "p": "a",
+     "i": 4.073,
+     "f": 4.152
+    },
+    {
+     "p": "calçada",
+     "i": 4.165,
+     "f": 4.842
+    },
+    {
+     "p": "Tudo",
+     "i": 6.102,
+     "f": 6.362
+    },
+    {
+     "p": "passou",
+     "i": 6.376,
+     "f": 6.714
+    },
+    {
+     "p": "por",
+     "i": 6.727,
+     "f": 6.87
+    },
+    {
+     "p": "um",
+     "i": 6.883,
+     "f": 7.001
+    },
+    {
+     "p": "plano",
+     "i": 7.014,
+     "f": 7.326
+    },
+    {
+     "p": "de",
+     "i": 7.339,
+     "f": 7.443
+    },
+    {
+     "p": "fogo",
+     "i": 7.456,
+     "f": 7.86
+    },
+    {
+     "p": "por",
+     "i": 8.146,
+     "f": 8.277
+    },
+    {
+     "p": "um",
+     "i": 8.29,
+     "f": 8.394
+    },
+    {
+     "p": "furo",
+     "i": 8.407,
+     "f": 8.797
+    },
+    {
+     "p": "por",
+     "i": 9.058,
+     "f": 9.214
+    },
+    {
+     "p": "uma",
+     "i": 9.227,
+     "f": 9.37
+    },
+    {
+     "p": "sequência",
+     "i": 9.383,
+     "f": 9.917
+    },
+    {
+     "p": "de",
+     "i": 9.93,
+     "f": 10.008
+    },
+    {
+     "p": "britadores",
+     "i": 10.021,
+     "f": 10.62
+    },
+    {
+     "p": "e",
+     "i": 10.633,
+     "f": 10.751
+    },
+    {
+     "p": "peneiras",
+     "i": 10.764,
+     "f": 11.415
+    },
+    {
+     "p": "Uma",
+     "i": 12.654,
+     "f": 12.888
+    },
+    {
+     "p": "pedreira",
+     "i": 12.901,
+     "f": 13.37
+    },
+    {
+     "p": "é",
+     "i": 13.383,
+     "f": 13.422
+    },
+    {
+     "p": "uma",
+     "i": 13.435,
+     "f": 13.605
+    },
+    {
+     "p": "fábrica",
+     "i": 13.618,
+     "f": 14.086
+    },
+    {
+     "p": "de",
+     "i": 14.099,
+     "f": 14.217
+    },
+    {
+     "p": "pedra",
+     "i": 14.23,
+     "f": 14.659
+    },
+    {
+     "p": "onde",
+     "i": 14.985,
+     "f": 15.232
+    },
+    {
+     "p": "cada",
+     "i": 15.245,
+     "f": 15.506
+    },
+    {
+     "p": "decisão",
+     "i": 15.519,
+     "f": 16.053
+    },
+    {
+     "p": "do",
+     "i": 16.352,
+     "f": 16.495
+    },
+    {
+     "p": "tamanho",
+     "i": 16.508,
+     "f": 16.951
+    },
+    {
+     "p": "do",
+     "i": 16.964,
+     "f": 17.068
+    },
+    {
+     "p": "furo",
+     "i": 17.081,
+     "f": 17.342
+    },
+    {
+     "p": "até",
+     "i": 17.355,
+     "f": 17.576
+    },
+    {
+     "p": "a",
+     "i": 17.589,
+     "f": 17.615
+    },
+    {
+     "p": "abertura",
+     "i": 17.628,
+     "f": 18.071
+    },
+    {
+     "p": "da",
+     "i": 18.084,
+     "f": 18.188
+    },
+    {
+     "p": "peneira",
+     "i": 18.201,
+     "f": 18.618
+    },
+    {
+     "p": "decide",
+     "i": 18.93,
+     "f": 19.451
+    },
+    {
+     "p": "o",
+     "i": 19.464,
+     "f": 19.503
+    },
+    {
+     "p": "que",
+     "i": 19.516,
+     "f": 19.62
+    },
+    {
+     "p": "a",
+     "i": 19.633,
+     "f": 19.685
+    },
+    {
+     "p": "rocha",
+     "i": 19.698,
+     "f": 20.089
+    },
+    {
+     "p": "vai",
+     "i": 20.102,
+     "f": 20.258
+    },
+    {
+     "p": "ser",
+     "i": 20.271,
+     "f": 20.545
+    },
+    {
+     "p": "Da",
+     "i": 21.798,
+     "f": 21.993
+    },
+    {
+     "p": "próxima",
+     "i": 22.006,
+     "f": 22.488
+    },
+    {
+     "p": "vez",
+     "i": 22.501,
+     "f": 22.801
+    },
+    {
+     "p": "que",
+     "i": 22.814,
+     "f": 22.905
+    },
+    {
+     "p": "você",
+     "i": 22.918,
+     "f": 23.178
+    },
+    {
+     "p": "pisar",
+     "i": 23.191,
+     "f": 23.53
+    },
+    {
+     "p": "numa",
+     "i": 23.543,
+     "f": 23.764
+    },
+    {
+     "p": "calçada",
+     "i": 23.777,
+     "f": 24.376
+    },
+    {
+     "p": "lembre-se",
+     "i": 24.585,
+     "f": 25.066
+    },
+    {
+     "p": "você",
+     "i": 25.444,
+     "f": 25.704
+    },
+    {
+     "p": "está",
+     "i": 25.717,
+     "f": 25.965
+    },
+    {
+     "p": "andando",
+     "i": 25.978,
+     "f": 26.42
+    },
+    {
+     "p": "sobre",
+     "i": 26.433,
+     "f": 26.72
+    },
+    {
+     "p": "uma",
+     "i": 26.733,
+     "f": 26.85
+    },
+    {
+     "p": "montanha",
+     "i": 26.863,
+     "f": 27.462
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "afea6177dd",
+   "texto": "Se você gostou de ver o mundo por dentro, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos entender outra obra gigante. Até lá.",
+   "audio": "audio/fecho-afea6177dd.mp3",
+   "duracao": 12.46,
+   "palavras": [
+    {
+     "p": "Se",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "você",
+     "i": 0.336,
+     "f": 0.623
+    },
+    {
+     "p": "gostou",
+     "i": 0.636,
+     "f": 1.014
+    },
+    {
+     "p": "de",
+     "i": 1.027,
+     "f": 1.118
+    },
+    {
+     "p": "ver",
+     "i": 1.131,
+     "f": 1.313
+    },
+    {
+     "p": "o",
+     "i": 1.326,
+     "f": 1.365
+    },
+    {
+     "p": "mundo",
+     "i": 1.378,
+     "f": 1.678
+    },
+    {
+     "p": "por",
+     "i": 1.691,
+     "f": 1.86
+    },
+    {
+     "p": "dentro",
+     "i": 1.873,
+     "f": 2.29
+    },
+    {
+     "p": "inscreva-se",
+     "i": 2.537,
+     "f": 3.214
+    },
+    {
+     "p": "no",
+     "i": 3.227,
+     "f": 3.318
+    },
+    {
+     "p": "canal",
+     "i": 3.331,
+     "f": 3.748
+    },
+    {
+     "p": "Inova",
+     "i": 3.761,
+     "f": 4.152
+    },
+    {
+     "p": "Mundo",
+     "i": 4.165,
+     "f": 4.568
+    },
+    {
+     "p": "No",
+     "i": 5.814,
+     "f": 6.009
+    },
+    {
+     "p": "próximo",
+     "i": 6.022,
+     "f": 6.53
+    },
+    {
+     "p": "vídeo",
+     "i": 6.543,
+     "f": 6.895
+    },
+    {
+     "p": "vamos",
+     "i": 7.207,
+     "f": 7.442
+    },
+    {
+     "p": "entender",
+     "i": 7.455,
+     "f": 8.015
+    },
+    {
+     "p": "outra",
+     "i": 8.028,
+     "f": 8.327
+    },
+    {
+     "p": "obra",
+     "i": 8.34,
+     "f": 8.588
+    },
+    {
+     "p": "gigante",
+     "i": 8.601,
+     "f": 9.16
+    },
+    {
+     "p": "Até",
+     "i": 10.061,
+     "f": 10.386
+    },
+    {
+     "p": "lá",
+     "i": 10.4,
+     "f": 10.699
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "pedreira-aerea": {
+   "arquivo": "imagens/pedreira-aerea-0ea671c9.jpg",
+   "rotulo": "Pedreira de granito",
+   "wiki": "Pedreira",
+   "commons": "open pit granite quarry aerial view",
+   "autor": "Shagil Muzhappilangad",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:THE_PROCESSING_OF_GRANITE_IN_PRAKASHAM_DISTRICT_OF_ANDRAPRADESH.jpeg",
+   "titulo": "File:THE PROCESSING OF GRANITE IN PRAKASHAM DISTRICT OF ANDRAPRADESH.jpeg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 2,
+   "foco": {
+    "x": 25.0,
+    "y": 74.5
+   },
+   "borrada": "imagens/pedreira-aerea-0ea671c9-b.jpg"
+  },
+  "rodovia": {
+   "arquivo": "imagens/rodovia-8c495c64.jpg",
+   "rotulo": "Rodovia dos Bandeirantes",
+   "wiki": "Rodovia dos Bandeirantes",
+   "commons": "Rodovia dos Bandeirantes São Paulo",
+   "autor": "Paulo Humberto",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rodovia_dos_Bandeirantes_-_Sao_Paulo_SP_-_panoramio.jpg",
+   "titulo": "File:Rodovia dos Bandeirantes - Sao Paulo SP - panoramio.jpg",
+   "largura": 1632,
+   "altura": 1224,
+   "rostos": 0,
+   "foco": {
+    "x": 74.2,
+    "y": 56.3
+   },
+   "borrada": "imagens/rodovia-8c495c64-b.jpg"
+  },
+  "predio-copan": {
+   "arquivo": "imagens/predio-copan-c836d838.jpg",
+   "rotulo": "Edifício Copan",
+   "wiki": "Edifício Copan",
+   "commons": "Edifício Copan São Paulo",
+   "autor": "Webysther Nunes",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Webysther_20150427002640_-_Edif%C3%ADcios_Terra%C3%A7o_It%C3%A1lia_e_Copan.jpg",
+   "titulo": "File:Webysther 20150427002640 - Edifícios Terraço Itália e Copan.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 60.2
+   },
+   "borrada": "imagens/predio-copan-c836d838-b.jpg"
+  },
+  "desmonte-geral": {
+   "arquivo": "imagens/desmonte-geral-d6532722.jpg",
+   "rotulo": "Detonação em pedreira",
+   "commons": "quarry blast rock blasting explosion",
+   "autor": "Pennsylvania railroad company. [from old catalog]",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Intensive_farming_and_use_of_dynamite_(1911)_(14572525860).jpg",
+   "titulo": "File:Intensive farming and use of dynamite (1911) (14572525860).jpg",
+   "largura": 1920,
+   "altura": 1101,
+   "rostos": 0,
+   "foco": {
+    "x": 63.0,
+    "y": 41.5
+   },
+   "borrada": "imagens/desmonte-geral-d6532722-b.jpg"
+  },
+  "pedreira-bancos": {
+   "arquivo": "imagens/pedreira-bancos-0c7b538f.jpg",
+   "rotulo": "Bancadas de uma pedreira",
+   "commons": "quarry benches terraces open pit",
+   "autor": "Tim Evanson",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Arlington_National_Cemetery_-_JFK_Grave_Site_plaza_-_2011.jpg",
+   "titulo": "File:Arlington National Cemetery - JFK Grave Site plaza - 2011.jpg",
+   "largura": 1920,
+   "altura": 1090,
+   "rostos": 0,
+   "foco": {
+    "x": 68.9,
+    "y": 48.2
+   },
+   "borrada": "imagens/pedreira-bancos-0c7b538f-b.jpg"
+  },
+  "caminhao-pedreira": {
+   "arquivo": "imagens/caminhao-pedreira-b83dc526.jpg",
+   "rotulo": "Caminhão numa pedreira",
+   "commons": "quarry dump truck loaded rock",
+   "autor": "Reg Natarajan from Vancouver, Bogotá",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Surrey_Ship_Docks_(8956226166).jpg",
+   "titulo": "File:The Surrey Ship Docks (8956226166).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 52.3,
+    "y": 60.3
+   },
+   "borrada": "imagens/caminhao-pedreira-b83dc526-b.jpg"
+  },
+  "britador-planta": {
+   "arquivo": "imagens/britador-planta-108ef036.jpg",
+   "rotulo": "Planta de britagem",
+   "commons": "crushing plant quarry aggregate",
+   "autor": "Department of Commerce. Bureau of Public Roads. 8/20/1949-4/1/1967",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crushing_plant_and_quarry_on_the_north_side_of_Cerro_La_Muerte_mountain,_60_kilometers_south_of_Cartago_-_DPLA_-_0e0c680f8396f7bb94251ebab2e7d289.jpg",
+   "titulo": "File:Crushing plant and quarry on the north side of Cerro La Muerte mountain, 60 kilometers south of Cartago - DPLA - 0e0c680f8396f7bb94251ebab2e7d289.jpg",
+   "largura": 1920,
+   "altura": 1484,
+   "rostos": 0,
+   "foco": {
+    "x": 39.2,
+    "y": 57.6
+   },
+   "borrada": "imagens/britador-planta-108ef036-b.jpg"
+  },
+  "carrara-pedreira": {
+   "arquivo": "imagens/carrara-pedreira-f7686194.jpg",
+   "rotulo": "Pedreira de mármore em Carrara",
+   "commons": "Carrara marble quarry Fantiscritti",
+   "autor": "Lucarelli",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Carrara_3.JPG",
+   "titulo": "File:Carrara 3.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 3,
+   "foco": {
+    "x": 50.4,
+    "y": 41.6
+   },
+   "borrada": "imagens/carrara-pedreira-f7686194-b.jpg"
+  },
+  "granito": {
+   "arquivo": "imagens/granito-4b654960.jpg",
+   "rotulo": "Granito",
+   "wiki": "Granito",
+   "commons": "Granite rock outcrop close-up",
+   "autor": "derivative work: Escarlati (talk) Lions_on_rock.jpg: William Warby from London, England",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lions_on_rock-2.jpg",
+   "titulo": "File:Lions on rock-2.jpg",
+   "largura": 1920,
+   "altura": 1413,
+   "rostos": 0,
+   "foco": {
+    "x": 53.8,
+    "y": 80
+   },
+   "borrada": "imagens/granito-4b654960-b.jpg"
+  },
+  "gnaisse": {
+   "arquivo": "imagens/gnaisse-8146d09d.jpg",
+   "rotulo": "Gnaisse",
+   "wiki": "Gnaisse",
+   "commons": "Gneiss rock close-up banded",
+   "autor": "Z3lvs",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Swirled_banded_rock_among_pebbles_on_the_Borrego_Palm_Canyon_Trail,_Anza-Borrego_Desert_State_Park.jpg",
+   "titulo": "File:Swirled banded rock among pebbles on the Borrego Palm Canyon Trail, Anza-Borrego Desert State Park.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 2,
+   "foco": {
+    "x": 71.2,
+    "y": 14.8
+   },
+   "borrada": "imagens/gnaisse-8146d09d-b.jpg"
+  },
+  "brita": {
+   "arquivo": "imagens/brita-a1c2a749.jpg",
+   "rotulo": "Brita",
+   "wiki": "Brita",
+   "commons": "crushed stone gravel close-up",
+   "autor": "Paul The Writer",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sunlit_Crushed_Stones.jpg",
+   "titulo": "File:Sunlit Crushed Stones.jpg",
+   "largura": 1920,
+   "altura": 2550,
+   "rostos": 0,
+   "foco": {
+    "x": 48.7,
+    "y": 46.1
+   },
+   "borrada": "imagens/brita-a1c2a749-b.jpg"
+  },
+  "asfalto": {
+   "arquivo": "imagens/asfalto-5ca0a31f.jpg",
+   "rotulo": "Pavimentação de asfalto",
+   "commons": "asphalt paving road construction machine",
+   "autor": "باراد",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Paving_Machines.jpg",
+   "titulo": "File:Paving Machines.jpg",
+   "largura": 1920,
+   "altura": 1393,
+   "rostos": 0,
+   "foco": {
+    "x": 57.7,
+    "y": 28.8
+   },
+   "borrada": "imagens/asfalto-5ca0a31f-b.jpg"
+  },
+  "concreto": {
+   "arquivo": "imagens/concreto-ff4a64af.jpg",
+   "rotulo": "Concretagem",
+   "commons": "concrete truck pouring construction site",
+   "autor": "MediaKyle",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pump_truck_concrete_pour_Enfield_NS.jpg",
+   "titulo": "File:Pump truck concrete pour Enfield NS.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 47.8,
+    "y": 72.2
+   },
+   "borrada": "imagens/concreto-ff4a64af-b.jpg"
+  },
+  "mapa-brasil": {
+   "arquivo": "imagens/mapa-brasil-dd8cd17a.jpg",
+   "rotulo": "Mapa do Brasil",
+   "wiki": "Brasil",
+   "commons": "Brazil location map",
+   "autor": "Lopo Homem",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brazil_16thc_map.jpg",
+   "titulo": "File:Brazil 16thc map.jpg",
+   "largura": 1920,
+   "altura": 1345,
+   "rostos": 0,
+   "foco": {
+    "x": 50.3,
+    "y": 54.8
+   },
+   "borrada": "imagens/mapa-brasil-dd8cd17a-b.jpg"
+  },
+  "areia-rio": {
+   "arquivo": "imagens/areia-rio-a37bd2a8.jpg",
+   "rotulo": "Extração de areia",
+   "commons": "sand mining dredge river Brazil",
+   "autor": "User:Vmenkov",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Manhao_-_Red_River_Valley_-_P1380110.JPG",
+   "titulo": "File:Manhao - Red River Valley - P1380110.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 67.7,
+    "y": 64.7
+   },
+   "borrada": "imagens/areia-rio-a37bd2a8-b.jpg"
+  },
+  "pilha-brita": {
+   "arquivo": "imagens/pilha-brita-6bc98c8a.jpg",
+   "rotulo": "Pilhas de brita",
+   "commons": "gravel stockpile quarry aggregate piles",
+   "autor": "Michael Dibb",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Stockpile_of_gravel_-_geograph.org.uk_-_2788051.jpg",
+   "titulo": "File:Stockpile of gravel - geograph.org.uk - 2788051.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.4,
+    "y": 70.8
+   },
+   "borrada": "imagens/pilha-brita-6bc98c8a-b.jpg"
+  },
+  "obra-brasil": {
+   "arquivo": "imagens/obra-brasil-f891b67b.jpg",
+   "rotulo": "Obra no Brasil",
+   "commons": "construction site building crane Brazil",
+   "autor": "Gaf.arq",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Edif%C3%ADcio_em_constru%C3%A7%C3%A3o.jpg",
+   "titulo": "File:Edifício em construção.jpg",
+   "largura": 1920,
+   "altura": 1415,
+   "rostos": 0,
+   "foco": {
+    "x": 56.1,
+    "y": 51.9
+   },
+   "borrada": "imagens/obra-brasil-f891b67b-b.jpg"
+  },
+  "decapeamento": {
+   "arquivo": "imagens/decapeamento-1801a5fa.jpg",
+   "rotulo": "Decapeamento",
+   "commons": "quarry overburden stripping excavator topsoil",
+   "autor": "Me whynot",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lark_Quarry_-_overburden,_close_up.jpg",
+   "titulo": "File:Lark Quarry - overburden, close up.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 57.3,
+    "y": 33.3
+   },
+   "borrada": "imagens/decapeamento-1801a5fa-b.jpg"
+  },
+  "bancadas": {
+   "arquivo": "imagens/bancadas-2013b05c.jpg",
+   "rotulo": "Bancadas da pedreira",
+   "commons": "quarry bench face drilling terraces",
+   "autor": "John S Turner",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Damaged_bench_mark_on_Quarry_Bridge,_Christleton_-_geograph.org.uk_-_4775091.jpg",
+   "titulo": "File:Damaged bench mark on Quarry Bridge, Christleton - geograph.org.uk - 4775091.jpg",
+   "largura": 1920,
+   "altura": 2562,
+   "rostos": 0,
+   "foco": {
+    "x": 48.5,
+    "y": 50.7
+   },
+   "borrada": "imagens/bancadas-2013b05c-b.jpg"
+  },
+  "escavadeira": {
+   "arquivo": "imagens/escavadeira-65a2659a.jpg",
+   "rotulo": "Escavadeira",
+   "commons": "excavator loading rock quarry",
+   "autor": "Dylan Moore",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sundon_South_Chalk_Pit_-_geograph.org.uk_-_645400.jpg",
+   "titulo": "File:Sundon South Chalk Pit - geograph.org.uk - 645400.jpg",
+   "largura": 640,
+   "altura": 423,
+   "rostos": 0,
+   "foco": {
+    "x": 43.6,
+    "y": 54.4
+   },
+   "borrada": "imagens/escavadeira-65a2659a-b.jpg"
+  },
+  "engenheiro": {
+   "arquivo": "imagens/engenheiro-e532d489.jpg",
+   "rotulo": "Engenheiro em campo",
+   "commons": "mining engineer surveying quarry",
+   "autor": "Desconhecido",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:John_Taylor,_mining_engineer_and_geologist._Wellcome_L0040162.jpg",
+   "titulo": "File:John Taylor, mining engineer and geologist. Wellcome L0040162.jpg",
+   "largura": 1920,
+   "altura": 2197,
+   "rostos": 1,
+   "foco": {
+    "x": 53.8,
+    "y": 36.6
+   },
+   "borrada": "imagens/engenheiro-e532d489-b.jpg"
+  },
+  "perfuratriz": {
+   "arquivo": "imagens/perfuratriz-76088aa3.jpg",
+   "rotulo": "Perfuratriz",
+   "commons": "rock drilling rig quarry blast hole",
+   "autor": "Eric Jones",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:A_drilling_rig_at_Cwt-y-Bugail_-_geograph.org.uk_-_577816.jpg",
+   "titulo": "File:A drilling rig at Cwt-y-Bugail - geograph.org.uk - 577816.jpg",
+   "largura": 640,
+   "altura": 378,
+   "rostos": 0,
+   "foco": {
+    "x": 58.3,
+    "y": 66.7
+   },
+   "borrada": "imagens/perfuratriz-76088aa3-b.jpg"
+  },
+  "malha-furos": {
+   "arquivo": "imagens/malha-furos-d5390d55.jpg",
+   "rotulo": "Malha de furos",
+   "commons": "blast holes pattern bench quarry",
+   "autor": "W.carter",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rix%C3%B6_granitbrott_26.jpg",
+   "titulo": "File:Rixö granitbrott 26.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 69.2,
+    "y": 50.7
+   },
+   "borrada": "imagens/malha-furos-d5390d55-b.jpg"
+  },
+  "anfo": {
+   "arquivo": "imagens/anfo-3fff6b7d.jpg",
+   "rotulo": "ANFO",
+   "wiki": "ANFO",
+   "commons": "ANFO ammonium nitrate fuel oil explosive",
+   "autor": "Firsthuman",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ammonium_nitrate-fuel_oil_(ANFO)_explosive.jpg",
+   "titulo": "File:Ammonium nitrate-fuel oil (ANFO) explosive.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 52.4
+   },
+   "borrada": "imagens/anfo-3fff6b7d-b.jpg"
+  },
+  "detonador": {
+   "arquivo": "imagens/detonador-7c28aa7c.jpg",
+   "rotulo": "Cordel detonante",
+   "commons": "detonating cord blasting quarry",
+   "autor": "Asurnipal",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fenbach_(Steinach)-detonating_cord-01ASD.jpg",
+   "titulo": "File:Weißenbach (Steinach)-detonating cord-01ASD.jpg",
+   "largura": 1920,
+   "altura": 2140,
+   "rostos": 0,
+   "foco": {
+    "x": 60.5,
+    "y": 60.2
+   },
+   "borrada": "imagens/detonador-7c28aa7c-b.jpg"
+  },
+  "aviso-detonacao": {
+   "arquivo": "imagens/aviso-detonacao-a2f142af.jpg",
+   "rotulo": "Aviso de detonação",
+   "commons": "blasting warning sign quarry",
+   "autor": "Seraaron",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Derelict_sign_warns_of_explosives,_in_English_and_Welsh,_in_the_slate_quarry_near_in_Bethesda,_Gwynedd.jpg",
+   "titulo": "File:Derelict sign warns of explosives, in English and Welsh, in the slate quarry near in Bethesda, Gwynedd.jpg",
+   "largura": 1920,
+   "altura": 887,
+   "rostos": 0,
+   "foco": {
+    "x": 55.7,
+    "y": 50.1
+   },
+   "borrada": "imagens/aviso-detonacao-a2f142af-b.jpg"
+  },
+  "desmonte-fragmentos": {
+   "arquivo": "imagens/desmonte-fragmentos-ce76514f.jpg",
+   "rotulo": "Desmonte de rocha",
+   "commons": "blasted rock fragmentation quarry face collapse",
+   "autor": "James Allan",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Blasted_rock_-_geograph.org.uk_-_3527877.jpg",
+   "titulo": "File:Blasted rock - geograph.org.uk - 3527877.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 48.2,
+    "y": 50.8
+   },
+   "borrada": "imagens/desmonte-fragmentos-ce76514f-b.jpg"
+  },
+  "poeira": {
+   "arquivo": "imagens/poeira-e88888ad.jpg",
+   "rotulo": "Nuvem de poeira",
+   "commons": "dust cloud quarry blast",
+   "autor": "Yathin S Krishnappa",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dust_Cloud_in_Etosha_National_Park.jpg",
+   "titulo": "File:Dust Cloud in Etosha National Park.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 53.1,
+    "y": 80
+   },
+   "borrada": "imagens/poeira-e88888ad-b.jpg"
+  },
+  "pilha-rocha": {
+   "arquivo": "",
+   "rotulo": "Rocha desmontada",
+   "commons": "muckpile blasted rock quarry"
+  },
+  "engenheiro-malha": {
+   "arquivo": "imagens/engenheiro-malha-804f2882.jpg",
+   "rotulo": "Plano de desmonte",
+   "commons": "blast design engineer drill pattern quarry",
+   "autor": "U.S. Air Force photo by Master Sgt. Luke Olson",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Jet_blast_deflector_project_takes_off_(8839478).jpg",
+   "titulo": "File:Jet blast deflector project takes off (8839478).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 2,
+   "foco": {
+    "x": 61.8,
+    "y": 42.6
+   },
+   "borrada": "imagens/engenheiro-malha-804f2882-b.jpg"
+  },
+  "rom-granulometria": {
+   "arquivo": "imagens/rom-granulometria-add6ceb7.jpg",
+   "rotulo": "Fragmentação da rocha",
+   "commons": "run of mine ore fragmentation size blasted rock",
+   "autor": "JJonahJackalope",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Big_Mine_Run_Geyser.jpg",
+   "titulo": "File:Big Mine Run Geyser.jpg",
+   "largura": 1920,
+   "altura": 1081,
+   "rostos": 0,
+   "foco": {
+    "x": 52.1,
+    "y": 38.3
+   },
+   "borrada": "imagens/rom-granulometria-add6ceb7-b.jpg"
+  },
+  "mine-crusher": {
+   "arquivo": "imagens/mine-crusher-0f8bd4d7.jpg",
+   "rotulo": "Da mina ao britador",
+   "commons": "primary crusher hopper quarry rock feed",
+   "autor": "U.S. Navy photo by by Air Force Master Sgt. Rickie D. Bickle",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_070424-F-8678B-044_Construction_Electrician_3rd_Class_Jonathan_Brace_monitors_the_primary_rock_crusher_while_Constructionman_Justin_Dimmitt_loads_the_hopper_with_a_front-end_loader.jpg",
+   "titulo": "File:US Navy 070424-F-8678B-044 Construction Electrician 3rd Class Jonathan Brace monitors the primary rock crusher while Constructionman Justin Dimmitt loads the hopper with a front-end loader.jpg",
+   "largura": 1920,
+   "altura": 1371,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 39.9
+   },
+   "borrada": "imagens/mine-crusher-0f8bd4d7-b.jpg"
+  },
+  "britador-fila": {
+   "arquivo": "imagens/britador-fila-769c1672.jpg",
+   "rotulo": "Britador primário",
+   "commons": "large jaw crusher primary plant quarry",
+   "autor": "Coconino National Forest",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bear_Jaw_Trail-_Abineau-Bear_Jaw_Loop_(37310492821).jpg",
+   "titulo": "File:Bear Jaw Trail- Abineau-Bear Jaw Loop (37310492821).jpg",
+   "largura": 1920,
+   "altura": 1281,
+   "rostos": 1,
+   "foco": {
+    "x": 46.9,
+    "y": 88.8
+   },
+   "borrada": "imagens/britador-fila-769c1672-b.jpg"
+  },
+  "carregadeira": {
+   "arquivo": "imagens/carregadeira-93af4547.jpg",
+   "rotulo": "Carregadeira",
+   "commons": "wheel loader loading haul truck quarry",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pacific_service_magazine_(1924)_(14781378592).jpg",
+   "titulo": "File:Pacific service magazine (1924) (14781378592).jpg",
+   "largura": 1920,
+   "altura": 532,
+   "rostos": 0,
+   "foco": {
+    "x": 66.2,
+    "y": 58.6
+   },
+   "borrada": "imagens/carregadeira-93af4547-b.jpg"
+  },
+  "caminhao-rampa": {
+   "arquivo": "imagens/caminhao-rampa-fff3357e.jpg",
+   "rotulo": "Caminhões na rampa",
+   "commons": "haul trucks quarry ramp",
+   "autor": "Robin Stott",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Clay_waste_haul_road_north_of_Southacre_Quarry_-_geograph.org.uk_-_1740159.jpg",
+   "titulo": "File:Clay waste haul road north of Southacre Quarry - geograph.org.uk - 1740159.jpg",
+   "largura": 640,
+   "altura": 480,
+   "rostos": 0,
+   "foco": {
+    "x": 55.6,
+    "y": 52.1
+   },
+   "borrada": "imagens/caminhao-rampa-fff3357e-b.jpg"
+  },
+  "rampa-pedreira": {
+   "arquivo": "imagens/rampa-pedreira-1fb462fa.jpg",
+   "rotulo": "Rampa da pedreira",
+   "commons": "quarry haul road ramp open pit",
+   "autor": "Steven Watson",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Quarry_haul_road_-_geograph.org.uk_-_4243095.jpg",
+   "titulo": "File:Quarry haul road - geograph.org.uk - 4243095.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 67.6,
+    "y": 63.7
+   },
+   "borrada": "imagens/rampa-pedreira-1fb462fa-b.jpg"
+  },
+  "boca-britador": {
+   "arquivo": "imagens/boca-britador-b6ec9366.jpg",
+   "rotulo": "Boca do britador",
+   "commons": "rock dumped into crusher hopper",
+   "autor": "SP4 Don W. Mechum",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:94th_Engineer_Detachment_Euclid_dump_truck_dumps_rock_into_crusher_at_Vung_Tau.jpg",
+   "titulo": "File:94th Engineer Detachment Euclid dump truck dumps rock into crusher at Vung Tau.jpg",
+   "largura": 1600,
+   "altura": 1353,
+   "rostos": 0,
+   "foco": {
+    "x": 44.4,
+    "y": 66.0
+   },
+   "borrada": "imagens/boca-britador-b6ec9366-b.jpg"
+  },
+  "montanha-final": {
+   "arquivo": "imagens/montanha-final-95535ddd.jpg",
+   "rotulo": "Pão de Açúcar",
+   "wiki": "Pão de Açúcar",
+   "commons": "granite mountain Brazil Pão de Açúcar",
+   "autor": "Rodrigo Soldon from Rio de Janeiro, Brazil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:P%C3%A3o_de_A%C3%A7%C3%BAcar_Sugarloaf_Mountain_(3718757186).jpg",
+   "titulo": "File:Pão de Açúcar Sugarloaf Mountain (3718757186).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 42.1,
+    "y": 67.4
+   },
+   "borrada": "imagens/montanha-final-95535ddd-b.jpg"
+  },
+  "britador-caminhao": {
+   "arquivo": "imagens/britador-caminhao-42f1c397.jpg",
+   "rotulo": "Alimentando o britador",
+   "commons": "dump truck unloading rock primary crusher",
+   "autor": "Bidgee",
+   "licenca": "CC BY-SA 3.0 au",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Grain_spec_tipper_trailer_unloading_rock_(1).jpg",
+   "titulo": "File:Grain spec tipper trailer unloading rock (1).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 42.2,
+    "y": 66.2
+   },
+   "borrada": "imagens/britador-caminhao-42f1c397-b.jpg"
+  },
+  "mandibula": {
+   "arquivo": "imagens/mandibula-88b2a4ea.jpg",
+   "rotulo": "Britador de mandíbulas",
+   "wiki": "Britador de mandíbulas",
+   "commons": "jaw crusher quarry",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Building_and_repairing_railways_(1901)_(14757034284).jpg",
+   "titulo": "File:Building and repairing railways (1901) (14757034284).jpg",
+   "largura": 1792,
+   "altura": 2092,
+   "rostos": 0,
+   "foco": {
+    "x": 47.8,
+    "y": 43.2
+   },
+   "borrada": "imagens/mandibula-88b2a4ea-b.jpg"
+  },
+  "mandibula-interior": {
+   "arquivo": "imagens/mandibula-interior-d57094a5.jpg",
+   "rotulo": "Placas do britador",
+   "commons": "jaw crusher fixed plate swing jaw interior",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Comparative_zoology,_structural_and_systematic_-_for_use_in_schools_and_colleges_(1883)_(20661542372).jpg",
+   "titulo": "File:Comparative zoology, structural and systematic - for use in schools and colleges (1883) (20661542372).jpg",
+   "largura": 1044,
+   "altura": 812,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 49.6
+   },
+   "borrada": "imagens/mandibula-interior-d57094a5-b.jpg"
+  },
+  "esteira": {
+   "arquivo": "imagens/esteira-76e21798.jpg",
+   "rotulo": "Esteira transportadora",
+   "commons": "conveyor belt crushed stone quarry",
+   "autor": "TrimmerinWiki",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bass_Point_-_Disused_gravel_loader_(November_2020).jpg",
+   "titulo": "File:Bass Point - Disused gravel loader (November 2020).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 43.7,
+    "y": 57.6
+   },
+   "borrada": "imagens/esteira-76e21798-b.jpg"
+  },
+  "cone": {
+   "arquivo": "imagens/cone-a8fa6faf.jpg",
+   "rotulo": "Britador cônico",
+   "commons": "cone crusher gyratory",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Transactions_(1895)_(14760209466).jpg",
+   "titulo": "File:Transactions (1895) (14760209466).jpg",
+   "largura": 1920,
+   "altura": 1456,
+   "rostos": 0,
+   "foco": {
+    "x": 72.2,
+    "y": 51.9
+   },
+   "borrada": "imagens/cone-a8fa6faf-b.jpg"
+  },
+  "impacto": {
+   "arquivo": "imagens/impacto-1611a12b.jpg",
+   "rotulo": "Britador de impacto",
+   "commons": "impact crusher quarry",
+   "autor": "James St. John",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tectonic_breccia_(%22French_Grand_Antique_Marble%22)_(quarry_at_Aubert,_Pyrenees_Mountains,_France).jpg",
+   "titulo": "File:Tectonic breccia (\"French Grand Antique Marble\") (quarry at Aubert, Pyrenees Mountains, France).jpg",
+   "largura": 1665,
+   "altura": 1279,
+   "rostos": 0,
+   "foco": {
+    "x": 47.9,
+    "y": 49.1
+   },
+   "borrada": "imagens/impacto-1611a12b-b.jpg"
+  },
+  "peneira": {
+   "arquivo": "imagens/peneira-5642d6ee.jpg",
+   "rotulo": "Peneira vibratória",
+   "commons": "vibrating screen quarry aggregate",
+   "autor": "GKM Siebtechnik",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Taumelsiebmaschine124765.jpg",
+   "titulo": "File:Taumelsiebmaschine124765.jpg",
+   "largura": 1920,
+   "altura": 1773,
+   "rostos": 0,
+   "foco": {
+    "x": 46.3,
+    "y": 33.1
+   },
+   "borrada": "imagens/peneira-5642d6ee-b.jpg"
+  },
+  "planta-aerea": {
+   "arquivo": "imagens/planta-aerea-24249086.jpg",
+   "rotulo": "Circuito de britagem",
+   "commons": "crushing screening plant aerial aggregates",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gravel_screening_and_crushing_plant_at_Station_A95-00_-_NARA_-_298233.jpg",
+   "titulo": "File:Gravel screening and crushing plant at Station A95-00 - NARA - 298233.jpg",
+   "largura": 1920,
+   "altura": 1141,
+   "rostos": 0,
+   "foco": {
+    "x": 50.1,
+    "y": 57.1
+   },
+   "borrada": "imagens/planta-aerea-24249086-b.jpg"
+  },
+  "brita1": {
+   "arquivo": "imagens/brita1-ec8fbf7f.jpg",
+   "rotulo": "Brita 1",
+   "commons": "brita 1 gravel crushed granite",
+   "autor": "Dmitry G",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brita_filter.JPG",
+   "titulo": "File:Brita filter.JPG",
+   "largura": 1920,
+   "altura": 1439,
+   "rostos": 0,
+   "foco": {
+    "x": 26.8,
+    "y": 71.5
+   },
+   "borrada": "imagens/brita1-ec8fbf7f-b.jpg"
+  },
+  "pedrisco": {
+   "arquivo": "imagens/pedrisco-67e7e44e.jpg",
+   "rotulo": "Pedrisco",
+   "commons": "pea gravel small crushed stone",
+   "autor": "Ranjithkumar Murugesan",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:PEA_GRAVEL.jpg",
+   "titulo": "File:PEA GRAVEL.jpg",
+   "largura": 1920,
+   "altura": 2559,
+   "rostos": 0,
+   "foco": {
+    "x": 40.7,
+    "y": 56.2
+   },
+   "borrada": "imagens/pedrisco-67e7e44e-b.jpg"
+  },
+  "po-pedra": {
+   "arquivo": "imagens/po-pedra-913217b7.jpg",
+   "rotulo": "Pó de pedra",
+   "commons": "stone dust quarry fines",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Turk_and_his_lost_provinces_-_Greece,_Bulgaria,_Servia,_Bosnia_(1903)_(14593152300).jpg",
+   "titulo": "File:The Turk and his lost provinces - Greece, Bulgaria, Servia, Bosnia (1903) (14593152300).jpg",
+   "largura": 1920,
+   "altura": 1393,
+   "rostos": 0,
+   "foco": {
+    "x": 46.1,
+    "y": 58.3
+   },
+   "borrada": "imagens/po-pedra-913217b7-b.jpg"
+  },
+  "pilhas-tamanhos": {
+   "arquivo": "imagens/pilhas-tamanhos-4e6a0979.jpg",
+   "rotulo": "Pilhas por tamanho",
+   "commons": "stockpiles gravel sizes quarry",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22General_view_of_Six_Companies%27_gravel_screening_and_washing_plant_at_Three-way_R.R._junction._View_from_hill_to..._-_NARA_-_293656.jpg",
+   "titulo": "File:\"General view of Six Companies' gravel screening and washing plant at Three-way R.R. junction. View from hill to... - NARA - 293656.jpg",
+   "largura": 1920,
+   "altura": 1225,
+   "rostos": 0,
+   "foco": {
+    "x": 37.1,
+    "y": 66.9
+   },
+   "borrada": "imagens/pilhas-tamanhos-4e6a0979-b.jpg"
+  },
+  "carrara-cidade": {
+   "arquivo": "imagens/carrara-cidade-75d53753.jpg",
+   "rotulo": "Carrara",
+   "wiki": "Carrara",
+   "commons": "Carrara Italy town marble mountains",
+   "autor": "European Space Agency",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Carrara,_Italy_ESA24010859.jpeg",
+   "titulo": "File:Carrara, Italy ESA24010859.jpeg",
+   "largura": 1920,
+   "altura": 1619,
+   "rostos": 0,
+   "foco": {
+    "x": 76.1,
+    "y": 35.9
+   },
+   "borrada": "imagens/carrara-cidade-75d53753-b.jpg"
+  },
+  "apuanas": {
+   "arquivo": "imagens/apuanas-e266708f.jpg",
+   "rotulo": "Alpes Apuanos",
+   "wiki": "Colonnata",
+   "commons": "Apuan Alps marble quarries Colonnata",
+   "autor": "Gabriele85",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cava_dei_Campanili_(Bell_Towers_Quarry),_Apuan_Alps.jpg",
+   "titulo": "File:Cava dei Campanili (Bell Towers Quarry), Apuan Alps.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 39.2,
+    "y": 52.6
+   },
+   "borrada": "imagens/apuanas-e266708f-b.jpg"
+  },
+  "fantiscritti-romano": {
+   "arquivo": "imagens/fantiscritti-romano-b14019f9.jpg",
+   "rotulo": "Fantiscritti",
+   "commons": "Fantiscritti Roman quarry relief Carrara",
+   "autor": "Sailko",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Carrara,_colonnata,_cava_dei_fantiscritti_03.jpg",
+   "titulo": "File:Carrara, colonnata, cava dei fantiscritti 03.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 53.0,
+    "y": 45.9
+   },
+   "borrada": "imagens/fantiscritti-romano-b14019f9-b.jpg"
+  },
+  "bloco-marmore": {
+   "arquivo": "imagens/bloco-marmore-41bd7e04.jpg",
+   "rotulo": "Bloco de mármore",
+   "commons": "Carrara marble block quarry",
+   "autor": "User:Vmenkov",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Blocks_of_marble_in_Carrara_marble_quarry_6386.jpg",
+   "titulo": "File:Blocks of marble in Carrara marble quarry 6386.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 63.3,
+    "y": 63.1
+   },
+   "borrada": "imagens/bloco-marmore-41bd7e04-b.jpg"
+  },
+  "fio-diamantado": {
+   "arquivo": "imagens/fio-diamantado-069904f4.jpg",
+   "rotulo": "Fio diamantado",
+   "commons": "diamond wire saw marble quarry",
+   "autor": "Dr Petros Tzeferis",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wire_cutting_machines.jpg",
+   "titulo": "File:Wire cutting machines.jpg",
+   "largura": 1273,
+   "altura": 717,
+   "rostos": 0,
+   "foco": {
+    "x": 71.7,
+    "y": 56.7
+   },
+   "borrada": "imagens/fio-diamantado-069904f4-b.jpg"
+  },
+  "corte-marmore": {
+   "arquivo": "imagens/corte-marmore-149feecd.jpg",
+   "rotulo": "Corte de mármore",
+   "commons": "diamond wire cutting marble block quarry Carrara",
+   "autor": "Dr Petros Tzeferis",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Use_of_cutting_machine,_Marble_Quarries_thassos.jpg",
+   "titulo": "File:Use of cutting machine, Marble Quarries thassos.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 69.2,
+    "y": 64.3
+   },
+   "borrada": "imagens/corte-marmore-149feecd-b.jpg"
+  },
+  "cunhas": {
+   "arquivo": "imagens/cunhas-1e5c9b7f.jpg",
+   "rotulo": "Extração tradicional",
+   "commons": "Carrara marble quarrying historical workers wedges",
+   "autor": "Rijksmuseum",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Man_met_een_handzaag_in_de_marmermijnen_van_Carrara_Sawing_marble_slabs_by_hand_(about_4_in._per_day)_in_the_famous_old_quarries_of_Carrara,_Italy.,_RP-F-F07308.jpg",
+   "titulo": "File:Man met een handzaag in de marmermijnen van Carrara Sawing marble slabs by hand (about 4 in. per day) in the famous old quarries of Carrara, Italy., RP-F-F07308.jpg",
+   "largura": 1920,
+   "altura": 988,
+   "rostos": 3,
+   "foco": {
+    "x": 53.1,
+    "y": 46.4
+   },
+   "borrada": "imagens/cunhas-1e5c9b7f-b.jpg"
+  },
+  "furos-marmore": {
+   "arquivo": "imagens/furos-marmore-424bf7cf.jpg",
+   "rotulo": "Furos para o fio",
+   "commons": "drilling holes marble block quarry wire saw",
+   "autor": "Carole Raddato from FRANKFURT, Germany",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Marble_slab_of_the_Amazon_frieze_of_the_Mausoleum_of_Halikarnassos_representing_combats_between_Greeks_and_Amazons,_Mausoleum_at_Halikarnassos,_around_350_BC,_British_Museum_(17490610056).jpg",
+   "titulo": "File:Marble slab of the Amazon frieze of the Mausoleum of Halikarnassos representing combats between Greeks and Amazons, Mausoleum at Halikarnassos, around 350 BC, British Museum (17490610056).jpg",
+   "largura": 1920,
+   "altura": 1272,
+   "rostos": 0,
+   "foco": {
+    "x": 66.2,
+    "y": 52.2
+   },
+   "borrada": "imagens/furos-marmore-424bf7cf-b.jpg"
+  },
+  "david": {
+   "arquivo": "imagens/david-310d8931.jpg",
+   "rotulo": "David, de Michelangelo",
+   "wiki": "David (Michelangelo)",
+   "commons": "Michelangelo's David Galleria dell'Accademia",
+   "autor": "Mariordo",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Accademia_David_Florence_04_2024_6058_5x7.jpg",
+   "titulo": "File:Accademia David Florence 04 2024 6058 5x7.jpg",
+   "largura": 1920,
+   "altura": 2688,
+   "rostos": 1,
+   "foco": {
+    "x": 29.6,
+    "y": 48.5
+   },
+   "borrada": "imagens/david-310d8931-b.jpg"
+  },
+  "accademia": {
+   "arquivo": "imagens/accademia-478c59f2.jpg",
+   "rotulo": "Galleria dell'Accademia",
+   "wiki": "Galleria dell'Accademia",
+   "commons": "Galleria dell'Accademia Florence interior",
+   "autor": "Andy Montgomery",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Michelangelo_(%3F)_Piet%C3%A0._Galleria_dell%E2%80%99_Accademia,_Florence_Italy.jpg",
+   "titulo": "File:Michelangelo (?) Pietà. Galleria dell’ Accademia, Florence Italy.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 3,
+   "foco": {
+    "x": 49.7,
+    "y": 71.4
+   },
+   "borrada": "imagens/accademia-478c59f2-b.jpg"
+  },
+  "miseglia": {
+   "arquivo": "imagens/miseglia-5a6117a8.jpg",
+   "rotulo": "Vale de Miseglia",
+   "commons": "Miseglia Carrara quarry valley",
+   "autor": "Alexmar983",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2017-05-28_via_Fantiscritti_con_Chiesa_Spirito_Santo_Miseglia_04.jpg",
+   "titulo": "File:2017-05-28 via Fantiscritti con Chiesa Spirito Santo Miseglia 04.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 1,
+   "foco": {
+    "x": 41.3,
+    "y": 50.6
+   },
+   "borrada": "imagens/miseglia-5a6117a8-b.jpg"
+  },
+  "florenca": {
+   "arquivo": "imagens/florenca-09a659ee.jpg",
+   "rotulo": "Florença",
+   "wiki": "Florença",
+   "commons": "Florence Duomo skyline",
+   "autor": "Olevy",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Quatre_monuments_de_Florence.jpg",
+   "titulo": "File:Quatre monuments de Florence.jpg",
+   "largura": 1920,
+   "altura": 674,
+   "rostos": 0,
+   "foco": {
+    "x": 46.6,
+    "y": 61.9
+   },
+   "borrada": "imagens/florenca-09a659ee-b.jpg"
+  },
+  "calcada": {
+   "arquivo": "imagens/calcada-6bef35dc.jpg",
+   "rotulo": "Calçada de Copacabana",
+   "wiki": "Calçadão de Copacabana",
+   "commons": "calçada portuguesa Copacabana Rio de Janeiro",
+   "autor": "MinhaStation",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ada_da_fama_vista_de_frente_2.jpg",
+   "titulo": "File:Calçada da fama vista de frente 2.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 49.6,
+    "y": 44.7
+   },
+   "borrada": "imagens/calcada-6bef35dc-b.jpg"
+  },
+  "ponte": {
+   "arquivo": "imagens/ponte-412a3ed6.jpg",
+   "rotulo": "Obra de concreto",
+   "commons": "concrete bridge highway Brazil construction",
+   "autor": "Jorge Láscar from Australia",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Swans_in_a_canal,_Oudezijds_Voorburgwal,_with_Bridge_105_(5822070926).jpg",
+   "titulo": "File:Swans in a canal, Oudezijds Voorburgwal, with Bridge 105 (5822070926).jpg",
+   "largura": 1920,
+   "altura": 1178,
+   "rostos": 0,
+   "foco": {
+    "x": 67.4,
+    "y": 41.1
+   },
+   "borrada": "imagens/ponte-412a3ed6-b.jpg"
+  },
+  "pedreira-final": {
+   "arquivo": "imagens/pedreira-final-e8e44945.jpg",
+   "rotulo": "Pedreira ao entardecer",
+   "commons": "quarry sunset open pit",
+   "autor": "W.carter",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sunset_at_old_Rix%C3%B6_quarry_2.jpg",
+   "titulo": "File:Sunset at old Rixö quarry 2.jpg",
+   "largura": 1920,
+   "altura": 1125,
+   "rostos": 0,
+   "foco": {
+    "x": 30.4,
+    "y": 51.8
+   },
+   "borrada": "imagens/pedreira-final-e8e44945-b.jpg"
+  },
+  "globo-inova": {
+   "arquivo": "imagens/globo-inova-7a129b49.jpg",
+   "rotulo": "Planeta Terra",
+   "wiki": "Terra",
+   "commons": "Earth globe from space",
+   "autor": "NASA/JPL-Caltech/SSI",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Day_the_Earth_Smiled_-_PIA17172.jpg",
+   "titulo": "File:The Day the Earth Smiled - PIA17172.jpg",
+   "largura": 1920,
+   "altura": 747,
+   "rostos": 0,
+   "foco": {
+    "x": 57.2,
+    "y": 47.4
+   },
+   "borrada": "imagens/globo-inova-7a129b49-b.jpg"
+  },
+  "obra-gigante": {
+   "arquivo": "imagens/obra-gigante-91d3603a.jpg",
+   "rotulo": "Grande obra",
+   "commons": "megaproject construction aerial",
+   "autor": "ESO",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Impact_of_the_INNA_megaproject_on_the_facilities_at_Paranal_Observatory_(AES_Andes_joint_effects-v3-EN).jpg",
+   "titulo": "File:Impact of the INNA megaproject on the facilities at Paranal Observatory (AES Andes joint effects-v3-EN).jpg",
+   "largura": 1920,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 34.4,
+    "y": 55.6
+   },
+   "borrada": "imagens/obra-gigante-91d3603a-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-28T23:35:09.882Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -77,6 +7363,70 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "ANEPAC — apresentação à Câmara dos Deputados (agregados 2020)",
+   "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/grupos-de-trabalho/56a-legislatura/gt-codigo-de-mineracao-decreto-lei-227-67/apresentacoes-em-eventos/ANEPAC.pdf"
+  },
+  {
+   "titulo": "Brasil61 — Setor de agregados busca protagonismo na mineração",
+   "url": "https://brasil61.com/n/setor-de-agregados-busca-protagonismo-na-mineracao-brasileira-mine261049"
+  },
+  {
+   "titulo": "MME — Perfil da brita para construção civil",
+   "url": "https://www.gov.br/mme/pt-br/arquivos/relatorio-ndeg30-perfil-de-brita-para-construcao-civil.doc/@@download/file"
+  },
+  {
+   "titulo": "Confea — Impactos do uso de explosivos em pedreira de granito (Caicó-RN)",
+   "url": "https://confea.org.br/midias/uploads-imce/contecc2016/geologia/impactos%20ambientais%20decorrentes%20do%20uso%20de%20subst%C3%A2ncias%20explosivas%20em%20pedreira%20de%20granito%20de%20caic%C3%B3-rn.pdf"
+  },
+  {
+   "titulo": "USP — Aula 07: Britagem",
+   "url": "https://edisciplinas.usp.br/pluginfile.php/5718263/mod_resource/content/1/Aula%2007%20-%20Britagem.pdf"
+  },
+  {
+   "titulo": "Britannica — Mining: Quarrying",
+   "url": "https://www.britannica.com/technology/mining/Quarrying"
+  },
+  {
+   "titulo": "Wikipedia — Carrara",
+   "url": "https://en.wikipedia.org/wiki/Carrara"
+  },
+  {
+   "titulo": "Wikipedia — David (Michelangelo)",
+   "url": "https://en.wikipedia.org/wiki/Michelangelo's_David"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Como funciona uma pedreira: da explosão à brita",
+   "Por que explodem montanhas para fazer uma estrada?",
+   "A montanha que vira calçada: dentro de uma pedreira"
+  ],
+  "descricao": "Como uma montanha vira brita, areia e pó de pedra? Acompanhe o caminho da rocha numa pedreira: decapeamento, plano de fogo, detonação e britagem, e depois veja como as pedreiras de mármore de Carrara, na Itália, fazem o contrário.\n\n0:00 Gancho\n0:40 O que vamos ver\n1:10 Capítulo 1: A montanha\n2:30 Capítulo 2: O fogo\n4:00 Capítulo 3: O esmagamento\n5:30 Capítulo 4: A virada em Carrara\n7:30 Desfecho\n\nFontes: ANEPAC (apresentação à Câmara dos Deputados), Ministério de Minas e Energia — Perfil da brita, Confea, UNESP, USP (curso de Britagem), Britannica, Wikipédia.",
+  "tags": [
+   "pedreira",
+   "como funciona",
+   "brita",
+   "britagem",
+   "mineração",
+   "engenharia",
+   "construção civil",
+   "mármore de Carrara",
+   "Michelangelo",
+   "explosivos",
+   "Inova Mundo",
+   "curiosidades"
+  ]
  }
 }
