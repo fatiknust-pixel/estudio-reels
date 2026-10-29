@@ -74,7 +74,7 @@ export type NarracaoCena = { hash?: string; texto?: string; audio: string; durac
 // arquivo vazio = ainda não baixada. wiki/commons/arquivoCommons/busca dizem onde procurar no Wikimedia.
 export type ImagemInfo = {
   arquivo: string; rotulo?: string; autor?: string; licenca?: string; pagina?: string; titulo?: string;
-  wiki?: string; commons?: string; arquivoCommons?: string; busca?: string; propria?: boolean;
+  wiki?: string; commons?: string; arquivoCommons?: string; busca?: string; propria?: boolean; semFoto?: boolean; // semFoto: o Claude viu as candidatas e nenhuma mostrava o assunto
   // medidas por scripts/enquadrar.py: tamanho da foto, rostos achados e o centro do assunto (% da foto)
   largura?: number; altura?: number; rostos?: number; foco?: { x: number; y: number };
   borrada?: string; // miniatura já desfocada e escurecida (fundo das fotos que aparecem inteiras), gerada por enquadrar.py

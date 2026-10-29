@@ -77,7 +77,7 @@ PWA (React + Vite) que cria vídeos 9:16/16:9 com Remotion. Prévia ao vivo no a
 | Estilo do Modo 1 (não repetir) | `scripts/estilo-ia.mjs` |
 | Narração (edge-tts) | `scripts/voz.py` |
 | Narração gravada por você (limpa ruído, transcreve, corta por cena) | `scripts/voz_propria.py` (botão na aba Exportar; workflow `atualizar-ia.yml` com `audio`) |
-| Imagens (Wikimedia) | `scripts/imagens.mjs` |
+| Imagens (Wikimedia, Pixabay…; candidatas que o Claude escolhe olhando) | `scripts/imagens.mjs` (`--candidatos`/`--escolhas`; passos nos workflows `gerar-ia`/`atualizar-ia`) |
 | Refazer voz/imagens após editar | `.github/workflows/atualizar-ia.yml` |
 | Processar vídeo bruto (whisper, cortes, rosto, áudio) | `.github/workflows/processar-bruto.yml`, `scripts/processar_bruto.py` |
 | Sugestões da IA no Modo 2 | `docs/guia-sugestoes.md`, `scripts/aplicar_sugestoes.py` |

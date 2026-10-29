@@ -5,7 +5,7 @@ run-name: Gerar ${{ inputs.projeto }}
 # 1) O Claude (sua assinatura, segredo CLAUDE_CODE_OAUTH_TOKEN) pesquisa fontes confiáveis e escreve
 #    projetos/<id>/roteiro.json + imagens.json no formato do Astra (docs/guia-roteiro.md).
 # 2) Narração com edge-tts (pt-BR-AntonioNeural +5%) e tempo por palavra.
-# 3) Imagens do Wikipédia/Wikimedia Commons com autor e licença.
+# 3) Fotos reais (Wikipédia/Commons, Pixabay, Openverse, NASA) com autor e licença: o Claude olha as candidatas e escolhe.
 on:
   workflow_dispatch:
     inputs:
@@ -186,8 +186,42 @@ jobs:
       - name: Narração (edge-tts)
         run: python3 scripts/voz.py out/projeto.json --midia "projetos/$ID"
 
-      - name: Imagens (Wikimedia Commons)
-        run: node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID"
+      - name: Imagens — juntar candidatas (Wikimedia, Pixabay, Openverse, NASA)
+        id: candidatas
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID" --candidatos out/candidatos || true
+          echo "n=$(jq length out/candidatos/indice.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+
+      - name: Claude olha as candidatas e escolhe
+        if: steps.candidatas.outputs.n != '0'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          allowed_bots: "*"
+          prompt: |
+            Você escolhe fotos REAIS para um vídeo documental. Leia `out/candidatos/indice.json`: para cada item há a `chave`,
+            o que a foto precisa mostrar (`mostrar`), o trecho da narração em que ela aparece (`fala`) e a `folha`.
+            Para cada item, abra a folha com Read (`out/candidatos/<folha>`): são fotos numeradas 1..N no canto.
+            Escolha a foto que mostra EXATAMENTE o assunto da fala (o objeto, o lugar, a obra, a pessoa ou a época citados).
+            Critérios, nesta ordem: 1) é o assunto certo (não um parecido, de outro lugar ou de outra época);
+            2) nítida e bonita, boa para tela cheia; 3) sem texto grande, marca d'água, colagem ou mapa ilegível.
+            Responda 0 quando nenhuma mostra o assunto: é melhor ficar sem foto do que mostrar algo que não tem a ver com a fala.
+            Não escolha a mesma foto (igual) para chaves diferentes.
+            Grave `out/candidatos/escolhas.json` no formato {"chave": número, ...} com todas as chaves do índice.
+            Não altere nenhum outro arquivo e não faça commit.
+          claude_args: |
+            --model sonnet
+            --max-turns 160
+            --allowedTools "Read,Write,Glob"
+
+      - name: Imagens — baixar as escolhidas (e buscar as que faltarem)
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: node scripts/imagens.mjs out/projeto.json --midia "projetos/$ID" --escolhas out/candidatos/escolhas.json
 
       - name: Enquadrar as fotos (rosto e assunto)
         run: python3 scripts/enquadrar.py out/projeto.json --midia "projetos/$ID"
