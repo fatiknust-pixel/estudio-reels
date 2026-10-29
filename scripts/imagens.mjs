@@ -14,11 +14,13 @@ const UA = "EstudioReels/1.0 (https://github.com/fatiknust-pixel/estudio-reels)"
 
 const api = async (host, params) => {
   const url = `https://${host}/w/api.php?` + new URLSearchParams({ format: "json", formatversion: "2", origin: "*", ...params });
-  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  const r = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(30000) });
   if (!r.ok) throw new Error(`${host} respondeu ${r.status}`);
   return r.json();
 };
 let LINGUA = "pt";
+// miniatura de 480 px de um arquivo do Commons (as URLs de thumb trazem a largura: .../1920px-Nome.jpg)
+const miniCommons = (u = "") => u.replace(/\/\d+px-([^/]+)$/, "/480px-$1");
 const limparHtml = (s = "") => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 
 async function infoArquivo(titulo) {
@@ -31,7 +33,7 @@ async function infoArquivo(titulo) {
   if (!ii || !/image\/(jpeg|png|webp)/.test(ii.mime)) return null;
   const m = ii.extmetadata || {};
   return {
-    titulo: p.title, chaveUso: p.title, url: ii.thumburl || ii.url, pagina: ii.descriptionurl,
+    titulo: p.title, chaveUso: p.title, url: ii.thumburl || ii.url, previa: miniCommons(ii.thumburl || ii.url), pagina: ii.descriptionurl,
     autor: limparHtml(m.Artist?.value) || "Desconhecido", licenca: limparHtml(m.LicenseShortName?.value) || "ver página",
     texto: sem(p.title) + " " + textoMeta(m),
   };
@@ -106,7 +108,7 @@ async function viaOpenverse(busca) {
     const lic = String(it.license ?? "").toLowerCase();
     if (/nc|nd/.test(lic)) continue;
     const licenca = lic === "cc0" ? "CC0 (domínio público)" : lic === "pdm" ? "Domínio público" : `CC ${lic.toUpperCase()} ${it.license_version ?? ""}`.trim();
-    return { titulo: it.title || busca, chaveUso: it.url, url: it.url, pagina: it.foreign_landing_url, autor: it.creator || "Desconhecido", licenca };
+    return { titulo: it.title || busca, chaveUso: it.url, url: it.url, previa: it.thumbnail, pagina: it.foreign_landing_url, autor: it.creator || "Desconhecido", licenca };
   }
   return null;
 }
@@ -118,7 +120,7 @@ async function pixabay(busca, n = 4) {
   const r = await fetch("https://pixabay.com/api/?" + new URLSearchParams({ key, q: busca.slice(0, 100), image_type: "photo", safesearch: "true", per_page: "20", min_width: "1000", lang: LINGUA }), { headers: { "User-Agent": UA } });
   if (!r.ok) return [];
   return ((await r.json()).hits ?? []).filter((h) => h.largeImageURL && !usadas.has(h.largeImageURL)).slice(0, n)
-    .map((h) => ({ titulo: h.tags || busca, chaveUso: h.largeImageURL, url: h.largeImageURL, pagina: h.pageURL, autor: h.user || "Pixabay", licenca: "Licença Pixabay" }));
+    .map((h) => ({ titulo: h.tags || busca, chaveUso: h.largeImageURL, url: h.largeImageURL, previa: h.webformatURL, pagina: h.pageURL, autor: h.user || "Pixabay", licenca: "Licença Pixabay" }));
 }
 const viaPixabay = async (busca) => (await pixabay(busca, 1))[0] ?? null;
 
@@ -133,7 +135,7 @@ async function viaNasa(busca) {
     const arquivos = await (await fetch(it.href, { headers: { "User-Agent": UA } })).json();
     const alvo = arquivos.find((u) => /~large\.jpg$/i.test(u)) ?? arquivos.find((u) => /~medium\.jpg$/i.test(u)) ?? arquivos.find((u) => /~orig\.jpg$/i.test(u));
     if (!alvo || usadas.has(alvo)) continue;
-    return { titulo: d.title, chaveUso: alvo, url: encodeURI(alvo.replace(/^http:/, "https:")), pagina: `https://images.nasa.gov/details/${d.nasa_id}`, autor: d.photographer || d.secondary_creator || d.center || "NASA", licenca: "Domínio público (NASA)" };
+    return { titulo: d.title, chaveUso: alvo, url: encodeURI(alvo.replace(/^http:/, "https:")), previa: encodeURI(alvo.replace(/^http:/, "https:").replace(/~(large|medium|orig)\.jpg$/i, "~small.jpg")), pagina: `https://images.nasa.gov/details/${d.nasa_id}`, autor: d.photographer || d.secondary_creator || d.center || "NASA", licenca: "Domínio público (NASA)" };
   }
   return null;
 }
@@ -158,7 +160,7 @@ async function commonsLista(busca, n) {
   });
   return [...(j.query?.pages ?? [])].sort((x, y) => (x.index ?? 99) - (y.index ?? 99))
     .filter((pg) => { const ii = pg.imageinfo?.[0]; return ii && tipoOk(ii.mime) && !usadas.has(pg.title) && (ii.width ?? 0) >= 800; })
-    .slice(0, n).map((pg) => { const ii = pg.imageinfo[0], m = ii.extmetadata || {}; return { titulo: pg.title, chaveUso: pg.title, url: ii.thumburl || ii.url, pagina: ii.descriptionurl, autor: limparHtml(m.Artist?.value) || "Desconhecido", licenca: limparHtml(m.LicenseShortName?.value) || "ver página" }; });
+    .slice(0, n).map((pg) => { const ii = pg.imageinfo[0], m = ii.extmetadata || {}; return { titulo: pg.title, chaveUso: pg.title, url: ii.thumburl || ii.url, previa: miniCommons(ii.thumburl || ii.url), pagina: ii.descriptionurl, autor: limparHtml(m.Artist?.value) || "Desconhecido", licenca: limparHtml(m.LicenseShortName?.value) || "ver página" }; });
 }
 async function juntarCandidatas(cfg) {
   const termo = cfg.commons || cfg.wiki || cfg.rotulo || cfg.busca;
@@ -206,21 +208,27 @@ if (pastaCand) {
   const { execFileSync } = await import("node:child_process");
   fs.mkdirSync(pastaCand, { recursive: true });
   const indice = [];
-  for (const [chave, cfg] of Object.entries(p.imagens ?? {})) {
-    if ((cfg.arquivo && fs.existsSync(path.join(midia, cfg.arquivo)) && !cfg.busca) || (cfg.propria && !cfg.busca)) continue;
+  const baixarPrevia = async (c) => {
+    for (const u of [c.previa, c.url].filter(Boolean)) {
+      try {
+        const r = await fetch(u, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20000) });
+        if (!r.ok || !/^image\//.test(r.headers.get("content-type") ?? "image/jpeg")) continue;
+        const bytes = Buffer.from(await r.arrayBuffer());
+        if (bytes.length >= 4000) return bytes;
+      } catch {}
+    }
+    return null;
+  };
+  const umaChave = async (chave, cfg) => {
     const lista = await juntarCandidatas(cfg);
     const tmp = fs.mkdtempSync(path.join(pastaCand, ".tmp-"));
     const ok = [];
-    for (const c of lista) {
-      try {
-        const r = await fetch(c.url, { headers: { "User-Agent": UA } });
-        if (!r.ok || !/^image\//.test(r.headers.get("content-type") ?? "image/jpeg")) continue;
-        const bytes = Buffer.from(await r.arrayBuffer());
-        if (bytes.length < 15000) continue;
-        ok.push(c);
-        fs.writeFileSync(path.join(tmp, `c${ok.length}.img`), bytes);
-      } catch {}
-    }
+    const baixadas = await Promise.all(lista.map(baixarPrevia));
+    lista.forEach((c, i) => {
+      if (!baixadas[i]) return;
+      ok.push(c);
+      fs.writeFileSync(path.join(tmp, `c${ok.length}.img`), baixadas[i]);
+    });
     if (ok.length) {
       // folha 4 colunas, na ordem 1..N (esquerda → direita, de cima para baixo)
       const linhas = Math.ceil(ok.length / 4);
@@ -242,7 +250,10 @@ if (pastaCand) {
       }
     } else console.warn(`  ${chave}: nenhuma candidata`);
     fs.rmSync(tmp, { recursive: true, force: true });
-  }
+  };
+  const pendentes = Object.entries(p.imagens ?? {}).filter(([, cfg]) => !((cfg.arquivo && fs.existsSync(path.join(midia, cfg.arquivo)) && !cfg.busca) || (cfg.propria && !cfg.busca)));
+  for (let i = 0; i < pendentes.length; i += 4) await Promise.all(pendentes.slice(i, i + 4).map(([chave, cfg]) => umaChave(chave, cfg)));
+  indice.sort((a, b) => pendentes.findIndex(([k]) => k === a.chave) - pendentes.findIndex(([k]) => k === b.chave));
   fs.writeFileSync(path.join(pastaCand, "indice.json"), JSON.stringify(indice, null, 1));
   console.log(`${indice.length} folhas de candidatas em ${pastaCand}`);
   process.exit(0);
@@ -262,7 +273,7 @@ if (arqEscolhas && fs.existsSync(arqEscolhas)) {
     const info = JSON.parse(fs.readFileSync(arqLista, "utf8"))[Number(n) - 1];
     if (!info || usadas.has(info.chaveUso)) continue;
     try {
-      const r = await fetch(info.url, { headers: { "User-Agent": UA } });
+      const r = await fetch(info.url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(60000) });
       if (!r.ok) throw new Error(`download ${r.status}`);
       const bytes = Buffer.from(await r.arrayBuffer());
       const rel = `imagens/${chave}-${crypto.createHash("sha1").update(info.url).digest("hex").slice(0, 8)}.jpg`;
