@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-29T12:56:51.385Z",
- "atualizadoEm": "2026-10-29T12:56:51.385Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-29T14:21:49Z",
+ "status": "pronto",
  "pedido": {
   "tema": "O cofre de sementes do fim do mundo — ângulo: Como funciona o Svalbard Global Seed Vault, escavado na rocha e no permafrost, quem pode retirar sementes e o caso real da retirada pela Síria/ICARDA. Mostra o cofre como seguro da humanidade, não como curiosidade apocalíptica.",
   "tom": "Curioso e analítico",
@@ -54,15 +54,8098 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "No meio do Ártico, dentro de uma montanha congelada, existe um cofre que não guarda ouro nem dinheiro. Ele guarda o que você come todos os dias. São mais de um milhão de amostras de sementes, vindas de quase todos os países do mundo. E em dois mil e quinze, uma guerra obrigou o mundo a abrir esse cofre pela primeira vez.",
+   "galeria": [
+    "cofre-entrada",
+    "svalbard-ilha",
+    "cofre-interior",
+    "alepo"
+   ],
+   "galeriaEm": [
+    0,
+    "come",
+    "milhão",
+    "quinze"
+   ],
+   "fontes": [
+    "NordGen 2025"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "UM COFRE DE SEMENTES?",
+     "em": "cofre",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1378238,
+     "unidade": "amostras",
+     "rotulo": "no fim de 2025",
+     "em": "milhão",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Neste vídeo, você vai entender como esse lugar funciona por dentro, quem pode guardar sementes ali e quem pode tirá-las. Vai ver o caso real da Síria, que transformou o cofre em um teste de verdade. E vai entender por que ele não é uma curiosidade apocalíptica, e sim um seguro para a humanidade. Mas primeiro, por que alguém escavaria uma montanha para guardar sementes?",
+   "galeria": [
+    "svalbard-mapa",
+    "longyearbyen",
+    "cofre-noite",
+    "campo-trigo"
+   ],
+   "galeriaEm": [
+    0,
+    "Síria",
+    "apocalíptica",
+    "escavaria"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "lupa",
+       "Como funciona"
+      ],
+      [
+       "chave",
+       "Quem retira"
+      ],
+      [
+       "escudo",
+       "Seguro"
+      ]
+     ],
+     "em": "entender",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "diversidade",
+   "texto": "Quase tudo o que comemos vem de poucas plantas, como trigo, arroz, milho e batata. Mas cada uma tem milhares de variedades, que mudam em cor, sabor e resistência. Uma aguenta a seca, outra uma praga, outra o sal no solo. Essa diversidade permite criar plantas novas quando o clima muda. Quando ela se perde, a defesa some junto. A Irlanda viveu isso a partir de mil oitocentos e quarenta e cinco, na fome da batata. Por isso, o mundo decidiu guardar uma cópia de segurança.",
+   "galeria": [
+    "milho-variedades",
+    "batata-andes",
+    "arroz-campo",
+    "fome-irlanda",
+    "banco-sementes"
+   ],
+   "galeriaEm": [
+    0,
+    "milhares",
+    "aguenta",
+    "perde",
+    "cópia"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "POR QUE GUARDAR SEMENTES",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Variedade",
+     "significado": "Versão de uma planta com traços próprios",
+     "em": "variedades",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "copia-seguranca",
+   "texto": "A ideia não é nova. O botânico russo Nikolai Vavilov reuniu uma das primeiras grandes coleções de sementes, no início do século vinte. Mas cada banco de sementes tem seus riscos: guerra, enchente, falta de energia, ou simplesmente falta de dinheiro. Daí nasceu a cópia de segurança. Cada banco manda uma duplicata das suas sementes para um lugar distante e seguro. Esse lugar foi inaugurado em vinte e seis de fevereiro de dois mil e oito, na ilha de Spitsbergen, em Svalbard, na Noruega. Mas por que justo ali?",
+   "galeria": [
+    "vavilov",
+    "genebank-lab",
+    "cary-fowler",
+    "spitsbergen-mapa",
+    "longyearbyen-inverno"
+   ],
+   "galeriaEm": [
+    0,
+    "riscos",
+    "Daí",
+    "inaugurado",
+    "justo"
+   ],
+   "fontes": [
+    "Seed Vault"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2008",
+       "Inauguração do cofre"
+      ],
+      [
+       "2015",
+       "Primeira retirada"
+      ],
+      [
+       "2025",
+       "1,38 milhão de amostras"
+      ]
+     ],
+     "em": "inaugurado",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "montanha",
+   "texto": "Svalbard fica bem acima do nível do mar, o que protege o cofre até nos piores cenários de elevação dos oceanos. A região é geologicamente estável e tem pouca umidade. E, apesar de remota, tem voos regulares. Isso importa, porque as caixas chegam de avião, vindas de todos os continentes. O cofre fica a mais de cem metros montanha adentro, sob uma camada de rocha de quarenta a sessenta metros. E há um detalhe que faz toda a diferença: o frio.",
+   "galeria": [
+    "svalbard-costa",
+    "platoberget",
+    "aeroporto-svalbard",
+    "cofre-rocha",
+    "permafrost"
+   ],
+   "galeriaEm": [
+    0,
+    "geologicamente",
+    "remota",
+    "cem",
+    "detalhe"
+   ],
+   "fontes": [
+    "Crop Trust",
+    "Seed Vault"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "UMA MONTANHA NO ÁRTICO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Todo o mundo",
+     "para": "Svalbard",
+     "legenda": "Caixas chegam de avião",
+     "em": "avião",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "frio",
+   "texto": "As sementes ficam a menos dezoito graus Celsius, a temperatura ideal para conservá-las por décadas. O sistema de refrigeração ajuda, mas o permafrost e a rocha mantêm tudo congelado mesmo se a energia acabar. As sementes vão em pacotes lacrados de três camadas, dentro de caixas, sobre prateleiras. A capacidade é de quatro milhões e quinhentas mil amostras. Com uns quinhentos grãos em cada, são até dois bilhões e meio de sementes. Parece à prova de tudo. Mas a natureza ia testar essa promessa.",
+   "galeria": [
+    "cofre-corredor",
+    "cofre-camara",
+    "pacote-sementes",
+    "sementes-closeup",
+    "neve-derretendo"
+   ],
+   "galeriaEm": [
+    0,
+    "refrigeração",
+    "pacotes",
+    "capacidade",
+    "Parece"
+   ],
+   "fontes": [
+    "Crop Trust"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": -18,
+     "unidade": "°C",
+     "rotulo": "temperatura ideal",
+     "em": "dezoito",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "agua-2016",
+   "texto": "Em dois mil e dezesseis, temperaturas incomumente altas derreteram parte do permafrost ao redor da entrada. A água entrou no túnel de acesso, mas congelou antes de chegar às sementes. A Noruega reagiu. Vieram impermeabilização das paredes do túnel, retirada de fontes de calor e valas de drenagem do lado de fora. O recado era claro: um cofre feito para o futuro precisa se adaptar a um clima que também muda. E quem decide o que entra e o que sai desse cofre? A resposta pode te surpreender.",
+   "galeria": [
+    "svalbard-verao",
+    "tunel-obras",
+    "drenagem",
+    "clima-artico",
+    "cofre-estrada"
+   ],
+   "galeriaEm": [
+    0,
+    "entrou",
+    "reagiu",
+    "recado",
+    "decide"
+   ],
+   "fontes": [
+    "Crop Trust",
+    "Commercial Observer"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ÁGUA NO TÚNEL",
+     "sub": "2016",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "check",
+     "ok": true,
+     "texto": "Sementes não foram atingidas",
+     "nota": "A água congelou no túnel",
+     "em": "congelou",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "quem-manda",
+   "texto": "A Noruega é dona da estrutura. Mas não é dona das sementes. Cada banco que deposita ali continua sendo dono do que mandou. E os depósitos são gratuitos. É o sistema de caixa-preta. As caixas ficam lacradas na prateleira, e só quem depositou pode abri-las e retirá-las. O Crop Trust e o centro genético nórdico, o NordGen, cuidam da operação, em parceria com o governo norueguês. Tudo isso dentro de um sistema internacional guiado pela FAO, a agência da ONU para alimentação e agricultura.",
+   "galeria": [
+    "noruega-governo",
+    "depositantes",
+    "caixas-prateleira",
+    "nordgen",
+    "fao"
+   ],
+   "galeriaEm": [
+    0,
+    "deposita",
+    "caixa-preta",
+    "Crop",
+    "internacional"
+   ],
+   "fontes": [
+    "Crop Trust",
+    "Seed Vault"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUEM É O DONO?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "CAIXA-PRETA",
+     "cor": "cinza",
+     "em": "caixa-preta",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "numeros",
+   "texto": "Hoje, o cofre guarda mais de um milhão e trezentas e setenta mil amostras de sementes. Elas vieram de cento e trinta e um bancos de sementes, segundo o NordGen, no fim de dois mil e vinte e cinco. Há variedades de arroz, trigo, cevada, feijão, sorgo e muitas outras plantas. Só em dois mil e vinte e cinco, entraram quase quarenta e sete mil amostras, de quarenta e sete depositantes. Mas um desses depositantes viveria o pior cenário possível.",
+   "galeria": [
+    "amostras-potes",
+    "crop-trust",
+    "irri",
+    "feijao",
+    "siria-mapa"
+   ],
+   "galeriaEm": [
+    0,
+    "vieram",
+    "variedades",
+    "entraram",
+    "viveria"
+   ],
+   "fontes": [
+    "NordGen 2025"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O CONTEÚDO DO COFRE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 131,
+     "unidade": "bancos",
+     "rotulo": "depositantes em 2025",
+     "em": "bancos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "icarda",
+   "texto": "Em Alepo, no norte da Síria, ficava o ICARDA, um centro internacional de pesquisa agrícola para regiões secas. O banco de sementes dele guardava variedades de trigo, cevada, ervilha, trevo e capins forrageiros. A guerra na Síria se intensificou em dois mil e doze. Em dois mil e quinze, o banco de Alepo já não conseguia funcionar. Mas havia uma cópia, a milhares de quilômetros dali: trezentas e vinte e cinco caixas no cofre de Svalbard. A hora de usar o seguro tinha chegado.",
+   "galeria": [
+    "icarda",
+    "cevada",
+    "guerra-alepo",
+    "icarda-caixas",
+    "cofre-porta"
+   ],
+   "galeriaEm": [
+    0,
+    "dele",
+    "guerra",
+    "havia",
+    "seguro"
+   ],
+   "fontes": [
+    "Seed Vault",
+    "Crop Trust"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A SÍRIA E O ICARDA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Svalbard",
+     "para": "Alepo",
+     "legenda": "325 caixas guardadas",
+     "em": "caixas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "pedido-2015",
+   "texto": "Em setembro de dois mil e quinze, o ICARDA fez o pedido: queria de volta cerca de cento e trinta das caixas depositadas. Eram mais de cento e dezesseis mil amostras, segundo o Crop Trust na época. O destino não era Alepo, em guerra. As sementes serviriam para recriar o banco em outros lugares. Era a primeira retirada da história do cofre. Mas retirar sementes é só metade do trabalho.",
+   "galeria": [
+    "retirada-caixas",
+    "caixas-trigo",
+    "libano-mapa",
+    "aviao-carga",
+    "marrocos-mapa"
+   ],
+   "galeriaEm": [
+    0,
+    "dezesseis",
+    "destino",
+    "primeira",
+    "metade"
+   ],
+   "fontes": [
+    "Crop Trust",
+    "Al Jazeera"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "PRIMEIRA RETIRADA",
+     "cor": "vermelho",
+     "em": "primeira",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "retirada-2017",
+   "texto": "Em setembro de dois mil e dezessete, o ICARDA retirou cinquenta e duas mil, quatrocentas e cinquenta e uma amostras. As sementes foram multiplicadas em campos no Líbano e no Marrocos, para gerar material novo e saudável. E aí veio a prova de que o sistema funciona: o ICARDA devolveu ao cofre sementes novas, produzidas a partir das que recebeu. Em dois mil e dezenove, uma terceira retirada levou trinta e seis caixas. Trinta e uma, de trigo e cevada, foram para o Marrocos. As outras cinco, de forrageiras, foram para o Líbano. Até então, o ICARDA era o único banco que precisara retirar amostras do cofre.",
+   "galeria": [
+    "retirada-2017",
+    "terbol",
+    "campo-multiplicacao",
+    "redeposito",
+    "rabat",
+    "forrageiras"
+   ],
+   "galeriaEm": [
+    0,
+    "multiplicadas",
+    "prova",
+    "terceira",
+    "trigo",
+    "outras"
+   ],
+   "fontes": [
+    "Seed Vault",
+    "Crop Trust"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "RETIRADAS E DEPÓSITOS",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2015",
+       "Pedido"
+      ],
+      [
+       "2017",
+       "52.451 amostras"
+      ],
+      [
+       "2019",
+       "36 caixas"
+      ]
+     ],
+     "em": "retirou",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "seguro-funcionou",
+   "texto": "Segundo o cofre, as sementes retiradas em dois mil e quinze e dois mil e dezessete germinaram bem. Os novos bancos do ICARDA, em Terbol, no Líbano, e em Rabat, no Marrocos, nasceram dessas sementes. Até dois mil e dezenove, sementes novas de quarenta e dois mil, setecentos e vinte e nove acessos já tinham voltado ao cofre. Ou seja, a coleção de Alepo não sumiu com a guerra. Foi reconstruída, graças a uma cópia guardada no gelo.",
+   "galeria": [
+    "germinacao",
+    "banco-reconstruido",
+    "campo-cevada-marrocos",
+    "gelo-cofre",
+    "trigo-espigas"
+   ],
+   "galeriaEm": [
+    0,
+    "bancos",
+    "acessos",
+    "seja",
+    "graças"
+   ],
+   "fontes": [
+    "Seed Vault 2019"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O SEGURO FUNCIONOU",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 42729,
+     "unidade": "acessos",
+     "rotulo": "devolvidos ao cofre até 2019",
+     "em": "quarenta",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "seguro-nao-apocalipse",
+   "texto": "Costuma-se chamar o lugar de cofre do fim do mundo. Mas o caso da Síria mostra o oposto. Ninguém ali espera um apocalipse. O cofre existe para problemas reais e comuns: guerras locais, desastres, falhas de energia. É a última cópia de um sistema maior, de bancos de sementes que trabalham todos os dias, emprestando e multiplicando variedades. Funciona como um backup. Você espera nunca precisar dele, mas ele só vale alguma coisa se existir antes da crise.",
+   "galeria": [
+    "cofre-visto-longe",
+    "cooperacao",
+    "colheita",
+    "aurora",
+    "crise-seca"
+   ],
+   "galeriaEm": [
+    0,
+    "Ninguém",
+    "última",
+    "backup",
+    "crise"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SEGURO, NÃO FIM DO MUNDO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "BACKUP DA HUMANIDADE",
+     "cor": "verde",
+     "em": "backup",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "limites",
+   "texto": "Há limites, claro. O cofre guarda sementes. Culturas que se reproduzem por mudas, como a banana, precisam de outros métodos. E uma amostra só tem valor se alguém souber o que ela é. Por isso, cada banco mantém seus registros e dados. Também depende de dinheiro constante, de cooperação entre países e de bancos que continuem funcionando lá fora. Ainda assim, poucos lugares reúnem tanta diversidade agrícola sob o mesmo tipo de proteção.",
+   "galeria": [
+    "banana",
+    "laboratorio",
+    "cofre-visto-longe-2",
+    "cofre-noite-2"
+   ],
+   "galeriaEm": [
+    0,
+    "amostra",
+    "depende",
+    "Ainda"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "OS LIMITES DO COFRE",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Voltemos à pergunta do começo: por que abrir um cofre congelado no Ártico para recuperar sementes? Porque cada semente é uma solução que pode ser necessária amanhã, para uma seca, uma praga ou um calor que ainda não conhecemos. O cofre de Svalbard não é uma curiosidade do fim do mundo. É um seguro para a comida de todos nós. Se você gostou, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos seguir explorando como o mundo funciona.",
+   "galeria": [
+    "cofre-entrada-2",
+    "campo-final",
+    "praga-lavoura",
+    "svalbard-final",
+    "noite-final"
+   ],
+   "galeriaEm": [
+    0,
+    "Porque",
+    "calor",
+    "Svalbard",
+    "gostou"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "seguir",
+     "texto": "INSCREVA-SE NO INOVA MUNDO",
+     "em": "inscreva-se",
+     "posicao": "meio2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "09deaa882f",
+   "texto": "No meio do Ártico, dentro de uma montanha congelada, existe um cofre que não guarda ouro nem dinheiro. Ele guarda o que você come todos os dias. São mais de um milhão de amostras de sementes, vindas de quase todos os países do mundo. E em dois mil e quinze, uma guerra obrigou o mundo a abrir esse cofre pela primeira vez.",
+   "audio": "audio/gancho-09deaa882f.mp3",
+   "duracao": 24.059,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "meio",
+     "i": 0.284,
+     "f": 0.571
+    },
+    {
+     "p": "do",
+     "i": 0.584,
+     "f": 0.727
+    },
+    {
+     "p": "Ártico",
+     "i": 0.74,
+     "f": 1.183
+    },
+    {
+     "p": "dentro",
+     "i": 1.443,
+     "f": 1.795
+    },
+    {
+     "p": "de",
+     "i": 1.808,
+     "f": 1.873
+    },
+    {
+     "p": "uma",
+     "i": 1.886,
+     "f": 1.99
+    },
+    {
+     "p": "montanha",
+     "i": 2.003,
+     "f": 2.407
+    },
+    {
+     "p": "congelada",
+     "i": 2.42,
+     "f": 3.097
+    },
+    {
+     "p": "existe",
+     "i": 3.357,
+     "f": 3.748
+    },
+    {
+     "p": "um",
+     "i": 3.761,
+     "f": 3.839
+    },
+    {
+     "p": "cofre",
+     "i": 3.852,
+     "f": 4.23
+    },
+    {
+     "p": "que",
+     "i": 4.243,
+     "f": 4.334
+    },
+    {
+     "p": "não",
+     "i": 4.347,
+     "f": 4.516
+    },
+    {
+     "p": "guarda",
+     "i": 4.529,
+     "f": 4.959
+    },
+    {
+     "p": "ouro",
+     "i": 4.972,
+     "f": 5.232
+    },
+    {
+     "p": "nem",
+     "i": 5.245,
+     "f": 5.493
+    },
+    {
+     "p": "dinheiro",
+     "i": 5.506,
+     "f": 5.988
+    },
+    {
+     "p": "Ele",
+     "i": 7.23,
+     "f": 7.451
+    },
+    {
+     "p": "guarda",
+     "i": 7.464,
+     "f": 7.881
+    },
+    {
+     "p": "o",
+     "i": 7.894,
+     "f": 7.933
+    },
+    {
+     "p": "que",
+     "i": 7.946,
+     "f": 8.05
+    },
+    {
+     "p": "você",
+     "i": 8.063,
+     "f": 8.324
+    },
+    {
+     "p": "come",
+     "i": 8.337,
+     "f": 8.61
+    },
+    {
+     "p": "todos",
+     "i": 8.623,
+     "f": 8.975
+    },
+    {
+     "p": "os",
+     "i": 8.988,
+     "f": 9.17
+    },
+    {
+     "p": "dias",
+     "i": 9.183,
+     "f": 9.665
+    },
+    {
+     "p": "São",
+     "i": 10.926,
+     "f": 11.252
+    },
+    {
+     "p": "mais",
+     "i": 11.265,
+     "f": 11.551
+    },
+    {
+     "p": "de",
+     "i": 11.564,
+     "f": 11.681
+    },
+    {
+     "p": "um",
+     "i": 11.694,
+     "f": 11.851
+    },
+    {
+     "p": "milhão",
+     "i": 11.864,
+     "f": 12.241
+    },
+    {
+     "p": "de",
+     "i": 12.254,
+     "f": 12.345
+    },
+    {
+     "p": "amostras",
+     "i": 12.358,
+     "f": 12.918
+    },
+    {
+     "p": "de",
+     "i": 12.931,
+     "f": 13.022
+    },
+    {
+     "p": "sementes",
+     "i": 13.035,
+     "f": 13.713
+    },
+    {
+     "p": "vindas",
+     "i": 13.934,
+     "f": 14.364
+    },
+    {
+     "p": "de",
+     "i": 14.377,
+     "f": 14.507
+    },
+    {
+     "p": "quase",
+     "i": 14.52,
+     "f": 14.95
+    },
+    {
+     "p": "todos",
+     "i": 14.963,
+     "f": 15.301
+    },
+    {
+     "p": "os",
+     "i": 15.314,
+     "f": 15.47
+    },
+    {
+     "p": "países",
+     "i": 15.483,
+     "f": 15.952
+    },
+    {
+     "p": "do",
+     "i": 15.965,
+     "f": 16.069
+    },
+    {
+     "p": "mundo",
+     "i": 16.082,
+     "f": 16.447
+    },
+    {
+     "p": "E",
+     "i": 17.694,
+     "f": 17.798
+    },
+    {
+     "p": "em",
+     "i": 17.811,
+     "f": 17.915
+    },
+    {
+     "p": "dois",
+     "i": 17.928,
+     "f": 18.15
+    },
+    {
+     "p": "mil",
+     "i": 18.163,
+     "f": 18.267
+    },
+    {
+     "p": "e",
+     "i": 18.28,
+     "f": 18.319
+    },
+    {
+     "p": "quinze",
+     "i": 18.332,
+     "f": 18.762
+    },
+    {
+     "p": "uma",
+     "i": 18.996,
+     "f": 19.204
+    },
+    {
+     "p": "guerra",
+     "i": 19.218,
+     "f": 19.465
+    },
+    {
+     "p": "obrigou",
+     "i": 19.478,
+     "f": 19.882
+    },
+    {
+     "p": "o",
+     "i": 19.895,
+     "f": 19.921
+    },
+    {
+     "p": "mundo",
+     "i": 19.934,
+     "f": 20.285
+    },
+    {
+     "p": "a",
+     "i": 20.298,
+     "f": 20.324
+    },
+    {
+     "p": "abrir",
+     "i": 20.337,
+     "f": 20.611
+    },
+    {
+     "p": "esse",
+     "i": 20.624,
+     "f": 20.806
+    },
+    {
+     "p": "cofre",
+     "i": 20.819,
+     "f": 21.223
+    },
+    {
+     "p": "pela",
+     "i": 21.236,
+     "f": 21.444
+    },
+    {
+     "p": "primeira",
+     "i": 21.457,
+     "f": 21.835
+    },
+    {
+     "p": "vez",
+     "i": 21.848,
+     "f": 22.29
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "928c72f574",
+   "texto": "Neste vídeo, você vai entender como esse lugar funciona por dentro, quem pode guardar sementes ali e quem pode tirá-las. Vai ver o caso real da Síria, que transformou o cofre em um teste de verdade. E vai entender por que ele não é uma curiosidade apocalíptica, e sim um seguro para a humanidade. Mas primeiro, por que alguém escavaria uma montanha para guardar sementes?",
+   "audio": "audio/promessa-928c72f574.mp3",
+   "duracao": 27.638,
+   "palavras": [
+    {
+     "p": "Neste",
+     "i": 0.102,
+     "f": 0.532
+    },
+    {
+     "p": "vídeo",
+     "i": 0.545,
+     "f": 0.922
+    },
+    {
+     "p": "você",
+     "i": 1.287,
+     "f": 1.599
+    },
+    {
+     "p": "vai",
+     "i": 1.613,
+     "f": 1.73
+    },
+    {
+     "p": "entender",
+     "i": 1.743,
+     "f": 2.185
+    },
+    {
+     "p": "como",
+     "i": 2.198,
+     "f": 2.524
+    },
+    {
+     "p": "esse",
+     "i": 2.537,
+     "f": 2.706
+    },
+    {
+     "p": "lugar",
+     "i": 2.719,
+     "f": 3.071
+    },
+    {
+     "p": "funciona",
+     "i": 3.084,
+     "f": 3.657
+    },
+    {
+     "p": "por",
+     "i": 3.67,
+     "f": 3.839
+    },
+    {
+     "p": "dentro",
+     "i": 3.852,
+     "f": 4.269
+    },
+    {
+     "p": "quem",
+     "i": 4.568,
+     "f": 4.803
+    },
+    {
+     "p": "pode",
+     "i": 4.816,
+     "f": 5.102
+    },
+    {
+     "p": "guardar",
+     "i": 5.115,
+     "f": 5.532
+    },
+    {
+     "p": "sementes",
+     "i": 5.545,
+     "f": 6.027
+    },
+    {
+     "p": "ali",
+     "i": 6.04,
+     "f": 6.339
+    },
+    {
+     "p": "e",
+     "i": 6.352,
+     "f": 6.43
+    },
+    {
+     "p": "quem",
+     "i": 6.443,
+     "f": 6.691
+    },
+    {
+     "p": "pode",
+     "i": 6.704,
+     "f": 6.99
+    },
+    {
+     "p": "tirá-las",
+     "i": 7.003,
+     "f": 7.628
+    },
+    {
+     "p": "Vai",
+     "i": 8.886,
+     "f": 9.12
+    },
+    {
+     "p": "ver",
+     "i": 9.133,
+     "f": 9.342
+    },
+    {
+     "p": "o",
+     "i": 9.355,
+     "f": 9.42
+    },
+    {
+     "p": "caso",
+     "i": 9.433,
+     "f": 9.745
+    },
+    {
+     "p": "real",
+     "i": 9.759,
+     "f": 10.097
+    },
+    {
+     "p": "da",
+     "i": 10.11,
+     "f": 10.227
+    },
+    {
+     "p": "Síria",
+     "i": 10.24,
+     "f": 10.631
+    },
+    {
+     "p": "que",
+     "i": 10.904,
+     "f": 11.048
+    },
+    {
+     "p": "transformou",
+     "i": 11.061,
+     "f": 11.62
+    },
+    {
+     "p": "o",
+     "i": 11.633,
+     "f": 11.699
+    },
+    {
+     "p": "cofre",
+     "i": 11.712,
+     "f": 12.141
+    },
+    {
+     "p": "em",
+     "i": 12.154,
+     "f": 12.219
+    },
+    {
+     "p": "um",
+     "i": 12.232,
+     "f": 12.376
+    },
+    {
+     "p": "teste",
+     "i": 12.389,
+     "f": 12.805
+    },
+    {
+     "p": "de",
+     "i": 12.818,
+     "f": 12.91
+    },
+    {
+     "p": "verdade",
+     "i": 12.923,
+     "f": 13.508
+    },
+    {
+     "p": "E",
+     "i": 14.766,
+     "f": 14.883
+    },
+    {
+     "p": "vai",
+     "i": 14.896,
+     "f": 15.053
+    },
+    {
+     "p": "entender",
+     "i": 15.066,
+     "f": 15.599
+    },
+    {
+     "p": "por",
+     "i": 15.612,
+     "f": 15.808
+    },
+    {
+     "p": "que",
+     "i": 15.821,
+     "f": 15.951
+    },
+    {
+     "p": "ele",
+     "i": 15.964,
+     "f": 16.094
+    },
+    {
+     "p": "não",
+     "i": 16.107,
+     "f": 16.303
+    },
+    {
+     "p": "é",
+     "i": 16.316,
+     "f": 16.407
+    },
+    {
+     "p": "uma",
+     "i": 16.42,
+     "f": 16.589
+    },
+    {
+     "p": "curiosidade",
+     "i": 16.602,
+     "f": 17.214
+    },
+    {
+     "p": "apocalíptica",
+     "i": 17.227,
+     "f": 17.995
+    },
+    {
+     "p": "e",
+     "i": 18.295,
+     "f": 18.36
+    },
+    {
+     "p": "sim",
+     "i": 18.373,
+     "f": 18.633
+    },
+    {
+     "p": "um",
+     "i": 18.646,
+     "f": 18.724
+    },
+    {
+     "p": "seguro",
+     "i": 18.737,
+     "f": 19.232
+    },
+    {
+     "p": "para",
+     "i": 19.245,
+     "f": 19.401
+    },
+    {
+     "p": "a",
+     "i": 19.415,
+     "f": 19.441
+    },
+    {
+     "p": "humanidade",
+     "i": 19.454,
+     "f": 20.157
+    },
+    {
+     "p": "Mas",
+     "i": 21.414,
+     "f": 21.714
+    },
+    {
+     "p": "primeiro",
+     "i": 21.727,
+     "f": 22.208
+    },
+    {
+     "p": "por",
+     "i": 22.547,
+     "f": 22.742
+    },
+    {
+     "p": "que",
+     "i": 22.755,
+     "f": 22.899
+    },
+    {
+     "p": "alguém",
+     "i": 22.911,
+     "f": 23.237
+    },
+    {
+     "p": "escavaria",
+     "i": 23.25,
+     "f": 23.797
+    },
+    {
+     "p": "uma",
+     "i": 23.81,
+     "f": 23.927
+    },
+    {
+     "p": "montanha",
+     "i": 23.94,
+     "f": 24.5
+    },
+    {
+     "p": "para",
+     "i": 24.513,
+     "f": 24.695
+    },
+    {
+     "p": "guardar",
+     "i": 24.708,
+     "f": 25.125
+    },
+    {
+     "p": "sementes",
+     "i": 25.138,
+     "f": 25.893
+    }
+   ]
+  },
+  "diversidade": {
+   "hash": "e36526eb71",
+   "texto": "Quase tudo o que comemos vem de poucas plantas, como trigo, arroz, milho e batata. Mas cada uma tem milhares de variedades, que mudam em cor, sabor e resistência. Uma aguenta a seca, outra uma praga, outra o sal no solo. Essa diversidade permite criar plantas novas quando o clima muda. Quando ela se perde, a defesa some junto. A Irlanda viveu isso a partir de mil oitocentos e quarenta e cinco, na fome da batata. Por isso, o mundo decidiu guardar uma cópia de segurança.",
+   "audio": "audio/diversidade-e36526eb71.mp3",
+   "duracao": 38.818,
+   "palavras": [
+    {
+     "p": "Quase",
+     "i": 0.102,
+     "f": 0.558
+    },
+    {
+     "p": "tudo",
+     "i": 0.571,
+     "f": 0.857
+    },
+    {
+     "p": "o",
+     "i": 0.87,
+     "f": 0.896
+    },
+    {
+     "p": "que",
+     "i": 0.909,
+     "f": 1.027
+    },
+    {
+     "p": "comemos",
+     "i": 1.04,
+     "f": 1.508
+    },
+    {
+     "p": "vem",
+     "i": 1.521,
+     "f": 1.704
+    },
+    {
+     "p": "de",
+     "i": 1.717,
+     "f": 1.847
+    },
+    {
+     "p": "poucas",
+     "i": 1.86,
+     "f": 2.29
+    },
+    {
+     "p": "plantas",
+     "i": 2.303,
+     "f": 2.837
+    },
+    {
+     "p": "como",
+     "i": 3.084,
+     "f": 3.37
+    },
+    {
+     "p": "trigo",
+     "i": 3.383,
+     "f": 3.8
+    },
+    {
+     "p": "arroz",
+     "i": 4.073,
+     "f": 4.646
+    },
+    {
+     "p": "milho",
+     "i": 4.829,
+     "f": 5.206
+    },
+    {
+     "p": "e",
+     "i": 5.219,
+     "f": 5.258
+    },
+    {
+     "p": "batata",
+     "i": 5.271,
+     "f": 5.805
+    },
+    {
+     "p": "Mas",
+     "i": 7.062,
+     "f": 7.401
+    },
+    {
+     "p": "cada",
+     "i": 7.414,
+     "f": 7.713
+    },
+    {
+     "p": "uma",
+     "i": 7.726,
+     "f": 7.974
+    },
+    {
+     "p": "tem",
+     "i": 7.987,
+     "f": 8.117
+    },
+    {
+     "p": "milhares",
+     "i": 8.13,
+     "f": 8.612
+    },
+    {
+     "p": "de",
+     "i": 8.625,
+     "f": 8.703
+    },
+    {
+     "p": "variedades",
+     "i": 8.716,
+     "f": 9.51
+    },
+    {
+     "p": "que",
+     "i": 9.757,
+     "f": 9.901
+    },
+    {
+     "p": "mudam",
+     "i": 9.914,
+     "f": 10.317
+    },
+    {
+     "p": "em",
+     "i": 10.33,
+     "f": 10.434
+    },
+    {
+     "p": "cor",
+     "i": 10.447,
+     "f": 10.721
+    },
+    {
+     "p": "sabor",
+     "i": 10.929,
+     "f": 11.424
+    },
+    {
+     "p": "e",
+     "i": 11.437,
+     "f": 11.489
+    },
+    {
+     "p": "resistência",
+     "i": 11.502,
+     "f": 12.296
+    },
+    {
+     "p": "Uma",
+     "i": 13.542,
+     "f": 13.776
+    },
+    {
+     "p": "aguenta",
+     "i": 13.789,
+     "f": 14.141
+    },
+    {
+     "p": "a",
+     "i": 14.154,
+     "f": 14.18
+    },
+    {
+     "p": "seca",
+     "i": 14.193,
+     "f": 14.636
+    },
+    {
+     "p": "outra",
+     "i": 14.922,
+     "f": 15.183
+    },
+    {
+     "p": "uma",
+     "i": 15.196,
+     "f": 15.352
+    },
+    {
+     "p": "praga",
+     "i": 15.365,
+     "f": 15.821
+    },
+    {
+     "p": "outra",
+     "i": 16.055,
+     "f": 16.316
+    },
+    {
+     "p": "o",
+     "i": 16.329,
+     "f": 16.355
+    },
+    {
+     "p": "sal",
+     "i": 16.368,
+     "f": 16.654
+    },
+    {
+     "p": "no",
+     "i": 16.667,
+     "f": 16.784
+    },
+    {
+     "p": "solo",
+     "i": 16.797,
+     "f": 17.227
+    },
+    {
+     "p": "Essa",
+     "i": 18.486,
+     "f": 18.786
+    },
+    {
+     "p": "diversidade",
+     "i": 18.799,
+     "f": 19.502
+    },
+    {
+     "p": "permite",
+     "i": 19.515,
+     "f": 19.983
+    },
+    {
+     "p": "criar",
+     "i": 19.997,
+     "f": 20.322
+    },
+    {
+     "p": "plantas",
+     "i": 20.335,
+     "f": 20.817
+    },
+    {
+     "p": "novas",
+     "i": 20.83,
+     "f": 21.26
+    },
+    {
+     "p": "quando",
+     "i": 21.273,
+     "f": 21.507
+    },
+    {
+     "p": "o",
+     "i": 21.52,
+     "f": 21.559
+    },
+    {
+     "p": "clima",
+     "i": 21.572,
+     "f": 21.911
+    },
+    {
+     "p": "muda",
+     "i": 21.924,
+     "f": 22.314
+    },
+    {
+     "p": "Quando",
+     "i": 23.574,
+     "f": 23.848
+    },
+    {
+     "p": "ela",
+     "i": 23.861,
+     "f": 24.03
+    },
+    {
+     "p": "se",
+     "i": 24.043,
+     "f": 24.186
+    },
+    {
+     "p": "perde",
+     "i": 24.199,
+     "f": 24.694
+    },
+    {
+     "p": "a",
+     "i": 24.876,
+     "f": 24.928
+    },
+    {
+     "p": "defesa",
+     "i": 24.941,
+     "f": 25.384
+    },
+    {
+     "p": "some",
+     "i": 25.397,
+     "f": 25.736
+    },
+    {
+     "p": "junto",
+     "i": 25.749,
+     "f": 26.178
+    },
+    {
+     "p": "A",
+     "i": 27.438,
+     "f": 27.568
+    },
+    {
+     "p": "Irlanda",
+     "i": 27.581,
+     "f": 28.05
+    },
+    {
+     "p": "viveu",
+     "i": 28.063,
+     "f": 28.389
+    },
+    {
+     "p": "isso",
+     "i": 28.402,
+     "f": 28.623
+    },
+    {
+     "p": "a",
+     "i": 28.636,
+     "f": 28.675
+    },
+    {
+     "p": "partir",
+     "i": 28.688,
+     "f": 29.066
+    },
+    {
+     "p": "de",
+     "i": 29.079,
+     "f": 29.196
+    },
+    {
+     "p": "mil",
+     "i": 29.209,
+     "f": 29.378
+    },
+    {
+     "p": "oitocentos",
+     "i": 29.391,
+     "f": 30.016
+    },
+    {
+     "p": "e",
+     "i": 30.029,
+     "f": 30.133
+    },
+    {
+     "p": "quarenta",
+     "i": 30.146,
+     "f": 30.485
+    },
+    {
+     "p": "e",
+     "i": 30.498,
+     "f": 30.537
+    },
+    {
+     "p": "cinco",
+     "i": 30.55,
+     "f": 30.941
+    },
+    {
+     "p": "na",
+     "i": 31.188,
+     "f": 31.331
+    },
+    {
+     "p": "fome",
+     "i": 31.344,
+     "f": 31.696
+    },
+    {
+     "p": "da",
+     "i": 31.709,
+     "f": 31.8
+    },
+    {
+     "p": "batata",
+     "i": 31.813,
+     "f": 32.347
+    },
+    {
+     "p": "Por",
+     "i": 33.606,
+     "f": 33.801
+    },
+    {
+     "p": "isso",
+     "i": 33.814,
+     "f": 34.166
+    },
+    {
+     "p": "o",
+     "i": 34.361,
+     "f": 34.426
+    },
+    {
+     "p": "mundo",
+     "i": 34.439,
+     "f": 34.791
+    },
+    {
+     "p": "decidiu",
+     "i": 34.804,
+     "f": 35.221
+    },
+    {
+     "p": "guardar",
+     "i": 35.234,
+     "f": 35.676
+    },
+    {
+     "p": "uma",
+     "i": 35.689,
+     "f": 35.872
+    },
+    {
+     "p": "cópia",
+     "i": 35.885,
+     "f": 36.275
+    },
+    {
+     "p": "de",
+     "i": 36.288,
+     "f": 36.38
+    },
+    {
+     "p": "segurança",
+     "i": 36.393,
+     "f": 37.057
+    }
+   ]
+  },
+  "copia-seguranca": {
+   "hash": "8fd05a6b48",
+   "texto": "A ideia não é nova. O botânico russo Nikolai Vavilov reuniu uma das primeiras grandes coleções de sementes, no início do século vinte. Mas cada banco de sementes tem seus riscos: guerra, enchente, falta de energia, ou simplesmente falta de dinheiro. Daí nasceu a cópia de segurança. Cada banco manda uma duplicata das suas sementes para um lugar distante e seguro. Esse lugar foi inaugurado em vinte e seis de fevereiro de dois mil e oito, na ilha de Spitsbergen, em Svalbard, na Noruega. Mas por que justo ali?",
+   "audio": "audio/copia-seguranca-8fd05a6b48.mp3",
+   "duracao": 40.307,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "ideia",
+     "i": 0.258,
+     "f": 0.649
+    },
+    {
+     "p": "não",
+     "i": 0.662,
+     "f": 0.883
+    },
+    {
+     "p": "é",
+     "i": 0.896,
+     "f": 0.962
+    },
+    {
+     "p": "nova",
+     "i": 0.975,
+     "f": 1.417
+    },
+    {
+     "p": "O",
+     "i": 2.67,
+     "f": 2.774
+    },
+    {
+     "p": "botânico",
+     "i": 2.787,
+     "f": 3.412
+    },
+    {
+     "p": "russo",
+     "i": 3.425,
+     "f": 3.738
+    },
+    {
+     "p": "Nikolai",
+     "i": 3.751,
+     "f": 4.22
+    },
+    {
+     "p": "Vavilov",
+     "i": 4.233,
+     "f": 4.649
+    },
+    {
+     "p": "reuniu",
+     "i": 4.662,
+     "f": 5.066
+    },
+    {
+     "p": "uma",
+     "i": 5.079,
+     "f": 5.261
+    },
+    {
+     "p": "das",
+     "i": 5.274,
+     "f": 5.457
+    },
+    {
+     "p": "primeiras",
+     "i": 5.47,
+     "f": 5.964
+    },
+    {
+     "p": "grandes",
+     "i": 5.977,
+     "f": 6.368
+    },
+    {
+     "p": "coleções",
+     "i": 6.381,
+     "f": 6.941
+    },
+    {
+     "p": "de",
+     "i": 6.954,
+     "f": 7.045
+    },
+    {
+     "p": "sementes",
+     "i": 7.058,
+     "f": 7.748
+    },
+    {
+     "p": "no",
+     "i": 7.957,
+     "f": 8.048
+    },
+    {
+     "p": "início",
+     "i": 8.061,
+     "f": 8.451
+    },
+    {
+     "p": "do",
+     "i": 8.464,
+     "f": 8.569
+    },
+    {
+     "p": "século",
+     "i": 8.582,
+     "f": 9.076
+    },
+    {
+     "p": "vinte",
+     "i": 9.089,
+     "f": 9.506
+    },
+    {
+     "p": "Mas",
+     "i": 10.758,
+     "f": 11.071
+    },
+    {
+     "p": "cada",
+     "i": 11.084,
+     "f": 11.37
+    },
+    {
+     "p": "banco",
+     "i": 11.383,
+     "f": 11.748
+    },
+    {
+     "p": "de",
+     "i": 11.761,
+     "f": 11.839
+    },
+    {
+     "p": "sementes",
+     "i": 11.852,
+     "f": 12.399
+    },
+    {
+     "p": "tem",
+     "i": 12.412,
+     "f": 12.568
+    },
+    {
+     "p": "seus",
+     "i": 12.581,
+     "f": 12.789
+    },
+    {
+     "p": "riscos",
+     "i": 12.802,
+     "f": 13.31
+    },
+    {
+     "p": "guerra",
+     "i": 13.532,
+     "f": 13.987
+    },
+    {
+     "p": "enchente",
+     "i": 14.209,
+     "f": 14.808
+    },
+    {
+     "p": "falta",
+     "i": 15.107,
+     "f": 15.446
+    },
+    {
+     "p": "de",
+     "i": 15.459,
+     "f": 15.537
+    },
+    {
+     "p": "energia",
+     "i": 15.55,
+     "f": 16.097
+    },
+    {
+     "p": "ou",
+     "i": 16.357,
+     "f": 16.513
+    },
+    {
+     "p": "simplesmente",
+     "i": 16.526,
+     "f": 17.334
+    },
+    {
+     "p": "falta",
+     "i": 17.347,
+     "f": 17.711
+    },
+    {
+     "p": "de",
+     "i": 17.724,
+     "f": 17.841
+    },
+    {
+     "p": "dinheiro",
+     "i": 17.854,
+     "f": 18.284
+    },
+    {
+     "p": "Daí",
+     "i": 19.542,
+     "f": 19.959
+    },
+    {
+     "p": "nasceu",
+     "i": 19.972,
+     "f": 20.349
+    },
+    {
+     "p": "a",
+     "i": 20.362,
+     "f": 20.441
+    },
+    {
+     "p": "cópia",
+     "i": 20.454,
+     "f": 20.831
+    },
+    {
+     "p": "de",
+     "i": 20.844,
+     "f": 20.948
+    },
+    {
+     "p": "segurança",
+     "i": 20.961,
+     "f": 21.652
+    },
+    {
+     "p": "Cada",
+     "i": 22.902,
+     "f": 23.189
+    },
+    {
+     "p": "banco",
+     "i": 23.202,
+     "f": 23.566
+    },
+    {
+     "p": "manda",
+     "i": 23.579,
+     "f": 23.892
+    },
+    {
+     "p": "uma",
+     "i": 23.905,
+     "f": 24.061
+    },
+    {
+     "p": "duplicata",
+     "i": 24.074,
+     "f": 24.634
+    },
+    {
+     "p": "das",
+     "i": 24.647,
+     "f": 24.803
+    },
+    {
+     "p": "suas",
+     "i": 24.816,
+     "f": 25.038
+    },
+    {
+     "p": "sementes",
+     "i": 25.051,
+     "f": 25.623
+    },
+    {
+     "p": "para",
+     "i": 25.636,
+     "f": 25.806
+    },
+    {
+     "p": "um",
+     "i": 25.819,
+     "f": 25.884
+    },
+    {
+     "p": "lugar",
+     "i": 25.897,
+     "f": 26.222
+    },
+    {
+     "p": "distante",
+     "i": 26.235,
+     "f": 26.769
+    },
+    {
+     "p": "e",
+     "i": 26.782,
+     "f": 26.795
+    },
+    {
+     "p": "seguro",
+     "i": 26.808,
+     "f": 27.329
+    },
+    {
+     "p": "Esse",
+     "i": 28.59,
+     "f": 28.877
+    },
+    {
+     "p": "lugar",
+     "i": 28.89,
+     "f": 29.293
+    },
+    {
+     "p": "foi",
+     "i": 29.306,
+     "f": 29.436
+    },
+    {
+     "p": "inaugurado",
+     "i": 29.449,
+     "f": 30.022
+    },
+    {
+     "p": "em",
+     "i": 30.035,
+     "f": 30.14
+    },
+    {
+     "p": "vinte",
+     "i": 30.153,
+     "f": 30.387
+    },
+    {
+     "p": "e",
+     "i": 30.4,
+     "f": 30.426
+    },
+    {
+     "p": "seis",
+     "i": 30.439,
+     "f": 30.66
+    },
+    {
+     "p": "de",
+     "i": 30.673,
+     "f": 30.765
+    },
+    {
+     "p": "fevereiro",
+     "i": 30.778,
+     "f": 31.246
+    },
+    {
+     "p": "de",
+     "i": 31.259,
+     "f": 31.337
+    },
+    {
+     "p": "dois",
+     "i": 31.35,
+     "f": 31.546
+    },
+    {
+     "p": "mil",
+     "i": 31.559,
+     "f": 31.702
+    },
+    {
+     "p": "e",
+     "i": 31.715,
+     "f": 31.78
+    },
+    {
+     "p": "oito",
+     "i": 31.793,
+     "f": 32.08
+    },
+    {
+     "p": "na",
+     "i": 32.366,
+     "f": 32.535
+    },
+    {
+     "p": "ilha",
+     "i": 32.548,
+     "f": 32.783
+    },
+    {
+     "p": "de",
+     "i": 32.796,
+     "f": 32.913
+    },
+    {
+     "p": "Spitsbergen",
+     "i": 32.926,
+     "f": 33.772
+    },
+    {
+     "p": "em",
+     "i": 34.059,
+     "f": 34.163
+    },
+    {
+     "p": "Svalbard",
+     "i": 34.176,
+     "f": 34.84
+    },
+    {
+     "p": "na",
+     "i": 35.087,
+     "f": 35.205
+    },
+    {
+     "p": "Noruega",
+     "i": 35.218,
+     "f": 35.83
+    },
+    {
+     "p": "Mas",
+     "i": 37.086,
+     "f": 37.386
+    },
+    {
+     "p": "por",
+     "i": 37.399,
+     "f": 37.594
+    },
+    {
+     "p": "que",
+     "i": 37.607,
+     "f": 37.815
+    },
+    {
+     "p": "justo",
+     "i": 37.828,
+     "f": 38.232
+    },
+    {
+     "p": "ali",
+     "i": 38.245,
+     "f": 38.557
+    }
+   ]
+  },
+  "montanha": {
+   "hash": "8883b484c5",
+   "texto": "Svalbard fica bem acima do nível do mar, o que protege o cofre até nos piores cenários de elevação dos oceanos. A região é geologicamente estável e tem pouca umidade. E, apesar de remota, tem voos regulares. Isso importa, porque as caixas chegam de avião, vindas de todos os continentes. O cofre fica a mais de cem metros montanha adentro, sob uma camada de rocha de quarenta a sessenta metros. E há um detalhe que faz toda a diferença: o frio.",
+   "audio": "audio/montanha-8883b484c5.mp3",
+   "duracao": 36.232,
+   "palavras": [
+    {
+     "p": "Svalbard",
+     "i": 0.101,
+     "f": 0.804
+    },
+    {
+     "p": "fica",
+     "i": 0.817,
+     "f": 1.091
+    },
+    {
+     "p": "bem",
+     "i": 1.104,
+     "f": 1.364
+    },
+    {
+     "p": "acima",
+     "i": 1.377,
+     "f": 1.82
+    },
+    {
+     "p": "do",
+     "i": 1.833,
+     "f": 1.924
+    },
+    {
+     "p": "nível",
+     "i": 1.937,
+     "f": 2.289
+    },
+    {
+     "p": "do",
+     "i": 2.302,
+     "f": 2.419
+    },
+    {
+     "p": "mar",
+     "i": 2.432,
+     "f": 2.666
+    },
+    {
+     "p": "o",
+     "i": 3.07,
+     "f": 3.122
+    },
+    {
+     "p": "que",
+     "i": 3.135,
+     "f": 3.265
+    },
+    {
+     "p": "protege",
+     "i": 3.278,
+     "f": 3.76
+    },
+    {
+     "p": "o",
+     "i": 3.773,
+     "f": 3.812
+    },
+    {
+     "p": "cofre",
+     "i": 3.825,
+     "f": 4.19
+    },
+    {
+     "p": "até",
+     "i": 4.203,
+     "f": 4.437
+    },
+    {
+     "p": "nos",
+     "i": 4.45,
+     "f": 4.645
+    },
+    {
+     "p": "piores",
+     "i": 4.658,
+     "f": 5.023
+    },
+    {
+     "p": "cenários",
+     "i": 5.036,
+     "f": 5.505
+    },
+    {
+     "p": "de",
+     "i": 5.518,
+     "f": 5.583
+    },
+    {
+     "p": "elevação",
+     "i": 5.596,
+     "f": 6.143
+    },
+    {
+     "p": "dos",
+     "i": 6.156,
+     "f": 6.247
+    },
+    {
+     "p": "oceanos",
+     "i": 6.26,
+     "f": 6.989
+    },
+    {
+     "p": "A",
+     "i": 8.238,
+     "f": 8.355
+    },
+    {
+     "p": "região",
+     "i": 8.368,
+     "f": 8.837
+    },
+    {
+     "p": "é",
+     "i": 8.85,
+     "f": 8.902
+    },
+    {
+     "p": "geologicamente",
+     "i": 8.915,
+     "f": 9.775
+    },
+    {
+     "p": "estável",
+     "i": 9.788,
+     "f": 10.334
+    },
+    {
+     "p": "e",
+     "i": 10.347,
+     "f": 10.426
+    },
+    {
+     "p": "tem",
+     "i": 10.439,
+     "f": 10.647
+    },
+    {
+     "p": "pouca",
+     "i": 10.66,
+     "f": 10.985
+    },
+    {
+     "p": "umidade",
+     "i": 10.998,
+     "f": 11.532
+    },
+    {
+     "p": "E",
+     "i": 12.774,
+     "f": 13.073
+    },
+    {
+     "p": "apesar",
+     "i": 13.438,
+     "f": 13.945
+    },
+    {
+     "p": "de",
+     "i": 13.958,
+     "f": 14.05
+    },
+    {
+     "p": "remota",
+     "i": 14.063,
+     "f": 14.61
+    },
+    {
+     "p": "tem",
+     "i": 14.883,
+     "f": 15.091
+    },
+    {
+     "p": "voos",
+     "i": 15.104,
+     "f": 15.495
+    },
+    {
+     "p": "regulares",
+     "i": 15.508,
+     "f": 16.224
+    },
+    {
+     "p": "Isso",
+     "i": 17.478,
+     "f": 17.765
+    },
+    {
+     "p": "importa",
+     "i": 17.778,
+     "f": 18.285
+    },
+    {
+     "p": "porque",
+     "i": 18.559,
+     "f": 18.845
+    },
+    {
+     "p": "as",
+     "i": 18.858,
+     "f": 19.041
+    },
+    {
+     "p": "caixas",
+     "i": 19.054,
+     "f": 19.509
+    },
+    {
+     "p": "chegam",
+     "i": 19.522,
+     "f": 19.809
+    },
+    {
+     "p": "de",
+     "i": 19.822,
+     "f": 19.9
+    },
+    {
+     "p": "avião",
+     "i": 19.913,
+     "f": 20.304
+    },
+    {
+     "p": "vindas",
+     "i": 20.668,
+     "f": 21.033
+    },
+    {
+     "p": "de",
+     "i": 21.046,
+     "f": 21.189
+    },
+    {
+     "p": "todos",
+     "i": 21.202,
+     "f": 21.528
+    },
+    {
+     "p": "os",
+     "i": 21.541,
+     "f": 21.697
+    },
+    {
+     "p": "continentes",
+     "i": 21.71,
+     "f": 22.543
+    },
+    {
+     "p": "O",
+     "i": 23.79,
+     "f": 23.92
+    },
+    {
+     "p": "cofre",
+     "i": 23.933,
+     "f": 24.311
+    },
+    {
+     "p": "fica",
+     "i": 24.324,
+     "f": 24.558
+    },
+    {
+     "p": "a",
+     "i": 24.571,
+     "f": 24.597
+    },
+    {
+     "p": "mais",
+     "i": 24.61,
+     "f": 24.91
+    },
+    {
+     "p": "de",
+     "i": 24.923,
+     "f": 25.027
+    },
+    {
+     "p": "cem",
+     "i": 25.04,
+     "f": 25.353
+    },
+    {
+     "p": "metros",
+     "i": 25.366,
+     "f": 25.769
+    },
+    {
+     "p": "montanha",
+     "i": 25.782,
+     "f": 26.225
+    },
+    {
+     "p": "adentro",
+     "i": 26.238,
+     "f": 26.668
+    },
+    {
+     "p": "sob",
+     "i": 26.98,
+     "f": 27.189
+    },
+    {
+     "p": "uma",
+     "i": 27.202,
+     "f": 27.358
+    },
+    {
+     "p": "camada",
+     "i": 27.371,
+     "f": 27.853
+    },
+    {
+     "p": "de",
+     "i": 27.866,
+     "f": 27.957
+    },
+    {
+     "p": "rocha",
+     "i": 27.97,
+     "f": 28.386
+    },
+    {
+     "p": "de",
+     "i": 28.399,
+     "f": 28.504
+    },
+    {
+     "p": "quarenta",
+     "i": 28.517,
+     "f": 28.959
+    },
+    {
+     "p": "a",
+     "i": 28.972,
+     "f": 28.998
+    },
+    {
+     "p": "sessenta",
+     "i": 29.011,
+     "f": 29.519
+    },
+    {
+     "p": "metros",
+     "i": 29.532,
+     "f": 30.079
+    },
+    {
+     "p": "E",
+     "i": 31.326,
+     "f": 31.456
+    },
+    {
+     "p": "há",
+     "i": 31.469,
+     "f": 31.56
+    },
+    {
+     "p": "um",
+     "i": 31.573,
+     "f": 31.665
+    },
+    {
+     "p": "detalhe",
+     "i": 31.678,
+     "f": 32.212
+    },
+    {
+     "p": "que",
+     "i": 32.225,
+     "f": 32.355
+    },
+    {
+     "p": "faz",
+     "i": 32.368,
+     "f": 32.693
+    },
+    {
+     "p": "toda",
+     "i": 32.706,
+     "f": 32.967
+    },
+    {
+     "p": "a",
+     "i": 32.98,
+     "f": 33.019
+    },
+    {
+     "p": "diferença",
+     "i": 33.032,
+     "f": 33.722
+    },
+    {
+     "p": "o",
+     "i": 33.943,
+     "f": 34.021
+    },
+    {
+     "p": "frio",
+     "i": 34.034,
+     "f": 34.49
+    }
+   ]
+  },
+  "frio": {
+   "hash": "bb5be6ed98",
+   "texto": "As sementes ficam a menos dezoito graus Celsius, a temperatura ideal para conservá-las por décadas. O sistema de refrigeração ajuda, mas o permafrost e a rocha mantêm tudo congelado mesmo se a energia acabar. As sementes vão em pacotes lacrados de três camadas, dentro de caixas, sobre prateleiras. A capacidade é de quatro milhões e quinhentas mil amostras. Com uns quinhentos grãos em cada, são até dois bilhões e meio de sementes. Parece à prova de tudo. Mas a natureza ia testar essa promessa.",
+   "audio": "audio/frio-bb5be6ed98.mp3",
+   "duracao": 40.464,
+   "palavras": [
+    {
+     "p": "As",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "sementes",
+     "i": 0.31,
+     "f": 0.883
+    },
+    {
+     "p": "ficam",
+     "i": 0.896,
+     "f": 1.248
+    },
+    {
+     "p": "a",
+     "i": 1.261,
+     "f": 1.3
+    },
+    {
+     "p": "menos",
+     "i": 1.313,
+     "f": 1.665
+    },
+    {
+     "p": "dezoito",
+     "i": 1.678,
+     "f": 2.133
+    },
+    {
+     "p": "graus",
+     "i": 2.146,
+     "f": 2.472
+    },
+    {
+     "p": "Celsius",
+     "i": 2.485,
+     "f": 2.993
+    },
+    {
+     "p": "a",
+     "i": 3.24,
+     "f": 3.318
+    },
+    {
+     "p": "temperatura",
+     "i": 3.331,
+     "f": 3.943
+    },
+    {
+     "p": "ideal",
+     "i": 3.956,
+     "f": 4.347
+    },
+    {
+     "p": "para",
+     "i": 4.36,
+     "f": 4.542
+    },
+    {
+     "p": "conservá-las",
+     "i": 4.555,
+     "f": 5.297
+    },
+    {
+     "p": "por",
+     "i": 5.31,
+     "f": 5.519
+    },
+    {
+     "p": "décadas",
+     "i": 5.532,
+     "f": 6.17
+    },
+    {
+     "p": "O",
+     "i": 7.422,
+     "f": 7.552
+    },
+    {
+     "p": "sistema",
+     "i": 7.565,
+     "f": 8.138
+    },
+    {
+     "p": "de",
+     "i": 8.151,
+     "f": 8.255
+    },
+    {
+     "p": "refrigeração",
+     "i": 8.268,
+     "f": 9.102
+    },
+    {
+     "p": "ajuda",
+     "i": 9.115,
+     "f": 9.518
+    },
+    {
+     "p": "mas",
+     "i": 9.818,
+     "f": 9.935
+    },
+    {
+     "p": "o",
+     "i": 9.948,
+     "f": 10.078
+    },
+    {
+     "p": "permafrost",
+     "i": 10.091,
+     "f": 10.964
+    },
+    {
+     "p": "e",
+     "i": 10.977,
+     "f": 11.068
+    },
+    {
+     "p": "a",
+     "i": 11.081,
+     "f": 11.172
+    },
+    {
+     "p": "rocha",
+     "i": 11.185,
+     "f": 11.537
+    },
+    {
+     "p": "mantêm",
+     "i": 11.55,
+     "f": 11.953
+    },
+    {
+     "p": "tudo",
+     "i": 11.966,
+     "f": 12.24
+    },
+    {
+     "p": "congelado",
+     "i": 12.253,
+     "f": 12.865
+    },
+    {
+     "p": "mesmo",
+     "i": 12.878,
+     "f": 13.308
+    },
+    {
+     "p": "se",
+     "i": 13.321,
+     "f": 13.425
+    },
+    {
+     "p": "a",
+     "i": 13.438,
+     "f": 13.464
+    },
+    {
+     "p": "energia",
+     "i": 13.477,
+     "f": 13.959
+    },
+    {
+     "p": "acabar",
+     "i": 13.972,
+     "f": 14.427
+    },
+    {
+     "p": "As",
+     "i": 15.678,
+     "f": 15.86
+    },
+    {
+     "p": "sementes",
+     "i": 15.873,
+     "f": 16.472
+    },
+    {
+     "p": "vão",
+     "i": 16.485,
+     "f": 16.668
+    },
+    {
+     "p": "em",
+     "i": 16.681,
+     "f": 16.746
+    },
+    {
+     "p": "pacotes",
+     "i": 16.759,
+     "f": 17.254
+    },
+    {
+     "p": "lacrados",
+     "i": 17.267,
+     "f": 17.853
+    },
+    {
+     "p": "de",
+     "i": 17.866,
+     "f": 17.983
+    },
+    {
+     "p": "três",
+     "i": 17.996,
+     "f": 18.269
+    },
+    {
+     "p": "camadas",
+     "i": 18.282,
+     "f": 18.894
+    },
+    {
+     "p": "dentro",
+     "i": 19.129,
+     "f": 19.493
+    },
+    {
+     "p": "de",
+     "i": 19.506,
+     "f": 19.61
+    },
+    {
+     "p": "caixas",
+     "i": 19.623,
+     "f": 20.196
+    },
+    {
+     "p": "sobre",
+     "i": 20.444,
+     "f": 20.73
+    },
+    {
+     "p": "prateleiras",
+     "i": 20.743,
+     "f": 21.55
+    },
+    {
+     "p": "A",
+     "i": 22.806,
+     "f": 22.923
+    },
+    {
+     "p": "capacidade",
+     "i": 22.936,
+     "f": 23.652
+    },
+    {
+     "p": "é",
+     "i": 23.665,
+     "f": 23.705
+    },
+    {
+     "p": "de",
+     "i": 23.718,
+     "f": 23.835
+    },
+    {
+     "p": "quatro",
+     "i": 23.848,
+     "f": 24.264
+    },
+    {
+     "p": "milhões",
+     "i": 24.277,
+     "f": 24.642
+    },
+    {
+     "p": "e",
+     "i": 24.655,
+     "f": 24.798
+    },
+    {
+     "p": "quinhentas",
+     "i": 24.811,
+     "f": 25.488
+    },
+    {
+     "p": "mil",
+     "i": 25.501,
+     "f": 25.723
+    },
+    {
+     "p": "amostras",
+     "i": 25.736,
+     "f": 26.465
+    },
+    {
+     "p": "Com",
+     "i": 27.726,
+     "f": 27.921
+    },
+    {
+     "p": "uns",
+     "i": 27.934,
+     "f": 28.091
+    },
+    {
+     "p": "quinhentos",
+     "i": 28.104,
+     "f": 28.716
+    },
+    {
+     "p": "grãos",
+     "i": 28.729,
+     "f": 28.963
+    },
+    {
+     "p": "em",
+     "i": 28.976,
+     "f": 29.171
+    },
+    {
+     "p": "cada",
+     "i": 29.184,
+     "f": 29.536
+    },
+    {
+     "p": "são",
+     "i": 29.888,
+     "f": 30.083
+    },
+    {
+     "p": "até",
+     "i": 30.096,
+     "f": 30.304
+    },
+    {
+     "p": "dois",
+     "i": 30.317,
+     "f": 30.721
+    },
+    {
+     "p": "bilhões",
+     "i": 30.734,
+     "f": 31.177
+    },
+    {
+     "p": "e",
+     "i": 31.19,
+     "f": 31.32
+    },
+    {
+     "p": "meio",
+     "i": 31.333,
+     "f": 31.632
+    },
+    {
+     "p": "de",
+     "i": 31.645,
+     "f": 31.737
+    },
+    {
+     "p": "sementes",
+     "i": 31.75,
+     "f": 32.466
+    },
+    {
+     "p": "Parece",
+     "i": 33.726,
+     "f": 34.169
+    },
+    {
+     "p": "à",
+     "i": 34.182,
+     "f": 34.208
+    },
+    {
+     "p": "prova",
+     "i": 34.221,
+     "f": 34.572
+    },
+    {
+     "p": "de",
+     "i": 34.585,
+     "f": 34.742
+    },
+    {
+     "p": "tudo",
+     "i": 34.755,
+     "f": 35.119
+    },
+    {
+     "p": "Mas",
+     "i": 36.366,
+     "f": 36.574
+    },
+    {
+     "p": "a",
+     "i": 36.587,
+     "f": 36.692
+    },
+    {
+     "p": "natureza",
+     "i": 36.705,
+     "f": 37.304
+    },
+    {
+     "p": "ia",
+     "i": 37.317,
+     "f": 37.499
+    },
+    {
+     "p": "testar",
+     "i": 37.512,
+     "f": 37.876
+    },
+    {
+     "p": "essa",
+     "i": 37.89,
+     "f": 38.098
+    },
+    {
+     "p": "promessa",
+     "i": 38.111,
+     "f": 38.71
+    }
+   ]
+  },
+  "agua-2016": {
+   "hash": "3a2432208a",
+   "texto": "Em dois mil e dezesseis, temperaturas incomumente altas derreteram parte do permafrost ao redor da entrada. A água entrou no túnel de acesso, mas congelou antes de chegar às sementes. A Noruega reagiu. Vieram impermeabilização das paredes do túnel, retirada de fontes de calor e valas de drenagem do lado de fora. O recado era claro: um cofre feito para o futuro precisa se adaptar a um clima que também muda. E quem decide o que entra e o que sai desse cofre? A resposta pode te surpreender.",
+   "audio": "audio/agua-2016-3a2432208a.mp3",
+   "duracao": 38.4,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "dois",
+     "i": 0.258,
+     "f": 0.506
+    },
+    {
+     "p": "mil",
+     "i": 0.519,
+     "f": 0.636
+    },
+    {
+     "p": "e",
+     "i": 0.649,
+     "f": 0.675
+    },
+    {
+     "p": "dezesseis",
+     "i": 0.688,
+     "f": 1.313
+    },
+    {
+     "p": "temperaturas",
+     "i": 1.586,
+     "f": 2.251
+    },
+    {
+     "p": "incomumente",
+     "i": 2.264,
+     "f": 2.967
+    },
+    {
+     "p": "altas",
+     "i": 2.98,
+     "f": 3.318
+    },
+    {
+     "p": "derreteram",
+     "i": 3.331,
+     "f": 3.852
+    },
+    {
+     "p": "parte",
+     "i": 3.865,
+     "f": 4.217
+    },
+    {
+     "p": "do",
+     "i": 4.23,
+     "f": 4.334
+    },
+    {
+     "p": "permafrost",
+     "i": 4.347,
+     "f": 5.167
+    },
+    {
+     "p": "ao",
+     "i": 5.18,
+     "f": 5.245
+    },
+    {
+     "p": "redor",
+     "i": 5.258,
+     "f": 5.636
+    },
+    {
+     "p": "da",
+     "i": 5.649,
+     "f": 5.74
+    },
+    {
+     "p": "entrada",
+     "i": 5.753,
+     "f": 6.235
+    },
+    {
+     "p": "A",
+     "i": 7.494,
+     "f": 7.637
+    },
+    {
+     "p": "água",
+     "i": 7.65,
+     "f": 7.963
+    },
+    {
+     "p": "entrou",
+     "i": 7.976,
+     "f": 8.262
+    },
+    {
+     "p": "no",
+     "i": 8.275,
+     "f": 8.406
+    },
+    {
+     "p": "túnel",
+     "i": 8.419,
+     "f": 8.718
+    },
+    {
+     "p": "de",
+     "i": 8.731,
+     "f": 8.809
+    },
+    {
+     "p": "acesso",
+     "i": 8.822,
+     "f": 9.356
+    },
+    {
+     "p": "mas",
+     "i": 9.669,
+     "f": 9.864
+    },
+    {
+     "p": "congelou",
+     "i": 9.877,
+     "f": 10.45
+    },
+    {
+     "p": "antes",
+     "i": 10.463,
+     "f": 10.762
+    },
+    {
+     "p": "de",
+     "i": 10.775,
+     "f": 10.866
+    },
+    {
+     "p": "chegar",
+     "i": 10.879,
+     "f": 11.218
+    },
+    {
+     "p": "às",
+     "i": 11.231,
+     "f": 11.335
+    },
+    {
+     "p": "sementes",
+     "i": 11.348,
+     "f": 12.038
+    },
+    {
+     "p": "A",
+     "i": 13.278,
+     "f": 13.382
+    },
+    {
+     "p": "Noruega",
+     "i": 13.395,
+     "f": 13.942
+    },
+    {
+     "p": "reagiu",
+     "i": 13.955,
+     "f": 14.528
+    },
+    {
+     "p": "Vieram",
+     "i": 15.774,
+     "f": 16.243
+    },
+    {
+     "p": "impermeabilização",
+     "i": 16.256,
+     "f": 17.285
+    },
+    {
+     "p": "das",
+     "i": 17.298,
+     "f": 17.48
+    },
+    {
+     "p": "paredes",
+     "i": 17.493,
+     "f": 17.949
+    },
+    {
+     "p": "do",
+     "i": 17.962,
+     "f": 18.105
+    },
+    {
+     "p": "túnel",
+     "i": 18.118,
+     "f": 18.482
+    },
+    {
+     "p": "retirada",
+     "i": 18.782,
+     "f": 19.381
+    },
+    {
+     "p": "de",
+     "i": 19.394,
+     "f": 19.511
+    },
+    {
+     "p": "fontes",
+     "i": 19.524,
+     "f": 19.98
+    },
+    {
+     "p": "de",
+     "i": 19.993,
+     "f": 20.084
+    },
+    {
+     "p": "calor",
+     "i": 20.097,
+     "f": 20.475
+    },
+    {
+     "p": "e",
+     "i": 20.488,
+     "f": 20.553
+    },
+    {
+     "p": "valas",
+     "i": 20.566,
+     "f": 20.943
+    },
+    {
+     "p": "de",
+     "i": 20.956,
+     "f": 21.034
+    },
+    {
+     "p": "drenagem",
+     "i": 21.048,
+     "f": 21.62
+    },
+    {
+     "p": "do",
+     "i": 21.633,
+     "f": 21.764
+    },
+    {
+     "p": "lado",
+     "i": 21.777,
+     "f": 22.115
+    },
+    {
+     "p": "de",
+     "i": 22.128,
+     "f": 22.245
+    },
+    {
+     "p": "fora",
+     "i": 22.258,
+     "f": 22.675
+    },
+    {
+     "p": "O",
+     "i": 23.934,
+     "f": 24.051
+    },
+    {
+     "p": "recado",
+     "i": 24.064,
+     "f": 24.507
+    },
+    {
+     "p": "era",
+     "i": 24.52,
+     "f": 24.663
+    },
+    {
+     "p": "claro",
+     "i": 24.676,
+     "f": 25.054
+    },
+    {
+     "p": "um",
+     "i": 25.379,
+     "f": 25.497
+    },
+    {
+     "p": "cofre",
+     "i": 25.51,
+     "f": 25.861
+    },
+    {
+     "p": "feito",
+     "i": 25.874,
+     "f": 26.2
+    },
+    {
+     "p": "para",
+     "i": 26.213,
+     "f": 26.369
+    },
+    {
+     "p": "o",
+     "i": 26.382,
+     "f": 26.395
+    },
+    {
+     "p": "futuro",
+     "i": 26.408,
+     "f": 26.786
+    },
+    {
+     "p": "precisa",
+     "i": 26.799,
+     "f": 27.267
+    },
+    {
+     "p": "se",
+     "i": 27.28,
+     "f": 27.385
+    },
+    {
+     "p": "adaptar",
+     "i": 27.398,
+     "f": 27.853
+    },
+    {
+     "p": "a",
+     "i": 27.866,
+     "f": 27.892
+    },
+    {
+     "p": "um",
+     "i": 27.905,
+     "f": 28.023
+    },
+    {
+     "p": "clima",
+     "i": 28.036,
+     "f": 28.374
+    },
+    {
+     "p": "que",
+     "i": 28.387,
+     "f": 28.543
+    },
+    {
+     "p": "também",
+     "i": 28.556,
+     "f": 28.96
+    },
+    {
+     "p": "muda",
+     "i": 28.973,
+     "f": 29.286
+    },
+    {
+     "p": "E",
+     "i": 30.534,
+     "f": 30.651
+    },
+    {
+     "p": "quem",
+     "i": 30.664,
+     "f": 30.86
+    },
+    {
+     "p": "decide",
+     "i": 30.873,
+     "f": 31.354
+    },
+    {
+     "p": "o",
+     "i": 31.367,
+     "f": 31.419
+    },
+    {
+     "p": "que",
+     "i": 31.433,
+     "f": 31.628
+    },
+    {
+     "p": "entra",
+     "i": 31.641,
+     "f": 31.992
+    },
+    {
+     "p": "e",
+     "i": 32.005,
+     "f": 32.084
+    },
+    {
+     "p": "o",
+     "i": 32.097,
+     "f": 32.175
+    },
+    {
+     "p": "que",
+     "i": 32.188,
+     "f": 32.318
+    },
+    {
+     "p": "sai",
+     "i": 32.331,
+     "f": 32.578
+    },
+    {
+     "p": "desse",
+     "i": 32.591,
+     "f": 32.839
+    },
+    {
+     "p": "cofre",
+     "i": 32.852,
+     "f": 33.36
+    },
+    {
+     "p": "A",
+     "i": 34.714,
+     "f": 34.831
+    },
+    {
+     "p": "resposta",
+     "i": 34.844,
+     "f": 35.508
+    },
+    {
+     "p": "pode",
+     "i": 35.521,
+     "f": 35.808
+    },
+    {
+     "p": "te",
+     "i": 35.821,
+     "f": 35.938
+    },
+    {
+     "p": "surpreender",
+     "i": 35.951,
+     "f": 36.667
+    }
+   ]
+  },
+  "quem-manda": {
+   "hash": "1f97376f2f",
+   "texto": "A Noruega é dona da estrutura. Mas não é dona das sementes. Cada banco que deposita ali continua sendo dono do que mandou. E os depósitos são gratuitos. É o sistema de caixa-preta. As caixas ficam lacradas na prateleira, e só quem depositou pode abri-las e retirá-las. O Crop Trust e o centro genético nórdico, o NordGen, cuidam da operação, em parceria com o governo norueguês. Tudo isso dentro de um sistema internacional guiado pela FAO, a agência da ONU para alimentação e agricultura.",
+   "audio": "audio/quem-manda-1f97376f2f.mp3",
+   "duracao": 40.464,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.193
+    },
+    {
+     "p": "Noruega",
+     "i": 0.206,
+     "f": 0.766
+    },
+    {
+     "p": "é",
+     "i": 0.779,
+     "f": 0.844
+    },
+    {
+     "p": "dona",
+     "i": 0.857,
+     "f": 1.209
+    },
+    {
+     "p": "da",
+     "i": 1.222,
+     "f": 1.3
+    },
+    {
+     "p": "estrutura",
+     "i": 1.313,
+     "f": 1.99
+    },
+    {
+     "p": "Mas",
+     "i": 3.246,
+     "f": 3.559
+    },
+    {
+     "p": "não",
+     "i": 3.572,
+     "f": 3.767
+    },
+    {
+     "p": "é",
+     "i": 3.78,
+     "f": 3.858
+    },
+    {
+     "p": "dona",
+     "i": 3.871,
+     "f": 4.197
+    },
+    {
+     "p": "das",
+     "i": 4.21,
+     "f": 4.379
+    },
+    {
+     "p": "sementes",
+     "i": 4.392,
+     "f": 5.056
+    },
+    {
+     "p": "Cada",
+     "i": 6.318,
+     "f": 6.631
+    },
+    {
+     "p": "banco",
+     "i": 6.644,
+     "f": 7.047
+    },
+    {
+     "p": "que",
+     "i": 7.06,
+     "f": 7.151
+    },
+    {
+     "p": "deposita",
+     "i": 7.164,
+     "f": 7.724
+    },
+    {
+     "p": "ali",
+     "i": 7.737,
+     "f": 7.946
+    },
+    {
+     "p": "continua",
+     "i": 7.959,
+     "f": 8.493
+    },
+    {
+     "p": "sendo",
+     "i": 8.506,
+     "f": 8.857
+    },
+    {
+     "p": "dono",
+     "i": 8.87,
+     "f": 9.196
+    },
+    {
+     "p": "do",
+     "i": 9.209,
+     "f": 9.352
+    },
+    {
+     "p": "que",
+     "i": 9.365,
+     "f": 9.456
+    },
+    {
+     "p": "mandou",
+     "i": 9.469,
+     "f": 9.938
+    },
+    {
+     "p": "E",
+     "i": 11.19,
+     "f": 11.307
+    },
+    {
+     "p": "os",
+     "i": 11.32,
+     "f": 11.411
+    },
+    {
+     "p": "depósitos",
+     "i": 11.424,
+     "f": 12.115
+    },
+    {
+     "p": "são",
+     "i": 12.128,
+     "f": 12.271
+    },
+    {
+     "p": "gratuitos",
+     "i": 12.284,
+     "f": 13.104
+    },
+    {
+     "p": "É",
+     "i": 14.358,
+     "f": 14.488
+    },
+    {
+     "p": "o",
+     "i": 14.501,
+     "f": 14.54
+    },
+    {
+     "p": "sistema",
+     "i": 14.553,
+     "f": 15.048
+    },
+    {
+     "p": "de",
+     "i": 15.061,
+     "f": 15.139
+    },
+    {
+     "p": "caixa-preta",
+     "i": 15.152,
+     "f": 15.843
+    },
+    {
+     "p": "As",
+     "i": 17.094,
+     "f": 17.302
+    },
+    {
+     "p": "caixas",
+     "i": 17.315,
+     "f": 17.823
+    },
+    {
+     "p": "ficam",
+     "i": 17.836,
+     "f": 18.11
+    },
+    {
+     "p": "lacradas",
+     "i": 18.123,
+     "f": 18.618
+    },
+    {
+     "p": "na",
+     "i": 18.631,
+     "f": 18.735
+    },
+    {
+     "p": "prateleira",
+     "i": 18.748,
+     "f": 19.334
+    },
+    {
+     "p": "e",
+     "i": 19.685,
+     "f": 19.75
+    },
+    {
+     "p": "só",
+     "i": 19.763,
+     "f": 19.998
+    },
+    {
+     "p": "quem",
+     "i": 20.011,
+     "f": 20.154
+    },
+    {
+     "p": "depositou",
+     "i": 20.167,
+     "f": 20.74
+    },
+    {
+     "p": "pode",
+     "i": 20.753,
+     "f": 21
+    },
+    {
+     "p": "abri-las",
+     "i": 21.013,
+     "f": 21.417
+    },
+    {
+     "p": "e",
+     "i": 21.43,
+     "f": 21.534
+    },
+    {
+     "p": "retirá-las",
+     "i": 21.547,
+     "f": 22.315
+    },
+    {
+     "p": "O",
+     "i": 23.574,
+     "f": 23.717
+    },
+    {
+     "p": "Crop",
+     "i": 23.73,
+     "f": 24.147
+    },
+    {
+     "p": "Trust",
+     "i": 24.16,
+     "f": 24.551
+    },
+    {
+     "p": "e",
+     "i": 24.564,
+     "f": 24.59
+    },
+    {
+     "p": "o",
+     "i": 24.603,
+     "f": 24.655
+    },
+    {
+     "p": "centro",
+     "i": 24.668,
+     "f": 25.032
+    },
+    {
+     "p": "genético",
+     "i": 25.045,
+     "f": 25.605
+    },
+    {
+     "p": "nórdico",
+     "i": 25.618,
+     "f": 26.139
+    },
+    {
+     "p": "o",
+     "i": 26.426,
+     "f": 26.504
+    },
+    {
+     "p": "NordGen",
+     "i": 26.517,
+     "f": 27.181
+    },
+    {
+     "p": "cuidam",
+     "i": 27.48,
+     "f": 27.845
+    },
+    {
+     "p": "da",
+     "i": 27.858,
+     "f": 27.975
+    },
+    {
+     "p": "operação",
+     "i": 27.988,
+     "f": 28.574
+    },
+    {
+     "p": "em",
+     "i": 28.887,
+     "f": 28.978
+    },
+    {
+     "p": "parceria",
+     "i": 28.991,
+     "f": 29.577
+    },
+    {
+     "p": "com",
+     "i": 29.59,
+     "f": 29.759
+    },
+    {
+     "p": "o",
+     "i": 29.772,
+     "f": 29.811
+    },
+    {
+     "p": "governo",
+     "i": 29.824,
+     "f": 30.293
+    },
+    {
+     "p": "norueguês",
+     "i": 30.306,
+     "f": 31.061
+    },
+    {
+     "p": "Tudo",
+     "i": 32.31,
+     "f": 32.649
+    },
+    {
+     "p": "isso",
+     "i": 32.662,
+     "f": 32.961
+    },
+    {
+     "p": "dentro",
+     "i": 32.974,
+     "f": 33.326
+    },
+    {
+     "p": "de",
+     "i": 33.339,
+     "f": 33.404
+    },
+    {
+     "p": "um",
+     "i": 33.417,
+     "f": 33.469
+    },
+    {
+     "p": "sistema",
+     "i": 33.482,
+     "f": 33.899
+    },
+    {
+     "p": "internacional",
+     "i": 33.912,
+     "f": 34.628
+    },
+    {
+     "p": "guiado",
+     "i": 34.641,
+     "f": 35.057
+    },
+    {
+     "p": "pela",
+     "i": 35.07,
+     "f": 35.292
+    },
+    {
+     "p": "FAO",
+     "i": 35.305,
+     "f": 35.669
+    },
+    {
+     "p": "a",
+     "i": 35.93,
+     "f": 36.021
+    },
+    {
+     "p": "agência",
+     "i": 36.034,
+     "f": 36.464
+    },
+    {
+     "p": "da",
+     "i": 36.477,
+     "f": 36.62
+    },
+    {
+     "p": "ONU",
+     "i": 36.633,
+     "f": 36.932
+    },
+    {
+     "p": "para",
+     "i": 36.945,
+     "f": 37.115
+    },
+    {
+     "p": "alimentação",
+     "i": 37.128,
+     "f": 37.857
+    },
+    {
+     "p": "e",
+     "i": 37.87,
+     "f": 37.935
+    },
+    {
+     "p": "agricultura",
+     "i": 37.948,
+     "f": 38.703
+    }
+   ]
+  },
+  "numeros": {
+   "hash": "8fabea30cb",
+   "texto": "Hoje, o cofre guarda mais de um milhão e trezentas e setenta mil amostras de sementes. Elas vieram de cento e trinta e um bancos de sementes, segundo o NordGen, no fim de dois mil e vinte e cinco. Há variedades de arroz, trigo, cevada, feijão, sorgo e muitas outras plantas. Só em dois mil e vinte e cinco, entraram quase quarenta e sete mil amostras, de quarenta e sete depositantes. Mas um desses depositantes viveria o pior cenário possível.",
+   "audio": "audio/numeros-8fabea30cb.mp3",
+   "duracao": 33.802,
+   "palavras": [
+    {
+     "p": "Hoje",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "o",
+     "i": 0.727,
+     "f": 0.805
+    },
+    {
+     "p": "cofre",
+     "i": 0.818,
+     "f": 1.157
+    },
+    {
+     "p": "guarda",
+     "i": 1.17,
+     "f": 1.534
+    },
+    {
+     "p": "mais",
+     "i": 1.547,
+     "f": 1.847
+    },
+    {
+     "p": "de",
+     "i": 1.86,
+     "f": 1.964
+    },
+    {
+     "p": "um",
+     "i": 1.977,
+     "f": 2.107
+    },
+    {
+     "p": "milhão",
+     "i": 2.12,
+     "f": 2.472
+    },
+    {
+     "p": "e",
+     "i": 2.485,
+     "f": 2.537
+    },
+    {
+     "p": "trezentas",
+     "i": 2.55,
+     "f": 3.071
+    },
+    {
+     "p": "e",
+     "i": 3.084,
+     "f": 3.188
+    },
+    {
+     "p": "setenta",
+     "i": 3.201,
+     "f": 3.618
+    },
+    {
+     "p": "mil",
+     "i": 3.631,
+     "f": 3.839
+    },
+    {
+     "p": "amostras",
+     "i": 3.852,
+     "f": 4.412
+    },
+    {
+     "p": "de",
+     "i": 4.425,
+     "f": 4.516
+    },
+    {
+     "p": "sementes",
+     "i": 4.529,
+     "f": 5.258
+    },
+    {
+     "p": "Elas",
+     "i": 6.51,
+     "f": 6.875
+    },
+    {
+     "p": "vieram",
+     "i": 6.888,
+     "f": 7.291
+    },
+    {
+     "p": "de",
+     "i": 7.304,
+     "f": 7.409
+    },
+    {
+     "p": "cento",
+     "i": 7.422,
+     "f": 7.786
+    },
+    {
+     "p": "e",
+     "i": 7.799,
+     "f": 7.838
+    },
+    {
+     "p": "trinta",
+     "i": 7.851,
+     "f": 8.086
+    },
+    {
+     "p": "e",
+     "i": 8.099,
+     "f": 8.125
+    },
+    {
+     "p": "um",
+     "i": 8.138,
+     "f": 8.281
+    },
+    {
+     "p": "bancos",
+     "i": 8.294,
+     "f": 8.698
+    },
+    {
+     "p": "de",
+     "i": 8.711,
+     "f": 8.789
+    },
+    {
+     "p": "sementes",
+     "i": 8.802,
+     "f": 9.453
+    },
+    {
+     "p": "segundo",
+     "i": 9.726,
+     "f": 10.117
+    },
+    {
+     "p": "o",
+     "i": 10.13,
+     "f": 10.156
+    },
+    {
+     "p": "NordGen",
+     "i": 10.169,
+     "f": 10.781
+    },
+    {
+     "p": "no",
+     "i": 11.041,
+     "f": 11.159
+    },
+    {
+     "p": "fim",
+     "i": 11.172,
+     "f": 11.406
+    },
+    {
+     "p": "de",
+     "i": 11.419,
+     "f": 11.523
+    },
+    {
+     "p": "dois",
+     "i": 11.536,
+     "f": 11.731
+    },
+    {
+     "p": "mil",
+     "i": 11.744,
+     "f": 11.875
+    },
+    {
+     "p": "e",
+     "i": 11.888,
+     "f": 11.953
+    },
+    {
+     "p": "vinte",
+     "i": 11.966,
+     "f": 12.226
+    },
+    {
+     "p": "e",
+     "i": 12.239,
+     "f": 12.278
+    },
+    {
+     "p": "cinco",
+     "i": 12.291,
+     "f": 12.682
+    },
+    {
+     "p": "Há",
+     "i": 13.926,
+     "f": 14.056
+    },
+    {
+     "p": "variedades",
+     "i": 14.069,
+     "f": 14.694
+    },
+    {
+     "p": "de",
+     "i": 14.707,
+     "f": 14.798
+    },
+    {
+     "p": "arroz",
+     "i": 14.812,
+     "f": 15.306
+    },
+    {
+     "p": "trigo",
+     "i": 15.528,
+     "f": 15.892
+    },
+    {
+     "p": "cevada",
+     "i": 16.257,
+     "f": 16.856
+    },
+    {
+     "p": "feijão",
+     "i": 17.116,
+     "f": 17.637
+    },
+    {
+     "p": "sorgo",
+     "i": 17.923,
+     "f": 18.314
+    },
+    {
+     "p": "e",
+     "i": 18.327,
+     "f": 18.379
+    },
+    {
+     "p": "muitas",
+     "i": 18.392,
+     "f": 18.809
+    },
+    {
+     "p": "outras",
+     "i": 18.822,
+     "f": 19.239
+    },
+    {
+     "p": "plantas",
+     "i": 19.252,
+     "f": 19.825
+    },
+    {
+     "p": "Só",
+     "i": 21.078,
+     "f": 21.312
+    },
+    {
+     "p": "em",
+     "i": 21.325,
+     "f": 21.417
+    },
+    {
+     "p": "dois",
+     "i": 21.43,
+     "f": 21.651
+    },
+    {
+     "p": "mil",
+     "i": 21.664,
+     "f": 21.781
+    },
+    {
+     "p": "e",
+     "i": 21.794,
+     "f": 21.846
+    },
+    {
+     "p": "vinte",
+     "i": 21.859,
+     "f": 22.055
+    },
+    {
+     "p": "e",
+     "i": 22.068,
+     "f": 22.107
+    },
+    {
+     "p": "cinco",
+     "i": 22.12,
+     "f": 22.536
+    },
+    {
+     "p": "entraram",
+     "i": 22.719,
+     "f": 23.213
+    },
+    {
+     "p": "quase",
+     "i": 23.227,
+     "f": 23.591
+    },
+    {
+     "p": "quarenta",
+     "i": 23.604,
+     "f": 23.982
+    },
+    {
+     "p": "e",
+     "i": 23.995,
+     "f": 24.021
+    },
+    {
+     "p": "sete",
+     "i": 24.034,
+     "f": 24.346
+    },
+    {
+     "p": "mil",
+     "i": 24.359,
+     "f": 24.555
+    },
+    {
+     "p": "amostras",
+     "i": 24.568,
+     "f": 25.167
+    },
+    {
+     "p": "de",
+     "i": 25.401,
+     "f": 25.518
+    },
+    {
+     "p": "quarenta",
+     "i": 25.531,
+     "f": 25.935
+    },
+    {
+     "p": "e",
+     "i": 25.948,
+     "f": 25.974
+    },
+    {
+     "p": "sete",
+     "i": 25.987,
+     "f": 26.299
+    },
+    {
+     "p": "depositantes",
+     "i": 26.312,
+     "f": 27.263
+    },
+    {
+     "p": "Mas",
+     "i": 28.518,
+     "f": 28.726
+    },
+    {
+     "p": "um",
+     "i": 28.739,
+     "f": 28.935
+    },
+    {
+     "p": "desses",
+     "i": 28.948,
+     "f": 29.273
+    },
+    {
+     "p": "depositantes",
+     "i": 29.286,
+     "f": 30.107
+    },
+    {
+     "p": "viveria",
+     "i": 30.12,
+     "f": 30.549
+    },
+    {
+     "p": "o",
+     "i": 30.562,
+     "f": 30.601
+    },
+    {
+     "p": "pior",
+     "i": 30.614,
+     "f": 30.927
+    },
+    {
+     "p": "cenário",
+     "i": 30.94,
+     "f": 31.383
+    },
+    {
+     "p": "possível",
+     "i": 31.396,
+     "f": 32.034
+    }
+   ]
+  },
+  "icarda": {
+   "hash": "1d93d3d3ed",
+   "texto": "Em Alepo, no norte da Síria, ficava o ICARDA, um centro internacional de pesquisa agrícola para regiões secas. O banco de sementes dele guardava variedades de trigo, cevada, ervilha, trevo e capins forrageiros. A guerra na Síria se intensificou em dois mil e doze. Em dois mil e quinze, o banco de Alepo já não conseguia funcionar. Mas havia uma cópia, a milhares de quilômetros dali: trezentas e vinte e cinco caixas no cofre de Svalbard. A hora de usar o seguro tinha chegado.",
+   "audio": "audio/icarda-1d93d3d3ed.mp3",
+   "duracao": 36.911,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "Alepo",
+     "i": 0.284,
+     "f": 0.753
+    },
+    {
+     "p": "no",
+     "i": 1.066,
+     "f": 1.183
+    },
+    {
+     "p": "norte",
+     "i": 1.196,
+     "f": 1.573
+    },
+    {
+     "p": "da",
+     "i": 1.586,
+     "f": 1.691
+    },
+    {
+     "p": "Síria",
+     "i": 1.704,
+     "f": 2.081
+    },
+    {
+     "p": "ficava",
+     "i": 2.381,
+     "f": 2.81
+    },
+    {
+     "p": "o",
+     "i": 2.823,
+     "f": 2.863
+    },
+    {
+     "p": "ICARDA",
+     "i": 2.876,
+     "f": 3.37
+    },
+    {
+     "p": "um",
+     "i": 3.657,
+     "f": 3.787
+    },
+    {
+     "p": "centro",
+     "i": 3.8,
+     "f": 4.191
+    },
+    {
+     "p": "internacional",
+     "i": 4.204,
+     "f": 4.907
+    },
+    {
+     "p": "de",
+     "i": 4.92,
+     "f": 5.011
+    },
+    {
+     "p": "pesquisa",
+     "i": 5.024,
+     "f": 5.493
+    },
+    {
+     "p": "agrícola",
+     "i": 5.506,
+     "f": 5.988
+    },
+    {
+     "p": "para",
+     "i": 6.001,
+     "f": 6.196
+    },
+    {
+     "p": "regiões",
+     "i": 6.209,
+     "f": 6.665
+    },
+    {
+     "p": "secas",
+     "i": 6.678,
+     "f": 7.238
+    },
+    {
+     "p": "O",
+     "i": 8.478,
+     "f": 8.608
+    },
+    {
+     "p": "banco",
+     "i": 8.621,
+     "f": 9.038
+    },
+    {
+     "p": "de",
+     "i": 9.051,
+     "f": 9.142
+    },
+    {
+     "p": "sementes",
+     "i": 9.155,
+     "f": 9.676
+    },
+    {
+     "p": "dele",
+     "i": 9.689,
+     "f": 9.923
+    },
+    {
+     "p": "guardava",
+     "i": 9.936,
+     "f": 10.405
+    },
+    {
+     "p": "variedades",
+     "i": 10.418,
+     "f": 10.991
+    },
+    {
+     "p": "de",
+     "i": 11.004,
+     "f": 11.134
+    },
+    {
+     "p": "trigo",
+     "i": 11.147,
+     "f": 11.486
+    },
+    {
+     "p": "cevada",
+     "i": 11.903,
+     "f": 12.436
+    },
+    {
+     "p": "ervilha",
+     "i": 12.671,
+     "f": 13.205
+    },
+    {
+     "p": "trevo",
+     "i": 13.309,
+     "f": 13.712
+    },
+    {
+     "p": "e",
+     "i": 13.725,
+     "f": 13.778
+    },
+    {
+     "p": "capins",
+     "i": 13.791,
+     "f": 14.22
+    },
+    {
+     "p": "forrageiros",
+     "i": 14.233,
+     "f": 15.054
+    },
+    {
+     "p": "A",
+     "i": 16.302,
+     "f": 16.432
+    },
+    {
+     "p": "guerra",
+     "i": 16.445,
+     "f": 16.823
+    },
+    {
+     "p": "na",
+     "i": 16.836,
+     "f": 16.953
+    },
+    {
+     "p": "Síria",
+     "i": 16.966,
+     "f": 17.318
+    },
+    {
+     "p": "se",
+     "i": 17.331,
+     "f": 17.461
+    },
+    {
+     "p": "intensificou",
+     "i": 17.474,
+     "f": 18.177
+    },
+    {
+     "p": "em",
+     "i": 18.19,
+     "f": 18.255
+    },
+    {
+     "p": "dois",
+     "i": 18.268,
+     "f": 18.503
+    },
+    {
+     "p": "mil",
+     "i": 18.516,
+     "f": 18.659
+    },
+    {
+     "p": "e",
+     "i": 18.672,
+     "f": 18.737
+    },
+    {
+     "p": "doze",
+     "i": 18.75,
+     "f": 19.154
+    },
+    {
+     "p": "Em",
+     "i": 20.406,
+     "f": 20.523
+    },
+    {
+     "p": "dois",
+     "i": 20.536,
+     "f": 20.745
+    },
+    {
+     "p": "mil",
+     "i": 20.758,
+     "f": 20.888
+    },
+    {
+     "p": "e",
+     "i": 20.901,
+     "f": 20.94
+    },
+    {
+     "p": "quinze",
+     "i": 20.953,
+     "f": 21.396
+    },
+    {
+     "p": "o",
+     "i": 21.565,
+     "f": 21.656
+    },
+    {
+     "p": "banco",
+     "i": 21.669,
+     "f": 22.073
+    },
+    {
+     "p": "de",
+     "i": 22.086,
+     "f": 22.164
+    },
+    {
+     "p": "Alepo",
+     "i": 22.177,
+     "f": 22.594
+    },
+    {
+     "p": "já",
+     "i": 22.607,
+     "f": 22.776
+    },
+    {
+     "p": "não",
+     "i": 22.789,
+     "f": 22.984
+    },
+    {
+     "p": "conseguia",
+     "i": 22.997,
+     "f": 23.622
+    },
+    {
+     "p": "funcionar",
+     "i": 23.635,
+     "f": 24.208
+    },
+    {
+     "p": "Mas",
+     "i": 25.47,
+     "f": 25.665
+    },
+    {
+     "p": "havia",
+     "i": 25.678,
+     "f": 26.056
+    },
+    {
+     "p": "uma",
+     "i": 26.069,
+     "f": 26.264
+    },
+    {
+     "p": "cópia",
+     "i": 26.277,
+     "f": 26.733
+    },
+    {
+     "p": "a",
+     "i": 26.954,
+     "f": 27.02
+    },
+    {
+     "p": "milhares",
+     "i": 27.033,
+     "f": 27.501
+    },
+    {
+     "p": "de",
+     "i": 27.514,
+     "f": 27.619
+    },
+    {
+     "p": "quilômetros",
+     "i": 27.632,
+     "f": 28.191
+    },
+    {
+     "p": "dali",
+     "i": 28.204,
+     "f": 28.543
+    },
+    {
+     "p": "trezentas",
+     "i": 28.751,
+     "f": 29.311
+    },
+    {
+     "p": "e",
+     "i": 29.324,
+     "f": 29.428
+    },
+    {
+     "p": "vinte",
+     "i": 29.441,
+     "f": 29.663
+    },
+    {
+     "p": "e",
+     "i": 29.676,
+     "f": 29.702
+    },
+    {
+     "p": "cinco",
+     "i": 29.715,
+     "f": 30.001
+    },
+    {
+     "p": "caixas",
+     "i": 30.014,
+     "f": 30.457
+    },
+    {
+     "p": "no",
+     "i": 30.47,
+     "f": 30.587
+    },
+    {
+     "p": "cofre",
+     "i": 30.6,
+     "f": 30.965
+    },
+    {
+     "p": "de",
+     "i": 30.978,
+     "f": 31.069
+    },
+    {
+     "p": "Svalbard",
+     "i": 31.082,
+     "f": 31.707
+    },
+    {
+     "p": "A",
+     "i": 32.958,
+     "f": 33.127
+    },
+    {
+     "p": "hora",
+     "i": 33.14,
+     "f": 33.414
+    },
+    {
+     "p": "de",
+     "i": 33.427,
+     "f": 33.518
+    },
+    {
+     "p": "usar",
+     "i": 33.531,
+     "f": 33.817
+    },
+    {
+     "p": "o",
+     "i": 33.831,
+     "f": 33.87
+    },
+    {
+     "p": "seguro",
+     "i": 33.883,
+     "f": 34.377
+    },
+    {
+     "p": "tinha",
+     "i": 34.39,
+     "f": 34.612
+    },
+    {
+     "p": "chegado",
+     "i": 34.625,
+     "f": 35.172
+    }
+   ]
+  },
+  "pedido-2015": {
+   "hash": "64a50a15c2",
+   "texto": "Em setembro de dois mil e quinze, o ICARDA fez o pedido: queria de volta cerca de cento e trinta das caixas depositadas. Eram mais de cento e dezesseis mil amostras, segundo o Crop Trust na época. O destino não era Alepo, em guerra. As sementes serviriam para recriar o banco em outros lugares. Era a primeira retirada da história do cofre. Mas retirar sementes é só metade do trabalho.",
+   "audio": "audio/pedido-2015-64a50a15c2.mp3",
+   "duracao": 31.007,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "setembro",
+     "i": 0.258,
+     "f": 0.792
+    },
+    {
+     "p": "de",
+     "i": 0.805,
+     "f": 0.883
+    },
+    {
+     "p": "dois",
+     "i": 0.896,
+     "f": 1.092
+    },
+    {
+     "p": "mil",
+     "i": 1.105,
+     "f": 1.222
+    },
+    {
+     "p": "e",
+     "i": 1.235,
+     "f": 1.287
+    },
+    {
+     "p": "quinze",
+     "i": 1.3,
+     "f": 1.743
+    },
+    {
+     "p": "o",
+     "i": 1.873,
+     "f": 1.977
+    },
+    {
+     "p": "ICARDA",
+     "i": 1.99,
+     "f": 2.459
+    },
+    {
+     "p": "fez",
+     "i": 2.472,
+     "f": 2.68
+    },
+    {
+     "p": "o",
+     "i": 2.693,
+     "f": 2.797
+    },
+    {
+     "p": "pedido",
+     "i": 2.81,
+     "f": 3.253
+    },
+    {
+     "p": "queria",
+     "i": 3.527,
+     "f": 3.891
+    },
+    {
+     "p": "de",
+     "i": 3.904,
+     "f": 3.995
+    },
+    {
+     "p": "volta",
+     "i": 4.008,
+     "f": 4.36
+    },
+    {
+     "p": "cerca",
+     "i": 4.373,
+     "f": 4.777
+    },
+    {
+     "p": "de",
+     "i": 4.79,
+     "f": 4.907
+    },
+    {
+     "p": "cento",
+     "i": 4.92,
+     "f": 5.284
+    },
+    {
+     "p": "e",
+     "i": 5.297,
+     "f": 5.349
+    },
+    {
+     "p": "trinta",
+     "i": 5.362,
+     "f": 5.675
+    },
+    {
+     "p": "das",
+     "i": 5.688,
+     "f": 5.883
+    },
+    {
+     "p": "caixas",
+     "i": 5.896,
+     "f": 6.3
+    },
+    {
+     "p": "depositadas",
+     "i": 6.313,
+     "f": 7.251
+    },
+    {
+     "p": "Eram",
+     "i": 8.502,
+     "f": 8.815
+    },
+    {
+     "p": "mais",
+     "i": 8.828,
+     "f": 9.101
+    },
+    {
+     "p": "de",
+     "i": 9.114,
+     "f": 9.231
+    },
+    {
+     "p": "cento",
+     "i": 9.244,
+     "f": 9.609
+    },
+    {
+     "p": "e",
+     "i": 9.622,
+     "f": 9.661
+    },
+    {
+     "p": "dezesseis",
+     "i": 9.674,
+     "f": 10.182
+    },
+    {
+     "p": "mil",
+     "i": 10.195,
+     "f": 10.39
+    },
+    {
+     "p": "amostras",
+     "i": 10.403,
+     "f": 11.054
+    },
+    {
+     "p": "segundo",
+     "i": 11.315,
+     "f": 11.692
+    },
+    {
+     "p": "o",
+     "i": 11.705,
+     "f": 11.757
+    },
+    {
+     "p": "Crop",
+     "i": 11.77,
+     "f": 12.187
+    },
+    {
+     "p": "Trust",
+     "i": 12.2,
+     "f": 12.604
+    },
+    {
+     "p": "na",
+     "i": 12.617,
+     "f": 12.76
+    },
+    {
+     "p": "época",
+     "i": 12.773,
+     "f": 13.229
+    },
+    {
+     "p": "O",
+     "i": 14.478,
+     "f": 14.595
+    },
+    {
+     "p": "destino",
+     "i": 14.608,
+     "f": 15.103
+    },
+    {
+     "p": "não",
+     "i": 15.116,
+     "f": 15.311
+    },
+    {
+     "p": "era",
+     "i": 15.324,
+     "f": 15.468
+    },
+    {
+     "p": "Alepo",
+     "i": 15.481,
+     "f": 15.897
+    },
+    {
+     "p": "em",
+     "i": 16.054,
+     "f": 16.184
+    },
+    {
+     "p": "guerra",
+     "i": 16.197,
+     "f": 16.627
+    },
+    {
+     "p": "As",
+     "i": 17.886,
+     "f": 18.081
+    },
+    {
+     "p": "sementes",
+     "i": 18.094,
+     "f": 18.654
+    },
+    {
+     "p": "serviriam",
+     "i": 18.667,
+     "f": 19.188
+    },
+    {
+     "p": "para",
+     "i": 19.201,
+     "f": 19.37
+    },
+    {
+     "p": "recriar",
+     "i": 19.383,
+     "f": 19.839
+    },
+    {
+     "p": "o",
+     "i": 19.852,
+     "f": 19.917
+    },
+    {
+     "p": "banco",
+     "i": 19.93,
+     "f": 20.334
+    },
+    {
+     "p": "em",
+     "i": 20.347,
+     "f": 20.464
+    },
+    {
+     "p": "outros",
+     "i": 20.477,
+     "f": 20.842
+    },
+    {
+     "p": "lugares",
+     "i": 20.855,
+     "f": 21.467
+    },
+    {
+     "p": "Era",
+     "i": 22.71,
+     "f": 22.957
+    },
+    {
+     "p": "a",
+     "i": 22.97,
+     "f": 23.01
+    },
+    {
+     "p": "primeira",
+     "i": 23.023,
+     "f": 23.387
+    },
+    {
+     "p": "retirada",
+     "i": 23.4,
+     "f": 23.999
+    },
+    {
+     "p": "da",
+     "i": 24.012,
+     "f": 24.116
+    },
+    {
+     "p": "história",
+     "i": 24.129,
+     "f": 24.559
+    },
+    {
+     "p": "do",
+     "i": 24.572,
+     "f": 24.676
+    },
+    {
+     "p": "cofre",
+     "i": 24.689,
+     "f": 25.184
+    },
+    {
+     "p": "Mas",
+     "i": 26.43,
+     "f": 26.717
+    },
+    {
+     "p": "retirar",
+     "i": 26.73,
+     "f": 27.172
+    },
+    {
+     "p": "sementes",
+     "i": 27.185,
+     "f": 27.758
+    },
+    {
+     "p": "é",
+     "i": 27.771,
+     "f": 27.888
+    },
+    {
+     "p": "só",
+     "i": 27.901,
+     "f": 28.11
+    },
+    {
+     "p": "metade",
+     "i": 28.123,
+     "f": 28.605
+    },
+    {
+     "p": "do",
+     "i": 28.618,
+     "f": 28.722
+    },
+    {
+     "p": "trabalho",
+     "i": 28.735,
+     "f": 29.256
+    }
+   ]
+  },
+  "retirada-2017": {
+   "hash": "446670548e",
+   "texto": "Em setembro de dois mil e dezessete, o ICARDA retirou cinquenta e duas mil, quatrocentas e cinquenta e uma amostras. As sementes foram multiplicadas em campos no Líbano e no Marrocos, para gerar material novo e saudável. E aí veio a prova de que o sistema funciona: o ICARDA devolveu ao cofre sementes novas, produzidas a partir das que recebeu. Em dois mil e dezenove, uma terceira retirada levou trinta e seis caixas. Trinta e uma, de trigo e cevada, foram para o Marrocos. As outras cinco, de forrageiras, foram para o Líbano. Até então, o ICARDA era o único banco que precisara retirar amostras do cofre.",
+   "audio": "audio/retirada-2017-446670548e.mp3",
+   "duracao": 45.767,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "setembro",
+     "i": 0.271,
+     "f": 0.844
+    },
+    {
+     "p": "de",
+     "i": 0.857,
+     "f": 0.935
+    },
+    {
+     "p": "dois",
+     "i": 0.948,
+     "f": 1.157
+    },
+    {
+     "p": "mil",
+     "i": 1.17,
+     "f": 1.274
+    },
+    {
+     "p": "e",
+     "i": 1.287,
+     "f": 1.326
+    },
+    {
+     "p": "dezessete",
+     "i": 1.339,
+     "f": 2.068
+    },
+    {
+     "p": "o",
+     "i": 2.329,
+     "f": 2.433
+    },
+    {
+     "p": "ICARDA",
+     "i": 2.446,
+     "f": 2.889
+    },
+    {
+     "p": "retirou",
+     "i": 2.902,
+     "f": 3.331
+    },
+    {
+     "p": "cinquenta",
+     "i": 3.344,
+     "f": 3.891
+    },
+    {
+     "p": "e",
+     "i": 3.904,
+     "f": 3.943
+    },
+    {
+     "p": "duas",
+     "i": 3.956,
+     "f": 4.256
+    },
+    {
+     "p": "mil",
+     "i": 4.269,
+     "f": 4.516
+    },
+    {
+     "p": "quatrocentas",
+     "i": 4.764,
+     "f": 5.532
+    },
+    {
+     "p": "e",
+     "i": 5.545,
+     "f": 5.662
+    },
+    {
+     "p": "cinquenta",
+     "i": 5.675,
+     "f": 6.131
+    },
+    {
+     "p": "e",
+     "i": 6.144,
+     "f": 6.17
+    },
+    {
+     "p": "uma",
+     "i": 6.183,
+     "f": 6.365
+    },
+    {
+     "p": "amostras",
+     "i": 6.378,
+     "f": 7.042
+    },
+    {
+     "p": "As",
+     "i": 8.286,
+     "f": 8.481
+    },
+    {
+     "p": "sementes",
+     "i": 8.494,
+     "f": 9.054
+    },
+    {
+     "p": "foram",
+     "i": 9.067,
+     "f": 9.315
+    },
+    {
+     "p": "multiplicadas",
+     "i": 9.328,
+     "f": 10.096
+    },
+    {
+     "p": "em",
+     "i": 10.109,
+     "f": 10.291
+    },
+    {
+     "p": "campos",
+     "i": 10.304,
+     "f": 10.721
+    },
+    {
+     "p": "no",
+     "i": 10.734,
+     "f": 10.812
+    },
+    {
+     "p": "Líbano",
+     "i": 10.825,
+     "f": 11.281
+    },
+    {
+     "p": "e",
+     "i": 11.294,
+     "f": 11.333
+    },
+    {
+     "p": "no",
+     "i": 11.346,
+     "f": 11.424
+    },
+    {
+     "p": "Marrocos",
+     "i": 11.437,
+     "f": 12.062
+    },
+    {
+     "p": "para",
+     "i": 12.31,
+     "f": 12.505
+    },
+    {
+     "p": "gerar",
+     "i": 12.518,
+     "f": 12.83
+    },
+    {
+     "p": "material",
+     "i": 12.843,
+     "f": 13.403
+    },
+    {
+     "p": "novo",
+     "i": 13.416,
+     "f": 13.807
+    },
+    {
+     "p": "e",
+     "i": 13.82,
+     "f": 13.846
+    },
+    {
+     "p": "saudável",
+     "i": 13.859,
+     "f": 14.432
+    },
+    {
+     "p": "E",
+     "i": 15.678,
+     "f": 15.821
+    },
+    {
+     "p": "aí",
+     "i": 15.834,
+     "f": 16.082
+    },
+    {
+     "p": "veio",
+     "i": 16.095,
+     "f": 16.368
+    },
+    {
+     "p": "a",
+     "i": 16.381,
+     "f": 16.446
+    },
+    {
+     "p": "prova",
+     "i": 16.459,
+     "f": 16.837
+    },
+    {
+     "p": "de",
+     "i": 16.85,
+     "f": 16.954
+    },
+    {
+     "p": "que",
+     "i": 16.967,
+     "f": 17.045
+    },
+    {
+     "p": "o",
+     "i": 17.058,
+     "f": 17.097
+    },
+    {
+     "p": "sistema",
+     "i": 17.11,
+     "f": 17.592
+    },
+    {
+     "p": "funciona",
+     "i": 17.605,
+     "f": 18.191
+    },
+    {
+     "p": "o",
+     "i": 18.465,
+     "f": 18.569
+    },
+    {
+     "p": "ICARDA",
+     "i": 18.582,
+     "f": 18.985
+    },
+    {
+     "p": "devolveu",
+     "i": 18.998,
+     "f": 19.454
+    },
+    {
+     "p": "ao",
+     "i": 19.467,
+     "f": 19.584
+    },
+    {
+     "p": "cofre",
+     "i": 19.597,
+     "f": 19.962
+    },
+    {
+     "p": "sementes",
+     "i": 19.975,
+     "f": 20.483
+    },
+    {
+     "p": "novas",
+     "i": 20.496,
+     "f": 20.938
+    },
+    {
+     "p": "produzidas",
+     "i": 21.186,
+     "f": 21.785
+    },
+    {
+     "p": "a",
+     "i": 21.798,
+     "f": 21.928
+    },
+    {
+     "p": "partir",
+     "i": 21.941,
+     "f": 22.332
+    },
+    {
+     "p": "das",
+     "i": 22.345,
+     "f": 22.527
+    },
+    {
+     "p": "que",
+     "i": 22.54,
+     "f": 22.657
+    },
+    {
+     "p": "recebeu",
+     "i": 22.67,
+     "f": 23.243
+    },
+    {
+     "p": "Em",
+     "i": 24.486,
+     "f": 24.616
+    },
+    {
+     "p": "dois",
+     "i": 24.629,
+     "f": 24.851
+    },
+    {
+     "p": "mil",
+     "i": 24.864,
+     "f": 24.994
+    },
+    {
+     "p": "e",
+     "i": 25.007,
+     "f": 25.046
+    },
+    {
+     "p": "dezenove",
+     "i": 25.059,
+     "f": 25.645
+    },
+    {
+     "p": "uma",
+     "i": 25.905,
+     "f": 26.088
+    },
+    {
+     "p": "terceira",
+     "i": 26.101,
+     "f": 26.556
+    },
+    {
+     "p": "retirada",
+     "i": 26.569,
+     "f": 27.116
+    },
+    {
+     "p": "levou",
+     "i": 27.129,
+     "f": 27.507
+    },
+    {
+     "p": "trinta",
+     "i": 27.52,
+     "f": 27.819
+    },
+    {
+     "p": "e",
+     "i": 27.832,
+     "f": 27.858
+    },
+    {
+     "p": "seis",
+     "i": 27.871,
+     "f": 28.132
+    },
+    {
+     "p": "caixas",
+     "i": 28.145,
+     "f": 28.744
+    },
+    {
+     "p": "Trinta",
+     "i": 30.006,
+     "f": 30.319
+    },
+    {
+     "p": "e",
+     "i": 30.332,
+     "f": 30.397
+    },
+    {
+     "p": "uma",
+     "i": 30.41,
+     "f": 30.657
+    },
+    {
+     "p": "de",
+     "i": 30.905,
+     "f": 31.061
+    },
+    {
+     "p": "trigo",
+     "i": 31.074,
+     "f": 31.36
+    },
+    {
+     "p": "e",
+     "i": 31.373,
+     "f": 31.399
+    },
+    {
+     "p": "cevada",
+     "i": 31.412,
+     "f": 31.946
+    },
+    {
+     "p": "foram",
+     "i": 32.141,
+     "f": 32.415
+    },
+    {
+     "p": "para",
+     "i": 32.428,
+     "f": 32.597
+    },
+    {
+     "p": "o",
+     "i": 32.61,
+     "f": 32.636
+    },
+    {
+     "p": "Marrocos",
+     "i": 32.649,
+     "f": 33.313
+    },
+    {
+     "p": "As",
+     "i": 34.566,
+     "f": 34.722
+    },
+    {
+     "p": "outras",
+     "i": 34.735,
+     "f": 35.178
+    },
+    {
+     "p": "cinco",
+     "i": 35.191,
+     "f": 35.582
+    },
+    {
+     "p": "de",
+     "i": 35.829,
+     "f": 35.946
+    },
+    {
+     "p": "forrageiras",
+     "i": 35.959,
+     "f": 36.741
+    },
+    {
+     "p": "foram",
+     "i": 37.014,
+     "f": 37.274
+    },
+    {
+     "p": "para",
+     "i": 37.287,
+     "f": 37.444
+    },
+    {
+     "p": "o",
+     "i": 37.457,
+     "f": 37.483
+    },
+    {
+     "p": "Líbano",
+     "i": 37.496,
+     "f": 37.938
+    },
+    {
+     "p": "Até",
+     "i": 39.198,
+     "f": 39.498
+    },
+    {
+     "p": "então",
+     "i": 39.511,
+     "f": 39.953
+    },
+    {
+     "p": "o",
+     "i": 40.253,
+     "f": 40.331
+    },
+    {
+     "p": "ICARDA",
+     "i": 40.344,
+     "f": 40.787
+    },
+    {
+     "p": "era",
+     "i": 40.8,
+     "f": 40.956
+    },
+    {
+     "p": "o",
+     "i": 40.969,
+     "f": 41.008
+    },
+    {
+     "p": "único",
+     "i": 41.021,
+     "f": 41.347
+    },
+    {
+     "p": "banco",
+     "i": 41.36,
+     "f": 41.763
+    },
+    {
+     "p": "que",
+     "i": 41.776,
+     "f": 41.88
+    },
+    {
+     "p": "precisara",
+     "i": 41.893,
+     "f": 42.388
+    },
+    {
+     "p": "retirar",
+     "i": 42.401,
+     "f": 42.831
+    },
+    {
+     "p": "amostras",
+     "i": 42.844,
+     "f": 43.391
+    },
+    {
+     "p": "do",
+     "i": 43.404,
+     "f": 43.534
+    },
+    {
+     "p": "cofre",
+     "i": 43.547,
+     "f": 44.016
+    }
+   ]
+  },
+  "seguro-funcionou": {
+   "hash": "3278355c1c",
+   "texto": "Segundo o cofre, as sementes retiradas em dois mil e quinze e dois mil e dezessete germinaram bem. Os novos bancos do ICARDA, em Terbol, no Líbano, e em Rabat, no Marrocos, nasceram dessas sementes. Até dois mil e dezenove, sementes novas de quarenta e dois mil, setecentos e vinte e nove acessos já tinham voltado ao cofre. Ou seja, a coleção de Alepo não sumiu com a guerra. Foi reconstruída, graças a uma cópia guardada no gelo.",
+   "audio": "audio/seguro-funcionou-3278355c1c.mp3",
+   "duracao": 33.28,
+   "palavras": [
+    {
+     "p": "Segundo",
+     "i": 0.102,
+     "f": 0.662
+    },
+    {
+     "p": "o",
+     "i": 0.675,
+     "f": 0.727
+    },
+    {
+     "p": "cofre",
+     "i": 0.74,
+     "f": 1.222
+    },
+    {
+     "p": "as",
+     "i": 1.43,
+     "f": 1.547
+    },
+    {
+     "p": "sementes",
+     "i": 1.56,
+     "f": 2.042
+    },
+    {
+     "p": "retiradas",
+     "i": 2.055,
+     "f": 2.641
+    },
+    {
+     "p": "em",
+     "i": 2.654,
+     "f": 2.797
+    },
+    {
+     "p": "dois",
+     "i": 2.81,
+     "f": 3.019
+    },
+    {
+     "p": "mil",
+     "i": 3.032,
+     "f": 3.136
+    },
+    {
+     "p": "e",
+     "i": 3.149,
+     "f": 3.214
+    },
+    {
+     "p": "quinze",
+     "i": 3.227,
+     "f": 3.592
+    },
+    {
+     "p": "e",
+     "i": 3.605,
+     "f": 3.644
+    },
+    {
+     "p": "dois",
+     "i": 3.657,
+     "f": 3.865
+    },
+    {
+     "p": "mil",
+     "i": 3.878,
+     "f": 3.995
+    },
+    {
+     "p": "e",
+     "i": 4.008,
+     "f": 4.047
+    },
+    {
+     "p": "dezessete",
+     "i": 4.06,
+     "f": 4.672
+    },
+    {
+     "p": "germinaram",
+     "i": 4.685,
+     "f": 5.31
+    },
+    {
+     "p": "bem",
+     "i": 5.323,
+     "f": 5.597
+    },
+    {
+     "p": "Os",
+     "i": 6.846,
+     "f": 7.041
+    },
+    {
+     "p": "novos",
+     "i": 7.054,
+     "f": 7.484
+    },
+    {
+     "p": "bancos",
+     "i": 7.497,
+     "f": 7.914
+    },
+    {
+     "p": "do",
+     "i": 7.927,
+     "f": 8.057
+    },
+    {
+     "p": "ICARDA",
+     "i": 8.07,
+     "f": 8.591
+    },
+    {
+     "p": "em",
+     "i": 8.825,
+     "f": 8.942
+    },
+    {
+     "p": "Terbol",
+     "i": 8.955,
+     "f": 9.45
+    },
+    {
+     "p": "no",
+     "i": 9.711,
+     "f": 9.841
+    },
+    {
+     "p": "Líbano",
+     "i": 9.854,
+     "f": 10.271
+    },
+    {
+     "p": "e",
+     "i": 10.57,
+     "f": 10.661
+    },
+    {
+     "p": "em",
+     "i": 10.674,
+     "f": 10.791
+    },
+    {
+     "p": "Rabat",
+     "i": 10.804,
+     "f": 11.273
+    },
+    {
+     "p": "no",
+     "i": 11.534,
+     "f": 11.651
+    },
+    {
+     "p": "Marrocos",
+     "i": 11.664,
+     "f": 12.289
+    },
+    {
+     "p": "nasceram",
+     "i": 12.497,
+     "f": 13.057
+    },
+    {
+     "p": "dessas",
+     "i": 13.07,
+     "f": 13.435
+    },
+    {
+     "p": "sementes",
+     "i": 13.448,
+     "f": 14.099
+    },
+    {
+     "p": "Até",
+     "i": 15.342,
+     "f": 15.616
+    },
+    {
+     "p": "dois",
+     "i": 15.629,
+     "f": 15.85
+    },
+    {
+     "p": "mil",
+     "i": 15.863,
+     "f": 15.98
+    },
+    {
+     "p": "e",
+     "i": 15.993,
+     "f": 16.045
+    },
+    {
+     "p": "dezenove",
+     "i": 16.058,
+     "f": 16.631
+    },
+    {
+     "p": "sementes",
+     "i": 16.879,
+     "f": 17.425
+    },
+    {
+     "p": "novas",
+     "i": 17.438,
+     "f": 17.79
+    },
+    {
+     "p": "de",
+     "i": 17.803,
+     "f": 17.894
+    },
+    {
+     "p": "quarenta",
+     "i": 17.907,
+     "f": 18.272
+    },
+    {
+     "p": "e",
+     "i": 18.285,
+     "f": 18.311
+    },
+    {
+     "p": "dois",
+     "i": 18.324,
+     "f": 18.519
+    },
+    {
+     "p": "mil",
+     "i": 18.532,
+     "f": 18.78
+    },
+    {
+     "p": "setecentos",
+     "i": 19.092,
+     "f": 19.743
+    },
+    {
+     "p": "e",
+     "i": 19.756,
+     "f": 19.886
+    },
+    {
+     "p": "vinte",
+     "i": 19.899,
+     "f": 20.121
+    },
+    {
+     "p": "e",
+     "i": 20.134,
+     "f": 20.147
+    },
+    {
+     "p": "nove",
+     "i": 20.16,
+     "f": 20.394
+    },
+    {
+     "p": "acessos",
+     "i": 20.407,
+     "f": 20.954
+    },
+    {
+     "p": "já",
+     "i": 20.967,
+     "f": 21.084
+    },
+    {
+     "p": "tinham",
+     "i": 21.097,
+     "f": 21.384
+    },
+    {
+     "p": "voltado",
+     "i": 21.397,
+     "f": 21.866
+    },
+    {
+     "p": "ao",
+     "i": 21.879,
+     "f": 21.983
+    },
+    {
+     "p": "cofre",
+     "i": 21.996,
+     "f": 22.452
+    },
+    {
+     "p": "Ou",
+     "i": 23.694,
+     "f": 23.863
+    },
+    {
+     "p": "seja",
+     "i": 23.876,
+     "f": 24.319
+    },
+    {
+     "p": "a",
+     "i": 24.514,
+     "f": 24.58
+    },
+    {
+     "p": "coleção",
+     "i": 24.593,
+     "f": 25.061
+    },
+    {
+     "p": "de",
+     "i": 25.074,
+     "f": 25.152
+    },
+    {
+     "p": "Alepo",
+     "i": 25.165,
+     "f": 25.595
+    },
+    {
+     "p": "não",
+     "i": 25.608,
+     "f": 25.843
+    },
+    {
+     "p": "sumiu",
+     "i": 25.856,
+     "f": 26.246
+    },
+    {
+     "p": "com",
+     "i": 26.259,
+     "f": 26.428
+    },
+    {
+     "p": "a",
+     "i": 26.441,
+     "f": 26.481
+    },
+    {
+     "p": "guerra",
+     "i": 26.494,
+     "f": 26.936
+    },
+    {
+     "p": "Foi",
+     "i": 28.182,
+     "f": 28.39
+    },
+    {
+     "p": "reconstruída",
+     "i": 28.403,
+     "f": 29.146
+    },
+    {
+     "p": "graças",
+     "i": 29.354,
+     "f": 29.797
+    },
+    {
+     "p": "a",
+     "i": 29.81,
+     "f": 29.927
+    },
+    {
+     "p": "uma",
+     "i": 29.94,
+     "f": 30.109
+    },
+    {
+     "p": "cópia",
+     "i": 30.122,
+     "f": 30.487
+    },
+    {
+     "p": "guardada",
+     "i": 30.5,
+     "f": 31.047
+    },
+    {
+     "p": "no",
+     "i": 31.06,
+     "f": 31.138
+    },
+    {
+     "p": "gelo",
+     "i": 31.151,
+     "f": 31.541
+    }
+   ]
+  },
+  "seguro-nao-apocalipse": {
+   "hash": "75327aed78",
+   "texto": "Costuma-se chamar o lugar de cofre do fim do mundo. Mas o caso da Síria mostra o oposto. Ninguém ali espera um apocalipse. O cofre existe para problemas reais e comuns: guerras locais, desastres, falhas de energia. É a última cópia de um sistema maior, de bancos de sementes que trabalham todos os dias, emprestando e multiplicando variedades. Funciona como um backup. Você espera nunca precisar dele, mas ele só vale alguma coisa se existir antes da crise.",
+   "audio": "audio/seguro-nao-apocalipse-75327aed78.mp3",
+   "duracao": 37.616,
+   "palavras": [
+    {
+     "p": "Costuma-se",
+     "i": 0.102,
+     "f": 0.792
+    },
+    {
+     "p": "chamar",
+     "i": 0.805,
+     "f": 1.183
+    },
+    {
+     "p": "o",
+     "i": 1.196,
+     "f": 1.222
+    },
+    {
+     "p": "lugar",
+     "i": 1.235,
+     "f": 1.599
+    },
+    {
+     "p": "de",
+     "i": 1.613,
+     "f": 1.743
+    },
+    {
+     "p": "cofre",
+     "i": 1.756,
+     "f": 2.172
+    },
+    {
+     "p": "do",
+     "i": 2.185,
+     "f": 2.29
+    },
+    {
+     "p": "fim",
+     "i": 2.303,
+     "f": 2.576
+    },
+    {
+     "p": "do",
+     "i": 2.589,
+     "f": 2.706
+    },
+    {
+     "p": "mundo",
+     "i": 2.719,
+     "f": 3.071
+    },
+    {
+     "p": "Mas",
+     "i": 4.326,
+     "f": 4.56
+    },
+    {
+     "p": "o",
+     "i": 4.573,
+     "f": 4.743
+    },
+    {
+     "p": "caso",
+     "i": 4.756,
+     "f": 5.094
+    },
+    {
+     "p": "da",
+     "i": 5.107,
+     "f": 5.211
+    },
+    {
+     "p": "Síria",
+     "i": 5.225,
+     "f": 5.563
+    },
+    {
+     "p": "mostra",
+     "i": 5.576,
+     "f": 6.045
+    },
+    {
+     "p": "o",
+     "i": 6.058,
+     "f": 6.071
+    },
+    {
+     "p": "oposto",
+     "i": 6.084,
+     "f": 6.657
+    },
+    {
+     "p": "Ninguém",
+     "i": 7.902,
+     "f": 8.397
+    },
+    {
+     "p": "ali",
+     "i": 8.41,
+     "f": 8.605
+    },
+    {
+     "p": "espera",
+     "i": 8.618,
+     "f": 8.957
+    },
+    {
+     "p": "um",
+     "i": 8.97,
+     "f": 9.061
+    },
+    {
+     "p": "apocalipse",
+     "i": 9.074,
+     "f": 9.92
+    },
+    {
+     "p": "O",
+     "i": 11.166,
+     "f": 11.296
+    },
+    {
+     "p": "cofre",
+     "i": 11.309,
+     "f": 11.661
+    },
+    {
+     "p": "existe",
+     "i": 11.674,
+     "f": 12.065
+    },
+    {
+     "p": "para",
+     "i": 12.078,
+     "f": 12.273
+    },
+    {
+     "p": "problemas",
+     "i": 12.286,
+     "f": 12.82
+    },
+    {
+     "p": "reais",
+     "i": 12.833,
+     "f": 13.184
+    },
+    {
+     "p": "e",
+     "i": 13.197,
+     "f": 13.288
+    },
+    {
+     "p": "comuns",
+     "i": 13.301,
+     "f": 13.861
+    },
+    {
+     "p": "guerras",
+     "i": 14.109,
+     "f": 14.486
+    },
+    {
+     "p": "locais",
+     "i": 14.499,
+     "f": 15.033
+    },
+    {
+     "p": "desastres",
+     "i": 15.268,
+     "f": 16.023
+    },
+    {
+     "p": "falhas",
+     "i": 16.309,
+     "f": 16.7
+    },
+    {
+     "p": "de",
+     "i": 16.713,
+     "f": 16.791
+    },
+    {
+     "p": "energia",
+     "i": 16.804,
+     "f": 17.416
+    },
+    {
+     "p": "É",
+     "i": 18.678,
+     "f": 18.808
+    },
+    {
+     "p": "a",
+     "i": 18.821,
+     "f": 18.925
+    },
+    {
+     "p": "última",
+     "i": 18.938,
+     "f": 19.355
+    },
+    {
+     "p": "cópia",
+     "i": 19.368,
+     "f": 19.759
+    },
+    {
+     "p": "de",
+     "i": 19.772,
+     "f": 19.837
+    },
+    {
+     "p": "um",
+     "i": 19.85,
+     "f": 19.915
+    },
+    {
+     "p": "sistema",
+     "i": 19.928,
+     "f": 20.358
+    },
+    {
+     "p": "maior",
+     "i": 20.371,
+     "f": 20.761
+    },
+    {
+     "p": "de",
+     "i": 21.048,
+     "f": 21.178
+    },
+    {
+     "p": "bancos",
+     "i": 21.191,
+     "f": 21.621
+    },
+    {
+     "p": "de",
+     "i": 21.634,
+     "f": 21.725
+    },
+    {
+     "p": "sementes",
+     "i": 21.738,
+     "f": 22.35
+    },
+    {
+     "p": "que",
+     "i": 22.363,
+     "f": 22.467
+    },
+    {
+     "p": "trabalham",
+     "i": 22.48,
+     "f": 23.001
+    },
+    {
+     "p": "todos",
+     "i": 23.014,
+     "f": 23.353
+    },
+    {
+     "p": "os",
+     "i": 23.366,
+     "f": 23.561
+    },
+    {
+     "p": "dias",
+     "i": 23.574,
+     "f": 23.965
+    },
+    {
+     "p": "emprestando",
+     "i": 24.238,
+     "f": 24.85
+    },
+    {
+     "p": "e",
+     "i": 24.863,
+     "f": 24.902
+    },
+    {
+     "p": "multiplicando",
+     "i": 24.915,
+     "f": 25.657
+    },
+    {
+     "p": "variedades",
+     "i": 25.67,
+     "f": 26.465
+    },
+    {
+     "p": "Funciona",
+     "i": 27.726,
+     "f": 28.416
+    },
+    {
+     "p": "como",
+     "i": 28.429,
+     "f": 28.677
+    },
+    {
+     "p": "um",
+     "i": 28.69,
+     "f": 28.768
+    },
+    {
+     "p": "backup",
+     "i": 28.781,
+     "f": 29.367
+    },
+    {
+     "p": "Você",
+     "i": 30.606,
+     "f": 30.919
+    },
+    {
+     "p": "espera",
+     "i": 30.932,
+     "f": 31.27
+    },
+    {
+     "p": "nunca",
+     "i": 31.283,
+     "f": 31.648
+    },
+    {
+     "p": "precisar",
+     "i": 31.661,
+     "f": 32.182
+    },
+    {
+     "p": "dele",
+     "i": 32.195,
+     "f": 32.507
+    },
+    {
+     "p": "mas",
+     "i": 32.833,
+     "f": 32.963
+    },
+    {
+     "p": "ele",
+     "i": 32.976,
+     "f": 33.249
+    },
+    {
+     "p": "só",
+     "i": 33.262,
+     "f": 33.432
+    },
+    {
+     "p": "vale",
+     "i": 33.445,
+     "f": 33.666
+    },
+    {
+     "p": "alguma",
+     "i": 33.679,
+     "f": 33.991
+    },
+    {
+     "p": "coisa",
+     "i": 34.005,
+     "f": 34.395
+    },
+    {
+     "p": "se",
+     "i": 34.408,
+     "f": 34.525
+    },
+    {
+     "p": "existir",
+     "i": 34.538,
+     "f": 34.955
+    },
+    {
+     "p": "antes",
+     "i": 34.968,
+     "f": 35.294
+    },
+    {
+     "p": "da",
+     "i": 35.307,
+     "f": 35.424
+    },
+    {
+     "p": "crise",
+     "i": 35.437,
+     "f": 35.867
+    }
+   ]
+  },
+  "limites": {
+   "hash": "43ddd2d5af",
+   "texto": "Há limites, claro. O cofre guarda sementes. Culturas que se reproduzem por mudas, como a banana, precisam de outros métodos. E uma amostra só tem valor se alguém souber o que ela é. Por isso, cada banco mantém seus registros e dados. Também depende de dinheiro constante, de cooperação entre países e de bancos que continuem funcionando lá fora. Ainda assim, poucos lugares reúnem tanta diversidade agrícola sob o mesmo tipo de proteção.",
+   "audio": "audio/limites-43ddd2d5af.mp3",
+   "duracao": 35.866,
+   "palavras": [
+    {
+     "p": "Há",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "limites",
+     "i": 0.232,
+     "f": 0.87
+    },
+    {
+     "p": "claro",
+     "i": 1.105,
+     "f": 1.521
+    },
+    {
+     "p": "O",
+     "i": 2.766,
+     "f": 2.883
+    },
+    {
+     "p": "cofre",
+     "i": 2.896,
+     "f": 3.274
+    },
+    {
+     "p": "guarda",
+     "i": 3.287,
+     "f": 3.691
+    },
+    {
+     "p": "sementes",
+     "i": 3.704,
+     "f": 4.446
+    },
+    {
+     "p": "Culturas",
+     "i": 5.694,
+     "f": 6.319
+    },
+    {
+     "p": "que",
+     "i": 6.332,
+     "f": 6.436
+    },
+    {
+     "p": "se",
+     "i": 6.449,
+     "f": 6.566
+    },
+    {
+     "p": "reproduzem",
+     "i": 6.58,
+     "f": 7.231
+    },
+    {
+     "p": "por",
+     "i": 7.244,
+     "f": 7.426
+    },
+    {
+     "p": "mudas",
+     "i": 7.439,
+     "f": 7.947
+    },
+    {
+     "p": "como",
+     "i": 8.22,
+     "f": 8.441
+    },
+    {
+     "p": "a",
+     "i": 8.454,
+     "f": 8.481
+    },
+    {
+     "p": "banana",
+     "i": 8.494,
+     "f": 8.988
+    },
+    {
+     "p": "precisam",
+     "i": 9.236,
+     "f": 9.744
+    },
+    {
+     "p": "de",
+     "i": 9.757,
+     "f": 9.926
+    },
+    {
+     "p": "outros",
+     "i": 9.939,
+     "f": 10.316
+    },
+    {
+     "p": "métodos",
+     "i": 10.329,
+     "f": 10.994
+    },
+    {
+     "p": "E",
+     "i": 12.246,
+     "f": 12.376
+    },
+    {
+     "p": "uma",
+     "i": 12.389,
+     "f": 12.533
+    },
+    {
+     "p": "amostra",
+     "i": 12.546,
+     "f": 13.04
+    },
+    {
+     "p": "só",
+     "i": 13.053,
+     "f": 13.223
+    },
+    {
+     "p": "tem",
+     "i": 13.236,
+     "f": 13.431
+    },
+    {
+     "p": "valor",
+     "i": 13.444,
+     "f": 13.835
+    },
+    {
+     "p": "se",
+     "i": 13.848,
+     "f": 13.952
+    },
+    {
+     "p": "alguém",
+     "i": 13.965,
+     "f": 14.225
+    },
+    {
+     "p": "souber",
+     "i": 14.238,
+     "f": 14.694
+    },
+    {
+     "p": "o",
+     "i": 14.707,
+     "f": 14.772
+    },
+    {
+     "p": "que",
+     "i": 14.785,
+     "f": 14.915
+    },
+    {
+     "p": "ela",
+     "i": 14.928,
+     "f": 15.189
+    },
+    {
+     "p": "é",
+     "i": 15.202,
+     "f": 15.397
+    },
+    {
+     "p": "Por",
+     "i": 16.298,
+     "f": 16.48
+    },
+    {
+     "p": "isso",
+     "i": 16.493,
+     "f": 16.845
+    },
+    {
+     "p": "cada",
+     "i": 17.066,
+     "f": 17.339
+    },
+    {
+     "p": "banco",
+     "i": 17.352,
+     "f": 17.73
+    },
+    {
+     "p": "mantém",
+     "i": 17.743,
+     "f": 18.095
+    },
+    {
+     "p": "seus",
+     "i": 18.108,
+     "f": 18.316
+    },
+    {
+     "p": "registros",
+     "i": 18.329,
+     "f": 18.85
+    },
+    {
+     "p": "e",
+     "i": 18.863,
+     "f": 18.993
+    },
+    {
+     "p": "dados",
+     "i": 19.006,
+     "f": 19.514
+    },
+    {
+     "p": "Também",
+     "i": 20.766,
+     "f": 21.17
+    },
+    {
+     "p": "depende",
+     "i": 21.183,
+     "f": 21.691
+    },
+    {
+     "p": "de",
+     "i": 21.704,
+     "f": 21.795
+    },
+    {
+     "p": "dinheiro",
+     "i": 21.808,
+     "f": 22.185
+    },
+    {
+     "p": "constante",
+     "i": 22.198,
+     "f": 22.823
+    },
+    {
+     "p": "de",
+     "i": 23.084,
+     "f": 23.214
+    },
+    {
+     "p": "cooperação",
+     "i": 23.227,
+     "f": 23.878
+    },
+    {
+     "p": "entre",
+     "i": 23.891,
+     "f": 24.073
+    },
+    {
+     "p": "países",
+     "i": 24.086,
+     "f": 24.542
+    },
+    {
+     "p": "e",
+     "i": 24.555,
+     "f": 24.659
+    },
+    {
+     "p": "de",
+     "i": 24.672,
+     "f": 24.79
+    },
+    {
+     "p": "bancos",
+     "i": 24.803,
+     "f": 25.271
+    },
+    {
+     "p": "que",
+     "i": 25.284,
+     "f": 25.415
+    },
+    {
+     "p": "continuem",
+     "i": 25.428,
+     "f": 25.935
+    },
+    {
+     "p": "funcionando",
+     "i": 25.948,
+     "f": 26.599
+    },
+    {
+     "p": "lá",
+     "i": 26.612,
+     "f": 26.717
+    },
+    {
+     "p": "fora",
+     "i": 26.73,
+     "f": 27.133
+    },
+    {
+     "p": "Ainda",
+     "i": 28.374,
+     "f": 28.791
+    },
+    {
+     "p": "assim",
+     "i": 28.804,
+     "f": 29.181
+    },
+    {
+     "p": "poucos",
+     "i": 29.429,
+     "f": 29.819
+    },
+    {
+     "p": "lugares",
+     "i": 29.832,
+     "f": 30.301
+    },
+    {
+     "p": "reúnem",
+     "i": 30.314,
+     "f": 30.809
+    },
+    {
+     "p": "tanta",
+     "i": 30.822,
+     "f": 31.148
+    },
+    {
+     "p": "diversidade",
+     "i": 31.161,
+     "f": 31.799
+    },
+    {
+     "p": "agrícola",
+     "i": 31.812,
+     "f": 32.293
+    },
+    {
+     "p": "sob",
+     "i": 32.306,
+     "f": 32.58
+    },
+    {
+     "p": "o",
+     "i": 32.593,
+     "f": 32.632
+    },
+    {
+     "p": "mesmo",
+     "i": 32.645,
+     "f": 33.049
+    },
+    {
+     "p": "tipo",
+     "i": 33.062,
+     "f": 33.374
+    },
+    {
+     "p": "de",
+     "i": 33.387,
+     "f": 33.491
+    },
+    {
+     "p": "proteção",
+     "i": 33.504,
+     "f": 34.129
+    }
+   ]
+  },
+  "final": {
+   "hash": "f73fbc2e82",
+   "texto": "Voltemos à pergunta do começo: por que abrir um cofre congelado no Ártico para recuperar sementes? Porque cada semente é uma solução que pode ser necessária amanhã, para uma seca, uma praga ou um calor que ainda não conhecemos. O cofre de Svalbard não é uma curiosidade do fim do mundo. É um seguro para a comida de todos nós. Se você gostou, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos seguir explorando como o mundo funciona.",
+   "audio": "audio/final-f73fbc2e82.mp3",
+   "duracao": 34.717,
+   "palavras": [
+    {
+     "p": "Voltemos",
+     "i": 0.102,
+     "f": 0.662
+    },
+    {
+     "p": "à",
+     "i": 0.675,
+     "f": 0.792
+    },
+    {
+     "p": "pergunta",
+     "i": 0.805,
+     "f": 1.313
+    },
+    {
+     "p": "do",
+     "i": 1.326,
+     "f": 1.417
+    },
+    {
+     "p": "começo",
+     "i": 1.43,
+     "f": 1.938
+    },
+    {
+     "p": "por",
+     "i": 2.303,
+     "f": 2.498
+    },
+    {
+     "p": "que",
+     "i": 2.511,
+     "f": 2.667
+    },
+    {
+     "p": "abrir",
+     "i": 2.68,
+     "f": 3.019
+    },
+    {
+     "p": "um",
+     "i": 3.032,
+     "f": 3.136
+    },
+    {
+     "p": "cofre",
+     "i": 3.149,
+     "f": 3.527
+    },
+    {
+     "p": "congelado",
+     "i": 3.54,
+     "f": 4.139
+    },
+    {
+     "p": "no",
+     "i": 4.152,
+     "f": 4.256
+    },
+    {
+     "p": "Ártico",
+     "i": 4.269,
+     "f": 4.672
+    },
+    {
+     "p": "para",
+     "i": 4.685,
+     "f": 4.881
+    },
+    {
+     "p": "recuperar",
+     "i": 4.894,
+     "f": 5.415
+    },
+    {
+     "p": "sementes",
+     "i": 5.428,
+     "f": 6.157
+    },
+    {
+     "p": "Porque",
+     "i": 7.498,
+     "f": 7.876
+    },
+    {
+     "p": "cada",
+     "i": 7.889,
+     "f": 8.136
+    },
+    {
+     "p": "semente",
+     "i": 8.149,
+     "f": 8.618
+    },
+    {
+     "p": "é",
+     "i": 8.631,
+     "f": 8.657
+    },
+    {
+     "p": "uma",
+     "i": 8.67,
+     "f": 8.787
+    },
+    {
+     "p": "solução",
+     "i": 8.8,
+     "f": 9.334
+    },
+    {
+     "p": "que",
+     "i": 9.347,
+     "f": 9.451
+    },
+    {
+     "p": "pode",
+     "i": 9.464,
+     "f": 9.686
+    },
+    {
+     "p": "ser",
+     "i": 9.699,
+     "f": 9.894
+    },
+    {
+     "p": "necessária",
+     "i": 9.907,
+     "f": 10.467
+    },
+    {
+     "p": "amanhã",
+     "i": 10.48,
+     "f": 10.91
+    },
+    {
+     "p": "para",
+     "i": 11.131,
+     "f": 11.313
+    },
+    {
+     "p": "uma",
+     "i": 11.326,
+     "f": 11.482
+    },
+    {
+     "p": "seca",
+     "i": 11.495,
+     "f": 11.912
+    },
+    {
+     "p": "uma",
+     "i": 12.212,
+     "f": 12.433
+    },
+    {
+     "p": "praga",
+     "i": 12.446,
+     "f": 12.824
+    },
+    {
+     "p": "ou",
+     "i": 12.837,
+     "f": 12.902
+    },
+    {
+     "p": "um",
+     "i": 12.915,
+     "f": 13.006
+    },
+    {
+     "p": "calor",
+     "i": 13.019,
+     "f": 13.436
+    },
+    {
+     "p": "que",
+     "i": 13.449,
+     "f": 13.553
+    },
+    {
+     "p": "ainda",
+     "i": 13.566,
+     "f": 13.865
+    },
+    {
+     "p": "não",
+     "i": 13.878,
+     "f": 14.113
+    },
+    {
+     "p": "conhecemos",
+     "i": 14.126,
+     "f": 14.933
+    },
+    {
+     "p": "O",
+     "i": 16.186,
+     "f": 16.329
+    },
+    {
+     "p": "cofre",
+     "i": 16.342,
+     "f": 16.72
+    },
+    {
+     "p": "de",
+     "i": 16.733,
+     "f": 16.811
+    },
+    {
+     "p": "Svalbard",
+     "i": 16.824,
+     "f": 17.449
+    },
+    {
+     "p": "não",
+     "i": 17.462,
+     "f": 17.657
+    },
+    {
+     "p": "é",
+     "i": 17.67,
+     "f": 17.762
+    },
+    {
+     "p": "uma",
+     "i": 17.775,
+     "f": 17.957
+    },
+    {
+     "p": "curiosidade",
+     "i": 17.97,
+     "f": 18.699
+    },
+    {
+     "p": "do",
+     "i": 18.712,
+     "f": 18.816
+    },
+    {
+     "p": "fim",
+     "i": 18.829,
+     "f": 19.077
+    },
+    {
+     "p": "do",
+     "i": 19.09,
+     "f": 19.194
+    },
+    {
+     "p": "mundo",
+     "i": 19.207,
+     "f": 19.585
+    },
+    {
+     "p": "É",
+     "i": 20.842,
+     "f": 20.959
+    },
+    {
+     "p": "um",
+     "i": 20.972,
+     "f": 21.076
+    },
+    {
+     "p": "seguro",
+     "i": 21.089,
+     "f": 21.61
+    },
+    {
+     "p": "para",
+     "i": 21.623,
+     "f": 21.78
+    },
+    {
+     "p": "a",
+     "i": 21.793,
+     "f": 21.819
+    },
+    {
+     "p": "comida",
+     "i": 21.832,
+     "f": 22.248
+    },
+    {
+     "p": "de",
+     "i": 22.261,
+     "f": 22.431
+    },
+    {
+     "p": "todos",
+     "i": 22.444,
+     "f": 22.86
+    },
+    {
+     "p": "nós",
+     "i": 22.873,
+     "f": 23.277
+    },
+    {
+     "p": "Se",
+     "i": 24.538,
+     "f": 24.759
+    },
+    {
+     "p": "você",
+     "i": 24.772,
+     "f": 25.085
+    },
+    {
+     "p": "gostou",
+     "i": 25.098,
+     "f": 25.593
+    },
+    {
+     "p": "inscreva-se",
+     "i": 25.853,
+     "f": 26.53
+    },
+    {
+     "p": "no",
+     "i": 26.543,
+     "f": 26.634
+    },
+    {
+     "p": "canal",
+     "i": 26.647,
+     "f": 27.064
+    },
+    {
+     "p": "Inova",
+     "i": 27.077,
+     "f": 27.455
+    },
+    {
+     "p": "Mundo",
+     "i": 27.468,
+     "f": 27.845
+    },
+    {
+     "p": "No",
+     "i": 29.098,
+     "f": 29.28
+    },
+    {
+     "p": "próximo",
+     "i": 29.293,
+     "f": 29.788
+    },
+    {
+     "p": "vídeo",
+     "i": 29.801,
+     "f": 30.153
+    },
+    {
+     "p": "vamos",
+     "i": 30.491,
+     "f": 30.765
+    },
+    {
+     "p": "seguir",
+     "i": 30.778,
+     "f": 31.064
+    },
+    {
+     "p": "explorando",
+     "i": 31.077,
+     "f": 31.624
+    },
+    {
+     "p": "como",
+     "i": 31.637,
+     "f": 31.859
+    },
+    {
+     "p": "o",
+     "i": 31.872,
+     "f": 31.898
+    },
+    {
+     "p": "mundo",
+     "i": 31.911,
+     "f": 32.262
+    },
+    {
+     "p": "funciona",
+     "i": 32.275,
+     "f": 32.952
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "cofre-entrada": {
+   "arquivo": "imagens/cofre-entrada-56bc205c.jpg",
+   "rotulo": "Entrada do cofre de Svalbard",
+   "wiki": "Cofre Global de Sementes de Svalbard",
+   "commons": "Svalbard Global Seed Vault entrance",
+   "autor": "Dag Endresen",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Svalbard_Global_Seed_Vault_-_panoramio.jpg",
+   "titulo": "File:Svalbard Global Seed Vault - panoramio.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.6,
+    "y": 37.2
+   },
+   "borrada": "imagens/cofre-entrada-56bc205c-b.jpg"
+  },
+  "svalbard-ilha": {
+   "arquivo": "imagens/svalbard-ilha-a8fd3311.jpg",
+   "rotulo": "Paisagem de Svalbard",
+   "commons": "Svalbard Spitsbergen mountains landscape",
+   "autor": "MartinFuchs",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/spitsbergen-montanhas-sorvete-970121/",
+   "titulo": "spitsbergen, montanhas, sorvete, panorama, mar polar, agua, natureza, geada",
+   "largura": 960,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 49.6,
+    "y": 69.0
+   },
+   "borrada": "imagens/svalbard-ilha-a8fd3311-b.jpg"
+  },
+  "cofre-interior": {
+   "arquivo": "",
+   "rotulo": "Caixas de sementes no cofre",
+   "commons": "Svalbard Global Seed Vault interior seed boxes",
+   "semFoto": true
+  },
+  "alepo": {
+   "arquivo": "imagens/alepo-8b5ab5b2.jpg",
+   "rotulo": "Alepo, na Síria",
+   "wiki": "Alepo",
+   "commons": "Aleppo Citadel Syria",
+   "autor": "Dosseman",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aleppo_Citadel_entrance_-_seen_from_southeast_9933.jpg",
+   "titulo": "File:Aleppo Citadel entrance - seen from southeast 9933.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 3,
+   "foco": {
+    "x": 41.2,
+    "y": 81.1
+   },
+   "borrada": "imagens/alepo-8b5ab5b2-b.jpg"
+  },
+  "svalbard-mapa": {
+   "arquivo": "imagens/svalbard-mapa-4c8b978c.jpg",
+   "rotulo": "Svalbard, na Noruega",
+   "wiki": "Svalbard",
+   "commons": "Svalbard location map Norway",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:W_W_Svalbard_LandSat7_21.14475E_78.71545N.png",
+   "titulo": "File:W W Svalbard LandSat7 21.14475E 78.71545N.png",
+   "largura": 695,
+   "altura": 651,
+   "rostos": 1,
+   "foco": {
+    "x": 25.9,
+    "y": 39.5
+   },
+   "borrada": "imagens/svalbard-mapa-4c8b978c-b.jpg"
+  },
+  "longyearbyen": {
+   "arquivo": "imagens/longyearbyen-d854f531.jpg",
+   "rotulo": "Longyearbyen",
+   "wiki": "Longyearbyen",
+   "commons": "Longyearbyen panorama",
+   "autor": "Hylgeriak / Wikipedia",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Longyearbyen_july2011_1.jpg",
+   "titulo": "File:Longyearbyen july2011 1.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 47.9,
+    "y": 62.2
+   },
+   "borrada": "imagens/longyearbyen-d854f531-b.jpg"
+  },
+  "cofre-noite": {
+   "arquivo": "",
+   "rotulo": "Fachada do cofre à noite",
+   "commons": "Svalbard Global Seed Vault facade at night",
+   "semFoto": true
+  },
+  "campo-trigo": {
+   "arquivo": "imagens/campo-trigo-1b9aa8ef.jpg",
+   "rotulo": "Campo de trigo",
+   "wiki": "Trigo",
+   "commons": "wheat field harvest",
+   "autor": "User:Bluemoose",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wheat_close-up.JPG",
+   "titulo": "File:Wheat close-up.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 60.7,
+    "y": 48.3
+   },
+   "borrada": "imagens/campo-trigo-1b9aa8ef-b.jpg"
+  },
+  "milho-variedades": {
+   "arquivo": "imagens/milho-variedades-024dc0c7.jpg",
+   "rotulo": "Variedades de milho",
+   "commons": "maize cobs varieties colors diversity",
+   "autor": "ignartonosbg",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/milho-milho-vermelho-comida-9757541/",
+   "titulo": "milho, milho vermelho, comida, vegetais",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 46.2,
+    "y": 48.7
+   },
+   "borrada": "imagens/milho-variedades-024dc0c7-b.jpg"
+  },
+  "batata-andes": {
+   "arquivo": "imagens/batata-andes-1c81c916.jpg",
+   "rotulo": "Variedades de batata nos Andes",
+   "wiki": "Batata",
+   "commons": "potato varieties Peru Andes diversity",
+   "autor": "WOtP",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Batata.JPG",
+   "titulo": "File:Batata.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.8,
+    "y": 56.3
+   },
+   "borrada": "imagens/batata-andes-1c81c916-b.jpg"
+  },
+  "arroz-campo": {
+   "arquivo": "imagens/arroz-campo-c60220c9.jpg",
+   "rotulo": "Plantação de arroz",
+   "wiki": "Arroz",
+   "commons": "rice paddy field terraces",
+   "autor": "User:Ori~",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pana_Banaue_Rice_Terraces_(Cropped).jpg",
+   "titulo": "File:Pana Banaue Rice Terraces (Cropped).jpg",
+   "largura": 1920,
+   "altura": 929,
+   "rostos": 0,
+   "foco": {
+    "x": 60.0,
+    "y": 60.0
+   },
+   "borrada": "imagens/arroz-campo-c60220c9-b.jpg"
+  },
+  "fome-irlanda": {
+   "arquivo": "",
+   "rotulo": "Memorial da Grande Fome, Dublin",
+   "wiki": "Grande Fome (Irlanda)",
+   "commons": "Irish famine memorial Dublin",
+   "semFoto": true
+  },
+  "banco-sementes": {
+   "arquivo": "imagens/banco-sementes-e21b4052.jpg",
+   "rotulo": "Banco de sementes",
+   "wiki": "Banco de germoplasma",
+   "commons": "genebank seed storage refrigerated",
+   "autor": "R. C. Johnson",
+   "licenca": "CC BY 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Seedbank.jpg",
+   "titulo": "File:Seedbank.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 54.4,
+    "y": 52.6
+   },
+   "borrada": "imagens/banco-sementes-e21b4052-b.jpg"
+  },
+  "vavilov": {
+   "arquivo": "imagens/vavilov-26c4bdad.jpg",
+   "rotulo": "Nikolai Vavilov",
+   "wiki": "Nikolai Vavilov",
+   "commons": "Nikolai Vavilov portrait",
+   "autor": "World Telegram staff photographer",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nikolai_Vavilov_NYWTS.jpg",
+   "titulo": "File:Nikolai Vavilov NYWTS.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 2,
+   "foco": {
+    "x": 59.0,
+    "y": 34.1
+   },
+   "borrada": "imagens/vavilov-26c4bdad-b.jpg"
+  },
+  "genebank-lab": {
+   "arquivo": "",
+   "rotulo": "Amostras num banco de sementes",
+   "commons": "genebank seed samples laboratory packets",
+   "semFoto": true
+  },
+  "cary-fowler": {
+   "arquivo": "imagens/cary-fowler-49afc807.jpg",
+   "rotulo": "Cary Fowler",
+   "wiki": "Cary Fowler",
+   "commons": "Cary Fowler Crop Trust",
+   "autor": "United States Department of State",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cary_Fowler_Department_of_State_official_photograph.jpg",
+   "titulo": "File:Cary Fowler Department of State official photograph.jpg",
+   "largura": 1920,
+   "altura": 2400,
+   "rostos": 2,
+   "foco": {
+    "x": 48.5,
+    "y": 36.6
+   },
+   "borrada": "imagens/cary-fowler-49afc807-b.jpg"
+  },
+  "spitsbergen-mapa": {
+   "arquivo": "imagens/spitsbergen-mapa-ea910bfe.jpg",
+   "rotulo": "Ilha de Spitsbergen",
+   "wiki": "Spitsbergen",
+   "commons": "Spitsbergen island map",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sv-map.png",
+   "titulo": "File:Sv-map.png",
+   "largura": 329,
+   "altura": 355,
+   "rostos": 0,
+   "foco": {
+    "x": 45.0,
+    "y": 35.2
+   },
+   "borrada": "imagens/spitsbergen-mapa-ea910bfe-b.jpg"
+  },
+  "longyearbyen-inverno": {
+   "arquivo": "",
+   "rotulo": "Longyearbyen no inverno",
+   "commons": "Longyearbyen winter polar night",
+   "semFoto": true
+  },
+  "svalbard-costa": {
+   "arquivo": "imagens/svalbard-costa-46c08a3d.jpg",
+   "rotulo": "Costa de Spitsbergen",
+   "commons": "Isfjorden coast Spitsbergen Svalbard",
+   "autor": "Bjoertvedt",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:James_I_Land_IMG_4036_Kolosseum_Holmstr%C3%B6mbreen_Morbreen_Blomesletta_Kapitol_mt.JPG",
+   "titulo": "File:James I Land IMG 4036 Kolosseum Holmströmbreen Morbreen Blomesletta Kapitol mt.JPG",
+   "largura": 1920,
+   "altura": 925,
+   "rostos": 0,
+   "foco": {
+    "x": 50.7,
+    "y": 68.4
+   },
+   "borrada": "imagens/svalbard-costa-46c08a3d-b.jpg"
+  },
+  "platoberget": {
+   "arquivo": "imagens/platoberget-e9b75f83.jpg",
+   "rotulo": "Montanha perto de Longyearbyen",
+   "commons": "Platåberget mountain Longyearbyen",
+   "autor": "Buiobuione",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Views_from_Nordenski%C3%B6ld_Plat%C3%A5berget_buiobuione.jpg",
+   "titulo": "File:Views from Nordenskiöld Platåberget buiobuione.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 42.4,
+    "y": 80
+   },
+   "borrada": "imagens/platoberget-e9b75f83-b.jpg"
+  },
+  "aeroporto-svalbard": {
+   "arquivo": "imagens/aeroporto-svalbard-2e7b5aef.jpg",
+   "rotulo": "Aeroporto de Svalbard",
+   "wiki": "Aeroporto de Svalbard",
+   "commons": "Svalbard Airport Longyear terminal",
+   "autor": "Graham",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Svalbard_Airport,_Longyear_1.jpg",
+   "titulo": "File:Svalbard Airport, Longyear 1.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.9,
+    "y": 43.6
+   },
+   "borrada": "imagens/aeroporto-svalbard-2e7b5aef-b.jpg"
+  },
+  "cofre-rocha": {
+   "arquivo": "",
+   "rotulo": "Entrada na rocha",
+   "commons": "Svalbard Global Seed Vault concrete entrance mountain",
+   "semFoto": true
+  },
+  "permafrost": {
+   "arquivo": "imagens/permafrost-ec49432c.jpg",
+   "rotulo": "Permafrost",
+   "wiki": "Permafrost",
+   "commons": "permafrost Svalbard ground ice",
+   "autor": "Boris Radosavljevic",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Permafrost_in_Herschel_Island_006.jpg",
+   "titulo": "File:Permafrost in Herschel Island 006.jpg",
+   "largura": 1920,
+   "altura": 1285,
+   "rostos": 0,
+   "foco": {
+    "x": 46.9,
+    "y": 54.3
+   },
+   "borrada": "imagens/permafrost-ec49432c-b.jpg"
+  },
+  "cofre-corredor": {
+   "arquivo": "",
+   "rotulo": "Túnel de acesso",
+   "commons": "Svalbard Global Seed Vault tunnel corridor",
+   "semFoto": true
+  },
+  "cofre-camara": {
+   "arquivo": "",
+   "rotulo": "Câmara de armazenamento",
+   "commons": "Svalbard Global Seed Vault vault chamber shelves",
+   "semFoto": true
+  },
+  "pacote-sementes": {
+   "arquivo": "",
+   "rotulo": "Pacotes lacrados de sementes",
+   "commons": "Svalbard Global Seed Vault seed packages foil",
+   "semFoto": true
+  },
+  "sementes-closeup": {
+   "arquivo": "imagens/sementes-closeup-1d7355d4.jpg",
+   "rotulo": "Sementes de variedades diversas",
+   "wiki": "Semente",
+   "commons": "seeds variety closeup collection",
+   "autor": "Alexander Klepnev",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D0%B7%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5_%D1%81%D0%B5%D0%BC%D1%8F%D0%BD.jpg",
+   "titulo": "File:Разнообразие семян.jpg",
+   "largura": 1920,
+   "altura": 1646,
+   "rostos": 3,
+   "foco": {
+    "x": 28.1,
+    "y": 16.7
+   },
+   "borrada": "imagens/sementes-closeup-1d7355d4-b.jpg"
+  },
+  "neve-derretendo": {
+   "arquivo": "imagens/neve-derretendo-5d4e9623.jpg",
+   "rotulo": "Degelo em Svalbard",
+   "commons": "Svalbard melting snow glacier summer",
+   "autor": "NASA Earth Observatory images by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. Story by Emily Cassidy.",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Svalbard_Melts_(153189).jpg",
+   "titulo": "File:Svalbard Melts (153189).jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 57.1,
+    "y": 39.4
+   },
+   "borrada": "imagens/neve-derretendo-5d4e9623-b.jpg"
+  },
+  "svalbard-verao": {
+   "arquivo": "",
+   "rotulo": "Água de degelo em Svalbard",
+   "commons": "Svalbard summer meltwater Longyearbyen",
+   "semFoto": true
+  },
+  "tunel-obras": {
+   "arquivo": "imagens/tunel-obras-1ef19068.jpg",
+   "rotulo": "Obras no túnel de entrada",
+   "commons": "Svalbard Global Seed Vault entrance tunnel renovation",
+   "autor": "NordGen/Johan Bäckman",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Entrance_tunnel_for_Svalbard_Global_Seed_Vault.jpg",
+   "titulo": "File:Entrance tunnel for Svalbard Global Seed Vault.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 48.6,
+    "y": 31.9
+   },
+   "borrada": "imagens/tunel-obras-1ef19068-b.jpg"
+  },
+  "drenagem": {
+   "arquivo": "",
+   "rotulo": "Valas de drenagem",
+   "commons": "Svalbard seed vault drainage ditch",
+   "semFoto": true
+  },
+  "clima-artico": {
+   "arquivo": "imagens/clima-artico-4f0e781c.jpg",
+   "rotulo": "Recuo de geleira no Ártico",
+   "commons": "Arctic warming glacier retreat Svalbard",
+   "autor": "NWimagesbySabrinaE",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/icebergs-geleira-geleira-marjorie-8430043/",
+   "titulo": "icebergs, geleira, geleira marjorie, baía glaciar, alaska, região selvagem, fronteira, gelo, reflexão, viajar por, cruzeiro, frio, neve, natureza, montanhas",
+   "largura": 1280,
+   "altura": 888,
+   "rostos": 0,
+   "foco": {
+    "x": 43.6,
+    "y": 54.3
+   },
+   "borrada": "imagens/clima-artico-4f0e781c-b.jpg"
+  },
+  "cofre-estrada": {
+   "arquivo": "",
+   "rotulo": "Estrada até o cofre",
+   "commons": "Svalbard Global Seed Vault road sign Longyearbyen",
+   "semFoto": true
+  },
+  "noruega-governo": {
+   "arquivo": "",
+   "rotulo": "Ministério da Agricultura da Noruega",
+   "commons": "Norwegian Ministry of Agriculture and Food Oslo",
+   "semFoto": true
+  },
+  "depositantes": {
+   "arquivo": "",
+   "rotulo": "Equipe de um banco de sementes",
+   "commons": "genebank staff seed processing",
+   "semFoto": true
+  },
+  "caixas-prateleira": {
+   "arquivo": "imagens/caixas-prateleira-f463ee34.jpg",
+   "rotulo": "Caixas lacradas nas prateleiras",
+   "commons": "Svalbard Global Seed Vault boxes shelves",
+   "autor": "Dag Endresen",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Storage_containers_in_Svalbard_Global_Seed_Vault_01.jpg",
+   "titulo": "File:Storage containers in Svalbard Global Seed Vault 01.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 1,
+   "foco": {
+    "x": 19.5,
+    "y": 67.2
+   },
+   "borrada": "imagens/caixas-prateleira-f463ee34-b.jpg"
+  },
+  "nordgen": {
+   "arquivo": "imagens/nordgen-7f3bf499.jpg",
+   "rotulo": "NordGen",
+   "wiki": "NordGen",
+   "commons": "NordGen Nordic Genetic Resource Center Alnarp",
+   "autor": "Dag Endresen",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nordic_Gene_Bank_(NGB)_-_panoramio.jpg",
+   "titulo": "File:Nordic Gene Bank (NGB) - panoramio.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 2,
+   "foco": {
+    "x": 16.6,
+    "y": 53.7
+   },
+   "borrada": "imagens/nordgen-7f3bf499-b.jpg"
+  },
+  "fao": {
+   "arquivo": "",
+   "rotulo": "Sede da FAO, em Roma",
+   "wiki": "Organização das Nações Unidas para a Alimentação e a Agricultura",
+   "commons": "FAO headquarters Rome",
+   "semFoto": true
+  },
+  "amostras-potes": {
+   "arquivo": "",
+   "rotulo": "Amostras de sementes",
+   "commons": "seed samples jars genebank",
+   "semFoto": true
+  },
+  "crop-trust": {
+   "arquivo": "",
+   "rotulo": "Crop Trust",
+   "wiki": "Crop Trust",
+   "commons": "Crop Trust Bonn",
+   "semFoto": true
+  },
+  "irri": {
+   "arquivo": "",
+   "rotulo": "Banco de arroz do IRRI",
+   "wiki": "Instituto Internacional de Pesquisa do Arroz",
+   "commons": "IRRI genebank rice seeds Los Baños",
+   "semFoto": true
+  },
+  "feijao": {
+   "arquivo": "imagens/feijao-8b92a0f2.jpg",
+   "rotulo": "Variedades de feijão",
+   "wiki": "Feijão",
+   "commons": "common bean varieties seeds",
+   "autor": "Neil Palmer (CIAT)",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Six_bean_varieties_at_a_gene_bank.jpg",
+   "titulo": "File:Six bean varieties at a gene bank.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 0,
+   "foco": {
+    "x": 72.1,
+    "y": 43.2
+   },
+   "borrada": "imagens/feijao-8b92a0f2-b.jpg"
+  },
+  "siria-mapa": {
+   "arquivo": "",
+   "rotulo": "Síria",
+   "wiki": "Síria",
+   "commons": "Syria location map",
+   "semFoto": true
+  },
+  "icarda": {
+   "arquivo": "imagens/icarda-5f71184b.jpg",
+   "rotulo": "ICARDA",
+   "wiki": "ICARDA",
+   "commons": "ICARDA International Center for Agricultural Research in the Dry Areas",
+   "autor": "(J.Owens/VOA)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ali_Shehadeh,_a_scientist_at_ICARDA,_in_shown_in_one_of_the_greenhouses_at_the_International_Center_for_Agricultural_Research_in_the_Dry_Areas,_or_ICARDA,_site_in_Lebanon%27s_Bekaa_Valley.jpg",
+   "titulo": "File:Ali Shehadeh, a scientist at ICARDA, in shown in one of the greenhouses at the International Center for Agricultural Research in the Dry Areas, or ICARDA, site in Lebanon's Bekaa Valley.jpg",
+   "largura": 1400,
+   "altura": 933,
+   "rostos": 0,
+   "foco": {
+    "x": 64.8,
+    "y": 64.9
+   },
+   "borrada": "imagens/icarda-5f71184b-b.jpg"
+  },
+  "cevada": {
+   "arquivo": "imagens/cevada-71b2f96e.jpg",
+   "rotulo": "Cevada",
+   "wiki": "Cevada",
+   "commons": "barley field ears",
+   "autor": "JackyM59",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Champ_d%27Orge_carr%C3%A9e_(Hordeum_vulgare).jpg",
+   "titulo": "File:Champ d'Orge carrée (Hordeum vulgare).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 44.3,
+    "y": 63.2
+   },
+   "borrada": "imagens/cevada-71b2f96e-b.jpg"
+  },
+  "guerra-alepo": {
+   "arquivo": "imagens/guerra-alepo-20d2d8bc.jpg",
+   "rotulo": "Alepo durante a guerra",
+   "wiki": "Guerra Civil Síria",
+   "commons": "Aleppo destruction Syrian civil war",
+   "autor": "Voice of America News: Scott Bobb reports from Aleppo, Syria",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg",
+   "titulo": "File:Bombed out vehicles Aleppo.jpg",
+   "largura": 1210,
+   "altura": 658,
+   "rostos": 0,
+   "foco": {
+    "x": 51.2,
+    "y": 42.1
+   },
+   "borrada": "imagens/guerra-alepo-20d2d8bc-b.jpg"
+  },
+  "icarda-caixas": {
+   "arquivo": "",
+   "rotulo": "Caixas do ICARDA no cofre",
+   "commons": "Svalbard Global Seed Vault ICARDA boxes",
+   "semFoto": true
+  },
+  "cofre-porta": {
+   "arquivo": "",
+   "rotulo": "Porta do cofre",
+   "commons": "Svalbard Global Seed Vault door",
+   "semFoto": true
+  },
+  "retirada-caixas": {
+   "arquivo": "",
+   "rotulo": "Retirada de caixas do ICARDA",
+   "commons": "Svalbard seed vault withdrawal ICARDA crates",
+   "semFoto": true
+  },
+  "libano-mapa": {
+   "arquivo": "",
+   "rotulo": "Líbano",
+   "wiki": "Líbano",
+   "commons": "Lebanon location map",
+   "semFoto": true
+  },
+  "marrocos-mapa": {
+   "arquivo": "imagens/marrocos-mapa-769a2215.jpg",
+   "rotulo": "Marrocos",
+   "wiki": "Marrocos",
+   "commons": "Morocco location map",
+   "autor": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Arhbalou_High_Atlas_Al_Haouz_Morocco_Oct25_A7CR_08381.jpg",
+   "titulo": "File:Arhbalou High Atlas Al Haouz Morocco Oct25 A7CR 08381.jpg",
+   "largura": 1920,
+   "altura": 1200,
+   "rostos": 2,
+   "foco": {
+    "x": 21.5,
+    "y": 62.5
+   },
+   "borrada": "imagens/marrocos-mapa-769a2215-b.jpg"
+  },
+  "aviao-carga": {
+   "arquivo": "",
+   "rotulo": "Transporte de caixas por avião",
+   "commons": "cargo aircraft unloading crates airport",
+   "semFoto": true
+  },
+  "caixas-trigo": {
+   "arquivo": "",
+   "rotulo": "Caixas com trigo e cevada",
+   "commons": "Svalbard Global Seed Vault ICARDA wheat boxes shelves",
+   "semFoto": true
+  },
+  "retirada-2017": {
+   "arquivo": "",
+   "rotulo": "Caixas do ICARDA em 2017",
+   "commons": "ICARDA seeds Svalbard 2017 boxes",
+   "semFoto": true
+  },
+  "terbol": {
+   "arquivo": "imagens/terbol-79c5879e.jpg",
+   "rotulo": "Campos da Bekaa, no Líbano",
+   "commons": "Terbol Lebanon Bekaa agriculture field",
+   "autor": "(J.Owens/VOA)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crops_are_harvested_in_fields_at_the_International_Center_for_Agricultural_Research_in_the_Dry_Areas,_or_ICARDA,_site_in_Terbol,_Bekaa_Valley._(J.jpg",
+   "titulo": "File:Crops are harvested in fields at the International Center for Agricultural Research in the Dry Areas, or ICARDA, site in Terbol, Bekaa Valley. (J.jpg",
+   "largura": 1400,
+   "altura": 933,
+   "rostos": 0,
+   "foco": {
+    "x": 38.6,
+    "y": 63.1
+   },
+   "borrada": "imagens/terbol-79c5879e-b.jpg"
+  },
+  "campo-multiplicacao": {
+   "arquivo": "",
+   "rotulo": "Multiplicação de sementes em campo",
+   "commons": "seed multiplication field experimental plots",
+   "semFoto": true
+  },
+  "redeposito": {
+   "arquivo": "",
+   "rotulo": "Novo depósito do ICARDA",
+   "commons": "ICARDA seed deposit Svalbard",
+   "semFoto": true
+  },
+  "rabat": {
+   "arquivo": "imagens/rabat-1852706f.jpg",
+   "rotulo": "Rabat, no Marrocos",
+   "wiki": "Rabat",
+   "commons": "Rabat Morocco skyline",
+   "autor": "Pline",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kasbah_des_Oudaias_P1060348.JPG",
+   "titulo": "File:Kasbah des Oudaias P1060348.JPG",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 41.7,
+    "y": 44.9
+   },
+   "borrada": "imagens/rabat-1852706f-b.jpg"
+  },
+  "forrageiras": {
+   "arquivo": "imagens/forrageiras-b6e85434.jpg",
+   "rotulo": "Trevo e forrageiras",
+   "wiki": "Trevo",
+   "commons": "clover field forage",
+   "autor": "Couleur",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/trevo-flor-roxa-trevo-do-prado-3430247/",
+   "titulo": "trevo, flor, roxa, trevo do prado, trifolium pratense, plantar, planta forrageira, flor pontiaguda, flores silvestres, natureza, prado, trevo, trevo, trevo, trevo, trevo, flor, flor",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 2,
+   "foco": {
+    "x": 37.2,
+    "y": 41.8
+   },
+   "borrada": "imagens/forrageiras-b6e85434-b.jpg"
+  },
+  "germinacao": {
+   "arquivo": "imagens/germinacao-a4bfca47.jpg",
+   "rotulo": "Sementes germinando",
+   "wiki": "Germinação",
+   "commons": "seedlings germination petri dish",
+   "autor": "Desconhecido",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sunflower_seedlings.jpg",
+   "titulo": "File:Sunflower seedlings.jpg",
+   "largura": 1828,
+   "altura": 1600,
+   "rostos": 0,
+   "foco": {
+    "x": 74.8,
+    "y": 30.9
+   },
+   "borrada": "imagens/germinacao-a4bfca47-b.jpg"
+  },
+  "banco-reconstruido": {
+   "arquivo": "",
+   "rotulo": "Banco de sementes do ICARDA",
+   "commons": "ICARDA genebank Rabat seed storage",
+   "semFoto": true
+  },
+  "campo-cevada-marrocos": {
+   "arquivo": "",
+   "rotulo": "Campo de cereais no Marrocos",
+   "commons": "Morocco barley wheat field",
+   "semFoto": true
+  },
+  "gelo-cofre": {
+   "arquivo": "",
+   "rotulo": "O cofre no gelo",
+   "commons": "Svalbard Global Seed Vault arctic ice night",
+   "semFoto": true
+  },
+  "cofre-visto-longe": {
+   "arquivo": "imagens/cofre-visto-longe-4cd353a8.jpg",
+   "rotulo": "O cofre visto de fora",
+   "commons": "Svalbard Global Seed Vault exterior",
+   "autor": "Cierra Martin for Crop Trust",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Svalbard_Global_Seed_Vault_Exterior_2020.jpg",
+   "titulo": "File:Svalbard Global Seed Vault Exterior 2020.jpg",
+   "largura": 1920,
+   "altura": 1369,
+   "rostos": 0,
+   "foco": {
+    "x": 43.3,
+    "y": 48.2
+   },
+   "borrada": "imagens/cofre-visto-longe-4cd353a8-b.jpg"
+  },
+  "cooperacao": {
+   "arquivo": "",
+   "rotulo": "Inauguração do cofre em 2008",
+   "commons": "Svalbard Global Seed Vault opening ceremony 2008",
+   "semFoto": true
+  },
+  "colheita": {
+   "arquivo": "imagens/colheita-60f1646d.jpg",
+   "rotulo": "Colheita de trigo",
+   "commons": "farmer harvest wheat combine",
+   "autor": "Wolfgang-1958",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/combinar-colheita-trigo-gr%C3%A3o-8140796/",
+   "titulo": "combinar, colheita, trigo, grão, agricultura, milharal, máquina, campo de trigo, equipamento, cultivo, verão, agricultor, colheitadeira, alemanha",
+   "largura": 1280,
+   "altura": 720,
+   "rostos": 0,
+   "foco": {
+    "x": 45.8,
+    "y": 80
+   },
+   "borrada": "imagens/colheita-60f1646d-b.jpg"
+  },
+  "aurora": {
+   "arquivo": "imagens/aurora-ee94d1c3.jpg",
+   "rotulo": "Aurora boreal em Svalbard",
+   "wiki": "Aurora polar",
+   "commons": "aurora borealis Svalbard",
+   "autor": "Noel_Bauza",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/fundo-de-natal-luzes-do-norte-1573331/",
+   "titulo": "fundo de natal, luzes do norte, aurora borealis, aventura, observar as estrelas, luzes, cores, invernos, neve, ártico, paisagem de neve, aurora polar, natureza, svalbard, noite, aventura de sorvete, noite mágica",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 47.4,
+    "y": 80
+   },
+   "borrada": "imagens/aurora-ee94d1c3-b.jpg"
+  },
+  "banana": {
+   "arquivo": "imagens/banana-2bbf41d3.jpg",
+   "rotulo": "Plantação de banana",
+   "wiki": "Banana",
+   "commons": "banana plantation",
+   "autor": "Shubert Ciencia",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Banana_Plantation_Panabo_City.jpg",
+   "titulo": "File:Banana Plantation Panabo City.jpg",
+   "largura": 1280,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 52.2,
+    "y": 59.9
+   },
+   "borrada": "imagens/banana-2bbf41d3-b.jpg"
+  },
+  "laboratorio": {
+   "arquivo": "",
+   "rotulo": "Laboratório de recursos genéticos",
+   "commons": "plant genetic resources laboratory documentation",
+   "semFoto": true
+  },
+  "cofre-visto-longe-2": {
+   "arquivo": "",
+   "rotulo": "O cofre no inverno",
+   "commons": "Svalbard Global Seed Vault in snow winter",
+   "semFoto": true
+  },
+  "cofre-noite-2": {
+   "arquivo": "",
+   "rotulo": "O cofre ao pôr do sol",
+   "commons": "Svalbard Global Seed Vault Arctic sunset",
+   "semFoto": true
+  },
+  "cofre-entrada-2": {
+   "arquivo": "",
+   "rotulo": "Entrada artística do cofre",
+   "commons": "Svalbard Global Seed Vault entrance art Dyveke Sanne",
+   "semFoto": true
+  },
+  "campo-final": {
+   "arquivo": "imagens/campo-final-5ce68ffc.jpg",
+   "rotulo": "Campo atingido pela seca",
+   "commons": "drought wheat field cracked soil",
+   "autor": "outsideclick",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/brown-earth-brown-background-5322094/",
+   "titulo": "brown earth, brown background, earth background, soil, field, texture, land, nature, ground, agriculture, natural, organic, pattern, dirt, surface, farm, environment, dust, cultivated, dry, closeup, mud, soil, soil, soil, soil, soil, ground, ground, ground",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 62.8,
+    "y": 43.4
+   },
+   "borrada": "imagens/campo-final-5ce68ffc-b.jpg"
+  },
+  "svalbard-final": {
+   "arquivo": "imagens/svalbard-final-d828e930.jpg",
+   "rotulo": "Geleira em Svalbard",
+   "commons": "Svalbard glacier Spitsbergen",
+   "autor": "MartinFuchs",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/spitsbergen-geleira-frio-sorvete-970119/",
+   "titulo": "spitsbergen, geleira, frio, sorvete, quieto, montanhas, queda de neve, natureza, ensolarado",
+   "largura": 1280,
+   "altura": 719,
+   "rostos": 0,
+   "foco": {
+    "x": 41.7,
+    "y": 51.1
+   },
+   "borrada": "imagens/svalbard-final-d828e930-b.jpg"
+  },
+  "trigo-espigas": {
+   "arquivo": "imagens/trigo-espigas-ea0fd14d.jpg",
+   "rotulo": "Espigas de trigo",
+   "commons": "wheat ears golden close up",
+   "autor": "neelam279",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/espiga-de-trigo-c%C3%A9u-azul-agricultura-10370072/",
+   "titulo": "espiga de trigo, céu azul, agricultura, natureza, colheita, grão, campo de cereais, cultura, cor dourada, cultura agrícola, lindo papel de parede, produção agrícola, temporada de verão, alimentos, cabeça de trigo, foto de paisagem, fundo, conservação, maturidade",
+   "largura": 830,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 54.6
+   },
+   "borrada": "imagens/trigo-espigas-ea0fd14d-b.jpg"
+  },
+  "crise-seca": {
+   "arquivo": "",
+   "rotulo": "Lavoura atingida pela seca",
+   "commons": "farmland drought crisis crop failure",
+   "semFoto": true
+  },
+  "praga-lavoura": {
+   "arquivo": "",
+   "rotulo": "Praga em lavoura",
+   "commons": "locust swarm crop pest field",
+   "semFoto": true
+  },
+  "noite-final": {
+   "arquivo": "imagens/noite-final-2aee625f.jpg",
+   "rotulo": "Sol da meia-noite em Svalbard",
+   "commons": "Svalbard midnight sun",
+   "autor": "Christoph Strässler",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Midnight_Sun_at_Ekmanfjorden,_Svalbard.jpg",
+   "titulo": "File:Midnight Sun at Ekmanfjorden, Svalbard.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 52.9,
+    "y": 76.9
+   },
+   "borrada": "imagens/noite-final-2aee625f-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-29T12:56:51.385Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -84,6 +8167,70 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Svalbard Global Seed Vault — sobre o cofre",
+   "url": "https://www.seedvault.no/about/"
+  },
+  {
+   "titulo": "Svalbard Global Seed Vault — retirada das sementes do ICARDA (2019)",
+   "url": "https://www.seedvault.no/news/withdrawal-of-icarda-aleppo-seeds-accomplished/"
+  },
+  {
+   "titulo": "Crop Trust — Svalbard Global Seed Vault",
+   "url": "https://www.croptrust.org/work/svalbard-global-seed-vault/"
+  },
+  {
+   "titulo": "Crop Trust — More than 50,000 seeds withdrawn from seed vault (2017)",
+   "url": "https://www.croptrust.org/news-events/news/more-than-50000-seeds-withdrawn-from-seed-vault-1/"
+  },
+  {
+   "titulo": "Crop Trust — Syrian war causes the seed vault's first withdrawal (2015)",
+   "url": "https://www.croptrust.org/news-events/in-the-media/syrian-war-causes-the-global-doomsday-seed-vaults-first-withdrawal/"
+  },
+  {
+   "titulo": "Al Jazeera — Syria war spurs opening of 'doomsday' Arctic seed vault (2015)",
+   "url": "https://www.aljazeera.com/news/2015/9/23/syria-war-spurs-opening-of-doomsday-arctic-seed-vault"
+  },
+  {
+   "titulo": "NordGen — Svalbard Global Seed Vault, Annual Review 2025",
+   "url": "https://publication.nordgen.org/NordGen-Annual-Review-2025/svalbard-global-seed-vault.html"
+  },
+  {
+   "titulo": "Commercial Observer — Norway's Global Seed Vault steels itself against climate change (2023)",
+   "url": "https://commercialobserver.com/2023/11/norways-global-seed-vault-steels-itself-against-climate-change"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "O cofre de sementes do fim do mundo: como funciona de verdade",
+   "Por que a Síria abriu o cofre do Ártico?",
+   "Dentro da montanha que guarda a comida do futuro"
+  ],
+  "descricao": "Dentro de uma montanha congelada na Noruega, o Svalbard Global Seed Vault guarda mais de 1,3 milhão de amostras de sementes. Veja como ele funciona, quem pode guardar e retirar sementes, e o caso real do ICARDA, o banco de Alepo, na Síria, que usou a cópia de segurança depois da guerra.\n\n0:00 Gancho e promessa\n1:00 Por que guardar sementes\n2:00 Uma montanha no Ártico\n3:30 Água no túnel e quem é o dono\n4:30 A Síria e o ICARDA\n6:30 O seguro funcionou\n7:30 Seguro, não fim do mundo\n\nFontes: Svalbard Global Seed Vault (seedvault.no), Crop Trust, NordGen, Al Jazeera, Commercial Observer.",
+  "tags": [
+   "svalbard",
+   "cofre de sementes",
+   "seed vault",
+   "doomsday vault",
+   "banco de sementes",
+   "Síria",
+   "ICARDA",
+   "biodiversidade",
+   "agricultura",
+   "Noruega",
+   "Ártico",
+   "segurança alimentar"
+  ]
  }
 }

@@ -1,0 +1,191 @@
+{
+  "titulo": "O cofre de sementes do fim do mundo",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo", "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Svalbard Global Seed Vault — sobre o cofre", "url": "https://www.seedvault.no/about/" },
+    { "titulo": "Svalbard Global Seed Vault — retirada das sementes do ICARDA (2019)", "url": "https://www.seedvault.no/news/withdrawal-of-icarda-aleppo-seeds-accomplished/" },
+    { "titulo": "Crop Trust — Svalbard Global Seed Vault", "url": "https://www.croptrust.org/work/svalbard-global-seed-vault/" },
+    { "titulo": "Crop Trust — More than 50,000 seeds withdrawn from seed vault (2017)", "url": "https://www.croptrust.org/news-events/news/more-than-50000-seeds-withdrawn-from-seed-vault-1/" },
+    { "titulo": "Crop Trust — Syrian war causes the seed vault's first withdrawal (2015)", "url": "https://www.croptrust.org/news-events/in-the-media/syrian-war-causes-the-global-doomsday-seed-vaults-first-withdrawal/" },
+    { "titulo": "Al Jazeera — Syria war spurs opening of 'doomsday' Arctic seed vault (2015)", "url": "https://www.aljazeera.com/news/2015/9/23/syria-war-spurs-opening-of-doomsday-arctic-seed-vault" },
+    { "titulo": "NordGen — Svalbard Global Seed Vault, Annual Review 2025", "url": "https://publication.nordgen.org/NordGen-Annual-Review-2025/svalbard-global-seed-vault.html" },
+    { "titulo": "Commercial Observer — Norway's Global Seed Vault steels itself against climate change (2023)", "url": "https://commercialobserver.com/2023/11/norways-global-seed-vault-steels-itself-against-climate-change" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "O cofre de sementes do fim do mundo: como funciona de verdade",
+      "Por que a Síria abriu o cofre do Ártico?",
+      "Dentro da montanha que guarda a comida do futuro"
+    ],
+    "descricao": "Dentro de uma montanha congelada na Noruega, o Svalbard Global Seed Vault guarda mais de 1,3 milhão de amostras de sementes. Veja como ele funciona, quem pode guardar e retirar sementes, e o caso real do ICARDA, o banco de Alepo, na Síria, que usou a cópia de segurança depois da guerra.\n\n0:00 Gancho e promessa\n1:00 Por que guardar sementes\n2:00 Uma montanha no Ártico\n3:30 Água no túnel e quem é o dono\n4:30 A Síria e o ICARDA\n6:30 O seguro funcionou\n7:30 Seguro, não fim do mundo\n\nFontes: Svalbard Global Seed Vault (seedvault.no), Crop Trust, NordGen, Al Jazeera, Commercial Observer.",
+    "tags": ["svalbard", "cofre de sementes", "seed vault", "doomsday vault", "banco de sementes", "Síria", "ICARDA", "biodiversidade", "agricultura", "Noruega", "Ártico", "segurança alimentar"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "No meio do Ártico, dentro de uma montanha congelada, existe um cofre que não guarda ouro nem dinheiro. Ele guarda o que você come todos os dias. São mais de um milhão de amostras de sementes, vindas de quase todos os países do mundo. E em dois mil e quinze, uma guerra obrigou o mundo a abrir esse cofre pela primeira vez.",
+      "galeria": ["cofre-entrada", "svalbard-ilha", "cofre-interior", "alepo"],
+      "galeriaEm": [0, "come", "milhão", "quinze"],
+      "fontes": ["NordGen 2025"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "UM COFRE DE SEMENTES?", "em": "cofre", "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 1378238, "unidade": "amostras", "rotulo": "no fim de 2025", "em": "milhão", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Neste vídeo, você vai entender como esse lugar funciona por dentro, quem pode guardar sementes ali e quem pode tirá-las. Vai ver o caso real da Síria, que transformou o cofre em um teste de verdade. E vai entender por que ele não é uma curiosidade apocalíptica, e sim um seguro para a humanidade. Mas primeiro, por que alguém escavaria uma montanha para guardar sementes?",
+      "galeria": ["svalbard-mapa", "longyearbyen", "cofre-noite", "campo-trigo"],
+      "galeriaEm": [0, "Síria", "apocalíptica", "escavaria"],
+      "elementos": [
+        { "tipo": "icones", "itens": [["lupa", "Como funciona"], ["chave", "Quem retira"], ["escudo", "Seguro"]], "em": "entender", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "diversidade",
+      "texto": "Quase tudo o que comemos vem de poucas plantas, como trigo, arroz, milho e batata. Mas cada uma tem milhares de variedades, que mudam em cor, sabor e resistência. Uma aguenta a seca, outra uma praga, outra o sal no solo. Essa diversidade permite criar plantas novas quando o clima muda. Quando ela se perde, a defesa some junto. A Irlanda viveu isso a partir de mil oitocentos e quarenta e cinco, na fome da batata. Por isso, o mundo decidiu guardar uma cópia de segurança.",
+      "galeria": ["milho-variedades", "batata-andes", "arroz-campo", "fome-irlanda", "banco-sementes"],
+      "galeriaEm": [0, "milhares", "aguenta", "perde", "cópia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "POR QUE GUARDAR SEMENTES", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Variedade", "significado": "Versão de uma planta com traços próprios", "em": "variedades", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "copia-seguranca",
+      "texto": "A ideia não é nova. O botânico russo Nikolai Vavilov reuniu uma das primeiras grandes coleções de sementes, no início do século vinte. Mas cada banco de sementes tem seus riscos: guerra, enchente, falta de energia, ou simplesmente falta de dinheiro. Daí nasceu a cópia de segurança. Cada banco manda uma duplicata das suas sementes para um lugar distante e seguro. Esse lugar foi inaugurado em vinte e seis de fevereiro de dois mil e oito, na ilha de Spitsbergen, em Svalbard, na Noruega. Mas por que justo ali?",
+      "galeria": ["vavilov", "genebank-lab", "cary-fowler", "spitsbergen-mapa", "longyearbyen-inverno"],
+      "galeriaEm": [0, "riscos", "Daí", "inaugurado", "justo"],
+      "fontes": ["Seed Vault"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["2008", "Inauguração do cofre"], ["2015", "Primeira retirada"], ["2025", "1,38 milhão de amostras"]], "em": "inaugurado", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "montanha",
+      "texto": "Svalbard fica bem acima do nível do mar, o que protege o cofre até nos piores cenários de elevação dos oceanos. A região é geologicamente estável e tem pouca umidade. E, apesar de remota, tem voos regulares. Isso importa, porque as caixas chegam de avião, vindas de todos os continentes. O cofre fica a mais de cem metros montanha adentro, sob uma camada de rocha de quarenta a sessenta metros. E há um detalhe que faz toda a diferença: o frio.",
+      "galeria": ["svalbard-costa", "platoberget", "aeroporto-svalbard", "cofre-rocha", "permafrost"],
+      "galeriaEm": [0, "geologicamente", "remota", "cem", "detalhe"],
+      "fontes": ["Crop Trust", "Seed Vault"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "UMA MONTANHA NO ÁRTICO", "em": 0, "posicao": "topo" },
+        { "tipo": "mapa", "de": "Todo o mundo", "para": "Svalbard", "legenda": "Caixas chegam de avião", "em": "avião", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "frio",
+      "texto": "As sementes ficam a menos dezoito graus Celsius, a temperatura ideal para conservá-las por décadas. O sistema de refrigeração ajuda, mas o permafrost e a rocha mantêm tudo congelado mesmo se a energia acabar. As sementes vão em pacotes lacrados de três camadas, dentro de caixas, sobre prateleiras. A capacidade é de quatro milhões e quinhentas mil amostras. Com uns quinhentos grãos em cada, são até dois bilhões e meio de sementes. Parece à prova de tudo. Mas a natureza ia testar essa promessa.",
+      "galeria": ["cofre-corredor", "cofre-camara", "pacote-sementes", "sementes-closeup", "neve-derretendo"],
+      "galeriaEm": [0, "refrigeração", "pacotes", "capacidade", "Parece"],
+      "fontes": ["Crop Trust"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": -18, "unidade": "°C", "rotulo": "temperatura ideal", "em": "dezoito", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "agua-2016",
+      "texto": "Em dois mil e dezesseis, temperaturas incomumente altas derreteram parte do permafrost ao redor da entrada. A água entrou no túnel de acesso, mas congelou antes de chegar às sementes. A Noruega reagiu. Vieram impermeabilização das paredes do túnel, retirada de fontes de calor e valas de drenagem do lado de fora. O recado era claro: um cofre feito para o futuro precisa se adaptar a um clima que também muda. E quem decide o que entra e o que sai desse cofre? A resposta pode te surpreender.",
+      "galeria": ["svalbard-verao", "tunel-obras", "drenagem", "clima-artico", "cofre-estrada"],
+      "galeriaEm": [0, "entrou", "reagiu", "recado", "decide"],
+      "fontes": ["Crop Trust", "Commercial Observer"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ÁGUA NO TÚNEL", "sub": "2016", "em": 0, "posicao": "topo" },
+        { "tipo": "check", "ok": true, "texto": "Sementes não foram atingidas", "nota": "A água congelou no túnel", "em": "congelou", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "quem-manda",
+      "texto": "A Noruega é dona da estrutura. Mas não é dona das sementes. Cada banco que deposita ali continua sendo dono do que mandou. E os depósitos são gratuitos. É o sistema de caixa-preta. As caixas ficam lacradas na prateleira, e só quem depositou pode abri-las e retirá-las. O Crop Trust e o centro genético nórdico, o NordGen, cuidam da operação, em parceria com o governo norueguês. Tudo isso dentro de um sistema internacional guiado pela FAO, a agência da ONU para alimentação e agricultura.",
+      "galeria": ["noruega-governo", "depositantes", "caixas-prateleira", "nordgen", "fao"],
+      "galeriaEm": [0, "deposita", "caixa-preta", "Crop", "internacional"],
+      "fontes": ["Crop Trust", "Seed Vault"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUEM É O DONO?", "em": 0, "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "CAIXA-PRETA", "cor": "cinza", "em": "caixa-preta", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "numeros",
+      "texto": "Hoje, o cofre guarda mais de um milhão e trezentas e setenta mil amostras de sementes. Elas vieram de cento e trinta e um bancos de sementes, segundo o NordGen, no fim de dois mil e vinte e cinco. Há variedades de arroz, trigo, cevada, feijão, sorgo e muitas outras plantas. Só em dois mil e vinte e cinco, entraram quase quarenta e sete mil amostras, de quarenta e sete depositantes. Mas um desses depositantes viveria o pior cenário possível.",
+      "galeria": ["amostras-potes", "crop-trust", "irri", "feijao", "siria-mapa"],
+      "galeriaEm": [0, "vieram", "variedades", "entraram", "viveria"],
+      "fontes": ["NordGen 2025"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O CONTEÚDO DO COFRE", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 131, "unidade": "bancos", "rotulo": "depositantes em 2025", "em": "bancos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "icarda",
+      "texto": "Em Alepo, no norte da Síria, ficava o ICARDA, um centro internacional de pesquisa agrícola para regiões secas. O banco de sementes dele guardava variedades de trigo, cevada, ervilha, trevo e capins forrageiros. A guerra na Síria se intensificou em dois mil e doze. Em dois mil e quinze, o banco de Alepo já não conseguia funcionar. Mas havia uma cópia, a milhares de quilômetros dali: trezentas e vinte e cinco caixas no cofre de Svalbard. A hora de usar o seguro tinha chegado.",
+      "galeria": ["icarda", "cevada", "guerra-alepo", "icarda-caixas", "cofre-porta"],
+      "galeriaEm": [0, "dele", "guerra", "havia", "seguro"],
+      "fontes": ["Seed Vault", "Crop Trust"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A SÍRIA E O ICARDA", "em": 0, "posicao": "topo" },
+        { "tipo": "mapa", "de": "Svalbard", "para": "Alepo", "legenda": "325 caixas guardadas", "em": "caixas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "pedido-2015",
+      "texto": "Em setembro de dois mil e quinze, o ICARDA fez o pedido: queria de volta cerca de cento e trinta das caixas depositadas. Eram mais de cento e dezesseis mil amostras, segundo o Crop Trust na época. O destino não era Alepo, em guerra. As sementes serviriam para recriar o banco em outros lugares. Era a primeira retirada da história do cofre. Mas retirar sementes é só metade do trabalho.",
+      "galeria": ["retirada-caixas", "caixas-trigo", "libano-mapa", "aviao-carga", "marrocos-mapa"],
+      "galeriaEm": [0, "dezesseis", "destino", "primeira", "metade"],
+      "fontes": ["Crop Trust", "Al Jazeera"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "PRIMEIRA RETIRADA", "cor": "vermelho", "em": "primeira", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "retirada-2017",
+      "texto": "Em setembro de dois mil e dezessete, o ICARDA retirou cinquenta e duas mil, quatrocentas e cinquenta e uma amostras. As sementes foram multiplicadas em campos no Líbano e no Marrocos, para gerar material novo e saudável. E aí veio a prova de que o sistema funciona: o ICARDA devolveu ao cofre sementes novas, produzidas a partir das que recebeu. Em dois mil e dezenove, uma terceira retirada levou trinta e seis caixas. Trinta e uma, de trigo e cevada, foram para o Marrocos. As outras cinco, de forrageiras, foram para o Líbano. Até então, o ICARDA era o único banco que precisara retirar amostras do cofre.",
+      "galeria": ["retirada-2017", "terbol", "campo-multiplicacao", "redeposito", "rabat", "forrageiras"],
+      "galeriaEm": [0, "multiplicadas", "prova", "terceira", "trigo", "outras"],
+      "fontes": ["Seed Vault", "Crop Trust"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "RETIRADAS E DEPÓSITOS", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["2015", "Pedido"], ["2017", "52.451 amostras"], ["2019", "36 caixas"]], "em": "retirou", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "seguro-funcionou",
+      "texto": "Segundo o cofre, as sementes retiradas em dois mil e quinze e dois mil e dezessete germinaram bem. Os novos bancos do ICARDA, em Terbol, no Líbano, e em Rabat, no Marrocos, nasceram dessas sementes. Até dois mil e dezenove, sementes novas de quarenta e dois mil, setecentos e vinte e nove acessos já tinham voltado ao cofre. Ou seja, a coleção de Alepo não sumiu com a guerra. Foi reconstruída, graças a uma cópia guardada no gelo.",
+      "galeria": ["germinacao", "banco-reconstruido", "campo-cevada-marrocos", "gelo-cofre", "trigo-espigas"],
+      "galeriaEm": [0, "bancos", "acessos", "seja", "graças"],
+      "fontes": ["Seed Vault 2019"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O SEGURO FUNCIONOU", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 42729, "unidade": "acessos", "rotulo": "devolvidos ao cofre até 2019", "em": "quarenta", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "seguro-nao-apocalipse",
+      "texto": "Costuma-se chamar o lugar de cofre do fim do mundo. Mas o caso da Síria mostra o oposto. Ninguém ali espera um apocalipse. O cofre existe para problemas reais e comuns: guerras locais, desastres, falhas de energia. É a última cópia de um sistema maior, de bancos de sementes que trabalham todos os dias, emprestando e multiplicando variedades. Funciona como um backup. Você espera nunca precisar dele, mas ele só vale alguma coisa se existir antes da crise.",
+      "galeria": ["cofre-visto-longe", "cooperacao", "colheita", "aurora", "crise-seca"],
+      "galeriaEm": [0, "Ninguém", "última", "backup", "crise"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SEGURO, NÃO FIM DO MUNDO", "em": 0, "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "BACKUP DA HUMANIDADE", "cor": "verde", "em": "backup", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "limites",
+      "texto": "Há limites, claro. O cofre guarda sementes. Culturas que se reproduzem por mudas, como a banana, precisam de outros métodos. E uma amostra só tem valor se alguém souber o que ela é. Por isso, cada banco mantém seus registros e dados. Também depende de dinheiro constante, de cooperação entre países e de bancos que continuem funcionando lá fora. Ainda assim, poucos lugares reúnem tanta diversidade agrícola sob o mesmo tipo de proteção.",
+      "galeria": ["banana", "laboratorio", "cofre-visto-longe-2", "cofre-noite-2"],
+      "galeriaEm": [0, "amostra", "depende", "Ainda"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "OS LIMITES DO COFRE", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "final",
+      "texto": "Voltemos à pergunta do começo: por que abrir um cofre congelado no Ártico para recuperar sementes? Porque cada semente é uma solução que pode ser necessária amanhã, para uma seca, uma praga ou um calor que ainda não conhecemos. O cofre de Svalbard não é uma curiosidade do fim do mundo. É um seguro para a comida de todos nós. Se você gostou, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos seguir explorando como o mundo funciona.",
+      "galeria": ["cofre-entrada-2", "campo-final", "praga-lavoura", "svalbard-final", "noite-final"],
+      "galeriaEm": [0, "Porque", "calor", "Svalbard", "gostou"],
+      "elementos": [
+        { "tipo": "seguir", "texto": "INSCREVA-SE NO INOVA MUNDO", "em": "inscreva-se", "posicao": "meio2" }
+      ]
+    }
+  ]
+}
