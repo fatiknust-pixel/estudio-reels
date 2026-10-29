@@ -195,6 +195,8 @@ const linhaIA = (p: Projeto): LinhaTempo => {
 export const framesEnquete = (p: Projeto) => (p.efeitos.enquete ? Math.round(p.efeitos.enquete.dur * FPS) : 0);
 
 export const montarLinha = (p: Projeto): LinhaTempo => {
+  if (p.modo === "corrida") // simulação de bolinhas (src/corrida/): só a duração; sem legenda, cenas nem cortes
+    return { duracao: Math.round((p.corrida?.duracao ?? 45) * FPS), palavras: [], cenas: [], trechos: [], paraSaida: (t) => Math.round(t * FPS), paraConteudo: (fr) => fr / FPS };
   const l = p.modo === "bruto" ? linhaBruto(p) : linhaIA(p);
   return { ...l, duracao: l.duracao + framesEnquete(p) };
 };

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { temToken } from "../lib/github";
-import { DEMOS, ItemLista, listarProjetos } from "../lib/projetos";
+import { DEMOS, ItemLista, listarProjetos, novaCorrida } from "../lib/projetos";
 import { avisarErro, ir } from "../ui";
 
 const quando = (iso: string) => {
@@ -57,6 +57,13 @@ export const Inicio: React.FC = () => {
             <span>Escolha um vídeo da galeria e um estilo viral: legendas, cortes de pausas, zooms e destaques.</span>
           </div>
         </button>
+        <button className="modo b" onClick={() => novaCorrida().then((p) => ir(`/editor/${encodeURIComponent(p.id)}`)).catch(avisarErro)}>
+          <div className="emoji">🏁</div>
+          <div>
+            <b>Corrida de bolinhas</b>
+            <span>Simulação "ball race": pistas com regras diferentes quebrando paredes de milhões de HP. Pronto na hora, sem IA.</span>
+          </div>
+        </button>
         <button className="modo" onClick={() => ir("/canais")}>
           <div className="emoji">📺</div>
           <div>
@@ -72,7 +79,7 @@ export const Inicio: React.FC = () => {
         {lista?.length === 0 && <div className="vazio-lista">Nenhum projeto ainda. Comece por um dos modos acima.</div>}
         {lista?.map((p) => (
           <button key={p.id} className="item" onClick={() => ir(`/editor/${encodeURIComponent(p.id)}`)}>
-            <span style={{ fontSize: 22 }}>{p.modo === "ia" ? "🤖" : "🎬"}</span>
+            <span style={{ fontSize: 22 }}>{p.modo === "ia" ? "🤖" : p.modo === "corrida" ? "🏁" : "🎬"}</span>
             <span className="tit">
               {p.titulo}
               <small>{quando(p.atualizadoEm)}{p.noGitHub ? "" : " · só neste aparelho"}</small>
@@ -86,10 +93,10 @@ export const Inicio: React.FC = () => {
       <div className="lista">
         {Object.values(DEMOS).map((p) => (
           <button key={p.id} className="item" onClick={() => ir(`/editor/${p.id}`)}>
-            <span style={{ fontSize: 22 }}>{p.modo === "ia" ? "🤖" : "🎬"}</span>
+            <span style={{ fontSize: 22 }}>{p.modo === "ia" ? "🤖" : p.modo === "corrida" ? "🏁" : "🎬"}</span>
             <span className="tit">
               {p.titulo}
-              <small>{p.modo === "ia" ? "Modo 1 · roteiro, voz, imagens e elementos animados" : "Modo 2 · legenda impacto, cortes, zoom e emojis"}</small>
+              <small>{p.modo === "corrida" ? "Corrida de bolinhas" : p.modo === "ia" ? "Modo 1 · roteiro, voz, imagens e elementos animados" : "Modo 2 · legenda impacto, cortes, zoom e emojis"}</small>
             </span>
             <span className="selo">abrir</span>
           </button>
