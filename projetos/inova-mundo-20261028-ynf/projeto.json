@@ -1,13 +1,13 @@
 {
  "versao": 1,
  "id": "inova-mundo-20261028-ynf",
- "titulo": "Como é construído um prédio",
+ "titulo": "Como é construído um prédio: do buraco ao topo",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-28T17:56:05.484Z",
- "atualizadoEm": "2026-10-28T17:56:05.484Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-29T12:42:01Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Como é construído um prédio",
   "tom": "Curioso e analítico",
@@ -52,15 +52,6552 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em Dubai existe uma torre de oitocentos e vinte e oito metros. Ela cresceu em pleno deserto, e o concreto foi bombeado a centenas de metros de altura. Mas todo prédio, do menor ao maior, começa do mesmo jeito: com um buraco no chão. Como alguém ergue uma coisa dessas sem que ela entorte, afunde ou desabe? Hoje você vai ver a ordem exata de uma obra. E um detalhe, lá no fim, que ninguém vê de fora.",
+   "galeria": [
+    "burj-khalifa",
+    "dubai-2004",
+    "burj-guindaste",
+    "burj-escavacao",
+    "burj-corte"
+   ],
+   "galeriaEm": [
+    0,
+    "deserto",
+    "bombeado",
+    "buraco",
+    "ordem"
+   ],
+   "fontes": [
+    "Olhar Digital"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 828,
+     "unidade": "metros",
+     "rotulo": "Burj Khalifa",
+     "em": "oitocentos",
+     "posicao": "meio"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "COMO NÃO DESABA?",
+     "em": "Como",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Vamos acompanhar um arranha-céu do começo ao fim, em cinco etapas: o solo, a fundação, a estrutura, a fachada e o balanço do vento. No caminho, você conhece três prédios que mudaram a história: um em Chicago, um em Nova York e um aqui no Brasil. No final, você vai entender por que um prédio alto precisa balançar. Já vamos chegar lá. Primeiro, o chão.",
+   "galeria": [
+    "obra-guindastes",
+    "chicago-skyline",
+    "manhattan-1931",
+    "sp-centro",
+    "taipei-skyline"
+   ],
+   "galeriaEm": [
+    0,
+    "Chicago",
+    "Nova",
+    "Brasil",
+    "balançar"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5 ETAPAS",
+     "sub": "Do chão ao topo",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pin",
+       "Solo"
+      ],
+      [
+       "predio",
+       "Estrutura"
+      ],
+      [
+       "raio",
+       "Vento"
+      ]
+     ],
+     "em": "etapas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "sondagem",
+   "texto": "Antes de qualquer pilar, a obra pergunta: o que existe embaixo? Máquinas perfuram o terreno e retiram amostras de solo, metro a metro. É a sondagem. Ela revela se há areia, argila, rocha ou água subterrânea. Cada resposta muda o projeto inteiro. Solo mole pede fundação profunda. Rocha firme pode segurar o peso quase sozinha. Pular essa etapa é o erro mais caro da construção. Mas descobrir o solo é só metade do problema. Agora é preciso abrir espaço.",
+   "galeria": [
+    "sondagem-spt",
+    "amostras-solo",
+    "perfil-solo",
+    "agua-subterranea",
+    "rocha-granito"
+   ],
+   "galeriaEm": [
+    0,
+    "amostras",
+    "areia",
+    "subterrânea",
+    "firme"
+   ],
+   "fontes": [
+    "ABNT NBR 6484"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1. CONHECER O SOLO",
+     "sub": "Capítulo um",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "SONDAGEM",
+     "significado": "Furos que retiram amostras do solo",
+     "em": "sondagem",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "escavacao",
+   "texto": "Com o solo conhecido, vem a escavação. Em Nova York, para o Empire State, os operários cavaram cerca de dezessete metros de profundidade, em dois turnos de doze horas. Em cidades apertadas, as paredes do buraco precisam ser escoradas, ou os vizinhos sentem o tremor. Depois, caminhões levam a terra embora, e o prédio ganha o seu primeiro andar, só que para baixo: os subsolos. A obra mal começou, e já moveu milhares de toneladas. Mas o buraco ainda não segura nada.",
+   "galeria": [
+    "escavadeira",
+    "empire-escavacao",
+    "escoramento",
+    "caminhoes-terra",
+    "subsolo-obra"
+   ],
+   "galeriaEm": [
+    0,
+    "Nova",
+    "escoradas",
+    "caminhões",
+    "subsolos"
+   ],
+   "fontes": [
+    "ENR"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 17,
+     "unidade": "metros",
+     "rotulo": "Profundidade da escavação",
+     "em": "dezessete",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "fundacao",
+   "texto": "Agora, a fundação. No Burj Khalifa, cento e noventa e duas estacas foram enterradas, a quase cinquenta metros de profundidade. Cada uma tem cerca de um metro e meio de diâmetro. Para fazer uma estaca, uma máquina perfura, uma gaiola de aço desce no buraco e o concreto sobe de baixo para cima. Por cima delas, uma laje de três metros e setenta de espessura une tudo num só bloco. Esse bloco espalha o peso da torre pelo solo.",
+   "galeria": [
+    "burj-fundacao",
+    "estaqueamento",
+    "gaiola-aco",
+    "laje-fundacao",
+    "diagrama-estacas"
+   ],
+   "galeriaEm": [
+    0,
+    "perfura",
+    "gaiola",
+    "laje",
+    "espalha"
+   ],
+   "fontes": [
+    "Xataka Brasil",
+    "Capital Piling"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2. FUNDAÇÃO",
+     "sub": "Capítulo dois",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 192,
+     "unidade": "estacas",
+     "rotulo": "Burj Khalifa",
+     "em": "estacas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "concreto",
+   "texto": "A maior parte do prédio é concreto armado. O concreto resiste a esmagar, o aço resiste a esticar, e juntos fazem o que nenhum faz sozinho. O Burj Khalifa consumiu cerca de trezentos e trinta mil metros cúbicos, bombeados para o alto. Em dia de calor, o concreto pode secar rápido demais, por isso a mistura é planejada para cada altura. Concreto é pesado, e o peso é o inimigo. Em Chicago, um engenheiro propôs outra saída.",
+   "galeria": [
+    "concreto-armado",
+    "amarracao-aco",
+    "burj-andares",
+    "bomba-concreto",
+    "forma-laje"
+   ],
+   "galeriaEm": [
+    0,
+    "aço",
+    "Burj",
+    "bombeados",
+    "planejada"
+   ],
+   "fontes": [
+    "Olhar Digital"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 330,
+     "unidade": "mil m³",
+     "rotulo": "Concreto no Burj Khalifa",
+     "em": "trezentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "esqueleto",
+   "texto": "Em mil oitocentos e oitenta e cinco, em Chicago, o engenheiro William Le Baron Jenney ergueu o Home Insurance Building, com dez andares. A ideia: um esqueleto de metal carrega o peso, e as paredes viram só uma pele. Muitos historiadores o chamam de primeiro arranha-céu, embora haja debate. Faltava um detalhe: ninguém queria subir tantas escadas. Em mil oitocentos e cinquenta e quatro, Elisha Otis já havia mostrado o elevador de segurança, que não despenca se o cabo arrebentar.",
+   "galeria": [
+    "home-insurance",
+    "jenney",
+    "esqueleto-aco",
+    "elisha-otis",
+    "elevador-otis"
+   ],
+   "galeriaEm": [
+    0,
+    "engenheiro",
+    "esqueleto",
+    "Elisha",
+    "elevador"
+   ],
+   "fontes": [
+    "HistoryNet"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3. O ESQUELETO",
+     "sub": "Capítulo três",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1854",
+       "Elevador de segurança"
+      ],
+      [
+       "1885",
+       "Home Insurance Building"
+      ]
+     ],
+     "em": "Faltava",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "empire-state",
+   "texto": "Quarenta e seis anos depois, Nova York levou a ideia ao limite. O Empire State Building foi aberto em primeiro de maio de mil novecentos e trinta e um, em cerca de quatrocentos e dez dias de obra. Até três mil e quatrocentos operários trabalhavam por dia, incluindo imigrantes europeus e ferreiros mohawk. O aço chegava na hora certa, dois andares por vez, porque não havia espaço para estoque. A estrutura chegou a subir quatro andares e meio por semana.",
+   "galeria": [
+    "empire-obra",
+    "empire-operarios",
+    "mohawk-ferreiros",
+    "empire-aco",
+    "empire-pronto"
+   ],
+   "galeriaEm": [
+    0,
+    "operários",
+    "mohawk",
+    "aço",
+    "semana"
+   ],
+   "fontes": [
+    "ENR",
+    "Smithsonian Magazine"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 410,
+     "unidade": "dias",
+     "rotulo": "Empire State Building",
+     "em": "quatrocentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "martinelli",
+   "texto": "E no Brasil? Em São Paulo, o imigrante italiano Giuseppe Martinelli sonhava com um prédio gigante. As obras começaram em mil novecentos e vinte e quatro e terminaram em mil novecentos e trinta e quatro. O projeto inicial previa doze andares, mas o edifício foi crescendo até trinta, com cerca de cento e cinco metros. Foi símbolo do centro paulistano. Décadas depois, entrou em decadência e hoje abriga secretarias da prefeitura. Mas um esqueleto ainda não é um prédio: falta vesti-lo.",
+   "galeria": [
+    "martinelli",
+    "giuseppe-martinelli",
+    "martinelli-obra",
+    "sp-1930",
+    "martinelli-hoje"
+   ],
+   "galeriaEm": [
+    0,
+    "imigrante",
+    "começaram",
+    "símbolo",
+    "Décadas"
+   ],
+   "fontes": [
+    "Gazeta SP"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1924",
+       "Início da obra"
+      ],
+      [
+       "1929",
+       "Inauguração parcial"
+      ],
+      [
+       "1934",
+       "Obra concluída"
+      ]
+     ],
+     "em": "começaram",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "fachada",
+   "texto": "Com o esqueleto de pé, chega a pele. No Burj Khalifa, a fachada tem cerca de vinte e oito mil painéis de vidro duplo, montados em molduras de alumínio, já prontos de fábrica. O formato em Y não é só beleza: foi pensado para confundir o vento, e testado em túnel de vento. Dentro, um núcleo central concentra elevadores e tubulações. Parece o fim, mas o maior perigo dos arranha-céus nem sempre está embaixo. Está em cima.",
+   "galeria": [
+    "burj-fachada",
+    "painel-vidro",
+    "burj-planta-y",
+    "tunel-vento",
+    "nucleo-elevadores"
+   ],
+   "galeriaEm": [
+    0,
+    "painéis",
+    "formato",
+    "túnel",
+    "núcleo"
+   ],
+   "fontes": [
+    "Architect Magazine"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "4. A PELE",
+     "sub": "Capítulo quatro",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 28,
+     "unidade": "mil painéis",
+     "rotulo": "Fachada do Burj Khalifa",
+     "em": "vinte",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "virada",
+   "texto": "Em Taipé, o Taipei 101 esconde uma bola de aço pendurada entre o octogésimo sétimo e o nonagésimo segundo andar. São seiscentas e sessenta toneladas, com cinco metros e meio de diâmetro. Quando o vento empurra a torre para um lado, a bola balança para o outro e anula o movimento. É um amortecedor. Em agosto de dois mil e quinze, durante o tufão Soudelor, ela chegou a oscilar um metro. Ou seja: um prédio alto sobrevive porque aprende a se mexer.",
+   "galeria": [
+    "taipei-101",
+    "amortecedor-taipei",
+    "taipei-nuvens",
+    "pendulo-diagrama",
+    "tufao-soudelor"
+   ],
+   "galeriaEm": [
+    0,
+    "bola",
+    "vento",
+    "amortecedor",
+    "tufão"
+   ],
+   "fontes": [
+    "Guinness World Records",
+    "Taiwan News"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A VIRADA",
+     "sub": "O prédio que balança",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 660,
+     "unidade": "toneladas",
+     "rotulo": "Amortecedor do Taipei 101",
+     "em": "seiscentas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Voltando ao começo: como se ergue uma torre sem que ela desabe? Primeiro, conhecendo o solo. Depois, enterrando estacas até onde a terra segura. Em seguida, levantando um esqueleto de concreto e aço, vestindo-o de vidro e ensinando-o a resistir ao vento. Nenhuma dessas etapas aparece na foto final do prédio, mas todas estão lá. O arranha-céu bonito que você vê da rua é a parte mais fácil do trabalho. A difícil está escondida.",
+   "galeria": [
+    "dubai-noite",
+    "estacas-grupo",
+    "esqueleto-concreto",
+    "vento-torres",
+    "predio-rua"
+   ],
+   "galeriaEm": [
+    0,
+    "estacas",
+    "esqueleto",
+    "vento",
+    "rua"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "icones",
+     "itens": [
+      [
+       "pin",
+       "Solo"
+      ],
+      [
+       "camadas",
+       "Fundação"
+      ],
+      [
+       "predio",
+       "Estrutura"
+      ]
+     ],
+     "em": "Primeiro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Se esse caminho do chão ao topo te surpreendeu, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos ver o que acontece quando um prédio precisa ser derrubado sem deixar rastro. Conta nos comentários: que obra você gostaria de ver por dentro?",
+   "galeria": [
+    "guindaste-por-do-sol",
+    "implosao-predio",
+    "canteiro-final"
+   ],
+   "galeriaEm": [
+    0,
+    "próximo",
+    "comentários"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "seguir",
+     "texto": "INSCREVA-SE",
+     "em": "inscreva-se",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "8075985683",
+   "texto": "Em Dubai existe uma torre de oitocentos e vinte e oito metros. Ela cresceu em pleno deserto, e o concreto foi bombeado a centenas de metros de altura. Mas todo prédio, do menor ao maior, começa do mesmo jeito: com um buraco no chão. Como alguém ergue uma coisa dessas sem que ela entorte, afunde ou desabe? Hoje você vai ver a ordem exata de uma obra. E um detalhe, lá no fim, que ninguém vê de fora.",
+   "audio": "audio/gancho-8075985683.mp3",
+   "duracao": 32.392,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "Dubai",
+     "i": 0.232,
+     "f": 0.636
+    },
+    {
+     "p": "existe",
+     "i": 0.649,
+     "f": 1.04
+    },
+    {
+     "p": "uma",
+     "i": 1.053,
+     "f": 1.222
+    },
+    {
+     "p": "torre",
+     "i": 1.235,
+     "f": 1.534
+    },
+    {
+     "p": "de",
+     "i": 1.547,
+     "f": 1.639
+    },
+    {
+     "p": "oitocentos",
+     "i": 1.652,
+     "f": 2.29
+    },
+    {
+     "p": "e",
+     "i": 2.303,
+     "f": 2.42
+    },
+    {
+     "p": "vinte",
+     "i": 2.433,
+     "f": 2.68
+    },
+    {
+     "p": "e",
+     "i": 2.693,
+     "f": 2.706
+    },
+    {
+     "p": "oito",
+     "i": 2.719,
+     "f": 2.954
+    },
+    {
+     "p": "metros",
+     "i": 2.967,
+     "f": 3.501
+    },
+    {
+     "p": "Ela",
+     "i": 4.758,
+     "f": 5.005
+    },
+    {
+     "p": "cresceu",
+     "i": 5.018,
+     "f": 5.409
+    },
+    {
+     "p": "em",
+     "i": 5.422,
+     "f": 5.539
+    },
+    {
+     "p": "pleno",
+     "i": 5.552,
+     "f": 5.865
+    },
+    {
+     "p": "deserto",
+     "i": 5.878,
+     "f": 6.438
+    },
+    {
+     "p": "e",
+     "i": 6.75,
+     "f": 6.854
+    },
+    {
+     "p": "o",
+     "i": 6.867,
+     "f": 6.907
+    },
+    {
+     "p": "concreto",
+     "i": 6.92,
+     "f": 7.479
+    },
+    {
+     "p": "foi",
+     "i": 7.492,
+     "f": 7.649
+    },
+    {
+     "p": "bombeado",
+     "i": 7.662,
+     "f": 8.235
+    },
+    {
+     "p": "a",
+     "i": 8.248,
+     "f": 8.274
+    },
+    {
+     "p": "centenas",
+     "i": 8.287,
+     "f": 8.86
+    },
+    {
+     "p": "de",
+     "i": 8.873,
+     "f": 8.977
+    },
+    {
+     "p": "metros",
+     "i": 8.99,
+     "f": 9.407
+    },
+    {
+     "p": "de",
+     "i": 9.42,
+     "f": 9.485
+    },
+    {
+     "p": "altura",
+     "i": 9.498,
+     "f": 9.966
+    },
+    {
+     "p": "Mas",
+     "i": 11.214,
+     "f": 11.553
+    },
+    {
+     "p": "todo",
+     "i": 11.566,
+     "f": 11.917
+    },
+    {
+     "p": "prédio",
+     "i": 11.93,
+     "f": 12.373
+    },
+    {
+     "p": "do",
+     "i": 12.633,
+     "f": 12.79
+    },
+    {
+     "p": "menor",
+     "i": 12.803,
+     "f": 13.154
+    },
+    {
+     "p": "ao",
+     "i": 13.167,
+     "f": 13.258
+    },
+    {
+     "p": "maior",
+     "i": 13.271,
+     "f": 13.662
+    },
+    {
+     "p": "começa",
+     "i": 13.948,
+     "f": 14.443
+    },
+    {
+     "p": "do",
+     "i": 14.456,
+     "f": 14.56
+    },
+    {
+     "p": "mesmo",
+     "i": 14.573,
+     "f": 14.99
+    },
+    {
+     "p": "jeito",
+     "i": 15.003,
+     "f": 15.407
+    },
+    {
+     "p": "com",
+     "i": 15.758,
+     "f": 15.902
+    },
+    {
+     "p": "um",
+     "i": 15.915,
+     "f": 15.993
+    },
+    {
+     "p": "buraco",
+     "i": 16.006,
+     "f": 16.474
+    },
+    {
+     "p": "no",
+     "i": 16.488,
+     "f": 16.592
+    },
+    {
+     "p": "chão",
+     "i": 16.605,
+     "f": 16.982
+    },
+    {
+     "p": "Como",
+     "i": 18.222,
+     "f": 18.509
+    },
+    {
+     "p": "alguém",
+     "i": 18.522,
+     "f": 18.821
+    },
+    {
+     "p": "ergue",
+     "i": 18.834,
+     "f": 19.042
+    },
+    {
+     "p": "uma",
+     "i": 19.055,
+     "f": 19.212
+    },
+    {
+     "p": "coisa",
+     "i": 19.225,
+     "f": 19.576
+    },
+    {
+     "p": "dessas",
+     "i": 19.589,
+     "f": 19.915
+    },
+    {
+     "p": "sem",
+     "i": 19.928,
+     "f": 20.084
+    },
+    {
+     "p": "que",
+     "i": 20.097,
+     "f": 20.201
+    },
+    {
+     "p": "ela",
+     "i": 20.214,
+     "f": 20.318
+    },
+    {
+     "p": "entorte",
+     "i": 20.331,
+     "f": 20.904
+    },
+    {
+     "p": "afunde",
+     "i": 21.113,
+     "f": 21.686
+    },
+    {
+     "p": "ou",
+     "i": 21.699,
+     "f": 21.79
+    },
+    {
+     "p": "desabe",
+     "i": 21.803,
+     "f": 22.337
+    },
+    {
+     "p": "Hoje",
+     "i": 23.698,
+     "f": 23.998
+    },
+    {
+     "p": "você",
+     "i": 24.011,
+     "f": 24.297
+    },
+    {
+     "p": "vai",
+     "i": 24.31,
+     "f": 24.453
+    },
+    {
+     "p": "ver",
+     "i": 24.466,
+     "f": 24.636
+    },
+    {
+     "p": "a",
+     "i": 24.649,
+     "f": 24.714
+    },
+    {
+     "p": "ordem",
+     "i": 24.727,
+     "f": 25.143
+    },
+    {
+     "p": "exata",
+     "i": 25.156,
+     "f": 25.586
+    },
+    {
+     "p": "de",
+     "i": 25.599,
+     "f": 25.703
+    },
+    {
+     "p": "uma",
+     "i": 25.716,
+     "f": 25.951
+    },
+    {
+     "p": "obra",
+     "i": 25.964,
+     "f": 26.315
+    },
+    {
+     "p": "E",
+     "i": 27.562,
+     "f": 27.679
+    },
+    {
+     "p": "um",
+     "i": 27.692,
+     "f": 27.77
+    },
+    {
+     "p": "detalhe",
+     "i": 27.783,
+     "f": 28.317
+    },
+    {
+     "p": "lá",
+     "i": 28.578,
+     "f": 28.747
+    },
+    {
+     "p": "no",
+     "i": 28.76,
+     "f": 28.877
+    },
+    {
+     "p": "fim",
+     "i": 28.89,
+     "f": 29.229
+    },
+    {
+     "p": "que",
+     "i": 29.424,
+     "f": 29.541
+    },
+    {
+     "p": "ninguém",
+     "i": 29.554,
+     "f": 29.945
+    },
+    {
+     "p": "vê",
+     "i": 29.958,
+     "f": 30.127
+    },
+    {
+     "p": "de",
+     "i": 30.14,
+     "f": 30.244
+    },
+    {
+     "p": "fora",
+     "i": 30.257,
+     "f": 30.661
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "49cd0a7fa3",
+   "texto": "Vamos acompanhar um arranha-céu do começo ao fim, em cinco etapas: o solo, a fundação, a estrutura, a fachada e o balanço do vento. No caminho, você conhece três prédios que mudaram a história: um em Chicago, um em Nova York e um aqui no Brasil. No final, você vai entender por que um prédio alto precisa balançar. Já vamos chegar lá. Primeiro, o chão.",
+   "audio": "audio/promessa-49cd0a7fa3.mp3",
+   "duracao": 29.44,
+   "palavras": [
+    {
+     "p": "Vamos",
+     "i": 0.102,
+     "f": 0.441
+    },
+    {
+     "p": "acompanhar",
+     "i": 0.454,
+     "f": 1.079
+    },
+    {
+     "p": "um",
+     "i": 1.092,
+     "f": 1.196
+    },
+    {
+     "p": "arranha-céu",
+     "i": 1.209,
+     "f": 1.717
+    },
+    {
+     "p": "do",
+     "i": 1.73,
+     "f": 1.834
+    },
+    {
+     "p": "começo",
+     "i": 1.847,
+     "f": 2.329
+    },
+    {
+     "p": "ao",
+     "i": 2.342,
+     "f": 2.446
+    },
+    {
+     "p": "fim",
+     "i": 2.459,
+     "f": 2.758
+    },
+    {
+     "p": "em",
+     "i": 3.006,
+     "f": 3.11
+    },
+    {
+     "p": "cinco",
+     "i": 3.123,
+     "f": 3.527
+    },
+    {
+     "p": "etapas",
+     "i": 3.54,
+     "f": 4.112
+    },
+    {
+     "p": "o",
+     "i": 4.451,
+     "f": 4.529
+    },
+    {
+     "p": "solo",
+     "i": 4.542,
+     "f": 4.998
+    },
+    {
+     "p": "a",
+     "i": 5.271,
+     "f": 5.376
+    },
+    {
+     "p": "fundação",
+     "i": 5.389,
+     "f": 6.014
+    },
+    {
+     "p": "a",
+     "i": 6.326,
+     "f": 6.404
+    },
+    {
+     "p": "estrutura",
+     "i": 6.417,
+     "f": 7.042
+    },
+    {
+     "p": "a",
+     "i": 7.355,
+     "f": 7.433
+    },
+    {
+     "p": "fachada",
+     "i": 7.446,
+     "f": 7.993
+    },
+    {
+     "p": "e",
+     "i": 8.006,
+     "f": 8.058
+    },
+    {
+     "p": "o",
+     "i": 8.071,
+     "f": 8.11
+    },
+    {
+     "p": "balanço",
+     "i": 8.123,
+     "f": 8.618
+    },
+    {
+     "p": "do",
+     "i": 8.631,
+     "f": 8.761
+    },
+    {
+     "p": "vento",
+     "i": 8.774,
+     "f": 9.191
+    },
+    {
+     "p": "No",
+     "i": 10.446,
+     "f": 10.615
+    },
+    {
+     "p": "caminho",
+     "i": 10.628,
+     "f": 11.123
+    },
+    {
+     "p": "você",
+     "i": 11.449,
+     "f": 11.722
+    },
+    {
+     "p": "conhece",
+     "i": 11.735,
+     "f": 12.23
+    },
+    {
+     "p": "três",
+     "i": 12.243,
+     "f": 12.529
+    },
+    {
+     "p": "prédios",
+     "i": 12.542,
+     "f": 12.998
+    },
+    {
+     "p": "que",
+     "i": 13.011,
+     "f": 13.102
+    },
+    {
+     "p": "mudaram",
+     "i": 13.115,
+     "f": 13.506
+    },
+    {
+     "p": "a",
+     "i": 13.519,
+     "f": 13.558
+    },
+    {
+     "p": "história",
+     "i": 13.571,
+     "f": 14.04
+    },
+    {
+     "p": "um",
+     "i": 14.352,
+     "f": 14.483
+    },
+    {
+     "p": "em",
+     "i": 14.496,
+     "f": 14.548
+    },
+    {
+     "p": "Chicago",
+     "i": 14.561,
+     "f": 15.134
+    },
+    {
+     "p": "um",
+     "i": 15.394,
+     "f": 15.563
+    },
+    {
+     "p": "em",
+     "i": 15.576,
+     "f": 15.628
+    },
+    {
+     "p": "Nova",
+     "i": 15.641,
+     "f": 15.902
+    },
+    {
+     "p": "York",
+     "i": 15.915,
+     "f": 16.371
+    },
+    {
+     "p": "e",
+     "i": 16.384,
+     "f": 16.436
+    },
+    {
+     "p": "um",
+     "i": 16.449,
+     "f": 16.592
+    },
+    {
+     "p": "aqui",
+     "i": 16.605,
+     "f": 16.813
+    },
+    {
+     "p": "no",
+     "i": 16.826,
+     "f": 16.917
+    },
+    {
+     "p": "Brasil",
+     "i": 16.93,
+     "f": 17.412
+    },
+    {
+     "p": "No",
+     "i": 18.654,
+     "f": 18.823
+    },
+    {
+     "p": "final",
+     "i": 18.836,
+     "f": 19.24
+    },
+    {
+     "p": "você",
+     "i": 19.605,
+     "f": 19.904
+    },
+    {
+     "p": "vai",
+     "i": 19.917,
+     "f": 20.047
+    },
+    {
+     "p": "entender",
+     "i": 20.06,
+     "f": 20.529
+    },
+    {
+     "p": "por",
+     "i": 20.542,
+     "f": 20.737
+    },
+    {
+     "p": "que",
+     "i": 20.75,
+     "f": 20.868
+    },
+    {
+     "p": "um",
+     "i": 20.881,
+     "f": 21.011
+    },
+    {
+     "p": "prédio",
+     "i": 21.024,
+     "f": 21.401
+    },
+    {
+     "p": "alto",
+     "i": 21.414,
+     "f": 21.688
+    },
+    {
+     "p": "precisa",
+     "i": 21.701,
+     "f": 22.144
+    },
+    {
+     "p": "balançar",
+     "i": 22.157,
+     "f": 22.717
+    },
+    {
+     "p": "Já",
+     "i": 23.958,
+     "f": 24.179
+    },
+    {
+     "p": "vamos",
+     "i": 24.192,
+     "f": 24.492
+    },
+    {
+     "p": "chegar",
+     "i": 24.505,
+     "f": 24.83
+    },
+    {
+     "p": "lá",
+     "i": 24.844,
+     "f": 25.117
+    },
+    {
+     "p": "Primeiro",
+     "i": 26.358,
+     "f": 26.918
+    },
+    {
+     "p": "o",
+     "i": 27.191,
+     "f": 27.283
+    },
+    {
+     "p": "chão",
+     "i": 27.296,
+     "f": 27.699
+    }
+   ]
+  },
+  "sondagem": {
+   "hash": "0e539bbb9b",
+   "texto": "Antes de qualquer pilar, a obra pergunta: o que existe embaixo? Máquinas perfuram o terreno e retiram amostras de solo, metro a metro. É a sondagem. Ela revela se há areia, argila, rocha ou água subterrânea. Cada resposta muda o projeto inteiro. Solo mole pede fundação profunda. Rocha firme pode segurar o peso quase sozinha. Pular essa etapa é o erro mais caro da construção. Mas descobrir o solo é só metade do problema. Agora é preciso abrir espaço.",
+   "audio": "audio/sondagem-0e539bbb9b.mp3",
+   "duracao": 41.953,
+   "palavras": [
+    {
+     "p": "Antes",
+     "i": 0.102,
+     "f": 0.467
+    },
+    {
+     "p": "de",
+     "i": 0.48,
+     "f": 0.584
+    },
+    {
+     "p": "qualquer",
+     "i": 0.597,
+     "f": 0.988
+    },
+    {
+     "p": "pilar",
+     "i": 1.001,
+     "f": 1.417
+    },
+    {
+     "p": "a",
+     "i": 1.717,
+     "f": 1.808
+    },
+    {
+     "p": "obra",
+     "i": 1.821,
+     "f": 2.12
+    },
+    {
+     "p": "pergunta",
+     "i": 2.133,
+     "f": 2.693
+    },
+    {
+     "p": "o",
+     "i": 3.006,
+     "f": 3.11
+    },
+    {
+     "p": "que",
+     "i": 3.123,
+     "f": 3.305
+    },
+    {
+     "p": "existe",
+     "i": 3.318,
+     "f": 3.8
+    },
+    {
+     "p": "embaixo",
+     "i": 3.813,
+     "f": 4.347
+    },
+    {
+     "p": "Máquinas",
+     "i": 5.698,
+     "f": 6.245
+    },
+    {
+     "p": "perfuram",
+     "i": 6.258,
+     "f": 6.779
+    },
+    {
+     "p": "o",
+     "i": 6.792,
+     "f": 6.844
+    },
+    {
+     "p": "terreno",
+     "i": 6.857,
+     "f": 7.339
+    },
+    {
+     "p": "e",
+     "i": 7.352,
+     "f": 7.378
+    },
+    {
+     "p": "retiram",
+     "i": 7.391,
+     "f": 7.781
+    },
+    {
+     "p": "amostras",
+     "i": 7.794,
+     "f": 8.315
+    },
+    {
+     "p": "de",
+     "i": 8.328,
+     "f": 8.445
+    },
+    {
+     "p": "solo",
+     "i": 8.458,
+     "f": 8.849
+    },
+    {
+     "p": "metro",
+     "i": 9.07,
+     "f": 9.435
+    },
+    {
+     "p": "a",
+     "i": 9.448,
+     "f": 9.487
+    },
+    {
+     "p": "metro",
+     "i": 9.5,
+     "f": 9.917
+    },
+    {
+     "p": "É",
+     "i": 11.17,
+     "f": 11.326
+    },
+    {
+     "p": "a",
+     "i": 11.339,
+     "f": 11.378
+    },
+    {
+     "p": "sondagem",
+     "i": 11.391,
+     "f": 12.108
+    },
+    {
+     "p": "Ela",
+     "i": 13.354,
+     "f": 13.614
+    },
+    {
+     "p": "revela",
+     "i": 13.628,
+     "f": 14.083
+    },
+    {
+     "p": "se",
+     "i": 14.096,
+     "f": 14.253
+    },
+    {
+     "p": "há",
+     "i": 14.266,
+     "f": 14.305
+    },
+    {
+     "p": "areia",
+     "i": 14.318,
+     "f": 14.656
+    },
+    {
+     "p": "argila",
+     "i": 14.878,
+     "f": 15.424
+    },
+    {
+     "p": "rocha",
+     "i": 15.698,
+     "f": 16.128
+    },
+    {
+     "p": "ou",
+     "i": 16.141,
+     "f": 16.31
+    },
+    {
+     "p": "água",
+     "i": 16.323,
+     "f": 16.583
+    },
+    {
+     "p": "subterrânea",
+     "i": 16.596,
+     "f": 17.469
+    },
+    {
+     "p": "Cada",
+     "i": 18.73,
+     "f": 19.004
+    },
+    {
+     "p": "resposta",
+     "i": 19.017,
+     "f": 19.629
+    },
+    {
+     "p": "muda",
+     "i": 19.642,
+     "f": 19.928
+    },
+    {
+     "p": "o",
+     "i": 19.941,
+     "f": 19.967
+    },
+    {
+     "p": "projeto",
+     "i": 19.98,
+     "f": 20.488
+    },
+    {
+     "p": "inteiro",
+     "i": 20.501,
+     "f": 20.957
+    },
+    {
+     "p": "Solo",
+     "i": 22.21,
+     "f": 22.614
+    },
+    {
+     "p": "mole",
+     "i": 22.627,
+     "f": 23.004
+    },
+    {
+     "p": "pede",
+     "i": 23.017,
+     "f": 23.304
+    },
+    {
+     "p": "fundação",
+     "i": 23.317,
+     "f": 23.903
+    },
+    {
+     "p": "profunda",
+     "i": 23.916,
+     "f": 24.528
+    },
+    {
+     "p": "Rocha",
+     "i": 25.786,
+     "f": 26.216
+    },
+    {
+     "p": "firme",
+     "i": 26.229,
+     "f": 26.567
+    },
+    {
+     "p": "pode",
+     "i": 26.58,
+     "f": 26.841
+    },
+    {
+     "p": "segurar",
+     "i": 26.854,
+     "f": 27.323
+    },
+    {
+     "p": "o",
+     "i": 27.336,
+     "f": 27.401
+    },
+    {
+     "p": "peso",
+     "i": 27.414,
+     "f": 27.752
+    },
+    {
+     "p": "quase",
+     "i": 27.765,
+     "f": 28.13
+    },
+    {
+     "p": "sozinha",
+     "i": 28.143,
+     "f": 28.781
+    },
+    {
+     "p": "Pular",
+     "i": 30.034,
+     "f": 30.399
+    },
+    {
+     "p": "essa",
+     "i": 30.412,
+     "f": 30.581
+    },
+    {
+     "p": "etapa",
+     "i": 30.594,
+     "f": 30.998
+    },
+    {
+     "p": "é",
+     "i": 31.011,
+     "f": 31.063
+    },
+    {
+     "p": "o",
+     "i": 31.076,
+     "f": 31.206
+    },
+    {
+     "p": "erro",
+     "i": 31.219,
+     "f": 31.44
+    },
+    {
+     "p": "mais",
+     "i": 31.453,
+     "f": 31.766
+    },
+    {
+     "p": "caro",
+     "i": 31.779,
+     "f": 32.078
+    },
+    {
+     "p": "da",
+     "i": 32.091,
+     "f": 32.196
+    },
+    {
+     "p": "construção",
+     "i": 32.209,
+     "f": 32.938
+    },
+    {
+     "p": "Mas",
+     "i": 34.186,
+     "f": 34.486
+    },
+    {
+     "p": "descobrir",
+     "i": 34.499,
+     "f": 35.124
+    },
+    {
+     "p": "o",
+     "i": 35.137,
+     "f": 35.189
+    },
+    {
+     "p": "solo",
+     "i": 35.202,
+     "f": 35.579
+    },
+    {
+     "p": "é",
+     "i": 35.592,
+     "f": 35.631
+    },
+    {
+     "p": "só",
+     "i": 35.644,
+     "f": 35.853
+    },
+    {
+     "p": "metade",
+     "i": 35.866,
+     "f": 36.348
+    },
+    {
+     "p": "do",
+     "i": 36.361,
+     "f": 36.465
+    },
+    {
+     "p": "problema",
+     "i": 36.478,
+     "f": 37.038
+    },
+    {
+     "p": "Agora",
+     "i": 38.29,
+     "f": 38.746
+    },
+    {
+     "p": "é",
+     "i": 38.759,
+     "f": 38.785
+    },
+    {
+     "p": "preciso",
+     "i": 38.798,
+     "f": 39.293
+    },
+    {
+     "p": "abrir",
+     "i": 39.306,
+     "f": 39.605
+    },
+    {
+     "p": "espaço",
+     "i": 39.618,
+     "f": 40.204
+    }
+   ]
+  },
+  "escavacao": {
+   "hash": "edcacb347a",
+   "texto": "Com o solo conhecido, vem a escavação. Em Nova York, para o Empire State, os operários cavaram cerca de dezessete metros de profundidade, em dois turnos de doze horas. Em cidades apertadas, as paredes do buraco precisam ser escoradas, ou os vizinhos sentem o tremor. Depois, caminhões levam a terra embora, e o prédio ganha o seu primeiro andar, só que para baixo: os subsolos. A obra mal começou, e já moveu milhares de toneladas. Mas o buraco ainda não segura nada.",
+   "audio": "audio/escavacao-edcacb347a.mp3",
+   "duracao": 38.087,
+   "palavras": [
+    {
+     "p": "Com",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "o",
+     "i": 0.31,
+     "f": 0.349
+    },
+    {
+     "p": "solo",
+     "i": 0.362,
+     "f": 0.727
+    },
+    {
+     "p": "conhecido",
+     "i": 0.74,
+     "f": 1.391
+    },
+    {
+     "p": "vem",
+     "i": 1.665,
+     "f": 1.886
+    },
+    {
+     "p": "a",
+     "i": 1.899,
+     "f": 1.938
+    },
+    {
+     "p": "escavação",
+     "i": 1.951,
+     "f": 2.628
+    },
+    {
+     "p": "Em",
+     "i": 3.87,
+     "f": 3.987
+    },
+    {
+     "p": "Nova",
+     "i": 4,
+     "f": 4.248
+    },
+    {
+     "p": "York",
+     "i": 4.261,
+     "f": 4.69
+    },
+    {
+     "p": "para",
+     "i": 4.899,
+     "f": 5.094
+    },
+    {
+     "p": "o",
+     "i": 5.107,
+     "f": 5.133
+    },
+    {
+     "p": "Empire",
+     "i": 5.146,
+     "f": 5.628
+    },
+    {
+     "p": "State",
+     "i": 5.641,
+     "f": 6.123
+    },
+    {
+     "p": "os",
+     "i": 6.422,
+     "f": 6.474
+    },
+    {
+     "p": "operários",
+     "i": 6.487,
+     "f": 7.047
+    },
+    {
+     "p": "cavaram",
+     "i": 7.06,
+     "f": 7.451
+    },
+    {
+     "p": "cerca",
+     "i": 7.464,
+     "f": 7.88
+    },
+    {
+     "p": "de",
+     "i": 7.894,
+     "f": 7.998
+    },
+    {
+     "p": "dezessete",
+     "i": 8.011,
+     "f": 8.61
+    },
+    {
+     "p": "metros",
+     "i": 8.623,
+     "f": 9
+    },
+    {
+     "p": "de",
+     "i": 9.013,
+     "f": 9.104
+    },
+    {
+     "p": "profundidade",
+     "i": 9.117,
+     "f": 9.938
+    },
+    {
+     "p": "em",
+     "i": 10.211,
+     "f": 10.315
+    },
+    {
+     "p": "dois",
+     "i": 10.328,
+     "f": 10.628
+    },
+    {
+     "p": "turnos",
+     "i": 10.641,
+     "f": 10.992
+    },
+    {
+     "p": "de",
+     "i": 11.005,
+     "f": 11.123
+    },
+    {
+     "p": "doze",
+     "i": 11.136,
+     "f": 11.565
+    },
+    {
+     "p": "horas",
+     "i": 11.578,
+     "f": 11.995
+    },
+    {
+     "p": "Em",
+     "i": 13.254,
+     "f": 13.41
+    },
+    {
+     "p": "cidades",
+     "i": 13.423,
+     "f": 13.866
+    },
+    {
+     "p": "apertadas",
+     "i": 13.879,
+     "f": 14.712
+    },
+    {
+     "p": "as",
+     "i": 14.96,
+     "f": 15.116
+    },
+    {
+     "p": "paredes",
+     "i": 15.129,
+     "f": 15.585
+    },
+    {
+     "p": "do",
+     "i": 15.598,
+     "f": 15.689
+    },
+    {
+     "p": "buraco",
+     "i": 15.702,
+     "f": 16.145
+    },
+    {
+     "p": "precisam",
+     "i": 16.158,
+     "f": 16.6
+    },
+    {
+     "p": "ser",
+     "i": 16.613,
+     "f": 16.77
+    },
+    {
+     "p": "escoradas",
+     "i": 16.783,
+     "f": 17.512
+    },
+    {
+     "p": "ou",
+     "i": 17.798,
+     "f": 17.955
+    },
+    {
+     "p": "os",
+     "i": 17.968,
+     "f": 18.085
+    },
+    {
+     "p": "vizinhos",
+     "i": 18.098,
+     "f": 18.593
+    },
+    {
+     "p": "sentem",
+     "i": 18.606,
+     "f": 19.035
+    },
+    {
+     "p": "o",
+     "i": 19.048,
+     "f": 19.1
+    },
+    {
+     "p": "tremor",
+     "i": 19.113,
+     "f": 19.53
+    },
+    {
+     "p": "Depois",
+     "i": 20.79,
+     "f": 21.389
+    },
+    {
+     "p": "caminhões",
+     "i": 21.61,
+     "f": 22.196
+    },
+    {
+     "p": "levam",
+     "i": 22.209,
+     "f": 22.574
+    },
+    {
+     "p": "a",
+     "i": 22.587,
+     "f": 22.639
+    },
+    {
+     "p": "terra",
+     "i": 22.652,
+     "f": 22.873
+    },
+    {
+     "p": "embora",
+     "i": 22.886,
+     "f": 23.342
+    },
+    {
+     "p": "e",
+     "i": 23.642,
+     "f": 23.746
+    },
+    {
+     "p": "o",
+     "i": 23.759,
+     "f": 23.824
+    },
+    {
+     "p": "prédio",
+     "i": 23.837,
+     "f": 24.254
+    },
+    {
+     "p": "ganha",
+     "i": 24.267,
+     "f": 24.514
+    },
+    {
+     "p": "o",
+     "i": 24.527,
+     "f": 24.566
+    },
+    {
+     "p": "seu",
+     "i": 24.579,
+     "f": 24.748
+    },
+    {
+     "p": "primeiro",
+     "i": 24.761,
+     "f": 25.113
+    },
+    {
+     "p": "andar",
+     "i": 25.126,
+     "f": 25.478
+    },
+    {
+     "p": "só",
+     "i": 25.738,
+     "f": 25.985
+    },
+    {
+     "p": "que",
+     "i": 25.998,
+     "f": 26.116
+    },
+    {
+     "p": "para",
+     "i": 26.129,
+     "f": 26.337
+    },
+    {
+     "p": "baixo",
+     "i": 26.35,
+     "f": 26.767
+    },
+    {
+     "p": "os",
+     "i": 27.04,
+     "f": 27.17
+    },
+    {
+     "p": "subsolos",
+     "i": 27.183,
+     "f": 27.991
+    },
+    {
+     "p": "A",
+     "i": 29.238,
+     "f": 29.394
+    },
+    {
+     "p": "obra",
+     "i": 29.407,
+     "f": 29.733
+    },
+    {
+     "p": "mal",
+     "i": 29.746,
+     "f": 29.967
+    },
+    {
+     "p": "começou",
+     "i": 29.98,
+     "f": 30.592
+    },
+    {
+     "p": "e",
+     "i": 30.918,
+     "f": 30.996
+    },
+    {
+     "p": "já",
+     "i": 31.009,
+     "f": 31.191
+    },
+    {
+     "p": "moveu",
+     "i": 31.204,
+     "f": 31.491
+    },
+    {
+     "p": "milhares",
+     "i": 31.504,
+     "f": 31.959
+    },
+    {
+     "p": "de",
+     "i": 31.972,
+     "f": 32.09
+    },
+    {
+     "p": "toneladas",
+     "i": 32.103,
+     "f": 32.91
+    },
+    {
+     "p": "Mas",
+     "i": 34.158,
+     "f": 34.366
+    },
+    {
+     "p": "o",
+     "i": 34.379,
+     "f": 34.523
+    },
+    {
+     "p": "buraco",
+     "i": 34.536,
+     "f": 35.017
+    },
+    {
+     "p": "ainda",
+     "i": 35.031,
+     "f": 35.291
+    },
+    {
+     "p": "não",
+     "i": 35.304,
+     "f": 35.512
+    },
+    {
+     "p": "segura",
+     "i": 35.525,
+     "f": 35.968
+    },
+    {
+     "p": "nada",
+     "i": 35.981,
+     "f": 36.333
+    }
+   ]
+  },
+  "fundacao": {
+   "hash": "c0a905958e",
+   "texto": "Agora, a fundação. No Burj Khalifa, cento e noventa e duas estacas foram enterradas, a quase cinquenta metros de profundidade. Cada uma tem cerca de um metro e meio de diâmetro. Para fazer uma estaca, uma máquina perfura, uma gaiola de aço desce no buraco e o concreto sobe de baixo para cima. Por cima delas, uma laje de três metros e setenta de espessura une tudo num só bloco. Esse bloco espalha o peso da torre pelo solo.",
+   "audio": "audio/fundacao-c0a905958e.mp3",
+   "duracao": 34.325,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.662
+    },
+    {
+     "p": "a",
+     "i": 0.805,
+     "f": 0.896
+    },
+    {
+     "p": "fundação",
+     "i": 0.909,
+     "f": 1.652
+    },
+    {
+     "p": "No",
+     "i": 2.91,
+     "f": 3.105
+    },
+    {
+     "p": "Burj",
+     "i": 3.118,
+     "f": 3.483
+    },
+    {
+     "p": "Khalifa",
+     "i": 3.496,
+     "f": 4.03
+    },
+    {
+     "p": "cento",
+     "i": 4.277,
+     "f": 4.616
+    },
+    {
+     "p": "e",
+     "i": 4.629,
+     "f": 4.642
+    },
+    {
+     "p": "noventa",
+     "i": 4.655,
+     "f": 4.967
+    },
+    {
+     "p": "e",
+     "i": 4.98,
+     "f": 5.019
+    },
+    {
+     "p": "duas",
+     "i": 5.032,
+     "f": 5.215
+    },
+    {
+     "p": "estacas",
+     "i": 5.228,
+     "f": 5.801
+    },
+    {
+     "p": "foram",
+     "i": 5.814,
+     "f": 6.035
+    },
+    {
+     "p": "enterradas",
+     "i": 6.048,
+     "f": 6.764
+    },
+    {
+     "p": "a",
+     "i": 6.999,
+     "f": 7.09
+    },
+    {
+     "p": "quase",
+     "i": 7.103,
+     "f": 7.48
+    },
+    {
+     "p": "cinquenta",
+     "i": 7.493,
+     "f": 8.053
+    },
+    {
+     "p": "metros",
+     "i": 8.066,
+     "f": 8.483
+    },
+    {
+     "p": "de",
+     "i": 8.496,
+     "f": 8.587
+    },
+    {
+     "p": "profundidade",
+     "i": 8.6,
+     "f": 9.46
+    },
+    {
+     "p": "Cada",
+     "i": 10.71,
+     "f": 10.997
+    },
+    {
+     "p": "uma",
+     "i": 11.01,
+     "f": 11.257
+    },
+    {
+     "p": "tem",
+     "i": 11.27,
+     "f": 11.413
+    },
+    {
+     "p": "cerca",
+     "i": 11.426,
+     "f": 11.791
+    },
+    {
+     "p": "de",
+     "i": 11.804,
+     "f": 11.908
+    },
+    {
+     "p": "um",
+     "i": 11.921,
+     "f": 12.012
+    },
+    {
+     "p": "metro",
+     "i": 12.025,
+     "f": 12.455
+    },
+    {
+     "p": "e",
+     "i": 12.468,
+     "f": 12.507
+    },
+    {
+     "p": "meio",
+     "i": 12.52,
+     "f": 12.846
+    },
+    {
+     "p": "de",
+     "i": 12.859,
+     "f": 12.963
+    },
+    {
+     "p": "diâmetro",
+     "i": 12.976,
+     "f": 13.562
+    },
+    {
+     "p": "Para",
+     "i": 14.814,
+     "f": 15.048
+    },
+    {
+     "p": "fazer",
+     "i": 15.061,
+     "f": 15.335
+    },
+    {
+     "p": "uma",
+     "i": 15.348,
+     "f": 15.465
+    },
+    {
+     "p": "estaca",
+     "i": 15.478,
+     "f": 15.947
+    },
+    {
+     "p": "uma",
+     "i": 16.246,
+     "f": 16.455
+    },
+    {
+     "p": "máquina",
+     "i": 16.468,
+     "f": 16.924
+    },
+    {
+     "p": "perfura",
+     "i": 16.936,
+     "f": 17.457
+    },
+    {
+     "p": "uma",
+     "i": 17.783,
+     "f": 17.965
+    },
+    {
+     "p": "gaiola",
+     "i": 17.978,
+     "f": 18.369
+    },
+    {
+     "p": "de",
+     "i": 18.382,
+     "f": 18.512
+    },
+    {
+     "p": "aço",
+     "i": 18.525,
+     "f": 18.785
+    },
+    {
+     "p": "desce",
+     "i": 18.798,
+     "f": 19.059
+    },
+    {
+     "p": "no",
+     "i": 19.072,
+     "f": 19.15
+    },
+    {
+     "p": "buraco",
+     "i": 19.163,
+     "f": 19.671
+    },
+    {
+     "p": "e",
+     "i": 19.684,
+     "f": 19.749
+    },
+    {
+     "p": "o",
+     "i": 19.762,
+     "f": 19.801
+    },
+    {
+     "p": "concreto",
+     "i": 19.814,
+     "f": 20.361
+    },
+    {
+     "p": "sobe",
+     "i": 20.374,
+     "f": 20.7
+    },
+    {
+     "p": "de",
+     "i": 20.713,
+     "f": 20.817
+    },
+    {
+     "p": "baixo",
+     "i": 20.83,
+     "f": 21.22
+    },
+    {
+     "p": "para",
+     "i": 21.233,
+     "f": 21.429
+    },
+    {
+     "p": "cima",
+     "i": 21.442,
+     "f": 21.884
+    },
+    {
+     "p": "Por",
+     "i": 23.142,
+     "f": 23.337
+    },
+    {
+     "p": "cima",
+     "i": 23.35,
+     "f": 23.728
+    },
+    {
+     "p": "delas",
+     "i": 23.741,
+     "f": 24.223
+    },
+    {
+     "p": "uma",
+     "i": 24.561,
+     "f": 24.744
+    },
+    {
+     "p": "laje",
+     "i": 24.757,
+     "f": 25.108
+    },
+    {
+     "p": "de",
+     "i": 25.121,
+     "f": 25.264
+    },
+    {
+     "p": "três",
+     "i": 25.277,
+     "f": 25.59
+    },
+    {
+     "p": "metros",
+     "i": 25.603,
+     "f": 25.968
+    },
+    {
+     "p": "e",
+     "i": 25.981,
+     "f": 26.072
+    },
+    {
+     "p": "setenta",
+     "i": 26.085,
+     "f": 26.527
+    },
+    {
+     "p": "de",
+     "i": 26.541,
+     "f": 26.632
+    },
+    {
+     "p": "espessura",
+     "i": 26.645,
+     "f": 27.218
+    },
+    {
+     "p": "une",
+     "i": 27.231,
+     "f": 27.504
+    },
+    {
+     "p": "tudo",
+     "i": 27.517,
+     "f": 27.843
+    },
+    {
+     "p": "num",
+     "i": 27.856,
+     "f": 28.012
+    },
+    {
+     "p": "só",
+     "i": 28.025,
+     "f": 28.259
+    },
+    {
+     "p": "bloco",
+     "i": 28.272,
+     "f": 28.689
+    },
+    {
+     "p": "Esse",
+     "i": 29.934,
+     "f": 30.181
+    },
+    {
+     "p": "bloco",
+     "i": 30.194,
+     "f": 30.546
+    },
+    {
+     "p": "espalha",
+     "i": 30.559,
+     "f": 30.976
+    },
+    {
+     "p": "o",
+     "i": 30.989,
+     "f": 31.028
+    },
+    {
+     "p": "peso",
+     "i": 31.041,
+     "f": 31.379
+    },
+    {
+     "p": "da",
+     "i": 31.392,
+     "f": 31.523
+    },
+    {
+     "p": "torre",
+     "i": 31.536,
+     "f": 31.887
+    },
+    {
+     "p": "pelo",
+     "i": 31.9,
+     "f": 32.135
+    },
+    {
+     "p": "solo",
+     "i": 32.148,
+     "f": 32.564
+    }
+   ]
+  },
+  "concreto": {
+   "hash": "22b656e299",
+   "texto": "A maior parte do prédio é concreto armado. O concreto resiste a esmagar, o aço resiste a esticar, e juntos fazem o que nenhum faz sozinho. O Burj Khalifa consumiu cerca de trezentos e trinta mil metros cúbicos, bombeados para o alto. Em dia de calor, o concreto pode secar rápido demais, por isso a mistura é planejada para cada altura. Concreto é pesado, e o peso é o inimigo. Em Chicago, um engenheiro propôs outra saída.",
+   "audio": "audio/concreto-22b656e299.mp3",
+   "duracao": 34.691,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "maior",
+     "i": 0.219,
+     "f": 0.571
+    },
+    {
+     "p": "parte",
+     "i": 0.584,
+     "f": 0.988
+    },
+    {
+     "p": "do",
+     "i": 1.001,
+     "f": 1.105
+    },
+    {
+     "p": "prédio",
+     "i": 1.118,
+     "f": 1.547
+    },
+    {
+     "p": "é",
+     "i": 1.56,
+     "f": 1.612
+    },
+    {
+     "p": "concreto",
+     "i": 1.626,
+     "f": 2.172
+    },
+    {
+     "p": "armado",
+     "i": 2.185,
+     "f": 2.641
+    },
+    {
+     "p": "O",
+     "i": 3.894,
+     "f": 3.998
+    },
+    {
+     "p": "concreto",
+     "i": 4.011,
+     "f": 4.571
+    },
+    {
+     "p": "resiste",
+     "i": 4.584,
+     "f": 5.04
+    },
+    {
+     "p": "a",
+     "i": 5.053,
+     "f": 5.079
+    },
+    {
+     "p": "esmagar",
+     "i": 5.092,
+     "f": 5.561
+    },
+    {
+     "p": "o",
+     "i": 5.925,
+     "f": 6.016
+    },
+    {
+     "p": "aço",
+     "i": 6.029,
+     "f": 6.303
+    },
+    {
+     "p": "resiste",
+     "i": 6.316,
+     "f": 6.759
+    },
+    {
+     "p": "a",
+     "i": 6.772,
+     "f": 6.785
+    },
+    {
+     "p": "esticar",
+     "i": 6.798,
+     "f": 7.293
+    },
+    {
+     "p": "e",
+     "i": 7.644,
+     "f": 7.709
+    },
+    {
+     "p": "juntos",
+     "i": 7.722,
+     "f": 8.152
+    },
+    {
+     "p": "fazem",
+     "i": 8.165,
+     "f": 8.582
+    },
+    {
+     "p": "o",
+     "i": 8.595,
+     "f": 8.647
+    },
+    {
+     "p": "que",
+     "i": 8.66,
+     "f": 8.777
+    },
+    {
+     "p": "nenhum",
+     "i": 8.79,
+     "f": 9.181
+    },
+    {
+     "p": "faz",
+     "i": 9.194,
+     "f": 9.415
+    },
+    {
+     "p": "sozinho",
+     "i": 9.428,
+     "f": 10.014
+    },
+    {
+     "p": "O",
+     "i": 11.262,
+     "f": 11.392
+    },
+    {
+     "p": "Burj",
+     "i": 11.405,
+     "f": 11.757
+    },
+    {
+     "p": "Khalifa",
+     "i": 11.77,
+     "f": 12.252
+    },
+    {
+     "p": "consumiu",
+     "i": 12.265,
+     "f": 12.746
+    },
+    {
+     "p": "cerca",
+     "i": 12.759,
+     "f": 13.137
+    },
+    {
+     "p": "de",
+     "i": 13.15,
+     "f": 13.254
+    },
+    {
+     "p": "trezentos",
+     "i": 13.267,
+     "f": 13.736
+    },
+    {
+     "p": "e",
+     "i": 13.749,
+     "f": 13.892
+    },
+    {
+     "p": "trinta",
+     "i": 13.905,
+     "f": 14.205
+    },
+    {
+     "p": "mil",
+     "i": 14.218,
+     "f": 14.413
+    },
+    {
+     "p": "metros",
+     "i": 14.426,
+     "f": 14.843
+    },
+    {
+     "p": "cúbicos",
+     "i": 14.856,
+     "f": 15.416
+    },
+    {
+     "p": "bombeados",
+     "i": 15.676,
+     "f": 16.418
+    },
+    {
+     "p": "para",
+     "i": 16.431,
+     "f": 16.614
+    },
+    {
+     "p": "o",
+     "i": 16.627,
+     "f": 16.692
+    },
+    {
+     "p": "alto",
+     "i": 16.705,
+     "f": 17.03
+    },
+    {
+     "p": "Em",
+     "i": 18.27,
+     "f": 18.413
+    },
+    {
+     "p": "dia",
+     "i": 18.426,
+     "f": 18.687
+    },
+    {
+     "p": "de",
+     "i": 18.7,
+     "f": 18.791
+    },
+    {
+     "p": "calor",
+     "i": 18.804,
+     "f": 19.208
+    },
+    {
+     "p": "o",
+     "i": 19.572,
+     "f": 19.637
+    },
+    {
+     "p": "concreto",
+     "i": 19.65,
+     "f": 20.21
+    },
+    {
+     "p": "pode",
+     "i": 20.223,
+     "f": 20.458
+    },
+    {
+     "p": "secar",
+     "i": 20.471,
+     "f": 20.861
+    },
+    {
+     "p": "rápido",
+     "i": 20.874,
+     "f": 21.278
+    },
+    {
+     "p": "demais",
+     "i": 21.291,
+     "f": 21.786
+    },
+    {
+     "p": "por",
+     "i": 22.046,
+     "f": 22.241
+    },
+    {
+     "p": "isso",
+     "i": 22.254,
+     "f": 22.502
+    },
+    {
+     "p": "a",
+     "i": 22.515,
+     "f": 22.541
+    },
+    {
+     "p": "mistura",
+     "i": 22.554,
+     "f": 23.023
+    },
+    {
+     "p": "é",
+     "i": 23.036,
+     "f": 23.088
+    },
+    {
+     "p": "planejada",
+     "i": 23.101,
+     "f": 23.817
+    },
+    {
+     "p": "para",
+     "i": 23.83,
+     "f": 24.038
+    },
+    {
+     "p": "cada",
+     "i": 24.051,
+     "f": 24.26
+    },
+    {
+     "p": "altura",
+     "i": 24.273,
+     "f": 24.754
+    },
+    {
+     "p": "Concreto",
+     "i": 25.998,
+     "f": 26.61
+    },
+    {
+     "p": "é",
+     "i": 26.623,
+     "f": 26.662
+    },
+    {
+     "p": "pesado",
+     "i": 26.675,
+     "f": 27.287
+    },
+    {
+     "p": "e",
+     "i": 27.561,
+     "f": 27.678
+    },
+    {
+     "p": "o",
+     "i": 27.691,
+     "f": 27.769
+    },
+    {
+     "p": "peso",
+     "i": 27.782,
+     "f": 28.16
+    },
+    {
+     "p": "é",
+     "i": 28.173,
+     "f": 28.251
+    },
+    {
+     "p": "o",
+     "i": 28.264,
+     "f": 28.342
+    },
+    {
+     "p": "inimigo",
+     "i": 28.355,
+     "f": 28.863
+    },
+    {
+     "p": "Em",
+     "i": 30.102,
+     "f": 30.219
+    },
+    {
+     "p": "Chicago",
+     "i": 30.232,
+     "f": 30.805
+    },
+    {
+     "p": "um",
+     "i": 31.04,
+     "f": 31.17
+    },
+    {
+     "p": "engenheiro",
+     "i": 31.183,
+     "f": 31.652
+    },
+    {
+     "p": "propôs",
+     "i": 31.665,
+     "f": 32.029
+    },
+    {
+     "p": "outra",
+     "i": 32.042,
+     "f": 32.394
+    },
+    {
+     "p": "saída",
+     "i": 32.407,
+     "f": 32.928
+    }
+   ]
+  },
+  "esqueleto": {
+   "hash": "dab68cc8c8",
+   "texto": "Em mil oitocentos e oitenta e cinco, em Chicago, o engenheiro William Le Baron Jenney ergueu o Home Insurance Building, com dez andares. A ideia: um esqueleto de metal carrega o peso, e as paredes viram só uma pele. Muitos historiadores o chamam de primeiro arranha-céu, embora haja debate. Faltava um detalhe: ninguém queria subir tantas escadas. Em mil oitocentos e cinquenta e quatro, Elisha Otis já havia mostrado o elevador de segurança, que não despenca se o cabo arrebentar.",
+   "audio": "audio/esqueleto-dab68cc8c8.mp3",
+   "duracao": 35.474,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "mil",
+     "i": 0.297,
+     "f": 0.441
+    },
+    {
+     "p": "oitocentos",
+     "i": 0.454,
+     "f": 1.079
+    },
+    {
+     "p": "e",
+     "i": 1.092,
+     "f": 1.183
+    },
+    {
+     "p": "oitenta",
+     "i": 1.196,
+     "f": 1.508
+    },
+    {
+     "p": "e",
+     "i": 1.521,
+     "f": 1.56
+    },
+    {
+     "p": "cinco",
+     "i": 1.573,
+     "f": 1.964
+    },
+    {
+     "p": "em",
+     "i": 2.198,
+     "f": 2.329
+    },
+    {
+     "p": "Chicago",
+     "i": 2.342,
+     "f": 2.941
+    },
+    {
+     "p": "o",
+     "i": 3.175,
+     "f": 3.253
+    },
+    {
+     "p": "engenheiro",
+     "i": 3.266,
+     "f": 3.774
+    },
+    {
+     "p": "William",
+     "i": 3.787,
+     "f": 4.073
+    },
+    {
+     "p": "Le",
+     "i": 4.086,
+     "f": 4.23
+    },
+    {
+     "p": "Baron",
+     "i": 4.243,
+     "f": 4.581
+    },
+    {
+     "p": "Jenney",
+     "i": 4.594,
+     "f": 4.92
+    },
+    {
+     "p": "ergueu",
+     "i": 4.933,
+     "f": 5.258
+    },
+    {
+     "p": "o",
+     "i": 5.271,
+     "f": 5.323
+    },
+    {
+     "p": "Home",
+     "i": 5.336,
+     "f": 5.623
+    },
+    {
+     "p": "Insurance",
+     "i": 5.636,
+     "f": 6.17
+    },
+    {
+     "p": "Building",
+     "i": 6.183,
+     "f": 6.665
+    },
+    {
+     "p": "com",
+     "i": 6.938,
+     "f": 7.133
+    },
+    {
+     "p": "dez",
+     "i": 7.146,
+     "f": 7.381
+    },
+    {
+     "p": "andares",
+     "i": 7.394,
+     "f": 8.084
+    },
+    {
+     "p": "A",
+     "i": 9.342,
+     "f": 9.485
+    },
+    {
+     "p": "ideia",
+     "i": 9.498,
+     "f": 9.876
+    },
+    {
+     "p": "um",
+     "i": 10.188,
+     "f": 10.293
+    },
+    {
+     "p": "esqueleto",
+     "i": 10.306,
+     "f": 10.839
+    },
+    {
+     "p": "de",
+     "i": 10.853,
+     "f": 10.944
+    },
+    {
+     "p": "metal",
+     "i": 10.957,
+     "f": 11.321
+    },
+    {
+     "p": "carrega",
+     "i": 11.334,
+     "f": 11.725
+    },
+    {
+     "p": "o",
+     "i": 11.738,
+     "f": 11.777
+    },
+    {
+     "p": "peso",
+     "i": 11.79,
+     "f": 12.194
+    },
+    {
+     "p": "e",
+     "i": 12.493,
+     "f": 12.584
+    },
+    {
+     "p": "as",
+     "i": 12.597,
+     "f": 12.754
+    },
+    {
+     "p": "paredes",
+     "i": 12.767,
+     "f": 13.248
+    },
+    {
+     "p": "viram",
+     "i": 13.261,
+     "f": 13.587
+    },
+    {
+     "p": "só",
+     "i": 13.6,
+     "f": 13.821
+    },
+    {
+     "p": "uma",
+     "i": 13.834,
+     "f": 14.069
+    },
+    {
+     "p": "pele",
+     "i": 14.082,
+     "f": 14.472
+    },
+    {
+     "p": "Muitos",
+     "i": 15.726,
+     "f": 16.091
+    },
+    {
+     "p": "historiadores",
+     "i": 16.104,
+     "f": 16.859
+    },
+    {
+     "p": "o",
+     "i": 16.872,
+     "f": 16.976
+    },
+    {
+     "p": "chamam",
+     "i": 16.989,
+     "f": 17.354
+    },
+    {
+     "p": "de",
+     "i": 17.367,
+     "f": 17.458
+    },
+    {
+     "p": "primeiro",
+     "i": 17.471,
+     "f": 17.822
+    },
+    {
+     "p": "arranha-céu",
+     "i": 17.835,
+     "f": 18.513
+    },
+    {
+     "p": "embora",
+     "i": 18.734,
+     "f": 19.19
+    },
+    {
+     "p": "haja",
+     "i": 19.203,
+     "f": 19.476
+    },
+    {
+     "p": "debate",
+     "i": 19.489,
+     "f": 20.036
+    },
+    {
+     "p": "Faltava",
+     "i": 21.294,
+     "f": 21.841
+    },
+    {
+     "p": "um",
+     "i": 21.854,
+     "f": 21.906
+    },
+    {
+     "p": "detalhe",
+     "i": 21.919,
+     "f": 22.414
+    },
+    {
+     "p": "ninguém",
+     "i": 22.713,
+     "f": 23.13
+    },
+    {
+     "p": "queria",
+     "i": 23.143,
+     "f": 23.456
+    },
+    {
+     "p": "subir",
+     "i": 23.469,
+     "f": 23.846
+    },
+    {
+     "p": "tantas",
+     "i": 23.859,
+     "f": 24.224
+    },
+    {
+     "p": "escadas",
+     "i": 24.237,
+     "f": 24.966
+    },
+    {
+     "p": "Em",
+     "i": 26.214,
+     "f": 26.383
+    },
+    {
+     "p": "mil",
+     "i": 26.396,
+     "f": 26.54
+    },
+    {
+     "p": "oitocentos",
+     "i": 26.553,
+     "f": 27.165
+    },
+    {
+     "p": "e",
+     "i": 27.178,
+     "f": 27.269
+    },
+    {
+     "p": "cinquenta",
+     "i": 27.282,
+     "f": 27.646
+    },
+    {
+     "p": "e",
+     "i": 27.659,
+     "f": 27.698
+    },
+    {
+     "p": "quatro",
+     "i": 27.711,
+     "f": 28.141
+    },
+    {
+     "p": "Elisha",
+     "i": 28.428,
+     "f": 28.831
+    },
+    {
+     "p": "Otis",
+     "i": 28.844,
+     "f": 29.17
+    },
+    {
+     "p": "já",
+     "i": 29.183,
+     "f": 29.3
+    },
+    {
+     "p": "havia",
+     "i": 29.313,
+     "f": 29.547
+    },
+    {
+     "p": "mostrado",
+     "i": 29.56,
+     "f": 30.068
+    },
+    {
+     "p": "o",
+     "i": 30.081,
+     "f": 30.107
+    },
+    {
+     "p": "elevador",
+     "i": 30.12,
+     "f": 30.641
+    },
+    {
+     "p": "de",
+     "i": 30.654,
+     "f": 30.758
+    },
+    {
+     "p": "segurança",
+     "i": 30.771,
+     "f": 31.396
+    },
+    {
+     "p": "que",
+     "i": 31.657,
+     "f": 31.787
+    },
+    {
+     "p": "não",
+     "i": 31.8,
+     "f": 31.982
+    },
+    {
+     "p": "despenca",
+     "i": 31.995,
+     "f": 32.568
+    },
+    {
+     "p": "se",
+     "i": 32.581,
+     "f": 32.725
+    },
+    {
+     "p": "o",
+     "i": 32.738,
+     "f": 32.803
+    },
+    {
+     "p": "cabo",
+     "i": 32.816,
+     "f": 33.115
+    },
+    {
+     "p": "arrebentar",
+     "i": 33.128,
+     "f": 33.727
+    }
+   ]
+  },
+  "empire-state": {
+   "hash": "9fc9fe0a2d",
+   "texto": "Quarenta e seis anos depois, Nova York levou a ideia ao limite. O Empire State Building foi aberto em primeiro de maio de mil novecentos e trinta e um, em cerca de quatrocentos e dez dias de obra. Até três mil e quatrocentos operários trabalhavam por dia, incluindo imigrantes europeus e ferreiros mohawk. O aço chegava na hora certa, dois andares por vez, porque não havia espaço para estoque. A estrutura chegou a subir quatro andares e meio por semana.",
+   "audio": "audio/empire-state-9fc9fe0a2d.mp3",
+   "duracao": 33.907,
+   "palavras": [
+    {
+     "p": "Quarenta",
+     "i": 0.102,
+     "f": 0.532
+    },
+    {
+     "p": "e",
+     "i": 0.545,
+     "f": 0.584
+    },
+    {
+     "p": "seis",
+     "i": 0.597,
+     "f": 0.779
+    },
+    {
+     "p": "anos",
+     "i": 0.792,
+     "f": 1.131
+    },
+    {
+     "p": "depois",
+     "i": 1.144,
+     "f": 1.73
+    },
+    {
+     "p": "Nova",
+     "i": 1.938,
+     "f": 2.277
+    },
+    {
+     "p": "York",
+     "i": 2.29,
+     "f": 2.706
+    },
+    {
+     "p": "levou",
+     "i": 2.719,
+     "f": 3.071
+    },
+    {
+     "p": "a",
+     "i": 3.084,
+     "f": 3.149
+    },
+    {
+     "p": "ideia",
+     "i": 3.162,
+     "f": 3.54
+    },
+    {
+     "p": "ao",
+     "i": 3.553,
+     "f": 3.631
+    },
+    {
+     "p": "limite",
+     "i": 3.644,
+     "f": 4.165
+    },
+    {
+     "p": "O",
+     "i": 5.406,
+     "f": 5.51
+    },
+    {
+     "p": "Empire",
+     "i": 5.523,
+     "f": 6.044
+    },
+    {
+     "p": "State",
+     "i": 6.057,
+     "f": 6.5
+    },
+    {
+     "p": "Building",
+     "i": 6.513,
+     "f": 6.93
+    },
+    {
+     "p": "foi",
+     "i": 6.943,
+     "f": 7.125
+    },
+    {
+     "p": "aberto",
+     "i": 7.138,
+     "f": 7.607
+    },
+    {
+     "p": "em",
+     "i": 7.62,
+     "f": 7.685
+    },
+    {
+     "p": "primeiro",
+     "i": 7.698,
+     "f": 8.062
+    },
+    {
+     "p": "de",
+     "i": 8.075,
+     "f": 8.18
+    },
+    {
+     "p": "maio",
+     "i": 8.193,
+     "f": 8.518
+    },
+    {
+     "p": "de",
+     "i": 8.531,
+     "f": 8.648
+    },
+    {
+     "p": "mil",
+     "i": 8.661,
+     "f": 8.831
+    },
+    {
+     "p": "novecentos",
+     "i": 8.844,
+     "f": 9.416
+    },
+    {
+     "p": "e",
+     "i": 9.43,
+     "f": 9.573
+    },
+    {
+     "p": "trinta",
+     "i": 9.586,
+     "f": 9.833
+    },
+    {
+     "p": "e",
+     "i": 9.846,
+     "f": 9.885
+    },
+    {
+     "p": "um",
+     "i": 9.898,
+     "f": 10.081
+    },
+    {
+     "p": "em",
+     "i": 10.393,
+     "f": 10.471
+    },
+    {
+     "p": "cerca",
+     "i": 10.484,
+     "f": 10.914
+    },
+    {
+     "p": "de",
+     "i": 10.927,
+     "f": 11.018
+    },
+    {
+     "p": "quatrocentos",
+     "i": 11.031,
+     "f": 11.734
+    },
+    {
+     "p": "e",
+     "i": 11.747,
+     "f": 11.891
+    },
+    {
+     "p": "dez",
+     "i": 11.903,
+     "f": 12.242
+    },
+    {
+     "p": "dias",
+     "i": 12.255,
+     "f": 12.555
+    },
+    {
+     "p": "de",
+     "i": 12.568,
+     "f": 12.672
+    },
+    {
+     "p": "obra",
+     "i": 12.685,
+     "f": 13.036
+    },
+    {
+     "p": "Até",
+     "i": 14.286,
+     "f": 14.625
+    },
+    {
+     "p": "três",
+     "i": 14.638,
+     "f": 15.041
+    },
+    {
+     "p": "mil",
+     "i": 15.054,
+     "f": 15.211
+    },
+    {
+     "p": "e",
+     "i": 15.224,
+     "f": 15.25
+    },
+    {
+     "p": "quatrocentos",
+     "i": 15.263,
+     "f": 15.94
+    },
+    {
+     "p": "operários",
+     "i": 15.953,
+     "f": 16.565
+    },
+    {
+     "p": "trabalhavam",
+     "i": 16.578,
+     "f": 17.164
+    },
+    {
+     "p": "por",
+     "i": 17.177,
+     "f": 17.359
+    },
+    {
+     "p": "dia",
+     "i": 17.372,
+     "f": 17.685
+    },
+    {
+     "p": "incluindo",
+     "i": 17.971,
+     "f": 18.427
+    },
+    {
+     "p": "imigrantes",
+     "i": 18.44,
+     "f": 18.974
+    },
+    {
+     "p": "europeus",
+     "i": 18.987,
+     "f": 19.521
+    },
+    {
+     "p": "e",
+     "i": 19.533,
+     "f": 19.664
+    },
+    {
+     "p": "ferreiros",
+     "i": 19.677,
+     "f": 20.171
+    },
+    {
+     "p": "mohawk",
+     "i": 20.185,
+     "f": 20.627
+    },
+    {
+     "p": "O",
+     "i": 21.87,
+     "f": 22.013
+    },
+    {
+     "p": "aço",
+     "i": 22.026,
+     "f": 22.274
+    },
+    {
+     "p": "chegava",
+     "i": 22.287,
+     "f": 22.743
+    },
+    {
+     "p": "na",
+     "i": 22.756,
+     "f": 22.873
+    },
+    {
+     "p": "hora",
+     "i": 22.886,
+     "f": 23.081
+    },
+    {
+     "p": "certa",
+     "i": 23.094,
+     "f": 23.563
+    },
+    {
+     "p": "dois",
+     "i": 23.758,
+     "f": 24.019
+    },
+    {
+     "p": "andares",
+     "i": 24.032,
+     "f": 24.565
+    },
+    {
+     "p": "por",
+     "i": 24.578,
+     "f": 24.774
+    },
+    {
+     "p": "vez",
+     "i": 24.787,
+     "f": 25.164
+    },
+    {
+     "p": "porque",
+     "i": 25.386,
+     "f": 25.711
+    },
+    {
+     "p": "não",
+     "i": 25.724,
+     "f": 25.907
+    },
+    {
+     "p": "havia",
+     "i": 25.92,
+     "f": 26.141
+    },
+    {
+     "p": "espaço",
+     "i": 26.154,
+     "f": 26.636
+    },
+    {
+     "p": "para",
+     "i": 26.649,
+     "f": 26.818
+    },
+    {
+     "p": "estoque",
+     "i": 26.831,
+     "f": 27.378
+    },
+    {
+     "p": "A",
+     "i": 28.638,
+     "f": 28.755
+    },
+    {
+     "p": "estrutura",
+     "i": 28.768,
+     "f": 29.315
+    },
+    {
+     "p": "chegou",
+     "i": 29.328,
+     "f": 29.719
+    },
+    {
+     "p": "a",
+     "i": 29.732,
+     "f": 29.771
+    },
+    {
+     "p": "subir",
+     "i": 29.784,
+     "f": 30.109
+    },
+    {
+     "p": "quatro",
+     "i": 30.122,
+     "f": 30.552
+    },
+    {
+     "p": "andares",
+     "i": 30.565,
+     "f": 30.982
+    },
+    {
+     "p": "e",
+     "i": 30.995,
+     "f": 31.112
+    },
+    {
+     "p": "meio",
+     "i": 31.125,
+     "f": 31.438
+    },
+    {
+     "p": "por",
+     "i": 31.451,
+     "f": 31.594
+    },
+    {
+     "p": "semana",
+     "i": 31.607,
+     "f": 32.154
+    }
+   ]
+  },
+  "martinelli": {
+   "hash": "6e86b17aa0",
+   "texto": "E no Brasil? Em São Paulo, o imigrante italiano Giuseppe Martinelli sonhava com um prédio gigante. As obras começaram em mil novecentos e vinte e quatro e terminaram em mil novecentos e trinta e quatro. O projeto inicial previa doze andares, mas o edifício foi crescendo até trinta, com cerca de cento e cinco metros. Foi símbolo do centro paulistano. Décadas depois, entrou em decadência e hoje abriga secretarias da prefeitura. Mas um esqueleto ainda não é um prédio: falta vesti-lo.",
+   "audio": "audio/martinelli-6e86b17aa0.mp3",
+   "duracao": 37.825,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "no",
+     "i": 0.232,
+     "f": 0.336
+    },
+    {
+     "p": "Brasil",
+     "i": 0.349,
+     "f": 0.87
+    },
+    {
+     "p": "Em",
+     "i": 2.218,
+     "f": 2.348
+    },
+    {
+     "p": "São",
+     "i": 2.361,
+     "f": 2.622
+    },
+    {
+     "p": "Paulo",
+     "i": 2.635,
+     "f": 2.999
+    },
+    {
+     "p": "o",
+     "i": 3.351,
+     "f": 3.455
+    },
+    {
+     "p": "imigrante",
+     "i": 3.468,
+     "f": 3.963
+    },
+    {
+     "p": "italiano",
+     "i": 3.976,
+     "f": 4.458
+    },
+    {
+     "p": "Giuseppe",
+     "i": 4.471,
+     "f": 5.044
+    },
+    {
+     "p": "Martinelli",
+     "i": 5.057,
+     "f": 5.577
+    },
+    {
+     "p": "sonhava",
+     "i": 5.59,
+     "f": 6.124
+    },
+    {
+     "p": "com",
+     "i": 6.137,
+     "f": 6.294
+    },
+    {
+     "p": "um",
+     "i": 6.307,
+     "f": 6.385
+    },
+    {
+     "p": "prédio",
+     "i": 6.398,
+     "f": 6.762
+    },
+    {
+     "p": "gigante",
+     "i": 6.775,
+     "f": 7.361
+    },
+    {
+     "p": "As",
+     "i": 8.602,
+     "f": 8.758
+    },
+    {
+     "p": "obras",
+     "i": 8.771,
+     "f": 9.214
+    },
+    {
+     "p": "começaram",
+     "i": 9.227,
+     "f": 9.839
+    },
+    {
+     "p": "em",
+     "i": 9.852,
+     "f": 9.917
+    },
+    {
+     "p": "mil",
+     "i": 9.93,
+     "f": 10.073
+    },
+    {
+     "p": "novecentos",
+     "i": 10.086,
+     "f": 10.672
+    },
+    {
+     "p": "e",
+     "i": 10.685,
+     "f": 10.79
+    },
+    {
+     "p": "vinte",
+     "i": 10.803,
+     "f": 11.011
+    },
+    {
+     "p": "e",
+     "i": 11.024,
+     "f": 11.037
+    },
+    {
+     "p": "quatro",
+     "i": 11.05,
+     "f": 11.428
+    },
+    {
+     "p": "e",
+     "i": 11.441,
+     "f": 11.48
+    },
+    {
+     "p": "terminaram",
+     "i": 11.493,
+     "f": 12.04
+    },
+    {
+     "p": "em",
+     "i": 12.053,
+     "f": 12.118
+    },
+    {
+     "p": "mil",
+     "i": 12.131,
+     "f": 12.274
+    },
+    {
+     "p": "novecentos",
+     "i": 12.287,
+     "f": 12.899
+    },
+    {
+     "p": "e",
+     "i": 12.912,
+     "f": 13.068
+    },
+    {
+     "p": "trinta",
+     "i": 13.081,
+     "f": 13.329
+    },
+    {
+     "p": "e",
+     "i": 13.342,
+     "f": 13.381
+    },
+    {
+     "p": "quatro",
+     "i": 13.394,
+     "f": 13.836
+    },
+    {
+     "p": "O",
+     "i": 15.082,
+     "f": 15.212
+    },
+    {
+     "p": "projeto",
+     "i": 15.225,
+     "f": 15.707
+    },
+    {
+     "p": "inicial",
+     "i": 15.72,
+     "f": 16.215
+    },
+    {
+     "p": "previa",
+     "i": 16.228,
+     "f": 16.592
+    },
+    {
+     "p": "doze",
+     "i": 16.606,
+     "f": 16.983
+    },
+    {
+     "p": "andares",
+     "i": 16.996,
+     "f": 17.569
+    },
+    {
+     "p": "mas",
+     "i": 17.816,
+     "f": 17.947
+    },
+    {
+     "p": "o",
+     "i": 17.96,
+     "f": 18.077
+    },
+    {
+     "p": "edifício",
+     "i": 18.09,
+     "f": 18.624
+    },
+    {
+     "p": "foi",
+     "i": 18.637,
+     "f": 18.793
+    },
+    {
+     "p": "crescendo",
+     "i": 18.806,
+     "f": 19.197
+    },
+    {
+     "p": "até",
+     "i": 19.21,
+     "f": 19.405
+    },
+    {
+     "p": "trinta",
+     "i": 19.418,
+     "f": 19.9
+    },
+    {
+     "p": "com",
+     "i": 20.186,
+     "f": 20.369
+    },
+    {
+     "p": "cerca",
+     "i": 20.382,
+     "f": 20.785
+    },
+    {
+     "p": "de",
+     "i": 20.798,
+     "f": 20.915
+    },
+    {
+     "p": "cento",
+     "i": 20.928,
+     "f": 21.293
+    },
+    {
+     "p": "e",
+     "i": 21.306,
+     "f": 21.345
+    },
+    {
+     "p": "cinco",
+     "i": 21.358,
+     "f": 21.645
+    },
+    {
+     "p": "metros",
+     "i": 21.658,
+     "f": 22.178
+    },
+    {
+     "p": "Foi",
+     "i": 23.434,
+     "f": 23.721
+    },
+    {
+     "p": "símbolo",
+     "i": 23.734,
+     "f": 24.228
+    },
+    {
+     "p": "do",
+     "i": 24.241,
+     "f": 24.333
+    },
+    {
+     "p": "centro",
+     "i": 24.346,
+     "f": 24.788
+    },
+    {
+     "p": "paulistano",
+     "i": 24.801,
+     "f": 25.478
+    },
+    {
+     "p": "Décadas",
+     "i": 26.722,
+     "f": 27.256
+    },
+    {
+     "p": "depois",
+     "i": 27.269,
+     "f": 27.803
+    },
+    {
+     "p": "entrou",
+     "i": 28.076,
+     "f": 28.389
+    },
+    {
+     "p": "em",
+     "i": 28.402,
+     "f": 28.467
+    },
+    {
+     "p": "decadência",
+     "i": 28.48,
+     "f": 29.183
+    },
+    {
+     "p": "e",
+     "i": 29.196,
+     "f": 29.274
+    },
+    {
+     "p": "hoje",
+     "i": 29.287,
+     "f": 29.561
+    },
+    {
+     "p": "abriga",
+     "i": 29.574,
+     "f": 29.938
+    },
+    {
+     "p": "secretarias",
+     "i": 29.951,
+     "f": 30.667
+    },
+    {
+     "p": "da",
+     "i": 30.68,
+     "f": 30.811
+    },
+    {
+     "p": "prefeitura",
+     "i": 30.824,
+     "f": 31.475
+    },
+    {
+     "p": "Mas",
+     "i": 32.722,
+     "f": 32.917
+    },
+    {
+     "p": "um",
+     "i": 32.93,
+     "f": 33.074
+    },
+    {
+     "p": "esqueleto",
+     "i": 33.087,
+     "f": 33.66
+    },
+    {
+     "p": "ainda",
+     "i": 33.673,
+     "f": 33.933
+    },
+    {
+     "p": "não",
+     "i": 33.946,
+     "f": 34.193
+    },
+    {
+     "p": "é",
+     "i": 34.206,
+     "f": 34.259
+    },
+    {
+     "p": "um",
+     "i": 34.272,
+     "f": 34.402
+    },
+    {
+     "p": "prédio",
+     "i": 34.415,
+     "f": 34.831
+    },
+    {
+     "p": "falta",
+     "i": 35.17,
+     "f": 35.509
+    },
+    {
+     "p": "vesti-lo",
+     "i": 35.522,
+     "f": 36.068
+    }
+   ]
+  },
+  "fachada": {
+   "hash": "3892511b15",
+   "texto": "Com o esqueleto de pé, chega a pele. No Burj Khalifa, a fachada tem cerca de vinte e oito mil painéis de vidro duplo, montados em molduras de alumínio, já prontos de fábrica. O formato em Y não é só beleza: foi pensado para confundir o vento, e testado em túnel de vento. Dentro, um núcleo central concentra elevadores e tubulações. Parece o fim, mas o maior perigo dos arranha-céus nem sempre está embaixo. Está em cima.",
+   "audio": "audio/fachada-3892511b15.mp3",
+   "duracao": 34.586,
+   "palavras": [
+    {
+     "p": "Com",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "o",
+     "i": 0.271,
+     "f": 0.31
+    },
+    {
+     "p": "esqueleto",
+     "i": 0.323,
+     "f": 0.87
+    },
+    {
+     "p": "de",
+     "i": 0.883,
+     "f": 1.001
+    },
+    {
+     "p": "pé",
+     "i": 1.014,
+     "f": 1.352
+    },
+    {
+     "p": "chega",
+     "i": 1.626,
+     "f": 1.938
+    },
+    {
+     "p": "a",
+     "i": 1.951,
+     "f": 1.99
+    },
+    {
+     "p": "pele",
+     "i": 2.003,
+     "f": 2.407
+    },
+    {
+     "p": "No",
+     "i": 3.654,
+     "f": 3.849
+    },
+    {
+     "p": "Burj",
+     "i": 3.862,
+     "f": 4.227
+    },
+    {
+     "p": "Khalifa",
+     "i": 4.24,
+     "f": 4.774
+    },
+    {
+     "p": "a",
+     "i": 4.982,
+     "f": 5.047
+    },
+    {
+     "p": "fachada",
+     "i": 5.06,
+     "f": 5.555
+    },
+    {
+     "p": "tem",
+     "i": 5.568,
+     "f": 5.711
+    },
+    {
+     "p": "cerca",
+     "i": 5.724,
+     "f": 6.076
+    },
+    {
+     "p": "de",
+     "i": 6.089,
+     "f": 6.193
+    },
+    {
+     "p": "vinte",
+     "i": 6.206,
+     "f": 6.493
+    },
+    {
+     "p": "e",
+     "i": 6.506,
+     "f": 6.532
+    },
+    {
+     "p": "oito",
+     "i": 6.545,
+     "f": 6.753
+    },
+    {
+     "p": "mil",
+     "i": 6.766,
+     "f": 7
+    },
+    {
+     "p": "painéis",
+     "i": 7.013,
+     "f": 7.456
+    },
+    {
+     "p": "de",
+     "i": 7.469,
+     "f": 7.56
+    },
+    {
+     "p": "vidro",
+     "i": 7.573,
+     "f": 7.873
+    },
+    {
+     "p": "duplo",
+     "i": 7.886,
+     "f": 8.237
+    },
+    {
+     "p": "montados",
+     "i": 8.524,
+     "f": 9.071
+    },
+    {
+     "p": "em",
+     "i": 9.084,
+     "f": 9.214
+    },
+    {
+     "p": "molduras",
+     "i": 9.227,
+     "f": 9.735
+    },
+    {
+     "p": "de",
+     "i": 9.748,
+     "f": 9.8
+    },
+    {
+     "p": "alumínio",
+     "i": 9.813,
+     "f": 10.256
+    },
+    {
+     "p": "já",
+     "i": 10.529,
+     "f": 10.698
+    },
+    {
+     "p": "prontos",
+     "i": 10.711,
+     "f": 11.18
+    },
+    {
+     "p": "de",
+     "i": 11.193,
+     "f": 11.297
+    },
+    {
+     "p": "fábrica",
+     "i": 11.31,
+     "f": 11.831
+    },
+    {
+     "p": "O",
+     "i": 13.086,
+     "f": 13.19
+    },
+    {
+     "p": "formato",
+     "i": 13.203,
+     "f": 13.763
+    },
+    {
+     "p": "em",
+     "i": 13.776,
+     "f": 13.906
+    },
+    {
+     "p": "Y",
+     "i": 13.919,
+     "f": 14.362
+    },
+    {
+     "p": "não",
+     "i": 14.375,
+     "f": 14.57
+    },
+    {
+     "p": "é",
+     "i": 14.583,
+     "f": 14.636
+    },
+    {
+     "p": "só",
+     "i": 14.649,
+     "f": 14.831
+    },
+    {
+     "p": "beleza",
+     "i": 14.844,
+     "f": 15.326
+    },
+    {
+     "p": "foi",
+     "i": 15.677,
+     "f": 15.847
+    },
+    {
+     "p": "pensado",
+     "i": 15.86,
+     "f": 16.445
+    },
+    {
+     "p": "para",
+     "i": 16.458,
+     "f": 16.654
+    },
+    {
+     "p": "confundir",
+     "i": 16.667,
+     "f": 17.253
+    },
+    {
+     "p": "o",
+     "i": 17.266,
+     "f": 17.318
+    },
+    {
+     "p": "vento",
+     "i": 17.331,
+     "f": 17.721
+    },
+    {
+     "p": "e",
+     "i": 18.047,
+     "f": 18.125
+    },
+    {
+     "p": "testado",
+     "i": 18.138,
+     "f": 18.607
+    },
+    {
+     "p": "em",
+     "i": 18.62,
+     "f": 18.737
+    },
+    {
+     "p": "túnel",
+     "i": 18.75,
+     "f": 19.024
+    },
+    {
+     "p": "de",
+     "i": 19.037,
+     "f": 19.141
+    },
+    {
+     "p": "vento",
+     "i": 19.154,
+     "f": 19.57
+    },
+    {
+     "p": "Dentro",
+     "i": 20.814,
+     "f": 21.322
+    },
+    {
+     "p": "um",
+     "i": 21.595,
+     "f": 21.739
+    },
+    {
+     "p": "núcleo",
+     "i": 21.752,
+     "f": 22.129
+    },
+    {
+     "p": "central",
+     "i": 22.142,
+     "f": 22.559
+    },
+    {
+     "p": "concentra",
+     "i": 22.572,
+     "f": 23.132
+    },
+    {
+     "p": "elevadores",
+     "i": 23.145,
+     "f": 23.731
+    },
+    {
+     "p": "e",
+     "i": 23.744,
+     "f": 23.874
+    },
+    {
+     "p": "tubulações",
+     "i": 23.887,
+     "f": 24.785
+    },
+    {
+     "p": "Parece",
+     "i": 26.046,
+     "f": 26.489
+    },
+    {
+     "p": "o",
+     "i": 26.502,
+     "f": 26.541
+    },
+    {
+     "p": "fim",
+     "i": 26.554,
+     "f": 26.853
+    },
+    {
+     "p": "mas",
+     "i": 27.153,
+     "f": 27.309
+    },
+    {
+     "p": "o",
+     "i": 27.322,
+     "f": 27.426
+    },
+    {
+     "p": "maior",
+     "i": 27.439,
+     "f": 27.713
+    },
+    {
+     "p": "perigo",
+     "i": 27.726,
+     "f": 28.142
+    },
+    {
+     "p": "dos",
+     "i": 28.155,
+     "f": 28.247
+    },
+    {
+     "p": "arranha-céus",
+     "i": 28.26,
+     "f": 29.106
+    },
+    {
+     "p": "nem",
+     "i": 29.119,
+     "f": 29.366
+    },
+    {
+     "p": "sempre",
+     "i": 29.379,
+     "f": 29.77
+    },
+    {
+     "p": "está",
+     "i": 29.783,
+     "f": 30.004
+    },
+    {
+     "p": "embaixo",
+     "i": 30.017,
+     "f": 30.59
+    },
+    {
+     "p": "Está",
+     "i": 31.854,
+     "f": 32.193
+    },
+    {
+     "p": "em",
+     "i": 32.206,
+     "f": 32.336
+    },
+    {
+     "p": "cima",
+     "i": 32.349,
+     "f": 32.844
+    }
+   ]
+  },
+  "virada": {
+   "hash": "3ec082ee71",
+   "texto": "Em Taipé, o Taipei 101 esconde uma bola de aço pendurada entre o octogésimo sétimo e o nonagésimo segundo andar. São seiscentas e sessenta toneladas, com cinco metros e meio de diâmetro. Quando o vento empurra a torre para um lado, a bola balança para o outro e anula o movimento. É um amortecedor. Em agosto de dois mil e quinze, durante o tufão Soudelor, ela chegou a oscilar um metro. Ou seja: um prédio alto sobrevive porque aprende a se mexer.",
+   "audio": "audio/virada-3ec082ee71.mp3",
+   "duracao": 35.291,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "Taipé",
+     "i": 0.284,
+     "f": 0.74
+    },
+    {
+     "p": "o",
+     "i": 1.092,
+     "f": 1.183
+    },
+    {
+     "p": "Taipei",
+     "i": 1.196,
+     "f": 1.626
+    },
+    {
+     "p": "101 esconde",
+     "i": 1.639,
+     "f": 2.641
+    },
+    {
+     "p": "uma",
+     "i": 2.654,
+     "f": 2.784
+    },
+    {
+     "p": "bola",
+     "i": 2.797,
+     "f": 3.097
+    },
+    {
+     "p": "de",
+     "i": 3.11,
+     "f": 3.214
+    },
+    {
+     "p": "aço",
+     "i": 3.227,
+     "f": 3.474
+    },
+    {
+     "p": "pendurada",
+     "i": 3.487,
+     "f": 4.034
+    },
+    {
+     "p": "entre",
+     "i": 4.047,
+     "f": 4.243
+    },
+    {
+     "p": "o",
+     "i": 4.256,
+     "f": 4.269
+    },
+    {
+     "p": "octogésimo",
+     "i": 4.282,
+     "f": 5.063
+    },
+    {
+     "p": "sétimo",
+     "i": 5.076,
+     "f": 5.636
+    },
+    {
+     "p": "e",
+     "i": 5.649,
+     "f": 5.701
+    },
+    {
+     "p": "o",
+     "i": 5.714,
+     "f": 5.753
+    },
+    {
+     "p": "nonagésimo",
+     "i": 5.766,
+     "f": 6.482
+    },
+    {
+     "p": "segundo",
+     "i": 6.495,
+     "f": 6.925
+    },
+    {
+     "p": "andar",
+     "i": 6.938,
+     "f": 7.264
+    },
+    {
+     "p": "São",
+     "i": 8.526,
+     "f": 8.839
+    },
+    {
+     "p": "seiscentas",
+     "i": 8.852,
+     "f": 9.464
+    },
+    {
+     "p": "e",
+     "i": 9.477,
+     "f": 9.594
+    },
+    {
+     "p": "sessenta",
+     "i": 9.607,
+     "f": 10.023
+    },
+    {
+     "p": "toneladas",
+     "i": 10.037,
+     "f": 10.779
+    },
+    {
+     "p": "com",
+     "i": 11.026,
+     "f": 11.221
+    },
+    {
+     "p": "cinco",
+     "i": 11.234,
+     "f": 11.651
+    },
+    {
+     "p": "metros",
+     "i": 11.664,
+     "f": 12.003
+    },
+    {
+     "p": "e",
+     "i": 12.016,
+     "f": 12.133
+    },
+    {
+     "p": "meio",
+     "i": 12.146,
+     "f": 12.445
+    },
+    {
+     "p": "de",
+     "i": 12.458,
+     "f": 12.576
+    },
+    {
+     "p": "diâmetro",
+     "i": 12.589,
+     "f": 13.161
+    },
+    {
+     "p": "Quando",
+     "i": 14.406,
+     "f": 14.706
+    },
+    {
+     "p": "o",
+     "i": 14.719,
+     "f": 14.745
+    },
+    {
+     "p": "vento",
+     "i": 14.758,
+     "f": 15.07
+    },
+    {
+     "p": "empurra",
+     "i": 15.083,
+     "f": 15.552
+    },
+    {
+     "p": "a",
+     "i": 15.565,
+     "f": 15.617
+    },
+    {
+     "p": "torre",
+     "i": 15.63,
+     "f": 15.956
+    },
+    {
+     "p": "para",
+     "i": 15.969,
+     "f": 16.125
+    },
+    {
+     "p": "um",
+     "i": 16.138,
+     "f": 16.255
+    },
+    {
+     "p": "lado",
+     "i": 16.268,
+     "f": 16.607
+    },
+    {
+     "p": "a",
+     "i": 16.867,
+     "f": 16.958
+    },
+    {
+     "p": "bola",
+     "i": 16.971,
+     "f": 17.258
+    },
+    {
+     "p": "balança",
+     "i": 17.271,
+     "f": 17.831
+    },
+    {
+     "p": "para",
+     "i": 17.844,
+     "f": 18.013
+    },
+    {
+     "p": "o",
+     "i": 18.026,
+     "f": 18.078
+    },
+    {
+     "p": "outro",
+     "i": 18.091,
+     "f": 18.469
+    },
+    {
+     "p": "e",
+     "i": 18.482,
+     "f": 18.521
+    },
+    {
+     "p": "anula",
+     "i": 18.534,
+     "f": 18.885
+    },
+    {
+     "p": "o",
+     "i": 18.898,
+     "f": 18.911
+    },
+    {
+     "p": "movimento",
+     "i": 18.924,
+     "f": 19.562
+    },
+    {
+     "p": "É",
+     "i": 20.814,
+     "f": 20.97
+    },
+    {
+     "p": "um",
+     "i": 20.983,
+     "f": 21.14
+    },
+    {
+     "p": "amortecedor",
+     "i": 21.153,
+     "f": 21.947
+    },
+    {
+     "p": "Em",
+     "i": 23.19,
+     "f": 23.359
+    },
+    {
+     "p": "agosto",
+     "i": 23.372,
+     "f": 23.919
+    },
+    {
+     "p": "de",
+     "i": 23.932,
+     "f": 24.023
+    },
+    {
+     "p": "dois",
+     "i": 24.036,
+     "f": 24.232
+    },
+    {
+     "p": "mil",
+     "i": 24.245,
+     "f": 24.349
+    },
+    {
+     "p": "e",
+     "i": 24.362,
+     "f": 24.414
+    },
+    {
+     "p": "quinze",
+     "i": 24.427,
+     "f": 24.831
+    },
+    {
+     "p": "durante",
+     "i": 25.169,
+     "f": 25.56
+    },
+    {
+     "p": "o",
+     "i": 25.573,
+     "f": 25.599
+    },
+    {
+     "p": "tufão",
+     "i": 25.612,
+     "f": 25.924
+    },
+    {
+     "p": "Soudelor",
+     "i": 25.937,
+     "f": 26.484
+    },
+    {
+     "p": "ela",
+     "i": 26.771,
+     "f": 26.927
+    },
+    {
+     "p": "chegou",
+     "i": 26.94,
+     "f": 27.305
+    },
+    {
+     "p": "a",
+     "i": 27.318,
+     "f": 27.357
+    },
+    {
+     "p": "oscilar",
+     "i": 27.37,
+     "f": 27.839
+    },
+    {
+     "p": "um",
+     "i": 27.852,
+     "f": 27.956
+    },
+    {
+     "p": "metro",
+     "i": 27.969,
+     "f": 28.385
+    },
+    {
+     "p": "Ou",
+     "i": 29.646,
+     "f": 29.815
+    },
+    {
+     "p": "seja",
+     "i": 29.828,
+     "f": 30.284
+    },
+    {
+     "p": "um",
+     "i": 30.61,
+     "f": 30.779
+    },
+    {
+     "p": "prédio",
+     "i": 30.792,
+     "f": 31.222
+    },
+    {
+     "p": "alto",
+     "i": 31.235,
+     "f": 31.508
+    },
+    {
+     "p": "sobrevive",
+     "i": 31.521,
+     "f": 32.133
+    },
+    {
+     "p": "porque",
+     "i": 32.146,
+     "f": 32.459
+    },
+    {
+     "p": "aprende",
+     "i": 32.472,
+     "f": 32.927
+    },
+    {
+     "p": "a",
+     "i": 32.94,
+     "f": 32.979
+    },
+    {
+     "p": "se",
+     "i": 32.992,
+     "f": 33.11
+    },
+    {
+     "p": "mexer",
+     "i": 33.123,
+     "f": 33.552
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "2bcf82646b",
+   "texto": "Voltando ao começo: como se ergue uma torre sem que ela desabe? Primeiro, conhecendo o solo. Depois, enterrando estacas até onde a terra segura. Em seguida, levantando um esqueleto de concreto e aço, vestindo-o de vidro e ensinando-o a resistir ao vento. Nenhuma dessas etapas aparece na foto final do prédio, mas todas estão lá. O arranha-céu bonito que você vê da rua é a parte mais fácil do trabalho. A difícil está escondida.",
+   "audio": "audio/desfecho-2bcf82646b.mp3",
+   "duracao": 35.422,
+   "palavras": [
+    {
+     "p": "Voltando",
+     "i": 0.102,
+     "f": 0.649
+    },
+    {
+     "p": "ao",
+     "i": 0.662,
+     "f": 0.753
+    },
+    {
+     "p": "começo",
+     "i": 0.766,
+     "f": 1.313
+    },
+    {
+     "p": "como",
+     "i": 1.665,
+     "f": 1.977
+    },
+    {
+     "p": "se",
+     "i": 1.99,
+     "f": 2.133
+    },
+    {
+     "p": "ergue",
+     "i": 2.146,
+     "f": 2.381
+    },
+    {
+     "p": "uma",
+     "i": 2.394,
+     "f": 2.576
+    },
+    {
+     "p": "torre",
+     "i": 2.589,
+     "f": 2.889
+    },
+    {
+     "p": "sem",
+     "i": 2.902,
+     "f": 3.123
+    },
+    {
+     "p": "que",
+     "i": 3.136,
+     "f": 3.227
+    },
+    {
+     "p": "ela",
+     "i": 3.24,
+     "f": 3.409
+    },
+    {
+     "p": "desabe",
+     "i": 3.422,
+     "f": 3.969
+    },
+    {
+     "p": "Primeiro",
+     "i": 5.314,
+     "f": 5.848
+    },
+    {
+     "p": "conhecendo",
+     "i": 6.134,
+     "f": 6.772
+    },
+    {
+     "p": "o",
+     "i": 6.785,
+     "f": 6.811
+    },
+    {
+     "p": "solo",
+     "i": 6.825,
+     "f": 7.28
+    },
+    {
+     "p": "Depois",
+     "i": 8.53,
+     "f": 9.142
+    },
+    {
+     "p": "enterrando",
+     "i": 9.363,
+     "f": 9.884
+    },
+    {
+     "p": "estacas",
+     "i": 9.897,
+     "f": 10.301
+    },
+    {
+     "p": "até",
+     "i": 10.314,
+     "f": 10.666
+    },
+    {
+     "p": "onde",
+     "i": 10.679,
+     "f": 10.939
+    },
+    {
+     "p": "a",
+     "i": 10.952,
+     "f": 11.017
+    },
+    {
+     "p": "terra",
+     "i": 11.03,
+     "f": 11.304
+    },
+    {
+     "p": "segura",
+     "i": 11.317,
+     "f": 11.863
+    },
+    {
+     "p": "Em",
+     "i": 13.114,
+     "f": 13.244
+    },
+    {
+     "p": "seguida",
+     "i": 13.257,
+     "f": 13.739
+    },
+    {
+     "p": "levantando",
+     "i": 14.065,
+     "f": 14.69
+    },
+    {
+     "p": "um",
+     "i": 14.703,
+     "f": 14.755
+    },
+    {
+     "p": "esqueleto",
+     "i": 14.768,
+     "f": 15.289
+    },
+    {
+     "p": "de",
+     "i": 15.302,
+     "f": 15.38
+    },
+    {
+     "p": "concreto",
+     "i": 15.393,
+     "f": 15.953
+    },
+    {
+     "p": "e",
+     "i": 15.966,
+     "f": 16.031
+    },
+    {
+     "p": "aço",
+     "i": 16.044,
+     "f": 16.369
+    },
+    {
+     "p": "vestindo-o",
+     "i": 16.708,
+     "f": 17.242
+    },
+    {
+     "p": "de",
+     "i": 17.255,
+     "f": 17.359
+    },
+    {
+     "p": "vidro",
+     "i": 17.372,
+     "f": 17.71
+    },
+    {
+     "p": "e",
+     "i": 17.723,
+     "f": 17.749
+    },
+    {
+     "p": "ensinando-o",
+     "i": 17.763,
+     "f": 18.361
+    },
+    {
+     "p": "a",
+     "i": 18.374,
+     "f": 18.414
+    },
+    {
+     "p": "resistir",
+     "i": 18.427,
+     "f": 18.947
+    },
+    {
+     "p": "ao",
+     "i": 18.96,
+     "f": 19.065
+    },
+    {
+     "p": "vento",
+     "i": 19.078,
+     "f": 19.481
+    },
+    {
+     "p": "Nenhuma",
+     "i": 20.722,
+     "f": 21.256
+    },
+    {
+     "p": "dessas",
+     "i": 21.269,
+     "f": 21.503
+    },
+    {
+     "p": "etapas",
+     "i": 21.516,
+     "f": 21.959
+    },
+    {
+     "p": "aparece",
+     "i": 21.972,
+     "f": 22.519
+    },
+    {
+     "p": "na",
+     "i": 22.532,
+     "f": 22.649
+    },
+    {
+     "p": "foto",
+     "i": 22.662,
+     "f": 23.014
+    },
+    {
+     "p": "final",
+     "i": 23.027,
+     "f": 23.365
+    },
+    {
+     "p": "do",
+     "i": 23.378,
+     "f": 23.496
+    },
+    {
+     "p": "prédio",
+     "i": 23.509,
+     "f": 23.938
+    },
+    {
+     "p": "mas",
+     "i": 24.238,
+     "f": 24.485
+    },
+    {
+     "p": "todas",
+     "i": 24.498,
+     "f": 24.824
+    },
+    {
+     "p": "estão",
+     "i": 24.837,
+     "f": 25.253
+    },
+    {
+     "p": "lá",
+     "i": 25.266,
+     "f": 25.514
+    },
+    {
+     "p": "O",
+     "i": 26.77,
+     "f": 26.887
+    },
+    {
+     "p": "arranha-céu",
+     "i": 26.9,
+     "f": 27.447
+    },
+    {
+     "p": "bonito",
+     "i": 27.46,
+     "f": 27.916
+    },
+    {
+     "p": "que",
+     "i": 27.929,
+     "f": 28.02
+    },
+    {
+     "p": "você",
+     "i": 28.033,
+     "f": 28.32
+    },
+    {
+     "p": "vê",
+     "i": 28.333,
+     "f": 28.515
+    },
+    {
+     "p": "da",
+     "i": 28.528,
+     "f": 28.645
+    },
+    {
+     "p": "rua",
+     "i": 28.658,
+     "f": 28.945
+    },
+    {
+     "p": "é",
+     "i": 28.958,
+     "f": 29.036
+    },
+    {
+     "p": "a",
+     "i": 29.049,
+     "f": 29.114
+    },
+    {
+     "p": "parte",
+     "i": 29.127,
+     "f": 29.478
+    },
+    {
+     "p": "mais",
+     "i": 29.491,
+     "f": 29.739
+    },
+    {
+     "p": "fácil",
+     "i": 29.752,
+     "f": 30.169
+    },
+    {
+     "p": "do",
+     "i": 30.182,
+     "f": 30.299
+    },
+    {
+     "p": "trabalho",
+     "i": 30.312,
+     "f": 30.833
+    },
+    {
+     "p": "A",
+     "i": 32.074,
+     "f": 32.191
+    },
+    {
+     "p": "difícil",
+     "i": 32.204,
+     "f": 32.764
+    },
+    {
+     "p": "está",
+     "i": 32.777,
+     "f": 32.999
+    },
+    {
+     "p": "escondida",
+     "i": 33.012,
+     "f": 33.689
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "71fb80371a",
+   "texto": "Se esse caminho do chão ao topo te surpreendeu, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos ver o que acontece quando um prédio precisa ser derrubado sem deixar rastro. Conta nos comentários: que obra você gostaria de ver por dentro?",
+   "audio": "audio/fecho-71fb80371a.mp3",
+   "duracao": 18.913,
+   "palavras": [
+    {
+     "p": "Se",
+     "i": 0.102,
+     "f": 0.349
+    },
+    {
+     "p": "esse",
+     "i": 0.362,
+     "f": 0.61
+    },
+    {
+     "p": "caminho",
+     "i": 0.623,
+     "f": 1.027
+    },
+    {
+     "p": "do",
+     "i": 1.04,
+     "f": 1.144
+    },
+    {
+     "p": "chão",
+     "i": 1.157,
+     "f": 1.443
+    },
+    {
+     "p": "ao",
+     "i": 1.456,
+     "f": 1.586
+    },
+    {
+     "p": "topo",
+     "i": 1.599,
+     "f": 1.912
+    },
+    {
+     "p": "te",
+     "i": 1.925,
+     "f": 2.016
+    },
+    {
+     "p": "surpreendeu",
+     "i": 2.029,
+     "f": 2.745
+    },
+    {
+     "p": "inscreva-se",
+     "i": 3.058,
+     "f": 3.722
+    },
+    {
+     "p": "no",
+     "i": 3.735,
+     "f": 3.826
+    },
+    {
+     "p": "canal",
+     "i": 3.839,
+     "f": 4.243
+    },
+    {
+     "p": "Inova",
+     "i": 4.256,
+     "f": 4.62
+    },
+    {
+     "p": "Mundo",
+     "i": 4.633,
+     "f": 5.011
+    },
+    {
+     "p": "No",
+     "i": 6.27,
+     "f": 6.452
+    },
+    {
+     "p": "próximo",
+     "i": 6.465,
+     "f": 6.96
+    },
+    {
+     "p": "vídeo",
+     "i": 6.973,
+     "f": 7.325
+    },
+    {
+     "p": "vamos",
+     "i": 7.715,
+     "f": 8.028
+    },
+    {
+     "p": "ver",
+     "i": 8.041,
+     "f": 8.249
+    },
+    {
+     "p": "o",
+     "i": 8.262,
+     "f": 8.314
+    },
+    {
+     "p": "que",
+     "i": 8.327,
+     "f": 8.392
+    },
+    {
+     "p": "acontece",
+     "i": 8.405,
+     "f": 9.017
+    },
+    {
+     "p": "quando",
+     "i": 9.03,
+     "f": 9.213
+    },
+    {
+     "p": "um",
+     "i": 9.226,
+     "f": 9.317
+    },
+    {
+     "p": "prédio",
+     "i": 9.33,
+     "f": 9.682
+    },
+    {
+     "p": "precisa",
+     "i": 9.695,
+     "f": 10.137
+    },
+    {
+     "p": "ser",
+     "i": 10.15,
+     "f": 10.346
+    },
+    {
+     "p": "derrubado",
+     "i": 10.359,
+     "f": 10.958
+    },
+    {
+     "p": "sem",
+     "i": 10.971,
+     "f": 11.179
+    },
+    {
+     "p": "deixar",
+     "i": 11.192,
+     "f": 11.583
+    },
+    {
+     "p": "rastro",
+     "i": 11.596,
+     "f": 12.09
+    },
+    {
+     "p": "Conta",
+     "i": 13.35,
+     "f": 13.702
+    },
+    {
+     "p": "nos",
+     "i": 13.715,
+     "f": 13.858
+    },
+    {
+     "p": "comentários",
+     "i": 13.871,
+     "f": 14.678
+    },
+    {
+     "p": "que",
+     "i": 14.9,
+     "f": 15.082
+    },
+    {
+     "p": "obra",
+     "i": 15.095,
+     "f": 15.381
+    },
+    {
+     "p": "você",
+     "i": 15.394,
+     "f": 15.642
+    },
+    {
+     "p": "gostaria",
+     "i": 15.655,
+     "f": 16.163
+    },
+    {
+     "p": "de",
+     "i": 16.176,
+     "f": 16.28
+    },
+    {
+     "p": "ver",
+     "i": 16.293,
+     "f": 16.488
+    },
+    {
+     "p": "por",
+     "i": 16.501,
+     "f": 16.709
+    },
+    {
+     "p": "dentro",
+     "i": 16.722,
+     "f": 17.152
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "burj-khalifa": {
+   "arquivo": "imagens/burj-khalifa-2b31f31e.jpg",
+   "rotulo": "Burj Khalifa, Dubai",
+   "wiki": "Burj Khalifa",
+   "commons": "Burj Khalifa Dubai skyline",
+   "autor": "Tim Reckmann from Hamm, Deutschland",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_mit_Burj_Khalifa_(18241030269).jpg",
+   "titulo": "File:Dubai Skyline mit Burj Khalifa (18241030269).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 50.3,
+    "y": 66.3
+   },
+   "borrada": "imagens/burj-khalifa-2b31f31e-b.jpg"
+  },
+  "dubai-2004": {
+   "arquivo": "imagens/dubai-2004-7e5225c1.jpg",
+   "rotulo": "Dubai em obras",
+   "commons": "Downtown Dubai construction site 2005 desert",
+   "autor": "Images by Imre Solt/Imre Solt",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Downtown_Dubai_18._October_2007.jpg",
+   "titulo": "File:Downtown Dubai 18. October 2007.jpg",
+   "largura": 1209,
+   "altura": 711,
+   "rostos": 0,
+   "foco": {
+    "x": 50.9,
+    "y": 65.8
+   },
+   "borrada": "imagens/dubai-2004-7e5225c1-b.jpg"
+  },
+  "burj-guindaste": {
+   "arquivo": "imagens/burj-guindaste-461d4211.jpg",
+   "rotulo": "Burj Khalifa em construção",
+   "commons": "Burj Khalifa construction 2008 tower crane",
+   "autor": "petter palander",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_and_Burj_Khalifa_-_25072008.jpg",
+   "titulo": "File:Dubai Skyline and Burj Khalifa - 25072008.jpg",
+   "largura": 1920,
+   "altura": 847,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 80
+   },
+   "borrada": "imagens/burj-guindaste-461d4211-b.jpg"
+  },
+  "burj-escavacao": {
+   "arquivo": "imagens/burj-escavacao-e1b8d52b.jpg",
+   "rotulo": "Escavação do Burj Khalifa",
+   "commons": "Burj Khalifa foundation excavation 2004",
+   "autor": "Laika ac",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(16260269606).jpg",
+   "titulo": "File:Burj Khalifa (16260269606).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 57.0,
+    "y": 75.0
+   },
+   "borrada": "imagens/burj-escavacao-e1b8d52b-b.jpg"
+  },
+  "burj-corte": {
+   "arquivo": "imagens/burj-corte-5bd5ce0d.jpg",
+   "rotulo": "Estrutura do Burj Khalifa",
+   "commons": "Burj Khalifa structural section diagram",
+   "autor": "ECWiki1",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Dubai,_UAE_at_Sunset_001_by_Eric_Chamchoum.jpg",
+   "titulo": "File:Burj Khalifa Dubai, UAE at Sunset 001 by Eric Chamchoum.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 39.3,
+    "y": 67.3
+   },
+   "borrada": "imagens/burj-corte-5bd5ce0d-b.jpg"
+  },
+  "obra-guindastes": {
+   "arquivo": "imagens/obra-guindastes-78a09fb7.jpg",
+   "rotulo": "Guindastes em arranha-céu",
+   "commons": "tower cranes skyscraper under construction",
+   "autor": "iMahesh",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Western_Springs_(Hyderabad)_-_Active_skyscraper_construction_with_tower_cranes_and_scaffolding_-_Close-up.jpg",
+   "titulo": "File:Western Springs (Hyderabad) - Active skyscraper construction with tower cranes and scaffolding - Close-up.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 38.1,
+    "y": 53.2
+   },
+   "borrada": "imagens/obra-guindastes-78a09fb7-b.jpg"
+  },
+  "chicago-skyline": {
+   "arquivo": "imagens/chicago-skyline-01a06125.jpg",
+   "rotulo": "Chicago",
+   "wiki": "Chicago",
+   "commons": "Chicago skyline Loop",
+   "autor": "GazeboJake",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chicago_Loop_Skyline_at_Sunset.jpg",
+   "titulo": "File:Chicago Loop Skyline at Sunset.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 57.4,
+    "y": 66.3
+   },
+   "borrada": "imagens/chicago-skyline-01a06125-b.jpg"
+  },
+  "manhattan-1931": {
+   "arquivo": "imagens/manhattan-1931-0bdf6ced.jpg",
+   "rotulo": "Nova York, década de 1930",
+   "commons": "Midtown Manhattan skyline 1931",
+   "autor": "Reading Tom",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:River_House_Manhattan.jpg",
+   "titulo": "File:River House Manhattan.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 52.7,
+    "y": 49.6
+   },
+   "borrada": "imagens/manhattan-1931-0bdf6ced-b.jpg"
+  },
+  "sp-centro": {
+   "arquivo": "imagens/sp-centro-a1567ab3.jpg",
+   "rotulo": "Centro de São Paulo",
+   "commons": "Centro de São Paulo Vale do Anhangabaú",
+   "autor": "Pedu0303",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Centro_de_sao_paulo.jpg",
+   "titulo": "File:Centro de sao paulo.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.7,
+    "y": 53.3
+   },
+   "borrada": "imagens/sp-centro-a1567ab3-b.jpg"
+  },
+  "taipei-skyline": {
+   "arquivo": "imagens/taipei-skyline-ac998ab5.jpg",
+   "rotulo": "Taipei 101",
+   "commons": "Taipei 101 skyline Xinyi District",
+   "autor": "Jirka Matousek",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Taipei_Xinyi_Skyline_2017.jpg",
+   "titulo": "File:Taipei Xinyi Skyline 2017.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 46.9,
+    "y": 71.2
+   },
+   "borrada": "imagens/taipei-skyline-ac998ab5-b.jpg"
+  },
+  "sondagem-spt": {
+   "arquivo": "imagens/sondagem-spt-c7fbaa74.jpg",
+   "rotulo": "Sondagem do solo",
+   "commons": "SPT standard penetration test drilling rig",
+   "autor": "joao batista Shimoto",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:A_constru%C3%A7%C3%A3o_do_t%C3%BAnel,_principal_obra_do_Complexo_Vi%C3%A1rio_da_Ponte_S%C3%A3o_Jo%C3%A3o,_foi_a_melhor_op%C3%A7%C3%A3o_da_Prefeitura,_por_exigir_menos_desapropria%C3%A7%C3%B5es,_causar_menos_transtorno_na_paisagem_urban%C3%ADstica_e_-_panoramio.jpg",
+   "titulo": "File:A construção do túnel, principal obra do Complexo Viário da Ponte São João, foi a melhor opção da Prefeitura, por exigir menos desapropriações, causar menos transtorno na paisagem urbanística e - panoramio.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 36.6,
+    "y": 55.6
+   },
+   "borrada": "imagens/sondagem-spt-c7fbaa74-b.jpg"
+  },
+  "amostras-solo": {
+   "arquivo": "imagens/amostras-solo-01ffe25b.jpg",
+   "rotulo": "Amostras de solo",
+   "commons": "soil core samples geotechnical boring",
+   "autor": "Zkayler",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Deep_Soil_Core_Extraction.jpg",
+   "titulo": "File:Deep Soil Core Extraction.jpg",
+   "largura": 1920,
+   "altura": 3413,
+   "rostos": 0,
+   "foco": {
+    "x": 32.2,
+    "y": 31.1
+   },
+   "borrada": "imagens/amostras-solo-01ffe25b-b.jpg"
+  },
+  "perfil-solo": {
+   "arquivo": "imagens/perfil-solo-76375e96.jpg",
+   "rotulo": "Camadas do solo",
+   "commons": "soil profile clay sand layers",
+   "autor": "Evelyn Simak",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cliffs_at_East_Runton_-_geograph.org.uk_-_792976.jpg",
+   "titulo": "File:Cliffs at East Runton - geograph.org.uk - 792976.jpg",
+   "largura": 640,
+   "altura": 480,
+   "rostos": 0,
+   "foco": {
+    "x": 43.6,
+    "y": 79.2
+   },
+   "borrada": "imagens/perfil-solo-76375e96-b.jpg"
+  },
+  "agua-subterranea": {
+   "arquivo": "imagens/agua-subterranea-ad2e4942.jpg",
+   "rotulo": "Lençol freático",
+   "commons": "water table groundwater diagram",
+   "autor": "Lucygwen.gillis",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Waterpan_KK.jpg",
+   "titulo": "File:Waterpan KK.jpg",
+   "largura": 1920,
+   "altura": 951,
+   "rostos": 0,
+   "foco": {
+    "x": 57.9,
+    "y": 49.2
+   },
+   "borrada": "imagens/agua-subterranea-ad2e4942-b.jpg"
+  },
+  "rocha-granito": {
+   "arquivo": "imagens/rocha-granito-72480d0b.jpg",
+   "rotulo": "Rocha firme",
+   "commons": "granite bedrock outcrop",
+   "autor": "John Robert McPherson",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Granite_bedrock_Heath_and_Woodland_Girraween_National_Park_Wyberba_Queensland_1980s_IMG_0064_(2).jpg",
+   "titulo": "File:Granite bedrock Heath and Woodland Girraween National Park Wyberba Queensland 1980s IMG 0064 (2).jpg",
+   "largura": 1920,
+   "altura": 1298,
+   "rostos": 0,
+   "foco": {
+    "x": 43.7,
+    "y": 38.8
+   },
+   "borrada": "imagens/rocha-granito-72480d0b-b.jpg"
+  },
+  "escavadeira": {
+   "arquivo": "imagens/escavadeira-6c494fa8.jpg",
+   "rotulo": "Escavação",
+   "commons": "large excavator excavation construction site",
+   "autor": "TimeTravelRome",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Eleusis_-_Telesterion_01.jpg",
+   "titulo": "File:Archaeological Site of Eleusis - Telesterion 01.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 48.7,
+    "y": 54.2
+   },
+   "borrada": "imagens/escavadeira-6c494fa8-b.jpg"
+  },
+  "empire-escavacao": {
+   "arquivo": "imagens/empire-escavacao-14141af3.jpg",
+   "rotulo": "Escavação do Empire State, 1930",
+   "commons": "Empire State Building excavation 1930",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pompeii;_its_history,_buildings_and_antiquities_-_an_account_of_the_destruction_of_the_city,_with_a_full_description_of_the_remains,_and_of_the_recent_excavations_and_also_an_itinerary_for_visitors_(14586496487).jpg",
+   "titulo": "File:Pompeii; its history, buildings and antiquities - an account of the destruction of the city, with a full description of the remains, and of the recent excavations and also an itinerary for visitors (14586496487).jpg",
+   "largura": 1920,
+   "altura": 1190,
+   "rostos": 0,
+   "foco": {
+    "x": 44.2,
+    "y": 47.2
+   },
+   "borrada": "imagens/empire-escavacao-14141af3-b.jpg"
+  },
+  "escoramento": {
+   "arquivo": "imagens/escoramento-7a84d87e.jpg",
+   "rotulo": "Contenção da escavação",
+   "commons": "diaphragm wall slurry wall construction excavation",
+   "autor": "Megha Engineering and Infrastructures Ltd",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Diaphragm_wall_under_construction_at_Polavaram_04.png",
+   "titulo": "File:Diaphragm wall under construction at Polavaram 04.png",
+   "largura": 1759,
+   "altura": 1028,
+   "rostos": 0,
+   "foco": {
+    "x": 43.8,
+    "y": 51.0
+   },
+   "borrada": "imagens/escoramento-7a84d87e-b.jpg"
+  },
+  "caminhoes-terra": {
+   "arquivo": "imagens/caminhoes-terra-cd7b7b8f.jpg",
+   "rotulo": "Caminhões retirando terra",
+   "commons": "dump trucks excavation construction site",
+   "autor": "Oto Zapletal",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2023-02-14_Ve%C5%BEe_Brezovec_-_stavba_-_Doln%C3%BD_Kub%C3%ADn_-_Slovensko_-_05.jpg",
+   "titulo": "File:2023-02-14 Veže Brezovec - stavba - Dolný Kubín - Slovensko - 05.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 36.1,
+    "y": 52.0
+   },
+   "borrada": "imagens/caminhoes-terra-cd7b7b8f-b.jpg"
+  },
+  "subsolo-obra": {
+   "arquivo": "imagens/subsolo-obra-2ad449cd.jpg",
+   "rotulo": "Subsolos em obra",
+   "commons": "basement parking garage under construction",
+   "autor": "joanne clifford",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crumbling_1970s_office_complex_-_HWW!_(29695289317).jpg",
+   "titulo": "File:Crumbling 1970s office complex - HWW! (29695289317).jpg",
+   "largura": 1776,
+   "altura": 1184,
+   "rostos": 0,
+   "foco": {
+    "x": 48.9,
+    "y": 64.8
+   },
+   "borrada": "imagens/subsolo-obra-2ad449cd-b.jpg"
+  },
+  "burj-fundacao": {
+   "arquivo": "imagens/burj-fundacao-9ac80d8d.jpg",
+   "rotulo": "Fundação do Burj Khalifa",
+   "commons": "Burj Khalifa foundation piles raft construction",
+   "autor": "Ank Kumar",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_making_of_Burj_Khalifa,_Dubai_(Ank_Kumar)_09.jpg",
+   "titulo": "File:The making of Burj Khalifa, Dubai (Ank Kumar) 09.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 75.2,
+    "y": 55.0
+   },
+   "borrada": "imagens/burj-fundacao-9ac80d8d-b.jpg"
+  },
+  "estaqueamento": {
+   "arquivo": "imagens/estaqueamento-074e4a2a.jpg",
+   "rotulo": "Perfuração de estaca",
+   "commons": "bored pile drilling rig construction",
+   "autor": "Isiwal",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wien_Tegetthoffstra%C3%9Fe_Baustelle_November_2019-4723.jpg",
+   "titulo": "File:Wien Tegetthoffstraße Baustelle November 2019-4723.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 42.7,
+    "y": 58.0
+   },
+   "borrada": "imagens/estaqueamento-074e4a2a-b.jpg"
+  },
+  "gaiola-aco": {
+   "arquivo": "imagens/gaiola-aco-cbb14c4c.jpg",
+   "rotulo": "Gaiola de aço",
+   "commons": "rebar cage bored pile reinforcement",
+   "autor": "Ermell",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Baustelle-H%C3%B6lzla-Rebar-6228085.jpg",
+   "titulo": "File:Baustelle-Hölzla-Rebar-6228085.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 51.0,
+    "y": 47.6
+   },
+   "borrada": "imagens/gaiola-aco-cbb14c4c-b.jpg"
+  },
+  "laje-fundacao": {
+   "arquivo": "imagens/laje-fundacao-eb08bcba.jpg",
+   "rotulo": "Laje de fundação",
+   "commons": "mat foundation reinforcement raft slab concrete pour",
+   "autor": "Desconhecido",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Foundation_Deposit_Mat_MET_25.3.88_top.jpg",
+   "titulo": "File:Foundation Deposit Mat MET 25.3.88 top.jpg",
+   "largura": 1920,
+   "altura": 1713,
+   "rostos": 4,
+   "foco": {
+    "x": 50.5,
+    "y": 46.9
+   },
+   "borrada": "imagens/laje-fundacao-eb08bcba-b.jpg"
+  },
+  "diagrama-estacas": {
+   "arquivo": "imagens/diagrama-estacas-9e57bf73.jpg",
+   "rotulo": "Fundação em estacas",
+   "commons": "pile foundation diagram load transfer",
+   "autor": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Farol_de_Aveiro_-_Praia_da_Barra_-_Portugal_(9458295224).jpg",
+   "titulo": "File:Farol de Aveiro - Praia da Barra - Portugal (9458295224).jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 51.7,
+    "y": 80
+   },
+   "borrada": "imagens/diagrama-estacas-9e57bf73-b.jpg"
+  },
+  "concreto-armado": {
+   "arquivo": "imagens/concreto-armado-8bb4844a.jpg",
+   "rotulo": "Concreto armado",
+   "commons": "reinforced concrete column rebar formwork",
+   "autor": "Johnnybam",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Reinforced_Column_Base_for_Fence_Foundation.jpg",
+   "titulo": "File:Reinforced Column Base for Fence Foundation.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 55.7,
+    "y": 35.2
+   },
+   "borrada": "imagens/concreto-armado-8bb4844a-b.jpg"
+  },
+  "amarracao-aco": {
+   "arquivo": "",
+   "rotulo": "Armação de aço",
+   "commons": "ironworker tying rebar"
+  },
+  "burj-andares": {
+   "arquivo": "imagens/burj-andares-0afb128c.jpg",
+   "rotulo": "Burj Khalifa subindo",
+   "commons": "Burj Khalifa construction progress 2007",
+   "autor": "Gfilip",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_from_Safa_Park.jpg",
+   "titulo": "File:Burj Khalifa from Safa Park.jpg",
+   "largura": 1920,
+   "altura": 1825,
+   "rostos": 0,
+   "foco": {
+    "x": 69.1,
+    "y": 69.5
+   },
+   "borrada": "imagens/burj-andares-0afb128c-b.jpg"
+  },
+  "bomba-concreto": {
+   "arquivo": "imagens/bomba-concreto-bd241d99.jpg",
+   "rotulo": "Bomba de concreto",
+   "commons": "concrete pump boom truck",
+   "autor": "Wikideas1",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concrete_boom_pump.jpg",
+   "titulo": "File:Concrete boom pump.jpg",
+   "largura": 1920,
+   "altura": 1487,
+   "rostos": 0,
+   "foco": {
+    "x": 50.8,
+    "y": 47.1
+   },
+   "borrada": "imagens/bomba-concreto-bd241d99-b.jpg"
+  },
+  "forma-laje": {
+   "arquivo": "imagens/forma-laje-380d60cc.jpg",
+   "rotulo": "Forma de laje",
+   "commons": "concrete slab formwork high-rise construction",
+   "autor": "Beams&amp;Lintels",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concrete_Slab_Forms_.jpg",
+   "titulo": "File:Concrete Slab Forms .jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 45.2,
+    "y": 56.6
+   },
+   "borrada": "imagens/forma-laje-380d60cc-b.jpg"
+  },
+  "home-insurance": {
+   "arquivo": "imagens/home-insurance-1d2a899e.jpg",
+   "rotulo": "Home Insurance Building, Chicago",
+   "wiki": "Home Insurance Building",
+   "commons": "Home Insurance Building Chicago",
+   "autor": "Marlin Keesler from Streamwood, IL",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Location_of_the_Home_Insurance_Building_(7170814107).jpg",
+   "titulo": "File:Location of the Home Insurance Building (7170814107).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.3,
+    "y": 53.0
+   },
+   "borrada": "imagens/home-insurance-1d2a899e-b.jpg"
+  },
+  "jenney": {
+   "arquivo": "imagens/jenney-09aa8206.jpg",
+   "rotulo": "William Le Baron Jenney",
+   "wiki": "William Le Baron Jenney",
+   "commons": "William Le Baron Jenney",
+   "autor": "Marlin Keesler from Streamwood, IL",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:William_la_baron_Jenny_(34809892191).jpg",
+   "titulo": "File:William la baron Jenny (34809892191).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 54.9,
+    "y": 36.9
+   },
+   "borrada": "imagens/jenney-09aa8206-b.jpg"
+  },
+  "esqueleto-aco": {
+   "arquivo": "imagens/esqueleto-aco-df4f6981.jpg",
+   "rotulo": "Esqueleto de aço",
+   "commons": "steel frame skyscraper construction skeleton",
+   "autor": "PortlandAppraisalBlog",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Construction_worker_on_steel_framing_of_hollywoodHUB_at_Hollywood_Transit_Center,_Portland,_Oregon_(January_2026).jpg",
+   "titulo": "File:Construction worker on steel framing of hollywoodHUB at Hollywood Transit Center, Portland, Oregon (January 2026).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.2,
+    "y": 54.7
+   },
+   "borrada": "imagens/esqueleto-aco-df4f6981-b.jpg"
+  },
+  "elisha-otis": {
+   "arquivo": "imagens/elisha-otis-e155bf18.jpg",
+   "rotulo": "Elisha Otis",
+   "wiki": "Elisha Otis",
+   "commons": "Elisha Otis",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Elisha_OTIS_1854.jpg",
+   "titulo": "File:Elisha OTIS 1854.jpg",
+   "largura": 1920,
+   "altura": 1891,
+   "rostos": 0,
+   "foco": {
+    "x": 55.9,
+    "y": 40.0
+   },
+   "borrada": "imagens/elisha-otis-e155bf18-b.jpg"
+  },
+  "elevador-otis": {
+   "arquivo": "imagens/elevador-otis-bb7c091d.jpg",
+   "rotulo": "Elevador de segurança, 1854",
+   "commons": "Otis safety elevator 1854 demonstration illustration",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Elisha_OTIS_1854_(cropped).jpg",
+   "titulo": "File:Elisha OTIS 1854 (cropped).jpg",
+   "largura": 1920,
+   "altura": 1392,
+   "rostos": 0,
+   "foco": {
+    "x": 53.7,
+    "y": 37.9
+   },
+   "borrada": "imagens/elevador-otis-bb7c091d-b.jpg"
+  },
+  "empire-obra": {
+   "arquivo": "imagens/empire-obra-15242c02.jpg",
+   "rotulo": "Empire State em obras, 1930",
+   "commons": "Empire State Building under construction 1930",
+   "autor": "nationaalarchief.nl]Nationaal Archief",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zeppelin_bij_Empire_State_Building_in_aanbouw_-_Zeppelin_near_the_Empire_State_Building_under_construction_(6943970242).jpg",
+   "titulo": "File:Zeppelin bij Empire State Building in aanbouw - Zeppelin near the Empire State Building under construction (6943970242).jpg",
+   "largura": 1920,
+   "altura": 2562,
+   "rostos": 0,
+   "foco": {
+    "x": 51.3,
+    "y": 50.6
+   },
+   "borrada": "imagens/empire-obra-15242c02-b.jpg"
+  },
+  "empire-operarios": {
+   "arquivo": "imagens/empire-operarios-929c0f69.jpg",
+   "rotulo": "Operários no Empire State",
+   "commons": "Empire State Building construction workers steel beam 1930",
+   "autor": "E. A. Bushnell",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22New_Straw_Hat%22_Season_E._A._Bushnell.jpg",
+   "titulo": "File:\"New Straw Hat\" Season E. A. Bushnell.jpg",
+   "largura": 798,
+   "altura": 1176,
+   "rostos": 1,
+   "foco": {
+    "x": 71.6,
+    "y": 33.8
+   },
+   "borrada": "imagens/empire-operarios-929c0f69-b.jpg"
+  },
+  "mohawk-ferreiros": {
+   "arquivo": "imagens/mohawk-ferreiros-35a61b04.jpg",
+   "rotulo": "Ferreiros mohawk",
+   "commons": "Mohawk ironworkers skyscraper construction",
+   "autor": "Patrick Nielsen Hayden from Brooklyn, NY",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Behind_the_bar_(118128461).jpg",
+   "titulo": "File:Behind the bar (118128461).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 79.9,
+    "y": 77.7
+   },
+   "borrada": "imagens/mohawk-ferreiros-35a61b04-b.jpg"
+  },
+  "empire-aco": {
+   "arquivo": "imagens/empire-aco-e98b207c.jpg",
+   "rotulo": "Vigas de aço, 1930",
+   "commons": "Empire State Building steel girders construction Lewis Hine",
+   "autor": "Christian David",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_through_the_Manhattan_Bridge_arch,_Dumbo,_Brooklyn,_New_York.jpg",
+   "titulo": "File:Empire State Building through the Manhattan Bridge arch, Dumbo, Brooklyn, New York.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 78.8,
+    "y": 48.3
+   },
+   "borrada": "imagens/empire-aco-e98b207c-b.jpg"
+  },
+  "empire-pronto": {
+   "arquivo": "imagens/empire-pronto-45c79526.jpg",
+   "rotulo": "Empire State Building",
+   "wiki": "Empire State Building",
+   "commons": "Empire State Building New York",
+   "autor": "Dllu",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg",
+   "titulo": "File:View of Empire State Building from Rockefeller Center New York City dllu.jpg",
+   "largura": 1920,
+   "altura": 1443,
+   "rostos": 0,
+   "foco": {
+    "x": 50.3,
+    "y": 57.0
+   },
+   "borrada": "imagens/empire-pronto-45c79526-b.jpg"
+  },
+  "martinelli": {
+   "arquivo": "imagens/martinelli-436bd44a.jpg",
+   "rotulo": "Edifício Martinelli",
+   "wiki": "Edifício Martinelli",
+   "commons": "Edifício Martinelli São Paulo",
+   "autor": "Wilfredor",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Martinelli_building_Terrace,_S%C3%A3o_Paulo_downtown,_Brazil.jpg",
+   "titulo": "File:Martinelli building Terrace, São Paulo downtown, Brazil.jpg",
+   "largura": 1920,
+   "altura": 793,
+   "rostos": 2,
+   "foco": {
+    "x": 34.2,
+    "y": 75.1
+   },
+   "borrada": "imagens/martinelli-436bd44a-b.jpg"
+  },
+  "giuseppe-martinelli": {
+   "arquivo": "imagens/giuseppe-martinelli-b1181052.jpg",
+   "rotulo": "Giuseppe Martinelli",
+   "commons": "Giuseppe Martinelli São Paulo empresário",
+   "autor": "Diego Torres Silvestre from Sao Paulo, Brazil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nichile%27s_Clock_(9973651155).jpg",
+   "titulo": "File:Nichile's Clock (9973651155).jpg",
+   "largura": 1680,
+   "altura": 1260,
+   "rostos": 0,
+   "foco": {
+    "x": 64.1,
+    "y": 42.1
+   },
+   "borrada": "imagens/giuseppe-martinelli-b1181052-b.jpg"
+  },
+  "martinelli-obra": {
+   "arquivo": "imagens/martinelli-obra-3685ecae.jpg",
+   "rotulo": "Martinelli em construção",
+   "commons": "Edifício Martinelli construção 1920s",
+   "autor": "Wilfredor",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Paulo_downtown_Martinelli_Building,_S%C3%A3o_Paulo_city,_Brazil_01.jpg",
+   "titulo": "File:São Paulo downtown Martinelli Building, São Paulo city, Brazil 01.jpg",
+   "largura": 1920,
+   "altura": 1169,
+   "rostos": 2,
+   "foco": {
+    "x": 41.2,
+    "y": 84.5
+   },
+   "borrada": "imagens/martinelli-obra-3685ecae-b.jpg"
+  },
+  "sp-1930": {
+   "arquivo": "imagens/sp-1930-f6f6a912.jpg",
+   "rotulo": "São Paulo, anos 1930",
+   "commons": "São Paulo 1930 centro Edifício Martinelli vista aérea",
+   "autor": "Unknown",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Renault_FT_em_S%C3%A3o_Paulo.jpg",
+   "titulo": "File:Renault FT em São Paulo.jpg",
+   "largura": 1610,
+   "altura": 1024,
+   "rostos": 3,
+   "foco": {
+    "x": 90.0,
+    "y": 56.9
+   },
+   "borrada": "imagens/sp-1930-f6f6a912-b.jpg"
+  },
+  "martinelli-hoje": {
+   "arquivo": "imagens/martinelli-hoje-da30050c.jpg",
+   "rotulo": "Martinelli hoje",
+   "commons": "Edifício Martinelli fachada rua São Bento",
+   "autor": "Mauro Cateb",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Edif%C3%ADcio_Martinelli_-_A.jpg",
+   "titulo": "File:Edifício Martinelli - A.jpg",
+   "largura": 1920,
+   "altura": 2689,
+   "rostos": 0,
+   "foco": {
+    "x": 51.6,
+    "y": 42.9
+   },
+   "borrada": "imagens/martinelli-hoje-da30050c-b.jpg"
+  },
+  "burj-fachada": {
+   "arquivo": "imagens/burj-fachada-1de58640.jpg",
+   "rotulo": "Fachada do Burj Khalifa",
+   "commons": "Burj Khalifa facade glass panels close",
+   "autor": "w_lemay",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sears_Tower,_Wacker_Drive_and_Jackson_Boulevard,_Chicago,_IL_-_54189600896.jpg",
+   "titulo": "File:Sears Tower, Wacker Drive and Jackson Boulevard, Chicago, IL - 54189600896.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 67.0,
+    "y": 80
+   },
+   "borrada": "imagens/burj-fachada-1de58640-b.jpg"
+  },
+  "painel-vidro": {
+   "arquivo": "imagens/painel-vidro-d00f445a.jpg",
+   "rotulo": "Painel de vidro sendo içado",
+   "commons": "unitized curtain wall installation glass panel crane",
+   "autor": "Threeohsix",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Painel_com_vidro_na_fachada_principal_do_Cine-Teatro_Municipal_do_Cartaxo_ou_Centro_Cultural_Munic%C3%ADpio_do_Cartaxo.jpg",
+   "titulo": "File:Painel com vidro na fachada principal do Cine-Teatro Municipal do Cartaxo ou Centro Cultural Município do Cartaxo.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.0,
+    "y": 56.3
+   },
+   "borrada": "imagens/painel-vidro-d00f445a-b.jpg"
+  },
+  "burj-planta-y": {
+   "arquivo": "imagens/burj-planta-y-dd6787ca.jpg",
+   "rotulo": "Planta em Y",
+   "commons": "Burj Khalifa floor plan Y shape",
+   "autor": "Bernt Rostad from Oslo, Norway",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Trump_Tower_(4754715904).jpg",
+   "titulo": "File:Trump Tower (4754715904).jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 52.0,
+    "y": 56.3
+   },
+   "borrada": "imagens/burj-planta-y-dd6787ca-b.jpg"
+  },
+  "tunel-vento": {
+   "arquivo": "imagens/tunel-vento-6e7c8f8a.jpg",
+   "rotulo": "Teste em túnel de vento",
+   "commons": "wind tunnel test model skyscraper",
+   "autor": "NASA Ames Research Center / Clayton and Carnahan",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:1-50_Scale_Model_Of_The_80X120_Foot_Wind_Tunnel_Model_(NFAC)_In_The_Test_Section_Of_The_40X80_Wind_Tunnel_At_Nasa_Ames_(A76-0635).jpg",
+   "titulo": "File:1-50 Scale Model Of The 80X120 Foot Wind Tunnel Model (NFAC) In The Test Section Of The 40X80 Wind Tunnel At Nasa Ames (A76-0635).jpg",
+   "largura": 1920,
+   "altura": 1504,
+   "rostos": 0,
+   "foco": {
+    "x": 50.1,
+    "y": 47.7
+   },
+   "borrada": "imagens/tunel-vento-6e7c8f8a-b.jpg"
+  },
+  "nucleo-elevadores": {
+   "arquivo": "imagens/nucleo-elevadores-3f719752.jpg",
+   "rotulo": "Núcleo de elevadores",
+   "commons": "skyscraper elevator shaft core construction",
+   "autor": "MBH",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Vysotsky_skyscraper_interiors_14.jpg",
+   "titulo": "File:Vysotsky skyscraper interiors 14.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 56.1,
+    "y": 45.2
+   },
+   "borrada": "imagens/nucleo-elevadores-3f719752-b.jpg"
+  },
+  "taipei-101": {
+   "arquivo": "imagens/taipei-101-cf745b02.jpg",
+   "rotulo": "Taipei 101",
+   "wiki": "Taipei 101",
+   "commons": "Taipei 101 tower",
+   "autor": "CEphoto, Uwe Aranas",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taipei-101-Tower-01.jpg",
+   "titulo": "File:Taipei Taiwan Taipei-101-Tower-01.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 36.6,
+    "y": 69.0
+   },
+   "borrada": "imagens/taipei-101-cf745b02-b.jpg"
+  },
+  "amortecedor-taipei": {
+   "arquivo": "imagens/amortecedor-taipei-b13e31ad.jpg",
+   "rotulo": "Amortecedor do Taipei 101",
+   "commons": "Taipei 101 tuned mass damper",
+   "autor": "Armand du Plessis",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Taipei_101_Tuned_Mass_Damper_2010.jpg",
+   "titulo": "File:Taipei 101 Tuned Mass Damper 2010.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 0,
+   "foco": {
+    "x": 49.2,
+    "y": 67.5
+   },
+   "borrada": "imagens/amortecedor-taipei-b13e31ad-b.jpg"
+  },
+  "taipei-nuvens": {
+   "arquivo": "imagens/taipei-nuvens-bdcf2176.jpg",
+   "rotulo": "Taipei 101 com vento forte",
+   "commons": "Taipei 101 typhoon clouds",
+   "autor": "AngMoKio",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Taipei_101_2009_amk.jpg",
+   "titulo": "File:Taipei 101 2009 amk.jpg",
+   "largura": 1920,
+   "altura": 3060,
+   "rostos": 0,
+   "foco": {
+    "x": 50.4,
+    "y": 68.4
+   },
+   "borrada": "imagens/taipei-nuvens-bdcf2176-b.jpg"
+  },
+  "pendulo-diagrama": {
+   "arquivo": "imagens/pendulo-diagrama-458e6d8a.jpg",
+   "rotulo": "Como funciona o amortecedor",
+   "commons": "tuned mass damper diagram skyscraper",
+   "autor": "Someformofhuman",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:TMD(small).jpg",
+   "titulo": "File:TMD(small).jpg",
+   "largura": 920,
+   "altura": 721,
+   "rostos": 1,
+   "foco": {
+    "x": 86.2,
+    "y": 47.0
+   },
+   "borrada": "imagens/pendulo-diagrama-458e6d8a-b.jpg"
+  },
+  "tufao-soudelor": {
+   "arquivo": "imagens/tufao-soudelor-577874fb.jpg",
+   "rotulo": "Tufão Soudelor, 2015",
+   "commons": "Typhoon Soudelor 2015 satellite",
+   "autor": "MODIS image captured by NASA’s Aqua satellite",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Soudelor_2015-08-08_0525Z.jpg",
+   "titulo": "File:Soudelor 2015-08-08 0525Z.jpg",
+   "largura": 1920,
+   "altura": 2507,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 39.1
+   },
+   "borrada": "imagens/tufao-soudelor-577874fb-b.jpg"
+  },
+  "dubai-noite": {
+   "arquivo": "imagens/dubai-noite-282cd276.jpg",
+   "rotulo": "Dubai ao anoitecer",
+   "commons": "Dubai skyline Burj Khalifa dusk",
+   "autor": "Tim Reckmann from Hamm, Deutschland",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_mit_Burj_Khalifa_(cropped).jpg",
+   "titulo": "File:Dubai Skyline mit Burj Khalifa (cropped).jpg",
+   "largura": 1920,
+   "altura": 794,
+   "rostos": 0,
+   "foco": {
+    "x": 47.9,
+    "y": 68.8
+   },
+   "borrada": "imagens/dubai-noite-282cd276-b.jpg"
+  },
+  "estacas-grupo": {
+   "arquivo": "imagens/estacas-grupo-9fa1b450.jpg",
+   "rotulo": "Bloco sobre estacas",
+   "commons": "pile cap foundation group construction",
+   "autor": "MassDOT",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Completed_pile_caps_at_Fall_River_station,_April_2021.jpg",
+   "titulo": "File:Completed pile caps at Fall River station, April 2021.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 49.8,
+    "y": 69.8
+   },
+   "borrada": "imagens/estacas-grupo-9fa1b450-b.jpg"
+  },
+  "esqueleto-concreto": {
+   "arquivo": "imagens/esqueleto-concreto-ab185a3a.jpg",
+   "rotulo": "Estrutura de concreto",
+   "commons": "reinforced concrete frame high-rise under construction",
+   "autor": "Elliott Brown from Birmingham, United Kingdom",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Centre_Point_-_New_Oxford_Street,_Holborn.jpg",
+   "titulo": "File:Centre Point - New Oxford Street, Holborn.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 50.8,
+    "y": 44.8
+   },
+   "borrada": "imagens/esqueleto-concreto-ab185a3a-b.jpg"
+  },
+  "vento-torres": {
+   "arquivo": "imagens/vento-torres-eca6cc91.jpg",
+   "rotulo": "Arranha-céus ao vento",
+   "commons": "skyscrapers clouds wind tall buildings",
+   "autor": "Fernando",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sunset_behind_Benidorm_skyscrapers.jpg",
+   "titulo": "File:Sunset behind Benidorm skyscrapers.jpg",
+   "largura": 1920,
+   "altura": 2400,
+   "rostos": 0,
+   "foco": {
+    "x": 40.4,
+    "y": 75.2
+   },
+   "borrada": "imagens/vento-torres-eca6cc91-b.jpg"
+  },
+  "predio-rua": {
+   "arquivo": "imagens/predio-rua-2186c678.jpg",
+   "rotulo": "Arranha-céu visto da rua",
+   "commons": "skyscraper seen from street level looking up",
+   "autor": "CrossingLights",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:350_Park_Avenue_photomontage.jpg",
+   "titulo": "File:350 Park Avenue photomontage.jpg",
+   "largura": 1920,
+   "altura": 3840,
+   "rostos": 0,
+   "foco": {
+    "x": 38.4,
+    "y": 63.4
+   },
+   "borrada": "imagens/predio-rua-2186c678-b.jpg"
+  },
+  "guindaste-por-do-sol": {
+   "arquivo": "imagens/guindaste-por-do-sol-113cfc56.jpg",
+   "rotulo": "Obra ao entardecer",
+   "commons": "construction crane sunset skyline",
+   "autor": "Geo Swan (talk)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Toronto_skyline,_looking_west,_late_afternoon,_2014_01_01_(1).jpg",
+   "titulo": "File:Toronto skyline, looking west, late afternoon, 2014 01 01 (1).jpg",
+   "largura": 1920,
+   "altura": 555,
+   "rostos": 0,
+   "foco": {
+    "x": 73.9,
+    "y": 56.9
+   },
+   "borrada": "imagens/guindaste-por-do-sol-113cfc56-b.jpg"
+  },
+  "implosao-predio": {
+   "arquivo": "imagens/implosao-predio-fa3f7e4c.jpg",
+   "rotulo": "Demolição por implosão",
+   "commons": "building implosion controlled demolition",
+   "autor": "smlp.co.uk from Gateshead, England",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Newcastle_Brewery_demolition,_22_June_2008.jpg",
+   "titulo": "File:Newcastle Brewery demolition, 22 June 2008.jpg",
+   "largura": 1920,
+   "altura": 1901,
+   "rostos": 0,
+   "foco": {
+    "x": 45.0,
+    "y": 20
+   },
+   "borrada": "imagens/implosao-predio-fa3f7e4c-b.jpg"
+  },
+  "canteiro-final": {
+   "arquivo": "imagens/canteiro-final-f85a1717.jpg",
+   "rotulo": "Canteiro de obras",
+   "commons": "construction site workers hard hats",
+   "autor": "HelenOnline",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Construction_worker_CT.jpg",
+   "titulo": "File:Construction worker CT.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 62.4,
+    "y": 46.7
+   },
+   "borrada": "imagens/canteiro-final-f85a1717-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-29T12:32:14.253Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -82,6 +6619,74 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Olhar Digital — Burj Khalifa: construção desafiadora",
+   "url": "https://olhardigital.com.br/2024/03/21/ciencia-e-espaco/burj-khalifa-com-construcao-desafiadora-predio-de-dubai-e-o-maior-do-mundo/"
+  },
+  {
+   "titulo": "Xataka Brasil — fundação do Burj Khalifa (Capital Piling)",
+   "url": "https://www.xataka.com.br/diversos/fundacao-mais-profunda-do-mundo-chega-a-120-metros-sob-chao-e-sustenta-essas-duas-megatorres"
+  },
+  {
+   "titulo": "ENR — The race into the sky that built the Empire State Building",
+   "url": "https://www.enr.com/articles/60722-the-race-into-the-sky-that-built-the-empire-state-building"
+  },
+  {
+   "titulo": "Smithsonian Magazine — Empire State Building, 1929-31",
+   "url": "https://www.smithsonianmag.com/us-history/empire-state-building-1929-31-180957195/"
+  },
+  {
+   "titulo": "HistoryNet — American skyscrapers and new technology",
+   "url": "https://www.historynet.com/american-skyscrapers-new-technology/"
+  },
+  {
+   "titulo": "Gazeta SP — Edifício Martinelli: 100 anos de história",
+   "url": "https://www.gazetasp.com.br/gazeta-mais/curiosidades/edificio-martinelli-100-anos-historia-revitalizacao-sao-paulo/1140484/"
+  },
+  {
+   "titulo": "Architect Magazine — Burj Khalifa curtain wall",
+   "url": "https://www.architectmagazine.com/technology/architectural-detail/detail-burj-khalifa-curtain-wall_o"
+  },
+  {
+   "titulo": "Guinness World Records — Largest tuned mass damper",
+   "url": "https://www.guinnessworldrecords.com/world-records/774616-largest-tuned-mass-damper"
+  },
+  {
+   "titulo": "Britannica — Taipei 101",
+   "url": "https://www.britannica.com/place/Taipei-101"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Como um prédio gigante é construído, do buraco ao topo",
+   "O segredo escondido dentro de todo arranha-céu",
+   "Por que um prédio alto precisa balançar?"
+  ],
+  "descricao": "Do solo ao vento: veja a ordem em que um arranha-céu é construído, com exemplos do Burj Khalifa, do Empire State, do Edifício Martinelli e do Taipei 101.\n\n0:00 Gancho\n0:35 As cinco etapas\n1:05 Capítulo 1: conhecer o solo e escavar\n2:10 Capítulo 2: fundação e concreto armado\n3:20 Capítulo 3: o esqueleto de aço, de Chicago a Nova York\n4:25 O Martinelli, em São Paulo\n5:05 Capítulo 4: a pele de vidro\n5:45 A virada: o prédio que balança\n6:50 Desfecho\n\nFontes: Olhar Digital, Xataka Brasil, ENR, Smithsonian Magazine, HistoryNet, Gazeta SP, Architect Magazine, Guinness World Records, Taiwan News.",
+  "tags": [
+   "como é construído um prédio",
+   "construção civil",
+   "arranha-céu",
+   "Burj Khalifa",
+   "Empire State Building",
+   "Edifício Martinelli",
+   "Taipei 101",
+   "fundação de prédio",
+   "concreto armado",
+   "engenharia civil",
+   "documentário",
+   "Inova Mundo"
+  ]
  }
 }

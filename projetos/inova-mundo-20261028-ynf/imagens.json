@@ -1,0 +1,77 @@
+{
+  "burj-khalifa": { "wiki": "Burj Khalifa", "commons": "Burj Khalifa Dubai skyline", "rotulo": "Burj Khalifa, Dubai" },
+  "dubai-2004": { "commons": "Downtown Dubai construction site 2005 desert", "rotulo": "Dubai em obras" },
+  "burj-guindaste": { "commons": "Burj Khalifa construction 2008 tower crane", "rotulo": "Burj Khalifa em construção" },
+  "burj-escavacao": { "commons": "Burj Khalifa foundation excavation 2004", "rotulo": "Escavação do Burj Khalifa" },
+  "burj-corte": { "commons": "Burj Khalifa structural section diagram", "rotulo": "Estrutura do Burj Khalifa" },
+
+  "obra-guindastes": { "commons": "tower cranes skyscraper under construction", "rotulo": "Guindastes em arranha-céu" },
+  "chicago-skyline": { "wiki": "Chicago", "commons": "Chicago skyline Loop", "rotulo": "Chicago" },
+  "manhattan-1931": { "commons": "Midtown Manhattan skyline 1931", "rotulo": "Nova York, década de 1930" },
+  "sp-centro": { "commons": "Centro de São Paulo Vale do Anhangabaú", "rotulo": "Centro de São Paulo" },
+  "taipei-skyline": { "commons": "Taipei 101 skyline Xinyi District", "rotulo": "Taipei 101" },
+
+  "sondagem-spt": { "commons": "SPT standard penetration test drilling rig", "rotulo": "Sondagem do solo" },
+  "amostras-solo": { "commons": "soil core samples geotechnical boring", "rotulo": "Amostras de solo" },
+  "perfil-solo": { "commons": "soil profile clay sand layers", "rotulo": "Camadas do solo" },
+  "agua-subterranea": { "commons": "water table groundwater diagram", "rotulo": "Lençol freático" },
+  "rocha-granito": { "commons": "granite bedrock outcrop", "rotulo": "Rocha firme" },
+
+  "escavadeira": { "commons": "large excavator excavation construction site", "rotulo": "Escavação" },
+  "empire-escavacao": { "commons": "Empire State Building excavation 1930", "rotulo": "Escavação do Empire State, 1930" },
+  "escoramento": { "commons": "diaphragm wall slurry wall construction excavation", "rotulo": "Contenção da escavação" },
+  "caminhoes-terra": { "commons": "dump trucks excavation construction site", "rotulo": "Caminhões retirando terra" },
+  "subsolo-obra": { "commons": "basement parking garage under construction", "rotulo": "Subsolos em obra" },
+
+  "burj-fundacao": { "commons": "Burj Khalifa foundation piles raft construction", "rotulo": "Fundação do Burj Khalifa" },
+  "estaqueamento": { "commons": "bored pile drilling rig construction", "rotulo": "Perfuração de estaca" },
+  "gaiola-aco": { "commons": "rebar cage bored pile reinforcement", "rotulo": "Gaiola de aço" },
+  "laje-fundacao": { "commons": "mat foundation reinforcement raft slab concrete pour", "rotulo": "Laje de fundação" },
+  "diagrama-estacas": { "commons": "pile foundation diagram load transfer", "rotulo": "Fundação em estacas" },
+
+  "concreto-armado": { "commons": "reinforced concrete column rebar formwork", "rotulo": "Concreto armado" },
+  "amarracao-aco": { "commons": "ironworker tying rebar", "rotulo": "Armação de aço" },
+  "burj-andares": { "commons": "Burj Khalifa construction progress 2007", "rotulo": "Burj Khalifa subindo" },
+  "bomba-concreto": { "commons": "concrete pump boom truck", "rotulo": "Bomba de concreto" },
+  "forma-laje": { "commons": "concrete slab formwork high-rise construction", "rotulo": "Forma de laje" },
+
+  "home-insurance": { "wiki": "Home Insurance Building", "commons": "Home Insurance Building Chicago", "rotulo": "Home Insurance Building, Chicago" },
+  "jenney": { "wiki": "William Le Baron Jenney", "commons": "William Le Baron Jenney", "rotulo": "William Le Baron Jenney" },
+  "esqueleto-aco": { "commons": "steel frame skyscraper construction skeleton", "rotulo": "Esqueleto de aço" },
+  "elisha-otis": { "wiki": "Elisha Otis", "commons": "Elisha Otis", "rotulo": "Elisha Otis" },
+  "elevador-otis": { "commons": "Otis safety elevator 1854 demonstration illustration", "rotulo": "Elevador de segurança, 1854" },
+
+  "empire-obra": { "commons": "Empire State Building under construction 1930", "rotulo": "Empire State em obras, 1930" },
+  "empire-operarios": { "commons": "Empire State Building construction workers steel beam 1930", "rotulo": "Operários no Empire State" },
+  "mohawk-ferreiros": { "commons": "Mohawk ironworkers skyscraper construction", "rotulo": "Ferreiros mohawk" },
+  "empire-aco": { "commons": "Empire State Building steel girders construction Lewis Hine", "rotulo": "Vigas de aço, 1930" },
+  "empire-pronto": { "wiki": "Empire State Building", "commons": "Empire State Building New York", "rotulo": "Empire State Building" },
+
+  "martinelli": { "wiki": "Edifício Martinelli", "commons": "Edifício Martinelli São Paulo", "rotulo": "Edifício Martinelli" },
+  "giuseppe-martinelli": { "commons": "Giuseppe Martinelli São Paulo empresário", "rotulo": "Giuseppe Martinelli" },
+  "martinelli-obra": { "commons": "Edifício Martinelli construção 1920s", "rotulo": "Martinelli em construção" },
+  "sp-1930": { "commons": "São Paulo 1930 centro Edifício Martinelli vista aérea", "rotulo": "São Paulo, anos 1930" },
+  "martinelli-hoje": { "commons": "Edifício Martinelli fachada rua São Bento", "rotulo": "Martinelli hoje" },
+
+  "burj-fachada": { "commons": "Burj Khalifa facade glass panels close", "rotulo": "Fachada do Burj Khalifa" },
+  "painel-vidro": { "commons": "unitized curtain wall installation glass panel crane", "rotulo": "Painel de vidro sendo içado" },
+  "burj-planta-y": { "commons": "Burj Khalifa floor plan Y shape", "rotulo": "Planta em Y" },
+  "tunel-vento": { "commons": "wind tunnel test model skyscraper", "rotulo": "Teste em túnel de vento" },
+  "nucleo-elevadores": { "commons": "skyscraper elevator shaft core construction", "rotulo": "Núcleo de elevadores" },
+
+  "taipei-101": { "wiki": "Taipei 101", "commons": "Taipei 101 tower", "rotulo": "Taipei 101" },
+  "amortecedor-taipei": { "commons": "Taipei 101 tuned mass damper", "rotulo": "Amortecedor do Taipei 101" },
+  "taipei-nuvens": { "commons": "Taipei 101 typhoon clouds", "rotulo": "Taipei 101 com vento forte" },
+  "pendulo-diagrama": { "commons": "tuned mass damper diagram skyscraper", "rotulo": "Como funciona o amortecedor" },
+  "tufao-soudelor": { "commons": "Typhoon Soudelor 2015 satellite", "rotulo": "Tufão Soudelor, 2015" },
+
+  "dubai-noite": { "commons": "Dubai skyline Burj Khalifa dusk", "rotulo": "Dubai ao anoitecer" },
+  "estacas-grupo": { "commons": "pile cap foundation group construction", "rotulo": "Bloco sobre estacas" },
+  "esqueleto-concreto": { "commons": "reinforced concrete frame high-rise under construction", "rotulo": "Estrutura de concreto" },
+  "vento-torres": { "commons": "skyscrapers clouds wind tall buildings", "rotulo": "Arranha-céus ao vento" },
+  "predio-rua": { "commons": "skyscraper seen from street level looking up", "rotulo": "Arranha-céu visto da rua" },
+
+  "guindaste-por-do-sol": { "commons": "construction crane sunset skyline", "rotulo": "Obra ao entardecer" },
+  "implosao-predio": { "commons": "building implosion controlled demolition", "rotulo": "Demolição por implosão" },
+  "canteiro-final": { "commons": "construction site workers hard hats", "rotulo": "Canteiro de obras" }
+}

@@ -1,0 +1,161 @@
+{
+  "titulo": "Como é construído um prédio: do buraco ao topo",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "publicacao": {
+    "titulos": [
+      "Como um prédio gigante é construído, do buraco ao topo",
+      "O segredo escondido dentro de todo arranha-céu",
+      "Por que um prédio alto precisa balançar?"
+    ],
+    "descricao": "Do solo ao vento: veja a ordem em que um arranha-céu é construído, com exemplos do Burj Khalifa, do Empire State, do Edifício Martinelli e do Taipei 101.\n\n0:00 Gancho\n0:35 As cinco etapas\n1:05 Capítulo 1: conhecer o solo e escavar\n2:10 Capítulo 2: fundação e concreto armado\n3:20 Capítulo 3: o esqueleto de aço, de Chicago a Nova York\n4:25 O Martinelli, em São Paulo\n5:05 Capítulo 4: a pele de vidro\n5:45 A virada: o prédio que balança\n6:50 Desfecho\n\nFontes: Olhar Digital, Xataka Brasil, ENR, Smithsonian Magazine, HistoryNet, Gazeta SP, Architect Magazine, Guinness World Records, Taiwan News.",
+    "tags": ["como é construído um prédio", "construção civil", "arranha-céu", "Burj Khalifa", "Empire State Building", "Edifício Martinelli", "Taipei 101", "fundação de prédio", "concreto armado", "engenharia civil", "documentário", "Inova Mundo"]
+  },
+  "fontesPesquisa": [
+    { "titulo": "Olhar Digital — Burj Khalifa: construção desafiadora", "url": "https://olhardigital.com.br/2024/03/21/ciencia-e-espaco/burj-khalifa-com-construcao-desafiadora-predio-de-dubai-e-o-maior-do-mundo/" },
+    { "titulo": "Xataka Brasil — fundação do Burj Khalifa (Capital Piling)", "url": "https://www.xataka.com.br/diversos/fundacao-mais-profunda-do-mundo-chega-a-120-metros-sob-chao-e-sustenta-essas-duas-megatorres" },
+    { "titulo": "ENR — The race into the sky that built the Empire State Building", "url": "https://www.enr.com/articles/60722-the-race-into-the-sky-that-built-the-empire-state-building" },
+    { "titulo": "Smithsonian Magazine — Empire State Building, 1929-31", "url": "https://www.smithsonianmag.com/us-history/empire-state-building-1929-31-180957195/" },
+    { "titulo": "HistoryNet — American skyscrapers and new technology", "url": "https://www.historynet.com/american-skyscrapers-new-technology/" },
+    { "titulo": "Gazeta SP — Edifício Martinelli: 100 anos de história", "url": "https://www.gazetasp.com.br/gazeta-mais/curiosidades/edificio-martinelli-100-anos-historia-revitalizacao-sao-paulo/1140484/" },
+    { "titulo": "Architect Magazine — Burj Khalifa curtain wall", "url": "https://www.architectmagazine.com/technology/architectural-detail/detail-burj-khalifa-curtain-wall_o" },
+    { "titulo": "Guinness World Records — Largest tuned mass damper", "url": "https://www.guinnessworldrecords.com/world-records/774616-largest-tuned-mass-damper" },
+    { "titulo": "Britannica — Taipei 101", "url": "https://www.britannica.com/place/Taipei-101" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Em Dubai existe uma torre de oitocentos e vinte e oito metros. Ela cresceu em pleno deserto, e o concreto foi bombeado a centenas de metros de altura. Mas todo prédio, do menor ao maior, começa do mesmo jeito: com um buraco no chão. Como alguém ergue uma coisa dessas sem que ela entorte, afunde ou desabe? Hoje você vai ver a ordem exata de uma obra. E um detalhe, lá no fim, que ninguém vê de fora.",
+      "galeria": ["burj-khalifa", "dubai-2004", "burj-guindaste", "burj-escavacao", "burj-corte"],
+      "galeriaEm": [0, "deserto", "bombeado", "buraco", "ordem"],
+      "fontes": ["Olhar Digital"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 828, "unidade": "metros", "rotulo": "Burj Khalifa", "em": "oitocentos", "posicao": "meio" },
+        { "tipo": "pergunta", "texto": "COMO NÃO DESABA?", "em": "Como", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Vamos acompanhar um arranha-céu do começo ao fim, em cinco etapas: o solo, a fundação, a estrutura, a fachada e o balanço do vento. No caminho, você conhece três prédios que mudaram a história: um em Chicago, um em Nova York e um aqui no Brasil. No final, você vai entender por que um prédio alto precisa balançar. Já vamos chegar lá. Primeiro, o chão.",
+      "galeria": ["obra-guindastes", "chicago-skyline", "manhattan-1931", "sp-centro", "taipei-skyline"],
+      "galeriaEm": [0, "Chicago", "Nova", "Brasil", "balançar"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5 ETAPAS", "sub": "Do chão ao topo", "em": 0, "posicao": "topo" },
+        { "tipo": "icones", "itens": [["pin", "Solo"], ["predio", "Estrutura"], ["raio", "Vento"]], "em": "etapas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "sondagem",
+      "texto": "Antes de qualquer pilar, a obra pergunta: o que existe embaixo? Máquinas perfuram o terreno e retiram amostras de solo, metro a metro. É a sondagem. Ela revela se há areia, argila, rocha ou água subterrânea. Cada resposta muda o projeto inteiro. Solo mole pede fundação profunda. Rocha firme pode segurar o peso quase sozinha. Pular essa etapa é o erro mais caro da construção. Mas descobrir o solo é só metade do problema. Agora é preciso abrir espaço.",
+      "galeria": ["sondagem-spt", "amostras-solo", "perfil-solo", "agua-subterranea", "rocha-granito"],
+      "galeriaEm": [0, "amostras", "areia", "subterrânea", "firme"],
+      "fontes": ["ABNT NBR 6484"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1. CONHECER O SOLO", "sub": "Capítulo um", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "SONDAGEM", "significado": "Furos que retiram amostras do solo", "em": "sondagem", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "escavacao",
+      "texto": "Com o solo conhecido, vem a escavação. Em Nova York, para o Empire State, os operários cavaram cerca de dezessete metros de profundidade, em dois turnos de doze horas. Em cidades apertadas, as paredes do buraco precisam ser escoradas, ou os vizinhos sentem o tremor. Depois, caminhões levam a terra embora, e o prédio ganha o seu primeiro andar, só que para baixo: os subsolos. A obra mal começou, e já moveu milhares de toneladas. Mas o buraco ainda não segura nada.",
+      "galeria": ["escavadeira", "empire-escavacao", "escoramento", "caminhoes-terra", "subsolo-obra"],
+      "galeriaEm": [0, "Nova", "escoradas", "caminhões", "subsolos"],
+      "fontes": ["ENR"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 17, "unidade": "metros", "rotulo": "Profundidade da escavação", "em": "dezessete", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "fundacao",
+      "texto": "Agora, a fundação. No Burj Khalifa, cento e noventa e duas estacas foram enterradas, a quase cinquenta metros de profundidade. Cada uma tem cerca de um metro e meio de diâmetro. Para fazer uma estaca, uma máquina perfura, uma gaiola de aço desce no buraco e o concreto sobe de baixo para cima. Por cima delas, uma laje de três metros e setenta de espessura une tudo num só bloco. Esse bloco espalha o peso da torre pelo solo.",
+      "galeria": ["burj-fundacao", "estaqueamento", "gaiola-aco", "laje-fundacao", "diagrama-estacas"],
+      "galeriaEm": [0, "perfura", "gaiola", "laje", "espalha"],
+      "fontes": ["Xataka Brasil", "Capital Piling"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2. FUNDAÇÃO", "sub": "Capítulo dois", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 192, "unidade": "estacas", "rotulo": "Burj Khalifa", "em": "estacas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "concreto",
+      "texto": "A maior parte do prédio é concreto armado. O concreto resiste a esmagar, o aço resiste a esticar, e juntos fazem o que nenhum faz sozinho. O Burj Khalifa consumiu cerca de trezentos e trinta mil metros cúbicos, bombeados para o alto. Em dia de calor, o concreto pode secar rápido demais, por isso a mistura é planejada para cada altura. Concreto é pesado, e o peso é o inimigo. Em Chicago, um engenheiro propôs outra saída.",
+      "galeria": ["concreto-armado", "amarracao-aco", "burj-andares", "bomba-concreto", "forma-laje"],
+      "galeriaEm": [0, "aço", "Burj", "bombeados", "planejada"],
+      "fontes": ["Olhar Digital"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 330, "unidade": "mil m³", "rotulo": "Concreto no Burj Khalifa", "em": "trezentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "esqueleto",
+      "texto": "Em mil oitocentos e oitenta e cinco, em Chicago, o engenheiro William Le Baron Jenney ergueu o Home Insurance Building, com dez andares. A ideia: um esqueleto de metal carrega o peso, e as paredes viram só uma pele. Muitos historiadores o chamam de primeiro arranha-céu, embora haja debate. Faltava um detalhe: ninguém queria subir tantas escadas. Em mil oitocentos e cinquenta e quatro, Elisha Otis já havia mostrado o elevador de segurança, que não despenca se o cabo arrebentar.",
+      "galeria": ["home-insurance", "jenney", "esqueleto-aco", "elisha-otis", "elevador-otis"],
+      "galeriaEm": [0, "engenheiro", "esqueleto", "Elisha", "elevador"],
+      "fontes": ["HistoryNet"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3. O ESQUELETO", "sub": "Capítulo três", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1854", "Elevador de segurança"], ["1885", "Home Insurance Building"]], "em": "Faltava", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "empire-state",
+      "texto": "Quarenta e seis anos depois, Nova York levou a ideia ao limite. O Empire State Building foi aberto em primeiro de maio de mil novecentos e trinta e um, em cerca de quatrocentos e dez dias de obra. Até três mil e quatrocentos operários trabalhavam por dia, incluindo imigrantes europeus e ferreiros mohawk. O aço chegava na hora certa, dois andares por vez, porque não havia espaço para estoque. A estrutura chegou a subir quatro andares e meio por semana.",
+      "galeria": ["empire-obra", "empire-operarios", "mohawk-ferreiros", "empire-aco", "empire-pronto"],
+      "galeriaEm": [0, "operários", "mohawk", "aço", "semana"],
+      "fontes": ["ENR", "Smithsonian Magazine"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 410, "unidade": "dias", "rotulo": "Empire State Building", "em": "quatrocentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "martinelli",
+      "texto": "E no Brasil? Em São Paulo, o imigrante italiano Giuseppe Martinelli sonhava com um prédio gigante. As obras começaram em mil novecentos e vinte e quatro e terminaram em mil novecentos e trinta e quatro. O projeto inicial previa doze andares, mas o edifício foi crescendo até trinta, com cerca de cento e cinco metros. Foi símbolo do centro paulistano. Décadas depois, entrou em decadência e hoje abriga secretarias da prefeitura. Mas um esqueleto ainda não é um prédio: falta vesti-lo.",
+      "galeria": ["martinelli", "giuseppe-martinelli", "martinelli-obra", "sp-1930", "martinelli-hoje"],
+      "galeriaEm": [0, "imigrante", "começaram", "símbolo", "Décadas"],
+      "fontes": ["Gazeta SP"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1924", "Início da obra"], ["1929", "Inauguração parcial"], ["1934", "Obra concluída"]], "em": "começaram", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "fachada",
+      "texto": "Com o esqueleto de pé, chega a pele. No Burj Khalifa, a fachada tem cerca de vinte e oito mil painéis de vidro duplo, montados em molduras de alumínio, já prontos de fábrica. O formato em Y não é só beleza: foi pensado para confundir o vento, e testado em túnel de vento. Dentro, um núcleo central concentra elevadores e tubulações. Parece o fim, mas o maior perigo dos arranha-céus nem sempre está embaixo. Está em cima.",
+      "galeria": ["burj-fachada", "painel-vidro", "burj-planta-y", "tunel-vento", "nucleo-elevadores"],
+      "galeriaEm": [0, "painéis", "formato", "túnel", "núcleo"],
+      "fontes": ["Architect Magazine"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "4. A PELE", "sub": "Capítulo quatro", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 28, "unidade": "mil painéis", "rotulo": "Fachada do Burj Khalifa", "em": "vinte", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "virada",
+      "texto": "Em Taipé, o Taipei 101 esconde uma bola de aço pendurada entre o octogésimo sétimo e o nonagésimo segundo andar. São seiscentas e sessenta toneladas, com cinco metros e meio de diâmetro. Quando o vento empurra a torre para um lado, a bola balança para o outro e anula o movimento. É um amortecedor. Em agosto de dois mil e quinze, durante o tufão Soudelor, ela chegou a oscilar um metro. Ou seja: um prédio alto sobrevive porque aprende a se mexer.",
+      "galeria": ["taipei-101", "amortecedor-taipei", "taipei-nuvens", "pendulo-diagrama", "tufao-soudelor"],
+      "galeriaEm": [0, "bola", "vento", "amortecedor", "tufão"],
+      "fontes": ["Guinness World Records", "Taiwan News"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A VIRADA", "sub": "O prédio que balança", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 660, "unidade": "toneladas", "rotulo": "Amortecedor do Taipei 101", "em": "seiscentas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "Voltando ao começo: como se ergue uma torre sem que ela desabe? Primeiro, conhecendo o solo. Depois, enterrando estacas até onde a terra segura. Em seguida, levantando um esqueleto de concreto e aço, vestindo-o de vidro e ensinando-o a resistir ao vento. Nenhuma dessas etapas aparece na foto final do prédio, mas todas estão lá. O arranha-céu bonito que você vê da rua é a parte mais fácil do trabalho. A difícil está escondida.",
+      "galeria": ["dubai-noite", "estacas-grupo", "esqueleto-concreto", "vento-torres", "predio-rua"],
+      "galeriaEm": [0, "estacas", "esqueleto", "vento", "rua"],
+      "elementos": [
+        { "tipo": "icones", "itens": [["pin", "Solo"], ["camadas", "Fundação"], ["predio", "Estrutura"]], "em": "Primeiro", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "Se esse caminho do chão ao topo te surpreendeu, inscreva-se no canal Inova Mundo. No próximo vídeo, vamos ver o que acontece quando um prédio precisa ser derrubado sem deixar rastro. Conta nos comentários: que obra você gostaria de ver por dentro?",
+      "galeria": ["guindaste-por-do-sol", "implosao-predio", "canteiro-final"],
+      "galeriaEm": [0, "próximo", "comentários"],
+      "elementos": [
+        { "tipo": "seguir", "texto": "INSCREVA-SE", "em": "inscreva-se", "posicao": "meio" }
+      ]
+    }
+  ]
+}
