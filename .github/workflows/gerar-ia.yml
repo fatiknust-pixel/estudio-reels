@@ -188,6 +188,8 @@ jobs:
 
       - name: Imagens — juntar candidatas (Wikimedia, Pixabay, Openverse, NASA)
         id: candidatas
+        continue-on-error: true # se demorar ou falhar, segue a busca automática
+        timeout-minutes: 20
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
@@ -195,8 +197,9 @@ jobs:
           echo "n=$(jq length out/candidatos/indice.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
 
       - name: Claude olha as candidatas e escolhe
-        if: steps.candidatas.outputs.n != '0'
+        if: steps.candidatas.outputs.n != '0' && steps.candidatas.outputs.n != ''
         continue-on-error: true
+        timeout-minutes: 25
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
