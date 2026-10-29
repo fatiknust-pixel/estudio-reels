@@ -97,8 +97,16 @@ async function viaCommons(busca) {
 
 // Openverse (api.openverse.org): sem chave o limite é baixo, então só entra quando o Commons não achou. license_type garante
 // licenças que permitem uso comercial e modificação (sem NC/ND), necessário para canal monetizado.
+let openverseFora = false; // sem chave o Openverse às vezes demora minutos: depois da 1ª demora, não é mais consultado
 async function viaOpenverse(busca) {
-  const r = await fetch("https://api.openverse.org/v1/images/?" + new URLSearchParams({ q: busca, license_type: "commercial,modification", page_size: "10", extension: "jpg,png", mature: "false" }), { headers: { "User-Agent": UA } });
+  if (openverseFora) return null;
+  let r;
+  try {
+    r = await fetch("https://api.openverse.org/v1/images/?" + new URLSearchParams({ q: busca, license_type: "commercial,modification", page_size: "10", extension: "jpg,png", mature: "false" }), { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) });
+  } catch (e) {
+    openverseFora = true;
+    throw new Error(`Openverse não respondeu (${e.name}); desligado neste vídeo`);
+  }
   if (!r.ok) return null;
   const j = await r.json();
   const toks = palavras(busca);
@@ -117,7 +125,7 @@ async function viaOpenverse(busca) {
 async function pixabay(busca, n = 4) {
   const key = process.env.PIXABAY_API_KEY;
   if (!key || !busca) return [];
-  const r = await fetch("https://pixabay.com/api/?" + new URLSearchParams({ key, q: busca.slice(0, 100), image_type: "photo", safesearch: "true", per_page: "20", min_width: "1000", lang: LINGUA }), { headers: { "User-Agent": UA } });
+  const r = await fetch("https://pixabay.com/api/?" + new URLSearchParams({ key, q: busca.slice(0, 100), image_type: "photo", safesearch: "true", per_page: "20", min_width: "1000", lang: LINGUA }), { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) });
   if (!r.ok) return [];
   return ((await r.json()).hits ?? []).filter((h) => h.largeImageURL && !usadas.has(h.largeImageURL)).slice(0, n)
     .map((h) => ({ titulo: h.tags || busca, chaveUso: h.largeImageURL, url: h.largeImageURL, previa: h.webformatURL, pagina: h.pageURL, autor: h.user || "Pixabay", licenca: "Licença Pixabay" }));
@@ -126,13 +134,13 @@ const viaPixabay = async (busca) => (await pixabay(busca, 1))[0] ?? null;
 
 // Biblioteca de imagens da NASA (domínio público; algumas fotos de terceiros aparecem com o autor no campo photographer).
 async function viaNasa(busca) {
-  const r = await fetch("https://images-api.nasa.gov/search?" + new URLSearchParams({ q: busca, media_type: "image" }), { headers: { "User-Agent": UA } });
+  const r = await fetch("https://images-api.nasa.gov/search?" + new URLSearchParams({ q: busca, media_type: "image" }), { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) });
   if (!r.ok) return null;
   const itens = (await r.json()).collection?.items ?? [];
   for (const it of itens.slice(0, 6)) {
     const d = it.data?.[0];
     if (!d || !it.href) continue;
-    const arquivos = await (await fetch(it.href, { headers: { "User-Agent": UA } })).json();
+    const arquivos = await (await fetch(it.href, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) })).json();
     const alvo = arquivos.find((u) => /~large\.jpg$/i.test(u)) ?? arquivos.find((u) => /~medium\.jpg$/i.test(u)) ?? arquivos.find((u) => /~orig\.jpg$/i.test(u));
     if (!alvo || usadas.has(alvo)) continue;
     return { titulo: d.title, chaveUso: alvo, url: encodeURI(alvo.replace(/^http:/, "https:")), previa: encodeURI(alvo.replace(/^http:/, "https:").replace(/~(large|medium|orig)\.jpg$/i, "~small.jpg")), pagina: `https://images.nasa.gov/details/${d.nasa_id}`, autor: d.photographer || d.secondary_creator || d.center || "NASA", licenca: "Domínio público (NASA)" };
@@ -311,7 +319,7 @@ for (const [chave, cfg] of Object.entries(p.imagens ?? {})) {
     try {
       const info = await buscar();
       if (!info || (info.chaveUso && usadas.has(info.chaveUso))) continue;
-      const r = await fetch(info.url, { headers: { "User-Agent": UA } });
+      const r = await fetch(info.url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(60000) });
       if (!r.ok) throw new Error(`download ${r.status}`);
       if (!/^image\//.test(r.headers.get("content-type") ?? "image/jpeg")) throw new Error("o arquivo não é uma imagem");
       const bytes = Buffer.from(await r.arrayBuffer());
