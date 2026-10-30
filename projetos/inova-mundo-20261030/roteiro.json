@@ -1,0 +1,152 @@
+{
+  "titulo": "Como a Holanda venceu o mar: a porta que ficou aberta",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Rijkswaterstaat — Eastern Scheldt Barrier", "url": "https://www.rijkswaterstaat.nl/en/about-us/gems-of-rijkswaterstaat/eastern-scheldt-barrier" },
+    { "titulo": "Canon van Nederland — A grande enchente (1953)", "url": "https://www.canonvannederland.nl/en/watersnood" },
+    { "titulo": "Watersnoodmuseum — Eastern Scheldt Storm Surge Barrier", "url": "https://watersnoodmuseum.nl/en/water-knowledge/learn-about-water-safety/articles/eastern-scheldt-barrier" },
+    { "titulo": "Zeeuwse Ankers — Oosterschelde barrier", "url": "https://www.zeeuwseankers.nl/en/story/oosterschelde-barrier" },
+    { "titulo": "Wikipedia — Delta Works", "url": "https://en.wikipedia.org/wiki/Delta_Works" },
+    { "titulo": "Rijkswaterstaat — Maeslantkering", "url": "https://www.rijkswaterstaat.nl/water/waterbeheer/bescherming-tegen-het-water/waterkeringen/deltawerken/maeslantkering" },
+    { "titulo": "VRT NWS — Rotterdam blijft droog, Maeslantkering sluit (dez. 2023)", "url": "https://www.vrt.be/vrtnws/nl/2023/12/22/rotterdam-blijft-droog-maeslantkering-sluit-voor-het-eerst-voll/" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "Por que a Holanda deixou uma porta aberta no mar?",
+      "A verdadeira história das barreiras que salvaram a Holanda",
+      "Delta Works: a engenharia que negociou com o mar"
+    ],
+    "descricao": "Em 1953, o mar do Norte rompeu os diques da Holanda e matou 1.836 pessoas. A resposta foi o Delta Works, uma das maiores obras de proteção costeira do mundo. Mas o capítulo mais curioso é o da barreira do Oosterschelde: em vez de fechar o estuário, os holandeses escolheram portões móveis que só descem em tempestades. Entenda a decisão, a engenharia e o equilíbrio entre segurança e natureza.\n\n0:00 Gancho\n0:35 Promessa\n1:10 A noite de 1953\n2:40 O plano do Delta\n4:10 O último estuário\n5:20 A virada de 1976\n6:30 Como a barreira funciona\n7:10 Roterdã e a Maeslantkering\n7:50 Desfecho\n\nFontes: Rijkswaterstaat, Canon van Nederland, Watersnoodmuseum, Zeeuwse Ankers, VRT NWS.",
+    "tags": ["Delta Works", "Holanda", "enchente de 1953", "engenharia", "Oosterschelde", "Maeslantkering", "barreira contra tempestades", "Países Baixos", "documentário", "tecnologia", "obras gigantes", "Inova mundo"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Trinta e um de janeiro de mil novecentos e cinquenta e três. Uma tempestade empurra o mar do Norte contra a costa da Holanda, e os diques, um por um, começam a ceder. Na manhã seguinte, mil oitocentas e trinta e seis pessoas estão mortas. O país olha para a água e toma uma decisão ousada: nunca mais. Só que a maior obra dessa promessa não fechou o mar por completo. Ela deixou, de propósito, uma porta aberta. E é essa decisão que vamos entender.",
+      "galeria": ["cheia-1953", "aereo-1953", "dique-brecha-1953", "resgate-1953", "oosterschelde-barreira"],
+      "galeriaEm": [0, "tempestade", "diques", "mortas", "porta"],
+      "fontes": ["Canon van Nederland"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 1836, "unidade": "mortos", "rotulo": "Enchente de 1953", "em": "oitocentas", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Nos próximos minutos você vai ver como um país feito de pólderes, onde cerca de um quarto do território fica abaixo do nível do mar, decidiu enfrentar o oceano. Vamos passar pela noite da enchente, pelo plano dos engenheiros e pela briga que quase mudou tudo. No fim, você vai entender por que a Holanda trocou um muro inteiro por portões que quase sempre ficam abertos. Mas antes, precisamos entender por que aquele mar entrou tão fácil.",
+      "galeria": ["polder-kinderdijk", "mapa-altitude", "mar-norte-costa", "afsluitdijk", "portoes-abertos"],
+      "galeriaEm": [0, "quarto", "oceano", "muro", "portões"],
+      "fontes": ["Rijkswaterstaat"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "PÓLDER", "significado": "Terra ganha do mar e protegida por diques", "em": "pólderes", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "noite-1953",
+      "texto": "Era uma noite de sábado. Uma forte tempestade vinda do norte coincidiu com uma maré alta de primavera, e a água subiu muito além do que os diques foram feitos para aguentar. Na província da Zelândia, no sudoeste, muita gente dormia quando o mar rompeu as defesas. Casas inteiras ficaram debaixo d'água, e famílias subiram ao telhado esperando por barcos. Ao todo, a enchente matou mil oitocentas e trinta e seis pessoas. E as brechas continuaram deixando a água entrar a cada maré, enquanto soldados e voluntários corriam para ajudar.",
+      "galeria": ["tempestade-1953", "zelandia-mapa", "casas-1953", "telhado-1953", "barcos-1953", "ajuda-1953"],
+      "galeriaEm": [0, "Zelândia", "Casas", "telhado", "barcos", "soldados"],
+      "fontes": ["Canon van Nederland"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAP. 1 · A NOITE DE 1953", "sub": "31 de janeiro de 1953", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "ouwerkerk",
+      "texto": "A última brecha a fechar foi a de Ouwerkerk, na ilha de Schouwen-Duiveland. Em novembro de mil novecentos e cinquenta e três, os holandeses a selaram afundando enormes caixões de concreto, reaproveitados de estruturas da Segunda Guerra Mundial. Mas o governo já sabia que consertar diques não bastava. Um engenheiro, Johan van Veen, alertava havia anos que as defesas eram frágeis. Poucas semanas depois da tragédia, nasceu a Comissão do Delta, com uma missão: proteger o país de uma vez. Só que a resposta dela parecia simples demais para ser verdade.",
+      "galeria": ["ouwerkerk-fechamento", "schouwen-mapa", "caixoes-phoenix", "johan-van-veen", "watersnoodmuseum", "comissao-delta"],
+      "galeriaEm": [0, "ilha", "caixões", "Veen", "tragédia", "resposta"],
+      "fontes": ["Watersnoodmuseum"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1953", "Enchente"], ["Nov 1953", "Ouwerkerk fechada"]], "em": "Em", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "plano-delta",
+      "texto": "A ideia era radical: encurtar a costa. Em vez de reforçar quilômetros e mais quilômetros de diques, fechar as grandes entradas do mar entre as ilhas da Zelândia e da Holanda do Sul. Em mil novecentos e cinquenta e oito, a Lei do Delta transformou o plano em obra de Estado. O projeto previa encurtar a linha de costa em cerca de setecentos quilômetros e, nas áreas mais povoadas, buscar uma proteção extrema: uma chance de cheia a cada dez mil anos. Eram treze grandes obras, uma a uma, durante décadas.",
+      "galeria": ["delta-mapa", "satelite-delta", "dique-zelandia", "parlamento", "delta-expo", "obra-delta"],
+      "galeriaEm": [0, "costa", "diques", "Lei", "proteção", "treze"],
+      "fontes": ["Wikipedia — Delta Works", "Rijkswaterstaat"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAP. 2 · O PLANO DO DELTA", "sub": "Lei do Delta, 1958", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 700, "unidade": "km", "rotulo": "de costa a menos", "em": "setecentos", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "primeiras-barragens",
+      "texto": "Primeiro vieram as obras menores. Em mil novecentos e cinquenta e oito, foi concluída a barreira do rio Hollandse IJssel, perto de Roterdã. Depois, em mil novecentos e sessenta, fecharam o Zandkreek. Em mil novecentos e sessenta e cinco, veio a barragem de Grevelingen. E em mil novecentos e setenta e um, as de Haringvliet e Brouwers. Cada fechamento encurtava a costa e deixava o país mais seguro. Só faltava a maior entrada de todas. E ali, o plano começou a rachar.",
+      "galeria": ["ijsselkering", "zandkreekdam", "grevelingendam", "haringvlietdam", "brouwersdam", "oosterschelde-antes"],
+      "galeriaEm": [0, "Zandkreek", "Grevelingen", "Haringvliet", "Cada", "maior"],
+      "fontes": ["Wikipedia — Delta Works"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1958", "Hollandse IJssel"], ["1960", "Zandkreek"], ["1965", "Grevelingen"], ["1971", "Haringvliet"]], "em": 0, "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "ultimo-estuario",
+      "texto": "Sobrava o Oosterschelde, o maior estuário da região. O plano original previa fechá-lo com uma barragem inteira. Mas ali ficam bancos de mexilhões e ostras, uma pesca tradicional da Zelândia, e áreas onde aves param para se alimentar. Pescadores, cientistas e ambientalistas protestaram: sem a maré, a água salgada se tornaria doce, e a vida do estuário morreria aos poucos. Os engenheiros respondiam que uma barragem fechada era mais simples e mais segura. O país se dividiu entre proteger as pessoas e proteger a natureza.",
+      "galeria": ["oosterschelde-mapa", "yerseke-mexilhao", "ostra-zelandia", "aves-estuario", "barco-pesca-yerseke"],
+      "galeriaEm": [0, "mexilhões", "ostras", "aves", "Pescadores"],
+      "fontes": ["Zeeuwse Ankers"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAP. 3 · O ÚLTIMO ESTUÁRIO", "sub": "Oosterschelde", "em": 0, "posicao": "topo" },
+        { "tipo": "pergunta", "texto": "PESSOAS OU NATUREZA?", "em": "dividiu", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "virada-1976",
+      "texto": "E então, a virada. Na década de mil novecentos e setenta, a pressão da opinião pública mudou o rumo. O governo e o parlamento aceitaram uma solução intermediária: em vez de uma parede fechada, uma barreira móvel, com portões que só descem em tempestades. Em mil novecentos e setenta e seis, começou a obra. A promessa era ousada: manter a maré entrando e saindo no dia a dia, e proteger o país quando o mar ficasse perigoso. Era mais cara e mais difícil. Mas era a engenharia aceitando negociar com a natureza.",
+      "galeria": ["neeltje-jans", "construcao-pilares", "secao-barreira", "aerea-barreira", "mare-baixa"],
+      "galeriaEm": [0, "obra", "barreira", "maré", "natureza"],
+      "fontes": ["Watersnoodmuseum", "Zeeuwse Ankers"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A VIRADA DE 1976", "sub": "Barreira móvel em vez de barragem", "em": 0, "posicao": "topo" },
+        { "tipo": "carimbo", "texto": "PORTÕES ABERTOS", "cor": "verde", "em": "ousada", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "construcao",
+      "texto": "Construir aquilo foi um desafio à parte. Não dava para despejar pedras num estuário com correnteza forte. Então os engenheiros fabricaram sessenta e cinco pilares de concreto gigantes em terra, numa ilha artificial, e os transportaram um a um por navios especiais, até fincá-los no leito do mar. Entre os pilares, entraram os portões de aço, de cerca de quarenta e dois metros de largura. Foram dez anos de trabalho, até a rainha Beatriz inaugurar a barreira, em quatro de outubro de mil novecentos e oitenta e seis.",
+      "galeria": ["docas-construcao", "pilar-concreto", "navio-pilar", "portao-aco", "beatriz"],
+      "galeriaEm": [0, "pilares", "navios", "portões", "Beatriz"],
+      "fontes": ["Rijkswaterstaat"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 65, "unidade": "pilares", "rotulo": "Barreira do Oosterschelde", "em": "sessenta", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "como-funciona",
+      "texto": "Hoje, a barreira funciona como um porteiro atento. Na maior parte do tempo, os portões ficam erguidos, e a maré entra e sai, mantendo a água salgada e a vida do estuário. Quando a previsão indica que o mar vai passar de três metros acima do nível de referência holandês, os portões descem em cerca de setenta e cinco minutos. Isso acontece, em média, uma vez por ano. Ela foi projetada para uma tempestade tão rara que só ocorreria uma vez a cada quatro mil anos. O segredo é simples: fechar só quando importa.",
+      "galeria": ["portoes-fechados", "vista-lateral", "barreira-noite", "foca-oosterschelde", "mexilhoes-hoje"],
+      "galeriaEm": [0, "erguidos", "descem", "projetada", "segredo"],
+      "fontes": ["Rijkswaterstaat"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMO ELE FUNCIONA", "sub": "Fecha só em tempestades", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 4000, "unidade": "anos", "rotulo": "tempestade de projeto", "em": "quatro", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "roterda",
+      "texto": "Faltava proteger Roterdã, o maior porto da Europa. Ali não dava para fechar o rio, porque os navios precisam passar. A solução foi a Maeslantkering, concluída em mil novecentos e noventa e sete: dois braços de aço, cada um com duzentos e dez metros. Em caso de perigo, os braços giram, flutuam e afundam até bloquear o canal. Quem decide é um computador, não uma pessoa. E só em dezembro de dois mil e vinte e três ela fechou, pela primeira vez, numa tempestade de verdade.",
+      "galeria": ["porto-roterda", "nieuwe-waterweg", "maeslant-aberta", "maeslant-braco", "hoek-van-holland"],
+      "galeriaEm": [0, "rio", "Maeslantkering", "braços", "computador"],
+      "fontes": ["Rijkswaterstaat", "VRT NWS"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAP. 4 · PORTA DE ROTERDÃ", "sub": "Maeslantkering, 1997", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 210, "unidade": "metros", "rotulo": "cada braço", "em": "duzentos", "posicao": "meio2" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "Então, por que a Holanda deixou portões abertos? Porque entendeu que segurança e natureza viva não precisam ser inimigas. A barreira custou mais e demorou mais, mas protege sem matar o estuário. Hoje o nível do mar sobe, e o país segue revisando seus planos. A lição vale para qualquer obra: a melhor proteção nem sempre é a mais fechada. E você, preferiria um muro total ou uma porta que abre e fecha? Se gostou, se inscreva e veja o próximo vídeo da série sobre obras que mudaram o mundo.",
+      "galeria": ["delta-final", "por-do-sol-barreira", "foca-estuario", "duna-hondsbossche", "skyline-roterda"],
+      "galeriaEm": [0, "protege", "Hoje", "preferiria", "inscreva"],
+      "fontes": ["Rijkswaterstaat"],
+      "elementos": [
+        { "tipo": "pergunta", "texto": "MURO TOTAL OU PORTA QUE ABRE?", "em": "preferiria", "posicao": "meio2" },
+        { "tipo": "seguir", "texto": "INSCREVA-SE", "em": "inscreva", "posicao": "meio" }
+      ]
+    }
+  ]
+}

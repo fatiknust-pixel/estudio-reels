@@ -1,13 +1,13 @@
 {
  "versao": 1,
  "id": "inova-mundo-20261030",
- "titulo": "Como a Holanda venceu o mar: Delta Works",
+ "titulo": "Como a Holanda venceu o mar: a porta que ficou aberta",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-30T10:43:55.132Z",
- "atualizadoEm": "2026-10-30T10:43:55.132Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-30T10:53:52Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Como a Holanda venceu o mar: Delta Works — ângulo: A enchente de 1953 e a resposta de engenharia que fechou estuários com barreiras gigantes. O foco é a decisão de não fechar tudo e como as barreiras móveis equilibram segurança e ecologia.",
   "tom": "Curioso e analítico",
@@ -55,15 +55,6535 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Trinta e um de janeiro de mil novecentos e cinquenta e três. Uma tempestade empurra o mar do Norte contra a costa da Holanda, e os diques, um por um, começam a ceder. Na manhã seguinte, mil oitocentas e trinta e seis pessoas estão mortas. O país olha para a água e toma uma decisão ousada: nunca mais. Só que a maior obra dessa promessa não fechou o mar por completo. Ela deixou, de propósito, uma porta aberta. E é essa decisão que vamos entender.",
+   "galeria": [
+    "cheia-1953",
+    "aereo-1953",
+    "dique-brecha-1953",
+    "resgate-1953",
+    "oosterschelde-barreira"
+   ],
+   "galeriaEm": [
+    0,
+    "tempestade",
+    "diques",
+    "mortas",
+    "porta"
+   ],
+   "fontes": [
+    "Canon van Nederland"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1836,
+     "unidade": "mortos",
+     "rotulo": "Enchente de 1953",
+     "em": "oitocentas",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Nos próximos minutos você vai ver como um país feito de pólderes, onde cerca de um quarto do território fica abaixo do nível do mar, decidiu enfrentar o oceano. Vamos passar pela noite da enchente, pelo plano dos engenheiros e pela briga que quase mudou tudo. No fim, você vai entender por que a Holanda trocou um muro inteiro por portões que quase sempre ficam abertos. Mas antes, precisamos entender por que aquele mar entrou tão fácil.",
+   "galeria": [
+    "polder-kinderdijk",
+    "mapa-altitude",
+    "mar-norte-costa",
+    "afsluitdijk",
+    "portoes-abertos"
+   ],
+   "galeriaEm": [
+    0,
+    "quarto",
+    "oceano",
+    "muro",
+    "portões"
+   ],
+   "fontes": [
+    "Rijkswaterstaat"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "PÓLDER",
+     "significado": "Terra ganha do mar e protegida por diques",
+     "em": "pólderes",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "noite-1953",
+   "texto": "Era uma noite de sábado. Uma forte tempestade vinda do norte coincidiu com uma maré alta de primavera, e a água subiu muito além do que os diques foram feitos para aguentar. Na província da Zelândia, no sudoeste, muita gente dormia quando o mar rompeu as defesas. Casas inteiras ficaram debaixo d'água, e famílias subiram ao telhado esperando por barcos. Ao todo, a enchente matou mil oitocentas e trinta e seis pessoas. E as brechas continuaram deixando a água entrar a cada maré, enquanto soldados e voluntários corriam para ajudar.",
+   "galeria": [
+    "tempestade-1953",
+    "zelandia-mapa",
+    "casas-1953",
+    "telhado-1953",
+    "barcos-1953",
+    "ajuda-1953"
+   ],
+   "galeriaEm": [
+    0,
+    "Zelândia",
+    "Casas",
+    "telhado",
+    "barcos",
+    "soldados"
+   ],
+   "fontes": [
+    "Canon van Nederland"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAP. 1 · A NOITE DE 1953",
+     "sub": "31 de janeiro de 1953",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "ouwerkerk",
+   "texto": "A última brecha a fechar foi a de Ouwerkerk, na ilha de Schouwen-Duiveland. Em novembro de mil novecentos e cinquenta e três, os holandeses a selaram afundando enormes caixões de concreto, reaproveitados de estruturas da Segunda Guerra Mundial. Mas o governo já sabia que consertar diques não bastava. Um engenheiro, Johan van Veen, alertava havia anos que as defesas eram frágeis. Poucas semanas depois da tragédia, nasceu a Comissão do Delta, com uma missão: proteger o país de uma vez. Só que a resposta dela parecia simples demais para ser verdade.",
+   "galeria": [
+    "ouwerkerk-fechamento",
+    "schouwen-mapa",
+    "caixoes-phoenix",
+    "johan-van-veen",
+    "watersnoodmuseum",
+    "comissao-delta"
+   ],
+   "galeriaEm": [
+    0,
+    "ilha",
+    "caixões",
+    "Veen",
+    "tragédia",
+    "resposta"
+   ],
+   "fontes": [
+    "Watersnoodmuseum"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1953",
+       "Enchente"
+      ],
+      [
+       "Nov 1953",
+       "Ouwerkerk fechada"
+      ]
+     ],
+     "em": "Em",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "plano-delta",
+   "texto": "A ideia era radical: encurtar a costa. Em vez de reforçar quilômetros e mais quilômetros de diques, fechar as grandes entradas do mar entre as ilhas da Zelândia e da Holanda do Sul. Em mil novecentos e cinquenta e oito, a Lei do Delta transformou o plano em obra de Estado. O projeto previa encurtar a linha de costa em cerca de setecentos quilômetros e, nas áreas mais povoadas, buscar uma proteção extrema: uma chance de cheia a cada dez mil anos. Eram treze grandes obras, uma a uma, durante décadas.",
+   "galeria": [
+    "delta-mapa",
+    "satelite-delta",
+    "dique-zelandia",
+    "parlamento",
+    "delta-expo",
+    "obra-delta"
+   ],
+   "galeriaEm": [
+    0,
+    "costa",
+    "diques",
+    "Lei",
+    "proteção",
+    "treze"
+   ],
+   "fontes": [
+    "Wikipedia — Delta Works",
+    "Rijkswaterstaat"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAP. 2 · O PLANO DO DELTA",
+     "sub": "Lei do Delta, 1958",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 700,
+     "unidade": "km",
+     "rotulo": "de costa a menos",
+     "em": "setecentos",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "primeiras-barragens",
+   "texto": "Primeiro vieram as obras menores. Em mil novecentos e cinquenta e oito, foi concluída a barreira do rio Hollandse IJssel, perto de Roterdã. Depois, em mil novecentos e sessenta, fecharam o Zandkreek. Em mil novecentos e sessenta e cinco, veio a barragem de Grevelingen. E em mil novecentos e setenta e um, as de Haringvliet e Brouwers. Cada fechamento encurtava a costa e deixava o país mais seguro. Só faltava a maior entrada de todas. E ali, o plano começou a rachar.",
+   "galeria": [
+    "ijsselkering",
+    "zandkreekdam",
+    "grevelingendam",
+    "haringvlietdam",
+    "brouwersdam",
+    "oosterschelde-antes"
+   ],
+   "galeriaEm": [
+    0,
+    "Zandkreek",
+    "Grevelingen",
+    "Haringvliet",
+    "Cada",
+    "maior"
+   ],
+   "fontes": [
+    "Wikipedia — Delta Works"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1958",
+       "Hollandse IJssel"
+      ],
+      [
+       "1960",
+       "Zandkreek"
+      ],
+      [
+       "1965",
+       "Grevelingen"
+      ],
+      [
+       "1971",
+       "Haringvliet"
+      ]
+     ],
+     "em": 0,
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "ultimo-estuario",
+   "texto": "Sobrava o Oosterschelde, o maior estuário da região. O plano original previa fechá-lo com uma barragem inteira. Mas ali ficam bancos de mexilhões e ostras, uma pesca tradicional da Zelândia, e áreas onde aves param para se alimentar. Pescadores, cientistas e ambientalistas protestaram: sem a maré, a água salgada se tornaria doce, e a vida do estuário morreria aos poucos. Os engenheiros respondiam que uma barragem fechada era mais simples e mais segura. O país se dividiu entre proteger as pessoas e proteger a natureza.",
+   "galeria": [
+    "oosterschelde-mapa",
+    "yerseke-mexilhao",
+    "ostra-zelandia",
+    "aves-estuario",
+    "barco-pesca-yerseke"
+   ],
+   "galeriaEm": [
+    0,
+    "mexilhões",
+    "ostras",
+    "aves",
+    "Pescadores"
+   ],
+   "fontes": [
+    "Zeeuwse Ankers"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAP. 3 · O ÚLTIMO ESTUÁRIO",
+     "sub": "Oosterschelde",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "pergunta",
+     "texto": "PESSOAS OU NATUREZA?",
+     "em": "dividiu",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "virada-1976",
+   "texto": "E então, a virada. Na década de mil novecentos e setenta, a pressão da opinião pública mudou o rumo. O governo e o parlamento aceitaram uma solução intermediária: em vez de uma parede fechada, uma barreira móvel, com portões que só descem em tempestades. Em mil novecentos e setenta e seis, começou a obra. A promessa era ousada: manter a maré entrando e saindo no dia a dia, e proteger o país quando o mar ficasse perigoso. Era mais cara e mais difícil. Mas era a engenharia aceitando negociar com a natureza.",
+   "galeria": [
+    "neeltje-jans",
+    "construcao-pilares",
+    "secao-barreira",
+    "aerea-barreira",
+    "mare-baixa"
+   ],
+   "galeriaEm": [
+    0,
+    "obra",
+    "barreira",
+    "maré",
+    "natureza"
+   ],
+   "fontes": [
+    "Watersnoodmuseum",
+    "Zeeuwse Ankers"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A VIRADA DE 1976",
+     "sub": "Barreira móvel em vez de barragem",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "PORTÕES ABERTOS",
+     "cor": "verde",
+     "em": "ousada",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "construcao",
+   "texto": "Construir aquilo foi um desafio à parte. Não dava para despejar pedras num estuário com correnteza forte. Então os engenheiros fabricaram sessenta e cinco pilares de concreto gigantes em terra, numa ilha artificial, e os transportaram um a um por navios especiais, até fincá-los no leito do mar. Entre os pilares, entraram os portões de aço, de cerca de quarenta e dois metros de largura. Foram dez anos de trabalho, até a rainha Beatriz inaugurar a barreira, em quatro de outubro de mil novecentos e oitenta e seis.",
+   "galeria": [
+    "docas-construcao",
+    "pilar-concreto",
+    "navio-pilar",
+    "portao-aco",
+    "beatriz"
+   ],
+   "galeriaEm": [
+    0,
+    "pilares",
+    "navios",
+    "portões",
+    "Beatriz"
+   ],
+   "fontes": [
+    "Rijkswaterstaat"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 65,
+     "unidade": "pilares",
+     "rotulo": "Barreira do Oosterschelde",
+     "em": "sessenta",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "como-funciona",
+   "texto": "Hoje, a barreira funciona como um porteiro atento. Na maior parte do tempo, os portões ficam erguidos, e a maré entra e sai, mantendo a água salgada e a vida do estuário. Quando a previsão indica que o mar vai passar de três metros acima do nível de referência holandês, os portões descem em cerca de setenta e cinco minutos. Isso acontece, em média, uma vez por ano. Ela foi projetada para uma tempestade tão rara que só ocorreria uma vez a cada quatro mil anos. O segredo é simples: fechar só quando importa.",
+   "galeria": [
+    "portoes-fechados",
+    "vista-lateral",
+    "barreira-noite",
+    "foca-oosterschelde",
+    "mexilhoes-hoje"
+   ],
+   "galeriaEm": [
+    0,
+    "erguidos",
+    "descem",
+    "projetada",
+    "segredo"
+   ],
+   "fontes": [
+    "Rijkswaterstaat"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO ELE FUNCIONA",
+     "sub": "Fecha só em tempestades",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 4000,
+     "unidade": "anos",
+     "rotulo": "tempestade de projeto",
+     "em": "quatro",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "roterda",
+   "texto": "Faltava proteger Roterdã, o maior porto da Europa. Ali não dava para fechar o rio, porque os navios precisam passar. A solução foi a Maeslantkering, concluída em mil novecentos e noventa e sete: dois braços de aço, cada um com duzentos e dez metros. Em caso de perigo, os braços giram, flutuam e afundam até bloquear o canal. Quem decide é um computador, não uma pessoa. E só em dezembro de dois mil e vinte e três ela fechou, pela primeira vez, numa tempestade de verdade.",
+   "galeria": [
+    "porto-roterda",
+    "nieuwe-waterweg",
+    "maeslant-aberta",
+    "maeslant-braco",
+    "hoek-van-holland"
+   ],
+   "galeriaEm": [
+    0,
+    "rio",
+    "Maeslantkering",
+    "braços",
+    "computador"
+   ],
+   "fontes": [
+    "Rijkswaterstaat",
+    "VRT NWS"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAP. 4 · PORTA DE ROTERDÃ",
+     "sub": "Maeslantkering, 1997",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 210,
+     "unidade": "metros",
+     "rotulo": "cada braço",
+     "em": "duzentos",
+     "posicao": "meio2"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então, por que a Holanda deixou portões abertos? Porque entendeu que segurança e natureza viva não precisam ser inimigas. A barreira custou mais e demorou mais, mas protege sem matar o estuário. Hoje o nível do mar sobe, e o país segue revisando seus planos. A lição vale para qualquer obra: a melhor proteção nem sempre é a mais fechada. E você, preferiria um muro total ou uma porta que abre e fecha? Se gostou, se inscreva e veja o próximo vídeo da série sobre obras que mudaram o mundo.",
+   "galeria": [
+    "delta-final",
+    "por-do-sol-barreira",
+    "foca-estuario",
+    "duna-hondsbossche",
+    "skyline-roterda"
+   ],
+   "galeriaEm": [
+    0,
+    "protege",
+    "Hoje",
+    "preferiria",
+    "inscreva"
+   ],
+   "fontes": [
+    "Rijkswaterstaat"
+   ],
+   "elementos": [
+    {
+     "tipo": "pergunta",
+     "texto": "MURO TOTAL OU PORTA QUE ABRE?",
+     "em": "preferiria",
+     "posicao": "meio2"
+    },
+    {
+     "tipo": "seguir",
+     "texto": "INSCREVA-SE",
+     "em": "inscreva",
+     "posicao": "meio"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "cd5f8f7064",
+   "texto": "Trinta e um de janeiro de mil novecentos e cinquenta e três. Uma tempestade empurra o mar do Norte contra a costa da Holanda, e os diques, um por um, começam a ceder. Na manhã seguinte, mil oitocentas e trinta e seis pessoas estão mortas. O país olha para a água e toma uma decisão ousada: nunca mais. Só que a maior obra dessa promessa não fechou o mar por completo. Ela deixou, de propósito, uma porta aberta. E é essa decisão que vamos entender.",
+   "audio": "audio/gancho-cd5f8f7064.mp3",
+   "duracao": 36.101,
+   "palavras": [
+    {
+     "p": "Trinta",
+     "i": 0.102,
+     "f": 0.428
+    },
+    {
+     "p": "e",
+     "i": 0.441,
+     "f": 0.493
+    },
+    {
+     "p": "um",
+     "i": 0.506,
+     "f": 0.675
+    },
+    {
+     "p": "de",
+     "i": 0.688,
+     "f": 0.779
+    },
+    {
+     "p": "janeiro",
+     "i": 0.792,
+     "f": 1.274
+    },
+    {
+     "p": "de",
+     "i": 1.287,
+     "f": 1.404
+    },
+    {
+     "p": "mil",
+     "i": 1.417,
+     "f": 1.547
+    },
+    {
+     "p": "novecentos",
+     "i": 1.56,
+     "f": 2.185
+    },
+    {
+     "p": "e",
+     "i": 2.198,
+     "f": 2.316
+    },
+    {
+     "p": "cinquenta",
+     "i": 2.329,
+     "f": 2.758
+    },
+    {
+     "p": "e",
+     "i": 2.771,
+     "f": 2.837
+    },
+    {
+     "p": "três",
+     "i": 2.849,
+     "f": 3.292
+    },
+    {
+     "p": "Uma",
+     "i": 4.542,
+     "f": 4.776
+    },
+    {
+     "p": "tempestade",
+     "i": 4.789,
+     "f": 5.428
+    },
+    {
+     "p": "empurra",
+     "i": 5.441,
+     "f": 5.844
+    },
+    {
+     "p": "o",
+     "i": 5.857,
+     "f": 5.896
+    },
+    {
+     "p": "mar",
+     "i": 5.909,
+     "f": 6.131
+    },
+    {
+     "p": "do",
+     "i": 6.144,
+     "f": 6.248
+    },
+    {
+     "p": "Norte",
+     "i": 6.261,
+     "f": 6.691
+    },
+    {
+     "p": "contra",
+     "i": 6.704,
+     "f": 7.016
+    },
+    {
+     "p": "a",
+     "i": 7.029,
+     "f": 7.068
+    },
+    {
+     "p": "costa",
+     "i": 7.081,
+     "f": 7.446
+    },
+    {
+     "p": "da",
+     "i": 7.459,
+     "f": 7.576
+    },
+    {
+     "p": "Holanda",
+     "i": 7.589,
+     "f": 8.058
+    },
+    {
+     "p": "e",
+     "i": 8.305,
+     "f": 8.448
+    },
+    {
+     "p": "os",
+     "i": 8.461,
+     "f": 8.605
+    },
+    {
+     "p": "diques",
+     "i": 8.618,
+     "f": 9.047
+    },
+    {
+     "p": "um",
+     "i": 9.399,
+     "f": 9.542
+    },
+    {
+     "p": "por",
+     "i": 9.555,
+     "f": 9.75
+    },
+    {
+     "p": "um",
+     "i": 9.763,
+     "f": 9.933
+    },
+    {
+     "p": "começam",
+     "i": 10.18,
+     "f": 10.753
+    },
+    {
+     "p": "a",
+     "i": 10.766,
+     "f": 10.805
+    },
+    {
+     "p": "ceder",
+     "i": 10.818,
+     "f": 11.196
+    },
+    {
+     "p": "Na",
+     "i": 12.438,
+     "f": 12.594
+    },
+    {
+     "p": "manhã",
+     "i": 12.607,
+     "f": 12.92
+    },
+    {
+     "p": "seguinte",
+     "i": 12.933,
+     "f": 13.48
+    },
+    {
+     "p": "mil",
+     "i": 13.779,
+     "f": 13.949
+    },
+    {
+     "p": "oitocentas",
+     "i": 13.962,
+     "f": 14.587
+    },
+    {
+     "p": "e",
+     "i": 14.6,
+     "f": 14.756
+    },
+    {
+     "p": "trinta",
+     "i": 14.769,
+     "f": 14.99
+    },
+    {
+     "p": "e",
+     "i": 15.003,
+     "f": 15.029
+    },
+    {
+     "p": "seis",
+     "i": 15.042,
+     "f": 15.264
+    },
+    {
+     "p": "pessoas",
+     "i": 15.277,
+     "f": 15.732
+    },
+    {
+     "p": "estão",
+     "i": 15.745,
+     "f": 16.11
+    },
+    {
+     "p": "mortas",
+     "i": 16.123,
+     "f": 16.696
+    },
+    {
+     "p": "O",
+     "i": 17.958,
+     "f": 18.075
+    },
+    {
+     "p": "país",
+     "i": 18.088,
+     "f": 18.427
+    },
+    {
+     "p": "olha",
+     "i": 18.44,
+     "f": 18.804
+    },
+    {
+     "p": "para",
+     "i": 18.817,
+     "f": 18.974
+    },
+    {
+     "p": "a",
+     "i": 18.987,
+     "f": 19.026
+    },
+    {
+     "p": "água",
+     "i": 19.039,
+     "f": 19.338
+    },
+    {
+     "p": "e",
+     "i": 19.351,
+     "f": 19.429
+    },
+    {
+     "p": "toma",
+     "i": 19.442,
+     "f": 19.651
+    },
+    {
+     "p": "uma",
+     "i": 19.664,
+     "f": 19.781
+    },
+    {
+     "p": "decisão",
+     "i": 19.794,
+     "f": 20.224
+    },
+    {
+     "p": "ousada",
+     "i": 20.237,
+     "f": 20.732
+    },
+    {
+     "p": "nunca",
+     "i": 20.979,
+     "f": 21.383
+    },
+    {
+     "p": "mais",
+     "i": 21.396,
+     "f": 21.838
+    },
+    {
+     "p": "Só",
+     "i": 23.094,
+     "f": 23.42
+    },
+    {
+     "p": "que",
+     "i": 23.433,
+     "f": 23.511
+    },
+    {
+     "p": "a",
+     "i": 23.524,
+     "f": 23.55
+    },
+    {
+     "p": "maior",
+     "i": 23.563,
+     "f": 23.927
+    },
+    {
+     "p": "obra",
+     "i": 23.94,
+     "f": 24.214
+    },
+    {
+     "p": "dessa",
+     "i": 24.227,
+     "f": 24.487
+    },
+    {
+     "p": "promessa",
+     "i": 24.5,
+     "f": 25.034
+    },
+    {
+     "p": "não",
+     "i": 25.047,
+     "f": 25.177
+    },
+    {
+     "p": "fechou",
+     "i": 25.19,
+     "f": 25.542
+    },
+    {
+     "p": "o",
+     "i": 25.555,
+     "f": 25.581
+    },
+    {
+     "p": "mar",
+     "i": 25.594,
+     "f": 25.828
+    },
+    {
+     "p": "por",
+     "i": 25.841,
+     "f": 26.024
+    },
+    {
+     "p": "completo",
+     "i": 26.037,
+     "f": 26.649
+    },
+    {
+     "p": "Ela",
+     "i": 27.894,
+     "f": 28.141
+    },
+    {
+     "p": "deixou",
+     "i": 28.154,
+     "f": 28.623
+    },
+    {
+     "p": "de",
+     "i": 28.858,
+     "f": 28.975
+    },
+    {
+     "p": "propósito",
+     "i": 28.988,
+     "f": 29.665
+    },
+    {
+     "p": "uma",
+     "i": 29.938,
+     "f": 30.173
+    },
+    {
+     "p": "porta",
+     "i": 30.186,
+     "f": 30.485
+    },
+    {
+     "p": "aberta",
+     "i": 30.498,
+     "f": 30.98
+    },
+    {
+     "p": "E",
+     "i": 32.238,
+     "f": 32.355
+    },
+    {
+     "p": "é",
+     "i": 32.368,
+     "f": 32.485
+    },
+    {
+     "p": "essa",
+     "i": 32.498,
+     "f": 32.798
+    },
+    {
+     "p": "decisão",
+     "i": 32.811,
+     "f": 33.306
+    },
+    {
+     "p": "que",
+     "i": 33.319,
+     "f": 33.436
+    },
+    {
+     "p": "vamos",
+     "i": 33.449,
+     "f": 33.735
+    },
+    {
+     "p": "entender",
+     "i": 33.749,
+     "f": 34.347
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "ce4b7b8864",
+   "texto": "Nos próximos minutos você vai ver como um país feito de pólderes, onde cerca de um quarto do território fica abaixo do nível do mar, decidiu enfrentar o oceano. Vamos passar pela noite da enchente, pelo plano dos engenheiros e pela briga que quase mudou tudo. No fim, você vai entender por que a Holanda trocou um muro inteiro por portões que quase sempre ficam abertos. Mas antes, precisamos entender por que aquele mar entrou tão fácil.",
+   "audio": "audio/promessa-ce4b7b8864.mp3",
+   "duracao": 31.06,
+   "palavras": [
+    {
+     "p": "Nos",
+     "i": 0.102,
+     "f": 0.362
+    },
+    {
+     "p": "próximos",
+     "i": 0.376,
+     "f": 0.883
+    },
+    {
+     "p": "minutos",
+     "i": 0.896,
+     "f": 1.326
+    },
+    {
+     "p": "você",
+     "i": 1.339,
+     "f": 1.652
+    },
+    {
+     "p": "vai",
+     "i": 1.665,
+     "f": 1.808
+    },
+    {
+     "p": "ver",
+     "i": 1.821,
+     "f": 2.003
+    },
+    {
+     "p": "como",
+     "i": 2.016,
+     "f": 2.238
+    },
+    {
+     "p": "um",
+     "i": 2.251,
+     "f": 2.329
+    },
+    {
+     "p": "país",
+     "i": 2.342,
+     "f": 2.693
+    },
+    {
+     "p": "feito",
+     "i": 2.706,
+     "f": 3.006
+    },
+    {
+     "p": "de",
+     "i": 3.019,
+     "f": 3.136
+    },
+    {
+     "p": "pólderes",
+     "i": 3.149,
+     "f": 3.683
+    },
+    {
+     "p": "onde",
+     "i": 4.008,
+     "f": 4.243
+    },
+    {
+     "p": "cerca",
+     "i": 4.256,
+     "f": 4.633
+    },
+    {
+     "p": "de",
+     "i": 4.646,
+     "f": 4.738
+    },
+    {
+     "p": "um",
+     "i": 4.751,
+     "f": 4.868
+    },
+    {
+     "p": "quarto",
+     "i": 4.881,
+     "f": 5.271
+    },
+    {
+     "p": "do",
+     "i": 5.284,
+     "f": 5.389
+    },
+    {
+     "p": "território",
+     "i": 5.402,
+     "f": 5.922
+    },
+    {
+     "p": "fica",
+     "i": 5.935,
+     "f": 6.17
+    },
+    {
+     "p": "abaixo",
+     "i": 6.183,
+     "f": 6.599
+    },
+    {
+     "p": "do",
+     "i": 6.612,
+     "f": 6.704
+    },
+    {
+     "p": "nível",
+     "i": 6.717,
+     "f": 7.042
+    },
+    {
+     "p": "do",
+     "i": 7.055,
+     "f": 7.159
+    },
+    {
+     "p": "mar",
+     "i": 7.172,
+     "f": 7.42
+    },
+    {
+     "p": "decidiu",
+     "i": 7.667,
+     "f": 8.11
+    },
+    {
+     "p": "enfrentar",
+     "i": 8.123,
+     "f": 8.696
+    },
+    {
+     "p": "o",
+     "i": 8.709,
+     "f": 8.735
+    },
+    {
+     "p": "oceano",
+     "i": 8.748,
+     "f": 9.321
+    },
+    {
+     "p": "Vamos",
+     "i": 10.566,
+     "f": 10.905
+    },
+    {
+     "p": "passar",
+     "i": 10.918,
+     "f": 11.334
+    },
+    {
+     "p": "pela",
+     "i": 11.347,
+     "f": 11.595
+    },
+    {
+     "p": "noite",
+     "i": 11.608,
+     "f": 11.972
+    },
+    {
+     "p": "da",
+     "i": 11.985,
+     "f": 12.077
+    },
+    {
+     "p": "enchente",
+     "i": 12.09,
+     "f": 12.662
+    },
+    {
+     "p": "pelo",
+     "i": 12.936,
+     "f": 13.183
+    },
+    {
+     "p": "plano",
+     "i": 13.196,
+     "f": 13.548
+    },
+    {
+     "p": "dos",
+     "i": 13.561,
+     "f": 13.665
+    },
+    {
+     "p": "engenheiros",
+     "i": 13.678,
+     "f": 14.251
+    },
+    {
+     "p": "e",
+     "i": 14.264,
+     "f": 14.368
+    },
+    {
+     "p": "pela",
+     "i": 14.381,
+     "f": 14.603
+    },
+    {
+     "p": "briga",
+     "i": 14.616,
+     "f": 14.993
+    },
+    {
+     "p": "que",
+     "i": 15.006,
+     "f": 15.149
+    },
+    {
+     "p": "quase",
+     "i": 15.162,
+     "f": 15.501
+    },
+    {
+     "p": "mudou",
+     "i": 15.514,
+     "f": 15.84
+    },
+    {
+     "p": "tudo",
+     "i": 15.853,
+     "f": 16.243
+    },
+    {
+     "p": "No",
+     "i": 17.502,
+     "f": 17.697
+    },
+    {
+     "p": "fim",
+     "i": 17.71,
+     "f": 17.997
+    },
+    {
+     "p": "você",
+     "i": 18.375,
+     "f": 18.661
+    },
+    {
+     "p": "vai",
+     "i": 18.674,
+     "f": 18.804
+    },
+    {
+     "p": "entender",
+     "i": 18.817,
+     "f": 19.286
+    },
+    {
+     "p": "por",
+     "i": 19.299,
+     "f": 19.494
+    },
+    {
+     "p": "que",
+     "i": 19.507,
+     "f": 19.624
+    },
+    {
+     "p": "a",
+     "i": 19.637,
+     "f": 19.729
+    },
+    {
+     "p": "Holanda",
+     "i": 19.742,
+     "f": 20.132
+    },
+    {
+     "p": "trocou",
+     "i": 20.145,
+     "f": 20.445
+    },
+    {
+     "p": "um",
+     "i": 20.458,
+     "f": 20.536
+    },
+    {
+     "p": "muro",
+     "i": 20.549,
+     "f": 20.757
+    },
+    {
+     "p": "inteiro",
+     "i": 20.77,
+     "f": 21.213
+    },
+    {
+     "p": "por",
+     "i": 21.226,
+     "f": 21.369
+    },
+    {
+     "p": "portões",
+     "i": 21.382,
+     "f": 21.916
+    },
+    {
+     "p": "que",
+     "i": 21.929,
+     "f": 22.059
+    },
+    {
+     "p": "quase",
+     "i": 22.072,
+     "f": 22.437
+    },
+    {
+     "p": "sempre",
+     "i": 22.45,
+     "f": 22.906
+    },
+    {
+     "p": "ficam",
+     "i": 22.919,
+     "f": 23.283
+    },
+    {
+     "p": "abertos",
+     "i": 23.296,
+     "f": 23.908
+    },
+    {
+     "p": "Mas",
+     "i": 25.158,
+     "f": 25.379
+    },
+    {
+     "p": "antes",
+     "i": 25.392,
+     "f": 25.926
+    },
+    {
+     "p": "precisamos",
+     "i": 26.174,
+     "f": 26.76
+    },
+    {
+     "p": "entender",
+     "i": 26.773,
+     "f": 27.346
+    },
+    {
+     "p": "por",
+     "i": 27.359,
+     "f": 27.554
+    },
+    {
+     "p": "que",
+     "i": 27.567,
+     "f": 27.684
+    },
+    {
+     "p": "aquele",
+     "i": 27.697,
+     "f": 28.023
+    },
+    {
+     "p": "mar",
+     "i": 28.036,
+     "f": 28.231
+    },
+    {
+     "p": "entrou",
+     "i": 28.244,
+     "f": 28.583
+    },
+    {
+     "p": "tão",
+     "i": 28.596,
+     "f": 28.83
+    },
+    {
+     "p": "fácil",
+     "i": 28.843,
+     "f": 29.299
+    }
+   ]
+  },
+  "noite-1953": {
+   "hash": "3348037a4b",
+   "texto": "Era uma noite de sábado. Uma forte tempestade vinda do norte coincidiu com uma maré alta de primavera, e a água subiu muito além do que os diques foram feitos para aguentar. Na província da Zelândia, no sudoeste, muita gente dormia quando o mar rompeu as defesas. Casas inteiras ficaram debaixo d'água, e famílias subiram ao telhado esperando por barcos. Ao todo, a enchente matou mil oitocentas e trinta e seis pessoas. E as brechas continuaram deixando a água entrar a cada maré, enquanto soldados e voluntários corriam para ajudar.",
+   "audio": "audio/noite-1953-3348037a4b.mp3",
+   "duracao": 39.497,
+   "palavras": [
+    {
+     "p": "Era",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "uma",
+     "i": 0.336,
+     "f": 0.467
+    },
+    {
+     "p": "noite",
+     "i": 0.48,
+     "f": 0.857
+    },
+    {
+     "p": "de",
+     "i": 0.87,
+     "f": 1.001
+    },
+    {
+     "p": "sábado",
+     "i": 1.014,
+     "f": 1.521
+    },
+    {
+     "p": "Uma",
+     "i": 2.766,
+     "f": 3.013
+    },
+    {
+     "p": "forte",
+     "i": 3.026,
+     "f": 3.482
+    },
+    {
+     "p": "tempestade",
+     "i": 3.495,
+     "f": 4.133
+    },
+    {
+     "p": "vinda",
+     "i": 4.146,
+     "f": 4.433
+    },
+    {
+     "p": "do",
+     "i": 4.446,
+     "f": 4.55
+    },
+    {
+     "p": "norte",
+     "i": 4.563,
+     "f": 4.967
+    },
+    {
+     "p": "coincidiu",
+     "i": 4.98,
+     "f": 5.579
+    },
+    {
+     "p": "com",
+     "i": 5.592,
+     "f": 5.748
+    },
+    {
+     "p": "uma",
+     "i": 5.761,
+     "f": 5.878
+    },
+    {
+     "p": "maré",
+     "i": 5.891,
+     "f": 6.191
+    },
+    {
+     "p": "alta",
+     "i": 6.204,
+     "f": 6.529
+    },
+    {
+     "p": "de",
+     "i": 6.542,
+     "f": 6.646
+    },
+    {
+     "p": "primavera",
+     "i": 6.659,
+     "f": 7.284
+    },
+    {
+     "p": "e",
+     "i": 7.649,
+     "f": 7.74
+    },
+    {
+     "p": "a",
+     "i": 7.753,
+     "f": 7.818
+    },
+    {
+     "p": "água",
+     "i": 7.831,
+     "f": 8.118
+    },
+    {
+     "p": "subiu",
+     "i": 8.131,
+     "f": 8.469
+    },
+    {
+     "p": "muito",
+     "i": 8.482,
+     "f": 8.886
+    },
+    {
+     "p": "além",
+     "i": 8.899,
+     "f": 9.12
+    },
+    {
+     "p": "do",
+     "i": 9.133,
+     "f": 9.237
+    },
+    {
+     "p": "que",
+     "i": 9.25,
+     "f": 9.342
+    },
+    {
+     "p": "os",
+     "i": 9.355,
+     "f": 9.459
+    },
+    {
+     "p": "diques",
+     "i": 9.472,
+     "f": 9.823
+    },
+    {
+     "p": "foram",
+     "i": 9.836,
+     "f": 10.123
+    },
+    {
+     "p": "feitos",
+     "i": 10.136,
+     "f": 10.526
+    },
+    {
+     "p": "para",
+     "i": 10.54,
+     "f": 10.696
+    },
+    {
+     "p": "aguentar",
+     "i": 10.709,
+     "f": 11.23
+    },
+    {
+     "p": "Na",
+     "i": 12.486,
+     "f": 12.655
+    },
+    {
+     "p": "província",
+     "i": 12.668,
+     "f": 13.241
+    },
+    {
+     "p": "da",
+     "i": 13.254,
+     "f": 13.358
+    },
+    {
+     "p": "Zelândia",
+     "i": 13.372,
+     "f": 13.931
+    },
+    {
+     "p": "no",
+     "i": 14.205,
+     "f": 14.309
+    },
+    {
+     "p": "sudoeste",
+     "i": 14.322,
+     "f": 14.999
+    },
+    {
+     "p": "muita",
+     "i": 15.299,
+     "f": 15.65
+    },
+    {
+     "p": "gente",
+     "i": 15.663,
+     "f": 15.976
+    },
+    {
+     "p": "dormia",
+     "i": 15.989,
+     "f": 16.457
+    },
+    {
+     "p": "quando",
+     "i": 16.47,
+     "f": 16.666
+    },
+    {
+     "p": "o",
+     "i": 16.679,
+     "f": 16.705
+    },
+    {
+     "p": "mar",
+     "i": 16.718,
+     "f": 16.913
+    },
+    {
+     "p": "rompeu",
+     "i": 16.926,
+     "f": 17.343
+    },
+    {
+     "p": "as",
+     "i": 17.356,
+     "f": 17.447
+    },
+    {
+     "p": "defesas",
+     "i": 17.46,
+     "f": 18.137
+    },
+    {
+     "p": "Casas",
+     "i": 19.398,
+     "f": 19.737
+    },
+    {
+     "p": "inteiras",
+     "i": 19.75,
+     "f": 20.323
+    },
+    {
+     "p": "ficaram",
+     "i": 20.336,
+     "f": 20.7
+    },
+    {
+     "p": "debaixo",
+     "i": 20.713,
+     "f": 21.182
+    },
+    {
+     "p": "d'água",
+     "i": 21.195,
+     "f": 21.573
+    },
+    {
+     "p": "e",
+     "i": 21.924,
+     "f": 22.002
+    },
+    {
+     "p": "famílias",
+     "i": 22.015,
+     "f": 22.523
+    },
+    {
+     "p": "subiram",
+     "i": 22.536,
+     "f": 22.914
+    },
+    {
+     "p": "ao",
+     "i": 22.927,
+     "f": 23.018
+    },
+    {
+     "p": "telhado",
+     "i": 23.031,
+     "f": 23.435
+    },
+    {
+     "p": "esperando",
+     "i": 23.448,
+     "f": 23.942
+    },
+    {
+     "p": "por",
+     "i": 23.955,
+     "f": 24.112
+    },
+    {
+     "p": "barcos",
+     "i": 24.125,
+     "f": 24.737
+    },
+    {
+     "p": "Ao",
+     "i": 25.998,
+     "f": 26.206
+    },
+    {
+     "p": "todo",
+     "i": 26.219,
+     "f": 26.584
+    },
+    {
+     "p": "a",
+     "i": 26.844,
+     "f": 26.91
+    },
+    {
+     "p": "enchente",
+     "i": 26.923,
+     "f": 27.469
+    },
+    {
+     "p": "matou",
+     "i": 27.482,
+     "f": 27.86
+    },
+    {
+     "p": "mil",
+     "i": 27.873,
+     "f": 28.081
+    },
+    {
+     "p": "oitocentas",
+     "i": 28.094,
+     "f": 28.706
+    },
+    {
+     "p": "e",
+     "i": 28.719,
+     "f": 28.863
+    },
+    {
+     "p": "trinta",
+     "i": 28.876,
+     "f": 29.11
+    },
+    {
+     "p": "e",
+     "i": 29.123,
+     "f": 29.162
+    },
+    {
+     "p": "seis",
+     "i": 29.175,
+     "f": 29.423
+    },
+    {
+     "p": "pessoas",
+     "i": 29.436,
+     "f": 30.1
+    },
+    {
+     "p": "E",
+     "i": 31.35,
+     "f": 31.48
+    },
+    {
+     "p": "as",
+     "i": 31.493,
+     "f": 31.663
+    },
+    {
+     "p": "brechas",
+     "i": 31.676,
+     "f": 32.196
+    },
+    {
+     "p": "continuaram",
+     "i": 32.209,
+     "f": 32.834
+    },
+    {
+     "p": "deixando",
+     "i": 32.847,
+     "f": 33.264
+    },
+    {
+     "p": "a",
+     "i": 33.277,
+     "f": 33.316
+    },
+    {
+     "p": "água",
+     "i": 33.329,
+     "f": 33.616
+    },
+    {
+     "p": "entrar",
+     "i": 33.629,
+     "f": 33.915
+    },
+    {
+     "p": "a",
+     "i": 33.928,
+     "f": 34.006
+    },
+    {
+     "p": "cada",
+     "i": 34.019,
+     "f": 34.267
+    },
+    {
+     "p": "maré",
+     "i": 34.28,
+     "f": 34.631
+    },
+    {
+     "p": "enquanto",
+     "i": 34.983,
+     "f": 35.4
+    },
+    {
+     "p": "soldados",
+     "i": 35.413,
+     "f": 35.933
+    },
+    {
+     "p": "e",
+     "i": 35.946,
+     "f": 36.051
+    },
+    {
+     "p": "voluntários",
+     "i": 36.064,
+     "f": 36.728
+    },
+    {
+     "p": "corriam",
+     "i": 36.741,
+     "f": 37.183
+    },
+    {
+     "p": "para",
+     "i": 37.196,
+     "f": 37.34
+    },
+    {
+     "p": "ajudar",
+     "i": 37.353,
+     "f": 37.756
+    }
+   ]
+  },
+  "ouwerkerk": {
+   "hash": "f187bfde07",
+   "texto": "A última brecha a fechar foi a de Ouwerkerk, na ilha de Schouwen-Duiveland. Em novembro de mil novecentos e cinquenta e três, os holandeses a selaram afundando enormes caixões de concreto, reaproveitados de estruturas da Segunda Guerra Mundial. Mas o governo já sabia que consertar diques não bastava. Um engenheiro, Johan van Veen, alertava havia anos que as defesas eram frágeis. Poucas semanas depois da tragédia, nasceu a Comissão do Delta, com uma missão: proteger o país de uma vez. Só que a resposta dela parecia simples demais para ser verdade.",
+   "audio": "audio/ouwerkerk-f187bfde07.mp3",
+   "duracao": 41.169,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "última",
+     "i": 0.284,
+     "f": 0.675
+    },
+    {
+     "p": "brecha",
+     "i": 0.688,
+     "f": 1.027
+    },
+    {
+     "p": "a",
+     "i": 1.04,
+     "f": 1.079
+    },
+    {
+     "p": "fechar",
+     "i": 1.092,
+     "f": 1.521
+    },
+    {
+     "p": "foi",
+     "i": 1.534,
+     "f": 1.717
+    },
+    {
+     "p": "a",
+     "i": 1.73,
+     "f": 1.782
+    },
+    {
+     "p": "de",
+     "i": 1.795,
+     "f": 1.899
+    },
+    {
+     "p": "Ouwerkerk",
+     "i": 1.912,
+     "f": 2.524
+    },
+    {
+     "p": "na",
+     "i": 2.758,
+     "f": 2.954
+    },
+    {
+     "p": "ilha",
+     "i": 2.967,
+     "f": 3.188
+    },
+    {
+     "p": "de",
+     "i": 3.201,
+     "f": 3.331
+    },
+    {
+     "p": "Schouwen-Duiveland",
+     "i": 3.344,
+     "f": 4.256
+    },
+    {
+     "p": "Em",
+     "i": 5.502,
+     "f": 5.632
+    },
+    {
+     "p": "novembro",
+     "i": 5.645,
+     "f": 6.179
+    },
+    {
+     "p": "de",
+     "i": 6.192,
+     "f": 6.309
+    },
+    {
+     "p": "mil",
+     "i": 6.322,
+     "f": 6.453
+    },
+    {
+     "p": "novecentos",
+     "i": 6.466,
+     "f": 7.052
+    },
+    {
+     "p": "e",
+     "i": 7.065,
+     "f": 7.169
+    },
+    {
+     "p": "cinquenta",
+     "i": 7.182,
+     "f": 7.585
+    },
+    {
+     "p": "e",
+     "i": 7.598,
+     "f": 7.651
+    },
+    {
+     "p": "três",
+     "i": 7.664,
+     "f": 8.028
+    },
+    {
+     "p": "os",
+     "i": 8.38,
+     "f": 8.445
+    },
+    {
+     "p": "holandeses",
+     "i": 8.458,
+     "f": 9.109
+    },
+    {
+     "p": "a",
+     "i": 9.122,
+     "f": 9.226
+    },
+    {
+     "p": "selaram",
+     "i": 9.239,
+     "f": 9.669
+    },
+    {
+     "p": "afundando",
+     "i": 9.682,
+     "f": 10.216
+    },
+    {
+     "p": "enormes",
+     "i": 10.229,
+     "f": 10.684
+    },
+    {
+     "p": "caixões",
+     "i": 10.697,
+     "f": 11.192
+    },
+    {
+     "p": "de",
+     "i": 11.205,
+     "f": 11.296
+    },
+    {
+     "p": "concreto",
+     "i": 11.309,
+     "f": 11.869
+    },
+    {
+     "p": "reaproveitados",
+     "i": 12.156,
+     "f": 13.08
+    },
+    {
+     "p": "de",
+     "i": 13.093,
+     "f": 13.171
+    },
+    {
+     "p": "estruturas",
+     "i": 13.184,
+     "f": 13.757
+    },
+    {
+     "p": "da",
+     "i": 13.77,
+     "f": 13.888
+    },
+    {
+     "p": "Segunda",
+     "i": 13.901,
+     "f": 14.408
+    },
+    {
+     "p": "Guerra",
+     "i": 14.421,
+     "f": 14.721
+    },
+    {
+     "p": "Mundial",
+     "i": 14.734,
+     "f": 15.307
+    },
+    {
+     "p": "Mas",
+     "i": 16.566,
+     "f": 16.787
+    },
+    {
+     "p": "o",
+     "i": 16.8,
+     "f": 16.918
+    },
+    {
+     "p": "governo",
+     "i": 16.931,
+     "f": 17.425
+    },
+    {
+     "p": "já",
+     "i": 17.439,
+     "f": 17.582
+    },
+    {
+     "p": "sabia",
+     "i": 17.595,
+     "f": 18.077
+    },
+    {
+     "p": "que",
+     "i": 18.09,
+     "f": 18.207
+    },
+    {
+     "p": "consertar",
+     "i": 18.22,
+     "f": 18.858
+    },
+    {
+     "p": "diques",
+     "i": 18.871,
+     "f": 19.222
+    },
+    {
+     "p": "não",
+     "i": 19.235,
+     "f": 19.405
+    },
+    {
+     "p": "bastava",
+     "i": 19.418,
+     "f": 19.991
+    },
+    {
+     "p": "Um",
+     "i": 21.246,
+     "f": 21.389
+    },
+    {
+     "p": "engenheiro",
+     "i": 21.402,
+     "f": 21.949
+    },
+    {
+     "p": "Johan",
+     "i": 22.301,
+     "f": 22.743
+    },
+    {
+     "p": "van",
+     "i": 22.757,
+     "f": 22.952
+    },
+    {
+     "p": "Veen",
+     "i": 22.965,
+     "f": 23.316
+    },
+    {
+     "p": "alertava",
+     "i": 23.551,
+     "f": 24.059
+    },
+    {
+     "p": "havia",
+     "i": 24.072,
+     "f": 24.306
+    },
+    {
+     "p": "anos",
+     "i": 24.319,
+     "f": 24.697
+    },
+    {
+     "p": "que",
+     "i": 24.71,
+     "f": 24.788
+    },
+    {
+     "p": "as",
+     "i": 24.801,
+     "f": 24.892
+    },
+    {
+     "p": "defesas",
+     "i": 24.905,
+     "f": 25.4
+    },
+    {
+     "p": "eram",
+     "i": 25.413,
+     "f": 25.699
+    },
+    {
+     "p": "frágeis",
+     "i": 25.712,
+     "f": 26.337
+    },
+    {
+     "p": "Poucas",
+     "i": 27.582,
+     "f": 27.986
+    },
+    {
+     "p": "semanas",
+     "i": 27.999,
+     "f": 28.441
+    },
+    {
+     "p": "depois",
+     "i": 28.455,
+     "f": 28.819
+    },
+    {
+     "p": "da",
+     "i": 28.832,
+     "f": 28.936
+    },
+    {
+     "p": "tragédia",
+     "i": 28.949,
+     "f": 29.522
+    },
+    {
+     "p": "nasceu",
+     "i": 29.77,
+     "f": 30.16
+    },
+    {
+     "p": "a",
+     "i": 30.173,
+     "f": 30.225
+    },
+    {
+     "p": "Comissão",
+     "i": 30.238,
+     "f": 30.733
+    },
+    {
+     "p": "do",
+     "i": 30.746,
+     "f": 30.863
+    },
+    {
+     "p": "Delta",
+     "i": 30.876,
+     "f": 31.28
+    },
+    {
+     "p": "com",
+     "i": 31.619,
+     "f": 31.788
+    },
+    {
+     "p": "uma",
+     "i": 31.801,
+     "f": 31.918
+    },
+    {
+     "p": "missão",
+     "i": 31.931,
+     "f": 32.387
+    },
+    {
+     "p": "proteger",
+     "i": 32.647,
+     "f": 33.22
+    },
+    {
+     "p": "o",
+     "i": 33.233,
+     "f": 33.285
+    },
+    {
+     "p": "país",
+     "i": 33.298,
+     "f": 33.689
+    },
+    {
+     "p": "de",
+     "i": 33.702,
+     "f": 33.78
+    },
+    {
+     "p": "uma",
+     "i": 33.793,
+     "f": 33.962
+    },
+    {
+     "p": "vez",
+     "i": 33.975,
+     "f": 34.405
+    },
+    {
+     "p": "Só",
+     "i": 35.646,
+     "f": 35.946
+    },
+    {
+     "p": "que",
+     "i": 35.959,
+     "f": 36.037
+    },
+    {
+     "p": "a",
+     "i": 36.05,
+     "f": 36.076
+    },
+    {
+     "p": "resposta",
+     "i": 36.089,
+     "f": 36.701
+    },
+    {
+     "p": "dela",
+     "i": 36.714,
+     "f": 36.922
+    },
+    {
+     "p": "parecia",
+     "i": 36.935,
+     "f": 37.443
+    },
+    {
+     "p": "simples",
+     "i": 37.456,
+     "f": 37.964
+    },
+    {
+     "p": "demais",
+     "i": 37.977,
+     "f": 38.407
+    },
+    {
+     "p": "para",
+     "i": 38.42,
+     "f": 38.628
+    },
+    {
+     "p": "ser",
+     "i": 38.641,
+     "f": 38.823
+    },
+    {
+     "p": "verdade",
+     "i": 38.836,
+     "f": 39.422
+    }
+   ]
+  },
+  "plano-delta": {
+   "hash": "aba2dd03db",
+   "texto": "A ideia era radical: encurtar a costa. Em vez de reforçar quilômetros e mais quilômetros de diques, fechar as grandes entradas do mar entre as ilhas da Zelândia e da Holanda do Sul. Em mil novecentos e cinquenta e oito, a Lei do Delta transformou o plano em obra de Estado. O projeto previa encurtar a linha de costa em cerca de setecentos quilômetros e, nas áreas mais povoadas, buscar uma proteção extrema: uma chance de cheia a cada dez mil anos. Eram treze grandes obras, uma a uma, durante décadas.",
+   "audio": "audio/plano-delta-aba2dd03db.mp3",
+   "duracao": 37.277,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "ideia",
+     "i": 0.258,
+     "f": 0.61
+    },
+    {
+     "p": "era",
+     "i": 0.623,
+     "f": 0.792
+    },
+    {
+     "p": "radical",
+     "i": 0.805,
+     "f": 1.365
+    },
+    {
+     "p": "encurtar",
+     "i": 1.599,
+     "f": 2.185
+    },
+    {
+     "p": "a",
+     "i": 2.198,
+     "f": 2.264
+    },
+    {
+     "p": "costa",
+     "i": 2.277,
+     "f": 2.732
+    },
+    {
+     "p": "Em",
+     "i": 3.99,
+     "f": 4.211
+    },
+    {
+     "p": "vez",
+     "i": 4.224,
+     "f": 4.511
+    },
+    {
+     "p": "de",
+     "i": 4.524,
+     "f": 4.589
+    },
+    {
+     "p": "reforçar",
+     "i": 4.602,
+     "f": 5.214
+    },
+    {
+     "p": "quilômetros",
+     "i": 5.227,
+     "f": 5.813
+    },
+    {
+     "p": "e",
+     "i": 5.826,
+     "f": 5.93
+    },
+    {
+     "p": "mais",
+     "i": 5.943,
+     "f": 6.243
+    },
+    {
+     "p": "quilômetros",
+     "i": 6.256,
+     "f": 6.868
+    },
+    {
+     "p": "de",
+     "i": 6.881,
+     "f": 6.985
+    },
+    {
+     "p": "diques",
+     "i": 6.998,
+     "f": 7.376
+    },
+    {
+     "p": "fechar",
+     "i": 7.662,
+     "f": 8.066
+    },
+    {
+     "p": "as",
+     "i": 8.079,
+     "f": 8.235
+    },
+    {
+     "p": "grandes",
+     "i": 8.248,
+     "f": 8.612
+    },
+    {
+     "p": "entradas",
+     "i": 8.625,
+     "f": 9.224
+    },
+    {
+     "p": "do",
+     "i": 9.237,
+     "f": 9.355
+    },
+    {
+     "p": "mar",
+     "i": 9.368,
+     "f": 9.602
+    },
+    {
+     "p": "entre",
+     "i": 9.615,
+     "f": 9.836
+    },
+    {
+     "p": "as",
+     "i": 9.849,
+     "f": 9.889
+    },
+    {
+     "p": "ilhas",
+     "i": 9.902,
+     "f": 10.253
+    },
+    {
+     "p": "da",
+     "i": 10.266,
+     "f": 10.383
+    },
+    {
+     "p": "Zelândia",
+     "i": 10.396,
+     "f": 11.047
+    },
+    {
+     "p": "e",
+     "i": 11.06,
+     "f": 11.099
+    },
+    {
+     "p": "da",
+     "i": 11.112,
+     "f": 11.282
+    },
+    {
+     "p": "Holanda",
+     "i": 11.295,
+     "f": 11.711
+    },
+    {
+     "p": "do",
+     "i": 11.724,
+     "f": 11.842
+    },
+    {
+     "p": "Sul",
+     "i": 11.855,
+     "f": 12.167
+    },
+    {
+     "p": "Em",
+     "i": 13.422,
+     "f": 13.578
+    },
+    {
+     "p": "mil",
+     "i": 13.591,
+     "f": 13.748
+    },
+    {
+     "p": "novecentos",
+     "i": 13.761,
+     "f": 14.386
+    },
+    {
+     "p": "e",
+     "i": 14.399,
+     "f": 14.503
+    },
+    {
+     "p": "cinquenta",
+     "i": 14.516,
+     "f": 14.946
+    },
+    {
+     "p": "e",
+     "i": 14.959,
+     "f": 14.985
+    },
+    {
+     "p": "oito",
+     "i": 14.998,
+     "f": 15.362
+    },
+    {
+     "p": "a",
+     "i": 15.623,
+     "f": 15.701
+    },
+    {
+     "p": "Lei",
+     "i": 15.714,
+     "f": 15.948
+    },
+    {
+     "p": "do",
+     "i": 15.961,
+     "f": 16.078
+    },
+    {
+     "p": "Delta",
+     "i": 16.091,
+     "f": 16.469
+    },
+    {
+     "p": "transformou",
+     "i": 16.482,
+     "f": 17.055
+    },
+    {
+     "p": "o",
+     "i": 17.068,
+     "f": 17.12
+    },
+    {
+     "p": "plano",
+     "i": 17.133,
+     "f": 17.459
+    },
+    {
+     "p": "em",
+     "i": 17.472,
+     "f": 17.576
+    },
+    {
+     "p": "obra",
+     "i": 17.589,
+     "f": 17.888
+    },
+    {
+     "p": "de",
+     "i": 17.901,
+     "f": 17.979
+    },
+    {
+     "p": "Estado",
+     "i": 17.992,
+     "f": 18.461
+    },
+    {
+     "p": "O",
+     "i": 19.71,
+     "f": 19.84
+    },
+    {
+     "p": "projeto",
+     "i": 19.853,
+     "f": 20.374
+    },
+    {
+     "p": "previa",
+     "i": 20.387,
+     "f": 20.713
+    },
+    {
+     "p": "encurtar",
+     "i": 20.726,
+     "f": 21.207
+    },
+    {
+     "p": "a",
+     "i": 21.221,
+     "f": 21.26
+    },
+    {
+     "p": "linha",
+     "i": 21.273,
+     "f": 21.533
+    },
+    {
+     "p": "de",
+     "i": 21.546,
+     "f": 21.65
+    },
+    {
+     "p": "costa",
+     "i": 21.663,
+     "f": 22.028
+    },
+    {
+     "p": "em",
+     "i": 22.041,
+     "f": 22.106
+    },
+    {
+     "p": "cerca",
+     "i": 22.119,
+     "f": 22.457
+    },
+    {
+     "p": "de",
+     "i": 22.47,
+     "f": 22.588
+    },
+    {
+     "p": "setecentos",
+     "i": 22.601,
+     "f": 23.291
+    },
+    {
+     "p": "quilômetros",
+     "i": 23.304,
+     "f": 23.851
+    },
+    {
+     "p": "e",
+     "i": 23.864,
+     "f": 23.942
+    },
+    {
+     "p": "nas",
+     "i": 24.267,
+     "f": 24.437
+    },
+    {
+     "p": "áreas",
+     "i": 24.45,
+     "f": 24.775
+    },
+    {
+     "p": "mais",
+     "i": 24.788,
+     "f": 25.049
+    },
+    {
+     "p": "povoadas",
+     "i": 25.062,
+     "f": 25.739
+    },
+    {
+     "p": "buscar",
+     "i": 26.012,
+     "f": 26.481
+    },
+    {
+     "p": "uma",
+     "i": 26.494,
+     "f": 26.65
+    },
+    {
+     "p": "proteção",
+     "i": 26.663,
+     "f": 27.197
+    },
+    {
+     "p": "extrema",
+     "i": 27.21,
+     "f": 27.653
+    },
+    {
+     "p": "uma",
+     "i": 28.043,
+     "f": 28.239
+    },
+    {
+     "p": "chance",
+     "i": 28.252,
+     "f": 28.668
+    },
+    {
+     "p": "de",
+     "i": 28.681,
+     "f": 28.786
+    },
+    {
+     "p": "cheia",
+     "i": 28.799,
+     "f": 29.098
+    },
+    {
+     "p": "a",
+     "i": 29.111,
+     "f": 29.15
+    },
+    {
+     "p": "cada",
+     "i": 29.163,
+     "f": 29.411
+    },
+    {
+     "p": "dez",
+     "i": 29.424,
+     "f": 29.736
+    },
+    {
+     "p": "mil",
+     "i": 29.749,
+     "f": 30.049
+    },
+    {
+     "p": "anos",
+     "i": 30.062,
+     "f": 30.465
+    },
+    {
+     "p": "Eram",
+     "i": 31.71,
+     "f": 32.023
+    },
+    {
+     "p": "treze",
+     "i": 32.036,
+     "f": 32.413
+    },
+    {
+     "p": "grandes",
+     "i": 32.426,
+     "f": 32.804
+    },
+    {
+     "p": "obras",
+     "i": 32.817,
+     "f": 33.325
+    },
+    {
+     "p": "uma",
+     "i": 33.65,
+     "f": 33.872
+    },
+    {
+     "p": "a",
+     "i": 33.885,
+     "f": 33.963
+    },
+    {
+     "p": "uma",
+     "i": 33.976,
+     "f": 34.223
+    },
+    {
+     "p": "durante",
+     "i": 34.444,
+     "f": 34.887
+    },
+    {
+     "p": "décadas",
+     "i": 34.9,
+     "f": 35.512
+    }
+   ]
+  },
+  "primeiras-barragens": {
+   "hash": "22d4d7fb4c",
+   "texto": "Primeiro vieram as obras menores. Em mil novecentos e cinquenta e oito, foi concluída a barreira do rio Hollandse IJssel, perto de Roterdã. Depois, em mil novecentos e sessenta, fecharam o Zandkreek. Em mil novecentos e sessenta e cinco, veio a barragem de Grevelingen. E em mil novecentos e setenta e um, as de Haringvliet e Brouwers. Cada fechamento encurtava a costa e deixava o país mais seguro. Só faltava a maior entrada de todas. E ali, o plano começou a rachar.",
+   "audio": "audio/primeiras-barragens-22d4d7fb4c.mp3",
+   "duracao": 38.4,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.102,
+     "f": 0.584
+    },
+    {
+     "p": "vieram",
+     "i": 0.597,
+     "f": 1.04
+    },
+    {
+     "p": "as",
+     "i": 1.053,
+     "f": 1.105
+    },
+    {
+     "p": "obras",
+     "i": 1.118,
+     "f": 1.573
+    },
+    {
+     "p": "menores",
+     "i": 1.586,
+     "f": 2.237
+    },
+    {
+     "p": "Em",
+     "i": 3.486,
+     "f": 3.642
+    },
+    {
+     "p": "mil",
+     "i": 3.655,
+     "f": 3.799
+    },
+    {
+     "p": "novecentos",
+     "i": 3.812,
+     "f": 4.437
+    },
+    {
+     "p": "e",
+     "i": 4.45,
+     "f": 4.554
+    },
+    {
+     "p": "cinquenta",
+     "i": 4.567,
+     "f": 4.997
+    },
+    {
+     "p": "e",
+     "i": 5.01,
+     "f": 5.036
+    },
+    {
+     "p": "oito",
+     "i": 5.049,
+     "f": 5.361
+    },
+    {
+     "p": "foi",
+     "i": 5.674,
+     "f": 5.817
+    },
+    {
+     "p": "concluída",
+     "i": 5.83,
+     "f": 6.364
+    },
+    {
+     "p": "a",
+     "i": 6.377,
+     "f": 6.403
+    },
+    {
+     "p": "barreira",
+     "i": 6.416,
+     "f": 6.832
+    },
+    {
+     "p": "do",
+     "i": 6.845,
+     "f": 6.963
+    },
+    {
+     "p": "rio",
+     "i": 6.976,
+     "f": 7.223
+    },
+    {
+     "p": "Hollandse",
+     "i": 7.236,
+     "f": 7.77
+    },
+    {
+     "p": "IJssel",
+     "i": 7.783,
+     "f": 8.213
+    },
+    {
+     "p": "perto",
+     "i": 8.473,
+     "f": 8.825
+    },
+    {
+     "p": "de",
+     "i": 8.838,
+     "f": 8.929
+    },
+    {
+     "p": "Roterdã",
+     "i": 8.942,
+     "f": 9.567
+    },
+    {
+     "p": "Depois",
+     "i": 10.83,
+     "f": 11.429
+    },
+    {
+     "p": "em",
+     "i": 11.663,
+     "f": 11.781
+    },
+    {
+     "p": "mil",
+     "i": 11.794,
+     "f": 11.95
+    },
+    {
+     "p": "novecentos",
+     "i": 11.963,
+     "f": 12.523
+    },
+    {
+     "p": "e",
+     "i": 12.536,
+     "f": 12.627
+    },
+    {
+     "p": "sessenta",
+     "i": 12.64,
+     "f": 13.213
+    },
+    {
+     "p": "fecharam",
+     "i": 13.525,
+     "f": 14.046
+    },
+    {
+     "p": "o",
+     "i": 14.059,
+     "f": 14.098
+    },
+    {
+     "p": "Zandkreek",
+     "i": 14.111,
+     "f": 14.775
+    },
+    {
+     "p": "Em",
+     "i": 16.038,
+     "f": 16.207
+    },
+    {
+     "p": "mil",
+     "i": 16.22,
+     "f": 16.351
+    },
+    {
+     "p": "novecentos",
+     "i": 16.364,
+     "f": 16.95
+    },
+    {
+     "p": "e",
+     "i": 16.963,
+     "f": 17.054
+    },
+    {
+     "p": "sessenta",
+     "i": 17.067,
+     "f": 17.418
+    },
+    {
+     "p": "e",
+     "i": 17.431,
+     "f": 17.457
+    },
+    {
+     "p": "cinco",
+     "i": 17.47,
+     "f": 17.887
+    },
+    {
+     "p": "veio",
+     "i": 18.187,
+     "f": 18.447
+    },
+    {
+     "p": "a",
+     "i": 18.46,
+     "f": 18.499
+    },
+    {
+     "p": "barragem",
+     "i": 18.512,
+     "f": 19.059
+    },
+    {
+     "p": "de",
+     "i": 19.072,
+     "f": 19.176
+    },
+    {
+     "p": "Grevelingen",
+     "i": 19.189,
+     "f": 19.905
+    },
+    {
+     "p": "E",
+     "i": 21.15,
+     "f": 21.254
+    },
+    {
+     "p": "em",
+     "i": 21.267,
+     "f": 21.384
+    },
+    {
+     "p": "mil",
+     "i": 21.397,
+     "f": 21.554
+    },
+    {
+     "p": "novecentos",
+     "i": 21.567,
+     "f": 22.179
+    },
+    {
+     "p": "e",
+     "i": 22.192,
+     "f": 22.296
+    },
+    {
+     "p": "setenta",
+     "i": 22.309,
+     "f": 22.661
+    },
+    {
+     "p": "e",
+     "i": 22.674,
+     "f": 22.713
+    },
+    {
+     "p": "um",
+     "i": 22.726,
+     "f": 22.882
+    },
+    {
+     "p": "as",
+     "i": 23.155,
+     "f": 23.299
+    },
+    {
+     "p": "de",
+     "i": 23.312,
+     "f": 23.377
+    },
+    {
+     "p": "Haringvliet",
+     "i": 23.39,
+     "f": 24.093
+    },
+    {
+     "p": "e",
+     "i": 24.106,
+     "f": 24.132
+    },
+    {
+     "p": "Brouwers",
+     "i": 24.145,
+     "f": 24.744
+    },
+    {
+     "p": "Cada",
+     "i": 25.998,
+     "f": 26.285
+    },
+    {
+     "p": "fechamento",
+     "i": 26.298,
+     "f": 26.87
+    },
+    {
+     "p": "encurtava",
+     "i": 26.884,
+     "f": 27.391
+    },
+    {
+     "p": "a",
+     "i": 27.404,
+     "f": 27.443
+    },
+    {
+     "p": "costa",
+     "i": 27.456,
+     "f": 27.808
+    },
+    {
+     "p": "e",
+     "i": 27.821,
+     "f": 27.847
+    },
+    {
+     "p": "deixava",
+     "i": 27.86,
+     "f": 28.277
+    },
+    {
+     "p": "o",
+     "i": 28.29,
+     "f": 28.329
+    },
+    {
+     "p": "país",
+     "i": 28.342,
+     "f": 28.732
+    },
+    {
+     "p": "mais",
+     "i": 28.745,
+     "f": 29.006
+    },
+    {
+     "p": "seguro",
+     "i": 29.019,
+     "f": 29.501
+    },
+    {
+     "p": "Só",
+     "i": 30.75,
+     "f": 30.997
+    },
+    {
+     "p": "faltava",
+     "i": 31.01,
+     "f": 31.544
+    },
+    {
+     "p": "a",
+     "i": 31.557,
+     "f": 31.57
+    },
+    {
+     "p": "maior",
+     "i": 31.583,
+     "f": 31.922
+    },
+    {
+     "p": "entrada",
+     "i": 31.935,
+     "f": 32.391
+    },
+    {
+     "p": "de",
+     "i": 32.404,
+     "f": 32.56
+    },
+    {
+     "p": "todas",
+     "i": 32.573,
+     "f": 33.107
+    },
+    {
+     "p": "E",
+     "i": 34.35,
+     "f": 34.493
+    },
+    {
+     "p": "ali",
+     "i": 34.506,
+     "f": 34.845
+    },
+    {
+     "p": "o",
+     "i": 35.105,
+     "f": 35.235
+    },
+    {
+     "p": "plano",
+     "i": 35.249,
+     "f": 35.6
+    },
+    {
+     "p": "começou",
+     "i": 35.613,
+     "f": 36.121
+    },
+    {
+     "p": "a",
+     "i": 36.134,
+     "f": 36.186
+    },
+    {
+     "p": "rachar",
+     "i": 36.199,
+     "f": 36.655
+    }
+   ]
+  },
+  "ultimo-estuario": {
+   "hash": "8d24cc5323",
+   "texto": "Sobrava o Oosterschelde, o maior estuário da região. O plano original previa fechá-lo com uma barragem inteira. Mas ali ficam bancos de mexilhões e ostras, uma pesca tradicional da Zelândia, e áreas onde aves param para se alimentar. Pescadores, cientistas e ambientalistas protestaram: sem a maré, a água salgada se tornaria doce, e a vida do estuário morreria aos poucos. Os engenheiros respondiam que uma barragem fechada era mais simples e mais segura. O país se dividiu entre proteger as pessoas e proteger a natureza.",
+   "audio": "audio/ultimo-estuario-8d24cc5323.mp3",
+   "duracao": 40.124,
+   "palavras": [
+    {
+     "p": "Sobrava",
+     "i": 0.102,
+     "f": 0.753
+    },
+    {
+     "p": "o",
+     "i": 0.766,
+     "f": 0.779
+    },
+    {
+     "p": "Oosterschelde",
+     "i": 0.792,
+     "f": 1.573
+    },
+    {
+     "p": "o",
+     "i": 1.808,
+     "f": 1.886
+    },
+    {
+     "p": "maior",
+     "i": 1.899,
+     "f": 2.224
+    },
+    {
+     "p": "estuário",
+     "i": 2.237,
+     "f": 2.732
+    },
+    {
+     "p": "da",
+     "i": 2.745,
+     "f": 2.836
+    },
+    {
+     "p": "região",
+     "i": 2.849,
+     "f": 3.344
+    },
+    {
+     "p": "O",
+     "i": 4.59,
+     "f": 4.733
+    },
+    {
+     "p": "plano",
+     "i": 4.746,
+     "f": 5.098
+    },
+    {
+     "p": "original",
+     "i": 5.111,
+     "f": 5.58
+    },
+    {
+     "p": "previa",
+     "i": 5.593,
+     "f": 5.957
+    },
+    {
+     "p": "fechá-lo",
+     "i": 5.97,
+     "f": 6.491
+    },
+    {
+     "p": "com",
+     "i": 6.504,
+     "f": 6.647
+    },
+    {
+     "p": "uma",
+     "i": 6.66,
+     "f": 6.791
+    },
+    {
+     "p": "barragem",
+     "i": 6.804,
+     "f": 7.403
+    },
+    {
+     "p": "inteira",
+     "i": 7.416,
+     "f": 7.897
+    },
+    {
+     "p": "Mas",
+     "i": 9.15,
+     "f": 9.358
+    },
+    {
+     "p": "ali",
+     "i": 9.371,
+     "f": 9.697
+    },
+    {
+     "p": "ficam",
+     "i": 9.71,
+     "f": 10.075
+    },
+    {
+     "p": "bancos",
+     "i": 10.088,
+     "f": 10.517
+    },
+    {
+     "p": "de",
+     "i": 10.53,
+     "f": 10.608
+    },
+    {
+     "p": "mexilhões",
+     "i": 10.621,
+     "f": 11.129
+    },
+    {
+     "p": "e",
+     "i": 11.142,
+     "f": 11.299
+    },
+    {
+     "p": "ostras",
+     "i": 11.312,
+     "f": 11.819
+    },
+    {
+     "p": "uma",
+     "i": 12.145,
+     "f": 12.366
+    },
+    {
+     "p": "pesca",
+     "i": 12.379,
+     "f": 12.783
+    },
+    {
+     "p": "tradicional",
+     "i": 12.796,
+     "f": 13.395
+    },
+    {
+     "p": "da",
+     "i": 13.408,
+     "f": 13.499
+    },
+    {
+     "p": "Zelândia",
+     "i": 13.512,
+     "f": 14.085
+    },
+    {
+     "p": "e",
+     "i": 14.476,
+     "f": 14.567
+    },
+    {
+     "p": "áreas",
+     "i": 14.58,
+     "f": 14.775
+    },
+    {
+     "p": "onde",
+     "i": 14.788,
+     "f": 15.14
+    },
+    {
+     "p": "aves",
+     "i": 15.153,
+     "f": 15.504
+    },
+    {
+     "p": "param",
+     "i": 15.517,
+     "f": 15.752
+    },
+    {
+     "p": "para",
+     "i": 15.765,
+     "f": 15.973
+    },
+    {
+     "p": "se",
+     "i": 15.986,
+     "f": 16.077
+    },
+    {
+     "p": "alimentar",
+     "i": 16.09,
+     "f": 16.637
+    },
+    {
+     "p": "Pescadores",
+     "i": 17.886,
+     "f": 18.706
+    },
+    {
+     "p": "cientistas",
+     "i": 18.98,
+     "f": 19.657
+    },
+    {
+     "p": "e",
+     "i": 19.67,
+     "f": 19.813
+    },
+    {
+     "p": "ambientalistas",
+     "i": 19.826,
+     "f": 20.647
+    },
+    {
+     "p": "protestaram",
+     "i": 20.66,
+     "f": 21.324
+    },
+    {
+     "p": "sem",
+     "i": 21.636,
+     "f": 21.857
+    },
+    {
+     "p": "a",
+     "i": 21.87,
+     "f": 21.923
+    },
+    {
+     "p": "maré",
+     "i": 21.936,
+     "f": 22.287
+    },
+    {
+     "p": "a",
+     "i": 22.561,
+     "f": 22.652
+    },
+    {
+     "p": "água",
+     "i": 22.665,
+     "f": 22.964
+    },
+    {
+     "p": "salgada",
+     "i": 22.977,
+     "f": 23.524
+    },
+    {
+     "p": "se",
+     "i": 23.537,
+     "f": 23.667
+    },
+    {
+     "p": "tornaria",
+     "i": 23.68,
+     "f": 24.175
+    },
+    {
+     "p": "doce",
+     "i": 24.188,
+     "f": 24.644
+    },
+    {
+     "p": "e",
+     "i": 25.008,
+     "f": 25.113
+    },
+    {
+     "p": "a",
+     "i": 25.126,
+     "f": 25.243
+    },
+    {
+     "p": "vida",
+     "i": 25.256,
+     "f": 25.516
+    },
+    {
+     "p": "do",
+     "i": 25.529,
+     "f": 25.647
+    },
+    {
+     "p": "estuário",
+     "i": 25.66,
+     "f": 26.141
+    },
+    {
+     "p": "morreria",
+     "i": 26.154,
+     "f": 26.584
+    },
+    {
+     "p": "aos",
+     "i": 26.597,
+     "f": 26.792
+    },
+    {
+     "p": "poucos",
+     "i": 26.805,
+     "f": 27.378
+    },
+    {
+     "p": "Os",
+     "i": 28.638,
+     "f": 28.768
+    },
+    {
+     "p": "engenheiros",
+     "i": 28.781,
+     "f": 29.393
+    },
+    {
+     "p": "respondiam",
+     "i": 29.406,
+     "f": 30.018
+    },
+    {
+     "p": "que",
+     "i": 30.031,
+     "f": 30.135
+    },
+    {
+     "p": "uma",
+     "i": 30.149,
+     "f": 30.292
+    },
+    {
+     "p": "barragem",
+     "i": 30.305,
+     "f": 30.839
+    },
+    {
+     "p": "fechada",
+     "i": 30.852,
+     "f": 31.385
+    },
+    {
+     "p": "era",
+     "i": 31.398,
+     "f": 31.568
+    },
+    {
+     "p": "mais",
+     "i": 31.581,
+     "f": 31.828
+    },
+    {
+     "p": "simples",
+     "i": 31.841,
+     "f": 32.271
+    },
+    {
+     "p": "e",
+     "i": 32.284,
+     "f": 32.388
+    },
+    {
+     "p": "mais",
+     "i": 32.401,
+     "f": 32.662
+    },
+    {
+     "p": "segura",
+     "i": 32.675,
+     "f": 33.208
+    },
+    {
+     "p": "O",
+     "i": 34.47,
+     "f": 34.6
+    },
+    {
+     "p": "país",
+     "i": 34.613,
+     "f": 35.017
+    },
+    {
+     "p": "se",
+     "i": 35.03,
+     "f": 35.134
+    },
+    {
+     "p": "dividiu",
+     "i": 35.147,
+     "f": 35.642
+    },
+    {
+     "p": "entre",
+     "i": 35.655,
+     "f": 35.863
+    },
+    {
+     "p": "proteger",
+     "i": 35.876,
+     "f": 36.384
+    },
+    {
+     "p": "as",
+     "i": 36.397,
+     "f": 36.527
+    },
+    {
+     "p": "pessoas",
+     "i": 36.54,
+     "f": 37.022
+    },
+    {
+     "p": "e",
+     "i": 37.035,
+     "f": 37.139
+    },
+    {
+     "p": "proteger",
+     "i": 37.152,
+     "f": 37.686
+    },
+    {
+     "p": "a",
+     "i": 37.699,
+     "f": 37.738
+    },
+    {
+     "p": "natureza",
+     "i": 37.751,
+     "f": 38.376
+    }
+   ]
+  },
+  "virada-1976": {
+   "hash": "f69218199a",
+   "texto": "E então, a virada. Na década de mil novecentos e setenta, a pressão da opinião pública mudou o rumo. O governo e o parlamento aceitaram uma solução intermediária: em vez de uma parede fechada, uma barreira móvel, com portões que só descem em tempestades. Em mil novecentos e setenta e seis, começou a obra. A promessa era ousada: manter a maré entrando e saindo no dia a dia, e proteger o país quando o mar ficasse perigoso. Era mais cara e mais difícil. Mas era a engenharia aceitando negociar com a natureza.",
+   "audio": "audio/virada-1976-f69218199a.mp3",
+   "duracao": 39.889,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.193
+    },
+    {
+     "p": "então",
+     "i": 0.206,
+     "f": 0.662
+    },
+    {
+     "p": "a",
+     "i": 0.935,
+     "f": 1.027
+    },
+    {
+     "p": "virada",
+     "i": 1.04,
+     "f": 1.56
+    },
+    {
+     "p": "Na",
+     "i": 2.814,
+     "f": 3.022
+    },
+    {
+     "p": "década",
+     "i": 3.035,
+     "f": 3.478
+    },
+    {
+     "p": "de",
+     "i": 3.491,
+     "f": 3.595
+    },
+    {
+     "p": "mil",
+     "i": 3.608,
+     "f": 3.752
+    },
+    {
+     "p": "novecentos",
+     "i": 3.765,
+     "f": 4.351
+    },
+    {
+     "p": "e",
+     "i": 4.364,
+     "f": 4.468
+    },
+    {
+     "p": "setenta",
+     "i": 4.481,
+     "f": 5.015
+    },
+    {
+     "p": "a",
+     "i": 5.249,
+     "f": 5.327
+    },
+    {
+     "p": "pressão",
+     "i": 5.34,
+     "f": 5.77
+    },
+    {
+     "p": "da",
+     "i": 5.783,
+     "f": 5.887
+    },
+    {
+     "p": "opinião",
+     "i": 5.9,
+     "f": 6.33
+    },
+    {
+     "p": "pública",
+     "i": 6.343,
+     "f": 6.759
+    },
+    {
+     "p": "mudou",
+     "i": 6.772,
+     "f": 7.163
+    },
+    {
+     "p": "o",
+     "i": 7.176,
+     "f": 7.215
+    },
+    {
+     "p": "rumo",
+     "i": 7.228,
+     "f": 7.58
+    },
+    {
+     "p": "O",
+     "i": 8.838,
+     "f": 8.942
+    },
+    {
+     "p": "governo",
+     "i": 8.955,
+     "f": 9.489
+    },
+    {
+     "p": "e",
+     "i": 9.502,
+     "f": 9.554
+    },
+    {
+     "p": "o",
+     "i": 9.567,
+     "f": 9.619
+    },
+    {
+     "p": "parlamento",
+     "i": 9.632,
+     "f": 10.257
+    },
+    {
+     "p": "aceitaram",
+     "i": 10.27,
+     "f": 10.713
+    },
+    {
+     "p": "uma",
+     "i": 10.726,
+     "f": 10.843
+    },
+    {
+     "p": "solução",
+     "i": 10.856,
+     "f": 11.338
+    },
+    {
+     "p": "intermediária",
+     "i": 11.351,
+     "f": 12.132
+    },
+    {
+     "p": "em",
+     "i": 12.445,
+     "f": 12.614
+    },
+    {
+     "p": "vez",
+     "i": 12.627,
+     "f": 12.901
+    },
+    {
+     "p": "de",
+     "i": 12.914,
+     "f": 13.005
+    },
+    {
+     "p": "uma",
+     "i": 13.018,
+     "f": 13.161
+    },
+    {
+     "p": "parede",
+     "i": 13.174,
+     "f": 13.552
+    },
+    {
+     "p": "fechada",
+     "i": 13.565,
+     "f": 14.112
+    },
+    {
+     "p": "uma",
+     "i": 14.411,
+     "f": 14.58
+    },
+    {
+     "p": "barreira",
+     "i": 14.593,
+     "f": 14.984
+    },
+    {
+     "p": "móvel",
+     "i": 14.997,
+     "f": 15.414
+    },
+    {
+     "p": "com",
+     "i": 15.726,
+     "f": 15.882
+    },
+    {
+     "p": "portões",
+     "i": 15.895,
+     "f": 16.429
+    },
+    {
+     "p": "que",
+     "i": 16.442,
+     "f": 16.559
+    },
+    {
+     "p": "só",
+     "i": 16.572,
+     "f": 16.742
+    },
+    {
+     "p": "descem",
+     "i": 16.755,
+     "f": 17.171
+    },
+    {
+     "p": "em",
+     "i": 17.184,
+     "f": 17.263
+    },
+    {
+     "p": "tempestades",
+     "i": 17.276,
+     "f": 18.2
+    },
+    {
+     "p": "Em",
+     "i": 19.446,
+     "f": 19.615
+    },
+    {
+     "p": "mil",
+     "i": 19.628,
+     "f": 19.772
+    },
+    {
+     "p": "novecentos",
+     "i": 19.785,
+     "f": 20.436
+    },
+    {
+     "p": "e",
+     "i": 20.449,
+     "f": 20.553
+    },
+    {
+     "p": "setenta",
+     "i": 20.566,
+     "f": 20.904
+    },
+    {
+     "p": "e",
+     "i": 20.917,
+     "f": 20.957
+    },
+    {
+     "p": "seis",
+     "i": 20.97,
+     "f": 21.373
+    },
+    {
+     "p": "começou",
+     "i": 21.634,
+     "f": 22.167
+    },
+    {
+     "p": "a",
+     "i": 22.18,
+     "f": 22.259
+    },
+    {
+     "p": "obra",
+     "i": 22.272,
+     "f": 22.649
+    },
+    {
+     "p": "A",
+     "i": 23.91,
+     "f": 24.014
+    },
+    {
+     "p": "promessa",
+     "i": 24.027,
+     "f": 24.522
+    },
+    {
+     "p": "era",
+     "i": 24.535,
+     "f": 24.639
+    },
+    {
+     "p": "ousada",
+     "i": 24.652,
+     "f": 25.095
+    },
+    {
+     "p": "manter",
+     "i": 25.381,
+     "f": 25.746
+    },
+    {
+     "p": "a",
+     "i": 25.759,
+     "f": 25.811
+    },
+    {
+     "p": "maré",
+     "i": 25.824,
+     "f": 26.085
+    },
+    {
+     "p": "entrando",
+     "i": 26.098,
+     "f": 26.592
+    },
+    {
+     "p": "e",
+     "i": 26.605,
+     "f": 26.644
+    },
+    {
+     "p": "saindo",
+     "i": 26.657,
+     "f": 27.074
+    },
+    {
+     "p": "no",
+     "i": 27.087,
+     "f": 27.204
+    },
+    {
+     "p": "dia",
+     "i": 27.217,
+     "f": 27.4
+    },
+    {
+     "p": "a",
+     "i": 27.413,
+     "f": 27.439
+    },
+    {
+     "p": "dia",
+     "i": 27.452,
+     "f": 27.803
+    },
+    {
+     "p": "e",
+     "i": 28.155,
+     "f": 28.233
+    },
+    {
+     "p": "proteger",
+     "i": 28.246,
+     "f": 28.754
+    },
+    {
+     "p": "o",
+     "i": 28.767,
+     "f": 28.819
+    },
+    {
+     "p": "país",
+     "i": 28.832,
+     "f": 29.262
+    },
+    {
+     "p": "quando",
+     "i": 29.275,
+     "f": 29.496
+    },
+    {
+     "p": "o",
+     "i": 29.509,
+     "f": 29.535
+    },
+    {
+     "p": "mar",
+     "i": 29.548,
+     "f": 29.782
+    },
+    {
+     "p": "ficasse",
+     "i": 29.795,
+     "f": 30.238
+    },
+    {
+     "p": "perigoso",
+     "i": 30.251,
+     "f": 30.85
+    },
+    {
+     "p": "Era",
+     "i": 32.094,
+     "f": 32.341
+    },
+    {
+     "p": "mais",
+     "i": 32.354,
+     "f": 32.602
+    },
+    {
+     "p": "cara",
+     "i": 32.615,
+     "f": 32.862
+    },
+    {
+     "p": "e",
+     "i": 32.875,
+     "f": 32.914
+    },
+    {
+     "p": "mais",
+     "i": 32.927,
+     "f": 33.227
+    },
+    {
+     "p": "difícil",
+     "i": 33.24,
+     "f": 33.826
+    },
+    {
+     "p": "Mas",
+     "i": 35.07,
+     "f": 35.291
+    },
+    {
+     "p": "era",
+     "i": 35.304,
+     "f": 35.656
+    },
+    {
+     "p": "a",
+     "i": 35.669,
+     "f": 35.695
+    },
+    {
+     "p": "engenharia",
+     "i": 35.708,
+     "f": 36.229
+    },
+    {
+     "p": "aceitando",
+     "i": 36.242,
+     "f": 36.698
+    },
+    {
+     "p": "negociar",
+     "i": 36.711,
+     "f": 37.31
+    },
+    {
+     "p": "com",
+     "i": 37.323,
+     "f": 37.479
+    },
+    {
+     "p": "a",
+     "i": 37.492,
+     "f": 37.518
+    },
+    {
+     "p": "natureza",
+     "i": 37.531,
+     "f": 38.143
+    }
+   ]
+  },
+  "construcao": {
+   "hash": "78961868ff",
+   "texto": "Construir aquilo foi um desafio à parte. Não dava para despejar pedras num estuário com correnteza forte. Então os engenheiros fabricaram sessenta e cinco pilares de concreto gigantes em terra, numa ilha artificial, e os transportaram um a um por navios especiais, até fincá-los no leito do mar. Entre os pilares, entraram os portões de aço, de cerca de quarenta e dois metros de largura. Foram dez anos de trabalho, até a rainha Beatriz inaugurar a barreira, em quatro de outubro de mil novecentos e oitenta e seis.",
+   "audio": "audio/construcao-78961868ff.mp3",
+   "duracao": 36.702,
+   "palavras": [
+    {
+     "p": "Construir",
+     "i": 0.102,
+     "f": 0.649
+    },
+    {
+     "p": "aquilo",
+     "i": 0.662,
+     "f": 1.079
+    },
+    {
+     "p": "foi",
+     "i": 1.092,
+     "f": 1.248
+    },
+    {
+     "p": "um",
+     "i": 1.261,
+     "f": 1.339
+    },
+    {
+     "p": "desafio",
+     "i": 1.352,
+     "f": 1.847
+    },
+    {
+     "p": "à",
+     "i": 1.86,
+     "f": 1.938
+    },
+    {
+     "p": "parte",
+     "i": 1.951,
+     "f": 2.433
+    },
+    {
+     "p": "Não",
+     "i": 3.678,
+     "f": 3.938
+    },
+    {
+     "p": "dava",
+     "i": 3.952,
+     "f": 4.277
+    },
+    {
+     "p": "para",
+     "i": 4.29,
+     "f": 4.472
+    },
+    {
+     "p": "despejar",
+     "i": 4.485,
+     "f": 5.019
+    },
+    {
+     "p": "pedras",
+     "i": 5.032,
+     "f": 5.423
+    },
+    {
+     "p": "num",
+     "i": 5.436,
+     "f": 5.54
+    },
+    {
+     "p": "estuário",
+     "i": 5.553,
+     "f": 6.048
+    },
+    {
+     "p": "com",
+     "i": 6.061,
+     "f": 6.191
+    },
+    {
+     "p": "correnteza",
+     "i": 6.204,
+     "f": 6.881
+    },
+    {
+     "p": "forte",
+     "i": 6.894,
+     "f": 7.376
+    },
+    {
+     "p": "Então",
+     "i": 8.622,
+     "f": 9.091
+    },
+    {
+     "p": "os",
+     "i": 9.104,
+     "f": 9.143
+    },
+    {
+     "p": "engenheiros",
+     "i": 9.156,
+     "f": 9.729
+    },
+    {
+     "p": "fabricaram",
+     "i": 9.742,
+     "f": 10.328
+    },
+    {
+     "p": "sessenta",
+     "i": 10.341,
+     "f": 10.757
+    },
+    {
+     "p": "e",
+     "i": 10.771,
+     "f": 10.797
+    },
+    {
+     "p": "cinco",
+     "i": 10.81,
+     "f": 11.096
+    },
+    {
+     "p": "pilares",
+     "i": 11.109,
+     "f": 11.539
+    },
+    {
+     "p": "de",
+     "i": 11.552,
+     "f": 11.63
+    },
+    {
+     "p": "concreto",
+     "i": 11.643,
+     "f": 12.151
+    },
+    {
+     "p": "gigantes",
+     "i": 12.164,
+     "f": 12.632
+    },
+    {
+     "p": "em",
+     "i": 12.646,
+     "f": 12.841
+    },
+    {
+     "p": "terra",
+     "i": 12.854,
+     "f": 13.205
+    },
+    {
+     "p": "numa",
+     "i": 13.531,
+     "f": 13.83
+    },
+    {
+     "p": "ilha",
+     "i": 13.843,
+     "f": 14.039
+    },
+    {
+     "p": "artificial",
+     "i": 14.052,
+     "f": 14.742
+    },
+    {
+     "p": "e",
+     "i": 15.146,
+     "f": 15.224
+    },
+    {
+     "p": "os",
+     "i": 15.237,
+     "f": 15.341
+    },
+    {
+     "p": "transportaram",
+     "i": 15.354,
+     "f": 16.096
+    },
+    {
+     "p": "um",
+     "i": 16.109,
+     "f": 16.226
+    },
+    {
+     "p": "a",
+     "i": 16.239,
+     "f": 16.278
+    },
+    {
+     "p": "um",
+     "i": 16.291,
+     "f": 16.5
+    },
+    {
+     "p": "por",
+     "i": 16.513,
+     "f": 16.656
+    },
+    {
+     "p": "navios",
+     "i": 16.669,
+     "f": 16.994
+    },
+    {
+     "p": "especiais",
+     "i": 17.008,
+     "f": 17.88
+    },
+    {
+     "p": "até",
+     "i": 18.179,
+     "f": 18.401
+    },
+    {
+     "p": "fincá-los",
+     "i": 18.414,
+     "f": 19.104
+    },
+    {
+     "p": "no",
+     "i": 19.117,
+     "f": 19.208
+    },
+    {
+     "p": "leito",
+     "i": 19.221,
+     "f": 19.521
+    },
+    {
+     "p": "do",
+     "i": 19.534,
+     "f": 19.638
+    },
+    {
+     "p": "mar.",
+     "i": 19.651,
+     "f": 19.885
+    },
+    {
+     "p": "Entre",
+     "i": 21.126,
+     "f": 21.439
+    },
+    {
+     "p": "os",
+     "i": 21.452,
+     "f": 21.556
+    },
+    {
+     "p": "pilares",
+     "i": 21.569,
+     "f": 22.155
+    },
+    {
+     "p": "entraram",
+     "i": 22.402,
+     "f": 22.806
+    },
+    {
+     "p": "os",
+     "i": 22.819,
+     "f": 22.936
+    },
+    {
+     "p": "portões",
+     "i": 22.949,
+     "f": 23.431
+    },
+    {
+     "p": "de",
+     "i": 23.444,
+     "f": 23.548
+    },
+    {
+     "p": "aço",
+     "i": 23.561,
+     "f": 23.913
+    },
+    {
+     "p": "de",
+     "i": 24.186,
+     "f": 24.316
+    },
+    {
+     "p": "cerca",
+     "i": 24.329,
+     "f": 24.746
+    },
+    {
+     "p": "de",
+     "i": 24.759,
+     "f": 24.85
+    },
+    {
+     "p": "quarenta",
+     "i": 24.863,
+     "f": 25.215
+    },
+    {
+     "p": "e",
+     "i": 25.228,
+     "f": 25.254
+    },
+    {
+     "p": "dois",
+     "i": 25.267,
+     "f": 25.462
+    },
+    {
+     "p": "metros",
+     "i": 25.475,
+     "f": 25.905
+    },
+    {
+     "p": "de",
+     "i": 25.918,
+     "f": 26.009
+    },
+    {
+     "p": "largura",
+     "i": 26.022,
+     "f": 26.569
+    },
+    {
+     "p": "Foram",
+     "i": 27.822,
+     "f": 28.135
+    },
+    {
+     "p": "dez",
+     "i": 28.148,
+     "f": 28.369
+    },
+    {
+     "p": "anos",
+     "i": 28.382,
+     "f": 28.76
+    },
+    {
+     "p": "de",
+     "i": 28.773,
+     "f": 28.877
+    },
+    {
+     "p": "trabalho",
+     "i": 28.89,
+     "f": 29.424
+    },
+    {
+     "p": "até",
+     "i": 29.619,
+     "f": 29.892
+    },
+    {
+     "p": "a",
+     "i": 29.905,
+     "f": 29.957
+    },
+    {
+     "p": "rainha",
+     "i": 29.971,
+     "f": 30.296
+    },
+    {
+     "p": "Beatriz",
+     "i": 30.309,
+     "f": 30.726
+    },
+    {
+     "p": "inaugurar",
+     "i": 30.739,
+     "f": 31.26
+    },
+    {
+     "p": "a",
+     "i": 31.273,
+     "f": 31.312
+    },
+    {
+     "p": "barreira",
+     "i": 31.325,
+     "f": 31.767
+    },
+    {
+     "p": "em",
+     "i": 32.028,
+     "f": 32.158
+    },
+    {
+     "p": "quatro",
+     "i": 32.171,
+     "f": 32.562
+    },
+    {
+     "p": "de",
+     "i": 32.575,
+     "f": 32.653
+    },
+    {
+     "p": "outubro",
+     "i": 32.666,
+     "f": 33.109
+    },
+    {
+     "p": "de",
+     "i": 33.122,
+     "f": 33.226
+    },
+    {
+     "p": "mil",
+     "i": 33.239,
+     "f": 33.382
+    },
+    {
+     "p": "novecentos",
+     "i": 33.395,
+     "f": 33.968
+    },
+    {
+     "p": "e",
+     "i": 33.981,
+     "f": 34.072
+    },
+    {
+     "p": "oitenta",
+     "i": 34.085,
+     "f": 34.437
+    },
+    {
+     "p": "e",
+     "i": 34.45,
+     "f": 34.489
+    },
+    {
+     "p": "seis",
+     "i": 34.502,
+     "f": 34.958
+    }
+   ]
+  },
+  "como-funciona": {
+   "hash": "6ad66c754e",
+   "texto": "Hoje, a barreira funciona como um porteiro atento. Na maior parte do tempo, os portões ficam erguidos, e a maré entra e sai, mantendo a água salgada e a vida do estuário. Quando a previsão indica que o mar vai passar de três metros acima do nível de referência holandês, os portões descem em cerca de setenta e cinco minutos. Isso acontece, em média, uma vez por ano. Ela foi projetada para uma tempestade tão rara que só ocorreria uma vez a cada quatro mil anos. O segredo é simples: fechar só quando importa.",
+   "audio": "audio/como-funciona-6ad66c754e.mp3",
+   "duracao": 38.922,
+   "palavras": [
+    {
+     "p": "Hoje",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "a",
+     "i": 0.727,
+     "f": 0.779
+    },
+    {
+     "p": "barreira",
+     "i": 0.792,
+     "f": 1.17
+    },
+    {
+     "p": "funciona",
+     "i": 1.183,
+     "f": 1.756
+    },
+    {
+     "p": "como",
+     "i": 1.769,
+     "f": 1.977
+    },
+    {
+     "p": "um",
+     "i": 1.99,
+     "f": 2.094
+    },
+    {
+     "p": "porteiro",
+     "i": 2.107,
+     "f": 2.576
+    },
+    {
+     "p": "atento",
+     "i": 2.589,
+     "f": 3.084
+    },
+    {
+     "p": "Na",
+     "i": 4.326,
+     "f": 4.495
+    },
+    {
+     "p": "maior",
+     "i": 4.508,
+     "f": 4.834
+    },
+    {
+     "p": "parte",
+     "i": 4.847,
+     "f": 5.211
+    },
+    {
+     "p": "do",
+     "i": 5.225,
+     "f": 5.342
+    },
+    {
+     "p": "tempo",
+     "i": 5.355,
+     "f": 5.758
+    },
+    {
+     "p": "os",
+     "i": 6.045,
+     "f": 6.188
+    },
+    {
+     "p": "portões",
+     "i": 6.201,
+     "f": 6.709
+    },
+    {
+     "p": "ficam",
+     "i": 6.722,
+     "f": 7.034
+    },
+    {
+     "p": "erguidos",
+     "i": 7.047,
+     "f": 7.581
+    },
+    {
+     "p": "e",
+     "i": 7.881,
+     "f": 7.946
+    },
+    {
+     "p": "a",
+     "i": 7.959,
+     "f": 8.024
+    },
+    {
+     "p": "maré",
+     "i": 8.037,
+     "f": 8.31
+    },
+    {
+     "p": "entra",
+     "i": 8.323,
+     "f": 8.571
+    },
+    {
+     "p": "e",
+     "i": 8.584,
+     "f": 8.623
+    },
+    {
+     "p": "sai",
+     "i": 8.636,
+     "f": 8.962
+    },
+    {
+     "p": "mantendo",
+     "i": 9.274,
+     "f": 9.756
+    },
+    {
+     "p": "a",
+     "i": 9.769,
+     "f": 9.821
+    },
+    {
+     "p": "água",
+     "i": 9.834,
+     "f": 10.12
+    },
+    {
+     "p": "salgada",
+     "i": 10.133,
+     "f": 10.706
+    },
+    {
+     "p": "e",
+     "i": 10.719,
+     "f": 10.81
+    },
+    {
+     "p": "a",
+     "i": 10.823,
+     "f": 10.928
+    },
+    {
+     "p": "vida",
+     "i": 10.941,
+     "f": 11.24
+    },
+    {
+     "p": "do",
+     "i": 11.253,
+     "f": 11.383
+    },
+    {
+     "p": "estuário",
+     "i": 11.396,
+     "f": 11.943
+    },
+    {
+     "p": "Quando",
+     "i": 13.182,
+     "f": 13.469
+    },
+    {
+     "p": "a",
+     "i": 13.482,
+     "f": 13.521
+    },
+    {
+     "p": "previsão",
+     "i": 13.534,
+     "f": 14.002
+    },
+    {
+     "p": "indica",
+     "i": 14.015,
+     "f": 14.432
+    },
+    {
+     "p": "que",
+     "i": 14.445,
+     "f": 14.562
+    },
+    {
+     "p": "o",
+     "i": 14.575,
+     "f": 14.614
+    },
+    {
+     "p": "mar",
+     "i": 14.627,
+     "f": 14.875
+    },
+    {
+     "p": "vai",
+     "i": 14.888,
+     "f": 15.031
+    },
+    {
+     "p": "passar",
+     "i": 15.044,
+     "f": 15.474
+    },
+    {
+     "p": "de",
+     "i": 15.487,
+     "f": 15.643
+    },
+    {
+     "p": "três",
+     "i": 15.656,
+     "f": 15.995
+    },
+    {
+     "p": "metros",
+     "i": 16.008,
+     "f": 16.333
+    },
+    {
+     "p": "acima",
+     "i": 16.346,
+     "f": 16.815
+    },
+    {
+     "p": "do",
+     "i": 16.828,
+     "f": 16.919
+    },
+    {
+     "p": "nível",
+     "i": 16.932,
+     "f": 17.258
+    },
+    {
+     "p": "de",
+     "i": 17.271,
+     "f": 17.349
+    },
+    {
+     "p": "referência",
+     "i": 17.362,
+     "f": 17.883
+    },
+    {
+     "p": "holandês",
+     "i": 17.896,
+     "f": 18.456
+    },
+    {
+     "p": "os",
+     "i": 18.794,
+     "f": 18.911
+    },
+    {
+     "p": "portões",
+     "i": 18.924,
+     "f": 19.432
+    },
+    {
+     "p": "descem",
+     "i": 19.445,
+     "f": 19.758
+    },
+    {
+     "p": "em",
+     "i": 19.771,
+     "f": 19.862
+    },
+    {
+     "p": "cerca",
+     "i": 19.875,
+     "f": 20.291
+    },
+    {
+     "p": "de",
+     "i": 20.304,
+     "f": 20.409
+    },
+    {
+     "p": "setenta",
+     "i": 20.422,
+     "f": 20.877
+    },
+    {
+     "p": "e",
+     "i": 20.89,
+     "f": 20.929
+    },
+    {
+     "p": "cinco",
+     "i": 20.942,
+     "f": 21.229
+    },
+    {
+     "p": "minutos",
+     "i": 21.242,
+     "f": 21.828
+    },
+    {
+     "p": "Isso",
+     "i": 23.07,
+     "f": 23.37
+    },
+    {
+     "p": "acontece",
+     "i": 23.383,
+     "f": 24.073
+    },
+    {
+     "p": "em",
+     "i": 24.268,
+     "f": 24.411
+    },
+    {
+     "p": "média",
+     "i": 24.424,
+     "f": 24.841
+    },
+    {
+     "p": "uma",
+     "i": 25.127,
+     "f": 25.336
+    },
+    {
+     "p": "vez",
+     "i": 25.349,
+     "f": 25.609
+    },
+    {
+     "p": "por",
+     "i": 25.622,
+     "f": 25.804
+    },
+    {
+     "p": "ano",
+     "i": 25.817,
+     "f": 26.117
+    },
+    {
+     "p": "Ela",
+     "i": 27.366,
+     "f": 27.64
+    },
+    {
+     "p": "foi",
+     "i": 27.653,
+     "f": 27.77
+    },
+    {
+     "p": "projetada",
+     "i": 27.783,
+     "f": 28.434
+    },
+    {
+     "p": "para",
+     "i": 28.447,
+     "f": 28.629
+    },
+    {
+     "p": "uma",
+     "i": 28.642,
+     "f": 28.785
+    },
+    {
+     "p": "tempestade",
+     "i": 28.798,
+     "f": 29.501
+    },
+    {
+     "p": "tão",
+     "i": 29.515,
+     "f": 29.736
+    },
+    {
+     "p": "rara",
+     "i": 29.749,
+     "f": 30.035
+    },
+    {
+     "p": "que",
+     "i": 30.048,
+     "f": 30.179
+    },
+    {
+     "p": "só",
+     "i": 30.192,
+     "f": 30.348
+    },
+    {
+     "p": "ocorreria",
+     "i": 30.361,
+     "f": 30.804
+    },
+    {
+     "p": "uma",
+     "i": 30.817,
+     "f": 30.986
+    },
+    {
+     "p": "vez",
+     "i": 30.999,
+     "f": 31.233
+    },
+    {
+     "p": "a",
+     "i": 31.246,
+     "f": 31.39
+    },
+    {
+     "p": "cada",
+     "i": 31.403,
+     "f": 31.676
+    },
+    {
+     "p": "quatro",
+     "i": 31.689,
+     "f": 32.119
+    },
+    {
+     "p": "mil",
+     "i": 32.132,
+     "f": 32.379
+    },
+    {
+     "p": "anos",
+     "i": 32.392,
+     "f": 32.822
+    },
+    {
+     "p": "O",
+     "i": 34.062,
+     "f": 34.179
+    },
+    {
+     "p": "segredo",
+     "i": 34.192,
+     "f": 34.7
+    },
+    {
+     "p": "é",
+     "i": 34.713,
+     "f": 34.765
+    },
+    {
+     "p": "simples",
+     "i": 34.778,
+     "f": 35.39
+    },
+    {
+     "p": "fechar",
+     "i": 35.638,
+     "f": 36.106
+    },
+    {
+     "p": "só",
+     "i": 36.119,
+     "f": 36.367
+    },
+    {
+     "p": "quando",
+     "i": 36.38,
+     "f": 36.601
+    },
+    {
+     "p": "importa",
+     "i": 36.614,
+     "f": 37.174
+    }
+   ]
+  },
+  "roterda": {
+   "hash": "e321579908",
+   "texto": "Faltava proteger Roterdã, o maior porto da Europa. Ali não dava para fechar o rio, porque os navios precisam passar. A solução foi a Maeslantkering, concluída em mil novecentos e noventa e sete: dois braços de aço, cada um com duzentos e dez metros. Em caso de perigo, os braços giram, flutuam e afundam até bloquear o canal. Quem decide é um computador, não uma pessoa. E só em dezembro de dois mil e vinte e três ela fechou, pela primeira vez, numa tempestade de verdade.",
+   "audio": "audio/roterda-e321579908.mp3",
+   "duracao": 37.616,
+   "palavras": [
+    {
+     "p": "Faltava",
+     "i": 0.102,
+     "f": 0.74
+    },
+    {
+     "p": "proteger",
+     "i": 0.753,
+     "f": 1.235
+    },
+    {
+     "p": "Roterdã",
+     "i": 1.248,
+     "f": 1.834
+    },
+    {
+     "p": "o",
+     "i": 2.185,
+     "f": 2.251
+    },
+    {
+     "p": "maior",
+     "i": 2.264,
+     "f": 2.615
+    },
+    {
+     "p": "porto",
+     "i": 2.628,
+     "f": 3.006
+    },
+    {
+     "p": "da",
+     "i": 3.019,
+     "f": 3.097
+    },
+    {
+     "p": "Europa",
+     "i": 3.11,
+     "f": 3.605
+    },
+    {
+     "p": "Ali",
+     "i": 4.854,
+     "f": 5.18
+    },
+    {
+     "p": "não",
+     "i": 5.193,
+     "f": 5.362
+    },
+    {
+     "p": "dava",
+     "i": 5.375,
+     "f": 5.7
+    },
+    {
+     "p": "para",
+     "i": 5.713,
+     "f": 5.922
+    },
+    {
+     "p": "fechar",
+     "i": 5.935,
+     "f": 6.338
+    },
+    {
+     "p": "o",
+     "i": 6.351,
+     "f": 6.404
+    },
+    {
+     "p": "rio",
+     "i": 6.417,
+     "f": 6.703
+    },
+    {
+     "p": "porque",
+     "i": 7.003,
+     "f": 7.302
+    },
+    {
+     "p": "os",
+     "i": 7.315,
+     "f": 7.406
+    },
+    {
+     "p": "navios",
+     "i": 7.419,
+     "f": 7.862
+    },
+    {
+     "p": "precisam",
+     "i": 7.875,
+     "f": 8.357
+    },
+    {
+     "p": "passar",
+     "i": 8.37,
+     "f": 8.799
+    },
+    {
+     "p": "A",
+     "i": 10.038,
+     "f": 10.142
+    },
+    {
+     "p": "solução",
+     "i": 10.155,
+     "f": 10.767
+    },
+    {
+     "p": "foi",
+     "i": 10.78,
+     "f": 10.924
+    },
+    {
+     "p": "a",
+     "i": 10.937,
+     "f": 10.976
+    },
+    {
+     "p": "Maeslantkering",
+     "i": 10.989,
+     "f": 11.757
+    },
+    {
+     "p": "concluída",
+     "i": 12.069,
+     "f": 12.629
+    },
+    {
+     "p": "em",
+     "i": 12.642,
+     "f": 12.707
+    },
+    {
+     "p": "mil",
+     "i": 12.72,
+     "f": 12.864
+    },
+    {
+     "p": "novecentos",
+     "i": 12.877,
+     "f": 13.45
+    },
+    {
+     "p": "e",
+     "i": 13.463,
+     "f": 13.554
+    },
+    {
+     "p": "noventa",
+     "i": 13.567,
+     "f": 13.918
+    },
+    {
+     "p": "e",
+     "i": 13.931,
+     "f": 13.957
+    },
+    {
+     "p": "sete",
+     "i": 13.97,
+     "f": 14.374
+    },
+    {
+     "p": "dois",
+     "i": 14.66,
+     "f": 14.973
+    },
+    {
+     "p": "braços",
+     "i": 14.986,
+     "f": 15.468
+    },
+    {
+     "p": "de",
+     "i": 15.481,
+     "f": 15.611
+    },
+    {
+     "p": "aço",
+     "i": 15.624,
+     "f": 16.002
+    },
+    {
+     "p": "cada",
+     "i": 16.223,
+     "f": 16.496
+    },
+    {
+     "p": "um",
+     "i": 16.509,
+     "f": 16.692
+    },
+    {
+     "p": "com",
+     "i": 16.705,
+     "f": 16.848
+    },
+    {
+     "p": "duzentos",
+     "i": 16.861,
+     "f": 17.369
+    },
+    {
+     "p": "e",
+     "i": 17.382,
+     "f": 17.512
+    },
+    {
+     "p": "dez",
+     "i": 17.525,
+     "f": 17.812
+    },
+    {
+     "p": "metros",
+     "i": 17.825,
+     "f": 18.384
+    },
+    {
+     "p": "Em",
+     "i": 19.638,
+     "f": 19.807
+    },
+    {
+     "p": "caso",
+     "i": 19.82,
+     "f": 20.146
+    },
+    {
+     "p": "de",
+     "i": 20.159,
+     "f": 20.25
+    },
+    {
+     "p": "perigo",
+     "i": 20.263,
+     "f": 20.706
+    },
+    {
+     "p": "os",
+     "i": 21.044,
+     "f": 21.188
+    },
+    {
+     "p": "braços",
+     "i": 21.201,
+     "f": 21.695
+    },
+    {
+     "p": "giram",
+     "i": 21.708,
+     "f": 22.086
+    },
+    {
+     "p": "flutuam",
+     "i": 22.359,
+     "f": 22.893
+    },
+    {
+     "p": "e",
+     "i": 22.906,
+     "f": 22.971
+    },
+    {
+     "p": "afundam",
+     "i": 22.984,
+     "f": 23.531
+    },
+    {
+     "p": "até",
+     "i": 23.544,
+     "f": 23.753
+    },
+    {
+     "p": "bloquear",
+     "i": 23.766,
+     "f": 24.247
+    },
+    {
+     "p": "o",
+     "i": 24.26,
+     "f": 24.3
+    },
+    {
+     "p": "canal.",
+     "i": 24.313,
+     "f": 24.716
+    },
+    {
+     "p": "Quem",
+     "i": 25.974,
+     "f": 26.182
+    },
+    {
+     "p": "decide",
+     "i": 26.195,
+     "f": 26.651
+    },
+    {
+     "p": "é",
+     "i": 26.664,
+     "f": 26.69
+    },
+    {
+     "p": "um",
+     "i": 26.703,
+     "f": 26.794
+    },
+    {
+     "p": "computador",
+     "i": 26.807,
+     "f": 27.471
+    },
+    {
+     "p": "não",
+     "i": 27.706,
+     "f": 28.018
+    },
+    {
+     "p": "uma",
+     "i": 28.031,
+     "f": 28.188
+    },
+    {
+     "p": "pessoa",
+     "i": 28.201,
+     "f": 28.761
+    },
+    {
+     "p": "E",
+     "i": 30.006,
+     "f": 30.136
+    },
+    {
+     "p": "só",
+     "i": 30.149,
+     "f": 30.345
+    },
+    {
+     "p": "em",
+     "i": 30.358,
+     "f": 30.449
+    },
+    {
+     "p": "dezembro",
+     "i": 30.462,
+     "f": 30.97
+    },
+    {
+     "p": "de",
+     "i": 30.983,
+     "f": 31.061
+    },
+    {
+     "p": "dois",
+     "i": 31.074,
+     "f": 31.256
+    },
+    {
+     "p": "mil",
+     "i": 31.269,
+     "f": 31.386
+    },
+    {
+     "p": "e",
+     "i": 31.399,
+     "f": 31.451
+    },
+    {
+     "p": "vinte",
+     "i": 31.464,
+     "f": 31.66
+    },
+    {
+     "p": "e",
+     "i": 31.673,
+     "f": 31.699
+    },
+    {
+     "p": "três",
+     "i": 31.712,
+     "f": 31.894
+    },
+    {
+     "p": "ela",
+     "i": 31.907,
+     "f": 32.168
+    },
+    {
+     "p": "fechou",
+     "i": 32.181,
+     "f": 32.662
+    },
+    {
+     "p": "pela",
+     "i": 32.936,
+     "f": 33.17
+    },
+    {
+     "p": "primeira",
+     "i": 33.183,
+     "f": 33.535
+    },
+    {
+     "p": "vez",
+     "i": 33.548,
+     "f": 33.951
+    },
+    {
+     "p": "numa",
+     "i": 34.147,
+     "f": 34.433
+    },
+    {
+     "p": "tempestade",
+     "i": 34.446,
+     "f": 35.149
+    },
+    {
+     "p": "de",
+     "i": 35.162,
+     "f": 35.253
+    },
+    {
+     "p": "verdade",
+     "i": 35.266,
+     "f": 35.865
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "bb9789884a",
+   "texto": "Então, por que a Holanda deixou portões abertos? Porque entendeu que segurança e natureza viva não precisam ser inimigas. A barreira custou mais e demorou mais, mas protege sem matar o estuário. Hoje o nível do mar sobe, e o país segue revisando seus planos. A lição vale para qualquer obra: a melhor proteção nem sempre é a mais fechada. E você, preferiria um muro total ou uma porta que abre e fecha? Se gostou, se inscreva e veja o próximo vídeo da série sobre obras que mudaram o mundo.",
+   "audio": "audio/desfecho-bb9789884a.mp3",
+   "duracao": 39.471,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.636
+    },
+    {
+     "p": "por",
+     "i": 0.935,
+     "f": 1.131
+    },
+    {
+     "p": "que",
+     "i": 1.144,
+     "f": 1.313
+    },
+    {
+     "p": "a",
+     "i": 1.326,
+     "f": 1.43
+    },
+    {
+     "p": "Holanda",
+     "i": 1.443,
+     "f": 1.847
+    },
+    {
+     "p": "deixou",
+     "i": 1.86,
+     "f": 2.211
+    },
+    {
+     "p": "portões",
+     "i": 2.224,
+     "f": 2.628
+    },
+    {
+     "p": "abertos",
+     "i": 2.641,
+     "f": 3.37
+    },
+    {
+     "p": "Porque",
+     "i": 4.714,
+     "f": 5.053
+    },
+    {
+     "p": "entendeu",
+     "i": 5.066,
+     "f": 5.6
+    },
+    {
+     "p": "que",
+     "i": 5.613,
+     "f": 5.704
+    },
+    {
+     "p": "segurança",
+     "i": 5.717,
+     "f": 6.264
+    },
+    {
+     "p": "e",
+     "i": 6.277,
+     "f": 6.303
+    },
+    {
+     "p": "natureza",
+     "i": 6.316,
+     "f": 6.876
+    },
+    {
+     "p": "viva",
+     "i": 6.889,
+     "f": 7.188
+    },
+    {
+     "p": "não",
+     "i": 7.201,
+     "f": 7.409
+    },
+    {
+     "p": "precisam",
+     "i": 7.422,
+     "f": 7.878
+    },
+    {
+     "p": "ser",
+     "i": 7.891,
+     "f": 8.086
+    },
+    {
+     "p": "inimigas",
+     "i": 8.099,
+     "f": 8.79
+    },
+    {
+     "p": "A",
+     "i": 10.042,
+     "f": 10.146
+    },
+    {
+     "p": "barreira",
+     "i": 10.159,
+     "f": 10.589
+    },
+    {
+     "p": "custou",
+     "i": 10.602,
+     "f": 10.993
+    },
+    {
+     "p": "mais",
+     "i": 11.006,
+     "f": 11.292
+    },
+    {
+     "p": "e",
+     "i": 11.305,
+     "f": 11.409
+    },
+    {
+     "p": "demorou",
+     "i": 11.422,
+     "f": 11.826
+    },
+    {
+     "p": "mais",
+     "i": 11.839,
+     "f": 12.282
+    },
+    {
+     "p": "mas",
+     "i": 12.594,
+     "f": 12.829
+    },
+    {
+     "p": "protege",
+     "i": 12.842,
+     "f": 13.414
+    },
+    {
+     "p": "sem",
+     "i": 13.427,
+     "f": 13.662
+    },
+    {
+     "p": "matar",
+     "i": 13.675,
+     "f": 14.131
+    },
+    {
+     "p": "o",
+     "i": 14.144,
+     "f": 14.183
+    },
+    {
+     "p": "estuário",
+     "i": 14.196,
+     "f": 14.717
+    },
+    {
+     "p": "Hoje",
+     "i": 15.97,
+     "f": 16.322
+    },
+    {
+     "p": "o",
+     "i": 16.335,
+     "f": 16.361
+    },
+    {
+     "p": "nível",
+     "i": 16.374,
+     "f": 16.725
+    },
+    {
+     "p": "do",
+     "i": 16.738,
+     "f": 16.842
+    },
+    {
+     "p": "mar",
+     "i": 16.856,
+     "f": 17.038
+    },
+    {
+     "p": "sobe",
+     "i": 17.051,
+     "f": 17.533
+    },
+    {
+     "p": "e",
+     "i": 17.845,
+     "f": 17.949
+    },
+    {
+     "p": "o",
+     "i": 17.962,
+     "f": 18.014
+    },
+    {
+     "p": "país",
+     "i": 18.027,
+     "f": 18.444
+    },
+    {
+     "p": "segue",
+     "i": 18.457,
+     "f": 18.757
+    },
+    {
+     "p": "revisando",
+     "i": 18.77,
+     "f": 19.342
+    },
+    {
+     "p": "seus",
+     "i": 19.355,
+     "f": 19.577
+    },
+    {
+     "p": "planos",
+     "i": 19.59,
+     "f": 20.15
+    },
+    {
+     "p": "A",
+     "i": 21.394,
+     "f": 21.498
+    },
+    {
+     "p": "lição",
+     "i": 21.511,
+     "f": 21.928
+    },
+    {
+     "p": "vale",
+     "i": 21.941,
+     "f": 22.253
+    },
+    {
+     "p": "para",
+     "i": 22.267,
+     "f": 22.462
+    },
+    {
+     "p": "qualquer",
+     "i": 22.475,
+     "f": 22.905
+    },
+    {
+     "p": "obra",
+     "i": 22.918,
+     "f": 23.243
+    },
+    {
+     "p": "a",
+     "i": 23.556,
+     "f": 23.621
+    },
+    {
+     "p": "melhor",
+     "i": 23.634,
+     "f": 23.933
+    },
+    {
+     "p": "proteção",
+     "i": 23.946,
+     "f": 24.558
+    },
+    {
+     "p": "nem",
+     "i": 24.571,
+     "f": 24.832
+    },
+    {
+     "p": "sempre",
+     "i": 24.845,
+     "f": 25.287
+    },
+    {
+     "p": "é",
+     "i": 25.3,
+     "f": 25.378
+    },
+    {
+     "p": "a",
+     "i": 25.391,
+     "f": 25.444
+    },
+    {
+     "p": "mais",
+     "i": 25.457,
+     "f": 25.704
+    },
+    {
+     "p": "fechada",
+     "i": 25.717,
+     "f": 26.29
+    },
+    {
+     "p": "E",
+     "i": 27.538,
+     "f": 27.642
+    },
+    {
+     "p": "você",
+     "i": 27.655,
+     "f": 28.124
+    },
+    {
+     "p": "preferiria",
+     "i": 28.437,
+     "f": 28.931
+    },
+    {
+     "p": "um",
+     "i": 28.944,
+     "f": 29.022
+    },
+    {
+     "p": "muro",
+     "i": 29.035,
+     "f": 29.283
+    },
+    {
+     "p": "total",
+     "i": 29.296,
+     "f": 29.739
+    },
+    {
+     "p": "ou",
+     "i": 29.752,
+     "f": 29.843
+    },
+    {
+     "p": "uma",
+     "i": 29.856,
+     "f": 30.051
+    },
+    {
+     "p": "porta",
+     "i": 30.064,
+     "f": 30.442
+    },
+    {
+     "p": "que",
+     "i": 30.455,
+     "f": 30.624
+    },
+    {
+     "p": "abre",
+     "i": 30.637,
+     "f": 30.884
+    },
+    {
+     "p": "e",
+     "i": 30.897,
+     "f": 30.923
+    },
+    {
+     "p": "fecha",
+     "i": 30.937,
+     "f": 31.431
+    },
+    {
+     "p": "Se",
+     "i": 32.774,
+     "f": 33.021
+    },
+    {
+     "p": "gostou",
+     "i": 33.034,
+     "f": 33.503
+    },
+    {
+     "p": "se",
+     "i": 33.764,
+     "f": 33.868
+    },
+    {
+     "p": "inscreva",
+     "i": 33.881,
+     "f": 34.363
+    },
+    {
+     "p": "e",
+     "i": 34.376,
+     "f": 34.428
+    },
+    {
+     "p": "veja",
+     "i": 34.441,
+     "f": 34.74
+    },
+    {
+     "p": "o",
+     "i": 34.753,
+     "f": 34.779
+    },
+    {
+     "p": "próximo",
+     "i": 34.792,
+     "f": 35.235
+    },
+    {
+     "p": "vídeo",
+     "i": 35.248,
+     "f": 35.534
+    },
+    {
+     "p": "da",
+     "i": 35.548,
+     "f": 35.665
+    },
+    {
+     "p": "série",
+     "i": 35.678,
+     "f": 35.99
+    },
+    {
+     "p": "sobre",
+     "i": 36.003,
+     "f": 36.316
+    },
+    {
+     "p": "obras",
+     "i": 36.329,
+     "f": 36.693
+    },
+    {
+     "p": "que",
+     "i": 36.706,
+     "f": 36.811
+    },
+    {
+     "p": "mudaram",
+     "i": 36.824,
+     "f": 37.305
+    },
+    {
+     "p": "o",
+     "i": 37.318,
+     "f": 37.344
+    },
+    {
+     "p": "mundo",
+     "i": 37.357,
+     "f": 37.709
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "cheia-1953": {
+   "arquivo": "imagens/cheia-1953-8d32b2dc.jpg",
+   "rotulo": "Enchente de 1953",
+   "wiki": "Inundação do Mar do Norte de 1953",
+   "commons": "North Sea flood of 1953 Netherlands flooded Zeeland",
+   "autor": "Agency for International Development",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Watersnoodramp_1953.jpg",
+   "titulo": "File:Watersnoodramp 1953.jpg",
+   "largura": 1920,
+   "altura": 1544,
+   "rostos": 0,
+   "foco": {
+    "x": 34.1,
+    "y": 53.8
+   },
+   "borrada": "imagens/cheia-1953-8d32b2dc-b.jpg"
+  },
+  "aereo-1953": {
+   "arquivo": "",
+   "rotulo": "Zelândia alagada, 1953",
+   "commons": "Watersnood 1953 aerial flooded polder Zeeland",
+   "semFoto": true
+  },
+  "dique-brecha-1953": {
+   "arquivo": "",
+   "rotulo": "Brecha em dique, 1953",
+   "commons": "Watersnood 1953 dike breach Zeeland",
+   "semFoto": true
+  },
+  "resgate-1953": {
+   "arquivo": "",
+   "rotulo": "Resgate em 1953",
+   "commons": "Watersnood 1953 rescue boat flooded street",
+   "semFoto": true
+  },
+  "oosterschelde-barreira": {
+   "arquivo": "imagens/oosterschelde-barreira-72b8918f.jpg",
+   "rotulo": "Barreira do Oosterschelde",
+   "wiki": "Oosterscheldekering",
+   "commons": "Oosterscheldekering storm surge barrier aerial",
+   "autor": "Dietmar Rabich",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Vrouwenpolder_(NL),_Oosterscheldekering_--_2022_--_5023.jpg",
+   "titulo": "File:Vrouwenpolder (NL), Oosterscheldekering -- 2022 -- 5023.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 47.8,
+    "y": 61.3
+   },
+   "borrada": "imagens/oosterschelde-barreira-72b8918f-b.jpg"
+  },
+  "polder-kinderdijk": {
+   "arquivo": "imagens/polder-kinderdijk-d3742e9c.jpg",
+   "rotulo": "Pólder em Kinderdijk",
+   "commons": "Kinderdijk windmills polder Netherlands",
+   "autor": "Ellen26",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/mills-kinderdijk-holanda-3888276/",
+   "titulo": "mills, kinderdijk, holanda, países baixos, moinhos de vento, lâminas, polder, turismo, moinho, moinho de vento",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 58.6,
+    "y": 72.8
+   },
+   "borrada": "imagens/polder-kinderdijk-d3742e9c-b.jpg"
+  },
+  "mapa-altitude": {
+   "arquivo": "",
+   "rotulo": "Mapa de altitude da Holanda",
+   "commons": "Netherlands elevation map below sea level",
+   "semFoto": true
+  },
+  "mar-norte-costa": {
+   "arquivo": "",
+   "rotulo": "Costa holandesa do mar do Norte",
+   "commons": "Dutch North Sea coast dike Westkapelle",
+   "semFoto": true
+  },
+  "afsluitdijk": {
+   "arquivo": "imagens/afsluitdijk-ebb2b823.jpg",
+   "rotulo": "Afsluitdijk",
+   "wiki": "Afsluitdijk",
+   "commons": "Afsluitdijk aerial",
+   "autor": "Noverodus",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/pa%C3%ADses-baixos-holanda-ijsselmeer-4775533/",
+   "titulo": "países baixos, natureza, holanda, ijsselmeer, afsluitdijk, nederland, mar, proteção costeira, dique, proteção contra as inundações, mar do norte",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 1,
+   "foco": {
+    "x": 40.2,
+    "y": 24.2
+   },
+   "borrada": "imagens/afsluitdijk-ebb2b823-b.jpg"
+  },
+  "portoes-abertos": {
+   "arquivo": "",
+   "rotulo": "Portões abertos da barreira",
+   "commons": "Oosterscheldekering gates open Eastern Scheldt barrier",
+   "semFoto": true
+  },
+  "tempestade-1953": {
+   "arquivo": "",
+   "rotulo": "Tempestade de 1953",
+   "commons": "North Sea flood 1953 storm waves dike Netherlands",
+   "semFoto": true
+  },
+  "zelandia-mapa": {
+   "arquivo": "imagens/zelandia-mapa-e701d8ab.jpg",
+   "rotulo": "Zelândia",
+   "wiki": "Zelândia (Países Baixos)",
+   "commons": "Zeeland locator map Netherlands",
+   "autor": "European Space Agency",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zeeland,_Netherlands_ESA22256852.jpeg",
+   "titulo": "File:Zeeland, Netherlands ESA22256852.jpeg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 45.9,
+    "y": 59.4
+   },
+   "borrada": "imagens/zelandia-mapa-e701d8ab-b.jpg"
+  },
+  "casas-1953": {
+   "arquivo": "",
+   "rotulo": "Casas inundadas, 1953",
+   "commons": "Watersnood 1953 flooded houses Zeeland",
+   "semFoto": true
+  },
+  "telhado-1953": {
+   "arquivo": "",
+   "rotulo": "Famílias no telhado, 1953",
+   "commons": "Watersnood 1953 people on roof waiting rescue",
+   "semFoto": true
+  },
+  "barcos-1953": {
+   "arquivo": "",
+   "rotulo": "Barcos de resgate, 1953",
+   "commons": "Watersnood 1953 boats rescue Zierikzee",
+   "semFoto": true
+  },
+  "ajuda-1953": {
+   "arquivo": "",
+   "rotulo": "Soldados ajudando, 1953",
+   "commons": "Watersnood 1953 soldiers sandbags relief",
+   "semFoto": true
+  },
+  "ouwerkerk-fechamento": {
+   "arquivo": "",
+   "rotulo": "Fechamento de Ouwerkerk",
+   "commons": "Ouwerkerk dike closure 1953 caissons",
+   "semFoto": true
+  },
+  "schouwen-mapa": {
+   "arquivo": "imagens/schouwen-mapa-ff7700bf.jpg",
+   "rotulo": "Schouwen-Duiveland",
+   "wiki": "Schouwen-Duiveland",
+   "commons": "Schouwen-Duiveland map",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:LocatieSchouwen-Duiveland.png",
+   "titulo": "File:LocatieSchouwen-Duiveland.png",
+   "largura": 280,
+   "altura": 130,
+   "rostos": 0,
+   "foco": {
+    "x": 37.1,
+    "y": 53.8
+   },
+   "borrada": "imagens/schouwen-mapa-ff7700bf-b.jpg"
+  },
+  "caixoes-phoenix": {
+   "arquivo": "",
+   "rotulo": "Caixão Phoenix",
+   "commons": "Phoenix caisson Ouwerkerk Watersnoodmuseum",
+   "semFoto": true
+  },
+  "johan-van-veen": {
+   "arquivo": "imagens/johan-van-veen-049893cf.jpg",
+   "rotulo": "Johan van Veen",
+   "wiki": "Johan van Veen",
+   "commons": "Johan van Veen engineer",
+   "autor": "J.D. Noske / Anefo",
+   "licenca": "CC BY-SA 3.0 nl",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Johan_van_Veen_(1953).jpg",
+   "titulo": "File:Johan van Veen (1953).jpg",
+   "largura": 1600,
+   "altura": 2133,
+   "rostos": 2,
+   "foco": {
+    "x": 51.1,
+    "y": 29.2
+   },
+   "borrada": "imagens/johan-van-veen-049893cf-b.jpg"
+  },
+  "watersnoodmuseum": {
+   "arquivo": "imagens/watersnoodmuseum-bc5b0bad.jpg",
+   "rotulo": "Museu da Enchente",
+   "wiki": "Watersnoodmuseum",
+   "commons": "Watersnoodmuseum Ouwerkerk",
+   "autor": "G.Lanting",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Interieur_Watersnoodmuseum_Ouwerkerk_P1340439.jpg",
+   "titulo": "File:Interieur Watersnoodmuseum Ouwerkerk P1340439.jpg",
+   "largura": 1920,
+   "altura": 1283,
+   "rostos": 0,
+   "foco": {
+    "x": 29.0,
+    "y": 41.8
+   },
+   "borrada": "imagens/watersnoodmuseum-bc5b0bad-b.jpg"
+  },
+  "comissao-delta": {
+   "arquivo": "",
+   "rotulo": "Comissão do Delta",
+   "commons": "Deltacommissie 1953 Delta Committee",
+   "semFoto": true
+  },
+  "delta-mapa": {
+   "arquivo": "",
+   "rotulo": "Mapa do Delta Works",
+   "commons": "Delta Works map Netherlands Deltawerken",
+   "semFoto": true
+  },
+  "satelite-delta": {
+   "arquivo": "imagens/satelite-delta-6ffb53af.jpg",
+   "rotulo": "Delta visto do espaço",
+   "commons": "Netherlands Rhine Meuse Scheldt delta satellite image",
+   "autor": "European Union, Copernicus Sentinel-2 imagery",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Rhine-Meuse-Scheldt_delta_will_be_heavily_impacted_by_climate_change.jpg",
+   "titulo": "File:The Rhine-Meuse-Scheldt delta will be heavily impacted by climate change.jpg",
+   "largura": 1920,
+   "altura": 1108,
+   "rostos": 0,
+   "foco": {
+    "x": 64.0,
+    "y": 44.1
+   },
+   "borrada": "imagens/satelite-delta-6ffb53af-b.jpg"
+  },
+  "dique-zelandia": {
+   "arquivo": "",
+   "rotulo": "Dique da Zelândia",
+   "commons": "Zeeland sea dike Westkapelle Zeedijk",
+   "semFoto": true
+  },
+  "parlamento": {
+   "arquivo": "imagens/parlamento-26fb567e.jpg",
+   "rotulo": "Parlamento holandês",
+   "wiki": "Binnenhof",
+   "commons": "Binnenhof The Hague parliament",
+   "autor": "Michielverbeek",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Den_Haag,_het_Binnenhof_diverse_RM_met_de_Hofvijver_op_de_voorgrond_foto8_2015-08-05_18.56.jpg",
+   "titulo": "File:Den Haag, het Binnenhof diverse RM met de Hofvijver op de voorgrond foto8 2015-08-05 18.56.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 42.7,
+    "y": 43.3
+   },
+   "borrada": "imagens/parlamento-26fb567e-b.jpg"
+  },
+  "delta-expo": {
+   "arquivo": "",
+   "rotulo": "Delta Expo",
+   "commons": "Delta Expo Neeltje Jans exhibition",
+   "semFoto": true
+  },
+  "obra-delta": {
+   "arquivo": "",
+   "rotulo": "Obra do Delta",
+   "commons": "Deltawerken construction 1960s dam Zeeland",
+   "semFoto": true
+  },
+  "ijsselkering": {
+   "arquivo": "imagens/ijsselkering-f800f91d.jpg",
+   "rotulo": "Hollandse IJsselkering",
+   "wiki": "Hollandse IJsselkering",
+   "commons": "Hollandse IJsselkering",
+   "autor": "MartinD",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Stormvloedkering_Hollandse_IJssel.jpg",
+   "titulo": "File:Stormvloedkering Hollandse IJssel.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 69.1,
+    "y": 69.8
+   },
+   "borrada": "imagens/ijsselkering-f800f91d-b.jpg"
+  },
+  "zandkreekdam": {
+   "arquivo": "imagens/zandkreekdam-deca0cfe.jpg",
+   "rotulo": "Zandkreekdam",
+   "wiki": "Zandkreekdam",
+   "commons": "Zandkreekdam",
+   "autor": "The original uploader was Svdmolen at Dutch Wikipedia.",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zandkreekdam-01.jpg",
+   "titulo": "File:Zandkreekdam-01.jpg",
+   "largura": 200,
+   "altura": 196,
+   "rostos": 0,
+   "foco": {
+    "x": 47.0,
+    "y": 38.3
+   },
+   "borrada": "imagens/zandkreekdam-deca0cfe-b.jpg"
+  },
+  "grevelingendam": {
+   "arquivo": "imagens/grevelingendam-c700fe2c.jpg",
+   "rotulo": "Grevelingendam",
+   "wiki": "Grevelingendam",
+   "commons": "Grevelingendam",
+   "autor": "The original uploader was Svdmolen at Dutch Wikipedia.",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Grevelingedam-01.jpg",
+   "titulo": "File:Grevelingedam-01.jpg",
+   "largura": 200,
+   "altura": 198,
+   "rostos": 0,
+   "foco": {
+    "x": 40.0,
+    "y": 80
+   },
+   "borrada": "imagens/grevelingendam-c700fe2c-b.jpg"
+  },
+  "haringvlietdam": {
+   "arquivo": "imagens/haringvlietdam-eecc3bbf.jpg",
+   "rotulo": "Haringvlietdam",
+   "wiki": "Haringvlietdam",
+   "commons": "Haringvlietdam sluices",
+   "autor": "Quistnix at Dutch Wikipedia",
+   "licenca": "CC BY 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Haringvlietdam_2006_06_18-2.jpg",
+   "titulo": "File:Haringvlietdam 2006 06 18-2.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 60.7,
+    "y": 57.2
+   },
+   "borrada": "imagens/haringvlietdam-eecc3bbf-b.jpg"
+  },
+  "brouwersdam": {
+   "arquivo": "imagens/brouwersdam-792bf5f5.jpg",
+   "rotulo": "Brouwersdam",
+   "wiki": "Brouwersdam",
+   "commons": "Brouwersdam",
+   "autor": "Original uploader was Svdmolen at nl.wikipedia",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brouwersdam-02.jpg",
+   "titulo": "File:Brouwersdam-02.jpg",
+   "largura": 600,
+   "altura": 450,
+   "rostos": 0,
+   "foco": {
+    "x": 31.8,
+    "y": 56.2
+   },
+   "borrada": "imagens/brouwersdam-792bf5f5-b.jpg"
+  },
+  "oosterschelde-antes": {
+   "arquivo": "imagens/oosterschelde-antes-26fc672b.jpg",
+   "rotulo": "Estuário do Oosterschelde",
+   "commons": "Eastern Scheldt Oosterschelde estuary aerial",
+   "autor": "Milliped",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Oosterschelde-21OKT22-1.jpg",
+   "titulo": "File:Oosterschelde-21OKT22-1.jpg",
+   "largura": 1920,
+   "altura": 1375,
+   "rostos": 0,
+   "foco": {
+    "x": 65.8,
+    "y": 55.9
+   },
+   "borrada": "imagens/oosterschelde-antes-26fc672b-b.jpg"
+  },
+  "oosterschelde-mapa": {
+   "arquivo": "imagens/oosterschelde-mapa-5801fe60.jpg",
+   "rotulo": "Oosterschelde",
+   "wiki": "Escalda Oriental",
+   "commons": "Oosterschelde map Eastern Scheldt",
+   "autor": "Ad Meskens",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Oosterschelde_01.jpg",
+   "titulo": "File:Oosterschelde 01.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 66.8
+   },
+   "borrada": "imagens/oosterschelde-mapa-5801fe60-b.jpg"
+  },
+  "yerseke-mexilhao": {
+   "arquivo": "",
+   "rotulo": "Mexilhões de Yerseke",
+   "commons": "Yerseke mussel farming Oosterschelde",
+   "semFoto": true
+  },
+  "ostra-zelandia": {
+   "arquivo": "imagens/ostra-zelandia-0e207cbb.jpg",
+   "rotulo": "Ostras da Zelândia",
+   "commons": "Zeeland oysters Yerseke",
+   "autor": "Takeaway",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Platte_Zeeuwse_oester_Yerseke.jpg",
+   "titulo": "File:Platte Zeeuwse oester Yerseke.jpg",
+   "largura": 1920,
+   "altura": 1532,
+   "rostos": 0,
+   "foco": {
+    "x": 34.1,
+    "y": 58.4
+   },
+   "borrada": "imagens/ostra-zelandia-0e207cbb-b.jpg"
+  },
+  "aves-estuario": {
+   "arquivo": "",
+   "rotulo": "Aves do estuário",
+   "commons": "Oosterschelde birds salt marsh Eastern Scheldt",
+   "semFoto": true
+  },
+  "barco-pesca-yerseke": {
+   "arquivo": "imagens/barco-pesca-yerseke-eac89b25.jpg",
+   "rotulo": "Porto de Yerseke",
+   "commons": "Yerseke harbour fishing boat",
+   "autor": "Nielsyese",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Haven_Yerseke.JPG",
+   "titulo": "File:Haven Yerseke.JPG",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 37.4,
+    "y": 30.7
+   },
+   "borrada": "imagens/barco-pesca-yerseke-eac89b25-b.jpg"
+  },
+  "neeltje-jans": {
+   "arquivo": "imagens/neeltje-jans-9fe54ed7.jpg",
+   "rotulo": "Ilha Neeltje Jans",
+   "wiki": "Neeltje Jans",
+   "commons": "Neeltje Jans artificial island",
+   "autor": "Luka Peternel",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Neeltje-Jans-Zeeland-2020-Luka-Peternel.jpg",
+   "titulo": "File:Neeltje-Jans-Zeeland-2020-Luka-Peternel.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 47.1,
+    "y": 61.3
+   },
+   "borrada": "imagens/neeltje-jans-9fe54ed7-b.jpg"
+  },
+  "construcao-pilares": {
+   "arquivo": "",
+   "rotulo": "Construção dos pilares",
+   "commons": "Oosterscheldekering construction pillars 1983",
+   "semFoto": true
+  },
+  "secao-barreira": {
+   "arquivo": "imagens/secao-barreira-8943752e.jpg",
+   "rotulo": "Corte da barreira",
+   "commons": "Oosterscheldekering cross section storm surge barrier diagram",
+   "autor": "Dietmar Rabich",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Vrouwenpolder_(NL),_Oosterscheldekering_--_2022_--_5039.jpg",
+   "titulo": "File:Vrouwenpolder (NL), Oosterscheldekering -- 2022 -- 5039.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 45.0,
+    "y": 52.2
+   },
+   "borrada": "imagens/secao-barreira-8943752e-b.jpg"
+  },
+  "aerea-barreira": {
+   "arquivo": "imagens/aerea-barreira-40740d00.jpg",
+   "rotulo": "Barreira vista de cima",
+   "commons": "Eastern Scheldt storm surge barrier aerial view",
+   "autor": "Bj.schoenmakers",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Eastern_Scheldt_storm_surge_barrier_near_Westenschouwen,_the_Netherlands.jpg",
+   "titulo": "File:Eastern Scheldt storm surge barrier near Westenschouwen, the Netherlands.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 1,
+   "foco": {
+    "x": 88.2,
+    "y": 88.9
+   },
+   "borrada": "imagens/aerea-barreira-40740d00-b.jpg"
+  },
+  "mare-baixa": {
+   "arquivo": "",
+   "rotulo": "Maré baixa no estuário",
+   "commons": "Oosterschelde tidal flats low tide",
+   "semFoto": true
+  },
+  "docas-construcao": {
+   "arquivo": "",
+   "rotulo": "Docas de construção",
+   "commons": "Oosterschelde barrier construction dock 1983",
+   "semFoto": true
+  },
+  "pilar-concreto": {
+   "arquivo": "",
+   "rotulo": "Pilar de concreto",
+   "commons": "Oosterscheldekering concrete pier lifting",
+   "semFoto": true
+  },
+  "navio-pilar": {
+   "arquivo": "",
+   "rotulo": "Navio posicionando pilar",
+   "commons": "Ostrea vessel Oosterschelde pier placement",
+   "semFoto": true
+  },
+  "portao-aco": {
+   "arquivo": "",
+   "rotulo": "Portão de aço",
+   "commons": "Eastern Scheldt barrier steel gate",
+   "semFoto": true
+  },
+  "beatriz": {
+   "arquivo": "imagens/beatriz-a324e5cc.jpg",
+   "rotulo": "Rainha Beatriz",
+   "wiki": "Beatriz dos Países Baixos",
+   "commons": "Queen Beatrix 1986",
+   "autor": "Fotograaf Onbekend / Anefo, [onbekend]",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Koningin_Beatrix_met_Commissaris_van_de_Koningin_Lammers,_Lelystad,_Bestanddeelnr_933-5314.jpg",
+   "titulo": "File:Koningin Beatrix met Commissaris van de Koningin Lammers, Lelystad, Bestanddeelnr 933-5314.jpg",
+   "largura": 1920,
+   "altura": 1273,
+   "rostos": 2,
+   "foco": {
+    "x": 51.8,
+    "y": 34.6
+   },
+   "borrada": "imagens/beatriz-a324e5cc-b.jpg"
+  },
+  "portoes-fechados": {
+   "arquivo": "",
+   "rotulo": "Portões fechados",
+   "commons": "Oosterscheldekering closed gates storm",
+   "semFoto": true
+  },
+  "vista-lateral": {
+   "arquivo": "imagens/vista-lateral-2d5d892f.jpg",
+   "rotulo": "Barreira, vista lateral",
+   "commons": "Oosterscheldekering Roggenplaat",
+   "autor": "Dietmar Rabich",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Vrouwenpolder_(NL),_Oosterscheldekering_--_2022_--_5025.jpg",
+   "titulo": "File:Vrouwenpolder (NL), Oosterscheldekering -- 2022 -- 5025.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 54.5,
+    "y": 54.6
+   },
+   "borrada": "imagens/vista-lateral-2d5d892f-b.jpg"
+  },
+  "barreira-noite": {
+   "arquivo": "",
+   "rotulo": "Barreira à noite",
+   "commons": "Oosterscheldekering at night",
+   "semFoto": true
+  },
+  "foca-oosterschelde": {
+   "arquivo": "",
+   "rotulo": "Foca no Oosterschelde",
+   "commons": "Common seal Oosterschelde",
+   "semFoto": true
+  },
+  "mexilhoes-hoje": {
+   "arquivo": "",
+   "rotulo": "Colheita de mexilhões",
+   "commons": "Mussel boat Oosterschelde Yerseke harvest",
+   "semFoto": true
+  },
+  "porto-roterda": {
+   "arquivo": "imagens/porto-roterda-caad1c4a.jpg",
+   "rotulo": "Porto de Roterdã",
+   "wiki": "Porto de Roterdã",
+   "commons": "Port of Rotterdam Europoort aerial",
+   "autor": "Dicklyon",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Europoort_Rotterdam_and_Nieuwe_Waterweg_of_the_Maas.jpg",
+   "titulo": "File:Europoort Rotterdam and Nieuwe Waterweg of the Maas.jpg",
+   "largura": 1920,
+   "altura": 2570,
+   "rostos": 0,
+   "foco": {
+    "x": 47.6,
+    "y": 52.9
+   },
+   "borrada": "imagens/porto-roterda-caad1c4a-b.jpg"
+  },
+  "nieuwe-waterweg": {
+   "arquivo": "imagens/nieuwe-waterweg-dc5e548e.jpg",
+   "rotulo": "Nieuwe Waterweg",
+   "wiki": "Nieuwe Waterweg",
+   "commons": "Nieuwe Waterweg ship Hoek van Holland",
+   "autor": "kees torn",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hoek_van_Holland_Nieuwe_Waterweg_(14986810552).jpg",
+   "titulo": "File:Hoek van Holland Nieuwe Waterweg (14986810552).jpg",
+   "largura": 1920,
+   "altura": 1105,
+   "rostos": 0,
+   "foco": {
+    "x": 52.0,
+    "y": 43.1
+   },
+   "borrada": "imagens/nieuwe-waterweg-dc5e548e-b.jpg"
+  },
+  "maeslant-aberta": {
+   "arquivo": "imagens/maeslant-aberta-5d7ea617.jpg",
+   "rotulo": "Maeslantkering",
+   "wiki": "Maeslantkering",
+   "commons": "Maeslantkering storm surge barrier",
+   "autor": "DeltaWorks Online - Eszter Simonfi",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Maeslantkering.jpg",
+   "titulo": "File:Maeslantkering.jpg",
+   "largura": 400,
+   "altura": 300,
+   "rostos": 0,
+   "foco": {
+    "x": 31.5,
+    "y": 68.3
+   },
+   "borrada": "imagens/maeslant-aberta-5d7ea617-b.jpg"
+  },
+  "maeslant-braco": {
+   "arquivo": "",
+   "rotulo": "Braço da Maeslantkering",
+   "commons": "Maeslantkering arm dock",
+   "semFoto": true
+  },
+  "hoek-van-holland": {
+   "arquivo": "imagens/hoek-van-holland-19b8ef08.jpg",
+   "rotulo": "Hoek van Holland",
+   "commons": "Hoek van Holland harbour",
+   "autor": "TanniSK007",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/rotterdam-porta-praia-mar-do-norte-4633705/",
+   "titulo": "rotterdam, porta, praia, mar do norte, mar, navio, agua, turistas, cair, hoek van holland, natureza, países baixos, panorama, atlântico parede, guerra mundial, andar, domingo",
+   "largura": 1280,
+   "altura": 781,
+   "rostos": 0,
+   "foco": {
+    "x": 70.7,
+    "y": 60.1
+   },
+   "borrada": "imagens/hoek-van-holland-19b8ef08-b.jpg"
+  },
+  "delta-final": {
+   "arquivo": "",
+   "rotulo": "Delta Works hoje",
+   "commons": "Deltawerken Oosterscheldekering Neeltje Jans panorama",
+   "semFoto": true
+  },
+  "por-do-sol-barreira": {
+   "arquivo": "",
+   "rotulo": "Barreira ao pôr do sol",
+   "commons": "Oosterscheldekering sunset",
+   "semFoto": true
+  },
+  "foca-estuario": {
+   "arquivo": "",
+   "rotulo": "Foca no estuário",
+   "commons": "Harbour seal Eastern Scheldt",
+   "semFoto": true
+  },
+  "duna-hondsbossche": {
+   "arquivo": "",
+   "rotulo": "Dunas de Hondsbossche",
+   "commons": "Hondsbossche Dunes Netherlands coast",
+   "semFoto": true
+  },
+  "skyline-roterda": {
+   "arquivo": "imagens/skyline-roterda-701583dc.jpg",
+   "rotulo": "Roterdã",
+   "commons": "Rotterdam skyline Erasmus bridge",
+   "autor": "Massimo Catarinella",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:RotterdamMaasNederland.jpg",
+   "titulo": "File:RotterdamMaasNederland.jpg",
+   "largura": 1920,
+   "altura": 783,
+   "rostos": 0,
+   "foco": {
+    "x": 51.1,
+    "y": 53.4
+   },
+   "borrada": "imagens/skyline-roterda-701583dc-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-30T10:43:55.132Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -85,6 +6605,66 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Rijkswaterstaat — Eastern Scheldt Barrier",
+   "url": "https://www.rijkswaterstaat.nl/en/about-us/gems-of-rijkswaterstaat/eastern-scheldt-barrier"
+  },
+  {
+   "titulo": "Canon van Nederland — A grande enchente (1953)",
+   "url": "https://www.canonvannederland.nl/en/watersnood"
+  },
+  {
+   "titulo": "Watersnoodmuseum — Eastern Scheldt Storm Surge Barrier",
+   "url": "https://watersnoodmuseum.nl/en/water-knowledge/learn-about-water-safety/articles/eastern-scheldt-barrier"
+  },
+  {
+   "titulo": "Zeeuwse Ankers — Oosterschelde barrier",
+   "url": "https://www.zeeuwseankers.nl/en/story/oosterschelde-barrier"
+  },
+  {
+   "titulo": "Wikipedia — Delta Works",
+   "url": "https://en.wikipedia.org/wiki/Delta_Works"
+  },
+  {
+   "titulo": "Rijkswaterstaat — Maeslantkering",
+   "url": "https://www.rijkswaterstaat.nl/water/waterbeheer/bescherming-tegen-het-water/waterkeringen/deltawerken/maeslantkering"
+  },
+  {
+   "titulo": "VRT NWS — Rotterdam blijft droog, Maeslantkering sluit (dez. 2023)",
+   "url": "https://www.vrt.be/vrtnws/nl/2023/12/22/rotterdam-blijft-droog-maeslantkering-sluit-voor-het-eerst-voll/"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Por que a Holanda deixou uma porta aberta no mar?",
+   "A verdadeira história das barreiras que salvaram a Holanda",
+   "Delta Works: a engenharia que negociou com o mar"
+  ],
+  "descricao": "Em 1953, o mar do Norte rompeu os diques da Holanda e matou 1.836 pessoas. A resposta foi o Delta Works, uma das maiores obras de proteção costeira do mundo. Mas o capítulo mais curioso é o da barreira do Oosterschelde: em vez de fechar o estuário, os holandeses escolheram portões móveis que só descem em tempestades. Entenda a decisão, a engenharia e o equilíbrio entre segurança e natureza.\n\n0:00 Gancho\n0:35 Promessa\n1:10 A noite de 1953\n2:40 O plano do Delta\n4:10 O último estuário\n5:20 A virada de 1976\n6:30 Como a barreira funciona\n7:10 Roterdã e a Maeslantkering\n7:50 Desfecho\n\nFontes: Rijkswaterstaat, Canon van Nederland, Watersnoodmuseum, Zeeuwse Ankers, VRT NWS.",
+  "tags": [
+   "Delta Works",
+   "Holanda",
+   "enchente de 1953",
+   "engenharia",
+   "Oosterschelde",
+   "Maeslantkering",
+   "barreira contra tempestades",
+   "Países Baixos",
+   "documentário",
+   "tecnologia",
+   "obras gigantes",
+   "Inova mundo"
+  ]
  }
 }
