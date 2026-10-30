@@ -65,7 +65,9 @@
   {
    "titulo": "Como a Holanda venceu o mar: Delta Works",
    "angulo": "A enchente de 1953 e a resposta de engenharia que fechou estuários com barreiras gigantes. O foco é a decisão de não fechar tudo e como as barreiras móveis equilibram segurança e ecologia.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261030",
+   "em": "2026-10-30"
   },
   {
    "titulo": "A ampliação do Canal do Panamá, passo a passo",
@@ -118,5 +120,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-10-29"
+ "ultimaGeracao": "2026-10-30"
 }

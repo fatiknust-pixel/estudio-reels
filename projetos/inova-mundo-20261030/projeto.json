@@ -1,0 +1,90 @@
+{
+ "versao": 1,
+ "id": "inova-mundo-20261030",
+ "titulo": "Como a Holanda venceu o mar: Delta Works",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "grafite",
+ "criadoEm": "2026-10-30T10:43:55.132Z",
+ "atualizadoEm": "2026-10-30T10:43:55.132Z",
+ "status": "processando",
+ "pedido": {
+  "tema": "Como a Holanda venceu o mar: Delta Works — ângulo: A enchente de 1953 e a resposta de engenharia que fechou estuários com barreiras gigantes. O foco é a decisão de não fechar tudo e como as barreiras móveis equilibram segurança e ecologia.",
+  "tom": "Curioso e analítico",
+  "duracao": 480,
+  "estilo": {
+   "dinamica": "minimal",
+   "legenda": "cinema",
+   "transicao": "deslize",
+   "fundo": "limpo",
+   "musica": "leve",
+   "paleta": "grafite",
+   "fonte": "poppins",
+   "formato": "linha-do-tempo"
+  },
+  "genero": {
+   "id": "tecnologia",
+   "nome": "Tecnologia e empresas",
+   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Conte a história de uma empresa ou tecnologia como uma jornada (começo humilde, auge, erro decisivo ou virada, hoje), com números (contador) e datas (linha) com fonte. 'galeria' com fotos de produtos, fundadores e sedes (2 a 3 por cena).",
+   "galeria": true
+  },
+  "canal": {
+   "id": "inova-mundo",
+   "nome": "Inova mundo",
+   "nicho": "Conhecendo o mundo e suas tecnologias",
+   "anteriores": [
+    "Como pontes no mar são construídas",
+    "Como funciona uma pedreira",
+    "Evolução do garimpo",
+    "Evolução das montadoras de carros",
+    "Evolução dos carros",
+    "Maquinários que você não conhecia",
+    "Como é construído um prédio",
+    "As construções que mudaram o mundo",
+    "O cofre de sementes do fim do mundo"
+   ]
+  }
+ },
+ "formato": "16:9",
+ "idioma": "pt-BR",
+ "genero": "tecnologia",
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "-4%",
+  "tom": "-2Hz",
+  "tratamento": true,
+  "fluida": true
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-30T10:43:55.132Z"
+ },
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 60,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 91,
+  "palavrasPorTela": 8,
+  "maiusculas": false,
+  "contorno": 0,
+  "fundo": "nenhum",
+  "animacao": "nenhuma",
+  "mostrar": true,
+  "modo": "cinema"
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ }
+}
