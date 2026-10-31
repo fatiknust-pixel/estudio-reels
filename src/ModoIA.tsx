@@ -4,7 +4,7 @@ import { AbsoluteFill, Audio, Easing, interpolate, Sequence, spring, useCurrentF
 import { arquivoGlobal } from "./arquivos";
 import { useCor, useQuadro, useVideo } from "./contexto";
 import { Camera, Sobreposicao, useDinamica } from "./componentes/Dinamica";
-import { PilhaElementos } from "./componentes/Elementos";
+import { ehSobrio, PilhaElementos } from "./componentes/Elementos";
 import { Fundo, fotoAtual } from "./componentes/Fundo";
 import { FotosCartoes, GameplayFundo } from "./componentes/Gameplay";
 import { FONTE } from "./fontes";
@@ -16,7 +16,16 @@ const Fontes: React.FC<{ fontes: string[] }> = ({ fontes }) => {
   const COR = useCor();
   const cinema = useDinamica() === "cinema";
   const q = useQuadro();
+  const sobrio = ehSobrio(useVideo().projeto);
   if (!fontes.length) return null;
+  if (sobrio) {
+    // documentário: uma linha discreta, sem etiqueta colorida
+    return (
+      <div style={{ position: "absolute", top: q.horizontal ? 40 : 70, left: 40, right: q.largura - q.texto + 40, fontFamily: FONTE, fontWeight: 600, fontSize: 22, color: "rgba(255,255,255,.7)", textShadow: "0 1px 6px #000, 0 0 3px #000", opacity: interpolate(f, [4, 14], [0, 1], { extrapolateRight: "clamp" }) }}>
+        Fontes: {fontes.join(" · ")}
+      </div>
+    );
+  }
   return (
     <div style={{ position: "absolute", top: cinema ? 128 : q.horizontal ? 40 : 70, left: 40, right: q.largura - q.texto + 40, display: "flex", flexWrap: "wrap", gap: 10, alignItems: "center" }}>
       <div style={{ fontFamily: FONTE, fontWeight: 900, fontSize: 26, color: "#111", background: COR.destaque, padding: "6px 14px", borderRadius: 8, opacity: interpolate(f, [4, 10], [0, 1], { extrapolateRight: "clamp" }) }}>FONTES</div>
@@ -100,7 +109,7 @@ const Cena: React.FC<{ c: CenaTempo; ultima: boolean }> = ({ c, ultima }) => {
           : <Fundo chave={c.fundo} galeria={c.galeria} inicios={c.galeriaInicios} indice={c.indice} duracao={c.duracao} />}
       </AbsoluteFill>
       {audio && <Sequence from={2} layout="none"><Audio src={audio} /></Sequence>}
-      {c.indice > 0 && projeto.efeitos.somTransicao && <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.5} />}
+      {c.indice > 0 && projeto.efeitos.somTransicao && !ehSobrio(projeto) && <Audio src={arquivoGlobal("sfx/whoosh.mp3")} volume={0.5} />}
       <Palco>
         <PilhaElementos elementos={c.elementos} />
       </Palco>

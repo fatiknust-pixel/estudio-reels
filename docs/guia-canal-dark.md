@@ -13,7 +13,7 @@ os números são **heurísticas de mercado**, não dados oficiais — use como p
 | 1:00–8:30 | **5 capítulos de ~90 s** | Cada capítulo = uma ideia nova + um dado/curiosidade surpreendente. Abra com `titulo` curto na tela. **Termine cada capítulo com um loop aberto** ("mas o que ninguém esperava era…") que puxa o próximo. |
 | ≈ 6:30–7:00 | **Virada/clímax** | O fato mais forte do vídeo, perto de 2/3 do tempo (a retenção costuma cair no meio: é aqui que ela se recupera). |
 | 8:30–9:30 | **Desfecho** | Responde ao gancho, amarra as pontas, deixa uma reflexão ou pergunta. |
-| 9:30–10:00 | **Fecho curto** | Convite breve para se inscrever e sugestão do próximo vídeo da série. Sem enquete longa. |
+| 9:30–10:00 | **Fecho curto** | Uma frase final de reflexão ou o gancho do próximo tema. **Sem pedir inscrição, like, comentário ou sino**: o tom é de documentário, não de influenciador. |
 
 Para 8 min: 4 capítulos (≈ 1.150 palavras). Para 5 min: 3 capítulos (≈ 720 palavras).
 
@@ -40,11 +40,12 @@ Para 8 min: 4 capítulos (≈ 1.150 palavras). Para 5 min: 3 capítulos (≈ 720
 - Ritmo: nunca deixe a mesma foto mais de 8 s; o validador exige pelo menos 1 foto para cada 8 s de fala.
 - A câmera já se move devagar sozinha (aproxima, afasta, arrasta para os lados); você não precisa descrever.
 
-## 4. Na tela
-- Poucos elementos (0 a 2 por cena): `titulo` ao abrir cada capítulo; `contador`/`placar` para números e rankings; `linha` para sequência de datas;
-  `mapa` para localização; `pessoa` ao apresentar alguém; `definicao` para termo difícil; `check`/`carimbo` só para um desmentido ou veredito.
-- Sem enquete e sem "siga" no meio: só o fecho curto no final. A legenda é no estilo cinema (frase embaixo, simples): não escreva para legenda chamativa.
-- Fontes na tela (`fontes`) quando citar número, data ou caso real.
+## 4. Na tela (sério e limpo)
+- Tom de documentário/telejornal: nada que pareça propaganda ou rede social. **Proibidos**: `enquete`, `seguir`, `comentario`, `carimbo`, `check`, `tag`, `pergunta`, emojis, frases de efeito na tela
+  ("INCRÍVEL!", "VOCÊ NÃO VAI ACREDITAR"), pedidos de inscrição/like. O validador recusa esses elementos.
+- Permitidos, só quando acrescentam informação: `titulo` (curto, nome do capítulo ou do lugar), `contador`/`placar` (números e rankings), `linha` (datas), `mapa`, `pessoa`, `definicao`.
+- **Nada pode se sobrepor**: no máximo 1 elemento por vez (2 só se forem pequenos e em faixas diferentes), nunca na região da legenda (parte de baixo). A legenda é no estilo cinema: frase embaixo, simples.
+- Fontes na tela (`fontes`) aparecem como uma linha discreta; use quando citar número, data ou caso real.
 
 ## 5. Honestidade, fontes e o que o YouTube pede
 - Pesquise de verdade (web), cruze pelo menos 2 fontes confiáveis, preencha `fontesPesquisa` com título + URL, e use só o que a fonte sustenta.

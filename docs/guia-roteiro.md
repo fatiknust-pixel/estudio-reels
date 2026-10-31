@@ -146,7 +146,7 @@ O app tem modelos de "canal dark" (vídeo narrado, sem rosto: documentário, his
 mistérios, curiosidades, ranking, ciência, lugares, mitologia, terror, economia, geopolítica,
 tecnologia, natureza, reflexões). Quando o pedido trouxer `pedido.genero`:
 - **Siga `pedido.genero.instrucoes`** — elas valem mais que as regras gerais de estrutura deste guia
-  (ex.: num documentário longo não precisa de enquete; feche com o convite para se inscrever).
+  (ex.: num documentário longo não há enquete nem CTA; feche com uma frase de reflexão).
 - O formato do quadro está em `projeto.formato` (`16:9` = YouTube, horizontal; `9:16` = vertical) e a
   duração em `pedido.duracao`. Vídeos longos (5–12 min) pedem 12 a 30 cenas de 20–40 s cada.
 - Se `pedido.genero.galeria` for `true`, é um vídeo **guiado por imagens**, no estilo dos canais dark do
