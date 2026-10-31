@@ -116,6 +116,12 @@ if (roteiro) {
     const com = (roteiro.cenas ?? []).filter((c) => c.fundo || (Array.isArray(c.galeria) && c.galeria.length)).length;
     if (com < Math.ceil(total * 0.6)) erros.push(`pelo menos ${Math.ceil(total * 0.6)} das ${total} cenas precisam de foto do assunto exato da fala ("fundo" ou "galeria"; hoje: ${com})`);
   }
+  // documentário sério: nada de cara de propaganda/rede social na tela
+  if (genero?.galeria) {
+    const proibidos = new Set(["enquete", "seguir", "comentario", "carimbo", "check", "tag", "pergunta"]);
+    for (const [i, c] of (roteiro.cenas ?? []).entries()) for (const e of c.elementos ?? []) if (proibidos.has(e.tipo)) erros.push(`cena ${i + 1} (${c.id}): elemento "${e.tipo}" não é permitido em documentário (parece propaganda/rede social). Use só titulo, contador, placar, linha, mapa, pessoa ou definicao, e só quando acrescentarem informação`);
+    for (const [i, c] of (roteiro.cenas ?? []).entries()) if (/\b(se inscreva|inscreva-se|siga|curta|deixe seu like|ative o sino|comente)\b/i.test(c.texto)) erros.push(`cena ${i + 1} (${c.id}): a narração pede inscrição/like/comentário; documentário sério não faz isso`);
+  }
   if (genero?.galeria) {
     const pub = roteiro.publicacao;
     if (!pub || !Array.isArray(pub.titulos) || pub.titulos.length < 3) erros.push('falta "publicacao" com pelo menos 3 títulos alternativos (e descrição e tags) — veja docs/guia-canal-dark.md');

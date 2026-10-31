@@ -381,29 +381,50 @@ const faixaY = (e: ElementoTempo) => POSICAO[e.posicao ?? "alto"] ?? POSICAO.alt
 type Pilha = { topo: (indice: number) => number | undefined; escala: number; medir: (indice: number, h: number) => void };
 const PilhaCtx = createContext<Pilha | null>(null);
 
-export const PilhaElementos: React.FC<{ elementos: ElementoTempo[] }> = ({ elementos }) => {
+// Vídeo sério (canal dark/documentário): sem o que parece propaganda ou rede social na tela
+const SOBRIOS_PROIBIDOS = new Set(["enquete", "seguir", "comentario", "carimbo", "check", "tag", "pergunta"]);
+export const ehSobrio = (p: { pedido?: { genero?: { galeria?: boolean } } }) => !!p.pedido?.genero?.galeria;
+
+export const PilhaElementos: React.FC<{ elementos: ElementoTempo[] }> = ({ elementos: todos }) => {
   const f = useCurrentFrame();
   const { projeto, quadro: q } = useVideo();
+  const elementos = ehSobrio(projeto) ? todos.filter((e) => !SOBRIOS_PROIBIDOS.has(e.tipo)) : todos;
   const [alturas, setAlturas] = useState<Record<number, number>>({});
   const medir = useCallback((i: number, h: number) => setAlturas((a) => (Math.abs((a[i] ?? 0) - h) < 1 ? a : { ...a, [i]: h })), []);
-  const ativos = elementos.filter((e) => MAPA[e.tipo] && f >= e.entra && f < e.sai).sort((a, b) => faixaY(a) - faixaY(b) || a.entra - b.entra || a.indice - b.indice);
-  const topos: Record<number, number> = {};
-  let fim = -Infinity;
-  for (const e of ativos) {
-    const topo = Math.max(faixaY(e), fim + ESPACO_ENTRE);
-    topos[e.indice] = topo;
-    fim = topo + (alturas[e.indice] ?? ALTURA_ESTIMADA[e.tipo] ?? 160) + (EXTRA_ABAIXO[e.tipo] ?? 0);
+  // limite = onde a pilha pode chegar sem tocar na legenda (em coordenadas do palco, que no 16:9 é reduzido)
+  const L = projeto.legenda;
+  const cinema = L.modo === "cinema";
+  const topoLegenda = cinema ? (L.posicao / 100) * q.altura - 2 * L.tamanho * 1.25 - 30 : (L.posicao / 100) * q.altura - 130;
+  const limite = !L.mostrar ? q.altura - 250 : q.palco ? (topoLegenda - q.palco.y) / q.palco.escala : topoLegenda;
+  const candidatos = elementos.filter((e) => MAPA[e.tipo] && f >= e.entra && f < e.sai).sort((a, b) => faixaY(a) - faixaY(b) || a.entra - b.entra || a.indice - b.indice);
+  // empilha; se não cabe nem reduzindo a 60%, o elemento mais embaixo sai da tela em vez de cobrir a legenda ou outro elemento
+  const empilhar = (lista: ElementoTempo[]) => {
+    const topos: Record<number, number> = {};
+    let fim = -Infinity;
+    for (const e of lista) {
+      const topo = Math.max(faixaY(e), fim + ESPACO_ENTRE);
+      topos[e.indice] = topo;
+      fim = topo + (alturas[e.indice] ?? ALTURA_ESTIMADA[e.tipo] ?? 160) + (EXTRA_ABAIXO[e.tipo] ?? 0);
+    }
+    const inicio = lista.length ? topos[lista[0].indice] : 0;
+    const escala = lista.length && fim > limite ? Math.max(0.6, Math.min(1, (limite - inicio) / (fim - inicio))) : 1;
+    const cabe = !lista.length || fim <= limite || (limite - inicio) / (fim - inicio) >= 0.6;
+    return { topos, inicio, escala, cabe };
+  };
+  let ativos = candidatos;
+  let r = empilhar(ativos);
+  while (!r.cabe && ativos.length > 1) {
+    ativos = ativos.slice(0, -1);
+    r = empilhar(ativos);
   }
-  // se a pilha desce até a legenda, tudo diminui junto (até 60%) para ficar acima dela
-  const limite = q.palco ? 1750 : projeto.legenda.mostrar ? (projeto.legenda.posicao / 100) * q.altura - 130 : q.altura - 250;
-  const inicio = ativos.length ? topos[ativos[0].indice] : 0;
-  const escala = ativos.length && fim > limite ? Math.max(0.6, Math.min(1, (limite - inicio) / (fim - inicio))) : 1;
+  const { topos, inicio, escala } = r;
   if (escala < 1) for (const e of ativos) topos[e.indice] = inicio + (topos[e.indice] - inicio) * escala;
+  const visiveis = new Set(ativos.map((e) => e.indice));
   return (
     <PilhaCtx.Provider value={{ topo: (i) => topos[i], escala, medir }}>
       {elementos.map((e) => (
         <Sequence key={e.indice} from={e.entra} durationInFrames={Math.max(1, e.sai - e.entra)}>
-          <Elemento e={e} />
+          {(f < e.entra || f >= e.sai || visiveis.has(e.indice)) && <Elemento e={e} />}
         </Sequence>
       ))}
     </PilhaCtx.Provider>

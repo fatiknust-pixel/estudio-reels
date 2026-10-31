@@ -20,7 +20,7 @@
     "fonte": "playfair",
     "formato": "explicativo"
    },
-   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Documentário narrado (estilo canal dark): a imagem é a protagonista. Cada cena tem 'galeria' com 2 a 8 fotos (uma nova a cada 3–6 s, na palavra exata em que o assunto muda, com 'galeriaEm') reais do assunto (lugares, pessoas, mapas, prédios, época), que vão se sucedendo enquanto o narrador fala; 15 a 30 imagens no total, sem repetir. Use poucos elementos animados (0 a 2 por cena: titulo para capítulos, linha para datas, contador para números grandes). Abra com uma pergunta ou um fato surpreendente, divida em capítulos (titulo com o nome do capítulo) e feche com uma reflexão e um convite para se inscrever (seguir com 'INSCREVA-SE').",
+   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Documentário narrado (estilo canal dark): a imagem é a protagonista. Cada cena tem 'galeria' com 2 a 8 fotos (uma nova a cada 3–6 s, na palavra exata em que o assunto muda, com 'galeriaEm') reais do assunto (lugares, pessoas, mapas, prédios, época), que vão se sucedendo enquanto o narrador fala; 15 a 30 imagens no total, sem repetir. Use poucos elementos animados (0 a 2 por cena: titulo para capítulos, linha para datas, contador para números grandes). Abra com uma pergunta ou um fato surpreendente, divida em capítulos (titulo com o nome do capítulo) e feche com uma reflexão, sem pedir inscrição.",
    "temas": [
     "Brasília: a capital construída em 41 meses",
     "Como o Japão se reergueu depois da Segunda Guerra",
@@ -51,7 +51,7 @@
     "fonte": "playfair",
     "formato": "linha-do-tempo"
    },
-   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). História contada em ordem cronológica, como uma narrativa (personagens, conflito, virada, consequências). Cada cena tem 'galeria' com 2 a 4 imagens de época (pinturas, gravuras, fotos antigas, mapas, documentos) — Wikimedia tem muito material em domínio público. Use 'linha' e 'titulo' com o ano para marcar a passagem do tempo. Separe fato de lenda e desmonte mitos comuns. Feche com o impacto do evento até hoje e o convite para se inscrever.",
+   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). História contada em ordem cronológica, como uma narrativa (personagens, conflito, virada, consequências). Cada cena tem 'galeria' com 2 a 4 imagens de época (pinturas, gravuras, fotos antigas, mapas, documentos) — Wikimedia tem muito material em domínio público. Use 'linha' e 'titulo' com o ano para marcar a passagem do tempo. Separe fato de lenda e desmonte mitos comuns. Feche com o impacto do evento até hoje e o frase final de reflexão, sem pedir inscrição.",
    "temas": [
     "A Independência do Brasil sem os mitos",
     "Como funcionava o Império Mongol",
@@ -113,7 +113,7 @@
     "fonte": "robotoslab",
     "formato": "linha-do-tempo"
    },
-   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Narrativa investigativa: apresente o caso com suspense, reconstrua os fatos em ordem, mostre as principais hipóteses deixando claro o que é FATO comprovado e o que é TEORIA (carimbo 'TEORIA' / 'FATO'), e termine com o que se sabe hoje. Respeito às vítimas e às famílias: nada de detalhes gráficos nem sensacionalismo. 'galeria' com 2 a 3 imagens por cena (locais, mapas, objetos, documentos).",
+   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Narrativa investigativa: apresente o caso com suspense, reconstrua os fatos em ordem, mostre as principais hipóteses deixando claro o que é FATO comprovado e o que é TEORIA (dito na narração: 'segundo a teoria…', 'o fato comprovado é…'), e termine com o que se sabe hoje. Respeito às vítimas e às famílias: nada de detalhes gráficos nem sensacionalismo. 'galeria' com 2 a 3 imagens por cena (locais, mapas, objetos, documentos).",
    "temas": [
     "Voo MH370: o que se sabe até hoje",
     "Triângulo das Bermudas: mito ou verdade",
@@ -144,7 +144,7 @@
     "fonte": "anton",
     "formato": "lista"
    },
-   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Curiosidade rápida: gancho nos 2 primeiros segundos ('Você sabia que…?'), 4 a 6 fatos curtos e verificados, um por cena, com muitos elementos animados (contador, icones, carimbo), e um final que puxa comentário.",
+   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Curiosidade rápida: gancho nos 2 primeiros segundos ('Você sabia que…?'), 4 a 6 fatos curtos e verificados, um por cena, com poucos elementos na tela (contador, linha), e um final que deixa uma reflexão.",
    "temas": [
     "O que acontece com seu corpo quando você dorme",
     "Por que o céu é azul?",
@@ -299,7 +299,7 @@
     "fonte": "bebas",
     "formato": "explicativo"
    },
-   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Conte a lenda com clima de suspense (pausas, frases curtas, viradas) e depois mostre a origem real dela (de onde surgiu, por que se espalhou). Deixe claro que é lenda ou ficção. Sem violência gráfica e sem assustar com informação falsa sobre pessoas reais. Use carimbo 'LENDA' e elementos 'pergunta' para criar tensão.",
+   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Conte a lenda com clima de suspense (pausas, frases curtas, viradas) e depois mostre a origem real dela (de onde surgiu, por que se espalhou). Deixe claro que é lenda ou ficção. Sem violência gráfica e sem assustar com informação falsa sobre pessoas reais. Diga na narração que é lenda e crie tensão com o texto, sem elementos de pergunta na tela.",
    "temas": [
     "A Loira do Banheiro: de onde veio a lenda",
     "O Homem do Saco",

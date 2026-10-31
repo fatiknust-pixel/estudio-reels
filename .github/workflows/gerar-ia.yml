@@ -108,7 +108,7 @@ jobs:
                Adapte o roteiro (ritmo, tamanho das frases, quantidade de elementos) à dinâmica e ao formato.
             4. Escreva `projetos/${{ inputs.projeto }}/roteiro.json` e `projetos/${{ inputs.projeto }}/imagens.json`:
                gancho forte no início, cenas curtas com elementos animados e fontes na tela, e no final
-               uma pergunta para o público (enquete) e um CTA (seguir). Respeite o tom e a duração pedidos.
+               uma pergunta para o público (enquete) e um CTA (seguir) — EXCETO em gênero de canal dark (`pedido.genero.galeria`): ali, tom sério de documentário, sem enquete, CTA, carimbo, pergunta, tag, emojis nem pedido de inscrição/like. Respeite o tom e a duração pedidos.
             5. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija até aparecer "✅ Roteiro válido"
                (trate também os avisos de duração e de fontes).
 
@@ -165,7 +165,7 @@ jobs:
                Adapte o roteiro (ritmo, tamanho das frases, quantidade de elementos) à dinâmica e ao formato.
             4. Escreva `projetos/${{ inputs.projeto }}/roteiro.json` e `projetos/${{ inputs.projeto }}/imagens.json`:
                gancho forte no início, cenas curtas com elementos animados e fontes na tela, e no final
-               uma pergunta para o público (enquete) e um CTA (seguir). Respeite o tom e a duração pedidos.
+               uma pergunta para o público (enquete) e um CTA (seguir) — EXCETO em gênero de canal dark (`pedido.genero.galeria`): ali, tom sério de documentário, sem enquete, CTA, carimbo, pergunta, tag, emojis nem pedido de inscrição/like. Respeite o tom e a duração pedidos.
             5. Rode `node scripts/validar-roteiro.mjs projetos/${{ inputs.projeto }}` e corrija até aparecer "✅ Roteiro válido"
                (trate também os avisos de duração e de fontes).
 
