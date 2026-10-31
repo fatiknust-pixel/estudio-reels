@@ -1,0 +1,91 @@
+{
+ "versao": 1,
+ "id": "inova-mundo-20261031",
+ "titulo": "A ampliação do Canal do Panamá, passo a passo",
+ "modo": "ia",
+ "estilo": "documentario",
+ "tema": "grafite",
+ "criadoEm": "2026-10-31T10:31:32.025Z",
+ "atualizadoEm": "2026-10-31T10:31:32.025Z",
+ "status": "processando",
+ "pedido": {
+  "tema": "A ampliação do Canal do Panamá, passo a passo — ângulo: Como eclusas com bacias de reaproveitamento de água permitiram receber navios maiores e por que a água do Lago Gatún é o verdadeiro limite. Compara com as eclusas originais de 1914.",
+  "tom": "Curioso e analítico",
+  "duracao": 480,
+  "estilo": {
+   "dinamica": "minimal",
+   "legenda": "cinema",
+   "transicao": "deslize",
+   "fundo": "limpo",
+   "musica": "leve",
+   "paleta": "grafite",
+   "fonte": "poppins",
+   "formato": "linha-do-tempo"
+  },
+  "genero": {
+   "id": "tecnologia",
+   "nome": "Tecnologia e empresas",
+   "instrucoes": "CANAL DARK LONGO: siga docs/guia-canal-dark.md (gancho forte nos primeiros 30 s, promessa, capítulos de ~90 s que terminam em loop aberto, virada em ~2/3 do vídeo, fecho curto) e escreva o campo 'publicacao' (3 títulos, descrição com capítulos e fontes, tags). Conte a história de uma empresa ou tecnologia como uma jornada (começo humilde, auge, erro decisivo ou virada, hoje), com números (contador) e datas (linha) com fonte. 'galeria' com fotos de produtos, fundadores e sedes (2 a 3 por cena).",
+   "galeria": true
+  },
+  "canal": {
+   "id": "inova-mundo",
+   "nome": "Inova mundo",
+   "nicho": "Conhecendo o mundo e suas tecnologias",
+   "anteriores": [
+    "Como pontes no mar são construídas",
+    "Como funciona uma pedreira",
+    "Evolução do garimpo",
+    "Evolução das montadoras de carros",
+    "Evolução dos carros",
+    "Maquinários que você não conhecia",
+    "Como é construído um prédio",
+    "As construções que mudaram o mundo",
+    "O cofre de sementes do fim do mundo",
+    "Como a Holanda venceu o mar: Delta Works"
+   ]
+  }
+ },
+ "formato": "16:9",
+ "idioma": "pt-BR",
+ "genero": "tecnologia",
+ "voz": {
+  "edge": "pt-BR-AntonioNeural",
+  "velocidade": "-4%",
+  "tom": "-2Hz",
+  "tratamento": true,
+  "fluida": true
+ },
+ "cenas": [],
+ "narracao": {},
+ "imagens": {},
+ "processamento": {
+  "workflow": "gerar-ia.yml",
+  "pedidoEm": "2026-10-31T10:31:32.025Z"
+ },
+ "legenda": {
+  "fonte": "montserrat",
+  "tamanho": 60,
+  "cor": "#FFFFFF",
+  "corDestaque": "#FFD60A",
+  "posicao": 91,
+  "palavrasPorTela": 8,
+  "maiusculas": false,
+  "contorno": 0,
+  "fundo": "nenhum",
+  "animacao": "nenhuma",
+  "mostrar": true,
+  "modo": "cinema"
+ },
+ "efeitos": {
+  "barraProgresso": true,
+  "trilha": true,
+  "volumeTrilha": 0.1,
+  "somTransicao": true,
+  "titulos": [],
+  "emojis": [],
+  "sons": [],
+  "zooms": [],
+  "enquete": null
+ }
+}

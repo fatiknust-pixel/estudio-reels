@@ -72,7 +72,9 @@
   {
    "titulo": "A ampliação do Canal do Panamá, passo a passo",
    "angulo": "Como eclusas com bacias de reaproveitamento de água permitiram receber navios maiores e por que a água do Lago Gatún é o verdadeiro limite. Compara com as eclusas originais de 1914.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261031",
+   "em": "2026-10-31"
   },
   {
    "titulo": "Por que o Eurotúnel quase não se encontrou no meio?",
@@ -120,5 +122,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-10-30"
+ "ultimaGeracao": "2026-10-31"
 }
