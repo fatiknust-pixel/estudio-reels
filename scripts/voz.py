@@ -42,9 +42,9 @@ async def via_edge(texto, voz, velocidade, destino, tom=None):
 # O edge-tts lê o texto inteiro de uma vez, sem pausas dramáticas. Aqui cada frase é lida separadamente e as frases são
 # coladas com silêncios que seguem a pontuação (ponto, interrogação, reticências, parágrafo): a fala respira, a virada
 # de uma revelação "cai" melhor e dá para variar o ritmo. O tempo de cada palavra é somado ao início da frase.
-PAUSAS = {".": 0.24, "!": 0.28, "?": 0.34, "…": 0.48, ":": 0.26, ";": 0.22}  # além do silêncio que a própria frase já traz no fim
-PAUSA_PARAGRAFO = 0.65
-RESPIRO_FINAL = 0.4
+PAUSAS = {".": 0.08, "!": 0.10, "?": 0.14, "…": 0.26, ":": 0.10, ";": 0.08}  # além do silêncio que a própria frase já traz no fim
+PAUSA_PARAGRAFO = 0.30
+RESPIRO_FINAL = 0.2
 ABREVIACOES = {"a.c", "d.c", "dr", "dra", "sr", "sra", "srta", "prof", "profa", "st", "sto", "sta", "mr", "mrs", "ms", "vs", "etc", "nº", "no", "av", "cap", "séc", "ex", "mt", "gen", "cel", "ten", "jr"}
 
 
@@ -73,7 +73,7 @@ def dividir_frases(texto):
 
 def pausa_depois(frase):
     fim = frase.rstrip().rstrip("\"”’')]")[-1:]
-    return PAUSAS.get(fim, 0.2)
+    return PAUSAS.get(fim, 0.06)
 
 
 def montar_segmentos(texto):
@@ -124,7 +124,13 @@ async def narrar_fluido(texto, voz_id, vel, tom, destino):
     for i, ((frase, pausa), (arq, palavras)) in enumerate(zip(segs, feitas)):
         for w in palavras:
             palavras_todas.append({"p": w["p"], "i": round(w["i"] + cursor, 3), "f": round(w["f"] + cursor, 3)})
+        # a voz neural deixa ~0,2–0,4 s de silêncio no fim de cada frase: corta logo depois da última palavra
         d = duracao(arq)
+        corte = palavras[-1]["f"] + 0.10 if palavras else d
+        if corte < d - 0.05:
+            curto = arq[:-4] + "-c.mp3"
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", arq, "-t", f"{corte:.3f}", "-c:a", "libmp3lame", "-b:a", "96k", curto], check=True)
+            arq, d = curto, duracao(curto)
         lista.append(arq)
         cursor += d
         chave = round(pausa, 2)
@@ -225,7 +231,7 @@ def main():
     for cena in p.get("cenas", []):
         cid, texto = cena["id"], cena["texto"].strip()
         lido = falado(texto, pron)
-        h = hashlib.sha1(f"edge|{voz_id}|{vel}|{lido}{'|estudio' if trat else ''}{f'|fluida2|{tom}' if fluida else ''}".encode()).hexdigest()[:10]
+        h = hashlib.sha1(f"edge|{voz_id}|{vel}|{lido}{'|estudio' if trat else ''}{f'|fluida3|{tom}' if fluida else ''}".encode()).hexdigest()[:10]
         velho = anterior.get(cid)
         if velho and velho.get("hash") == h and os.path.exists(os.path.join(midia, velho["audio"])) and not a.forcar:
             nova[cid] = velho
