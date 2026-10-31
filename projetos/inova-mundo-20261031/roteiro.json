@@ -1,0 +1,152 @@
+{
+  "titulo": "Canal do Panamá: o limite que o concreto não resolveu",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "publicacao": {
+    "titulos": [
+      "Por que o Canal do Panamá ficou sem água, mesmo ampliado?",
+      "Eclusas de 1914 × eclusas de 2016: onde a água some",
+      "O limite do Canal do Panamá não é o tamanho do navio"
+    ],
+    "descricao": "Em 2023, dezenas de navios esperaram para cruzar o Canal do Panamá, que acabara de ser ampliado. Neste vídeo comparamos as eclusas originais de 1914 com as eclusas Neopanamax de 2016, vemos como as bacias de reaproveitamento economizam água e por que o nível do Lago Gatún é o verdadeiro limite do canal.\n\n0:00 Gancho\n0:30 Promessa\n1:00 Um canal que sobe\n1:40 As eclusas de 1914\n2:20 A ampliação\n3:00 As bacias de reaproveitamento\n3:35 A conta que não fecha\n4:10 O lago é o limite\n4:45 2023: a seca\n5:25 O Rio Indio\n6:00 Desfecho\n\nFontes: Autoridade do Canal do Panamá (pancanal.com); CCJ; GAC; Seatrade Maritime; gCaptain; NPR.",
+    "tags": ["canal do panamá", "ampliação do canal do panamá", "eclusas", "lago gatún", "neopanamax", "panamax", "engenharia", "seca no panamá", "infraestrutura", "tecnologia", "inova mundo", "história da engenharia"]
+  },
+  "fontesPesquisa": [
+    { "titulo": "Autoridade do Canal do Panamá — medidas de economia de água", "url": "https://pancanal.com/en/the-panama-canal-adapts-strategic-measures-for-water-savings/" },
+    { "titulo": "CCJ — Panama's big bet: detalhes da ampliação", "url": "https://www.ccjdigital.com/panamas-big-bet-part-1-canal-expansion-details/" },
+    { "titulo": "GAC — Addressing the issue of water head on (dez/2023)", "url": "https://www.gac.com/hot-port-news/addressing-the-issue-of-water-head-on" },
+    { "titulo": "Seatrade Maritime — medidas de economia de água na seca", "url": "https://www.seatrade-maritime.com/containers/panama-canal-takes-water-saving-measures-in-face-of-unprecedented-drought-" },
+    { "titulo": "gCaptain — limites de calado na seca de 2023", "url": "https://gcaptain.com/panama-canal-to-keep-limits-in-place-as-drought-hits-lake-levels/" },
+    { "titulo": "NPR — Expanded canal opens in Panama (2016)", "url": "https://www.npr.org/2016/06/26/483624374/expanded-canal-opens-in-panama" },
+    { "titulo": "Engineering News — Panama Canal expansion project", "url": "https://www.engineeringnews.co.za/article/panama-canal-expansion-project-2016-08-12" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Em dois mil e vinte e três, dezenas de navios ficaram parados no mar, esperando para atravessar um canal. Não havia acidente, nem greve. Faltava água. E o mais estranho: o canal acabara de ganhar eclusas novas, gigantes, projetadas justamente para economizar água. Então por que a água virou o limite? A resposta começa em mil novecentos e catorze, e termina num lago artificial que ninguém vê quando o navio passa.",
+      "galeria": ["fila-baia", "seca-gatun", "agua-clara", "gatun-aereo"],
+      "galeriaEm": [0, "Faltava", "eclusas", "lago"],
+      "fontes": ["gCaptain"],
+      "elementos": [
+        { "tipo": "carimbo", "texto": "SEM ÁGUA", "cor": "vermelho", "em": "Faltava", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Neste vídeo você vai ver como funcionam as eclusas de mil novecentos e catorze, o que mudou na ampliação de dois mil e dezesseis e como as bacias de reaproveitamento seguram a água. No fim, você vai entender por que a conta do canal não fecha pelo tamanho dos navios, mas pelo nível de um lago chamado Gatún. E por que a próxima grande obra do Panamá talvez nem seja no canal.",
+      "galeria": ["miraflores", "obras-ampliacao", "bacias-agua-clara", "navio-gatun"],
+      "galeriaEm": [0, "ampliação", "bacias", "lago"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ECLUSAS: 1914 × 2016", "sub": "Canal do Panamá", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "um-canal-que-sobe",
+      "texto": "Capítulo um. O canal não corta o Panamá ao nível do mar. Ele sobe. Quando abriu, em quinze de agosto de mil novecentos e catorze, os Estados Unidos haviam represado o rio Chagres e criado o Lago Gatún, a vinte e seis metros acima do oceano. Os navios sobem degraus de água, atravessam o lago e descem do outro lado. Nas eclusas originais, tudo funciona por gravidade: sem bombas, a água simplesmente escorre do lago para encher cada câmara. Cada passagem manda uma parte dessa água para o mar. E ela nunca volta.",
+      "galeria": ["mapa-canal", "ancon-1914", "rio-chagres", "gatun-represa", "gatun-comportas-1913", "gatun-eclusa-navio"],
+      "galeriaEm": [0, "abriu", "Chagres", "Gatún", "gravidade", "passagem"],
+      "fontes": ["ACP"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "UM CANAL QUE SOBE", "sub": "Capítulo 1", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 26, "unidade": "m", "rotulo": "do Lago Gatún acima do mar", "em": "metros", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "eclusas-1914",
+      "texto": "As eclusas antigas têm trinta e três metros e meio de largura e cerca de trezentos de comprimento. Parece muito, até o mundo mudar. Navios de carga cresceram, e criou-se até um nome para o tamanho máximo que cabia ali: Panamax. Locomotivas elétricas puxavam os cascos por cabos, centímetro a centímetro. Funcionou por mais de cem anos. Mas os navios ficaram tão largos que uma parte da carga mundial simplesmente já não cabia. O canal corria o risco de virar uma relíquia.",
+      "galeria": ["pedro-miguel", "porta-conteineres", "panamax-apertado", "locomotiva-mula", "porto-shanghai"],
+      "galeriaEm": [0, "Navios", "Panamax", "Locomotivas", "mundial"],
+      "fontes": ["ACP"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "AS ECLUSAS ORIGINAIS", "sub": "Capítulo 1", "em": 0, "posicao": "topo" },
+        { "tipo": "definicao", "palavra": "Panamax", "significado": "Maior navio que cabe nas eclusas de 1914", "em": "Panamax", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "ampliacao",
+      "texto": "Capítulo dois. Em outubro de dois mil e seis, os panamenhos votaram em referendo e aprovaram a ampliação, com cerca de setenta e oito por cento dos votos. A obra começou em dois mil e sete, com orçamento de cerca de cinco bilhões e duzentos e cinquenta milhões de dólares. Seriam dois novos complexos de eclusas: um no Atlântico, em Agua Clara, outro no Pacífico, em Cocolí. Cada câmara teria quatrocentos e vinte e sete metros de comprimento e cinquenta e cinco de largura. Mas havia um problema: navios maiores exigem muito mais água.",
+      "galeria": ["torrijos", "cocoli-escavacao", "agua-clara-obras", "cocoli-eclusas", "comporta-deslizante"],
+      "galeriaEm": [0, "obra", "Atlântico", "Pacífico", "câmara"],
+      "fontes": ["ACP", "CCJ"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A AMPLIAÇÃO", "sub": "Capítulo 2", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["2006", "Referendo"], ["2007", "Início da obra"], ["2016", "Inauguração"]], "em": "orçamento", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "bacias",
+      "texto": "A solução foram as bacias de reaproveitamento. Cada câmara tem três, ao lado, em degraus. Quando a câmara esvazia, a água não vai direto para o mar: desce primeiro para as bacias. Na hora de encher, essa água volta, por gravidade, e só o restante vem do lago. Segundo a Autoridade do Canal, cerca de sessenta por cento da água de cada eclusagem é reaproveitada. As portas são deslizantes, e a água entra por dutos no fundo, sem turbulência que balance o navio. Cada complexo tem nove bacias no total.",
+      "galeria": ["diagrama-bacias", "bacias-vista", "camara-vazia", "camara-enchendo", "porta-deslizante-agua-clara"],
+      "galeriaEm": [0, "degraus", "esvazia", "encher", "portas"],
+      "fontes": ["ACP", "Seatrade Maritime"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "BACIAS DE REAPROVEITAMENTO", "sub": "Capítulo 2", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 60, "unidade": "%", "rotulo": "da água reaproveitada", "em": "sessenta", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "a-conta",
+      "texto": "Parece resolvido. Mas olhe os números. Reaproveitar sessenta por cento não significa gastar sessenta por cento menos. Segundo a própria Autoridade do Canal, a travessia nas eclusas novas gasta cerca de sete por cento menos água que nas antigas, mesmo com navios muito maiores. Sem as bacias, o gasto seria bem maior. Ou seja: a ampliação não criou água, só impediu que a conta explodisse. E cada navio ainda leva para o oceano milhões de litros de água doce. Quem paga essa conta é o lago.",
+      "galeria": ["navio-neopanamax", "comparacao-eclusas", "cocoli-rebocadores", "inauguracao-2016", "entrada-pacifico"],
+      "galeriaEm": [0, "números", "novas", "ampliação", "oceano"],
+      "fontes": ["ACP"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A CONTA NÃO FECHA", "sub": "Capítulo 3", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 7, "unidade": "% menos água", "rotulo": "por travessia, vs. eclusas antigas", "em": "sete", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "o-lago",
+      "texto": "Capítulo quatro. O Lago Gatún cobre cerca de quatrocentos e vinte e cinco quilômetros quadrados e é alimentado pela chuva. Só pela chuva. Não há geleira nem grande rio por trás dele. E essa água tem outros donos: segundo a Autoridade do Canal, ela abastece de água potável mais de dois milhões de panamenhos, entre eles os moradores da capital. Cada navio que cruza o canal compete, de certo modo, com quem abre a torneira em casa. Por isso, o tamanho do navio importa menos do que o nível do lago.",
+      "galeria": ["gatun-satelite", "floresta-soberania", "cidade-panama", "corte-culebra", "represa-madden"],
+      "galeriaEm": [0, "chuva", "capital", "navio", "nível"],
+      "fontes": ["ACP"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O LAGO É O LIMITE", "sub": "Capítulo 4", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 2, "unidade": "milhões+", "rotulo": "de pessoas bebem dessa água", "em": "milhões", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "seca-2023",
+      "texto": "Então veio dois mil e vinte e três. Um El Niño forte atrasou as chuvas, e o lago baixou ao menor nível em anos. Para os navios maiores, a profundidade permitida caiu de cerca de quinze para cerca de treze metros e meio, e a carga precisou ser reduzida. Nas eclusas antigas, a média ficou limitada a vinte e duas travessias por dia, e as filas se formaram nos dois oceanos. As bacias ajudaram. As eclusas novas continuaram abertas. Mas nenhuma engenharia faz chover. O limite do canal nunca foi o concreto. Foi sempre a água.",
+      "galeria": ["el-nino-2023", "gatun-margem-baixa", "navio-carregado", "fila-colon", "chuva-panama"],
+      "galeriaEm": [0, "lago", "profundidade", "filas", "chover"],
+      "fontes": ["gCaptain", "GAC"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2023: A SECA", "sub": "A virada", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 15, "ate": 13, "unidade": "m", "rotulo": "calado máximo (cerca de 13,4 m)", "em": "treze", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "rio-indio",
+      "texto": "Capítulo cinco. A resposta do Panamá é mais água. O projeto do reservatório do Rio Indio prevê represar esse rio, a oeste do canal, para ligar sua água ao Lago Gatún e garantir o consumo humano e as travessias. É uma obra bilionária. Também é polêmica: comunidades rurais que vivem no vale precisariam ser deslocadas, e muitas protestam. O canal ganha segurança; o vale perde casas e terras. Não existe ampliação neutra. Cada grande obra resolve um limite e cria outro.",
+      "galeria": ["mapa-bacia-canal", "rio-indio", "sede-acp", "comunidade-rural", "ponte-centenario"],
+      "galeriaEm": [0, "Indio", "bilionária", "comunidades", "neutra"],
+      "fontes": ["ACP"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O RIO INDIO", "sub": "Capítulo 5", "em": 0, "posicao": "topo" },
+        { "tipo": "mapa", "de": "Rio Indio", "para": "Lago Gatún", "legenda": "reservatório proposto", "em": "ligar", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "Voltando ao começo: por que dezenas de navios esperaram, se havia eclusas novas? Porque em mil novecentos e catorze, os engenheiros resolveram o problema da altura com um lago. Em dois mil e dezesseis, resolveram o problema do tamanho com concreto, aço e bacias de reaproveitamento. Mas o problema da água continua o mesmo: o lago recebe a chuva, e a chuva decide. Uma obra de cinco bilhões de dólares pode economizar água, mas não pode criá-la. A pergunta que fica é quanto o planeta ainda vai conseguir pedir a essa mesma água.",
+      "galeria": ["miraflores-aerea", "goethals", "cocoli-aberta", "concreto-eclusa", "chuva-lago", "terra-azul"],
+      "galeriaEm": [0, "engenheiros", "dezesseis", "concreto", "chuva", "planeta"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O LIMITE É A ÁGUA", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1914", "Um lago resolve a altura"], ["2016", "Bacias resolvem o tamanho"], ["2023", "A água ainda decide"]], "em": "altura", "posicao": "alto2" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "Se este vídeo mudou o jeito como você vê o canal, se inscreva no Inova Mundo. Na próxima, mais uma obra que parece simples e esconde um problema gigante. Até lá.",
+      "galeria": ["por-do-sol-canal", "ponte-americas"],
+      "galeriaEm": [0, "próxima"],
+      "elementos": [
+        { "tipo": "seguir", "texto": "SIGA O INOVA MUNDO", "em": "inscreva", "posicao": "alto2" }
+      ]
+    }
+  ]
+}

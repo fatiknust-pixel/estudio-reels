@@ -1,13 +1,13 @@
 {
  "versao": 1,
  "id": "inova-mundo-20261031",
- "titulo": "A ampliação do Canal do Panamá, passo a passo",
+ "titulo": "Canal do Panamá: o limite que o concreto não resolveu",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-10-31T10:31:32.025Z",
- "atualizadoEm": "2026-10-31T10:31:32.025Z",
- "status": "processando",
+ "atualizadoEm": "2026-10-31T10:39:57Z",
+ "status": "pronto",
  "pedido": {
   "tema": "A ampliação do Canal do Panamá, passo a passo — ângulo: Como eclusas com bacias de reaproveitamento de água permitiram receber navios maiores e por que a água do Lago Gatún é o verdadeiro limite. Compara com as eclusas originais de 1914.",
   "tom": "Curioso e analítico",
@@ -56,15 +56,6165 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em dois mil e vinte e três, dezenas de navios ficaram parados no mar, esperando para atravessar um canal. Não havia acidente, nem greve. Faltava água. E o mais estranho: o canal acabara de ganhar eclusas novas, gigantes, projetadas justamente para economizar água. Então por que a água virou o limite? A resposta começa em mil novecentos e catorze, e termina num lago artificial que ninguém vê quando o navio passa.",
+   "galeria": [
+    "fila-baia",
+    "seca-gatun",
+    "agua-clara",
+    "gatun-aereo"
+   ],
+   "galeriaEm": [
+    0,
+    "Faltava",
+    "eclusas",
+    "lago"
+   ],
+   "fontes": [
+    "gCaptain"
+   ],
+   "elementos": [
+    {
+     "tipo": "carimbo",
+     "texto": "SEM ÁGUA",
+     "cor": "vermelho",
+     "em": "Faltava",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Neste vídeo você vai ver como funcionam as eclusas de mil novecentos e catorze, o que mudou na ampliação de dois mil e dezesseis e como as bacias de reaproveitamento seguram a água. No fim, você vai entender por que a conta do canal não fecha pelo tamanho dos navios, mas pelo nível de um lago chamado Gatún. E por que a próxima grande obra do Panamá talvez nem seja no canal.",
+   "galeria": [
+    "miraflores",
+    "obras-ampliacao",
+    "bacias-agua-clara",
+    "navio-gatun"
+   ],
+   "galeriaEm": [
+    0,
+    "ampliação",
+    "bacias",
+    "lago"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ECLUSAS: 1914 × 2016",
+     "sub": "Canal do Panamá",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "um-canal-que-sobe",
+   "texto": "Capítulo um. O canal não corta o Panamá ao nível do mar. Ele sobe. Quando abriu, em quinze de agosto de mil novecentos e catorze, os Estados Unidos haviam represado o rio Chagres e criado o Lago Gatún, a vinte e seis metros acima do oceano. Os navios sobem degraus de água, atravessam o lago e descem do outro lado. Nas eclusas originais, tudo funciona por gravidade: sem bombas, a água simplesmente escorre do lago para encher cada câmara. Cada passagem manda uma parte dessa água para o mar. E ela nunca volta.",
+   "galeria": [
+    "mapa-canal",
+    "ancon-1914",
+    "rio-chagres",
+    "gatun-represa",
+    "gatun-comportas-1913",
+    "gatun-eclusa-navio"
+   ],
+   "galeriaEm": [
+    0,
+    "abriu",
+    "Chagres",
+    "Gatún",
+    "gravidade",
+    "passagem"
+   ],
+   "fontes": [
+    "ACP"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "UM CANAL QUE SOBE",
+     "sub": "Capítulo 1",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 26,
+     "unidade": "m",
+     "rotulo": "do Lago Gatún acima do mar",
+     "em": "metros",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "eclusas-1914",
+   "texto": "As eclusas antigas têm trinta e três metros e meio de largura e cerca de trezentos de comprimento. Parece muito, até o mundo mudar. Navios de carga cresceram, e criou-se até um nome para o tamanho máximo que cabia ali: Panamax. Locomotivas elétricas puxavam os cascos por cabos, centímetro a centímetro. Funcionou por mais de cem anos. Mas os navios ficaram tão largos que uma parte da carga mundial simplesmente já não cabia. O canal corria o risco de virar uma relíquia.",
+   "galeria": [
+    "pedro-miguel",
+    "porta-conteineres",
+    "panamax-apertado",
+    "locomotiva-mula",
+    "porto-shanghai"
+   ],
+   "galeriaEm": [
+    0,
+    "Navios",
+    "Panamax",
+    "Locomotivas",
+    "mundial"
+   ],
+   "fontes": [
+    "ACP"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "AS ECLUSAS ORIGINAIS",
+     "sub": "Capítulo 1",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Panamax",
+     "significado": "Maior navio que cabe nas eclusas de 1914",
+     "em": "Panamax",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "ampliacao",
+   "texto": "Capítulo dois. Em outubro de dois mil e seis, os panamenhos votaram em referendo e aprovaram a ampliação, com cerca de setenta e oito por cento dos votos. A obra começou em dois mil e sete, com orçamento de cerca de cinco bilhões e duzentos e cinquenta milhões de dólares. Seriam dois novos complexos de eclusas: um no Atlântico, em Agua Clara, outro no Pacífico, em Cocolí. Cada câmara teria quatrocentos e vinte e sete metros de comprimento e cinquenta e cinco de largura. Mas havia um problema: navios maiores exigem muito mais água.",
+   "galeria": [
+    "torrijos",
+    "cocoli-escavacao",
+    "agua-clara-obras",
+    "cocoli-eclusas",
+    "comporta-deslizante"
+   ],
+   "galeriaEm": [
+    0,
+    "obra",
+    "Atlântico",
+    "Pacífico",
+    "câmara"
+   ],
+   "fontes": [
+    "ACP",
+    "CCJ"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A AMPLIAÇÃO",
+     "sub": "Capítulo 2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2006",
+       "Referendo"
+      ],
+      [
+       "2007",
+       "Início da obra"
+      ],
+      [
+       "2016",
+       "Inauguração"
+      ]
+     ],
+     "em": "orçamento",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "bacias",
+   "texto": "A solução foram as bacias de reaproveitamento. Cada câmara tem três, ao lado, em degraus. Quando a câmara esvazia, a água não vai direto para o mar: desce primeiro para as bacias. Na hora de encher, essa água volta, por gravidade, e só o restante vem do lago. Segundo a Autoridade do Canal, cerca de sessenta por cento da água de cada eclusagem é reaproveitada. As portas são deslizantes, e a água entra por dutos no fundo, sem turbulência que balance o navio. Cada complexo tem nove bacias no total.",
+   "galeria": [
+    "diagrama-bacias",
+    "bacias-vista",
+    "camara-vazia",
+    "camara-enchendo",
+    "porta-deslizante-agua-clara"
+   ],
+   "galeriaEm": [
+    0,
+    "degraus",
+    "esvazia",
+    "encher",
+    "portas"
+   ],
+   "fontes": [
+    "ACP",
+    "Seatrade Maritime"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "BACIAS DE REAPROVEITAMENTO",
+     "sub": "Capítulo 2",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 60,
+     "unidade": "%",
+     "rotulo": "da água reaproveitada",
+     "em": "sessenta",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "a-conta",
+   "texto": "Parece resolvido. Mas olhe os números. Reaproveitar sessenta por cento não significa gastar sessenta por cento menos. Segundo a própria Autoridade do Canal, a travessia nas eclusas novas gasta cerca de sete por cento menos água que nas antigas, mesmo com navios muito maiores. Sem as bacias, o gasto seria bem maior. Ou seja: a ampliação não criou água, só impediu que a conta explodisse. E cada navio ainda leva para o oceano milhões de litros de água doce. Quem paga essa conta é o lago.",
+   "galeria": [
+    "navio-neopanamax",
+    "comparacao-eclusas",
+    "cocoli-rebocadores",
+    "inauguracao-2016",
+    "entrada-pacifico"
+   ],
+   "galeriaEm": [
+    0,
+    "números",
+    "novas",
+    "ampliação",
+    "oceano"
+   ],
+   "fontes": [
+    "ACP"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A CONTA NÃO FECHA",
+     "sub": "Capítulo 3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 7,
+     "unidade": "% menos água",
+     "rotulo": "por travessia, vs. eclusas antigas",
+     "em": "sete",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "o-lago",
+   "texto": "Capítulo quatro. O Lago Gatún cobre cerca de quatrocentos e vinte e cinco quilômetros quadrados e é alimentado pela chuva. Só pela chuva. Não há geleira nem grande rio por trás dele. E essa água tem outros donos: segundo a Autoridade do Canal, ela abastece de água potável mais de dois milhões de panamenhos, entre eles os moradores da capital. Cada navio que cruza o canal compete, de certo modo, com quem abre a torneira em casa. Por isso, o tamanho do navio importa menos do que o nível do lago.",
+   "galeria": [
+    "gatun-satelite",
+    "floresta-soberania",
+    "cidade-panama",
+    "corte-culebra",
+    "represa-madden"
+   ],
+   "galeriaEm": [
+    0,
+    "chuva",
+    "capital",
+    "navio",
+    "nível"
+   ],
+   "fontes": [
+    "ACP"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O LAGO É O LIMITE",
+     "sub": "Capítulo 4",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 2,
+     "unidade": "milhões+",
+     "rotulo": "de pessoas bebem dessa água",
+     "em": "milhões",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "seca-2023",
+   "texto": "Então veio dois mil e vinte e três. Um El Niño forte atrasou as chuvas, e o lago baixou ao menor nível em anos. Para os navios maiores, a profundidade permitida caiu de cerca de quinze para cerca de treze metros e meio, e a carga precisou ser reduzida. Nas eclusas antigas, a média ficou limitada a vinte e duas travessias por dia, e as filas se formaram nos dois oceanos. As bacias ajudaram. As eclusas novas continuaram abertas. Mas nenhuma engenharia faz chover. O limite do canal nunca foi o concreto. Foi sempre a água.",
+   "galeria": [
+    "el-nino-2023",
+    "gatun-margem-baixa",
+    "navio-carregado",
+    "fila-colon",
+    "chuva-panama"
+   ],
+   "galeriaEm": [
+    0,
+    "lago",
+    "profundidade",
+    "filas",
+    "chover"
+   ],
+   "fontes": [
+    "gCaptain",
+    "GAC"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2023: A SECA",
+     "sub": "A virada",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 15,
+     "ate": 13,
+     "unidade": "m",
+     "rotulo": "calado máximo (cerca de 13,4 m)",
+     "em": "treze",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "rio-indio",
+   "texto": "Capítulo cinco. A resposta do Panamá é mais água. O projeto do reservatório do Rio Indio prevê represar esse rio, a oeste do canal, para ligar sua água ao Lago Gatún e garantir o consumo humano e as travessias. É uma obra bilionária. Também é polêmica: comunidades rurais que vivem no vale precisariam ser deslocadas, e muitas protestam. O canal ganha segurança; o vale perde casas e terras. Não existe ampliação neutra. Cada grande obra resolve um limite e cria outro.",
+   "galeria": [
+    "mapa-bacia-canal",
+    "rio-indio",
+    "sede-acp",
+    "comunidade-rural",
+    "ponte-centenario"
+   ],
+   "galeriaEm": [
+    0,
+    "Indio",
+    "bilionária",
+    "comunidades",
+    "neutra"
+   ],
+   "fontes": [
+    "ACP"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O RIO INDIO",
+     "sub": "Capítulo 5",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Rio Indio",
+     "para": "Lago Gatún",
+     "legenda": "reservatório proposto",
+     "em": "ligar",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Voltando ao começo: por que dezenas de navios esperaram, se havia eclusas novas? Porque em mil novecentos e catorze, os engenheiros resolveram o problema da altura com um lago. Em dois mil e dezesseis, resolveram o problema do tamanho com concreto, aço e bacias de reaproveitamento. Mas o problema da água continua o mesmo: o lago recebe a chuva, e a chuva decide. Uma obra de cinco bilhões de dólares pode economizar água, mas não pode criá-la. A pergunta que fica é quanto o planeta ainda vai conseguir pedir a essa mesma água.",
+   "galeria": [
+    "miraflores-aerea",
+    "goethals",
+    "cocoli-aberta",
+    "concreto-eclusa",
+    "chuva-lago",
+    "terra-azul"
+   ],
+   "galeriaEm": [
+    0,
+    "engenheiros",
+    "dezesseis",
+    "concreto",
+    "chuva",
+    "planeta"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O LIMITE É A ÁGUA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1914",
+       "Um lago resolve a altura"
+      ],
+      [
+       "2016",
+       "Bacias resolvem o tamanho"
+      ],
+      [
+       "2023",
+       "A água ainda decide"
+      ]
+     ],
+     "em": "altura",
+     "posicao": "alto2"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Se este vídeo mudou o jeito como você vê o canal, se inscreva no Inova Mundo. Na próxima, mais uma obra que parece simples e esconde um problema gigante. Até lá.",
+   "galeria": [
+    "por-do-sol-canal",
+    "ponte-americas"
+   ],
+   "galeriaEm": [
+    0,
+    "próxima"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "seguir",
+     "texto": "SIGA O INOVA MUNDO",
+     "em": "inscreva",
+     "posicao": "alto2"
+    }
+   ]
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "934013caee",
+   "texto": "Em dois mil e vinte e três, dezenas de navios ficaram parados no mar, esperando para atravessar um canal. Não havia acidente, nem greve. Faltava água. E o mais estranho: o canal acabara de ganhar eclusas novas, gigantes, projetadas justamente para economizar água. Então por que a água virou o limite? A resposta começa em mil novecentos e catorze, e termina num lago artificial que ninguém vê quando o navio passa.",
+   "audio": "audio/gancho-934013caee.mp3",
+   "duracao": 33.045,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "dois",
+     "i": 0.232,
+     "f": 0.493
+    },
+    {
+     "p": "mil",
+     "i": 0.506,
+     "f": 0.636
+    },
+    {
+     "p": "e",
+     "i": 0.649,
+     "f": 0.714
+    },
+    {
+     "p": "vinte",
+     "i": 0.727,
+     "f": 0.922
+    },
+    {
+     "p": "e",
+     "i": 0.935,
+     "f": 0.974
+    },
+    {
+     "p": "três",
+     "i": 0.988,
+     "f": 1.378
+    },
+    {
+     "p": "dezenas",
+     "i": 1.573,
+     "f": 2.107
+    },
+    {
+     "p": "de",
+     "i": 2.12,
+     "f": 2.198
+    },
+    {
+     "p": "navios",
+     "i": 2.211,
+     "f": 2.602
+    },
+    {
+     "p": "ficaram",
+     "i": 2.615,
+     "f": 2.967
+    },
+    {
+     "p": "parados",
+     "i": 2.98,
+     "f": 3.461
+    },
+    {
+     "p": "no",
+     "i": 3.474,
+     "f": 3.566
+    },
+    {
+     "p": "mar",
+     "i": 3.579,
+     "f": 3.826
+    },
+    {
+     "p": "esperando",
+     "i": 4.152,
+     "f": 4.685
+    },
+    {
+     "p": "para",
+     "i": 4.698,
+     "f": 4.842
+    },
+    {
+     "p": "atravessar",
+     "i": 4.855,
+     "f": 5.415
+    },
+    {
+     "p": "um",
+     "i": 5.428,
+     "f": 5.506
+    },
+    {
+     "p": "canal.",
+     "i": 5.519,
+     "f": 5.909
+    },
+    {
+     "p": "Não",
+     "i": 7.158,
+     "f": 7.458
+    },
+    {
+     "p": "havia",
+     "i": 7.471,
+     "f": 7.731
+    },
+    {
+     "p": "acidente",
+     "i": 7.744,
+     "f": 8.33
+    },
+    {
+     "p": "nem",
+     "i": 8.538,
+     "f": 8.773
+    },
+    {
+     "p": "greve",
+     "i": 8.786,
+     "f": 9.241
+    },
+    {
+     "p": "Faltava",
+     "i": 10.494,
+     "f": 11.171
+    },
+    {
+     "p": "água",
+     "i": 11.184,
+     "f": 11.601
+    },
+    {
+     "p": "E",
+     "i": 12.846,
+     "f": 12.976
+    },
+    {
+     "p": "o",
+     "i": 12.989,
+     "f": 13.054
+    },
+    {
+     "p": "mais",
+     "i": 13.067,
+     "f": 13.302
+    },
+    {
+     "p": "estranho",
+     "i": 13.315,
+     "f": 13.914
+    },
+    {
+     "p": "o",
+     "i": 14.213,
+     "f": 14.291
+    },
+    {
+     "p": "canal",
+     "i": 14.304,
+     "f": 14.695
+    },
+    {
+     "p": "acabara",
+     "i": 14.708,
+     "f": 15.125
+    },
+    {
+     "p": "de",
+     "i": 15.138,
+     "f": 15.242
+    },
+    {
+     "p": "ganhar",
+     "i": 15.255,
+     "f": 15.541
+    },
+    {
+     "p": "eclusas",
+     "i": 15.554,
+     "f": 16.075
+    },
+    {
+     "p": "novas",
+     "i": 16.088,
+     "f": 16.583
+    },
+    {
+     "p": "gigantes",
+     "i": 16.687,
+     "f": 17.416
+    },
+    {
+     "p": "projetadas",
+     "i": 17.69,
+     "f": 18.367
+    },
+    {
+     "p": "justamente",
+     "i": 18.38,
+     "f": 19.031
+    },
+    {
+     "p": "para",
+     "i": 19.044,
+     "f": 19.187
+    },
+    {
+     "p": "economizar",
+     "i": 19.2,
+     "f": 19.799
+    },
+    {
+     "p": "água",
+     "i": 19.812,
+     "f": 20.164
+    },
+    {
+     "p": "Então",
+     "i": 21.414,
+     "f": 21.857
+    },
+    {
+     "p": "por",
+     "i": 21.87,
+     "f": 22.052
+    },
+    {
+     "p": "que",
+     "i": 22.065,
+     "f": 22.247
+    },
+    {
+     "p": "a",
+     "i": 22.26,
+     "f": 22.339
+    },
+    {
+     "p": "água",
+     "i": 22.352,
+     "f": 22.664
+    },
+    {
+     "p": "virou",
+     "i": 22.677,
+     "f": 22.925
+    },
+    {
+     "p": "o",
+     "i": 22.938,
+     "f": 22.977
+    },
+    {
+     "p": "limite",
+     "i": 22.99,
+     "f": 23.484
+    },
+    {
+     "p": "A",
+     "i": 24.826,
+     "f": 24.943
+    },
+    {
+     "p": "resposta",
+     "i": 24.956,
+     "f": 25.568
+    },
+    {
+     "p": "começa",
+     "i": 25.581,
+     "f": 26.05
+    },
+    {
+     "p": "em",
+     "i": 26.063,
+     "f": 26.115
+    },
+    {
+     "p": "mil",
+     "i": 26.128,
+     "f": 26.258
+    },
+    {
+     "p": "novecentos",
+     "i": 26.271,
+     "f": 26.844
+    },
+    {
+     "p": "e",
+     "i": 26.857,
+     "f": 26.948
+    },
+    {
+     "p": "catorze",
+     "i": 26.961,
+     "f": 27.534
+    },
+    {
+     "p": "e",
+     "i": 27.795,
+     "f": 27.899
+    },
+    {
+     "p": "termina",
+     "i": 27.912,
+     "f": 28.381
+    },
+    {
+     "p": "num",
+     "i": 28.394,
+     "f": 28.576
+    },
+    {
+     "p": "lago",
+     "i": 28.589,
+     "f": 28.823
+    },
+    {
+     "p": "artificial",
+     "i": 28.836,
+     "f": 29.461
+    },
+    {
+     "p": "que",
+     "i": 29.475,
+     "f": 29.579
+    },
+    {
+     "p": "ninguém",
+     "i": 29.592,
+     "f": 29.982
+    },
+    {
+     "p": "vê",
+     "i": 29.995,
+     "f": 30.204
+    },
+    {
+     "p": "quando",
+     "i": 30.217,
+     "f": 30.464
+    },
+    {
+     "p": "o",
+     "i": 30.477,
+     "f": 30.49
+    },
+    {
+     "p": "navio",
+     "i": 30.503,
+     "f": 30.868
+    },
+    {
+     "p": "passa",
+     "i": 30.881,
+     "f": 31.297
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "cc3a3c7045",
+   "texto": "Neste vídeo você vai ver como funcionam as eclusas de mil novecentos e catorze, o que mudou na ampliação de dois mil e dezesseis e como as bacias de reaproveitamento seguram a água. No fim, você vai entender por que a conta do canal não fecha pelo tamanho dos navios, mas pelo nível de um lago chamado Gatún. E por que a próxima grande obra do Panamá talvez nem seja no canal.",
+   "audio": "audio/promessa-cc3a3c7045.mp3",
+   "duracao": 26.122,
+   "palavras": [
+    {
+     "p": "Neste",
+     "i": 0.102,
+     "f": 0.532
+    },
+    {
+     "p": "vídeo",
+     "i": 0.545,
+     "f": 0.87
+    },
+    {
+     "p": "você",
+     "i": 0.883,
+     "f": 1.183
+    },
+    {
+     "p": "vai",
+     "i": 1.196,
+     "f": 1.352
+    },
+    {
+     "p": "ver",
+     "i": 1.365,
+     "f": 1.587
+    },
+    {
+     "p": "como",
+     "i": 1.599,
+     "f": 1.873
+    },
+    {
+     "p": "funcionam",
+     "i": 1.886,
+     "f": 2.524
+    },
+    {
+     "p": "as",
+     "i": 2.537,
+     "f": 2.576
+    },
+    {
+     "p": "eclusas",
+     "i": 2.589,
+     "f": 3.162
+    },
+    {
+     "p": "de",
+     "i": 3.175,
+     "f": 3.279
+    },
+    {
+     "p": "mil",
+     "i": 3.292,
+     "f": 3.448
+    },
+    {
+     "p": "novecentos",
+     "i": 3.461,
+     "f": 4.06
+    },
+    {
+     "p": "e",
+     "i": 4.073,
+     "f": 4.178
+    },
+    {
+     "p": "catorze",
+     "i": 4.191,
+     "f": 4.764
+    },
+    {
+     "p": "o",
+     "i": 5.102,
+     "f": 5.193
+    },
+    {
+     "p": "que",
+     "i": 5.206,
+     "f": 5.349
+    },
+    {
+     "p": "mudou",
+     "i": 5.362,
+     "f": 5.701
+    },
+    {
+     "p": "na",
+     "i": 5.714,
+     "f": 5.805
+    },
+    {
+     "p": "ampliação",
+     "i": 5.818,
+     "f": 6.404
+    },
+    {
+     "p": "de",
+     "i": 6.417,
+     "f": 6.508
+    },
+    {
+     "p": "dois",
+     "i": 6.521,
+     "f": 6.717
+    },
+    {
+     "p": "mil",
+     "i": 6.73,
+     "f": 6.847
+    },
+    {
+     "p": "e",
+     "i": 6.86,
+     "f": 6.899
+    },
+    {
+     "p": "dezesseis",
+     "i": 6.912,
+     "f": 7.42
+    },
+    {
+     "p": "e",
+     "i": 7.433,
+     "f": 7.537
+    },
+    {
+     "p": "como",
+     "i": 7.55,
+     "f": 7.758
+    },
+    {
+     "p": "as",
+     "i": 7.771,
+     "f": 7.849
+    },
+    {
+     "p": "bacias",
+     "i": 7.862,
+     "f": 8.37
+    },
+    {
+     "p": "de",
+     "i": 8.383,
+     "f": 8.461
+    },
+    {
+     "p": "reaproveitamento",
+     "i": 8.475,
+     "f": 9.477
+    },
+    {
+     "p": "seguram",
+     "i": 9.49,
+     "f": 10.024
+    },
+    {
+     "p": "a",
+     "i": 10.037,
+     "f": 10.076
+    },
+    {
+     "p": "água",
+     "i": 10.089,
+     "f": 10.48
+    },
+    {
+     "p": "No",
+     "i": 11.742,
+     "f": 11.924
+    },
+    {
+     "p": "fim",
+     "i": 11.937,
+     "f": 12.224
+    },
+    {
+     "p": "você",
+     "i": 12.601,
+     "f": 12.888
+    },
+    {
+     "p": "vai",
+     "i": 12.901,
+     "f": 13.031
+    },
+    {
+     "p": "entender",
+     "i": 13.044,
+     "f": 13.513
+    },
+    {
+     "p": "por",
+     "i": 13.526,
+     "f": 13.721
+    },
+    {
+     "p": "que",
+     "i": 13.734,
+     "f": 13.838
+    },
+    {
+     "p": "a",
+     "i": 13.851,
+     "f": 13.956
+    },
+    {
+     "p": "conta",
+     "i": 13.969,
+     "f": 14.294
+    },
+    {
+     "p": "do",
+     "i": 14.307,
+     "f": 14.385
+    },
+    {
+     "p": "canal",
+     "i": 14.398,
+     "f": 14.763
+    },
+    {
+     "p": "não",
+     "i": 14.776,
+     "f": 14.945
+    },
+    {
+     "p": "fecha",
+     "i": 14.958,
+     "f": 15.362
+    },
+    {
+     "p": "pelo",
+     "i": 15.375,
+     "f": 15.583
+    },
+    {
+     "p": "tamanho",
+     "i": 15.596,
+     "f": 16.013
+    },
+    {
+     "p": "dos",
+     "i": 16.026,
+     "f": 16.156
+    },
+    {
+     "p": "navios",
+     "i": 16.169,
+     "f": 16.729
+    },
+    {
+     "p": "mas",
+     "i": 17.002,
+     "f": 17.25
+    },
+    {
+     "p": "pelo",
+     "i": 17.263,
+     "f": 17.471
+    },
+    {
+     "p": "nível",
+     "i": 17.484,
+     "f": 17.823
+    },
+    {
+     "p": "de",
+     "i": 17.836,
+     "f": 17.927
+    },
+    {
+     "p": "um",
+     "i": 17.94,
+     "f": 18.057
+    },
+    {
+     "p": "lago",
+     "i": 18.07,
+     "f": 18.357
+    },
+    {
+     "p": "chamado",
+     "i": 18.37,
+     "f": 18.825
+    },
+    {
+     "p": "Gatún",
+     "i": 18.838,
+     "f": 19.268
+    },
+    {
+     "p": "E",
+     "i": 20.526,
+     "f": 20.643
+    },
+    {
+     "p": "por",
+     "i": 20.656,
+     "f": 20.826
+    },
+    {
+     "p": "que",
+     "i": 20.839,
+     "f": 20.956
+    },
+    {
+     "p": "a",
+     "i": 20.969,
+     "f": 21.073
+    },
+    {
+     "p": "próxima",
+     "i": 21.086,
+     "f": 21.568
+    },
+    {
+     "p": "grande",
+     "i": 21.581,
+     "f": 21.945
+    },
+    {
+     "p": "obra",
+     "i": 21.958,
+     "f": 22.258
+    },
+    {
+     "p": "do",
+     "i": 22.271,
+     "f": 22.362
+    },
+    {
+     "p": "Panamá",
+     "i": 22.375,
+     "f": 22.74
+    },
+    {
+     "p": "talvez",
+     "i": 22.753,
+     "f": 23.234
+    },
+    {
+     "p": "nem",
+     "i": 23.247,
+     "f": 23.469
+    },
+    {
+     "p": "seja",
+     "i": 23.482,
+     "f": 23.859
+    },
+    {
+     "p": "no",
+     "i": 23.872,
+     "f": 23.964
+    },
+    {
+     "p": "canal.",
+     "i": 23.977,
+     "f": 24.393
+    }
+   ]
+  },
+  "um-canal-que-sobe": {
+   "hash": "a1f4ed5c00",
+   "texto": "Capítulo um. O canal não corta o Panamá ao nível do mar. Ele sobe. Quando abriu, em quinze de agosto de mil novecentos e catorze, os Estados Unidos haviam represado o rio Chagres e criado o Lago Gatún, a vinte e seis metros acima do oceano. Os navios sobem degraus de água, atravessam o lago e descem do outro lado. Nas eclusas originais, tudo funciona por gravidade: sem bombas, a água simplesmente escorre do lago para encher cada câmara. Cada passagem manda uma parte dessa água para o mar. E ela nunca volta.",
+   "audio": "audio/um-canal-que-sobe-a1f4ed5c00.mp3",
+   "duracao": 42.606,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.74
+    },
+    {
+     "p": "um",
+     "i": 0.753,
+     "f": 1.001
+    },
+    {
+     "p": "O",
+     "i": 2.262,
+     "f": 2.379
+    },
+    {
+     "p": "canal",
+     "i": 2.392,
+     "f": 2.822
+    },
+    {
+     "p": "não",
+     "i": 2.835,
+     "f": 3.03
+    },
+    {
+     "p": "corta",
+     "i": 3.043,
+     "f": 3.395
+    },
+    {
+     "p": "o",
+     "i": 3.408,
+     "f": 3.447
+    },
+    {
+     "p": "Panamá",
+     "i": 3.46,
+     "f": 3.864
+    },
+    {
+     "p": "ao",
+     "i": 3.877,
+     "f": 4.072
+    },
+    {
+     "p": "nível",
+     "i": 4.085,
+     "f": 4.45
+    },
+    {
+     "p": "do",
+     "i": 4.463,
+     "f": 4.567
+    },
+    {
+     "p": "mar.",
+     "i": 4.58,
+     "f": 4.827
+    },
+    {
+     "p": "Ele",
+     "i": 6.078,
+     "f": 6.352
+    },
+    {
+     "p": "sobe",
+     "i": 6.365,
+     "f": 6.872
+    },
+    {
+     "p": "Quando",
+     "i": 8.19,
+     "f": 8.464
+    },
+    {
+     "p": "abriu",
+     "i": 8.477,
+     "f": 8.88
+    },
+    {
+     "p": "em",
+     "i": 9.193,
+     "f": 9.349
+    },
+    {
+     "p": "quinze",
+     "i": 9.362,
+     "f": 9.766
+    },
+    {
+     "p": "de",
+     "i": 9.779,
+     "f": 9.857
+    },
+    {
+     "p": "agosto",
+     "i": 9.87,
+     "f": 10.352
+    },
+    {
+     "p": "de",
+     "i": 10.365,
+     "f": 10.469
+    },
+    {
+     "p": "mil",
+     "i": 10.482,
+     "f": 10.638
+    },
+    {
+     "p": "novecentos",
+     "i": 10.651,
+     "f": 11.224
+    },
+    {
+     "p": "e",
+     "i": 11.237,
+     "f": 11.328
+    },
+    {
+     "p": "catorze",
+     "i": 11.341,
+     "f": 11.94
+    },
+    {
+     "p": "os",
+     "i": 12.253,
+     "f": 12.305
+    },
+    {
+     "p": "Estados",
+     "i": 12.318,
+     "f": 12.826
+    },
+    {
+     "p": "Unidos",
+     "i": 12.839,
+     "f": 13.255
+    },
+    {
+     "p": "haviam",
+     "i": 13.268,
+     "f": 13.659
+    },
+    {
+     "p": "represado",
+     "i": 13.672,
+     "f": 14.31
+    },
+    {
+     "p": "o",
+     "i": 14.323,
+     "f": 14.349
+    },
+    {
+     "p": "rio",
+     "i": 14.362,
+     "f": 14.583
+    },
+    {
+     "p": "Chagres",
+     "i": 14.596,
+     "f": 15.052
+    },
+    {
+     "p": "e",
+     "i": 15.065,
+     "f": 15.208
+    },
+    {
+     "p": "criado",
+     "i": 15.221,
+     "f": 15.664
+    },
+    {
+     "p": "o",
+     "i": 15.677,
+     "f": 15.703
+    },
+    {
+     "p": "Lago",
+     "i": 15.716,
+     "f": 16.016
+    },
+    {
+     "p": "Gatún",
+     "i": 16.029,
+     "f": 16.406
+    },
+    {
+     "p": "a",
+     "i": 16.667,
+     "f": 16.758
+    },
+    {
+     "p": "vinte",
+     "i": 16.771,
+     "f": 17.044
+    },
+    {
+     "p": "e",
+     "i": 17.057,
+     "f": 17.083
+    },
+    {
+     "p": "seis",
+     "i": 17.096,
+     "f": 17.331
+    },
+    {
+     "p": "metros",
+     "i": 17.344,
+     "f": 17.708
+    },
+    {
+     "p": "acima",
+     "i": 17.721,
+     "f": 18.203
+    },
+    {
+     "p": "do",
+     "i": 18.216,
+     "f": 18.294
+    },
+    {
+     "p": "oceano",
+     "i": 18.307,
+     "f": 18.854
+    },
+    {
+     "p": "Os",
+     "i": 20.118,
+     "f": 20.261
+    },
+    {
+     "p": "navios",
+     "i": 20.274,
+     "f": 20.769
+    },
+    {
+     "p": "sobem",
+     "i": 20.782,
+     "f": 21.121
+    },
+    {
+     "p": "degraus",
+     "i": 21.134,
+     "f": 21.537
+    },
+    {
+     "p": "de",
+     "i": 21.55,
+     "f": 21.655
+    },
+    {
+     "p": "água",
+     "i": 21.668,
+     "f": 22.006
+    },
+    {
+     "p": "atravessam",
+     "i": 22.24,
+     "f": 22.879
+    },
+    {
+     "p": "o",
+     "i": 22.892,
+     "f": 22.918
+    },
+    {
+     "p": "lago",
+     "i": 22.931,
+     "f": 23.308
+    },
+    {
+     "p": "e",
+     "i": 23.321,
+     "f": 23.36
+    },
+    {
+     "p": "descem",
+     "i": 23.373,
+     "f": 23.673
+    },
+    {
+     "p": "do",
+     "i": 23.686,
+     "f": 23.829
+    },
+    {
+     "p": "outro",
+     "i": 23.842,
+     "f": 24.155
+    },
+    {
+     "p": "lado",
+     "i": 24.168,
+     "f": 24.532
+    },
+    {
+     "p": "Nas",
+     "i": 25.782,
+     "f": 25.964
+    },
+    {
+     "p": "eclusas",
+     "i": 25.977,
+     "f": 26.511
+    },
+    {
+     "p": "originais",
+     "i": 26.524,
+     "f": 27.253
+    },
+    {
+     "p": "tudo",
+     "i": 27.488,
+     "f": 27.774
+    },
+    {
+     "p": "funciona",
+     "i": 27.787,
+     "f": 28.373
+    },
+    {
+     "p": "por",
+     "i": 28.386,
+     "f": 28.542
+    },
+    {
+     "p": "gravidade",
+     "i": 28.556,
+     "f": 29.22
+    },
+    {
+     "p": "sem",
+     "i": 29.545,
+     "f": 29.793
+    },
+    {
+     "p": "bombas",
+     "i": 29.806,
+     "f": 30.404
+    },
+    {
+     "p": "a",
+     "i": 30.756,
+     "f": 30.86
+    },
+    {
+     "p": "água",
+     "i": 30.873,
+     "f": 31.186
+    },
+    {
+     "p": "simplesmente",
+     "i": 31.199,
+     "f": 31.98
+    },
+    {
+     "p": "escorre",
+     "i": 31.993,
+     "f": 32.384
+    },
+    {
+     "p": "do",
+     "i": 32.397,
+     "f": 32.501
+    },
+    {
+     "p": "lago",
+     "i": 32.514,
+     "f": 32.878
+    },
+    {
+     "p": "para",
+     "i": 32.891,
+     "f": 33.061
+    },
+    {
+     "p": "encher",
+     "i": 33.074,
+     "f": 33.399
+    },
+    {
+     "p": "cada",
+     "i": 33.412,
+     "f": 33.712
+    },
+    {
+     "p": "câmara",
+     "i": 33.725,
+     "f": 34.181
+    },
+    {
+     "p": "Cada",
+     "i": 35.43,
+     "f": 35.717
+    },
+    {
+     "p": "passagem",
+     "i": 35.73,
+     "f": 36.276
+    },
+    {
+     "p": "manda",
+     "i": 36.289,
+     "f": 36.615
+    },
+    {
+     "p": "uma",
+     "i": 36.628,
+     "f": 36.823
+    },
+    {
+     "p": "parte",
+     "i": 36.836,
+     "f": 37.214
+    },
+    {
+     "p": "dessa",
+     "i": 37.227,
+     "f": 37.5
+    },
+    {
+     "p": "água",
+     "i": 37.513,
+     "f": 37.8
+    },
+    {
+     "p": "para",
+     "i": 37.813,
+     "f": 37.995
+    },
+    {
+     "p": "o",
+     "i": 38.008,
+     "f": 38.034
+    },
+    {
+     "p": "mar.",
+     "i": 38.047,
+     "f": 38.295
+    },
+    {
+     "p": "E",
+     "i": 39.534,
+     "f": 39.651
+    },
+    {
+     "p": "ela",
+     "i": 39.664,
+     "f": 39.925
+    },
+    {
+     "p": "nunca",
+     "i": 39.938,
+     "f": 40.407
+    },
+    {
+     "p": "volta",
+     "i": 40.42,
+     "f": 40.862
+    }
+   ]
+  },
+  "eclusas-1914": {
+   "hash": "55b941af66",
+   "texto": "As eclusas antigas têm trinta e três metros e meio de largura e cerca de trezentos de comprimento. Parece muito, até o mundo mudar. Navios de carga cresceram, e criou-se até um nome para o tamanho máximo que cabia ali: Panamax. Locomotivas elétricas puxavam os cascos por cabos, centímetro a centímetro. Funcionou por mais de cem anos. Mas os navios ficaram tão largos que uma parte da carga mundial simplesmente já não cabia. O canal corria o risco de virar uma relíquia.",
+   "audio": "audio/eclusas-1914-55b941af66.mp3",
+   "duracao": 38.113,
+   "palavras": [
+    {
+     "p": "As",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "eclusas",
+     "i": 0.245,
+     "f": 0.818
+    },
+    {
+     "p": "antigas",
+     "i": 0.831,
+     "f": 1.456
+    },
+    {
+     "p": "têm",
+     "i": 1.469,
+     "f": 1.652
+    },
+    {
+     "p": "trinta",
+     "i": 1.665,
+     "f": 1.938
+    },
+    {
+     "p": "e",
+     "i": 1.951,
+     "f": 1.99
+    },
+    {
+     "p": "três",
+     "i": 2.003,
+     "f": 2.237
+    },
+    {
+     "p": "metros",
+     "i": 2.251,
+     "f": 2.615
+    },
+    {
+     "p": "e",
+     "i": 2.628,
+     "f": 2.745
+    },
+    {
+     "p": "meio",
+     "i": 2.758,
+     "f": 3.045
+    },
+    {
+     "p": "de",
+     "i": 3.058,
+     "f": 3.136
+    },
+    {
+     "p": "largura",
+     "i": 3.149,
+     "f": 3.618
+    },
+    {
+     "p": "e",
+     "i": 3.631,
+     "f": 3.67
+    },
+    {
+     "p": "cerca",
+     "i": 3.683,
+     "f": 4.099
+    },
+    {
+     "p": "de",
+     "i": 4.112,
+     "f": 4.23
+    },
+    {
+     "p": "trezentos",
+     "i": 4.243,
+     "f": 4.868
+    },
+    {
+     "p": "de",
+     "i": 4.881,
+     "f": 4.972
+    },
+    {
+     "p": "comprimento",
+     "i": 4.985,
+     "f": 5.662
+    },
+    {
+     "p": "Parece",
+     "i": 6.918,
+     "f": 7.387
+    },
+    {
+     "p": "muito",
+     "i": 7.4,
+     "f": 7.83
+    },
+    {
+     "p": "até",
+     "i": 8.051,
+     "f": 8.337
+    },
+    {
+     "p": "o",
+     "i": 8.35,
+     "f": 8.389
+    },
+    {
+     "p": "mundo",
+     "i": 8.402,
+     "f": 8.78
+    },
+    {
+     "p": "mudar",
+     "i": 8.793,
+     "f": 9.171
+    },
+    {
+     "p": "Navios",
+     "i": 10.422,
+     "f": 10.995
+    },
+    {
+     "p": "de",
+     "i": 11.008,
+     "f": 11.112
+    },
+    {
+     "p": "carga",
+     "i": 11.125,
+     "f": 11.503
+    },
+    {
+     "p": "cresceram",
+     "i": 11.516,
+     "f": 12.102
+    },
+    {
+     "p": "e",
+     "i": 12.388,
+     "f": 12.466
+    },
+    {
+     "p": "criou-se",
+     "i": 12.479,
+     "f": 12.948
+    },
+    {
+     "p": "até",
+     "i": 12.961,
+     "f": 13.13
+    },
+    {
+     "p": "um",
+     "i": 13.143,
+     "f": 13.261
+    },
+    {
+     "p": "nome",
+     "i": 13.274,
+     "f": 13.599
+    },
+    {
+     "p": "para",
+     "i": 13.612,
+     "f": 13.781
+    },
+    {
+     "p": "o",
+     "i": 13.794,
+     "f": 13.821
+    },
+    {
+     "p": "tamanho",
+     "i": 13.834,
+     "f": 14.211
+    },
+    {
+     "p": "máximo",
+     "i": 14.224,
+     "f": 14.719
+    },
+    {
+     "p": "que",
+     "i": 14.732,
+     "f": 14.862
+    },
+    {
+     "p": "cabia",
+     "i": 14.875,
+     "f": 15.214
+    },
+    {
+     "p": "ali",
+     "i": 15.227,
+     "f": 15.5
+    },
+    {
+     "p": "Panamax",
+     "i": 15.735,
+     "f": 16.464
+    },
+    {
+     "p": "Locomotivas",
+     "i": 17.718,
+     "f": 18.46
+    },
+    {
+     "p": "elétricas",
+     "i": 18.473,
+     "f": 19.137
+    },
+    {
+     "p": "puxavam",
+     "i": 19.15,
+     "f": 19.658
+    },
+    {
+     "p": "os",
+     "i": 19.671,
+     "f": 19.814
+    },
+    {
+     "p": "cascos",
+     "i": 19.827,
+     "f": 20.309
+    },
+    {
+     "p": "por",
+     "i": 20.322,
+     "f": 20.505
+    },
+    {
+     "p": "cabos",
+     "i": 20.518,
+     "f": 21.012
+    },
+    {
+     "p": "centímetro",
+     "i": 21.286,
+     "f": 21.976
+    },
+    {
+     "p": "a",
+     "i": 21.989,
+     "f": 22.015
+    },
+    {
+     "p": "centímetro",
+     "i": 22.028,
+     "f": 22.731
+    },
+    {
+     "p": "Funcionou",
+     "i": 23.982,
+     "f": 24.62
+    },
+    {
+     "p": "por",
+     "i": 24.633,
+     "f": 24.828
+    },
+    {
+     "p": "mais",
+     "i": 24.841,
+     "f": 25.167
+    },
+    {
+     "p": "de",
+     "i": 25.18,
+     "f": 25.297
+    },
+    {
+     "p": "cem",
+     "i": 25.31,
+     "f": 25.636
+    },
+    {
+     "p": "anos",
+     "i": 25.649,
+     "f": 26.117
+    },
+    {
+     "p": "Mas",
+     "i": 27.366,
+     "f": 27.574
+    },
+    {
+     "p": "os",
+     "i": 27.587,
+     "f": 27.731
+    },
+    {
+     "p": "navios",
+     "i": 27.744,
+     "f": 28.238
+    },
+    {
+     "p": "ficaram",
+     "i": 28.252,
+     "f": 28.655
+    },
+    {
+     "p": "tão",
+     "i": 28.668,
+     "f": 28.876
+    },
+    {
+     "p": "largos",
+     "i": 28.89,
+     "f": 29.358
+    },
+    {
+     "p": "que",
+     "i": 29.371,
+     "f": 29.462
+    },
+    {
+     "p": "uma",
+     "i": 29.475,
+     "f": 29.684
+    },
+    {
+     "p": "parte",
+     "i": 29.697,
+     "f": 30.048
+    },
+    {
+     "p": "da",
+     "i": 30.061,
+     "f": 30.192
+    },
+    {
+     "p": "carga",
+     "i": 30.205,
+     "f": 30.569
+    },
+    {
+     "p": "mundial",
+     "i": 30.582,
+     "f": 30.96
+    },
+    {
+     "p": "simplesmente",
+     "i": 30.973,
+     "f": 31.741
+    },
+    {
+     "p": "já",
+     "i": 31.754,
+     "f": 31.923
+    },
+    {
+     "p": "não",
+     "i": 31.936,
+     "f": 32.132
+    },
+    {
+     "p": "cabia",
+     "i": 32.145,
+     "f": 32.653
+    },
+    {
+     "p": "O",
+     "i": 33.894,
+     "f": 33.998
+    },
+    {
+     "p": "canal",
+     "i": 34.011,
+     "f": 34.389
+    },
+    {
+     "p": "corria",
+     "i": 34.402,
+     "f": 34.753
+    },
+    {
+     "p": "o",
+     "i": 34.767,
+     "f": 34.806
+    },
+    {
+     "p": "risco",
+     "i": 34.819,
+     "f": 35.209
+    },
+    {
+     "p": "de",
+     "i": 35.222,
+     "f": 35.3
+    },
+    {
+     "p": "virar",
+     "i": 35.313,
+     "f": 35.639
+    },
+    {
+     "p": "uma",
+     "i": 35.652,
+     "f": 35.795
+    },
+    {
+     "p": "relíquia",
+     "i": 35.808,
+     "f": 36.368
+    }
+   ]
+  },
+  "ampliacao": {
+   "hash": "eaef7db6fb",
+   "texto": "Capítulo dois. Em outubro de dois mil e seis, os panamenhos votaram em referendo e aprovaram a ampliação, com cerca de setenta e oito por cento dos votos. A obra começou em dois mil e sete, com orçamento de cerca de cinco bilhões e duzentos e cinquenta milhões de dólares. Seriam dois novos complexos de eclusas: um no Atlântico, em Agua Clara, outro no Pacífico, em Cocolí. Cada câmara teria quatrocentos e vinte e sete metros de comprimento e cinquenta e cinco de largura. Mas havia um problema: navios maiores exigem muito mais água.",
+   "audio": "audio/ampliacao-eaef7db6fb.mp3",
+   "duracao": 40.438,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.74
+    },
+    {
+     "p": "dois",
+     "i": 0.753,
+     "f": 1.235
+    },
+    {
+     "p": "Em",
+     "i": 2.478,
+     "f": 2.66
+    },
+    {
+     "p": "outubro",
+     "i": 2.673,
+     "f": 3.168
+    },
+    {
+     "p": "de",
+     "i": 3.181,
+     "f": 3.259
+    },
+    {
+     "p": "dois",
+     "i": 3.272,
+     "f": 3.468
+    },
+    {
+     "p": "mil",
+     "i": 3.481,
+     "f": 3.598
+    },
+    {
+     "p": "e",
+     "i": 3.611,
+     "f": 3.663
+    },
+    {
+     "p": "seis",
+     "i": 3.676,
+     "f": 4.067
+    },
+    {
+     "p": "os",
+     "i": 4.405,
+     "f": 4.522
+    },
+    {
+     "p": "panamenhos",
+     "i": 4.535,
+     "f": 5.121
+    },
+    {
+     "p": "votaram",
+     "i": 5.134,
+     "f": 5.525
+    },
+    {
+     "p": "em",
+     "i": 5.538,
+     "f": 5.59
+    },
+    {
+     "p": "referendo",
+     "i": 5.603,
+     "f": 6.15
+    },
+    {
+     "p": "e",
+     "i": 6.163,
+     "f": 6.189
+    },
+    {
+     "p": "aprovaram",
+     "i": 6.202,
+     "f": 6.736
+    },
+    {
+     "p": "a",
+     "i": 6.749,
+     "f": 6.762
+    },
+    {
+     "p": "ampliação",
+     "i": 6.775,
+     "f": 7.465
+    },
+    {
+     "p": "com",
+     "i": 7.778,
+     "f": 7.96
+    },
+    {
+     "p": "cerca",
+     "i": 7.973,
+     "f": 8.403
+    },
+    {
+     "p": "de",
+     "i": 8.416,
+     "f": 8.52
+    },
+    {
+     "p": "setenta",
+     "i": 8.533,
+     "f": 8.989
+    },
+    {
+     "p": "e",
+     "i": 9.002,
+     "f": 9.028
+    },
+    {
+     "p": "oito",
+     "i": 9.041,
+     "f": 9.314
+    },
+    {
+     "p": "por",
+     "i": 9.327,
+     "f": 9.509
+    },
+    {
+     "p": "cento",
+     "i": 9.522,
+     "f": 9.874
+    },
+    {
+     "p": "dos",
+     "i": 9.887,
+     "f": 10.069
+    },
+    {
+     "p": "votos",
+     "i": 10.082,
+     "f": 10.616
+    },
+    {
+     "p": "A",
+     "i": 11.862,
+     "f": 12.031
+    },
+    {
+     "p": "obra",
+     "i": 12.044,
+     "f": 12.344
+    },
+    {
+     "p": "começou",
+     "i": 12.357,
+     "f": 12.852
+    },
+    {
+     "p": "em",
+     "i": 12.865,
+     "f": 12.93
+    },
+    {
+     "p": "dois",
+     "i": 12.943,
+     "f": 13.164
+    },
+    {
+     "p": "mil",
+     "i": 13.177,
+     "f": 13.294
+    },
+    {
+     "p": "e",
+     "i": 13.307,
+     "f": 13.359
+    },
+    {
+     "p": "sete",
+     "i": 13.373,
+     "f": 13.815
+    },
+    {
+     "p": "com",
+     "i": 14.102,
+     "f": 14.206
+    },
+    {
+     "p": "orçamento",
+     "i": 14.219,
+     "f": 14.831
+    },
+    {
+     "p": "de",
+     "i": 14.844,
+     "f": 14.961
+    },
+    {
+     "p": "cerca",
+     "i": 14.974,
+     "f": 15.365
+    },
+    {
+     "p": "de",
+     "i": 15.378,
+     "f": 15.495
+    },
+    {
+     "p": "cinco",
+     "i": 15.508,
+     "f": 15.938
+    },
+    {
+     "p": "bilhões",
+     "i": 15.951,
+     "f": 16.354
+    },
+    {
+     "p": "e",
+     "i": 16.367,
+     "f": 16.484
+    },
+    {
+     "p": "duzentos",
+     "i": 16.497,
+     "f": 16.953
+    },
+    {
+     "p": "e",
+     "i": 16.966,
+     "f": 17.07
+    },
+    {
+     "p": "cinquenta",
+     "i": 17.083,
+     "f": 17.552
+    },
+    {
+     "p": "milhões",
+     "i": 17.565,
+     "f": 17.982
+    },
+    {
+     "p": "de",
+     "i": 17.995,
+     "f": 18.099
+    },
+    {
+     "p": "dólares",
+     "i": 18.112,
+     "f": 18.724
+    },
+    {
+     "p": "Seriam",
+     "i": 19.974,
+     "f": 20.443
+    },
+    {
+     "p": "dois",
+     "i": 20.456,
+     "f": 20.742
+    },
+    {
+     "p": "novos",
+     "i": 20.755,
+     "f": 21.159
+    },
+    {
+     "p": "complexos",
+     "i": 21.172,
+     "f": 21.758
+    },
+    {
+     "p": "de",
+     "i": 21.771,
+     "f": 21.849
+    },
+    {
+     "p": "eclusas",
+     "i": 21.862,
+     "f": 22.435
+    },
+    {
+     "p": "um",
+     "i": 22.787,
+     "f": 22.904
+    },
+    {
+     "p": "no",
+     "i": 22.917,
+     "f": 23.008
+    },
+    {
+     "p": "Atlântico",
+     "i": 23.021,
+     "f": 23.685
+    },
+    {
+     "p": "em",
+     "i": 23.945,
+     "f": 24.128
+    },
+    {
+     "p": "Agua",
+     "i": 24.141,
+     "f": 24.414
+    },
+    {
+     "p": "Clara",
+     "i": 24.427,
+     "f": 24.818
+    },
+    {
+     "p": "outro",
+     "i": 25.091,
+     "f": 25.391
+    },
+    {
+     "p": "no",
+     "i": 25.404,
+     "f": 25.482
+    },
+    {
+     "p": "Pacífico",
+     "i": 25.495,
+     "f": 26.172
+    },
+    {
+     "p": "em",
+     "i": 26.406,
+     "f": 26.511
+    },
+    {
+     "p": "Cocolí",
+     "i": 26.524,
+     "f": 27.083
+    },
+    {
+     "p": "Cada",
+     "i": 28.326,
+     "f": 28.626
+    },
+    {
+     "p": "câmara",
+     "i": 28.639,
+     "f": 29.094
+    },
+    {
+     "p": "teria",
+     "i": 29.107,
+     "f": 29.394
+    },
+    {
+     "p": "quatrocentos",
+     "i": 29.407,
+     "f": 30.11
+    },
+    {
+     "p": "e",
+     "i": 30.123,
+     "f": 30.24
+    },
+    {
+     "p": "vinte",
+     "i": 30.253,
+     "f": 30.448
+    },
+    {
+     "p": "e",
+     "i": 30.461,
+     "f": 30.488
+    },
+    {
+     "p": "sete",
+     "i": 30.501,
+     "f": 30.813
+    },
+    {
+     "p": "metros",
+     "i": 30.826,
+     "f": 31.204
+    },
+    {
+     "p": "de",
+     "i": 31.217,
+     "f": 31.308
+    },
+    {
+     "p": "comprimento",
+     "i": 31.321,
+     "f": 31.894
+    },
+    {
+     "p": "e",
+     "i": 31.907,
+     "f": 31.946
+    },
+    {
+     "p": "cinquenta",
+     "i": 31.959,
+     "f": 32.402
+    },
+    {
+     "p": "e",
+     "i": 32.415,
+     "f": 32.454
+    },
+    {
+     "p": "cinco",
+     "i": 32.467,
+     "f": 32.805
+    },
+    {
+     "p": "de",
+     "i": 32.818,
+     "f": 32.883
+    },
+    {
+     "p": "largura",
+     "i": 32.896,
+     "f": 33.443
+    },
+    {
+     "p": "Mas",
+     "i": 34.686,
+     "f": 34.868
+    },
+    {
+     "p": "havia",
+     "i": 34.881,
+     "f": 35.246
+    },
+    {
+     "p": "um",
+     "i": 35.259,
+     "f": 35.324
+    },
+    {
+     "p": "problema",
+     "i": 35.337,
+     "f": 35.858
+    },
+    {
+     "p": "navios",
+     "i": 36.17,
+     "f": 36.639
+    },
+    {
+     "p": "maiores",
+     "i": 36.652,
+     "f": 37.147
+    },
+    {
+     "p": "exigem",
+     "i": 37.16,
+     "f": 37.668
+    },
+    {
+     "p": "muito",
+     "i": 37.681,
+     "f": 38.045
+    },
+    {
+     "p": "mais",
+     "i": 38.058,
+     "f": 38.228
+    },
+    {
+     "p": "água",
+     "i": 38.241,
+     "f": 38.697
+    }
+   ]
+  },
+  "bacias": {
+   "hash": "ec156c2b10",
+   "texto": "A solução foram as bacias de reaproveitamento. Cada câmara tem três, ao lado, em degraus. Quando a câmara esvazia, a água não vai direto para o mar: desce primeiro para as bacias. Na hora de encher, essa água volta, por gravidade, e só o restante vem do lago. Segundo a Autoridade do Canal, cerca de sessenta por cento da água de cada eclusagem é reaproveitada. As portas são deslizantes, e a água entra por dutos no fundo, sem turbulência que balance o navio. Cada complexo tem nove bacias no total.",
+   "audio": "audio/bacias-ec156c2b10.mp3",
+   "duracao": 40.934,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "solução",
+     "i": 0.232,
+     "f": 0.857
+    },
+    {
+     "p": "foram",
+     "i": 0.87,
+     "f": 1.118
+    },
+    {
+     "p": "as",
+     "i": 1.131,
+     "f": 1.235
+    },
+    {
+     "p": "bacias",
+     "i": 1.248,
+     "f": 1.808
+    },
+    {
+     "p": "de",
+     "i": 1.821,
+     "f": 1.912
+    },
+    {
+     "p": "reaproveitamento",
+     "i": 1.925,
+     "f": 2.954
+    },
+    {
+     "p": "Cada",
+     "i": 4.206,
+     "f": 4.519
+    },
+    {
+     "p": "câmara",
+     "i": 4.532,
+     "f": 4.961
+    },
+    {
+     "p": "tem",
+     "i": 4.974,
+     "f": 5.183
+    },
+    {
+     "p": "três",
+     "i": 5.196,
+     "f": 5.651
+    },
+    {
+     "p": "ao",
+     "i": 5.86,
+     "f": 6.003
+    },
+    {
+     "p": "lado",
+     "i": 6.016,
+     "f": 6.42
+    },
+    {
+     "p": "em",
+     "i": 6.602,
+     "f": 6.693
+    },
+    {
+     "p": "degraus",
+     "i": 6.706,
+     "f": 7.318
+    },
+    {
+     "p": "Quando",
+     "i": 8.574,
+     "f": 8.821
+    },
+    {
+     "p": "a",
+     "i": 8.834,
+     "f": 8.9
+    },
+    {
+     "p": "câmara",
+     "i": 8.913,
+     "f": 9.238
+    },
+    {
+     "p": "esvazia",
+     "i": 9.251,
+     "f": 9.85
+    },
+    {
+     "p": "a",
+     "i": 10.071,
+     "f": 10.15
+    },
+    {
+     "p": "água",
+     "i": 10.163,
+     "f": 10.462
+    },
+    {
+     "p": "não",
+     "i": 10.475,
+     "f": 10.683
+    },
+    {
+     "p": "vai",
+     "i": 10.696,
+     "f": 10.853
+    },
+    {
+     "p": "direto",
+     "i": 10.866,
+     "f": 11.295
+    },
+    {
+     "p": "para",
+     "i": 11.308,
+     "f": 11.478
+    },
+    {
+     "p": "o",
+     "i": 11.491,
+     "f": 11.517
+    },
+    {
+     "p": "mar",
+     "i": 11.53,
+     "f": 11.764
+    },
+    {
+     "p": "desce",
+     "i": 12.038,
+     "f": 12.337
+    },
+    {
+     "p": "primeiro",
+     "i": 12.35,
+     "f": 12.754
+    },
+    {
+     "p": "para",
+     "i": 12.767,
+     "f": 12.923
+    },
+    {
+     "p": "as",
+     "i": 12.936,
+     "f": 13.027
+    },
+    {
+     "p": "bacias",
+     "i": 13.04,
+     "f": 13.756
+    },
+    {
+     "p": "Na",
+     "i": 15.006,
+     "f": 15.201
+    },
+    {
+     "p": "hora",
+     "i": 15.214,
+     "f": 15.462
+    },
+    {
+     "p": "de",
+     "i": 15.475,
+     "f": 15.579
+    },
+    {
+     "p": "encher",
+     "i": 15.592,
+     "f": 16.009
+    },
+    {
+     "p": "essa",
+     "i": 16.282,
+     "f": 16.543
+    },
+    {
+     "p": "água",
+     "i": 16.556,
+     "f": 16.855
+    },
+    {
+     "p": "volta",
+     "i": 16.868,
+     "f": 17.311
+    },
+    {
+     "p": "por",
+     "i": 17.597,
+     "f": 17.753
+    },
+    {
+     "p": "gravidade",
+     "i": 17.766,
+     "f": 18.496
+    },
+    {
+     "p": "e",
+     "i": 18.769,
+     "f": 18.834
+    },
+    {
+     "p": "só",
+     "i": 18.847,
+     "f": 19.069
+    },
+    {
+     "p": "o",
+     "i": 19.082,
+     "f": 19.121
+    },
+    {
+     "p": "restante",
+     "i": 19.134,
+     "f": 19.694
+    },
+    {
+     "p": "vem",
+     "i": 19.707,
+     "f": 19.876
+    },
+    {
+     "p": "do",
+     "i": 19.889,
+     "f": 19.993
+    },
+    {
+     "p": "lago",
+     "i": 20.006,
+     "f": 20.397
+    },
+    {
+     "p": "Segundo",
+     "i": 21.654,
+     "f": 22.201
+    },
+    {
+     "p": "a",
+     "i": 22.214,
+     "f": 22.24
+    },
+    {
+     "p": "Autoridade",
+     "i": 22.253,
+     "f": 22.878
+    },
+    {
+     "p": "do",
+     "i": 22.891,
+     "f": 22.995
+    },
+    {
+     "p": "Canal",
+     "i": 23.008,
+     "f": 23.412
+    },
+    {
+     "p": "cerca",
+     "i": 23.776,
+     "f": 24.154
+    },
+    {
+     "p": "de",
+     "i": 24.167,
+     "f": 24.284
+    },
+    {
+     "p": "sessenta",
+     "i": 24.297,
+     "f": 24.766
+    },
+    {
+     "p": "por",
+     "i": 24.779,
+     "f": 24.922
+    },
+    {
+     "p": "cento",
+     "i": 24.935,
+     "f": 25.287
+    },
+    {
+     "p": "da",
+     "i": 25.3,
+     "f": 25.404
+    },
+    {
+     "p": "água",
+     "i": 25.417,
+     "f": 25.704
+    },
+    {
+     "p": "de",
+     "i": 25.717,
+     "f": 25.834
+    },
+    {
+     "p": "cada",
+     "i": 25.847,
+     "f": 26.068
+    },
+    {
+     "p": "eclusagem",
+     "i": 26.081,
+     "f": 26.745
+    },
+    {
+     "p": "é",
+     "i": 26.758,
+     "f": 26.81
+    },
+    {
+     "p": "reaproveitada",
+     "i": 26.823,
+     "f": 27.787
+    },
+    {
+     "p": "As",
+     "i": 29.046,
+     "f": 29.267
+    },
+    {
+     "p": "portas",
+     "i": 29.28,
+     "f": 29.736
+    },
+    {
+     "p": "são",
+     "i": 29.749,
+     "f": 29.918
+    },
+    {
+     "p": "deslizantes",
+     "i": 29.932,
+     "f": 30.752
+    },
+    {
+     "p": "e",
+     "i": 31.09,
+     "f": 31.168
+    },
+    {
+     "p": "a",
+     "i": 31.181,
+     "f": 31.26
+    },
+    {
+     "p": "água",
+     "i": 31.273,
+     "f": 31.598
+    },
+    {
+     "p": "entra",
+     "i": 31.611,
+     "f": 31.833
+    },
+    {
+     "p": "por",
+     "i": 31.846,
+     "f": 32.028
+    },
+    {
+     "p": "dutos",
+     "i": 32.041,
+     "f": 32.418
+    },
+    {
+     "p": "no",
+     "i": 32.431,
+     "f": 32.536
+    },
+    {
+     "p": "fundo",
+     "i": 32.549,
+     "f": 32.913
+    },
+    {
+     "p": "sem",
+     "i": 33.278,
+     "f": 33.499
+    },
+    {
+     "p": "turbulência",
+     "i": 33.512,
+     "f": 34.189
+    },
+    {
+     "p": "que",
+     "i": 34.202,
+     "f": 34.333
+    },
+    {
+     "p": "balance",
+     "i": 34.346,
+     "f": 34.801
+    },
+    {
+     "p": "o",
+     "i": 34.814,
+     "f": 34.827
+    },
+    {
+     "p": "navio",
+     "i": 34.84,
+     "f": 35.322
+    },
+    {
+     "p": "Cada",
+     "i": 36.582,
+     "f": 36.856
+    },
+    {
+     "p": "complexo",
+     "i": 36.869,
+     "f": 37.533
+    },
+    {
+     "p": "tem",
+     "i": 37.546,
+     "f": 37.715
+    },
+    {
+     "p": "nove",
+     "i": 37.728,
+     "f": 38.053
+    },
+    {
+     "p": "bacias",
+     "i": 38.066,
+     "f": 38.587
+    },
+    {
+     "p": "no",
+     "i": 38.6,
+     "f": 38.704
+    },
+    {
+     "p": "total",
+     "i": 38.717,
+     "f": 39.186
+    }
+   ]
+  },
+  "a-conta": {
+   "hash": "d47ec11479",
+   "texto": "Parece resolvido. Mas olhe os números. Reaproveitar sessenta por cento não significa gastar sessenta por cento menos. Segundo a própria Autoridade do Canal, a travessia nas eclusas novas gasta cerca de sete por cento menos água que nas antigas, mesmo com navios muito maiores. Sem as bacias, o gasto seria bem maior. Ou seja: a ampliação não criou água, só impediu que a conta explodisse. E cada navio ainda leva para o oceano milhões de litros de água doce. Quem paga essa conta é o lago.",
+   "audio": "audio/a-conta-d47ec11479.mp3",
+   "duracao": 40.725,
+   "palavras": [
+    {
+     "p": "Parece",
+     "i": 0.102,
+     "f": 0.597
+    },
+    {
+     "p": "resolvido",
+     "i": 0.61,
+     "f": 1.274
+    },
+    {
+     "p": "Mas",
+     "i": 2.526,
+     "f": 2.76
+    },
+    {
+     "p": "olhe",
+     "i": 2.773,
+     "f": 3.125
+    },
+    {
+     "p": "os",
+     "i": 3.138,
+     "f": 3.255
+    },
+    {
+     "p": "números",
+     "i": 3.268,
+     "f": 3.815
+    },
+    {
+     "p": "Reaproveitar",
+     "i": 5.07,
+     "f": 5.877
+    },
+    {
+     "p": "sessenta",
+     "i": 5.89,
+     "f": 6.359
+    },
+    {
+     "p": "por",
+     "i": 6.372,
+     "f": 6.515
+    },
+    {
+     "p": "cento",
+     "i": 6.528,
+     "f": 6.906
+    },
+    {
+     "p": "não",
+     "i": 6.919,
+     "f": 7.062
+    },
+    {
+     "p": "significa",
+     "i": 7.075,
+     "f": 7.687
+    },
+    {
+     "p": "gastar",
+     "i": 7.7,
+     "f": 8.065
+    },
+    {
+     "p": "sessenta",
+     "i": 8.078,
+     "f": 8.599
+    },
+    {
+     "p": "por",
+     "i": 8.612,
+     "f": 8.755
+    },
+    {
+     "p": "cento",
+     "i": 8.768,
+     "f": 9.133
+    },
+    {
+     "p": "menos",
+     "i": 9.146,
+     "f": 9.614
+    },
+    {
+     "p": "Segundo",
+     "i": 10.854,
+     "f": 11.388
+    },
+    {
+     "p": "a",
+     "i": 11.401,
+     "f": 11.479
+    },
+    {
+     "p": "própria",
+     "i": 11.492,
+     "f": 11.87
+    },
+    {
+     "p": "Autoridade",
+     "i": 11.883,
+     "f": 12.456
+    },
+    {
+     "p": "do",
+     "i": 12.469,
+     "f": 12.573
+    },
+    {
+     "p": "Canal",
+     "i": 12.586,
+     "f": 13.003
+    },
+    {
+     "p": "a",
+     "i": 13.302,
+     "f": 13.367
+    },
+    {
+     "p": "travessia",
+     "i": 13.38,
+     "f": 13.914
+    },
+    {
+     "p": "nas",
+     "i": 13.927,
+     "f": 14.005
+    },
+    {
+     "p": "eclusas",
+     "i": 14.018,
+     "f": 14.591
+    },
+    {
+     "p": "novas",
+     "i": 14.604,
+     "f": 14.93
+    },
+    {
+     "p": "gasta",
+     "i": 14.943,
+     "f": 15.333
+    },
+    {
+     "p": "cerca",
+     "i": 15.346,
+     "f": 15.698
+    },
+    {
+     "p": "de",
+     "i": 15.711,
+     "f": 15.841
+    },
+    {
+     "p": "sete",
+     "i": 15.854,
+     "f": 16.219
+    },
+    {
+     "p": "por",
+     "i": 16.232,
+     "f": 16.362
+    },
+    {
+     "p": "cento",
+     "i": 16.375,
+     "f": 16.7
+    },
+    {
+     "p": "menos",
+     "i": 16.713,
+     "f": 16.948
+    },
+    {
+     "p": "água",
+     "i": 16.961,
+     "f": 17.312
+    },
+    {
+     "p": "que",
+     "i": 17.325,
+     "f": 17.443
+    },
+    {
+     "p": "nas",
+     "i": 17.456,
+     "f": 17.56
+    },
+    {
+     "p": "antigas",
+     "i": 17.573,
+     "f": 18.263
+    },
+    {
+     "p": "mesmo",
+     "i": 18.536,
+     "f": 18.94
+    },
+    {
+     "p": "com",
+     "i": 18.953,
+     "f": 19.096
+    },
+    {
+     "p": "navios",
+     "i": 19.109,
+     "f": 19.565
+    },
+    {
+     "p": "muito",
+     "i": 19.578,
+     "f": 19.93
+    },
+    {
+     "p": "maiores",
+     "i": 19.943,
+     "f": 20.516
+    },
+    {
+     "p": "Sem",
+     "i": 21.774,
+     "f": 22.113
+    },
+    {
+     "p": "as",
+     "i": 22.126,
+     "f": 22.243
+    },
+    {
+     "p": "bacias",
+     "i": 22.256,
+     "f": 22.92
+    },
+    {
+     "p": "o",
+     "i": 23.154,
+     "f": 23.245
+    },
+    {
+     "p": "gasto",
+     "i": 23.258,
+     "f": 23.662
+    },
+    {
+     "p": "seria",
+     "i": 23.675,
+     "f": 24.014
+    },
+    {
+     "p": "bem",
+     "i": 24.027,
+     "f": 24.248
+    },
+    {
+     "p": "maior",
+     "i": 24.261,
+     "f": 24.652
+    },
+    {
+     "p": "Ou",
+     "i": 25.902,
+     "f": 26.071
+    },
+    {
+     "p": "seja",
+     "i": 26.084,
+     "f": 26.553
+    },
+    {
+     "p": "a",
+     "i": 26.827,
+     "f": 26.892
+    },
+    {
+     "p": "ampliação",
+     "i": 26.905,
+     "f": 27.621
+    },
+    {
+     "p": "não",
+     "i": 27.634,
+     "f": 27.79
+    },
+    {
+     "p": "criou",
+     "i": 27.803,
+     "f": 28.142
+    },
+    {
+     "p": "água",
+     "i": 28.155,
+     "f": 28.467
+    },
+    {
+     "p": "só",
+     "i": 28.728,
+     "f": 28.897
+    },
+    {
+     "p": "impediu",
+     "i": 28.91,
+     "f": 29.392
+    },
+    {
+     "p": "que",
+     "i": 29.405,
+     "f": 29.496
+    },
+    {
+     "p": "a",
+     "i": 29.509,
+     "f": 29.574
+    },
+    {
+     "p": "conta",
+     "i": 29.587,
+     "f": 29.913
+    },
+    {
+     "p": "explodisse",
+     "i": 29.926,
+     "f": 30.642
+    },
+    {
+     "p": "E",
+     "i": 31.902,
+     "f": 32.045
+    },
+    {
+     "p": "cada",
+     "i": 32.058,
+     "f": 32.319
+    },
+    {
+     "p": "navio",
+     "i": 32.332,
+     "f": 32.709
+    },
+    {
+     "p": "ainda",
+     "i": 32.722,
+     "f": 32.97
+    },
+    {
+     "p": "leva",
+     "i": 32.983,
+     "f": 33.36
+    },
+    {
+     "p": "para",
+     "i": 33.373,
+     "f": 33.543
+    },
+    {
+     "p": "o",
+     "i": 33.556,
+     "f": 33.569
+    },
+    {
+     "p": "oceano",
+     "i": 33.582,
+     "f": 34.038
+    },
+    {
+     "p": "milhões",
+     "i": 34.051,
+     "f": 34.493
+    },
+    {
+     "p": "de",
+     "i": 34.506,
+     "f": 34.61
+    },
+    {
+     "p": "litros",
+     "i": 34.623,
+     "f": 35.027
+    },
+    {
+     "p": "de",
+     "i": 35.04,
+     "f": 35.131
+    },
+    {
+     "p": "água",
+     "i": 35.144,
+     "f": 35.444
+    },
+    {
+     "p": "doce",
+     "i": 35.457,
+     "f": 35.899
+    },
+    {
+     "p": "Quem",
+     "i": 37.158,
+     "f": 37.445
+    },
+    {
+     "p": "paga",
+     "i": 37.458,
+     "f": 37.796
+    },
+    {
+     "p": "essa",
+     "i": 37.809,
+     "f": 38.083
+    },
+    {
+     "p": "conta",
+     "i": 38.096,
+     "f": 38.434
+    },
+    {
+     "p": "é",
+     "i": 38.447,
+     "f": 38.512
+    },
+    {
+     "p": "o",
+     "i": 38.525,
+     "f": 38.577
+    },
+    {
+     "p": "lago",
+     "i": 38.59,
+     "f": 38.968
+    }
+   ]
+  },
+  "o-lago": {
+   "hash": "08d198fa0d",
+   "texto": "Capítulo quatro. O Lago Gatún cobre cerca de quatrocentos e vinte e cinco quilômetros quadrados e é alimentado pela chuva. Só pela chuva. Não há geleira nem grande rio por trás dele. E essa água tem outros donos: segundo a Autoridade do Canal, ela abastece de água potável mais de dois milhões de panamenhos, entre eles os moradores da capital. Cada navio que cruza o canal compete, de certo modo, com quem abre a torneira em casa. Por isso, o tamanho do navio importa menos do que o nível do lago.",
+   "audio": "audio/o-lago-08d198fa0d.mp3",
+   "duracao": 39.105,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.727
+    },
+    {
+     "p": "quatro",
+     "i": 0.74,
+     "f": 1.209
+    },
+    {
+     "p": "O",
+     "i": 2.454,
+     "f": 2.571
+    },
+    {
+     "p": "Lago",
+     "i": 2.584,
+     "f": 2.936
+    },
+    {
+     "p": "Gatún",
+     "i": 2.949,
+     "f": 3.34
+    },
+    {
+     "p": "cobre",
+     "i": 3.353,
+     "f": 3.665
+    },
+    {
+     "p": "cerca",
+     "i": 3.678,
+     "f": 4.082
+    },
+    {
+     "p": "de",
+     "i": 4.095,
+     "f": 4.186
+    },
+    {
+     "p": "quatrocentos",
+     "i": 4.199,
+     "f": 4.876
+    },
+    {
+     "p": "e",
+     "i": 4.889,
+     "f": 4.993
+    },
+    {
+     "p": "vinte",
+     "i": 5.006,
+     "f": 5.241
+    },
+    {
+     "p": "e",
+     "i": 5.254,
+     "f": 5.28
+    },
+    {
+     "p": "cinco",
+     "i": 5.293,
+     "f": 5.592
+    },
+    {
+     "p": "quilômetros",
+     "i": 5.605,
+     "f": 6.23
+    },
+    {
+     "p": "quadrados",
+     "i": 6.243,
+     "f": 6.803
+    },
+    {
+     "p": "e",
+     "i": 6.816,
+     "f": 6.907
+    },
+    {
+     "p": "é",
+     "i": 6.92,
+     "f": 6.972
+    },
+    {
+     "p": "alimentado",
+     "i": 6.985,
+     "f": 7.701
+    },
+    {
+     "p": "pela",
+     "i": 7.714,
+     "f": 7.923
+    },
+    {
+     "p": "chuva",
+     "i": 7.936,
+     "f": 8.366
+    },
+    {
+     "p": "Só",
+     "i": 9.606,
+     "f": 9.893
+    },
+    {
+     "p": "pela",
+     "i": 9.906,
+     "f": 10.153
+    },
+    {
+     "p": "chuva",
+     "i": 10.166,
+     "f": 10.648
+    },
+    {
+     "p": "Não",
+     "i": 11.91,
+     "f": 12.17
+    },
+    {
+     "p": "há",
+     "i": 12.184,
+     "f": 12.262
+    },
+    {
+     "p": "geleira",
+     "i": 12.275,
+     "f": 12.743
+    },
+    {
+     "p": "nem",
+     "i": 12.756,
+     "f": 12.952
+    },
+    {
+     "p": "grande",
+     "i": 12.965,
+     "f": 13.394
+    },
+    {
+     "p": "rio",
+     "i": 13.407,
+     "f": 13.655
+    },
+    {
+     "p": "por",
+     "i": 13.668,
+     "f": 13.837
+    },
+    {
+     "p": "trás",
+     "i": 13.85,
+     "f": 14.124
+    },
+    {
+     "p": "dele",
+     "i": 14.137,
+     "f": 14.488
+    },
+    {
+     "p": "E",
+     "i": 15.75,
+     "f": 15.867
+    },
+    {
+     "p": "essa",
+     "i": 15.88,
+     "f": 16.154
+    },
+    {
+     "p": "água",
+     "i": 16.167,
+     "f": 16.479
+    },
+    {
+     "p": "tem",
+     "i": 16.492,
+     "f": 16.662
+    },
+    {
+     "p": "outros",
+     "i": 16.675,
+     "f": 17.026
+    },
+    {
+     "p": "donos",
+     "i": 17.039,
+     "f": 17.508
+    },
+    {
+     "p": "segundo",
+     "i": 17.768,
+     "f": 18.172
+    },
+    {
+     "p": "a",
+     "i": 18.185,
+     "f": 18.211
+    },
+    {
+     "p": "Autoridade",
+     "i": 18.224,
+     "f": 18.849
+    },
+    {
+     "p": "do",
+     "i": 18.862,
+     "f": 18.966
+    },
+    {
+     "p": "Canal",
+     "i": 18.979,
+     "f": 19.422
+    },
+    {
+     "p": "ela",
+     "i": 19.604,
+     "f": 19.76
+    },
+    {
+     "p": "abastece",
+     "i": 19.774,
+     "f": 20.281
+    },
+    {
+     "p": "de",
+     "i": 20.294,
+     "f": 20.438
+    },
+    {
+     "p": "água",
+     "i": 20.451,
+     "f": 20.75
+    },
+    {
+     "p": "potável",
+     "i": 20.763,
+     "f": 21.232
+    },
+    {
+     "p": "mais",
+     "i": 21.245,
+     "f": 21.544
+    },
+    {
+     "p": "de",
+     "i": 21.557,
+     "f": 21.662
+    },
+    {
+     "p": "dois",
+     "i": 21.675,
+     "f": 22.052
+    },
+    {
+     "p": "milhões",
+     "i": 22.065,
+     "f": 22.573
+    },
+    {
+     "p": "de",
+     "i": 22.586,
+     "f": 22.677
+    },
+    {
+     "p": "panamenhos",
+     "i": 22.69,
+     "f": 23.302
+    },
+    {
+     "p": "entre",
+     "i": 23.641,
+     "f": 23.914
+    },
+    {
+     "p": "eles",
+     "i": 23.927,
+     "f": 24.162
+    },
+    {
+     "p": "os",
+     "i": 24.175,
+     "f": 24.344
+    },
+    {
+     "p": "moradores",
+     "i": 24.357,
+     "f": 24.969
+    },
+    {
+     "p": "da",
+     "i": 24.982,
+     "f": 25.099
+    },
+    {
+     "p": "capital",
+     "i": 25.112,
+     "f": 25.685
+    },
+    {
+     "p": "Cada",
+     "i": 26.934,
+     "f": 27.168
+    },
+    {
+     "p": "navio",
+     "i": 27.181,
+     "f": 27.572
+    },
+    {
+     "p": "que",
+     "i": 27.585,
+     "f": 27.728
+    },
+    {
+     "p": "cruza",
+     "i": 27.741,
+     "f": 28.067
+    },
+    {
+     "p": "o",
+     "i": 28.08,
+     "f": 28.106
+    },
+    {
+     "p": "canal",
+     "i": 28.119,
+     "f": 28.419
+    },
+    {
+     "p": "compete",
+     "i": 28.431,
+     "f": 29.03
+    },
+    {
+     "p": "de",
+     "i": 29.239,
+     "f": 29.369
+    },
+    {
+     "p": "certo",
+     "i": 29.382,
+     "f": 29.747
+    },
+    {
+     "p": "modo",
+     "i": 29.76,
+     "f": 30.163
+    },
+    {
+     "p": "com",
+     "i": 30.45,
+     "f": 30.619
+    },
+    {
+     "p": "quem",
+     "i": 30.632,
+     "f": 30.879
+    },
+    {
+     "p": "abre",
+     "i": 30.892,
+     "f": 31.14
+    },
+    {
+     "p": "a",
+     "i": 31.153,
+     "f": 31.192
+    },
+    {
+     "p": "torneira",
+     "i": 31.205,
+     "f": 31.596
+    },
+    {
+     "p": "em",
+     "i": 31.609,
+     "f": 31.687
+    },
+    {
+     "p": "casa",
+     "i": 31.7,
+     "f": 32.077
+    },
+    {
+     "p": "Por",
+     "i": 33.318,
+     "f": 33.526
+    },
+    {
+     "p": "isso",
+     "i": 33.539,
+     "f": 33.904
+    },
+    {
+     "p": "o",
+     "i": 34.23,
+     "f": 34.321
+    },
+    {
+     "p": "tamanho",
+     "i": 34.334,
+     "f": 34.789
+    },
+    {
+     "p": "do",
+     "i": 34.802,
+     "f": 34.894
+    },
+    {
+     "p": "navio",
+     "i": 34.907,
+     "f": 35.245
+    },
+    {
+     "p": "importa",
+     "i": 35.258,
+     "f": 35.74
+    },
+    {
+     "p": "menos",
+     "i": 35.753,
+     "f": 36.131
+    },
+    {
+     "p": "do",
+     "i": 36.144,
+     "f": 36.274
+    },
+    {
+     "p": "que",
+     "i": 36.287,
+     "f": 36.404
+    },
+    {
+     "p": "o",
+     "i": 36.417,
+     "f": 36.443
+    },
+    {
+     "p": "nível",
+     "i": 36.456,
+     "f": 36.808
+    },
+    {
+     "p": "do",
+     "i": 36.821,
+     "f": 36.925
+    },
+    {
+     "p": "lago",
+     "i": 36.938,
+     "f": 37.355
+    }
+   ]
+  },
+  "seca-2023": {
+   "hash": "493ce49606",
+   "texto": "Então veio dois mil e vinte e três. Um El Niño forte atrasou as chuvas, e o lago baixou ao menor nível em anos. Para os navios maiores, a profundidade permitida caiu de cerca de quinze para cerca de treze metros e meio, e a carga precisou ser reduzida. Nas eclusas antigas, a média ficou limitada a vinte e duas travessias por dia, e as filas se formaram nos dois oceanos. As bacias ajudaram. As eclusas novas continuaram abertas. Mas nenhuma engenharia faz chover. O limite do canal nunca foi o concreto. Foi sempre a água.",
+   "audio": "audio/seca-2023-493ce49606.mp3",
+   "duracao": 44.382,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.61
+    },
+    {
+     "p": "veio",
+     "i": 0.623,
+     "f": 0.857
+    },
+    {
+     "p": "dois",
+     "i": 0.87,
+     "f": 1.105
+    },
+    {
+     "p": "mil",
+     "i": 1.118,
+     "f": 1.261
+    },
+    {
+     "p": "e",
+     "i": 1.274,
+     "f": 1.339
+    },
+    {
+     "p": "vinte",
+     "i": 1.352,
+     "f": 1.599
+    },
+    {
+     "p": "e",
+     "i": 1.613,
+     "f": 1.652
+    },
+    {
+     "p": "três",
+     "i": 1.665,
+     "f": 2.094
+    },
+    {
+     "p": "Um",
+     "i": 3.342,
+     "f": 3.511
+    },
+    {
+     "p": "El",
+     "i": 3.524,
+     "f": 3.616
+    },
+    {
+     "p": "Niño",
+     "i": 3.629,
+     "f": 3.941
+    },
+    {
+     "p": "forte",
+     "i": 3.954,
+     "f": 4.371
+    },
+    {
+     "p": "atrasou",
+     "i": 4.384,
+     "f": 4.774
+    },
+    {
+     "p": "as",
+     "i": 4.787,
+     "f": 4.905
+    },
+    {
+     "p": "chuvas",
+     "i": 4.918,
+     "f": 5.438
+    },
+    {
+     "p": "e",
+     "i": 5.712,
+     "f": 5.79
+    },
+    {
+     "p": "o",
+     "i": 5.803,
+     "f": 5.842
+    },
+    {
+     "p": "lago",
+     "i": 5.855,
+     "f": 6.22
+    },
+    {
+     "p": "baixou",
+     "i": 6.233,
+     "f": 6.636
+    },
+    {
+     "p": "ao",
+     "i": 6.649,
+     "f": 6.714
+    },
+    {
+     "p": "menor",
+     "i": 6.727,
+     "f": 7.118
+    },
+    {
+     "p": "nível",
+     "i": 7.131,
+     "f": 7.522
+    },
+    {
+     "p": "em",
+     "i": 7.535,
+     "f": 7.639
+    },
+    {
+     "p": "anos",
+     "i": 7.652,
+     "f": 8.082
+    },
+    {
+     "p": "Para",
+     "i": 9.342,
+     "f": 9.537
+    },
+    {
+     "p": "os",
+     "i": 9.55,
+     "f": 9.616
+    },
+    {
+     "p": "navios",
+     "i": 9.629,
+     "f": 10.006
+    },
+    {
+     "p": "maiores",
+     "i": 10.019,
+     "f": 10.631
+    },
+    {
+     "p": "a",
+     "i": 10.787,
+     "f": 10.853
+    },
+    {
+     "p": "profundidade",
+     "i": 10.866,
+     "f": 11.673
+    },
+    {
+     "p": "permitida",
+     "i": 11.686,
+     "f": 12.22
+    },
+    {
+     "p": "caiu",
+     "i": 12.233,
+     "f": 12.493
+    },
+    {
+     "p": "de",
+     "i": 12.506,
+     "f": 12.636
+    },
+    {
+     "p": "cerca",
+     "i": 12.649,
+     "f": 13.014
+    },
+    {
+     "p": "de",
+     "i": 13.027,
+     "f": 13.144
+    },
+    {
+     "p": "quinze",
+     "i": 13.157,
+     "f": 13.574
+    },
+    {
+     "p": "para",
+     "i": 13.587,
+     "f": 13.782
+    },
+    {
+     "p": "cerca",
+     "i": 13.795,
+     "f": 14.16
+    },
+    {
+     "p": "de",
+     "i": 14.173,
+     "f": 14.316
+    },
+    {
+     "p": "treze",
+     "i": 14.329,
+     "f": 14.655
+    },
+    {
+     "p": "metros",
+     "i": 14.668,
+     "f": 14.993
+    },
+    {
+     "p": "e",
+     "i": 15.006,
+     "f": 15.123
+    },
+    {
+     "p": "meio",
+     "i": 15.136,
+     "f": 15.462
+    },
+    {
+     "p": "e",
+     "i": 15.826,
+     "f": 15.931
+    },
+    {
+     "p": "a",
+     "i": 15.944,
+     "f": 16.035
+    },
+    {
+     "p": "carga",
+     "i": 16.048,
+     "f": 16.425
+    },
+    {
+     "p": "precisou",
+     "i": 16.438,
+     "f": 16.933
+    },
+    {
+     "p": "ser",
+     "i": 16.946,
+     "f": 17.129
+    },
+    {
+     "p": "reduzida",
+     "i": 17.142,
+     "f": 17.819
+    },
+    {
+     "p": "Nas",
+     "i": 19.062,
+     "f": 19.231
+    },
+    {
+     "p": "eclusas",
+     "i": 19.244,
+     "f": 19.804
+    },
+    {
+     "p": "antigas",
+     "i": 19.817,
+     "f": 20.52
+    },
+    {
+     "p": "a",
+     "i": 20.755,
+     "f": 20.82
+    },
+    {
+     "p": "média",
+     "i": 20.833,
+     "f": 21.211
+    },
+    {
+     "p": "ficou",
+     "i": 21.224,
+     "f": 21.51
+    },
+    {
+     "p": "limitada",
+     "i": 21.523,
+     "f": 22.07
+    },
+    {
+     "p": "a",
+     "i": 22.083,
+     "f": 22.135
+    },
+    {
+     "p": "vinte",
+     "i": 22.148,
+     "f": 22.408
+    },
+    {
+     "p": "e",
+     "i": 22.421,
+     "f": 22.447
+    },
+    {
+     "p": "duas",
+     "i": 22.461,
+     "f": 22.734
+    },
+    {
+     "p": "travessias",
+     "i": 22.747,
+     "f": 23.372
+    },
+    {
+     "p": "por",
+     "i": 23.385,
+     "f": 23.58
+    },
+    {
+     "p": "dia",
+     "i": 23.593,
+     "f": 23.919
+    },
+    {
+     "p": "e",
+     "i": 24.283,
+     "f": 24.388
+    },
+    {
+     "p": "as",
+     "i": 24.401,
+     "f": 24.57
+    },
+    {
+     "p": "filas",
+     "i": 24.583,
+     "f": 24.934
+    },
+    {
+     "p": "se",
+     "i": 24.947,
+     "f": 25.039
+    },
+    {
+     "p": "formaram",
+     "i": 25.052,
+     "f": 25.559
+    },
+    {
+     "p": "nos",
+     "i": 25.572,
+     "f": 25.729
+    },
+    {
+     "p": "dois",
+     "i": 25.742,
+     "f": 25.976
+    },
+    {
+     "p": "oceanos",
+     "i": 25.989,
+     "f": 26.718
+    },
+    {
+     "p": "As",
+     "i": 27.966,
+     "f": 28.148
+    },
+    {
+     "p": "bacias",
+     "i": 28.161,
+     "f": 28.669
+    },
+    {
+     "p": "ajudaram",
+     "i": 28.682,
+     "f": 29.359
+    },
+    {
+     "p": "As",
+     "i": 30.606,
+     "f": 30.736
+    },
+    {
+     "p": "eclusas",
+     "i": 30.749,
+     "f": 31.361
+    },
+    {
+     "p": "novas",
+     "i": 31.374,
+     "f": 31.765
+    },
+    {
+     "p": "continuaram",
+     "i": 31.778,
+     "f": 32.481
+    },
+    {
+     "p": "abertas",
+     "i": 32.494,
+     "f": 33.171
+    },
+    {
+     "p": "Mas",
+     "i": 34.422,
+     "f": 34.696
+    },
+    {
+     "p": "nenhuma",
+     "i": 34.709,
+     "f": 35.099
+    },
+    {
+     "p": "engenharia",
+     "i": 35.112,
+     "f": 35.737
+    },
+    {
+     "p": "faz",
+     "i": 35.75,
+     "f": 35.959
+    },
+    {
+     "p": "chover",
+     "i": 35.972,
+     "f": 36.375
+    },
+    {
+     "p": "O",
+     "i": 37.638,
+     "f": 37.755
+    },
+    {
+     "p": "limite",
+     "i": 37.768,
+     "f": 38.237
+    },
+    {
+     "p": "do",
+     "i": 38.25,
+     "f": 38.354
+    },
+    {
+     "p": "canal",
+     "i": 38.367,
+     "f": 38.771
+    },
+    {
+     "p": "nunca",
+     "i": 38.784,
+     "f": 39.214
+    },
+    {
+     "p": "foi",
+     "i": 39.227,
+     "f": 39.422
+    },
+    {
+     "p": "o",
+     "i": 39.435,
+     "f": 39.487
+    },
+    {
+     "p": "concreto",
+     "i": 39.5,
+     "f": 40.112
+    },
+    {
+     "p": "Foi",
+     "i": 41.358,
+     "f": 41.645
+    },
+    {
+     "p": "sempre",
+     "i": 41.658,
+     "f": 42.113
+    },
+    {
+     "p": "a",
+     "i": 42.126,
+     "f": 42.191
+    },
+    {
+     "p": "água",
+     "i": 42.204,
+     "f": 42.621
+    }
+   ]
+  },
+  "rio-indio": {
+   "hash": "24e797f3d1",
+   "texto": "Capítulo cinco. A resposta do Panamá é mais água. O projeto do reservatório do Rio Indio prevê represar esse rio, a oeste do canal, para ligar sua água ao Lago Gatún e garantir o consumo humano e as travessias. É uma obra bilionária. Também é polêmica: comunidades rurais que vivem no vale precisariam ser deslocadas, e muitas protestam. O canal ganha segurança; o vale perde casas e terras. Não existe ampliação neutra. Cada grande obra resolve um limite e cria outro.",
+   "audio": "audio/rio-indio-24e797f3d1.mp3",
+   "duracao": 40.02,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.727
+    },
+    {
+     "p": "cinco",
+     "i": 0.74,
+     "f": 1.196
+    },
+    {
+     "p": "A",
+     "i": 2.454,
+     "f": 2.571
+    },
+    {
+     "p": "resposta",
+     "i": 2.584,
+     "f": 3.196
+    },
+    {
+     "p": "do",
+     "i": 3.209,
+     "f": 3.313
+    },
+    {
+     "p": "Panamá",
+     "i": 3.327,
+     "f": 3.691
+    },
+    {
+     "p": "é",
+     "i": 3.704,
+     "f": 3.795
+    },
+    {
+     "p": "mais",
+     "i": 3.808,
+     "f": 4.056
+    },
+    {
+     "p": "água",
+     "i": 4.069,
+     "f": 4.524
+    },
+    {
+     "p": "O",
+     "i": 5.766,
+     "f": 5.883
+    },
+    {
+     "p": "projeto",
+     "i": 5.896,
+     "f": 6.482
+    },
+    {
+     "p": "do",
+     "i": 6.495,
+     "f": 6.573
+    },
+    {
+     "p": "reservatório",
+     "i": 6.586,
+     "f": 7.316
+    },
+    {
+     "p": "do",
+     "i": 7.329,
+     "f": 7.42
+    },
+    {
+     "p": "Rio",
+     "i": 7.433,
+     "f": 7.693
+    },
+    {
+     "p": "Indio",
+     "i": 7.706,
+     "f": 7.928
+    },
+    {
+     "p": "prevê",
+     "i": 7.941,
+     "f": 8.266
+    },
+    {
+     "p": "represar",
+     "i": 8.279,
+     "f": 8.8
+    },
+    {
+     "p": "esse",
+     "i": 8.813,
+     "f": 9.021
+    },
+    {
+     "p": "rio",
+     "i": 9.034,
+     "f": 9.36
+    },
+    {
+     "p": "a",
+     "i": 9.737,
+     "f": 9.855
+    },
+    {
+     "p": "oeste",
+     "i": 9.868,
+     "f": 10.271
+    },
+    {
+     "p": "do",
+     "i": 10.284,
+     "f": 10.415
+    },
+    {
+     "p": "canal",
+     "i": 10.428,
+     "f": 10.87
+    },
+    {
+     "p": "para",
+     "i": 11.157,
+     "f": 11.339
+    },
+    {
+     "p": "ligar",
+     "i": 11.352,
+     "f": 11.691
+    },
+    {
+     "p": "sua",
+     "i": 11.704,
+     "f": 11.899
+    },
+    {
+     "p": "água",
+     "i": 11.912,
+     "f": 12.224
+    },
+    {
+     "p": "ao",
+     "i": 12.237,
+     "f": 12.329
+    },
+    {
+     "p": "Lago",
+     "i": 12.342,
+     "f": 12.628
+    },
+    {
+     "p": "Gatún",
+     "i": 12.641,
+     "f": 13.071
+    },
+    {
+     "p": "e",
+     "i": 13.084,
+     "f": 13.11
+    },
+    {
+     "p": "garantir",
+     "i": 13.123,
+     "f": 13.618
+    },
+    {
+     "p": "o",
+     "i": 13.631,
+     "f": 13.67
+    },
+    {
+     "p": "consumo",
+     "i": 13.683,
+     "f": 14.139
+    },
+    {
+     "p": "humano",
+     "i": 14.152,
+     "f": 14.633
+    },
+    {
+     "p": "e",
+     "i": 14.646,
+     "f": 14.711
+    },
+    {
+     "p": "as",
+     "i": 14.724,
+     "f": 14.855
+    },
+    {
+     "p": "travessias",
+     "i": 14.868,
+     "f": 15.714
+    },
+    {
+     "p": "É",
+     "i": 16.974,
+     "f": 17.091
+    },
+    {
+     "p": "uma",
+     "i": 17.104,
+     "f": 17.313
+    },
+    {
+     "p": "obra",
+     "i": 17.326,
+     "f": 17.664
+    },
+    {
+     "p": "bilionária",
+     "i": 17.677,
+     "f": 18.341
+    },
+    {
+     "p": "Também",
+     "i": 19.59,
+     "f": 20.059
+    },
+    {
+     "p": "é",
+     "i": 20.072,
+     "f": 20.124
+    },
+    {
+     "p": "polêmica",
+     "i": 20.137,
+     "f": 20.775
+    },
+    {
+     "p": "comunidades",
+     "i": 21.074,
+     "f": 21.791
+    },
+    {
+     "p": "rurais",
+     "i": 21.804,
+     "f": 22.259
+    },
+    {
+     "p": "que",
+     "i": 22.272,
+     "f": 22.416
+    },
+    {
+     "p": "vivem",
+     "i": 22.429,
+     "f": 22.754
+    },
+    {
+     "p": "no",
+     "i": 22.767,
+     "f": 22.884
+    },
+    {
+     "p": "vale",
+     "i": 22.897,
+     "f": 23.171
+    },
+    {
+     "p": "precisariam",
+     "i": 23.184,
+     "f": 23.757
+    },
+    {
+     "p": "ser",
+     "i": 23.77,
+     "f": 24.004
+    },
+    {
+     "p": "deslocadas",
+     "i": 24.017,
+     "f": 24.811
+    },
+    {
+     "p": "e",
+     "i": 25.033,
+     "f": 25.098
+    },
+    {
+     "p": "muitas",
+     "i": 25.111,
+     "f": 25.593
+    },
+    {
+     "p": "protestam",
+     "i": 25.606,
+     "f": 26.244
+    },
+    {
+     "p": "O",
+     "i": 27.486,
+     "f": 27.603
+    },
+    {
+     "p": "canal",
+     "i": 27.616,
+     "f": 28.007
+    },
+    {
+     "p": "ganha",
+     "i": 28.02,
+     "f": 28.28
+    },
+    {
+     "p": "segurança",
+     "i": 28.293,
+     "f": 28.97
+    },
+    {
+     "p": "o",
+     "i": 29.205,
+     "f": 29.296
+    },
+    {
+     "p": "vale",
+     "i": 29.309,
+     "f": 29.621
+    },
+    {
+     "p": "perde",
+     "i": 29.635,
+     "f": 29.999
+    },
+    {
+     "p": "casas",
+     "i": 30.012,
+     "f": 30.377
+    },
+    {
+     "p": "e",
+     "i": 30.39,
+     "f": 30.533
+    },
+    {
+     "p": "terras",
+     "i": 30.546,
+     "f": 31.067
+    },
+    {
+     "p": "Não",
+     "i": 32.31,
+     "f": 32.557
+    },
+    {
+     "p": "existe",
+     "i": 32.57,
+     "f": 33.026
+    },
+    {
+     "p": "ampliação",
+     "i": 33.039,
+     "f": 33.651
+    },
+    {
+     "p": "neutra",
+     "i": 33.664,
+     "f": 34.146
+    },
+    {
+     "p": "Cada",
+     "i": 35.406,
+     "f": 35.719
+    },
+    {
+     "p": "grande",
+     "i": 35.732,
+     "f": 36.148
+    },
+    {
+     "p": "obra",
+     "i": 36.161,
+     "f": 36.461
+    },
+    {
+     "p": "resolve",
+     "i": 36.474,
+     "f": 36.995
+    },
+    {
+     "p": "um",
+     "i": 37.008,
+     "f": 37.099
+    },
+    {
+     "p": "limite",
+     "i": 37.112,
+     "f": 37.515
+    },
+    {
+     "p": "e",
+     "i": 37.528,
+     "f": 37.555
+    },
+    {
+     "p": "cria",
+     "i": 37.568,
+     "f": 37.906
+    },
+    {
+     "p": "outro",
+     "i": 37.919,
+     "f": 38.258
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "63c937c0d3",
+   "texto": "Voltando ao começo: por que dezenas de navios esperaram, se havia eclusas novas? Porque em mil novecentos e catorze, os engenheiros resolveram o problema da altura com um lago. Em dois mil e dezesseis, resolveram o problema do tamanho com concreto, aço e bacias de reaproveitamento. Mas o problema da água continua o mesmo: o lago recebe a chuva, e a chuva decide. Uma obra de cinco bilhões de dólares pode economizar água, mas não pode criá-la. A pergunta que fica é quanto o planeta ainda vai conseguir pedir a essa mesma água.",
+   "audio": "audio/desfecho-63c937c0d3.mp3",
+   "duracao": 39.967,
+   "palavras": [
+    {
+     "p": "Voltando",
+     "i": 0.102,
+     "f": 0.701
+    },
+    {
+     "p": "ao",
+     "i": 0.714,
+     "f": 0.818
+    },
+    {
+     "p": "começo",
+     "i": 0.831,
+     "f": 1.326
+    },
+    {
+     "p": "por",
+     "i": 1.704,
+     "f": 1.86
+    },
+    {
+     "p": "que",
+     "i": 1.873,
+     "f": 2.042
+    },
+    {
+     "p": "dezenas",
+     "i": 2.055,
+     "f": 2.511
+    },
+    {
+     "p": "de",
+     "i": 2.524,
+     "f": 2.602
+    },
+    {
+     "p": "navios",
+     "i": 2.615,
+     "f": 3.006
+    },
+    {
+     "p": "esperaram",
+     "i": 3.019,
+     "f": 3.683
+    },
+    {
+     "p": "se",
+     "i": 4.008,
+     "f": 4.139
+    },
+    {
+     "p": "havia",
+     "i": 4.152,
+     "f": 4.451
+    },
+    {
+     "p": "eclusas",
+     "i": 4.464,
+     "f": 4.959
+    },
+    {
+     "p": "novas",
+     "i": 4.972,
+     "f": 5.493
+    },
+    {
+     "p": "Porque",
+     "i": 6.85,
+     "f": 7.163
+    },
+    {
+     "p": "em",
+     "i": 7.176,
+     "f": 7.306
+    },
+    {
+     "p": "mil",
+     "i": 7.319,
+     "f": 7.488
+    },
+    {
+     "p": "novecentos",
+     "i": 7.501,
+     "f": 8.061
+    },
+    {
+     "p": "e",
+     "i": 8.074,
+     "f": 8.165
+    },
+    {
+     "p": "catorze",
+     "i": 8.178,
+     "f": 8.816
+    },
+    {
+     "p": "os",
+     "i": 9.012,
+     "f": 9.077
+    },
+    {
+     "p": "engenheiros",
+     "i": 9.09,
+     "f": 9.689
+    },
+    {
+     "p": "resolveram",
+     "i": 9.702,
+     "f": 10.275
+    },
+    {
+     "p": "o",
+     "i": 10.288,
+     "f": 10.327
+    },
+    {
+     "p": "problema",
+     "i": 10.34,
+     "f": 10.821
+    },
+    {
+     "p": "da",
+     "i": 10.834,
+     "f": 10.887
+    },
+    {
+     "p": "altura",
+     "i": 10.9,
+     "f": 11.329
+    },
+    {
+     "p": "com",
+     "i": 11.342,
+     "f": 11.486
+    },
+    {
+     "p": "um",
+     "i": 11.499,
+     "f": 11.603
+    },
+    {
+     "p": "lago",
+     "i": 11.616,
+     "f": 11.993
+    },
+    {
+     "p": "Em",
+     "i": 13.234,
+     "f": 13.377
+    },
+    {
+     "p": "dois",
+     "i": 13.39,
+     "f": 13.651
+    },
+    {
+     "p": "mil",
+     "i": 13.664,
+     "f": 13.794
+    },
+    {
+     "p": "e",
+     "i": 13.807,
+     "f": 13.846
+    },
+    {
+     "p": "dezesseis",
+     "i": 13.859,
+     "f": 14.51
+    },
+    {
+     "p": "resolveram",
+     "i": 14.81,
+     "f": 15.435
+    },
+    {
+     "p": "o",
+     "i": 15.448,
+     "f": 15.5
+    },
+    {
+     "p": "problema",
+     "i": 15.513,
+     "f": 15.981
+    },
+    {
+     "p": "do",
+     "i": 15.994,
+     "f": 16.086
+    },
+    {
+     "p": "tamanho",
+     "i": 16.099,
+     "f": 16.528
+    },
+    {
+     "p": "com",
+     "i": 16.541,
+     "f": 16.698
+    },
+    {
+     "p": "concreto",
+     "i": 16.711,
+     "f": 17.362
+    },
+    {
+     "p": "aço",
+     "i": 17.596,
+     "f": 17.909
+    },
+    {
+     "p": "e",
+     "i": 17.922,
+     "f": 17.935
+    },
+    {
+     "p": "bacias",
+     "i": 17.948,
+     "f": 18.468
+    },
+    {
+     "p": "de",
+     "i": 18.481,
+     "f": 18.586
+    },
+    {
+     "p": "reaproveitamento",
+     "i": 18.599,
+     "f": 19.614
+    },
+    {
+     "p": "Mas",
+     "i": 20.866,
+     "f": 21.074
+    },
+    {
+     "p": "o",
+     "i": 21.087,
+     "f": 21.218
+    },
+    {
+     "p": "problema",
+     "i": 21.231,
+     "f": 21.725
+    },
+    {
+     "p": "da",
+     "i": 21.739,
+     "f": 21.843
+    },
+    {
+     "p": "água",
+     "i": 21.856,
+     "f": 22.155
+    },
+    {
+     "p": "continua",
+     "i": 22.168,
+     "f": 22.663
+    },
+    {
+     "p": "o",
+     "i": 22.676,
+     "f": 22.715
+    },
+    {
+     "p": "mesmo",
+     "i": 22.728,
+     "f": 23.132
+    },
+    {
+     "p": "o",
+     "i": 23.483,
+     "f": 23.574
+    },
+    {
+     "p": "lago",
+     "i": 23.587,
+     "f": 23.952
+    },
+    {
+     "p": "recebe",
+     "i": 23.965,
+     "f": 24.408
+    },
+    {
+     "p": "a",
+     "i": 24.421,
+     "f": 24.473
+    },
+    {
+     "p": "chuva",
+     "i": 24.486,
+     "f": 24.968
+    },
+    {
+     "p": "e",
+     "i": 25.228,
+     "f": 25.332
+    },
+    {
+     "p": "a",
+     "i": 25.345,
+     "f": 25.423
+    },
+    {
+     "p": "chuva",
+     "i": 25.436,
+     "f": 25.866
+    },
+    {
+     "p": "decide",
+     "i": 25.879,
+     "f": 26.465
+    },
+    {
+     "p": "Uma",
+     "i": 27.706,
+     "f": 27.966
+    },
+    {
+     "p": "obra",
+     "i": 27.98,
+     "f": 28.357
+    },
+    {
+     "p": "de",
+     "i": 28.37,
+     "f": 28.474
+    },
+    {
+     "p": "cinco",
+     "i": 28.487,
+     "f": 28.852
+    },
+    {
+     "p": "bilhões",
+     "i": 28.865,
+     "f": 29.282
+    },
+    {
+     "p": "de",
+     "i": 29.295,
+     "f": 29.386
+    },
+    {
+     "p": "dólares",
+     "i": 29.399,
+     "f": 29.855
+    },
+    {
+     "p": "pode",
+     "i": 29.868,
+     "f": 30.102
+    },
+    {
+     "p": "economizar",
+     "i": 30.115,
+     "f": 30.727
+    },
+    {
+     "p": "água",
+     "i": 30.74,
+     "f": 31.052
+    },
+    {
+     "p": "mas",
+     "i": 31.339,
+     "f": 31.547
+    },
+    {
+     "p": "não",
+     "i": 31.56,
+     "f": 31.769
+    },
+    {
+     "p": "pode",
+     "i": 31.782,
+     "f": 32.081
+    },
+    {
+     "p": "criá-la",
+     "i": 32.094,
+     "f": 32.563
+    },
+    {
+     "p": "A",
+     "i": 33.802,
+     "f": 33.932
+    },
+    {
+     "p": "pergunta",
+     "i": 33.945,
+     "f": 34.466
+    },
+    {
+     "p": "que",
+     "i": 34.479,
+     "f": 34.583
+    },
+    {
+     "p": "fica",
+     "i": 34.596,
+     "f": 34.87
+    },
+    {
+     "p": "é",
+     "i": 34.883,
+     "f": 34.922
+    },
+    {
+     "p": "quanto",
+     "i": 34.935,
+     "f": 35.208
+    },
+    {
+     "p": "o",
+     "i": 35.221,
+     "f": 35.247
+    },
+    {
+     "p": "planeta",
+     "i": 35.26,
+     "f": 35.69
+    },
+    {
+     "p": "ainda",
+     "i": 35.703,
+     "f": 35.924
+    },
+    {
+     "p": "vai",
+     "i": 35.937,
+     "f": 36.068
+    },
+    {
+     "p": "conseguir",
+     "i": 36.081,
+     "f": 36.602
+    },
+    {
+     "p": "pedir",
+     "i": 36.615,
+     "f": 36.992
+    },
+    {
+     "p": "a",
+     "i": 37.005,
+     "f": 37.083
+    },
+    {
+     "p": "essa",
+     "i": 37.096,
+     "f": 37.396
+    },
+    {
+     "p": "mesma",
+     "i": 37.409,
+     "f": 37.826
+    },
+    {
+     "p": "água",
+     "i": 37.839,
+     "f": 38.216
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "363b61d362",
+   "texto": "Se este vídeo mudou o jeito como você vê o canal, se inscreva no Inova Mundo. Na próxima, mais uma obra que parece simples e esconde um problema gigante. Até lá.",
+   "audio": "audio/fecho-363b61d362.mp3",
+   "duracao": 13.793,
+   "palavras": [
+    {
+     "p": "Se",
+     "i": 0.102,
+     "f": 0.349
+    },
+    {
+     "p": "este",
+     "i": 0.362,
+     "f": 0.675
+    },
+    {
+     "p": "vídeo",
+     "i": 0.688,
+     "f": 0.974
+    },
+    {
+     "p": "mudou",
+     "i": 0.988,
+     "f": 1.326
+    },
+    {
+     "p": "o",
+     "i": 1.339,
+     "f": 1.378
+    },
+    {
+     "p": "jeito",
+     "i": 1.391,
+     "f": 1.73
+    },
+    {
+     "p": "como",
+     "i": 1.743,
+     "f": 1.951
+    },
+    {
+     "p": "você",
+     "i": 1.964,
+     "f": 2.251
+    },
+    {
+     "p": "vê",
+     "i": 2.264,
+     "f": 2.394
+    },
+    {
+     "p": "o",
+     "i": 2.407,
+     "f": 2.459
+    },
+    {
+     "p": "canal",
+     "i": 2.472,
+     "f": 2.889
+    },
+    {
+     "p": "se",
+     "i": 3.214,
+     "f": 3.305
+    },
+    {
+     "p": "inscreva",
+     "i": 3.318,
+     "f": 3.839
+    },
+    {
+     "p": "no",
+     "i": 3.852,
+     "f": 3.956
+    },
+    {
+     "p": "Inova",
+     "i": 3.969,
+     "f": 4.347
+    },
+    {
+     "p": "Mundo",
+     "i": 4.36,
+     "f": 4.724
+    },
+    {
+     "p": "Na",
+     "i": 5.982,
+     "f": 6.19
+    },
+    {
+     "p": "próxima",
+     "i": 6.203,
+     "f": 6.711
+    },
+    {
+     "p": "mais",
+     "i": 6.946,
+     "f": 7.167
+    },
+    {
+     "p": "uma",
+     "i": 7.18,
+     "f": 7.427
+    },
+    {
+     "p": "obra",
+     "i": 7.44,
+     "f": 7.805
+    },
+    {
+     "p": "que",
+     "i": 7.818,
+     "f": 7.922
+    },
+    {
+     "p": "parece",
+     "i": 7.935,
+     "f": 8.352
+    },
+    {
+     "p": "simples",
+     "i": 8.365,
+     "f": 8.821
+    },
+    {
+     "p": "e",
+     "i": 8.834,
+     "f": 8.925
+    },
+    {
+     "p": "esconde",
+     "i": 8.938,
+     "f": 9.368
+    },
+    {
+     "p": "um",
+     "i": 9.381,
+     "f": 9.446
+    },
+    {
+     "p": "problema",
+     "i": 9.459,
+     "f": 9.927
+    },
+    {
+     "p": "gigante",
+     "i": 9.94,
+     "f": 10.513
+    },
+    {
+     "p": "Até",
+     "i": 11.414,
+     "f": 11.739
+    },
+    {
+     "p": "lá",
+     "i": 11.752,
+     "f": 12.052
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "fila-baia": {
+   "arquivo": "",
+   "rotulo": "Navios esperando para cruzar o canal",
+   "wiki": "Canal do Panamá",
+   "commons": "Ships waiting at anchor Panama Canal Bay of Panama",
+   "semFoto": true
+  },
+  "seca-gatun": {
+   "arquivo": "imagens/seca-gatun-9a1612f7.jpg",
+   "rotulo": "Lago Gatún com nível baixo",
+   "commons": "Gatun Lake low water level drought Panama Canal",
+   "autor": "photosforyou",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/palmeira-tribo-agua-velho-gatun-1178025/",
+   "titulo": "palmeira, tribo, agua, velho, gatun, panamá, canal, reservatório, lago, natureza, águas",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 47.4,
+    "y": 46.6
+   },
+   "borrada": "imagens/seca-gatun-9a1612f7-b.jpg"
+  },
+  "agua-clara": {
+   "arquivo": "imagens/agua-clara-84d07401.jpg",
+   "rotulo": "Eclusas de Agua Clara",
+   "commons": "Agua Clara Locks Panama Canal expansion",
+   "autor": "Keith Yahl",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:New_Panama_Canal_expansion_project_(original).jpg",
+   "titulo": "File:New Panama Canal expansion project (original).jpg",
+   "largura": 1920,
+   "altura": 522,
+   "rostos": 0,
+   "foco": {
+    "x": 42.3,
+    "y": 61.1
+   },
+   "borrada": "imagens/agua-clara-84d07401-b.jpg"
+  },
+  "gatun-aereo": {
+   "arquivo": "imagens/gatun-aereo-00942e7b.jpg",
+   "rotulo": "Lago Gatún visto do alto",
+   "wiki": "Lago Gatún",
+   "commons": "Gatun Lake Panama aerial view",
+   "autor": "User:Stan Shebs",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gatun_Lake.jpg",
+   "titulo": "File:Gatun Lake.jpg",
+   "largura": 1500,
+   "altura": 1000,
+   "rostos": 0,
+   "foco": {
+    "x": 42.1,
+    "y": 77.2
+   },
+   "borrada": "imagens/gatun-aereo-00942e7b-b.jpg"
+  },
+  "miraflores": {
+   "arquivo": "imagens/miraflores-9db6a8f4.jpg",
+   "rotulo": "Eclusas de Miraflores",
+   "wiki": "Eclusas de Miraflores",
+   "commons": "Miraflores Locks Panama Canal ship",
+   "autor": "Adam Jones",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Locomotives_Tow_Container_Ship_through_Miraflores_Locks_-_Panama_Canal.jpg",
+   "titulo": "File:Locomotives Tow Container Ship through Miraflores Locks - Panama Canal.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 1,
+   "foco": {
+    "x": 35.7,
+    "y": 41.1
+   },
+   "borrada": "imagens/miraflores-9db6a8f4-b.jpg"
+  },
+  "obras-ampliacao": {
+   "arquivo": "imagens/obras-ampliacao-1cb773d9.jpg",
+   "rotulo": "Obras da ampliação do canal",
+   "commons": "Panama Canal expansion project construction site",
+   "autor": "Ivo Kruusamägi",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:New_Atlantic_Locks_of_Panama_Canal_expansion_project_in_2015.jpg",
+   "titulo": "File:New Atlantic Locks of Panama Canal expansion project in 2015.jpg",
+   "largura": 1920,
+   "altura": 591,
+   "rostos": 0,
+   "foco": {
+    "x": 42.9,
+    "y": 59.9
+   },
+   "borrada": "imagens/obras-ampliacao-1cb773d9-b.jpg"
+  },
+  "bacias-agua-clara": {
+   "arquivo": "imagens/bacias-agua-clara-b7a9e5da.jpg",
+   "rotulo": "Bacias de reaproveitamento de Agua Clara",
+   "commons": "Agua Clara Locks water saving basins",
+   "autor": "Mariordo (Mario Roberto Durán Ortiz)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Water_saving_basins_Agua_Clara_Locks_09_2019_0701.jpg",
+   "titulo": "File:Water saving basins Agua Clara Locks 09 2019 0701.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 49.0,
+    "y": 58.2
+   },
+   "borrada": "imagens/bacias-agua-clara-b7a9e5da-b.jpg"
+  },
+  "navio-gatun": {
+   "arquivo": "imagens/navio-gatun-da90d797.jpg",
+   "rotulo": "Navio atravessando o Lago Gatún",
+   "commons": "Gatun Lake cargo ship transit Panama Canal",
+   "autor": "Jean-Philippe Boulet",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Beluga_Family_on_Gatun_Lake.JPG",
+   "titulo": "File:Beluga Family on Gatun Lake.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.7,
+    "y": 48.7
+   },
+   "borrada": "imagens/navio-gatun-da90d797-b.jpg"
+  },
+  "mapa-canal": {
+   "arquivo": "",
+   "rotulo": "Mapa do Canal do Panamá",
+   "wiki": "Canal do Panamá",
+   "commons": "Panama Canal map locator",
+   "semFoto": true
+  },
+  "ancon-1914": {
+   "arquivo": "imagens/ancon-1914-8808f72a.jpg",
+   "rotulo": "SS Ancon, primeira travessia, 1914",
+   "wiki": "SS Ancon (1902)",
+   "commons": "SS Ancon first transit Panama Canal 1914",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SS_Ancon_entering_west_chamber_cph.3b17471u.jpg",
+   "titulo": "File:SS Ancon entering west chamber cph.3b17471u.jpg",
+   "largura": 1494,
+   "altura": 1078,
+   "rostos": 1,
+   "foco": {
+    "x": 27.4,
+    "y": 56.9
+   },
+   "borrada": "imagens/ancon-1914-8808f72a-b.jpg"
+  },
+  "rio-chagres": {
+   "arquivo": "imagens/rio-chagres-6088c7fe.jpg",
+   "rotulo": "Rio Chagres",
+   "wiki": "Rio Chagres",
+   "commons": "Chagres River Panama",
+   "autor": "Ulises Icardi",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Chagres;_vista_desde_la_carretera_Trans-%C3%ADstmica.jpg",
+   "titulo": "File:Río Chagres; vista desde la carretera Trans-ístmica.jpg",
+   "largura": 1920,
+   "altura": 1133,
+   "rostos": 0,
+   "foco": {
+    "x": 61.3,
+    "y": 36.5
+   },
+   "borrada": "imagens/rio-chagres-6088c7fe-b.jpg"
+  },
+  "gatun-represa": {
+   "arquivo": "imagens/gatun-represa-f2d743d2.jpg",
+   "rotulo": "Represa de Gatún",
+   "wiki": "Barragem de Gatún",
+   "commons": "Gatun Dam spillway Panama",
+   "autor": "Bain News Service, publisher",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gatun_spillway_dam,_Panama_LCCN2014696826.jpg",
+   "titulo": "File:Gatun spillway dam, Panama LCCN2014696826.jpg",
+   "largura": 1920,
+   "altura": 1403,
+   "rostos": 0,
+   "foco": {
+    "x": 66.9,
+    "y": 49.3
+   },
+   "borrada": "imagens/gatun-represa-f2d743d2-b.jpg"
+  },
+  "gatun-comportas-1913": {
+   "arquivo": "",
+   "rotulo": "Eclusas de Gatún em construção, 1913",
+   "commons": "Gatun Locks construction 1913 lock gates",
+   "semFoto": true
+  },
+  "gatun-eclusa-navio": {
+   "arquivo": "imagens/gatun-eclusa-navio-1043ff16.jpg",
+   "rotulo": "Navio nas eclusas de Gatún",
+   "commons": "Gatun Locks ship electric locomotives",
+   "autor": "David Brossard",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gardenia_K_In_Panama_Canal_Locks.jpg",
+   "titulo": "File:Gardenia K In Panama Canal Locks.jpg",
+   "largura": 1920,
+   "altura": 766,
+   "rostos": 0,
+   "foco": {
+    "x": 28.2,
+    "y": 52.4
+   },
+   "borrada": "imagens/gatun-eclusa-navio-1043ff16-b.jpg"
+  },
+  "pedro-miguel": {
+   "arquivo": "imagens/pedro-miguel-43f933ed.jpg",
+   "rotulo": "Eclusas de Pedro Miguel",
+   "wiki": "Eclusas de Pedro Miguel",
+   "commons": "Pedro Miguel Locks Panama Canal",
+   "autor": "Desconhecido",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Pedro_Miguel_Locks,_Panama_Canal_construction_works;_loo_Wellcome_V0030215.jpg",
+   "titulo": "File:The Pedro Miguel Locks, Panama Canal construction works; loo Wellcome V0030215.jpg",
+   "largura": 1920,
+   "altura": 1617,
+   "rostos": 0,
+   "foco": {
+    "x": 60.3,
+    "y": 50.5
+   },
+   "borrada": "imagens/pedro-miguel-43f933ed-b.jpg"
+  },
+  "porta-conteineres": {
+   "arquivo": "",
+   "rotulo": "Navio porta-contêineres gigante",
+   "commons": "large container ship at sea aerial",
+   "semFoto": true
+  },
+  "panamax-apertado": {
+   "arquivo": "imagens/panamax-apertado-4c5c7e2f.jpg",
+   "rotulo": "Navio Panamax nas eclusas antigas",
+   "wiki": "Panamax",
+   "commons": "Panamax ship Miraflores Locks tight fit",
+   "autor": "User:Stan Shebs",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Miraflores_Locks.jpg",
+   "titulo": "File:Panama Canal Miraflores Locks.jpg",
+   "largura": 1500,
+   "altura": 1009,
+   "rostos": 0,
+   "foco": {
+    "x": 58.2,
+    "y": 52.9
+   },
+   "borrada": "imagens/panamax-apertado-4c5c7e2f-b.jpg"
+  },
+  "locomotiva-mula": {
+   "arquivo": "imagens/locomotiva-mula-81231853.jpg",
+   "rotulo": "Locomotiva elétrica ('mula') do canal",
+   "commons": "Panama Canal electric locomotive mule towing ship",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_and_the_canal_in_picture_and_prose_(1913)_(14596913228).jpg",
+   "titulo": "File:Panama and the canal in picture and prose (1913) (14596913228).jpg",
+   "largura": 1920,
+   "altura": 983,
+   "rostos": 0,
+   "foco": {
+    "x": 26.2,
+    "y": 55.0
+   },
+   "borrada": "imagens/locomotiva-mula-81231853-b.jpg"
+  },
+  "porto-shanghai": {
+   "arquivo": "imagens/porto-shanghai-bbc7f1bc.jpg",
+   "rotulo": "Porto de Yangshan, Xangai",
+   "wiki": "Porto de Yangshan",
+   "commons": "Yangshan Deep-Water Port Shanghai container terminal",
+   "autor": "Marqueed at English Wikipedia",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Yangshan-Port-Balanced.jpg",
+   "titulo": "File:Yangshan-Port-Balanced.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.7,
+    "y": 39.4
+   },
+   "borrada": "imagens/porto-shanghai-bbc7f1bc-b.jpg"
+  },
+  "torrijos": {
+   "arquivo": "imagens/torrijos-3f9be0a6.jpg",
+   "rotulo": "Martín Torrijos, presidente do Panamá em 2006",
+   "wiki": "Martín Torrijos",
+   "commons": "Martín Torrijos president of Panama",
+   "autor": "Ricardo Stuckert",
+   "licenca": "CC BY 3.0 br",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama.MartinTorrijos.01.jpg",
+   "titulo": "File:Panama.MartinTorrijos.01.jpg",
+   "largura": 480,
+   "altura": 639,
+   "rostos": 2,
+   "foco": {
+    "x": 49.4,
+    "y": 38.0
+   },
+   "borrada": "imagens/torrijos-3f9be0a6-b.jpg"
+  },
+  "cocoli-escavacao": {
+   "arquivo": "",
+   "rotulo": "Escavação das eclusas de Cocolí",
+   "commons": "Cocoli Locks excavation Panama Canal expansion",
+   "semFoto": true
+  },
+  "agua-clara-obras": {
+   "arquivo": "",
+   "rotulo": "Construção de Agua Clara, lado Atlântico",
+   "commons": "Agua Clara Locks construction Atlantic side",
+   "semFoto": true
+  },
+  "cocoli-eclusas": {
+   "arquivo": "imagens/cocoli-eclusas-607f22c9.jpg",
+   "rotulo": "Eclusas de Cocolí, lado Pacífico",
+   "commons": "Cocoli Locks Pacific side Panama Canal",
+   "autor": "Mariordo (Mario Roberto Durán Ortiz)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nueva_esclusa_Cocori_Panama_07_2015_4268.jpg",
+   "titulo": "File:Nueva esclusa Cocori Panama 07 2015 4268.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 0,
+   "foco": {
+    "x": 46.1,
+    "y": 50.4
+   },
+   "borrada": "imagens/cocoli-eclusas-607f22c9-b.jpg"
+  },
+  "comporta-deslizante": {
+   "arquivo": "",
+   "rotulo": "Porta deslizante das novas eclusas",
+   "commons": "Panama Canal expansion rolling gate lock",
+   "semFoto": true
+  },
+  "diagrama-bacias": {
+   "arquivo": "",
+   "rotulo": "Esquema das bacias de reaproveitamento",
+   "commons": "Panama Canal water saving basin diagram Neopanamax",
+   "semFoto": true
+  },
+  "bacias-vista": {
+   "arquivo": "",
+   "rotulo": "Bacias laterais das novas eclusas",
+   "commons": "Neopanamax locks water saving basins Cocoli",
+   "semFoto": true
+  },
+  "camara-vazia": {
+   "arquivo": "",
+   "rotulo": "Câmara das novas eclusas esvaziada",
+   "commons": "Cocoli Locks empty chamber Neopanamax",
+   "semFoto": true
+  },
+  "camara-enchendo": {
+   "arquivo": "",
+   "rotulo": "Câmara enchendo com um navio",
+   "commons": "Neopanamax lock chamber filling ship Agua Clara",
+   "semFoto": true
+  },
+  "porta-deslizante-agua-clara": {
+   "arquivo": "",
+   "rotulo": "Porta deslizante em Agua Clara",
+   "commons": "Agua Clara Locks sliding gate",
+   "semFoto": true
+  },
+  "navio-neopanamax": {
+   "arquivo": "",
+   "rotulo": "Navio Neopanamax em Agua Clara",
+   "commons": "Neopanamax ship Agua Clara Locks tugboats",
+   "semFoto": true
+  },
+  "comparacao-eclusas": {
+   "arquivo": "",
+   "rotulo": "Comparação entre as eclusas",
+   "commons": "Panama Canal locks size comparison Panamax Neopanamax",
+   "semFoto": true
+  },
+  "cocoli-rebocadores": {
+   "arquivo": "",
+   "rotulo": "Navio nas eclusas de Cocolí",
+   "commons": "Neopanamax ship Cocoli Locks tugboats 2016",
+   "semFoto": true
+  },
+  "inauguracao-2016": {
+   "arquivo": "imagens/inauguracao-2016-5c5050ab.jpg",
+   "rotulo": "Inauguração da ampliação, 26 de junho de 2016",
+   "commons": "Panama Canal expansion inauguration 26 June 2016 Cosco Shipping Panama",
+   "autor": "總統府",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:06.26_%E5%B7%B4%E6%8B%BF%E9%A6%AC%E9%81%8B%E6%B2%B3%E6%8B%93%E5%AF%AC%E5%B7%A5%E7%A8%8B%E7%AB%A3%E5%B7%A5%E5%95%9F%E7%94%A8%E5%84%80%E5%BC%8F_(27895877236).jpg",
+   "titulo": "File:06.26 巴拿馬運河拓寬工程竣工啟用儀式 (27895877236).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 53.4,
+    "y": 71.7
+   },
+   "borrada": "imagens/inauguracao-2016-5c5050ab-b.jpg"
+  },
+  "entrada-pacifico": {
+   "arquivo": "imagens/entrada-pacifico-a552abf0.jpg",
+   "rotulo": "Entrada do canal no Pacífico",
+   "commons": "Panama Canal Pacific entrance Port of Balboa ships",
+   "autor": "Camilo Molina derivative work: MrPanyGoff",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_Canal_-_Pacific_Side_Entrance.jpg",
+   "titulo": "File:Panama Canal - Pacific Side Entrance.jpg",
+   "largura": 831,
+   "altura": 686,
+   "rostos": 0,
+   "foco": {
+    "x": 46.3,
+    "y": 64.7
+   },
+   "borrada": "imagens/entrada-pacifico-a552abf0-b.jpg"
+  },
+  "gatun-satelite": {
+   "arquivo": "imagens/gatun-satelite-47a10ac7.jpg",
+   "rotulo": "Lago Gatún visto do espaço",
+   "commons": "Gatun Lake Panama Canal satellite image NASA",
+   "autor": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS034-E-49445_-_View_of_Panama.jpg",
+   "titulo": "File:ISS034-E-49445 - View of Panama.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 1,
+   "foco": {
+    "x": 58.4,
+    "y": 22.8
+   },
+   "borrada": "imagens/gatun-satelite-47a10ac7-b.jpg"
+  },
+  "floresta-soberania": {
+   "arquivo": "imagens/floresta-soberania-974e3823.jpg",
+   "rotulo": "Floresta tropical do Parque Nacional Soberanía",
+   "wiki": "Parque Nacional Soberanía",
+   "commons": "Soberania National Park rainforest Panama",
+   "autor": "RB Photo",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pipeline_Road,_Soberan%C3%ADa_National_Park,_Panama.jpg",
+   "titulo": "File:Pipeline Road, Soberanía National Park, Panama.jpg",
+   "largura": 1920,
+   "altura": 1270,
+   "rostos": 0,
+   "foco": {
+    "x": 63.8,
+    "y": 47.1
+   },
+   "borrada": "imagens/floresta-soberania-974e3823-b.jpg"
+  },
+  "cidade-panama": {
+   "arquivo": "imagens/cidade-panama-76f8e0dc.jpg",
+   "rotulo": "Cidade do Panamá",
+   "wiki": "Cidade do Panamá",
+   "commons": "Panama City skyline Punta Paitilla",
+   "autor": "Mariordo (Mario Roberto Duran Ortiz)",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_08_2013_7046.JPG",
+   "titulo": "File:Panama 08 2013 7046.JPG",
+   "largura": 1920,
+   "altura": 1120,
+   "rostos": 0,
+   "foco": {
+    "x": 53.9,
+    "y": 59.8
+   },
+   "borrada": "imagens/cidade-panama-76f8e0dc-b.jpg"
+  },
+  "corte-culebra": {
+   "arquivo": "imagens/corte-culebra-6cdb3c1b.jpg",
+   "rotulo": "Corte Culebra",
+   "wiki": "Corte Culebra",
+   "commons": "Culebra Cut Gaillard Cut ship Panama Canal",
+   "autor": "Sandra Cohen-Rose and Colin Rose from Montreal, Canada",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gaillard_Cut_and_Chagres_River_(4212948901).jpg",
+   "titulo": "File:Gaillard Cut and Chagres River (4212948901).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 44.2,
+    "y": 80
+   },
+   "borrada": "imagens/corte-culebra-6cdb3c1b-b.jpg"
+  },
+  "represa-madden": {
+   "arquivo": "imagens/represa-madden-fc06bdb3.jpg",
+   "rotulo": "Represa Madden e Lago Alajuela",
+   "wiki": "Lago Alajuela",
+   "commons": "Madden Dam Alajuela Lake Panama",
+   "autor": "European Union, Copernicus Sentinel-2 imagery",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Drought_is_impacting_traffic_in_the_Panama_Canal.jpg",
+   "titulo": "File:Drought is impacting traffic in the Panama Canal.jpg",
+   "largura": 1920,
+   "altura": 1098,
+   "rostos": 0,
+   "foco": {
+    "x": 47.2,
+    "y": 42.0
+   },
+   "borrada": "imagens/represa-madden-fc06bdb3-b.jpg"
+  },
+  "el-nino-2023": {
+   "arquivo": "imagens/el-nino-2023-dc561079.jpg",
+   "rotulo": "El Niño de 2023",
+   "wiki": "El Niño",
+   "commons": "El Niño 2023 sea surface temperature anomaly NOAA",
+   "autor": "NOAA image",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:El_Ni%C3%B1o_in_2016.png",
+   "titulo": "File:El Niño in 2016.png",
+   "largura": 1053,
+   "altura": 532,
+   "rostos": 0,
+   "foco": {
+    "x": 30.3,
+    "y": 57.7
+   },
+   "borrada": "imagens/el-nino-2023-dc561079-b.jpg"
+  },
+  "gatun-margem-baixa": {
+   "arquivo": "",
+   "rotulo": "Margem do Lago Gatún em 2023",
+   "commons": "Gatun Lake shoreline 2023 low water Panama Canal",
+   "semFoto": true
+  },
+  "navio-carregado": {
+   "arquivo": "",
+   "rotulo": "Navio carregado nas eclusas",
+   "commons": "fully loaded container ship draft Panama Canal Neopanamax",
+   "semFoto": true
+  },
+  "fila-colon": {
+   "arquivo": "",
+   "rotulo": "Fila de navios no lado Atlântico",
+   "commons": "ships queue Colon anchorage Atlantic Panama Canal",
+   "semFoto": true
+  },
+  "chuva-panama": {
+   "arquivo": "",
+   "rotulo": "Estação das chuvas no Panamá",
+   "commons": "Panama rainy season storm clouds Panama City",
+   "semFoto": true
+  },
+  "mapa-bacia-canal": {
+   "arquivo": "",
+   "rotulo": "Bacia hidrográfica do canal",
+   "commons": "Panama Canal watershed map Gatun Lake Alajuela",
+   "semFoto": true
+  },
+  "rio-indio": {
+   "arquivo": "",
+   "rotulo": "Rio Indio",
+   "commons": "Río Indio Panama river Coclé",
+   "semFoto": true
+  },
+  "sede-acp": {
+   "arquivo": "imagens/sede-acp-3b5f4a9f.jpg",
+   "rotulo": "Sede da Autoridade do Canal",
+   "wiki": "Autoridade do Canal do Panamá",
+   "commons": "Panama Canal Authority Administration Building Balboa Ancon",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Zone_-_Balboa_-_NARA_-_68147543_(cropped).jpg",
+   "titulo": "File:Panama Canal Zone - Balboa - NARA - 68147543 (cropped).jpg",
+   "largura": 1920,
+   "altura": 1535,
+   "rostos": 0,
+   "foco": {
+    "x": 33.4,
+    "y": 47.1
+   },
+   "borrada": "imagens/sede-acp-3b5f4a9f-b.jpg"
+  },
+  "comunidade-rural": {
+   "arquivo": "",
+   "rotulo": "Comunidade rural no Panamá",
+   "commons": "rural village Coclé Panama countryside farmers",
+   "semFoto": true
+  },
+  "ponte-centenario": {
+   "arquivo": "imagens/ponte-centenario-a87dbd9e.jpg",
+   "rotulo": "Ponte do Centenário sobre o canal",
+   "wiki": "Ponte do Centenário",
+   "commons": "Centennial Bridge Panama Canal Culebra Cut",
+   "autor": "Zandcee",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panamakanaal_Millennium_Bridge.JPG",
+   "titulo": "File:Panamakanaal Millennium Bridge.JPG",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 56.4,
+    "y": 80
+   },
+   "borrada": "imagens/ponte-centenario-a87dbd9e-b.jpg"
+  },
+  "miraflores-aerea": {
+   "arquivo": "imagens/miraflores-aerea-509ae3e6.jpg",
+   "rotulo": "Eclusas de Miraflores vistas do alto",
+   "commons": "Miraflores Locks aerial view Panama Canal",
+   "autor": "Elemaki",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:06._Canal_de_Panama_(17).JPG",
+   "titulo": "File:06. Canal de Panama (17).JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 33.2,
+    "y": 53.5
+   },
+   "borrada": "imagens/miraflores-aerea-509ae3e6-b.jpg"
+  },
+  "goethals": {
+   "arquivo": "imagens/goethals-3a8e143e.jpg",
+   "rotulo": "George W. Goethals, engenheiro-chefe do canal",
+   "wiki": "George Washington Goethals",
+   "commons": "George Washington Goethals chief engineer Panama Canal",
+   "autor": "Ernest Hallen",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:FMIB_38688_Geo_W_Goethals,_Chairman_and_Chief_Engineer.jpeg",
+   "titulo": "File:FMIB 38688 Geo W Goethals, Chairman and Chief Engineer.jpeg",
+   "largura": 808,
+   "altura": 1373,
+   "rostos": 2,
+   "foco": {
+    "x": 46.1,
+    "y": 18.6
+   },
+   "borrada": "imagens/goethals-3a8e143e-b.jpg"
+  },
+  "cocoli-aberta": {
+   "arquivo": "",
+   "rotulo": "Cocolí em operação",
+   "commons": "Cocoli Locks opening 2016 ship Panama Canal expansion",
+   "semFoto": true
+  },
+  "concreto-eclusa": {
+   "arquivo": "",
+   "rotulo": "Concretagem das novas eclusas",
+   "commons": "Panama Canal expansion concrete lock wall construction",
+   "semFoto": true
+  },
+  "chuva-lago": {
+   "arquivo": "",
+   "rotulo": "Chuva sobre o Lago Gatún",
+   "commons": "Gatun Lake tropical rain storm Panama",
+   "semFoto": true
+  },
+  "terra-azul": {
+   "arquivo": "imagens/terra-azul-fe2d1539.jpg",
+   "rotulo": "A Terra vista do espaço (NASA)",
+   "wiki": "The Blue Marble",
+   "commons": "The Blue Marble Earth from Apollo 17",
+   "autor": "Harrison Schmitt / Apollo 17",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+   "titulo": "File:The Blue Marble, AS17-148-22727.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 52.8,
+    "y": 33.7
+   },
+   "borrada": "imagens/terra-azul-fe2d1539-b.jpg"
+  },
+  "por-do-sol-canal": {
+   "arquivo": "",
+   "rotulo": "Pôr do sol no canal",
+   "commons": "Panama Canal sunset ship Miraflores",
+   "semFoto": true
+  },
+  "ponte-americas": {
+   "arquivo": "imagens/ponte-americas-7d8b384c.jpg",
+   "rotulo": "Ponte das Américas",
+   "wiki": "Ponte das Américas",
+   "commons": "Bridge of the Americas Panama Canal",
+   "autor": "U.S. Navy photo by Mass Communication Specialist 2nd Class Joshua Lee Kelsey",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_080813-N-6266K-036_American_and_Panamanian_security_forces_practice_water_steering_and_maneuvering-edit.jpg",
+   "titulo": "File:US Navy 080813-N-6266K-036 American and Panamanian security forces practice water steering and maneuvering-edit.jpg",
+   "largura": 859,
+   "altura": 483,
+   "rostos": 0,
+   "foco": {
+    "x": 64.4,
+    "y": 32.9
+   },
+   "borrada": "imagens/ponte-americas-7d8b384c-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-10-31T10:31:32.025Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -86,6 +6236,66 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Autoridade do Canal do Panamá — medidas de economia de água",
+   "url": "https://pancanal.com/en/the-panama-canal-adapts-strategic-measures-for-water-savings/"
+  },
+  {
+   "titulo": "CCJ — Panama's big bet: detalhes da ampliação",
+   "url": "https://www.ccjdigital.com/panamas-big-bet-part-1-canal-expansion-details/"
+  },
+  {
+   "titulo": "GAC — Addressing the issue of water head on (dez/2023)",
+   "url": "https://www.gac.com/hot-port-news/addressing-the-issue-of-water-head-on"
+  },
+  {
+   "titulo": "Seatrade Maritime — medidas de economia de água na seca",
+   "url": "https://www.seatrade-maritime.com/containers/panama-canal-takes-water-saving-measures-in-face-of-unprecedented-drought-"
+  },
+  {
+   "titulo": "gCaptain — limites de calado na seca de 2023",
+   "url": "https://gcaptain.com/panama-canal-to-keep-limits-in-place-as-drought-hits-lake-levels/"
+  },
+  {
+   "titulo": "NPR — Expanded canal opens in Panama (2016)",
+   "url": "https://www.npr.org/2016/06/26/483624374/expanded-canal-opens-in-panama"
+  },
+  {
+   "titulo": "Engineering News — Panama Canal expansion project",
+   "url": "https://www.engineeringnews.co.za/article/panama-canal-expansion-project-2016-08-12"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Por que o Canal do Panamá ficou sem água, mesmo ampliado?",
+   "Eclusas de 1914 × eclusas de 2016: onde a água some",
+   "O limite do Canal do Panamá não é o tamanho do navio"
+  ],
+  "descricao": "Em 2023, dezenas de navios esperaram para cruzar o Canal do Panamá, que acabara de ser ampliado. Neste vídeo comparamos as eclusas originais de 1914 com as eclusas Neopanamax de 2016, vemos como as bacias de reaproveitamento economizam água e por que o nível do Lago Gatún é o verdadeiro limite do canal.\n\n0:00 Gancho\n0:30 Promessa\n1:00 Um canal que sobe\n1:40 As eclusas de 1914\n2:20 A ampliação\n3:00 As bacias de reaproveitamento\n3:35 A conta que não fecha\n4:10 O lago é o limite\n4:45 2023: a seca\n5:25 O Rio Indio\n6:00 Desfecho\n\nFontes: Autoridade do Canal do Panamá (pancanal.com); CCJ; GAC; Seatrade Maritime; gCaptain; NPR.",
+  "tags": [
+   "canal do panamá",
+   "ampliação do canal do panamá",
+   "eclusas",
+   "lago gatún",
+   "neopanamax",
+   "panamax",
+   "engenharia",
+   "seca no panamá",
+   "infraestrutura",
+   "tecnologia",
+   "inova mundo",
+   "história da engenharia"
+  ]
  }
 }

@@ -1,0 +1,70 @@
+{
+  "fila-baia": { "commons": "Ships waiting at anchor Panama Canal Bay of Panama", "wiki": "Canal do Panamá", "rotulo": "Navios esperando para cruzar o canal" },
+  "seca-gatun": { "commons": "Gatun Lake low water level drought Panama Canal", "rotulo": "Lago Gatún com nível baixo" },
+  "agua-clara": { "commons": "Agua Clara Locks Panama Canal expansion", "rotulo": "Eclusas de Agua Clara" },
+  "gatun-aereo": { "commons": "Gatun Lake Panama aerial view", "wiki": "Lago Gatún", "rotulo": "Lago Gatún visto do alto" },
+
+  "miraflores": { "commons": "Miraflores Locks Panama Canal ship", "wiki": "Eclusas de Miraflores", "rotulo": "Eclusas de Miraflores" },
+  "obras-ampliacao": { "commons": "Panama Canal expansion project construction site", "rotulo": "Obras da ampliação do canal" },
+  "bacias-agua-clara": { "commons": "Agua Clara Locks water saving basins", "rotulo": "Bacias de reaproveitamento de Agua Clara" },
+  "navio-gatun": { "commons": "Gatun Lake cargo ship transit Panama Canal", "rotulo": "Navio atravessando o Lago Gatún" },
+
+  "mapa-canal": { "commons": "Panama Canal map locator", "wiki": "Canal do Panamá", "rotulo": "Mapa do Canal do Panamá" },
+  "ancon-1914": { "commons": "SS Ancon first transit Panama Canal 1914", "wiki": "SS Ancon (1902)", "rotulo": "SS Ancon, primeira travessia, 1914" },
+  "rio-chagres": { "commons": "Chagres River Panama", "wiki": "Rio Chagres", "rotulo": "Rio Chagres" },
+  "gatun-represa": { "commons": "Gatun Dam spillway Panama", "wiki": "Barragem de Gatún", "rotulo": "Represa de Gatún" },
+  "gatun-comportas-1913": { "commons": "Gatun Locks construction 1913 lock gates", "rotulo": "Eclusas de Gatún em construção, 1913" },
+  "gatun-eclusa-navio": { "commons": "Gatun Locks ship electric locomotives", "rotulo": "Navio nas eclusas de Gatún" },
+
+  "pedro-miguel": { "commons": "Pedro Miguel Locks Panama Canal", "wiki": "Eclusas de Pedro Miguel", "rotulo": "Eclusas de Pedro Miguel" },
+  "porta-conteineres": { "commons": "large container ship at sea aerial", "rotulo": "Navio porta-contêineres gigante" },
+  "panamax-apertado": { "commons": "Panamax ship Miraflores Locks tight fit", "wiki": "Panamax", "rotulo": "Navio Panamax nas eclusas antigas" },
+  "locomotiva-mula": { "commons": "Panama Canal electric locomotive mule towing ship", "rotulo": "Locomotiva elétrica ('mula') do canal" },
+  "porto-shanghai": { "commons": "Yangshan Deep-Water Port Shanghai container terminal", "wiki": "Porto de Yangshan", "rotulo": "Porto de Yangshan, Xangai" },
+
+  "torrijos": { "commons": "Martín Torrijos president of Panama", "wiki": "Martín Torrijos", "rotulo": "Martín Torrijos, presidente do Panamá em 2006" },
+  "cocoli-escavacao": { "commons": "Cocoli Locks excavation Panama Canal expansion", "rotulo": "Escavação das eclusas de Cocolí" },
+  "agua-clara-obras": { "commons": "Agua Clara Locks construction Atlantic side", "rotulo": "Construção de Agua Clara, lado Atlântico" },
+  "cocoli-eclusas": { "commons": "Cocoli Locks Pacific side Panama Canal", "rotulo": "Eclusas de Cocolí, lado Pacífico" },
+  "comporta-deslizante": { "commons": "Panama Canal expansion rolling gate lock", "rotulo": "Porta deslizante das novas eclusas" },
+
+  "diagrama-bacias": { "commons": "Panama Canal water saving basin diagram Neopanamax", "rotulo": "Esquema das bacias de reaproveitamento" },
+  "bacias-vista": { "commons": "Neopanamax locks water saving basins Cocoli", "rotulo": "Bacias laterais das novas eclusas" },
+  "camara-vazia": { "commons": "Cocoli Locks empty chamber Neopanamax", "rotulo": "Câmara das novas eclusas esvaziada" },
+  "camara-enchendo": { "commons": "Neopanamax lock chamber filling ship Agua Clara", "rotulo": "Câmara enchendo com um navio" },
+  "porta-deslizante-agua-clara": { "commons": "Agua Clara Locks sliding gate", "rotulo": "Porta deslizante em Agua Clara" },
+
+  "navio-neopanamax": { "commons": "Neopanamax ship Agua Clara Locks tugboats", "rotulo": "Navio Neopanamax em Agua Clara" },
+  "comparacao-eclusas": { "commons": "Panama Canal locks size comparison Panamax Neopanamax", "rotulo": "Comparação entre as eclusas" },
+  "cocoli-rebocadores": { "commons": "Neopanamax ship Cocoli Locks tugboats 2016", "rotulo": "Navio nas eclusas de Cocolí" },
+  "inauguracao-2016": { "commons": "Panama Canal expansion inauguration 26 June 2016 Cosco Shipping Panama", "rotulo": "Inauguração da ampliação, 26 de junho de 2016" },
+  "entrada-pacifico": { "commons": "Panama Canal Pacific entrance Port of Balboa ships", "rotulo": "Entrada do canal no Pacífico" },
+
+  "gatun-satelite": { "commons": "Gatun Lake Panama Canal satellite image NASA", "rotulo": "Lago Gatún visto do espaço" },
+  "floresta-soberania": { "commons": "Soberania National Park rainforest Panama", "wiki": "Parque Nacional Soberanía", "rotulo": "Floresta tropical do Parque Nacional Soberanía" },
+  "cidade-panama": { "commons": "Panama City skyline Punta Paitilla", "wiki": "Cidade do Panamá", "rotulo": "Cidade do Panamá" },
+  "corte-culebra": { "commons": "Culebra Cut Gaillard Cut ship Panama Canal", "wiki": "Corte Culebra", "rotulo": "Corte Culebra" },
+  "represa-madden": { "commons": "Madden Dam Alajuela Lake Panama", "wiki": "Lago Alajuela", "rotulo": "Represa Madden e Lago Alajuela" },
+
+  "el-nino-2023": { "commons": "El Niño 2023 sea surface temperature anomaly NOAA", "wiki": "El Niño", "rotulo": "El Niño de 2023" },
+  "gatun-margem-baixa": { "commons": "Gatun Lake shoreline 2023 low water Panama Canal", "rotulo": "Margem do Lago Gatún em 2023" },
+  "navio-carregado": { "commons": "fully loaded container ship draft Panama Canal Neopanamax", "rotulo": "Navio carregado nas eclusas" },
+  "fila-colon": { "commons": "ships queue Colon anchorage Atlantic Panama Canal", "rotulo": "Fila de navios no lado Atlântico" },
+  "chuva-panama": { "commons": "Panama rainy season storm clouds Panama City", "rotulo": "Estação das chuvas no Panamá" },
+
+  "mapa-bacia-canal": { "commons": "Panama Canal watershed map Gatun Lake Alajuela", "rotulo": "Bacia hidrográfica do canal" },
+  "rio-indio": { "commons": "Río Indio Panama river Coclé", "rotulo": "Rio Indio" },
+  "sede-acp": { "commons": "Panama Canal Authority Administration Building Balboa Ancon", "wiki": "Autoridade do Canal do Panamá", "rotulo": "Sede da Autoridade do Canal" },
+  "comunidade-rural": { "commons": "rural village Coclé Panama countryside farmers", "rotulo": "Comunidade rural no Panamá" },
+  "ponte-centenario": { "commons": "Centennial Bridge Panama Canal Culebra Cut", "wiki": "Ponte do Centenário", "rotulo": "Ponte do Centenário sobre o canal" },
+
+  "miraflores-aerea": { "commons": "Miraflores Locks aerial view Panama Canal", "rotulo": "Eclusas de Miraflores vistas do alto" },
+  "goethals": { "commons": "George Washington Goethals chief engineer Panama Canal", "wiki": "George Washington Goethals", "rotulo": "George W. Goethals, engenheiro-chefe do canal" },
+  "cocoli-aberta": { "commons": "Cocoli Locks opening 2016 ship Panama Canal expansion", "rotulo": "Cocolí em operação" },
+  "concreto-eclusa": { "commons": "Panama Canal expansion concrete lock wall construction", "rotulo": "Concretagem das novas eclusas" },
+  "chuva-lago": { "commons": "Gatun Lake tropical rain storm Panama", "rotulo": "Chuva sobre o Lago Gatún" },
+  "terra-azul": { "commons": "The Blue Marble Earth from Apollo 17", "wiki": "The Blue Marble", "rotulo": "A Terra vista do espaço (NASA)" },
+
+  "por-do-sol-canal": { "commons": "Panama Canal sunset ship Miraflores", "rotulo": "Pôr do sol no canal" },
+  "ponte-americas": { "commons": "Bridge of the Americas Panama Canal", "wiki": "Ponte das Américas", "rotulo": "Ponte das Américas" }
+}
