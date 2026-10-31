@@ -18,7 +18,7 @@ export const quadroDe = (p: Projeto): Quadro => {
   return { largura: ALTURA, altura: LARGURA, horizontal: true, palco: { x, y: 130 - 190 * escala, escala }, texto: x };
 };
 const FOLGA_INICIO = 2; // frames antes da voz começar (entra a transição)
-const FOLGA_FIM = 0.18; // respiro depois da última palavra
+const FOLGA_FIM = 0.1; // respiro depois da última palavra
 
 export type PalavraTempo = { p: string; ini: number; fim: number; destaque?: boolean; idx: number; cena?: number }; // frames na saída
 export type ElementoTempo = ElementoCena & { entra: number; sai: number; indice: number }; // frames relativos à cena
