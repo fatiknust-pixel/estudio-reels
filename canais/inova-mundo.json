@@ -79,7 +79,9 @@
   {
    "titulo": "Por que o Eurotúnel quase não se encontrou no meio?",
    "angulo": "Como equipes escavaram de dois lados e se encontraram sob o Canal da Mancha com precisão de centímetros. Explica topografia subterrânea, tuneladoras e o túnel de serviço.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261101",
+   "em": "2026-11-01"
   },
   {
    "titulo": "O buraco mais fundo já feito pelo homem",
@@ -122,5 +124,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-10-31"
+ "ultimaGeracao": "2026-11-01"
 }
