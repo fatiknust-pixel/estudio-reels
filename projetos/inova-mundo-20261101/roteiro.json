@@ -1,0 +1,158 @@
+{
+  "titulo": "Eurotúnel: como dois túneis se encontraram sob o mar",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "publicacao": {
+    "titulos": [
+      "Como dois túneis se encontraram sob o Canal da Mancha?",
+      "O Eurotúnel quase não se encontrou: a conta do erro",
+      "Eurotúnel: a medida que uniu França e Reino Unido"
+    ],
+    "descricao": "Em 1º de dezembro de 1990, duas equipes que cavavam de lados opostos do Canal da Mancha se encontraram no túnel de serviço do Eurotúnel, com um desvio de 358 milímetros na horizontal e 58 na vertical. Neste vídeo vemos o problema dos mapas e das altitudes de dois países, os instrumentos que guiavam as máquinas sob o mar (satélites, teodolitos e giroteodolitos), as onze tuneladoras, o giz que sustentou a obra e o que esse erro realmente significa.\n\n0:00 Gancho\n0:36 Promessa\n1:12 Dois países, dois mapas\n1:48 A altura do mar\n2:22 Satélites e teodolitos\n2:57 O giroscópio\n3:30 Onze tuneladoras\n4:05 O giz do Canal\n4:40 Para onde foi o giz\n5:12 A sonda\n5:46 O encontro\n6:17 O erro em contexto\n6:50 Três túneis\n7:22 Fecho\n\nFontes: TRID/TRB (registros técnicos do Eurotúnel); Springer (Control surveys during the construction of the Channel Tunnel); Kent Rail; Discovery UK; Institution of Civil Engineers.",
+    "tags": ["eurotúnel", "túnel do canal da mancha", "channel tunnel", "engenharia", "tuneladoras", "topografia", "túnel sob o mar", "como foi construído", "grandes obras", "tecnologia", "inova mundo", "história da engenharia"]
+  },
+  "fontesPesquisa": [
+    { "titulo": "TRID/TRB — Channel Tunnel breakthrough on target", "url": "https://trid.trb.org/View/352761" },
+    { "titulo": "TRID/TRB — Tunnels: topography (Channel Tunnel Grid 1986)", "url": "https://trid.trb.org/View/413602" },
+    { "titulo": "Springer — Control surveys during the construction of the Channel Tunnel (DMT, giroteodolitos)", "url": "https://www.springerprofessional.de/en/control-surveys-during-the-construction-of-the-channel-tunnel/13392260" },
+    { "titulo": "Kent Rail — Shakespeare Cliff Channel Tunnel works site", "url": "https://kentrail.org.uk/Shakespeare_Cliff_Chunnel_Works_Site.htm" },
+    { "titulo": "Discovery UK — How the Channel Tunnel was built: ten remarkable facts", "url": "https://www.discoveryuk.com/?p=23587015" },
+    { "titulo": "Tunnels & Tunnelling — Channel Tunnel", "url": "https://tunnelsandtunnelling.com/?p=1665" },
+    { "titulo": "The Local — 30 years ago France and the UK opened the Channel Tunnel", "url": "https://www.thelocal.fr/20240506/in-pictures-30-years-ago-france-and-the-uk-opened-the-channel-tunnel" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Primeiro de dezembro de mil novecentos e noventa. Dentro de um túnel, uma broca atravessa os últimos centímetros de giz. Do outro lado da parede, ninguém sabe ao certo o que vai encontrar. Dois grupos de operários, um francês e um britânico, cavavam havia mais de dois anos, debaixo do mar, partindo de lados opostos. E se os dois túneis passassem um pelo outro sem se tocar? A resposta cabe em alguns centímetros, e começa muito antes de qualquer máquina.",
+      "galeria": ["servico-interior", "cortador-tbm", "tbm-expo", "estreito-dover", "mapa-rota"],
+      "galeriaEm": [0, "broca", "operários", "debaixo", "túneis"],
+      "fontes": ["TRID/TRB"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1º DE DEZEMBRO DE 1990", "cor": "cinza", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Hoje você vai entender como se acerta um encontro desses. Primeiro, o problema dos mapas, porque França e Reino Unido não mediam o mundo do mesmo jeito. Depois, os instrumentos que guiavam as máquinas às cegas. Em seguida, as tuneladoras e a rocha que as sustentava. Por fim, o momento da verdade, com a medida exata do erro. Mas antes, um detalhe: o desafio nem era cavar. Era garantir que dois grupos que nunca se viram apontassem para o mesmo lugar.",
+      "galeria": ["ferry-dover", "mapa-antigo", "teodolito", "tbm-robbins", "encontro-1990"],
+      "galeriaEm": [0, "mapas", "instrumentos", "tuneladoras", "viram"],
+      "elementos": []
+    },
+    {
+      "id": "dois-mapas",
+      "texto": "Cada país tinha a sua própria rede de pontos de referência, medida do seu jeito. Os mapas da Inglaterra e da França simplesmente não conversavam. Em mil novecentos e oitenta e seis, o serviço cartográfico britânico, o Ordnance Survey, e o francês, o IGN, foram contratados para refazer essa conta e criar uma grade comum, a Channel Tunnel Grid. Antes de existir um túnel, existia um mapa que os dois lados aceitavam como verdade. Só que havia um problema ainda pior, e ele era vertical.",
+      "galeria": ["os-sede", "trig-pillar", "ign-sede", "mapa-grade", "perfil-geologico"],
+      "galeriaEm": [0, "pontos", "IGN", "grade", "vertical"],
+      "fontes": ["Ordnance Survey e IGN", "TRID/TRB"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DOIS PAÍSES, DOIS MAPAS", "sub": "Capítulo 1", "cor": "cinza", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "altura-do-mar",
+      "texto": "O zero das altitudes também não era o mesmo. Na Inglaterra, ele vem do nível do mar medido em Newlyn; na França, em Marselha. Para um túnel, isso é decisivo: se um lado errar a altura, as duas galerias passam uma sobre a outra, longe do ponto de encontro. Um artigo de mil novecentos e noventa chamou essa ligação entre as alturas dos dois países de o maior problema da topografia. Os topógrafos fixaram marcos nas duas margens e os ligaram por visadas através do Canal.",
+      "galeria": ["mare-newlyn", "mare-marselha", "esquema-tuneis", "folkestone-costa", "calais-margem"],
+      "galeriaEm": [0, "Marselha", "decisivo", "topógrafos", "margens"],
+      "fontes": ["TRID/TRB (1990)"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A ALTURA DO MAR", "cor": "cinza", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "satelites",
+      "texto": "Para ligar as duas margens, os topógrafos usaram satélites americanos, teodolitos e computadores. Era o fim dos anos oitenta, e a navegação por satélite ainda engatinhava. As coordenadas medidas na superfície eram levadas para dentro das obras, em Shakespeare Cliff e em Sangatte. Lá embaixo, cada curva e cada trecho eram medidos de novo, e de novo, para que o erro não crescesse a cada quilômetro. Mas, debaixo do mar, não existe satélite que alcance a máquina.",
+      "galeria": ["gps-satelite", "estacao-total", "shakespeare-obras", "sangatte-obras", "topografo-tunel"],
+      "galeriaEm": [0, "teodolitos", "Shakespeare", "Sangatte", "embaixo"],
+      "fontes": ["TRID/TRB"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "MEDIR SEM VER", "sub": "Capítulo 2", "cor": "cinza", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "giroscopio",
+      "texto": "A bússola comum não serve perto de tanto aço. A solução foi o giroteodolito, um giroscópio que encontra o norte verdadeiro sentindo a rotação da Terra. Uma empresa alemã de mineração, a DMT, de Bochum, forneceu três desses aparelhos ao consórcio, e as verificações foram feitas dos dois lados. A cada trecho, a direção medida era comparada com a do projeto. Medir era uma coisa; empurrar uma máquina gigante por essa linha, outra bem diferente, e o erro de cada medição seguia junto com a máquina.",
+      "galeria": ["bussola", "giroteodolito", "rotacao-terra", "bochum", "tbm-francesa"],
+      "galeriaEm": [0, "giroteodolito", "rotação", "Bochum", "máquina"],
+      "fontes": ["Springer — DMT, 1993"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "GIROTEODOLITO", "significado": "Giroscópio que acha o norte pela rotação da Terra", "em": "giroteodolito", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "tuneladoras",
+      "texto": "Onze tuneladoras foram usadas na obra: cinco partindo da França e seis do Reino Unido. Do lado francês, a escavação saía de Sangatte; do britânico, de Shakespeare Cliff. Das seis máquinas que começaram em Shakespeare Cliff, metade seguiu para o terminal de Cheriton e a outra metade foi para baixo do mar. Cada uma recebia da topografia a linha a seguir, e essa linha só serviria se a rocha permitisse que a máquina a obedecesse.",
+      "galeria": ["tbm-montagem", "sangatte-vista", "shakespeare-aereo", "cheriton-terminal", "secao-submarina"],
+      "galeriaEm": [0, "Sangatte", "britânico", "Cheriton", "baixo"],
+      "fontes": ["Kent Rail", "Discovery UK"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 11, "unidade": "tuneladoras", "rotulo": "5 da França e 6 do Reino Unido", "em": "Onze", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "giz",
+      "texto": "O trajeto não foi traçado ao acaso. Sob o fundo do Canal há uma camada de marga de giz, uma rocha relativamente macia, mas firme o bastante para sustentar um túnel. As máquinas foram projetadas de propósito para cortar essa rocha, e a linha do túnel tinha de ficar dentro da camada. Dos cinquenta quilômetros de cada túnel, cerca de trinta e oito ficam debaixo do mar, entre Shakespeare Cliff e Sangatte. Faltava só a conferência final entre os dois lados, e ela exigiria uma paciência quase maior que a das máquinas.",
+      "galeria": ["falesia-giz", "geologia-tunel", "tbm-giz", "batimetria", "cretaceo-estratos"],
+      "galeriaEm": [0, "camada", "máquinas", "debaixo", "giz"],
+      "fontes": ["Tunnels & Tunnelling", "Kent Rail"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 38, "unidade": "km", "rotulo": "de cada túnel sob o mar", "em": "cerca", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "samphire",
+      "texto": "E para onde foi tanto giz? Do lado britânico, o material retirado das galerias foi levado para a base do penhasco e acabou formando uma nova área de terra, hoje chamada Samphire Hoe, um parque aberto ao público. É uma lembrança física da escala da obra: antes de ligar dois países, o túnel precisou tirar do chão uma montanha de rocha, e cada metro retirado era também um metro medido.",
+      "galeria": ["samphire-hoe", "samphire-aereo", "samphire-parque", "shakespeare-penhasco", "escavacao-giz"],
+      "galeriaEm": [0, "terra", "parque", "penhasco", "rocha"],
+      "fontes": ["Kent Rail"],
+      "elementos": []
+    },
+    {
+      "id": "sonda",
+      "texto": "Em trinta de outubro de mil novecentos e noventa, um pequeno furo de sondagem ligou os dois lados, sem cerimônia. Registros da época mostram a broca entrando na máquina francesa a poucos centímetros do alvo. A partir dali, a pergunta deixou de ser teórica. Faltava abrir a passagem de verdade, no túnel de serviço, e decidir quem daria o aperto de mão. Os dois homens foram escolhidos por sorteio, e o que aconteceu a seguir entrou para a história da engenharia.",
+      "galeria": ["sonda", "tbm-sonda", "tuneis-obra", "servico-ligacao", "urna"],
+      "galeriaEm": [0, "broca", "pergunta", "serviço", "sorteio"],
+      "fontes": ["Tunnel Talk", "The Local"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["30 OUT 1990", "Furo de sondagem liga os dois lados"], ["1 DEZ 1990", "Encontro no túnel de serviço"]], "em": "trinta", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "encontro",
+      "texto": "Era primeiro de dezembro, pouco depois do meio-dia. O francês Philippe Cozette, com uma broca pneumática, abriu os últimos centímetros de giz e apertou a mão do britânico Graham Fagg. O túnel de serviço estava ligado. A diferença entre os dois eixos: trezentos e cinquenta e oito milímetros na horizontal e cinquenta e oito na vertical, depois de cerca de trinta e oito quilômetros. É mais ou menos um centímetro de erro por quilômetro.",
+      "galeria": ["encontro-1990-b", "broca-pneumatica", "servico-juncao", "diagrama-desvio", "jornal-1990"],
+      "galeriaEm": [0, "broca", "ligado", "diferença", "erro"],
+      "fontes": ["TRID/TRB — Breakthrough on target"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 358, "unidade": "mm", "rotulo": "desvio na horizontal; 58 mm na vertical", "em": "trezentos", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "erro-em-contexto",
+      "texto": "Então o túnel quase não se encontrou? Olhando os números, não, e a explicação está na escala. O túnel de serviço tem quatro vírgula oito metros de diâmetro, e uma diferença de trinta e seis centímetros cabe dentro dele com folga. O que importava era que os dois eixos chegassem perto o bastante para a conexão funcionar. Além disso, o erro de verdade se acumula devagar: foi uma soma de pequenas incertezas, repetida a cada medição, ao longo de quase quarenta quilômetros.",
+      "galeria": ["servico-4m", "vista-secao", "regua", "trilho-tunel", "medicao-erro"],
+      "galeriaEm": [0, "diâmetro", "centímetros", "conexão", "incertezas"],
+      "fontes": ["Tunnels & Tunnelling"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O ERRO EM CONTEXTO", "cor": "cinza", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "tres-tuneis",
+      "texto": "A abertura oficial só veio em seis de maio de mil novecentos e noventa e quatro. Quando as máquinas terminaram, havia três túneis paralelos, com cerca de cinquenta quilômetros cada. Os dois de trilhos têm sete vírgula seis metros de diâmetro, e o de serviço, no meio, quatro vírgula oito. Passagens a cada trezentos e setenta e cinco metros ligam os túneis de trilhos ao de serviço, e dutos de dois metros aliviam o ar empurrado pelos trens.",
+      "galeria": ["inauguracao-1994", "eurostar", "passagem-cruzada", "duto-alivio", "le-shuttle"],
+      "galeriaEm": [0, "trilhos", "Passagens", "dutos", "trens"],
+      "fontes": ["Tunnels & Tunnelling", "The Local"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1 DEZ 1990", "Túnel de serviço ligado"], ["6 MAI 1994", "Abertura oficial"]], "em": "abertura", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "No fim, o Eurotúnel não foi golpe de sorte, e sim uma conta feita em dois países e conferida a cada trecho. Quando dois lados partem de pontos opostos, o que decide o encontro não é a força da máquina, e sim a honestidade da medida, repetida por quem aceita que toda medição carrega um pequeno erro e trabalha para dominá-lo.",
+      "galeria": ["trem-saindo", "falesia-calais", "mapa-final", "tbm-final"],
+      "galeriaEm": [0, "países", "honestidade", "aceita"],
+      "elementos": []
+    }
+  ]
+}

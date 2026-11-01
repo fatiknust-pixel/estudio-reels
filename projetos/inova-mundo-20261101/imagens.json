@@ -1,0 +1,83 @@
+{
+  "servico-interior": { "commons": "Channel Tunnel service tunnel interior", "wiki": "Eurotúnel", "rotulo": "Túnel de serviço do Eurotúnel" },
+  "cortador-tbm": { "commons": "Channel Tunnel tunnel boring machine cutter head", "rotulo": "Cabeça de corte de uma tuneladora do Eurotúnel" },
+  "tbm-expo": { "commons": "Channel Tunnel boring machine Eurotunnel Exhibition Centre Cheriton", "rotulo": "Tuneladora do Eurotúnel em exposição" },
+  "estreito-dover": { "commons": "Strait of Dover satellite image", "wiki": "Estreito de Dover", "rotulo": "Estreito de Dover visto do espaço" },
+  "mapa-rota": { "commons": "Channel Tunnel route map Folkestone Calais", "wiki": "Eurotúnel", "rotulo": "Trajeto do Eurotúnel" },
+
+  "ferry-dover": { "commons": "Port of Dover cross-channel ferry", "rotulo": "Balsa no Porto de Dover" },
+  "mapa-antigo": { "commons": "Map Strait of Dover Dover Calais old map", "rotulo": "Mapa antigo do Estreito de Dover" },
+  "teodolito": { "commons": "Theodolite surveying instrument", "wiki": "Teodolito", "rotulo": "Teodolito de topografia" },
+  "tbm-robbins": { "commons": "Tunnel boring machine cutterhead Robbins", "rotulo": "Cabeça de corte de uma tuneladora" },
+
+  "os-sede": { "commons": "Ordnance Survey headquarters Southampton", "wiki": "Ordnance Survey", "rotulo": "Sede do Ordnance Survey" },
+  "trig-pillar": { "commons": "Ordnance Survey triangulation pillar", "rotulo": "Marco de triangulação do Ordnance Survey" },
+  "ign-sede": { "commons": "Institut géographique national Saint-Mandé", "wiki": "Institut Géographique National", "rotulo": "Sede do IGN, na França" },
+  "mapa-grade": { "commons": "Channel Tunnel terminals map Cheriton Coquelles", "rotulo": "Terminais do Eurotúnel nos dois lados" },
+  "perfil-geologico": { "commons": "Channel Tunnel geological profile", "rotulo": "Perfil geológico do Eurotúnel" },
+
+  "mare-newlyn": { "commons": "Newlyn Tidal Observatory tide gauge", "rotulo": "Observatório de marés de Newlyn" },
+  "mare-marselha": { "commons": "Marseille marégraphe tide gauge", "rotulo": "Marégrafo de Marselha" },
+  "esquema-tuneis": { "commons": "Channel Tunnel cross section three tunnels diagram", "rotulo": "Corte esquemático dos três túneis" },
+  "folkestone-costa": { "commons": "Folkestone coast Kent The Warren", "wiki": "Folkestone", "rotulo": "Costa de Folkestone, no Reino Unido" },
+  "calais-margem": { "commons": "Cap Blanc-Nez cliffs coast Calais", "wiki": "Cap Blanc-Nez", "rotulo": "Cap Blanc-Nez, na costa francesa" },
+
+  "gps-satelite": { "commons": "GPS satellite NAVSTAR Block II", "wiki": "Sistema de Posicionamento Global", "rotulo": "Satélite GPS dos anos 1980" },
+  "estacao-total": { "commons": "Total station surveying instrument tunnel", "rotulo": "Estação total de topografia" },
+  "shakespeare-obras": { "commons": "Shakespeare Cliff Channel Tunnel construction 1988", "rotulo": "Obras em Shakespeare Cliff" },
+  "sangatte-obras": { "commons": "Sangatte shaft Channel Tunnel construction", "rotulo": "Obras do túnel em Sangatte" },
+  "topografo-tunel": { "commons": "Underground surveying tunnel surveyor", "rotulo": "Topografia dentro de um túnel" },
+
+  "bussola": { "commons": "Magnetic compass", "wiki": "Bússola", "rotulo": "Bússola magnética" },
+  "giroteodolito": { "commons": "Gyrotheodolite Gyromat", "rotulo": "Giroteodolito" },
+  "rotacao-terra": { "commons": "Earth rotation axis diagram", "rotulo": "Rotação da Terra" },
+  "bochum": { "commons": "Bochum Deutsches Bergbau-Museum", "wiki": "Bochum", "rotulo": "Bochum, na Alemanha" },
+  "tbm-francesa": { "commons": "Channel Tunnel French tunnel boring machine Sangatte", "rotulo": "Tuneladora do lado francês" },
+
+  "tbm-montagem": { "commons": "Channel Tunnel tunnel boring machines Transmanche-Link", "rotulo": "Tuneladoras do Eurotúnel" },
+  "sangatte-vista": { "commons": "Sangatte Pas-de-Calais", "wiki": "Sangatte", "rotulo": "Sangatte, na França" },
+  "shakespeare-aereo": { "commons": "Shakespeare Cliff Dover aerial Samphire Hoe", "wiki": "Shakespeare Cliff", "rotulo": "Shakespeare Cliff, perto de Dover" },
+  "cheriton-terminal": { "commons": "Eurotunnel Folkestone terminal Cheriton aerial", "rotulo": "Terminal de Folkestone, em Cheriton" },
+  "secao-submarina": { "commons": "Channel Tunnel undersea section diagram", "rotulo": "Trecho submarino do Eurotúnel" },
+
+  "falesia-giz": { "commons": "White Cliffs of Dover chalk", "wiki": "Penhascos brancos de Dover", "rotulo": "Penhascos de giz de Dover" },
+  "geologia-tunel": { "commons": "Channel Tunnel geology chalk marl section", "rotulo": "Camada de marga de giz sob o Canal" },
+  "tbm-giz": { "commons": "Channel Tunnel TBM chalk marl", "rotulo": "Tuneladora cortando giz" },
+  "batimetria": { "commons": "English Channel bathymetry map", "wiki": "Canal da Mancha", "rotulo": "Relevo do fundo do Canal da Mancha" },
+  "samphire-hoe": { "commons": "Samphire Hoe Channel Tunnel spoil", "wiki": "Samphire Hoe", "rotulo": "Samphire Hoe, feito com a terra do túnel" },
+
+  "sonda": { "commons": "Channel Tunnel probe drill breakthrough 1990", "rotulo": "Sonda de perfuração, outubro de 1990" },
+  "tbm-sonda": { "commons": "Channel Tunnel French TBM breakthrough probe October 1990", "rotulo": "Sonda chegando à máquina francesa" },
+  "tuneis-obra": { "commons": "Channel Tunnel construction workers 1990", "rotulo": "Operários na obra do Eurotúnel" },
+  "servico-ligacao": { "commons": "Channel Tunnel service tunnel breakthrough", "rotulo": "Ligação do túnel de serviço" },
+  "urna": { "commons": "Ballot box", "rotulo": "Urna de sorteio" },
+
+  "encontro-1990": { "commons": "Channel Tunnel breakthrough Graham Fagg Philippe Cozette", "rotulo": "Graham Fagg e Philippe Cozette, 1990" },
+  "encontro-1990-b": { "commons": "Channel Tunnel service tunnel breakthrough handshake 1 December 1990", "rotulo": "Aperto de mão no túnel de serviço, 1990" },
+  "broca-pneumatica": { "commons": "Pneumatic drill rock drilling tunnel", "rotulo": "Broca pneumática" },
+  "servico-juncao": { "commons": "Channel Tunnel service tunnel junction", "rotulo": "Junção no túnel de serviço" },
+  "diagrama-desvio": { "commons": "Tunnel breakthrough survey error diagram", "rotulo": "Desvio entre dois eixos de túnel" },
+  "jornal-1990": { "commons": "Channel Tunnel breakthrough 1990 newspaper", "rotulo": "Imprensa noticia o encontro de 1990" },
+
+  "servico-4m": { "commons": "Channel Tunnel service tunnel 4.8 m diameter", "rotulo": "Túnel de serviço, 4,8 m de diâmetro" },
+  "vista-secao": { "commons": "Tunnel cross section diameter comparison", "rotulo": "Diâmetro de um túnel em corte" },
+  "regua": { "commons": "Ruler measuring centimetres", "rotulo": "Régua em centímetros" },
+  "trilho-tunel": { "commons": "Channel Tunnel running tunnel rail", "rotulo": "Túnel ferroviário do Eurotúnel" },
+  "medicao-erro": { "commons": "Surveying measurement errors traverse", "rotulo": "Erros acumulados em medições" },
+
+  "inauguracao-1994": { "commons": "Channel Tunnel opening 1994 Queen Elizabeth Mitterrand", "rotulo": "Inauguração do Eurotúnel, 1994" },
+  "eurostar": { "commons": "Eurostar Class 373 Channel Tunnel", "wiki": "Eurostar", "rotulo": "Trem Eurostar" },
+  "passagem-cruzada": { "commons": "Channel Tunnel cross passage", "rotulo": "Passagem entre os túneis" },
+  "duto-alivio": { "commons": "Channel Tunnel piston relief duct", "rotulo": "Duto de alívio de pressão" },
+  "le-shuttle": { "commons": "Le Shuttle Eurotunnel train", "rotulo": "Trem Le Shuttle" },
+
+  "trem-saindo": { "commons": "Eurotunnel Le Shuttle freight train", "rotulo": "Trem saindo do túnel" },
+  "falesia-calais": { "commons": "Cap Gris-Nez cliffs", "wiki": "Cap Gris-Nez", "rotulo": "Cap Gris-Nez, na França" },
+  "cretaceo-estratos": { "commons": "Chalk strata Cretaceous cliff Kent coast", "rotulo": "Camadas de giz do Cretáceo na costa de Kent" },
+  "samphire-aereo": { "commons": "Samphire Hoe aerial view", "rotulo": "Samphire Hoe visto do alto" },
+  "samphire-parque": { "commons": "Samphire Hoe country park visitors", "rotulo": "Parque Samphire Hoe" },
+  "shakespeare-penhasco": { "commons": "Shakespeare Cliff from Samphire Hoe", "rotulo": "Shakespeare Cliff" },
+  "escavacao-giz": { "commons": "Tunnel excavation chalk spoil conveyor Channel Tunnel", "rotulo": "Giz escavado do túnel" },
+  "tbm-final": { "commons": "Channel Tunnel tunnel boring machine retired display", "rotulo": "Tuneladora do Eurotúnel preservada" },
+  "mapa-final": { "commons": "Channel Tunnel route Dover Calais map locator", "rotulo": "Mapa de localização do Eurotúnel" }
+}
