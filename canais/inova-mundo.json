@@ -86,7 +86,9 @@
   {
    "titulo": "O buraco mais fundo já feito pelo homem",
    "angulo": "A história do Poço Superprofundo de Kola, na Rússia: o que os cientistas esperavam achar, o que encontraram e por que a perfuração parou. Separa fatos de lendas sobre 'sons do inferno'.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261102",
+   "em": "2026-11-02"
   },
   {
    "titulo": "Três Gargantas: a maior usina do mundo vale a pena?",
@@ -124,5 +126,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-01"
+ "ultimaGeracao": "2026-11-02"
 }
