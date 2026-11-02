@@ -1,0 +1,134 @@
+{
+  "titulo": "O buraco mais fundo já feito pelo homem: a verdade sobre o poço de Kola",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Wikipédia — Kola Superdeep Borehole", "url": "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole" },
+    { "titulo": "Wikipédia — Well to Hell", "url": "https://en.wikipedia.org/wiki/Well_to_Hell" },
+    { "titulo": "World Atlas — What Is The Kola Super Deep Borehole?", "url": "https://www.worldatlas.com/articles/what-is-the-kola-super-deep-borehole.html" },
+    { "titulo": "Snopes — Deepest hole on Earth sealed after finding 2-billion-year-old fossil?", "url": "https://www.snopes.com/fact-check/deepest-hole-earth-fossil/" },
+    { "titulo": "Skeptoid — Episódio sobre o poço para o inferno", "url": "https://skeptoid.com/episodes/307" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "O buraco mais fundo do mundo: o que acharam em Kola?",
+      "A verdadeira história do poço para o inferno",
+      "Por que pararam de furar a Terra a 12 km?"
+    ],
+    "descricao": "Em 1970, a União Soviética começou a furar a península de Kola, na Rússia, para tocar o manto da Terra. Chegou a 12.262 metros e encontrou água, microfósseis e um calor que ninguém previa. Este vídeo mostra o que os cientistas esperavam, o que acharam, por que a perfuração parou e como nasceu a lenda dos sons do inferno.\n\n0:00 Gancho\n0:35 Promessa\n1:10 A corrida para baixo\n2:30 O que esperavam\n3:50 O muro de calor\n5:15 A virada\n6:05 O fim da perfuração\n7:00 A lenda do inferno\n8:00 Desfecho\n\nFontes: Wikipédia (Kola Superdeep Borehole; Well to Hell), World Atlas, Snopes, Skeptoid.",
+    "tags": ["poço de Kola", "Kola Superdeep Borehole", "buraco mais fundo do mundo", "poço para o inferno", "Guerra Fria", "geologia", "União Soviética", "perfuração", "curiosidades", "documentário", "ciência", "Inova mundo"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Na península de Kola, no norte da Rússia, a poucos quilômetros da fronteira com a Noruega, existe um buraco de doze mil duzentos e sessenta e dois metros de profundidade. Nenhum outro furo humano chegou tão fundo. E mesmo assim, ele atravessou apenas cerca de um terço da crosta terrestre naquele ponto. Os cientistas soviéticos esperavam encontrar uma coisa lá embaixo. Encontraram outra, bem diferente. E, anos depois, uma lenda afirmou que eles tinham ouvido gritos vindos do inferno. Vamos separar o que aconteceu do que foi inventado.",
+      "galeria": ["kola-mapa", "pechenga", "kola-tampa", "crosta", "bosch-inferno"],
+      "galeriaEm": [0, "fronteira", "buraco", "crosta", "inferno"],
+      "fontes": ["Wikipédia"],
+      "elementos": []
+    },
+    {
+      "id": "promessa",
+      "texto": "Esta é a história do Poço Superprofundo de Kola. O que os cientistas queriam descobrir, o que de fato encontraram, e por que a perfuração parou, sem chegar nem perto da meta. No fim, você vai entender qual parte da lenda dos sons do inferno é real, e qual parte nasceu de um erro de tradução. Mas, para chegar lá, primeiro precisamos voltar a uma época em que o fundo da Terra era um segredo disputado.",
+      "galeria": ["kola-placa", "geologo", "sonda-petroleo", "dicionario", "khrushchev-kennedy"],
+      "galeriaEm": [0, "descobrir", "perfuração", "tradução", "época"],
+      "elementos": []
+    },
+    {
+      "id": "corrida",
+      "texto": "No início dos anos sessenta, Estados Unidos e União Soviética disputavam tudo: o espaço, as armas, a ciência. Os americanos tentaram primeiro. Em mil novecentos e sessenta e um, o Projeto Mohole perfurou o fundo do oceano perto da ilha de Guadalupe, no México, mas o Congresso americano cortou o dinheiro e o projeto foi cancelado. Os soviéticos viram ali uma chance. A meta era chegar à descontinuidade de Mohorovičić, a fronteira entre a crosta e o manto, algo que ninguém nunca tinha tocado. E em vinte e quatro de maio de mil novecentos e setenta, a perfuração começou.",
+      "galeria": ["sputnik", "mohole", "guadalupe", "moho", "manto", "kola-1970"],
+      "galeriaEm": [0, "Projeto", "ilha", "descontinuidade", "manto", "começou"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A CORRIDA PARA BAIXO", "sub": "1961–1970", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "maquina",
+      "texto": "A máquina era uma torre gigantesca, a Uralmash-15000, instalada em mil novecentos e setenta e quatro. A broca não era girada desde a superfície: era movida por uma turbina empurrada pela lama bombeada para dentro do poço. O furo tinha só vinte e três centímetros de largura. Camada por camada, o poço descia e trazia amostras de rocha que nenhum geólogo jamais tinha segurado. Em seis de junho de mil novecentos e setenta e nove, a equipe superou o recorde anterior, um poço de petróleo em Oklahoma, nos Estados Unidos, com nove mil quinhentos e oitenta e três metros.",
+      "galeria": ["uralmash", "turbodrill", "bomba-lama", "broca", "testemunho", "oklahoma"],
+      "galeriaEm": [0, "turbina", "lama", "largura", "amostras", "Oklahoma"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 9583, "unidade": "m", "rotulo": "Recorde superado em 1979", "em": "recorde", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "esperado",
+      "texto": "Os geólogos tinham um mapa na cabeça. As ondas sísmicas indicavam uma mudança de camada por volta de sete quilômetros, e a teoria dizia que ali o granito daria lugar ao basalto, uma rocha mais densa. Só que o basalto nunca apareceu. O granito simplesmente continuou, muito mais fundo do que o previsto. Segundo os pesquisadores, a mudança que as ondas registravam era a própria rocha alterada por pressão e calor. Foi a primeira surpresa, e ela obrigou a ciência a rever modelos que estavam nos livros didáticos.",
+      "galeria": ["geologos-campo", "ondas-sismicas", "granito", "basalto", "conrad"],
+      "galeriaEm": [0, "sísmicas", "granito", "basalto", "modelos"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE ESPERAVAM", "sub": "Basalto × granito", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "agua-fosseis",
+      "texto": "A segunda surpresa veio da água. Os cientistas acreditavam que, a essa profundidade, a rocha estaria seca. Mas entre três e seis quilômetros, encontraram água circulando nas fraturas do granito. A lama de perfuração saía como se estivesse fervendo, carregada de gás hidrogênio. E por volta dos seis quilômetros apareceram microfósseis de plâncton, preservados em rochas de bilhões de anos. Eram marcas de oceanos que desapareceram há muito tempo, hoje guardadas debaixo de uma montanha de pedra.",
+      "galeria": ["agua-fraturas", "fraturas-granito", "lama", "microfossil", "plancton"],
+      "galeriaEm": [0, "fraturas", "lama", "microfósseis", "plâncton"],
+      "fontes": ["Wikipédia", "Snopes"],
+      "elementos": []
+    },
+    {
+      "id": "calor",
+      "texto": "Em mil novecentos e oitenta e três, o poço ultrapassou doze mil metros. Era um feito inédito. Mas, no ano seguinte, aconteceu o pior: em vinte e sete de setembro, a coluna de perfuração se partiu e cerca de cinco quilômetros de tubos ficaram presos lá dentro. A equipe precisou recomeçar o trecho final, desviando de novo a partir de uma profundidade menor. Foram cinco anos de trabalho para voltar ao ponto de antes. E, a cada metro, havia um inimigo crescendo que nenhum engenheiro conseguia desligar: a temperatura.",
+      "galeria": ["kola-1983", "coluna", "tubos-presos", "equipe", "calor"],
+      "galeriaEm": [0, "coluna", "tubos", "equipe", "temperatura"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O MURO DE CALOR", "sub": "1983–1989", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "virada",
+      "texto": "E então vieram os números. Os pesquisadores esperavam cerca de cem graus Celsius a doze mil metros. O termômetro marcou cerca de cento e oitenta. Oitenta graus a mais que o previsto. Segundo relatos da equipe, a rocha, sob esse calor e essa pressão, deixava de se comportar como pedra sólida e passava a se deformar devagar, como uma massa, fechando o furo atrás da broca. Se o plano de quinze mil metros fosse cumprido, as projeções apontavam trezentos graus. Não era falta de vontade. Era o limite das máquinas daquele tempo.",
+      "galeria": ["termometro", "rocha-dobrada", "furo", "projecao", "maquinas"],
+      "galeriaEm": [0, "rocha", "furo", "projeções", "máquinas"],
+      "fontes": ["Wikipédia", "World Atlas"],
+      "elementos": [
+        { "tipo": "contador", "de": 100, "ate": 180, "unidade": "°C", "rotulo": "Esperado: 100 °C", "em": "termômetro", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "fim",
+      "texto": "Mesmo assim, a equipe não desistiu de uma vez. Em mil novecentos e noventa, o terceiro furo sofreu uma falha em doze mil duzentos e sessenta e dois metros. Em mil novecentos e noventa e dois, o quarto parou a onze mil oitocentos e oitenta e dois metros, por causa dos cento e oitenta graus. O quinto furo foi interrompido em oito mil quinhentos e setenta e oito metros, em mil novecentos e noventa e quatro, por falta de dinheiro. A União Soviética tinha acabado, e a ciência de ponta deixou de ser prioridade. Em mil novecentos e noventa e cinco, o local foi considerado encerrado.",
+      "galeria": ["kola-esquema", "kola-falha", "tundra", "urss", "rublo", "zapolyarny"],
+      "galeriaEm": [0, "terceiro", "quarto", "União", "dinheiro", "encerrado"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O FIM DA PERFURAÇÃO", "sub": "1990–1995", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1990", "Falha no 3º furo"], ["1992", "4º furo: 180 °C"], ["1994", "5º furo: sem verba"]], "em": "quinto", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "lenda",
+      "texto": "Agora, a lenda. Ela circula há décadas: cientistas soviéticos teriam perfurado até o inferno, baixado microfones e gravado gritos de milhares de almas. Na história, o poço ficava na Sibéria. Segundo o registro do caso, tudo começou com um professor norueguês, Åge Rendalen, que pegou uma notícia banal sobre um fiscal de obras, traduziu de forma deliberadamente errada e enviou à TBN, uma rede de televisão cristã dos Estados Unidos. A emissora levou a sério e transmitiu a história como se fosse verdade. Rendalen depois admitiu a brincadeira.",
+      "galeria": ["dore", "microfone", "siberia", "noruega", "tbn"],
+      "galeriaEm": [0, "microfones", "Sibéria", "norueguês", "emissora"],
+      "fontes": ["Wikipédia — Well to Hell"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A LENDA DO INFERNO", "sub": "Fato ou boato?", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "sons",
+      "texto": "E os gritos? A gravação famosa, com lamentos e berros, passou a circular na internet como se fosse o áudio do poço. Mas não existe registro confiável de que essa gravação tenha vindo de Kola, e verificadores de fatos apontam que o som parece vir de efeitos de filme de terror. Além disso, a lenda erra o lugar: Kola fica na península de mesmo nome, não na Sibéria. A única coisa realmente estranha no poço era outra: a lama de perfuração, que saía carregada de gás hidrogênio, parecendo ferver. Estranho, sim. Sobrenatural, não.",
+      "galeria": ["gravador", "internet", "projetor", "peninsula-satelite", "fervura"],
+      "galeriaEm": [0, "internet", "filme", "península", "ferver"],
+      "fontes": ["Snopes", "Skeptoid"],
+      "elementos": []
+    },
+    {
+      "id": "desfecho",
+      "texto": "Hoje, no lugar do poço há ruínas e uma tampa de metal soldada, enferrujada pelo tempo. O recorde de profundidade resiste: a marca de doze mil duzentos e sessenta e dois metros, alcançada em mil novecentos e oitenta e nove, continua sendo o ponto mais fundo que o ser humano atingiu. Em dois mil e vinte e quatro, a China chegou a dez mil metros com o Shendi Take Um. Pense na escala: doze quilômetros são menos de dois milésimos do caminho até o centro da Terra. O que mais aprendemos lá embaixo foi sobre a nossa ignorância. E o chão sob nossos pés continua sendo uma fronteira quase intocada.",
+      "galeria": ["kola-ruinas", "solda", "comparacao-profundidade", "china", "escala-terra", "planeta"],
+      "galeriaEm": [0, "soldada", "recorde", "China", "escala", "intocada"],
+      "fontes": ["Wikipédia"],
+      "elementos": []
+    }
+  ]
+}

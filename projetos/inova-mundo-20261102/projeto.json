@@ -1,13 +1,13 @@
 {
  "versao": 1,
  "id": "inova-mundo-20261102",
- "titulo": "O buraco mais fundo já feito pelo homem",
+ "titulo": "O buraco mais fundo já feito pelo homem: a verdade sobre o poço de Kola",
  "modo": "ia",
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-02T10:56:02.113Z",
- "atualizadoEm": "2026-11-02T10:56:02.113Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-02T11:05:51Z",
+ "status": "pronto",
  "pedido": {
   "tema": "O buraco mais fundo já feito pelo homem — ângulo: A história do Poço Superprofundo de Kola, na Rússia: o que os cientistas esperavam achar, o que encontraram e por que a perfuração parou. Separa fatos de lendas sobre 'sons do inferno'.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,6900 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Na península de Kola, no norte da Rússia, a poucos quilômetros da fronteira com a Noruega, existe um buraco de doze mil duzentos e sessenta e dois metros de profundidade. Nenhum outro furo humano chegou tão fundo. E mesmo assim, ele atravessou apenas cerca de um terço da crosta terrestre naquele ponto. Os cientistas soviéticos esperavam encontrar uma coisa lá embaixo. Encontraram outra, bem diferente. E, anos depois, uma lenda afirmou que eles tinham ouvido gritos vindos do inferno. Vamos separar o que aconteceu do que foi inventado.",
+   "galeria": [
+    "kola-mapa",
+    "pechenga",
+    "kola-tampa",
+    "crosta",
+    "bosch-inferno"
+   ],
+   "galeriaEm": [
+    0,
+    "fronteira",
+    "buraco",
+    "crosta",
+    "inferno"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "promessa",
+   "texto": "Esta é a história do Poço Superprofundo de Kola. O que os cientistas queriam descobrir, o que de fato encontraram, e por que a perfuração parou, sem chegar nem perto da meta. No fim, você vai entender qual parte da lenda dos sons do inferno é real, e qual parte nasceu de um erro de tradução. Mas, para chegar lá, primeiro precisamos voltar a uma época em que o fundo da Terra era um segredo disputado.",
+   "galeria": [
+    "kola-placa",
+    "geologo",
+    "sonda-petroleo",
+    "dicionario",
+    "khrushchev-kennedy"
+   ],
+   "galeriaEm": [
+    0,
+    "descobrir",
+    "perfuração",
+    "tradução",
+    "época"
+   ],
+   "fontes": [],
+   "elementos": []
+  },
+  {
+   "id": "corrida",
+   "texto": "No início dos anos sessenta, Estados Unidos e União Soviética disputavam tudo: o espaço, as armas, a ciência. Os americanos tentaram primeiro. Em mil novecentos e sessenta e um, o Projeto Mohole perfurou o fundo do oceano perto da ilha de Guadalupe, no México, mas o Congresso americano cortou o dinheiro e o projeto foi cancelado. Os soviéticos viram ali uma chance. A meta era chegar à descontinuidade de Mohorovičić, a fronteira entre a crosta e o manto, algo que ninguém nunca tinha tocado. E em vinte e quatro de maio de mil novecentos e setenta, a perfuração começou.",
+   "galeria": [
+    "sputnik",
+    "mohole",
+    "guadalupe",
+    "moho",
+    "manto",
+    "kola-1970"
+   ],
+   "galeriaEm": [
+    0,
+    "Projeto",
+    "ilha",
+    "descontinuidade",
+    "manto",
+    "começou"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A CORRIDA PARA BAIXO",
+     "sub": "1961–1970",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "maquina",
+   "texto": "A máquina era uma torre gigantesca, a Uralmash-15000, instalada em mil novecentos e setenta e quatro. A broca não era girada desde a superfície: era movida por uma turbina empurrada pela lama bombeada para dentro do poço. O furo tinha só vinte e três centímetros de largura. Camada por camada, o poço descia e trazia amostras de rocha que nenhum geólogo jamais tinha segurado. Em seis de junho de mil novecentos e setenta e nove, a equipe superou o recorde anterior, um poço de petróleo em Oklahoma, nos Estados Unidos, com nove mil quinhentos e oitenta e três metros.",
+   "galeria": [
+    "uralmash",
+    "turbodrill",
+    "bomba-lama",
+    "broca",
+    "testemunho",
+    "oklahoma"
+   ],
+   "galeriaEm": [
+    0,
+    "turbina",
+    "lama",
+    "largura",
+    "amostras",
+    "Oklahoma"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 9583,
+     "unidade": "m",
+     "rotulo": "Recorde superado em 1979",
+     "em": "recorde",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "esperado",
+   "texto": "Os geólogos tinham um mapa na cabeça. As ondas sísmicas indicavam uma mudança de camada por volta de sete quilômetros, e a teoria dizia que ali o granito daria lugar ao basalto, uma rocha mais densa. Só que o basalto nunca apareceu. O granito simplesmente continuou, muito mais fundo do que o previsto. Segundo os pesquisadores, a mudança que as ondas registravam era a própria rocha alterada por pressão e calor. Foi a primeira surpresa, e ela obrigou a ciência a rever modelos que estavam nos livros didáticos.",
+   "galeria": [
+    "geologos-campo",
+    "ondas-sismicas",
+    "granito",
+    "basalto",
+    "conrad"
+   ],
+   "galeriaEm": [
+    0,
+    "sísmicas",
+    "granito",
+    "basalto",
+    "modelos"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE ESPERAVAM",
+     "sub": "Basalto × granito",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "agua-fosseis",
+   "texto": "A segunda surpresa veio da água. Os cientistas acreditavam que, a essa profundidade, a rocha estaria seca. Mas entre três e seis quilômetros, encontraram água circulando nas fraturas do granito. A lama de perfuração saía como se estivesse fervendo, carregada de gás hidrogênio. E por volta dos seis quilômetros apareceram microfósseis de plâncton, preservados em rochas de bilhões de anos. Eram marcas de oceanos que desapareceram há muito tempo, hoje guardadas debaixo de uma montanha de pedra.",
+   "galeria": [
+    "agua-fraturas",
+    "fraturas-granito",
+    "lama",
+    "microfossil",
+    "plancton"
+   ],
+   "galeriaEm": [
+    0,
+    "fraturas",
+    "lama",
+    "microfósseis",
+    "plâncton"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "Snopes"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "calor",
+   "texto": "Em mil novecentos e oitenta e três, o poço ultrapassou doze mil metros. Era um feito inédito. Mas, no ano seguinte, aconteceu o pior: em vinte e sete de setembro, a coluna de perfuração se partiu e cerca de cinco quilômetros de tubos ficaram presos lá dentro. A equipe precisou recomeçar o trecho final, desviando de novo a partir de uma profundidade menor. Foram cinco anos de trabalho para voltar ao ponto de antes. E, a cada metro, havia um inimigo crescendo que nenhum engenheiro conseguia desligar: a temperatura.",
+   "galeria": [
+    "kola-1983",
+    "coluna",
+    "tubos-presos",
+    "equipe",
+    "calor"
+   ],
+   "galeriaEm": [
+    0,
+    "coluna",
+    "tubos",
+    "equipe",
+    "temperatura"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O MURO DE CALOR",
+     "sub": "1983–1989",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "virada",
+   "texto": "E então vieram os números. Os pesquisadores esperavam cerca de cem graus Celsius a doze mil metros. O termômetro marcou cerca de cento e oitenta. Oitenta graus a mais que o previsto. Segundo relatos da equipe, a rocha, sob esse calor e essa pressão, deixava de se comportar como pedra sólida e passava a se deformar devagar, como uma massa, fechando o furo atrás da broca. Se o plano de quinze mil metros fosse cumprido, as projeções apontavam trezentos graus. Não era falta de vontade. Era o limite das máquinas daquele tempo.",
+   "galeria": [
+    "termometro",
+    "rocha-dobrada",
+    "furo",
+    "projecao",
+    "maquinas"
+   ],
+   "galeriaEm": [
+    0,
+    "rocha",
+    "furo",
+    "projeções",
+    "máquinas"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "World Atlas"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 100,
+     "ate": 180,
+     "unidade": "°C",
+     "rotulo": "Esperado: 100 °C",
+     "em": "termômetro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "fim",
+   "texto": "Mesmo assim, a equipe não desistiu de uma vez. Em mil novecentos e noventa, o terceiro furo sofreu uma falha em doze mil duzentos e sessenta e dois metros. Em mil novecentos e noventa e dois, o quarto parou a onze mil oitocentos e oitenta e dois metros, por causa dos cento e oitenta graus. O quinto furo foi interrompido em oito mil quinhentos e setenta e oito metros, em mil novecentos e noventa e quatro, por falta de dinheiro. A União Soviética tinha acabado, e a ciência de ponta deixou de ser prioridade. Em mil novecentos e noventa e cinco, o local foi considerado encerrado.",
+   "galeria": [
+    "kola-esquema",
+    "kola-falha",
+    "tundra",
+    "urss",
+    "rublo",
+    "zapolyarny"
+   ],
+   "galeriaEm": [
+    0,
+    "terceiro",
+    "quarto",
+    "União",
+    "dinheiro",
+    "encerrado"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O FIM DA PERFURAÇÃO",
+     "sub": "1990–1995",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1990",
+       "Falha no 3º furo"
+      ],
+      [
+       "1992",
+       "4º furo: 180 °C"
+      ],
+      [
+       "1994",
+       "5º furo: sem verba"
+      ]
+     ],
+     "em": "quinto",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "lenda",
+   "texto": "Agora, a lenda. Ela circula há décadas: cientistas soviéticos teriam perfurado até o inferno, baixado microfones e gravado gritos de milhares de almas. Na história, o poço ficava na Sibéria. Segundo o registro do caso, tudo começou com um professor norueguês, Åge Rendalen, que pegou uma notícia banal sobre um fiscal de obras, traduziu de forma deliberadamente errada e enviou à TBN, uma rede de televisão cristã dos Estados Unidos. A emissora levou a sério e transmitiu a história como se fosse verdade. Rendalen depois admitiu a brincadeira.",
+   "galeria": [
+    "dore",
+    "microfone",
+    "siberia",
+    "noruega",
+    "tbn"
+   ],
+   "galeriaEm": [
+    0,
+    "microfones",
+    "Sibéria",
+    "norueguês",
+    "emissora"
+   ],
+   "fontes": [
+    "Wikipédia — Well to Hell"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A LENDA DO INFERNO",
+     "sub": "Fato ou boato?",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "sons",
+   "texto": "E os gritos? A gravação famosa, com lamentos e berros, passou a circular na internet como se fosse o áudio do poço. Mas não existe registro confiável de que essa gravação tenha vindo de Kola, e verificadores de fatos apontam que o som parece vir de efeitos de filme de terror. Além disso, a lenda erra o lugar: Kola fica na península de mesmo nome, não na Sibéria. A única coisa realmente estranha no poço era outra: a lama de perfuração, que saía carregada de gás hidrogênio, parecendo ferver. Estranho, sim. Sobrenatural, não.",
+   "galeria": [
+    "gravador",
+    "internet",
+    "projetor",
+    "peninsula-satelite",
+    "fervura"
+   ],
+   "galeriaEm": [
+    0,
+    "internet",
+    "filme",
+    "península",
+    "ferver"
+   ],
+   "fontes": [
+    "Snopes",
+    "Skeptoid"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "desfecho",
+   "texto": "Hoje, no lugar do poço há ruínas e uma tampa de metal soldada, enferrujada pelo tempo. O recorde de profundidade resiste: a marca de doze mil duzentos e sessenta e dois metros, alcançada em mil novecentos e oitenta e nove, continua sendo o ponto mais fundo que o ser humano atingiu. Em dois mil e vinte e quatro, a China chegou a dez mil metros com o Shendi Take Um. Pense na escala: doze quilômetros são menos de dois milésimos do caminho até o centro da Terra. O que mais aprendemos lá embaixo foi sobre a nossa ignorância. E o chão sob nossos pés continua sendo uma fronteira quase intocada.",
+   "galeria": [
+    "kola-ruinas",
+    "solda",
+    "comparacao-profundidade",
+    "china",
+    "escala-terra",
+    "planeta"
+   ],
+   "galeriaEm": [
+    0,
+    "soldada",
+    "recorde",
+    "China",
+    "escala",
+    "intocada"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "fa54ae840b",
+   "texto": "Na península de Kola, no norte da Rússia, a poucos quilômetros da fronteira com a Noruega, existe um buraco de doze mil duzentos e sessenta e dois metros de profundidade. Nenhum outro furo humano chegou tão fundo. E mesmo assim, ele atravessou apenas cerca de um terço da crosta terrestre naquele ponto. Os cientistas soviéticos esperavam encontrar uma coisa lá embaixo. Encontraram outra, bem diferente. E, anos depois, uma lenda afirmou que eles tinham ouvido gritos vindos do inferno. Vamos separar o que aconteceu do que foi inventado.",
+   "audio": "audio/gancho-fa54ae840b.mp3",
+   "duracao": 34.586,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "península",
+     "i": 0.297,
+     "f": 0.857
+    },
+    {
+     "p": "de",
+     "i": 0.87,
+     "f": 0.988
+    },
+    {
+     "p": "Kola",
+     "i": 1.001,
+     "f": 1.352
+    },
+    {
+     "p": "no",
+     "i": 1.639,
+     "f": 1.756
+    },
+    {
+     "p": "norte",
+     "i": 1.769,
+     "f": 2.159
+    },
+    {
+     "p": "da",
+     "i": 2.172,
+     "f": 2.277
+    },
+    {
+     "p": "Rússia",
+     "i": 2.29,
+     "f": 2.719
+    },
+    {
+     "p": "a",
+     "i": 2.967,
+     "f": 3.071
+    },
+    {
+     "p": "poucos",
+     "i": 3.084,
+     "f": 3.488
+    },
+    {
+     "p": "quilômetros",
+     "i": 3.501,
+     "f": 4.06
+    },
+    {
+     "p": "da",
+     "i": 4.073,
+     "f": 4.191
+    },
+    {
+     "p": "fronteira",
+     "i": 4.204,
+     "f": 4.724
+    },
+    {
+     "p": "com",
+     "i": 4.737,
+     "f": 4.881
+    },
+    {
+     "p": "a",
+     "i": 4.894,
+     "f": 4.907
+    },
+    {
+     "p": "Noruega",
+     "i": 4.92,
+     "f": 5.532
+    },
+    {
+     "p": "existe",
+     "i": 5.792,
+     "f": 6.183
+    },
+    {
+     "p": "um",
+     "i": 6.196,
+     "f": 6.261
+    },
+    {
+     "p": "buraco",
+     "i": 6.274,
+     "f": 6.717
+    },
+    {
+     "p": "de",
+     "i": 6.73,
+     "f": 6.847
+    },
+    {
+     "p": "doze",
+     "i": 6.86,
+     "f": 7.238
+    },
+    {
+     "p": "mil",
+     "i": 7.251,
+     "f": 7.446
+    },
+    {
+     "p": "duzentos",
+     "i": 7.459,
+     "f": 7.941
+    },
+    {
+     "p": "e",
+     "i": 7.954,
+     "f": 8.058
+    },
+    {
+     "p": "sessenta",
+     "i": 8.071,
+     "f": 8.435
+    },
+    {
+     "p": "e",
+     "i": 8.448,
+     "f": 8.474
+    },
+    {
+     "p": "dois",
+     "i": 8.488,
+     "f": 8.709
+    },
+    {
+     "p": "metros",
+     "i": 8.722,
+     "f": 9.126
+    },
+    {
+     "p": "de",
+     "i": 9.139,
+     "f": 9.23
+    },
+    {
+     "p": "profundidade",
+     "i": 9.243,
+     "f": 10.102
+    },
+    {
+     "p": "Nenhum",
+     "i": 10.454,
+     "f": 10.871
+    },
+    {
+     "p": "outro",
+     "i": 10.884,
+     "f": 11.17
+    },
+    {
+     "p": "furo",
+     "i": 11.183,
+     "f": 11.457
+    },
+    {
+     "p": "humano",
+     "i": 11.47,
+     "f": 11.821
+    },
+    {
+     "p": "chegou",
+     "i": 11.834,
+     "f": 12.238
+    },
+    {
+     "p": "tão",
+     "i": 12.251,
+     "f": 12.485
+    },
+    {
+     "p": "fundo",
+     "i": 12.498,
+     "f": 12.941
+    },
+    {
+     "p": "E",
+     "i": 13.294,
+     "f": 13.411
+    },
+    {
+     "p": "mesmo",
+     "i": 13.424,
+     "f": 13.802
+    },
+    {
+     "p": "assim",
+     "i": 13.815,
+     "f": 14.206
+    },
+    {
+     "p": "ele",
+     "i": 14.427,
+     "f": 14.531
+    },
+    {
+     "p": "atravessou",
+     "i": 14.544,
+     "f": 15.078
+    },
+    {
+     "p": "apenas",
+     "i": 15.091,
+     "f": 15.547
+    },
+    {
+     "p": "cerca",
+     "i": 15.56,
+     "f": 15.911
+    },
+    {
+     "p": "de",
+     "i": 15.924,
+     "f": 16.054
+    },
+    {
+     "p": "um",
+     "i": 16.068,
+     "f": 16.237
+    },
+    {
+     "p": "terço",
+     "i": 16.25,
+     "f": 16.601
+    },
+    {
+     "p": "da",
+     "i": 16.614,
+     "f": 16.732
+    },
+    {
+     "p": "crosta",
+     "i": 16.745,
+     "f": 17.161
+    },
+    {
+     "p": "terrestre",
+     "i": 17.174,
+     "f": 17.708
+    },
+    {
+     "p": "naquele",
+     "i": 17.721,
+     "f": 18.125
+    },
+    {
+     "p": "ponto",
+     "i": 18.138,
+     "f": 18.541
+    },
+    {
+     "p": "Os",
+     "i": 18.894,
+     "f": 19.063
+    },
+    {
+     "p": "cientistas",
+     "i": 19.076,
+     "f": 19.74
+    },
+    {
+     "p": "soviéticos",
+     "i": 19.753,
+     "f": 20.391
+    },
+    {
+     "p": "esperavam",
+     "i": 20.405,
+     "f": 21.003
+    },
+    {
+     "p": "encontrar",
+     "i": 21.016,
+     "f": 21.459
+    },
+    {
+     "p": "uma",
+     "i": 21.472,
+     "f": 21.654
+    },
+    {
+     "p": "coisa",
+     "i": 21.668,
+     "f": 22.032
+    },
+    {
+     "p": "lá",
+     "i": 22.045,
+     "f": 22.24
+    },
+    {
+     "p": "embaixo",
+     "i": 22.253,
+     "f": 22.839
+    },
+    {
+     "p": "Encontraram",
+     "i": 23.174,
+     "f": 23.929
+    },
+    {
+     "p": "outra",
+     "i": 23.942,
+     "f": 24.268
+    },
+    {
+     "p": "bem",
+     "i": 24.541,
+     "f": 24.737
+    },
+    {
+     "p": "diferente",
+     "i": 24.75,
+     "f": 25.427
+    },
+    {
+     "p": "E",
+     "i": 25.774,
+     "f": 26.021
+    },
+    {
+     "p": "anos",
+     "i": 26.256,
+     "f": 26.555
+    },
+    {
+     "p": "depois",
+     "i": 26.568,
+     "f": 27.076
+    },
+    {
+     "p": "uma",
+     "i": 27.467,
+     "f": 27.688
+    },
+    {
+     "p": "lenda",
+     "i": 27.701,
+     "f": 28.001
+    },
+    {
+     "p": "afirmou",
+     "i": 28.014,
+     "f": 28.508
+    },
+    {
+     "p": "que",
+     "i": 28.521,
+     "f": 28.639
+    },
+    {
+     "p": "eles",
+     "i": 28.652,
+     "f": 28.847
+    },
+    {
+     "p": "tinham",
+     "i": 28.86,
+     "f": 29.133
+    },
+    {
+     "p": "ouvido",
+     "i": 29.146,
+     "f": 29.537
+    },
+    {
+     "p": "gritos",
+     "i": 29.55,
+     "f": 29.98
+    },
+    {
+     "p": "vindos",
+     "i": 29.993,
+     "f": 30.37
+    },
+    {
+     "p": "do",
+     "i": 30.383,
+     "f": 30.475
+    },
+    {
+     "p": "inferno",
+     "i": 30.488,
+     "f": 31.1
+    },
+    {
+     "p": "Vamos",
+     "i": 31.446,
+     "f": 31.824
+    },
+    {
+     "p": "separar",
+     "i": 31.837,
+     "f": 32.358
+    },
+    {
+     "p": "o",
+     "i": 32.371,
+     "f": 32.436
+    },
+    {
+     "p": "que",
+     "i": 32.449,
+     "f": 32.514
+    },
+    {
+     "p": "aconteceu",
+     "i": 32.527,
+     "f": 33.1
+    },
+    {
+     "p": "do",
+     "i": 33.113,
+     "f": 33.243
+    },
+    {
+     "p": "que",
+     "i": 33.256,
+     "f": 33.386
+    },
+    {
+     "p": "foi",
+     "i": 33.399,
+     "f": 33.595
+    },
+    {
+     "p": "inventado",
+     "i": 33.608,
+     "f": 34.246
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "dbe58c91f3",
+   "texto": "Esta é a história do Poço Superprofundo de Kola. O que os cientistas queriam descobrir, o que de fato encontraram, e por que a perfuração parou, sem chegar nem perto da meta. No fim, você vai entender qual parte da lenda dos sons do inferno é real, e qual parte nasceu de um erro de tradução. Mas, para chegar lá, primeiro precisamos voltar a uma época em que o fundo da Terra era um segredo disputado.",
+   "audio": "audio/promessa-dbe58c91f3.mp3",
+   "duracao": 25.626,
+   "palavras": [
+    {
+     "p": "Esta",
+     "i": 0.102,
+     "f": 0.428
+    },
+    {
+     "p": "é",
+     "i": 0.441,
+     "f": 0.519
+    },
+    {
+     "p": "a",
+     "i": 0.532,
+     "f": 0.558
+    },
+    {
+     "p": "história",
+     "i": 0.571,
+     "f": 1.001
+    },
+    {
+     "p": "do",
+     "i": 1.014,
+     "f": 1.118
+    },
+    {
+     "p": "Poço",
+     "i": 1.131,
+     "f": 1.482
+    },
+    {
+     "p": "Superprofundo",
+     "i": 1.495,
+     "f": 2.316
+    },
+    {
+     "p": "de",
+     "i": 2.329,
+     "f": 2.446
+    },
+    {
+     "p": "Kola",
+     "i": 2.459,
+     "f": 2.863
+    },
+    {
+     "p": "O",
+     "i": 3.206,
+     "f": 3.323
+    },
+    {
+     "p": "que",
+     "i": 3.336,
+     "f": 3.466
+    },
+    {
+     "p": "os",
+     "i": 3.48,
+     "f": 3.558
+    },
+    {
+     "p": "cientistas",
+     "i": 3.571,
+     "f": 4.235
+    },
+    {
+     "p": "queriam",
+     "i": 4.248,
+     "f": 4.547
+    },
+    {
+     "p": "descobrir",
+     "i": 4.56,
+     "f": 5.159
+    },
+    {
+     "p": "o",
+     "i": 5.433,
+     "f": 5.498
+    },
+    {
+     "p": "que",
+     "i": 5.511,
+     "f": 5.628
+    },
+    {
+     "p": "de",
+     "i": 5.641,
+     "f": 5.771
+    },
+    {
+     "p": "fato",
+     "i": 5.784,
+     "f": 6.11
+    },
+    {
+     "p": "encontraram",
+     "i": 6.123,
+     "f": 6.735
+    },
+    {
+     "p": "e",
+     "i": 7.086,
+     "f": 7.177
+    },
+    {
+     "p": "por",
+     "i": 7.19,
+     "f": 7.373
+    },
+    {
+     "p": "que",
+     "i": 7.386,
+     "f": 7.529
+    },
+    {
+     "p": "a",
+     "i": 7.542,
+     "f": 7.633
+    },
+    {
+     "p": "perfuração",
+     "i": 7.646,
+     "f": 8.297
+    },
+    {
+     "p": "parou",
+     "i": 8.31,
+     "f": 8.662
+    },
+    {
+     "p": "sem",
+     "i": 9,
+     "f": 9.222
+    },
+    {
+     "p": "chegar",
+     "i": 9.235,
+     "f": 9.651
+    },
+    {
+     "p": "nem",
+     "i": 9.664,
+     "f": 9.964
+    },
+    {
+     "p": "perto",
+     "i": 9.977,
+     "f": 10.355
+    },
+    {
+     "p": "da",
+     "i": 10.368,
+     "f": 10.472
+    },
+    {
+     "p": "meta",
+     "i": 10.485,
+     "f": 10.862
+    },
+    {
+     "p": "No",
+     "i": 11.206,
+     "f": 11.375
+    },
+    {
+     "p": "fim",
+     "i": 11.388,
+     "f": 11.675
+    },
+    {
+     "p": "você",
+     "i": 12.065,
+     "f": 12.378
+    },
+    {
+     "p": "vai",
+     "i": 12.391,
+     "f": 12.521
+    },
+    {
+     "p": "entender",
+     "i": 12.534,
+     "f": 12.99
+    },
+    {
+     "p": "qual",
+     "i": 13.003,
+     "f": 13.276
+    },
+    {
+     "p": "parte",
+     "i": 13.289,
+     "f": 13.654
+    },
+    {
+     "p": "da",
+     "i": 13.667,
+     "f": 13.758
+    },
+    {
+     "p": "lenda",
+     "i": 13.771,
+     "f": 14.071
+    },
+    {
+     "p": "dos",
+     "i": 14.084,
+     "f": 14.318
+    },
+    {
+     "p": "sons",
+     "i": 14.331,
+     "f": 14.631
+    },
+    {
+     "p": "do",
+     "i": 14.644,
+     "f": 14.722
+    },
+    {
+     "p": "inferno",
+     "i": 14.735,
+     "f": 15.269
+    },
+    {
+     "p": "é",
+     "i": 15.282,
+     "f": 15.334
+    },
+    {
+     "p": "real",
+     "i": 15.347,
+     "f": 15.737
+    },
+    {
+     "p": "e",
+     "i": 16.089,
+     "f": 16.206
+    },
+    {
+     "p": "qual",
+     "i": 16.219,
+     "f": 16.493
+    },
+    {
+     "p": "parte",
+     "i": 16.506,
+     "f": 16.883
+    },
+    {
+     "p": "nasceu",
+     "i": 16.896,
+     "f": 17.287
+    },
+    {
+     "p": "de",
+     "i": 17.3,
+     "f": 17.404
+    },
+    {
+     "p": "um",
+     "i": 17.417,
+     "f": 17.573
+    },
+    {
+     "p": "erro",
+     "i": 17.586,
+     "f": 17.821
+    },
+    {
+     "p": "de",
+     "i": 17.834,
+     "f": 17.938
+    },
+    {
+     "p": "tradução",
+     "i": 17.951,
+     "f": 18.55
+    },
+    {
+     "p": "Mas",
+     "i": 18.894,
+     "f": 19.415
+    },
+    {
+     "p": "para",
+     "i": 19.636,
+     "f": 19.832
+    },
+    {
+     "p": "chegar",
+     "i": 19.845,
+     "f": 20.235
+    },
+    {
+     "p": "lá",
+     "i": 20.248,
+     "f": 20.483
+    },
+    {
+     "p": "primeiro",
+     "i": 20.613,
+     "f": 20.99
+    },
+    {
+     "p": "precisamos",
+     "i": 21.003,
+     "f": 21.628
+    },
+    {
+     "p": "voltar",
+     "i": 21.641,
+     "f": 22.019
+    },
+    {
+     "p": "a",
+     "i": 22.032,
+     "f": 22.084
+    },
+    {
+     "p": "uma",
+     "i": 22.097,
+     "f": 22.266
+    },
+    {
+     "p": "época",
+     "i": 22.279,
+     "f": 22.631
+    },
+    {
+     "p": "em",
+     "i": 22.644,
+     "f": 22.696
+    },
+    {
+     "p": "que",
+     "i": 22.709,
+     "f": 22.8
+    },
+    {
+     "p": "o",
+     "i": 22.813,
+     "f": 22.865
+    },
+    {
+     "p": "fundo",
+     "i": 22.878,
+     "f": 23.23
+    },
+    {
+     "p": "da",
+     "i": 23.243,
+     "f": 23.373
+    },
+    {
+     "p": "Terra",
+     "i": 23.386,
+     "f": 23.66
+    },
+    {
+     "p": "era",
+     "i": 23.673,
+     "f": 23.79
+    },
+    {
+     "p": "um",
+     "i": 23.803,
+     "f": 23.855
+    },
+    {
+     "p": "segredo",
+     "i": 23.868,
+     "f": 24.363
+    },
+    {
+     "p": "disputado",
+     "i": 24.376,
+     "f": 25.066
+    }
+   ]
+  },
+  "corrida": {
+   "hash": "0eb3bf8bea",
+   "texto": "No início dos anos sessenta, Estados Unidos e União Soviética disputavam tudo: o espaço, as armas, a ciência. Os americanos tentaram primeiro. Em mil novecentos e sessenta e um, o Projeto Mohole perfurou o fundo do oceano perto da ilha de Guadalupe, no México, mas o Congresso americano cortou o dinheiro e o projeto foi cancelado. Os soviéticos viram ali uma chance. A meta era chegar à descontinuidade de Mohorovičić, a fronteira entre a crosta e o manto, algo que ninguém nunca tinha tocado. E em vinte e quatro de maio de mil novecentos e setenta, a perfuração começou.",
+   "audio": "audio/corrida-0eb3bf8bea.mp3",
+   "duracao": 36.571,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "início",
+     "i": 0.284,
+     "f": 0.649
+    },
+    {
+     "p": "dos",
+     "i": 0.662,
+     "f": 0.779
+    },
+    {
+     "p": "anos",
+     "i": 0.792,
+     "f": 1.144
+    },
+    {
+     "p": "sessenta",
+     "i": 1.157,
+     "f": 1.717
+    },
+    {
+     "p": "Estados",
+     "i": 1.99,
+     "f": 2.368
+    },
+    {
+     "p": "Unidos",
+     "i": 2.381,
+     "f": 2.797
+    },
+    {
+     "p": "e",
+     "i": 2.81,
+     "f": 2.915
+    },
+    {
+     "p": "União",
+     "i": 2.928,
+     "f": 3.266
+    },
+    {
+     "p": "Soviética",
+     "i": 3.279,
+     "f": 3.956
+    },
+    {
+     "p": "disputavam",
+     "i": 3.969,
+     "f": 4.685
+    },
+    {
+     "p": "tudo",
+     "i": 4.698,
+     "f": 5.05
+    },
+    {
+     "p": "o",
+     "i": 5.336,
+     "f": 5.454
+    },
+    {
+     "p": "espaço",
+     "i": 5.467,
+     "f": 6.027
+    },
+    {
+     "p": "as",
+     "i": 6.326,
+     "f": 6.443
+    },
+    {
+     "p": "armas",
+     "i": 6.456,
+     "f": 7.003
+    },
+    {
+     "p": "a",
+     "i": 7.211,
+     "f": 7.277
+    },
+    {
+     "p": "ciência",
+     "i": 7.29,
+     "f": 7.889
+    },
+    {
+     "p": "Os",
+     "i": 8.222,
+     "f": 8.326
+    },
+    {
+     "p": "americanos",
+     "i": 8.339,
+     "f": 9.121
+    },
+    {
+     "p": "tentaram",
+     "i": 9.134,
+     "f": 9.602
+    },
+    {
+     "p": "primeiro",
+     "i": 9.615,
+     "f": 10.071
+    },
+    {
+     "p": "Em",
+     "i": 10.414,
+     "f": 10.57
+    },
+    {
+     "p": "mil",
+     "i": 10.583,
+     "f": 10.714
+    },
+    {
+     "p": "novecentos",
+     "i": 10.727,
+     "f": 11.286
+    },
+    {
+     "p": "e",
+     "i": 11.3,
+     "f": 11.404
+    },
+    {
+     "p": "sessenta",
+     "i": 11.417,
+     "f": 11.794
+    },
+    {
+     "p": "e",
+     "i": 11.807,
+     "f": 11.846
+    },
+    {
+     "p": "um",
+     "i": 11.859,
+     "f": 12.029
+    },
+    {
+     "p": "o",
+     "i": 12.367,
+     "f": 12.445
+    },
+    {
+     "p": "Projeto",
+     "i": 12.458,
+     "f": 12.992
+    },
+    {
+     "p": "Mohole",
+     "i": 13.005,
+     "f": 13.422
+    },
+    {
+     "p": "perfurou",
+     "i": 13.435,
+     "f": 13.891
+    },
+    {
+     "p": "o",
+     "i": 13.904,
+     "f": 13.93
+    },
+    {
+     "p": "fundo",
+     "i": 13.943,
+     "f": 14.294
+    },
+    {
+     "p": "do",
+     "i": 14.307,
+     "f": 14.385
+    },
+    {
+     "p": "oceano",
+     "i": 14.398,
+     "f": 14.854
+    },
+    {
+     "p": "perto",
+     "i": 14.867,
+     "f": 15.193
+    },
+    {
+     "p": "da",
+     "i": 15.206,
+     "f": 15.362
+    },
+    {
+     "p": "ilha",
+     "i": 15.375,
+     "f": 15.583
+    },
+    {
+     "p": "de",
+     "i": 15.596,
+     "f": 15.674
+    },
+    {
+     "p": "Guadalupe",
+     "i": 15.688,
+     "f": 16.313
+    },
+    {
+     "p": "no",
+     "i": 16.612,
+     "f": 16.729
+    },
+    {
+     "p": "México",
+     "i": 16.742,
+     "f": 17.237
+    },
+    {
+     "p": "mas",
+     "i": 17.523,
+     "f": 17.641
+    },
+    {
+     "p": "o",
+     "i": 17.654,
+     "f": 17.784
+    },
+    {
+     "p": "Congresso",
+     "i": 17.797,
+     "f": 18.253
+    },
+    {
+     "p": "americano",
+     "i": 18.266,
+     "f": 18.852
+    },
+    {
+     "p": "cortou",
+     "i": 18.865,
+     "f": 19.242
+    },
+    {
+     "p": "o",
+     "i": 19.255,
+     "f": 19.307
+    },
+    {
+     "p": "dinheiro",
+     "i": 19.32,
+     "f": 19.789
+    },
+    {
+     "p": "e",
+     "i": 19.802,
+     "f": 19.854
+    },
+    {
+     "p": "o",
+     "i": 19.867,
+     "f": 19.919
+    },
+    {
+     "p": "projeto",
+     "i": 19.932,
+     "f": 20.466
+    },
+    {
+     "p": "foi",
+     "i": 20.479,
+     "f": 20.661
+    },
+    {
+     "p": "cancelado",
+     "i": 20.675,
+     "f": 21.404
+    },
+    {
+     "p": "Os",
+     "i": 21.75,
+     "f": 21.919
+    },
+    {
+     "p": "soviéticos",
+     "i": 21.932,
+     "f": 22.766
+    },
+    {
+     "p": "viram",
+     "i": 22.779,
+     "f": 23.091
+    },
+    {
+     "p": "ali",
+     "i": 23.104,
+     "f": 23.313
+    },
+    {
+     "p": "uma",
+     "i": 23.326,
+     "f": 23.508
+    },
+    {
+     "p": "chance",
+     "i": 23.521,
+     "f": 24.055
+    },
+    {
+     "p": "A",
+     "i": 24.398,
+     "f": 24.502
+    },
+    {
+     "p": "meta",
+     "i": 24.515,
+     "f": 24.854
+    },
+    {
+     "p": "era",
+     "i": 24.867,
+     "f": 24.971
+    },
+    {
+     "p": "chegar",
+     "i": 24.984,
+     "f": 25.31
+    },
+    {
+     "p": "à",
+     "i": 25.323,
+     "f": 25.375
+    },
+    {
+     "p": "descontinuidade",
+     "i": 25.388,
+     "f": 26.312
+    },
+    {
+     "p": "de",
+     "i": 26.325,
+     "f": 26.403
+    },
+    {
+     "p": "Mohorovičić",
+     "i": 26.416,
+     "f": 26.989
+    },
+    {
+     "p": "a",
+     "i": 27.25,
+     "f": 27.328
+    },
+    {
+     "p": "fronteira",
+     "i": 27.341,
+     "f": 27.797
+    },
+    {
+     "p": "entre",
+     "i": 27.81,
+     "f": 27.992
+    },
+    {
+     "p": "a",
+     "i": 28.005,
+     "f": 28.044
+    },
+    {
+     "p": "crosta",
+     "i": 28.057,
+     "f": 28.435
+    },
+    {
+     "p": "e",
+     "i": 28.448,
+     "f": 28.487
+    },
+    {
+     "p": "o",
+     "i": 28.5,
+     "f": 28.526
+    },
+    {
+     "p": "manto",
+     "i": 28.539,
+     "f": 28.981
+    },
+    {
+     "p": "algo",
+     "i": 29.242,
+     "f": 29.515
+    },
+    {
+     "p": "que",
+     "i": 29.528,
+     "f": 29.658
+    },
+    {
+     "p": "ninguém",
+     "i": 29.672,
+     "f": 30.01
+    },
+    {
+     "p": "nunca",
+     "i": 30.023,
+     "f": 30.427
+    },
+    {
+     "p": "tinha",
+     "i": 30.44,
+     "f": 30.7
+    },
+    {
+     "p": "tocado",
+     "i": 30.713,
+     "f": 31.234
+    },
+    {
+     "p": "E",
+     "i": 31.582,
+     "f": 31.686
+    },
+    {
+     "p": "em",
+     "i": 31.699,
+     "f": 31.843
+    },
+    {
+     "p": "vinte",
+     "i": 31.856,
+     "f": 32.077
+    },
+    {
+     "p": "e",
+     "i": 32.09,
+     "f": 32.103
+    },
+    {
+     "p": "quatro",
+     "i": 32.116,
+     "f": 32.481
+    },
+    {
+     "p": "de",
+     "i": 32.494,
+     "f": 32.598
+    },
+    {
+     "p": "maio",
+     "i": 32.611,
+     "f": 32.936
+    },
+    {
+     "p": "de",
+     "i": 32.949,
+     "f": 33.066
+    },
+    {
+     "p": "mil",
+     "i": 33.079,
+     "f": 33.21
+    },
+    {
+     "p": "novecentos",
+     "i": 33.223,
+     "f": 33.796
+    },
+    {
+     "p": "e",
+     "i": 33.809,
+     "f": 33.913
+    },
+    {
+     "p": "setenta",
+     "i": 33.926,
+     "f": 34.499
+    },
+    {
+     "p": "a",
+     "i": 34.694,
+     "f": 34.785
+    },
+    {
+     "p": "perfuração",
+     "i": 34.798,
+     "f": 35.514
+    },
+    {
+     "p": "começou",
+     "i": 35.527,
+     "f": 36.126
+    }
+   ]
+  },
+  "maquina": {
+   "hash": "5d7e9df79b",
+   "texto": "A máquina era uma torre gigantesca, a Uralmash-15000, instalada em mil novecentos e setenta e quatro. A broca não era girada desde a superfície: era movida por uma turbina empurrada pela lama bombeada para dentro do poço. O furo tinha só vinte e três centímetros de largura. Camada por camada, o poço descia e trazia amostras de rocha que nenhum geólogo jamais tinha segurado. Em seis de junho de mil novecentos e setenta e nove, a equipe superou o recorde anterior, um poço de petróleo em Oklahoma, nos Estados Unidos, com nove mil quinhentos e oitenta e três metros.",
+   "audio": "audio/maquina-5d7e9df79b.mp3",
+   "duracao": 35.474,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "máquina",
+     "i": 0.219,
+     "f": 0.636
+    },
+    {
+     "p": "era",
+     "i": 0.649,
+     "f": 0.753
+    },
+    {
+     "p": "uma",
+     "i": 0.766,
+     "f": 0.935
+    },
+    {
+     "p": "torre",
+     "i": 0.948,
+     "f": 1.222
+    },
+    {
+     "p": "gigantesca",
+     "i": 1.235,
+     "f": 2.029
+    },
+    {
+     "p": "a",
+     "i": 2.211,
+     "f": 2.329
+    },
+    {
+     "p": "Uralmash-15000",
+     "i": 2.342,
+     "f": 3.657
+    },
+    {
+     "p": "instalada",
+     "i": 3.891,
+     "f": 4.451
+    },
+    {
+     "p": "em",
+     "i": 4.464,
+     "f": 4.529
+    },
+    {
+     "p": "mil",
+     "i": 4.542,
+     "f": 4.672
+    },
+    {
+     "p": "novecentos",
+     "i": 4.685,
+     "f": 5.258
+    },
+    {
+     "p": "e",
+     "i": 5.271,
+     "f": 5.376
+    },
+    {
+     "p": "setenta",
+     "i": 5.389,
+     "f": 5.753
+    },
+    {
+     "p": "e",
+     "i": 5.766,
+     "f": 5.805
+    },
+    {
+     "p": "quatro",
+     "i": 5.818,
+     "f": 6.261
+    },
+    {
+     "p": "A",
+     "i": 6.614,
+     "f": 6.731
+    },
+    {
+     "p": "broca",
+     "i": 6.744,
+     "f": 7.187
+    },
+    {
+     "p": "não",
+     "i": 7.2,
+     "f": 7.356
+    },
+    {
+     "p": "era",
+     "i": 7.369,
+     "f": 7.539
+    },
+    {
+     "p": "girada",
+     "i": 7.552,
+     "f": 7.968
+    },
+    {
+     "p": "desde",
+     "i": 7.981,
+     "f": 8.294
+    },
+    {
+     "p": "a",
+     "i": 8.307,
+     "f": 8.333
+    },
+    {
+     "p": "superfície",
+     "i": 8.346,
+     "f": 9.101
+    },
+    {
+     "p": "era",
+     "i": 9.453,
+     "f": 9.609
+    },
+    {
+     "p": "movida",
+     "i": 9.622,
+     "f": 10.091
+    },
+    {
+     "p": "por",
+     "i": 10.104,
+     "f": 10.247
+    },
+    {
+     "p": "uma",
+     "i": 10.26,
+     "f": 10.416
+    },
+    {
+     "p": "turbina",
+     "i": 10.429,
+     "f": 10.807
+    },
+    {
+     "p": "empurrada",
+     "i": 10.82,
+     "f": 11.393
+    },
+    {
+     "p": "pela",
+     "i": 11.406,
+     "f": 11.601
+    },
+    {
+     "p": "lama",
+     "i": 11.614,
+     "f": 11.901
+    },
+    {
+     "p": "bombeada",
+     "i": 11.914,
+     "f": 12.539
+    },
+    {
+     "p": "para",
+     "i": 12.552,
+     "f": 12.76
+    },
+    {
+     "p": "dentro",
+     "i": 12.773,
+     "f": 13.125
+    },
+    {
+     "p": "do",
+     "i": 13.138,
+     "f": 13.242
+    },
+    {
+     "p": "poço",
+     "i": 13.255,
+     "f": 13.684
+    },
+    {
+     "p": "O",
+     "i": 14.014,
+     "f": 14.131
+    },
+    {
+     "p": "furo",
+     "i": 14.144,
+     "f": 14.522
+    },
+    {
+     "p": "tinha",
+     "i": 14.535,
+     "f": 14.782
+    },
+    {
+     "p": "só",
+     "i": 14.795,
+     "f": 15.004
+    },
+    {
+     "p": "vinte",
+     "i": 15.017,
+     "f": 15.277
+    },
+    {
+     "p": "e",
+     "i": 15.29,
+     "f": 15.329
+    },
+    {
+     "p": "três",
+     "i": 15.342,
+     "f": 15.564
+    },
+    {
+     "p": "centímetros",
+     "i": 15.577,
+     "f": 16.254
+    },
+    {
+     "p": "de",
+     "i": 16.267,
+     "f": 16.345
+    },
+    {
+     "p": "largura",
+     "i": 16.358,
+     "f": 16.905
+    },
+    {
+     "p": "Camada",
+     "i": 17.238,
+     "f": 17.733
+    },
+    {
+     "p": "por",
+     "i": 17.746,
+     "f": 17.876
+    },
+    {
+     "p": "camada",
+     "i": 17.889,
+     "f": 18.384
+    },
+    {
+     "p": "o",
+     "i": 18.683,
+     "f": 18.801
+    },
+    {
+     "p": "poço",
+     "i": 18.814,
+     "f": 19.191
+    },
+    {
+     "p": "descia",
+     "i": 19.204,
+     "f": 19.582
+    },
+    {
+     "p": "e",
+     "i": 19.595,
+     "f": 19.634
+    },
+    {
+     "p": "trazia",
+     "i": 19.647,
+     "f": 20.012
+    },
+    {
+     "p": "amostras",
+     "i": 20.025,
+     "f": 20.532
+    },
+    {
+     "p": "de",
+     "i": 20.545,
+     "f": 20.637
+    },
+    {
+     "p": "rocha",
+     "i": 20.65,
+     "f": 21.092
+    },
+    {
+     "p": "que",
+     "i": 21.105,
+     "f": 21.209
+    },
+    {
+     "p": "nenhum",
+     "i": 21.222,
+     "f": 21.548
+    },
+    {
+     "p": "geólogo",
+     "i": 21.561,
+     "f": 22.03
+    },
+    {
+     "p": "jamais",
+     "i": 22.043,
+     "f": 22.485
+    },
+    {
+     "p": "tinha",
+     "i": 22.498,
+     "f": 22.694
+    },
+    {
+     "p": "segurado",
+     "i": 22.707,
+     "f": 23.345
+    },
+    {
+     "p": "Em",
+     "i": 23.678,
+     "f": 23.847
+    },
+    {
+     "p": "seis",
+     "i": 23.86,
+     "f": 24.186
+    },
+    {
+     "p": "de",
+     "i": 24.199,
+     "f": 24.303
+    },
+    {
+     "p": "junho",
+     "i": 24.316,
+     "f": 24.707
+    },
+    {
+     "p": "de",
+     "i": 24.72,
+     "f": 24.837
+    },
+    {
+     "p": "mil",
+     "i": 24.85,
+     "f": 24.98
+    },
+    {
+     "p": "novecentos",
+     "i": 24.993,
+     "f": 25.566
+    },
+    {
+     "p": "e",
+     "i": 25.579,
+     "f": 25.67
+    },
+    {
+     "p": "setenta",
+     "i": 25.683,
+     "f": 25.983
+    },
+    {
+     "p": "e",
+     "i": 25.996,
+     "f": 26.022
+    },
+    {
+     "p": "nove",
+     "i": 26.035,
+     "f": 26.399
+    },
+    {
+     "p": "a",
+     "i": 26.66,
+     "f": 26.738
+    },
+    {
+     "p": "equipe",
+     "i": 26.751,
+     "f": 27.129
+    },
+    {
+     "p": "superou",
+     "i": 27.142,
+     "f": 27.532
+    },
+    {
+     "p": "o",
+     "i": 27.545,
+     "f": 27.571
+    },
+    {
+     "p": "recorde",
+     "i": 27.584,
+     "f": 28.079
+    },
+    {
+     "p": "anterior",
+     "i": 28.092,
+     "f": 28.587
+    },
+    {
+     "p": "um",
+     "i": 28.912,
+     "f": 29.056
+    },
+    {
+     "p": "poço",
+     "i": 29.069,
+     "f": 29.42
+    },
+    {
+     "p": "de",
+     "i": 29.433,
+     "f": 29.524
+    },
+    {
+     "p": "petróleo",
+     "i": 29.537,
+     "f": 29.98
+    },
+    {
+     "p": "em",
+     "i": 29.993,
+     "f": 30.071
+    },
+    {
+     "p": "Oklahoma",
+     "i": 30.084,
+     "f": 30.67
+    },
+    {
+     "p": "nos",
+     "i": 30.957,
+     "f": 31.048
+    },
+    {
+     "p": "Estados",
+     "i": 31.061,
+     "f": 31.556
+    },
+    {
+     "p": "Unidos",
+     "i": 31.569,
+     "f": 32.103
+    },
+    {
+     "p": "com",
+     "i": 32.35,
+     "f": 32.545
+    },
+    {
+     "p": "nove",
+     "i": 32.558,
+     "f": 32.871
+    },
+    {
+     "p": "mil",
+     "i": 32.884,
+     "f": 33.105
+    },
+    {
+     "p": "quinhentos",
+     "i": 33.118,
+     "f": 33.691
+    },
+    {
+     "p": "e",
+     "i": 33.704,
+     "f": 33.795
+    },
+    {
+     "p": "oitenta",
+     "i": 33.808,
+     "f": 34.134
+    },
+    {
+     "p": "e",
+     "i": 34.147,
+     "f": 34.186
+    },
+    {
+     "p": "três",
+     "i": 34.199,
+     "f": 34.42
+    },
+    {
+     "p": "metros",
+     "i": 34.433,
+     "f": 34.967
+    }
+   ]
+  },
+  "esperado": {
+   "hash": "1390fb1c63",
+   "texto": "Os geólogos tinham um mapa na cabeça. As ondas sísmicas indicavam uma mudança de camada por volta de sete quilômetros, e a teoria dizia que ali o granito daria lugar ao basalto, uma rocha mais densa. Só que o basalto nunca apareceu. O granito simplesmente continuou, muito mais fundo do que o previsto. Segundo os pesquisadores, a mudança que as ondas registravam era a própria rocha alterada por pressão e calor. Foi a primeira surpresa, e ela obrigou a ciência a rever modelos que estavam nos livros didáticos.",
+   "audio": "audio/esperado-1390fb1c63.mp3",
+   "duracao": 32.078,
+   "palavras": [
+    {
+     "p": "Os",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "geólogos",
+     "i": 0.271,
+     "f": 0.857
+    },
+    {
+     "p": "tinham",
+     "i": 0.87,
+     "f": 1.131
+    },
+    {
+     "p": "um",
+     "i": 1.144,
+     "f": 1.196
+    },
+    {
+     "p": "mapa",
+     "i": 1.209,
+     "f": 1.534
+    },
+    {
+     "p": "na",
+     "i": 1.547,
+     "f": 1.652
+    },
+    {
+     "p": "cabeça",
+     "i": 1.665,
+     "f": 2.224
+    },
+    {
+     "p": "As",
+     "i": 2.558,
+     "f": 2.714
+    },
+    {
+     "p": "ondas",
+     "i": 2.727,
+     "f": 3.17
+    },
+    {
+     "p": "sísmicas",
+     "i": 3.183,
+     "f": 3.678
+    },
+    {
+     "p": "indicavam",
+     "i": 3.691,
+     "f": 4.316
+    },
+    {
+     "p": "uma",
+     "i": 4.329,
+     "f": 4.433
+    },
+    {
+     "p": "mudança",
+     "i": 4.446,
+     "f": 4.954
+    },
+    {
+     "p": "de",
+     "i": 4.967,
+     "f": 5.045
+    },
+    {
+     "p": "camada",
+     "i": 5.058,
+     "f": 5.54
+    },
+    {
+     "p": "por",
+     "i": 5.553,
+     "f": 5.709
+    },
+    {
+     "p": "volta",
+     "i": 5.722,
+     "f": 6.1
+    },
+    {
+     "p": "de",
+     "i": 6.113,
+     "f": 6.23
+    },
+    {
+     "p": "sete",
+     "i": 6.243,
+     "f": 6.621
+    },
+    {
+     "p": "quilômetros",
+     "i": 6.634,
+     "f": 7.272
+    },
+    {
+     "p": "e",
+     "i": 7.636,
+     "f": 7.714
+    },
+    {
+     "p": "a",
+     "i": 7.727,
+     "f": 7.805
+    },
+    {
+     "p": "teoria",
+     "i": 7.818,
+     "f": 8.209
+    },
+    {
+     "p": "dizia",
+     "i": 8.222,
+     "f": 8.639
+    },
+    {
+     "p": "que",
+     "i": 8.652,
+     "f": 8.756
+    },
+    {
+     "p": "ali",
+     "i": 8.769,
+     "f": 8.938
+    },
+    {
+     "p": "o",
+     "i": 8.951,
+     "f": 9.003
+    },
+    {
+     "p": "granito",
+     "i": 9.016,
+     "f": 9.472
+    },
+    {
+     "p": "daria",
+     "i": 9.485,
+     "f": 9.746
+    },
+    {
+     "p": "lugar",
+     "i": 9.759,
+     "f": 10.084
+    },
+    {
+     "p": "ao",
+     "i": 10.097,
+     "f": 10.162
+    },
+    {
+     "p": "basalto",
+     "i": 10.175,
+     "f": 10.709
+    },
+    {
+     "p": "uma",
+     "i": 10.97,
+     "f": 11.165
+    },
+    {
+     "p": "rocha",
+     "i": 11.178,
+     "f": 11.542
+    },
+    {
+     "p": "mais",
+     "i": 11.556,
+     "f": 11.79
+    },
+    {
+     "p": "densa",
+     "i": 11.803,
+     "f": 12.233
+    },
+    {
+     "p": "Só",
+     "i": 12.574,
+     "f": 12.9
+    },
+    {
+     "p": "que",
+     "i": 12.913,
+     "f": 13.017
+    },
+    {
+     "p": "o",
+     "i": 13.03,
+     "f": 13.056
+    },
+    {
+     "p": "basalto",
+     "i": 13.069,
+     "f": 13.629
+    },
+    {
+     "p": "nunca",
+     "i": 13.642,
+     "f": 14.032
+    },
+    {
+     "p": "apareceu",
+     "i": 14.045,
+     "f": 14.683
+    },
+    {
+     "p": "O",
+     "i": 15.03,
+     "f": 15.134
+    },
+    {
+     "p": "granito",
+     "i": 15.147,
+     "f": 15.616
+    },
+    {
+     "p": "simplesmente",
+     "i": 15.629,
+     "f": 16.41
+    },
+    {
+     "p": "continuou",
+     "i": 16.423,
+     "f": 16.983
+    },
+    {
+     "p": "muito",
+     "i": 17.231,
+     "f": 17.569
+    },
+    {
+     "p": "mais",
+     "i": 17.582,
+     "f": 17.804
+    },
+    {
+     "p": "fundo",
+     "i": 17.817,
+     "f": 18.142
+    },
+    {
+     "p": "do",
+     "i": 18.155,
+     "f": 18.272
+    },
+    {
+     "p": "que",
+     "i": 18.285,
+     "f": 18.376
+    },
+    {
+     "p": "o",
+     "i": 18.389,
+     "f": 18.442
+    },
+    {
+     "p": "previsto",
+     "i": 18.455,
+     "f": 19.041
+    },
+    {
+     "p": "Segundo",
+     "i": 19.382,
+     "f": 19.916
+    },
+    {
+     "p": "os",
+     "i": 19.929,
+     "f": 20.033
+    },
+    {
+     "p": "pesquisadores",
+     "i": 20.046,
+     "f": 20.958
+    },
+    {
+     "p": "a",
+     "i": 21.166,
+     "f": 21.231
+    },
+    {
+     "p": "mudança",
+     "i": 21.244,
+     "f": 21.817
+    },
+    {
+     "p": "que",
+     "i": 21.83,
+     "f": 21.921
+    },
+    {
+     "p": "as",
+     "i": 21.934,
+     "f": 21.999
+    },
+    {
+     "p": "ondas",
+     "i": 22.012,
+     "f": 22.429
+    },
+    {
+     "p": "registravam",
+     "i": 22.442,
+     "f": 23.054
+    },
+    {
+     "p": "era",
+     "i": 23.067,
+     "f": 23.184
+    },
+    {
+     "p": "a",
+     "i": 23.197,
+     "f": 23.249
+    },
+    {
+     "p": "própria",
+     "i": 23.262,
+     "f": 23.653
+    },
+    {
+     "p": "rocha",
+     "i": 23.666,
+     "f": 23.978
+    },
+    {
+     "p": "alterada",
+     "i": 23.991,
+     "f": 24.486
+    },
+    {
+     "p": "por",
+     "i": 24.499,
+     "f": 24.643
+    },
+    {
+     "p": "pressão",
+     "i": 24.656,
+     "f": 25.124
+    },
+    {
+     "p": "e",
+     "i": 25.137,
+     "f": 25.202
+    },
+    {
+     "p": "calor.",
+     "i": 25.215,
+     "f": 25.606
+    },
+    {
+     "p": "Foi",
+     "i": 25.942,
+     "f": 26.137
+    },
+    {
+     "p": "a",
+     "i": 26.15,
+     "f": 26.216
+    },
+    {
+     "p": "primeira",
+     "i": 26.229,
+     "f": 26.58
+    },
+    {
+     "p": "surpresa",
+     "i": 26.593,
+     "f": 27.244
+    },
+    {
+     "p": "e",
+     "i": 27.518,
+     "f": 27.596
+    },
+    {
+     "p": "ela",
+     "i": 27.609,
+     "f": 27.752
+    },
+    {
+     "p": "obrigou",
+     "i": 27.765,
+     "f": 28.169
+    },
+    {
+     "p": "a",
+     "i": 28.182,
+     "f": 28.234
+    },
+    {
+     "p": "ciência",
+     "i": 28.247,
+     "f": 28.794
+    },
+    {
+     "p": "a",
+     "i": 28.807,
+     "f": 28.82
+    },
+    {
+     "p": "rever",
+     "i": 28.833,
+     "f": 29.158
+    },
+    {
+     "p": "modelos",
+     "i": 29.171,
+     "f": 29.744
+    },
+    {
+     "p": "que",
+     "i": 29.757,
+     "f": 29.835
+    },
+    {
+     "p": "estavam",
+     "i": 29.848,
+     "f": 30.278
+    },
+    {
+     "p": "nos",
+     "i": 30.291,
+     "f": 30.46
+    },
+    {
+     "p": "livros",
+     "i": 30.473,
+     "f": 30.864
+    },
+    {
+     "p": "didáticos",
+     "i": 30.877,
+     "f": 31.619
+    }
+   ]
+  },
+  "agua-fosseis": {
+   "hash": "43250db73c",
+   "texto": "A segunda surpresa veio da água. Os cientistas acreditavam que, a essa profundidade, a rocha estaria seca. Mas entre três e seis quilômetros, encontraram água circulando nas fraturas do granito. A lama de perfuração saía como se estivesse fervendo, carregada de gás hidrogênio. E por volta dos seis quilômetros apareceram microfósseis de plâncton, preservados em rochas de bilhões de anos. Eram marcas de oceanos que desapareceram há muito tempo, hoje guardadas debaixo de uma montanha de pedra.",
+   "audio": "audio/agua-fosseis-43250db73c.mp3",
+   "duracao": 32.313,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "segunda",
+     "i": 0.219,
+     "f": 0.701
+    },
+    {
+     "p": "surpresa",
+     "i": 0.714,
+     "f": 1.352
+    },
+    {
+     "p": "veio",
+     "i": 1.365,
+     "f": 1.626
+    },
+    {
+     "p": "da",
+     "i": 1.639,
+     "f": 1.756
+    },
+    {
+     "p": "água",
+     "i": 1.769,
+     "f": 2.159
+    },
+    {
+     "p": "Os",
+     "i": 2.51,
+     "f": 2.692
+    },
+    {
+     "p": "cientistas",
+     "i": 2.705,
+     "f": 3.278
+    },
+    {
+     "p": "acreditavam",
+     "i": 3.291,
+     "f": 4.034
+    },
+    {
+     "p": "que",
+     "i": 4.047,
+     "f": 4.346
+    },
+    {
+     "p": "a",
+     "i": 4.619,
+     "f": 4.685
+    },
+    {
+     "p": "essa",
+     "i": 4.698,
+     "f": 4.958
+    },
+    {
+     "p": "profundidade",
+     "i": 4.971,
+     "f": 5.765
+    },
+    {
+     "p": "a",
+     "i": 6,
+     "f": 6.091
+    },
+    {
+     "p": "rocha",
+     "i": 6.104,
+     "f": 6.429
+    },
+    {
+     "p": "estaria",
+     "i": 6.442,
+     "f": 6.833
+    },
+    {
+     "p": "seca",
+     "i": 6.846,
+     "f": 7.302
+    },
+    {
+     "p": "Mas",
+     "i": 7.654,
+     "f": 7.875
+    },
+    {
+     "p": "entre",
+     "i": 7.888,
+     "f": 8.24
+    },
+    {
+     "p": "três",
+     "i": 8.253,
+     "f": 8.487
+    },
+    {
+     "p": "e",
+     "i": 8.5,
+     "f": 8.618
+    },
+    {
+     "p": "seis",
+     "i": 8.631,
+     "f": 8.878
+    },
+    {
+     "p": "quilômetros",
+     "i": 8.891,
+     "f": 9.555
+    },
+    {
+     "p": "encontraram",
+     "i": 9.842,
+     "f": 10.493
+    },
+    {
+     "p": "água",
+     "i": 10.506,
+     "f": 10.766
+    },
+    {
+     "p": "circulando",
+     "i": 10.779,
+     "f": 11.391
+    },
+    {
+     "p": "nas",
+     "i": 11.404,
+     "f": 11.586
+    },
+    {
+     "p": "fraturas",
+     "i": 11.599,
+     "f": 12.159
+    },
+    {
+     "p": "do",
+     "i": 12.172,
+     "f": 12.263
+    },
+    {
+     "p": "granito",
+     "i": 12.276,
+     "f": 12.797
+    },
+    {
+     "p": "A",
+     "i": 13.134,
+     "f": 13.251
+    },
+    {
+     "p": "lama",
+     "i": 13.264,
+     "f": 13.616
+    },
+    {
+     "p": "de",
+     "i": 13.629,
+     "f": 13.733
+    },
+    {
+     "p": "perfuração",
+     "i": 13.746,
+     "f": 14.436
+    },
+    {
+     "p": "saía",
+     "i": 14.449,
+     "f": 14.905
+    },
+    {
+     "p": "como",
+     "i": 14.918,
+     "f": 15.152
+    },
+    {
+     "p": "se",
+     "i": 15.165,
+     "f": 15.269
+    },
+    {
+     "p": "estivesse",
+     "i": 15.283,
+     "f": 15.764
+    },
+    {
+     "p": "fervendo",
+     "i": 15.777,
+     "f": 16.363
+    },
+    {
+     "p": "carregada",
+     "i": 16.611,
+     "f": 17.262
+    },
+    {
+     "p": "de",
+     "i": 17.275,
+     "f": 17.379
+    },
+    {
+     "p": "gás",
+     "i": 17.392,
+     "f": 17.665
+    },
+    {
+     "p": "hidrogênio",
+     "i": 17.678,
+     "f": 18.381
+    },
+    {
+     "p": "E",
+     "i": 18.734,
+     "f": 18.864
+    },
+    {
+     "p": "por",
+     "i": 18.877,
+     "f": 19.06
+    },
+    {
+     "p": "volta",
+     "i": 19.073,
+     "f": 19.463
+    },
+    {
+     "p": "dos",
+     "i": 19.476,
+     "f": 19.659
+    },
+    {
+     "p": "seis",
+     "i": 19.672,
+     "f": 19.906
+    },
+    {
+     "p": "quilômetros",
+     "i": 19.919,
+     "f": 20.479
+    },
+    {
+     "p": "apareceram",
+     "i": 20.492,
+     "f": 21.091
+    },
+    {
+     "p": "microfósseis",
+     "i": 21.104,
+     "f": 21.872
+    },
+    {
+     "p": "de",
+     "i": 21.885,
+     "f": 22.002
+    },
+    {
+     "p": "plâncton",
+     "i": 22.015,
+     "f": 22.523
+    },
+    {
+     "p": "preservados",
+     "i": 22.836,
+     "f": 23.578
+    },
+    {
+     "p": "em",
+     "i": 23.591,
+     "f": 23.747
+    },
+    {
+     "p": "rochas",
+     "i": 23.76,
+     "f": 24.19
+    },
+    {
+     "p": "de",
+     "i": 24.203,
+     "f": 24.294
+    },
+    {
+     "p": "bilhões",
+     "i": 24.307,
+     "f": 24.841
+    },
+    {
+     "p": "de",
+     "i": 24.854,
+     "f": 24.984
+    },
+    {
+     "p": "anos",
+     "i": 24.997,
+     "f": 25.44
+    },
+    {
+     "p": "Eram",
+     "i": 25.774,
+     "f": 26.061
+    },
+    {
+     "p": "marcas",
+     "i": 26.074,
+     "f": 26.477
+    },
+    {
+     "p": "de",
+     "i": 26.49,
+     "f": 26.555
+    },
+    {
+     "p": "oceanos",
+     "i": 26.568,
+     "f": 27.128
+    },
+    {
+     "p": "que",
+     "i": 27.141,
+     "f": 27.258
+    },
+    {
+     "p": "desapareceram",
+     "i": 27.271,
+     "f": 28.053
+    },
+    {
+     "p": "há",
+     "i": 28.066,
+     "f": 28.092
+    },
+    {
+     "p": "muito",
+     "i": 28.105,
+     "f": 28.495
+    },
+    {
+     "p": "tempo",
+     "i": 28.508,
+     "f": 28.925
+    },
+    {
+     "p": "hoje",
+     "i": 29.277,
+     "f": 29.537
+    },
+    {
+     "p": "guardadas",
+     "i": 29.55,
+     "f": 30.11
+    },
+    {
+     "p": "debaixo",
+     "i": 30.123,
+     "f": 30.618
+    },
+    {
+     "p": "de",
+     "i": 30.631,
+     "f": 30.709
+    },
+    {
+     "p": "uma",
+     "i": 30.722,
+     "f": 30.839
+    },
+    {
+     "p": "montanha",
+     "i": 30.852,
+     "f": 31.334
+    },
+    {
+     "p": "de",
+     "i": 31.347,
+     "f": 31.451
+    },
+    {
+     "p": "pedra",
+     "i": 31.464,
+     "f": 31.894
+    }
+   ]
+  },
+  "calor": {
+   "hash": "23ffb92f87",
+   "texto": "Em mil novecentos e oitenta e três, o poço ultrapassou doze mil metros. Era um feito inédito. Mas, no ano seguinte, aconteceu o pior: em vinte e sete de setembro, a coluna de perfuração se partiu e cerca de cinco quilômetros de tubos ficaram presos lá dentro. A equipe precisou recomeçar o trecho final, desviando de novo a partir de uma profundidade menor. Foram cinco anos de trabalho para voltar ao ponto de antes. E, a cada metro, havia um inimigo crescendo que nenhum engenheiro conseguia desligar: a temperatura.",
+   "audio": "audio/calor-23ffb92f87.mp3",
+   "duracao": 33.202,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "mil",
+     "i": 0.271,
+     "f": 0.415
+    },
+    {
+     "p": "novecentos",
+     "i": 0.428,
+     "f": 0.974
+    },
+    {
+     "p": "e",
+     "i": 0.988,
+     "f": 1.092
+    },
+    {
+     "p": "oitenta",
+     "i": 1.105,
+     "f": 1.404
+    },
+    {
+     "p": "e",
+     "i": 1.417,
+     "f": 1.469
+    },
+    {
+     "p": "três",
+     "i": 1.482,
+     "f": 1.834
+    },
+    {
+     "p": "o",
+     "i": 2.12,
+     "f": 2.198
+    },
+    {
+     "p": "poço",
+     "i": 2.211,
+     "f": 2.55
+    },
+    {
+     "p": "ultrapassou",
+     "i": 2.563,
+     "f": 3.175
+    },
+    {
+     "p": "doze",
+     "i": 3.188,
+     "f": 3.605
+    },
+    {
+     "p": "mil",
+     "i": 3.618,
+     "f": 3.826
+    },
+    {
+     "p": "metros",
+     "i": 3.839,
+     "f": 4.386
+    },
+    {
+     "p": "Era",
+     "i": 4.718,
+     "f": 4.913
+    },
+    {
+     "p": "um",
+     "i": 4.926,
+     "f": 5.018
+    },
+    {
+     "p": "feito",
+     "i": 5.031,
+     "f": 5.356
+    },
+    {
+     "p": "inédito",
+     "i": 5.369,
+     "f": 5.942
+    },
+    {
+     "p": "Mas",
+     "i": 6.286,
+     "f": 6.781
+    },
+    {
+     "p": "no",
+     "i": 6.924,
+     "f": 7.093
+    },
+    {
+     "p": "ano",
+     "i": 7.106,
+     "f": 7.328
+    },
+    {
+     "p": "seguinte",
+     "i": 7.341,
+     "f": 7.888
+    },
+    {
+     "p": "aconteceu",
+     "i": 8.083,
+     "f": 8.721
+    },
+    {
+     "p": "o",
+     "i": 8.734,
+     "f": 8.786
+    },
+    {
+     "p": "pior",
+     "i": 8.799,
+     "f": 9.151
+    },
+    {
+     "p": "em",
+     "i": 9.437,
+     "f": 9.58
+    },
+    {
+     "p": "vinte",
+     "i": 9.593,
+     "f": 9.867
+    },
+    {
+     "p": "e",
+     "i": 9.88,
+     "f": 9.906
+    },
+    {
+     "p": "sete",
+     "i": 9.919,
+     "f": 10.244
+    },
+    {
+     "p": "de",
+     "i": 10.257,
+     "f": 10.336
+    },
+    {
+     "p": "setembro",
+     "i": 10.349,
+     "f": 10.948
+    },
+    {
+     "p": "a",
+     "i": 11.169,
+     "f": 11.26
+    },
+    {
+     "p": "coluna",
+     "i": 11.273,
+     "f": 11.703
+    },
+    {
+     "p": "de",
+     "i": 11.716,
+     "f": 11.807
+    },
+    {
+     "p": "perfuração",
+     "i": 11.82,
+     "f": 12.471
+    },
+    {
+     "p": "se",
+     "i": 12.484,
+     "f": 12.601
+    },
+    {
+     "p": "partiu",
+     "i": 12.614,
+     "f": 13.005
+    },
+    {
+     "p": "e",
+     "i": 13.018,
+     "f": 13.057
+    },
+    {
+     "p": "cerca",
+     "i": 13.07,
+     "f": 13.435
+    },
+    {
+     "p": "de",
+     "i": 13.448,
+     "f": 13.578
+    },
+    {
+     "p": "cinco",
+     "i": 13.591,
+     "f": 13.955
+    },
+    {
+     "p": "quilômetros",
+     "i": 13.968,
+     "f": 14.554
+    },
+    {
+     "p": "de",
+     "i": 14.567,
+     "f": 14.711
+    },
+    {
+     "p": "tubos",
+     "i": 14.724,
+     "f": 15.036
+    },
+    {
+     "p": "ficaram",
+     "i": 15.049,
+     "f": 15.388
+    },
+    {
+     "p": "presos",
+     "i": 15.401,
+     "f": 15.804
+    },
+    {
+     "p": "lá",
+     "i": 15.817,
+     "f": 15.961
+    },
+    {
+     "p": "dentro",
+     "i": 15.974,
+     "f": 16.416
+    },
+    {
+     "p": "A",
+     "i": 16.758,
+     "f": 16.914
+    },
+    {
+     "p": "equipe",
+     "i": 16.927,
+     "f": 17.331
+    },
+    {
+     "p": "precisou",
+     "i": 17.344,
+     "f": 17.813
+    },
+    {
+     "p": "recomeçar",
+     "i": 17.826,
+     "f": 18.464
+    },
+    {
+     "p": "o",
+     "i": 18.477,
+     "f": 18.529
+    },
+    {
+     "p": "trecho",
+     "i": 18.542,
+     "f": 18.88
+    },
+    {
+     "p": "final",
+     "i": 18.893,
+     "f": 19.258
+    },
+    {
+     "p": "desviando",
+     "i": 19.518,
+     "f": 20.117
+    },
+    {
+     "p": "de",
+     "i": 20.13,
+     "f": 20.235
+    },
+    {
+     "p": "novo",
+     "i": 20.248,
+     "f": 20.573
+    },
+    {
+     "p": "a",
+     "i": 20.586,
+     "f": 20.625
+    },
+    {
+     "p": "partir",
+     "i": 20.638,
+     "f": 21.016
+    },
+    {
+     "p": "de",
+     "i": 21.029,
+     "f": 21.107
+    },
+    {
+     "p": "uma",
+     "i": 21.12,
+     "f": 21.263
+    },
+    {
+     "p": "profundidade",
+     "i": 21.276,
+     "f": 22.045
+    },
+    {
+     "p": "menor",
+     "i": 22.058,
+     "f": 22.422
+    },
+    {
+     "p": "Foram",
+     "i": 22.766,
+     "f": 23.118
+    },
+    {
+     "p": "cinco",
+     "i": 23.131,
+     "f": 23.547
+    },
+    {
+     "p": "anos",
+     "i": 23.56,
+     "f": 23.86
+    },
+    {
+     "p": "de",
+     "i": 23.873,
+     "f": 23.951
+    },
+    {
+     "p": "trabalho",
+     "i": 23.964,
+     "f": 24.472
+    },
+    {
+     "p": "para",
+     "i": 24.485,
+     "f": 24.667
+    },
+    {
+     "p": "voltar",
+     "i": 24.68,
+     "f": 25.058
+    },
+    {
+     "p": "ao",
+     "i": 25.071,
+     "f": 25.188
+    },
+    {
+     "p": "ponto",
+     "i": 25.201,
+     "f": 25.553
+    },
+    {
+     "p": "de",
+     "i": 25.566,
+     "f": 25.722
+    },
+    {
+     "p": "antes",
+     "i": 25.735,
+     "f": 26.23
+    },
+    {
+     "p": "E",
+     "i": 26.566,
+     "f": 26.878
+    },
+    {
+     "p": "a",
+     "i": 27.112,
+     "f": 27.217
+    },
+    {
+     "p": "cada",
+     "i": 27.23,
+     "f": 27.49
+    },
+    {
+     "p": "metro",
+     "i": 27.503,
+     "f": 27.933
+    },
+    {
+     "p": "havia",
+     "i": 28.167,
+     "f": 28.493
+    },
+    {
+     "p": "um",
+     "i": 28.506,
+     "f": 28.597
+    },
+    {
+     "p": "inimigo",
+     "i": 28.61,
+     "f": 29.04
+    },
+    {
+     "p": "crescendo",
+     "i": 29.053,
+     "f": 29.547
+    },
+    {
+     "p": "que",
+     "i": 29.56,
+     "f": 29.678
+    },
+    {
+     "p": "nenhum",
+     "i": 29.691,
+     "f": 30.029
+    },
+    {
+     "p": "engenheiro",
+     "i": 30.042,
+     "f": 30.498
+    },
+    {
+     "p": "conseguia",
+     "i": 30.511,
+     "f": 31.045
+    },
+    {
+     "p": "desligar",
+     "i": 31.058,
+     "f": 31.592
+    },
+    {
+     "p": "a",
+     "i": 31.917,
+     "f": 31.995
+    },
+    {
+     "p": "temperatura",
+     "i": 32.008,
+     "f": 32.763
+    }
+   ]
+  },
+  "virada": {
+   "hash": "f3e45b8cc3",
+   "texto": "E então vieram os números. Os pesquisadores esperavam cerca de cem graus Celsius a doze mil metros. O termômetro marcou cerca de cento e oitenta. Oitenta graus a mais que o previsto. Segundo relatos da equipe, a rocha, sob esse calor e essa pressão, deixava de se comportar como pedra sólida e passava a se deformar devagar, como uma massa, fechando o furo atrás da broca. Se o plano de quinze mil metros fosse cumprido, as projeções apontavam trezentos graus. Não era falta de vontade. Era o limite das máquinas daquele tempo.",
+   "audio": "audio/virada-f3e45b8cc3.mp3",
+   "duracao": 34.978,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "então",
+     "i": 0.219,
+     "f": 0.636
+    },
+    {
+     "p": "vieram",
+     "i": 0.649,
+     "f": 1.118
+    },
+    {
+     "p": "os",
+     "i": 1.131,
+     "f": 1.261
+    },
+    {
+     "p": "números",
+     "i": 1.274,
+     "f": 1.86
+    },
+    {
+     "p": "Os",
+     "i": 2.198,
+     "f": 2.393
+    },
+    {
+     "p": "pesquisadores",
+     "i": 2.406,
+     "f": 3.201
+    },
+    {
+     "p": "esperavam",
+     "i": 3.214,
+     "f": 3.813
+    },
+    {
+     "p": "cerca",
+     "i": 3.826,
+     "f": 4.242
+    },
+    {
+     "p": "de",
+     "i": 4.255,
+     "f": 4.373
+    },
+    {
+     "p": "cem",
+     "i": 4.386,
+     "f": 4.672
+    },
+    {
+     "p": "graus",
+     "i": 4.685,
+     "f": 4.985
+    },
+    {
+     "p": "Celsius",
+     "i": 4.998,
+     "f": 5.401
+    },
+    {
+     "p": "a",
+     "i": 5.414,
+     "f": 5.584
+    },
+    {
+     "p": "doze",
+     "i": 5.597,
+     "f": 5.961
+    },
+    {
+     "p": "mil",
+     "i": 5.974,
+     "f": 6.169
+    },
+    {
+     "p": "metros",
+     "i": 6.182,
+     "f": 6.729
+    },
+    {
+     "p": "O",
+     "i": 7.078,
+     "f": 7.208
+    },
+    {
+     "p": "termômetro",
+     "i": 7.221,
+     "f": 7.859
+    },
+    {
+     "p": "marcou",
+     "i": 7.872,
+     "f": 8.263
+    },
+    {
+     "p": "cerca",
+     "i": 8.276,
+     "f": 8.654
+    },
+    {
+     "p": "de",
+     "i": 8.667,
+     "f": 8.784
+    },
+    {
+     "p": "cento",
+     "i": 8.797,
+     "f": 9.187
+    },
+    {
+     "p": "e",
+     "i": 9.2,
+     "f": 9.227
+    },
+    {
+     "p": "oitenta",
+     "i": 9.24,
+     "f": 9.747
+    },
+    {
+     "p": "Oitenta",
+     "i": 10.086,
+     "f": 10.633
+    },
+    {
+     "p": "graus",
+     "i": 10.646,
+     "f": 10.946
+    },
+    {
+     "p": "a",
+     "i": 10.959,
+     "f": 11.089
+    },
+    {
+     "p": "mais",
+     "i": 11.102,
+     "f": 11.453
+    },
+    {
+     "p": "que",
+     "i": 11.466,
+     "f": 11.531
+    },
+    {
+     "p": "o",
+     "i": 11.544,
+     "f": 11.583
+    },
+    {
+     "p": "previsto",
+     "i": 11.597,
+     "f": 12.208
+    },
+    {
+     "p": "Segundo",
+     "i": 12.542,
+     "f": 13.05
+    },
+    {
+     "p": "relatos",
+     "i": 13.063,
+     "f": 13.571
+    },
+    {
+     "p": "da",
+     "i": 13.584,
+     "f": 13.688
+    },
+    {
+     "p": "equipe",
+     "i": 13.701,
+     "f": 14.157
+    },
+    {
+     "p": "a",
+     "i": 14.287,
+     "f": 14.391
+    },
+    {
+     "p": "rocha",
+     "i": 14.404,
+     "f": 14.847
+    },
+    {
+     "p": "sob",
+     "i": 15.146,
+     "f": 15.433
+    },
+    {
+     "p": "esse",
+     "i": 15.446,
+     "f": 15.654
+    },
+    {
+     "p": "calor",
+     "i": 15.667,
+     "f": 16.045
+    },
+    {
+     "p": "e",
+     "i": 16.058,
+     "f": 16.097
+    },
+    {
+     "p": "essa",
+     "i": 16.11,
+     "f": 16.344
+    },
+    {
+     "p": "pressão",
+     "i": 16.357,
+     "f": 16.8
+    },
+    {
+     "p": "deixava",
+     "i": 17.086,
+     "f": 17.555
+    },
+    {
+     "p": "de",
+     "i": 17.568,
+     "f": 17.672
+    },
+    {
+     "p": "se",
+     "i": 17.685,
+     "f": 17.803
+    },
+    {
+     "p": "comportar",
+     "i": 17.816,
+     "f": 18.388
+    },
+    {
+     "p": "como",
+     "i": 18.401,
+     "f": 18.649
+    },
+    {
+     "p": "pedra",
+     "i": 18.662,
+     "f": 18.974
+    },
+    {
+     "p": "sólida",
+     "i": 18.987,
+     "f": 19.456
+    },
+    {
+     "p": "e",
+     "i": 19.469,
+     "f": 19.521
+    },
+    {
+     "p": "passava",
+     "i": 19.534,
+     "f": 20.003
+    },
+    {
+     "p": "a",
+     "i": 20.016,
+     "f": 20.042
+    },
+    {
+     "p": "se",
+     "i": 20.055,
+     "f": 20.172
+    },
+    {
+     "p": "deformar",
+     "i": 20.185,
+     "f": 20.68
+    },
+    {
+     "p": "devagar",
+     "i": 20.693,
+     "f": 21.201
+    },
+    {
+     "p": "como",
+     "i": 21.487,
+     "f": 21.696
+    },
+    {
+     "p": "uma",
+     "i": 21.709,
+     "f": 21.891
+    },
+    {
+     "p": "massa",
+     "i": 21.904,
+     "f": 22.308
+    },
+    {
+     "p": "fechando",
+     "i": 22.594,
+     "f": 23.037
+    },
+    {
+     "p": "o",
+     "i": 23.05,
+     "f": 23.076
+    },
+    {
+     "p": "furo",
+     "i": 23.089,
+     "f": 23.362
+    },
+    {
+     "p": "atrás",
+     "i": 23.375,
+     "f": 23.74
+    },
+    {
+     "p": "da",
+     "i": 23.753,
+     "f": 23.87
+    },
+    {
+     "p": "broca",
+     "i": 23.883,
+     "f": 24.287
+    },
+    {
+     "p": "Se",
+     "i": 24.622,
+     "f": 24.83
+    },
+    {
+     "p": "o",
+     "i": 24.843,
+     "f": 24.922
+    },
+    {
+     "p": "plano",
+     "i": 24.935,
+     "f": 25.286
+    },
+    {
+     "p": "de",
+     "i": 25.299,
+     "f": 25.429
+    },
+    {
+     "p": "quinze",
+     "i": 25.442,
+     "f": 25.859
+    },
+    {
+     "p": "mil",
+     "i": 25.872,
+     "f": 26.041
+    },
+    {
+     "p": "metros",
+     "i": 26.054,
+     "f": 26.432
+    },
+    {
+     "p": "fosse",
+     "i": 26.445,
+     "f": 26.744
+    },
+    {
+     "p": "cumprido",
+     "i": 26.757,
+     "f": 27.317
+    },
+    {
+     "p": "as",
+     "i": 27.604,
+     "f": 27.773
+    },
+    {
+     "p": "projeções",
+     "i": 27.786,
+     "f": 28.372
+    },
+    {
+     "p": "apontavam",
+     "i": 28.385,
+     "f": 29.036
+    },
+    {
+     "p": "trezentos",
+     "i": 29.049,
+     "f": 29.635
+    },
+    {
+     "p": "graus",
+     "i": 29.648,
+     "f": 30.117
+    },
+    {
+     "p": "Não",
+     "i": 30.462,
+     "f": 30.775
+    },
+    {
+     "p": "era",
+     "i": 30.788,
+     "f": 31.009
+    },
+    {
+     "p": "falta",
+     "i": 31.022,
+     "f": 31.374
+    },
+    {
+     "p": "de",
+     "i": 31.387,
+     "f": 31.465
+    },
+    {
+     "p": "vontade",
+     "i": 31.478,
+     "f": 32.09
+    },
+    {
+     "p": "Era",
+     "i": 32.438,
+     "f": 32.633
+    },
+    {
+     "p": "o",
+     "i": 32.646,
+     "f": 32.659
+    },
+    {
+     "p": "limite",
+     "i": 32.672,
+     "f": 33.128
+    },
+    {
+     "p": "das",
+     "i": 33.141,
+     "f": 33.337
+    },
+    {
+     "p": "máquinas",
+     "i": 33.35,
+     "f": 33.831
+    },
+    {
+     "p": "daquele",
+     "i": 33.844,
+     "f": 34.274
+    },
+    {
+     "p": "tempo",
+     "i": 34.287,
+     "f": 34.665
+    }
+   ]
+  },
+  "fim": {
+   "hash": "0e6ddd5c99",
+   "texto": "Mesmo assim, a equipe não desistiu de uma vez. Em mil novecentos e noventa, o terceiro furo sofreu uma falha em doze mil duzentos e sessenta e dois metros. Em mil novecentos e noventa e dois, o quarto parou a onze mil oitocentos e oitenta e dois metros, por causa dos cento e oitenta graus. O quinto furo foi interrompido em oito mil quinhentos e setenta e oito metros, em mil novecentos e noventa e quatro, por falta de dinheiro. A União Soviética tinha acabado, e a ciência de ponta deixou de ser prioridade. Em mil novecentos e noventa e cinco, o local foi considerado encerrado.",
+   "audio": "audio/fim-0e6ddd5c99.mp3",
+   "duracao": 36.153,
+   "palavras": [
+    {
+     "p": "Mesmo",
+     "i": 0.102,
+     "f": 0.506
+    },
+    {
+     "p": "assim",
+     "i": 0.519,
+     "f": 0.896
+    },
+    {
+     "p": "a",
+     "i": 1.248,
+     "f": 1.326
+    },
+    {
+     "p": "equipe",
+     "i": 1.339,
+     "f": 1.717
+    },
+    {
+     "p": "não",
+     "i": 1.73,
+     "f": 1.912
+    },
+    {
+     "p": "desistiu",
+     "i": 1.925,
+     "f": 2.394
+    },
+    {
+     "p": "de",
+     "i": 2.407,
+     "f": 2.498
+    },
+    {
+     "p": "uma",
+     "i": 2.511,
+     "f": 2.706
+    },
+    {
+     "p": "vez",
+     "i": 2.719,
+     "f": 3.149
+    },
+    {
+     "p": "Em",
+     "i": 3.494,
+     "f": 3.65
+    },
+    {
+     "p": "mil",
+     "i": 3.663,
+     "f": 3.794
+    },
+    {
+     "p": "novecentos",
+     "i": 3.807,
+     "f": 4.379
+    },
+    {
+     "p": "e",
+     "i": 4.393,
+     "f": 4.497
+    },
+    {
+     "p": "noventa",
+     "i": 4.51,
+     "f": 5.044
+    },
+    {
+     "p": "o",
+     "i": 5.356,
+     "f": 5.447
+    },
+    {
+     "p": "terceiro",
+     "i": 5.46,
+     "f": 5.968
+    },
+    {
+     "p": "furo",
+     "i": 5.981,
+     "f": 6.307
+    },
+    {
+     "p": "sofreu",
+     "i": 6.32,
+     "f": 6.71
+    },
+    {
+     "p": "uma",
+     "i": 6.723,
+     "f": 6.879
+    },
+    {
+     "p": "falha",
+     "i": 6.893,
+     "f": 7.179
+    },
+    {
+     "p": "em",
+     "i": 7.192,
+     "f": 7.27
+    },
+    {
+     "p": "doze",
+     "i": 7.283,
+     "f": 7.687
+    },
+    {
+     "p": "mil",
+     "i": 7.7,
+     "f": 7.934
+    },
+    {
+     "p": "duzentos",
+     "i": 7.947,
+     "f": 8.455
+    },
+    {
+     "p": "e",
+     "i": 8.468,
+     "f": 8.585
+    },
+    {
+     "p": "sessenta",
+     "i": 8.598,
+     "f": 8.976
+    },
+    {
+     "p": "e",
+     "i": 8.989,
+     "f": 9.015
+    },
+    {
+     "p": "dois",
+     "i": 9.028,
+     "f": 9.236
+    },
+    {
+     "p": "metros",
+     "i": 9.249,
+     "f": 9.796
+    },
+    {
+     "p": "Em",
+     "i": 10.126,
+     "f": 10.282
+    },
+    {
+     "p": "mil",
+     "i": 10.295,
+     "f": 10.452
+    },
+    {
+     "p": "novecentos",
+     "i": 10.465,
+     "f": 11.051
+    },
+    {
+     "p": "e",
+     "i": 11.064,
+     "f": 11.155
+    },
+    {
+     "p": "noventa",
+     "i": 11.168,
+     "f": 11.48
+    },
+    {
+     "p": "e",
+     "i": 11.493,
+     "f": 11.532
+    },
+    {
+     "p": "dois",
+     "i": 11.545,
+     "f": 11.858
+    },
+    {
+     "p": "o",
+     "i": 12.183,
+     "f": 12.275
+    },
+    {
+     "p": "quarto",
+     "i": 12.288,
+     "f": 12.704
+    },
+    {
+     "p": "parou",
+     "i": 12.717,
+     "f": 13.004
+    },
+    {
+     "p": "a",
+     "i": 13.017,
+     "f": 13.095
+    },
+    {
+     "p": "onze",
+     "i": 13.108,
+     "f": 13.459
+    },
+    {
+     "p": "mil",
+     "i": 13.472,
+     "f": 13.655
+    },
+    {
+     "p": "oitocentos",
+     "i": 13.668,
+     "f": 14.293
+    },
+    {
+     "p": "e",
+     "i": 14.306,
+     "f": 14.397
+    },
+    {
+     "p": "oitenta",
+     "i": 14.41,
+     "f": 14.709
+    },
+    {
+     "p": "e",
+     "i": 14.722,
+     "f": 14.748
+    },
+    {
+     "p": "dois",
+     "i": 14.761,
+     "f": 14.944
+    },
+    {
+     "p": "metros",
+     "i": 14.957,
+     "f": 15.465
+    },
+    {
+     "p": "por",
+     "i": 15.712,
+     "f": 15.881
+    },
+    {
+     "p": "causa",
+     "i": 15.894,
+     "f": 16.298
+    },
+    {
+     "p": "dos",
+     "i": 16.311,
+     "f": 16.532
+    },
+    {
+     "p": "cento",
+     "i": 16.545,
+     "f": 16.858
+    },
+    {
+     "p": "e",
+     "i": 16.871,
+     "f": 16.897
+    },
+    {
+     "p": "oitenta",
+     "i": 16.91,
+     "f": 17.301
+    },
+    {
+     "p": "graus",
+     "i": 17.314,
+     "f": 17.795
+    },
+    {
+     "p": "O",
+     "i": 18.126,
+     "f": 18.269
+    },
+    {
+     "p": "quinto",
+     "i": 18.282,
+     "f": 18.699
+    },
+    {
+     "p": "furo",
+     "i": 18.712,
+     "f": 19.064
+    },
+    {
+     "p": "foi",
+     "i": 19.077,
+     "f": 19.233
+    },
+    {
+     "p": "interrompido",
+     "i": 19.246,
+     "f": 19.91
+    },
+    {
+     "p": "em",
+     "i": 19.923,
+     "f": 20.04
+    },
+    {
+     "p": "oito",
+     "i": 20.053,
+     "f": 20.327
+    },
+    {
+     "p": "mil",
+     "i": 20.34,
+     "f": 20.535
+    },
+    {
+     "p": "quinhentos",
+     "i": 20.548,
+     "f": 21.134
+    },
+    {
+     "p": "e",
+     "i": 21.147,
+     "f": 21.238
+    },
+    {
+     "p": "setenta",
+     "i": 21.251,
+     "f": 21.603
+    },
+    {
+     "p": "e",
+     "i": 21.616,
+     "f": 21.629
+    },
+    {
+     "p": "oito",
+     "i": 21.642,
+     "f": 21.889
+    },
+    {
+     "p": "metros",
+     "i": 21.902,
+     "f": 22.371
+    },
+    {
+     "p": "em",
+     "i": 22.683,
+     "f": 22.775
+    },
+    {
+     "p": "mil",
+     "i": 22.788,
+     "f": 22.931
+    },
+    {
+     "p": "novecentos",
+     "i": 22.944,
+     "f": 23.478
+    },
+    {
+     "p": "e",
+     "i": 23.491,
+     "f": 23.569
+    },
+    {
+     "p": "noventa",
+     "i": 23.582,
+     "f": 23.894
+    },
+    {
+     "p": "e",
+     "i": 23.907,
+     "f": 23.946
+    },
+    {
+     "p": "quatro",
+     "i": 23.959,
+     "f": 24.415
+    },
+    {
+     "p": "por",
+     "i": 24.65,
+     "f": 24.858
+    },
+    {
+     "p": "falta",
+     "i": 24.871,
+     "f": 25.248
+    },
+    {
+     "p": "de",
+     "i": 25.261,
+     "f": 25.379
+    },
+    {
+     "p": "dinheiro",
+     "i": 25.392,
+     "f": 25.847
+    },
+    {
+     "p": "A",
+     "i": 26.198,
+     "f": 26.341
+    },
+    {
+     "p": "União",
+     "i": 26.354,
+     "f": 26.719
+    },
+    {
+     "p": "Soviética",
+     "i": 26.732,
+     "f": 27.357
+    },
+    {
+     "p": "tinha",
+     "i": 27.37,
+     "f": 27.578
+    },
+    {
+     "p": "acabado",
+     "i": 27.591,
+     "f": 28.138
+    },
+    {
+     "p": "e",
+     "i": 28.464,
+     "f": 28.555
+    },
+    {
+     "p": "a",
+     "i": 28.568,
+     "f": 28.633
+    },
+    {
+     "p": "ciência",
+     "i": 28.646,
+     "f": 29.193
+    },
+    {
+     "p": "de",
+     "i": 29.206,
+     "f": 29.323
+    },
+    {
+     "p": "ponta",
+     "i": 29.336,
+     "f": 29.714
+    },
+    {
+     "p": "deixou",
+     "i": 29.727,
+     "f": 30.091
+    },
+    {
+     "p": "de",
+     "i": 30.104,
+     "f": 30.195
+    },
+    {
+     "p": "ser",
+     "i": 30.208,
+     "f": 30.443
+    },
+    {
+     "p": "prioridade",
+     "i": 30.456,
+     "f": 31.211
+    },
+    {
+     "p": "Em",
+     "i": 31.558,
+     "f": 31.714
+    },
+    {
+     "p": "mil",
+     "i": 31.727,
+     "f": 31.871
+    },
+    {
+     "p": "novecentos",
+     "i": 31.884,
+     "f": 32.457
+    },
+    {
+     "p": "e",
+     "i": 32.47,
+     "f": 32.561
+    },
+    {
+     "p": "noventa",
+     "i": 32.574,
+     "f": 32.899
+    },
+    {
+     "p": "e",
+     "i": 32.912,
+     "f": 32.938
+    },
+    {
+     "p": "cinco",
+     "i": 32.951,
+     "f": 33.394
+    },
+    {
+     "p": "o",
+     "i": 33.72,
+     "f": 33.772
+    },
+    {
+     "p": "local",
+     "i": 33.785,
+     "f": 34.214
+    },
+    {
+     "p": "foi",
+     "i": 34.227,
+     "f": 34.384
+    },
+    {
+     "p": "considerado",
+     "i": 34.397,
+     "f": 35.048
+    },
+    {
+     "p": "encerrado",
+     "i": 35.061,
+     "f": 35.712
+    }
+   ]
+  },
+  "lenda": {
+   "hash": "0b56ddb252",
+   "texto": "Agora, a lenda. Ela circula há décadas: cientistas soviéticos teriam perfurado até o inferno, baixado microfones e gravado gritos de milhares de almas. Na história, o poço ficava na Sibéria. Segundo o registro do caso, tudo começou com um professor norueguês, Åge Rendalen, que pegou uma notícia banal sobre um fiscal de obras, traduziu de forma deliberadamente errada e enviou à TBN, uma rede de televisão cristã dos Estados Unidos. A emissora levou a sério e transmitiu a história como se fosse verdade. Rendalen depois admitiu a brincadeira.",
+   "audio": "audio/lenda-0b56ddb252.mp3",
+   "duracao": 36.075,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.701
+    },
+    {
+     "p": "a",
+     "i": 0.818,
+     "f": 0.896
+    },
+    {
+     "p": "lenda",
+     "i": 0.909,
+     "f": 1.391
+    },
+    {
+     "p": "Ela",
+     "i": 1.742,
+     "f": 2.002
+    },
+    {
+     "p": "circula",
+     "i": 2.016,
+     "f": 2.51
+    },
+    {
+     "p": "há",
+     "i": 2.523,
+     "f": 2.549
+    },
+    {
+     "p": "décadas",
+     "i": 2.562,
+     "f": 3.174
+    },
+    {
+     "p": "cientistas",
+     "i": 3.5,
+     "f": 4.164
+    },
+    {
+     "p": "soviéticos",
+     "i": 4.177,
+     "f": 4.893
+    },
+    {
+     "p": "teriam",
+     "i": 4.906,
+     "f": 5.141
+    },
+    {
+     "p": "perfurado",
+     "i": 5.154,
+     "f": 5.713
+    },
+    {
+     "p": "até",
+     "i": 5.726,
+     "f": 5.896
+    },
+    {
+     "p": "o",
+     "i": 5.909,
+     "f": 5.961
+    },
+    {
+     "p": "inferno",
+     "i": 5.974,
+     "f": 6.534
+    },
+    {
+     "p": "baixado",
+     "i": 6.82,
+     "f": 7.354
+    },
+    {
+     "p": "microfones",
+     "i": 7.367,
+     "f": 8.005
+    },
+    {
+     "p": "e",
+     "i": 8.018,
+     "f": 8.109
+    },
+    {
+     "p": "gravado",
+     "i": 8.122,
+     "f": 8.591
+    },
+    {
+     "p": "gritos",
+     "i": 8.604,
+     "f": 8.969
+    },
+    {
+     "p": "de",
+     "i": 8.982,
+     "f": 9.06
+    },
+    {
+     "p": "milhares",
+     "i": 9.073,
+     "f": 9.555
+    },
+    {
+     "p": "de",
+     "i": 9.568,
+     "f": 9.672
+    },
+    {
+     "p": "almas",
+     "i": 9.685,
+     "f": 10.154
+    },
+    {
+     "p": "Na",
+     "i": 10.486,
+     "f": 10.655
+    },
+    {
+     "p": "história",
+     "i": 10.668,
+     "f": 11.15
+    },
+    {
+     "p": "o",
+     "i": 11.424,
+     "f": 11.528
+    },
+    {
+     "p": "poço",
+     "i": 11.541,
+     "f": 11.918
+    },
+    {
+     "p": "ficava",
+     "i": 11.931,
+     "f": 12.374
+    },
+    {
+     "p": "na",
+     "i": 12.387,
+     "f": 12.491
+    },
+    {
+     "p": "Sibéria",
+     "i": 12.504,
+     "f": 12.999
+    },
+    {
+     "p": "Segundo",
+     "i": 13.35,
+     "f": 13.871
+    },
+    {
+     "p": "o",
+     "i": 13.884,
+     "f": 13.91
+    },
+    {
+     "p": "registro",
+     "i": 13.923,
+     "f": 14.431
+    },
+    {
+     "p": "do",
+     "i": 14.444,
+     "f": 14.561
+    },
+    {
+     "p": "caso",
+     "i": 14.574,
+     "f": 14.978
+    },
+    {
+     "p": "tudo",
+     "i": 15.225,
+     "f": 15.499
+    },
+    {
+     "p": "começou",
+     "i": 15.512,
+     "f": 15.993
+    },
+    {
+     "p": "com",
+     "i": 16.006,
+     "f": 16.137
+    },
+    {
+     "p": "um",
+     "i": 16.15,
+     "f": 16.215
+    },
+    {
+     "p": "professor",
+     "i": 16.228,
+     "f": 16.788
+    },
+    {
+     "p": "norueguês",
+     "i": 16.801,
+     "f": 17.504
+    },
+    {
+     "p": "Åge",
+     "i": 17.777,
+     "f": 18.064
+    },
+    {
+     "p": "Rendalen",
+     "i": 18.077,
+     "f": 18.637
+    },
+    {
+     "p": "que",
+     "i": 18.91,
+     "f": 19.053
+    },
+    {
+     "p": "pegou",
+     "i": 19.066,
+     "f": 19.379
+    },
+    {
+     "p": "uma",
+     "i": 19.392,
+     "f": 19.496
+    },
+    {
+     "p": "notícia",
+     "i": 19.509,
+     "f": 19.952
+    },
+    {
+     "p": "banal",
+     "i": 19.965,
+     "f": 20.329
+    },
+    {
+     "p": "sobre",
+     "i": 20.342,
+     "f": 20.616
+    },
+    {
+     "p": "um",
+     "i": 20.629,
+     "f": 20.694
+    },
+    {
+     "p": "fiscal",
+     "i": 20.707,
+     "f": 21.176
+    },
+    {
+     "p": "de",
+     "i": 21.189,
+     "f": 21.319
+    },
+    {
+     "p": "obras",
+     "i": 21.332,
+     "f": 21.762
+    },
+    {
+     "p": "traduziu",
+     "i": 22.009,
+     "f": 22.569
+    },
+    {
+     "p": "de",
+     "i": 22.582,
+     "f": 22.712
+    },
+    {
+     "p": "forma",
+     "i": 22.725,
+     "f": 23.09
+    },
+    {
+     "p": "deliberadamente",
+     "i": 23.103,
+     "f": 23.819
+    },
+    {
+     "p": "errada",
+     "i": 23.832,
+     "f": 24.236
+    },
+    {
+     "p": "e",
+     "i": 24.249,
+     "f": 24.288
+    },
+    {
+     "p": "enviou",
+     "i": 24.301,
+     "f": 24.678
+    },
+    {
+     "p": "à",
+     "i": 24.691,
+     "f": 24.743
+    },
+    {
+     "p": "TBN",
+     "i": 24.756,
+     "f": 25.355
+    },
+    {
+     "p": "uma",
+     "i": 25.759,
+     "f": 26.019
+    },
+    {
+     "p": "rede",
+     "i": 26.032,
+     "f": 26.332
+    },
+    {
+     "p": "de",
+     "i": 26.345,
+     "f": 26.436
+    },
+    {
+     "p": "televisão",
+     "i": 26.449,
+     "f": 26.983
+    },
+    {
+     "p": "cristã",
+     "i": 26.996,
+     "f": 27.36
+    },
+    {
+     "p": "dos",
+     "i": 27.374,
+     "f": 27.478
+    },
+    {
+     "p": "Estados",
+     "i": 27.491,
+     "f": 27.985
+    },
+    {
+     "p": "Unidos",
+     "i": 27.999,
+     "f": 28.597
+    },
+    {
+     "p": "A",
+     "i": 28.934,
+     "f": 29.051
+    },
+    {
+     "p": "emissora",
+     "i": 29.064,
+     "f": 29.507
+    },
+    {
+     "p": "levou",
+     "i": 29.52,
+     "f": 29.846
+    },
+    {
+     "p": "a",
+     "i": 29.859,
+     "f": 29.911
+    },
+    {
+     "p": "sério",
+     "i": 29.924,
+     "f": 30.314
+    },
+    {
+     "p": "e",
+     "i": 30.327,
+     "f": 30.366
+    },
+    {
+     "p": "transmitiu",
+     "i": 30.379,
+     "f": 30.939
+    },
+    {
+     "p": "a",
+     "i": 30.952,
+     "f": 30.978
+    },
+    {
+     "p": "história",
+     "i": 30.991,
+     "f": 31.421
+    },
+    {
+     "p": "como",
+     "i": 31.434,
+     "f": 31.694
+    },
+    {
+     "p": "se",
+     "i": 31.708,
+     "f": 31.851
+    },
+    {
+     "p": "fosse",
+     "i": 31.864,
+     "f": 32.202
+    },
+    {
+     "p": "verdade",
+     "i": 32.215,
+     "f": 32.814
+    },
+    {
+     "p": "Rendalen",
+     "i": 33.166,
+     "f": 33.804
+    },
+    {
+     "p": "depois",
+     "i": 33.817,
+     "f": 34.208
+    },
+    {
+     "p": "admitiu",
+     "i": 34.221,
+     "f": 34.82
+    },
+    {
+     "p": "a",
+     "i": 34.833,
+     "f": 34.898
+    },
+    {
+     "p": "brincadeira",
+     "i": 34.911,
+     "f": 35.653
+    }
+   ]
+  },
+  "sons": {
+   "hash": "38d69fe8aa",
+   "texto": "E os gritos? A gravação famosa, com lamentos e berros, passou a circular na internet como se fosse o áudio do poço. Mas não existe registro confiável de que essa gravação tenha vindo de Kola, e verificadores de fatos apontam que o som parece vir de efeitos de filme de terror. Além disso, a lenda erra o lugar: Kola fica na península de mesmo nome, não na Sibéria. A única coisa realmente estranha no poço era outra: a lama de perfuração, que saía carregada de gás hidrogênio, parecendo ferver. Estranho, sim. Sobrenatural, não.",
+   "audio": "audio/sons-38d69fe8aa.mp3",
+   "duracao": 35.631,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "os",
+     "i": 0.271,
+     "f": 0.389
+    },
+    {
+     "p": "gritos",
+     "i": 0.402,
+     "f": 0.961
+    },
+    {
+     "p": "A",
+     "i": 1.37,
+     "f": 1.487
+    },
+    {
+     "p": "gravação",
+     "i": 1.5,
+     "f": 2.073
+    },
+    {
+     "p": "famosa",
+     "i": 2.086,
+     "f": 2.633
+    },
+    {
+     "p": "com",
+     "i": 2.972,
+     "f": 3.141
+    },
+    {
+     "p": "lamentos",
+     "i": 3.154,
+     "f": 3.584
+    },
+    {
+     "p": "e",
+     "i": 3.597,
+     "f": 3.727
+    },
+    {
+     "p": "berros",
+     "i": 3.74,
+     "f": 4.248
+    },
+    {
+     "p": "passou",
+     "i": 4.469,
+     "f": 4.86
+    },
+    {
+     "p": "a",
+     "i": 4.873,
+     "f": 4.912
+    },
+    {
+     "p": "circular",
+     "i": 4.925,
+     "f": 5.511
+    },
+    {
+     "p": "na",
+     "i": 5.524,
+     "f": 5.589
+    },
+    {
+     "p": "internet",
+     "i": 5.602,
+     "f": 6.188
+    },
+    {
+     "p": "como",
+     "i": 6.201,
+     "f": 6.409
+    },
+    {
+     "p": "se",
+     "i": 6.422,
+     "f": 6.552
+    },
+    {
+     "p": "fosse",
+     "i": 6.565,
+     "f": 6.917
+    },
+    {
+     "p": "o",
+     "i": 6.93,
+     "f": 7.021
+    },
+    {
+     "p": "áudio",
+     "i": 7.034,
+     "f": 7.334
+    },
+    {
+     "p": "do",
+     "i": 7.347,
+     "f": 7.464
+    },
+    {
+     "p": "poço",
+     "i": 7.477,
+     "f": 7.907
+    },
+    {
+     "p": "Mas",
+     "i": 8.242,
+     "f": 8.555
+    },
+    {
+     "p": "não",
+     "i": 8.568,
+     "f": 8.75
+    },
+    {
+     "p": "existe",
+     "i": 8.763,
+     "f": 9.206
+    },
+    {
+     "p": "registro",
+     "i": 9.219,
+     "f": 9.726
+    },
+    {
+     "p": "confiável",
+     "i": 9.739,
+     "f": 10.378
+    },
+    {
+     "p": "de",
+     "i": 10.391,
+     "f": 10.508
+    },
+    {
+     "p": "que",
+     "i": 10.521,
+     "f": 10.612
+    },
+    {
+     "p": "essa",
+     "i": 10.625,
+     "f": 10.833
+    },
+    {
+     "p": "gravação",
+     "i": 10.846,
+     "f": 11.445
+    },
+    {
+     "p": "tenha",
+     "i": 11.458,
+     "f": 11.693
+    },
+    {
+     "p": "vindo",
+     "i": 11.706,
+     "f": 11.979
+    },
+    {
+     "p": "de",
+     "i": 11.992,
+     "f": 12.109
+    },
+    {
+     "p": "Kola",
+     "i": 12.122,
+     "f": 12.474
+    },
+    {
+     "p": "e",
+     "i": 12.799,
+     "f": 12.891
+    },
+    {
+     "p": "verificadores",
+     "i": 12.904,
+     "f": 13.711
+    },
+    {
+     "p": "de",
+     "i": 13.724,
+     "f": 13.841
+    },
+    {
+     "p": "fatos",
+     "i": 13.854,
+     "f": 14.232
+    },
+    {
+     "p": "apontam",
+     "i": 14.245,
+     "f": 14.792
+    },
+    {
+     "p": "que",
+     "i": 14.805,
+     "f": 14.883
+    },
+    {
+     "p": "o",
+     "i": 14.896,
+     "f": 14.935
+    },
+    {
+     "p": "som",
+     "i": 14.948,
+     "f": 15.195
+    },
+    {
+     "p": "parece",
+     "i": 15.208,
+     "f": 15.625
+    },
+    {
+     "p": "vir",
+     "i": 15.638,
+     "f": 15.82
+    },
+    {
+     "p": "de",
+     "i": 15.833,
+     "f": 15.898
+    },
+    {
+     "p": "efeitos",
+     "i": 15.911,
+     "f": 16.367
+    },
+    {
+     "p": "de",
+     "i": 16.38,
+     "f": 16.497
+    },
+    {
+     "p": "filme",
+     "i": 16.51,
+     "f": 16.836
+    },
+    {
+     "p": "de",
+     "i": 16.849,
+     "f": 16.979
+    },
+    {
+     "p": "terror",
+     "i": 16.992,
+     "f": 17.383
+    },
+    {
+     "p": "Além",
+     "i": 17.73,
+     "f": 18.017
+    },
+    {
+     "p": "disso",
+     "i": 18.03,
+     "f": 18.446
+    },
+    {
+     "p": "a",
+     "i": 18.694,
+     "f": 18.772
+    },
+    {
+     "p": "lenda",
+     "i": 18.785,
+     "f": 19.136
+    },
+    {
+     "p": "erra",
+     "i": 19.149,
+     "f": 19.397
+    },
+    {
+     "p": "o",
+     "i": 19.41,
+     "f": 19.423
+    },
+    {
+     "p": "lugar",
+     "i": 19.436,
+     "f": 19.826
+    },
+    {
+     "p": "Kola",
+     "i": 20.139,
+     "f": 20.464
+    },
+    {
+     "p": "fica",
+     "i": 20.477,
+     "f": 20.777
+    },
+    {
+     "p": "na",
+     "i": 20.79,
+     "f": 20.894
+    },
+    {
+     "p": "península",
+     "i": 20.907,
+     "f": 21.441
+    },
+    {
+     "p": "de",
+     "i": 21.454,
+     "f": 21.558
+    },
+    {
+     "p": "mesmo",
+     "i": 21.571,
+     "f": 21.897
+    },
+    {
+     "p": "nome",
+     "i": 21.91,
+     "f": 22.248
+    },
+    {
+     "p": "não",
+     "i": 22.47,
+     "f": 22.691
+    },
+    {
+     "p": "na",
+     "i": 22.704,
+     "f": 22.808
+    },
+    {
+     "p": "Sibéria",
+     "i": 22.821,
+     "f": 23.329
+    },
+    {
+     "p": "A",
+     "i": 23.666,
+     "f": 23.822
+    },
+    {
+     "p": "única",
+     "i": 23.835,
+     "f": 24.2
+    },
+    {
+     "p": "coisa",
+     "i": 24.213,
+     "f": 24.591
+    },
+    {
+     "p": "realmente",
+     "i": 24.604,
+     "f": 25.137
+    },
+    {
+     "p": "estranha",
+     "i": 25.15,
+     "f": 25.541
+    },
+    {
+     "p": "no",
+     "i": 25.554,
+     "f": 25.684
+    },
+    {
+     "p": "poço",
+     "i": 25.697,
+     "f": 26.023
+    },
+    {
+     "p": "era",
+     "i": 26.036,
+     "f": 26.205
+    },
+    {
+     "p": "outra",
+     "i": 26.218,
+     "f": 26.557
+    },
+    {
+     "p": "a",
+     "i": 26.843,
+     "f": 26.921
+    },
+    {
+     "p": "lama",
+     "i": 26.934,
+     "f": 27.273
+    },
+    {
+     "p": "de",
+     "i": 27.286,
+     "f": 27.39
+    },
+    {
+     "p": "perfuração",
+     "i": 27.403,
+     "f": 28.132
+    },
+    {
+     "p": "que",
+     "i": 28.432,
+     "f": 28.588
+    },
+    {
+     "p": "saía",
+     "i": 28.601,
+     "f": 28.979
+    },
+    {
+     "p": "carregada",
+     "i": 28.992,
+     "f": 29.512
+    },
+    {
+     "p": "de",
+     "i": 29.525,
+     "f": 29.63
+    },
+    {
+     "p": "gás",
+     "i": 29.643,
+     "f": 29.877
+    },
+    {
+     "p": "hidrogênio",
+     "i": 29.89,
+     "f": 30.58
+    },
+    {
+     "p": "parecendo",
+     "i": 30.815,
+     "f": 31.361
+    },
+    {
+     "p": "ferver",
+     "i": 31.374,
+     "f": 31.804
+    },
+    {
+     "p": "Estranho",
+     "i": 32.146,
+     "f": 32.771
+    },
+    {
+     "p": "sim",
+     "i": 33.005,
+     "f": 33.396
+    },
+    {
+     "p": "Sobrenatural",
+     "i": 33.738,
+     "f": 34.663
+    },
+    {
+     "p": "não",
+     "i": 34.897,
+     "f": 35.249
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "39d37f2445",
+   "texto": "Hoje, no lugar do poço há ruínas e uma tampa de metal soldada, enferrujada pelo tempo. O recorde de profundidade resiste: a marca de doze mil duzentos e sessenta e dois metros, alcançada em mil novecentos e oitenta e nove, continua sendo o ponto mais fundo que o ser humano atingiu. Em dois mil e vinte e quatro, a China chegou a dez mil metros com o Shendi Take Um. Pense na escala: doze quilômetros são menos de dois milésimos do caminho até o centro da Terra. O que mais aprendemos lá embaixo foi sobre a nossa ignorância. E o chão sob nossos pés continua sendo uma fronteira quase intocada.",
+   "audio": "audio/desfecho-39d37f2445.mp3",
+   "duracao": 36.833,
+   "palavras": [
+    {
+     "p": "Hoje",
+     "i": 0.102,
+     "f": 0.493
+    },
+    {
+     "p": "no",
+     "i": 0.766,
+     "f": 0.883
+    },
+    {
+     "p": "lugar",
+     "i": 0.896,
+     "f": 1.261
+    },
+    {
+     "p": "do",
+     "i": 1.274,
+     "f": 1.404
+    },
+    {
+     "p": "poço",
+     "i": 1.417,
+     "f": 1.743
+    },
+    {
+     "p": "há",
+     "i": 1.756,
+     "f": 1.782
+    },
+    {
+     "p": "ruínas",
+     "i": 1.795,
+     "f": 2.237
+    },
+    {
+     "p": "e",
+     "i": 2.251,
+     "f": 2.368
+    },
+    {
+     "p": "uma",
+     "i": 2.381,
+     "f": 2.589
+    },
+    {
+     "p": "tampa",
+     "i": 2.602,
+     "f": 2.954
+    },
+    {
+     "p": "de",
+     "i": 2.967,
+     "f": 3.045
+    },
+    {
+     "p": "metal",
+     "i": 3.058,
+     "f": 3.409
+    },
+    {
+     "p": "soldada",
+     "i": 3.422,
+     "f": 3.995
+    },
+    {
+     "p": "enferrujada",
+     "i": 4.282,
+     "f": 5.063
+    },
+    {
+     "p": "pelo",
+     "i": 5.076,
+     "f": 5.323
+    },
+    {
+     "p": "tempo",
+     "i": 5.336,
+     "f": 5.714
+    },
+    {
+     "p": "O",
+     "i": 6.062,
+     "f": 6.166
+    },
+    {
+     "p": "recorde",
+     "i": 6.179,
+     "f": 6.726
+    },
+    {
+     "p": "de",
+     "i": 6.739,
+     "f": 6.83
+    },
+    {
+     "p": "profundidade",
+     "i": 6.843,
+     "f": 7.572
+    },
+    {
+     "p": "resiste",
+     "i": 7.586,
+     "f": 8.145
+    },
+    {
+     "p": "a",
+     "i": 8.458,
+     "f": 8.549
+    },
+    {
+     "p": "marca",
+     "i": 8.562,
+     "f": 8.953
+    },
+    {
+     "p": "de",
+     "i": 8.966,
+     "f": 9.083
+    },
+    {
+     "p": "doze",
+     "i": 9.096,
+     "f": 9.461
+    },
+    {
+     "p": "mil",
+     "i": 9.474,
+     "f": 9.682
+    },
+    {
+     "p": "duzentos",
+     "i": 9.695,
+     "f": 10.19
+    },
+    {
+     "p": "e",
+     "i": 10.203,
+     "f": 10.32
+    },
+    {
+     "p": "sessenta",
+     "i": 10.333,
+     "f": 10.671
+    },
+    {
+     "p": "e",
+     "i": 10.684,
+     "f": 10.711
+    },
+    {
+     "p": "dois",
+     "i": 10.724,
+     "f": 10.919
+    },
+    {
+     "p": "metros",
+     "i": 10.932,
+     "f": 11.414
+    },
+    {
+     "p": "alcançada",
+     "i": 11.674,
+     "f": 12.338
+    },
+    {
+     "p": "em",
+     "i": 12.351,
+     "f": 12.416
+    },
+    {
+     "p": "mil",
+     "i": 12.429,
+     "f": 12.573
+    },
+    {
+     "p": "novecentos",
+     "i": 12.586,
+     "f": 13.158
+    },
+    {
+     "p": "e",
+     "i": 13.171,
+     "f": 13.263
+    },
+    {
+     "p": "oitenta",
+     "i": 13.276,
+     "f": 13.562
+    },
+    {
+     "p": "e",
+     "i": 13.575,
+     "f": 13.601
+    },
+    {
+     "p": "nove",
+     "i": 13.614,
+     "f": 13.966
+    },
+    {
+     "p": "continua",
+     "i": 14.278,
+     "f": 14.799
+    },
+    {
+     "p": "sendo",
+     "i": 14.812,
+     "f": 15.112
+    },
+    {
+     "p": "o",
+     "i": 15.125,
+     "f": 15.164
+    },
+    {
+     "p": "ponto",
+     "i": 15.177,
+     "f": 15.476
+    },
+    {
+     "p": "mais",
+     "i": 15.489,
+     "f": 15.697
+    },
+    {
+     "p": "fundo",
+     "i": 15.711,
+     "f": 16.049
+    },
+    {
+     "p": "que",
+     "i": 16.062,
+     "f": 16.14
+    },
+    {
+     "p": "o",
+     "i": 16.153,
+     "f": 16.205
+    },
+    {
+     "p": "ser",
+     "i": 16.218,
+     "f": 16.414
+    },
+    {
+     "p": "humano",
+     "i": 16.427,
+     "f": 16.791
+    },
+    {
+     "p": "atingiu",
+     "i": 16.804,
+     "f": 17.377
+    },
+    {
+     "p": "Em",
+     "i": 17.71,
+     "f": 17.814
+    },
+    {
+     "p": "dois",
+     "i": 17.827,
+     "f": 18.036
+    },
+    {
+     "p": "mil",
+     "i": 18.049,
+     "f": 18.166
+    },
+    {
+     "p": "e",
+     "i": 18.179,
+     "f": 18.244
+    },
+    {
+     "p": "vinte",
+     "i": 18.257,
+     "f": 18.465
+    },
+    {
+     "p": "e",
+     "i": 18.478,
+     "f": 18.491
+    },
+    {
+     "p": "quatro",
+     "i": 18.504,
+     "f": 18.947
+    },
+    {
+     "p": "a",
+     "i": 19.129,
+     "f": 19.207
+    },
+    {
+     "p": "China",
+     "i": 19.221,
+     "f": 19.572
+    },
+    {
+     "p": "chegou",
+     "i": 19.585,
+     "f": 19.963
+    },
+    {
+     "p": "a",
+     "i": 19.976,
+     "f": 20.054
+    },
+    {
+     "p": "dez",
+     "i": 20.067,
+     "f": 20.392
+    },
+    {
+     "p": "mil",
+     "i": 20.405,
+     "f": 20.601
+    },
+    {
+     "p": "metros",
+     "i": 20.614,
+     "f": 21.056
+    },
+    {
+     "p": "com",
+     "i": 21.069,
+     "f": 21.239
+    },
+    {
+     "p": "o",
+     "i": 21.252,
+     "f": 21.291
+    },
+    {
+     "p": "Shendi",
+     "i": 21.304,
+     "f": 21.734
+    },
+    {
+     "p": "Take",
+     "i": 21.747,
+     "f": 22.124
+    },
+    {
+     "p": "Um",
+     "i": 22.137,
+     "f": 22.345
+    },
+    {
+     "p": "Pense",
+     "i": 22.686,
+     "f": 23.077
+    },
+    {
+     "p": "na",
+     "i": 23.09,
+     "f": 23.194
+    },
+    {
+     "p": "escala",
+     "i": 23.207,
+     "f": 23.663
+    },
+    {
+     "p": "doze",
+     "i": 23.949,
+     "f": 24.34
+    },
+    {
+     "p": "quilômetros",
+     "i": 24.353,
+     "f": 24.939
+    },
+    {
+     "p": "são",
+     "i": 24.952,
+     "f": 25.095
+    },
+    {
+     "p": "menos",
+     "i": 25.108,
+     "f": 25.473
+    },
+    {
+     "p": "de",
+     "i": 25.486,
+     "f": 25.603
+    },
+    {
+     "p": "dois",
+     "i": 25.616,
+     "f": 25.928
+    },
+    {
+     "p": "milésimos",
+     "i": 25.941,
+     "f": 26.488
+    },
+    {
+     "p": "do",
+     "i": 26.501,
+     "f": 26.605
+    },
+    {
+     "p": "caminho",
+     "i": 26.618,
+     "f": 27.035
+    },
+    {
+     "p": "até",
+     "i": 27.048,
+     "f": 27.308
+    },
+    {
+     "p": "o",
+     "i": 27.321,
+     "f": 27.387
+    },
+    {
+     "p": "centro",
+     "i": 27.4,
+     "f": 27.855
+    },
+    {
+     "p": "da",
+     "i": 27.868,
+     "f": 27.986
+    },
+    {
+     "p": "Terra",
+     "i": 27.999,
+     "f": 28.389
+    },
+    {
+     "p": "O",
+     "i": 28.742,
+     "f": 28.846
+    },
+    {
+     "p": "que",
+     "i": 28.859,
+     "f": 29.003
+    },
+    {
+     "p": "mais",
+     "i": 29.016,
+     "f": 29.237
+    },
+    {
+     "p": "aprendemos",
+     "i": 29.25,
+     "f": 29.927
+    },
+    {
+     "p": "lá",
+     "i": 29.94,
+     "f": 30.07
+    },
+    {
+     "p": "embaixo",
+     "i": 30.083,
+     "f": 30.63
+    },
+    {
+     "p": "foi",
+     "i": 30.643,
+     "f": 30.812
+    },
+    {
+     "p": "sobre",
+     "i": 30.825,
+     "f": 31.086
+    },
+    {
+     "p": "a",
+     "i": 31.099,
+     "f": 31.151
+    },
+    {
+     "p": "nossa",
+     "i": 31.164,
+     "f": 31.489
+    },
+    {
+     "p": "ignorância",
+     "i": 31.502,
+     "f": 32.167
+    },
+    {
+     "p": "E",
+     "i": 32.518,
+     "f": 32.648
+    },
+    {
+     "p": "o",
+     "i": 32.661,
+     "f": 32.713
+    },
+    {
+     "p": "chão",
+     "i": 32.726,
+     "f": 33.013
+    },
+    {
+     "p": "sob",
+     "i": 33.026,
+     "f": 33.247
+    },
+    {
+     "p": "nossos",
+     "i": 33.26,
+     "f": 33.638
+    },
+    {
+     "p": "pés",
+     "i": 33.651,
+     "f": 33.859
+    },
+    {
+     "p": "continua",
+     "i": 33.872,
+     "f": 34.367
+    },
+    {
+     "p": "sendo",
+     "i": 34.38,
+     "f": 34.68
+    },
+    {
+     "p": "uma",
+     "i": 34.693,
+     "f": 34.836
+    },
+    {
+     "p": "fronteira",
+     "i": 34.849,
+     "f": 35.409
+    },
+    {
+     "p": "quase",
+     "i": 35.422,
+     "f": 35.786
+    },
+    {
+     "p": "intocada",
+     "i": 35.799,
+     "f": 36.411
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "kola-mapa": {
+   "arquivo": "imagens/kola-mapa-256c687b.jpg",
+   "rotulo": "Península de Kola",
+   "wiki": "Península de Kola",
+   "commons": "Kola Peninsula location map Murmansk Oblast Russia",
+   "autor": "собственная доработка исходного файла",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kola_peninsula.png",
+   "titulo": "File:Kola peninsula.png",
+   "largura": 1140,
+   "altura": 860,
+   "rostos": 2,
+   "foco": {
+    "x": 33.4,
+    "y": 55.7
+   },
+   "borrada": "imagens/kola-mapa-256c687b-b.jpg"
+  },
+  "pechenga": {
+   "arquivo": "imagens/pechenga-a59ba185.jpg",
+   "rotulo": "Distrito de Pechenga",
+   "wiki": "Pechengsky",
+   "commons": "Pechengsky District Murmansk Oblast Norway border",
+   "autor": "SerBor",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pechengsky_District,_Murmansk_Oblast,_Russia_-_panoramio_(84).jpg",
+   "titulo": "File:Pechengsky District, Murmansk Oblast, Russia - panoramio (84).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 36.1,
+    "y": 52.4
+   },
+   "borrada": "imagens/pechenga-a59ba185-b.jpg"
+  },
+  "kola-tampa": {
+   "arquivo": "imagens/kola-tampa-f3053fff.jpg",
+   "rotulo": "Boca do poço de Kola",
+   "wiki": "Poço Superprofundo de Kola",
+   "commons": "Kola Superdeep Borehole welded cap",
+   "autor": "Andre Belozeroff",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0_crop.jpg",
+   "titulo": "File:Кольская сверхглубокая скважина crop.jpg",
+   "largura": 758,
+   "altura": 648,
+   "rostos": 0,
+   "foco": {
+    "x": 68.2,
+    "y": 57.3
+   },
+   "borrada": "imagens/kola-tampa-f3053fff-b.jpg"
+  },
+  "crosta": {
+   "arquivo": "imagens/crosta-6e12be1b.jpg",
+   "rotulo": "Camadas da Terra",
+   "wiki": "Crosta terrestre",
+   "commons": "Structure of the Earth crust mantle outer core inner core diagram",
+   "autor": "Rajneesh kumar Thakur",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_layers_of_the_Earth_model.jpg",
+   "titulo": "File:The layers of the Earth model.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 57.6,
+    "y": 33.9
+   },
+   "borrada": "imagens/crosta-6e12be1b-b.jpg"
+  },
+  "bosch-inferno": {
+   "arquivo": "imagens/bosch-inferno-7b64a60f.jpg",
+   "rotulo": "O inferno, por Bosch",
+   "wiki": "O Jardim das Delícias Terrenas",
+   "commons": "Hieronymus Bosch Garden of Earthly Delights hell panel",
+   "autor": "Hieronymus Bosch",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_The_Garden_of_Earthly_Delights_-_Hell.jpg",
+   "titulo": "File:Hieronymus Bosch - The Garden of Earthly Delights - Hell.jpg",
+   "largura": 1778,
+   "altura": 4324,
+   "rostos": 0,
+   "foco": {
+    "x": 47.8,
+    "y": 47.3
+   },
+   "borrada": "imagens/bosch-inferno-7b64a60f-b.jpg"
+  },
+  "kola-placa": {
+   "arquivo": "",
+   "rotulo": "Local do poço de Kola",
+   "commons": "Kola Superdeep Borehole sign Zapolyarny",
+   "semFoto": true
+  },
+  "geologo": {
+   "arquivo": "",
+   "rotulo": "Geólogo em campo",
+   "commons": "geologist rock hammer outcrop fieldwork",
+   "semFoto": true
+  },
+  "sonda-petroleo": {
+   "arquivo": "imagens/sonda-petroleo-e4fe3e66.jpg",
+   "rotulo": "Sonda de perfuração",
+   "commons": "oil drilling rig derrick land",
+   "autor": "Texas State Archives",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hornaday_1975_3616_(15684990979).jpg",
+   "titulo": "File:Hornaday 1975 3616 (15684990979).jpg",
+   "largura": 1920,
+   "altura": 1293,
+   "rostos": 0,
+   "foco": {
+    "x": 45.6,
+    "y": 80
+   },
+   "borrada": "imagens/sonda-petroleo-e4fe3e66-b.jpg"
+  },
+  "dicionario": {
+   "arquivo": "",
+   "rotulo": "Erro de tradução",
+   "commons": "dictionary translation old book open",
+   "semFoto": true
+  },
+  "khrushchev-kennedy": {
+   "arquivo": "imagens/khrushchev-kennedy-ab1a2c44.jpg",
+   "rotulo": "Khrushchov e Kennedy, 1961",
+   "wiki": "Cimeira de Viena de 1961",
+   "commons": "Khrushchev Kennedy Vienna summit 1961",
+   "autor": "Photograph from the U. S. Department of State in the John F. Kennedy Presidential Library and Museum, Boston.",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:John_Kennedy,_Nikita_Khrushchev_1961.jpg",
+   "titulo": "File:John Kennedy, Nikita Khrushchev 1961.jpg",
+   "largura": 1920,
+   "altura": 1536,
+   "rostos": 1,
+   "foco": {
+    "x": 71.2,
+    "y": 21.2
+   },
+   "borrada": "imagens/khrushchev-kennedy-ab1a2c44-b.jpg"
+  },
+  "sputnik": {
+   "arquivo": "imagens/sputnik-2a15e4a4.jpg",
+   "rotulo": "Sputnik 1",
+   "wiki": "Sputnik 1",
+   "commons": "Sputnik 1 replica",
+   "autor": "Korolev",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sputnik-1.jpg",
+   "titulo": "File:Sputnik-1.jpg",
+   "largura": 404,
+   "altura": 600,
+   "rostos": 0,
+   "foco": {
+    "x": 68.8,
+    "y": 51.8
+   },
+   "borrada": "imagens/sputnik-2a15e4a4-b.jpg"
+  },
+  "mohole": {
+   "arquivo": "",
+   "rotulo": "Projeto Mohole",
+   "wiki": "Projeto Mohole",
+   "commons": "Project Mohole CUSS I drilling vessel",
+   "semFoto": true
+  },
+  "guadalupe": {
+   "arquivo": "imagens/guadalupe-287ca68d.jpg",
+   "rotulo": "Ilha de Guadalupe, México",
+   "wiki": "Ilha de Guadalupe",
+   "commons": "Guadalupe Island Baja California Mexico coast",
+   "autor": "Captain Albert E. Theberge, NOAA Corps (ret.)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Guadalupe_Island.jpg",
+   "titulo": "File:Guadalupe Island.jpg",
+   "largura": 1352,
+   "altura": 755,
+   "rostos": 0,
+   "foco": {
+    "x": 52.8,
+    "y": 62.2
+   },
+   "borrada": "imagens/guadalupe-287ca68d-b.jpg"
+  },
+  "moho": {
+   "arquivo": "imagens/moho-dadb4dca.jpg",
+   "rotulo": "Descontinuidade de Mohorovičić",
+   "wiki": "Descontinuidade de Mohorovičić",
+   "commons": "Mohorovicic discontinuity crust mantle diagram",
+   "autor": "FCrameri",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Global_Moho_depth_map_of_the_Earth.png",
+   "titulo": "File:Global Moho depth map of the Earth.png",
+   "largura": 1920,
+   "altura": 1076,
+   "rostos": 1,
+   "foco": {
+    "x": 13.3,
+    "y": 41.9
+   },
+   "borrada": "imagens/moho-dadb4dca-b.jpg"
+  },
+  "kola-1970": {
+   "arquivo": "",
+   "rotulo": "Torre de perfuração de Kola",
+   "commons": "Kola Superdeep Borehole drilling derrick 1970s",
+   "semFoto": true
+  },
+  "uralmash": {
+   "arquivo": "",
+   "rotulo": "Equipamento Uralmash",
+   "wiki": "Uralmash",
+   "commons": "Uralmash drilling rig Soviet",
+   "semFoto": true
+  },
+  "turbodrill": {
+   "arquivo": "",
+   "rotulo": "Turbina de perfuração",
+   "commons": "turbodrill downhole mud motor",
+   "semFoto": true
+  },
+  "broca": {
+   "arquivo": "imagens/broca-10c5b332.jpg",
+   "rotulo": "Broca de perfuração",
+   "commons": "tricone drill bit rock bit",
+   "autor": "Techcollector",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rollenmeissel_17.5inch.jpg",
+   "titulo": "File:Rollenmeissel 17.5inch.jpg",
+   "largura": 1920,
+   "altura": 1074,
+   "rostos": 0,
+   "foco": {
+    "x": 57.4,
+    "y": 53.3
+   },
+   "borrada": "imagens/broca-10c5b332-b.jpg"
+  },
+  "testemunho": {
+   "arquivo": "imagens/testemunho-ed02b2c9.jpg",
+   "rotulo": "Amostras de rocha",
+   "commons": "drill core samples rock boxes geology",
+   "autor": "James St. John",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dolostone_(Knox_Dolomite,_Upper_Cambrian;_Warren_County_core,_Ohio,_USA)_1.jpg",
+   "titulo": "File:Dolostone (Knox Dolomite, Upper Cambrian; Warren County core, Ohio, USA) 1.jpg",
+   "largura": 1920,
+   "altura": 985,
+   "rostos": 0,
+   "foco": {
+    "x": 51.4,
+    "y": 57.7
+   },
+   "borrada": "imagens/testemunho-ed02b2c9-b.jpg"
+  },
+  "oklahoma": {
+   "arquivo": "imagens/oklahoma-9699fa93.jpg",
+   "rotulo": "Condado de Washita, Oklahoma",
+   "wiki": "Condado de Washita",
+   "commons": "Washita County Oklahoma map",
+   "autor": "Jeffrey Beall",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Washita_County_Courthouse.JPG",
+   "titulo": "File:Washita County Courthouse.JPG",
+   "largura": 1920,
+   "altura": 1265,
+   "rostos": 0,
+   "foco": {
+    "x": 52.3,
+    "y": 41.9
+   },
+   "borrada": "imagens/oklahoma-9699fa93-b.jpg"
+  },
+  "geologos-campo": {
+   "arquivo": "",
+   "rotulo": "Equipe de geólogos",
+   "commons": "geologists studying rock core seismic data",
+   "semFoto": true
+  },
+  "ondas-sismicas": {
+   "arquivo": "imagens/ondas-sismicas-5ab77935.jpg",
+   "rotulo": "Ondas sísmicas",
+   "wiki": "Onda sísmica",
+   "commons": "seismic waves reflection profile crust diagram",
+   "autor": "Karla Panchuk, Steven Earle",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Seismic_wave_travel_through_Earth.png",
+   "titulo": "File:Seismic wave travel through Earth.png",
+   "largura": 1496,
+   "altura": 915,
+   "rostos": 0,
+   "foco": {
+    "x": 71.7,
+    "y": 80
+   },
+   "borrada": "imagens/ondas-sismicas-5ab77935-b.jpg"
+  },
+  "granito": {
+   "arquivo": "imagens/granito-5408e5fa.jpg",
+   "rotulo": "Granito",
+   "wiki": "Granito",
+   "commons": "granite rock close up",
+   "autor": "Scarlett016",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lilesville_Granite_close-up.jpg",
+   "titulo": "File:Lilesville Granite close-up.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 41.2,
+    "y": 55.4
+   },
+   "borrada": "imagens/granito-5408e5fa-b.jpg"
+  },
+  "basalto": {
+   "arquivo": "imagens/basalto-7ca299b7.jpg",
+   "rotulo": "Basalto",
+   "wiki": "Basalto",
+   "commons": "basalt rock close up",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:BasaltUSGOV.jpg",
+   "titulo": "File:BasaltUSGOV.jpg",
+   "largura": 360,
+   "altura": 261,
+   "rostos": 0,
+   "foco": {
+    "x": 51.9,
+    "y": 51.7
+   },
+   "borrada": "imagens/basalto-7ca299b7-b.jpg"
+  },
+  "conrad": {
+   "arquivo": "",
+   "rotulo": "Camadas da crosta continental",
+   "commons": "Conrad discontinuity continental crust layers diagram",
+   "semFoto": true
+  },
+  "agua-fraturas": {
+   "arquivo": "",
+   "rotulo": "Água em rocha fraturada",
+   "commons": "groundwater fractured crystalline rock",
+   "semFoto": true
+  },
+  "fraturas-granito": {
+   "arquivo": "imagens/fraturas-granito-32f3f23c.jpg",
+   "rotulo": "Fraturas no granito",
+   "commons": "fractured granite crack",
+   "autor": "Dexter Perkins",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Weathered_granite_(GeoDIL_number_-_963).jpg",
+   "titulo": "File:Weathered granite (GeoDIL number - 963).jpg",
+   "largura": 1358,
+   "altura": 873,
+   "rostos": 0,
+   "foco": {
+    "x": 50.2,
+    "y": 59.7
+   },
+   "borrada": "imagens/fraturas-granito-32f3f23c-b.jpg"
+  },
+  "lama": {
+   "arquivo": "imagens/lama-0e9f6de7.jpg",
+   "rotulo": "Lama de perfuração",
+   "wiki": "Lama de perfuração",
+   "commons": "drilling mud shale shaker rig",
+   "autor": "derivative work: Mudgineer (talk) Oil_Rig_NT.PNG: Tosaka",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Oil_Rig_NT8.jpg",
+   "titulo": "File:Oil Rig NT8.jpg",
+   "largura": 920,
+   "altura": 1120,
+   "rostos": 0,
+   "foco": {
+    "x": 41.7,
+    "y": 66.9
+   },
+   "borrada": "imagens/lama-0e9f6de7-b.jpg"
+  },
+  "microfossil": {
+   "arquivo": "imagens/microfossil-24b150ca.jpg",
+   "rotulo": "Microfósseis",
+   "wiki": "Microfóssil",
+   "commons": "Precambrian microfossils acritarchs",
+   "autor": "Alleon, J.",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Spheroidal_microfossils_-_Gunflint_Chert_1.88Ga.png",
+   "titulo": "File:Spheroidal microfossils - Gunflint Chert 1.88Ga.png",
+   "largura": 1378,
+   "altura": 980,
+   "rostos": 3,
+   "foco": {
+    "x": 77.1,
+    "y": 48.4
+   },
+   "borrada": "imagens/microfossil-24b150ca-b.jpg"
+  },
+  "plancton": {
+   "arquivo": "imagens/plancton-f7a43d91.jpg",
+   "rotulo": "Plâncton",
+   "wiki": "Plâncton",
+   "commons": "plankton microscopic marine",
+   "autor": "Jay Nadeau, Chris Lindensmith, Jody W. Deming, Vicente I. Fernandez, and Roman Stocker. Image courtesy of David Liittschwager.",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Marine_microplankton.jpg",
+   "titulo": "File:Marine microplankton.jpg",
+   "largura": 1322,
+   "altura": 924,
+   "rostos": 1,
+   "foco": {
+    "x": 51.6,
+    "y": 65.7
+   },
+   "borrada": "imagens/plancton-f7a43d91-b.jpg"
+  },
+  "kola-1983": {
+   "arquivo": "",
+   "rotulo": "Kola, anos 1980",
+   "commons": "Kola Superdeep Borehole drilling tower snow",
+   "semFoto": true
+  },
+  "coluna": {
+   "arquivo": "",
+   "rotulo": "Coluna de perfuração",
+   "commons": "drill pipe string stacked tubulars",
+   "semFoto": true
+  },
+  "tubos-presos": {
+   "arquivo": "",
+   "rotulo": "Tubos de perfuração",
+   "commons": "drill pipe broken twisted off",
+   "semFoto": true
+  },
+  "equipe": {
+   "arquivo": "",
+   "rotulo": "Engenheiros soviéticos",
+   "commons": "Soviet scientists engineers 1980s laboratory",
+   "semFoto": true
+  },
+  "calor": {
+   "arquivo": "imagens/calor-ad5fce7c.jpg",
+   "rotulo": "Temperatura cresce com a profundidade",
+   "wiki": "Gradiente geotérmico",
+   "commons": "geothermal gradient temperature depth diagram",
+   "autor": "Karla Panchuk (2018), modified after Steven Earle (2016).",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Geothermal_gradient.png",
+   "titulo": "File:Geothermal gradient.png",
+   "largura": 1920,
+   "altura": 1312,
+   "rostos": 0,
+   "foco": {
+    "x": 34.6,
+    "y": 20
+   },
+   "borrada": "imagens/calor-ad5fce7c-b.jpg"
+  },
+  "termometro": {
+   "arquivo": "imagens/termometro-93524c28.jpg",
+   "rotulo": "Termômetro",
+   "commons": "mercury thermometer high temperature",
+   "autor": "Hannes Grobe",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Thermometer-precision_1_hg.jpg",
+   "titulo": "File:Thermometer-precision 1 hg.jpg",
+   "largura": 1920,
+   "altura": 1490,
+   "rostos": 0,
+   "foco": {
+    "x": 55.2,
+    "y": 57.7
+   },
+   "borrada": "imagens/termometro-93524c28-b.jpg"
+  },
+  "rocha-dobrada": {
+   "arquivo": "imagens/rocha-dobrada-6583cdfc.jpg",
+   "rotulo": "Rocha deformada",
+   "commons": "folded metamorphic rock ductile deformation",
+   "autor": "Mike Beauregard from Nunavut, Canada",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Spaghetti_Rock.jpg",
+   "titulo": "File:Spaghetti Rock.jpg",
+   "largura": 1920,
+   "altura": 1549,
+   "rostos": 0,
+   "foco": {
+    "x": 55.3,
+    "y": 49.6
+   },
+   "borrada": "imagens/rocha-dobrada-6583cdfc-b.jpg"
+  },
+  "furo": {
+   "arquivo": "imagens/furo-1687d97d.jpg",
+   "rotulo": "Esquema de um poço",
+   "commons": "borehole cross section diagram deep well",
+   "autor": "Buursink, M.L., Anderson, S.T., Brennan, S.T., Burns, E.R., Freeman, P.A., Gallotti, J.S., Lohr, C.D., Merrill, M. D., Morrissey, E.A., Plampin, M.R., and Warwick, P.D., 2023, Geologic energy storage: U.S. Geological Survey Fact Sheet 2022–3082, 4 p., https://doi.org/10.3133/fs20223082. Geology, Energy &amp; Minerals Science Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Geologic_Energy_Storage_(116140).png",
+   "titulo": "File:Geologic Energy Storage (116140).png",
+   "largura": 1920,
+   "altura": 1632,
+   "rostos": 0,
+   "foco": {
+    "x": 39.7,
+    "y": 43.8
+   },
+   "borrada": "imagens/furo-1687d97d-b.jpg"
+  },
+  "projecao": {
+   "arquivo": "",
+   "rotulo": "Comparação de profundidades",
+   "commons": "Kola Superdeep Borehole depth comparison diagram",
+   "semFoto": true
+  },
+  "maquinas": {
+   "arquivo": "imagens/maquinas-66759c8e.jpg",
+   "rotulo": "Maquinário de perfuração",
+   "commons": "heavy drilling machinery steel equipment",
+   "autor": "RetinaCreative",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/estacas-equipamento-de-4429042/",
+   "titulo": "estacas-equipamento de, equipamento de perfuração, construção de equipamento de, construção, equipamento, petróleo, furar, campo petrolífero, industrial, exploração, plataforma, a máquina de empilhamento, furadeira, azul de construção, azul da indústria, petróleo, petróleo, petróleo, petróleo, petróleo",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 42.6,
+    "y": 50.1
+   },
+   "borrada": "imagens/maquinas-66759c8e-b.jpg"
+  },
+  "kola-esquema": {
+   "arquivo": "imagens/kola-esquema-6c70a478.jpg",
+   "rotulo": "Esquema do poço de Kola",
+   "wiki": "Poço Superprofundo de Kola",
+   "commons": "Kola Superdeep Borehole scheme depth 12262",
+   "autor": "Bigest",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0_(2012).jpg",
+   "titulo": "File:Кольская сверхглубокая скважина (2012).jpg",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 1,
+   "foco": {
+    "x": 46.7,
+    "y": 46.4
+   },
+   "borrada": "imagens/kola-esquema-6c70a478-b.jpg"
+  },
+  "tundra": {
+   "arquivo": "",
+   "rotulo": "Tundra de Murmansk",
+   "commons": "Murmansk Oblast winter tundra landscape",
+   "semFoto": true
+  },
+  "urss": {
+   "arquivo": "imagens/urss-118f468c.jpg",
+   "rotulo": "Bandeira da União Soviética",
+   "wiki": "União Soviética",
+   "commons": "Flag of the Soviet Union",
+   "autor": "PBJellyBoi",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Soviet_Union_flag_map_with_subdivisions.png",
+   "titulo": "File:Soviet Union flag map with subdivisions.png",
+   "largura": 1389,
+   "altura": 1021,
+   "rostos": 0,
+   "foco": {
+    "x": 31.2,
+    "y": 77.6
+   },
+   "borrada": "imagens/urss-118f468c-b.jpg"
+  },
+  "rublo": {
+   "arquivo": "imagens/rublo-ba8ad90b.jpg",
+   "rotulo": "Rublos soviéticos",
+   "wiki": "Rublo soviético",
+   "commons": "Soviet ruble banknotes 1991",
+   "autor": "Jorge Láscar from Australia",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Samples_of_Soviet_Rubles_(8674923730).jpg",
+   "titulo": "File:Samples of Soviet Rubles (8674923730).jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 1,
+   "foco": {
+    "x": 12.3,
+    "y": 85.8
+   },
+   "borrada": "imagens/rublo-ba8ad90b-b.jpg"
+  },
+  "zapolyarny": {
+   "arquivo": "imagens/zapolyarny-25fd0809.jpg",
+   "rotulo": "Zapolyarny",
+   "wiki": "Zapolyarny",
+   "commons": "Zapolyarny Murmansk Oblast town",
+   "autor": "Vyacheslav Bukharov",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zapolyarny-2021_-_9.jpeg",
+   "titulo": "File:Zapolyarny-2021 - 9.jpeg",
+   "largura": 1920,
+   "altura": 543,
+   "rostos": 0,
+   "foco": {
+    "x": 45.8,
+    "y": 57.9
+   },
+   "borrada": "imagens/zapolyarny-25fd0809-b.jpg"
+  },
+  "dore": {
+   "arquivo": "imagens/dore-a02bdf65.jpg",
+   "rotulo": "O inferno, por Gustave Doré",
+   "wiki": "Inferno (Dante)",
+   "commons": "Gustave Doré Inferno Dante illustration",
+   "autor": "Gustave Doré",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_9_(Canto_III_-_Charon).jpg",
+   "titulo": "File:Gustave Doré - Dante Alighieri - Inferno - Plate 9 (Canto III - Charon).jpg",
+   "largura": 1920,
+   "altura": 2640,
+   "rostos": 0,
+   "foco": {
+    "x": 32.4,
+    "y": 46.1
+   },
+   "borrada": "imagens/dore-a02bdf65-b.jpg"
+  },
+  "microfone": {
+   "arquivo": "imagens/microfone-0ce2c959.jpg",
+   "rotulo": "Microfone",
+   "commons": "vintage microphone studio",
+   "autor": "Josephenus P. Riley",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:EMI_RM-1B_microphone_(1930s),_Abbey_Road_Studios.jpg",
+   "titulo": "File:EMI RM-1B microphone (1930s), Abbey Road Studios.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 30.8,
+    "y": 32.6
+   },
+   "borrada": "imagens/microfone-0ce2c959-b.jpg"
+  },
+  "siberia": {
+   "arquivo": "imagens/siberia-d03ac8f3.jpg",
+   "rotulo": "Sibéria",
+   "wiki": "Sibéria",
+   "commons": "Siberia location map Russia",
+   "autor": "Vyacheslav Argenberg",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ergaki,_Taiga_in_Siberia,_Dark_coniferous_forest,_Sayan_Mountains,_Russia.jpg",
+   "titulo": "File:Ergaki, Taiga in Siberia, Dark coniferous forest, Sayan Mountains, Russia.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 50.2,
+    "y": 56.2
+   },
+   "borrada": "imagens/siberia-d03ac8f3-b.jpg"
+  },
+  "noruega": {
+   "arquivo": "imagens/noruega-2e042b5d.jpg",
+   "rotulo": "Noruega",
+   "wiki": "Noruega",
+   "commons": "Norway location map Europe",
+   "autor": "Diego Delso",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cabo_Norte,_Noruega,_2019-09-03,_DD_16.jpg",
+   "titulo": "File:Cabo Norte, Noruega, 2019-09-03, DD 16.jpg",
+   "largura": 1920,
+   "altura": 2833,
+   "rostos": 0,
+   "foco": {
+    "x": 54.8,
+    "y": 58.0
+   },
+   "borrada": "imagens/noruega-2e042b5d-b.jpg"
+  },
+  "tbn": {
+   "arquivo": "imagens/tbn-6c481e8b.jpg",
+   "rotulo": "Trinity Broadcasting Network",
+   "wiki": "Trinity Broadcasting Network",
+   "commons": "Trinity Broadcasting Network",
+   "autor": "godserv",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Trinity_Broadcasting_Network_Antenna_(4100233118).jpg",
+   "titulo": "File:Trinity Broadcasting Network Antenna (4100233118).jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 1,
+   "foco": {
+    "x": 14.1,
+    "y": 47.7
+   },
+   "borrada": "imagens/tbn-6c481e8b-b.jpg"
+  },
+  "gravador": {
+   "arquivo": "imagens/gravador-08270124.jpg",
+   "rotulo": "Gravador de fita",
+   "commons": "reel-to-reel tape recorder vintage",
+   "autor": "Himesh23",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Vintage_Reel-to-Reel_Tape_Recorder_%26_Cassette_Collection.jpg",
+   "titulo": "File:Vintage Reel-to-Reel Tape Recorder & Cassette Collection.jpg",
+   "largura": 931,
+   "altura": 1600,
+   "rostos": 0,
+   "foco": {
+    "x": 45.5,
+    "y": 55.7
+   },
+   "borrada": "imagens/gravador-08270124-b.jpg"
+  },
+  "internet": {
+   "arquivo": "",
+   "rotulo": "Internet nos anos 1990",
+   "commons": "1990s personal computer modem early internet",
+   "semFoto": true
+  },
+  "projetor": {
+   "arquivo": "imagens/projetor-429d52e8.jpg",
+   "rotulo": "Projetor de cinema",
+   "commons": "film projector cinema",
+   "autor": "we-o_rd35rxy0spjt42vbd",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/projetor-de-cinema-6787644/",
+   "titulo": "projetor de cinema, projetor de filme vintage, projetor de filme",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 52.7,
+    "y": 47.9
+   },
+   "borrada": "imagens/projetor-429d52e8-b.jpg"
+  },
+  "peninsula-satelite": {
+   "arquivo": "imagens/peninsula-satelite-a2442f29.jpg",
+   "rotulo": "Península de Kola vista do espaço",
+   "commons": "Kola Peninsula satellite image NASA",
+   "autor": "Jacques Descloitres, MODIS Land Rapid Response Team",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Kola_Peninsula_in_June_2001.jpg",
+   "titulo": "File:Satellite image of Kola Peninsula in June 2001.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 31.3,
+    "y": 42.2
+   },
+   "borrada": "imagens/peninsula-satelite-a2442f29-b.jpg"
+  },
+  "fervura": {
+   "arquivo": "imagens/fervura-0e3ce74c.jpg",
+   "rotulo": "Ebulição",
+   "commons": "boiling water steam bubbles",
+   "autor": "James St. John",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Firehole_Spring_3.jpg",
+   "titulo": "File:Firehole Spring 3.jpg",
+   "largura": 960,
+   "altura": 576,
+   "rostos": 0,
+   "foco": {
+    "x": 52.0,
+    "y": 80
+   },
+   "borrada": "imagens/fervura-0e3ce74c-b.jpg"
+  },
+  "manto": {
+   "arquivo": "imagens/manto-04d73b41.jpg",
+   "rotulo": "Manto terrestre",
+   "wiki": "Manto terrestre",
+   "commons": "Earth mantle convection cutaway diagram",
+   "autor": "Hannes Grobe",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Earth-section_hg.png",
+   "titulo": "File:Earth-section hg.png",
+   "largura": 1920,
+   "altura": 2057,
+   "rostos": 0,
+   "foco": {
+    "x": 47.4,
+    "y": 48.8
+   },
+   "borrada": "imagens/manto-04d73b41-b.jpg"
+  },
+  "bomba-lama": {
+   "arquivo": "imagens/bomba-lama-de77a48f.jpg",
+   "rotulo": "Bomba de lama de perfuração",
+   "commons": "mud pump drilling rig",
+   "autor": "U.S. Navy photo by Mass Communications Specialist 1st Class Russell Stewart",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_110814-N-LL945-118_Construction_Mechanic_Constructionman_Tomas_Gonzalez_and_Construction_Mechanic_1st_Class_Travis_Allison_disassemble_a_ma.jpg",
+   "titulo": "File:US Navy 110814-N-LL945-118 Construction Mechanic Constructionman Tomas Gonzalez and Construction Mechanic 1st Class Travis Allison disassemble a ma.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 0,
+   "foco": {
+    "x": 59.2,
+    "y": 42.2
+   },
+   "borrada": "imagens/bomba-lama-de77a48f-b.jpg"
+  },
+  "kola-falha": {
+   "arquivo": "imagens/kola-falha-3631c0b0.jpg",
+   "rotulo": "Falha de equipamento",
+   "commons": "drilling rig equipment failure broken drill string",
+   "autor": "TJ Guiton",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_repairing_and_rebuilding_of_the_damaged_containment_dome_for_the_Arctic_Challenger_of_Shell_Oil_Company..JPG",
+   "titulo": "File:The repairing and rebuilding of the damaged containment dome for the Arctic Challenger of Shell Oil Company..JPG",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 19.8,
+    "y": 23.8
+   },
+   "borrada": "imagens/kola-falha-3631c0b0-b.jpg"
+  },
+  "comparacao-profundidade": {
+   "arquivo": "imagens/comparacao-profundidade-2d40e323.jpg",
+   "rotulo": "Comparação de profundidades",
+   "commons": "depth comparison Mount Everest Mariana Trench Kola Superdeep Borehole",
+   "autor": "NASA, ESA, and J. Garvin (NASA/GSFC)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aristarchus_Depth_Comparison_(opo0529j).jpg",
+   "titulo": "File:Aristarchus Depth Comparison (opo0529j).jpg",
+   "largura": 1920,
+   "altura": 1516,
+   "rostos": 0,
+   "foco": {
+    "x": 61.8,
+    "y": 30.4
+   },
+   "borrada": "imagens/comparacao-profundidade-2d40e323-b.jpg"
+  },
+  "kola-ruinas": {
+   "arquivo": "imagens/kola-ruinas-9d512d13.jpg",
+   "rotulo": "Ruínas do complexo de Kola",
+   "commons": "Kola Superdeep Borehole abandoned ruins building",
+   "autor": "Шелковников Евгений Анатольевич",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kola_sverhglubokaya_2020.jpg",
+   "titulo": "File:Kola sverhglubokaya 2020.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 54.6,
+    "y": 53.2
+   },
+   "borrada": "imagens/kola-ruinas-9d512d13-b.jpg"
+  },
+  "solda": {
+   "arquivo": "",
+   "rotulo": "Tampa de metal enferrujada",
+   "commons": "welded steel plate rusty cap",
+   "semFoto": true
+  },
+  "china": {
+   "arquivo": "imagens/china-e1132a4c.jpg",
+   "rotulo": "Bacia do Tarim, China",
+   "wiki": "Bacia do Tarim",
+   "commons": "Tarim Basin Xinjiang desert oil field drilling",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wfm_tarim_basin.jpg",
+   "titulo": "File:Wfm tarim basin.jpg",
+   "largura": 1280,
+   "altura": 948,
+   "rostos": 0,
+   "foco": {
+    "x": 34.3,
+    "y": 28.8
+   },
+   "borrada": "imagens/china-e1132a4c-b.jpg"
+  },
+  "escala-terra": {
+   "arquivo": "",
+   "rotulo": "Escala da Terra",
+   "commons": "Earth internal structure scale diagram radius 6371 km",
+   "semFoto": true
+  },
+  "planeta": {
+   "arquivo": "imagens/planeta-fe2d1539.jpg",
+   "rotulo": "A Terra vista do espaço",
+   "wiki": "Blue Marble",
+   "commons": "The Blue Marble Earth from space",
+   "autor": "Harrison Schmitt / Apollo 17",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+   "titulo": "File:The Blue Marble, AS17-148-22727.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 52.8,
+    "y": 33.7
+   },
+   "borrada": "imagens/planeta-fe2d1539-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-02T10:56:02.113Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +6973,58 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipédia — Kola Superdeep Borehole",
+   "url": "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole"
+  },
+  {
+   "titulo": "Wikipédia — Well to Hell",
+   "url": "https://en.wikipedia.org/wiki/Well_to_Hell"
+  },
+  {
+   "titulo": "World Atlas — What Is The Kola Super Deep Borehole?",
+   "url": "https://www.worldatlas.com/articles/what-is-the-kola-super-deep-borehole.html"
+  },
+  {
+   "titulo": "Snopes — Deepest hole on Earth sealed after finding 2-billion-year-old fossil?",
+   "url": "https://www.snopes.com/fact-check/deepest-hole-earth-fossil/"
+  },
+  {
+   "titulo": "Skeptoid — Episódio sobre o poço para o inferno",
+   "url": "https://skeptoid.com/episodes/307"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "O buraco mais fundo do mundo: o que acharam em Kola?",
+   "A verdadeira história do poço para o inferno",
+   "Por que pararam de furar a Terra a 12 km?"
+  ],
+  "descricao": "Em 1970, a União Soviética começou a furar a península de Kola, na Rússia, para tocar o manto da Terra. Chegou a 12.262 metros e encontrou água, microfósseis e um calor que ninguém previa. Este vídeo mostra o que os cientistas esperavam, o que acharam, por que a perfuração parou e como nasceu a lenda dos sons do inferno.\n\n0:00 Gancho\n0:35 Promessa\n1:10 A corrida para baixo\n2:30 O que esperavam\n3:50 O muro de calor\n5:15 A virada\n6:05 O fim da perfuração\n7:00 A lenda do inferno\n8:00 Desfecho\n\nFontes: Wikipédia (Kola Superdeep Borehole; Well to Hell), World Atlas, Snopes, Skeptoid.",
+  "tags": [
+   "poço de Kola",
+   "Kola Superdeep Borehole",
+   "buraco mais fundo do mundo",
+   "poço para o inferno",
+   "Guerra Fria",
+   "geologia",
+   "União Soviética",
+   "perfuração",
+   "curiosidades",
+   "documentário",
+   "ciência",
+   "Inova mundo"
+  ]
  }
 }
