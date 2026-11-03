@@ -93,7 +93,9 @@
   {
    "titulo": "Três Gargantas: a maior usina do mundo vale a pena?",
    "angulo": "Números de geração, controle de cheias e custos sociais e ambientais do projeto no rio Yangtzé, com dados datados e mais de um ponto de vista.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261103",
+   "em": "2026-11-03"
   },
   {
    "titulo": "O que aconteceu com o Concorde?",
@@ -126,5 +128,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-02"
+ "ultimaGeracao": "2026-11-03"
 }
