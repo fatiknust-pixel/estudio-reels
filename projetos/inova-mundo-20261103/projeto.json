@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-03T10:54:17.639Z",
- "atualizadoEm": "2026-11-03T10:54:17.639Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-03T11:06:23Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Três Gargantas: a maior usina do mundo vale a pena? — ângulo: Números de geração, controle de cheias e custos sociais e ambientais do projeto no rio Yangtzé, com dados datados e mais de um ponto de vista.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,8175 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em dois mil e vinte, a maior usina do planeta recebeu a maior enchente desde que o reservatório foi enchido. Setenta e cinco mil metros cúbicos de água por segundo desciam o rio Yangtzé, e a barragem deixou sair cerca de quarenta e nove mil. A usina segurou o resto. Para quem mora rio abaixo, isso pode ser a diferença entre um susto e uma tragédia. Mas essa mesma obra deslocou mais de um milhão de pessoas e mudou para sempre um dos maiores rios do mundo. Então, afinal, a Três Gargantas valeu a pena? A resposta honesta tem mais de um lado.",
+   "galeria": [
+    "cheia2020",
+    "comportas",
+    "usinavista",
+    "wuhan",
+    "reservatorio",
+    "aerea"
+   ],
+   "galeriaEm": [
+    0,
+    "Setenta",
+    "segurou",
+    "mora",
+    "deslocou",
+    "afinal"
+   ],
+   "fontes": [
+    "CGTN, 2020",
+    "Global Times"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 75000,
+     "unidade": "m³/s",
+     "rotulo": "Pico de cheia em agosto de 2020",
+     "cor": "azul",
+     "posicao": "alto",
+     "em": "Setenta"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Neste vídeo, você vai ver os números da maior hidrelétrica já construída e o que ela faz contra as cheias. Vamos separar dado oficial de crítica, sempre com data e fonte, porque muita coisa sobre essa obra circula sem checagem. E no fim, vamos olhar a pergunta que engenheiros e críticos fazem: o que o rio e as pessoas perderam em troca?",
+   "galeria": [
+    "mapachina",
+    "yangtzemapa",
+    "xiling",
+    "wu"
+   ],
+   "galeriaEm": [
+    0,
+    "separar",
+    "engenheiros",
+    "perderam"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "sonho",
+   "texto": "O Yangtzé é o rio mais longo da Ásia, com cerca de seis mil e trezentos quilômetros, e corta a China de oeste a leste. Por séculos, ele deu comida e transporte, mas também desgraça: suas cheias estão entre as mais mortais da história. Em mil novecentos e dezenove, o líder republicano Sun Yat-sen já sugeria represar as Três Gargantas para domar o rio e gerar energia. Uma das piores enchentes registradas, em mil novecentos e trinta e um, matou centenas de milhares de pessoas, em estimativas que variam bastante. Antes de tentar algo maior, a China testou a ideia na barragem de Gezhouba, rio abaixo, concluída em mil novecentos e oitenta e oito.",
+   "galeria": [
+    "yangtze",
+    "enchente",
+    "sunyatsen",
+    "sanxia",
+    "cheia1931",
+    "gezhouba"
+   ],
+   "galeriaEm": [
+    0,
+    "comida",
+    "republicano",
+    "represar",
+    "piores",
+    "testou"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O SONHO DE UM SÉCULO",
+     "sub": "1919 a 1994",
+     "posicao": "topo",
+     "em": 0
+    }
+   ]
+  },
+  {
+   "id": "decisao",
+   "texto": "Em mil novecentos e noventa e dois, o Congresso Nacional do Povo aprovou o projeto, mas com um dado raro: quase um terço dos delegados não votou a favor. Foram mil setecentos e sessenta e sete votos a favor, cento e setenta e sete contra e seiscentas e sessenta e quatro abstenções. Em catorze de dezembro de mil novecentos e noventa e quatro, começaram as obras em Sandouping, no meio das Três Gargantas. Era preciso desviar o rio, escavar rocha e despejar milhões de metros cúbicos de concreto, com o Yangtzé correndo ao lado. Mas antes de encher qualquer reservatório, havia um problema muito maior: o que fazer com quem vivia no vale?",
+   "galeria": [
+    "greathall",
+    "lipeng",
+    "tiananmen",
+    "sandouping",
+    "construcao",
+    "fengjiebaidi"
+   ],
+   "galeriaEm": [
+    0,
+    "Foram",
+    "abstenções",
+    "catorze",
+    "desviar",
+    "problema"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "Congresso Nacional do Povo, 1992"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1992",
+       "Aprovação"
+      ],
+      [
+       "1994",
+       "Início das obras"
+      ],
+      [
+       "2003",
+       "Enchimento"
+      ],
+      [
+       "2012",
+       "Última turbina"
+      ]
+     ],
+     "posicao": "alto",
+     "em": "Congresso"
+    }
+   ]
+  },
+  {
+   "id": "vale",
+   "texto": "A água do reservatório cobriria treze cidades, cento e quarenta vilas e mais de mil povoados. Uma das cidades condenadas era Fengjie, com mais de dois mil anos de história, e ela foi reconstruída em um terreno mais alto. O plano previa remover um milhão e cento e trinta mil pessoas, mas relatos de dois mil e seis já falavam em mais de um milhão e trezentos mil. Boa parte foi para Chongqing e para áreas mais altas. Pesquisadores e jornalistas registraram queixas sobre indenização e perda de terras agrícolas. Também mudaram desfiladeiros e paisagens que poetas chineses cantavam há séculos. E isso era só o começo da conta.",
+   "galeria": [
+    "wanzhou",
+    "fengjie",
+    "deslocados",
+    "chongqing",
+    "indeniza",
+    "qutang"
+   ],
+   "galeriaEm": [
+    0,
+    "Fengjie",
+    "plano",
+    "Chongqing",
+    "Pesquisadores",
+    "desfiladeiros"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "China Daily, 2006"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O VALE SUBMERSO",
+     "sub": "Cidades e vilas",
+     "posicao": "topo",
+     "em": 0
+    }
+   ]
+  },
+  {
+   "id": "numeros",
+   "texto": "A barragem tem dois mil trezentos e trinta e cinco metros de comprimento e cento e oitenta e cinco metros de altura. O reservatório vai por mais de seiscentos quilômetros rio acima, um lago comprido e estreito que segue o antigo leito do rio. Em dois mil e três, a água começou a subir. Em maio de dois mil e seis, o corpo principal da barragem ficou pronto. E em dois mil e doze, a última grande turbina entrou em operação, completando trinta e dois geradores principais. Somados a dois menores, que alimentam a própria usina, são vinte e dois mil e quinhentos megawatts de capacidade instalada.",
+   "galeria": [
+    "muro",
+    "reservatorio2",
+    "enchimento",
+    "dam2006",
+    "geradores",
+    "usina"
+   ],
+   "galeriaEm": [
+    0,
+    "reservatório",
+    "água",
+    "maio",
+    "última",
+    "Somados"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "China Three Gorges Corporation"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 2335,
+     "unidade": "m",
+     "rotulo": "Comprimento da barragem",
+     "cor": "azul",
+     "posicao": "alto",
+     "em": "dois"
+    }
+   ]
+  },
+  {
+   "id": "energia",
+   "texto": "Isso faz da Três Gargantas a maior usina hidrelétrica do mundo em capacidade instalada, à frente de Itaipu, no Brasil. Mas capacidade é uma coisa; geração é outra. Em dois mil e dezesseis, Itaipu produziu cerca de cento e três terawatts-hora, recorde mundial na época. Em dois mil e vinte, com chuvas fortes, a Três Gargantas gerou perto de cento e doze terawatts-hora, segundo dados da operadora. É energia para dezenas de milhões de casas, sem queimar carvão. Segundo reportagens, o investimento foi recuperado em dois mil e treze. Só que existe um número que os críticos sempre citam: o custo da obra, e quanto a conta cresceu depois.",
+   "galeria": [
+    "itaipu",
+    "itaipuvert",
+    "itaipu2",
+    "tg2020",
+    "linhas",
+    "yuan"
+   ],
+   "galeriaEm": [
+    0,
+    "geração",
+    "recorde",
+    "chuvas",
+    "dezenas",
+    "críticos"
+   ],
+   "fontes": [
+    "Energy Digital",
+    "The Water Network",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 112,
+     "unidade": "TWh",
+     "rotulo": "Geração em 2020, segundo a operadora",
+     "cor": "verde",
+     "posicao": "alto",
+     "em": "perto"
+    }
+   ]
+  },
+  {
+   "id": "custo",
+   "texto": "A estimativa oficial gira em torno de duzentos e três bilhões de iuanes, algo como trinta bilhões de dólares, dependendo da fonte e da época. Algumas publicações falam em valores bem maiores, quando somam reassentamento, manutenção e proteção das margens. Os defensores dizem que a energia paga a conta. Os críticos respondem que custos ambientais e sociais ficam fora do balanço. Mas existe uma pergunta anterior: a barragem protege mesmo contra as cheias que a justificaram?",
+   "galeria": [
+    "custo",
+    "ctgc",
+    "wuhanponte",
+    "diques"
+   ],
+   "galeriaEm": [
+    0,
+    "publicações",
+    "defensores",
+    "pergunta"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "OilPrice"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUANTO CUSTOU?",
+     "sub": "Estimativas",
+     "posicao": "topo",
+     "em": 0
+    }
+   ]
+  },
+  {
+   "id": "cheias",
+   "texto": "Em mil novecentos e cinquenta e quatro, uma grande enchente deixou Wuhan alagada por meses. Em mil novecentos e noventa e oito, outra afetou milhões de pessoas. A Três Gargantas foi desenhada para deixar espaço vazio no fim da estação seca e absorver a água das chuvas de verão. Em julho de dois mil e vinte, segundo a operadora, a barragem reteve cerca de quarenta e cinco por cento de uma onda de sessenta e um mil metros cúbicos por segundo. Em agosto, veio o maior pico desde o enchimento: setenta e cinco mil entrando e perto de quarenta e nove mil saindo. Esses números vêm em grande parte da própria operadora e da imprensa estatal. Cientistas independentes concordam que ajuda, mas discutem o quanto.",
+   "galeria": [
+    "cheia1954",
+    "cheia1998",
+    "vazio",
+    "julho2020",
+    "agosto2020",
+    "descarga",
+    "cientistas"
+   ],
+   "galeriaEm": [
+    0,
+    "outra",
+    "desenhada",
+    "julho",
+    "agosto",
+    "Esses",
+    "Cientistas"
+   ],
+   "fontes": [
+    "CGTN, 2020",
+    "Global Times, 2020",
+    "Al Jazeera"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 75000,
+     "ate": 49000,
+     "unidade": "m³/s",
+     "rotulo": "Entrada e saída, 20 de agosto de 2020",
+     "cor": "azul",
+     "posicao": "alto",
+     "em": "agosto"
+    }
+   ]
+  },
+  {
+   "id": "virada",
+   "texto": "Aqui está a virada. Em dois mil e sete, autoridades chinesas fizeram um alerta raro: a obra poderia virar uma catástrofe ambiental se os problemas não fossem enfrentados. A mesma imprensa estatal relatou que as margens do reservatório haviam desabado em noventa e um pontos, somando trinta e seis quilômetros. O nível da água sobe e desce dezenas de metros a cada ano, e isso enfraquece encostas inteiras. Outro problema é o sedimento. O rio carregava lodo e areia que alimentavam margens e planícies, e agora boa parte fica retida atrás da barragem. Água sem sedimento corre mais agressiva e pode corroer diques rio abaixo. Autoridades dizem que a sedimentação ficou abaixo do previsto, mas cientistas contestam, e há debate sobre efeitos em lagos como o Poyang.",
+   "galeria": [
+    "margem",
+    "colapso",
+    "flutuacao",
+    "delta",
+    "planicie",
+    "jingjiang",
+    "poyang"
+   ],
+   "galeriaEm": [
+    0,
+    "imprensa",
+    "nível",
+    "sedimento",
+    "planícies",
+    "corroer",
+    "previsto"
+   ],
+   "fontes": [
+    "VOA News, 2007",
+    "Grist",
+    "NBC News"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O OUTRO LADO",
+     "sub": "Alertas ambientais",
+     "posicao": "topo",
+     "em": 0
+    }
+   ]
+  },
+  {
+   "id": "fauna",
+   "texto": "O rio também perdeu espécies. O baiji, o golfinho do Yangtzé, foi dado como funcionalmente extinto após uma expedição científica em dois mil e seis. A represa não foi a única causa: pesca predatória, tráfego de barcos e poluição também pesaram. Mas ela cortou o rio em dois. Peixes migratórios, como o esturjão-chinês, perderam o caminho até as áreas de desova. Desde janeiro de dois mil e vinte e um, a China proíbe a pesca comercial no Yangtzé por dez anos, numa tentativa de recuperar o ecossistema.",
+   "galeria": [
+    "baiji",
+    "tgrio",
+    "porpoise",
+    "esturjao",
+    "pesca"
+   ],
+   "galeriaEm": [
+    0,
+    "represa",
+    "cortou",
+    "Peixes",
+    "janeiro"
+   ],
+   "fontes": [
+    "Grist"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O RIO E A FAUNA",
+     "sub": "Espécies",
+     "posicao": "topo",
+     "em": 0
+    }
+   ]
+  },
+  {
+   "id": "navegacao",
+   "texto": "Mas a obra também resolveu um gargalo histórico. As Três Gargantas eram famosas por corredeiras perigosas, onde barcos eram puxados por homens. Com a água mais alta, navios maiores passaram a subir até Chongqing, e a carga transportada no rio cresceu muito, segundo relatos oficiais. Para passar pela barragem, os barcos usam uma eclusa de cinco degraus, uma das maiores do mundo. Em dois mil e dezesseis, entrou em operação também um elevador de navios, capaz de levantar embarcações de até três mil toneladas. É mais um ponto a favor. A dificuldade é pesar tudo isso na mesma balança.",
+   "galeria": [
+    "tracionadores",
+    "portochq",
+    "cargas",
+    "eclusa",
+    "elevador",
+    "barcos"
+   ],
+   "galeriaEm": [
+    0,
+    "Chongqing",
+    "carga",
+    "eclusa",
+    "elevador",
+    "dificuldade"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NAVEGAÇÃO",
+     "sub": "Eclusa e elevador",
+     "posicao": "topo",
+     "em": 0
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então voltemos à pergunta do começo. Em energia, o saldo é enorme: mais de cem terawatts-hora por ano, sem fumaça de chaminé. Em cheias, a barragem ajuda a proteger milhões de pessoas, ainda que os números exatos dependam de dados da operadora. Em custos humanos e ambientais, a conta é pesada: mais de um milhão de deslocados, encostas instáveis, sedimentos retidos e espécies perdidas. A resposta depende do que uma sociedade aceita pagar pelo progresso. A Três Gargantas mostra que grandes obras raramente têm um preço só. Um rio represado continua correndo, mas já não é o mesmo rio.",
+   "galeria": [
+    "noite",
+    "chamine",
+    "wuhan2",
+    "panorama",
+    "aerea2",
+    "por"
+   ],
+   "galeriaEm": [
+    0,
+    "fumaça",
+    "proteger",
+    "pesada",
+    "sociedade",
+    "represado"
+   ],
+   "fontes": [
+    "Fontes citadas no vídeo"
+   ],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "6c09d89a80",
+   "texto": "Em dois mil e vinte, a maior usina do planeta recebeu a maior enchente desde que o reservatório foi enchido. Setenta e cinco mil metros cúbicos de água por segundo desciam o rio Yangtzé, e a barragem deixou sair cerca de quarenta e nove mil. A usina segurou o resto. Para quem mora rio abaixo, isso pode ser a diferença entre um susto e uma tragédia. Mas essa mesma obra deslocou mais de um milhão de pessoas e mudou para sempre um dos maiores rios do mundo. Então, afinal, a Três Gargantas valeu a pena? A resposta honesta tem mais de um lado.",
+   "audio": "audio/gancho-6c09d89a80.mp3",
+   "duracao": 34.769,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "dois",
+     "i": 0.245,
+     "f": 0.493
+    },
+    {
+     "p": "mil",
+     "i": 0.506,
+     "f": 0.636
+    },
+    {
+     "p": "e",
+     "i": 0.649,
+     "f": 0.714
+    },
+    {
+     "p": "vinte",
+     "i": 0.727,
+     "f": 1.183
+    },
+    {
+     "p": "a",
+     "i": 1.365,
+     "f": 1.417
+    },
+    {
+     "p": "maior",
+     "i": 1.43,
+     "f": 1.769
+    },
+    {
+     "p": "usina",
+     "i": 1.782,
+     "f": 2.12
+    },
+    {
+     "p": "do",
+     "i": 2.133,
+     "f": 2.237
+    },
+    {
+     "p": "planeta",
+     "i": 2.251,
+     "f": 2.732
+    },
+    {
+     "p": "recebeu",
+     "i": 2.745,
+     "f": 3.24
+    },
+    {
+     "p": "a",
+     "i": 3.253,
+     "f": 3.292
+    },
+    {
+     "p": "maior",
+     "i": 3.305,
+     "f": 3.644
+    },
+    {
+     "p": "enchente",
+     "i": 3.657,
+     "f": 4.204
+    },
+    {
+     "p": "desde",
+     "i": 4.217,
+     "f": 4.659
+    },
+    {
+     "p": "que",
+     "i": 4.672,
+     "f": 4.738
+    },
+    {
+     "p": "o",
+     "i": 4.751,
+     "f": 4.79
+    },
+    {
+     "p": "reservatório",
+     "i": 4.803,
+     "f": 5.558
+    },
+    {
+     "p": "foi",
+     "i": 5.571,
+     "f": 5.753
+    },
+    {
+     "p": "enchido",
+     "i": 5.766,
+     "f": 6.326
+    },
+    {
+     "p": "Setenta",
+     "i": 6.662,
+     "f": 7.222
+    },
+    {
+     "p": "e",
+     "i": 7.235,
+     "f": 7.261
+    },
+    {
+     "p": "cinco",
+     "i": 7.274,
+     "f": 7.587
+    },
+    {
+     "p": "mil",
+     "i": 7.6,
+     "f": 7.756
+    },
+    {
+     "p": "metros",
+     "i": 7.769,
+     "f": 8.199
+    },
+    {
+     "p": "cúbicos",
+     "i": 8.212,
+     "f": 8.68
+    },
+    {
+     "p": "de",
+     "i": 8.693,
+     "f": 8.811
+    },
+    {
+     "p": "água",
+     "i": 8.824,
+     "f": 9.162
+    },
+    {
+     "p": "por",
+     "i": 9.175,
+     "f": 9.344
+    },
+    {
+     "p": "segundo",
+     "i": 9.357,
+     "f": 9.8
+    },
+    {
+     "p": "desciam",
+     "i": 9.813,
+     "f": 10.256
+    },
+    {
+     "p": "o",
+     "i": 10.269,
+     "f": 10.295
+    },
+    {
+     "p": "rio",
+     "i": 10.308,
+     "f": 10.516
+    },
+    {
+     "p": "Yangtzé",
+     "i": 10.529,
+     "f": 11.102
+    },
+    {
+     "p": "e",
+     "i": 11.48,
+     "f": 11.571
+    },
+    {
+     "p": "a",
+     "i": 11.584,
+     "f": 11.636
+    },
+    {
+     "p": "barragem",
+     "i": 11.649,
+     "f": 12.222
+    },
+    {
+     "p": "deixou",
+     "i": 12.235,
+     "f": 12.639
+    },
+    {
+     "p": "sair",
+     "i": 12.652,
+     "f": 13.003
+    },
+    {
+     "p": "cerca",
+     "i": 13.016,
+     "f": 13.42
+    },
+    {
+     "p": "de",
+     "i": 13.433,
+     "f": 13.524
+    },
+    {
+     "p": "quarenta",
+     "i": 13.537,
+     "f": 13.928
+    },
+    {
+     "p": "e",
+     "i": 13.941,
+     "f": 13.967
+    },
+    {
+     "p": "nove",
+     "i": 13.98,
+     "f": 14.214
+    },
+    {
+     "p": "mil.",
+     "i": 14.227,
+     "f": 14.501
+    },
+    {
+     "p": "A",
+     "i": 14.854,
+     "f": 14.997
+    },
+    {
+     "p": "usina",
+     "i": 15.01,
+     "f": 15.427
+    },
+    {
+     "p": "segurou",
+     "i": 15.44,
+     "f": 15.896
+    },
+    {
+     "p": "o",
+     "i": 15.909,
+     "f": 15.948
+    },
+    {
+     "p": "resto",
+     "i": 15.961,
+     "f": 16.417
+    },
+    {
+     "p": "Para",
+     "i": 16.758,
+     "f": 16.992
+    },
+    {
+     "p": "quem",
+     "i": 17.005,
+     "f": 17.201
+    },
+    {
+     "p": "mora",
+     "i": 17.214,
+     "f": 17.5
+    },
+    {
+     "p": "rio",
+     "i": 17.513,
+     "f": 17.735
+    },
+    {
+     "p": "abaixo",
+     "i": 17.748,
+     "f": 18.255
+    },
+    {
+     "p": "isso",
+     "i": 18.542,
+     "f": 18.75
+    },
+    {
+     "p": "pode",
+     "i": 18.763,
+     "f": 19.024
+    },
+    {
+     "p": "ser",
+     "i": 19.037,
+     "f": 19.206
+    },
+    {
+     "p": "a",
+     "i": 19.219,
+     "f": 19.271
+    },
+    {
+     "p": "diferença",
+     "i": 19.284,
+     "f": 19.909
+    },
+    {
+     "p": "entre",
+     "i": 19.922,
+     "f": 20.144
+    },
+    {
+     "p": "um",
+     "i": 20.157,
+     "f": 20.261
+    },
+    {
+     "p": "susto",
+     "i": 20.274,
+     "f": 20.755
+    },
+    {
+     "p": "e",
+     "i": 20.768,
+     "f": 20.821
+    },
+    {
+     "p": "uma",
+     "i": 20.834,
+     "f": 20.99
+    },
+    {
+     "p": "tragédia",
+     "i": 21.003,
+     "f": 21.589
+    },
+    {
+     "p": "Mas",
+     "i": 21.926,
+     "f": 22.134
+    },
+    {
+     "p": "essa",
+     "i": 22.147,
+     "f": 22.525
+    },
+    {
+     "p": "mesma",
+     "i": 22.538,
+     "f": 22.877
+    },
+    {
+     "p": "obra",
+     "i": 22.89,
+     "f": 23.241
+    },
+    {
+     "p": "deslocou",
+     "i": 23.254,
+     "f": 23.775
+    },
+    {
+     "p": "mais",
+     "i": 23.788,
+     "f": 24.101
+    },
+    {
+     "p": "de",
+     "i": 24.114,
+     "f": 24.218
+    },
+    {
+     "p": "um",
+     "i": 24.231,
+     "f": 24.361
+    },
+    {
+     "p": "milhão",
+     "i": 24.374,
+     "f": 24.7
+    },
+    {
+     "p": "de",
+     "i": 24.713,
+     "f": 24.804
+    },
+    {
+     "p": "pessoas",
+     "i": 24.817,
+     "f": 25.298
+    },
+    {
+     "p": "e",
+     "i": 25.311,
+     "f": 25.416
+    },
+    {
+     "p": "mudou",
+     "i": 25.429,
+     "f": 25.78
+    },
+    {
+     "p": "para",
+     "i": 25.793,
+     "f": 25.989
+    },
+    {
+     "p": "sempre",
+     "i": 26.002,
+     "f": 26.457
+    },
+    {
+     "p": "um",
+     "i": 26.47,
+     "f": 26.601
+    },
+    {
+     "p": "dos",
+     "i": 26.614,
+     "f": 26.783
+    },
+    {
+     "p": "maiores",
+     "i": 26.796,
+     "f": 27.304
+    },
+    {
+     "p": "rios",
+     "i": 27.317,
+     "f": 27.577
+    },
+    {
+     "p": "do",
+     "i": 27.59,
+     "f": 27.707
+    },
+    {
+     "p": "mundo",
+     "i": 27.72,
+     "f": 28.098
+    },
+    {
+     "p": "Então",
+     "i": 28.438,
+     "f": 28.92
+    },
+    {
+     "p": "afinal",
+     "i": 29.219,
+     "f": 29.727
+    },
+    {
+     "p": "a",
+     "i": 29.962,
+     "f": 30.079
+    },
+    {
+     "p": "Três",
+     "i": 30.092,
+     "f": 30.404
+    },
+    {
+     "p": "Gargantas",
+     "i": 30.417,
+     "f": 30.977
+    },
+    {
+     "p": "valeu",
+     "i": 30.99,
+     "f": 31.29
+    },
+    {
+     "p": "a",
+     "i": 31.303,
+     "f": 31.381
+    },
+    {
+     "p": "pena",
+     "i": 31.394,
+     "f": 31.797
+    },
+    {
+     "p": "A",
+     "i": 32.202,
+     "f": 32.319
+    },
+    {
+     "p": "resposta",
+     "i": 32.332,
+     "f": 32.879
+    },
+    {
+     "p": "honesta",
+     "i": 32.892,
+     "f": 33.257
+    },
+    {
+     "p": "tem",
+     "i": 33.27,
+     "f": 33.439
+    },
+    {
+     "p": "mais",
+     "i": 33.452,
+     "f": 33.765
+    },
+    {
+     "p": "de",
+     "i": 33.778,
+     "f": 33.869
+    },
+    {
+     "p": "um",
+     "i": 33.882,
+     "f": 34.012
+    },
+    {
+     "p": "lado",
+     "i": 34.025,
+     "f": 34.377
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "da4ddc4995",
+   "texto": "Neste vídeo, você vai ver os números da maior hidrelétrica já construída e o que ela faz contra as cheias. Vamos separar dado oficial de crítica, sempre com data e fonte, porque muita coisa sobre essa obra circula sem checagem. E no fim, vamos olhar a pergunta que engenheiros e críticos fazem: o que o rio e as pessoas perderam em troca?",
+   "audio": "audio/promessa-da4ddc4995.mp3",
+   "duracao": 21.473,
+   "palavras": [
+    {
+     "p": "Neste",
+     "i": 0.102,
+     "f": 0.532
+    },
+    {
+     "p": "vídeo",
+     "i": 0.545,
+     "f": 0.922
+    },
+    {
+     "p": "você",
+     "i": 1.261,
+     "f": 1.547
+    },
+    {
+     "p": "vai",
+     "i": 1.56,
+     "f": 1.73
+    },
+    {
+     "p": "ver",
+     "i": 1.743,
+     "f": 1.977
+    },
+    {
+     "p": "os",
+     "i": 1.99,
+     "f": 2.12
+    },
+    {
+     "p": "números",
+     "i": 2.133,
+     "f": 2.524
+    },
+    {
+     "p": "da",
+     "i": 2.537,
+     "f": 2.641
+    },
+    {
+     "p": "maior",
+     "i": 2.654,
+     "f": 2.954
+    },
+    {
+     "p": "hidrelétrica",
+     "i": 2.967,
+     "f": 3.644
+    },
+    {
+     "p": "já",
+     "i": 3.657,
+     "f": 3.839
+    },
+    {
+     "p": "construída",
+     "i": 3.852,
+     "f": 4.516
+    },
+    {
+     "p": "e",
+     "i": 4.529,
+     "f": 4.607
+    },
+    {
+     "p": "o",
+     "i": 4.62,
+     "f": 4.685
+    },
+    {
+     "p": "que",
+     "i": 4.698,
+     "f": 4.816
+    },
+    {
+     "p": "ela",
+     "i": 4.829,
+     "f": 5.024
+    },
+    {
+     "p": "faz",
+     "i": 5.037,
+     "f": 5.31
+    },
+    {
+     "p": "contra",
+     "i": 5.323,
+     "f": 5.636
+    },
+    {
+     "p": "as",
+     "i": 5.649,
+     "f": 5.74
+    },
+    {
+     "p": "cheias",
+     "i": 5.753,
+     "f": 6.3
+    },
+    {
+     "p": "Vamos",
+     "i": 6.638,
+     "f": 6.99
+    },
+    {
+     "p": "separar",
+     "i": 7.003,
+     "f": 7.445
+    },
+    {
+     "p": "dado",
+     "i": 7.458,
+     "f": 7.68
+    },
+    {
+     "p": "oficial",
+     "i": 7.693,
+     "f": 8.149
+    },
+    {
+     "p": "de",
+     "i": 8.162,
+     "f": 8.279
+    },
+    {
+     "p": "crítica",
+     "i": 8.292,
+     "f": 8.734
+    },
+    {
+     "p": "sempre",
+     "i": 9.008,
+     "f": 9.438
+    },
+    {
+     "p": "com",
+     "i": 9.451,
+     "f": 9.633
+    },
+    {
+     "p": "data",
+     "i": 9.646,
+     "f": 9.893
+    },
+    {
+     "p": "e",
+     "i": 9.906,
+     "f": 9.945
+    },
+    {
+     "p": "fonte",
+     "i": 9.958,
+     "f": 10.414
+    },
+    {
+     "p": "porque",
+     "i": 10.701,
+     "f": 11.039
+    },
+    {
+     "p": "muita",
+     "i": 11.052,
+     "f": 11.443
+    },
+    {
+     "p": "coisa",
+     "i": 11.456,
+     "f": 11.794
+    },
+    {
+     "p": "sobre",
+     "i": 11.807,
+     "f": 12.055
+    },
+    {
+     "p": "essa",
+     "i": 12.068,
+     "f": 12.289
+    },
+    {
+     "p": "obra",
+     "i": 12.302,
+     "f": 12.589
+    },
+    {
+     "p": "circula",
+     "i": 12.602,
+     "f": 13.096
+    },
+    {
+     "p": "sem",
+     "i": 13.109,
+     "f": 13.318
+    },
+    {
+     "p": "checagem",
+     "i": 13.331,
+     "f": 13.943
+    },
+    {
+     "p": "E",
+     "i": 14.278,
+     "f": 14.382
+    },
+    {
+     "p": "no",
+     "i": 14.395,
+     "f": 14.525
+    },
+    {
+     "p": "fim",
+     "i": 14.538,
+     "f": 14.799
+    },
+    {
+     "p": "vamos",
+     "i": 15.19,
+     "f": 15.45
+    },
+    {
+     "p": "olhar",
+     "i": 15.463,
+     "f": 15.828
+    },
+    {
+     "p": "a",
+     "i": 15.841,
+     "f": 15.893
+    },
+    {
+     "p": "pergunta",
+     "i": 15.906,
+     "f": 16.414
+    },
+    {
+     "p": "que",
+     "i": 16.427,
+     "f": 16.518
+    },
+    {
+     "p": "engenheiros",
+     "i": 16.531,
+     "f": 16.999
+    },
+    {
+     "p": "e",
+     "i": 17.012,
+     "f": 17.143
+    },
+    {
+     "p": "críticos",
+     "i": 17.156,
+     "f": 17.664
+    },
+    {
+     "p": "fazem",
+     "i": 17.677,
+     "f": 18.093
+    },
+    {
+     "p": "o",
+     "i": 18.484,
+     "f": 18.562
+    },
+    {
+     "p": "que",
+     "i": 18.575,
+     "f": 18.744
+    },
+    {
+     "p": "o",
+     "i": 18.757,
+     "f": 18.835
+    },
+    {
+     "p": "rio",
+     "i": 18.848,
+     "f": 19.109
+    },
+    {
+     "p": "e",
+     "i": 19.122,
+     "f": 19.161
+    },
+    {
+     "p": "as",
+     "i": 19.174,
+     "f": 19.291
+    },
+    {
+     "p": "pessoas",
+     "i": 19.304,
+     "f": 19.786
+    },
+    {
+     "p": "perderam",
+     "i": 19.799,
+     "f": 20.294
+    },
+    {
+     "p": "em",
+     "i": 20.307,
+     "f": 20.398
+    },
+    {
+     "p": "troca",
+     "i": 20.411,
+     "f": 20.841
+    }
+   ]
+  },
+  "sonho": {
+   "hash": "840fcf9408",
+   "texto": "O Yangtzé é o rio mais longo da Ásia, com cerca de seis mil e trezentos quilômetros, e corta a China de oeste a leste. Por séculos, ele deu comida e transporte, mas também desgraça: suas cheias estão entre as mais mortais da história. Em mil novecentos e dezenove, o líder republicano Sun Yat-sen já sugeria represar as Três Gargantas para domar o rio e gerar energia. Uma das piores enchentes registradas, em mil novecentos e trinta e um, matou centenas de milhares de pessoas, em estimativas que variam bastante. Antes de tentar algo maior, a China testou a ideia na barragem de Gezhouba, rio abaixo, concluída em mil novecentos e oitenta e oito.",
+   "audio": "audio/sonho-840fcf9408.mp3",
+   "duracao": 40.673,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "Yangtzé",
+     "i": 0.245,
+     "f": 0.753
+    },
+    {
+     "p": "é",
+     "i": 0.766,
+     "f": 0.844
+    },
+    {
+     "p": "o",
+     "i": 0.857,
+     "f": 0.922
+    },
+    {
+     "p": "rio",
+     "i": 0.935,
+     "f": 1.17
+    },
+    {
+     "p": "mais",
+     "i": 1.183,
+     "f": 1.443
+    },
+    {
+     "p": "longo",
+     "i": 1.456,
+     "f": 1.782
+    },
+    {
+     "p": "da",
+     "i": 1.795,
+     "f": 1.899
+    },
+    {
+     "p": "Ásia",
+     "i": 1.912,
+     "f": 2.277
+    },
+    {
+     "p": "com",
+     "i": 2.55,
+     "f": 2.732
+    },
+    {
+     "p": "cerca",
+     "i": 2.745,
+     "f": 3.162
+    },
+    {
+     "p": "de",
+     "i": 3.175,
+     "f": 3.279
+    },
+    {
+     "p": "seis",
+     "i": 3.292,
+     "f": 3.553
+    },
+    {
+     "p": "mil",
+     "i": 3.566,
+     "f": 3.683
+    },
+    {
+     "p": "e",
+     "i": 3.696,
+     "f": 3.748
+    },
+    {
+     "p": "trezentos",
+     "i": 3.761,
+     "f": 4.269
+    },
+    {
+     "p": "quilômetros",
+     "i": 4.282,
+     "f": 4.92
+    },
+    {
+     "p": "e",
+     "i": 5.232,
+     "f": 5.323
+    },
+    {
+     "p": "corta",
+     "i": 5.336,
+     "f": 5.714
+    },
+    {
+     "p": "a",
+     "i": 5.727,
+     "f": 5.753
+    },
+    {
+     "p": "China",
+     "i": 5.766,
+     "f": 6.144
+    },
+    {
+     "p": "de",
+     "i": 6.157,
+     "f": 6.274
+    },
+    {
+     "p": "oeste",
+     "i": 6.287,
+     "f": 6.73
+    },
+    {
+     "p": "a",
+     "i": 6.743,
+     "f": 6.782
+    },
+    {
+     "p": "leste",
+     "i": 6.795,
+     "f": 7.277
+    },
+    {
+     "p": "Por",
+     "i": 7.622,
+     "f": 7.791
+    },
+    {
+     "p": "séculos",
+     "i": 7.804,
+     "f": 8.364
+    },
+    {
+     "p": "ele",
+     "i": 8.638,
+     "f": 8.794
+    },
+    {
+     "p": "deu",
+     "i": 8.807,
+     "f": 8.989
+    },
+    {
+     "p": "comida",
+     "i": 9.002,
+     "f": 9.393
+    },
+    {
+     "p": "e",
+     "i": 9.406,
+     "f": 9.445
+    },
+    {
+     "p": "transporte",
+     "i": 9.458,
+     "f": 10.109
+    },
+    {
+     "p": "mas",
+     "i": 10.435,
+     "f": 10.63
+    },
+    {
+     "p": "também",
+     "i": 10.643,
+     "f": 11.007
+    },
+    {
+     "p": "desgraça",
+     "i": 11.021,
+     "f": 11.606
+    },
+    {
+     "p": "suas",
+     "i": 11.88,
+     "f": 12.192
+    },
+    {
+     "p": "cheias",
+     "i": 12.205,
+     "f": 12.505
+    },
+    {
+     "p": "estão",
+     "i": 12.518,
+     "f": 12.882
+    },
+    {
+     "p": "entre",
+     "i": 12.896,
+     "f": 13.078
+    },
+    {
+     "p": "as",
+     "i": 13.091,
+     "f": 13.208
+    },
+    {
+     "p": "mais",
+     "i": 13.221,
+     "f": 13.455
+    },
+    {
+     "p": "mortais",
+     "i": 13.468,
+     "f": 13.963
+    },
+    {
+     "p": "da",
+     "i": 13.976,
+     "f": 14.054
+    },
+    {
+     "p": "história",
+     "i": 14.067,
+     "f": 14.536
+    },
+    {
+     "p": "Em",
+     "i": 14.878,
+     "f": 15.047
+    },
+    {
+     "p": "mil",
+     "i": 15.06,
+     "f": 15.204
+    },
+    {
+     "p": "novecentos",
+     "i": 15.217,
+     "f": 15.803
+    },
+    {
+     "p": "e",
+     "i": 15.816,
+     "f": 15.92
+    },
+    {
+     "p": "dezenove",
+     "i": 15.933,
+     "f": 16.532
+    },
+    {
+     "p": "o",
+     "i": 16.818,
+     "f": 16.896
+    },
+    {
+     "p": "líder",
+     "i": 16.909,
+     "f": 17.261
+    },
+    {
+     "p": "republicano",
+     "i": 17.274,
+     "f": 18.055
+    },
+    {
+     "p": "Sun",
+     "i": 18.068,
+     "f": 18.25
+    },
+    {
+     "p": "Yat-sen",
+     "i": 18.263,
+     "f": 18.654
+    },
+    {
+     "p": "já",
+     "i": 18.667,
+     "f": 18.823
+    },
+    {
+     "p": "sugeria",
+     "i": 18.836,
+     "f": 19.318
+    },
+    {
+     "p": "represar",
+     "i": 19.331,
+     "f": 19.852
+    },
+    {
+     "p": "as",
+     "i": 19.865,
+     "f": 20.034
+    },
+    {
+     "p": "Três",
+     "i": 20.047,
+     "f": 20.308
+    },
+    {
+     "p": "Gargantas",
+     "i": 20.321,
+     "f": 20.959
+    },
+    {
+     "p": "para",
+     "i": 20.972,
+     "f": 21.167
+    },
+    {
+     "p": "domar",
+     "i": 21.18,
+     "f": 21.441
+    },
+    {
+     "p": "o",
+     "i": 21.454,
+     "f": 21.519
+    },
+    {
+     "p": "rio",
+     "i": 21.532,
+     "f": 21.805
+    },
+    {
+     "p": "e",
+     "i": 21.818,
+     "f": 21.857
+    },
+    {
+     "p": "gerar",
+     "i": 21.87,
+     "f": 22.209
+    },
+    {
+     "p": "energia",
+     "i": 22.222,
+     "f": 22.834
+    },
+    {
+     "p": "Uma",
+     "i": 23.166,
+     "f": 23.426
+    },
+    {
+     "p": "das",
+     "i": 23.44,
+     "f": 23.622
+    },
+    {
+     "p": "piores",
+     "i": 23.635,
+     "f": 24.012
+    },
+    {
+     "p": "enchentes",
+     "i": 24.025,
+     "f": 24.65
+    },
+    {
+     "p": "registradas",
+     "i": 24.663,
+     "f": 25.471
+    },
+    {
+     "p": "em",
+     "i": 25.692,
+     "f": 25.796
+    },
+    {
+     "p": "mil",
+     "i": 25.809,
+     "f": 25.94
+    },
+    {
+     "p": "novecentos",
+     "i": 25.953,
+     "f": 26.512
+    },
+    {
+     "p": "e",
+     "i": 26.525,
+     "f": 26.656
+    },
+    {
+     "p": "trinta",
+     "i": 26.669,
+     "f": 26.89
+    },
+    {
+     "p": "e",
+     "i": 26.903,
+     "f": 26.942
+    },
+    {
+     "p": "um",
+     "i": 26.955,
+     "f": 27.15
+    },
+    {
+     "p": "matou",
+     "i": 27.489,
+     "f": 27.867
+    },
+    {
+     "p": "centenas",
+     "i": 27.88,
+     "f": 28.479
+    },
+    {
+     "p": "de",
+     "i": 28.492,
+     "f": 28.57
+    },
+    {
+     "p": "milhares",
+     "i": 28.583,
+     "f": 29.025
+    },
+    {
+     "p": "de",
+     "i": 29.038,
+     "f": 29.117
+    },
+    {
+     "p": "pessoas",
+     "i": 29.13,
+     "f": 29.729
+    },
+    {
+     "p": "em",
+     "i": 30.002,
+     "f": 30.067
+    },
+    {
+     "p": "estimativas",
+     "i": 30.08,
+     "f": 30.809
+    },
+    {
+     "p": "que",
+     "i": 30.822,
+     "f": 30.926
+    },
+    {
+     "p": "variam",
+     "i": 30.94,
+     "f": 31.278
+    },
+    {
+     "p": "bastante",
+     "i": 31.291,
+     "f": 31.903
+    },
+    {
+     "p": "Antes",
+     "i": 32.246,
+     "f": 32.637
+    },
+    {
+     "p": "de",
+     "i": 32.65,
+     "f": 32.754
+    },
+    {
+     "p": "tentar",
+     "i": 32.767,
+     "f": 33.131
+    },
+    {
+     "p": "algo",
+     "i": 33.145,
+     "f": 33.34
+    },
+    {
+     "p": "maior",
+     "i": 33.353,
+     "f": 33.717
+    },
+    {
+     "p": "a",
+     "i": 33.978,
+     "f": 34.03
+    },
+    {
+     "p": "China",
+     "i": 34.043,
+     "f": 34.381
+    },
+    {
+     "p": "testou",
+     "i": 34.395,
+     "f": 34.733
+    },
+    {
+     "p": "a",
+     "i": 34.746,
+     "f": 34.811
+    },
+    {
+     "p": "ideia",
+     "i": 34.824,
+     "f": 35.176
+    },
+    {
+     "p": "na",
+     "i": 35.189,
+     "f": 35.28
+    },
+    {
+     "p": "barragem",
+     "i": 35.293,
+     "f": 35.814
+    },
+    {
+     "p": "de",
+     "i": 35.827,
+     "f": 35.918
+    },
+    {
+     "p": "Gezhouba",
+     "i": 35.931,
+     "f": 36.478
+    },
+    {
+     "p": "rio",
+     "i": 36.79,
+     "f": 37.038
+    },
+    {
+     "p": "abaixo",
+     "i": 37.051,
+     "f": 37.585
+    },
+    {
+     "p": "concluída",
+     "i": 37.91,
+     "f": 38.483
+    },
+    {
+     "p": "em",
+     "i": 38.496,
+     "f": 38.561
+    },
+    {
+     "p": "mil",
+     "i": 38.574,
+     "f": 38.73
+    },
+    {
+     "p": "novecentos",
+     "i": 38.743,
+     "f": 39.316
+    },
+    {
+     "p": "e",
+     "i": 39.329,
+     "f": 39.421
+    },
+    {
+     "p": "oitenta",
+     "i": 39.434,
+     "f": 39.785
+    },
+    {
+     "p": "e",
+     "i": 39.798,
+     "f": 39.824
+    },
+    {
+     "p": "oito",
+     "i": 39.837,
+     "f": 40.163
+    }
+   ]
+  },
+  "decisao": {
+   "hash": "572720d8be",
+   "texto": "Em mil novecentos e noventa e dois, o Congresso Nacional do Povo aprovou o projeto, mas com um dado raro: quase um terço dos delegados não votou a favor. Foram mil setecentos e sessenta e sete votos a favor, cento e setenta e sete contra e seiscentas e sessenta e quatro abstenções. Em catorze de dezembro de mil novecentos e noventa e quatro, começaram as obras em Sandouping, no meio das Três Gargantas. Era preciso desviar o rio, escavar rocha e despejar milhões de metros cúbicos de concreto, com o Yangtzé correndo ao lado. Mas antes de encher qualquer reservatório, havia um problema muito maior: o que fazer com quem vivia no vale?",
+   "audio": "audio/decisao-572720d8be.mp3",
+   "duracao": 39.497,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "mil",
+     "i": 0.271,
+     "f": 0.415
+    },
+    {
+     "p": "novecentos",
+     "i": 0.428,
+     "f": 0.988
+    },
+    {
+     "p": "e",
+     "i": 1.001,
+     "f": 1.092
+    },
+    {
+     "p": "noventa",
+     "i": 1.105,
+     "f": 1.43
+    },
+    {
+     "p": "e",
+     "i": 1.443,
+     "f": 1.482
+    },
+    {
+     "p": "dois",
+     "i": 1.495,
+     "f": 1.808
+    },
+    {
+     "p": "o",
+     "i": 2.172,
+     "f": 2.238
+    },
+    {
+     "p": "Congresso",
+     "i": 2.251,
+     "f": 2.784
+    },
+    {
+     "p": "Nacional",
+     "i": 2.797,
+     "f": 3.253
+    },
+    {
+     "p": "do",
+     "i": 3.266,
+     "f": 3.37
+    },
+    {
+     "p": "Povo",
+     "i": 3.383,
+     "f": 3.644
+    },
+    {
+     "p": "aprovou",
+     "i": 3.657,
+     "f": 4.047
+    },
+    {
+     "p": "o",
+     "i": 4.06,
+     "f": 4.112
+    },
+    {
+     "p": "projeto",
+     "i": 4.126,
+     "f": 4.698
+    },
+    {
+     "p": "mas",
+     "i": 5.024,
+     "f": 5.232
+    },
+    {
+     "p": "com",
+     "i": 5.245,
+     "f": 5.441
+    },
+    {
+     "p": "um",
+     "i": 5.454,
+     "f": 5.519
+    },
+    {
+     "p": "dado",
+     "i": 5.532,
+     "f": 5.87
+    },
+    {
+     "p": "raro",
+     "i": 5.883,
+     "f": 6.248
+    },
+    {
+     "p": "quase",
+     "i": 6.521,
+     "f": 6.938
+    },
+    {
+     "p": "um",
+     "i": 6.951,
+     "f": 7.094
+    },
+    {
+     "p": "terço",
+     "i": 7.107,
+     "f": 7.433
+    },
+    {
+     "p": "dos",
+     "i": 7.446,
+     "f": 7.589
+    },
+    {
+     "p": "delegados",
+     "i": 7.602,
+     "f": 8.266
+    },
+    {
+     "p": "não",
+     "i": 8.279,
+     "f": 8.501
+    },
+    {
+     "p": "votou",
+     "i": 8.514,
+     "f": 8.865
+    },
+    {
+     "p": "a",
+     "i": 8.878,
+     "f": 8.943
+    },
+    {
+     "p": "favor",
+     "i": 8.956,
+     "f": 9.36
+    },
+    {
+     "p": "Foram",
+     "i": 9.71,
+     "f": 10.023
+    },
+    {
+     "p": "mil",
+     "i": 10.036,
+     "f": 10.257
+    },
+    {
+     "p": "setecentos",
+     "i": 10.27,
+     "f": 10.921
+    },
+    {
+     "p": "e",
+     "i": 10.934,
+     "f": 11.038
+    },
+    {
+     "p": "sessenta",
+     "i": 11.051,
+     "f": 11.39
+    },
+    {
+     "p": "e",
+     "i": 11.403,
+     "f": 11.429
+    },
+    {
+     "p": "sete",
+     "i": 11.442,
+     "f": 11.728
+    },
+    {
+     "p": "votos",
+     "i": 11.741,
+     "f": 12.093
+    },
+    {
+     "p": "a",
+     "i": 12.106,
+     "f": 12.249
+    },
+    {
+     "p": "favor",
+     "i": 12.262,
+     "f": 12.679
+    },
+    {
+     "p": "cento",
+     "i": 12.965,
+     "f": 13.317
+    },
+    {
+     "p": "e",
+     "i": 13.33,
+     "f": 13.369
+    },
+    {
+     "p": "setenta",
+     "i": 13.382,
+     "f": 13.694
+    },
+    {
+     "p": "e",
+     "i": 13.707,
+     "f": 13.734
+    },
+    {
+     "p": "sete",
+     "i": 13.747,
+     "f": 14.072
+    },
+    {
+     "p": "contra",
+     "i": 14.085,
+     "f": 14.424
+    },
+    {
+     "p": "e",
+     "i": 14.437,
+     "f": 14.463
+    },
+    {
+     "p": "seiscentas",
+     "i": 14.476,
+     "f": 15.023
+    },
+    {
+     "p": "e",
+     "i": 15.036,
+     "f": 15.14
+    },
+    {
+     "p": "sessenta",
+     "i": 15.153,
+     "f": 15.491
+    },
+    {
+     "p": "e",
+     "i": 15.504,
+     "f": 15.543
+    },
+    {
+     "p": "quatro",
+     "i": 15.556,
+     "f": 15.869
+    },
+    {
+     "p": "abstenções",
+     "i": 15.882,
+     "f": 16.767
+    },
+    {
+     "p": "Em",
+     "i": 17.11,
+     "f": 17.24
+    },
+    {
+     "p": "catorze",
+     "i": 17.253,
+     "f": 17.787
+    },
+    {
+     "p": "de",
+     "i": 17.8,
+     "f": 17.891
+    },
+    {
+     "p": "dezembro",
+     "i": 17.904,
+     "f": 18.425
+    },
+    {
+     "p": "de",
+     "i": 18.438,
+     "f": 18.529
+    },
+    {
+     "p": "mil",
+     "i": 18.542,
+     "f": 18.699
+    },
+    {
+     "p": "novecentos",
+     "i": 18.712,
+     "f": 19.285
+    },
+    {
+     "p": "e",
+     "i": 19.298,
+     "f": 19.389
+    },
+    {
+     "p": "noventa",
+     "i": 19.402,
+     "f": 19.74
+    },
+    {
+     "p": "e",
+     "i": 19.753,
+     "f": 19.792
+    },
+    {
+     "p": "quatro",
+     "i": 19.805,
+     "f": 20.235
+    },
+    {
+     "p": "começaram",
+     "i": 20.561,
+     "f": 21.134
+    },
+    {
+     "p": "as",
+     "i": 21.147,
+     "f": 21.212
+    },
+    {
+     "p": "obras",
+     "i": 21.225,
+     "f": 21.602
+    },
+    {
+     "p": "em",
+     "i": 21.615,
+     "f": 21.759
+    },
+    {
+     "p": "Sandouping",
+     "i": 21.772,
+     "f": 22.37
+    },
+    {
+     "p": "no",
+     "i": 22.657,
+     "f": 22.761
+    },
+    {
+     "p": "meio",
+     "i": 22.774,
+     "f": 23.022
+    },
+    {
+     "p": "das",
+     "i": 23.035,
+     "f": 23.23
+    },
+    {
+     "p": "Três",
+     "i": 23.243,
+     "f": 23.503
+    },
+    {
+     "p": "Gargantas",
+     "i": 23.516,
+     "f": 24.285
+    },
+    {
+     "p": "Era",
+     "i": 24.63,
+     "f": 24.877
+    },
+    {
+     "p": "preciso",
+     "i": 24.89,
+     "f": 25.359
+    },
+    {
+     "p": "desviar",
+     "i": 25.372,
+     "f": 25.88
+    },
+    {
+     "p": "o",
+     "i": 25.893,
+     "f": 25.958
+    },
+    {
+     "p": "rio",
+     "i": 25.971,
+     "f": 26.258
+    },
+    {
+     "p": "escavar",
+     "i": 26.544,
+     "f": 27.013
+    },
+    {
+     "p": "rocha",
+     "i": 27.026,
+     "f": 27.443
+    },
+    {
+     "p": "e",
+     "i": 27.456,
+     "f": 27.482
+    },
+    {
+     "p": "despejar",
+     "i": 27.495,
+     "f": 28.015
+    },
+    {
+     "p": "milhões",
+     "i": 28.029,
+     "f": 28.497
+    },
+    {
+     "p": "de",
+     "i": 28.51,
+     "f": 28.588
+    },
+    {
+     "p": "metros",
+     "i": 28.601,
+     "f": 28.992
+    },
+    {
+     "p": "cúbicos",
+     "i": 29.005,
+     "f": 29.461
+    },
+    {
+     "p": "de",
+     "i": 29.474,
+     "f": 29.565
+    },
+    {
+     "p": "concreto",
+     "i": 29.578,
+     "f": 30.164
+    },
+    {
+     "p": "com",
+     "i": 30.463,
+     "f": 30.594
+    },
+    {
+     "p": "o",
+     "i": 30.607,
+     "f": 30.672
+    },
+    {
+     "p": "Yangtzé",
+     "i": 30.685,
+     "f": 31.141
+    },
+    {
+     "p": "correndo",
+     "i": 31.154,
+     "f": 31.583
+    },
+    {
+     "p": "ao",
+     "i": 31.596,
+     "f": 31.7
+    },
+    {
+     "p": "lado",
+     "i": 31.713,
+     "f": 32.091
+    },
+    {
+     "p": "Mas",
+     "i": 32.438,
+     "f": 32.659
+    },
+    {
+     "p": "antes",
+     "i": 32.672,
+     "f": 33.128
+    },
+    {
+     "p": "de",
+     "i": 33.141,
+     "f": 33.219
+    },
+    {
+     "p": "encher",
+     "i": 33.232,
+     "f": 33.558
+    },
+    {
+     "p": "qualquer",
+     "i": 33.571,
+     "f": 33.988
+    },
+    {
+     "p": "reservatório",
+     "i": 34.001,
+     "f": 34.769
+    },
+    {
+     "p": "havia",
+     "i": 35.055,
+     "f": 35.316
+    },
+    {
+     "p": "um",
+     "i": 35.329,
+     "f": 35.394
+    },
+    {
+     "p": "problema",
+     "i": 35.407,
+     "f": 35.863
+    },
+    {
+     "p": "muito",
+     "i": 35.876,
+     "f": 36.279
+    },
+    {
+     "p": "maior",
+     "i": 36.292,
+     "f": 36.67
+    },
+    {
+     "p": "o",
+     "i": 37.1,
+     "f": 37.165
+    },
+    {
+     "p": "que",
+     "i": 37.178,
+     "f": 37.321
+    },
+    {
+     "p": "fazer",
+     "i": 37.334,
+     "f": 37.725
+    },
+    {
+     "p": "com",
+     "i": 37.738,
+     "f": 37.92
+    },
+    {
+     "p": "quem",
+     "i": 37.933,
+     "f": 38.128
+    },
+    {
+     "p": "vivia",
+     "i": 38.141,
+     "f": 38.493
+    },
+    {
+     "p": "no",
+     "i": 38.506,
+     "f": 38.623
+    },
+    {
+     "p": "vale",
+     "i": 38.636,
+     "f": 39.027
+    }
+   ]
+  },
+  "vale": {
+   "hash": "8e5d994e9c",
+   "texto": "A água do reservatório cobriria treze cidades, cento e quarenta vilas e mais de mil povoados. Uma das cidades condenadas era Fengjie, com mais de dois mil anos de história, e ela foi reconstruída em um terreno mais alto. O plano previa remover um milhão e cento e trinta mil pessoas, mas relatos de dois mil e seis já falavam em mais de um milhão e trezentos mil. Boa parte foi para Chongqing e para áreas mais altas. Pesquisadores e jornalistas registraram queixas sobre indenização e perda de terras agrícolas. Também mudaram desfiladeiros e paisagens que poetas chineses cantavam há séculos. E isso era só o começo da conta.",
+   "audio": "audio/vale-8e5d994e9c.mp3",
+   "duracao": 39.053,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "água",
+     "i": 0.271,
+     "f": 0.597
+    },
+    {
+     "p": "do",
+     "i": 0.61,
+     "f": 0.701
+    },
+    {
+     "p": "reservatório",
+     "i": 0.714,
+     "f": 1.508
+    },
+    {
+     "p": "cobriria",
+     "i": 1.521,
+     "f": 1.977
+    },
+    {
+     "p": "treze",
+     "i": 1.99,
+     "f": 2.407
+    },
+    {
+     "p": "cidades",
+     "i": 2.42,
+     "f": 3.11
+    },
+    {
+     "p": "cento",
+     "i": 3.37,
+     "f": 3.722
+    },
+    {
+     "p": "e",
+     "i": 3.735,
+     "f": 3.761
+    },
+    {
+     "p": "quarenta",
+     "i": 3.774,
+     "f": 4.256
+    },
+    {
+     "p": "vilas",
+     "i": 4.269,
+     "f": 4.581
+    },
+    {
+     "p": "e",
+     "i": 4.594,
+     "f": 4.711
+    },
+    {
+     "p": "mais",
+     "i": 4.724,
+     "f": 5.037
+    },
+    {
+     "p": "de",
+     "i": 5.05,
+     "f": 5.154
+    },
+    {
+     "p": "mil",
+     "i": 5.167,
+     "f": 5.376
+    },
+    {
+     "p": "povoados",
+     "i": 5.389,
+     "f": 6.131
+    },
+    {
+     "p": "Uma",
+     "i": 6.47,
+     "f": 6.717
+    },
+    {
+     "p": "das",
+     "i": 6.73,
+     "f": 6.874
+    },
+    {
+     "p": "cidades",
+     "i": 6.887,
+     "f": 7.343
+    },
+    {
+     "p": "condenadas",
+     "i": 7.356,
+     "f": 7.981
+    },
+    {
+     "p": "era",
+     "i": 7.994,
+     "f": 8.267
+    },
+    {
+     "p": "Fengjie",
+     "i": 8.28,
+     "f": 8.749
+    },
+    {
+     "p": "com",
+     "i": 9.035,
+     "f": 9.244
+    },
+    {
+     "p": "mais",
+     "i": 9.257,
+     "f": 9.504
+    },
+    {
+     "p": "de",
+     "i": 9.517,
+     "f": 9.595
+    },
+    {
+     "p": "dois",
+     "i": 9.608,
+     "f": 9.816
+    },
+    {
+     "p": "mil",
+     "i": 9.829,
+     "f": 10.09
+    },
+    {
+     "p": "anos",
+     "i": 10.103,
+     "f": 10.35
+    },
+    {
+     "p": "de",
+     "i": 10.363,
+     "f": 10.441
+    },
+    {
+     "p": "história",
+     "i": 10.454,
+     "f": 10.923
+    },
+    {
+     "p": "e",
+     "i": 11.249,
+     "f": 11.314
+    },
+    {
+     "p": "ela",
+     "i": 11.327,
+     "f": 11.587
+    },
+    {
+     "p": "foi",
+     "i": 11.6,
+     "f": 11.744
+    },
+    {
+     "p": "reconstruída",
+     "i": 11.757,
+     "f": 12.421
+    },
+    {
+     "p": "em",
+     "i": 12.434,
+     "f": 12.499
+    },
+    {
+     "p": "um",
+     "i": 12.512,
+     "f": 12.603
+    },
+    {
+     "p": "terreno",
+     "i": 12.616,
+     "f": 13.007
+    },
+    {
+     "p": "mais",
+     "i": 13.02,
+     "f": 13.241
+    },
+    {
+     "p": "alto",
+     "i": 13.254,
+     "f": 13.671
+    },
+    {
+     "p": "O",
+     "i": 14.014,
+     "f": 14.157
+    },
+    {
+     "p": "plano",
+     "i": 14.17,
+     "f": 14.548
+    },
+    {
+     "p": "previa",
+     "i": 14.561,
+     "f": 14.913
+    },
+    {
+     "p": "remover",
+     "i": 14.926,
+     "f": 15.394
+    },
+    {
+     "p": "um",
+     "i": 15.407,
+     "f": 15.459
+    },
+    {
+     "p": "milhão",
+     "i": 15.472,
+     "f": 15.824
+    },
+    {
+     "p": "e",
+     "i": 15.837,
+     "f": 15.889
+    },
+    {
+     "p": "cento",
+     "i": 15.902,
+     "f": 16.254
+    },
+    {
+     "p": "e",
+     "i": 16.267,
+     "f": 16.319
+    },
+    {
+     "p": "trinta",
+     "i": 16.332,
+     "f": 16.605
+    },
+    {
+     "p": "mil",
+     "i": 16.618,
+     "f": 16.801
+    },
+    {
+     "p": "pessoas",
+     "i": 16.814,
+     "f": 17.478
+    },
+    {
+     "p": "mas",
+     "i": 17.751,
+     "f": 17.946
+    },
+    {
+     "p": "relatos",
+     "i": 17.959,
+     "f": 18.493
+    },
+    {
+     "p": "de",
+     "i": 18.506,
+     "f": 18.584
+    },
+    {
+     "p": "dois",
+     "i": 18.597,
+     "f": 18.78
+    },
+    {
+     "p": "mil",
+     "i": 18.793,
+     "f": 18.91
+    },
+    {
+     "p": "e",
+     "i": 18.923,
+     "f": 18.975
+    },
+    {
+     "p": "seis",
+     "i": 18.988,
+     "f": 19.288
+    },
+    {
+     "p": "já",
+     "i": 19.301,
+     "f": 19.405
+    },
+    {
+     "p": "falavam",
+     "i": 19.418,
+     "f": 19.886
+    },
+    {
+     "p": "em",
+     "i": 19.899,
+     "f": 19.965
+    },
+    {
+     "p": "mais",
+     "i": 19.978,
+     "f": 20.29
+    },
+    {
+     "p": "de",
+     "i": 20.303,
+     "f": 20.407
+    },
+    {
+     "p": "um",
+     "i": 20.42,
+     "f": 20.551
+    },
+    {
+     "p": "milhão",
+     "i": 20.564,
+     "f": 20.954
+    },
+    {
+     "p": "e",
+     "i": 20.967,
+     "f": 21.019
+    },
+    {
+     "p": "trezentos",
+     "i": 21.032,
+     "f": 21.644
+    },
+    {
+     "p": "mil.",
+     "i": 21.657,
+     "f": 21.931
+    },
+    {
+     "p": "Boa",
+     "i": 22.278,
+     "f": 22.617
+    },
+    {
+     "p": "parte",
+     "i": 22.63,
+     "f": 23.046
+    },
+    {
+     "p": "foi",
+     "i": 23.059,
+     "f": 23.216
+    },
+    {
+     "p": "para",
+     "i": 23.229,
+     "f": 23.411
+    },
+    {
+     "p": "Chongqing",
+     "i": 23.424,
+     "f": 23.906
+    },
+    {
+     "p": "e",
+     "i": 23.919,
+     "f": 23.984
+    },
+    {
+     "p": "para",
+     "i": 23.997,
+     "f": 24.205
+    },
+    {
+     "p": "áreas",
+     "i": 24.218,
+     "f": 24.518
+    },
+    {
+     "p": "mais",
+     "i": 24.531,
+     "f": 24.739
+    },
+    {
+     "p": "altas",
+     "i": 24.752,
+     "f": 25.338
+    },
+    {
+     "p": "Pesquisadores",
+     "i": 25.67,
+     "f": 26.49
+    },
+    {
+     "p": "e",
+     "i": 26.503,
+     "f": 26.595
+    },
+    {
+     "p": "jornalistas",
+     "i": 26.608,
+     "f": 27.389
+    },
+    {
+     "p": "registraram",
+     "i": 27.402,
+     "f": 28.001
+    },
+    {
+     "p": "queixas",
+     "i": 28.014,
+     "f": 28.404
+    },
+    {
+     "p": "sobre",
+     "i": 28.417,
+     "f": 28.652
+    },
+    {
+     "p": "indenização",
+     "i": 28.665,
+     "f": 29.407
+    },
+    {
+     "p": "e",
+     "i": 29.42,
+     "f": 29.498
+    },
+    {
+     "p": "perda",
+     "i": 29.511,
+     "f": 29.863
+    },
+    {
+     "p": "de",
+     "i": 29.876,
+     "f": 30.019
+    },
+    {
+     "p": "terras",
+     "i": 30.032,
+     "f": 30.292
+    },
+    {
+     "p": "agrícolas",
+     "i": 30.305,
+     "f": 31.126
+    },
+    {
+     "p": "Também",
+     "i": 31.462,
+     "f": 31.853
+    },
+    {
+     "p": "mudaram",
+     "i": 31.866,
+     "f": 32.282
+    },
+    {
+     "p": "desfiladeiros",
+     "i": 32.295,
+     "f": 32.972
+    },
+    {
+     "p": "e",
+     "i": 32.986,
+     "f": 33.116
+    },
+    {
+     "p": "paisagens",
+     "i": 33.129,
+     "f": 33.806
+    },
+    {
+     "p": "que",
+     "i": 33.819,
+     "f": 33.936
+    },
+    {
+     "p": "poetas",
+     "i": 33.949,
+     "f": 34.392
+    },
+    {
+     "p": "chineses",
+     "i": 34.405,
+     "f": 34.887
+    },
+    {
+     "p": "cantavam",
+     "i": 34.9,
+     "f": 35.486
+    },
+    {
+     "p": "há",
+     "i": 35.499,
+     "f": 35.551
+    },
+    {
+     "p": "séculos",
+     "i": 35.564,
+     "f": 36.241
+    },
+    {
+     "p": "E",
+     "i": 36.582,
+     "f": 36.842
+    },
+    {
+     "p": "isso",
+     "i": 36.856,
+     "f": 37.09
+    },
+    {
+     "p": "era",
+     "i": 37.103,
+     "f": 37.259
+    },
+    {
+     "p": "só",
+     "i": 37.272,
+     "f": 37.481
+    },
+    {
+     "p": "o",
+     "i": 37.494,
+     "f": 37.546
+    },
+    {
+     "p": "começo",
+     "i": 37.559,
+     "f": 38.066
+    },
+    {
+     "p": "da",
+     "i": 38.079,
+     "f": 38.197
+    },
+    {
+     "p": "conta",
+     "i": 38.21,
+     "f": 38.652
+    }
+   ]
+  },
+  "numeros": {
+   "hash": "afddfa6de0",
+   "texto": "A barragem tem dois mil trezentos e trinta e cinco metros de comprimento e cento e oitenta e cinco metros de altura. O reservatório vai por mais de seiscentos quilômetros rio acima, um lago comprido e estreito que segue o antigo leito do rio. Em dois mil e três, a água começou a subir. Em maio de dois mil e seis, o corpo principal da barragem ficou pronto. E em dois mil e doze, a última grande turbina entrou em operação, completando trinta e dois geradores principais. Somados a dois menores, que alimentam a própria usina, são vinte e dois mil e quinhentos megawatts de capacidade instalada.",
+   "audio": "audio/numeros-afddfa6de0.mp3",
+   "duracao": 35.84,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "barragem",
+     "i": 0.219,
+     "f": 0.844
+    },
+    {
+     "p": "tem",
+     "i": 0.857,
+     "f": 0.987
+    },
+    {
+     "p": "dois",
+     "i": 1.001,
+     "f": 1.209
+    },
+    {
+     "p": "mil",
+     "i": 1.222,
+     "f": 1.417
+    },
+    {
+     "p": "trezentos",
+     "i": 1.43,
+     "f": 1.964
+    },
+    {
+     "p": "e",
+     "i": 1.977,
+     "f": 2.107
+    },
+    {
+     "p": "trinta",
+     "i": 2.12,
+     "f": 2.329
+    },
+    {
+     "p": "e",
+     "i": 2.342,
+     "f": 2.368
+    },
+    {
+     "p": "cinco",
+     "i": 2.381,
+     "f": 2.667
+    },
+    {
+     "p": "metros",
+     "i": 2.68,
+     "f": 3.071
+    },
+    {
+     "p": "de",
+     "i": 3.084,
+     "f": 3.175
+    },
+    {
+     "p": "comprimento",
+     "i": 3.188,
+     "f": 3.761
+    },
+    {
+     "p": "e",
+     "i": 3.774,
+     "f": 3.813
+    },
+    {
+     "p": "cento",
+     "i": 3.826,
+     "f": 4.139
+    },
+    {
+     "p": "e",
+     "i": 4.152,
+     "f": 4.178
+    },
+    {
+     "p": "oitenta",
+     "i": 4.191,
+     "f": 4.49
+    },
+    {
+     "p": "e",
+     "i": 4.503,
+     "f": 4.542
+    },
+    {
+     "p": "cinco",
+     "i": 4.555,
+     "f": 4.868
+    },
+    {
+     "p": "metros",
+     "i": 4.881,
+     "f": 5.271
+    },
+    {
+     "p": "de",
+     "i": 5.284,
+     "f": 5.349
+    },
+    {
+     "p": "altura",
+     "i": 5.362,
+     "f": 5.831
+    },
+    {
+     "p": "O",
+     "i": 6.182,
+     "f": 6.286
+    },
+    {
+     "p": "reservatório",
+     "i": 6.299,
+     "f": 7.041
+    },
+    {
+     "p": "vai",
+     "i": 7.055,
+     "f": 7.211
+    },
+    {
+     "p": "por",
+     "i": 7.224,
+     "f": 7.406
+    },
+    {
+     "p": "mais",
+     "i": 7.419,
+     "f": 7.706
+    },
+    {
+     "p": "de",
+     "i": 7.719,
+     "f": 7.823
+    },
+    {
+     "p": "seiscentos",
+     "i": 7.836,
+     "f": 8.448
+    },
+    {
+     "p": "quilômetros",
+     "i": 8.461,
+     "f": 9.034
+    },
+    {
+     "p": "rio",
+     "i": 9.047,
+     "f": 9.268
+    },
+    {
+     "p": "acima",
+     "i": 9.281,
+     "f": 9.737
+    },
+    {
+     "p": "um",
+     "i": 10.036,
+     "f": 10.206
+    },
+    {
+     "p": "lago",
+     "i": 10.219,
+     "f": 10.505
+    },
+    {
+     "p": "comprido",
+     "i": 10.518,
+     "f": 11.013
+    },
+    {
+     "p": "e",
+     "i": 11.026,
+     "f": 11.039
+    },
+    {
+     "p": "estreito",
+     "i": 11.052,
+     "f": 11.547
+    },
+    {
+     "p": "que",
+     "i": 11.56,
+     "f": 11.677
+    },
+    {
+     "p": "segue",
+     "i": 11.69,
+     "f": 12.028
+    },
+    {
+     "p": "o",
+     "i": 12.041,
+     "f": 12.094
+    },
+    {
+     "p": "antigo",
+     "i": 12.107,
+     "f": 12.549
+    },
+    {
+     "p": "leito",
+     "i": 12.562,
+     "f": 12.901
+    },
+    {
+     "p": "do",
+     "i": 12.914,
+     "f": 13.005
+    },
+    {
+     "p": "rio",
+     "i": 13.018,
+     "f": 13.304
+    },
+    {
+     "p": "Em",
+     "i": 13.654,
+     "f": 13.771
+    },
+    {
+     "p": "dois",
+     "i": 13.784,
+     "f": 14.019
+    },
+    {
+     "p": "mil",
+     "i": 14.032,
+     "f": 14.149
+    },
+    {
+     "p": "e",
+     "i": 14.162,
+     "f": 14.227
+    },
+    {
+     "p": "três",
+     "i": 14.24,
+     "f": 14.657
+    },
+    {
+     "p": "a",
+     "i": 14.917,
+     "f": 14.995
+    },
+    {
+     "p": "água",
+     "i": 15.008,
+     "f": 15.334
+    },
+    {
+     "p": "começou",
+     "i": 15.347,
+     "f": 15.855
+    },
+    {
+     "p": "a",
+     "i": 15.868,
+     "f": 15.907
+    },
+    {
+     "p": "subir",
+     "i": 15.92,
+     "f": 16.349
+    },
+    {
+     "p": "Em",
+     "i": 16.686,
+     "f": 16.842
+    },
+    {
+     "p": "maio",
+     "i": 16.855,
+     "f": 17.142
+    },
+    {
+     "p": "de",
+     "i": 17.155,
+     "f": 17.246
+    },
+    {
+     "p": "dois",
+     "i": 17.259,
+     "f": 17.454
+    },
+    {
+     "p": "mil",
+     "i": 17.467,
+     "f": 17.585
+    },
+    {
+     "p": "e",
+     "i": 17.598,
+     "f": 17.663
+    },
+    {
+     "p": "seis",
+     "i": 17.676,
+     "f": 18.066
+    },
+    {
+     "p": "o",
+     "i": 18.379,
+     "f": 18.483
+    },
+    {
+     "p": "corpo",
+     "i": 18.496,
+     "f": 18.9
+    },
+    {
+     "p": "principal",
+     "i": 18.913,
+     "f": 19.525
+    },
+    {
+     "p": "da",
+     "i": 19.538,
+     "f": 19.616
+    },
+    {
+     "p": "barragem",
+     "i": 19.629,
+     "f": 20.15
+    },
+    {
+     "p": "ficou",
+     "i": 20.163,
+     "f": 20.501
+    },
+    {
+     "p": "pronto",
+     "i": 20.514,
+     "f": 20.97
+    },
+    {
+     "p": "E",
+     "i": 21.302,
+     "f": 21.419
+    },
+    {
+     "p": "em",
+     "i": 21.432,
+     "f": 21.536
+    },
+    {
+     "p": "dois",
+     "i": 21.549,
+     "f": 21.797
+    },
+    {
+     "p": "mil",
+     "i": 21.81,
+     "f": 21.914
+    },
+    {
+     "p": "e",
+     "i": 21.927,
+     "f": 21.992
+    },
+    {
+     "p": "doze",
+     "i": 22.005,
+     "f": 22.396
+    },
+    {
+     "p": "a",
+     "i": 22.617,
+     "f": 22.747
+    },
+    {
+     "p": "última",
+     "i": 22.76,
+     "f": 23.177
+    },
+    {
+     "p": "grande",
+     "i": 23.19,
+     "f": 23.555
+    },
+    {
+     "p": "turbina",
+     "i": 23.568,
+     "f": 23.958
+    },
+    {
+     "p": "entrou",
+     "i": 23.971,
+     "f": 24.245
+    },
+    {
+     "p": "em",
+     "i": 24.258,
+     "f": 24.323
+    },
+    {
+     "p": "operação",
+     "i": 24.336,
+     "f": 25
+    },
+    {
+     "p": "completando",
+     "i": 25.286,
+     "f": 25.99
+    },
+    {
+     "p": "trinta",
+     "i": 26.003,
+     "f": 26.263
+    },
+    {
+     "p": "e",
+     "i": 26.276,
+     "f": 26.315
+    },
+    {
+     "p": "dois",
+     "i": 26.328,
+     "f": 26.549
+    },
+    {
+     "p": "geradores",
+     "i": 26.562,
+     "f": 27.122
+    },
+    {
+     "p": "principais",
+     "i": 27.135,
+     "f": 27.956
+    },
+    {
+     "p": "Somados",
+     "i": 28.294,
+     "f": 28.88
+    },
+    {
+     "p": "a",
+     "i": 28.893,
+     "f": 29.036
+    },
+    {
+     "p": "dois",
+     "i": 29.049,
+     "f": 29.297
+    },
+    {
+     "p": "menores",
+     "i": 29.31,
+     "f": 29.857
+    },
+    {
+     "p": "que",
+     "i": 30.052,
+     "f": 30.143
+    },
+    {
+     "p": "alimentam",
+     "i": 30.156,
+     "f": 30.703
+    },
+    {
+     "p": "a",
+     "i": 30.716,
+     "f": 30.768
+    },
+    {
+     "p": "própria",
+     "i": 30.781,
+     "f": 31.185
+    },
+    {
+     "p": "usina",
+     "i": 31.198,
+     "f": 31.588
+    },
+    {
+     "p": "são",
+     "i": 31.849,
+     "f": 32.083
+    },
+    {
+     "p": "vinte",
+     "i": 32.096,
+     "f": 32.357
+    },
+    {
+     "p": "e",
+     "i": 32.37,
+     "f": 32.383
+    },
+    {
+     "p": "dois",
+     "i": 32.396,
+     "f": 32.604
+    },
+    {
+     "p": "mil",
+     "i": 32.617,
+     "f": 32.721
+    },
+    {
+     "p": "e",
+     "i": 32.734,
+     "f": 32.773
+    },
+    {
+     "p": "quinhentos",
+     "i": 32.786,
+     "f": 33.359
+    },
+    {
+     "p": "megawatts",
+     "i": 33.372,
+     "f": 33.971
+    },
+    {
+     "p": "de",
+     "i": 33.984,
+     "f": 34.075
+    },
+    {
+     "p": "capacidade",
+     "i": 34.088,
+     "f": 34.779
+    },
+    {
+     "p": "instalada",
+     "i": 34.791,
+     "f": 35.404
+    }
+   ]
+  },
+  "energia": {
+   "hash": "a427b921ad",
+   "texto": "Isso faz da Três Gargantas a maior usina hidrelétrica do mundo em capacidade instalada, à frente de Itaipu, no Brasil. Mas capacidade é uma coisa; geração é outra. Em dois mil e dezesseis, Itaipu produziu cerca de cento e três terawatts-hora, recorde mundial na época. Em dois mil e vinte, com chuvas fortes, a Três Gargantas gerou perto de cento e doze terawatts-hora, segundo dados da operadora. É energia para dezenas de milhões de casas, sem queimar carvão. Segundo reportagens, o investimento foi recuperado em dois mil e treze. Só que existe um número que os críticos sempre citam: o custo da obra, e quanto a conta cresceu depois.",
+   "audio": "audio/energia-a427b921ad.mp3",
+   "duracao": 42.397,
+   "palavras": [
+    {
+     "p": "Isso",
+     "i": 0.102,
+     "f": 0.467
+    },
+    {
+     "p": "faz",
+     "i": 0.48,
+     "f": 0.74
+    },
+    {
+     "p": "da",
+     "i": 0.753,
+     "f": 0.896
+    },
+    {
+     "p": "Três",
+     "i": 0.909,
+     "f": 1.222
+    },
+    {
+     "p": "Gargantas",
+     "i": 1.235,
+     "f": 1.821
+    },
+    {
+     "p": "a",
+     "i": 1.834,
+     "f": 1.938
+    },
+    {
+     "p": "maior",
+     "i": 1.951,
+     "f": 2.264
+    },
+    {
+     "p": "usina",
+     "i": 2.277,
+     "f": 2.589
+    },
+    {
+     "p": "hidrelétrica",
+     "i": 2.602,
+     "f": 3.292
+    },
+    {
+     "p": "do",
+     "i": 3.305,
+     "f": 3.396
+    },
+    {
+     "p": "mundo",
+     "i": 3.409,
+     "f": 3.761
+    },
+    {
+     "p": "em",
+     "i": 3.774,
+     "f": 3.826
+    },
+    {
+     "p": "capacidade",
+     "i": 3.839,
+     "f": 4.516
+    },
+    {
+     "p": "instalada",
+     "i": 4.529,
+     "f": 5.115
+    },
+    {
+     "p": "à",
+     "i": 5.402,
+     "f": 5.48
+    },
+    {
+     "p": "frente",
+     "i": 5.493,
+     "f": 5.922
+    },
+    {
+     "p": "de",
+     "i": 5.935,
+     "f": 6.014
+    },
+    {
+     "p": "Itaipu",
+     "i": 6.027,
+     "f": 6.573
+    },
+    {
+     "p": "no",
+     "i": 6.834,
+     "f": 6.938
+    },
+    {
+     "p": "Brasil",
+     "i": 6.951,
+     "f": 7.433
+    },
+    {
+     "p": "Mas",
+     "i": 7.766,
+     "f": 8.053
+    },
+    {
+     "p": "capacidade",
+     "i": 8.066,
+     "f": 8.808
+    },
+    {
+     "p": "é",
+     "i": 8.821,
+     "f": 8.847
+    },
+    {
+     "p": "uma",
+     "i": 8.86,
+     "f": 9.016
+    },
+    {
+     "p": "coisa",
+     "i": 9.029,
+     "f": 9.42
+    },
+    {
+     "p": "geração",
+     "i": 9.654,
+     "f": 10.253
+    },
+    {
+     "p": "é",
+     "i": 10.266,
+     "f": 10.383
+    },
+    {
+     "p": "outra",
+     "i": 10.396,
+     "f": 10.8
+    },
+    {
+     "p": "Em",
+     "i": 11.134,
+     "f": 11.264
+    },
+    {
+     "p": "dois",
+     "i": 11.277,
+     "f": 11.525
+    },
+    {
+     "p": "mil",
+     "i": 11.538,
+     "f": 11.655
+    },
+    {
+     "p": "e",
+     "i": 11.668,
+     "f": 11.707
+    },
+    {
+     "p": "dezesseis",
+     "i": 11.72,
+     "f": 12.345
+    },
+    {
+     "p": "Itaipu",
+     "i": 12.631,
+     "f": 13.113
+    },
+    {
+     "p": "produziu",
+     "i": 13.126,
+     "f": 13.595
+    },
+    {
+     "p": "cerca",
+     "i": 13.608,
+     "f": 13.999
+    },
+    {
+     "p": "de",
+     "i": 14.012,
+     "f": 14.129
+    },
+    {
+     "p": "cento",
+     "i": 14.142,
+     "f": 14.48
+    },
+    {
+     "p": "e",
+     "i": 14.493,
+     "f": 14.546
+    },
+    {
+     "p": "três",
+     "i": 14.559,
+     "f": 14.793
+    },
+    {
+     "p": "terawatts-hora",
+     "i": 14.806,
+     "f": 15.665
+    },
+    {
+     "p": "recorde",
+     "i": 15.952,
+     "f": 16.499
+    },
+    {
+     "p": "mundial",
+     "i": 16.512,
+     "f": 17.033
+    },
+    {
+     "p": "na",
+     "i": 17.046,
+     "f": 17.189
+    },
+    {
+     "p": "época",
+     "i": 17.202,
+     "f": 17.631
+    },
+    {
+     "p": "Em",
+     "i": 17.982,
+     "f": 18.099
+    },
+    {
+     "p": "dois",
+     "i": 18.112,
+     "f": 18.347
+    },
+    {
+     "p": "mil",
+     "i": 18.36,
+     "f": 18.477
+    },
+    {
+     "p": "e",
+     "i": 18.49,
+     "f": 18.555
+    },
+    {
+     "p": "vinte",
+     "i": 18.568,
+     "f": 18.985
+    },
+    {
+     "p": "com",
+     "i": 19.193,
+     "f": 19.401
+    },
+    {
+     "p": "chuvas",
+     "i": 19.414,
+     "f": 19.831
+    },
+    {
+     "p": "fortes",
+     "i": 19.844,
+     "f": 20.391
+    },
+    {
+     "p": "a",
+     "i": 20.651,
+     "f": 20.756
+    },
+    {
+     "p": "Três",
+     "i": 20.769,
+     "f": 21.107
+    },
+    {
+     "p": "Gargantas",
+     "i": 21.12,
+     "f": 21.732
+    },
+    {
+     "p": "gerou",
+     "i": 21.745,
+     "f": 21.993
+    },
+    {
+     "p": "perto",
+     "i": 22.006,
+     "f": 22.396
+    },
+    {
+     "p": "de",
+     "i": 22.409,
+     "f": 22.526
+    },
+    {
+     "p": "cento",
+     "i": 22.539,
+     "f": 22.891
+    },
+    {
+     "p": "e",
+     "i": 22.904,
+     "f": 22.943
+    },
+    {
+     "p": "doze",
+     "i": 22.956,
+     "f": 23.295
+    },
+    {
+     "p": "terawatts-hora",
+     "i": 23.308,
+     "f": 24.167
+    },
+    {
+     "p": "segundo",
+     "i": 24.479,
+     "f": 24.935
+    },
+    {
+     "p": "dados",
+     "i": 24.948,
+     "f": 25.313
+    },
+    {
+     "p": "da",
+     "i": 25.326,
+     "f": 25.456
+    },
+    {
+     "p": "operadora",
+     "i": 25.469,
+     "f": 26.094
+    },
+    {
+     "p": "É",
+     "i": 26.438,
+     "f": 26.568
+    },
+    {
+     "p": "energia",
+     "i": 26.581,
+     "f": 27.206
+    },
+    {
+     "p": "para",
+     "i": 27.219,
+     "f": 27.415
+    },
+    {
+     "p": "dezenas",
+     "i": 27.428,
+     "f": 27.935
+    },
+    {
+     "p": "de",
+     "i": 27.949,
+     "f": 28.04
+    },
+    {
+     "p": "milhões",
+     "i": 28.053,
+     "f": 28.469
+    },
+    {
+     "p": "de",
+     "i": 28.482,
+     "f": 28.574
+    },
+    {
+     "p": "casas",
+     "i": 28.587,
+     "f": 29.159
+    },
+    {
+     "p": "sem",
+     "i": 29.394,
+     "f": 29.602
+    },
+    {
+     "p": "queimar",
+     "i": 29.615,
+     "f": 30.032
+    },
+    {
+     "p": "carvão",
+     "i": 30.045,
+     "f": 30.566
+    },
+    {
+     "p": "Segundo",
+     "i": 30.91,
+     "f": 31.496
+    },
+    {
+     "p": "reportagens",
+     "i": 31.509,
+     "f": 32.368
+    },
+    {
+     "p": "o",
+     "i": 32.629,
+     "f": 32.681
+    },
+    {
+     "p": "investimento",
+     "i": 32.694,
+     "f": 33.475
+    },
+    {
+     "p": "foi",
+     "i": 33.488,
+     "f": 33.618
+    },
+    {
+     "p": "recuperado",
+     "i": 33.631,
+     "f": 34.256
+    },
+    {
+     "p": "em",
+     "i": 34.269,
+     "f": 34.322
+    },
+    {
+     "p": "dois",
+     "i": 34.335,
+     "f": 34.582
+    },
+    {
+     "p": "mil",
+     "i": 34.595,
+     "f": 34.751
+    },
+    {
+     "p": "e",
+     "i": 34.764,
+     "f": 34.842
+    },
+    {
+     "p": "treze",
+     "i": 34.855,
+     "f": 35.246
+    },
+    {
+     "p": "Só",
+     "i": 35.598,
+     "f": 35.898
+    },
+    {
+     "p": "que",
+     "i": 35.911,
+     "f": 36.028
+    },
+    {
+     "p": "existe",
+     "i": 36.041,
+     "f": 36.457
+    },
+    {
+     "p": "um",
+     "i": 36.471,
+     "f": 36.536
+    },
+    {
+     "p": "número",
+     "i": 36.549,
+     "f": 36.861
+    },
+    {
+     "p": "que",
+     "i": 36.874,
+     "f": 36.939
+    },
+    {
+     "p": "os",
+     "i": 36.952,
+     "f": 37.043
+    },
+    {
+     "p": "críticos",
+     "i": 37.056,
+     "f": 37.538
+    },
+    {
+     "p": "sempre",
+     "i": 37.551,
+     "f": 37.942
+    },
+    {
+     "p": "citam",
+     "i": 37.955,
+     "f": 38.398
+    },
+    {
+     "p": "o",
+     "i": 38.749,
+     "f": 38.827
+    },
+    {
+     "p": "custo",
+     "i": 38.84,
+     "f": 39.231
+    },
+    {
+     "p": "da",
+     "i": 39.244,
+     "f": 39.374
+    },
+    {
+     "p": "obra",
+     "i": 39.387,
+     "f": 39.752
+    },
+    {
+     "p": "e",
+     "i": 40.142,
+     "f": 40.26
+    },
+    {
+     "p": "quanto",
+     "i": 40.273,
+     "f": 40.559
+    },
+    {
+     "p": "a",
+     "i": 40.572,
+     "f": 40.624
+    },
+    {
+     "p": "conta",
+     "i": 40.637,
+     "f": 41.015
+    },
+    {
+     "p": "cresceu",
+     "i": 41.028,
+     "f": 41.431
+    },
+    {
+     "p": "depois",
+     "i": 41.444,
+     "f": 42.03
+    }
+   ]
+  },
+  "custo": {
+   "hash": "96d0e9a707",
+   "texto": "A estimativa oficial gira em torno de duzentos e três bilhões de iuanes, algo como trinta bilhões de dólares, dependendo da fonte e da época. Algumas publicações falam em valores bem maiores, quando somam reassentamento, manutenção e proteção das margens. Os defensores dizem que a energia paga a conta. Os críticos respondem que custos ambientais e sociais ficam fora do balanço. Mas existe uma pergunta anterior: a barragem protege mesmo contra as cheias que a justificaram?",
+   "audio": "audio/custo-96d0e9a707.mp3",
+   "duracao": 30.589,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "estimativa",
+     "i": 0.232,
+     "f": 0.857
+    },
+    {
+     "p": "oficial",
+     "i": 0.87,
+     "f": 1.378
+    },
+    {
+     "p": "gira",
+     "i": 1.391,
+     "f": 1.586
+    },
+    {
+     "p": "em",
+     "i": 1.599,
+     "f": 1.691
+    },
+    {
+     "p": "torno",
+     "i": 1.704,
+     "f": 2.042
+    },
+    {
+     "p": "de",
+     "i": 2.055,
+     "f": 2.146
+    },
+    {
+     "p": "duzentos",
+     "i": 2.159,
+     "f": 2.589
+    },
+    {
+     "p": "e",
+     "i": 2.602,
+     "f": 2.758
+    },
+    {
+     "p": "três",
+     "i": 2.771,
+     "f": 3.045
+    },
+    {
+     "p": "bilhões",
+     "i": 3.058,
+     "f": 3.592
+    },
+    {
+     "p": "de",
+     "i": 3.605,
+     "f": 3.67
+    },
+    {
+     "p": "iuanes",
+     "i": 3.683,
+     "f": 4.178
+    },
+    {
+     "p": "algo",
+     "i": 4.451,
+     "f": 4.685
+    },
+    {
+     "p": "como",
+     "i": 4.698,
+     "f": 4.972
+    },
+    {
+     "p": "trinta",
+     "i": 4.985,
+     "f": 5.297
+    },
+    {
+     "p": "bilhões",
+     "i": 5.31,
+     "f": 5.766
+    },
+    {
+     "p": "de",
+     "i": 5.779,
+     "f": 5.87
+    },
+    {
+     "p": "dólares",
+     "i": 5.883,
+     "f": 6.339
+    },
+    {
+     "p": "dependendo",
+     "i": 6.573,
+     "f": 7.159
+    },
+    {
+     "p": "da",
+     "i": 7.172,
+     "f": 7.29
+    },
+    {
+     "p": "fonte",
+     "i": 7.303,
+     "f": 7.667
+    },
+    {
+     "p": "e",
+     "i": 7.68,
+     "f": 7.706
+    },
+    {
+     "p": "da",
+     "i": 7.719,
+     "f": 7.849
+    },
+    {
+     "p": "época",
+     "i": 7.862,
+     "f": 8.292
+    },
+    {
+     "p": "Algumas",
+     "i": 8.63,
+     "f": 9.112
+    },
+    {
+     "p": "publicações",
+     "i": 9.125,
+     "f": 9.893
+    },
+    {
+     "p": "falam",
+     "i": 9.906,
+     "f": 10.193
+    },
+    {
+     "p": "em",
+     "i": 10.206,
+     "f": 10.258
+    },
+    {
+     "p": "valores",
+     "i": 10.271,
+     "f": 10.765
+    },
+    {
+     "p": "bem",
+     "i": 10.779,
+     "f": 11
+    },
+    {
+     "p": "maiores",
+     "i": 11.013,
+     "f": 11.586
+    },
+    {
+     "p": "quando",
+     "i": 11.807,
+     "f": 12.068
+    },
+    {
+     "p": "somam",
+     "i": 12.081,
+     "f": 12.419
+    },
+    {
+     "p": "reassentamento",
+     "i": 12.432,
+     "f": 13.318
+    },
+    {
+     "p": "manutenção",
+     "i": 13.604,
+     "f": 14.476
+    },
+    {
+     "p": "e",
+     "i": 14.489,
+     "f": 14.555
+    },
+    {
+     "p": "proteção",
+     "i": 14.568,
+     "f": 15.114
+    },
+    {
+     "p": "das",
+     "i": 15.127,
+     "f": 15.349
+    },
+    {
+     "p": "margens",
+     "i": 15.362,
+     "f": 16.013
+    },
+    {
+     "p": "Os",
+     "i": 16.366,
+     "f": 16.535
+    },
+    {
+     "p": "defensores",
+     "i": 16.548,
+     "f": 17.33
+    },
+    {
+     "p": "dizem",
+     "i": 17.343,
+     "f": 17.707
+    },
+    {
+     "p": "que",
+     "i": 17.72,
+     "f": 17.798
+    },
+    {
+     "p": "a",
+     "i": 17.811,
+     "f": 17.85
+    },
+    {
+     "p": "energia",
+     "i": 17.863,
+     "f": 18.423
+    },
+    {
+     "p": "paga",
+     "i": 18.436,
+     "f": 18.684
+    },
+    {
+     "p": "a",
+     "i": 18.697,
+     "f": 18.736
+    },
+    {
+     "p": "conta",
+     "i": 18.749,
+     "f": 19.192
+    },
+    {
+     "p": "Os",
+     "i": 19.542,
+     "f": 19.75
+    },
+    {
+     "p": "críticos",
+     "i": 19.763,
+     "f": 20.271
+    },
+    {
+     "p": "respondem",
+     "i": 20.284,
+     "f": 20.831
+    },
+    {
+     "p": "que",
+     "i": 20.844,
+     "f": 21
+    },
+    {
+     "p": "custos",
+     "i": 21.013,
+     "f": 21.404
+    },
+    {
+     "p": "ambientais",
+     "i": 21.417,
+     "f": 22.094
+    },
+    {
+     "p": "e",
+     "i": 22.107,
+     "f": 22.211
+    },
+    {
+     "p": "sociais",
+     "i": 22.224,
+     "f": 22.784
+    },
+    {
+     "p": "ficam",
+     "i": 22.797,
+     "f": 23.11
+    },
+    {
+     "p": "fora",
+     "i": 23.123,
+     "f": 23.461
+    },
+    {
+     "p": "do",
+     "i": 23.474,
+     "f": 23.552
+    },
+    {
+     "p": "balanço",
+     "i": 23.566,
+     "f": 24.164
+    },
+    {
+     "p": "Mas",
+     "i": 24.494,
+     "f": 24.689
+    },
+    {
+     "p": "existe",
+     "i": 24.702,
+     "f": 25.184
+    },
+    {
+     "p": "uma",
+     "i": 25.197,
+     "f": 25.34
+    },
+    {
+     "p": "pergunta",
+     "i": 25.353,
+     "f": 25.822
+    },
+    {
+     "p": "anterior",
+     "i": 25.835,
+     "f": 26.356
+    },
+    {
+     "p": "a",
+     "i": 26.721,
+     "f": 26.773
+    },
+    {
+     "p": "barragem",
+     "i": 26.786,
+     "f": 27.346
+    },
+    {
+     "p": "protege",
+     "i": 27.359,
+     "f": 27.827
+    },
+    {
+     "p": "mesmo",
+     "i": 27.84,
+     "f": 28.218
+    },
+    {
+     "p": "contra",
+     "i": 28.231,
+     "f": 28.544
+    },
+    {
+     "p": "as",
+     "i": 28.557,
+     "f": 28.661
+    },
+    {
+     "p": "cheias",
+     "i": 28.674,
+     "f": 29.012
+    },
+    {
+     "p": "que",
+     "i": 29.025,
+     "f": 29.143
+    },
+    {
+     "p": "a",
+     "i": 29.156,
+     "f": 29.234
+    },
+    {
+     "p": "justificaram",
+     "i": 29.247,
+     "f": 30.08
+    }
+   ]
+  },
+  "cheias": {
+   "hash": "2d3381319f",
+   "texto": "Em mil novecentos e cinquenta e quatro, uma grande enchente deixou Wuhan alagada por meses. Em mil novecentos e noventa e oito, outra afetou milhões de pessoas. A Três Gargantas foi desenhada para deixar espaço vazio no fim da estação seca e absorver a água das chuvas de verão. Em julho de dois mil e vinte, segundo a operadora, a barragem reteve cerca de quarenta e cinco por cento de uma onda de sessenta e um mil metros cúbicos por segundo. Em agosto, veio o maior pico desde o enchimento: setenta e cinco mil entrando e perto de quarenta e nove mil saindo. Esses números vêm em grande parte da própria operadora e da imprensa estatal. Cientistas independentes concordam que ajuda, mas discutem o quanto.",
+   "audio": "audio/cheias-2d3381319f.mp3",
+   "duracao": 42.893,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "mil",
+     "i": 0.297,
+     "f": 0.428
+    },
+    {
+     "p": "novecentos",
+     "i": 0.441,
+     "f": 1.053
+    },
+    {
+     "p": "e",
+     "i": 1.066,
+     "f": 1.157
+    },
+    {
+     "p": "cinquenta",
+     "i": 1.17,
+     "f": 1.547
+    },
+    {
+     "p": "e",
+     "i": 1.56,
+     "f": 1.599
+    },
+    {
+     "p": "quatro",
+     "i": 1.613,
+     "f": 2.055
+    },
+    {
+     "p": "uma",
+     "i": 2.381,
+     "f": 2.615
+    },
+    {
+     "p": "grande",
+     "i": 2.628,
+     "f": 3.006
+    },
+    {
+     "p": "enchente",
+     "i": 3.019,
+     "f": 3.474
+    },
+    {
+     "p": "deixou",
+     "i": 3.487,
+     "f": 3.878
+    },
+    {
+     "p": "Wuhan",
+     "i": 3.891,
+     "f": 4.204
+    },
+    {
+     "p": "alagada",
+     "i": 4.217,
+     "f": 4.751
+    },
+    {
+     "p": "por",
+     "i": 4.764,
+     "f": 4.933
+    },
+    {
+     "p": "meses",
+     "i": 4.946,
+     "f": 5.467
+    },
+    {
+     "p": "Em",
+     "i": 5.798,
+     "f": 5.967
+    },
+    {
+     "p": "mil",
+     "i": 5.98,
+     "f": 6.111
+    },
+    {
+     "p": "novecentos",
+     "i": 6.124,
+     "f": 6.723
+    },
+    {
+     "p": "e",
+     "i": 6.736,
+     "f": 6.827
+    },
+    {
+     "p": "noventa",
+     "i": 6.84,
+     "f": 7.165
+    },
+    {
+     "p": "e",
+     "i": 7.178,
+     "f": 7.204
+    },
+    {
+     "p": "oito",
+     "i": 7.217,
+     "f": 7.543
+    },
+    {
+     "p": "outra",
+     "i": 7.79,
+     "f": 8.064
+    },
+    {
+     "p": "afetou",
+     "i": 8.077,
+     "f": 8.467
+    },
+    {
+     "p": "milhões",
+     "i": 8.48,
+     "f": 8.962
+    },
+    {
+     "p": "de",
+     "i": 8.975,
+     "f": 9.066
+    },
+    {
+     "p": "pessoas",
+     "i": 9.079,
+     "f": 9.756
+    },
+    {
+     "p": "A",
+     "i": 10.102,
+     "f": 10.245
+    },
+    {
+     "p": "Três",
+     "i": 10.258,
+     "f": 10.571
+    },
+    {
+     "p": "Gargantas",
+     "i": 10.584,
+     "f": 11.222
+    },
+    {
+     "p": "foi",
+     "i": 11.235,
+     "f": 11.365
+    },
+    {
+     "p": "desenhada",
+     "i": 11.378,
+     "f": 11.964
+    },
+    {
+     "p": "para",
+     "i": 11.977,
+     "f": 12.133
+    },
+    {
+     "p": "deixar",
+     "i": 12.146,
+     "f": 12.446
+    },
+    {
+     "p": "espaço",
+     "i": 12.459,
+     "f": 12.915
+    },
+    {
+     "p": "vazio",
+     "i": 12.928,
+     "f": 13.344
+    },
+    {
+     "p": "no",
+     "i": 13.357,
+     "f": 13.474
+    },
+    {
+     "p": "fim",
+     "i": 13.487,
+     "f": 13.696
+    },
+    {
+     "p": "da",
+     "i": 13.709,
+     "f": 13.8
+    },
+    {
+     "p": "estação",
+     "i": 13.813,
+     "f": 14.269
+    },
+    {
+     "p": "seca",
+     "i": 14.282,
+     "f": 14.685
+    },
+    {
+     "p": "e",
+     "i": 14.698,
+     "f": 14.751
+    },
+    {
+     "p": "absorver",
+     "i": 14.764,
+     "f": 15.362
+    },
+    {
+     "p": "a",
+     "i": 15.376,
+     "f": 15.454
+    },
+    {
+     "p": "água",
+     "i": 15.467,
+     "f": 15.753
+    },
+    {
+     "p": "das",
+     "i": 15.766,
+     "f": 15.948
+    },
+    {
+     "p": "chuvas",
+     "i": 15.961,
+     "f": 16.339
+    },
+    {
+     "p": "de",
+     "i": 16.352,
+     "f": 16.443
+    },
+    {
+     "p": "verão",
+     "i": 16.456,
+     "f": 16.808
+    },
+    {
+     "p": "Em",
+     "i": 17.142,
+     "f": 17.324
+    },
+    {
+     "p": "julho",
+     "i": 17.337,
+     "f": 17.702
+    },
+    {
+     "p": "de",
+     "i": 17.715,
+     "f": 17.806
+    },
+    {
+     "p": "dois",
+     "i": 17.819,
+     "f": 18.027
+    },
+    {
+     "p": "mil",
+     "i": 18.041,
+     "f": 18.171
+    },
+    {
+     "p": "e",
+     "i": 18.184,
+     "f": 18.249
+    },
+    {
+     "p": "vinte",
+     "i": 18.262,
+     "f": 18.639
+    },
+    {
+     "p": "segundo",
+     "i": 18.991,
+     "f": 19.369
+    },
+    {
+     "p": "a",
+     "i": 19.382,
+     "f": 19.408
+    },
+    {
+     "p": "operadora",
+     "i": 19.421,
+     "f": 20.007
+    },
+    {
+     "p": "a",
+     "i": 20.28,
+     "f": 20.345
+    },
+    {
+     "p": "barragem",
+     "i": 20.358,
+     "f": 20.918
+    },
+    {
+     "p": "reteve",
+     "i": 20.931,
+     "f": 21.322
+    },
+    {
+     "p": "cerca",
+     "i": 21.335,
+     "f": 21.686
+    },
+    {
+     "p": "de",
+     "i": 21.699,
+     "f": 21.791
+    },
+    {
+     "p": "quarenta",
+     "i": 21.804,
+     "f": 22.168
+    },
+    {
+     "p": "e",
+     "i": 22.181,
+     "f": 22.207
+    },
+    {
+     "p": "cinco",
+     "i": 22.22,
+     "f": 22.494
+    },
+    {
+     "p": "por",
+     "i": 22.507,
+     "f": 22.663
+    },
+    {
+     "p": "cento",
+     "i": 22.676,
+     "f": 23.028
+    },
+    {
+     "p": "de",
+     "i": 23.041,
+     "f": 23.119
+    },
+    {
+     "p": "uma",
+     "i": 23.132,
+     "f": 23.288
+    },
+    {
+     "p": "onda",
+     "i": 23.301,
+     "f": 23.639
+    },
+    {
+     "p": "de",
+     "i": 23.652,
+     "f": 23.77
+    },
+    {
+     "p": "sessenta",
+     "i": 23.783,
+     "f": 24.251
+    },
+    {
+     "p": "e",
+     "i": 24.264,
+     "f": 24.291
+    },
+    {
+     "p": "um",
+     "i": 24.304,
+     "f": 24.447
+    },
+    {
+     "p": "mil",
+     "i": 24.46,
+     "f": 24.668
+    },
+    {
+     "p": "metros",
+     "i": 24.681,
+     "f": 25.085
+    },
+    {
+     "p": "cúbicos",
+     "i": 25.098,
+     "f": 25.567
+    },
+    {
+     "p": "por",
+     "i": 25.58,
+     "f": 25.736
+    },
+    {
+     "p": "segundo",
+     "i": 25.749,
+     "f": 26.257
+    },
+    {
+     "p": "Em",
+     "i": 26.606,
+     "f": 26.775
+    },
+    {
+     "p": "agosto",
+     "i": 26.788,
+     "f": 27.335
+    },
+    {
+     "p": "veio",
+     "i": 27.635,
+     "f": 27.856
+    },
+    {
+     "p": "o",
+     "i": 27.869,
+     "f": 27.895
+    },
+    {
+     "p": "maior",
+     "i": 27.908,
+     "f": 28.208
+    },
+    {
+     "p": "pico",
+     "i": 28.221,
+     "f": 28.533
+    },
+    {
+     "p": "desde",
+     "i": 28.546,
+     "f": 28.872
+    },
+    {
+     "p": "o",
+     "i": 28.885,
+     "f": 28.898
+    },
+    {
+     "p": "enchimento",
+     "i": 28.911,
+     "f": 29.484
+    },
+    {
+     "p": "setenta",
+     "i": 29.848,
+     "f": 30.291
+    },
+    {
+     "p": "e",
+     "i": 30.304,
+     "f": 30.33
+    },
+    {
+     "p": "cinco",
+     "i": 30.343,
+     "f": 30.656
+    },
+    {
+     "p": "mil",
+     "i": 30.669,
+     "f": 30.786
+    },
+    {
+     "p": "entrando",
+     "i": 30.799,
+     "f": 31.255
+    },
+    {
+     "p": "e",
+     "i": 31.268,
+     "f": 31.294
+    },
+    {
+     "p": "perto",
+     "i": 31.307,
+     "f": 31.658
+    },
+    {
+     "p": "de",
+     "i": 31.671,
+     "f": 31.762
+    },
+    {
+     "p": "quarenta",
+     "i": 31.775,
+     "f": 32.14
+    },
+    {
+     "p": "e",
+     "i": 32.153,
+     "f": 32.179
+    },
+    {
+     "p": "nove",
+     "i": 32.192,
+     "f": 32.426
+    },
+    {
+     "p": "mil",
+     "i": 32.439,
+     "f": 32.674
+    },
+    {
+     "p": "saindo",
+     "i": 32.687,
+     "f": 33.221
+    },
+    {
+     "p": "Esses",
+     "i": 33.574,
+     "f": 33.965
+    },
+    {
+     "p": "números",
+     "i": 33.978,
+     "f": 34.447
+    },
+    {
+     "p": "vêm",
+     "i": 34.46,
+     "f": 34.642
+    },
+    {
+     "p": "em",
+     "i": 34.655,
+     "f": 34.733
+    },
+    {
+     "p": "grande",
+     "i": 34.746,
+     "f": 35.111
+    },
+    {
+     "p": "parte",
+     "i": 35.124,
+     "f": 35.488
+    },
+    {
+     "p": "da",
+     "i": 35.501,
+     "f": 35.618
+    },
+    {
+     "p": "própria",
+     "i": 35.631,
+     "f": 36.009
+    },
+    {
+     "p": "operadora",
+     "i": 36.022,
+     "f": 36.582
+    },
+    {
+     "p": "e",
+     "i": 36.595,
+     "f": 36.634
+    },
+    {
+     "p": "da",
+     "i": 36.647,
+     "f": 36.751
+    },
+    {
+     "p": "imprensa",
+     "i": 36.764,
+     "f": 37.259
+    },
+    {
+     "p": "estatal",
+     "i": 37.272,
+     "f": 37.806
+    },
+    {
+     "p": "Cientistas",
+     "i": 38.142,
+     "f": 38.884
+    },
+    {
+     "p": "independentes",
+     "i": 38.897,
+     "f": 39.757
+    },
+    {
+     "p": "concordam",
+     "i": 39.77,
+     "f": 40.33
+    },
+    {
+     "p": "que",
+     "i": 40.343,
+     "f": 40.447
+    },
+    {
+     "p": "ajuda",
+     "i": 40.46,
+     "f": 40.942
+    },
+    {
+     "p": "mas",
+     "i": 41.228,
+     "f": 41.397
+    },
+    {
+     "p": "discutem",
+     "i": 41.41,
+     "f": 41.983
+    },
+    {
+     "p": "o",
+     "i": 41.996,
+     "f": 42.061
+    },
+    {
+     "p": "quanto",
+     "i": 42.074,
+     "f": 42.517
+    }
+   ]
+  },
+  "virada": {
+   "hash": "3d1f0da9b5",
+   "texto": "Aqui está a virada. Em dois mil e sete, autoridades chinesas fizeram um alerta raro: a obra poderia virar uma catástrofe ambiental se os problemas não fossem enfrentados. A mesma imprensa estatal relatou que as margens do reservatório haviam desabado em noventa e um pontos, somando trinta e seis quilômetros. O nível da água sobe e desce dezenas de metros a cada ano, e isso enfraquece encostas inteiras. Outro problema é o sedimento. O rio carregava lodo e areia que alimentavam margens e planícies, e agora boa parte fica retida atrás da barragem. Água sem sedimento corre mais agressiva e pode corroer diques rio abaixo. Autoridades dizem que a sedimentação ficou abaixo do previsto, mas cientistas contestam, e há debate sobre efeitos em lagos como o Poyang.",
+   "audio": "audio/virada-3d1f0da9b5.mp3",
+   "duracao": 47.543,
+   "palavras": [
+    {
+     "p": "Aqui",
+     "i": 0.102,
+     "f": 0.389
+    },
+    {
+     "p": "está",
+     "i": 0.402,
+     "f": 0.753
+    },
+    {
+     "p": "a",
+     "i": 0.766,
+     "f": 0.805
+    },
+    {
+     "p": "virada",
+     "i": 0.818,
+     "f": 1.326
+    },
+    {
+     "p": "Em",
+     "i": 1.67,
+     "f": 1.787
+    },
+    {
+     "p": "dois",
+     "i": 1.8,
+     "f": 2.035
+    },
+    {
+     "p": "mil",
+     "i": 2.048,
+     "f": 2.165
+    },
+    {
+     "p": "e",
+     "i": 2.178,
+     "f": 2.23
+    },
+    {
+     "p": "sete",
+     "i": 2.243,
+     "f": 2.686
+    },
+    {
+     "p": "autoridades",
+     "i": 2.933,
+     "f": 3.597
+    },
+    {
+     "p": "chinesas",
+     "i": 3.61,
+     "f": 4.144
+    },
+    {
+     "p": "fizeram",
+     "i": 4.157,
+     "f": 4.561
+    },
+    {
+     "p": "um",
+     "i": 4.574,
+     "f": 4.678
+    },
+    {
+     "p": "alerta",
+     "i": 4.691,
+     "f": 5.082
+    },
+    {
+     "p": "raro",
+     "i": 5.095,
+     "f": 5.446
+    },
+    {
+     "p": "a",
+     "i": 5.746,
+     "f": 5.85
+    },
+    {
+     "p": "obra",
+     "i": 5.863,
+     "f": 6.175
+    },
+    {
+     "p": "poderia",
+     "i": 6.188,
+     "f": 6.592
+    },
+    {
+     "p": "virar",
+     "i": 6.605,
+     "f": 6.865
+    },
+    {
+     "p": "uma",
+     "i": 6.878,
+     "f": 7.035
+    },
+    {
+     "p": "catástrofe",
+     "i": 7.048,
+     "f": 7.738
+    },
+    {
+     "p": "ambiental",
+     "i": 7.751,
+     "f": 8.298
+    },
+    {
+     "p": "se",
+     "i": 8.311,
+     "f": 8.376
+    },
+    {
+     "p": "os",
+     "i": 8.389,
+     "f": 8.467
+    },
+    {
+     "p": "problemas",
+     "i": 8.48,
+     "f": 9.079
+    },
+    {
+     "p": "não",
+     "i": 9.092,
+     "f": 9.287
+    },
+    {
+     "p": "fossem",
+     "i": 9.3,
+     "f": 9.691
+    },
+    {
+     "p": "enfrentados",
+     "i": 9.704,
+     "f": 10.511
+    },
+    {
+     "p": "A",
+     "i": 10.846,
+     "f": 10.963
+    },
+    {
+     "p": "mesma",
+     "i": 10.976,
+     "f": 11.328
+    },
+    {
+     "p": "imprensa",
+     "i": 11.341,
+     "f": 11.797
+    },
+    {
+     "p": "estatal",
+     "i": 11.81,
+     "f": 12.265
+    },
+    {
+     "p": "relatou",
+     "i": 12.278,
+     "f": 12.799
+    },
+    {
+     "p": "que",
+     "i": 12.812,
+     "f": 12.916
+    },
+    {
+     "p": "as",
+     "i": 12.929,
+     "f": 13.06
+    },
+    {
+     "p": "margens",
+     "i": 13.073,
+     "f": 13.528
+    },
+    {
+     "p": "do",
+     "i": 13.541,
+     "f": 13.62
+    },
+    {
+     "p": "reservatório",
+     "i": 13.633,
+     "f": 14.362
+    },
+    {
+     "p": "haviam",
+     "i": 14.375,
+     "f": 14.661
+    },
+    {
+     "p": "desabado",
+     "i": 14.674,
+     "f": 15.195
+    },
+    {
+     "p": "em",
+     "i": 15.208,
+     "f": 15.26
+    },
+    {
+     "p": "noventa",
+     "i": 15.273,
+     "f": 15.69
+    },
+    {
+     "p": "e",
+     "i": 15.703,
+     "f": 15.729
+    },
+    {
+     "p": "um",
+     "i": 15.742,
+     "f": 15.898
+    },
+    {
+     "p": "pontos",
+     "i": 15.911,
+     "f": 16.406
+    },
+    {
+     "p": "somando",
+     "i": 16.666,
+     "f": 17.161
+    },
+    {
+     "p": "trinta",
+     "i": 17.174,
+     "f": 17.474
+    },
+    {
+     "p": "e",
+     "i": 17.487,
+     "f": 17.526
+    },
+    {
+     "p": "seis",
+     "i": 17.539,
+     "f": 17.76
+    },
+    {
+     "p": "quilômetros",
+     "i": 17.773,
+     "f": 18.489
+    },
+    {
+     "p": "O",
+     "i": 18.822,
+     "f": 18.913
+    },
+    {
+     "p": "nível",
+     "i": 18.926,
+     "f": 19.278
+    },
+    {
+     "p": "da",
+     "i": 19.291,
+     "f": 19.369
+    },
+    {
+     "p": "água",
+     "i": 19.382,
+     "f": 19.682
+    },
+    {
+     "p": "sobe",
+     "i": 19.695,
+     "f": 20.085
+    },
+    {
+     "p": "e",
+     "i": 20.098,
+     "f": 20.124
+    },
+    {
+     "p": "desce",
+     "i": 20.137,
+     "f": 20.372
+    },
+    {
+     "p": "dezenas",
+     "i": 20.385,
+     "f": 20.814
+    },
+    {
+     "p": "de",
+     "i": 20.827,
+     "f": 20.931
+    },
+    {
+     "p": "metros",
+     "i": 20.944,
+     "f": 21.283
+    },
+    {
+     "p": "a",
+     "i": 21.296,
+     "f": 21.426
+    },
+    {
+     "p": "cada",
+     "i": 21.439,
+     "f": 21.687
+    },
+    {
+     "p": "ano",
+     "i": 21.7,
+     "f": 21.999
+    },
+    {
+     "p": "e",
+     "i": 22.312,
+     "f": 22.442
+    },
+    {
+     "p": "isso",
+     "i": 22.455,
+     "f": 22.637
+    },
+    {
+     "p": "enfraquece",
+     "i": 22.65,
+     "f": 23.21
+    },
+    {
+     "p": "encostas",
+     "i": 23.223,
+     "f": 23.705
+    },
+    {
+     "p": "inteiras",
+     "i": 23.718,
+     "f": 24.434
+    },
+    {
+     "p": "Outro",
+     "i": 24.782,
+     "f": 25.108
+    },
+    {
+     "p": "problema",
+     "i": 25.121,
+     "f": 25.641
+    },
+    {
+     "p": "é",
+     "i": 25.655,
+     "f": 25.707
+    },
+    {
+     "p": "o",
+     "i": 25.72,
+     "f": 25.785
+    },
+    {
+     "p": "sedimento",
+     "i": 25.798,
+     "f": 26.501
+    },
+    {
+     "p": "O",
+     "i": 26.854,
+     "f": 26.984
+    },
+    {
+     "p": "rio",
+     "i": 26.997,
+     "f": 27.245
+    },
+    {
+     "p": "carregava",
+     "i": 27.258,
+     "f": 27.818
+    },
+    {
+     "p": "lodo",
+     "i": 27.831,
+     "f": 28.169
+    },
+    {
+     "p": "e",
+     "i": 28.182,
+     "f": 28.221
+    },
+    {
+     "p": "areia",
+     "i": 28.234,
+     "f": 28.573
+    },
+    {
+     "p": "que",
+     "i": 28.586,
+     "f": 28.677
+    },
+    {
+     "p": "alimentavam",
+     "i": 28.69,
+     "f": 29.38
+    },
+    {
+     "p": "margens",
+     "i": 29.393,
+     "f": 29.823
+    },
+    {
+     "p": "e",
+     "i": 29.836,
+     "f": 29.953
+    },
+    {
+     "p": "planícies",
+     "i": 29.966,
+     "f": 30.565
+    },
+    {
+     "p": "e",
+     "i": 30.943,
+     "f": 31.021
+    },
+    {
+     "p": "agora",
+     "i": 31.034,
+     "f": 31.411
+    },
+    {
+     "p": "boa",
+     "i": 31.424,
+     "f": 31.711
+    },
+    {
+     "p": "parte",
+     "i": 31.724,
+     "f": 32.075
+    },
+    {
+     "p": "fica",
+     "i": 32.088,
+     "f": 32.349
+    },
+    {
+     "p": "retida",
+     "i": 32.362,
+     "f": 32.753
+    },
+    {
+     "p": "atrás",
+     "i": 32.766,
+     "f": 33.104
+    },
+    {
+     "p": "da",
+     "i": 33.117,
+     "f": 33.208
+    },
+    {
+     "p": "barragem",
+     "i": 33.221,
+     "f": 33.794
+    },
+    {
+     "p": "Água",
+     "i": 34.134,
+     "f": 34.46
+    },
+    {
+     "p": "sem",
+     "i": 34.473,
+     "f": 34.668
+    },
+    {
+     "p": "sedimento",
+     "i": 34.681,
+     "f": 35.267
+    },
+    {
+     "p": "corre",
+     "i": 35.28,
+     "f": 35.54
+    },
+    {
+     "p": "mais",
+     "i": 35.553,
+     "f": 35.762
+    },
+    {
+     "p": "agressiva",
+     "i": 35.775,
+     "f": 36.426
+    },
+    {
+     "p": "e",
+     "i": 36.439,
+     "f": 36.491
+    },
+    {
+     "p": "pode",
+     "i": 36.504,
+     "f": 36.816
+    },
+    {
+     "p": "corroer",
+     "i": 36.829,
+     "f": 37.285
+    },
+    {
+     "p": "diques",
+     "i": 37.298,
+     "f": 37.65
+    },
+    {
+     "p": "rio",
+     "i": 37.663,
+     "f": 37.897
+    },
+    {
+     "p": "abaixo",
+     "i": 37.91,
+     "f": 38.431
+    },
+    {
+     "p": "Autoridades",
+     "i": 38.774,
+     "f": 39.581
+    },
+    {
+     "p": "dizem",
+     "i": 39.594,
+     "f": 39.933
+    },
+    {
+     "p": "que",
+     "i": 39.946,
+     "f": 40.024
+    },
+    {
+     "p": "a",
+     "i": 40.037,
+     "f": 40.089
+    },
+    {
+     "p": "sedimentação",
+     "i": 40.102,
+     "f": 40.936
+    },
+    {
+     "p": "ficou",
+     "i": 40.949,
+     "f": 41.248
+    },
+    {
+     "p": "abaixo",
+     "i": 41.261,
+     "f": 41.665
+    },
+    {
+     "p": "do",
+     "i": 41.678,
+     "f": 41.769
+    },
+    {
+     "p": "previsto",
+     "i": 41.782,
+     "f": 42.342
+    },
+    {
+     "p": "mas",
+     "i": 42.654,
+     "f": 42.85
+    },
+    {
+     "p": "cientistas",
+     "i": 42.863,
+     "f": 43.488
+    },
+    {
+     "p": "contestam",
+     "i": 43.501,
+     "f": 44.165
+    },
+    {
+     "p": "e",
+     "i": 44.503,
+     "f": 44.607
+    },
+    {
+     "p": "há",
+     "i": 44.62,
+     "f": 44.673
+    },
+    {
+     "p": "debate",
+     "i": 44.686,
+     "f": 45.141
+    },
+    {
+     "p": "sobre",
+     "i": 45.154,
+     "f": 45.389
+    },
+    {
+     "p": "efeitos",
+     "i": 45.402,
+     "f": 45.792
+    },
+    {
+     "p": "em",
+     "i": 45.805,
+     "f": 45.988
+    },
+    {
+     "p": "lagos",
+     "i": 46.001,
+     "f": 46.417
+    },
+    {
+     "p": "como",
+     "i": 46.43,
+     "f": 46.691
+    },
+    {
+     "p": "o",
+     "i": 46.704,
+     "f": 46.756
+    },
+    {
+     "p": "Poyang",
+     "i": 46.769,
+     "f": 47.225
+    }
+   ]
+  },
+  "fauna": {
+   "hash": "98db9f5458",
+   "texto": "O rio também perdeu espécies. O baiji, o golfinho do Yangtzé, foi dado como funcionalmente extinto após uma expedição científica em dois mil e seis. A represa não foi a única causa: pesca predatória, tráfego de barcos e poluição também pesaram. Mas ela cortou o rio em dois. Peixes migratórios, como o esturjão-chinês, perderam o caminho até as áreas de desova. Desde janeiro de dois mil e vinte e um, a China proíbe a pesca comercial no Yangtzé por dez anos, numa tentativa de recuperar o ecossistema.",
+   "audio": "audio/fauna-98db9f5458.mp3",
+   "duracao": 32.679,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "rio",
+     "i": 0.232,
+     "f": 0.493
+    },
+    {
+     "p": "também",
+     "i": 0.506,
+     "f": 0.909
+    },
+    {
+     "p": "perdeu",
+     "i": 0.922,
+     "f": 1.287
+    },
+    {
+     "p": "espécies",
+     "i": 1.3,
+     "f": 2.003
+    },
+    {
+     "p": "O",
+     "i": 2.342,
+     "f": 2.459
+    },
+    {
+     "p": "baiji",
+     "i": 2.472,
+     "f": 2.928
+    },
+    {
+     "p": "o",
+     "i": 3.162,
+     "f": 3.214
+    },
+    {
+     "p": "golfinho",
+     "i": 3.228,
+     "f": 3.774
+    },
+    {
+     "p": "do",
+     "i": 3.787,
+     "f": 3.892
+    },
+    {
+     "p": "Yangtzé",
+     "i": 3.905,
+     "f": 4.582
+    },
+    {
+     "p": "foi",
+     "i": 4.907,
+     "f": 5.089
+    },
+    {
+     "p": "dado",
+     "i": 5.102,
+     "f": 5.428
+    },
+    {
+     "p": "como",
+     "i": 5.441,
+     "f": 5.688
+    },
+    {
+     "p": "funcionalmente",
+     "i": 5.701,
+     "f": 6.431
+    },
+    {
+     "p": "extinto",
+     "i": 6.444,
+     "f": 6.808
+    },
+    {
+     "p": "após",
+     "i": 6.821,
+     "f": 7.082
+    },
+    {
+     "p": "uma",
+     "i": 7.095,
+     "f": 7.264
+    },
+    {
+     "p": "expedição",
+     "i": 7.277,
+     "f": 7.837
+    },
+    {
+     "p": "científica",
+     "i": 7.85,
+     "f": 8.501
+    },
+    {
+     "p": "em",
+     "i": 8.514,
+     "f": 8.566
+    },
+    {
+     "p": "dois",
+     "i": 8.579,
+     "f": 8.813
+    },
+    {
+     "p": "mil",
+     "i": 8.826,
+     "f": 8.957
+    },
+    {
+     "p": "e",
+     "i": 8.97,
+     "f": 9.022
+    },
+    {
+     "p": "seis",
+     "i": 9.035,
+     "f": 9.504
+    },
+    {
+     "p": "A",
+     "i": 9.838,
+     "f": 9.942
+    },
+    {
+     "p": "represa",
+     "i": 9.955,
+     "f": 10.489
+    },
+    {
+     "p": "não",
+     "i": 10.502,
+     "f": 10.684
+    },
+    {
+     "p": "foi",
+     "i": 10.697,
+     "f": 10.893
+    },
+    {
+     "p": "a",
+     "i": 10.906,
+     "f": 10.984
+    },
+    {
+     "p": "única",
+     "i": 10.997,
+     "f": 11.349
+    },
+    {
+     "p": "causa",
+     "i": 11.362,
+     "f": 11.778
+    },
+    {
+     "p": "pesca",
+     "i": 12.013,
+     "f": 12.364
+    },
+    {
+     "p": "predatória",
+     "i": 12.377,
+     "f": 13.002
+    },
+    {
+     "p": "tráfego",
+     "i": 13.171,
+     "f": 13.601
+    },
+    {
+     "p": "de",
+     "i": 13.614,
+     "f": 13.718
+    },
+    {
+     "p": "barcos",
+     "i": 13.731,
+     "f": 14.148
+    },
+    {
+     "p": "e",
+     "i": 14.161,
+     "f": 14.278
+    },
+    {
+     "p": "poluição",
+     "i": 14.291,
+     "f": 14.877
+    },
+    {
+     "p": "também",
+     "i": 14.89,
+     "f": 15.294
+    },
+    {
+     "p": "pesaram",
+     "i": 15.307,
+     "f": 15.867
+    },
+    {
+     "p": "Mas",
+     "i": 16.206,
+     "f": 16.427
+    },
+    {
+     "p": "ela",
+     "i": 16.44,
+     "f": 16.857
+    },
+    {
+     "p": "cortou",
+     "i": 16.87,
+     "f": 17.313
+    },
+    {
+     "p": "o",
+     "i": 17.326,
+     "f": 17.352
+    },
+    {
+     "p": "rio",
+     "i": 17.365,
+     "f": 17.612
+    },
+    {
+     "p": "em",
+     "i": 17.625,
+     "f": 17.717
+    },
+    {
+     "p": "dois",
+     "i": 17.73,
+     "f": 18.185
+    },
+    {
+     "p": "Peixes",
+     "i": 18.518,
+     "f": 18.896
+    },
+    {
+     "p": "migratórios",
+     "i": 18.909,
+     "f": 19.69
+    },
+    {
+     "p": "como",
+     "i": 19.989,
+     "f": 20.211
+    },
+    {
+     "p": "o",
+     "i": 20.224,
+     "f": 20.25
+    },
+    {
+     "p": "esturjão-chinês",
+     "i": 20.263,
+     "f": 21.252
+    },
+    {
+     "p": "perderam",
+     "i": 21.487,
+     "f": 21.956
+    },
+    {
+     "p": "o",
+     "i": 21.969,
+     "f": 22.008
+    },
+    {
+     "p": "caminho",
+     "i": 22.021,
+     "f": 22.424
+    },
+    {
+     "p": "até",
+     "i": 22.437,
+     "f": 22.698
+    },
+    {
+     "p": "as",
+     "i": 22.711,
+     "f": 22.763
+    },
+    {
+     "p": "áreas",
+     "i": 22.776,
+     "f": 23.127
+    },
+    {
+     "p": "de",
+     "i": 23.14,
+     "f": 23.245
+    },
+    {
+     "p": "desova",
+     "i": 23.258,
+     "f": 23.805
+    },
+    {
+     "p": "Desde",
+     "i": 24.142,
+     "f": 24.559
+    },
+    {
+     "p": "janeiro",
+     "i": 24.572,
+     "f": 25.028
+    },
+    {
+     "p": "de",
+     "i": 25.041,
+     "f": 25.132
+    },
+    {
+     "p": "dois",
+     "i": 25.145,
+     "f": 25.327
+    },
+    {
+     "p": "mil",
+     "i": 25.34,
+     "f": 25.457
+    },
+    {
+     "p": "e",
+     "i": 25.47,
+     "f": 25.535
+    },
+    {
+     "p": "vinte",
+     "i": 25.548,
+     "f": 25.796
+    },
+    {
+     "p": "e",
+     "i": 25.809,
+     "f": 25.822
+    },
+    {
+     "p": "um",
+     "i": 25.835,
+     "f": 25.978
+    },
+    {
+     "p": "a",
+     "i": 26.264,
+     "f": 26.33
+    },
+    {
+     "p": "China",
+     "i": 26.343,
+     "f": 26.694
+    },
+    {
+     "p": "proíbe",
+     "i": 26.707,
+     "f": 27.072
+    },
+    {
+     "p": "a",
+     "i": 27.085,
+     "f": 27.15
+    },
+    {
+     "p": "pesca",
+     "i": 27.163,
+     "f": 27.527
+    },
+    {
+     "p": "comercial",
+     "i": 27.541,
+     "f": 28.139
+    },
+    {
+     "p": "no",
+     "i": 28.152,
+     "f": 28.257
+    },
+    {
+     "p": "Yangtzé",
+     "i": 28.27,
+     "f": 28.647
+    },
+    {
+     "p": "por",
+     "i": 28.66,
+     "f": 28.843
+    },
+    {
+     "p": "dez",
+     "i": 28.856,
+     "f": 29.09
+    },
+    {
+     "p": "anos",
+     "i": 29.103,
+     "f": 29.572
+    },
+    {
+     "p": "numa",
+     "i": 29.806,
+     "f": 30.067
+    },
+    {
+     "p": "tentativa",
+     "i": 30.08,
+     "f": 30.705
+    },
+    {
+     "p": "de",
+     "i": 30.718,
+     "f": 30.809
+    },
+    {
+     "p": "recuperar",
+     "i": 30.822,
+     "f": 31.382
+    },
+    {
+     "p": "o",
+     "i": 31.395,
+     "f": 31.473
+    },
+    {
+     "p": "ecossistema",
+     "i": 31.486,
+     "f": 32.215
+    }
+   ]
+  },
+  "navegacao": {
+   "hash": "d7ba5e476e",
+   "texto": "Mas a obra também resolveu um gargalo histórico. As Três Gargantas eram famosas por corredeiras perigosas, onde barcos eram puxados por homens. Com a água mais alta, navios maiores passaram a subir até Chongqing, e a carga transportada no rio cresceu muito, segundo relatos oficiais. Para passar pela barragem, os barcos usam uma eclusa de cinco degraus, uma das maiores do mundo. Em dois mil e dezesseis, entrou em operação também um elevador de navios, capaz de levantar embarcações de até três mil toneladas. É mais um ponto a favor. A dificuldade é pesar tudo isso na mesma balança.",
+   "audio": "audio/navegacao-d7ba5e476e.mp3",
+   "duracao": 38.661,
+   "palavras": [
+    {
+     "p": "Mas",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "a",
+     "i": 0.31,
+     "f": 0.467
+    },
+    {
+     "p": "obra",
+     "i": 0.48,
+     "f": 0.792
+    },
+    {
+     "p": "também",
+     "i": 0.805,
+     "f": 1.196
+    },
+    {
+     "p": "resolveu",
+     "i": 1.209,
+     "f": 1.691
+    },
+    {
+     "p": "um",
+     "i": 1.704,
+     "f": 1.769
+    },
+    {
+     "p": "gargalo",
+     "i": 1.782,
+     "f": 2.316
+    },
+    {
+     "p": "histórico",
+     "i": 2.329,
+     "f": 2.915
+    },
+    {
+     "p": "As",
+     "i": 3.254,
+     "f": 3.475
+    },
+    {
+     "p": "Três",
+     "i": 3.488,
+     "f": 3.788
+    },
+    {
+     "p": "Gargantas",
+     "i": 3.801,
+     "f": 4.413
+    },
+    {
+     "p": "eram",
+     "i": 4.426,
+     "f": 4.673
+    },
+    {
+     "p": "famosas",
+     "i": 4.686,
+     "f": 5.324
+    },
+    {
+     "p": "por",
+     "i": 5.337,
+     "f": 5.507
+    },
+    {
+     "p": "corredeiras",
+     "i": 5.52,
+     "f": 6.132
+    },
+    {
+     "p": "perigosas",
+     "i": 6.145,
+     "f": 6.835
+    },
+    {
+     "p": "onde",
+     "i": 7.082,
+     "f": 7.304
+    },
+    {
+     "p": "barcos",
+     "i": 7.317,
+     "f": 7.733
+    },
+    {
+     "p": "eram",
+     "i": 7.746,
+     "f": 7.994
+    },
+    {
+     "p": "puxados",
+     "i": 8.007,
+     "f": 8.528
+    },
+    {
+     "p": "por",
+     "i": 8.541,
+     "f": 8.71
+    },
+    {
+     "p": "homens",
+     "i": 8.723,
+     "f": 9.192
+    },
+    {
+     "p": "Com",
+     "i": 9.526,
+     "f": 9.76
+    },
+    {
+     "p": "a",
+     "i": 9.773,
+     "f": 9.813
+    },
+    {
+     "p": "água",
+     "i": 9.826,
+     "f": 10.138
+    },
+    {
+     "p": "mais",
+     "i": 10.151,
+     "f": 10.32
+    },
+    {
+     "p": "alta",
+     "i": 10.333,
+     "f": 10.724
+    },
+    {
+     "p": "navios",
+     "i": 11.01,
+     "f": 11.44
+    },
+    {
+     "p": "maiores",
+     "i": 11.453,
+     "f": 11.948
+    },
+    {
+     "p": "passaram",
+     "i": 11.961,
+     "f": 12.404
+    },
+    {
+     "p": "a",
+     "i": 12.417,
+     "f": 12.456
+    },
+    {
+     "p": "subir",
+     "i": 12.469,
+     "f": 12.794
+    },
+    {
+     "p": "até",
+     "i": 12.807,
+     "f": 13.003
+    },
+    {
+     "p": "Chongqing",
+     "i": 13.016,
+     "f": 13.523
+    },
+    {
+     "p": "e",
+     "i": 13.862,
+     "f": 13.966
+    },
+    {
+     "p": "a",
+     "i": 13.979,
+     "f": 14.07
+    },
+    {
+     "p": "carga",
+     "i": 14.083,
+     "f": 14.422
+    },
+    {
+     "p": "transportada",
+     "i": 14.435,
+     "f": 15.164
+    },
+    {
+     "p": "no",
+     "i": 15.177,
+     "f": 15.268
+    },
+    {
+     "p": "rio",
+     "i": 15.281,
+     "f": 15.477
+    },
+    {
+     "p": "cresceu",
+     "i": 15.49,
+     "f": 15.88
+    },
+    {
+     "p": "muito",
+     "i": 15.893,
+     "f": 16.297
+    },
+    {
+     "p": "segundo",
+     "i": 16.622,
+     "f": 17.013
+    },
+    {
+     "p": "relatos",
+     "i": 17.026,
+     "f": 17.482
+    },
+    {
+     "p": "oficiais",
+     "i": 17.495,
+     "f": 18.276
+    },
+    {
+     "p": "Para",
+     "i": 18.606,
+     "f": 18.84
+    },
+    {
+     "p": "passar",
+     "i": 18.853,
+     "f": 19.257
+    },
+    {
+     "p": "pela",
+     "i": 19.27,
+     "f": 19.478
+    },
+    {
+     "p": "barragem",
+     "i": 19.492,
+     "f": 20.064
+    },
+    {
+     "p": "os",
+     "i": 20.364,
+     "f": 20.481
+    },
+    {
+     "p": "barcos",
+     "i": 20.494,
+     "f": 20.898
+    },
+    {
+     "p": "usam",
+     "i": 20.911,
+     "f": 21.262
+    },
+    {
+     "p": "uma",
+     "i": 21.275,
+     "f": 21.367
+    },
+    {
+     "p": "eclusa",
+     "i": 21.38,
+     "f": 21.809
+    },
+    {
+     "p": "de",
+     "i": 21.822,
+     "f": 21.952
+    },
+    {
+     "p": "cinco",
+     "i": 21.965,
+     "f": 22.369
+    },
+    {
+     "p": "degraus",
+     "i": 22.382,
+     "f": 22.929
+    },
+    {
+     "p": "uma",
+     "i": 23.202,
+     "f": 23.346
+    },
+    {
+     "p": "das",
+     "i": 23.359,
+     "f": 23.528
+    },
+    {
+     "p": "maiores",
+     "i": 23.541,
+     "f": 24.01
+    },
+    {
+     "p": "do",
+     "i": 24.023,
+     "f": 24.127
+    },
+    {
+     "p": "mundo",
+     "i": 24.14,
+     "f": 24.518
+    },
+    {
+     "p": "Em",
+     "i": 24.854,
+     "f": 24.997
+    },
+    {
+     "p": "dois",
+     "i": 25.01,
+     "f": 25.245
+    },
+    {
+     "p": "mil",
+     "i": 25.258,
+     "f": 25.375
+    },
+    {
+     "p": "e",
+     "i": 25.388,
+     "f": 25.427
+    },
+    {
+     "p": "dezesseis",
+     "i": 25.44,
+     "f": 26.078
+    },
+    {
+     "p": "entrou",
+     "i": 26.404,
+     "f": 26.729
+    },
+    {
+     "p": "em",
+     "i": 26.742,
+     "f": 26.82
+    },
+    {
+     "p": "operação",
+     "i": 26.833,
+     "f": 27.406
+    },
+    {
+     "p": "também",
+     "i": 27.419,
+     "f": 27.81
+    },
+    {
+     "p": "um",
+     "i": 27.823,
+     "f": 27.966
+    },
+    {
+     "p": "elevador",
+     "i": 27.979,
+     "f": 28.513
+    },
+    {
+     "p": "de",
+     "i": 28.526,
+     "f": 28.63
+    },
+    {
+     "p": "navios",
+     "i": 28.643,
+     "f": 29.19
+    },
+    {
+     "p": "capaz",
+     "i": 29.476,
+     "f": 29.893
+    },
+    {
+     "p": "de",
+     "i": 29.906,
+     "f": 29.984
+    },
+    {
+     "p": "levantar",
+     "i": 29.997,
+     "f": 30.492
+    },
+    {
+     "p": "embarcações",
+     "i": 30.505,
+     "f": 31.247
+    },
+    {
+     "p": "de",
+     "i": 31.26,
+     "f": 31.325
+    },
+    {
+     "p": "até",
+     "i": 31.338,
+     "f": 31.599
+    },
+    {
+     "p": "três",
+     "i": 31.612,
+     "f": 32.029
+    },
+    {
+     "p": "mil",
+     "i": 32.042,
+     "f": 32.237
+    },
+    {
+     "p": "toneladas",
+     "i": 32.25,
+     "f": 33.057
+    },
+    {
+     "p": "É",
+     "i": 33.406,
+     "f": 33.536
+    },
+    {
+     "p": "mais",
+     "i": 33.549,
+     "f": 33.823
+    },
+    {
+     "p": "um",
+     "i": 33.836,
+     "f": 34.044
+    },
+    {
+     "p": "ponto",
+     "i": 34.057,
+     "f": 34.37
+    },
+    {
+     "p": "a",
+     "i": 34.383,
+     "f": 34.422
+    },
+    {
+     "p": "favor",
+     "i": 34.435,
+     "f": 34.877
+    },
+    {
+     "p": "A",
+     "i": 35.214,
+     "f": 35.331
+    },
+    {
+     "p": "dificuldade",
+     "i": 35.344,
+     "f": 36.021
+    },
+    {
+     "p": "é",
+     "i": 36.034,
+     "f": 36.06
+    },
+    {
+     "p": "pesar",
+     "i": 36.073,
+     "f": 36.477
+    },
+    {
+     "p": "tudo",
+     "i": 36.49,
+     "f": 36.855
+    },
+    {
+     "p": "isso",
+     "i": 36.868,
+     "f": 37.154
+    },
+    {
+     "p": "na",
+     "i": 37.167,
+     "f": 37.284
+    },
+    {
+     "p": "mesma",
+     "i": 37.297,
+     "f": 37.662
+    },
+    {
+     "p": "balança",
+     "i": 37.675,
+     "f": 38.248
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "047f1151d1",
+   "texto": "Então voltemos à pergunta do começo. Em energia, o saldo é enorme: mais de cem terawatts-hora por ano, sem fumaça de chaminé. Em cheias, a barragem ajuda a proteger milhões de pessoas, ainda que os números exatos dependam de dados da operadora. Em custos humanos e ambientais, a conta é pesada: mais de um milhão de deslocados, encostas instáveis, sedimentos retidos e espécies perdidas. A resposta depende do que uma sociedade aceita pagar pelo progresso. A Três Gargantas mostra que grandes obras raramente têm um preço só. Um rio represado continua correndo, mas já não é o mesmo rio.",
+   "audio": "audio/desfecho-047f1151d1.mp3",
+   "duracao": 39.993,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.545
+    },
+    {
+     "p": "voltemos",
+     "i": 0.558,
+     "f": 1.053
+    },
+    {
+     "p": "à",
+     "i": 1.066,
+     "f": 1.183
+    },
+    {
+     "p": "pergunta",
+     "i": 1.196,
+     "f": 1.743
+    },
+    {
+     "p": "do",
+     "i": 1.756,
+     "f": 1.847
+    },
+    {
+     "p": "começo",
+     "i": 1.86,
+     "f": 2.394
+    },
+    {
+     "p": "Em",
+     "i": 2.726,
+     "f": 2.921
+    },
+    {
+     "p": "energia",
+     "i": 2.934,
+     "f": 3.507
+    },
+    {
+     "p": "o",
+     "i": 3.807,
+     "f": 3.885
+    },
+    {
+     "p": "saldo",
+     "i": 3.898,
+     "f": 4.302
+    },
+    {
+     "p": "é",
+     "i": 4.315,
+     "f": 4.38
+    },
+    {
+     "p": "enorme",
+     "i": 4.393,
+     "f": 4.875
+    },
+    {
+     "p": "mais",
+     "i": 5.213,
+     "f": 5.434
+    },
+    {
+     "p": "de",
+     "i": 5.447,
+     "f": 5.565
+    },
+    {
+     "p": "cem",
+     "i": 5.578,
+     "f": 5.864
+    },
+    {
+     "p": "terawatts-hora",
+     "i": 5.877,
+     "f": 6.697
+    },
+    {
+     "p": "por",
+     "i": 6.71,
+     "f": 6.88
+    },
+    {
+     "p": "ano",
+     "i": 6.893,
+     "f": 7.153
+    },
+    {
+     "p": "sem",
+     "i": 7.505,
+     "f": 7.726
+    },
+    {
+     "p": "fumaça",
+     "i": 7.739,
+     "f": 8.26
+    },
+    {
+     "p": "de",
+     "i": 8.273,
+     "f": 8.364
+    },
+    {
+     "p": "chaminé",
+     "i": 8.377,
+     "f": 8.911
+    },
+    {
+     "p": "Em",
+     "i": 9.262,
+     "f": 9.418
+    },
+    {
+     "p": "cheias",
+     "i": 9.431,
+     "f": 9.965
+    },
+    {
+     "p": "a",
+     "i": 10.213,
+     "f": 10.265
+    },
+    {
+     "p": "barragem",
+     "i": 10.278,
+     "f": 10.864
+    },
+    {
+     "p": "ajuda",
+     "i": 10.877,
+     "f": 11.267
+    },
+    {
+     "p": "a",
+     "i": 11.28,
+     "f": 11.319
+    },
+    {
+     "p": "proteger",
+     "i": 11.332,
+     "f": 11.814
+    },
+    {
+     "p": "milhões",
+     "i": 11.827,
+     "f": 12.309
+    },
+    {
+     "p": "de",
+     "i": 12.322,
+     "f": 12.4
+    },
+    {
+     "p": "pessoas",
+     "i": 12.413,
+     "f": 13.064
+    },
+    {
+     "p": "ainda",
+     "i": 13.377,
+     "f": 13.715
+    },
+    {
+     "p": "que",
+     "i": 13.728,
+     "f": 13.858
+    },
+    {
+     "p": "os",
+     "i": 13.871,
+     "f": 14.002
+    },
+    {
+     "p": "números",
+     "i": 14.015,
+     "f": 14.379
+    },
+    {
+     "p": "exatos",
+     "i": 14.392,
+     "f": 14.939
+    },
+    {
+     "p": "dependam",
+     "i": 14.952,
+     "f": 15.421
+    },
+    {
+     "p": "de",
+     "i": 15.434,
+     "f": 15.564
+    },
+    {
+     "p": "dados",
+     "i": 15.577,
+     "f": 15.929
+    },
+    {
+     "p": "da",
+     "i": 15.942,
+     "f": 16.072
+    },
+    {
+     "p": "operadora",
+     "i": 16.085,
+     "f": 16.736
+    },
+    {
+     "p": "Em",
+     "i": 17.07,
+     "f": 17.252
+    },
+    {
+     "p": "custos",
+     "i": 17.265,
+     "f": 17.682
+    },
+    {
+     "p": "humanos",
+     "i": 17.695,
+     "f": 18.164
+    },
+    {
+     "p": "e",
+     "i": 18.177,
+     "f": 18.307
+    },
+    {
+     "p": "ambientais",
+     "i": 18.32,
+     "f": 19.036
+    },
+    {
+     "p": "a",
+     "i": 19.271,
+     "f": 19.349
+    },
+    {
+     "p": "conta",
+     "i": 19.362,
+     "f": 19.687
+    },
+    {
+     "p": "é",
+     "i": 19.7,
+     "f": 19.726
+    },
+    {
+     "p": "pesada",
+     "i": 19.739,
+     "f": 20.286
+    },
+    {
+     "p": "mais",
+     "i": 20.599,
+     "f": 20.833
+    },
+    {
+     "p": "de",
+     "i": 20.846,
+     "f": 20.963
+    },
+    {
+     "p": "um",
+     "i": 20.976,
+     "f": 21.094
+    },
+    {
+     "p": "milhão",
+     "i": 21.107,
+     "f": 21.471
+    },
+    {
+     "p": "de",
+     "i": 21.484,
+     "f": 21.588
+    },
+    {
+     "p": "deslocados",
+     "i": 21.601,
+     "f": 22.357
+    },
+    {
+     "p": "encostas",
+     "i": 22.669,
+     "f": 23.19
+    },
+    {
+     "p": "instáveis",
+     "i": 23.203,
+     "f": 23.945
+    },
+    {
+     "p": "sedimentos",
+     "i": 24.245,
+     "f": 24.909
+    },
+    {
+     "p": "retidos",
+     "i": 24.922,
+     "f": 25.377
+    },
+    {
+     "p": "e",
+     "i": 25.39,
+     "f": 25.482
+    },
+    {
+     "p": "espécies",
+     "i": 25.495,
+     "f": 26.002
+    },
+    {
+     "p": "perdidas",
+     "i": 26.015,
+     "f": 26.732
+    },
+    {
+     "p": "A",
+     "i": 27.062,
+     "f": 27.179
+    },
+    {
+     "p": "resposta",
+     "i": 27.192,
+     "f": 27.791
+    },
+    {
+     "p": "depende",
+     "i": 27.804,
+     "f": 28.273
+    },
+    {
+     "p": "do",
+     "i": 28.286,
+     "f": 28.403
+    },
+    {
+     "p": "que",
+     "i": 28.416,
+     "f": 28.52
+    },
+    {
+     "p": "uma",
+     "i": 28.533,
+     "f": 28.69
+    },
+    {
+     "p": "sociedade",
+     "i": 28.703,
+     "f": 29.302
+    },
+    {
+     "p": "aceita",
+     "i": 29.315,
+     "f": 29.705
+    },
+    {
+     "p": "pagar",
+     "i": 29.718,
+     "f": 30.083
+    },
+    {
+     "p": "pelo",
+     "i": 30.096,
+     "f": 30.343
+    },
+    {
+     "p": "progresso",
+     "i": 30.356,
+     "f": 30.968
+    },
+    {
+     "p": "A",
+     "i": 31.318,
+     "f": 31.461
+    },
+    {
+     "p": "Três",
+     "i": 31.474,
+     "f": 31.813
+    },
+    {
+     "p": "Gargantas",
+     "i": 31.826,
+     "f": 32.464
+    },
+    {
+     "p": "mostra",
+     "i": 32.477,
+     "f": 32.907
+    },
+    {
+     "p": "que",
+     "i": 32.92,
+     "f": 33.037
+    },
+    {
+     "p": "grandes",
+     "i": 33.05,
+     "f": 33.401
+    },
+    {
+     "p": "obras",
+     "i": 33.414,
+     "f": 33.818
+    },
+    {
+     "p": "raramente",
+     "i": 33.831,
+     "f": 34.404
+    },
+    {
+     "p": "têm",
+     "i": 34.417,
+     "f": 34.56
+    },
+    {
+     "p": "um",
+     "i": 34.573,
+     "f": 34.677
+    },
+    {
+     "p": "preço",
+     "i": 34.69,
+     "f": 35.081
+    },
+    {
+     "p": "só",
+     "i": 35.094,
+     "f": 35.394
+    },
+    {
+     "p": "Um",
+     "i": 35.742,
+     "f": 35.937
+    },
+    {
+     "p": "rio",
+     "i": 35.95,
+     "f": 36.159
+    },
+    {
+     "p": "represado",
+     "i": 36.172,
+     "f": 36.836
+    },
+    {
+     "p": "continua",
+     "i": 36.849,
+     "f": 37.344
+    },
+    {
+     "p": "correndo",
+     "i": 37.357,
+     "f": 37.851
+    },
+    {
+     "p": "mas",
+     "i": 38.099,
+     "f": 38.281
+    },
+    {
+     "p": "já",
+     "i": 38.294,
+     "f": 38.411
+    },
+    {
+     "p": "não",
+     "i": 38.424,
+     "f": 38.659
+    },
+    {
+     "p": "é",
+     "i": 38.672,
+     "f": 38.789
+    },
+    {
+     "p": "o",
+     "i": 38.802,
+     "f": 38.867
+    },
+    {
+     "p": "mesmo",
+     "i": 38.88,
+     "f": 39.284
+    },
+    {
+     "p": "rio",
+     "i": 39.297,
+     "f": 39.596
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "cheia2020": {
+   "arquivo": "imagens/cheia2020-e05f5253.jpg",
+   "rotulo": "Comportas abertas na Três Gargantas",
+   "wiki": "Barragem das Três Gargantas",
+   "commons": "Three Gorges Dam flood discharge 2020",
+   "autor": "Source file: Le Grand Portage Derivative work: Rehman",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ThreeGorgesDam-China2009.jpg",
+   "titulo": "File:ThreeGorgesDam-China2009.jpg",
+   "largura": 1920,
+   "altura": 1192,
+   "rostos": 0,
+   "foco": {
+    "x": 58.7,
+    "y": 55.9
+   },
+   "borrada": "imagens/cheia2020-e05f5253-b.jpg"
+  },
+  "comportas": {
+   "arquivo": "",
+   "rotulo": "Vertedouros da barragem",
+   "commons": "Three Gorges Dam spillway gates open",
+   "semFoto": true
+  },
+  "wuhan": {
+   "arquivo": "imagens/wuhan-cc599078.jpg",
+   "rotulo": "Wuhan, às margens do Yangtzé",
+   "wiki": "Wuhan",
+   "commons": "Wuhan Yangtze River skyline",
+   "autor": "User:Vmenkov",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:4768-Hankou-skyline-seen-from-Wuchang-end-of-First-Bridge.jpg",
+   "titulo": "File:4768-Hankou-skyline-seen-from-Wuchang-end-of-First-Bridge.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 48.3,
+    "y": 52.1
+   },
+   "borrada": "imagens/wuhan-cc599078-b.jpg"
+  },
+  "reservatorio": {
+   "arquivo": "imagens/reservatorio-02b26e14.jpg",
+   "rotulo": "Reservatório das Três Gargantas",
+   "commons": "Three Gorges Reservoir aerial",
+   "autor": "nasa",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Three_Gorges_Dam,_China_-_natural_colours.jpg",
+   "titulo": "File:Three Gorges Dam, China - natural colours.jpg",
+   "largura": 1440,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 28.7,
+    "y": 49.5
+   },
+   "borrada": "imagens/reservatorio-02b26e14-b.jpg"
+  },
+  "aerea": {
+   "arquivo": "imagens/aerea-14016535.jpg",
+   "rotulo": "Barragem das Três Gargantas",
+   "commons": "Three Gorges Dam aerial view",
+   "autor": "Thomas Bächinger",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Three_Gorges_Dam_2015-07-25.jpg",
+   "titulo": "File:Three Gorges Dam 2015-07-25.jpg",
+   "largura": 1920,
+   "altura": 1065,
+   "rostos": 0,
+   "foco": {
+    "x": 40.0,
+    "y": 50.3
+   },
+   "borrada": "imagens/aerea-14016535-b.jpg"
+  },
+  "mapachina": {
+   "arquivo": "",
+   "rotulo": "Localização da barragem",
+   "commons": "Three Gorges Dam location map China",
+   "semFoto": true
+  },
+  "yangtzemapa": {
+   "arquivo": "imagens/yangtzemapa-da28be4b.jpg",
+   "rotulo": "Bacia do rio Yangtzé",
+   "wiki": "Rio Yangtzé",
+   "commons": "Yangtze River basin map",
+   "autor": "User:Shannon1",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Yangtze_river_map.png",
+   "titulo": "File:Yangtze river map.png",
+   "largura": 1720,
+   "altura": 1195,
+   "rostos": 0,
+   "foco": {
+    "x": 31.4,
+    "y": 52.0
+   },
+   "borrada": "imagens/yangtzemapa-da28be4b-b.jpg"
+  },
+  "xiling": {
+   "arquivo": "imagens/xiling-db2c02ee.jpg",
+   "rotulo": "Garganta de Xiling",
+   "commons": "Xiling Gorge Yangtze",
+   "autor": "Fredlyfish4",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/w/index.php?curid=52400893",
+   "titulo": "Xiling Gorge 2016 2",
+   "largura": 4754,
+   "altura": 2503,
+   "rostos": 0,
+   "foco": {
+    "x": 62.3,
+    "y": 59.4
+   },
+   "borrada": "imagens/xiling-db2c02ee-b.jpg"
+  },
+  "yangtze": {
+   "arquivo": "imagens/yangtze-087c2c59.jpg",
+   "rotulo": "O rio Yangtzé",
+   "commons": "Yangtze River Three Gorges scenery",
+   "autor": "Desconhecido",
+   "licenca": "CC0 (domínio público)",
+   "pagina": "https://www.rawpixel.com/image/3293141/free-photo-image-architecture-building-cc0",
+   "titulo": "river flowing deep gorge Three",
+   "largura": 1024,
+   "altura": 421,
+   "rostos": 0,
+   "foco": {
+    "x": 27.4,
+    "y": 59.2
+   },
+   "borrada": "imagens/yangtze-087c2c59-b.jpg"
+  },
+  "cheia1931": {
+   "arquivo": "imagens/cheia1931-d744e90b.jpg",
+   "rotulo": "Enchente de 1931",
+   "wiki": "Inundações na China de 1931",
+   "commons": "1931 China floods Yangtze Hankou",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "CC BY-SA 3.0 de",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-12231,_China,_%C3%9Cberschwemmungsopfer.jpg",
+   "titulo": "File:Bundesarchiv Bild 102-12231, China, Überschwemmungsopfer.jpg",
+   "largura": 800,
+   "altura": 485,
+   "rostos": 2,
+   "foco": {
+    "x": 85.4,
+    "y": 65.5
+   },
+   "borrada": "imagens/cheia1931-d744e90b-b.jpg"
+  },
+  "sunyatsen": {
+   "arquivo": "imagens/sunyatsen-44988198.jpg",
+   "rotulo": "Sun Yat-sen",
+   "wiki": "Sun Yat-sen",
+   "commons": "Sun Yat-sen portrait",
+   "autor": "上海波尔照相馆",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg",
+   "titulo": "File:孙中山肖像.jpg",
+   "largura": 1467,
+   "altura": 1925,
+   "rostos": 2,
+   "foco": {
+    "x": 52.1,
+    "y": 34.8
+   },
+   "borrada": "imagens/sunyatsen-44988198-b.jpg"
+  },
+  "enchente": {
+   "arquivo": "",
+   "rotulo": "Enchente no Yangtzé",
+   "commons": "Yangtze River flood inundated riverbank",
+   "semFoto": true
+  },
+  "diques": {
+   "arquivo": "",
+   "rotulo": "Diques do Yangtzé",
+   "commons": "Jingjiang Dike Yangtze flood prevention",
+   "semFoto": true
+  },
+  "descarga": {
+   "arquivo": "",
+   "rotulo": "Descarga de água",
+   "commons": "Three Gorges Dam spillway discharge water",
+   "semFoto": true
+  },
+  "jingjiang": {
+   "arquivo": "",
+   "rotulo": "Dique às margens do Yangtzé",
+   "commons": "Yangtze River levee Jingzhou",
+   "semFoto": true
+  },
+  "gezhouba": {
+   "arquivo": "imagens/gezhouba-d5d8697d.jpg",
+   "rotulo": "Barragem de Gezhouba",
+   "commons": "Gezhouba Dam Yichang",
+   "autor": "User:Vmenkov",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Changjiang-in-Yichang-below-Gezhouba-4826.jpg",
+   "titulo": "File:Changjiang-in-Yichang-below-Gezhouba-4826.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 23.9,
+    "y": 49.6
+   },
+   "borrada": "imagens/gezhouba-d5d8697d-b.jpg"
+  },
+  "greathall": {
+   "arquivo": "imagens/greathall-520c137a.jpg",
+   "rotulo": "Grande Salão do Povo",
+   "wiki": "Grande Salão do Povo",
+   "commons": "Great Hall of the People Beijing",
+   "autor": "N509FZ",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Great_Hall_of_the_People_(20200825114146).jpg",
+   "titulo": "File:Great Hall of the People (20200825114146).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 56.1,
+    "y": 62.8
+   },
+   "borrada": "imagens/greathall-520c137a-b.jpg"
+  },
+  "lipeng": {
+   "arquivo": "imagens/lipeng-be6c769c.jpg",
+   "rotulo": "Li Peng",
+   "wiki": "Li Peng",
+   "commons": "Li Peng Three Gorges Dam",
+   "autor": "Presidential Press and Information Office",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Li_Peng.png",
+   "titulo": "File:Li Peng.png",
+   "largura": 184,
+   "altura": 221,
+   "rostos": 2,
+   "foco": {
+    "x": 47.6,
+    "y": 34.2
+   },
+   "borrada": "imagens/lipeng-be6c769c-b.jpg"
+  },
+  "sandouping": {
+   "arquivo": "",
+   "rotulo": "Sandouping",
+   "commons": "Sandouping Yichang Three Gorges Dam site",
+   "semFoto": true
+  },
+  "construcao": {
+   "arquivo": "imagens/construcao-42767c1d.jpg",
+   "rotulo": "Obras da barragem",
+   "commons": "Three Gorges Dam construction 2002",
+   "autor": "lienyuan lee",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%E6%96%BD%E5%B7%A5%E4%B8%AD%E7%9A%84%E4%B8%89%E5%B3%BD%E5%A4%A7%E5%A3%A9_Three_Gorges_Dam_under_construction_-_panoramio.jpg",
+   "titulo": "File:施工中的三峽大壩 Three Gorges Dam under construction - panoramio.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 50.4,
+    "y": 57.0
+   },
+   "borrada": "imagens/construcao-42767c1d-b.jpg"
+  },
+  "fengjiebaidi": {
+   "arquivo": "imagens/fengjiebaidi-84dba519.jpg",
+   "rotulo": "Baidicheng, Fengjie",
+   "commons": "Baidicheng Fengjie Yangtze",
+   "autor": "HighestBridges",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Baidicheng_YangtzeHighestBridges.jpg",
+   "titulo": "File:Baidicheng YangtzeHighestBridges.jpg",
+   "largura": 1920,
+   "altura": 1484,
+   "rostos": 1,
+   "foco": {
+    "x": 30.0,
+    "y": 68.5
+   },
+   "borrada": "imagens/fengjiebaidi-84dba519-b.jpg"
+  },
+  "wanzhou": {
+   "arquivo": "imagens/wanzhou-e626bd19.jpg",
+   "rotulo": "Wanzhou",
+   "commons": "Wanzhou Yangtze River bridge",
+   "autor": "Glabb",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Second_Wanzhou_Yangtze_Bridge.JPG",
+   "titulo": "File:Second Wanzhou Yangtze Bridge.JPG",
+   "largura": 1920,
+   "altura": 1380,
+   "rostos": 0,
+   "foco": {
+    "x": 73.8,
+    "y": 61.3
+   },
+   "borrada": "imagens/wanzhou-e626bd19-b.jpg"
+  },
+  "fengjie": {
+   "arquivo": "",
+   "rotulo": "Nova Fengjie",
+   "commons": "Fengjie new county Three Gorges Reservoir",
+   "semFoto": true
+  },
+  "chongqing": {
+   "arquivo": "imagens/chongqing-53ed0d2a.jpg",
+   "rotulo": "Chongqing",
+   "wiki": "Chongqing",
+   "commons": "Chongqing skyline Yangtze Jialing",
+   "autor": "jcx516",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/cidade-ponte-noite-rio-luzes-6156596/",
+   "titulo": "cidade, ponte, noite, rio, luzes, luzes da cidade, arranha-céus, edifícios, horizonte, centro da cidade, urbano, visão noturna, caverna de hongya, chongqing, china, china, china, china, china, china, china, chongqing",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 46.2,
+    "y": 51.8
+   },
+   "borrada": "imagens/chongqing-53ed0d2a-b.jpg"
+  },
+  "deslocados": {
+   "arquivo": "",
+   "rotulo": "Reassentamento",
+   "commons": "Three Gorges relocation new town resettlement",
+   "semFoto": true
+  },
+  "qutang": {
+   "arquivo": "imagens/qutang-79b8bf55.jpg",
+   "rotulo": "Garganta de Qutang",
+   "commons": "Qutang Gorge Yangtze",
+   "autor": "Tan Wei Liang Byorn",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Qutang_Gorge_on_Changjiang.jpg",
+   "titulo": "File:Qutang Gorge on Changjiang.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 69.5
+   },
+   "borrada": "imagens/qutang-79b8bf55-b.jpg"
+  },
+  "muro": {
+   "arquivo": "",
+   "rotulo": "Muro da barragem",
+   "commons": "Three Gorges Dam wall",
+   "semFoto": true
+  },
+  "reservatorio2": {
+   "arquivo": "imagens/reservatorio2-7c6299fe.jpg",
+   "rotulo": "Reservatório rio acima",
+   "commons": "Three Gorges Reservoir Yangtze upstream view",
+   "autor": "User:Vmenkov",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Changjiang-above-Maoping-4955.jpg",
+   "titulo": "File:Changjiang-above-Maoping-4955.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 38.3,
+    "y": 54.7
+   },
+   "borrada": "imagens/reservatorio2-7c6299fe-b.jpg"
+  },
+  "dam2006": {
+   "arquivo": "",
+   "rotulo": "Barragem concluída em 2006",
+   "commons": "Three Gorges Dam 2006 completed",
+   "semFoto": true
+  },
+  "geradores": {
+   "arquivo": "",
+   "rotulo": "Casa de força",
+   "commons": "Three Gorges Dam generator hall turbines",
+   "semFoto": true
+  },
+  "usina": {
+   "arquivo": "",
+   "rotulo": "Usina das Três Gargantas",
+   "commons": "Three Gorges Dam hydro power station",
+   "semFoto": true
+  },
+  "itaipu": {
+   "arquivo": "imagens/itaipu-c37c74f7.jpg",
+   "rotulo": "Usina de Itaipu",
+   "wiki": "Itaipu Binacional",
+   "commons": "Itaipu Dam",
+   "autor": "Jonas de Carvalho",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Itaipu_geral.jpg",
+   "titulo": "File:Itaipu geral.jpg",
+   "largura": 1920,
+   "altura": 1220,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 55.2
+   },
+   "borrada": "imagens/itaipu-c37c74f7-b.jpg"
+  },
+  "itaipuvert": {
+   "arquivo": "imagens/itaipuvert-a7e36418.jpg",
+   "rotulo": "Vertedouro de Itaipu",
+   "commons": "Itaipu Dam spillway",
+   "autor": "Alicia Nijdam",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Itaipu_Dam_-b.jpg",
+   "titulo": "File:Itaipu Dam -b.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 36.6,
+    "y": 56.7
+   },
+   "borrada": "imagens/itaipuvert-a7e36418-b.jpg"
+  },
+  "tg2020": {
+   "arquivo": "",
+   "rotulo": "Descarga em 2020",
+   "commons": "Three Gorges Dam 2020 flood water release",
+   "semFoto": true
+  },
+  "linhas": {
+   "arquivo": "",
+   "rotulo": "Linhas de transmissão",
+   "commons": "Three Gorges Dam power transmission line",
+   "semFoto": true
+  },
+  "yuan": {
+   "arquivo": "imagens/yuan-7af6b10c.jpg",
+   "rotulo": "Iuanes",
+   "commons": "Renminbi banknotes 100 yuan",
+   "autor": "moerschy",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/dinheiro-rmb-renbinbi-yuan-notas-742052/",
+   "titulo": "dinheiro, rmb, renbinbi, yuan, notas, moeda chinesa, china, conta",
+   "largura": 1280,
+   "altura": 960,
+   "rostos": 3,
+   "foco": {
+    "x": 78.9,
+    "y": 52.3
+   },
+   "borrada": "imagens/yuan-7af6b10c-b.jpg"
+  },
+  "custo": {
+   "arquivo": "",
+   "rotulo": "Canteiro de obras",
+   "commons": "Three Gorges Dam construction cost",
+   "semFoto": true
+  },
+  "ctgc": {
+   "arquivo": "imagens/ctgc-70b6389f.jpg",
+   "rotulo": "China Three Gorges Corporation",
+   "wiki": "China Three Gorges Corporation",
+   "commons": "China Three Gorges Corporation",
+   "autor": "allen watkin from London, UK",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Dam_(2890371280).jpg",
+   "titulo": "File:The Dam (2890371280).jpg",
+   "largura": 1920,
+   "altura": 1285,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 46.3
+   },
+   "borrada": "imagens/ctgc-70b6389f-b.jpg"
+  },
+  "wuhanponte": {
+   "arquivo": "imagens/wuhanponte-9a49f680.jpg",
+   "rotulo": "Ponte sobre o Yangtzé em Wuhan",
+   "commons": "Wuhan Yangtze River Bridge",
+   "autor": "KongFu Wang from Beijing, China",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wuhan_Yangtze_River_Bridge.jpg",
+   "titulo": "File:Wuhan Yangtze River Bridge.jpg",
+   "largura": 1600,
+   "altura": 1063,
+   "rostos": 0,
+   "foco": {
+    "x": 58.4,
+    "y": 48.1
+   },
+   "borrada": "imagens/wuhanponte-9a49f680-b.jpg"
+  },
+  "cheia1954": {
+   "arquivo": "imagens/cheia1954-49f21d54.jpg",
+   "rotulo": "Enchente de 1954",
+   "commons": "1954 Yangtze River floods Wuhan",
+   "autor": "User:Vmenkov",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wuhan-Flood-Memorial-0220.jpg",
+   "titulo": "File:Wuhan-Flood-Memorial-0220.jpg",
+   "largura": 1536,
+   "altura": 2048,
+   "rostos": 0,
+   "foco": {
+    "x": 51.9,
+    "y": 44.2
+   },
+   "borrada": "imagens/cheia1954-49f21d54-b.jpg"
+  },
+  "cheia1998": {
+   "arquivo": "imagens/cheia1998-dfa634a7.jpg",
+   "rotulo": "Enchente de 1998",
+   "wiki": "Inundações na China em 1998",
+   "commons": "1998 China floods Yangtze",
+   "autor": "phileole",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:China_2011_(6340229422).jpg",
+   "titulo": "File:China 2011 (6340229422).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 63.2,
+    "y": 35.6
+   },
+   "borrada": "imagens/cheia1998-dfa634a7-b.jpg"
+  },
+  "vazio": {
+   "arquivo": "",
+   "rotulo": "Nível baixo do reservatório",
+   "commons": "Three Gorges Dam reservoir low water level",
+   "semFoto": true
+  },
+  "julho2020": {
+   "arquivo": "",
+   "rotulo": "Pico de cheia, julho de 2020",
+   "commons": "Three Gorges Dam July 2020 flood peak",
+   "semFoto": true
+  },
+  "agosto2020": {
+   "arquivo": "imagens/agosto2020-308fb149.jpg",
+   "rotulo": "Cheia de agosto de 2020",
+   "wiki": "Inundações na China em 2020",
+   "commons": "2020 China floods Yangtze Chongqing",
+   "autor": "Whisper of the heart",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Flooded_Datong_Town,_Tongling_(2020).jpg",
+   "titulo": "File:Flooded Datong Town, Tongling (2020).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 69.6,
+    "y": 48.6
+   },
+   "borrada": "imagens/agosto2020-308fb149-b.jpg"
+  },
+  "margem": {
+   "arquivo": "",
+   "rotulo": "Deslizamento na margem",
+   "commons": "Three Gorges Reservoir bank landslide",
+   "semFoto": true
+  },
+  "colapso": {
+   "arquivo": "",
+   "rotulo": "Margem colapsada",
+   "commons": "Three Gorges Reservoir shore collapse Wushan",
+   "semFoto": true
+  },
+  "flutuacao": {
+   "arquivo": "",
+   "rotulo": "Zona de variação do nível",
+   "commons": "Three Gorges Reservoir water level fluctuation zone",
+   "semFoto": true
+  },
+  "delta": {
+   "arquivo": "imagens/delta-f39346db.jpg",
+   "rotulo": "Delta do Yangtzé visto do espaço",
+   "commons": "Yangtze River Delta satellite NASA",
+   "autor": "NASA Earth Observatory image by Jesse Allen, using data from the Level 1 and Atmospheres Active Distribution System (LAADS). Story by Adam Voiland, with information from Zhifa Luo (East China Normal University).",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Eastchina_and_Eastchina_Sea_tmo_2017313_lrg.jpg",
+   "titulo": "File:Eastchina and Eastchina Sea tmo 2017313 lrg.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 8.4,
+    "y": 15.7
+   },
+   "borrada": "imagens/delta-f39346db-b.jpg"
+  },
+  "poyang": {
+   "arquivo": "imagens/poyang-8652d4d7.jpg",
+   "rotulo": "Lago Poyang",
+   "wiki": "Lago Poyang",
+   "commons": "Poyang Lake",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Satelites_image_of_Lake_Poyang.png",
+   "titulo": "File:Satelites image of Lake Poyang.png",
+   "largura": 640,
+   "altura": 780,
+   "rostos": 0,
+   "foco": {
+    "x": 60.5,
+    "y": 38.6
+   },
+   "borrada": "imagens/poyang-8652d4d7-b.jpg"
+  },
+  "baiji": {
+   "arquivo": "imagens/baiji-6ddf7283.jpg",
+   "rotulo": "Baiji, golfinho do Yangtzé",
+   "wiki": "Baiji",
+   "commons": "Baiji Yangtze river dolphin",
+   "autor": "FlyingBatt",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Yangtze_river_dolphin_(or_Baiji)_(lipotes_vexillifer)_%26_narrow-ridged_finless_porpoisespecimen.jpg",
+   "titulo": "File:Yangtze river dolphin (or Baiji) (lipotes vexillifer) & narrow-ridged finless porpoisespecimen.jpg",
+   "largura": 1440,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 44.4,
+    "y": 47.0
+   },
+   "borrada": "imagens/baiji-6ddf7283-b.jpg"
+  },
+  "porpoise": {
+   "arquivo": "imagens/porpoise-990a014f.jpg",
+   "rotulo": "Boto do Yangtzé",
+   "commons": "Yangtze finless porpoise",
+   "autor": "Huangdan2060",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Yangtze_finless_porpoise,_10_November_2006.jpg",
+   "titulo": "File:Yangtze finless porpoise, 10 November 2006.jpg",
+   "largura": 1547,
+   "altura": 2114,
+   "rostos": 0,
+   "foco": {
+    "x": 54.6,
+    "y": 80
+   },
+   "borrada": "imagens/porpoise-990a014f-b.jpg"
+  },
+  "esturjao": {
+   "arquivo": "imagens/esturjao-8f13b997.jpg",
+   "rotulo": "Esturjão-chinês",
+   "commons": "Chinese sturgeon Acipenser sinensis",
+   "autor": "Shizhao",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Acipenser_sinensis.JPG",
+   "titulo": "File:Acipenser sinensis.JPG",
+   "largura": 1920,
+   "altura": 587,
+   "rostos": 0,
+   "foco": {
+    "x": 62.7,
+    "y": 45.5
+   },
+   "borrada": "imagens/esturjao-8f13b997-b.jpg"
+  },
+  "pesca": {
+   "arquivo": "imagens/pesca-e136dbbe.jpg",
+   "rotulo": "Pesca no Yangtzé",
+   "commons": "Yangtze River fishing boat",
+   "autor": "Jan Kranendonk (https://www.jankranendonk.nl)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fishing_boat_on_the_Yangtze_river_in_1988.jpg",
+   "titulo": "File:Fishing boat on the Yangtze river in 1988.jpg",
+   "largura": 1920,
+   "altura": 1282,
+   "rostos": 0,
+   "foco": {
+    "x": 62.0,
+    "y": 53.5
+   },
+   "borrada": "imagens/pesca-e136dbbe-b.jpg"
+  },
+  "tracionadores": {
+   "arquivo": "",
+   "rotulo": "Rebocadores humanos no Yangtzé",
+   "commons": "Yangtze trackers Three Gorges boat haulers",
+   "semFoto": true
+  },
+  "portochq": {
+   "arquivo": "",
+   "rotulo": "Porto de Chongqing",
+   "commons": "Chongqing port Yangtze container ship",
+   "semFoto": true
+  },
+  "eclusa": {
+   "arquivo": "",
+   "rotulo": "Eclusa de cinco degraus",
+   "commons": "Three Gorges Dam ship lock five-stage",
+   "semFoto": true
+  },
+  "elevador": {
+   "arquivo": "imagens/elevador-abe940e7.jpg",
+   "rotulo": "Elevador de navios",
+   "commons": "Three Gorges Dam ship lift",
+   "autor": "risastla",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:20260518-In_de_scheepslift_van_de_Drieklovendam_in_de_Yantzerivier.jpg",
+   "titulo": "File:20260518-In de scheepslift van de Drieklovendam in de Yantzerivier.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 71.4,
+    "y": 50.7
+   },
+   "borrada": "imagens/elevador-abe940e7-b.jpg"
+  },
+  "barcos": {
+   "arquivo": "imagens/barcos-dcee9b0d.jpg",
+   "rotulo": "Navios na eclusa",
+   "commons": "Three Gorges Dam ship lock ships queue",
+   "autor": "BluesyPete",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ecluse3GorgesChine1.JPG",
+   "titulo": "File:Ecluse3GorgesChine1.JPG",
+   "largura": 1920,
+   "altura": 1437,
+   "rostos": 0,
+   "foco": {
+    "x": 48.9,
+    "y": 47.0
+   },
+   "borrada": "imagens/barcos-dcee9b0d-b.jpg"
+  },
+  "noite": {
+   "arquivo": "imagens/noite-5440e960.jpg",
+   "rotulo": "A barragem à noite",
+   "commons": "Three Gorges Dam at night",
+   "autor": "Harald Groven",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://www.flickr.com/photos/50048728@N00/229629067",
+   "titulo": "3 Gorges Dam at night",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 43.8,
+    "y": 73.3
+   },
+   "borrada": "imagens/noite-5440e960-b.jpg"
+  },
+  "wuhan2": {
+   "arquivo": "imagens/wuhan2-502e8788.jpg",
+   "rotulo": "Wuhan, na margem do Yangtzé",
+   "commons": "Wuhan Hankou Yangtze riverfront",
+   "autor": "chengpeng1978",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/ponte-do-rio-de-wuhan-yangtze-198315/",
+   "titulo": "ponte do rio de wuhan yangtze, edifício, o rio de yangtze",
+   "largura": 1280,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 32.1,
+    "y": 43.4
+   },
+   "borrada": "imagens/wuhan2-502e8788-b.jpg"
+  },
+  "panorama": {
+   "arquivo": "imagens/panorama-7acf85d6.jpg",
+   "rotulo": "Panorama da barragem",
+   "commons": "Three Gorges Dam panorama",
+   "autor": "Desconhecido",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:200407-sandouping-sanxiadaba.jpg",
+   "titulo": "File:200407-sandouping-sanxiadaba.jpg",
+   "largura": 1920,
+   "altura": 790,
+   "rostos": 0,
+   "foco": {
+    "x": 35.6,
+    "y": 58.4
+   },
+   "borrada": "imagens/panorama-7acf85d6-b.jpg"
+  },
+  "aerea2": {
+   "arquivo": "imagens/aerea2-53038669.jpg",
+   "rotulo": "A barragem vista de cima",
+   "commons": "Three Gorges Dam from above",
+   "autor": "Raki_Man",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Three_Gorges_Dam_-_panoramio.jpg",
+   "titulo": "File:Three Gorges Dam - panoramio.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 58.4
+   },
+   "borrada": "imagens/aerea2-53038669-b.jpg"
+  },
+  "usinavista": {
+   "arquivo": "imagens/usinavista-489ff00d.jpg",
+   "rotulo": "A usina vista de lado",
+   "commons": "Three Gorges Dam side view",
+   "autor": "Fredlyfish4",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Three_Gorges_Dam_October_2016.jpg",
+   "titulo": "File:Three Gorges Dam October 2016.jpg",
+   "largura": 1920,
+   "altura": 537,
+   "rostos": 0,
+   "foco": {
+    "x": 33.1,
+    "y": 29.9
+   },
+   "borrada": "imagens/usinavista-489ff00d-b.jpg"
+  },
+  "wu": {
+   "arquivo": "imagens/wu-a4fbe13f.jpg",
+   "rotulo": "Garganta de Wu",
+   "commons": "Wu Gorge Yangtze",
+   "autor": "Jan Kranendonk (https://www.jankranendonk.nl)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Three_gorges_on_the_Yangtze_river.jpg",
+   "titulo": "File:Three gorges on the Yangtze river.jpg",
+   "largura": 1920,
+   "altura": 1293,
+   "rostos": 1,
+   "foco": {
+    "x": 67.3,
+    "y": 36.7
+   },
+   "borrada": "imagens/wu-a4fbe13f-b.jpg"
+  },
+  "sanxia": {
+   "arquivo": "",
+   "rotulo": "As gargantas no início do século XX",
+   "commons": "Yangtze Three Gorges old photograph early 20th century",
+   "semFoto": true
+  },
+  "tiananmen": {
+   "arquivo": "imagens/tiananmen-94cd05fc.jpg",
+   "rotulo": "Praça da Paz Celestial, Pequim",
+   "commons": "Tiananmen Square Beijing",
+   "autor": "viarami",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/t%C3%AAmpora-pal%C3%A1cio-constru%C3%A7%C3%A3o-museu-5477462/",
+   "titulo": "têmpora, palácio, construção, museu, cidade proibida, china, arquitetura, ásia, pequim, cidade, cultura, tradicionalmente, religião, marco, metrópole",
+   "largura": 853,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 49.2,
+    "y": 70.6
+   },
+   "borrada": "imagens/tiananmen-94cd05fc-b.jpg"
+  },
+  "indeniza": {
+   "arquivo": "",
+   "rotulo": "Terras agrícolas no vale",
+   "commons": "Three Gorges resettlement farmland terraces Yangtze",
+   "semFoto": true
+  },
+  "enchimento": {
+   "arquivo": "",
+   "rotulo": "Enchimento do reservatório",
+   "commons": "Three Gorges Reservoir filling 2003 Zigui",
+   "semFoto": true
+  },
+  "itaipu2": {
+   "arquivo": "imagens/itaipu2-75959fc9.jpg",
+   "rotulo": "Itaipu vista do alto",
+   "commons": "Itaipu Dam Paraná River aerial",
+   "autor": "Deni Williams from São Paulo, Brasil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_(17174796329).jpg",
+   "titulo": "File:Usina Hidroelétrica Itaipu Binacional - Itaipu Dam (17174796329).jpg",
+   "largura": 1920,
+   "altura": 1276,
+   "rostos": 0,
+   "foco": {
+    "x": 45.0,
+    "y": 57.9
+   },
+   "borrada": "imagens/itaipu2-75959fc9-b.jpg"
+  },
+  "cientistas": {
+   "arquivo": "",
+   "rotulo": "Monitoramento hidrológico",
+   "commons": "Three Gorges Dam hydrological station Yichang",
+   "semFoto": true
+  },
+  "planicie": {
+   "arquivo": "",
+   "rotulo": "Planície do Yangtzé",
+   "commons": "Jianghan Plain Yangtze floodplain",
+   "semFoto": true
+  },
+  "tgrio": {
+   "arquivo": "imagens/tgrio-8096a401.jpg",
+   "rotulo": "Rio Yangtzé abaixo da barragem",
+   "commons": "Three Gorges Dam downstream Yangtze river",
+   "autor": "Richardelainechambers at English Wikipedia",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Three_gorges_dam_view_from_vantage_point.jpg",
+   "titulo": "File:Three gorges dam view from vantage point.jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 47.4,
+    "y": 64.1
+   },
+   "borrada": "imagens/tgrio-8096a401-b.jpg"
+  },
+  "cargas": {
+   "arquivo": "imagens/cargas-7f349dba.jpg",
+   "rotulo": "Carga no Yangtzé",
+   "commons": "Yangtze River cargo ship Three Gorges",
+   "autor": "The original uploader was Leonard G. at English Wikipedia.",
+   "licenca": "CC SA 1.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:CargoRiverboat.jpg",
+   "titulo": "File:CargoRiverboat.jpg",
+   "largura": 800,
+   "altura": 380,
+   "rostos": 0,
+   "foco": {
+    "x": 55.6,
+    "y": 39.7
+   },
+   "borrada": "imagens/cargas-7f349dba-b.jpg"
+  },
+  "chamine": {
+   "arquivo": "imagens/chamine-d481b7a7.jpg",
+   "rotulo": "Usina a carvão",
+   "commons": "Coal power plant China chimney",
+   "autor": "Desconhecido",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ChineseCoalPower_opt.jpg",
+   "titulo": "File:ChineseCoalPower opt.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 43.3,
+    "y": 80
+   },
+   "borrada": "imagens/chamine-d481b7a7-b.jpg"
+  },
+  "por": {
+   "arquivo": "imagens/por-127b0325.jpg",
+   "rotulo": "Yangtzé ao entardecer",
+   "commons": "Yangtze River Three Gorges sunset",
+   "autor": "Andrew Hitchcock",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dusk_on_the_Yangtze_River.jpg",
+   "titulo": "File:Dusk on the Yangtze River.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 63.0,
+    "y": 79.3
+   },
+   "borrada": "imagens/por-127b0325-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-03T10:54:17.639Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +8248,78 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Three Gorges Dam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Three_Gorges_Dam"
+  },
+  {
+   "titulo": "Dam breaks hydropower record — The Water Network",
+   "url": "https://thewaternetwork.com/article-FfV/dam-breaks-hydropower-record-eG_UNZWMT7Zlg077XSxLyQ"
+  },
+  {
+   "titulo": "China's Three Gorges Dam generates record amount of power — Energy Digital",
+   "url": "https://www.energydigital.com/renewable-energy/chinas-three-gorges-dam-generates-record-amount-power"
+  },
+  {
+   "titulo": "Three Gorges Dam ushers in largest flood peak — CGTN, 20/08/2020",
+   "url": "https://news.cgtn.com/news/2020-08-20/China-s-Three-Gorges-Dam-ushers-in-largest-flood-peak--T6vmjnCdNe/share_amp.html"
+  },
+  {
+   "titulo": "Water inside China's Three Gorges Dam nears maximum levels — Al Jazeera, 2020",
+   "url": "https://www.aljazeera.com/amp/news/2020/8/21/water-inside-chinas-three-gorges-dam-nears-maximum-levels"
+  },
+  {
+   "titulo": "Yangtze River's No 2 flood passes Three Gorges Dam — gov.cn, 2020",
+   "url": "https://english.www.gov.cn/news/photos/202007/20/content_WS5f1502edc6d00bd0989c6400.html"
+  },
+  {
+   "titulo": "China Says Three Gorges Dam Could Become Environmental 'Catastrophe' — VOA, 2007",
+   "url": "https://www.voanews.com/amp/a-13-2007-09-27-voa11-66787612/565586.html"
+  },
+  {
+   "titulo": "China downplays Three Gorges Dam damage — NBC News",
+   "url": "https://www.nbcnews.com/news/amp/wbna21924911"
+  },
+  {
+   "titulo": "China's Three Gorges Dam plagued by environmental problems — Grist",
+   "url": "https://grist.org/article/gorges-aint-gorgeous/"
+  },
+  {
+   "titulo": "More people relocated for Three Gorges project — China Daily, 2006",
+   "url": "https://covid-19.chinadaily.com.cn/china/2006-10/02/content_851166.htm"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Três Gargantas: a maior usina do mundo vale a pena?",
+   "O preço da maior hidrelétrica do planeta: números e polêmicas",
+   "A conta da Três Gargantas"
+  ],
+  "descricao": "A barragem das Três Gargantas, no rio Yangtzé, é a maior usina hidrelétrica do mundo em capacidade instalada. O vídeo analisa os números de geração, o controle de cheias e os custos sociais e ambientais, com dados datados e mais de um ponto de vista.\n\n0:00 Gancho\n0:45 Promessa\n1:05 O sonho de um século\n2:00 A decisão\n2:50 O vale submerso\n3:40 Números da obra\n4:25 Energia em escala\n5:10 Quanto custou\n5:35 Controle de cheias\n6:30 O outro lado\n7:20 Fauna, navegação e balanço\n\nFontes: Wikipedia (Three Gorges Dam); CGTN, 20/08/2020; Al Jazeera, 2020; gov.cn, 2020; VOA, 2007; NBC News; Grist; China Daily, 2006; Energy Digital.",
+  "tags": [
+   "Três Gargantas",
+   "Three Gorges Dam",
+   "maior usina do mundo",
+   "hidrelétrica",
+   "rio Yangtzé",
+   "China",
+   "engenharia",
+   "Itaipu",
+   "controle de cheias",
+   "impacto ambiental",
+   "documentário",
+   "Inova mundo"
+  ]
  }
 }

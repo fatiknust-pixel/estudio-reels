@@ -1,0 +1,150 @@
+{
+ "titulo": "Três Gargantas: a maior usina do mundo vale a pena?",
+ "estilo": {"dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo", "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite"},
+ "legenda": {"palavrasPorTela": 8},
+ "fontesPesquisa": [
+  {"titulo": "Three Gorges Dam — Wikipedia", "url": "https://en.wikipedia.org/wiki/Three_Gorges_Dam"},
+  {"titulo": "Dam breaks hydropower record — The Water Network", "url": "https://thewaternetwork.com/article-FfV/dam-breaks-hydropower-record-eG_UNZWMT7Zlg077XSxLyQ"},
+  {"titulo": "China's Three Gorges Dam generates record amount of power — Energy Digital", "url": "https://www.energydigital.com/renewable-energy/chinas-three-gorges-dam-generates-record-amount-power"},
+  {"titulo": "Three Gorges Dam ushers in largest flood peak — CGTN, 20/08/2020", "url": "https://news.cgtn.com/news/2020-08-20/China-s-Three-Gorges-Dam-ushers-in-largest-flood-peak--T6vmjnCdNe/share_amp.html"},
+  {"titulo": "Water inside China's Three Gorges Dam nears maximum levels — Al Jazeera, 2020", "url": "https://www.aljazeera.com/amp/news/2020/8/21/water-inside-chinas-three-gorges-dam-nears-maximum-levels"},
+  {"titulo": "Yangtze River's No 2 flood passes Three Gorges Dam — gov.cn, 2020", "url": "https://english.www.gov.cn/news/photos/202007/20/content_WS5f1502edc6d00bd0989c6400.html"},
+  {"titulo": "China Says Three Gorges Dam Could Become Environmental 'Catastrophe' — VOA, 2007", "url": "https://www.voanews.com/amp/a-13-2007-09-27-voa11-66787612/565586.html"},
+  {"titulo": "China downplays Three Gorges Dam damage — NBC News", "url": "https://www.nbcnews.com/news/amp/wbna21924911"},
+  {"titulo": "China's Three Gorges Dam plagued by environmental problems — Grist", "url": "https://grist.org/article/gorges-aint-gorgeous/"},
+  {"titulo": "More people relocated for Three Gorges project — China Daily, 2006", "url": "https://covid-19.chinadaily.com.cn/china/2006-10/02/content_851166.htm"}
+ ],
+ "publicacao": {
+  "titulos": ["Três Gargantas: a maior usina do mundo vale a pena?", "O preço da maior hidrelétrica do planeta: números e polêmicas", "A conta da Três Gargantas"],
+  "descricao": "A barragem das Três Gargantas, no rio Yangtzé, é a maior usina hidrelétrica do mundo em capacidade instalada. O vídeo analisa os números de geração, o controle de cheias e os custos sociais e ambientais, com dados datados e mais de um ponto de vista.\n\n0:00 Gancho\n0:45 Promessa\n1:05 O sonho de um século\n2:00 A decisão\n2:50 O vale submerso\n3:40 Números da obra\n4:25 Energia em escala\n5:10 Quanto custou\n5:35 Controle de cheias\n6:30 O outro lado\n7:20 Fauna, navegação e balanço\n\nFontes: Wikipedia (Three Gorges Dam); CGTN, 20/08/2020; Al Jazeera, 2020; gov.cn, 2020; VOA, 2007; NBC News; Grist; China Daily, 2006; Energy Digital.",
+  "tags": ["Três Gargantas", "Three Gorges Dam", "maior usina do mundo", "hidrelétrica", "rio Yangtzé", "China", "engenharia", "Itaipu", "controle de cheias", "impacto ambiental", "documentário", "Inova mundo"]
+ },
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em dois mil e vinte, a maior usina do planeta recebeu a maior enchente desde que o reservatório foi enchido. Setenta e cinco mil metros cúbicos de água por segundo desciam o rio Yangtzé, e a barragem deixou sair cerca de quarenta e nove mil. A usina segurou o resto. Para quem mora rio abaixo, isso pode ser a diferença entre um susto e uma tragédia. Mas essa mesma obra deslocou mais de um milhão de pessoas e mudou para sempre um dos maiores rios do mundo. Então, afinal, a Três Gargantas valeu a pena? A resposta honesta tem mais de um lado.",
+   "galeria": ["cheia2020", "comportas", "usinavista", "wuhan", "reservatorio", "aerea"],
+   "galeriaEm": [0, "Setenta", "segurou", "mora", "deslocou", "afinal"],
+   "fontes": ["CGTN, 2020", "Global Times"],
+   "elementos": [
+    {"tipo": "contador", "de": 0, "ate": 75000, "unidade": "m³/s", "rotulo": "Pico de cheia em agosto de 2020", "cor": "azul", "posicao": "alto", "em": "Setenta"}
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Neste vídeo, você vai ver os números da maior hidrelétrica já construída e o que ela faz contra as cheias. Vamos separar dado oficial de crítica, sempre com data e fonte, porque muita coisa sobre essa obra circula sem checagem. E no fim, vamos olhar a pergunta que engenheiros e críticos fazem: o que o rio e as pessoas perderam em troca?",
+   "galeria": ["mapachina", "yangtzemapa", "xiling", "wu"],
+   "galeriaEm": [0, "separar", "engenheiros", "perderam"],
+   "fontes": ["Wikipédia"],
+   "elementos": []
+  },
+  {
+   "id": "sonho",
+   "texto": "O Yangtzé é o rio mais longo da Ásia, com cerca de seis mil e trezentos quilômetros, e corta a China de oeste a leste. Por séculos, ele deu comida e transporte, mas também desgraça: suas cheias estão entre as mais mortais da história. Em mil novecentos e dezenove, o líder republicano Sun Yat-sen já sugeria represar as Três Gargantas para domar o rio e gerar energia. Uma das piores enchentes registradas, em mil novecentos e trinta e um, matou centenas de milhares de pessoas, em estimativas que variam bastante. Antes de tentar algo maior, a China testou a ideia na barragem de Gezhouba, rio abaixo, concluída em mil novecentos e oitenta e oito.",
+   "galeria": ["yangtze", "enchente", "sunyatsen", "sanxia", "cheia1931", "gezhouba"],
+   "galeriaEm": [0, "comida", "republicano", "represar", "piores", "testou"],
+   "fontes": ["Wikipédia"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "O SONHO DE UM SÉCULO", "sub": "1919 a 1994", "posicao": "topo", "em": 0}
+   ]
+  },
+  {
+   "id": "decisao",
+   "texto": "Em mil novecentos e noventa e dois, o Congresso Nacional do Povo aprovou o projeto, mas com um dado raro: quase um terço dos delegados não votou a favor. Foram mil setecentos e sessenta e sete votos a favor, cento e setenta e sete contra e seiscentas e sessenta e quatro abstenções. Em catorze de dezembro de mil novecentos e noventa e quatro, começaram as obras em Sandouping, no meio das Três Gargantas. Era preciso desviar o rio, escavar rocha e despejar milhões de metros cúbicos de concreto, com o Yangtzé correndo ao lado. Mas antes de encher qualquer reservatório, havia um problema muito maior: o que fazer com quem vivia no vale?",
+   "galeria": ["greathall", "lipeng", "tiananmen", "sandouping", "construcao", "fengjiebaidi"],
+   "galeriaEm": [0, "Foram", "abstenções", "catorze", "desviar", "problema"],
+   "fontes": ["Wikipédia", "Congresso Nacional do Povo, 1992"],
+   "elementos": [
+    {"tipo": "linha", "itens": [["1992", "Aprovação"], ["1994", "Início das obras"], ["2003", "Enchimento"], ["2012", "Última turbina"]], "posicao": "alto", "em": "Congresso"}
+   ]
+  },
+  {
+   "id": "vale",
+   "texto": "A água do reservatório cobriria treze cidades, cento e quarenta vilas e mais de mil povoados. Uma das cidades condenadas era Fengjie, com mais de dois mil anos de história, e ela foi reconstruída em um terreno mais alto. O plano previa remover um milhão e cento e trinta mil pessoas, mas relatos de dois mil e seis já falavam em mais de um milhão e trezentos mil. Boa parte foi para Chongqing e para áreas mais altas. Pesquisadores e jornalistas registraram queixas sobre indenização e perda de terras agrícolas. Também mudaram desfiladeiros e paisagens que poetas chineses cantavam há séculos. E isso era só o começo da conta.",
+   "galeria": ["wanzhou", "fengjie", "deslocados", "chongqing", "indeniza", "qutang"],
+   "galeriaEm": [0, "Fengjie", "plano", "Chongqing", "Pesquisadores", "desfiladeiros"],
+   "fontes": ["Wikipédia", "China Daily, 2006"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "O VALE SUBMERSO", "sub": "Cidades e vilas", "posicao": "topo", "em": 0}
+   ]
+  },
+  {
+   "id": "numeros",
+   "texto": "A barragem tem dois mil trezentos e trinta e cinco metros de comprimento e cento e oitenta e cinco metros de altura. O reservatório vai por mais de seiscentos quilômetros rio acima, um lago comprido e estreito que segue o antigo leito do rio. Em dois mil e três, a água começou a subir. Em maio de dois mil e seis, o corpo principal da barragem ficou pronto. E em dois mil e doze, a última grande turbina entrou em operação, completando trinta e dois geradores principais. Somados a dois menores, que alimentam a própria usina, são vinte e dois mil e quinhentos megawatts de capacidade instalada.",
+   "galeria": ["muro", "reservatorio2", "enchimento", "dam2006", "geradores", "usina"],
+   "galeriaEm": [0, "reservatório", "água", "maio", "última", "Somados"],
+   "fontes": ["Wikipédia", "China Three Gorges Corporation"],
+   "elementos": [
+    {"tipo": "contador", "de": 0, "ate": 2335, "unidade": "m", "rotulo": "Comprimento da barragem", "cor": "azul", "posicao": "alto", "em": "dois"}
+   ]
+  },
+  {
+   "id": "energia",
+   "texto": "Isso faz da Três Gargantas a maior usina hidrelétrica do mundo em capacidade instalada, à frente de Itaipu, no Brasil. Mas capacidade é uma coisa; geração é outra. Em dois mil e dezesseis, Itaipu produziu cerca de cento e três terawatts-hora, recorde mundial na época. Em dois mil e vinte, com chuvas fortes, a Três Gargantas gerou perto de cento e doze terawatts-hora, segundo dados da operadora. É energia para dezenas de milhões de casas, sem queimar carvão. Segundo reportagens, o investimento foi recuperado em dois mil e treze. Só que existe um número que os críticos sempre citam: o custo da obra, e quanto a conta cresceu depois.",
+   "galeria": ["itaipu", "itaipuvert", "itaipu2", "tg2020", "linhas", "yuan"],
+   "galeriaEm": [0, "geração", "recorde", "chuvas", "dezenas", "críticos"],
+   "fontes": ["Energy Digital", "The Water Network", "Wikipédia"],
+   "elementos": [
+    {"tipo": "contador", "de": 0, "ate": 112, "unidade": "TWh", "rotulo": "Geração em 2020, segundo a operadora", "cor": "verde", "posicao": "alto", "em": "perto"}
+   ]
+  },
+  {
+   "id": "custo",
+   "texto": "A estimativa oficial gira em torno de duzentos e três bilhões de iuanes, algo como trinta bilhões de dólares, dependendo da fonte e da época. Algumas publicações falam em valores bem maiores, quando somam reassentamento, manutenção e proteção das margens. Os defensores dizem que a energia paga a conta. Os críticos respondem que custos ambientais e sociais ficam fora do balanço. Mas existe uma pergunta anterior: a barragem protege mesmo contra as cheias que a justificaram?",
+   "galeria": ["custo", "ctgc", "wuhanponte", "diques"],
+   "galeriaEm": [0, "publicações", "defensores", "pergunta"],
+   "fontes": ["Wikipédia", "OilPrice"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "QUANTO CUSTOU?", "sub": "Estimativas", "posicao": "topo", "em": 0}
+   ]
+  },
+  {
+   "id": "cheias",
+   "texto": "Em mil novecentos e cinquenta e quatro, uma grande enchente deixou Wuhan alagada por meses. Em mil novecentos e noventa e oito, outra afetou milhões de pessoas. A Três Gargantas foi desenhada para deixar espaço vazio no fim da estação seca e absorver a água das chuvas de verão. Em julho de dois mil e vinte, segundo a operadora, a barragem reteve cerca de quarenta e cinco por cento de uma onda de sessenta e um mil metros cúbicos por segundo. Em agosto, veio o maior pico desde o enchimento: setenta e cinco mil entrando e perto de quarenta e nove mil saindo. Esses números vêm em grande parte da própria operadora e da imprensa estatal. Cientistas independentes concordam que ajuda, mas discutem o quanto.",
+   "galeria": ["cheia1954", "cheia1998", "vazio", "julho2020", "agosto2020", "descarga", "cientistas"],
+   "galeriaEm": [0, "outra", "desenhada", "julho", "agosto", "Esses", "Cientistas"],
+   "fontes": ["CGTN, 2020", "Global Times, 2020", "Al Jazeera"],
+   "elementos": [
+    {"tipo": "contador", "de": 75000, "ate": 49000, "unidade": "m³/s", "rotulo": "Entrada e saída, 20 de agosto de 2020", "cor": "azul", "posicao": "alto", "em": "agosto"}
+   ]
+  },
+  {
+   "id": "virada",
+   "texto": "Aqui está a virada. Em dois mil e sete, autoridades chinesas fizeram um alerta raro: a obra poderia virar uma catástrofe ambiental se os problemas não fossem enfrentados. A mesma imprensa estatal relatou que as margens do reservatório haviam desabado em noventa e um pontos, somando trinta e seis quilômetros. O nível da água sobe e desce dezenas de metros a cada ano, e isso enfraquece encostas inteiras. Outro problema é o sedimento. O rio carregava lodo e areia que alimentavam margens e planícies, e agora boa parte fica retida atrás da barragem. Água sem sedimento corre mais agressiva e pode corroer diques rio abaixo. Autoridades dizem que a sedimentação ficou abaixo do previsto, mas cientistas contestam, e há debate sobre efeitos em lagos como o Poyang.",
+   "galeria": ["margem", "colapso", "flutuacao", "delta", "planicie", "jingjiang", "poyang"],
+   "galeriaEm": [0, "imprensa", "nível", "sedimento", "planícies", "corroer", "previsto"],
+   "fontes": ["VOA News, 2007", "Grist", "NBC News"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "O OUTRO LADO", "sub": "Alertas ambientais", "posicao": "topo", "em": 0}
+   ]
+  },
+  {
+   "id": "fauna",
+   "texto": "O rio também perdeu espécies. O baiji, o golfinho do Yangtzé, foi dado como funcionalmente extinto após uma expedição científica em dois mil e seis. A represa não foi a única causa: pesca predatória, tráfego de barcos e poluição também pesaram. Mas ela cortou o rio em dois. Peixes migratórios, como o esturjão-chinês, perderam o caminho até as áreas de desova. Desde janeiro de dois mil e vinte e um, a China proíbe a pesca comercial no Yangtzé por dez anos, numa tentativa de recuperar o ecossistema.",
+   "galeria": ["baiji", "tgrio", "porpoise", "esturjao", "pesca"],
+   "galeriaEm": [0, "represa", "cortou", "Peixes", "janeiro"],
+   "fontes": ["Grist"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "O RIO E A FAUNA", "sub": "Espécies", "posicao": "topo", "em": 0}
+   ]
+  },
+  {
+   "id": "navegacao",
+   "texto": "Mas a obra também resolveu um gargalo histórico. As Três Gargantas eram famosas por corredeiras perigosas, onde barcos eram puxados por homens. Com a água mais alta, navios maiores passaram a subir até Chongqing, e a carga transportada no rio cresceu muito, segundo relatos oficiais. Para passar pela barragem, os barcos usam uma eclusa de cinco degraus, uma das maiores do mundo. Em dois mil e dezesseis, entrou em operação também um elevador de navios, capaz de levantar embarcações de até três mil toneladas. É mais um ponto a favor. A dificuldade é pesar tudo isso na mesma balança.",
+   "galeria": ["tracionadores", "portochq", "cargas", "eclusa", "elevador", "barcos"],
+   "galeriaEm": [0, "Chongqing", "carga", "eclusa", "elevador", "dificuldade"],
+   "fontes": ["Wikipédia"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "NAVEGAÇÃO", "sub": "Eclusa e elevador", "posicao": "topo", "em": 0}
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então voltemos à pergunta do começo. Em energia, o saldo é enorme: mais de cem terawatts-hora por ano, sem fumaça de chaminé. Em cheias, a barragem ajuda a proteger milhões de pessoas, ainda que os números exatos dependam de dados da operadora. Em custos humanos e ambientais, a conta é pesada: mais de um milhão de deslocados, encostas instáveis, sedimentos retidos e espécies perdidas. A resposta depende do que uma sociedade aceita pagar pelo progresso. A Três Gargantas mostra que grandes obras raramente têm um preço só. Um rio represado continua correndo, mas já não é o mesmo rio.",
+   "galeria": ["noite", "chamine", "wuhan2", "panorama", "aerea2", "por"],
+   "galeriaEm": [0, "fumaça", "proteger", "pesada", "sociedade", "represado"],
+   "fontes": ["Fontes citadas no vídeo"],
+   "elementos": []
+  }
+ ]
+}
