@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-04T17:54:48.578Z",
- "atualizadoEm": "2026-11-04T17:54:48.578Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-04T18:07:59Z",
+ "status": "pronto",
  "pedido": {
   "tema": "O que aconteceu com o Concorde? — ângulo: Por que um avião de passageiros supersônico que funcionava deixou de voar em 2003. Mistura tecnologia, economia, o acidente de 2000 e o que as startups atuais tentam repetir.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,7019 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em vinte e quatro de outubro de dois mil e três, o último Concorde comercial pousou no aeroporto de Heathrow, em Londres. Era o fim de vinte e sete anos de voos ao dobro da velocidade do som, com travessias do Atlântico em menos de três horas e meia. Não era um protótipo, nem um fracasso técnico. Funcionava. Então por que o Concorde deixou de voar?",
+   "galeria": [
+    "c-pouso",
+    "c-heathrow",
+    "c-voo",
+    "c-atlantico",
+    "c-prototipo"
+   ],
+   "galeriaEm": [
+    0,
+    "Heathrow",
+    "sete",
+    "Atlântico",
+    "protótipo"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "promessa",
+   "texto": "Esta é a história de uma aposta bilionária da França e do Reino Unido. Vamos ver como o Concorde foi feito, por que o barulho dele limitou as rotas, o que o acidente de dois mil colocou em jogo, e por que, mais de vinte anos depois, empresas voltam a tentar a mesma ideia. No fim, você vai entender que o avião não morreu de um só motivo. Morreu de uma soma de contas.",
+   "galeria": [
+    "c-duplo",
+    "c-brooklands",
+    "c-boom",
+    "c-hangar"
+   ],
+   "galeriaEm": [
+    0,
+    "feito,",
+    "barulho",
+    "empresas"
+   ],
+   "fontes": [],
+   "elementos": []
+  },
+  {
+   "id": "aposta",
+   "texto": "Nos anos cinquenta, a aviação sonhava com o próximo salto: voar mais rápido que o som levando passageiros. Em mil novecentos e sessenta e dois, França e Reino Unido assinaram um tratado para construir o avião juntos. O projeto uniu duas indústrias rivais, a britânica e a francesa, que precisaram dividir cada decisão. A estimativa inicial era de setenta milhões de libras. A conta final ficou entre um bilhão e meio e dois bilhões. O primeiro voo aconteceu em Toulouse, em dois de março de mil novecentos e sessenta e nove. Mas o maior obstáculo ainda estava por vir.",
+   "galeria": [
+    "c-x1",
+    "c-tratado",
+    "c-rivais",
+    "c-projeto",
+    "c-toulouse",
+    "c-p002"
+   ],
+   "galeriaEm": [
+    0,
+    "tratado",
+    "rivais,",
+    "libras",
+    "Toulouse",
+    "obstáculo"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "UMA APOSTA BILIONÁRIA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1962",
+       "Tratado"
+      ],
+      [
+       "1969",
+       "Primeiro voo"
+      ],
+      [
+       "1976",
+       "Serviço comercial"
+      ]
+     ],
+     "em": "estimativa",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "voo",
+   "texto": "O Concorde cruzava a quase dois mil e cento e cinquenta quilômetros por hora, a até dezoito mil metros de altitude. Nessa velocidade, o atrito esquenta a fuselagem, e o avião chegava a esticar vários centímetros em voo. Por isso a asa em delta e o nariz articulado, que baixava na decolagem para o piloto enxergar a pista, eram obrigatórios. As janelas eram bem pequenas, para ajudar a manter a pressão da cabine. Por dentro, o luxo era limitado: de noventa e dois a cento e vinte e oito lugares, em quatro fileiras. Quem pagava, pagava pela velocidade. Um voo que saía de Londres de manhã podia chegar a Nova York, no horário local, antes da hora em que tinha partido.",
+   "galeria": [
+    "c-cruzeiro",
+    "c-altitude",
+    "c-atrito",
+    "c-delta",
+    "c-nariz",
+    "c-janelas",
+    "c-cabine"
+   ],
+   "galeriaEm": [
+    0,
+    "dezoito",
+    "atrito",
+    "asa",
+    "nariz",
+    "janelas",
+    "luxo"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMO ELE VOAVA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 2150,
+     "unidade": "km/h",
+     "rotulo": "Velocidade média de cruzeiro",
+     "em": "quilômetros",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "estrondo",
+   "texto": "Mas havia um problema que a engenharia não resolvia: o estrondo sônico. Quando um avião passa do som, ele cria uma onda de choque que chega ao solo como uma explosão distante. Os Estados Unidos proibiram voos supersônicos sobre o território deles em mil novecentos e setenta e três. Resultado: o Concorde só podia correr sobre o oceano. Rotas como Londres e Nova York funcionaram. Perto da costa, o piloto precisava reduzir a velocidade, e parte da vantagem do avião se perdia. Quase todo o resto do mapa ficou fora. E o avião ainda bebia muito combustível.",
+   "galeria": [
+    "c-shock",
+    "c-cone",
+    "c-faa",
+    "c-oceano",
+    "c-jfk",
+    "c-costa",
+    "c-abastece"
+   ],
+   "galeriaEm": [
+    0,
+    "onda",
+    "Estados",
+    "oceano",
+    "Nova",
+    "costa",
+    "combustível"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O PROBLEMA DO ESTRONDO",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "conta",
+   "texto": "Por passageiro, o Concorde gastava quase três vezes mais combustível que um Boeing 747. Só catorze aviões entraram em serviço comercial, sete para cada companhia. Sem ganho de escala, cada peça saía cara. Pan Am e outras companhias tinham opções de compra, mas desistiram nos anos setenta, com a crise do petróleo. A passagem era vendida como luxo a executivos e celebridades, e a British Airways chegou a lucrar com a operação. Mas era um negócio frágil, que dependia de poucos clientes dispostos a pagar muito. Para as duas empresas, era também uma vitrine de prestígio nacional. E esse grupo estava prestes a mudar.",
+   "galeria": [
+    "c-747",
+    "c-frota",
+    "c-motor",
+    "c-lounge",
+    "c-assentos",
+    "c-prestigio"
+   ],
+   "galeriaEm": [
+    0,
+    "catorze",
+    "peça",
+    "executivos",
+    "frágil",
+    "prestígio"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A CONTA NÃO FECHAVA",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "acidente",
+   "texto": "Em vinte e cinco de julho de dois mil, o voo quatro mil quinhentos e noventa da Air France decolou do aeroporto Charles de Gaulle, em Paris, rumo a Nova York. Na pista, o avião passou por uma tira de titânio caída de outro avião. O pneu estourou, e pedaços de borracha atingiram o tanque de combustível. Houve vazamento e fogo. O Concorde caiu minutos depois, perto de Gonesse. Morreram cento e nove pessoas a bordo e quatro em terra. A maioria dos passageiros era de turistas alemães, a caminho de um cruzeiro. Era o primeiro acidente fatal do Concorde. E ele mudaria tudo.",
+   "galeria": [
+    "c-cdg",
+    "c-af",
+    "c-pista",
+    "c-titanio",
+    "c-pneu",
+    "c-tanque",
+    "c-gonesse",
+    "c-turistas"
+   ],
+   "galeriaEm": [
+    0,
+    "Air",
+    "pista",
+    "titânio",
+    "pneu",
+    "tanque",
+    "Gonesse",
+    "turistas"
+   ],
+   "fontes": [
+    "Wikipédia — Air France 4590"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "25 DE JULHO DE 2000",
+     "sub": "Voo Air France 4590",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "virada",
+   "texto": "Depois do acidente, todos os Concorde ficaram no chão. A investigação levou a mudanças: tanques reforçados com revestimento de kevlar e pneus novos. O serviço voltou em novembro de dois mil e um, dois meses depois dos atentados de onze de setembro. O momento não podia ser pior: as viagens de negócios entre Nova York e a Europa, principal público do avião, despencaram. Os assentos vazios aumentaram. E o custo de manter uma frota tão pequena continuava subindo, com peças feitas sob medida e poucas oficinas preparadas.",
+   "galeria": [
+    "c-chao",
+    "c-invest",
+    "c-kevlar",
+    "c-retorno",
+    "c-wtc",
+    "c-vazios",
+    "c-manutencao"
+   ],
+   "galeriaEm": [
+    0,
+    "investigação",
+    "kevlar",
+    "novembro",
+    "atentados",
+    "assentos",
+    "frota"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O MUNDO MUDOU",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "fim",
+   "texto": "Em abril de dois mil e três, Air France e British Airways anunciaram a aposentadoria do Concorde. Alegaram queda no número de passageiros e custos de manutenção que só cresciam. A Airbus, responsável pelo suporte técnico, também deixaria de dar assistência ao avião. Em vinte e quatro de outubro, aconteceu o último voo comercial. Em vinte e seis de novembro, o último de todos, até Filton, perto de Bristol, onde esse Concorde foi construído.",
+   "galeria": [
+    "c-af-fim",
+    "c-ba-fim",
+    "c-airbus",
+    "c-ultimo",
+    "c-filton",
+    "c-boaf"
+   ],
+   "galeriaEm": [
+    0,
+    "British",
+    "Airbus",
+    "outubro",
+    "Filton",
+    "construído"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O FIM ANUNCIADO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "abr 2003",
+       "Aposentadoria anunciada"
+      ],
+      [
+       "24 out 2003",
+       "Último voo comercial"
+      ],
+      [
+       "26 nov 2003",
+       "Último voo"
+      ]
+     ],
+     "em": "Alegaram",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "hoje",
+   "texto": "Dezoito dos vinte Concorde construídos estão preservados em museus, de Seattle a Nova York, de Paris a Barbados. Desde então, nenhum avião de passageiros supersônico voltou a voar. Passaram-se mais de vinte anos, e a viagem entre Londres e Nova York volta a levar cerca de oito horas. A velocidade média dos voos comerciais ficou parada, porque as companhias passaram a priorizar economia em vez de rapidez. Mas a ideia não morreu. Uma empresa americana, a Boom Supersonic, promete reabrir esse caminho. E o primeiro passo dela já aconteceu.",
+   "galeria": [
+    "c-seattle",
+    "c-intrepid",
+    "c-bourget",
+    "c-barbados",
+    "c-777",
+    "c-boomhq"
+   ],
+   "galeriaEm": [
+    0,
+    "Nova",
+    "Paris",
+    "Barbados",
+    "horas",
+    "Boom"
+   ],
+   "fontes": [
+    "Wikipédia — Concorde"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "E HOJE?",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 18,
+     "unidade": "aviões",
+     "rotulo": "Concordes preservados em museus",
+     "em": "preservados",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "boom",
+   "texto": "Em janeiro de dois mil e vinte e cinco, o XB-1, avião de demonstração da Boom, passou a barreira do som. O avião de passageiros que vem depois, o Overture, deve levar de sessenta a oitenta pessoas, a mach um vírgula sete, com pedidos da United, da American e da Japan Airlines. Os prazos já mudaram várias vezes, e a empresa fala em entrar em serviço por volta de dois mil e vinte e nove ou trinta. Segundo a Boom, a ideia é cobrar tarifas próximas às da classe executiva, e não um luxo extremo. Resta saber se o preço e as regras contra o estrondo deixarão o sonho voar.",
+   "galeria": [
+    "c-xb1",
+    "c-overture",
+    "c-united",
+    "c-jal",
+    "c-fabrica",
+    "c-x59"
+   ],
+   "galeriaEm": [
+    0,
+    "Overture",
+    "United",
+    "Japan",
+    "prazos",
+    "estrondo"
+   ],
+   "fontes": [
+    "Wikipédia — Boom Overture"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A NOVA CORRIDA",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "A lição do Concorde talvez seja simples: tecnologia que funciona não basta. Ela precisa caber na regra, na conta e no mundo em que voa. O Concorde foi rápido demais para o barulho que fazia, caro demais para os passageiros que sobraram e único demais para ser consertado em escala. Ele mostrou que o limite de um avião não é só físico: é também econômico e político. Se a próxima geração vai aprender com isso, só os próximos anos dirão. O céu, afinal, continua esperando a resposta.",
+   "galeria": [
+    "c-cockpit",
+    "c-sol",
+    "c-red",
+    "c-boac",
+    "c-f-bvfa",
+    "c-ceu"
+   ],
+   "galeriaEm": [
+    0,
+    "regra",
+    "rápido",
+    "caro",
+    "limite",
+    "geração"
+   ],
+   "fontes": [],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "4335f24672",
+   "texto": "Em vinte e quatro de outubro de dois mil e três, o último Concorde comercial pousou no aeroporto de Heathrow, em Londres. Era o fim de vinte e sete anos de voos ao dobro da velocidade do som, com travessias do Atlântico em menos de três horas e meia. Não era um protótipo, nem um fracasso técnico. Funcionava. Então por que o Concorde deixou de voar?",
+   "audio": "audio/gancho-4335f24672.mp3",
+   "duracao": 22.596,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "vinte",
+     "i": 0.297,
+     "f": 0.545
+    },
+    {
+     "p": "e",
+     "i": 0.558,
+     "f": 0.571
+    },
+    {
+     "p": "quatro",
+     "i": 0.584,
+     "f": 0.935
+    },
+    {
+     "p": "de",
+     "i": 0.948,
+     "f": 1.04
+    },
+    {
+     "p": "outubro",
+     "i": 1.053,
+     "f": 1.482
+    },
+    {
+     "p": "de",
+     "i": 1.495,
+     "f": 1.586
+    },
+    {
+     "p": "dois",
+     "i": 1.599,
+     "f": 1.795
+    },
+    {
+     "p": "mil",
+     "i": 1.808,
+     "f": 1.925
+    },
+    {
+     "p": "e",
+     "i": 1.938,
+     "f": 2.003
+    },
+    {
+     "p": "três",
+     "i": 2.016,
+     "f": 2.394
+    },
+    {
+     "p": "o",
+     "i": 2.719,
+     "f": 2.823
+    },
+    {
+     "p": "último",
+     "i": 2.836,
+     "f": 3.201
+    },
+    {
+     "p": "Concorde",
+     "i": 3.214,
+     "f": 3.735
+    },
+    {
+     "p": "comercial",
+     "i": 3.748,
+     "f": 4.334
+    },
+    {
+     "p": "pousou",
+     "i": 4.347,
+     "f": 4.79
+    },
+    {
+     "p": "no",
+     "i": 4.803,
+     "f": 4.894
+    },
+    {
+     "p": "aeroporto",
+     "i": 4.907,
+     "f": 5.493
+    },
+    {
+     "p": "de",
+     "i": 5.506,
+     "f": 5.61
+    },
+    {
+     "p": "Heathrow",
+     "i": 5.623,
+     "f": 6.118
+    },
+    {
+     "p": "em",
+     "i": 6.404,
+     "f": 6.56
+    },
+    {
+     "p": "Londres",
+     "i": 6.573,
+     "f": 7.12
+    },
+    {
+     "p": "Era",
+     "i": 7.454,
+     "f": 7.662
+    },
+    {
+     "p": "o",
+     "i": 7.675,
+     "f": 7.715
+    },
+    {
+     "p": "fim",
+     "i": 7.728,
+     "f": 7.936
+    },
+    {
+     "p": "de",
+     "i": 7.949,
+     "f": 8.066
+    },
+    {
+     "p": "vinte",
+     "i": 8.079,
+     "f": 8.313
+    },
+    {
+     "p": "e",
+     "i": 8.327,
+     "f": 8.34
+    },
+    {
+     "p": "sete",
+     "i": 8.353,
+     "f": 8.691
+    },
+    {
+     "p": "anos",
+     "i": 8.704,
+     "f": 9.004
+    },
+    {
+     "p": "de",
+     "i": 9.017,
+     "f": 9.108
+    },
+    {
+     "p": "voos",
+     "i": 9.121,
+     "f": 9.459
+    },
+    {
+     "p": "ao",
+     "i": 9.472,
+     "f": 9.681
+    },
+    {
+     "p": "dobro",
+     "i": 9.694,
+     "f": 10.019
+    },
+    {
+     "p": "da",
+     "i": 10.032,
+     "f": 10.123
+    },
+    {
+     "p": "velocidade",
+     "i": 10.136,
+     "f": 10.787
+    },
+    {
+     "p": "do",
+     "i": 10.8,
+     "f": 10.905
+    },
+    {
+     "p": "som",
+     "i": 10.918,
+     "f": 11.256
+    },
+    {
+     "p": "com",
+     "i": 11.582,
+     "f": 11.751
+    },
+    {
+     "p": "travessias",
+     "i": 11.764,
+     "f": 12.35
+    },
+    {
+     "p": "do",
+     "i": 12.363,
+     "f": 12.493
+    },
+    {
+     "p": "Atlântico",
+     "i": 12.506,
+     "f": 13.131
+    },
+    {
+     "p": "em",
+     "i": 13.144,
+     "f": 13.222
+    },
+    {
+     "p": "menos",
+     "i": 13.235,
+     "f": 13.587
+    },
+    {
+     "p": "de",
+     "i": 13.6,
+     "f": 13.717
+    },
+    {
+     "p": "três",
+     "i": 13.73,
+     "f": 14.03
+    },
+    {
+     "p": "horas",
+     "i": 14.043,
+     "f": 14.394
+    },
+    {
+     "p": "e",
+     "i": 14.407,
+     "f": 14.524
+    },
+    {
+     "p": "meia",
+     "i": 14.537,
+     "f": 14.889
+    },
+    {
+     "p": "Não",
+     "i": 15.238,
+     "f": 15.59
+    },
+    {
+     "p": "era",
+     "i": 15.603,
+     "f": 15.772
+    },
+    {
+     "p": "um",
+     "i": 15.785,
+     "f": 15.85
+    },
+    {
+     "p": "protótipo",
+     "i": 15.863,
+     "f": 16.527
+    },
+    {
+     "p": "nem",
+     "i": 16.749,
+     "f": 16.944
+    },
+    {
+     "p": "um",
+     "i": 16.957,
+     "f": 17.061
+    },
+    {
+     "p": "fracasso",
+     "i": 17.074,
+     "f": 17.66
+    },
+    {
+     "p": "técnico",
+     "i": 17.673,
+     "f": 18.207
+    },
+    {
+     "p": "Funcionava",
+     "i": 18.558,
+     "f": 19.43
+    },
+    {
+     "p": "Então",
+     "i": 19.766,
+     "f": 20.209
+    },
+    {
+     "p": "por",
+     "i": 20.222,
+     "f": 20.378
+    },
+    {
+     "p": "que",
+     "i": 20.391,
+     "f": 20.56
+    },
+    {
+     "p": "o",
+     "i": 20.573,
+     "f": 20.652
+    },
+    {
+     "p": "Concorde",
+     "i": 20.665,
+     "f": 21.25
+    },
+    {
+     "p": "deixou",
+     "i": 21.263,
+     "f": 21.654
+    },
+    {
+     "p": "de",
+     "i": 21.667,
+     "f": 21.758
+    },
+    {
+     "p": "voar",
+     "i": 21.771,
+     "f": 22.11
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "c52ccdd365",
+   "texto": "Esta é a história de uma aposta bilionária da França e do Reino Unido. Vamos ver como o Concorde foi feito, por que o barulho dele limitou as rotas, o que o acidente de dois mil colocou em jogo, e por que, mais de vinte anos depois, empresas voltam a tentar a mesma ideia. No fim, você vai entender que o avião não morreu de um só motivo. Morreu de uma soma de contas.",
+   "audio": "audio/promessa-c52ccdd365.mp3",
+   "duracao": 23.458,
+   "palavras": [
+    {
+     "p": "Esta",
+     "i": 0.102,
+     "f": 0.402
+    },
+    {
+     "p": "é",
+     "i": 0.415,
+     "f": 0.454
+    },
+    {
+     "p": "a",
+     "i": 0.467,
+     "f": 0.493
+    },
+    {
+     "p": "história",
+     "i": 0.506,
+     "f": 0.922
+    },
+    {
+     "p": "de",
+     "i": 0.935,
+     "f": 1.001
+    },
+    {
+     "p": "uma",
+     "i": 1.014,
+     "f": 1.105
+    },
+    {
+     "p": "aposta",
+     "i": 1.118,
+     "f": 1.56
+    },
+    {
+     "p": "bilionária",
+     "i": 1.573,
+     "f": 2.107
+    },
+    {
+     "p": "da",
+     "i": 2.12,
+     "f": 2.238
+    },
+    {
+     "p": "França",
+     "i": 2.251,
+     "f": 2.693
+    },
+    {
+     "p": "e",
+     "i": 2.706,
+     "f": 2.732
+    },
+    {
+     "p": "do",
+     "i": 2.745,
+     "f": 2.876
+    },
+    {
+     "p": "Reino",
+     "i": 2.889,
+     "f": 3.149
+    },
+    {
+     "p": "Unido",
+     "i": 3.162,
+     "f": 3.54
+    },
+    {
+     "p": "Vamos",
+     "i": 3.878,
+     "f": 4.256
+    },
+    {
+     "p": "ver",
+     "i": 4.269,
+     "f": 4.503
+    },
+    {
+     "p": "como",
+     "i": 4.516,
+     "f": 4.751
+    },
+    {
+     "p": "o",
+     "i": 4.764,
+     "f": 4.79
+    },
+    {
+     "p": "Concorde",
+     "i": 4.803,
+     "f": 5.362
+    },
+    {
+     "p": "foi",
+     "i": 5.375,
+     "f": 5.545
+    },
+    {
+     "p": "feito",
+     "i": 5.558,
+     "f": 5.948
+    },
+    {
+     "p": "por",
+     "i": 6.3,
+     "f": 6.469
+    },
+    {
+     "p": "que",
+     "i": 6.482,
+     "f": 6.638
+    },
+    {
+     "p": "o",
+     "i": 6.652,
+     "f": 6.691
+    },
+    {
+     "p": "barulho",
+     "i": 6.704,
+     "f": 7.146
+    },
+    {
+     "p": "dele",
+     "i": 7.159,
+     "f": 7.368
+    },
+    {
+     "p": "limitou",
+     "i": 7.381,
+     "f": 7.797
+    },
+    {
+     "p": "as",
+     "i": 7.81,
+     "f": 7.928
+    },
+    {
+     "p": "rotas",
+     "i": 7.941,
+     "f": 8.396
+    },
+    {
+     "p": "o",
+     "i": 8.8,
+     "f": 8.865
+    },
+    {
+     "p": "que",
+     "i": 8.878,
+     "f": 8.982
+    },
+    {
+     "p": "o",
+     "i": 8.995,
+     "f": 9.06
+    },
+    {
+     "p": "acidente",
+     "i": 9.073,
+     "f": 9.607
+    },
+    {
+     "p": "de",
+     "i": 9.62,
+     "f": 9.711
+    },
+    {
+     "p": "dois",
+     "i": 9.724,
+     "f": 9.933
+    },
+    {
+     "p": "mil",
+     "i": 9.946,
+     "f": 10.128
+    },
+    {
+     "p": "colocou",
+     "i": 10.141,
+     "f": 10.623
+    },
+    {
+     "p": "em",
+     "i": 10.636,
+     "f": 10.727
+    },
+    {
+     "p": "jogo",
+     "i": 10.74,
+     "f": 11.144
+    },
+    {
+     "p": "e",
+     "i": 11.508,
+     "f": 11.612
+    },
+    {
+     "p": "por",
+     "i": 11.625,
+     "f": 11.821
+    },
+    {
+     "p": "que",
+     "i": 11.834,
+     "f": 12.055
+    },
+    {
+     "p": "mais",
+     "i": 12.342,
+     "f": 12.576
+    },
+    {
+     "p": "de",
+     "i": 12.589,
+     "f": 12.68
+    },
+    {
+     "p": "vinte",
+     "i": 12.693,
+     "f": 13.019
+    },
+    {
+     "p": "anos",
+     "i": 13.032,
+     "f": 13.266
+    },
+    {
+     "p": "depois",
+     "i": 13.279,
+     "f": 13.735
+    },
+    {
+     "p": "empresas",
+     "i": 14.021,
+     "f": 14.568
+    },
+    {
+     "p": "voltam",
+     "i": 14.581,
+     "f": 14.998
+    },
+    {
+     "p": "a",
+     "i": 15.011,
+     "f": 15.05
+    },
+    {
+     "p": "tentar",
+     "i": 15.063,
+     "f": 15.441
+    },
+    {
+     "p": "a",
+     "i": 15.454,
+     "f": 15.519
+    },
+    {
+     "p": "mesma",
+     "i": 15.532,
+     "f": 15.909
+    },
+    {
+     "p": "ideia",
+     "i": 15.922,
+     "f": 16.313
+    },
+    {
+     "p": "No",
+     "i": 16.654,
+     "f": 16.836
+    },
+    {
+     "p": "fim",
+     "i": 16.849,
+     "f": 17.149
+    },
+    {
+     "p": "você",
+     "i": 17.553,
+     "f": 17.839
+    },
+    {
+     "p": "vai",
+     "i": 17.852,
+     "f": 17.969
+    },
+    {
+     "p": "entender",
+     "i": 17.982,
+     "f": 18.477
+    },
+    {
+     "p": "que",
+     "i": 18.49,
+     "f": 18.568
+    },
+    {
+     "p": "o",
+     "i": 18.581,
+     "f": 18.646
+    },
+    {
+     "p": "avião",
+     "i": 18.659,
+     "f": 19.037
+    },
+    {
+     "p": "não",
+     "i": 19.05,
+     "f": 19.245
+    },
+    {
+     "p": "morreu",
+     "i": 19.258,
+     "f": 19.636
+    },
+    {
+     "p": "de",
+     "i": 19.649,
+     "f": 19.74
+    },
+    {
+     "p": "um",
+     "i": 19.753,
+     "f": 19.87
+    },
+    {
+     "p": "só",
+     "i": 19.883,
+     "f": 20.079
+    },
+    {
+     "p": "motivo",
+     "i": 20.092,
+     "f": 20.638
+    },
+    {
+     "p": "Morreu",
+     "i": 20.982,
+     "f": 21.464
+    },
+    {
+     "p": "de",
+     "i": 21.477,
+     "f": 21.594
+    },
+    {
+     "p": "uma",
+     "i": 21.607,
+     "f": 21.789
+    },
+    {
+     "p": "soma",
+     "i": 21.802,
+     "f": 22.167
+    },
+    {
+     "p": "de",
+     "i": 22.18,
+     "f": 22.297
+    },
+    {
+     "p": "contas",
+     "i": 22.31,
+     "f": 22.896
+    }
+   ]
+  },
+  "aposta": {
+   "hash": "cfd9a2af68",
+   "texto": "Nos anos cinquenta, a aviação sonhava com o próximo salto: voar mais rápido que o som levando passageiros. Em mil novecentos e sessenta e dois, França e Reino Unido assinaram um tratado para construir o avião juntos. O projeto uniu duas indústrias rivais, a britânica e a francesa, que precisaram dividir cada decisão. A estimativa inicial era de setenta milhões de libras. A conta final ficou entre um bilhão e meio e dois bilhões. O primeiro voo aconteceu em Toulouse, em dois de março de mil novecentos e sessenta e nove. Mas o maior obstáculo ainda estava por vir.",
+   "audio": "audio/aposta-cfd9a2af68.mp3",
+   "duracao": 36.284,
+   "palavras": [
+    {
+     "p": "Nos",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "anos",
+     "i": 0.336,
+     "f": 0.662
+    },
+    {
+     "p": "cinquenta",
+     "i": 0.675,
+     "f": 1.261
+    },
+    {
+     "p": "a",
+     "i": 1.521,
+     "f": 1.626
+    },
+    {
+     "p": "aviação",
+     "i": 1.639,
+     "f": 2.12
+    },
+    {
+     "p": "sonhava",
+     "i": 2.133,
+     "f": 2.654
+    },
+    {
+     "p": "com",
+     "i": 2.667,
+     "f": 2.823
+    },
+    {
+     "p": "o",
+     "i": 2.836,
+     "f": 2.889
+    },
+    {
+     "p": "próximo",
+     "i": 2.902,
+     "f": 3.331
+    },
+    {
+     "p": "salto",
+     "i": 3.344,
+     "f": 3.761
+    },
+    {
+     "p": "voar",
+     "i": 4.073,
+     "f": 4.373
+    },
+    {
+     "p": "mais",
+     "i": 4.386,
+     "f": 4.633
+    },
+    {
+     "p": "rápido",
+     "i": 4.646,
+     "f": 5.076
+    },
+    {
+     "p": "que",
+     "i": 5.089,
+     "f": 5.18
+    },
+    {
+     "p": "o",
+     "i": 5.193,
+     "f": 5.245
+    },
+    {
+     "p": "som",
+     "i": 5.258,
+     "f": 5.48
+    },
+    {
+     "p": "levando",
+     "i": 5.493,
+     "f": 5.896
+    },
+    {
+     "p": "passageiros",
+     "i": 5.909,
+     "f": 6.717
+    },
+    {
+     "p": "Em",
+     "i": 7.07,
+     "f": 7.226
+    },
+    {
+     "p": "mil",
+     "i": 7.239,
+     "f": 7.383
+    },
+    {
+     "p": "novecentos",
+     "i": 7.396,
+     "f": 8.008
+    },
+    {
+     "p": "e",
+     "i": 8.021,
+     "f": 8.138
+    },
+    {
+     "p": "sessenta",
+     "i": 8.151,
+     "f": 8.489
+    },
+    {
+     "p": "e",
+     "i": 8.502,
+     "f": 8.541
+    },
+    {
+     "p": "dois",
+     "i": 8.554,
+     "f": 8.854
+    },
+    {
+     "p": "França",
+     "i": 9.127,
+     "f": 9.583
+    },
+    {
+     "p": "e",
+     "i": 9.596,
+     "f": 9.622
+    },
+    {
+     "p": "Reino",
+     "i": 9.635,
+     "f": 9.896
+    },
+    {
+     "p": "Unido",
+     "i": 9.909,
+     "f": 10.208
+    },
+    {
+     "p": "assinaram",
+     "i": 10.221,
+     "f": 10.651
+    },
+    {
+     "p": "um",
+     "i": 10.664,
+     "f": 10.729
+    },
+    {
+     "p": "tratado",
+     "i": 10.742,
+     "f": 11.25
+    },
+    {
+     "p": "para",
+     "i": 11.263,
+     "f": 11.458
+    },
+    {
+     "p": "construir",
+     "i": 11.471,
+     "f": 12.057
+    },
+    {
+     "p": "o",
+     "i": 12.07,
+     "f": 12.135
+    },
+    {
+     "p": "avião",
+     "i": 12.148,
+     "f": 12.578
+    },
+    {
+     "p": "juntos",
+     "i": 12.591,
+     "f": 13.138
+    },
+    {
+     "p": "O",
+     "i": 13.486,
+     "f": 13.616
+    },
+    {
+     "p": "projeto",
+     "i": 13.629,
+     "f": 14.163
+    },
+    {
+     "p": "uniu",
+     "i": 14.176,
+     "f": 14.424
+    },
+    {
+     "p": "duas",
+     "i": 14.437,
+     "f": 14.71
+    },
+    {
+     "p": "indústrias",
+     "i": 14.723,
+     "f": 15.426
+    },
+    {
+     "p": "rivais",
+     "i": 15.439,
+     "f": 15.999
+    },
+    {
+     "p": "a",
+     "i": 16.26,
+     "f": 16.299
+    },
+    {
+     "p": "britânica",
+     "i": 16.312,
+     "f": 16.898
+    },
+    {
+     "p": "e",
+     "i": 16.911,
+     "f": 16.976
+    },
+    {
+     "p": "a",
+     "i": 16.989,
+     "f": 17.067
+    },
+    {
+     "p": "francesa",
+     "i": 17.08,
+     "f": 17.705
+    },
+    {
+     "p": "que",
+     "i": 18.017,
+     "f": 18.148
+    },
+    {
+     "p": "precisaram",
+     "i": 18.161,
+     "f": 18.773
+    },
+    {
+     "p": "dividir",
+     "i": 18.786,
+     "f": 19.241
+    },
+    {
+     "p": "cada",
+     "i": 19.254,
+     "f": 19.567
+    },
+    {
+     "p": "decisão",
+     "i": 19.58,
+     "f": 20.114
+    },
+    {
+     "p": "A",
+     "i": 20.454,
+     "f": 20.558
+    },
+    {
+     "p": "estimativa",
+     "i": 20.571,
+     "f": 21.17
+    },
+    {
+     "p": "inicial",
+     "i": 21.183,
+     "f": 21.756
+    },
+    {
+     "p": "era",
+     "i": 21.769,
+     "f": 21.951
+    },
+    {
+     "p": "de",
+     "i": 21.965,
+     "f": 22.056
+    },
+    {
+     "p": "setenta",
+     "i": 22.069,
+     "f": 22.603
+    },
+    {
+     "p": "milhões",
+     "i": 22.616,
+     "f": 23.058
+    },
+    {
+     "p": "de",
+     "i": 23.071,
+     "f": 23.175
+    },
+    {
+     "p": "libras",
+     "i": 23.188,
+     "f": 23.735
+    },
+    {
+     "p": "A",
+     "i": 24.086,
+     "f": 24.216
+    },
+    {
+     "p": "conta",
+     "i": 24.229,
+     "f": 24.62
+    },
+    {
+     "p": "final",
+     "i": 24.633,
+     "f": 24.998
+    },
+    {
+     "p": "ficou",
+     "i": 25.011,
+     "f": 25.414
+    },
+    {
+     "p": "entre",
+     "i": 25.427,
+     "f": 25.636
+    },
+    {
+     "p": "um",
+     "i": 25.649,
+     "f": 25.714
+    },
+    {
+     "p": "bilhão",
+     "i": 25.727,
+     "f": 26.195
+    },
+    {
+     "p": "e",
+     "i": 26.208,
+     "f": 26.274
+    },
+    {
+     "p": "meio",
+     "i": 26.287,
+     "f": 26.612
+    },
+    {
+     "p": "e",
+     "i": 26.625,
+     "f": 26.677
+    },
+    {
+     "p": "dois",
+     "i": 26.69,
+     "f": 27.042
+    },
+    {
+     "p": "bilhões",
+     "i": 27.055,
+     "f": 27.797
+    },
+    {
+     "p": "O",
+     "i": 28.15,
+     "f": 28.293
+    },
+    {
+     "p": "primeiro",
+     "i": 28.306,
+     "f": 28.71
+    },
+    {
+     "p": "voo",
+     "i": 28.723,
+     "f": 28.97
+    },
+    {
+     "p": "aconteceu",
+     "i": 28.983,
+     "f": 29.569
+    },
+    {
+     "p": "em",
+     "i": 29.582,
+     "f": 29.674
+    },
+    {
+     "p": "Toulouse",
+     "i": 29.687,
+     "f": 30.194
+    },
+    {
+     "p": "em",
+     "i": 30.455,
+     "f": 30.546
+    },
+    {
+     "p": "dois",
+     "i": 30.559,
+     "f": 30.845
+    },
+    {
+     "p": "de",
+     "i": 30.858,
+     "f": 30.95
+    },
+    {
+     "p": "março",
+     "i": 30.963,
+     "f": 31.353
+    },
+    {
+     "p": "de",
+     "i": 31.366,
+     "f": 31.483
+    },
+    {
+     "p": "mil",
+     "i": 31.496,
+     "f": 31.64
+    },
+    {
+     "p": "novecentos",
+     "i": 31.653,
+     "f": 32.213
+    },
+    {
+     "p": "e",
+     "i": 32.226,
+     "f": 32.343
+    },
+    {
+     "p": "sessenta",
+     "i": 32.356,
+     "f": 32.759
+    },
+    {
+     "p": "e",
+     "i": 32.772,
+     "f": 32.799
+    },
+    {
+     "p": "nove",
+     "i": 32.812,
+     "f": 33.202
+    },
+    {
+     "p": "Mas",
+     "i": 33.534,
+     "f": 33.755
+    },
+    {
+     "p": "o",
+     "i": 33.768,
+     "f": 33.886
+    },
+    {
+     "p": "maior",
+     "i": 33.899,
+     "f": 34.224
+    },
+    {
+     "p": "obstáculo",
+     "i": 34.237,
+     "f": 34.849
+    },
+    {
+     "p": "ainda",
+     "i": 34.862,
+     "f": 35.097
+    },
+    {
+     "p": "estava",
+     "i": 35.11,
+     "f": 35.5
+    },
+    {
+     "p": "por",
+     "i": 35.513,
+     "f": 35.683
+    },
+    {
+     "p": "vir",
+     "i": 35.696,
+     "f": 35.917
+    }
+   ]
+  },
+  "voo": {
+   "hash": "ad7714d969",
+   "texto": "O Concorde cruzava a quase dois mil e cento e cinquenta quilômetros por hora, a até dezoito mil metros de altitude. Nessa velocidade, o atrito esquenta a fuselagem, e o avião chegava a esticar vários centímetros em voo. Por isso a asa em delta e o nariz articulado, que baixava na decolagem para o piloto enxergar a pista, eram obrigatórios. As janelas eram bem pequenas, para ajudar a manter a pressão da cabine. Por dentro, o luxo era limitado: de noventa e dois a cento e vinte e oito lugares, em quatro fileiras. Quem pagava, pagava pela velocidade. Um voo que saía de Londres de manhã podia chegar a Nova York, no horário local, antes da hora em que tinha partido.",
+   "audio": "audio/voo-ad7714d969.mp3",
+   "duracao": 42.057,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "Concorde",
+     "i": 0.232,
+     "f": 0.831
+    },
+    {
+     "p": "cruzava",
+     "i": 0.844,
+     "f": 1.365
+    },
+    {
+     "p": "a",
+     "i": 1.378,
+     "f": 1.417
+    },
+    {
+     "p": "quase",
+     "i": 1.43,
+     "f": 1.769
+    },
+    {
+     "p": "dois",
+     "i": 1.782,
+     "f": 2.016
+    },
+    {
+     "p": "mil",
+     "i": 2.029,
+     "f": 2.146
+    },
+    {
+     "p": "e",
+     "i": 2.159,
+     "f": 2.211
+    },
+    {
+     "p": "cento",
+     "i": 2.224,
+     "f": 2.498
+    },
+    {
+     "p": "e",
+     "i": 2.511,
+     "f": 2.537
+    },
+    {
+     "p": "cinquenta",
+     "i": 2.55,
+     "f": 3.006
+    },
+    {
+     "p": "quilômetros",
+     "i": 3.019,
+     "f": 3.605
+    },
+    {
+     "p": "por",
+     "i": 3.618,
+     "f": 3.787
+    },
+    {
+     "p": "hora",
+     "i": 3.8,
+     "f": 4.06
+    },
+    {
+     "p": "a",
+     "i": 4.347,
+     "f": 4.425
+    },
+    {
+     "p": "até",
+     "i": 4.438,
+     "f": 4.698
+    },
+    {
+     "p": "dezoito",
+     "i": 4.711,
+     "f": 5.18
+    },
+    {
+     "p": "mil",
+     "i": 5.193,
+     "f": 5.376
+    },
+    {
+     "p": "metros",
+     "i": 5.389,
+     "f": 5.792
+    },
+    {
+     "p": "de",
+     "i": 5.805,
+     "f": 5.87
+    },
+    {
+     "p": "altitude",
+     "i": 5.883,
+     "f": 6.521
+    },
+    {
+     "p": "Nessa",
+     "i": 6.854,
+     "f": 7.245
+    },
+    {
+     "p": "velocidade",
+     "i": 7.258,
+     "f": 8
+    },
+    {
+     "p": "o",
+     "i": 8.247,
+     "f": 8.325
+    },
+    {
+     "p": "atrito",
+     "i": 8.338,
+     "f": 8.768
+    },
+    {
+     "p": "esquenta",
+     "i": 8.781,
+     "f": 9.172
+    },
+    {
+     "p": "a",
+     "i": 9.185,
+     "f": 9.224
+    },
+    {
+     "p": "fuselagem",
+     "i": 9.237,
+     "f": 9.927
+    },
+    {
+     "p": "e",
+     "i": 10.253,
+     "f": 10.344
+    },
+    {
+     "p": "o",
+     "i": 10.357,
+     "f": 10.422
+    },
+    {
+     "p": "avião",
+     "i": 10.435,
+     "f": 10.812
+    },
+    {
+     "p": "chegava",
+     "i": 10.825,
+     "f": 11.294
+    },
+    {
+     "p": "a",
+     "i": 11.307,
+     "f": 11.333
+    },
+    {
+     "p": "esticar",
+     "i": 11.346,
+     "f": 11.854
+    },
+    {
+     "p": "vários",
+     "i": 11.867,
+     "f": 12.206
+    },
+    {
+     "p": "centímetros",
+     "i": 12.219,
+     "f": 12.831
+    },
+    {
+     "p": "em",
+     "i": 12.844,
+     "f": 13.013
+    },
+    {
+     "p": "voo",
+     "i": 13.026,
+     "f": 13.378
+    },
+    {
+     "p": "Por",
+     "i": 13.726,
+     "f": 13.934
+    },
+    {
+     "p": "isso",
+     "i": 13.947,
+     "f": 14.234
+    },
+    {
+     "p": "a",
+     "i": 14.247,
+     "f": 14.286
+    },
+    {
+     "p": "asa",
+     "i": 14.299,
+     "f": 14.585
+    },
+    {
+     "p": "em",
+     "i": 14.599,
+     "f": 14.677
+    },
+    {
+     "p": "delta",
+     "i": 14.69,
+     "f": 15.093
+    },
+    {
+     "p": "e",
+     "i": 15.106,
+     "f": 15.158
+    },
+    {
+     "p": "o",
+     "i": 15.171,
+     "f": 15.21
+    },
+    {
+     "p": "nariz",
+     "i": 15.223,
+     "f": 15.484
+    },
+    {
+     "p": "articulado",
+     "i": 15.497,
+     "f": 16.226
+    },
+    {
+     "p": "que",
+     "i": 16.526,
+     "f": 16.656
+    },
+    {
+     "p": "baixava",
+     "i": 16.669,
+     "f": 17.164
+    },
+    {
+     "p": "na",
+     "i": 17.177,
+     "f": 17.268
+    },
+    {
+     "p": "decolagem",
+     "i": 17.281,
+     "f": 17.893
+    },
+    {
+     "p": "para",
+     "i": 17.906,
+     "f": 18.075
+    },
+    {
+     "p": "o",
+     "i": 18.088,
+     "f": 18.101
+    },
+    {
+     "p": "piloto",
+     "i": 18.114,
+     "f": 18.479
+    },
+    {
+     "p": "enxergar",
+     "i": 18.492,
+     "f": 18.921
+    },
+    {
+     "p": "a",
+     "i": 18.934,
+     "f": 19
+    },
+    {
+     "p": "pista",
+     "i": 19.013,
+     "f": 19.468
+    },
+    {
+     "p": "eram",
+     "i": 19.729,
+     "f": 19.976
+    },
+    {
+     "p": "obrigatórios",
+     "i": 19.989,
+     "f": 20.888
+    },
+    {
+     "p": "As",
+     "i": 21.222,
+     "f": 21.417
+    },
+    {
+     "p": "janelas",
+     "i": 21.43,
+     "f": 21.873
+    },
+    {
+     "p": "eram",
+     "i": 21.886,
+     "f": 22.186
+    },
+    {
+     "p": "bem",
+     "i": 22.199,
+     "f": 22.42
+    },
+    {
+     "p": "pequenas",
+     "i": 22.433,
+     "f": 23.058
+    },
+    {
+     "p": "para",
+     "i": 23.305,
+     "f": 23.488
+    },
+    {
+     "p": "ajudar",
+     "i": 23.501,
+     "f": 23.865
+    },
+    {
+     "p": "a",
+     "i": 23.878,
+     "f": 23.917
+    },
+    {
+     "p": "manter",
+     "i": 23.93,
+     "f": 24.308
+    },
+    {
+     "p": "a",
+     "i": 24.321,
+     "f": 24.386
+    },
+    {
+     "p": "pressão",
+     "i": 24.399,
+     "f": 24.777
+    },
+    {
+     "p": "da",
+     "i": 24.79,
+     "f": 24.894
+    },
+    {
+     "p": "cabine",
+     "i": 24.907,
+     "f": 25.402
+    },
+    {
+     "p": "Por",
+     "i": 25.742,
+     "f": 25.95
+    },
+    {
+     "p": "dentro",
+     "i": 25.963,
+     "f": 26.432
+    },
+    {
+     "p": "o",
+     "i": 26.68,
+     "f": 26.758
+    },
+    {
+     "p": "luxo",
+     "i": 26.771,
+     "f": 27.187
+    },
+    {
+     "p": "era",
+     "i": 27.2,
+     "f": 27.318
+    },
+    {
+     "p": "limitado",
+     "i": 27.331,
+     "f": 27.93
+    },
+    {
+     "p": "de",
+     "i": 28.151,
+     "f": 28.242
+    },
+    {
+     "p": "noventa",
+     "i": 28.255,
+     "f": 28.646
+    },
+    {
+     "p": "e",
+     "i": 28.659,
+     "f": 28.698
+    },
+    {
+     "p": "dois",
+     "i": 28.711,
+     "f": 28.88
+    },
+    {
+     "p": "a",
+     "i": 28.893,
+     "f": 28.997
+    },
+    {
+     "p": "cento",
+     "i": 29.01,
+     "f": 29.349
+    },
+    {
+     "p": "e",
+     "i": 29.362,
+     "f": 29.401
+    },
+    {
+     "p": "vinte",
+     "i": 29.414,
+     "f": 29.648
+    },
+    {
+     "p": "e",
+     "i": 29.661,
+     "f": 29.674
+    },
+    {
+     "p": "oito",
+     "i": 29.687,
+     "f": 29.896
+    },
+    {
+     "p": "lugares",
+     "i": 29.909,
+     "f": 30.469
+    },
+    {
+     "p": "em",
+     "i": 30.716,
+     "f": 30.82
+    },
+    {
+     "p": "quatro",
+     "i": 30.833,
+     "f": 31.185
+    },
+    {
+     "p": "fileiras",
+     "i": 31.198,
+     "f": 31.823
+    },
+    {
+     "p": "Quem",
+     "i": 32.158,
+     "f": 32.392
+    },
+    {
+     "p": "pagava",
+     "i": 32.405,
+     "f": 32.965
+    },
+    {
+     "p": "pagava",
+     "i": 33.213,
+     "f": 33.695
+    },
+    {
+     "p": "pela",
+     "i": 33.708,
+     "f": 33.903
+    },
+    {
+     "p": "velocidade",
+     "i": 33.916,
+     "f": 34.71
+    },
+    {
+     "p": "Um",
+     "i": 35.046,
+     "f": 35.28
+    },
+    {
+     "p": "voo",
+     "i": 35.293,
+     "f": 35.593
+    },
+    {
+     "p": "que",
+     "i": 35.606,
+     "f": 35.736
+    },
+    {
+     "p": "saía",
+     "i": 35.749,
+     "f": 36.127
+    },
+    {
+     "p": "de",
+     "i": 36.14,
+     "f": 36.244
+    },
+    {
+     "p": "Londres",
+     "i": 36.257,
+     "f": 36.674
+    },
+    {
+     "p": "de",
+     "i": 36.687,
+     "f": 36.752
+    },
+    {
+     "p": "manhã",
+     "i": 36.765,
+     "f": 37.09
+    },
+    {
+     "p": "podia",
+     "i": 37.103,
+     "f": 37.429
+    },
+    {
+     "p": "chegar",
+     "i": 37.442,
+     "f": 37.78
+    },
+    {
+     "p": "a",
+     "i": 37.793,
+     "f": 37.833
+    },
+    {
+     "p": "Nova",
+     "i": 37.846,
+     "f": 38.119
+    },
+    {
+     "p": "York",
+     "i": 38.132,
+     "f": 38.536
+    },
+    {
+     "p": "no",
+     "i": 38.783,
+     "f": 38.861
+    },
+    {
+     "p": "horário",
+     "i": 38.874,
+     "f": 39.2
+    },
+    {
+     "p": "local",
+     "i": 39.213,
+     "f": 39.681
+    },
+    {
+     "p": "antes",
+     "i": 39.916,
+     "f": 40.241
+    },
+    {
+     "p": "da",
+     "i": 40.254,
+     "f": 40.385
+    },
+    {
+     "p": "hora",
+     "i": 40.398,
+     "f": 40.619
+    },
+    {
+     "p": "em",
+     "i": 40.632,
+     "f": 40.684
+    },
+    {
+     "p": "que",
+     "i": 40.697,
+     "f": 40.827
+    },
+    {
+     "p": "tinha",
+     "i": 40.84,
+     "f": 41.101
+    },
+    {
+     "p": "partido",
+     "i": 41.114,
+     "f": 41.661
+    }
+   ]
+  },
+  "estrondo": {
+   "hash": "5be25d6652",
+   "texto": "Mas havia um problema que a engenharia não resolvia: o estrondo sônico. Quando um avião passa do som, ele cria uma onda de choque que chega ao solo como uma explosão distante. Os Estados Unidos proibiram voos supersônicos sobre o território deles em mil novecentos e setenta e três. Resultado: o Concorde só podia correr sobre o oceano. Rotas como Londres e Nova York funcionaram. Perto da costa, o piloto precisava reduzir a velocidade, e parte da vantagem do avião se perdia. Quase todo o resto do mapa ficou fora. E o avião ainda bebia muito combustível.",
+   "audio": "audio/estrondo-5be25d6652.mp3",
+   "duracao": 36.284,
+   "palavras": [
+    {
+     "p": "Mas",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "havia",
+     "i": 0.297,
+     "f": 0.662
+    },
+    {
+     "p": "um",
+     "i": 0.675,
+     "f": 0.727
+    },
+    {
+     "p": "problema",
+     "i": 0.74,
+     "f": 1.287
+    },
+    {
+     "p": "que",
+     "i": 1.3,
+     "f": 1.391
+    },
+    {
+     "p": "a",
+     "i": 1.404,
+     "f": 1.43
+    },
+    {
+     "p": "engenharia",
+     "i": 1.443,
+     "f": 2.029
+    },
+    {
+     "p": "não",
+     "i": 2.042,
+     "f": 2.264
+    },
+    {
+     "p": "resolvia",
+     "i": 2.277,
+     "f": 2.915
+    },
+    {
+     "p": "o",
+     "i": 3.188,
+     "f": 3.292
+    },
+    {
+     "p": "estrondo",
+     "i": 3.305,
+     "f": 3.748
+    },
+    {
+     "p": "sônico",
+     "i": 3.761,
+     "f": 4.308
+    },
+    {
+     "p": "Quando",
+     "i": 4.646,
+     "f": 4.946
+    },
+    {
+     "p": "um",
+     "i": 4.959,
+     "f": 5.063
+    },
+    {
+     "p": "avião",
+     "i": 5.076,
+     "f": 5.44
+    },
+    {
+     "p": "passa",
+     "i": 5.453,
+     "f": 5.74
+    },
+    {
+     "p": "do",
+     "i": 5.753,
+     "f": 5.857
+    },
+    {
+     "p": "som",
+     "i": 5.87,
+     "f": 6.183
+    },
+    {
+     "p": "ele",
+     "i": 6.508,
+     "f": 6.69
+    },
+    {
+     "p": "cria",
+     "i": 6.703,
+     "f": 6.951
+    },
+    {
+     "p": "uma",
+     "i": 6.964,
+     "f": 7.133
+    },
+    {
+     "p": "onda",
+     "i": 7.146,
+     "f": 7.498
+    },
+    {
+     "p": "de",
+     "i": 7.511,
+     "f": 7.615
+    },
+    {
+     "p": "choque",
+     "i": 7.628,
+     "f": 8.045
+    },
+    {
+     "p": "que",
+     "i": 8.058,
+     "f": 8.162
+    },
+    {
+     "p": "chega",
+     "i": 8.175,
+     "f": 8.435
+    },
+    {
+     "p": "ao",
+     "i": 8.448,
+     "f": 8.539
+    },
+    {
+     "p": "solo",
+     "i": 8.552,
+     "f": 8.943
+    },
+    {
+     "p": "como",
+     "i": 8.956,
+     "f": 9.19
+    },
+    {
+     "p": "uma",
+     "i": 9.203,
+     "f": 9.321
+    },
+    {
+     "p": "explosão",
+     "i": 9.334,
+     "f": 9.815
+    },
+    {
+     "p": "distante",
+     "i": 9.828,
+     "f": 10.44
+    },
+    {
+     "p": "Os",
+     "i": 10.774,
+     "f": 10.878
+    },
+    {
+     "p": "Estados",
+     "i": 10.891,
+     "f": 11.399
+    },
+    {
+     "p": "Unidos",
+     "i": 11.412,
+     "f": 11.907
+    },
+    {
+     "p": "proibiram",
+     "i": 11.92,
+     "f": 12.467
+    },
+    {
+     "p": "voos",
+     "i": 12.48,
+     "f": 12.792
+    },
+    {
+     "p": "supersônicos",
+     "i": 12.805,
+     "f": 13.574
+    },
+    {
+     "p": "sobre",
+     "i": 13.587,
+     "f": 13.795
+    },
+    {
+     "p": "o",
+     "i": 13.808,
+     "f": 13.834
+    },
+    {
+     "p": "território",
+     "i": 13.847,
+     "f": 14.368
+    },
+    {
+     "p": "deles",
+     "i": 14.381,
+     "f": 14.654
+    },
+    {
+     "p": "em",
+     "i": 14.667,
+     "f": 14.837
+    },
+    {
+     "p": "mil",
+     "i": 14.85,
+     "f": 14.993
+    },
+    {
+     "p": "novecentos",
+     "i": 15.006,
+     "f": 15.605
+    },
+    {
+     "p": "e",
+     "i": 15.618,
+     "f": 15.722
+    },
+    {
+     "p": "setenta",
+     "i": 15.735,
+     "f": 16.087
+    },
+    {
+     "p": "e",
+     "i": 16.1,
+     "f": 16.152
+    },
+    {
+     "p": "três",
+     "i": 16.165,
+     "f": 16.581
+    },
+    {
+     "p": "Resultado",
+     "i": 16.926,
+     "f": 17.668
+    },
+    {
+     "p": "o",
+     "i": 18.007,
+     "f": 18.072
+    },
+    {
+     "p": "Concorde",
+     "i": 18.085,
+     "f": 18.684
+    },
+    {
+     "p": "só",
+     "i": 18.697,
+     "f": 18.879
+    },
+    {
+     "p": "podia",
+     "i": 18.892,
+     "f": 19.257
+    },
+    {
+     "p": "correr",
+     "i": 19.27,
+     "f": 19.621
+    },
+    {
+     "p": "sobre",
+     "i": 19.634,
+     "f": 19.895
+    },
+    {
+     "p": "o",
+     "i": 19.908,
+     "f": 19.921
+    },
+    {
+     "p": "oceano",
+     "i": 19.934,
+     "f": 20.494
+    },
+    {
+     "p": "Rotas",
+     "i": 20.846,
+     "f": 21.341
+    },
+    {
+     "p": "como",
+     "i": 21.354,
+     "f": 21.614
+    },
+    {
+     "p": "Londres",
+     "i": 21.627,
+     "f": 22.044
+    },
+    {
+     "p": "e",
+     "i": 22.057,
+     "f": 22.174
+    },
+    {
+     "p": "Nova",
+     "i": 22.187,
+     "f": 22.435
+    },
+    {
+     "p": "York",
+     "i": 22.448,
+     "f": 22.877
+    },
+    {
+     "p": "funcionaram",
+     "i": 22.89,
+     "f": 23.607
+    },
+    {
+     "p": "Perto",
+     "i": 23.95,
+     "f": 24.263
+    },
+    {
+     "p": "da",
+     "i": 24.276,
+     "f": 24.393
+    },
+    {
+     "p": "costa",
+     "i": 24.406,
+     "f": 24.836
+    },
+    {
+     "p": "o",
+     "i": 25.135,
+     "f": 25.239
+    },
+    {
+     "p": "piloto",
+     "i": 25.252,
+     "f": 25.682
+    },
+    {
+     "p": "precisava",
+     "i": 25.695,
+     "f": 26.242
+    },
+    {
+     "p": "reduzir",
+     "i": 26.255,
+     "f": 26.737
+    },
+    {
+     "p": "a",
+     "i": 26.75,
+     "f": 26.789
+    },
+    {
+     "p": "velocidade",
+     "i": 26.802,
+     "f": 27.544
+    },
+    {
+     "p": "e",
+     "i": 27.882,
+     "f": 27.974
+    },
+    {
+     "p": "parte",
+     "i": 27.987,
+     "f": 28.364
+    },
+    {
+     "p": "da",
+     "i": 28.377,
+     "f": 28.481
+    },
+    {
+     "p": "vantagem",
+     "i": 28.494,
+     "f": 29.041
+    },
+    {
+     "p": "do",
+     "i": 29.054,
+     "f": 29.184
+    },
+    {
+     "p": "avião",
+     "i": 29.197,
+     "f": 29.601
+    },
+    {
+     "p": "se",
+     "i": 29.614,
+     "f": 29.744
+    },
+    {
+     "p": "perdia",
+     "i": 29.757,
+     "f": 30.317
+    },
+    {
+     "p": "Quase",
+     "i": 30.654,
+     "f": 31.11
+    },
+    {
+     "p": "todo",
+     "i": 31.123,
+     "f": 31.474
+    },
+    {
+     "p": "o",
+     "i": 31.487,
+     "f": 31.513
+    },
+    {
+     "p": "resto",
+     "i": 31.527,
+     "f": 31.917
+    },
+    {
+     "p": "do",
+     "i": 31.93,
+     "f": 32.021
+    },
+    {
+     "p": "mapa",
+     "i": 32.034,
+     "f": 32.347
+    },
+    {
+     "p": "ficou",
+     "i": 32.36,
+     "f": 32.672
+    },
+    {
+     "p": "fora",
+     "i": 32.685,
+     "f": 33.141
+    },
+    {
+     "p": "E",
+     "i": 33.494,
+     "f": 33.611
+    },
+    {
+     "p": "o",
+     "i": 33.624,
+     "f": 33.676
+    },
+    {
+     "p": "avião",
+     "i": 33.689,
+     "f": 34.158
+    },
+    {
+     "p": "ainda",
+     "i": 34.171,
+     "f": 34.419
+    },
+    {
+     "p": "bebia",
+     "i": 34.432,
+     "f": 34.796
+    },
+    {
+     "p": "muito",
+     "i": 34.809,
+     "f": 35.252
+    },
+    {
+     "p": "combustível",
+     "i": 35.265,
+     "f": 35.981
+    }
+   ]
+  },
+  "conta": {
+   "hash": "01c1928399",
+   "texto": "Por passageiro, o Concorde gastava quase três vezes mais combustível que um Boeing 747. Só catorze aviões entraram em serviço comercial, sete para cada companhia. Sem ganho de escala, cada peça saía cara. Pan Am e outras companhias tinham opções de compra, mas desistiram nos anos setenta, com a crise do petróleo. A passagem era vendida como luxo a executivos e celebridades, e a British Airways chegou a lucrar com a operação. Mas era um negócio frágil, que dependia de poucos clientes dispostos a pagar muito. Para as duas empresas, era também uma vitrine de prestígio nacional. E esse grupo estava prestes a mudar.",
+   "audio": "audio/conta-01c1928399.mp3",
+   "duracao": 41.691,
+   "palavras": [
+    {
+     "p": "Por",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "passageiro",
+     "i": 0.271,
+     "f": 0.935
+    },
+    {
+     "p": "o",
+     "i": 1.235,
+     "f": 1.3
+    },
+    {
+     "p": "Concorde",
+     "i": 1.313,
+     "f": 1.847
+    },
+    {
+     "p": "gastava",
+     "i": 1.86,
+     "f": 2.329
+    },
+    {
+     "p": "quase",
+     "i": 2.342,
+     "f": 2.758
+    },
+    {
+     "p": "três",
+     "i": 2.771,
+     "f": 3.11
+    },
+    {
+     "p": "vezes",
+     "i": 3.123,
+     "f": 3.487
+    },
+    {
+     "p": "mais",
+     "i": 3.501,
+     "f": 3.761
+    },
+    {
+     "p": "combustível",
+     "i": 3.774,
+     "f": 4.412
+    },
+    {
+     "p": "que",
+     "i": 4.425,
+     "f": 4.529
+    },
+    {
+     "p": "um",
+     "i": 4.542,
+     "f": 4.672
+    },
+    {
+     "p": "Boeing",
+     "i": 4.685,
+     "f": 5.063
+    },
+    {
+     "p": "747",
+     "i": 5.076,
+     "f": 6.756
+    },
+    {
+     "p": "Só",
+     "i": 7.094,
+     "f": 7.381
+    },
+    {
+     "p": "catorze",
+     "i": 7.394,
+     "f": 7.94
+    },
+    {
+     "p": "aviões",
+     "i": 7.953,
+     "f": 8.331
+    },
+    {
+     "p": "entraram",
+     "i": 8.344,
+     "f": 8.852
+    },
+    {
+     "p": "em",
+     "i": 8.865,
+     "f": 8.93
+    },
+    {
+     "p": "serviço",
+     "i": 8.943,
+     "f": 9.49
+    },
+    {
+     "p": "comercial",
+     "i": 9.503,
+     "f": 10.115
+    },
+    {
+     "p": "sete",
+     "i": 10.466,
+     "f": 10.844
+    },
+    {
+     "p": "para",
+     "i": 10.857,
+     "f": 11.065
+    },
+    {
+     "p": "cada",
+     "i": 11.078,
+     "f": 11.352
+    },
+    {
+     "p": "companhia",
+     "i": 11.365,
+     "f": 12.042
+    },
+    {
+     "p": "Sem",
+     "i": 12.382,
+     "f": 12.695
+    },
+    {
+     "p": "ganho",
+     "i": 12.708,
+     "f": 13.02
+    },
+    {
+     "p": "de",
+     "i": 13.033,
+     "f": 13.111
+    },
+    {
+     "p": "escala",
+     "i": 13.124,
+     "f": 13.619
+    },
+    {
+     "p": "cada",
+     "i": 13.866,
+     "f": 14.14
+    },
+    {
+     "p": "peça",
+     "i": 14.153,
+     "f": 14.478
+    },
+    {
+     "p": "saía",
+     "i": 14.491,
+     "f": 14.921
+    },
+    {
+     "p": "cara",
+     "i": 14.934,
+     "f": 15.312
+    },
+    {
+     "p": "Pan",
+     "i": 15.654,
+     "f": 15.836
+    },
+    {
+     "p": "Am",
+     "i": 15.849,
+     "f": 15.98
+    },
+    {
+     "p": "e",
+     "i": 15.993,
+     "f": 16.11
+    },
+    {
+     "p": "outras",
+     "i": 16.123,
+     "f": 16.474
+    },
+    {
+     "p": "companhias",
+     "i": 16.487,
+     "f": 17.178
+    },
+    {
+     "p": "tinham",
+     "i": 17.191,
+     "f": 17.425
+    },
+    {
+     "p": "opções",
+     "i": 17.438,
+     "f": 17.894
+    },
+    {
+     "p": "de",
+     "i": 17.907,
+     "f": 17.998
+    },
+    {
+     "p": "compra",
+     "i": 18.011,
+     "f": 18.415
+    },
+    {
+     "p": "mas",
+     "i": 18.766,
+     "f": 18.974
+    },
+    {
+     "p": "desistiram",
+     "i": 18.987,
+     "f": 19.547
+    },
+    {
+     "p": "nos",
+     "i": 19.56,
+     "f": 19.664
+    },
+    {
+     "p": "anos",
+     "i": 19.678,
+     "f": 20.029
+    },
+    {
+     "p": "setenta",
+     "i": 20.042,
+     "f": 20.628
+    },
+    {
+     "p": "com",
+     "i": 20.914,
+     "f": 21.097
+    },
+    {
+     "p": "a",
+     "i": 21.11,
+     "f": 21.162
+    },
+    {
+     "p": "crise",
+     "i": 21.175,
+     "f": 21.526
+    },
+    {
+     "p": "do",
+     "i": 21.539,
+     "f": 21.644
+    },
+    {
+     "p": "petróleo",
+     "i": 21.657,
+     "f": 22.178
+    },
+    {
+     "p": "A",
+     "i": 22.526,
+     "f": 22.643
+    },
+    {
+     "p": "passagem",
+     "i": 22.656,
+     "f": 23.229
+    },
+    {
+     "p": "era",
+     "i": 23.242,
+     "f": 23.399
+    },
+    {
+     "p": "vendida",
+     "i": 23.412,
+     "f": 23.867
+    },
+    {
+     "p": "como",
+     "i": 23.88,
+     "f": 24.154
+    },
+    {
+     "p": "luxo",
+     "i": 24.167,
+     "f": 24.518
+    },
+    {
+     "p": "a",
+     "i": 24.531,
+     "f": 24.557
+    },
+    {
+     "p": "executivos",
+     "i": 24.57,
+     "f": 25.156
+    },
+    {
+     "p": "e",
+     "i": 25.169,
+     "f": 25.273
+    },
+    {
+     "p": "celebridades",
+     "i": 25.286,
+     "f": 26.146
+    },
+    {
+     "p": "e",
+     "i": 26.576,
+     "f": 26.654
+    },
+    {
+     "p": "a",
+     "i": 26.667,
+     "f": 26.758
+    },
+    {
+     "p": "British",
+     "i": 26.771,
+     "f": 27.24
+    },
+    {
+     "p": "Airways",
+     "i": 27.253,
+     "f": 27.604
+    },
+    {
+     "p": "chegou",
+     "i": 27.617,
+     "f": 27.943
+    },
+    {
+     "p": "a",
+     "i": 27.956,
+     "f": 27.969
+    },
+    {
+     "p": "lucrar",
+     "i": 27.982,
+     "f": 28.425
+    },
+    {
+     "p": "com",
+     "i": 28.438,
+     "f": 28.607
+    },
+    {
+     "p": "a",
+     "i": 28.62,
+     "f": 28.646
+    },
+    {
+     "p": "operação",
+     "i": 28.659,
+     "f": 29.271
+    },
+    {
+     "p": "Mas",
+     "i": 29.614,
+     "f": 29.835
+    },
+    {
+     "p": "era",
+     "i": 29.848,
+     "f": 30.122
+    },
+    {
+     "p": "um",
+     "i": 30.135,
+     "f": 30.174
+    },
+    {
+     "p": "negócio",
+     "i": 30.187,
+     "f": 30.656
+    },
+    {
+     "p": "frágil",
+     "i": 30.669,
+     "f": 31.203
+    },
+    {
+     "p": "que",
+     "i": 31.437,
+     "f": 31.541
+    },
+    {
+     "p": "dependia",
+     "i": 31.554,
+     "f": 32.101
+    },
+    {
+     "p": "de",
+     "i": 32.114,
+     "f": 32.231
+    },
+    {
+     "p": "poucos",
+     "i": 32.244,
+     "f": 32.648
+    },
+    {
+     "p": "clientes",
+     "i": 32.661,
+     "f": 33.182
+    },
+    {
+     "p": "dispostos",
+     "i": 33.195,
+     "f": 33.781
+    },
+    {
+     "p": "a",
+     "i": 33.794,
+     "f": 33.924
+    },
+    {
+     "p": "pagar",
+     "i": 33.937,
+     "f": 34.249
+    },
+    {
+     "p": "muito",
+     "i": 34.263,
+     "f": 34.705
+    },
+    {
+     "p": "Para",
+     "i": 35.046,
+     "f": 35.254
+    },
+    {
+     "p": "as",
+     "i": 35.267,
+     "f": 35.372
+    },
+    {
+     "p": "duas",
+     "i": 35.385,
+     "f": 35.645
+    },
+    {
+     "p": "empresas",
+     "i": 35.658,
+     "f": 36.361
+    },
+    {
+     "p": "era",
+     "i": 36.648,
+     "f": 36.804
+    },
+    {
+     "p": "também",
+     "i": 36.817,
+     "f": 37.208
+    },
+    {
+     "p": "uma",
+     "i": 37.221,
+     "f": 37.377
+    },
+    {
+     "p": "vitrine",
+     "i": 37.39,
+     "f": 37.82
+    },
+    {
+     "p": "de",
+     "i": 37.833,
+     "f": 37.924
+    },
+    {
+     "p": "prestígio",
+     "i": 37.937,
+     "f": 38.418
+    },
+    {
+     "p": "nacional",
+     "i": 38.431,
+     "f": 38.991
+    },
+    {
+     "p": "E",
+     "i": 39.326,
+     "f": 39.469
+    },
+    {
+     "p": "esse",
+     "i": 39.482,
+     "f": 39.717
+    },
+    {
+     "p": "grupo",
+     "i": 39.73,
+     "f": 40.029
+    },
+    {
+     "p": "estava",
+     "i": 40.042,
+     "f": 40.394
+    },
+    {
+     "p": "prestes",
+     "i": 40.407,
+     "f": 40.85
+    },
+    {
+     "p": "a",
+     "i": 40.863,
+     "f": 40.967
+    },
+    {
+     "p": "mudar",
+     "i": 40.98,
+     "f": 41.357
+    }
+   ]
+  },
+  "acidente": {
+   "hash": "da38317d71",
+   "texto": "Em vinte e cinco de julho de dois mil, o voo quatro mil quinhentos e noventa da Air France decolou do aeroporto Charles de Gaulle, em Paris, rumo a Nova York. Na pista, o avião passou por uma tira de titânio caída de outro avião. O pneu estourou, e pedaços de borracha atingiram o tanque de combustível. Houve vazamento e fogo. O Concorde caiu minutos depois, perto de Gonesse. Morreram cento e nove pessoas a bordo e quatro em terra. A maioria dos passageiros era de turistas alemães, a caminho de um cruzeiro. Era o primeiro acidente fatal do Concorde. E ele mudaria tudo.",
+   "audio": "audio/acidente-da38317d71.mp3",
+   "duracao": 37.355,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "vinte",
+     "i": 0.31,
+     "f": 0.571
+    },
+    {
+     "p": "e",
+     "i": 0.584,
+     "f": 0.61
+    },
+    {
+     "p": "cinco",
+     "i": 0.623,
+     "f": 0.935
+    },
+    {
+     "p": "de",
+     "i": 0.948,
+     "f": 1.027
+    },
+    {
+     "p": "julho",
+     "i": 1.04,
+     "f": 1.365
+    },
+    {
+     "p": "de",
+     "i": 1.378,
+     "f": 1.469
+    },
+    {
+     "p": "dois",
+     "i": 1.482,
+     "f": 1.704
+    },
+    {
+     "p": "mil",
+     "i": 1.717,
+     "f": 1.964
+    },
+    {
+     "p": "o",
+     "i": 2.329,
+     "f": 2.42
+    },
+    {
+     "p": "voo",
+     "i": 2.433,
+     "f": 2.706
+    },
+    {
+     "p": "quatro",
+     "i": 2.719,
+     "f": 3.11
+    },
+    {
+     "p": "mil",
+     "i": 3.123,
+     "f": 3.344
+    },
+    {
+     "p": "quinhentos",
+     "i": 3.357,
+     "f": 3.891
+    },
+    {
+     "p": "e",
+     "i": 3.904,
+     "f": 4.008
+    },
+    {
+     "p": "noventa",
+     "i": 4.021,
+     "f": 4.503
+    },
+    {
+     "p": "da",
+     "i": 4.516,
+     "f": 4.594
+    },
+    {
+     "p": "Air",
+     "i": 4.607,
+     "f": 4.724
+    },
+    {
+     "p": "France",
+     "i": 4.737,
+     "f": 5.128
+    },
+    {
+     "p": "decolou",
+     "i": 5.141,
+     "f": 5.571
+    },
+    {
+     "p": "do",
+     "i": 5.584,
+     "f": 5.714
+    },
+    {
+     "p": "aeroporto",
+     "i": 5.727,
+     "f": 6.365
+    },
+    {
+     "p": "Charles",
+     "i": 6.378,
+     "f": 6.756
+    },
+    {
+     "p": "de",
+     "i": 6.769,
+     "f": 6.873
+    },
+    {
+     "p": "Gaulle",
+     "i": 6.886,
+     "f": 7.185
+    },
+    {
+     "p": "em",
+     "i": 7.537,
+     "f": 7.667
+    },
+    {
+     "p": "Paris",
+     "i": 7.68,
+     "f": 8.188
+    },
+    {
+     "p": "rumo",
+     "i": 8.501,
+     "f": 8.852
+    },
+    {
+     "p": "a",
+     "i": 8.865,
+     "f": 8.904
+    },
+    {
+     "p": "Nova",
+     "i": 8.917,
+     "f": 9.204
+    },
+    {
+     "p": "York",
+     "i": 9.217,
+     "f": 9.737
+    },
+    {
+     "p": "Na",
+     "i": 10.07,
+     "f": 10.291
+    },
+    {
+     "p": "pista",
+     "i": 10.304,
+     "f": 10.786
+    },
+    {
+     "p": "o",
+     "i": 10.982,
+     "f": 11.06
+    },
+    {
+     "p": "avião",
+     "i": 11.073,
+     "f": 11.45
+    },
+    {
+     "p": "passou",
+     "i": 11.463,
+     "f": 11.815
+    },
+    {
+     "p": "por",
+     "i": 11.828,
+     "f": 11.958
+    },
+    {
+     "p": "uma",
+     "i": 11.971,
+     "f": 12.14
+    },
+    {
+     "p": "tira",
+     "i": 12.153,
+     "f": 12.401
+    },
+    {
+     "p": "de",
+     "i": 12.414,
+     "f": 12.492
+    },
+    {
+     "p": "titânio",
+     "i": 12.505,
+     "f": 12.922
+    },
+    {
+     "p": "caída",
+     "i": 12.935,
+     "f": 13.377
+    },
+    {
+     "p": "de",
+     "i": 13.39,
+     "f": 13.547
+    },
+    {
+     "p": "outro",
+     "i": 13.56,
+     "f": 13.833
+    },
+    {
+     "p": "avião",
+     "i": 13.846,
+     "f": 14.237
+    },
+    {
+     "p": "O",
+     "i": 14.59,
+     "f": 14.72
+    },
+    {
+     "p": "pneu",
+     "i": 14.733,
+     "f": 15.046
+    },
+    {
+     "p": "estourou",
+     "i": 15.059,
+     "f": 15.515
+    },
+    {
+     "p": "e",
+     "i": 15.827,
+     "f": 15.931
+    },
+    {
+     "p": "pedaços",
+     "i": 15.944,
+     "f": 16.53
+    },
+    {
+     "p": "de",
+     "i": 16.543,
+     "f": 16.621
+    },
+    {
+     "p": "borracha",
+     "i": 16.634,
+     "f": 17.181
+    },
+    {
+     "p": "atingiram",
+     "i": 17.194,
+     "f": 17.806
+    },
+    {
+     "p": "o",
+     "i": 17.819,
+     "f": 17.884
+    },
+    {
+     "p": "tanque",
+     "i": 17.897,
+     "f": 18.275
+    },
+    {
+     "p": "de",
+     "i": 18.288,
+     "f": 18.379
+    },
+    {
+     "p": "combustível",
+     "i": 18.392,
+     "f": 19.186
+    },
+    {
+     "p": "Houve",
+     "i": 19.518,
+     "f": 19.87
+    },
+    {
+     "p": "vazamento",
+     "i": 19.883,
+     "f": 20.403
+    },
+    {
+     "p": "e",
+     "i": 20.417,
+     "f": 20.456
+    },
+    {
+     "p": "fogo",
+     "i": 20.469,
+     "f": 20.885
+    },
+    {
+     "p": "O",
+     "i": 21.23,
+     "f": 21.334
+    },
+    {
+     "p": "Concorde",
+     "i": 21.347,
+     "f": 21.907
+    },
+    {
+     "p": "caiu",
+     "i": 21.92,
+     "f": 22.155
+    },
+    {
+     "p": "minutos",
+     "i": 22.168,
+     "f": 22.61
+    },
+    {
+     "p": "depois",
+     "i": 22.623,
+     "f": 23.144
+    },
+    {
+     "p": "perto",
+     "i": 23.392,
+     "f": 23.782
+    },
+    {
+     "p": "de",
+     "i": 23.795,
+     "f": 23.873
+    },
+    {
+     "p": "Gonesse",
+     "i": 23.886,
+     "f": 24.446
+    },
+    {
+     "p": "Morreram",
+     "i": 24.79,
+     "f": 25.35
+    },
+    {
+     "p": "cento",
+     "i": 25.363,
+     "f": 25.715
+    },
+    {
+     "p": "e",
+     "i": 25.728,
+     "f": 25.754
+    },
+    {
+     "p": "nove",
+     "i": 25.767,
+     "f": 26.001
+    },
+    {
+     "p": "pessoas",
+     "i": 26.014,
+     "f": 26.47
+    },
+    {
+     "p": "a",
+     "i": 26.483,
+     "f": 26.613
+    },
+    {
+     "p": "bordo",
+     "i": 26.626,
+     "f": 26.991
+    },
+    {
+     "p": "e",
+     "i": 27.004,
+     "f": 27.043
+    },
+    {
+     "p": "quatro",
+     "i": 27.056,
+     "f": 27.459
+    },
+    {
+     "p": "em",
+     "i": 27.472,
+     "f": 27.577
+    },
+    {
+     "p": "terra",
+     "i": 27.59,
+     "f": 27.98
+    },
+    {
+     "p": "A",
+     "i": 28.326,
+     "f": 28.417
+    },
+    {
+     "p": "maioria",
+     "i": 28.43,
+     "f": 28.912
+    },
+    {
+     "p": "dos",
+     "i": 28.925,
+     "f": 29.107
+    },
+    {
+     "p": "passageiros",
+     "i": 29.12,
+     "f": 29.693
+    },
+    {
+     "p": "era",
+     "i": 29.706,
+     "f": 30.006
+    },
+    {
+     "p": "de",
+     "i": 30.019,
+     "f": 30.149
+    },
+    {
+     "p": "turistas",
+     "i": 30.162,
+     "f": 30.566
+    },
+    {
+     "p": "alemães",
+     "i": 30.579,
+     "f": 31.243
+    },
+    {
+     "p": "a",
+     "i": 31.451,
+     "f": 31.516
+    },
+    {
+     "p": "caminho",
+     "i": 31.529,
+     "f": 31.972
+    },
+    {
+     "p": "de",
+     "i": 31.985,
+     "f": 32.115
+    },
+    {
+     "p": "um",
+     "i": 32.128,
+     "f": 32.245
+    },
+    {
+     "p": "cruzeiro",
+     "i": 32.258,
+     "f": 32.753
+    },
+    {
+     "p": "Era",
+     "i": 33.086,
+     "f": 33.307
+    },
+    {
+     "p": "o",
+     "i": 33.32,
+     "f": 33.346
+    },
+    {
+     "p": "primeiro",
+     "i": 33.36,
+     "f": 33.711
+    },
+    {
+     "p": "acidente",
+     "i": 33.724,
+     "f": 34.271
+    },
+    {
+     "p": "fatal",
+     "i": 34.284,
+     "f": 34.688
+    },
+    {
+     "p": "do",
+     "i": 34.701,
+     "f": 34.818
+    },
+    {
+     "p": "Concorde",
+     "i": 34.831,
+     "f": 35.482
+    },
+    {
+     "p": "E",
+     "i": 35.83,
+     "f": 35.973
+    },
+    {
+     "p": "ele",
+     "i": 35.986,
+     "f": 36.169
+    },
+    {
+     "p": "mudaria",
+     "i": 36.182,
+     "f": 36.689
+    },
+    {
+     "p": "tudo",
+     "i": 36.703,
+     "f": 37.106
+    }
+   ]
+  },
+  "virada": {
+   "hash": "cfa99392ae",
+   "texto": "Depois do acidente, todos os Concorde ficaram no chão. A investigação levou a mudanças: tanques reforçados com revestimento de kevlar e pneus novos. O serviço voltou em novembro de dois mil e um, dois meses depois dos atentados de onze de setembro. O momento não podia ser pior: as viagens de negócios entre Nova York e a Europa, principal público do avião, despencaram. Os assentos vazios aumentaram. E o custo de manter uma frota tão pequena continuava subindo, com peças feitas sob medida e poucas oficinas preparadas.",
+   "audio": "audio/virada-cfa99392ae.mp3",
+   "duracao": 34.534,
+   "palavras": [
+    {
+     "p": "Depois",
+     "i": 0.102,
+     "f": 0.597
+    },
+    {
+     "p": "do",
+     "i": 0.61,
+     "f": 0.714
+    },
+    {
+     "p": "acidente",
+     "i": 0.727,
+     "f": 1.365
+    },
+    {
+     "p": "todos",
+     "i": 1.56,
+     "f": 1.912
+    },
+    {
+     "p": "os",
+     "i": 1.925,
+     "f": 2.081
+    },
+    {
+     "p": "Concorde",
+     "i": 2.094,
+     "f": 2.641
+    },
+    {
+     "p": "ficaram",
+     "i": 2.654,
+     "f": 3.071
+    },
+    {
+     "p": "no",
+     "i": 3.084,
+     "f": 3.175
+    },
+    {
+     "p": "chão",
+     "i": 3.188,
+     "f": 3.54
+    },
+    {
+     "p": "A",
+     "i": 3.878,
+     "f": 3.969
+    },
+    {
+     "p": "investigação",
+     "i": 3.982,
+     "f": 4.842
+    },
+    {
+     "p": "levou",
+     "i": 4.855,
+     "f": 5.18
+    },
+    {
+     "p": "a",
+     "i": 5.193,
+     "f": 5.232
+    },
+    {
+     "p": "mudanças",
+     "i": 5.245,
+     "f": 5.909
+    },
+    {
+     "p": "tanques",
+     "i": 6.144,
+     "f": 6.521
+    },
+    {
+     "p": "reforçados",
+     "i": 6.534,
+     "f": 7.329
+    },
+    {
+     "p": "com",
+     "i": 7.342,
+     "f": 7.498
+    },
+    {
+     "p": "revestimento",
+     "i": 7.511,
+     "f": 8.214
+    },
+    {
+     "p": "de",
+     "i": 8.227,
+     "f": 8.318
+    },
+    {
+     "p": "kevlar",
+     "i": 8.331,
+     "f": 8.748
+    },
+    {
+     "p": "e",
+     "i": 8.761,
+     "f": 8.813
+    },
+    {
+     "p": "pneus",
+     "i": 8.826,
+     "f": 9.191
+    },
+    {
+     "p": "novos",
+     "i": 9.204,
+     "f": 9.724
+    },
+    {
+     "p": "O",
+     "i": 10.054,
+     "f": 10.171
+    },
+    {
+     "p": "serviço",
+     "i": 10.184,
+     "f": 10.77
+    },
+    {
+     "p": "voltou",
+     "i": 10.783,
+     "f": 11.213
+    },
+    {
+     "p": "em",
+     "i": 11.226,
+     "f": 11.291
+    },
+    {
+     "p": "novembro",
+     "i": 11.304,
+     "f": 11.838
+    },
+    {
+     "p": "de",
+     "i": 11.851,
+     "f": 11.929
+    },
+    {
+     "p": "dois",
+     "i": 11.942,
+     "f": 12.137
+    },
+    {
+     "p": "mil",
+     "i": 12.15,
+     "f": 12.307
+    },
+    {
+     "p": "e",
+     "i": 12.32,
+     "f": 12.398
+    },
+    {
+     "p": "um",
+     "i": 12.411,
+     "f": 12.567
+    },
+    {
+     "p": "dois",
+     "i": 12.841,
+     "f": 13.114
+    },
+    {
+     "p": "meses",
+     "i": 13.127,
+     "f": 13.505
+    },
+    {
+     "p": "depois",
+     "i": 13.518,
+     "f": 13.947
+    },
+    {
+     "p": "dos",
+     "i": 13.96,
+     "f": 14.051
+    },
+    {
+     "p": "atentados",
+     "i": 14.064,
+     "f": 14.807
+    },
+    {
+     "p": "de",
+     "i": 14.82,
+     "f": 14.95
+    },
+    {
+     "p": "onze",
+     "i": 14.963,
+     "f": 15.288
+    },
+    {
+     "p": "de",
+     "i": 15.301,
+     "f": 15.393
+    },
+    {
+     "p": "setembro",
+     "i": 15.406,
+     "f": 15.992
+    },
+    {
+     "p": "O",
+     "i": 16.326,
+     "f": 16.417
+    },
+    {
+     "p": "momento",
+     "i": 16.43,
+     "f": 16.977
+    },
+    {
+     "p": "não",
+     "i": 16.99,
+     "f": 17.159
+    },
+    {
+     "p": "podia",
+     "i": 17.172,
+     "f": 17.524
+    },
+    {
+     "p": "ser",
+     "i": 17.537,
+     "f": 17.745
+    },
+    {
+     "p": "pior",
+     "i": 17.758,
+     "f": 18.123
+    },
+    {
+     "p": "as",
+     "i": 18.422,
+     "f": 18.592
+    },
+    {
+     "p": "viagens",
+     "i": 18.605,
+     "f": 19.139
+    },
+    {
+     "p": "de",
+     "i": 19.152,
+     "f": 19.217
+    },
+    {
+     "p": "negócios",
+     "i": 19.23,
+     "f": 19.751
+    },
+    {
+     "p": "entre",
+     "i": 19.764,
+     "f": 20.05
+    },
+    {
+     "p": "Nova",
+     "i": 20.063,
+     "f": 20.31
+    },
+    {
+     "p": "York",
+     "i": 20.323,
+     "f": 20.74
+    },
+    {
+     "p": "e",
+     "i": 20.753,
+     "f": 20.792
+    },
+    {
+     "p": "a",
+     "i": 20.805,
+     "f": 20.844
+    },
+    {
+     "p": "Europa",
+     "i": 20.857,
+     "f": 21.378
+    },
+    {
+     "p": "principal",
+     "i": 21.639,
+     "f": 22.211
+    },
+    {
+     "p": "público",
+     "i": 22.225,
+     "f": 22.615
+    },
+    {
+     "p": "do",
+     "i": 22.628,
+     "f": 22.732
+    },
+    {
+     "p": "avião",
+     "i": 22.745,
+     "f": 23.162
+    },
+    {
+     "p": "despencaram",
+     "i": 23.383,
+     "f": 24.165
+    },
+    {
+     "p": "Os",
+     "i": 24.518,
+     "f": 24.635
+    },
+    {
+     "p": "assentos",
+     "i": 24.648,
+     "f": 25.234
+    },
+    {
+     "p": "vazios",
+     "i": 25.247,
+     "f": 25.703
+    },
+    {
+     "p": "aumentaram",
+     "i": 25.716,
+     "f": 26.445
+    },
+    {
+     "p": "E",
+     "i": 26.782,
+     "f": 26.925
+    },
+    {
+     "p": "o",
+     "i": 26.938,
+     "f": 27.003
+    },
+    {
+     "p": "custo",
+     "i": 27.016,
+     "f": 27.42
+    },
+    {
+     "p": "de",
+     "i": 27.433,
+     "f": 27.511
+    },
+    {
+     "p": "manter",
+     "i": 27.524,
+     "f": 27.863
+    },
+    {
+     "p": "uma",
+     "i": 27.876,
+     "f": 28.045
+    },
+    {
+     "p": "frota",
+     "i": 28.058,
+     "f": 28.475
+    },
+    {
+     "p": "tão",
+     "i": 28.488,
+     "f": 28.709
+    },
+    {
+     "p": "pequena",
+     "i": 28.722,
+     "f": 29.126
+    },
+    {
+     "p": "continuava",
+     "i": 29.139,
+     "f": 29.712
+    },
+    {
+     "p": "subindo",
+     "i": 29.725,
+     "f": 30.285
+    },
+    {
+     "p": "com",
+     "i": 30.558,
+     "f": 30.766
+    },
+    {
+     "p": "peças",
+     "i": 30.779,
+     "f": 31.17
+    },
+    {
+     "p": "feitas",
+     "i": 31.183,
+     "f": 31.574
+    },
+    {
+     "p": "sob",
+     "i": 31.587,
+     "f": 31.808
+    },
+    {
+     "p": "medida",
+     "i": 31.821,
+     "f": 32.212
+    },
+    {
+     "p": "e",
+     "i": 32.225,
+     "f": 32.29
+    },
+    {
+     "p": "poucas",
+     "i": 32.303,
+     "f": 32.628
+    },
+    {
+     "p": "oficinas",
+     "i": 32.641,
+     "f": 33.306
+    },
+    {
+     "p": "preparadas",
+     "i": 33.319,
+     "f": 34.087
+    }
+   ]
+  },
+  "fim": {
+   "hash": "1f267f7cea",
+   "texto": "Em abril de dois mil e três, Air France e British Airways anunciaram a aposentadoria do Concorde. Alegaram queda no número de passageiros e custos de manutenção que só cresciam. A Airbus, responsável pelo suporte técnico, também deixaria de dar assistência ao avião. Em vinte e quatro de outubro, aconteceu o último voo comercial. Em vinte e seis de novembro, o último de todos, até Filton, perto de Bristol, onde esse Concorde foi construído.",
+   "audio": "audio/fim-1f267f7cea.mp3",
+   "duracao": 29.022,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "abril",
+     "i": 0.297,
+     "f": 0.649
+    },
+    {
+     "p": "de",
+     "i": 0.662,
+     "f": 0.766
+    },
+    {
+     "p": "dois",
+     "i": 0.779,
+     "f": 0.948
+    },
+    {
+     "p": "mil",
+     "i": 0.961,
+     "f": 1.066
+    },
+    {
+     "p": "e",
+     "i": 1.079,
+     "f": 1.144
+    },
+    {
+     "p": "três",
+     "i": 1.157,
+     "f": 1.534
+    },
+    {
+     "p": "Air",
+     "i": 1.795,
+     "f": 1.938
+    },
+    {
+     "p": "France",
+     "i": 1.951,
+     "f": 2.407
+    },
+    {
+     "p": "e",
+     "i": 2.42,
+     "f": 2.446
+    },
+    {
+     "p": "British",
+     "i": 2.459,
+     "f": 2.928
+    },
+    {
+     "p": "Airways",
+     "i": 2.941,
+     "f": 3.227
+    },
+    {
+     "p": "anunciaram",
+     "i": 3.24,
+     "f": 3.982
+    },
+    {
+     "p": "a",
+     "i": 3.995,
+     "f": 4.021
+    },
+    {
+     "p": "aposentadoria",
+     "i": 4.034,
+     "f": 4.829
+    },
+    {
+     "p": "do",
+     "i": 4.842,
+     "f": 4.933
+    },
+    {
+     "p": "Concorde",
+     "i": 4.946,
+     "f": 5.597
+    },
+    {
+     "p": "Alegaram",
+     "i": 5.942,
+     "f": 6.476
+    },
+    {
+     "p": "queda",
+     "i": 6.489,
+     "f": 6.788
+    },
+    {
+     "p": "no",
+     "i": 6.801,
+     "f": 6.893
+    },
+    {
+     "p": "número",
+     "i": 6.906,
+     "f": 7.231
+    },
+    {
+     "p": "de",
+     "i": 7.244,
+     "f": 7.348
+    },
+    {
+     "p": "passageiros",
+     "i": 7.361,
+     "f": 7.986
+    },
+    {
+     "p": "e",
+     "i": 7.999,
+     "f": 8.143
+    },
+    {
+     "p": "custos",
+     "i": 8.156,
+     "f": 8.585
+    },
+    {
+     "p": "de",
+     "i": 8.598,
+     "f": 8.676
+    },
+    {
+     "p": "manutenção",
+     "i": 8.689,
+     "f": 9.445
+    },
+    {
+     "p": "que",
+     "i": 9.458,
+     "f": 9.575
+    },
+    {
+     "p": "só",
+     "i": 9.588,
+     "f": 9.835
+    },
+    {
+     "p": "cresciam",
+     "i": 9.848,
+     "f": 10.46
+    },
+    {
+     "p": "A",
+     "i": 10.798,
+     "f": 10.954
+    },
+    {
+     "p": "Airbus",
+     "i": 10.967,
+     "f": 11.723
+    },
+    {
+     "p": "responsável",
+     "i": 11.944,
+     "f": 12.738
+    },
+    {
+     "p": "pelo",
+     "i": 12.751,
+     "f": 12.947
+    },
+    {
+     "p": "suporte",
+     "i": 12.96,
+     "f": 13.532
+    },
+    {
+     "p": "técnico",
+     "i": 13.545,
+     "f": 14.014
+    },
+    {
+     "p": "também",
+     "i": 14.288,
+     "f": 14.652
+    },
+    {
+     "p": "deixaria",
+     "i": 14.665,
+     "f": 15.199
+    },
+    {
+     "p": "de",
+     "i": 15.212,
+     "f": 15.342
+    },
+    {
+     "p": "dar",
+     "i": 15.355,
+     "f": 15.525
+    },
+    {
+     "p": "assistência",
+     "i": 15.538,
+     "f": 16.176
+    },
+    {
+     "p": "ao",
+     "i": 16.189,
+     "f": 16.306
+    },
+    {
+     "p": "avião",
+     "i": 16.319,
+     "f": 16.749
+    },
+    {
+     "p": "Em",
+     "i": 17.094,
+     "f": 17.276
+    },
+    {
+     "p": "vinte",
+     "i": 17.289,
+     "f": 17.537
+    },
+    {
+     "p": "e",
+     "i": 17.55,
+     "f": 17.563
+    },
+    {
+     "p": "quatro",
+     "i": 17.576,
+     "f": 17.954
+    },
+    {
+     "p": "de",
+     "i": 17.967,
+     "f": 18.058
+    },
+    {
+     "p": "outubro",
+     "i": 18.071,
+     "f": 18.565
+    },
+    {
+     "p": "aconteceu",
+     "i": 18.683,
+     "f": 19.36
+    },
+    {
+     "p": "o",
+     "i": 19.373,
+     "f": 19.451
+    },
+    {
+     "p": "último",
+     "i": 19.464,
+     "f": 19.868
+    },
+    {
+     "p": "voo",
+     "i": 19.881,
+     "f": 20.154
+    },
+    {
+     "p": "comercial",
+     "i": 20.167,
+     "f": 20.896
+    },
+    {
+     "p": "Em",
+     "i": 21.23,
+     "f": 21.399
+    },
+    {
+     "p": "vinte",
+     "i": 21.412,
+     "f": 21.66
+    },
+    {
+     "p": "e",
+     "i": 21.673,
+     "f": 21.699
+    },
+    {
+     "p": "seis",
+     "i": 21.712,
+     "f": 21.946
+    },
+    {
+     "p": "de",
+     "i": 21.959,
+     "f": 22.05
+    },
+    {
+     "p": "novembro",
+     "i": 22.063,
+     "f": 22.597
+    },
+    {
+     "p": "o",
+     "i": 22.936,
+     "f": 23.053
+    },
+    {
+     "p": "último",
+     "i": 23.066,
+     "f": 23.444
+    },
+    {
+     "p": "de",
+     "i": 23.457,
+     "f": 23.6
+    },
+    {
+     "p": "todos",
+     "i": 23.613,
+     "f": 24.056
+    },
+    {
+     "p": "até",
+     "i": 24.251,
+     "f": 24.511
+    },
+    {
+     "p": "Filton",
+     "i": 24.524,
+     "f": 25.006
+    },
+    {
+     "p": "perto",
+     "i": 25.306,
+     "f": 25.657
+    },
+    {
+     "p": "de",
+     "i": 25.67,
+     "f": 25.761
+    },
+    {
+     "p": "Bristol",
+     "i": 25.774,
+     "f": 26.295
+    },
+    {
+     "p": "onde",
+     "i": 26.569,
+     "f": 26.829
+    },
+    {
+     "p": "esse",
+     "i": 26.842,
+     "f": 27.037
+    },
+    {
+     "p": "Concorde",
+     "i": 27.05,
+     "f": 27.584
+    },
+    {
+     "p": "foi",
+     "i": 27.597,
+     "f": 27.767
+    },
+    {
+     "p": "construído",
+     "i": 27.78,
+     "f": 28.509
+    }
+   ]
+  },
+  "hoje": {
+   "hash": "ce8641d33e",
+   "texto": "Dezoito dos vinte Concorde construídos estão preservados em museus, de Seattle a Nova York, de Paris a Barbados. Desde então, nenhum avião de passageiros supersônico voltou a voar. Passaram-se mais de vinte anos, e a viagem entre Londres e Nova York volta a levar cerca de oito horas. A velocidade média dos voos comerciais ficou parada, porque as companhias passaram a priorizar economia em vez de rapidez. Mas a ideia não morreu. Uma empresa americana, a Boom Supersonic, promete reabrir esse caminho. E o primeiro passo dela já aconteceu.",
+   "audio": "audio/hoje-ce8641d33e.mp3",
+   "duracao": 35.736,
+   "palavras": [
+    {
+     "p": "Dezoito",
+     "i": 0.102,
+     "f": 0.688
+    },
+    {
+     "p": "dos",
+     "i": 0.701,
+     "f": 0.909
+    },
+    {
+     "p": "vinte",
+     "i": 0.922,
+     "f": 1.196
+    },
+    {
+     "p": "Concorde",
+     "i": 1.209,
+     "f": 1.704
+    },
+    {
+     "p": "construídos",
+     "i": 1.717,
+     "f": 2.329
+    },
+    {
+     "p": "estão",
+     "i": 2.342,
+     "f": 2.68
+    },
+    {
+     "p": "preservados",
+     "i": 2.693,
+     "f": 3.344
+    },
+    {
+     "p": "em",
+     "i": 3.357,
+     "f": 3.501
+    },
+    {
+     "p": "museus",
+     "i": 3.514,
+     "f": 4.021
+    },
+    {
+     "p": "de",
+     "i": 4.282,
+     "f": 4.425
+    },
+    {
+     "p": "Seattle",
+     "i": 4.438,
+     "f": 4.998
+    },
+    {
+     "p": "a",
+     "i": 5.011,
+     "f": 5.05
+    },
+    {
+     "p": "Nova",
+     "i": 5.063,
+     "f": 5.323
+    },
+    {
+     "p": "York",
+     "i": 5.336,
+     "f": 5.779
+    },
+    {
+     "p": "de",
+     "i": 5.987,
+     "f": 6.131
+    },
+    {
+     "p": "Paris",
+     "i": 6.144,
+     "f": 6.456
+    },
+    {
+     "p": "a",
+     "i": 6.469,
+     "f": 6.56
+    },
+    {
+     "p": "Barbados",
+     "i": 6.573,
+     "f": 7.316
+    },
+    {
+     "p": "Desde",
+     "i": 7.646,
+     "f": 8.063
+    },
+    {
+     "p": "então",
+     "i": 8.076,
+     "f": 8.479
+    },
+    {
+     "p": "nenhum",
+     "i": 8.753,
+     "f": 9.157
+    },
+    {
+     "p": "avião",
+     "i": 9.17,
+     "f": 9.521
+    },
+    {
+     "p": "de",
+     "i": 9.534,
+     "f": 9.638
+    },
+    {
+     "p": "passageiros",
+     "i": 9.651,
+     "f": 10.25
+    },
+    {
+     "p": "supersônico",
+     "i": 10.263,
+     "f": 10.992
+    },
+    {
+     "p": "voltou",
+     "i": 11.005,
+     "f": 11.396
+    },
+    {
+     "p": "a",
+     "i": 11.409,
+     "f": 11.474
+    },
+    {
+     "p": "voar",
+     "i": 11.487,
+     "f": 11.813
+    },
+    {
+     "p": "Passaram-se",
+     "i": 12.166,
+     "f": 12.765
+    },
+    {
+     "p": "mais",
+     "i": 12.778,
+     "f": 13.038
+    },
+    {
+     "p": "de",
+     "i": 13.052,
+     "f": 13.13
+    },
+    {
+     "p": "vinte",
+     "i": 13.143,
+     "f": 13.494
+    },
+    {
+     "p": "anos",
+     "i": 13.507,
+     "f": 13.846
+    },
+    {
+     "p": "e",
+     "i": 14.171,
+     "f": 14.249
+    },
+    {
+     "p": "a",
+     "i": 14.262,
+     "f": 14.367
+    },
+    {
+     "p": "viagem",
+     "i": 14.38,
+     "f": 14.887
+    },
+    {
+     "p": "entre",
+     "i": 14.9,
+     "f": 15.109
+    },
+    {
+     "p": "Londres",
+     "i": 15.122,
+     "f": 15.525
+    },
+    {
+     "p": "e",
+     "i": 15.538,
+     "f": 15.643
+    },
+    {
+     "p": "Nova",
+     "i": 15.656,
+     "f": 15.877
+    },
+    {
+     "p": "York",
+     "i": 15.89,
+     "f": 16.32
+    },
+    {
+     "p": "volta",
+     "i": 16.333,
+     "f": 16.671
+    },
+    {
+     "p": "a",
+     "i": 16.684,
+     "f": 16.697
+    },
+    {
+     "p": "levar",
+     "i": 16.71,
+     "f": 17.062
+    },
+    {
+     "p": "cerca",
+     "i": 17.075,
+     "f": 17.453
+    },
+    {
+     "p": "de",
+     "i": 17.466,
+     "f": 17.622
+    },
+    {
+     "p": "oito",
+     "i": 17.635,
+     "f": 17.947
+    },
+    {
+     "p": "horas",
+     "i": 17.96,
+     "f": 18.403
+    },
+    {
+     "p": "A",
+     "i": 18.75,
+     "f": 18.867
+    },
+    {
+     "p": "velocidade",
+     "i": 18.88,
+     "f": 19.609
+    },
+    {
+     "p": "média",
+     "i": 19.623,
+     "f": 19.922
+    },
+    {
+     "p": "dos",
+     "i": 19.935,
+     "f": 20.117
+    },
+    {
+     "p": "voos",
+     "i": 20.13,
+     "f": 20.443
+    },
+    {
+     "p": "comerciais",
+     "i": 20.456,
+     "f": 21.094
+    },
+    {
+     "p": "ficou",
+     "i": 21.107,
+     "f": 21.419
+    },
+    {
+     "p": "parada",
+     "i": 21.432,
+     "f": 21.914
+    },
+    {
+     "p": "porque",
+     "i": 22.149,
+     "f": 22.461
+    },
+    {
+     "p": "as",
+     "i": 22.474,
+     "f": 22.604
+    },
+    {
+     "p": "companhias",
+     "i": 22.617,
+     "f": 23.255
+    },
+    {
+     "p": "passaram",
+     "i": 23.268,
+     "f": 23.737
+    },
+    {
+     "p": "a",
+     "i": 23.75,
+     "f": 23.802
+    },
+    {
+     "p": "priorizar",
+     "i": 23.815,
+     "f": 24.362
+    },
+    {
+     "p": "economia",
+     "i": 24.375,
+     "f": 24.896
+    },
+    {
+     "p": "em",
+     "i": 24.909,
+     "f": 25.026
+    },
+    {
+     "p": "vez",
+     "i": 25.039,
+     "f": 25.339
+    },
+    {
+     "p": "de",
+     "i": 25.352,
+     "f": 25.443
+    },
+    {
+     "p": "rapidez",
+     "i": 25.456,
+     "f": 26.12
+    },
+    {
+     "p": "Mas",
+     "i": 26.462,
+     "f": 26.67
+    },
+    {
+     "p": "a",
+     "i": 26.683,
+     "f": 26.84
+    },
+    {
+     "p": "ideia",
+     "i": 26.853,
+     "f": 27.269
+    },
+    {
+     "p": "não",
+     "i": 27.282,
+     "f": 27.491
+    },
+    {
+     "p": "morreu",
+     "i": 27.504,
+     "f": 27.946
+    },
+    {
+     "p": "Uma",
+     "i": 28.294,
+     "f": 28.476
+    },
+    {
+     "p": "empresa",
+     "i": 28.489,
+     "f": 28.919
+    },
+    {
+     "p": "americana",
+     "i": 28.932,
+     "f": 29.557
+    },
+    {
+     "p": "a",
+     "i": 29.831,
+     "f": 29.909
+    },
+    {
+     "p": "Boom",
+     "i": 29.922,
+     "f": 30.156
+    },
+    {
+     "p": "Supersonic",
+     "i": 30.169,
+     "f": 30.95
+    },
+    {
+     "p": "promete",
+     "i": 31.146,
+     "f": 31.627
+    },
+    {
+     "p": "reabrir",
+     "i": 31.64,
+     "f": 32.109
+    },
+    {
+     "p": "esse",
+     "i": 32.122,
+     "f": 32.304
+    },
+    {
+     "p": "caminho",
+     "i": 32.318,
+     "f": 32.799
+    },
+    {
+     "p": "E",
+     "i": 33.15,
+     "f": 33.267
+    },
+    {
+     "p": "o",
+     "i": 33.28,
+     "f": 33.332
+    },
+    {
+     "p": "primeiro",
+     "i": 33.345,
+     "f": 33.736
+    },
+    {
+     "p": "passo",
+     "i": 33.749,
+     "f": 34.153
+    },
+    {
+     "p": "dela",
+     "i": 34.166,
+     "f": 34.439
+    },
+    {
+     "p": "já",
+     "i": 34.452,
+     "f": 34.674
+    },
+    {
+     "p": "aconteceu",
+     "i": 34.687,
+     "f": 35.364
+    }
+   ]
+  },
+  "boom": {
+   "hash": "a73b0ac77b",
+   "texto": "Em janeiro de dois mil e vinte e cinco, o XB-1, avião de demonstração da Boom, passou a barreira do som. O avião de passageiros que vem depois, o Overture, deve levar de sessenta a oitenta pessoas, a mach um vírgula sete, com pedidos da United, da American e da Japan Airlines. Os prazos já mudaram várias vezes, e a empresa fala em entrar em serviço por volta de dois mil e vinte e nove ou trinta. Segundo a Boom, a ideia é cobrar tarifas próximas às da classe executiva, e não um luxo extremo. Resta saber se o preço e as regras contra o estrondo deixarão o sonho voar.",
+   "audio": "audio/boom-a73b0ac77b.mp3",
+   "duracao": 36.441,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "janeiro",
+     "i": 0.245,
+     "f": 0.701
+    },
+    {
+     "p": "de",
+     "i": 0.714,
+     "f": 0.805
+    },
+    {
+     "p": "dois",
+     "i": 0.818,
+     "f": 1.001
+    },
+    {
+     "p": "mil",
+     "i": 1.014,
+     "f": 1.118
+    },
+    {
+     "p": "e",
+     "i": 1.131,
+     "f": 1.183
+    },
+    {
+     "p": "vinte",
+     "i": 1.196,
+     "f": 1.417
+    },
+    {
+     "p": "e",
+     "i": 1.43,
+     "f": 1.456
+    },
+    {
+     "p": "cinco",
+     "i": 1.469,
+     "f": 1.899
+    },
+    {
+     "p": "o",
+     "i": 2.224,
+     "f": 2.29
+    },
+    {
+     "p": "XB-1",
+     "i": 2.303,
+     "f": 3.006
+    },
+    {
+     "p": "avião",
+     "i": 3.292,
+     "f": 3.709
+    },
+    {
+     "p": "de",
+     "i": 3.722,
+     "f": 3.813
+    },
+    {
+     "p": "demonstração",
+     "i": 3.826,
+     "f": 4.451
+    },
+    {
+     "p": "da",
+     "i": 4.464,
+     "f": 4.581
+    },
+    {
+     "p": "Boom",
+     "i": 4.594,
+     "f": 4.894
+    },
+    {
+     "p": "passou",
+     "i": 5.206,
+     "f": 5.623
+    },
+    {
+     "p": "a",
+     "i": 5.636,
+     "f": 5.688
+    },
+    {
+     "p": "barreira",
+     "i": 5.701,
+     "f": 6.105
+    },
+    {
+     "p": "do",
+     "i": 6.118,
+     "f": 6.222
+    },
+    {
+     "p": "som",
+     "i": 6.235,
+     "f": 6.573
+    },
+    {
+     "p": "O",
+     "i": 6.926,
+     "f": 7.056
+    },
+    {
+     "p": "avião",
+     "i": 7.069,
+     "f": 7.46
+    },
+    {
+     "p": "de",
+     "i": 7.473,
+     "f": 7.577
+    },
+    {
+     "p": "passageiros",
+     "i": 7.59,
+     "f": 8.28
+    },
+    {
+     "p": "que",
+     "i": 8.293,
+     "f": 8.41
+    },
+    {
+     "p": "vem",
+     "i": 8.423,
+     "f": 8.593
+    },
+    {
+     "p": "depois",
+     "i": 8.606,
+     "f": 9.088
+    },
+    {
+     "p": "o",
+     "i": 9.387,
+     "f": 9.426
+    },
+    {
+     "p": "Overture",
+     "i": 9.439,
+     "f": 10.064
+    },
+    {
+     "p": "deve",
+     "i": 10.403,
+     "f": 10.637
+    },
+    {
+     "p": "levar",
+     "i": 10.65,
+     "f": 11.054
+    },
+    {
+     "p": "de",
+     "i": 11.067,
+     "f": 11.171
+    },
+    {
+     "p": "sessenta",
+     "i": 11.184,
+     "f": 11.614
+    },
+    {
+     "p": "a",
+     "i": 11.627,
+     "f": 11.653
+    },
+    {
+     "p": "oitenta",
+     "i": 11.666,
+     "f": 12.082
+    },
+    {
+     "p": "pessoas",
+     "i": 12.095,
+     "f": 12.694
+    },
+    {
+     "p": "a",
+     "i": 12.942,
+     "f": 13.02
+    },
+    {
+     "p": "mach",
+     "i": 13.033,
+     "f": 13.45
+    },
+    {
+     "p": "um",
+     "i": 13.463,
+     "f": 13.606
+    },
+    {
+     "p": "vírgula",
+     "i": 13.619,
+     "f": 13.996
+    },
+    {
+     "p": "sete",
+     "i": 14.009,
+     "f": 14.478
+    },
+    {
+     "p": "com",
+     "i": 14.765,
+     "f": 14.921
+    },
+    {
+     "p": "pedidos",
+     "i": 14.934,
+     "f": 15.39
+    },
+    {
+     "p": "da",
+     "i": 15.403,
+     "f": 15.533
+    },
+    {
+     "p": "United",
+     "i": 15.546,
+     "f": 16.08
+    },
+    {
+     "p": "da",
+     "i": 16.366,
+     "f": 16.496
+    },
+    {
+     "p": "American",
+     "i": 16.509,
+     "f": 17.017
+    },
+    {
+     "p": "e",
+     "i": 17.03,
+     "f": 17.095
+    },
+    {
+     "p": "da",
+     "i": 17.108,
+     "f": 17.239
+    },
+    {
+     "p": "Japan",
+     "i": 17.252,
+     "f": 17.538
+    },
+    {
+     "p": "Airlines",
+     "i": 17.551,
+     "f": 18.202
+    },
+    {
+     "p": "Os",
+     "i": 18.55,
+     "f": 18.758
+    },
+    {
+     "p": "prazos",
+     "i": 18.771,
+     "f": 19.253
+    },
+    {
+     "p": "já",
+     "i": 19.266,
+     "f": 19.357
+    },
+    {
+     "p": "mudaram",
+     "i": 19.37,
+     "f": 19.761
+    },
+    {
+     "p": "várias",
+     "i": 19.774,
+     "f": 20.178
+    },
+    {
+     "p": "vezes",
+     "i": 20.191,
+     "f": 20.62
+    },
+    {
+     "p": "e",
+     "i": 20.946,
+     "f": 21.024
+    },
+    {
+     "p": "a",
+     "i": 21.037,
+     "f": 21.063
+    },
+    {
+     "p": "empresa",
+     "i": 21.076,
+     "f": 21.597
+    },
+    {
+     "p": "fala",
+     "i": 21.61,
+     "f": 21.857
+    },
+    {
+     "p": "em",
+     "i": 21.87,
+     "f": 21.949
+    },
+    {
+     "p": "entrar",
+     "i": 21.962,
+     "f": 22.209
+    },
+    {
+     "p": "em",
+     "i": 22.222,
+     "f": 22.274
+    },
+    {
+     "p": "serviço",
+     "i": 22.287,
+     "f": 22.86
+    },
+    {
+     "p": "por",
+     "i": 22.873,
+     "f": 23.016
+    },
+    {
+     "p": "volta",
+     "i": 23.029,
+     "f": 23.407
+    },
+    {
+     "p": "de",
+     "i": 23.42,
+     "f": 23.511
+    },
+    {
+     "p": "dois",
+     "i": 23.524,
+     "f": 23.745
+    },
+    {
+     "p": "mil",
+     "i": 23.758,
+     "f": 23.902
+    },
+    {
+     "p": "e",
+     "i": 23.915,
+     "f": 23.967
+    },
+    {
+     "p": "vinte",
+     "i": 23.98,
+     "f": 24.227
+    },
+    {
+     "p": "e",
+     "i": 24.24,
+     "f": 24.253
+    },
+    {
+     "p": "nove",
+     "i": 24.266,
+     "f": 24.592
+    },
+    {
+     "p": "ou",
+     "i": 24.605,
+     "f": 24.709
+    },
+    {
+     "p": "trinta",
+     "i": 24.722,
+     "f": 25.152
+    },
+    {
+     "p": "Segundo",
+     "i": 25.494,
+     "f": 26.028
+    },
+    {
+     "p": "a",
+     "i": 26.041,
+     "f": 26.106
+    },
+    {
+     "p": "Boom",
+     "i": 26.119,
+     "f": 26.393
+    },
+    {
+     "p": "a",
+     "i": 26.666,
+     "f": 26.744
+    },
+    {
+     "p": "ideia",
+     "i": 26.757,
+     "f": 27.083
+    },
+    {
+     "p": "é",
+     "i": 27.096,
+     "f": 27.135
+    },
+    {
+     "p": "cobrar",
+     "i": 27.148,
+     "f": 27.512
+    },
+    {
+     "p": "tarifas",
+     "i": 27.525,
+     "f": 28.059
+    },
+    {
+     "p": "próximas",
+     "i": 28.072,
+     "f": 28.515
+    },
+    {
+     "p": "às",
+     "i": 28.528,
+     "f": 28.671
+    },
+    {
+     "p": "da",
+     "i": 28.684,
+     "f": 28.814
+    },
+    {
+     "p": "classe",
+     "i": 28.827,
+     "f": 29.179
+    },
+    {
+     "p": "executiva",
+     "i": 29.192,
+     "f": 29.843
+    },
+    {
+     "p": "e",
+     "i": 30.156,
+     "f": 30.247
+    },
+    {
+     "p": "não",
+     "i": 30.26,
+     "f": 30.52
+    },
+    {
+     "p": "um",
+     "i": 30.533,
+     "f": 30.676
+    },
+    {
+     "p": "luxo",
+     "i": 30.689,
+     "f": 30.976
+    },
+    {
+     "p": "extremo",
+     "i": 30.989,
+     "f": 31.497
+    },
+    {
+     "p": "Resta",
+     "i": 31.838,
+     "f": 32.242
+    },
+    {
+     "p": "saber",
+     "i": 32.255,
+     "f": 32.593
+    },
+    {
+     "p": "se",
+     "i": 32.606,
+     "f": 32.724
+    },
+    {
+     "p": "o",
+     "i": 32.737,
+     "f": 32.789
+    },
+    {
+     "p": "preço",
+     "i": 32.802,
+     "f": 33.179
+    },
+    {
+     "p": "e",
+     "i": 33.192,
+     "f": 33.218
+    },
+    {
+     "p": "as",
+     "i": 33.231,
+     "f": 33.375
+    },
+    {
+     "p": "regras",
+     "i": 33.388,
+     "f": 33.83
+    },
+    {
+     "p": "contra",
+     "i": 33.843,
+     "f": 34.169
+    },
+    {
+     "p": "o",
+     "i": 34.182,
+     "f": 34.208
+    },
+    {
+     "p": "estrondo",
+     "i": 34.221,
+     "f": 34.664
+    },
+    {
+     "p": "deixarão",
+     "i": 34.677,
+     "f": 35.171
+    },
+    {
+     "p": "o",
+     "i": 35.184,
+     "f": 35.237
+    },
+    {
+     "p": "sonho",
+     "i": 35.25,
+     "f": 35.601
+    },
+    {
+     "p": "voar",
+     "i": 35.614,
+     "f": 35.953
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "e260d40eb8",
+   "texto": "A lição do Concorde talvez seja simples: tecnologia que funciona não basta. Ela precisa caber na regra, na conta e no mundo em que voa. O Concorde foi rápido demais para o barulho que fazia, caro demais para os passageiros que sobraram e único demais para ser consertado em escala. Ele mostrou que o limite de um avião não é só físico: é também econômico e político. Se a próxima geração vai aprender com isso, só os próximos anos dirão. O céu, afinal, continua esperando a resposta.",
+   "audio": "audio/fecho-e260d40eb8.mp3",
+   "duracao": 31.164,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "lição",
+     "i": 0.219,
+     "f": 0.623
+    },
+    {
+     "p": "do",
+     "i": 0.636,
+     "f": 0.74
+    },
+    {
+     "p": "Concorde",
+     "i": 0.753,
+     "f": 1.313
+    },
+    {
+     "p": "talvez",
+     "i": 1.326,
+     "f": 1.769
+    },
+    {
+     "p": "seja",
+     "i": 1.782,
+     "f": 2.042
+    },
+    {
+     "p": "simples",
+     "i": 2.055,
+     "f": 2.641
+    },
+    {
+     "p": "tecnologia",
+     "i": 2.876,
+     "f": 3.631
+    },
+    {
+     "p": "que",
+     "i": 3.644,
+     "f": 3.748
+    },
+    {
+     "p": "funciona",
+     "i": 3.761,
+     "f": 4.321
+    },
+    {
+     "p": "não",
+     "i": 4.334,
+     "f": 4.555
+    },
+    {
+     "p": "basta",
+     "i": 4.568,
+     "f": 5.037
+    },
+    {
+     "p": "Ela",
+     "i": 5.39,
+     "f": 5.637
+    },
+    {
+     "p": "precisa",
+     "i": 5.65,
+     "f": 6.054
+    },
+    {
+     "p": "caber",
+     "i": 6.067,
+     "f": 6.406
+    },
+    {
+     "p": "na",
+     "i": 6.419,
+     "f": 6.549
+    },
+    {
+     "p": "regra",
+     "i": 6.562,
+     "f": 6.979
+    },
+    {
+     "p": "na",
+     "i": 7.213,
+     "f": 7.369
+    },
+    {
+     "p": "conta",
+     "i": 7.382,
+     "f": 7.734
+    },
+    {
+     "p": "e",
+     "i": 7.747,
+     "f": 7.773
+    },
+    {
+     "p": "no",
+     "i": 7.786,
+     "f": 7.864
+    },
+    {
+     "p": "mundo",
+     "i": 7.877,
+     "f": 8.19
+    },
+    {
+     "p": "em",
+     "i": 8.203,
+     "f": 8.268
+    },
+    {
+     "p": "que",
+     "i": 8.281,
+     "f": 8.411
+    },
+    {
+     "p": "voa",
+     "i": 8.424,
+     "f": 8.776
+    },
+    {
+     "p": "O",
+     "i": 9.118,
+     "f": 9.222
+    },
+    {
+     "p": "Concorde",
+     "i": 9.235,
+     "f": 9.808
+    },
+    {
+     "p": "foi",
+     "i": 9.821,
+     "f": 9.964
+    },
+    {
+     "p": "rápido",
+     "i": 9.977,
+     "f": 10.381
+    },
+    {
+     "p": "demais",
+     "i": 10.394,
+     "f": 10.837
+    },
+    {
+     "p": "para",
+     "i": 10.85,
+     "f": 10.993
+    },
+    {
+     "p": "o",
+     "i": 11.006,
+     "f": 11.019
+    },
+    {
+     "p": "barulho",
+     "i": 11.032,
+     "f": 11.397
+    },
+    {
+     "p": "que",
+     "i": 11.41,
+     "f": 11.514
+    },
+    {
+     "p": "fazia",
+     "i": 11.527,
+     "f": 12.035
+    },
+    {
+     "p": "caro",
+     "i": 12.282,
+     "f": 12.517
+    },
+    {
+     "p": "demais",
+     "i": 12.53,
+     "f": 12.959
+    },
+    {
+     "p": "para",
+     "i": 12.972,
+     "f": 13.102
+    },
+    {
+     "p": "os",
+     "i": 13.115,
+     "f": 13.194
+    },
+    {
+     "p": "passageiros",
+     "i": 13.207,
+     "f": 13.871
+    },
+    {
+     "p": "que",
+     "i": 13.884,
+     "f": 13.988
+    },
+    {
+     "p": "sobraram",
+     "i": 14.001,
+     "f": 14.522
+    },
+    {
+     "p": "e",
+     "i": 14.535,
+     "f": 14.626
+    },
+    {
+     "p": "único",
+     "i": 14.639,
+     "f": 14.951
+    },
+    {
+     "p": "demais",
+     "i": 14.964,
+     "f": 15.394
+    },
+    {
+     "p": "para",
+     "i": 15.407,
+     "f": 15.589
+    },
+    {
+     "p": "ser",
+     "i": 15.602,
+     "f": 15.772
+    },
+    {
+     "p": "consertado",
+     "i": 15.785,
+     "f": 16.501
+    },
+    {
+     "p": "em",
+     "i": 16.514,
+     "f": 16.605
+    },
+    {
+     "p": "escala",
+     "i": 16.618,
+     "f": 17.113
+    },
+    {
+     "p": "Ele",
+     "i": 17.454,
+     "f": 17.623
+    },
+    {
+     "p": "mostrou",
+     "i": 17.636,
+     "f": 18.092
+    },
+    {
+     "p": "que",
+     "i": 18.105,
+     "f": 18.183
+    },
+    {
+     "p": "o",
+     "i": 18.196,
+     "f": 18.209
+    },
+    {
+     "p": "limite",
+     "i": 18.222,
+     "f": 18.678
+    },
+    {
+     "p": "de",
+     "i": 18.691,
+     "f": 18.756
+    },
+    {
+     "p": "um",
+     "i": 18.769,
+     "f": 18.873
+    },
+    {
+     "p": "avião",
+     "i": 18.886,
+     "f": 19.251
+    },
+    {
+     "p": "não",
+     "i": 19.264,
+     "f": 19.433
+    },
+    {
+     "p": "é",
+     "i": 19.446,
+     "f": 19.498
+    },
+    {
+     "p": "só",
+     "i": 19.511,
+     "f": 19.707
+    },
+    {
+     "p": "físico",
+     "i": 19.72,
+     "f": 20.306
+    },
+    {
+     "p": "é",
+     "i": 20.54,
+     "f": 20.631
+    },
+    {
+     "p": "também",
+     "i": 20.644,
+     "f": 21.061
+    },
+    {
+     "p": "econômico",
+     "i": 21.074,
+     "f": 21.673
+    },
+    {
+     "p": "e",
+     "i": 21.686,
+     "f": 21.725
+    },
+    {
+     "p": "político",
+     "i": 21.738,
+     "f": 22.324
+    },
+    {
+     "p": "Se",
+     "i": 22.67,
+     "f": 22.865
+    },
+    {
+     "p": "a",
+     "i": 22.878,
+     "f": 22.97
+    },
+    {
+     "p": "próxima",
+     "i": 22.983,
+     "f": 23.451
+    },
+    {
+     "p": "geração",
+     "i": 23.464,
+     "f": 23.998
+    },
+    {
+     "p": "vai",
+     "i": 24.011,
+     "f": 24.128
+    },
+    {
+     "p": "aprender",
+     "i": 24.141,
+     "f": 24.558
+    },
+    {
+     "p": "com",
+     "i": 24.571,
+     "f": 24.819
+    },
+    {
+     "p": "isso",
+     "i": 24.832,
+     "f": 25.092
+    },
+    {
+     "p": "só",
+     "i": 25.404,
+     "f": 25.548
+    },
+    {
+     "p": "os",
+     "i": 25.561,
+     "f": 25.717
+    },
+    {
+     "p": "próximos",
+     "i": 25.73,
+     "f": 26.212
+    },
+    {
+     "p": "anos",
+     "i": 26.225,
+     "f": 26.576
+    },
+    {
+     "p": "dirão",
+     "i": 26.589,
+     "f": 26.941
+    },
+    {
+     "p": "O",
+     "i": 27.286,
+     "f": 27.403
+    },
+    {
+     "p": "céu",
+     "i": 27.416,
+     "f": 27.859
+    },
+    {
+     "p": "afinal",
+     "i": 28.145,
+     "f": 28.705
+    },
+    {
+     "p": "continua",
+     "i": 28.966,
+     "f": 29.5
+    },
+    {
+     "p": "esperando",
+     "i": 29.513,
+     "f": 30.007
+    },
+    {
+     "p": "a",
+     "i": 30.02,
+     "f": 30.046
+    },
+    {
+     "p": "resposta",
+     "i": 30.06,
+     "f": 30.737
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "c-pouso": {
+   "arquivo": "imagens/c-pouso-329eebd3.jpg",
+   "rotulo": "Concorde da British Airways pousando",
+   "wiki": "Concorde",
+   "commons": "British Airways Concorde G-BOAC landing Heathrow",
+   "autor": "Eduard Marmet",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:British_Airways_Concorde_G-BOAC_03.jpg",
+   "titulo": "File:British Airways Concorde G-BOAC 03.jpg",
+   "largura": 1024,
+   "altura": 679,
+   "rostos": 0,
+   "foco": {
+    "x": 29.9,
+    "y": 52.5
+   },
+   "borrada": "imagens/c-pouso-329eebd3-b.jpg"
+  },
+  "c-heathrow": {
+   "arquivo": "imagens/c-heathrow-69a7fb86.jpg",
+   "rotulo": "Aeroporto de Heathrow, Londres",
+   "wiki": "Aeroporto de Londres Heathrow",
+   "commons": "London Heathrow Airport aerial view",
+   "autor": "Konstantin Von Wedelstaedt",
+   "licenca": "GFDL 1.2",
+   "pagina": "https://commons.wikimedia.org/wiki/File:London_-_Heathrow_(LHR_-_EGLL)_AN1572653.jpg",
+   "titulo": "File:London - Heathrow (LHR - EGLL) AN1572653.jpg",
+   "largura": 1024,
+   "altura": 683,
+   "rostos": 0,
+   "foco": {
+    "x": 49.3,
+    "y": 50.3
+   },
+   "borrada": "imagens/c-heathrow-69a7fb86-b.jpg"
+  },
+  "c-voo": {
+   "arquivo": "imagens/c-voo-091c8d59.jpg",
+   "rotulo": "Concorde em voo",
+   "commons": "Concorde in flight Air France F-BVFB",
+   "autor": "airlines470",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://www.flickr.com/photos/16103393@N05/16092025288",
+   "titulo": "F-BVFB last commercial flight 05-31-2003",
+   "largura": 1024,
+   "altura": 681,
+   "rostos": 0,
+   "foco": {
+    "x": 68.9,
+    "y": 50.7
+   },
+   "borrada": "imagens/c-voo-091c8d59-b.jpg"
+  },
+  "c-atlantico": {
+   "arquivo": "",
+   "rotulo": "A rota sobre o Atlântico Norte",
+   "commons": "North Atlantic Ocean map transatlantic routes",
+   "semFoto": true
+  },
+  "c-prototipo": {
+   "arquivo": "imagens/c-prototipo-332dbeb5.jpg",
+   "rotulo": "Protótipo 002 do Concorde",
+   "commons": "Concorde 002 prototype Yeovilton museum",
+   "autor": "San Diego Air &amp; Space Museum Archives",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:HP.115_-_BAC_221_-_Concorde_002_Fleet_Air_Air_Museum_Yeovilton_1984.jpg",
+   "titulo": "File:HP.115 - BAC 221 - Concorde 002 Fleet Air Air Museum Yeovilton 1984.jpg",
+   "largura": 1000,
+   "altura": 631,
+   "rostos": 0,
+   "foco": {
+    "x": 40.9,
+    "y": 36.3
+   },
+   "borrada": "imagens/c-prototipo-332dbeb5-b.jpg"
+  },
+  "c-duplo": {
+   "arquivo": "imagens/c-duplo-0c9c24ee.jpg",
+   "rotulo": "Concorde da Air France e da British Airways",
+   "commons": "Concorde Air France British Airways side by side",
+   "autor": "roger4336",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://www.flickr.com/photos/24736216@N07/8035607485",
+   "titulo": "Concorde - British Airways (Postcard)",
+   "largura": 1024,
+   "altura": 632,
+   "rostos": 0,
+   "foco": {
+    "x": 36.8,
+    "y": 42.0
+   },
+   "borrada": "imagens/c-duplo-0c9c24ee-b.jpg"
+  },
+  "c-brooklands": {
+   "arquivo": "imagens/c-brooklands-6cba35b8.jpg",
+   "rotulo": "Concorde no museu de Brooklands",
+   "commons": "Concorde Brooklands Museum G-BBDG",
+   "autor": "AviationPhotographer",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concorde_G-BBDG_at_the_Brooklands_Museum.jpg",
+   "titulo": "File:Concorde G-BBDG at the Brooklands Museum.jpg",
+   "largura": 1800,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 51.6,
+    "y": 64.7
+   },
+   "borrada": "imagens/c-brooklands-6cba35b8-b.jpg"
+  },
+  "c-boom": {
+   "arquivo": "imagens/c-boom-b0a57eee.jpg",
+   "rotulo": "Ondas de choque de um jato supersônico (NASA)",
+   "commons": "sonic boom shock waves T-38 schlieren NASA",
+   "autor": "NASA photo",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:F4_p4_red_planedrop.jpg",
+   "titulo": "File:F4 p4 red planedrop.jpg",
+   "largura": 1920,
+   "altura": 1044,
+   "rostos": 0,
+   "foco": {
+    "x": 53.1,
+    "y": 58.9
+   },
+   "borrada": "imagens/c-boom-b0a57eee-b.jpg"
+  },
+  "c-hangar": {
+   "arquivo": "",
+   "rotulo": "XB-1, demonstrador da Boom",
+   "commons": "Boom Supersonic XB-1 rollout hangar",
+   "semFoto": true
+  },
+  "c-x1": {
+   "arquivo": "imagens/c-x1-653e93e5.jpg",
+   "rotulo": "Bell X-1, o primeiro a passar do som",
+   "wiki": "Bell X-1",
+   "commons": "Bell X-1 Chuck Yeager supersonic flight",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bell_X-1_in_flight.jpg",
+   "titulo": "File:Bell X-1 in flight.jpg",
+   "largura": 1821,
+   "altura": 1462,
+   "rostos": 0,
+   "foco": {
+    "x": 60.3,
+    "y": 42.7
+   },
+   "borrada": "imagens/c-x1-653e93e5-b.jpg"
+  },
+  "c-tratado": {
+   "arquivo": "",
+   "rotulo": "Acordo franco-britânico, 1962",
+   "commons": "Concorde Anglo-French agreement 1962 treaty signing",
+   "semFoto": true
+  },
+  "c-projeto": {
+   "arquivo": "",
+   "rotulo": "Modelo de projeto do Concorde",
+   "commons": "Concorde design model wind tunnel",
+   "semFoto": true
+  },
+  "c-toulouse": {
+   "arquivo": "",
+   "rotulo": "Concorde 001, Toulouse",
+   "commons": "Concorde 001 Toulouse Aeroscopia",
+   "semFoto": true
+  },
+  "c-rivais": {
+   "arquivo": "imagens/c-rivais-522eb23d.jpg",
+   "rotulo": "Montagem do Concorde, Reino Unido e França",
+   "commons": "Concorde Sud Aviation British Aircraft Corporation assembly",
+   "autor": "Steve Fitzgerald",
+   "licenca": "GFDL 1.2",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sud-BAC_Concorde,_British_Aircraft_Corporation_-_Aerospatiale_France_AN1804818.jpg",
+   "titulo": "File:Sud-BAC Concorde, British Aircraft Corporation - Aerospatiale France AN1804818.jpg",
+   "largura": 1024,
+   "altura": 683,
+   "rostos": 0,
+   "foco": {
+    "x": 52.7,
+    "y": 55.5
+   },
+   "borrada": "imagens/c-rivais-522eb23d-b.jpg"
+  },
+  "c-janelas": {
+   "arquivo": "",
+   "rotulo": "Janela do Concorde",
+   "commons": "Concorde passenger window small",
+   "semFoto": true
+  },
+  "c-p002": {
+   "arquivo": "imagens/c-p002-2e5ab08e.jpg",
+   "rotulo": "Concorde 002 em testes",
+   "commons": "Concorde 002 Fairford first flight 1969",
+   "autor": "Alan Wilson from Peterborough, Cambs, UK",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:British_Aircraft_Corporation_Concorde_%E2%80%98G-BSST%E2%80%99_(49939258032).jpg",
+   "titulo": "File:British Aircraft Corporation Concorde ‘G-BSST’ (49939258032).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 81.1,
+    "y": 36.2
+   },
+   "borrada": "imagens/c-p002-2e5ab08e-b.jpg"
+  },
+  "c-cruzeiro": {
+   "arquivo": "",
+   "rotulo": "Concorde em cruzeiro",
+   "commons": "Concorde cruising high altitude sky",
+   "semFoto": true
+  },
+  "c-altitude": {
+   "arquivo": "imagens/c-altitude-a87ca9f0.jpg",
+   "rotulo": "Painel de velocidade do Concorde",
+   "commons": "Concorde Mach 2 flight display cockpit",
+   "autor": "Alan Wilson from Peterborough, Cambs, UK",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cockpit_of_Concorde_101_%E2%80%98F-BTSD%E2%80%99_(53432194650).jpg",
+   "titulo": "File:Cockpit of Concorde 101 ‘F-BTSD’ (53432194650).jpg",
+   "largura": 1813,
+   "altura": 2720,
+   "rostos": 0,
+   "foco": {
+    "x": 53.3,
+    "y": 48.1
+   },
+   "borrada": "imagens/c-altitude-a87ca9f0-b.jpg"
+  },
+  "c-atrito": {
+   "arquivo": "",
+   "rotulo": "Indicador de Mach na cabine",
+   "commons": "Concorde Mach meter cabin display",
+   "semFoto": true
+  },
+  "c-delta": {
+   "arquivo": "",
+   "rotulo": "Asa em delta do Concorde",
+   "commons": "Concorde delta wing ogival detail",
+   "semFoto": true
+  },
+  "c-nariz": {
+   "arquivo": "imagens/c-nariz-978b65a3.jpg",
+   "rotulo": "Nariz articulado do Concorde",
+   "commons": "Concorde droop nose lowered",
+   "autor": "Ralf1403",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/concorde-avi%C3%A3o-ar-franc%C3%AAs-avia%C3%A7%C3%A3o-7159144/",
+   "titulo": "concorde, avião, ar francês, aviação, museu, sinsheim, supersônico, avião de passageiros, concorde, concorde, concorde, concorde, concorde, avião",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 25.6,
+    "y": 58.1
+   },
+   "borrada": "imagens/c-nariz-978b65a3-b.jpg"
+  },
+  "c-cabine": {
+   "arquivo": "imagens/c-cabine-5898d8ef.jpg",
+   "rotulo": "Cabine do Concorde",
+   "commons": "Concorde cabin interior seats",
+   "autor": "Benson Kua",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://www.flickr.com/photos/91545223@N00/2537670394",
+   "titulo": "The Concorde Interior",
+   "largura": 1023,
+   "altura": 645,
+   "rostos": 0,
+   "foco": {
+    "x": 50.3,
+    "y": 60.7
+   },
+   "borrada": "imagens/c-cabine-5898d8ef-b.jpg"
+  },
+  "c-shock": {
+   "arquivo": "",
+   "rotulo": "Nuvem de condensação de um avião transônico",
+   "commons": "Prandtl-Glauert condensation cloud aircraft transonic",
+   "semFoto": true
+  },
+  "c-cone": {
+   "arquivo": "",
+   "rotulo": "Esquema do estrondo sônico",
+   "commons": "sonic boom diagram aircraft shock wave cone",
+   "semFoto": true
+  },
+  "c-faa": {
+   "arquivo": "imagens/c-faa-bd4cebfb.jpg",
+   "rotulo": "FAA, Estados Unidos",
+   "wiki": "Administração Federal de Aviação",
+   "commons": "Federal Aviation Administration headquarters Washington",
+   "autor": "Runner1928",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Federal_Aviation_Administration_headquarters_and_sign.jpg",
+   "titulo": "File:Federal Aviation Administration headquarters and sign.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 51.9,
+    "y": 43.0
+   },
+   "borrada": "imagens/c-faa-bd4cebfb-b.jpg"
+  },
+  "c-oceano": {
+   "arquivo": "imagens/c-oceano-8a1f6cd5.jpg",
+   "rotulo": "Concorde sobre o oceano",
+   "commons": "Concorde over Atlantic Ocean",
+   "autor": "Michael F. McLaughlin",
+   "licenca": "GFDL 1.2",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Accident_Aircraft_F-BTSC_(cropped).jpg",
+   "titulo": "File:Accident Aircraft F-BTSC (cropped).jpg",
+   "largura": 835,
+   "altura": 474,
+   "rostos": 0,
+   "foco": {
+    "x": 46.2,
+    "y": 31.4
+   },
+   "borrada": "imagens/c-oceano-8a1f6cd5-b.jpg"
+  },
+  "c-jfk": {
+   "arquivo": "imagens/c-jfk-308bf6f4.jpg",
+   "rotulo": "Concorde no aeroporto JFK",
+   "commons": "Concorde at John F. Kennedy International Airport",
+   "autor": "Hunter Desportes",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concorde_at_JFK.jpg",
+   "titulo": "File:Concorde at JFK.jpg",
+   "largura": 800,
+   "altura": 541,
+   "rostos": 0,
+   "foco": {
+    "x": 57.5,
+    "y": 56.2
+   },
+   "borrada": "imagens/c-jfk-308bf6f4-b.jpg"
+  },
+  "c-costa": {
+   "arquivo": "",
+   "rotulo": "Concorde se aproximando da costa",
+   "commons": "Concorde landing Long Island coast approach",
+   "semFoto": true
+  },
+  "c-abastece": {
+   "arquivo": "",
+   "rotulo": "Concorde sendo abastecido",
+   "commons": "Concorde refuelling fuel truck",
+   "semFoto": true
+  },
+  "c-747": {
+   "arquivo": "imagens/c-747-a4208fdd.jpg",
+   "rotulo": "Boeing 747",
+   "wiki": "Boeing 747",
+   "commons": "Boeing 747-400 British Airways in flight",
+   "autor": "Adrian Pingstone",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ba_b747-400_g-bnle_arp.jpg",
+   "titulo": "File:Ba b747-400 g-bnle arp.jpg",
+   "largura": 1920,
+   "altura": 1259,
+   "rostos": 0,
+   "foco": {
+    "x": 31.1,
+    "y": 43.7
+   },
+   "borrada": "imagens/c-747-a4208fdd-b.jpg"
+  },
+  "c-frota": {
+   "arquivo": "imagens/c-frota-20ca5e2b.jpg",
+   "rotulo": "Frota de Concordes da British Airways",
+   "commons": "British Airways Concorde fleet Heathrow",
+   "autor": "Steve Fitzgerald",
+   "licenca": "GFDL 1.2",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aerospatiale-British_Aerospace_Concorde_102,_British_Airways_AN1809008.jpg",
+   "titulo": "File:Aerospatiale-British Aerospace Concorde 102, British Airways AN1809008.jpg",
+   "largura": 1024,
+   "altura": 683,
+   "rostos": 0,
+   "foco": {
+    "x": 59.2,
+    "y": 54.7
+   },
+   "borrada": "imagens/c-frota-20ca5e2b-b.jpg"
+  },
+  "c-motor": {
+   "arquivo": "imagens/c-motor-4ae29aa4.jpg",
+   "rotulo": "Motor Olympus 593",
+   "commons": "Rolls-Royce Olympus 593 engine Concorde",
+   "autor": "jabberwock",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Snecma_Olympus_593_engine.jpg",
+   "titulo": "File:Snecma Olympus 593 engine.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 51.7,
+    "y": 61.2
+   },
+   "borrada": "imagens/c-motor-4ae29aa4-b.jpg"
+  },
+  "c-lounge": {
+   "arquivo": "imagens/c-lounge-27d25419.jpg",
+   "rotulo": "Salão de espera do Concorde",
+   "commons": "British Airways Concorde Room lounge",
+   "autor": "Richard Moross from London",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:British_Airways_Heathrow_Concorde_Room.jpg",
+   "titulo": "File:British Airways Heathrow Concorde Room.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 38.6,
+    "y": 46.5
+   },
+   "borrada": "imagens/c-lounge-27d25419-b.jpg"
+  },
+  "c-assentos": {
+   "arquivo": "",
+   "rotulo": "Assentos do Concorde",
+   "commons": "Concorde cabin four abreast seating",
+   "semFoto": true
+  },
+  "c-prestigio": {
+   "arquivo": "imagens/c-prestigio-18220931.jpg",
+   "rotulo": "Concorde sobre Londres, 2002",
+   "commons": "Concorde Buckingham Palace Golden Jubilee flypast 2002",
+   "autor": "Michael Pead",
+   "licenca": "CC BY-SA 2.0 uk",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Golden_Jubilee_Palace_43.JPG",
+   "titulo": "File:Golden Jubilee Palace 43.JPG",
+   "largura": 900,
+   "altura": 600,
+   "rostos": 0,
+   "foco": {
+    "x": 44.8,
+    "y": 66.2
+   },
+   "borrada": "imagens/c-prestigio-18220931-b.jpg"
+  },
+  "c-cdg": {
+   "arquivo": "imagens/c-cdg-e090e227.jpg",
+   "rotulo": "Aeroporto Charles de Gaulle, Paris",
+   "wiki": "Aeroporto de Paris-Charles de Gaulle",
+   "commons": "Paris Charles de Gaulle Airport aerial",
+   "autor": "Martin Abegglen",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/w/index.php?curid=17985125",
+   "titulo": "Aerial view of Paris-Charles de Gaulle airport",
+   "largura": 3648,
+   "altura": 2736,
+   "rostos": 0,
+   "foco": {
+    "x": 34.1,
+    "y": 55.7
+   },
+   "borrada": "imagens/c-cdg-e090e227-b.jpg"
+  },
+  "c-af": {
+   "arquivo": "imagens/c-af-1efdab7b.jpg",
+   "rotulo": "Concorde da Air France",
+   "commons": "Air France Concorde F-BTSD Paris Charles de Gaulle",
+   "autor": "Michel Gilliand",
+   "licenca": "GFDL 1.2",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aerospatiale-British_Aerospace_Concorde_101,_Air_France_AN0702254.jpg",
+   "titulo": "File:Aerospatiale-British Aerospace Concorde 101, Air France AN0702254.jpg",
+   "largura": 1600,
+   "altura": 1091,
+   "rostos": 0,
+   "foco": {
+    "x": 64.2,
+    "y": 58.7
+   },
+   "borrada": "imagens/c-af-1efdab7b-b.jpg"
+  },
+  "c-pista": {
+   "arquivo": "",
+   "rotulo": "Concorde decolando",
+   "commons": "Concorde taking off runway afterburner",
+   "semFoto": true
+  },
+  "c-titanio": {
+   "arquivo": "imagens/c-titanio-646c99b5.jpg",
+   "rotulo": "DC-10 da Continental Airlines",
+   "commons": "Continental Airlines McDonnell Douglas DC-10 N13067",
+   "autor": "Project Kei",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Continental_Airlines_DC10_at_Oita_Airport_1996.jpg",
+   "titulo": "File:Continental Airlines DC10 at Oita Airport 1996.jpg",
+   "largura": 1920,
+   "altura": 1152,
+   "rostos": 0,
+   "foco": {
+    "x": 50.8,
+    "y": 62.6
+   },
+   "borrada": "imagens/c-titanio-646c99b5-b.jpg"
+  },
+  "c-pneu": {
+   "arquivo": "",
+   "rotulo": "Trem de pouso do Concorde",
+   "commons": "Concorde main landing gear bogie wheels",
+   "semFoto": true
+  },
+  "c-tanque": {
+   "arquivo": "",
+   "rotulo": "Tanques de combustível do Concorde",
+   "commons": "Concorde fuel tank layout diagram",
+   "semFoto": true
+  },
+  "c-gonesse": {
+   "arquivo": "",
+   "rotulo": "Memorial do voo 4590, Gonesse",
+   "commons": "Gonesse Concorde memorial monument",
+   "semFoto": true
+  },
+  "c-turistas": {
+   "arquivo": "",
+   "rotulo": "Navio de cruzeiro Deutschland",
+   "commons": "Deutschland cruise ship Peter Deilmann",
+   "semFoto": true
+  },
+  "c-chao": {
+   "arquivo": "",
+   "rotulo": "Concordes em solo",
+   "commons": "Concorde grounded parked Charles de Gaulle",
+   "semFoto": true
+  },
+  "c-invest": {
+   "arquivo": "",
+   "rotulo": "BEA, órgão francês de investigação",
+   "commons": "Bureau d'Enquêtes et d'Analyses BEA Le Bourget",
+   "semFoto": true
+  },
+  "c-kevlar": {
+   "arquivo": "imagens/c-kevlar-d048f30b.jpg",
+   "rotulo": "Tecido de Kevlar",
+   "wiki": "Kevlar",
+   "commons": "Kevlar aramid fabric",
+   "autor": "Cjp24",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kevlar_gloves.jpg",
+   "titulo": "File:Kevlar gloves.jpg",
+   "largura": 1920,
+   "altura": 1503,
+   "rostos": 2,
+   "foco": {
+    "x": 48.8,
+    "y": 46.4
+   },
+   "borrada": "imagens/c-kevlar-d048f30b-b.jpg"
+  },
+  "c-retorno": {
+   "arquivo": "",
+   "rotulo": "Volta ao serviço, 2001",
+   "commons": "British Airways Concorde returns to service November 2001",
+   "semFoto": true
+  },
+  "c-wtc": {
+   "arquivo": "imagens/c-wtc-55cacfcf.jpg",
+   "rotulo": "Nova York, 11 de setembro de 2001",
+   "commons": "World Trade Center September 11 2001 attack smoke Manhattan",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Collection-of-unattributed-photographs-of-the-september-11th-terrorist-attack-172.jpg",
+   "titulo": "File:Collection-of-unattributed-photographs-of-the-september-11th-terrorist-attack-172.jpg",
+   "largura": 1024,
+   "altura": 693,
+   "rostos": 0,
+   "foco": {
+    "x": 54.6,
+    "y": 80
+   },
+   "borrada": "imagens/c-wtc-55cacfcf-b.jpg"
+  },
+  "c-vazios": {
+   "arquivo": "imagens/c-vazios-2bc4f007.jpg",
+   "rotulo": "Cabine com assentos vazios",
+   "commons": "empty airplane cabin seats",
+   "autor": "Douglas P. Perkins",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Seats_on_an_airplane.jpg",
+   "titulo": "File:Seats on an airplane.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 51.8,
+    "y": 55.3
+   },
+   "borrada": "imagens/c-vazios-2bc4f007-b.jpg"
+  },
+  "c-manutencao": {
+   "arquivo": "",
+   "rotulo": "Manutenção do Concorde",
+   "commons": "Concorde maintenance hangar engineers",
+   "semFoto": true
+  },
+  "c-af-fim": {
+   "arquivo": "imagens/c-af-fim-fb967689.jpg",
+   "rotulo": "Concorde da Air France em 2003",
+   "commons": "Air France Concorde final flight 2003",
+   "autor": "Dmitry Terekhov from Odintsovo, Russian Federation",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-144_(4322159916).jpg",
+   "titulo": "File:Tupolev Tu-144 (4322159916).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.9,
+    "y": 52.3
+   },
+   "borrada": "imagens/c-af-fim-fb967689-b.jpg"
+  },
+  "c-ba-fim": {
+   "arquivo": "",
+   "rotulo": "Concorde da British Airways, 2003",
+   "commons": "British Airways Concorde G-BOAG retirement 2003",
+   "semFoto": true
+  },
+  "c-airbus": {
+   "arquivo": "imagens/c-airbus-94e10a68.jpg",
+   "rotulo": "Airbus, Toulouse",
+   "wiki": "Airbus",
+   "commons": "Airbus headquarters Toulouse Blagnac",
+   "autor": "Nemausensis Asinus",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Toulouse_Si%C3%A8ge_Airbus.jpg",
+   "titulo": "File:Toulouse Siège Airbus.jpg",
+   "largura": 1920,
+   "altura": 960,
+   "rostos": 1,
+   "foco": {
+    "x": 64.8,
+    "y": 40.2
+   },
+   "borrada": "imagens/c-airbus-94e10a68-b.jpg"
+  },
+  "c-ultimo": {
+   "arquivo": "",
+   "rotulo": "Último voo comercial, 24/10/2003",
+   "commons": "Concorde last commercial flight 24 October 2003 Heathrow",
+   "semFoto": true
+  },
+  "c-filton": {
+   "arquivo": "imagens/c-filton-23244677.jpg",
+   "rotulo": "Último pouso, Filton",
+   "commons": "Concorde G-BOAF Filton last landing 26 November 2003",
+   "autor": "Myself (Adrian Pingstone).",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ex-British_Airways_Concorde_216_(G-BOAF)_on_display_at_Aerospace_Bristol_8August2019_arp.jpg",
+   "titulo": "File:Ex-British Airways Concorde 216 (G-BOAF) on display at Aerospace Bristol 8August2019 arp.jpg",
+   "largura": 1920,
+   "altura": 1170,
+   "rostos": 0,
+   "foco": {
+    "x": 43.8,
+    "y": 45.3
+   },
+   "borrada": "imagens/c-filton-23244677-b.jpg"
+  },
+  "c-boaf": {
+   "arquivo": "imagens/c-boaf-67c84b44.jpg",
+   "rotulo": "Concorde G-BOAF, Bristol",
+   "commons": "Concorde G-BOAF Aerospace Bristol museum",
+   "autor": "Myself (Adrian Pingstone).",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concorde_G-BOAF_tail_bumper_at_Filton,_Bristol_arp.jpg",
+   "titulo": "File:Concorde G-BOAF tail bumper at Filton, Bristol arp.jpg",
+   "largura": 1920,
+   "altura": 1533,
+   "rostos": 0,
+   "foco": {
+    "x": 46.8,
+    "y": 35.1
+   },
+   "borrada": "imagens/c-boaf-67c84b44-b.jpg"
+  },
+  "c-seattle": {
+   "arquivo": "imagens/c-seattle-34022940.jpg",
+   "rotulo": "Concorde no Museum of Flight, Seattle",
+   "commons": "Concorde Museum of Flight Seattle",
+   "autor": "FaceMePLS from The Hague, The Netherlands",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concorde_-_The_Museum_of_Flight_Seattle_WA_(32313421067).jpg",
+   "titulo": "File:Concorde - The Museum of Flight Seattle WA (32313421067).jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 1,
+   "foco": {
+    "x": 51.5,
+    "y": 43.2
+   },
+   "borrada": "imagens/c-seattle-34022940-b.jpg"
+  },
+  "c-bourget": {
+   "arquivo": "imagens/c-bourget-35689305.jpg",
+   "rotulo": "Concorde no museu de Le Bourget",
+   "commons": "Concorde Musée de l'Air et de l'Espace Le Bourget",
+   "autor": "Chabe01",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hall_Concorde_Mus%C3%A9e_Air_Espace_A%C3%A9roport_Bourget_-_Dugny_(FR93)_-_2025-03-29_-_3.jpg",
+   "titulo": "File:Hall Concorde Musée Air Espace Aéroport Bourget - Dugny (FR93) - 2025-03-29 - 3.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 47.4,
+    "y": 53.6
+   },
+   "borrada": "imagens/c-bourget-35689305-b.jpg"
+  },
+  "c-barbados": {
+   "arquivo": "imagens/c-barbados-2a27432b.jpg",
+   "rotulo": "Concorde em Barbados",
+   "commons": "Concorde Grantley Adams International Airport Barbados museum",
+   "autor": "CaribDigita",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Barbados_Concorde_Experience-01.jpg",
+   "titulo": "File:Barbados Concorde Experience-01.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 47.2,
+    "y": 77.9
+   },
+   "borrada": "imagens/c-barbados-2a27432b-b.jpg"
+  },
+  "c-intrepid": {
+   "arquivo": "imagens/c-intrepid-4300a1b5.jpg",
+   "rotulo": "Concorde no Intrepid, Nova York",
+   "commons": "Concorde Intrepid Sea Air Space Museum New York",
+   "autor": "Photograph by Mike Peel (www.mikepeel.net).",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:At_the_Intrepid_Museum_2023_201.jpg",
+   "titulo": "File:At the Intrepid Museum 2023 201.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 27.9,
+    "y": 63.3
+   },
+   "borrada": "imagens/c-intrepid-4300a1b5-b.jpg"
+  },
+  "c-777": {
+   "arquivo": "imagens/c-777-45eb3495.jpg",
+   "rotulo": "Jato subsônico atual",
+   "commons": "Boeing 777 British Airways landing Heathrow",
+   "autor": "MercerMJ",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Boeing_777-200ER_of_British_Airways_landing_at_London_Heathrow_Airport_(1).jpg",
+   "titulo": "File:Boeing 777-200ER of British Airways landing at London Heathrow Airport (1).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 61.8,
+    "y": 50.8
+   },
+   "borrada": "imagens/c-777-45eb3495-b.jpg"
+  },
+  "c-boomhq": {
+   "arquivo": "",
+   "rotulo": "Boom Supersonic",
+   "wiki": "Boom Supersonic",
+   "commons": "Boom Supersonic XB-1 aircraft",
+   "semFoto": true
+  },
+  "c-xb1": {
+   "arquivo": "",
+   "rotulo": "XB-1 em voo",
+   "commons": "Boom XB-1 supersonic demonstrator in flight",
+   "semFoto": true
+  },
+  "c-overture": {
+   "arquivo": "imagens/c-overture-730533ca.jpg",
+   "rotulo": "Conceito do Boom Overture",
+   "commons": "Boom Overture supersonic airliner rendering",
+   "autor": "Kuat-Entralla 3D Engineering",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Boom_Overture_rendering.png",
+   "titulo": "File:Boom Overture rendering.png",
+   "largura": 1642,
+   "altura": 748,
+   "rostos": 0,
+   "foco": {
+    "x": 72.0,
+    "y": 48.9
+   },
+   "borrada": "imagens/c-overture-730533ca-b.jpg"
+  },
+  "c-united": {
+   "arquivo": "imagens/c-united-e43ddde3.jpg",
+   "rotulo": "United Airlines",
+   "commons": "United Airlines Boeing 787 in flight",
+   "autor": "Acroterion",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:United_Boeing_787-10_N12003_MD1.jpg",
+   "titulo": "File:United Boeing 787-10 N12003 MD1.jpg",
+   "largura": 1920,
+   "altura": 885,
+   "rostos": 0,
+   "foco": {
+    "x": 57.4,
+    "y": 48.8
+   },
+   "borrada": "imagens/c-united-e43ddde3-b.jpg"
+  },
+  "c-jal": {
+   "arquivo": "imagens/c-jal-82d49634.jpg",
+   "rotulo": "Japan Airlines",
+   "commons": "Japan Airlines Boeing 787 Tokyo Haneda",
+   "autor": "4300streetcar",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_Boeing_787-9_JA876J_lining_up_at_Taipei_Songshan_February_2026_1.jpg",
+   "titulo": "File:Japan Airlines Boeing 787-9 JA876J lining up at Taipei Songshan February 2026 1.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 56.6,
+    "y": 79.7
+   },
+   "borrada": "imagens/c-jal-82d49634-b.jpg"
+  },
+  "c-fabrica": {
+   "arquivo": "",
+   "rotulo": "Fábrica da Boom, Greensboro",
+   "commons": "Boom Supersonic Overture Superfactory Greensboro",
+   "semFoto": true
+  },
+  "c-x59": {
+   "arquivo": "imagens/c-x59-07653a8f.jpg",
+   "rotulo": "NASA X-59, estudo de voo supersônico silencioso",
+   "commons": "Lockheed Martin X-59 QueSST quiet supersonic",
+   "autor": "NASA Headquarters / NASA/Steve Freeman",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_X-59_Sits_on_Ramp_(AFRC2023-0198-05).jpg",
+   "titulo": "File:NASA’s X-59 Sits on Ramp (AFRC2023-0198-05).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 65.4,
+    "y": 56.3
+   },
+   "borrada": "imagens/c-x59-07653a8f-b.jpg"
+  },
+  "c-cockpit": {
+   "arquivo": "imagens/c-cockpit-51517885.jpg",
+   "rotulo": "Cabine de comando do Concorde",
+   "commons": "Concorde cockpit flight deck",
+   "autor": "William M",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concorde_G-BBDG_Cockpit.JPG",
+   "titulo": "File:Concorde G-BBDG Cockpit.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 71.5,
+    "y": 25.9
+   },
+   "borrada": "imagens/c-cockpit-51517885-b.jpg"
+  },
+  "c-sol": {
+   "arquivo": "",
+   "rotulo": "Concorde ao pôr do sol",
+   "commons": "Concorde sunset silhouette",
+   "semFoto": true
+  },
+  "c-red": {
+   "arquivo": "imagens/c-red-855422b6.jpg",
+   "rotulo": "Concorde com os Red Arrows",
+   "commons": "Concorde Red Arrows flypast",
+   "autor": "CZmarlin — Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is used anywhere other than Wikipedia. Please leave a note at Wikipedia here. Thank you!",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Chrysler_Concorde_red_in_LF.jpg",
+   "titulo": "File:Chrysler Concorde red in LF.jpg",
+   "largura": 1920,
+   "altura": 1027,
+   "rostos": 1,
+   "foco": {
+    "x": 45.8,
+    "y": 74.4
+   },
+   "borrada": "imagens/c-red-855422b6-b.jpg"
+  },
+  "c-boac": {
+   "arquivo": "imagens/c-boac-9ea6947e.jpg",
+   "rotulo": "Concorde G-BOAC, Manchester",
+   "commons": "Concorde G-BOAC Manchester Airport Runway Visitor Park",
+   "autor": "Ridiculopathy",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Concorde_Tour_at_Runway_Visitor_Park,_Manchester_Airport,_UK_04.jpg",
+   "titulo": "File:Concorde Tour at Runway Visitor Park, Manchester Airport, UK 04.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 46.1,
+    "y": 56.7
+   },
+   "borrada": "imagens/c-boac-9ea6947e-b.jpg"
+  },
+  "c-f-bvfa": {
+   "arquivo": "imagens/c-f-bvfa-aef2c142.jpg",
+   "rotulo": "Concorde preservado, Washington",
+   "commons": "Air France Concorde F-BVFA Washington Dulles Udvar-Hazy",
+   "autor": "Alan Wilson from Peterborough, Cambs, UK",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:A%C3%A9rospatiale_Concorde_101_%E2%80%98F-BVFA%E2%80%99_(51269409824).jpg",
+   "titulo": "File:Aérospatiale Concorde 101 ‘F-BVFA’ (51269409824).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 35.8,
+    "y": 34.3
+   },
+   "borrada": "imagens/c-f-bvfa-aef2c142-b.jpg"
+  },
+  "c-ceu": {
+   "arquivo": "",
+   "rotulo": "Rastro de um Concorde no céu",
+   "commons": "Concorde contrail sky",
+   "semFoto": true
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-04T17:54:48.578Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +7092,53 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Concorde — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Concorde"
+  },
+  {
+   "titulo": "Air France Flight 4590 — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Air_France_Flight_4590"
+  },
+  {
+   "titulo": "Boom Overture — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boom_Overture"
+  },
+  {
+   "titulo": "Concorde — Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/technology/Concorde"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "O que aconteceu com o Concorde? A verdade sobre o fim",
+   "Por que o avião mais rápido do mundo deixou de voar",
+   "Concorde: a conta que nunca fechou"
+  ],
+  "descricao": "O Concorde cruzava o Atlântico em menos de três horas e meia e funcionava. Mesmo assim, deixou de voar em 2003. O vídeo mostra a aposta bilionária de França e Reino Unido, o estrondo sônico, o custo, o acidente de 2000 e o que empresas como a Boom tentam repetir hoje.\n\n0:00 Gancho\n0:30 Promessa\n1:00 Uma aposta bilionária\n1:40 Como ele voava\n2:20 O problema do estrondo\n3:00 A conta não fechava\n3:40 25 de julho de 2000\n4:20 O mundo mudou\n5:00 O fim anunciado\n5:40 E hoje?\n6:20 A nova corrida\n7:00 Fecho\n\nFontes: Wikipedia (Concorde, Air France Flight 4590, Boom Overture), Encyclopaedia Britannica.",
+  "tags": [
+   "Concorde",
+   "avião supersônico",
+   "aviação",
+   "história da aviação",
+   "Air France 4590",
+   "Boom Supersonic",
+   "Overture",
+   "British Airways",
+   "estrondo sônico",
+   "tecnologia",
+   "documentário"
+  ]
  }
 }

@@ -1,0 +1,134 @@
+{
+ "titulo": "O que aconteceu com o Concorde?",
+ "estilo": {"dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo", "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite"},
+ "legenda": {"palavrasPorTela": 8},
+ "fontesPesquisa": [
+  {"titulo": "Concorde — Wikipedia", "url": "https://en.wikipedia.org/wiki/Concorde"},
+  {"titulo": "Air France Flight 4590 — Wikipedia", "url": "https://en.wikipedia.org/wiki/Air_France_Flight_4590"},
+  {"titulo": "Boom Overture — Wikipedia", "url": "https://en.wikipedia.org/wiki/Boom_Overture"},
+  {"titulo": "Concorde — Encyclopaedia Britannica", "url": "https://www.britannica.com/technology/Concorde"}
+ ],
+ "publicacao": {
+  "titulos": ["O que aconteceu com o Concorde? A verdade sobre o fim", "Por que o avião mais rápido do mundo deixou de voar", "Concorde: a conta que nunca fechou"],
+  "descricao": "O Concorde cruzava o Atlântico em menos de três horas e meia e funcionava. Mesmo assim, deixou de voar em 2003. O vídeo mostra a aposta bilionária de França e Reino Unido, o estrondo sônico, o custo, o acidente de 2000 e o que empresas como a Boom tentam repetir hoje.\n\n0:00 Gancho\n0:30 Promessa\n1:00 Uma aposta bilionária\n1:40 Como ele voava\n2:20 O problema do estrondo\n3:00 A conta não fechava\n3:40 25 de julho de 2000\n4:20 O mundo mudou\n5:00 O fim anunciado\n5:40 E hoje?\n6:20 A nova corrida\n7:00 Fecho\n\nFontes: Wikipedia (Concorde, Air France Flight 4590, Boom Overture), Encyclopaedia Britannica.",
+  "tags": ["Concorde", "avião supersônico", "aviação", "história da aviação", "Air France 4590", "Boom Supersonic", "Overture", "British Airways", "estrondo sônico", "tecnologia", "documentário"]
+ },
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em vinte e quatro de outubro de dois mil e três, o último Concorde comercial pousou no aeroporto de Heathrow, em Londres. Era o fim de vinte e sete anos de voos ao dobro da velocidade do som, com travessias do Atlântico em menos de três horas e meia. Não era um protótipo, nem um fracasso técnico. Funcionava. Então por que o Concorde deixou de voar?",
+   "galeria": ["c-pouso", "c-heathrow", "c-voo", "c-atlantico", "c-prototipo"],
+   "galeriaEm": [0, "Heathrow", "sete", "Atlântico", "protótipo"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": []
+  },
+  {
+   "id": "promessa",
+   "texto": "Esta é a história de uma aposta bilionária da França e do Reino Unido. Vamos ver como o Concorde foi feito, por que o barulho dele limitou as rotas, o que o acidente de dois mil colocou em jogo, e por que, mais de vinte anos depois, empresas voltam a tentar a mesma ideia. No fim, você vai entender que o avião não morreu de um só motivo. Morreu de uma soma de contas.",
+   "galeria": ["c-duplo", "c-brooklands", "c-boom", "c-hangar"],
+   "galeriaEm": [0, "feito,", "barulho", "empresas"],
+   "elementos": []
+  },
+  {
+   "id": "aposta",
+   "texto": "Nos anos cinquenta, a aviação sonhava com o próximo salto: voar mais rápido que o som levando passageiros. Em mil novecentos e sessenta e dois, França e Reino Unido assinaram um tratado para construir o avião juntos. O projeto uniu duas indústrias rivais, a britânica e a francesa, que precisaram dividir cada decisão. A estimativa inicial era de setenta milhões de libras. A conta final ficou entre um bilhão e meio e dois bilhões. O primeiro voo aconteceu em Toulouse, em dois de março de mil novecentos e sessenta e nove. Mas o maior obstáculo ainda estava por vir.",
+   "galeria": ["c-x1", "c-tratado", "c-rivais", "c-projeto", "c-toulouse", "c-p002"],
+   "galeriaEm": [0, "tratado", "rivais,", "libras", "Toulouse", "obstáculo"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "UMA APOSTA BILIONÁRIA", "em": 0, "posicao": "topo"},
+    {"tipo": "linha", "itens": [["1962", "Tratado"], ["1969", "Primeiro voo"], ["1976", "Serviço comercial"]], "em": "estimativa", "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "voo",
+   "texto": "O Concorde cruzava a quase dois mil e cento e cinquenta quilômetros por hora, a até dezoito mil metros de altitude. Nessa velocidade, o atrito esquenta a fuselagem, e o avião chegava a esticar vários centímetros em voo. Por isso a asa em delta e o nariz articulado, que baixava na decolagem para o piloto enxergar a pista, eram obrigatórios. As janelas eram bem pequenas, para ajudar a manter a pressão da cabine. Por dentro, o luxo era limitado: de noventa e dois a cento e vinte e oito lugares, em quatro fileiras. Quem pagava, pagava pela velocidade. Um voo que saía de Londres de manhã podia chegar a Nova York, no horário local, antes da hora em que tinha partido.",
+   "galeria": ["c-cruzeiro", "c-altitude", "c-atrito", "c-delta", "c-nariz", "c-janelas", "c-cabine"],
+   "galeriaEm": [0, "dezoito", "atrito", "asa", "nariz", "janelas", "luxo"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "COMO ELE VOAVA", "em": 0, "posicao": "topo"},
+    {"tipo": "contador", "de": 0, "ate": 2150, "unidade": "km/h", "rotulo": "Velocidade média de cruzeiro", "em": "quilômetros", "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "estrondo",
+   "texto": "Mas havia um problema que a engenharia não resolvia: o estrondo sônico. Quando um avião passa do som, ele cria uma onda de choque que chega ao solo como uma explosão distante. Os Estados Unidos proibiram voos supersônicos sobre o território deles em mil novecentos e setenta e três. Resultado: o Concorde só podia correr sobre o oceano. Rotas como Londres e Nova York funcionaram. Perto da costa, o piloto precisava reduzir a velocidade, e parte da vantagem do avião se perdia. Quase todo o resto do mapa ficou fora. E o avião ainda bebia muito combustível.",
+   "galeria": ["c-shock", "c-cone", "c-faa", "c-oceano", "c-jfk", "c-costa", "c-abastece"],
+   "galeriaEm": [0, "onda", "Estados", "oceano", "Nova", "costa", "combustível"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "O PROBLEMA DO ESTRONDO", "em": 0, "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "conta",
+   "texto": "Por passageiro, o Concorde gastava quase três vezes mais combustível que um Boeing 747. Só catorze aviões entraram em serviço comercial, sete para cada companhia. Sem ganho de escala, cada peça saía cara. Pan Am e outras companhias tinham opções de compra, mas desistiram nos anos setenta, com a crise do petróleo. A passagem era vendida como luxo a executivos e celebridades, e a British Airways chegou a lucrar com a operação. Mas era um negócio frágil, que dependia de poucos clientes dispostos a pagar muito. Para as duas empresas, era também uma vitrine de prestígio nacional. E esse grupo estava prestes a mudar.",
+   "galeria": ["c-747", "c-frota", "c-motor", "c-lounge", "c-assentos", "c-prestigio"],
+   "galeriaEm": [0, "catorze", "peça", "executivos", "frágil", "prestígio"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "A CONTA NÃO FECHAVA", "em": 0, "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "acidente",
+   "texto": "Em vinte e cinco de julho de dois mil, o voo quatro mil quinhentos e noventa da Air France decolou do aeroporto Charles de Gaulle, em Paris, rumo a Nova York. Na pista, o avião passou por uma tira de titânio caída de outro avião. O pneu estourou, e pedaços de borracha atingiram o tanque de combustível. Houve vazamento e fogo. O Concorde caiu minutos depois, perto de Gonesse. Morreram cento e nove pessoas a bordo e quatro em terra. A maioria dos passageiros era de turistas alemães, a caminho de um cruzeiro. Era o primeiro acidente fatal do Concorde. E ele mudaria tudo.",
+   "galeria": ["c-cdg", "c-af", "c-pista", "c-titanio", "c-pneu", "c-tanque", "c-gonesse", "c-turistas"],
+   "galeriaEm": [0, "Air", "pista", "titânio", "pneu", "tanque", "Gonesse", "turistas"],
+   "fontes": ["Wikipédia — Air France 4590"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "25 DE JULHO DE 2000", "sub": "Voo Air France 4590", "em": 0, "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "virada",
+   "texto": "Depois do acidente, todos os Concorde ficaram no chão. A investigação levou a mudanças: tanques reforçados com revestimento de kevlar e pneus novos. O serviço voltou em novembro de dois mil e um, dois meses depois dos atentados de onze de setembro. O momento não podia ser pior: as viagens de negócios entre Nova York e a Europa, principal público do avião, despencaram. Os assentos vazios aumentaram. E o custo de manter uma frota tão pequena continuava subindo, com peças feitas sob medida e poucas oficinas preparadas.",
+   "galeria": ["c-chao", "c-invest", "c-kevlar", "c-retorno", "c-wtc", "c-vazios", "c-manutencao"],
+   "galeriaEm": [0, "investigação", "kevlar", "novembro", "atentados", "assentos", "frota"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "O MUNDO MUDOU", "em": 0, "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "fim",
+   "texto": "Em abril de dois mil e três, Air France e British Airways anunciaram a aposentadoria do Concorde. Alegaram queda no número de passageiros e custos de manutenção que só cresciam. A Airbus, responsável pelo suporte técnico, também deixaria de dar assistência ao avião. Em vinte e quatro de outubro, aconteceu o último voo comercial. Em vinte e seis de novembro, o último de todos, até Filton, perto de Bristol, onde esse Concorde foi construído.",
+   "galeria": ["c-af-fim", "c-ba-fim", "c-airbus", "c-ultimo", "c-filton", "c-boaf"],
+   "galeriaEm": [0, "British", "Airbus", "outubro", "Filton", "construído"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "O FIM ANUNCIADO", "em": 0, "posicao": "topo"},
+    {"tipo": "linha", "itens": [["abr 2003", "Aposentadoria anunciada"], ["24 out 2003", "Último voo comercial"], ["26 nov 2003", "Último voo"]], "em": "Alegaram", "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "hoje",
+   "texto": "Dezoito dos vinte Concorde construídos estão preservados em museus, de Seattle a Nova York, de Paris a Barbados. Desde então, nenhum avião de passageiros supersônico voltou a voar. Passaram-se mais de vinte anos, e a viagem entre Londres e Nova York volta a levar cerca de oito horas. A velocidade média dos voos comerciais ficou parada, porque as companhias passaram a priorizar economia em vez de rapidez. Mas a ideia não morreu. Uma empresa americana, a Boom Supersonic, promete reabrir esse caminho. E o primeiro passo dela já aconteceu.",
+   "galeria": ["c-seattle", "c-intrepid", "c-bourget", "c-barbados", "c-777", "c-boomhq"],
+   "galeriaEm": [0, "Nova", "Paris", "Barbados", "horas", "Boom"],
+   "fontes": ["Wikipédia — Concorde"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "E HOJE?", "em": 0, "posicao": "topo"},
+    {"tipo": "contador", "de": 0, "ate": 18, "unidade": "aviões", "rotulo": "Concordes preservados em museus", "em": "preservados", "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "boom",
+   "texto": "Em janeiro de dois mil e vinte e cinco, o XB-1, avião de demonstração da Boom, passou a barreira do som. O avião de passageiros que vem depois, o Overture, deve levar de sessenta a oitenta pessoas, a mach um vírgula sete, com pedidos da United, da American e da Japan Airlines. Os prazos já mudaram várias vezes, e a empresa fala em entrar em serviço por volta de dois mil e vinte e nove ou trinta. Segundo a Boom, a ideia é cobrar tarifas próximas às da classe executiva, e não um luxo extremo. Resta saber se o preço e as regras contra o estrondo deixarão o sonho voar.",
+   "galeria": ["c-xb1", "c-overture", "c-united", "c-jal", "c-fabrica", "c-x59"],
+   "galeriaEm": [0, "Overture", "United", "Japan", "prazos", "estrondo"],
+   "fontes": ["Wikipédia — Boom Overture"],
+   "elementos": [
+    {"tipo": "titulo", "texto": "A NOVA CORRIDA", "em": 0, "posicao": "topo"}
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "A lição do Concorde talvez seja simples: tecnologia que funciona não basta. Ela precisa caber na regra, na conta e no mundo em que voa. O Concorde foi rápido demais para o barulho que fazia, caro demais para os passageiros que sobraram e único demais para ser consertado em escala. Ele mostrou que o limite de um avião não é só físico: é também econômico e político. Se a próxima geração vai aprender com isso, só os próximos anos dirão. O céu, afinal, continua esperando a resposta.",
+   "galeria": ["c-cockpit", "c-sol", "c-red", "c-boac", "c-f-bvfa", "c-ceu"],
+   "galeriaEm": [0, "regra", "rápido", "caro", "limite", "geração"],
+   "elementos": []
+  }
+ ]
+}
