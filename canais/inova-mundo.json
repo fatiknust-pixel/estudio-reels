@@ -100,7 +100,9 @@
   {
    "titulo": "O que aconteceu com o Concorde?",
    "angulo": "Por que um avião de passageiros supersônico que funcionava deixou de voar em 2003. Mistura tecnologia, economia, o acidente de 2000 e o que as startups atuais tentam repetir.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261104",
+   "em": "2026-11-04"
   },
   {
    "titulo": "Como se constrói uma barragem no meio de um rio",
@@ -128,5 +130,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-03"
+ "ultimaGeracao": "2026-11-04"
 }
