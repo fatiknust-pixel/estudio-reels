@@ -107,7 +107,9 @@
   {
    "titulo": "Como se constrói uma barragem no meio de um rio",
    "angulo": "Desvio do rio, ensecadeiras, concreto em blocos e enchimento do reservatório, usando exemplos reais como Itaipu. Mostra a ordem das etapas que quase ninguém vê.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261105",
+   "em": "2026-11-05"
   },
   {
    "titulo": "Os 5 maiores navios já construídos",
@@ -130,5 +132,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-04"
+ "ultimaGeracao": "2026-11-05"
 }
