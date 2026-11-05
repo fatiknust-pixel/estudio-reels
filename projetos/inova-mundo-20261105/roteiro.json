@@ -1,0 +1,150 @@
+{
+  "titulo": "Como se constrói uma barragem no meio de um rio",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Itaipu Binacional — publicação institucional (fases da obra, altura de 196 m)", "url": "https://www.itaipu.gov.br/sites/default/files/af_df/1702_022_atualizacao_revista_IB_2017_digital_b.pdf" },
+    { "titulo": "Rádio Cultura Foz — desvio do Rio Paraná para a construção de Itaipu", "url": "https://www.radioculturafoz.com.br/2022/10/20/desvio-do-rio-parana-para-edificacao-de-itaipu-completa-44-anos" },
+    { "titulo": "UAI Serviços — canal de desvio de 2 km e dinamite em Itaipu", "url": "https://www.uai.com.br/?p=183195" },
+    { "titulo": "Itaipu Dam — Wikipedia", "url": "https://en.wikipedia.org/wiki/Itaipu_Dam" },
+    { "titulo": "Hoover Dam — New World Encyclopedia (túneis, ensecadeiras, blocos e tubos de resfriamento)", "url": "https://newworldencyclopedia.org/entry/Hoover_Dam" },
+    { "titulo": "Construction of Hoover Dam — Water and Power Museum", "url": "https://waterandpower.org/museum/Construction_of_Hoover_Dam.html" },
+    { "titulo": "Razões para uso de gelo no concreto — Engenharia360", "url": "https://engenharia360.com/razoes-para-uso-de-gelo-no-concreto/" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "Como construir uma barragem no meio de um rio?",
+      "A ordem secreta das etapas de uma grande barragem",
+      "Como Itaipu fez o Rio Paraná mudar de caminho"
+    ],
+    "descricao": "Como se constrói uma barragem no meio de um rio? Este vídeo mostra a ordem das etapas que quase ninguém vê: o canal de desvio, as ensecadeiras, a fundação, o concreto em blocos e o enchimento do reservatório, com exemplos reais de Itaipu e da represa Hoover.\n\n0:00 O rio que não pede licença\n0:40 A promessa e os dois exemplos\n1:20 O canal de desvio\n2:00 A explosão da ensecadeira\n2:40 Secando o leito antigo\n3:20 Os túneis da Hoover\n4:00 A fundação\n4:40 Concreto em blocos e o problema do calor\n5:20 O gelo em Itaipu\n6:00 O enchimento do reservatório\n6:40 O que muda depois\n7:20 Fecho\n\nFontes: Itaipu Binacional; Rádio Cultura Foz; UAI Serviços; Wikipedia (Itaipu Dam); New World Encyclopedia (Hoover Dam); Water and Power Museum; Engenharia360.",
+    "tags": ["barragem", "como se constrói uma barragem", "Itaipu", "Rio Paraná", "ensecadeira", "desvio do rio", "represa Hoover", "engenharia civil", "usina hidrelétrica", "concreto", "grandes obras", "Inova mundo"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Um rio não pede licença. O Paraná despeja milhares de metros cúbicos de água por segundo, o ano inteiro. E mesmo assim, no fim dos anos setenta, engenheiros decidiram erguer uma parede de concreto bem no meio dele. Só que existe um problema óbvio: ninguém consegue concretar debaixo de uma correnteza dessas. Então a solução não foi parar o rio. Foi fazer o rio sair do caminho. Nesta viagem, você vai ver a ordem das etapas que quase ninguém enxerga.",
+      "galeria": ["rio-parana", "itaipu-aerea", "itaipu-vertedouro", "itaipu-obra-1980", "itaipu-mapa"],
+      "galeriaEm": [0, "Paraná", "decidiram", "ninguém", "Nesta"],
+      "fontes": ["Itaipu Binacional"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "UM RIO NO CAMINHO", "sub": "Rio Paraná", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Vamos usar dois exemplos reais. Itaipu, no Rio Paraná, entre o Brasil e o Paraguai. E a represa Hoover, no Rio Colorado, nos Estados Unidos, construída décadas antes. Duas obras, dois países, e a mesma lógica: primeiro você decide por onde o rio vai passar, depois constrói no lugar onde ele estava. No final, você vai entender por que o momento mais delicado da obra não é o do concreto, e sim o dia em que o rio é obrigado a mudar de rota.",
+      "galeria": ["itaipu-reservatorio", "hoover-aerea", "hoover-lago-mead", "black-canyon", "rio-colorado"],
+      "galeriaEm": [0, "represa", "Estados", "Duas", "final"],
+      "fontes": ["Itaipu Binacional", "USBR"],
+      "elementos": [
+        { "tipo": "mapa", "de": "Rio Paraná", "para": "Rio Colorado", "legenda": "Dois rios, a mesma lógica", "em": "Duas", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "canal-de-desvio",
+      "texto": "Capítulo um: o desvio. Em Itaipu, a primeira obra gigante não foi a barragem. Foi um canal. Cerca de dois quilômetros de extensão, cento e cinquenta metros de largura e noventa de profundidade, escavados na rocha, ao lado do leito original. A ideia é simples: abrir uma estrada nova para a água, enquanto o rio ainda corre pelo caminho antigo. Mas havia um detalhe. O canal ficou com as pontas tampadas, como uma garrafa fechada, esperando o dia de ser aberto.",
+      "galeria": ["canal-itaipu", "itaipu-canteiro-1977", "itaipu-obras-1976", "itaipu-desvio-1978", "itaipu-em-obras"],
+      "galeriaEm": [0, "Em", "Cerca", "ideia", "detalhe"],
+      "fontes": ["Rádio Cultura Foz", "UAI Serviços"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O CANAL DE DESVIO", "sub": "Capítulo 1", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 2, "unidade": "km", "rotulo": "extensão do canal", "em": "Cerca", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "explosao",
+      "texto": "Essas pontas tampadas têm nome: ensecadeira. É uma barreira provisória de terra e rocha, que mantém a água fora de uma área de trabalho. No dia vinte de outubro de mil novecentos e setenta e oito, a ensecadeira do canal de Itaipu foi explodida. Foram mais de cinquenta toneladas de dinamite, em mais de quatrocentos furos. Num instante, o Paraná encontrou o caminho novo e passou a correr por ele. Era o fim da primeira fase das obras civis. Mas o leito antigo ainda estava cheio de água.",
+      "galeria": ["ensecadeira-conceito", "itaipu-explosao-1978", "itaipu-dinamite", "itaipu-binacional", "itaipu-obras-1979"],
+      "galeriaEm": [0, "No", "Foram", "Num", "Mas"],
+      "fontes": ["Cronologia de Foz do Iguaçu", "UAI Serviços"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "Ensecadeira", "significado": "Barreira provisória que isola a área da obra", "em": "ensecadeira:", "posicao": "alto" },
+        { "tipo": "linha", "itens": [["1975", "Fase I"], ["1978", "Rio desviado"]], "em": "vinte", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "leito-seco",
+      "texto": "Agora o rio passava ao lado. Só que o leito antigo, bem onde ficaria a barragem, ainda recebia água por cima e por baixo. Por isso entram em cena mais duas ensecadeiras: uma a montante, antes da obra, e outra a jusante, depois dela. Entre as duas, bombas retiram a água que sobrou. É um trecho de rio que vira canteiro de obras. Parece um truque de mágica, mas é só uma sequência rigorosa, em que cada passo prepara o seguinte.",
+      "galeria": ["cofferdam-conceito", "ensecadeira-itaipu", "itaipu-leito-seco", "paraguai-parana-obra", "itaipu-1979"],
+      "galeriaEm": [0, "Por", "Entre", "trecho", "Parece"],
+      "fontes": ["Itaipu Binacional"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "SECANDO O LEITO", "sub": "Montante e jusante", "em": "ensecadeiras", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "hoover-tuneis",
+      "texto": "Na represa Hoover, o princípio foi o mesmo, mas o terreno pedia túneis. Foram quatro, escavados nas paredes do cânion, dois de cada lado do rio. Depois de revestidos de concreto, ficaram com cerca de quinze metros de diâmetro. Em seguida, duas ensecadeiras isolaram o local. A de cima começou a ser construída em setembro de mil novecentos e trinta e dois, antes mesmo de o rio ser totalmente desviado. Quer dizer: o desvio é uma obra inteira, escondida dentro da obra principal.",
+      "galeria": ["hoover-tunel", "hoover-ensecadeira-1933", "hoover-black-canyon-1933", "hoover-tunel-nevada", "hoover-operarios-1934"],
+      "galeriaEm": [0, "Foram", "Depois", "Em", "Quer"],
+      "fontes": ["New World Encyclopedia", "Water and Power Museum"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "OS TÚNEIS DA HOOVER", "sub": "Capítulo 2", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 4, "unidade": "túneis", "rotulo": "escavados no cânion", "em": "quatro", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "fundacao",
+      "texto": "Com o leito seco, aparece o chão de verdade. E aqui a obra faz uma pausa para a pergunta que decide tudo: a rocha aguenta? Os engenheiros retiram sedimentos, areia e rocha solta até chegar ao material firme. Depois, limpam a superfície e injetam cimento nas fraturas, para selar a fundação. Só então a barragem pode começar. É por isso que a parte mais cara de uma barragem fica escondida: ela está abaixo de tudo o que qualquer visitante vai ver.",
+      "galeria": ["itaipu-fundacao", "hoover-escavacao-1933", "hoover-injecao", "itaipu-concretagem-1979", "itaipu-obras-1980b"],
+      "galeriaEm": [0, "Os", "Depois", "Só", "É"],
+      "fontes": ["Itaipu Binacional"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A FUNDAÇÃO", "sub": "Capítulo 3", "em": 0, "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Fundação", "significado": "A rocha firme sobre a qual a barragem se apoia", "em": "Depois", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "concreto-em-blocos",
+      "texto": "Agora chega o concreto, e com ele um problema invisível: calor. Quando o cimento reage com a água, ele esquenta. Numa parede comum, ninguém percebe. Num bloco maciço, o calor fica preso no centro, e a peça racha ao esfriar. Por isso a barragem não é despejada de uma vez. Ela é construída em blocos, cada um esfriando antes do próximo. Na Hoover, tubos de aço de uma polegada, com mais de novecentos quilômetros no total, levavam água do rio para dentro do concreto.",
+      "galeria": ["hoover-balde-concreto", "hoover-formas-1934", "hoover-tubos-resfriamento", "hoover-blocos", "hoover-concreto-1935"],
+      "galeriaEm": [0, "Quando", "Por", "Na", "levavam"],
+      "fontes": ["New World Encyclopedia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CONCRETO EM BLOCOS", "sub": "Capítulo 4", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 900, "unidade": "km", "rotulo": "de tubos de resfriamento na Hoover", "em": "novecentos", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "gelo-em-itaipu",
+      "texto": "Em Itaipu, o truque foi outro. Parte da água da mistura foi trocada por gelo em escamas, para o concreto sair da central de mistura a cerca de sete graus. No total, foram doze vírgula três milhões de metros cúbicos para erguer uma barragem de cento e noventa e seis metros de altura. E repare na ordem: tudo isso acontece bloco a bloco, enquanto o rio corre ao lado, pelo canal. A barragem sobe, e o rio nem precisa saber.",
+      "galeria": ["itaipu-concretagem", "itaipu-contraforte", "itaipu-contraforte-oco", "itaipu-detalhe", "itaipu-jusante"],
+      "galeriaEm": [0, "Parte", "No", "E", "A"],
+      "fontes": ["Itaipu Binacional", "Engenharia360"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 12.3, "unidade": "milhões de m³", "rotulo": "de concreto em Itaipu", "em": "doze", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "enchimento",
+      "texto": "E então chega o dia que muda a paisagem. Com a barragem pronta, restava fechar o canal que o rio vinha usando. Em outubro de mil novecentos e oitenta e dois, as comportas foram baixadas. Sem saída, a água subiu. Em cerca de catorze dias, o reservatório estava formado, com mil trezentos e cinquenta quilômetros quadrados. Foi o contrário do começo: o rio foi tirado do caminho para a obra existir, e depois foi devolvido a ela para a obra funcionar.",
+      "galeria": ["itaipu-enchimento-1982", "itaipu-vertedouro-aberto", "itaipu-comportas", "itaipu-1983", "itaipu-lago-aerea"],
+      "galeriaEm": [0, "Com", "Em", "Em", "Foi"],
+      "fontes": ["Itaipu Binacional"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "FECHAM-SE AS COMPORTAS", "sub": "Outubro de 1982", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 14, "unidade": "dias", "rotulo": "para formar o reservatório", "em": "catorze", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "linha-do-tempo",
+      "texto": "Juntando tudo, a ordem é esta. Primeiro, o canal de desvio. Depois, a ensecadeira que abre o caminho para o rio. Em seguida, as ensecadeiras que secam o leito antigo. Então a fundação, o concreto em blocos, e por último o fechamento das comportas para encher o reservatório. Em Itaipu, as fases da obra seguem exatamente essa lógica: canal e ensecadeiras primeiro, barragem principal depois, formação do lago no fim. Quem vê a usina pronta enxerga só a última página dessa história.",
+      "galeria": ["itaipu-usina", "itaipu-casa-de-forca", "hoover-casa-de-forca", "lake-mead-panoramica", "itaipu-noite"],
+      "galeriaEm": [0, "Primeiro", "Em", "Em", "Quem"],
+      "fontes": ["Itaipu Binacional"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1975-78", "Canal e ensecadeiras"], ["1978-82", "Barragem principal"], ["1982-86", "Lago e comportas"]], "em": "Itaipu", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "Da próxima vez que você passar por uma barragem, procure o que não aparece. O canal que já foi rio, a ensecadeira que já foi explodida, o bloco que esfriou devagar no escuro. Uma grande obra de engenharia raramente vence a natureza de frente. Ela negocia com ela, uma etapa de cada vez. E o rio, no fim, continua sendo rio, só que agora com um caminho desenhado por quem aprendeu a esperar.",
+      "galeria": ["itaipu-por-do-sol", "hoover-ponte", "parana-foz", "itaipu-panoramica", "hoover-colorado"],
+      "galeriaEm": [0, "O", "Uma", "E", "só"],
+      "fontes": [],
+      "elementos": []
+    }
+  ]
+}

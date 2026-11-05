@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-05T17:57:12.977Z",
- "atualizadoEm": "2026-11-05T17:57:12.977Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-05T18:07:20Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Como se constrói uma barragem no meio de um rio — ângulo: Desvio do rio, ensecadeiras, concreto em blocos e enchimento do reservatório, usando exemplos reais como Itaipu. Mostra a ordem das etapas que quase ninguém vê.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,6085 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Um rio não pede licença. O Paraná despeja milhares de metros cúbicos de água por segundo, o ano inteiro. E mesmo assim, no fim dos anos setenta, engenheiros decidiram erguer uma parede de concreto bem no meio dele. Só que existe um problema óbvio: ninguém consegue concretar debaixo de uma correnteza dessas. Então a solução não foi parar o rio. Foi fazer o rio sair do caminho. Nesta viagem, você vai ver a ordem das etapas que quase ninguém enxerga.",
+   "galeria": [
+    "rio-parana",
+    "itaipu-aerea",
+    "itaipu-vertedouro",
+    "itaipu-obra-1980",
+    "itaipu-mapa"
+   ],
+   "galeriaEm": [
+    0,
+    "Paraná",
+    "decidiram",
+    "ninguém",
+    "Nesta"
+   ],
+   "fontes": [
+    "Itaipu Binacional"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "UM RIO NO CAMINHO",
+     "sub": "Rio Paraná",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Vamos usar dois exemplos reais. Itaipu, no Rio Paraná, entre o Brasil e o Paraguai. E a represa Hoover, no Rio Colorado, nos Estados Unidos, construída décadas antes. Duas obras, dois países, e a mesma lógica: primeiro você decide por onde o rio vai passar, depois constrói no lugar onde ele estava. No final, você vai entender por que o momento mais delicado da obra não é o do concreto, e sim o dia em que o rio é obrigado a mudar de rota.",
+   "galeria": [
+    "itaipu-reservatorio",
+    "hoover-aerea",
+    "hoover-lago-mead",
+    "black-canyon",
+    "rio-colorado"
+   ],
+   "galeriaEm": [
+    0,
+    "represa",
+    "Estados",
+    "Duas",
+    "final"
+   ],
+   "fontes": [
+    "Itaipu Binacional",
+    "USBR"
+   ],
+   "elementos": [
+    {
+     "tipo": "mapa",
+     "de": "Rio Paraná",
+     "para": "Rio Colorado",
+     "legenda": "Dois rios, a mesma lógica",
+     "em": "Duas",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "canal-de-desvio",
+   "texto": "Capítulo um: o desvio. Em Itaipu, a primeira obra gigante não foi a barragem. Foi um canal. Cerca de dois quilômetros de extensão, cento e cinquenta metros de largura e noventa de profundidade, escavados na rocha, ao lado do leito original. A ideia é simples: abrir uma estrada nova para a água, enquanto o rio ainda corre pelo caminho antigo. Mas havia um detalhe. O canal ficou com as pontas tampadas, como uma garrafa fechada, esperando o dia de ser aberto.",
+   "galeria": [
+    "canal-itaipu",
+    "itaipu-canteiro-1977",
+    "itaipu-obras-1976",
+    "itaipu-desvio-1978",
+    "itaipu-em-obras"
+   ],
+   "galeriaEm": [
+    0,
+    "Em",
+    "Cerca",
+    "ideia",
+    "detalhe"
+   ],
+   "fontes": [
+    "Rádio Cultura Foz",
+    "UAI Serviços"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O CANAL DE DESVIO",
+     "sub": "Capítulo 1",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 2,
+     "unidade": "km",
+     "rotulo": "extensão do canal",
+     "em": "Cerca",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "explosao",
+   "texto": "Essas pontas tampadas têm nome: ensecadeira. É uma barreira provisória de terra e rocha, que mantém a água fora de uma área de trabalho. No dia vinte de outubro de mil novecentos e setenta e oito, a ensecadeira do canal de Itaipu foi explodida. Foram mais de cinquenta toneladas de dinamite, em mais de quatrocentos furos. Num instante, o Paraná encontrou o caminho novo e passou a correr por ele. Era o fim da primeira fase das obras civis. Mas o leito antigo ainda estava cheio de água.",
+   "galeria": [
+    "ensecadeira-conceito",
+    "itaipu-explosao-1978",
+    "itaipu-dinamite",
+    "itaipu-binacional",
+    "itaipu-obras-1979"
+   ],
+   "galeriaEm": [
+    0,
+    "No",
+    "Foram",
+    "Num",
+    "Mas"
+   ],
+   "fontes": [
+    "Cronologia de Foz do Iguaçu",
+    "UAI Serviços"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "Ensecadeira",
+     "significado": "Barreira provisória que isola a área da obra",
+     "em": "ensecadeira:",
+     "posicao": "alto"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1975",
+       "Fase I"
+      ],
+      [
+       "1978",
+       "Rio desviado"
+      ]
+     ],
+     "em": "vinte",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "leito-seco",
+   "texto": "Agora o rio passava ao lado. Só que o leito antigo, bem onde ficaria a barragem, ainda recebia água por cima e por baixo. Por isso entram em cena mais duas ensecadeiras: uma a montante, antes da obra, e outra a jusante, depois dela. Entre as duas, bombas retiram a água que sobrou. É um trecho de rio que vira canteiro de obras. Parece um truque de mágica, mas é só uma sequência rigorosa, em que cada passo prepara o seguinte.",
+   "galeria": [
+    "cofferdam-conceito",
+    "ensecadeira-itaipu",
+    "itaipu-leito-seco",
+    "paraguai-parana-obra",
+    "itaipu-1979"
+   ],
+   "galeriaEm": [
+    0,
+    "Por",
+    "Entre",
+    "trecho",
+    "Parece"
+   ],
+   "fontes": [
+    "Itaipu Binacional"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "SECANDO O LEITO",
+     "sub": "Montante e jusante",
+     "em": "ensecadeiras",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "hoover-tuneis",
+   "texto": "Na represa Hoover, o princípio foi o mesmo, mas o terreno pedia túneis. Foram quatro, escavados nas paredes do cânion, dois de cada lado do rio. Depois de revestidos de concreto, ficaram com cerca de quinze metros de diâmetro. Em seguida, duas ensecadeiras isolaram o local. A de cima começou a ser construída em setembro de mil novecentos e trinta e dois, antes mesmo de o rio ser totalmente desviado. Quer dizer: o desvio é uma obra inteira, escondida dentro da obra principal.",
+   "galeria": [
+    "hoover-tunel",
+    "hoover-ensecadeira-1933",
+    "hoover-black-canyon-1933",
+    "hoover-tunel-nevada",
+    "hoover-operarios-1934"
+   ],
+   "galeriaEm": [
+    0,
+    "Foram",
+    "Depois",
+    "Em",
+    "Quer"
+   ],
+   "fontes": [
+    "New World Encyclopedia",
+    "Water and Power Museum"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "OS TÚNEIS DA HOOVER",
+     "sub": "Capítulo 2",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 4,
+     "unidade": "túneis",
+     "rotulo": "escavados no cânion",
+     "em": "quatro",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "fundacao",
+   "texto": "Com o leito seco, aparece o chão de verdade. E aqui a obra faz uma pausa para a pergunta que decide tudo: a rocha aguenta? Os engenheiros retiram sedimentos, areia e rocha solta até chegar ao material firme. Depois, limpam a superfície e injetam cimento nas fraturas, para selar a fundação. Só então a barragem pode começar. É por isso que a parte mais cara de uma barragem fica escondida: ela está abaixo de tudo o que qualquer visitante vai ver.",
+   "galeria": [
+    "itaipu-fundacao",
+    "hoover-escavacao-1933",
+    "hoover-injecao",
+    "itaipu-concretagem-1979",
+    "itaipu-obras-1980b"
+   ],
+   "galeriaEm": [
+    0,
+    "Os",
+    "Depois",
+    "Só",
+    "É"
+   ],
+   "fontes": [
+    "Itaipu Binacional"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A FUNDAÇÃO",
+     "sub": "Capítulo 3",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Fundação",
+     "significado": "A rocha firme sobre a qual a barragem se apoia",
+     "em": "Depois",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "concreto-em-blocos",
+   "texto": "Agora chega o concreto, e com ele um problema invisível: calor. Quando o cimento reage com a água, ele esquenta. Numa parede comum, ninguém percebe. Num bloco maciço, o calor fica preso no centro, e a peça racha ao esfriar. Por isso a barragem não é despejada de uma vez. Ela é construída em blocos, cada um esfriando antes do próximo. Na Hoover, tubos de aço de uma polegada, com mais de novecentos quilômetros no total, levavam água do rio para dentro do concreto.",
+   "galeria": [
+    "hoover-balde-concreto",
+    "hoover-formas-1934",
+    "hoover-tubos-resfriamento",
+    "hoover-blocos",
+    "hoover-concreto-1935"
+   ],
+   "galeriaEm": [
+    0,
+    "Quando",
+    "Por",
+    "Na",
+    "levavam"
+   ],
+   "fontes": [
+    "New World Encyclopedia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CONCRETO EM BLOCOS",
+     "sub": "Capítulo 4",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 900,
+     "unidade": "km",
+     "rotulo": "de tubos de resfriamento na Hoover",
+     "em": "novecentos",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "gelo-em-itaipu",
+   "texto": "Em Itaipu, o truque foi outro. Parte da água da mistura foi trocada por gelo em escamas, para o concreto sair da central de mistura a cerca de sete graus. No total, foram doze vírgula três milhões de metros cúbicos para erguer uma barragem de cento e noventa e seis metros de altura. E repare na ordem: tudo isso acontece bloco a bloco, enquanto o rio corre ao lado, pelo canal. A barragem sobe, e o rio nem precisa saber.",
+   "galeria": [
+    "itaipu-concretagem",
+    "itaipu-contraforte",
+    "itaipu-contraforte-oco",
+    "itaipu-detalhe",
+    "itaipu-jusante"
+   ],
+   "galeriaEm": [
+    0,
+    "Parte",
+    "No",
+    "E",
+    "A"
+   ],
+   "fontes": [
+    "Itaipu Binacional",
+    "Engenharia360"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 12.3,
+     "unidade": "milhões de m³",
+     "rotulo": "de concreto em Itaipu",
+     "em": "doze",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "enchimento",
+   "texto": "E então chega o dia que muda a paisagem. Com a barragem pronta, restava fechar o canal que o rio vinha usando. Em outubro de mil novecentos e oitenta e dois, as comportas foram baixadas. Sem saída, a água subiu. Em cerca de catorze dias, o reservatório estava formado, com mil trezentos e cinquenta quilômetros quadrados. Foi o contrário do começo: o rio foi tirado do caminho para a obra existir, e depois foi devolvido a ela para a obra funcionar.",
+   "galeria": [
+    "itaipu-enchimento-1982",
+    "itaipu-vertedouro-aberto",
+    "itaipu-comportas",
+    "itaipu-1983",
+    "itaipu-lago-aerea"
+   ],
+   "galeriaEm": [
+    0,
+    "Com",
+    "Em",
+    "Em",
+    "Foi"
+   ],
+   "fontes": [
+    "Itaipu Binacional"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "FECHAM-SE AS COMPORTAS",
+     "sub": "Outubro de 1982",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 14,
+     "unidade": "dias",
+     "rotulo": "para formar o reservatório",
+     "em": "catorze",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "linha-do-tempo",
+   "texto": "Juntando tudo, a ordem é esta. Primeiro, o canal de desvio. Depois, a ensecadeira que abre o caminho para o rio. Em seguida, as ensecadeiras que secam o leito antigo. Então a fundação, o concreto em blocos, e por último o fechamento das comportas para encher o reservatório. Em Itaipu, as fases da obra seguem exatamente essa lógica: canal e ensecadeiras primeiro, barragem principal depois, formação do lago no fim. Quem vê a usina pronta enxerga só a última página dessa história.",
+   "galeria": [
+    "itaipu-usina",
+    "itaipu-casa-de-forca",
+    "hoover-casa-de-forca",
+    "lake-mead-panoramica",
+    "itaipu-noite"
+   ],
+   "galeriaEm": [
+    0,
+    "Primeiro",
+    "Em",
+    "Em",
+    "Quem"
+   ],
+   "fontes": [
+    "Itaipu Binacional"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1975-78",
+       "Canal e ensecadeiras"
+      ],
+      [
+       "1978-82",
+       "Barragem principal"
+      ],
+      [
+       "1982-86",
+       "Lago e comportas"
+      ]
+     ],
+     "em": "Itaipu",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Da próxima vez que você passar por uma barragem, procure o que não aparece. O canal que já foi rio, a ensecadeira que já foi explodida, o bloco que esfriou devagar no escuro. Uma grande obra de engenharia raramente vence a natureza de frente. Ela negocia com ela, uma etapa de cada vez. E o rio, no fim, continua sendo rio, só que agora com um caminho desenhado por quem aprendeu a esperar.",
+   "galeria": [
+    "itaipu-por-do-sol",
+    "hoover-ponte",
+    "parana-foz",
+    "itaipu-panoramica",
+    "hoover-colorado"
+   ],
+   "galeriaEm": [
+    0,
+    "O",
+    "Uma",
+    "E",
+    "só"
+   ],
+   "fontes": [],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "9caea5a8ed",
+   "texto": "Um rio não pede licença. O Paraná despeja milhares de metros cúbicos de água por segundo, o ano inteiro. E mesmo assim, no fim dos anos setenta, engenheiros decidiram erguer uma parede de concreto bem no meio dele. Só que existe um problema óbvio: ninguém consegue concretar debaixo de uma correnteza dessas. Então a solução não foi parar o rio. Foi fazer o rio sair do caminho. Nesta viagem, você vai ver a ordem das etapas que quase ninguém enxerga.",
+   "audio": "audio/gancho-9caea5a8ed.mp3",
+   "duracao": 29.989,
+   "palavras": [
+    {
+     "p": "Um",
+     "i": 0.102,
+     "f": 0.31
+    },
+    {
+     "p": "rio",
+     "i": 0.323,
+     "f": 0.571
+    },
+    {
+     "p": "não",
+     "i": 0.584,
+     "f": 0.779
+    },
+    {
+     "p": "pede",
+     "i": 0.792,
+     "f": 1.105
+    },
+    {
+     "p": "licença",
+     "i": 1.118,
+     "f": 1.717
+    },
+    {
+     "p": "O",
+     "i": 2.054,
+     "f": 2.184
+    },
+    {
+     "p": "Paraná",
+     "i": 2.197,
+     "f": 2.653
+    },
+    {
+     "p": "despeja",
+     "i": 2.666,
+     "f": 3.135
+    },
+    {
+     "p": "milhares",
+     "i": 3.148,
+     "f": 3.578
+    },
+    {
+     "p": "de",
+     "i": 3.591,
+     "f": 3.682
+    },
+    {
+     "p": "metros",
+     "i": 3.695,
+     "f": 4.098
+    },
+    {
+     "p": "cúbicos",
+     "i": 4.111,
+     "f": 4.567
+    },
+    {
+     "p": "de",
+     "i": 4.58,
+     "f": 4.671
+    },
+    {
+     "p": "água",
+     "i": 4.684,
+     "f": 4.971
+    },
+    {
+     "p": "por",
+     "i": 4.984,
+     "f": 5.114
+    },
+    {
+     "p": "segundo",
+     "i": 5.127,
+     "f": 5.661
+    },
+    {
+     "p": "o",
+     "i": 5.895,
+     "f": 6.039
+    },
+    {
+     "p": "ano",
+     "i": 6.051,
+     "f": 6.286
+    },
+    {
+     "p": "inteiro",
+     "i": 6.299,
+     "f": 6.755
+    },
+    {
+     "p": "E",
+     "i": 7.102,
+     "f": 7.219
+    },
+    {
+     "p": "mesmo",
+     "i": 7.232,
+     "f": 7.636
+    },
+    {
+     "p": "assim",
+     "i": 7.649,
+     "f": 8.027
+    },
+    {
+     "p": "no",
+     "i": 8.352,
+     "f": 8.469
+    },
+    {
+     "p": "fim",
+     "i": 8.482,
+     "f": 8.717
+    },
+    {
+     "p": "dos",
+     "i": 8.73,
+     "f": 8.886
+    },
+    {
+     "p": "anos",
+     "i": 8.899,
+     "f": 9.224
+    },
+    {
+     "p": "setenta",
+     "i": 9.237,
+     "f": 9.81
+    },
+    {
+     "p": "engenheiros",
+     "i": 10.045,
+     "f": 10.657
+    },
+    {
+     "p": "decidiram",
+     "i": 10.67,
+     "f": 11.191
+    },
+    {
+     "p": "erguer",
+     "i": 11.204,
+     "f": 11.477
+    },
+    {
+     "p": "uma",
+     "i": 11.49,
+     "f": 11.659
+    },
+    {
+     "p": "parede",
+     "i": 11.672,
+     "f": 12.076
+    },
+    {
+     "p": "de",
+     "i": 12.089,
+     "f": 12.167
+    },
+    {
+     "p": "concreto",
+     "i": 12.18,
+     "f": 12.688
+    },
+    {
+     "p": "bem",
+     "i": 12.701,
+     "f": 12.935
+    },
+    {
+     "p": "no",
+     "i": 12.948,
+     "f": 13.053
+    },
+    {
+     "p": "meio",
+     "i": 13.066,
+     "f": 13.352
+    },
+    {
+     "p": "dele",
+     "i": 13.365,
+     "f": 13.704
+    },
+    {
+     "p": "Só",
+     "i": 14.046,
+     "f": 14.372
+    },
+    {
+     "p": "que",
+     "i": 14.385,
+     "f": 14.489
+    },
+    {
+     "p": "existe",
+     "i": 14.502,
+     "f": 14.932
+    },
+    {
+     "p": "um",
+     "i": 14.945,
+     "f": 15.023
+    },
+    {
+     "p": "problema",
+     "i": 15.036,
+     "f": 15.478
+    },
+    {
+     "p": "óbvio",
+     "i": 15.491,
+     "f": 15.869
+    },
+    {
+     "p": "ninguém",
+     "i": 16.129,
+     "f": 16.533
+    },
+    {
+     "p": "consegue",
+     "i": 16.546,
+     "f": 17.028
+    },
+    {
+     "p": "concretar",
+     "i": 17.041,
+     "f": 17.588
+    },
+    {
+     "p": "debaixo",
+     "i": 17.601,
+     "f": 18.122
+    },
+    {
+     "p": "de",
+     "i": 18.135,
+     "f": 18.2
+    },
+    {
+     "p": "uma",
+     "i": 18.213,
+     "f": 18.356
+    },
+    {
+     "p": "correnteza",
+     "i": 18.369,
+     "f": 19.02
+    },
+    {
+     "p": "dessas",
+     "i": 19.033,
+     "f": 19.606
+    },
+    {
+     "p": "Então",
+     "i": 19.958,
+     "f": 20.466
+    },
+    {
+     "p": "a",
+     "i": 20.479,
+     "f": 20.518
+    },
+    {
+     "p": "solução",
+     "i": 20.531,
+     "f": 21.169
+    },
+    {
+     "p": "não",
+     "i": 21.182,
+     "f": 21.429
+    },
+    {
+     "p": "foi",
+     "i": 21.442,
+     "f": 21.625
+    },
+    {
+     "p": "parar",
+     "i": 21.638,
+     "f": 21.976
+    },
+    {
+     "p": "o",
+     "i": 21.989,
+     "f": 22.054
+    },
+    {
+     "p": "rio",
+     "i": 22.067,
+     "f": 22.393
+    },
+    {
+     "p": "Foi",
+     "i": 22.726,
+     "f": 22.986
+    },
+    {
+     "p": "fazer",
+     "i": 23,
+     "f": 23.403
+    },
+    {
+     "p": "o",
+     "i": 23.416,
+     "f": 23.481
+    },
+    {
+     "p": "rio",
+     "i": 23.494,
+     "f": 23.716
+    },
+    {
+     "p": "sair",
+     "i": 23.729,
+     "f": 24.106
+    },
+    {
+     "p": "do",
+     "i": 24.119,
+     "f": 24.25
+    },
+    {
+     "p": "caminho",
+     "i": 24.263,
+     "f": 24.757
+    },
+    {
+     "p": "Nesta",
+     "i": 25.11,
+     "f": 25.527
+    },
+    {
+     "p": "viagem",
+     "i": 25.54,
+     "f": 26.035
+    },
+    {
+     "p": "você",
+     "i": 26.321,
+     "f": 26.594
+    },
+    {
+     "p": "vai",
+     "i": 26.607,
+     "f": 26.764
+    },
+    {
+     "p": "ver",
+     "i": 26.777,
+     "f": 26.946
+    },
+    {
+     "p": "a",
+     "i": 26.959,
+     "f": 27.037
+    },
+    {
+     "p": "ordem",
+     "i": 27.05,
+     "f": 27.376
+    },
+    {
+     "p": "das",
+     "i": 27.389,
+     "f": 27.493
+    },
+    {
+     "p": "etapas",
+     "i": 27.506,
+     "f": 28.131
+    },
+    {
+     "p": "que",
+     "i": 28.144,
+     "f": 28.313
+    },
+    {
+     "p": "quase",
+     "i": 28.326,
+     "f": 28.717
+    },
+    {
+     "p": "ninguém",
+     "i": 28.73,
+     "f": 29.107
+    },
+    {
+     "p": "enxerga",
+     "i": 29.12,
+     "f": 29.628
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "b46499383b",
+   "texto": "Vamos usar dois exemplos reais. Itaipu, no Rio Paraná, entre o Brasil e o Paraguai. E a represa Hoover, no Rio Colorado, nos Estados Unidos, construída décadas antes. Duas obras, dois países, e a mesma lógica: primeiro você decide por onde o rio vai passar, depois constrói no lugar onde ele estava. No final, você vai entender por que o momento mais delicado da obra não é o do concreto, e sim o dia em que o rio é obrigado a mudar de rota.",
+   "audio": "audio/promessa-b46499383b.mp3",
+   "duracao": 30.485,
+   "palavras": [
+    {
+     "p": "Vamos",
+     "i": 0.102,
+     "f": 0.428
+    },
+    {
+     "p": "usar",
+     "i": 0.441,
+     "f": 0.883
+    },
+    {
+     "p": "dois",
+     "i": 0.896,
+     "f": 1.196
+    },
+    {
+     "p": "exemplos",
+     "i": 1.209,
+     "f": 1.756
+    },
+    {
+     "p": "reais",
+     "i": 1.769,
+     "f": 2.342
+    },
+    {
+     "p": "Itaipu",
+     "i": 2.678,
+     "f": 3.29
+    },
+    {
+     "p": "no",
+     "i": 3.642,
+     "f": 3.772
+    },
+    {
+     "p": "Rio",
+     "i": 3.785,
+     "f": 4.006
+    },
+    {
+     "p": "Paraná",
+     "i": 4.019,
+     "f": 4.436
+    },
+    {
+     "p": "entre",
+     "i": 4.748,
+     "f": 4.97
+    },
+    {
+     "p": "o",
+     "i": 4.983,
+     "f": 5.009
+    },
+    {
+     "p": "Brasil",
+     "i": 5.022,
+     "f": 5.491
+    },
+    {
+     "p": "e",
+     "i": 5.504,
+     "f": 5.556
+    },
+    {
+     "p": "o",
+     "i": 5.569,
+     "f": 5.621
+    },
+    {
+     "p": "Paraguai",
+     "i": 5.634,
+     "f": 6.22
+    },
+    {
+     "p": "E",
+     "i": 6.55,
+     "f": 6.667
+    },
+    {
+     "p": "a",
+     "i": 6.68,
+     "f": 6.745
+    },
+    {
+     "p": "represa",
+     "i": 6.758,
+     "f": 7.24
+    },
+    {
+     "p": "Hoover",
+     "i": 7.253,
+     "f": 7.592
+    },
+    {
+     "p": "no",
+     "i": 7.852,
+     "f": 7.982
+    },
+    {
+     "p": "Rio",
+     "i": 7.995,
+     "f": 8.217
+    },
+    {
+     "p": "Colorado",
+     "i": 8.23,
+     "f": 8.829
+    },
+    {
+     "p": "nos",
+     "i": 9.037,
+     "f": 9.128
+    },
+    {
+     "p": "Estados",
+     "i": 9.141,
+     "f": 9.649
+    },
+    {
+     "p": "Unidos",
+     "i": 9.662,
+     "f": 10.183
+    },
+    {
+     "p": "construída",
+     "i": 10.495,
+     "f": 11.186
+    },
+    {
+     "p": "décadas",
+     "i": 11.199,
+     "f": 11.628
+    },
+    {
+     "p": "antes",
+     "i": 11.641,
+     "f": 12.227
+    },
+    {
+     "p": "Duas",
+     "i": 12.558,
+     "f": 12.884
+    },
+    {
+     "p": "obras",
+     "i": 12.897,
+     "f": 13.43
+    },
+    {
+     "p": "dois",
+     "i": 13.665,
+     "f": 13.951
+    },
+    {
+     "p": "países",
+     "i": 13.964,
+     "f": 14.537
+    },
+    {
+     "p": "e",
+     "i": 14.876,
+     "f": 14.954
+    },
+    {
+     "p": "a",
+     "i": 14.967,
+     "f": 15.058
+    },
+    {
+     "p": "mesma",
+     "i": 15.071,
+     "f": 15.423
+    },
+    {
+     "p": "lógica",
+     "i": 15.436,
+     "f": 15.957
+    },
+    {
+     "p": "primeiro",
+     "i": 16.191,
+     "f": 16.582
+    },
+    {
+     "p": "você",
+     "i": 16.595,
+     "f": 16.855
+    },
+    {
+     "p": "decide",
+     "i": 16.868,
+     "f": 17.337
+    },
+    {
+     "p": "por",
+     "i": 17.35,
+     "f": 17.519
+    },
+    {
+     "p": "onde",
+     "i": 17.532,
+     "f": 17.74
+    },
+    {
+     "p": "o",
+     "i": 17.753,
+     "f": 17.779
+    },
+    {
+     "p": "rio",
+     "i": 17.792,
+     "f": 18.014
+    },
+    {
+     "p": "vai",
+     "i": 18.027,
+     "f": 18.17
+    },
+    {
+     "p": "passar",
+     "i": 18.183,
+     "f": 18.652
+    },
+    {
+     "p": "depois",
+     "i": 18.938,
+     "f": 19.355
+    },
+    {
+     "p": "constrói",
+     "i": 19.368,
+     "f": 19.837
+    },
+    {
+     "p": "no",
+     "i": 19.85,
+     "f": 19.941
+    },
+    {
+     "p": "lugar",
+     "i": 19.954,
+     "f": 20.332
+    },
+    {
+     "p": "onde",
+     "i": 20.345,
+     "f": 20.553
+    },
+    {
+     "p": "ele",
+     "i": 20.566,
+     "f": 20.683
+    },
+    {
+     "p": "estava",
+     "i": 20.696,
+     "f": 21.165
+    },
+    {
+     "p": "No",
+     "i": 21.518,
+     "f": 21.687
+    },
+    {
+     "p": "final",
+     "i": 21.7,
+     "f": 22.104
+    },
+    {
+     "p": "você",
+     "i": 22.482,
+     "f": 22.807
+    },
+    {
+     "p": "vai",
+     "i": 22.82,
+     "f": 22.937
+    },
+    {
+     "p": "entender",
+     "i": 22.95,
+     "f": 23.432
+    },
+    {
+     "p": "por",
+     "i": 23.445,
+     "f": 23.64
+    },
+    {
+     "p": "que",
+     "i": 23.653,
+     "f": 23.771
+    },
+    {
+     "p": "o",
+     "i": 23.784,
+     "f": 23.81
+    },
+    {
+     "p": "momento",
+     "i": 23.823,
+     "f": 24.292
+    },
+    {
+     "p": "mais",
+     "i": 24.305,
+     "f": 24.526
+    },
+    {
+     "p": "delicado",
+     "i": 24.539,
+     "f": 25.099
+    },
+    {
+     "p": "da",
+     "i": 25.112,
+     "f": 25.242
+    },
+    {
+     "p": "obra",
+     "i": 25.255,
+     "f": 25.594
+    },
+    {
+     "p": "não",
+     "i": 25.607,
+     "f": 25.815
+    },
+    {
+     "p": "é",
+     "i": 25.828,
+     "f": 25.919
+    },
+    {
+     "p": "o",
+     "i": 25.932,
+     "f": 25.984
+    },
+    {
+     "p": "do",
+     "i": 25.997,
+     "f": 26.088
+    },
+    {
+     "p": "concreto",
+     "i": 26.101,
+     "f": 26.7
+    },
+    {
+     "p": "e",
+     "i": 27.078,
+     "f": 27.156
+    },
+    {
+     "p": "sim",
+     "i": 27.169,
+     "f": 27.495
+    },
+    {
+     "p": "o",
+     "i": 27.508,
+     "f": 27.586
+    },
+    {
+     "p": "dia",
+     "i": 27.599,
+     "f": 27.82
+    },
+    {
+     "p": "em",
+     "i": 27.833,
+     "f": 27.898
+    },
+    {
+     "p": "que",
+     "i": 27.911,
+     "f": 27.989
+    },
+    {
+     "p": "o",
+     "i": 28.002,
+     "f": 28.055
+    },
+    {
+     "p": "rio",
+     "i": 28.068,
+     "f": 28.354
+    },
+    {
+     "p": "é",
+     "i": 28.367,
+     "f": 28.458
+    },
+    {
+     "p": "obrigado",
+     "i": 28.471,
+     "f": 29.018
+    },
+    {
+     "p": "a",
+     "i": 29.031,
+     "f": 29.057
+    },
+    {
+     "p": "mudar",
+     "i": 29.07,
+     "f": 29.422
+    },
+    {
+     "p": "de",
+     "i": 29.435,
+     "f": 29.526
+    },
+    {
+     "p": "rota",
+     "i": 29.539,
+     "f": 29.969
+    }
+   ]
+  },
+  "canal-de-desvio": {
+   "hash": "2d9a2882be",
+   "texto": "Capítulo um: o desvio. Em Itaipu, a primeira obra gigante não foi a barragem. Foi um canal. Cerca de dois quilômetros de extensão, cento e cinquenta metros de largura e noventa de profundidade, escavados na rocha, ao lado do leito original. A ideia é simples: abrir uma estrada nova para a água, enquanto o rio ainda corre pelo caminho antigo. Mas havia um detalhe. O canal ficou com as pontas tampadas, como uma garrafa fechada, esperando o dia de ser aberto.",
+   "audio": "audio/canal-de-desvio-2d9a2882be.mp3",
+   "duracao": 30.929,
+   "palavras": [
+    {
+     "p": "Capítulo",
+     "i": 0.102,
+     "f": 0.727
+    },
+    {
+     "p": "um",
+     "i": 0.74,
+     "f": 0.962
+    },
+    {
+     "p": "o",
+     "i": 1.287,
+     "f": 1.352
+    },
+    {
+     "p": "desvio",
+     "i": 1.365,
+     "f": 1.964
+    },
+    {
+     "p": "Em",
+     "i": 2.294,
+     "f": 2.502
+    },
+    {
+     "p": "Itaipu",
+     "i": 2.515,
+     "f": 3.114
+    },
+    {
+     "p": "a",
+     "i": 3.401,
+     "f": 3.479
+    },
+    {
+     "p": "primeira",
+     "i": 3.492,
+     "f": 3.831
+    },
+    {
+     "p": "obra",
+     "i": 3.844,
+     "f": 4.156
+    },
+    {
+     "p": "gigante",
+     "i": 4.169,
+     "f": 4.703
+    },
+    {
+     "p": "não",
+     "i": 4.716,
+     "f": 4.911
+    },
+    {
+     "p": "foi",
+     "i": 4.924,
+     "f": 5.107
+    },
+    {
+     "p": "a",
+     "i": 5.12,
+     "f": 5.159
+    },
+    {
+     "p": "barragem",
+     "i": 5.172,
+     "f": 5.784
+    },
+    {
+     "p": "Foi",
+     "i": 6.118,
+     "f": 6.378
+    },
+    {
+     "p": "um",
+     "i": 6.392,
+     "f": 6.483
+    },
+    {
+     "p": "canal.",
+     "i": 6.496,
+     "f": 6.951
+    },
+    {
+     "p": "Cerca",
+     "i": 7.302,
+     "f": 7.784
+    },
+    {
+     "p": "de",
+     "i": 7.797,
+     "f": 7.927
+    },
+    {
+     "p": "dois",
+     "i": 7.94,
+     "f": 8.227
+    },
+    {
+     "p": "quilômetros",
+     "i": 8.24,
+     "f": 8.812
+    },
+    {
+     "p": "de",
+     "i": 8.826,
+     "f": 8.904
+    },
+    {
+     "p": "extensão",
+     "i": 8.917,
+     "f": 9.529
+    },
+    {
+     "p": "cento",
+     "i": 9.88,
+     "f": 10.206
+    },
+    {
+     "p": "e",
+     "i": 10.219,
+     "f": 10.245
+    },
+    {
+     "p": "cinquenta",
+     "i": 10.258,
+     "f": 10.74
+    },
+    {
+     "p": "metros",
+     "i": 10.753,
+     "f": 11.156
+    },
+    {
+     "p": "de",
+     "i": 11.169,
+     "f": 11.234
+    },
+    {
+     "p": "largura",
+     "i": 11.247,
+     "f": 11.716
+    },
+    {
+     "p": "e",
+     "i": 11.729,
+     "f": 11.755
+    },
+    {
+     "p": "noventa",
+     "i": 11.768,
+     "f": 12.263
+    },
+    {
+     "p": "de",
+     "i": 12.276,
+     "f": 12.38
+    },
+    {
+     "p": "profundidade",
+     "i": 12.393,
+     "f": 13.227
+    },
+    {
+     "p": "escavados",
+     "i": 13.526,
+     "f": 14.19
+    },
+    {
+     "p": "na",
+     "i": 14.203,
+     "f": 14.307
+    },
+    {
+     "p": "rocha",
+     "i": 14.32,
+     "f": 14.737
+    },
+    {
+     "p": "ao",
+     "i": 14.997,
+     "f": 15.128
+    },
+    {
+     "p": "lado",
+     "i": 15.141,
+     "f": 15.479
+    },
+    {
+     "p": "do",
+     "i": 15.492,
+     "f": 15.622
+    },
+    {
+     "p": "leito",
+     "i": 15.635,
+     "f": 15.987
+    },
+    {
+     "p": "original",
+     "i": 16,
+     "f": 16.56
+    },
+    {
+     "p": "A",
+     "i": 16.91,
+     "f": 17.053
+    },
+    {
+     "p": "ideia",
+     "i": 17.066,
+     "f": 17.392
+    },
+    {
+     "p": "é",
+     "i": 17.405,
+     "f": 17.444
+    },
+    {
+     "p": "simples",
+     "i": 17.457,
+     "f": 18.069
+    },
+    {
+     "p": "abrir",
+     "i": 18.381,
+     "f": 18.72
+    },
+    {
+     "p": "uma",
+     "i": 18.733,
+     "f": 18.85
+    },
+    {
+     "p": "estrada",
+     "i": 18.863,
+     "f": 19.215
+    },
+    {
+     "p": "nova",
+     "i": 19.228,
+     "f": 19.553
+    },
+    {
+     "p": "para",
+     "i": 19.566,
+     "f": 19.736
+    },
+    {
+     "p": "a",
+     "i": 19.749,
+     "f": 19.788
+    },
+    {
+     "p": "água",
+     "i": 19.801,
+     "f": 20.152
+    },
+    {
+     "p": "enquanto",
+     "i": 20.465,
+     "f": 20.881
+    },
+    {
+     "p": "o",
+     "i": 20.894,
+     "f": 20.92
+    },
+    {
+     "p": "rio",
+     "i": 20.934,
+     "f": 21.168
+    },
+    {
+     "p": "ainda",
+     "i": 21.181,
+     "f": 21.428
+    },
+    {
+     "p": "corre",
+     "i": 21.441,
+     "f": 21.754
+    },
+    {
+     "p": "pelo",
+     "i": 21.767,
+     "f": 21.988
+    },
+    {
+     "p": "caminho",
+     "i": 22.001,
+     "f": 22.34
+    },
+    {
+     "p": "antigo",
+     "i": 22.353,
+     "f": 22.822
+    },
+    {
+     "p": "Mas",
+     "i": 23.158,
+     "f": 23.366
+    },
+    {
+     "p": "havia",
+     "i": 23.379,
+     "f": 23.796
+    },
+    {
+     "p": "um",
+     "i": 23.809,
+     "f": 23.887
+    },
+    {
+     "p": "detalhe",
+     "i": 23.9,
+     "f": 24.434
+    },
+    {
+     "p": "O",
+     "i": 24.774,
+     "f": 24.878
+    },
+    {
+     "p": "canal",
+     "i": 24.891,
+     "f": 25.269
+    },
+    {
+     "p": "ficou",
+     "i": 25.282,
+     "f": 25.62
+    },
+    {
+     "p": "com",
+     "i": 25.633,
+     "f": 25.79
+    },
+    {
+     "p": "as",
+     "i": 25.803,
+     "f": 25.946
+    },
+    {
+     "p": "pontas",
+     "i": 25.959,
+     "f": 26.363
+    },
+    {
+     "p": "tampadas",
+     "i": 26.376,
+     "f": 27.027
+    },
+    {
+     "p": "como",
+     "i": 27.3,
+     "f": 27.534
+    },
+    {
+     "p": "uma",
+     "i": 27.548,
+     "f": 27.73
+    },
+    {
+     "p": "garrafa",
+     "i": 27.743,
+     "f": 28.199
+    },
+    {
+     "p": "fechada",
+     "i": 28.212,
+     "f": 28.745
+    },
+    {
+     "p": "esperando",
+     "i": 29.006,
+     "f": 29.436
+    },
+    {
+     "p": "o",
+     "i": 29.449,
+     "f": 29.488
+    },
+    {
+     "p": "dia",
+     "i": 29.501,
+     "f": 29.709
+    },
+    {
+     "p": "de",
+     "i": 29.722,
+     "f": 29.826
+    },
+    {
+     "p": "ser",
+     "i": 29.839,
+     "f": 30.021
+    },
+    {
+     "p": "aberto",
+     "i": 30.034,
+     "f": 30.529
+    }
+   ]
+  },
+  "explosao": {
+   "hash": "2c9b5ea4d3",
+   "texto": "Essas pontas tampadas têm nome: ensecadeira. É uma barreira provisória de terra e rocha, que mantém a água fora de uma área de trabalho. No dia vinte de outubro de mil novecentos e setenta e oito, a ensecadeira do canal de Itaipu foi explodida. Foram mais de cinquenta toneladas de dinamite, em mais de quatrocentos furos. Num instante, o Paraná encontrou o caminho novo e passou a correr por ele. Era o fim da primeira fase das obras civis. Mas o leito antigo ainda estava cheio de água.",
+   "audio": "audio/explosao-2c9b5ea4d3.mp3",
+   "duracao": 30.485,
+   "palavras": [
+    {
+     "p": "Essas",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "pontas",
+     "i": 0.532,
+     "f": 0.948
+    },
+    {
+     "p": "tampadas",
+     "i": 0.961,
+     "f": 1.534
+    },
+    {
+     "p": "têm",
+     "i": 1.547,
+     "f": 1.717
+    },
+    {
+     "p": "nome",
+     "i": 1.73,
+     "f": 2.12
+    },
+    {
+     "p": "ensecadeira",
+     "i": 2.277,
+     "f": 3.084
+    },
+    {
+     "p": "É",
+     "i": 3.422,
+     "f": 3.526
+    },
+    {
+     "p": "uma",
+     "i": 3.539,
+     "f": 3.683
+    },
+    {
+     "p": "barreira",
+     "i": 3.696,
+     "f": 4.112
+    },
+    {
+     "p": "provisória",
+     "i": 4.125,
+     "f": 4.737
+    },
+    {
+     "p": "de",
+     "i": 4.75,
+     "f": 4.906
+    },
+    {
+     "p": "terra",
+     "i": 4.919,
+     "f": 5.18
+    },
+    {
+     "p": "e",
+     "i": 5.193,
+     "f": 5.245
+    },
+    {
+     "p": "rocha",
+     "i": 5.258,
+     "f": 5.714
+    },
+    {
+     "p": "que",
+     "i": 5.935,
+     "f": 6.052
+    },
+    {
+     "p": "mantém",
+     "i": 6.065,
+     "f": 6.456
+    },
+    {
+     "p": "a",
+     "i": 6.469,
+     "f": 6.521
+    },
+    {
+     "p": "água",
+     "i": 6.534,
+     "f": 6.886
+    },
+    {
+     "p": "fora",
+     "i": 6.899,
+     "f": 7.198
+    },
+    {
+     "p": "de",
+     "i": 7.211,
+     "f": 7.289
+    },
+    {
+     "p": "uma",
+     "i": 7.302,
+     "f": 7.459
+    },
+    {
+     "p": "área",
+     "i": 7.472,
+     "f": 7.719
+    },
+    {
+     "p": "de",
+     "i": 7.732,
+     "f": 7.836
+    },
+    {
+     "p": "trabalho",
+     "i": 7.849,
+     "f": 8.357
+    },
+    {
+     "p": "No",
+     "i": 8.71,
+     "f": 8.879
+    },
+    {
+     "p": "dia",
+     "i": 8.892,
+     "f": 9.14
+    },
+    {
+     "p": "vinte",
+     "i": 9.153,
+     "f": 9.465
+    },
+    {
+     "p": "de",
+     "i": 9.478,
+     "f": 9.569
+    },
+    {
+     "p": "outubro",
+     "i": 9.583,
+     "f": 10.012
+    },
+    {
+     "p": "de",
+     "i": 10.025,
+     "f": 10.129
+    },
+    {
+     "p": "mil",
+     "i": 10.142,
+     "f": 10.273
+    },
+    {
+     "p": "novecentos",
+     "i": 10.286,
+     "f": 10.898
+    },
+    {
+     "p": "e",
+     "i": 10.911,
+     "f": 11.015
+    },
+    {
+     "p": "setenta",
+     "i": 11.028,
+     "f": 11.366
+    },
+    {
+     "p": "e",
+     "i": 11.379,
+     "f": 11.418
+    },
+    {
+     "p": "oito",
+     "i": 11.431,
+     "f": 11.757
+    },
+    {
+     "p": "a",
+     "i": 12.03,
+     "f": 12.109
+    },
+    {
+     "p": "ensecadeira",
+     "i": 12.122,
+     "f": 12.825
+    },
+    {
+     "p": "do",
+     "i": 12.838,
+     "f": 12.942
+    },
+    {
+     "p": "canal",
+     "i": 12.955,
+     "f": 13.293
+    },
+    {
+     "p": "de",
+     "i": 13.306,
+     "f": 13.411
+    },
+    {
+     "p": "Itaipu",
+     "i": 13.424,
+     "f": 13.879
+    },
+    {
+     "p": "foi",
+     "i": 13.892,
+     "f": 14.114
+    },
+    {
+     "p": "explodida",
+     "i": 14.127,
+     "f": 14.817
+    },
+    {
+     "p": "Foram",
+     "i": 15.15,
+     "f": 15.463
+    },
+    {
+     "p": "mais",
+     "i": 15.476,
+     "f": 15.762
+    },
+    {
+     "p": "de",
+     "i": 15.775,
+     "f": 15.866
+    },
+    {
+     "p": "cinquenta",
+     "i": 15.879,
+     "f": 16.374
+    },
+    {
+     "p": "toneladas",
+     "i": 16.387,
+     "f": 16.999
+    },
+    {
+     "p": "de",
+     "i": 17.012,
+     "f": 17.103
+    },
+    {
+     "p": "dinamite",
+     "i": 17.116,
+     "f": 17.702
+    },
+    {
+     "p": "em",
+     "i": 17.989,
+     "f": 18.119
+    },
+    {
+     "p": "mais",
+     "i": 18.132,
+     "f": 18.418
+    },
+    {
+     "p": "de",
+     "i": 18.431,
+     "f": 18.535
+    },
+    {
+     "p": "quatrocentos",
+     "i": 18.549,
+     "f": 19.317
+    },
+    {
+     "p": "furos",
+     "i": 19.33,
+     "f": 19.838
+    },
+    {
+     "p": "Num",
+     "i": 20.174,
+     "f": 20.395
+    },
+    {
+     "p": "instante",
+     "i": 20.408,
+     "f": 20.981
+    },
+    {
+     "p": "o",
+     "i": 21.229,
+     "f": 21.32
+    },
+    {
+     "p": "Paraná",
+     "i": 21.333,
+     "f": 21.698
+    },
+    {
+     "p": "encontrou",
+     "i": 21.711,
+     "f": 22.205
+    },
+    {
+     "p": "o",
+     "i": 22.218,
+     "f": 22.257
+    },
+    {
+     "p": "caminho",
+     "i": 22.27,
+     "f": 22.661
+    },
+    {
+     "p": "novo",
+     "i": 22.674,
+     "f": 23.052
+    },
+    {
+     "p": "e",
+     "i": 23.065,
+     "f": 23.104
+    },
+    {
+     "p": "passou",
+     "i": 23.117,
+     "f": 23.468
+    },
+    {
+     "p": "a",
+     "i": 23.481,
+     "f": 23.52
+    },
+    {
+     "p": "correr",
+     "i": 23.533,
+     "f": 23.911
+    },
+    {
+     "p": "por",
+     "i": 23.924,
+     "f": 24.106
+    },
+    {
+     "p": "ele",
+     "i": 24.119,
+     "f": 24.406
+    },
+    {
+     "p": "Era",
+     "i": 24.742,
+     "f": 24.95
+    },
+    {
+     "p": "o",
+     "i": 24.963,
+     "f": 25.003
+    },
+    {
+     "p": "fim",
+     "i": 25.016,
+     "f": 25.224
+    },
+    {
+     "p": "da",
+     "i": 25.237,
+     "f": 25.367
+    },
+    {
+     "p": "primeira",
+     "i": 25.38,
+     "f": 25.758
+    },
+    {
+     "p": "fase",
+     "i": 25.771,
+     "f": 26.122
+    },
+    {
+     "p": "das",
+     "i": 26.135,
+     "f": 26.266
+    },
+    {
+     "p": "obras",
+     "i": 26.279,
+     "f": 26.643
+    },
+    {
+     "p": "civis",
+     "i": 26.656,
+     "f": 27.203
+    },
+    {
+     "p": "Mas",
+     "i": 27.534,
+     "f": 27.742
+    },
+    {
+     "p": "o",
+     "i": 27.755,
+     "f": 27.873
+    },
+    {
+     "p": "leito",
+     "i": 27.886,
+     "f": 28.211
+    },
+    {
+     "p": "antigo",
+     "i": 28.224,
+     "f": 28.628
+    },
+    {
+     "p": "ainda",
+     "i": 28.641,
+     "f": 28.862
+    },
+    {
+     "p": "estava",
+     "i": 28.875,
+     "f": 29.214
+    },
+    {
+     "p": "cheio",
+     "i": 29.227,
+     "f": 29.565
+    },
+    {
+     "p": "de",
+     "i": 29.578,
+     "f": 29.709
+    },
+    {
+     "p": "água",
+     "i": 29.722,
+     "f": 30.086
+    }
+   ]
+  },
+  "leito-seco": {
+   "hash": "df35881324",
+   "texto": "Agora o rio passava ao lado. Só que o leito antigo, bem onde ficaria a barragem, ainda recebia água por cima e por baixo. Por isso entram em cena mais duas ensecadeiras: uma a montante, antes da obra, e outra a jusante, depois dela. Entre as duas, bombas retiram a água que sobrou. É um trecho de rio que vira canteiro de obras. Parece um truque de mágica, mas é só uma sequência rigorosa, em que cada passo prepara o seguinte.",
+   "audio": "audio/leito-seco-df35881324.mp3",
+   "duracao": 28.526,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.545
+    },
+    {
+     "p": "o",
+     "i": 0.558,
+     "f": 0.597
+    },
+    {
+     "p": "rio",
+     "i": 0.61,
+     "f": 0.831
+    },
+    {
+     "p": "passava",
+     "i": 0.844,
+     "f": 1.352
+    },
+    {
+     "p": "ao",
+     "i": 1.365,
+     "f": 1.456
+    },
+    {
+     "p": "lado",
+     "i": 1.469,
+     "f": 1.873
+    },
+    {
+     "p": "Só",
+     "i": 2.222,
+     "f": 2.522
+    },
+    {
+     "p": "que",
+     "i": 2.535,
+     "f": 2.626
+    },
+    {
+     "p": "o",
+     "i": 2.639,
+     "f": 2.678
+    },
+    {
+     "p": "leito",
+     "i": 2.691,
+     "f": 2.977
+    },
+    {
+     "p": "antigo",
+     "i": 2.99,
+     "f": 3.459
+    },
+    {
+     "p": "bem",
+     "i": 3.706,
+     "f": 3.954
+    },
+    {
+     "p": "onde",
+     "i": 3.967,
+     "f": 4.162
+    },
+    {
+     "p": "ficaria",
+     "i": 4.175,
+     "f": 4.579
+    },
+    {
+     "p": "a",
+     "i": 4.592,
+     "f": 4.618
+    },
+    {
+     "p": "barragem",
+     "i": 4.631,
+     "f": 5.191
+    },
+    {
+     "p": "ainda",
+     "i": 5.503,
+     "f": 5.764
+    },
+    {
+     "p": "recebia",
+     "i": 5.777,
+     "f": 6.285
+    },
+    {
+     "p": "água",
+     "i": 6.298,
+     "f": 6.649
+    },
+    {
+     "p": "por",
+     "i": 6.662,
+     "f": 6.831
+    },
+    {
+     "p": "cima",
+     "i": 6.844,
+     "f": 7.196
+    },
+    {
+     "p": "e",
+     "i": 7.209,
+     "f": 7.261
+    },
+    {
+     "p": "por",
+     "i": 7.274,
+     "f": 7.443
+    },
+    {
+     "p": "baixo",
+     "i": 7.456,
+     "f": 7.899
+    },
+    {
+     "p": "Por",
+     "i": 8.23,
+     "f": 8.412
+    },
+    {
+     "p": "isso",
+     "i": 8.425,
+     "f": 8.738
+    },
+    {
+     "p": "entram",
+     "i": 8.751,
+     "f": 9.011
+    },
+    {
+     "p": "em",
+     "i": 9.024,
+     "f": 9.103
+    },
+    {
+     "p": "cena",
+     "i": 9.116,
+     "f": 9.454
+    },
+    {
+     "p": "mais",
+     "i": 9.467,
+     "f": 9.688
+    },
+    {
+     "p": "duas",
+     "i": 9.701,
+     "f": 9.962
+    },
+    {
+     "p": "ensecadeiras",
+     "i": 9.975,
+     "f": 10.847
+    },
+    {
+     "p": "uma",
+     "i": 11.225,
+     "f": 11.433
+    },
+    {
+     "p": "a",
+     "i": 11.446,
+     "f": 11.472
+    },
+    {
+     "p": "montante",
+     "i": 11.485,
+     "f": 12.149
+    },
+    {
+     "p": "antes",
+     "i": 12.358,
+     "f": 12.683
+    },
+    {
+     "p": "da",
+     "i": 12.696,
+     "f": 12.84
+    },
+    {
+     "p": "obra",
+     "i": 12.852,
+     "f": 13.191
+    },
+    {
+     "p": "e",
+     "i": 13.53,
+     "f": 13.673
+    },
+    {
+     "p": "outra",
+     "i": 13.686,
+     "f": 13.985
+    },
+    {
+     "p": "a",
+     "i": 13.998,
+     "f": 14.024
+    },
+    {
+     "p": "jusante",
+     "i": 14.037,
+     "f": 14.597
+    },
+    {
+     "p": "depois",
+     "i": 14.793,
+     "f": 15.209
+    },
+    {
+     "p": "dela",
+     "i": 15.222,
+     "f": 15.587
+    },
+    {
+     "p": "Entre",
+     "i": 15.918,
+     "f": 16.231
+    },
+    {
+     "p": "as",
+     "i": 16.244,
+     "f": 16.348
+    },
+    {
+     "p": "duas",
+     "i": 16.361,
+     "f": 16.843
+    },
+    {
+     "p": "bombas",
+     "i": 17.103,
+     "f": 17.533
+    },
+    {
+     "p": "retiram",
+     "i": 17.546,
+     "f": 18.001
+    },
+    {
+     "p": "a",
+     "i": 18.014,
+     "f": 18.067
+    },
+    {
+     "p": "água",
+     "i": 18.08,
+     "f": 18.418
+    },
+    {
+     "p": "que",
+     "i": 18.431,
+     "f": 18.535
+    },
+    {
+     "p": "sobrou",
+     "i": 18.548,
+     "f": 19.017
+    },
+    {
+     "p": "É",
+     "i": 19.358,
+     "f": 19.462
+    },
+    {
+     "p": "um",
+     "i": 19.475,
+     "f": 19.605
+    },
+    {
+     "p": "trecho",
+     "i": 19.618,
+     "f": 20.022
+    },
+    {
+     "p": "de",
+     "i": 20.035,
+     "f": 20.139
+    },
+    {
+     "p": "rio",
+     "i": 20.152,
+     "f": 20.387
+    },
+    {
+     "p": "que",
+     "i": 20.4,
+     "f": 20.543
+    },
+    {
+     "p": "vira",
+     "i": 20.556,
+     "f": 20.816
+    },
+    {
+     "p": "canteiro",
+     "i": 20.829,
+     "f": 21.363
+    },
+    {
+     "p": "de",
+     "i": 21.376,
+     "f": 21.52
+    },
+    {
+     "p": "obras",
+     "i": 21.533,
+     "f": 22.04
+    },
+    {
+     "p": "Parece",
+     "i": 22.39,
+     "f": 22.846
+    },
+    {
+     "p": "um",
+     "i": 22.859,
+     "f": 22.963
+    },
+    {
+     "p": "truque",
+     "i": 22.976,
+     "f": 23.249
+    },
+    {
+     "p": "de",
+     "i": 23.263,
+     "f": 23.367
+    },
+    {
+     "p": "mágica",
+     "i": 23.38,
+     "f": 23.835
+    },
+    {
+     "p": "mas",
+     "i": 24.122,
+     "f": 24.252
+    },
+    {
+     "p": "é",
+     "i": 24.265,
+     "f": 24.421
+    },
+    {
+     "p": "só",
+     "i": 24.434,
+     "f": 24.604
+    },
+    {
+     "p": "uma",
+     "i": 24.617,
+     "f": 24.812
+    },
+    {
+     "p": "sequência",
+     "i": 24.825,
+     "f": 25.307
+    },
+    {
+     "p": "rigorosa",
+     "i": 25.32,
+     "f": 25.958
+    },
+    {
+     "p": "em",
+     "i": 26.257,
+     "f": 26.335
+    },
+    {
+     "p": "que",
+     "i": 26.348,
+     "f": 26.466
+    },
+    {
+     "p": "cada",
+     "i": 26.479,
+     "f": 26.765
+    },
+    {
+     "p": "passo",
+     "i": 26.778,
+     "f": 27.13
+    },
+    {
+     "p": "prepara",
+     "i": 27.143,
+     "f": 27.455
+    },
+    {
+     "p": "o",
+     "i": 27.468,
+     "f": 27.494
+    },
+    {
+     "p": "seguinte",
+     "i": 27.507,
+     "f": 28.067
+    }
+   ]
+  },
+  "hoover-tuneis": {
+   "hash": "163ea7473e",
+   "texto": "Na represa Hoover, o princípio foi o mesmo, mas o terreno pedia túneis. Foram quatro, escavados nas paredes do cânion, dois de cada lado do rio. Depois de revestidos de concreto, ficaram com cerca de quinze metros de diâmetro. Em seguida, duas ensecadeiras isolaram o local. A de cima começou a ser construída em setembro de mil novecentos e trinta e dois, antes mesmo de o rio ser totalmente desviado. Quer dizer: o desvio é uma obra inteira, escondida dentro da obra principal.",
+   "audio": "audio/hoover-tuneis-163ea7473e.mp3",
+   "duracao": 31.791,
+   "palavras": [
+    {
+     "p": "Na",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "represa",
+     "i": 0.271,
+     "f": 0.779
+    },
+    {
+     "p": "Hoover",
+     "i": 0.792,
+     "f": 1.144
+    },
+    {
+     "p": "o",
+     "i": 1.43,
+     "f": 1.482
+    },
+    {
+     "p": "princípio",
+     "i": 1.495,
+     "f": 2.081
+    },
+    {
+     "p": "foi",
+     "i": 2.094,
+     "f": 2.251
+    },
+    {
+     "p": "o",
+     "i": 2.264,
+     "f": 2.329
+    },
+    {
+     "p": "mesmo",
+     "i": 2.342,
+     "f": 2.745
+    },
+    {
+     "p": "mas",
+     "i": 3.058,
+     "f": 3.201
+    },
+    {
+     "p": "o",
+     "i": 3.214,
+     "f": 3.344
+    },
+    {
+     "p": "terreno",
+     "i": 3.357,
+     "f": 3.787
+    },
+    {
+     "p": "pedia",
+     "i": 3.8,
+     "f": 4.139
+    },
+    {
+     "p": "túneis",
+     "i": 4.152,
+     "f": 4.698
+    },
+    {
+     "p": "Foram",
+     "i": 5.03,
+     "f": 5.408
+    },
+    {
+     "p": "quatro",
+     "i": 5.421,
+     "f": 5.876
+    },
+    {
+     "p": "escavados",
+     "i": 6.137,
+     "f": 6.814
+    },
+    {
+     "p": "nas",
+     "i": 6.827,
+     "f": 6.996
+    },
+    {
+     "p": "paredes",
+     "i": 7.009,
+     "f": 7.465
+    },
+    {
+     "p": "do",
+     "i": 7.478,
+     "f": 7.582
+    },
+    {
+     "p": "cânion",
+     "i": 7.595,
+     "f": 8.064
+    },
+    {
+     "p": "dois",
+     "i": 8.35,
+     "f": 8.65
+    },
+    {
+     "p": "de",
+     "i": 8.663,
+     "f": 8.793
+    },
+    {
+     "p": "cada",
+     "i": 8.806,
+     "f": 9.093
+    },
+    {
+     "p": "lado",
+     "i": 9.106,
+     "f": 9.47
+    },
+    {
+     "p": "do",
+     "i": 9.483,
+     "f": 9.6
+    },
+    {
+     "p": "rio",
+     "i": 9.613,
+     "f": 9.9
+    },
+    {
+     "p": "Depois",
+     "i": 10.246,
+     "f": 10.715
+    },
+    {
+     "p": "de",
+     "i": 10.728,
+     "f": 10.806
+    },
+    {
+     "p": "revestidos",
+     "i": 10.819,
+     "f": 11.431
+    },
+    {
+     "p": "de",
+     "i": 11.444,
+     "f": 11.535
+    },
+    {
+     "p": "concreto",
+     "i": 11.548,
+     "f": 12.121
+    },
+    {
+     "p": "ficaram",
+     "i": 12.434,
+     "f": 12.837
+    },
+    {
+     "p": "com",
+     "i": 12.85,
+     "f": 13.006
+    },
+    {
+     "p": "cerca",
+     "i": 13.02,
+     "f": 13.384
+    },
+    {
+     "p": "de",
+     "i": 13.397,
+     "f": 13.527
+    },
+    {
+     "p": "quinze",
+     "i": 13.54,
+     "f": 13.957
+    },
+    {
+     "p": "metros",
+     "i": 13.97,
+     "f": 14.374
+    },
+    {
+     "p": "de",
+     "i": 14.387,
+     "f": 14.478
+    },
+    {
+     "p": "diâmetro",
+     "i": 14.491,
+     "f": 15.038
+    },
+    {
+     "p": "Em",
+     "i": 15.39,
+     "f": 15.52
+    },
+    {
+     "p": "seguida",
+     "i": 15.533,
+     "f": 16.067
+    },
+    {
+     "p": "duas",
+     "i": 16.354,
+     "f": 16.653
+    },
+    {
+     "p": "ensecadeiras",
+     "i": 16.666,
+     "f": 17.369
+    },
+    {
+     "p": "isolaram",
+     "i": 17.382,
+     "f": 17.981
+    },
+    {
+     "p": "o",
+     "i": 17.994,
+     "f": 18.02
+    },
+    {
+     "p": "local",
+     "i": 18.033,
+     "f": 18.476
+    },
+    {
+     "p": "A",
+     "i": 18.806,
+     "f": 18.949
+    },
+    {
+     "p": "de",
+     "i": 18.962,
+     "f": 19.119
+    },
+    {
+     "p": "cima",
+     "i": 19.132,
+     "f": 19.483
+    },
+    {
+     "p": "começou",
+     "i": 19.496,
+     "f": 19.965
+    },
+    {
+     "p": "a",
+     "i": 19.978,
+     "f": 20.03
+    },
+    {
+     "p": "ser",
+     "i": 20.043,
+     "f": 20.225
+    },
+    {
+     "p": "construída",
+     "i": 20.238,
+     "f": 20.798
+    },
+    {
+     "p": "em",
+     "i": 20.811,
+     "f": 20.889
+    },
+    {
+     "p": "setembro",
+     "i": 20.902,
+     "f": 21.462
+    },
+    {
+     "p": "de",
+     "i": 21.475,
+     "f": 21.593
+    },
+    {
+     "p": "mil",
+     "i": 21.606,
+     "f": 21.762
+    },
+    {
+     "p": "novecentos",
+     "i": 21.775,
+     "f": 22.322
+    },
+    {
+     "p": "e",
+     "i": 22.335,
+     "f": 22.465
+    },
+    {
+     "p": "trinta",
+     "i": 22.478,
+     "f": 22.686
+    },
+    {
+     "p": "e",
+     "i": 22.699,
+     "f": 22.751
+    },
+    {
+     "p": "dois",
+     "i": 22.764,
+     "f": 23.051
+    },
+    {
+     "p": "antes",
+     "i": 23.35,
+     "f": 23.741
+    },
+    {
+     "p": "mesmo",
+     "i": 23.754,
+     "f": 24.171
+    },
+    {
+     "p": "de",
+     "i": 24.184,
+     "f": 24.275
+    },
+    {
+     "p": "o",
+     "i": 24.288,
+     "f": 24.34
+    },
+    {
+     "p": "rio",
+     "i": 24.353,
+     "f": 24.561
+    },
+    {
+     "p": "ser",
+     "i": 24.574,
+     "f": 24.809
+    },
+    {
+     "p": "totalmente",
+     "i": 24.822,
+     "f": 25.447
+    },
+    {
+     "p": "desviado",
+     "i": 25.46,
+     "f": 26.085
+    },
+    {
+     "p": "Quer",
+     "i": 26.422,
+     "f": 26.656
+    },
+    {
+     "p": "dizer",
+     "i": 26.669,
+     "f": 27.099
+    },
+    {
+     "p": "o",
+     "i": 27.49,
+     "f": 27.542
+    },
+    {
+     "p": "desvio",
+     "i": 27.555,
+     "f": 28.05
+    },
+    {
+     "p": "é",
+     "i": 28.063,
+     "f": 28.141
+    },
+    {
+     "p": "uma",
+     "i": 28.154,
+     "f": 28.336
+    },
+    {
+     "p": "obra",
+     "i": 28.349,
+     "f": 28.61
+    },
+    {
+     "p": "inteira",
+     "i": 28.623,
+     "f": 29.052
+    },
+    {
+     "p": "escondida",
+     "i": 29.313,
+     "f": 29.873
+    },
+    {
+     "p": "dentro",
+     "i": 29.886,
+     "f": 30.263
+    },
+    {
+     "p": "da",
+     "i": 30.276,
+     "f": 30.393
+    },
+    {
+     "p": "obra",
+     "i": 30.406,
+     "f": 30.693
+    },
+    {
+     "p": "principal",
+     "i": 30.706,
+     "f": 31.331
+    }
+   ]
+  },
+  "fundacao": {
+   "hash": "82a06e5214",
+   "texto": "Com o leito seco, aparece o chão de verdade. E aqui a obra faz uma pausa para a pergunta que decide tudo: a rocha aguenta? Os engenheiros retiram sedimentos, areia e rocha solta até chegar ao material firme. Depois, limpam a superfície e injetam cimento nas fraturas, para selar a fundação. Só então a barragem pode começar. É por isso que a parte mais cara de uma barragem fica escondida: ela está abaixo de tudo o que qualquer visitante vai ver.",
+   "audio": "audio/fundacao-82a06e5214.mp3",
+   "duracao": 28.63,
+   "palavras": [
+    {
+     "p": "Com",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "o",
+     "i": 0.336,
+     "f": 0.376
+    },
+    {
+     "p": "leito",
+     "i": 0.389,
+     "f": 0.675
+    },
+    {
+     "p": "seco",
+     "i": 0.688,
+     "f": 1.105
+    },
+    {
+     "p": "aparece",
+     "i": 1.222,
+     "f": 1.782
+    },
+    {
+     "p": "o",
+     "i": 1.795,
+     "f": 1.821
+    },
+    {
+     "p": "chão",
+     "i": 1.834,
+     "f": 2.12
+    },
+    {
+     "p": "de",
+     "i": 2.133,
+     "f": 2.224
+    },
+    {
+     "p": "verdade",
+     "i": 2.237,
+     "f": 2.836
+    },
+    {
+     "p": "E",
+     "i": 3.182,
+     "f": 3.312
+    },
+    {
+     "p": "aqui",
+     "i": 3.325,
+     "f": 3.586
+    },
+    {
+     "p": "a",
+     "i": 3.599,
+     "f": 3.716
+    },
+    {
+     "p": "obra",
+     "i": 3.729,
+     "f": 4.067
+    },
+    {
+     "p": "faz",
+     "i": 4.081,
+     "f": 4.25
+    },
+    {
+     "p": "uma",
+     "i": 4.263,
+     "f": 4.51
+    },
+    {
+     "p": "pausa",
+     "i": 4.523,
+     "f": 4.888
+    },
+    {
+     "p": "para",
+     "i": 4.901,
+     "f": 5.044
+    },
+    {
+     "p": "a",
+     "i": 5.057,
+     "f": 5.083
+    },
+    {
+     "p": "pergunta",
+     "i": 5.096,
+     "f": 5.591
+    },
+    {
+     "p": "que",
+     "i": 5.604,
+     "f": 5.695
+    },
+    {
+     "p": "decide",
+     "i": 5.708,
+     "f": 6.177
+    },
+    {
+     "p": "tudo",
+     "i": 6.19,
+     "f": 6.554
+    },
+    {
+     "p": "a",
+     "i": 6.802,
+     "f": 6.906
+    },
+    {
+     "p": "rocha",
+     "i": 6.919,
+     "f": 7.271
+    },
+    {
+     "p": "aguenta",
+     "i": 7.284,
+     "f": 7.739
+    },
+    {
+     "p": "Os",
+     "i": 8.146,
+     "f": 8.263
+    },
+    {
+     "p": "engenheiros",
+     "i": 8.276,
+     "f": 8.927
+    },
+    {
+     "p": "retiram",
+     "i": 8.94,
+     "f": 9.331
+    },
+    {
+     "p": "sedimentos",
+     "i": 9.344,
+     "f": 10.073
+    },
+    {
+     "p": "areia",
+     "i": 10.268,
+     "f": 10.607
+    },
+    {
+     "p": "e",
+     "i": 10.62,
+     "f": 10.672
+    },
+    {
+     "p": "rocha",
+     "i": 10.685,
+     "f": 11.05
+    },
+    {
+     "p": "solta",
+     "i": 11.063,
+     "f": 11.401
+    },
+    {
+     "p": "até",
+     "i": 11.414,
+     "f": 11.558
+    },
+    {
+     "p": "chegar",
+     "i": 11.571,
+     "f": 11.935
+    },
+    {
+     "p": "ao",
+     "i": 11.948,
+     "f": 12.013
+    },
+    {
+     "p": "material",
+     "i": 12.026,
+     "f": 12.534
+    },
+    {
+     "p": "firme",
+     "i": 12.547,
+     "f": 13.016
+    },
+    {
+     "p": "Depois",
+     "i": 13.362,
+     "f": 13.974
+    },
+    {
+     "p": "limpam",
+     "i": 14.235,
+     "f": 14.69
+    },
+    {
+     "p": "a",
+     "i": 14.703,
+     "f": 14.742
+    },
+    {
+     "p": "superfície",
+     "i": 14.755,
+     "f": 15.445
+    },
+    {
+     "p": "e",
+     "i": 15.458,
+     "f": 15.484
+    },
+    {
+     "p": "injetam",
+     "i": 15.497,
+     "f": 15.94
+    },
+    {
+     "p": "cimento",
+     "i": 15.953,
+     "f": 16.409
+    },
+    {
+     "p": "nas",
+     "i": 16.422,
+     "f": 16.591
+    },
+    {
+     "p": "fraturas",
+     "i": 16.604,
+     "f": 17.242
+    },
+    {
+     "p": "para",
+     "i": 17.477,
+     "f": 17.672
+    },
+    {
+     "p": "selar",
+     "i": 17.685,
+     "f": 18.037
+    },
+    {
+     "p": "a",
+     "i": 18.05,
+     "f": 18.115
+    },
+    {
+     "p": "fundação",
+     "i": 18.128,
+     "f": 18.779
+    },
+    {
+     "p": "Só",
+     "i": 19.13,
+     "f": 19.39
+    },
+    {
+     "p": "então",
+     "i": 19.404,
+     "f": 19.768
+    },
+    {
+     "p": "a",
+     "i": 19.781,
+     "f": 19.807
+    },
+    {
+     "p": "barragem",
+     "i": 19.82,
+     "f": 20.419
+    },
+    {
+     "p": "pode",
+     "i": 20.432,
+     "f": 20.693
+    },
+    {
+     "p": "começar",
+     "i": 20.706,
+     "f": 21.24
+    },
+    {
+     "p": "É",
+     "i": 21.586,
+     "f": 21.703
+    },
+    {
+     "p": "por",
+     "i": 21.716,
+     "f": 21.938
+    },
+    {
+     "p": "isso",
+     "i": 21.951,
+     "f": 22.276
+    },
+    {
+     "p": "que",
+     "i": 22.289,
+     "f": 22.354
+    },
+    {
+     "p": "a",
+     "i": 22.367,
+     "f": 22.445
+    },
+    {
+     "p": "parte",
+     "i": 22.459,
+     "f": 22.784
+    },
+    {
+     "p": "mais",
+     "i": 22.797,
+     "f": 23.044
+    },
+    {
+     "p": "cara",
+     "i": 23.057,
+     "f": 23.357
+    },
+    {
+     "p": "de",
+     "i": 23.37,
+     "f": 23.435
+    },
+    {
+     "p": "uma",
+     "i": 23.448,
+     "f": 23.552
+    },
+    {
+     "p": "barragem",
+     "i": 23.565,
+     "f": 24.099
+    },
+    {
+     "p": "fica",
+     "i": 24.112,
+     "f": 24.333
+    },
+    {
+     "p": "escondida",
+     "i": 24.346,
+     "f": 24.971
+    },
+    {
+     "p": "ela",
+     "i": 25.323,
+     "f": 25.479
+    },
+    {
+     "p": "está",
+     "i": 25.492,
+     "f": 25.701
+    },
+    {
+     "p": "abaixo",
+     "i": 25.714,
+     "f": 26.169
+    },
+    {
+     "p": "de",
+     "i": 26.182,
+     "f": 26.326
+    },
+    {
+     "p": "tudo",
+     "i": 26.339,
+     "f": 26.612
+    },
+    {
+     "p": "o",
+     "i": 26.625,
+     "f": 26.651
+    },
+    {
+     "p": "que",
+     "i": 26.664,
+     "f": 26.781
+    },
+    {
+     "p": "qualquer",
+     "i": 26.794,
+     "f": 27.185
+    },
+    {
+     "p": "visitante",
+     "i": 27.198,
+     "f": 27.784
+    },
+    {
+     "p": "vai",
+     "i": 27.797,
+     "f": 27.966
+    },
+    {
+     "p": "ver",
+     "i": 27.979,
+     "f": 28.214
+    }
+   ]
+  },
+  "concreto-em-blocos": {
+   "hash": "ff51d01ab9",
+   "texto": "Agora chega o concreto, e com ele um problema invisível: calor. Quando o cimento reage com a água, ele esquenta. Numa parede comum, ninguém percebe. Num bloco maciço, o calor fica preso no centro, e a peça racha ao esfriar. Por isso a barragem não é despejada de uma vez. Ela é construída em blocos, cada um esfriando antes do próximo. Na Hoover, tubos de aço de uma polegada, com mais de novecentos quilômetros no total, levavam água do rio para dentro do concreto.",
+   "audio": "audio/concreto-em-blocos-ff51d01ab9.mp3",
+   "duracao": 31.713,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.558
+    },
+    {
+     "p": "chega",
+     "i": 0.571,
+     "f": 0.844
+    },
+    {
+     "p": "o",
+     "i": 0.857,
+     "f": 0.883
+    },
+    {
+     "p": "concreto",
+     "i": 0.896,
+     "f": 1.482
+    },
+    {
+     "p": "e",
+     "i": 1.782,
+     "f": 1.873
+    },
+    {
+     "p": "com",
+     "i": 1.886,
+     "f": 2.133
+    },
+    {
+     "p": "ele",
+     "i": 2.146,
+     "f": 2.342
+    },
+    {
+     "p": "um",
+     "i": 2.355,
+     "f": 2.433
+    },
+    {
+     "p": "problema",
+     "i": 2.446,
+     "f": 2.876
+    },
+    {
+     "p": "invisível",
+     "i": 2.889,
+     "f": 3.527
+    },
+    {
+     "p": "calor.",
+     "i": 3.839,
+     "f": 4.282
+    },
+    {
+     "p": "Quando",
+     "i": 4.622,
+     "f": 4.922
+    },
+    {
+     "p": "o",
+     "i": 4.935,
+     "f": 4.961
+    },
+    {
+     "p": "cimento",
+     "i": 4.974,
+     "f": 5.455
+    },
+    {
+     "p": "reage",
+     "i": 5.468,
+     "f": 5.924
+    },
+    {
+     "p": "com",
+     "i": 5.937,
+     "f": 6.119
+    },
+    {
+     "p": "a",
+     "i": 6.133,
+     "f": 6.185
+    },
+    {
+     "p": "água",
+     "i": 6.198,
+     "f": 6.575
+    },
+    {
+     "p": "ele",
+     "i": 6.771,
+     "f": 6.927
+    },
+    {
+     "p": "esquenta",
+     "i": 6.94,
+     "f": 7.487
+    },
+    {
+     "p": "Numa",
+     "i": 7.822,
+     "f": 8.135
+    },
+    {
+     "p": "parede",
+     "i": 8.148,
+     "f": 8.564
+    },
+    {
+     "p": "comum",
+     "i": 8.577,
+     "f": 8.968
+    },
+    {
+     "p": "ninguém",
+     "i": 9.254,
+     "f": 9.684
+    },
+    {
+     "p": "percebe",
+     "i": 9.697,
+     "f": 10.322
+    },
+    {
+     "p": "Num",
+     "i": 10.662,
+     "f": 10.896
+    },
+    {
+     "p": "bloco",
+     "i": 10.909,
+     "f": 11.248
+    },
+    {
+     "p": "maciço",
+     "i": 11.261,
+     "f": 11.847
+    },
+    {
+     "p": "o",
+     "i": 12.133,
+     "f": 12.199
+    },
+    {
+     "p": "calor",
+     "i": 12.212,
+     "f": 12.615
+    },
+    {
+     "p": "fica",
+     "i": 12.628,
+     "f": 12.889
+    },
+    {
+     "p": "preso",
+     "i": 12.902,
+     "f": 13.214
+    },
+    {
+     "p": "no",
+     "i": 13.227,
+     "f": 13.344
+    },
+    {
+     "p": "centro",
+     "i": 13.357,
+     "f": 13.852
+    },
+    {
+     "p": "e",
+     "i": 14.152,
+     "f": 14.243
+    },
+    {
+     "p": "a",
+     "i": 14.256,
+     "f": 14.36
+    },
+    {
+     "p": "peça",
+     "i": 14.373,
+     "f": 14.738
+    },
+    {
+     "p": "racha",
+     "i": 14.751,
+     "f": 15.128
+    },
+    {
+     "p": "ao",
+     "i": 15.141,
+     "f": 15.258
+    },
+    {
+     "p": "esfriar",
+     "i": 15.271,
+     "f": 15.727
+    },
+    {
+     "p": "Por",
+     "i": 16.07,
+     "f": 16.265
+    },
+    {
+     "p": "isso",
+     "i": 16.278,
+     "f": 16.539
+    },
+    {
+     "p": "a",
+     "i": 16.552,
+     "f": 16.578
+    },
+    {
+     "p": "barragem",
+     "i": 16.591,
+     "f": 17.164
+    },
+    {
+     "p": "não",
+     "i": 17.177,
+     "f": 17.346
+    },
+    {
+     "p": "é",
+     "i": 17.359,
+     "f": 17.437
+    },
+    {
+     "p": "despejada",
+     "i": 17.45,
+     "f": 18.153
+    },
+    {
+     "p": "de",
+     "i": 18.166,
+     "f": 18.258
+    },
+    {
+     "p": "uma",
+     "i": 18.271,
+     "f": 18.453
+    },
+    {
+     "p": "vez",
+     "i": 18.466,
+     "f": 18.87
+    },
+    {
+     "p": "Ela",
+     "i": 19.222,
+     "f": 19.456
+    },
+    {
+     "p": "é",
+     "i": 19.469,
+     "f": 19.535
+    },
+    {
+     "p": "construída",
+     "i": 19.548,
+     "f": 20.082
+    },
+    {
+     "p": "em",
+     "i": 20.095,
+     "f": 20.16
+    },
+    {
+     "p": "blocos",
+     "i": 20.173,
+     "f": 20.667
+    },
+    {
+     "p": "cada",
+     "i": 20.902,
+     "f": 21.162
+    },
+    {
+     "p": "um",
+     "i": 21.175,
+     "f": 21.344
+    },
+    {
+     "p": "esfriando",
+     "i": 21.357,
+     "f": 21.93
+    },
+    {
+     "p": "antes",
+     "i": 21.943,
+     "f": 22.243
+    },
+    {
+     "p": "do",
+     "i": 22.256,
+     "f": 22.386
+    },
+    {
+     "p": "próximo",
+     "i": 22.399,
+     "f": 22.946
+    },
+    {
+     "p": "Na",
+     "i": 23.286,
+     "f": 23.481
+    },
+    {
+     "p": "Hoover",
+     "i": 23.494,
+     "f": 23.872
+    },
+    {
+     "p": "tubos",
+     "i": 24.132,
+     "f": 24.484
+    },
+    {
+     "p": "de",
+     "i": 24.497,
+     "f": 24.64
+    },
+    {
+     "p": "aço",
+     "i": 24.653,
+     "f": 24.94
+    },
+    {
+     "p": "de",
+     "i": 24.953,
+     "f": 25.044
+    },
+    {
+     "p": "uma",
+     "i": 25.057,
+     "f": 25.213
+    },
+    {
+     "p": "polegada",
+     "i": 25.226,
+     "f": 25.825
+    },
+    {
+     "p": "com",
+     "i": 26.06,
+     "f": 26.268
+    },
+    {
+     "p": "mais",
+     "i": 26.281,
+     "f": 26.528
+    },
+    {
+     "p": "de",
+     "i": 26.541,
+     "f": 26.619
+    },
+    {
+     "p": "novecentos",
+     "i": 26.632,
+     "f": 27.27
+    },
+    {
+     "p": "quilômetros",
+     "i": 27.283,
+     "f": 27.856
+    },
+    {
+     "p": "no",
+     "i": 27.869,
+     "f": 27.987
+    },
+    {
+     "p": "total",
+     "i": 28,
+     "f": 28.442
+    },
+    {
+     "p": "levavam",
+     "i": 28.742,
+     "f": 29.302
+    },
+    {
+     "p": "água",
+     "i": 29.315,
+     "f": 29.588
+    },
+    {
+     "p": "do",
+     "i": 29.601,
+     "f": 29.718
+    },
+    {
+     "p": "rio",
+     "i": 29.731,
+     "f": 29.979
+    },
+    {
+     "p": "para",
+     "i": 29.992,
+     "f": 30.226
+    },
+    {
+     "p": "dentro",
+     "i": 30.239,
+     "f": 30.604
+    },
+    {
+     "p": "do",
+     "i": 30.617,
+     "f": 30.721
+    },
+    {
+     "p": "concreto",
+     "i": 30.734,
+     "f": 31.333
+    }
+   ]
+  },
+  "gelo-em-itaipu": {
+   "hash": "eca9c7e5fc",
+   "texto": "Em Itaipu, o truque foi outro. Parte da água da mistura foi trocada por gelo em escamas, para o concreto sair da central de mistura a cerca de sete graus. No total, foram doze vírgula três milhões de metros cúbicos para erguer uma barragem de cento e noventa e seis metros de altura. E repare na ordem: tudo isso acontece bloco a bloco, enquanto o rio corre ao lado, pelo canal. A barragem sobe, e o rio nem precisa saber.",
+   "audio": "audio/gelo-em-itaipu-eca9c7e5fc.mp3",
+   "duracao": 27.69,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "Itaipu",
+     "i": 0.31,
+     "f": 0.909
+    },
+    {
+     "p": "o",
+     "i": 1.183,
+     "f": 1.274
+    },
+    {
+     "p": "truque",
+     "i": 1.287,
+     "f": 1.652
+    },
+    {
+     "p": "foi",
+     "i": 1.665,
+     "f": 1.899
+    },
+    {
+     "p": "outro",
+     "i": 1.912,
+     "f": 2.238
+    },
+    {
+     "p": "Parte",
+     "i": 2.582,
+     "f": 2.947
+    },
+    {
+     "p": "da",
+     "i": 2.96,
+     "f": 3.051
+    },
+    {
+     "p": "água",
+     "i": 3.064,
+     "f": 3.35
+    },
+    {
+     "p": "da",
+     "i": 3.363,
+     "f": 3.454
+    },
+    {
+     "p": "mistura",
+     "i": 3.468,
+     "f": 3.936
+    },
+    {
+     "p": "foi",
+     "i": 3.949,
+     "f": 4.093
+    },
+    {
+     "p": "trocada",
+     "i": 4.106,
+     "f": 4.587
+    },
+    {
+     "p": "por",
+     "i": 4.6,
+     "f": 4.77
+    },
+    {
+     "p": "gelo",
+     "i": 4.783,
+     "f": 5.043
+    },
+    {
+     "p": "em",
+     "i": 5.056,
+     "f": 5.147
+    },
+    {
+     "p": "escamas",
+     "i": 5.16,
+     "f": 5.759
+    },
+    {
+     "p": "para",
+     "i": 6.02,
+     "f": 6.189
+    },
+    {
+     "p": "o",
+     "i": 6.202,
+     "f": 6.228
+    },
+    {
+     "p": "concreto",
+     "i": 6.241,
+     "f": 6.801
+    },
+    {
+     "p": "sair",
+     "i": 6.814,
+     "f": 7.152
+    },
+    {
+     "p": "da",
+     "i": 7.165,
+     "f": 7.283
+    },
+    {
+     "p": "central",
+     "i": 7.296,
+     "f": 7.751
+    },
+    {
+     "p": "de",
+     "i": 7.764,
+     "f": 7.869
+    },
+    {
+     "p": "mistura",
+     "i": 7.882,
+     "f": 8.298
+    },
+    {
+     "p": "a",
+     "i": 8.311,
+     "f": 8.337
+    },
+    {
+     "p": "cerca",
+     "i": 8.35,
+     "f": 8.754
+    },
+    {
+     "p": "de",
+     "i": 8.767,
+     "f": 8.884
+    },
+    {
+     "p": "sete",
+     "i": 8.897,
+     "f": 9.327
+    },
+    {
+     "p": "graus",
+     "i": 9.34,
+     "f": 9.809
+    },
+    {
+     "p": "No",
+     "i": 10.15,
+     "f": 10.345
+    },
+    {
+     "p": "total",
+     "i": 10.358,
+     "f": 10.827
+    },
+    {
+     "p": "foram",
+     "i": 11.179,
+     "f": 11.413
+    },
+    {
+     "p": "doze",
+     "i": 11.426,
+     "f": 11.817
+    },
+    {
+     "p": "vírgula",
+     "i": 11.83,
+     "f": 12.22
+    },
+    {
+     "p": "três",
+     "i": 12.233,
+     "f": 12.533
+    },
+    {
+     "p": "milhões",
+     "i": 12.546,
+     "f": 13.015
+    },
+    {
+     "p": "de",
+     "i": 13.028,
+     "f": 13.119
+    },
+    {
+     "p": "metros",
+     "i": 13.132,
+     "f": 13.51
+    },
+    {
+     "p": "cúbicos",
+     "i": 13.522,
+     "f": 14.017
+    },
+    {
+     "p": "para",
+     "i": 14.03,
+     "f": 14.187
+    },
+    {
+     "p": "erguer",
+     "i": 14.2,
+     "f": 14.486
+    },
+    {
+     "p": "uma",
+     "i": 14.499,
+     "f": 14.629
+    },
+    {
+     "p": "barragem",
+     "i": 14.642,
+     "f": 15.215
+    },
+    {
+     "p": "de",
+     "i": 15.228,
+     "f": 15.358
+    },
+    {
+     "p": "cento",
+     "i": 15.371,
+     "f": 15.775
+    },
+    {
+     "p": "e",
+     "i": 15.788,
+     "f": 15.801
+    },
+    {
+     "p": "noventa",
+     "i": 15.814,
+     "f": 16.153
+    },
+    {
+     "p": "e",
+     "i": 16.166,
+     "f": 16.192
+    },
+    {
+     "p": "seis",
+     "i": 16.205,
+     "f": 16.439
+    },
+    {
+     "p": "metros",
+     "i": 16.452,
+     "f": 16.869
+    },
+    {
+     "p": "de",
+     "i": 16.882,
+     "f": 16.947
+    },
+    {
+     "p": "altura",
+     "i": 16.96,
+     "f": 17.416
+    },
+    {
+     "p": "E",
+     "i": 17.766,
+     "f": 17.857
+    },
+    {
+     "p": "repare",
+     "i": 17.87,
+     "f": 18.287
+    },
+    {
+     "p": "na",
+     "i": 18.3,
+     "f": 18.43
+    },
+    {
+     "p": "ordem",
+     "i": 18.443,
+     "f": 18.847
+    },
+    {
+     "p": "tudo",
+     "i": 19.146,
+     "f": 19.472
+    },
+    {
+     "p": "isso",
+     "i": 19.485,
+     "f": 19.745
+    },
+    {
+     "p": "acontece",
+     "i": 19.758,
+     "f": 20.279
+    },
+    {
+     "p": "bloco",
+     "i": 20.292,
+     "f": 20.631
+    },
+    {
+     "p": "a",
+     "i": 20.644,
+     "f": 20.683
+    },
+    {
+     "p": "bloco",
+     "i": 20.696,
+     "f": 21.152
+    },
+    {
+     "p": "enquanto",
+     "i": 21.425,
+     "f": 21.855
+    },
+    {
+     "p": "o",
+     "i": 21.868,
+     "f": 21.894
+    },
+    {
+     "p": "rio",
+     "i": 21.907,
+     "f": 22.154
+    },
+    {
+     "p": "corre",
+     "i": 22.167,
+     "f": 22.506
+    },
+    {
+     "p": "ao",
+     "i": 22.519,
+     "f": 22.61
+    },
+    {
+     "p": "lado",
+     "i": 22.623,
+     "f": 23.013
+    },
+    {
+     "p": "pelo",
+     "i": 23.222,
+     "f": 23.443
+    },
+    {
+     "p": "canal.",
+     "i": 23.456,
+     "f": 23.899
+    },
+    {
+     "p": "A",
+     "i": 24.23,
+     "f": 24.321
+    },
+    {
+     "p": "barragem",
+     "i": 24.334,
+     "f": 24.868
+    },
+    {
+     "p": "sobe",
+     "i": 24.881,
+     "f": 25.35
+    },
+    {
+     "p": "e",
+     "i": 25.636,
+     "f": 25.74
+    },
+    {
+     "p": "o",
+     "i": 25.754,
+     "f": 25.806
+    },
+    {
+     "p": "rio",
+     "i": 25.819,
+     "f": 26.066
+    },
+    {
+     "p": "nem",
+     "i": 26.079,
+     "f": 26.313
+    },
+    {
+     "p": "precisa",
+     "i": 26.326,
+     "f": 26.795
+    },
+    {
+     "p": "saber",
+     "i": 26.808,
+     "f": 27.199
+    }
+   ]
+  },
+  "enchimento": {
+   "hash": "b575c5a9f2",
+   "texto": "E então chega o dia que muda a paisagem. Com a barragem pronta, restava fechar o canal que o rio vinha usando. Em outubro de mil novecentos e oitenta e dois, as comportas foram baixadas. Sem saída, a água subiu. Em cerca de catorze dias, o reservatório estava formado, com mil trezentos e cinquenta quilômetros quadrados. Foi o contrário do começo: o rio foi tirado do caminho para a obra existir, e depois foi devolvido a ela para a obra funcionar.",
+   "audio": "audio/enchimento-b575c5a9f2.mp3",
+   "duracao": 29.727,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.18
+    },
+    {
+     "p": "então",
+     "i": 0.193,
+     "f": 0.623
+    },
+    {
+     "p": "chega",
+     "i": 0.636,
+     "f": 0.935
+    },
+    {
+     "p": "o",
+     "i": 0.948,
+     "f": 0.988
+    },
+    {
+     "p": "dia",
+     "i": 1.001,
+     "f": 1.274
+    },
+    {
+     "p": "que",
+     "i": 1.287,
+     "f": 1.417
+    },
+    {
+     "p": "muda",
+     "i": 1.43,
+     "f": 1.782
+    },
+    {
+     "p": "a",
+     "i": 1.795,
+     "f": 1.834
+    },
+    {
+     "p": "paisagem",
+     "i": 1.847,
+     "f": 2.511
+    },
+    {
+     "p": "Com",
+     "i": 2.846,
+     "f": 3.054
+    },
+    {
+     "p": "a",
+     "i": 3.067,
+     "f": 3.093
+    },
+    {
+     "p": "barragem",
+     "i": 3.106,
+     "f": 3.653
+    },
+    {
+     "p": "pronta",
+     "i": 3.666,
+     "f": 4.044
+    },
+    {
+     "p": "restava",
+     "i": 4.383,
+     "f": 4.838
+    },
+    {
+     "p": "fechar",
+     "i": 4.851,
+     "f": 5.229
+    },
+    {
+     "p": "o",
+     "i": 5.242,
+     "f": 5.281
+    },
+    {
+     "p": "canal",
+     "i": 5.294,
+     "f": 5.698
+    },
+    {
+     "p": "que",
+     "i": 5.711,
+     "f": 5.828
+    },
+    {
+     "p": "o",
+     "i": 5.841,
+     "f": 5.893
+    },
+    {
+     "p": "rio",
+     "i": 5.906,
+     "f": 6.179
+    },
+    {
+     "p": "vinha",
+     "i": 6.192,
+     "f": 6.505
+    },
+    {
+     "p": "usando",
+     "i": 6.518,
+     "f": 6.974
+    },
+    {
+     "p": "Em",
+     "i": 7.318,
+     "f": 7.5
+    },
+    {
+     "p": "outubro",
+     "i": 7.513,
+     "f": 8.021
+    },
+    {
+     "p": "de",
+     "i": 8.034,
+     "f": 8.138
+    },
+    {
+     "p": "mil",
+     "i": 8.151,
+     "f": 8.282
+    },
+    {
+     "p": "novecentos",
+     "i": 8.295,
+     "f": 8.907
+    },
+    {
+     "p": "e",
+     "i": 8.92,
+     "f": 9.011
+    },
+    {
+     "p": "oitenta",
+     "i": 9.024,
+     "f": 9.336
+    },
+    {
+     "p": "e",
+     "i": 9.349,
+     "f": 9.401
+    },
+    {
+     "p": "dois",
+     "i": 9.414,
+     "f": 9.753
+    },
+    {
+     "p": "as",
+     "i": 10.065,
+     "f": 10.196
+    },
+    {
+     "p": "comportas",
+     "i": 10.209,
+     "f": 10.873
+    },
+    {
+     "p": "foram",
+     "i": 10.886,
+     "f": 11.094
+    },
+    {
+     "p": "baixadas",
+     "i": 11.107,
+     "f": 11.875
+    },
+    {
+     "p": "Sem",
+     "i": 12.222,
+     "f": 12.548
+    },
+    {
+     "p": "saída",
+     "i": 12.561,
+     "f": 13.121
+    },
+    {
+     "p": "a",
+     "i": 13.29,
+     "f": 13.381
+    },
+    {
+     "p": "água",
+     "i": 13.394,
+     "f": 13.732
+    },
+    {
+     "p": "subiu",
+     "i": 13.746,
+     "f": 14.24
+    },
+    {
+     "p": "Em",
+     "i": 14.582,
+     "f": 14.751
+    },
+    {
+     "p": "cerca",
+     "i": 14.764,
+     "f": 15.155
+    },
+    {
+     "p": "de",
+     "i": 15.168,
+     "f": 15.246
+    },
+    {
+     "p": "catorze",
+     "i": 15.259,
+     "f": 15.793
+    },
+    {
+     "p": "dias",
+     "i": 15.806,
+     "f": 16.236
+    },
+    {
+     "p": "o",
+     "i": 16.548,
+     "f": 16.626
+    },
+    {
+     "p": "reservatório",
+     "i": 16.639,
+     "f": 17.356
+    },
+    {
+     "p": "estava",
+     "i": 17.369,
+     "f": 17.694
+    },
+    {
+     "p": "formado",
+     "i": 17.707,
+     "f": 18.28
+    },
+    {
+     "p": "com",
+     "i": 18.579,
+     "f": 18.736
+    },
+    {
+     "p": "mil",
+     "i": 18.749,
+     "f": 18.957
+    },
+    {
+     "p": "trezentos",
+     "i": 18.97,
+     "f": 19.504
+    },
+    {
+     "p": "e",
+     "i": 19.517,
+     "f": 19.634
+    },
+    {
+     "p": "cinquenta",
+     "i": 19.647,
+     "f": 20.129
+    },
+    {
+     "p": "quilômetros",
+     "i": 20.142,
+     "f": 20.754
+    },
+    {
+     "p": "quadrados",
+     "i": 20.767,
+     "f": 21.522
+    },
+    {
+     "p": "Foi",
+     "i": 21.862,
+     "f": 22.083
+    },
+    {
+     "p": "o",
+     "i": 22.096,
+     "f": 22.149
+    },
+    {
+     "p": "contrário",
+     "i": 22.162,
+     "f": 22.656
+    },
+    {
+     "p": "do",
+     "i": 22.669,
+     "f": 22.774
+    },
+    {
+     "p": "começo",
+     "i": 22.787,
+     "f": 23.32
+    },
+    {
+     "p": "o",
+     "i": 23.672,
+     "f": 23.763
+    },
+    {
+     "p": "rio",
+     "i": 23.776,
+     "f": 24.037
+    },
+    {
+     "p": "foi",
+     "i": 24.05,
+     "f": 24.232
+    },
+    {
+     "p": "tirado",
+     "i": 24.245,
+     "f": 24.609
+    },
+    {
+     "p": "do",
+     "i": 24.622,
+     "f": 24.753
+    },
+    {
+     "p": "caminho",
+     "i": 24.766,
+     "f": 25.182
+    },
+    {
+     "p": "para",
+     "i": 25.195,
+     "f": 25.365
+    },
+    {
+     "p": "a",
+     "i": 25.378,
+     "f": 25.404
+    },
+    {
+     "p": "obra",
+     "i": 25.417,
+     "f": 25.664
+    },
+    {
+     "p": "existir",
+     "i": 25.677,
+     "f": 26.146
+    },
+    {
+     "p": "e",
+     "i": 26.55,
+     "f": 26.589
+    },
+    {
+     "p": "depois",
+     "i": 26.602,
+     "f": 27.044
+    },
+    {
+     "p": "foi",
+     "i": 27.057,
+     "f": 27.24
+    },
+    {
+     "p": "devolvido",
+     "i": 27.253,
+     "f": 27.8
+    },
+    {
+     "p": "a",
+     "i": 27.813,
+     "f": 27.878
+    },
+    {
+     "p": "ela",
+     "i": 27.891,
+     "f": 28.138
+    },
+    {
+     "p": "para",
+     "i": 28.151,
+     "f": 28.32
+    },
+    {
+     "p": "a",
+     "i": 28.333,
+     "f": 28.373
+    },
+    {
+     "p": "obra",
+     "i": 28.386,
+     "f": 28.698
+    },
+    {
+     "p": "funcionar",
+     "i": 28.711,
+     "f": 29.297
+    }
+   ]
+  },
+  "linha-do-tempo": {
+   "hash": "57d72f6502",
+   "texto": "Juntando tudo, a ordem é esta. Primeiro, o canal de desvio. Depois, a ensecadeira que abre o caminho para o rio. Em seguida, as ensecadeiras que secam o leito antigo. Então a fundação, o concreto em blocos, e por último o fechamento das comportas para encher o reservatório. Em Itaipu, as fases da obra seguem exatamente essa lógica: canal e ensecadeiras primeiro, barragem principal depois, formação do lago no fim. Quem vê a usina pronta enxerga só a última página dessa história.",
+   "audio": "audio/linha-do-tempo-57d72f6502.mp3",
+   "duracao": 32.836,
+   "palavras": [
+    {
+     "p": "Juntando",
+     "i": 0.102,
+     "f": 0.727
+    },
+    {
+     "p": "tudo",
+     "i": 0.74,
+     "f": 1.144
+    },
+    {
+     "p": "a",
+     "i": 1.339,
+     "f": 1.443
+    },
+    {
+     "p": "ordem",
+     "i": 1.456,
+     "f": 1.886
+    },
+    {
+     "p": "é",
+     "i": 1.899,
+     "f": 1.951
+    },
+    {
+     "p": "esta",
+     "i": 1.964,
+     "f": 2.368
+    },
+    {
+     "p": "Primeiro",
+     "i": 2.702,
+     "f": 3.21
+    },
+    {
+     "p": "o",
+     "i": 3.496,
+     "f": 3.575
+    },
+    {
+     "p": "canal",
+     "i": 3.588,
+     "f": 4.017
+    },
+    {
+     "p": "de",
+     "i": 4.03,
+     "f": 4.121
+    },
+    {
+     "p": "desvio",
+     "i": 4.134,
+     "f": 4.694
+    },
+    {
+     "p": "Depois",
+     "i": 5.038,
+     "f": 5.689
+    },
+    {
+     "p": "a",
+     "i": 5.806,
+     "f": 5.871
+    },
+    {
+     "p": "ensecadeira",
+     "i": 5.884,
+     "f": 6.653
+    },
+    {
+     "p": "que",
+     "i": 6.666,
+     "f": 6.848
+    },
+    {
+     "p": "abre",
+     "i": 6.861,
+     "f": 7.147
+    },
+    {
+     "p": "o",
+     "i": 7.16,
+     "f": 7.187
+    },
+    {
+     "p": "caminho",
+     "i": 7.2,
+     "f": 7.629
+    },
+    {
+     "p": "para",
+     "i": 7.642,
+     "f": 7.825
+    },
+    {
+     "p": "o",
+     "i": 7.838,
+     "f": 7.864
+    },
+    {
+     "p": "rio",
+     "i": 7.877,
+     "f": 8.15
+    },
+    {
+     "p": "Em",
+     "i": 8.502,
+     "f": 8.645
+    },
+    {
+     "p": "seguida",
+     "i": 8.658,
+     "f": 9.218
+    },
+    {
+     "p": "as",
+     "i": 9.414,
+     "f": 9.492
+    },
+    {
+     "p": "ensecadeiras",
+     "i": 9.505,
+     "f": 10.312
+    },
+    {
+     "p": "que",
+     "i": 10.325,
+     "f": 10.442
+    },
+    {
+     "p": "secam",
+     "i": 10.455,
+     "f": 10.846
+    },
+    {
+     "p": "o",
+     "i": 10.859,
+     "f": 10.885
+    },
+    {
+     "p": "leito",
+     "i": 10.898,
+     "f": 11.197
+    },
+    {
+     "p": "antigo",
+     "i": 11.21,
+     "f": 11.692
+    },
+    {
+     "p": "Então",
+     "i": 12.038,
+     "f": 12.52
+    },
+    {
+     "p": "a",
+     "i": 12.533,
+     "f": 12.585
+    },
+    {
+     "p": "fundação",
+     "i": 12.598,
+     "f": 13.184
+    },
+    {
+     "p": "o",
+     "i": 13.483,
+     "f": 13.535
+    },
+    {
+     "p": "concreto",
+     "i": 13.549,
+     "f": 14.056
+    },
+    {
+     "p": "em",
+     "i": 14.069,
+     "f": 14.134
+    },
+    {
+     "p": "blocos",
+     "i": 14.147,
+     "f": 14.642
+    },
+    {
+     "p": "e",
+     "i": 14.968,
+     "f": 15.046
+    },
+    {
+     "p": "por",
+     "i": 15.059,
+     "f": 15.254
+    },
+    {
+     "p": "último",
+     "i": 15.267,
+     "f": 15.593
+    },
+    {
+     "p": "o",
+     "i": 15.606,
+     "f": 15.632
+    },
+    {
+     "p": "fechamento",
+     "i": 15.645,
+     "f": 16.257
+    },
+    {
+     "p": "das",
+     "i": 16.27,
+     "f": 16.413
+    },
+    {
+     "p": "comportas",
+     "i": 16.426,
+     "f": 17.038
+    },
+    {
+     "p": "para",
+     "i": 17.051,
+     "f": 17.207
+    },
+    {
+     "p": "encher",
+     "i": 17.22,
+     "f": 17.559
+    },
+    {
+     "p": "o",
+     "i": 17.572,
+     "f": 17.598
+    },
+    {
+     "p": "reservatório",
+     "i": 17.611,
+     "f": 18.405
+    },
+    {
+     "p": "Em",
+     "i": 18.742,
+     "f": 18.911
+    },
+    {
+     "p": "Itaipu",
+     "i": 18.924,
+     "f": 19.51
+    },
+    {
+     "p": "as",
+     "i": 19.771,
+     "f": 19.953
+    },
+    {
+     "p": "fases",
+     "i": 19.966,
+     "f": 20.331
+    },
+    {
+     "p": "da",
+     "i": 20.344,
+     "f": 20.448
+    },
+    {
+     "p": "obra",
+     "i": 20.461,
+     "f": 20.747
+    },
+    {
+     "p": "seguem",
+     "i": 20.76,
+     "f": 21.177
+    },
+    {
+     "p": "exatamente",
+     "i": 21.19,
+     "f": 21.802
+    },
+    {
+     "p": "essa",
+     "i": 21.815,
+     "f": 22.036
+    },
+    {
+     "p": "lógica",
+     "i": 22.049,
+     "f": 22.557
+    },
+    {
+     "p": "canal",
+     "i": 22.87,
+     "f": 23.325
+    },
+    {
+     "p": "e",
+     "i": 23.338,
+     "f": 23.364
+    },
+    {
+     "p": "ensecadeiras",
+     "i": 23.377,
+     "f": 24.081
+    },
+    {
+     "p": "primeiro",
+     "i": 24.094,
+     "f": 24.536
+    },
+    {
+     "p": "barragem",
+     "i": 24.823,
+     "f": 25.435
+    },
+    {
+     "p": "principal",
+     "i": 25.448,
+     "f": 25.995
+    },
+    {
+     "p": "depois",
+     "i": 26.008,
+     "f": 26.529
+    },
+    {
+     "p": "formação",
+     "i": 26.802,
+     "f": 27.401
+    },
+    {
+     "p": "do",
+     "i": 27.414,
+     "f": 27.518
+    },
+    {
+     "p": "lago",
+     "i": 27.531,
+     "f": 27.87
+    },
+    {
+     "p": "no",
+     "i": 27.883,
+     "f": 28
+    },
+    {
+     "p": "fim",
+     "i": 28.013,
+     "f": 28.312
+    },
+    {
+     "p": "Quem",
+     "i": 28.662,
+     "f": 28.949
+    },
+    {
+     "p": "vê",
+     "i": 28.962,
+     "f": 29.118
+    },
+    {
+     "p": "a",
+     "i": 29.131,
+     "f": 29.248
+    },
+    {
+     "p": "usina",
+     "i": 29.261,
+     "f": 29.639
+    },
+    {
+     "p": "pronta",
+     "i": 29.652,
+     "f": 29.99
+    },
+    {
+     "p": "enxerga",
+     "i": 30.003,
+     "f": 30.485
+    },
+    {
+     "p": "só",
+     "i": 30.498,
+     "f": 30.732
+    },
+    {
+     "p": "a",
+     "i": 30.745,
+     "f": 30.85
+    },
+    {
+     "p": "última",
+     "i": 30.863,
+     "f": 31.279
+    },
+    {
+     "p": "página",
+     "i": 31.292,
+     "f": 31.735
+    },
+    {
+     "p": "dessa",
+     "i": 31.748,
+     "f": 31.982
+    },
+    {
+     "p": "história",
+     "i": 31.995,
+     "f": 32.477
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "4d3069248d",
+   "texto": "Da próxima vez que você passar por uma barragem, procure o que não aparece. O canal que já foi rio, a ensecadeira que já foi explodida, o bloco que esfriou devagar no escuro. Uma grande obra de engenharia raramente vence a natureza de frente. Ela negocia com ela, uma etapa de cada vez. E o rio, no fim, continua sendo rio, só que agora com um caminho desenhado por quem aprendeu a esperar.",
+   "audio": "audio/fecho-4d3069248d.mp3",
+   "duracao": 25.731,
+   "palavras": [
+    {
+     "p": "Da",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "próxima",
+     "i": 0.31,
+     "f": 0.779
+    },
+    {
+     "p": "vez",
+     "i": 0.792,
+     "f": 1.066
+    },
+    {
+     "p": "que",
+     "i": 1.079,
+     "f": 1.17
+    },
+    {
+     "p": "você",
+     "i": 1.183,
+     "f": 1.43
+    },
+    {
+     "p": "passar",
+     "i": 1.443,
+     "f": 1.899
+    },
+    {
+     "p": "por",
+     "i": 1.912,
+     "f": 2.055
+    },
+    {
+     "p": "uma",
+     "i": 2.068,
+     "f": 2.212
+    },
+    {
+     "p": "barragem",
+     "i": 2.224,
+     "f": 2.797
+    },
+    {
+     "p": "procure",
+     "i": 3.045,
+     "f": 3.474
+    },
+    {
+     "p": "o",
+     "i": 3.487,
+     "f": 3.527
+    },
+    {
+     "p": "que",
+     "i": 3.54,
+     "f": 3.657
+    },
+    {
+     "p": "não",
+     "i": 3.67,
+     "f": 3.93
+    },
+    {
+     "p": "aparece",
+     "i": 3.943,
+     "f": 4.555
+    },
+    {
+     "p": "O",
+     "i": 4.886,
+     "f": 5.003
+    },
+    {
+     "p": "canal",
+     "i": 5.016,
+     "f": 5.433
+    },
+    {
+     "p": "que",
+     "i": 5.446,
+     "f": 5.55
+    },
+    {
+     "p": "já",
+     "i": 5.563,
+     "f": 5.706
+    },
+    {
+     "p": "foi",
+     "i": 5.719,
+     "f": 5.941
+    },
+    {
+     "p": "rio",
+     "i": 5.954,
+     "f": 6.279
+    },
+    {
+     "p": "a",
+     "i": 6.553,
+     "f": 6.631
+    },
+    {
+     "p": "ensecadeira",
+     "i": 6.644,
+     "f": 7.321
+    },
+    {
+     "p": "que",
+     "i": 7.334,
+     "f": 7.451
+    },
+    {
+     "p": "já",
+     "i": 7.464,
+     "f": 7.62
+    },
+    {
+     "p": "foi",
+     "i": 7.633,
+     "f": 7.803
+    },
+    {
+     "p": "explodida",
+     "i": 7.816,
+     "f": 8.48
+    },
+    {
+     "p": "o",
+     "i": 8.766,
+     "f": 8.883
+    },
+    {
+     "p": "bloco",
+     "i": 8.896,
+     "f": 9.352
+    },
+    {
+     "p": "que",
+     "i": 9.365,
+     "f": 9.456
+    },
+    {
+     "p": "esfriou",
+     "i": 9.469,
+     "f": 9.873
+    },
+    {
+     "p": "devagar",
+     "i": 9.886,
+     "f": 10.355
+    },
+    {
+     "p": "no",
+     "i": 10.368,
+     "f": 10.446
+    },
+    {
+     "p": "escuro",
+     "i": 10.459,
+     "f": 10.889
+    },
+    {
+     "p": "Uma",
+     "i": 11.23,
+     "f": 11.517
+    },
+    {
+     "p": "grande",
+     "i": 11.53,
+     "f": 11.933
+    },
+    {
+     "p": "obra",
+     "i": 11.946,
+     "f": 12.272
+    },
+    {
+     "p": "de",
+     "i": 12.285,
+     "f": 12.376
+    },
+    {
+     "p": "engenharia",
+     "i": 12.389,
+     "f": 12.936
+    },
+    {
+     "p": "raramente",
+     "i": 12.949,
+     "f": 13.587
+    },
+    {
+     "p": "vence",
+     "i": 13.6,
+     "f": 13.99
+    },
+    {
+     "p": "a",
+     "i": 14.004,
+     "f": 14.03
+    },
+    {
+     "p": "natureza",
+     "i": 14.043,
+     "f": 14.589
+    },
+    {
+     "p": "de",
+     "i": 14.602,
+     "f": 14.72
+    },
+    {
+     "p": "frente",
+     "i": 14.733,
+     "f": 15.201
+    },
+    {
+     "p": "Ela",
+     "i": 15.534,
+     "f": 15.768
+    },
+    {
+     "p": "negocia",
+     "i": 15.781,
+     "f": 16.289
+    },
+    {
+     "p": "com",
+     "i": 16.302,
+     "f": 16.524
+    },
+    {
+     "p": "ela",
+     "i": 16.537,
+     "f": 16.823
+    },
+    {
+     "p": "uma",
+     "i": 17.11,
+     "f": 17.227
+    },
+    {
+     "p": "etapa",
+     "i": 17.24,
+     "f": 17.67
+    },
+    {
+     "p": "de",
+     "i": 17.683,
+     "f": 17.787
+    },
+    {
+     "p": "cada",
+     "i": 17.8,
+     "f": 18.099
+    },
+    {
+     "p": "vez",
+     "i": 18.112,
+     "f": 18.529
+    },
+    {
+     "p": "E",
+     "i": 18.878,
+     "f": 19.034
+    },
+    {
+     "p": "o",
+     "i": 19.047,
+     "f": 19.112
+    },
+    {
+     "p": "rio",
+     "i": 19.125,
+     "f": 19.399
+    },
+    {
+     "p": "no",
+     "i": 19.711,
+     "f": 19.842
+    },
+    {
+     "p": "fim",
+     "i": 19.855,
+     "f": 20.154
+    },
+    {
+     "p": "continua",
+     "i": 20.428,
+     "f": 20.974
+    },
+    {
+     "p": "sendo",
+     "i": 20.987,
+     "f": 21.326
+    },
+    {
+     "p": "rio",
+     "i": 21.339,
+     "f": 21.599
+    },
+    {
+     "p": "só",
+     "i": 21.912,
+     "f": 22.12
+    },
+    {
+     "p": "que",
+     "i": 22.133,
+     "f": 22.224
+    },
+    {
+     "p": "agora",
+     "i": 22.237,
+     "f": 22.641
+    },
+    {
+     "p": "com",
+     "i": 22.654,
+     "f": 22.797
+    },
+    {
+     "p": "um",
+     "i": 22.81,
+     "f": 22.875
+    },
+    {
+     "p": "caminho",
+     "i": 22.888,
+     "f": 23.227
+    },
+    {
+     "p": "desenhado",
+     "i": 23.24,
+     "f": 23.813
+    },
+    {
+     "p": "por",
+     "i": 23.826,
+     "f": 24.008
+    },
+    {
+     "p": "quem",
+     "i": 24.021,
+     "f": 24.204
+    },
+    {
+     "p": "aprendeu",
+     "i": 24.217,
+     "f": 24.724
+    },
+    {
+     "p": "a",
+     "i": 24.737,
+     "f": 24.763
+    },
+    {
+     "p": "esperar",
+     "i": 24.777,
+     "f": 25.219
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "rio-parana": {
+   "arquivo": "imagens/rio-parana-dc864a06.jpg",
+   "rotulo": "Rio Paraná",
+   "wiki": "Rio Paraná",
+   "commons": "Paraná River Brazil Itaipu upstream",
+   "autor": "Dalton Scavassa",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Foz_do_Rio_Igua%C3%A7u.jpg",
+   "titulo": "File:Foz do Rio Iguaçu.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 64.6,
+    "y": 56.6
+   },
+   "borrada": "imagens/rio-parana-dc864a06-b.jpg"
+  },
+  "itaipu-aerea": {
+   "arquivo": "imagens/itaipu-aerea-c37c74f7.jpg",
+   "rotulo": "Barragem de Itaipu",
+   "wiki": "Itaipu Binacional",
+   "commons": "Itaipu Dam aerial view",
+   "autor": "Jonas de Carvalho",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Itaipu_geral.jpg",
+   "titulo": "File:Itaipu geral.jpg",
+   "largura": 1920,
+   "altura": 1220,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 55.2
+   },
+   "borrada": "imagens/itaipu-aerea-c37c74f7-b.jpg"
+  },
+  "itaipu-vertedouro": {
+   "arquivo": "imagens/itaipu-vertedouro-4f3dfe79.jpg",
+   "rotulo": "Vertedouro de Itaipu",
+   "commons": "Itaipu Dam spillway",
+   "autor": "Deni Williams from São Paulo, Brasil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_-_Vertedouro_com_as_comportas_fechadas_-_The_spillway_with_the_gates_closed_(16740942683).jpg",
+   "titulo": "File:Usina Hidroelétrica Itaipu Binacional - Itaipu Dam - Vertedouro com as comportas fechadas - The spillway with the gates closed (16740942683).jpg",
+   "largura": 1920,
+   "altura": 1276,
+   "rostos": 0,
+   "foco": {
+    "x": 48.7,
+    "y": 57.5
+   },
+   "borrada": "imagens/itaipu-vertedouro-4f3dfe79-b.jpg"
+  },
+  "itaipu-obra-1980": {
+   "arquivo": "",
+   "rotulo": "Obras de Itaipu",
+   "commons": "Itaipu Dam construction 1980",
+   "semFoto": true
+  },
+  "itaipu-mapa": {
+   "arquivo": "",
+   "rotulo": "Localização de Itaipu",
+   "commons": "Itaipu Dam location map Brazil Paraguay",
+   "semFoto": true
+  },
+  "itaipu-reservatorio": {
+   "arquivo": "imagens/itaipu-reservatorio-d604a12b.jpg",
+   "rotulo": "Reservatório de Itaipu",
+   "commons": "Itaipu reservoir lake Paraná",
+   "autor": "Deni Williams from São Paulo, Brasil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_-_Lago_Itaip%C3%BA_-_Itaipu_Lake_(17174674039).jpg",
+   "titulo": "File:Usina Hidroelétrica Itaipu Binacional - Itaipu Dam - Lago Itaipú - Itaipu Lake (17174674039).jpg",
+   "largura": 1920,
+   "altura": 1276,
+   "rostos": 0,
+   "foco": {
+    "x": 49.7,
+    "y": 58.0
+   },
+   "borrada": "imagens/itaipu-reservatorio-d604a12b-b.jpg"
+  },
+  "hoover-aerea": {
+   "arquivo": "imagens/hoover-aerea-af774161.jpg",
+   "rotulo": "Represa Hoover",
+   "wiki": "Represa Hoover",
+   "commons": "Hoover Dam aerial view",
+   "autor": "P, Hughes",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Boulder_Dam_-_A.jpg",
+   "titulo": "File:Boulder Dam - A.jpg",
+   "largura": 1920,
+   "altura": 1536,
+   "rostos": 0,
+   "foco": {
+    "x": 65.4,
+    "y": 58.2
+   },
+   "borrada": "imagens/hoover-aerea-af774161-b.jpg"
+  },
+  "hoover-lago-mead": {
+   "arquivo": "imagens/hoover-lago-mead-7cc8337c.jpg",
+   "rotulo": "Lago Mead",
+   "wiki": "Lago Mead",
+   "commons": "Lake Mead Hoover Dam",
+   "autor": "Christian David",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lake_Mead_and_its_bathtub_ring_upstream_of_Hoover_Dam,_Black_Canyon,_Arizona%E2%80%93Nevada.jpg",
+   "titulo": "File:Lake Mead and its bathtub ring upstream of Hoover Dam, Black Canyon, Arizona–Nevada.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 43.6,
+    "y": 45.5
+   },
+   "borrada": "imagens/hoover-lago-mead-7cc8337c-b.jpg"
+  },
+  "black-canyon": {
+   "arquivo": "imagens/black-canyon-bf6db1ef.jpg",
+   "rotulo": "Black Canyon",
+   "commons": "Black Canyon Colorado River Hoover Dam site",
+   "autor": "Northern_Punkie",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/represa-de-hoover-nevada-arizona-3704123/",
+   "titulo": "represa de hoover, nevada, arizona, montanhas, construção, verão, céu, hidroelétrico, arquitetura, ponte, energia, panorama, aspirador, marco, agua, barragem, concreto, eletricidade, reservatório, natureza, lago, fora, potência, famoso",
+   "largura": 1280,
+   "altura": 850,
+   "rostos": 2,
+   "foco": {
+    "x": 33.7,
+    "y": 44.7
+   },
+   "borrada": "imagens/black-canyon-bf6db1ef-b.jpg"
+  },
+  "rio-colorado": {
+   "arquivo": "imagens/rio-colorado-ffd53b82.jpg",
+   "rotulo": "Rio Colorado",
+   "wiki": "Rio Colorado (Pacífico)",
+   "commons": "Colorado River below Hoover Dam",
+   "autor": "Charles O'Rear",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:COLORADO_RIVER_BELOW_HOOVER_DAM_-_NARA_-_549021.jpg",
+   "titulo": "File:COLORADO RIVER BELOW HOOVER DAM - NARA - 549021.jpg",
+   "largura": 1920,
+   "altura": 2835,
+   "rostos": 0,
+   "foco": {
+    "x": 36.8,
+    "y": 63.4
+   },
+   "borrada": "imagens/rio-colorado-ffd53b82-b.jpg"
+  },
+  "canal-itaipu": {
+   "arquivo": "",
+   "rotulo": "Canal de desvio de Itaipu",
+   "commons": "Itaipu diversion channel",
+   "semFoto": true
+  },
+  "itaipu-canteiro-1977": {
+   "arquivo": "",
+   "rotulo": "Canteiro de Itaipu, 1977",
+   "commons": "Itaipu Dam construction site 1977",
+   "semFoto": true
+  },
+  "itaipu-obras-1976": {
+   "arquivo": "",
+   "rotulo": "Obras de Itaipu, 1976",
+   "commons": "Itaipu Binacional obras 1976",
+   "semFoto": true
+  },
+  "itaipu-desvio-1978": {
+   "arquivo": "",
+   "rotulo": "Desvio do Paraná, 1978",
+   "commons": "Itaipu Paraná River diversion 1978",
+   "semFoto": true
+  },
+  "itaipu-em-obras": {
+   "arquivo": "",
+   "rotulo": "Itaipu em construção",
+   "commons": "Itaipu Dam under construction",
+   "semFoto": true
+  },
+  "ensecadeira-conceito": {
+   "arquivo": "imagens/ensecadeira-conceito-fd13f676.jpg",
+   "rotulo": "Ensecadeira",
+   "wiki": "Ensecadeira",
+   "commons": "cofferdam river dam construction",
+   "autor": "Pierce, C.C. (Charles C.), 1861-1946",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_unsuccessful_Coffer_Dam_under_construction_at_the_Lower_Intake_of_the_Colorado_River,_ca.1903_(CHS-4269).jpg",
+   "titulo": "File:The unsuccessful Coffer Dam under construction at the Lower Intake of the Colorado River, ca.1903 (CHS-4269).jpg",
+   "largura": 1920,
+   "altura": 1472,
+   "rostos": 0,
+   "foco": {
+    "x": 46.6,
+    "y": 59.1
+   },
+   "borrada": "imagens/ensecadeira-conceito-fd13f676-b.jpg"
+  },
+  "itaipu-explosao-1978": {
+   "arquivo": "",
+   "rotulo": "Explosão da ensecadeira, 1978",
+   "commons": "Itaipu explosão ensecadeira 1978",
+   "semFoto": true
+  },
+  "itaipu-dinamite": {
+   "arquivo": "",
+   "rotulo": "Escavação em rocha",
+   "commons": "Itaipu Dam rock blasting construction",
+   "semFoto": true
+  },
+  "itaipu-binacional": {
+   "arquivo": "",
+   "rotulo": "Itaipu Binacional",
+   "wiki": "Itaipu Binacional",
+   "commons": "Itaipu Dam construction workers",
+   "semFoto": true
+  },
+  "itaipu-obras-1979": {
+   "arquivo": "",
+   "rotulo": "Obras de Itaipu, 1979",
+   "commons": "Itaipu Dam construction 1979",
+   "semFoto": true
+  },
+  "cofferdam-conceito": {
+   "arquivo": "",
+   "rotulo": "Ensecadeira isolando a obra",
+   "commons": "cofferdam dam construction river dry bed",
+   "semFoto": true
+  },
+  "ensecadeira-itaipu": {
+   "arquivo": "imagens/ensecadeira-itaipu-b3ea7d9f.jpg",
+   "rotulo": "Ensecadeira de Itaipu",
+   "commons": "Itaipu cofferdam",
+   "autor": "germaju",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/itaipu-foz-de-igua%C3%A7u-706612/",
+   "titulo": "itaipu, foz de iguaçu, usina hidrelétrica, paisagem, usina, binacional, itaipu, itaipu, itaipu, itaipu, itaipu",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 58.9,
+    "y": 44.7
+   },
+   "borrada": "imagens/ensecadeira-itaipu-b3ea7d9f-b.jpg"
+  },
+  "itaipu-leito-seco": {
+   "arquivo": "",
+   "rotulo": "Leito seco em Itaipu",
+   "commons": "Itaipu Dam river bed dry construction",
+   "semFoto": true
+  },
+  "paraguai-parana-obra": {
+   "arquivo": "imagens/paraguai-parana-obra-72c919ec.jpg",
+   "rotulo": "Obra no Rio Paraná",
+   "commons": "Paraná River dam construction Paraguay Brazil",
+   "autor": "Deni Williams from São Paulo, Brasil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_(17174775069).jpg",
+   "titulo": "File:Usina Hidroelétrica Itaipu Binacional - Itaipu Dam (17174775069).jpg",
+   "largura": 1920,
+   "altura": 1276,
+   "rostos": 0,
+   "foco": {
+    "x": 32.7,
+    "y": 75.6
+   },
+   "borrada": "imagens/paraguai-parana-obra-72c919ec-b.jpg"
+  },
+  "itaipu-1979": {
+   "arquivo": "",
+   "rotulo": "Itaipu em 1979",
+   "commons": "Itaipu Dam 1979 construction",
+   "semFoto": true
+  },
+  "hoover-tunel": {
+   "arquivo": "imagens/hoover-tunel-3b79d4c4.jpg",
+   "rotulo": "Túnel de desvio da Hoover",
+   "commons": "Hoover Dam diversion tunnel construction 1932",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Looking_upstream_into_Black_Canyon_toward_Hoover_Dam_site_showing_outlet_portals_of_four_diversion_tunnels_and..._-_NARA_-_293789.jpg",
+   "titulo": "File:Looking upstream into Black Canyon toward Hoover Dam site showing outlet portals of four diversion tunnels and... - NARA - 293789.jpg",
+   "largura": 1920,
+   "altura": 1346,
+   "rostos": 0,
+   "foco": {
+    "x": 69.9,
+    "y": 35.4
+   },
+   "borrada": "imagens/hoover-tunel-3b79d4c4-b.jpg"
+  },
+  "hoover-ensecadeira-1933": {
+   "arquivo": "imagens/hoover-ensecadeira-1933-70888c17.jpg",
+   "rotulo": "Ensecadeira da Hoover, 1933",
+   "commons": "Hoover Dam cofferdam 1933",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Looking_upstream_at_Hoover_damsite_toward_upper_cofferdam_across_excavation_for_power_house_location_-_NARA_-_293812.jpg",
+   "titulo": "File:Looking upstream at Hoover damsite toward upper cofferdam across excavation for power house location - NARA - 293812.jpg",
+   "largura": 1920,
+   "altura": 1341,
+   "rostos": 0,
+   "foco": {
+    "x": 69.0,
+    "y": 58.8
+   },
+   "borrada": "imagens/hoover-ensecadeira-1933-70888c17-b.jpg"
+  },
+  "hoover-black-canyon-1933": {
+   "arquivo": "imagens/hoover-black-canyon-1933-1be16d3d.jpg",
+   "rotulo": "Obras da Hoover, 1933",
+   "commons": "Hoover Dam Black Canyon construction 1933",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Looking_upstream_into_Black_Canyon_toward_Hoover_damsite_showing_four_diversion_tunnel_outlets_-_NARA_-_293813.jpg",
+   "titulo": "File:Looking upstream into Black Canyon toward Hoover damsite showing four diversion tunnel outlets - NARA - 293813.jpg",
+   "largura": 1920,
+   "altura": 1352,
+   "rostos": 0,
+   "foco": {
+    "x": 30.1,
+    "y": 53.6
+   },
+   "borrada": "imagens/hoover-black-canyon-1933-1be16d3d-b.jpg"
+  },
+  "hoover-tunel-nevada": {
+   "arquivo": "imagens/hoover-tunel-nevada-70effec4.jpg",
+   "rotulo": "Túnel de desvio, Nevada",
+   "commons": "Hoover Dam diversion tunnel Nevada Arizona",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Looking_down_on_the_inlet_portals_of_Arizona_diversion_tunnels_Nos._3_and_4_from_near_the_top_of_the_Nevada_canyon..._-_NARA_-_293857.jpg",
+   "titulo": "File:Looking down on the inlet portals of Arizona diversion tunnels Nos. 3 and 4 from near the top of the Nevada canyon... - NARA - 293857.jpg",
+   "largura": 1920,
+   "altura": 2760,
+   "rostos": 1,
+   "foco": {
+    "x": 87.9,
+    "y": 6.0
+   },
+   "borrada": "imagens/hoover-tunel-nevada-70effec4-b.jpg"
+  },
+  "hoover-operarios-1934": {
+   "arquivo": "imagens/hoover-operarios-1934-5b19bfd5.jpg",
+   "rotulo": "Operários da Hoover, 1934",
+   "commons": "Hoover Dam construction workers 1934",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22Negroes_employed_as_drillers_on_the_construction_of_Hoover_Dam.%22_-_NARA_-_293747.jpg",
+   "titulo": "File:\"Negroes employed as drillers on the construction of Hoover Dam.\" - NARA - 293747.jpg",
+   "largura": 1920,
+   "altura": 1350,
+   "rostos": 1,
+   "foco": {
+    "x": 71.1,
+    "y": 76.8
+   },
+   "borrada": "imagens/hoover-operarios-1934-5b19bfd5-b.jpg"
+  },
+  "itaipu-fundacao": {
+   "arquivo": "",
+   "rotulo": "Fundação de Itaipu",
+   "commons": "Itaipu Dam foundation excavation",
+   "semFoto": true
+  },
+  "hoover-escavacao-1933": {
+   "arquivo": "imagens/hoover-escavacao-1933-8e56d963.jpg",
+   "rotulo": "Escavação da Hoover, 1933",
+   "commons": "Hoover Dam foundation excavation 1933",
+   "autor": "Unknown authorUnknown author or not provided",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Excavation_operations_in_middle_gorge_of_foundation_excavation_-_NARA_-_293840.jpg",
+   "titulo": "File:Excavation operations in middle gorge of foundation excavation - NARA - 293840.jpg",
+   "largura": 1920,
+   "altura": 1348,
+   "rostos": 0,
+   "foco": {
+    "x": 40.8,
+    "y": 41.2
+   },
+   "borrada": "imagens/hoover-escavacao-1933-8e56d963-b.jpg"
+  },
+  "hoover-injecao": {
+   "arquivo": "",
+   "rotulo": "Injeção de cimento na fundação",
+   "commons": "Hoover Dam grouting foundation",
+   "semFoto": true
+  },
+  "itaipu-concretagem-1979": {
+   "arquivo": "",
+   "rotulo": "Concretagem em Itaipu, 1979",
+   "commons": "Itaipu Dam concrete pouring 1979",
+   "semFoto": true
+  },
+  "itaipu-obras-1980b": {
+   "arquivo": "",
+   "rotulo": "Obras de Itaipu, 1981",
+   "commons": "Itaipu Dam construction 1981",
+   "semFoto": true
+  },
+  "hoover-balde-concreto": {
+   "arquivo": "imagens/hoover-balde-concreto-c60907a4.jpg",
+   "rotulo": "Balde de concreto na Hoover",
+   "commons": "Hoover Dam concrete bucket pouring 1934",
+   "autor": "Bureau of Reclamation photographer",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pourdam.jpg",
+   "titulo": "File:Pourdam.jpg",
+   "largura": 1280,
+   "altura": 1600,
+   "rostos": 0,
+   "foco": {
+    "x": 54.3,
+    "y": 44.6
+   },
+   "borrada": "imagens/hoover-balde-concreto-c60907a4-b.jpg"
+  },
+  "hoover-formas-1934": {
+   "arquivo": "",
+   "rotulo": "Formas de concreto, 1934",
+   "commons": "Hoover Dam concrete forms blocks 1934",
+   "semFoto": true
+  },
+  "hoover-tubos-resfriamento": {
+   "arquivo": "",
+   "rotulo": "Tubos de resfriamento",
+   "commons": "Hoover Dam cooling pipes concrete",
+   "semFoto": true
+  },
+  "hoover-blocos": {
+   "arquivo": "",
+   "rotulo": "Blocos de concreto da Hoover",
+   "commons": "Hoover Dam concrete blocks columns construction",
+   "semFoto": true
+  },
+  "hoover-concreto-1935": {
+   "arquivo": "",
+   "rotulo": "Hoover, 1935",
+   "commons": "Hoover Dam 1935 completed concrete",
+   "semFoto": true
+  },
+  "itaipu-concretagem": {
+   "arquivo": "",
+   "rotulo": "Concretagem em Itaipu",
+   "commons": "Itaipu concreto concretagem barragem",
+   "semFoto": true
+  },
+  "itaipu-contraforte": {
+   "arquivo": "",
+   "rotulo": "Contrafortes de Itaipu",
+   "commons": "Itaipu Dam buttress",
+   "semFoto": true
+  },
+  "itaipu-contraforte-oco": {
+   "arquivo": "",
+   "rotulo": "Seção da barragem de Itaipu",
+   "commons": "Itaipu Dam hollow gravity buttress section",
+   "semFoto": true
+  },
+  "itaipu-detalhe": {
+   "arquivo": "",
+   "rotulo": "Parede de concreto de Itaipu",
+   "commons": "Itaipu Dam detail concrete wall",
+   "semFoto": true
+  },
+  "itaipu-jusante": {
+   "arquivo": "",
+   "rotulo": "Itaipu vista de jusante",
+   "commons": "Itaipu Dam view downstream",
+   "semFoto": true
+  },
+  "itaipu-enchimento-1982": {
+   "arquivo": "",
+   "rotulo": "Enchimento do reservatório, 1982",
+   "commons": "Itaipu reservoir formation 1982",
+   "semFoto": true
+  },
+  "itaipu-vertedouro-aberto": {
+   "arquivo": "",
+   "rotulo": "Vertedouro aberto",
+   "commons": "Itaipu spillway open water flowing",
+   "semFoto": true
+  },
+  "itaipu-comportas": {
+   "arquivo": "",
+   "rotulo": "Comportas de Itaipu",
+   "commons": "Itaipu Dam gates",
+   "semFoto": true
+  },
+  "itaipu-1983": {
+   "arquivo": "",
+   "rotulo": "Itaipu em 1983",
+   "commons": "Itaipu Dam 1983",
+   "semFoto": true
+  },
+  "itaipu-lago-aerea": {
+   "arquivo": "",
+   "rotulo": "Lago de Itaipu",
+   "commons": "Itaipu lake aerial reservoir",
+   "semFoto": true
+  },
+  "itaipu-usina": {
+   "arquivo": "",
+   "rotulo": "Usina de Itaipu",
+   "commons": "Itaipu power station",
+   "semFoto": true
+  },
+  "itaipu-casa-de-forca": {
+   "arquivo": "imagens/itaipu-casa-de-forca-6ac1bf1f.jpg",
+   "rotulo": "Casa de força de Itaipu",
+   "commons": "Itaipu generator hall turbines",
+   "autor": "Martin St-Amant (S23678)",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Itaipu_D%C3%A9cembre_2007_-_Salle_des_G%C3%A9n%C3%A9rateurs.jpg",
+   "titulo": "File:Itaipu Décembre 2007 - Salle des Générateurs.jpg",
+   "largura": 1920,
+   "altura": 702,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 51.4
+   },
+   "borrada": "imagens/itaipu-casa-de-forca-6ac1bf1f-b.jpg"
+  },
+  "hoover-casa-de-forca": {
+   "arquivo": "imagens/hoover-casa-de-forca-283fbd7d.jpg",
+   "rotulo": "Casa de força da Hoover",
+   "commons": "Hoover Dam power plant generators",
+   "autor": "grunzibaer",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/usina-el%C3%A9trica-represa-hoover-2728059/",
+   "titulo": "usina elétrica, represa hoover, gerador, usina elétrica, gerador, gerador, gerador, gerador, gerador",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 56.1,
+    "y": 56.1
+   },
+   "borrada": "imagens/hoover-casa-de-forca-283fbd7d-b.jpg"
+  },
+  "lake-mead-panoramica": {
+   "arquivo": "imagens/lake-mead-panoramica-fa84a8a9.jpg",
+   "rotulo": "Lago Mead",
+   "commons": "Lake Mead panorama",
+   "autor": "12019",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/lago-mead-nevada-vista-a%C3%A9rea-404507/",
+   "titulo": "lago mead, nevada, vista aérea, panorama, cênica, agua, marco, destinos, natureza, fora, interior",
+   "largura": 1280,
+   "altura": 1033,
+   "rostos": 0,
+   "foco": {
+    "x": 77.1,
+    "y": 43.7
+   },
+   "borrada": "imagens/lake-mead-panoramica-fa84a8a9-b.jpg"
+  },
+  "itaipu-noite": {
+   "arquivo": "imagens/itaipu-noite-bb283470.jpg",
+   "rotulo": "Itaipu à noite",
+   "commons": "Itaipu Dam night illuminated",
+   "autor": "Leandro Neumann Ciuffo",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ilumina%C3%A7%C3%A3o_da_barragem_de_Itaipu_(8152312286).jpg",
+   "titulo": "File:Iluminação da barragem de Itaipu (8152312286).jpg",
+   "largura": 1920,
+   "altura": 1081,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 46.4
+   },
+   "borrada": "imagens/itaipu-noite-bb283470-b.jpg"
+  },
+  "itaipu-por-do-sol": {
+   "arquivo": "",
+   "rotulo": "Itaipu ao entardecer",
+   "commons": "Itaipu Dam sunset",
+   "semFoto": true
+  },
+  "hoover-ponte": {
+   "arquivo": "imagens/hoover-ponte-18081844.jpg",
+   "rotulo": "Ponte sobre o Black Canyon",
+   "commons": "Mike O'Callaghan–Pat Tillman Memorial Bridge Hoover Dam",
+   "autor": "Sergej Wismann",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Die_Br%C3%BCcke_am_07._Mai_2016.jpg",
+   "titulo": "File:Die Brücke am 07. Mai 2016.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 82.4,
+    "y": 48.8
+   },
+   "borrada": "imagens/hoover-ponte-18081844-b.jpg"
+  },
+  "parana-foz": {
+   "arquivo": "imagens/parana-foz-93ce7b49.jpg",
+   "rotulo": "Rio Paraná em Foz do Iguaçu",
+   "commons": "Paraná River Foz do Iguaçu",
+   "autor": "Falk2",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:J37_837_R%C3%ADo_Paran%C3%A1,_Foz_do_Igua%C3%A7u.jpg",
+   "titulo": "File:J37 837 Río Paraná, Foz do Iguaçu.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 38.2,
+    "y": 44.8
+   },
+   "borrada": "imagens/parana-foz-93ce7b49-b.jpg"
+  },
+  "itaipu-panoramica": {
+   "arquivo": "imagens/itaipu-panoramica-9a522666.jpg",
+   "rotulo": "Itaipu panorâmica",
+   "commons": "Itaipu Dam panoramic",
+   "autor": "Macaddct1984",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Itaipu_Dam.jpg",
+   "titulo": "File:Panoramic view of Itaipu Dam.jpg",
+   "largura": 1920,
+   "altura": 445,
+   "rostos": 0,
+   "foco": {
+    "x": 49.9,
+    "y": 62.0
+   },
+   "borrada": "imagens/itaipu-panoramica-9a522666-b.jpg"
+  },
+  "hoover-colorado": {
+   "arquivo": "imagens/hoover-colorado-0bd79773.jpg",
+   "rotulo": "Hoover e o Colorado",
+   "commons": "Hoover Dam Colorado River downstream",
+   "autor": "w:en:Meniscus (talk | contribs)",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:HooverDownstream.jpg",
+   "titulo": "File:HooverDownstream.jpg",
+   "largura": 1704,
+   "altura": 2272,
+   "rostos": 1,
+   "foco": {
+    "x": 88.8,
+    "y": 42.1
+   },
+   "borrada": "imagens/hoover-colorado-0bd79773-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-05T17:57:12.977Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +6158,66 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Itaipu Binacional — publicação institucional (fases da obra, altura de 196 m)",
+   "url": "https://www.itaipu.gov.br/sites/default/files/af_df/1702_022_atualizacao_revista_IB_2017_digital_b.pdf"
+  },
+  {
+   "titulo": "Rádio Cultura Foz — desvio do Rio Paraná para a construção de Itaipu",
+   "url": "https://www.radioculturafoz.com.br/2022/10/20/desvio-do-rio-parana-para-edificacao-de-itaipu-completa-44-anos"
+  },
+  {
+   "titulo": "UAI Serviços — canal de desvio de 2 km e dinamite em Itaipu",
+   "url": "https://www.uai.com.br/?p=183195"
+  },
+  {
+   "titulo": "Itaipu Dam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Itaipu_Dam"
+  },
+  {
+   "titulo": "Hoover Dam — New World Encyclopedia (túneis, ensecadeiras, blocos e tubos de resfriamento)",
+   "url": "https://newworldencyclopedia.org/entry/Hoover_Dam"
+  },
+  {
+   "titulo": "Construction of Hoover Dam — Water and Power Museum",
+   "url": "https://waterandpower.org/museum/Construction_of_Hoover_Dam.html"
+  },
+  {
+   "titulo": "Razões para uso de gelo no concreto — Engenharia360",
+   "url": "https://engenharia360.com/razoes-para-uso-de-gelo-no-concreto/"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Como construir uma barragem no meio de um rio?",
+   "A ordem secreta das etapas de uma grande barragem",
+   "Como Itaipu fez o Rio Paraná mudar de caminho"
+  ],
+  "descricao": "Como se constrói uma barragem no meio de um rio? Este vídeo mostra a ordem das etapas que quase ninguém vê: o canal de desvio, as ensecadeiras, a fundação, o concreto em blocos e o enchimento do reservatório, com exemplos reais de Itaipu e da represa Hoover.\n\n0:00 O rio que não pede licença\n0:40 A promessa e os dois exemplos\n1:20 O canal de desvio\n2:00 A explosão da ensecadeira\n2:40 Secando o leito antigo\n3:20 Os túneis da Hoover\n4:00 A fundação\n4:40 Concreto em blocos e o problema do calor\n5:20 O gelo em Itaipu\n6:00 O enchimento do reservatório\n6:40 O que muda depois\n7:20 Fecho\n\nFontes: Itaipu Binacional; Rádio Cultura Foz; UAI Serviços; Wikipedia (Itaipu Dam); New World Encyclopedia (Hoover Dam); Water and Power Museum; Engenharia360.",
+  "tags": [
+   "barragem",
+   "como se constrói uma barragem",
+   "Itaipu",
+   "Rio Paraná",
+   "ensecadeira",
+   "desvio do rio",
+   "represa Hoover",
+   "engenharia civil",
+   "usina hidrelétrica",
+   "concreto",
+   "grandes obras",
+   "Inova mundo"
+  ]
  }
 }
