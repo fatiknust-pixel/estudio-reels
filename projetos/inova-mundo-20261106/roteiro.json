@@ -1,0 +1,184 @@
+{
+  "titulo": "Os 5 maiores navios já construídos",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo", "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Wikipédia — Seawise Giant", "url": "https://en.wikipedia.org/wiki/Seawise_Giant" },
+    { "titulo": "Guinness World Records — Largest ship (deadweight tonnage)", "url": "https://guinnessworldrecords.com/world-records/116229-largest-ship-ever" },
+    { "titulo": "Wikipédia — Prelude FLNG", "url": "https://en.wikipedia.org/wiki/Prelude_FLNG" },
+    { "titulo": "Guinness World Records — Largest floating LNG platform", "url": "https://www.guinnessworldrecords.com/world-records/113449-largest-floating-liquified-national-gas-flng-platform" },
+    { "titulo": "Wikipédia — Icon of the Seas", "url": "https://en.wikipedia.org/wiki/Icon_of_the_Seas" },
+    { "titulo": "Wikipédia — Valemax", "url": "https://en.wikipedia.org/wiki/Valemax" },
+    { "titulo": "gCaptain — Chinese shipyard delivers world's largest containership at 24,346 TEUs", "url": "https://gcaptain.com/chinese-shipyard-delivers-worlds-largest-containership-at-24346-teus" },
+    { "titulo": "The Maritime Executive — MSC receives second ultra large and this one is the world's largest", "url": "https://www.maritime-executive.com/article/msc-receives-second-ultra-large-and-this-one-is-the-world-s-largest" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "Os 5 maiores navios já construídos: o último nem é um navio",
+      "Do Valemax ao Prelude: os gigantes que não cabem nos portos",
+      "O maior navio da história acabou em sucata?"
+    ],
+    "descricao": "Um ranking por comprimento de cinco gigantes do mar: o minerador Valemax, o cruzeiro Icon of the Seas, o porta-contêineres MSC Irina, o petroleiro Seawise Giant e a fábrica flutuante Prelude. Cada um com uma curiosidade de engenharia, e o mais surpreendente por último.\n\n0:00 Gancho\n0:23 Critério do ranking\n0:46 5º Valemax\n1:50 4º Icon of the Seas\n3:00 3º MSC Irina\n4:00 2º Seawise Giant\n5:25 1º Prelude\n7:20 Conclusão\n\nFontes: Wikipédia (Seawise Giant, Valemax, Icon of the Seas, Prelude FLNG), Guinness World Records, gCaptain, The Maritime Executive. As medidas variam um pouco conforme a fonte.",
+    "tags": ["maiores navios do mundo", "Prelude FLNG", "Seawise Giant", "Knock Nevis", "MSC Irina", "Icon of the Seas", "Valemax", "navios gigantes", "engenharia naval", "curiosidades tecnologia", "ranking navios", "Inova mundo"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Imagine o Empire State Building deitado no mar. Pois existe um navio ainda mais comprido que ele. Quatrocentos e oitenta e oito metros de aço, flutuando no meio do oceano. Mas ele é só o último de uma lista de cinco gigantes, e cada um esconde um truque de engenharia que parece impossível. Vamos começar de baixo.",
+      "galeria": ["empire-state", "prelude-casco", "comparacao-navios"],
+      "galeriaEm": [0, "Quatrocentos", "cinco"],
+      "fontes": ["Shell", "Wikipédia"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 488, "unidade": "m", "rotulo": "Comprimento do 1º lugar", "em": "Quatrocentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "criterio",
+      "texto": "Neste vídeo, o critério é simples: comprimento. Vamos subir do quinto ao primeiro lugar, passando por um cargueiro de minério, um navio de cruzeiro, um porta-contêineres, um petroleiro e uma plataforma flutuante. No fim, você vai entender por que o maior da lista nem sequer foi feito para ir de um porto a outro.",
+      "galeria": ["rotas-maritimas", "vale-beijing", "cruzeiro-promessa", "emma-maersk", "petroleiro-ti", "prelude-reboque"],
+      "galeriaEm": [0, "cargueiro", "cruzeiro", "contêineres", "petroleiro", "plataforma"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5 GIGANTES DO MAR", "sub": "Critério: comprimento", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "valemax-1",
+      "texto": "Quinto lugar: o Valemax. Parece um cargueiro comum, só que tem trezentos e sessenta e dois metros de comprimento e sessenta e cinco de largura. Cabe até quatrocentas mil toneladas de minério de ferro. A mineradora Vale mandou construir esses navios para um objetivo frio e calculado: baixar o custo do frete do minério brasileiro até a Ásia. O primeiro, o Vale Brasil, foi entregue em dois mil e onze, num estaleiro da Coreia do Sul.",
+      "galeria": ["vale-brasil", "carajas-minerio", "vale-sede", "daewoo-okpo"],
+      "galeriaEm": [0, "minério", "mineradora", "estaleiro"],
+      "fontes": ["Wikipédia — Valemax"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "5º VALEMAX", "sub": "Minério de ferro", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 362, "unidade": "m", "rotulo": "de comprimento", "em": "trezentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "valemax-2",
+      "texto": "Mas o tamanho esbarrou na política. Em dois mil e doze, a China proibiu graneleiros acima de trezentas mil toneladas em seus portos. Oficialmente, para proteger o frete nacional, e com preocupações de segurança. Sem acesso, a Vale usou portos de transbordo nas Filipinas. O veto só caiu em julho de dois mil e quinze, quando quatro portos chineses foram abertos para esses gigantes.",
+      "galeria": ["ministerio-china", "cosco-navio", "filipinas-mapa", "porto-qingdao"],
+      "galeriaEm": [0, "proteger", "Filipinas", "quatro"],
+      "fontes": ["Wikipédia — Valemax"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["2011", "Vale Brasil entregue"], ["2012", "China veta"], ["2015", "Veto cai"]], "em": "China", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "icon-1",
+      "texto": "Quarto lugar: o Icon of the Seas, da Royal Caribbean. São trezentos e sessenta e cinco metros de comprimento e duzentas e quarenta e oito mil toneladas de arqueação bruta, a medida do volume interno de um navio. Foi construído em Turku, na Finlândia, e entregue em novembro de dois mil e vinte e três. A viagem inaugural saiu de Miami em janeiro de dois mil e vinte e quatro.",
+      "galeria": ["icon-lancamento", "icon-mar", "turku-estaleiro", "portmiami"],
+      "galeriaEm": [0, "trezentos", "Turku", "Miami"],
+      "fontes": ["Wikipédia — Icon of the Seas"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "4º ICON OF THE SEAS", "sub": "Royal Caribbean", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 365, "unidade": "m", "rotulo": "de comprimento", "em": "trezentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "icon-2",
+      "texto": "Lá dentro cabem cinco mil seiscentos e dez passageiros em ocupação dupla, e até sete mil e seiscentos na lotação máxima. Trabalham a bordo dois mil trezentos e cinquenta tripulantes. São vinte conveses e um parque aquático com seis toboáguas. Os motores podem funcionar com gás natural liquefeito, o GNL, ou com combustível destilado, uma novidade para a empresa.",
+      "galeria": ["icon-conves", "icon-popa", "icon-thrill", "gnl-abastecimento"],
+      "galeriaEm": [0, "tripulantes", "parque", "gás"],
+      "fontes": ["Wikipédia — Icon of the Seas"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 7600, "unidade": "passageiros", "rotulo": "lotação máxima", "em": "sete", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "irina-1",
+      "texto": "Terceiro lugar: o MSC Irina. Quase quatrocentos metros, exatamente trezentos e noventa e nove vírgula nove nove, e sessenta e um de largura. Entregue em março de dois mil e vinte e três pelo estaleiro Yangzijiang, na China, ele carrega vinte e quatro mil trezentos e quarenta e seis contêineres, a medida padrão chamada TEU. Na época, era o maior porta-contêineres do mundo em capacidade.",
+      "galeria": ["irina-mar", "irina-entrega", "yangzijiang-estaleiro", "conteineres-pilha"],
+      "galeriaEm": [0, "março", "estaleiro", "contêineres"],
+      "fontes": ["gCaptain", "The Maritime Executive"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "3º MSC IRINA", "sub": "Porta-contêineres", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 24346, "unidade": "TEU", "rotulo": "capacidade", "em": "TEU", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "irina-2",
+      "texto": "Isso dá uma pilha de caixas de aço com vinte e cinco ou vinte e seis camadas de altura, dependendo da fonte. Cada contêiner leva uma carga diferente, de roupas a peças de carro. É o primeiro de uma série de seis navios parecidos. Tamanho assim exige guindastes gigantes e canais fundos, o que limita os portos capazes de recebê-lo.",
+      "galeria": ["pilha-alta", "cargas-conteiner", "msc-tessa", "guindaste-porto"],
+      "galeriaEm": [0, "carga", "série", "guindastes"],
+      "fontes": ["The Maritime Executive"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "TEU", "significado": "Contêiner de 20 pés, a medida padrão", "em": "Cada", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "seawise-1",
+      "texto": "Segundo lugar: o Seawise Giant. Foi o maior navio de carga já construído, em comprimento e em capacidade. Quatrocentos e cinquenta e oito metros de comprimento, sessenta e oito de largura e mais de quinhentas e sessenta mil toneladas de carga. Era um petroleiro, encomendado em mil novecentos e setenta e quatro e entregue em setenta e nove pelo estaleiro Sumitomo, no Japão. Cheio, ele deslocava seiscentas e cinquenta e sete mil toneladas.",
+      "galeria": ["seawise-mar", "seawise-proa", "sumitomo-yokosuka", "seawise-carregado"],
+      "galeriaEm": [0, "Quatrocentos", "estaleiro", "Cheio"],
+      "fontes": ["Wikipédia — Seawise Giant", "Guinness"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "2º SEAWISE GIANT", "sub": "Petroleiro, 1979", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 458, "unidade": "m", "rotulo": "de comprimento", "em": "Quatrocentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "seawise-2",
+      "texto": "Ele era grande demais para o mundo. Não passava pelo Canal da Mancha, nem pelo de Suez, nem pelo do Panamá. Segundo o capitão, precisava de nove quilômetros para parar e fazia uma curva de cerca de três quilômetros de diâmetro. Em maio de mil novecentos e oitenta e oito, durante a guerra entre Irã e Iraque, aviões iraquianos acertaram o navio com mísseis Exocet.",
+      "galeria": ["knock-nevis-alt", "canal-mancha", "canal-suez", "panama-miraflores", "ormuz-larak"],
+      "galeriaEm": [0, "Mancha", "Suez", "Panamá", "Irã"],
+      "fontes": ["Wikipédia — Seawise Giant"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 9, "unidade": "km", "rotulo": "para parar o navio", "em": "nove", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "seawise-3",
+      "texto": "O navio pegou fogo, mas não afundou. Foi dado como perda total e, mesmo assim, reparado em Singapura, voltando ao serviço em mil novecentos e noventa e um. Mudou de nome várias vezes, até se chamar Knock Nevis. Em dois mil e nove, foi encalhado de propósito na praia de Alang, na Índia, e desmontado em dois mil e dez. Mas o primeiro lugar da lista ainda está na água, e é mais comprido que o Seawise Giant.",
+      "galeria": ["guerra-petroleiros", "keppel-singapura", "knock-nevis-qatar", "alang", "prelude-aerea"],
+      "galeriaEm": [0, "Singapura", "Knock", "Alang", "primeiro"],
+      "fontes": ["Wikipédia — Seawise Giant"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1988", "Atingido por mísseis"], ["1991", "Volta ao serviço"], ["2010", "Desmontado na Índia"]], "em": "fogo", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "prelude-1",
+      "texto": "Primeiro lugar: o Prelude. Quatrocentos e oitenta e oito metros de comprimento, setenta e quatro de largura e cerca de seiscentas mil toneladas quando carregado, mais de cinco vezes o deslocamento de um porta-aviões da classe Nimitz. Foi construído pela Samsung Heavy Industries, na Coreia do Sul, para a Shell, e lançado ao mar no fim de dois mil e treze, com mais de duzentas e sessenta mil toneladas de aço.",
+      "galeria": ["prelude-doca", "nimitz", "samsung-geoje", "prelude-lancamento"],
+      "galeriaEm": [0, "porta-aviões", "Samsung", "lançado"],
+      "fontes": ["Wikipédia — Prelude FLNG", "Guinness"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "1º PRELUDE", "sub": "Shell, 2013", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 488, "unidade": "m", "rotulo": "de comprimento", "em": "Quatrocentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "prelude-2",
+      "texto": "Ele não é um navio de transporte. É uma fábrica flutuante de gás natural liquefeito. O gás sai do fundo do mar, é resfriado e armazenado a bordo, sem tubulação até a terra. Em julho de dois mil e dezessete, depois de rebocado por cerca de cinco mil e oitocentos quilômetros, chegou ao campo, a uns duzentos quilômetros da costa da Austrália Ocidental. Fica preso ao fundo por dezesseis estacas de aço e foi projetado para resistir a ciclones de categoria cinco.",
+      "galeria": ["prelude-fabrica", "gnl-tanque", "prelude-reboque-2", "australia-ocidental", "ciclone-australia"],
+      "galeriaEm": [0, "armazenado", "rebocado", "Austrália", "ciclones"],
+      "fontes": ["Wikipédia — Prelude FLNG"],
+      "elementos": [
+        { "tipo": "mapa", "de": "Coreia do Sul", "para": "Austrália", "legenda": "5.800 km a reboque", "em": "rebocado", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "prelude-3",
+      "texto": "A produção começou no fim de dois mil e dezoito. Mas gigantes assim dão trabalho: parou em fevereiro de dois mil e vinte, voltou em janeiro de dois mil e vinte e um e, depois de um incêndio em dezembro daquele ano, só retomou em abril de dois mil e vinte e dois. As estimativas de custo vão de onze a mais de dezessete bilhões de dólares, e o valor mais alto nunca foi confirmado pela Shell.",
+      "galeria": ["prelude-operacao", "gnl-carga", "prelude-helideque", "dolar", "shell-sede"],
+      "galeriaEm": [0, "voltou", "incêndio", "estimativas", "Shell"],
+      "fontes": ["Wikipédia — Prelude FLNG"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["2018", "Começa a produzir"], ["2020", "Parada"], ["2021", "Incêndio"], ["2022", "Retomada"]], "em": "produção", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "Agora dá para ver o padrão. O que faz um navio entrar nesta lista não é velocidade, nem beleza: é a escala. Cada um resolveu um problema diferente: baratear o frete, hospedar milhares de pessoas, movimentar caixas, levar petróleo ou fabricar gás no meio do nada. E cada um esbarrou num limite parecido, o de portos, canais e rotas feitos para navios menores.",
+      "galeria": ["ulsan-estaleiro", "tubarao-porto", "barcelona-cruzeiro", "singapura-conteineres", "ras-tanura", "gnl-offshore", "agua-clara", "ever-given"],
+      "galeriaEm": [0, "frete", "milhares", "caixas", "petróleo", "gás", "canais", "rotas"],
+      "elementos": []
+    },
+    {
+      "id": "fecho",
+      "texto": "O mar não tem fronteira de tamanho. Quem tem são os portos. E talvez o próximo recorde já esteja em algum estaleiro, esperando o mar ficar pequeno de novo.",
+      "galeria": ["porto-hamburgo", "fincantieri-monfalcone"],
+      "galeriaEm": [0, "estaleiro"],
+      "elementos": []
+    }
+  ]
+}

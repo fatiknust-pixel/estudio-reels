@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-06T17:20:28.004Z",
- "atualizadoEm": "2026-11-06T17:20:28.004Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-06T17:31:51Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Os 5 maiores navios já construídos — ângulo: Ranking com critério claro (comprimento, deslocamento ou capacidade) de petroleiros, cargueiros e cruzeiros. Cada item traz uma curiosidade de engenharia, e o mais surpreendente fica por último.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,6835 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Imagine o Empire State Building deitado no mar. Pois existe um navio ainda mais comprido que ele. Quatrocentos e oitenta e oito metros de aço, flutuando no meio do oceano. Mas ele é só o último de uma lista de cinco gigantes, e cada um esconde um truque de engenharia que parece impossível. Vamos começar de baixo.",
+   "galeria": [
+    "empire-state",
+    "prelude-casco",
+    "comparacao-navios"
+   ],
+   "galeriaEm": [
+    0,
+    "Quatrocentos",
+    "cinco"
+   ],
+   "fontes": [
+    "Shell",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 488,
+     "unidade": "m",
+     "rotulo": "Comprimento do 1º lugar",
+     "em": "Quatrocentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "criterio",
+   "texto": "Neste vídeo, o critério é simples: comprimento. Vamos subir do quinto ao primeiro lugar, passando por um cargueiro de minério, um navio de cruzeiro, um porta-contêineres, um petroleiro e uma plataforma flutuante. No fim, você vai entender por que o maior da lista nem sequer foi feito para ir de um porto a outro.",
+   "galeria": [
+    "rotas-maritimas",
+    "vale-beijing",
+    "cruzeiro-promessa",
+    "emma-maersk",
+    "petroleiro-ti",
+    "prelude-reboque"
+   ],
+   "galeriaEm": [
+    0,
+    "cargueiro",
+    "cruzeiro",
+    "contêineres",
+    "petroleiro",
+    "plataforma"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5 GIGANTES DO MAR",
+     "sub": "Critério: comprimento",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "valemax-1",
+   "texto": "Quinto lugar: o Valemax. Parece um cargueiro comum, só que tem trezentos e sessenta e dois metros de comprimento e sessenta e cinco de largura. Cabe até quatrocentas mil toneladas de minério de ferro. A mineradora Vale mandou construir esses navios para um objetivo frio e calculado: baixar o custo do frete do minério brasileiro até a Ásia. O primeiro, o Vale Brasil, foi entregue em dois mil e onze, num estaleiro da Coreia do Sul.",
+   "galeria": [
+    "vale-brasil",
+    "carajas-minerio",
+    "vale-sede",
+    "daewoo-okpo"
+   ],
+   "galeriaEm": [
+    0,
+    "minério",
+    "mineradora",
+    "estaleiro"
+   ],
+   "fontes": [
+    "Wikipédia — Valemax"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "5º VALEMAX",
+     "sub": "Minério de ferro",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 362,
+     "unidade": "m",
+     "rotulo": "de comprimento",
+     "em": "trezentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "valemax-2",
+   "texto": "Mas o tamanho esbarrou na política. Em dois mil e doze, a China proibiu graneleiros acima de trezentas mil toneladas em seus portos. Oficialmente, para proteger o frete nacional, e com preocupações de segurança. Sem acesso, a Vale usou portos de transbordo nas Filipinas. O veto só caiu em julho de dois mil e quinze, quando quatro portos chineses foram abertos para esses gigantes.",
+   "galeria": [
+    "ministerio-china",
+    "cosco-navio",
+    "filipinas-mapa",
+    "porto-qingdao"
+   ],
+   "galeriaEm": [
+    0,
+    "proteger",
+    "Filipinas",
+    "quatro"
+   ],
+   "fontes": [
+    "Wikipédia — Valemax"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2011",
+       "Vale Brasil entregue"
+      ],
+      [
+       "2012",
+       "China veta"
+      ],
+      [
+       "2015",
+       "Veto cai"
+      ]
+     ],
+     "em": "China",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "icon-1",
+   "texto": "Quarto lugar: o Icon of the Seas, da Royal Caribbean. São trezentos e sessenta e cinco metros de comprimento e duzentas e quarenta e oito mil toneladas de arqueação bruta, a medida do volume interno de um navio. Foi construído em Turku, na Finlândia, e entregue em novembro de dois mil e vinte e três. A viagem inaugural saiu de Miami em janeiro de dois mil e vinte e quatro.",
+   "galeria": [
+    "icon-lancamento",
+    "icon-mar",
+    "turku-estaleiro",
+    "portmiami"
+   ],
+   "galeriaEm": [
+    0,
+    "trezentos",
+    "Turku",
+    "Miami"
+   ],
+   "fontes": [
+    "Wikipédia — Icon of the Seas"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "4º ICON OF THE SEAS",
+     "sub": "Royal Caribbean",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 365,
+     "unidade": "m",
+     "rotulo": "de comprimento",
+     "em": "trezentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "icon-2",
+   "texto": "Lá dentro cabem cinco mil seiscentos e dez passageiros em ocupação dupla, e até sete mil e seiscentos na lotação máxima. Trabalham a bordo dois mil trezentos e cinquenta tripulantes. São vinte conveses e um parque aquático com seis toboáguas. Os motores podem funcionar com gás natural liquefeito, o GNL, ou com combustível destilado, uma novidade para a empresa.",
+   "galeria": [
+    "icon-conves",
+    "icon-popa",
+    "icon-thrill",
+    "gnl-abastecimento"
+   ],
+   "galeriaEm": [
+    0,
+    "tripulantes",
+    "parque",
+    "gás"
+   ],
+   "fontes": [
+    "Wikipédia — Icon of the Seas"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 7600,
+     "unidade": "passageiros",
+     "rotulo": "lotação máxima",
+     "em": "sete",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "irina-1",
+   "texto": "Terceiro lugar: o MSC Irina. Quase quatrocentos metros, exatamente trezentos e noventa e nove vírgula nove nove, e sessenta e um de largura. Entregue em março de dois mil e vinte e três pelo estaleiro Yangzijiang, na China, ele carrega vinte e quatro mil trezentos e quarenta e seis contêineres, a medida padrão chamada TEU. Na época, era o maior porta-contêineres do mundo em capacidade.",
+   "galeria": [
+    "irina-mar",
+    "irina-entrega",
+    "yangzijiang-estaleiro",
+    "conteineres-pilha"
+   ],
+   "galeriaEm": [
+    0,
+    "março",
+    "estaleiro",
+    "contêineres"
+   ],
+   "fontes": [
+    "gCaptain",
+    "The Maritime Executive"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "3º MSC IRINA",
+     "sub": "Porta-contêineres",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 24346,
+     "unidade": "TEU",
+     "rotulo": "capacidade",
+     "em": "TEU",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "irina-2",
+   "texto": "Isso dá uma pilha de caixas de aço com vinte e cinco ou vinte e seis camadas de altura, dependendo da fonte. Cada contêiner leva uma carga diferente, de roupas a peças de carro. É o primeiro de uma série de seis navios parecidos. Tamanho assim exige guindastes gigantes e canais fundos, o que limita os portos capazes de recebê-lo.",
+   "galeria": [
+    "pilha-alta",
+    "cargas-conteiner",
+    "msc-tessa",
+    "guindaste-porto"
+   ],
+   "galeriaEm": [
+    0,
+    "carga",
+    "série",
+    "guindastes"
+   ],
+   "fontes": [
+    "The Maritime Executive"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "TEU",
+     "significado": "Contêiner de 20 pés, a medida padrão",
+     "em": "Cada",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "seawise-1",
+   "texto": "Segundo lugar: o Seawise Giant. Foi o maior navio de carga já construído, em comprimento e em capacidade. Quatrocentos e cinquenta e oito metros de comprimento, sessenta e oito de largura e mais de quinhentas e sessenta mil toneladas de carga. Era um petroleiro, encomendado em mil novecentos e setenta e quatro e entregue em setenta e nove pelo estaleiro Sumitomo, no Japão. Cheio, ele deslocava seiscentas e cinquenta e sete mil toneladas.",
+   "galeria": [
+    "seawise-mar",
+    "seawise-proa",
+    "sumitomo-yokosuka",
+    "seawise-carregado"
+   ],
+   "galeriaEm": [
+    0,
+    "Quatrocentos",
+    "estaleiro",
+    "Cheio"
+   ],
+   "fontes": [
+    "Wikipédia — Seawise Giant",
+    "Guinness"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2º SEAWISE GIANT",
+     "sub": "Petroleiro, 1979",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 458,
+     "unidade": "m",
+     "rotulo": "de comprimento",
+     "em": "Quatrocentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "seawise-2",
+   "texto": "Ele era grande demais para o mundo. Não passava pelo Canal da Mancha, nem pelo de Suez, nem pelo do Panamá. Segundo o capitão, precisava de nove quilômetros para parar e fazia uma curva de cerca de três quilômetros de diâmetro. Em maio de mil novecentos e oitenta e oito, durante a guerra entre Irã e Iraque, aviões iraquianos acertaram o navio com mísseis Exocet.",
+   "galeria": [
+    "knock-nevis-alt",
+    "canal-mancha",
+    "canal-suez",
+    "panama-miraflores",
+    "ormuz-larak"
+   ],
+   "galeriaEm": [
+    0,
+    "Mancha",
+    "Suez",
+    "Panamá",
+    "Irã"
+   ],
+   "fontes": [
+    "Wikipédia — Seawise Giant"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 9,
+     "unidade": "km",
+     "rotulo": "para parar o navio",
+     "em": "nove",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "seawise-3",
+   "texto": "O navio pegou fogo, mas não afundou. Foi dado como perda total e, mesmo assim, reparado em Singapura, voltando ao serviço em mil novecentos e noventa e um. Mudou de nome várias vezes, até se chamar Knock Nevis. Em dois mil e nove, foi encalhado de propósito na praia de Alang, na Índia, e desmontado em dois mil e dez. Mas o primeiro lugar da lista ainda está na água, e é mais comprido que o Seawise Giant.",
+   "galeria": [
+    "guerra-petroleiros",
+    "keppel-singapura",
+    "knock-nevis-qatar",
+    "alang",
+    "prelude-aerea"
+   ],
+   "galeriaEm": [
+    0,
+    "Singapura",
+    "Knock",
+    "Alang",
+    "primeiro"
+   ],
+   "fontes": [
+    "Wikipédia — Seawise Giant"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1988",
+       "Atingido por mísseis"
+      ],
+      [
+       "1991",
+       "Volta ao serviço"
+      ],
+      [
+       "2010",
+       "Desmontado na Índia"
+      ]
+     ],
+     "em": "fogo",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "prelude-1",
+   "texto": "Primeiro lugar: o Prelude. Quatrocentos e oitenta e oito metros de comprimento, setenta e quatro de largura e cerca de seiscentas mil toneladas quando carregado, mais de cinco vezes o deslocamento de um porta-aviões da classe Nimitz. Foi construído pela Samsung Heavy Industries, na Coreia do Sul, para a Shell, e lançado ao mar no fim de dois mil e treze, com mais de duzentas e sessenta mil toneladas de aço.",
+   "galeria": [
+    "prelude-doca",
+    "nimitz",
+    "samsung-geoje",
+    "prelude-lancamento"
+   ],
+   "galeriaEm": [
+    0,
+    "porta-aviões",
+    "Samsung",
+    "lançado"
+   ],
+   "fontes": [
+    "Wikipédia — Prelude FLNG",
+    "Guinness"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "1º PRELUDE",
+     "sub": "Shell, 2013",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 488,
+     "unidade": "m",
+     "rotulo": "de comprimento",
+     "em": "Quatrocentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "prelude-2",
+   "texto": "Ele não é um navio de transporte. É uma fábrica flutuante de gás natural liquefeito. O gás sai do fundo do mar, é resfriado e armazenado a bordo, sem tubulação até a terra. Em julho de dois mil e dezessete, depois de rebocado por cerca de cinco mil e oitocentos quilômetros, chegou ao campo, a uns duzentos quilômetros da costa da Austrália Ocidental. Fica preso ao fundo por dezesseis estacas de aço e foi projetado para resistir a ciclones de categoria cinco.",
+   "galeria": [
+    "prelude-fabrica",
+    "gnl-tanque",
+    "prelude-reboque-2",
+    "australia-ocidental",
+    "ciclone-australia"
+   ],
+   "galeriaEm": [
+    0,
+    "armazenado",
+    "rebocado",
+    "Austrália",
+    "ciclones"
+   ],
+   "fontes": [
+    "Wikipédia — Prelude FLNG"
+   ],
+   "elementos": [
+    {
+     "tipo": "mapa",
+     "de": "Coreia do Sul",
+     "para": "Austrália",
+     "legenda": "5.800 km a reboque",
+     "em": "rebocado",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "prelude-3",
+   "texto": "A produção começou no fim de dois mil e dezoito. Mas gigantes assim dão trabalho: parou em fevereiro de dois mil e vinte, voltou em janeiro de dois mil e vinte e um e, depois de um incêndio em dezembro daquele ano, só retomou em abril de dois mil e vinte e dois. As estimativas de custo vão de onze a mais de dezessete bilhões de dólares, e o valor mais alto nunca foi confirmado pela Shell.",
+   "galeria": [
+    "prelude-operacao",
+    "gnl-carga",
+    "prelude-helideque",
+    "dolar",
+    "shell-sede"
+   ],
+   "galeriaEm": [
+    0,
+    "voltou",
+    "incêndio",
+    "estimativas",
+    "Shell"
+   ],
+   "fontes": [
+    "Wikipédia — Prelude FLNG"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2018",
+       "Começa a produzir"
+      ],
+      [
+       "2020",
+       "Parada"
+      ],
+      [
+       "2021",
+       "Incêndio"
+      ],
+      [
+       "2022",
+       "Retomada"
+      ]
+     ],
+     "em": "produção",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Agora dá para ver o padrão. O que faz um navio entrar nesta lista não é velocidade, nem beleza: é a escala. Cada um resolveu um problema diferente: baratear o frete, hospedar milhares de pessoas, movimentar caixas, levar petróleo ou fabricar gás no meio do nada. E cada um esbarrou num limite parecido, o de portos, canais e rotas feitos para navios menores.",
+   "galeria": [
+    "ulsan-estaleiro",
+    "tubarao-porto",
+    "barcelona-cruzeiro",
+    "singapura-conteineres",
+    "ras-tanura",
+    "gnl-offshore",
+    "agua-clara",
+    "ever-given"
+   ],
+   "galeriaEm": [
+    0,
+    "frete",
+    "milhares",
+    "caixas",
+    "petróleo",
+    "gás",
+    "canais",
+    "rotas"
+   ],
+   "fontes": [],
+   "elementos": []
+  },
+  {
+   "id": "fecho",
+   "texto": "O mar não tem fronteira de tamanho. Quem tem são os portos. E talvez o próximo recorde já esteja em algum estaleiro, esperando o mar ficar pequeno de novo.",
+   "galeria": [
+    "porto-hamburgo",
+    "fincantieri-monfalcone"
+   ],
+   "galeriaEm": [
+    0,
+    "estaleiro"
+   ],
+   "fontes": [],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "329b62a71b",
+   "texto": "Imagine o Empire State Building deitado no mar. Pois existe um navio ainda mais comprido que ele. Quatrocentos e oitenta e oito metros de aço, flutuando no meio do oceano. Mas ele é só o último de uma lista de cinco gigantes, e cada um esconde um truque de engenharia que parece impossível. Vamos começar de baixo.",
+   "audio": "audio/gancho-329b62a71b.mp3",
+   "duracao": 20.297,
+   "palavras": [
+    {
+     "p": "Imagine",
+     "i": 0.102,
+     "f": 0.688
+    },
+    {
+     "p": "o",
+     "i": 0.701,
+     "f": 0.74
+    },
+    {
+     "p": "Empire",
+     "i": 0.753,
+     "f": 1.261
+    },
+    {
+     "p": "State",
+     "i": 1.274,
+     "f": 1.665
+    },
+    {
+     "p": "Building",
+     "i": 1.678,
+     "f": 2.055
+    },
+    {
+     "p": "deitado",
+     "i": 2.068,
+     "f": 2.55
+    },
+    {
+     "p": "no",
+     "i": 2.563,
+     "f": 2.654
+    },
+    {
+     "p": "mar.",
+     "i": 2.667,
+     "f": 2.902
+    },
+    {
+     "p": "Pois",
+     "i": 3.254,
+     "f": 3.423
+    },
+    {
+     "p": "existe",
+     "i": 3.436,
+     "f": 3.918
+    },
+    {
+     "p": "um",
+     "i": 3.931,
+     "f": 3.97
+    },
+    {
+     "p": "navio",
+     "i": 3.983,
+     "f": 4.361
+    },
+    {
+     "p": "ainda",
+     "i": 4.374,
+     "f": 4.66
+    },
+    {
+     "p": "mais",
+     "i": 4.673,
+     "f": 4.947
+    },
+    {
+     "p": "comprido",
+     "i": 4.96,
+     "f": 5.481
+    },
+    {
+     "p": "que",
+     "i": 5.494,
+     "f": 5.663
+    },
+    {
+     "p": "ele",
+     "i": 5.676,
+     "f": 5.962
+    },
+    {
+     "p": "Quatrocentos",
+     "i": 6.31,
+     "f": 7.091
+    },
+    {
+     "p": "e",
+     "i": 7.104,
+     "f": 7.209
+    },
+    {
+     "p": "oitenta",
+     "i": 7.222,
+     "f": 7.534
+    },
+    {
+     "p": "e",
+     "i": 7.547,
+     "f": 7.573
+    },
+    {
+     "p": "oito",
+     "i": 7.586,
+     "f": 7.821
+    },
+    {
+     "p": "metros",
+     "i": 7.834,
+     "f": 8.237
+    },
+    {
+     "p": "de",
+     "i": 8.25,
+     "f": 8.367
+    },
+    {
+     "p": "aço",
+     "i": 8.38,
+     "f": 8.732
+    },
+    {
+     "p": "flutuando",
+     "i": 8.992,
+     "f": 9.643
+    },
+    {
+     "p": "no",
+     "i": 9.656,
+     "f": 9.748
+    },
+    {
+     "p": "meio",
+     "i": 9.761,
+     "f": 10.047
+    },
+    {
+     "p": "do",
+     "i": 10.06,
+     "f": 10.164
+    },
+    {
+     "p": "oceano",
+     "i": 10.177,
+     "f": 10.75
+    },
+    {
+     "p": "Mas",
+     "i": 11.094,
+     "f": 11.315
+    },
+    {
+     "p": "ele",
+     "i": 11.328,
+     "f": 11.706
+    },
+    {
+     "p": "é",
+     "i": 11.719,
+     "f": 11.758
+    },
+    {
+     "p": "só",
+     "i": 11.771,
+     "f": 12.019
+    },
+    {
+     "p": "o",
+     "i": 12.032,
+     "f": 12.11
+    },
+    {
+     "p": "último",
+     "i": 12.123,
+     "f": 12.526
+    },
+    {
+     "p": "de",
+     "i": 12.539,
+     "f": 12.605
+    },
+    {
+     "p": "uma",
+     "i": 12.618,
+     "f": 12.761
+    },
+    {
+     "p": "lista",
+     "i": 12.774,
+     "f": 13.151
+    },
+    {
+     "p": "de",
+     "i": 13.164,
+     "f": 13.295
+    },
+    {
+     "p": "cinco",
+     "i": 13.308,
+     "f": 13.672
+    },
+    {
+     "p": "gigantes",
+     "i": 13.685,
+     "f": 14.375
+    },
+    {
+     "p": "e",
+     "i": 14.61,
+     "f": 14.701
+    },
+    {
+     "p": "cada",
+     "i": 14.714,
+     "f": 14.987
+    },
+    {
+     "p": "um",
+     "i": 15,
+     "f": 15.17
+    },
+    {
+     "p": "esconde",
+     "i": 15.183,
+     "f": 15.599
+    },
+    {
+     "p": "um",
+     "i": 15.612,
+     "f": 15.69
+    },
+    {
+     "p": "truque",
+     "i": 15.703,
+     "f": 15.99
+    },
+    {
+     "p": "de",
+     "i": 16.003,
+     "f": 16.081
+    },
+    {
+     "p": "engenharia",
+     "i": 16.094,
+     "f": 16.693
+    },
+    {
+     "p": "que",
+     "i": 16.706,
+     "f": 16.81
+    },
+    {
+     "p": "parece",
+     "i": 16.823,
+     "f": 17.227
+    },
+    {
+     "p": "impossível",
+     "i": 17.24,
+     "f": 17.917
+    },
+    {
+     "p": "Vamos",
+     "i": 18.254,
+     "f": 18.632
+    },
+    {
+     "p": "começar",
+     "i": 18.645,
+     "f": 19.205
+    },
+    {
+     "p": "de",
+     "i": 19.218,
+     "f": 19.322
+    },
+    {
+     "p": "baixo",
+     "i": 19.335,
+     "f": 19.804
+    }
+   ]
+  },
+  "criterio": {
+   "hash": "76f18e5f52",
+   "texto": "Neste vídeo, o critério é simples: comprimento. Vamos subir do quinto ao primeiro lugar, passando por um cargueiro de minério, um navio de cruzeiro, um porta-contêineres, um petroleiro e uma plataforma flutuante. No fim, você vai entender por que o maior da lista nem sequer foi feito para ir de um porto a outro.",
+   "audio": "audio/criterio-76f18e5f52.mp3",
+   "duracao": 20.088,
+   "palavras": [
+    {
+     "p": "Neste",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "vídeo",
+     "i": 0.532,
+     "f": 0.935
+    },
+    {
+     "p": "o",
+     "i": 1.235,
+     "f": 1.313
+    },
+    {
+     "p": "critério",
+     "i": 1.326,
+     "f": 1.821
+    },
+    {
+     "p": "é",
+     "i": 1.834,
+     "f": 1.873
+    },
+    {
+     "p": "simples",
+     "i": 1.886,
+     "f": 2.563
+    },
+    {
+     "p": "comprimento",
+     "i": 2.81,
+     "f": 3.527
+    },
+    {
+     "p": "Vamos",
+     "i": 3.878,
+     "f": 4.243
+    },
+    {
+     "p": "subir",
+     "i": 4.256,
+     "f": 4.555
+    },
+    {
+     "p": "do",
+     "i": 4.568,
+     "f": 4.698
+    },
+    {
+     "p": "quinto",
+     "i": 4.711,
+     "f": 5.063
+    },
+    {
+     "p": "ao",
+     "i": 5.076,
+     "f": 5.167
+    },
+    {
+     "p": "primeiro",
+     "i": 5.18,
+     "f": 5.506
+    },
+    {
+     "p": "lugar",
+     "i": 5.519,
+     "f": 5.935
+    },
+    {
+     "p": "passando",
+     "i": 6.157,
+     "f": 6.625
+    },
+    {
+     "p": "por",
+     "i": 6.638,
+     "f": 6.769
+    },
+    {
+     "p": "um",
+     "i": 6.782,
+     "f": 6.86
+    },
+    {
+     "p": "cargueiro",
+     "i": 6.873,
+     "f": 7.368
+    },
+    {
+     "p": "de",
+     "i": 7.381,
+     "f": 7.472
+    },
+    {
+     "p": "minério",
+     "i": 7.485,
+     "f": 7.941
+    },
+    {
+     "p": "um",
+     "i": 8.214,
+     "f": 8.318
+    },
+    {
+     "p": "navio",
+     "i": 8.331,
+     "f": 8.683
+    },
+    {
+     "p": "de",
+     "i": 8.696,
+     "f": 8.8
+    },
+    {
+     "p": "cruzeiro",
+     "i": 8.813,
+     "f": 9.321
+    },
+    {
+     "p": "um",
+     "i": 9.685,
+     "f": 9.855
+    },
+    {
+     "p": "porta-contêineres",
+     "i": 9.868,
+     "f": 10.831
+    },
+    {
+     "p": "um",
+     "i": 11.17,
+     "f": 11.3
+    },
+    {
+     "p": "petroleiro",
+     "i": 11.313,
+     "f": 11.938
+    },
+    {
+     "p": "e",
+     "i": 11.951,
+     "f": 12.003
+    },
+    {
+     "p": "uma",
+     "i": 12.016,
+     "f": 12.172
+    },
+    {
+     "p": "plataforma",
+     "i": 12.185,
+     "f": 12.876
+    },
+    {
+     "p": "flutuante",
+     "i": 12.889,
+     "f": 13.618
+    },
+    {
+     "p": "No",
+     "i": 13.966,
+     "f": 14.148
+    },
+    {
+     "p": "fim",
+     "i": 14.161,
+     "f": 14.448
+    },
+    {
+     "p": "você",
+     "i": 14.839,
+     "f": 15.112
+    },
+    {
+     "p": "vai",
+     "i": 15.125,
+     "f": 15.255
+    },
+    {
+     "p": "entender",
+     "i": 15.268,
+     "f": 15.75
+    },
+    {
+     "p": "por",
+     "i": 15.763,
+     "f": 15.958
+    },
+    {
+     "p": "que",
+     "i": 15.971,
+     "f": 16.062
+    },
+    {
+     "p": "o",
+     "i": 16.075,
+     "f": 16.128
+    },
+    {
+     "p": "maior",
+     "i": 16.141,
+     "f": 16.453
+    },
+    {
+     "p": "da",
+     "i": 16.466,
+     "f": 16.557
+    },
+    {
+     "p": "lista",
+     "i": 16.57,
+     "f": 16.948
+    },
+    {
+     "p": "nem",
+     "i": 16.961,
+     "f": 17.169
+    },
+    {
+     "p": "sequer",
+     "i": 17.182,
+     "f": 17.586
+    },
+    {
+     "p": "foi",
+     "i": 17.599,
+     "f": 17.768
+    },
+    {
+     "p": "feito",
+     "i": 17.781,
+     "f": 18.094
+    },
+    {
+     "p": "para",
+     "i": 18.107,
+     "f": 18.341
+    },
+    {
+     "p": "ir",
+     "i": 18.354,
+     "f": 18.51
+    },
+    {
+     "p": "de",
+     "i": 18.523,
+     "f": 18.601
+    },
+    {
+     "p": "um",
+     "i": 18.615,
+     "f": 18.719
+    },
+    {
+     "p": "porto",
+     "i": 18.732,
+     "f": 19.031
+    },
+    {
+     "p": "a",
+     "i": 19.044,
+     "f": 19.122
+    },
+    {
+     "p": "outro",
+     "i": 19.135,
+     "f": 19.487
+    }
+   ]
+  },
+  "valemax-1": {
+   "hash": "732d4cca26",
+   "texto": "Quinto lugar: o Valemax. Parece um cargueiro comum, só que tem trezentos e sessenta e dois metros de comprimento e sessenta e cinco de largura. Cabe até quatrocentas mil toneladas de minério de ferro. A mineradora Vale mandou construir esses navios para um objetivo frio e calculado: baixar o custo do frete do minério brasileiro até a Ásia. O primeiro, o Vale Brasil, foi entregue em dois mil e onze, num estaleiro da Coreia do Sul.",
+   "audio": "audio/valemax-1-732d4cca26.mp3",
+   "duracao": 27.011,
+   "palavras": [
+    {
+     "p": "Quinto",
+     "i": 0.102,
+     "f": 0.441
+    },
+    {
+     "p": "lugar",
+     "i": 0.454,
+     "f": 0.87
+    },
+    {
+     "p": "o",
+     "i": 1.222,
+     "f": 1.261
+    },
+    {
+     "p": "Valemax",
+     "i": 1.274,
+     "f": 2.016
+    },
+    {
+     "p": "Parece",
+     "i": 2.366,
+     "f": 2.809
+    },
+    {
+     "p": "um",
+     "i": 2.822,
+     "f": 2.887
+    },
+    {
+     "p": "cargueiro",
+     "i": 2.9,
+     "f": 3.369
+    },
+    {
+     "p": "comum",
+     "i": 3.382,
+     "f": 3.759
+    },
+    {
+     "p": "só",
+     "i": 4.072,
+     "f": 4.267
+    },
+    {
+     "p": "que",
+     "i": 4.28,
+     "f": 4.41
+    },
+    {
+     "p": "tem",
+     "i": 4.423,
+     "f": 4.567
+    },
+    {
+     "p": "trezentos",
+     "i": 4.58,
+     "f": 5.126
+    },
+    {
+     "p": "e",
+     "i": 5.14,
+     "f": 5.244
+    },
+    {
+     "p": "sessenta",
+     "i": 5.257,
+     "f": 5.621
+    },
+    {
+     "p": "e",
+     "i": 5.634,
+     "f": 5.66
+    },
+    {
+     "p": "dois",
+     "i": 5.673,
+     "f": 5.856
+    },
+    {
+     "p": "metros",
+     "i": 5.869,
+     "f": 6.285
+    },
+    {
+     "p": "de",
+     "i": 6.298,
+     "f": 6.39
+    },
+    {
+     "p": "comprimento",
+     "i": 6.403,
+     "f": 7.001
+    },
+    {
+     "p": "e",
+     "i": 7.015,
+     "f": 7.054
+    },
+    {
+     "p": "sessenta",
+     "i": 7.067,
+     "f": 7.457
+    },
+    {
+     "p": "e",
+     "i": 7.47,
+     "f": 7.509
+    },
+    {
+     "p": "cinco",
+     "i": 7.522,
+     "f": 7.874
+    },
+    {
+     "p": "de",
+     "i": 7.887,
+     "f": 7.952
+    },
+    {
+     "p": "largura",
+     "i": 7.965,
+     "f": 8.499
+    },
+    {
+     "p": "Cabe",
+     "i": 8.83,
+     "f": 9.117
+    },
+    {
+     "p": "até",
+     "i": 9.13,
+     "f": 9.364
+    },
+    {
+     "p": "quatrocentas",
+     "i": 9.377,
+     "f": 10.145
+    },
+    {
+     "p": "mil",
+     "i": 10.158,
+     "f": 10.34
+    },
+    {
+     "p": "toneladas",
+     "i": 10.354,
+     "f": 11.005
+    },
+    {
+     "p": "de",
+     "i": 11.018,
+     "f": 11.109
+    },
+    {
+     "p": "minério",
+     "i": 11.122,
+     "f": 11.512
+    },
+    {
+     "p": "de",
+     "i": 11.525,
+     "f": 11.63
+    },
+    {
+     "p": "ferro",
+     "i": 11.643,
+     "f": 12.085
+    },
+    {
+     "p": "A",
+     "i": 12.438,
+     "f": 12.529
+    },
+    {
+     "p": "mineradora",
+     "i": 12.542,
+     "f": 13.232
+    },
+    {
+     "p": "Vale",
+     "i": 13.245,
+     "f": 13.48
+    },
+    {
+     "p": "mandou",
+     "i": 13.493,
+     "f": 13.844
+    },
+    {
+     "p": "construir",
+     "i": 13.857,
+     "f": 14.352
+    },
+    {
+     "p": "esses",
+     "i": 14.365,
+     "f": 14.56
+    },
+    {
+     "p": "navios",
+     "i": 14.573,
+     "f": 15.055
+    },
+    {
+     "p": "para",
+     "i": 15.068,
+     "f": 15.225
+    },
+    {
+     "p": "um",
+     "i": 15.238,
+     "f": 15.277
+    },
+    {
+     "p": "objetivo",
+     "i": 15.29,
+     "f": 15.889
+    },
+    {
+     "p": "frio",
+     "i": 15.902,
+     "f": 16.24
+    },
+    {
+     "p": "e",
+     "i": 16.253,
+     "f": 16.305
+    },
+    {
+     "p": "calculado",
+     "i": 16.318,
+     "f": 16.93
+    },
+    {
+     "p": "baixar",
+     "i": 17.23,
+     "f": 17.685
+    },
+    {
+     "p": "o",
+     "i": 17.698,
+     "f": 17.764
+    },
+    {
+     "p": "custo",
+     "i": 17.777,
+     "f": 18.128
+    },
+    {
+     "p": "do",
+     "i": 18.141,
+     "f": 18.258
+    },
+    {
+     "p": "frete",
+     "i": 18.271,
+     "f": 18.662
+    },
+    {
+     "p": "do",
+     "i": 18.675,
+     "f": 18.753
+    },
+    {
+     "p": "minério",
+     "i": 18.766,
+     "f": 19.131
+    },
+    {
+     "p": "brasileiro",
+     "i": 19.144,
+     "f": 19.704
+    },
+    {
+     "p": "até",
+     "i": 19.717,
+     "f": 19.99
+    },
+    {
+     "p": "a",
+     "i": 20.003,
+     "f": 20.068
+    },
+    {
+     "p": "Ásia",
+     "i": 20.081,
+     "f": 20.472
+    },
+    {
+     "p": "O",
+     "i": 20.822,
+     "f": 20.965
+    },
+    {
+     "p": "primeiro",
+     "i": 20.978,
+     "f": 21.447
+    },
+    {
+     "p": "o",
+     "i": 21.851,
+     "f": 21.942
+    },
+    {
+     "p": "Vale",
+     "i": 21.955,
+     "f": 22.254
+    },
+    {
+     "p": "Brasil",
+     "i": 22.267,
+     "f": 22.762
+    },
+    {
+     "p": "foi",
+     "i": 23.036,
+     "f": 23.192
+    },
+    {
+     "p": "entregue",
+     "i": 23.205,
+     "f": 23.648
+    },
+    {
+     "p": "em",
+     "i": 23.661,
+     "f": 23.726
+    },
+    {
+     "p": "dois",
+     "i": 23.739,
+     "f": 23.973
+    },
+    {
+     "p": "mil",
+     "i": 23.986,
+     "f": 24.129
+    },
+    {
+     "p": "e",
+     "i": 24.142,
+     "f": 24.26
+    },
+    {
+     "p": "onze",
+     "i": 24.273,
+     "f": 24.637
+    },
+    {
+     "p": "num",
+     "i": 24.924,
+     "f": 25.054
+    },
+    {
+     "p": "estaleiro",
+     "i": 25.067,
+     "f": 25.549
+    },
+    {
+     "p": "da",
+     "i": 25.562,
+     "f": 25.666
+    },
+    {
+     "p": "Coreia",
+     "i": 25.679,
+     "f": 26.057
+    },
+    {
+     "p": "do",
+     "i": 26.069,
+     "f": 26.187
+    },
+    {
+     "p": "Sul",
+     "i": 26.2,
+     "f": 26.525
+    }
+   ]
+  },
+  "valemax-2": {
+   "hash": "5b41720008",
+   "texto": "Mas o tamanho esbarrou na política. Em dois mil e doze, a China proibiu graneleiros acima de trezentas mil toneladas em seus portos. Oficialmente, para proteger o frete nacional, e com preocupações de segurança. Sem acesso, a Vale usou portos de transbordo nas Filipinas. O veto só caiu em julho de dois mil e quinze, quando quatro portos chineses foram abertos para esses gigantes.",
+   "audio": "audio/valemax-2-5b41720008.mp3",
+   "duracao": 25.051,
+   "palavras": [
+    {
+     "p": "Mas",
+     "i": 0.102,
+     "f": 0.31
+    },
+    {
+     "p": "o",
+     "i": 0.323,
+     "f": 0.454
+    },
+    {
+     "p": "tamanho",
+     "i": 0.467,
+     "f": 0.909
+    },
+    {
+     "p": "esbarrou",
+     "i": 0.922,
+     "f": 1.391
+    },
+    {
+     "p": "na",
+     "i": 1.404,
+     "f": 1.534
+    },
+    {
+     "p": "política",
+     "i": 1.547,
+     "f": 2.068
+    },
+    {
+     "p": "Em",
+     "i": 2.414,
+     "f": 2.531
+    },
+    {
+     "p": "dois",
+     "i": 2.544,
+     "f": 2.766
+    },
+    {
+     "p": "mil",
+     "i": 2.779,
+     "f": 2.883
+    },
+    {
+     "p": "e",
+     "i": 2.896,
+     "f": 2.961
+    },
+    {
+     "p": "doze",
+     "i": 2.974,
+     "f": 3.378
+    },
+    {
+     "p": "a",
+     "i": 3.612,
+     "f": 3.677
+    },
+    {
+     "p": "China",
+     "i": 3.69,
+     "f": 4.055
+    },
+    {
+     "p": "proibiu",
+     "i": 4.068,
+     "f": 4.419
+    },
+    {
+     "p": "graneleiros",
+     "i": 4.432,
+     "f": 4.94
+    },
+    {
+     "p": "acima",
+     "i": 4.953,
+     "f": 5.409
+    },
+    {
+     "p": "de",
+     "i": 5.422,
+     "f": 5.526
+    },
+    {
+     "p": "trezentas",
+     "i": 5.539,
+     "f": 6.138
+    },
+    {
+     "p": "mil",
+     "i": 6.151,
+     "f": 6.346
+    },
+    {
+     "p": "toneladas",
+     "i": 6.359,
+     "f": 6.971
+    },
+    {
+     "p": "em",
+     "i": 6.984,
+     "f": 7.115
+    },
+    {
+     "p": "seus",
+     "i": 7.128,
+     "f": 7.349
+    },
+    {
+     "p": "portos",
+     "i": 7.362,
+     "f": 7.948
+    },
+    {
+     "p": "Oficialmente",
+     "i": 8.278,
+     "f": 9.163
+    },
+    {
+     "p": "para",
+     "i": 9.411,
+     "f": 9.606
+    },
+    {
+     "p": "proteger",
+     "i": 9.619,
+     "f": 10.166
+    },
+    {
+     "p": "o",
+     "i": 10.179,
+     "f": 10.231
+    },
+    {
+     "p": "frete",
+     "i": 10.244,
+     "f": 10.648
+    },
+    {
+     "p": "nacional",
+     "i": 10.661,
+     "f": 11.208
+    },
+    {
+     "p": "e",
+     "i": 11.507,
+     "f": 11.585
+    },
+    {
+     "p": "com",
+     "i": 11.598,
+     "f": 11.768
+    },
+    {
+     "p": "preocupações",
+     "i": 11.781,
+     "f": 12.536
+    },
+    {
+     "p": "de",
+     "i": 12.549,
+     "f": 12.64
+    },
+    {
+     "p": "segurança",
+     "i": 12.653,
+     "f": 13.33
+    },
+    {
+     "p": "Sem",
+     "i": 13.662,
+     "f": 14.001
+    },
+    {
+     "p": "acesso",
+     "i": 14.014,
+     "f": 14.587
+    },
+    {
+     "p": "a",
+     "i": 14.847,
+     "f": 14.964
+    },
+    {
+     "p": "Vale",
+     "i": 14.977,
+     "f": 15.238
+    },
+    {
+     "p": "usou",
+     "i": 15.251,
+     "f": 15.537
+    },
+    {
+     "p": "portos",
+     "i": 15.55,
+     "f": 15.98
+    },
+    {
+     "p": "de",
+     "i": 15.993,
+     "f": 16.097
+    },
+    {
+     "p": "transbordo",
+     "i": 16.11,
+     "f": 16.735
+    },
+    {
+     "p": "nas",
+     "i": 16.748,
+     "f": 16.93
+    },
+    {
+     "p": "Filipinas",
+     "i": 16.943,
+     "f": 17.712
+    },
+    {
+     "p": "O",
+     "i": 18.062,
+     "f": 18.192
+    },
+    {
+     "p": "veto",
+     "i": 18.205,
+     "f": 18.596
+    },
+    {
+     "p": "só",
+     "i": 18.609,
+     "f": 18.817
+    },
+    {
+     "p": "caiu",
+     "i": 18.83,
+     "f": 19.13
+    },
+    {
+     "p": "em",
+     "i": 19.143,
+     "f": 19.234
+    },
+    {
+     "p": "julho",
+     "i": 19.247,
+     "f": 19.612
+    },
+    {
+     "p": "de",
+     "i": 19.625,
+     "f": 19.716
+    },
+    {
+     "p": "dois",
+     "i": 19.729,
+     "f": 19.924
+    },
+    {
+     "p": "mil",
+     "i": 19.937,
+     "f": 20.054
+    },
+    {
+     "p": "e",
+     "i": 20.067,
+     "f": 20.132
+    },
+    {
+     "p": "quinze",
+     "i": 20.145,
+     "f": 20.575
+    },
+    {
+     "p": "quando",
+     "i": 20.875,
+     "f": 21.135
+    },
+    {
+     "p": "quatro",
+     "i": 21.148,
+     "f": 21.526
+    },
+    {
+     "p": "portos",
+     "i": 21.539,
+     "f": 21.942
+    },
+    {
+     "p": "chineses",
+     "i": 21.955,
+     "f": 22.476
+    },
+    {
+     "p": "foram",
+     "i": 22.489,
+     "f": 22.763
+    },
+    {
+     "p": "abertos",
+     "i": 22.776,
+     "f": 23.296
+    },
+    {
+     "p": "para",
+     "i": 23.309,
+     "f": 23.544
+    },
+    {
+     "p": "esses",
+     "i": 23.557,
+     "f": 23.83
+    },
+    {
+     "p": "gigantes",
+     "i": 23.843,
+     "f": 24.533
+    }
+   ]
+  },
+  "icon-1": {
+   "hash": "e8c5342b2a",
+   "texto": "Quarto lugar: o Icon of the Seas, da Royal Caribbean. São trezentos e sessenta e cinco metros de comprimento e duzentas e quarenta e oito mil toneladas de arqueação bruta, a medida do volume interno de um navio. Foi construído em Turku, na Finlândia, e entregue em novembro de dois mil e vinte e três. A viagem inaugural saiu de Miami em janeiro de dois mil e vinte e quatro.",
+   "audio": "audio/icon-1-e8c5342b2a.mp3",
+   "duracao": 23.432,
+   "palavras": [
+    {
+     "p": "Quarto",
+     "i": 0.102,
+     "f": 0.506
+    },
+    {
+     "p": "lugar",
+     "i": 0.519,
+     "f": 0.922
+    },
+    {
+     "p": "o",
+     "i": 1.274,
+     "f": 1.391
+    },
+    {
+     "p": "Icon",
+     "i": 1.404,
+     "f": 1.743
+    },
+    {
+     "p": "of",
+     "i": 1.756,
+     "f": 2.055
+    },
+    {
+     "p": "the",
+     "i": 2.068,
+     "f": 2.198
+    },
+    {
+     "p": "Seas",
+     "i": 2.211,
+     "f": 2.667
+    },
+    {
+     "p": "da",
+     "i": 2.902,
+     "f": 3.071
+    },
+    {
+     "p": "Royal",
+     "i": 3.084,
+     "f": 3.474
+    },
+    {
+     "p": "Caribbean",
+     "i": 3.487,
+     "f": 4.06
+    },
+    {
+     "p": "São",
+     "i": 4.406,
+     "f": 4.745
+    },
+    {
+     "p": "trezentos",
+     "i": 4.758,
+     "f": 5.331
+    },
+    {
+     "p": "e",
+     "i": 5.344,
+     "f": 5.448
+    },
+    {
+     "p": "sessenta",
+     "i": 5.461,
+     "f": 5.825
+    },
+    {
+     "p": "e",
+     "i": 5.838,
+     "f": 5.864
+    },
+    {
+     "p": "cinco",
+     "i": 5.877,
+     "f": 6.177
+    },
+    {
+     "p": "metros",
+     "i": 6.19,
+     "f": 6.568
+    },
+    {
+     "p": "de",
+     "i": 6.581,
+     "f": 6.672
+    },
+    {
+     "p": "comprimento",
+     "i": 6.685,
+     "f": 7.284
+    },
+    {
+     "p": "e",
+     "i": 7.297,
+     "f": 7.323
+    },
+    {
+     "p": "duzentas",
+     "i": 7.336,
+     "f": 7.805
+    },
+    {
+     "p": "e",
+     "i": 7.818,
+     "f": 7.922
+    },
+    {
+     "p": "quarenta",
+     "i": 7.935,
+     "f": 8.299
+    },
+    {
+     "p": "e",
+     "i": 8.312,
+     "f": 8.338
+    },
+    {
+     "p": "oito",
+     "i": 8.351,
+     "f": 8.612
+    },
+    {
+     "p": "mil",
+     "i": 8.625,
+     "f": 8.82
+    },
+    {
+     "p": "toneladas",
+     "i": 8.833,
+     "f": 9.458
+    },
+    {
+     "p": "de",
+     "i": 9.471,
+     "f": 9.523
+    },
+    {
+     "p": "arqueação",
+     "i": 9.536,
+     "f": 10.044
+    },
+    {
+     "p": "bruta",
+     "i": 10.057,
+     "f": 10.409
+    },
+    {
+     "p": "a",
+     "i": 10.734,
+     "f": 10.786
+    },
+    {
+     "p": "medida",
+     "i": 10.799,
+     "f": 11.177
+    },
+    {
+     "p": "do",
+     "i": 11.19,
+     "f": 11.281
+    },
+    {
+     "p": "volume",
+     "i": 11.294,
+     "f": 11.737
+    },
+    {
+     "p": "interno",
+     "i": 11.75,
+     "f": 12.206
+    },
+    {
+     "p": "de",
+     "i": 12.219,
+     "f": 12.323
+    },
+    {
+     "p": "um",
+     "i": 12.336,
+     "f": 12.401
+    },
+    {
+     "p": "navio",
+     "i": 12.414,
+     "f": 12.896
+    },
+    {
+     "p": "Foi",
+     "i": 13.246,
+     "f": 13.52
+    },
+    {
+     "p": "construído",
+     "i": 13.533,
+     "f": 14.131
+    },
+    {
+     "p": "em",
+     "i": 14.145,
+     "f": 14.236
+    },
+    {
+     "p": "Turku",
+     "i": 14.249,
+     "f": 14.691
+    },
+    {
+     "p": "na",
+     "i": 14.926,
+     "f": 15.069
+    },
+    {
+     "p": "Finlândia",
+     "i": 15.082,
+     "f": 15.707
+    },
+    {
+     "p": "e",
+     "i": 16.059,
+     "f": 16.124
+    },
+    {
+     "p": "entregue",
+     "i": 16.137,
+     "f": 16.618
+    },
+    {
+     "p": "em",
+     "i": 16.631,
+     "f": 16.684
+    },
+    {
+     "p": "novembro",
+     "i": 16.697,
+     "f": 17.217
+    },
+    {
+     "p": "de",
+     "i": 17.23,
+     "f": 17.309
+    },
+    {
+     "p": "dois",
+     "i": 17.322,
+     "f": 17.543
+    },
+    {
+     "p": "mil",
+     "i": 17.556,
+     "f": 17.699
+    },
+    {
+     "p": "e",
+     "i": 17.712,
+     "f": 17.79
+    },
+    {
+     "p": "vinte",
+     "i": 17.803,
+     "f": 18.077
+    },
+    {
+     "p": "e",
+     "i": 18.09,
+     "f": 18.129
+    },
+    {
+     "p": "três",
+     "i": 18.142,
+     "f": 18.559
+    },
+    {
+     "p": "A",
+     "i": 18.894,
+     "f": 19.024
+    },
+    {
+     "p": "viagem",
+     "i": 19.037,
+     "f": 19.519
+    },
+    {
+     "p": "inaugural",
+     "i": 19.532,
+     "f": 20.105
+    },
+    {
+     "p": "saiu",
+     "i": 20.118,
+     "f": 20.457
+    },
+    {
+     "p": "de",
+     "i": 20.47,
+     "f": 20.561
+    },
+    {
+     "p": "Miami",
+     "i": 20.574,
+     "f": 20.99
+    },
+    {
+     "p": "em",
+     "i": 21.003,
+     "f": 21.069
+    },
+    {
+     "p": "janeiro",
+     "i": 21.082,
+     "f": 21.524
+    },
+    {
+     "p": "de",
+     "i": 21.537,
+     "f": 21.628
+    },
+    {
+     "p": "dois",
+     "i": 21.641,
+     "f": 21.85
+    },
+    {
+     "p": "mil",
+     "i": 21.863,
+     "f": 22.006
+    },
+    {
+     "p": "e",
+     "i": 22.019,
+     "f": 22.097
+    },
+    {
+     "p": "vinte",
+     "i": 22.11,
+     "f": 22.397
+    },
+    {
+     "p": "e",
+     "i": 22.41,
+     "f": 22.423
+    },
+    {
+     "p": "quatro",
+     "i": 22.436,
+     "f": 22.878
+    }
+   ]
+  },
+  "icon-2": {
+   "hash": "9e60fa3a5b",
+   "texto": "Lá dentro cabem cinco mil seiscentos e dez passageiros em ocupação dupla, e até sete mil e seiscentos na lotação máxima. Trabalham a bordo dois mil trezentos e cinquenta tripulantes. São vinte conveses e um parque aquático com seis toboáguas. Os motores podem funcionar com gás natural liquefeito, o GNL, ou com combustível destilado, uma novidade para a empresa.",
+   "audio": "audio/icon-2-9e60fa3a5b.mp3",
+   "duracao": 24.007,
+   "palavras": [
+    {
+     "p": "Lá",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "dentro",
+     "i": 0.336,
+     "f": 0.701
+    },
+    {
+     "p": "cabem",
+     "i": 0.714,
+     "f": 1.092
+    },
+    {
+     "p": "cinco",
+     "i": 1.105,
+     "f": 1.508
+    },
+    {
+     "p": "mil",
+     "i": 1.521,
+     "f": 1.678
+    },
+    {
+     "p": "seiscentos",
+     "i": 1.691,
+     "f": 2.224
+    },
+    {
+     "p": "e",
+     "i": 2.237,
+     "f": 2.355
+    },
+    {
+     "p": "dez",
+     "i": 2.368,
+     "f": 2.55
+    },
+    {
+     "p": "passageiros",
+     "i": 2.563,
+     "f": 3.175
+    },
+    {
+     "p": "em",
+     "i": 3.188,
+     "f": 3.37
+    },
+    {
+     "p": "ocupação",
+     "i": 3.383,
+     "f": 4.008
+    },
+    {
+     "p": "dupla",
+     "i": 4.021,
+     "f": 4.386
+    },
+    {
+     "p": "e",
+     "i": 4.737,
+     "f": 4.842
+    },
+    {
+     "p": "até",
+     "i": 4.855,
+     "f": 5.089
+    },
+    {
+     "p": "sete",
+     "i": 5.102,
+     "f": 5.506
+    },
+    {
+     "p": "mil",
+     "i": 5.519,
+     "f": 5.675
+    },
+    {
+     "p": "e",
+     "i": 5.688,
+     "f": 5.74
+    },
+    {
+     "p": "seiscentos",
+     "i": 5.753,
+     "f": 6.378
+    },
+    {
+     "p": "na",
+     "i": 6.391,
+     "f": 6.469
+    },
+    {
+     "p": "lotação",
+     "i": 6.482,
+     "f": 7.016
+    },
+    {
+     "p": "máxima",
+     "i": 7.029,
+     "f": 7.537
+    },
+    {
+     "p": "Trabalham",
+     "i": 7.886,
+     "f": 8.433
+    },
+    {
+     "p": "a",
+     "i": 8.446,
+     "f": 8.472
+    },
+    {
+     "p": "bordo",
+     "i": 8.485,
+     "f": 8.902
+    },
+    {
+     "p": "dois",
+     "i": 8.915,
+     "f": 9.123
+    },
+    {
+     "p": "mil",
+     "i": 9.136,
+     "f": 9.331
+    },
+    {
+     "p": "trezentos",
+     "i": 9.344,
+     "f": 9.904
+    },
+    {
+     "p": "e",
+     "i": 9.917,
+     "f": 10.035
+    },
+    {
+     "p": "cinquenta",
+     "i": 10.048,
+     "f": 10.542
+    },
+    {
+     "p": "tripulantes",
+     "i": 10.555,
+     "f": 11.389
+    },
+    {
+     "p": "São",
+     "i": 11.734,
+     "f": 12.073
+    },
+    {
+     "p": "vinte",
+     "i": 12.086,
+     "f": 12.372
+    },
+    {
+     "p": "conveses",
+     "i": 12.385,
+     "f": 12.919
+    },
+    {
+     "p": "e",
+     "i": 12.932,
+     "f": 13.062
+    },
+    {
+     "p": "um",
+     "i": 13.075,
+     "f": 13.219
+    },
+    {
+     "p": "parque",
+     "i": 13.231,
+     "f": 13.492
+    },
+    {
+     "p": "aquático",
+     "i": 13.505,
+     "f": 14.026
+    },
+    {
+     "p": "com",
+     "i": 14.039,
+     "f": 14.221
+    },
+    {
+     "p": "seis",
+     "i": 14.234,
+     "f": 14.547
+    },
+    {
+     "p": "toboáguas",
+     "i": 14.56,
+     "f": 15.315
+    },
+    {
+     "p": "Os",
+     "i": 15.654,
+     "f": 15.81
+    },
+    {
+     "p": "motores",
+     "i": 15.823,
+     "f": 16.396
+    },
+    {
+     "p": "podem",
+     "i": 16.409,
+     "f": 16.683
+    },
+    {
+     "p": "funcionar",
+     "i": 16.696,
+     "f": 17.269
+    },
+    {
+     "p": "com",
+     "i": 17.282,
+     "f": 17.451
+    },
+    {
+     "p": "gás",
+     "i": 17.464,
+     "f": 17.659
+    },
+    {
+     "p": "natural",
+     "i": 17.672,
+     "f": 18.076
+    },
+    {
+     "p": "liquefeito",
+     "i": 18.089,
+     "f": 18.714
+    },
+    {
+     "p": "o",
+     "i": 19,
+     "f": 19.092
+    },
+    {
+     "p": "GNL",
+     "i": 19.105,
+     "f": 19.847
+    },
+    {
+     "p": "ou",
+     "i": 20.133,
+     "f": 20.263
+    },
+    {
+     "p": "com",
+     "i": 20.276,
+     "f": 20.459
+    },
+    {
+     "p": "combustível",
+     "i": 20.472,
+     "f": 21.058
+    },
+    {
+     "p": "destilado",
+     "i": 21.071,
+     "f": 21.709
+    },
+    {
+     "p": "uma",
+     "i": 21.982,
+     "f": 22.138
+    },
+    {
+     "p": "novidade",
+     "i": 22.151,
+     "f": 22.764
+    },
+    {
+     "p": "para",
+     "i": 22.776,
+     "f": 22.92
+    },
+    {
+     "p": "a",
+     "i": 22.933,
+     "f": 22.946
+    },
+    {
+     "p": "empresa",
+     "i": 22.959,
+     "f": 23.467
+    }
+   ]
+  },
+  "irina-1": {
+   "hash": "f420643265",
+   "texto": "Terceiro lugar: o MSC Irina. Quase quatrocentos metros, exatamente trezentos e noventa e nove vírgula nove nove, e sessenta e um de largura. Entregue em março de dois mil e vinte e três pelo estaleiro Yangzijiang, na China, ele carrega vinte e quatro mil trezentos e quarenta e seis contêineres, a medida padrão chamada TEU. Na época, era o maior porta-contêineres do mundo em capacidade.",
+   "audio": "audio/irina-1-f420643265.mp3",
+   "duracao": 24.895,
+   "palavras": [
+    {
+     "p": "Terceiro",
+     "i": 0.102,
+     "f": 0.584
+    },
+    {
+     "p": "lugar",
+     "i": 0.597,
+     "f": 1.001
+    },
+    {
+     "p": "o",
+     "i": 1.339,
+     "f": 1.469
+    },
+    {
+     "p": "MSC",
+     "i": 1.482,
+     "f": 2.211
+    },
+    {
+     "p": "Irina",
+     "i": 2.224,
+     "f": 2.706
+    },
+    {
+     "p": "Quase",
+     "i": 3.038,
+     "f": 3.468
+    },
+    {
+     "p": "quatrocentos",
+     "i": 3.481,
+     "f": 4.262
+    },
+    {
+     "p": "metros",
+     "i": 4.275,
+     "f": 4.757
+    },
+    {
+     "p": "exatamente",
+     "i": 4.965,
+     "f": 5.733
+    },
+    {
+     "p": "trezentos",
+     "i": 5.746,
+     "f": 6.254
+    },
+    {
+     "p": "e",
+     "i": 6.267,
+     "f": 6.358
+    },
+    {
+     "p": "noventa",
+     "i": 6.371,
+     "f": 6.71
+    },
+    {
+     "p": "e",
+     "i": 6.723,
+     "f": 6.749
+    },
+    {
+     "p": "nove",
+     "i": 6.762,
+     "f": 7.048
+    },
+    {
+     "p": "vírgula",
+     "i": 7.062,
+     "f": 7.413
+    },
+    {
+     "p": "nove",
+     "i": 7.426,
+     "f": 7.713
+    },
+    {
+     "p": "nove",
+     "i": 7.726,
+     "f": 8.129
+    },
+    {
+     "p": "e",
+     "i": 8.442,
+     "f": 8.494
+    },
+    {
+     "p": "sessenta",
+     "i": 8.507,
+     "f": 9.015
+    },
+    {
+     "p": "e",
+     "i": 9.028,
+     "f": 9.067
+    },
+    {
+     "p": "um",
+     "i": 9.08,
+     "f": 9.236
+    },
+    {
+     "p": "de",
+     "i": 9.249,
+     "f": 9.327
+    },
+    {
+     "p": "largura",
+     "i": 9.34,
+     "f": 9.887
+    },
+    {
+     "p": "Entregue",
+     "i": 10.222,
+     "f": 10.769
+    },
+    {
+     "p": "em",
+     "i": 10.782,
+     "f": 10.873
+    },
+    {
+     "p": "março",
+     "i": 10.886,
+     "f": 11.264
+    },
+    {
+     "p": "de",
+     "i": 11.277,
+     "f": 11.368
+    },
+    {
+     "p": "dois",
+     "i": 11.381,
+     "f": 11.589
+    },
+    {
+     "p": "mil",
+     "i": 11.602,
+     "f": 11.719
+    },
+    {
+     "p": "e",
+     "i": 11.733,
+     "f": 11.785
+    },
+    {
+     "p": "vinte",
+     "i": 11.798,
+     "f": 12.019
+    },
+    {
+     "p": "e",
+     "i": 12.032,
+     "f": 12.058
+    },
+    {
+     "p": "três",
+     "i": 12.071,
+     "f": 12.331
+    },
+    {
+     "p": "pelo",
+     "i": 12.344,
+     "f": 12.501
+    },
+    {
+     "p": "estaleiro",
+     "i": 12.514,
+     "f": 12.969
+    },
+    {
+     "p": "Yangzijiang",
+     "i": 12.982,
+     "f": 13.647
+    },
+    {
+     "p": "na",
+     "i": 13.868,
+     "f": 13.998
+    },
+    {
+     "p": "China",
+     "i": 14.011,
+     "f": 14.467
+    },
+    {
+     "p": "ele",
+     "i": 14.766,
+     "f": 14.91
+    },
+    {
+     "p": "carrega",
+     "i": 14.923,
+     "f": 15.404
+    },
+    {
+     "p": "vinte",
+     "i": 15.417,
+     "f": 15.665
+    },
+    {
+     "p": "e",
+     "i": 15.678,
+     "f": 15.691
+    },
+    {
+     "p": "quatro",
+     "i": 15.704,
+     "f": 16.029
+    },
+    {
+     "p": "mil",
+     "i": 16.042,
+     "f": 16.238
+    },
+    {
+     "p": "trezentos",
+     "i": 16.251,
+     "f": 16.785
+    },
+    {
+     "p": "e",
+     "i": 16.798,
+     "f": 16.889
+    },
+    {
+     "p": "quarenta",
+     "i": 16.902,
+     "f": 17.24
+    },
+    {
+     "p": "e",
+     "i": 17.253,
+     "f": 17.279
+    },
+    {
+     "p": "seis",
+     "i": 17.292,
+     "f": 17.488
+    },
+    {
+     "p": "contêineres",
+     "i": 17.501,
+     "f": 18.165
+    },
+    {
+     "p": "a",
+     "i": 18.425,
+     "f": 18.503
+    },
+    {
+     "p": "medida",
+     "i": 18.516,
+     "f": 18.907
+    },
+    {
+     "p": "padrão",
+     "i": 18.92,
+     "f": 19.272
+    },
+    {
+     "p": "chamada",
+     "i": 19.285,
+     "f": 19.766
+    },
+    {
+     "p": "TEU",
+     "i": 19.779,
+     "f": 20.066
+    },
+    {
+     "p": "Na",
+     "i": 20.406,
+     "f": 20.64
+    },
+    {
+     "p": "época",
+     "i": 20.653,
+     "f": 21.122
+    },
+    {
+     "p": "era",
+     "i": 21.422,
+     "f": 21.591
+    },
+    {
+     "p": "o",
+     "i": 21.604,
+     "f": 21.63
+    },
+    {
+     "p": "maior",
+     "i": 21.643,
+     "f": 21.969
+    },
+    {
+     "p": "porta-contêineres",
+     "i": 21.982,
+     "f": 22.88
+    },
+    {
+     "p": "do",
+     "i": 22.893,
+     "f": 22.997
+    },
+    {
+     "p": "mundo",
+     "i": 23.01,
+     "f": 23.362
+    },
+    {
+     "p": "em",
+     "i": 23.375,
+     "f": 23.453
+    },
+    {
+     "p": "capacidade",
+     "i": 23.466,
+     "f": 24.325
+    }
+   ]
+  },
+  "irina-2": {
+   "hash": "909147560f",
+   "texto": "Isso dá uma pilha de caixas de aço com vinte e cinco ou vinte e seis camadas de altura, dependendo da fonte. Cada contêiner leva uma carga diferente, de roupas a peças de carro. É o primeiro de uma série de seis navios parecidos. Tamanho assim exige guindastes gigantes e canais fundos, o que limita os portos capazes de recebê-lo.",
+   "audio": "audio/irina-2-909147560f.mp3",
+   "duracao": 20.741,
+   "palavras": [
+    {
+     "p": "Isso",
+     "i": 0.102,
+     "f": 0.454
+    },
+    {
+     "p": "dá",
+     "i": 0.467,
+     "f": 0.584
+    },
+    {
+     "p": "uma",
+     "i": 0.597,
+     "f": 0.792
+    },
+    {
+     "p": "pilha",
+     "i": 0.805,
+     "f": 1.066
+    },
+    {
+     "p": "de",
+     "i": 1.079,
+     "f": 1.209
+    },
+    {
+     "p": "caixas",
+     "i": 1.222,
+     "f": 1.613
+    },
+    {
+     "p": "de",
+     "i": 1.626,
+     "f": 1.717
+    },
+    {
+     "p": "aço",
+     "i": 1.73,
+     "f": 2.055
+    },
+    {
+     "p": "com",
+     "i": 2.068,
+     "f": 2.251
+    },
+    {
+     "p": "vinte",
+     "i": 2.264,
+     "f": 2.55
+    },
+    {
+     "p": "e",
+     "i": 2.563,
+     "f": 2.589
+    },
+    {
+     "p": "cinco",
+     "i": 2.602,
+     "f": 2.954
+    },
+    {
+     "p": "ou",
+     "i": 2.967,
+     "f": 3.084
+    },
+    {
+     "p": "vinte",
+     "i": 3.097,
+     "f": 3.344
+    },
+    {
+     "p": "e",
+     "i": 3.357,
+     "f": 3.383
+    },
+    {
+     "p": "seis",
+     "i": 3.396,
+     "f": 3.605
+    },
+    {
+     "p": "camadas",
+     "i": 3.618,
+     "f": 4.086
+    },
+    {
+     "p": "de",
+     "i": 4.099,
+     "f": 4.165
+    },
+    {
+     "p": "altura",
+     "i": 4.178,
+     "f": 4.607
+    },
+    {
+     "p": "dependendo",
+     "i": 4.907,
+     "f": 5.571
+    },
+    {
+     "p": "da",
+     "i": 5.584,
+     "f": 5.701
+    },
+    {
+     "p": "fonte",
+     "i": 5.714,
+     "f": 6.183
+    },
+    {
+     "p": "Cada",
+     "i": 6.518,
+     "f": 6.792
+    },
+    {
+     "p": "contêiner",
+     "i": 6.805,
+     "f": 7.299
+    },
+    {
+     "p": "leva",
+     "i": 7.312,
+     "f": 7.573
+    },
+    {
+     "p": "uma",
+     "i": 7.586,
+     "f": 7.755
+    },
+    {
+     "p": "carga",
+     "i": 7.768,
+     "f": 8.12
+    },
+    {
+     "p": "diferente",
+     "i": 8.133,
+     "f": 8.745
+    },
+    {
+     "p": "de",
+     "i": 8.94,
+     "f": 9.083
+    },
+    {
+     "p": "roupas",
+     "i": 9.096,
+     "f": 9.409
+    },
+    {
+     "p": "a",
+     "i": 9.422,
+     "f": 9.565
+    },
+    {
+     "p": "peças",
+     "i": 9.578,
+     "f": 9.969
+    },
+    {
+     "p": "de",
+     "i": 9.982,
+     "f": 10.099
+    },
+    {
+     "p": "carro",
+     "i": 10.112,
+     "f": 10.502
+    },
+    {
+     "p": "É",
+     "i": 10.846,
+     "f": 11.002
+    },
+    {
+     "p": "o",
+     "i": 11.015,
+     "f": 11.067
+    },
+    {
+     "p": "primeiro",
+     "i": 11.08,
+     "f": 11.523
+    },
+    {
+     "p": "de",
+     "i": 11.536,
+     "f": 11.601
+    },
+    {
+     "p": "uma",
+     "i": 11.614,
+     "f": 11.771
+    },
+    {
+     "p": "série",
+     "i": 11.784,
+     "f": 12.161
+    },
+    {
+     "p": "de",
+     "i": 12.174,
+     "f": 12.291
+    },
+    {
+     "p": "seis",
+     "i": 12.304,
+     "f": 12.669
+    },
+    {
+     "p": "navios",
+     "i": 12.682,
+     "f": 13.164
+    },
+    {
+     "p": "parecidos",
+     "i": 13.177,
+     "f": 13.971
+    },
+    {
+     "p": "Tamanho",
+     "i": 14.31,
+     "f": 14.766
+    },
+    {
+     "p": "assim",
+     "i": 14.779,
+     "f": 15.117
+    },
+    {
+     "p": "exige",
+     "i": 15.13,
+     "f": 15.482
+    },
+    {
+     "p": "guindastes",
+     "i": 15.495,
+     "f": 16.12
+    },
+    {
+     "p": "gigantes",
+     "i": 16.133,
+     "f": 16.589
+    },
+    {
+     "p": "e",
+     "i": 16.602,
+     "f": 16.706
+    },
+    {
+     "p": "canais",
+     "i": 16.719,
+     "f": 17.057
+    },
+    {
+     "p": "fundos",
+     "i": 17.07,
+     "f": 17.526
+    },
+    {
+     "p": "o",
+     "i": 17.852,
+     "f": 17.93
+    },
+    {
+     "p": "que",
+     "i": 17.943,
+     "f": 18.047
+    },
+    {
+     "p": "limita",
+     "i": 18.06,
+     "f": 18.412
+    },
+    {
+     "p": "os",
+     "i": 18.425,
+     "f": 18.542
+    },
+    {
+     "p": "portos",
+     "i": 18.555,
+     "f": 18.945
+    },
+    {
+     "p": "capazes",
+     "i": 18.959,
+     "f": 19.492
+    },
+    {
+     "p": "de",
+     "i": 19.505,
+     "f": 19.597
+    },
+    {
+     "p": "recebê-lo",
+     "i": 19.61,
+     "f": 20.169
+    }
+   ]
+  },
+  "seawise-1": {
+   "hash": "ff3507a1d9",
+   "texto": "Segundo lugar: o Seawise Giant. Foi o maior navio de carga já construído, em comprimento e em capacidade. Quatrocentos e cinquenta e oito metros de comprimento, sessenta e oito de largura e mais de quinhentas e sessenta mil toneladas de carga. Era um petroleiro, encomendado em mil novecentos e setenta e quatro e entregue em setenta e nove pelo estaleiro Sumitomo, no Japão. Cheio, ele deslocava seiscentas e cinquenta e sete mil toneladas.",
+   "audio": "audio/seawise-1-ff3507a1d9.mp3",
+   "duracao": 27.402,
+   "palavras": [
+    {
+     "p": "Segundo",
+     "i": 0.102,
+     "f": 0.701
+    },
+    {
+     "p": "lugar",
+     "i": 0.714,
+     "f": 1.131
+    },
+    {
+     "p": "o",
+     "i": 1.534,
+     "f": 1.586
+    },
+    {
+     "p": "Seawise",
+     "i": 1.599,
+     "f": 2.224
+    },
+    {
+     "p": "Giant",
+     "i": 2.237,
+     "f": 2.784
+    },
+    {
+     "p": "Foi",
+     "i": 3.134,
+     "f": 3.342
+    },
+    {
+     "p": "o",
+     "i": 3.355,
+     "f": 3.408
+    },
+    {
+     "p": "maior",
+     "i": 3.421,
+     "f": 3.733
+    },
+    {
+     "p": "navio",
+     "i": 3.746,
+     "f": 4.072
+    },
+    {
+     "p": "de",
+     "i": 4.085,
+     "f": 4.215
+    },
+    {
+     "p": "carga",
+     "i": 4.228,
+     "f": 4.566
+    },
+    {
+     "p": "já",
+     "i": 4.579,
+     "f": 4.749
+    },
+    {
+     "p": "construído",
+     "i": 4.762,
+     "f": 5.478
+    },
+    {
+     "p": "em",
+     "i": 5.738,
+     "f": 5.816
+    },
+    {
+     "p": "comprimento",
+     "i": 5.829,
+     "f": 6.52
+    },
+    {
+     "p": "e",
+     "i": 6.533,
+     "f": 6.559
+    },
+    {
+     "p": "em",
+     "i": 6.572,
+     "f": 6.65
+    },
+    {
+     "p": "capacidade",
+     "i": 6.663,
+     "f": 7.457
+    },
+    {
+     "p": "Quatrocentos",
+     "i": 7.798,
+     "f": 8.566
+    },
+    {
+     "p": "e",
+     "i": 8.579,
+     "f": 8.697
+    },
+    {
+     "p": "cinquenta",
+     "i": 8.71,
+     "f": 9.113
+    },
+    {
+     "p": "e",
+     "i": 9.126,
+     "f": 9.139
+    },
+    {
+     "p": "oito",
+     "i": 9.152,
+     "f": 9.374
+    },
+    {
+     "p": "metros",
+     "i": 9.387,
+     "f": 9.764
+    },
+    {
+     "p": "de",
+     "i": 9.777,
+     "f": 9.868
+    },
+    {
+     "p": "comprimento",
+     "i": 9.881,
+     "f": 10.519
+    },
+    {
+     "p": "sessenta",
+     "i": 10.832,
+     "f": 11.34
+    },
+    {
+     "p": "e",
+     "i": 11.353,
+     "f": 11.379
+    },
+    {
+     "p": "oito",
+     "i": 11.392,
+     "f": 11.665
+    },
+    {
+     "p": "de",
+     "i": 11.678,
+     "f": 11.769
+    },
+    {
+     "p": "largura",
+     "i": 11.782,
+     "f": 12.251
+    },
+    {
+     "p": "e",
+     "i": 12.264,
+     "f": 12.29
+    },
+    {
+     "p": "mais",
+     "i": 12.303,
+     "f": 12.603
+    },
+    {
+     "p": "de",
+     "i": 12.616,
+     "f": 12.72
+    },
+    {
+     "p": "quinhentas",
+     "i": 12.733,
+     "f": 13.319
+    },
+    {
+     "p": "e",
+     "i": 13.332,
+     "f": 13.449
+    },
+    {
+     "p": "sessenta",
+     "i": 13.462,
+     "f": 13.905
+    },
+    {
+     "p": "mil",
+     "i": 13.918,
+     "f": 14.1
+    },
+    {
+     "p": "toneladas",
+     "i": 14.113,
+     "f": 14.751
+    },
+    {
+     "p": "de",
+     "i": 14.764,
+     "f": 14.855
+    },
+    {
+     "p": "carga",
+     "i": 14.868,
+     "f": 15.311
+    },
+    {
+     "p": "Era",
+     "i": 15.654,
+     "f": 15.862
+    },
+    {
+     "p": "um",
+     "i": 15.875,
+     "f": 15.941
+    },
+    {
+     "p": "petroleiro",
+     "i": 15.954,
+     "f": 16.553
+    },
+    {
+     "p": "encomendado",
+     "i": 16.722,
+     "f": 17.438
+    },
+    {
+     "p": "em",
+     "i": 17.451,
+     "f": 17.529
+    },
+    {
+     "p": "mil",
+     "i": 17.542,
+     "f": 17.685
+    },
+    {
+     "p": "novecentos",
+     "i": 17.698,
+     "f": 18.271
+    },
+    {
+     "p": "e",
+     "i": 18.284,
+     "f": 18.375
+    },
+    {
+     "p": "setenta",
+     "i": 18.388,
+     "f": 18.714
+    },
+    {
+     "p": "e",
+     "i": 18.727,
+     "f": 18.753
+    },
+    {
+     "p": "quatro",
+     "i": 18.766,
+     "f": 19.183
+    },
+    {
+     "p": "e",
+     "i": 19.196,
+     "f": 19.209
+    },
+    {
+     "p": "entregue",
+     "i": 19.222,
+     "f": 19.651
+    },
+    {
+     "p": "em",
+     "i": 19.664,
+     "f": 19.717
+    },
+    {
+     "p": "setenta",
+     "i": 19.73,
+     "f": 20.12
+    },
+    {
+     "p": "e",
+     "i": 20.133,
+     "f": 20.159
+    },
+    {
+     "p": "nove",
+     "i": 20.172,
+     "f": 20.42
+    },
+    {
+     "p": "pelo",
+     "i": 20.433,
+     "f": 20.615
+    },
+    {
+     "p": "estaleiro",
+     "i": 20.628,
+     "f": 21.097
+    },
+    {
+     "p": "Sumitomo",
+     "i": 21.11,
+     "f": 21.735
+    },
+    {
+     "p": "no",
+     "i": 22.008,
+     "f": 22.099
+    },
+    {
+     "p": "Japão",
+     "i": 22.112,
+     "f": 22.568
+    },
+    {
+     "p": "Cheio",
+     "i": 22.91,
+     "f": 23.366
+    },
+    {
+     "p": "ele",
+     "i": 23.548,
+     "f": 23.73
+    },
+    {
+     "p": "deslocava",
+     "i": 23.743,
+     "f": 24.342
+    },
+    {
+     "p": "seiscentas",
+     "i": 24.355,
+     "f": 24.993
+    },
+    {
+     "p": "e",
+     "i": 25.006,
+     "f": 25.124
+    },
+    {
+     "p": "cinquenta",
+     "i": 25.137,
+     "f": 25.553
+    },
+    {
+     "p": "e",
+     "i": 25.566,
+     "f": 25.592
+    },
+    {
+     "p": "sete",
+     "i": 25.605,
+     "f": 25.944
+    },
+    {
+     "p": "mil",
+     "i": 25.957,
+     "f": 26.139
+    },
+    {
+     "p": "toneladas",
+     "i": 26.152,
+     "f": 26.921
+    }
+   ]
+  },
+  "seawise-2": {
+   "hash": "220949f5af",
+   "texto": "Ele era grande demais para o mundo. Não passava pelo Canal da Mancha, nem pelo de Suez, nem pelo do Panamá. Segundo o capitão, precisava de nove quilômetros para parar e fazia uma curva de cerca de três quilômetros de diâmetro. Em maio de mil novecentos e oitenta e oito, durante a guerra entre Irã e Iraque, aviões iraquianos acertaram o navio com mísseis Exocet.",
+   "audio": "audio/seawise-2-220949f5af.mp3",
+   "duracao": 22.831,
+   "palavras": [
+    {
+     "p": "Ele",
+     "i": 0.102,
+     "f": 0.31
+    },
+    {
+     "p": "era",
+     "i": 0.323,
+     "f": 0.519
+    },
+    {
+     "p": "grande",
+     "i": 0.532,
+     "f": 0.935
+    },
+    {
+     "p": "demais",
+     "i": 0.948,
+     "f": 1.365
+    },
+    {
+     "p": "para",
+     "i": 1.378,
+     "f": 1.547
+    },
+    {
+     "p": "o",
+     "i": 1.56,
+     "f": 1.586
+    },
+    {
+     "p": "mundo",
+     "i": 1.599,
+     "f": 1.964
+    },
+    {
+     "p": "Não",
+     "i": 2.294,
+     "f": 2.568
+    },
+    {
+     "p": "passava",
+     "i": 2.581,
+     "f": 3.101
+    },
+    {
+     "p": "pelo",
+     "i": 3.114,
+     "f": 3.323
+    },
+    {
+     "p": "Canal",
+     "i": 3.336,
+     "f": 3.648
+    },
+    {
+     "p": "da",
+     "i": 3.661,
+     "f": 3.765
+    },
+    {
+     "p": "Mancha",
+     "i": 3.778,
+     "f": 4.221
+    },
+    {
+     "p": "nem",
+     "i": 4.429,
+     "f": 4.638
+    },
+    {
+     "p": "pelo",
+     "i": 4.651,
+     "f": 4.898
+    },
+    {
+     "p": "de",
+     "i": 4.911,
+     "f": 5.002
+    },
+    {
+     "p": "Suez",
+     "i": 5.015,
+     "f": 5.549
+    },
+    {
+     "p": "nem",
+     "i": 5.771,
+     "f": 6.07
+    },
+    {
+     "p": "pelo",
+     "i": 6.083,
+     "f": 6.331
+    },
+    {
+     "p": "do",
+     "i": 6.344,
+     "f": 6.461
+    },
+    {
+     "p": "Panamá",
+     "i": 6.474,
+     "f": 7.008
+    },
+    {
+     "p": "Segundo",
+     "i": 7.342,
+     "f": 7.863
+    },
+    {
+     "p": "o",
+     "i": 7.876,
+     "f": 7.902
+    },
+    {
+     "p": "capitão",
+     "i": 7.915,
+     "f": 8.449
+    },
+    {
+     "p": "precisava",
+     "i": 8.722,
+     "f": 9.347
+    },
+    {
+     "p": "de",
+     "i": 9.36,
+     "f": 9.478
+    },
+    {
+     "p": "nove",
+     "i": 9.491,
+     "f": 9.816
+    },
+    {
+     "p": "quilômetros",
+     "i": 9.829,
+     "f": 10.428
+    },
+    {
+     "p": "para",
+     "i": 10.441,
+     "f": 10.636
+    },
+    {
+     "p": "parar",
+     "i": 10.649,
+     "f": 10.975
+    },
+    {
+     "p": "e",
+     "i": 10.988,
+     "f": 11.027
+    },
+    {
+     "p": "fazia",
+     "i": 11.04,
+     "f": 11.444
+    },
+    {
+     "p": "uma",
+     "i": 11.457,
+     "f": 11.639
+    },
+    {
+     "p": "curva",
+     "i": 11.652,
+     "f": 12.004
+    },
+    {
+     "p": "de",
+     "i": 12.017,
+     "f": 12.121
+    },
+    {
+     "p": "cerca",
+     "i": 12.134,
+     "f": 12.511
+    },
+    {
+     "p": "de",
+     "i": 12.524,
+     "f": 12.668
+    },
+    {
+     "p": "três",
+     "i": 12.681,
+     "f": 12.928
+    },
+    {
+     "p": "quilômetros",
+     "i": 12.941,
+     "f": 13.566
+    },
+    {
+     "p": "de",
+     "i": 13.579,
+     "f": 13.67
+    },
+    {
+     "p": "diâmetro",
+     "i": 13.683,
+     "f": 14.243
+    },
+    {
+     "p": "Em",
+     "i": 14.574,
+     "f": 14.743
+    },
+    {
+     "p": "maio",
+     "i": 14.756,
+     "f": 15.03
+    },
+    {
+     "p": "de",
+     "i": 15.043,
+     "f": 15.147
+    },
+    {
+     "p": "mil",
+     "i": 15.16,
+     "f": 15.303
+    },
+    {
+     "p": "novecentos",
+     "i": 15.316,
+     "f": 15.902
+    },
+    {
+     "p": "e",
+     "i": 15.915,
+     "f": 16.006
+    },
+    {
+     "p": "oitenta",
+     "i": 16.019,
+     "f": 16.332
+    },
+    {
+     "p": "e",
+     "i": 16.345,
+     "f": 16.371
+    },
+    {
+     "p": "oito",
+     "i": 16.384,
+     "f": 16.684
+    },
+    {
+     "p": "durante",
+     "i": 16.996,
+     "f": 17.413
+    },
+    {
+     "p": "a",
+     "i": 17.426,
+     "f": 17.478
+    },
+    {
+     "p": "guerra",
+     "i": 17.491,
+     "f": 17.751
+    },
+    {
+     "p": "entre",
+     "i": 17.764,
+     "f": 17.986
+    },
+    {
+     "p": "Irã",
+     "i": 17.999,
+     "f": 18.181
+    },
+    {
+     "p": "e",
+     "i": 18.194,
+     "f": 18.246
+    },
+    {
+     "p": "Iraque",
+     "i": 18.259,
+     "f": 18.65
+    },
+    {
+     "p": "aviões",
+     "i": 18.936,
+     "f": 19.366
+    },
+    {
+     "p": "iraquianos",
+     "i": 19.379,
+     "f": 20.004
+    },
+    {
+     "p": "acertaram",
+     "i": 20.017,
+     "f": 20.629
+    },
+    {
+     "p": "o",
+     "i": 20.642,
+     "f": 20.668
+    },
+    {
+     "p": "navio",
+     "i": 20.681,
+     "f": 21.085
+    },
+    {
+     "p": "com",
+     "i": 21.098,
+     "f": 21.241
+    },
+    {
+     "p": "mísseis",
+     "i": 21.254,
+     "f": 21.618
+    },
+    {
+     "p": "Exocet",
+     "i": 21.631,
+     "f": 22.243
+    }
+   ]
+  },
+  "seawise-3": {
+   "hash": "c556e06c58",
+   "texto": "O navio pegou fogo, mas não afundou. Foi dado como perda total e, mesmo assim, reparado em Singapura, voltando ao serviço em mil novecentos e noventa e um. Mudou de nome várias vezes, até se chamar Knock Nevis. Em dois mil e nove, foi encalhado de propósito na praia de Alang, na Índia, e desmontado em dois mil e dez. Mas o primeiro lugar da lista ainda está na água, e é mais comprido que o Seawise Giant.",
+   "audio": "audio/seawise-3-c556e06c58.mp3",
+   "duracao": 26.906,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "navio",
+     "i": 0.219,
+     "f": 0.623
+    },
+    {
+     "p": "pegou",
+     "i": 0.636,
+     "f": 0.948
+    },
+    {
+     "p": "fogo",
+     "i": 0.961,
+     "f": 1.417
+    },
+    {
+     "p": "mas",
+     "i": 1.769,
+     "f": 2.003
+    },
+    {
+     "p": "não",
+     "i": 2.016,
+     "f": 2.251
+    },
+    {
+     "p": "afundou",
+     "i": 2.264,
+     "f": 2.797
+    },
+    {
+     "p": "Foi",
+     "i": 3.134,
+     "f": 3.408
+    },
+    {
+     "p": "dado",
+     "i": 3.421,
+     "f": 3.733
+    },
+    {
+     "p": "como",
+     "i": 3.746,
+     "f": 4.02
+    },
+    {
+     "p": "perda",
+     "i": 4.033,
+     "f": 4.319
+    },
+    {
+     "p": "total",
+     "i": 4.332,
+     "f": 4.788
+    },
+    {
+     "p": "e",
+     "i": 4.801,
+     "f": 4.853
+    },
+    {
+     "p": "mesmo",
+     "i": 5.1,
+     "f": 5.439
+    },
+    {
+     "p": "assim",
+     "i": 5.452,
+     "f": 5.79
+    },
+    {
+     "p": "reparado",
+     "i": 6.064,
+     "f": 6.624
+    },
+    {
+     "p": "em",
+     "i": 6.637,
+     "f": 6.715
+    },
+    {
+     "p": "Singapura",
+     "i": 6.728,
+     "f": 7.379
+    },
+    {
+     "p": "voltando",
+     "i": 7.691,
+     "f": 8.16
+    },
+    {
+     "p": "ao",
+     "i": 8.173,
+     "f": 8.251
+    },
+    {
+     "p": "serviço",
+     "i": 8.264,
+     "f": 8.785
+    },
+    {
+     "p": "em",
+     "i": 8.798,
+     "f": 8.863
+    },
+    {
+     "p": "mil",
+     "i": 8.876,
+     "f": 9.033
+    },
+    {
+     "p": "novecentos",
+     "i": 9.046,
+     "f": 9.605
+    },
+    {
+     "p": "e",
+     "i": 9.618,
+     "f": 9.71
+    },
+    {
+     "p": "noventa",
+     "i": 9.723,
+     "f": 10.074
+    },
+    {
+     "p": "e",
+     "i": 10.087,
+     "f": 10.113
+    },
+    {
+     "p": "um",
+     "i": 10.126,
+     "f": 10.296
+    },
+    {
+     "p": "Mudou",
+     "i": 10.63,
+     "f": 11.047
+    },
+    {
+     "p": "de",
+     "i": 11.06,
+     "f": 11.164
+    },
+    {
+     "p": "nome",
+     "i": 11.177,
+     "f": 11.437
+    },
+    {
+     "p": "várias",
+     "i": 11.45,
+     "f": 11.854
+    },
+    {
+     "p": "vezes",
+     "i": 11.867,
+     "f": 12.336
+    },
+    {
+     "p": "até",
+     "i": 12.596,
+     "f": 12.844
+    },
+    {
+     "p": "se",
+     "i": 12.857,
+     "f": 12.974
+    },
+    {
+     "p": "chamar",
+     "i": 12.987,
+     "f": 13.377
+    },
+    {
+     "p": "Knock",
+     "i": 13.39,
+     "f": 13.742
+    },
+    {
+     "p": "Nevis",
+     "i": 13.755,
+     "f": 14.276
+    },
+    {
+     "p": "Em",
+     "i": 14.622,
+     "f": 14.739
+    },
+    {
+     "p": "dois",
+     "i": 14.752,
+     "f": 14.961
+    },
+    {
+     "p": "mil",
+     "i": 14.974,
+     "f": 15.065
+    },
+    {
+     "p": "e",
+     "i": 15.078,
+     "f": 15.117
+    },
+    {
+     "p": "nove",
+     "i": 15.13,
+     "f": 15.481
+    },
+    {
+     "p": "foi",
+     "i": 15.794,
+     "f": 15.911
+    },
+    {
+     "p": "encalhado",
+     "i": 15.924,
+     "f": 16.432
+    },
+    {
+     "p": "de",
+     "i": 16.445,
+     "f": 16.536
+    },
+    {
+     "p": "propósito",
+     "i": 16.549,
+     "f": 17.213
+    },
+    {
+     "p": "na",
+     "i": 17.226,
+     "f": 17.369
+    },
+    {
+     "p": "praia",
+     "i": 17.382,
+     "f": 17.708
+    },
+    {
+     "p": "de",
+     "i": 17.721,
+     "f": 17.799
+    },
+    {
+     "p": "Alang",
+     "i": 17.812,
+     "f": 18.164
+    },
+    {
+     "p": "na",
+     "i": 18.346,
+     "f": 18.528
+    },
+    {
+     "p": "Índia",
+     "i": 18.541,
+     "f": 18.932
+    },
+    {
+     "p": "e",
+     "i": 19.205,
+     "f": 19.284
+    },
+    {
+     "p": "desmontado",
+     "i": 19.297,
+     "f": 20.026
+    },
+    {
+     "p": "em",
+     "i": 20.039,
+     "f": 20.078
+    },
+    {
+     "p": "dois",
+     "i": 20.091,
+     "f": 20.338
+    },
+    {
+     "p": "mil",
+     "i": 20.351,
+     "f": 20.494
+    },
+    {
+     "p": "e",
+     "i": 20.507,
+     "f": 20.56
+    },
+    {
+     "p": "dez.",
+     "i": 20.573,
+     "f": 21.028
+    },
+    {
+     "p": "Mas",
+     "i": 21.374,
+     "f": 21.582
+    },
+    {
+     "p": "o",
+     "i": 21.595,
+     "f": 21.739
+    },
+    {
+     "p": "primeiro",
+     "i": 21.752,
+     "f": 22.077
+    },
+    {
+     "p": "lugar",
+     "i": 22.09,
+     "f": 22.429
+    },
+    {
+     "p": "da",
+     "i": 22.442,
+     "f": 22.533
+    },
+    {
+     "p": "lista",
+     "i": 22.546,
+     "f": 22.937
+    },
+    {
+     "p": "ainda",
+     "i": 22.95,
+     "f": 23.158
+    },
+    {
+     "p": "está",
+     "i": 23.171,
+     "f": 23.353
+    },
+    {
+     "p": "na",
+     "i": 23.366,
+     "f": 23.483
+    },
+    {
+     "p": "água",
+     "i": 23.496,
+     "f": 23.822
+    },
+    {
+     "p": "e",
+     "i": 24.121,
+     "f": 24.2
+    },
+    {
+     "p": "é",
+     "i": 24.213,
+     "f": 24.304
+    },
+    {
+     "p": "mais",
+     "i": 24.317,
+     "f": 24.603
+    },
+    {
+     "p": "comprido",
+     "i": 24.616,
+     "f": 25.124
+    },
+    {
+     "p": "que",
+     "i": 25.137,
+     "f": 25.215
+    },
+    {
+     "p": "o",
+     "i": 25.228,
+     "f": 25.267
+    },
+    {
+     "p": "Seawise",
+     "i": 25.28,
+     "f": 25.814
+    },
+    {
+     "p": "Giant",
+     "i": 25.827,
+     "f": 26.4
+    }
+   ]
+  },
+  "prelude-1": {
+   "hash": "b484f12844",
+   "texto": "Primeiro lugar: o Prelude. Quatrocentos e oitenta e oito metros de comprimento, setenta e quatro de largura e cerca de seiscentas mil toneladas quando carregado, mais de cinco vezes o deslocamento de um porta-aviões da classe Nimitz. Foi construído pela Samsung Heavy Industries, na Coreia do Sul, para a Shell, e lançado ao mar no fim de dois mil e treze, com mais de duzentas e sessenta mil toneladas de aço.",
+   "audio": "audio/prelude-1-b484f12844.mp3",
+   "duracao": 25.966,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "lugar",
+     "i": 0.532,
+     "f": 0.961
+    },
+    {
+     "p": "o",
+     "i": 1.326,
+     "f": 1.378
+    },
+    {
+     "p": "Prelude",
+     "i": 1.391,
+     "f": 2.003
+    },
+    {
+     "p": "Quatrocentos",
+     "i": 2.342,
+     "f": 3.11
+    },
+    {
+     "p": "e",
+     "i": 3.123,
+     "f": 3.227
+    },
+    {
+     "p": "oitenta",
+     "i": 3.241,
+     "f": 3.566
+    },
+    {
+     "p": "e",
+     "i": 3.579,
+     "f": 3.605
+    },
+    {
+     "p": "oito",
+     "i": 3.618,
+     "f": 3.853
+    },
+    {
+     "p": "metros",
+     "i": 3.866,
+     "f": 4.256
+    },
+    {
+     "p": "de",
+     "i": 4.269,
+     "f": 4.36
+    },
+    {
+     "p": "comprimento",
+     "i": 4.373,
+     "f": 4.998
+    },
+    {
+     "p": "setenta",
+     "i": 5.311,
+     "f": 5.727
+    },
+    {
+     "p": "e",
+     "i": 5.741,
+     "f": 5.78
+    },
+    {
+     "p": "quatro",
+     "i": 5.793,
+     "f": 6.183
+    },
+    {
+     "p": "de",
+     "i": 6.196,
+     "f": 6.261
+    },
+    {
+     "p": "largura",
+     "i": 6.274,
+     "f": 6.717
+    },
+    {
+     "p": "e",
+     "i": 6.73,
+     "f": 6.756
+    },
+    {
+     "p": "cerca",
+     "i": 6.769,
+     "f": 7.173
+    },
+    {
+     "p": "de",
+     "i": 7.186,
+     "f": 7.303
+    },
+    {
+     "p": "seiscentas",
+     "i": 7.316,
+     "f": 7.941
+    },
+    {
+     "p": "mil",
+     "i": 7.954,
+     "f": 8.149
+    },
+    {
+     "p": "toneladas",
+     "i": 8.162,
+     "f": 8.826
+    },
+    {
+     "p": "quando",
+     "i": 8.839,
+     "f": 9.061
+    },
+    {
+     "p": "carregado",
+     "i": 9.074,
+     "f": 9.686
+    },
+    {
+     "p": "mais",
+     "i": 9.985,
+     "f": 10.207
+    },
+    {
+     "p": "de",
+     "i": 10.22,
+     "f": 10.337
+    },
+    {
+     "p": "cinco",
+     "i": 10.35,
+     "f": 10.78
+    },
+    {
+     "p": "vezes",
+     "i": 10.793,
+     "f": 11.157
+    },
+    {
+     "p": "o",
+     "i": 11.17,
+     "f": 11.313
+    },
+    {
+     "p": "deslocamento",
+     "i": 11.326,
+     "f": 12.147
+    },
+    {
+     "p": "de",
+     "i": 12.16,
+     "f": 12.251
+    },
+    {
+     "p": "um",
+     "i": 12.264,
+     "f": 12.368
+    },
+    {
+     "p": "porta-aviões",
+     "i": 12.381,
+     "f": 13.058
+    },
+    {
+     "p": "da",
+     "i": 13.071,
+     "f": 13.201
+    },
+    {
+     "p": "classe",
+     "i": 13.215,
+     "f": 13.631
+    },
+    {
+     "p": "Nimitz",
+     "i": 13.644,
+     "f": 14.204
+    },
+    {
+     "p": "Foi",
+     "i": 14.542,
+     "f": 14.789
+    },
+    {
+     "p": "construído",
+     "i": 14.802,
+     "f": 15.401
+    },
+    {
+     "p": "pela",
+     "i": 15.415,
+     "f": 15.636
+    },
+    {
+     "p": "Samsung",
+     "i": 15.649,
+     "f": 16.248
+    },
+    {
+     "p": "Heavy",
+     "i": 16.261,
+     "f": 16.625
+    },
+    {
+     "p": "Industries",
+     "i": 16.638,
+     "f": 17.289
+    },
+    {
+     "p": "na",
+     "i": 17.511,
+     "f": 17.654
+    },
+    {
+     "p": "Coreia",
+     "i": 17.667,
+     "f": 18.032
+    },
+    {
+     "p": "do",
+     "i": 18.045,
+     "f": 18.162
+    },
+    {
+     "p": "Sul",
+     "i": 18.175,
+     "f": 18.5
+    },
+    {
+     "p": "para",
+     "i": 18.774,
+     "f": 18.982
+    },
+    {
+     "p": "a",
+     "i": 18.995,
+     "f": 19.021
+    },
+    {
+     "p": "Shell",
+     "i": 19.034,
+     "f": 19.438
+    },
+    {
+     "p": "e",
+     "i": 19.763,
+     "f": 19.855
+    },
+    {
+     "p": "lançado",
+     "i": 19.868,
+     "f": 20.388
+    },
+    {
+     "p": "ao",
+     "i": 20.401,
+     "f": 20.493
+    },
+    {
+     "p": "mar",
+     "i": 20.506,
+     "f": 20.792
+    },
+    {
+     "p": "no",
+     "i": 20.805,
+     "f": 20.922
+    },
+    {
+     "p": "fim",
+     "i": 20.935,
+     "f": 21.157
+    },
+    {
+     "p": "de",
+     "i": 21.17,
+     "f": 21.261
+    },
+    {
+     "p": "dois",
+     "i": 21.274,
+     "f": 21.456
+    },
+    {
+     "p": "mil",
+     "i": 21.469,
+     "f": 21.586
+    },
+    {
+     "p": "e",
+     "i": 21.599,
+     "f": 21.677
+    },
+    {
+     "p": "treze",
+     "i": 21.691,
+     "f": 22.081
+    },
+    {
+     "p": "com",
+     "i": 22.381,
+     "f": 22.576
+    },
+    {
+     "p": "mais",
+     "i": 22.589,
+     "f": 22.836
+    },
+    {
+     "p": "de",
+     "i": 22.849,
+     "f": 22.928
+    },
+    {
+     "p": "duzentas",
+     "i": 22.941,
+     "f": 23.435
+    },
+    {
+     "p": "e",
+     "i": 23.448,
+     "f": 23.566
+    },
+    {
+     "p": "sessenta",
+     "i": 23.579,
+     "f": 23.982
+    },
+    {
+     "p": "mil",
+     "i": 23.995,
+     "f": 24.191
+    },
+    {
+     "p": "toneladas",
+     "i": 24.204,
+     "f": 24.855
+    },
+    {
+     "p": "de",
+     "i": 24.868,
+     "f": 24.972
+    },
+    {
+     "p": "aço",
+     "i": 24.985,
+     "f": 25.349
+    }
+   ]
+  },
+  "prelude-2": {
+   "hash": "80b8e60743",
+   "texto": "Ele não é um navio de transporte. É uma fábrica flutuante de gás natural liquefeito. O gás sai do fundo do mar, é resfriado e armazenado a bordo, sem tubulação até a terra. Em julho de dois mil e dezessete, depois de rebocado por cerca de cinco mil e oitocentos quilômetros, chegou ao campo, a uns duzentos quilômetros da costa da Austrália Ocidental. Fica preso ao fundo por dezesseis estacas de aço e foi projetado para resistir a ciclones de categoria cinco.",
+   "audio": "audio/prelude-2-80b8e60743.mp3",
+   "duracao": 29.231,
+   "palavras": [
+    {
+     "p": "Ele",
+     "i": 0.102,
+     "f": 0.31
+    },
+    {
+     "p": "não",
+     "i": 0.323,
+     "f": 0.571
+    },
+    {
+     "p": "é",
+     "i": 0.584,
+     "f": 0.662
+    },
+    {
+     "p": "um",
+     "i": 0.675,
+     "f": 0.766
+    },
+    {
+     "p": "navio",
+     "i": 0.779,
+     "f": 1.183
+    },
+    {
+     "p": "de",
+     "i": 1.196,
+     "f": 1.287
+    },
+    {
+     "p": "transporte",
+     "i": 1.3,
+     "f": 2.016
+    },
+    {
+     "p": "É",
+     "i": 2.366,
+     "f": 2.483
+    },
+    {
+     "p": "uma",
+     "i": 2.496,
+     "f": 2.718
+    },
+    {
+     "p": "fábrica",
+     "i": 2.731,
+     "f": 3.238
+    },
+    {
+     "p": "flutuante",
+     "i": 3.252,
+     "f": 3.89
+    },
+    {
+     "p": "de",
+     "i": 3.903,
+     "f": 3.994
+    },
+    {
+     "p": "gás",
+     "i": 4.007,
+     "f": 4.254
+    },
+    {
+     "p": "natural",
+     "i": 4.267,
+     "f": 4.684
+    },
+    {
+     "p": "liquefeito",
+     "i": 4.697,
+     "f": 5.4
+    },
+    {
+     "p": "O",
+     "i": 5.734,
+     "f": 5.864
+    },
+    {
+     "p": "gás",
+     "i": 5.877,
+     "f": 6.138
+    },
+    {
+     "p": "sai",
+     "i": 6.151,
+     "f": 6.372
+    },
+    {
+     "p": "do",
+     "i": 6.385,
+     "f": 6.489
+    },
+    {
+     "p": "fundo",
+     "i": 6.502,
+     "f": 6.828
+    },
+    {
+     "p": "do",
+     "i": 6.841,
+     "f": 6.945
+    },
+    {
+     "p": "mar",
+     "i": 6.958,
+     "f": 7.205
+    },
+    {
+     "p": "é",
+     "i": 7.492,
+     "f": 7.531
+    },
+    {
+     "p": "resfriado",
+     "i": 7.544,
+     "f": 8.273
+    },
+    {
+     "p": "e",
+     "i": 8.286,
+     "f": 8.312
+    },
+    {
+     "p": "armazenado",
+     "i": 8.325,
+     "f": 8.924
+    },
+    {
+     "p": "a",
+     "i": 8.937,
+     "f": 8.989
+    },
+    {
+     "p": "bordo",
+     "i": 9.002,
+     "f": 9.419
+    },
+    {
+     "p": "sem",
+     "i": 9.692,
+     "f": 9.953
+    },
+    {
+     "p": "tubulação",
+     "i": 9.966,
+     "f": 10.604
+    },
+    {
+     "p": "até",
+     "i": 10.617,
+     "f": 10.864
+    },
+    {
+     "p": "a",
+     "i": 10.877,
+     "f": 10.955
+    },
+    {
+     "p": "terra",
+     "i": 10.968,
+     "f": 11.385
+    },
+    {
+     "p": "Em",
+     "i": 11.718,
+     "f": 11.887
+    },
+    {
+     "p": "julho",
+     "i": 11.9,
+     "f": 12.278
+    },
+    {
+     "p": "de",
+     "i": 12.291,
+     "f": 12.382
+    },
+    {
+     "p": "dois",
+     "i": 12.395,
+     "f": 12.564
+    },
+    {
+     "p": "mil",
+     "i": 12.577,
+     "f": 12.682
+    },
+    {
+     "p": "e",
+     "i": 12.695,
+     "f": 12.734
+    },
+    {
+     "p": "dezessete",
+     "i": 12.747,
+     "f": 13.411
+    },
+    {
+     "p": "depois",
+     "i": 13.736,
+     "f": 14.166
+    },
+    {
+     "p": "de",
+     "i": 14.179,
+     "f": 14.257
+    },
+    {
+     "p": "rebocado",
+     "i": 14.27,
+     "f": 14.908
+    },
+    {
+     "p": "por",
+     "i": 14.921,
+     "f": 15.09
+    },
+    {
+     "p": "cerca",
+     "i": 15.103,
+     "f": 15.481
+    },
+    {
+     "p": "de",
+     "i": 15.494,
+     "f": 15.624
+    },
+    {
+     "p": "cinco",
+     "i": 15.637,
+     "f": 16.08
+    },
+    {
+     "p": "mil",
+     "i": 16.093,
+     "f": 16.262
+    },
+    {
+     "p": "e",
+     "i": 16.275,
+     "f": 16.301
+    },
+    {
+     "p": "oitocentos",
+     "i": 16.314,
+     "f": 16.952
+    },
+    {
+     "p": "quilômetros",
+     "i": 16.965,
+     "f": 17.656
+    },
+    {
+     "p": "chegou",
+     "i": 17.955,
+     "f": 18.359
+    },
+    {
+     "p": "ao",
+     "i": 18.372,
+     "f": 18.476
+    },
+    {
+     "p": "campo",
+     "i": 18.489,
+     "f": 18.919
+    },
+    {
+     "p": "a",
+     "i": 19.088,
+     "f": 19.179
+    },
+    {
+     "p": "uns",
+     "i": 19.192,
+     "f": 19.387
+    },
+    {
+     "p": "duzentos",
+     "i": 19.4,
+     "f": 19.947
+    },
+    {
+     "p": "quilômetros",
+     "i": 19.96,
+     "f": 20.546
+    },
+    {
+     "p": "da",
+     "i": 20.559,
+     "f": 20.703
+    },
+    {
+     "p": "costa",
+     "i": 20.716,
+     "f": 21.067
+    },
+    {
+     "p": "da",
+     "i": 21.08,
+     "f": 21.132
+    },
+    {
+     "p": "Austrália",
+     "i": 21.145,
+     "f": 21.64
+    },
+    {
+     "p": "Ocidental",
+     "i": 21.653,
+     "f": 22.317
+    },
+    {
+     "p": "Fica",
+     "i": 22.67,
+     "f": 23.035
+    },
+    {
+     "p": "preso",
+     "i": 23.048,
+     "f": 23.399
+    },
+    {
+     "p": "ao",
+     "i": 23.412,
+     "f": 23.49
+    },
+    {
+     "p": "fundo",
+     "i": 23.503,
+     "f": 23.855
+    },
+    {
+     "p": "por",
+     "i": 23.868,
+     "f": 23.998
+    },
+    {
+     "p": "dezesseis",
+     "i": 24.011,
+     "f": 24.441
+    },
+    {
+     "p": "estacas",
+     "i": 24.454,
+     "f": 24.949
+    },
+    {
+     "p": "de",
+     "i": 24.962,
+     "f": 25.066
+    },
+    {
+     "p": "aço",
+     "i": 25.079,
+     "f": 25.431
+    },
+    {
+     "p": "e",
+     "i": 25.444,
+     "f": 25.47
+    },
+    {
+     "p": "foi",
+     "i": 25.483,
+     "f": 25.613
+    },
+    {
+     "p": "projetado",
+     "i": 25.626,
+     "f": 26.277
+    },
+    {
+     "p": "para",
+     "i": 26.29,
+     "f": 26.485
+    },
+    {
+     "p": "resistir",
+     "i": 26.498,
+     "f": 26.98
+    },
+    {
+     "p": "a",
+     "i": 26.993,
+     "f": 27.032
+    },
+    {
+     "p": "ciclones",
+     "i": 27.045,
+     "f": 27.579
+    },
+    {
+     "p": "de",
+     "i": 27.592,
+     "f": 27.683
+    },
+    {
+     "p": "categoria",
+     "i": 27.696,
+     "f": 28.269
+    },
+    {
+     "p": "cinco",
+     "i": 28.282,
+     "f": 28.738
+    }
+   ]
+  },
+  "prelude-3": {
+   "hash": "f3b06eee53",
+   "texto": "A produção começou no fim de dois mil e dezoito. Mas gigantes assim dão trabalho: parou em fevereiro de dois mil e vinte, voltou em janeiro de dois mil e vinte e um e, depois de um incêndio em dezembro daquele ano, só retomou em abril de dois mil e vinte e dois. As estimativas de custo vão de onze a mais de dezessete bilhões de dólares, e o valor mais alto nunca foi confirmado pela Shell.",
+   "audio": "audio/prelude-3-f3b06eee53.mp3",
+   "duracao": 23.51,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "produção",
+     "i": 0.232,
+     "f": 0.818
+    },
+    {
+     "p": "começou",
+     "i": 0.831,
+     "f": 1.3
+    },
+    {
+     "p": "no",
+     "i": 1.313,
+     "f": 1.43
+    },
+    {
+     "p": "fim",
+     "i": 1.443,
+     "f": 1.665
+    },
+    {
+     "p": "de",
+     "i": 1.678,
+     "f": 1.769
+    },
+    {
+     "p": "dois",
+     "i": 1.782,
+     "f": 2.003
+    },
+    {
+     "p": "mil",
+     "i": 2.016,
+     "f": 2.146
+    },
+    {
+     "p": "e",
+     "i": 2.159,
+     "f": 2.198
+    },
+    {
+     "p": "dezoito",
+     "i": 2.211,
+     "f": 2.745
+    },
+    {
+     "p": "Mas",
+     "i": 3.086,
+     "f": 3.36
+    },
+    {
+     "p": "gigantes",
+     "i": 3.373,
+     "f": 3.854
+    },
+    {
+     "p": "assim",
+     "i": 3.867,
+     "f": 4.219
+    },
+    {
+     "p": "dão",
+     "i": 4.232,
+     "f": 4.44
+    },
+    {
+     "p": "trabalho",
+     "i": 4.453,
+     "f": 4.961
+    },
+    {
+     "p": "parou",
+     "i": 5.261,
+     "f": 5.573
+    },
+    {
+     "p": "em",
+     "i": 5.586,
+     "f": 5.651
+    },
+    {
+     "p": "fevereiro",
+     "i": 5.664,
+     "f": 6.172
+    },
+    {
+     "p": "de",
+     "i": 6.185,
+     "f": 6.276
+    },
+    {
+     "p": "dois",
+     "i": 6.289,
+     "f": 6.485
+    },
+    {
+     "p": "mil",
+     "i": 6.498,
+     "f": 6.615
+    },
+    {
+     "p": "e",
+     "i": 6.628,
+     "f": 6.68
+    },
+    {
+     "p": "vinte",
+     "i": 6.693,
+     "f": 7.071
+    },
+    {
+     "p": "voltou",
+     "i": 7.409,
+     "f": 7.826
+    },
+    {
+     "p": "em",
+     "i": 7.839,
+     "f": 7.917
+    },
+    {
+     "p": "janeiro",
+     "i": 7.93,
+     "f": 8.386
+    },
+    {
+     "p": "de",
+     "i": 8.399,
+     "f": 8.49
+    },
+    {
+     "p": "dois",
+     "i": 8.503,
+     "f": 8.698
+    },
+    {
+     "p": "mil",
+     "i": 8.711,
+     "f": 8.841
+    },
+    {
+     "p": "e",
+     "i": 8.854,
+     "f": 8.919
+    },
+    {
+     "p": "vinte",
+     "i": 8.932,
+     "f": 9.219
+    },
+    {
+     "p": "e",
+     "i": 9.232,
+     "f": 9.245
+    },
+    {
+     "p": "um",
+     "i": 9.258,
+     "f": 9.479
+    },
+    {
+     "p": "e",
+     "i": 9.492,
+     "f": 9.544
+    },
+    {
+     "p": "depois",
+     "i": 9.818,
+     "f": 10.248
+    },
+    {
+     "p": "de",
+     "i": 10.261,
+     "f": 10.339
+    },
+    {
+     "p": "um",
+     "i": 10.352,
+     "f": 10.43
+    },
+    {
+     "p": "incêndio",
+     "i": 10.443,
+     "f": 10.912
+    },
+    {
+     "p": "em",
+     "i": 10.925,
+     "f": 10.964
+    },
+    {
+     "p": "dezembro",
+     "i": 10.977,
+     "f": 11.485
+    },
+    {
+     "p": "daquele",
+     "i": 11.498,
+     "f": 11.875
+    },
+    {
+     "p": "ano",
+     "i": 11.888,
+     "f": 12.149
+    },
+    {
+     "p": "só",
+     "i": 12.461,
+     "f": 12.604
+    },
+    {
+     "p": "retomou",
+     "i": 12.617,
+     "f": 13.099
+    },
+    {
+     "p": "em",
+     "i": 13.112,
+     "f": 13.19
+    },
+    {
+     "p": "abril",
+     "i": 13.203,
+     "f": 13.568
+    },
+    {
+     "p": "de",
+     "i": 13.581,
+     "f": 13.672
+    },
+    {
+     "p": "dois",
+     "i": 13.685,
+     "f": 13.88
+    },
+    {
+     "p": "mil",
+     "i": 13.893,
+     "f": 14.024
+    },
+    {
+     "p": "e",
+     "i": 14.037,
+     "f": 14.089
+    },
+    {
+     "p": "vinte",
+     "i": 14.102,
+     "f": 14.323
+    },
+    {
+     "p": "e",
+     "i": 14.336,
+     "f": 14.362
+    },
+    {
+     "p": "dois",
+     "i": 14.375,
+     "f": 14.753
+    },
+    {
+     "p": "As",
+     "i": 15.094,
+     "f": 15.237
+    },
+    {
+     "p": "estimativas",
+     "i": 15.25,
+     "f": 16.006
+    },
+    {
+     "p": "de",
+     "i": 16.019,
+     "f": 16.136
+    },
+    {
+     "p": "custo",
+     "i": 16.149,
+     "f": 16.552
+    },
+    {
+     "p": "vão",
+     "i": 16.565,
+     "f": 16.761
+    },
+    {
+     "p": "de",
+     "i": 16.774,
+     "f": 16.904
+    },
+    {
+     "p": "onze",
+     "i": 16.917,
+     "f": 17.256
+    },
+    {
+     "p": "a",
+     "i": 17.269,
+     "f": 17.321
+    },
+    {
+     "p": "mais",
+     "i": 17.334,
+     "f": 17.646
+    },
+    {
+     "p": "de",
+     "i": 17.659,
+     "f": 17.763
+    },
+    {
+     "p": "dezessete",
+     "i": 17.776,
+     "f": 18.349
+    },
+    {
+     "p": "bilhões",
+     "i": 18.362,
+     "f": 18.805
+    },
+    {
+     "p": "de",
+     "i": 18.818,
+     "f": 18.909
+    },
+    {
+     "p": "dólares",
+     "i": 18.922,
+     "f": 19.417
+    },
+    {
+     "p": "e",
+     "i": 19.795,
+     "f": 19.873
+    },
+    {
+     "p": "o",
+     "i": 19.886,
+     "f": 19.925
+    },
+    {
+     "p": "valor",
+     "i": 19.938,
+     "f": 20.302
+    },
+    {
+     "p": "mais",
+     "i": 20.315,
+     "f": 20.55
+    },
+    {
+     "p": "alto",
+     "i": 20.563,
+     "f": 20.927
+    },
+    {
+     "p": "nunca",
+     "i": 20.94,
+     "f": 21.37
+    },
+    {
+     "p": "foi",
+     "i": 21.383,
+     "f": 21.539
+    },
+    {
+     "p": "confirmado",
+     "i": 21.552,
+     "f": 22.269
+    },
+    {
+     "p": "pela",
+     "i": 22.282,
+     "f": 22.49
+    },
+    {
+     "p": "Shell",
+     "i": 22.503,
+     "f": 22.881
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "dccfb80bcf",
+   "texto": "Agora dá para ver o padrão. O que faz um navio entrar nesta lista não é velocidade, nem beleza: é a escala. Cada um resolveu um problema diferente: baratear o frete, hospedar milhares de pessoas, movimentar caixas, levar petróleo ou fabricar gás no meio do nada. E cada um esbarrou num limite parecido, o de portos, canais e rotas feitos para navios menores.",
+   "audio": "audio/desfecho-dccfb80bcf.mp3",
+   "duracao": 24.503,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.545
+    },
+    {
+     "p": "dá",
+     "i": 0.558,
+     "f": 0.688
+    },
+    {
+     "p": "para",
+     "i": 0.701,
+     "f": 0.935
+    },
+    {
+     "p": "ver",
+     "i": 0.948,
+     "f": 1.131
+    },
+    {
+     "p": "o",
+     "i": 1.144,
+     "f": 1.196
+    },
+    {
+     "p": "padrão",
+     "i": 1.209,
+     "f": 1.678
+    },
+    {
+     "p": "O",
+     "i": 2.03,
+     "f": 2.147
+    },
+    {
+     "p": "que",
+     "i": 2.16,
+     "f": 2.317
+    },
+    {
+     "p": "faz",
+     "i": 2.33,
+     "f": 2.525
+    },
+    {
+     "p": "um",
+     "i": 2.538,
+     "f": 2.694
+    },
+    {
+     "p": "navio",
+     "i": 2.707,
+     "f": 3.033
+    },
+    {
+     "p": "entrar",
+     "i": 3.046,
+     "f": 3.358
+    },
+    {
+     "p": "nesta",
+     "i": 3.371,
+     "f": 3.645
+    },
+    {
+     "p": "lista",
+     "i": 3.658,
+     "f": 4.061
+    },
+    {
+     "p": "não",
+     "i": 4.074,
+     "f": 4.244
+    },
+    {
+     "p": "é",
+     "i": 4.257,
+     "f": 4.335
+    },
+    {
+     "p": "velocidade",
+     "i": 4.348,
+     "f": 5.103
+    },
+    {
+     "p": "nem",
+     "i": 5.35,
+     "f": 5.559
+    },
+    {
+     "p": "beleza",
+     "i": 5.572,
+     "f": 6.106
+    },
+    {
+     "p": "é",
+     "i": 6.314,
+     "f": 6.405
+    },
+    {
+     "p": "a",
+     "i": 6.418,
+     "f": 6.483
+    },
+    {
+     "p": "escala",
+     "i": 6.496,
+     "f": 6.991
+    },
+    {
+     "p": "Cada",
+     "i": 7.342,
+     "f": 7.589
+    },
+    {
+     "p": "um",
+     "i": 7.602,
+     "f": 7.772
+    },
+    {
+     "p": "resolveu",
+     "i": 7.785,
+     "f": 8.254
+    },
+    {
+     "p": "um",
+     "i": 8.267,
+     "f": 8.332
+    },
+    {
+     "p": "problema",
+     "i": 8.345,
+     "f": 8.839
+    },
+    {
+     "p": "diferente",
+     "i": 8.853,
+     "f": 9.438
+    },
+    {
+     "p": "baratear",
+     "i": 9.686,
+     "f": 10.22
+    },
+    {
+     "p": "o",
+     "i": 10.233,
+     "f": 10.285
+    },
+    {
+     "p": "frete",
+     "i": 10.298,
+     "f": 10.806
+    },
+    {
+     "p": "hospedar",
+     "i": 11.079,
+     "f": 11.6
+    },
+    {
+     "p": "milhares",
+     "i": 11.613,
+     "f": 12.108
+    },
+    {
+     "p": "de",
+     "i": 12.121,
+     "f": 12.212
+    },
+    {
+     "p": "pessoas",
+     "i": 12.225,
+     "f": 12.876
+    },
+    {
+     "p": "movimentar",
+     "i": 13.149,
+     "f": 13.866
+    },
+    {
+     "p": "caixas",
+     "i": 13.879,
+     "f": 14.504
+    },
+    {
+     "p": "levar",
+     "i": 14.725,
+     "f": 15.129
+    },
+    {
+     "p": "petróleo",
+     "i": 15.142,
+     "f": 15.649
+    },
+    {
+     "p": "ou",
+     "i": 15.662,
+     "f": 15.714
+    },
+    {
+     "p": "fabricar",
+     "i": 15.728,
+     "f": 16.287
+    },
+    {
+     "p": "gás",
+     "i": 16.3,
+     "f": 16.652
+    },
+    {
+     "p": "no",
+     "i": 16.665,
+     "f": 16.769
+    },
+    {
+     "p": "meio",
+     "i": 16.782,
+     "f": 17.043
+    },
+    {
+     "p": "do",
+     "i": 17.056,
+     "f": 17.16
+    },
+    {
+     "p": "nada",
+     "i": 17.173,
+     "f": 17.537
+    },
+    {
+     "p": "E",
+     "i": 17.886,
+     "f": 18.016
+    },
+    {
+     "p": "cada",
+     "i": 18.029,
+     "f": 18.303
+    },
+    {
+     "p": "um",
+     "i": 18.316,
+     "f": 18.433
+    },
+    {
+     "p": "esbarrou",
+     "i": 18.446,
+     "f": 18.889
+    },
+    {
+     "p": "num",
+     "i": 18.902,
+     "f": 19.032
+    },
+    {
+     "p": "limite",
+     "i": 19.045,
+     "f": 19.436
+    },
+    {
+     "p": "parecido",
+     "i": 19.449,
+     "f": 20.074
+    },
+    {
+     "p": "o",
+     "i": 20.334,
+     "f": 20.412
+    },
+    {
+     "p": "de",
+     "i": 20.425,
+     "f": 20.568
+    },
+    {
+     "p": "portos",
+     "i": 20.581,
+     "f": 21.102
+    },
+    {
+     "p": "canais",
+     "i": 21.363,
+     "f": 21.779
+    },
+    {
+     "p": "e",
+     "i": 21.792,
+     "f": 21.896
+    },
+    {
+     "p": "rotas",
+     "i": 21.91,
+     "f": 22.3
+    },
+    {
+     "p": "feitos",
+     "i": 22.313,
+     "f": 22.717
+    },
+    {
+     "p": "para",
+     "i": 22.73,
+     "f": 22.899
+    },
+    {
+     "p": "navios",
+     "i": 22.912,
+     "f": 23.355
+    },
+    {
+     "p": "menores",
+     "i": 23.368,
+     "f": 23.98
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "9f31eff87b",
+   "texto": "O mar não tem fronteira de tamanho. Quem tem são os portos. E talvez o próximo recorde já esteja em algum estaleiro, esperando o mar ficar pequeno de novo.",
+   "audio": "audio/fecho-9f31eff87b.mp3",
+   "duracao": 10.449,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "mar",
+     "i": 0.232,
+     "f": 0.506
+    },
+    {
+     "p": "não",
+     "i": 0.519,
+     "f": 0.701
+    },
+    {
+     "p": "tem",
+     "i": 0.714,
+     "f": 0.857
+    },
+    {
+     "p": "fronteira",
+     "i": 0.87,
+     "f": 1.443
+    },
+    {
+     "p": "de",
+     "i": 1.456,
+     "f": 1.56
+    },
+    {
+     "p": "tamanho",
+     "i": 1.573,
+     "f": 2.055
+    },
+    {
+     "p": "Quem",
+     "i": 2.39,
+     "f": 2.677
+    },
+    {
+     "p": "tem",
+     "i": 2.69,
+     "f": 2.885
+    },
+    {
+     "p": "são",
+     "i": 2.898,
+     "f": 3.171
+    },
+    {
+     "p": "os",
+     "i": 3.184,
+     "f": 3.328
+    },
+    {
+     "p": "portos",
+     "i": 3.341,
+     "f": 3.914
+    },
+    {
+     "p": "E",
+     "i": 4.246,
+     "f": 4.363
+    },
+    {
+     "p": "talvez",
+     "i": 4.376,
+     "f": 4.793
+    },
+    {
+     "p": "o",
+     "i": 4.806,
+     "f": 4.936
+    },
+    {
+     "p": "próximo",
+     "i": 4.949,
+     "f": 5.392
+    },
+    {
+     "p": "recorde",
+     "i": 5.405,
+     "f": 5.965
+    },
+    {
+     "p": "já",
+     "i": 5.978,
+     "f": 6.134
+    },
+    {
+     "p": "esteja",
+     "i": 6.147,
+     "f": 6.538
+    },
+    {
+     "p": "em",
+     "i": 6.551,
+     "f": 6.616
+    },
+    {
+     "p": "algum",
+     "i": 6.629,
+     "f": 6.928
+    },
+    {
+     "p": "estaleiro",
+     "i": 6.941,
+     "f": 7.462
+    },
+    {
+     "p": "esperando",
+     "i": 7.762,
+     "f": 8.191
+    },
+    {
+     "p": "o",
+     "i": 8.204,
+     "f": 8.23
+    },
+    {
+     "p": "mar",
+     "i": 8.243,
+     "f": 8.452
+    },
+    {
+     "p": "ficar",
+     "i": 8.465,
+     "f": 8.803
+    },
+    {
+     "p": "pequeno",
+     "i": 8.816,
+     "f": 9.311
+    },
+    {
+     "p": "de",
+     "i": 9.324,
+     "f": 9.428
+    },
+    {
+     "p": "novo",
+     "i": 9.441,
+     "f": 9.819
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "empire-state": {
+   "arquivo": "imagens/empire-state-dd74e096.jpg",
+   "rotulo": "Empire State Building",
+   "wiki": "Empire State Building",
+   "commons": "Empire State Building New York",
+   "autor": "Olga_Fil",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/edif%C3%ADcio-empire-state-hudson-6858030/",
+   "titulo": "edifício empire state, hudson, pôr do sol, natureza, nova york, nova iorque, manhattan, estados unidos",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 49.1,
+    "y": 64.3
+   },
+   "borrada": "imagens/empire-state-dd74e096-b.jpg"
+  },
+  "prelude-casco": {
+   "arquivo": "",
+   "rotulo": "Casco do Prelude FLNG",
+   "wiki": "Prelude FLNG",
+   "commons": "Prelude FLNG hull Samsung Heavy Industries Geoje",
+   "semFoto": true
+  },
+  "comparacao-navios": {
+   "arquivo": "",
+   "rotulo": "Comparação de tamanho de navios",
+   "commons": "size comparison largest ships Prelude FLNG Seawise Giant Emma Maersk",
+   "semFoto": true
+  },
+  "rotas-maritimas": {
+   "arquivo": "imagens/rotas-maritimas-e04c6058.jpg",
+   "rotulo": "Rotas marítimas do mundo",
+   "commons": "world shipping routes map",
+   "autor": "Grolltech (derived from Hengl (derived from B.S. Halpern))",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shipping_routes_red_black.png",
+   "titulo": "File:Shipping routes red black.png",
+   "largura": 1920,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 44.8,
+    "y": 56.9
+   },
+   "borrada": "imagens/rotas-maritimas-e04c6058-b.jpg"
+  },
+  "vale-beijing": {
+   "arquivo": "",
+   "rotulo": "Vale Beijing, minério",
+   "commons": "Vale Beijing ore carrier Valemax",
+   "semFoto": true
+  },
+  "cruzeiro-promessa": {
+   "arquivo": "imagens/cruzeiro-promessa-48e9d5d4.jpg",
+   "rotulo": "Symphony of the Seas",
+   "wiki": "Symphony of the Seas",
+   "commons": "Symphony of the Seas cruise ship",
+   "autor": "Darthvadrouw",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SymphonyOfTheSeas_(cropped)_02.jpg",
+   "titulo": "File:SymphonyOfTheSeas (cropped) 02.jpg",
+   "largura": 1920,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 65.1,
+    "y": 50.2
+   },
+   "borrada": "imagens/cruzeiro-promessa-48e9d5d4-b.jpg"
+  },
+  "emma-maersk": {
+   "arquivo": "imagens/emma-maersk-baa162c4.jpg",
+   "rotulo": "Emma Mærsk",
+   "wiki": "Emma Mærsk",
+   "commons": "Emma Maersk container ship",
+   "autor": "Łukasz Golowanow",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Maersk_Elba.JPG",
+   "titulo": "File:Maersk Elba.JPG",
+   "largura": 1920,
+   "altura": 971,
+   "rostos": 0,
+   "foco": {
+    "x": 40.3,
+    "y": 45.7
+   },
+   "borrada": "imagens/emma-maersk-baa162c4-b.jpg"
+  },
+  "petroleiro-ti": {
+   "arquivo": "imagens/petroleiro-ti-91688504.jpg",
+   "rotulo": "Petroleiro TI Europe",
+   "wiki": "TI Europe",
+   "commons": "TI Europe supertanker",
+   "autor": "Maurice F Scholten, MSF Photography",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hellespont_Tara-023-cleaned.jpg",
+   "titulo": "File:Hellespont Tara-023-cleaned.jpg",
+   "largura": 800,
+   "altura": 513,
+   "rostos": 0,
+   "foco": {
+    "x": 56.8,
+    "y": 52.6
+   },
+   "borrada": "imagens/petroleiro-ti-91688504-b.jpg"
+  },
+  "prelude-reboque": {
+   "arquivo": "",
+   "rotulo": "Prelude FLNG",
+   "wiki": "Prelude FLNG",
+   "commons": "Prelude FLNG towed tugs",
+   "semFoto": true
+  },
+  "vale-brasil": {
+   "arquivo": "imagens/vale-brasil-5e731211.jpg",
+   "rotulo": "Vale Brasil",
+   "commons": "Vale Brasil Valemax ore carrier",
+   "autor": "Superfast1111",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Vale_Brasil_04.JPG",
+   "titulo": "File:Vale Brasil 04.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.9,
+    "y": 49.2
+   },
+   "borrada": "imagens/vale-brasil-5e731211-b.jpg"
+  },
+  "carajas-minerio": {
+   "arquivo": "imagens/carajas-minerio-0b9f1f46.jpg",
+   "rotulo": "Mina de ferro de Carajás",
+   "wiki": "Serra dos Carajás",
+   "commons": "Carajás iron ore mine Pará",
+   "autor": "NASA Earth Observatory",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Carajas_Mine.jpg",
+   "titulo": "File:Carajas Mine.jpg",
+   "largura": 720,
+   "altura": 480,
+   "rostos": 1,
+   "foco": {
+    "x": 20.7,
+    "y": 18.5
+   },
+   "borrada": "imagens/carajas-minerio-0b9f1f46-b.jpg"
+  },
+  "vale-sede": {
+   "arquivo": "imagens/vale-sede-c47ea29e.jpg",
+   "rotulo": "Sede da Vale, Rio de Janeiro",
+   "wiki": "Vale (empresa)",
+   "commons": "Vale S.A. headquarters Rio de Janeiro",
+   "autor": "Boaventuravinicius",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Skycraper_in_Brazil.jpg",
+   "titulo": "File:Skycraper in Brazil.jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 46.7,
+    "y": 72.7
+   },
+   "borrada": "imagens/vale-sede-c47ea29e-b.jpg"
+  },
+  "daewoo-okpo": {
+   "arquivo": "imagens/daewoo-okpo-2d9fc5b6.jpg",
+   "rotulo": "Estaleiro Daewoo, Okpo",
+   "wiki": "Daewoo Shipbuilding & Marine Engineering",
+   "commons": "Daewoo Shipbuilding & Marine Engineering Okpo shipyard Geoje",
+   "autor": "IikaJzuchiN",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Daewoo_Shipbuilding_%26_Marine_Engineering.jpg",
+   "titulo": "File:Aerial View of Daewoo Shipbuilding & Marine Engineering.jpg",
+   "largura": 1920,
+   "altura": 1182,
+   "rostos": 0,
+   "foco": {
+    "x": 48.3,
+    "y": 64.6
+   },
+   "borrada": "imagens/daewoo-okpo-2d9fc5b6-b.jpg"
+  },
+  "ministerio-china": {
+   "arquivo": "",
+   "rotulo": "Ministério do Comércio da China",
+   "commons": "Ministry of Commerce of the People's Republic of China building Beijing",
+   "semFoto": true
+  },
+  "cosco-navio": {
+   "arquivo": "imagens/cosco-navio-772ba685.jpg",
+   "rotulo": "Navio da COSCO",
+   "wiki": "COSCO",
+   "commons": "COSCO bulk carrier ship",
+   "autor": "Farid mernissi",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:COSCO_SHIPPING_Lines.jpg",
+   "titulo": "File:COSCO SHIPPING Lines.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 25.3,
+    "y": 66.0
+   },
+   "borrada": "imagens/cosco-navio-772ba685-b.jpg"
+  },
+  "filipinas-mapa": {
+   "arquivo": "imagens/filipinas-mapa-9b0e45d3.jpg",
+   "rotulo": "Filipinas",
+   "wiki": "Filipinas",
+   "commons": "Philippines location map",
+   "autor": "https://commons.wikimedia.org/wiki/User:Hellerick",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Philippines_location_map_(Metro_Manila,_Cebu,_and_Negros_enlarged)_(square).png",
+   "titulo": "File:Philippines location map (Metro Manila, Cebu, and Negros enlarged) (square).png",
+   "largura": 900,
+   "altura": 900,
+   "rostos": 1,
+   "foco": {
+    "x": 14.1,
+    "y": 17.6
+   },
+   "borrada": "imagens/filipinas-mapa-9b0e45d3-b.jpg"
+  },
+  "porto-qingdao": {
+   "arquivo": "",
+   "rotulo": "Porto de Qingdao",
+   "wiki": "Porto de Qingdao",
+   "commons": "Port of Qingdao ore terminal",
+   "semFoto": true
+  },
+  "icon-lancamento": {
+   "arquivo": "imagens/icon-lancamento-99d6017e.jpg",
+   "rotulo": "Icon of the Seas",
+   "wiki": "Icon of the Seas",
+   "commons": "Icon of the Seas Meyer Turku launch 2022",
+   "autor": "Chakie2",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Icon_of_the_Seas_(cropped).jpg",
+   "titulo": "File:Icon of the Seas (cropped).jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 43.3,
+    "y": 49.4
+   },
+   "borrada": "imagens/icon-lancamento-99d6017e-b.jpg"
+  },
+  "icon-mar": {
+   "arquivo": "imagens/icon-mar-175f8368.jpg",
+   "rotulo": "Icon of the Seas",
+   "commons": "Icon of the Seas at sea",
+   "autor": "Corey Seeman",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Icon_of_the_Seas_Puerto_Rico_2025.jpg",
+   "titulo": "File:Icon of the Seas Puerto Rico 2025.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 56.7,
+    "y": 48.5
+   },
+   "borrada": "imagens/icon-mar-175f8368-b.jpg"
+  },
+  "turku-estaleiro": {
+   "arquivo": "imagens/turku-estaleiro-b845a335.jpg",
+   "rotulo": "Estaleiro Meyer Turku",
+   "wiki": "Meyer Turku",
+   "commons": "Meyer Turku shipyard",
+   "autor": "Kotivalo",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Meyer_Turku_Perno_shipyard.jpg",
+   "titulo": "File:Meyer Turku Perno shipyard.jpg",
+   "largura": 1920,
+   "altura": 1281,
+   "rostos": 1,
+   "foco": {
+    "x": 27.9,
+    "y": 51.8
+   },
+   "borrada": "imagens/turku-estaleiro-b845a335-b.jpg"
+  },
+  "portmiami": {
+   "arquivo": "imagens/portmiami-428b56ec.jpg",
+   "rotulo": "PortMiami",
+   "wiki": "PortMiami",
+   "commons": "PortMiami cruise terminal Icon of the Seas",
+   "autor": "Kiran891",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:PortMiami_main_channel_with_city_skyline_in_the_background_(March_11,_2024).jpg",
+   "titulo": "File:PortMiami main channel with city skyline in the background (March 11, 2024).jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 48.4,
+    "y": 55.3
+   },
+   "borrada": "imagens/portmiami-428b56ec-b.jpg"
+  },
+  "icon-conves": {
+   "arquivo": "",
+   "rotulo": "Convés do Icon of the Seas",
+   "commons": "Icon of the Seas deck pool Central Park",
+   "semFoto": true
+  },
+  "icon-popa": {
+   "arquivo": "",
+   "rotulo": "Popa do Icon of the Seas",
+   "commons": "Icon of the Seas stern aft",
+   "semFoto": true
+  },
+  "icon-thrill": {
+   "arquivo": "imagens/icon-thrill-0016826a.jpg",
+   "rotulo": "Thrill Island",
+   "commons": "Icon of the Seas Thrill Island water park slides",
+   "autor": "Larry D. Moore",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Thrill_Island_Icon_of_the_Seas_2024.jpg",
+   "titulo": "File:Thrill Island Icon of the Seas 2024.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 54.1,
+    "y": 54.7
+   },
+   "borrada": "imagens/icon-thrill-0016826a-b.jpg"
+  },
+  "gnl-abastecimento": {
+   "arquivo": "",
+   "rotulo": "Abastecimento com GNL",
+   "wiki": "Gás natural liquefeito",
+   "commons": "LNG bunkering cruise ship",
+   "semFoto": true
+  },
+  "irina-mar": {
+   "arquivo": "imagens/irina-mar-a8452f2b.jpg",
+   "rotulo": "MSC Irina",
+   "wiki": "MSC Irina",
+   "commons": "MSC Irina container ship",
+   "autor": "Giridharseeman",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:MSC_IRINA_TRIVANDRUM_PORT_HD.jpg",
+   "titulo": "File:MSC IRINA TRIVANDRUM PORT HD.jpg",
+   "largura": 1920,
+   "altura": 892,
+   "rostos": 2,
+   "foco": {
+    "x": 76.1,
+    "y": 45.9
+   },
+   "borrada": "imagens/irina-mar-a8452f2b-b.jpg"
+  },
+  "irina-entrega": {
+   "arquivo": "",
+   "rotulo": "Entrega do MSC Irina",
+   "commons": "MSC Irina Yangzijiang delivery naming ceremony",
+   "semFoto": true
+  },
+  "yangzijiang-estaleiro": {
+   "arquivo": "",
+   "rotulo": "Estaleiro Yangzijiang",
+   "wiki": "Yangzijiang Shipbuilding",
+   "commons": "Yangzijiang Shipbuilding Jingjiang shipyard",
+   "semFoto": true
+  },
+  "conteineres-pilha": {
+   "arquivo": "imagens/conteineres-pilha-c066de1b.jpg",
+   "rotulo": "Contêineres empilhados",
+   "commons": "container ship loaded containers stack",
+   "autor": "own work by me, Grand-Duc. Die volle Nennung des Autorenpseudonyms und der Zuschreibung wie unten stehend ist für eine Lizenz-konforme Nutzung erforderlich. For a license-compliant use, you have to use my pseudonym and the attribution as written down below.",
+   "licenca": "CC BY-SA 3.0 de",
+   "pagina": "https://commons.wikimedia.org/wiki/File:IMO_9516416_Containership_COSCO_France_-_Cuxhafen_2020-08-27_HBP_01.jpg",
+   "titulo": "File:IMO 9516416 Containership COSCO France - Cuxhafen 2020-08-27 HBP 01.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 45.6,
+    "y": 73.8
+   },
+   "borrada": "imagens/conteineres-pilha-c066de1b-b.jpg"
+  },
+  "pilha-alta": {
+   "arquivo": "",
+   "rotulo": "Pilha de contêineres no convés",
+   "commons": "container ship containers stacked high deck",
+   "semFoto": true
+  },
+  "cargas-conteiner": {
+   "arquivo": "imagens/cargas-conteiner-f77cc75e.jpg",
+   "rotulo": "Contêineres em porto",
+   "commons": "colorful shipping containers port terminal",
+   "autor": "distelAPPArath",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/recipiente-porta-a-carregar-3754438/",
+   "titulo": "recipiente, porta, a carregar, empilhados, terminal de contentores, manuseio de contêineres, frete, ponto de transbordo, alemanha, tingir, paraíso, hdr, contraste, com alta faixa dinâmica, multicolorido, contêiner de carga, natureza, indústria, exportação, cair, nascer do sol",
+   "largura": 1280,
+   "altura": 855,
+   "rostos": 0,
+   "foco": {
+    "x": 35.2,
+    "y": 53.7
+   },
+   "borrada": "imagens/cargas-conteiner-f77cc75e-b.jpg"
+  },
+  "msc-tessa": {
+   "arquivo": "imagens/msc-tessa-02dc7f08.jpg",
+   "rotulo": "MSC Tessa",
+   "commons": "MSC Tessa container ship",
+   "autor": "kees torn",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ROTTERDAM_%26_MSC_TESSA_(53239503072).jpg",
+   "titulo": "File:ROTTERDAM & MSC TESSA (53239503072).jpg",
+   "largura": 1920,
+   "altura": 927,
+   "rostos": 0,
+   "foco": {
+    "x": 44.9,
+    "y": 43.1
+   },
+   "borrada": "imagens/msc-tessa-02dc7f08-b.jpg"
+  },
+  "guindaste-porto": {
+   "arquivo": "",
+   "rotulo": "Guindastes de contêineres em Roterdã",
+   "commons": "ship-to-shore crane container terminal Rotterdam Maasvlakte",
+   "semFoto": true
+  },
+  "seawise-mar": {
+   "arquivo": "imagens/seawise-mar-dc2be9d2.jpg",
+   "rotulo": "Seawise Giant (Knock Nevis)",
+   "wiki": "Seawise Giant",
+   "commons": "Knock Nevis supertanker",
+   "autor": "Nils Koch",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22Seawise_Giant%22_-_Singapore,_1990.jpg",
+   "titulo": "File:\"Seawise Giant\" - Singapore, 1990.jpg",
+   "largura": 854,
+   "altura": 580,
+   "rostos": 0,
+   "foco": {
+    "x": 52.0,
+    "y": 74.0
+   },
+   "borrada": "imagens/seawise-mar-dc2be9d2-b.jpg"
+  },
+  "seawise-proa": {
+   "arquivo": "",
+   "rotulo": "Jahre Viking",
+   "commons": "Jahre Viking oil tanker bow",
+   "semFoto": true
+  },
+  "sumitomo-yokosuka": {
+   "arquivo": "imagens/sumitomo-yokosuka-297c8034.jpg",
+   "rotulo": "Estaleiro Sumitomo, Yokosuka",
+   "wiki": "Sumitomo Heavy Industries",
+   "commons": "Sumitomo Heavy Industries Yokosuka shipyard",
+   "autor": "Dai Wat",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sumitomo_Heavy_Industries_Yokosuka_Shipyard_-_Mar_15,_2009.jpg",
+   "titulo": "File:Sumitomo Heavy Industries Yokosuka Shipyard - Mar 15, 2009.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.7,
+    "y": 54.8
+   },
+   "borrada": "imagens/sumitomo-yokosuka-297c8034-b.jpg"
+  },
+  "seawise-carregado": {
+   "arquivo": "",
+   "rotulo": "Knock Nevis carregado",
+   "commons": "Knock Nevis fully loaded tanker Gulf",
+   "semFoto": true
+  },
+  "knock-nevis-alt": {
+   "arquivo": "",
+   "rotulo": "Knock Nevis",
+   "commons": "Knock Nevis ULCC",
+   "semFoto": true
+  },
+  "canal-mancha": {
+   "arquivo": "imagens/canal-mancha-f109cdcd.jpg",
+   "rotulo": "Canal da Mancha",
+   "wiki": "Canal da Mancha",
+   "commons": "Strait of Dover English Channel ships",
+   "autor": "Desconhecido",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:EnglishChannel.jpg",
+   "titulo": "File:EnglishChannel.jpg",
+   "largura": 1133,
+   "altura": 677,
+   "rostos": 0,
+   "foco": {
+    "x": 42.9,
+    "y": 39.9
+   },
+   "borrada": "imagens/canal-mancha-f109cdcd-b.jpg"
+  },
+  "canal-suez": {
+   "arquivo": "imagens/canal-suez-1bd0c41d.jpg",
+   "rotulo": "Canal de Suez",
+   "wiki": "Canal de Suez",
+   "commons": "Suez Canal ship convoy",
+   "autor": "Buonasera",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:In_the_Suez_Canal_the_convoy_is_waiting_in_the_queue_until_the_toward_coming_traffic_has_passed_-_1957.png",
+   "titulo": "File:In the Suez Canal the convoy is waiting in the queue until the toward coming traffic has passed - 1957.png",
+   "largura": 1755,
+   "altura": 1255,
+   "rostos": 1,
+   "foco": {
+    "x": 86.4,
+    "y": 23.8
+   },
+   "borrada": "imagens/canal-suez-1bd0c41d-b.jpg"
+  },
+  "panama-miraflores": {
+   "arquivo": "imagens/panama-miraflores-509ae3e6.jpg",
+   "rotulo": "Eclusas de Miraflores, Canal do Panamá",
+   "wiki": "Canal do Panamá",
+   "commons": "Panama Canal Miraflores Locks",
+   "autor": "Elemaki",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:06._Canal_de_Panama_(17).JPG",
+   "titulo": "File:06. Canal de Panama (17).JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 33.2,
+    "y": 53.5
+   },
+   "borrada": "imagens/panama-miraflores-509ae3e6-b.jpg"
+  },
+  "ormuz-larak": {
+   "arquivo": "imagens/ormuz-larak-094e27bf.jpg",
+   "rotulo": "Estreito de Ormuz",
+   "wiki": "Estreito de Ormuz",
+   "commons": "Larak Island Strait of Hormuz",
+   "autor": "MODIS Land Rapid Response Team, NASA GSFC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+   "titulo": "File:Strait of Hormuz and Musandam Peninsula (MODIS 2018-12-10).jpg",
+   "largura": 1920,
+   "altura": 1539,
+   "rostos": 0,
+   "foco": {
+    "x": 52.7,
+    "y": 40.5
+   },
+   "borrada": "imagens/ormuz-larak-094e27bf-b.jpg"
+  },
+  "guerra-petroleiros": {
+   "arquivo": "imagens/guerra-petroleiros-94de01d4.jpg",
+   "rotulo": "Guerra dos Petroleiros",
+   "wiki": "Guerra dos Petroleiros",
+   "commons": "Tanker War Iran Iraq 1980s burning tanker",
+   "autor": "NordNordWest",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Karte_Tankerkrieg.jpg",
+   "titulo": "File:Karte Tankerkrieg.jpg",
+   "largura": 1391,
+   "altura": 1131,
+   "rostos": 2,
+   "foco": {
+    "x": 22.3,
+    "y": 25.3
+   },
+   "borrada": "imagens/guerra-petroleiros-94de01d4-b.jpg"
+  },
+  "keppel-singapura": {
+   "arquivo": "",
+   "rotulo": "Estaleiro Keppel, Singapura",
+   "wiki": "Keppel Corporation",
+   "commons": "Keppel shipyard Singapore",
+   "semFoto": true
+  },
+  "knock-nevis-qatar": {
+   "arquivo": "",
+   "rotulo": "Knock Nevis em Catar",
+   "commons": "Knock Nevis floating storage Qatar",
+   "semFoto": true
+  },
+  "alang": {
+   "arquivo": "imagens/alang-8d76a040.jpg",
+   "rotulo": "Alang, Índia",
+   "wiki": "Alang",
+   "commons": "Alang ship breaking yard Gujarat",
+   "autor": "Planet Labs, Inc.",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shipwrecking_in_Alang,_India,_2017-03-17_by_Planet_Labs.jpg",
+   "titulo": "File:Shipwrecking in Alang, India, 2017-03-17 by Planet Labs.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.7,
+    "y": 40.3
+   },
+   "borrada": "imagens/alang-8d76a040-b.jpg"
+  },
+  "prelude-doca": {
+   "arquivo": "",
+   "rotulo": "Construção do Prelude FLNG",
+   "wiki": "Prelude FLNG",
+   "commons": "Prelude FLNG construction Geoje",
+   "semFoto": true
+  },
+  "nimitz": {
+   "arquivo": "imagens/nimitz-9c71f570.jpg",
+   "rotulo": "USS Nimitz",
+   "wiki": "USS Nimitz (CVN-68)",
+   "commons": "USS Nimitz CVN-68 aircraft carrier",
+   "autor": "United States Navy",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:USS_Nimitz_(CVN-68).jpg",
+   "titulo": "File:USS Nimitz (CVN-68).jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 0,
+   "foco": {
+    "x": 43.6,
+    "y": 41.7
+   },
+   "borrada": "imagens/nimitz-9c71f570-b.jpg"
+  },
+  "samsung-geoje": {
+   "arquivo": "imagens/samsung-geoje-ba90e3e8.jpg",
+   "rotulo": "Estaleiro Samsung, Geoje",
+   "wiki": "Samsung Heavy Industries",
+   "commons": "Samsung Heavy Industries Geoje shipyard",
+   "autor": "Asfreeas",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Samsung_Heavy_Industries_20220908_2.jpg",
+   "titulo": "File:Samsung Heavy Industries 20220908 2.jpg",
+   "largura": 1440,
+   "altura": 810,
+   "rostos": 0,
+   "foco": {
+    "x": 55.3,
+    "y": 67.4
+   },
+   "borrada": "imagens/samsung-geoje-ba90e3e8-b.jpg"
+  },
+  "prelude-lancamento": {
+   "arquivo": "",
+   "rotulo": "Lançamento do Prelude",
+   "commons": "Prelude FLNG launch 2013 Samsung",
+   "semFoto": true
+  },
+  "prelude-fabrica": {
+   "arquivo": "",
+   "rotulo": "Instalações do Prelude",
+   "commons": "Prelude FLNG topside LNG processing",
+   "semFoto": true
+  },
+  "gnl-tanque": {
+   "arquivo": "imagens/gnl-tanque-0b29a478.jpg",
+   "rotulo": "Tanque de GNL",
+   "commons": "LNG membrane storage tank ship",
+   "autor": "paulbr75",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/armaz%C3%A9m-de-armazenamento-armazenar-1553550/",
+   "titulo": "armazém de armazenamento, armazenar, armazém, unidades de armazenamento, dentro de casa, recipiente, o negócio, segurança, ao ar livre",
+   "largura": 1280,
+   "altura": 851,
+   "rostos": 0,
+   "foco": {
+    "x": 70.2,
+    "y": 53.3
+   },
+   "borrada": "imagens/gnl-tanque-0b29a478-b.jpg"
+  },
+  "prelude-reboque-2": {
+   "arquivo": "",
+   "rotulo": "Prelude a caminho da Austrália",
+   "commons": "Prelude FLNG voyage Australia tow 2017",
+   "semFoto": true
+  },
+  "australia-ocidental": {
+   "arquivo": "imagens/australia-ocidental-54255bcc.jpg",
+   "rotulo": "Austrália Ocidental",
+   "wiki": "Austrália Ocidental",
+   "commons": "Western Australia location map",
+   "autor": "Jeff Schmaltz MODIS Land Rapid Response Team, NASA GSFC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Western_Australia_-_November_10,_2013.jpg",
+   "titulo": "File:Western Australia - November 10, 2013.jpg",
+   "largura": 1920,
+   "altura": 2507,
+   "rostos": 0,
+   "foco": {
+    "x": 49.6,
+    "y": 68.3
+   },
+   "borrada": "imagens/australia-ocidental-54255bcc-b.jpg"
+  },
+  "ciclone-australia": {
+   "arquivo": "imagens/ciclone-australia-b05b262c.jpg",
+   "rotulo": "Ciclone tropical na Austrália",
+   "commons": "tropical cyclone Western Australia satellite",
+   "autor": "MODIS Land Rapid Response Team, NASA GSFC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tropical_Cyclone_Freddy_off_of_Western_Australia_(MODIS).jpg",
+   "titulo": "File:Tropical Cyclone Freddy off of Western Australia (MODIS).jpg",
+   "largura": 1920,
+   "altura": 1436,
+   "rostos": 0,
+   "foco": {
+    "x": 49.2,
+    "y": 57.1
+   },
+   "borrada": "imagens/ciclone-australia-b05b262c-b.jpg"
+  },
+  "prelude-operacao": {
+   "arquivo": "",
+   "rotulo": "Prelude em operação",
+   "commons": "Prelude FLNG operating offshore",
+   "semFoto": true
+  },
+  "gnl-carga": {
+   "arquivo": "",
+   "rotulo": "Transferência de GNL",
+   "commons": "LNG carrier offloading FLNG side by side",
+   "semFoto": true
+  },
+  "dolar": {
+   "arquivo": "imagens/dolar-35a79c49.jpg",
+   "rotulo": "Dólares",
+   "wiki": "Dólar dos Estados Unidos",
+   "commons": "United States dollar banknotes",
+   "autor": "alirazabozdar1122",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/d%C3%B3lar-dinheiro-caso-notas-6295019/",
+   "titulo": "dólar, dinheiro, caso, notas, dinheiro de papel, nota de banco, finança, financeiro, fortuna",
+   "largura": 1280,
+   "altura": 1280,
+   "rostos": 2,
+   "foco": {
+    "x": 63.5,
+    "y": 93.3
+   },
+   "borrada": "imagens/dolar-35a79c49-b.jpg"
+  },
+  "shell-sede": {
+   "arquivo": "imagens/shell-sede-750a82e0.jpg",
+   "rotulo": "Shell",
+   "wiki": "Shell plc",
+   "commons": "Shell Centre London headquarters",
+   "autor": "Reading Tom from Reading, UK",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Shell_Centre_(8709496019).jpg",
+   "titulo": "File:The Shell Centre (8709496019).jpg",
+   "largura": 1920,
+   "altura": 2560,
+   "rostos": 0,
+   "foco": {
+    "x": 47.4,
+    "y": 43.8
+   },
+   "borrada": "imagens/shell-sede-750a82e0-b.jpg"
+  },
+  "prelude-aerea": {
+   "arquivo": "",
+   "rotulo": "Prelude FLNG",
+   "wiki": "Prelude FLNG",
+   "commons": "Prelude FLNG aerial view",
+   "semFoto": true
+  },
+  "prelude-helideque": {
+   "arquivo": "",
+   "rotulo": "Heliponto do Prelude",
+   "commons": "Prelude FLNG helideck EC225 helicopter",
+   "semFoto": true
+  },
+  "ulsan-estaleiro": {
+   "arquivo": "imagens/ulsan-estaleiro-acf7a619.jpg",
+   "rotulo": "Estaleiro Hyundai, Ulsan",
+   "wiki": "Hyundai Heavy Industries",
+   "commons": "Hyundai Heavy Industries Ulsan shipyard",
+   "autor": "Wvdp",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hyundai_Heavy_Industries_Ulsan_Shipyard_from_Jujeon_Beacon_Mound_-_2023-07-24.jpg",
+   "titulo": "File:Hyundai Heavy Industries Ulsan Shipyard from Jujeon Beacon Mound - 2023-07-24.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 48.3,
+    "y": 56.5
+   },
+   "borrada": "imagens/ulsan-estaleiro-acf7a619-b.jpg"
+  },
+  "tubarao-porto": {
+   "arquivo": "imagens/tubarao-porto-1c673d35.jpg",
+   "rotulo": "Porto de Tubarão",
+   "wiki": "Porto de Tubarão",
+   "commons": "Tubarão port Vitória Espírito Santo iron ore",
+   "autor": "Eriksailor",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tubar%C3%A3o,_Porto_de.jpg",
+   "titulo": "File:Tubarão, Porto de.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 65.8,
+    "y": 49.6
+   },
+   "borrada": "imagens/tubarao-porto-1c673d35-b.jpg"
+  },
+  "barcelona-cruzeiro": {
+   "arquivo": "imagens/barcelona-cruzeiro-e50aaf2e.jpg",
+   "rotulo": "Terminal de cruzeiros de Barcelona",
+   "commons": "Port of Barcelona cruise terminal",
+   "autor": "Ank Kumar",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2014-_MV_Arcadia_Cruise_Ship,_Port_of_Barcelona,_Spain_(_Ank_Kumar_)_03.jpg",
+   "titulo": "File:2014- MV Arcadia Cruise Ship, Port of Barcelona, Spain ( Ank Kumar ) 03.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 53.1,
+    "y": 49.8
+   },
+   "borrada": "imagens/barcelona-cruzeiro-e50aaf2e-b.jpg"
+  },
+  "singapura-conteineres": {
+   "arquivo": "imagens/singapura-conteineres-82e55a0f.jpg",
+   "rotulo": "Porto de Singapura",
+   "wiki": "Porto de Singapura",
+   "commons": "Port of Singapore container terminal Pasir Panjang",
+   "autor": "Bob Tan",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pasir_Panjang_Port_Terminal.jpg",
+   "titulo": "File:Pasir Panjang Port Terminal.jpg",
+   "largura": 1920,
+   "altura": 732,
+   "rostos": 0,
+   "foco": {
+    "x": 30.0,
+    "y": 63.0
+   },
+   "borrada": "imagens/singapura-conteineres-82e55a0f-b.jpg"
+  },
+  "ras-tanura": {
+   "arquivo": "",
+   "rotulo": "Terminal de petróleo de Ras Tanura",
+   "commons": "Ras Tanura oil terminal tanker loading",
+   "semFoto": true
+  },
+  "gnl-offshore": {
+   "arquivo": "",
+   "rotulo": "Produção offshore de GNL",
+   "commons": "offshore LNG floating production Australia",
+   "semFoto": true
+  },
+  "agua-clara": {
+   "arquivo": "imagens/agua-clara-84d07401.jpg",
+   "rotulo": "Eclusas de Água Clara, Canal do Panamá",
+   "commons": "Panama Canal expansion Agua Clara locks",
+   "autor": "Keith Yahl",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:New_Panama_Canal_expansion_project_(original).jpg",
+   "titulo": "File:New Panama Canal expansion project (original).jpg",
+   "largura": 1920,
+   "altura": 522,
+   "rostos": 0,
+   "foco": {
+    "x": 42.3,
+    "y": 61.1
+   },
+   "borrada": "imagens/agua-clara-84d07401-b.jpg"
+  },
+  "ever-given": {
+   "arquivo": "imagens/ever-given-67802207.jpg",
+   "rotulo": "Ever Given no Canal de Suez",
+   "wiki": "Ever Given",
+   "commons": "Ever Given Suez Canal 2021 grounded",
+   "autor": "kees torn",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:EVER_GIVEN_(49643352087).jpg",
+   "titulo": "File:EVER GIVEN (49643352087).jpg",
+   "largura": 1920,
+   "altura": 1073,
+   "rostos": 0,
+   "foco": {
+    "x": 59.1,
+    "y": 47.8
+   },
+   "borrada": "imagens/ever-given-67802207-b.jpg"
+  },
+  "porto-hamburgo": {
+   "arquivo": "imagens/porto-hamburgo-acabad6c.jpg",
+   "rotulo": "Porto de Hamburgo",
+   "commons": "Port of Hamburg container terminal evening",
+   "autor": "Niklas9416",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/hamburgo-porta-navio-recipiente-6849995/",
+   "titulo": "hamburgo, porta, navio, recipiente, logística, exportar, guindaste, transporte, elba, navio, navio, navio, navio, logística, logística, logística, logística, logística, transporte",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 46.0,
+    "y": 50.8
+   },
+   "borrada": "imagens/porto-hamburgo-acabad6c-b.jpg"
+  },
+  "fincantieri-monfalcone": {
+   "arquivo": "imagens/fincantieri-monfalcone-493262bf.jpg",
+   "rotulo": "Estaleiro Fincantieri, Monfalcone",
+   "wiki": "Fincantieri",
+   "commons": "Fincantieri Monfalcone shipyard",
+   "autor": "Kimahri88",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cantiere_Fincantieri_di_Ancona.jpg",
+   "titulo": "File:Cantiere Fincantieri di Ancona.jpg",
+   "largura": 1919,
+   "altura": 1439,
+   "rostos": 0,
+   "foco": {
+    "x": 36.0,
+    "y": 42.4
+   },
+   "borrada": "imagens/fincantieri-monfalcone-493262bf-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-06T17:20:28.004Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +6908,70 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipédia — Seawise Giant",
+   "url": "https://en.wikipedia.org/wiki/Seawise_Giant"
+  },
+  {
+   "titulo": "Guinness World Records — Largest ship (deadweight tonnage)",
+   "url": "https://guinnessworldrecords.com/world-records/116229-largest-ship-ever"
+  },
+  {
+   "titulo": "Wikipédia — Prelude FLNG",
+   "url": "https://en.wikipedia.org/wiki/Prelude_FLNG"
+  },
+  {
+   "titulo": "Guinness World Records — Largest floating LNG platform",
+   "url": "https://www.guinnessworldrecords.com/world-records/113449-largest-floating-liquified-national-gas-flng-platform"
+  },
+  {
+   "titulo": "Wikipédia — Icon of the Seas",
+   "url": "https://en.wikipedia.org/wiki/Icon_of_the_Seas"
+  },
+  {
+   "titulo": "Wikipédia — Valemax",
+   "url": "https://en.wikipedia.org/wiki/Valemax"
+  },
+  {
+   "titulo": "gCaptain — Chinese shipyard delivers world's largest containership at 24,346 TEUs",
+   "url": "https://gcaptain.com/chinese-shipyard-delivers-worlds-largest-containership-at-24346-teus"
+  },
+  {
+   "titulo": "The Maritime Executive — MSC receives second ultra large and this one is the world's largest",
+   "url": "https://www.maritime-executive.com/article/msc-receives-second-ultra-large-and-this-one-is-the-world-s-largest"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Os 5 maiores navios já construídos: o último nem é um navio",
+   "Do Valemax ao Prelude: os gigantes que não cabem nos portos",
+   "O maior navio da história acabou em sucata?"
+  ],
+  "descricao": "Um ranking por comprimento de cinco gigantes do mar: o minerador Valemax, o cruzeiro Icon of the Seas, o porta-contêineres MSC Irina, o petroleiro Seawise Giant e a fábrica flutuante Prelude. Cada um com uma curiosidade de engenharia, e o mais surpreendente por último.\n\n0:00 Gancho\n0:23 Critério do ranking\n0:46 5º Valemax\n1:50 4º Icon of the Seas\n3:00 3º MSC Irina\n4:00 2º Seawise Giant\n5:25 1º Prelude\n7:20 Conclusão\n\nFontes: Wikipédia (Seawise Giant, Valemax, Icon of the Seas, Prelude FLNG), Guinness World Records, gCaptain, The Maritime Executive. As medidas variam um pouco conforme a fonte.",
+  "tags": [
+   "maiores navios do mundo",
+   "Prelude FLNG",
+   "Seawise Giant",
+   "Knock Nevis",
+   "MSC Irina",
+   "Icon of the Seas",
+   "Valemax",
+   "navios gigantes",
+   "engenharia naval",
+   "curiosidades tecnologia",
+   "ranking navios",
+   "Inova mundo"
+  ]
  }
 }

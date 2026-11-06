@@ -1,0 +1,89 @@
+{
+  "empire-state": { "wiki": "Empire State Building", "commons": "Empire State Building New York", "rotulo": "Empire State Building" },
+  "prelude-casco": { "commons": "Prelude FLNG hull Samsung Heavy Industries Geoje", "wiki": "Prelude FLNG", "rotulo": "Casco do Prelude FLNG" },
+  "comparacao-navios": { "commons": "size comparison largest ships Prelude FLNG Seawise Giant Emma Maersk", "rotulo": "Comparação de tamanho de navios" },
+
+  "rotas-maritimas": { "commons": "world shipping routes map", "rotulo": "Rotas marítimas do mundo" },
+  "vale-beijing": { "commons": "Vale Beijing ore carrier Valemax", "rotulo": "Vale Beijing, minério" },
+  "cruzeiro-promessa": { "commons": "Symphony of the Seas cruise ship", "wiki": "Symphony of the Seas", "rotulo": "Symphony of the Seas" },
+  "emma-maersk": { "commons": "Emma Maersk container ship", "wiki": "Emma Mærsk", "rotulo": "Emma Mærsk" },
+  "petroleiro-ti": { "commons": "TI Europe supertanker", "wiki": "TI Europe", "rotulo": "Petroleiro TI Europe" },
+  "prelude-reboque": { "commons": "Prelude FLNG towed tugs", "wiki": "Prelude FLNG", "rotulo": "Prelude FLNG" },
+
+  "vale-brasil": { "commons": "Vale Brasil Valemax ore carrier", "rotulo": "Vale Brasil" },
+  "carajas-minerio": { "commons": "Carajás iron ore mine Pará", "wiki": "Serra dos Carajás", "rotulo": "Mina de ferro de Carajás" },
+  "vale-sede": { "wiki": "Vale (empresa)", "commons": "Vale S.A. headquarters Rio de Janeiro", "rotulo": "Sede da Vale, Rio de Janeiro" },
+  "daewoo-okpo": { "commons": "Daewoo Shipbuilding & Marine Engineering Okpo shipyard Geoje", "wiki": "Daewoo Shipbuilding & Marine Engineering", "rotulo": "Estaleiro Daewoo, Okpo" },
+
+  "ministerio-china": { "commons": "Ministry of Commerce of the People's Republic of China building Beijing", "rotulo": "Ministério do Comércio da China" },
+  "cosco-navio": { "commons": "COSCO bulk carrier ship", "wiki": "COSCO", "rotulo": "Navio da COSCO" },
+  "filipinas-mapa": { "commons": "Philippines location map", "wiki": "Filipinas", "rotulo": "Filipinas" },
+  "porto-qingdao": { "commons": "Port of Qingdao ore terminal", "wiki": "Porto de Qingdao", "rotulo": "Porto de Qingdao" },
+
+  "icon-lancamento": { "commons": "Icon of the Seas Meyer Turku launch 2022", "wiki": "Icon of the Seas", "rotulo": "Icon of the Seas" },
+  "icon-mar": { "commons": "Icon of the Seas at sea", "rotulo": "Icon of the Seas" },
+  "turku-estaleiro": { "commons": "Meyer Turku shipyard", "wiki": "Meyer Turku", "rotulo": "Estaleiro Meyer Turku" },
+  "portmiami": { "commons": "PortMiami cruise terminal Icon of the Seas", "wiki": "PortMiami", "rotulo": "PortMiami" },
+
+  "icon-conves": { "commons": "Icon of the Seas deck pool Central Park", "rotulo": "Convés do Icon of the Seas" },
+  "icon-popa": { "commons": "Icon of the Seas stern aft", "rotulo": "Popa do Icon of the Seas" },
+  "icon-thrill": { "commons": "Icon of the Seas Thrill Island water park slides", "rotulo": "Thrill Island" },
+  "gnl-abastecimento": { "commons": "LNG bunkering cruise ship", "wiki": "Gás natural liquefeito", "rotulo": "Abastecimento com GNL" },
+
+  "irina-mar": { "commons": "MSC Irina container ship", "wiki": "MSC Irina", "rotulo": "MSC Irina" },
+  "irina-entrega": { "commons": "MSC Irina Yangzijiang delivery naming ceremony", "rotulo": "Entrega do MSC Irina" },
+  "yangzijiang-estaleiro": { "commons": "Yangzijiang Shipbuilding Jingjiang shipyard", "wiki": "Yangzijiang Shipbuilding", "rotulo": "Estaleiro Yangzijiang" },
+  "conteineres-pilha": { "commons": "container ship loaded containers stack", "rotulo": "Contêineres empilhados" },
+
+  "pilha-alta": { "commons": "container ship containers stacked high deck", "rotulo": "Pilha de contêineres no convés" },
+  "cargas-conteiner": { "commons": "colorful shipping containers port terminal", "rotulo": "Contêineres em porto" },
+  "msc-tessa": { "commons": "MSC Tessa container ship", "rotulo": "MSC Tessa" },
+  "guindaste-porto": { "commons": "ship-to-shore crane container terminal Rotterdam Maasvlakte", "rotulo": "Guindastes de contêineres em Roterdã" },
+
+  "seawise-mar": { "commons": "Knock Nevis supertanker", "wiki": "Seawise Giant", "rotulo": "Seawise Giant (Knock Nevis)" },
+  "seawise-proa": { "commons": "Jahre Viking oil tanker bow", "rotulo": "Jahre Viking" },
+  "sumitomo-yokosuka": { "commons": "Sumitomo Heavy Industries Yokosuka shipyard", "wiki": "Sumitomo Heavy Industries", "rotulo": "Estaleiro Sumitomo, Yokosuka" },
+  "seawise-carregado": { "commons": "Knock Nevis fully loaded tanker Gulf", "rotulo": "Knock Nevis carregado" },
+
+  "knock-nevis-alt": { "commons": "Knock Nevis ULCC", "rotulo": "Knock Nevis" },
+  "canal-mancha": { "commons": "Strait of Dover English Channel ships", "wiki": "Canal da Mancha", "rotulo": "Canal da Mancha" },
+  "canal-suez": { "commons": "Suez Canal ship convoy", "wiki": "Canal de Suez", "rotulo": "Canal de Suez" },
+  "panama-miraflores": { "commons": "Panama Canal Miraflores Locks", "wiki": "Canal do Panamá", "rotulo": "Eclusas de Miraflores, Canal do Panamá" },
+  "ormuz-larak": { "commons": "Larak Island Strait of Hormuz", "wiki": "Estreito de Ormuz", "rotulo": "Estreito de Ormuz" },
+
+  "guerra-petroleiros": { "commons": "Tanker War Iran Iraq 1980s burning tanker", "wiki": "Guerra dos Petroleiros", "rotulo": "Guerra dos Petroleiros" },
+  "keppel-singapura": { "commons": "Keppel shipyard Singapore", "wiki": "Keppel Corporation", "rotulo": "Estaleiro Keppel, Singapura" },
+  "knock-nevis-qatar": { "commons": "Knock Nevis floating storage Qatar", "rotulo": "Knock Nevis em Catar" },
+  "alang": { "commons": "Alang ship breaking yard Gujarat", "wiki": "Alang", "rotulo": "Alang, Índia" },
+
+  "prelude-doca": { "commons": "Prelude FLNG construction Geoje", "wiki": "Prelude FLNG", "rotulo": "Construção do Prelude FLNG" },
+  "nimitz": { "commons": "USS Nimitz CVN-68 aircraft carrier", "wiki": "USS Nimitz (CVN-68)", "rotulo": "USS Nimitz" },
+  "samsung-geoje": { "commons": "Samsung Heavy Industries Geoje shipyard", "wiki": "Samsung Heavy Industries", "rotulo": "Estaleiro Samsung, Geoje" },
+  "prelude-lancamento": { "commons": "Prelude FLNG launch 2013 Samsung", "rotulo": "Lançamento do Prelude" },
+
+  "prelude-fabrica": { "commons": "Prelude FLNG topside LNG processing", "rotulo": "Instalações do Prelude" },
+  "gnl-tanque": { "commons": "LNG membrane storage tank ship", "rotulo": "Tanque de GNL" },
+  "prelude-reboque-2": { "commons": "Prelude FLNG voyage Australia tow 2017", "rotulo": "Prelude a caminho da Austrália" },
+  "australia-ocidental": { "commons": "Western Australia location map", "wiki": "Austrália Ocidental", "rotulo": "Austrália Ocidental" },
+  "ciclone-australia": { "commons": "tropical cyclone Western Australia satellite", "rotulo": "Ciclone tropical na Austrália" },
+
+  "prelude-operacao": { "commons": "Prelude FLNG operating offshore", "rotulo": "Prelude em operação" },
+  "gnl-carga": { "commons": "LNG carrier offloading FLNG side by side", "rotulo": "Transferência de GNL" },
+  "dolar": { "commons": "United States dollar banknotes", "wiki": "Dólar dos Estados Unidos", "rotulo": "Dólares" },
+  "shell-sede": { "commons": "Shell Centre London headquarters", "wiki": "Shell plc", "rotulo": "Shell" },
+
+  "prelude-aerea": { "commons": "Prelude FLNG aerial view", "wiki": "Prelude FLNG", "rotulo": "Prelude FLNG" },
+  "prelude-helideque": { "commons": "Prelude FLNG helideck EC225 helicopter", "rotulo": "Heliponto do Prelude" },
+
+  "ulsan-estaleiro": { "commons": "Hyundai Heavy Industries Ulsan shipyard", "wiki": "Hyundai Heavy Industries", "rotulo": "Estaleiro Hyundai, Ulsan" },
+  "tubarao-porto": { "commons": "Tubarão port Vitória Espírito Santo iron ore", "wiki": "Porto de Tubarão", "rotulo": "Porto de Tubarão" },
+  "barcelona-cruzeiro": { "commons": "Port of Barcelona cruise terminal", "rotulo": "Terminal de cruzeiros de Barcelona" },
+  "singapura-conteineres": { "commons": "Port of Singapore container terminal Pasir Panjang", "wiki": "Porto de Singapura", "rotulo": "Porto de Singapura" },
+  "ras-tanura": { "commons": "Ras Tanura oil terminal tanker loading", "rotulo": "Terminal de petróleo de Ras Tanura" },
+  "gnl-offshore": { "commons": "offshore LNG floating production Australia", "rotulo": "Produção offshore de GNL" },
+  "agua-clara": { "commons": "Panama Canal expansion Agua Clara locks", "rotulo": "Eclusas de Água Clara, Canal do Panamá" },
+  "ever-given": { "commons": "Ever Given Suez Canal 2021 grounded", "wiki": "Ever Given", "rotulo": "Ever Given no Canal de Suez" },
+
+  "porto-hamburgo": { "commons": "Port of Hamburg container terminal evening", "rotulo": "Porto de Hamburgo" },
+  "fincantieri-monfalcone": { "commons": "Fincantieri Monfalcone shipyard", "wiki": "Fincantieri", "rotulo": "Estaleiro Fincantieri, Monfalcone" }
+}
