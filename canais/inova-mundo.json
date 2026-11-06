@@ -114,7 +114,9 @@
   {
    "titulo": "Os 5 maiores navios já construídos",
    "angulo": "Ranking com critério claro (comprimento, deslocamento ou capacidade) de petroleiros, cargueiros e cruzeiros. Cada item traz uma curiosidade de engenharia, e o mais surpreendente fica por último.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261106",
+   "em": "2026-11-06"
   },
   {
    "titulo": "Como o trem-bala japonês nunca matou um passageiro",
@@ -132,5 +134,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-05"
+ "ultimaGeracao": "2026-11-06"
 }
