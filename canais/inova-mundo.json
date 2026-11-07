@@ -121,7 +121,9 @@
   {
    "titulo": "Como o trem-bala japonês nunca matou um passageiro",
    "angulo": "A história do Shinkansen desde 1964 e os sistemas de detecção de terremoto e controle automático que sustentam o recorde de segurança. Verifica a afirmação com fontes antes de fazê-la.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261107",
+   "em": "2026-11-07"
   },
   {
    "titulo": "A estação espacial vs. uma cidade: quem gasta mais?",
@@ -134,5 +136,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-06"
+ "ultimaGeracao": "2026-11-07"
 }
