@@ -1,0 +1,155 @@
+{
+  "titulo": "Como o trem-bala japonês nunca matou um passageiro",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "publicacao": {
+    "titulos": [
+      "O trem-bala japonês nunca matou ninguém? A verdade",
+      "Shinkansen: o recorde de segurança que quase ninguém explica direito",
+      "Como o Japão sente um terremoto antes de ele chegar ao trem"
+    ],
+    "descricao": "O Shinkansen é famoso por nunca ter matado um passageiro. Neste vídeo conferimos a afirmação com fontes: como o trem nasceu em 1964, como o controle automático e a detecção de terremotos funcionam, os dias em que o recorde foi testado (2004, 2011, 2017) e o que a frase esconde.\n\n0:00 A frase que todo mundo repete\n0:50 O que o recorde realmente diz\n1:30 Tóquio–Osaka, 1964\n2:20 Controle automático\n3:30 Terremotos: a detecção antecipada\n4:40 Toki 325, 2004\n5:30 2011 e 2022\n6:10 Trem 34, 2017\n6:50 A pegadinha da frase\n7:30 Veredito\n\nFontes: JR East (relatório anual 2005, Chuetsu); JR East (sismômetros e terremoto de 2011); JR Central (dados da Tokaido Shinkansen); Conselho de Segurança nos Transportes do Japão (incidente de 2017); Wikipédia (incidente da estação de Mishima, 1995); BBC e Japan Times (ataques de 2015 e 2018). Os créditos das fotos aparecem no vídeo.",
+    "tags": ["shinkansen", "trem-bala", "japão", "ferrovia", "alta velocidade", "terremoto", "segurança", "engenharia", "tecnologia", "documentário", "história", "tóquio"]
+  },
+  "fontesPesquisa": [
+    { "titulo": "JR East — Report on Niigata Chuetsu Earthquake (relatório anual 2005)", "url": "https://www.jreast.co.jp/e/investor/ar/2005/pdf/ar2005_17.pdf" },
+    { "titulo": "JR East — relatório anual 2011 (terremoto de Tohoku e sismômetros)", "url": "https://www.jreast.co.jp/e/investor/ar/2011/pdf/ar_2011_08.pdf" },
+    { "titulo": "JR Central — Shinkansen (dados e pontualidade)", "url": "https://global.jr-central.co.jp/en/company/about_shinkansen" },
+    { "titulo": "nippon.com — Tokaido Shinkansen: segurança, pontualidade e frequência", "url": "https://www.nippon.com/en/features/h00201/" },
+    { "titulo": "Japan Transport Safety Board — relatório do incidente grave do Nozomi 34 (2017)", "url": "https://jtsb.mlit.go.jp/eng-rail_report/English/RI2019-1-1e.pdf" },
+    { "titulo": "Wikipédia — Mishima Station incident (1995)", "url": "https://en.wikipedia.org/wiki/Mishima_Station_incident" },
+    { "titulo": "BBC — Deadly stabbing on Japan bullet train (2018)", "url": "https://bbc.in/2JmmHxQ" },
+    { "titulo": "Japan Times — Step up train security (2015)", "url": "https://japantimes.co.jp/opinion/2015/07/02/editorials/step-train-security" },
+    { "titulo": "Highspeed Rail — The Shinkansen's legendary operation and safety record", "url": "https://www.hsrail.org/?p=14984" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Primeiro de outubro de mil novecentos e sessenta e quatro. Um trem branco e azul parte de Tóquio rumo a Osaka, a mais de duzentos quilômetros por hora. De lá para cá, ele já carregou bilhões de pessoas. E existe uma frase que todo mundo repete: o trem-bala japonês nunca matou um passageiro. Será mesmo? A resposta é mais interessante do que um simples sim. O recorde existe, e é impressionante. Mas a frase, do jeito que circula, esconde uma pegadinha. Hoje a gente separa o fato do exagero.",
+      "galeria": ["a1", "a2", "a3", "a4", "a5"],
+      "galeriaEm": [0, "Tóquio", "Osaka", "bilhões", "pegadinha"],
+      "fontes": ["JR Central"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1964", "Inauguração"], ["2026", "Hoje"]], "em": "Primeiro", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Antes de tudo, precisamos entender o que o recorde diz. Ele costuma ser descrito assim: nenhum passageiro morreu em descarrilamento ou colisão desde a inauguração. Isso não é o mesmo que nenhuma morte de qualquer tipo. Neste vídeo você vai ver como o trem nasceu, como ele sente um terremoto antes de o chão tremer de verdade, e os dias em que o recorde foi posto à prova. No fim, você vai entender por que uma palavra muda toda a história. Mas primeiro, precisamos voltar ao Japão do pós-guerra.",
+      "galeria": ["b1", "b2", "b3", "b4", "b5"],
+      "galeriaEm": [0, "descarrilamento", "nasceu", "terremoto", "palavra"],
+      "fontes": ["Highspeed Rail"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O QUE O RECORDE DIZ", "sub": "Descarrilamento e colisão", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "origem",
+      "texto": "Nos anos cinquenta, o corredor entre Tóquio e Osaka já era o mais movimentado do país. O trem rápido da época levava seis horas e quarenta minutos. As obras do Tokaido Shinkansen começaram em abril de mil novecentos e cinquenta e nove, sob o presidente da ferrovia nacional, Shinji Sogo, e o engenheiro-chefe Hideo Shima. A linha abriu dias antes das Olimpíadas de Tóquio, com viagens de quatro horas. Em novembro de sessenta e cinco, o tempo caiu para três horas e dez minutos, a duzentos e dez por hora. Só que velocidade sem segurança é uma tragédia esperando para acontecer.",
+      "galeria": ["c1", "c2", "c3", "c4", "c5", "c6"],
+      "galeriaEm": [0, "Shinji", "Hideo", "Olimpíadas", "novembro", "tragédia"],
+      "fontes": ["Wikipédia", "nippon.com"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1959", "Início das obras"], ["1964", "Inauguração: 4 h"], ["1965", "3 h 10 min"]], "em": "abril", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "projeto",
+      "texto": "O primeiro segredo não é tecnologia de ponta, é geografia. A linha foi desenhada separada das ferrovias comuns, com via exclusiva, cercada, muitas vezes elevada. Não existem passagens de nível: nenhum carro, nenhuma pessoa atravessa os trilhos. Por isso, boa parte dos acidentes ferroviários que conhecemos simplesmente não tem como acontecer. Mas e o erro humano dentro da cabine? Para isso, os engenheiros pensaram em algo que, naquela época, era radical.",
+      "galeria": ["d1", "d2", "d3", "d4", "d5"],
+      "galeriaEm": [0, "desenhada", "elevada", "carro", "cabine"],
+      "fontes": ["JR Central"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "VIA EXCLUSIVA", "sub": "Sem passagens de nível", "em": "geografia", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "controle",
+      "texto": "O sinal não fica ao lado da via: ele chega direto ao painel do maquinista. E o sistema de controle automático de trens vigia a velocidade a cada trecho. Se o trem passa do limite, o freio é acionado sozinho, sem esperar ninguém reagir. Ao mesmo tempo, um centro de controle em Tóquio acompanha todos os trens da linha, em tempo real. O maquinista continua importante, mas o sistema foi feito para corrigir o erro dele, e não para depender do acerto dele. Só que nenhum computador segura uma montanha caindo. E o Japão tem outro inimigo, que vem de baixo da terra.",
+      "galeria": ["e1", "e2", "e3", "e4", "e5", "e6"],
+      "galeriaEm": [0, "controle", "Se", "centro", "montanha", "inimigo"],
+      "fontes": ["JR Central"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "ATC", "significado": "controle automático de trens: freia se passar do limite", "em": "automático", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "terremoto",
+      "texto": "O Japão fica sobre o encontro de várias placas tectônicas. Um terremoto não chega de uma vez: primeiro vêm as ondas P, rápidas e fracas, depois as ondas S, lentas e destrutivas. Sismômetros ao longo da linha e na costa detectam as ondas P e mandam cortar a energia dos trens antes de a parte perigosa chegar. A JR East, que opera a região norte, tem noventa e sete desses aparelhos: oitenta e um junto à via, dezesseis no litoral. A frenagem de emergência começa em poucos segundos. Mas esses segundos têm um limite, e ele apareceu numa tarde de outubro.",
+      "galeria": ["f3", "f2", "f1", "f4", "f5", "f6"],
+      "galeriaEm": [0, "ondas", "Sismômetros", "energia", "frenagem", "limite"],
+      "fontes": ["JR East"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 97, "unidade": "sismômetros", "rotulo": "JR East", "em": "noventa", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "chuetsu",
+      "texto": "Vinte e três de outubro de dois mil e quatro, fim de tarde. Um terremoto de magnitude seis vírgula oito atinge a região de Niigata. O Toki trezentos e vinte e cinco, com cento e cinquenta e quatro pessoas a bordo, está perto demais do epicentro. O sistema não teve tempo de frear. Oito dos dez vagões saem dos trilhos. É o primeiro descarrilamento de um Shinkansen em operação comercial. Era o pior cenário imaginável. E mesmo assim, o relatório da JR East traz uma frase que parece mentira: ninguém ficou ferido.",
+      "galeria": ["g3", "g1", "g2", "g4", "g5", "g6"],
+      "galeriaEm": [0, "Niigata", "Toki", "frear", "primeiro", "relatório"],
+      "fontes": ["JR East — relatório 2005"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 154, "unidade": "pessoas a bordo", "rotulo": "Nenhuma ferida", "em": "cento", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "porque-ninguem",
+      "texto": "Por que ninguém se feriu? Segundo a JR East, mesmo depois de sair dos trilhos o trem continuou guiado por eles e manteve a posição até parar. Não tombou, não cruzou para a outra via, não bateu em nada. Foi um descarrilamento sem consequência trágica, e é por isso que o caso é estudado até hoje. O serviço voltou ao normal no fim de dezembro daquele ano. Depois do Toki, a empresa reforçou as defesas para que, numa próxima vez, o trem continue sobre o trilho. E a próxima vez chegaria rápido.",
+      "galeria": ["g4", "g6", "g1", "g5", "g3"],
+      "galeriaEm": [0, "guiado", "tombou", "dezembro", "próxima"],
+      "fontes": ["JR East — relatório 2005"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DESCARRILOU, MAS NA VIA", "em": "Segundo", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "onze-de-marco",
+      "texto": "Onze de março de dois mil e onze. O terremoto de Tohoku foi um dos mais fortes já registrados. Os trens da região norte estavam em plena circulação. Segundo a JR East, os sistemas de detecção cortaram a energia e os trens frearam antes da parte mais violenta do abalo. Nenhum trem de passageiros descarrilou, ainda que o número exato de trens em movimento varie conforme a fonte. Em dois mil e vinte e dois, outro terremoto fez um Shinkansen sair dos trilhos de novo, sem mortes. O sistema não é perfeito, mas funciona. Só que existe um risco que nenhum sismômetro mede.",
+      "galeria": ["h1", "h2", "h3", "h4", "h5", "h6"],
+      "galeriaEm": [0, "Tohoku", "Segundo", "Nenhum", "vinte", "perfeito"],
+      "fontes": ["JR East — relatório 2011"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["2004", "Chuetsu"], ["2011", "Tohoku"], ["2022", "Fukushima"]], "em": "Onze", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "trem-34",
+      "texto": "Onze de dezembro de dois mil e dezessete. O Nozomi trinta e quatro sai de Hakata rumo a Tóquio. Passageiros e funcionários notam um barulho estranho e um cheiro de queimado. Em Nagoya, os técnicos encontram uma rachadura de cerca de catorze centímetros na estrutura que sustenta as rodas. Faltavam poucos centímetros para a peça se partir. Cerca de mil pessoas trocaram de trem, e ninguém se feriu. O Japão classificou o caso como incidente grave, e a investigação apontou fadiga do metal. O recorde sobreviveu, mas por pouco.",
+      "galeria": ["i1", "i2", "i3", "i4", "i5"],
+      "galeriaEm": [0, "Hakata", "Nagoya", "Faltavam", "investigação"],
+      "fontes": ["JTSB — relatório do incidente"],
+      "elementos": [
+        { "tipo": "mapa", "de": "Hakata", "para": "Nagoya", "legenda": "Trem interrompido em Nagoya", "em": "Hakata", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "pegadinha",
+      "texto": "Agora, a pegadinha. A frase diz que o Shinkansen nunca matou um passageiro, mas houve mortes a bordo e nas estações. Em dezembro de mil novecentos e noventa e cinco, um estudante de dezessete anos morreu na estação de Mishima, preso na porta de um trem que partia. Em dois mil e quinze, um homem ateou fogo ao próprio corpo dentro de um trem, e uma passageira morreu. Em dois mil e dezoito, um ataque com faca matou um passageiro. Nenhum desses casos foi descarrilamento ou colisão, e o sistema de segurança do trem não tinha como impedi-los.",
+      "galeria": ["j1", "j2", "j3", "j4", "j5", "j6"],
+      "galeriaEm": [0, "Mishima", "quinze", "faca", "Nenhum", "impedi-los"],
+      "fontes": ["Wikipédia", "BBC", "Japan Times"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ACIDENTE OU SEGURANÇA?", "sub": "Uma palavra muda a frase", "em": "pegadinha", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "veredito",
+      "texto": "Então, qual é o veredito? Se a frase for nenhum passageiro morreu por descarrilamento ou colisão, os dados apresentados são consistentes com isso, e é um feito extraordinário. Se for ninguém jamais morreu num Shinkansen, ela está errada. O recorde de verdade é sobre engenharia: via exclusiva, controle automático, detecção de terremoto e manutenção constante. A pontualidade é outro retrato disso. Na Tokaido Shinkansen, o atraso médio ficou em um vírgula seis minuto por trem, no ano fiscal de dois mil e vinte e três, incluindo desastres naturais, segundo a JR Central.",
+      "galeria": ["k1", "k2", "k3", "k4", "k5"],
+      "galeriaEm": [0, "descarrilamento", "engenharia", "pontualidade", "atraso"],
+      "fontes": ["JR Central"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 1.6, "unidade": "min de atraso médio", "rotulo": "Ano fiscal 2023", "em": "atraso", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "Segurança, no fim, não é ausência de risco. É a soma de cada falha que alguém decidiu levar a sério antes que virasse tragédia.",
+      "galeria": ["l1", "l2"],
+      "galeriaEm": [0, "decidiu"],
+      "elementos": []
+    }
+  ]
+}

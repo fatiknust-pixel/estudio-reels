@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-07T16:16:17.154Z",
- "atualizadoEm": "2026-11-07T16:16:17.154Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-07T16:24:50Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Como o trem-bala japonês nunca matou um passageiro — ângulo: A história do Shinkansen desde 1964 e os sistemas de detecção de terremoto e controle automático que sustentam o recorde de segurança. Verifica a afirmação com fontes antes de fazê-la.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,7036 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Primeiro de outubro de mil novecentos e sessenta e quatro. Um trem branco e azul parte de Tóquio rumo a Osaka, a mais de duzentos quilômetros por hora. De lá para cá, ele já carregou bilhões de pessoas. E existe uma frase que todo mundo repete: o trem-bala japonês nunca matou um passageiro. Será mesmo? A resposta é mais interessante do que um simples sim. O recorde existe, e é impressionante. Mas a frase, do jeito que circula, esconde uma pegadinha. Hoje a gente separa o fato do exagero.",
+   "galeria": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5"
+   ],
+   "galeriaEm": [
+    0,
+    "Tóquio",
+    "Osaka",
+    "bilhões",
+    "pegadinha"
+   ],
+   "fontes": [
+    "JR Central"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1964",
+       "Inauguração"
+      ],
+      [
+       "2026",
+       "Hoje"
+      ]
+     ],
+     "em": "Primeiro",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Antes de tudo, precisamos entender o que o recorde diz. Ele costuma ser descrito assim: nenhum passageiro morreu em descarrilamento ou colisão desde a inauguração. Isso não é o mesmo que nenhuma morte de qualquer tipo. Neste vídeo você vai ver como o trem nasceu, como ele sente um terremoto antes de o chão tremer de verdade, e os dias em que o recorde foi posto à prova. No fim, você vai entender por que uma palavra muda toda a história. Mas primeiro, precisamos voltar ao Japão do pós-guerra.",
+   "galeria": [
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5"
+   ],
+   "galeriaEm": [
+    0,
+    "descarrilamento",
+    "nasceu",
+    "terremoto",
+    "palavra"
+   ],
+   "fontes": [
+    "Highspeed Rail"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O QUE O RECORDE DIZ",
+     "sub": "Descarrilamento e colisão",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "origem",
+   "texto": "Nos anos cinquenta, o corredor entre Tóquio e Osaka já era o mais movimentado do país. O trem rápido da época levava seis horas e quarenta minutos. As obras do Tokaido Shinkansen começaram em abril de mil novecentos e cinquenta e nove, sob o presidente da ferrovia nacional, Shinji Sogo, e o engenheiro-chefe Hideo Shima. A linha abriu dias antes das Olimpíadas de Tóquio, com viagens de quatro horas. Em novembro de sessenta e cinco, o tempo caiu para três horas e dez minutos, a duzentos e dez por hora. Só que velocidade sem segurança é uma tragédia esperando para acontecer.",
+   "galeria": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6"
+   ],
+   "galeriaEm": [
+    0,
+    "Shinji",
+    "Hideo",
+    "Olimpíadas",
+    "novembro",
+    "tragédia"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "nippon.com"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1959",
+       "Início das obras"
+      ],
+      [
+       "1964",
+       "Inauguração: 4 h"
+      ],
+      [
+       "1965",
+       "3 h 10 min"
+      ]
+     ],
+     "em": "abril",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "projeto",
+   "texto": "O primeiro segredo não é tecnologia de ponta, é geografia. A linha foi desenhada separada das ferrovias comuns, com via exclusiva, cercada, muitas vezes elevada. Não existem passagens de nível: nenhum carro, nenhuma pessoa atravessa os trilhos. Por isso, boa parte dos acidentes ferroviários que conhecemos simplesmente não tem como acontecer. Mas e o erro humano dentro da cabine? Para isso, os engenheiros pensaram em algo que, naquela época, era radical.",
+   "galeria": [
+    "d1",
+    "d2",
+    "d3",
+    "d4",
+    "d5"
+   ],
+   "galeriaEm": [
+    0,
+    "desenhada",
+    "elevada",
+    "carro",
+    "cabine"
+   ],
+   "fontes": [
+    "JR Central"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "VIA EXCLUSIVA",
+     "sub": "Sem passagens de nível",
+     "em": "geografia",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "controle",
+   "texto": "O sinal não fica ao lado da via: ele chega direto ao painel do maquinista. E o sistema de controle automático de trens vigia a velocidade a cada trecho. Se o trem passa do limite, o freio é acionado sozinho, sem esperar ninguém reagir. Ao mesmo tempo, um centro de controle em Tóquio acompanha todos os trens da linha, em tempo real. O maquinista continua importante, mas o sistema foi feito para corrigir o erro dele, e não para depender do acerto dele. Só que nenhum computador segura uma montanha caindo. E o Japão tem outro inimigo, que vem de baixo da terra.",
+   "galeria": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ],
+   "galeriaEm": [
+    0,
+    "controle",
+    "Se",
+    "centro",
+    "montanha",
+    "inimigo"
+   ],
+   "fontes": [
+    "JR Central"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "ATC",
+     "significado": "controle automático de trens: freia se passar do limite",
+     "em": "automático",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "terremoto",
+   "texto": "O Japão fica sobre o encontro de várias placas tectônicas. Um terremoto não chega de uma vez: primeiro vêm as ondas P, rápidas e fracas, depois as ondas S, lentas e destrutivas. Sismômetros ao longo da linha e na costa detectam as ondas P e mandam cortar a energia dos trens antes de a parte perigosa chegar. A JR East, que opera a região norte, tem noventa e sete desses aparelhos: oitenta e um junto à via, dezesseis no litoral. A frenagem de emergência começa em poucos segundos. Mas esses segundos têm um limite, e ele apareceu numa tarde de outubro.",
+   "galeria": [
+    "f3",
+    "f2",
+    "f1",
+    "f4",
+    "f5",
+    "f6"
+   ],
+   "galeriaEm": [
+    0,
+    "ondas",
+    "Sismômetros",
+    "energia",
+    "frenagem",
+    "limite"
+   ],
+   "fontes": [
+    "JR East"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 97,
+     "unidade": "sismômetros",
+     "rotulo": "JR East",
+     "em": "noventa",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "chuetsu",
+   "texto": "Vinte e três de outubro de dois mil e quatro, fim de tarde. Um terremoto de magnitude seis vírgula oito atinge a região de Niigata. O Toki trezentos e vinte e cinco, com cento e cinquenta e quatro pessoas a bordo, está perto demais do epicentro. O sistema não teve tempo de frear. Oito dos dez vagões saem dos trilhos. É o primeiro descarrilamento de um Shinkansen em operação comercial. Era o pior cenário imaginável. E mesmo assim, o relatório da JR East traz uma frase que parece mentira: ninguém ficou ferido.",
+   "galeria": [
+    "g3",
+    "g1",
+    "g2",
+    "g4",
+    "g5",
+    "g6"
+   ],
+   "galeriaEm": [
+    0,
+    "Niigata",
+    "Toki",
+    "frear",
+    "primeiro",
+    "relatório"
+   ],
+   "fontes": [
+    "JR East — relatório 2005"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 154,
+     "unidade": "pessoas a bordo",
+     "rotulo": "Nenhuma ferida",
+     "em": "cento",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "porque-ninguem",
+   "texto": "Por que ninguém se feriu? Segundo a JR East, mesmo depois de sair dos trilhos o trem continuou guiado por eles e manteve a posição até parar. Não tombou, não cruzou para a outra via, não bateu em nada. Foi um descarrilamento sem consequência trágica, e é por isso que o caso é estudado até hoje. O serviço voltou ao normal no fim de dezembro daquele ano. Depois do Toki, a empresa reforçou as defesas para que, numa próxima vez, o trem continue sobre o trilho. E a próxima vez chegaria rápido.",
+   "galeria": [
+    "g4",
+    "g6",
+    "g1",
+    "g5",
+    "g3"
+   ],
+   "galeriaEm": [
+    0,
+    "guiado",
+    "tombou",
+    "dezembro",
+    "próxima"
+   ],
+   "fontes": [
+    "JR East — relatório 2005"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DESCARRILOU, MAS NA VIA",
+     "em": "Segundo",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "onze-de-marco",
+   "texto": "Onze de março de dois mil e onze. O terremoto de Tohoku foi um dos mais fortes já registrados. Os trens da região norte estavam em plena circulação. Segundo a JR East, os sistemas de detecção cortaram a energia e os trens frearam antes da parte mais violenta do abalo. Nenhum trem de passageiros descarrilou, ainda que o número exato de trens em movimento varie conforme a fonte. Em dois mil e vinte e dois, outro terremoto fez um Shinkansen sair dos trilhos de novo, sem mortes. O sistema não é perfeito, mas funciona. Só que existe um risco que nenhum sismômetro mede.",
+   "galeria": [
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6"
+   ],
+   "galeriaEm": [
+    0,
+    "Tohoku",
+    "Segundo",
+    "Nenhum",
+    "vinte",
+    "perfeito"
+   ],
+   "fontes": [
+    "JR East — relatório 2011"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2004",
+       "Chuetsu"
+      ],
+      [
+       "2011",
+       "Tohoku"
+      ],
+      [
+       "2022",
+       "Fukushima"
+      ]
+     ],
+     "em": "Onze",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "trem-34",
+   "texto": "Onze de dezembro de dois mil e dezessete. O Nozomi trinta e quatro sai de Hakata rumo a Tóquio. Passageiros e funcionários notam um barulho estranho e um cheiro de queimado. Em Nagoya, os técnicos encontram uma rachadura de cerca de catorze centímetros na estrutura que sustenta as rodas. Faltavam poucos centímetros para a peça se partir. Cerca de mil pessoas trocaram de trem, e ninguém se feriu. O Japão classificou o caso como incidente grave, e a investigação apontou fadiga do metal. O recorde sobreviveu, mas por pouco.",
+   "galeria": [
+    "i1",
+    "i2",
+    "i3",
+    "i4",
+    "i5"
+   ],
+   "galeriaEm": [
+    0,
+    "Hakata",
+    "Nagoya",
+    "Faltavam",
+    "investigação"
+   ],
+   "fontes": [
+    "JTSB — relatório do incidente"
+   ],
+   "elementos": [
+    {
+     "tipo": "mapa",
+     "de": "Hakata",
+     "para": "Nagoya",
+     "legenda": "Trem interrompido em Nagoya",
+     "em": "Hakata",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "pegadinha",
+   "texto": "Agora, a pegadinha. A frase diz que o Shinkansen nunca matou um passageiro, mas houve mortes a bordo e nas estações. Em dezembro de mil novecentos e noventa e cinco, um estudante de dezessete anos morreu na estação de Mishima, preso na porta de um trem que partia. Em dois mil e quinze, um homem ateou fogo ao próprio corpo dentro de um trem, e uma passageira morreu. Em dois mil e dezoito, um ataque com faca matou um passageiro. Nenhum desses casos foi descarrilamento ou colisão, e o sistema de segurança do trem não tinha como impedi-los.",
+   "galeria": [
+    "j1",
+    "j2",
+    "j3",
+    "j4",
+    "j5",
+    "j6"
+   ],
+   "galeriaEm": [
+    0,
+    "Mishima",
+    "quinze",
+    "faca",
+    "Nenhum",
+    "impedi-los"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "BBC",
+    "Japan Times"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ACIDENTE OU SEGURANÇA?",
+     "sub": "Uma palavra muda a frase",
+     "em": "pegadinha",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "veredito",
+   "texto": "Então, qual é o veredito? Se a frase for nenhum passageiro morreu por descarrilamento ou colisão, os dados apresentados são consistentes com isso, e é um feito extraordinário. Se for ninguém jamais morreu num Shinkansen, ela está errada. O recorde de verdade é sobre engenharia: via exclusiva, controle automático, detecção de terremoto e manutenção constante. A pontualidade é outro retrato disso. Na Tokaido Shinkansen, o atraso médio ficou em um vírgula seis minuto por trem, no ano fiscal de dois mil e vinte e três, incluindo desastres naturais, segundo a JR Central.",
+   "galeria": [
+    "k1",
+    "k2",
+    "k3",
+    "k4",
+    "k5"
+   ],
+   "galeriaEm": [
+    0,
+    "descarrilamento",
+    "engenharia",
+    "pontualidade",
+    "atraso"
+   ],
+   "fontes": [
+    "JR Central"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1.6,
+     "unidade": "min de atraso médio",
+     "rotulo": "Ano fiscal 2023",
+     "em": "atraso",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Segurança, no fim, não é ausência de risco. É a soma de cada falha que alguém decidiu levar a sério antes que virasse tragédia.",
+   "galeria": [
+    "l1",
+    "l2"
+   ],
+   "galeriaEm": [
+    0,
+    "decidiu"
+   ],
+   "fontes": [],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "6f4eedd1bb",
+   "texto": "Primeiro de outubro de mil novecentos e sessenta e quatro. Um trem branco e azul parte de Tóquio rumo a Osaka, a mais de duzentos quilômetros por hora. De lá para cá, ele já carregou bilhões de pessoas. E existe uma frase que todo mundo repete: o trem-bala japonês nunca matou um passageiro. Será mesmo? A resposta é mais interessante do que um simples sim. O recorde existe, e é impressionante. Mas a frase, do jeito que circula, esconde uma pegadinha. Hoje a gente separa o fato do exagero.",
+   "audio": "audio/gancho-6f4eedd1bb.mp3",
+   "duracao": 32.836,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "de",
+     "i": 0.532,
+     "f": 0.623
+    },
+    {
+     "p": "outubro",
+     "i": 0.636,
+     "f": 1.118
+    },
+    {
+     "p": "de",
+     "i": 1.131,
+     "f": 1.248
+    },
+    {
+     "p": "mil",
+     "i": 1.261,
+     "f": 1.404
+    },
+    {
+     "p": "novecentos",
+     "i": 1.417,
+     "f": 2.042
+    },
+    {
+     "p": "e",
+     "i": 2.055,
+     "f": 2.159
+    },
+    {
+     "p": "sessenta",
+     "i": 2.172,
+     "f": 2.589
+    },
+    {
+     "p": "e",
+     "i": 2.602,
+     "f": 2.641
+    },
+    {
+     "p": "quatro",
+     "i": 2.654,
+     "f": 3.084
+    },
+    {
+     "p": "Um",
+     "i": 3.422,
+     "f": 3.63
+    },
+    {
+     "p": "trem",
+     "i": 3.643,
+     "f": 3.878
+    },
+    {
+     "p": "branco",
+     "i": 3.891,
+     "f": 4.307
+    },
+    {
+     "p": "e",
+     "i": 4.321,
+     "f": 4.386
+    },
+    {
+     "p": "azul",
+     "i": 4.399,
+     "f": 4.698
+    },
+    {
+     "p": "parte",
+     "i": 4.711,
+     "f": 5.089
+    },
+    {
+     "p": "de",
+     "i": 5.102,
+     "f": 5.245
+    },
+    {
+     "p": "Tóquio",
+     "i": 5.258,
+     "f": 5.649
+    },
+    {
+     "p": "rumo",
+     "i": 5.662,
+     "f": 5.896
+    },
+    {
+     "p": "a",
+     "i": 5.909,
+     "f": 5.935
+    },
+    {
+     "p": "Osaka",
+     "i": 5.948,
+     "f": 6.443
+    },
+    {
+     "p": "a",
+     "i": 6.664,
+     "f": 6.729
+    },
+    {
+     "p": "mais",
+     "i": 6.742,
+     "f": 7.042
+    },
+    {
+     "p": "de",
+     "i": 7.055,
+     "f": 7.12
+    },
+    {
+     "p": "duzentos",
+     "i": 7.133,
+     "f": 7.68
+    },
+    {
+     "p": "quilômetros",
+     "i": 7.693,
+     "f": 8.305
+    },
+    {
+     "p": "por",
+     "i": 8.318,
+     "f": 8.5
+    },
+    {
+     "p": "hora",
+     "i": 8.513,
+     "f": 8.813
+    },
+    {
+     "p": "De",
+     "i": 9.166,
+     "f": 9.374
+    },
+    {
+     "p": "lá",
+     "i": 9.387,
+     "f": 9.596
+    },
+    {
+     "p": "para",
+     "i": 9.609,
+     "f": 9.843
+    },
+    {
+     "p": "cá",
+     "i": 9.856,
+     "f": 10.104
+    },
+    {
+     "p": "ele",
+     "i": 10.338,
+     "f": 10.481
+    },
+    {
+     "p": "já",
+     "i": 10.494,
+     "f": 10.663
+    },
+    {
+     "p": "carregou",
+     "i": 10.677,
+     "f": 11.106
+    },
+    {
+     "p": "bilhões",
+     "i": 11.119,
+     "f": 11.627
+    },
+    {
+     "p": "de",
+     "i": 11.64,
+     "f": 11.718
+    },
+    {
+     "p": "pessoas",
+     "i": 11.731,
+     "f": 12.421
+    },
+    {
+     "p": "E",
+     "i": 12.774,
+     "f": 12.904
+    },
+    {
+     "p": "existe",
+     "i": 12.917,
+     "f": 13.321
+    },
+    {
+     "p": "uma",
+     "i": 13.334,
+     "f": 13.49
+    },
+    {
+     "p": "frase",
+     "i": 13.503,
+     "f": 13.933
+    },
+    {
+     "p": "que",
+     "i": 13.946,
+     "f": 14.102
+    },
+    {
+     "p": "todo",
+     "i": 14.115,
+     "f": 14.402
+    },
+    {
+     "p": "mundo",
+     "i": 14.415,
+     "f": 14.662
+    },
+    {
+     "p": "repete",
+     "i": 14.675,
+     "f": 15.261
+    },
+    {
+     "p": "o",
+     "i": 15.574,
+     "f": 15.691
+    },
+    {
+     "p": "trem-bala",
+     "i": 15.704,
+     "f": 16.199
+    },
+    {
+     "p": "japonês",
+     "i": 16.212,
+     "f": 16.706
+    },
+    {
+     "p": "nunca",
+     "i": 16.719,
+     "f": 17.071
+    },
+    {
+     "p": "matou",
+     "i": 17.084,
+     "f": 17.384
+    },
+    {
+     "p": "um",
+     "i": 17.396,
+     "f": 17.501
+    },
+    {
+     "p": "passageiro",
+     "i": 17.514,
+     "f": 18.178
+    },
+    {
+     "p": "Será",
+     "i": 18.518,
+     "f": 18.922
+    },
+    {
+     "p": "mesmo",
+     "i": 18.935,
+     "f": 19.43
+    },
+    {
+     "p": "A",
+     "i": 19.834,
+     "f": 19.964
+    },
+    {
+     "p": "resposta",
+     "i": 19.977,
+     "f": 20.602
+    },
+    {
+     "p": "é",
+     "i": 20.615,
+     "f": 20.654
+    },
+    {
+     "p": "mais",
+     "i": 20.667,
+     "f": 20.941
+    },
+    {
+     "p": "interessante",
+     "i": 20.954,
+     "f": 21.722
+    },
+    {
+     "p": "do",
+     "i": 21.735,
+     "f": 21.865
+    },
+    {
+     "p": "que",
+     "i": 21.878,
+     "f": 22.009
+    },
+    {
+     "p": "um",
+     "i": 22.022,
+     "f": 22.139
+    },
+    {
+     "p": "simples",
+     "i": 22.152,
+     "f": 22.712
+    },
+    {
+     "p": "sim",
+     "i": 22.725,
+     "f": 22.985
+    },
+    {
+     "p": "O",
+     "i": 23.322,
+     "f": 23.426
+    },
+    {
+     "p": "recorde",
+     "i": 23.439,
+     "f": 23.96
+    },
+    {
+     "p": "existe",
+     "i": 23.973,
+     "f": 24.507
+    },
+    {
+     "p": "e",
+     "i": 24.728,
+     "f": 24.806
+    },
+    {
+     "p": "é",
+     "i": 24.819,
+     "f": 24.898
+    },
+    {
+     "p": "impressionante",
+     "i": 24.911,
+     "f": 25.77
+    },
+    {
+     "p": "Mas",
+     "i": 26.114,
+     "f": 26.322
+    },
+    {
+     "p": "a",
+     "i": 26.335,
+     "f": 26.492
+    },
+    {
+     "p": "frase",
+     "i": 26.505,
+     "f": 26.973
+    },
+    {
+     "p": "do",
+     "i": 27.234,
+     "f": 27.403
+    },
+    {
+     "p": "jeito",
+     "i": 27.416,
+     "f": 27.768
+    },
+    {
+     "p": "que",
+     "i": 27.781,
+     "f": 27.885
+    },
+    {
+     "p": "circula",
+     "i": 27.898,
+     "f": 28.419
+    },
+    {
+     "p": "esconde",
+     "i": 28.744,
+     "f": 29.174
+    },
+    {
+     "p": "uma",
+     "i": 29.187,
+     "f": 29.343
+    },
+    {
+     "p": "pegadinha",
+     "i": 29.356,
+     "f": 29.981
+    },
+    {
+     "p": "Hoje",
+     "i": 30.322,
+     "f": 30.648
+    },
+    {
+     "p": "a",
+     "i": 30.661,
+     "f": 30.713
+    },
+    {
+     "p": "gente",
+     "i": 30.726,
+     "f": 31.038
+    },
+    {
+     "p": "separa",
+     "i": 31.051,
+     "f": 31.377
+    },
+    {
+     "p": "o",
+     "i": 31.39,
+     "f": 31.416
+    },
+    {
+     "p": "fato",
+     "i": 31.429,
+     "f": 31.833
+    },
+    {
+     "p": "do",
+     "i": 31.846,
+     "f": 31.989
+    },
+    {
+     "p": "exagero",
+     "i": 32.002,
+     "f": 32.601
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "1d07bcb7a5",
+   "texto": "Antes de tudo, precisamos entender o que o recorde diz. Ele costuma ser descrito assim: nenhum passageiro morreu em descarrilamento ou colisão desde a inauguração. Isso não é o mesmo que nenhuma morte de qualquer tipo. Neste vídeo você vai ver como o trem nasceu, como ele sente um terremoto antes de o chão tremer de verdade, e os dias em que o recorde foi posto à prova. No fim, você vai entender por que uma palavra muda toda a história. Mas primeiro, precisamos voltar ao Japão do pós-guerra.",
+   "audio": "audio/promessa-1d07bcb7a5.mp3",
+   "duracao": 31.164,
+   "palavras": [
+    {
+     "p": "Antes",
+     "i": 0.102,
+     "f": 0.48
+    },
+    {
+     "p": "de",
+     "i": 0.493,
+     "f": 0.636
+    },
+    {
+     "p": "tudo",
+     "i": 0.649,
+     "f": 0.987
+    },
+    {
+     "p": "precisamos",
+     "i": 1.235,
+     "f": 1.86
+    },
+    {
+     "p": "entender",
+     "i": 1.873,
+     "f": 2.472
+    },
+    {
+     "p": "o",
+     "i": 2.485,
+     "f": 2.55
+    },
+    {
+     "p": "que",
+     "i": 2.563,
+     "f": 2.654
+    },
+    {
+     "p": "o",
+     "i": 2.667,
+     "f": 2.706
+    },
+    {
+     "p": "recorde",
+     "i": 2.719,
+     "f": 3.266
+    },
+    {
+     "p": "diz",
+     "i": 3.279,
+     "f": 3.709
+    },
+    {
+     "p": "Ele",
+     "i": 4.046,
+     "f": 4.254
+    },
+    {
+     "p": "costuma",
+     "i": 4.267,
+     "f": 4.749
+    },
+    {
+     "p": "ser",
+     "i": 4.762,
+     "f": 4.971
+    },
+    {
+     "p": "descrito",
+     "i": 4.984,
+     "f": 5.504
+    },
+    {
+     "p": "assim",
+     "i": 5.517,
+     "f": 5.895
+    },
+    {
+     "p": "nenhum",
+     "i": 6.142,
+     "f": 6.507
+    },
+    {
+     "p": "passageiro",
+     "i": 6.52,
+     "f": 7.132
+    },
+    {
+     "p": "morreu",
+     "i": 7.145,
+     "f": 7.445
+    },
+    {
+     "p": "em",
+     "i": 7.458,
+     "f": 7.523
+    },
+    {
+     "p": "descarrilamento",
+     "i": 7.536,
+     "f": 8.395
+    },
+    {
+     "p": "ou",
+     "i": 8.408,
+     "f": 8.499
+    },
+    {
+     "p": "colisão",
+     "i": 8.512,
+     "f": 9.007
+    },
+    {
+     "p": "desde",
+     "i": 9.02,
+     "f": 9.398
+    },
+    {
+     "p": "a",
+     "i": 9.411,
+     "f": 9.437
+    },
+    {
+     "p": "inauguração",
+     "i": 9.45,
+     "f": 10.244
+    },
+    {
+     "p": "Isso",
+     "i": 10.582,
+     "f": 10.921
+    },
+    {
+     "p": "não",
+     "i": 10.934,
+     "f": 11.09
+    },
+    {
+     "p": "é",
+     "i": 11.103,
+     "f": 11.181
+    },
+    {
+     "p": "o",
+     "i": 11.194,
+     "f": 11.246
+    },
+    {
+     "p": "mesmo",
+     "i": 11.259,
+     "f": 11.663
+    },
+    {
+     "p": "que",
+     "i": 11.676,
+     "f": 11.78
+    },
+    {
+     "p": "nenhuma",
+     "i": 11.793,
+     "f": 12.145
+    },
+    {
+     "p": "morte",
+     "i": 12.158,
+     "f": 12.574
+    },
+    {
+     "p": "de",
+     "i": 12.587,
+     "f": 12.665
+    },
+    {
+     "p": "qualquer",
+     "i": 12.678,
+     "f": 13.056
+    },
+    {
+     "p": "tipo",
+     "i": 13.069,
+     "f": 13.473
+    },
+    {
+     "p": "Neste",
+     "i": 13.806,
+     "f": 14.223
+    },
+    {
+     "p": "vídeo",
+     "i": 14.236,
+     "f": 14.561
+    },
+    {
+     "p": "você",
+     "i": 14.574,
+     "f": 14.861
+    },
+    {
+     "p": "vai",
+     "i": 14.874,
+     "f": 15.03
+    },
+    {
+     "p": "ver",
+     "i": 15.043,
+     "f": 15.251
+    },
+    {
+     "p": "como",
+     "i": 15.264,
+     "f": 15.499
+    },
+    {
+     "p": "o",
+     "i": 15.512,
+     "f": 15.551
+    },
+    {
+     "p": "trem",
+     "i": 15.564,
+     "f": 15.746
+    },
+    {
+     "p": "nasceu",
+     "i": 15.759,
+     "f": 16.241
+    },
+    {
+     "p": "como",
+     "i": 16.58,
+     "f": 16.788
+    },
+    {
+     "p": "ele",
+     "i": 16.801,
+     "f": 16.944
+    },
+    {
+     "p": "sente",
+     "i": 16.957,
+     "f": 17.309
+    },
+    {
+     "p": "um",
+     "i": 17.322,
+     "f": 17.387
+    },
+    {
+     "p": "terremoto",
+     "i": 17.4,
+     "f": 17.96
+    },
+    {
+     "p": "antes",
+     "i": 17.973,
+     "f": 18.311
+    },
+    {
+     "p": "de",
+     "i": 18.324,
+     "f": 18.402
+    },
+    {
+     "p": "o",
+     "i": 18.415,
+     "f": 18.441
+    },
+    {
+     "p": "chão",
+     "i": 18.455,
+     "f": 18.715
+    },
+    {
+     "p": "tremer",
+     "i": 18.728,
+     "f": 19.04
+    },
+    {
+     "p": "de",
+     "i": 19.053,
+     "f": 19.145
+    },
+    {
+     "p": "verdade",
+     "i": 19.158,
+     "f": 19.692
+    },
+    {
+     "p": "e",
+     "i": 20.056,
+     "f": 20.173
+    },
+    {
+     "p": "os",
+     "i": 20.186,
+     "f": 20.316
+    },
+    {
+     "p": "dias",
+     "i": 20.33,
+     "f": 20.603
+    },
+    {
+     "p": "em",
+     "i": 20.616,
+     "f": 20.759
+    },
+    {
+     "p": "que",
+     "i": 20.772,
+     "f": 20.85
+    },
+    {
+     "p": "o",
+     "i": 20.863,
+     "f": 20.902
+    },
+    {
+     "p": "recorde",
+     "i": 20.915,
+     "f": 21.475
+    },
+    {
+     "p": "foi",
+     "i": 21.488,
+     "f": 21.671
+    },
+    {
+     "p": "posto",
+     "i": 21.684,
+     "f": 22.061
+    },
+    {
+     "p": "à",
+     "i": 22.074,
+     "f": 22.113
+    },
+    {
+     "p": "prova",
+     "i": 22.126,
+     "f": 22.543
+    },
+    {
+     "p": "No",
+     "i": 22.886,
+     "f": 23.068
+    },
+    {
+     "p": "fim",
+     "i": 23.081,
+     "f": 23.368
+    },
+    {
+     "p": "você",
+     "i": 23.745,
+     "f": 24.019
+    },
+    {
+     "p": "vai",
+     "i": 24.032,
+     "f": 24.149
+    },
+    {
+     "p": "entender",
+     "i": 24.162,
+     "f": 24.631
+    },
+    {
+     "p": "por",
+     "i": 24.644,
+     "f": 24.852
+    },
+    {
+     "p": "que",
+     "i": 24.865,
+     "f": 24.995
+    },
+    {
+     "p": "uma",
+     "i": 25.008,
+     "f": 25.178
+    },
+    {
+     "p": "palavra",
+     "i": 25.191,
+     "f": 25.594
+    },
+    {
+     "p": "muda",
+     "i": 25.607,
+     "f": 25.998
+    },
+    {
+     "p": "toda",
+     "i": 26.011,
+     "f": 26.298
+    },
+    {
+     "p": "a",
+     "i": 26.311,
+     "f": 26.337
+    },
+    {
+     "p": "história",
+     "i": 26.35,
+     "f": 26.831
+    },
+    {
+     "p": "Mas",
+     "i": 27.166,
+     "f": 27.479
+    },
+    {
+     "p": "primeiro",
+     "i": 27.492,
+     "f": 27.96
+    },
+    {
+     "p": "precisamos",
+     "i": 28.247,
+     "f": 28.911
+    },
+    {
+     "p": "voltar",
+     "i": 28.924,
+     "f": 29.341
+    },
+    {
+     "p": "ao",
+     "i": 29.354,
+     "f": 29.445
+    },
+    {
+     "p": "Japão",
+     "i": 29.458,
+     "f": 29.861
+    },
+    {
+     "p": "do",
+     "i": 29.874,
+     "f": 29.992
+    },
+    {
+     "p": "pós-guerra",
+     "i": 30.005,
+     "f": 30.695
+    }
+   ]
+  },
+  "origem": {
+   "hash": "9463f9a91c",
+   "texto": "Nos anos cinquenta, o corredor entre Tóquio e Osaka já era o mais movimentado do país. O trem rápido da época levava seis horas e quarenta minutos. As obras do Tokaido Shinkansen começaram em abril de mil novecentos e cinquenta e nove, sob o presidente da ferrovia nacional, Shinji Sogo, e o engenheiro-chefe Hideo Shima. A linha abriu dias antes das Olimpíadas de Tóquio, com viagens de quatro horas. Em novembro de sessenta e cinco, o tempo caiu para três horas e dez minutos, a duzentos e dez por hora. Só que velocidade sem segurança é uma tragédia esperando para acontecer.",
+   "audio": "audio/origem-9463f9a91c.mp3",
+   "duracao": 37.355,
+   "palavras": [
+    {
+     "p": "Nos",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "anos",
+     "i": 0.336,
+     "f": 0.675
+    },
+    {
+     "p": "cinquenta",
+     "i": 0.688,
+     "f": 1.261
+    },
+    {
+     "p": "o",
+     "i": 1.626,
+     "f": 1.704
+    },
+    {
+     "p": "corredor",
+     "i": 1.717,
+     "f": 2.264
+    },
+    {
+     "p": "entre",
+     "i": 2.277,
+     "f": 2.537
+    },
+    {
+     "p": "Tóquio",
+     "i": 2.55,
+     "f": 2.954
+    },
+    {
+     "p": "e",
+     "i": 2.967,
+     "f": 3.019
+    },
+    {
+     "p": "Osaka",
+     "i": 3.032,
+     "f": 3.501
+    },
+    {
+     "p": "já",
+     "i": 3.514,
+     "f": 3.657
+    },
+    {
+     "p": "era",
+     "i": 3.67,
+     "f": 3.852
+    },
+    {
+     "p": "o",
+     "i": 3.865,
+     "f": 3.891
+    },
+    {
+     "p": "mais",
+     "i": 3.904,
+     "f": 4.139
+    },
+    {
+     "p": "movimentado",
+     "i": 4.152,
+     "f": 4.933
+    },
+    {
+     "p": "do",
+     "i": 4.946,
+     "f": 5.05
+    },
+    {
+     "p": "país",
+     "i": 5.063,
+     "f": 5.597
+    },
+    {
+     "p": "O",
+     "i": 5.942,
+     "f": 6.085
+    },
+    {
+     "p": "trem",
+     "i": 6.098,
+     "f": 6.411
+    },
+    {
+     "p": "rápido",
+     "i": 6.424,
+     "f": 6.828
+    },
+    {
+     "p": "da",
+     "i": 6.841,
+     "f": 6.971
+    },
+    {
+     "p": "época",
+     "i": 6.984,
+     "f": 7.361
+    },
+    {
+     "p": "levava",
+     "i": 7.374,
+     "f": 7.752
+    },
+    {
+     "p": "seis",
+     "i": 7.765,
+     "f": 7.986
+    },
+    {
+     "p": "horas",
+     "i": 7.999,
+     "f": 8.351
+    },
+    {
+     "p": "e",
+     "i": 8.364,
+     "f": 8.468
+    },
+    {
+     "p": "quarenta",
+     "i": 8.481,
+     "f": 8.963
+    },
+    {
+     "p": "minutos",
+     "i": 8.976,
+     "f": 9.588
+    },
+    {
+     "p": "As",
+     "i": 9.934,
+     "f": 10.077
+    },
+    {
+     "p": "obras",
+     "i": 10.09,
+     "f": 10.533
+    },
+    {
+     "p": "do",
+     "i": 10.546,
+     "f": 10.663
+    },
+    {
+     "p": "Tokaido",
+     "i": 10.676,
+     "f": 11.158
+    },
+    {
+     "p": "Shinkansen",
+     "i": 11.171,
+     "f": 11.835
+    },
+    {
+     "p": "começaram",
+     "i": 11.848,
+     "f": 12.46
+    },
+    {
+     "p": "em",
+     "i": 12.473,
+     "f": 12.551
+    },
+    {
+     "p": "abril",
+     "i": 12.564,
+     "f": 12.903
+    },
+    {
+     "p": "de",
+     "i": 12.916,
+     "f": 13.02
+    },
+    {
+     "p": "mil",
+     "i": 13.033,
+     "f": 13.189
+    },
+    {
+     "p": "novecentos",
+     "i": 13.202,
+     "f": 13.801
+    },
+    {
+     "p": "e",
+     "i": 13.814,
+     "f": 13.918
+    },
+    {
+     "p": "cinquenta",
+     "i": 13.931,
+     "f": 14.322
+    },
+    {
+     "p": "e",
+     "i": 14.335,
+     "f": 14.361
+    },
+    {
+     "p": "nove",
+     "i": 14.374,
+     "f": 14.713
+    },
+    {
+     "p": "sob",
+     "i": 15.025,
+     "f": 15.247
+    },
+    {
+     "p": "o",
+     "i": 15.26,
+     "f": 15.312
+    },
+    {
+     "p": "presidente",
+     "i": 15.325,
+     "f": 15.885
+    },
+    {
+     "p": "da",
+     "i": 15.898,
+     "f": 16.002
+    },
+    {
+     "p": "ferrovia",
+     "i": 16.015,
+     "f": 16.497
+    },
+    {
+     "p": "nacional",
+     "i": 16.51,
+     "f": 17.03
+    },
+    {
+     "p": "Shinji",
+     "i": 17.317,
+     "f": 17.747
+    },
+    {
+     "p": "Sogo",
+     "i": 17.76,
+     "f": 18.215
+    },
+    {
+     "p": "e",
+     "i": 18.554,
+     "f": 18.658
+    },
+    {
+     "p": "o",
+     "i": 18.671,
+     "f": 18.723
+    },
+    {
+     "p": "engenheiro-chefe",
+     "i": 18.736,
+     "f": 19.674
+    },
+    {
+     "p": "Hideo",
+     "i": 19.687,
+     "f": 20.038
+    },
+    {
+     "p": "Shima",
+     "i": 20.051,
+     "f": 20.481
+    },
+    {
+     "p": "A",
+     "i": 20.814,
+     "f": 20.918
+    },
+    {
+     "p": "linha",
+     "i": 20.931,
+     "f": 21.179
+    },
+    {
+     "p": "abriu",
+     "i": 21.192,
+     "f": 21.465
+    },
+    {
+     "p": "dias",
+     "i": 21.478,
+     "f": 21.7
+    },
+    {
+     "p": "antes",
+     "i": 21.713,
+     "f": 22.116
+    },
+    {
+     "p": "das",
+     "i": 22.129,
+     "f": 22.233
+    },
+    {
+     "p": "Olimpíadas",
+     "i": 22.246,
+     "f": 22.936
+    },
+    {
+     "p": "de",
+     "i": 22.949,
+     "f": 23.08
+    },
+    {
+     "p": "Tóquio",
+     "i": 23.093,
+     "f": 23.483
+    },
+    {
+     "p": "com",
+     "i": 23.809,
+     "f": 23.978
+    },
+    {
+     "p": "viagens",
+     "i": 23.991,
+     "f": 24.551
+    },
+    {
+     "p": "de",
+     "i": 24.564,
+     "f": 24.681
+    },
+    {
+     "p": "quatro",
+     "i": 24.694,
+     "f": 25.111
+    },
+    {
+     "p": "horas",
+     "i": 25.124,
+     "f": 25.567
+    },
+    {
+     "p": "Em",
+     "i": 25.91,
+     "f": 26.04
+    },
+    {
+     "p": "novembro",
+     "i": 26.053,
+     "f": 26.6
+    },
+    {
+     "p": "de",
+     "i": 26.613,
+     "f": 26.691
+    },
+    {
+     "p": "sessenta",
+     "i": 26.704,
+     "f": 27.082
+    },
+    {
+     "p": "e",
+     "i": 27.095,
+     "f": 27.134
+    },
+    {
+     "p": "cinco",
+     "i": 27.147,
+     "f": 27.59
+    },
+    {
+     "p": "o",
+     "i": 27.928,
+     "f": 28.059
+    },
+    {
+     "p": "tempo",
+     "i": 28.072,
+     "f": 28.423
+    },
+    {
+     "p": "caiu",
+     "i": 28.436,
+     "f": 28.736
+    },
+    {
+     "p": "para",
+     "i": 28.749,
+     "f": 28.97
+    },
+    {
+     "p": "três",
+     "i": 28.983,
+     "f": 29.243
+    },
+    {
+     "p": "horas",
+     "i": 29.256,
+     "f": 29.582
+    },
+    {
+     "p": "e",
+     "i": 29.595,
+     "f": 29.725
+    },
+    {
+     "p": "dez",
+     "i": 29.738,
+     "f": 30.012
+    },
+    {
+     "p": "minutos",
+     "i": 30.025,
+     "f": 30.598
+    },
+    {
+     "p": "a",
+     "i": 30.845,
+     "f": 30.923
+    },
+    {
+     "p": "duzentos",
+     "i": 30.936,
+     "f": 31.47
+    },
+    {
+     "p": "e",
+     "i": 31.483,
+     "f": 31.613
+    },
+    {
+     "p": "dez",
+     "i": 31.626,
+     "f": 31.9
+    },
+    {
+     "p": "por",
+     "i": 31.913,
+     "f": 32.095
+    },
+    {
+     "p": "hora",
+     "i": 32.108,
+     "f": 32.407
+    },
+    {
+     "p": "Só",
+     "i": 32.758,
+     "f": 33.071
+    },
+    {
+     "p": "que",
+     "i": 33.084,
+     "f": 33.188
+    },
+    {
+     "p": "velocidade",
+     "i": 33.201,
+     "f": 33.904
+    },
+    {
+     "p": "sem",
+     "i": 33.917,
+     "f": 34.138
+    },
+    {
+     "p": "segurança",
+     "i": 34.151,
+     "f": 34.802
+    },
+    {
+     "p": "é",
+     "i": 34.815,
+     "f": 34.841
+    },
+    {
+     "p": "uma",
+     "i": 34.854,
+     "f": 34.985
+    },
+    {
+     "p": "tragédia",
+     "i": 34.998,
+     "f": 35.505
+    },
+    {
+     "p": "esperando",
+     "i": 35.518,
+     "f": 36.078
+    },
+    {
+     "p": "para",
+     "i": 36.091,
+     "f": 36.261
+    },
+    {
+     "p": "acontecer",
+     "i": 36.274,
+     "f": 36.912
+    }
+   ]
+  },
+  "projeto": {
+   "hash": "36e50ee6ae",
+   "texto": "O primeiro segredo não é tecnologia de ponta, é geografia. A linha foi desenhada separada das ferrovias comuns, com via exclusiva, cercada, muitas vezes elevada. Não existem passagens de nível: nenhum carro, nenhuma pessoa atravessa os trilhos. Por isso, boa parte dos acidentes ferroviários que conhecemos simplesmente não tem como acontecer. Mas e o erro humano dentro da cabine? Para isso, os engenheiros pensaram em algo que, naquela época, era radical.",
+   "audio": "audio/projeto-36e50ee6ae.mp3",
+   "duracao": 30.981,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "primeiro",
+     "i": 0.245,
+     "f": 0.597
+    },
+    {
+     "p": "segredo",
+     "i": 0.61,
+     "f": 1.144
+    },
+    {
+     "p": "não",
+     "i": 1.157,
+     "f": 1.352
+    },
+    {
+     "p": "é",
+     "i": 1.365,
+     "f": 1.417
+    },
+    {
+     "p": "tecnologia",
+     "i": 1.43,
+     "f": 2.159
+    },
+    {
+     "p": "de",
+     "i": 2.172,
+     "f": 2.29
+    },
+    {
+     "p": "ponta",
+     "i": 2.303,
+     "f": 2.758
+    },
+    {
+     "p": "é",
+     "i": 2.902,
+     "f": 3.006
+    },
+    {
+     "p": "geografia",
+     "i": 3.019,
+     "f": 3.774
+    },
+    {
+     "p": "A",
+     "i": 4.118,
+     "f": 4.235
+    },
+    {
+     "p": "linha",
+     "i": 4.248,
+     "f": 4.587
+    },
+    {
+     "p": "foi",
+     "i": 4.6,
+     "f": 4.743
+    },
+    {
+     "p": "desenhada",
+     "i": 4.756,
+     "f": 5.303
+    },
+    {
+     "p": "separada",
+     "i": 5.316,
+     "f": 5.876
+    },
+    {
+     "p": "das",
+     "i": 5.889,
+     "f": 6.071
+    },
+    {
+     "p": "ferrovias",
+     "i": 6.084,
+     "f": 6.67
+    },
+    {
+     "p": "comuns",
+     "i": 6.683,
+     "f": 7.243
+    },
+    {
+     "p": "com",
+     "i": 7.503,
+     "f": 7.725
+    },
+    {
+     "p": "via",
+     "i": 7.738,
+     "f": 7.92
+    },
+    {
+     "p": "exclusiva",
+     "i": 7.933,
+     "f": 8.584
+    },
+    {
+     "p": "cercada",
+     "i": 8.793,
+     "f": 9.379
+    },
+    {
+     "p": "muitas",
+     "i": 9.639,
+     "f": 10.108
+    },
+    {
+     "p": "vezes",
+     "i": 10.121,
+     "f": 10.433
+    },
+    {
+     "p": "elevada",
+     "i": 10.446,
+     "f": 11.045
+    },
+    {
+     "p": "Não",
+     "i": 11.398,
+     "f": 11.685
+    },
+    {
+     "p": "existem",
+     "i": 11.698,
+     "f": 12.153
+    },
+    {
+     "p": "passagens",
+     "i": 12.166,
+     "f": 12.791
+    },
+    {
+     "p": "de",
+     "i": 12.804,
+     "f": 12.908
+    },
+    {
+     "p": "nível",
+     "i": 12.922,
+     "f": 13.312
+    },
+    {
+     "p": "nenhum",
+     "i": 13.599,
+     "f": 14.002
+    },
+    {
+     "p": "carro",
+     "i": 14.015,
+     "f": 14.406
+    },
+    {
+     "p": "nenhuma",
+     "i": 14.653,
+     "f": 15.031
+    },
+    {
+     "p": "pessoa",
+     "i": 15.044,
+     "f": 15.422
+    },
+    {
+     "p": "atravessa",
+     "i": 15.435,
+     "f": 15.89
+    },
+    {
+     "p": "os",
+     "i": 15.903,
+     "f": 16.02
+    },
+    {
+     "p": "trilhos",
+     "i": 16.033,
+     "f": 16.58
+    },
+    {
+     "p": "Por",
+     "i": 16.926,
+     "f": 17.108
+    },
+    {
+     "p": "isso",
+     "i": 17.121,
+     "f": 17.447
+    },
+    {
+     "p": "boa",
+     "i": 17.746,
+     "f": 18.033
+    },
+    {
+     "p": "parte",
+     "i": 18.046,
+     "f": 18.423
+    },
+    {
+     "p": "dos",
+     "i": 18.437,
+     "f": 18.528
+    },
+    {
+     "p": "acidentes",
+     "i": 18.541,
+     "f": 19.205
+    },
+    {
+     "p": "ferroviários",
+     "i": 19.218,
+     "f": 19.895
+    },
+    {
+     "p": "que",
+     "i": 19.908,
+     "f": 20.025
+    },
+    {
+     "p": "conhecemos",
+     "i": 20.038,
+     "f": 20.65
+    },
+    {
+     "p": "simplesmente",
+     "i": 20.663,
+     "f": 21.431
+    },
+    {
+     "p": "não",
+     "i": 21.444,
+     "f": 21.64
+    },
+    {
+     "p": "tem",
+     "i": 21.653,
+     "f": 21.822
+    },
+    {
+     "p": "como",
+     "i": 21.835,
+     "f": 22.043
+    },
+    {
+     "p": "acontecer",
+     "i": 22.056,
+     "f": 22.681
+    },
+    {
+     "p": "Mas",
+     "i": 23.03,
+     "f": 23.238
+    },
+    {
+     "p": "e",
+     "i": 23.251,
+     "f": 23.421
+    },
+    {
+     "p": "o",
+     "i": 23.434,
+     "f": 23.577
+    },
+    {
+     "p": "erro",
+     "i": 23.59,
+     "f": 23.798
+    },
+    {
+     "p": "humano",
+     "i": 23.811,
+     "f": 24.215
+    },
+    {
+     "p": "dentro",
+     "i": 24.228,
+     "f": 24.567
+    },
+    {
+     "p": "da",
+     "i": 24.58,
+     "f": 24.671
+    },
+    {
+     "p": "cabine",
+     "i": 24.684,
+     "f": 25.179
+    },
+    {
+     "p": "Para",
+     "i": 25.57,
+     "f": 25.87
+    },
+    {
+     "p": "isso",
+     "i": 25.883,
+     "f": 26.234
+    },
+    {
+     "p": "os",
+     "i": 26.456,
+     "f": 26.521
+    },
+    {
+     "p": "engenheiros",
+     "i": 26.534,
+     "f": 27.146
+    },
+    {
+     "p": "pensaram",
+     "i": 27.159,
+     "f": 27.666
+    },
+    {
+     "p": "em",
+     "i": 27.679,
+     "f": 27.771
+    },
+    {
+     "p": "algo",
+     "i": 27.784,
+     "f": 28.122
+    },
+    {
+     "p": "que",
+     "i": 28.135,
+     "f": 28.383
+    },
+    {
+     "p": "naquela",
+     "i": 28.669,
+     "f": 29.099
+    },
+    {
+     "p": "época",
+     "i": 29.112,
+     "f": 29.554
+    },
+    {
+     "p": "era",
+     "i": 29.763,
+     "f": 29.971
+    },
+    {
+     "p": "radical.",
+     "i": 29.984,
+     "f": 30.557
+    }
+   ]
+  },
+  "controle": {
+   "hash": "2486e133a0",
+   "texto": "O sinal não fica ao lado da via: ele chega direto ao painel do maquinista. E o sistema de controle automático de trens vigia a velocidade a cada trecho. Se o trem passa do limite, o freio é acionado sozinho, sem esperar ninguém reagir. Ao mesmo tempo, um centro de controle em Tóquio acompanha todos os trens da linha, em tempo real. O maquinista continua importante, mas o sistema foi feito para corrigir o erro dele, e não para depender do acerto dele. Só que nenhum computador segura uma montanha caindo. E o Japão tem outro inimigo, que vem de baixo da terra.",
+   "audio": "audio/controle-2486e133a0.mp3",
+   "duracao": 36.284,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "sinal",
+     "i": 0.232,
+     "f": 0.571
+    },
+    {
+     "p": "não",
+     "i": 0.584,
+     "f": 0.753
+    },
+    {
+     "p": "fica",
+     "i": 0.766,
+     "f": 1.053
+    },
+    {
+     "p": "ao",
+     "i": 1.066,
+     "f": 1.157
+    },
+    {
+     "p": "lado",
+     "i": 1.17,
+     "f": 1.482
+    },
+    {
+     "p": "da",
+     "i": 1.495,
+     "f": 1.626
+    },
+    {
+     "p": "via",
+     "i": 1.639,
+     "f": 1.951
+    },
+    {
+     "p": "ele",
+     "i": 2.316,
+     "f": 2.472
+    },
+    {
+     "p": "chega",
+     "i": 2.485,
+     "f": 2.784
+    },
+    {
+     "p": "direto",
+     "i": 2.797,
+     "f": 3.188
+    },
+    {
+     "p": "ao",
+     "i": 3.201,
+     "f": 3.305
+    },
+    {
+     "p": "painel",
+     "i": 3.318,
+     "f": 3.709
+    },
+    {
+     "p": "do",
+     "i": 3.722,
+     "f": 3.813
+    },
+    {
+     "p": "maquinista",
+     "i": 3.826,
+     "f": 4.49
+    },
+    {
+     "p": "E",
+     "i": 4.838,
+     "f": 4.955
+    },
+    {
+     "p": "o",
+     "i": 4.968,
+     "f": 5.033
+    },
+    {
+     "p": "sistema",
+     "i": 5.046,
+     "f": 5.554
+    },
+    {
+     "p": "de",
+     "i": 5.567,
+     "f": 5.645
+    },
+    {
+     "p": "controle",
+     "i": 5.658,
+     "f": 6.049
+    },
+    {
+     "p": "automático",
+     "i": 6.062,
+     "f": 6.713
+    },
+    {
+     "p": "de",
+     "i": 6.726,
+     "f": 6.882
+    },
+    {
+     "p": "trens",
+     "i": 6.895,
+     "f": 7.195
+    },
+    {
+     "p": "vigia",
+     "i": 7.208,
+     "f": 7.585
+    },
+    {
+     "p": "a",
+     "i": 7.598,
+     "f": 7.625
+    },
+    {
+     "p": "velocidade",
+     "i": 7.638,
+     "f": 8.302
+    },
+    {
+     "p": "a",
+     "i": 8.315,
+     "f": 8.354
+    },
+    {
+     "p": "cada",
+     "i": 8.367,
+     "f": 8.64
+    },
+    {
+     "p": "trecho",
+     "i": 8.653,
+     "f": 9.096
+    },
+    {
+     "p": "Se",
+     "i": 9.43,
+     "f": 9.638
+    },
+    {
+     "p": "o",
+     "i": 9.651,
+     "f": 9.743
+    },
+    {
+     "p": "trem",
+     "i": 9.756,
+     "f": 10.016
+    },
+    {
+     "p": "passa",
+     "i": 10.029,
+     "f": 10.329
+    },
+    {
+     "p": "do",
+     "i": 10.342,
+     "f": 10.42
+    },
+    {
+     "p": "limite",
+     "i": 10.433,
+     "f": 10.914
+    },
+    {
+     "p": "o",
+     "i": 11.279,
+     "f": 11.357
+    },
+    {
+     "p": "freio",
+     "i": 11.37,
+     "f": 11.735
+    },
+    {
+     "p": "é",
+     "i": 11.748,
+     "f": 11.852
+    },
+    {
+     "p": "acionado",
+     "i": 11.865,
+     "f": 12.347
+    },
+    {
+     "p": "sozinho",
+     "i": 12.36,
+     "f": 12.92
+    },
+    {
+     "p": "sem",
+     "i": 13.167,
+     "f": 13.388
+    },
+    {
+     "p": "esperar",
+     "i": 13.401,
+     "f": 13.87
+    },
+    {
+     "p": "ninguém",
+     "i": 13.883,
+     "f": 14.313
+    },
+    {
+     "p": "reagir",
+     "i": 14.326,
+     "f": 14.834
+    },
+    {
+     "p": "Ao",
+     "i": 15.174,
+     "f": 15.382
+    },
+    {
+     "p": "mesmo",
+     "i": 15.395,
+     "f": 15.799
+    },
+    {
+     "p": "tempo",
+     "i": 15.812,
+     "f": 16.216
+    },
+    {
+     "p": "um",
+     "i": 16.541,
+     "f": 16.711
+    },
+    {
+     "p": "centro",
+     "i": 16.724,
+     "f": 17.166
+    },
+    {
+     "p": "de",
+     "i": 17.179,
+     "f": 17.257
+    },
+    {
+     "p": "controle",
+     "i": 17.27,
+     "f": 17.687
+    },
+    {
+     "p": "em",
+     "i": 17.7,
+     "f": 17.804
+    },
+    {
+     "p": "Tóquio",
+     "i": 17.817,
+     "f": 18.208
+    },
+    {
+     "p": "acompanha",
+     "i": 18.221,
+     "f": 18.794
+    },
+    {
+     "p": "todos",
+     "i": 18.807,
+     "f": 19.145
+    },
+    {
+     "p": "os",
+     "i": 19.158,
+     "f": 19.367
+    },
+    {
+     "p": "trens",
+     "i": 19.38,
+     "f": 19.614
+    },
+    {
+     "p": "da",
+     "i": 19.627,
+     "f": 19.718
+    },
+    {
+     "p": "linha",
+     "i": 19.731,
+     "f": 20.057
+    },
+    {
+     "p": "em",
+     "i": 20.187,
+     "f": 20.395
+    },
+    {
+     "p": "tempo",
+     "i": 20.408,
+     "f": 20.747
+    },
+    {
+     "p": "real.",
+     "i": 20.76,
+     "f": 21.138
+    },
+    {
+     "p": "O",
+     "i": 21.47,
+     "f": 21.574
+    },
+    {
+     "p": "maquinista",
+     "i": 21.587,
+     "f": 22.212
+    },
+    {
+     "p": "continua",
+     "i": 22.225,
+     "f": 22.655
+    },
+    {
+     "p": "importante",
+     "i": 22.668,
+     "f": 23.371
+    },
+    {
+     "p": "mas",
+     "i": 23.684,
+     "f": 23.814
+    },
+    {
+     "p": "o",
+     "i": 23.827,
+     "f": 23.944
+    },
+    {
+     "p": "sistema",
+     "i": 23.957,
+     "f": 24.504
+    },
+    {
+     "p": "foi",
+     "i": 24.517,
+     "f": 24.673
+    },
+    {
+     "p": "feito",
+     "i": 24.686,
+     "f": 25.012
+    },
+    {
+     "p": "para",
+     "i": 25.025,
+     "f": 25.233
+    },
+    {
+     "p": "corrigir",
+     "i": 25.246,
+     "f": 25.754
+    },
+    {
+     "p": "o",
+     "i": 25.767,
+     "f": 25.871
+    },
+    {
+     "p": "erro",
+     "i": 25.884,
+     "f": 26.106
+    },
+    {
+     "p": "dele",
+     "i": 26.119,
+     "f": 26.457
+    },
+    {
+     "p": "e",
+     "i": 26.783,
+     "f": 26.874
+    },
+    {
+     "p": "não",
+     "i": 26.887,
+     "f": 27.16
+    },
+    {
+     "p": "para",
+     "i": 27.173,
+     "f": 27.355
+    },
+    {
+     "p": "depender",
+     "i": 27.369,
+     "f": 27.889
+    },
+    {
+     "p": "do",
+     "i": 27.902,
+     "f": 28.059
+    },
+    {
+     "p": "acerto",
+     "i": 28.072,
+     "f": 28.566
+    },
+    {
+     "p": "dele",
+     "i": 28.579,
+     "f": 28.931
+    },
+    {
+     "p": "Só",
+     "i": 29.278,
+     "f": 29.591
+    },
+    {
+     "p": "que",
+     "i": 29.604,
+     "f": 29.734
+    },
+    {
+     "p": "nenhum",
+     "i": 29.747,
+     "f": 30.072
+    },
+    {
+     "p": "computador",
+     "i": 30.085,
+     "f": 30.645
+    },
+    {
+     "p": "segura",
+     "i": 30.658,
+     "f": 31.088
+    },
+    {
+     "p": "uma",
+     "i": 31.101,
+     "f": 31.192
+    },
+    {
+     "p": "montanha",
+     "i": 31.205,
+     "f": 31.713
+    },
+    {
+     "p": "caindo",
+     "i": 31.726,
+     "f": 32.221
+    },
+    {
+     "p": "E",
+     "i": 32.574,
+     "f": 32.704
+    },
+    {
+     "p": "o",
+     "i": 32.717,
+     "f": 32.756
+    },
+    {
+     "p": "Japão",
+     "i": 32.769,
+     "f": 33.264
+    },
+    {
+     "p": "tem",
+     "i": 33.277,
+     "f": 33.433
+    },
+    {
+     "p": "outro",
+     "i": 33.447,
+     "f": 33.707
+    },
+    {
+     "p": "inimigo",
+     "i": 33.72,
+     "f": 34.241
+    },
+    {
+     "p": "que",
+     "i": 34.449,
+     "f": 34.631
+    },
+    {
+     "p": "vem",
+     "i": 34.644,
+     "f": 34.84
+    },
+    {
+     "p": "de",
+     "i": 34.853,
+     "f": 34.957
+    },
+    {
+     "p": "baixo",
+     "i": 34.97,
+     "f": 35.361
+    },
+    {
+     "p": "da",
+     "i": 35.374,
+     "f": 35.504
+    },
+    {
+     "p": "terra",
+     "i": 35.517,
+     "f": 35.907
+    }
+   ]
+  },
+  "terremoto": {
+   "hash": "4ed966bbb7",
+   "texto": "O Japão fica sobre o encontro de várias placas tectônicas. Um terremoto não chega de uma vez: primeiro vêm as ondas P, rápidas e fracas, depois as ondas S, lentas e destrutivas. Sismômetros ao longo da linha e na costa detectam as ondas P e mandam cortar a energia dos trens antes de a parte perigosa chegar. A JR East, que opera a região norte, tem noventa e sete desses aparelhos: oitenta e um junto à via, dezesseis no litoral. A frenagem de emergência começa em poucos segundos. Mas esses segundos têm um limite, e ele apareceu numa tarde de outubro.",
+   "audio": "audio/terremoto-4ed966bbb7.mp3",
+   "duracao": 37.224,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "Japão",
+     "i": 0.219,
+     "f": 0.688
+    },
+    {
+     "p": "fica",
+     "i": 0.701,
+     "f": 1.001
+    },
+    {
+     "p": "sobre",
+     "i": 1.014,
+     "f": 1.261
+    },
+    {
+     "p": "o",
+     "i": 1.274,
+     "f": 1.287
+    },
+    {
+     "p": "encontro",
+     "i": 1.3,
+     "f": 1.795
+    },
+    {
+     "p": "de",
+     "i": 1.808,
+     "f": 1.912
+    },
+    {
+     "p": "várias",
+     "i": 1.925,
+     "f": 2.303
+    },
+    {
+     "p": "placas",
+     "i": 2.316,
+     "f": 2.758
+    },
+    {
+     "p": "tectônicas",
+     "i": 2.771,
+     "f": 3.605
+    },
+    {
+     "p": "Um",
+     "i": 3.95,
+     "f": 4.145
+    },
+    {
+     "p": "terremoto",
+     "i": 4.158,
+     "f": 4.77
+    },
+    {
+     "p": "não",
+     "i": 4.783,
+     "f": 4.953
+    },
+    {
+     "p": "chega",
+     "i": 4.966,
+     "f": 5.33
+    },
+    {
+     "p": "de",
+     "i": 5.343,
+     "f": 5.408
+    },
+    {
+     "p": "uma",
+     "i": 5.421,
+     "f": 5.591
+    },
+    {
+     "p": "vez",
+     "i": 5.604,
+     "f": 6.007
+    },
+    {
+     "p": "primeiro",
+     "i": 6.268,
+     "f": 6.71
+    },
+    {
+     "p": "vêm",
+     "i": 6.724,
+     "f": 6.893
+    },
+    {
+     "p": "as",
+     "i": 6.906,
+     "f": 6.971
+    },
+    {
+     "p": "ondas",
+     "i": 6.984,
+     "f": 7.453
+    },
+    {
+     "p": "P",
+     "i": 7.466,
+     "f": 7.752
+    },
+    {
+     "p": "rápidas",
+     "i": 7.934,
+     "f": 8.351
+    },
+    {
+     "p": "e",
+     "i": 8.364,
+     "f": 8.481
+    },
+    {
+     "p": "fracas",
+     "i": 8.494,
+     "f": 9.041
+    },
+    {
+     "p": "depois",
+     "i": 9.263,
+     "f": 9.64
+    },
+    {
+     "p": "as",
+     "i": 9.653,
+     "f": 9.77
+    },
+    {
+     "p": "ondas",
+     "i": 9.783,
+     "f": 10.174
+    },
+    {
+     "p": "S",
+     "i": 10.187,
+     "f": 10.617
+    },
+    {
+     "p": "lentas",
+     "i": 10.903,
+     "f": 11.255
+    },
+    {
+     "p": "e",
+     "i": 11.268,
+     "f": 11.398
+    },
+    {
+     "p": "destrutivas",
+     "i": 11.411,
+     "f": 12.309
+    },
+    {
+     "p": "Sismômetros",
+     "i": 12.646,
+     "f": 13.466
+    },
+    {
+     "p": "ao",
+     "i": 13.479,
+     "f": 13.636
+    },
+    {
+     "p": "longo",
+     "i": 13.649,
+     "f": 13.961
+    },
+    {
+     "p": "da",
+     "i": 13.974,
+     "f": 14.052
+    },
+    {
+     "p": "linha",
+     "i": 14.065,
+     "f": 14.404
+    },
+    {
+     "p": "e",
+     "i": 14.417,
+     "f": 14.456
+    },
+    {
+     "p": "na",
+     "i": 14.469,
+     "f": 14.625
+    },
+    {
+     "p": "costa",
+     "i": 14.638,
+     "f": 15.003
+    },
+    {
+     "p": "detectam",
+     "i": 15.016,
+     "f": 15.576
+    },
+    {
+     "p": "as",
+     "i": 15.589,
+     "f": 15.628
+    },
+    {
+     "p": "ondas",
+     "i": 15.641,
+     "f": 16.071
+    },
+    {
+     "p": "P",
+     "i": 16.084,
+     "f": 16.305
+    },
+    {
+     "p": "e",
+     "i": 16.318,
+     "f": 16.383
+    },
+    {
+     "p": "mandam",
+     "i": 16.396,
+     "f": 16.774
+    },
+    {
+     "p": "cortar",
+     "i": 16.787,
+     "f": 17.216
+    },
+    {
+     "p": "a",
+     "i": 17.229,
+     "f": 17.268
+    },
+    {
+     "p": "energia",
+     "i": 17.281,
+     "f": 17.802
+    },
+    {
+     "p": "dos",
+     "i": 17.815,
+     "f": 18.063
+    },
+    {
+     "p": "trens",
+     "i": 18.076,
+     "f": 18.31
+    },
+    {
+     "p": "antes",
+     "i": 18.323,
+     "f": 18.753
+    },
+    {
+     "p": "de",
+     "i": 18.766,
+     "f": 18.831
+    },
+    {
+     "p": "a",
+     "i": 18.844,
+     "f": 18.922
+    },
+    {
+     "p": "parte",
+     "i": 18.935,
+     "f": 19.235
+    },
+    {
+     "p": "perigosa",
+     "i": 19.248,
+     "f": 19.834
+    },
+    {
+     "p": "chegar",
+     "i": 19.847,
+     "f": 20.289
+    },
+    {
+     "p": "A",
+     "i": 20.622,
+     "f": 20.765
+    },
+    {
+     "p": "JR",
+     "i": 20.778,
+     "f": 21.534
+    },
+    {
+     "p": "East",
+     "i": 21.547,
+     "f": 21.924
+    },
+    {
+     "p": "que",
+     "i": 22.093,
+     "f": 22.224
+    },
+    {
+     "p": "opera",
+     "i": 22.237,
+     "f": 22.601
+    },
+    {
+     "p": "a",
+     "i": 22.614,
+     "f": 22.64
+    },
+    {
+     "p": "região",
+     "i": 22.653,
+     "f": 23.044
+    },
+    {
+     "p": "norte",
+     "i": 23.057,
+     "f": 23.513
+    },
+    {
+     "p": "tem",
+     "i": 23.773,
+     "f": 23.89
+    },
+    {
+     "p": "noventa",
+     "i": 23.903,
+     "f": 24.281
+    },
+    {
+     "p": "e",
+     "i": 24.294,
+     "f": 24.32
+    },
+    {
+     "p": "sete",
+     "i": 24.333,
+     "f": 24.646
+    },
+    {
+     "p": "desses",
+     "i": 24.659,
+     "f": 24.945
+    },
+    {
+     "p": "aparelhos",
+     "i": 24.958,
+     "f": 25.648
+    },
+    {
+     "p": "oitenta",
+     "i": 25.961,
+     "f": 26.377
+    },
+    {
+     "p": "e",
+     "i": 26.39,
+     "f": 26.416
+    },
+    {
+     "p": "um",
+     "i": 26.429,
+     "f": 26.599
+    },
+    {
+     "p": "junto",
+     "i": 26.612,
+     "f": 26.937
+    },
+    {
+     "p": "à",
+     "i": 26.95,
+     "f": 27.015
+    },
+    {
+     "p": "via",
+     "i": 27.028,
+     "f": 27.341
+    },
+    {
+     "p": "dezesseis",
+     "i": 27.575,
+     "f": 28.161
+    },
+    {
+     "p": "no",
+     "i": 28.174,
+     "f": 28.252
+    },
+    {
+     "p": "litoral",
+     "i": 28.265,
+     "f": 28.799
+    },
+    {
+     "p": "A",
+     "i": 29.15,
+     "f": 29.28
+    },
+    {
+     "p": "frenagem",
+     "i": 29.293,
+     "f": 29.879
+    },
+    {
+     "p": "de",
+     "i": 29.892,
+     "f": 29.983
+    },
+    {
+     "p": "emergência",
+     "i": 29.996,
+     "f": 30.634
+    },
+    {
+     "p": "começa",
+     "i": 30.647,
+     "f": 31.09
+    },
+    {
+     "p": "em",
+     "i": 31.103,
+     "f": 31.194
+    },
+    {
+     "p": "poucos",
+     "i": 31.207,
+     "f": 31.598
+    },
+    {
+     "p": "segundos",
+     "i": 31.611,
+     "f": 32.249
+    },
+    {
+     "p": "Mas",
+     "i": 32.59,
+     "f": 32.798
+    },
+    {
+     "p": "esses",
+     "i": 32.811,
+     "f": 33.189
+    },
+    {
+     "p": "segundos",
+     "i": 33.202,
+     "f": 33.71
+    },
+    {
+     "p": "têm",
+     "i": 33.723,
+     "f": 33.866
+    },
+    {
+     "p": "um",
+     "i": 33.879,
+     "f": 33.97
+    },
+    {
+     "p": "limite",
+     "i": 33.983,
+     "f": 34.439
+    },
+    {
+     "p": "e",
+     "i": 34.739,
+     "f": 34.83
+    },
+    {
+     "p": "ele",
+     "i": 34.843,
+     "f": 34.947
+    },
+    {
+     "p": "apareceu",
+     "i": 34.96,
+     "f": 35.494
+    },
+    {
+     "p": "numa",
+     "i": 35.507,
+     "f": 35.741
+    },
+    {
+     "p": "tarde",
+     "i": 35.754,
+     "f": 36.145
+    },
+    {
+     "p": "de",
+     "i": 36.158,
+     "f": 36.249
+    },
+    {
+     "p": "outubro",
+     "i": 36.262,
+     "f": 36.783
+    }
+   ]
+  },
+  "chuetsu": {
+   "hash": "fca5482570",
+   "texto": "Vinte e três de outubro de dois mil e quatro, fim de tarde. Um terremoto de magnitude seis vírgula oito atinge a região de Niigata. O Toki trezentos e vinte e cinco, com cento e cinquenta e quatro pessoas a bordo, está perto demais do epicentro. O sistema não teve tempo de frear. Oito dos dez vagões saem dos trilhos. É o primeiro descarrilamento de um Shinkansen em operação comercial. Era o pior cenário imaginável. E mesmo assim, o relatório da JR East traz uma frase que parece mentira: ninguém ficou ferido.",
+   "audio": "audio/chuetsu-fca5482570.mp3",
+   "duracao": 33.228,
+   "palavras": [
+    {
+     "p": "Vinte",
+     "i": 0.102,
+     "f": 0.415
+    },
+    {
+     "p": "e",
+     "i": 0.428,
+     "f": 0.467
+    },
+    {
+     "p": "três",
+     "i": 0.48,
+     "f": 0.688
+    },
+    {
+     "p": "de",
+     "i": 0.701,
+     "f": 0.779
+    },
+    {
+     "p": "outubro",
+     "i": 0.792,
+     "f": 1.261
+    },
+    {
+     "p": "de",
+     "i": 1.274,
+     "f": 1.352
+    },
+    {
+     "p": "dois",
+     "i": 1.365,
+     "f": 1.573
+    },
+    {
+     "p": "mil",
+     "i": 1.586,
+     "f": 1.704
+    },
+    {
+     "p": "e",
+     "i": 1.717,
+     "f": 1.756
+    },
+    {
+     "p": "quatro",
+     "i": 1.769,
+     "f": 2.224
+    },
+    {
+     "p": "fim",
+     "i": 2.446,
+     "f": 2.615
+    },
+    {
+     "p": "de",
+     "i": 2.628,
+     "f": 2.797
+    },
+    {
+     "p": "tarde",
+     "i": 2.81,
+     "f": 3.266
+    },
+    {
+     "p": "Um",
+     "i": 3.614,
+     "f": 3.796
+    },
+    {
+     "p": "terremoto",
+     "i": 3.809,
+     "f": 4.434
+    },
+    {
+     "p": "de",
+     "i": 4.447,
+     "f": 4.539
+    },
+    {
+     "p": "magnitude",
+     "i": 4.552,
+     "f": 5.203
+    },
+    {
+     "p": "seis",
+     "i": 5.216,
+     "f": 5.541
+    },
+    {
+     "p": "vírgula",
+     "i": 5.554,
+     "f": 5.945
+    },
+    {
+     "p": "oito",
+     "i": 5.958,
+     "f": 6.205
+    },
+    {
+     "p": "atinge",
+     "i": 6.218,
+     "f": 6.635
+    },
+    {
+     "p": "a",
+     "i": 6.648,
+     "f": 6.687
+    },
+    {
+     "p": "região",
+     "i": 6.7,
+     "f": 7.117
+    },
+    {
+     "p": "de",
+     "i": 7.13,
+     "f": 7.234
+    },
+    {
+     "p": "Niigata",
+     "i": 7.247,
+     "f": 7.807
+    },
+    {
+     "p": "O",
+     "i": 8.158,
+     "f": 8.301
+    },
+    {
+     "p": "Toki",
+     "i": 8.314,
+     "f": 8.666
+    },
+    {
+     "p": "trezentos",
+     "i": 8.679,
+     "f": 9.226
+    },
+    {
+     "p": "e",
+     "i": 9.239,
+     "f": 9.356
+    },
+    {
+     "p": "vinte",
+     "i": 9.369,
+     "f": 9.59
+    },
+    {
+     "p": "e",
+     "i": 9.603,
+     "f": 9.629
+    },
+    {
+     "p": "cinco",
+     "i": 9.642,
+     "f": 10.059
+    },
+    {
+     "p": "com",
+     "i": 10.359,
+     "f": 10.567
+    },
+    {
+     "p": "cento",
+     "i": 10.58,
+     "f": 10.958
+    },
+    {
+     "p": "e",
+     "i": 10.971,
+     "f": 10.997
+    },
+    {
+     "p": "cinquenta",
+     "i": 11.01,
+     "f": 11.387
+    },
+    {
+     "p": "e",
+     "i": 11.4,
+     "f": 11.426
+    },
+    {
+     "p": "quatro",
+     "i": 11.439,
+     "f": 11.765
+    },
+    {
+     "p": "pessoas",
+     "i": 11.778,
+     "f": 12.208
+    },
+    {
+     "p": "a",
+     "i": 12.221,
+     "f": 12.351
+    },
+    {
+     "p": "bordo",
+     "i": 12.364,
+     "f": 12.78
+    },
+    {
+     "p": "está",
+     "i": 13.067,
+     "f": 13.288
+    },
+    {
+     "p": "perto",
+     "i": 13.301,
+     "f": 13.731
+    },
+    {
+     "p": "demais",
+     "i": 13.744,
+     "f": 14.135
+    },
+    {
+     "p": "do",
+     "i": 14.148,
+     "f": 14.265
+    },
+    {
+     "p": "epicentro",
+     "i": 14.278,
+     "f": 14.916
+    },
+    {
+     "p": "O",
+     "i": 15.246,
+     "f": 15.376
+    },
+    {
+     "p": "sistema",
+     "i": 15.389,
+     "f": 15.923
+    },
+    {
+     "p": "não",
+     "i": 15.936,
+     "f": 16.145
+    },
+    {
+     "p": "teve",
+     "i": 16.158,
+     "f": 16.47
+    },
+    {
+     "p": "tempo",
+     "i": 16.483,
+     "f": 16.822
+    },
+    {
+     "p": "de",
+     "i": 16.835,
+     "f": 16.926
+    },
+    {
+     "p": "frear",
+     "i": 16.939,
+     "f": 17.303
+    },
+    {
+     "p": "Oito",
+     "i": 17.654,
+     "f": 18.006
+    },
+    {
+     "p": "dos",
+     "i": 18.019,
+     "f": 18.188
+    },
+    {
+     "p": "dez",
+     "i": 18.201,
+     "f": 18.448
+    },
+    {
+     "p": "vagões",
+     "i": 18.461,
+     "f": 18.917
+    },
+    {
+     "p": "saem",
+     "i": 18.93,
+     "f": 19.151
+    },
+    {
+     "p": "dos",
+     "i": 19.165,
+     "f": 19.412
+    },
+    {
+     "p": "trilhos",
+     "i": 19.425,
+     "f": 19.972
+    },
+    {
+     "p": "É",
+     "i": 20.302,
+     "f": 20.445
+    },
+    {
+     "p": "o",
+     "i": 20.458,
+     "f": 20.523
+    },
+    {
+     "p": "primeiro",
+     "i": 20.536,
+     "f": 20.927
+    },
+    {
+     "p": "descarrilamento",
+     "i": 20.94,
+     "f": 21.878
+    },
+    {
+     "p": "de",
+     "i": 21.891,
+     "f": 21.969
+    },
+    {
+     "p": "um",
+     "i": 21.982,
+     "f": 22.047
+    },
+    {
+     "p": "Shinkansen",
+     "i": 22.06,
+     "f": 22.815
+    },
+    {
+     "p": "em",
+     "i": 22.828,
+     "f": 22.919
+    },
+    {
+     "p": "operação",
+     "i": 22.932,
+     "f": 23.505
+    },
+    {
+     "p": "comercial",
+     "i": 23.518,
+     "f": 24.234
+    },
+    {
+     "p": "Era",
+     "i": 24.582,
+     "f": 24.79
+    },
+    {
+     "p": "o",
+     "i": 24.803,
+     "f": 24.829
+    },
+    {
+     "p": "pior",
+     "i": 24.842,
+     "f": 25.181
+    },
+    {
+     "p": "cenário",
+     "i": 25.194,
+     "f": 25.65
+    },
+    {
+     "p": "imaginável",
+     "i": 25.663,
+     "f": 26.392
+    },
+    {
+     "p": "E",
+     "i": 26.726,
+     "f": 26.843
+    },
+    {
+     "p": "mesmo",
+     "i": 26.856,
+     "f": 27.208
+    },
+    {
+     "p": "assim",
+     "i": 27.221,
+     "f": 27.572
+    },
+    {
+     "p": "o",
+     "i": 27.859,
+     "f": 27.911
+    },
+    {
+     "p": "relatório",
+     "i": 27.924,
+     "f": 28.445
+    },
+    {
+     "p": "da",
+     "i": 28.458,
+     "f": 28.549
+    },
+    {
+     "p": "JR",
+     "i": 28.562,
+     "f": 29.265
+    },
+    {
+     "p": "East",
+     "i": 29.278,
+     "f": 29.552
+    },
+    {
+     "p": "traz",
+     "i": 29.565,
+     "f": 29.708
+    },
+    {
+     "p": "uma",
+     "i": 29.721,
+     "f": 29.942
+    },
+    {
+     "p": "frase",
+     "i": 29.955,
+     "f": 30.359
+    },
+    {
+     "p": "que",
+     "i": 30.372,
+     "f": 30.489
+    },
+    {
+     "p": "parece",
+     "i": 30.502,
+     "f": 30.893
+    },
+    {
+     "p": "mentira",
+     "i": 30.906,
+     "f": 31.414
+    },
+    {
+     "p": "ninguém",
+     "i": 31.661,
+     "f": 32.104
+    },
+    {
+     "p": "ficou",
+     "i": 32.117,
+     "f": 32.416
+    },
+    {
+     "p": "ferido",
+     "i": 32.429,
+     "f": 32.911
+    }
+   ]
+  },
+  "porque-ninguem": {
+   "hash": "18da33e6a7",
+   "texto": "Por que ninguém se feriu? Segundo a JR East, mesmo depois de sair dos trilhos o trem continuou guiado por eles e manteve a posição até parar. Não tombou, não cruzou para a outra via, não bateu em nada. Foi um descarrilamento sem consequência trágica, e é por isso que o caso é estudado até hoje. O serviço voltou ao normal no fim de dezembro daquele ano. Depois do Toki, a empresa reforçou as defesas para que, numa próxima vez, o trem continue sobre o trilho. E a próxima vez chegaria rápido.",
+   "audio": "audio/porque-ninguem-18da33e6a7.mp3",
+   "duracao": 32.784,
+   "palavras": [
+    {
+     "p": "Por",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "que",
+     "i": 0.31,
+     "f": 0.506
+    },
+    {
+     "p": "ninguém",
+     "i": 0.519,
+     "f": 0.948
+    },
+    {
+     "p": "se",
+     "i": 0.961,
+     "f": 1.105
+    },
+    {
+     "p": "feriu",
+     "i": 1.118,
+     "f": 1.495
+    },
+    {
+     "p": "Segundo",
+     "i": 1.898,
+     "f": 2.445
+    },
+    {
+     "p": "a",
+     "i": 2.458,
+     "f": 2.536
+    },
+    {
+     "p": "JR",
+     "i": 2.549,
+     "f": 3.265
+    },
+    {
+     "p": "East",
+     "i": 3.278,
+     "f": 3.565
+    },
+    {
+     "p": "mesmo",
+     "i": 3.851,
+     "f": 4.255
+    },
+    {
+     "p": "depois",
+     "i": 4.268,
+     "f": 4.658
+    },
+    {
+     "p": "de",
+     "i": 4.672,
+     "f": 4.763
+    },
+    {
+     "p": "sair",
+     "i": 4.776,
+     "f": 5.127
+    },
+    {
+     "p": "dos",
+     "i": 5.14,
+     "f": 5.362
+    },
+    {
+     "p": "trilhos",
+     "i": 5.375,
+     "f": 5.687
+    },
+    {
+     "p": "o",
+     "i": 5.7,
+     "f": 5.83
+    },
+    {
+     "p": "trem",
+     "i": 5.843,
+     "f": 6.039
+    },
+    {
+     "p": "continuou",
+     "i": 6.052,
+     "f": 6.599
+    },
+    {
+     "p": "guiado",
+     "i": 6.612,
+     "f": 7.08
+    },
+    {
+     "p": "por",
+     "i": 7.093,
+     "f": 7.25
+    },
+    {
+     "p": "eles",
+     "i": 7.263,
+     "f": 7.497
+    },
+    {
+     "p": "e",
+     "i": 7.51,
+     "f": 7.614
+    },
+    {
+     "p": "manteve",
+     "i": 7.627,
+     "f": 8.07
+    },
+    {
+     "p": "a",
+     "i": 8.083,
+     "f": 8.148
+    },
+    {
+     "p": "posição",
+     "i": 8.161,
+     "f": 8.734
+    },
+    {
+     "p": "até",
+     "i": 8.747,
+     "f": 8.955
+    },
+    {
+     "p": "parar",
+     "i": 8.968,
+     "f": 9.333
+    },
+    {
+     "p": "Não",
+     "i": 9.682,
+     "f": 9.969
+    },
+    {
+     "p": "tombou",
+     "i": 9.982,
+     "f": 10.424
+    },
+    {
+     "p": "não",
+     "i": 10.698,
+     "f": 10.88
+    },
+    {
+     "p": "cruzou",
+     "i": 10.893,
+     "f": 11.297
+    },
+    {
+     "p": "para",
+     "i": 11.31,
+     "f": 11.466
+    },
+    {
+     "p": "a",
+     "i": 11.479,
+     "f": 11.531
+    },
+    {
+     "p": "outra",
+     "i": 11.544,
+     "f": 11.831
+    },
+    {
+     "p": "via",
+     "i": 11.844,
+     "f": 12.143
+    },
+    {
+     "p": "não",
+     "i": 12.377,
+     "f": 12.547
+    },
+    {
+     "p": "bateu",
+     "i": 12.56,
+     "f": 12.924
+    },
+    {
+     "p": "em",
+     "i": 12.937,
+     "f": 13.028
+    },
+    {
+     "p": "nada",
+     "i": 13.041,
+     "f": 13.432
+    },
+    {
+     "p": "Foi",
+     "i": 13.77,
+     "f": 14.004
+    },
+    {
+     "p": "um",
+     "i": 14.017,
+     "f": 14.096
+    },
+    {
+     "p": "descarrilamento",
+     "i": 14.109,
+     "f": 15.007
+    },
+    {
+     "p": "sem",
+     "i": 15.02,
+     "f": 15.215
+    },
+    {
+     "p": "consequência",
+     "i": 15.228,
+     "f": 15.919
+    },
+    {
+     "p": "trágica",
+     "i": 15.932,
+     "f": 16.465
+    },
+    {
+     "p": "e",
+     "i": 16.791,
+     "f": 16.869
+    },
+    {
+     "p": "é",
+     "i": 16.882,
+     "f": 16.96
+    },
+    {
+     "p": "por",
+     "i": 16.973,
+     "f": 17.182
+    },
+    {
+     "p": "isso",
+     "i": 17.195,
+     "f": 17.494
+    },
+    {
+     "p": "que",
+     "i": 17.507,
+     "f": 17.585
+    },
+    {
+     "p": "o",
+     "i": 17.598,
+     "f": 17.663
+    },
+    {
+     "p": "caso",
+     "i": 17.676,
+     "f": 18.08
+    },
+    {
+     "p": "é",
+     "i": 18.093,
+     "f": 18.132
+    },
+    {
+     "p": "estudado",
+     "i": 18.145,
+     "f": 18.666
+    },
+    {
+     "p": "até",
+     "i": 18.679,
+     "f": 18.887
+    },
+    {
+     "p": "hoje",
+     "i": 18.9,
+     "f": 19.278
+    },
+    {
+     "p": "O",
+     "i": 19.61,
+     "f": 19.714
+    },
+    {
+     "p": "serviço",
+     "i": 19.727,
+     "f": 20.313
+    },
+    {
+     "p": "voltou",
+     "i": 20.326,
+     "f": 20.678
+    },
+    {
+     "p": "ao",
+     "i": 20.691,
+     "f": 20.782
+    },
+    {
+     "p": "normal",
+     "i": 20.795,
+     "f": 21.225
+    },
+    {
+     "p": "no",
+     "i": 21.238,
+     "f": 21.355
+    },
+    {
+     "p": "fim",
+     "i": 21.368,
+     "f": 21.602
+    },
+    {
+     "p": "de",
+     "i": 21.615,
+     "f": 21.719
+    },
+    {
+     "p": "dezembro",
+     "i": 21.732,
+     "f": 22.292
+    },
+    {
+     "p": "daquele",
+     "i": 22.305,
+     "f": 22.696
+    },
+    {
+     "p": "ano",
+     "i": 22.709,
+     "f": 23.009
+    },
+    {
+     "p": "Depois",
+     "i": 23.362,
+     "f": 23.792
+    },
+    {
+     "p": "do",
+     "i": 23.805,
+     "f": 23.935
+    },
+    {
+     "p": "Toki",
+     "i": 23.948,
+     "f": 24.352
+    },
+    {
+     "p": "a",
+     "i": 24.56,
+     "f": 24.612
+    },
+    {
+     "p": "empresa",
+     "i": 24.625,
+     "f": 25.081
+    },
+    {
+     "p": "reforçou",
+     "i": 25.094,
+     "f": 25.641
+    },
+    {
+     "p": "as",
+     "i": 25.654,
+     "f": 25.758
+    },
+    {
+     "p": "defesas",
+     "i": 25.771,
+     "f": 26.318
+    },
+    {
+     "p": "para",
+     "i": 26.331,
+     "f": 26.526
+    },
+    {
+     "p": "que",
+     "i": 26.539,
+     "f": 26.787
+    },
+    {
+     "p": "numa",
+     "i": 27.099,
+     "f": 27.359
+    },
+    {
+     "p": "próxima",
+     "i": 27.372,
+     "f": 27.854
+    },
+    {
+     "p": "vez",
+     "i": 27.867,
+     "f": 28.258
+    },
+    {
+     "p": "o",
+     "i": 28.531,
+     "f": 28.623
+    },
+    {
+     "p": "trem",
+     "i": 28.636,
+     "f": 28.857
+    },
+    {
+     "p": "continue",
+     "i": 28.87,
+     "f": 29.365
+    },
+    {
+     "p": "sobre",
+     "i": 29.378,
+     "f": 29.651
+    },
+    {
+     "p": "o",
+     "i": 29.664,
+     "f": 29.703
+    },
+    {
+     "p": "trilho",
+     "i": 29.716,
+     "f": 30.081
+    },
+    {
+     "p": "E",
+     "i": 30.426,
+     "f": 30.543
+    },
+    {
+     "p": "a",
+     "i": 30.556,
+     "f": 30.647
+    },
+    {
+     "p": "próxima",
+     "i": 30.66,
+     "f": 31.142
+    },
+    {
+     "p": "vez",
+     "i": 31.155,
+     "f": 31.429
+    },
+    {
+     "p": "chegaria",
+     "i": 31.442,
+     "f": 31.91
+    },
+    {
+     "p": "rápido",
+     "i": 31.923,
+     "f": 32.405
+    }
+   ]
+  },
+  "onze-de-marco": {
+   "hash": "bb2d449a6c",
+   "texto": "Onze de março de dois mil e onze. O terremoto de Tohoku foi um dos mais fortes já registrados. Os trens da região norte estavam em plena circulação. Segundo a JR East, os sistemas de detecção cortaram a energia e os trens frearam antes da parte mais violenta do abalo. Nenhum trem de passageiros descarrilou, ainda que o número exato de trens em movimento varie conforme a fonte. Em dois mil e vinte e dois, outro terremoto fez um Shinkansen sair dos trilhos de novo, sem mortes. O sistema não é perfeito, mas funciona. Só que existe um risco que nenhum sismômetro mede.",
+   "audio": "audio/onze-de-marco-bb2d449a6c.mp3",
+   "duracao": 37.198,
+   "palavras": [
+    {
+     "p": "Onze",
+     "i": 0.102,
+     "f": 0.441
+    },
+    {
+     "p": "de",
+     "i": 0.454,
+     "f": 0.558
+    },
+    {
+     "p": "março",
+     "i": 0.571,
+     "f": 0.974
+    },
+    {
+     "p": "de",
+     "i": 0.988,
+     "f": 1.079
+    },
+    {
+     "p": "dois",
+     "i": 1.092,
+     "f": 1.3
+    },
+    {
+     "p": "mil",
+     "i": 1.313,
+     "f": 1.508
+    },
+    {
+     "p": "e",
+     "i": 1.521,
+     "f": 1.639
+    },
+    {
+     "p": "onze",
+     "i": 1.652,
+     "f": 2.081
+    },
+    {
+     "p": "O",
+     "i": 2.414,
+     "f": 2.544
+    },
+    {
+     "p": "terremoto",
+     "i": 2.557,
+     "f": 3.208
+    },
+    {
+     "p": "de",
+     "i": 3.221,
+     "f": 3.339
+    },
+    {
+     "p": "Tohoku",
+     "i": 3.352,
+     "f": 3.664
+    },
+    {
+     "p": "foi",
+     "i": 3.677,
+     "f": 3.846
+    },
+    {
+     "p": "um",
+     "i": 3.859,
+     "f": 3.938
+    },
+    {
+     "p": "dos",
+     "i": 3.951,
+     "f": 4.133
+    },
+    {
+     "p": "mais",
+     "i": 4.146,
+     "f": 4.367
+    },
+    {
+     "p": "fortes",
+     "i": 4.38,
+     "f": 4.849
+    },
+    {
+     "p": "já",
+     "i": 4.862,
+     "f": 4.966
+    },
+    {
+     "p": "registrados",
+     "i": 4.979,
+     "f": 5.839
+    },
+    {
+     "p": "Os",
+     "i": 6.19,
+     "f": 6.398
+    },
+    {
+     "p": "trens",
+     "i": 6.411,
+     "f": 6.711
+    },
+    {
+     "p": "da",
+     "i": 6.724,
+     "f": 6.828
+    },
+    {
+     "p": "região",
+     "i": 6.841,
+     "f": 7.245
+    },
+    {
+     "p": "norte",
+     "i": 7.258,
+     "f": 7.648
+    },
+    {
+     "p": "estavam",
+     "i": 7.661,
+     "f": 8.065
+    },
+    {
+     "p": "em",
+     "i": 8.078,
+     "f": 8.195
+    },
+    {
+     "p": "plena",
+     "i": 8.208,
+     "f": 8.56
+    },
+    {
+     "p": "circulação",
+     "i": 8.573,
+     "f": 9.328
+    },
+    {
+     "p": "Segundo",
+     "i": 9.678,
+     "f": 10.225
+    },
+    {
+     "p": "a",
+     "i": 10.238,
+     "f": 10.303
+    },
+    {
+     "p": "JR",
+     "i": 10.316,
+     "f": 11.019
+    },
+    {
+     "p": "East",
+     "i": 11.032,
+     "f": 11.358
+    },
+    {
+     "p": "os",
+     "i": 11.67,
+     "f": 11.787
+    },
+    {
+     "p": "sistemas",
+     "i": 11.8,
+     "f": 12.347
+    },
+    {
+     "p": "de",
+     "i": 12.36,
+     "f": 12.425
+    },
+    {
+     "p": "detecção",
+     "i": 12.438,
+     "f": 12.998
+    },
+    {
+     "p": "cortaram",
+     "i": 13.011,
+     "f": 13.532
+    },
+    {
+     "p": "a",
+     "i": 13.545,
+     "f": 13.571
+    },
+    {
+     "p": "energia",
+     "i": 13.584,
+     "f": 14.157
+    },
+    {
+     "p": "e",
+     "i": 14.17,
+     "f": 14.222
+    },
+    {
+     "p": "os",
+     "i": 14.235,
+     "f": 14.392
+    },
+    {
+     "p": "trens",
+     "i": 14.405,
+     "f": 14.652
+    },
+    {
+     "p": "frearam",
+     "i": 14.665,
+     "f": 15.108
+    },
+    {
+     "p": "antes",
+     "i": 15.121,
+     "f": 15.42
+    },
+    {
+     "p": "da",
+     "i": 15.433,
+     "f": 15.563
+    },
+    {
+     "p": "parte",
+     "i": 15.577,
+     "f": 15.915
+    },
+    {
+     "p": "mais",
+     "i": 15.928,
+     "f": 16.215
+    },
+    {
+     "p": "violenta",
+     "i": 16.228,
+     "f": 16.814
+    },
+    {
+     "p": "do",
+     "i": 16.827,
+     "f": 16.931
+    },
+    {
+     "p": "abalo",
+     "i": 16.944,
+     "f": 17.373
+    },
+    {
+     "p": "Nenhum",
+     "i": 17.726,
+     "f": 18.208
+    },
+    {
+     "p": "trem",
+     "i": 18.221,
+     "f": 18.455
+    },
+    {
+     "p": "de",
+     "i": 18.468,
+     "f": 18.585
+    },
+    {
+     "p": "passageiros",
+     "i": 18.599,
+     "f": 19.237
+    },
+    {
+     "p": "descarrilou",
+     "i": 19.25,
+     "f": 19.953
+    },
+    {
+     "p": "ainda",
+     "i": 20.226,
+     "f": 20.552
+    },
+    {
+     "p": "que",
+     "i": 20.565,
+     "f": 20.708
+    },
+    {
+     "p": "o",
+     "i": 20.721,
+     "f": 20.76
+    },
+    {
+     "p": "número",
+     "i": 20.773,
+     "f": 21.059
+    },
+    {
+     "p": "exato",
+     "i": 21.072,
+     "f": 21.502
+    },
+    {
+     "p": "de",
+     "i": 21.515,
+     "f": 21.658
+    },
+    {
+     "p": "trens",
+     "i": 21.671,
+     "f": 21.919
+    },
+    {
+     "p": "em",
+     "i": 21.932,
+     "f": 22.062
+    },
+    {
+     "p": "movimento",
+     "i": 22.075,
+     "f": 22.674
+    },
+    {
+     "p": "varie",
+     "i": 22.687,
+     "f": 23
+    },
+    {
+     "p": "conforme",
+     "i": 23.013,
+     "f": 23.533
+    },
+    {
+     "p": "a",
+     "i": 23.546,
+     "f": 23.638
+    },
+    {
+     "p": "fonte",
+     "i": 23.651,
+     "f": 24.132
+    },
+    {
+     "p": "Em",
+     "i": 24.478,
+     "f": 24.595
+    },
+    {
+     "p": "dois",
+     "i": 24.608,
+     "f": 24.856
+    },
+    {
+     "p": "mil",
+     "i": 24.869,
+     "f": 24.999
+    },
+    {
+     "p": "e",
+     "i": 25.012,
+     "f": 25.077
+    },
+    {
+     "p": "vinte",
+     "i": 25.09,
+     "f": 25.285
+    },
+    {
+     "p": "e",
+     "i": 25.298,
+     "f": 25.324
+    },
+    {
+     "p": "dois",
+     "i": 25.337,
+     "f": 25.624
+    },
+    {
+     "p": "outro",
+     "i": 25.91,
+     "f": 26.223
+    },
+    {
+     "p": "terremoto",
+     "i": 26.236,
+     "f": 26.822
+    },
+    {
+     "p": "fez",
+     "i": 26.835,
+     "f": 27.004
+    },
+    {
+     "p": "um",
+     "i": 27.017,
+     "f": 27.173
+    },
+    {
+     "p": "Shinkansen",
+     "i": 27.186,
+     "f": 27.903
+    },
+    {
+     "p": "sair",
+     "i": 27.916,
+     "f": 28.293
+    },
+    {
+     "p": "dos",
+     "i": 28.306,
+     "f": 28.567
+    },
+    {
+     "p": "trilhos",
+     "i": 28.58,
+     "f": 28.957
+    },
+    {
+     "p": "de",
+     "i": 28.97,
+     "f": 29.048
+    },
+    {
+     "p": "novo",
+     "i": 29.061,
+     "f": 29.426
+    },
+    {
+     "p": "sem",
+     "i": 29.725,
+     "f": 29.947
+    },
+    {
+     "p": "mortes",
+     "i": 29.96,
+     "f": 30.572
+    },
+    {
+     "p": "O",
+     "i": 30.918,
+     "f": 31.035
+    },
+    {
+     "p": "sistema",
+     "i": 31.048,
+     "f": 31.582
+    },
+    {
+     "p": "não",
+     "i": 31.595,
+     "f": 31.79
+    },
+    {
+     "p": "é",
+     "i": 31.804,
+     "f": 31.882
+    },
+    {
+     "p": "perfeito",
+     "i": 31.895,
+     "f": 32.481
+    },
+    {
+     "p": "mas",
+     "i": 32.78,
+     "f": 33.001
+    },
+    {
+     "p": "funciona",
+     "i": 33.014,
+     "f": 33.665
+    },
+    {
+     "p": "Só",
+     "i": 33.998,
+     "f": 34.311
+    },
+    {
+     "p": "que",
+     "i": 34.324,
+     "f": 34.415
+    },
+    {
+     "p": "existe",
+     "i": 34.428,
+     "f": 34.844
+    },
+    {
+     "p": "um",
+     "i": 34.857,
+     "f": 34.949
+    },
+    {
+     "p": "risco",
+     "i": 34.962,
+     "f": 35.326
+    },
+    {
+     "p": "que",
+     "i": 35.339,
+     "f": 35.443
+    },
+    {
+     "p": "nenhum",
+     "i": 35.456,
+     "f": 35.834
+    },
+    {
+     "p": "sismômetro",
+     "i": 35.847,
+     "f": 36.498
+    },
+    {
+     "p": "mede",
+     "i": 36.511,
+     "f": 36.902
+    }
+   ]
+  },
+  "trem-34": {
+   "hash": "97e3034cc4",
+   "texto": "Onze de dezembro de dois mil e dezessete. O Nozomi trinta e quatro sai de Hakata rumo a Tóquio. Passageiros e funcionários notam um barulho estranho e um cheiro de queimado. Em Nagoya, os técnicos encontram uma rachadura de cerca de catorze centímetros na estrutura que sustenta as rodas. Faltavam poucos centímetros para a peça se partir. Cerca de mil pessoas trocaram de trem, e ninguém se feriu. O Japão classificou o caso como incidente grave, e a investigação apontou fadiga do metal. O recorde sobreviveu, mas por pouco.",
+   "audio": "audio/trem-34-97e3034cc4.mp3",
+   "duracao": 33.332,
+   "palavras": [
+    {
+     "p": "Onze",
+     "i": 0.102,
+     "f": 0.454
+    },
+    {
+     "p": "de",
+     "i": 0.467,
+     "f": 0.571
+    },
+    {
+     "p": "dezembro",
+     "i": 0.584,
+     "f": 1.131
+    },
+    {
+     "p": "de",
+     "i": 1.144,
+     "f": 1.235
+    },
+    {
+     "p": "dois",
+     "i": 1.248,
+     "f": 1.443
+    },
+    {
+     "p": "mil",
+     "i": 1.456,
+     "f": 1.599
+    },
+    {
+     "p": "e",
+     "i": 1.613,
+     "f": 1.665
+    },
+    {
+     "p": "dezessete",
+     "i": 1.678,
+     "f": 2.433
+    },
+    {
+     "p": "O",
+     "i": 2.774,
+     "f": 2.878
+    },
+    {
+     "p": "Nozomi",
+     "i": 2.891,
+     "f": 3.347
+    },
+    {
+     "p": "trinta",
+     "i": 3.36,
+     "f": 3.594
+    },
+    {
+     "p": "e",
+     "i": 3.607,
+     "f": 3.646
+    },
+    {
+     "p": "quatro",
+     "i": 3.66,
+     "f": 4.05
+    },
+    {
+     "p": "sai",
+     "i": 4.063,
+     "f": 4.337
+    },
+    {
+     "p": "de",
+     "i": 4.35,
+     "f": 4.428
+    },
+    {
+     "p": "Hakata",
+     "i": 4.441,
+     "f": 4.805
+    },
+    {
+     "p": "rumo",
+     "i": 4.818,
+     "f": 5.053
+    },
+    {
+     "p": "a",
+     "i": 5.066,
+     "f": 5.144
+    },
+    {
+     "p": "Tóquio",
+     "i": 5.157,
+     "f": 5.587
+    },
+    {
+     "p": "Passageiros",
+     "i": 5.926,
+     "f": 6.603
+    },
+    {
+     "p": "e",
+     "i": 6.616,
+     "f": 6.733
+    },
+    {
+     "p": "funcionários",
+     "i": 6.746,
+     "f": 7.384
+    },
+    {
+     "p": "notam",
+     "i": 7.397,
+     "f": 7.697
+    },
+    {
+     "p": "um",
+     "i": 7.71,
+     "f": 7.762
+    },
+    {
+     "p": "barulho",
+     "i": 7.775,
+     "f": 8.14
+    },
+    {
+     "p": "estranho",
+     "i": 8.153,
+     "f": 8.687
+    },
+    {
+     "p": "e",
+     "i": 8.7,
+     "f": 8.752
+    },
+    {
+     "p": "um",
+     "i": 8.765,
+     "f": 8.895
+    },
+    {
+     "p": "cheiro",
+     "i": 8.908,
+     "f": 9.272
+    },
+    {
+     "p": "de",
+     "i": 9.285,
+     "f": 9.377
+    },
+    {
+     "p": "queimado",
+     "i": 9.39,
+     "f": 9.963
+    },
+    {
+     "p": "Em",
+     "i": 10.302,
+     "f": 10.419
+    },
+    {
+     "p": "Nagoya",
+     "i": 10.432,
+     "f": 10.966
+    },
+    {
+     "p": "os",
+     "i": 11.253,
+     "f": 11.396
+    },
+    {
+     "p": "técnicos",
+     "i": 11.409,
+     "f": 11.865
+    },
+    {
+     "p": "encontram",
+     "i": 11.878,
+     "f": 12.412
+    },
+    {
+     "p": "uma",
+     "i": 12.424,
+     "f": 12.568
+    },
+    {
+     "p": "rachadura",
+     "i": 12.581,
+     "f": 13.206
+    },
+    {
+     "p": "de",
+     "i": 13.219,
+     "f": 13.323
+    },
+    {
+     "p": "cerca",
+     "i": 13.336,
+     "f": 13.688
+    },
+    {
+     "p": "de",
+     "i": 13.701,
+     "f": 13.805
+    },
+    {
+     "p": "catorze",
+     "i": 13.818,
+     "f": 14.391
+    },
+    {
+     "p": "centímetros",
+     "i": 14.404,
+     "f": 15.094
+    },
+    {
+     "p": "na",
+     "i": 15.107,
+     "f": 15.198
+    },
+    {
+     "p": "estrutura",
+     "i": 15.211,
+     "f": 15.784
+    },
+    {
+     "p": "que",
+     "i": 15.797,
+     "f": 15.901
+    },
+    {
+     "p": "sustenta",
+     "i": 15.914,
+     "f": 16.474
+    },
+    {
+     "p": "as",
+     "i": 16.487,
+     "f": 16.565
+    },
+    {
+     "p": "rodas",
+     "i": 16.578,
+     "f": 17.099
+    },
+    {
+     "p": "Faltavam",
+     "i": 17.438,
+     "f": 18.115
+    },
+    {
+     "p": "poucos",
+     "i": 18.128,
+     "f": 18.493
+    },
+    {
+     "p": "centímetros",
+     "i": 18.506,
+     "f": 19.196
+    },
+    {
+     "p": "para",
+     "i": 19.209,
+     "f": 19.352
+    },
+    {
+     "p": "a",
+     "i": 19.365,
+     "f": 19.404
+    },
+    {
+     "p": "peça",
+     "i": 19.417,
+     "f": 19.743
+    },
+    {
+     "p": "se",
+     "i": 19.756,
+     "f": 19.886
+    },
+    {
+     "p": "partir",
+     "i": 19.899,
+     "f": 20.368
+    },
+    {
+     "p": "Cerca",
+     "i": 20.71,
+     "f": 21.192
+    },
+    {
+     "p": "de",
+     "i": 21.205,
+     "f": 21.309
+    },
+    {
+     "p": "mil",
+     "i": 21.322,
+     "f": 21.504
+    },
+    {
+     "p": "pessoas",
+     "i": 21.517,
+     "f": 22.038
+    },
+    {
+     "p": "trocaram",
+     "i": 22.051,
+     "f": 22.481
+    },
+    {
+     "p": "de",
+     "i": 22.494,
+     "f": 22.637
+    },
+    {
+     "p": "trem",
+     "i": 22.65,
+     "f": 22.95
+    },
+    {
+     "p": "e",
+     "i": 23.184,
+     "f": 23.249
+    },
+    {
+     "p": "ninguém",
+     "i": 23.262,
+     "f": 23.666
+    },
+    {
+     "p": "se",
+     "i": 23.679,
+     "f": 23.835
+    },
+    {
+     "p": "feriu",
+     "i": 23.848,
+     "f": 24.239
+    },
+    {
+     "p": "O",
+     "i": 24.582,
+     "f": 24.686
+    },
+    {
+     "p": "Japão",
+     "i": 24.699,
+     "f": 25.168
+    },
+    {
+     "p": "classificou",
+     "i": 25.181,
+     "f": 25.767
+    },
+    {
+     "p": "o",
+     "i": 25.78,
+     "f": 25.832
+    },
+    {
+     "p": "caso",
+     "i": 25.845,
+     "f": 26.223
+    },
+    {
+     "p": "como",
+     "i": 26.236,
+     "f": 26.431
+    },
+    {
+     "p": "incidente",
+     "i": 26.444,
+     "f": 26.939
+    },
+    {
+     "p": "grave",
+     "i": 26.952,
+     "f": 27.369
+    },
+    {
+     "p": "e",
+     "i": 27.772,
+     "f": 27.85
+    },
+    {
+     "p": "a",
+     "i": 27.863,
+     "f": 27.915
+    },
+    {
+     "p": "investigação",
+     "i": 27.928,
+     "f": 28.671
+    },
+    {
+     "p": "apontou",
+     "i": 28.684,
+     "f": 29.126
+    },
+    {
+     "p": "fadiga",
+     "i": 29.139,
+     "f": 29.582
+    },
+    {
+     "p": "do",
+     "i": 29.595,
+     "f": 29.673
+    },
+    {
+     "p": "metal",
+     "i": 29.686,
+     "f": 30.142
+    },
+    {
+     "p": "O",
+     "i": 30.494,
+     "f": 30.611
+    },
+    {
+     "p": "recorde",
+     "i": 30.624,
+     "f": 31.158
+    },
+    {
+     "p": "sobreviveu",
+     "i": 31.171,
+     "f": 31.848
+    },
+    {
+     "p": "mas",
+     "i": 32.161,
+     "f": 32.408
+    },
+    {
+     "p": "por",
+     "i": 32.421,
+     "f": 32.603
+    },
+    {
+     "p": "pouco",
+     "i": 32.616,
+     "f": 33.02
+    }
+   ]
+  },
+  "pegadinha": {
+   "hash": "2e4e98e836",
+   "texto": "Agora, a pegadinha. A frase diz que o Shinkansen nunca matou um passageiro, mas houve mortes a bordo e nas estações. Em dezembro de mil novecentos e noventa e cinco, um estudante de dezessete anos morreu na estação de Mishima, preso na porta de um trem que partia. Em dois mil e quinze, um homem ateou fogo ao próprio corpo dentro de um trem, e uma passageira morreu. Em dois mil e dezoito, um ataque com faca matou um passageiro. Nenhum desses casos foi descarrilamento ou colisão, e o sistema de segurança do trem não tinha como impedi-los.",
+   "audio": "audio/pegadinha-2e4e98e836.mp3",
+   "duracao": 34.22,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.688
+    },
+    {
+     "p": "a",
+     "i": 0.831,
+     "f": 0.922
+    },
+    {
+     "p": "pegadinha",
+     "i": 0.935,
+     "f": 1.691
+    },
+    {
+     "p": "A",
+     "i": 2.03,
+     "f": 2.173
+    },
+    {
+     "p": "frase",
+     "i": 2.186,
+     "f": 2.642
+    },
+    {
+     "p": "diz",
+     "i": 2.655,
+     "f": 2.902
+    },
+    {
+     "p": "que",
+     "i": 2.916,
+     "f": 2.981
+    },
+    {
+     "p": "o",
+     "i": 2.994,
+     "f": 3.02
+    },
+    {
+     "p": "Shinkansen",
+     "i": 3.033,
+     "f": 3.697
+    },
+    {
+     "p": "nunca",
+     "i": 3.71,
+     "f": 4.061
+    },
+    {
+     "p": "matou",
+     "i": 4.074,
+     "f": 4.361
+    },
+    {
+     "p": "um",
+     "i": 4.374,
+     "f": 4.478
+    },
+    {
+     "p": "passageiro",
+     "i": 4.491,
+     "f": 5.103
+    },
+    {
+     "p": "mas",
+     "i": 5.415,
+     "f": 5.546
+    },
+    {
+     "p": "houve",
+     "i": 5.559,
+     "f": 5.871
+    },
+    {
+     "p": "mortes",
+     "i": 5.884,
+     "f": 6.288
+    },
+    {
+     "p": "a",
+     "i": 6.301,
+     "f": 6.431
+    },
+    {
+     "p": "bordo",
+     "i": 6.444,
+     "f": 6.835
+    },
+    {
+     "p": "e",
+     "i": 6.848,
+     "f": 6.874
+    },
+    {
+     "p": "nas",
+     "i": 6.887,
+     "f": 6.991
+    },
+    {
+     "p": "estações",
+     "i": 7.004,
+     "f": 7.824
+    },
+    {
+     "p": "Em",
+     "i": 8.158,
+     "f": 8.275
+    },
+    {
+     "p": "dezembro",
+     "i": 8.288,
+     "f": 8.861
+    },
+    {
+     "p": "de",
+     "i": 8.874,
+     "f": 8.991
+    },
+    {
+     "p": "mil",
+     "i": 9.004,
+     "f": 9.135
+    },
+    {
+     "p": "novecentos",
+     "i": 9.148,
+     "f": 9.747
+    },
+    {
+     "p": "e",
+     "i": 9.76,
+     "f": 9.838
+    },
+    {
+     "p": "noventa",
+     "i": 9.851,
+     "f": 10.189
+    },
+    {
+     "p": "e",
+     "i": 10.202,
+     "f": 10.228
+    },
+    {
+     "p": "cinco",
+     "i": 10.241,
+     "f": 10.684
+    },
+    {
+     "p": "um",
+     "i": 10.984,
+     "f": 11.088
+    },
+    {
+     "p": "estudante",
+     "i": 11.101,
+     "f": 11.674
+    },
+    {
+     "p": "de",
+     "i": 11.687,
+     "f": 11.791
+    },
+    {
+     "p": "dezessete",
+     "i": 11.804,
+     "f": 12.442
+    },
+    {
+     "p": "anos",
+     "i": 12.455,
+     "f": 12.78
+    },
+    {
+     "p": "morreu",
+     "i": 12.793,
+     "f": 13.093
+    },
+    {
+     "p": "na",
+     "i": 13.106,
+     "f": 13.197
+    },
+    {
+     "p": "estação",
+     "i": 13.21,
+     "f": 13.653
+    },
+    {
+     "p": "de",
+     "i": 13.666,
+     "f": 13.77
+    },
+    {
+     "p": "Mishima",
+     "i": 13.783,
+     "f": 14.317
+    },
+    {
+     "p": "preso",
+     "i": 14.577,
+     "f": 14.968
+    },
+    {
+     "p": "na",
+     "i": 14.981,
+     "f": 15.111
+    },
+    {
+     "p": "porta",
+     "i": 15.124,
+     "f": 15.528
+    },
+    {
+     "p": "de",
+     "i": 15.541,
+     "f": 15.632
+    },
+    {
+     "p": "um",
+     "i": 15.645,
+     "f": 15.775
+    },
+    {
+     "p": "trem",
+     "i": 15.788,
+     "f": 16.023
+    },
+    {
+     "p": "que",
+     "i": 16.036,
+     "f": 16.127
+    },
+    {
+     "p": "partia",
+     "i": 16.14,
+     "f": 16.635
+    },
+    {
+     "p": "Em",
+     "i": 16.974,
+     "f": 17.104
+    },
+    {
+     "p": "dois",
+     "i": 17.117,
+     "f": 17.352
+    },
+    {
+     "p": "mil",
+     "i": 17.365,
+     "f": 17.469
+    },
+    {
+     "p": "e",
+     "i": 17.482,
+     "f": 17.534
+    },
+    {
+     "p": "quinze",
+     "i": 17.547,
+     "f": 17.977
+    },
+    {
+     "p": "um",
+     "i": 18.12,
+     "f": 18.276
+    },
+    {
+     "p": "homem",
+     "i": 18.289,
+     "f": 18.576
+    },
+    {
+     "p": "ateou",
+     "i": 18.589,
+     "f": 18.927
+    },
+    {
+     "p": "fogo",
+     "i": 18.94,
+     "f": 19.279
+    },
+    {
+     "p": "ao",
+     "i": 19.292,
+     "f": 19.396
+    },
+    {
+     "p": "próprio",
+     "i": 19.409,
+     "f": 19.787
+    },
+    {
+     "p": "corpo",
+     "i": 19.8,
+     "f": 20.216
+    },
+    {
+     "p": "dentro",
+     "i": 20.229,
+     "f": 20.594
+    },
+    {
+     "p": "de",
+     "i": 20.607,
+     "f": 20.685
+    },
+    {
+     "p": "um",
+     "i": 20.698,
+     "f": 20.815
+    },
+    {
+     "p": "trem",
+     "i": 20.828,
+     "f": 21.154
+    },
+    {
+     "p": "e",
+     "i": 21.453,
+     "f": 21.557
+    },
+    {
+     "p": "uma",
+     "i": 21.57,
+     "f": 21.753
+    },
+    {
+     "p": "passageira",
+     "i": 21.766,
+     "f": 22.443
+    },
+    {
+     "p": "morreu",
+     "i": 22.456,
+     "f": 22.86
+    },
+    {
+     "p": "Em",
+     "i": 23.198,
+     "f": 23.328
+    },
+    {
+     "p": "dois",
+     "i": 23.341,
+     "f": 23.55
+    },
+    {
+     "p": "mil",
+     "i": 23.563,
+     "f": 23.667
+    },
+    {
+     "p": "e",
+     "i": 23.68,
+     "f": 23.706
+    },
+    {
+     "p": "dezoito",
+     "i": 23.719,
+     "f": 24.266
+    },
+    {
+     "p": "um",
+     "i": 24.513,
+     "f": 24.643
+    },
+    {
+     "p": "ataque",
+     "i": 24.656,
+     "f": 25.125
+    },
+    {
+     "p": "com",
+     "i": 25.138,
+     "f": 25.307
+    },
+    {
+     "p": "faca",
+     "i": 25.32,
+     "f": 25.62
+    },
+    {
+     "p": "matou",
+     "i": 25.633,
+     "f": 25.972
+    },
+    {
+     "p": "um",
+     "i": 25.985,
+     "f": 26.102
+    },
+    {
+     "p": "passageiro",
+     "i": 26.115,
+     "f": 26.805
+    },
+    {
+     "p": "Nenhum",
+     "i": 27.142,
+     "f": 27.533
+    },
+    {
+     "p": "desses",
+     "i": 27.546,
+     "f": 27.897
+    },
+    {
+     "p": "casos",
+     "i": 27.91,
+     "f": 28.34
+    },
+    {
+     "p": "foi",
+     "i": 28.353,
+     "f": 28.522
+    },
+    {
+     "p": "descarrilamento",
+     "i": 28.535,
+     "f": 29.408
+    },
+    {
+     "p": "ou",
+     "i": 29.421,
+     "f": 29.512
+    },
+    {
+     "p": "colisão",
+     "i": 29.525,
+     "f": 30.072
+    },
+    {
+     "p": "e",
+     "i": 30.449,
+     "f": 30.541
+    },
+    {
+     "p": "o",
+     "i": 30.554,
+     "f": 30.593
+    },
+    {
+     "p": "sistema",
+     "i": 30.606,
+     "f": 31.113
+    },
+    {
+     "p": "de",
+     "i": 31.126,
+     "f": 31.205
+    },
+    {
+     "p": "segurança",
+     "i": 31.218,
+     "f": 31.83
+    },
+    {
+     "p": "do",
+     "i": 31.843,
+     "f": 31.973
+    },
+    {
+     "p": "trem",
+     "i": 31.986,
+     "f": 32.194
+    },
+    {
+     "p": "não",
+     "i": 32.207,
+     "f": 32.403
+    },
+    {
+     "p": "tinha",
+     "i": 32.416,
+     "f": 32.741
+    },
+    {
+     "p": "como",
+     "i": 32.754,
+     "f": 32.962
+    },
+    {
+     "p": "impedi-los",
+     "i": 32.975,
+     "f": 33.757
+    }
+   ]
+  },
+  "veredito": {
+   "hash": "815e68b99f",
+   "texto": "Então, qual é o veredito? Se a frase for nenhum passageiro morreu por descarrilamento ou colisão, os dados apresentados são consistentes com isso, e é um feito extraordinário. Se for ninguém jamais morreu num Shinkansen, ela está errada. O recorde de verdade é sobre engenharia: via exclusiva, controle automático, detecção de terremoto e manutenção constante. A pontualidade é outro retrato disso. Na Tokaido Shinkansen, o atraso médio ficou em um vírgula seis minuto por trem, no ano fiscal de dois mil e vinte e três, incluindo desastres naturais, segundo a JR Central.",
+   "audio": "audio/veredito-815e68b99f.mp3",
+   "duracao": 37.721,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.649
+    },
+    {
+     "p": "qual",
+     "i": 0.922,
+     "f": 1.183
+    },
+    {
+     "p": "é",
+     "i": 1.196,
+     "f": 1.274
+    },
+    {
+     "p": "o",
+     "i": 1.287,
+     "f": 1.352
+    },
+    {
+     "p": "veredito",
+     "i": 1.365,
+     "f": 1.977
+    },
+    {
+     "p": "Se",
+     "i": 2.378,
+     "f": 2.547
+    },
+    {
+     "p": "a",
+     "i": 2.56,
+     "f": 2.652
+    },
+    {
+     "p": "frase",
+     "i": 2.665,
+     "f": 3.107
+    },
+    {
+     "p": "for",
+     "i": 3.12,
+     "f": 3.342
+    },
+    {
+     "p": "nenhum",
+     "i": 3.355,
+     "f": 3.654
+    },
+    {
+     "p": "passageiro",
+     "i": 3.667,
+     "f": 4.279
+    },
+    {
+     "p": "morreu",
+     "i": 4.292,
+     "f": 4.657
+    },
+    {
+     "p": "por",
+     "i": 4.67,
+     "f": 4.813
+    },
+    {
+     "p": "descarrilamento",
+     "i": 4.826,
+     "f": 5.685
+    },
+    {
+     "p": "ou",
+     "i": 5.698,
+     "f": 5.79
+    },
+    {
+     "p": "colisão",
+     "i": 5.803,
+     "f": 6.336
+    },
+    {
+     "p": "os",
+     "i": 6.675,
+     "f": 6.792
+    },
+    {
+     "p": "dados",
+     "i": 6.805,
+     "f": 7.105
+    },
+    {
+     "p": "apresentados",
+     "i": 7.118,
+     "f": 7.925
+    },
+    {
+     "p": "são",
+     "i": 7.938,
+     "f": 8.081
+    },
+    {
+     "p": "consistentes",
+     "i": 8.094,
+     "f": 8.797
+    },
+    {
+     "p": "com",
+     "i": 8.81,
+     "f": 9.045
+    },
+    {
+     "p": "isso",
+     "i": 9.058,
+     "f": 9.357
+    },
+    {
+     "p": "e",
+     "i": 9.696,
+     "f": 9.8
+    },
+    {
+     "p": "é",
+     "i": 9.813,
+     "f": 9.878
+    },
+    {
+     "p": "um",
+     "i": 9.891,
+     "f": 10.008
+    },
+    {
+     "p": "feito",
+     "i": 10.021,
+     "f": 10.334
+    },
+    {
+     "p": "extraordinário",
+     "i": 10.347,
+     "f": 11.167
+    },
+    {
+     "p": "Se",
+     "i": 11.506,
+     "f": 11.727
+    },
+    {
+     "p": "for",
+     "i": 11.74,
+     "f": 11.962
+    },
+    {
+     "p": "ninguém",
+     "i": 11.975,
+     "f": 12.326
+    },
+    {
+     "p": "jamais",
+     "i": 12.339,
+     "f": 12.73
+    },
+    {
+     "p": "morreu",
+     "i": 12.743,
+     "f": 13.043
+    },
+    {
+     "p": "num",
+     "i": 13.056,
+     "f": 13.186
+    },
+    {
+     "p": "Shinkansen",
+     "i": 13.199,
+     "f": 13.941
+    },
+    {
+     "p": "ela",
+     "i": 14.188,
+     "f": 14.293
+    },
+    {
+     "p": "está",
+     "i": 14.306,
+     "f": 14.54
+    },
+    {
+     "p": "errada",
+     "i": 14.553,
+     "f": 15.009
+    },
+    {
+     "p": "O",
+     "i": 15.354,
+     "f": 15.471
+    },
+    {
+     "p": "recorde",
+     "i": 15.484,
+     "f": 15.992
+    },
+    {
+     "p": "de",
+     "i": 16.005,
+     "f": 16.083
+    },
+    {
+     "p": "verdade",
+     "i": 16.096,
+     "f": 16.617
+    },
+    {
+     "p": "é",
+     "i": 16.63,
+     "f": 16.656
+    },
+    {
+     "p": "sobre",
+     "i": 16.669,
+     "f": 16.969
+    },
+    {
+     "p": "engenharia",
+     "i": 16.982,
+     "f": 17.62
+    },
+    {
+     "p": "via",
+     "i": 17.932,
+     "f": 18.101
+    },
+    {
+     "p": "exclusiva",
+     "i": 18.114,
+     "f": 18.792
+    },
+    {
+     "p": "controle",
+     "i": 19.039,
+     "f": 19.469
+    },
+    {
+     "p": "automático",
+     "i": 19.482,
+     "f": 20.159
+    },
+    {
+     "p": "detecção",
+     "i": 20.406,
+     "f": 21.018
+    },
+    {
+     "p": "de",
+     "i": 21.031,
+     "f": 21.148
+    },
+    {
+     "p": "terremoto",
+     "i": 21.161,
+     "f": 21.76
+    },
+    {
+     "p": "e",
+     "i": 21.773,
+     "f": 21.799
+    },
+    {
+     "p": "manutenção",
+     "i": 21.812,
+     "f": 22.516
+    },
+    {
+     "p": "constante",
+     "i": 22.529,
+     "f": 23.219
+    },
+    {
+     "p": "A",
+     "i": 23.57,
+     "f": 23.7
+    },
+    {
+     "p": "pontualidade",
+     "i": 23.713,
+     "f": 24.495
+    },
+    {
+     "p": "é",
+     "i": 24.508,
+     "f": 24.573
+    },
+    {
+     "p": "outro",
+     "i": 24.586,
+     "f": 24.885
+    },
+    {
+     "p": "retrato",
+     "i": 24.898,
+     "f": 25.432
+    },
+    {
+     "p": "disso",
+     "i": 25.445,
+     "f": 25.862
+    },
+    {
+     "p": "Na",
+     "i": 26.194,
+     "f": 26.389
+    },
+    {
+     "p": "Tokaido",
+     "i": 26.402,
+     "f": 26.884
+    },
+    {
+     "p": "Shinkansen",
+     "i": 26.897,
+     "f": 27.613
+    },
+    {
+     "p": "o",
+     "i": 27.887,
+     "f": 27.952
+    },
+    {
+     "p": "atraso",
+     "i": 27.965,
+     "f": 28.421
+    },
+    {
+     "p": "médio",
+     "i": 28.434,
+     "f": 28.772
+    },
+    {
+     "p": "ficou",
+     "i": 28.785,
+     "f": 29.098
+    },
+    {
+     "p": "em",
+     "i": 29.111,
+     "f": 29.202
+    },
+    {
+     "p": "um",
+     "i": 29.215,
+     "f": 29.41
+    },
+    {
+     "p": "vírgula",
+     "i": 29.423,
+     "f": 29.775
+    },
+    {
+     "p": "seis",
+     "i": 29.788,
+     "f": 30.022
+    },
+    {
+     "p": "minuto",
+     "i": 30.035,
+     "f": 30.413
+    },
+    {
+     "p": "por",
+     "i": 30.426,
+     "f": 30.608
+    },
+    {
+     "p": "trem",
+     "i": 30.621,
+     "f": 30.882
+    },
+    {
+     "p": "no",
+     "i": 31.194,
+     "f": 31.337
+    },
+    {
+     "p": "ano",
+     "i": 31.35,
+     "f": 31.585
+    },
+    {
+     "p": "fiscal",
+     "i": 31.598,
+     "f": 32.04
+    },
+    {
+     "p": "de",
+     "i": 32.053,
+     "f": 32.145
+    },
+    {
+     "p": "dois",
+     "i": 32.158,
+     "f": 32.353
+    },
+    {
+     "p": "mil",
+     "i": 32.366,
+     "f": 32.496
+    },
+    {
+     "p": "e",
+     "i": 32.509,
+     "f": 32.574
+    },
+    {
+     "p": "vinte",
+     "i": 32.587,
+     "f": 32.809
+    },
+    {
+     "p": "e",
+     "i": 32.822,
+     "f": 32.861
+    },
+    {
+     "p": "três",
+     "i": 32.874,
+     "f": 33.238
+    },
+    {
+     "p": "incluindo",
+     "i": 33.538,
+     "f": 34.046
+    },
+    {
+     "p": "desastres",
+     "i": 34.059,
+     "f": 34.632
+    },
+    {
+     "p": "naturais",
+     "i": 34.645,
+     "f": 35.296
+    },
+    {
+     "p": "segundo",
+     "i": 35.556,
+     "f": 35.96
+    },
+    {
+     "p": "a",
+     "i": 35.973,
+     "f": 36.051
+    },
+    {
+     "p": "JR",
+     "i": 36.064,
+     "f": 36.728
+    },
+    {
+     "p": "Central",
+     "i": 36.741,
+     "f": 37.288
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "7c1e4a67bb",
+   "texto": "Segurança, no fim, não é ausência de risco. É a soma de cada falha que alguém decidiu levar a sério antes que virasse tragédia.",
+   "audio": "audio/fecho-7c1e4a67bb.mp3",
+   "duracao": 8.908,
+   "palavras": [
+    {
+     "p": "Segurança",
+     "i": 0.102,
+     "f": 0.909
+    },
+    {
+     "p": "no",
+     "i": 1.17,
+     "f": 1.3
+    },
+    {
+     "p": "fim",
+     "i": 1.313,
+     "f": 1.626
+    },
+    {
+     "p": "não",
+     "i": 1.873,
+     "f": 2.12
+    },
+    {
+     "p": "é",
+     "i": 2.133,
+     "f": 2.211
+    },
+    {
+     "p": "ausência",
+     "i": 2.224,
+     "f": 2.732
+    },
+    {
+     "p": "de",
+     "i": 2.745,
+     "f": 2.836
+    },
+    {
+     "p": "risco",
+     "i": 2.849,
+     "f": 3.318
+    },
+    {
+     "p": "É",
+     "i": 3.662,
+     "f": 3.818
+    },
+    {
+     "p": "a",
+     "i": 3.831,
+     "f": 3.87
+    },
+    {
+     "p": "soma",
+     "i": 3.883,
+     "f": 4.261
+    },
+    {
+     "p": "de",
+     "i": 4.274,
+     "f": 4.378
+    },
+    {
+     "p": "cada",
+     "i": 4.391,
+     "f": 4.665
+    },
+    {
+     "p": "falha",
+     "i": 4.678,
+     "f": 5.055
+    },
+    {
+     "p": "que",
+     "i": 5.068,
+     "f": 5.159
+    },
+    {
+     "p": "alguém",
+     "i": 5.173,
+     "f": 5.407
+    },
+    {
+     "p": "decidiu",
+     "i": 5.42,
+     "f": 5.824
+    },
+    {
+     "p": "levar",
+     "i": 5.837,
+     "f": 6.175
+    },
+    {
+     "p": "a",
+     "i": 6.188,
+     "f": 6.24
+    },
+    {
+     "p": "sério",
+     "i": 6.253,
+     "f": 6.644
+    },
+    {
+     "p": "antes",
+     "i": 6.657,
+     "f": 7.021
+    },
+    {
+     "p": "que",
+     "i": 7.034,
+     "f": 7.139
+    },
+    {
+     "p": "virasse",
+     "i": 7.152,
+     "f": 7.594
+    },
+    {
+     "p": "tragédia",
+     "i": 7.607,
+     "f": 8.219
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "a1": {
+   "arquivo": "imagens/a1-d67b2709.jpg",
+   "rotulo": "Shinkansen Série 0",
+   "wiki": "Shinkansen Série 0",
+   "commons": "Shinkansen 0 Series Tokaido Shinkansen",
+   "autor": "FairlieGood",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:0_Series_Shinkansen_NRM.jpg",
+   "titulo": "File:0 Series Shinkansen NRM.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 79.9,
+    "y": 54.5
+   },
+   "borrada": "imagens/a1-d67b2709-b.jpg"
+  },
+  "a2": {
+   "arquivo": "imagens/a2-935dbfcc.jpg",
+   "rotulo": "Estação de Tóquio",
+   "commons": "Tokyo Station Marunouchi side building",
+   "autor": "掬茶",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_Marunouchi_Building,_north_side_dome,_21_July_2013.jpg",
+   "titulo": "File:Tokyo Station Marunouchi Building, north side dome, 21 July 2013.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 65.3,
+    "y": 54.4
+   },
+   "borrada": "imagens/a2-935dbfcc-b.jpg"
+  },
+  "a3": {
+   "arquivo": "imagens/a3-fe30f5f6.jpg",
+   "rotulo": "Shin-Osaka",
+   "commons": "Shin-Osaka Station Shinkansen platform",
+   "autor": "brian25_tw",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shin-Osaka_Station_shinkansen_platform_sign_2020-01-19.jpg",
+   "titulo": "File:Shin-Osaka Station shinkansen platform sign 2020-01-19.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 50.2,
+    "y": 59.2
+   },
+   "borrada": "imagens/a3-fe30f5f6-b.jpg"
+  },
+  "a4": {
+   "arquivo": "imagens/a4-8fcccff1.jpg",
+   "rotulo": "Plataforma em Tóquio",
+   "commons": "Shinkansen platform passengers Tokyo Station",
+   "autor": "名無し野電車区",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shinkansen;_the_%22Max-toki%22_super_express_coming_in_Tokyo_station.jpg",
+   "titulo": "File:Shinkansen; the \"Max-toki\" super express coming in Tokyo station.jpg",
+   "largura": 1920,
+   "altura": 1285,
+   "rostos": 0,
+   "foco": {
+    "x": 62.2,
+    "y": 37.4
+   },
+   "borrada": "imagens/a4-8fcccff1-b.jpg"
+  },
+  "a5": {
+   "arquivo": "imagens/a5-e622b00e.jpg",
+   "rotulo": "N700 e o Monte Fuji",
+   "commons": "N700 Series Shinkansen Mount Fuji",
+   "autor": "tansaisuketti",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700_with_Mount_Fuji.jpg",
+   "titulo": "File:Shinkansen N700 with Mount Fuji.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 44.1,
+    "y": 70.5
+   },
+   "borrada": "imagens/a5-e622b00e-b.jpg"
+  },
+  "b1": {
+   "arquivo": "",
+   "rotulo": "Linha Tokaido",
+   "commons": "Tokaido Shinkansen route map",
+   "semFoto": true
+  },
+  "b2": {
+   "arquivo": "",
+   "rotulo": "Hideo Shima",
+   "wiki": "Hideo Shima",
+   "commons": "Hideo Shima engineer",
+   "semFoto": true
+  },
+  "b3": {
+   "arquivo": "",
+   "rotulo": "Sismógrafo",
+   "commons": "Seismograph earthquake recording drum",
+   "semFoto": true
+  },
+  "b4": {
+   "arquivo": "imagens/b4-938109b7.jpg",
+   "rotulo": "Sede da JR Central",
+   "commons": "JR Central Towers Nagoya Station",
+   "autor": "FZHS",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nagoya_Station_JR_Central_Towers_and_JR_Gate_Tower.jpg",
+   "titulo": "File:Nagoya Station JR Central Towers and JR Gate Tower.jpg",
+   "largura": 1920,
+   "altura": 1773,
+   "rostos": 0,
+   "foco": {
+    "x": 53.9,
+    "y": 49.5
+   },
+   "borrada": "imagens/b4-938109b7-b.jpg"
+  },
+  "b5": {
+   "arquivo": "imagens/b5-5e56ffd3.jpg",
+   "rotulo": "Série E5",
+   "commons": "E5 Series Shinkansen Hayabusa Tohoku",
+   "autor": "MaedaAkihiko",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Series-E5-U2_Hayabusa-30.jpg",
+   "titulo": "File:Series-E5-U2 Hayabusa-30.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 37.3,
+    "y": 29.2
+   },
+   "borrada": "imagens/b5-5e56ffd3-b.jpg"
+  },
+  "c1": {
+   "arquivo": "",
+   "rotulo": "Tóquio nos anos 1950",
+   "commons": "Tokyo 1950s postwar street Ginza",
+   "semFoto": true
+  },
+  "c2": {
+   "arquivo": "imagens/c2-ebd16be7.jpg",
+   "rotulo": "Shinji Sogō",
+   "wiki": "Shinji Sogo",
+   "commons": "Shinji Sogo Japanese National Railways president",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SOGO_Shinji.jpg",
+   "titulo": "File:SOGO Shinji.jpg",
+   "largura": 1024,
+   "altura": 1450,
+   "rostos": 2,
+   "foco": {
+    "x": 52.6,
+    "y": 20.4
+   },
+   "borrada": "imagens/c2-ebd16be7-b.jpg"
+  },
+  "c3": {
+   "arquivo": "",
+   "rotulo": "Hideo Shima, engenheiro-chefe",
+   "commons": "Hideo Shima Shinkansen chief engineer portrait",
+   "semFoto": true
+  },
+  "c4": {
+   "arquivo": "imagens/c4-bb045177.jpg",
+   "rotulo": "Olimpíadas de Tóquio, 1964",
+   "commons": "1964 Summer Olympics Tokyo opening ceremony National Stadium",
+   "autor": "Ulrich Kohls",
+   "licenca": "CC BY-SA 3.0 de",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-C1012-0001-026,_Tokio,_XVIII._Olympiade,_Gesamtdeutsche_Mannschaft.jpg",
+   "titulo": "File:Bundesarchiv Bild 183-C1012-0001-026, Tokio, XVIII. Olympiade, Gesamtdeutsche Mannschaft.jpg",
+   "largura": 800,
+   "altura": 770,
+   "rostos": 0,
+   "foco": {
+    "x": 42.2,
+    "y": 58.4
+   },
+   "borrada": "imagens/c4-bb045177-b.jpg"
+  },
+  "c5": {
+   "arquivo": "",
+   "rotulo": "Hikari, 1964",
+   "commons": "Hikari 0 Series Shinkansen 1964 Tokyo",
+   "semFoto": true
+  },
+  "c6": {
+   "arquivo": "",
+   "rotulo": "Estação de Odawara",
+   "commons": "Odawara Station Tokaido Shinkansen",
+   "semFoto": true
+  },
+  "d1": {
+   "arquivo": "imagens/d1-29f25838.jpg",
+   "rotulo": "Viaduto elevado",
+   "commons": "Shinkansen elevated viaduct",
+   "autor": "m-louis .®",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hoppo_Freight_Line_and_Sanyo_Shinkansen_elevated_tracks_1.jpg",
+   "titulo": "File:Hoppo Freight Line and Sanyo Shinkansen elevated tracks 1.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 42.2,
+    "y": 71.3
+   },
+   "borrada": "imagens/d1-29f25838-b.jpg"
+  },
+  "d2": {
+   "arquivo": "imagens/d2-567e4ea0.jpg",
+   "rotulo": "Via sobre laje",
+   "commons": "Shinkansen slab track",
+   "autor": "Dr.yellow",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tokaido_Shinkansen_Tokyo_station_Slab_tracks_01.jpg",
+   "titulo": "File:Tokaido Shinkansen Tokyo station Slab tracks 01.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 52.7,
+    "y": 34.4
+   },
+   "borrada": "imagens/d2-567e4ea0-b.jpg"
+  },
+  "d3": {
+   "arquivo": "imagens/d3-24bc24cb.jpg",
+   "rotulo": "Cabine do maquinista",
+   "commons": "Shinkansen driver cab",
+   "autor": "Andy Tsai",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:THSR_700T_cockpit_01.jpg",
+   "titulo": "File:THSR 700T cockpit 01.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 48.1,
+    "y": 38.4
+   },
+   "borrada": "imagens/d3-24bc24cb-b.jpg"
+  },
+  "d4": {
+   "arquivo": "",
+   "rotulo": "Via exclusiva",
+   "commons": "Shinkansen line fence track Japan",
+   "semFoto": true
+  },
+  "d5": {
+   "arquivo": "",
+   "rotulo": "Shin-Yokohama",
+   "commons": "Shin-Yokohama Station Shinkansen",
+   "semFoto": true
+  },
+  "e1": {
+   "arquivo": "imagens/e1-f2754cb8.jpg",
+   "rotulo": "Centro de controle",
+   "commons": "Shinkansen Operation Control Center Tokyo",
+   "autor": "Dr.yellow",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Marunouchi_Chuo_bill_11(Shinkansen_Operations_division_plate).jpg",
+   "titulo": "File:Marunouchi Chuo bill 11(Shinkansen Operations division plate).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 37.0,
+    "y": 65.6
+   },
+   "borrada": "imagens/e1-f2754cb8-b.jpg"
+  },
+  "e2": {
+   "arquivo": "",
+   "rotulo": "Painel de velocidade",
+   "commons": "Shinkansen cab ATC speed indicator",
+   "semFoto": true
+  },
+  "e3": {
+   "arquivo": "",
+   "rotulo": "Maquinista",
+   "commons": "Shinkansen driver conductor Japan",
+   "semFoto": true
+  },
+  "e4": {
+   "arquivo": "",
+   "rotulo": "Nagoya",
+   "commons": "Shinkansen Nagoya Station train passing",
+   "semFoto": true
+  },
+  "e5": {
+   "arquivo": "imagens/e5-2af2cdc3.jpg",
+   "rotulo": "N700 Hikari",
+   "commons": "N700 Series Shinkansen Hikari",
+   "autor": "ArminEP",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/shinkansen-trem-bala-5237269/",
+   "titulo": "shinkansen, trem-bala, estação ferroviária, trem expresso, plataforma, estrada de ferro, ferrovia, viajar por, comboio, transporte, veículo, alta velocidade, velozes, moderno, quioto, japão, shinkansen, shinkansen, shinkansen, plataforma, comboio, comboio, transporte, quioto, japão, japão, japão, japão, japão",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 21.2,
+    "y": 41.2
+   },
+   "borrada": "imagens/e5-2af2cdc3-b.jpg"
+  },
+  "f1": {
+   "arquivo": "imagens/f1-4e3fd5a8.jpg",
+   "rotulo": "Sismômetro",
+   "commons": "Seismometer",
+   "autor": "Desconhecido",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kinemetrics_seismograph.jpg",
+   "titulo": "File:Kinemetrics seismograph.jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 49.1,
+    "y": 75.9
+   },
+   "borrada": "imagens/f1-4e3fd5a8-b.jpg"
+  },
+  "f2": {
+   "arquivo": "imagens/f2-5ab77935.jpg",
+   "rotulo": "Ondas P e S",
+   "commons": "P-wave S-wave seismic waves diagram",
+   "autor": "Karla Panchuk, Steven Earle",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Seismic_wave_travel_through_Earth.png",
+   "titulo": "File:Seismic wave travel through Earth.png",
+   "largura": 1496,
+   "altura": 915,
+   "rostos": 0,
+   "foco": {
+    "x": 71.7,
+    "y": 80
+   },
+   "borrada": "imagens/f2-5ab77935-b.jpg"
+  },
+  "f3": {
+   "arquivo": "",
+   "rotulo": "Placas tectônicas do Japão",
+   "commons": "Japan tectonic plates map Pacific Ring of Fire",
+   "semFoto": true
+  },
+  "f4": {
+   "arquivo": "",
+   "rotulo": "Rede aérea",
+   "commons": "Shinkansen overhead catenary pantograph",
+   "semFoto": true
+  },
+  "f5": {
+   "arquivo": "imagens/f5-7edb1629.jpg",
+   "rotulo": "Série E2",
+   "commons": "E2 Series Shinkansen Tohoku",
+   "autor": "kjmhdk66112",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/trem-bala-esta%C3%A7%C3%A3o-de-t%C3%B3quio-2794178/",
+   "titulo": "trem-bala, estação de tóquio, a região de tohoku shinkansen",
+   "largura": 1280,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 48.1,
+    "y": 36.0
+   },
+   "borrada": "imagens/f5-7edb1629-b.jpg"
+  },
+  "g1": {
+   "arquivo": "imagens/g1-751db393.jpg",
+   "rotulo": "Terremoto de Chuetsu, 2004",
+   "commons": "2004 Chuetsu earthquake damage Nagaoka",
+   "autor": "Naoki Sato",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:2004_Chuetsu_earthquake_Damaged_building,_Nagaoka_01.jpg",
+   "titulo": "File:2004 Chuetsu earthquake Damaged building, Nagaoka 01.jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 43.6,
+    "y": 77.2
+   },
+   "borrada": "imagens/g1-751db393-b.jpg"
+  },
+  "g2": {
+   "arquivo": "",
+   "rotulo": "Série 200, Joetsu",
+   "commons": "200 Series Shinkansen Joetsu Toki",
+   "semFoto": true
+  },
+  "g3": {
+   "arquivo": "",
+   "rotulo": "Província de Niigata",
+   "commons": "Niigata Prefecture map",
+   "semFoto": true
+  },
+  "g4": {
+   "arquivo": "",
+   "rotulo": "Toki 325 descarrilado",
+   "commons": "2004 Chuetsu earthquake Joetsu Shinkansen derailment Toki 325",
+   "semFoto": true
+  },
+  "g5": {
+   "arquivo": "imagens/g5-c691e6c2.jpg",
+   "rotulo": "Estação de Nagaoka",
+   "commons": "Nagaoka Station Niigata",
+   "autor": "Tail furry",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nagaoka-hanabikan,_Michi-no-Eki,_Niigata,_Japan,_October_2020.jpg",
+   "titulo": "File:Nagaoka-hanabikan, Michi-no-Eki, Niigata, Japan, October 2020.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 71.6,
+    "y": 62.5
+   },
+   "borrada": "imagens/g5-c691e6c2-b.jpg"
+  },
+  "g6": {
+   "arquivo": "imagens/g6-f5cf5d86.jpg",
+   "rotulo": "Joetsu Shinkansen",
+   "commons": "Joetsu Shinkansen E2 Series Nagaoka",
+   "autor": "uka0310",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shinkansen_at_Nagaoka_Station.jpg",
+   "titulo": "File:Shinkansen at Nagaoka Station.jpg",
+   "largura": 1920,
+   "altura": 1279,
+   "rostos": 0,
+   "foco": {
+    "x": 40.2,
+    "y": 29.7
+   },
+   "borrada": "imagens/g6-f5cf5d86-b.jpg"
+  },
+  "h1": {
+   "arquivo": "imagens/h1-1d8d4d80.jpg",
+   "rotulo": "Tohoku, 2011",
+   "wiki": "Sismo e tsunami de Tohoku em 2011",
+   "commons": "2011 Tohoku earthquake tsunami Sendai damage",
+   "autor": "U.S. Navy photo",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SH-60B_helicopter_flies_over_Sendai.jpg",
+   "titulo": "File:SH-60B helicopter flies over Sendai.jpg",
+   "largura": 1920,
+   "altura": 1282,
+   "rostos": 0,
+   "foco": {
+    "x": 30.8,
+    "y": 51.5
+   },
+   "borrada": "imagens/h1-1d8d4d80-b.jpg"
+  },
+  "h2": {
+   "arquivo": "",
+   "rotulo": "Viaduto danificado em 2011",
+   "commons": "Tohoku Shinkansen viaduct damage 2011 earthquake",
+   "semFoto": true
+  },
+  "h3": {
+   "arquivo": "imagens/h3-94badeec.jpg",
+   "rotulo": "Estação de Sendai",
+   "commons": "Sendai Station Shinkansen",
+   "autor": "Mister0124",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:JR_East_Sendai_Station_Shinkansen_Central_Transfer_Gate,_Miyagi_Pref_20230825.jpg",
+   "titulo": "File:JR East Sendai Station Shinkansen Central Transfer Gate, Miyagi Pref 20230825.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 77.1,
+    "y": 90.8
+   },
+   "borrada": "imagens/h3-94badeec-b.jpg"
+  },
+  "h4": {
+   "arquivo": "imagens/h4-705f17bf.jpg",
+   "rotulo": "Descarrilamento em 2022",
+   "commons": "2022 Fukushima earthquake Tohoku Shinkansen derailment",
+   "autor": "Katorisi",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bridge_abutment_damaged_by_the_2022_earthquake,_Shiroishi_city,_Japan.jpg",
+   "titulo": "File:Bridge abutment damaged by the 2022 earthquake, Shiroishi city, Japan.jpg",
+   "largura": 1920,
+   "altura": 1283,
+   "rostos": 0,
+   "foco": {
+    "x": 52.2,
+    "y": 55.1
+   },
+   "borrada": "imagens/h4-705f17bf-b.jpg"
+  },
+  "h5": {
+   "arquivo": "imagens/h5-3575de7b.jpg",
+   "rotulo": "Série E5 em Sendai",
+   "commons": "E5 Series Shinkansen Sendai",
+   "autor": "neuropower",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:E5_Series_Shinkansen_and_the_X-shaped_Bridge_viewed_from_AER.JPG",
+   "titulo": "File:E5 Series Shinkansen and the X-shaped Bridge viewed from AER.JPG",
+   "largura": 1242,
+   "altura": 1035,
+   "rostos": 0,
+   "foco": {
+    "x": 45.0,
+    "y": 50.8
+   },
+   "borrada": "imagens/h5-3575de7b-b.jpg"
+  },
+  "i1": {
+   "arquivo": "",
+   "rotulo": "Hakata",
+   "commons": "N700 Series Shinkansen Hakata Station",
+   "semFoto": true
+  },
+  "i2": {
+   "arquivo": "imagens/i2-28b28090.jpg",
+   "rotulo": "Estação de Nagoya",
+   "commons": "Nagoya Station Shinkansen platform",
+   "autor": "そらみみ",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nagoya_Station_Sign_(Tokaido_Shinkansen).jpg",
+   "titulo": "File:Nagoya Station Sign (Tokaido Shinkansen).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 70.7
+   },
+   "borrada": "imagens/i2-28b28090-b.jpg"
+  },
+  "i3": {
+   "arquivo": "",
+   "rotulo": "Truque do N700",
+   "commons": "Shinkansen bogie N700 truck underside",
+   "semFoto": true
+  },
+  "i4": {
+   "arquivo": "",
+   "rotulo": "Inspeção de manutenção",
+   "commons": "Shinkansen train inspection maintenance depot",
+   "semFoto": true
+  },
+  "i5": {
+   "arquivo": "",
+   "rotulo": "Manutenção da via",
+   "commons": "Shinkansen maintenance night track inspection",
+   "semFoto": true
+  },
+  "j1": {
+   "arquivo": "imagens/j1-2cb60267.jpg",
+   "rotulo": "Estação de Mishima",
+   "commons": "Mishima Station Shizuoka Shinkansen",
+   "autor": "DimiTalen",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Platform_at_Mishima_Station,_with_arriving_T%C5%8Dkaid%C5%8D_Shinkansen_train,_Mishima,_2016.jpg",
+   "titulo": "File:Platform at Mishima Station, with arriving Tōkaidō Shinkansen train, Mishima, 2016.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 1,
+   "foco": {
+    "x": 37.6,
+    "y": 29.6
+   },
+   "borrada": "imagens/j1-2cb60267-b.jpg"
+  },
+  "j2": {
+   "arquivo": "",
+   "rotulo": "Portas de um Shinkansen",
+   "commons": "Shinkansen N700 train door platform",
+   "semFoto": true
+  },
+  "j3": {
+   "arquivo": "",
+   "rotulo": "Plataforma em Odawara",
+   "commons": "Odawara Station Shinkansen platform",
+   "semFoto": true
+  },
+  "j4": {
+   "arquivo": "imagens/j4-783fb033.jpg",
+   "rotulo": "Interior de um Shinkansen",
+   "commons": "Shinkansen N700 interior seats",
+   "autor": "衛兵隊衛士",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700_series_Green_seat.JPG",
+   "titulo": "File:Shinkansen N700 series Green seat.JPG",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 2,
+   "foco": {
+    "x": 49.3,
+    "y": 74.2
+   },
+   "borrada": "imagens/j4-783fb033-b.jpg"
+  },
+  "j5": {
+   "arquivo": "imagens/j5-245939e2.jpg",
+   "rotulo": "Tokaido Shinkansen",
+   "commons": "Tokaido Shinkansen train Shizuoka",
+   "autor": "MaedaAkihiko",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tokaido-Shinkansen_N700S_Kikugawa.jpg",
+   "titulo": "File:Tokaido-Shinkansen N700S Kikugawa.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 48.1,
+    "y": 63.3
+   },
+   "borrada": "imagens/j5-245939e2-b.jpg"
+  },
+  "k1": {
+   "arquivo": "imagens/k1-d0a89d49.jpg",
+   "rotulo": "Equipe na plataforma",
+   "commons": "Shinkansen conductor bowing platform Japan",
+   "autor": "RachelH_",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shinkansen_conductor_(22419675071).jpg",
+   "titulo": "File:Shinkansen conductor (22419675071).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 53.9,
+    "y": 20
+   },
+   "borrada": "imagens/k1-d0a89d49-b.jpg"
+  },
+  "k2": {
+   "arquivo": "imagens/k2-dca67729.jpg",
+   "rotulo": "N700S",
+   "commons": "N700S Shinkansen Tokaido",
+   "autor": "MaedaAkihiko",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Series-N700S-J2.jpg",
+   "titulo": "File:Series-N700S-J2.jpg",
+   "largura": 1920,
+   "altura": 1281,
+   "rostos": 0,
+   "foco": {
+    "x": 56.8,
+    "y": 60.2
+   },
+   "borrada": "imagens/k2-dca67729-b.jpg"
+  },
+  "k3": {
+   "arquivo": "",
+   "rotulo": "Plataforma lotada",
+   "commons": "Tokyo Station Shinkansen platform crowd",
+   "semFoto": true
+  },
+  "k4": {
+   "arquivo": "",
+   "rotulo": "Despedida da Série 0, 2008",
+   "commons": "0 Series Shinkansen Hikari farewell 2008 Shin-Osaka",
+   "semFoto": true
+  },
+  "k5": {
+   "arquivo": "imagens/k5-ece793cd.jpg",
+   "rotulo": "Tóquio à noite",
+   "commons": "Shinkansen Tokyo Station night",
+   "autor": "るーと16",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Japan_Tohoku_Shinkansen_E2series_at_Tokyo_station.jpg",
+   "titulo": "File:Japan Tohoku Shinkansen E2series at Tokyo station.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 35.3,
+    "y": 26.7
+   },
+   "borrada": "imagens/k5-ece793cd-b.jpg"
+  },
+  "e6": {
+   "arquivo": "imagens/e6-568c967b.jpg",
+   "rotulo": "Partida em Tóquio",
+   "commons": "Shinkansen Tokyo Station platform departure",
+   "autor": "Bistrosavage",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://www.flickr.com/photos/16533652@N00/121961325",
+   "titulo": "Shinkansen",
+   "largura": 1024,
+   "altura": 683,
+   "rostos": 0,
+   "foco": {
+    "x": 26.8,
+    "y": 70.3
+   },
+   "borrada": "imagens/e6-568c967b-b.jpg"
+  },
+  "f6": {
+   "arquivo": "imagens/f6-eeb028af.jpg",
+   "rotulo": "Litoral do Pacífico",
+   "commons": "Tohoku Shinkansen coast Pacific Ocean Japan",
+   "autor": "Nanashinodensyaku",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shinkansen,_the_Hayabusa_and_the_Super-Komachi_super_express.jpg",
+   "titulo": "File:Shinkansen, the Hayabusa and the Super-Komachi super express.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 39.0,
+    "y": 29.0
+   },
+   "borrada": "imagens/f6-eeb028af-b.jpg"
+  },
+  "h6": {
+   "arquivo": "",
+   "rotulo": "Tohoku Shinkansen",
+   "commons": "Tohoku Shinkansen E5 series Fukushima",
+   "semFoto": true
+  },
+  "j6": {
+   "arquivo": "imagens/j6-41d5bc3c.jpg",
+   "rotulo": "Shin-Yokohama",
+   "commons": "Shin-Yokohama Station platform",
+   "autor": "Suikotei",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shin-Yokohama_Station_(Shin-Yokohama_Line)_Platform_20240406_02.jpg",
+   "titulo": "File:Shin-Yokohama Station (Shin-Yokohama Line) Platform 20240406 02.jpg",
+   "largura": 1920,
+   "altura": 1442,
+   "rostos": 0,
+   "foco": {
+    "x": 45.2,
+    "y": 62.4
+   },
+   "borrada": "imagens/j6-41d5bc3c-b.jpg"
+  },
+  "l1": {
+   "arquivo": "imagens/l1-75508444.jpg",
+   "rotulo": "Shinkansen e o Fuji",
+   "commons": "Shinkansen Mount Fuji Shizuoka",
+   "autor": "Takeshi Aida",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700S_series_photographed_at_Higashi-Tagonoura_with_Mount_Fuji_in_the_background,_10_April_2023.jpg",
+   "titulo": "File:Shinkansen N700S series photographed at Higashi-Tagonoura with Mount Fuji in the background, 10 April 2023.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 46.0,
+    "y": 66.3
+   },
+   "borrada": "imagens/l1-75508444-b.jpg"
+  },
+  "l2": {
+   "arquivo": "",
+   "rotulo": "Shinkansen à noite",
+   "commons": "Shinkansen at night Tokyo skyline",
+   "semFoto": true
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-07T16:16:17.154Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +7109,74 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "JR East — Report on Niigata Chuetsu Earthquake (relatório anual 2005)",
+   "url": "https://www.jreast.co.jp/e/investor/ar/2005/pdf/ar2005_17.pdf"
+  },
+  {
+   "titulo": "JR East — relatório anual 2011 (terremoto de Tohoku e sismômetros)",
+   "url": "https://www.jreast.co.jp/e/investor/ar/2011/pdf/ar_2011_08.pdf"
+  },
+  {
+   "titulo": "JR Central — Shinkansen (dados e pontualidade)",
+   "url": "https://global.jr-central.co.jp/en/company/about_shinkansen"
+  },
+  {
+   "titulo": "nippon.com — Tokaido Shinkansen: segurança, pontualidade e frequência",
+   "url": "https://www.nippon.com/en/features/h00201/"
+  },
+  {
+   "titulo": "Japan Transport Safety Board — relatório do incidente grave do Nozomi 34 (2017)",
+   "url": "https://jtsb.mlit.go.jp/eng-rail_report/English/RI2019-1-1e.pdf"
+  },
+  {
+   "titulo": "Wikipédia — Mishima Station incident (1995)",
+   "url": "https://en.wikipedia.org/wiki/Mishima_Station_incident"
+  },
+  {
+   "titulo": "BBC — Deadly stabbing on Japan bullet train (2018)",
+   "url": "https://bbc.in/2JmmHxQ"
+  },
+  {
+   "titulo": "Japan Times — Step up train security (2015)",
+   "url": "https://japantimes.co.jp/opinion/2015/07/02/editorials/step-train-security"
+  },
+  {
+   "titulo": "Highspeed Rail — The Shinkansen's legendary operation and safety record",
+   "url": "https://www.hsrail.org/?p=14984"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "O trem-bala japonês nunca matou ninguém? A verdade",
+   "Shinkansen: o recorde de segurança que quase ninguém explica direito",
+   "Como o Japão sente um terremoto antes de ele chegar ao trem"
+  ],
+  "descricao": "O Shinkansen é famoso por nunca ter matado um passageiro. Neste vídeo conferimos a afirmação com fontes: como o trem nasceu em 1964, como o controle automático e a detecção de terremotos funcionam, os dias em que o recorde foi testado (2004, 2011, 2017) e o que a frase esconde.\n\n0:00 A frase que todo mundo repete\n0:50 O que o recorde realmente diz\n1:30 Tóquio–Osaka, 1964\n2:20 Controle automático\n3:30 Terremotos: a detecção antecipada\n4:40 Toki 325, 2004\n5:30 2011 e 2022\n6:10 Trem 34, 2017\n6:50 A pegadinha da frase\n7:30 Veredito\n\nFontes: JR East (relatório anual 2005, Chuetsu); JR East (sismômetros e terremoto de 2011); JR Central (dados da Tokaido Shinkansen); Conselho de Segurança nos Transportes do Japão (incidente de 2017); Wikipédia (incidente da estação de Mishima, 1995); BBC e Japan Times (ataques de 2015 e 2018). Os créditos das fotos aparecem no vídeo.",
+  "tags": [
+   "shinkansen",
+   "trem-bala",
+   "japão",
+   "ferrovia",
+   "alta velocidade",
+   "terremoto",
+   "segurança",
+   "engenharia",
+   "tecnologia",
+   "documentário",
+   "história",
+   "tóquio"
+  ]
  }
 }

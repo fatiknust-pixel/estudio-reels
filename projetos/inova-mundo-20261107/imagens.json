@@ -1,0 +1,77 @@
+{
+  "a1": { "wiki": "Shinkansen Série 0", "commons": "Shinkansen 0 Series Tokaido Shinkansen", "rotulo": "Shinkansen Série 0" },
+  "a2": { "commons": "Tokyo Station Marunouchi side building", "rotulo": "Estação de Tóquio" },
+  "a3": { "commons": "Shin-Osaka Station Shinkansen platform", "rotulo": "Shin-Osaka" },
+  "a4": { "commons": "Shinkansen platform passengers Tokyo Station", "rotulo": "Plataforma em Tóquio" },
+  "a5": { "commons": "N700 Series Shinkansen Mount Fuji", "rotulo": "N700 e o Monte Fuji" },
+
+  "b1": { "commons": "Tokaido Shinkansen route map", "rotulo": "Linha Tokaido" },
+  "b2": { "wiki": "Hideo Shima", "commons": "Hideo Shima engineer", "rotulo": "Hideo Shima" },
+  "b3": { "commons": "Seismograph earthquake recording drum", "rotulo": "Sismógrafo" },
+  "b4": { "commons": "JR Central Towers Nagoya Station", "rotulo": "Sede da JR Central" },
+  "b5": { "commons": "E5 Series Shinkansen Hayabusa Tohoku", "rotulo": "Série E5" },
+
+  "c1": { "commons": "Tokyo 1950s postwar street Ginza", "rotulo": "Tóquio nos anos 1950" },
+  "c2": { "wiki": "Shinji Sogo", "commons": "Shinji Sogo Japanese National Railways president", "rotulo": "Shinji Sogō" },
+  "c3": { "commons": "Hideo Shima Shinkansen chief engineer portrait", "rotulo": "Hideo Shima, engenheiro-chefe" },
+  "c4": { "commons": "1964 Summer Olympics Tokyo opening ceremony National Stadium", "rotulo": "Olimpíadas de Tóquio, 1964" },
+  "c5": { "commons": "Hikari 0 Series Shinkansen 1964 Tokyo", "rotulo": "Hikari, 1964" },
+  "c6": { "commons": "Odawara Station Tokaido Shinkansen", "rotulo": "Estação de Odawara" },
+
+  "d1": { "commons": "Shinkansen elevated viaduct", "rotulo": "Viaduto elevado" },
+  "d2": { "commons": "Shinkansen slab track", "rotulo": "Via sobre laje" },
+  "d3": { "commons": "Shinkansen driver cab", "rotulo": "Cabine do maquinista" },
+  "d4": { "commons": "Shinkansen line fence track Japan", "rotulo": "Via exclusiva" },
+  "d5": { "commons": "Shin-Yokohama Station Shinkansen", "rotulo": "Shin-Yokohama" },
+
+  "e1": { "commons": "Shinkansen Operation Control Center Tokyo", "rotulo": "Centro de controle" },
+  "e2": { "commons": "Shinkansen cab ATC speed indicator", "rotulo": "Painel de velocidade" },
+  "e3": { "commons": "Shinkansen driver conductor Japan", "rotulo": "Maquinista" },
+  "e4": { "commons": "Shinkansen Nagoya Station train passing", "rotulo": "Nagoya" },
+  "e5": { "commons": "N700 Series Shinkansen Hikari", "rotulo": "N700 Hikari" },
+
+  "f1": { "commons": "Seismometer", "rotulo": "Sismômetro" },
+  "f2": { "commons": "P-wave S-wave seismic waves diagram", "rotulo": "Ondas P e S" },
+  "f3": { "commons": "Japan tectonic plates map Pacific Ring of Fire", "rotulo": "Placas tectônicas do Japão" },
+  "f4": { "commons": "Shinkansen overhead catenary pantograph", "rotulo": "Rede aérea" },
+  "f5": { "commons": "E2 Series Shinkansen Tohoku", "rotulo": "Série E2" },
+
+  "g1": { "commons": "2004 Chuetsu earthquake damage Nagaoka", "rotulo": "Terremoto de Chuetsu, 2004" },
+  "g2": { "commons": "200 Series Shinkansen Joetsu Toki", "rotulo": "Série 200, Joetsu" },
+  "g3": { "commons": "Niigata Prefecture map", "rotulo": "Província de Niigata" },
+  "g4": { "commons": "2004 Chuetsu earthquake Joetsu Shinkansen derailment Toki 325", "rotulo": "Toki 325 descarrilado" },
+  "g5": { "commons": "Nagaoka Station Niigata", "rotulo": "Estação de Nagaoka" },
+  "g6": { "commons": "Joetsu Shinkansen E2 Series Nagaoka", "rotulo": "Joetsu Shinkansen" },
+
+  "h1": { "wiki": "Sismo e tsunami de Tohoku em 2011", "commons": "2011 Tohoku earthquake tsunami Sendai damage", "rotulo": "Tohoku, 2011" },
+  "h2": { "commons": "Tohoku Shinkansen viaduct damage 2011 earthquake", "rotulo": "Viaduto danificado em 2011" },
+  "h3": { "commons": "Sendai Station Shinkansen", "rotulo": "Estação de Sendai" },
+  "h4": { "commons": "2022 Fukushima earthquake Tohoku Shinkansen derailment", "rotulo": "Descarrilamento em 2022" },
+  "h5": { "commons": "E5 Series Shinkansen Sendai", "rotulo": "Série E5 em Sendai" },
+
+  "i1": { "commons": "N700 Series Shinkansen Hakata Station", "rotulo": "Hakata" },
+  "i2": { "commons": "Nagoya Station Shinkansen platform", "rotulo": "Estação de Nagoya" },
+  "i3": { "commons": "Shinkansen bogie N700 truck underside", "rotulo": "Truque do N700" },
+  "i4": { "commons": "Shinkansen train inspection maintenance depot", "rotulo": "Inspeção de manutenção" },
+  "i5": { "commons": "Shinkansen maintenance night track inspection", "rotulo": "Manutenção da via" },
+
+  "j1": { "commons": "Mishima Station Shizuoka Shinkansen", "rotulo": "Estação de Mishima" },
+  "j2": { "commons": "Shinkansen N700 train door platform", "rotulo": "Portas de um Shinkansen" },
+  "j3": { "commons": "Odawara Station Shinkansen platform", "rotulo": "Plataforma em Odawara" },
+  "j4": { "commons": "Shinkansen N700 interior seats", "rotulo": "Interior de um Shinkansen" },
+  "j5": { "commons": "Tokaido Shinkansen train Shizuoka", "rotulo": "Tokaido Shinkansen" },
+
+  "k1": { "commons": "Shinkansen conductor bowing platform Japan", "rotulo": "Equipe na plataforma" },
+  "k2": { "commons": "N700S Shinkansen Tokaido", "rotulo": "N700S" },
+  "k3": { "commons": "Tokyo Station Shinkansen platform crowd", "rotulo": "Plataforma lotada" },
+  "k4": { "commons": "0 Series Shinkansen Hikari farewell 2008 Shin-Osaka", "rotulo": "Despedida da Série 0, 2008" },
+  "k5": { "commons": "Shinkansen Tokyo Station night", "rotulo": "Tóquio à noite" },
+
+  "e6": { "commons": "Shinkansen Tokyo Station platform departure", "rotulo": "Partida em Tóquio" },
+  "f6": { "commons": "Tohoku Shinkansen coast Pacific Ocean Japan", "rotulo": "Litoral do Pacífico" },
+  "h6": { "commons": "Tohoku Shinkansen E5 series Fukushima", "rotulo": "Tohoku Shinkansen" },
+  "j6": { "commons": "Shin-Yokohama Station platform", "rotulo": "Shin-Yokohama" },
+
+  "l1": { "commons": "Shinkansen Mount Fuji Shizuoka", "rotulo": "Shinkansen e o Fuji" },
+  "l2": { "commons": "Shinkansen at night Tokyo skyline", "rotulo": "Shinkansen à noite" }
+}
