@@ -128,7 +128,9 @@
   {
    "titulo": "A estação espacial vs. uma cidade: quem gasta mais?",
    "angulo": "Comparação de custo, energia, água e reciclagem entre a ISS e uma cidade pequena. Usa analogias do dia a dia para mostrar como a vida em órbita é um problema de logística.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261108",
+   "em": "2026-11-08"
   },
   {
    "titulo": "O mistério das pontes que caíram e ensinaram",
@@ -196,5 +198,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-07"
+ "ultimaGeracao": "2026-11-08"
 }
