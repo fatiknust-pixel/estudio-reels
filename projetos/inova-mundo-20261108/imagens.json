@@ -1,0 +1,85 @@
+{
+  "iss-voo": { "wiki": "Estação Espacial Internacional", "commons": "International Space Station STS-132 Atlantis undocking 2010", "rotulo": "Estação Espacial Internacional" },
+  "tripulacao-expedicao": { "commons": "Expedition 36 crew portrait International Space Station", "rotulo": "Tripulação da Expedição 36" },
+  "iss-construcao": { "commons": "ISS assembly spacewalk truss Canadarm2", "rotulo": "Montagem da estação em órbita" },
+  "cidade-pequena": { "commons": "Tiradentes Minas Gerais vista aérea", "rotulo": "Tiradentes (MG)" },
+
+  "cidade-rua": { "commons": "Paraty Rua do Comércio centro histórico", "rotulo": "Paraty (RJ)" },
+  "paineis-solares": { "commons": "ISS solar array wing close up", "rotulo": "Painéis solares da ISS" },
+  "eta-agua": { "commons": "Estação de Tratamento de Água Guandu Rio de Janeiro", "rotulo": "Estação de tratamento de água" },
+  "aterro": { "commons": "Aterro sanitário Bandeirantes São Paulo", "rotulo": "Aterro sanitário" },
+
+  "iss-completa-2011": { "commons": "ISS after STS-134 undocking May 2011 Endeavour", "rotulo": "ISS em 2011" },
+  "zarya": { "commons": "Zarya module ISS FGB Russian", "rotulo": "Módulo Zarya" },
+  "expedicao-1": { "commons": "Expedition 1 crew Shepherd Gidzenko Krikalev", "rotulo": "Expedição 1 (2000)" },
+  "montagem-eva": { "commons": "STS-120 spacewalk Harmony node installation", "rotulo": "Caminhada espacial na montagem" },
+
+  "astronauta-iss": { "commons": "astronaut working inside Destiny laboratory ISS", "rotulo": "Astronauta no laboratório Destiny" },
+  "nasa-sede": { "commons": "NASA Headquarters Washington Mary W. Jackson building", "rotulo": "Sede da NASA" },
+  "soyuz-lancamento": { "commons": "Soyuz MS launch Baikonur Cosmodrome crew", "rotulo": "Lançamento de uma Soyuz" },
+  "dragon-lancamento": { "commons": "Crew Dragon Endeavour Falcon 9 launch Crew-1", "rotulo": "Lançamento da Crew Dragon" },
+
+  "comida-pacotes": { "commons": "astronaut meal ISS food packages", "rotulo": "Refeição na estação" },
+  "carga-bolsas": { "commons": "cargo transfer bags ISS Harmony module", "rotulo": "Carga armazenada na ISS" },
+  "htv-chegando": { "commons": "HTV Kounotori approaching ISS Canadarm2 capture", "rotulo": "Cargueiro japonês HTV" },
+  "canadarm-captura": { "commons": "Dragon cargo spacecraft captured by Canadarm2", "rotulo": "Dragon capturada pelo Canadarm2" },
+
+  "paineis-iss": { "commons": "International Space Station solar arrays Earth background", "rotulo": "Painéis solares sobre a Terra" },
+  "painel-detalhe": { "commons": "ISS iROSA roll-out solar array installation", "rotulo": "Novos painéis iROSA" },
+  "cidade-noite": { "commons": "Bonito Mato Grosso do Sul centro à noite", "rotulo": "Bonito (MS)" },
+  "laboratorio-destiny": { "commons": "Destiny laboratory interior ISS racks", "rotulo": "Laboratório Destiny" },
+
+  "nascer-sol-iss": { "commons": "sunrise from International Space Station orbit", "rotulo": "Nascer do sol visto da ISS" },
+  "iss-noite": { "commons": "Earth at night city lights from ISS", "rotulo": "Terra à noite vista da ISS" },
+  "bateria-litio": { "commons": "ISS lithium-ion battery spacewalk installation", "rotulo": "Troca de baterias na ISS" },
+  "radiadores-iss": { "commons": "ISS radiators thermal control system", "rotulo": "Radiadores da ISS" },
+
+  "eta-tratamento": { "commons": "Estação de Tratamento de Água Alto da Boa Vista São Paulo", "rotulo": "Tratamento de água em São Paulo" },
+  "agua-bolha": { "commons": "astronaut water bubble ISS Karen Nyberg", "rotulo": "Água em microgravidade" },
+  "wrs-rack": { "commons": "ISS Water Recovery System rack", "rotulo": "Sistema de recuperação de água" },
+  "wpa-agua": { "commons": "ISS Water Processor Assembly", "rotulo": "Processador de água da ISS" },
+
+  "oxigenio-ogs": { "commons": "Oxygen Generation System ISS rack", "rotulo": "Gerador de oxigênio" },
+  "co2-cdra": { "commons": "Carbon Dioxide Removal Assembly ISS", "rotulo": "Remoção de gás carbônico" },
+  "sabatier": { "commons": "Sabatier reactor ISS rack", "rotulo": "Reator Sabatier" },
+  "pecas-reposicao": { "commons": "ISS spare parts Orbital Replacement Unit", "rotulo": "Peças de reposição" },
+
+  "caminhao-lixo": { "commons": "caminhão de coleta de lixo Brasil", "rotulo": "Coleta de lixo" },
+  "lixo-iss": { "commons": "Cygnus trash disposal ISS astronaut", "rotulo": "Lixo guardado na ISS" },
+  "progress-saida": { "commons": "Progress cargo ship undocking from ISS", "rotulo": "Progress deixando a ISS" },
+  "atv-reentrada": { "commons": "ATV Jules Verne reentry atmosphere", "rotulo": "Reentrada de um cargueiro ATV" },
+
+  "harmony-interior": { "commons": "Harmony node interior ISS crew", "rotulo": "Interior do módulo Harmony" },
+  "tripulacao-grupo": { "commons": "Expedition 68 crew group photo ISS", "rotulo": "Tripulação da Expedição 68" },
+  "cupola-terra": { "commons": "Cupola window ISS astronaut Earth view", "rotulo": "Cúpula da ISS" },
+  "cabos-zvezda": { "commons": "Zvezda service module interior ISS", "rotulo": "Módulo Zvezda" },
+
+  "iss-airglow": { "commons": "ISS airglow Earth atmosphere limb", "rotulo": "Borda da atmosfera" },
+  "progress-reboost": { "commons": "Progress docked Zvezda ISS reboost", "rotulo": "Progress acoplada à ISS" },
+  "detritos-orbita": { "commons": "space debris Low Earth orbit NASA illustration", "rotulo": "Lixo espacial (ilustração NASA)" },
+  "caminhada-espacial": { "commons": "ISS spacewalk repair astronaut", "rotulo": "Caminhada espacial" },
+
+  "cygnus-chegada": { "commons": "Cygnus spacecraft approaching ISS", "rotulo": "Cygnus se aproximando da ISS" },
+  "antares-orb3": { "commons": "Antares Orb-3 launch failure October 2014", "rotulo": "Falha do Antares (2014)" },
+  "progress-m27m": { "commons": "Progress M-27M launch Soyuz-2.1a April 2015", "rotulo": "Lançamento da Progress M-27M" },
+  "spacex-crs7": { "commons": "SpaceX CRS-7 Falcon 9 launch failure June 2015", "rotulo": "Falha do Falcon 9 CRS-7" },
+
+  "astronauta-medico": { "commons": "astronaut ultrasound medical exam ISS", "rotulo": "Exame médico a bordo" },
+  "astronauta-reparo": { "commons": "astronaut plumbing repair ISS toilet", "rotulo": "Reparo a bordo" },
+  "controle-houston": { "commons": "Mission Control Center Houston ISS flight control room", "rotulo": "Controle de missão em Houston" },
+  "controle-moscou": { "commons": "Mission Control Center Moscow TsUP Korolyov", "rotulo": "Controle de missão em Moscou" },
+
+  "iss-aposentadoria": { "commons": "ISS flying over Earth 2021 Crew Dragon", "rotulo": "ISS em 2021" },
+  "us-deorbit": { "commons": "US Deorbit Vehicle SpaceX ISS concept", "rotulo": "Veículo de desorbitagem (conceito)" },
+  "ponto-nemo": { "commons": "Point Nemo spacecraft cemetery map South Pacific", "rotulo": "Ponto Nemo" },
+  "mir-1998": { "commons": "Mir space station STS-91 1998", "rotulo": "Estação Mir (1998)" },
+
+  "terra-brasil-noite": { "commons": "Brazil at night from ISS city lights", "rotulo": "Brasil à noite visto da ISS" },
+  "passeio-espacial-terra": { "commons": "astronaut spacewalk Earth background ISS", "rotulo": "Caminhada espacial" },
+  "bancada-experimentos": { "commons": "Microgravity Science Glovebox ISS experiment", "rotulo": "Experimento a bordo" },
+
+  "iss-sobre-terra": { "commons": "ISS Soyuz TMA-20M flyaround 2016", "rotulo": "ISS vista de uma Soyuz" },
+  "iss-final": { "commons": "ISS STS-132 flyaround Atlantis departure 2010 Earth", "rotulo": "ISS sobre a Terra" },
+  "campo-futebol": { "commons": "Maracanã vista aérea 2014", "rotulo": "Maracanã" },
+  "terra-planeta": { "wiki": "Terra", "commons": "The Blue Marble Apollo 17 Earth", "rotulo": "A Terra vista do espaço" }
+}

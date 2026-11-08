@@ -1,0 +1,196 @@
+{
+  "titulo": "A estação espacial vs. uma cidade: quem gasta mais?",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "publicacao": {
+    "titulos": [
+      "Estação espacial vs. cidade: quem gasta mais?",
+      "Por que viver em órbita é um problema de logística",
+      "Quanto custa manter sete pessoas no espaço?"
+    ],
+    "descricao": "Comparamos a Estação Espacial Internacional com uma cidade de dez mil habitantes em quatro contas: custo, energia, água e lixo. O vídeo mostra por que viver em órbita é menos um problema de foguete e mais um problema de logística. As contas da cidade são estimativas aproximadas feitas a partir de médias brasileiras.\n\n0:00 Gancho\n0:23 Quatro contas\n0:45 O preço da casa\n1:12 Quanto custa ficar\n1:42 Comida e carga\n2:12 Energia\n2:42 Noite e calor\n3:09 Água\n3:38 Ar\n4:07 Lixo\n4:33 Espaço\n4:59 Manutenção\n5:25 O estoque de 2015\n5:52 Quem cuida de tudo\n6:19 O fim da estação\n6:42 A conta final\n7:05 Fecho\n\nFontes: NASA (International Space Station, Office of Inspector General, notícia sobre 98% de recuperação de água, 2023), SNIS, Abrema. Créditos das imagens: Wikimedia Commons.",
+    "tags": ["estação espacial internacional", "ISS", "NASA", "vida no espaço", "logística", "reciclagem de água", "energia solar", "cidade", "tecnologia", "curiosidades", "documentário", "engenharia"]
+  },
+  "fontesPesquisa": [
+    { "titulo": "NASA — International Space Station", "url": "https://www.nasa.gov/international-space-station/" },
+    { "titulo": "NASA OIG — NASA's Management of the International Space Station (IG-14-031)", "url": "https://oig.nasa.gov/docs/IG-14-031.pdf" },
+    { "titulo": "NASA OIG — ISS transição para uso comercial (CT-18-001)", "url": "https://oig.nasa.gov/docs/CT-18-001.pdf" },
+    { "titulo": "Space.com — NASA reciclou 98% da água da ISS (2023)", "url": "https://space.com/astronaut-pee-iss-water-recycling-98-percent-milestone" },
+    { "titulo": "SNIS — Sistema Nacional de Informações sobre Saneamento", "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/snis" },
+    { "titulo": "Abrema — Panorama dos resíduos sólidos no Brasil", "url": "https://abrema.org.br/panorama/" }
+  ],
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "A quatrocentos quilômetros de altura, sete pessoas vivem numa casa que custou mais de cem bilhões de dólares. Ela não tem rua, não tem rio, não tem usina. E mesmo assim funciona como uma cidade. Hoje vamos comparar a Estação Espacial Internacional com uma cidade pequena, e descobrir quem gasta mais.",
+      "galeria": ["iss-voo", "tripulacao-expedicao", "iss-construcao", "cidade-pequena"],
+      "galeriaEm": [0, "sete", "custou", "Hoje"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 400, "unidade": "km", "rotulo": "altura da órbita", "em": "quatrocentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "quatro-contas",
+      "texto": "Vamos usar como régua uma cidade de dez mil habitantes. Quatro contas: o custo, a energia, a água e o lixo. No fim, você vai entender por que viver em órbita é menos um problema de foguete e mais um problema de logística. Mas antes, uma pergunta simples: o que exatamente a gente está comparando?",
+      "galeria": ["cidade-rua", "paineis-solares", "eta-agua", "aterro"],
+      "galeriaEm": [0, "energia", "água", "lixo"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUATRO CONTAS", "sub": "custo, energia, água e lixo", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "preco-da-casa",
+      "texto": "Comecemos pelo preço da casa. O primeiro módulo, o russo Zarya, subiu em novembro de 1998. A primeira tripulação chegou em novembro de 2000 e, desde então, nunca mais houve um dia sem gente a bordo. Montar tudo levou mais de uma década e dezenas de voos. A conta total passa de cem bilhões de dólares, repartida entre cinco agências espaciais.",
+      "galeria": ["iss-completa-2011", "zarya", "expedicao-1", "montagem-eva"],
+      "galeriaEm": [0, "Zarya", "primeira", "Montar"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O PREÇO DA CASA", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["1998", "Zarya"], ["2000", "1ª tripulação"], ["2011", "Montagem concluída"]], "em": "Zarya", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "custo-anual",
+      "texto": "Só que a conta não acaba na obra. Segundo o inspetor-geral da NASA, manter a estação funcionando custa entre três e quatro bilhões de dólares por ano. Perto de metade disso é só transporte: levar gente e carga até lá em cima. Em conta redonda, dá cerca de meio bilhão de dólares por astronauta, por ano. Nenhuma cidade pequena tem um orçamento perto desse.",
+      "galeria": ["astronauta-iss", "nasa-sede", "soyuz-lancamento", "dragon-lancamento"],
+      "galeriaEm": [0, "NASA", "transporte", "redonda"],
+      "fontes": ["NASA OIG IG-14-031", "NASA OIG CT-18-001"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUANTO CUSTA FICAR", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 500, "unidade": "milhões de US$", "rotulo": "por astronauta, por ano (conta aproximada)", "em": "astronauta", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "comida-e-carga",
+      "texto": "E há a comida. Tudo o que a tripulação come vem da Terra, em pacotes, junto com roupas, peças, experimentos e ferramentas. Cada quilo que sobe custa vários milhares de dólares, e o espaço dentro dos cargueiros é limitado. Por isso, a estação não tem supermercado nem estoque infinito. É como uma cidade onde a única estrada de entrada é um foguete, e ela só abre de tempos em tempos.",
+      "galeria": ["comida-pacotes", "carga-bolsas", "htv-chegando", "canadarm-captura"],
+      "galeriaEm": [0, "roupas", "cargueiros", "estrada"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "COMIDA E CARGA", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "energia",
+      "texto": "Agora, a energia. A estação tem painéis solares que geram entre setenta e cinco e noventa quilowatts, segundo a NASA. Uma cidade de dez mil habitantes, só nas casas e com consumo brasileiro típico, usa algo perto de setecentos quilowatts. No total, a cidade ganha. Mas por pessoa, o jogo vira: mais de dez quilowatts por astronauta, contra algumas dezenas de watts por morador. Em órbita, até a luz tem preço.",
+      "galeria": ["paineis-iss", "painel-detalhe", "cidade-noite", "laboratorio-destiny"],
+      "galeriaEm": [0, "setenta", "cidade", "astronauta"],
+      "fontes": ["NASA", "cálculo aproximado"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ENERGIA", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 12, "unidade": "kW", "rotulo": "por astronauta (aprox.)", "em": "Mas", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "noite-e-calor",
+      "texto": "Tem um detalhe. A estação dá a volta na Terra a cada uns noventa minutos, então são cerca de dezesseis nascer do sol por dia. Na sombra, as baterias de lítio seguram a energia. E tem o calor: no vácuo não existe ar para levar embora o calor dos equipamentos. Por isso circuitos de amônia levam esse calor até grandes radiadores, que o jogam para o espaço.",
+      "galeria": ["nascer-sol-iss", "iss-noite", "bateria-litio", "radiadores-iss"],
+      "galeriaEm": [0, "sombra", "baterias", "amônia"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "NOITE E CALOR", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "agua",
+      "texto": "Agora a água. Um brasileiro consome perto de cento e cinquenta litros por dia, segundo o SNIS, o sistema nacional de saneamento. Na estação, cada gota conta, porque levar um litro da Terra exige foguete. Então tudo é reaproveitado: a água do banho, do suor, da respiração e da urina. Em 2023, a NASA anunciou que o sistema recupera noventa e oito por cento.",
+      "galeria": ["eta-tratamento", "agua-bolha", "wrs-rack", "wpa-agua"],
+      "galeriaEm": [0, "gota", "reaproveitado", "2023"],
+      "fontes": ["NASA 2023", "SNIS"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ÁGUA", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 98, "unidade": "%", "rotulo": "da água recuperada na ISS (2023)", "em": "noventa", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "ar",
+      "texto": "Do mesmo ciclo vem o ar. A estação separa a água por eletrólise, e o oxigênio vai para a cabine. O gás carbônico que a tripulação expira é capturado, e parte dele reage com hidrogênio para virar água de novo. Um ciclo quase fechado. Mas quase não é totalmente: há perdas, filtros que se esgotam, e peças que precisam ser trocadas por outras, que vieram da Terra.",
+      "galeria": ["oxigenio-ogs", "co2-cdra", "sabatier", "pecas-reposicao"],
+      "galeriaEm": [0, "capturado", "reage", "peças"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O AR QUE SE RECICLA", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "lixo",
+      "texto": "Resta o lixo. Uma cidade como a nossa produz cerca de um quilo de lixo por pessoa por dia, e um caminhão leva embora. Na estação, ele fica a bordo, compactado e guardado em cargueiros que já cumpriram sua missão. Quando se despedem, eles entram na atmosfera e queimam, junto com tudo o que estava dentro. É o único aterro possível: o céu.",
+      "galeria": ["caminhao-lixo", "lixo-iss", "progress-saida", "atv-reentrada"],
+      "galeriaEm": [0, "estação", "cargueiros", "queimam"],
+      "fontes": ["Abrema", "NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O LIXO", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "espaco",
+      "texto": "Quanto espaço cabe? A parte pressurizada, onde se pode viver, tem cerca de trezentos e oitenta e oito metros cúbicos, segundo a NASA. Parece uma casa grande, mas lembre: é para sete pessoas, sem quintal, sem janela para a rua e sem céu azul. A estação pesa cerca de quatrocentas e vinte toneladas, e o interior é cheio de cabos, equipamentos e experimentos.",
+      "galeria": ["harmony-interior", "tripulacao-grupo", "cupola-terra", "cabos-zvezda"],
+      "galeriaEm": [0, "sete", "janela", "cabos"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUANTO ESPAÇO CABE", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 388, "unidade": "m³", "rotulo": "volume habitável", "em": "trezentos", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "manutencao",
+      "texto": "E tem a manutenção. A estação fica na borda da atmosfera, onde ainda existe um pouquinho de ar, que vai freando e fazendo ela perder altitude. De tempos em tempos, motores de cargueiros empurram o conjunto de volta para cima. Também é preciso desviar de lixo espacial, e consertar o que quebra durante caminhadas espaciais, com ferramentas que ninguém encontra na loja da esquina.",
+      "galeria": ["iss-airglow", "progress-reboost", "detritos-orbita", "caminhada-espacial"],
+      "galeriaEm": [0, "motores", "lixo", "caminhadas"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "MANUTENÇÃO", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "estoque-2015",
+      "texto": "E se a entrega falhar? Em uma cidade, o caminhão atrasa um dia. Na estação, em outubro de 2014, um foguete Antares explodiu logo após a decolagem. Em abril de 2015, uma Progress russa saiu de controle. Em junho, um Falcon 9 se desintegrou no ar. Três cargueiros perdidos em oito meses. A estação tinha estoque para alguns meses, mas a margem foi apertando.",
+      "galeria": ["cygnus-chegada", "antares-orb3", "progress-m27m", "spacex-crs7"],
+      "galeriaEm": [0, "outubro", "abril", "junho"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O ESTOQUE DE 2015", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["out 2014", "Antares"], ["abr 2015", "Progress"], ["jun 2015", "Falcon 9"]], "em": "outubro", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "quem-cuida",
+      "texto": "E quem cuida de tudo isso? Numa cidade de dez mil pessoas há médico, padeiro, eletricista e encanador. Na estação são sete, e cada um precisa saber um pouco de tudo, de primeiros socorros a hidráulica. Atrás deles, equipes de controle em Houston e Moscou trabalham vinte e quatro horas por dia, acompanhando cada válvula, cada temperatura e cada segundo da órbita.",
+      "galeria": ["astronauta-medico", "astronauta-reparo", "controle-houston", "controle-moscou"],
+      "galeriaEm": [0, "hidráulica", "Houston", "Moscou"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "QUEM CUIDA DE TUDO", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "fim-da-estacao",
+      "texto": "O que acontece quando a casa fica velha? A NASA planeja aposentar a estação por volta de 2030. Em 2024, contratou a SpaceX para construir um veículo que vai empurrá-la, de forma controlada, até o Oceano Pacífico Sul, o mesmo destino da estação russa Mir, em 2001. O contrato passa de oitocentos milhões de dólares. Tirar a cidade do ar também tem preço.",
+      "galeria": ["iss-aposentadoria", "us-deorbit", "ponto-nemo", "mir-1998"],
+      "galeriaEm": [0, "SpaceX", "Oceano", "Mir"],
+      "fontes": ["NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O FIM DA ESTAÇÃO", "em": 0, "posicao": "topo" },
+        { "tipo": "linha", "itens": [["2024", "Contrato com a SpaceX"], ["2030", "Fim previsto"]], "em": "Em", "posicao": "meio" }
+      ]
+    },
+    {
+      "id": "conta-final",
+      "texto": "Então, quem gasta mais? Em dinheiro, energia por pessoa e logística, a estação gasta incomparavelmente mais. Só que lá nada se joga fora: cada litro, cada watt e cada parafuso é contado. A cidade pode se dar ao luxo de desperdiçar. A estação nunca pôde. E talvez essa seja a maior lição de viver tão longe.",
+      "galeria": ["terra-brasil-noite", "passeio-espacial-terra", "bancada-experimentos", "iss-sobre-terra"],
+      "galeriaEm": [0, "energia", "nada", "luxo"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A CONTA FINAL", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "Quatrocentos quilômetros acima das nossas cidades, uma casa do tamanho de um campo de futebol aprende, dia após dia, o que significa não desperdiçar nada. Talvez a Terra também precise dessa lição.",
+      "galeria": ["iss-final", "campo-futebol", "terra-planeta"],
+      "galeriaEm": [0, "campo", "Terra"],
+      "elementos": []
+    }
+  ]
+}

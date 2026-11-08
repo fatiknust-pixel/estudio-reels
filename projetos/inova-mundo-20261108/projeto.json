@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-08T16:36:31.829Z",
- "atualizadoEm": "2026-11-08T16:36:31.829Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-08T16:47:41Z",
+ "status": "pronto",
  "pedido": {
   "tema": "A estação espacial vs. uma cidade: quem gasta mais? — ângulo: Comparação de custo, energia, água e reciclagem entre a ISS e uma cidade pequena. Usa analogias do dia a dia para mostrar como a vida em órbita é um problema de logística.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,6776 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "A quatrocentos quilômetros de altura, sete pessoas vivem numa casa que custou mais de cem bilhões de dólares. Ela não tem rua, não tem rio, não tem usina. E mesmo assim funciona como uma cidade. Hoje vamos comparar a Estação Espacial Internacional com uma cidade pequena, e descobrir quem gasta mais.",
+   "galeria": [
+    "iss-voo",
+    "tripulacao-expedicao",
+    "iss-construcao",
+    "cidade-pequena"
+   ],
+   "galeriaEm": [
+    0,
+    "sete",
+    "custou",
+    "Hoje"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 400,
+     "unidade": "km",
+     "rotulo": "altura da órbita",
+     "em": "quatrocentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "quatro-contas",
+   "texto": "Vamos usar como régua uma cidade de dez mil habitantes. Quatro contas: o custo, a energia, a água e o lixo. No fim, você vai entender por que viver em órbita é menos um problema de foguete e mais um problema de logística. Mas antes, uma pergunta simples: o que exatamente a gente está comparando?",
+   "galeria": [
+    "cidade-rua",
+    "paineis-solares",
+    "eta-agua",
+    "aterro"
+   ],
+   "galeriaEm": [
+    0,
+    "energia",
+    "água",
+    "lixo"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUATRO CONTAS",
+     "sub": "custo, energia, água e lixo",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "preco-da-casa",
+   "texto": "Comecemos pelo preço da casa. O primeiro módulo, o russo Zarya, subiu em novembro de 1998. A primeira tripulação chegou em novembro de 2000 e, desde então, nunca mais houve um dia sem gente a bordo. Montar tudo levou mais de uma década e dezenas de voos. A conta total passa de cem bilhões de dólares, repartida entre cinco agências espaciais.",
+   "galeria": [
+    "iss-completa-2011",
+    "zarya",
+    "expedicao-1",
+    "montagem-eva"
+   ],
+   "galeriaEm": [
+    0,
+    "Zarya",
+    "primeira",
+    "Montar"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O PREÇO DA CASA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1998",
+       "Zarya"
+      ],
+      [
+       "2000",
+       "1ª tripulação"
+      ],
+      [
+       "2011",
+       "Montagem concluída"
+      ]
+     ],
+     "em": "Zarya",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "custo-anual",
+   "texto": "Só que a conta não acaba na obra. Segundo o inspetor-geral da NASA, manter a estação funcionando custa entre três e quatro bilhões de dólares por ano. Perto de metade disso é só transporte: levar gente e carga até lá em cima. Em conta redonda, dá cerca de meio bilhão de dólares por astronauta, por ano. Nenhuma cidade pequena tem um orçamento perto desse.",
+   "galeria": [
+    "astronauta-iss",
+    "nasa-sede",
+    "soyuz-lancamento",
+    "dragon-lancamento"
+   ],
+   "galeriaEm": [
+    0,
+    "NASA",
+    "transporte",
+    "redonda"
+   ],
+   "fontes": [
+    "NASA OIG IG-14-031",
+    "NASA OIG CT-18-001"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUANTO CUSTA FICAR",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 500,
+     "unidade": "milhões de US$",
+     "rotulo": "por astronauta, por ano (conta aproximada)",
+     "em": "astronauta",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "comida-e-carga",
+   "texto": "E há a comida. Tudo o que a tripulação come vem da Terra, em pacotes, junto com roupas, peças, experimentos e ferramentas. Cada quilo que sobe custa vários milhares de dólares, e o espaço dentro dos cargueiros é limitado. Por isso, a estação não tem supermercado nem estoque infinito. É como uma cidade onde a única estrada de entrada é um foguete, e ela só abre de tempos em tempos.",
+   "galeria": [
+    "comida-pacotes",
+    "carga-bolsas",
+    "htv-chegando",
+    "canadarm-captura"
+   ],
+   "galeriaEm": [
+    0,
+    "roupas",
+    "cargueiros",
+    "estrada"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "COMIDA E CARGA",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "energia",
+   "texto": "Agora, a energia. A estação tem painéis solares que geram entre setenta e cinco e noventa quilowatts, segundo a NASA. Uma cidade de dez mil habitantes, só nas casas e com consumo brasileiro típico, usa algo perto de setecentos quilowatts. No total, a cidade ganha. Mas por pessoa, o jogo vira: mais de dez quilowatts por astronauta, contra algumas dezenas de watts por morador. Em órbita, até a luz tem preço.",
+   "galeria": [
+    "paineis-iss",
+    "painel-detalhe",
+    "cidade-noite",
+    "laboratorio-destiny"
+   ],
+   "galeriaEm": [
+    0,
+    "setenta",
+    "cidade",
+    "astronauta"
+   ],
+   "fontes": [
+    "NASA",
+    "cálculo aproximado"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ENERGIA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 12,
+     "unidade": "kW",
+     "rotulo": "por astronauta (aprox.)",
+     "em": "Mas",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "noite-e-calor",
+   "texto": "Tem um detalhe. A estação dá a volta na Terra a cada uns noventa minutos, então são cerca de dezesseis nascer do sol por dia. Na sombra, as baterias de lítio seguram a energia. E tem o calor: no vácuo não existe ar para levar embora o calor dos equipamentos. Por isso circuitos de amônia levam esse calor até grandes radiadores, que o jogam para o espaço.",
+   "galeria": [
+    "nascer-sol-iss",
+    "iss-noite",
+    "bateria-litio",
+    "radiadores-iss"
+   ],
+   "galeriaEm": [
+    0,
+    "sombra",
+    "baterias",
+    "amônia"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "NOITE E CALOR",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "agua",
+   "texto": "Agora a água. Um brasileiro consome perto de cento e cinquenta litros por dia, segundo o SNIS, o sistema nacional de saneamento. Na estação, cada gota conta, porque levar um litro da Terra exige foguete. Então tudo é reaproveitado: a água do banho, do suor, da respiração e da urina. Em 2023, a NASA anunciou que o sistema recupera noventa e oito por cento.",
+   "galeria": [
+    "eta-tratamento",
+    "agua-bolha",
+    "wrs-rack",
+    "wpa-agua"
+   ],
+   "galeriaEm": [
+    0,
+    "gota",
+    "reaproveitado",
+    "2023"
+   ],
+   "fontes": [
+    "NASA 2023",
+    "SNIS"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ÁGUA",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 98,
+     "unidade": "%",
+     "rotulo": "da água recuperada na ISS (2023)",
+     "em": "noventa",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "ar",
+   "texto": "Do mesmo ciclo vem o ar. A estação separa a água por eletrólise, e o oxigênio vai para a cabine. O gás carbônico que a tripulação expira é capturado, e parte dele reage com hidrogênio para virar água de novo. Um ciclo quase fechado. Mas quase não é totalmente: há perdas, filtros que se esgotam, e peças que precisam ser trocadas por outras, que vieram da Terra.",
+   "galeria": [
+    "oxigenio-ogs",
+    "co2-cdra",
+    "sabatier",
+    "pecas-reposicao"
+   ],
+   "galeriaEm": [
+    0,
+    "capturado",
+    "reage",
+    "peças"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O AR QUE SE RECICLA",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "lixo",
+   "texto": "Resta o lixo. Uma cidade como a nossa produz cerca de um quilo de lixo por pessoa por dia, e um caminhão leva embora. Na estação, ele fica a bordo, compactado e guardado em cargueiros que já cumpriram sua missão. Quando se despedem, eles entram na atmosfera e queimam, junto com tudo o que estava dentro. É o único aterro possível: o céu.",
+   "galeria": [
+    "caminhao-lixo",
+    "lixo-iss",
+    "progress-saida",
+    "atv-reentrada"
+   ],
+   "galeriaEm": [
+    0,
+    "estação",
+    "cargueiros",
+    "queimam"
+   ],
+   "fontes": [
+    "Abrema",
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O LIXO",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "espaco",
+   "texto": "Quanto espaço cabe? A parte pressurizada, onde se pode viver, tem cerca de trezentos e oitenta e oito metros cúbicos, segundo a NASA. Parece uma casa grande, mas lembre: é para sete pessoas, sem quintal, sem janela para a rua e sem céu azul. A estação pesa cerca de quatrocentas e vinte toneladas, e o interior é cheio de cabos, equipamentos e experimentos.",
+   "galeria": [
+    "harmony-interior",
+    "tripulacao-grupo",
+    "cupola-terra",
+    "cabos-zvezda"
+   ],
+   "galeriaEm": [
+    0,
+    "sete",
+    "janela",
+    "cabos"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUANTO ESPAÇO CABE",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 388,
+     "unidade": "m³",
+     "rotulo": "volume habitável",
+     "em": "trezentos",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "manutencao",
+   "texto": "E tem a manutenção. A estação fica na borda da atmosfera, onde ainda existe um pouquinho de ar, que vai freando e fazendo ela perder altitude. De tempos em tempos, motores de cargueiros empurram o conjunto de volta para cima. Também é preciso desviar de lixo espacial, e consertar o que quebra durante caminhadas espaciais, com ferramentas que ninguém encontra na loja da esquina.",
+   "galeria": [
+    "iss-airglow",
+    "progress-reboost",
+    "detritos-orbita",
+    "caminhada-espacial"
+   ],
+   "galeriaEm": [
+    0,
+    "motores",
+    "lixo",
+    "caminhadas"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "MANUTENÇÃO",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "estoque-2015",
+   "texto": "E se a entrega falhar? Em uma cidade, o caminhão atrasa um dia. Na estação, em outubro de 2014, um foguete Antares explodiu logo após a decolagem. Em abril de 2015, uma Progress russa saiu de controle. Em junho, um Falcon 9 se desintegrou no ar. Três cargueiros perdidos em oito meses. A estação tinha estoque para alguns meses, mas a margem foi apertando.",
+   "galeria": [
+    "cygnus-chegada",
+    "antares-orb3",
+    "progress-m27m",
+    "spacex-crs7"
+   ],
+   "galeriaEm": [
+    0,
+    "outubro",
+    "abril",
+    "junho"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O ESTOQUE DE 2015",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "out 2014",
+       "Antares"
+      ],
+      [
+       "abr 2015",
+       "Progress"
+      ],
+      [
+       "jun 2015",
+       "Falcon 9"
+      ]
+     ],
+     "em": "outubro",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "quem-cuida",
+   "texto": "E quem cuida de tudo isso? Numa cidade de dez mil pessoas há médico, padeiro, eletricista e encanador. Na estação são sete, e cada um precisa saber um pouco de tudo, de primeiros socorros a hidráulica. Atrás deles, equipes de controle em Houston e Moscou trabalham vinte e quatro horas por dia, acompanhando cada válvula, cada temperatura e cada segundo da órbita.",
+   "galeria": [
+    "astronauta-medico",
+    "astronauta-reparo",
+    "controle-houston",
+    "controle-moscou"
+   ],
+   "galeriaEm": [
+    0,
+    "hidráulica",
+    "Houston",
+    "Moscou"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "QUEM CUIDA DE TUDO",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "fim-da-estacao",
+   "texto": "O que acontece quando a casa fica velha? A NASA planeja aposentar a estação por volta de 2030. Em 2024, contratou a SpaceX para construir um veículo que vai empurrá-la, de forma controlada, até o Oceano Pacífico Sul, o mesmo destino da estação russa Mir, em 2001. O contrato passa de oitocentos milhões de dólares. Tirar a cidade do ar também tem preço.",
+   "galeria": [
+    "iss-aposentadoria",
+    "us-deorbit",
+    "ponto-nemo",
+    "mir-1998"
+   ],
+   "galeriaEm": [
+    0,
+    "SpaceX",
+    "Oceano",
+    "Mir"
+   ],
+   "fontes": [
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O FIM DA ESTAÇÃO",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2024",
+       "Contrato com a SpaceX"
+      ],
+      [
+       "2030",
+       "Fim previsto"
+      ]
+     ],
+     "em": "Em",
+     "posicao": "meio"
+    }
+   ]
+  },
+  {
+   "id": "conta-final",
+   "texto": "Então, quem gasta mais? Em dinheiro, energia por pessoa e logística, a estação gasta incomparavelmente mais. Só que lá nada se joga fora: cada litro, cada watt e cada parafuso é contado. A cidade pode se dar ao luxo de desperdiçar. A estação nunca pôde. E talvez essa seja a maior lição de viver tão longe.",
+   "galeria": [
+    "terra-brasil-noite",
+    "passeio-espacial-terra",
+    "bancada-experimentos",
+    "iss-sobre-terra"
+   ],
+   "galeriaEm": [
+    0,
+    "energia",
+    "nada",
+    "luxo"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A CONTA FINAL",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "Quatrocentos quilômetros acima das nossas cidades, uma casa do tamanho de um campo de futebol aprende, dia após dia, o que significa não desperdiçar nada. Talvez a Terra também precise dessa lição.",
+   "galeria": [
+    "iss-final",
+    "campo-futebol",
+    "terra-planeta"
+   ],
+   "galeriaEm": [
+    0,
+    "campo",
+    "Terra"
+   ],
+   "fontes": [],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "18f74ebc82",
+   "texto": "A quatrocentos quilômetros de altura, sete pessoas vivem numa casa que custou mais de cem bilhões de dólares. Ela não tem rua, não tem rio, não tem usina. E mesmo assim funciona como uma cidade. Hoje vamos comparar a Estação Espacial Internacional com uma cidade pequena, e descobrir quem gasta mais.",
+   "audio": "audio/gancho-18f74ebc82.mp3",
+   "duracao": 20.594,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "quatrocentos",
+     "i": 0.232,
+     "f": 1.014
+    },
+    {
+     "p": "quilômetros",
+     "i": 1.027,
+     "f": 1.613
+    },
+    {
+     "p": "de",
+     "i": 1.626,
+     "f": 1.678
+    },
+    {
+     "p": "altura",
+     "i": 1.691,
+     "f": 2.133
+    },
+    {
+     "p": "sete",
+     "i": 2.472,
+     "f": 2.836
+    },
+    {
+     "p": "pessoas",
+     "i": 2.849,
+     "f": 3.344
+    },
+    {
+     "p": "vivem",
+     "i": 3.357,
+     "f": 3.67
+    },
+    {
+     "p": "numa",
+     "i": 3.683,
+     "f": 3.917
+    },
+    {
+     "p": "casa",
+     "i": 3.93,
+     "f": 4.308
+    },
+    {
+     "p": "que",
+     "i": 4.321,
+     "f": 4.451
+    },
+    {
+     "p": "custou",
+     "i": 4.464,
+     "f": 4.855
+    },
+    {
+     "p": "mais",
+     "i": 4.868,
+     "f": 5.206
+    },
+    {
+     "p": "de",
+     "i": 5.219,
+     "f": 5.336
+    },
+    {
+     "p": "cem",
+     "i": 5.349,
+     "f": 5.701
+    },
+    {
+     "p": "bilhões",
+     "i": 5.714,
+     "f": 6.209
+    },
+    {
+     "p": "de",
+     "i": 6.222,
+     "f": 6.313
+    },
+    {
+     "p": "dólares",
+     "i": 6.326,
+     "f": 6.912
+    },
+    {
+     "p": "Ela",
+     "i": 7.194,
+     "f": 7.494
+    },
+    {
+     "p": "não",
+     "i": 7.507,
+     "f": 7.689
+    },
+    {
+     "p": "tem",
+     "i": 7.702,
+     "f": 7.897
+    },
+    {
+     "p": "rua",
+     "i": 7.91,
+     "f": 8.249
+    },
+    {
+     "p": "não",
+     "i": 8.509,
+     "f": 8.783
+    },
+    {
+     "p": "tem",
+     "i": 8.796,
+     "f": 8.991
+    },
+    {
+     "p": "rio",
+     "i": 9.004,
+     "f": 9.316
+    },
+    {
+     "p": "não",
+     "i": 9.577,
+     "f": 9.811
+    },
+    {
+     "p": "tem",
+     "i": 9.824,
+     "f": 10.046
+    },
+    {
+     "p": "usina",
+     "i": 10.059,
+     "f": 10.566
+    },
+    {
+     "p": "E",
+     "i": 10.848,
+     "f": 10.978
+    },
+    {
+     "p": "mesmo",
+     "i": 10.991,
+     "f": 11.356
+    },
+    {
+     "p": "assim",
+     "i": 11.369,
+     "f": 11.668
+    },
+    {
+     "p": "funciona",
+     "i": 11.681,
+     "f": 12.332
+    },
+    {
+     "p": "como",
+     "i": 12.345,
+     "f": 12.58
+    },
+    {
+     "p": "uma",
+     "i": 12.593,
+     "f": 12.762
+    },
+    {
+     "p": "cidade",
+     "i": 12.775,
+     "f": 13.335
+    },
+    {
+     "p": "Hoje",
+     "i": 13.618,
+     "f": 13.957
+    },
+    {
+     "p": "vamos",
+     "i": 13.97,
+     "f": 14.269
+    },
+    {
+     "p": "comparar",
+     "i": 14.282,
+     "f": 14.764
+    },
+    {
+     "p": "a",
+     "i": 14.777,
+     "f": 14.829
+    },
+    {
+     "p": "Estação",
+     "i": 14.842,
+     "f": 15.298
+    },
+    {
+     "p": "Espacial",
+     "i": 15.311,
+     "f": 15.832
+    },
+    {
+     "p": "Internacional",
+     "i": 15.845,
+     "f": 16.587
+    },
+    {
+     "p": "com",
+     "i": 16.6,
+     "f": 16.743
+    },
+    {
+     "p": "uma",
+     "i": 16.756,
+     "f": 16.886
+    },
+    {
+     "p": "cidade",
+     "i": 16.899,
+     "f": 17.329
+    },
+    {
+     "p": "pequena",
+     "i": 17.342,
+     "f": 17.824
+    },
+    {
+     "p": "e",
+     "i": 18.136,
+     "f": 18.227
+    },
+    {
+     "p": "descobrir",
+     "i": 18.24,
+     "f": 18.839
+    },
+    {
+     "p": "quem",
+     "i": 18.852,
+     "f": 19.074
+    },
+    {
+     "p": "gasta",
+     "i": 19.087,
+     "f": 19.464
+    },
+    {
+     "p": "mais",
+     "i": 19.477,
+     "f": 19.894
+    }
+   ]
+  },
+  "quatro-contas": {
+   "hash": "8c33235d55",
+   "texto": "Vamos usar como régua uma cidade de dez mil habitantes. Quatro contas: o custo, a energia, a água e o lixo. No fim, você vai entender por que viver em órbita é menos um problema de foguete e mais um problema de logística. Mas antes, uma pergunta simples: o que exatamente a gente está comparando?",
+   "audio": "audio/quatro-contas-8c33235d55.mp3",
+   "duracao": 20.516,
+   "palavras": [
+    {
+     "p": "Vamos",
+     "i": 0.102,
+     "f": 0.454
+    },
+    {
+     "p": "usar",
+     "i": 0.467,
+     "f": 0.844
+    },
+    {
+     "p": "como",
+     "i": 0.857,
+     "f": 1.118
+    },
+    {
+     "p": "régua",
+     "i": 1.131,
+     "f": 1.469
+    },
+    {
+     "p": "uma",
+     "i": 1.482,
+     "f": 1.626
+    },
+    {
+     "p": "cidade",
+     "i": 1.639,
+     "f": 2.146
+    },
+    {
+     "p": "de",
+     "i": 2.159,
+     "f": 2.264
+    },
+    {
+     "p": "dez",
+     "i": 2.277,
+     "f": 2.615
+    },
+    {
+     "p": "mil",
+     "i": 2.628,
+     "f": 2.849
+    },
+    {
+     "p": "habitantes",
+     "i": 2.862,
+     "f": 3.644
+    },
+    {
+     "p": "Quatro",
+     "i": 3.926,
+     "f": 4.317
+    },
+    {
+     "p": "contas",
+     "i": 4.33,
+     "f": 4.864
+    },
+    {
+     "p": "o",
+     "i": 5.124,
+     "f": 5.241
+    },
+    {
+     "p": "custo",
+     "i": 5.254,
+     "f": 5.71
+    },
+    {
+     "p": "a",
+     "i": 5.918,
+     "f": 5.996
+    },
+    {
+     "p": "energia",
+     "i": 6.009,
+     "f": 6.66
+    },
+    {
+     "p": "a",
+     "i": 6.843,
+     "f": 6.934
+    },
+    {
+     "p": "água",
+     "i": 6.947,
+     "f": 7.364
+    },
+    {
+     "p": "e",
+     "i": 7.377,
+     "f": 7.468
+    },
+    {
+     "p": "o",
+     "i": 7.481,
+     "f": 7.507
+    },
+    {
+     "p": "lixo",
+     "i": 7.52,
+     "f": 7.936
+    },
+    {
+     "p": "No",
+     "i": 8.218,
+     "f": 8.413
+    },
+    {
+     "p": "fim",
+     "i": 8.426,
+     "f": 8.713
+    },
+    {
+     "p": "você",
+     "i": 9.077,
+     "f": 9.364
+    },
+    {
+     "p": "vai",
+     "i": 9.377,
+     "f": 9.494
+    },
+    {
+     "p": "entender",
+     "i": 9.507,
+     "f": 9.989
+    },
+    {
+     "p": "por",
+     "i": 10.002,
+     "f": 10.184
+    },
+    {
+     "p": "que",
+     "i": 10.197,
+     "f": 10.34
+    },
+    {
+     "p": "viver",
+     "i": 10.353,
+     "f": 10.64
+    },
+    {
+     "p": "em",
+     "i": 10.653,
+     "f": 10.77
+    },
+    {
+     "p": "órbita",
+     "i": 10.783,
+     "f": 11.122
+    },
+    {
+     "p": "é",
+     "i": 11.135,
+     "f": 11.174
+    },
+    {
+     "p": "menos",
+     "i": 11.187,
+     "f": 11.512
+    },
+    {
+     "p": "um",
+     "i": 11.525,
+     "f": 11.682
+    },
+    {
+     "p": "problema",
+     "i": 11.695,
+     "f": 12.202
+    },
+    {
+     "p": "de",
+     "i": 12.215,
+     "f": 12.32
+    },
+    {
+     "p": "foguete",
+     "i": 12.333,
+     "f": 12.932
+    },
+    {
+     "p": "e",
+     "i": 12.945,
+     "f": 12.997
+    },
+    {
+     "p": "mais",
+     "i": 13.01,
+     "f": 13.257
+    },
+    {
+     "p": "um",
+     "i": 13.27,
+     "f": 13.413
+    },
+    {
+     "p": "problema",
+     "i": 13.426,
+     "f": 13.908
+    },
+    {
+     "p": "de",
+     "i": 13.921,
+     "f": 13.999
+    },
+    {
+     "p": "logística",
+     "i": 14.012,
+     "f": 14.729
+    },
+    {
+     "p": "Mas",
+     "i": 15.011,
+     "f": 15.232
+    },
+    {
+     "p": "antes",
+     "i": 15.245,
+     "f": 15.818
+    },
+    {
+     "p": "uma",
+     "i": 16.183,
+     "f": 16.378
+    },
+    {
+     "p": "pergunta",
+     "i": 16.391,
+     "f": 16.912
+    },
+    {
+     "p": "simples",
+     "i": 16.925,
+     "f": 17.472
+    },
+    {
+     "p": "o",
+     "i": 17.811,
+     "f": 17.889
+    },
+    {
+     "p": "que",
+     "i": 17.902,
+     "f": 18.084
+    },
+    {
+     "p": "exatamente",
+     "i": 18.097,
+     "f": 18.683
+    },
+    {
+     "p": "a",
+     "i": 18.696,
+     "f": 18.735
+    },
+    {
+     "p": "gente",
+     "i": 18.748,
+     "f": 18.995
+    },
+    {
+     "p": "está",
+     "i": 19.008,
+     "f": 19.191
+    },
+    {
+     "p": "comparando",
+     "i": 19.204,
+     "f": 19.816
+    }
+   ]
+  },
+  "preco-da-casa": {
+   "hash": "4d6d14993f",
+   "texto": "Comecemos pelo preço da casa. O primeiro módulo, o russo Zarya, subiu em novembro de 1998. A primeira tripulação chegou em novembro de 2000 e, desde então, nunca mais houve um dia sem gente a bordo. Montar tudo levou mais de uma década e dezenas de voos. A conta total passa de cem bilhões de dólares, repartida entre cinco agências espaciais.",
+   "audio": "audio/preco-da-casa-4d6d14993f.mp3",
+   "duracao": 24.234,
+   "palavras": [
+    {
+     "p": "Comecemos",
+     "i": 0.102,
+     "f": 0.805
+    },
+    {
+     "p": "pelo",
+     "i": 0.818,
+     "f": 1.04
+    },
+    {
+     "p": "preço",
+     "i": 1.053,
+     "f": 1.43
+    },
+    {
+     "p": "da",
+     "i": 1.443,
+     "f": 1.56
+    },
+    {
+     "p": "casa",
+     "i": 1.573,
+     "f": 1.99
+    },
+    {
+     "p": "O",
+     "i": 2.272,
+     "f": 2.415
+    },
+    {
+     "p": "primeiro",
+     "i": 2.428,
+     "f": 2.767
+    },
+    {
+     "p": "módulo",
+     "i": 2.78,
+     "f": 3.21
+    },
+    {
+     "p": "o",
+     "i": 3.522,
+     "f": 3.626
+    },
+    {
+     "p": "russo",
+     "i": 3.639,
+     "f": 4.004
+    },
+    {
+     "p": "Zarya",
+     "i": 4.017,
+     "f": 4.381
+    },
+    {
+     "p": "subiu",
+     "i": 4.668,
+     "f": 5.046
+    },
+    {
+     "p": "em",
+     "i": 5.059,
+     "f": 5.124
+    },
+    {
+     "p": "novembro",
+     "i": 5.137,
+     "f": 5.723
+    },
+    {
+     "p": "de",
+     "i": 5.736,
+     "f": 5.84
+    },
+    {
+     "p": "1998",
+     "i": 5.853,
+     "f": 7.467
+    },
+    {
+     "p": "A",
+     "i": 7.749,
+     "f": 7.853
+    },
+    {
+     "p": "primeira",
+     "i": 7.866,
+     "f": 8.205
+    },
+    {
+     "p": "tripulação",
+     "i": 8.218,
+     "f": 8.921
+    },
+    {
+     "p": "chegou",
+     "i": 8.934,
+     "f": 9.338
+    },
+    {
+     "p": "em",
+     "i": 9.351,
+     "f": 9.39
+    },
+    {
+     "p": "novembro",
+     "i": 9.403,
+     "f": 9.937
+    },
+    {
+     "p": "de",
+     "i": 9.95,
+     "f": 10.028
+    },
+    {
+     "p": "2000 e",
+     "i": 10.041,
+     "f": 10.483
+    },
+    {
+     "p": "desde",
+     "i": 10.679,
+     "f": 11.043
+    },
+    {
+     "p": "então",
+     "i": 11.056,
+     "f": 11.46
+    },
+    {
+     "p": "nunca",
+     "i": 11.746,
+     "f": 12.085
+    },
+    {
+     "p": "mais",
+     "i": 12.098,
+     "f": 12.306
+    },
+    {
+     "p": "houve",
+     "i": 12.319,
+     "f": 12.658
+    },
+    {
+     "p": "um",
+     "i": 12.671,
+     "f": 12.775
+    },
+    {
+     "p": "dia",
+     "i": 12.788,
+     "f": 13.075
+    },
+    {
+     "p": "sem",
+     "i": 13.088,
+     "f": 13.335
+    },
+    {
+     "p": "gente",
+     "i": 13.348,
+     "f": 13.674
+    },
+    {
+     "p": "a",
+     "i": 13.687,
+     "f": 13.726
+    },
+    {
+     "p": "bordo",
+     "i": 13.739,
+     "f": 14.168
+    },
+    {
+     "p": "Montar",
+     "i": 14.45,
+     "f": 14.958
+    },
+    {
+     "p": "tudo",
+     "i": 14.971,
+     "f": 15.218
+    },
+    {
+     "p": "levou",
+     "i": 15.231,
+     "f": 15.544
+    },
+    {
+     "p": "mais",
+     "i": 15.557,
+     "f": 15.882
+    },
+    {
+     "p": "de",
+     "i": 15.895,
+     "f": 15.974
+    },
+    {
+     "p": "uma",
+     "i": 15.987,
+     "f": 16.156
+    },
+    {
+     "p": "década",
+     "i": 16.169,
+     "f": 16.585
+    },
+    {
+     "p": "e",
+     "i": 16.599,
+     "f": 16.638
+    },
+    {
+     "p": "dezenas",
+     "i": 16.651,
+     "f": 17.132
+    },
+    {
+     "p": "de",
+     "i": 17.145,
+     "f": 17.237
+    },
+    {
+     "p": "voos",
+     "i": 17.25,
+     "f": 17.731
+    },
+    {
+     "p": "A",
+     "i": 18.013,
+     "f": 18.143
+    },
+    {
+     "p": "conta",
+     "i": 18.156,
+     "f": 18.534
+    },
+    {
+     "p": "total",
+     "i": 18.547,
+     "f": 18.899
+    },
+    {
+     "p": "passa",
+     "i": 18.912,
+     "f": 19.263
+    },
+    {
+     "p": "de",
+     "i": 19.276,
+     "f": 19.406
+    },
+    {
+     "p": "cem",
+     "i": 19.419,
+     "f": 19.706
+    },
+    {
+     "p": "bilhões",
+     "i": 19.719,
+     "f": 20.162
+    },
+    {
+     "p": "de",
+     "i": 20.175,
+     "f": 20.266
+    },
+    {
+     "p": "dólares",
+     "i": 20.279,
+     "f": 20.76
+    },
+    {
+     "p": "repartida",
+     "i": 21.008,
+     "f": 21.581
+    },
+    {
+     "p": "entre",
+     "i": 21.594,
+     "f": 21.815
+    },
+    {
+     "p": "cinco",
+     "i": 21.828,
+     "f": 22.193
+    },
+    {
+     "p": "agências",
+     "i": 22.206,
+     "f": 22.635
+    },
+    {
+     "p": "espaciais",
+     "i": 22.648,
+     "f": 23.534
+    }
+   ]
+  },
+  "custo-anual": {
+   "hash": "308bae00db",
+   "texto": "Só que a conta não acaba na obra. Segundo o inspetor-geral da NASA, manter a estação funcionando custa entre três e quatro bilhões de dólares por ano. Perto de metade disso é só transporte: levar gente e carga até lá em cima. Em conta redonda, dá cerca de meio bilhão de dólares por astronauta, por ano. Nenhuma cidade pequena tem um orçamento perto desse.",
+   "audio": "audio/custo-anual-308bae00db.mp3",
+   "duracao": 23.05,
+   "palavras": [
+    {
+     "p": "Só",
+     "i": 0.102,
+     "f": 0.428
+    },
+    {
+     "p": "que",
+     "i": 0.441,
+     "f": 0.545
+    },
+    {
+     "p": "a",
+     "i": 0.558,
+     "f": 0.623
+    },
+    {
+     "p": "conta",
+     "i": 0.636,
+     "f": 1.014
+    },
+    {
+     "p": "não",
+     "i": 1.027,
+     "f": 1.222
+    },
+    {
+     "p": "acaba",
+     "i": 1.235,
+     "f": 1.573
+    },
+    {
+     "p": "na",
+     "i": 1.586,
+     "f": 1.717
+    },
+    {
+     "p": "obra",
+     "i": 1.73,
+     "f": 2.094
+    },
+    {
+     "p": "Segundo",
+     "i": 2.376,
+     "f": 2.884
+    },
+    {
+     "p": "o",
+     "i": 2.897,
+     "f": 2.923
+    },
+    {
+     "p": "inspetor-geral",
+     "i": 2.936,
+     "f": 3.756
+    },
+    {
+     "p": "da",
+     "i": 3.769,
+     "f": 3.873
+    },
+    {
+     "p": "NASA",
+     "i": 3.887,
+     "f": 4.29
+    },
+    {
+     "p": "manter",
+     "i": 4.577,
+     "f": 4.941
+    },
+    {
+     "p": "a",
+     "i": 4.954,
+     "f": 4.993
+    },
+    {
+     "p": "estação",
+     "i": 5.006,
+     "f": 5.514
+    },
+    {
+     "p": "funcionando",
+     "i": 5.527,
+     "f": 6.113
+    },
+    {
+     "p": "custa",
+     "i": 6.126,
+     "f": 6.465
+    },
+    {
+     "p": "entre",
+     "i": 6.478,
+     "f": 6.725
+    },
+    {
+     "p": "três",
+     "i": 6.738,
+     "f": 6.985
+    },
+    {
+     "p": "e",
+     "i": 6.998,
+     "f": 7.129
+    },
+    {
+     "p": "quatro",
+     "i": 7.142,
+     "f": 7.519
+    },
+    {
+     "p": "bilhões",
+     "i": 7.532,
+     "f": 8.001
+    },
+    {
+     "p": "de",
+     "i": 8.014,
+     "f": 8.105
+    },
+    {
+     "p": "dólares",
+     "i": 8.118,
+     "f": 8.548
+    },
+    {
+     "p": "por",
+     "i": 8.561,
+     "f": 8.743
+    },
+    {
+     "p": "ano",
+     "i": 8.756,
+     "f": 9.043
+    },
+    {
+     "p": "Perto",
+     "i": 9.325,
+     "f": 9.664
+    },
+    {
+     "p": "de",
+     "i": 9.677,
+     "f": 9.755
+    },
+    {
+     "p": "metade",
+     "i": 9.768,
+     "f": 10.263
+    },
+    {
+     "p": "disso",
+     "i": 10.276,
+     "f": 10.627
+    },
+    {
+     "p": "é",
+     "i": 10.64,
+     "f": 10.666
+    },
+    {
+     "p": "só",
+     "i": 10.679,
+     "f": 10.888
+    },
+    {
+     "p": "transporte",
+     "i": 10.901,
+     "f": 11.604
+    },
+    {
+     "p": "levar",
+     "i": 11.864,
+     "f": 12.268
+    },
+    {
+     "p": "gente",
+     "i": 12.281,
+     "f": 12.58
+    },
+    {
+     "p": "e",
+     "i": 12.593,
+     "f": 12.619
+    },
+    {
+     "p": "carga",
+     "i": 12.632,
+     "f": 12.971
+    },
+    {
+     "p": "até",
+     "i": 12.984,
+     "f": 13.179
+    },
+    {
+     "p": "lá",
+     "i": 13.192,
+     "f": 13.322
+    },
+    {
+     "p": "em",
+     "i": 13.335,
+     "f": 13.44
+    },
+    {
+     "p": "cima",
+     "i": 13.453,
+     "f": 13.882
+    },
+    {
+     "p": "Em",
+     "i": 14.164,
+     "f": 14.307
+    },
+    {
+     "p": "conta",
+     "i": 14.32,
+     "f": 14.646
+    },
+    {
+     "p": "redonda",
+     "i": 14.659,
+     "f": 15.167
+    },
+    {
+     "p": "dá",
+     "i": 15.453,
+     "f": 15.622
+    },
+    {
+     "p": "cerca",
+     "i": 15.635,
+     "f": 16.065
+    },
+    {
+     "p": "de",
+     "i": 16.078,
+     "f": 16.182
+    },
+    {
+     "p": "meio",
+     "i": 16.195,
+     "f": 16.482
+    },
+    {
+     "p": "bilhão",
+     "i": 16.495,
+     "f": 16.833
+    },
+    {
+     "p": "de",
+     "i": 16.846,
+     "f": 16.977
+    },
+    {
+     "p": "dólares",
+     "i": 16.99,
+     "f": 17.432
+    },
+    {
+     "p": "por",
+     "i": 17.445,
+     "f": 17.589
+    },
+    {
+     "p": "astronauta",
+     "i": 17.602,
+     "f": 18.279
+    },
+    {
+     "p": "por",
+     "i": 18.539,
+     "f": 18.708
+    },
+    {
+     "p": "ano",
+     "i": 18.721,
+     "f": 19.021
+    },
+    {
+     "p": "Nenhuma",
+     "i": 19.303,
+     "f": 19.733
+    },
+    {
+     "p": "cidade",
+     "i": 19.746,
+     "f": 20.188
+    },
+    {
+     "p": "pequena",
+     "i": 20.202,
+     "f": 20.644
+    },
+    {
+     "p": "tem",
+     "i": 20.657,
+     "f": 20.814
+    },
+    {
+     "p": "um",
+     "i": 20.827,
+     "f": 20.905
+    },
+    {
+     "p": "orçamento",
+     "i": 20.918,
+     "f": 21.53
+    },
+    {
+     "p": "perto",
+     "i": 21.543,
+     "f": 21.894
+    },
+    {
+     "p": "desse",
+     "i": 21.907,
+     "f": 22.35
+    }
+   ]
+  },
+  "comida-e-carga": {
+   "hash": "905f742dbb",
+   "texto": "E há a comida. Tudo o que a tripulação come vem da Terra, em pacotes, junto com roupas, peças, experimentos e ferramentas. Cada quilo que sobe custa vários milhares de dólares, e o espaço dentro dos cargueiros é limitado. Por isso, a estação não tem supermercado nem estoque infinito. É como uma cidade onde a única estrada de entrada é um foguete, e ela só abre de tempos em tempos.",
+   "audio": "audio/comida-e-carga-905f742dbb.mp3",
+   "duracao": 25.29,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "há",
+     "i": 0.258,
+     "f": 0.389
+    },
+    {
+     "p": "a",
+     "i": 0.402,
+     "f": 0.467
+    },
+    {
+     "p": "comida",
+     "i": 0.48,
+     "f": 1.014
+    },
+    {
+     "p": "Tudo",
+     "i": 1.296,
+     "f": 1.57
+    },
+    {
+     "p": "o",
+     "i": 1.583,
+     "f": 1.622
+    },
+    {
+     "p": "que",
+     "i": 1.635,
+     "f": 1.726
+    },
+    {
+     "p": "a",
+     "i": 1.739,
+     "f": 1.791
+    },
+    {
+     "p": "tripulação",
+     "i": 1.804,
+     "f": 2.455
+    },
+    {
+     "p": "come",
+     "i": 2.468,
+     "f": 2.702
+    },
+    {
+     "p": "vem",
+     "i": 2.715,
+     "f": 2.885
+    },
+    {
+     "p": "da",
+     "i": 2.898,
+     "f": 3.041
+    },
+    {
+     "p": "Terra",
+     "i": 3.054,
+     "f": 3.405
+    },
+    {
+     "p": "em",
+     "i": 3.614,
+     "f": 3.718
+    },
+    {
+     "p": "pacotes",
+     "i": 3.731,
+     "f": 4.421
+    },
+    {
+     "p": "junto",
+     "i": 4.629,
+     "f": 5.033
+    },
+    {
+     "p": "com",
+     "i": 5.046,
+     "f": 5.241
+    },
+    {
+     "p": "roupas",
+     "i": 5.254,
+     "f": 5.762
+    },
+    {
+     "p": "peças",
+     "i": 6.049,
+     "f": 6.543
+    },
+    {
+     "p": "experimentos",
+     "i": 6.83,
+     "f": 7.494
+    },
+    {
+     "p": "e",
+     "i": 7.507,
+     "f": 7.624
+    },
+    {
+     "p": "ferramentas",
+     "i": 7.637,
+     "f": 8.471
+    },
+    {
+     "p": "Cada",
+     "i": 8.753,
+     "f": 9.053
+    },
+    {
+     "p": "quilo",
+     "i": 9.066,
+     "f": 9.391
+    },
+    {
+     "p": "que",
+     "i": 9.404,
+     "f": 9.521
+    },
+    {
+     "p": "sobe",
+     "i": 9.534,
+     "f": 9.886
+    },
+    {
+     "p": "custa",
+     "i": 9.899,
+     "f": 10.263
+    },
+    {
+     "p": "vários",
+     "i": 10.277,
+     "f": 10.602
+    },
+    {
+     "p": "milhares",
+     "i": 10.615,
+     "f": 11.084
+    },
+    {
+     "p": "de",
+     "i": 11.097,
+     "f": 11.214
+    },
+    {
+     "p": "dólares",
+     "i": 11.227,
+     "f": 11.722
+    },
+    {
+     "p": "e",
+     "i": 12.008,
+     "f": 12.073
+    },
+    {
+     "p": "o",
+     "i": 12.086,
+     "f": 12.125
+    },
+    {
+     "p": "espaço",
+     "i": 12.138,
+     "f": 12.646
+    },
+    {
+     "p": "dentro",
+     "i": 12.659,
+     "f": 12.985
+    },
+    {
+     "p": "dos",
+     "i": 12.998,
+     "f": 13.18
+    },
+    {
+     "p": "cargueiros",
+     "i": 13.193,
+     "f": 13.701
+    },
+    {
+     "p": "é",
+     "i": 13.714,
+     "f": 13.844
+    },
+    {
+     "p": "limitado",
+     "i": 13.857,
+     "f": 14.508
+    },
+    {
+     "p": "Por",
+     "i": 14.79,
+     "f": 14.985
+    },
+    {
+     "p": "isso",
+     "i": 14.998,
+     "f": 15.337
+    },
+    {
+     "p": "a",
+     "i": 15.649,
+     "f": 15.702
+    },
+    {
+     "p": "estação",
+     "i": 15.715,
+     "f": 16.196
+    },
+    {
+     "p": "não",
+     "i": 16.209,
+     "f": 16.379
+    },
+    {
+     "p": "tem",
+     "i": 16.392,
+     "f": 16.535
+    },
+    {
+     "p": "supermercado",
+     "i": 16.548,
+     "f": 17.368
+    },
+    {
+     "p": "nem",
+     "i": 17.381,
+     "f": 17.577
+    },
+    {
+     "p": "estoque",
+     "i": 17.59,
+     "f": 18.006
+    },
+    {
+     "p": "infinito",
+     "i": 18.019,
+     "f": 18.566
+    },
+    {
+     "p": "É",
+     "i": 18.848,
+     "f": 18.978
+    },
+    {
+     "p": "como",
+     "i": 18.991,
+     "f": 19.239
+    },
+    {
+     "p": "uma",
+     "i": 19.252,
+     "f": 19.395
+    },
+    {
+     "p": "cidade",
+     "i": 19.408,
+     "f": 19.903
+    },
+    {
+     "p": "onde",
+     "i": 19.916,
+     "f": 20.098
+    },
+    {
+     "p": "a",
+     "i": 20.111,
+     "f": 20.176
+    },
+    {
+     "p": "única",
+     "i": 20.189,
+     "f": 20.515
+    },
+    {
+     "p": "estrada",
+     "i": 20.528,
+     "f": 20.931
+    },
+    {
+     "p": "de",
+     "i": 20.944,
+     "f": 21.023
+    },
+    {
+     "p": "entrada",
+     "i": 21.036,
+     "f": 21.439
+    },
+    {
+     "p": "é",
+     "i": 21.452,
+     "f": 21.478
+    },
+    {
+     "p": "um",
+     "i": 21.491,
+     "f": 21.569
+    },
+    {
+     "p": "foguete",
+     "i": 21.582,
+     "f": 22.168
+    },
+    {
+     "p": "e",
+     "i": 22.494,
+     "f": 22.572
+    },
+    {
+     "p": "ela",
+     "i": 22.585,
+     "f": 22.806
+    },
+    {
+     "p": "só",
+     "i": 22.819,
+     "f": 23.028
+    },
+    {
+     "p": "abre",
+     "i": 23.041,
+     "f": 23.314
+    },
+    {
+     "p": "de",
+     "i": 23.327,
+     "f": 23.483
+    },
+    {
+     "p": "tempos",
+     "i": 23.497,
+     "f": 23.822
+    },
+    {
+     "p": "em",
+     "i": 23.835,
+     "f": 24.03
+    },
+    {
+     "p": "tempos",
+     "i": 24.043,
+     "f": 24.59
+    }
+   ]
+  },
+  "energia": {
+   "hash": "909bfd1e72",
+   "texto": "Agora, a energia. A estação tem painéis solares que geram entre setenta e cinco e noventa quilowatts, segundo a NASA. Uma cidade de dez mil habitantes, só nas casas e com consumo brasileiro típico, usa algo perto de setecentos quilowatts. No total, a cidade ganha. Mas por pessoa, o jogo vira: mais de dez quilowatts por astronauta, contra algumas dezenas de watts por morador. Em órbita, até a luz tem preço.",
+   "audio": "audio/energia-909bfd1e72.mp3",
+   "duracao": 28.306,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.675
+    },
+    {
+     "p": "a",
+     "i": 0.805,
+     "f": 0.87
+    },
+    {
+     "p": "energia",
+     "i": 0.883,
+     "f": 1.573
+    },
+    {
+     "p": "A",
+     "i": 1.855,
+     "f": 1.972
+    },
+    {
+     "p": "estação",
+     "i": 1.985,
+     "f": 2.506
+    },
+    {
+     "p": "tem",
+     "i": 2.519,
+     "f": 2.675
+    },
+    {
+     "p": "painéis",
+     "i": 2.688,
+     "f": 3.079
+    },
+    {
+     "p": "solares",
+     "i": 3.092,
+     "f": 3.6
+    },
+    {
+     "p": "que",
+     "i": 3.613,
+     "f": 3.743
+    },
+    {
+     "p": "geram",
+     "i": 3.756,
+     "f": 4.095
+    },
+    {
+     "p": "entre",
+     "i": 4.108,
+     "f": 4.329
+    },
+    {
+     "p": "setenta",
+     "i": 4.342,
+     "f": 4.798
+    },
+    {
+     "p": "e",
+     "i": 4.811,
+     "f": 4.837
+    },
+    {
+     "p": "cinco",
+     "i": 4.85,
+     "f": 5.162
+    },
+    {
+     "p": "e",
+     "i": 5.175,
+     "f": 5.201
+    },
+    {
+     "p": "noventa",
+     "i": 5.214,
+     "f": 5.631
+    },
+    {
+     "p": "quilowatts",
+     "i": 5.644,
+     "f": 6.334
+    },
+    {
+     "p": "segundo",
+     "i": 6.582,
+     "f": 7.024
+    },
+    {
+     "p": "a",
+     "i": 7.037,
+     "f": 7.102
+    },
+    {
+     "p": "NASA",
+     "i": 7.115,
+     "f": 7.519
+    },
+    {
+     "p": "Uma",
+     "i": 7.801,
+     "f": 8.022
+    },
+    {
+     "p": "cidade",
+     "i": 8.035,
+     "f": 8.517
+    },
+    {
+     "p": "de",
+     "i": 8.53,
+     "f": 8.647
+    },
+    {
+     "p": "dez",
+     "i": 8.66,
+     "f": 8.934
+    },
+    {
+     "p": "mil",
+     "i": 8.947,
+     "f": 9.155
+    },
+    {
+     "p": "habitantes",
+     "i": 9.168,
+     "f": 9.884
+    },
+    {
+     "p": "só",
+     "i": 10.106,
+     "f": 10.275
+    },
+    {
+     "p": "nas",
+     "i": 10.288,
+     "f": 10.509
+    },
+    {
+     "p": "casas",
+     "i": 10.522,
+     "f": 10.9
+    },
+    {
+     "p": "e",
+     "i": 10.913,
+     "f": 11.03
+    },
+    {
+     "p": "com",
+     "i": 11.043,
+     "f": 11.187
+    },
+    {
+     "p": "consumo",
+     "i": 11.2,
+     "f": 11.616
+    },
+    {
+     "p": "brasileiro",
+     "i": 11.629,
+     "f": 12.124
+    },
+    {
+     "p": "típico",
+     "i": 12.137,
+     "f": 12.645
+    },
+    {
+     "p": "usa",
+     "i": 12.931,
+     "f": 13.166
+    },
+    {
+     "p": "algo",
+     "i": 13.179,
+     "f": 13.452
+    },
+    {
+     "p": "perto",
+     "i": 13.465,
+     "f": 13.843
+    },
+    {
+     "p": "de",
+     "i": 13.856,
+     "f": 13.96
+    },
+    {
+     "p": "setecentos",
+     "i": 13.973,
+     "f": 14.702
+    },
+    {
+     "p": "quilowatts",
+     "i": 14.715,
+     "f": 15.457
+    },
+    {
+     "p": "No",
+     "i": 15.739,
+     "f": 15.921
+    },
+    {
+     "p": "total",
+     "i": 15.934,
+     "f": 16.442
+    },
+    {
+     "p": "a",
+     "i": 16.612,
+     "f": 16.677
+    },
+    {
+     "p": "cidade",
+     "i": 16.69,
+     "f": 17.184
+    },
+    {
+     "p": "ganha",
+     "i": 17.197,
+     "f": 17.614
+    },
+    {
+     "p": "Mas",
+     "i": 17.896,
+     "f": 18.196
+    },
+    {
+     "p": "por",
+     "i": 18.209,
+     "f": 18.378
+    },
+    {
+     "p": "pessoa",
+     "i": 18.391,
+     "f": 18.951
+    },
+    {
+     "p": "o",
+     "i": 19.302,
+     "f": 19.38
+    },
+    {
+     "p": "jogo",
+     "i": 19.393,
+     "f": 19.732
+    },
+    {
+     "p": "vira",
+     "i": 19.745,
+     "f": 20.058
+    },
+    {
+     "p": "mais",
+     "i": 20.305,
+     "f": 20.539
+    },
+    {
+     "p": "de",
+     "i": 20.552,
+     "f": 20.656
+    },
+    {
+     "p": "dez",
+     "i": 20.67,
+     "f": 20.956
+    },
+    {
+     "p": "quilowatts",
+     "i": 20.969,
+     "f": 21.568
+    },
+    {
+     "p": "por",
+     "i": 21.581,
+     "f": 21.724
+    },
+    {
+     "p": "astronauta",
+     "i": 21.737,
+     "f": 22.388
+    },
+    {
+     "p": "contra",
+     "i": 22.649,
+     "f": 22.948
+    },
+    {
+     "p": "algumas",
+     "i": 22.961,
+     "f": 23.339
+    },
+    {
+     "p": "dezenas",
+     "i": 23.352,
+     "f": 23.86
+    },
+    {
+     "p": "de",
+     "i": 23.873,
+     "f": 23.977
+    },
+    {
+     "p": "watts",
+     "i": 23.99,
+     "f": 24.393
+    },
+    {
+     "p": "por",
+     "i": 24.406,
+     "f": 24.563
+    },
+    {
+     "p": "morador",
+     "i": 24.576,
+     "f": 25.071
+    },
+    {
+     "p": "Em",
+     "i": 25.353,
+     "f": 25.548
+    },
+    {
+     "p": "órbita",
+     "i": 25.561,
+     "f": 26.082
+    },
+    {
+     "p": "até",
+     "i": 26.317,
+     "f": 26.629
+    },
+    {
+     "p": "a",
+     "i": 26.642,
+     "f": 26.668
+    },
+    {
+     "p": "luz",
+     "i": 26.681,
+     "f": 26.968
+    },
+    {
+     "p": "tem",
+     "i": 26.981,
+     "f": 27.15
+    },
+    {
+     "p": "preço",
+     "i": 27.163,
+     "f": 27.606
+    }
+   ]
+  },
+  "noite-e-calor": {
+   "hash": "875dc4e41b",
+   "texto": "Tem um detalhe. A estação dá a volta na Terra a cada uns noventa minutos, então são cerca de dezesseis nascer do sol por dia. Na sombra, as baterias de lítio seguram a energia. E tem o calor: no vácuo não existe ar para levar embora o calor dos equipamentos. Por isso circuitos de amônia levam esse calor até grandes radiadores, que o jogam para o espaço.",
+   "audio": "audio/noite-e-calor-875dc4e41b.mp3",
+   "duracao": 23.208,
+   "palavras": [
+    {
+     "p": "Tem",
+     "i": 0.102,
+     "f": 0.336
+    },
+    {
+     "p": "um",
+     "i": 0.349,
+     "f": 0.493
+    },
+    {
+     "p": "detalhe",
+     "i": 0.506,
+     "f": 1.092
+    },
+    {
+     "p": "A",
+     "i": 1.374,
+     "f": 1.504
+    },
+    {
+     "p": "estação",
+     "i": 1.517,
+     "f": 2.025
+    },
+    {
+     "p": "dá",
+     "i": 2.038,
+     "f": 2.181
+    },
+    {
+     "p": "a",
+     "i": 2.194,
+     "f": 2.233
+    },
+    {
+     "p": "volta",
+     "i": 2.247,
+     "f": 2.611
+    },
+    {
+     "p": "na",
+     "i": 2.624,
+     "f": 2.767
+    },
+    {
+     "p": "Terra",
+     "i": 2.78,
+     "f": 3.106
+    },
+    {
+     "p": "a",
+     "i": 3.119,
+     "f": 3.158
+    },
+    {
+     "p": "cada",
+     "i": 3.171,
+     "f": 3.444
+    },
+    {
+     "p": "uns",
+     "i": 3.457,
+     "f": 3.653
+    },
+    {
+     "p": "noventa",
+     "i": 3.666,
+     "f": 4.095
+    },
+    {
+     "p": "minutos",
+     "i": 4.108,
+     "f": 4.629
+    },
+    {
+     "p": "então",
+     "i": 4.916,
+     "f": 5.254
+    },
+    {
+     "p": "são",
+     "i": 5.267,
+     "f": 5.45
+    },
+    {
+     "p": "cerca",
+     "i": 5.463,
+     "f": 5.853
+    },
+    {
+     "p": "de",
+     "i": 5.866,
+     "f": 5.983
+    },
+    {
+     "p": "dezesseis",
+     "i": 5.996,
+     "f": 6.491
+    },
+    {
+     "p": "nascer",
+     "i": 6.504,
+     "f": 6.895
+    },
+    {
+     "p": "do",
+     "i": 6.908,
+     "f": 7.025
+    },
+    {
+     "p": "sol",
+     "i": 7.038,
+     "f": 7.312
+    },
+    {
+     "p": "por",
+     "i": 7.325,
+     "f": 7.52
+    },
+    {
+     "p": "dia",
+     "i": 7.533,
+     "f": 7.871
+    },
+    {
+     "p": "Na",
+     "i": 8.153,
+     "f": 8.348
+    },
+    {
+     "p": "sombra",
+     "i": 8.361,
+     "f": 8.882
+    },
+    {
+     "p": "as",
+     "i": 9.182,
+     "f": 9.338
+    },
+    {
+     "p": "baterias",
+     "i": 9.351,
+     "f": 9.885
+    },
+    {
+     "p": "de",
+     "i": 9.898,
+     "f": 10.002
+    },
+    {
+     "p": "lítio",
+     "i": 10.015,
+     "f": 10.354
+    },
+    {
+     "p": "seguram",
+     "i": 10.367,
+     "f": 10.861
+    },
+    {
+     "p": "a",
+     "i": 10.874,
+     "f": 10.914
+    },
+    {
+     "p": "energia",
+     "i": 10.927,
+     "f": 11.565
+    },
+    {
+     "p": "E",
+     "i": 11.847,
+     "f": 11.977
+    },
+    {
+     "p": "tem",
+     "i": 11.99,
+     "f": 12.173
+    },
+    {
+     "p": "o",
+     "i": 12.186,
+     "f": 12.238
+    },
+    {
+     "p": "calor",
+     "i": 12.251,
+     "f": 12.667
+    },
+    {
+     "p": "no",
+     "i": 12.993,
+     "f": 13.136
+    },
+    {
+     "p": "vácuo",
+     "i": 13.149,
+     "f": 13.527
+    },
+    {
+     "p": "não",
+     "i": 13.54,
+     "f": 13.761
+    },
+    {
+     "p": "existe",
+     "i": 13.774,
+     "f": 14.217
+    },
+    {
+     "p": "ar",
+     "i": 14.23,
+     "f": 14.373
+    },
+    {
+     "p": "para",
+     "i": 14.386,
+     "f": 14.542
+    },
+    {
+     "p": "levar",
+     "i": 14.555,
+     "f": 14.868
+    },
+    {
+     "p": "embora",
+     "i": 14.881,
+     "f": 15.285
+    },
+    {
+     "p": "o",
+     "i": 15.298,
+     "f": 15.324
+    },
+    {
+     "p": "calor",
+     "i": 15.337,
+     "f": 15.74
+    },
+    {
+     "p": "dos",
+     "i": 15.753,
+     "f": 15.871
+    },
+    {
+     "p": "equipamentos",
+     "i": 15.884,
+     "f": 16.782
+    },
+    {
+     "p": "Por",
+     "i": 17.065,
+     "f": 17.26
+    },
+    {
+     "p": "isso",
+     "i": 17.273,
+     "f": 17.56
+    },
+    {
+     "p": "circuitos",
+     "i": 17.573,
+     "f": 18.185
+    },
+    {
+     "p": "de",
+     "i": 18.198,
+     "f": 18.263
+    },
+    {
+     "p": "amônia",
+     "i": 18.276,
+     "f": 18.628
+    },
+    {
+     "p": "levam",
+     "i": 18.641,
+     "f": 19.018
+    },
+    {
+     "p": "esse",
+     "i": 19.031,
+     "f": 19.214
+    },
+    {
+     "p": "calor",
+     "i": 19.227,
+     "f": 19.552
+    },
+    {
+     "p": "até",
+     "i": 19.565,
+     "f": 19.786
+    },
+    {
+     "p": "grandes",
+     "i": 19.799,
+     "f": 20.229
+    },
+    {
+     "p": "radiadores",
+     "i": 20.242,
+     "f": 20.932
+    },
+    {
+     "p": "que",
+     "i": 21.141,
+     "f": 21.258
+    },
+    {
+     "p": "o",
+     "i": 21.271,
+     "f": 21.31
+    },
+    {
+     "p": "jogam",
+     "i": 21.323,
+     "f": 21.74
+    },
+    {
+     "p": "para",
+     "i": 21.753,
+     "f": 21.909
+    },
+    {
+     "p": "o",
+     "i": 21.922,
+     "f": 21.948
+    },
+    {
+     "p": "espaço",
+     "i": 21.961,
+     "f": 22.508
+    }
+   ]
+  },
+  "agua": {
+   "hash": "71eb080c17",
+   "texto": "Agora a água. Um brasileiro consome perto de cento e cinquenta litros por dia, segundo o SNIS, o sistema nacional de saneamento. Na estação, cada gota conta, porque levar um litro da Terra exige foguete. Então tudo é reaproveitado: a água do banho, do suor, da respiração e da urina. Em 2023, a NASA anunciou que o sistema recupera noventa e oito por cento.",
+   "audio": "audio/agua-71eb080c17.mp3",
+   "duracao": 25.226,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.545
+    },
+    {
+     "p": "a",
+     "i": 0.558,
+     "f": 0.584
+    },
+    {
+     "p": "água",
+     "i": 0.597,
+     "f": 1.04
+    },
+    {
+     "p": "Um",
+     "i": 1.322,
+     "f": 1.452
+    },
+    {
+     "p": "brasileiro",
+     "i": 1.465,
+     "f": 2.012
+    },
+    {
+     "p": "consome",
+     "i": 2.025,
+     "f": 2.559
+    },
+    {
+     "p": "perto",
+     "i": 2.572,
+     "f": 2.937
+    },
+    {
+     "p": "de",
+     "i": 2.95,
+     "f": 3.08
+    },
+    {
+     "p": "cento",
+     "i": 3.093,
+     "f": 3.431
+    },
+    {
+     "p": "e",
+     "i": 3.444,
+     "f": 3.484
+    },
+    {
+     "p": "cinquenta",
+     "i": 3.497,
+     "f": 3.978
+    },
+    {
+     "p": "litros",
+     "i": 3.991,
+     "f": 4.395
+    },
+    {
+     "p": "por",
+     "i": 4.408,
+     "f": 4.616
+    },
+    {
+     "p": "dia",
+     "i": 4.629,
+     "f": 4.942
+    },
+    {
+     "p": "segundo",
+     "i": 5.267,
+     "f": 5.619
+    },
+    {
+     "p": "o",
+     "i": 5.632,
+     "f": 5.658
+    },
+    {
+     "p": "SNIS",
+     "i": 5.671,
+     "f": 6.049
+    },
+    {
+     "p": "o",
+     "i": 6.387,
+     "f": 6.439
+    },
+    {
+     "p": "sistema",
+     "i": 6.452,
+     "f": 6.882
+    },
+    {
+     "p": "nacional",
+     "i": 6.895,
+     "f": 7.39
+    },
+    {
+     "p": "de",
+     "i": 7.403,
+     "f": 7.507
+    },
+    {
+     "p": "saneamento",
+     "i": 7.52,
+     "f": 8.223
+    },
+    {
+     "p": "Na",
+     "i": 8.505,
+     "f": 8.7
+    },
+    {
+     "p": "estação",
+     "i": 8.713,
+     "f": 9.299
+    },
+    {
+     "p": "cada",
+     "i": 9.534,
+     "f": 9.807
+    },
+    {
+     "p": "gota",
+     "i": 9.82,
+     "f": 10.107
+    },
+    {
+     "p": "conta",
+     "i": 10.12,
+     "f": 10.497
+    },
+    {
+     "p": "porque",
+     "i": 10.771,
+     "f": 11.057
+    },
+    {
+     "p": "levar",
+     "i": 11.07,
+     "f": 11.396
+    },
+    {
+     "p": "um",
+     "i": 11.409,
+     "f": 11.513
+    },
+    {
+     "p": "litro",
+     "i": 11.526,
+     "f": 11.851
+    },
+    {
+     "p": "da",
+     "i": 11.864,
+     "f": 11.995
+    },
+    {
+     "p": "Terra",
+     "i": 12.008,
+     "f": 12.268
+    },
+    {
+     "p": "exige",
+     "i": 12.281,
+     "f": 12.698
+    },
+    {
+     "p": "foguete",
+     "i": 12.711,
+     "f": 13.284
+    },
+    {
+     "p": "Então",
+     "i": 13.566,
+     "f": 14.061
+    },
+    {
+     "p": "tudo",
+     "i": 14.074,
+     "f": 14.347
+    },
+    {
+     "p": "é",
+     "i": 14.36,
+     "f": 14.412
+    },
+    {
+     "p": "reaproveitado",
+     "i": 14.425,
+     "f": 15.311
+    },
+    {
+     "p": "a",
+     "i": 15.571,
+     "f": 15.662
+    },
+    {
+     "p": "água",
+     "i": 15.675,
+     "f": 16.014
+    },
+    {
+     "p": "do",
+     "i": 16.027,
+     "f": 16.131
+    },
+    {
+     "p": "banho",
+     "i": 16.144,
+     "f": 16.522
+    },
+    {
+     "p": "do",
+     "i": 16.821,
+     "f": 17.004
+    },
+    {
+     "p": "suor",
+     "i": 17.017,
+     "f": 17.381
+    },
+    {
+     "p": "da",
+     "i": 17.642,
+     "f": 17.772
+    },
+    {
+     "p": "respiração",
+     "i": 17.785,
+     "f": 18.566
+    },
+    {
+     "p": "e",
+     "i": 18.579,
+     "f": 18.618
+    },
+    {
+     "p": "da",
+     "i": 18.631,
+     "f": 18.8
+    },
+    {
+     "p": "urina",
+     "i": 18.813,
+     "f": 19.269
+    },
+    {
+     "p": "Em 2023",
+     "i": 19.552,
+     "f": 20.854
+    },
+    {
+     "p": "a",
+     "i": 21.076,
+     "f": 21.154
+    },
+    {
+     "p": "NASA",
+     "i": 21.167,
+     "f": 21.505
+    },
+    {
+     "p": "anunciou",
+     "i": 21.518,
+     "f": 22.026
+    },
+    {
+     "p": "que",
+     "i": 22.039,
+     "f": 22.104
+    },
+    {
+     "p": "o",
+     "i": 22.117,
+     "f": 22.156
+    },
+    {
+     "p": "sistema",
+     "i": 22.169,
+     "f": 22.651
+    },
+    {
+     "p": "recupera",
+     "i": 22.664,
+     "f": 23.146
+    },
+    {
+     "p": "noventa",
+     "i": 23.159,
+     "f": 23.589
+    },
+    {
+     "p": "e",
+     "i": 23.602,
+     "f": 23.628
+    },
+    {
+     "p": "oito",
+     "i": 23.641,
+     "f": 23.901
+    },
+    {
+     "p": "por",
+     "i": 23.914,
+     "f": 24.07
+    },
+    {
+     "p": "cento",
+     "i": 24.083,
+     "f": 24.526
+    }
+   ]
+  },
+  "ar": {
+   "hash": "50d36a8927",
+   "texto": "Do mesmo ciclo vem o ar. A estação separa a água por eletrólise, e o oxigênio vai para a cabine. O gás carbônico que a tripulação expira é capturado, e parte dele reage com hidrogênio para virar água de novo. Um ciclo quase fechado. Mas quase não é totalmente: há perdas, filtros que se esgotam, e peças que precisam ser trocadas por outras, que vieram da Terra.",
+   "audio": "audio/ar-50d36a8927.mp3",
+   "duracao": 24.145,
+   "palavras": [
+    {
+     "p": "Do",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "mesmo",
+     "i": 0.297,
+     "f": 0.701
+    },
+    {
+     "p": "ciclo",
+     "i": 0.714,
+     "f": 1.183
+    },
+    {
+     "p": "vem",
+     "i": 1.196,
+     "f": 1.43
+    },
+    {
+     "p": "o",
+     "i": 1.443,
+     "f": 1.547
+    },
+    {
+     "p": "ar.",
+     "i": 1.56,
+     "f": 1.756
+    },
+    {
+     "p": "A",
+     "i": 2.038,
+     "f": 2.142
+    },
+    {
+     "p": "estação",
+     "i": 2.155,
+     "f": 2.663
+    },
+    {
+     "p": "separa",
+     "i": 2.676,
+     "f": 3.041
+    },
+    {
+     "p": "a",
+     "i": 3.054,
+     "f": 3.08
+    },
+    {
+     "p": "água",
+     "i": 3.093,
+     "f": 3.405
+    },
+    {
+     "p": "por",
+     "i": 3.418,
+     "f": 3.562
+    },
+    {
+     "p": "eletrólise",
+     "i": 3.575,
+     "f": 4.187
+    },
+    {
+     "p": "e",
+     "i": 4.486,
+     "f": 4.577
+    },
+    {
+     "p": "o",
+     "i": 4.59,
+     "f": 4.629
+    },
+    {
+     "p": "oxigênio",
+     "i": 4.642,
+     "f": 5.358
+    },
+    {
+     "p": "vai",
+     "i": 5.371,
+     "f": 5.528
+    },
+    {
+     "p": "para",
+     "i": 5.541,
+     "f": 5.71
+    },
+    {
+     "p": "a",
+     "i": 5.723,
+     "f": 5.749
+    },
+    {
+     "p": "cabine",
+     "i": 5.762,
+     "f": 6.27
+    },
+    {
+     "p": "O",
+     "i": 6.552,
+     "f": 6.669
+    },
+    {
+     "p": "gás",
+     "i": 6.682,
+     "f": 6.943
+    },
+    {
+     "p": "carbônico",
+     "i": 6.956,
+     "f": 7.646
+    },
+    {
+     "p": "que",
+     "i": 7.659,
+     "f": 7.75
+    },
+    {
+     "p": "a",
+     "i": 7.763,
+     "f": 7.802
+    },
+    {
+     "p": "tripulação",
+     "i": 7.815,
+     "f": 8.427
+    },
+    {
+     "p": "expira",
+     "i": 8.44,
+     "f": 8.792
+    },
+    {
+     "p": "é",
+     "i": 8.805,
+     "f": 8.844
+    },
+    {
+     "p": "capturado",
+     "i": 8.857,
+     "f": 9.573
+    },
+    {
+     "p": "e",
+     "i": 9.911,
+     "f": 10.016
+    },
+    {
+     "p": "parte",
+     "i": 10.029,
+     "f": 10.432
+    },
+    {
+     "p": "dele",
+     "i": 10.445,
+     "f": 10.654
+    },
+    {
+     "p": "reage",
+     "i": 10.667,
+     "f": 11.135
+    },
+    {
+     "p": "com",
+     "i": 11.148,
+     "f": 11.292
+    },
+    {
+     "p": "hidrogênio",
+     "i": 11.305,
+     "f": 11.852
+    },
+    {
+     "p": "para",
+     "i": 11.865,
+     "f": 12.047
+    },
+    {
+     "p": "virar",
+     "i": 12.06,
+     "f": 12.333
+    },
+    {
+     "p": "água",
+     "i": 12.346,
+     "f": 12.633
+    },
+    {
+     "p": "de",
+     "i": 12.646,
+     "f": 12.75
+    },
+    {
+     "p": "novo",
+     "i": 12.763,
+     "f": 13.128
+    },
+    {
+     "p": "Um",
+     "i": 13.41,
+     "f": 13.592
+    },
+    {
+     "p": "ciclo",
+     "i": 13.605,
+     "f": 14.1
+    },
+    {
+     "p": "quase",
+     "i": 14.113,
+     "f": 14.478
+    },
+    {
+     "p": "fechado",
+     "i": 14.491,
+     "f": 15.051
+    },
+    {
+     "p": "Mas",
+     "i": 15.333,
+     "f": 15.659
+    },
+    {
+     "p": "quase",
+     "i": 15.672,
+     "f": 16.101
+    },
+    {
+     "p": "não",
+     "i": 16.114,
+     "f": 16.297
+    },
+    {
+     "p": "é",
+     "i": 16.31,
+     "f": 16.388
+    },
+    {
+     "p": "totalmente",
+     "i": 16.401,
+     "f": 17.13
+    },
+    {
+     "p": "há",
+     "i": 17.351,
+     "f": 17.455
+    },
+    {
+     "p": "perdas",
+     "i": 17.468,
+     "f": 18.015
+    },
+    {
+     "p": "filtros",
+     "i": 18.263,
+     "f": 18.653
+    },
+    {
+     "p": "que",
+     "i": 18.666,
+     "f": 18.771
+    },
+    {
+     "p": "se",
+     "i": 18.784,
+     "f": 18.875
+    },
+    {
+     "p": "esgotam",
+     "i": 18.888,
+     "f": 19.383
+    },
+    {
+     "p": "e",
+     "i": 19.695,
+     "f": 19.812
+    },
+    {
+     "p": "peças",
+     "i": 19.825,
+     "f": 20.229
+    },
+    {
+     "p": "que",
+     "i": 20.242,
+     "f": 20.346
+    },
+    {
+     "p": "precisam",
+     "i": 20.359,
+     "f": 20.776
+    },
+    {
+     "p": "ser",
+     "i": 20.789,
+     "f": 20.945
+    },
+    {
+     "p": "trocadas",
+     "i": 20.958,
+     "f": 21.492
+    },
+    {
+     "p": "por",
+     "i": 21.505,
+     "f": 21.687
+    },
+    {
+     "p": "outras",
+     "i": 21.7,
+     "f": 22.13
+    },
+    {
+     "p": "que",
+     "i": 22.364,
+     "f": 22.508
+    },
+    {
+     "p": "vieram",
+     "i": 22.521,
+     "f": 22.911
+    },
+    {
+     "p": "da",
+     "i": 22.924,
+     "f": 23.068
+    },
+    {
+     "p": "Terra",
+     "i": 23.08,
+     "f": 23.445
+    }
+   ]
+  },
+  "lixo": {
+   "hash": "e601b7740e",
+   "texto": "Resta o lixo. Uma cidade como a nossa produz cerca de um quilo de lixo por pessoa por dia, e um caminhão leva embora. Na estação, ele fica a bordo, compactado e guardado em cargueiros que já cumpriram sua missão. Quando se despedem, eles entram na atmosfera e queimam, junto com tudo o que estava dentro. É o único aterro possível: o céu.",
+   "audio": "audio/lixo-e601b7740e.mp3",
+   "duracao": 22.194,
+   "palavras": [
+    {
+     "p": "Resta",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "o",
+     "i": 0.532,
+     "f": 0.558
+    },
+    {
+     "p": "lixo",
+     "i": 0.571,
+     "f": 1.001
+    },
+    {
+     "p": "Uma",
+     "i": 1.283,
+     "f": 1.504
+    },
+    {
+     "p": "cidade",
+     "i": 1.517,
+     "f": 2.025
+    },
+    {
+     "p": "como",
+     "i": 2.038,
+     "f": 2.221
+    },
+    {
+     "p": "a",
+     "i": 2.234,
+     "f": 2.247
+    },
+    {
+     "p": "nossa",
+     "i": 2.26,
+     "f": 2.559
+    },
+    {
+     "p": "produz",
+     "i": 2.572,
+     "f": 3.028
+    },
+    {
+     "p": "cerca",
+     "i": 3.041,
+     "f": 3.353
+    },
+    {
+     "p": "de",
+     "i": 3.366,
+     "f": 3.458
+    },
+    {
+     "p": "um",
+     "i": 3.471,
+     "f": 3.588
+    },
+    {
+     "p": "quilo",
+     "i": 3.601,
+     "f": 3.9
+    },
+    {
+     "p": "de",
+     "i": 3.913,
+     "f": 4.03
+    },
+    {
+     "p": "lixo",
+     "i": 4.043,
+     "f": 4.382
+    },
+    {
+     "p": "por",
+     "i": 4.395,
+     "f": 4.525
+    },
+    {
+     "p": "pessoa",
+     "i": 4.538,
+     "f": 4.968
+    },
+    {
+     "p": "por",
+     "i": 4.981,
+     "f": 5.163
+    },
+    {
+     "p": "dia",
+     "i": 5.176,
+     "f": 5.528
+    },
+    {
+     "p": "e",
+     "i": 5.827,
+     "f": 5.919
+    },
+    {
+     "p": "um",
+     "i": 5.932,
+     "f": 6.023
+    },
+    {
+     "p": "caminhão",
+     "i": 6.036,
+     "f": 6.517
+    },
+    {
+     "p": "leva",
+     "i": 6.53,
+     "f": 6.791
+    },
+    {
+     "p": "embora",
+     "i": 6.804,
+     "f": 7.247
+    },
+    {
+     "p": "Na",
+     "i": 7.529,
+     "f": 7.698
+    },
+    {
+     "p": "estação",
+     "i": 7.711,
+     "f": 8.271
+    },
+    {
+     "p": "ele",
+     "i": 8.545,
+     "f": 8.727
+    },
+    {
+     "p": "fica",
+     "i": 8.74,
+     "f": 8.987
+    },
+    {
+     "p": "a",
+     "i": 9,
+     "f": 9.026
+    },
+    {
+     "p": "bordo",
+     "i": 9.04,
+     "f": 9.443
+    },
+    {
+     "p": "compactado",
+     "i": 9.743,
+     "f": 10.498
+    },
+    {
+     "p": "e",
+     "i": 10.511,
+     "f": 10.524
+    },
+    {
+     "p": "guardado",
+     "i": 10.537,
+     "f": 11.032
+    },
+    {
+     "p": "em",
+     "i": 11.045,
+     "f": 11.11
+    },
+    {
+     "p": "cargueiros",
+     "i": 11.123,
+     "f": 11.735
+    },
+    {
+     "p": "que",
+     "i": 11.748,
+     "f": 11.839
+    },
+    {
+     "p": "já",
+     "i": 11.852,
+     "f": 12.034
+    },
+    {
+     "p": "cumpriram",
+     "i": 12.047,
+     "f": 12.542
+    },
+    {
+     "p": "sua",
+     "i": 12.555,
+     "f": 12.776
+    },
+    {
+     "p": "missão",
+     "i": 12.789,
+     "f": 13.232
+    },
+    {
+     "p": "Quando",
+     "i": 13.515,
+     "f": 13.854
+    },
+    {
+     "p": "se",
+     "i": 13.867,
+     "f": 13.997
+    },
+    {
+     "p": "despedem",
+     "i": 14.01,
+     "f": 14.635
+    },
+    {
+     "p": "eles",
+     "i": 14.843,
+     "f": 15.012
+    },
+    {
+     "p": "entram",
+     "i": 15.026,
+     "f": 15.416
+    },
+    {
+     "p": "na",
+     "i": 15.429,
+     "f": 15.507
+    },
+    {
+     "p": "atmosfera",
+     "i": 15.52,
+     "f": 16.158
+    },
+    {
+     "p": "e",
+     "i": 16.171,
+     "f": 16.21
+    },
+    {
+     "p": "queimam",
+     "i": 16.223,
+     "f": 16.614
+    },
+    {
+     "p": "junto",
+     "i": 16.953,
+     "f": 17.291
+    },
+    {
+     "p": "com",
+     "i": 17.304,
+     "f": 17.526
+    },
+    {
+     "p": "tudo",
+     "i": 17.539,
+     "f": 17.825
+    },
+    {
+     "p": "o",
+     "i": 17.838,
+     "f": 17.864
+    },
+    {
+     "p": "que",
+     "i": 17.877,
+     "f": 17.968
+    },
+    {
+     "p": "estava",
+     "i": 17.981,
+     "f": 18.359
+    },
+    {
+     "p": "dentro",
+     "i": 18.372,
+     "f": 18.776
+    },
+    {
+     "p": "É",
+     "i": 19.058,
+     "f": 19.188
+    },
+    {
+     "p": "o",
+     "i": 19.201,
+     "f": 19.305
+    },
+    {
+     "p": "único",
+     "i": 19.318,
+     "f": 19.618
+    },
+    {
+     "p": "aterro",
+     "i": 19.631,
+     "f": 20.035
+    },
+    {
+     "p": "possível",
+     "i": 20.048,
+     "f": 20.673
+    },
+    {
+     "p": "o",
+     "i": 20.959,
+     "f": 21.037
+    },
+    {
+     "p": "céu",
+     "i": 21.05,
+     "f": 21.493
+    }
+   ]
+  },
+  "espaco": {
+   "hash": "3f545f9899",
+   "texto": "Quanto espaço cabe? A parte pressurizada, onde se pode viver, tem cerca de trezentos e oitenta e oito metros cúbicos, segundo a NASA. Parece uma casa grande, mas lembre: é para sete pessoas, sem quintal, sem janela para a rua e sem céu azul. A estação pesa cerca de quatrocentas e vinte toneladas, e o interior é cheio de cabos, equipamentos e experimentos.",
+   "audio": "audio/espaco-3f545f9899.mp3",
+   "duracao": 24.807,
+   "palavras": [
+    {
+     "p": "Quanto",
+     "i": 0.102,
+     "f": 0.428
+    },
+    {
+     "p": "espaço",
+     "i": 0.441,
+     "f": 0.909
+    },
+    {
+     "p": "cabe",
+     "i": 0.922,
+     "f": 1.339
+    },
+    {
+     "p": "A",
+     "i": 1.681,
+     "f": 1.811
+    },
+    {
+     "p": "parte",
+     "i": 1.824,
+     "f": 2.189
+    },
+    {
+     "p": "pressurizada",
+     "i": 2.202,
+     "f": 2.944
+    },
+    {
+     "p": "onde",
+     "i": 3.218,
+     "f": 3.465
+    },
+    {
+     "p": "se",
+     "i": 3.478,
+     "f": 3.621
+    },
+    {
+     "p": "pode",
+     "i": 3.634,
+     "f": 3.921
+    },
+    {
+     "p": "viver",
+     "i": 3.934,
+     "f": 4.324
+    },
+    {
+     "p": "tem",
+     "i": 4.572,
+     "f": 4.728
+    },
+    {
+     "p": "cerca",
+     "i": 4.741,
+     "f": 5.145
+    },
+    {
+     "p": "de",
+     "i": 5.158,
+     "f": 5.275
+    },
+    {
+     "p": "trezentos",
+     "i": 5.288,
+     "f": 5.796
+    },
+    {
+     "p": "e",
+     "i": 5.809,
+     "f": 5.9
+    },
+    {
+     "p": "oitenta",
+     "i": 5.913,
+     "f": 6.251
+    },
+    {
+     "p": "e",
+     "i": 6.264,
+     "f": 6.29
+    },
+    {
+     "p": "oito",
+     "i": 6.303,
+     "f": 6.551
+    },
+    {
+     "p": "metros",
+     "i": 6.564,
+     "f": 6.994
+    },
+    {
+     "p": "cúbicos",
+     "i": 7.007,
+     "f": 7.58
+    },
+    {
+     "p": "segundo",
+     "i": 7.827,
+     "f": 8.309
+    },
+    {
+     "p": "a",
+     "i": 8.322,
+     "f": 8.387
+    },
+    {
+     "p": "NASA",
+     "i": 8.4,
+     "f": 8.816
+    },
+    {
+     "p": "Parece",
+     "i": 9.098,
+     "f": 9.567
+    },
+    {
+     "p": "uma",
+     "i": 9.58,
+     "f": 9.749
+    },
+    {
+     "p": "casa",
+     "i": 9.762,
+     "f": 10.101
+    },
+    {
+     "p": "grande",
+     "i": 10.114,
+     "f": 10.543
+    },
+    {
+     "p": "mas",
+     "i": 10.83,
+     "f": 11.077
+    },
+    {
+     "p": "lembre",
+     "i": 11.09,
+     "f": 11.533
+    },
+    {
+     "p": "é",
+     "i": 11.819,
+     "f": 11.911
+    },
+    {
+     "p": "para",
+     "i": 11.924,
+     "f": 12.158
+    },
+    {
+     "p": "sete",
+     "i": 12.171,
+     "f": 12.51
+    },
+    {
+     "p": "pessoas",
+     "i": 12.523,
+     "f": 13.135
+    },
+    {
+     "p": "sem",
+     "i": 13.382,
+     "f": 13.59
+    },
+    {
+     "p": "quintal",
+     "i": 13.603,
+     "f": 14.111
+    },
+    {
+     "p": "sem",
+     "i": 14.424,
+     "f": 14.632
+    },
+    {
+     "p": "janela",
+     "i": 14.645,
+     "f": 15.153
+    },
+    {
+     "p": "para",
+     "i": 15.166,
+     "f": 15.335
+    },
+    {
+     "p": "a",
+     "i": 15.348,
+     "f": 15.374
+    },
+    {
+     "p": "rua",
+     "i": 15.387,
+     "f": 15.622
+    },
+    {
+     "p": "e",
+     "i": 15.635,
+     "f": 15.7
+    },
+    {
+     "p": "sem",
+     "i": 15.713,
+     "f": 15.947
+    },
+    {
+     "p": "céu",
+     "i": 15.96,
+     "f": 16.26
+    },
+    {
+     "p": "azul",
+     "i": 16.273,
+     "f": 16.663
+    },
+    {
+     "p": "A",
+     "i": 16.945,
+     "f": 17.049
+    },
+    {
+     "p": "estação",
+     "i": 17.062,
+     "f": 17.609
+    },
+    {
+     "p": "pesa",
+     "i": 17.622,
+     "f": 17.883
+    },
+    {
+     "p": "cerca",
+     "i": 17.896,
+     "f": 18.26
+    },
+    {
+     "p": "de",
+     "i": 18.273,
+     "f": 18.377
+    },
+    {
+     "p": "quatrocentas",
+     "i": 18.39,
+     "f": 19.081
+    },
+    {
+     "p": "e",
+     "i": 19.094,
+     "f": 19.211
+    },
+    {
+     "p": "vinte",
+     "i": 19.224,
+     "f": 19.484
+    },
+    {
+     "p": "toneladas",
+     "i": 19.497,
+     "f": 20.174
+    },
+    {
+     "p": "e",
+     "i": 20.513,
+     "f": 20.578
+    },
+    {
+     "p": "o",
+     "i": 20.591,
+     "f": 20.617
+    },
+    {
+     "p": "interior",
+     "i": 20.63,
+     "f": 21.164
+    },
+    {
+     "p": "é",
+     "i": 21.177,
+     "f": 21.229
+    },
+    {
+     "p": "cheio",
+     "i": 21.242,
+     "f": 21.607
+    },
+    {
+     "p": "de",
+     "i": 21.62,
+     "f": 21.737
+    },
+    {
+     "p": "cabos",
+     "i": 21.75,
+     "f": 22.232
+    },
+    {
+     "p": "equipamentos",
+     "i": 22.479,
+     "f": 23.143
+    },
+    {
+     "p": "e",
+     "i": 23.156,
+     "f": 23.247
+    },
+    {
+     "p": "experimentos",
+     "i": 23.26,
+     "f": 24.107
+    }
+   ]
+  },
+  "manutencao": {
+   "hash": "c984a91aa2",
+   "texto": "E tem a manutenção. A estação fica na borda da atmosfera, onde ainda existe um pouquinho de ar, que vai freando e fazendo ela perder altitude. De tempos em tempos, motores de cargueiros empurram o conjunto de volta para cima. Também é preciso desviar de lixo espacial, e consertar o que quebra durante caminhadas espaciais, com ferramentas que ninguém encontra na loja da esquina.",
+   "audio": "audio/manutencao-c984a91aa2.mp3",
+   "duracao": 24.174,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "tem",
+     "i": 0.271,
+     "f": 0.493
+    },
+    {
+     "p": "a",
+     "i": 0.506,
+     "f": 0.558
+    },
+    {
+     "p": "manutenção",
+     "i": 0.571,
+     "f": 1.404
+    },
+    {
+     "p": "A",
+     "i": 1.686,
+     "f": 1.79
+    },
+    {
+     "p": "estação",
+     "i": 1.803,
+     "f": 2.324
+    },
+    {
+     "p": "fica",
+     "i": 2.337,
+     "f": 2.598
+    },
+    {
+     "p": "na",
+     "i": 2.611,
+     "f": 2.728
+    },
+    {
+     "p": "borda",
+     "i": 2.741,
+     "f": 3.131
+    },
+    {
+     "p": "da",
+     "i": 3.144,
+     "f": 3.21
+    },
+    {
+     "p": "atmosfera",
+     "i": 3.223,
+     "f": 3.9
+    },
+    {
+     "p": "onde",
+     "i": 4.225,
+     "f": 4.42
+    },
+    {
+     "p": "ainda",
+     "i": 4.433,
+     "f": 4.642
+    },
+    {
+     "p": "existe",
+     "i": 4.655,
+     "f": 5.032
+    },
+    {
+     "p": "um",
+     "i": 5.045,
+     "f": 5.124
+    },
+    {
+     "p": "pouquinho",
+     "i": 5.137,
+     "f": 5.618
+    },
+    {
+     "p": "de",
+     "i": 5.631,
+     "f": 5.749
+    },
+    {
+     "p": "ar",
+     "i": 5.762,
+     "f": 5.983
+    },
+    {
+     "p": "que",
+     "i": 6.269,
+     "f": 6.413
+    },
+    {
+     "p": "vai",
+     "i": 6.426,
+     "f": 6.556
+    },
+    {
+     "p": "freando",
+     "i": 6.569,
+     "f": 7.038
+    },
+    {
+     "p": "e",
+     "i": 7.051,
+     "f": 7.077
+    },
+    {
+     "p": "fazendo",
+     "i": 7.09,
+     "f": 7.519
+    },
+    {
+     "p": "ela",
+     "i": 7.532,
+     "f": 7.689
+    },
+    {
+     "p": "perder",
+     "i": 7.702,
+     "f": 8.066
+    },
+    {
+     "p": "altitude",
+     "i": 8.079,
+     "f": 8.743
+    },
+    {
+     "p": "De",
+     "i": 9.025,
+     "f": 9.259
+    },
+    {
+     "p": "tempos",
+     "i": 9.272,
+     "f": 9.611
+    },
+    {
+     "p": "em",
+     "i": 9.624,
+     "f": 9.832
+    },
+    {
+     "p": "tempos",
+     "i": 9.845,
+     "f": 10.314
+    },
+    {
+     "p": "motores",
+     "i": 10.627,
+     "f": 11.147
+    },
+    {
+     "p": "de",
+     "i": 11.16,
+     "f": 11.239
+    },
+    {
+     "p": "cargueiros",
+     "i": 11.252,
+     "f": 11.707
+    },
+    {
+     "p": "empurram",
+     "i": 11.72,
+     "f": 12.332
+    },
+    {
+     "p": "o",
+     "i": 12.345,
+     "f": 12.384
+    },
+    {
+     "p": "conjunto",
+     "i": 12.397,
+     "f": 12.931
+    },
+    {
+     "p": "de",
+     "i": 12.944,
+     "f": 13.049
+    },
+    {
+     "p": "volta",
+     "i": 13.062,
+     "f": 13.452
+    },
+    {
+     "p": "para",
+     "i": 13.465,
+     "f": 13.661
+    },
+    {
+     "p": "cima",
+     "i": 13.674,
+     "f": 14.09
+    },
+    {
+     "p": "Também",
+     "i": 14.372,
+     "f": 14.828
+    },
+    {
+     "p": "é",
+     "i": 14.841,
+     "f": 14.893
+    },
+    {
+     "p": "preciso",
+     "i": 14.906,
+     "f": 15.375
+    },
+    {
+     "p": "desviar",
+     "i": 15.388,
+     "f": 15.909
+    },
+    {
+     "p": "de",
+     "i": 15.922,
+     "f": 16.052
+    },
+    {
+     "p": "lixo",
+     "i": 16.065,
+     "f": 16.325
+    },
+    {
+     "p": "espacial",
+     "i": 16.338,
+     "f": 17.041
+    },
+    {
+     "p": "e",
+     "i": 17.38,
+     "f": 17.458
+    },
+    {
+     "p": "consertar",
+     "i": 17.471,
+     "f": 18.161
+    },
+    {
+     "p": "o",
+     "i": 18.174,
+     "f": 18.226
+    },
+    {
+     "p": "que",
+     "i": 18.239,
+     "f": 18.369
+    },
+    {
+     "p": "quebra",
+     "i": 18.382,
+     "f": 18.656
+    },
+    {
+     "p": "durante",
+     "i": 18.669,
+     "f": 18.994
+    },
+    {
+     "p": "caminhadas",
+     "i": 19.007,
+     "f": 19.502
+    },
+    {
+     "p": "espaciais",
+     "i": 19.515,
+     "f": 20.362
+    },
+    {
+     "p": "com",
+     "i": 20.609,
+     "f": 20.765
+    },
+    {
+     "p": "ferramentas",
+     "i": 20.778,
+     "f": 21.455
+    },
+    {
+     "p": "que",
+     "i": 21.468,
+     "f": 21.56
+    },
+    {
+     "p": "ninguém",
+     "i": 21.573,
+     "f": 21.963
+    },
+    {
+     "p": "encontra",
+     "i": 21.976,
+     "f": 22.393
+    },
+    {
+     "p": "na",
+     "i": 22.406,
+     "f": 22.51
+    },
+    {
+     "p": "loja",
+     "i": 22.523,
+     "f": 22.875
+    },
+    {
+     "p": "da",
+     "i": 22.888,
+     "f": 22.979
+    },
+    {
+     "p": "esquina",
+     "i": 22.992,
+     "f": 23.474
+    }
+   ]
+  },
+  "estoque-2015": {
+   "hash": "eeff4a4b40",
+   "texto": "E se a entrega falhar? Em uma cidade, o caminhão atrasa um dia. Na estação, em outubro de 2014, um foguete Antares explodiu logo após a decolagem. Em abril de 2015, uma Progress russa saiu de controle. Em junho, um Falcon 9 se desintegrou no ar. Três cargueiros perdidos em oito meses. A estação tinha estoque para alguns meses, mas a margem foi apertando.",
+   "audio": "audio/estoque-2015-eeff4a4b40.mp3",
+   "duracao": 26.032,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "se",
+     "i": 0.258,
+     "f": 0.402
+    },
+    {
+     "p": "a",
+     "i": 0.415,
+     "f": 0.454
+    },
+    {
+     "p": "entrega",
+     "i": 0.467,
+     "f": 0.935
+    },
+    {
+     "p": "falhar",
+     "i": 0.948,
+     "f": 1.391
+    },
+    {
+     "p": "Em",
+     "i": 1.733,
+     "f": 1.863
+    },
+    {
+     "p": "uma",
+     "i": 1.876,
+     "f": 2.046
+    },
+    {
+     "p": "cidade",
+     "i": 2.059,
+     "f": 2.593
+    },
+    {
+     "p": "o",
+     "i": 2.814,
+     "f": 2.879
+    },
+    {
+     "p": "caminhão",
+     "i": 2.892,
+     "f": 3.374
+    },
+    {
+     "p": "atrasa",
+     "i": 3.387,
+     "f": 3.803
+    },
+    {
+     "p": "um",
+     "i": 3.816,
+     "f": 3.921
+    },
+    {
+     "p": "dia",
+     "i": 3.934,
+     "f": 4.298
+    },
+    {
+     "p": "Na",
+     "i": 4.58,
+     "f": 4.762
+    },
+    {
+     "p": "estação",
+     "i": 4.775,
+     "f": 5.348
+    },
+    {
+     "p": "em",
+     "i": 5.661,
+     "f": 5.765
+    },
+    {
+     "p": "outubro",
+     "i": 5.778,
+     "f": 6.26
+    },
+    {
+     "p": "de",
+     "i": 6.273,
+     "f": 6.364
+    },
+    {
+     "p": "2014",
+     "i": 6.377,
+     "f": 7.38
+    },
+    {
+     "p": "um",
+     "i": 7.692,
+     "f": 7.822
+    },
+    {
+     "p": "foguete",
+     "i": 7.835,
+     "f": 8.278
+    },
+    {
+     "p": "Antares",
+     "i": 8.291,
+     "f": 8.708
+    },
+    {
+     "p": "explodiu",
+     "i": 8.721,
+     "f": 9.294
+    },
+    {
+     "p": "logo",
+     "i": 9.307,
+     "f": 9.632
+    },
+    {
+     "p": "após",
+     "i": 9.645,
+     "f": 9.932
+    },
+    {
+     "p": "a",
+     "i": 9.945,
+     "f": 10.049
+    },
+    {
+     "p": "decolagem",
+     "i": 10.062,
+     "f": 10.739
+    },
+    {
+     "p": "Em",
+     "i": 11.022,
+     "f": 11.204
+    },
+    {
+     "p": "abril",
+     "i": 11.217,
+     "f": 11.595
+    },
+    {
+     "p": "de",
+     "i": 11.608,
+     "f": 11.699
+    },
+    {
+     "p": "2015",
+     "i": 11.712,
+     "f": 12.546
+    },
+    {
+     "p": "uma",
+     "i": 12.858,
+     "f": 13.079
+    },
+    {
+     "p": "Progress",
+     "i": 13.092,
+     "f": 13.6
+    },
+    {
+     "p": "russa",
+     "i": 13.613,
+     "f": 13.939
+    },
+    {
+     "p": "saiu",
+     "i": 13.952,
+     "f": 14.303
+    },
+    {
+     "p": "de",
+     "i": 14.316,
+     "f": 14.408
+    },
+    {
+     "p": "controle",
+     "i": 14.421,
+     "f": 14.993
+    },
+    {
+     "p": "Em",
+     "i": 15.275,
+     "f": 15.457
+    },
+    {
+     "p": "junho",
+     "i": 15.47,
+     "f": 15.861
+    },
+    {
+     "p": "um",
+     "i": 16.148,
+     "f": 16.278
+    },
+    {
+     "p": "Falcon",
+     "i": 16.291,
+     "f": 16.655
+    },
+    {
+     "p": "9 se",
+     "i": 16.668,
+     "f": 17.189
+    },
+    {
+     "p": "desintegrou",
+     "i": 17.202,
+     "f": 17.775
+    },
+    {
+     "p": "no",
+     "i": 17.788,
+     "f": 17.905
+    },
+    {
+     "p": "ar.",
+     "i": 17.918,
+     "f": 18.101
+    },
+    {
+     "p": "Três",
+     "i": 18.383,
+     "f": 18.683
+    },
+    {
+     "p": "cargueiros",
+     "i": 18.696,
+     "f": 19.282
+    },
+    {
+     "p": "perdidos",
+     "i": 19.295,
+     "f": 19.815
+    },
+    {
+     "p": "em",
+     "i": 19.828,
+     "f": 20.024
+    },
+    {
+     "p": "oito",
+     "i": 20.037,
+     "f": 20.297
+    },
+    {
+     "p": "meses",
+     "i": 20.31,
+     "f": 20.844
+    },
+    {
+     "p": "A",
+     "i": 21.126,
+     "f": 21.243
+    },
+    {
+     "p": "estação",
+     "i": 21.256,
+     "f": 21.803
+    },
+    {
+     "p": "tinha",
+     "i": 21.816,
+     "f": 22.025
+    },
+    {
+     "p": "estoque",
+     "i": 22.038,
+     "f": 22.506
+    },
+    {
+     "p": "para",
+     "i": 22.519,
+     "f": 22.663
+    },
+    {
+     "p": "alguns",
+     "i": 22.676,
+     "f": 23.001
+    },
+    {
+     "p": "meses",
+     "i": 23.014,
+     "f": 23.548
+    },
+    {
+     "p": "mas",
+     "i": 23.795,
+     "f": 23.926
+    },
+    {
+     "p": "a",
+     "i": 23.939,
+     "f": 24.082
+    },
+    {
+     "p": "margem",
+     "i": 24.095,
+     "f": 24.525
+    },
+    {
+     "p": "foi",
+     "i": 24.538,
+     "f": 24.681
+    },
+    {
+     "p": "apertando",
+     "i": 24.694,
+     "f": 25.332
+    }
+   ]
+  },
+  "quem-cuida": {
+   "hash": "a1cc90cac2",
+   "texto": "E quem cuida de tudo isso? Numa cidade de dez mil pessoas há médico, padeiro, eletricista e encanador. Na estação são sete, e cada um precisa saber um pouco de tudo, de primeiros socorros a hidráulica. Atrás deles, equipes de controle em Houston e Moscou trabalham vinte e quatro horas por dia, acompanhando cada válvula, cada temperatura e cada segundo da órbita.",
+   "audio": "audio/quem-cuida-a1cc90cac2.mp3",
+   "duracao": 23.61,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "quem",
+     "i": 0.245,
+     "f": 0.48
+    },
+    {
+     "p": "cuida",
+     "i": 0.493,
+     "f": 0.818
+    },
+    {
+     "p": "de",
+     "i": 0.831,
+     "f": 0.988
+    },
+    {
+     "p": "tudo",
+     "i": 1.001,
+     "f": 1.326
+    },
+    {
+     "p": "isso",
+     "i": 1.339,
+     "f": 1.665
+    },
+    {
+     "p": "Numa",
+     "i": 2.007,
+     "f": 2.281
+    },
+    {
+     "p": "cidade",
+     "i": 2.294,
+     "f": 2.762
+    },
+    {
+     "p": "de",
+     "i": 2.775,
+     "f": 2.893
+    },
+    {
+     "p": "dez",
+     "i": 2.906,
+     "f": 3.179
+    },
+    {
+     "p": "mil",
+     "i": 3.192,
+     "f": 3.387
+    },
+    {
+     "p": "pessoas",
+     "i": 3.4,
+     "f": 3.843
+    },
+    {
+     "p": "há",
+     "i": 3.856,
+     "f": 3.986
+    },
+    {
+     "p": "médico",
+     "i": 3.999,
+     "f": 4.481
+    },
+    {
+     "p": "padeiro",
+     "i": 4.715,
+     "f": 5.288
+    },
+    {
+     "p": "eletricista",
+     "i": 5.471,
+     "f": 6.187
+    },
+    {
+     "p": "e",
+     "i": 6.2,
+     "f": 6.226
+    },
+    {
+     "p": "encanador",
+     "i": 6.239,
+     "f": 6.825
+    },
+    {
+     "p": "Na",
+     "i": 7.107,
+     "f": 7.25
+    },
+    {
+     "p": "estação",
+     "i": 7.263,
+     "f": 7.732
+    },
+    {
+     "p": "são",
+     "i": 7.745,
+     "f": 7.993
+    },
+    {
+     "p": "sete",
+     "i": 8.006,
+     "f": 8.487
+    },
+    {
+     "p": "e",
+     "i": 8.735,
+     "f": 8.839
+    },
+    {
+     "p": "cada",
+     "i": 8.852,
+     "f": 9.112
+    },
+    {
+     "p": "um",
+     "i": 9.125,
+     "f": 9.256
+    },
+    {
+     "p": "precisa",
+     "i": 9.269,
+     "f": 9.698
+    },
+    {
+     "p": "saber",
+     "i": 9.711,
+     "f": 9.998
+    },
+    {
+     "p": "um",
+     "i": 10.011,
+     "f": 10.115
+    },
+    {
+     "p": "pouco",
+     "i": 10.128,
+     "f": 10.44
+    },
+    {
+     "p": "de",
+     "i": 10.453,
+     "f": 10.61
+    },
+    {
+     "p": "tudo",
+     "i": 10.623,
+     "f": 10.935
+    },
+    {
+     "p": "de",
+     "i": 11.222,
+     "f": 11.339
+    },
+    {
+     "p": "primeiros",
+     "i": 11.352,
+     "f": 11.769
+    },
+    {
+     "p": "socorros",
+     "i": 11.782,
+     "f": 12.25
+    },
+    {
+     "p": "a",
+     "i": 12.263,
+     "f": 12.407
+    },
+    {
+     "p": "hidráulica",
+     "i": 12.42,
+     "f": 13.006
+    },
+    {
+     "p": "Atrás",
+     "i": 13.288,
+     "f": 13.77
+    },
+    {
+     "p": "deles",
+     "i": 13.783,
+     "f": 14.213
+    },
+    {
+     "p": "equipes",
+     "i": 14.486,
+     "f": 14.929
+    },
+    {
+     "p": "de",
+     "i": 14.942,
+     "f": 15.033
+    },
+    {
+     "p": "controle",
+     "i": 15.046,
+     "f": 15.463
+    },
+    {
+     "p": "em",
+     "i": 15.476,
+     "f": 15.541
+    },
+    {
+     "p": "Houston",
+     "i": 15.554,
+     "f": 16.048
+    },
+    {
+     "p": "e",
+     "i": 16.062,
+     "f": 16.088
+    },
+    {
+     "p": "Moscou",
+     "i": 16.101,
+     "f": 16.543
+    },
+    {
+     "p": "trabalham",
+     "i": 16.556,
+     "f": 17.038
+    },
+    {
+     "p": "vinte",
+     "i": 17.051,
+     "f": 17.338
+    },
+    {
+     "p": "e",
+     "i": 17.351,
+     "f": 17.364
+    },
+    {
+     "p": "quatro",
+     "i": 17.377,
+     "f": 17.689
+    },
+    {
+     "p": "horas",
+     "i": 17.702,
+     "f": 18.028
+    },
+    {
+     "p": "por",
+     "i": 18.041,
+     "f": 18.21
+    },
+    {
+     "p": "dia",
+     "i": 18.223,
+     "f": 18.535
+    },
+    {
+     "p": "acompanhando",
+     "i": 18.822,
+     "f": 19.512
+    },
+    {
+     "p": "cada",
+     "i": 19.525,
+     "f": 19.799
+    },
+    {
+     "p": "válvula",
+     "i": 19.812,
+     "f": 20.28
+    },
+    {
+     "p": "cada",
+     "i": 20.489,
+     "f": 20.723
+    },
+    {
+     "p": "temperatura",
+     "i": 20.736,
+     "f": 21.4
+    },
+    {
+     "p": "e",
+     "i": 21.413,
+     "f": 21.478
+    },
+    {
+     "p": "cada",
+     "i": 21.491,
+     "f": 21.739
+    },
+    {
+     "p": "segundo",
+     "i": 21.752,
+     "f": 22.233
+    },
+    {
+     "p": "da",
+     "i": 22.246,
+     "f": 22.39
+    },
+    {
+     "p": "órbita",
+     "i": 22.403,
+     "f": 22.91
+    }
+   ]
+  },
+  "fim-da-estacao": {
+   "hash": "625c6efd16",
+   "texto": "O que acontece quando a casa fica velha? A NASA planeja aposentar a estação por volta de 2030. Em 2024, contratou a SpaceX para construir um veículo que vai empurrá-la, de forma controlada, até o Oceano Pacífico Sul, o mesmo destino da estação russa Mir, em 2001. O contrato passa de oitocentos milhões de dólares. Tirar a cidade do ar também tem preço.",
+   "audio": "audio/fim-da-estacao-625c6efd16.mp3",
+   "duracao": 25.324,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "que",
+     "i": 0.245,
+     "f": 0.363
+    },
+    {
+     "p": "acontece",
+     "i": 0.376,
+     "f": 1.092
+    },
+    {
+     "p": "quando",
+     "i": 1.105,
+     "f": 1.313
+    },
+    {
+     "p": "a",
+     "i": 1.326,
+     "f": 1.391
+    },
+    {
+     "p": "casa",
+     "i": 1.404,
+     "f": 1.743
+    },
+    {
+     "p": "fica",
+     "i": 1.756,
+     "f": 2.081
+    },
+    {
+     "p": "velha",
+     "i": 2.094,
+     "f": 2.485
+    },
+    {
+     "p": "A",
+     "i": 2.827,
+     "f": 2.957
+    },
+    {
+     "p": "NASA",
+     "i": 2.97,
+     "f": 3.322
+    },
+    {
+     "p": "planeja",
+     "i": 3.335,
+     "f": 3.752
+    },
+    {
+     "p": "aposentar",
+     "i": 3.765,
+     "f": 4.285
+    },
+    {
+     "p": "a",
+     "i": 4.298,
+     "f": 4.338
+    },
+    {
+     "p": "estação",
+     "i": 4.351,
+     "f": 4.871
+    },
+    {
+     "p": "por",
+     "i": 4.884,
+     "f": 5.041
+    },
+    {
+     "p": "volta",
+     "i": 5.054,
+     "f": 5.431
+    },
+    {
+     "p": "de",
+     "i": 5.444,
+     "f": 5.535
+    },
+    {
+     "p": "2030",
+     "i": 5.548,
+     "f": 6.434
+    },
+    {
+     "p": "Em 2024",
+     "i": 6.716,
+     "f": 7.992
+    },
+    {
+     "p": "contratou",
+     "i": 8.305,
+     "f": 8.838
+    },
+    {
+     "p": "a",
+     "i": 8.851,
+     "f": 8.878
+    },
+    {
+     "p": "SpaceX",
+     "i": 8.891,
+     "f": 9.62
+    },
+    {
+     "p": "para",
+     "i": 9.633,
+     "f": 9.815
+    },
+    {
+     "p": "construir",
+     "i": 9.828,
+     "f": 10.284
+    },
+    {
+     "p": "um",
+     "i": 10.297,
+     "f": 10.388
+    },
+    {
+     "p": "veículo",
+     "i": 10.401,
+     "f": 10.896
+    },
+    {
+     "p": "que",
+     "i": 10.909,
+     "f": 11.013
+    },
+    {
+     "p": "vai",
+     "i": 11.026,
+     "f": 11.169
+    },
+    {
+     "p": "empurrá-la",
+     "i": 11.182,
+     "f": 11.755
+    },
+    {
+     "p": "de",
+     "i": 11.963,
+     "f": 12.094
+    },
+    {
+     "p": "forma",
+     "i": 12.107,
+     "f": 12.471
+    },
+    {
+     "p": "controlada",
+     "i": 12.484,
+     "f": 13.096
+    },
+    {
+     "p": "até",
+     "i": 13.344,
+     "f": 13.63
+    },
+    {
+     "p": "o",
+     "i": 13.643,
+     "f": 13.669
+    },
+    {
+     "p": "Oceano",
+     "i": 13.682,
+     "f": 14.151
+    },
+    {
+     "p": "Pacífico",
+     "i": 14.164,
+     "f": 14.763
+    },
+    {
+     "p": "Sul",
+     "i": 14.776,
+     "f": 15.076
+    },
+    {
+     "p": "o",
+     "i": 15.375,
+     "f": 15.479
+    },
+    {
+     "p": "mesmo",
+     "i": 15.492,
+     "f": 15.896
+    },
+    {
+     "p": "destino",
+     "i": 15.909,
+     "f": 16.365
+    },
+    {
+     "p": "da",
+     "i": 16.378,
+     "f": 16.456
+    },
+    {
+     "p": "estação",
+     "i": 16.469,
+     "f": 16.937
+    },
+    {
+     "p": "russa",
+     "i": 16.95,
+     "f": 17.289
+    },
+    {
+     "p": "Mir",
+     "i": 17.302,
+     "f": 17.562
+    },
+    {
+     "p": "em 2001",
+     "i": 17.81,
+     "f": 18.617
+    },
+    {
+     "p": "O",
+     "i": 18.899,
+     "f": 19.003
+    },
+    {
+     "p": "contrato",
+     "i": 19.016,
+     "f": 19.628
+    },
+    {
+     "p": "passa",
+     "i": 19.641,
+     "f": 20.019
+    },
+    {
+     "p": "de",
+     "i": 20.032,
+     "f": 20.136
+    },
+    {
+     "p": "oitocentos",
+     "i": 20.149,
+     "f": 20.865
+    },
+    {
+     "p": "milhões",
+     "i": 20.878,
+     "f": 21.36
+    },
+    {
+     "p": "de",
+     "i": 21.373,
+     "f": 21.464
+    },
+    {
+     "p": "dólares",
+     "i": 21.477,
+     "f": 22.05
+    },
+    {
+     "p": "Tirar",
+     "i": 22.332,
+     "f": 22.671
+    },
+    {
+     "p": "a",
+     "i": 22.684,
+     "f": 22.736
+    },
+    {
+     "p": "cidade",
+     "i": 22.749,
+     "f": 23.244
+    },
+    {
+     "p": "do",
+     "i": 23.257,
+     "f": 23.4
+    },
+    {
+     "p": "ar",
+     "i": 23.413,
+     "f": 23.582
+    },
+    {
+     "p": "também",
+     "i": 23.595,
+     "f": 23.986
+    },
+    {
+     "p": "tem",
+     "i": 23.999,
+     "f": 24.168
+    },
+    {
+     "p": "preço",
+     "i": 24.181,
+     "f": 24.624
+    }
+   ]
+  },
+  "conta-final": {
+   "hash": "9cca8b2731",
+   "texto": "Então, quem gasta mais? Em dinheiro, energia por pessoa e logística, a estação gasta incomparavelmente mais. Só que lá nada se joga fora: cada litro, cada watt e cada parafuso é contado. A cidade pode se dar ao luxo de desperdiçar. A estação nunca pôde. E talvez essa seja a maior lição de viver tão longe.",
+   "audio": "audio/conta-final-9cca8b2731.mp3",
+   "duracao": 21.987,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.688
+    },
+    {
+     "p": "quem",
+     "i": 0.922,
+     "f": 1.144
+    },
+    {
+     "p": "gasta",
+     "i": 1.157,
+     "f": 1.508
+    },
+    {
+     "p": "mais",
+     "i": 1.521,
+     "f": 2.003
+    },
+    {
+     "p": "Em",
+     "i": 2.345,
+     "f": 2.501
+    },
+    {
+     "p": "dinheiro",
+     "i": 2.514,
+     "f": 2.97
+    },
+    {
+     "p": "energia",
+     "i": 3.139,
+     "f": 3.712
+    },
+    {
+     "p": "por",
+     "i": 3.725,
+     "f": 3.855
+    },
+    {
+     "p": "pessoa",
+     "i": 3.869,
+     "f": 4.298
+    },
+    {
+     "p": "e",
+     "i": 4.311,
+     "f": 4.324
+    },
+    {
+     "p": "logística",
+     "i": 4.337,
+     "f": 5.04
+    },
+    {
+     "p": "a",
+     "i": 5.314,
+     "f": 5.353
+    },
+    {
+     "p": "estação",
+     "i": 5.366,
+     "f": 5.848
+    },
+    {
+     "p": "gasta",
+     "i": 5.861,
+     "f": 6.225
+    },
+    {
+     "p": "incomparavelmente",
+     "i": 6.238,
+     "f": 7.124
+    },
+    {
+     "p": "mais",
+     "i": 7.137,
+     "f": 7.592
+    },
+    {
+     "p": "Só",
+     "i": 7.875,
+     "f": 8.175
+    },
+    {
+     "p": "que",
+     "i": 8.188,
+     "f": 8.305
+    },
+    {
+     "p": "lá",
+     "i": 8.318,
+     "f": 8.448
+    },
+    {
+     "p": "nada",
+     "i": 8.461,
+     "f": 8.787
+    },
+    {
+     "p": "se",
+     "i": 8.8,
+     "f": 8.93
+    },
+    {
+     "p": "joga",
+     "i": 8.943,
+     "f": 9.268
+    },
+    {
+     "p": "fora",
+     "i": 9.281,
+     "f": 9.672
+    },
+    {
+     "p": "cada",
+     "i": 9.919,
+     "f": 10.206
+    },
+    {
+     "p": "litro",
+     "i": 10.219,
+     "f": 10.649
+    },
+    {
+     "p": "cada",
+     "i": 10.883,
+     "f": 11.156
+    },
+    {
+     "p": "watt",
+     "i": 11.169,
+     "f": 11.56
+    },
+    {
+     "p": "e",
+     "i": 11.573,
+     "f": 11.599
+    },
+    {
+     "p": "cada",
+     "i": 11.612,
+     "f": 11.859
+    },
+    {
+     "p": "parafuso",
+     "i": 11.872,
+     "f": 12.471
+    },
+    {
+     "p": "é",
+     "i": 12.484,
+     "f": 12.55
+    },
+    {
+     "p": "contado",
+     "i": 12.563,
+     "f": 13.149
+    },
+    {
+     "p": "A",
+     "i": 13.431,
+     "f": 13.535
+    },
+    {
+     "p": "cidade",
+     "i": 13.548,
+     "f": 14.082
+    },
+    {
+     "p": "pode",
+     "i": 14.095,
+     "f": 14.369
+    },
+    {
+     "p": "se",
+     "i": 14.382,
+     "f": 14.525
+    },
+    {
+     "p": "dar",
+     "i": 14.538,
+     "f": 14.707
+    },
+    {
+     "p": "ao",
+     "i": 14.72,
+     "f": 14.824
+    },
+    {
+     "p": "luxo",
+     "i": 14.837,
+     "f": 15.215
+    },
+    {
+     "p": "de",
+     "i": 15.228,
+     "f": 15.332
+    },
+    {
+     "p": "desperdiçar",
+     "i": 15.345,
+     "f": 16.087
+    },
+    {
+     "p": "A",
+     "i": 16.369,
+     "f": 16.486
+    },
+    {
+     "p": "estação",
+     "i": 16.499,
+     "f": 17.046
+    },
+    {
+     "p": "nunca",
+     "i": 17.059,
+     "f": 17.463
+    },
+    {
+     "p": "pôde",
+     "i": 17.476,
+     "f": 17.88
+    },
+    {
+     "p": "E",
+     "i": 18.162,
+     "f": 18.279
+    },
+    {
+     "p": "talvez",
+     "i": 18.292,
+     "f": 18.722
+    },
+    {
+     "p": "essa",
+     "i": 18.735,
+     "f": 19.021
+    },
+    {
+     "p": "seja",
+     "i": 19.035,
+     "f": 19.334
+    },
+    {
+     "p": "a",
+     "i": 19.347,
+     "f": 19.36
+    },
+    {
+     "p": "maior",
+     "i": 19.373,
+     "f": 19.699
+    },
+    {
+     "p": "lição",
+     "i": 19.712,
+     "f": 20.115
+    },
+    {
+     "p": "de",
+     "i": 20.128,
+     "f": 20.219
+    },
+    {
+     "p": "viver",
+     "i": 20.232,
+     "f": 20.558
+    },
+    {
+     "p": "tão",
+     "i": 20.571,
+     "f": 20.831
+    },
+    {
+     "p": "longe",
+     "i": 20.844,
+     "f": 21.287
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "b57104b850",
+   "texto": "Quatrocentos quilômetros acima das nossas cidades, uma casa do tamanho de um campo de futebol aprende, dia após dia, o que significa não desperdiçar nada. Talvez a Terra também precise dessa lição.",
+   "audio": "audio/fecho-b57104b850.mp3",
+   "duracao": 13.48,
+   "palavras": [
+    {
+     "p": "Quatrocentos",
+     "i": 0.102,
+     "f": 0.896
+    },
+    {
+     "p": "quilômetros",
+     "i": 0.909,
+     "f": 1.443
+    },
+    {
+     "p": "acima",
+     "i": 1.456,
+     "f": 1.912
+    },
+    {
+     "p": "das",
+     "i": 1.925,
+     "f": 2.081
+    },
+    {
+     "p": "nossas",
+     "i": 2.094,
+     "f": 2.394
+    },
+    {
+     "p": "cidades",
+     "i": 2.407,
+     "f": 2.967
+    },
+    {
+     "p": "uma",
+     "i": 3.318,
+     "f": 3.54
+    },
+    {
+     "p": "casa",
+     "i": 3.553,
+     "f": 3.865
+    },
+    {
+     "p": "do",
+     "i": 3.878,
+     "f": 3.969
+    },
+    {
+     "p": "tamanho",
+     "i": 3.982,
+     "f": 4.412
+    },
+    {
+     "p": "de",
+     "i": 4.425,
+     "f": 4.503
+    },
+    {
+     "p": "um",
+     "i": 4.516,
+     "f": 4.607
+    },
+    {
+     "p": "campo",
+     "i": 4.62,
+     "f": 4.959
+    },
+    {
+     "p": "de",
+     "i": 4.972,
+     "f": 5.076
+    },
+    {
+     "p": "futebol",
+     "i": 5.089,
+     "f": 5.532
+    },
+    {
+     "p": "aprende",
+     "i": 5.545,
+     "f": 6.04
+    },
+    {
+     "p": "dia",
+     "i": 6.313,
+     "f": 6.508
+    },
+    {
+     "p": "após",
+     "i": 6.521,
+     "f": 6.873
+    },
+    {
+     "p": "dia",
+     "i": 6.886,
+     "f": 7.185
+    },
+    {
+     "p": "o",
+     "i": 7.55,
+     "f": 7.628
+    },
+    {
+     "p": "que",
+     "i": 7.641,
+     "f": 7.758
+    },
+    {
+     "p": "significa",
+     "i": 7.771,
+     "f": 8.435
+    },
+    {
+     "p": "não",
+     "i": 8.448,
+     "f": 8.67
+    },
+    {
+     "p": "desperdiçar",
+     "i": 8.683,
+     "f": 9.438
+    },
+    {
+     "p": "nada",
+     "i": 9.451,
+     "f": 9.855
+    },
+    {
+     "p": "Talvez",
+     "i": 10.137,
+     "f": 10.593
+    },
+    {
+     "p": "a",
+     "i": 10.606,
+     "f": 10.762
+    },
+    {
+     "p": "Terra",
+     "i": 10.775,
+     "f": 11.14
+    },
+    {
+     "p": "também",
+     "i": 11.153,
+     "f": 11.517
+    },
+    {
+     "p": "precise",
+     "i": 11.53,
+     "f": 12.025
+    },
+    {
+     "p": "dessa",
+     "i": 12.038,
+     "f": 12.312
+    },
+    {
+     "p": "lição",
+     "i": 12.325,
+     "f": 12.78
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "iss-voo": {
+   "arquivo": "imagens/iss-voo-42a9d05a.jpg",
+   "rotulo": "Estação Espacial Internacional",
+   "wiki": "Estação Espacial Internacional",
+   "commons": "International Space Station STS-132 Atlantis undocking 2010",
+   "autor": "NASA/Crew of STS-132",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:International_Space_Station_after_undocking_of_STS-132.jpg",
+   "titulo": "File:International Space Station after undocking of STS-132.jpg",
+   "largura": 1920,
+   "altura": 1224,
+   "rostos": 0,
+   "foco": {
+    "x": 79.2,
+    "y": 35.4
+   },
+   "borrada": "imagens/iss-voo-42a9d05a-b.jpg"
+  },
+  "tripulacao-expedicao": {
+   "arquivo": "imagens/tripulacao-expedicao-d626b0b8.jpg",
+   "rotulo": "Tripulação da Expedição 36",
+   "commons": "Expedition 36 crew portrait International Space Station",
+   "autor": "Karen Nyberg",
+   "licenca": "Domínio público (NASA)",
+   "pagina": "https://images.nasa.gov/details/iss036e048237",
+   "titulo": "Expedition 36/37 crew gathers in U.S. Lab",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 12,
+   "foco": {
+    "x": 47.5,
+    "y": 34.0
+   },
+   "borrada": "imagens/tripulacao-expedicao-d626b0b8-b.jpg"
+  },
+  "iss-construcao": {
+   "arquivo": "imagens/iss-construcao-3bfd28a7.jpg",
+   "rotulo": "Montagem da estação em órbita",
+   "commons": "ISS assembly spacewalk truss Canadarm2",
+   "autor": "NASA Photo",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:STS-116_-_ISS_P5_Truss_awaits_installation_(NASA_ISS014-E-09479).jpg",
+   "titulo": "File:STS-116 - ISS P5 Truss awaits installation (NASA ISS014-E-09479).jpg",
+   "largura": 1920,
+   "altura": 1266,
+   "rostos": 0,
+   "foco": {
+    "x": 23.0,
+    "y": 42.2
+   },
+   "borrada": "imagens/iss-construcao-3bfd28a7-b.jpg"
+  },
+  "cidade-pequena": {
+   "arquivo": "imagens/cidade-pequena-3ac31754.jpg",
+   "rotulo": "Tiradentes (MG)",
+   "commons": "Tiradentes Minas Gerais vista aérea",
+   "autor": "Fernando Stankuns",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_Tiradentes.jpg",
+   "titulo": "File:Vista aérea de Tiradentes.jpg",
+   "largura": 1200,
+   "altura": 800,
+   "rostos": 0,
+   "foco": {
+    "x": 60.4,
+    "y": 61.3
+   },
+   "borrada": "imagens/cidade-pequena-3ac31754-b.jpg"
+  },
+  "cidade-rua": {
+   "arquivo": "imagens/cidade-rua-95987fea.jpg",
+   "rotulo": "Paraty (RJ)",
+   "commons": "Paraty Rua do Comércio centro histórico",
+   "autor": "TMbux",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico,_Paraty_-_RJ,_Brazil_-_panoramio_(3).jpg",
+   "titulo": "File:Centro Histórico, Paraty - RJ, Brazil - panoramio (3).jpg",
+   "largura": 1920,
+   "altura": 1434,
+   "rostos": 0,
+   "foco": {
+    "x": 52.7,
+    "y": 54.3
+   },
+   "borrada": "imagens/cidade-rua-95987fea-b.jpg"
+  },
+  "paineis-solares": {
+   "arquivo": "imagens/paineis-solares-8bf207ad.jpg",
+   "rotulo": "Painéis solares da ISS",
+   "commons": "ISS solar array wing close up",
+   "autor": "National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:S118E07243_-_STS-118_-_Exterior_view_of_the_ISS_taken_during_STS-118_-_DPLA_-_5db2a3137a525e910a733961cfca252a.jpg",
+   "titulo": "File:S118E07243 - STS-118 - Exterior view of the ISS taken during STS-118 - DPLA - 5db2a3137a525e910a733961cfca252a.jpg",
+   "largura": 1920,
+   "altura": 1272,
+   "rostos": 0,
+   "foco": {
+    "x": 51.4,
+    "y": 50.8
+   },
+   "borrada": "imagens/paineis-solares-8bf207ad-b.jpg"
+  },
+  "eta-agua": {
+   "arquivo": "",
+   "rotulo": "Estação de tratamento de água",
+   "commons": "Estação de Tratamento de Água Guandu Rio de Janeiro",
+   "semFoto": true
+  },
+  "aterro": {
+   "arquivo": "",
+   "rotulo": "Aterro sanitário",
+   "commons": "Aterro sanitário Bandeirantes São Paulo",
+   "semFoto": true
+  },
+  "iss-completa-2011": {
+   "arquivo": "",
+   "rotulo": "ISS em 2011",
+   "commons": "ISS after STS-134 undocking May 2011 Endeavour",
+   "semFoto": true
+  },
+  "zarya": {
+   "arquivo": "imagens/zarya-680de462.jpg",
+   "rotulo": "Módulo Zarya",
+   "commons": "Zarya module ISS FGB Russian",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zarya_FGB_control_module_.Russian-built.jpg",
+   "titulo": "File:Zarya FGB control module .Russian-built.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 36.1,
+    "y": 48.9
+   },
+   "borrada": "imagens/zarya-680de462-b.jpg"
+  },
+  "expedicao-1": {
+   "arquivo": "imagens/expedicao-1-85e22314.jpg",
+   "rotulo": "Expedição 1 (2000)",
+   "commons": "Expedition 1 crew Shepherd Gidzenko Krikalev",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS_Expedition_1_crew_portrait.jpg",
+   "titulo": "File:ISS Expedition 1 crew portrait.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 11,
+   "foco": {
+    "x": 43.8,
+    "y": 48.2
+   },
+   "borrada": "imagens/expedicao-1-85e22314-b.jpg"
+  },
+  "montagem-eva": {
+   "arquivo": "",
+   "rotulo": "Caminhada espacial na montagem",
+   "commons": "STS-120 spacewalk Harmony node installation",
+   "semFoto": true
+  },
+  "astronauta-iss": {
+   "arquivo": "imagens/astronauta-iss-4f729380.jpg",
+   "rotulo": "Astronauta no laboratório Destiny",
+   "commons": "astronaut working inside Destiny laboratory ISS",
+   "autor": "JSC",
+   "licenca": "Domínio público (NASA)",
+   "pagina": "https://images.nasa.gov/details/iss007e06189",
+   "titulo": "Expedition Seven CDR Malenchenko and Sciece Officer Lu at SSRMS controls",
+   "largura": 1920,
+   "altura": 1307,
+   "rostos": 1,
+   "foco": {
+    "x": 91.3,
+    "y": 41.1
+   },
+   "borrada": "imagens/astronauta-iss-4f729380-b.jpg"
+  },
+  "nasa-sede": {
+   "arquivo": "imagens/nasa-sede-247d8679.jpg",
+   "rotulo": "Sede da NASA",
+   "commons": "NASA Headquarters Washington Mary W. Jackson building",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg",
+   "titulo": "File:NASA HQ Building.jpg",
+   "largura": 1920,
+   "altura": 1483,
+   "rostos": 0,
+   "foco": {
+    "x": 49.0,
+    "y": 55.8
+   },
+   "borrada": "imagens/nasa-sede-247d8679-b.jpg"
+  },
+  "soyuz-lancamento": {
+   "arquivo": "imagens/soyuz-lancamento-d47fc0ec.jpg",
+   "rotulo": "Lançamento de uma Soyuz",
+   "commons": "Soyuz MS launch Baikonur Cosmodrome crew",
+   "autor": "Bill Ingalls",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-13_Edit.jpg",
+   "titulo": "File:Soyuz TMA-13 Edit.jpg",
+   "largura": 1920,
+   "altura": 3137,
+   "rostos": 0,
+   "foco": {
+    "x": 34.0,
+    "y": 79.0
+   },
+   "borrada": "imagens/soyuz-lancamento-d47fc0ec-b.jpg"
+  },
+  "dragon-lancamento": {
+   "arquivo": "imagens/dragon-lancamento-3f9efaa1.jpg",
+   "rotulo": "Lançamento da Crew Dragon",
+   "commons": "Crew Dragon Endeavour Falcon 9 launch Crew-1",
+   "autor": "NASA/Aubrey Gemignani",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crew-11_Launches_to_International_Space_Station_(crew-11-launches-to-international-space-station).jpg",
+   "titulo": "File:Crew-11 Launches to International Space Station (crew-11-launches-to-international-space-station).jpg",
+   "largura": 1920,
+   "altura": 2842,
+   "rostos": 0,
+   "foco": {
+    "x": 47.7,
+    "y": 55.8
+   },
+   "borrada": "imagens/dragon-lancamento-3f9efaa1-b.jpg"
+  },
+  "comida-pacotes": {
+   "arquivo": "imagens/comida-pacotes-de5ed2b0.jpg",
+   "rotulo": "Refeição na estação",
+   "commons": "astronaut meal ISS food packages",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Expedition_60_crew_together_for_dinner_inside_the_Zvezda_service_module.jpg",
+   "titulo": "File:Expedition 60 crew together for dinner inside the Zvezda service module.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 5,
+   "foco": {
+    "x": 42.2,
+    "y": 50.4
+   },
+   "borrada": "imagens/comida-pacotes-de5ed2b0-b.jpg"
+  },
+  "carga-bolsas": {
+   "arquivo": "imagens/carga-bolsas-0b93c33a.jpg",
+   "rotulo": "Carga armazenada na ISS",
+   "commons": "cargo transfer bags ISS Harmony module",
+   "autor": "NASA Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Iss071e547719_(Aug._14,_2024)_---_NASA_astronaut_and_Expedition_71_Flight_Engineer_Mike_Barratt_transfers_cargo_bags.jpg",
+   "titulo": "File:Iss071e547719 (Aug. 14, 2024) --- NASA astronaut and Expedition 71 Flight Engineer Mike Barratt transfers cargo bags.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 2,
+   "foco": {
+    "x": 93.0,
+    "y": 44.3
+   },
+   "borrada": "imagens/carga-bolsas-0b93c33a-b.jpg"
+  },
+  "htv-chegando": {
+   "arquivo": "",
+   "rotulo": "Cargueiro japonês HTV",
+   "commons": "HTV Kounotori approaching ISS Canadarm2 capture",
+   "semFoto": true
+  },
+  "canadarm-captura": {
+   "arquivo": "imagens/canadarm-captura-0630f7cc.jpg",
+   "rotulo": "Dragon capturada pelo Canadarm2",
+   "commons": "Dragon cargo spacecraft captured by Canadarm2",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SpaceX_CRS-1_is_grappled_by_Canadarm2.jpg",
+   "titulo": "File:SpaceX CRS-1 is grappled by Canadarm2.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 0,
+   "foco": {
+    "x": 41.8,
+    "y": 59.8
+   },
+   "borrada": "imagens/canadarm-captura-0630f7cc-b.jpg"
+  },
+  "paineis-iss": {
+   "arquivo": "imagens/paineis-iss-5f6f3759.jpg",
+   "rotulo": "Painéis solares sobre a Terra",
+   "commons": "International Space Station solar arrays Earth background",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-50_Solar_arrays_on_the_International_Space_Station.jpg",
+   "titulo": "File:ISS-50 Solar arrays on the International Space Station.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 0,
+   "foco": {
+    "x": 34.9,
+    "y": 73.6
+   },
+   "borrada": "imagens/paineis-iss-5f6f3759-b.jpg"
+  },
+  "painel-detalhe": {
+   "arquivo": "imagens/painel-detalhe-4c4b6546.jpg",
+   "rotulo": "Novos painéis iROSA",
+   "commons": "ISS iROSA roll-out solar array installation",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-52_Roll_Out_Solar_Array_(ROSA)_(4).jpg",
+   "titulo": "File:ISS-52 Roll Out Solar Array (ROSA) (4).jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 2,
+   "foco": {
+    "x": 69.9,
+    "y": 17.9
+   },
+   "borrada": "imagens/painel-detalhe-4c4b6546-b.jpg"
+  },
+  "cidade-noite": {
+   "arquivo": "",
+   "rotulo": "Bonito (MS)",
+   "commons": "Bonito Mato Grosso do Sul centro à noite",
+   "semFoto": true
+  },
+  "laboratorio-destiny": {
+   "arquivo": "imagens/laboratorio-destiny-0ceca3a6.jpg",
+   "rotulo": "Laboratório Destiny",
+   "commons": "Destiny laboratory interior ISS racks",
+   "autor": "NASA Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Iss072e451296_(Jan_8,_2025)_---_NASA_astronaut_and_Expedition_72_Flight_Engineer_Don_Pettit_works_in_the_Destiny_laboratory_module%27s_Combustion_Integrated_Rack_swapping_samples_of_materials_to_observe_how_they_burn_in.jpg",
+   "titulo": "File:Iss072e451296 (Jan 8, 2025) --- NASA astronaut and Expedition 72 Flight Engineer Don Pettit works in the Destiny laboratory module's Combustion Integrated Rack swapping samples of materials to observe how they burn in.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 2,
+   "foco": {
+    "x": 55.3,
+    "y": 34.8
+   },
+   "borrada": "imagens/laboratorio-destiny-0ceca3a6-b.jpg"
+  },
+  "nascer-sol-iss": {
+   "arquivo": "imagens/nascer-sol-iss-e884f72e.jpg",
+   "rotulo": "Nascer do sol visto da ISS",
+   "commons": "sunrise from International Space Station orbit",
+   "autor": "NASA Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Iss072e143829_(Nov_2,_2024)_--_The_first_rays_of_an_orbital_sunrise_display_pink_and_blue_hues_in_Earth%27s_atmosphere_as_the_International_Space_Station_orbited_257_miles_above_Austria.jpg",
+   "titulo": "File:Iss072e143829 (Nov 2, 2024) -- The first rays of an orbital sunrise display pink and blue hues in Earth's atmosphere as the International Space Station orbited 257 miles above Austria.jpg",
+   "largura": 1920,
+   "altura": 1078,
+   "rostos": 0,
+   "foco": {
+    "x": 49.9,
+    "y": 57.8
+   },
+   "borrada": "imagens/nascer-sol-iss-e884f72e-b.jpg"
+  },
+  "iss-noite": {
+   "arquivo": "imagens/iss-noite-dec9a320.jpg",
+   "rotulo": "Terra à noite vista da ISS",
+   "commons": "Earth at night city lights from ISS",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-65_Night_lights_of_South_Africa.jpg",
+   "titulo": "File:ISS-65 Night lights of South Africa.jpg",
+   "largura": 1920,
+   "altura": 2880,
+   "rostos": 0,
+   "foco": {
+    "x": 50.5,
+    "y": 28.4
+   },
+   "borrada": "imagens/iss-noite-dec9a320-b.jpg"
+  },
+  "bateria-litio": {
+   "arquivo": "",
+   "rotulo": "Troca de baterias na ISS",
+   "commons": "ISS lithium-ion battery spacewalk installation",
+   "semFoto": true
+  },
+  "radiadores-iss": {
+   "arquivo": "imagens/radiadores-iss-fc36dc96.jpg",
+   "rotulo": "Radiadores da ISS",
+   "commons": "ISS radiators thermal control system",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS_63_Behnken_near_radiators.jpg",
+   "titulo": "File:ISS 63 Behnken near radiators.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 26.6,
+    "y": 23.7
+   },
+   "borrada": "imagens/radiadores-iss-fc36dc96-b.jpg"
+  },
+  "eta-tratamento": {
+   "arquivo": "",
+   "rotulo": "Tratamento de água em São Paulo",
+   "commons": "Estação de Tratamento de Água Alto da Boa Vista São Paulo",
+   "semFoto": true
+  },
+  "agua-bolha": {
+   "arquivo": "imagens/agua-bolha-b7df924c.jpg",
+   "rotulo": "Água em microgravidade",
+   "commons": "astronaut water bubble ISS Karen Nyberg",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:NASA_astronaut_Karen_Nyberg_watches_a_water_bubble_float_freely_between_her_and_the_camera,_showing_her_image_refracted_in_the_droplet,_Feb._7,_2018.jpg",
+   "titulo": "File:NASA astronaut Karen Nyberg watches a water bubble float freely between her and the camera, showing her image refracted in the droplet, Feb. 7, 2018.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 1,
+   "foco": {
+    "x": 51.7,
+    "y": 51.2
+   },
+   "borrada": "imagens/agua-bolha-b7df924c-b.jpg"
+  },
+  "wrs-rack": {
+   "arquivo": "imagens/wrs-rack-05ad7fbb.jpg",
+   "rotulo": "Sistema de recuperação de água",
+   "commons": "ISS Water Recovery System rack",
+   "autor": "NASA/Jessica Watkins",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-67_Astronaut_Jessica_Watkins_services_life_support_components.jpg",
+   "titulo": "File:ISS-67 Astronaut Jessica Watkins services life support components.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 43.3,
+    "y": 48.2
+   },
+   "borrada": "imagens/wrs-rack-05ad7fbb-b.jpg"
+  },
+  "wpa-agua": {
+   "arquivo": "imagens/wpa-agua-a12dc45f.jpg",
+   "rotulo": "Processador de água da ISS",
+   "commons": "ISS Water Processor Assembly",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-47_Timothy_Peake_works_on_the_Water_Processor_Assembly_in_the_Destiny_lab.jpg",
+   "titulo": "File:ISS-47 Timothy Peake works on the Water Processor Assembly in the Destiny lab.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 2,
+   "foco": {
+    "x": 31.3,
+    "y": 32.8
+   },
+   "borrada": "imagens/wpa-agua-a12dc45f-b.jpg"
+  },
+  "oxigenio-ogs": {
+   "arquivo": "imagens/oxigenio-ogs-8a365f89.jpg",
+   "rotulo": "Gerador de oxigênio",
+   "commons": "Oxygen Generation System ISS rack",
+   "autor": "NASA Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Astronaut_Stephen_Bowen_installs_the_H2_Sensor_Demo_(iss069e008416).jpg",
+   "titulo": "File:Astronaut Stephen Bowen installs the H2 Sensor Demo (iss069e008416).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 50.3,
+    "y": 39.5
+   },
+   "borrada": "imagens/oxigenio-ogs-8a365f89-b.jpg"
+  },
+  "co2-cdra": {
+   "arquivo": "imagens/co2-cdra-220bf823.jpg",
+   "rotulo": "Remoção de gás carbônico",
+   "commons": "Carbon Dioxide Removal Assembly ISS",
+   "autor": "NASA/Megan McArthur",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-65_Pesquet_and_Vande_Hei_replace_components.jpg",
+   "titulo": "File:ISS-65 Pesquet and Vande Hei replace components.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 29.4,
+    "y": 9.2
+   },
+   "borrada": "imagens/co2-cdra-220bf823-b.jpg"
+  },
+  "sabatier": {
+   "arquivo": "",
+   "rotulo": "Reator Sabatier",
+   "commons": "Sabatier reactor ISS rack",
+   "semFoto": true
+  },
+  "pecas-reposicao": {
+   "arquivo": "",
+   "rotulo": "Peças de reposição",
+   "commons": "ISS spare parts Orbital Replacement Unit",
+   "semFoto": true
+  },
+  "caminhao-lixo": {
+   "arquivo": "imagens/caminhao-lixo-0c35749a.jpg",
+   "rotulo": "Coleta de lixo",
+   "commons": "caminhão de coleta de lixo Brasil",
+   "autor": "HVL",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Caminh%C3%A3o_da_coleta_de_lixo_de_Coronel_Fabriciano_MG.JPG",
+   "titulo": "File:Caminhão da coleta de lixo de Coronel Fabriciano MG.JPG",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 22.3,
+    "y": 55.7
+   },
+   "borrada": "imagens/caminhao-lixo-0c35749a-b.jpg"
+  },
+  "lixo-iss": {
+   "arquivo": "imagens/lixo-iss-773b62bf.jpg",
+   "rotulo": "Lixo guardado na ISS",
+   "commons": "Cygnus trash disposal ISS astronaut",
+   "autor": "Randolph Bresnik",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:CRS_OA-8E_Cygnus_Cargo_Spacecraft_at_Sunrise_(ISS053-E-311637).jpg",
+   "titulo": "File:CRS OA-8E Cygnus Cargo Spacecraft at Sunrise (ISS053-E-311637).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 41.9,
+    "y": 65.5
+   },
+   "borrada": "imagens/lixo-iss-773b62bf-b.jpg"
+  },
+  "progress-saida": {
+   "arquivo": "imagens/progress-saida-a48bb6b8.jpg",
+   "rotulo": "Progress deixando a ISS",
+   "commons": "Progress cargo ship undocking from ISS",
+   "autor": "Roscosmos/NASA(reason of PD-License is provided in the Description)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Progress_M-UM_propulsion_section_undocking_from_ISS_after_delivering_the_Prichal_to_ISS_05.jpg",
+   "titulo": "File:Progress M-UM propulsion section undocking from ISS after delivering the Prichal to ISS 05.jpg",
+   "largura": 911,
+   "altura": 572,
+   "rostos": 0,
+   "foco": {
+    "x": 51.4,
+    "y": 46.7
+   },
+   "borrada": "imagens/progress-saida-a48bb6b8-b.jpg"
+  },
+  "atv-reentrada": {
+   "arquivo": "",
+   "rotulo": "Reentrada de um cargueiro ATV",
+   "commons": "ATV Jules Verne reentry atmosphere",
+   "semFoto": true
+  },
+  "harmony-interior": {
+   "arquivo": "imagens/harmony-interior-24de928c.jpg",
+   "rotulo": "Interior do módulo Harmony",
+   "commons": "Harmony node interior ISS crew",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-20_crew_awaits_the_STS-128_crew_in_the_Harmony_node.jpg",
+   "titulo": "File:ISS-20 crew awaits the STS-128 crew in the Harmony node.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 3,
+   "foco": {
+    "x": 54.3,
+    "y": 49.5
+   },
+   "borrada": "imagens/harmony-interior-24de928c-b.jpg"
+  },
+  "tripulacao-grupo": {
+   "arquivo": "",
+   "rotulo": "Tripulação da Expedição 68",
+   "commons": "Expedition 68 crew group photo ISS",
+   "semFoto": true
+  },
+  "cupola-terra": {
+   "arquivo": "imagens/cupola-terra-6670f76b.jpg",
+   "rotulo": "Cúpula da ISS",
+   "commons": "Cupola window ISS astronaut Earth view",
+   "autor": "Rick Mastracchio",
+   "licenca": "Domínio público (NASA)",
+   "pagina": "https://images.nasa.gov/details/iss039e005387",
+   "titulo": "Earth Observations taken by the Expedition 39 Crew",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 69.2,
+    "y": 51.2
+   },
+   "borrada": "imagens/cupola-terra-6670f76b-b.jpg"
+  },
+  "cabos-zvezda": {
+   "arquivo": "imagens/cabos-zvezda-0e770f7d.jpg",
+   "rotulo": "Módulo Zvezda",
+   "commons": "Zvezda service module interior ISS",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-10_Interior_view_of_the_Zvezda_Service_module.jpg",
+   "titulo": "File:ISS-10 Interior view of the Zvezda Service module.jpg",
+   "largura": 1920,
+   "altura": 1272,
+   "rostos": 2,
+   "foco": {
+    "x": 19.6,
+    "y": 40.4
+   },
+   "borrada": "imagens/cabos-zvezda-0e770f7d-b.jpg"
+  },
+  "iss-airglow": {
+   "arquivo": "imagens/iss-airglow-9fd6b337.jpg",
+   "rotulo": "Borda da atmosfera",
+   "commons": "ISS airglow Earth atmosphere limb",
+   "autor": "NASA's Earth Observatory",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Iberian_Peninsula_at_Night_-_NASA_Earth_Observatory.jpg",
+   "titulo": "File:Iberian Peninsula at Night - NASA Earth Observatory.jpg",
+   "largura": 1440,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 49.6,
+    "y": 56.8
+   },
+   "borrada": "imagens/iss-airglow-9fd6b337-b.jpg"
+  },
+  "progress-reboost": {
+   "arquivo": "imagens/progress-reboost-f45859c9.jpg",
+   "rotulo": "Progress acoplada à ISS",
+   "commons": "Progress docked Zvezda ISS reboost",
+   "autor": "NASA Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Progress_91_resupply_ship_fires_its_thrusters_to_reboost_the_International_Space_Station_(iss073e0429326).jpg",
+   "titulo": "File:The Progress 91 resupply ship fires its thrusters to reboost the International Space Station (iss073e0429326).jpg",
+   "largura": 1920,
+   "altura": 1078,
+   "rostos": 3,
+   "foco": {
+    "x": 45.7,
+    "y": 54.4
+   },
+   "borrada": "imagens/progress-reboost-f45859c9-b.jpg"
+  },
+  "detritos-orbita": {
+   "arquivo": "imagens/detritos-orbita-0acc28dd.jpg",
+   "rotulo": "Lixo espacial (ilustração NASA)",
+   "commons": "space debris Low Earth orbit NASA illustration",
+   "autor": "Orbital Debris Program Office",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Space_Debris_Low_Earth_Orbit.png",
+   "titulo": "File:Space Debris Low Earth Orbit.png",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 72.1,
+    "y": 27.1
+   },
+   "borrada": "imagens/detritos-orbita-0acc28dd-b.jpg"
+  },
+  "caminhada-espacial": {
+   "arquivo": "imagens/caminhada-espacial-54578707.jpg",
+   "rotulo": "Caminhada espacial",
+   "commons": "ISS spacewalk repair astronaut",
+   "autor": "NASA Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:NASA_astronaut_Chris_Williams_uses_a_pistol_grip_tool_during_a_spacewalk_(iss074e0788304).jpg",
+   "titulo": "File:NASA astronaut Chris Williams uses a pistol grip tool during a spacewalk (iss074e0788304).jpg",
+   "largura": 1920,
+   "altura": 1078,
+   "rostos": 2,
+   "foco": {
+    "x": 38.4,
+    "y": 38.5
+   },
+   "borrada": "imagens/caminhada-espacial-54578707-b.jpg"
+  },
+  "cygnus-chegada": {
+   "arquivo": "imagens/cygnus-chegada-f356c124.jpg",
+   "rotulo": "Cygnus se aproximando da ISS",
+   "commons": "Cygnus spacecraft approaching ISS",
+   "autor": "NASA/Expedition 37",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cygnus_approaching_ISS.JPG",
+   "titulo": "File:Cygnus approaching ISS.JPG",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 38.7,
+    "y": 58.7
+   },
+   "borrada": "imagens/cygnus-chegada-f356c124-b.jpg"
+  },
+  "antares-orb3": {
+   "arquivo": "imagens/antares-orb3-aa7f0f9c.jpg",
+   "rotulo": "Falha do Antares (2014)",
+   "commons": "Antares Orb-3 launch failure October 2014",
+   "autor": "Joel Kowsky",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Antares_Orb-3_launch_failure_(201410280009HQ).jpg",
+   "titulo": "File:Antares Orb-3 launch failure (201410280009HQ).jpg",
+   "largura": 1920,
+   "altura": 1281,
+   "rostos": 0,
+   "foco": {
+    "x": 63.0,
+    "y": 73.2
+   },
+   "borrada": "imagens/antares-orb3-aa7f0f9c-b.jpg"
+  },
+  "progress-m27m": {
+   "arquivo": "",
+   "rotulo": "Lançamento da Progress M-27M",
+   "commons": "Progress M-27M launch Soyuz-2.1a April 2015",
+   "semFoto": true
+  },
+  "spacex-crs7": {
+   "arquivo": "imagens/spacex-crs7-a4f713a5.jpg",
+   "rotulo": "Falha do Falcon 9 CRS-7",
+   "commons": "SpaceX CRS-7 Falcon 9 launch failure June 2015",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SpaceX_CRS-7_launch_failure_cropped.jpg",
+   "titulo": "File:SpaceX CRS-7 launch failure cropped.jpg",
+   "largura": 850,
+   "altura": 850,
+   "rostos": 0,
+   "foco": {
+    "x": 38.1,
+    "y": 59.3
+   },
+   "borrada": "imagens/spacex-crs7-a4f713a5-b.jpg"
+  },
+  "astronauta-medico": {
+   "arquivo": "imagens/astronauta-medico-e6bd0136.jpg",
+   "rotulo": "Exame médico a bordo",
+   "commons": "astronaut ultrasound medical exam ISS",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Padalka_Fincke_ISS_ultrasound.jpg",
+   "titulo": "File:Padalka Fincke ISS ultrasound.jpg",
+   "largura": 1190,
+   "altura": 990,
+   "rostos": 4,
+   "foco": {
+    "x": 59.5,
+    "y": 48.4
+   },
+   "borrada": "imagens/astronauta-medico-e6bd0136-b.jpg"
+  },
+  "astronauta-reparo": {
+   "arquivo": "",
+   "rotulo": "Reparo a bordo",
+   "commons": "astronaut plumbing repair ISS toilet",
+   "semFoto": true
+  },
+  "controle-houston": {
+   "arquivo": "imagens/controle-houston-cc9c9808.jpg",
+   "rotulo": "Controle de missão em Houston",
+   "commons": "Mission Control Center Houston ISS flight control room",
+   "autor": "Bill Stafford",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Jessica_Tramaglini_on-console_in_NASA%E2%80%99s_Mission_Control_Center.jpg",
+   "titulo": "File:Jessica Tramaglini on-console in NASA’s Mission Control Center.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 2,
+   "foco": {
+    "x": 25.0,
+    "y": 53.8
+   },
+   "borrada": "imagens/controle-houston-cc9c9808-b.jpg"
+  },
+  "controle-moscou": {
+   "arquivo": "imagens/controle-moscou-141bc615.jpg",
+   "rotulo": "Controle de missão em Moscou",
+   "commons": "Mission Control Center Moscow TsUP Korolyov",
+   "autor": "Joel Kowsky",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Expedition_55_Soyuz_Docking_(NHQ201803230003).jpg",
+   "titulo": "File:Expedition 55 Soyuz Docking (NHQ201803230003).jpg",
+   "largura": 1920,
+   "altura": 1217,
+   "rostos": 0,
+   "foco": {
+    "x": 56.3,
+    "y": 57.9
+   },
+   "borrada": "imagens/controle-moscou-141bc615-b.jpg"
+  },
+  "iss-aposentadoria": {
+   "arquivo": "",
+   "rotulo": "ISS em 2021",
+   "commons": "ISS flying over Earth 2021 Crew Dragon",
+   "semFoto": true
+  },
+  "us-deorbit": {
+   "arquivo": "",
+   "rotulo": "Veículo de desorbitagem (conceito)",
+   "commons": "US Deorbit Vehicle SpaceX ISS concept",
+   "semFoto": true
+  },
+  "ponto-nemo": {
+   "arquivo": "",
+   "rotulo": "Ponto Nemo",
+   "commons": "Point Nemo spacecraft cemetery map South Pacific",
+   "semFoto": true
+  },
+  "mir-1998": {
+   "arquivo": "imagens/mir-1998-65947a41.jpg",
+   "rotulo": "Estação Mir (1998)",
+   "commons": "Mir space station STS-91 1998",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Mir_space_station_12_June_1998-cropped.jpg",
+   "titulo": "File:Mir space station 12 June 1998-cropped.jpg",
+   "largura": 1215,
+   "altura": 1005,
+   "rostos": 0,
+   "foco": {
+    "x": 56.9,
+    "y": 33.7
+   },
+   "borrada": "imagens/mir-1998-65947a41-b.jpg"
+  },
+  "terra-brasil-noite": {
+   "arquivo": "imagens/terra-brasil-noite-14d5341e.jpg",
+   "rotulo": "Brasil à noite visto da ISS",
+   "commons": "Brazil at night from ISS city lights",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-67_City_lights_of_Rio_De_Janeiro,_Brazil.jpg",
+   "titulo": "File:ISS-67 City lights of Rio De Janeiro, Brazil.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 65.7,
+    "y": 51.7
+   },
+   "borrada": "imagens/terra-brasil-noite-14d5341e-b.jpg"
+  },
+  "passeio-espacial-terra": {
+   "arquivo": "imagens/passeio-espacial-terra-22a5617b.jpg",
+   "rotulo": "Caminhada espacial",
+   "commons": "astronaut spacewalk Earth background ISS",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:STS-116_spacewalk_1.jpg",
+   "titulo": "File:STS-116 spacewalk 1.jpg",
+   "largura": 1920,
+   "altura": 1266,
+   "rostos": 0,
+   "foco": {
+    "x": 56.8,
+    "y": 63.1
+   },
+   "borrada": "imagens/passeio-espacial-terra-22a5617b-b.jpg"
+  },
+  "bancada-experimentos": {
+   "arquivo": "imagens/bancada-experimentos-e236b077.jpg",
+   "rotulo": "Experimento a bordo",
+   "commons": "Microgravity Science Glovebox ISS experiment",
+   "autor": "NASA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS-38_Rick_Mastracchio_sets_up_the_Microgravity_Science_Glovebox_(MSG).jpg",
+   "titulo": "File:ISS-38 Rick Mastracchio sets up the Microgravity Science Glovebox (MSG).jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 4,
+   "foco": {
+    "x": 44.7,
+    "y": 54.1
+   },
+   "borrada": "imagens/bancada-experimentos-e236b077-b.jpg"
+  },
+  "iss-sobre-terra": {
+   "arquivo": "",
+   "rotulo": "ISS vista de uma Soyuz",
+   "commons": "ISS Soyuz TMA-20M flyaround 2016",
+   "semFoto": true
+  },
+  "iss-final": {
+   "arquivo": "",
+   "rotulo": "ISS sobre a Terra",
+   "commons": "ISS STS-132 flyaround Atlantis departure 2010 Earth",
+   "semFoto": true
+  },
+  "campo-futebol": {
+   "arquivo": "",
+   "rotulo": "Maracanã",
+   "commons": "Maracanã vista aérea 2014",
+   "semFoto": true
+  },
+  "terra-planeta": {
+   "arquivo": "imagens/terra-planeta-fe2d1539.jpg",
+   "rotulo": "A Terra vista do espaço",
+   "wiki": "Terra",
+   "commons": "The Blue Marble Apollo 17 Earth",
+   "autor": "Harrison Schmitt / Apollo 17",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+   "titulo": "File:The Blue Marble, AS17-148-22727.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 52.8,
+    "y": 33.7
+   },
+   "borrada": "imagens/terra-planeta-fe2d1539-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-08T16:36:31.829Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +6849,62 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "NASA — International Space Station",
+   "url": "https://www.nasa.gov/international-space-station/"
+  },
+  {
+   "titulo": "NASA OIG — NASA's Management of the International Space Station (IG-14-031)",
+   "url": "https://oig.nasa.gov/docs/IG-14-031.pdf"
+  },
+  {
+   "titulo": "NASA OIG — ISS transição para uso comercial (CT-18-001)",
+   "url": "https://oig.nasa.gov/docs/CT-18-001.pdf"
+  },
+  {
+   "titulo": "Space.com — NASA reciclou 98% da água da ISS (2023)",
+   "url": "https://space.com/astronaut-pee-iss-water-recycling-98-percent-milestone"
+  },
+  {
+   "titulo": "SNIS — Sistema Nacional de Informações sobre Saneamento",
+   "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/snis"
+  },
+  {
+   "titulo": "Abrema — Panorama dos resíduos sólidos no Brasil",
+   "url": "https://abrema.org.br/panorama/"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Estação espacial vs. cidade: quem gasta mais?",
+   "Por que viver em órbita é um problema de logística",
+   "Quanto custa manter sete pessoas no espaço?"
+  ],
+  "descricao": "Comparamos a Estação Espacial Internacional com uma cidade de dez mil habitantes em quatro contas: custo, energia, água e lixo. O vídeo mostra por que viver em órbita é menos um problema de foguete e mais um problema de logística. As contas da cidade são estimativas aproximadas feitas a partir de médias brasileiras.\n\n0:00 Gancho\n0:23 Quatro contas\n0:45 O preço da casa\n1:12 Quanto custa ficar\n1:42 Comida e carga\n2:12 Energia\n2:42 Noite e calor\n3:09 Água\n3:38 Ar\n4:07 Lixo\n4:33 Espaço\n4:59 Manutenção\n5:25 O estoque de 2015\n5:52 Quem cuida de tudo\n6:19 O fim da estação\n6:42 A conta final\n7:05 Fecho\n\nFontes: NASA (International Space Station, Office of Inspector General, notícia sobre 98% de recuperação de água, 2023), SNIS, Abrema. Créditos das imagens: Wikimedia Commons.",
+  "tags": [
+   "estação espacial internacional",
+   "ISS",
+   "NASA",
+   "vida no espaço",
+   "logística",
+   "reciclagem de água",
+   "energia solar",
+   "cidade",
+   "tecnologia",
+   "curiosidades",
+   "documentário",
+   "engenharia"
+  ]
  }
 }
