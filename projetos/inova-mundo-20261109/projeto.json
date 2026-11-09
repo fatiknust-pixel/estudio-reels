@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-09T20:37:52.619Z",
- "atualizadoEm": "2026-11-09T20:37:52.619Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-09T20:50:12Z",
+ "status": "pronto",
  "pedido": {
   "tema": "O mistério das pontes que caíram e ensinaram — ângulo: Casos como Tacoma Narrows (1940) e como cada colapso mudou normas de engenharia. A tese é que desastres documentados produzem a segurança que temos hoje.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,7494 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Novembro de 1940. Um homem abandona o carro no meio de uma ponte que ondula como uma fita. Dentro do carro, ficou um cachorro. Quatro meses antes, aquela ponte tinha sido inaugurada com festa. Agora, o aço dobrava feito borracha. Ninguém morreu naquele dia, só o cachorro. E é por causa dessa queda que hoje você atravessa pontes sem pensar nelas.",
+   "galeria": [
+    "tacoma-ondulando",
+    "tacoma-carro",
+    "tacoma-inauguracao",
+    "tacoma-vao-quebrado",
+    "tacoma-hoje"
+   ],
+   "galeriaEm": [
+    0,
+    "Dentro",
+    "Quatro",
+    "Agora",
+    "hoje"
+   ],
+   "fontes": [
+    "Tacoma Narrows, 1940"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "TACOMA NARROWS, 1940",
+     "sub": "Washington, EUA",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "promessa",
+   "texto": "Esta é a história de pontes que caíram e do que cada queda ensinou. Quatro casos, em quatro épocas, com um padrão que se repete: o erro aparece, as pessoas pagam, e uma regra nova nasce. No fim, você vai entender por que a segurança que existe hoje foi escrita, quase sempre, depois de uma tragédia. E por que a pior ponte é aquela que ninguém sabe que está falhando.",
+   "galeria": [
+    "ponte-golden-gate",
+    "ponte-brooklyn",
+    "ponte-rio-niteroi",
+    "ponte-corroida"
+   ],
+   "galeriaEm": [
+    0,
+    "padrão",
+    "segurança",
+    "pior"
+   ],
+   "fontes": [],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1940",
+       "Tacoma Narrows"
+      ],
+      [
+       "1907",
+       "Quebec"
+      ],
+      [
+       "1967",
+       "Silver Bridge"
+      ],
+      [
+       "2007",
+       "I-35W"
+      ]
+     ],
+     "em": "Quatro",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "tacoma-ponte",
+   "texto": "A Tacoma Narrows, no estado de Washington, nos Estados Unidos, foi aberta em primeiro de julho de 1940. Era a terceira maior ponte pênsil do mundo, com oitocentos e cinquenta e três metros de vão central. Para economizar, os projetistas trocaram as vigas treliçadas por vigas laterais de alma cheia, de dois metros e meio de altura, muito mais finas e baratas. Resultado: uma ponte esbelta e elegante, mas que funcionava como uma vela diante do vento.",
+   "galeria": [
+    "tacoma-estreito",
+    "tacoma-pronta",
+    "tacoma-torres",
+    "tacoma-vigas",
+    "tacoma-tabuleiro"
+   ],
+   "galeriaEm": [
+    0,
+    "terceira",
+    "oitocentos",
+    "Para",
+    "Resultado"
+   ],
+   "fontes": [
+    "Wikipedia",
+    "Live Science"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 1: O VENTO",
+     "sub": "Tacoma Narrows, 1940",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 853,
+     "unidade": "m",
+     "rotulo": "Vão central",
+     "em": "oitocentos",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "tacoma-gertie",
+   "texto": "Desde a abertura, o tabuleiro balançava, mesmo com pouco vento. Os motoristas passaram a chamá-la de Galloping Gertie, algo como Gertie Galopante. Havia quem fosse até lá só pelo frio na barriga, como numa montanha-russa. Engenheiros tentaram amarrar cabos e instalar amortecedores, mas nada resolveu. Um professor da Universidade de Washington, Frederick Farquharson, foi contratado para testar um modelo no túnel de vento. Na manhã de sete de novembro, um vento de uns sessenta e oito quilômetros por hora fez o que o ar calmo não fez.",
+   "galeria": [
+    "tacoma-ondas",
+    "tacoma-gertie",
+    "tacoma-visitantes",
+    "tacoma-cabos",
+    "tacoma-modelo",
+    "tacoma-vento"
+   ],
+   "galeriaEm": [
+    0,
+    "Galloping",
+    "Havia",
+    "Engenheiros",
+    "Farquharson",
+    "manhã"
+   ],
+   "fontes": [
+    "Wikipedia",
+    "Live Science"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "tacoma-queda",
+   "texto": "Às dez da manhã, a oscilação mudou de natureza. Em vez de subir e descer, a ponte começou a torcer: um lado do tabuleiro subia enquanto o outro descia. O motorista Leonard Coatsworth tentou atravessar de carro, desistiu e saiu a pé. O cachorro dele, Tubby, não quis sair do carro. Pouco depois, o vão central se partiu e caiu na água de Puget Sound. Muita gente diz que foi ressonância, mas essa explicação é simplificada demais. O que aconteceu foi flutter aeroelástico: o vento e a estrutura se alimentando um do outro, até o limite.",
+   "galeria": [
+    "tacoma-torcao",
+    "tacoma-inclinada",
+    "tacoma-motorista",
+    "tacoma-pedaco",
+    "tacoma-agua",
+    "tacoma-flutter"
+   ],
+   "galeriaEm": [
+    0,
+    "subia",
+    "Leonard",
+    "Pouco",
+    "água",
+    "flutter"
+   ],
+   "fontes": [
+    "Live Science",
+    "Wikipedia"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "FLUTTER AEROELÁSTICO",
+     "significado": "O vento e a estrutura se reforçam mutuamente",
+     "em": "flutter",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "tacoma-licao",
+   "texto": "O desastre deu um recado: grandes pontes sofrem não só com peso, mas também com vento. Depois de 1940, o túnel de vento virou prática para pontes de grande vão: modelos em escala são testados antes da construção. Os tabuleiros ganharam formas aerodinâmicas, mais rigidez à torção e vigas vazadas. A ponte nova, aberta em 1950, já nasceu assim. Mas a história das pontes que caíram começa bem antes. E uma delas matou setenta e cinco pessoas.",
+   "galeria": [
+    "tacoma-restos",
+    "tunel-vento",
+    "ponte-great-belt",
+    "tacoma-1950",
+    "ponte-akashi"
+   ],
+   "galeriaEm": [
+    0,
+    "túnel",
+    "aerodinâmicas",
+    "1950",
+    "antes"
+   ],
+   "fontes": [
+    "Live Science"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A LIÇÃO: TESTAR O VENTO",
+     "sub": "Túnel de vento",
+     "em": "túnel",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "quebec-projeto",
+   "texto": "Voltamos a 1907, no Canadá. Sobre o rio São Lourenço, perto da cidade de Quebec, construía-se a maior ponte em balanço do mundo, com quinhentos e quarenta e nove metros de vão. O engenheiro consultor, Theodore Cooper, um nome respeitado, acompanhava tudo de longe. O vão tinha sido alargado em relação ao projeto original, e o peso da própria estrutura foi subestimado, sem que os cálculos fossem refeitos. Esse detalhe parecia pequeno. Não era.",
+   "galeria": [
+    "quebec-mapa",
+    "quebec-obra",
+    "cooper",
+    "quebec-braco",
+    "quebec-aco"
+   ],
+   "galeriaEm": [
+    0,
+    "maior",
+    "Theodore",
+    "alargado",
+    "peso"
+   ],
+   "fontes": [
+    "Canadian Encyclopedia",
+    "Pearson & Delatte, ASCE"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 2: RESPONSABILIDADE",
+     "sub": "Ponte de Quebec, 1907",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "quebec-queda",
+   "texto": "No verão de 1907, as vigas de compressão começaram a entortar. Engenheiros no local notaram a deformação e avisaram Cooper, mas a obra continuou. No dia vinte e nove de agosto, perto do fim do expediente, a estrutura de aço desabou em segundos. Dos oitenta e seis operários na ponte, setenta e cinco morreram. Muitos eram indígenas mohawk, da reserva de Kahnawake, no Canadá. Foi um golpe enorme para a comunidade.",
+   "galeria": [
+    "quebec-vigas",
+    "quebec-colapso",
+    "quebec-ruinas",
+    "quebec-mohawk",
+    "quebec-kahnawake"
+   ],
+   "galeriaEm": [
+    0,
+    "desabou",
+    "operários",
+    "Muitos",
+    "comunidade"
+   ],
+   "fontes": [
+    "Canadian Encyclopedia"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 75,
+     "unidade": "mortos",
+     "rotulo": "Quebec, 29 de agosto de 1907",
+     "em": "setenta",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "quebec-comissao",
+   "texto": "Uma comissão real investigou e concluiu que não foi azar: foi erro de julgamento. Cooper e o projetista da empresa, Peter Szlapka, erraram nos cálculos de carga e não levaram a sério os sinais de alerta. A ponte foi refeita, e em 1916 falhou de novo, durante a montagem do vão central: treze operários morreram. Só em 1917 ela foi concluída. Ligado a esse desastre, surgiu também o Anel de Ferro, ritual criado em 1922 para lembrar os engenheiros canadenses de sua responsabilidade.",
+   "galeria": [
+    "quebec-comissao",
+    "quebec-phoenix",
+    "quebec-1916",
+    "quebec-pronta",
+    "anel-ferro"
+   ],
+   "galeriaEm": [
+    0,
+    "Peter",
+    "1916",
+    "1917",
+    "Anel"
+   ],
+   "fontes": [
+    "Canadian Encyclopedia",
+    "Pearson & Delatte, ASCE"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "ANEL DE FERRO",
+     "significado": "Ritual canadense que lembra o engenheiro de sua responsabilidade",
+     "em": "Anel",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "silver-ponte",
+   "texto": "Pulamos para 1967, nos Estados Unidos. A Silver Bridge ligava Point Pleasant, na Virgínia Ocidental, a Kanauga, em Ohio, sobre o rio Ohio. Tinha sido aberta em 1928 e era um modelo incomum: em vez de cabos de aço, usava correntes feitas de barras de aço com olhais, as eyebars. Em quinze de dezembro, no horário de pico, a ponte estava cheia de carros.",
+   "galeria": [
+    "silver-bridge",
+    "silver-mapa",
+    "silver-1928",
+    "silver-eyebars",
+    "silver-trafego"
+   ],
+   "galeriaEm": [
+    0,
+    "Point",
+    "Tinha",
+    "correntes",
+    "horário"
+   ],
+   "fontes": [
+    "Open University",
+    "NPR"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 3: A INSPEÇÃO",
+     "sub": "Silver Bridge, 1967",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "silver-queda",
+   "texto": "Em cerca de um minuto, a ponte inteira caiu no rio. Quarenta e seis pessoas morreram. A investigação achou a origem: uma única barra, a número trezentos e trinta, tinha uma rachadura de uns três milímetros, escondida dentro da junta. Com o tempo, corrosão e tensão fizeram essa trinca crescer até a barra partir de uma vez. E aqui está a parte que muda tudo: segundo o NTSB, nenhuma inspeção conhecida na época poderia ter visto o defeito sem desmontar a junta.",
+   "galeria": [
+    "silver-queda",
+    "silver-ruinas",
+    "silver-barra330",
+    "silver-junta",
+    "silver-mergulhadores"
+   ],
+   "galeriaEm": [
+    0,
+    "Quarenta",
+    "única",
+    "corrosão",
+    "inspeção"
+   ],
+   "fontes": [
+    "NTSB",
+    "Open University"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 46,
+     "unidade": "mortos",
+     "rotulo": "Silver Bridge, 15 de dezembro de 1967",
+     "em": "Quarenta",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "silver-legado",
+   "texto": "O país descobriu que não sabia quantas pontes tinha nem em que estado estavam. Em 1968, o Congresso aprovou uma lei federal de rodovias que criou o programa nacional de inspeção de pontes. Em 1971, saíram as primeiras normas nacionais, exigindo inspeção periódica por profissionais treinados. Os estados passaram a manter um inventário de pontes. Mas ainda havia um ponto cego. E ele só apareceria quarenta anos depois.",
+   "galeria": [
+    "silver-memorial",
+    "capitolio",
+    "inspetor",
+    "fhwa",
+    "silver-memorial-nova"
+   ],
+   "galeriaEm": [
+    0,
+    "Congresso",
+    "inspeção",
+    "inventário",
+    "Mas"
+   ],
+   "fontes": [
+    "FHWA",
+    "NPR"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1968",
+       "Lei federal de rodovias"
+      ],
+      [
+       "1971",
+       "Normas nacionais de inspeção"
+      ]
+     ],
+     "em": "1971",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "i35w-queda",
+   "texto": "Primeiro de agosto de 2007, Minneapolis, fim da tarde, hora do rush. A ponte da rodovia interestadual 35W, sobre o rio Mississippi, tinha quarenta anos e já estava classificada como estruturalmente deficiente, o que não indica risco iminente, e seguia aberta, sob inspeção regular. De repente, o vão central desabou. Treze pessoas morreram e cento e quarenta e cinco ficaram feridas. Havia obras na ponte, e material de construção sobre o tabuleiro.",
+   "galeria": [
+    "minneapolis",
+    "i35w-antes",
+    "i35w-queda",
+    "i35w-resgate",
+    "i35w-obras"
+   ],
+   "galeriaEm": [
+    0,
+    "rodovia",
+    "desabou",
+    "Treze",
+    "obras"
+   ],
+   "fontes": [
+    "NTSB",
+    "MPR News"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CAPÍTULO 4: O PONTO CEGO",
+     "sub": "I-35W, Minneapolis, 2007",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "i35w-causa",
+   "texto": "Em novembro de 2008, o NTSB, órgão americano que investiga acidentes de transporte, apontou o motivo: as placas de ligação, as gusset plates, que unem as vigas da treliça. Em oito dos doze nós principais, elas tinham meia polegada, cerca de treze milímetros, metade do necessário. Foi erro de projeto, da empresa Sverdrup e Parcel, nos anos sessenta. A ponte também engordou com o tempo: camadas extras de concreto e, no dia, o peso das obras. E as inspeções simplesmente não olhavam essas placas com atenção.",
+   "galeria": [
+    "ntsb",
+    "i35w-gusset",
+    "i35w-fratura",
+    "i35w-concreto",
+    "i35w-trelica"
+   ],
+   "galeriaEm": [
+    0,
+    "placas",
+    "meia",
+    "concreto",
+    "inspeções"
+   ],
+   "fontes": [
+    "NTSB",
+    "ENR",
+    "MPR News"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "GUSSET PLATE",
+     "significado": "Placa de aço que liga as vigas de uma treliça",
+     "em": "gusset",
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "i35w-legado",
+   "texto": "Em setembro de 2008, uma nova ponte foi aberta no mesmo lugar: a St. Anthony Falls Bridge. Depois do relatório, o governo federal orientou os estados a revisar placas de ligação em pontes parecidas e publicou um guia para calcular a capacidade delas. Cada desastre fechou uma lacuna que ninguém via.",
+   "galeria": [
+    "st-anthony",
+    "i35w-memorial",
+    "mississippi",
+    "fhwa-guia"
+   ],
+   "galeriaEm": [
+    0,
+    "relatório",
+    "revisar",
+    "Cada"
+   ],
+   "fontes": [
+    "NTSB",
+    "MPR News"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então, por que pontes que caem nos ensinam tanto? Porque um desastre documentado vira dado. Tacoma trouxe o vento para o cálculo. Quebec trouxe a responsabilidade do engenheiro. A Silver Bridge criou a inspeção nacional. A I-35W mostrou que revisar o que parece certo faz parte do trabalho. Essa não é uma história de azar. É a história de uma profissão que escreve suas regras com as lições mais caras que existem.",
+   "galeria": [
+    "fim-tacoma",
+    "fim-quebec",
+    "fim-silver",
+    "fim-i35w",
+    "fim-inspecao"
+   ],
+   "galeriaEm": [
+    0,
+    "Quebec",
+    "Silver",
+    "I-35W",
+    "Essa"
+   ],
+   "fontes": [],
+   "elementos": []
+  },
+  {
+   "id": "fecho",
+   "texto": "Toda ponte que você atravessa hoje carrega, escondida no cálculo, a memória de quem não voltou para casa.",
+   "galeria": [
+    "millau",
+    "hercilio-luz"
+   ],
+   "galeriaEm": [
+    0,
+    "escondida"
+   ],
+   "fontes": [],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "73dc8da222",
+   "texto": "Novembro de 1940. Um homem abandona o carro no meio de uma ponte que ondula como uma fita. Dentro do carro, ficou um cachorro. Quatro meses antes, aquela ponte tinha sido inaugurada com festa. Agora, o aço dobrava feito borracha. Ninguém morreu naquele dia, só o cachorro. E é por causa dessa queda que hoje você atravessa pontes sem pensar nelas.",
+   "audio": "audio/gancho-73dc8da222.mp3",
+   "duracao": 24.603,
+   "palavras": [
+    {
+     "p": "Novembro",
+     "i": 0.102,
+     "f": 0.753
+    },
+    {
+     "p": "de",
+     "i": 0.766,
+     "f": 0.883
+    },
+    {
+     "p": "1940",
+     "i": 0.896,
+     "f": 2.355
+    },
+    {
+     "p": "Um",
+     "i": 2.637,
+     "f": 2.819
+    },
+    {
+     "p": "homem",
+     "i": 2.832,
+     "f": 3.145
+    },
+    {
+     "p": "abandona",
+     "i": 3.158,
+     "f": 3.653
+    },
+    {
+     "p": "o",
+     "i": 3.666,
+     "f": 3.718
+    },
+    {
+     "p": "carro",
+     "i": 3.731,
+     "f": 4.056
+    },
+    {
+     "p": "no",
+     "i": 4.069,
+     "f": 4.174
+    },
+    {
+     "p": "meio",
+     "i": 4.187,
+     "f": 4.447
+    },
+    {
+     "p": "de",
+     "i": 4.46,
+     "f": 4.551
+    },
+    {
+     "p": "uma",
+     "i": 4.564,
+     "f": 4.746
+    },
+    {
+     "p": "ponte",
+     "i": 4.759,
+     "f": 5.163
+    },
+    {
+     "p": "que",
+     "i": 5.176,
+     "f": 5.267
+    },
+    {
+     "p": "ondula",
+     "i": 5.28,
+     "f": 5.697
+    },
+    {
+     "p": "como",
+     "i": 5.71,
+     "f": 5.957
+    },
+    {
+     "p": "uma",
+     "i": 5.97,
+     "f": 6.192
+    },
+    {
+     "p": "fita",
+     "i": 6.205,
+     "f": 6.608
+    },
+    {
+     "p": "Dentro",
+     "i": 6.89,
+     "f": 7.281
+    },
+    {
+     "p": "do",
+     "i": 7.294,
+     "f": 7.424
+    },
+    {
+     "p": "carro",
+     "i": 7.437,
+     "f": 7.828
+    },
+    {
+     "p": "ficou",
+     "i": 8.127,
+     "f": 8.492
+    },
+    {
+     "p": "um",
+     "i": 8.505,
+     "f": 8.609
+    },
+    {
+     "p": "cachorro",
+     "i": 8.622,
+     "f": 9.208
+    },
+    {
+     "p": "Quatro",
+     "i": 9.49,
+     "f": 9.894
+    },
+    {
+     "p": "meses",
+     "i": 9.907,
+     "f": 10.206
+    },
+    {
+     "p": "antes",
+     "i": 10.219,
+     "f": 10.753
+    },
+    {
+     "p": "aquela",
+     "i": 10.935,
+     "f": 11.274
+    },
+    {
+     "p": "ponte",
+     "i": 11.287,
+     "f": 11.652
+    },
+    {
+     "p": "tinha",
+     "i": 11.665,
+     "f": 11.899
+    },
+    {
+     "p": "sido",
+     "i": 11.912,
+     "f": 12.185
+    },
+    {
+     "p": "inaugurada",
+     "i": 12.198,
+     "f": 12.784
+    },
+    {
+     "p": "com",
+     "i": 12.797,
+     "f": 12.98
+    },
+    {
+     "p": "festa",
+     "i": 12.993,
+     "f": 13.422
+    },
+    {
+     "p": "Agora",
+     "i": 13.704,
+     "f": 14.238
+    },
+    {
+     "p": "o",
+     "i": 14.472,
+     "f": 14.576
+    },
+    {
+     "p": "aço",
+     "i": 14.59,
+     "f": 14.837
+    },
+    {
+     "p": "dobrava",
+     "i": 14.85,
+     "f": 15.319
+    },
+    {
+     "p": "feito",
+     "i": 15.332,
+     "f": 15.644
+    },
+    {
+     "p": "borracha",
+     "i": 15.657,
+     "f": 16.256
+    },
+    {
+     "p": "Ninguém",
+     "i": 16.538,
+     "f": 17.02
+    },
+    {
+     "p": "morreu",
+     "i": 17.033,
+     "f": 17.332
+    },
+    {
+     "p": "naquele",
+     "i": 17.345,
+     "f": 17.697
+    },
+    {
+     "p": "dia",
+     "i": 17.71,
+     "f": 18.022
+    },
+    {
+     "p": "só",
+     "i": 18.27,
+     "f": 18.478
+    },
+    {
+     "p": "o",
+     "i": 18.491,
+     "f": 18.543
+    },
+    {
+     "p": "cachorro",
+     "i": 18.556,
+     "f": 19.155
+    },
+    {
+     "p": "E",
+     "i": 19.437,
+     "f": 19.541
+    },
+    {
+     "p": "é",
+     "i": 19.554,
+     "f": 19.632
+    },
+    {
+     "p": "por",
+     "i": 19.645,
+     "f": 19.854
+    },
+    {
+     "p": "causa",
+     "i": 19.867,
+     "f": 20.205
+    },
+    {
+     "p": "dessa",
+     "i": 20.218,
+     "f": 20.479
+    },
+    {
+     "p": "queda",
+     "i": 20.492,
+     "f": 20.83
+    },
+    {
+     "p": "que",
+     "i": 20.843,
+     "f": 21
+    },
+    {
+     "p": "hoje",
+     "i": 21.013,
+     "f": 21.312
+    },
+    {
+     "p": "você",
+     "i": 21.325,
+     "f": 21.599
+    },
+    {
+     "p": "atravessa",
+     "i": 21.612,
+     "f": 22.132
+    },
+    {
+     "p": "pontes",
+     "i": 22.145,
+     "f": 22.64
+    },
+    {
+     "p": "sem",
+     "i": 22.653,
+     "f": 22.836
+    },
+    {
+     "p": "pensar",
+     "i": 22.849,
+     "f": 23.356
+    },
+    {
+     "p": "nelas",
+     "i": 23.369,
+     "f": 23.903
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "de3510243e",
+   "texto": "Esta é a história de pontes que caíram e do que cada queda ensinou. Quatro casos, em quatro épocas, com um padrão que se repete: o erro aparece, as pessoas pagam, e uma regra nova nasce. No fim, você vai entender por que a segurança que existe hoje foi escrita, quase sempre, depois de uma tragédia. E por que a pior ponte é aquela que ninguém sabe que está falhando.",
+   "audio": "audio/promessa-de3510243e.mp3",
+   "duracao": 23.642,
+   "palavras": [
+    {
+     "p": "Esta",
+     "i": 0.102,
+     "f": 0.428
+    },
+    {
+     "p": "é",
+     "i": 0.441,
+     "f": 0.506
+    },
+    {
+     "p": "a",
+     "i": 0.519,
+     "f": 0.571
+    },
+    {
+     "p": "história",
+     "i": 0.584,
+     "f": 0.962
+    },
+    {
+     "p": "de",
+     "i": 0.975,
+     "f": 1.092
+    },
+    {
+     "p": "pontes",
+     "i": 1.105,
+     "f": 1.547
+    },
+    {
+     "p": "que",
+     "i": 1.56,
+     "f": 1.665
+    },
+    {
+     "p": "caíram",
+     "i": 1.678,
+     "f": 2.107
+    },
+    {
+     "p": "e",
+     "i": 2.12,
+     "f": 2.159
+    },
+    {
+     "p": "do",
+     "i": 2.172,
+     "f": 2.277
+    },
+    {
+     "p": "que",
+     "i": 2.29,
+     "f": 2.446
+    },
+    {
+     "p": "cada",
+     "i": 2.459,
+     "f": 2.745
+    },
+    {
+     "p": "queda",
+     "i": 2.758,
+     "f": 3.071
+    },
+    {
+     "p": "ensinou",
+     "i": 3.084,
+     "f": 3.605
+    },
+    {
+     "p": "Quatro",
+     "i": 3.887,
+     "f": 4.265
+    },
+    {
+     "p": "casos",
+     "i": 4.278,
+     "f": 4.733
+    },
+    {
+     "p": "em",
+     "i": 4.955,
+     "f": 5.072
+    },
+    {
+     "p": "quatro",
+     "i": 5.085,
+     "f": 5.476
+    },
+    {
+     "p": "épocas",
+     "i": 5.489,
+     "f": 6.023
+    },
+    {
+     "p": "com",
+     "i": 6.296,
+     "f": 6.413
+    },
+    {
+     "p": "um",
+     "i": 6.426,
+     "f": 6.517
+    },
+    {
+     "p": "padrão",
+     "i": 6.53,
+     "f": 6.882
+    },
+    {
+     "p": "que",
+     "i": 6.895,
+     "f": 6.986
+    },
+    {
+     "p": "se",
+     "i": 6.999,
+     "f": 7.103
+    },
+    {
+     "p": "repete",
+     "i": 7.116,
+     "f": 7.689
+    },
+    {
+     "p": "o",
+     "i": 7.976,
+     "f": 8.145
+    },
+    {
+     "p": "erro",
+     "i": 8.158,
+     "f": 8.392
+    },
+    {
+     "p": "aparece",
+     "i": 8.405,
+     "f": 9.017
+    },
+    {
+     "p": "as",
+     "i": 9.265,
+     "f": 9.421
+    },
+    {
+     "p": "pessoas",
+     "i": 9.434,
+     "f": 9.903
+    },
+    {
+     "p": "pagam",
+     "i": 9.916,
+     "f": 10.267
+    },
+    {
+     "p": "e",
+     "i": 10.554,
+     "f": 10.632
+    },
+    {
+     "p": "uma",
+     "i": 10.645,
+     "f": 10.814
+    },
+    {
+     "p": "regra",
+     "i": 10.827,
+     "f": 11.14
+    },
+    {
+     "p": "nova",
+     "i": 11.153,
+     "f": 11.478
+    },
+    {
+     "p": "nasce",
+     "i": 11.491,
+     "f": 11.934
+    },
+    {
+     "p": "No",
+     "i": 12.216,
+     "f": 12.385
+    },
+    {
+     "p": "fim",
+     "i": 12.398,
+     "f": 12.685
+    },
+    {
+     "p": "você",
+     "i": 13.089,
+     "f": 13.388
+    },
+    {
+     "p": "vai",
+     "i": 13.401,
+     "f": 13.505
+    },
+    {
+     "p": "entender",
+     "i": 13.518,
+     "f": 14
+    },
+    {
+     "p": "por",
+     "i": 14.013,
+     "f": 14.221
+    },
+    {
+     "p": "que",
+     "i": 14.234,
+     "f": 14.338
+    },
+    {
+     "p": "a",
+     "i": 14.351,
+     "f": 14.404
+    },
+    {
+     "p": "segurança",
+     "i": 14.417,
+     "f": 15.055
+    },
+    {
+     "p": "que",
+     "i": 15.068,
+     "f": 15.146
+    },
+    {
+     "p": "existe",
+     "i": 15.159,
+     "f": 15.575
+    },
+    {
+     "p": "hoje",
+     "i": 15.588,
+     "f": 15.901
+    },
+    {
+     "p": "foi",
+     "i": 15.914,
+     "f": 16.07
+    },
+    {
+     "p": "escrita",
+     "i": 16.083,
+     "f": 16.578
+    },
+    {
+     "p": "quase",
+     "i": 16.786,
+     "f": 17.177
+    },
+    {
+     "p": "sempre",
+     "i": 17.19,
+     "f": 17.659
+    },
+    {
+     "p": "depois",
+     "i": 17.958,
+     "f": 18.414
+    },
+    {
+     "p": "de",
+     "i": 18.427,
+     "f": 18.505
+    },
+    {
+     "p": "uma",
+     "i": 18.518,
+     "f": 18.674
+    },
+    {
+     "p": "tragédia",
+     "i": 18.687,
+     "f": 19.247
+    },
+    {
+     "p": "E",
+     "i": 19.529,
+     "f": 19.659
+    },
+    {
+     "p": "por",
+     "i": 19.672,
+     "f": 19.855
+    },
+    {
+     "p": "que",
+     "i": 19.868,
+     "f": 19.985
+    },
+    {
+     "p": "a",
+     "i": 19.998,
+     "f": 20.089
+    },
+    {
+     "p": "pior",
+     "i": 20.102,
+     "f": 20.428
+    },
+    {
+     "p": "ponte",
+     "i": 20.441,
+     "f": 20.792
+    },
+    {
+     "p": "é",
+     "i": 20.805,
+     "f": 20.831
+    },
+    {
+     "p": "aquela",
+     "i": 20.844,
+     "f": 21.157
+    },
+    {
+     "p": "que",
+     "i": 21.17,
+     "f": 21.274
+    },
+    {
+     "p": "ninguém",
+     "i": 21.287,
+     "f": 21.691
+    },
+    {
+     "p": "sabe",
+     "i": 21.704,
+     "f": 22.029
+    },
+    {
+     "p": "que",
+     "i": 22.042,
+     "f": 22.133
+    },
+    {
+     "p": "está",
+     "i": 22.146,
+     "f": 22.355
+    },
+    {
+     "p": "falhando",
+     "i": 22.368,
+     "f": 22.941
+    }
+   ]
+  },
+  "tacoma-ponte": {
+   "hash": "e33c63ee5b",
+   "texto": "A Tacoma Narrows, no estado de Washington, nos Estados Unidos, foi aberta em primeiro de julho de 1940. Era a terceira maior ponte pênsil do mundo, com oitocentos e cinquenta e três metros de vão central. Para economizar, os projetistas trocaram as vigas treliçadas por vigas laterais de alma cheia, de dois metros e meio de altura, muito mais finas e baratas. Resultado: uma ponte esbelta e elegante, mas que funcionava como uma vela diante do vento.",
+   "audio": "audio/tacoma-ponte-e33c63ee5b.mp3",
+   "duracao": 29.435,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "Tacoma",
+     "i": 0.232,
+     "f": 0.636
+    },
+    {
+     "p": "Narrows",
+     "i": 0.649,
+     "f": 1.222
+    },
+    {
+     "p": "no",
+     "i": 1.443,
+     "f": 1.547
+    },
+    {
+     "p": "estado",
+     "i": 1.56,
+     "f": 1.977
+    },
+    {
+     "p": "de",
+     "i": 1.99,
+     "f": 2.107
+    },
+    {
+     "p": "Washington",
+     "i": 2.12,
+     "f": 2.732
+    },
+    {
+     "p": "nos",
+     "i": 3.019,
+     "f": 3.11
+    },
+    {
+     "p": "Estados",
+     "i": 3.123,
+     "f": 3.579
+    },
+    {
+     "p": "Unidos",
+     "i": 3.592,
+     "f": 4.112
+    },
+    {
+     "p": "foi",
+     "i": 4.399,
+     "f": 4.516
+    },
+    {
+     "p": "aberta",
+     "i": 4.529,
+     "f": 4.972
+    },
+    {
+     "p": "em",
+     "i": 4.985,
+     "f": 5.05
+    },
+    {
+     "p": "primeiro",
+     "i": 5.063,
+     "f": 5.467
+    },
+    {
+     "p": "de",
+     "i": 5.48,
+     "f": 5.571
+    },
+    {
+     "p": "julho",
+     "i": 5.584,
+     "f": 5.935
+    },
+    {
+     "p": "de",
+     "i": 5.948,
+     "f": 6.053
+    },
+    {
+     "p": "1940",
+     "i": 6.066,
+     "f": 7.459
+    },
+    {
+     "p": "Era",
+     "i": 7.741,
+     "f": 7.962
+    },
+    {
+     "p": "a",
+     "i": 7.975,
+     "f": 8.015
+    },
+    {
+     "p": "terceira",
+     "i": 8.028,
+     "f": 8.483
+    },
+    {
+     "p": "maior",
+     "i": 8.496,
+     "f": 8.835
+    },
+    {
+     "p": "ponte",
+     "i": 8.848,
+     "f": 9.199
+    },
+    {
+     "p": "pênsil",
+     "i": 9.212,
+     "f": 9.603
+    },
+    {
+     "p": "do",
+     "i": 9.616,
+     "f": 9.72
+    },
+    {
+     "p": "mundo",
+     "i": 9.733,
+     "f": 10.111
+    },
+    {
+     "p": "com",
+     "i": 10.41,
+     "f": 10.554
+    },
+    {
+     "p": "oitocentos",
+     "i": 10.567,
+     "f": 11.218
+    },
+    {
+     "p": "e",
+     "i": 11.231,
+     "f": 11.335
+    },
+    {
+     "p": "cinquenta",
+     "i": 11.348,
+     "f": 11.712
+    },
+    {
+     "p": "e",
+     "i": 11.725,
+     "f": 11.751
+    },
+    {
+     "p": "três",
+     "i": 11.765,
+     "f": 11.999
+    },
+    {
+     "p": "metros",
+     "i": 12.012,
+     "f": 12.429
+    },
+    {
+     "p": "de",
+     "i": 12.442,
+     "f": 12.546
+    },
+    {
+     "p": "vão",
+     "i": 12.559,
+     "f": 12.767
+    },
+    {
+     "p": "central",
+     "i": 12.78,
+     "f": 13.301
+    },
+    {
+     "p": "Para",
+     "i": 13.583,
+     "f": 13.752
+    },
+    {
+     "p": "economizar",
+     "i": 13.765,
+     "f": 14.429
+    },
+    {
+     "p": "os",
+     "i": 14.768,
+     "f": 14.885
+    },
+    {
+     "p": "projetistas",
+     "i": 14.898,
+     "f": 15.679
+    },
+    {
+     "p": "trocaram",
+     "i": 15.692,
+     "f": 16.148
+    },
+    {
+     "p": "as",
+     "i": 16.161,
+     "f": 16.304
+    },
+    {
+     "p": "vigas",
+     "i": 16.317,
+     "f": 16.643
+    },
+    {
+     "p": "treliçadas",
+     "i": 16.656,
+     "f": 17.372
+    },
+    {
+     "p": "por",
+     "i": 17.385,
+     "f": 17.567
+    },
+    {
+     "p": "vigas",
+     "i": 17.58,
+     "f": 17.893
+    },
+    {
+     "p": "laterais",
+     "i": 17.906,
+     "f": 18.375
+    },
+    {
+     "p": "de",
+     "i": 18.388,
+     "f": 18.479
+    },
+    {
+     "p": "alma",
+     "i": 18.492,
+     "f": 18.7
+    },
+    {
+     "p": "cheia",
+     "i": 18.713,
+     "f": 19.117
+    },
+    {
+     "p": "de",
+     "i": 19.351,
+     "f": 19.482
+    },
+    {
+     "p": "dois",
+     "i": 19.495,
+     "f": 19.716
+    },
+    {
+     "p": "metros",
+     "i": 19.729,
+     "f": 20.08
+    },
+    {
+     "p": "e",
+     "i": 20.093,
+     "f": 20.198
+    },
+    {
+     "p": "meio",
+     "i": 20.211,
+     "f": 20.458
+    },
+    {
+     "p": "de",
+     "i": 20.471,
+     "f": 20.536
+    },
+    {
+     "p": "altura",
+     "i": 20.549,
+     "f": 20.992
+    },
+    {
+     "p": "muito",
+     "i": 21.278,
+     "f": 21.63
+    },
+    {
+     "p": "mais",
+     "i": 21.643,
+     "f": 21.864
+    },
+    {
+     "p": "finas",
+     "i": 21.877,
+     "f": 22.151
+    },
+    {
+     "p": "e",
+     "i": 22.164,
+     "f": 22.268
+    },
+    {
+     "p": "baratas",
+     "i": 22.281,
+     "f": 22.945
+    },
+    {
+     "p": "Resultado",
+     "i": 23.227,
+     "f": 23.969
+    },
+    {
+     "p": "uma",
+     "i": 24.191,
+     "f": 24.425
+    },
+    {
+     "p": "ponte",
+     "i": 24.438,
+     "f": 24.751
+    },
+    {
+     "p": "esbelta",
+     "i": 24.764,
+     "f": 25.232
+    },
+    {
+     "p": "e",
+     "i": 25.245,
+     "f": 25.284
+    },
+    {
+     "p": "elegante",
+     "i": 25.297,
+     "f": 25.844
+    },
+    {
+     "p": "mas",
+     "i": 26.183,
+     "f": 26.378
+    },
+    {
+     "p": "que",
+     "i": 26.391,
+     "f": 26.508
+    },
+    {
+     "p": "funcionava",
+     "i": 26.521,
+     "f": 27.081
+    },
+    {
+     "p": "como",
+     "i": 27.094,
+     "f": 27.29
+    },
+    {
+     "p": "uma",
+     "i": 27.303,
+     "f": 27.459
+    },
+    {
+     "p": "vela",
+     "i": 27.472,
+     "f": 27.745
+    },
+    {
+     "p": "diante",
+     "i": 27.758,
+     "f": 28.175
+    },
+    {
+     "p": "do",
+     "i": 28.188,
+     "f": 28.318
+    },
+    {
+     "p": "vento",
+     "i": 28.331,
+     "f": 28.735
+    }
+   ]
+  },
+  "tacoma-gertie": {
+   "hash": "7928c6c92c",
+   "texto": "Desde a abertura, o tabuleiro balançava, mesmo com pouco vento. Os motoristas passaram a chamá-la de Galloping Gertie, algo como Gertie Galopante. Havia quem fosse até lá só pelo frio na barriga, como numa montanha-russa. Engenheiros tentaram amarrar cabos e instalar amortecedores, mas nada resolveu. Um professor da Universidade de Washington, Frederick Farquharson, foi contratado para testar um modelo no túnel de vento. Na manhã de sete de novembro, um vento de uns sessenta e oito quilômetros por hora fez o que o ar calmo não fez.",
+   "audio": "audio/tacoma-gertie-7928c6c92c.mp3",
+   "duracao": 34.01,
+   "palavras": [
+    {
+     "p": "Desde",
+     "i": 0.102,
+     "f": 0.519
+    },
+    {
+     "p": "a",
+     "i": 0.532,
+     "f": 0.545
+    },
+    {
+     "p": "abertura",
+     "i": 0.558,
+     "f": 1.105
+    },
+    {
+     "p": "o",
+     "i": 1.443,
+     "f": 1.534
+    },
+    {
+     "p": "tabuleiro",
+     "i": 1.547,
+     "f": 2.042
+    },
+    {
+     "p": "balançava",
+     "i": 2.055,
+     "f": 2.732
+    },
+    {
+     "p": "mesmo",
+     "i": 3.045,
+     "f": 3.435
+    },
+    {
+     "p": "com",
+     "i": 3.448,
+     "f": 3.657
+    },
+    {
+     "p": "pouco",
+     "i": 3.67,
+     "f": 4.021
+    },
+    {
+     "p": "vento",
+     "i": 4.034,
+     "f": 4.438
+    },
+    {
+     "p": "Os",
+     "i": 4.72,
+     "f": 4.876
+    },
+    {
+     "p": "motoristas",
+     "i": 4.889,
+     "f": 5.632
+    },
+    {
+     "p": "passaram",
+     "i": 5.645,
+     "f": 6.061
+    },
+    {
+     "p": "a",
+     "i": 6.074,
+     "f": 6.113
+    },
+    {
+     "p": "chamá-la",
+     "i": 6.126,
+     "f": 6.595
+    },
+    {
+     "p": "de",
+     "i": 6.608,
+     "f": 6.686
+    },
+    {
+     "p": "Galloping",
+     "i": 6.699,
+     "f": 7.168
+    },
+    {
+     "p": "Gertie",
+     "i": 7.181,
+     "f": 7.65
+    },
+    {
+     "p": "algo",
+     "i": 7.936,
+     "f": 8.21
+    },
+    {
+     "p": "como",
+     "i": 8.223,
+     "f": 8.47
+    },
+    {
+     "p": "Gertie",
+     "i": 8.483,
+     "f": 8.9
+    },
+    {
+     "p": "Galopante",
+     "i": 8.913,
+     "f": 9.642
+    },
+    {
+     "p": "Havia",
+     "i": 9.924,
+     "f": 10.354
+    },
+    {
+     "p": "quem",
+     "i": 10.367,
+     "f": 10.536
+    },
+    {
+     "p": "fosse",
+     "i": 10.549,
+     "f": 10.94
+    },
+    {
+     "p": "até",
+     "i": 10.953,
+     "f": 11.135
+    },
+    {
+     "p": "lá",
+     "i": 11.148,
+     "f": 11.265
+    },
+    {
+     "p": "só",
+     "i": 11.278,
+     "f": 11.474
+    },
+    {
+     "p": "pelo",
+     "i": 11.487,
+     "f": 11.734
+    },
+    {
+     "p": "frio",
+     "i": 11.747,
+     "f": 12.007
+    },
+    {
+     "p": "na",
+     "i": 12.02,
+     "f": 12.112
+    },
+    {
+     "p": "barriga",
+     "i": 12.125,
+     "f": 12.606
+    },
+    {
+     "p": "como",
+     "i": 12.88,
+     "f": 13.14
+    },
+    {
+     "p": "numa",
+     "i": 13.153,
+     "f": 13.349
+    },
+    {
+     "p": "montanha-russa",
+     "i": 13.362,
+     "f": 14.195
+    },
+    {
+     "p": "Engenheiros",
+     "i": 14.477,
+     "f": 15.128
+    },
+    {
+     "p": "tentaram",
+     "i": 15.141,
+     "f": 15.584
+    },
+    {
+     "p": "amarrar",
+     "i": 15.597,
+     "f": 16.014
+    },
+    {
+     "p": "cabos",
+     "i": 16.027,
+     "f": 16.417
+    },
+    {
+     "p": "e",
+     "i": 16.43,
+     "f": 16.508
+    },
+    {
+     "p": "instalar",
+     "i": 16.521,
+     "f": 16.925
+    },
+    {
+     "p": "amortecedores",
+     "i": 16.938,
+     "f": 17.928
+    },
+    {
+     "p": "mas",
+     "i": 18.201,
+     "f": 18.422
+    },
+    {
+     "p": "nada",
+     "i": 18.435,
+     "f": 18.722
+    },
+    {
+     "p": "resolveu",
+     "i": 18.735,
+     "f": 19.308
+    },
+    {
+     "p": "Um",
+     "i": 19.59,
+     "f": 19.746
+    },
+    {
+     "p": "professor",
+     "i": 19.759,
+     "f": 20.345
+    },
+    {
+     "p": "da",
+     "i": 20.358,
+     "f": 20.462
+    },
+    {
+     "p": "Universidade",
+     "i": 20.476,
+     "f": 21.244
+    },
+    {
+     "p": "de",
+     "i": 21.257,
+     "f": 21.348
+    },
+    {
+     "p": "Washington",
+     "i": 21.361,
+     "f": 21.973
+    },
+    {
+     "p": "Frederick",
+     "i": 22.337,
+     "f": 22.845
+    },
+    {
+     "p": "Farquharson",
+     "i": 22.858,
+     "f": 23.535
+    },
+    {
+     "p": "foi",
+     "i": 23.887,
+     "f": 24.03
+    },
+    {
+     "p": "contratado",
+     "i": 24.043,
+     "f": 24.707
+    },
+    {
+     "p": "para",
+     "i": 24.72,
+     "f": 24.916
+    },
+    {
+     "p": "testar",
+     "i": 24.929,
+     "f": 25.306
+    },
+    {
+     "p": "um",
+     "i": 25.319,
+     "f": 25.371
+    },
+    {
+     "p": "modelo",
+     "i": 25.384,
+     "f": 25.814
+    },
+    {
+     "p": "no",
+     "i": 25.827,
+     "f": 25.957
+    },
+    {
+     "p": "túnel",
+     "i": 25.97,
+     "f": 26.257
+    },
+    {
+     "p": "de",
+     "i": 26.27,
+     "f": 26.387
+    },
+    {
+     "p": "vento",
+     "i": 26.4,
+     "f": 26.817
+    },
+    {
+     "p": "Na",
+     "i": 27.099,
+     "f": 27.242
+    },
+    {
+     "p": "manhã",
+     "i": 27.255,
+     "f": 27.607
+    },
+    {
+     "p": "de",
+     "i": 27.62,
+     "f": 27.75
+    },
+    {
+     "p": "sete",
+     "i": 27.763,
+     "f": 28.102
+    },
+    {
+     "p": "de",
+     "i": 28.115,
+     "f": 28.193
+    },
+    {
+     "p": "novembro",
+     "i": 28.206,
+     "f": 28.727
+    },
+    {
+     "p": "um",
+     "i": 29.026,
+     "f": 29.208
+    },
+    {
+     "p": "vento",
+     "i": 29.221,
+     "f": 29.547
+    },
+    {
+     "p": "de",
+     "i": 29.56,
+     "f": 29.651
+    },
+    {
+     "p": "uns",
+     "i": 29.664,
+     "f": 29.807
+    },
+    {
+     "p": "sessenta",
+     "i": 29.82,
+     "f": 30.198
+    },
+    {
+     "p": "e",
+     "i": 30.211,
+     "f": 30.224
+    },
+    {
+     "p": "oito",
+     "i": 30.237,
+     "f": 30.471
+    },
+    {
+     "p": "quilômetros",
+     "i": 30.484,
+     "f": 31.083
+    },
+    {
+     "p": "por",
+     "i": 31.096,
+     "f": 31.279
+    },
+    {
+     "p": "hora",
+     "i": 31.292,
+     "f": 31.539
+    },
+    {
+     "p": "fez",
+     "i": 31.552,
+     "f": 31.8
+    },
+    {
+     "p": "o",
+     "i": 31.813,
+     "f": 31.93
+    },
+    {
+     "p": "que",
+     "i": 31.943,
+     "f": 32.034
+    },
+    {
+     "p": "o",
+     "i": 32.047,
+     "f": 32.112
+    },
+    {
+     "p": "ar",
+     "i": 32.125,
+     "f": 32.242
+    },
+    {
+     "p": "calmo",
+     "i": 32.255,
+     "f": 32.633
+    },
+    {
+     "p": "não",
+     "i": 32.646,
+     "f": 32.854
+    },
+    {
+     "p": "fez",
+     "i": 32.867,
+     "f": 33.31
+    }
+   ]
+  },
+  "tacoma-queda": {
+   "hash": "0e0a1e5bc9",
+   "texto": "Às dez da manhã, a oscilação mudou de natureza. Em vez de subir e descer, a ponte começou a torcer: um lado do tabuleiro subia enquanto o outro descia. O motorista Leonard Coatsworth tentou atravessar de carro, desistiu e saiu a pé. O cachorro dele, Tubby, não quis sair do carro. Pouco depois, o vão central se partiu e caiu na água de Puget Sound. Muita gente diz que foi ressonância, mas essa explicação é simplificada demais. O que aconteceu foi flutter aeroelástico: o vento e a estrutura se alimentando um do outro, até o limite.",
+   "audio": "audio/tacoma-queda-0e0a1e5bc9.mp3",
+   "duracao": 36.337,
+   "palavras": [
+    {
+     "p": "Às",
+     "i": 0.102,
+     "f": 0.323
+    },
+    {
+     "p": "dez",
+     "i": 0.336,
+     "f": 0.623
+    },
+    {
+     "p": "da",
+     "i": 0.636,
+     "f": 0.727
+    },
+    {
+     "p": "manhã",
+     "i": 0.74,
+     "f": 1.131
+    },
+    {
+     "p": "a",
+     "i": 1.378,
+     "f": 1.456
+    },
+    {
+     "p": "oscilação",
+     "i": 1.469,
+     "f": 2.107
+    },
+    {
+     "p": "mudou",
+     "i": 2.12,
+     "f": 2.472
+    },
+    {
+     "p": "de",
+     "i": 2.485,
+     "f": 2.589
+    },
+    {
+     "p": "natureza",
+     "i": 2.602,
+     "f": 3.214
+    },
+    {
+     "p": "Em",
+     "i": 3.496,
+     "f": 3.691
+    },
+    {
+     "p": "vez",
+     "i": 3.704,
+     "f": 3.978
+    },
+    {
+     "p": "de",
+     "i": 3.991,
+     "f": 4.108
+    },
+    {
+     "p": "subir",
+     "i": 4.121,
+     "f": 4.46
+    },
+    {
+     "p": "e",
+     "i": 4.473,
+     "f": 4.499
+    },
+    {
+     "p": "descer",
+     "i": 4.512,
+     "f": 4.941
+    },
+    {
+     "p": "a",
+     "i": 5.202,
+     "f": 5.293
+    },
+    {
+     "p": "ponte",
+     "i": 5.306,
+     "f": 5.645
+    },
+    {
+     "p": "começou",
+     "i": 5.658,
+     "f": 6.126
+    },
+    {
+     "p": "a",
+     "i": 6.139,
+     "f": 6.191
+    },
+    {
+     "p": "torcer",
+     "i": 6.204,
+     "f": 6.647
+    },
+    {
+     "p": "um",
+     "i": 7.025,
+     "f": 7.181
+    },
+    {
+     "p": "lado",
+     "i": 7.194,
+     "f": 7.493
+    },
+    {
+     "p": "do",
+     "i": 7.506,
+     "f": 7.611
+    },
+    {
+     "p": "tabuleiro",
+     "i": 7.624,
+     "f": 8.171
+    },
+    {
+     "p": "subia",
+     "i": 8.184,
+     "f": 8.574
+    },
+    {
+     "p": "enquanto",
+     "i": 8.587,
+     "f": 8.978
+    },
+    {
+     "p": "o",
+     "i": 8.991,
+     "f": 9.043
+    },
+    {
+     "p": "outro",
+     "i": 9.056,
+     "f": 9.329
+    },
+    {
+     "p": "descia",
+     "i": 9.342,
+     "f": 9.863
+    },
+    {
+     "p": "O",
+     "i": 10.145,
+     "f": 10.236
+    },
+    {
+     "p": "motorista",
+     "i": 10.249,
+     "f": 10.848
+    },
+    {
+     "p": "Leonard",
+     "i": 10.861,
+     "f": 11.278
+    },
+    {
+     "p": "Coatsworth",
+     "i": 11.291,
+     "f": 12.033
+    },
+    {
+     "p": "tentou",
+     "i": 12.046,
+     "f": 12.398
+    },
+    {
+     "p": "atravessar",
+     "i": 12.411,
+     "f": 12.997
+    },
+    {
+     "p": "de",
+     "i": 13.01,
+     "f": 13.127
+    },
+    {
+     "p": "carro",
+     "i": 13.14,
+     "f": 13.517
+    },
+    {
+     "p": "desistiu",
+     "i": 13.778,
+     "f": 14.429
+    },
+    {
+     "p": "e",
+     "i": 14.442,
+     "f": 14.481
+    },
+    {
+     "p": "saiu",
+     "i": 14.494,
+     "f": 14.859
+    },
+    {
+     "p": "a",
+     "i": 14.872,
+     "f": 14.937
+    },
+    {
+     "p": "pé",
+     "i": 14.95,
+     "f": 15.249
+    },
+    {
+     "p": "O",
+     "i": 15.531,
+     "f": 15.648
+    },
+    {
+     "p": "cachorro",
+     "i": 15.661,
+     "f": 16.208
+    },
+    {
+     "p": "dele",
+     "i": 16.221,
+     "f": 16.599
+    },
+    {
+     "p": "Tubby",
+     "i": 16.781,
+     "f": 17.146
+    },
+    {
+     "p": "não",
+     "i": 17.445,
+     "f": 17.732
+    },
+    {
+     "p": "quis",
+     "i": 17.745,
+     "f": 18.005
+    },
+    {
+     "p": "sair",
+     "i": 18.018,
+     "f": 18.37
+    },
+    {
+     "p": "do",
+     "i": 18.383,
+     "f": 18.513
+    },
+    {
+     "p": "carro",
+     "i": 18.526,
+     "f": 18.93
+    },
+    {
+     "p": "Pouco",
+     "i": 19.213,
+     "f": 19.539
+    },
+    {
+     "p": "depois",
+     "i": 19.552,
+     "f": 20.033
+    },
+    {
+     "p": "o",
+     "i": 20.333,
+     "f": 20.398
+    },
+    {
+     "p": "vão",
+     "i": 20.411,
+     "f": 20.593
+    },
+    {
+     "p": "central",
+     "i": 20.606,
+     "f": 21.088
+    },
+    {
+     "p": "se",
+     "i": 21.101,
+     "f": 21.218
+    },
+    {
+     "p": "partiu",
+     "i": 21.231,
+     "f": 21.648
+    },
+    {
+     "p": "e",
+     "i": 21.661,
+     "f": 21.7
+    },
+    {
+     "p": "caiu",
+     "i": 21.713,
+     "f": 22
+    },
+    {
+     "p": "na",
+     "i": 22.013,
+     "f": 22.143
+    },
+    {
+     "p": "água",
+     "i": 22.156,
+     "f": 22.468
+    },
+    {
+     "p": "de",
+     "i": 22.481,
+     "f": 22.599
+    },
+    {
+     "p": "Puget",
+     "i": 22.612,
+     "f": 23.028
+    },
+    {
+     "p": "Sound",
+     "i": 23.041,
+     "f": 23.549
+    },
+    {
+     "p": "Muita",
+     "i": 23.831,
+     "f": 24.222
+    },
+    {
+     "p": "gente",
+     "i": 24.235,
+     "f": 24.547
+    },
+    {
+     "p": "diz",
+     "i": 24.56,
+     "f": 24.795
+    },
+    {
+     "p": "que",
+     "i": 24.808,
+     "f": 24.925
+    },
+    {
+     "p": "foi",
+     "i": 24.938,
+     "f": 25.094
+    },
+    {
+     "p": "ressonância",
+     "i": 25.107,
+     "f": 25.81
+    },
+    {
+     "p": "mas",
+     "i": 26.123,
+     "f": 26.253
+    },
+    {
+     "p": "essa",
+     "i": 26.266,
+     "f": 26.566
+    },
+    {
+     "p": "explicação",
+     "i": 26.578,
+     "f": 27.269
+    },
+    {
+     "p": "é",
+     "i": 27.282,
+     "f": 27.321
+    },
+    {
+     "p": "simplificada",
+     "i": 27.334,
+     "f": 28.271
+    },
+    {
+     "p": "demais",
+     "i": 28.284,
+     "f": 28.831
+    },
+    {
+     "p": "O",
+     "i": 29.113,
+     "f": 29.243
+    },
+    {
+     "p": "que",
+     "i": 29.256,
+     "f": 29.36
+    },
+    {
+     "p": "aconteceu",
+     "i": 29.373,
+     "f": 30.012
+    },
+    {
+     "p": "foi",
+     "i": 30.025,
+     "f": 30.194
+    },
+    {
+     "p": "flutter",
+     "i": 30.207,
+     "f": 30.637
+    },
+    {
+     "p": "aeroelástico",
+     "i": 30.65,
+     "f": 31.483
+    },
+    {
+     "p": "o",
+     "i": 31.86,
+     "f": 31.965
+    },
+    {
+     "p": "vento",
+     "i": 31.978,
+     "f": 32.355
+    },
+    {
+     "p": "e",
+     "i": 32.368,
+     "f": 32.394
+    },
+    {
+     "p": "a",
+     "i": 32.407,
+     "f": 32.446
+    },
+    {
+     "p": "estrutura",
+     "i": 32.459,
+     "f": 33.032
+    },
+    {
+     "p": "se",
+     "i": 33.045,
+     "f": 33.176
+    },
+    {
+     "p": "alimentando",
+     "i": 33.189,
+     "f": 33.814
+    },
+    {
+     "p": "um",
+     "i": 33.827,
+     "f": 33.931
+    },
+    {
+     "p": "do",
+     "i": 33.944,
+     "f": 34.113
+    },
+    {
+     "p": "outro",
+     "i": 34.126,
+     "f": 34.478
+    },
+    {
+     "p": "até",
+     "i": 34.725,
+     "f": 35.025
+    },
+    {
+     "p": "o",
+     "i": 35.038,
+     "f": 35.09
+    },
+    {
+     "p": "limite",
+     "i": 35.103,
+     "f": 35.637
+    }
+   ]
+  },
+  "tacoma-licao": {
+   "hash": "8219eecf02",
+   "texto": "O desastre deu um recado: grandes pontes sofrem não só com peso, mas também com vento. Depois de 1940, o túnel de vento virou prática para pontes de grande vão: modelos em escala são testados antes da construção. Os tabuleiros ganharam formas aerodinâmicas, mais rigidez à torção e vigas vazadas. A ponte nova, aberta em 1950, já nasceu assim. Mas a história das pontes que caíram começa bem antes. E uma delas matou setenta e cinco pessoas.",
+   "audio": "audio/tacoma-licao-8219eecf02.mp3",
+   "duracao": 32.095,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "desastre",
+     "i": 0.245,
+     "f": 0.805
+    },
+    {
+     "p": "deu",
+     "i": 0.818,
+     "f": 0.988
+    },
+    {
+     "p": "um",
+     "i": 1.001,
+     "f": 1.079
+    },
+    {
+     "p": "recado",
+     "i": 1.092,
+     "f": 1.612
+    },
+    {
+     "p": "grandes",
+     "i": 1.847,
+     "f": 2.303
+    },
+    {
+     "p": "pontes",
+     "i": 2.316,
+     "f": 2.706
+    },
+    {
+     "p": "sofrem",
+     "i": 2.719,
+     "f": 3.123
+    },
+    {
+     "p": "não",
+     "i": 3.136,
+     "f": 3.305
+    },
+    {
+     "p": "só",
+     "i": 3.318,
+     "f": 3.553
+    },
+    {
+     "p": "com",
+     "i": 3.566,
+     "f": 3.761
+    },
+    {
+     "p": "peso",
+     "i": 3.774,
+     "f": 4.112
+    },
+    {
+     "p": "mas",
+     "i": 4.399,
+     "f": 4.62
+    },
+    {
+     "p": "também",
+     "i": 4.633,
+     "f": 5.011
+    },
+    {
+     "p": "com",
+     "i": 5.024,
+     "f": 5.206
+    },
+    {
+     "p": "vento",
+     "i": 5.219,
+     "f": 5.623
+    },
+    {
+     "p": "Depois",
+     "i": 5.905,
+     "f": 6.452
+    },
+    {
+     "p": "de",
+     "i": 6.465,
+     "f": 6.556
+    },
+    {
+     "p": "1940",
+     "i": 6.569,
+     "f": 7.897
+    },
+    {
+     "p": "o",
+     "i": 8.119,
+     "f": 8.236
+    },
+    {
+     "p": "túnel",
+     "i": 8.249,
+     "f": 8.587
+    },
+    {
+     "p": "de",
+     "i": 8.6,
+     "f": 8.705
+    },
+    {
+     "p": "vento",
+     "i": 8.718,
+     "f": 9.056
+    },
+    {
+     "p": "virou",
+     "i": 9.069,
+     "f": 9.317
+    },
+    {
+     "p": "prática",
+     "i": 9.33,
+     "f": 9.837
+    },
+    {
+     "p": "para",
+     "i": 9.85,
+     "f": 10.059
+    },
+    {
+     "p": "pontes",
+     "i": 10.072,
+     "f": 10.462
+    },
+    {
+     "p": "de",
+     "i": 10.475,
+     "f": 10.58
+    },
+    {
+     "p": "grande",
+     "i": 10.593,
+     "f": 10.957
+    },
+    {
+     "p": "vão",
+     "i": 10.97,
+     "f": 11.218
+    },
+    {
+     "p": "modelos",
+     "i": 11.556,
+     "f": 12.012
+    },
+    {
+     "p": "em",
+     "i": 12.025,
+     "f": 12.194
+    },
+    {
+     "p": "escala",
+     "i": 12.207,
+     "f": 12.624
+    },
+    {
+     "p": "são",
+     "i": 12.637,
+     "f": 12.832
+    },
+    {
+     "p": "testados",
+     "i": 12.845,
+     "f": 13.366
+    },
+    {
+     "p": "antes",
+     "i": 13.379,
+     "f": 13.757
+    },
+    {
+     "p": "da",
+     "i": 13.77,
+     "f": 13.9
+    },
+    {
+     "p": "construção",
+     "i": 13.913,
+     "f": 14.603
+    },
+    {
+     "p": "Os",
+     "i": 14.885,
+     "f": 15.041
+    },
+    {
+     "p": "tabuleiros",
+     "i": 15.054,
+     "f": 15.64
+    },
+    {
+     "p": "ganharam",
+     "i": 15.653,
+     "f": 16.057
+    },
+    {
+     "p": "formas",
+     "i": 16.07,
+     "f": 16.448
+    },
+    {
+     "p": "aerodinâmicas",
+     "i": 16.461,
+     "f": 17.463
+    },
+    {
+     "p": "mais",
+     "i": 17.724,
+     "f": 17.971
+    },
+    {
+     "p": "rigidez",
+     "i": 17.984,
+     "f": 18.44
+    },
+    {
+     "p": "à",
+     "i": 18.453,
+     "f": 18.57
+    },
+    {
+     "p": "torção",
+     "i": 18.583,
+     "f": 19.117
+    },
+    {
+     "p": "e",
+     "i": 19.13,
+     "f": 19.195
+    },
+    {
+     "p": "vigas",
+     "i": 19.208,
+     "f": 19.56
+    },
+    {
+     "p": "vazadas",
+     "i": 19.573,
+     "f": 20.263
+    },
+    {
+     "p": "A",
+     "i": 20.545,
+     "f": 20.688
+    },
+    {
+     "p": "ponte",
+     "i": 20.701,
+     "f": 21.053
+    },
+    {
+     "p": "nova",
+     "i": 21.066,
+     "f": 21.444
+    },
+    {
+     "p": "aberta",
+     "i": 21.665,
+     "f": 22.108
+    },
+    {
+     "p": "em 1950",
+     "i": 22.121,
+     "f": 23.618
+    },
+    {
+     "p": "já",
+     "i": 23.891,
+     "f": 24.1
+    },
+    {
+     "p": "nasceu",
+     "i": 24.113,
+     "f": 24.516
+    },
+    {
+     "p": "assim",
+     "i": 24.529,
+     "f": 24.92
+    },
+    {
+     "p": "Mas",
+     "i": 25.202,
+     "f": 25.436
+    },
+    {
+     "p": "a",
+     "i": 25.449,
+     "f": 25.567
+    },
+    {
+     "p": "história",
+     "i": 25.58,
+     "f": 25.957
+    },
+    {
+     "p": "das",
+     "i": 25.97,
+     "f": 26.179
+    },
+    {
+     "p": "pontes",
+     "i": 26.192,
+     "f": 26.647
+    },
+    {
+     "p": "que",
+     "i": 26.66,
+     "f": 26.752
+    },
+    {
+     "p": "caíram",
+     "i": 26.765,
+     "f": 27.103
+    },
+    {
+     "p": "começa",
+     "i": 27.116,
+     "f": 27.572
+    },
+    {
+     "p": "bem",
+     "i": 27.585,
+     "f": 27.871
+    },
+    {
+     "p": "antes",
+     "i": 27.884,
+     "f": 28.366
+    },
+    {
+     "p": "E",
+     "i": 28.648,
+     "f": 28.778
+    },
+    {
+     "p": "uma",
+     "i": 28.791,
+     "f": 29.039
+    },
+    {
+     "p": "delas",
+     "i": 29.052,
+     "f": 29.442
+    },
+    {
+     "p": "matou",
+     "i": 29.455,
+     "f": 29.846
+    },
+    {
+     "p": "setenta",
+     "i": 29.859,
+     "f": 30.367
+    },
+    {
+     "p": "e",
+     "i": 30.38,
+     "f": 30.419
+    },
+    {
+     "p": "cinco",
+     "i": 30.432,
+     "f": 30.692
+    },
+    {
+     "p": "pessoas",
+     "i": 30.705,
+     "f": 31.395
+    }
+   ]
+  },
+  "quebec-projeto": {
+   "hash": "9954d16778",
+   "texto": "Voltamos a 1907, no Canadá. Sobre o rio São Lourenço, perto da cidade de Quebec, construía-se a maior ponte em balanço do mundo, com quinhentos e quarenta e nove metros de vão. O engenheiro consultor, Theodore Cooper, um nome respeitado, acompanhava tudo de longe. O vão tinha sido alargado em relação ao projeto original, e o peso da própria estrutura foi subestimado, sem que os cálculos fossem refeitos. Esse detalhe parecia pequeno. Não era.",
+   "audio": "audio/quebec-projeto-9954d16778.mp3",
+   "duracao": 30.691,
+   "palavras": [
+    {
+     "p": "Voltamos",
+     "i": 0.102,
+     "f": 0.675
+    },
+    {
+     "p": "a",
+     "i": 0.688,
+     "f": 0.831
+    },
+    {
+     "p": "1907",
+     "i": 0.844,
+     "f": 2.224
+    },
+    {
+     "p": "no",
+     "i": 2.472,
+     "f": 2.589
+    },
+    {
+     "p": "Canadá",
+     "i": 2.602,
+     "f": 3.162
+    },
+    {
+     "p": "Sobre",
+     "i": 3.444,
+     "f": 3.796
+    },
+    {
+     "p": "o",
+     "i": 3.809,
+     "f": 3.848
+    },
+    {
+     "p": "rio",
+     "i": 3.861,
+     "f": 4.056
+    },
+    {
+     "p": "São",
+     "i": 4.069,
+     "f": 4.277
+    },
+    {
+     "p": "Lourenço",
+     "i": 4.29,
+     "f": 4.85
+    },
+    {
+     "p": "perto",
+     "i": 5.111,
+     "f": 5.462
+    },
+    {
+     "p": "da",
+     "i": 5.475,
+     "f": 5.566
+    },
+    {
+     "p": "cidade",
+     "i": 5.579,
+     "f": 5.996
+    },
+    {
+     "p": "de",
+     "i": 6.009,
+     "f": 6.1
+    },
+    {
+     "p": "Quebec",
+     "i": 6.113,
+     "f": 6.621
+    },
+    {
+     "p": "construía-se",
+     "i": 6.895,
+     "f": 7.663
+    },
+    {
+     "p": "a",
+     "i": 7.676,
+     "f": 7.702
+    },
+    {
+     "p": "maior",
+     "i": 7.715,
+     "f": 8.053
+    },
+    {
+     "p": "ponte",
+     "i": 8.066,
+     "f": 8.418
+    },
+    {
+     "p": "em",
+     "i": 8.431,
+     "f": 8.483
+    },
+    {
+     "p": "balanço",
+     "i": 8.496,
+     "f": 8.978
+    },
+    {
+     "p": "do",
+     "i": 8.991,
+     "f": 9.082
+    },
+    {
+     "p": "mundo",
+     "i": 9.095,
+     "f": 9.486
+    },
+    {
+     "p": "com",
+     "i": 9.772,
+     "f": 9.954
+    },
+    {
+     "p": "quinhentos",
+     "i": 9.968,
+     "f": 10.501
+    },
+    {
+     "p": "e",
+     "i": 10.514,
+     "f": 10.619
+    },
+    {
+     "p": "quarenta",
+     "i": 10.632,
+     "f": 10.944
+    },
+    {
+     "p": "e",
+     "i": 10.957,
+     "f": 10.983
+    },
+    {
+     "p": "nove",
+     "i": 10.996,
+     "f": 11.231
+    },
+    {
+     "p": "metros",
+     "i": 11.244,
+     "f": 11.647
+    },
+    {
+     "p": "de",
+     "i": 11.66,
+     "f": 11.764
+    },
+    {
+     "p": "vão",
+     "i": 11.777,
+     "f": 12.051
+    },
+    {
+     "p": "O",
+     "i": 12.334,
+     "f": 12.451
+    },
+    {
+     "p": "engenheiro",
+     "i": 12.464,
+     "f": 12.998
+    },
+    {
+     "p": "consultor",
+     "i": 13.011,
+     "f": 13.649
+    },
+    {
+     "p": "Theodore",
+     "i": 13.936,
+     "f": 14.365
+    },
+    {
+     "p": "Cooper",
+     "i": 14.378,
+     "f": 14.756
+    },
+    {
+     "p": "um",
+     "i": 15.055,
+     "f": 15.186
+    },
+    {
+     "p": "nome",
+     "i": 15.199,
+     "f": 15.446
+    },
+    {
+     "p": "respeitado",
+     "i": 15.459,
+     "f": 16.227
+    },
+    {
+     "p": "acompanhava",
+     "i": 16.527,
+     "f": 17.282
+    },
+    {
+     "p": "tudo",
+     "i": 17.295,
+     "f": 17.634
+    },
+    {
+     "p": "de",
+     "i": 17.647,
+     "f": 17.751
+    },
+    {
+     "p": "longe",
+     "i": 17.764,
+     "f": 18.22
+    },
+    {
+     "p": "O",
+     "i": 18.502,
+     "f": 18.619
+    },
+    {
+     "p": "vão",
+     "i": 18.632,
+     "f": 18.88
+    },
+    {
+     "p": "tinha",
+     "i": 18.893,
+     "f": 19.153
+    },
+    {
+     "p": "sido",
+     "i": 19.166,
+     "f": 19.414
+    },
+    {
+     "p": "alargado",
+     "i": 19.427,
+     "f": 19.934
+    },
+    {
+     "p": "em",
+     "i": 19.947,
+     "f": 20.013
+    },
+    {
+     "p": "relação",
+     "i": 20.026,
+     "f": 20.533
+    },
+    {
+     "p": "ao",
+     "i": 20.546,
+     "f": 20.638
+    },
+    {
+     "p": "projeto",
+     "i": 20.651,
+     "f": 21.145
+    },
+    {
+     "p": "original",
+     "i": 21.158,
+     "f": 21.692
+    },
+    {
+     "p": "e",
+     "i": 22.018,
+     "f": 22.122
+    },
+    {
+     "p": "o",
+     "i": 22.135,
+     "f": 22.2
+    },
+    {
+     "p": "peso",
+     "i": 22.213,
+     "f": 22.552
+    },
+    {
+     "p": "da",
+     "i": 22.565,
+     "f": 22.682
+    },
+    {
+     "p": "própria",
+     "i": 22.695,
+     "f": 23.072
+    },
+    {
+     "p": "estrutura",
+     "i": 23.085,
+     "f": 23.645
+    },
+    {
+     "p": "foi",
+     "i": 23.658,
+     "f": 23.802
+    },
+    {
+     "p": "subestimado",
+     "i": 23.815,
+     "f": 24.583
+    },
+    {
+     "p": "sem",
+     "i": 24.947,
+     "f": 25.156
+    },
+    {
+     "p": "que",
+     "i": 25.169,
+     "f": 25.234
+    },
+    {
+     "p": "os",
+     "i": 25.247,
+     "f": 25.364
+    },
+    {
+     "p": "cálculos",
+     "i": 25.377,
+     "f": 25.859
+    },
+    {
+     "p": "fossem",
+     "i": 25.872,
+     "f": 26.249
+    },
+    {
+     "p": "refeitos",
+     "i": 26.262,
+     "f": 26.953
+    },
+    {
+     "p": "Esse",
+     "i": 27.235,
+     "f": 27.535
+    },
+    {
+     "p": "detalhe",
+     "i": 27.548,
+     "f": 28.003
+    },
+    {
+     "p": "parecia",
+     "i": 28.016,
+     "f": 28.511
+    },
+    {
+     "p": "pequeno",
+     "i": 28.524,
+     "f": 29.019
+    },
+    {
+     "p": "Não",
+     "i": 29.301,
+     "f": 29.666
+    },
+    {
+     "p": "era",
+     "i": 29.679,
+     "f": 29.991
+    }
+   ]
+  },
+  "quebec-queda": {
+   "hash": "a4bda98c1b",
+   "texto": "No verão de 1907, as vigas de compressão começaram a entortar. Engenheiros no local notaram a deformação e avisaram Cooper, mas a obra continuou. No dia vinte e nove de agosto, perto do fim do expediente, a estrutura de aço desabou em segundos. Dos oitenta e seis operários na ponte, setenta e cinco morreram. Muitos eram indígenas mohawk, da reserva de Kahnawake, no Canadá. Foi um golpe enorme para a comunidade.",
+   "audio": "audio/quebec-queda-a4bda98c1b.mp3",
+   "duracao": 28.528,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "verão",
+     "i": 0.271,
+     "f": 0.597
+    },
+    {
+     "p": "de",
+     "i": 0.61,
+     "f": 0.74
+    },
+    {
+     "p": "1907",
+     "i": 0.753,
+     "f": 2.12
+    },
+    {
+     "p": "as",
+     "i": 2.381,
+     "f": 2.563
+    },
+    {
+     "p": "vigas",
+     "i": 2.576,
+     "f": 2.889
+    },
+    {
+     "p": "de",
+     "i": 2.902,
+     "f": 2.98
+    },
+    {
+     "p": "compressão",
+     "i": 2.993,
+     "f": 3.579
+    },
+    {
+     "p": "começaram",
+     "i": 3.592,
+     "f": 4.217
+    },
+    {
+     "p": "a",
+     "i": 4.23,
+     "f": 4.256
+    },
+    {
+     "p": "entortar",
+     "i": 4.269,
+     "f": 4.816
+    },
+    {
+     "p": "Engenheiros",
+     "i": 5.098,
+     "f": 5.736
+    },
+    {
+     "p": "no",
+     "i": 5.749,
+     "f": 5.827
+    },
+    {
+     "p": "local",
+     "i": 5.84,
+     "f": 6.244
+    },
+    {
+     "p": "notaram",
+     "i": 6.257,
+     "f": 6.739
+    },
+    {
+     "p": "a",
+     "i": 6.752,
+     "f": 6.791
+    },
+    {
+     "p": "deformação",
+     "i": 6.804,
+     "f": 7.572
+    },
+    {
+     "p": "e",
+     "i": 7.585,
+     "f": 7.637
+    },
+    {
+     "p": "avisaram",
+     "i": 7.65,
+     "f": 8.145
+    },
+    {
+     "p": "Cooper",
+     "i": 8.158,
+     "f": 8.549
+    },
+    {
+     "p": "mas",
+     "i": 8.913,
+     "f": 9.056
+    },
+    {
+     "p": "a",
+     "i": 9.069,
+     "f": 9.226
+    },
+    {
+     "p": "obra",
+     "i": 9.239,
+     "f": 9.564
+    },
+    {
+     "p": "continuou",
+     "i": 9.577,
+     "f": 10.28
+    },
+    {
+     "p": "No",
+     "i": 10.562,
+     "f": 10.757
+    },
+    {
+     "p": "dia",
+     "i": 10.77,
+     "f": 11.031
+    },
+    {
+     "p": "vinte",
+     "i": 11.044,
+     "f": 11.278
+    },
+    {
+     "p": "e",
+     "i": 11.291,
+     "f": 11.304
+    },
+    {
+     "p": "nove",
+     "i": 11.317,
+     "f": 11.565
+    },
+    {
+     "p": "de",
+     "i": 11.578,
+     "f": 11.656
+    },
+    {
+     "p": "agosto",
+     "i": 11.669,
+     "f": 12.177
+    },
+    {
+     "p": "perto",
+     "i": 12.45,
+     "f": 12.802
+    },
+    {
+     "p": "do",
+     "i": 12.815,
+     "f": 12.919
+    },
+    {
+     "p": "fim",
+     "i": 12.932,
+     "f": 13.179
+    },
+    {
+     "p": "do",
+     "i": 13.192,
+     "f": 13.27
+    },
+    {
+     "p": "expediente",
+     "i": 13.283,
+     "f": 14.065
+    },
+    {
+     "p": "a",
+     "i": 14.312,
+     "f": 14.403
+    },
+    {
+     "p": "estrutura",
+     "i": 14.416,
+     "f": 15.015
+    },
+    {
+     "p": "de",
+     "i": 15.028,
+     "f": 15.172
+    },
+    {
+     "p": "aço",
+     "i": 15.184,
+     "f": 15.497
+    },
+    {
+     "p": "desabou",
+     "i": 15.51,
+     "f": 15.966
+    },
+    {
+     "p": "em",
+     "i": 15.979,
+     "f": 16.057
+    },
+    {
+     "p": "segundos",
+     "i": 16.07,
+     "f": 16.76
+    },
+    {
+     "p": "Dos",
+     "i": 17.042,
+     "f": 17.276
+    },
+    {
+     "p": "oitenta",
+     "i": 17.289,
+     "f": 17.771
+    },
+    {
+     "p": "e",
+     "i": 17.784,
+     "f": 17.81
+    },
+    {
+     "p": "seis",
+     "i": 17.823,
+     "f": 17.98
+    },
+    {
+     "p": "operários",
+     "i": 17.993,
+     "f": 18.566
+    },
+    {
+     "p": "na",
+     "i": 18.579,
+     "f": 18.722
+    },
+    {
+     "p": "ponte",
+     "i": 18.735,
+     "f": 19.164
+    },
+    {
+     "p": "setenta",
+     "i": 19.412,
+     "f": 19.933
+    },
+    {
+     "p": "e",
+     "i": 19.946,
+     "f": 19.985
+    },
+    {
+     "p": "cinco",
+     "i": 19.998,
+     "f": 20.31
+    },
+    {
+     "p": "morreram",
+     "i": 20.323,
+     "f": 20.844
+    },
+    {
+     "p": "Muitos",
+     "i": 21.126,
+     "f": 21.543
+    },
+    {
+     "p": "eram",
+     "i": 21.556,
+     "f": 21.829
+    },
+    {
+     "p": "indígenas",
+     "i": 21.842,
+     "f": 22.376
+    },
+    {
+     "p": "mohawk",
+     "i": 22.389,
+     "f": 22.845
+    },
+    {
+     "p": "da",
+     "i": 23.118,
+     "f": 23.235
+    },
+    {
+     "p": "reserva",
+     "i": 23.248,
+     "f": 23.756
+    },
+    {
+     "p": "de",
+     "i": 23.769,
+     "f": 23.86
+    },
+    {
+     "p": "Kahnawake",
+     "i": 23.873,
+     "f": 24.472
+    },
+    {
+     "p": "no",
+     "i": 24.72,
+     "f": 24.824
+    },
+    {
+     "p": "Canadá",
+     "i": 24.837,
+     "f": 25.358
+    },
+    {
+     "p": "Foi",
+     "i": 25.64,
+     "f": 25.848
+    },
+    {
+     "p": "um",
+     "i": 25.861,
+     "f": 25.966
+    },
+    {
+     "p": "golpe",
+     "i": 25.979,
+     "f": 26.317
+    },
+    {
+     "p": "enorme",
+     "i": 26.33,
+     "f": 26.812
+    },
+    {
+     "p": "para",
+     "i": 26.825,
+     "f": 26.994
+    },
+    {
+     "p": "a",
+     "i": 27.007,
+     "f": 27.033
+    },
+    {
+     "p": "comunidade",
+     "i": 27.046,
+     "f": 27.828
+    }
+   ]
+  },
+  "quebec-comissao": {
+   "hash": "4d09a3fa99",
+   "texto": "Uma comissão real investigou e concluiu que não foi azar: foi erro de julgamento. Cooper e o projetista da empresa, Peter Szlapka, erraram nos cálculos de carga e não levaram a sério os sinais de alerta. A ponte foi refeita, e em 1916 falhou de novo, durante a montagem do vão central: treze operários morreram. Só em 1917 ela foi concluída. Ligado a esse desastre, surgiu também o Anel de Ferro, ritual criado em 1922 para lembrar os engenheiros canadenses de sua responsabilidade.",
+   "audio": "audio/quebec-comissao-4d09a3fa99.mp3",
+   "duracao": 34.171,
+   "palavras": [
+    {
+     "p": "Uma",
+     "i": 0.102,
+     "f": 0.349
+    },
+    {
+     "p": "comissão",
+     "i": 0.362,
+     "f": 0.87
+    },
+    {
+     "p": "real",
+     "i": 0.883,
+     "f": 1.222
+    },
+    {
+     "p": "investigou",
+     "i": 1.235,
+     "f": 1.847
+    },
+    {
+     "p": "e",
+     "i": 1.86,
+     "f": 1.925
+    },
+    {
+     "p": "concluiu",
+     "i": 1.938,
+     "f": 2.459
+    },
+    {
+     "p": "que",
+     "i": 2.472,
+     "f": 2.602
+    },
+    {
+     "p": "não",
+     "i": 2.615,
+     "f": 2.784
+    },
+    {
+     "p": "foi",
+     "i": 2.797,
+     "f": 2.967
+    },
+    {
+     "p": "azar",
+     "i": 2.98,
+     "f": 3.344
+    },
+    {
+     "p": "foi",
+     "i": 3.618,
+     "f": 3.852
+    },
+    {
+     "p": "erro",
+     "i": 3.865,
+     "f": 4.113
+    },
+    {
+     "p": "de",
+     "i": 4.126,
+     "f": 4.204
+    },
+    {
+     "p": "julgamento",
+     "i": 4.217,
+     "f": 4.959
+    },
+    {
+     "p": "Cooper",
+     "i": 5.241,
+     "f": 5.606
+    },
+    {
+     "p": "e",
+     "i": 5.619,
+     "f": 5.658
+    },
+    {
+     "p": "o",
+     "i": 5.671,
+     "f": 5.723
+    },
+    {
+     "p": "projetista",
+     "i": 5.736,
+     "f": 6.4
+    },
+    {
+     "p": "da",
+     "i": 6.413,
+     "f": 6.478
+    },
+    {
+     "p": "empresa",
+     "i": 6.491,
+     "f": 7.012
+    },
+    {
+     "p": "Peter",
+     "i": 7.272,
+     "f": 7.572
+    },
+    {
+     "p": "Szlapka",
+     "i": 7.585,
+     "f": 8.054
+    },
+    {
+     "p": "erraram",
+     "i": 8.353,
+     "f": 8.705
+    },
+    {
+     "p": "nos",
+     "i": 8.718,
+     "f": 8.9
+    },
+    {
+     "p": "cálculos",
+     "i": 8.913,
+     "f": 9.382
+    },
+    {
+     "p": "de",
+     "i": 9.395,
+     "f": 9.512
+    },
+    {
+     "p": "carga",
+     "i": 9.525,
+     "f": 9.929
+    },
+    {
+     "p": "e",
+     "i": 9.942,
+     "f": 10.007
+    },
+    {
+     "p": "não",
+     "i": 10.02,
+     "f": 10.163
+    },
+    {
+     "p": "levaram",
+     "i": 10.176,
+     "f": 10.632
+    },
+    {
+     "p": "a",
+     "i": 10.645,
+     "f": 10.684
+    },
+    {
+     "p": "sério",
+     "i": 10.697,
+     "f": 11.074
+    },
+    {
+     "p": "os",
+     "i": 11.087,
+     "f": 11.153
+    },
+    {
+     "p": "sinais",
+     "i": 11.166,
+     "f": 11.569
+    },
+    {
+     "p": "de",
+     "i": 11.582,
+     "f": 11.673
+    },
+    {
+     "p": "alerta",
+     "i": 11.686,
+     "f": 12.181
+    },
+    {
+     "p": "A",
+     "i": 12.463,
+     "f": 12.593
+    },
+    {
+     "p": "ponte",
+     "i": 12.606,
+     "f": 13.049
+    },
+    {
+     "p": "foi",
+     "i": 13.062,
+     "f": 13.205
+    },
+    {
+     "p": "refeita",
+     "i": 13.218,
+     "f": 13.739
+    },
+    {
+     "p": "e",
+     "i": 14.052,
+     "f": 14.156
+    },
+    {
+     "p": "em 1916",
+     "i": 14.169,
+     "f": 15.718
+    },
+    {
+     "p": "falhou",
+     "i": 15.731,
+     "f": 16.07
+    },
+    {
+     "p": "de",
+     "i": 16.083,
+     "f": 16.187
+    },
+    {
+     "p": "novo",
+     "i": 16.2,
+     "f": 16.552
+    },
+    {
+     "p": "durante",
+     "i": 16.838,
+     "f": 17.216
+    },
+    {
+     "p": "a",
+     "i": 17.229,
+     "f": 17.255
+    },
+    {
+     "p": "montagem",
+     "i": 17.268,
+     "f": 17.828
+    },
+    {
+     "p": "do",
+     "i": 17.841,
+     "f": 17.971
+    },
+    {
+     "p": "vão",
+     "i": 17.984,
+     "f": 18.14
+    },
+    {
+     "p": "central",
+     "i": 18.153,
+     "f": 18.674
+    },
+    {
+     "p": "treze",
+     "i": 18.934,
+     "f": 19.26
+    },
+    {
+     "p": "operários",
+     "i": 19.273,
+     "f": 19.742
+    },
+    {
+     "p": "morreram",
+     "i": 19.755,
+     "f": 20.289
+    },
+    {
+     "p": "Só",
+     "i": 20.571,
+     "f": 20.831
+    },
+    {
+     "p": "em 1917",
+     "i": 20.845,
+     "f": 22.55
+    },
+    {
+     "p": "ela",
+     "i": 22.563,
+     "f": 22.733
+    },
+    {
+     "p": "foi",
+     "i": 22.746,
+     "f": 22.889
+    },
+    {
+     "p": "concluída",
+     "i": 22.902,
+     "f": 23.553
+    },
+    {
+     "p": "Ligado",
+     "i": 23.835,
+     "f": 24.356
+    },
+    {
+     "p": "a",
+     "i": 24.369,
+     "f": 24.46
+    },
+    {
+     "p": "esse",
+     "i": 24.473,
+     "f": 24.747
+    },
+    {
+     "p": "desastre",
+     "i": 24.76,
+     "f": 25.332
+    },
+    {
+     "p": "surgiu",
+     "i": 25.645,
+     "f": 26.101
+    },
+    {
+     "p": "também",
+     "i": 26.114,
+     "f": 26.517
+    },
+    {
+     "p": "o",
+     "i": 26.53,
+     "f": 26.596
+    },
+    {
+     "p": "Anel",
+     "i": 26.609,
+     "f": 26.908
+    },
+    {
+     "p": "de",
+     "i": 26.921,
+     "f": 27.025
+    },
+    {
+     "p": "Ferro",
+     "i": 27.038,
+     "f": 27.442
+    },
+    {
+     "p": "ritual",
+     "i": 27.715,
+     "f": 28.197
+    },
+    {
+     "p": "criado",
+     "i": 28.21,
+     "f": 28.666
+    },
+    {
+     "p": "em 1922",
+     "i": 28.679,
+     "f": 30.098
+    },
+    {
+     "p": "para",
+     "i": 30.111,
+     "f": 30.254
+    },
+    {
+     "p": "lembrar",
+     "i": 30.267,
+     "f": 30.671
+    },
+    {
+     "p": "os",
+     "i": 30.684,
+     "f": 30.723
+    },
+    {
+     "p": "engenheiros",
+     "i": 30.736,
+     "f": 31.348
+    },
+    {
+     "p": "canadenses",
+     "i": 31.361,
+     "f": 32.025
+    },
+    {
+     "p": "de",
+     "i": 32.038,
+     "f": 32.142
+    },
+    {
+     "p": "sua",
+     "i": 32.155,
+     "f": 32.364
+    },
+    {
+     "p": "responsabilidade",
+     "i": 32.377,
+     "f": 33.471
+    }
+   ]
+  },
+  "silver-ponte": {
+   "hash": "654b51b2c8",
+   "texto": "Pulamos para 1967, nos Estados Unidos. A Silver Bridge ligava Point Pleasant, na Virgínia Ocidental, a Kanauga, em Ohio, sobre o rio Ohio. Tinha sido aberta em 1928 e era um modelo incomum: em vez de cabos de aço, usava correntes feitas de barras de aço com olhais, as eyebars. Em quinze de dezembro, no horário de pico, a ponte estava cheia de carros.",
+   "audio": "audio/silver-ponte-654b51b2c8.mp3",
+   "duracao": 26.831,
+   "palavras": [
+    {
+     "p": "Pulamos",
+     "i": 0.102,
+     "f": 0.649
+    },
+    {
+     "p": "para",
+     "i": 0.662,
+     "f": 0.857
+    },
+    {
+     "p": "1967",
+     "i": 0.87,
+     "f": 2.628
+    },
+    {
+     "p": "nos",
+     "i": 2.889,
+     "f": 2.98
+    },
+    {
+     "p": "Estados",
+     "i": 2.993,
+     "f": 3.514
+    },
+    {
+     "p": "Unidos",
+     "i": 3.527,
+     "f": 4.126
+    },
+    {
+     "p": "A",
+     "i": 4.408,
+     "f": 4.538
+    },
+    {
+     "p": "Silver",
+     "i": 4.551,
+     "f": 5.033
+    },
+    {
+     "p": "Bridge",
+     "i": 5.046,
+     "f": 5.359
+    },
+    {
+     "p": "ligava",
+     "i": 5.372,
+     "f": 5.814
+    },
+    {
+     "p": "Point",
+     "i": 5.827,
+     "f": 6.166
+    },
+    {
+     "p": "Pleasant",
+     "i": 6.179,
+     "f": 6.7
+    },
+    {
+     "p": "na",
+     "i": 6.973,
+     "f": 7.129
+    },
+    {
+     "p": "Virgínia",
+     "i": 7.142,
+     "f": 7.611
+    },
+    {
+     "p": "Ocidental",
+     "i": 7.624,
+     "f": 8.34
+    },
+    {
+     "p": "a",
+     "i": 8.614,
+     "f": 8.679
+    },
+    {
+     "p": "Kanauga",
+     "i": 8.692,
+     "f": 9.304
+    },
+    {
+     "p": "em",
+     "i": 9.538,
+     "f": 9.695
+    },
+    {
+     "p": "Ohio",
+     "i": 9.708,
+     "f": 10.241
+    },
+    {
+     "p": "sobre",
+     "i": 10.528,
+     "f": 10.827
+    },
+    {
+     "p": "o",
+     "i": 10.84,
+     "f": 10.892
+    },
+    {
+     "p": "rio",
+     "i": 10.905,
+     "f": 11.14
+    },
+    {
+     "p": "Ohio",
+     "i": 11.153,
+     "f": 11.674
+    },
+    {
+     "p": "Tinha",
+     "i": 11.956,
+     "f": 12.269
+    },
+    {
+     "p": "sido",
+     "i": 12.282,
+     "f": 12.581
+    },
+    {
+     "p": "aberta",
+     "i": 12.594,
+     "f": 13.037
+    },
+    {
+     "p": "em 1928",
+     "i": 13.05,
+     "f": 14.508
+    },
+    {
+     "p": "e",
+     "i": 14.521,
+     "f": 14.56
+    },
+    {
+     "p": "era",
+     "i": 14.573,
+     "f": 14.69
+    },
+    {
+     "p": "um",
+     "i": 14.703,
+     "f": 14.743
+    },
+    {
+     "p": "modelo",
+     "i": 14.756,
+     "f": 15.094
+    },
+    {
+     "p": "incomum",
+     "i": 15.107,
+     "f": 15.589
+    },
+    {
+     "p": "em",
+     "i": 15.849,
+     "f": 15.967
+    },
+    {
+     "p": "vez",
+     "i": 15.98,
+     "f": 16.227
+    },
+    {
+     "p": "de",
+     "i": 16.24,
+     "f": 16.357
+    },
+    {
+     "p": "cabos",
+     "i": 16.37,
+     "f": 16.722
+    },
+    {
+     "p": "de",
+     "i": 16.735,
+     "f": 16.839
+    },
+    {
+     "p": "aço",
+     "i": 16.852,
+     "f": 17.203
+    },
+    {
+     "p": "usava",
+     "i": 17.49,
+     "f": 17.894
+    },
+    {
+     "p": "correntes",
+     "i": 17.907,
+     "f": 18.467
+    },
+    {
+     "p": "feitas",
+     "i": 18.48,
+     "f": 18.818
+    },
+    {
+     "p": "de",
+     "i": 18.831,
+     "f": 18.922
+    },
+    {
+     "p": "barras",
+     "i": 18.935,
+     "f": 19.287
+    },
+    {
+     "p": "de",
+     "i": 19.3,
+     "f": 19.391
+    },
+    {
+     "p": "aço",
+     "i": 19.404,
+     "f": 19.69
+    },
+    {
+     "p": "com",
+     "i": 19.703,
+     "f": 19.834
+    },
+    {
+     "p": "olhais",
+     "i": 19.847,
+     "f": 20.355
+    },
+    {
+     "p": "as",
+     "i": 20.589,
+     "f": 20.654
+    },
+    {
+     "p": "eyebars",
+     "i": 20.667,
+     "f": 21.396
+    },
+    {
+     "p": "Em",
+     "i": 21.678,
+     "f": 21.873
+    },
+    {
+     "p": "quinze",
+     "i": 21.886,
+     "f": 22.264
+    },
+    {
+     "p": "de",
+     "i": 22.277,
+     "f": 22.368
+    },
+    {
+     "p": "dezembro",
+     "i": 22.381,
+     "f": 22.928
+    },
+    {
+     "p": "no",
+     "i": 23.215,
+     "f": 23.293
+    },
+    {
+     "p": "horário",
+     "i": 23.306,
+     "f": 23.657
+    },
+    {
+     "p": "de",
+     "i": 23.67,
+     "f": 23.774
+    },
+    {
+     "p": "pico",
+     "i": 23.787,
+     "f": 24.165
+    },
+    {
+     "p": "a",
+     "i": 24.334,
+     "f": 24.438
+    },
+    {
+     "p": "ponte",
+     "i": 24.452,
+     "f": 24.764
+    },
+    {
+     "p": "estava",
+     "i": 24.777,
+     "f": 25.09
+    },
+    {
+     "p": "cheia",
+     "i": 25.103,
+     "f": 25.454
+    },
+    {
+     "p": "de",
+     "i": 25.467,
+     "f": 25.571
+    },
+    {
+     "p": "carros",
+     "i": 25.584,
+     "f": 26.131
+    }
+   ]
+  },
+  "silver-queda": {
+   "hash": "b59315e718",
+   "texto": "Em cerca de um minuto, a ponte inteira caiu no rio. Quarenta e seis pessoas morreram. A investigação achou a origem: uma única barra, a número trezentos e trinta, tinha uma rachadura de uns três milímetros, escondida dentro da junta. Com o tempo, corrosão e tensão fizeram essa trinca crescer até a barra partir de uma vez. E aqui está a parte que muda tudo: segundo o NTSB, nenhuma inspeção conhecida na época poderia ter visto o defeito sem desmontar a junta.",
+   "audio": "audio/silver-queda-b59315e718.mp3",
+   "duracao": 29.86,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "cerca",
+     "i": 0.258,
+     "f": 0.649
+    },
+    {
+     "p": "de",
+     "i": 0.662,
+     "f": 0.766
+    },
+    {
+     "p": "um",
+     "i": 0.779,
+     "f": 0.857
+    },
+    {
+     "p": "minuto",
+     "i": 0.87,
+     "f": 1.391
+    },
+    {
+     "p": "a",
+     "i": 1.534,
+     "f": 1.652
+    },
+    {
+     "p": "ponte",
+     "i": 1.665,
+     "f": 2.042
+    },
+    {
+     "p": "inteira",
+     "i": 2.055,
+     "f": 2.459
+    },
+    {
+     "p": "caiu",
+     "i": 2.472,
+     "f": 2.745
+    },
+    {
+     "p": "no",
+     "i": 2.758,
+     "f": 2.876
+    },
+    {
+     "p": "rio",
+     "i": 2.889,
+     "f": 3.175
+    },
+    {
+     "p": "Quarenta",
+     "i": 3.457,
+     "f": 3.887
+    },
+    {
+     "p": "e",
+     "i": 3.9,
+     "f": 3.939
+    },
+    {
+     "p": "seis",
+     "i": 3.952,
+     "f": 4.16
+    },
+    {
+     "p": "pessoas",
+     "i": 4.173,
+     "f": 4.707
+    },
+    {
+     "p": "morreram",
+     "i": 4.72,
+     "f": 5.28
+    },
+    {
+     "p": "A",
+     "i": 5.562,
+     "f": 5.666
+    },
+    {
+     "p": "investigação",
+     "i": 5.679,
+     "f": 6.474
+    },
+    {
+     "p": "achou",
+     "i": 6.487,
+     "f": 6.812
+    },
+    {
+     "p": "a",
+     "i": 6.825,
+     "f": 6.864
+    },
+    {
+     "p": "origem",
+     "i": 6.877,
+     "f": 7.346
+    },
+    {
+     "p": "uma",
+     "i": 7.763,
+     "f": 7.984
+    },
+    {
+     "p": "única",
+     "i": 7.997,
+     "f": 8.414
+    },
+    {
+     "p": "barra",
+     "i": 8.427,
+     "f": 8.778
+    },
+    {
+     "p": "a",
+     "i": 8.974,
+     "f": 9.039
+    },
+    {
+     "p": "número",
+     "i": 9.052,
+     "f": 9.39
+    },
+    {
+     "p": "trezentos",
+     "i": 9.403,
+     "f": 9.872
+    },
+    {
+     "p": "e",
+     "i": 9.885,
+     "f": 10.028
+    },
+    {
+     "p": "trinta",
+     "i": 10.041,
+     "f": 10.419
+    },
+    {
+     "p": "tinha",
+     "i": 10.679,
+     "f": 10.888
+    },
+    {
+     "p": "uma",
+     "i": 10.901,
+     "f": 11.031
+    },
+    {
+     "p": "rachadura",
+     "i": 11.044,
+     "f": 11.643
+    },
+    {
+     "p": "de",
+     "i": 11.656,
+     "f": 11.76
+    },
+    {
+     "p": "uns",
+     "i": 11.773,
+     "f": 11.942
+    },
+    {
+     "p": "três",
+     "i": 11.955,
+     "f": 12.229
+    },
+    {
+     "p": "milímetros",
+     "i": 12.242,
+     "f": 12.867
+    },
+    {
+     "p": "escondida",
+     "i": 13.166,
+     "f": 13.765
+    },
+    {
+     "p": "dentro",
+     "i": 13.778,
+     "f": 14.156
+    },
+    {
+     "p": "da",
+     "i": 14.169,
+     "f": 14.286
+    },
+    {
+     "p": "junta",
+     "i": 14.299,
+     "f": 14.716
+    },
+    {
+     "p": "Com",
+     "i": 14.998,
+     "f": 15.193
+    },
+    {
+     "p": "o",
+     "i": 15.206,
+     "f": 15.272
+    },
+    {
+     "p": "tempo",
+     "i": 15.285,
+     "f": 15.675
+    },
+    {
+     "p": "corrosão",
+     "i": 16.014,
+     "f": 16.613
+    },
+    {
+     "p": "e",
+     "i": 16.626,
+     "f": 16.678
+    },
+    {
+     "p": "tensão",
+     "i": 16.691,
+     "f": 17.107
+    },
+    {
+     "p": "fizeram",
+     "i": 17.12,
+     "f": 17.511
+    },
+    {
+     "p": "essa",
+     "i": 17.524,
+     "f": 17.745
+    },
+    {
+     "p": "trinca",
+     "i": 17.758,
+     "f": 18.123
+    },
+    {
+     "p": "crescer",
+     "i": 18.136,
+     "f": 18.514
+    },
+    {
+     "p": "até",
+     "i": 18.527,
+     "f": 18.748
+    },
+    {
+     "p": "a",
+     "i": 18.761,
+     "f": 18.813
+    },
+    {
+     "p": "barra",
+     "i": 18.826,
+     "f": 19.1
+    },
+    {
+     "p": "partir",
+     "i": 19.113,
+     "f": 19.516
+    },
+    {
+     "p": "de",
+     "i": 19.529,
+     "f": 19.62
+    },
+    {
+     "p": "uma",
+     "i": 19.633,
+     "f": 19.829
+    },
+    {
+     "p": "vez",
+     "i": 19.842,
+     "f": 20.258
+    },
+    {
+     "p": "E",
+     "i": 20.54,
+     "f": 20.67
+    },
+    {
+     "p": "aqui",
+     "i": 20.683,
+     "f": 20.892
+    },
+    {
+     "p": "está",
+     "i": 20.905,
+     "f": 21.191
+    },
+    {
+     "p": "a",
+     "i": 21.204,
+     "f": 21.256
+    },
+    {
+     "p": "parte",
+     "i": 21.269,
+     "f": 21.647
+    },
+    {
+     "p": "que",
+     "i": 21.66,
+     "f": 21.777
+    },
+    {
+     "p": "muda",
+     "i": 21.79,
+     "f": 22.103
+    },
+    {
+     "p": "tudo",
+     "i": 22.116,
+     "f": 22.441
+    },
+    {
+     "p": "segundo",
+     "i": 22.858,
+     "f": 23.261
+    },
+    {
+     "p": "o",
+     "i": 23.274,
+     "f": 23.327
+    },
+    {
+     "p": "NTSB",
+     "i": 23.34,
+     "f": 24.147
+    },
+    {
+     "p": "nenhuma",
+     "i": 24.42,
+     "f": 24.759
+    },
+    {
+     "p": "inspeção",
+     "i": 24.772,
+     "f": 25.254
+    },
+    {
+     "p": "conhecida",
+     "i": 25.267,
+     "f": 25.801
+    },
+    {
+     "p": "na",
+     "i": 25.814,
+     "f": 25.97
+    },
+    {
+     "p": "época",
+     "i": 25.983,
+     "f": 26.36
+    },
+    {
+     "p": "poderia",
+     "i": 26.373,
+     "f": 26.751
+    },
+    {
+     "p": "ter",
+     "i": 26.764,
+     "f": 26.933
+    },
+    {
+     "p": "visto",
+     "i": 26.946,
+     "f": 27.272
+    },
+    {
+     "p": "o",
+     "i": 27.285,
+     "f": 27.311
+    },
+    {
+     "p": "defeito",
+     "i": 27.324,
+     "f": 27.793
+    },
+    {
+     "p": "sem",
+     "i": 27.806,
+     "f": 28.066
+    },
+    {
+     "p": "desmontar",
+     "i": 28.079,
+     "f": 28.626
+    },
+    {
+     "p": "a",
+     "i": 28.639,
+     "f": 28.717
+    },
+    {
+     "p": "junta",
+     "i": 28.73,
+     "f": 29.16
+    }
+   ]
+  },
+  "silver-legado": {
+   "hash": "0ea0f637f8",
+   "texto": "O país descobriu que não sabia quantas pontes tinha nem em que estado estavam. Em 1968, o Congresso aprovou uma lei federal de rodovias que criou o programa nacional de inspeção de pontes. Em 1971, saíram as primeiras normas nacionais, exigindo inspeção periódica por profissionais treinados. Os estados passaram a manter um inventário de pontes. Mas ainda havia um ponto cego. E ele só apareceria quarenta anos depois.",
+   "audio": "audio/silver-legado-0ea0f637f8.mp3",
+   "duracao": 29.191,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "país",
+     "i": 0.245,
+     "f": 0.636
+    },
+    {
+     "p": "descobriu",
+     "i": 0.649,
+     "f": 1.222
+    },
+    {
+     "p": "que",
+     "i": 1.235,
+     "f": 1.365
+    },
+    {
+     "p": "não",
+     "i": 1.378,
+     "f": 1.534
+    },
+    {
+     "p": "sabia",
+     "i": 1.547,
+     "f": 2.042
+    },
+    {
+     "p": "quantas",
+     "i": 2.055,
+     "f": 2.472
+    },
+    {
+     "p": "pontes",
+     "i": 2.485,
+     "f": 2.941
+    },
+    {
+     "p": "tinha",
+     "i": 2.954,
+     "f": 3.175
+    },
+    {
+     "p": "nem",
+     "i": 3.188,
+     "f": 3.396
+    },
+    {
+     "p": "em",
+     "i": 3.409,
+     "f": 3.487
+    },
+    {
+     "p": "que",
+     "i": 3.501,
+     "f": 3.579
+    },
+    {
+     "p": "estado",
+     "i": 3.592,
+     "f": 3.943
+    },
+    {
+     "p": "estavam",
+     "i": 3.956,
+     "f": 4.477
+    },
+    {
+     "p": "Em 1968",
+     "i": 4.759,
+     "f": 6.504
+    },
+    {
+     "p": "o",
+     "i": 6.816,
+     "f": 6.881
+    },
+    {
+     "p": "Congresso",
+     "i": 6.894,
+     "f": 7.402
+    },
+    {
+     "p": "aprovou",
+     "i": 7.415,
+     "f": 7.767
+    },
+    {
+     "p": "uma",
+     "i": 7.78,
+     "f": 7.936
+    },
+    {
+     "p": "lei",
+     "i": 7.949,
+     "f": 8.131
+    },
+    {
+     "p": "federal",
+     "i": 8.144,
+     "f": 8.587
+    },
+    {
+     "p": "de",
+     "i": 8.6,
+     "f": 8.678
+    },
+    {
+     "p": "rodovias",
+     "i": 8.691,
+     "f": 9.342
+    },
+    {
+     "p": "que",
+     "i": 9.355,
+     "f": 9.486
+    },
+    {
+     "p": "criou",
+     "i": 9.499,
+     "f": 9.798
+    },
+    {
+     "p": "o",
+     "i": 9.811,
+     "f": 9.863
+    },
+    {
+     "p": "programa",
+     "i": 9.876,
+     "f": 10.345
+    },
+    {
+     "p": "nacional",
+     "i": 10.358,
+     "f": 10.866
+    },
+    {
+     "p": "de",
+     "i": 10.879,
+     "f": 10.983
+    },
+    {
+     "p": "inspeção",
+     "i": 10.996,
+     "f": 11.491
+    },
+    {
+     "p": "de",
+     "i": 11.504,
+     "f": 11.621
+    },
+    {
+     "p": "pontes",
+     "i": 11.634,
+     "f": 12.194
+    },
+    {
+     "p": "Em 1971",
+     "i": 12.476,
+     "f": 14.13
+    },
+    {
+     "p": "saíram",
+     "i": 14.468,
+     "f": 14.885
+    },
+    {
+     "p": "as",
+     "i": 14.898,
+     "f": 15.015
+    },
+    {
+     "p": "primeiras",
+     "i": 15.028,
+     "f": 15.471
+    },
+    {
+     "p": "normas",
+     "i": 15.484,
+     "f": 15.848
+    },
+    {
+     "p": "nacionais",
+     "i": 15.861,
+     "f": 16.473
+    },
+    {
+     "p": "exigindo",
+     "i": 16.851,
+     "f": 17.32
+    },
+    {
+     "p": "inspeção",
+     "i": 17.333,
+     "f": 17.802
+    },
+    {
+     "p": "periódica",
+     "i": 17.815,
+     "f": 18.44
+    },
+    {
+     "p": "por",
+     "i": 18.453,
+     "f": 18.609
+    },
+    {
+     "p": "profissionais",
+     "i": 18.622,
+     "f": 19.26
+    },
+    {
+     "p": "treinados",
+     "i": 19.273,
+     "f": 19.963
+    },
+    {
+     "p": "Os",
+     "i": 20.245,
+     "f": 20.362
+    },
+    {
+     "p": "estados",
+     "i": 20.375,
+     "f": 20.961
+    },
+    {
+     "p": "passaram",
+     "i": 20.974,
+     "f": 21.43
+    },
+    {
+     "p": "a",
+     "i": 21.443,
+     "f": 21.469
+    },
+    {
+     "p": "manter",
+     "i": 21.482,
+     "f": 21.886
+    },
+    {
+     "p": "um",
+     "i": 21.899,
+     "f": 21.977
+    },
+    {
+     "p": "inventário",
+     "i": 21.99,
+     "f": 22.589
+    },
+    {
+     "p": "de",
+     "i": 22.602,
+     "f": 22.719
+    },
+    {
+     "p": "pontes",
+     "i": 22.732,
+     "f": 23.344
+    },
+    {
+     "p": "Mas",
+     "i": 23.626,
+     "f": 23.847
+    },
+    {
+     "p": "ainda",
+     "i": 23.86,
+     "f": 24.277
+    },
+    {
+     "p": "havia",
+     "i": 24.29,
+     "f": 24.564
+    },
+    {
+     "p": "um",
+     "i": 24.577,
+     "f": 24.694
+    },
+    {
+     "p": "ponto",
+     "i": 24.707,
+     "f": 25.058
+    },
+    {
+     "p": "cego",
+     "i": 25.071,
+     "f": 25.501
+    },
+    {
+     "p": "E",
+     "i": 25.783,
+     "f": 25.913
+    },
+    {
+     "p": "ele",
+     "i": 25.926,
+     "f": 26.109
+    },
+    {
+     "p": "só",
+     "i": 26.122,
+     "f": 26.343
+    },
+    {
+     "p": "apareceria",
+     "i": 26.356,
+     "f": 26.968
+    },
+    {
+     "p": "quarenta",
+     "i": 26.981,
+     "f": 27.502
+    },
+    {
+     "p": "anos",
+     "i": 27.515,
+     "f": 27.893
+    },
+    {
+     "p": "depois",
+     "i": 27.905,
+     "f": 28.491
+    }
+   ]
+  },
+  "i35w-queda": {
+   "hash": "126dcce60a",
+   "texto": "Primeiro de agosto de 2007, Minneapolis, fim da tarde, hora do rush. A ponte da rodovia interestadual 35W, sobre o rio Mississippi, tinha quarenta anos e já estava classificada como estruturalmente deficiente, o que não indica risco iminente, e seguia aberta, sob inspeção regular. De repente, o vão central desabou. Treze pessoas morreram e cento e quarenta e cinco ficaram feridas. Havia obras na ponte, e material de construção sobre o tabuleiro.",
+   "audio": "audio/i35w-queda-126dcce60a.mp3",
+   "duracao": 30.93,
+   "palavras": [
+    {
+     "p": "Primeiro",
+     "i": 0.102,
+     "f": 0.48
+    },
+    {
+     "p": "de",
+     "i": 0.493,
+     "f": 0.584
+    },
+    {
+     "p": "agosto",
+     "i": 0.597,
+     "f": 1.092
+    },
+    {
+     "p": "de",
+     "i": 1.105,
+     "f": 1.209
+    },
+    {
+     "p": "2007",
+     "i": 1.222,
+     "f": 2.107
+    },
+    {
+     "p": "Minneapolis",
+     "i": 2.381,
+     "f": 3.097
+    },
+    {
+     "p": "fim",
+     "i": 3.344,
+     "f": 3.527
+    },
+    {
+     "p": "da",
+     "i": 3.54,
+     "f": 3.709
+    },
+    {
+     "p": "tarde",
+     "i": 3.722,
+     "f": 4.178
+    },
+    {
+     "p": "hora",
+     "i": 4.451,
+     "f": 4.711
+    },
+    {
+     "p": "do",
+     "i": 4.724,
+     "f": 4.855
+    },
+    {
+     "p": "rush",
+     "i": 4.868,
+     "f": 5.31
+    },
+    {
+     "p": "A",
+     "i": 5.592,
+     "f": 5.735
+    },
+    {
+     "p": "ponte",
+     "i": 5.748,
+     "f": 6.139
+    },
+    {
+     "p": "da",
+     "i": 6.152,
+     "f": 6.243
+    },
+    {
+     "p": "rodovia",
+     "i": 6.256,
+     "f": 6.66
+    },
+    {
+     "p": "interestadual",
+     "i": 6.673,
+     "f": 7.454
+    },
+    {
+     "p": "35W",
+     "i": 7.467,
+     "f": 8.574
+    },
+    {
+     "p": "sobre",
+     "i": 8.834,
+     "f": 9.108
+    },
+    {
+     "p": "o",
+     "i": 9.121,
+     "f": 9.16
+    },
+    {
+     "p": "rio",
+     "i": 9.173,
+     "f": 9.355
+    },
+    {
+     "p": "Mississippi",
+     "i": 9.368,
+     "f": 10.032
+    },
+    {
+     "p": "tinha",
+     "i": 10.319,
+     "f": 10.566
+    },
+    {
+     "p": "quarenta",
+     "i": 10.579,
+     "f": 11.048
+    },
+    {
+     "p": "anos",
+     "i": 11.061,
+     "f": 11.425
+    },
+    {
+     "p": "e",
+     "i": 11.438,
+     "f": 11.543
+    },
+    {
+     "p": "já",
+     "i": 11.556,
+     "f": 11.699
+    },
+    {
+     "p": "estava",
+     "i": 11.712,
+     "f": 12.076
+    },
+    {
+     "p": "classificada",
+     "i": 12.089,
+     "f": 12.897
+    },
+    {
+     "p": "como",
+     "i": 12.91,
+     "f": 13.105
+    },
+    {
+     "p": "estruturalmente",
+     "i": 13.118,
+     "f": 13.834
+    },
+    {
+     "p": "deficiente",
+     "i": 13.847,
+     "f": 14.563
+    },
+    {
+     "p": "o",
+     "i": 14.863,
+     "f": 14.954
+    },
+    {
+     "p": "que",
+     "i": 14.967,
+     "f": 15.11
+    },
+    {
+     "p": "não",
+     "i": 15.123,
+     "f": 15.306
+    },
+    {
+     "p": "indica",
+     "i": 15.319,
+     "f": 15.722
+    },
+    {
+     "p": "risco",
+     "i": 15.735,
+     "f": 16.074
+    },
+    {
+     "p": "iminente",
+     "i": 16.087,
+     "f": 16.647
+    },
+    {
+     "p": "e",
+     "i": 16.907,
+     "f": 16.946
+    },
+    {
+     "p": "seguia",
+     "i": 16.959,
+     "f": 17.337
+    },
+    {
+     "p": "aberta",
+     "i": 17.35,
+     "f": 17.819
+    },
+    {
+     "p": "sob",
+     "i": 18.092,
+     "f": 18.3
+    },
+    {
+     "p": "inspeção",
+     "i": 18.313,
+     "f": 18.821
+    },
+    {
+     "p": "regular",
+     "i": 18.834,
+     "f": 19.355
+    },
+    {
+     "p": "De",
+     "i": 19.637,
+     "f": 19.819
+    },
+    {
+     "p": "repente",
+     "i": 19.832,
+     "f": 20.431
+    },
+    {
+     "p": "o",
+     "i": 20.679,
+     "f": 20.744
+    },
+    {
+     "p": "vão",
+     "i": 20.757,
+     "f": 20.939
+    },
+    {
+     "p": "central",
+     "i": 20.952,
+     "f": 21.356
+    },
+    {
+     "p": "desabou",
+     "i": 21.369,
+     "f": 21.864
+    },
+    {
+     "p": "Treze",
+     "i": 22.146,
+     "f": 22.498
+    },
+    {
+     "p": "pessoas",
+     "i": 22.511,
+     "f": 23.058
+    },
+    {
+     "p": "morreram",
+     "i": 23.071,
+     "f": 23.565
+    },
+    {
+     "p": "e",
+     "i": 23.578,
+     "f": 23.63
+    },
+    {
+     "p": "cento",
+     "i": 23.643,
+     "f": 23.982
+    },
+    {
+     "p": "e",
+     "i": 23.995,
+     "f": 24.008
+    },
+    {
+     "p": "quarenta",
+     "i": 24.021,
+     "f": 24.347
+    },
+    {
+     "p": "e",
+     "i": 24.36,
+     "f": 24.399
+    },
+    {
+     "p": "cinco",
+     "i": 24.412,
+     "f": 24.711
+    },
+    {
+     "p": "ficaram",
+     "i": 24.724,
+     "f": 25.128
+    },
+    {
+     "p": "feridas",
+     "i": 25.141,
+     "f": 25.779
+    },
+    {
+     "p": "Havia",
+     "i": 26.061,
+     "f": 26.517
+    },
+    {
+     "p": "obras",
+     "i": 26.53,
+     "f": 26.92
+    },
+    {
+     "p": "na",
+     "i": 26.934,
+     "f": 27.077
+    },
+    {
+     "p": "ponte",
+     "i": 27.09,
+     "f": 27.546
+    },
+    {
+     "p": "e",
+     "i": 27.832,
+     "f": 27.897
+    },
+    {
+     "p": "material",
+     "i": 27.91,
+     "f": 28.509
+    },
+    {
+     "p": "de",
+     "i": 28.522,
+     "f": 28.626
+    },
+    {
+     "p": "construção",
+     "i": 28.639,
+     "f": 29.29
+    },
+    {
+     "p": "sobre",
+     "i": 29.303,
+     "f": 29.577
+    },
+    {
+     "p": "o",
+     "i": 29.59,
+     "f": 29.629
+    },
+    {
+     "p": "tabuleiro",
+     "i": 29.642,
+     "f": 30.228
+    }
+   ]
+  },
+  "i35w-causa": {
+   "hash": "6cd086c4e3",
+   "texto": "Em novembro de 2008, o NTSB, órgão americano que investiga acidentes de transporte, apontou o motivo: as placas de ligação, as gusset plates, que unem as vigas da treliça. Em oito dos doze nós principais, elas tinham meia polegada, cerca de treze milímetros, metade do necessário. Foi erro de projeto, da empresa Sverdrup e Parcel, nos anos sessenta. A ponte também engordou com o tempo: camadas extras de concreto e, no dia, o peso das obras. E as inspeções simplesmente não olhavam essas placas com atenção.",
+   "audio": "audio/i35w-causa-6cd086c4e3.mp3",
+   "duracao": 36.253,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "novembro",
+     "i": 0.245,
+     "f": 0.766
+    },
+    {
+     "p": "de",
+     "i": 0.779,
+     "f": 0.857
+    },
+    {
+     "p": "2008",
+     "i": 0.87,
+     "f": 1.586
+    },
+    {
+     "p": "o",
+     "i": 1.873,
+     "f": 2.016
+    },
+    {
+     "p": "NTSB",
+     "i": 2.029,
+     "f": 2.98
+    },
+    {
+     "p": "órgão",
+     "i": 3.266,
+     "f": 3.67
+    },
+    {
+     "p": "americano",
+     "i": 3.683,
+     "f": 4.282
+    },
+    {
+     "p": "que",
+     "i": 4.295,
+     "f": 4.399
+    },
+    {
+     "p": "investiga",
+     "i": 4.412,
+     "f": 4.881
+    },
+    {
+     "p": "acidentes",
+     "i": 4.894,
+     "f": 5.441
+    },
+    {
+     "p": "de",
+     "i": 5.454,
+     "f": 5.558
+    },
+    {
+     "p": "transporte",
+     "i": 5.571,
+     "f": 6.222
+    },
+    {
+     "p": "apontou",
+     "i": 6.495,
+     "f": 6.938
+    },
+    {
+     "p": "o",
+     "i": 6.951,
+     "f": 6.964
+    },
+    {
+     "p": "motivo",
+     "i": 6.977,
+     "f": 7.563
+    },
+    {
+     "p": "as",
+     "i": 7.849,
+     "f": 8.058
+    },
+    {
+     "p": "placas",
+     "i": 8.071,
+     "f": 8.514
+    },
+    {
+     "p": "de",
+     "i": 8.527,
+     "f": 8.618
+    },
+    {
+     "p": "ligação",
+     "i": 8.631,
+     "f": 9.178
+    },
+    {
+     "p": "as",
+     "i": 9.412,
+     "f": 9.568
+    },
+    {
+     "p": "gusset",
+     "i": 9.581,
+     "f": 10.024
+    },
+    {
+     "p": "plates",
+     "i": 10.037,
+     "f": 10.623
+    },
+    {
+     "p": "que",
+     "i": 10.831,
+     "f": 10.988
+    },
+    {
+     "p": "unem",
+     "i": 11.001,
+     "f": 11.313
+    },
+    {
+     "p": "as",
+     "i": 11.326,
+     "f": 11.482
+    },
+    {
+     "p": "vigas",
+     "i": 11.495,
+     "f": 11.821
+    },
+    {
+     "p": "da",
+     "i": 11.834,
+     "f": 11.938
+    },
+    {
+     "p": "treliça",
+     "i": 11.951,
+     "f": 12.485
+    },
+    {
+     "p": "Em",
+     "i": 12.767,
+     "f": 12.962
+    },
+    {
+     "p": "oito",
+     "i": 12.975,
+     "f": 13.262
+    },
+    {
+     "p": "dos",
+     "i": 13.275,
+     "f": 13.444
+    },
+    {
+     "p": "doze",
+     "i": 13.457,
+     "f": 13.822
+    },
+    {
+     "p": "nós",
+     "i": 13.835,
+     "f": 14.069
+    },
+    {
+     "p": "principais",
+     "i": 14.082,
+     "f": 14.785
+    },
+    {
+     "p": "elas",
+     "i": 15.046,
+     "f": 15.345
+    },
+    {
+     "p": "tinham",
+     "i": 15.358,
+     "f": 15.606
+    },
+    {
+     "p": "meia",
+     "i": 15.619,
+     "f": 15.892
+    },
+    {
+     "p": "polegada",
+     "i": 15.905,
+     "f": 16.465
+    },
+    {
+     "p": "cerca",
+     "i": 16.777,
+     "f": 17.168
+    },
+    {
+     "p": "de",
+     "i": 17.181,
+     "f": 17.324
+    },
+    {
+     "p": "treze",
+     "i": 17.337,
+     "f": 17.676
+    },
+    {
+     "p": "milímetros",
+     "i": 17.689,
+     "f": 18.392
+    },
+    {
+     "p": "metade",
+     "i": 18.652,
+     "f": 19.186
+    },
+    {
+     "p": "do",
+     "i": 19.199,
+     "f": 19.291
+    },
+    {
+     "p": "necessário",
+     "i": 19.304,
+     "f": 20.007
+    },
+    {
+     "p": "Foi",
+     "i": 20.289,
+     "f": 20.549
+    },
+    {
+     "p": "erro",
+     "i": 20.563,
+     "f": 20.823
+    },
+    {
+     "p": "de",
+     "i": 20.836,
+     "f": 20.927
+    },
+    {
+     "p": "projeto",
+     "i": 20.94,
+     "f": 21.513
+    },
+    {
+     "p": "da",
+     "i": 21.747,
+     "f": 21.852
+    },
+    {
+     "p": "empresa",
+     "i": 21.865,
+     "f": 22.346
+    },
+    {
+     "p": "Sverdrup",
+     "i": 22.359,
+     "f": 22.893
+    },
+    {
+     "p": "e",
+     "i": 22.906,
+     "f": 22.945
+    },
+    {
+     "p": "Parcel",
+     "i": 22.958,
+     "f": 23.466
+    },
+    {
+     "p": "nos",
+     "i": 23.688,
+     "f": 23.831
+    },
+    {
+     "p": "anos",
+     "i": 23.844,
+     "f": 24.221
+    },
+    {
+     "p": "sessenta",
+     "i": 24.234,
+     "f": 24.807
+    },
+    {
+     "p": "A",
+     "i": 25.089,
+     "f": 25.232
+    },
+    {
+     "p": "ponte",
+     "i": 25.245,
+     "f": 25.688
+    },
+    {
+     "p": "também",
+     "i": 25.701,
+     "f": 26.066
+    },
+    {
+     "p": "engordou",
+     "i": 26.079,
+     "f": 26.521
+    },
+    {
+     "p": "com",
+     "i": 26.534,
+     "f": 26.704
+    },
+    {
+     "p": "o",
+     "i": 26.717,
+     "f": 26.769
+    },
+    {
+     "p": "tempo",
+     "i": 26.782,
+     "f": 27.172
+    },
+    {
+     "p": "camadas",
+     "i": 27.498,
+     "f": 27.98
+    },
+    {
+     "p": "extras",
+     "i": 27.993,
+     "f": 28.422
+    },
+    {
+     "p": "de",
+     "i": 28.435,
+     "f": 28.527
+    },
+    {
+     "p": "concreto",
+     "i": 28.54,
+     "f": 29.139
+    },
+    {
+     "p": "e",
+     "i": 29.152,
+     "f": 29.217
+    },
+    {
+     "p": "no",
+     "i": 29.464,
+     "f": 29.62
+    },
+    {
+     "p": "dia",
+     "i": 29.633,
+     "f": 29.946
+    },
+    {
+     "p": "o",
+     "i": 30.219,
+     "f": 30.349
+    },
+    {
+     "p": "peso",
+     "i": 30.363,
+     "f": 30.714
+    },
+    {
+     "p": "das",
+     "i": 30.727,
+     "f": 30.844
+    },
+    {
+     "p": "obras",
+     "i": 30.857,
+     "f": 31.43
+    },
+    {
+     "p": "E",
+     "i": 31.712,
+     "f": 31.829
+    },
+    {
+     "p": "as",
+     "i": 31.842,
+     "f": 31.894
+    },
+    {
+     "p": "inspeções",
+     "i": 31.907,
+     "f": 32.624
+    },
+    {
+     "p": "simplesmente",
+     "i": 32.637,
+     "f": 33.392
+    },
+    {
+     "p": "não",
+     "i": 33.405,
+     "f": 33.561
+    },
+    {
+     "p": "olhavam",
+     "i": 33.574,
+     "f": 34.017
+    },
+    {
+     "p": "essas",
+     "i": 34.03,
+     "f": 34.342
+    },
+    {
+     "p": "placas",
+     "i": 34.355,
+     "f": 34.811
+    },
+    {
+     "p": "com",
+     "i": 34.824,
+     "f": 34.967
+    },
+    {
+     "p": "atenção",
+     "i": 34.98,
+     "f": 35.553
+    }
+   ]
+  },
+  "i35w-legado": {
+   "hash": "228bbb3b2b",
+   "texto": "Em setembro de 2008, uma nova ponte foi aberta no mesmo lugar: a St. Anthony Falls Bridge. Depois do relatório, o governo federal orientou os estados a revisar placas de ligação em pontes parecidas e publicou um guia para calcular a capacidade delas. Cada desastre fechou uma lacuna que ninguém via.",
+   "audio": "audio/i35w-legado-228bbb3b2b.mp3",
+   "duracao": 19.96,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "setembro",
+     "i": 0.258,
+     "f": 0.818
+    },
+    {
+     "p": "de",
+     "i": 0.831,
+     "f": 0.909
+    },
+    {
+     "p": "2008",
+     "i": 0.922,
+     "f": 1.626
+    },
+    {
+     "p": "uma",
+     "i": 1.964,
+     "f": 2.159
+    },
+    {
+     "p": "nova",
+     "i": 2.172,
+     "f": 2.472
+    },
+    {
+     "p": "ponte",
+     "i": 2.485,
+     "f": 2.849
+    },
+    {
+     "p": "foi",
+     "i": 2.862,
+     "f": 3.006
+    },
+    {
+     "p": "aberta",
+     "i": 3.019,
+     "f": 3.501
+    },
+    {
+     "p": "no",
+     "i": 3.514,
+     "f": 3.618
+    },
+    {
+     "p": "mesmo",
+     "i": 3.631,
+     "f": 3.956
+    },
+    {
+     "p": "lugar",
+     "i": 3.969,
+     "f": 4.373
+    },
+    {
+     "p": "a",
+     "i": 4.646,
+     "f": 4.698
+    },
+    {
+     "p": "St.",
+     "i": 4.711,
+     "f": 5.128
+    },
+    {
+     "p": "Anthony",
+     "i": 5.141,
+     "f": 5.519
+    },
+    {
+     "p": "Falls",
+     "i": 5.532,
+     "f": 5.844
+    },
+    {
+     "p": "Bridge",
+     "i": 5.857,
+     "f": 6.274
+    },
+    {
+     "p": "Depois",
+     "i": 6.556,
+     "f": 7.064
+    },
+    {
+     "p": "do",
+     "i": 7.077,
+     "f": 7.168
+    },
+    {
+     "p": "relatório",
+     "i": 7.181,
+     "f": 7.806
+    },
+    {
+     "p": "o",
+     "i": 8.106,
+     "f": 8.171
+    },
+    {
+     "p": "governo",
+     "i": 8.184,
+     "f": 8.665
+    },
+    {
+     "p": "federal",
+     "i": 8.678,
+     "f": 9.095
+    },
+    {
+     "p": "orientou",
+     "i": 9.108,
+     "f": 9.577
+    },
+    {
+     "p": "os",
+     "i": 9.59,
+     "f": 9.642
+    },
+    {
+     "p": "estados",
+     "i": 9.655,
+     "f": 10.176
+    },
+    {
+     "p": "a",
+     "i": 10.189,
+     "f": 10.306
+    },
+    {
+     "p": "revisar",
+     "i": 10.319,
+     "f": 10.801
+    },
+    {
+     "p": "placas",
+     "i": 10.814,
+     "f": 11.283
+    },
+    {
+     "p": "de",
+     "i": 11.296,
+     "f": 11.387
+    },
+    {
+     "p": "ligação",
+     "i": 11.4,
+     "f": 11.882
+    },
+    {
+     "p": "em",
+     "i": 11.895,
+     "f": 11.986
+    },
+    {
+     "p": "pontes",
+     "i": 11.999,
+     "f": 12.389
+    },
+    {
+     "p": "parecidas",
+     "i": 12.402,
+     "f": 12.962
+    },
+    {
+     "p": "e",
+     "i": 12.975,
+     "f": 13.093
+    },
+    {
+     "p": "publicou",
+     "i": 13.106,
+     "f": 13.548
+    },
+    {
+     "p": "um",
+     "i": 13.561,
+     "f": 13.678
+    },
+    {
+     "p": "guia",
+     "i": 13.691,
+     "f": 14.017
+    },
+    {
+     "p": "para",
+     "i": 14.03,
+     "f": 14.251
+    },
+    {
+     "p": "calcular",
+     "i": 14.264,
+     "f": 14.759
+    },
+    {
+     "p": "a",
+     "i": 14.772,
+     "f": 14.837
+    },
+    {
+     "p": "capacidade",
+     "i": 14.85,
+     "f": 15.593
+    },
+    {
+     "p": "delas",
+     "i": 15.606,
+     "f": 16.126
+    },
+    {
+     "p": "Cada",
+     "i": 16.408,
+     "f": 16.721
+    },
+    {
+     "p": "desastre",
+     "i": 16.734,
+     "f": 17.28
+    },
+    {
+     "p": "fechou",
+     "i": 17.294,
+     "f": 17.645
+    },
+    {
+     "p": "uma",
+     "i": 17.658,
+     "f": 17.775
+    },
+    {
+     "p": "lacuna",
+     "i": 17.788,
+     "f": 18.283
+    },
+    {
+     "p": "que",
+     "i": 18.296,
+     "f": 18.4
+    },
+    {
+     "p": "ninguém",
+     "i": 18.413,
+     "f": 18.83
+    },
+    {
+     "p": "via",
+     "i": 18.843,
+     "f": 19.26
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "abfbcfb610",
+   "texto": "Então, por que pontes que caem nos ensinam tanto? Porque um desastre documentado vira dado. Tacoma trouxe o vento para o cálculo. Quebec trouxe a responsabilidade do engenheiro. A Silver Bridge criou a inspeção nacional. A I-35W mostrou que revisar o que parece certo faz parte do trabalho. Essa não é uma história de azar. É a história de uma profissão que escreve suas regras com as lições mais caras que existem.",
+   "audio": "audio/desfecho-abfbcfb610.mp3",
+   "duracao": 27.382,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.649
+    },
+    {
+     "p": "por",
+     "i": 0.961,
+     "f": 1.144
+    },
+    {
+     "p": "que",
+     "i": 1.157,
+     "f": 1.352
+    },
+    {
+     "p": "pontes",
+     "i": 1.365,
+     "f": 1.821
+    },
+    {
+     "p": "que",
+     "i": 1.834,
+     "f": 1.964
+    },
+    {
+     "p": "caem",
+     "i": 1.977,
+     "f": 2.251
+    },
+    {
+     "p": "nos",
+     "i": 2.264,
+     "f": 2.368
+    },
+    {
+     "p": "ensinam",
+     "i": 2.381,
+     "f": 2.941
+    },
+    {
+     "p": "tanto",
+     "i": 2.954,
+     "f": 3.357
+    },
+    {
+     "p": "Porque",
+     "i": 3.7,
+     "f": 4.026
+    },
+    {
+     "p": "um",
+     "i": 4.039,
+     "f": 4.117
+    },
+    {
+     "p": "desastre",
+     "i": 4.13,
+     "f": 4.703
+    },
+    {
+     "p": "documentado",
+     "i": 4.716,
+     "f": 5.497
+    },
+    {
+     "p": "vira",
+     "i": 5.51,
+     "f": 5.77
+    },
+    {
+     "p": "dado",
+     "i": 5.783,
+     "f": 6.148
+    },
+    {
+     "p": "Tacoma",
+     "i": 6.43,
+     "f": 6.873
+    },
+    {
+     "p": "trouxe",
+     "i": 6.886,
+     "f": 7.237
+    },
+    {
+     "p": "o",
+     "i": 7.25,
+     "f": 7.316
+    },
+    {
+     "p": "vento",
+     "i": 7.329,
+     "f": 7.719
+    },
+    {
+     "p": "para",
+     "i": 7.732,
+     "f": 7.914
+    },
+    {
+     "p": "o",
+     "i": 7.927,
+     "f": 7.98
+    },
+    {
+     "p": "cálculo",
+     "i": 7.993,
+     "f": 8.474
+    },
+    {
+     "p": "Quebec",
+     "i": 8.756,
+     "f": 9.342
+    },
+    {
+     "p": "trouxe",
+     "i": 9.355,
+     "f": 9.733
+    },
+    {
+     "p": "a",
+     "i": 9.746,
+     "f": 9.772
+    },
+    {
+     "p": "responsabilidade",
+     "i": 9.785,
+     "f": 10.826
+    },
+    {
+     "p": "do",
+     "i": 10.839,
+     "f": 10.931
+    },
+    {
+     "p": "engenheiro",
+     "i": 10.944,
+     "f": 11.543
+    },
+    {
+     "p": "A",
+     "i": 11.825,
+     "f": 11.955
+    },
+    {
+     "p": "Silver",
+     "i": 11.968,
+     "f": 12.424
+    },
+    {
+     "p": "Bridge",
+     "i": 12.437,
+     "f": 12.802
+    },
+    {
+     "p": "criou",
+     "i": 12.815,
+     "f": 13.166
+    },
+    {
+     "p": "a",
+     "i": 13.179,
+     "f": 13.218
+    },
+    {
+     "p": "inspeção",
+     "i": 13.231,
+     "f": 13.765
+    },
+    {
+     "p": "nacional",
+     "i": 13.778,
+     "f": 14.325
+    },
+    {
+     "p": "A",
+     "i": 14.607,
+     "f": 14.789
+    },
+    {
+     "p": "I-35W",
+     "i": 14.802,
+     "f": 16.078
+    },
+    {
+     "p": "mostrou",
+     "i": 16.091,
+     "f": 16.547
+    },
+    {
+     "p": "que",
+     "i": 16.56,
+     "f": 16.664
+    },
+    {
+     "p": "revisar",
+     "i": 16.677,
+     "f": 17.172
+    },
+    {
+     "p": "o",
+     "i": 17.185,
+     "f": 17.237
+    },
+    {
+     "p": "que",
+     "i": 17.25,
+     "f": 17.354
+    },
+    {
+     "p": "parece",
+     "i": 17.367,
+     "f": 17.745
+    },
+    {
+     "p": "certo",
+     "i": 17.758,
+     "f": 18.175
+    },
+    {
+     "p": "faz",
+     "i": 18.188,
+     "f": 18.487
+    },
+    {
+     "p": "parte",
+     "i": 18.5,
+     "f": 18.839
+    },
+    {
+     "p": "do",
+     "i": 18.852,
+     "f": 18.956
+    },
+    {
+     "p": "trabalho",
+     "i": 18.969,
+     "f": 19.477
+    },
+    {
+     "p": "Essa",
+     "i": 19.759,
+     "f": 20.124
+    },
+    {
+     "p": "não",
+     "i": 20.137,
+     "f": 20.358
+    },
+    {
+     "p": "é",
+     "i": 20.371,
+     "f": 20.488
+    },
+    {
+     "p": "uma",
+     "i": 20.501,
+     "f": 20.645
+    },
+    {
+     "p": "história",
+     "i": 20.658,
+     "f": 21.087
+    },
+    {
+     "p": "de",
+     "i": 21.1,
+     "f": 21.191
+    },
+    {
+     "p": "azar",
+     "i": 21.204,
+     "f": 21.543
+    },
+    {
+     "p": "É",
+     "i": 21.825,
+     "f": 21.955
+    },
+    {
+     "p": "a",
+     "i": 21.968,
+     "f": 22.02
+    },
+    {
+     "p": "história",
+     "i": 22.033,
+     "f": 22.502
+    },
+    {
+     "p": "de",
+     "i": 22.515,
+     "f": 22.606
+    },
+    {
+     "p": "uma",
+     "i": 22.619,
+     "f": 22.763
+    },
+    {
+     "p": "profissão",
+     "i": 22.776,
+     "f": 23.296
+    },
+    {
+     "p": "que",
+     "i": 23.309,
+     "f": 23.388
+    },
+    {
+     "p": "escreve",
+     "i": 23.401,
+     "f": 23.83
+    },
+    {
+     "p": "suas",
+     "i": 23.843,
+     "f": 24.104
+    },
+    {
+     "p": "regras",
+     "i": 24.117,
+     "f": 24.533
+    },
+    {
+     "p": "com",
+     "i": 24.546,
+     "f": 24.703
+    },
+    {
+     "p": "as",
+     "i": 24.716,
+     "f": 24.807
+    },
+    {
+     "p": "lições",
+     "i": 24.82,
+     "f": 25.25
+    },
+    {
+     "p": "mais",
+     "i": 25.263,
+     "f": 25.562
+    },
+    {
+     "p": "caras",
+     "i": 25.575,
+     "f": 25.979
+    },
+    {
+     "p": "que",
+     "i": 25.992,
+     "f": 26.083
+    },
+    {
+     "p": "existem",
+     "i": 26.096,
+     "f": 26.682
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "29514539ec",
+   "texto": "Toda ponte que você atravessa hoje carrega, escondida no cálculo, a memória de quem não voltou para casa.",
+   "audio": "audio/fecho-29514539ec.mp3",
+   "duracao": 6.896,
+   "palavras": [
+    {
+     "p": "Toda",
+     "i": 0.102,
+     "f": 0.376
+    },
+    {
+     "p": "ponte",
+     "i": 0.389,
+     "f": 0.792
+    },
+    {
+     "p": "que",
+     "i": 0.805,
+     "f": 0.883
+    },
+    {
+     "p": "você",
+     "i": 0.896,
+     "f": 1.157
+    },
+    {
+     "p": "atravessa",
+     "i": 1.17,
+     "f": 1.665
+    },
+    {
+     "p": "hoje",
+     "i": 1.678,
+     "f": 1.912
+    },
+    {
+     "p": "carrega",
+     "i": 1.925,
+     "f": 2.472
+    },
+    {
+     "p": "escondida",
+     "i": 2.706,
+     "f": 3.227
+    },
+    {
+     "p": "no",
+     "i": 3.24,
+     "f": 3.357
+    },
+    {
+     "p": "cálculo",
+     "i": 3.37,
+     "f": 3.839
+    },
+    {
+     "p": "a",
+     "i": 4.073,
+     "f": 4.139
+    },
+    {
+     "p": "memória",
+     "i": 4.152,
+     "f": 4.581
+    },
+    {
+     "p": "de",
+     "i": 4.594,
+     "f": 4.698
+    },
+    {
+     "p": "quem",
+     "i": 4.711,
+     "f": 4.933
+    },
+    {
+     "p": "não",
+     "i": 4.946,
+     "f": 5.141
+    },
+    {
+     "p": "voltou",
+     "i": 5.154,
+     "f": 5.571
+    },
+    {
+     "p": "para",
+     "i": 5.584,
+     "f": 5.779
+    },
+    {
+     "p": "casa",
+     "i": 5.792,
+     "f": 6.196
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "tacoma-ondulando": {
+   "arquivo": "",
+   "rotulo": "Tacoma Narrows torcendo, 1940",
+   "commons": "Tacoma Narrows Bridge 1940 collapse twisting roadway",
+   "semFoto": true
+  },
+  "tacoma-carro": {
+   "arquivo": "",
+   "rotulo": "Carro no tabuleiro, 1940",
+   "commons": "Tacoma Narrows Bridge 1940 car on twisting deck",
+   "semFoto": true
+  },
+  "tacoma-inauguracao": {
+   "arquivo": "",
+   "rotulo": "Inauguração, julho de 1940",
+   "commons": "Tacoma Narrows Bridge 1940 opening day",
+   "semFoto": true
+  },
+  "tacoma-vao-quebrado": {
+   "arquivo": "",
+   "rotulo": "O vão se partindo",
+   "commons": "Tacoma Narrows Bridge collapse 1940 deck breaking",
+   "semFoto": true
+  },
+  "tacoma-hoje": {
+   "arquivo": "imagens/tacoma-hoje-d5733f29.jpg",
+   "rotulo": "Pontes de Tacoma Narrows hoje",
+   "wiki": "Tacoma Narrows Bridge",
+   "commons": "Tacoma Narrows Bridges Washington 2007",
+   "autor": "Sounderbruce",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_Bridge_(117561801).jpeg",
+   "titulo": "File:Tacoma Narrows Bridge (117561801).jpeg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 58.4,
+    "y": 52.5
+   },
+   "borrada": "imagens/tacoma-hoje-d5733f29-b.jpg"
+  },
+  "ponte-golden-gate": {
+   "arquivo": "imagens/ponte-golden-gate-e6eec35a.jpg",
+   "rotulo": "Ponte Golden Gate",
+   "wiki": "Ponte Golden Gate",
+   "commons": "Golden Gate Bridge San Francisco",
+   "autor": "Frank Schulenburg",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+   "titulo": "File:Golden Gate Bridge as seen from Battery East.jpg",
+   "largura": 1920,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 52.0,
+    "y": 46.1
+   },
+   "borrada": "imagens/ponte-golden-gate-e6eec35a-b.jpg"
+  },
+  "ponte-brooklyn": {
+   "arquivo": "imagens/ponte-brooklyn-359e8099.jpg",
+   "rotulo": "Ponte do Brooklyn",
+   "wiki": "Ponte do Brooklyn",
+   "commons": "Brooklyn Bridge New York",
+   "autor": "Suiseiseki",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_Manhattan.jpg",
+   "titulo": "File:Brooklyn Bridge Manhattan.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 44.9,
+    "y": 44.3
+   },
+   "borrada": "imagens/ponte-brooklyn-359e8099-b.jpg"
+  },
+  "ponte-rio-niteroi": {
+   "arquivo": "imagens/ponte-rio-niteroi-5ece0351.jpg",
+   "rotulo": "Ponte Rio–Niterói",
+   "wiki": "Ponte Presidente Costa e Silva",
+   "commons": "Ponte Rio-Niterói Baía de Guanabara",
+   "autor": "Diego Baravelli",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ilha_de_Mocangu%C3%AA_by_Diego_Baravelli_(cropped).jpg",
+   "titulo": "File:Ilha de Mocanguê by Diego Baravelli (cropped).jpg",
+   "largura": 1920,
+   "altura": 1227,
+   "rostos": 0,
+   "foco": {
+    "x": 51.7,
+    "y": 63.1
+   },
+   "borrada": "imagens/ponte-rio-niteroi-5ece0351-b.jpg"
+  },
+  "ponte-corroida": {
+   "arquivo": "",
+   "rotulo": "Aço corroído em ponte antiga",
+   "commons": "rusty steel truss bridge corrosion detail",
+   "semFoto": true
+  },
+  "tacoma-estreito": {
+   "arquivo": "imagens/tacoma-estreito-a9a16a5e.jpg",
+   "rotulo": "Estreito de Tacoma Narrows",
+   "commons": "Tacoma Narrows Puget Sound Washington map",
+   "autor": "Sounderbruce",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_Bridge_(117561803).jpeg",
+   "titulo": "File:Tacoma Narrows Bridge (117561803).jpeg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 46.8,
+    "y": 57.3
+   },
+   "borrada": "imagens/tacoma-estreito-a9a16a5e-b.jpg"
+  },
+  "tacoma-pronta": {
+   "arquivo": "",
+   "rotulo": "A ponte pronta, 1940",
+   "commons": "Tacoma Narrows Bridge 1940 completed suspension bridge",
+   "semFoto": true
+  },
+  "tacoma-torres": {
+   "arquivo": "",
+   "rotulo": "Torres e cabos principais",
+   "commons": "Tacoma Narrows Bridge 1940 towers main cables",
+   "semFoto": true
+  },
+  "tacoma-vigas": {
+   "arquivo": "",
+   "rotulo": "Vigas laterais de alma cheia",
+   "commons": "Tacoma Narrows Bridge 1940 plate girder stiffening",
+   "semFoto": true
+  },
+  "tacoma-tabuleiro": {
+   "arquivo": "",
+   "rotulo": "Tabuleiro estreito",
+   "commons": "Tacoma Narrows Bridge 1940 roadway deck",
+   "semFoto": true
+  },
+  "tacoma-ondas": {
+   "arquivo": "",
+   "rotulo": "Tabuleiro ondulando",
+   "commons": "Tacoma Narrows Bridge 1940 deck undulating before collapse",
+   "semFoto": true
+  },
+  "tacoma-gertie": {
+   "arquivo": "imagens/tacoma-gertie-413f3ffa.jpg",
+   "rotulo": "Galloping Gertie",
+   "commons": "Galloping Gertie Tacoma Narrows Bridge",
+   "autor": "Joe Mabel",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Galloping_Gertie_fragment_01.jpg",
+   "titulo": "File:Galloping Gertie fragment 01.jpg",
+   "largura": 1920,
+   "altura": 1275,
+   "rostos": 0,
+   "foco": {
+    "x": 39.8,
+    "y": 43.4
+   },
+   "borrada": "imagens/tacoma-gertie-413f3ffa-b.jpg"
+  },
+  "tacoma-visitantes": {
+   "arquivo": "",
+   "rotulo": "Carros na ponte, 1940",
+   "commons": "Tacoma Narrows Bridge 1940 traffic cars crossing",
+   "semFoto": true
+  },
+  "tacoma-cabos": {
+   "arquivo": "",
+   "rotulo": "Cabos de contenção",
+   "commons": "Tacoma Narrows Bridge 1940 diagonal stay cables restraint",
+   "semFoto": true
+  },
+  "tacoma-modelo": {
+   "arquivo": "",
+   "rotulo": "Modelo em túnel de vento",
+   "commons": "Tacoma Narrows Bridge model wind tunnel University of Washington Farquharson",
+   "semFoto": true
+  },
+  "tacoma-vento": {
+   "arquivo": "imagens/tacoma-vento-8bd3f2e7.jpg",
+   "rotulo": "7 de novembro de 1940",
+   "commons": "Tacoma Narrows Bridge November 7 1940 wind",
+   "autor": "NOAA Library",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Storm_system_weather_analysis,_November_7,_1940.jpg",
+   "titulo": "File:Storm system weather analysis, November 7, 1940.jpg",
+   "largura": 1920,
+   "altura": 1506,
+   "rostos": 0,
+   "foco": {
+    "x": 50.9,
+    "y": 46.0
+   },
+   "borrada": "imagens/tacoma-vento-8bd3f2e7-b.jpg"
+  },
+  "tacoma-torcao": {
+   "arquivo": "",
+   "rotulo": "Oscilação de torção",
+   "commons": "Tacoma Narrows Bridge 1940 torsional oscillation",
+   "semFoto": true
+  },
+  "tacoma-inclinada": {
+   "arquivo": "",
+   "rotulo": "Tabuleiro inclinado",
+   "commons": "Tacoma Narrows Bridge 1940 deck tilted angle",
+   "semFoto": true
+  },
+  "tacoma-motorista": {
+   "arquivo": "",
+   "rotulo": "Carro abandonado na ponte",
+   "commons": "Tacoma Narrows Bridge 1940 abandoned car roadway",
+   "semFoto": true
+  },
+  "tacoma-pedaco": {
+   "arquivo": "",
+   "rotulo": "Trecho caindo na água",
+   "commons": "Tacoma Narrows Bridge 1940 section falling into water",
+   "semFoto": true
+  },
+  "tacoma-agua": {
+   "arquivo": "",
+   "rotulo": "Destroços na água",
+   "commons": "Tacoma Narrows Bridge 1940 collapsed deck in Puget Sound",
+   "semFoto": true
+  },
+  "tacoma-flutter": {
+   "arquivo": "",
+   "rotulo": "Flutter aeroelástico (esquema)",
+   "commons": "aeroelastic flutter diagram bridge deck",
+   "semFoto": true
+  },
+  "tacoma-restos": {
+   "arquivo": "",
+   "rotulo": "Restos da ponte, 1940",
+   "commons": "Tacoma Narrows Bridge 1940 wreckage after collapse",
+   "semFoto": true
+  },
+  "tunel-vento": {
+   "arquivo": "imagens/tunel-vento-f6df9c5a.jpg",
+   "rotulo": "Teste em túnel de vento",
+   "wiki": "Túnel de vento",
+   "commons": "bridge model wind tunnel test",
+   "autor": "NASA on The Commons",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Full-Scale_Tunnel_(9424173522).jpg",
+   "titulo": "File:Full-Scale Tunnel (9424173522).jpg",
+   "largura": 1920,
+   "altura": 1451,
+   "rostos": 1,
+   "foco": {
+    "x": 92.2,
+    "y": 81.2
+   },
+   "borrada": "imagens/tunel-vento-f6df9c5a-b.jpg"
+  },
+  "ponte-great-belt": {
+   "arquivo": "imagens/ponte-great-belt-1668477b.jpg",
+   "rotulo": "Great Belt, tabuleiro aerodinâmico",
+   "wiki": "Ponte do Great Belt",
+   "commons": "Great Belt Bridge Denmark aerodynamic box girder",
+   "autor": "Martin Falbisoner",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Great_Belt_Bridge,_Eastern_Bridge,_August_2020_-01.jpg",
+   "titulo": "File:The Great Belt Bridge, Eastern Bridge, August 2020 -01.jpg",
+   "largura": 1920,
+   "altura": 962,
+   "rostos": 0,
+   "foco": {
+    "x": 29.9,
+    "y": 56.7
+   },
+   "borrada": "imagens/ponte-great-belt-1668477b-b.jpg"
+  },
+  "tacoma-1950": {
+   "arquivo": "imagens/tacoma-1950-64882648.jpg",
+   "rotulo": "A ponte nova, 1950",
+   "commons": "Tacoma Narrows Bridge 1950 new bridge",
+   "autor": "Lderendi",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_Bridge_2009.jpg",
+   "titulo": "File:Tacoma Narrows Bridge 2009.jpg",
+   "largura": 1920,
+   "altura": 1278,
+   "rostos": 0,
+   "foco": {
+    "x": 50.6,
+    "y": 62.8
+   },
+   "borrada": "imagens/tacoma-1950-64882648-b.jpg"
+  },
+  "ponte-akashi": {
+   "arquivo": "imagens/ponte-akashi-8c67966d.jpg",
+   "rotulo": "Akashi Kaikyō (Japão)",
+   "wiki": "Ponte Akashi Kaikyō",
+   "commons": "Akashi Kaikyo Bridge Japan",
+   "autor": "Tysto",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Akashi_Bridge.JPG",
+   "titulo": "File:Akashi Bridge.JPG",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 58.3,
+    "y": 37.1
+   },
+   "borrada": "imagens/ponte-akashi-8c67966d-b.jpg"
+  },
+  "quebec-mapa": {
+   "arquivo": "imagens/quebec-mapa-e142a72b.jpg",
+   "rotulo": "Rio São Lourenço, Quebec",
+   "commons": "Quebec City Saint Lawrence River map location",
+   "autor": "Wilfredor",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Qu%C3%A9bec_city_at_night,_view_from_L%C3%A9vis_city.jpg",
+   "titulo": "File:Québec city at night, view from Lévis city.jpg",
+   "largura": 1920,
+   "altura": 1260,
+   "rostos": 0,
+   "foco": {
+    "x": 45.7,
+    "y": 49.8
+   },
+   "borrada": "imagens/quebec-mapa-e142a72b-b.jpg"
+  },
+  "quebec-obra": {
+   "arquivo": "",
+   "rotulo": "Obra da Ponte de Quebec, 1907",
+   "commons": "Quebec Bridge 1907 construction cantilever",
+   "semFoto": true
+  },
+  "cooper": {
+   "arquivo": "",
+   "rotulo": "Theodore Cooper",
+   "wiki": "Theodore Cooper",
+   "commons": "Theodore Cooper engineer",
+   "semFoto": true
+  },
+  "quebec-braco": {
+   "arquivo": "",
+   "rotulo": "Braço em balanço, 1907",
+   "commons": "Quebec Bridge cantilever arm 1907 before collapse",
+   "semFoto": true
+  },
+  "quebec-aco": {
+   "arquivo": "",
+   "rotulo": "Estrutura de aço",
+   "commons": "Quebec Bridge steel truss members 1907",
+   "semFoto": true
+  },
+  "quebec-vigas": {
+   "arquivo": "",
+   "rotulo": "Vigas de compressão deformadas",
+   "commons": "Quebec Bridge 1907 buckled chord compression",
+   "semFoto": true
+  },
+  "quebec-colapso": {
+   "arquivo": "",
+   "rotulo": "Colapso de 29 de agosto de 1907",
+   "commons": "Quebec Bridge collapse 1907",
+   "semFoto": true
+  },
+  "quebec-ruinas": {
+   "arquivo": "",
+   "rotulo": "Destroços da Ponte de Quebec",
+   "commons": "Quebec Bridge collapse 1907 wreckage twisted steel",
+   "semFoto": true
+  },
+  "quebec-mohawk": {
+   "arquivo": "",
+   "rotulo": "Operários mohawk",
+   "commons": "Mohawk ironworkers Quebec Bridge Kahnawake",
+   "semFoto": true
+  },
+  "quebec-kahnawake": {
+   "arquivo": "",
+   "rotulo": "Kahnawake",
+   "commons": "Kahnawake Quebec Bridge memorial",
+   "semFoto": true
+  },
+  "quebec-comissao": {
+   "arquivo": "",
+   "rotulo": "Relatório da comissão real",
+   "commons": "Quebec Bridge Royal Commission 1908 report",
+   "semFoto": true
+  },
+  "quebec-phoenix": {
+   "arquivo": "",
+   "rotulo": "Phoenix Bridge Company",
+   "commons": "Phoenix Bridge Company Phoenixville Quebec Bridge",
+   "semFoto": true
+  },
+  "quebec-1916": {
+   "arquivo": "",
+   "rotulo": "Queda do vão central, 1916",
+   "commons": "Quebec Bridge 1916 central span collapse",
+   "semFoto": true
+  },
+  "quebec-pronta": {
+   "arquivo": "imagens/quebec-pronta-906360ac.jpg",
+   "rotulo": "Ponte de Quebec concluída, 1917",
+   "wiki": "Ponte de Quebec",
+   "commons": "Quebec Bridge completed 1917",
+   "autor": "Martin St-Amant (S23678)",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:125_-_Qu%C3%A9bec_-_Pont_de_Qu%C3%A9bec_de_nuit_-_Septembre_2009.jpg",
+   "titulo": "File:125 - Québec - Pont de Québec de nuit - Septembre 2009.jpg",
+   "largura": 1920,
+   "altura": 976,
+   "rostos": 0,
+   "foco": {
+    "x": 54.8,
+    "y": 45.3
+   },
+   "borrada": "imagens/quebec-pronta-906360ac-b.jpg"
+  },
+  "anel-ferro": {
+   "arquivo": "imagens/anel-ferro-e45fad48.jpg",
+   "rotulo": "Anel de Ferro",
+   "commons": "Iron Ring Canadian engineers",
+   "autor": "--PCStuff",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Canadian_Engineer_Iron_Ring.jpg",
+   "titulo": "File:Canadian Engineer Iron Ring.jpg",
+   "largura": 909,
+   "altura": 630,
+   "rostos": 0,
+   "foco": {
+    "x": 46.2,
+    "y": 62.6
+   },
+   "borrada": "imagens/anel-ferro-e45fad48-b.jpg"
+  },
+  "silver-bridge": {
+   "arquivo": "",
+   "rotulo": "Silver Bridge",
+   "commons": "Silver Bridge Point Pleasant Ohio River",
+   "semFoto": true
+  },
+  "silver-mapa": {
+   "arquivo": "imagens/silver-mapa-bd70cb11.jpg",
+   "rotulo": "Point Pleasant (W.Va.) e Ohio",
+   "commons": "Point Pleasant West Virginia Kanauga Ohio map",
+   "autor": "Antony-22",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Silver_and_Point_Pleasant_Bridges_aerial_2019.jpg",
+   "titulo": "File:Silver and Point Pleasant Bridges aerial 2019.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 46.0,
+    "y": 41.6
+   },
+   "borrada": "imagens/silver-mapa-bd70cb11-b.jpg"
+  },
+  "silver-1928": {
+   "arquivo": "",
+   "rotulo": "Silver Bridge, 1928",
+   "commons": "Silver Bridge 1928 opening Point Pleasant",
+   "semFoto": true
+  },
+  "silver-eyebars": {
+   "arquivo": "",
+   "rotulo": "Corrente de eyebars",
+   "commons": "Silver Bridge eyebar chain suspension",
+   "semFoto": true
+  },
+  "silver-trafego": {
+   "arquivo": "",
+   "rotulo": "Trânsito na Silver Bridge",
+   "commons": "Silver Bridge Point Pleasant traffic 1960s",
+   "semFoto": true
+  },
+  "silver-queda": {
+   "arquivo": "",
+   "rotulo": "Silver Bridge após a queda",
+   "commons": "Silver Bridge collapse 1967 Ohio River wreckage",
+   "semFoto": true
+  },
+  "silver-ruinas": {
+   "arquivo": "",
+   "rotulo": "Destroços no rio Ohio",
+   "commons": "Silver Bridge collapse December 1967 aerial",
+   "semFoto": true
+  },
+  "silver-barra330": {
+   "arquivo": "",
+   "rotulo": "Eyebar 330 fraturada",
+   "commons": "Silver Bridge eyebar 330 fracture NTSB",
+   "semFoto": true
+  },
+  "silver-junta": {
+   "arquivo": "",
+   "rotulo": "Junta da corrente",
+   "commons": "Silver Bridge eyebar joint pin",
+   "semFoto": true
+  },
+  "silver-mergulhadores": {
+   "arquivo": "",
+   "rotulo": "Resgate e recuperação",
+   "commons": "Silver Bridge collapse recovery Ohio River 1967",
+   "semFoto": true
+  },
+  "silver-memorial": {
+   "arquivo": "",
+   "rotulo": "Memorial da Silver Bridge",
+   "commons": "Silver Bridge memorial Point Pleasant",
+   "semFoto": true
+  },
+  "capitolio": {
+   "arquivo": "imagens/capitolio-635a31ef.jpg",
+   "rotulo": "Congresso dos EUA",
+   "wiki": "Capitólio dos Estados Unidos",
+   "commons": "United States Capitol Washington",
+   "autor": "United_States_Capitol_-_west_front.jpg: Architect of the Capitol derivative work: O.J.",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+   "titulo": "File:United States Capitol west front edit2.jpg",
+   "largura": 1920,
+   "altura": 994,
+   "rostos": 0,
+   "foco": {
+    "x": 49.8,
+    "y": 60.9
+   },
+   "borrada": "imagens/capitolio-635a31ef-b.jpg"
+  },
+  "inspetor": {
+   "arquivo": "imagens/inspetor-cb158eb0.jpg",
+   "rotulo": "Inspeção de ponte",
+   "commons": "bridge inspector under bridge inspection",
+   "autor": "Oregon Department of Transportation",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Inspector_truck_on_the_bridge_(49946460236).jpg",
+   "titulo": "File:Inspector truck on the bridge (49946460236).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 55.1,
+    "y": 45.2
+   },
+   "borrada": "imagens/inspetor-cb158eb0-b.jpg"
+  },
+  "fhwa": {
+   "arquivo": "",
+   "rotulo": "Administração Federal de Rodovias",
+   "commons": "Federal Highway Administration building Washington",
+   "semFoto": true
+  },
+  "silver-memorial-nova": {
+   "arquivo": "imagens/silver-memorial-nova-ea5faa25.jpg",
+   "rotulo": "Ponte que substituiu a Silver Bridge",
+   "commons": "Silver Memorial Bridge Point Pleasant",
+   "autor": "Charles Johnson, U.S. Army Corps of Engineers",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kanawha_Ohio_confluence.jpg",
+   "titulo": "File:Kanawha Ohio confluence.jpg",
+   "largura": 1500,
+   "altura": 1198,
+   "rostos": 0,
+   "foco": {
+    "x": 73.0,
+    "y": 44.2
+   },
+   "borrada": "imagens/silver-memorial-nova-ea5faa25-b.jpg"
+  },
+  "minneapolis": {
+   "arquivo": "imagens/minneapolis-fad607eb.jpg",
+   "rotulo": "Minneapolis",
+   "wiki": "Minneapolis",
+   "commons": "Minneapolis skyline Mississippi River",
+   "autor": "Guywelch2000",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Downtown_Minneapolis_skyline_across_the_Mississippi_River.jpg",
+   "titulo": "File:Downtown Minneapolis skyline across the Mississippi River.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 48.1,
+    "y": 46.0
+   },
+   "borrada": "imagens/minneapolis-fad607eb-b.jpg"
+  },
+  "i35w-antes": {
+   "arquivo": "",
+   "rotulo": "A ponte antes de 2007",
+   "commons": "I-35W Mississippi River bridge Minneapolis before collapse",
+   "semFoto": true
+  },
+  "i35w-queda": {
+   "arquivo": "imagens/i35w-queda-d862e849.jpg",
+   "rotulo": "Colapso de 1º de agosto de 2007",
+   "commons": "I-35W Mississippi River bridge collapse aerial",
+   "autor": "Kevin Rofidal, United States Coast Guard",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Image-I35W_Collapse_-_Day_4_-_Operations_%26_Scene_(95)_edit.jpg",
+   "titulo": "File:Image-I35W Collapse - Day 4 - Operations & Scene (95) edit.jpg",
+   "largura": 1920,
+   "altura": 1277,
+   "rostos": 0,
+   "foco": {
+    "x": 40.4,
+    "y": 57.4
+   },
+   "borrada": "imagens/i35w-queda-d862e849-b.jpg"
+  },
+  "i35w-resgate": {
+   "arquivo": "imagens/i35w-resgate-feb4c647.jpg",
+   "rotulo": "Resgate",
+   "commons": "I-35W bridge collapse rescue",
+   "autor": "Tony Webster from Portland, Oregon, United States",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Minneapolis_I-35W_Bridge_Collapse_(rescue_boat)_(980510945).jpg",
+   "titulo": "File:Minneapolis I-35W Bridge Collapse (rescue boat) (980510945).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 2,
+   "foco": {
+    "x": 34.1,
+    "y": 42.2
+   },
+   "borrada": "imagens/i35w-resgate-feb4c647-b.jpg"
+  },
+  "i35w-obras": {
+   "arquivo": "",
+   "rotulo": "Obras sobre o tabuleiro",
+   "commons": "I-35W bridge collapse construction equipment deck",
+   "semFoto": true
+  },
+  "ntsb": {
+   "arquivo": "imagens/ntsb-d32b7824.jpg",
+   "rotulo": "NTSB",
+   "wiki": "National Transportation Safety Board",
+   "commons": "National Transportation Safety Board",
+   "autor": "NTSBgov",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:National_Transportation_Safety_Board_investigation_on_July_13,_2023_at_the_site_of_July_12_multi_vehicle_crash_on_I-70_near_Highland,_Illinois_01.jpg",
+   "titulo": "File:National Transportation Safety Board investigation on July 13, 2023 at the site of July 12 multi vehicle crash on I-70 near Highland, Illinois 01.jpg",
+   "largura": 1920,
+   "altura": 1200,
+   "rostos": 3,
+   "foco": {
+    "x": 51.3,
+    "y": 20.4
+   },
+   "borrada": "imagens/ntsb-d32b7824-b.jpg"
+  },
+  "i35w-gusset": {
+   "arquivo": "",
+   "rotulo": "Placa de ligação (gusset plate)",
+   "commons": "I-35W bridge gusset plate U10 NTSB",
+   "semFoto": true
+  },
+  "i35w-fratura": {
+   "arquivo": "",
+   "rotulo": "Placa fraturada",
+   "commons": "I-35W bridge gusset plate fractured recovered",
+   "semFoto": true
+  },
+  "i35w-trelica": {
+   "arquivo": "",
+   "rotulo": "Treliça após a queda",
+   "commons": "I-35W bridge truss wreckage Mississippi",
+   "semFoto": true
+  },
+  "i35w-concreto": {
+   "arquivo": "",
+   "rotulo": "Camadas de concreto",
+   "commons": "I-35W bridge deck concrete overlay",
+   "semFoto": true
+  },
+  "st-anthony": {
+   "arquivo": "imagens/st-anthony-12d53163.jpg",
+   "rotulo": "St. Anthony Falls Bridge",
+   "wiki": "St. Anthony Falls Bridge",
+   "commons": "Saint Anthony Falls Bridge Minneapolis",
+   "autor": "SEWilco",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Saint_Anthony_(35W)_Bridge_river_view_2008-09-18.JPG",
+   "titulo": "File:Saint Anthony (35W) Bridge river view 2008-09-18.JPG",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 52.1,
+    "y": 69.7
+   },
+   "borrada": "imagens/st-anthony-12d53163-b.jpg"
+  },
+  "i35w-memorial": {
+   "arquivo": "",
+   "rotulo": "Memorial da I-35W",
+   "commons": "I-35W Bridge Remembrance Garden Minneapolis",
+   "semFoto": true
+  },
+  "mississippi": {
+   "arquivo": "imagens/mississippi-a0dd52cc.jpg",
+   "rotulo": "Rio Mississippi",
+   "commons": "Mississippi River Minneapolis St. Anthony Falls",
+   "autor": "Johnny Q",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Mississippi_River,_Nicollet_Island,_St._Anthony_Falls_aerial,_September_2019.jpg",
+   "titulo": "File:Mississippi River, Nicollet Island, St. Anthony Falls aerial, September 2019.jpg",
+   "largura": 1401,
+   "altura": 786,
+   "rostos": 0,
+   "foco": {
+    "x": 40.3,
+    "y": 40.5
+   },
+   "borrada": "imagens/mississippi-a0dd52cc-b.jpg"
+  },
+  "fhwa-guia": {
+   "arquivo": "",
+   "rotulo": "Ligação em treliça",
+   "commons": "truss bridge gusset plate connection detail",
+   "semFoto": true
+  },
+  "fim-tacoma": {
+   "arquivo": "",
+   "rotulo": "Tacoma Narrows, 1940",
+   "commons": "Tacoma Narrows Bridge collapse 1940 spectators",
+   "semFoto": true
+  },
+  "fim-quebec": {
+   "arquivo": "imagens/fim-quebec-4a4f9500.jpg",
+   "rotulo": "Ponte de Quebec",
+   "commons": "Quebec Bridge aerial Saint Lawrence",
+   "autor": "Martin St-Amant (S23678)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Quebec_Bridge_-_Pont_de_Qu%C3%A9bec.jpg",
+   "titulo": "File:Quebec Bridge - Pont de Québec.jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 57.8,
+    "y": 43.0
+   },
+   "borrada": "imagens/fim-quebec-4a4f9500-b.jpg"
+  },
+  "fim-silver": {
+   "arquivo": "",
+   "rotulo": "Silver Bridge, 1967",
+   "commons": "Silver Bridge collapse 1967 victims memorial plaque",
+   "semFoto": true
+  },
+  "fim-i35w": {
+   "arquivo": "imagens/fim-i35w-34fb4fda.jpg",
+   "rotulo": "I-35W, 2007",
+   "commons": "I-35W bridge collapse 2007 Minneapolis wreckage",
+   "autor": "U.S. Navy photo by Mass Communication Specialist Seaman Joshua Adam Nuzzo",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_070807-N-4515N-106_Navy_divers_from_Mobile_Diving_and_Salvage_Unit_(MDSU)_2_from_Naval_Amphibious_Base_Little_Creek,_Va.,_survey_and_assess_the_wreckage_of_the_I-35_Bridge.jpg",
+   "titulo": "File:US Navy 070807-N-4515N-106 Navy divers from Mobile Diving and Salvage Unit (MDSU) 2 from Naval Amphibious Base Little Creek, Va., survey and assess the wreckage of the I-35 Bridge.jpg",
+   "largura": 1920,
+   "altura": 1285,
+   "rostos": 0,
+   "foco": {
+    "x": 60.3,
+    "y": 46.8
+   },
+   "borrada": "imagens/fim-i35w-34fb4fda-b.jpg"
+  },
+  "fim-inspecao": {
+   "arquivo": "",
+   "rotulo": "Engenheiros inspecionando uma ponte",
+   "commons": "engineers inspecting bridge cable",
+   "semFoto": true
+  },
+  "millau": {
+   "arquivo": "imagens/millau-65c140cc.jpg",
+   "rotulo": "Viaduto de Millau",
+   "wiki": "Viaduto de Millau",
+   "commons": "Millau Viaduct",
+   "autor": "Pexels",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/ponte-nuvens-projeto-engenharia-1834754/",
+   "titulo": "ponte, nuvens, projeto, engenharia, frança, ponte viaduto de millau, céu, natureza, aço e estrutura de concreto",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 67.0,
+    "y": 49.7
+   },
+   "borrada": "imagens/millau-65c140cc-b.jpg"
+  },
+  "hercilio-luz": {
+   "arquivo": "imagens/hercilio-luz-ac8c131c.jpg",
+   "rotulo": "Ponte Hercílio Luz",
+   "wiki": "Ponte Hercílio Luz",
+   "commons": "Ponte Hercílio Luz Florianópolis",
+   "autor": "Rodrigo Soldon from Rio de Janeiro, Brazil",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ponte_Herc%C3%ADlio_Luz_Florianopolis-edit.jpg",
+   "titulo": "File:Ponte Hercílio Luz Florianopolis-edit.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 49.4,
+    "y": 57.6
+   },
+   "borrada": "imagens/hercilio-luz-ac8c131c-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-09T20:37:52.619Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +7567,74 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Tacoma Narrows Bridge (1940) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)"
+  },
+  {
+   "titulo": "Live Science — Tacoma Narrows Bridge collapses, Nov. 7, 1940",
+   "url": "https://www.livescience.com/technology/engineering/science-history-the-tacoma-narrows-bridge-collapses-forcing-a-complete-rethink-in-structural-engineering-nov-7-1940"
+  },
+  {
+   "titulo": "The Canadian Encyclopedia — Quebec Bridge disaster",
+   "url": "https://thecanadianencyclopedia.ca/en/article/quebec-bridge-disaster-feature"
+  },
+  {
+   "titulo": "Pearson & Delatte — Collapse of the Quebec Bridge, 1907 (ASCE)",
+   "url": "https://ascelibrary.com/doi/10.1061/%28ASCE%290887-3828%282006%2920%3A1%2884%29"
+  },
+  {
+   "titulo": "Open University — The Silver Bridge disaster: the collapse",
+   "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-and-technology/engineering/the-silver-bridge-disaster-the-collapse"
+  },
+  {
+   "titulo": "NPR — Earlier disaster led to focus on bridge safety",
+   "url": "https://www.npr.org/2007/08/02/12449979/earlier-disaster-led-to-focus-on-bridge-safety"
+  },
+  {
+   "titulo": "FHWA — National Bridge Inspection Standards",
+   "url": "https://www.fhwa.dot.gov/pressroom/fhwa1721.cfm"
+  },
+  {
+   "titulo": "MPR News — NTSB final report: bad design, plus added weight, led to bridge collapse",
+   "url": "https://www.mprnews.org/story/2008/11/12/ntsb-final-report-bad-design-plus-added-weight-led-to-bridge-collapse"
+  },
+  {
+   "titulo": "ENR — NTSB cites gussets and loads in collapse",
+   "url": "https://enr.com/articles/4446-ntsb-cites-gussets-and-loads-in-collapse"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Pontes que caíram: o que cada desastre nos ensinou",
+   "A ponte que dançou até cair — e o que mudou depois",
+   "Por que a segurança das pontes foi escrita com tragédias?"
+  ],
+  "descricao": "Quatro pontes que caíram — Tacoma Narrows (1940), Quebec (1907), Silver Bridge (1967) e I-35W (2007) — e as regras de engenharia que nasceram de cada uma.\n\n0:00 Gancho: a ponte que ondulava\n0:30 A promessa\n1:00 Capítulo 1 — Tacoma Narrows e o vento\n3:20 Capítulo 2 — Ponte de Quebec e a responsabilidade\n5:00 Capítulo 3 — Silver Bridge e a inspeção\n6:40 Capítulo 4 — I-35W e as placas de ligação\n7:45 O que os desastres nos ensinam\n\nFontes: Wikipedia (Tacoma Narrows Bridge 1940), Live Science, The Canadian Encyclopedia, Pearson & Delatte (ASCE, 2006), Open University, NPR, FHWA, MPR News/NTSB, ENR.",
+  "tags": [
+   "pontes que caíram",
+   "Tacoma Narrows",
+   "Galloping Gertie",
+   "engenharia",
+   "Ponte de Quebec",
+   "Silver Bridge",
+   "I-35W",
+   "NTSB",
+   "desastres de engenharia",
+   "história da engenharia",
+   "inspeção de pontes",
+   "Inova mundo"
+  ]
  }
 }

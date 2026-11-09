@@ -1,0 +1,191 @@
+{
+  "titulo": "O mistério das pontes que caíram e ensinaram",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Tacoma Narrows Bridge (1940) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)" },
+    { "titulo": "Live Science — Tacoma Narrows Bridge collapses, Nov. 7, 1940", "url": "https://www.livescience.com/technology/engineering/science-history-the-tacoma-narrows-bridge-collapses-forcing-a-complete-rethink-in-structural-engineering-nov-7-1940" },
+    { "titulo": "The Canadian Encyclopedia — Quebec Bridge disaster", "url": "https://thecanadianencyclopedia.ca/en/article/quebec-bridge-disaster-feature" },
+    { "titulo": "Pearson & Delatte — Collapse of the Quebec Bridge, 1907 (ASCE)", "url": "https://ascelibrary.com/doi/10.1061/%28ASCE%290887-3828%282006%2920%3A1%2884%29" },
+    { "titulo": "Open University — The Silver Bridge disaster: the collapse", "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-and-technology/engineering/the-silver-bridge-disaster-the-collapse" },
+    { "titulo": "NPR — Earlier disaster led to focus on bridge safety", "url": "https://www.npr.org/2007/08/02/12449979/earlier-disaster-led-to-focus-on-bridge-safety" },
+    { "titulo": "FHWA — National Bridge Inspection Standards", "url": "https://www.fhwa.dot.gov/pressroom/fhwa1721.cfm" },
+    { "titulo": "MPR News — NTSB final report: bad design, plus added weight, led to bridge collapse", "url": "https://www.mprnews.org/story/2008/11/12/ntsb-final-report-bad-design-plus-added-weight-led-to-bridge-collapse" },
+    { "titulo": "ENR — NTSB cites gussets and loads in collapse", "url": "https://enr.com/articles/4446-ntsb-cites-gussets-and-loads-in-collapse" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "Pontes que caíram: o que cada desastre nos ensinou",
+      "A ponte que dançou até cair — e o que mudou depois",
+      "Por que a segurança das pontes foi escrita com tragédias?"
+    ],
+    "descricao": "Quatro pontes que caíram — Tacoma Narrows (1940), Quebec (1907), Silver Bridge (1967) e I-35W (2007) — e as regras de engenharia que nasceram de cada uma.\n\n0:00 Gancho: a ponte que ondulava\n0:30 A promessa\n1:00 Capítulo 1 — Tacoma Narrows e o vento\n3:20 Capítulo 2 — Ponte de Quebec e a responsabilidade\n5:00 Capítulo 3 — Silver Bridge e a inspeção\n6:40 Capítulo 4 — I-35W e as placas de ligação\n7:45 O que os desastres nos ensinam\n\nFontes: Wikipedia (Tacoma Narrows Bridge 1940), Live Science, The Canadian Encyclopedia, Pearson & Delatte (ASCE, 2006), Open University, NPR, FHWA, MPR News/NTSB, ENR.",
+    "tags": ["pontes que caíram", "Tacoma Narrows", "Galloping Gertie", "engenharia", "Ponte de Quebec", "Silver Bridge", "I-35W", "NTSB", "desastres de engenharia", "história da engenharia", "inspeção de pontes", "Inova mundo"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Novembro de 1940. Um homem abandona o carro no meio de uma ponte que ondula como uma fita. Dentro do carro, ficou um cachorro. Quatro meses antes, aquela ponte tinha sido inaugurada com festa. Agora, o aço dobrava feito borracha. Ninguém morreu naquele dia, só o cachorro. E é por causa dessa queda que hoje você atravessa pontes sem pensar nelas.",
+      "galeria": ["tacoma-ondulando", "tacoma-carro", "tacoma-inauguracao", "tacoma-vao-quebrado", "tacoma-hoje"],
+      "galeriaEm": [0, "Dentro", "Quatro", "Agora", "hoje"],
+      "fontes": ["Tacoma Narrows, 1940"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "TACOMA NARROWS, 1940", "sub": "Washington, EUA", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "promessa",
+      "texto": "Esta é a história de pontes que caíram e do que cada queda ensinou. Quatro casos, em quatro épocas, com um padrão que se repete: o erro aparece, as pessoas pagam, e uma regra nova nasce. No fim, você vai entender por que a segurança que existe hoje foi escrita, quase sempre, depois de uma tragédia. E por que a pior ponte é aquela que ninguém sabe que está falhando.",
+      "galeria": ["ponte-golden-gate", "ponte-brooklyn", "ponte-rio-niteroi", "ponte-corroida"],
+      "galeriaEm": [0, "padrão", "segurança", "pior"],
+      "fontes": [],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1940", "Tacoma Narrows"], ["1907", "Quebec"], ["1967", "Silver Bridge"], ["2007", "I-35W"]], "em": "Quatro", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "tacoma-ponte",
+      "texto": "A Tacoma Narrows, no estado de Washington, nos Estados Unidos, foi aberta em primeiro de julho de 1940. Era a terceira maior ponte pênsil do mundo, com oitocentos e cinquenta e três metros de vão central. Para economizar, os projetistas trocaram as vigas treliçadas por vigas laterais de alma cheia, de dois metros e meio de altura, muito mais finas e baratas. Resultado: uma ponte esbelta e elegante, mas que funcionava como uma vela diante do vento.",
+      "galeria": ["tacoma-estreito", "tacoma-pronta", "tacoma-torres", "tacoma-vigas", "tacoma-tabuleiro"],
+      "galeriaEm": [0, "terceira", "oitocentos", "Para", "Resultado"],
+      "fontes": ["Wikipedia", "Live Science"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAPÍTULO 1: O VENTO", "sub": "Tacoma Narrows, 1940", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 853, "unidade": "m", "rotulo": "Vão central", "em": "oitocentos", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "tacoma-gertie",
+      "texto": "Desde a abertura, o tabuleiro balançava, mesmo com pouco vento. Os motoristas passaram a chamá-la de Galloping Gertie, algo como Gertie Galopante. Havia quem fosse até lá só pelo frio na barriga, como numa montanha-russa. Engenheiros tentaram amarrar cabos e instalar amortecedores, mas nada resolveu. Um professor da Universidade de Washington, Frederick Farquharson, foi contratado para testar um modelo no túnel de vento. Na manhã de sete de novembro, um vento de uns sessenta e oito quilômetros por hora fez o que o ar calmo não fez.",
+      "galeria": ["tacoma-ondas", "tacoma-gertie", "tacoma-visitantes", "tacoma-cabos", "tacoma-modelo", "tacoma-vento"],
+      "galeriaEm": [0, "Galloping", "Havia", "Engenheiros", "Farquharson", "manhã"],
+      "fontes": ["Wikipedia", "Live Science"],
+      "elementos": []
+    },
+    {
+      "id": "tacoma-queda",
+      "texto": "Às dez da manhã, a oscilação mudou de natureza. Em vez de subir e descer, a ponte começou a torcer: um lado do tabuleiro subia enquanto o outro descia. O motorista Leonard Coatsworth tentou atravessar de carro, desistiu e saiu a pé. O cachorro dele, Tubby, não quis sair do carro. Pouco depois, o vão central se partiu e caiu na água de Puget Sound. Muita gente diz que foi ressonância, mas essa explicação é simplificada demais. O que aconteceu foi flutter aeroelástico: o vento e a estrutura se alimentando um do outro, até o limite.",
+      "galeria": ["tacoma-torcao", "tacoma-inclinada", "tacoma-motorista", "tacoma-pedaco", "tacoma-agua", "tacoma-flutter"],
+      "galeriaEm": [0, "subia", "Leonard", "Pouco", "água", "flutter"],
+      "fontes": ["Live Science", "Wikipedia"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "FLUTTER AEROELÁSTICO", "significado": "O vento e a estrutura se reforçam mutuamente", "em": "flutter", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "tacoma-licao",
+      "texto": "O desastre deu um recado: grandes pontes sofrem não só com peso, mas também com vento. Depois de 1940, o túnel de vento virou prática para pontes de grande vão: modelos em escala são testados antes da construção. Os tabuleiros ganharam formas aerodinâmicas, mais rigidez à torção e vigas vazadas. A ponte nova, aberta em 1950, já nasceu assim. Mas a história das pontes que caíram começa bem antes. E uma delas matou setenta e cinco pessoas.",
+      "galeria": ["tacoma-restos", "tunel-vento", "ponte-great-belt", "tacoma-1950", "ponte-akashi"],
+      "galeriaEm": [0, "túnel", "aerodinâmicas", "1950", "antes"],
+      "fontes": ["Live Science"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A LIÇÃO: TESTAR O VENTO", "sub": "Túnel de vento", "em": "túnel", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "quebec-projeto",
+      "texto": "Voltamos a 1907, no Canadá. Sobre o rio São Lourenço, perto da cidade de Quebec, construía-se a maior ponte em balanço do mundo, com quinhentos e quarenta e nove metros de vão. O engenheiro consultor, Theodore Cooper, um nome respeitado, acompanhava tudo de longe. O vão tinha sido alargado em relação ao projeto original, e o peso da própria estrutura foi subestimado, sem que os cálculos fossem refeitos. Esse detalhe parecia pequeno. Não era.",
+      "galeria": ["quebec-mapa", "quebec-obra", "cooper", "quebec-braco", "quebec-aco"],
+      "galeriaEm": [0, "maior", "Theodore", "alargado", "peso"],
+      "fontes": ["Canadian Encyclopedia", "Pearson & Delatte, ASCE"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAPÍTULO 2: RESPONSABILIDADE", "sub": "Ponte de Quebec, 1907", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "quebec-queda",
+      "texto": "No verão de 1907, as vigas de compressão começaram a entortar. Engenheiros no local notaram a deformação e avisaram Cooper, mas a obra continuou. No dia vinte e nove de agosto, perto do fim do expediente, a estrutura de aço desabou em segundos. Dos oitenta e seis operários na ponte, setenta e cinco morreram. Muitos eram indígenas mohawk, da reserva de Kahnawake, no Canadá. Foi um golpe enorme para a comunidade.",
+      "galeria": ["quebec-vigas", "quebec-colapso", "quebec-ruinas", "quebec-mohawk", "quebec-kahnawake"],
+      "galeriaEm": [0, "desabou", "operários", "Muitos", "comunidade"],
+      "fontes": ["Canadian Encyclopedia"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 75, "unidade": "mortos", "rotulo": "Quebec, 29 de agosto de 1907", "em": "setenta", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "quebec-comissao",
+      "texto": "Uma comissão real investigou e concluiu que não foi azar: foi erro de julgamento. Cooper e o projetista da empresa, Peter Szlapka, erraram nos cálculos de carga e não levaram a sério os sinais de alerta. A ponte foi refeita, e em 1916 falhou de novo, durante a montagem do vão central: treze operários morreram. Só em 1917 ela foi concluída. Ligado a esse desastre, surgiu também o Anel de Ferro, ritual criado em 1922 para lembrar os engenheiros canadenses de sua responsabilidade.",
+      "galeria": ["quebec-comissao", "quebec-phoenix", "quebec-1916", "quebec-pronta", "anel-ferro"],
+      "galeriaEm": [0, "Peter", "1916", "1917", "Anel"],
+      "fontes": ["Canadian Encyclopedia", "Pearson & Delatte, ASCE"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "ANEL DE FERRO", "significado": "Ritual canadense que lembra o engenheiro de sua responsabilidade", "em": "Anel", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "silver-ponte",
+      "texto": "Pulamos para 1967, nos Estados Unidos. A Silver Bridge ligava Point Pleasant, na Virgínia Ocidental, a Kanauga, em Ohio, sobre o rio Ohio. Tinha sido aberta em 1928 e era um modelo incomum: em vez de cabos de aço, usava correntes feitas de barras de aço com olhais, as eyebars. Em quinze de dezembro, no horário de pico, a ponte estava cheia de carros.",
+      "galeria": ["silver-bridge", "silver-mapa", "silver-1928", "silver-eyebars", "silver-trafego"],
+      "galeriaEm": [0, "Point", "Tinha", "correntes", "horário"],
+      "fontes": ["Open University", "NPR"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAPÍTULO 3: A INSPEÇÃO", "sub": "Silver Bridge, 1967", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "silver-queda",
+      "texto": "Em cerca de um minuto, a ponte inteira caiu no rio. Quarenta e seis pessoas morreram. A investigação achou a origem: uma única barra, a número trezentos e trinta, tinha uma rachadura de uns três milímetros, escondida dentro da junta. Com o tempo, corrosão e tensão fizeram essa trinca crescer até a barra partir de uma vez. E aqui está a parte que muda tudo: segundo o NTSB, nenhuma inspeção conhecida na época poderia ter visto o defeito sem desmontar a junta.",
+      "galeria": ["silver-queda", "silver-ruinas", "silver-barra330", "silver-junta", "silver-mergulhadores"],
+      "galeriaEm": [0, "Quarenta", "única", "corrosão", "inspeção"],
+      "fontes": ["NTSB", "Open University"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 46, "unidade": "mortos", "rotulo": "Silver Bridge, 15 de dezembro de 1967", "em": "Quarenta", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "silver-legado",
+      "texto": "O país descobriu que não sabia quantas pontes tinha nem em que estado estavam. Em 1968, o Congresso aprovou uma lei federal de rodovias que criou o programa nacional de inspeção de pontes. Em 1971, saíram as primeiras normas nacionais, exigindo inspeção periódica por profissionais treinados. Os estados passaram a manter um inventário de pontes. Mas ainda havia um ponto cego. E ele só apareceria quarenta anos depois.",
+      "galeria": ["silver-memorial", "capitolio", "inspetor", "fhwa", "silver-memorial-nova"],
+      "galeriaEm": [0, "Congresso", "inspeção", "inventário", "Mas"],
+      "fontes": ["FHWA", "NPR"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1968", "Lei federal de rodovias"], ["1971", "Normas nacionais de inspeção"]], "em": "1971", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "i35w-queda",
+      "texto": "Primeiro de agosto de 2007, Minneapolis, fim da tarde, hora do rush. A ponte da rodovia interestadual 35W, sobre o rio Mississippi, tinha quarenta anos e já estava classificada como estruturalmente deficiente, o que não indica risco iminente, e seguia aberta, sob inspeção regular. De repente, o vão central desabou. Treze pessoas morreram e cento e quarenta e cinco ficaram feridas. Havia obras na ponte, e material de construção sobre o tabuleiro.",
+      "galeria": ["minneapolis", "i35w-antes", "i35w-queda", "i35w-resgate", "i35w-obras"],
+      "galeriaEm": [0, "rodovia", "desabou", "Treze", "obras"],
+      "fontes": ["NTSB", "MPR News"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CAPÍTULO 4: O PONTO CEGO", "sub": "I-35W, Minneapolis, 2007", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "i35w-causa",
+      "texto": "Em novembro de 2008, o NTSB, órgão americano que investiga acidentes de transporte, apontou o motivo: as placas de ligação, as gusset plates, que unem as vigas da treliça. Em oito dos doze nós principais, elas tinham meia polegada, cerca de treze milímetros, metade do necessário. Foi erro de projeto, da empresa Sverdrup e Parcel, nos anos sessenta. A ponte também engordou com o tempo: camadas extras de concreto e, no dia, o peso das obras. E as inspeções simplesmente não olhavam essas placas com atenção.",
+      "galeria": ["ntsb", "i35w-gusset", "i35w-fratura", "i35w-concreto", "i35w-trelica"],
+      "galeriaEm": [0, "placas", "meia", "concreto", "inspeções"],
+      "fontes": ["NTSB", "ENR", "MPR News"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "GUSSET PLATE", "significado": "Placa de aço que liga as vigas de uma treliça", "em": "gusset", "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "i35w-legado",
+      "texto": "Em setembro de 2008, uma nova ponte foi aberta no mesmo lugar: a St. Anthony Falls Bridge. Depois do relatório, o governo federal orientou os estados a revisar placas de ligação em pontes parecidas e publicou um guia para calcular a capacidade delas. Cada desastre fechou uma lacuna que ninguém via.",
+      "galeria": ["st-anthony", "i35w-memorial", "mississippi", "fhwa-guia"],
+      "galeriaEm": [0, "relatório", "revisar", "Cada"],
+      "fontes": ["NTSB", "MPR News"],
+      "elementos": []
+    },
+    {
+      "id": "desfecho",
+      "texto": "Então, por que pontes que caem nos ensinam tanto? Porque um desastre documentado vira dado. Tacoma trouxe o vento para o cálculo. Quebec trouxe a responsabilidade do engenheiro. A Silver Bridge criou a inspeção nacional. A I-35W mostrou que revisar o que parece certo faz parte do trabalho. Essa não é uma história de azar. É a história de uma profissão que escreve suas regras com as lições mais caras que existem.",
+      "galeria": ["fim-tacoma", "fim-quebec", "fim-silver", "fim-i35w", "fim-inspecao"],
+      "galeriaEm": [0, "Quebec", "Silver", "I-35W", "Essa"],
+      "fontes": [],
+      "elementos": []
+    },
+    {
+      "id": "fecho",
+      "texto": "Toda ponte que você atravessa hoje carrega, escondida no cálculo, a memória de quem não voltou para casa.",
+      "galeria": ["millau", "hercilio-luz"],
+      "galeriaEm": [0, "escondida"],
+      "fontes": [],
+      "elementos": []
+    }
+  ]
+}
