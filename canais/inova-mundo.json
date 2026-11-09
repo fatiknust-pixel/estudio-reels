@@ -135,7 +135,9 @@
   {
    "titulo": "O mistério das pontes que caíram e ensinaram",
    "angulo": "Casos como Tacoma Narrows (1940) e como cada colapso mudou normas de engenharia. A tese é que desastres documentados produzem a segurança que temos hoje.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261109",
+   "em": "2026-11-09"
   },
   {
    "titulo": "O túnel que atravessa os Alpes por 57 km",
@@ -198,5 +200,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-08"
+ "ultimaGeracao": "2026-11-09"
 }
