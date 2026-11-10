@@ -142,7 +142,9 @@
   {
    "titulo": "O túnel que atravessa os Alpes por 57 km",
    "angulo": "Como o Túnel de Base de São Gotardo (aberto em 2016) foi escavado sob quase 2.300 m de rocha, o que fez a precisão do encontro das frentes e por que a Suíça decidiu fazê-lo plano. Foco nos desafios geológicos e na logística do entulho.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261110",
+   "em": "2026-11-10"
   },
   {
    "titulo": "Por que o Mar de Aral desapareceu?",
@@ -200,5 +202,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-09"
+ "ultimaGeracao": "2026-11-10"
 }
