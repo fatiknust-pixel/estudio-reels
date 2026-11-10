@@ -1,0 +1,148 @@
+{
+  "titulo": "O túnel que atravessa os Alpes por 57 km",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Wikipédia — Gotthard Base Tunnel", "url": "https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel" },
+    { "titulo": "Governo suíço — Final breakthrough of the longest railway tunnel in the world", "url": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-35644.html" },
+    { "titulo": "Railway Gazette — Breakthrough on world's longest railway tunnel", "url": "https://railwaygazette.com/infrastructure/breakthough-on-worlds-longest-railway-tunnel/35382.article" },
+    { "titulo": "AlpTransit Portal — Breakthrough in the Gotthard", "url": "https://www.alptransit-portal.ch/en/overview/construction/events/ereignis/breakthrough-in-the-gotthard" },
+    { "titulo": "Implenia — Sedrun tunnel, lot 360, AlpTransit Gotthard Base Tunnel", "url": "https://implenia.com/en/references/detail/ref/sedrun-tunnel-lot-360-alptransit-gotthard-base-tunnel/" },
+    { "titulo": "Tunnels & Tunnelling — reaproveitamento da rocha escavada", "url": "https://www.tunnelsandtunnelling.com/?p=1482" },
+    { "titulo": "Herrenknecht — World record at Gotthard", "url": "https://herrenknecht.com/en/newsroom/pressreleasedetail/world-record-at-gotthard" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "Como a Suíça furou os Alpes e errou só 8 cm",
+      "O túnel de 57 km sob 2.300 m de rocha: a história por trás",
+      "Por que o maior túnel do mundo é plano?"
+    ],
+    "descricao": "Como foi escavado o Túnel de Base de São Gotardo, na Suíça: por que a ferrovia precisava ser plana, o que a rocha fez para atrapalhar, para onde foram 28 milhões de toneladas de entulho e como duas frentes se encontraram no meio da montanha com 8 cm de desvio.\n\n0:00 Gancho\n0:32 Promessa\n1:02 Por que plano\n2:17 A rocha\n3:32 O entulho\n4:41 O preço\n5:21 A pontaria\n5:56 O encontro\n6:36 Desfecho\n\nFontes: Wikipédia (Gotthard Base Tunnel), governo suíço, Railway Gazette, AlpTransit Portal, Implenia, Tunnels & Tunnelling, Herrenknecht.",
+    "tags": ["túnel de base de São Gotardo", "Gotthard Base Tunnel", "maior túnel do mundo", "engenharia", "Suíça", "Alpes", "tuneladora", "ferrovia", "AlpTransit", "documentário de engenharia", "grandes obras", "tecnologia"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Dois mil e trezentos metros de montanha sobre a sua cabeça. Dentro dela, um trem a duzentos quilômetros por hora, sem subir, sem descer, quase sem curva. Em dois mil e dez, duas equipes cavaram uma contra a outra, vindas de lados opostos dos Alpes. Quando as brocas finalmente se encontraram, o erro era menor que a largura de uma mão. Como isso foi possível? E por que a Suíça exigiu que o túnel fosse plano?",
+      "galeria": ["g-portal-norte", "g-trem-tunel", "g-tbm-frente", "g-breakthrough", "g-mapa-alpes"],
+      "galeriaEm": [0, "trem", "duas", "brocas", "Como"],
+      "fontes": ["Governo suíço"],
+      "elementos": []
+    },
+    {
+      "id": "promessa",
+      "texto": "Esse é o Túnel de Base de São Gotardo, na Suíça. Cinquenta e sete quilômetros, o mais longo túnel ferroviário do mundo, inaugurado em dois mil e dezesseis. Nos próximos minutos, você vai ver três coisas: o que a rocha fez para atrapalhar a obra, para onde foram mais de vinte e oito milhões de toneladas de entulho, e como se acerta um encontro a quase trinta quilômetros de qualquer entrada. No fim, você entende por que plano era a única resposta.",
+      "galeria": ["p-mapa-suica", "p-esquema-tunel", "p-abertura-2016", "p-gnaisse", "p-entulho", "p-topografia"],
+      "galeriaEm": [0, "Cinquenta", "inaugurado", "rocha", "entulho", "encontro"],
+      "fontes": ["Wikipédia"],
+      "elementos": []
+    },
+    {
+      "id": "por-que-plano",
+      "texto": "A rota entre o norte e o sul da Europa sempre passou pelo São Gotardo. Em mil oitocentos e oitenta e dois, a ferrovia atravessou o maciço por um túnel de quinze quilômetros, a mais de mil metros de altitude. Para chegar lá, os trens subiam em espirais e curvas fechadas, enquanto crescia a fila de caminhões nas estradas. No fim do século vinte, a Suíça fez uma pergunta incômoda: e se, em vez de subir a montanha, a ferrovia passasse por baixo dela?",
+      "galeria": ["c1-passo", "c1-tunel-1882", "c1-wassen", "c1-caminhoes", "c1-parlamento"],
+      "galeriaEm": [0, "ferrovia", "espirais", "caminhões", "Suíça"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "POR QUE PLANO?", "sub": "CAPÍTULO 1", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "alptransit",
+      "texto": "Em mil novecentos e noventa e dois, os suíços aprovaram em votação a Alptransit, um plano de novos túneis nos Alpes. A ideia era simples e cara: uma linha plana, com subida máxima de menos de um por cento, que deixasse passar trem de carga pesado e trem de passageiros rápido, na mesma via. Quanto mais baixa a altitude, menos energia e menos locomotivas na frente. O ponto mais alto do túnel fica a quinhentos e quarenta e nove metros do nível do mar. Só que cavar plano significa cavar fundo. E fundo, nos Alpes, tem um preço.",
+      "galeria": ["c2-alptransit", "c2-carga", "c2-passageiros", "c2-locomotiva", "c2-perfil", "c2-alpes-uri"],
+      "galeriaEm": [0, "carga", "passageiros", "locomotivas", "quinhentos", "Alpes"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1882", "Túnel ferroviário"], ["1992", "Votação"], ["1999", "1ª explosão"], ["2016", "Inauguração"]], "em": "Quanto", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "a-rocha",
+      "texto": "O túnel corta rochas muito diferentes. Granito e gnaisse, duros como aço, onde as máquinas avançam bem. Mas há pontos em que a montanha tem sobre si mais de dois mil e trezentos metros de rocha, e o peso esmaga o que está dentro. A temperatura também sobe: perto de quarenta e cinco graus na rocha, o que exigiu ventilação e resfriamento. Antes de cavar, os engenheiros perfuraram sondagens por anos, para saber o que encontrariam. Uma zona assustava mais que todas: a de Piora.",
+      "galeria": ["r1-gnaisse", "r1-granito", "r1-vatgira", "r1-travessa", "r1-sondagem", "r1-piora"],
+      "galeriaEm": [0, "Granito", "peso", "temperatura", "sondagens", "Piora"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A ROCHA", "sub": "CAPÍTULO 2", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "sedrun",
+      "texto": "Em Piora, geólogos temiam uma dolomita fina como açúcar, encharcada de água sob pressão, capaz de inundar o túnel. As sondagens dos anos noventa mostraram rocha compacta e seca, e o traçado seguiu. O problema de verdade apareceu em Sedrun. Ali a rocha cede devagar sob o peso, como massa, e o túnel se fecha por conta própria, até setenta centímetros. Para chegar lá, a obra desceu por dois poços de oitocentos metros. E precisou de vinte mil toneladas de arcos de aço feitos para ceder, em vez de resistir.",
+      "galeria": ["r2-dolomita", "r2-nucleo", "r2-sedrun", "r2-poco", "r2-arcos"],
+      "galeriaEm": [0, "sondagens", "Sedrun", "poços", "arcos"],
+      "fontes": ["Implenia", "Wikipédia"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 70, "unidade": "cm", "rotulo": "Fechamento da rocha em Sedrun", "em": "setenta", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "o-entulho",
+      "texto": "Cavar um buraco desse tamanho cria uma montanha ao contrário. Foram vinte e oito milhões de toneladas de rocha, treze milhões de metros cúbicos, cerca de cinco vezes o volume da Grande Pirâmide de Gizé. Quatro tuneladoras de quatrocentos metros de comprimento mastigavam o maciço, e cada pedaço precisava sair pelo mesmo túnel que elas abriam. Entrada de equipamento, saída de rocha, ventilação, tudo no mesmo corredor, o tempo todo.",
+      "galeria": ["e1-tbm-gotardo", "e1-piramide", "e1-tbm-gabi", "e1-tbm-interior", "e1-ventilacao"],
+      "galeriaEm": [0, "pirâmide", "tuneladoras", "quatrocentos", "ventilação"],
+      "fontes": ["Wikipédia", "Herrenknecht"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O ENTULHO", "sub": "CAPÍTULO 3", "em": 0, "posicao": "topo" },
+        { "tipo": "contador", "de": 0, "ate": 28, "unidade": "mi t", "rotulo": "Rocha escavada", "em": "vinte", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "reaproveitamento",
+      "texto": "E o que fazer com tudo isso? Uma parte voltou para dentro do túnel. Cerca de um quinto da rocha, algo perto de vinte e dois por cento segundo as fontes, foi triturada e virou agregado do concreto que reveste as paredes. Usinas de britagem funcionaram em Amsteg, em Sedrun e em Bodio. A conta é boa: menos pedra comprada, menos caminhão rodando nos vales. Mas o resto, milhões de toneladas, precisava de outro destino. E nenhuma montanha aceita receber outra montanha em silêncio.",
+      "galeria": ["e2-amsteg", "e2-concreto", "e2-bodio", "e2-britagem", "e2-vale"],
+      "galeriaEm": [0, "concreto", "Bodio", "triturada", "vales"],
+      "fontes": ["Tunnels & Tunnelling"],
+      "elementos": []
+    },
+    {
+      "id": "o-preco",
+      "texto": "A primeira explosão foi em novembro de mil novecentos e noventa e nove. As tuneladoras só entraram em ação a partir de dois mil e três, e em boa parte do trajeto a obra seguiu com explosivos, metro a metro. Ao todo, nove operários morreram durante a construção, e o custo final chegou a doze vírgula dois bilhões de francos suíços. Era dinheiro de impostos e de votos, e uma pergunta ficava no ar: valia a pena cavar tão fundo, e tão reto?",
+      "galeria": ["v1-obra", "v1-tbm-faido", "v1-perfuracao", "v1-operarios", "v1-franco", "v1-faido"],
+      "galeriaEm": [0, "tuneladoras", "explosivos", "operários", "francos", "valia"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O PREÇO", "sub": "CAPÍTULO 4", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "a-pontaria",
+      "texto": "Agora, o maior desafio de pontaria. Duas frentes avançavam uma em direção à outra, e nenhuma enxergava a outra. A única referência vinha da superfície, onde uma rede de pontos medidos com precisão guiava a obra, e dos poços de Sedrun, por onde a medida descia até o fundo. Qualquer erro minúsculo, repetido em dezenas de quilômetros, viraria um desvio de metros. Por isso as medições eram refeitas e conferidas muitas vezes, por equipes diferentes. Faltava saber se isso bastava.",
+      "galeria": ["t1-teodolito", "t1-secoes", "t1-massivo", "t1-estacao-faido", "t1-equipe"],
+      "galeriaEm": [0, "frentes", "superfície", "poços", "equipes"],
+      "fontes": ["AlpTransit"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A PONTARIA", "sub": "CAPÍTULO 5", "em": 0, "posicao": "topo" }
+      ]
+    },
+    {
+      "id": "o-encontro",
+      "texto": "Quinze de outubro de dois mil e dez, uma sexta-feira. A tuneladora avançou pelos últimos metros de rocha entre Sedrun e Faido, a cerca de trinta quilômetros da entrada sul. Então o disco de corte rompeu a parede e a luz passou. Os topógrafos mediram: oito centímetros de desvio na horizontal e um centímetro na vertical. Em cinquenta e sete quilômetros de montanha, menos que a largura de uma mão. O tubo oeste seria concluído em março de dois mil e onze.",
+      "galeria": ["b1-data", "b1-cabeca", "b1-medicao", "b1-comemoracao", "b1-tubo-oeste", "b1-maos"],
+      "galeriaEm": [0, "tuneladora", "disco", "topógrafos", "oeste", "Em"],
+      "fontes": ["Governo suíço", "Railway Gazette"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 8, "unidade": "cm", "rotulo": "Desvio horizontal", "em": "oito", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "Voltemos ao gancho. Por que plano? Porque a Suíça quis que a montanha deixasse de ser obstáculo e virasse atalho. Com a linha baixa e reta, o trem de passageiros cruza a cerca de duzentos quilômetros por hora, e a carga pesada ganha uma rota sem as subidas do passado, tirando caminhões das estradas dos Alpes. Em primeiro de junho de dois mil e dezesseis, o túnel foi inaugurado, e em dezembro começaram os serviços regulares. Em dois mil e vinte e três, um descarrilamento de trem de carga o fechou por mais de um ano, uma lembrança de que até a obra mais precisa depende de manutenção.",
+      "galeria": ["d1-inauguracao", "d1-giruno", "d1-a2", "d1-erstfeld", "d1-descarrilamento", "d1-manutencao"],
+      "galeriaEm": [0, "passageiros", "estradas", "dezembro", "descarrilamento", "manutenção"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["2016", "Inauguração"], ["2023", "Descarrilamento"], ["2024", "Reabertura total"]], "em": "descarrilamento", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "fecho",
+      "texto": "No fim, o túnel de São Gotardo não é só um furo na montanha. É a prova de que dá para planejar por décadas, errar por centímetros e, mesmo assim, chegar ao outro lado. Às vezes, a engenharia mais impressionante é a que ninguém vê, enquanto o trem simplesmente passa.",
+      "galeria": ["f1-saida", "f1-alpes", "f1-paisagem"],
+      "galeriaEm": [0, "décadas", "ninguém"],
+      "elementos": []
+    }
+  ]
+}

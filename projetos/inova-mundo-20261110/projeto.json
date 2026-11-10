@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-10T17:38:27.921Z",
- "atualizadoEm": "2026-11-10T17:38:27.921Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-10T17:47:45Z",
+ "status": "pronto",
  "pedido": {
   "tema": "O túnel que atravessa os Alpes por 57 km — ângulo: Como o Túnel de Base de São Gotardo (aberto em 2016) foi escavado sob quase 2.300 m de rocha, o que fez a precisão do encontro das frentes e por que a Suíça decidiu fazê-lo plano. Foco nos desafios geológicos e na logística do entulho.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,6669 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Dois mil e trezentos metros de montanha sobre a sua cabeça. Dentro dela, um trem a duzentos quilômetros por hora, sem subir, sem descer, quase sem curva. Em dois mil e dez, duas equipes cavaram uma contra a outra, vindas de lados opostos dos Alpes. Quando as brocas finalmente se encontraram, o erro era menor que a largura de uma mão. Como isso foi possível? E por que a Suíça exigiu que o túnel fosse plano?",
+   "galeria": [
+    "g-portal-norte",
+    "g-trem-tunel",
+    "g-tbm-frente",
+    "g-breakthrough",
+    "g-mapa-alpes"
+   ],
+   "galeriaEm": [
+    0,
+    "trem",
+    "duas",
+    "brocas",
+    "Como"
+   ],
+   "fontes": [
+    "Governo suíço"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "promessa",
+   "texto": "Esse é o Túnel de Base de São Gotardo, na Suíça. Cinquenta e sete quilômetros, o mais longo túnel ferroviário do mundo, inaugurado em dois mil e dezesseis. Nos próximos minutos, você vai ver três coisas: o que a rocha fez para atrapalhar a obra, para onde foram mais de vinte e oito milhões de toneladas de entulho, e como se acerta um encontro a quase trinta quilômetros de qualquer entrada. No fim, você entende por que plano era a única resposta.",
+   "galeria": [
+    "p-mapa-suica",
+    "p-esquema-tunel",
+    "p-abertura-2016",
+    "p-gnaisse",
+    "p-entulho",
+    "p-topografia"
+   ],
+   "galeriaEm": [
+    0,
+    "Cinquenta",
+    "inaugurado",
+    "rocha",
+    "entulho",
+    "encontro"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "por-que-plano",
+   "texto": "A rota entre o norte e o sul da Europa sempre passou pelo São Gotardo. Em mil oitocentos e oitenta e dois, a ferrovia atravessou o maciço por um túnel de quinze quilômetros, a mais de mil metros de altitude. Para chegar lá, os trens subiam em espirais e curvas fechadas, enquanto crescia a fila de caminhões nas estradas. No fim do século vinte, a Suíça fez uma pergunta incômoda: e se, em vez de subir a montanha, a ferrovia passasse por baixo dela?",
+   "galeria": [
+    "c1-passo",
+    "c1-tunel-1882",
+    "c1-wassen",
+    "c1-caminhoes",
+    "c1-parlamento"
+   ],
+   "galeriaEm": [
+    0,
+    "ferrovia",
+    "espirais",
+    "caminhões",
+    "Suíça"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "POR QUE PLANO?",
+     "sub": "CAPÍTULO 1",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "alptransit",
+   "texto": "Em mil novecentos e noventa e dois, os suíços aprovaram em votação a Alptransit, um plano de novos túneis nos Alpes. A ideia era simples e cara: uma linha plana, com subida máxima de menos de um por cento, que deixasse passar trem de carga pesado e trem de passageiros rápido, na mesma via. Quanto mais baixa a altitude, menos energia e menos locomotivas na frente. O ponto mais alto do túnel fica a quinhentos e quarenta e nove metros do nível do mar. Só que cavar plano significa cavar fundo. E fundo, nos Alpes, tem um preço.",
+   "galeria": [
+    "c2-alptransit",
+    "c2-carga",
+    "c2-passageiros",
+    "c2-locomotiva",
+    "c2-perfil",
+    "c2-alpes-uri"
+   ],
+   "galeriaEm": [
+    0,
+    "carga",
+    "passageiros",
+    "locomotivas",
+    "quinhentos",
+    "Alpes"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1882",
+       "Túnel ferroviário"
+      ],
+      [
+       "1992",
+       "Votação"
+      ],
+      [
+       "1999",
+       "1ª explosão"
+      ],
+      [
+       "2016",
+       "Inauguração"
+      ]
+     ],
+     "em": "Quanto",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "a-rocha",
+   "texto": "O túnel corta rochas muito diferentes. Granito e gnaisse, duros como aço, onde as máquinas avançam bem. Mas há pontos em que a montanha tem sobre si mais de dois mil e trezentos metros de rocha, e o peso esmaga o que está dentro. A temperatura também sobe: perto de quarenta e cinco graus na rocha, o que exigiu ventilação e resfriamento. Antes de cavar, os engenheiros perfuraram sondagens por anos, para saber o que encontrariam. Uma zona assustava mais que todas: a de Piora.",
+   "galeria": [
+    "r1-gnaisse",
+    "r1-granito",
+    "r1-vatgira",
+    "r1-travessa",
+    "r1-sondagem",
+    "r1-piora"
+   ],
+   "galeriaEm": [
+    0,
+    "Granito",
+    "peso",
+    "temperatura",
+    "sondagens",
+    "Piora"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A ROCHA",
+     "sub": "CAPÍTULO 2",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "sedrun",
+   "texto": "Em Piora, geólogos temiam uma dolomita fina como açúcar, encharcada de água sob pressão, capaz de inundar o túnel. As sondagens dos anos noventa mostraram rocha compacta e seca, e o traçado seguiu. O problema de verdade apareceu em Sedrun. Ali a rocha cede devagar sob o peso, como massa, e o túnel se fecha por conta própria, até setenta centímetros. Para chegar lá, a obra desceu por dois poços de oitocentos metros. E precisou de vinte mil toneladas de arcos de aço feitos para ceder, em vez de resistir.",
+   "galeria": [
+    "r2-dolomita",
+    "r2-nucleo",
+    "r2-sedrun",
+    "r2-poco",
+    "r2-arcos"
+   ],
+   "galeriaEm": [
+    0,
+    "sondagens",
+    "Sedrun",
+    "poços",
+    "arcos"
+   ],
+   "fontes": [
+    "Implenia",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 70,
+     "unidade": "cm",
+     "rotulo": "Fechamento da rocha em Sedrun",
+     "em": "setenta",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "o-entulho",
+   "texto": "Cavar um buraco desse tamanho cria uma montanha ao contrário. Foram vinte e oito milhões de toneladas de rocha, treze milhões de metros cúbicos, cerca de cinco vezes o volume da Grande Pirâmide de Gizé. Quatro tuneladoras de quatrocentos metros de comprimento mastigavam o maciço, e cada pedaço precisava sair pelo mesmo túnel que elas abriam. Entrada de equipamento, saída de rocha, ventilação, tudo no mesmo corredor, o tempo todo.",
+   "galeria": [
+    "e1-tbm-gotardo",
+    "e1-piramide",
+    "e1-tbm-gabi",
+    "e1-tbm-interior",
+    "e1-ventilacao"
+   ],
+   "galeriaEm": [
+    0,
+    "pirâmide",
+    "tuneladoras",
+    "quatrocentos",
+    "ventilação"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "Herrenknecht"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O ENTULHO",
+     "sub": "CAPÍTULO 3",
+     "em": 0,
+     "posicao": "topo"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 28,
+     "unidade": "mi t",
+     "rotulo": "Rocha escavada",
+     "em": "vinte",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "reaproveitamento",
+   "texto": "E o que fazer com tudo isso? Uma parte voltou para dentro do túnel. Cerca de um quinto da rocha, algo perto de vinte e dois por cento segundo as fontes, foi triturada e virou agregado do concreto que reveste as paredes. Usinas de britagem funcionaram em Amsteg, em Sedrun e em Bodio. A conta é boa: menos pedra comprada, menos caminhão rodando nos vales. Mas o resto, milhões de toneladas, precisava de outro destino. E nenhuma montanha aceita receber outra montanha em silêncio.",
+   "galeria": [
+    "e2-amsteg",
+    "e2-concreto",
+    "e2-bodio",
+    "e2-britagem",
+    "e2-vale"
+   ],
+   "galeriaEm": [
+    0,
+    "concreto",
+    "Bodio",
+    "triturada",
+    "vales"
+   ],
+   "fontes": [
+    "Tunnels & Tunnelling"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "o-preco",
+   "texto": "A primeira explosão foi em novembro de mil novecentos e noventa e nove. As tuneladoras só entraram em ação a partir de dois mil e três, e em boa parte do trajeto a obra seguiu com explosivos, metro a metro. Ao todo, nove operários morreram durante a construção, e o custo final chegou a doze vírgula dois bilhões de francos suíços. Era dinheiro de impostos e de votos, e uma pergunta ficava no ar: valia a pena cavar tão fundo, e tão reto?",
+   "galeria": [
+    "v1-obra",
+    "v1-tbm-faido",
+    "v1-perfuracao",
+    "v1-operarios",
+    "v1-franco",
+    "v1-faido"
+   ],
+   "galeriaEm": [
+    0,
+    "tuneladoras",
+    "explosivos",
+    "operários",
+    "francos",
+    "valia"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O PREÇO",
+     "sub": "CAPÍTULO 4",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "a-pontaria",
+   "texto": "Agora, o maior desafio de pontaria. Duas frentes avançavam uma em direção à outra, e nenhuma enxergava a outra. A única referência vinha da superfície, onde uma rede de pontos medidos com precisão guiava a obra, e dos poços de Sedrun, por onde a medida descia até o fundo. Qualquer erro minúsculo, repetido em dezenas de quilômetros, viraria um desvio de metros. Por isso as medições eram refeitas e conferidas muitas vezes, por equipes diferentes. Faltava saber se isso bastava.",
+   "galeria": [
+    "t1-teodolito",
+    "t1-secoes",
+    "t1-massivo",
+    "t1-estacao-faido",
+    "t1-equipe"
+   ],
+   "galeriaEm": [
+    0,
+    "frentes",
+    "superfície",
+    "poços",
+    "equipes"
+   ],
+   "fontes": [
+    "AlpTransit"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A PONTARIA",
+     "sub": "CAPÍTULO 5",
+     "em": 0,
+     "posicao": "topo"
+    }
+   ]
+  },
+  {
+   "id": "o-encontro",
+   "texto": "Quinze de outubro de dois mil e dez, uma sexta-feira. A tuneladora avançou pelos últimos metros de rocha entre Sedrun e Faido, a cerca de trinta quilômetros da entrada sul. Então o disco de corte rompeu a parede e a luz passou. Os topógrafos mediram: oito centímetros de desvio na horizontal e um centímetro na vertical. Em cinquenta e sete quilômetros de montanha, menos que a largura de uma mão. O tubo oeste seria concluído em março de dois mil e onze.",
+   "galeria": [
+    "b1-data",
+    "b1-cabeca",
+    "b1-medicao",
+    "b1-comemoracao",
+    "b1-tubo-oeste",
+    "b1-maos"
+   ],
+   "galeriaEm": [
+    0,
+    "tuneladora",
+    "disco",
+    "topógrafos",
+    "oeste",
+    "Em"
+   ],
+   "fontes": [
+    "Governo suíço",
+    "Railway Gazette"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 8,
+     "unidade": "cm",
+     "rotulo": "Desvio horizontal",
+     "em": "oito",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Voltemos ao gancho. Por que plano? Porque a Suíça quis que a montanha deixasse de ser obstáculo e virasse atalho. Com a linha baixa e reta, o trem de passageiros cruza a cerca de duzentos quilômetros por hora, e a carga pesada ganha uma rota sem as subidas do passado, tirando caminhões das estradas dos Alpes. Em primeiro de junho de dois mil e dezesseis, o túnel foi inaugurado, e em dezembro começaram os serviços regulares. Em dois mil e vinte e três, um descarrilamento de trem de carga o fechou por mais de um ano, uma lembrança de que até a obra mais precisa depende de manutenção.",
+   "galeria": [
+    "d1-inauguracao",
+    "d1-giruno",
+    "d1-a2",
+    "d1-erstfeld",
+    "d1-descarrilamento",
+    "d1-manutencao"
+   ],
+   "galeriaEm": [
+    0,
+    "passageiros",
+    "estradas",
+    "dezembro",
+    "descarrilamento",
+    "manutenção"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "2016",
+       "Inauguração"
+      ],
+      [
+       "2023",
+       "Descarrilamento"
+      ],
+      [
+       "2024",
+       "Reabertura total"
+      ]
+     ],
+     "em": "descarrilamento",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "texto": "No fim, o túnel de São Gotardo não é só um furo na montanha. É a prova de que dá para planejar por décadas, errar por centímetros e, mesmo assim, chegar ao outro lado. Às vezes, a engenharia mais impressionante é a que ninguém vê, enquanto o trem simplesmente passa.",
+   "galeria": [
+    "f1-saida",
+    "f1-alpes",
+    "f1-paisagem"
+   ],
+   "galeriaEm": [
+    0,
+    "décadas",
+    "ninguém"
+   ],
+   "fontes": [],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "bccc4b3de9",
+   "texto": "Dois mil e trezentos metros de montanha sobre a sua cabeça. Dentro dela, um trem a duzentos quilômetros por hora, sem subir, sem descer, quase sem curva. Em dois mil e dez, duas equipes cavaram uma contra a outra, vindas de lados opostos dos Alpes. Quando as brocas finalmente se encontraram, o erro era menor que a largura de uma mão. Como isso foi possível? E por que a Suíça exigiu que o túnel fosse plano?",
+   "audio": "audio/gancho-bccc4b3de9.mp3",
+   "duracao": 27.468,
+   "palavras": [
+    {
+     "p": "Dois",
+     "i": 0.102,
+     "f": 0.402
+    },
+    {
+     "p": "mil",
+     "i": 0.415,
+     "f": 0.532
+    },
+    {
+     "p": "e",
+     "i": 0.545,
+     "f": 0.584
+    },
+    {
+     "p": "trezentos",
+     "i": 0.597,
+     "f": 1.131
+    },
+    {
+     "p": "metros",
+     "i": 1.144,
+     "f": 1.56
+    },
+    {
+     "p": "de",
+     "i": 1.573,
+     "f": 1.639
+    },
+    {
+     "p": "montanha",
+     "i": 1.652,
+     "f": 2.185
+    },
+    {
+     "p": "sobre",
+     "i": 2.198,
+     "f": 2.459
+    },
+    {
+     "p": "a",
+     "i": 2.472,
+     "f": 2.511
+    },
+    {
+     "p": "sua",
+     "i": 2.524,
+     "f": 2.823
+    },
+    {
+     "p": "cabeça",
+     "i": 2.836,
+     "f": 3.409
+    },
+    {
+     "p": "Dentro",
+     "i": 3.691,
+     "f": 4.108
+    },
+    {
+     "p": "dela",
+     "i": 4.121,
+     "f": 4.485
+    },
+    {
+     "p": "um",
+     "i": 4.733,
+     "f": 4.915
+    },
+    {
+     "p": "trem",
+     "i": 4.928,
+     "f": 5.202
+    },
+    {
+     "p": "a",
+     "i": 5.215,
+     "f": 5.28
+    },
+    {
+     "p": "duzentos",
+     "i": 5.293,
+     "f": 5.84
+    },
+    {
+     "p": "quilômetros",
+     "i": 5.853,
+     "f": 6.465
+    },
+    {
+     "p": "por",
+     "i": 6.478,
+     "f": 6.673
+    },
+    {
+     "p": "hora",
+     "i": 6.686,
+     "f": 6.959
+    },
+    {
+     "p": "sem",
+     "i": 7.311,
+     "f": 7.558
+    },
+    {
+     "p": "subir",
+     "i": 7.571,
+     "f": 8.014
+    },
+    {
+     "p": "sem",
+     "i": 8.326,
+     "f": 8.522
+    },
+    {
+     "p": "descer",
+     "i": 8.535,
+     "f": 9.004
+    },
+    {
+     "p": "quase",
+     "i": 9.212,
+     "f": 9.616
+    },
+    {
+     "p": "sem",
+     "i": 9.629,
+     "f": 9.863
+    },
+    {
+     "p": "curva",
+     "i": 9.876,
+     "f": 10.332
+    },
+    {
+     "p": "Em",
+     "i": 10.614,
+     "f": 10.757
+    },
+    {
+     "p": "dois",
+     "i": 10.77,
+     "f": 11.018
+    },
+    {
+     "p": "mil",
+     "i": 11.031,
+     "f": 11.148
+    },
+    {
+     "p": "e",
+     "i": 11.161,
+     "f": 11.226
+    },
+    {
+     "p": "dez",
+     "i": 11.239,
+     "f": 11.682
+    },
+    {
+     "p": "duas",
+     "i": 11.968,
+     "f": 12.242
+    },
+    {
+     "p": "equipes",
+     "i": 12.255,
+     "f": 12.815
+    },
+    {
+     "p": "cavaram",
+     "i": 12.828,
+     "f": 13.244
+    },
+    {
+     "p": "uma",
+     "i": 13.257,
+     "f": 13.427
+    },
+    {
+     "p": "contra",
+     "i": 13.44,
+     "f": 13.765
+    },
+    {
+     "p": "a",
+     "i": 13.778,
+     "f": 13.83
+    },
+    {
+     "p": "outra",
+     "i": 13.843,
+     "f": 14.182
+    },
+    {
+     "p": "vindas",
+     "i": 14.481,
+     "f": 14.859
+    },
+    {
+     "p": "de",
+     "i": 14.872,
+     "f": 14.976
+    },
+    {
+     "p": "lados",
+     "i": 14.989,
+     "f": 15.341
+    },
+    {
+     "p": "opostos",
+     "i": 15.354,
+     "f": 15.966
+    },
+    {
+     "p": "dos",
+     "i": 15.979,
+     "f": 16.096
+    },
+    {
+     "p": "Alpes",
+     "i": 16.109,
+     "f": 16.669
+    },
+    {
+     "p": "Quando",
+     "i": 16.951,
+     "f": 17.198
+    },
+    {
+     "p": "as",
+     "i": 17.211,
+     "f": 17.342
+    },
+    {
+     "p": "brocas",
+     "i": 17.355,
+     "f": 17.837
+    },
+    {
+     "p": "finalmente",
+     "i": 17.85,
+     "f": 18.435
+    },
+    {
+     "p": "se",
+     "i": 18.448,
+     "f": 18.54
+    },
+    {
+     "p": "encontraram",
+     "i": 18.553,
+     "f": 19.165
+    },
+    {
+     "p": "o",
+     "i": 19.477,
+     "f": 19.581
+    },
+    {
+     "p": "erro",
+     "i": 19.594,
+     "f": 19.816
+    },
+    {
+     "p": "era",
+     "i": 19.829,
+     "f": 19.998
+    },
+    {
+     "p": "menor",
+     "i": 20.011,
+     "f": 20.454
+    },
+    {
+     "p": "que",
+     "i": 20.467,
+     "f": 20.571
+    },
+    {
+     "p": "a",
+     "i": 20.584,
+     "f": 20.623
+    },
+    {
+     "p": "largura",
+     "i": 20.636,
+     "f": 21.157
+    },
+    {
+     "p": "de",
+     "i": 21.17,
+     "f": 21.261
+    },
+    {
+     "p": "uma",
+     "i": 21.274,
+     "f": 21.443
+    },
+    {
+     "p": "mão",
+     "i": 21.456,
+     "f": 21.756
+    },
+    {
+     "p": "Como",
+     "i": 22.038,
+     "f": 22.481
+    },
+    {
+     "p": "isso",
+     "i": 22.494,
+     "f": 22.806
+    },
+    {
+     "p": "foi",
+     "i": 22.819,
+     "f": 22.989
+    },
+    {
+     "p": "possível",
+     "i": 23.002,
+     "f": 23.679
+    },
+    {
+     "p": "E",
+     "i": 24.021,
+     "f": 24.151
+    },
+    {
+     "p": "por",
+     "i": 24.164,
+     "f": 24.373
+    },
+    {
+     "p": "que",
+     "i": 24.386,
+     "f": 24.542
+    },
+    {
+     "p": "a",
+     "i": 24.555,
+     "f": 24.633
+    },
+    {
+     "p": "Suíça",
+     "i": 24.646,
+     "f": 25.076
+    },
+    {
+     "p": "exigiu",
+     "i": 25.089,
+     "f": 25.492
+    },
+    {
+     "p": "que",
+     "i": 25.505,
+     "f": 25.61
+    },
+    {
+     "p": "o",
+     "i": 25.623,
+     "f": 25.714
+    },
+    {
+     "p": "túnel",
+     "i": 25.727,
+     "f": 26.039
+    },
+    {
+     "p": "fosse",
+     "i": 26.052,
+     "f": 26.365
+    },
+    {
+     "p": "plano",
+     "i": 26.378,
+     "f": 26.768
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "1de03894d2",
+   "texto": "Esse é o Túnel de Base de São Gotardo, na Suíça. Cinquenta e sete quilômetros, o mais longo túnel ferroviário do mundo, inaugurado em dois mil e dezesseis. Nos próximos minutos, você vai ver três coisas: o que a rocha fez para atrapalhar a obra, para onde foram mais de vinte e oito milhões de toneladas de entulho, e como se acerta um encontro a quase trinta quilômetros de qualquer entrada. No fim, você entende por que plano era a única resposta.",
+   "audio": "audio/promessa-1de03894d2.mp3",
+   "duracao": 28.328,
+   "palavras": [
+    {
+     "p": "Esse",
+     "i": 0.102,
+     "f": 0.428
+    },
+    {
+     "p": "é",
+     "i": 0.441,
+     "f": 0.48
+    },
+    {
+     "p": "o",
+     "i": 0.493,
+     "f": 0.584
+    },
+    {
+     "p": "Túnel",
+     "i": 0.597,
+     "f": 0.896
+    },
+    {
+     "p": "de",
+     "i": 0.909,
+     "f": 1.001
+    },
+    {
+     "p": "Base",
+     "i": 1.014,
+     "f": 1.404
+    },
+    {
+     "p": "de",
+     "i": 1.417,
+     "f": 1.521
+    },
+    {
+     "p": "São",
+     "i": 1.534,
+     "f": 1.73
+    },
+    {
+     "p": "Gotardo",
+     "i": 1.743,
+     "f": 2.355
+    },
+    {
+     "p": "na",
+     "i": 2.576,
+     "f": 2.719
+    },
+    {
+     "p": "Suíça",
+     "i": 2.732,
+     "f": 3.305
+    },
+    {
+     "p": "Cinquenta",
+     "i": 3.587,
+     "f": 4.186
+    },
+    {
+     "p": "e",
+     "i": 4.199,
+     "f": 4.225
+    },
+    {
+     "p": "sete",
+     "i": 4.238,
+     "f": 4.512
+    },
+    {
+     "p": "quilômetros",
+     "i": 4.525,
+     "f": 5.163
+    },
+    {
+     "p": "o",
+     "i": 5.475,
+     "f": 5.527
+    },
+    {
+     "p": "mais",
+     "i": 5.54,
+     "f": 5.814
+    },
+    {
+     "p": "longo",
+     "i": 5.827,
+     "f": 6.217
+    },
+    {
+     "p": "túnel",
+     "i": 6.23,
+     "f": 6.504
+    },
+    {
+     "p": "ferroviário",
+     "i": 6.517,
+     "f": 7.129
+    },
+    {
+     "p": "do",
+     "i": 7.142,
+     "f": 7.233
+    },
+    {
+     "p": "mundo",
+     "i": 7.246,
+     "f": 7.611
+    },
+    {
+     "p": "inaugurado",
+     "i": 7.845,
+     "f": 8.522
+    },
+    {
+     "p": "em",
+     "i": 8.535,
+     "f": 8.587
+    },
+    {
+     "p": "dois",
+     "i": 8.6,
+     "f": 8.822
+    },
+    {
+     "p": "mil",
+     "i": 8.834,
+     "f": 8.965
+    },
+    {
+     "p": "e",
+     "i": 8.978,
+     "f": 9.03
+    },
+    {
+     "p": "dezesseis",
+     "i": 9.043,
+     "f": 9.772
+    },
+    {
+     "p": "Nos",
+     "i": 10.054,
+     "f": 10.314
+    },
+    {
+     "p": "próximos",
+     "i": 10.328,
+     "f": 10.822
+    },
+    {
+     "p": "minutos",
+     "i": 10.835,
+     "f": 11.382
+    },
+    {
+     "p": "você",
+     "i": 11.617,
+     "f": 11.942
+    },
+    {
+     "p": "vai",
+     "i": 11.955,
+     "f": 12.085
+    },
+    {
+     "p": "ver",
+     "i": 12.098,
+     "f": 12.294
+    },
+    {
+     "p": "três",
+     "i": 12.307,
+     "f": 12.606
+    },
+    {
+     "p": "coisas",
+     "i": 12.619,
+     "f": 13.127
+    },
+    {
+     "p": "o",
+     "i": 13.492,
+     "f": 13.544
+    },
+    {
+     "p": "que",
+     "i": 13.557,
+     "f": 13.7
+    },
+    {
+     "p": "a",
+     "i": 13.713,
+     "f": 13.804
+    },
+    {
+     "p": "rocha",
+     "i": 13.817,
+     "f": 14.169
+    },
+    {
+     "p": "fez",
+     "i": 14.182,
+     "f": 14.468
+    },
+    {
+     "p": "para",
+     "i": 14.481,
+     "f": 14.624
+    },
+    {
+     "p": "atrapalhar",
+     "i": 14.637,
+     "f": 15.132
+    },
+    {
+     "p": "a",
+     "i": 15.145,
+     "f": 15.236
+    },
+    {
+     "p": "obra",
+     "i": 15.249,
+     "f": 15.601
+    },
+    {
+     "p": "para",
+     "i": 15.9,
+     "f": 16.109
+    },
+    {
+     "p": "onde",
+     "i": 16.122,
+     "f": 16.408
+    },
+    {
+     "p": "foram",
+     "i": 16.421,
+     "f": 16.669
+    },
+    {
+     "p": "mais",
+     "i": 16.682,
+     "f": 16.955
+    },
+    {
+     "p": "de",
+     "i": 16.968,
+     "f": 17.059
+    },
+    {
+     "p": "vinte",
+     "i": 17.072,
+     "f": 17.359
+    },
+    {
+     "p": "e",
+     "i": 17.372,
+     "f": 17.385
+    },
+    {
+     "p": "oito",
+     "i": 17.398,
+     "f": 17.632
+    },
+    {
+     "p": "milhões",
+     "i": 17.645,
+     "f": 18.062
+    },
+    {
+     "p": "de",
+     "i": 18.075,
+     "f": 18.179
+    },
+    {
+     "p": "toneladas",
+     "i": 18.192,
+     "f": 18.778
+    },
+    {
+     "p": "de",
+     "i": 18.791,
+     "f": 18.856
+    },
+    {
+     "p": "entulho",
+     "i": 18.869,
+     "f": 19.377
+    },
+    {
+     "p": "e",
+     "i": 19.781,
+     "f": 19.872
+    },
+    {
+     "p": "como",
+     "i": 19.885,
+     "f": 20.158
+    },
+    {
+     "p": "se",
+     "i": 20.171,
+     "f": 20.275
+    },
+    {
+     "p": "acerta",
+     "i": 20.288,
+     "f": 20.731
+    },
+    {
+     "p": "um",
+     "i": 20.744,
+     "f": 20.835
+    },
+    {
+     "p": "encontro",
+     "i": 20.848,
+     "f": 21.265
+    },
+    {
+     "p": "a",
+     "i": 21.278,
+     "f": 21.317
+    },
+    {
+     "p": "quase",
+     "i": 21.33,
+     "f": 21.734
+    },
+    {
+     "p": "trinta",
+     "i": 21.747,
+     "f": 22.072
+    },
+    {
+     "p": "quilômetros",
+     "i": 22.085,
+     "f": 22.671
+    },
+    {
+     "p": "de",
+     "i": 22.684,
+     "f": 22.788
+    },
+    {
+     "p": "qualquer",
+     "i": 22.802,
+     "f": 23.179
+    },
+    {
+     "p": "entrada",
+     "i": 23.192,
+     "f": 23.687
+    },
+    {
+     "p": "No",
+     "i": 23.969,
+     "f": 24.151
+    },
+    {
+     "p": "fim",
+     "i": 24.164,
+     "f": 24.451
+    },
+    {
+     "p": "você",
+     "i": 24.842,
+     "f": 25.089
+    },
+    {
+     "p": "entende",
+     "i": 25.102,
+     "f": 25.61
+    },
+    {
+     "p": "por",
+     "i": 25.623,
+     "f": 25.779
+    },
+    {
+     "p": "que",
+     "i": 25.792,
+     "f": 25.961
+    },
+    {
+     "p": "plano",
+     "i": 25.974,
+     "f": 26.352
+    },
+    {
+     "p": "era",
+     "i": 26.365,
+     "f": 26.508
+    },
+    {
+     "p": "a",
+     "i": 26.521,
+     "f": 26.599
+    },
+    {
+     "p": "única",
+     "i": 26.612,
+     "f": 26.99
+    },
+    {
+     "p": "resposta",
+     "i": 27.003,
+     "f": 27.628
+    }
+   ]
+  },
+  "por-que-plano": {
+   "hash": "11b65e7b15",
+   "texto": "A rota entre o norte e o sul da Europa sempre passou pelo São Gotardo. Em mil oitocentos e oitenta e dois, a ferrovia atravessou o maciço por um túnel de quinze quilômetros, a mais de mil metros de altitude. Para chegar lá, os trens subiam em espirais e curvas fechadas, enquanto crescia a fila de caminhões nas estradas. No fim do século vinte, a Suíça fez uma pergunta incômoda: e se, em vez de subir a montanha, a ferrovia passasse por baixo dela?",
+   "audio": "audio/por-que-plano-11b65e7b15.mp3",
+   "duracao": 28.798,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "rota",
+     "i": 0.258,
+     "f": 0.623
+    },
+    {
+     "p": "entre",
+     "i": 0.636,
+     "f": 0.818
+    },
+    {
+     "p": "o",
+     "i": 0.831,
+     "f": 0.857
+    },
+    {
+     "p": "norte",
+     "i": 0.87,
+     "f": 1.313
+    },
+    {
+     "p": "e",
+     "i": 1.326,
+     "f": 1.352
+    },
+    {
+     "p": "o",
+     "i": 1.365,
+     "f": 1.417
+    },
+    {
+     "p": "sul",
+     "i": 1.43,
+     "f": 1.691
+    },
+    {
+     "p": "da",
+     "i": 1.704,
+     "f": 1.769
+    },
+    {
+     "p": "Europa",
+     "i": 1.782,
+     "f": 2.211
+    },
+    {
+     "p": "sempre",
+     "i": 2.224,
+     "f": 2.654
+    },
+    {
+     "p": "passou",
+     "i": 2.667,
+     "f": 3.006
+    },
+    {
+     "p": "pelo",
+     "i": 3.019,
+     "f": 3.24
+    },
+    {
+     "p": "São",
+     "i": 3.253,
+     "f": 3.474
+    },
+    {
+     "p": "Gotardo",
+     "i": 3.487,
+     "f": 4.099
+    },
+    {
+     "p": "Em",
+     "i": 4.381,
+     "f": 4.55
+    },
+    {
+     "p": "mil",
+     "i": 4.563,
+     "f": 4.72
+    },
+    {
+     "p": "oitocentos",
+     "i": 4.733,
+     "f": 5.332
+    },
+    {
+     "p": "e",
+     "i": 5.345,
+     "f": 5.449
+    },
+    {
+     "p": "oitenta",
+     "i": 5.462,
+     "f": 5.761
+    },
+    {
+     "p": "e",
+     "i": 5.774,
+     "f": 5.826
+    },
+    {
+     "p": "dois",
+     "i": 5.839,
+     "f": 6.178
+    },
+    {
+     "p": "a",
+     "i": 6.464,
+     "f": 6.543
+    },
+    {
+     "p": "ferrovia",
+     "i": 6.556,
+     "f": 7.089
+    },
+    {
+     "p": "atravessou",
+     "i": 7.102,
+     "f": 7.584
+    },
+    {
+     "p": "o",
+     "i": 7.597,
+     "f": 7.623
+    },
+    {
+     "p": "maciço",
+     "i": 7.636,
+     "f": 8.183
+    },
+    {
+     "p": "por",
+     "i": 8.196,
+     "f": 8.339
+    },
+    {
+     "p": "um",
+     "i": 8.352,
+     "f": 8.483
+    },
+    {
+     "p": "túnel",
+     "i": 8.496,
+     "f": 8.795
+    },
+    {
+     "p": "de",
+     "i": 8.808,
+     "f": 8.938
+    },
+    {
+     "p": "quinze",
+     "i": 8.951,
+     "f": 9.381
+    },
+    {
+     "p": "quilômetros",
+     "i": 9.394,
+     "f": 10.071
+    },
+    {
+     "p": "a",
+     "i": 10.345,
+     "f": 10.423
+    },
+    {
+     "p": "mais",
+     "i": 10.436,
+     "f": 10.722
+    },
+    {
+     "p": "de",
+     "i": 10.735,
+     "f": 10.839
+    },
+    {
+     "p": "mil",
+     "i": 10.852,
+     "f": 11.074
+    },
+    {
+     "p": "metros",
+     "i": 11.087,
+     "f": 11.517
+    },
+    {
+     "p": "de",
+     "i": 11.53,
+     "f": 11.595
+    },
+    {
+     "p": "altitude",
+     "i": 11.608,
+     "f": 12.22
+    },
+    {
+     "p": "Para",
+     "i": 12.503,
+     "f": 12.698
+    },
+    {
+     "p": "chegar",
+     "i": 12.711,
+     "f": 13.115
+    },
+    {
+     "p": "lá",
+     "i": 13.128,
+     "f": 13.349
+    },
+    {
+     "p": "os",
+     "i": 13.649,
+     "f": 13.818
+    },
+    {
+     "p": "trens",
+     "i": 13.831,
+     "f": 14.131
+    },
+    {
+     "p": "subiam",
+     "i": 14.144,
+     "f": 14.534
+    },
+    {
+     "p": "em",
+     "i": 14.547,
+     "f": 14.652
+    },
+    {
+     "p": "espirais",
+     "i": 14.665,
+     "f": 15.12
+    },
+    {
+     "p": "e",
+     "i": 15.133,
+     "f": 15.263
+    },
+    {
+     "p": "curvas",
+     "i": 15.277,
+     "f": 15.654
+    },
+    {
+     "p": "fechadas",
+     "i": 15.667,
+     "f": 16.344
+    },
+    {
+     "p": "enquanto",
+     "i": 16.644,
+     "f": 17.008
+    },
+    {
+     "p": "crescia",
+     "i": 17.021,
+     "f": 17.425
+    },
+    {
+     "p": "a",
+     "i": 17.438,
+     "f": 17.477
+    },
+    {
+     "p": "fila",
+     "i": 17.49,
+     "f": 17.777
+    },
+    {
+     "p": "de",
+     "i": 17.79,
+     "f": 17.881
+    },
+    {
+     "p": "caminhões",
+     "i": 17.894,
+     "f": 18.415
+    },
+    {
+     "p": "nas",
+     "i": 18.428,
+     "f": 18.545
+    },
+    {
+     "p": "estradas",
+     "i": 18.558,
+     "f": 19.326
+    },
+    {
+     "p": "No",
+     "i": 19.608,
+     "f": 19.803
+    },
+    {
+     "p": "fim",
+     "i": 19.816,
+     "f": 20.038
+    },
+    {
+     "p": "do",
+     "i": 20.051,
+     "f": 20.168
+    },
+    {
+     "p": "século",
+     "i": 20.181,
+     "f": 20.65
+    },
+    {
+     "p": "vinte",
+     "i": 20.663,
+     "f": 21.053
+    },
+    {
+     "p": "a",
+     "i": 21.262,
+     "f": 21.314
+    },
+    {
+     "p": "Suíça",
+     "i": 21.327,
+     "f": 21.822
+    },
+    {
+     "p": "fez",
+     "i": 21.835,
+     "f": 21.991
+    },
+    {
+     "p": "uma",
+     "i": 22.004,
+     "f": 22.212
+    },
+    {
+     "p": "pergunta",
+     "i": 22.225,
+     "f": 22.681
+    },
+    {
+     "p": "incômoda",
+     "i": 22.694,
+     "f": 23.28
+    },
+    {
+     "p": "e",
+     "i": 23.632,
+     "f": 23.71
+    },
+    {
+     "p": "se",
+     "i": 23.723,
+     "f": 24.022
+    },
+    {
+     "p": "em",
+     "i": 24.191,
+     "f": 24.361
+    },
+    {
+     "p": "vez",
+     "i": 24.374,
+     "f": 24.595
+    },
+    {
+     "p": "de",
+     "i": 24.608,
+     "f": 24.712
+    },
+    {
+     "p": "subir",
+     "i": 24.725,
+     "f": 25.038
+    },
+    {
+     "p": "a",
+     "i": 25.051,
+     "f": 25.103
+    },
+    {
+     "p": "montanha",
+     "i": 25.116,
+     "f": 25.741
+    },
+    {
+     "p": "a",
+     "i": 25.975,
+     "f": 26.053
+    },
+    {
+     "p": "ferrovia",
+     "i": 26.066,
+     "f": 26.613
+    },
+    {
+     "p": "passasse",
+     "i": 26.626,
+     "f": 27.134
+    },
+    {
+     "p": "por",
+     "i": 27.147,
+     "f": 27.316
+    },
+    {
+     "p": "baixo",
+     "i": 27.329,
+     "f": 27.707
+    },
+    {
+     "p": "dela",
+     "i": 27.72,
+     "f": 28.098
+    }
+   ]
+  },
+  "alptransit": {
+   "hash": "ad1211c626",
+   "texto": "Em mil novecentos e noventa e dois, os suíços aprovaram em votação a Alptransit, um plano de novos túneis nos Alpes. A ideia era simples e cara: uma linha plana, com subida máxima de menos de um por cento, que deixasse passar trem de carga pesado e trem de passageiros rápido, na mesma via. Quanto mais baixa a altitude, menos energia e menos locomotivas na frente. O ponto mais alto do túnel fica a quinhentos e quarenta e nove metros do nível do mar. Só que cavar plano significa cavar fundo. E fundo, nos Alpes, tem um preço.",
+   "audio": "audio/alptransit-ad1211c626.mp3",
+   "duracao": 34.464,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "mil",
+     "i": 0.271,
+     "f": 0.402
+    },
+    {
+     "p": "novecentos",
+     "i": 0.415,
+     "f": 1.001
+    },
+    {
+     "p": "e",
+     "i": 1.014,
+     "f": 1.105
+    },
+    {
+     "p": "noventa",
+     "i": 1.118,
+     "f": 1.43
+    },
+    {
+     "p": "e",
+     "i": 1.443,
+     "f": 1.482
+    },
+    {
+     "p": "dois",
+     "i": 1.495,
+     "f": 1.808
+    },
+    {
+     "p": "os",
+     "i": 2.133,
+     "f": 2.251
+    },
+    {
+     "p": "suíços",
+     "i": 2.264,
+     "f": 2.719
+    },
+    {
+     "p": "aprovaram",
+     "i": 2.732,
+     "f": 3.344
+    },
+    {
+     "p": "em",
+     "i": 3.357,
+     "f": 3.409
+    },
+    {
+     "p": "votação",
+     "i": 3.422,
+     "f": 3.982
+    },
+    {
+     "p": "a",
+     "i": 3.995,
+     "f": 4.008
+    },
+    {
+     "p": "Alptransit",
+     "i": 4.021,
+     "f": 4.764
+    },
+    {
+     "p": "um",
+     "i": 5.037,
+     "f": 5.245
+    },
+    {
+     "p": "plano",
+     "i": 5.258,
+     "f": 5.584
+    },
+    {
+     "p": "de",
+     "i": 5.597,
+     "f": 5.714
+    },
+    {
+     "p": "novos",
+     "i": 5.727,
+     "f": 6.157
+    },
+    {
+     "p": "túneis",
+     "i": 6.17,
+     "f": 6.534
+    },
+    {
+     "p": "nos",
+     "i": 6.547,
+     "f": 6.665
+    },
+    {
+     "p": "Alpes",
+     "i": 6.678,
+     "f": 7.238
+    },
+    {
+     "p": "A",
+     "i": 7.52,
+     "f": 7.663
+    },
+    {
+     "p": "ideia",
+     "i": 7.676,
+     "f": 7.989
+    },
+    {
+     "p": "era",
+     "i": 8.002,
+     "f": 8.21
+    },
+    {
+     "p": "simples",
+     "i": 8.223,
+     "f": 8.64
+    },
+    {
+     "p": "e",
+     "i": 8.653,
+     "f": 8.783
+    },
+    {
+     "p": "cara",
+     "i": 8.796,
+     "f": 9.135
+    },
+    {
+     "p": "uma",
+     "i": 9.473,
+     "f": 9.682
+    },
+    {
+     "p": "linha",
+     "i": 9.695,
+     "f": 9.968
+    },
+    {
+     "p": "plana",
+     "i": 9.981,
+     "f": 10.372
+    },
+    {
+     "p": "com",
+     "i": 10.645,
+     "f": 10.814
+    },
+    {
+     "p": "subida",
+     "i": 10.827,
+     "f": 11.27
+    },
+    {
+     "p": "máxima",
+     "i": 11.283,
+     "f": 11.752
+    },
+    {
+     "p": "de",
+     "i": 11.765,
+     "f": 11.869
+    },
+    {
+     "p": "menos",
+     "i": 11.882,
+     "f": 12.247
+    },
+    {
+     "p": "de",
+     "i": 12.26,
+     "f": 12.338
+    },
+    {
+     "p": "um",
+     "i": 12.351,
+     "f": 12.455
+    },
+    {
+     "p": "por",
+     "i": 12.468,
+     "f": 12.624
+    },
+    {
+     "p": "cento",
+     "i": 12.637,
+     "f": 13.054
+    },
+    {
+     "p": "que",
+     "i": 13.34,
+     "f": 13.445
+    },
+    {
+     "p": "deixasse",
+     "i": 13.458,
+     "f": 13.952
+    },
+    {
+     "p": "passar",
+     "i": 13.965,
+     "f": 14.382
+    },
+    {
+     "p": "trem",
+     "i": 14.395,
+     "f": 14.59
+    },
+    {
+     "p": "de",
+     "i": 14.603,
+     "f": 14.734
+    },
+    {
+     "p": "carga",
+     "i": 14.747,
+     "f": 15.098
+    },
+    {
+     "p": "pesado",
+     "i": 15.111,
+     "f": 15.606
+    },
+    {
+     "p": "e",
+     "i": 15.619,
+     "f": 15.684
+    },
+    {
+     "p": "trem",
+     "i": 15.697,
+     "f": 15.892
+    },
+    {
+     "p": "de",
+     "i": 15.906,
+     "f": 16.023
+    },
+    {
+     "p": "passageiros",
+     "i": 16.036,
+     "f": 16.687
+    },
+    {
+     "p": "rápido",
+     "i": 16.7,
+     "f": 17.169
+    },
+    {
+     "p": "na",
+     "i": 17.429,
+     "f": 17.559
+    },
+    {
+     "p": "mesma",
+     "i": 17.572,
+     "f": 17.963
+    },
+    {
+     "p": "via",
+     "i": 17.976,
+     "f": 18.314
+    },
+    {
+     "p": "Quanto",
+     "i": 18.596,
+     "f": 18.961
+    },
+    {
+     "p": "mais",
+     "i": 18.974,
+     "f": 19.182
+    },
+    {
+     "p": "baixa",
+     "i": 19.195,
+     "f": 19.573
+    },
+    {
+     "p": "a",
+     "i": 19.586,
+     "f": 19.599
+    },
+    {
+     "p": "altitude",
+     "i": 19.612,
+     "f": 20.211
+    },
+    {
+     "p": "menos",
+     "i": 20.497,
+     "f": 20.771
+    },
+    {
+     "p": "energia",
+     "i": 20.784,
+     "f": 21.396
+    },
+    {
+     "p": "e",
+     "i": 21.409,
+     "f": 21.461
+    },
+    {
+     "p": "menos",
+     "i": 21.474,
+     "f": 21.812
+    },
+    {
+     "p": "locomotivas",
+     "i": 21.825,
+     "f": 22.58
+    },
+    {
+     "p": "na",
+     "i": 22.593,
+     "f": 22.711
+    },
+    {
+     "p": "frente",
+     "i": 22.724,
+     "f": 23.192
+    },
+    {
+     "p": "O",
+     "i": 23.474,
+     "f": 23.604
+    },
+    {
+     "p": "ponto",
+     "i": 23.617,
+     "f": 23.995
+    },
+    {
+     "p": "mais",
+     "i": 24.008,
+     "f": 24.19
+    },
+    {
+     "p": "alto",
+     "i": 24.203,
+     "f": 24.581
+    },
+    {
+     "p": "do",
+     "i": 24.594,
+     "f": 24.711
+    },
+    {
+     "p": "túnel",
+     "i": 24.724,
+     "f": 25.05
+    },
+    {
+     "p": "fica",
+     "i": 25.063,
+     "f": 25.362
+    },
+    {
+     "p": "a",
+     "i": 25.375,
+     "f": 25.414
+    },
+    {
+     "p": "quinhentos",
+     "i": 25.427,
+     "f": 26.026
+    },
+    {
+     "p": "e",
+     "i": 26.039,
+     "f": 26.143
+    },
+    {
+     "p": "quarenta",
+     "i": 26.156,
+     "f": 26.508
+    },
+    {
+     "p": "e",
+     "i": 26.521,
+     "f": 26.534
+    },
+    {
+     "p": "nove",
+     "i": 26.547,
+     "f": 26.781
+    },
+    {
+     "p": "metros",
+     "i": 26.794,
+     "f": 27.198
+    },
+    {
+     "p": "do",
+     "i": 27.211,
+     "f": 27.328
+    },
+    {
+     "p": "nível",
+     "i": 27.341,
+     "f": 27.667
+    },
+    {
+     "p": "do",
+     "i": 27.68,
+     "f": 27.784
+    },
+    {
+     "p": "mar.",
+     "i": 27.797,
+     "f": 28.057
+    },
+    {
+     "p": "Só",
+     "i": 28.339,
+     "f": 28.639
+    },
+    {
+     "p": "que",
+     "i": 28.652,
+     "f": 28.769
+    },
+    {
+     "p": "cavar",
+     "i": 28.782,
+     "f": 29.146
+    },
+    {
+     "p": "plano",
+     "i": 29.159,
+     "f": 29.511
+    },
+    {
+     "p": "significa",
+     "i": 29.524,
+     "f": 30.136
+    },
+    {
+     "p": "cavar",
+     "i": 30.149,
+     "f": 30.527
+    },
+    {
+     "p": "fundo",
+     "i": 30.54,
+     "f": 30.969
+    },
+    {
+     "p": "E",
+     "i": 31.251,
+     "f": 31.368
+    },
+    {
+     "p": "fundo",
+     "i": 31.381,
+     "f": 31.824
+    },
+    {
+     "p": "nos",
+     "i": 32.071,
+     "f": 32.215
+    },
+    {
+     "p": "Alpes",
+     "i": 32.228,
+     "f": 32.775
+    },
+    {
+     "p": "tem",
+     "i": 33.022,
+     "f": 33.178
+    },
+    {
+     "p": "um",
+     "i": 33.191,
+     "f": 33.321
+    },
+    {
+     "p": "preço",
+     "i": 33.334,
+     "f": 33.764
+    }
+   ]
+  },
+  "a-rocha": {
+   "hash": "73d0f62339",
+   "texto": "O túnel corta rochas muito diferentes. Granito e gnaisse, duros como aço, onde as máquinas avançam bem. Mas há pontos em que a montanha tem sobre si mais de dois mil e trezentos metros de rocha, e o peso esmaga o que está dentro. A temperatura também sobe: perto de quarenta e cinco graus na rocha, o que exigiu ventilação e resfriamento. Antes de cavar, os engenheiros perfuraram sondagens por anos, para saber o que encontrariam. Uma zona assustava mais que todas: a de Piora.",
+   "audio": "audio/a-rocha-73d0f62339.mp3",
+   "duracao": 31.288,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "túnel",
+     "i": 0.271,
+     "f": 0.584
+    },
+    {
+     "p": "corta",
+     "i": 0.597,
+     "f": 0.948
+    },
+    {
+     "p": "rochas",
+     "i": 0.961,
+     "f": 1.391
+    },
+    {
+     "p": "muito",
+     "i": 1.404,
+     "f": 1.821
+    },
+    {
+     "p": "diferentes",
+     "i": 1.834,
+     "f": 2.602
+    },
+    {
+     "p": "Granito",
+     "i": 2.884,
+     "f": 3.431
+    },
+    {
+     "p": "e",
+     "i": 3.444,
+     "f": 3.483
+    },
+    {
+     "p": "gnaisse",
+     "i": 3.496,
+     "f": 3.991
+    },
+    {
+     "p": "duros",
+     "i": 4.277,
+     "f": 4.655
+    },
+    {
+     "p": "como",
+     "i": 4.668,
+     "f": 4.941
+    },
+    {
+     "p": "aço",
+     "i": 4.954,
+     "f": 5.293
+    },
+    {
+     "p": "onde",
+     "i": 5.514,
+     "f": 5.71
+    },
+    {
+     "p": "as",
+     "i": 5.723,
+     "f": 5.84
+    },
+    {
+     "p": "máquinas",
+     "i": 5.853,
+     "f": 6.296
+    },
+    {
+     "p": "avançam",
+     "i": 6.309,
+     "f": 6.908
+    },
+    {
+     "p": "bem",
+     "i": 6.921,
+     "f": 7.194
+    },
+    {
+     "p": "Mas",
+     "i": 7.476,
+     "f": 7.671
+    },
+    {
+     "p": "há",
+     "i": 7.684,
+     "f": 7.841
+    },
+    {
+     "p": "pontos",
+     "i": 7.854,
+     "f": 8.27
+    },
+    {
+     "p": "em",
+     "i": 8.283,
+     "f": 8.44
+    },
+    {
+     "p": "que",
+     "i": 8.453,
+     "f": 8.518
+    },
+    {
+     "p": "a",
+     "i": 8.531,
+     "f": 8.557
+    },
+    {
+     "p": "montanha",
+     "i": 8.57,
+     "f": 9.117
+    },
+    {
+     "p": "tem",
+     "i": 9.13,
+     "f": 9.286
+    },
+    {
+     "p": "sobre",
+     "i": 9.299,
+     "f": 9.611
+    },
+    {
+     "p": "si",
+     "i": 9.625,
+     "f": 9.846
+    },
+    {
+     "p": "mais",
+     "i": 9.859,
+     "f": 10.158
+    },
+    {
+     "p": "de",
+     "i": 10.171,
+     "f": 10.25
+    },
+    {
+     "p": "dois",
+     "i": 10.263,
+     "f": 10.471
+    },
+    {
+     "p": "mil",
+     "i": 10.484,
+     "f": 10.614
+    },
+    {
+     "p": "e",
+     "i": 10.627,
+     "f": 10.679
+    },
+    {
+     "p": "trezentos",
+     "i": 10.692,
+     "f": 11.265
+    },
+    {
+     "p": "metros",
+     "i": 11.278,
+     "f": 11.708
+    },
+    {
+     "p": "de",
+     "i": 11.721,
+     "f": 11.812
+    },
+    {
+     "p": "rocha",
+     "i": 11.825,
+     "f": 12.294
+    },
+    {
+     "p": "e",
+     "i": 12.671,
+     "f": 12.802
+    },
+    {
+     "p": "o",
+     "i": 12.815,
+     "f": 12.893
+    },
+    {
+     "p": "peso",
+     "i": 12.906,
+     "f": 13.231
+    },
+    {
+     "p": "esmaga",
+     "i": 13.244,
+     "f": 13.687
+    },
+    {
+     "p": "o",
+     "i": 13.7,
+     "f": 13.739
+    },
+    {
+     "p": "que",
+     "i": 13.752,
+     "f": 13.843
+    },
+    {
+     "p": "está",
+     "i": 13.856,
+     "f": 14.078
+    },
+    {
+     "p": "dentro",
+     "i": 14.091,
+     "f": 14.546
+    },
+    {
+     "p": "A",
+     "i": 14.828,
+     "f": 14.945
+    },
+    {
+     "p": "temperatura",
+     "i": 14.958,
+     "f": 15.635
+    },
+    {
+     "p": "também",
+     "i": 15.648,
+     "f": 16.013
+    },
+    {
+     "p": "sobe",
+     "i": 16.026,
+     "f": 16.469
+    },
+    {
+     "p": "perto",
+     "i": 16.755,
+     "f": 17.146
+    },
+    {
+     "p": "de",
+     "i": 17.159,
+     "f": 17.25
+    },
+    {
+     "p": "quarenta",
+     "i": 17.263,
+     "f": 17.628
+    },
+    {
+     "p": "e",
+     "i": 17.641,
+     "f": 17.667
+    },
+    {
+     "p": "cinco",
+     "i": 17.68,
+     "f": 17.979
+    },
+    {
+     "p": "graus",
+     "i": 17.992,
+     "f": 18.292
+    },
+    {
+     "p": "na",
+     "i": 18.305,
+     "f": 18.396
+    },
+    {
+     "p": "rocha",
+     "i": 18.409,
+     "f": 18.825
+    },
+    {
+     "p": "o",
+     "i": 19.164,
+     "f": 19.242
+    },
+    {
+     "p": "que",
+     "i": 19.255,
+     "f": 19.372
+    },
+    {
+     "p": "exigiu",
+     "i": 19.385,
+     "f": 19.802
+    },
+    {
+     "p": "ventilação",
+     "i": 19.815,
+     "f": 20.557
+    },
+    {
+     "p": "e",
+     "i": 20.57,
+     "f": 20.596
+    },
+    {
+     "p": "resfriamento",
+     "i": 20.609,
+     "f": 21.456
+    },
+    {
+     "p": "Antes",
+     "i": 21.738,
+     "f": 22.116
+    },
+    {
+     "p": "de",
+     "i": 22.129,
+     "f": 22.22
+    },
+    {
+     "p": "cavar",
+     "i": 22.233,
+     "f": 22.676
+    },
+    {
+     "p": "os",
+     "i": 22.975,
+     "f": 23.014
+    },
+    {
+     "p": "engenheiros",
+     "i": 23.027,
+     "f": 23.652
+    },
+    {
+     "p": "perfuraram",
+     "i": 23.665,
+     "f": 24.238
+    },
+    {
+     "p": "sondagens",
+     "i": 24.251,
+     "f": 24.876
+    },
+    {
+     "p": "por",
+     "i": 24.889,
+     "f": 25.058
+    },
+    {
+     "p": "anos",
+     "i": 25.071,
+     "f": 25.436
+    },
+    {
+     "p": "para",
+     "i": 25.683,
+     "f": 25.892
+    },
+    {
+     "p": "saber",
+     "i": 25.905,
+     "f": 26.308
+    },
+    {
+     "p": "o",
+     "i": 26.321,
+     "f": 26.373
+    },
+    {
+     "p": "que",
+     "i": 26.387,
+     "f": 26.465
+    },
+    {
+     "p": "encontrariam",
+     "i": 26.478,
+     "f": 27.22
+    },
+    {
+     "p": "Uma",
+     "i": 27.502,
+     "f": 27.749
+    },
+    {
+     "p": "zona",
+     "i": 27.762,
+     "f": 28.088
+    },
+    {
+     "p": "assustava",
+     "i": 28.101,
+     "f": 28.609
+    },
+    {
+     "p": "mais",
+     "i": 28.622,
+     "f": 28.934
+    },
+    {
+     "p": "que",
+     "i": 28.947,
+     "f": 29.13
+    },
+    {
+     "p": "todas",
+     "i": 29.143,
+     "f": 29.611
+    },
+    {
+     "p": "a",
+     "i": 29.872,
+     "f": 29.976
+    },
+    {
+     "p": "de",
+     "i": 29.989,
+     "f": 30.119
+    },
+    {
+     "p": "Piora",
+     "i": 30.132,
+     "f": 30.588
+    }
+   ]
+  },
+  "sedrun": {
+   "hash": "3df5d21576",
+   "texto": "Em Piora, geólogos temiam uma dolomita fina como açúcar, encharcada de água sob pressão, capaz de inundar o túnel. As sondagens dos anos noventa mostraram rocha compacta e seca, e o traçado seguiu. O problema de verdade apareceu em Sedrun. Ali a rocha cede devagar sob o peso, como massa, e o túnel se fecha por conta própria, até setenta centímetros. Para chegar lá, a obra desceu por dois poços de oitocentos metros. E precisou de vinte mil toneladas de arcos de aço feitos para ceder, em vez de resistir.",
+   "audio": "audio/sedrun-3df5d21576.mp3",
+   "duracao": 34.309,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "Piora",
+     "i": 0.284,
+     "f": 0.701
+    },
+    {
+     "p": "geólogos",
+     "i": 1.014,
+     "f": 1.573
+    },
+    {
+     "p": "temiam",
+     "i": 1.586,
+     "f": 1.912
+    },
+    {
+     "p": "uma",
+     "i": 1.925,
+     "f": 2.081
+    },
+    {
+     "p": "dolomita",
+     "i": 2.094,
+     "f": 2.602
+    },
+    {
+     "p": "fina",
+     "i": 2.615,
+     "f": 2.863
+    },
+    {
+     "p": "como",
+     "i": 2.876,
+     "f": 3.084
+    },
+    {
+     "p": "açúcar",
+     "i": 3.097,
+     "f": 3.605
+    },
+    {
+     "p": "encharcada",
+     "i": 3.891,
+     "f": 4.516
+    },
+    {
+     "p": "de",
+     "i": 4.529,
+     "f": 4.685
+    },
+    {
+     "p": "água",
+     "i": 4.698,
+     "f": 4.972
+    },
+    {
+     "p": "sob",
+     "i": 4.985,
+     "f": 5.258
+    },
+    {
+     "p": "pressão",
+     "i": 5.271,
+     "f": 5.753
+    },
+    {
+     "p": "capaz",
+     "i": 6.027,
+     "f": 6.456
+    },
+    {
+     "p": "de",
+     "i": 6.469,
+     "f": 6.547
+    },
+    {
+     "p": "inundar",
+     "i": 6.56,
+     "f": 7.016
+    },
+    {
+     "p": "o",
+     "i": 7.029,
+     "f": 7.107
+    },
+    {
+     "p": "túnel",
+     "i": 7.12,
+     "f": 7.511
+    },
+    {
+     "p": "As",
+     "i": 7.793,
+     "f": 8.001
+    },
+    {
+     "p": "sondagens",
+     "i": 8.014,
+     "f": 8.626
+    },
+    {
+     "p": "dos",
+     "i": 8.639,
+     "f": 8.757
+    },
+    {
+     "p": "anos",
+     "i": 8.77,
+     "f": 9.134
+    },
+    {
+     "p": "noventa",
+     "i": 9.147,
+     "f": 9.603
+    },
+    {
+     "p": "mostraram",
+     "i": 9.616,
+     "f": 10.124
+    },
+    {
+     "p": "rocha",
+     "i": 10.137,
+     "f": 10.488
+    },
+    {
+     "p": "compacta",
+     "i": 10.501,
+     "f": 10.996
+    },
+    {
+     "p": "e",
+     "i": 11.009,
+     "f": 11.048
+    },
+    {
+     "p": "seca",
+     "i": 11.061,
+     "f": 11.439
+    },
+    {
+     "p": "e",
+     "i": 11.738,
+     "f": 11.843
+    },
+    {
+     "p": "o",
+     "i": 11.856,
+     "f": 11.895
+    },
+    {
+     "p": "traçado",
+     "i": 11.908,
+     "f": 12.494
+    },
+    {
+     "p": "seguiu",
+     "i": 12.507,
+     "f": 12.975
+    },
+    {
+     "p": "O",
+     "i": 13.257,
+     "f": 13.374
+    },
+    {
+     "p": "problema",
+     "i": 13.387,
+     "f": 13.921
+    },
+    {
+     "p": "de",
+     "i": 13.934,
+     "f": 14.025
+    },
+    {
+     "p": "verdade",
+     "i": 14.038,
+     "f": 14.52
+    },
+    {
+     "p": "apareceu",
+     "i": 14.533,
+     "f": 15.028
+    },
+    {
+     "p": "em",
+     "i": 15.041,
+     "f": 15.106
+    },
+    {
+     "p": "Sedrun",
+     "i": 15.119,
+     "f": 15.601
+    },
+    {
+     "p": "Ali",
+     "i": 15.883,
+     "f": 16.183
+    },
+    {
+     "p": "a",
+     "i": 16.196,
+     "f": 16.274
+    },
+    {
+     "p": "rocha",
+     "i": 16.287,
+     "f": 16.664
+    },
+    {
+     "p": "cede",
+     "i": 16.677,
+     "f": 17.003
+    },
+    {
+     "p": "devagar",
+     "i": 17.016,
+     "f": 17.472
+    },
+    {
+     "p": "sob",
+     "i": 17.485,
+     "f": 17.706
+    },
+    {
+     "p": "o",
+     "i": 17.719,
+     "f": 17.771
+    },
+    {
+     "p": "peso",
+     "i": 17.784,
+     "f": 18.175
+    },
+    {
+     "p": "como",
+     "i": 18.474,
+     "f": 18.709
+    },
+    {
+     "p": "massa",
+     "i": 18.722,
+     "f": 19.151
+    },
+    {
+     "p": "e",
+     "i": 19.477,
+     "f": 19.581
+    },
+    {
+     "p": "o",
+     "i": 19.594,
+     "f": 19.685
+    },
+    {
+     "p": "túnel",
+     "i": 19.698,
+     "f": 20.011
+    },
+    {
+     "p": "se",
+     "i": 20.024,
+     "f": 20.167
+    },
+    {
+     "p": "fecha",
+     "i": 20.18,
+     "f": 20.532
+    },
+    {
+     "p": "por",
+     "i": 20.545,
+     "f": 20.688
+    },
+    {
+     "p": "conta",
+     "i": 20.701,
+     "f": 21.039
+    },
+    {
+     "p": "própria",
+     "i": 21.052,
+     "f": 21.482
+    },
+    {
+     "p": "até",
+     "i": 21.782,
+     "f": 22.029
+    },
+    {
+     "p": "setenta",
+     "i": 22.042,
+     "f": 22.628
+    },
+    {
+     "p": "centímetros",
+     "i": 22.641,
+     "f": 23.448
+    },
+    {
+     "p": "Para",
+     "i": 23.73,
+     "f": 23.925
+    },
+    {
+     "p": "chegar",
+     "i": 23.938,
+     "f": 24.355
+    },
+    {
+     "p": "lá",
+     "i": 24.368,
+     "f": 24.576
+    },
+    {
+     "p": "a",
+     "i": 24.837,
+     "f": 24.954
+    },
+    {
+     "p": "obra",
+     "i": 24.967,
+     "f": 25.241
+    },
+    {
+     "p": "desceu",
+     "i": 25.254,
+     "f": 25.605
+    },
+    {
+     "p": "por",
+     "i": 25.618,
+     "f": 25.8
+    },
+    {
+     "p": "dois",
+     "i": 25.813,
+     "f": 26.1
+    },
+    {
+     "p": "poços",
+     "i": 26.113,
+     "f": 26.517
+    },
+    {
+     "p": "de",
+     "i": 26.53,
+     "f": 26.621
+    },
+    {
+     "p": "oitocentos",
+     "i": 26.634,
+     "f": 27.35
+    },
+    {
+     "p": "metros",
+     "i": 27.363,
+     "f": 27.91
+    },
+    {
+     "p": "E",
+     "i": 28.192,
+     "f": 28.309
+    },
+    {
+     "p": "precisou",
+     "i": 28.322,
+     "f": 28.934
+    },
+    {
+     "p": "de",
+     "i": 28.947,
+     "f": 29.051
+    },
+    {
+     "p": "vinte",
+     "i": 29.065,
+     "f": 29.39
+    },
+    {
+     "p": "mil",
+     "i": 29.403,
+     "f": 29.559
+    },
+    {
+     "p": "toneladas",
+     "i": 29.572,
+     "f": 30.21
+    },
+    {
+     "p": "de",
+     "i": 30.223,
+     "f": 30.314
+    },
+    {
+     "p": "arcos",
+     "i": 30.327,
+     "f": 30.653
+    },
+    {
+     "p": "de",
+     "i": 30.666,
+     "f": 30.757
+    },
+    {
+     "p": "aço",
+     "i": 30.77,
+     "f": 31.044
+    },
+    {
+     "p": "feitos",
+     "i": 31.057,
+     "f": 31.473
+    },
+    {
+     "p": "para",
+     "i": 31.486,
+     "f": 31.682
+    },
+    {
+     "p": "ceder",
+     "i": 31.695,
+     "f": 32.137
+    },
+    {
+     "p": "em",
+     "i": 32.411,
+     "f": 32.554
+    },
+    {
+     "p": "vez",
+     "i": 32.567,
+     "f": 32.867
+    },
+    {
+     "p": "de",
+     "i": 32.88,
+     "f": 32.971
+    },
+    {
+     "p": "resistir",
+     "i": 32.984,
+     "f": 33.609
+    }
+   ]
+  },
+  "o-entulho": {
+   "hash": "8cfdfd30ff",
+   "texto": "Cavar um buraco desse tamanho cria uma montanha ao contrário. Foram vinte e oito milhões de toneladas de rocha, treze milhões de metros cúbicos, cerca de cinco vezes o volume da Grande Pirâmide de Gizé. Quatro tuneladoras de quatrocentos metros de comprimento mastigavam o maciço, e cada pedaço precisava sair pelo mesmo túnel que elas abriam. Entrada de equipamento, saída de rocha, ventilação, tudo no mesmo corredor, o tempo todo.",
+   "audio": "audio/o-entulho-8cfdfd30ff.mp3",
+   "duracao": 28.055,
+   "palavras": [
+    {
+     "p": "Cavar",
+     "i": 0.102,
+     "f": 0.441
+    },
+    {
+     "p": "um",
+     "i": 0.454,
+     "f": 0.519
+    },
+    {
+     "p": "buraco",
+     "i": 0.532,
+     "f": 1.001
+    },
+    {
+     "p": "desse",
+     "i": 1.014,
+     "f": 1.235
+    },
+    {
+     "p": "tamanho",
+     "i": 1.248,
+     "f": 1.639
+    },
+    {
+     "p": "cria",
+     "i": 1.652,
+     "f": 1.886
+    },
+    {
+     "p": "uma",
+     "i": 1.899,
+     "f": 1.99
+    },
+    {
+     "p": "montanha",
+     "i": 2.003,
+     "f": 2.498
+    },
+    {
+     "p": "ao",
+     "i": 2.511,
+     "f": 2.589
+    },
+    {
+     "p": "contrário",
+     "i": 2.602,
+     "f": 3.175
+    },
+    {
+     "p": "Foram",
+     "i": 3.457,
+     "f": 3.796
+    },
+    {
+     "p": "vinte",
+     "i": 3.809,
+     "f": 4.082
+    },
+    {
+     "p": "e",
+     "i": 4.095,
+     "f": 4.121
+    },
+    {
+     "p": "oito",
+     "i": 4.134,
+     "f": 4.342
+    },
+    {
+     "p": "milhões",
+     "i": 4.356,
+     "f": 4.785
+    },
+    {
+     "p": "de",
+     "i": 4.798,
+     "f": 4.889
+    },
+    {
+     "p": "toneladas",
+     "i": 4.902,
+     "f": 5.514
+    },
+    {
+     "p": "de",
+     "i": 5.527,
+     "f": 5.619
+    },
+    {
+     "p": "rocha",
+     "i": 5.632,
+     "f": 6.113
+    },
+    {
+     "p": "treze",
+     "i": 6.309,
+     "f": 6.647
+    },
+    {
+     "p": "milhões",
+     "i": 6.66,
+     "f": 7.103
+    },
+    {
+     "p": "de",
+     "i": 7.116,
+     "f": 7.207
+    },
+    {
+     "p": "metros",
+     "i": 7.22,
+     "f": 7.637
+    },
+    {
+     "p": "cúbicos",
+     "i": 7.65,
+     "f": 8.197
+    },
+    {
+     "p": "cerca",
+     "i": 8.457,
+     "f": 8.861
+    },
+    {
+     "p": "de",
+     "i": 8.874,
+     "f": 9.004
+    },
+    {
+     "p": "cinco",
+     "i": 9.017,
+     "f": 9.434
+    },
+    {
+     "p": "vezes",
+     "i": 9.447,
+     "f": 9.811
+    },
+    {
+     "p": "o",
+     "i": 9.824,
+     "f": 9.941
+    },
+    {
+     "p": "volume",
+     "i": 9.954,
+     "f": 10.423
+    },
+    {
+     "p": "da",
+     "i": 10.436,
+     "f": 10.579
+    },
+    {
+     "p": "Grande",
+     "i": 10.592,
+     "f": 10.97
+    },
+    {
+     "p": "Pirâmide",
+     "i": 10.983,
+     "f": 11.465
+    },
+    {
+     "p": "de",
+     "i": 11.478,
+     "f": 11.569
+    },
+    {
+     "p": "Gizé",
+     "i": 11.582,
+     "f": 12.051
+    },
+    {
+     "p": "Quatro",
+     "i": 12.333,
+     "f": 12.737
+    },
+    {
+     "p": "tuneladoras",
+     "i": 12.75,
+     "f": 13.44
+    },
+    {
+     "p": "de",
+     "i": 13.453,
+     "f": 13.557
+    },
+    {
+     "p": "quatrocentos",
+     "i": 13.57,
+     "f": 14.312
+    },
+    {
+     "p": "metros",
+     "i": 14.325,
+     "f": 14.742
+    },
+    {
+     "p": "de",
+     "i": 14.755,
+     "f": 14.846
+    },
+    {
+     "p": "comprimento",
+     "i": 14.859,
+     "f": 15.419
+    },
+    {
+     "p": "mastigavam",
+     "i": 15.432,
+     "f": 16.018
+    },
+    {
+     "p": "o",
+     "i": 16.031,
+     "f": 16.057
+    },
+    {
+     "p": "maciço",
+     "i": 16.07,
+     "f": 16.669
+    },
+    {
+     "p": "e",
+     "i": 16.955,
+     "f": 17.073
+    },
+    {
+     "p": "cada",
+     "i": 17.086,
+     "f": 17.333
+    },
+    {
+     "p": "pedaço",
+     "i": 17.346,
+     "f": 17.828
+    },
+    {
+     "p": "precisava",
+     "i": 17.841,
+     "f": 18.375
+    },
+    {
+     "p": "sair",
+     "i": 18.388,
+     "f": 18.778
+    },
+    {
+     "p": "pelo",
+     "i": 18.791,
+     "f": 19.039
+    },
+    {
+     "p": "mesmo",
+     "i": 19.052,
+     "f": 19.442
+    },
+    {
+     "p": "túnel",
+     "i": 19.455,
+     "f": 19.794
+    },
+    {
+     "p": "que",
+     "i": 19.807,
+     "f": 19.911
+    },
+    {
+     "p": "elas",
+     "i": 19.924,
+     "f": 20.068
+    },
+    {
+     "p": "abriam",
+     "i": 20.08,
+     "f": 20.601
+    },
+    {
+     "p": "Entrada",
+     "i": 20.883,
+     "f": 21.417
+    },
+    {
+     "p": "de",
+     "i": 21.43,
+     "f": 21.508
+    },
+    {
+     "p": "equipamento",
+     "i": 21.521,
+     "f": 22.146
+    },
+    {
+     "p": "saída",
+     "i": 22.446,
+     "f": 22.875
+    },
+    {
+     "p": "de",
+     "i": 22.888,
+     "f": 23.005
+    },
+    {
+     "p": "rocha",
+     "i": 23.018,
+     "f": 23.487
+    },
+    {
+     "p": "ventilação",
+     "i": 23.761,
+     "f": 24.516
+    },
+    {
+     "p": "tudo",
+     "i": 24.763,
+     "f": 25.037
+    },
+    {
+     "p": "no",
+     "i": 25.05,
+     "f": 25.154
+    },
+    {
+     "p": "mesmo",
+     "i": 25.167,
+     "f": 25.532
+    },
+    {
+     "p": "corredor",
+     "i": 25.545,
+     "f": 26.078
+    },
+    {
+     "p": "o",
+     "i": 26.469,
+     "f": 26.573
+    },
+    {
+     "p": "tempo",
+     "i": 26.586,
+     "f": 26.99
+    },
+    {
+     "p": "todo",
+     "i": 27.003,
+     "f": 27.354
+    }
+   ]
+  },
+  "reaproveitamento": {
+   "hash": "63d9663ee0",
+   "texto": "E o que fazer com tudo isso? Uma parte voltou para dentro do túnel. Cerca de um quinto da rocha, algo perto de vinte e dois por cento segundo as fontes, foi triturada e virou agregado do concreto que reveste as paredes. Usinas de britagem funcionaram em Amsteg, em Sedrun e em Bodio. A conta é boa: menos pedra comprada, menos caminhão rodando nos vales. Mas o resto, milhões de toneladas, precisava de outro destino. E nenhuma montanha aceita receber outra montanha em silêncio.",
+   "audio": "audio/reaproveitamento-63d9663ee0.mp3",
+   "duracao": 31.591,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "o",
+     "i": 0.258,
+     "f": 0.323
+    },
+    {
+     "p": "que",
+     "i": 0.336,
+     "f": 0.519
+    },
+    {
+     "p": "fazer",
+     "i": 0.532,
+     "f": 0.935
+    },
+    {
+     "p": "com",
+     "i": 0.948,
+     "f": 1.183
+    },
+    {
+     "p": "tudo",
+     "i": 1.196,
+     "f": 1.508
+    },
+    {
+     "p": "isso",
+     "i": 1.521,
+     "f": 1.86
+    },
+    {
+     "p": "Uma",
+     "i": 2.202,
+     "f": 2.502
+    },
+    {
+     "p": "parte",
+     "i": 2.515,
+     "f": 2.931
+    },
+    {
+     "p": "voltou",
+     "i": 2.944,
+     "f": 3.374
+    },
+    {
+     "p": "para",
+     "i": 3.387,
+     "f": 3.608
+    },
+    {
+     "p": "dentro",
+     "i": 3.621,
+     "f": 3.973
+    },
+    {
+     "p": "do",
+     "i": 3.986,
+     "f": 4.103
+    },
+    {
+     "p": "túnel",
+     "i": 4.116,
+     "f": 4.52
+    },
+    {
+     "p": "Cerca",
+     "i": 4.802,
+     "f": 5.297
+    },
+    {
+     "p": "de",
+     "i": 5.31,
+     "f": 5.427
+    },
+    {
+     "p": "um",
+     "i": 5.44,
+     "f": 5.57
+    },
+    {
+     "p": "quinto",
+     "i": 5.583,
+     "f": 5.922
+    },
+    {
+     "p": "da",
+     "i": 5.935,
+     "f": 6.039
+    },
+    {
+     "p": "rocha",
+     "i": 6.052,
+     "f": 6.482
+    },
+    {
+     "p": "algo",
+     "i": 6.716,
+     "f": 6.99
+    },
+    {
+     "p": "perto",
+     "i": 7.003,
+     "f": 7.406
+    },
+    {
+     "p": "de",
+     "i": 7.419,
+     "f": 7.523
+    },
+    {
+     "p": "vinte",
+     "i": 7.536,
+     "f": 7.771
+    },
+    {
+     "p": "e",
+     "i": 7.784,
+     "f": 7.797
+    },
+    {
+     "p": "dois",
+     "i": 7.81,
+     "f": 8.005
+    },
+    {
+     "p": "por",
+     "i": 8.018,
+     "f": 8.162
+    },
+    {
+     "p": "cento",
+     "i": 8.174,
+     "f": 8.526
+    },
+    {
+     "p": "segundo",
+     "i": 8.539,
+     "f": 8.865
+    },
+    {
+     "p": "as",
+     "i": 8.878,
+     "f": 8.995
+    },
+    {
+     "p": "fontes",
+     "i": 9.008,
+     "f": 9.529
+    },
+    {
+     "p": "foi",
+     "i": 9.828,
+     "f": 10.01
+    },
+    {
+     "p": "triturada",
+     "i": 10.023,
+     "f": 10.622
+    },
+    {
+     "p": "e",
+     "i": 10.635,
+     "f": 10.687
+    },
+    {
+     "p": "virou",
+     "i": 10.701,
+     "f": 10.935
+    },
+    {
+     "p": "agregado",
+     "i": 10.948,
+     "f": 11.469
+    },
+    {
+     "p": "do",
+     "i": 11.482,
+     "f": 11.573
+    },
+    {
+     "p": "concreto",
+     "i": 11.586,
+     "f": 12.146
+    },
+    {
+     "p": "que",
+     "i": 12.159,
+     "f": 12.25
+    },
+    {
+     "p": "reveste",
+     "i": 12.263,
+     "f": 12.784
+    },
+    {
+     "p": "as",
+     "i": 12.797,
+     "f": 12.901
+    },
+    {
+     "p": "paredes",
+     "i": 12.914,
+     "f": 13.565
+    },
+    {
+     "p": "Usinas",
+     "i": 13.847,
+     "f": 14.342
+    },
+    {
+     "p": "de",
+     "i": 14.355,
+     "f": 14.42
+    },
+    {
+     "p": "britagem",
+     "i": 14.433,
+     "f": 15.006
+    },
+    {
+     "p": "funcionaram",
+     "i": 15.019,
+     "f": 15.618
+    },
+    {
+     "p": "em",
+     "i": 15.631,
+     "f": 15.735
+    },
+    {
+     "p": "Amsteg",
+     "i": 15.748,
+     "f": 16.178
+    },
+    {
+     "p": "em",
+     "i": 16.412,
+     "f": 16.477
+    },
+    {
+     "p": "Sedrun",
+     "i": 16.49,
+     "f": 16.985
+    },
+    {
+     "p": "e",
+     "i": 16.998,
+     "f": 17.037
+    },
+    {
+     "p": "em",
+     "i": 17.05,
+     "f": 17.128
+    },
+    {
+     "p": "Bodio",
+     "i": 17.141,
+     "f": 17.636
+    },
+    {
+     "p": "A",
+     "i": 17.918,
+     "f": 18.048
+    },
+    {
+     "p": "conta",
+     "i": 18.061,
+     "f": 18.413
+    },
+    {
+     "p": "é",
+     "i": 18.426,
+     "f": 18.465
+    },
+    {
+     "p": "boa",
+     "i": 18.478,
+     "f": 18.817
+    },
+    {
+     "p": "menos",
+     "i": 19.064,
+     "f": 19.455
+    },
+    {
+     "p": "pedra",
+     "i": 19.468,
+     "f": 19.806
+    },
+    {
+     "p": "comprada",
+     "i": 19.819,
+     "f": 20.366
+    },
+    {
+     "p": "menos",
+     "i": 20.6,
+     "f": 20.965
+    },
+    {
+     "p": "caminhão",
+     "i": 20.978,
+     "f": 21.434
+    },
+    {
+     "p": "rodando",
+     "i": 21.447,
+     "f": 21.889
+    },
+    {
+     "p": "nos",
+     "i": 21.902,
+     "f": 22.098
+    },
+    {
+     "p": "vales",
+     "i": 22.111,
+     "f": 22.632
+    },
+    {
+     "p": "Mas",
+     "i": 22.914,
+     "f": 23.135
+    },
+    {
+     "p": "o",
+     "i": 23.148,
+     "f": 23.292
+    },
+    {
+     "p": "resto",
+     "i": 23.305,
+     "f": 23.734
+    },
+    {
+     "p": "milhões",
+     "i": 24.047,
+     "f": 24.542
+    },
+    {
+     "p": "de",
+     "i": 24.555,
+     "f": 24.672
+    },
+    {
+     "p": "toneladas",
+     "i": 24.685,
+     "f": 25.414
+    },
+    {
+     "p": "precisava",
+     "i": 25.635,
+     "f": 26.3
+    },
+    {
+     "p": "de",
+     "i": 26.313,
+     "f": 26.456
+    },
+    {
+     "p": "outro",
+     "i": 26.469,
+     "f": 26.755
+    },
+    {
+     "p": "destino",
+     "i": 26.768,
+     "f": 27.328
+    },
+    {
+     "p": "E",
+     "i": 27.61,
+     "f": 27.714
+    },
+    {
+     "p": "nenhuma",
+     "i": 27.727,
+     "f": 28.092
+    },
+    {
+     "p": "montanha",
+     "i": 28.105,
+     "f": 28.6
+    },
+    {
+     "p": "aceita",
+     "i": 28.613,
+     "f": 28.99
+    },
+    {
+     "p": "receber",
+     "i": 29.003,
+     "f": 29.42
+    },
+    {
+     "p": "outra",
+     "i": 29.433,
+     "f": 29.667
+    },
+    {
+     "p": "montanha",
+     "i": 29.68,
+     "f": 30.175
+    },
+    {
+     "p": "em",
+     "i": 30.188,
+     "f": 30.253
+    },
+    {
+     "p": "silêncio",
+     "i": 30.266,
+     "f": 30.891
+    }
+   ]
+  },
+  "o-preco": {
+   "hash": "4db91cf956",
+   "texto": "A primeira explosão foi em novembro de mil novecentos e noventa e nove. As tuneladoras só entraram em ação a partir de dois mil e três, e em boa parte do trajeto a obra seguiu com explosivos, metro a metro. Ao todo, nove operários morreram durante a construção, e o custo final chegou a doze vírgula dois bilhões de francos suíços. Era dinheiro de impostos e de votos, e uma pergunta ficava no ar: valia a pena cavar tão fundo, e tão reto?",
+   "audio": "audio/o-preco-4db91cf956.mp3",
+   "duracao": 28.38,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "primeira",
+     "i": 0.245,
+     "f": 0.571
+    },
+    {
+     "p": "explosão",
+     "i": 0.584,
+     "f": 1.157
+    },
+    {
+     "p": "foi",
+     "i": 1.17,
+     "f": 1.3
+    },
+    {
+     "p": "em",
+     "i": 1.313,
+     "f": 1.365
+    },
+    {
+     "p": "novembro",
+     "i": 1.378,
+     "f": 1.912
+    },
+    {
+     "p": "de",
+     "i": 1.925,
+     "f": 2.042
+    },
+    {
+     "p": "mil",
+     "i": 2.055,
+     "f": 2.185
+    },
+    {
+     "p": "novecentos",
+     "i": 2.198,
+     "f": 2.784
+    },
+    {
+     "p": "e",
+     "i": 2.797,
+     "f": 2.889
+    },
+    {
+     "p": "noventa",
+     "i": 2.902,
+     "f": 3.227
+    },
+    {
+     "p": "e",
+     "i": 3.24,
+     "f": 3.279
+    },
+    {
+     "p": "nove",
+     "i": 3.292,
+     "f": 3.696
+    },
+    {
+     "p": "As",
+     "i": 3.978,
+     "f": 4.199
+    },
+    {
+     "p": "tuneladoras",
+     "i": 4.212,
+     "f": 5.02
+    },
+    {
+     "p": "só",
+     "i": 5.033,
+     "f": 5.176
+    },
+    {
+     "p": "entraram",
+     "i": 5.189,
+     "f": 5.645
+    },
+    {
+     "p": "em",
+     "i": 5.658,
+     "f": 5.749
+    },
+    {
+     "p": "ação",
+     "i": 5.762,
+     "f": 6.14
+    },
+    {
+     "p": "a",
+     "i": 6.153,
+     "f": 6.192
+    },
+    {
+     "p": "partir",
+     "i": 6.205,
+     "f": 6.582
+    },
+    {
+     "p": "de",
+     "i": 6.595,
+     "f": 6.699
+    },
+    {
+     "p": "dois",
+     "i": 6.712,
+     "f": 6.921
+    },
+    {
+     "p": "mil",
+     "i": 6.934,
+     "f": 7.038
+    },
+    {
+     "p": "e",
+     "i": 7.051,
+     "f": 7.129
+    },
+    {
+     "p": "três",
+     "i": 7.142,
+     "f": 7.52
+    },
+    {
+     "p": "e",
+     "i": 7.845,
+     "f": 7.871
+    },
+    {
+     "p": "em",
+     "i": 7.884,
+     "f": 8.015
+    },
+    {
+     "p": "boa",
+     "i": 8.028,
+     "f": 8.327
+    },
+    {
+     "p": "parte",
+     "i": 8.34,
+     "f": 8.718
+    },
+    {
+     "p": "do",
+     "i": 8.731,
+     "f": 8.835
+    },
+    {
+     "p": "trajeto",
+     "i": 8.848,
+     "f": 9.369
+    },
+    {
+     "p": "a",
+     "i": 9.382,
+     "f": 9.434
+    },
+    {
+     "p": "obra",
+     "i": 9.447,
+     "f": 9.759
+    },
+    {
+     "p": "seguiu",
+     "i": 9.772,
+     "f": 10.176
+    },
+    {
+     "p": "com",
+     "i": 10.189,
+     "f": 10.345
+    },
+    {
+     "p": "explosivos",
+     "i": 10.358,
+     "f": 11.127
+    },
+    {
+     "p": "metro",
+     "i": 11.322,
+     "f": 11.686
+    },
+    {
+     "p": "a",
+     "i": 11.699,
+     "f": 11.725
+    },
+    {
+     "p": "metro",
+     "i": 11.738,
+     "f": 12.181
+    },
+    {
+     "p": "Ao",
+     "i": 12.463,
+     "f": 12.671
+    },
+    {
+     "p": "todo",
+     "i": 12.684,
+     "f": 13.075
+    },
+    {
+     "p": "nove",
+     "i": 13.336,
+     "f": 13.648
+    },
+    {
+     "p": "operários",
+     "i": 13.661,
+     "f": 14.169
+    },
+    {
+     "p": "morreram",
+     "i": 14.182,
+     "f": 14.625
+    },
+    {
+     "p": "durante",
+     "i": 14.638,
+     "f": 14.976
+    },
+    {
+     "p": "a",
+     "i": 14.989,
+     "f": 15.028
+    },
+    {
+     "p": "construção",
+     "i": 15.041,
+     "f": 15.705
+    },
+    {
+     "p": "e",
+     "i": 16.07,
+     "f": 16.187
+    },
+    {
+     "p": "o",
+     "i": 16.2,
+     "f": 16.278
+    },
+    {
+     "p": "custo",
+     "i": 16.291,
+     "f": 16.695
+    },
+    {
+     "p": "final",
+     "i": 16.708,
+     "f": 17.046
+    },
+    {
+     "p": "chegou",
+     "i": 17.059,
+     "f": 17.45
+    },
+    {
+     "p": "a",
+     "i": 17.463,
+     "f": 17.554
+    },
+    {
+     "p": "doze",
+     "i": 17.567,
+     "f": 17.945
+    },
+    {
+     "p": "vírgula",
+     "i": 17.958,
+     "f": 18.322
+    },
+    {
+     "p": "dois",
+     "i": 18.335,
+     "f": 18.609
+    },
+    {
+     "p": "bilhões",
+     "i": 18.622,
+     "f": 19.143
+    },
+    {
+     "p": "de",
+     "i": 19.156,
+     "f": 19.26
+    },
+    {
+     "p": "francos",
+     "i": 19.273,
+     "f": 19.703
+    },
+    {
+     "p": "suíços",
+     "i": 19.716,
+     "f": 20.328
+    },
+    {
+     "p": "Era",
+     "i": 20.61,
+     "f": 20.884
+    },
+    {
+     "p": "dinheiro",
+     "i": 20.897,
+     "f": 21.287
+    },
+    {
+     "p": "de",
+     "i": 21.3,
+     "f": 21.391
+    },
+    {
+     "p": "impostos",
+     "i": 21.404,
+     "f": 21.938
+    },
+    {
+     "p": "e",
+     "i": 21.951,
+     "f": 22.055
+    },
+    {
+     "p": "de",
+     "i": 22.068,
+     "f": 22.186
+    },
+    {
+     "p": "votos",
+     "i": 22.199,
+     "f": 22.706
+    },
+    {
+     "p": "e",
+     "i": 23.032,
+     "f": 23.11
+    },
+    {
+     "p": "uma",
+     "i": 23.123,
+     "f": 23.279
+    },
+    {
+     "p": "pergunta",
+     "i": 23.292,
+     "f": 23.774
+    },
+    {
+     "p": "ficava",
+     "i": 23.787,
+     "f": 24.191
+    },
+    {
+     "p": "no",
+     "i": 24.204,
+     "f": 24.347
+    },
+    {
+     "p": "ar",
+     "i": 24.36,
+     "f": 24.555
+    },
+    {
+     "p": "valia",
+     "i": 24.894,
+     "f": 25.298
+    },
+    {
+     "p": "a",
+     "i": 25.311,
+     "f": 25.363
+    },
+    {
+     "p": "pena",
+     "i": 25.376,
+     "f": 25.649
+    },
+    {
+     "p": "cavar",
+     "i": 25.662,
+     "f": 26.014
+    },
+    {
+     "p": "tão",
+     "i": 26.027,
+     "f": 26.261
+    },
+    {
+     "p": "fundo",
+     "i": 26.274,
+     "f": 26.704
+    },
+    {
+     "p": "e",
+     "i": 26.912,
+     "f": 27.029
+    },
+    {
+     "p": "tão",
+     "i": 27.042,
+     "f": 27.277
+    },
+    {
+     "p": "reto",
+     "i": 27.29,
+     "f": 27.68
+    }
+   ]
+  },
+  "a-pontaria": {
+   "hash": "0024456484",
+   "texto": "Agora, o maior desafio de pontaria. Duas frentes avançavam uma em direção à outra, e nenhuma enxergava a outra. A única referência vinha da superfície, onde uma rede de pontos medidos com precisão guiava a obra, e dos poços de Sedrun, por onde a medida descia até o fundo. Qualquer erro minúsculo, repetido em dezenas de quilômetros, viraria um desvio de metros. Por isso as medições eram refeitas e conferidas muitas vezes, por equipes diferentes. Faltava saber se isso bastava.",
+   "audio": "audio/a-pontaria-0024456484.mp3",
+   "duracao": 31.55,
+   "palavras": [
+    {
+     "p": "Agora",
+     "i": 0.102,
+     "f": 0.649
+    },
+    {
+     "p": "o",
+     "i": 0.922,
+     "f": 0.974
+    },
+    {
+     "p": "maior",
+     "i": 0.988,
+     "f": 1.352
+    },
+    {
+     "p": "desafio",
+     "i": 1.365,
+     "f": 1.847
+    },
+    {
+     "p": "de",
+     "i": 1.86,
+     "f": 1.938
+    },
+    {
+     "p": "pontaria",
+     "i": 1.951,
+     "f": 2.589
+    },
+    {
+     "p": "Duas",
+     "i": 2.872,
+     "f": 3.289
+    },
+    {
+     "p": "frentes",
+     "i": 3.302,
+     "f": 3.705
+    },
+    {
+     "p": "avançavam",
+     "i": 3.718,
+     "f": 4.422
+    },
+    {
+     "p": "uma",
+     "i": 4.435,
+     "f": 4.552
+    },
+    {
+     "p": "em",
+     "i": 4.565,
+     "f": 4.617
+    },
+    {
+     "p": "direção",
+     "i": 4.63,
+     "f": 5.138
+    },
+    {
+     "p": "à",
+     "i": 5.151,
+     "f": 5.216
+    },
+    {
+     "p": "outra",
+     "i": 5.229,
+     "f": 5.619
+    },
+    {
+     "p": "e",
+     "i": 5.971,
+     "f": 6.062
+    },
+    {
+     "p": "nenhuma",
+     "i": 6.075,
+     "f": 6.466
+    },
+    {
+     "p": "enxergava",
+     "i": 6.479,
+     "f": 7.052
+    },
+    {
+     "p": "a",
+     "i": 7.065,
+     "f": 7.13
+    },
+    {
+     "p": "outra",
+     "i": 7.143,
+     "f": 7.521
+    },
+    {
+     "p": "A",
+     "i": 7.803,
+     "f": 7.959
+    },
+    {
+     "p": "única",
+     "i": 7.972,
+     "f": 8.363
+    },
+    {
+     "p": "referência",
+     "i": 8.376,
+     "f": 9.001
+    },
+    {
+     "p": "vinha",
+     "i": 9.014,
+     "f": 9.235
+    },
+    {
+     "p": "da",
+     "i": 9.248,
+     "f": 9.34
+    },
+    {
+     "p": "superfície",
+     "i": 9.353,
+     "f": 10.108
+    },
+    {
+     "p": "onde",
+     "i": 10.368,
+     "f": 10.616
+    },
+    {
+     "p": "uma",
+     "i": 10.629,
+     "f": 10.785
+    },
+    {
+     "p": "rede",
+     "i": 10.798,
+     "f": 11.149
+    },
+    {
+     "p": "de",
+     "i": 11.162,
+     "f": 11.267
+    },
+    {
+     "p": "pontos",
+     "i": 11.28,
+     "f": 11.709
+    },
+    {
+     "p": "medidos",
+     "i": 11.722,
+     "f": 12.191
+    },
+    {
+     "p": "com",
+     "i": 12.204,
+     "f": 12.36
+    },
+    {
+     "p": "precisão",
+     "i": 12.373,
+     "f": 12.816
+    },
+    {
+     "p": "guiava",
+     "i": 12.829,
+     "f": 13.207
+    },
+    {
+     "p": "a",
+     "i": 13.22,
+     "f": 13.259
+    },
+    {
+     "p": "obra",
+     "i": 13.272,
+     "f": 13.597
+    },
+    {
+     "p": "e",
+     "i": 13.949,
+     "f": 14.027
+    },
+    {
+     "p": "dos",
+     "i": 14.04,
+     "f": 14.235
+    },
+    {
+     "p": "poços",
+     "i": 14.248,
+     "f": 14.652
+    },
+    {
+     "p": "de",
+     "i": 14.665,
+     "f": 14.756
+    },
+    {
+     "p": "Sedrun",
+     "i": 14.769,
+     "f": 15.199
+    },
+    {
+     "p": "por",
+     "i": 15.498,
+     "f": 15.681
+    },
+    {
+     "p": "onde",
+     "i": 15.694,
+     "f": 15.902
+    },
+    {
+     "p": "a",
+     "i": 15.915,
+     "f": 15.941
+    },
+    {
+     "p": "medida",
+     "i": 15.954,
+     "f": 16.332
+    },
+    {
+     "p": "descia",
+     "i": 16.345,
+     "f": 16.683
+    },
+    {
+     "p": "até",
+     "i": 16.696,
+     "f": 16.879
+    },
+    {
+     "p": "o",
+     "i": 16.892,
+     "f": 16.944
+    },
+    {
+     "p": "fundo",
+     "i": 16.957,
+     "f": 17.386
+    },
+    {
+     "p": "Qualquer",
+     "i": 17.668,
+     "f": 18.163
+    },
+    {
+     "p": "erro",
+     "i": 18.176,
+     "f": 18.436
+    },
+    {
+     "p": "minúsculo",
+     "i": 18.449,
+     "f": 19.009
+    },
+    {
+     "p": "repetido",
+     "i": 19.27,
+     "f": 19.817
+    },
+    {
+     "p": "em",
+     "i": 19.83,
+     "f": 19.882
+    },
+    {
+     "p": "dezenas",
+     "i": 19.895,
+     "f": 20.363
+    },
+    {
+     "p": "de",
+     "i": 20.376,
+     "f": 20.468
+    },
+    {
+     "p": "quilômetros",
+     "i": 20.481,
+     "f": 21.158
+    },
+    {
+     "p": "viraria",
+     "i": 21.379,
+     "f": 21.822
+    },
+    {
+     "p": "um",
+     "i": 21.835,
+     "f": 21.939
+    },
+    {
+     "p": "desvio",
+     "i": 21.952,
+     "f": 22.395
+    },
+    {
+     "p": "de",
+     "i": 22.408,
+     "f": 22.512
+    },
+    {
+     "p": "metros",
+     "i": 22.525,
+     "f": 23.059
+    },
+    {
+     "p": "Por",
+     "i": 23.342,
+     "f": 23.537
+    },
+    {
+     "p": "isso",
+     "i": 23.55,
+     "f": 23.824
+    },
+    {
+     "p": "as",
+     "i": 23.837,
+     "f": 23.928
+    },
+    {
+     "p": "medições",
+     "i": 23.941,
+     "f": 24.514
+    },
+    {
+     "p": "eram",
+     "i": 24.527,
+     "f": 24.761
+    },
+    {
+     "p": "refeitas",
+     "i": 24.774,
+     "f": 25.243
+    },
+    {
+     "p": "e",
+     "i": 25.256,
+     "f": 25.347
+    },
+    {
+     "p": "conferidas",
+     "i": 25.36,
+     "f": 25.972
+    },
+    {
+     "p": "muitas",
+     "i": 25.985,
+     "f": 26.441
+    },
+    {
+     "p": "vezes",
+     "i": 26.454,
+     "f": 26.91
+    },
+    {
+     "p": "por",
+     "i": 27.17,
+     "f": 27.287
+    },
+    {
+     "p": "equipes",
+     "i": 27.3,
+     "f": 27.73
+    },
+    {
+     "p": "diferentes",
+     "i": 27.743,
+     "f": 28.524
+    },
+    {
+     "p": "Faltava",
+     "i": 28.806,
+     "f": 29.366
+    },
+    {
+     "p": "saber",
+     "i": 29.379,
+     "f": 29.783
+    },
+    {
+     "p": "se",
+     "i": 29.796,
+     "f": 29.991
+    },
+    {
+     "p": "isso",
+     "i": 30.004,
+     "f": 30.238
+    },
+    {
+     "p": "bastava",
+     "i": 30.251,
+     "f": 30.85
+    }
+   ]
+  },
+  "o-encontro": {
+   "hash": "89d94d0063",
+   "texto": "Quinze de outubro de dois mil e dez, uma sexta-feira. A tuneladora avançou pelos últimos metros de rocha entre Sedrun e Faido, a cerca de trinta quilômetros da entrada sul. Então o disco de corte rompeu a parede e a luz passou. Os topógrafos mediram: oito centímetros de desvio na horizontal e um centímetro na vertical. Em cinquenta e sete quilômetros de montanha, menos que a largura de uma mão. O tubo oeste seria concluído em março de dois mil e onze.",
+   "audio": "audio/o-encontro-89d94d0063.mp3",
+   "duracao": 28.71,
+   "palavras": [
+    {
+     "p": "Quinze",
+     "i": 0.102,
+     "f": 0.454
+    },
+    {
+     "p": "de",
+     "i": 0.467,
+     "f": 0.558
+    },
+    {
+     "p": "outubro",
+     "i": 0.571,
+     "f": 1.014
+    },
+    {
+     "p": "de",
+     "i": 1.027,
+     "f": 1.105
+    },
+    {
+     "p": "dois",
+     "i": 1.118,
+     "f": 1.313
+    },
+    {
+     "p": "mil",
+     "i": 1.326,
+     "f": 1.443
+    },
+    {
+     "p": "e",
+     "i": 1.456,
+     "f": 1.508
+    },
+    {
+     "p": "dez",
+     "i": 1.521,
+     "f": 1.912
+    },
+    {
+     "p": "uma",
+     "i": 2.211,
+     "f": 2.407
+    },
+    {
+     "p": "sexta-feira",
+     "i": 2.42,
+     "f": 3.227
+    },
+    {
+     "p": "A",
+     "i": 3.509,
+     "f": 3.639
+    },
+    {
+     "p": "tuneladora",
+     "i": 3.652,
+     "f": 4.368
+    },
+    {
+     "p": "avançou",
+     "i": 4.382,
+     "f": 4.824
+    },
+    {
+     "p": "pelos",
+     "i": 4.837,
+     "f": 5.059
+    },
+    {
+     "p": "últimos",
+     "i": 5.072,
+     "f": 5.514
+    },
+    {
+     "p": "metros",
+     "i": 5.527,
+     "f": 5.97
+    },
+    {
+     "p": "de",
+     "i": 5.983,
+     "f": 6.074
+    },
+    {
+     "p": "rocha",
+     "i": 6.087,
+     "f": 6.504
+    },
+    {
+     "p": "entre",
+     "i": 6.517,
+     "f": 6.712
+    },
+    {
+     "p": "Sedrun",
+     "i": 6.725,
+     "f": 7.103
+    },
+    {
+     "p": "e",
+     "i": 7.116,
+     "f": 7.181
+    },
+    {
+     "p": "Faido",
+     "i": 7.194,
+     "f": 7.663
+    },
+    {
+     "p": "a",
+     "i": 7.949,
+     "f": 8.014
+    },
+    {
+     "p": "cerca",
+     "i": 8.027,
+     "f": 8.47
+    },
+    {
+     "p": "de",
+     "i": 8.483,
+     "f": 8.626
+    },
+    {
+     "p": "trinta",
+     "i": 8.639,
+     "f": 8.939
+    },
+    {
+     "p": "quilômetros",
+     "i": 8.952,
+     "f": 9.538
+    },
+    {
+     "p": "da",
+     "i": 9.551,
+     "f": 9.668
+    },
+    {
+     "p": "entrada",
+     "i": 9.681,
+     "f": 10.072
+    },
+    {
+     "p": "sul.",
+     "i": 10.085,
+     "f": 10.436
+    },
+    {
+     "p": "Então",
+     "i": 10.719,
+     "f": 11.175
+    },
+    {
+     "p": "o",
+     "i": 11.188,
+     "f": 11.24
+    },
+    {
+     "p": "disco",
+     "i": 11.253,
+     "f": 11.631
+    },
+    {
+     "p": "de",
+     "i": 11.644,
+     "f": 11.761
+    },
+    {
+     "p": "corte",
+     "i": 11.774,
+     "f": 12.151
+    },
+    {
+     "p": "rompeu",
+     "i": 12.164,
+     "f": 12.542
+    },
+    {
+     "p": "a",
+     "i": 12.555,
+     "f": 12.607
+    },
+    {
+     "p": "parede",
+     "i": 12.62,
+     "f": 13.102
+    },
+    {
+     "p": "e",
+     "i": 13.115,
+     "f": 13.154
+    },
+    {
+     "p": "a",
+     "i": 13.167,
+     "f": 13.232
+    },
+    {
+     "p": "luz",
+     "i": 13.245,
+     "f": 13.532
+    },
+    {
+     "p": "passou",
+     "i": 13.545,
+     "f": 14.026
+    },
+    {
+     "p": "Os",
+     "i": 14.308,
+     "f": 14.477
+    },
+    {
+     "p": "topógrafos",
+     "i": 14.49,
+     "f": 15.167
+    },
+    {
+     "p": "mediram",
+     "i": 15.181,
+     "f": 15.636
+    },
+    {
+     "p": "oito",
+     "i": 15.949,
+     "f": 16.17
+    },
+    {
+     "p": "centímetros",
+     "i": 16.183,
+     "f": 16.886
+    },
+    {
+     "p": "de",
+     "i": 16.899,
+     "f": 16.99
+    },
+    {
+     "p": "desvio",
+     "i": 17.003,
+     "f": 17.433
+    },
+    {
+     "p": "na",
+     "i": 17.446,
+     "f": 17.576
+    },
+    {
+     "p": "horizontal",
+     "i": 17.589,
+     "f": 18.332
+    },
+    {
+     "p": "e",
+     "i": 18.345,
+     "f": 18.371
+    },
+    {
+     "p": "um",
+     "i": 18.384,
+     "f": 18.475
+    },
+    {
+     "p": "centímetro",
+     "i": 18.488,
+     "f": 19.191
+    },
+    {
+     "p": "na",
+     "i": 19.204,
+     "f": 19.334
+    },
+    {
+     "p": "vertical",
+     "i": 19.347,
+     "f": 19.92
+    },
+    {
+     "p": "Em",
+     "i": 20.202,
+     "f": 20.358
+    },
+    {
+     "p": "cinquenta",
+     "i": 20.371,
+     "f": 20.892
+    },
+    {
+     "p": "e",
+     "i": 20.905,
+     "f": 20.931
+    },
+    {
+     "p": "sete",
+     "i": 20.944,
+     "f": 21.231
+    },
+    {
+     "p": "quilômetros",
+     "i": 21.244,
+     "f": 21.817
+    },
+    {
+     "p": "de",
+     "i": 21.83,
+     "f": 21.882
+    },
+    {
+     "p": "montanha",
+     "i": 21.895,
+     "f": 22.481
+    },
+    {
+     "p": "menos",
+     "i": 22.702,
+     "f": 23.08
+    },
+    {
+     "p": "que",
+     "i": 23.093,
+     "f": 23.171
+    },
+    {
+     "p": "a",
+     "i": 23.184,
+     "f": 23.21
+    },
+    {
+     "p": "largura",
+     "i": 23.223,
+     "f": 23.757
+    },
+    {
+     "p": "de",
+     "i": 23.77,
+     "f": 23.874
+    },
+    {
+     "p": "uma",
+     "i": 23.887,
+     "f": 24.056
+    },
+    {
+     "p": "mão",
+     "i": 24.069,
+     "f": 24.382
+    },
+    {
+     "p": "O",
+     "i": 24.664,
+     "f": 24.82
+    },
+    {
+     "p": "tubo",
+     "i": 24.833,
+     "f": 25.159
+    },
+    {
+     "p": "oeste",
+     "i": 25.172,
+     "f": 25.589
+    },
+    {
+     "p": "seria",
+     "i": 25.602,
+     "f": 25.901
+    },
+    {
+     "p": "concluído",
+     "i": 25.914,
+     "f": 26.487
+    },
+    {
+     "p": "em",
+     "i": 26.5,
+     "f": 26.604
+    },
+    {
+     "p": "março",
+     "i": 26.617,
+     "f": 26.995
+    },
+    {
+     "p": "de",
+     "i": 27.008,
+     "f": 27.099
+    },
+    {
+     "p": "dois",
+     "i": 27.112,
+     "f": 27.32
+    },
+    {
+     "p": "mil",
+     "i": 27.333,
+     "f": 27.49
+    },
+    {
+     "p": "e",
+     "i": 27.503,
+     "f": 27.62
+    },
+    {
+     "p": "onze",
+     "i": 27.633,
+     "f": 28.01
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "f33ad5aafd",
+   "texto": "Voltemos ao gancho. Por que plano? Porque a Suíça quis que a montanha deixasse de ser obstáculo e virasse atalho. Com a linha baixa e reta, o trem de passageiros cruza a cerca de duzentos quilômetros por hora, e a carga pesada ganha uma rota sem as subidas do passado, tirando caminhões das estradas dos Alpes. Em primeiro de junho de dois mil e dezesseis, o túnel foi inaugurado, e em dezembro começaram os serviços regulares. Em dois mil e vinte e três, um descarrilamento de trem de carga o fechou por mais de um ano, uma lembrança de que até a obra mais precisa depende de manutenção.",
+   "audio": "audio/desfecho-f33ad5aafd.mp3",
+   "duracao": 35.737,
+   "palavras": [
+    {
+     "p": "Voltemos",
+     "i": 0.102,
+     "f": 0.701
+    },
+    {
+     "p": "ao",
+     "i": 0.714,
+     "f": 0.883
+    },
+    {
+     "p": "gancho",
+     "i": 0.896,
+     "f": 1.352
+    },
+    {
+     "p": "Por",
+     "i": 1.634,
+     "f": 1.816
+    },
+    {
+     "p": "que",
+     "i": 1.829,
+     "f": 2.025
+    },
+    {
+     "p": "plano",
+     "i": 2.038,
+     "f": 2.48
+    },
+    {
+     "p": "Porque",
+     "i": 2.822,
+     "f": 3.096
+    },
+    {
+     "p": "a",
+     "i": 3.109,
+     "f": 3.174
+    },
+    {
+     "p": "Suíça",
+     "i": 3.187,
+     "f": 3.707
+    },
+    {
+     "p": "quis",
+     "i": 3.721,
+     "f": 3.929
+    },
+    {
+     "p": "que",
+     "i": 3.942,
+     "f": 4.007
+    },
+    {
+     "p": "a",
+     "i": 4.02,
+     "f": 4.046
+    },
+    {
+     "p": "montanha",
+     "i": 4.059,
+     "f": 4.502
+    },
+    {
+     "p": "deixasse",
+     "i": 4.515,
+     "f": 5.01
+    },
+    {
+     "p": "de",
+     "i": 5.023,
+     "f": 5.14
+    },
+    {
+     "p": "ser",
+     "i": 5.153,
+     "f": 5.335
+    },
+    {
+     "p": "obstáculo",
+     "i": 5.348,
+     "f": 6.025
+    },
+    {
+     "p": "e",
+     "i": 6.038,
+     "f": 6.129
+    },
+    {
+     "p": "virasse",
+     "i": 6.142,
+     "f": 6.572
+    },
+    {
+     "p": "atalho",
+     "i": 6.585,
+     "f": 7.002
+    },
+    {
+     "p": "Com",
+     "i": 7.284,
+     "f": 7.531
+    },
+    {
+     "p": "a",
+     "i": 7.544,
+     "f": 7.571
+    },
+    {
+     "p": "linha",
+     "i": 7.584,
+     "f": 7.857
+    },
+    {
+     "p": "baixa",
+     "i": 7.87,
+     "f": 8.274
+    },
+    {
+     "p": "e",
+     "i": 8.287,
+     "f": 8.326
+    },
+    {
+     "p": "reta",
+     "i": 8.339,
+     "f": 8.755
+    },
+    {
+     "p": "o",
+     "i": 9.081,
+     "f": 9.198
+    },
+    {
+     "p": "trem",
+     "i": 9.211,
+     "f": 9.459
+    },
+    {
+     "p": "de",
+     "i": 9.472,
+     "f": 9.589
+    },
+    {
+     "p": "passageiros",
+     "i": 9.602,
+     "f": 10.279
+    },
+    {
+     "p": "cruza",
+     "i": 10.292,
+     "f": 10.63
+    },
+    {
+     "p": "a",
+     "i": 10.643,
+     "f": 10.669
+    },
+    {
+     "p": "cerca",
+     "i": 10.683,
+     "f": 11.06
+    },
+    {
+     "p": "de",
+     "i": 11.073,
+     "f": 11.164
+    },
+    {
+     "p": "duzentos",
+     "i": 11.177,
+     "f": 11.737
+    },
+    {
+     "p": "quilômetros",
+     "i": 11.75,
+     "f": 12.323
+    },
+    {
+     "p": "por",
+     "i": 12.336,
+     "f": 12.505
+    },
+    {
+     "p": "hora",
+     "i": 12.518,
+     "f": 12.792
+    },
+    {
+     "p": "e",
+     "i": 13.13,
+     "f": 13.222
+    },
+    {
+     "p": "a",
+     "i": 13.235,
+     "f": 13.326
+    },
+    {
+     "p": "carga",
+     "i": 13.339,
+     "f": 13.69
+    },
+    {
+     "p": "pesada",
+     "i": 13.703,
+     "f": 14.185
+    },
+    {
+     "p": "ganha",
+     "i": 14.198,
+     "f": 14.406
+    },
+    {
+     "p": "uma",
+     "i": 14.419,
+     "f": 14.55
+    },
+    {
+     "p": "rota",
+     "i": 14.563,
+     "f": 14.888
+    },
+    {
+     "p": "sem",
+     "i": 14.901,
+     "f": 15.11
+    },
+    {
+     "p": "as",
+     "i": 15.123,
+     "f": 15.227
+    },
+    {
+     "p": "subidas",
+     "i": 15.24,
+     "f": 15.696
+    },
+    {
+     "p": "do",
+     "i": 15.709,
+     "f": 15.826
+    },
+    {
+     "p": "passado",
+     "i": 15.839,
+     "f": 16.36
+    },
+    {
+     "p": "tirando",
+     "i": 16.646,
+     "f": 16.985
+    },
+    {
+     "p": "caminhões",
+     "i": 16.998,
+     "f": 17.518
+    },
+    {
+     "p": "das",
+     "i": 17.532,
+     "f": 17.636
+    },
+    {
+     "p": "estradas",
+     "i": 17.649,
+     "f": 18.183
+    },
+    {
+     "p": "dos",
+     "i": 18.196,
+     "f": 18.326
+    },
+    {
+     "p": "Alpes",
+     "i": 18.339,
+     "f": 18.899
+    },
+    {
+     "p": "Em",
+     "i": 19.181,
+     "f": 19.337
+    },
+    {
+     "p": "primeiro",
+     "i": 19.35,
+     "f": 19.728
+    },
+    {
+     "p": "de",
+     "i": 19.741,
+     "f": 19.832
+    },
+    {
+     "p": "junho",
+     "i": 19.845,
+     "f": 20.197
+    },
+    {
+     "p": "de",
+     "i": 20.21,
+     "f": 20.301
+    },
+    {
+     "p": "dois",
+     "i": 20.314,
+     "f": 20.496
+    },
+    {
+     "p": "mil",
+     "i": 20.509,
+     "f": 20.613
+    },
+    {
+     "p": "e",
+     "i": 20.626,
+     "f": 20.665
+    },
+    {
+     "p": "dezesseis",
+     "i": 20.678,
+     "f": 21.343
+    },
+    {
+     "p": "o",
+     "i": 21.681,
+     "f": 21.798
+    },
+    {
+     "p": "túnel",
+     "i": 21.811,
+     "f": 22.124
+    },
+    {
+     "p": "foi",
+     "i": 22.137,
+     "f": 22.306
+    },
+    {
+     "p": "inaugurado",
+     "i": 22.319,
+     "f": 23.009
+    },
+    {
+     "p": "e",
+     "i": 23.309,
+     "f": 23.387
+    },
+    {
+     "p": "em",
+     "i": 23.4,
+     "f": 23.491
+    },
+    {
+     "p": "dezembro",
+     "i": 23.504,
+     "f": 24.064
+    },
+    {
+     "p": "começaram",
+     "i": 24.077,
+     "f": 24.663
+    },
+    {
+     "p": "os",
+     "i": 24.676,
+     "f": 24.754
+    },
+    {
+     "p": "serviços",
+     "i": 24.767,
+     "f": 25.314
+    },
+    {
+     "p": "regulares",
+     "i": 25.327,
+     "f": 26.056
+    },
+    {
+     "p": "Em",
+     "i": 26.338,
+     "f": 26.455
+    },
+    {
+     "p": "dois",
+     "i": 26.468,
+     "f": 26.69
+    },
+    {
+     "p": "mil",
+     "i": 26.703,
+     "f": 26.833
+    },
+    {
+     "p": "e",
+     "i": 26.846,
+     "f": 26.898
+    },
+    {
+     "p": "vinte",
+     "i": 26.911,
+     "f": 27.106
+    },
+    {
+     "p": "e",
+     "i": 27.119,
+     "f": 27.158
+    },
+    {
+     "p": "três",
+     "i": 27.171,
+     "f": 27.549
+    },
+    {
+     "p": "um",
+     "i": 27.888,
+     "f": 28.005
+    },
+    {
+     "p": "descarrilamento",
+     "i": 28.018,
+     "f": 28.903
+    },
+    {
+     "p": "de",
+     "i": 28.916,
+     "f": 29.046
+    },
+    {
+     "p": "trem",
+     "i": 29.059,
+     "f": 29.242
+    },
+    {
+     "p": "de",
+     "i": 29.255,
+     "f": 29.385
+    },
+    {
+     "p": "carga",
+     "i": 29.398,
+     "f": 29.71
+    },
+    {
+     "p": "o",
+     "i": 29.723,
+     "f": 29.75
+    },
+    {
+     "p": "fechou",
+     "i": 29.763,
+     "f": 30.127
+    },
+    {
+     "p": "por",
+     "i": 30.14,
+     "f": 30.322
+    },
+    {
+     "p": "mais",
+     "i": 30.335,
+     "f": 30.583
+    },
+    {
+     "p": "de",
+     "i": 30.596,
+     "f": 30.674
+    },
+    {
+     "p": "um",
+     "i": 30.687,
+     "f": 30.856
+    },
+    {
+     "p": "ano",
+     "i": 30.869,
+     "f": 31.104
+    },
+    {
+     "p": "uma",
+     "i": 31.455,
+     "f": 31.638
+    },
+    {
+     "p": "lembrança",
+     "i": 31.651,
+     "f": 32.184
+    },
+    {
+     "p": "de",
+     "i": 32.197,
+     "f": 32.289
+    },
+    {
+     "p": "que",
+     "i": 32.302,
+     "f": 32.393
+    },
+    {
+     "p": "até",
+     "i": 32.406,
+     "f": 32.627
+    },
+    {
+     "p": "a",
+     "i": 32.64,
+     "f": 32.718
+    },
+    {
+     "p": "obra",
+     "i": 32.731,
+     "f": 33.018
+    },
+    {
+     "p": "mais",
+     "i": 33.031,
+     "f": 33.252
+    },
+    {
+     "p": "precisa",
+     "i": 33.265,
+     "f": 33.695
+    },
+    {
+     "p": "depende",
+     "i": 33.708,
+     "f": 34.177
+    },
+    {
+     "p": "de",
+     "i": 34.19,
+     "f": 34.294
+    },
+    {
+     "p": "manutenção",
+     "i": 34.307,
+     "f": 35.036
+    }
+   ]
+  },
+  "fecho": {
+   "hash": "971467b306",
+   "texto": "No fim, o túnel de São Gotardo não é só um furo na montanha. É a prova de que dá para planejar por décadas, errar por centímetros e, mesmo assim, chegar ao outro lado. Às vezes, a engenharia mais impressionante é a que ninguém vê, enquanto o trem simplesmente passa.",
+   "audio": "audio/fecho-971467b306.mp3",
+   "duracao": 17.851,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "fim",
+     "i": 0.31,
+     "f": 0.597
+    },
+    {
+     "p": "o",
+     "i": 0.909,
+     "f": 1.014
+    },
+    {
+     "p": "túnel",
+     "i": 1.027,
+     "f": 1.339
+    },
+    {
+     "p": "de",
+     "i": 1.352,
+     "f": 1.443
+    },
+    {
+     "p": "São",
+     "i": 1.456,
+     "f": 1.652
+    },
+    {
+     "p": "Gotardo",
+     "i": 1.665,
+     "f": 2.211
+    },
+    {
+     "p": "não",
+     "i": 2.224,
+     "f": 2.42
+    },
+    {
+     "p": "é",
+     "i": 2.433,
+     "f": 2.485
+    },
+    {
+     "p": "só",
+     "i": 2.498,
+     "f": 2.693
+    },
+    {
+     "p": "um",
+     "i": 2.706,
+     "f": 2.849
+    },
+    {
+     "p": "furo",
+     "i": 2.862,
+     "f": 3.175
+    },
+    {
+     "p": "na",
+     "i": 3.188,
+     "f": 3.266
+    },
+    {
+     "p": "montanha",
+     "i": 3.279,
+     "f": 3.878
+    },
+    {
+     "p": "É",
+     "i": 4.16,
+     "f": 4.303
+    },
+    {
+     "p": "a",
+     "i": 4.316,
+     "f": 4.407
+    },
+    {
+     "p": "prova",
+     "i": 4.42,
+     "f": 4.824
+    },
+    {
+     "p": "de",
+     "i": 4.837,
+     "f": 4.928
+    },
+    {
+     "p": "que",
+     "i": 4.941,
+     "f": 5.059
+    },
+    {
+     "p": "dá",
+     "i": 5.072,
+     "f": 5.202
+    },
+    {
+     "p": "para",
+     "i": 5.215,
+     "f": 5.397
+    },
+    {
+     "p": "planejar",
+     "i": 5.41,
+     "f": 5.918
+    },
+    {
+     "p": "por",
+     "i": 5.931,
+     "f": 6.126
+    },
+    {
+     "p": "décadas",
+     "i": 6.139,
+     "f": 6.673
+    },
+    {
+     "p": "errar",
+     "i": 6.999,
+     "f": 7.35
+    },
+    {
+     "p": "por",
+     "i": 7.363,
+     "f": 7.532
+    },
+    {
+     "p": "centímetros",
+     "i": 7.545,
+     "f": 8.21
+    },
+    {
+     "p": "e",
+     "i": 8.223,
+     "f": 8.301
+    },
+    {
+     "p": "mesmo",
+     "i": 8.613,
+     "f": 9.004
+    },
+    {
+     "p": "assim",
+     "i": 9.017,
+     "f": 9.381
+    },
+    {
+     "p": "chegar",
+     "i": 9.681,
+     "f": 10.045
+    },
+    {
+     "p": "ao",
+     "i": 10.059,
+     "f": 10.189
+    },
+    {
+     "p": "outro",
+     "i": 10.202,
+     "f": 10.514
+    },
+    {
+     "p": "lado",
+     "i": 10.527,
+     "f": 10.905
+    },
+    {
+     "p": "Às",
+     "i": 11.187,
+     "f": 11.474
+    },
+    {
+     "p": "vezes",
+     "i": 11.487,
+     "f": 11.968
+    },
+    {
+     "p": "a",
+     "i": 12.242,
+     "f": 12.32
+    },
+    {
+     "p": "engenharia",
+     "i": 12.333,
+     "f": 12.932
+    },
+    {
+     "p": "mais",
+     "i": 12.945,
+     "f": 13.166
+    },
+    {
+     "p": "impressionante",
+     "i": 13.179,
+     "f": 13.987
+    },
+    {
+     "p": "é",
+     "i": 14,
+     "f": 14.052
+    },
+    {
+     "p": "a",
+     "i": 14.065,
+     "f": 14.117
+    },
+    {
+     "p": "que",
+     "i": 14.13,
+     "f": 14.247
+    },
+    {
+     "p": "ninguém",
+     "i": 14.26,
+     "f": 14.638
+    },
+    {
+     "p": "vê",
+     "i": 14.651,
+     "f": 14.937
+    },
+    {
+     "p": "enquanto",
+     "i": 15.158,
+     "f": 15.588
+    },
+    {
+     "p": "o",
+     "i": 15.601,
+     "f": 15.64
+    },
+    {
+     "p": "trem",
+     "i": 15.653,
+     "f": 15.901
+    },
+    {
+     "p": "simplesmente",
+     "i": 15.914,
+     "f": 16.695
+    },
+    {
+     "p": "passa",
+     "i": 16.708,
+     "f": 17.151
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "g-portal-norte": {
+   "arquivo": "imagens/g-portal-norte-7b720eb0.jpg",
+   "rotulo": "Portal norte, Erstfeld",
+   "wiki": "Túnel de Base de São Gotardo",
+   "commons": "Gotthard Base Tunnel north portal Erstfeld",
+   "autor": "Zacharie Grossen",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:GBT_and_the_Weather_(north).jpg",
+   "titulo": "File:GBT and the Weather (north).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 61.4,
+    "y": 80
+   },
+   "borrada": "imagens/g-portal-norte-7b720eb0-b.jpg"
+  },
+  "g-trem-tunel": {
+   "arquivo": "",
+   "rotulo": "Trem dentro do túnel",
+   "commons": "Gotthard Base Tunnel train inside tunnel",
+   "semFoto": true
+  },
+  "g-tbm-frente": {
+   "arquivo": "imagens/g-tbm-frente-3aec02c0.jpg",
+   "rotulo": "Tuneladora",
+   "commons": "Gotthard Base Tunnel tunnel boring machine Herrenknecht",
+   "autor": "Cooper.ch 16:58, 19 September 2006 (UTC)",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:TBM_S-210_Alptransit_Gotthard_Modell_1.jpg",
+   "titulo": "File:TBM S-210 Alptransit Gotthard Modell 1.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 34.2,
+    "y": 37.8
+   },
+   "borrada": "imagens/g-tbm-frente-3aec02c0-b.jpg"
+  },
+  "g-breakthrough": {
+   "arquivo": "",
+   "rotulo": "Encontro das frentes, 2010",
+   "commons": "Gotthard Base Tunnel breakthrough 2010 Sedrun Faido",
+   "semFoto": true
+  },
+  "g-mapa-alpes": {
+   "arquivo": "imagens/g-mapa-alpes-a124141d.jpg",
+   "rotulo": "Os Alpes",
+   "wiki": "Alpes",
+   "commons": "Alps relief map Switzerland Gotthard",
+   "autor": "Nikolay Komarov",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:A_town_near_Alpes_(view_from_a_jet).jpg",
+   "titulo": "File:A town near Alpes (view from a jet).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.4,
+    "y": 77.8
+   },
+   "borrada": "imagens/g-mapa-alpes-a124141d-b.jpg"
+  },
+  "p-mapa-suica": {
+   "arquivo": "imagens/p-mapa-suica-b8b90f07.jpg",
+   "rotulo": "Suíça",
+   "wiki": "Suíça",
+   "commons": "Switzerland location map",
+   "autor": "Eric Gaba (Sting - fr:Sting) and NordNordWest",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Switzerland_relief_location_map.jpg",
+   "titulo": "File:Switzerland relief location map.jpg",
+   "largura": 1349,
+   "altura": 865,
+   "rostos": 0,
+   "foco": {
+    "x": 37.0,
+    "y": 39.7
+   },
+   "borrada": "imagens/p-mapa-suica-b8b90f07-b.jpg"
+  },
+  "p-esquema-tunel": {
+   "arquivo": "",
+   "rotulo": "Traçado do túnel",
+   "commons": "Gotthard Base Tunnel route map Erstfeld Bodio",
+   "semFoto": true
+  },
+  "p-abertura-2016": {
+   "arquivo": "",
+   "rotulo": "Inauguração, 2016",
+   "commons": "Gotthard Base Tunnel opening ceremony 2016",
+   "semFoto": true
+  },
+  "p-gnaisse": {
+   "arquivo": "",
+   "rotulo": "Rocha do maciço",
+   "commons": "Gotthard massif gneiss rock",
+   "semFoto": true
+  },
+  "p-entulho": {
+   "arquivo": "",
+   "rotulo": "Rocha escavada",
+   "commons": "Gotthard Base Tunnel excavated rock material Erstfeld",
+   "semFoto": true
+  },
+  "p-topografia": {
+   "arquivo": "imagens/p-topografia-b416bf00.jpg",
+   "rotulo": "Topografia",
+   "commons": "Theodolite surveying tunnel",
+   "autor": "Internet Archive Book Images",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Transactions_(1871)_(14783441585).jpg",
+   "titulo": "File:Transactions (1871) (14783441585).jpg",
+   "largura": 1920,
+   "altura": 2649,
+   "rostos": 2,
+   "foco": {
+    "x": 75.8,
+    "y": 56.5
+   },
+   "borrada": "imagens/p-topografia-b416bf00-b.jpg"
+  },
+  "c1-passo": {
+   "arquivo": "imagens/c1-passo-f19e98f3.jpg",
+   "rotulo": "Passo de São Gotardo",
+   "wiki": "Passo de São Gotardo",
+   "commons": "Gotthard Pass Switzerland",
+   "autor": "Roland Zumbühl (Picswiss), Arlesheim (Commons:Picswiss project)",
+   "licenca": "GFDL",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gotthard.jpg",
+   "titulo": "File:Gotthard.jpg",
+   "largura": 500,
+   "altura": 333,
+   "rostos": 0,
+   "foco": {
+    "x": 46.4,
+    "y": 55.9
+   },
+   "borrada": "imagens/c1-passo-f19e98f3-b.jpg"
+  },
+  "c1-tunel-1882": {
+   "arquivo": "imagens/c1-tunel-1882-16a5920e.jpg",
+   "rotulo": "Túnel ferroviário de 1882",
+   "commons": "Gotthard Railway Tunnel Göschenen portal",
+   "autor": "Kecko",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Railway_tunnel_portal_G%C3%B6schenen_(15197555872).jpg",
+   "titulo": "File:Railway tunnel portal Göschenen (15197555872).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 50.9,
+    "y": 75.2
+   },
+   "borrada": "imagens/c1-tunel-1882-16a5920e-b.jpg"
+  },
+  "c1-wassen": {
+   "arquivo": "",
+   "rotulo": "Wassen e a linha em espiral",
+   "commons": "Wassen church Gotthardbahn spiral",
+   "semFoto": true
+  },
+  "c1-caminhoes": {
+   "arquivo": "",
+   "rotulo": "Caminhões no Gotardo",
+   "commons": "Gotthard Road Tunnel Göschenen traffic trucks",
+   "semFoto": true
+  },
+  "c1-parlamento": {
+   "arquivo": "imagens/c1-parlamento-b1f116da.jpg",
+   "rotulo": "Parlamento suíço",
+   "wiki": "Palácio Federal da Suíça",
+   "commons": "Bundeshaus Bern Swiss Parliament",
+   "autor": "Flooffy",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bundeshaus_Bern_2009,_Flooffy.jpg",
+   "titulo": "File:Bundeshaus Bern 2009, Flooffy.jpg",
+   "largura": 1280,
+   "altura": 843,
+   "rostos": 0,
+   "foco": {
+    "x": 50.4,
+    "y": 34.1
+   },
+   "borrada": "imagens/c1-parlamento-b1f116da-b.jpg"
+  },
+  "c2-alptransit": {
+   "arquivo": "",
+   "rotulo": "Rede AlpTransit",
+   "commons": "AlpTransit Gotthard Lötschberg route map",
+   "semFoto": true
+  },
+  "c2-carga": {
+   "arquivo": "imagens/c2-carga-ed1a2fa3.jpg",
+   "rotulo": "Trem de carga",
+   "commons": "SBB Cargo freight train Gotthard",
+   "autor": "Kabelleger / David Gubler (http://www.bahnbilder.ch)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Re_6-6_Schub_am_Gotthard.jpg",
+   "titulo": "File:Re 6-6 Schub am Gotthard.jpg",
+   "largura": 1920,
+   "altura": 1299,
+   "rostos": 1,
+   "foco": {
+    "x": 11.3,
+    "y": 78.2
+   },
+   "borrada": "imagens/c2-carga-ed1a2fa3-b.jpg"
+  },
+  "c2-passageiros": {
+   "arquivo": "imagens/c2-passageiros-6a79d187.jpg",
+   "rotulo": "Trem de passageiros",
+   "commons": "SBB Giruno train Gotthard Base Tunnel",
+   "autor": "Kecko from Rural area of Eastern Switzerland",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:SBB_Giruno_by_Stadler_(33946594418).jpg",
+   "titulo": "File:SBB Giruno by Stadler (33946594418).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 71.8,
+    "y": 36.0
+   },
+   "borrada": "imagens/c2-passageiros-6a79d187-b.jpg"
+  },
+  "c2-locomotiva": {
+   "arquivo": "",
+   "rotulo": "Locomotiva",
+   "commons": "SBB Re 460 locomotive Gotthard",
+   "semFoto": true
+  },
+  "c2-perfil": {
+   "arquivo": "",
+   "rotulo": "Perfil do túnel",
+   "commons": "Gotthard Base Tunnel longitudinal profile",
+   "semFoto": true
+  },
+  "c2-alpes-uri": {
+   "arquivo": "imagens/c2-alpes-uri-ce3db2ce.jpg",
+   "rotulo": "Alpes suíços, Uri",
+   "commons": "Swiss Alps Canton of Uri Reuss valley landscape",
+   "autor": "Bitstroem, photocropper: Ludwig Sebastian Micheler",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Panorama_of_Uri_Rotstock_Group_and_Oberbauenstock_from_Niederbauen_Kulm_direction_South-East_-_Gitschen_-_Brunnistock_-_Chlital_-_Schartih%C3%B6reli_(cropped).jpg",
+   "titulo": "File:Panorama of Uri Rotstock Group and Oberbauenstock from Niederbauen Kulm direction South-East - Gitschen - Brunnistock - Chlital - Schartihöreli (cropped).jpg",
+   "largura": 1920,
+   "altura": 592,
+   "rostos": 0,
+   "foco": {
+    "x": 47.8,
+    "y": 46.9
+   },
+   "borrada": "imagens/c2-alpes-uri-ce3db2ce-b.jpg"
+  },
+  "r1-gnaisse": {
+   "arquivo": "",
+   "rotulo": "Gnaisse",
+   "commons": "Gneiss rock Alps Switzerland",
+   "semFoto": true
+  },
+  "r1-granito": {
+   "arquivo": "",
+   "rotulo": "Granito do maciço do Aar",
+   "commons": "Aar massif granite Grimsel",
+   "semFoto": true
+  },
+  "r1-vatgira": {
+   "arquivo": "",
+   "rotulo": "Piz Vatgira",
+   "commons": "Piz Vatgira Switzerland",
+   "semFoto": true
+  },
+  "r1-travessa": {
+   "arquivo": "",
+   "rotulo": "Interior do túnel",
+   "commons": "Gotthard Base Tunnel cross passage ventilation",
+   "semFoto": true
+  },
+  "r1-sondagem": {
+   "arquivo": "",
+   "rotulo": "Sondagem",
+   "commons": "Exploratory drilling rig Gotthard Piora",
+   "semFoto": true
+  },
+  "r1-piora": {
+   "arquivo": "imagens/r1-piora-e47aba8b.jpg",
+   "rotulo": "Val Piora",
+   "wiki": "Val Piora",
+   "commons": "Val Piora Lago Ritom Switzerland",
+   "autor": "Offenbacher",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lago_Ritom_See_Val_Piora_2015-08-31.jpg",
+   "titulo": "File:Lago Ritom See Val Piora 2015-08-31.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 32.1,
+    "y": 79.8
+   },
+   "borrada": "imagens/r1-piora-e47aba8b-b.jpg"
+  },
+  "r2-dolomita": {
+   "arquivo": "",
+   "rotulo": "Dolomita de Piora",
+   "commons": "Piora dolomite rock",
+   "semFoto": true
+  },
+  "r2-nucleo": {
+   "arquivo": "",
+   "rotulo": "Testemunho de sondagem",
+   "commons": "Drill core rock sample tunnel",
+   "semFoto": true
+  },
+  "r2-sedrun": {
+   "arquivo": "imagens/r2-sedrun-97eb6eb2.jpg",
+   "rotulo": "Sedrun",
+   "wiki": "Sedrun",
+   "commons": "Sedrun Tujetsch village Switzerland",
+   "autor": "Desconhecido",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sedrun.jpg",
+   "titulo": "File:Sedrun.jpg",
+   "largura": 1787,
+   "altura": 1357,
+   "rostos": 0,
+   "foco": {
+    "x": 64.2,
+    "y": 53.4
+   },
+   "borrada": "imagens/r2-sedrun-97eb6eb2-b.jpg"
+  },
+  "r2-poco": {
+   "arquivo": "",
+   "rotulo": "Poço de Sedrun",
+   "commons": "Gotthard Base Tunnel Sedrun shaft headframe",
+   "semFoto": true
+  },
+  "r2-arcos": {
+   "arquivo": "",
+   "rotulo": "Arcos de aço deformáveis",
+   "commons": "Tunnel steel arches yielding support squeezing rock",
+   "semFoto": true
+  },
+  "e1-tbm-gotardo": {
+   "arquivo": "",
+   "rotulo": "Tuneladora Sissi",
+   "commons": "Herrenknecht Gripper TBM Gotthard Base Tunnel Sissi",
+   "semFoto": true
+  },
+  "e1-piramide": {
+   "arquivo": "imagens/e1-piramide-6158ac83.jpg",
+   "rotulo": "Grande Pirâmide de Gizé",
+   "wiki": "Grande Pirâmide de Gizé",
+   "commons": "Great Pyramid of Giza",
+   "autor": "Douwe C. van der Zee",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+   "titulo": "File:Great Pyramid of Giza - Pyramid of Khufu.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 54.2,
+    "y": 52.8
+   },
+   "borrada": "imagens/e1-piramide-6158ac83-b.jpg"
+  },
+  "e1-tbm-gabi": {
+   "arquivo": "",
+   "rotulo": "Tuneladora Gabi",
+   "commons": "Gotthard Base Tunnel TBM Gabi Erstfeld",
+   "semFoto": true
+  },
+  "e1-tbm-interior": {
+   "arquivo": "",
+   "rotulo": "Interior da tuneladora",
+   "commons": "Tunnel boring machine back-up gantry Gotthard",
+   "semFoto": true
+  },
+  "e1-ventilacao": {
+   "arquivo": "imagens/e1-ventilacao-600c53bd.jpg",
+   "rotulo": "Ventilação na obra",
+   "commons": "Tunnel ventilation duct construction",
+   "autor": "The original uploader was Ecb at English Wikipedia.",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:MCL-Swan-St-vent-shaft.jpg",
+   "titulo": "File:MCL-Swan-St-vent-shaft.jpg",
+   "largura": 1856,
+   "altura": 1271,
+   "rostos": 0,
+   "foco": {
+    "x": 33.2,
+    "y": 47.4
+   },
+   "borrada": "imagens/e1-ventilacao-600c53bd-b.jpg"
+  },
+  "e2-amsteg": {
+   "arquivo": "imagens/e2-amsteg-e760813a.jpg",
+   "rotulo": "Amsteg",
+   "wiki": "Amsteg",
+   "commons": "Amsteg Uri Reuss village",
+   "autor": "Kecko from Rural area, Eastern Switzerland",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Amsteg_-_Schiltwald_(33015389390).jpg",
+   "titulo": "File:Amsteg - Schiltwald (33015389390).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 55.2,
+    "y": 51.3
+   },
+   "borrada": "imagens/e2-amsteg-e760813a-b.jpg"
+  },
+  "e2-concreto": {
+   "arquivo": "imagens/e2-concreto-b2ae2edb.jpg",
+   "rotulo": "Revestimento de concreto",
+   "commons": "Gotthard Base Tunnel concrete lining",
+   "autor": "YaoMuyu",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/nepal-caminhada-abc-annapurna-10512824/",
+   "titulo": "nepal, caminhada abc, annapurna, campo de base, caminhada, trekking, montanhas, neve, alpino, mochileiro, polos de caminhada, pico de neve, aventura, região selvagem, natureza, turista, exterior, cairn, mochila, trilha, inverno",
+   "largura": 857,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 35.9,
+    "y": 64.8
+   },
+   "borrada": "imagens/e2-concreto-b2ae2edb-b.jpg"
+  },
+  "e2-bodio": {
+   "arquivo": "imagens/e2-bodio-c8593cd6.jpg",
+   "rotulo": "Bodio, portal sul",
+   "wiki": "Bodio (Ticino)",
+   "commons": "Bodio Ticino Gotthard Base Tunnel south portal",
+   "autor": "Cooper.ch 16:58, 19 September 2006 (UTC)",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Infocentro_Gottardo_Sud.jpg",
+   "titulo": "File:Infocentro Gottardo Sud.jpg",
+   "largura": 1600,
+   "altura": 1182,
+   "rostos": 0,
+   "foco": {
+    "x": 55.4,
+    "y": 47.0
+   },
+   "borrada": "imagens/e2-bodio-c8593cd6-b.jpg"
+  },
+  "e2-britagem": {
+   "arquivo": "imagens/e2-britagem-7cc1efdb.jpg",
+   "rotulo": "Usina de britagem",
+   "commons": "Aggregate crushing plant gravel",
+   "autor": "javierAlamo",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/gravel-pit-agregados-m%C3%A1quinas-4798593/",
+   "titulo": "gravel pit, agregados, máquinas, exploração",
+   "largura": 1280,
+   "altura": 853,
+   "rostos": 0,
+   "foco": {
+    "x": 52.4,
+    "y": 60.3
+   },
+   "borrada": "imagens/e2-britagem-7cc1efdb-b.jpg"
+  },
+  "e2-vale": {
+   "arquivo": "",
+   "rotulo": "Vale do Reuss",
+   "commons": "Reuss valley Uri Switzerland",
+   "semFoto": true
+  },
+  "v1-obra": {
+   "arquivo": "imagens/v1-obra-72069adf.jpg",
+   "rotulo": "Canteiro de obras",
+   "commons": "Gotthard Base Tunnel construction site Amsteg",
+   "autor": "Image taken by Daniel Schwen on August 28th 2004.",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:CH_Gotthard_Basistunnel_Amsteg_1.jpg",
+   "titulo": "File:CH Gotthard Basistunnel Amsteg 1.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 55.9,
+    "y": 41.9
+   },
+   "borrada": "imagens/v1-obra-72069adf-b.jpg"
+  },
+  "v1-tbm-faido": {
+   "arquivo": "imagens/v1-tbm-faido-77e7cfe6.jpg",
+   "rotulo": "Obra em Faido",
+   "commons": "Gotthard Base Tunnel Faido TBM",
+   "autor": "Cooper.ch 16:58, 19 September 2006 (UTC)",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:TBM_S-210_Alptransit_Faido_East.jpg",
+   "titulo": "File:TBM S-210 Alptransit Faido East.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 3,
+   "foco": {
+    "x": 75.2,
+    "y": 46.5
+   },
+   "borrada": "imagens/v1-tbm-faido-77e7cfe6-b.jpg"
+  },
+  "v1-perfuracao": {
+   "arquivo": "",
+   "rotulo": "Perfuração e explosivos",
+   "commons": "Drill jumbo tunnel drill and blast",
+   "semFoto": true
+  },
+  "v1-operarios": {
+   "arquivo": "",
+   "rotulo": "Operários",
+   "commons": "Tunnel workers Gotthard Base Tunnel construction",
+   "semFoto": true
+  },
+  "v1-franco": {
+   "arquivo": "imagens/v1-franco-873531b2.jpg",
+   "rotulo": "Francos suíços",
+   "commons": "Swiss franc coins",
+   "autor": "Exploratorium efimeros",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Swiss_coins.jpg",
+   "titulo": "File:Swiss coins.jpg",
+   "largura": 1920,
+   "altura": 1434,
+   "rostos": 0,
+   "foco": {
+    "x": 45.0,
+    "y": 76.9
+   },
+   "borrada": "imagens/v1-franco-873531b2-b.jpg"
+  },
+  "v1-faido": {
+   "arquivo": "",
+   "rotulo": "Faido",
+   "wiki": "Faido",
+   "commons": "Faido Ticino Leventina",
+   "semFoto": true
+  },
+  "t1-teodolito": {
+   "arquivo": "imagens/t1-teodolito-e4d8a10c.jpg",
+   "rotulo": "Teodolito",
+   "wiki": "Teodolito",
+   "commons": "Theodolite surveying instrument",
+   "autor": "Fst76 at de.wikipedia",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Askania_Sekunden-Theodolit_TU_e_400.jpg",
+   "titulo": "File:Askania Sekunden-Theodolit TU e 400.jpg",
+   "largura": 1044,
+   "altura": 1445,
+   "rostos": 1,
+   "foco": {
+    "x": 71.5,
+    "y": 55.6
+   },
+   "borrada": "imagens/t1-teodolito-e4d8a10c-b.jpg"
+  },
+  "t1-secoes": {
+   "arquivo": "",
+   "rotulo": "Trechos da obra",
+   "commons": "Gotthard Base Tunnel sections Erstfeld Amsteg Sedrun Faido Bodio",
+   "semFoto": true
+  },
+  "t1-massivo": {
+   "arquivo": "imagens/t1-massivo-d25e28c3.jpg",
+   "rotulo": "Maciço do Gotardo",
+   "commons": "Gotthard massif landscape Switzerland",
+   "autor": "OrcaTec",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/s%C3%A3o-gotardo-gotthard-pass-alpes-2706072/",
+   "titulo": "são gotardo, gotthard pass, alpes, panorama, passaporte, suíça, montanhas, natureza, humor, aventura, opressivo, deus rígido passaporte, alpes suíços, estrada, região selvagem, estrada de passagem, passeio, liberdade, suíço, serpentinas",
+   "largura": 1280,
+   "altura": 851,
+   "rostos": 0,
+   "foco": {
+    "x": 64.3,
+    "y": 54.0
+   },
+   "borrada": "imagens/t1-massivo-d25e28c3-b.jpg"
+  },
+  "t1-estacao-faido": {
+   "arquivo": "imagens/t1-estacao-faido-45363ac6.jpg",
+   "rotulo": "Estação multifuncional de Faido",
+   "commons": "Faido multifunction station Gotthard Base Tunnel",
+   "autor": "Hannes Ortlieb (Diskussion)",
+   "licenca": "CC BY-SA 3.0 de",
+   "pagina": "https://commons.wikimedia.org/wiki/File:20141120_gotthard-basistunnel02-wikipedia-hannes-ortlieb.jpg",
+   "titulo": "File:20141120 gotthard-basistunnel02-wikipedia-hannes-ortlieb.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 61.1,
+    "y": 59.7
+   },
+   "borrada": "imagens/t1-estacao-faido-45363ac6-b.jpg"
+  },
+  "t1-equipe": {
+   "arquivo": "",
+   "rotulo": "Equipe de topografia",
+   "commons": "Surveyors team underground tunnel",
+   "semFoto": true
+  },
+  "b1-data": {
+   "arquivo": "",
+   "rotulo": "Encontro, 15 de outubro de 2010",
+   "commons": "Gotthard Base Tunnel breakthrough ceremony 15 October 2010",
+   "semFoto": true
+  },
+  "b1-cabeca": {
+   "arquivo": "",
+   "rotulo": "Cabeça de corte",
+   "commons": "Tunnel boring machine cutterhead Gotthard",
+   "semFoto": true
+  },
+  "b1-medicao": {
+   "arquivo": "",
+   "rotulo": "Medição",
+   "commons": "Tunnel survey measurement breakthrough",
+   "semFoto": true
+  },
+  "b1-comemoracao": {
+   "arquivo": "",
+   "rotulo": "Comemoração",
+   "commons": "Gotthard Base Tunnel miners breakthrough celebration",
+   "semFoto": true
+  },
+  "b1-tubo-oeste": {
+   "arquivo": "imagens/b1-tubo-oeste-3315e675.jpg",
+   "rotulo": "Tubo oeste",
+   "commons": "Gotthard Base Tunnel west tube",
+   "autor": "Kecko",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Amsteg_-_GBT_Access_Tunnel_(30792928252).jpg",
+   "titulo": "File:Amsteg - GBT Access Tunnel (30792928252).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 1,
+   "foco": {
+    "x": 25.6,
+    "y": 52.4
+   },
+   "borrada": "imagens/b1-tubo-oeste-3315e675-b.jpg"
+  },
+  "b1-maos": {
+   "arquivo": "",
+   "rotulo": "Trecho Sedrun–Faido",
+   "commons": "Gotthard Base Tunnel Sedrun Faido section",
+   "semFoto": true
+  },
+  "d1-inauguracao": {
+   "arquivo": "imagens/d1-inauguracao-3938c215.jpg",
+   "rotulo": "Inauguração, 1º de junho de 2016",
+   "commons": "Gotthard Base Tunnel inauguration 1 June 2016",
+   "autor": "Zacharie Grossen",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gottardo_2016.jpg",
+   "titulo": "File:Gottardo 2016.jpg",
+   "largura": 1920,
+   "altura": 1279,
+   "rostos": 0,
+   "foco": {
+    "x": 26.4,
+    "y": 49.9
+   },
+   "borrada": "imagens/d1-inauguracao-3938c215-b.jpg"
+  },
+  "d1-giruno": {
+   "arquivo": "imagens/d1-giruno-4c9ccba7.jpg",
+   "rotulo": "Trem de passageiros",
+   "commons": "SBB Giruno Gotthard",
+   "autor": "hpgruesen",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/su%C3%AD%C3%A7a-alpine-gelo-transalpino-2356845/",
+   "titulo": "suíça, alpine gelo, transalpino, são gotardo, rota do gotthard, rota da montanha, estação, erstfeld, drive-through, unidade múltipla, sbb, cff, ffs, locomotiva elétrica, milano-zurique, pendolino, expresso interurbano, ferrovia federal suíça, rabde 500, transporte de longa distância, ferrovia, cisalpino, unidade múltipla elétrica, gelo",
+   "largura": 1280,
+   "altura": 870,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 61.4
+   },
+   "borrada": "imagens/d1-giruno-4c9ccba7-b.jpg"
+  },
+  "d1-a2": {
+   "arquivo": "imagens/d1-a2-6e15735c.jpg",
+   "rotulo": "Rodovia A2, Uri",
+   "commons": "A2 motorway Uri Switzerland Gotthard",
+   "autor": "Comet Photo AG (Zürich)",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ETH-BIB_Com_F69-14923_Intschireussbruecke_RAe_TEE_II_230569.jpg",
+   "titulo": "File:ETH-BIB Com F69-14923 Intschireussbruecke RAe TEE II 230569.jpg",
+   "largura": 1920,
+   "altura": 1379,
+   "rostos": 0,
+   "foco": {
+    "x": 48.6,
+    "y": 44.7
+   },
+   "borrada": "imagens/d1-a2-6e15735c-b.jpg"
+  },
+  "d1-erstfeld": {
+   "arquivo": "imagens/d1-erstfeld-a32ed428.jpg",
+   "rotulo": "Estação de Erstfeld",
+   "wiki": "Erstfeld",
+   "commons": "Erstfeld railway station",
+   "autor": "Torsten Maue",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Erstfeld_railway_station.jpg",
+   "titulo": "File:Erstfeld railway station.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 43.3,
+    "y": 46.4
+   },
+   "borrada": "imagens/d1-erstfeld-a32ed428-b.jpg"
+  },
+  "d1-descarrilamento": {
+   "arquivo": "",
+   "rotulo": "Descarrilamento de 2023",
+   "commons": "Gotthard Base Tunnel derailment 2023 freight train",
+   "semFoto": true
+  },
+  "d1-manutencao": {
+   "arquivo": "imagens/d1-manutencao-e81dc9d9.jpg",
+   "rotulo": "Manutenção",
+   "commons": "Railway tunnel maintenance Switzerland",
+   "autor": "Kecko",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gotthard_Inside_II_-_The_tunnel_from_1882_(22693680876).jpg",
+   "titulo": "File:Gotthard Inside II - The tunnel from 1882 (22693680876).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 52.1,
+    "y": 35.3
+   },
+   "borrada": "imagens/d1-manutencao-e81dc9d9-b.jpg"
+  },
+  "f1-saida": {
+   "arquivo": "",
+   "rotulo": "Saída do túnel",
+   "commons": "Train leaving Gotthard Base Tunnel portal",
+   "semFoto": true
+  },
+  "f1-alpes": {
+   "arquivo": "",
+   "rotulo": "Alpes ao entardecer",
+   "commons": "Swiss Alps sunset Uri",
+   "semFoto": true
+  },
+  "f1-paisagem": {
+   "arquivo": "imagens/f1-paisagem-d93b32d2.jpg",
+   "rotulo": "Região do Gotardo",
+   "commons": "Gotthard region landscape Andermatt",
+   "autor": "andreamerten",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/montanhas-andermatt-5120457/",
+   "titulo": "montanhas, andermatt, paisagem de inverno, natureza, jogo na nuvem, neve, suíça, paisagem de contos de fadas, inverno, corona, nuvens, panorama, celeiro, trilhos de trem, schober, uri, suíça, andermatt",
+   "largura": 1280,
+   "altura": 622,
+   "rostos": 0,
+   "foco": {
+    "x": 70.2,
+    "y": 67.0
+   },
+   "borrada": "imagens/f1-paisagem-d93b32d2-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-10T17:38:27.921Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +6742,66 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipédia — Gotthard Base Tunnel",
+   "url": "https://en.wikipedia.org/wiki/Gotthard_Base_Tunnel"
+  },
+  {
+   "titulo": "Governo suíço — Final breakthrough of the longest railway tunnel in the world",
+   "url": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-35644.html"
+  },
+  {
+   "titulo": "Railway Gazette — Breakthrough on world's longest railway tunnel",
+   "url": "https://railwaygazette.com/infrastructure/breakthough-on-worlds-longest-railway-tunnel/35382.article"
+  },
+  {
+   "titulo": "AlpTransit Portal — Breakthrough in the Gotthard",
+   "url": "https://www.alptransit-portal.ch/en/overview/construction/events/ereignis/breakthrough-in-the-gotthard"
+  },
+  {
+   "titulo": "Implenia — Sedrun tunnel, lot 360, AlpTransit Gotthard Base Tunnel",
+   "url": "https://implenia.com/en/references/detail/ref/sedrun-tunnel-lot-360-alptransit-gotthard-base-tunnel/"
+  },
+  {
+   "titulo": "Tunnels & Tunnelling — reaproveitamento da rocha escavada",
+   "url": "https://www.tunnelsandtunnelling.com/?p=1482"
+  },
+  {
+   "titulo": "Herrenknecht — World record at Gotthard",
+   "url": "https://herrenknecht.com/en/newsroom/pressreleasedetail/world-record-at-gotthard"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Como a Suíça furou os Alpes e errou só 8 cm",
+   "O túnel de 57 km sob 2.300 m de rocha: a história por trás",
+   "Por que o maior túnel do mundo é plano?"
+  ],
+  "descricao": "Como foi escavado o Túnel de Base de São Gotardo, na Suíça: por que a ferrovia precisava ser plana, o que a rocha fez para atrapalhar, para onde foram 28 milhões de toneladas de entulho e como duas frentes se encontraram no meio da montanha com 8 cm de desvio.\n\n0:00 Gancho\n0:32 Promessa\n1:02 Por que plano\n2:17 A rocha\n3:32 O entulho\n4:41 O preço\n5:21 A pontaria\n5:56 O encontro\n6:36 Desfecho\n\nFontes: Wikipédia (Gotthard Base Tunnel), governo suíço, Railway Gazette, AlpTransit Portal, Implenia, Tunnels & Tunnelling, Herrenknecht.",
+  "tags": [
+   "túnel de base de São Gotardo",
+   "Gotthard Base Tunnel",
+   "maior túnel do mundo",
+   "engenharia",
+   "Suíça",
+   "Alpes",
+   "tuneladora",
+   "ferrovia",
+   "AlpTransit",
+   "documentário de engenharia",
+   "grandes obras",
+   "tecnologia"
+  ]
  }
 }
