@@ -149,7 +149,9 @@
   {
    "titulo": "Por que o Mar de Aral desapareceu?",
    "angulo": "Como projetos soviéticos de irrigação desviaram os rios Amu Dária e Sir Dária e secaram um dos maiores lagos do mundo. Mostra imagens de satélite, os navios no deserto e o que o Cazaquistão recuperou com a barragem de Kokaral.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261111",
+   "em": "2026-11-11"
   },
   {
    "titulo": "O que aconteceu com os dirigíveis zepelim?",
@@ -202,5 +204,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-10"
+ "ultimaGeracao": "2026-11-11"
 }
