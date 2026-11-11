@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-11T17:50:43.870Z",
- "atualizadoEm": "2026-11-11T17:50:43.870Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-11T18:02:25Z",
+ "status": "pronto",
  "pedido": {
   "tema": "Por que o Mar de Aral desapareceu? — ângulo: Como projetos soviéticos de irrigação desviaram os rios Amu Dária e Sir Dária e secaram um dos maiores lagos do mundo. Mostra imagens de satélite, os navios no deserto e o que o Cazaquistão recuperou com a barragem de Kokaral.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,6828 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Em mil novecentos e sessenta, este era o quarto maior lago do mundo: sessenta e oito mil quilômetros quadrados de água e mais de mil e quinhentas ilhas. Hoje, onde havia mar, existe um deserto de sal, e navios enferrujados parados na areia. Nenhuma guerra secou esse mar. Nenhum desastre natural. Foi um plano de engenharia, desenhado para dar certo, e que deu certo demais. Esta é a história de como um país desviou dois rios, apagou um mar do mapa e por que um pedaço dele, contra todas as previsões, voltou.",
+   "galeria": [
+    "aral-localizacao",
+    "aral-1960",
+    "aral-satelite-2014",
+    "navios-moynaq",
+    "canal-grande",
+    "aral-1989-2008"
+   ],
+   "galeriaEm": [
+    0,
+    "quilômetros",
+    "Hoje",
+    "navios",
+    "plano",
+    "apagou"
+   ],
+   "fontes": [
+    "NASA",
+    "Wikipédia"
+   ],
+   "elementos": []
+  },
+  {
+   "id": "promessa",
+   "texto": "Para entender, olhe para a Ásia Central. O Aral ficava entre o Cazaquistão e o Uzbequistão, no meio de uma região árida. Vivia de dois rios: o Amu Dária e o Sir Dária, que nascem em montanhas distantes e atravessam o deserto até o mar. Nos anos cinquenta, traziam cerca de cinquenta e seis quilômetros cúbicos de água por ano. Nas próximas cenas, você vai ver imagens de satélite, os navios no deserto e o que o Cazaquistão conseguiu recuperar. Mas, primeiro, quem decidiu desviar esses rios?",
+   "galeria": [
+    "asia-central-mapa",
+    "cazaquistao-estepe",
+    "uzbequistao-registan",
+    "amu-daria",
+    "sir-daria",
+    "pamir"
+   ],
+   "galeriaEm": [
+    0,
+    "Cazaquistão",
+    "Uzbequistão",
+    "Amu",
+    "Sir",
+    "montanhas"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "DOIS RIOS NO DESERTO",
+     "sub": "Amu Dária e Sir Dária",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "plano-de-moscou",
+   "texto": "O Aral era um mar cheio de vida. Em Moynaq, na margem sul, ficava um porto movimentado. A pesca empregava dezenas de milhares de pessoas e chegou a responder por cerca de um sexto do pescado soviético. Mas, para os planejadores de Moscou, o que importava era outra coisa: o algodão. A União Soviética queria produzir o seu próprio, e a Ásia Central, com sol de sobra, parecia o lugar perfeito. Faltava só água. E ela estava ali, nos dois rios que alimentavam o mar. Era o começo do fim.",
+   "galeria": [
+    "moynaq-porto",
+    "pesca-aral",
+    "kremlin-moscou",
+    "algodao-colheita",
+    "urss-bandeira",
+    "karakum-deserto"
+   ],
+   "galeriaEm": [
+    0,
+    "pesca",
+    "Moscou",
+    "algodão",
+    "União",
+    "Ásia"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O PLANO DE MOSCOU",
+     "sub": "Algodão no deserto",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "canais",
+   "texto": "Para levar água ao deserto, engenheiros cavaram milhares de quilômetros de canais. O maior, o Karakum, cruza o Turcomenistão por mais de mil e trezentos quilômetros. Só que muitos eram simples valas de terra, sem revestimento. Estimativas indicam que entre trinta e setenta e cinco por cento da água do Karakum se perdia no caminho. Resultado: a vazão que chegava ao Aral caiu de cerca de cinquenta e seis quilômetros cúbicos por ano, nos anos cinquenta, para pouco mais de quatro, nos anos oitenta. O mar estava sendo esvaziado, e quase ninguém estava olhando.",
+   "galeria": [
+    "algodao-campo",
+    "canal-karakum",
+    "canal-terra",
+    "reservatorio-shardara",
+    "amu-daria-delta",
+    "leito-seco"
+   ],
+   "galeriaEm": [
+    0,
+    "Karakum",
+    "valas",
+    "perdia",
+    "vazão",
+    "esvaziado"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "ÁGUA PARA O DESERTO",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 56,
+     "ate": 4,
+     "unidade": "km³ por ano",
+     "rotulo": "Água que chegava ao Aral (anos 1950 → 1980)",
+     "em": "vazão",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "mar-se-parte",
+   "texto": "No começo dos anos sessenta, o nível da água começou a cair. A cada ano, a margem recuava mais. Em mil novecentos e oitenta e sete, o mar se partiu em dois: o Pequeno Aral, ao norte, e o Grande Aral, ao sul. A salinidade, que era de cerca de dez gramas por litro, mais que triplicou. Peixes não resistiram, e a pesca comercial acabou. Os cientistas já alertavam, mas o plano do algodão continuou. Em mil novecentos e noventa e nove, a ligação entre as duas partes também se perdeu, e cada uma seguiu seu destino.",
+   "galeria": [
+    "aral-reducao-mapa",
+    "aral-borda",
+    "aral-pequeno-grande",
+    "crosta-sal",
+    "barcos-encalhados",
+    "aral-2000-landsat"
+   ],
+   "galeriaEm": [
+    0,
+    "margem",
+    "partiu",
+    "salinidade",
+    "Peixes",
+    "ligação"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral",
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O MAR SE PARTE",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1960",
+       "68 mil km²"
+      ],
+      [
+       "1987",
+       "Mar dividido"
+      ],
+      [
+       "2007",
+       "10% do original"
+      ]
+     ],
+     "em": "partiu",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "cemiterio-de-navios",
+   "texto": "Moynaq, que vivia do mar, ficou sem água. Os barcos de pesca encalharam na areia, um por um. Hoje, o antigo porto está a dezenas de quilômetros da margem mais próxima, e o que restou é um cemitério de navios. Cascos oxidados, guindastes, cabos soltos, no meio de um deserto onde antes havia fundo de mar. Turistas vão até lá para fotografar a cena. Para quem morava ali, a perda foi mais que paisagem: foi o emprego, a comida e a razão de a cidade existir.",
+   "galeria": [
+    "moynaq-cidade",
+    "moynaq-barco",
+    "moynaq-antigo-porto",
+    "moynaq-cascos",
+    "moynaq-turistas",
+    "moynaq-cemiterio"
+   ],
+   "galeriaEm": [
+    0,
+    "barcos",
+    "Hoje",
+    "Cascos",
+    "Turistas",
+    "emprego"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "CEMITÉRIO DE NAVIOS",
+     "sub": "Moynaq, Uzbequistão",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "sal-no-ar",
+   "texto": "Havia ainda um problema escondido no fundo seco: o sal. E, misturados a ele, resíduos de pesticidas e fertilizantes que escorreram das plantações durante décadas. Quando o vento sopra, essa poeira sobe em tempestades visíveis em imagens de satélite da NASA. Pesquisas associam a poeira tóxica a doenças respiratórias, câncer e tuberculose entre moradores da região. O clima também mudou: sem o mar para suavizar a temperatura, os verões ficaram mais quentes e secos, e os invernos, mais frios. Para muita gente, a saída foi deixar a região.",
+   "galeria": [
+    "aral-sal-leito",
+    "pesticidas-algodao",
+    "tempestade-poeira",
+    "nukus",
+    "aralsk-abandonado"
+   ],
+   "galeriaEm": [
+    0,
+    "pesticidas",
+    "tempestades",
+    "moradores",
+    "saída"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral",
+    "NASA"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O SAL NO AR",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "ilha-secreta",
+   "texto": "E o mar seco guardava um segredo. No meio do Aral ficava a ilha Vozrozhdeniya, onde, a partir de mil novecentos e quarenta e oito, a União Soviética manteve um laboratório militar de testes de armas biológicas. Com o recuo da água, a ilha virou uma península, ligada ao continente. Em mil novecentos e noventa e dois, o local foi abandonado. Segundo expedições posteriores, material contaminado com antraz teria sido enterrado ali. Mas o desastre ainda tinha uma reviravolta.",
+   "galeria": [
+    "vozrozhdeniya-ilha",
+    "biopreparat",
+    "vozrozhdeniya-landsat",
+    "vozrozhdeniya-abandonada",
+    "antraz",
+    "vozrozhdeniya-2008"
+   ],
+   "galeriaEm": [
+    0,
+    "laboratório",
+    "península",
+    "abandonado",
+    "antraz",
+    "reviravolta"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A ILHA SECRETA",
+     "sub": "Vozrozhdeniya",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "kokaral",
+   "texto": "Em dois mil e cinco, o Cazaquistão tomou uma decisão difícil: salvar o que ainda podia ser salvo. Com apoio do Banco Mundial, concluiu a barragem de Kokaral, um dique de cerca de doze quilômetros, ao custo de aproximadamente oitenta e sete milhões de dólares. Antes dela, uma barragem improvisada de terra tinha cedido. A nova fechou a ligação entre o Pequeno e o Grande Aral. A água do Sir Dária, que antes escapava para o sul, passou a ficar no norte. Era uma aposta: sacrificar um lado para salvar o outro.",
+   "galeria": [
+    "kazakhstan-aral-regiao",
+    "banco-mundial",
+    "kokaral-dique",
+    "kokaral-mapa",
+    "pequeno-aral-2010",
+    "sir-daria-kyzylorda"
+   ],
+   "galeriaEm": [
+    0,
+    "Banco",
+    "barragem",
+    "Antes",
+    "Pequeno",
+    "Sir"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral",
+    "Banco Mundial"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A BARRAGEM DE KOKARAL",
+     "sub": "Cazaquistão, 2005",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 87,
+     "unidade": "milhões de US$",
+     "rotulo": "Custo aproximado da barragem",
+     "em": "oitenta",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "norte-renasce",
+   "texto": "E funcionou. Com o nível subindo, a salinidade do Pequeno Aral caiu, e os peixes voltaram. A produção de pescado no norte saiu de pouco mais de mil e trezentas toneladas, em dois mil e seis, para mais de sete mil, em dois mil e dezesseis. Pescadores cazaques voltaram a trabalhar, e a água se aproximou de Aralsk, antigo porto que havia ficado longe da margem. Não é o Aral de mil novecentos e sessenta, longe disso. Mas é a prova de que, com decisão e investimento, um desastre ambiental pode ser parcialmente revertido.",
+   "galeria": [
+    "pequeno-aral-norte",
+    "lucioperca",
+    "pesca-cazaquistao",
+    "pescador-aral",
+    "aralsk",
+    "aral-norte-2018"
+   ],
+   "galeriaEm": [
+    0,
+    "peixes",
+    "pescado",
+    "Pescadores",
+    "Aralsk",
+    "revertido"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O NORTE RENASCE",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 1360,
+     "ate": 7106,
+     "unidade": "toneladas",
+     "rotulo": "Pesca no Pequeno Aral (2006 → 2016)",
+     "em": "toneladas",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "aralkum",
+   "texto": "Já o Grande Aral, ao sul, teve destino bem diferente. Parte do excesso de água do norte ainda escoa para lá, mas evapora rápido, e esse lado é considerado praticamente irrecuperável. Em agosto de dois mil e catorze, imagens da NASA mostraram que a porção leste da bacia sul tinha secado por completo. O novo deserto se chama Aralkum. Em dois mil e dez, o então secretário-geral da ONU, Ban Ki-moon, chamou o Aral de um dos piores desastres ambientais do planeta. Em dois mil e vinte e um, o Cazaquistão anunciou o plantio de saxaul em um milhão de hectares do leito seco, para segurar a poeira.",
+   "galeria": [
+    "aral-sul-costa",
+    "aral-2014-leste",
+    "aralkum",
+    "ban-ki-moon",
+    "saxaul",
+    "plantio-saxaul"
+   ],
+   "galeriaEm": [
+    0,
+    "agosto",
+    "Aralkum",
+    "Ban",
+    "plantio",
+    "hectares"
+   ],
+   "fontes": [
+    "NASA",
+    "Wikipédia — Mar de Aral"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O DESERTO ARALKUM",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "licao",
+   "texto": "Então, por que o Mar de Aral desapareceu? Porque a água de dois rios foi tratada como se fosse infinita. Cada canal, isolado, parecia uma boa ideia. Somados, deixaram um mar vazio. A lição do Aral não é só sobre a União Soviética. Vale para qualquer lugar onde se retira mais água do que a natureza devolve. No norte, uma barragem de doze quilômetros mostrou que é possível reparar parte do estrago. No sul, os navios seguem na areia, lembrando o preço de decidir sem olhar o que vem depois.",
+   "galeria": [
+    "aral-margem-recente",
+    "irrigacao-karakalpakstan",
+    "asia-central-espaco",
+    "aral-norte-por-do-sol",
+    "moynaq-amanhecer"
+   ],
+   "galeriaEm": [
+    0,
+    "canal",
+    "lição",
+    "norte",
+    "navios"
+   ],
+   "fontes": [
+    "Wikipédia — Mar de Aral"
+   ],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "e9e51627fe",
+   "texto": "Em mil novecentos e sessenta, este era o quarto maior lago do mundo: sessenta e oito mil quilômetros quadrados de água e mais de mil e quinhentas ilhas. Hoje, onde havia mar, existe um deserto de sal, e navios enferrujados parados na areia. Nenhuma guerra secou esse mar. Nenhum desastre natural. Foi um plano de engenharia, desenhado para dar certo, e que deu certo demais. Esta é a história de como um país desviou dois rios, apagou um mar do mapa e por que um pedaço dele, contra todas as previsões, voltou.",
+   "audio": "audio/gancho-e9e51627fe.mp3",
+   "duracao": 33.54,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "mil",
+     "i": 0.284,
+     "f": 0.415
+    },
+    {
+     "p": "novecentos",
+     "i": 0.428,
+     "f": 1.04
+    },
+    {
+     "p": "e",
+     "i": 1.053,
+     "f": 1.157
+    },
+    {
+     "p": "sessenta",
+     "i": 1.17,
+     "f": 1.756
+    },
+    {
+     "p": "este",
+     "i": 1.964,
+     "f": 2.264
+    },
+    {
+     "p": "era",
+     "i": 2.277,
+     "f": 2.381
+    },
+    {
+     "p": "o",
+     "i": 2.394,
+     "f": 2.42
+    },
+    {
+     "p": "quarto",
+     "i": 2.433,
+     "f": 2.823
+    },
+    {
+     "p": "maior",
+     "i": 2.836,
+     "f": 3.162
+    },
+    {
+     "p": "lago",
+     "i": 3.175,
+     "f": 3.487
+    },
+    {
+     "p": "do",
+     "i": 3.501,
+     "f": 3.605
+    },
+    {
+     "p": "mundo",
+     "i": 3.618,
+     "f": 3.956
+    },
+    {
+     "p": "sessenta",
+     "i": 4.334,
+     "f": 4.855
+    },
+    {
+     "p": "e",
+     "i": 4.868,
+     "f": 4.894
+    },
+    {
+     "p": "oito",
+     "i": 4.907,
+     "f": 5.167
+    },
+    {
+     "p": "mil",
+     "i": 5.18,
+     "f": 5.402
+    },
+    {
+     "p": "quilômetros",
+     "i": 5.415,
+     "f": 6.014
+    },
+    {
+     "p": "quadrados",
+     "i": 6.027,
+     "f": 6.639
+    },
+    {
+     "p": "de",
+     "i": 6.652,
+     "f": 6.769
+    },
+    {
+     "p": "água",
+     "i": 6.782,
+     "f": 7.12
+    },
+    {
+     "p": "e",
+     "i": 7.133,
+     "f": 7.185
+    },
+    {
+     "p": "mais",
+     "i": 7.198,
+     "f": 7.511
+    },
+    {
+     "p": "de",
+     "i": 7.524,
+     "f": 7.628
+    },
+    {
+     "p": "mil",
+     "i": 7.641,
+     "f": 7.849
+    },
+    {
+     "p": "e",
+     "i": 7.862,
+     "f": 7.915
+    },
+    {
+     "p": "quinhentas",
+     "i": 7.928,
+     "f": 8.501
+    },
+    {
+     "p": "ilhas",
+     "i": 8.514,
+     "f": 9.06
+    },
+    {
+     "p": "Hoje",
+     "i": 9.342,
+     "f": 9.759
+    },
+    {
+     "p": "onde",
+     "i": 9.928,
+     "f": 10.136
+    },
+    {
+     "p": "havia",
+     "i": 10.149,
+     "f": 10.449
+    },
+    {
+     "p": "mar",
+     "i": 10.462,
+     "f": 10.735
+    },
+    {
+     "p": "existe",
+     "i": 11.035,
+     "f": 11.425
+    },
+    {
+     "p": "um",
+     "i": 11.438,
+     "f": 11.491
+    },
+    {
+     "p": "deserto",
+     "i": 11.504,
+     "f": 12.063
+    },
+    {
+     "p": "de",
+     "i": 12.076,
+     "f": 12.194
+    },
+    {
+     "p": "sal",
+     "i": 12.207,
+     "f": 12.558
+    },
+    {
+     "p": "e",
+     "i": 12.819,
+     "f": 12.897
+    },
+    {
+     "p": "navios",
+     "i": 12.91,
+     "f": 13.287
+    },
+    {
+     "p": "enferrujados",
+     "i": 13.3,
+     "f": 14.134
+    },
+    {
+     "p": "parados",
+     "i": 14.147,
+     "f": 14.655
+    },
+    {
+     "p": "na",
+     "i": 14.668,
+     "f": 14.759
+    },
+    {
+     "p": "areia",
+     "i": 14.772,
+     "f": 15.149
+    },
+    {
+     "p": "Nenhuma",
+     "i": 15.431,
+     "f": 15.913
+    },
+    {
+     "p": "guerra",
+     "i": 15.926,
+     "f": 16.251
+    },
+    {
+     "p": "secou",
+     "i": 16.264,
+     "f": 16.681
+    },
+    {
+     "p": "esse",
+     "i": 16.694,
+     "f": 16.902
+    },
+    {
+     "p": "mar.",
+     "i": 16.915,
+     "f": 17.176
+    },
+    {
+     "p": "Nenhum",
+     "i": 17.458,
+     "f": 17.875
+    },
+    {
+     "p": "desastre",
+     "i": 17.888,
+     "f": 18.474
+    },
+    {
+     "p": "natural",
+     "i": 18.487,
+     "f": 19.06
+    },
+    {
+     "p": "Foi",
+     "i": 19.342,
+     "f": 19.563
+    },
+    {
+     "p": "um",
+     "i": 19.576,
+     "f": 19.707
+    },
+    {
+     "p": "plano",
+     "i": 19.72,
+     "f": 20.071
+    },
+    {
+     "p": "de",
+     "i": 20.084,
+     "f": 20.201
+    },
+    {
+     "p": "engenharia",
+     "i": 20.215,
+     "f": 20.839
+    },
+    {
+     "p": "desenhado",
+     "i": 21.087,
+     "f": 21.751
+    },
+    {
+     "p": "para",
+     "i": 21.764,
+     "f": 21.959
+    },
+    {
+     "p": "dar",
+     "i": 21.972,
+     "f": 22.102
+    },
+    {
+     "p": "certo",
+     "i": 22.116,
+     "f": 22.636
+    },
+    {
+     "p": "e",
+     "i": 22.897,
+     "f": 22.962
+    },
+    {
+     "p": "que",
+     "i": 22.975,
+     "f": 23.092
+    },
+    {
+     "p": "deu",
+     "i": 23.105,
+     "f": 23.313
+    },
+    {
+     "p": "certo",
+     "i": 23.326,
+     "f": 23.795
+    },
+    {
+     "p": "demais",
+     "i": 23.808,
+     "f": 24.355
+    },
+    {
+     "p": "Esta",
+     "i": 24.637,
+     "f": 24.95
+    },
+    {
+     "p": "é",
+     "i": 24.963,
+     "f": 25.028
+    },
+    {
+     "p": "a",
+     "i": 25.041,
+     "f": 25.08
+    },
+    {
+     "p": "história",
+     "i": 25.093,
+     "f": 25.509
+    },
+    {
+     "p": "de",
+     "i": 25.523,
+     "f": 25.614
+    },
+    {
+     "p": "como",
+     "i": 25.627,
+     "f": 25.874
+    },
+    {
+     "p": "um",
+     "i": 25.887,
+     "f": 25.965
+    },
+    {
+     "p": "país",
+     "i": 25.978,
+     "f": 26.33
+    },
+    {
+     "p": "desviou",
+     "i": 26.343,
+     "f": 26.812
+    },
+    {
+     "p": "dois",
+     "i": 26.825,
+     "f": 27.124
+    },
+    {
+     "p": "rios",
+     "i": 27.137,
+     "f": 27.528
+    },
+    {
+     "p": "apagou",
+     "i": 27.749,
+     "f": 28.127
+    },
+    {
+     "p": "um",
+     "i": 28.14,
+     "f": 28.231
+    },
+    {
+     "p": "mar",
+     "i": 28.244,
+     "f": 28.465
+    },
+    {
+     "p": "do",
+     "i": 28.478,
+     "f": 28.608
+    },
+    {
+     "p": "mapa",
+     "i": 28.621,
+     "f": 28.973
+    },
+    {
+     "p": "e",
+     "i": 28.986,
+     "f": 29.025
+    },
+    {
+     "p": "por",
+     "i": 29.038,
+     "f": 29.207
+    },
+    {
+     "p": "que",
+     "i": 29.22,
+     "f": 29.338
+    },
+    {
+     "p": "um",
+     "i": 29.351,
+     "f": 29.442
+    },
+    {
+     "p": "pedaço",
+     "i": 29.455,
+     "f": 29.937
+    },
+    {
+     "p": "dele",
+     "i": 29.95,
+     "f": 30.314
+    },
+    {
+     "p": "contra",
+     "i": 30.522,
+     "f": 30.887
+    },
+    {
+     "p": "todas",
+     "i": 30.9,
+     "f": 31.2
+    },
+    {
+     "p": "as",
+     "i": 31.213,
+     "f": 31.395
+    },
+    {
+     "p": "previsões",
+     "i": 31.408,
+     "f": 32.124
+    },
+    {
+     "p": "voltou",
+     "i": 32.319,
+     "f": 32.84
+    }
+   ]
+  },
+  "promessa": {
+   "hash": "ae4ffdeb45",
+   "texto": "Para entender, olhe para a Ásia Central. O Aral ficava entre o Cazaquistão e o Uzbequistão, no meio de uma região árida. Vivia de dois rios: o Amu Dária e o Sir Dária, que nascem em montanhas distantes e atravessam o deserto até o mar. Nos anos cinquenta, traziam cerca de cinquenta e seis quilômetros cúbicos de água por ano. Nas próximas cenas, você vai ver imagens de satélite, os navios no deserto e o que o Cazaquistão conseguiu recuperar. Mas, primeiro, quem decidiu desviar esses rios?",
+   "audio": "audio/promessa-ae4ffdeb45.mp3",
+   "duracao": 31.742,
+   "palavras": [
+    {
+     "p": "Para",
+     "i": 0.102,
+     "f": 0.284
+    },
+    {
+     "p": "entender",
+     "i": 0.297,
+     "f": 0.857
+    },
+    {
+     "p": "olhe",
+     "i": 1.131,
+     "f": 1.365
+    },
+    {
+     "p": "para",
+     "i": 1.378,
+     "f": 1.547
+    },
+    {
+     "p": "a",
+     "i": 1.56,
+     "f": 1.599
+    },
+    {
+     "p": "Ásia",
+     "i": 1.613,
+     "f": 1.951
+    },
+    {
+     "p": "Central",
+     "i": 1.964,
+     "f": 2.524
+    },
+    {
+     "p": "O",
+     "i": 2.806,
+     "f": 2.91
+    },
+    {
+     "p": "Aral",
+     "i": 2.923,
+     "f": 3.21
+    },
+    {
+     "p": "ficava",
+     "i": 3.223,
+     "f": 3.6
+    },
+    {
+     "p": "entre",
+     "i": 3.613,
+     "f": 3.783
+    },
+    {
+     "p": "o",
+     "i": 3.796,
+     "f": 3.809
+    },
+    {
+     "p": "Cazaquistão",
+     "i": 3.822,
+     "f": 4.538
+    },
+    {
+     "p": "e",
+     "i": 4.551,
+     "f": 4.616
+    },
+    {
+     "p": "o",
+     "i": 4.629,
+     "f": 4.668
+    },
+    {
+     "p": "Uzbequistão",
+     "i": 4.681,
+     "f": 5.306
+    },
+    {
+     "p": "no",
+     "i": 5.645,
+     "f": 5.762
+    },
+    {
+     "p": "meio",
+     "i": 5.775,
+     "f": 6.061
+    },
+    {
+     "p": "de",
+     "i": 6.074,
+     "f": 6.165
+    },
+    {
+     "p": "uma",
+     "i": 6.178,
+     "f": 6.309
+    },
+    {
+     "p": "região",
+     "i": 6.322,
+     "f": 6.777
+    },
+    {
+     "p": "árida",
+     "i": 6.79,
+     "f": 7.155
+    },
+    {
+     "p": "Vivia",
+     "i": 7.437,
+     "f": 7.919
+    },
+    {
+     "p": "de",
+     "i": 7.932,
+     "f": 8.062
+    },
+    {
+     "p": "dois",
+     "i": 8.075,
+     "f": 8.336
+    },
+    {
+     "p": "rios",
+     "i": 8.349,
+     "f": 8.713
+    },
+    {
+     "p": "o",
+     "i": 9.104,
+     "f": 9.208
+    },
+    {
+     "p": "Amu",
+     "i": 9.221,
+     "f": 9.494
+    },
+    {
+     "p": "Dária",
+     "i": 9.507,
+     "f": 9.898
+    },
+    {
+     "p": "e",
+     "i": 9.911,
+     "f": 9.963
+    },
+    {
+     "p": "o",
+     "i": 9.976,
+     "f": 10.028
+    },
+    {
+     "p": "Sir",
+     "i": 10.041,
+     "f": 10.302
+    },
+    {
+     "p": "Dária",
+     "i": 10.315,
+     "f": 10.679
+    },
+    {
+     "p": "que",
+     "i": 10.94,
+     "f": 11.096
+    },
+    {
+     "p": "nascem",
+     "i": 11.109,
+     "f": 11.552
+    },
+    {
+     "p": "em",
+     "i": 11.565,
+     "f": 11.63
+    },
+    {
+     "p": "montanhas",
+     "i": 11.643,
+     "f": 12.177
+    },
+    {
+     "p": "distantes",
+     "i": 12.19,
+     "f": 12.711
+    },
+    {
+     "p": "e",
+     "i": 12.724,
+     "f": 12.802
+    },
+    {
+     "p": "atravessam",
+     "i": 12.815,
+     "f": 13.414
+    },
+    {
+     "p": "o",
+     "i": 13.427,
+     "f": 13.466
+    },
+    {
+     "p": "deserto",
+     "i": 13.479,
+     "f": 14
+    },
+    {
+     "p": "até",
+     "i": 14.013,
+     "f": 14.234
+    },
+    {
+     "p": "o",
+     "i": 14.247,
+     "f": 14.286
+    },
+    {
+     "p": "mar.",
+     "i": 14.299,
+     "f": 14.533
+    },
+    {
+     "p": "Nos",
+     "i": 14.815,
+     "f": 15.036
+    },
+    {
+     "p": "anos",
+     "i": 15.049,
+     "f": 15.388
+    },
+    {
+     "p": "cinquenta",
+     "i": 15.401,
+     "f": 15.974
+    },
+    {
+     "p": "traziam",
+     "i": 16.208,
+     "f": 16.69
+    },
+    {
+     "p": "cerca",
+     "i": 16.703,
+     "f": 17.107
+    },
+    {
+     "p": "de",
+     "i": 17.12,
+     "f": 17.224
+    },
+    {
+     "p": "cinquenta",
+     "i": 17.237,
+     "f": 17.732
+    },
+    {
+     "p": "e",
+     "i": 17.745,
+     "f": 17.771
+    },
+    {
+     "p": "seis",
+     "i": 17.784,
+     "f": 18.005
+    },
+    {
+     "p": "quilômetros",
+     "i": 18.018,
+     "f": 18.617
+    },
+    {
+     "p": "cúbicos",
+     "i": 18.63,
+     "f": 19.06
+    },
+    {
+     "p": "de",
+     "i": 19.073,
+     "f": 19.19
+    },
+    {
+     "p": "água",
+     "i": 19.203,
+     "f": 19.503
+    },
+    {
+     "p": "por",
+     "i": 19.516,
+     "f": 19.685
+    },
+    {
+     "p": "ano",
+     "i": 19.698,
+     "f": 20.01
+    },
+    {
+     "p": "Nas",
+     "i": 20.292,
+     "f": 20.592
+    },
+    {
+     "p": "próximas",
+     "i": 20.605,
+     "f": 21.125
+    },
+    {
+     "p": "cenas",
+     "i": 21.138,
+     "f": 21.646
+    },
+    {
+     "p": "você",
+     "i": 21.842,
+     "f": 22.167
+    },
+    {
+     "p": "vai",
+     "i": 22.18,
+     "f": 22.336
+    },
+    {
+     "p": "ver",
+     "i": 22.349,
+     "f": 22.493
+    },
+    {
+     "p": "imagens",
+     "i": 22.506,
+     "f": 23.013
+    },
+    {
+     "p": "de",
+     "i": 23.026,
+     "f": 23.131
+    },
+    {
+     "p": "satélite",
+     "i": 23.144,
+     "f": 23.795
+    },
+    {
+     "p": "os",
+     "i": 24.029,
+     "f": 24.146
+    },
+    {
+     "p": "navios",
+     "i": 24.159,
+     "f": 24.628
+    },
+    {
+     "p": "no",
+     "i": 24.641,
+     "f": 24.745
+    },
+    {
+     "p": "deserto",
+     "i": 24.758,
+     "f": 25.331
+    },
+    {
+     "p": "e",
+     "i": 25.344,
+     "f": 25.396
+    },
+    {
+     "p": "o",
+     "i": 25.409,
+     "f": 25.474
+    },
+    {
+     "p": "que",
+     "i": 25.487,
+     "f": 25.553
+    },
+    {
+     "p": "o",
+     "i": 25.566,
+     "f": 25.592
+    },
+    {
+     "p": "Cazaquistão",
+     "i": 25.605,
+     "f": 26.256
+    },
+    {
+     "p": "conseguiu",
+     "i": 26.269,
+     "f": 26.763
+    },
+    {
+     "p": "recuperar",
+     "i": 26.776,
+     "f": 27.388
+    },
+    {
+     "p": "Mas",
+     "i": 27.67,
+     "f": 28.152
+    },
+    {
+     "p": "primeiro",
+     "i": 28.373,
+     "f": 28.855
+    },
+    {
+     "p": "quem",
+     "i": 29.141,
+     "f": 29.324
+    },
+    {
+     "p": "decidiu",
+     "i": 29.337,
+     "f": 29.805
+    },
+    {
+     "p": "desviar",
+     "i": 29.819,
+     "f": 30.326
+    },
+    {
+     "p": "esses",
+     "i": 30.339,
+     "f": 30.574
+    },
+    {
+     "p": "rios",
+     "i": 30.587,
+     "f": 31.042
+    }
+   ]
+  },
+  "plano-de-moscou": {
+   "hash": "748d6a80a9",
+   "texto": "O Aral era um mar cheio de vida. Em Moynaq, na margem sul, ficava um porto movimentado. A pesca empregava dezenas de milhares de pessoas e chegou a responder por cerca de um sexto do pescado soviético. Mas, para os planejadores de Moscou, o que importava era outra coisa: o algodão. A União Soviética queria produzir o seu próprio, e a Ásia Central, com sol de sobra, parecia o lugar perfeito. Faltava só água. E ela estava ali, nos dois rios que alimentavam o mar. Era o começo do fim.",
+   "audio": "audio/plano-de-moscou-748d6a80a9.mp3",
+   "duracao": 33.142,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "Aral",
+     "i": 0.232,
+     "f": 0.571
+    },
+    {
+     "p": "era",
+     "i": 0.584,
+     "f": 0.688
+    },
+    {
+     "p": "um",
+     "i": 0.701,
+     "f": 0.766
+    },
+    {
+     "p": "mar",
+     "i": 0.779,
+     "f": 1.014
+    },
+    {
+     "p": "cheio",
+     "i": 1.027,
+     "f": 1.391
+    },
+    {
+     "p": "de",
+     "i": 1.404,
+     "f": 1.521
+    },
+    {
+     "p": "vida",
+     "i": 1.534,
+     "f": 1.925
+    },
+    {
+     "p": "Em",
+     "i": 2.207,
+     "f": 2.363
+    },
+    {
+     "p": "Moynaq",
+     "i": 2.376,
+     "f": 2.793
+    },
+    {
+     "p": "na",
+     "i": 3.053,
+     "f": 3.184
+    },
+    {
+     "p": "margem",
+     "i": 3.197,
+     "f": 3.652
+    },
+    {
+     "p": "sul",
+     "i": 3.665,
+     "f": 3.965
+    },
+    {
+     "p": "ficava",
+     "i": 4.212,
+     "f": 4.59
+    },
+    {
+     "p": "um",
+     "i": 4.603,
+     "f": 4.733
+    },
+    {
+     "p": "porto",
+     "i": 4.746,
+     "f": 5.085
+    },
+    {
+     "p": "movimentado",
+     "i": 5.098,
+     "f": 5.853
+    },
+    {
+     "p": "A",
+     "i": 6.135,
+     "f": 6.291
+    },
+    {
+     "p": "pesca",
+     "i": 6.304,
+     "f": 6.708
+    },
+    {
+     "p": "empregava",
+     "i": 6.721,
+     "f": 7.294
+    },
+    {
+     "p": "dezenas",
+     "i": 7.307,
+     "f": 7.789
+    },
+    {
+     "p": "de",
+     "i": 7.802,
+     "f": 7.893
+    },
+    {
+     "p": "milhares",
+     "i": 7.906,
+     "f": 8.336
+    },
+    {
+     "p": "de",
+     "i": 8.349,
+     "f": 8.427
+    },
+    {
+     "p": "pessoas",
+     "i": 8.44,
+     "f": 8.922
+    },
+    {
+     "p": "e",
+     "i": 8.935,
+     "f": 9.039
+    },
+    {
+     "p": "chegou",
+     "i": 9.052,
+     "f": 9.403
+    },
+    {
+     "p": "a",
+     "i": 9.416,
+     "f": 9.468
+    },
+    {
+     "p": "responder",
+     "i": 9.481,
+     "f": 10.028
+    },
+    {
+     "p": "por",
+     "i": 10.041,
+     "f": 10.237
+    },
+    {
+     "p": "cerca",
+     "i": 10.25,
+     "f": 10.614
+    },
+    {
+     "p": "de",
+     "i": 10.627,
+     "f": 10.731
+    },
+    {
+     "p": "um",
+     "i": 10.744,
+     "f": 10.849
+    },
+    {
+     "p": "sexto",
+     "i": 10.862,
+     "f": 11.317
+    },
+    {
+     "p": "do",
+     "i": 11.33,
+     "f": 11.435
+    },
+    {
+     "p": "pescado",
+     "i": 11.448,
+     "f": 11.994
+    },
+    {
+     "p": "soviético",
+     "i": 12.007,
+     "f": 12.763
+    },
+    {
+     "p": "Mas",
+     "i": 13.045,
+     "f": 13.54
+    },
+    {
+     "p": "para",
+     "i": 13.761,
+     "f": 13.957
+    },
+    {
+     "p": "os",
+     "i": 13.97,
+     "f": 14.061
+    },
+    {
+     "p": "planejadores",
+     "i": 14.074,
+     "f": 14.803
+    },
+    {
+     "p": "de",
+     "i": 14.816,
+     "f": 14.894
+    },
+    {
+     "p": "Moscou",
+     "i": 14.907,
+     "f": 15.415
+    },
+    {
+     "p": "o",
+     "i": 15.74,
+     "f": 15.819
+    },
+    {
+     "p": "que",
+     "i": 15.832,
+     "f": 15.923
+    },
+    {
+     "p": "importava",
+     "i": 15.936,
+     "f": 16.548
+    },
+    {
+     "p": "era",
+     "i": 16.561,
+     "f": 16.743
+    },
+    {
+     "p": "outra",
+     "i": 16.756,
+     "f": 17.069
+    },
+    {
+     "p": "coisa",
+     "i": 17.082,
+     "f": 17.472
+    },
+    {
+     "p": "o",
+     "i": 17.72,
+     "f": 17.824
+    },
+    {
+     "p": "algodão",
+     "i": 17.837,
+     "f": 18.384
+    },
+    {
+     "p": "A",
+     "i": 18.666,
+     "f": 18.822
+    },
+    {
+     "p": "União",
+     "i": 18.835,
+     "f": 19.226
+    },
+    {
+     "p": "Soviética",
+     "i": 19.239,
+     "f": 19.903
+    },
+    {
+     "p": "queria",
+     "i": 19.916,
+     "f": 20.203
+    },
+    {
+     "p": "produzir",
+     "i": 20.216,
+     "f": 20.684
+    },
+    {
+     "p": "o",
+     "i": 20.697,
+     "f": 20.736
+    },
+    {
+     "p": "seu",
+     "i": 20.749,
+     "f": 20.945
+    },
+    {
+     "p": "próprio",
+     "i": 20.958,
+     "f": 21.4
+    },
+    {
+     "p": "e",
+     "i": 21.752,
+     "f": 21.856
+    },
+    {
+     "p": "a",
+     "i": 21.869,
+     "f": 21.947
+    },
+    {
+     "p": "Ásia",
+     "i": 21.96,
+     "f": 22.273
+    },
+    {
+     "p": "Central",
+     "i": 22.286,
+     "f": 22.82
+    },
+    {
+     "p": "com",
+     "i": 23.106,
+     "f": 23.302
+    },
+    {
+     "p": "sol",
+     "i": 23.315,
+     "f": 23.588
+    },
+    {
+     "p": "de",
+     "i": 23.601,
+     "f": 23.718
+    },
+    {
+     "p": "sobra",
+     "i": 23.731,
+     "f": 24.161
+    },
+    {
+     "p": "parecia",
+     "i": 24.382,
+     "f": 24.916
+    },
+    {
+     "p": "o",
+     "i": 24.929,
+     "f": 24.955
+    },
+    {
+     "p": "lugar",
+     "i": 24.968,
+     "f": 25.294
+    },
+    {
+     "p": "perfeito",
+     "i": 25.307,
+     "f": 25.906
+    },
+    {
+     "p": "Faltava",
+     "i": 26.188,
+     "f": 26.826
+    },
+    {
+     "p": "só",
+     "i": 26.839,
+     "f": 27.074
+    },
+    {
+     "p": "água",
+     "i": 27.087,
+     "f": 27.464
+    },
+    {
+     "p": "E",
+     "i": 27.746,
+     "f": 27.863
+    },
+    {
+     "p": "ela",
+     "i": 27.876,
+     "f": 28.072
+    },
+    {
+     "p": "estava",
+     "i": 28.085,
+     "f": 28.423
+    },
+    {
+     "p": "ali",
+     "i": 28.436,
+     "f": 28.71
+    },
+    {
+     "p": "nos",
+     "i": 29.035,
+     "f": 29.191
+    },
+    {
+     "p": "dois",
+     "i": 29.204,
+     "f": 29.452
+    },
+    {
+     "p": "rios",
+     "i": 29.465,
+     "f": 29.777
+    },
+    {
+     "p": "que",
+     "i": 29.79,
+     "f": 29.856
+    },
+    {
+     "p": "alimentavam",
+     "i": 29.868,
+     "f": 30.585
+    },
+    {
+     "p": "o",
+     "i": 30.598,
+     "f": 30.637
+    },
+    {
+     "p": "mar.",
+     "i": 30.65,
+     "f": 30.91
+    },
+    {
+     "p": "Era",
+     "i": 31.192,
+     "f": 31.426
+    },
+    {
+     "p": "o",
+     "i": 31.439,
+     "f": 31.466
+    },
+    {
+     "p": "começo",
+     "i": 31.479,
+     "f": 31.986
+    },
+    {
+     "p": "do",
+     "i": 31.999,
+     "f": 32.104
+    },
+    {
+     "p": "fim",
+     "i": 32.117,
+     "f": 32.442
+    }
+   ]
+  },
+  "canais": {
+   "hash": "ff01132396",
+   "texto": "Para levar água ao deserto, engenheiros cavaram milhares de quilômetros de canais. O maior, o Karakum, cruza o Turcomenistão por mais de mil e trezentos quilômetros. Só que muitos eram simples valas de terra, sem revestimento. Estimativas indicam que entre trinta e setenta e cinco por cento da água do Karakum se perdia no caminho. Resultado: a vazão que chegava ao Aral caiu de cerca de cinquenta e seis quilômetros cúbicos por ano, nos anos cinquenta, para pouco mais de quatro, nos anos oitenta. O mar estava sendo esvaziado, e quase ninguém estava olhando.",
+   "audio": "audio/canais-ff01132396.mp3",
+   "duracao": 34.829,
+   "palavras": [
+    {
+     "p": "Para",
+     "i": 0.102,
+     "f": 0.31
+    },
+    {
+     "p": "levar",
+     "i": 0.323,
+     "f": 0.675
+    },
+    {
+     "p": "água",
+     "i": 0.688,
+     "f": 0.922
+    },
+    {
+     "p": "ao",
+     "i": 0.935,
+     "f": 1.014
+    },
+    {
+     "p": "deserto",
+     "i": 1.027,
+     "f": 1.613
+    },
+    {
+     "p": "engenheiros",
+     "i": 1.873,
+     "f": 2.472
+    },
+    {
+     "p": "cavaram",
+     "i": 2.485,
+     "f": 2.836
+    },
+    {
+     "p": "milhares",
+     "i": 2.849,
+     "f": 3.292
+    },
+    {
+     "p": "de",
+     "i": 3.305,
+     "f": 3.409
+    },
+    {
+     "p": "quilômetros",
+     "i": 3.422,
+     "f": 3.995
+    },
+    {
+     "p": "de",
+     "i": 4.008,
+     "f": 4.099
+    },
+    {
+     "p": "canais",
+     "i": 4.112,
+     "f": 4.672
+    },
+    {
+     "p": "O",
+     "i": 4.954,
+     "f": 5.058
+    },
+    {
+     "p": "maior",
+     "i": 5.071,
+     "f": 5.501
+    },
+    {
+     "p": "o",
+     "i": 5.84,
+     "f": 5.892
+    },
+    {
+     "p": "Karakum",
+     "i": 5.905,
+     "f": 6.439
+    },
+    {
+     "p": "cruza",
+     "i": 6.764,
+     "f": 7.076
+    },
+    {
+     "p": "o",
+     "i": 7.089,
+     "f": 7.129
+    },
+    {
+     "p": "Turcomenistão",
+     "i": 7.142,
+     "f": 7.871
+    },
+    {
+     "p": "por",
+     "i": 7.884,
+     "f": 8.04
+    },
+    {
+     "p": "mais",
+     "i": 8.053,
+     "f": 8.313
+    },
+    {
+     "p": "de",
+     "i": 8.326,
+     "f": 8.431
+    },
+    {
+     "p": "mil",
+     "i": 8.444,
+     "f": 8.652
+    },
+    {
+     "p": "e",
+     "i": 8.665,
+     "f": 8.717
+    },
+    {
+     "p": "trezentos",
+     "i": 8.73,
+     "f": 9.316
+    },
+    {
+     "p": "quilômetros",
+     "i": 9.329,
+     "f": 10.071
+    },
+    {
+     "p": "Só",
+     "i": 10.353,
+     "f": 10.653
+    },
+    {
+     "p": "que",
+     "i": 10.666,
+     "f": 10.783
+    },
+    {
+     "p": "muitos",
+     "i": 10.796,
+     "f": 11.199
+    },
+    {
+     "p": "eram",
+     "i": 11.212,
+     "f": 11.486
+    },
+    {
+     "p": "simples",
+     "i": 11.499,
+     "f": 11.994
+    },
+    {
+     "p": "valas",
+     "i": 12.007,
+     "f": 12.345
+    },
+    {
+     "p": "de",
+     "i": 12.358,
+     "f": 12.488
+    },
+    {
+     "p": "terra",
+     "i": 12.502,
+     "f": 12.84
+    },
+    {
+     "p": "sem",
+     "i": 13.113,
+     "f": 13.309
+    },
+    {
+     "p": "revestimento",
+     "i": 13.322,
+     "f": 14.142
+    },
+    {
+     "p": "Estimativas",
+     "i": 14.424,
+     "f": 15.14
+    },
+    {
+     "p": "indicam",
+     "i": 15.153,
+     "f": 15.7
+    },
+    {
+     "p": "que",
+     "i": 15.713,
+     "f": 15.843
+    },
+    {
+     "p": "entre",
+     "i": 15.856,
+     "f": 16.13
+    },
+    {
+     "p": "trinta",
+     "i": 16.143,
+     "f": 16.39
+    },
+    {
+     "p": "e",
+     "i": 16.403,
+     "f": 16.429
+    },
+    {
+     "p": "setenta",
+     "i": 16.442,
+     "f": 16.768
+    },
+    {
+     "p": "e",
+     "i": 16.781,
+     "f": 16.807
+    },
+    {
+     "p": "cinco",
+     "i": 16.82,
+     "f": 17.106
+    },
+    {
+     "p": "por",
+     "i": 17.119,
+     "f": 17.289
+    },
+    {
+     "p": "cento",
+     "i": 17.302,
+     "f": 17.653
+    },
+    {
+     "p": "da",
+     "i": 17.666,
+     "f": 17.77
+    },
+    {
+     "p": "água",
+     "i": 17.783,
+     "f": 18.057
+    },
+    {
+     "p": "do",
+     "i": 18.07,
+     "f": 18.161
+    },
+    {
+     "p": "Karakum",
+     "i": 18.174,
+     "f": 18.617
+    },
+    {
+     "p": "se",
+     "i": 18.63,
+     "f": 18.773
+    },
+    {
+     "p": "perdia",
+     "i": 18.786,
+     "f": 19.255
+    },
+    {
+     "p": "no",
+     "i": 19.268,
+     "f": 19.372
+    },
+    {
+     "p": "caminho",
+     "i": 19.385,
+     "f": 19.867
+    },
+    {
+     "p": "Resultado",
+     "i": 20.149,
+     "f": 20.839
+    },
+    {
+     "p": "a",
+     "i": 21.1,
+     "f": 21.191
+    },
+    {
+     "p": "vazão",
+     "i": 21.204,
+     "f": 21.568
+    },
+    {
+     "p": "que",
+     "i": 21.581,
+     "f": 21.66
+    },
+    {
+     "p": "chegava",
+     "i": 21.673,
+     "f": 22.128
+    },
+    {
+     "p": "ao",
+     "i": 22.141,
+     "f": 22.258
+    },
+    {
+     "p": "Aral",
+     "i": 22.271,
+     "f": 22.558
+    },
+    {
+     "p": "caiu",
+     "i": 22.571,
+     "f": 22.857
+    },
+    {
+     "p": "de",
+     "i": 22.87,
+     "f": 22.988
+    },
+    {
+     "p": "cerca",
+     "i": 23.001,
+     "f": 23.404
+    },
+    {
+     "p": "de",
+     "i": 23.417,
+     "f": 23.521
+    },
+    {
+     "p": "cinquenta",
+     "i": 23.534,
+     "f": 23.99
+    },
+    {
+     "p": "e",
+     "i": 24.003,
+     "f": 24.029
+    },
+    {
+     "p": "seis",
+     "i": 24.042,
+     "f": 24.251
+    },
+    {
+     "p": "quilômetros",
+     "i": 24.264,
+     "f": 24.837
+    },
+    {
+     "p": "cúbicos",
+     "i": 24.85,
+     "f": 25.305
+    },
+    {
+     "p": "por",
+     "i": 25.318,
+     "f": 25.488
+    },
+    {
+     "p": "ano",
+     "i": 25.501,
+     "f": 25.748
+    },
+    {
+     "p": "nos",
+     "i": 26.074,
+     "f": 26.217
+    },
+    {
+     "p": "anos",
+     "i": 26.23,
+     "f": 26.568
+    },
+    {
+     "p": "cinquenta",
+     "i": 26.581,
+     "f": 27.18
+    },
+    {
+     "p": "para",
+     "i": 27.415,
+     "f": 27.649
+    },
+    {
+     "p": "pouco",
+     "i": 27.662,
+     "f": 28.014
+    },
+    {
+     "p": "mais",
+     "i": 28.027,
+     "f": 28.274
+    },
+    {
+     "p": "de",
+     "i": 28.287,
+     "f": 28.404
+    },
+    {
+     "p": "quatro",
+     "i": 28.417,
+     "f": 28.873
+    },
+    {
+     "p": "nos",
+     "i": 29.068,
+     "f": 29.199
+    },
+    {
+     "p": "anos",
+     "i": 29.212,
+     "f": 29.511
+    },
+    {
+     "p": "oitenta",
+     "i": 29.524,
+     "f": 30.123
+    },
+    {
+     "p": "O",
+     "i": 30.405,
+     "f": 30.522
+    },
+    {
+     "p": "mar",
+     "i": 30.535,
+     "f": 30.744
+    },
+    {
+     "p": "estava",
+     "i": 30.757,
+     "f": 31.095
+    },
+    {
+     "p": "sendo",
+     "i": 31.108,
+     "f": 31.382
+    },
+    {
+     "p": "esvaziado",
+     "i": 31.395,
+     "f": 32.085
+    },
+    {
+     "p": "e",
+     "i": 32.436,
+     "f": 32.554
+    },
+    {
+     "p": "quase",
+     "i": 32.567,
+     "f": 32.957
+    },
+    {
+     "p": "ninguém",
+     "i": 32.97,
+     "f": 33.309
+    },
+    {
+     "p": "estava",
+     "i": 33.322,
+     "f": 33.647
+    },
+    {
+     "p": "olhando",
+     "i": 33.66,
+     "f": 34.129
+    }
+   ]
+  },
+  "mar-se-parte": {
+   "hash": "1bc27650bd",
+   "texto": "No começo dos anos sessenta, o nível da água começou a cair. A cada ano, a margem recuava mais. Em mil novecentos e oitenta e sete, o mar se partiu em dois: o Pequeno Aral, ao norte, e o Grande Aral, ao sul. A salinidade, que era de cerca de dez gramas por litro, mais que triplicou. Peixes não resistiram, e a pesca comercial acabou. Os cientistas já alertavam, mas o plano do algodão continuou. Em mil novecentos e noventa e nove, a ligação entre as duas partes também se perdeu, e cada uma seguiu seu destino.",
+   "audio": "audio/mar-se-parte-1bc27650bd.mp3",
+   "duracao": 35.019,
+   "palavras": [
+    {
+     "p": "No",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "começo",
+     "i": 0.31,
+     "f": 0.792
+    },
+    {
+     "p": "dos",
+     "i": 0.805,
+     "f": 0.922
+    },
+    {
+     "p": "anos",
+     "i": 0.935,
+     "f": 1.3
+    },
+    {
+     "p": "sessenta",
+     "i": 1.313,
+     "f": 1.886
+    },
+    {
+     "p": "o",
+     "i": 2.172,
+     "f": 2.238
+    },
+    {
+     "p": "nível",
+     "i": 2.251,
+     "f": 2.602
+    },
+    {
+     "p": "da",
+     "i": 2.615,
+     "f": 2.719
+    },
+    {
+     "p": "água",
+     "i": 2.732,
+     "f": 3.058
+    },
+    {
+     "p": "começou",
+     "i": 3.071,
+     "f": 3.527
+    },
+    {
+     "p": "a",
+     "i": 3.54,
+     "f": 3.592
+    },
+    {
+     "p": "cair",
+     "i": 3.605,
+     "f": 3.982
+    },
+    {
+     "p": "A",
+     "i": 4.264,
+     "f": 4.394
+    },
+    {
+     "p": "cada",
+     "i": 4.407,
+     "f": 4.694
+    },
+    {
+     "p": "ano",
+     "i": 4.707,
+     "f": 5.032
+    },
+    {
+     "p": "a",
+     "i": 5.202,
+     "f": 5.293
+    },
+    {
+     "p": "margem",
+     "i": 5.306,
+     "f": 5.748
+    },
+    {
+     "p": "recuava",
+     "i": 5.761,
+     "f": 6.295
+    },
+    {
+     "p": "mais",
+     "i": 6.308,
+     "f": 6.764
+    },
+    {
+     "p": "Em",
+     "i": 7.046,
+     "f": 7.228
+    },
+    {
+     "p": "mil",
+     "i": 7.241,
+     "f": 7.398
+    },
+    {
+     "p": "novecentos",
+     "i": 7.411,
+     "f": 8.023
+    },
+    {
+     "p": "e",
+     "i": 8.036,
+     "f": 8.127
+    },
+    {
+     "p": "oitenta",
+     "i": 8.14,
+     "f": 8.439
+    },
+    {
+     "p": "e",
+     "i": 8.452,
+     "f": 8.491
+    },
+    {
+     "p": "sete",
+     "i": 8.504,
+     "f": 8.921
+    },
+    {
+     "p": "o",
+     "i": 9.208,
+     "f": 9.299
+    },
+    {
+     "p": "mar",
+     "i": 9.312,
+     "f": 9.559
+    },
+    {
+     "p": "se",
+     "i": 9.572,
+     "f": 9.715
+    },
+    {
+     "p": "partiu",
+     "i": 9.728,
+     "f": 10.145
+    },
+    {
+     "p": "em",
+     "i": 10.158,
+     "f": 10.249
+    },
+    {
+     "p": "dois",
+     "i": 10.262,
+     "f": 10.666
+    },
+    {
+     "p": "o",
+     "i": 10.952,
+     "f": 11.03
+    },
+    {
+     "p": "Pequeno",
+     "i": 11.043,
+     "f": 11.447
+    },
+    {
+     "p": "Aral",
+     "i": 11.46,
+     "f": 11.864
+    },
+    {
+     "p": "ao",
+     "i": 11.968,
+     "f": 12.111
+    },
+    {
+     "p": "norte",
+     "i": 12.124,
+     "f": 12.567
+    },
+    {
+     "p": "e",
+     "i": 12.84,
+     "f": 12.945
+    },
+    {
+     "p": "o",
+     "i": 12.958,
+     "f": 13.01
+    },
+    {
+     "p": "Grande",
+     "i": 13.023,
+     "f": 13.426
+    },
+    {
+     "p": "Aral",
+     "i": 13.439,
+     "f": 13.804
+    },
+    {
+     "p": "ao",
+     "i": 13.96,
+     "f": 14.116
+    },
+    {
+     "p": "sul.",
+     "i": 14.129,
+     "f": 14.52
+    },
+    {
+     "p": "A",
+     "i": 14.802,
+     "f": 14.906
+    },
+    {
+     "p": "salinidade",
+     "i": 14.919,
+     "f": 15.661
+    },
+    {
+     "p": "que",
+     "i": 15.935,
+     "f": 16.065
+    },
+    {
+     "p": "era",
+     "i": 16.078,
+     "f": 16.221
+    },
+    {
+     "p": "de",
+     "i": 16.234,
+     "f": 16.339
+    },
+    {
+     "p": "cerca",
+     "i": 16.352,
+     "f": 16.703
+    },
+    {
+     "p": "de",
+     "i": 16.716,
+     "f": 16.833
+    },
+    {
+     "p": "dez",
+     "i": 16.846,
+     "f": 17.094
+    },
+    {
+     "p": "gramas",
+     "i": 17.107,
+     "f": 17.51
+    },
+    {
+     "p": "por",
+     "i": 17.523,
+     "f": 17.693
+    },
+    {
+     "p": "litro",
+     "i": 17.706,
+     "f": 18.109
+    },
+    {
+     "p": "mais",
+     "i": 18.305,
+     "f": 18.643
+    },
+    {
+     "p": "que",
+     "i": 18.656,
+     "f": 18.786
+    },
+    {
+     "p": "triplicou",
+     "i": 18.799,
+     "f": 19.346
+    },
+    {
+     "p": "Peixes",
+     "i": 19.628,
+     "f": 20.071
+    },
+    {
+     "p": "não",
+     "i": 20.084,
+     "f": 20.24
+    },
+    {
+     "p": "resistiram",
+     "i": 20.253,
+     "f": 20.943
+    },
+    {
+     "p": "e",
+     "i": 21.243,
+     "f": 21.321
+    },
+    {
+     "p": "a",
+     "i": 21.334,
+     "f": 21.438
+    },
+    {
+     "p": "pesca",
+     "i": 21.451,
+     "f": 21.881
+    },
+    {
+     "p": "comercial",
+     "i": 21.894,
+     "f": 22.506
+    },
+    {
+     "p": "acabou",
+     "i": 22.519,
+     "f": 23
+    },
+    {
+     "p": "Os",
+     "i": 23.282,
+     "f": 23.477
+    },
+    {
+     "p": "cientistas",
+     "i": 23.49,
+     "f": 24.194
+    },
+    {
+     "p": "já",
+     "i": 24.207,
+     "f": 24.324
+    },
+    {
+     "p": "alertavam",
+     "i": 24.337,
+     "f": 24.975
+    },
+    {
+     "p": "mas",
+     "i": 25.274,
+     "f": 25.404
+    },
+    {
+     "p": "o",
+     "i": 25.417,
+     "f": 25.574
+    },
+    {
+     "p": "plano",
+     "i": 25.587,
+     "f": 25.925
+    },
+    {
+     "p": "do",
+     "i": 25.938,
+     "f": 26.029
+    },
+    {
+     "p": "algodão",
+     "i": 26.042,
+     "f": 26.511
+    },
+    {
+     "p": "continuou",
+     "i": 26.524,
+     "f": 27.162
+    },
+    {
+     "p": "Em",
+     "i": 27.444,
+     "f": 27.6
+    },
+    {
+     "p": "mil",
+     "i": 27.613,
+     "f": 27.757
+    },
+    {
+     "p": "novecentos",
+     "i": 27.77,
+     "f": 28.356
+    },
+    {
+     "p": "e",
+     "i": 28.369,
+     "f": 28.46
+    },
+    {
+     "p": "noventa",
+     "i": 28.473,
+     "f": 28.772
+    },
+    {
+     "p": "e",
+     "i": 28.785,
+     "f": 28.811
+    },
+    {
+     "p": "nove",
+     "i": 28.824,
+     "f": 29.228
+    },
+    {
+     "p": "a",
+     "i": 29.449,
+     "f": 29.514
+    },
+    {
+     "p": "ligação",
+     "i": 29.527,
+     "f": 30.113
+    },
+    {
+     "p": "entre",
+     "i": 30.126,
+     "f": 30.309
+    },
+    {
+     "p": "as",
+     "i": 30.322,
+     "f": 30.413
+    },
+    {
+     "p": "duas",
+     "i": 30.426,
+     "f": 30.764
+    },
+    {
+     "p": "partes",
+     "i": 30.777,
+     "f": 31.233
+    },
+    {
+     "p": "também",
+     "i": 31.246,
+     "f": 31.598
+    },
+    {
+     "p": "se",
+     "i": 31.611,
+     "f": 31.741
+    },
+    {
+     "p": "perdeu",
+     "i": 31.754,
+     "f": 32.262
+    },
+    {
+     "p": "e",
+     "i": 32.548,
+     "f": 32.665
+    },
+    {
+     "p": "cada",
+     "i": 32.678,
+     "f": 32.952
+    },
+    {
+     "p": "uma",
+     "i": 32.965,
+     "f": 33.147
+    },
+    {
+     "p": "seguiu",
+     "i": 33.16,
+     "f": 33.538
+    },
+    {
+     "p": "seu",
+     "i": 33.551,
+     "f": 33.746
+    },
+    {
+     "p": "destino",
+     "i": 33.759,
+     "f": 34.319
+    }
+   ]
+  },
+  "cemiterio-de-navios": {
+   "hash": "fa273f6c8c",
+   "texto": "Moynaq, que vivia do mar, ficou sem água. Os barcos de pesca encalharam na areia, um por um. Hoje, o antigo porto está a dezenas de quilômetros da margem mais próxima, e o que restou é um cemitério de navios. Cascos oxidados, guindastes, cabos soltos, no meio de um deserto onde antes havia fundo de mar. Turistas vão até lá para fotografar a cena. Para quem morava ali, a perda foi mais que paisagem: foi o emprego, a comida e a razão de a cidade existir.",
+   "audio": "audio/cemiterio-de-navios-fa273f6c8c.mp3",
+   "duracao": 30.454,
+   "palavras": [
+    {
+     "p": "Moynaq",
+     "i": 0.102,
+     "f": 0.558
+    },
+    {
+     "p": "que",
+     "i": 0.792,
+     "f": 0.974
+    },
+    {
+     "p": "vivia",
+     "i": 0.988,
+     "f": 1.391
+    },
+    {
+     "p": "do",
+     "i": 1.404,
+     "f": 1.508
+    },
+    {
+     "p": "mar",
+     "i": 1.521,
+     "f": 1.808
+    },
+    {
+     "p": "ficou",
+     "i": 2.003,
+     "f": 2.368
+    },
+    {
+     "p": "sem",
+     "i": 2.381,
+     "f": 2.667
+    },
+    {
+     "p": "água",
+     "i": 2.68,
+     "f": 3.058
+    },
+    {
+     "p": "Os",
+     "i": 3.34,
+     "f": 3.522
+    },
+    {
+     "p": "barcos",
+     "i": 3.535,
+     "f": 4.017
+    },
+    {
+     "p": "de",
+     "i": 4.03,
+     "f": 4.121
+    },
+    {
+     "p": "pesca",
+     "i": 4.134,
+     "f": 4.499
+    },
+    {
+     "p": "encalharam",
+     "i": 4.512,
+     "f": 5.059
+    },
+    {
+     "p": "na",
+     "i": 5.072,
+     "f": 5.163
+    },
+    {
+     "p": "areia",
+     "i": 5.176,
+     "f": 5.515
+    },
+    {
+     "p": "um",
+     "i": 5.749,
+     "f": 5.905
+    },
+    {
+     "p": "por",
+     "i": 5.918,
+     "f": 6.1
+    },
+    {
+     "p": "um",
+     "i": 6.114,
+     "f": 6.296
+    },
+    {
+     "p": "Hoje",
+     "i": 6.578,
+     "f": 6.995
+    },
+    {
+     "p": "o",
+     "i": 7.229,
+     "f": 7.32
+    },
+    {
+     "p": "antigo",
+     "i": 7.333,
+     "f": 7.776
+    },
+    {
+     "p": "porto",
+     "i": 7.789,
+     "f": 8.141
+    },
+    {
+     "p": "está",
+     "i": 8.154,
+     "f": 8.388
+    },
+    {
+     "p": "a",
+     "i": 8.401,
+     "f": 8.44
+    },
+    {
+     "p": "dezenas",
+     "i": 8.453,
+     "f": 8.935
+    },
+    {
+     "p": "de",
+     "i": 8.948,
+     "f": 9.039
+    },
+    {
+     "p": "quilômetros",
+     "i": 9.052,
+     "f": 9.625
+    },
+    {
+     "p": "da",
+     "i": 9.638,
+     "f": 9.755
+    },
+    {
+     "p": "margem",
+     "i": 9.768,
+     "f": 10.185
+    },
+    {
+     "p": "mais",
+     "i": 10.198,
+     "f": 10.445
+    },
+    {
+     "p": "próxima",
+     "i": 10.458,
+     "f": 10.953
+    },
+    {
+     "p": "e",
+     "i": 11.266,
+     "f": 11.383
+    },
+    {
+     "p": "o",
+     "i": 11.396,
+     "f": 11.448
+    },
+    {
+     "p": "que",
+     "i": 11.461,
+     "f": 11.591
+    },
+    {
+     "p": "restou",
+     "i": 11.604,
+     "f": 12.008
+    },
+    {
+     "p": "é",
+     "i": 12.021,
+     "f": 12.073
+    },
+    {
+     "p": "um",
+     "i": 12.086,
+     "f": 12.229
+    },
+    {
+     "p": "cemitério",
+     "i": 12.242,
+     "f": 12.828
+    },
+    {
+     "p": "de",
+     "i": 12.841,
+     "f": 12.945
+    },
+    {
+     "p": "navios",
+     "i": 12.958,
+     "f": 13.596
+    },
+    {
+     "p": "Cascos",
+     "i": 13.878,
+     "f": 14.295
+    },
+    {
+     "p": "oxidados",
+     "i": 14.308,
+     "f": 15.115
+    },
+    {
+     "p": "guindastes",
+     "i": 15.336,
+     "f": 16.079
+    },
+    {
+     "p": "cabos",
+     "i": 16.287,
+     "f": 16.612
+    },
+    {
+     "p": "soltos",
+     "i": 16.625,
+     "f": 17.12
+    },
+    {
+     "p": "no",
+     "i": 17.303,
+     "f": 17.446
+    },
+    {
+     "p": "meio",
+     "i": 17.459,
+     "f": 17.745
+    },
+    {
+     "p": "de",
+     "i": 17.758,
+     "f": 17.849
+    },
+    {
+     "p": "um",
+     "i": 17.862,
+     "f": 17.928
+    },
+    {
+     "p": "deserto",
+     "i": 17.941,
+     "f": 18.448
+    },
+    {
+     "p": "onde",
+     "i": 18.461,
+     "f": 18.748
+    },
+    {
+     "p": "antes",
+     "i": 18.761,
+     "f": 19.021
+    },
+    {
+     "p": "havia",
+     "i": 19.034,
+     "f": 19.425
+    },
+    {
+     "p": "fundo",
+     "i": 19.438,
+     "f": 19.79
+    },
+    {
+     "p": "de",
+     "i": 19.803,
+     "f": 19.907
+    },
+    {
+     "p": "mar.",
+     "i": 19.92,
+     "f": 20.193
+    },
+    {
+     "p": "Turistas",
+     "i": 20.475,
+     "f": 21.048
+    },
+    {
+     "p": "vão",
+     "i": 21.061,
+     "f": 21.269
+    },
+    {
+     "p": "até",
+     "i": 21.282,
+     "f": 21.452
+    },
+    {
+     "p": "lá",
+     "i": 21.465,
+     "f": 21.621
+    },
+    {
+     "p": "para",
+     "i": 21.634,
+     "f": 21.842
+    },
+    {
+     "p": "fotografar",
+     "i": 21.855,
+     "f": 22.48
+    },
+    {
+     "p": "a",
+     "i": 22.493,
+     "f": 22.545
+    },
+    {
+     "p": "cena",
+     "i": 22.558,
+     "f": 23.014
+    },
+    {
+     "p": "Para",
+     "i": 23.296,
+     "f": 23.53
+    },
+    {
+     "p": "quem",
+     "i": 23.543,
+     "f": 23.713
+    },
+    {
+     "p": "morava",
+     "i": 23.726,
+     "f": 24.116
+    },
+    {
+     "p": "ali",
+     "i": 24.129,
+     "f": 24.39
+    },
+    {
+     "p": "a",
+     "i": 24.715,
+     "f": 24.82
+    },
+    {
+     "p": "perda",
+     "i": 24.833,
+     "f": 25.184
+    },
+    {
+     "p": "foi",
+     "i": 25.197,
+     "f": 25.353
+    },
+    {
+     "p": "mais",
+     "i": 25.366,
+     "f": 25.653
+    },
+    {
+     "p": "que",
+     "i": 25.666,
+     "f": 25.783
+    },
+    {
+     "p": "paisagem",
+     "i": 25.796,
+     "f": 26.421
+    },
+    {
+     "p": "foi",
+     "i": 26.695,
+     "f": 26.825
+    },
+    {
+     "p": "o",
+     "i": 26.838,
+     "f": 26.864
+    },
+    {
+     "p": "emprego",
+     "i": 26.877,
+     "f": 27.463
+    },
+    {
+     "p": "a",
+     "i": 27.593,
+     "f": 27.671
+    },
+    {
+     "p": "comida",
+     "i": 27.684,
+     "f": 28.153
+    },
+    {
+     "p": "e",
+     "i": 28.166,
+     "f": 28.218
+    },
+    {
+     "p": "a",
+     "i": 28.231,
+     "f": 28.283
+    },
+    {
+     "p": "razão",
+     "i": 28.296,
+     "f": 28.674
+    },
+    {
+     "p": "de",
+     "i": 28.687,
+     "f": 28.765
+    },
+    {
+     "p": "a",
+     "i": 28.778,
+     "f": 28.817
+    },
+    {
+     "p": "cidade",
+     "i": 28.83,
+     "f": 29.26
+    },
+    {
+     "p": "existir",
+     "i": 29.273,
+     "f": 29.754
+    }
+   ]
+  },
+  "sal-no-ar": {
+   "hash": "271ab93be9",
+   "texto": "Havia ainda um problema escondido no fundo seco: o sal. E, misturados a ele, resíduos de pesticidas e fertilizantes que escorreram das plantações durante décadas. Quando o vento sopra, essa poeira sobe em tempestades visíveis em imagens de satélite da NASA. Pesquisas associam a poeira tóxica a doenças respiratórias, câncer e tuberculose entre moradores da região. O clima também mudou: sem o mar para suavizar a temperatura, os verões ficaram mais quentes e secos, e os invernos, mais frios. Para muita gente, a saída foi deixar a região.",
+   "audio": "audio/sal-no-ar-271ab93be9.mp3",
+   "duracao": 36.276,
+   "palavras": [
+    {
+     "p": "Havia",
+     "i": 0.102,
+     "f": 0.532
+    },
+    {
+     "p": "ainda",
+     "i": 0.545,
+     "f": 0.831
+    },
+    {
+     "p": "um",
+     "i": 0.844,
+     "f": 0.922
+    },
+    {
+     "p": "problema",
+     "i": 0.935,
+     "f": 1.404
+    },
+    {
+     "p": "escondido",
+     "i": 1.417,
+     "f": 1.964
+    },
+    {
+     "p": "no",
+     "i": 1.977,
+     "f": 2.068
+    },
+    {
+     "p": "fundo",
+     "i": 2.081,
+     "f": 2.446
+    },
+    {
+     "p": "seco",
+     "i": 2.459,
+     "f": 2.902
+    },
+    {
+     "p": "o",
+     "i": 3.266,
+     "f": 3.331
+    },
+    {
+     "p": "sal.",
+     "i": 3.344,
+     "f": 3.709
+    },
+    {
+     "p": "E",
+     "i": 3.991,
+     "f": 4.199
+    },
+    {
+     "p": "misturados",
+     "i": 4.538,
+     "f": 5.15
+    },
+    {
+     "p": "a",
+     "i": 5.163,
+     "f": 5.345
+    },
+    {
+     "p": "ele",
+     "i": 5.358,
+     "f": 5.606
+    },
+    {
+     "p": "resíduos",
+     "i": 5.892,
+     "f": 6.452
+    },
+    {
+     "p": "de",
+     "i": 6.465,
+     "f": 6.569
+    },
+    {
+     "p": "pesticidas",
+     "i": 6.582,
+     "f": 7.168
+    },
+    {
+     "p": "e",
+     "i": 7.181,
+     "f": 7.311
+    },
+    {
+     "p": "fertilizantes",
+     "i": 7.324,
+     "f": 8.21
+    },
+    {
+     "p": "que",
+     "i": 8.223,
+     "f": 8.301
+    },
+    {
+     "p": "escorreram",
+     "i": 8.314,
+     "f": 8.861
+    },
+    {
+     "p": "das",
+     "i": 8.874,
+     "f": 9.069
+    },
+    {
+     "p": "plantações",
+     "i": 9.082,
+     "f": 9.733
+    },
+    {
+     "p": "durante",
+     "i": 9.746,
+     "f": 10.15
+    },
+    {
+     "p": "décadas",
+     "i": 10.163,
+     "f": 10.749
+    },
+    {
+     "p": "Quando",
+     "i": 11.031,
+     "f": 11.331
+    },
+    {
+     "p": "o",
+     "i": 11.344,
+     "f": 11.383
+    },
+    {
+     "p": "vento",
+     "i": 11.396,
+     "f": 11.747
+    },
+    {
+     "p": "sopra",
+     "i": 11.76,
+     "f": 12.203
+    },
+    {
+     "p": "essa",
+     "i": 12.463,
+     "f": 12.737
+    },
+    {
+     "p": "poeira",
+     "i": 12.75,
+     "f": 13.127
+    },
+    {
+     "p": "sobe",
+     "i": 13.14,
+     "f": 13.492
+    },
+    {
+     "p": "em",
+     "i": 13.505,
+     "f": 13.57
+    },
+    {
+     "p": "tempestades",
+     "i": 13.583,
+     "f": 14.26
+    },
+    {
+     "p": "visíveis",
+     "i": 14.273,
+     "f": 14.755
+    },
+    {
+     "p": "em",
+     "i": 14.768,
+     "f": 14.95
+    },
+    {
+     "p": "imagens",
+     "i": 14.963,
+     "f": 15.484
+    },
+    {
+     "p": "de",
+     "i": 15.497,
+     "f": 15.588
+    },
+    {
+     "p": "satélite",
+     "i": 15.601,
+     "f": 16.148
+    },
+    {
+     "p": "da",
+     "i": 16.161,
+     "f": 16.265
+    },
+    {
+     "p": "NASA",
+     "i": 16.278,
+     "f": 16.669
+    },
+    {
+     "p": "Pesquisas",
+     "i": 16.951,
+     "f": 17.511
+    },
+    {
+     "p": "associam",
+     "i": 17.524,
+     "f": 18.11
+    },
+    {
+     "p": "a",
+     "i": 18.123,
+     "f": 18.188
+    },
+    {
+     "p": "poeira",
+     "i": 18.201,
+     "f": 18.592
+    },
+    {
+     "p": "tóxica",
+     "i": 18.605,
+     "f": 19.113
+    },
+    {
+     "p": "a",
+     "i": 19.126,
+     "f": 19.178
+    },
+    {
+     "p": "doenças",
+     "i": 19.191,
+     "f": 19.698
+    },
+    {
+     "p": "respiratórias",
+     "i": 19.711,
+     "f": 20.571
+    },
+    {
+     "p": "câncer",
+     "i": 20.831,
+     "f": 21.287
+    },
+    {
+     "p": "e",
+     "i": 21.3,
+     "f": 21.352
+    },
+    {
+     "p": "tuberculose",
+     "i": 21.365,
+     "f": 22.172
+    },
+    {
+     "p": "entre",
+     "i": 22.185,
+     "f": 22.433
+    },
+    {
+     "p": "moradores",
+     "i": 22.446,
+     "f": 23.045
+    },
+    {
+     "p": "da",
+     "i": 23.058,
+     "f": 23.175
+    },
+    {
+     "p": "região",
+     "i": 23.188,
+     "f": 23.683
+    },
+    {
+     "p": "O",
+     "i": 23.965,
+     "f": 24.108
+    },
+    {
+     "p": "clima",
+     "i": 24.121,
+     "f": 24.486
+    },
+    {
+     "p": "também",
+     "i": 24.499,
+     "f": 24.851
+    },
+    {
+     "p": "mudou",
+     "i": 24.864,
+     "f": 25.241
+    },
+    {
+     "p": "sem",
+     "i": 25.619,
+     "f": 25.879
+    },
+    {
+     "p": "o",
+     "i": 25.892,
+     "f": 25.97
+    },
+    {
+     "p": "mar",
+     "i": 25.983,
+     "f": 26.244
+    },
+    {
+     "p": "para",
+     "i": 26.257,
+     "f": 26.465
+    },
+    {
+     "p": "suavizar",
+     "i": 26.478,
+     "f": 26.986
+    },
+    {
+     "p": "a",
+     "i": 26.999,
+     "f": 27.051
+    },
+    {
+     "p": "temperatura",
+     "i": 27.064,
+     "f": 27.741
+    },
+    {
+     "p": "os",
+     "i": 28.054,
+     "f": 28.21
+    },
+    {
+     "p": "verões",
+     "i": 28.223,
+     "f": 28.627
+    },
+    {
+     "p": "ficaram",
+     "i": 28.64,
+     "f": 29.004
+    },
+    {
+     "p": "mais",
+     "i": 29.017,
+     "f": 29.291
+    },
+    {
+     "p": "quentes",
+     "i": 29.304,
+     "f": 29.616
+    },
+    {
+     "p": "e",
+     "i": 29.629,
+     "f": 29.759
+    },
+    {
+     "p": "secos",
+     "i": 29.772,
+     "f": 30.228
+    },
+    {
+     "p": "e",
+     "i": 30.515,
+     "f": 30.58
+    },
+    {
+     "p": "os",
+     "i": 30.593,
+     "f": 30.632
+    },
+    {
+     "p": "invernos",
+     "i": 30.645,
+     "f": 31.361
+    },
+    {
+     "p": "mais",
+     "i": 31.543,
+     "f": 31.856
+    },
+    {
+     "p": "frios",
+     "i": 31.869,
+     "f": 32.403
+    },
+    {
+     "p": "Para",
+     "i": 32.685,
+     "f": 32.919
+    },
+    {
+     "p": "muita",
+     "i": 32.932,
+     "f": 33.297
+    },
+    {
+     "p": "gente",
+     "i": 33.31,
+     "f": 33.74
+    },
+    {
+     "p": "a",
+     "i": 33.909,
+     "f": 33.974
+    },
+    {
+     "p": "saída",
+     "i": 33.987,
+     "f": 34.456
+    },
+    {
+     "p": "foi",
+     "i": 34.469,
+     "f": 34.612
+    },
+    {
+     "p": "deixar",
+     "i": 34.625,
+     "f": 34.977
+    },
+    {
+     "p": "a",
+     "i": 34.99,
+     "f": 35.042
+    },
+    {
+     "p": "região",
+     "i": 35.055,
+     "f": 35.576
+    }
+   ]
+  },
+  "ilha-secreta": {
+   "hash": "7090fae39e",
+   "texto": "E o mar seco guardava um segredo. No meio do Aral ficava a ilha Vozrozhdeniya, onde, a partir de mil novecentos e quarenta e oito, a União Soviética manteve um laboratório militar de testes de armas biológicas. Com o recuo da água, a ilha virou uma península, ligada ao continente. Em mil novecentos e noventa e dois, o local foi abandonado. Segundo expedições posteriores, material contaminado com antraz teria sido enterrado ali. Mas o desastre ainda tinha uma reviravolta.",
+   "audio": "audio/ilha-secreta-7090fae39e.mp3",
+   "duracao": 31.081,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "o",
+     "i": 0.245,
+     "f": 0.297
+    },
+    {
+     "p": "mar",
+     "i": 0.31,
+     "f": 0.532
+    },
+    {
+     "p": "seco",
+     "i": 0.545,
+     "f": 0.844
+    },
+    {
+     "p": "guardava",
+     "i": 0.857,
+     "f": 1.378
+    },
+    {
+     "p": "um",
+     "i": 1.391,
+     "f": 1.443
+    },
+    {
+     "p": "segredo",
+     "i": 1.456,
+     "f": 1.977
+    },
+    {
+     "p": "No",
+     "i": 2.259,
+     "f": 2.428
+    },
+    {
+     "p": "meio",
+     "i": 2.441,
+     "f": 2.741
+    },
+    {
+     "p": "do",
+     "i": 2.754,
+     "f": 2.91
+    },
+    {
+     "p": "Aral",
+     "i": 2.923,
+     "f": 3.223
+    },
+    {
+     "p": "ficava",
+     "i": 3.236,
+     "f": 3.665
+    },
+    {
+     "p": "a",
+     "i": 3.678,
+     "f": 3.73
+    },
+    {
+     "p": "ilha",
+     "i": 3.743,
+     "f": 3.952
+    },
+    {
+     "p": "Vozrozhdeniya",
+     "i": 3.965,
+     "f": 4.798
+    },
+    {
+     "p": "onde",
+     "i": 5.059,
+     "f": 5.423
+    },
+    {
+     "p": "a",
+     "i": 5.723,
+     "f": 5.801
+    },
+    {
+     "p": "partir",
+     "i": 5.814,
+     "f": 6.243
+    },
+    {
+     "p": "de",
+     "i": 6.256,
+     "f": 6.374
+    },
+    {
+     "p": "mil",
+     "i": 6.387,
+     "f": 6.556
+    },
+    {
+     "p": "novecentos",
+     "i": 6.569,
+     "f": 7.168
+    },
+    {
+     "p": "e",
+     "i": 7.181,
+     "f": 7.285
+    },
+    {
+     "p": "quarenta",
+     "i": 7.298,
+     "f": 7.624
+    },
+    {
+     "p": "e",
+     "i": 7.637,
+     "f": 7.663
+    },
+    {
+     "p": "oito",
+     "i": 7.676,
+     "f": 8.001
+    },
+    {
+     "p": "a",
+     "i": 8.236,
+     "f": 8.353
+    },
+    {
+     "p": "União",
+     "i": 8.366,
+     "f": 8.744
+    },
+    {
+     "p": "Soviética",
+     "i": 8.756,
+     "f": 9.434
+    },
+    {
+     "p": "manteve",
+     "i": 9.447,
+     "f": 9.928
+    },
+    {
+     "p": "um",
+     "i": 9.941,
+     "f": 10.006
+    },
+    {
+     "p": "laboratório",
+     "i": 10.019,
+     "f": 10.671
+    },
+    {
+     "p": "militar",
+     "i": 10.684,
+     "f": 11.217
+    },
+    {
+     "p": "de",
+     "i": 11.23,
+     "f": 11.387
+    },
+    {
+     "p": "testes",
+     "i": 11.4,
+     "f": 11.829
+    },
+    {
+     "p": "de",
+     "i": 11.842,
+     "f": 11.96
+    },
+    {
+     "p": "armas",
+     "i": 11.973,
+     "f": 12.311
+    },
+    {
+     "p": "biológicas",
+     "i": 12.324,
+     "f": 13.236
+    },
+    {
+     "p": "Com",
+     "i": 13.518,
+     "f": 13.726
+    },
+    {
+     "p": "o",
+     "i": 13.739,
+     "f": 13.765
+    },
+    {
+     "p": "recuo",
+     "i": 13.778,
+     "f": 14.156
+    },
+    {
+     "p": "da",
+     "i": 14.169,
+     "f": 14.273
+    },
+    {
+     "p": "água",
+     "i": 14.286,
+     "f": 14.677
+    },
+    {
+     "p": "a",
+     "i": 14.911,
+     "f": 15.015
+    },
+    {
+     "p": "ilha",
+     "i": 15.029,
+     "f": 15.263
+    },
+    {
+     "p": "virou",
+     "i": 15.276,
+     "f": 15.497
+    },
+    {
+     "p": "uma",
+     "i": 15.51,
+     "f": 15.68
+    },
+    {
+     "p": "península",
+     "i": 15.693,
+     "f": 16.292
+    },
+    {
+     "p": "ligada",
+     "i": 16.539,
+     "f": 16.995
+    },
+    {
+     "p": "ao",
+     "i": 17.008,
+     "f": 17.112
+    },
+    {
+     "p": "continente",
+     "i": 17.125,
+     "f": 17.854
+    },
+    {
+     "p": "Em",
+     "i": 18.136,
+     "f": 18.292
+    },
+    {
+     "p": "mil",
+     "i": 18.305,
+     "f": 18.449
+    },
+    {
+     "p": "novecentos",
+     "i": 18.462,
+     "f": 19.074
+    },
+    {
+     "p": "e",
+     "i": 19.087,
+     "f": 19.178
+    },
+    {
+     "p": "noventa",
+     "i": 19.191,
+     "f": 19.516
+    },
+    {
+     "p": "e",
+     "i": 19.529,
+     "f": 19.581
+    },
+    {
+     "p": "dois",
+     "i": 19.594,
+     "f": 19.92
+    },
+    {
+     "p": "o",
+     "i": 20.219,
+     "f": 20.258
+    },
+    {
+     "p": "local",
+     "i": 20.271,
+     "f": 20.701
+    },
+    {
+     "p": "foi",
+     "i": 20.714,
+     "f": 20.883
+    },
+    {
+     "p": "abandonado",
+     "i": 20.896,
+     "f": 21.587
+    },
+    {
+     "p": "Segundo",
+     "i": 21.869,
+     "f": 22.416
+    },
+    {
+     "p": "expedições",
+     "i": 22.429,
+     "f": 23.132
+    },
+    {
+     "p": "posteriores",
+     "i": 23.145,
+     "f": 23.952
+    },
+    {
+     "p": "material",
+     "i": 24.239,
+     "f": 24.799
+    },
+    {
+     "p": "contaminado",
+     "i": 24.812,
+     "f": 25.528
+    },
+    {
+     "p": "com",
+     "i": 25.541,
+     "f": 25.723
+    },
+    {
+     "p": "antraz",
+     "i": 25.736,
+     "f": 26.088
+    },
+    {
+     "p": "teria",
+     "i": 26.101,
+     "f": 26.387
+    },
+    {
+     "p": "sido",
+     "i": 26.4,
+     "f": 26.7
+    },
+    {
+     "p": "enterrado",
+     "i": 26.713,
+     "f": 27.234
+    },
+    {
+     "p": "ali",
+     "i": 27.247,
+     "f": 27.572
+    },
+    {
+     "p": "Mas",
+     "i": 27.855,
+     "f": 28.115
+    },
+    {
+     "p": "o",
+     "i": 28.129,
+     "f": 28.272
+    },
+    {
+     "p": "desastre",
+     "i": 28.285,
+     "f": 28.819
+    },
+    {
+     "p": "ainda",
+     "i": 28.832,
+     "f": 29.131
+    },
+    {
+     "p": "tinha",
+     "i": 29.144,
+     "f": 29.392
+    },
+    {
+     "p": "uma",
+     "i": 29.405,
+     "f": 29.561
+    },
+    {
+     "p": "reviravolta",
+     "i": 29.574,
+     "f": 30.381
+    }
+   ]
+  },
+  "kokaral": {
+   "hash": "3fcb27b526",
+   "texto": "Em dois mil e cinco, o Cazaquistão tomou uma decisão difícil: salvar o que ainda podia ser salvo. Com apoio do Banco Mundial, concluiu a barragem de Kokaral, um dique de cerca de doze quilômetros, ao custo de aproximadamente oitenta e sete milhões de dólares. Antes dela, uma barragem improvisada de terra tinha cedido. A nova fechou a ligação entre o Pequeno e o Grande Aral. A água do Sir Dária, que antes escapava para o sul, passou a ficar no norte. Era uma aposta: sacrificar um lado para salvar o outro.",
+   "audio": "audio/kokaral-3fcb27b526.mp3",
+   "duracao": 33.189,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "dois",
+     "i": 0.258,
+     "f": 0.467
+    },
+    {
+     "p": "mil",
+     "i": 0.48,
+     "f": 0.584
+    },
+    {
+     "p": "e",
+     "i": 0.597,
+     "f": 0.649
+    },
+    {
+     "p": "cinco",
+     "i": 0.662,
+     "f": 1.092
+    },
+    {
+     "p": "o",
+     "i": 1.365,
+     "f": 1.443
+    },
+    {
+     "p": "Cazaquistão",
+     "i": 1.456,
+     "f": 2.107
+    },
+    {
+     "p": "tomou",
+     "i": 2.12,
+     "f": 2.407
+    },
+    {
+     "p": "uma",
+     "i": 2.42,
+     "f": 2.563
+    },
+    {
+     "p": "decisão",
+     "i": 2.576,
+     "f": 3.019
+    },
+    {
+     "p": "difícil",
+     "i": 3.032,
+     "f": 3.566
+    },
+    {
+     "p": "salvar",
+     "i": 3.904,
+     "f": 4.36
+    },
+    {
+     "p": "o",
+     "i": 4.373,
+     "f": 4.438
+    },
+    {
+     "p": "que",
+     "i": 4.451,
+     "f": 4.568
+    },
+    {
+     "p": "ainda",
+     "i": 4.581,
+     "f": 4.907
+    },
+    {
+     "p": "podia",
+     "i": 4.92,
+     "f": 5.258
+    },
+    {
+     "p": "ser",
+     "i": 5.271,
+     "f": 5.48
+    },
+    {
+     "p": "salvo",
+     "i": 5.493,
+     "f": 5.922
+    },
+    {
+     "p": "Com",
+     "i": 6.204,
+     "f": 6.438
+    },
+    {
+     "p": "apoio",
+     "i": 6.451,
+     "f": 6.803
+    },
+    {
+     "p": "do",
+     "i": 6.816,
+     "f": 6.933
+    },
+    {
+     "p": "Banco",
+     "i": 6.946,
+     "f": 7.272
+    },
+    {
+     "p": "Mundial",
+     "i": 7.285,
+     "f": 7.793
+    },
+    {
+     "p": "concluiu",
+     "i": 8.092,
+     "f": 8.626
+    },
+    {
+     "p": "a",
+     "i": 8.639,
+     "f": 8.691
+    },
+    {
+     "p": "barragem",
+     "i": 8.704,
+     "f": 9.212
+    },
+    {
+     "p": "de",
+     "i": 9.225,
+     "f": 9.316
+    },
+    {
+     "p": "Kokaral",
+     "i": 9.329,
+     "f": 9.863
+    },
+    {
+     "p": "um",
+     "i": 10.084,
+     "f": 10.241
+    },
+    {
+     "p": "dique",
+     "i": 10.254,
+     "f": 10.54
+    },
+    {
+     "p": "de",
+     "i": 10.553,
+     "f": 10.67
+    },
+    {
+     "p": "cerca",
+     "i": 10.683,
+     "f": 11.061
+    },
+    {
+     "p": "de",
+     "i": 11.074,
+     "f": 11.191
+    },
+    {
+     "p": "doze",
+     "i": 11.204,
+     "f": 11.569
+    },
+    {
+     "p": "quilômetros",
+     "i": 11.582,
+     "f": 12.246
+    },
+    {
+     "p": "ao",
+     "i": 12.467,
+     "f": 12.597
+    },
+    {
+     "p": "custo",
+     "i": 12.61,
+     "f": 13.001
+    },
+    {
+     "p": "de",
+     "i": 13.014,
+     "f": 13.092
+    },
+    {
+     "p": "aproximadamente",
+     "i": 13.105,
+     "f": 13.964
+    },
+    {
+     "p": "oitenta",
+     "i": 13.978,
+     "f": 14.355
+    },
+    {
+     "p": "e",
+     "i": 14.368,
+     "f": 14.394
+    },
+    {
+     "p": "sete",
+     "i": 14.407,
+     "f": 14.707
+    },
+    {
+     "p": "milhões",
+     "i": 14.72,
+     "f": 15.149
+    },
+    {
+     "p": "de",
+     "i": 15.162,
+     "f": 15.267
+    },
+    {
+     "p": "dólares",
+     "i": 15.28,
+     "f": 15.866
+    },
+    {
+     "p": "Antes",
+     "i": 16.148,
+     "f": 16.526
+    },
+    {
+     "p": "dela",
+     "i": 16.539,
+     "f": 16.916
+    },
+    {
+     "p": "uma",
+     "i": 17.229,
+     "f": 17.424
+    },
+    {
+     "p": "barragem",
+     "i": 17.437,
+     "f": 18.01
+    },
+    {
+     "p": "improvisada",
+     "i": 18.023,
+     "f": 18.713
+    },
+    {
+     "p": "de",
+     "i": 18.726,
+     "f": 18.882
+    },
+    {
+     "p": "terra",
+     "i": 18.895,
+     "f": 19.208
+    },
+    {
+     "p": "tinha",
+     "i": 19.221,
+     "f": 19.507
+    },
+    {
+     "p": "cedido",
+     "i": 19.52,
+     "f": 20.041
+    },
+    {
+     "p": "A",
+     "i": 20.323,
+     "f": 20.427
+    },
+    {
+     "p": "nova",
+     "i": 20.44,
+     "f": 20.766
+    },
+    {
+     "p": "fechou",
+     "i": 20.779,
+     "f": 21.169
+    },
+    {
+     "p": "a",
+     "i": 21.182,
+     "f": 21.208
+    },
+    {
+     "p": "ligação",
+     "i": 21.222,
+     "f": 21.781
+    },
+    {
+     "p": "entre",
+     "i": 21.794,
+     "f": 21.977
+    },
+    {
+     "p": "o",
+     "i": 21.99,
+     "f": 22.016
+    },
+    {
+     "p": "Pequeno",
+     "i": 22.029,
+     "f": 22.602
+    },
+    {
+     "p": "e",
+     "i": 22.615,
+     "f": 22.706
+    },
+    {
+     "p": "o",
+     "i": 22.719,
+     "f": 22.784
+    },
+    {
+     "p": "Grande",
+     "i": 22.797,
+     "f": 23.175
+    },
+    {
+     "p": "Aral",
+     "i": 23.188,
+     "f": 23.526
+    },
+    {
+     "p": "A",
+     "i": 23.808,
+     "f": 23.951
+    },
+    {
+     "p": "água",
+     "i": 23.964,
+     "f": 24.29
+    },
+    {
+     "p": "do",
+     "i": 24.303,
+     "f": 24.407
+    },
+    {
+     "p": "Sir",
+     "i": 24.42,
+     "f": 24.694
+    },
+    {
+     "p": "Dária",
+     "i": 24.707,
+     "f": 25.058
+    },
+    {
+     "p": "que",
+     "i": 25.319,
+     "f": 25.488
+    },
+    {
+     "p": "antes",
+     "i": 25.501,
+     "f": 25.8
+    },
+    {
+     "p": "escapava",
+     "i": 25.813,
+     "f": 26.451
+    },
+    {
+     "p": "para",
+     "i": 26.464,
+     "f": 26.621
+    },
+    {
+     "p": "o",
+     "i": 26.634,
+     "f": 26.673
+    },
+    {
+     "p": "sul",
+     "i": 26.686,
+     "f": 26.998
+    },
+    {
+     "p": "passou",
+     "i": 27.272,
+     "f": 27.675
+    },
+    {
+     "p": "a",
+     "i": 27.688,
+     "f": 27.753
+    },
+    {
+     "p": "ficar",
+     "i": 27.766,
+     "f": 28.131
+    },
+    {
+     "p": "no",
+     "i": 28.144,
+     "f": 28.248
+    },
+    {
+     "p": "norte",
+     "i": 28.261,
+     "f": 28.73
+    },
+    {
+     "p": "Era",
+     "i": 29.012,
+     "f": 29.246
+    },
+    {
+     "p": "uma",
+     "i": 29.259,
+     "f": 29.364
+    },
+    {
+     "p": "aposta",
+     "i": 29.377,
+     "f": 29.884
+    },
+    {
+     "p": "sacrificar",
+     "i": 30.249,
+     "f": 30.887
+    },
+    {
+     "p": "um",
+     "i": 30.9,
+     "f": 31.017
+    },
+    {
+     "p": "lado",
+     "i": 31.03,
+     "f": 31.356
+    },
+    {
+     "p": "para",
+     "i": 31.369,
+     "f": 31.551
+    },
+    {
+     "p": "salvar",
+     "i": 31.564,
+     "f": 31.981
+    },
+    {
+     "p": "o",
+     "i": 31.994,
+     "f": 32.072
+    },
+    {
+     "p": "outro",
+     "i": 32.085,
+     "f": 32.489
+    }
+   ]
+  },
+  "norte-renasce": {
+   "hash": "aea6dc8bae",
+   "texto": "E funcionou. Com o nível subindo, a salinidade do Pequeno Aral caiu, e os peixes voltaram. A produção de pescado no norte saiu de pouco mais de mil e trezentas toneladas, em dois mil e seis, para mais de sete mil, em dois mil e dezesseis. Pescadores cazaques voltaram a trabalhar, e a água se aproximou de Aralsk, antigo porto que havia ficado longe da margem. Não é o Aral de mil novecentos e sessenta, longe disso. Mas é a prova de que, com decisão e investimento, um desastre ambiental pode ser parcialmente revertido.",
+   "audio": "audio/norte-renasce-aea6dc8bae.mp3",
+   "duracao": 34.335,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.232
+    },
+    {
+     "p": "funcionou",
+     "i": 0.245,
+     "f": 0.988
+    },
+    {
+     "p": "Com",
+     "i": 1.27,
+     "f": 1.478
+    },
+    {
+     "p": "o",
+     "i": 1.491,
+     "f": 1.517
+    },
+    {
+     "p": "nível",
+     "i": 1.53,
+     "f": 1.843
+    },
+    {
+     "p": "subindo",
+     "i": 1.856,
+     "f": 2.429
+    },
+    {
+     "p": "a",
+     "i": 2.663,
+     "f": 2.728
+    },
+    {
+     "p": "salinidade",
+     "i": 2.741,
+     "f": 3.419
+    },
+    {
+     "p": "do",
+     "i": 3.432,
+     "f": 3.523
+    },
+    {
+     "p": "Pequeno",
+     "i": 3.536,
+     "f": 3.926
+    },
+    {
+     "p": "Aral",
+     "i": 3.939,
+     "f": 4.2
+    },
+    {
+     "p": "caiu",
+     "i": 4.213,
+     "f": 4.629
+    },
+    {
+     "p": "e",
+     "i": 4.903,
+     "f": 4.981
+    },
+    {
+     "p": "os",
+     "i": 4.994,
+     "f": 5.15
+    },
+    {
+     "p": "peixes",
+     "i": 5.163,
+     "f": 5.619
+    },
+    {
+     "p": "voltaram",
+     "i": 5.632,
+     "f": 6.192
+    },
+    {
+     "p": "A",
+     "i": 6.474,
+     "f": 6.591
+    },
+    {
+     "p": "produção",
+     "i": 6.604,
+     "f": 7.138
+    },
+    {
+     "p": "de",
+     "i": 7.151,
+     "f": 7.255
+    },
+    {
+     "p": "pescado",
+     "i": 7.268,
+     "f": 7.841
+    },
+    {
+     "p": "no",
+     "i": 7.854,
+     "f": 7.945
+    },
+    {
+     "p": "norte",
+     "i": 7.958,
+     "f": 8.375
+    },
+    {
+     "p": "saiu",
+     "i": 8.388,
+     "f": 8.701
+    },
+    {
+     "p": "de",
+     "i": 8.714,
+     "f": 8.831
+    },
+    {
+     "p": "pouco",
+     "i": 8.844,
+     "f": 9.195
+    },
+    {
+     "p": "mais",
+     "i": 9.208,
+     "f": 9.495
+    },
+    {
+     "p": "de",
+     "i": 9.508,
+     "f": 9.612
+    },
+    {
+     "p": "mil",
+     "i": 9.625,
+     "f": 9.794
+    },
+    {
+     "p": "e",
+     "i": 9.807,
+     "f": 9.873
+    },
+    {
+     "p": "trezentas",
+     "i": 9.886,
+     "f": 10.419
+    },
+    {
+     "p": "toneladas",
+     "i": 10.432,
+     "f": 11.123
+    },
+    {
+     "p": "em",
+     "i": 11.357,
+     "f": 11.435
+    },
+    {
+     "p": "dois",
+     "i": 11.448,
+     "f": 11.669
+    },
+    {
+     "p": "mil",
+     "i": 11.682,
+     "f": 11.8
+    },
+    {
+     "p": "e",
+     "i": 11.813,
+     "f": 11.865
+    },
+    {
+     "p": "seis",
+     "i": 11.878,
+     "f": 12.268
+    },
+    {
+     "p": "para",
+     "i": 12.516,
+     "f": 12.711
+    },
+    {
+     "p": "mais",
+     "i": 12.724,
+     "f": 12.984
+    },
+    {
+     "p": "de",
+     "i": 12.998,
+     "f": 13.115
+    },
+    {
+     "p": "sete",
+     "i": 13.128,
+     "f": 13.544
+    },
+    {
+     "p": "mil",
+     "i": 13.557,
+     "f": 13.805
+    },
+    {
+     "p": "em",
+     "i": 14.052,
+     "f": 14.143
+    },
+    {
+     "p": "dois",
+     "i": 14.156,
+     "f": 14.378
+    },
+    {
+     "p": "mil",
+     "i": 14.391,
+     "f": 14.547
+    },
+    {
+     "p": "e",
+     "i": 14.56,
+     "f": 14.612
+    },
+    {
+     "p": "dezesseis",
+     "i": 14.625,
+     "f": 15.328
+    },
+    {
+     "p": "Pescadores",
+     "i": 15.61,
+     "f": 16.287
+    },
+    {
+     "p": "cazaques",
+     "i": 16.3,
+     "f": 16.886
+    },
+    {
+     "p": "voltaram",
+     "i": 16.899,
+     "f": 17.394
+    },
+    {
+     "p": "a",
+     "i": 17.407,
+     "f": 17.446
+    },
+    {
+     "p": "trabalhar",
+     "i": 17.459,
+     "f": 18.006
+    },
+    {
+     "p": "e",
+     "i": 18.344,
+     "f": 18.423
+    },
+    {
+     "p": "a",
+     "i": 18.436,
+     "f": 18.514
+    },
+    {
+     "p": "água",
+     "i": 18.527,
+     "f": 18.826
+    },
+    {
+     "p": "se",
+     "i": 18.839,
+     "f": 18.943
+    },
+    {
+     "p": "aproximou",
+     "i": 18.956,
+     "f": 19.451
+    },
+    {
+     "p": "de",
+     "i": 19.464,
+     "f": 19.542
+    },
+    {
+     "p": "Aralsk",
+     "i": 19.555,
+     "f": 19.998
+    },
+    {
+     "p": "antigo",
+     "i": 20.206,
+     "f": 20.636
+    },
+    {
+     "p": "porto",
+     "i": 20.649,
+     "f": 21.04
+    },
+    {
+     "p": "que",
+     "i": 21.053,
+     "f": 21.131
+    },
+    {
+     "p": "havia",
+     "i": 21.144,
+     "f": 21.456
+    },
+    {
+     "p": "ficado",
+     "i": 21.469,
+     "f": 21.912
+    },
+    {
+     "p": "longe",
+     "i": 21.925,
+     "f": 22.342
+    },
+    {
+     "p": "da",
+     "i": 22.355,
+     "f": 22.459
+    },
+    {
+     "p": "margem",
+     "i": 22.472,
+     "f": 22.954
+    },
+    {
+     "p": "Não",
+     "i": 23.236,
+     "f": 23.575
+    },
+    {
+     "p": "é",
+     "i": 23.588,
+     "f": 23.718
+    },
+    {
+     "p": "o",
+     "i": 23.731,
+     "f": 23.809
+    },
+    {
+     "p": "Aral",
+     "i": 23.822,
+     "f": 24.135
+    },
+    {
+     "p": "de",
+     "i": 24.148,
+     "f": 24.252
+    },
+    {
+     "p": "mil",
+     "i": 24.265,
+     "f": 24.395
+    },
+    {
+     "p": "novecentos",
+     "i": 24.408,
+     "f": 25.02
+    },
+    {
+     "p": "e",
+     "i": 25.033,
+     "f": 25.15
+    },
+    {
+     "p": "sessenta",
+     "i": 25.163,
+     "f": 25.71
+    },
+    {
+     "p": "longe",
+     "i": 25.983,
+     "f": 26.387
+    },
+    {
+     "p": "disso",
+     "i": 26.4,
+     "f": 26.843
+    },
+    {
+     "p": "Mas",
+     "i": 27.125,
+     "f": 27.32
+    },
+    {
+     "p": "é",
+     "i": 27.333,
+     "f": 27.542
+    },
+    {
+     "p": "a",
+     "i": 27.555,
+     "f": 27.633
+    },
+    {
+     "p": "prova",
+     "i": 27.646,
+     "f": 28.01
+    },
+    {
+     "p": "de",
+     "i": 28.024,
+     "f": 28.128
+    },
+    {
+     "p": "que",
+     "i": 28.141,
+     "f": 28.44
+    },
+    {
+     "p": "com",
+     "i": 28.688,
+     "f": 28.831
+    },
+    {
+     "p": "decisão",
+     "i": 28.844,
+     "f": 29.352
+    },
+    {
+     "p": "e",
+     "i": 29.365,
+     "f": 29.391
+    },
+    {
+     "p": "investimento",
+     "i": 29.404,
+     "f": 30.185
+    },
+    {
+     "p": "um",
+     "i": 30.497,
+     "f": 30.641
+    },
+    {
+     "p": "desastre",
+     "i": 30.654,
+     "f": 31.175
+    },
+    {
+     "p": "ambiental",
+     "i": 31.188,
+     "f": 31.774
+    },
+    {
+     "p": "pode",
+     "i": 31.787,
+     "f": 32.034
+    },
+    {
+     "p": "ser",
+     "i": 32.047,
+     "f": 32.268
+    },
+    {
+     "p": "parcialmente",
+     "i": 32.281,
+     "f": 32.971
+    },
+    {
+     "p": "revertido",
+     "i": 32.984,
+     "f": 33.635
+    }
+   ]
+  },
+  "aralkum": {
+   "hash": "614954d9a6",
+   "texto": "Já o Grande Aral, ao sul, teve destino bem diferente. Parte do excesso de água do norte ainda escoa para lá, mas evapora rápido, e esse lado é considerado praticamente irrecuperável. Em agosto de dois mil e catorze, imagens da NASA mostraram que a porção leste da bacia sul tinha secado por completo. O novo deserto se chama Aralkum. Em dois mil e dez, o então secretário-geral da ONU, Ban Ki-moon, chamou o Aral de um dos piores desastres ambientais do planeta. Em dois mil e vinte e um, o Cazaquistão anunciou o plantio de saxaul em um milhão de hectares do leito seco, para segurar a poeira.",
+   "audio": "audio/aralkum-614954d9a6.mp3",
+   "duracao": 38.241,
+   "palavras": [
+    {
+     "p": "Já",
+     "i": 0.102,
+     "f": 0.349
+    },
+    {
+     "p": "o",
+     "i": 0.362,
+     "f": 0.428
+    },
+    {
+     "p": "Grande",
+     "i": 0.441,
+     "f": 0.792
+    },
+    {
+     "p": "Aral",
+     "i": 0.805,
+     "f": 1.183
+    },
+    {
+     "p": "ao",
+     "i": 1.365,
+     "f": 1.534
+    },
+    {
+     "p": "sul",
+     "i": 1.547,
+     "f": 1.912
+    },
+    {
+     "p": "teve",
+     "i": 2.172,
+     "f": 2.394
+    },
+    {
+     "p": "destino",
+     "i": 2.407,
+     "f": 2.902
+    },
+    {
+     "p": "bem",
+     "i": 2.915,
+     "f": 3.175
+    },
+    {
+     "p": "diferente",
+     "i": 3.188,
+     "f": 3.826
+    },
+    {
+     "p": "Parte",
+     "i": 4.108,
+     "f": 4.486
+    },
+    {
+     "p": "do",
+     "i": 4.499,
+     "f": 4.616
+    },
+    {
+     "p": "excesso",
+     "i": 4.629,
+     "f": 5.098
+    },
+    {
+     "p": "de",
+     "i": 5.111,
+     "f": 5.228
+    },
+    {
+     "p": "água",
+     "i": 5.241,
+     "f": 5.514
+    },
+    {
+     "p": "do",
+     "i": 5.527,
+     "f": 5.632
+    },
+    {
+     "p": "norte",
+     "i": 5.645,
+     "f": 6.048
+    },
+    {
+     "p": "ainda",
+     "i": 6.061,
+     "f": 6.217
+    },
+    {
+     "p": "escoa",
+     "i": 6.23,
+     "f": 6.608
+    },
+    {
+     "p": "para",
+     "i": 6.621,
+     "f": 6.816
+    },
+    {
+     "p": "lá",
+     "i": 6.829,
+     "f": 7.038
+    },
+    {
+     "p": "mas",
+     "i": 7.402,
+     "f": 7.52
+    },
+    {
+     "p": "evapora",
+     "i": 7.533,
+     "f": 8.092
+    },
+    {
+     "p": "rápido",
+     "i": 8.105,
+     "f": 8.561
+    },
+    {
+     "p": "e",
+     "i": 8.887,
+     "f": 9.004
+    },
+    {
+     "p": "esse",
+     "i": 9.017,
+     "f": 9.251
+    },
+    {
+     "p": "lado",
+     "i": 9.264,
+     "f": 9.603
+    },
+    {
+     "p": "é",
+     "i": 9.616,
+     "f": 9.668
+    },
+    {
+     "p": "considerado",
+     "i": 9.681,
+     "f": 10.397
+    },
+    {
+     "p": "praticamente",
+     "i": 10.41,
+     "f": 11.139
+    },
+    {
+     "p": "irrecuperável",
+     "i": 11.152,
+     "f": 11.921
+    },
+    {
+     "p": "Em",
+     "i": 12.203,
+     "f": 12.359
+    },
+    {
+     "p": "agosto",
+     "i": 12.372,
+     "f": 12.932
+    },
+    {
+     "p": "de",
+     "i": 12.945,
+     "f": 13.049
+    },
+    {
+     "p": "dois",
+     "i": 13.062,
+     "f": 13.245
+    },
+    {
+     "p": "mil",
+     "i": 13.258,
+     "f": 13.362
+    },
+    {
+     "p": "e",
+     "i": 13.375,
+     "f": 13.414
+    },
+    {
+     "p": "catorze",
+     "i": 13.427,
+     "f": 14.026
+    },
+    {
+     "p": "imagens",
+     "i": 14.338,
+     "f": 14.911
+    },
+    {
+     "p": "da",
+     "i": 14.924,
+     "f": 15.042
+    },
+    {
+     "p": "NASA",
+     "i": 15.055,
+     "f": 15.367
+    },
+    {
+     "p": "mostraram",
+     "i": 15.38,
+     "f": 15.875
+    },
+    {
+     "p": "que",
+     "i": 15.888,
+     "f": 15.966
+    },
+    {
+     "p": "a",
+     "i": 15.979,
+     "f": 16.031
+    },
+    {
+     "p": "porção",
+     "i": 16.044,
+     "f": 16.448
+    },
+    {
+     "p": "leste",
+     "i": 16.461,
+     "f": 16.825
+    },
+    {
+     "p": "da",
+     "i": 16.838,
+     "f": 16.93
+    },
+    {
+     "p": "bacia",
+     "i": 16.943,
+     "f": 17.385
+    },
+    {
+     "p": "sul",
+     "i": 17.398,
+     "f": 17.659
+    },
+    {
+     "p": "tinha",
+     "i": 17.672,
+     "f": 17.906
+    },
+    {
+     "p": "secado",
+     "i": 17.919,
+     "f": 18.427
+    },
+    {
+     "p": "por",
+     "i": 18.44,
+     "f": 18.583
+    },
+    {
+     "p": "completo",
+     "i": 18.596,
+     "f": 19.221
+    },
+    {
+     "p": "O",
+     "i": 19.503,
+     "f": 19.62
+    },
+    {
+     "p": "novo",
+     "i": 19.633,
+     "f": 20.011
+    },
+    {
+     "p": "deserto",
+     "i": 20.024,
+     "f": 20.545
+    },
+    {
+     "p": "se",
+     "i": 20.558,
+     "f": 20.688
+    },
+    {
+     "p": "chama",
+     "i": 20.701,
+     "f": 21.027
+    },
+    {
+     "p": "Aralkum",
+     "i": 21.04,
+     "f": 21.521
+    },
+    {
+     "p": "Em",
+     "i": 21.803,
+     "f": 21.946
+    },
+    {
+     "p": "dois",
+     "i": 21.959,
+     "f": 22.194
+    },
+    {
+     "p": "mil",
+     "i": 22.207,
+     "f": 22.324
+    },
+    {
+     "p": "e",
+     "i": 22.337,
+     "f": 22.402
+    },
+    {
+     "p": "dez",
+     "i": 22.415,
+     "f": 22.819
+    },
+    {
+     "p": "o",
+     "i": 23.209,
+     "f": 23.274
+    },
+    {
+     "p": "então",
+     "i": 23.287,
+     "f": 23.626
+    },
+    {
+     "p": "secretário-geral",
+     "i": 23.639,
+     "f": 24.55
+    },
+    {
+     "p": "da",
+     "i": 24.563,
+     "f": 24.707
+    },
+    {
+     "p": "ONU",
+     "i": 24.72,
+     "f": 24.98
+    },
+    {
+     "p": "Ban",
+     "i": 25.332,
+     "f": 25.579
+    },
+    {
+     "p": "Ki-moon",
+     "i": 25.592,
+     "f": 25.97
+    },
+    {
+     "p": "chamou",
+     "i": 26.256,
+     "f": 26.582
+    },
+    {
+     "p": "o",
+     "i": 26.595,
+     "f": 26.647
+    },
+    {
+     "p": "Aral",
+     "i": 26.66,
+     "f": 27.011
+    },
+    {
+     "p": "de",
+     "i": 27.024,
+     "f": 27.142
+    },
+    {
+     "p": "um",
+     "i": 27.155,
+     "f": 27.233
+    },
+    {
+     "p": "dos",
+     "i": 27.246,
+     "f": 27.428
+    },
+    {
+     "p": "piores",
+     "i": 27.441,
+     "f": 27.871
+    },
+    {
+     "p": "desastres",
+     "i": 27.884,
+     "f": 28.431
+    },
+    {
+     "p": "ambientais",
+     "i": 28.444,
+     "f": 29.121
+    },
+    {
+     "p": "do",
+     "i": 29.134,
+     "f": 29.238
+    },
+    {
+     "p": "planeta",
+     "i": 29.251,
+     "f": 29.811
+    },
+    {
+     "p": "Em",
+     "i": 30.093,
+     "f": 30.21
+    },
+    {
+     "p": "dois",
+     "i": 30.223,
+     "f": 30.471
+    },
+    {
+     "p": "mil",
+     "i": 30.484,
+     "f": 30.614
+    },
+    {
+     "p": "e",
+     "i": 30.627,
+     "f": 30.692
+    },
+    {
+     "p": "vinte",
+     "i": 30.705,
+     "f": 30.952
+    },
+    {
+     "p": "e",
+     "i": 30.966,
+     "f": 30.979
+    },
+    {
+     "p": "um",
+     "i": 30.992,
+     "f": 31.148
+    },
+    {
+     "p": "o",
+     "i": 31.486,
+     "f": 31.551
+    },
+    {
+     "p": "Cazaquistão",
+     "i": 31.564,
+     "f": 32.229
+    },
+    {
+     "p": "anunciou",
+     "i": 32.242,
+     "f": 32.749
+    },
+    {
+     "p": "o",
+     "i": 32.762,
+     "f": 32.814
+    },
+    {
+     "p": "plantio",
+     "i": 32.827,
+     "f": 33.257
+    },
+    {
+     "p": "de",
+     "i": 33.27,
+     "f": 33.361
+    },
+    {
+     "p": "saxaul",
+     "i": 33.374,
+     "f": 33.973
+    },
+    {
+     "p": "em",
+     "i": 33.986,
+     "f": 34.077
+    },
+    {
+     "p": "um",
+     "i": 34.09,
+     "f": 34.208
+    },
+    {
+     "p": "milhão",
+     "i": 34.221,
+     "f": 34.546
+    },
+    {
+     "p": "de",
+     "i": 34.559,
+     "f": 34.637
+    },
+    {
+     "p": "hectares",
+     "i": 34.65,
+     "f": 35.132
+    },
+    {
+     "p": "do",
+     "i": 35.145,
+     "f": 35.249
+    },
+    {
+     "p": "leito",
+     "i": 35.262,
+     "f": 35.601
+    },
+    {
+     "p": "seco",
+     "i": 35.614,
+     "f": 36.018
+    },
+    {
+     "p": "para",
+     "i": 36.304,
+     "f": 36.499
+    },
+    {
+     "p": "segurar",
+     "i": 36.512,
+     "f": 36.994
+    },
+    {
+     "p": "a",
+     "i": 37.007,
+     "f": 37.072
+    },
+    {
+     "p": "poeira",
+     "i": 37.085,
+     "f": 37.541
+    }
+   ]
+  },
+  "licao": {
+   "hash": "21396a0ded",
+   "texto": "Então, por que o Mar de Aral desapareceu? Porque a água de dois rios foi tratada como se fosse infinita. Cada canal, isolado, parecia uma boa ideia. Somados, deixaram um mar vazio. A lição do Aral não é só sobre a União Soviética. Vale para qualquer lugar onde se retira mais água do que a natureza devolve. No norte, uma barragem de doze quilômetros mostrou que é possível reparar parte do estrago. No sul, os navios seguem na areia, lembrando o preço de decidir sem olhar o que vem depois.",
+   "audio": "audio/licao-21396a0ded.mp3",
+   "duracao": 32.994,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.636
+    },
+    {
+     "p": "por",
+     "i": 1.001,
+     "f": 1.183
+    },
+    {
+     "p": "que",
+     "i": 1.196,
+     "f": 1.365
+    },
+    {
+     "p": "o",
+     "i": 1.378,
+     "f": 1.456
+    },
+    {
+     "p": "Mar",
+     "i": 1.469,
+     "f": 1.756
+    },
+    {
+     "p": "de",
+     "i": 1.769,
+     "f": 1.873
+    },
+    {
+     "p": "Aral",
+     "i": 1.886,
+     "f": 2.159
+    },
+    {
+     "p": "desapareceu",
+     "i": 2.172,
+     "f": 2.954
+    },
+    {
+     "p": "Porque",
+     "i": 3.296,
+     "f": 3.635
+    },
+    {
+     "p": "a",
+     "i": 3.648,
+     "f": 3.739
+    },
+    {
+     "p": "água",
+     "i": 3.752,
+     "f": 4.064
+    },
+    {
+     "p": "de",
+     "i": 4.077,
+     "f": 4.181
+    },
+    {
+     "p": "dois",
+     "i": 4.195,
+     "f": 4.403
+    },
+    {
+     "p": "rios",
+     "i": 4.416,
+     "f": 4.689
+    },
+    {
+     "p": "foi",
+     "i": 4.702,
+     "f": 4.859
+    },
+    {
+     "p": "tratada",
+     "i": 4.872,
+     "f": 5.366
+    },
+    {
+     "p": "como",
+     "i": 5.379,
+     "f": 5.601
+    },
+    {
+     "p": "se",
+     "i": 5.614,
+     "f": 5.757
+    },
+    {
+     "p": "fosse",
+     "i": 5.77,
+     "f": 6.083
+    },
+    {
+     "p": "infinita",
+     "i": 6.096,
+     "f": 6.668
+    },
+    {
+     "p": "Cada",
+     "i": 6.95,
+     "f": 7.263
+    },
+    {
+     "p": "canal",
+     "i": 7.276,
+     "f": 7.757
+    },
+    {
+     "p": "isolado",
+     "i": 8.005,
+     "f": 8.591
+    },
+    {
+     "p": "parecia",
+     "i": 8.825,
+     "f": 9.32
+    },
+    {
+     "p": "uma",
+     "i": 9.333,
+     "f": 9.476
+    },
+    {
+     "p": "boa",
+     "i": 9.489,
+     "f": 9.802
+    },
+    {
+     "p": "ideia",
+     "i": 9.815,
+     "f": 10.231
+    },
+    {
+     "p": "Somados",
+     "i": 10.513,
+     "f": 11.242
+    },
+    {
+     "p": "deixaram",
+     "i": 11.438,
+     "f": 11.958
+    },
+    {
+     "p": "um",
+     "i": 11.971,
+     "f": 12.037
+    },
+    {
+     "p": "mar",
+     "i": 12.05,
+     "f": 12.284
+    },
+    {
+     "p": "vazio",
+     "i": 12.297,
+     "f": 12.805
+    },
+    {
+     "p": "A",
+     "i": 13.087,
+     "f": 13.191
+    },
+    {
+     "p": "lição",
+     "i": 13.204,
+     "f": 13.621
+    },
+    {
+     "p": "do",
+     "i": 13.634,
+     "f": 13.751
+    },
+    {
+     "p": "Aral",
+     "i": 13.764,
+     "f": 14.129
+    },
+    {
+     "p": "não",
+     "i": 14.142,
+     "f": 14.324
+    },
+    {
+     "p": "é",
+     "i": 14.337,
+     "f": 14.389
+    },
+    {
+     "p": "só",
+     "i": 14.402,
+     "f": 14.663
+    },
+    {
+     "p": "sobre",
+     "i": 14.676,
+     "f": 14.949
+    },
+    {
+     "p": "a",
+     "i": 14.962,
+     "f": 15.014
+    },
+    {
+     "p": "União",
+     "i": 15.027,
+     "f": 15.392
+    },
+    {
+     "p": "Soviética",
+     "i": 15.405,
+     "f": 16.147
+    },
+    {
+     "p": "Vale",
+     "i": 16.429,
+     "f": 16.82
+    },
+    {
+     "p": "para",
+     "i": 16.833,
+     "f": 17.041
+    },
+    {
+     "p": "qualquer",
+     "i": 17.054,
+     "f": 17.471
+    },
+    {
+     "p": "lugar",
+     "i": 17.484,
+     "f": 17.874
+    },
+    {
+     "p": "onde",
+     "i": 17.887,
+     "f": 18.083
+    },
+    {
+     "p": "se",
+     "i": 18.096,
+     "f": 18.226
+    },
+    {
+     "p": "retira",
+     "i": 18.239,
+     "f": 18.617
+    },
+    {
+     "p": "mais",
+     "i": 18.63,
+     "f": 18.799
+    },
+    {
+     "p": "água",
+     "i": 18.812,
+     "f": 19.19
+    },
+    {
+     "p": "do",
+     "i": 19.203,
+     "f": 19.346
+    },
+    {
+     "p": "que",
+     "i": 19.359,
+     "f": 19.45
+    },
+    {
+     "p": "a",
+     "i": 19.463,
+     "f": 19.489
+    },
+    {
+     "p": "natureza",
+     "i": 19.502,
+     "f": 20.036
+    },
+    {
+     "p": "devolve",
+     "i": 20.049,
+     "f": 20.622
+    },
+    {
+     "p": "No",
+     "i": 20.904,
+     "f": 21.073
+    },
+    {
+     "p": "norte",
+     "i": 21.086,
+     "f": 21.555
+    },
+    {
+     "p": "uma",
+     "i": 21.698,
+     "f": 21.868
+    },
+    {
+     "p": "barragem",
+     "i": 21.881,
+     "f": 22.441
+    },
+    {
+     "p": "de",
+     "i": 22.454,
+     "f": 22.584
+    },
+    {
+     "p": "doze",
+     "i": 22.597,
+     "f": 22.961
+    },
+    {
+     "p": "quilômetros",
+     "i": 22.974,
+     "f": 23.573
+    },
+    {
+     "p": "mostrou",
+     "i": 23.586,
+     "f": 24.042
+    },
+    {
+     "p": "que",
+     "i": 24.055,
+     "f": 24.146
+    },
+    {
+     "p": "é",
+     "i": 24.159,
+     "f": 24.198
+    },
+    {
+     "p": "possível",
+     "i": 24.211,
+     "f": 24.732
+    },
+    {
+     "p": "reparar",
+     "i": 24.745,
+     "f": 25.227
+    },
+    {
+     "p": "parte",
+     "i": 25.24,
+     "f": 25.592
+    },
+    {
+     "p": "do",
+     "i": 25.605,
+     "f": 25.748
+    },
+    {
+     "p": "estrago",
+     "i": 25.761,
+     "f": 26.269
+    },
+    {
+     "p": "No",
+     "i": 26.551,
+     "f": 26.759
+    },
+    {
+     "p": "sul",
+     "i": 26.772,
+     "f": 27.124
+    },
+    {
+     "p": "os",
+     "i": 27.489,
+     "f": 27.606
+    },
+    {
+     "p": "navios",
+     "i": 27.619,
+     "f": 28.061
+    },
+    {
+     "p": "seguem",
+     "i": 28.075,
+     "f": 28.387
+    },
+    {
+     "p": "na",
+     "i": 28.4,
+     "f": 28.491
+    },
+    {
+     "p": "areia",
+     "i": 28.504,
+     "f": 28.804
+    },
+    {
+     "p": "lembrando",
+     "i": 29.116,
+     "f": 29.572
+    },
+    {
+     "p": "o",
+     "i": 29.585,
+     "f": 29.624
+    },
+    {
+     "p": "preço",
+     "i": 29.637,
+     "f": 29.976
+    },
+    {
+     "p": "de",
+     "i": 29.989,
+     "f": 30.093
+    },
+    {
+     "p": "decidir",
+     "i": 30.106,
+     "f": 30.614
+    },
+    {
+     "p": "sem",
+     "i": 30.627,
+     "f": 30.887
+    },
+    {
+     "p": "olhar",
+     "i": 30.9,
+     "f": 31.252
+    },
+    {
+     "p": "o",
+     "i": 31.265,
+     "f": 31.33
+    },
+    {
+     "p": "que",
+     "i": 31.343,
+     "f": 31.46
+    },
+    {
+     "p": "vem",
+     "i": 31.473,
+     "f": 31.655
+    },
+    {
+     "p": "depois",
+     "i": 31.668,
+     "f": 32.293
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "aral-localizacao": {
+   "arquivo": "",
+   "rotulo": "Localização do Mar de Aral",
+   "commons": "Aral Sea location map Kazakhstan Uzbekistan",
+   "semFoto": true
+  },
+  "aral-1960": {
+   "arquivo": "",
+   "rotulo": "Contorno do Aral em 1960",
+   "commons": "Aral Sea 1960 shoreline map",
+   "semFoto": true
+  },
+  "aral-satelite-2014": {
+   "arquivo": "",
+   "rotulo": "Aral visto do espaço, 2014",
+   "wiki": "Mar de Aral",
+   "commons": "Aral Sea 2014 NASA Terra MODIS",
+   "semFoto": true
+  },
+  "navios-moynaq": {
+   "arquivo": "imagens/navios-moynaq-cfc394ff.jpg",
+   "rotulo": "Navios encalhados em Moynaq",
+   "wiki": "Moynaq",
+   "commons": "Moynaq ship graveyard Aral Sea",
+   "autor": "Arian Zwegers",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Moynaq,_Aral_Sea_(6226807306).jpg",
+   "titulo": "File:Moynaq, Aral Sea (6226807306).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 49.0,
+    "y": 44.8
+   },
+   "borrada": "imagens/navios-moynaq-cfc394ff-b.jpg"
+  },
+  "aral-1989-2008": {
+   "arquivo": "imagens/aral-1989-2008-62b5cdfe.jpg",
+   "rotulo": "Aral em 1989 e 2008",
+   "commons": "Aral Sea 1989 2008 NASA comparison",
+   "autor": "NASA, derivative work by Zafiroblue05 at en.wikipedia",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aral_Sea_1989-2008.jpg",
+   "titulo": "File:Aral Sea 1989-2008.jpg",
+   "largura": 1471,
+   "altura": 1250,
+   "rostos": 0,
+   "foco": {
+    "x": 46.0,
+    "y": 31.4
+   },
+   "borrada": "imagens/aral-1989-2008-62b5cdfe-b.jpg"
+  },
+  "canal-grande": {
+   "arquivo": "",
+   "rotulo": "Canal de irrigação na Ásia Central",
+   "commons": "irrigation canal Uzbekistan cotton Amu Darya",
+   "semFoto": true
+  },
+  "asia-central-mapa": {
+   "arquivo": "imagens/asia-central-mapa-d3899f2f.jpg",
+   "rotulo": "Mapa da Ásia Central",
+   "commons": "Central Asia map Aral Sea Amu Darya Syr Darya",
+   "autor": "Background layer attributed to DEMIS Mapserver, map created by Shannon1",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Amudaryamap.jpg",
+   "titulo": "File:Amudaryamap.jpg",
+   "largura": 936,
+   "altura": 856,
+   "rostos": 1,
+   "foco": {
+    "x": 37.3,
+    "y": 41.6
+   },
+   "borrada": "imagens/asia-central-mapa-d3899f2f-b.jpg"
+  },
+  "cazaquistao-estepe": {
+   "arquivo": "imagens/cazaquistao-estepe-79ea076c.jpg",
+   "rotulo": "Estepe do Cazaquistão",
+   "commons": "Kazakhstan steppe landscape",
+   "autor": "Vladimir_Fayl",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/estepe-cavalo-c%C3%A9u-cavalos-4102069/",
+   "titulo": "estepe, cavalo, céu, cavalos, cazaquistão, panorama, nuvens, natureza, pôr do sol",
+   "largura": 1280,
+   "altura": 848,
+   "rostos": 0,
+   "foco": {
+    "x": 45.7,
+    "y": 75.0
+   },
+   "borrada": "imagens/cazaquistao-estepe-79ea076c-b.jpg"
+  },
+  "uzbequistao-registan": {
+   "arquivo": "imagens/uzbequistao-registan-bdfd631e.jpg",
+   "rotulo": "Registan, Samarcanda (Uzbequistão)",
+   "commons": "Registan Samarkand Uzbekistan",
+   "autor": "Gustavo Jeronimo from Aranjuez, Spain",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Registan_-_Gusjer.jpg",
+   "titulo": "File:Registan - Gusjer.jpg",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 32.4,
+    "y": 70.4
+   },
+   "borrada": "imagens/uzbequistao-registan-bdfd631e-b.jpg"
+  },
+  "amu-daria": {
+   "arquivo": "imagens/amu-daria-b433e479.jpg",
+   "rotulo": "Rio Amu Dária",
+   "wiki": "Amu Dária",
+   "commons": "Amu Darya river",
+   "autor": "MODIS Land Rapid Response Team, NASA GSFC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Amu_Darya_(MODIS).jpg",
+   "titulo": "File:Amu Darya (MODIS).jpg",
+   "largura": 1920,
+   "altura": 1404,
+   "rostos": 0,
+   "foco": {
+    "x": 44.4,
+    "y": 42.6
+   },
+   "borrada": "imagens/amu-daria-b433e479-b.jpg"
+  },
+  "sir-daria": {
+   "arquivo": "imagens/sir-daria-9b2cc469.jpg",
+   "rotulo": "Rio Sir Dária",
+   "wiki": "Sir Dária",
+   "commons": "Syr Darya river",
+   "autor": "Jialiang Gao peace-on-earth",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Syr_Darya_Baikonur.jpg",
+   "titulo": "File:Syr Darya Baikonur.jpg",
+   "largura": 1920,
+   "altura": 513,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 69.6
+   },
+   "borrada": "imagens/sir-daria-9b2cc469-b.jpg"
+  },
+  "pamir": {
+   "arquivo": "imagens/pamir-b3678780.jpg",
+   "rotulo": "Montanhas do Pamir",
+   "wiki": "Pamir",
+   "commons": "Pamir mountains Tajikistan",
+   "autor": "AmanovDmitry",
+   "licenca": "CC BY 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pamir_Mountains_panorama.jpg",
+   "titulo": "File:Pamir Mountains panorama.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 60.4,
+    "y": 62.8
+   },
+   "borrada": "imagens/pamir-b3678780-b.jpg"
+  },
+  "moynaq-porto": {
+   "arquivo": "",
+   "rotulo": "Porto pesqueiro de Moynaq",
+   "commons": "Moynaq fishing port Aral Sea Soviet era",
+   "semFoto": true
+  },
+  "pesca-aral": {
+   "arquivo": "",
+   "rotulo": "Pescadores no Mar de Aral",
+   "commons": "Aral Sea fishermen boats",
+   "semFoto": true
+  },
+  "urss-bandeira": {
+   "arquivo": "imagens/urss-bandeira-49fc5de2.jpg",
+   "rotulo": "Bandeira da União Soviética",
+   "commons": "Flag of the Soviet Union",
+   "autor": "Ibrahimkash",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Flag-map_of_the_Soviet_Union_(1936).png",
+   "titulo": "File:Flag-map of the Soviet Union (1936).png",
+   "largura": 1920,
+   "altura": 1342,
+   "rostos": 0,
+   "foco": {
+    "x": 41.2,
+    "y": 32.6
+   },
+   "borrada": "imagens/urss-bandeira-49fc5de2-b.jpg"
+  },
+  "algodao-colheita": {
+   "arquivo": "imagens/algodao-colheita-d463f239.jpg",
+   "rotulo": "Colheita de algodão no Uzbequistão",
+   "commons": "cotton harvest Uzbekistan",
+   "autor": "Bernard Gagnon",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cotton_cultivation_in_Uzbekistan_01.jpg",
+   "titulo": "File:Cotton cultivation in Uzbekistan 01.jpg",
+   "largura": 1920,
+   "altura": 1284,
+   "rostos": 0,
+   "foco": {
+    "x": 31.2,
+    "y": 58.7
+   },
+   "borrada": "imagens/algodao-colheita-d463f239-b.jpg"
+  },
+  "kremlin-moscou": {
+   "arquivo": "imagens/kremlin-moscou-34a89d19.jpg",
+   "rotulo": "Kremlin, Moscou",
+   "wiki": "Kremlin de Moscou",
+   "commons": "Moscow Kremlin",
+   "autor": "Walkerssk",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/moscou-r%C3%BAssia-kremlin-cidade-antiga-2004242/",
+   "titulo": "moscou, rússia, kremlin, cidade antiga, um rio, arquitetura, fortificação, fortaleza, edifícios",
+   "largura": 1280,
+   "altura": 749,
+   "rostos": 0,
+   "foco": {
+    "x": 40.9,
+    "y": 56.5
+   },
+   "borrada": "imagens/kremlin-moscou-34a89d19-b.jpg"
+  },
+  "karakum-deserto": {
+   "arquivo": "imagens/karakum-deserto-3cf22bfb.jpg",
+   "rotulo": "Deserto de Karakum",
+   "commons": "Karakum Desert Turkmenistan",
+   "autor": "David Stanley",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Karakum_Desert,_Turkmenistan.jpg",
+   "titulo": "File:Karakum Desert, Turkmenistan.jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 0,
+   "foco": {
+    "x": 43.7,
+    "y": 51.9
+   },
+   "borrada": "imagens/karakum-deserto-3cf22bfb-b.jpg"
+  },
+  "canal-karakum": {
+   "arquivo": "",
+   "rotulo": "Canal Karakum",
+   "commons": "Karakum Canal Turkmenistan",
+   "semFoto": true
+  },
+  "canal-terra": {
+   "arquivo": "",
+   "rotulo": "Canal de terra sem revestimento",
+   "commons": "unlined irrigation canal Central Asia earth",
+   "semFoto": true
+  },
+  "algodao-campo": {
+   "arquivo": "imagens/algodao-campo-23cb75df.jpg",
+   "rotulo": "Plantação de algodão irrigada",
+   "commons": "cotton field irrigation Uzbekistan",
+   "autor": "David Stanley from Nanaimo, Canada",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cotton_(8145399540).jpg",
+   "titulo": "File:Cotton (8145399540).jpg",
+   "largura": 1024,
+   "altura": 768,
+   "rostos": 1,
+   "foco": {
+    "x": 55.9,
+    "y": 88.6
+   },
+   "borrada": "imagens/algodao-campo-23cb75df-b.jpg"
+  },
+  "amu-daria-delta": {
+   "arquivo": "",
+   "rotulo": "Delta do Amu Dária",
+   "commons": "Amu Darya delta Karakalpakstan",
+   "semFoto": true
+  },
+  "leito-seco": {
+   "arquivo": "imagens/leito-seco-962965bd.jpg",
+   "rotulo": "Leito seco do Aral",
+   "commons": "dried Aral Sea seabed Kazakhstan",
+   "autor": "Aliyaassubayeva",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Remains_of_Fishing_Boats_on_the_Dried_Seabed_of_the_Aral_Sea.jpg",
+   "titulo": "File:Remains of Fishing Boats on the Dried Seabed of the Aral Sea.jpg",
+   "largura": 1920,
+   "altura": 1080,
+   "rostos": 0,
+   "foco": {
+    "x": 53.4,
+    "y": 66.4
+   },
+   "borrada": "imagens/leito-seco-962965bd-b.jpg"
+  },
+  "reservatorio-shardara": {
+   "arquivo": "imagens/reservatorio-shardara-23fa52ae.jpg",
+   "rotulo": "Reservatório de Shardara, Sir Dária",
+   "commons": "Shardara reservoir Syr Darya",
+   "autor": "European Space Agency",
+   "licenca": "Attribution",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Earth_from_Space-_Tashkent,_Uzbekistan_ESA24941666.jpg",
+   "titulo": "File:Earth from Space- Tashkent, Uzbekistan ESA24941666.jpg",
+   "largura": 1920,
+   "altura": 1648,
+   "rostos": 1,
+   "foco": {
+    "x": 6.0,
+    "y": 43.5
+   },
+   "borrada": "imagens/reservatorio-shardara-23fa52ae-b.jpg"
+  },
+  "aral-reducao-mapa": {
+   "arquivo": "",
+   "rotulo": "Encolhimento do Aral",
+   "commons": "Aral Sea shrinkage map 1960 2010",
+   "semFoto": true
+  },
+  "aral-borda": {
+   "arquivo": "imagens/aral-borda-6ee4fce5.jpg",
+   "rotulo": "Margem do Aral recuando",
+   "commons": "Aral Sea receding shoreline Uzbekistan",
+   "autor": "Koshkinhome",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aral_Sea_Moynaq_Karakalpakstan_Uzbekistan_September_2025_Ph_Khusen_Rustamov-_24.jpg",
+   "titulo": "File:Aral Sea Moynaq Karakalpakstan Uzbekistan September 2025 Ph Khusen Rustamov- 24.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 48.9,
+    "y": 49.2
+   },
+   "borrada": "imagens/aral-borda-6ee4fce5-b.jpg"
+  },
+  "aral-2000-landsat": {
+   "arquivo": "",
+   "rotulo": "Aral dividido em 2000",
+   "commons": "Aral Sea 2000 Landsat two parts",
+   "semFoto": true
+  },
+  "crosta-sal": {
+   "arquivo": "",
+   "rotulo": "Crosta de sal no leito",
+   "commons": "Aral Sea salt crust seabed",
+   "semFoto": true
+  },
+  "barcos-encalhados": {
+   "arquivo": "imagens/barcos-encalhados-87723c1f.jpg",
+   "rotulo": "Barcos de pesca encalhados",
+   "commons": "Aral Sea fishing boats stranded sand",
+   "autor": "xusenru",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/aral-cemit%C3%A9rio-navios-uzbequist%C3%A3o-10129034/",
+   "titulo": "aral, cemitério, navios, uzbequistão, muynaq, ecologia, desastre, usr, natureza, ferrugem, metal, uzbequistão escuro, khusen rustamov, documentário, ásia central, 2025, deserto",
+   "largura": 853,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 57.1,
+    "y": 41.1
+   },
+   "borrada": "imagens/barcos-encalhados-87723c1f-b.jpg"
+  },
+  "aral-pequeno-grande": {
+   "arquivo": "",
+   "rotulo": "Pequeno e Grande Aral",
+   "commons": "North Aral South Aral separation satellite 2009",
+   "semFoto": true
+  },
+  "moynaq-cemiterio": {
+   "arquivo": "",
+   "rotulo": "Cemitério de navios de Moynaq",
+   "commons": "Moynaq ships graveyard rusting vessels desert",
+   "semFoto": true
+  },
+  "moynaq-barco": {
+   "arquivo": "",
+   "rotulo": "Barco abandonado em Moynaq",
+   "commons": "Moynaq abandoned fishing boat sand",
+   "semFoto": true
+  },
+  "moynaq-antigo-porto": {
+   "arquivo": "",
+   "rotulo": "Antigo porto de Moynaq",
+   "commons": "Moynaq harbour Uzbekistan Aral shore distance",
+   "semFoto": true
+  },
+  "moynaq-cascos": {
+   "arquivo": "",
+   "rotulo": "Cascos oxidados",
+   "commons": "Moynaq rusty hulls ships Karakalpakstan",
+   "semFoto": true
+  },
+  "moynaq-turistas": {
+   "arquivo": "",
+   "rotulo": "Turistas entre os navios",
+   "commons": "tourists Moynaq ship graveyard",
+   "semFoto": true
+  },
+  "moynaq-cidade": {
+   "arquivo": "imagens/moynaq-cidade-e688d953.jpg",
+   "rotulo": "Cidade de Moynaq",
+   "commons": "Moynaq town Karakalpakstan Uzbekistan",
+   "autor": "Adam Harangozó",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Building_in_Mo%E2%80%98ynoq_-_2.jpg",
+   "titulo": "File:Building in Mo‘ynoq - 2.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 40.1,
+    "y": 71.3
+   },
+   "borrada": "imagens/moynaq-cidade-e688d953-b.jpg"
+  },
+  "aral-sal-leito": {
+   "arquivo": "",
+   "rotulo": "Sal no antigo fundo do mar",
+   "commons": "Aral Sea dried bed salt desert Uzbekistan",
+   "semFoto": true
+  },
+  "pesticidas-algodao": {
+   "arquivo": "",
+   "rotulo": "Pulverização em campo de algodão",
+   "commons": "cotton field pesticide spraying Uzbekistan",
+   "semFoto": true
+  },
+  "tempestade-poeira": {
+   "arquivo": "imagens/tempestade-poeira-3a982c48.jpg",
+   "rotulo": "Tempestade de poeira, NASA",
+   "commons": "Aral Sea dust storm NASA MODIS",
+   "autor": "Jeff Schmaltz, MODIS Land Rapid Response Team",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:AralSeaModis.jpg",
+   "titulo": "File:AralSeaModis.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 63.6,
+    "y": 21.2
+   },
+   "borrada": "imagens/tempestade-poeira-3a982c48-b.jpg"
+  },
+  "nukus": {
+   "arquivo": "imagens/nukus-93cadf4c.jpg",
+   "rotulo": "Nukus, Karakalpaquistão",
+   "wiki": "Nucus",
+   "commons": "Nukus Karakalpakstan",
+   "autor": "Atabekseytbaev",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Uzbekistan_Nukus_museum.jpg",
+   "titulo": "File:Uzbekistan Nukus museum.jpg",
+   "largura": 960,
+   "altura": 640,
+   "rostos": 0,
+   "foco": {
+    "x": 40.7,
+    "y": 61.2
+   },
+   "borrada": "imagens/nukus-93cadf4c-b.jpg"
+  },
+  "aralsk-abandonado": {
+   "arquivo": "",
+   "rotulo": "Barcos abandonados em Aralsk",
+   "commons": "Aralsk Kazakhstan abandoned ships",
+   "semFoto": true
+  },
+  "vozrozhdeniya-ilha": {
+   "arquivo": "imagens/vozrozhdeniya-ilha-904fbafc.jpg",
+   "rotulo": "Ilha Vozrozhdeniya",
+   "commons": "Vozrozhdeniya Island Aral Sea",
+   "autor": "USGS",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Earthshots_%E2%80%93_Islands_%E2%80%93_Aral_Sea_(Landsat,_1977-09).png",
+   "titulo": "File:Earthshots – Islands – Aral Sea (Landsat, 1977-09).png",
+   "largura": 1000,
+   "altura": 873,
+   "rostos": 0,
+   "foco": {
+    "x": 50.7,
+    "y": 37.6
+   },
+   "borrada": "imagens/vozrozhdeniya-ilha-904fbafc-b.jpg"
+  },
+  "vozrozhdeniya-landsat": {
+   "arquivo": "",
+   "rotulo": "Vozrozhdeniya como península",
+   "commons": "Vozrozhdeniya Island Landsat peninsula",
+   "semFoto": true
+  },
+  "biopreparat": {
+   "arquivo": "",
+   "rotulo": "Programa soviético de armas biológicas",
+   "wiki": "Biopreparat",
+   "commons": "Soviet biological weapons laboratory",
+   "semFoto": true
+  },
+  "antraz": {
+   "arquivo": "imagens/antraz-d2cb2968.jpg",
+   "rotulo": "Bacillus anthracis (antraz)",
+   "wiki": "Antraz",
+   "commons": "Bacillus anthracis",
+   "autor": "Photo Credit: Content Providers(s): CDC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bacillus_anthracis_Gram.jpg",
+   "titulo": "File:Bacillus anthracis Gram.jpg",
+   "largura": 1920,
+   "altura": 1288,
+   "rostos": 0,
+   "foco": {
+    "x": 54.0,
+    "y": 60.7
+   },
+   "borrada": "imagens/antraz-d2cb2968-b.jpg"
+  },
+  "vozrozhdeniya-2008": {
+   "arquivo": "",
+   "rotulo": "Vozrozhdeniya em 2008",
+   "commons": "Vozrozhdeniya Island 2008 NASA Aral Sea",
+   "semFoto": true
+  },
+  "vozrozhdeniya-abandonada": {
+   "arquivo": "",
+   "rotulo": "Instalações abandonadas",
+   "commons": "Barsa-Kelmes Vozrozhdeniya abandoned Soviet military",
+   "semFoto": true
+  },
+  "kazakhstan-aral-regiao": {
+   "arquivo": "",
+   "rotulo": "Região de Kyzylorda, Cazaquistão",
+   "commons": "Kyzylorda region Kazakhstan Syr Darya landscape",
+   "semFoto": true
+  },
+  "banco-mundial": {
+   "arquivo": "imagens/banco-mundial-bb5504d5.jpg",
+   "rotulo": "Sede do Banco Mundial",
+   "wiki": "Banco Mundial",
+   "commons": "World Bank headquarters Washington",
+   "autor": "ajay_suresh",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_World_Bank_Group_(53844804648).jpg",
+   "titulo": "File:The World Bank Group (53844804648).jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 56.9,
+    "y": 60.1
+   },
+   "borrada": "imagens/banco-mundial-bb5504d5-b.jpg"
+  },
+  "kokaral-dique": {
+   "arquivo": "imagens/kokaral-dique-60fdb5a2.jpg",
+   "rotulo": "Barragem de Kokaral",
+   "commons": "Kokaral dam dike Aral Sea",
+   "autor": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:ISS024-E-9748_-_View_of_Kazakhstan.jpg",
+   "titulo": "File:ISS024-E-9748 - View of Kazakhstan.jpg",
+   "largura": 1920,
+   "altura": 2811,
+   "rostos": 0,
+   "foco": {
+    "x": 52.9,
+    "y": 57.1
+   },
+   "borrada": "imagens/kokaral-dique-60fdb5a2-b.jpg"
+  },
+  "pequeno-aral-2010": {
+   "arquivo": "",
+   "rotulo": "Pequeno Aral em 2010",
+   "commons": "North Aral Sea 2010 Landsat",
+   "semFoto": true
+  },
+  "sir-daria-kyzylorda": {
+   "arquivo": "imagens/sir-daria-kyzylorda-b46a6a18.jpg",
+   "rotulo": "Sir Dária no Cazaquistão",
+   "commons": "Syr Darya Kyzylorda Kazakhstan",
+   "autor": "Petar Milošević",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Syr_Darya_river.jpg",
+   "titulo": "File:Syr Darya river.jpg",
+   "largura": 1920,
+   "altura": 1136,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 70.3
+   },
+   "borrada": "imagens/sir-daria-kyzylorda-b46a6a18-b.jpg"
+  },
+  "pequeno-aral-norte": {
+   "arquivo": "imagens/pequeno-aral-norte-96965513.jpg",
+   "rotulo": "Margem norte do Pequeno Aral",
+   "commons": "North Aral Sea shore Kazakhstan",
+   "autor": "MODIS Land Rapid Response Team, NASA GSFC",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ice_receding_on_the_North_Aral_Sea_(MODIS).jpg",
+   "titulo": "File:Ice receding on the North Aral Sea (MODIS).jpg",
+   "largura": 1767,
+   "altura": 1316,
+   "rostos": 1,
+   "foco": {
+    "x": 73.4,
+    "y": 49.5
+   },
+   "borrada": "imagens/pequeno-aral-norte-96965513-b.jpg"
+  },
+  "lucioperca": {
+   "arquivo": "imagens/lucioperca-3eef73a7.jpg",
+   "rotulo": "Lucioperca, peixe do Aral do norte",
+   "wiki": "Sander lucioperca",
+   "commons": "Sander lucioperca pike-perch",
+   "autor": "eLNuko",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sander_lucioperca_1.jpg",
+   "titulo": "File:Sander lucioperca 1.jpg",
+   "largura": 1915,
+   "altura": 913,
+   "rostos": 0,
+   "foco": {
+    "x": 69.4,
+    "y": 48.7
+   },
+   "borrada": "imagens/lucioperca-3eef73a7-b.jpg"
+  },
+  "pesca-cazaquistao": {
+   "arquivo": "",
+   "rotulo": "Pesca no norte do Aral",
+   "commons": "Aralsk fishing catch Kazakhstan",
+   "semFoto": true
+  },
+  "pescador-aral": {
+   "arquivo": "",
+   "rotulo": "Pescador no Pequeno Aral",
+   "commons": "fisherman Small Aral Sea Kazakhstan",
+   "semFoto": true
+  },
+  "aralsk": {
+   "arquivo": "imagens/aralsk-f564494b.jpg",
+   "rotulo": "Aralsk, Cazaquistão",
+   "wiki": "Aralsk",
+   "commons": "Aralsk Kazakhstan town",
+   "autor": "Staecker",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:AralskHarbor.jpg",
+   "titulo": "File:AralskHarbor.jpg",
+   "largura": 1455,
+   "altura": 1005,
+   "rostos": 2,
+   "foco": {
+    "x": 60.7,
+    "y": 76.2
+   },
+   "borrada": "imagens/aralsk-f564494b-b.jpg"
+  },
+  "aral-norte-2018": {
+   "arquivo": "",
+   "rotulo": "Pequeno Aral, imagem recente",
+   "commons": "North Aral Sea 2018 satellite recovery",
+   "semFoto": true
+  },
+  "aral-sul-costa": {
+   "arquivo": "",
+   "rotulo": "Costa do Grande Aral",
+   "commons": "South Aral Sea shore Karakalpakstan",
+   "semFoto": true
+  },
+  "aral-2014-leste": {
+   "arquivo": "imagens/aral-2014-leste-a7556fa3.jpg",
+   "rotulo": "Bacia leste seca, 2014",
+   "commons": "Aral Sea 2014 eastern basin dried up NASA",
+   "autor": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Shrinking_Aral_Sea_(15225687200).jpg",
+   "titulo": "File:Shrinking Aral Sea (15225687200).jpg",
+   "largura": 1920,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 46.8,
+    "y": 38.2
+   },
+   "borrada": "imagens/aral-2014-leste-a7556fa3-b.jpg"
+  },
+  "aralkum": {
+   "arquivo": "imagens/aralkum-8a7ac517.jpg",
+   "rotulo": "Deserto de Aralkum",
+   "commons": "Aralkum desert",
+   "autor": "WaSZI",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/praia-sal-lago-aral-uzbequist%C3%A3o-7619520/",
+   "titulo": "praia, sal, natureza, lago aral, uzbequistão, panorama",
+   "largura": 1280,
+   "altura": 842,
+   "rostos": 0,
+   "foco": {
+    "x": 57.0,
+    "y": 66.2
+   },
+   "borrada": "imagens/aralkum-8a7ac517-b.jpg"
+  },
+  "ban-ki-moon": {
+   "arquivo": "imagens/ban-ki-moon-0fa66dcb.jpg",
+   "rotulo": "Ban Ki-moon",
+   "wiki": "Ban Ki-moon",
+   "commons": "Ban Ki-moon Aral Sea visit 2010",
+   "autor": "Chatham House",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ban_Ki-moon_February_2016.jpg",
+   "titulo": "File:Ban Ki-moon February 2016.jpg",
+   "largura": 1100,
+   "altura": 1520,
+   "rostos": 3,
+   "foco": {
+    "x": 53.5,
+    "y": 53.8
+   },
+   "borrada": "imagens/ban-ki-moon-0fa66dcb-b.jpg"
+  },
+  "saxaul": {
+   "arquivo": "imagens/saxaul-5a16c398.jpg",
+   "rotulo": "Saxaul",
+   "wiki": "Haloxylon ammodendron",
+   "commons": "Haloxylon ammodendron saxaul",
+   "autor": "Desconhecido",
+   "licenca": "CC BY-SA 2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Saxaul-baum.JPG",
+   "titulo": "File:Saxaul-baum.JPG",
+   "largura": 1600,
+   "altura": 1200,
+   "rostos": 0,
+   "foco": {
+    "x": 37.3,
+    "y": 47.7
+   },
+   "borrada": "imagens/saxaul-5a16c398-b.jpg"
+  },
+  "aral-margem-recente": {
+   "arquivo": "",
+   "rotulo": "Margem do Aral",
+   "commons": "Aral Sea shore Kazakhstan 2016",
+   "semFoto": true
+  },
+  "moynaq-amanhecer": {
+   "arquivo": "",
+   "rotulo": "Navios de Moynaq ao amanhecer",
+   "commons": "Moynaq ships dawn desert Aral",
+   "semFoto": true
+  },
+  "plantio-saxaul": {
+   "arquivo": "imagens/plantio-saxaul-e5732c13.jpg",
+   "rotulo": "Plantio de saxaul no leito",
+   "commons": "saxaul planting Aral Sea seabed",
+   "autor": "Игорь Улитин",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Scientist_Maria_Zadneprovskaya_participates_in_planting_saxaul_on_the_dry_bed_of_the_Aral_Sea.jpg",
+   "titulo": "File:Scientist Maria Zadneprovskaya participates in planting saxaul on the dry bed of the Aral Sea.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 37.7,
+    "y": 65.0
+   },
+   "borrada": "imagens/plantio-saxaul-e5732c13-b.jpg"
+  },
+  "irrigacao-karakalpakstan": {
+   "arquivo": "",
+   "rotulo": "Irrigação no baixo Amu Dária",
+   "commons": "Amu Darya irrigation Karakalpakstan fields",
+   "semFoto": true
+  },
+  "kokaral-mapa": {
+   "arquivo": "imagens/kokaral-mapa-b4ba5291.jpg",
+   "rotulo": "Mapa da barragem de Kokaral",
+   "commons": "Kokaral dam map North Aral Sea",
+   "autor": "Io Herodotus",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Sauvegarde_Baie_de_Saryshyganak.png",
+   "titulo": "File:Sauvegarde Baie de Saryshyganak.png",
+   "largura": 1920,
+   "altura": 1336,
+   "rostos": 0,
+   "foco": {
+    "x": 74.9,
+    "y": 65.8
+   },
+   "borrada": "imagens/kokaral-mapa-b4ba5291-b.jpg"
+  },
+  "aral-norte-por-do-sol": {
+   "arquivo": "",
+   "rotulo": "Pequeno Aral ao entardecer",
+   "commons": "North Aral Sea Kazakhstan shore sunset",
+   "semFoto": true
+  },
+  "asia-central-espaco": {
+   "arquivo": "imagens/asia-central-espaco-740f10d0.jpg",
+   "rotulo": "Ásia Central vista do espaço",
+   "commons": "Central Asia from space NASA Aral Sea",
+   "autor": "NASA Earth Observatory",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aral_Sea_August_2017.jpg",
+   "titulo": "File:Aral Sea August 2017.jpg",
+   "largura": 1920,
+   "altura": 1920,
+   "rostos": 0,
+   "foco": {
+    "x": 54.2,
+    "y": 34.4
+   },
+   "borrada": "imagens/asia-central-espaco-740f10d0-b.jpg"
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-11T17:50:43.870Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +6901,54 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Wikipédia — Mar de Aral",
+   "url": "https://pt.wikipedia.org/wiki/Mar_de_Aral"
+  },
+  {
+   "titulo": "Wikipedia — Aral Sea",
+   "url": "https://en.wikipedia.org/wiki/Aral_Sea"
+  },
+  {
+   "titulo": "NASA Earth Observatory — World of Change: Shrinking Aral Sea",
+   "url": "https://earthobservatory.nasa.gov/world-of-change/AralSea"
+  },
+  {
+   "titulo": "Encyclopaedia Britannica — Aral Sea",
+   "url": "https://www.britannica.com/place/Aral-Sea"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "Por que o Mar de Aral desapareceu?",
+   "Os navios no deserto: a história do Mar de Aral",
+   "O mar que a União Soviética secou (e o pedaço que voltou)"
+  ],
+  "descricao": "Em 1960, o Aral era o quarto maior lago do mundo. Hoje, onde havia água, existe um deserto. Veja como projetos soviéticos de irrigação desviaram os rios Amu Dária e Sir Dária, o que sobrou dos navios de Moynaq e como o Cazaquistão recuperou parte do mar com a barragem de Kokaral.\n\n0:00 O mar que sumiu\n0:40 Dois rios no deserto\n1:20 O plano de Moscou\n2:00 Água para o deserto\n2:40 O mar se parte\n3:20 Cemitério de navios\n4:00 O sal no ar\n4:40 A ilha secreta\n5:20 A barragem de Kokaral\n6:00 O norte renasce\n6:40 O deserto Aralkum\n7:20 A lição do Aral\n\nFontes: Wikipédia (Mar de Aral), Wikipedia (Aral Sea), NASA Earth Observatory, Encyclopaedia Britannica.",
+  "tags": [
+   "Mar de Aral",
+   "Aral Sea",
+   "União Soviética",
+   "Cazaquistão",
+   "Uzbequistão",
+   "Amu Dária",
+   "Sir Dária",
+   "barragem de Kokaral",
+   "navios no deserto",
+   "desastre ambiental",
+   "Moynaq",
+   "documentário"
+  ]
  }
 }

@@ -1,0 +1,143 @@
+{
+  "titulo": "Por que o Mar de Aral desapareceu?",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Wikipédia — Mar de Aral", "url": "https://pt.wikipedia.org/wiki/Mar_de_Aral" },
+    { "titulo": "Wikipedia — Aral Sea", "url": "https://en.wikipedia.org/wiki/Aral_Sea" },
+    { "titulo": "NASA Earth Observatory — World of Change: Shrinking Aral Sea", "url": "https://earthobservatory.nasa.gov/world-of-change/AralSea" },
+    { "titulo": "Encyclopaedia Britannica — Aral Sea", "url": "https://www.britannica.com/place/Aral-Sea" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "Por que o Mar de Aral desapareceu?",
+      "Os navios no deserto: a história do Mar de Aral",
+      "O mar que a União Soviética secou (e o pedaço que voltou)"
+    ],
+    "descricao": "Em 1960, o Aral era o quarto maior lago do mundo. Hoje, onde havia água, existe um deserto. Veja como projetos soviéticos de irrigação desviaram os rios Amu Dária e Sir Dária, o que sobrou dos navios de Moynaq e como o Cazaquistão recuperou parte do mar com a barragem de Kokaral.\n\n0:00 O mar que sumiu\n0:40 Dois rios no deserto\n1:20 O plano de Moscou\n2:00 Água para o deserto\n2:40 O mar se parte\n3:20 Cemitério de navios\n4:00 O sal no ar\n4:40 A ilha secreta\n5:20 A barragem de Kokaral\n6:00 O norte renasce\n6:40 O deserto Aralkum\n7:20 A lição do Aral\n\nFontes: Wikipédia (Mar de Aral), Wikipedia (Aral Sea), NASA Earth Observatory, Encyclopaedia Britannica.",
+    "tags": ["Mar de Aral", "Aral Sea", "União Soviética", "Cazaquistão", "Uzbequistão", "Amu Dária", "Sir Dária", "barragem de Kokaral", "navios no deserto", "desastre ambiental", "Moynaq", "documentário"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "Em mil novecentos e sessenta, este era o quarto maior lago do mundo: sessenta e oito mil quilômetros quadrados de água e mais de mil e quinhentas ilhas. Hoje, onde havia mar, existe um deserto de sal, e navios enferrujados parados na areia. Nenhuma guerra secou esse mar. Nenhum desastre natural. Foi um plano de engenharia, desenhado para dar certo, e que deu certo demais. Esta é a história de como um país desviou dois rios, apagou um mar do mapa e por que um pedaço dele, contra todas as previsões, voltou.",
+      "galeria": ["aral-localizacao", "aral-1960", "aral-satelite-2014", "navios-moynaq", "canal-grande", "aral-1989-2008"],
+      "galeriaEm": [0, "quilômetros", "Hoje", "navios", "plano", "apagou"],
+      "fontes": ["NASA", "Wikipédia"],
+      "elementos": []
+    },
+    {
+      "id": "promessa",
+      "texto": "Para entender, olhe para a Ásia Central. O Aral ficava entre o Cazaquistão e o Uzbequistão, no meio de uma região árida. Vivia de dois rios: o Amu Dária e o Sir Dária, que nascem em montanhas distantes e atravessam o deserto até o mar. Nos anos cinquenta, traziam cerca de cinquenta e seis quilômetros cúbicos de água por ano. Nas próximas cenas, você vai ver imagens de satélite, os navios no deserto e o que o Cazaquistão conseguiu recuperar. Mas, primeiro, quem decidiu desviar esses rios?",
+      "galeria": ["asia-central-mapa", "cazaquistao-estepe", "uzbequistao-registan", "amu-daria", "sir-daria", "pamir"],
+      "galeriaEm": [0, "Cazaquistão", "Uzbequistão", "Amu", "Sir", "montanhas"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "DOIS RIOS NO DESERTO", "sub": "Amu Dária e Sir Dária", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "plano-de-moscou",
+      "texto": "O Aral era um mar cheio de vida. Em Moynaq, na margem sul, ficava um porto movimentado. A pesca empregava dezenas de milhares de pessoas e chegou a responder por cerca de um sexto do pescado soviético. Mas, para os planejadores de Moscou, o que importava era outra coisa: o algodão. A União Soviética queria produzir o seu próprio, e a Ásia Central, com sol de sobra, parecia o lugar perfeito. Faltava só água. E ela estava ali, nos dois rios que alimentavam o mar. Era o começo do fim.",
+      "galeria": ["moynaq-porto", "pesca-aral", "kremlin-moscou", "algodao-colheita", "urss-bandeira", "karakum-deserto"],
+      "galeriaEm": [0, "pesca", "Moscou", "algodão", "União", "Ásia"],
+      "fontes": ["Wikipédia — Mar de Aral"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O PLANO DE MOSCOU", "sub": "Algodão no deserto", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "canais",
+      "texto": "Para levar água ao deserto, engenheiros cavaram milhares de quilômetros de canais. O maior, o Karakum, cruza o Turcomenistão por mais de mil e trezentos quilômetros. Só que muitos eram simples valas de terra, sem revestimento. Estimativas indicam que entre trinta e setenta e cinco por cento da água do Karakum se perdia no caminho. Resultado: a vazão que chegava ao Aral caiu de cerca de cinquenta e seis quilômetros cúbicos por ano, nos anos cinquenta, para pouco mais de quatro, nos anos oitenta. O mar estava sendo esvaziado, e quase ninguém estava olhando.",
+      "galeria": ["algodao-campo", "canal-karakum", "canal-terra", "reservatorio-shardara", "amu-daria-delta", "leito-seco"],
+      "galeriaEm": [0, "Karakum", "valas", "perdia", "vazão", "esvaziado"],
+      "fontes": ["Wikipédia — Mar de Aral"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "ÁGUA PARA O DESERTO", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 56, "ate": 4, "unidade": "km³ por ano", "rotulo": "Água que chegava ao Aral (anos 1950 → 1980)", "em": "vazão", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "mar-se-parte",
+      "texto": "No começo dos anos sessenta, o nível da água começou a cair. A cada ano, a margem recuava mais. Em mil novecentos e oitenta e sete, o mar se partiu em dois: o Pequeno Aral, ao norte, e o Grande Aral, ao sul. A salinidade, que era de cerca de dez gramas por litro, mais que triplicou. Peixes não resistiram, e a pesca comercial acabou. Os cientistas já alertavam, mas o plano do algodão continuou. Em mil novecentos e noventa e nove, a ligação entre as duas partes também se perdeu, e cada uma seguiu seu destino.",
+      "galeria": ["aral-reducao-mapa", "aral-borda", "aral-pequeno-grande", "crosta-sal", "barcos-encalhados", "aral-2000-landsat"],
+      "galeriaEm": [0, "margem", "partiu", "salinidade", "Peixes", "ligação"],
+      "fontes": ["Wikipédia — Mar de Aral", "NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O MAR SE PARTE", "em": 0, "posicao": "alto" },
+        { "tipo": "linha", "itens": [["1960", "68 mil km²"], ["1987", "Mar dividido"], ["2007", "10% do original"]], "em": "partiu", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "cemiterio-de-navios",
+      "texto": "Moynaq, que vivia do mar, ficou sem água. Os barcos de pesca encalharam na areia, um por um. Hoje, o antigo porto está a dezenas de quilômetros da margem mais próxima, e o que restou é um cemitério de navios. Cascos oxidados, guindastes, cabos soltos, no meio de um deserto onde antes havia fundo de mar. Turistas vão até lá para fotografar a cena. Para quem morava ali, a perda foi mais que paisagem: foi o emprego, a comida e a razão de a cidade existir.",
+      "galeria": ["moynaq-cidade", "moynaq-barco", "moynaq-antigo-porto", "moynaq-cascos", "moynaq-turistas", "moynaq-cemiterio"],
+      "galeriaEm": [0, "barcos", "Hoje", "Cascos", "Turistas", "emprego"],
+      "fontes": ["Wikipédia — Mar de Aral"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "CEMITÉRIO DE NAVIOS", "sub": "Moynaq, Uzbequistão", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "sal-no-ar",
+      "texto": "Havia ainda um problema escondido no fundo seco: o sal. E, misturados a ele, resíduos de pesticidas e fertilizantes que escorreram das plantações durante décadas. Quando o vento sopra, essa poeira sobe em tempestades visíveis em imagens de satélite da NASA. Pesquisas associam a poeira tóxica a doenças respiratórias, câncer e tuberculose entre moradores da região. O clima também mudou: sem o mar para suavizar a temperatura, os verões ficaram mais quentes e secos, e os invernos, mais frios. Para muita gente, a saída foi deixar a região.",
+      "galeria": ["aral-sal-leito", "pesticidas-algodao", "tempestade-poeira", "nukus", "aralsk-abandonado"],
+      "galeriaEm": [0, "pesticidas", "tempestades", "moradores", "saída"],
+      "fontes": ["Wikipédia — Mar de Aral", "NASA"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O SAL NO AR", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "ilha-secreta",
+      "texto": "E o mar seco guardava um segredo. No meio do Aral ficava a ilha Vozrozhdeniya, onde, a partir de mil novecentos e quarenta e oito, a União Soviética manteve um laboratório militar de testes de armas biológicas. Com o recuo da água, a ilha virou uma península, ligada ao continente. Em mil novecentos e noventa e dois, o local foi abandonado. Segundo expedições posteriores, material contaminado com antraz teria sido enterrado ali. Mas o desastre ainda tinha uma reviravolta.",
+      "galeria": ["vozrozhdeniya-ilha", "biopreparat", "vozrozhdeniya-landsat", "vozrozhdeniya-abandonada", "antraz", "vozrozhdeniya-2008"],
+      "galeriaEm": [0, "laboratório", "península", "abandonado", "antraz", "reviravolta"],
+      "fontes": ["Wikipédia — Mar de Aral"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A ILHA SECRETA", "sub": "Vozrozhdeniya", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "kokaral",
+      "texto": "Em dois mil e cinco, o Cazaquistão tomou uma decisão difícil: salvar o que ainda podia ser salvo. Com apoio do Banco Mundial, concluiu a barragem de Kokaral, um dique de cerca de doze quilômetros, ao custo de aproximadamente oitenta e sete milhões de dólares. Antes dela, uma barragem improvisada de terra tinha cedido. A nova fechou a ligação entre o Pequeno e o Grande Aral. A água do Sir Dária, que antes escapava para o sul, passou a ficar no norte. Era uma aposta: sacrificar um lado para salvar o outro.",
+      "galeria": ["kazakhstan-aral-regiao", "banco-mundial", "kokaral-dique", "kokaral-mapa", "pequeno-aral-2010", "sir-daria-kyzylorda"],
+      "galeriaEm": [0, "Banco", "barragem", "Antes", "Pequeno", "Sir"],
+      "fontes": ["Wikipédia — Mar de Aral", "Banco Mundial"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A BARRAGEM DE KOKARAL", "sub": "Cazaquistão, 2005", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 87, "unidade": "milhões de US$", "rotulo": "Custo aproximado da barragem", "em": "oitenta", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "norte-renasce",
+      "texto": "E funcionou. Com o nível subindo, a salinidade do Pequeno Aral caiu, e os peixes voltaram. A produção de pescado no norte saiu de pouco mais de mil e trezentas toneladas, em dois mil e seis, para mais de sete mil, em dois mil e dezesseis. Pescadores cazaques voltaram a trabalhar, e a água se aproximou de Aralsk, antigo porto que havia ficado longe da margem. Não é o Aral de mil novecentos e sessenta, longe disso. Mas é a prova de que, com decisão e investimento, um desastre ambiental pode ser parcialmente revertido.",
+      "galeria": ["pequeno-aral-norte", "lucioperca", "pesca-cazaquistao", "pescador-aral", "aralsk", "aral-norte-2018"],
+      "galeriaEm": [0, "peixes", "pescado", "Pescadores", "Aralsk", "revertido"],
+      "fontes": ["Wikipédia — Mar de Aral"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O NORTE RENASCE", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 1360, "ate": 7106, "unidade": "toneladas", "rotulo": "Pesca no Pequeno Aral (2006 → 2016)", "em": "toneladas", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "aralkum",
+      "texto": "Já o Grande Aral, ao sul, teve destino bem diferente. Parte do excesso de água do norte ainda escoa para lá, mas evapora rápido, e esse lado é considerado praticamente irrecuperável. Em agosto de dois mil e catorze, imagens da NASA mostraram que a porção leste da bacia sul tinha secado por completo. O novo deserto se chama Aralkum. Em dois mil e dez, o então secretário-geral da ONU, Ban Ki-moon, chamou o Aral de um dos piores desastres ambientais do planeta. Em dois mil e vinte e um, o Cazaquistão anunciou o plantio de saxaul em um milhão de hectares do leito seco, para segurar a poeira.",
+      "galeria": ["aral-sul-costa", "aral-2014-leste", "aralkum", "ban-ki-moon", "saxaul", "plantio-saxaul"],
+      "galeriaEm": [0, "agosto", "Aralkum", "Ban", "plantio", "hectares"],
+      "fontes": ["NASA", "Wikipédia — Mar de Aral"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O DESERTO ARALKUM", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "licao",
+      "texto": "Então, por que o Mar de Aral desapareceu? Porque a água de dois rios foi tratada como se fosse infinita. Cada canal, isolado, parecia uma boa ideia. Somados, deixaram um mar vazio. A lição do Aral não é só sobre a União Soviética. Vale para qualquer lugar onde se retira mais água do que a natureza devolve. No norte, uma barragem de doze quilômetros mostrou que é possível reparar parte do estrago. No sul, os navios seguem na areia, lembrando o preço de decidir sem olhar o que vem depois.",
+      "galeria": ["aral-margem-recente", "irrigacao-karakalpakstan", "asia-central-espaco", "aral-norte-por-do-sol", "moynaq-amanhecer"],
+      "galeriaEm": [0, "canal", "lição", "norte", "navios"],
+      "fontes": ["Wikipédia — Mar de Aral"],
+      "elementos": []
+    }
+  ]
+}
