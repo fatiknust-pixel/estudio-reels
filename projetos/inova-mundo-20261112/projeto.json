@@ -6,8 +6,8 @@
  "estilo": "documentario",
  "tema": "grafite",
  "criadoEm": "2026-11-12T18:04:54.659Z",
- "atualizadoEm": "2026-11-12T18:04:54.659Z",
- "status": "processando",
+ "atualizadoEm": "2026-11-12T18:18:23Z",
+ "status": "pronto",
  "pedido": {
   "tema": "O que aconteceu com os dirigíveis zepelim? — ângulo: De Graf Zeppelin ao Hindenburg (1937): por que gigantes do ar dominaram o transporte transatlântico e saíram de cena. Separa o mito do 'acidente que acabou com tudo' das razões econômicas e técnicas, e mostra os novos dirigíveis de hoje.",
   "tom": "Curioso e analítico",
@@ -58,15 +58,7080 @@
   "tratamento": true,
   "fluida": true
  },
- "cenas": [],
- "narracao": {},
- "imagens": {},
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "O Graf Zeppelin voou mais de um milhão de quilômetros e nunca feriu um único passageiro. O Hindenburg pegou fogo e caiu em menos de um minuto. Mesmo assim, a história costuma culpar só o segundo. Será que um acidente basta para enterrar uma tecnologia inteira? Ou ela já estava com os dias contados antes das chamas? Ao longo desta viagem você vai ver o que os gigantes do ar realmente fizeram, por que perderam o céu e quem ainda tenta trazê-los de volta.",
+   "galeria": [
+    "graf-voo",
+    "hind-fogo",
+    "lakehurst-base",
+    "hind-ny",
+    "dois-zeps"
+   ],
+   "galeriaEm": [
+    0,
+    "pegou",
+    "Será",
+    "Ou",
+    "gigantes"
+   ],
+   "fontes": [
+    "Britannica"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 1700000,
+     "unidade": "km",
+     "rotulo": "voados pelo Graf Zeppelin",
+     "em": "milhão",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "conde",
+   "texto": "Ferdinand von Zeppelin era um oficial de cavalaria alemão que deixou o exército aos cinquenta e dois anos. Foi então que decidiu construir aeronaves com esqueleto rígido de metal, cheias de gás. Em julho de mil e novecentos, o LZ 1 subiu sobre o lago de Constança, em Friedrichshafen. Era enorme, lento e frágil. Os investidores sumiram, e o conde gastou a própria fortuna. Mas a ideia tinha um trunfo: a estrutura rígida permitia crescer sem limite. Faltava provar que aquilo servia para mais que espetáculo.",
+   "galeria": [
+    "conde",
+    "lz1-estrutura",
+    "lz1-voo",
+    "friedrichshafen",
+    "museu-zeppelin"
+   ],
+   "galeriaEm": [
+    0,
+    "esqueleto",
+    "LZ",
+    "Friedrichshafen",
+    "Faltava"
+   ],
+   "fontes": [
+    "Britannica"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O SONHO DO CONDE",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1890",
+       "Deixa o exército"
+      ],
+      [
+       "1900",
+       "Voo do LZ 1"
+      ]
+     ],
+     "em": "Foi",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "guerra",
+   "texto": "A prova veio por um caminho sombrio. Na Primeira Guerra Mundial, a Alemanha usou zepelins para bombardear Londres, a partir de mil novecentos e quinze. Eram alvos fáceis para os aviões, e os ataques perderam força. Mesmo assim, ficou uma herança: técnicos, hangares e a certeza de que dava para cruzar grandes distâncias com uma estrutura rígida. Antes da guerra, aliás, a empresa DELAG, criada em mil novecentos e nove, já tinha sido a primeira companhia aérea do mundo. Faltava um dirigível à altura da paz.",
+   "galeria": [
+    "raid-londres",
+    "sl11",
+    "hangar-fn",
+    "delag",
+    "bodensee"
+   ],
+   "galeriaEm": [
+    0,
+    "Eram",
+    "hangares",
+    "DELAG",
+    "Faltava"
+   ],
+   "fontes": [
+    "Britannica",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "definicao",
+     "palavra": "DELAG",
+     "significado": "Primeira companhia aérea do mundo (1909)",
+     "em": "DELAG",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "graf",
+   "texto": "Em mil novecentos e vinte e oito, voou o LZ 127, o Graf Zeppelin. Com duzentos e trinta e seis metros, era mais comprido que muitos transatlânticos. Em agosto de mil novecentos e vinte e nove, deu a volta ao mundo em pouco mais de vinte e um dias de voo, com paradas em Tóquio e Los Angeles. Depois passou a ligar a Alemanha ao Recife e ao Rio de Janeiro, e o Brasil ganhou hangares que ainda estão de pé. Era elegante, silencioso e, sobretudo, confiável.",
+   "galeria": [
+    "graf-1928",
+    "graf-comprimento",
+    "graf-mapa",
+    "graf-toquio",
+    "graf-la",
+    "graf-recife",
+    "hangar-santacruz"
+   ],
+   "galeriaEm": [
+    0,
+    "Com",
+    "agosto",
+    "Tóquio",
+    "Los",
+    "Recife",
+    "hangares"
+   ],
+   "fontes": [
+    "Britannica",
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "A ERA DE OURO",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "mapa",
+     "de": "Friedrichshafen",
+     "para": "Los Angeles",
+     "legenda": "Volta ao mundo, 1929",
+     "em": "agosto",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "luxo",
+   "texto": "Voar neles era um luxo. Nos grandes zepelins, até setenta e dois passageiros dormiam em cabines, jantavam com talheres de prata e olhavam o mar por janelas amplas. A travessia do Atlântico levava de dois a três dias, contra cerca de cinco nos navios. Mas o conforto tinha preço: a passagem de ida custava cerca de quatrocentos dólares, quase o valor de um carro novo. E isso apontava para uma fragilidade escondida no negócio.",
+   "galeria": [
+    "salao",
+    "cabine",
+    "jantar",
+    "janelas",
+    "oceano",
+    "cartaz"
+   ],
+   "galeriaEm": [
+    0,
+    "cabines",
+    "jantavam",
+    "janelas",
+    "travessia",
+    "passagem"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 400,
+     "unidade": "US$",
+     "rotulo": "passagem de ida, 1936",
+     "em": "quatrocentos",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "hindenburg",
+   "texto": "Em março de mil novecentos e trinta e seis, o LZ 129 Hindenburg decolou pela primeira vez. Com duzentos e quarenta e cinco metros, foi a maior aeronave já construída. Por que usava hidrogênio, um gás inflamável? Porque os Estados Unidos, quase os únicos produtores de hélio, proibiam a exportação. Para a Alemanha nazista, o dirigível também era propaganda: levava a suástica na cauda e sobrevoou a abertura dos Jogos Olímpicos de Berlim. Funcionava. Mas a conta ainda não fechava.",
+   "galeria": [
+    "hind-construcao",
+    "hind-1936",
+    "hind-comparacao",
+    "hidrogenio",
+    "helio",
+    "hind-suastica",
+    "hind-olimpiadas"
+   ],
+   "galeriaEm": [
+    0,
+    "decolou",
+    "Com",
+    "hidrogênio",
+    "hélio",
+    "propaganda",
+    "Olímpicos"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "Britannica"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O MAIOR DE TODOS",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 245,
+     "unidade": "m",
+     "rotulo": "comprimento do Hindenburg",
+     "em": "duzentos",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "conta",
+   "texto": "Mesmo assim, mil novecentos e trinta e seis foi um ano de sucesso: dez viagens de ida e volta para os Estados Unidos e várias para o Brasil. Por trás do brilho, havia uma conta difícil. Cada voo exigia cerca de sessenta tripulantes para pouco mais de setenta passageiros, além de hangares gigantes e de uma equipe enorme em terra. Já os aviões ficavam mais baratos e mais rápidos a cada ano. O dirigível, não. E faltava só um empurrão para que a dúvida virasse desconfiança.",
+   "galeria": [
+    "hind-pouso",
+    "hind-rio",
+    "hind-ponte",
+    "hangar-lakehurst",
+    "equipe-solo",
+    "dc2"
+   ],
+   "galeriaEm": [
+    0,
+    "Brasil",
+    "tripulantes",
+    "hangares",
+    "equipe",
+    "aviões"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 61,
+     "unidade": "pessoas",
+     "rotulo": "de tripulação para ~70 passageiros",
+     "em": "sessenta",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "outros",
+   "texto": "O Hindenburg não foi o primeiro a cair. Em outubro de mil novecentos e trinta, o R101, dirigível britânico, bateu na França e matou quarenta e oito das cinquenta e quatro pessoas a bordo. Em mil novecentos e trinta e três, o Akron, da Marinha americana, caiu no mar durante uma tempestade e matou setenta e três. E o Akron usava hélio. A fama de perigoso já existia. Só que o Hindenburg ia pousar diante das câmeras.",
+   "galeria": [
+    "r101",
+    "r101-queda",
+    "akron",
+    "akron-queda",
+    "hind-cameras"
+   ],
+   "galeriaEm": [
+    0,
+    "bateu",
+    "Marinha",
+    "tempestade",
+    "câmeras"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "Britannica"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1930",
+       "R101: 48 mortos"
+      ],
+      [
+       "1933",
+       "Akron: 73 mortos"
+      ],
+      [
+       "1937",
+       "Hindenburg"
+      ]
+     ],
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "lakehurst",
+   "texto": "Seis de maio de mil novecentos e trinta e sete, Lakehurst, Nova Jérsei. O Hindenburg chega com noventa e sete pessoas a bordo, atrasado por tempestades. Faltam poucos minutos para pousar. Então surge fogo perto da cauda. Em menos de um minuto, a estrutura inteira desaba no chão. Morrem trinta e seis pessoas: treze passageiros, vinte e dois tripulantes e um homem do solo. A rádio gravou a voz do repórter Herbert Morrison, e os cinejornais levaram as imagens ao mundo. Nunca um desastre tinha sido tão visto.",
+   "galeria": [
+    "nj-mapa",
+    "hind-aproximacao",
+    "hind-chamas",
+    "hind-queda",
+    "hind-destrocos"
+   ],
+   "galeriaEm": [
+    0,
+    "chega",
+    "fogo",
+    "desaba",
+    "Morrem"
+   ],
+   "fontes": [
+    "Britannica",
+    "History.com"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "6 DE MAIO DE 1937",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "contador",
+     "de": 0,
+     "ate": 36,
+     "unidade": "mortos",
+     "rotulo": "entre 97 pessoas a bordo",
+     "em": "Morrem",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "mito",
+   "texto": "A versão popular diz que o fogo de Lakehurst acabou com os dirigíveis. É meia verdade: o acidente foi o golpe final num sistema já frágil. A confiança do público ruiu, sim. Mas, antes do acidente, a empresa já enfrentava custos altos, dependência do hélio americano e a ameaça dos aviões. Em junho de mil novecentos e trinta e sete, o Graf Zeppelin foi aposentado. Em mil novecentos e quarenta, o governo nazista mandou desmontar os dois dirigíveis que restavam e demolir os hangares, para reaproveitar o metal na guerra.",
+   "galeria": [
+    "jornal-1937",
+    "memorial",
+    "graf-aposentado",
+    "lz130",
+    "demolicao"
+   ],
+   "galeriaEm": [
+    0,
+    "confiança",
+    "aposentado",
+    "dois",
+    "demolir"
+   ],
+   "fontes": [
+    "Wikipédia",
+    "Century of Flight"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "O MITO DO ACIDENTE",
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "avioes",
+   "texto": "Enquanto isso, os aviões evoluíam depressa. Em mil novecentos e trinta e cinco, voou o Douglas DC-3, barato e robusto. Em mil novecentos e trinta e nove, a Pan American começou a levar passageiros através do Atlântico com os hidroaviões Boeing 314, os Clippers. Eram mais lentos que o sonho, mas não precisavam de um hangar do tamanho de um estádio, nem de sessenta tripulantes. Depois da guerra, as pistas construídas para os bombardeiros decidiram a disputa. O jato fez o resto.",
+   "galeria": [
+    "dc3",
+    "clipper",
+    "hangar-cardington",
+    "pista",
+    "boeing707"
+   ],
+   "galeriaEm": [
+    0,
+    "Pan",
+    "hangar",
+    "pistas",
+    "jato"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "linha",
+     "itens": [
+      [
+       "1935",
+       "DC-3"
+      ],
+      [
+       "1939",
+       "Clipper"
+      ],
+      [
+       "1958",
+       "Boeing 707"
+      ]
+     ],
+     "em": 0,
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "hoje",
+   "texto": "E os dirigíveis morreram de vez? Não. O Zeppelin NT, que voou pela primeira vez em mil novecentos e noventa e sete, ainda faz passeios turísticos sobre o lago de Constança, onde tudo começou. A empresa britânica Hybrid Air Vehicles testa o Airlander 10, de noventa e dois metros, que ganha parte da sustentação pelo formato do casco. E a francesa Flying Whales projeta um dirigível de carga de duzentos metros, para levar até sessenta toneladas a lugares sem estrada. A aposta agora não é o luxo do Atlântico, e sim o que o avião não faz bem.",
+   "galeria": [
+    "zeppelin-nt",
+    "nt-constanca",
+    "airlander",
+    "airlander-voo",
+    "flying-whales",
+    "carga-estrada"
+   ],
+   "galeriaEm": [
+    0,
+    "passeios",
+    "Airlander",
+    "casco",
+    "Flying",
+    "toneladas"
+   ],
+   "fontes": [
+    "Wikipédia"
+   ],
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "E HOJE?",
+     "em": 0,
+     "posicao": "alto"
+    },
+    {
+     "tipo": "definicao",
+     "palavra": "Dirigível híbrido",
+     "significado": "Parte da sustentação vem do formato do casco",
+     "em": "Airlander",
+     "posicao": "alto"
+    }
+   ]
+  },
+  {
+   "id": "desfecho",
+   "texto": "Então, o que aconteceu com os dirigíveis? O fogo de Lakehurst foi o fim da confiança, não da lógica. Eles perderam para o avião em custo, velocidade e infraestrutura, e o acidente apenas escolheu o dia do adeus. Hoje, o hélio e os materiais leves mudam a conta em nichos como carga pesada e turismo. O sonho do conde Zeppelin nunca foi voar rápido. Era voar com grandeza. Tecnologia raramente desaparece por um único erro: ela sai de cena quando surge um jeito mais barato e mais simples de fazer a mesma tarefa. Talvez a pressa que o derrotou seja a mesma que agora pede um céu mais lento.",
+   "galeria": [
+    "monumento",
+    "hind-ceu",
+    "nt-passageiros",
+    "nt-carga",
+    "dc3-fim",
+    "graf-nuvens"
+   ],
+   "galeriaEm": [
+    0,
+    "perderam",
+    "Hoje",
+    "nichos",
+    "Tecnologia",
+    "sonho"
+   ],
+   "fontes": [
+    "Britannica"
+   ],
+   "elementos": []
+  }
+ ],
+ "narracao": {
+  "gancho": {
+   "hash": "c8f8eaca55",
+   "texto": "O Graf Zeppelin voou mais de um milhão de quilômetros e nunca feriu um único passageiro. O Hindenburg pegou fogo e caiu em menos de um minuto. Mesmo assim, a história costuma culpar só o segundo. Será que um acidente basta para enterrar uma tecnologia inteira? Ou ela já estava com os dias contados antes das chamas? Ao longo desta viagem você vai ver o que os gigantes do ar realmente fizeram, por que perderam o céu e quem ainda tenta trazê-los de volta.",
+   "audio": "audio/gancho-c8f8eaca55.mp3",
+   "duracao": 28.192,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "Graf",
+     "i": 0.232,
+     "f": 0.597
+    },
+    {
+     "p": "Zeppelin",
+     "i": 0.61,
+     "f": 1.027
+    },
+    {
+     "p": "voou",
+     "i": 1.04,
+     "f": 1.326
+    },
+    {
+     "p": "mais",
+     "i": 1.339,
+     "f": 1.639
+    },
+    {
+     "p": "de",
+     "i": 1.652,
+     "f": 1.756
+    },
+    {
+     "p": "um",
+     "i": 1.769,
+     "f": 1.873
+    },
+    {
+     "p": "milhão",
+     "i": 1.886,
+     "f": 2.238
+    },
+    {
+     "p": "de",
+     "i": 2.251,
+     "f": 2.355
+    },
+    {
+     "p": "quilômetros",
+     "i": 2.368,
+     "f": 2.941
+    },
+    {
+     "p": "e",
+     "i": 2.954,
+     "f": 3.084
+    },
+    {
+     "p": "nunca",
+     "i": 3.097,
+     "f": 3.448
+    },
+    {
+     "p": "feriu",
+     "i": 3.461,
+     "f": 3.761
+    },
+    {
+     "p": "um",
+     "i": 3.774,
+     "f": 3.982
+    },
+    {
+     "p": "único",
+     "i": 3.995,
+     "f": 4.295
+    },
+    {
+     "p": "passageiro",
+     "i": 4.308,
+     "f": 4.959
+    },
+    {
+     "p": "O",
+     "i": 5.241,
+     "f": 5.332
+    },
+    {
+     "p": "Hindenburg",
+     "i": 5.345,
+     "f": 5.892
+    },
+    {
+     "p": "pegou",
+     "i": 5.905,
+     "f": 6.231
+    },
+    {
+     "p": "fogo",
+     "i": 6.244,
+     "f": 6.647
+    },
+    {
+     "p": "e",
+     "i": 6.66,
+     "f": 6.712
+    },
+    {
+     "p": "caiu",
+     "i": 6.725,
+     "f": 7.064
+    },
+    {
+     "p": "em",
+     "i": 7.077,
+     "f": 7.181
+    },
+    {
+     "p": "menos",
+     "i": 7.194,
+     "f": 7.572
+    },
+    {
+     "p": "de",
+     "i": 7.585,
+     "f": 7.676
+    },
+    {
+     "p": "um",
+     "i": 7.689,
+     "f": 7.78
+    },
+    {
+     "p": "minuto",
+     "i": 7.793,
+     "f": 8.236
+    },
+    {
+     "p": "Mesmo",
+     "i": 8.518,
+     "f": 8.896
+    },
+    {
+     "p": "assim",
+     "i": 8.909,
+     "f": 9.286
+    },
+    {
+     "p": "a",
+     "i": 9.599,
+     "f": 9.651
+    },
+    {
+     "p": "história",
+     "i": 9.664,
+     "f": 10.055
+    },
+    {
+     "p": "costuma",
+     "i": 10.068,
+     "f": 10.497
+    },
+    {
+     "p": "culpar",
+     "i": 10.51,
+     "f": 10.94
+    },
+    {
+     "p": "só",
+     "i": 10.953,
+     "f": 11.148
+    },
+    {
+     "p": "o",
+     "i": 11.161,
+     "f": 11.213
+    },
+    {
+     "p": "segundo",
+     "i": 11.226,
+     "f": 11.734
+    },
+    {
+     "p": "Será",
+     "i": 12.016,
+     "f": 12.42
+    },
+    {
+     "p": "que",
+     "i": 12.433,
+     "f": 12.524
+    },
+    {
+     "p": "um",
+     "i": 12.537,
+     "f": 12.654
+    },
+    {
+     "p": "acidente",
+     "i": 12.667,
+     "f": 13.175
+    },
+    {
+     "p": "basta",
+     "i": 13.188,
+     "f": 13.579
+    },
+    {
+     "p": "para",
+     "i": 13.592,
+     "f": 13.748
+    },
+    {
+     "p": "enterrar",
+     "i": 13.761,
+     "f": 14.165
+    },
+    {
+     "p": "uma",
+     "i": 14.178,
+     "f": 14.36
+    },
+    {
+     "p": "tecnologia",
+     "i": 14.373,
+     "f": 15.05
+    },
+    {
+     "p": "inteira",
+     "i": 15.063,
+     "f": 15.571
+    },
+    {
+     "p": "Ou",
+     "i": 15.913,
+     "f": 16.16
+    },
+    {
+     "p": "ela",
+     "i": 16.173,
+     "f": 16.382
+    },
+    {
+     "p": "já",
+     "i": 16.395,
+     "f": 16.512
+    },
+    {
+     "p": "estava",
+     "i": 16.525,
+     "f": 16.903
+    },
+    {
+     "p": "com",
+     "i": 16.916,
+     "f": 17.098
+    },
+    {
+     "p": "os",
+     "i": 17.111,
+     "f": 17.228
+    },
+    {
+     "p": "dias",
+     "i": 17.241,
+     "f": 17.515
+    },
+    {
+     "p": "contados",
+     "i": 17.528,
+     "f": 18.101
+    },
+    {
+     "p": "antes",
+     "i": 18.114,
+     "f": 18.478
+    },
+    {
+     "p": "das",
+     "i": 18.491,
+     "f": 18.66
+    },
+    {
+     "p": "chamas",
+     "i": 18.673,
+     "f": 19.181
+    },
+    {
+     "p": "Ao",
+     "i": 19.523,
+     "f": 19.705
+    },
+    {
+     "p": "longo",
+     "i": 19.718,
+     "f": 20.057
+    },
+    {
+     "p": "desta",
+     "i": 20.07,
+     "f": 20.356
+    },
+    {
+     "p": "viagem",
+     "i": 20.369,
+     "f": 20.799
+    },
+    {
+     "p": "você",
+     "i": 20.812,
+     "f": 21.099
+    },
+    {
+     "p": "vai",
+     "i": 21.112,
+     "f": 21.268
+    },
+    {
+     "p": "ver",
+     "i": 21.281,
+     "f": 21.515
+    },
+    {
+     "p": "o",
+     "i": 21.528,
+     "f": 21.58
+    },
+    {
+     "p": "que",
+     "i": 21.593,
+     "f": 21.672
+    },
+    {
+     "p": "os",
+     "i": 21.685,
+     "f": 21.763
+    },
+    {
+     "p": "gigantes",
+     "i": 21.776,
+     "f": 22.31
+    },
+    {
+     "p": "do",
+     "i": 22.323,
+     "f": 22.466
+    },
+    {
+     "p": "ar",
+     "i": 22.479,
+     "f": 22.648
+    },
+    {
+     "p": "realmente",
+     "i": 22.661,
+     "f": 23.26
+    },
+    {
+     "p": "fizeram",
+     "i": 23.273,
+     "f": 23.794
+    },
+    {
+     "p": "por",
+     "i": 24.145,
+     "f": 24.315
+    },
+    {
+     "p": "que",
+     "i": 24.328,
+     "f": 24.497
+    },
+    {
+     "p": "perderam",
+     "i": 24.51,
+     "f": 25.057
+    },
+    {
+     "p": "o",
+     "i": 25.07,
+     "f": 25.109
+    },
+    {
+     "p": "céu",
+     "i": 25.122,
+     "f": 25.474
+    },
+    {
+     "p": "e",
+     "i": 25.487,
+     "f": 25.539
+    },
+    {
+     "p": "quem",
+     "i": 25.552,
+     "f": 25.734
+    },
+    {
+     "p": "ainda",
+     "i": 25.747,
+     "f": 26.099
+    },
+    {
+     "p": "tenta",
+     "i": 26.112,
+     "f": 26.45
+    },
+    {
+     "p": "trazê-los",
+     "i": 26.463,
+     "f": 26.945
+    },
+    {
+     "p": "de",
+     "i": 26.958,
+     "f": 27.062
+    },
+    {
+     "p": "volta",
+     "i": 27.075,
+     "f": 27.492
+    }
+   ]
+  },
+  "conde": {
+   "hash": "6b63cfc9d5",
+   "texto": "Ferdinand von Zeppelin era um oficial de cavalaria alemão que deixou o exército aos cinquenta e dois anos. Foi então que decidiu construir aeronaves com esqueleto rígido de metal, cheias de gás. Em julho de mil e novecentos, o LZ 1 subiu sobre o lago de Constança, em Friedrichshafen. Era enorme, lento e frágil. Os investidores sumiram, e o conde gastou a própria fortuna. Mas a ideia tinha um trunfo: a estrutura rígida permitia crescer sem limite. Faltava provar que aquilo servia para mais que espetáculo.",
+   "audio": "audio/conde-6b63cfc9d5.mp3",
+   "duracao": 32.795,
+   "palavras": [
+    {
+     "p": "Ferdinand",
+     "i": 0.102,
+     "f": 0.714
+    },
+    {
+     "p": "von",
+     "i": 0.727,
+     "f": 0.896
+    },
+    {
+     "p": "Zeppelin",
+     "i": 0.909,
+     "f": 1.43
+    },
+    {
+     "p": "era",
+     "i": 1.443,
+     "f": 1.573
+    },
+    {
+     "p": "um",
+     "i": 1.586,
+     "f": 1.639
+    },
+    {
+     "p": "oficial",
+     "i": 1.652,
+     "f": 2.211
+    },
+    {
+     "p": "de",
+     "i": 2.224,
+     "f": 2.316
+    },
+    {
+     "p": "cavalaria",
+     "i": 2.329,
+     "f": 2.836
+    },
+    {
+     "p": "alemão",
+     "i": 2.849,
+     "f": 3.266
+    },
+    {
+     "p": "que",
+     "i": 3.279,
+     "f": 3.396
+    },
+    {
+     "p": "deixou",
+     "i": 3.409,
+     "f": 3.774
+    },
+    {
+     "p": "o",
+     "i": 3.787,
+     "f": 3.865
+    },
+    {
+     "p": "exército",
+     "i": 3.878,
+     "f": 4.451
+    },
+    {
+     "p": "aos",
+     "i": 4.464,
+     "f": 4.62
+    },
+    {
+     "p": "cinquenta",
+     "i": 4.633,
+     "f": 5.115
+    },
+    {
+     "p": "e",
+     "i": 5.128,
+     "f": 5.154
+    },
+    {
+     "p": "dois",
+     "i": 5.167,
+     "f": 5.31
+    },
+    {
+     "p": "anos",
+     "i": 5.323,
+     "f": 5.844
+    },
+    {
+     "p": "Foi",
+     "i": 6.126,
+     "f": 6.321
+    },
+    {
+     "p": "então",
+     "i": 6.334,
+     "f": 6.738
+    },
+    {
+     "p": "que",
+     "i": 6.751,
+     "f": 6.829
+    },
+    {
+     "p": "decidiu",
+     "i": 6.842,
+     "f": 7.285
+    },
+    {
+     "p": "construir",
+     "i": 7.298,
+     "f": 7.78
+    },
+    {
+     "p": "aeronaves",
+     "i": 7.793,
+     "f": 8.405
+    },
+    {
+     "p": "com",
+     "i": 8.418,
+     "f": 8.561
+    },
+    {
+     "p": "esqueleto",
+     "i": 8.574,
+     "f": 9.095
+    },
+    {
+     "p": "rígido",
+     "i": 9.108,
+     "f": 9.472
+    },
+    {
+     "p": "de",
+     "i": 9.485,
+     "f": 9.577
+    },
+    {
+     "p": "metal",
+     "i": 9.59,
+     "f": 10.045
+    },
+    {
+     "p": "cheias",
+     "i": 10.358,
+     "f": 10.748
+    },
+    {
+     "p": "de",
+     "i": 10.761,
+     "f": 10.866
+    },
+    {
+     "p": "gás",
+     "i": 10.879,
+     "f": 11.334
+    },
+    {
+     "p": "Em",
+     "i": 11.616,
+     "f": 11.785
+    },
+    {
+     "p": "julho",
+     "i": 11.798,
+     "f": 12.163
+    },
+    {
+     "p": "de",
+     "i": 12.176,
+     "f": 12.28
+    },
+    {
+     "p": "mil",
+     "i": 12.293,
+     "f": 12.449
+    },
+    {
+     "p": "e",
+     "i": 12.462,
+     "f": 12.488
+    },
+    {
+     "p": "novecentos",
+     "i": 12.502,
+     "f": 13.244
+    },
+    {
+     "p": "o",
+     "i": 13.517,
+     "f": 13.608
+    },
+    {
+     "p": "LZ",
+     "i": 13.621,
+     "f": 14.025
+    },
+    {
+     "p": "1 subiu",
+     "i": 14.038,
+     "f": 14.533
+    },
+    {
+     "p": "sobre",
+     "i": 14.546,
+     "f": 14.819
+    },
+    {
+     "p": "o",
+     "i": 14.832,
+     "f": 14.858
+    },
+    {
+     "p": "lago",
+     "i": 14.871,
+     "f": 15.184
+    },
+    {
+     "p": "de",
+     "i": 15.197,
+     "f": 15.275
+    },
+    {
+     "p": "Constança",
+     "i": 15.288,
+     "f": 15.939
+    },
+    {
+     "p": "em",
+     "i": 16.186,
+     "f": 16.304
+    },
+    {
+     "p": "Friedrichshafen",
+     "i": 16.317,
+     "f": 17.267
+    },
+    {
+     "p": "Era",
+     "i": 17.549,
+     "f": 17.77
+    },
+    {
+     "p": "enorme",
+     "i": 17.783,
+     "f": 18.278
+    },
+    {
+     "p": "lento",
+     "i": 18.539,
+     "f": 18.864
+    },
+    {
+     "p": "e",
+     "i": 18.877,
+     "f": 18.916
+    },
+    {
+     "p": "frágil",
+     "i": 18.929,
+     "f": 19.45
+    },
+    {
+     "p": "Os",
+     "i": 19.732,
+     "f": 19.862
+    },
+    {
+     "p": "investidores",
+     "i": 19.875,
+     "f": 20.735
+    },
+    {
+     "p": "sumiram",
+     "i": 20.748,
+     "f": 21.203
+    },
+    {
+     "p": "e",
+     "i": 21.49,
+     "f": 21.581
+    },
+    {
+     "p": "o",
+     "i": 21.594,
+     "f": 21.646
+    },
+    {
+     "p": "conde",
+     "i": 21.659,
+     "f": 21.959
+    },
+    {
+     "p": "gastou",
+     "i": 21.972,
+     "f": 22.375
+    },
+    {
+     "p": "a",
+     "i": 22.388,
+     "f": 22.466
+    },
+    {
+     "p": "própria",
+     "i": 22.479,
+     "f": 22.87
+    },
+    {
+     "p": "fortuna",
+     "i": 22.883,
+     "f": 23.495
+    },
+    {
+     "p": "Mas",
+     "i": 23.777,
+     "f": 23.998
+    },
+    {
+     "p": "a",
+     "i": 24.011,
+     "f": 24.129
+    },
+    {
+     "p": "ideia",
+     "i": 24.142,
+     "f": 24.532
+    },
+    {
+     "p": "tinha",
+     "i": 24.545,
+     "f": 24.78
+    },
+    {
+     "p": "um",
+     "i": 24.793,
+     "f": 24.884
+    },
+    {
+     "p": "trunfo",
+     "i": 24.897,
+     "f": 25.314
+    },
+    {
+     "p": "a",
+     "i": 25.587,
+     "f": 25.704
+    },
+    {
+     "p": "estrutura",
+     "i": 25.717,
+     "f": 26.264
+    },
+    {
+     "p": "rígida",
+     "i": 26.277,
+     "f": 26.681
+    },
+    {
+     "p": "permitia",
+     "i": 26.694,
+     "f": 27.176
+    },
+    {
+     "p": "crescer",
+     "i": 27.189,
+     "f": 27.618
+    },
+    {
+     "p": "sem",
+     "i": 27.631,
+     "f": 27.892
+    },
+    {
+     "p": "limite",
+     "i": 27.905,
+     "f": 28.413
+    },
+    {
+     "p": "Faltava",
+     "i": 28.695,
+     "f": 29.268
+    },
+    {
+     "p": "provar",
+     "i": 29.281,
+     "f": 29.711
+    },
+    {
+     "p": "que",
+     "i": 29.724,
+     "f": 29.815
+    },
+    {
+     "p": "aquilo",
+     "i": 29.828,
+     "f": 30.179
+    },
+    {
+     "p": "servia",
+     "i": 30.192,
+     "f": 30.726
+    },
+    {
+     "p": "para",
+     "i": 30.739,
+     "f": 30.935
+    },
+    {
+     "p": "mais",
+     "i": 30.948,
+     "f": 31.26
+    },
+    {
+     "p": "que",
+     "i": 31.273,
+     "f": 31.351
+    },
+    {
+     "p": "espetáculo",
+     "i": 31.364,
+     "f": 32.094
+    }
+   ]
+  },
+  "guerra": {
+   "hash": "6cce13907f",
+   "texto": "A prova veio por um caminho sombrio. Na Primeira Guerra Mundial, a Alemanha usou zepelins para bombardear Londres, a partir de mil novecentos e quinze. Eram alvos fáceis para os aviões, e os ataques perderam força. Mesmo assim, ficou uma herança: técnicos, hangares e a certeza de que dava para cruzar grandes distâncias com uma estrutura rígida. Antes da guerra, aliás, a empresa DELAG, criada em mil novecentos e nove, já tinha sido a primeira companhia aérea do mundo. Faltava um dirigível à altura da paz.",
+   "audio": "audio/guerra-6cce13907f.mp3",
+   "duracao": 33.073,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.245
+    },
+    {
+     "p": "prova",
+     "i": 0.258,
+     "f": 0.649
+    },
+    {
+     "p": "veio",
+     "i": 0.662,
+     "f": 0.962
+    },
+    {
+     "p": "por",
+     "i": 0.975,
+     "f": 1.105
+    },
+    {
+     "p": "um",
+     "i": 1.118,
+     "f": 1.183
+    },
+    {
+     "p": "caminho",
+     "i": 1.196,
+     "f": 1.547
+    },
+    {
+     "p": "sombrio",
+     "i": 1.56,
+     "f": 2.12
+    },
+    {
+     "p": "Na",
+     "i": 2.402,
+     "f": 2.597
+    },
+    {
+     "p": "Primeira",
+     "i": 2.61,
+     "f": 2.988
+    },
+    {
+     "p": "Guerra",
+     "i": 3.001,
+     "f": 3.274
+    },
+    {
+     "p": "Mundial",
+     "i": 3.288,
+     "f": 3.886
+    },
+    {
+     "p": "a",
+     "i": 4.147,
+     "f": 4.225
+    },
+    {
+     "p": "Alemanha",
+     "i": 4.238,
+     "f": 4.733
+    },
+    {
+     "p": "usou",
+     "i": 4.746,
+     "f": 5.058
+    },
+    {
+     "p": "zepelins",
+     "i": 5.071,
+     "f": 5.592
+    },
+    {
+     "p": "para",
+     "i": 5.605,
+     "f": 5.774
+    },
+    {
+     "p": "bombardear",
+     "i": 5.787,
+     "f": 6.386
+    },
+    {
+     "p": "Londres",
+     "i": 6.399,
+     "f": 6.933
+    },
+    {
+     "p": "a",
+     "i": 7.168,
+     "f": 7.246
+    },
+    {
+     "p": "partir",
+     "i": 7.259,
+     "f": 7.649
+    },
+    {
+     "p": "de",
+     "i": 7.662,
+     "f": 7.767
+    },
+    {
+     "p": "mil",
+     "i": 7.78,
+     "f": 7.949
+    },
+    {
+     "p": "novecentos",
+     "i": 7.962,
+     "f": 8.574
+    },
+    {
+     "p": "e",
+     "i": 8.587,
+     "f": 8.717
+    },
+    {
+     "p": "quinze",
+     "i": 8.73,
+     "f": 9.173
+    },
+    {
+     "p": "Eram",
+     "i": 9.455,
+     "f": 9.807
+    },
+    {
+     "p": "alvos",
+     "i": 9.82,
+     "f": 10.184
+    },
+    {
+     "p": "fáceis",
+     "i": 10.197,
+     "f": 10.653
+    },
+    {
+     "p": "para",
+     "i": 10.666,
+     "f": 10.822
+    },
+    {
+     "p": "os",
+     "i": 10.835,
+     "f": 10.861
+    },
+    {
+     "p": "aviões",
+     "i": 10.874,
+     "f": 11.525
+    },
+    {
+     "p": "e",
+     "i": 11.799,
+     "f": 11.877
+    },
+    {
+     "p": "os",
+     "i": 11.89,
+     "f": 11.929
+    },
+    {
+     "p": "ataques",
+     "i": 11.942,
+     "f": 12.528
+    },
+    {
+     "p": "perderam",
+     "i": 12.541,
+     "f": 13.036
+    },
+    {
+     "p": "força",
+     "i": 13.049,
+     "f": 13.505
+    },
+    {
+     "p": "Mesmo",
+     "i": 13.787,
+     "f": 14.152
+    },
+    {
+     "p": "assim",
+     "i": 14.165,
+     "f": 14.529
+    },
+    {
+     "p": "ficou",
+     "i": 14.816,
+     "f": 15.141
+    },
+    {
+     "p": "uma",
+     "i": 15.154,
+     "f": 15.258
+    },
+    {
+     "p": "herança",
+     "i": 15.271,
+     "f": 15.727
+    },
+    {
+     "p": "técnicos",
+     "i": 15.949,
+     "f": 16.534
+    },
+    {
+     "p": "hangares",
+     "i": 16.795,
+     "f": 17.238
+    },
+    {
+     "p": "e",
+     "i": 17.251,
+     "f": 17.355
+    },
+    {
+     "p": "a",
+     "i": 17.368,
+     "f": 17.42
+    },
+    {
+     "p": "certeza",
+     "i": 17.433,
+     "f": 17.967
+    },
+    {
+     "p": "de",
+     "i": 17.98,
+     "f": 18.071
+    },
+    {
+     "p": "que",
+     "i": 18.084,
+     "f": 18.188
+    },
+    {
+     "p": "dava",
+     "i": 18.201,
+     "f": 18.475
+    },
+    {
+     "p": "para",
+     "i": 18.488,
+     "f": 18.683
+    },
+    {
+     "p": "cruzar",
+     "i": 18.696,
+     "f": 19.139
+    },
+    {
+     "p": "grandes",
+     "i": 19.152,
+     "f": 19.568
+    },
+    {
+     "p": "distâncias",
+     "i": 19.581,
+     "f": 20.206
+    },
+    {
+     "p": "com",
+     "i": 20.219,
+     "f": 20.376
+    },
+    {
+     "p": "uma",
+     "i": 20.389,
+     "f": 20.48
+    },
+    {
+     "p": "estrutura",
+     "i": 20.493,
+     "f": 21.001
+    },
+    {
+     "p": "rígida",
+     "i": 21.014,
+     "f": 21.482
+    },
+    {
+     "p": "Antes",
+     "i": 21.765,
+     "f": 22.117
+    },
+    {
+     "p": "da",
+     "i": 22.13,
+     "f": 22.26
+    },
+    {
+     "p": "guerra",
+     "i": 22.273,
+     "f": 22.703
+    },
+    {
+     "p": "aliás",
+     "i": 22.846,
+     "f": 23.445
+    },
+    {
+     "p": "a",
+     "i": 23.705,
+     "f": 23.77
+    },
+    {
+     "p": "empresa",
+     "i": 23.783,
+     "f": 24.33
+    },
+    {
+     "p": "DELAG",
+     "i": 24.343,
+     "f": 24.76
+    },
+    {
+     "p": "criada",
+     "i": 24.929,
+     "f": 25.385
+    },
+    {
+     "p": "em",
+     "i": 25.398,
+     "f": 25.463
+    },
+    {
+     "p": "mil",
+     "i": 25.476,
+     "f": 25.632
+    },
+    {
+     "p": "novecentos",
+     "i": 25.645,
+     "f": 26.205
+    },
+    {
+     "p": "e",
+     "i": 26.218,
+     "f": 26.322
+    },
+    {
+     "p": "nove",
+     "i": 26.335,
+     "f": 26.713
+    },
+    {
+     "p": "já",
+     "i": 27.065,
+     "f": 27.234
+    },
+    {
+     "p": "tinha",
+     "i": 27.247,
+     "f": 27.546
+    },
+    {
+     "p": "sido",
+     "i": 27.559,
+     "f": 27.859
+    },
+    {
+     "p": "a",
+     "i": 27.872,
+     "f": 27.924
+    },
+    {
+     "p": "primeira",
+     "i": 27.937,
+     "f": 28.302
+    },
+    {
+     "p": "companhia",
+     "i": 28.315,
+     "f": 28.835
+    },
+    {
+     "p": "aérea",
+     "i": 28.848,
+     "f": 29.161
+    },
+    {
+     "p": "do",
+     "i": 29.174,
+     "f": 29.278
+    },
+    {
+     "p": "mundo",
+     "i": 29.291,
+     "f": 29.656
+    },
+    {
+     "p": "Faltava",
+     "i": 29.938,
+     "f": 30.55
+    },
+    {
+     "p": "um",
+     "i": 30.563,
+     "f": 30.641
+    },
+    {
+     "p": "dirigível",
+     "i": 30.654,
+     "f": 31.305
+    },
+    {
+     "p": "à",
+     "i": 31.318,
+     "f": 31.331
+    },
+    {
+     "p": "altura",
+     "i": 31.344,
+     "f": 31.748
+    },
+    {
+     "p": "da",
+     "i": 31.761,
+     "f": 31.891
+    },
+    {
+     "p": "paz",
+     "i": 31.904,
+     "f": 32.373
+    }
+   ]
+  },
+  "graf": {
+   "hash": "fb4b8cc1e5",
+   "texto": "Em mil novecentos e vinte e oito, voou o LZ 127, o Graf Zeppelin. Com duzentos e trinta e seis metros, era mais comprido que muitos transatlânticos. Em agosto de mil novecentos e vinte e nove, deu a volta ao mundo em pouco mais de vinte e um dias de voo, com paradas em Tóquio e Los Angeles. Depois passou a ligar a Alemanha ao Recife e ao Rio de Janeiro, e o Brasil ganhou hangares que ainda estão de pé. Era elegante, silencioso e, sobretudo, confiável.",
+   "audio": "audio/graf-fb4b8cc1e5.mp3",
+   "duracao": 30.382,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.271
+    },
+    {
+     "p": "mil",
+     "i": 0.284,
+     "f": 0.428
+    },
+    {
+     "p": "novecentos",
+     "i": 0.441,
+     "f": 1.04
+    },
+    {
+     "p": "e",
+     "i": 1.053,
+     "f": 1.17
+    },
+    {
+     "p": "vinte",
+     "i": 1.183,
+     "f": 1.404
+    },
+    {
+     "p": "e",
+     "i": 1.417,
+     "f": 1.443
+    },
+    {
+     "p": "oito",
+     "i": 1.456,
+     "f": 1.73
+    },
+    {
+     "p": "voou",
+     "i": 2.094,
+     "f": 2.459
+    },
+    {
+     "p": "o",
+     "i": 2.472,
+     "f": 2.537
+    },
+    {
+     "p": "LZ",
+     "i": 2.55,
+     "f": 2.967
+    },
+    {
+     "p": "127",
+     "i": 2.98,
+     "f": 4.165
+    },
+    {
+     "p": "o",
+     "i": 4.399,
+     "f": 4.477
+    },
+    {
+     "p": "Graf",
+     "i": 4.49,
+     "f": 4.881
+    },
+    {
+     "p": "Zeppelin",
+     "i": 4.894,
+     "f": 5.415
+    },
+    {
+     "p": "Com",
+     "i": 5.697,
+     "f": 5.866
+    },
+    {
+     "p": "duzentos",
+     "i": 5.879,
+     "f": 6.374
+    },
+    {
+     "p": "e",
+     "i": 6.387,
+     "f": 6.53
+    },
+    {
+     "p": "trinta",
+     "i": 6.543,
+     "f": 6.765
+    },
+    {
+     "p": "e",
+     "i": 6.778,
+     "f": 6.817
+    },
+    {
+     "p": "seis",
+     "i": 6.83,
+     "f": 7.051
+    },
+    {
+     "p": "metros",
+     "i": 7.064,
+     "f": 7.533
+    },
+    {
+     "p": "era",
+     "i": 7.793,
+     "f": 7.95
+    },
+    {
+     "p": "mais",
+     "i": 7.963,
+     "f": 8.197
+    },
+    {
+     "p": "comprido",
+     "i": 8.21,
+     "f": 8.718
+    },
+    {
+     "p": "que",
+     "i": 8.731,
+     "f": 8.835
+    },
+    {
+     "p": "muitos",
+     "i": 8.848,
+     "f": 9.343
+    },
+    {
+     "p": "transatlânticos",
+     "i": 9.356,
+     "f": 10.346
+    },
+    {
+     "p": "Em",
+     "i": 10.628,
+     "f": 10.81
+    },
+    {
+     "p": "agosto",
+     "i": 10.823,
+     "f": 11.344
+    },
+    {
+     "p": "de",
+     "i": 11.357,
+     "f": 11.461
+    },
+    {
+     "p": "mil",
+     "i": 11.474,
+     "f": 11.618
+    },
+    {
+     "p": "novecentos",
+     "i": 11.631,
+     "f": 12.217
+    },
+    {
+     "p": "e",
+     "i": 12.23,
+     "f": 12.347
+    },
+    {
+     "p": "vinte",
+     "i": 12.36,
+     "f": 12.581
+    },
+    {
+     "p": "e",
+     "i": 12.594,
+     "f": 12.607
+    },
+    {
+     "p": "nove",
+     "i": 12.62,
+     "f": 12.972
+    },
+    {
+     "p": "deu",
+     "i": 13.232,
+     "f": 13.454
+    },
+    {
+     "p": "a",
+     "i": 13.467,
+     "f": 13.545
+    },
+    {
+     "p": "volta",
+     "i": 13.558,
+     "f": 13.883
+    },
+    {
+     "p": "ao",
+     "i": 13.896,
+     "f": 13.974
+    },
+    {
+     "p": "mundo",
+     "i": 13.987,
+     "f": 14.313
+    },
+    {
+     "p": "em",
+     "i": 14.326,
+     "f": 14.417
+    },
+    {
+     "p": "pouco",
+     "i": 14.43,
+     "f": 14.756
+    },
+    {
+     "p": "mais",
+     "i": 14.769,
+     "f": 15.029
+    },
+    {
+     "p": "de",
+     "i": 15.042,
+     "f": 15.133
+    },
+    {
+     "p": "vinte",
+     "i": 15.146,
+     "f": 15.407
+    },
+    {
+     "p": "e",
+     "i": 15.42,
+     "f": 15.433
+    },
+    {
+     "p": "um",
+     "i": 15.446,
+     "f": 15.563
+    },
+    {
+     "p": "dias",
+     "i": 15.576,
+     "f": 15.888
+    },
+    {
+     "p": "de",
+     "i": 15.902,
+     "f": 16.006
+    },
+    {
+     "p": "voo",
+     "i": 16.019,
+     "f": 16.37
+    },
+    {
+     "p": "com",
+     "i": 16.683,
+     "f": 16.865
+    },
+    {
+     "p": "paradas",
+     "i": 16.878,
+     "f": 17.269
+    },
+    {
+     "p": "em",
+     "i": 17.282,
+     "f": 17.477
+    },
+    {
+     "p": "Tóquio",
+     "i": 17.49,
+     "f": 17.933
+    },
+    {
+     "p": "e",
+     "i": 17.946,
+     "f": 18.011
+    },
+    {
+     "p": "Los",
+     "i": 18.024,
+     "f": 18.193
+    },
+    {
+     "p": "Angeles",
+     "i": 18.206,
+     "f": 18.883
+    },
+    {
+     "p": "Depois",
+     "i": 19.165,
+     "f": 19.66
+    },
+    {
+     "p": "passou",
+     "i": 19.673,
+     "f": 20.037
+    },
+    {
+     "p": "a",
+     "i": 20.051,
+     "f": 20.09
+    },
+    {
+     "p": "ligar",
+     "i": 20.103,
+     "f": 20.441
+    },
+    {
+     "p": "a",
+     "i": 20.454,
+     "f": 20.48
+    },
+    {
+     "p": "Alemanha",
+     "i": 20.493,
+     "f": 20.962
+    },
+    {
+     "p": "ao",
+     "i": 20.975,
+     "f": 21.04
+    },
+    {
+     "p": "Recife",
+     "i": 21.053,
+     "f": 21.587
+    },
+    {
+     "p": "e",
+     "i": 21.6,
+     "f": 21.639
+    },
+    {
+     "p": "ao",
+     "i": 21.652,
+     "f": 21.756
+    },
+    {
+     "p": "Rio",
+     "i": 21.769,
+     "f": 21.952
+    },
+    {
+     "p": "de",
+     "i": 21.965,
+     "f": 22.043
+    },
+    {
+     "p": "Janeiro",
+     "i": 22.056,
+     "f": 22.55
+    },
+    {
+     "p": "e",
+     "i": 22.863,
+     "f": 22.941
+    },
+    {
+     "p": "o",
+     "i": 22.954,
+     "f": 22.98
+    },
+    {
+     "p": "Brasil",
+     "i": 22.993,
+     "f": 23.449
+    },
+    {
+     "p": "ganhou",
+     "i": 23.462,
+     "f": 23.748
+    },
+    {
+     "p": "hangares",
+     "i": 23.761,
+     "f": 24.243
+    },
+    {
+     "p": "que",
+     "i": 24.256,
+     "f": 24.36
+    },
+    {
+     "p": "ainda",
+     "i": 24.373,
+     "f": 24.634
+    },
+    {
+     "p": "estão",
+     "i": 24.647,
+     "f": 24.907
+    },
+    {
+     "p": "de",
+     "i": 24.92,
+     "f": 25.024
+    },
+    {
+     "p": "pé",
+     "i": 25.037,
+     "f": 25.311
+    },
+    {
+     "p": "Era",
+     "i": 25.593,
+     "f": 25.814
+    },
+    {
+     "p": "elegante",
+     "i": 25.827,
+     "f": 26.387
+    },
+    {
+     "p": "silencioso",
+     "i": 26.661,
+     "f": 27.533
+    },
+    {
+     "p": "e",
+     "i": 27.546,
+     "f": 27.663
+    },
+    {
+     "p": "sobretudo",
+     "i": 27.95,
+     "f": 28.679
+    },
+    {
+     "p": "confiável",
+     "i": 28.913,
+     "f": 29.682
+    }
+   ]
+  },
+  "luxo": {
+   "hash": "e00f552fe2",
+   "texto": "Voar neles era um luxo. Nos grandes zepelins, até setenta e dois passageiros dormiam em cabines, jantavam com talheres de prata e olhavam o mar por janelas amplas. A travessia do Atlântico levava de dois a três dias, contra cerca de cinco nos navios. Mas o conforto tinha preço: a passagem de ida custava cerca de quatrocentos dólares, quase o valor de um carro novo. E isso apontava para uma fragilidade escondida no negócio.",
+   "audio": "audio/luxo-e00f552fe2.mp3",
+   "duracao": 27.66,
+   "palavras": [
+    {
+     "p": "Voar",
+     "i": 0.102,
+     "f": 0.558
+    },
+    {
+     "p": "neles",
+     "i": 0.571,
+     "f": 0.792
+    },
+    {
+     "p": "era",
+     "i": 0.805,
+     "f": 1.014
+    },
+    {
+     "p": "um",
+     "i": 1.027,
+     "f": 1.131
+    },
+    {
+     "p": "luxo",
+     "i": 1.144,
+     "f": 1.534
+    },
+    {
+     "p": "Nos",
+     "i": 1.816,
+     "f": 2.063
+    },
+    {
+     "p": "grandes",
+     "i": 2.076,
+     "f": 2.48
+    },
+    {
+     "p": "zepelins",
+     "i": 2.493,
+     "f": 3.118
+    },
+    {
+     "p": "até",
+     "i": 3.405,
+     "f": 3.613
+    },
+    {
+     "p": "setenta",
+     "i": 3.626,
+     "f": 4.069
+    },
+    {
+     "p": "e",
+     "i": 4.082,
+     "f": 4.108
+    },
+    {
+     "p": "dois",
+     "i": 4.121,
+     "f": 4.303
+    },
+    {
+     "p": "passageiros",
+     "i": 4.316,
+     "f": 4.967
+    },
+    {
+     "p": "dormiam",
+     "i": 4.98,
+     "f": 5.436
+    },
+    {
+     "p": "em",
+     "i": 5.449,
+     "f": 5.501
+    },
+    {
+     "p": "cabines",
+     "i": 5.514,
+     "f": 6.074
+    },
+    {
+     "p": "jantavam",
+     "i": 6.295,
+     "f": 6.933
+    },
+    {
+     "p": "com",
+     "i": 6.946,
+     "f": 7.129
+    },
+    {
+     "p": "talheres",
+     "i": 7.142,
+     "f": 7.532
+    },
+    {
+     "p": "de",
+     "i": 7.545,
+     "f": 7.662
+    },
+    {
+     "p": "prata",
+     "i": 7.675,
+     "f": 8.053
+    },
+    {
+     "p": "e",
+     "i": 8.066,
+     "f": 8.118
+    },
+    {
+     "p": "olhavam",
+     "i": 8.131,
+     "f": 8.574
+    },
+    {
+     "p": "o",
+     "i": 8.587,
+     "f": 8.613
+    },
+    {
+     "p": "mar",
+     "i": 8.626,
+     "f": 8.886
+    },
+    {
+     "p": "por",
+     "i": 8.899,
+     "f": 9.082
+    },
+    {
+     "p": "janelas",
+     "i": 9.095,
+     "f": 9.498
+    },
+    {
+     "p": "amplas",
+     "i": 9.511,
+     "f": 10.097
+    },
+    {
+     "p": "A",
+     "i": 10.379,
+     "f": 10.509
+    },
+    {
+     "p": "travessia",
+     "i": 10.522,
+     "f": 11.121
+    },
+    {
+     "p": "do",
+     "i": 11.134,
+     "f": 11.251
+    },
+    {
+     "p": "Atlântico",
+     "i": 11.265,
+     "f": 11.837
+    },
+    {
+     "p": "levava",
+     "i": 11.85,
+     "f": 12.306
+    },
+    {
+     "p": "de",
+     "i": 12.319,
+     "f": 12.436
+    },
+    {
+     "p": "dois",
+     "i": 12.449,
+     "f": 12.697
+    },
+    {
+     "p": "a",
+     "i": 12.71,
+     "f": 12.853
+    },
+    {
+     "p": "três",
+     "i": 12.866,
+     "f": 13.218
+    },
+    {
+     "p": "dias",
+     "i": 13.231,
+     "f": 13.673
+    },
+    {
+     "p": "contra",
+     "i": 13.947,
+     "f": 14.298
+    },
+    {
+     "p": "cerca",
+     "i": 14.311,
+     "f": 14.715
+    },
+    {
+     "p": "de",
+     "i": 14.728,
+     "f": 14.858
+    },
+    {
+     "p": "cinco",
+     "i": 14.871,
+     "f": 15.275
+    },
+    {
+     "p": "nos",
+     "i": 15.288,
+     "f": 15.431
+    },
+    {
+     "p": "navios",
+     "i": 15.444,
+     "f": 16.082
+    },
+    {
+     "p": "Mas",
+     "i": 16.365,
+     "f": 16.547
+    },
+    {
+     "p": "o",
+     "i": 16.56,
+     "f": 16.691
+    },
+    {
+     "p": "conforto",
+     "i": 16.704,
+     "f": 17.29
+    },
+    {
+     "p": "tinha",
+     "i": 17.303,
+     "f": 17.537
+    },
+    {
+     "p": "preço",
+     "i": 17.55,
+     "f": 17.967
+    },
+    {
+     "p": "a",
+     "i": 18.292,
+     "f": 18.37
+    },
+    {
+     "p": "passagem",
+     "i": 18.383,
+     "f": 18.917
+    },
+    {
+     "p": "de",
+     "i": 18.93,
+     "f": 19.06
+    },
+    {
+     "p": "ida",
+     "i": 19.073,
+     "f": 19.269
+    },
+    {
+     "p": "custava",
+     "i": 19.282,
+     "f": 19.711
+    },
+    {
+     "p": "cerca",
+     "i": 19.724,
+     "f": 20.115
+    },
+    {
+     "p": "de",
+     "i": 20.128,
+     "f": 20.232
+    },
+    {
+     "p": "quatrocentos",
+     "i": 20.245,
+     "f": 20.935
+    },
+    {
+     "p": "dólares",
+     "i": 20.948,
+     "f": 21.456
+    },
+    {
+     "p": "quase",
+     "i": 21.678,
+     "f": 22.029
+    },
+    {
+     "p": "o",
+     "i": 22.042,
+     "f": 22.068
+    },
+    {
+     "p": "valor",
+     "i": 22.081,
+     "f": 22.472
+    },
+    {
+     "p": "de",
+     "i": 22.485,
+     "f": 22.576
+    },
+    {
+     "p": "um",
+     "i": 22.589,
+     "f": 22.706
+    },
+    {
+     "p": "carro",
+     "i": 22.719,
+     "f": 23.019
+    },
+    {
+     "p": "novo",
+     "i": 23.032,
+     "f": 23.422
+    },
+    {
+     "p": "E",
+     "i": 23.704,
+     "f": 23.86
+    },
+    {
+     "p": "isso",
+     "i": 23.873,
+     "f": 24.03
+    },
+    {
+     "p": "apontava",
+     "i": 24.043,
+     "f": 24.603
+    },
+    {
+     "p": "para",
+     "i": 24.616,
+     "f": 24.798
+    },
+    {
+     "p": "uma",
+     "i": 24.811,
+     "f": 24.967
+    },
+    {
+     "p": "fragilidade",
+     "i": 24.98,
+     "f": 25.722
+    },
+    {
+     "p": "escondida",
+     "i": 25.735,
+     "f": 26.295
+    },
+    {
+     "p": "no",
+     "i": 26.308,
+     "f": 26.386
+    },
+    {
+     "p": "negócio",
+     "i": 26.399,
+     "f": 26.959
+    }
+   ]
+  },
+  "hindenburg": {
+   "hash": "2c3fd8e1c1",
+   "texto": "Em março de mil novecentos e trinta e seis, o LZ 129 Hindenburg decolou pela primeira vez. Com duzentos e quarenta e cinco metros, foi a maior aeronave já construída. Por que usava hidrogênio, um gás inflamável? Porque os Estados Unidos, quase os únicos produtores de hélio, proibiam a exportação. Para a Alemanha nazista, o dirigível também era propaganda: levava a suástica na cauda e sobrevoou a abertura dos Jogos Olímpicos de Berlim. Funcionava. Mas a conta ainda não fechava.",
+   "audio": "audio/hindenburg-2c3fd8e1c1.mp3",
+   "duracao": 32.047,
+   "palavras": [
+    {
+     "p": "Em",
+     "i": 0.102,
+     "f": 0.297
+    },
+    {
+     "p": "março",
+     "i": 0.31,
+     "f": 0.675
+    },
+    {
+     "p": "de",
+     "i": 0.688,
+     "f": 0.792
+    },
+    {
+     "p": "mil",
+     "i": 0.805,
+     "f": 0.935
+    },
+    {
+     "p": "novecentos",
+     "i": 0.948,
+     "f": 1.534
+    },
+    {
+     "p": "e",
+     "i": 1.547,
+     "f": 1.691
+    },
+    {
+     "p": "trinta",
+     "i": 1.704,
+     "f": 1.925
+    },
+    {
+     "p": "e",
+     "i": 1.938,
+     "f": 1.977
+    },
+    {
+     "p": "seis",
+     "i": 1.99,
+     "f": 2.368
+    },
+    {
+     "p": "o",
+     "i": 2.745,
+     "f": 2.836
+    },
+    {
+     "p": "LZ",
+     "i": 2.849,
+     "f": 3.266
+    },
+    {
+     "p": "129",
+     "i": 3.279,
+     "f": 4.23
+    },
+    {
+     "p": "Hindenburg",
+     "i": 4.243,
+     "f": 4.724
+    },
+    {
+     "p": "decolou",
+     "i": 4.737,
+     "f": 5.193
+    },
+    {
+     "p": "pela",
+     "i": 5.206,
+     "f": 5.441
+    },
+    {
+     "p": "primeira",
+     "i": 5.454,
+     "f": 5.857
+    },
+    {
+     "p": "vez",
+     "i": 5.87,
+     "f": 6.326
+    },
+    {
+     "p": "Com",
+     "i": 6.608,
+     "f": 6.79
+    },
+    {
+     "p": "duzentos",
+     "i": 6.803,
+     "f": 7.298
+    },
+    {
+     "p": "e",
+     "i": 7.311,
+     "f": 7.415
+    },
+    {
+     "p": "quarenta",
+     "i": 7.428,
+     "f": 7.741
+    },
+    {
+     "p": "e",
+     "i": 7.754,
+     "f": 7.78
+    },
+    {
+     "p": "cinco",
+     "i": 7.793,
+     "f": 8.053
+    },
+    {
+     "p": "metros",
+     "i": 8.066,
+     "f": 8.522
+    },
+    {
+     "p": "foi",
+     "i": 8.822,
+     "f": 8.965
+    },
+    {
+     "p": "a",
+     "i": 8.978,
+     "f": 9.017
+    },
+    {
+     "p": "maior",
+     "i": 9.03,
+     "f": 9.355
+    },
+    {
+     "p": "aeronave",
+     "i": 9.368,
+     "f": 9.902
+    },
+    {
+     "p": "já",
+     "i": 9.915,
+     "f": 10.124
+    },
+    {
+     "p": "construída",
+     "i": 10.137,
+     "f": 10.827
+    },
+    {
+     "p": "Por",
+     "i": 11.109,
+     "f": 11.304
+    },
+    {
+     "p": "que",
+     "i": 11.317,
+     "f": 11.5
+    },
+    {
+     "p": "usava",
+     "i": 11.513,
+     "f": 11.942
+    },
+    {
+     "p": "hidrogênio",
+     "i": 11.955,
+     "f": 12.567
+    },
+    {
+     "p": "um",
+     "i": 12.828,
+     "f": 12.932
+    },
+    {
+     "p": "gás",
+     "i": 12.945,
+     "f": 13.114
+    },
+    {
+     "p": "inflamável",
+     "i": 13.127,
+     "f": 13.896
+    },
+    {
+     "p": "Porque",
+     "i": 14.238,
+     "f": 14.551
+    },
+    {
+     "p": "os",
+     "i": 14.564,
+     "f": 14.603
+    },
+    {
+     "p": "Estados",
+     "i": 14.616,
+     "f": 15.084
+    },
+    {
+     "p": "Unidos",
+     "i": 15.097,
+     "f": 15.644
+    },
+    {
+     "p": "quase",
+     "i": 15.866,
+     "f": 16.217
+    },
+    {
+     "p": "os",
+     "i": 16.23,
+     "f": 16.269
+    },
+    {
+     "p": "únicos",
+     "i": 16.282,
+     "f": 16.725
+    },
+    {
+     "p": "produtores",
+     "i": 16.738,
+     "f": 17.311
+    },
+    {
+     "p": "de",
+     "i": 17.324,
+     "f": 17.428
+    },
+    {
+     "p": "hélio",
+     "i": 17.441,
+     "f": 17.767
+    },
+    {
+     "p": "proibiam",
+     "i": 18.04,
+     "f": 18.652
+    },
+    {
+     "p": "a",
+     "i": 18.665,
+     "f": 18.717
+    },
+    {
+     "p": "exportação",
+     "i": 18.73,
+     "f": 19.485
+    },
+    {
+     "p": "Para",
+     "i": 19.768,
+     "f": 19.976
+    },
+    {
+     "p": "a",
+     "i": 19.989,
+     "f": 20.002
+    },
+    {
+     "p": "Alemanha",
+     "i": 20.015,
+     "f": 20.445
+    },
+    {
+     "p": "nazista",
+     "i": 20.458,
+     "f": 21.018
+    },
+    {
+     "p": "o",
+     "i": 21.331,
+     "f": 21.409
+    },
+    {
+     "p": "dirigível",
+     "i": 21.422,
+     "f": 22.034
+    },
+    {
+     "p": "também",
+     "i": 22.047,
+     "f": 22.45
+    },
+    {
+     "p": "era",
+     "i": 22.463,
+     "f": 22.633
+    },
+    {
+     "p": "propaganda",
+     "i": 22.646,
+     "f": 23.258
+    },
+    {
+     "p": "levava",
+     "i": 23.596,
+     "f": 24.026
+    },
+    {
+     "p": "a",
+     "i": 24.039,
+     "f": 24.065
+    },
+    {
+     "p": "suástica",
+     "i": 24.078,
+     "f": 24.651
+    },
+    {
+     "p": "na",
+     "i": 24.664,
+     "f": 24.794
+    },
+    {
+     "p": "cauda",
+     "i": 24.807,
+     "f": 25.12
+    },
+    {
+     "p": "e",
+     "i": 25.133,
+     "f": 25.159
+    },
+    {
+     "p": "sobrevoou",
+     "i": 25.172,
+     "f": 25.797
+    },
+    {
+     "p": "a",
+     "i": 25.81,
+     "f": 25.849
+    },
+    {
+     "p": "abertura",
+     "i": 25.862,
+     "f": 26.331
+    },
+    {
+     "p": "dos",
+     "i": 26.344,
+     "f": 26.513
+    },
+    {
+     "p": "Jogos",
+     "i": 26.526,
+     "f": 26.89
+    },
+    {
+     "p": "Olímpicos",
+     "i": 26.903,
+     "f": 27.502
+    },
+    {
+     "p": "de",
+     "i": 27.515,
+     "f": 27.581
+    },
+    {
+     "p": "Berlim",
+     "i": 27.594,
+     "f": 28.023
+    },
+    {
+     "p": "Funcionava",
+     "i": 28.305,
+     "f": 29.177
+    },
+    {
+     "p": "Mas",
+     "i": 29.459,
+     "f": 29.654
+    },
+    {
+     "p": "a",
+     "i": 29.667,
+     "f": 29.811
+    },
+    {
+     "p": "conta",
+     "i": 29.824,
+     "f": 30.214
+    },
+    {
+     "p": "ainda",
+     "i": 30.227,
+     "f": 30.501
+    },
+    {
+     "p": "não",
+     "i": 30.514,
+     "f": 30.748
+    },
+    {
+     "p": "fechava",
+     "i": 30.761,
+     "f": 31.347
+    }
+   ]
+  },
+  "conta": {
+   "hash": "0ffed6a150",
+   "texto": "Mesmo assim, mil novecentos e trinta e seis foi um ano de sucesso: dez viagens de ida e volta para os Estados Unidos e várias para o Brasil. Por trás do brilho, havia uma conta difícil. Cada voo exigia cerca de sessenta tripulantes para pouco mais de setenta passageiros, além de hangares gigantes e de uma equipe enorme em terra. Já os aviões ficavam mais baratos e mais rápidos a cada ano. O dirigível, não. E faltava só um empurrão para que a dúvida virasse desconfiança.",
+   "audio": "audio/conta-0ffed6a150.mp3",
+   "duracao": 29.582,
+   "palavras": [
+    {
+     "p": "Mesmo",
+     "i": 0.102,
+     "f": 0.48
+    },
+    {
+     "p": "assim",
+     "i": 0.493,
+     "f": 0.857
+    },
+    {
+     "p": "mil",
+     "i": 1.066,
+     "f": 1.183
+    },
+    {
+     "p": "novecentos",
+     "i": 1.196,
+     "f": 1.756
+    },
+    {
+     "p": "e",
+     "i": 1.769,
+     "f": 1.899
+    },
+    {
+     "p": "trinta",
+     "i": 1.912,
+     "f": 2.12
+    },
+    {
+     "p": "e",
+     "i": 2.133,
+     "f": 2.172
+    },
+    {
+     "p": "seis",
+     "i": 2.185,
+     "f": 2.485
+    },
+    {
+     "p": "foi",
+     "i": 2.498,
+     "f": 2.667
+    },
+    {
+     "p": "um",
+     "i": 2.68,
+     "f": 2.836
+    },
+    {
+     "p": "ano",
+     "i": 2.849,
+     "f": 3.058
+    },
+    {
+     "p": "de",
+     "i": 3.071,
+     "f": 3.175
+    },
+    {
+     "p": "sucesso",
+     "i": 3.188,
+     "f": 3.774
+    },
+    {
+     "p": "dez",
+     "i": 4.086,
+     "f": 4.425
+    },
+    {
+     "p": "viagens",
+     "i": 4.438,
+     "f": 4.985
+    },
+    {
+     "p": "de",
+     "i": 4.998,
+     "f": 5.115
+    },
+    {
+     "p": "ida",
+     "i": 5.128,
+     "f": 5.349
+    },
+    {
+     "p": "e",
+     "i": 5.362,
+     "f": 5.402
+    },
+    {
+     "p": "volta",
+     "i": 5.415,
+     "f": 5.805
+    },
+    {
+     "p": "para",
+     "i": 5.818,
+     "f": 5.948
+    },
+    {
+     "p": "os",
+     "i": 5.961,
+     "f": 5.974
+    },
+    {
+     "p": "Estados",
+     "i": 5.987,
+     "f": 6.456
+    },
+    {
+     "p": "Unidos",
+     "i": 6.469,
+     "f": 6.899
+    },
+    {
+     "p": "e",
+     "i": 6.912,
+     "f": 7.042
+    },
+    {
+     "p": "várias",
+     "i": 7.055,
+     "f": 7.433
+    },
+    {
+     "p": "para",
+     "i": 7.446,
+     "f": 7.615
+    },
+    {
+     "p": "o",
+     "i": 7.628,
+     "f": 7.641
+    },
+    {
+     "p": "Brasil",
+     "i": 7.654,
+     "f": 8.123
+    },
+    {
+     "p": "Por",
+     "i": 8.405,
+     "f": 8.587
+    },
+    {
+     "p": "trás",
+     "i": 8.6,
+     "f": 8.9
+    },
+    {
+     "p": "do",
+     "i": 8.913,
+     "f": 9.03
+    },
+    {
+     "p": "brilho",
+     "i": 9.043,
+     "f": 9.434
+    },
+    {
+     "p": "havia",
+     "i": 9.655,
+     "f": 9.994
+    },
+    {
+     "p": "uma",
+     "i": 10.007,
+     "f": 10.202
+    },
+    {
+     "p": "conta",
+     "i": 10.215,
+     "f": 10.58
+    },
+    {
+     "p": "difícil",
+     "i": 10.593,
+     "f": 11.165
+    },
+    {
+     "p": "Cada",
+     "i": 11.447,
+     "f": 11.747
+    },
+    {
+     "p": "voo",
+     "i": 11.76,
+     "f": 12.046
+    },
+    {
+     "p": "exigia",
+     "i": 12.059,
+     "f": 12.437
+    },
+    {
+     "p": "cerca",
+     "i": 12.45,
+     "f": 12.853
+    },
+    {
+     "p": "de",
+     "i": 12.866,
+     "f": 12.958
+    },
+    {
+     "p": "sessenta",
+     "i": 12.971,
+     "f": 13.4
+    },
+    {
+     "p": "tripulantes",
+     "i": 13.413,
+     "f": 14.077
+    },
+    {
+     "p": "para",
+     "i": 14.09,
+     "f": 14.299
+    },
+    {
+     "p": "pouco",
+     "i": 14.312,
+     "f": 14.598
+    },
+    {
+     "p": "mais",
+     "i": 14.611,
+     "f": 14.911
+    },
+    {
+     "p": "de",
+     "i": 14.924,
+     "f": 15.015
+    },
+    {
+     "p": "setenta",
+     "i": 15.028,
+     "f": 15.471
+    },
+    {
+     "p": "passageiros",
+     "i": 15.484,
+     "f": 16.2
+    },
+    {
+     "p": "além",
+     "i": 16.434,
+     "f": 16.694
+    },
+    {
+     "p": "de",
+     "i": 16.707,
+     "f": 16.799
+    },
+    {
+     "p": "hangares",
+     "i": 16.812,
+     "f": 17.228
+    },
+    {
+     "p": "gigantes",
+     "i": 17.241,
+     "f": 17.736
+    },
+    {
+     "p": "e",
+     "i": 17.749,
+     "f": 17.866
+    },
+    {
+     "p": "de",
+     "i": 17.879,
+     "f": 17.971
+    },
+    {
+     "p": "uma",
+     "i": 17.984,
+     "f": 18.088
+    },
+    {
+     "p": "equipe",
+     "i": 18.101,
+     "f": 18.426
+    },
+    {
+     "p": "enorme",
+     "i": 18.439,
+     "f": 18.843
+    },
+    {
+     "p": "em",
+     "i": 18.856,
+     "f": 18.947
+    },
+    {
+     "p": "terra",
+     "i": 18.96,
+     "f": 19.338
+    },
+    {
+     "p": "Já",
+     "i": 19.62,
+     "f": 19.867
+    },
+    {
+     "p": "os",
+     "i": 19.88,
+     "f": 19.933
+    },
+    {
+     "p": "aviões",
+     "i": 19.946,
+     "f": 20.453
+    },
+    {
+     "p": "ficavam",
+     "i": 20.466,
+     "f": 20.922
+    },
+    {
+     "p": "mais",
+     "i": 20.935,
+     "f": 21.131
+    },
+    {
+     "p": "baratos",
+     "i": 21.144,
+     "f": 21.651
+    },
+    {
+     "p": "e",
+     "i": 21.664,
+     "f": 21.756
+    },
+    {
+     "p": "mais",
+     "i": 21.769,
+     "f": 22.016
+    },
+    {
+     "p": "rápidos",
+     "i": 22.029,
+     "f": 22.433
+    },
+    {
+     "p": "a",
+     "i": 22.446,
+     "f": 22.589
+    },
+    {
+     "p": "cada",
+     "i": 22.602,
+     "f": 22.862
+    },
+    {
+     "p": "ano",
+     "i": 22.875,
+     "f": 23.24
+    },
+    {
+     "p": "O",
+     "i": 23.522,
+     "f": 23.626
+    },
+    {
+     "p": "dirigível",
+     "i": 23.639,
+     "f": 24.329
+    },
+    {
+     "p": "não",
+     "i": 24.564,
+     "f": 24.928
+    },
+    {
+     "p": "E",
+     "i": 25.21,
+     "f": 25.327
+    },
+    {
+     "p": "faltava",
+     "i": 25.34,
+     "f": 25.9
+    },
+    {
+     "p": "só",
+     "i": 25.913,
+     "f": 26.095
+    },
+    {
+     "p": "um",
+     "i": 26.109,
+     "f": 26.213
+    },
+    {
+     "p": "empurrão",
+     "i": 26.226,
+     "f": 26.734
+    },
+    {
+     "p": "para",
+     "i": 26.747,
+     "f": 26.942
+    },
+    {
+     "p": "que",
+     "i": 26.955,
+     "f": 27.046
+    },
+    {
+     "p": "a",
+     "i": 27.059,
+     "f": 27.15
+    },
+    {
+     "p": "dúvida",
+     "i": 27.163,
+     "f": 27.567
+    },
+    {
+     "p": "virasse",
+     "i": 27.58,
+     "f": 27.97
+    },
+    {
+     "p": "desconfiança",
+     "i": 27.984,
+     "f": 28.882
+    }
+   ]
+  },
+  "outros": {
+   "hash": "001f9ddf42",
+   "texto": "O Hindenburg não foi o primeiro a cair. Em outubro de mil novecentos e trinta, o R101, dirigível britânico, bateu na França e matou quarenta e oito das cinquenta e quatro pessoas a bordo. Em mil novecentos e trinta e três, o Akron, da Marinha americana, caiu no mar durante uma tempestade e matou setenta e três. E o Akron usava hélio. A fama de perigoso já existia. Só que o Hindenburg ia pousar diante das câmeras.",
+   "audio": "audio/outros-001f9ddf42.mp3",
+   "duracao": 27.603,
+   "palavras": [
+    {
+     "p": "O",
+     "i": 0.102,
+     "f": 0.206
+    },
+    {
+     "p": "Hindenburg",
+     "i": 0.219,
+     "f": 0.779
+    },
+    {
+     "p": "não",
+     "i": 0.792,
+     "f": 0.988
+    },
+    {
+     "p": "foi",
+     "i": 1.001,
+     "f": 1.17
+    },
+    {
+     "p": "o",
+     "i": 1.183,
+     "f": 1.235
+    },
+    {
+     "p": "primeiro",
+     "i": 1.248,
+     "f": 1.573
+    },
+    {
+     "p": "a",
+     "i": 1.586,
+     "f": 1.626
+    },
+    {
+     "p": "cair",
+     "i": 1.639,
+     "f": 1.99
+    },
+    {
+     "p": "Em",
+     "i": 2.272,
+     "f": 2.441
+    },
+    {
+     "p": "outubro",
+     "i": 2.454,
+     "f": 2.936
+    },
+    {
+     "p": "de",
+     "i": 2.949,
+     "f": 3.053
+    },
+    {
+     "p": "mil",
+     "i": 3.066,
+     "f": 3.197
+    },
+    {
+     "p": "novecentos",
+     "i": 3.21,
+     "f": 3.743
+    },
+    {
+     "p": "e",
+     "i": 3.756,
+     "f": 3.9
+    },
+    {
+     "p": "trinta",
+     "i": 3.913,
+     "f": 4.316
+    },
+    {
+     "p": "o",
+     "i": 4.629,
+     "f": 4.733
+    },
+    {
+     "p": "R101",
+     "i": 4.746,
+     "f": 5.631
+    },
+    {
+     "p": "dirigível",
+     "i": 5.892,
+     "f": 6.426
+    },
+    {
+     "p": "britânico",
+     "i": 6.439,
+     "f": 7.012
+    },
+    {
+     "p": "bateu",
+     "i": 7.272,
+     "f": 7.611
+    },
+    {
+     "p": "na",
+     "i": 7.624,
+     "f": 7.754
+    },
+    {
+     "p": "França",
+     "i": 7.767,
+     "f": 8.21
+    },
+    {
+     "p": "e",
+     "i": 8.223,
+     "f": 8.249
+    },
+    {
+     "p": "matou",
+     "i": 8.262,
+     "f": 8.652
+    },
+    {
+     "p": "quarenta",
+     "i": 8.665,
+     "f": 9.121
+    },
+    {
+     "p": "e",
+     "i": 9.134,
+     "f": 9.16
+    },
+    {
+     "p": "oito",
+     "i": 9.173,
+     "f": 9.46
+    },
+    {
+     "p": "das",
+     "i": 9.473,
+     "f": 9.629
+    },
+    {
+     "p": "cinquenta",
+     "i": 9.642,
+     "f": 10.085
+    },
+    {
+     "p": "e",
+     "i": 10.098,
+     "f": 10.137
+    },
+    {
+     "p": "quatro",
+     "i": 10.15,
+     "f": 10.488
+    },
+    {
+     "p": "pessoas",
+     "i": 10.501,
+     "f": 10.957
+    },
+    {
+     "p": "a",
+     "i": 10.97,
+     "f": 11.1
+    },
+    {
+     "p": "bordo",
+     "i": 11.113,
+     "f": 11.556
+    },
+    {
+     "p": "Em",
+     "i": 11.838,
+     "f": 12.007
+    },
+    {
+     "p": "mil",
+     "i": 12.02,
+     "f": 12.164
+    },
+    {
+     "p": "novecentos",
+     "i": 12.177,
+     "f": 12.776
+    },
+    {
+     "p": "e",
+     "i": 12.789,
+     "f": 12.919
+    },
+    {
+     "p": "trinta",
+     "i": 12.932,
+     "f": 13.14
+    },
+    {
+     "p": "e",
+     "i": 13.153,
+     "f": 13.205
+    },
+    {
+     "p": "três",
+     "i": 13.218,
+     "f": 13.596
+    },
+    {
+     "p": "o",
+     "i": 13.973,
+     "f": 14.091
+    },
+    {
+     "p": "Akron",
+     "i": 14.104,
+     "f": 14.468
+    },
+    {
+     "p": "da",
+     "i": 14.755,
+     "f": 14.859
+    },
+    {
+     "p": "Marinha",
+     "i": 14.872,
+     "f": 15.197
+    },
+    {
+     "p": "americana",
+     "i": 15.21,
+     "f": 15.796
+    },
+    {
+     "p": "caiu",
+     "i": 16.057,
+     "f": 16.33
+    },
+    {
+     "p": "no",
+     "i": 16.343,
+     "f": 16.447
+    },
+    {
+     "p": "mar",
+     "i": 16.46,
+     "f": 16.734
+    },
+    {
+     "p": "durante",
+     "i": 16.747,
+     "f": 17.099
+    },
+    {
+     "p": "uma",
+     "i": 17.112,
+     "f": 17.255
+    },
+    {
+     "p": "tempestade",
+     "i": 17.268,
+     "f": 17.997
+    },
+    {
+     "p": "e",
+     "i": 18.01,
+     "f": 18.049
+    },
+    {
+     "p": "matou",
+     "i": 18.062,
+     "f": 18.453
+    },
+    {
+     "p": "setenta",
+     "i": 18.466,
+     "f": 19.013
+    },
+    {
+     "p": "e",
+     "i": 19.026,
+     "f": 19.078
+    },
+    {
+     "p": "três",
+     "i": 19.091,
+     "f": 19.533
+    },
+    {
+     "p": "E",
+     "i": 19.816,
+     "f": 19.946
+    },
+    {
+     "p": "o",
+     "i": 19.959,
+     "f": 20.063
+    },
+    {
+     "p": "Akron",
+     "i": 20.076,
+     "f": 20.441
+    },
+    {
+     "p": "usava",
+     "i": 20.454,
+     "f": 20.923
+    },
+    {
+     "p": "hélio",
+     "i": 20.936,
+     "f": 21.313
+    },
+    {
+     "p": "A",
+     "i": 21.595,
+     "f": 21.738
+    },
+    {
+     "p": "fama",
+     "i": 21.751,
+     "f": 22.09
+    },
+    {
+     "p": "de",
+     "i": 22.103,
+     "f": 22.207
+    },
+    {
+     "p": "perigoso",
+     "i": 22.22,
+     "f": 22.819
+    },
+    {
+     "p": "já",
+     "i": 22.832,
+     "f": 22.988
+    },
+    {
+     "p": "existia",
+     "i": 23.001,
+     "f": 23.587
+    },
+    {
+     "p": "Só",
+     "i": 23.869,
+     "f": 24.221
+    },
+    {
+     "p": "que",
+     "i": 24.234,
+     "f": 24.338
+    },
+    {
+     "p": "o",
+     "i": 24.351,
+     "f": 24.377
+    },
+    {
+     "p": "Hindenburg",
+     "i": 24.39,
+     "f": 24.911
+    },
+    {
+     "p": "ia",
+     "i": 24.924,
+     "f": 25.106
+    },
+    {
+     "p": "pousar",
+     "i": 25.119,
+     "f": 25.601
+    },
+    {
+     "p": "diante",
+     "i": 25.614,
+     "f": 26.07
+    },
+    {
+     "p": "das",
+     "i": 26.083,
+     "f": 26.278
+    },
+    {
+     "p": "câmeras",
+     "i": 26.291,
+     "f": 26.903
+    }
+   ]
+  },
+  "lakehurst": {
+   "hash": "c56828bc94",
+   "texto": "Seis de maio de mil novecentos e trinta e sete, Lakehurst, Nova Jérsei. O Hindenburg chega com noventa e sete pessoas a bordo, atrasado por tempestades. Faltam poucos minutos para pousar. Então surge fogo perto da cauda. Em menos de um minuto, a estrutura inteira desaba no chão. Morrem trinta e seis pessoas: treze passageiros, vinte e dois tripulantes e um homem do solo. A rádio gravou a voz do repórter Herbert Morrison, e os cinejornais levaram as imagens ao mundo. Nunca um desastre tinha sido tão visto.",
+   "audio": "audio/lakehurst-c56828bc94.mp3",
+   "duracao": 34.055,
+   "palavras": [
+    {
+     "p": "Seis",
+     "i": 0.102,
+     "f": 0.467
+    },
+    {
+     "p": "de",
+     "i": 0.48,
+     "f": 0.584
+    },
+    {
+     "p": "maio",
+     "i": 0.597,
+     "f": 0.935
+    },
+    {
+     "p": "de",
+     "i": 0.948,
+     "f": 1.066
+    },
+    {
+     "p": "mil",
+     "i": 1.079,
+     "f": 1.222
+    },
+    {
+     "p": "novecentos",
+     "i": 1.235,
+     "f": 1.821
+    },
+    {
+     "p": "e",
+     "i": 1.834,
+     "f": 1.977
+    },
+    {
+     "p": "trinta",
+     "i": 1.99,
+     "f": 2.238
+    },
+    {
+     "p": "e",
+     "i": 2.251,
+     "f": 2.29
+    },
+    {
+     "p": "sete",
+     "i": 2.303,
+     "f": 2.719
+    },
+    {
+     "p": "Lakehurst",
+     "i": 3.006,
+     "f": 3.618
+    },
+    {
+     "p": "Nova",
+     "i": 3.8,
+     "f": 4.165
+    },
+    {
+     "p": "Jérsei",
+     "i": 4.178,
+     "f": 4.738
+    },
+    {
+     "p": "O",
+     "i": 5.02,
+     "f": 5.111
+    },
+    {
+     "p": "Hindenburg",
+     "i": 5.124,
+     "f": 5.684
+    },
+    {
+     "p": "chega",
+     "i": 5.697,
+     "f": 5.984
+    },
+    {
+     "p": "com",
+     "i": 5.997,
+     "f": 6.14
+    },
+    {
+     "p": "noventa",
+     "i": 6.153,
+     "f": 6.517
+    },
+    {
+     "p": "e",
+     "i": 6.531,
+     "f": 6.557
+    },
+    {
+     "p": "sete",
+     "i": 6.57,
+     "f": 6.83
+    },
+    {
+     "p": "pessoas",
+     "i": 6.843,
+     "f": 7.234
+    },
+    {
+     "p": "a",
+     "i": 7.247,
+     "f": 7.377
+    },
+    {
+     "p": "bordo",
+     "i": 7.39,
+     "f": 7.794
+    },
+    {
+     "p": "atrasado",
+     "i": 8.028,
+     "f": 8.666
+    },
+    {
+     "p": "por",
+     "i": 8.679,
+     "f": 8.835
+    },
+    {
+     "p": "tempestades",
+     "i": 8.848,
+     "f": 9.76
+    },
+    {
+     "p": "Faltam",
+     "i": 10.042,
+     "f": 10.576
+    },
+    {
+     "p": "poucos",
+     "i": 10.589,
+     "f": 11.032
+    },
+    {
+     "p": "minutos",
+     "i": 11.045,
+     "f": 11.513
+    },
+    {
+     "p": "para",
+     "i": 11.526,
+     "f": 11.735
+    },
+    {
+     "p": "pousar",
+     "i": 11.748,
+     "f": 12.204
+    },
+    {
+     "p": "Então",
+     "i": 12.486,
+     "f": 12.968
+    },
+    {
+     "p": "surge",
+     "i": 12.981,
+     "f": 13.372
+    },
+    {
+     "p": "fogo",
+     "i": 13.385,
+     "f": 13.71
+    },
+    {
+     "p": "perto",
+     "i": 13.723,
+     "f": 14.062
+    },
+    {
+     "p": "da",
+     "i": 14.075,
+     "f": 14.192
+    },
+    {
+     "p": "cauda",
+     "i": 14.205,
+     "f": 14.621
+    },
+    {
+     "p": "Em",
+     "i": 14.903,
+     "f": 15.085
+    },
+    {
+     "p": "menos",
+     "i": 15.098,
+     "f": 15.45
+    },
+    {
+     "p": "de",
+     "i": 15.463,
+     "f": 15.554
+    },
+    {
+     "p": "um",
+     "i": 15.567,
+     "f": 15.645
+    },
+    {
+     "p": "minuto",
+     "i": 15.658,
+     "f": 16.153
+    },
+    {
+     "p": "a",
+     "i": 16.335,
+     "f": 16.414
+    },
+    {
+     "p": "estrutura",
+     "i": 16.427,
+     "f": 16.947
+    },
+    {
+     "p": "inteira",
+     "i": 16.96,
+     "f": 17.351
+    },
+    {
+     "p": "desaba",
+     "i": 17.364,
+     "f": 17.846
+    },
+    {
+     "p": "no",
+     "i": 17.859,
+     "f": 17.963
+    },
+    {
+     "p": "chão",
+     "i": 17.976,
+     "f": 18.354
+    },
+    {
+     "p": "Morrem",
+     "i": 18.636,
+     "f": 19.053
+    },
+    {
+     "p": "trinta",
+     "i": 19.066,
+     "f": 19.352
+    },
+    {
+     "p": "e",
+     "i": 19.365,
+     "f": 19.404
+    },
+    {
+     "p": "seis",
+     "i": 19.417,
+     "f": 19.665
+    },
+    {
+     "p": "pessoas",
+     "i": 19.678,
+     "f": 20.29
+    },
+    {
+     "p": "treze",
+     "i": 20.511,
+     "f": 20.876
+    },
+    {
+     "p": "passageiros",
+     "i": 20.889,
+     "f": 21.67
+    },
+    {
+     "p": "vinte",
+     "i": 21.93,
+     "f": 22.23
+    },
+    {
+     "p": "e",
+     "i": 22.243,
+     "f": 22.256
+    },
+    {
+     "p": "dois",
+     "i": 22.269,
+     "f": 22.477
+    },
+    {
+     "p": "tripulantes",
+     "i": 22.49,
+     "f": 23.141
+    },
+    {
+     "p": "e",
+     "i": 23.154,
+     "f": 23.298
+    },
+    {
+     "p": "um",
+     "i": 23.311,
+     "f": 23.441
+    },
+    {
+     "p": "homem",
+     "i": 23.454,
+     "f": 23.753
+    },
+    {
+     "p": "do",
+     "i": 23.766,
+     "f": 23.896
+    },
+    {
+     "p": "solo",
+     "i": 23.91,
+     "f": 24.339
+    },
+    {
+     "p": "A",
+     "i": 24.622,
+     "f": 24.765
+    },
+    {
+     "p": "rádio",
+     "i": 24.778,
+     "f": 25.13
+    },
+    {
+     "p": "gravou",
+     "i": 25.143,
+     "f": 25.547
+    },
+    {
+     "p": "a",
+     "i": 25.56,
+     "f": 25.638
+    },
+    {
+     "p": "voz",
+     "i": 25.651,
+     "f": 25.937
+    },
+    {
+     "p": "do",
+     "i": 25.95,
+     "f": 26.028
+    },
+    {
+     "p": "repórter",
+     "i": 26.041,
+     "f": 26.627
+    },
+    {
+     "p": "Herbert",
+     "i": 26.64,
+     "f": 27.135
+    },
+    {
+     "p": "Morrison",
+     "i": 27.148,
+     "f": 27.682
+    },
+    {
+     "p": "e",
+     "i": 28.047,
+     "f": 28.125
+    },
+    {
+     "p": "os",
+     "i": 28.138,
+     "f": 28.242
+    },
+    {
+     "p": "cinejornais",
+     "i": 28.255,
+     "f": 28.997
+    },
+    {
+     "p": "levaram",
+     "i": 29.01,
+     "f": 29.466
+    },
+    {
+     "p": "as",
+     "i": 29.479,
+     "f": 29.518
+    },
+    {
+     "p": "imagens",
+     "i": 29.531,
+     "f": 30.078
+    },
+    {
+     "p": "ao",
+     "i": 30.091,
+     "f": 30.286
+    },
+    {
+     "p": "mundo",
+     "i": 30.299,
+     "f": 30.69
+    },
+    {
+     "p": "Nunca",
+     "i": 30.972,
+     "f": 31.389
+    },
+    {
+     "p": "um",
+     "i": 31.402,
+     "f": 31.493
+    },
+    {
+     "p": "desastre",
+     "i": 31.506,
+     "f": 32.092
+    },
+    {
+     "p": "tinha",
+     "i": 32.105,
+     "f": 32.352
+    },
+    {
+     "p": "sido",
+     "i": 32.365,
+     "f": 32.704
+    },
+    {
+     "p": "tão",
+     "i": 32.717,
+     "f": 32.925
+    },
+    {
+     "p": "visto",
+     "i": 32.938,
+     "f": 33.355
+    }
+   ]
+  },
+  "mito": {
+   "hash": "f14e1a0170",
+   "texto": "A versão popular diz que o fogo de Lakehurst acabou com os dirigíveis. É meia verdade: o acidente foi o golpe final num sistema já frágil. A confiança do público ruiu, sim. Mas, antes do acidente, a empresa já enfrentava custos altos, dependência do hélio americano e a ameaça dos aviões. Em junho de mil novecentos e trinta e sete, o Graf Zeppelin foi aposentado. Em mil novecentos e quarenta, o governo nazista mandou desmontar os dois dirigíveis que restavam e demolir os hangares, para reaproveitar o metal na guerra.",
+   "audio": "audio/mito-f14e1a0170.mp3",
+   "duracao": 34.062,
+   "palavras": [
+    {
+     "p": "A",
+     "i": 0.102,
+     "f": 0.219
+    },
+    {
+     "p": "versão",
+     "i": 0.232,
+     "f": 0.649
+    },
+    {
+     "p": "popular",
+     "i": 0.662,
+     "f": 1.17
+    },
+    {
+     "p": "diz",
+     "i": 1.183,
+     "f": 1.469
+    },
+    {
+     "p": "que",
+     "i": 1.482,
+     "f": 1.573
+    },
+    {
+     "p": "o",
+     "i": 1.586,
+     "f": 1.626
+    },
+    {
+     "p": "fogo",
+     "i": 1.639,
+     "f": 1.99
+    },
+    {
+     "p": "de",
+     "i": 2.003,
+     "f": 2.081
+    },
+    {
+     "p": "Lakehurst",
+     "i": 2.094,
+     "f": 2.615
+    },
+    {
+     "p": "acabou",
+     "i": 2.628,
+     "f": 3.045
+    },
+    {
+     "p": "com",
+     "i": 3.058,
+     "f": 3.214
+    },
+    {
+     "p": "os",
+     "i": 3.227,
+     "f": 3.318
+    },
+    {
+     "p": "dirigíveis",
+     "i": 3.331,
+     "f": 4.112
+    },
+    {
+     "p": "É",
+     "i": 4.394,
+     "f": 4.511
+    },
+    {
+     "p": "meia",
+     "i": 4.524,
+     "f": 4.798
+    },
+    {
+     "p": "verdade",
+     "i": 4.811,
+     "f": 5.397
+    },
+    {
+     "p": "o",
+     "i": 5.709,
+     "f": 5.787
+    },
+    {
+     "p": "acidente",
+     "i": 5.8,
+     "f": 6.399
+    },
+    {
+     "p": "foi",
+     "i": 6.412,
+     "f": 6.569
+    },
+    {
+     "p": "o",
+     "i": 6.582,
+     "f": 6.634
+    },
+    {
+     "p": "golpe",
+     "i": 6.647,
+     "f": 6.946
+    },
+    {
+     "p": "final",
+     "i": 6.959,
+     "f": 7.298
+    },
+    {
+     "p": "num",
+     "i": 7.311,
+     "f": 7.454
+    },
+    {
+     "p": "sistema",
+     "i": 7.467,
+     "f": 7.988
+    },
+    {
+     "p": "já",
+     "i": 8.001,
+     "f": 8.144
+    },
+    {
+     "p": "frágil",
+     "i": 8.157,
+     "f": 8.665
+    },
+    {
+     "p": "A",
+     "i": 8.947,
+     "f": 9.064
+    },
+    {
+     "p": "confiança",
+     "i": 9.077,
+     "f": 9.741
+    },
+    {
+     "p": "do",
+     "i": 9.754,
+     "f": 9.885
+    },
+    {
+     "p": "público",
+     "i": 9.898,
+     "f": 10.34
+    },
+    {
+     "p": "ruiu",
+     "i": 10.353,
+     "f": 10.692
+    },
+    {
+     "p": "sim",
+     "i": 10.926,
+     "f": 11.317
+    },
+    {
+     "p": "Mas",
+     "i": 11.599,
+     "f": 12.094
+    },
+    {
+     "p": "antes",
+     "i": 12.341,
+     "f": 12.732
+    },
+    {
+     "p": "do",
+     "i": 12.745,
+     "f": 12.862
+    },
+    {
+     "p": "acidente",
+     "i": 12.875,
+     "f": 13.526
+    },
+    {
+     "p": "a",
+     "i": 13.734,
+     "f": 13.787
+    },
+    {
+     "p": "empresa",
+     "i": 13.8,
+     "f": 14.32
+    },
+    {
+     "p": "já",
+     "i": 14.333,
+     "f": 14.477
+    },
+    {
+     "p": "enfrentava",
+     "i": 14.49,
+     "f": 15.102
+    },
+    {
+     "p": "custos",
+     "i": 15.115,
+     "f": 15.505
+    },
+    {
+     "p": "altos",
+     "i": 15.518,
+     "f": 15.974
+    },
+    {
+     "p": "dependência",
+     "i": 16.221,
+     "f": 16.977
+    },
+    {
+     "p": "do",
+     "i": 16.99,
+     "f": 17.094
+    },
+    {
+     "p": "hélio",
+     "i": 17.107,
+     "f": 17.289
+    },
+    {
+     "p": "americano",
+     "i": 17.302,
+     "f": 17.979
+    },
+    {
+     "p": "e",
+     "i": 17.992,
+     "f": 18.057
+    },
+    {
+     "p": "a",
+     "i": 18.07,
+     "f": 18.11
+    },
+    {
+     "p": "ameaça",
+     "i": 18.123,
+     "f": 18.604
+    },
+    {
+     "p": "dos",
+     "i": 18.617,
+     "f": 18.721
+    },
+    {
+     "p": "aviões",
+     "i": 18.734,
+     "f": 19.438
+    },
+    {
+     "p": "Em",
+     "i": 19.721,
+     "f": 19.903
+    },
+    {
+     "p": "junho",
+     "i": 19.916,
+     "f": 20.307
+    },
+    {
+     "p": "de",
+     "i": 20.32,
+     "f": 20.45
+    },
+    {
+     "p": "mil",
+     "i": 20.463,
+     "f": 20.593
+    },
+    {
+     "p": "novecentos",
+     "i": 20.607,
+     "f": 21.179
+    },
+    {
+     "p": "e",
+     "i": 21.192,
+     "f": 21.323
+    },
+    {
+     "p": "trinta",
+     "i": 21.336,
+     "f": 21.557
+    },
+    {
+     "p": "e",
+     "i": 21.57,
+     "f": 21.609
+    },
+    {
+     "p": "sete",
+     "i": 21.622,
+     "f": 22.078
+    },
+    {
+     "p": "o",
+     "i": 22.338,
+     "f": 22.403
+    },
+    {
+     "p": "Graf",
+     "i": 22.416,
+     "f": 22.794
+    },
+    {
+     "p": "Zeppelin",
+     "i": 22.807,
+     "f": 23.224
+    },
+    {
+     "p": "foi",
+     "i": 23.237,
+     "f": 23.406
+    },
+    {
+     "p": "aposentado",
+     "i": 23.419,
+     "f": 24.174
+    },
+    {
+     "p": "Em",
+     "i": 24.456,
+     "f": 24.625
+    },
+    {
+     "p": "mil",
+     "i": 24.638,
+     "f": 24.769
+    },
+    {
+     "p": "novecentos",
+     "i": 24.782,
+     "f": 25.342
+    },
+    {
+     "p": "e",
+     "i": 25.355,
+     "f": 25.446
+    },
+    {
+     "p": "quarenta",
+     "i": 25.459,
+     "f": 25.953
+    },
+    {
+     "p": "o",
+     "i": 26.279,
+     "f": 26.344
+    },
+    {
+     "p": "governo",
+     "i": 26.357,
+     "f": 26.826
+    },
+    {
+     "p": "nazista",
+     "i": 26.839,
+     "f": 27.334
+    },
+    {
+     "p": "mandou",
+     "i": 27.347,
+     "f": 27.724
+    },
+    {
+     "p": "desmontar",
+     "i": 27.737,
+     "f": 28.31
+    },
+    {
+     "p": "os",
+     "i": 28.323,
+     "f": 28.427
+    },
+    {
+     "p": "dois",
+     "i": 28.44,
+     "f": 28.714
+    },
+    {
+     "p": "dirigíveis",
+     "i": 28.727,
+     "f": 29.313
+    },
+    {
+     "p": "que",
+     "i": 29.326,
+     "f": 29.43
+    },
+    {
+     "p": "restavam",
+     "i": 29.443,
+     "f": 29.99
+    },
+    {
+     "p": "e",
+     "i": 30.003,
+     "f": 30.055
+    },
+    {
+     "p": "demolir",
+     "i": 30.068,
+     "f": 30.498
+    },
+    {
+     "p": "os",
+     "i": 30.511,
+     "f": 30.55
+    },
+    {
+     "p": "hangares",
+     "i": 30.563,
+     "f": 31.149
+    },
+    {
+     "p": "para",
+     "i": 31.383,
+     "f": 31.591
+    },
+    {
+     "p": "reaproveitar",
+     "i": 31.605,
+     "f": 32.36
+    },
+    {
+     "p": "o",
+     "i": 32.373,
+     "f": 32.412
+    },
+    {
+     "p": "metal",
+     "i": 32.425,
+     "f": 32.802
+    },
+    {
+     "p": "na",
+     "i": 32.815,
+     "f": 32.946
+    },
+    {
+     "p": "guerra",
+     "i": 32.959,
+     "f": 33.362
+    }
+   ]
+  },
+  "avioes": {
+   "hash": "83ee629ebe",
+   "texto": "Enquanto isso, os aviões evoluíam depressa. Em mil novecentos e trinta e cinco, voou o Douglas DC-3, barato e robusto. Em mil novecentos e trinta e nove, a Pan American começou a levar passageiros através do Atlântico com os hidroaviões Boeing 314, os Clippers. Eram mais lentos que o sonho, mas não precisavam de um hangar do tamanho de um estádio, nem de sessenta tripulantes. Depois da guerra, as pistas construídas para os bombardeiros decidiram a disputa. O jato fez o resto.",
+   "audio": "audio/avioes-83ee629ebe.mp3",
+   "duracao": 32.186,
+   "palavras": [
+    {
+     "p": "Enquanto",
+     "i": 0.102,
+     "f": 0.636
+    },
+    {
+     "p": "isso",
+     "i": 0.649,
+     "f": 0.974
+    },
+    {
+     "p": "os",
+     "i": 1.313,
+     "f": 1.365
+    },
+    {
+     "p": "aviões",
+     "i": 1.378,
+     "f": 1.847
+    },
+    {
+     "p": "evoluíam",
+     "i": 1.86,
+     "f": 2.472
+    },
+    {
+     "p": "depressa",
+     "i": 2.485,
+     "f": 3.071
+    },
+    {
+     "p": "Em",
+     "i": 3.353,
+     "f": 3.522
+    },
+    {
+     "p": "mil",
+     "i": 3.535,
+     "f": 3.666
+    },
+    {
+     "p": "novecentos",
+     "i": 3.679,
+     "f": 4.225
+    },
+    {
+     "p": "e",
+     "i": 4.239,
+     "f": 4.382
+    },
+    {
+     "p": "trinta",
+     "i": 4.395,
+     "f": 4.642
+    },
+    {
+     "p": "e",
+     "i": 4.655,
+     "f": 4.694
+    },
+    {
+     "p": "cinco",
+     "i": 4.707,
+     "f": 5.124
+    },
+    {
+     "p": "voou",
+     "i": 5.462,
+     "f": 5.801
+    },
+    {
+     "p": "o",
+     "i": 5.814,
+     "f": 5.866
+    },
+    {
+     "p": "Douglas",
+     "i": 5.879,
+     "f": 6.335
+    },
+    {
+     "p": "DC-3",
+     "i": 6.348,
+     "f": 7.142
+    },
+    {
+     "p": "barato",
+     "i": 7.377,
+     "f": 7.897
+    },
+    {
+     "p": "e",
+     "i": 7.91,
+     "f": 7.949
+    },
+    {
+     "p": "robusto",
+     "i": 7.962,
+     "f": 8.587
+    },
+    {
+     "p": "Em",
+     "i": 8.869,
+     "f": 9.038
+    },
+    {
+     "p": "mil",
+     "i": 9.051,
+     "f": 9.208
+    },
+    {
+     "p": "novecentos",
+     "i": 9.221,
+     "f": 9.794
+    },
+    {
+     "p": "e",
+     "i": 9.807,
+     "f": 9.937
+    },
+    {
+     "p": "trinta",
+     "i": 9.95,
+     "f": 10.158
+    },
+    {
+     "p": "e",
+     "i": 10.171,
+     "f": 10.197
+    },
+    {
+     "p": "nove",
+     "i": 10.21,
+     "f": 10.601
+    },
+    {
+     "p": "a",
+     "i": 10.835,
+     "f": 10.965
+    },
+    {
+     "p": "Pan",
+     "i": 10.978,
+     "f": 11.187
+    },
+    {
+     "p": "American",
+     "i": 11.2,
+     "f": 11.695
+    },
+    {
+     "p": "começou",
+     "i": 11.708,
+     "f": 12.176
+    },
+    {
+     "p": "a",
+     "i": 12.189,
+     "f": 12.215
+    },
+    {
+     "p": "levar",
+     "i": 12.228,
+     "f": 12.593
+    },
+    {
+     "p": "passageiros",
+     "i": 12.606,
+     "f": 13.231
+    },
+    {
+     "p": "através",
+     "i": 13.244,
+     "f": 13.7
+    },
+    {
+     "p": "do",
+     "i": 13.713,
+     "f": 13.843
+    },
+    {
+     "p": "Atlântico",
+     "i": 13.856,
+     "f": 14.455
+    },
+    {
+     "p": "com",
+     "i": 14.468,
+     "f": 14.637
+    },
+    {
+     "p": "os",
+     "i": 14.65,
+     "f": 14.676
+    },
+    {
+     "p": "hidroaviões",
+     "i": 14.689,
+     "f": 15.34
+    },
+    {
+     "p": "Boeing",
+     "i": 15.353,
+     "f": 15.744
+    },
+    {
+     "p": "314",
+     "i": 15.757,
+     "f": 17.085
+    },
+    {
+     "p": "os",
+     "i": 17.372,
+     "f": 17.528
+    },
+    {
+     "p": "Clippers",
+     "i": 17.541,
+     "f": 18.114
+    },
+    {
+     "p": "Eram",
+     "i": 18.396,
+     "f": 18.656
+    },
+    {
+     "p": "mais",
+     "i": 18.67,
+     "f": 18.917
+    },
+    {
+     "p": "lentos",
+     "i": 18.93,
+     "f": 19.36
+    },
+    {
+     "p": "que",
+     "i": 19.373,
+     "f": 19.464
+    },
+    {
+     "p": "o",
+     "i": 19.477,
+     "f": 19.529
+    },
+    {
+     "p": "sonho",
+     "i": 19.542,
+     "f": 19.946
+    },
+    {
+     "p": "mas",
+     "i": 20.258,
+     "f": 20.466
+    },
+    {
+     "p": "não",
+     "i": 20.479,
+     "f": 20.649
+    },
+    {
+     "p": "precisavam",
+     "i": 20.662,
+     "f": 21.287
+    },
+    {
+     "p": "de",
+     "i": 21.3,
+     "f": 21.365
+    },
+    {
+     "p": "um",
+     "i": 21.378,
+     "f": 21.482
+    },
+    {
+     "p": "hangar",
+     "i": 21.495,
+     "f": 21.808
+    },
+    {
+     "p": "do",
+     "i": 21.821,
+     "f": 21.925
+    },
+    {
+     "p": "tamanho",
+     "i": 21.938,
+     "f": 22.354
+    },
+    {
+     "p": "de",
+     "i": 22.367,
+     "f": 22.459
+    },
+    {
+     "p": "um",
+     "i": 22.472,
+     "f": 22.55
+    },
+    {
+     "p": "estádio",
+     "i": 22.563,
+     "f": 23.071
+    },
+    {
+     "p": "nem",
+     "i": 23.318,
+     "f": 23.487
+    },
+    {
+     "p": "de",
+     "i": 23.5,
+     "f": 23.617
+    },
+    {
+     "p": "sessenta",
+     "i": 23.63,
+     "f": 24.073
+    },
+    {
+     "p": "tripulantes",
+     "i": 24.086,
+     "f": 24.92
+    },
+    {
+     "p": "Depois",
+     "i": 25.202,
+     "f": 25.658
+    },
+    {
+     "p": "da",
+     "i": 25.671,
+     "f": 25.814
+    },
+    {
+     "p": "guerra",
+     "i": 25.827,
+     "f": 26.205
+    },
+    {
+     "p": "as",
+     "i": 26.439,
+     "f": 26.621
+    },
+    {
+     "p": "pistas",
+     "i": 26.634,
+     "f": 27.012
+    },
+    {
+     "p": "construídas",
+     "i": 27.025,
+     "f": 27.663
+    },
+    {
+     "p": "para",
+     "i": 27.676,
+     "f": 27.832
+    },
+    {
+     "p": "os",
+     "i": 27.845,
+     "f": 27.923
+    },
+    {
+     "p": "bombardeiros",
+     "i": 27.936,
+     "f": 28.614
+    },
+    {
+     "p": "decidiram",
+     "i": 28.627,
+     "f": 29.147
+    },
+    {
+     "p": "a",
+     "i": 29.16,
+     "f": 29.212
+    },
+    {
+     "p": "disputa",
+     "i": 29.226,
+     "f": 29.785
+    },
+    {
+     "p": "O",
+     "i": 30.067,
+     "f": 30.184
+    },
+    {
+     "p": "jato",
+     "i": 30.197,
+     "f": 30.627
+    },
+    {
+     "p": "fez",
+     "i": 30.64,
+     "f": 30.887
+    },
+    {
+     "p": "o",
+     "i": 30.9,
+     "f": 31.005
+    },
+    {
+     "p": "resto",
+     "i": 31.018,
+     "f": 31.486
+    }
+   ]
+  },
+  "hoje": {
+   "hash": "f41d78f824",
+   "texto": "E os dirigíveis morreram de vez? Não. O Zeppelin NT, que voou pela primeira vez em mil novecentos e noventa e sete, ainda faz passeios turísticos sobre o lago de Constança, onde tudo começou. A empresa britânica Hybrid Air Vehicles testa o Airlander 10, de noventa e dois metros, que ganha parte da sustentação pelo formato do casco. E a francesa Flying Whales projeta um dirigível de carga de duzentos metros, para levar até sessenta toneladas a lugares sem estrada. A aposta agora não é o luxo do Atlântico, e sim o que o avião não faz bem.",
+   "audio": "audio/hoje-f41d78f824.mp3",
+   "duracao": 35.565,
+   "palavras": [
+    {
+     "p": "E",
+     "i": 0.102,
+     "f": 0.258
+    },
+    {
+     "p": "os",
+     "i": 0.271,
+     "f": 0.402
+    },
+    {
+     "p": "dirigíveis",
+     "i": 0.415,
+     "f": 1.079
+    },
+    {
+     "p": "morreram",
+     "i": 1.092,
+     "f": 1.547
+    },
+    {
+     "p": "de",
+     "i": 1.56,
+     "f": 1.678
+    },
+    {
+     "p": "vez",
+     "i": 1.691,
+     "f": 2.12
+    },
+    {
+     "p": "Não",
+     "i": 3.021,
+     "f": 3.424
+    },
+    {
+     "p": "O",
+     "i": 3.706,
+     "f": 3.823
+    },
+    {
+     "p": "Zeppelin",
+     "i": 3.836,
+     "f": 4.344
+    },
+    {
+     "p": "NT",
+     "i": 4.357,
+     "f": 4.774
+    },
+    {
+     "p": "que",
+     "i": 5.008,
+     "f": 5.177
+    },
+    {
+     "p": "voou",
+     "i": 5.19,
+     "f": 5.516
+    },
+    {
+     "p": "pela",
+     "i": 5.529,
+     "f": 5.75
+    },
+    {
+     "p": "primeira",
+     "i": 5.763,
+     "f": 6.115
+    },
+    {
+     "p": "vez",
+     "i": 6.128,
+     "f": 6.336
+    },
+    {
+     "p": "em",
+     "i": 6.349,
+     "f": 6.493
+    },
+    {
+     "p": "mil",
+     "i": 6.506,
+     "f": 6.649
+    },
+    {
+     "p": "novecentos",
+     "i": 6.662,
+     "f": 7.235
+    },
+    {
+     "p": "e",
+     "i": 7.248,
+     "f": 7.326
+    },
+    {
+     "p": "noventa",
+     "i": 7.339,
+     "f": 7.664
+    },
+    {
+     "p": "e",
+     "i": 7.677,
+     "f": 7.717
+    },
+    {
+     "p": "sete",
+     "i": 7.73,
+     "f": 8.146
+    },
+    {
+     "p": "ainda",
+     "i": 8.433,
+     "f": 8.771
+    },
+    {
+     "p": "faz",
+     "i": 8.784,
+     "f": 9.019
+    },
+    {
+     "p": "passeios",
+     "i": 9.032,
+     "f": 9.526
+    },
+    {
+     "p": "turísticos",
+     "i": 9.539,
+     "f": 10.138
+    },
+    {
+     "p": "sobre",
+     "i": 10.151,
+     "f": 10.36
+    },
+    {
+     "p": "o",
+     "i": 10.373,
+     "f": 10.399
+    },
+    {
+     "p": "lago",
+     "i": 10.412,
+     "f": 10.75
+    },
+    {
+     "p": "de",
+     "i": 10.763,
+     "f": 10.841
+    },
+    {
+     "p": "Constança",
+     "i": 10.855,
+     "f": 11.532
+    },
+    {
+     "p": "onde",
+     "i": 11.831,
+     "f": 12.118
+    },
+    {
+     "p": "tudo",
+     "i": 12.131,
+     "f": 12.456
+    },
+    {
+     "p": "começou",
+     "i": 12.469,
+     "f": 13.068
+    },
+    {
+     "p": "A",
+     "i": 13.35,
+     "f": 13.441
+    },
+    {
+     "p": "empresa",
+     "i": 13.454,
+     "f": 13.91
+    },
+    {
+     "p": "britânica",
+     "i": 13.923,
+     "f": 14.47
+    },
+    {
+     "p": "Hybrid",
+     "i": 14.483,
+     "f": 14.926
+    },
+    {
+     "p": "Air",
+     "i": 14.939,
+     "f": 15.004
+    },
+    {
+     "p": "Vehicles",
+     "i": 15.017,
+     "f": 15.525
+    },
+    {
+     "p": "testa",
+     "i": 15.538,
+     "f": 15.824
+    },
+    {
+     "p": "o",
+     "i": 15.837,
+     "f": 15.876
+    },
+    {
+     "p": "Airlander",
+     "i": 15.889,
+     "f": 16.449
+    },
+    {
+     "p": "10",
+     "i": 16.462,
+     "f": 16.892
+    },
+    {
+     "p": "de",
+     "i": 17.191,
+     "f": 17.295
+    },
+    {
+     "p": "noventa",
+     "i": 17.308,
+     "f": 17.712
+    },
+    {
+     "p": "e",
+     "i": 17.725,
+     "f": 17.751
+    },
+    {
+     "p": "dois",
+     "i": 17.764,
+     "f": 17.959
+    },
+    {
+     "p": "metros",
+     "i": 17.972,
+     "f": 18.48
+    },
+    {
+     "p": "que",
+     "i": 18.715,
+     "f": 18.858
+    },
+    {
+     "p": "ganha",
+     "i": 18.871,
+     "f": 19.209
+    },
+    {
+     "p": "parte",
+     "i": 19.222,
+     "f": 19.587
+    },
+    {
+     "p": "da",
+     "i": 19.6,
+     "f": 19.704
+    },
+    {
+     "p": "sustentação",
+     "i": 19.717,
+     "f": 20.499
+    },
+    {
+     "p": "pelo",
+     "i": 20.512,
+     "f": 20.707
+    },
+    {
+     "p": "formato",
+     "i": 20.72,
+     "f": 21.241
+    },
+    {
+     "p": "do",
+     "i": 21.254,
+     "f": 21.371
+    },
+    {
+     "p": "casco",
+     "i": 21.384,
+     "f": 21.853
+    },
+    {
+     "p": "E",
+     "i": 22.135,
+     "f": 22.252
+    },
+    {
+     "p": "a",
+     "i": 22.265,
+     "f": 22.343
+    },
+    {
+     "p": "francesa",
+     "i": 22.356,
+     "f": 22.929
+    },
+    {
+     "p": "Flying",
+     "i": 22.942,
+     "f": 23.281
+    },
+    {
+     "p": "Whales",
+     "i": 23.294,
+     "f": 23.619
+    },
+    {
+     "p": "projeta",
+     "i": 23.632,
+     "f": 24.127
+    },
+    {
+     "p": "um",
+     "i": 24.14,
+     "f": 24.218
+    },
+    {
+     "p": "dirigível",
+     "i": 24.231,
+     "f": 24.752
+    },
+    {
+     "p": "de",
+     "i": 24.765,
+     "f": 24.895
+    },
+    {
+     "p": "carga",
+     "i": 24.909,
+     "f": 25.273
+    },
+    {
+     "p": "de",
+     "i": 25.286,
+     "f": 25.377
+    },
+    {
+     "p": "duzentos",
+     "i": 25.39,
+     "f": 25.937
+    },
+    {
+     "p": "metros",
+     "i": 25.95,
+     "f": 26.419
+    },
+    {
+     "p": "para",
+     "i": 26.666,
+     "f": 26.823
+    },
+    {
+     "p": "levar",
+     "i": 26.836,
+     "f": 27.2
+    },
+    {
+     "p": "até",
+     "i": 27.213,
+     "f": 27.395
+    },
+    {
+     "p": "sessenta",
+     "i": 27.409,
+     "f": 27.955
+    },
+    {
+     "p": "toneladas",
+     "i": 27.968,
+     "f": 28.515
+    },
+    {
+     "p": "a",
+     "i": 28.528,
+     "f": 28.619
+    },
+    {
+     "p": "lugares",
+     "i": 28.632,
+     "f": 29.127
+    },
+    {
+     "p": "sem",
+     "i": 29.14,
+     "f": 29.336
+    },
+    {
+     "p": "estrada",
+     "i": 29.349,
+     "f": 29.856
+    },
+    {
+     "p": "A",
+     "i": 30.138,
+     "f": 30.294
+    },
+    {
+     "p": "aposta",
+     "i": 30.307,
+     "f": 30.75
+    },
+    {
+     "p": "agora",
+     "i": 30.763,
+     "f": 31.102
+    },
+    {
+     "p": "não",
+     "i": 31.115,
+     "f": 31.297
+    },
+    {
+     "p": "é",
+     "i": 31.31,
+     "f": 31.388
+    },
+    {
+     "p": "o",
+     "i": 31.401,
+     "f": 31.453
+    },
+    {
+     "p": "luxo",
+     "i": 31.466,
+     "f": 31.857
+    },
+    {
+     "p": "do",
+     "i": 31.87,
+     "f": 31.974
+    },
+    {
+     "p": "Atlântico",
+     "i": 31.987,
+     "f": 32.638
+    },
+    {
+     "p": "e",
+     "i": 32.977,
+     "f": 33.055
+    },
+    {
+     "p": "sim",
+     "i": 33.068,
+     "f": 33.406
+    },
+    {
+     "p": "o",
+     "i": 33.419,
+     "f": 33.484
+    },
+    {
+     "p": "que",
+     "i": 33.497,
+     "f": 33.589
+    },
+    {
+     "p": "o",
+     "i": 33.602,
+     "f": 33.654
+    },
+    {
+     "p": "avião",
+     "i": 33.667,
+     "f": 34.057
+    },
+    {
+     "p": "não",
+     "i": 34.07,
+     "f": 34.253
+    },
+    {
+     "p": "faz",
+     "i": 34.266,
+     "f": 34.552
+    },
+    {
+     "p": "bem",
+     "i": 34.565,
+     "f": 34.865
+    }
+   ]
+  },
+  "desfecho": {
+   "hash": "31622ff029",
+   "texto": "Então, o que aconteceu com os dirigíveis? O fogo de Lakehurst foi o fim da confiança, não da lógica. Eles perderam para o avião em custo, velocidade e infraestrutura, e o acidente apenas escolheu o dia do adeus. Hoje, o hélio e os materiais leves mudam a conta em nichos como carga pesada e turismo. O sonho do conde Zeppelin nunca foi voar rápido. Era voar com grandeza. Tecnologia raramente desaparece por um único erro: ela sai de cena quando surge um jeito mais barato e mais simples de fazer a mesma tarefa. Talvez a pressa que o derrotou seja a mesma que agora pede um céu mais lento.",
+   "audio": "audio/desfecho-31622ff029.mp3",
+   "duracao": 38.124,
+   "palavras": [
+    {
+     "p": "Então",
+     "i": 0.102,
+     "f": 0.597
+    },
+    {
+     "p": "o",
+     "i": 0.948,
+     "f": 1.014
+    },
+    {
+     "p": "que",
+     "i": 1.027,
+     "f": 1.131
+    },
+    {
+     "p": "aconteceu",
+     "i": 1.144,
+     "f": 1.834
+    },
+    {
+     "p": "com",
+     "i": 1.847,
+     "f": 2.029
+    },
+    {
+     "p": "os",
+     "i": 2.042,
+     "f": 2.12
+    },
+    {
+     "p": "dirigíveis",
+     "i": 2.133,
+     "f": 2.941
+    },
+    {
+     "p": "O",
+     "i": 3.283,
+     "f": 3.4
+    },
+    {
+     "p": "fogo",
+     "i": 3.413,
+     "f": 3.765
+    },
+    {
+     "p": "de",
+     "i": 3.778,
+     "f": 3.843
+    },
+    {
+     "p": "Lakehurst",
+     "i": 3.856,
+     "f": 4.39
+    },
+    {
+     "p": "foi",
+     "i": 4.403,
+     "f": 4.559
+    },
+    {
+     "p": "o",
+     "i": 4.572,
+     "f": 4.637
+    },
+    {
+     "p": "fim",
+     "i": 4.65,
+     "f": 4.872
+    },
+    {
+     "p": "da",
+     "i": 4.885,
+     "f": 4.989
+    },
+    {
+     "p": "confiança",
+     "i": 5.002,
+     "f": 5.705
+    },
+    {
+     "p": "não",
+     "i": 5.887,
+     "f": 6.096
+    },
+    {
+     "p": "da",
+     "i": 6.109,
+     "f": 6.239
+    },
+    {
+     "p": "lógica",
+     "i": 6.252,
+     "f": 6.747
+    },
+    {
+     "p": "Eles",
+     "i": 7.029,
+     "f": 7.263
+    },
+    {
+     "p": "perderam",
+     "i": 7.276,
+     "f": 7.797
+    },
+    {
+     "p": "para",
+     "i": 7.81,
+     "f": 7.98
+    },
+    {
+     "p": "o",
+     "i": 7.993,
+     "f": 8.032
+    },
+    {
+     "p": "avião",
+     "i": 8.045,
+     "f": 8.422
+    },
+    {
+     "p": "em",
+     "i": 8.435,
+     "f": 8.526
+    },
+    {
+     "p": "custo",
+     "i": 8.54,
+     "f": 8.943
+    },
+    {
+     "p": "velocidade",
+     "i": 9.243,
+     "f": 9.946
+    },
+    {
+     "p": "e",
+     "i": 9.959,
+     "f": 9.972
+    },
+    {
+     "p": "infraestrutura",
+     "i": 9.985,
+     "f": 10.805
+    },
+    {
+     "p": "e",
+     "i": 11.157,
+     "f": 11.261
+    },
+    {
+     "p": "o",
+     "i": 11.274,
+     "f": 11.326
+    },
+    {
+     "p": "acidente",
+     "i": 11.339,
+     "f": 11.886
+    },
+    {
+     "p": "apenas",
+     "i": 11.899,
+     "f": 12.25
+    },
+    {
+     "p": "escolheu",
+     "i": 12.263,
+     "f": 12.797
+    },
+    {
+     "p": "o",
+     "i": 12.81,
+     "f": 12.875
+    },
+    {
+     "p": "dia",
+     "i": 12.888,
+     "f": 13.149
+    },
+    {
+     "p": "do",
+     "i": 13.162,
+     "f": 13.318
+    },
+    {
+     "p": "adeus",
+     "i": 13.331,
+     "f": 13.878
+    },
+    {
+     "p": "Hoje",
+     "i": 14.16,
+     "f": 14.629
+    },
+    {
+     "p": "o",
+     "i": 14.746,
+     "f": 14.876
+    },
+    {
+     "p": "hélio",
+     "i": 14.889,
+     "f": 15.163
+    },
+    {
+     "p": "e",
+     "i": 15.176,
+     "f": 15.215
+    },
+    {
+     "p": "os",
+     "i": 15.228,
+     "f": 15.293
+    },
+    {
+     "p": "materiais",
+     "i": 15.306,
+     "f": 15.879
+    },
+    {
+     "p": "leves",
+     "i": 15.892,
+     "f": 16.256
+    },
+    {
+     "p": "mudam",
+     "i": 16.269,
+     "f": 16.634
+    },
+    {
+     "p": "a",
+     "i": 16.647,
+     "f": 16.712
+    },
+    {
+     "p": "conta",
+     "i": 16.725,
+     "f": 17.025
+    },
+    {
+     "p": "em",
+     "i": 17.038,
+     "f": 17.116
+    },
+    {
+     "p": "nichos",
+     "i": 17.129,
+     "f": 17.532
+    },
+    {
+     "p": "como",
+     "i": 17.545,
+     "f": 17.793
+    },
+    {
+     "p": "carga",
+     "i": 17.806,
+     "f": 18.17
+    },
+    {
+     "p": "pesada",
+     "i": 18.184,
+     "f": 18.678
+    },
+    {
+     "p": "e",
+     "i": 18.691,
+     "f": 18.743
+    },
+    {
+     "p": "turismo",
+     "i": 18.756,
+     "f": 19.225
+    },
+    {
+     "p": "O",
+     "i": 19.507,
+     "f": 19.637
+    },
+    {
+     "p": "sonho",
+     "i": 19.65,
+     "f": 20.067
+    },
+    {
+     "p": "do",
+     "i": 20.08,
+     "f": 20.184
+    },
+    {
+     "p": "conde",
+     "i": 20.197,
+     "f": 20.484
+    },
+    {
+     "p": "Zeppelin",
+     "i": 20.497,
+     "f": 20.926
+    },
+    {
+     "p": "nunca",
+     "i": 20.939,
+     "f": 21.356
+    },
+    {
+     "p": "foi",
+     "i": 21.369,
+     "f": 21.525
+    },
+    {
+     "p": "voar",
+     "i": 21.538,
+     "f": 21.877
+    },
+    {
+     "p": "rápido",
+     "i": 21.89,
+     "f": 22.398
+    },
+    {
+     "p": "Era",
+     "i": 22.68,
+     "f": 22.967
+    },
+    {
+     "p": "voar",
+     "i": 22.98,
+     "f": 23.331
+    },
+    {
+     "p": "com",
+     "i": 23.344,
+     "f": 23.513
+    },
+    {
+     "p": "grandeza",
+     "i": 23.526,
+     "f": 24.151
+    },
+    {
+     "p": "Tecnologia",
+     "i": 24.433,
+     "f": 25.175
+    },
+    {
+     "p": "raramente",
+     "i": 25.188,
+     "f": 25.748
+    },
+    {
+     "p": "desaparece",
+     "i": 25.761,
+     "f": 26.425
+    },
+    {
+     "p": "por",
+     "i": 26.438,
+     "f": 26.582
+    },
+    {
+     "p": "um",
+     "i": 26.595,
+     "f": 26.673
+    },
+    {
+     "p": "único",
+     "i": 26.686,
+     "f": 27.063
+    },
+    {
+     "p": "erro",
+     "i": 27.076,
+     "f": 27.363
+    },
+    {
+     "p": "ela",
+     "i": 27.727,
+     "f": 27.949
+    },
+    {
+     "p": "sai",
+     "i": 27.962,
+     "f": 28.209
+    },
+    {
+     "p": "de",
+     "i": 28.222,
+     "f": 28.352
+    },
+    {
+     "p": "cena",
+     "i": 28.365,
+     "f": 28.756
+    },
+    {
+     "p": "quando",
+     "i": 28.769,
+     "f": 29.016
+    },
+    {
+     "p": "surge",
+     "i": 29.029,
+     "f": 29.394
+    },
+    {
+     "p": "um",
+     "i": 29.407,
+     "f": 29.498
+    },
+    {
+     "p": "jeito",
+     "i": 29.511,
+     "f": 29.811
+    },
+    {
+     "p": "mais",
+     "i": 29.824,
+     "f": 30.019
+    },
+    {
+     "p": "barato",
+     "i": 30.032,
+     "f": 30.566
+    },
+    {
+     "p": "e",
+     "i": 30.579,
+     "f": 30.644
+    },
+    {
+     "p": "mais",
+     "i": 30.657,
+     "f": 30.917
+    },
+    {
+     "p": "simples",
+     "i": 30.93,
+     "f": 31.36
+    },
+    {
+     "p": "de",
+     "i": 31.373,
+     "f": 31.477
+    },
+    {
+     "p": "fazer",
+     "i": 31.49,
+     "f": 31.816
+    },
+    {
+     "p": "a",
+     "i": 31.829,
+     "f": 31.894
+    },
+    {
+     "p": "mesma",
+     "i": 31.907,
+     "f": 32.324
+    },
+    {
+     "p": "tarefa",
+     "i": 32.337,
+     "f": 32.871
+    },
+    {
+     "p": "Talvez",
+     "i": 33.153,
+     "f": 33.57
+    },
+    {
+     "p": "a",
+     "i": 33.583,
+     "f": 33.739
+    },
+    {
+     "p": "pressa",
+     "i": 33.752,
+     "f": 34.169
+    },
+    {
+     "p": "que",
+     "i": 34.182,
+     "f": 34.26
+    },
+    {
+     "p": "o",
+     "i": 34.273,
+     "f": 34.312
+    },
+    {
+     "p": "derrotou",
+     "i": 34.325,
+     "f": 34.807
+    },
+    {
+     "p": "seja",
+     "i": 34.82,
+     "f": 35.08
+    },
+    {
+     "p": "a",
+     "i": 35.093,
+     "f": 35.106
+    },
+    {
+     "p": "mesma",
+     "i": 35.119,
+     "f": 35.51
+    },
+    {
+     "p": "que",
+     "i": 35.523,
+     "f": 35.614
+    },
+    {
+     "p": "agora",
+     "i": 35.627,
+     "f": 36.005
+    },
+    {
+     "p": "pede",
+     "i": 36.018,
+     "f": 36.278
+    },
+    {
+     "p": "um",
+     "i": 36.291,
+     "f": 36.395
+    },
+    {
+     "p": "céu",
+     "i": 36.408,
+     "f": 36.721
+    },
+    {
+     "p": "mais",
+     "i": 36.734,
+     "f": 37.007
+    },
+    {
+     "p": "lento",
+     "i": 37.02,
+     "f": 37.424
+    }
+   ]
+  }
+ },
+ "imagens": {
+  "graf-voo": {
+   "arquivo": "imagens/graf-voo-9e17863a.jpg",
+   "rotulo": "Graf Zeppelin em voo",
+   "wiki": "LZ 127 Graf Zeppelin",
+   "commons": "LZ 127 Graf Zeppelin in flight",
+   "autor": "Jorge Kfuri (1893-1965)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:LZ_127_Graf_Zeppelin_over_Rio.jpg",
+   "titulo": "File:LZ 127 Graf Zeppelin over Rio.jpg",
+   "largura": 1163,
+   "altura": 800,
+   "rostos": 0,
+   "foco": {
+    "x": 66.4,
+    "y": 50.9
+   },
+   "borrada": "imagens/graf-voo-9e17863a-b.jpg"
+  },
+  "hind-fogo": {
+   "arquivo": "imagens/hind-fogo-6fcbdb86.jpg",
+   "rotulo": "Hindenburg em chamas, 1937",
+   "commons": "Hindenburg disaster Lakehurst 1937 airship burning",
+   "autor": "Gus Pasquerella",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hindenburg_burning.jpg",
+   "titulo": "File:Hindenburg burning.jpg",
+   "largura": 1920,
+   "altura": 1461,
+   "rostos": 0,
+   "foco": {
+    "x": 73.7,
+    "y": 52.6
+   },
+   "borrada": "imagens/hind-fogo-6fcbdb86-b.jpg"
+  },
+  "lakehurst-base": {
+   "arquivo": "imagens/lakehurst-base-5eb11e88.jpg",
+   "rotulo": "Base aérea de Lakehurst",
+   "commons": "Lakehurst Naval Air Station aerial hangar No. 1",
+   "autor": "Miller, U.S. Navy",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:K-class_blimps_at_Naval_Air_Station_Lakehurst,_New_Jersey_(USA),_circa_in_1943_(80-G-K-15413).jpg",
+   "titulo": "File:K-class blimps at Naval Air Station Lakehurst, New Jersey (USA), circa in 1943 (80-G-K-15413).jpg",
+   "largura": 1920,
+   "altura": 1458,
+   "rostos": 0,
+   "foco": {
+    "x": 20,
+    "y": 49.6
+   },
+   "borrada": "imagens/lakehurst-base-5eb11e88-b.jpg"
+  },
+  "hind-ny": {
+   "arquivo": "imagens/hind-ny-2dedbe97.jpg",
+   "rotulo": "Hindenburg sobre Nova York",
+   "commons": "Hindenburg over Manhattan New York 1937",
+   "autor": "Associated Press",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hindenburg_over_New_York_1937.jpg",
+   "titulo": "File:Hindenburg over New York 1937.jpg",
+   "largura": 884,
+   "altura": 674,
+   "rostos": 0,
+   "foco": {
+    "x": 43.8,
+    "y": 60.4
+   },
+   "borrada": "imagens/hind-ny-2dedbe97-b.jpg"
+  },
+  "dois-zeps": {
+   "arquivo": "",
+   "rotulo": "Graf Zeppelin e Hindenburg juntos",
+   "commons": "Graf Zeppelin and Hindenburg together Frankfurt 1936",
+   "semFoto": true
+  },
+  "conde": {
+   "arquivo": "imagens/conde-01132d43.jpg",
+   "rotulo": "Conde Ferdinand von Zeppelin",
+   "wiki": "Ferdinand von Zeppelin",
+   "commons": "Ferdinand von Zeppelin portrait",
+   "autor": "Nicola Perscheid",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bildnis_Ferdinand_von_Zeppelin.png",
+   "titulo": "File:Bildnis Ferdinand von Zeppelin.png",
+   "largura": 1219,
+   "altura": 1708,
+   "rostos": 2,
+   "foco": {
+    "x": 50.9,
+    "y": 24.3
+   },
+   "borrada": "imagens/conde-01132d43-b.jpg"
+  },
+  "lz1-estrutura": {
+   "arquivo": "imagens/lz1-estrutura-6d1f573f.jpg",
+   "rotulo": "Construção do LZ 1",
+   "commons": "Zeppelin LZ 1 framework floating hangar Manzell Lake Constance",
+   "autor": "Daderot",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Framework_-_Zeppelin_Museum_Friedrichshafen_-_DSC06840.jpg",
+   "titulo": "File:Framework - Zeppelin Museum Friedrichshafen - DSC06840.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 2,
+   "foco": {
+    "x": 91.7,
+    "y": 78.5
+   },
+   "borrada": "imagens/lz1-estrutura-6d1f573f-b.jpg"
+  },
+  "lz1-voo": {
+   "arquivo": "imagens/lz1-voo-a9a56cca.jpg",
+   "rotulo": "LZ 1 em voo, 1900",
+   "commons": "Zeppelin LZ 1 first flight 1900 Lake Constance",
+   "autor": "Peter Scherer",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:First_Zeppelin_ascent.jpg",
+   "titulo": "File:First Zeppelin ascent.jpg",
+   "largura": 905,
+   "altura": 591,
+   "rostos": 1,
+   "foco": {
+    "x": 93.4,
+    "y": 88.4
+   },
+   "borrada": "imagens/lz1-voo-a9a56cca-b.jpg"
+  },
+  "friedrichshafen": {
+   "arquivo": "",
+   "rotulo": "Friedrichshafen, lago de Constança",
+   "commons": "Friedrichshafen Bodensee harbour aerial view",
+   "semFoto": true
+  },
+  "museu-zeppelin": {
+   "arquivo": "imagens/museu-zeppelin-a0c5da77.jpg",
+   "rotulo": "Museu Zeppelin",
+   "commons": "Zeppelin Museum Friedrichshafen",
+   "autor": "Daderot",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:General_view_-_Zeppelin_Museum_Friedrichshafen_-_DSC06788.jpg",
+   "titulo": "File:General view - Zeppelin Museum Friedrichshafen - DSC06788.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 56.1
+   },
+   "borrada": "imagens/museu-zeppelin-a0c5da77-b.jpg"
+  },
+  "raid-londres": {
+   "arquivo": "imagens/raid-londres-51cd2cb0.jpg",
+   "rotulo": "Zepelim sobre Londres, 1915",
+   "commons": "German Zeppelin raid over London 1915",
+   "autor": "The Seattle star",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:German_airships_shower_hail_of_death_in_raid_on_London_-_Front_cover_Seattle_Star_June_1_1915.png",
+   "titulo": "File:German airships shower hail of death in raid on London - Front cover Seattle Star June 1 1915.png",
+   "largura": 1920,
+   "altura": 855,
+   "rostos": 0,
+   "foco": {
+    "x": 61.9,
+    "y": 41.5
+   },
+   "borrada": "imagens/raid-londres-51cd2cb0-b.jpg"
+  },
+  "sl11": {
+   "arquivo": "imagens/sl11-7692bd85.jpg",
+   "rotulo": "Dirigível abatido em Cuffley, 1916",
+   "commons": "SL 11 airship shot down Cuffley 1916",
+   "autor": "UnknownUnknown . File created by Jeff Lea",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_End_of_the_%27Baby-Killer%27.png",
+   "titulo": "File:The End of the 'Baby-Killer'.png",
+   "largura": 946,
+   "altura": 1546,
+   "rostos": 0,
+   "foco": {
+    "x": 50.0,
+    "y": 62.6
+   },
+   "borrada": "imagens/sl11-7692bd85-b.jpg"
+  },
+  "hangar-fn": {
+   "arquivo": "",
+   "rotulo": "Hangar Zeppelin em Friedrichshafen",
+   "commons": "Zeppelin airship hangar Friedrichshafen 1910s",
+   "semFoto": true
+  },
+  "delag": {
+   "arquivo": "imagens/delag-9e99c7ac.jpg",
+   "rotulo": "Zepelim da DELAG, 1911",
+   "commons": "DELAG Zeppelin LZ 10 Schwaben passengers 1911",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Het_Duitse_luchtschip_LZ_10_Schwaben,_SFA003000982.jpg",
+   "titulo": "File:Het Duitse luchtschip LZ 10 Schwaben, SFA003000982.jpg",
+   "largura": 1920,
+   "altura": 1350,
+   "rostos": 0,
+   "foco": {
+    "x": 37.1,
+    "y": 35.8
+   },
+   "borrada": "imagens/delag-9e99c7ac-b.jpg"
+  },
+  "bodensee": {
+   "arquivo": "imagens/bodensee-630bfb00.jpg",
+   "rotulo": "LZ 120 Bodensee, 1919",
+   "commons": "Zeppelin LZ 120 Bodensee 1919",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:LZ120BodenseeLuftschiffhalle.jpg",
+   "titulo": "File:LZ120BodenseeLuftschiffhalle.jpg",
+   "largura": 1631,
+   "altura": 1049,
+   "rostos": 0,
+   "foco": {
+    "x": 77.2,
+    "y": 40.5
+   },
+   "borrada": "imagens/bodensee-630bfb00-b.jpg"
+  },
+  "graf-1928": {
+   "arquivo": "imagens/graf-1928-1e0a56cd.jpg",
+   "rotulo": "Graf Zeppelin, 1928",
+   "commons": "LZ 127 Graf Zeppelin 1928 first flight Friedrichshafen",
+   "autor": "Pacific &amp; Atlantic Photos",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Graf_Zeppelin_fin_damage_1928.jpg",
+   "titulo": "File:Graf Zeppelin fin damage 1928.jpg",
+   "largura": 870,
+   "altura": 683,
+   "rostos": 0,
+   "foco": {
+    "x": 51.7,
+    "y": 35.6
+   },
+   "borrada": "imagens/graf-1928-1e0a56cd-b.jpg"
+  },
+  "graf-comprimento": {
+   "arquivo": "",
+   "rotulo": "Graf Zeppelin sobre Colônia",
+   "commons": "LZ 127 Graf Zeppelin over Cologne cathedral",
+   "semFoto": true
+  },
+  "graf-mapa": {
+   "arquivo": "",
+   "rotulo": "Rota da volta ao mundo, 1929",
+   "commons": "Graf Zeppelin world flight 1929 route map",
+   "semFoto": true
+  },
+  "graf-toquio": {
+   "arquivo": "",
+   "rotulo": "Graf Zeppelin no Japão, 1929",
+   "commons": "Graf Zeppelin Tokyo Kasumigaura 1929",
+   "semFoto": true
+  },
+  "graf-la": {
+   "arquivo": "imagens/graf-la-d8586042.jpg",
+   "rotulo": "Graf Zeppelin em Los Angeles, 1929",
+   "commons": "Graf Zeppelin Los Angeles 1929 Mines Field",
+   "autor": "SDASM Archives",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zeppelin_-_6801427376.jpg",
+   "titulo": "File:Zeppelin - 6801427376.jpg",
+   "largura": 1200,
+   "altura": 876,
+   "rostos": 0,
+   "foco": {
+    "x": 35.1,
+    "y": 60.6
+   },
+   "borrada": "imagens/graf-la-d8586042-b.jpg"
+  },
+  "graf-recife": {
+   "arquivo": "",
+   "rotulo": "Graf Zeppelin no Recife, 1930",
+   "commons": "Graf Zeppelin Recife Jiquiá 1930 Brasil",
+   "semFoto": true
+  },
+  "hangar-santacruz": {
+   "arquivo": "imagens/hangar-santacruz-38086531.jpg",
+   "rotulo": "Hangar do Zeppelin, Santa Cruz (RJ)",
+   "commons": "Hangar do Zeppelin Santa Cruz Rio de Janeiro",
+   "autor": "Rcandre",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hangar_de_Zeppelins.jpg",
+   "titulo": "File:Hangar de Zeppelins.jpg",
+   "largura": 1280,
+   "altura": 960,
+   "rostos": 0,
+   "foco": {
+    "x": 35.8,
+    "y": 75.9
+   },
+   "borrada": "imagens/hangar-santacruz-38086531-b.jpg"
+  },
+  "salao": {
+   "arquivo": "",
+   "rotulo": "Salão do Hindenburg",
+   "commons": "Hindenburg passenger lounge interior",
+   "semFoto": true
+  },
+  "cabine": {
+   "arquivo": "imagens/cabine-db0df2f1.jpg",
+   "rotulo": "Cabine do Hindenburg",
+   "commons": "Hindenburg passenger cabin interior",
+   "autor": "Ankermast",
+   "licenca": "CC BY 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Doppelkabine_LZ_129_Zeppelin_Museum.jpg",
+   "titulo": "File:Doppelkabine LZ 129 Zeppelin Museum.jpg",
+   "largura": 1920,
+   "altura": 1792,
+   "rostos": 0,
+   "foco": {
+    "x": 34.1,
+    "y": 60.0
+   },
+   "borrada": "imagens/cabine-db0df2f1-b.jpg"
+  },
+  "jantar": {
+   "arquivo": "imagens/jantar-644f2d2e.jpg",
+   "rotulo": "Sala de jantar do Hindenburg",
+   "commons": "Hindenburg dining room interior",
+   "autor": "O. V. Stetten",
+   "licenca": "CC BY-SA 3.0 de",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_147-0640,_Luftschiff_Hindenburg_(LZ-129),_Speisesaal.jpg",
+   "titulo": "File:Bundesarchiv Bild 147-0640, Luftschiff Hindenburg (LZ-129), Speisesaal.jpg",
+   "largura": 1920,
+   "altura": 1340,
+   "rostos": 0,
+   "foco": {
+    "x": 49.7,
+    "y": 58.3
+   },
+   "borrada": "imagens/jantar-644f2d2e-b.jpg"
+  },
+  "janelas": {
+   "arquivo": "imagens/janelas-f85cd930.jpg",
+   "rotulo": "Janelas do Hindenburg",
+   "commons": "Hindenburg promenade deck windows passengers",
+   "autor": "Agence de presse Mondial Photo-Presse. Agence photographique (commanditaire)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Le_pr%C3%A9sident_Hindenburg,_en_promenade_%C3%A0_Dietramszell_en_Bavi%C3%A8re_-_un_jour_de_f%C3%AAte_-_btv1b9036345m.jpg",
+   "titulo": "File:Le président Hindenburg, en promenade à Dietramszell en Bavière - un jour de fête - btv1b9036345m.jpg",
+   "largura": 1920,
+   "altura": 1450,
+   "rostos": 0,
+   "foco": {
+    "x": 48.0,
+    "y": 26.4
+   },
+   "borrada": "imagens/janelas-f85cd930-b.jpg"
+  },
+  "oceano": {
+   "arquivo": "",
+   "rotulo": "Hindenburg sobre o Atlântico",
+   "commons": "Hindenburg over Atlantic Ocean 1936",
+   "semFoto": true
+  },
+  "cartaz": {
+   "arquivo": "imagens/cartaz-a025a648.jpg",
+   "rotulo": "Cartaz do Hindenburg",
+   "commons": "Hindenburg transatlantic advertisement poster 1936",
+   "autor": "Daderot",
+   "licenca": "CC0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Plate_commemorating_LZ_129_Hindenberg_-_Zeppelin_Museum_Friedrichshafen_-_DSC06854.jpg",
+   "titulo": "File:Plate commemorating LZ 129 Hindenberg - Zeppelin Museum Friedrichshafen - DSC06854.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 24.0,
+    "y": 60.9
+   },
+   "borrada": "imagens/cartaz-a025a648-b.jpg"
+  },
+  "hind-construcao": {
+   "arquivo": "",
+   "rotulo": "Construção do Hindenburg",
+   "commons": "LZ 129 Hindenburg construction Friedrichshafen framework",
+   "semFoto": true
+  },
+  "hind-1936": {
+   "arquivo": "imagens/hind-1936-8f547303.jpg",
+   "rotulo": "Hindenburg, 1936",
+   "wiki": "LZ 129 Hindenburg",
+   "commons": "LZ 129 Hindenburg first flight March 1936",
+   "autor": "unknown; the image uploaded to the Commons by RolfMexiko (talk · contribs)",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zeppelin_Postkarte_1936_a.jpg",
+   "titulo": "File:Zeppelin Postkarte 1936 a.jpg",
+   "largura": 1043,
+   "altura": 640,
+   "rostos": 0,
+   "foco": {
+    "x": 48.8,
+    "y": 63.2
+   },
+   "borrada": "imagens/hind-1936-8f547303-b.jpg"
+  },
+  "hind-comparacao": {
+   "arquivo": "",
+   "rotulo": "Tamanho do Hindenburg",
+   "commons": "Hindenburg size comparison Titanic",
+   "semFoto": true
+  },
+  "hidrogenio": {
+   "arquivo": "",
+   "rotulo": "Células de hidrogênio",
+   "commons": "Hindenburg gas cells hydrogen interior framework",
+   "semFoto": true
+  },
+  "helio": {
+   "arquivo": "imagens/helio-dfd7ff17.jpg",
+   "rotulo": "Usina de hélio, Texas",
+   "commons": "Amarillo helium plant Bureau of Mines Texas",
+   "autor": "Dupuis, Lucas, creator",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Helium_Production_Process_-_U.S._Bureau_of_Mines,_Helium_Plants,_Amarillo_Helium_Plant,_10001_Interchange_552,_Amarillo,_Potter_County,_TX_HAER_TX-105-A_(sheet_3_of_4).png",
+   "titulo": "File:Helium Production Process - U.S. Bureau of Mines, Helium Plants, Amarillo Helium Plant, 10001 Interchange 552, Amarillo, Potter County, TX HAER TX-105-A (sheet 3 of 4).png",
+   "largura": 1920,
+   "altura": 1279,
+   "rostos": 0,
+   "foco": {
+    "x": 64.0,
+    "y": 43.4
+   },
+   "borrada": "imagens/helio-dfd7ff17-b.jpg"
+  },
+  "hind-suastica": {
+   "arquivo": "imagens/hind-suastica-da195109.jpg",
+   "rotulo": "Cauda do Hindenburg, 1936",
+   "commons": "Hindenburg swastika tail fin 1936",
+   "autor": "Wide World Photos-published by Brooklyn Daily Eagle May 8, 1936",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hindenburg_in_Rio_1936.jpg",
+   "titulo": "File:Hindenburg in Rio 1936.jpg",
+   "largura": 1453,
+   "altura": 1087,
+   "rostos": 0,
+   "foco": {
+    "x": 21.4,
+    "y": 42.3
+   },
+   "borrada": "imagens/hind-suastica-da195109-b.jpg"
+  },
+  "hind-olimpiadas": {
+   "arquivo": "imagens/hind-olimpiadas-6a803b8f.jpg",
+   "rotulo": "Hindenburg sobre o Estádio Olímpico",
+   "commons": "Hindenburg Olympic Stadium Berlin 1936",
+   "autor": "Unknown authorUnknown author",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:1936_in_Germany_by_a_Hungarian_photographer_(Berlin_Olympics,_Hindenburg)_02.jpg",
+   "titulo": "File:1936 in Germany by a Hungarian photographer (Berlin Olympics, Hindenburg) 02.jpg",
+   "largura": 1920,
+   "altura": 2014,
+   "rostos": 0,
+   "foco": {
+    "x": 66.6,
+    "y": 57.4
+   },
+   "borrada": "imagens/hind-olimpiadas-6a803b8f-b.jpg"
+  },
+  "hind-pouso": {
+   "arquivo": "",
+   "rotulo": "Pouso em Lakehurst, 1936",
+   "commons": "Hindenburg landing Lakehurst 1936 ground crew",
+   "semFoto": true
+  },
+  "hind-rio": {
+   "arquivo": "",
+   "rotulo": "Hindenburg no Rio de Janeiro",
+   "commons": "Hindenburg Rio de Janeiro 1936 Santa Cruz mooring",
+   "semFoto": true
+  },
+  "hind-ponte": {
+   "arquivo": "",
+   "rotulo": "Cabine de comando do Hindenburg",
+   "commons": "Hindenburg control car bridge crew",
+   "semFoto": true
+  },
+  "hangar-lakehurst": {
+   "arquivo": "imagens/hangar-lakehurst-7ec7246a.jpg",
+   "rotulo": "Hangar nº 1, Lakehurst",
+   "commons": "Hangar No. 1 Lakehurst interior airship",
+   "autor": "Bain News Service, publisher",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lakehurst_Hangar_LCCN2014713100.jpg",
+   "titulo": "File:Lakehurst Hangar LCCN2014713100.jpg",
+   "largura": 1920,
+   "altura": 1384,
+   "rostos": 0,
+   "foco": {
+    "x": 28.1,
+    "y": 43.4
+   },
+   "borrada": "imagens/hangar-lakehurst-7ec7246a-b.jpg"
+  },
+  "equipe-solo": {
+   "arquivo": "",
+   "rotulo": "Equipe de solo do Hindenburg",
+   "commons": "Hindenburg ground handling crew Lakehurst mooring lines",
+   "semFoto": true
+  },
+  "dc2": {
+   "arquivo": "",
+   "rotulo": "Douglas DC-2",
+   "commons": "Douglas DC-2 airliner 1930s",
+   "semFoto": true
+  },
+  "r101": {
+   "arquivo": "imagens/r101-f57c6016.jpg",
+   "rotulo": "Dirigível R101",
+   "wiki": "R101",
+   "commons": "R101 airship Cardington mooring mast 1929",
+   "autor": "no author credted",
+   "licenca": "No restrictions",
+   "pagina": "https://commons.wikimedia.org/wiki/File:R101-at_mast.jpg",
+   "titulo": "File:R101-at mast.jpg",
+   "largura": 800,
+   "altura": 606,
+   "rostos": 0,
+   "foco": {
+    "x": 80,
+    "y": 56.9
+   },
+   "borrada": "imagens/r101-f57c6016-b.jpg"
+  },
+  "r101-queda": {
+   "arquivo": "",
+   "rotulo": "Destroços do R101, 1930",
+   "commons": "R101 airship wreckage Beauvais 1930",
+   "semFoto": true
+  },
+  "akron": {
+   "arquivo": "imagens/akron-62412bc6.jpg",
+   "rotulo": "USS Akron",
+   "commons": "USS Akron airship ZRS-4 in flight",
+   "autor": "USN",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:NH_63070_USS_Akron_(ZRS-4).png",
+   "titulo": "File:NH 63070 USS Akron (ZRS-4).png",
+   "largura": 1920,
+   "altura": 1483,
+   "rostos": 1,
+   "foco": {
+    "x": 30.8,
+    "y": 70.8
+   },
+   "borrada": "imagens/akron-62412bc6-b.jpg"
+  },
+  "akron-queda": {
+   "arquivo": "",
+   "rotulo": "Queda do USS Akron, 1933",
+   "commons": "USS Akron crash 1933 wreckage sea",
+   "semFoto": true
+  },
+  "nj-mapa": {
+   "arquivo": "",
+   "rotulo": "Lakehurst, Nova Jérsei",
+   "commons": "Lakehurst New Jersey locator map",
+   "semFoto": true
+  },
+  "hind-aproximacao": {
+   "arquivo": "",
+   "rotulo": "Hindenburg se aproxima de Lakehurst",
+   "commons": "Hindenburg approaching Lakehurst May 6 1937",
+   "semFoto": true
+  },
+  "hind-chamas": {
+   "arquivo": "",
+   "rotulo": "Hindenburg em chamas",
+   "commons": "Hindenburg disaster fire stern 1937",
+   "semFoto": true
+  },
+  "hind-queda": {
+   "arquivo": "",
+   "rotulo": "Hindenburg desaba",
+   "commons": "Hindenburg disaster collapsing to ground 1937",
+   "semFoto": true
+  },
+  "hind-destrocos": {
+   "arquivo": "",
+   "rotulo": "Destroços do Hindenburg",
+   "commons": "Hindenburg disaster wreckage frame Lakehurst 1937",
+   "semFoto": true
+  },
+  "jornal-1937": {
+   "arquivo": "",
+   "rotulo": "Jornal sobre o Hindenburg, 1937",
+   "commons": "Hindenburg disaster newspaper front page May 1937",
+   "semFoto": true
+  },
+  "memorial": {
+   "arquivo": "imagens/memorial-8ceccf63.jpg",
+   "rotulo": "Memorial do Hindenburg",
+   "commons": "Hindenburg memorial Lakehurst",
+   "autor": "en:User:Paxswill",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hindenburg_memorial.jpg",
+   "titulo": "File:Hindenburg memorial.jpg",
+   "largura": 1920,
+   "altura": 1440,
+   "rostos": 0,
+   "foco": {
+    "x": 47.9,
+    "y": 75.1
+   },
+   "borrada": "imagens/memorial-8ceccf63-b.jpg"
+  },
+  "graf-aposentado": {
+   "arquivo": "",
+   "rotulo": "Graf Zeppelin aposentado, 1938",
+   "commons": "LZ 127 Graf Zeppelin Frankfurt museum 1938",
+   "semFoto": true
+  },
+  "lz130": {
+   "arquivo": "",
+   "rotulo": "LZ 130 Graf Zeppelin II",
+   "commons": "LZ 130 Graf Zeppelin II Frankfurt 1938",
+   "semFoto": true
+  },
+  "demolicao": {
+   "arquivo": "",
+   "rotulo": "Demolição dos hangares, 1940",
+   "commons": "Zeppelin hangar demolition Frankfurt Rhein-Main 1940",
+   "semFoto": true
+  },
+  "dc3": {
+   "arquivo": "imagens/dc3-aac69819.jpg",
+   "rotulo": "Douglas DC-3",
+   "wiki": "Douglas DC-3",
+   "commons": "Douglas DC-3 airliner",
+   "autor": "Towpilot",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Douglas_DC-3,_SE-CFP.jpg",
+   "titulo": "File:Douglas DC-3, SE-CFP.jpg",
+   "largura": 1148,
+   "altura": 804,
+   "rostos": 0,
+   "foco": {
+    "x": 62.0,
+    "y": 58.9
+   },
+   "borrada": "imagens/dc3-aac69819-b.jpg"
+  },
+  "clipper": {
+   "arquivo": "imagens/clipper-9d195b83.jpg",
+   "rotulo": "Boeing 314 Clipper, Pan Am",
+   "commons": "Boeing 314 Clipper Pan American 1939",
+   "autor": "Harris &amp; Ewing, photographer",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Boeing_314_Yankee_Clipper_1939.jpg",
+   "titulo": "File:Boeing 314 Yankee Clipper 1939.jpg",
+   "largura": 1920,
+   "altura": 1430,
+   "rostos": 0,
+   "foco": {
+    "x": 70.0,
+    "y": 72.2
+   },
+   "borrada": "imagens/clipper-9d195b83-b.jpg"
+  },
+  "hangar-cardington": {
+   "arquivo": "imagens/hangar-cardington-9a1ffd53.jpg",
+   "rotulo": "Hangares de Cardington",
+   "commons": "Cardington Airship Hangars",
+   "autor": "TheOtherKev",
+   "licenca": "Licença Pixabay",
+   "pagina": "https://pixabay.com/pt/photos/hangares-cardington-hangares-cidade-6619519/",
+   "titulo": "hangares cardington, hangares, cidade, edifícios, aeródromo de cardington, indústria, hangares de dirigíveis, aeródromo, bedfordshire, inglaterra",
+   "largura": 1280,
+   "altura": 710,
+   "rostos": 0,
+   "foco": {
+    "x": 51.8,
+    "y": 63.1
+   },
+   "borrada": "imagens/hangar-cardington-9a1ffd53-b.jpg"
+  },
+  "pista": {
+   "arquivo": "",
+   "rotulo": "Pista de Gander",
+   "commons": "Gander airport 1940s runway Atlantic ferry",
+   "semFoto": true
+  },
+  "boeing707": {
+   "arquivo": "",
+   "rotulo": "Boeing 707 da Pan Am",
+   "commons": "Pan Am Boeing 707 1958 Idlewild",
+   "semFoto": true
+  },
+  "zeppelin-nt": {
+   "arquivo": "imagens/zeppelin-nt-797e1c9a.jpg",
+   "rotulo": "Zeppelin NT",
+   "wiki": "Zeppelin NT",
+   "commons": "Zeppelin NT D-LZFN airship",
+   "autor": "AngMoKio",
+   "licenca": "CC BY-SA 3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zeppellin_NT_amk.JPG",
+   "titulo": "File:Zeppellin NT amk.JPG",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 38.4,
+    "y": 51.7
+   },
+   "borrada": "imagens/zeppelin-nt-797e1c9a-b.jpg"
+  },
+  "nt-constanca": {
+   "arquivo": "",
+   "rotulo": "Zeppelin NT sobre o lago de Constança",
+   "commons": "Zeppelin NT over Lake Constance Friedrichshafen sightseeing",
+   "semFoto": true
+  },
+  "airlander": {
+   "arquivo": "imagens/airlander-314370e7.jpg",
+   "rotulo": "Airlander 10",
+   "wiki": "Airlander 10",
+   "commons": "Airlander 10 hybrid airship Cardington",
+   "autor": "Alan Wilson from Stilton, Peterborough, Cambs, UK",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hybrid_Air_Vehicles_Airlander_10_%E2%80%98G-PHRG%E2%80%99_(36384852036).jpg",
+   "titulo": "File:Hybrid Air Vehicles Airlander 10 ‘G-PHRG’ (36384852036).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 56.8,
+    "y": 61.0
+   },
+   "borrada": "imagens/airlander-314370e7-b.jpg"
+  },
+  "airlander-voo": {
+   "arquivo": "imagens/airlander-voo-0e5e22e0.jpg",
+   "rotulo": "Airlander 10 em voo, 2016",
+   "commons": "Airlander 10 first flight August 2016",
+   "autor": "Alan Wilson from Stilton, Peterborough, Cambs, UK",
+   "licenca": "CC BY-SA 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hybrid_Air_Vehicles_Airlander_10_%E2%80%98G-PHRG%E2%80%99_(36430422265).jpg",
+   "titulo": "File:Hybrid Air Vehicles Airlander 10 ‘G-PHRG’ (36430422265).jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 43.3,
+    "y": 69.8
+   },
+   "borrada": "imagens/airlander-voo-0e5e22e0-b.jpg"
+  },
+  "flying-whales": {
+   "arquivo": "imagens/flying-whales-370f1ce7.jpg",
+   "rotulo": "Flying Whales LCA60T",
+   "commons": "Flying Whales LCA60T airship",
+   "autor": "Christopher Michel",
+   "licenca": "CC BY 2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Whales_can_fly.jpg",
+   "titulo": "File:Whales can fly.jpg",
+   "largura": 1920,
+   "altura": 1443,
+   "rostos": 0,
+   "foco": {
+    "x": 32.4,
+    "y": 70.3
+   },
+   "borrada": "imagens/flying-whales-370f1ce7-b.jpg"
+  },
+  "hind-cameras": {
+   "arquivo": "",
+   "rotulo": "Cinegrafistas em Lakehurst, 1937",
+   "commons": "Hindenburg disaster newsreel cameramen Lakehurst 1937",
+   "semFoto": true
+  },
+  "nt-carga": {
+   "arquivo": "imagens/nt-carga-3efbc391.jpg",
+   "rotulo": "Zeppelin NT no hangar",
+   "commons": "Zeppelin NT airship Friedrichshafen hangar",
+   "autor": "Dietmar Rabich",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Friedrichshafen,_Zeppelinhangar,_Zeppelin_--_2026_--_2488.jpg",
+   "titulo": "File:Friedrichshafen, Zeppelinhangar, Zeppelin -- 2026 -- 2488.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 49.9,
+    "y": 69.3
+   },
+   "borrada": "imagens/nt-carga-3efbc391-b.jpg"
+  },
+  "carga-estrada": {
+   "arquivo": "imagens/carga-estrada-dc4b08be.jpg",
+   "rotulo": "Dirigível de carga, conceito",
+   "commons": "Flying Whales LCA60T airship cargo concept forest logging",
+   "autor": "Flying Whales",
+   "licenca": "Public domain",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Flying_Whales-Logo.png",
+   "titulo": "File:Flying Whales-Logo.png",
+   "largura": 1738,
+   "altura": 389,
+   "rostos": 0,
+   "foco": {
+    "x": 39.6,
+    "y": 55.2
+   },
+   "borrada": "imagens/carga-estrada-dc4b08be-b.jpg"
+  },
+  "dc3-fim": {
+   "arquivo": "",
+   "rotulo": "Hidroavião Boeing 314",
+   "commons": "Pan Am Boeing 314 Yankee Clipper flying boat",
+   "semFoto": true
+  },
+  "monumento": {
+   "arquivo": "imagens/monumento-e3638b6d.jpg",
+   "rotulo": "Monumento a Zeppelin",
+   "commons": "Zeppelin monument Friedrichshafen",
+   "autor": "Dietmar Rabich",
+   "licenca": "CC BY-SA 4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Friedrichshafen,_Graf-Zeppelin-S%C3%A4ule_--_2026_--_2787.jpg",
+   "titulo": "File:Friedrichshafen, Graf-Zeppelin-Säule -- 2026 -- 2787.jpg",
+   "largura": 1920,
+   "altura": 1280,
+   "rostos": 0,
+   "foco": {
+    "x": 50.1,
+    "y": 56.0
+   },
+   "borrada": "imagens/monumento-e3638b6d-b.jpg"
+  },
+  "hind-ceu": {
+   "arquivo": "",
+   "rotulo": "Hindenburg no céu, 1936",
+   "commons": "Hindenburg airship in flight 1936 sky",
+   "semFoto": true
+  },
+  "nt-passageiros": {
+   "arquivo": "",
+   "rotulo": "Passeio de Zeppelin NT",
+   "commons": "Zeppelin NT passenger cabin sightseeing flight",
+   "semFoto": true
+  },
+  "graf-nuvens": {
+   "arquivo": "",
+   "rotulo": "Graf Zeppelin acima das nuvens",
+   "commons": "Graf Zeppelin LZ 127 above clouds",
+   "semFoto": true
+  }
+ },
  "processamento": {
   "workflow": "gerar-ia.yml",
   "pedidoEm": "2026-11-12T18:04:54.659Z"
  },
  "legenda": {
-  "fonte": "montserrat",
+  "fonte": "poppins",
   "tamanho": 60,
   "cor": "#FFFFFF",
   "corDestaque": "#FFD60A",
@@ -88,6 +7153,74 @@
   "emojis": [],
   "sons": [],
   "zooms": [],
-  "enquete": null
+  "enquete": null,
+  "musica": "leve"
+ },
+ "fontesPesquisa": [
+  {
+   "titulo": "Britannica — Zeppelin",
+   "url": "https://www.britannica.com/technology/zeppelin"
+  },
+  {
+   "titulo": "Wikipedia — Hindenburg-class airship",
+   "url": "https://en.wikipedia.org/wiki/Hindenburg-class_airship"
+  },
+  {
+   "titulo": "Wikipedia — LZ 127 Graf Zeppelin",
+   "url": "https://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin"
+  },
+  {
+   "titulo": "Wikipedia — Hindenburg disaster",
+   "url": "https://en.wikipedia.org/wiki/Hindenburg_disaster"
+  },
+  {
+   "titulo": "History.com — Hindenburg",
+   "url": "https://www.history.com/topics/great-depression/hindenburg"
+  },
+  {
+   "titulo": "Century of Flight — The end of the airship era",
+   "url": "https://www.century-of-flight.net/the-end-of-the-airship-era-the-hindenburg-disaster/"
+  },
+  {
+   "titulo": "Planet Wissen — Zeppeline",
+   "url": "https://www.planet-wissen.de/technik/luftfahrt/zeppeline/index.html"
+  },
+  {
+   "titulo": "Wikipedia — Zeppelin NT",
+   "url": "https://en.wikipedia.org/wiki/Zeppelin_NT"
+  },
+  {
+   "titulo": "Wikipedia — Airlander 10",
+   "url": "https://en.wikipedia.org/wiki/Airlander_10"
+  }
+ ],
+ "estiloIA": {
+  "dinamica": "minimal",
+  "legenda": "cinema",
+  "transicao": "deslize",
+  "fundo": "limpo",
+  "formato": "linha-do-tempo"
+ },
+ "publicacao": {
+  "titulos": [
+   "O que realmente matou os dirigíveis? (Não foi só o Hindenburg)",
+   "Zepelins: a verdadeira história do fim dos gigantes do ar",
+   "Por que os gigantes do ar perderam o céu? Antes das chamas"
+  ],
+  "descricao": "O Graf Zeppelin voou mais de um milhão de quilômetros sem ferir um passageiro. O Hindenburg queimou em menos de um minuto. Mas foi mesmo um acidente que acabou com os dirigíveis? Veja os custos, a política do hélio, a concorrência dos aviões e os dirigíveis que voltam hoje.\n\n0:00 O contraste\n0:40 O sonho do conde\n1:15 Zepelins e guerra\n1:55 A era de ouro\n2:30 Luxo a bordo\n3:05 O maior de todos\n3:45 A conta que não fechava\n4:20 Outros desastres\n4:55 Lakehurst, 1937\n5:25 O mito do acidente único\n6:05 Os aviões vencem\n6:45 Dirigíveis hoje\n7:20 Desfecho\n\nFontes: Britannica, Wikipedia (Hindenburg-class airship, LZ 127 Graf Zeppelin, Hindenburg disaster, Zeppelin NT, Airlander 10), History.com, Century of Flight, Planet Wissen.",
+  "tags": [
+   "dirigíveis",
+   "zepelim",
+   "Hindenburg",
+   "Graf Zeppelin",
+   "história da aviação",
+   "tecnologia",
+   "Airlander 10",
+   "Zeppelin NT",
+   "documentário",
+   "transporte transatlântico",
+   "hélio e hidrogênio",
+   "Inova mundo"
+  ]
  }
 }

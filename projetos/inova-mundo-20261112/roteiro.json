@@ -1,0 +1,161 @@
+{
+  "titulo": "O que aconteceu com os dirigíveis zepelim?",
+  "estilo": { "dinamica": "minimal", "legenda": "cinema", "transicao": "deslize", "fundo": "limpo",
+              "musica": "leve", "formato": "linha-do-tempo", "fonte": "poppins", "paleta": "grafite" },
+  "legenda": { "palavrasPorTela": 8 },
+  "fontesPesquisa": [
+    { "titulo": "Britannica — Zeppelin", "url": "https://www.britannica.com/technology/zeppelin" },
+    { "titulo": "Wikipedia — Hindenburg-class airship", "url": "https://en.wikipedia.org/wiki/Hindenburg-class_airship" },
+    { "titulo": "Wikipedia — LZ 127 Graf Zeppelin", "url": "https://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin" },
+    { "titulo": "Wikipedia — Hindenburg disaster", "url": "https://en.wikipedia.org/wiki/Hindenburg_disaster" },
+    { "titulo": "History.com — Hindenburg", "url": "https://www.history.com/topics/great-depression/hindenburg" },
+    { "titulo": "Century of Flight — The end of the airship era", "url": "https://www.century-of-flight.net/the-end-of-the-airship-era-the-hindenburg-disaster/" },
+    { "titulo": "Planet Wissen — Zeppeline", "url": "https://www.planet-wissen.de/technik/luftfahrt/zeppeline/index.html" },
+    { "titulo": "Wikipedia — Zeppelin NT", "url": "https://en.wikipedia.org/wiki/Zeppelin_NT" },
+    { "titulo": "Wikipedia — Airlander 10", "url": "https://en.wikipedia.org/wiki/Airlander_10" }
+  ],
+  "publicacao": {
+    "titulos": [
+      "O que realmente matou os dirigíveis? (Não foi só o Hindenburg)",
+      "Zepelins: a verdadeira história do fim dos gigantes do ar",
+      "Por que os gigantes do ar perderam o céu? Antes das chamas"
+    ],
+    "descricao": "O Graf Zeppelin voou mais de um milhão de quilômetros sem ferir um passageiro. O Hindenburg queimou em menos de um minuto. Mas foi mesmo um acidente que acabou com os dirigíveis? Veja os custos, a política do hélio, a concorrência dos aviões e os dirigíveis que voltam hoje.\n\n0:00 O contraste\n0:40 O sonho do conde\n1:15 Zepelins e guerra\n1:55 A era de ouro\n2:30 Luxo a bordo\n3:05 O maior de todos\n3:45 A conta que não fechava\n4:20 Outros desastres\n4:55 Lakehurst, 1937\n5:25 O mito do acidente único\n6:05 Os aviões vencem\n6:45 Dirigíveis hoje\n7:20 Desfecho\n\nFontes: Britannica, Wikipedia (Hindenburg-class airship, LZ 127 Graf Zeppelin, Hindenburg disaster, Zeppelin NT, Airlander 10), History.com, Century of Flight, Planet Wissen.",
+    "tags": ["dirigíveis", "zepelim", "Hindenburg", "Graf Zeppelin", "história da aviação", "tecnologia", "Airlander 10", "Zeppelin NT", "documentário", "transporte transatlântico", "hélio e hidrogênio", "Inova mundo"]
+  },
+  "cenas": [
+    {
+      "id": "gancho",
+      "texto": "O Graf Zeppelin voou mais de um milhão de quilômetros e nunca feriu um único passageiro. O Hindenburg pegou fogo e caiu em menos de um minuto. Mesmo assim, a história costuma culpar só o segundo. Será que um acidente basta para enterrar uma tecnologia inteira? Ou ela já estava com os dias contados antes das chamas? Ao longo desta viagem você vai ver o que os gigantes do ar realmente fizeram, por que perderam o céu e quem ainda tenta trazê-los de volta.",
+      "galeria": ["graf-voo", "hind-fogo", "lakehurst-base", "hind-ny", "dois-zeps"],
+      "galeriaEm": [0, "pegou", "Será", "Ou", "gigantes"],
+      "fontes": ["Britannica"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 1700000, "unidade": "km", "rotulo": "voados pelo Graf Zeppelin", "em": "milhão", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "conde",
+      "texto": "Ferdinand von Zeppelin era um oficial de cavalaria alemão que deixou o exército aos cinquenta e dois anos. Foi então que decidiu construir aeronaves com esqueleto rígido de metal, cheias de gás. Em julho de mil e novecentos, o LZ 1 subiu sobre o lago de Constança, em Friedrichshafen. Era enorme, lento e frágil. Os investidores sumiram, e o conde gastou a própria fortuna. Mas a ideia tinha um trunfo: a estrutura rígida permitia crescer sem limite. Faltava provar que aquilo servia para mais que espetáculo.",
+      "galeria": ["conde", "lz1-estrutura", "lz1-voo", "friedrichshafen", "museu-zeppelin"],
+      "galeriaEm": [0, "esqueleto", "LZ", "Friedrichshafen", "Faltava"],
+      "fontes": ["Britannica"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O SONHO DO CONDE", "em": 0, "posicao": "alto" },
+        { "tipo": "linha", "itens": [["1890", "Deixa o exército"], ["1900", "Voo do LZ 1"]], "em": "Foi", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "guerra",
+      "texto": "A prova veio por um caminho sombrio. Na Primeira Guerra Mundial, a Alemanha usou zepelins para bombardear Londres, a partir de mil novecentos e quinze. Eram alvos fáceis para os aviões, e os ataques perderam força. Mesmo assim, ficou uma herança: técnicos, hangares e a certeza de que dava para cruzar grandes distâncias com uma estrutura rígida. Antes da guerra, aliás, a empresa DELAG, criada em mil novecentos e nove, já tinha sido a primeira companhia aérea do mundo. Faltava um dirigível à altura da paz.",
+      "galeria": ["raid-londres", "sl11", "hangar-fn", "delag", "bodensee"],
+      "galeriaEm": [0, "Eram", "hangares", "DELAG", "Faltava"],
+      "fontes": ["Britannica", "Wikipédia"],
+      "elementos": [
+        { "tipo": "definicao", "palavra": "DELAG", "significado": "Primeira companhia aérea do mundo (1909)", "em": "DELAG", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "graf",
+      "texto": "Em mil novecentos e vinte e oito, voou o LZ 127, o Graf Zeppelin. Com duzentos e trinta e seis metros, era mais comprido que muitos transatlânticos. Em agosto de mil novecentos e vinte e nove, deu a volta ao mundo em pouco mais de vinte e um dias de voo, com paradas em Tóquio e Los Angeles. Depois passou a ligar a Alemanha ao Recife e ao Rio de Janeiro, e o Brasil ganhou hangares que ainda estão de pé. Era elegante, silencioso e, sobretudo, confiável.",
+      "galeria": ["graf-1928", "graf-comprimento", "graf-mapa", "graf-toquio", "graf-la", "graf-recife", "hangar-santacruz"],
+      "galeriaEm": [0, "Com", "agosto", "Tóquio", "Los", "Recife", "hangares"],
+      "fontes": ["Britannica", "Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "A ERA DE OURO", "em": 0, "posicao": "alto" },
+        { "tipo": "mapa", "de": "Friedrichshafen", "para": "Los Angeles", "legenda": "Volta ao mundo, 1929", "em": "agosto", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "luxo",
+      "texto": "Voar neles era um luxo. Nos grandes zepelins, até setenta e dois passageiros dormiam em cabines, jantavam com talheres de prata e olhavam o mar por janelas amplas. A travessia do Atlântico levava de dois a três dias, contra cerca de cinco nos navios. Mas o conforto tinha preço: a passagem de ida custava cerca de quatrocentos dólares, quase o valor de um carro novo. E isso apontava para uma fragilidade escondida no negócio.",
+      "galeria": ["salao", "cabine", "jantar", "janelas", "oceano", "cartaz"],
+      "galeriaEm": [0, "cabines", "jantavam", "janelas", "travessia", "passagem"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 400, "unidade": "US$", "rotulo": "passagem de ida, 1936", "em": "quatrocentos", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "hindenburg",
+      "texto": "Em março de mil novecentos e trinta e seis, o LZ 129 Hindenburg decolou pela primeira vez. Com duzentos e quarenta e cinco metros, foi a maior aeronave já construída. Por que usava hidrogênio, um gás inflamável? Porque os Estados Unidos, quase os únicos produtores de hélio, proibiam a exportação. Para a Alemanha nazista, o dirigível também era propaganda: levava a suástica na cauda e sobrevoou a abertura dos Jogos Olímpicos de Berlim. Funcionava. Mas a conta ainda não fechava.",
+      "galeria": ["hind-construcao", "hind-1936", "hind-comparacao", "hidrogenio", "helio", "hind-suastica", "hind-olimpiadas"],
+      "galeriaEm": [0, "decolou", "Com", "hidrogênio", "hélio", "propaganda", "Olímpicos"],
+      "fontes": ["Wikipédia", "Britannica"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O MAIOR DE TODOS", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 245, "unidade": "m", "rotulo": "comprimento do Hindenburg", "em": "duzentos", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "conta",
+      "texto": "Mesmo assim, mil novecentos e trinta e seis foi um ano de sucesso: dez viagens de ida e volta para os Estados Unidos e várias para o Brasil. Por trás do brilho, havia uma conta difícil. Cada voo exigia cerca de sessenta tripulantes para pouco mais de setenta passageiros, além de hangares gigantes e de uma equipe enorme em terra. Já os aviões ficavam mais baratos e mais rápidos a cada ano. O dirigível, não. E faltava só um empurrão para que a dúvida virasse desconfiança.",
+      "galeria": ["hind-pouso", "hind-rio", "hind-ponte", "hangar-lakehurst", "equipe-solo", "dc2"],
+      "galeriaEm": [0, "Brasil", "tripulantes", "hangares", "equipe", "aviões"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "contador", "de": 0, "ate": 61, "unidade": "pessoas", "rotulo": "de tripulação para ~70 passageiros", "em": "sessenta", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "outros",
+      "texto": "O Hindenburg não foi o primeiro a cair. Em outubro de mil novecentos e trinta, o R101, dirigível britânico, bateu na França e matou quarenta e oito das cinquenta e quatro pessoas a bordo. Em mil novecentos e trinta e três, o Akron, da Marinha americana, caiu no mar durante uma tempestade e matou setenta e três. E o Akron usava hélio. A fama de perigoso já existia. Só que o Hindenburg ia pousar diante das câmeras.",
+      "galeria": ["r101", "r101-queda", "akron", "akron-queda", "hind-cameras"],
+      "galeriaEm": [0, "bateu", "Marinha", "tempestade", "câmeras"],
+      "fontes": ["Wikipédia", "Britannica"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1930", "R101: 48 mortos"], ["1933", "Akron: 73 mortos"], ["1937", "Hindenburg"]], "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "lakehurst",
+      "texto": "Seis de maio de mil novecentos e trinta e sete, Lakehurst, Nova Jérsei. O Hindenburg chega com noventa e sete pessoas a bordo, atrasado por tempestades. Faltam poucos minutos para pousar. Então surge fogo perto da cauda. Em menos de um minuto, a estrutura inteira desaba no chão. Morrem trinta e seis pessoas: treze passageiros, vinte e dois tripulantes e um homem do solo. A rádio gravou a voz do repórter Herbert Morrison, e os cinejornais levaram as imagens ao mundo. Nunca um desastre tinha sido tão visto.",
+      "galeria": ["nj-mapa", "hind-aproximacao", "hind-chamas", "hind-queda", "hind-destrocos"],
+      "galeriaEm": [0, "chega", "fogo", "desaba", "Morrem"],
+      "fontes": ["Britannica", "History.com"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "6 DE MAIO DE 1937", "em": 0, "posicao": "alto" },
+        { "tipo": "contador", "de": 0, "ate": 36, "unidade": "mortos", "rotulo": "entre 97 pessoas a bordo", "em": "Morrem", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "mito",
+      "texto": "A versão popular diz que o fogo de Lakehurst acabou com os dirigíveis. É meia verdade: o acidente foi o golpe final num sistema já frágil. A confiança do público ruiu, sim. Mas, antes do acidente, a empresa já enfrentava custos altos, dependência do hélio americano e a ameaça dos aviões. Em junho de mil novecentos e trinta e sete, o Graf Zeppelin foi aposentado. Em mil novecentos e quarenta, o governo nazista mandou desmontar os dois dirigíveis que restavam e demolir os hangares, para reaproveitar o metal na guerra.",
+      "galeria": ["jornal-1937", "memorial", "graf-aposentado", "lz130", "demolicao"],
+      "galeriaEm": [0, "confiança", "aposentado", "dois", "demolir"],
+      "fontes": ["Wikipédia", "Century of Flight"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "O MITO DO ACIDENTE", "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "avioes",
+      "texto": "Enquanto isso, os aviões evoluíam depressa. Em mil novecentos e trinta e cinco, voou o Douglas DC-3, barato e robusto. Em mil novecentos e trinta e nove, a Pan American começou a levar passageiros através do Atlântico com os hidroaviões Boeing 314, os Clippers. Eram mais lentos que o sonho, mas não precisavam de um hangar do tamanho de um estádio, nem de sessenta tripulantes. Depois da guerra, as pistas construídas para os bombardeiros decidiram a disputa. O jato fez o resto.",
+      "galeria": ["dc3", "clipper", "hangar-cardington", "pista", "boeing707"],
+      "galeriaEm": [0, "Pan", "hangar", "pistas", "jato"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "linha", "itens": [["1935", "DC-3"], ["1939", "Clipper"], ["1958", "Boeing 707"]], "em": 0, "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "hoje",
+      "texto": "E os dirigíveis morreram de vez? Não. O Zeppelin NT, que voou pela primeira vez em mil novecentos e noventa e sete, ainda faz passeios turísticos sobre o lago de Constança, onde tudo começou. A empresa britânica Hybrid Air Vehicles testa o Airlander 10, de noventa e dois metros, que ganha parte da sustentação pelo formato do casco. E a francesa Flying Whales projeta um dirigível de carga de duzentos metros, para levar até sessenta toneladas a lugares sem estrada. A aposta agora não é o luxo do Atlântico, e sim o que o avião não faz bem.",
+      "galeria": ["zeppelin-nt", "nt-constanca", "airlander", "airlander-voo", "flying-whales", "carga-estrada"],
+      "galeriaEm": [0, "passeios", "Airlander", "casco", "Flying", "toneladas"],
+      "fontes": ["Wikipédia"],
+      "elementos": [
+        { "tipo": "titulo", "texto": "E HOJE?", "em": 0, "posicao": "alto" },
+        { "tipo": "definicao", "palavra": "Dirigível híbrido", "significado": "Parte da sustentação vem do formato do casco", "em": "Airlander", "posicao": "alto" }
+      ]
+    },
+    {
+      "id": "desfecho",
+      "texto": "Então, o que aconteceu com os dirigíveis? O fogo de Lakehurst foi o fim da confiança, não da lógica. Eles perderam para o avião em custo, velocidade e infraestrutura, e o acidente apenas escolheu o dia do adeus. Hoje, o hélio e os materiais leves mudam a conta em nichos como carga pesada e turismo. O sonho do conde Zeppelin nunca foi voar rápido. Era voar com grandeza. Tecnologia raramente desaparece por um único erro: ela sai de cena quando surge um jeito mais barato e mais simples de fazer a mesma tarefa. Talvez a pressa que o derrotou seja a mesma que agora pede um céu mais lento.",
+      "galeria": ["monumento", "hind-ceu", "nt-passageiros", "nt-carga", "dc3-fim", "graf-nuvens"],
+      "galeriaEm": [0, "perderam", "Hoje", "nichos", "Tecnologia", "sonho"],
+      "fontes": ["Britannica"],
+      "elementos": []
+    }
+  ]
+}
