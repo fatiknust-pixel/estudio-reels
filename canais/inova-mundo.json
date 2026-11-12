@@ -156,7 +156,9 @@
   {
    "titulo": "O que aconteceu com os dirigíveis zepelim?",
    "angulo": "De Graf Zeppelin ao Hindenburg (1937): por que gigantes do ar dominaram o transporte transatlântico e saíram de cena. Separa o mito do 'acidente que acabou com tudo' das razões econômicas e técnicas, e mostra os novos dirigíveis de hoje.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261112",
+   "em": "2026-11-12"
   },
   {
    "titulo": "Como o cabo submarino leva a internet até você",
@@ -204,5 +206,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-11"
+ "ultimaGeracao": "2026-11-12"
 }
