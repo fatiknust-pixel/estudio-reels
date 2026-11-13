@@ -163,7 +163,9 @@
   {
    "titulo": "Como o cabo submarino leva a internet até você",
    "angulo": "A rota física de um dado entre continentes: cabos de fibra no fundo do mar, navios lançadores, tubarões e âncoras como ameaças. Mostra que a 'nuvem' é feita de cabos reais, com exemplos do Brasil.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261113",
+   "em": "2026-11-13"
   },
   {
    "titulo": "O aeroporto construído numa ilha que afunda",
@@ -206,5 +208,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-12"
+ "ultimaGeracao": "2026-11-13"
 }
