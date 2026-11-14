@@ -170,7 +170,9 @@
   {
    "titulo": "O aeroporto construído numa ilha que afunda",
    "angulo": "A história do Aeroporto de Kansai, no Japão: ilha artificial em plena baía de Osaka, o afundamento acima do previsto e as soluções de engenharia para mantê-lo funcionando. Compara com outros aeroportos sobre o mar.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261114",
+   "em": "2026-11-14"
   },
   {
    "titulo": "A ferrovia mais alta do mundo sobre o gelo eterno",
@@ -208,5 +210,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-13"
+ "ultimaGeracao": "2026-11-14"
 }
