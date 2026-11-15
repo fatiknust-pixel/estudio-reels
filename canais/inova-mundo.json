@@ -177,7 +177,9 @@
   {
    "titulo": "A ferrovia mais alta do mundo sobre o gelo eterno",
    "angulo": "Como a ferrovia Qinghai-Tibete foi construída sobre permafrost a mais de 5.000 m de altitude, com tubos de resfriamento no solo e vagões pressurizados. Pergunta: como se faz trilho em chão que derrete?",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261115",
+   "em": "2026-11-15"
   },
   {
    "titulo": "Por que o Brasil nunca teve um trem-bala?",
@@ -210,5 +212,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-14"
+ "ultimaGeracao": "2026-11-15"
 }
