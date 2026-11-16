@@ -184,7 +184,9 @@
   {
    "titulo": "Por que o Brasil nunca teve um trem-bala?",
    "angulo": "A história do projeto TAV Rio–São Paulo–Campinas: estudos, leilões cancelados, custos e disputas. Compara com Japão e França e mostra mais de um ponto de vista, com números datados e fontes oficiais.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261116",
+   "em": "2026-11-16"
   },
   {
    "titulo": "A verdadeira história da Represa Hoover",
@@ -212,5 +214,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-15"
+ "ultimaGeracao": "2026-11-16"
 }
