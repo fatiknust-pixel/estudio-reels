@@ -191,7 +191,9 @@
   {
    "titulo": "A verdadeira história da Represa Hoover",
    "angulo": "Como a barragem foi erguida nos anos 1930 em plena Depressão, o concreto resfriado por tubos e a cidade criada só para os operários. Também mostra o nível atual do Lago Mead e o que isso diz sobre o futuro.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261117",
+   "em": "2026-11-17"
   },
   {
    "titulo": "Como o GPS sabe onde você está?",
@@ -214,5 +216,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-16"
+ "ultimaGeracao": "2026-11-17"
 }
