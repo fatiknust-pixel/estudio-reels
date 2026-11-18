@@ -198,7 +198,9 @@
   {
    "titulo": "Como o GPS sabe onde você está?",
    "angulo": "Explica com analogias simples os satélites, os relógios atômicos e a correção da relatividade, que sem ajuste causaria erros de quilômetros por dia. Mostra a origem militar e como o Brasil e outros países dependem do sinal.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261118",
+   "em": "2026-11-18"
   },
   {
    "titulo": "O arco gigante que cobriu Chernobyl",
@@ -216,5 +218,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-17"
+ "ultimaGeracao": "2026-11-18"
 }
