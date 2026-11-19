@@ -205,7 +205,9 @@
   {
    "titulo": "O arco gigante que cobriu Chernobyl",
    "angulo": "Como o Novo Confinamento Seguro, o maior objeto móvel terrestre já construído, foi montado ao lado do reator e deslizado sobre o sarcófago em 2016. A tese: engenharia feita para durar 100 anos e para ser desmontada por robôs.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261119",
+   "em": "2026-11-19"
   },
   {
    "titulo": "As ilhas artificiais de Dubai: mágica ou erro?",
@@ -218,5 +220,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-18"
+ "ultimaGeracao": "2026-11-19"
 }
