@@ -212,7 +212,9 @@
   {
    "titulo": "As ilhas artificiais de Dubai: mágica ou erro?",
    "angulo": "Como a Palm Jumeirah foi feita com areia dragada e rochas, quais foram os problemas de circulação da água e do meio ambiente, e o que mudou nos projetos seguintes. Análise equilibrada, com dados e mais de uma visão.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261120",
+   "em": "2026-11-20"
   },
   {
    "titulo": "O que aconteceu com o Hyperloop?",
@@ -220,5 +222,5 @@
    "estado": "pendente"
   }
  ],
- "ultimaGeracao": "2026-11-19"
+ "ultimaGeracao": "2026-11-20"
 }
