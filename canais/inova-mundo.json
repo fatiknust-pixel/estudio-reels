@@ -219,8 +219,10 @@
   {
    "titulo": "O que aconteceu com o Hyperloop?",
    "angulo": "Da proposta de Elon Musk em 2013 às empresas que quebraram, como a Virgin Hyperloop. Explica o que a física promete, por que o custo e a segurança travaram tudo e o que sobrou de útil da ideia.",
-   "estado": "pendente"
+   "estado": "gerado",
+   "projeto": "inova-mundo-20261121",
+   "em": "2026-11-21"
   }
  ],
- "ultimaGeracao": "2026-11-20"
+ "ultimaGeracao": "2026-11-21"
 }
